@@ -1,54 +1,122 @@
 {
-  "generated_at": "2026-08-25T16:10:52.072Z",
+  "generated_at": "2026-08-25T16:55:52.820Z",
   "status": "pass",
   "source_status": "active",
   "full_bulletin_exists": true,
   "restored_from_cache": false,
-  "match_count": 90,
-  "live_match_count": 29,
-  "finished_count": 0,
+  "match_count": 86,
+  "live_match_count": 30,
+  "finished_count": 3,
   "first_match": {
     "date": "2026-08-25",
-    "time": "17:00",
-    "league": "Kazakistan Premier Lig",
-    "home": "Tobol Kostanay",
-    "away": "Kaisar",
-    "matchCode": "08429",
-    "mbs": null,
+    "time": "18:00",
+    "league": "Çek Cumhuriyeti Kupa 2.Tur",
+    "home": "Fk Varnsdorf",
+    "away": "Usti Nad Labem",
     "status": "live",
     "liveStatus": "live",
-    "minute": 24,
+    "minute": 3,
     "score": "",
-    "source": "Maçkolik İddaa Futbol",
-    "odds": {
-      "bttsYes": 1.07,
-      "bttsNo": 1.11,
-      "ms1": 1.57,
-      "msx": 3.26,
-      "ms2": 3.75,
-      "under25": 1.73,
-      "over25": 1.58
-    },
+    "source": "Maçkolik canlı robot",
+    "matchCode": "05819",
     "available_odds": {
-      "bttsYes": 1.07,
-      "bttsNo": 1.11,
-      "ms1": 1.57,
-      "msx": 3.26,
-      "ms2": 3.75,
-      "under25": 1.73,
-      "over25": 1.58
+      "ms1": 5.3,
+      "msx": 4.38,
+      "ms2": 1.26
+    },
+    "odds": {
+      "ms1": 5.3,
+      "msx": 4.38,
+      "ms2": 1.26
     },
     "raw_market_guess_odds": {
-      "ms1": 1.57,
-      "msx": 3.26,
-      "ms2": 3.75,
-      "under25": 1.73,
-      "over25": 1.58,
-      "bttsYes_guess": 1.07,
-      "bttsNo_guess": 1.11
+      "ms1": 5.3,
+      "msx": 4.38,
+      "ms2": 1.26
     },
     "raw_odds_sequence": [],
-    "raw_market_value_count": 7
+    "market_odds_inventory": [
+      "ms1",
+      "msx",
+      "ms2",
+      "over25",
+      "under25",
+      "over35",
+      "under35",
+      "bttsYes",
+      "bttsNo",
+      "firstHalfBttsYes",
+      "firstHalfBttsNo",
+      "secondHalfBttsYes",
+      "secondHalfBttsNo"
+    ],
+    "wide_market_odds_count": 3,
+    "suggested_option": "MS 2",
+    "suggested_odds": "1.26",
+    "analysis_score": 50,
+    "confidence": "50%",
+    "risk_level": "Yüksek",
+    "decision": "İzleme",
+    "robot_reason": "Market: MS 2 | Oran: 1.26 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
+    "include_in_coupon": false,
+    "raw_market_value_count": 3,
+    "mbs": null,
+    "raw_market_blocks": [],
+    "detail_market_candidates": [],
+    "detail_markets": [
+      {
+        "key": "ms1",
+        "label": "MS 1",
+        "odd": 5.3,
+        "source": "Maçkolik canlı robot"
+      },
+      {
+        "key": "msx",
+        "label": "MS X",
+        "odd": 4.38,
+        "source": "Maçkolik canlı robot"
+      },
+      {
+        "key": "ms2",
+        "label": "MS 2",
+        "odd": 1.26,
+        "source": "Maçkolik canlı robot"
+      }
+    ],
+    "raw_market_source": "Maçkolik canlı robot",
+    "oddsSource": "Maçkolik canlı robot",
+    "detail": {
+      "analysis": "Market: MS 2 | Oran: 1.26 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
+      "prediction": "İzleme",
+      "confidence": 50,
+      "risk": "Yüksek",
+      "team_info": {
+        "home": null,
+        "away": null
+      },
+      "league_info": null,
+      "goal_expectation": null,
+      "markets": [
+        {
+          "key": "ms1",
+          "label": "MS 1",
+          "odd": 5.3,
+          "source": "Maçkolik canlı robot"
+        },
+        {
+          "key": "msx",
+          "label": "MS X",
+          "odd": 4.38,
+          "source": "Maçkolik canlı robot"
+        },
+        {
+          "key": "ms2",
+          "label": "MS 2",
+          "odd": 1.26,
+          "source": "Maçkolik canlı robot"
+        }
+      ]
+    }
   },
   "date_window": {
     "main_day": "2026-08-25",
