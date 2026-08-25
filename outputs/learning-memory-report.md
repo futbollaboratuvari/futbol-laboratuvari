@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 02:06:15
+Oluşturma: 26.08.2026 02:12:32
 
 ## Özet
 
-- Toplam tahmin: 1265
-- Bekleyen tahmin: 906
+- Toplam tahmin: 1267
+- Bekleyen tahmin: 908
 - Kazanan tahmin: 147
 - Kaybeden tahmin: 211
 - Lig sayısı: 197
@@ -21,14 +21,16 @@ Oluşturma: 26.08.2026 02:06:15
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 46, bekleyen 29, başarı %88, ağırlık 1.12
-- 2.5 Alt: toplam 154, bekleyen 104, başarı %72, ağırlık 1.12
-- MS 1: toplam 203, bekleyen 152, başarı %35, ağırlık 0.88
+- 2.5 Alt: toplam 155, bekleyen 105, başarı %72, ağırlık 1.12
+- MS 1: toplam 204, bekleyen 153, başarı %35, ağırlık 0.88
 - MS 2: toplam 337, bekleyen 213, başarı %34, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | İngiltere Non League Premier Kuzey | Avro - Leek Town | 2.5 Alt | pending | 64/100
+- 2026-08-26 | AFF Şampiyonası Final | Vietnam (2) - (0) Tayland | MS 1 | pending | 37/100
 - 2026-08-26 | Bolivya Premier Lig | San Antonio Bu - The Strongest | 2.5 Alt | pending | 62/100
 - 2026-08-26 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Hannover 96 (Am | 2.5 Alt | pending | 62/100
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup B | El Vigia - Atletico Barina | 2.5 Üst | pending | 64/100
@@ -42,6 +44,4 @@ Oluşturma: 26.08.2026 02:06:15
 - 2026-08-26 | Gürcistan David Kipiani Kupası Çeyrek Final | Torpedo Kutais - Dinamo Batumi | MS 1 | pending | 36/100
 - 2026-08-26 | Güney Afrika PSL | Golden Arrows - Stellenbosch Fc | MS 1 | pending | 36/100
 - 2026-08-26 | Güney Afrika PSL | Richards Bay - Kaizer Chiefs | MS 2 | pending | 42/100
-- 2026-08-26 | Güney Afrika PSL | Polokwane City - Milford | MS 1 | pending | 41/100
-- 2026-08-26 | Güney Afrika PSL | Mamelodi Sundo - Amazulu | 2.5 Alt | pending | 64/100
 
