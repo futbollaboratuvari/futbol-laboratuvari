@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-26T12:52:42.410400+00:00
+Tarih: 2026-08-26T13:56:45.316195+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 145
-- Kac mac kaydedildi: 6
-- Kac mac zaten vardi: 139
+- Kac mac bulundu: 144
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 144
 - Ham veri havuzu toplam mac sayisi: 9242
 - Hedef tarih: 26.08.2026 Europe/Istanbul
 
@@ -16,7 +16,6 @@ Tarih: 2026-08-26T12:52:42.410400+00:00
 
 - ABD USL
 - ABD USL Lig 1
-- AFF Şampiyonası Final
 - Almanya Bölgesel Lig Kuzey
 - Arjantin Kupa Son 16 Turu
 - Arjantin Ulusal Primera Lig
@@ -42,10 +41,8 @@ Tarih: 2026-08-26T12:52:42.410400+00:00
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
-- Malezya Süper Lig
 - Mısır Premier Lig
 - Norveç 1.Lig
-- Norveç 2.Lig Grup 2
 - Norveç NM Kupası 1.Tur
 - Paraguay Kupa 3.Tur
 - Suudi Arabistan 1.Lig
@@ -124,8 +121,8 @@ Tarih: 2026-08-26T12:52:42.410400+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 59
-- Acilan detay: 59
+- Denenen Tumu alani: 56
+- Acilan detay: 56
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -138,26 +135,26 @@ Tarih: 2026-08-26T12:52:42.410400+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Lyon (1) | (1) Fenerbahçe | 06471 | 5 |
 | 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Celje (1) | (1) Slovan Bratisla | 06619 | 5 |
-| 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Viking (2) | (2) Dinamo Zagreb | 06795 | 5 |
 | 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Aek (0) | (0) Levski Sofya | 06322 | 5 |
+| 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Viking (2) | (2) Dinamo Zagreb | 06795 | 5 |
+| 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Lyon (1) | (1) Fenerbahçe | 06471 | 5 |
 | 26.08.2026 | 19:45 | UEFA Konferans Ligi Play Off | Rapid Wien (2) | (2) Hearts | 06151 | 5 |
 | 26.08.2026 | 22:00 | İspanya LaLiga | Real Madrid | Real Sociedad | 16821 | 5 |
-| 26.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Diriyah | Al Kholood | 21358 | 5 |
 | 26.08.2026 | 19:00 | Suudi Arabistan Pro Lig | Al Faisaly | Al Fateh | 21316 | 5 |
-| 26.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Newcastle Utd | West Bromwich | 13573 | 5 |
-| 26.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Bradford | Burnley | 13519 | 5 |
+| 26.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Diriyah | Al Kholood | 21358 | 5 |
 | 26.08.2026 | 22:00 | İngiltere Lig Kupası 2.Tur | Prest | Everton | 13699 | 5 |
 | 26.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Tottenham | Charlton | 13645 | 5 |
+| 26.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Bradford | Burnley | 13519 | 5 |
+| 26.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Newcastle Utd | West Bromwich | 13573 | 5 |
 | 26.08.2026 | 21:00 | FIFA Kıtalararası Kupa 1. Tur | Al Ahli (Cidde | Auckland | 22596 | 5 |
-| 26.08.2026 | 16:00 | AFF Şampiyonası Final | Vietnam (2) | (0) Tayland | 16383 | 5 |
-| 26.08.2026 | 20:00 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Psv Eindhoven | Koge (K) | 19493 | 5 |
-| 26.08.2026 | 20:00 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Czarni Sosnowi | Oh Leuven (K) | 07955 | 5 |
-| 26.08.2026 | 21:45 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | St. Pölten (K) | Juventus (K) | 19803 | 4 |
 | 26.08.2026 | 20:30 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Ajax (K) | Real Madrid (K) | 19786 | 3 |
+| 26.08.2026 | 21:45 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | St. Pölten (K) | Juventus (K) | 19803 | 4 |
+| 26.08.2026 | 20:00 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Psv Eindhoven | Koge (K) | 19493 | 5 |
+| 26.08.2026 | 20:45 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Chelsea (K) | Real Sociedad ( | 08794 | 3 |
 | 26.08.2026 | 19:00 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Wolfsburg (K) | Inter Milano (K | 04511 | 3 |
 | 26.08.2026 | 19:30 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Sparta Prague | Servette Chenoi | 07934 | 5 |
+| 26.08.2026 | 20:00 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | E. Frankfurt ( | Psg (K) | 07977 | 5 |
 
 ## Sonuc
 

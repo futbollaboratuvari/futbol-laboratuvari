@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 141
 - Live match count: 4
-- Finished removed count: 1
+- Finished removed count: 0
 - Date window: 2026-08-26 / 2026-08-27 23:59
 
 - 2026-08-26 15:15 | Johor Dt - Kelantan Red Wa | live
