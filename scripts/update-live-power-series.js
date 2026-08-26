@@ -228,7 +228,10 @@ function statisticsMap(rows) {
   (Array.isArray(rows) ? rows : []).forEach((row) => {
     const key = statKey(row?.name || row?.label || row?.abbreviation || row?.type);
     const display = row?.displayValue ?? row?.value;
-    if (key) map.set(key, display);
+    if (key) {
+      map.set(key, display);
+      map.set(key.replace(/\s+/g, ''), display);
+    }
   });
   return map;
 }
