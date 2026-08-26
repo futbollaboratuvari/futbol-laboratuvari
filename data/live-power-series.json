@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-26T22:28:21.304Z",
+  "generated_at": "2026-08-26T22:35:05.260Z",
   "timezone": "Europe/Istanbul",
   "status": "ok",
   "source": "ESPN Scoreboard + ESPN Core/Summary",
@@ -13,7 +13,7 @@
     "paid_api_required": false
   },
   "summary": {
-    "espn_live_event_count": 6,
+    "espn_live_event_count": 7,
     "site_candidate_count": 140,
     "matched_fixture_count": 4,
     "sampled_match_count": 3,
@@ -102,11 +102,59 @@
               "dangerous_attacks": 0
             }
           }
+        },
+        {
+          "minute": 35,
+          "recorded_at": "2026-08-26T22:35:05.260Z",
+          "observed": true,
+          "interpolated": false,
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "team_power": {
+            "home": 73,
+            "away": 27
+          },
+          "goal_power": {
+            "home": 3,
+            "away": 0
+          },
+          "momentum": {
+            "home": 0,
+            "away": 0
+          },
+          "stats": {
+            "home": {
+              "shots_on_goal": 0,
+              "total_shots": 3,
+              "shots_inside_box": 0,
+              "blocked_shots": 0,
+              "corners": 0,
+              "possession": 52.5,
+              "accurate_passes": 140,
+              "total_passes": 168,
+              "expected_goals": 0,
+              "dangerous_attacks": 0
+            },
+            "away": {
+              "shots_on_goal": 0,
+              "total_shots": 0,
+              "shots_inside_box": 0,
+              "blocked_shots": 0,
+              "corners": 0,
+              "possession": 47.5,
+              "accurate_passes": 120,
+              "total_passes": 154,
+              "expected_goals": 0,
+              "dangerous_attacks": 0
+            }
+          }
         }
       ],
       "current": {
-        "minute": 28,
-        "recorded_at": "2026-08-26T22:28:21.304Z",
+        "minute": 35,
+        "recorded_at": "2026-08-26T22:35:05.260Z",
         "observed": true,
         "interpolated": false,
         "score": {
@@ -114,16 +162,16 @@
           "away": 0
         },
         "team_power": {
-          "home": 74,
-          "away": 26
+          "home": 73,
+          "away": 27
         },
         "goal_power": {
-          "home": 4,
+          "home": 3,
           "away": 0
         },
         "momentum": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "stats": {
           "home": {
@@ -132,9 +180,9 @@
             "shots_inside_box": 0,
             "blocked_shots": 0,
             "corners": 0,
-            "possession": 54.3,
-            "accurate_passes": 119,
-            "total_passes": 146,
+            "possession": 52.5,
+            "accurate_passes": 140,
+            "total_passes": 168,
             "expected_goals": 0,
             "dangerous_attacks": 0
           },
@@ -144,22 +192,22 @@
             "shots_inside_box": 0,
             "blocked_shots": 0,
             "corners": 0,
-            "possession": 45.7,
-            "accurate_passes": 93,
-            "total_passes": 124,
+            "possession": 47.5,
+            "accurate_passes": 120,
+            "total_passes": 154,
             "expected_goals": 0,
             "dangerous_attacks": 0
           }
         }
       },
-      "updated_at": "2026-08-26T22:28:21.304Z"
+      "updated_at": "2026-08-26T22:35:05.260Z"
     },
     {
       "fixture_id": "401896915",
       "provider_event_id": "401896915",
       "provider_league_id": "8107",
       "status": "live",
-      "api_status": "STATUS_IN_PROGRESS",
+      "api_status": "STATUS_FIRST_HALF",
       "date": "2026-08-26",
       "league": "Arjantin Kupa Son 16 Turu",
       "home": "Aldosivi",
@@ -232,57 +280,105 @@
               "dangerous_attacks": 0
             }
           }
+        },
+        {
+          "minute": 18,
+          "recorded_at": "2026-08-26T22:35:05.260Z",
+          "observed": true,
+          "interpolated": false,
+          "score": {
+            "home": 0,
+            "away": 1
+          },
+          "team_power": {
+            "home": 32,
+            "away": 68
+          },
+          "goal_power": {
+            "home": 22,
+            "away": 39
+          },
+          "momentum": {
+            "home": 46,
+            "away": 54
+          },
+          "stats": {
+            "home": {
+              "shots_on_goal": 2,
+              "total_shots": 2,
+              "shots_inside_box": 0,
+              "blocked_shots": 0,
+              "corners": 0,
+              "possession": 36.5,
+              "accurate_passes": 30,
+              "total_passes": 61,
+              "expected_goals": 0,
+              "dangerous_attacks": 0
+            },
+            "away": {
+              "shots_on_goal": 2,
+              "total_shots": 6,
+              "shots_inside_box": 0,
+              "blocked_shots": 3,
+              "corners": 0,
+              "possession": 63.5,
+              "accurate_passes": 69,
+              "total_passes": 94,
+              "expected_goals": 0,
+              "dangerous_attacks": 0
+            }
+          }
         }
       ],
       "current": {
-        "minute": 11,
-        "recorded_at": "2026-08-26T22:28:21.304Z",
+        "minute": 18,
+        "recorded_at": "2026-08-26T22:35:05.260Z",
         "observed": true,
         "interpolated": false,
         "score": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "team_power": {
-          "home": 12,
-          "away": 88
+          "home": 32,
+          "away": 68
         },
         "goal_power": {
-          "home": 0,
-          "away": 29
+          "home": 22,
+          "away": 39
         },
         "momentum": {
-          "home": null,
-          "away": null
+          "home": 46,
+          "away": 54
         },
         "stats": {
           "home": {
-            "shots_on_goal": 0,
-            "total_shots": 0,
+            "shots_on_goal": 2,
+            "total_shots": 2,
             "shots_inside_box": 0,
             "blocked_shots": 0,
             "corners": 0,
-            "possession": 38.1,
-            "accurate_passes": 16,
-            "total_passes": 37,
+            "possession": 36.5,
+            "accurate_passes": 30,
+            "total_passes": 61,
             "expected_goals": 0,
             "dangerous_attacks": 0
           },
           "away": {
-            "shots_on_goal": 1,
-            "total_shots": 4,
+            "shots_on_goal": 2,
+            "total_shots": 6,
             "shots_inside_box": 0,
             "blocked_shots": 3,
             "corners": 0,
-            "possession": 61.9,
-            "accurate_passes": 37,
-            "total_passes": 53,
+            "possession": 63.5,
+            "accurate_passes": 69,
+            "total_passes": 94,
             "expected_goals": 0,
             "dangerous_attacks": 0
           }
         }
       },
-      "updated_at": "2026-08-26T22:28:21.304Z"
+      "updated_at": "2026-08-26T22:35:05.260Z"
     },
     {
       "fixture_id": "401878025",
@@ -362,11 +458,59 @@
               "dangerous_attacks": 0
             }
           }
+        },
+        {
+          "minute": 76,
+          "recorded_at": "2026-08-26T22:35:05.260Z",
+          "observed": true,
+          "interpolated": false,
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "team_power": {
+            "home": 57,
+            "away": 43
+          },
+          "goal_power": {
+            "home": 6,
+            "away": 4
+          },
+          "momentum": {
+            "home": 6,
+            "away": 6
+          },
+          "stats": {
+            "home": {
+              "shots_on_goal": 1,
+              "total_shots": 8,
+              "shots_inside_box": 0,
+              "blocked_shots": 2,
+              "corners": 0,
+              "possession": 44.7,
+              "accurate_passes": 174,
+              "total_passes": 228,
+              "expected_goals": 0,
+              "dangerous_attacks": 0
+            },
+            "away": {
+              "shots_on_goal": 1,
+              "total_shots": 4,
+              "shots_inside_box": 0,
+              "blocked_shots": 2,
+              "corners": 0,
+              "possession": 55.3,
+              "accurate_passes": 223,
+              "total_passes": 292,
+              "expected_goals": 0,
+              "dangerous_attacks": 0
+            }
+          }
         }
       ],
       "current": {
-        "minute": 69,
-        "recorded_at": "2026-08-26T22:28:21.304Z",
+        "minute": 76,
+        "recorded_at": "2026-08-26T22:35:05.260Z",
         "observed": true,
         "interpolated": false,
         "score": {
@@ -374,45 +518,45 @@
           "away": 0
         },
         "team_power": {
-          "home": 59,
-          "away": 41
+          "home": 57,
+          "away": 43
         },
         "goal_power": {
           "home": 6,
           "away": 4
         },
         "momentum": {
-          "home": null,
-          "away": null
+          "home": 6,
+          "away": 6
         },
         "stats": {
           "home": {
             "shots_on_goal": 1,
-            "total_shots": 7,
+            "total_shots": 8,
             "shots_inside_box": 0,
             "blocked_shots": 2,
             "corners": 0,
-            "possession": 43.4,
-            "accurate_passes": 155,
-            "total_passes": 202,
+            "possession": 44.7,
+            "accurate_passes": 174,
+            "total_passes": 228,
             "expected_goals": 0,
             "dangerous_attacks": 0
           },
           "away": {
             "shots_on_goal": 1,
-            "total_shots": 3,
+            "total_shots": 4,
             "shots_inside_box": 0,
-            "blocked_shots": 1,
+            "blocked_shots": 2,
             "corners": 0,
-            "possession": 56.6,
-            "accurate_passes": 207,
-            "total_passes": 269,
+            "possession": 55.3,
+            "accurate_passes": 223,
+            "total_passes": 292,
             "expected_goals": 0,
             "dangerous_attacks": 0
           }
         }
       },
-      "updated_at": "2026-08-26T22:28:21.304Z"
+      "updated_at": "2026-08-26T22:35:05.260Z"
     }
   ],
   "recent_matches": [],
@@ -420,6 +564,15 @@
     "401896915: summary site.web.api.espn.com/apis/site/v2/sports/soccer/8107/summary: HTTP 400: {\"code\":400,\"message\":\"Error invoking GET: http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/8107/events/40189691",
     "401896915: summary site.web.api.espn.com/apis/site/v3/sports/soccer/8107/summary: HTTP 404: {\"code\":404}",
     "401896915: summary site.api.espn.com/apis/site/v2/sports/soccer/8107/summary: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"ht",
+    "401878025: core stats /v2/sports/soccer/leagues/650/events/401878025/competitions/401878025/competitors/5480/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/650).\",\"code\":400}}",
+    "401878025: core stats /v2/sports/soccer/leagues/650/events/401878025/competitions/401878025/competitors/5480/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/650).\",\"code\":400}}",
+    "401878025: core competitor: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/650).\",\"code\":400}}",
+    "401878025: core stats /v2/sports/soccer/leagues/650/events/401878025/competitions/401878025/competitors/4928/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/650).\",\"code\":400}}",
+    "401878025: core stats /v2/sports/soccer/leagues/650/events/401878025/competitions/401878025/competitors/4928/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/650).\",\"code\":400}}",
+    "401878025: core competitor: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/650).\",\"code\":400}}",
+    "401878025: summary site.web.api.espn.com/apis/site/v2/sports/soccer/650/summary: HTTP 400: {\"code\":400,\"message\":\"Error invoking GET: http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/650/events/401878025",
+    "401878025: summary site.web.api.espn.com/apis/site/v3/sports/soccer/650/summary: HTTP 404: {\"code\":404}",
+    "401878025: summary site.api.espn.com/apis/site/v2/sports/soccer/650/summary: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"ht",
     "401899675: core stats /v2/sports/soccer/leagues/3943/events/401899675/competitions/401899675/competitors/21092/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/3943).\",\"code\":400}}",
     "401899675: core stats /v2/sports/soccer/leagues/3943/events/401899675/competitions/401899675/competitors/21092/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/3943).\",\"code\":400}}",
     "401899675: core competitor: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/3943).\",\"code\":400}}",
@@ -431,15 +584,6 @@
     "401899675: summary site.api.espn.com/apis/site/v2/sports/soccer/3943/summary: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"ht",
     "401899675: summary empty: /apis/site/v2/sports/soccer/all/summary",
     "401899675: summary site.web.api.espn.com/apis/site/v3/sports/soccer/all/summary: HTTP 404: {\"code\":404}",
-    "401899675: summary site.api.espn.com/apis/site/v2/sports/soccer/all/summary: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"ht",
-    "401878025: core stats /v2/sports/soccer/leagues/650/events/401878025/competitions/401878025/competitors/5480/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/650).\",\"code\":400}}",
-    "401878025: core stats /v2/sports/soccer/leagues/650/events/401878025/competitions/401878025/competitors/5480/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/650).\",\"code\":400}}",
-    "401878025: core competitor: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/650).\",\"code\":400}}",
-    "401878025: core stats /v2/sports/soccer/leagues/650/events/401878025/competitions/401878025/competitors/4928/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/650).\",\"code\":400}}",
-    "401878025: core stats /v2/sports/soccer/leagues/650/events/401878025/competitions/401878025/competitors/4928/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/650).\",\"code\":400}}",
-    "401878025: core competitor: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/650).\",\"code\":400}}",
-    "401878025: summary site.web.api.espn.com/apis/site/v2/sports/soccer/650/summary: HTTP 400: {\"code\":400,\"message\":\"Error invoking GET: http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/650/events/401878025",
-    "401878025: summary site.web.api.espn.com/apis/site/v3/sports/soccer/650/summary: HTTP 404: {\"code\":404}",
-    "401878025: summary site.api.espn.com/apis/site/v2/sports/soccer/650/summary: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"ht"
+    "401899675: summary site.api.espn.com/apis/site/v2/sports/soccer/all/summary: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"ht"
   ]
 }
