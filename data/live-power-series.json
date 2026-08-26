@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": null,
+  "generated_at": "2026-08-26T21:15:02.885Z",
   "timezone": "Europe/Istanbul",
-  "status": "waiting_first_sample",
-  "source": "API-Football live fixture statistics",
+  "status": "waiting_api_key",
+  "source": "API-Football statistics",
   "source_verified": true,
   "sampling": {
     "workflow_interval_minutes": 30,
@@ -18,7 +18,8 @@
     "matched_fixture_count": 0,
     "sampled_match_count": 0
   },
-  "message": "İlk doğrulanmış canlı istatistik örneği bekleniyor; sahte grafik üretilmez.",
+  "message": "Canli guc verisi icin API_FOOTBALL_KEY bekleniyor. Eski dogrulanmis veriler korunuyor.",
   "matches": [],
-  "recent_matches": []
+  "recent_matches": [],
+  "last_attempt_at": "2026-08-26T21:15:02.885Z"
 }
