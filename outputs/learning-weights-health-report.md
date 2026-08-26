@@ -1,7 +1,7 @@
 # Ogrenme Agirlik Saglik Kontrolu
 
 Durum: active
-Tahmin sayisi: 1291
+Tahmin sayisi: 1294
 Hazir market hafizasi: 5/7
 Hazir lig hafizasi: 34/197
 Hazir lig+market hafizasi: 19/538
