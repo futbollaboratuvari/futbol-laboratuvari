@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-26 / 2026-08-27
 Kaynak: fixtures.json
-Ham mac: 160
+Ham mac: 172
 Aktif mac: 160
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
+Biten mac: 12
+Bultenden dusurulen mac: 12
 Bugun: 134
 Yarin: 26
 
@@ -176,4 +176,15 @@ Yarin: 26
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-26 00:30 | Paraguay Kupa 3.Tur | Sol De America - Sportivo Trinid | finished | -
+- 2026-08-26 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Godoy Cruz | finished | -
+- 2026-08-26 01:30 | Brezilya Serie B | Atletico Goian - Botafogo Ribeir | finished | -
+- 2026-08-26 01:30 | Brezilya Serie B | Juventude - Regatas | finished | -
+- 2026-08-26 02:00 | Bolivya Premier Lig | Universitario - Nacional Potosi | finished | -
+- 2026-08-26 03:00 | Brezilya Kupa Çeyrek Final | Cruzeiro - Atletico Mg | finished | -
+- 2026-08-26 03:30 | CONCACAF Ligler Kupası Çeyrek Final | Monterrey - Chicago | finished | -
+- 2026-08-26 03:30 | Copa Libertadores Son 16 Turu | Indep. Jose Te (1) - (0) Deportes Tolima | finished | -
+- 2026-08-26 04:00 | Kolombiya Primera A Clausura | Depor Cucuta - Alianza Petrole | finished | -
+- 2026-08-26 05:30 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon - Salt Lake | finished | -
+- 2026-08-26 05:30 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines - Deportivo Fas | finished | -
+- 2026-08-26 05:30 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Depor Motagua | finished | -

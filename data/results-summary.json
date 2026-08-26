@@ -1,9 +1,63 @@
 {
-  "generated_at": "2026-08-26T05:17:45.680Z",
+  "generated_at": "2026-08-26T05:54:26.806Z",
   "date": "2026-08-26",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
   "completed_items": [
+    {
+      "id": "2026-08-26|concacaf ligler kupasi ceyrek final|club leon salt lake|2 5 alt|05 30",
+      "date": "2026-08-26",
+      "time": "05:30",
+      "title": "Club Leon - Salt Lake",
+      "match": "Club Leon - Salt Lake",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.89",
+      "score": "3-0",
+      "result_score": "3-0",
+      "confidence": "54%",
+      "confidence_score": "54%",
+      "model_score": 54,
+      "estimated_probability": 43.6,
+      "market_probability": 43.6,
+      "edge_percent": 0,
+      "data_completeness": 42,
+      "model_version": "pro13-market-conditioned-v1",
+      "risk": "Yüksek",
+      "status": "lost",
+      "result": "lost",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-08-26T05:54:26.683Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-08-26|concacaf orta amerika kupasi grup d|municipal depor motagua|2 5 alt|05 30",
+      "date": "2026-08-26",
+      "time": "05:30",
+      "title": "Municipal - Depor Motagua",
+      "match": "Municipal - Depor Motagua",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.44",
+      "score": "1-1",
+      "result_score": "1-1",
+      "confidence": "64%",
+      "confidence_score": "64%",
+      "model_score": 64,
+      "estimated_probability": 57.5,
+      "market_probability": 57.5,
+      "edge_percent": 0,
+      "data_completeness": 42,
+      "model_version": "pro13-market-conditioned-v1",
+      "risk": "Yüksek",
+      "status": "won",
+      "result": "won",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-08-26T05:54:26.683Z",
+      "source": "Robot ham veri havuzu"
+    },
     {
       "id": "2026-08-26|concacaf ligler kupasi ceyrek final|monterrey chicago|ms 2|03 30",
       "date": "2026-08-26",
@@ -759,72 +813,18 @@
       "market_group_label": "Maç Sonucu",
       "finalized_at": "2026-08-25T20:48:33.287Z",
       "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-08-25|iskocya challenge kupasi lig asamasi|bonnyrigg rose rangers ii|ms 2|21 45",
-      "date": "2026-08-25",
-      "time": "21:45",
-      "title": "Bonnyrigg Rose - Rangers Ii",
-      "match": "Bonnyrigg Rose - Rangers Ii",
-      "market": "MS 2",
-      "prediction": "MS 2",
-      "odds": "1.63",
-      "score": "2-1",
-      "result_score": "2-1",
-      "confidence": "38%",
-      "confidence_score": "38%",
-      "model_score": 38,
-      "estimated_probability": 50.8,
-      "market_probability": 50.8,
-      "edge_percent": 0,
-      "data_completeness": 43,
-      "model_version": "pro13-market-conditioned-v1",
-      "risk": "Yüksek",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-08-25T20:48:33.287Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-08-25|ingiltere lig kupasi 2 tur|barnsley crewe|ms 1|21 45",
-      "date": "2026-08-25",
-      "time": "21:45",
-      "title": "Barnsley - Crewe",
-      "match": "Barnsley - Crewe",
-      "market": "MS 1",
-      "prediction": "MS 1",
-      "odds": "1.48",
-      "score": "3-2",
-      "result_score": "3-2",
-      "confidence": "45%",
-      "confidence_score": "45%",
-      "model_score": 45,
-      "estimated_probability": 57.4,
-      "market_probability": 57.4,
-      "edge_percent": 0,
-      "data_completeness": 46,
-      "model_version": "pro13-market-conditioned-v1",
-      "risk": "Yüksek",
-      "status": "won",
-      "result": "won",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-08-25T20:48:33.287Z",
-      "source": "Robot ham veri havuzu"
     }
   ],
   "performance": {
-    "prediction_count": 1276,
-    "measured_count": 363,
-    "pending_count": 912,
-    "won_count": 151,
-    "lost_count": 212,
+    "prediction_count": 1281,
+    "measured_count": 365,
+    "pending_count": 915,
+    "won_count": 152,
+    "lost_count": 213,
     "void_count": 1,
     "success_rate": 42,
-    "probability_sample_count": 117,
-    "brier_score": 0.2137,
+    "probability_sample_count": 119,
+    "brier_score": 0.2132,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -838,18 +838,18 @@
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 25,
+        "predictions": 26,
         "won": 10,
         "average_probability": 45,
-        "observed_rate": 40
+        "observed_rate": 38.5
       },
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 54,
-        "won": 41,
-        "average_probability": 54.4,
-        "observed_rate": 75.9
+        "predictions": 55,
+        "won": 42,
+        "average_probability": 54.5,
+        "observed_rate": 76.4
       },
       {
         "lower": 60,
@@ -860,7 +860,7 @@
         "observed_rate": 86.2
       }
     ],
-    "verified_at": "2026-08-26T03:19:00.651Z",
+    "verified_at": "2026-08-26T05:54:26.683Z",
     "groups": [
       {
         "key": "match_result",
@@ -873,10 +873,10 @@
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 69,
-        "won": 53,
-        "lost": 16,
-        "success_rate": 77
+        "measured": 71,
+        "won": 54,
+        "lost": 17,
+        "success_rate": 76
       }
     ]
   }
