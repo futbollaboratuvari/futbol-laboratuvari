@@ -1,28 +1,29 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-08-25T07:09:08+03:00
+Güncelleme: 2026-08-26T07:11:06+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 373
-- Sonuçlanan tahmin: 249
-- Yanılma kaydı: 149
+- Toplam tahmin kaydı: 421
+- Sonuçlanan tahmin: 248
+- Yanılma kaydı: 136
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
 
 ## Market Performansı
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| 2.5 Alt | 56 | 23 | 4 | 29 | %85.19 | 1.6 |
-| 2.5 Üst | 20 | 10 | 0 | 10 | %100.0 | 1.8 |
+| - | 1 | 0 | 0 | 1 | %0 | 0 |
+| 2.5 Alt | 96 | 38 | 13 | 45 | %74.51 | 1.62 |
+| 2.5 Üst | 25 | 15 | 2 | 8 | %88.24 | 1.79 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 21 | 0 | 0 | 21 | %0 | 0 |
+| Değerli market yok | 43 | 0 | 0 | 43 | %0 | 0 |
 | Güncel maç değil | 1 | 0 | 0 | 0 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 1 | 75 | 11 | 18 | 46 | %37.93 | 2.25 |
-| MS 2 | 111 | 30 | 63 | 18 | %32.26 | 3.67 |
-| MS X | 89 | 25 | 64 | 0 | %28.09 | 3.25 |
+| MS 1 | 97 | 16 | 25 | 56 | %39.02 | 2.01 |
+| MS 2 | 100 | 25 | 55 | 20 | %31.25 | 3.28 |
+| MS X | 58 | 17 | 41 | 0 | %29.31 | 3.31 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
@@ -30,60 +31,61 @@ Güncelleme: 2026-08-25T07:09:08+03:00
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| 1.01-1.49 | 56 | 17 | 1 | 38 | %94.44 | 1.4 |
-| 1.50-1.99 | 79 | 21 | 5 | 53 | %80.77 | 1.68 |
-| 2.00-2.99 | 57 | 17 | 28 | 12 | %37.78 | 2.58 |
-| 3.00-4.99 | 131 | 41 | 90 | 0 | %31.3 | 3.6 |
-| 5.00+ | 28 | 3 | 25 | 0 | %10.71 | 5.77 |
-| bilinmiyor | 22 | 0 | 0 | 21 | %0 | 0 |
+| 1.01-1.49 | 87 | 26 | 10 | 51 | %72.22 | 1.39 |
+| 1.50-1.99 | 119 | 39 | 16 | 64 | %70.91 | 1.71 |
+| 2.00-2.99 | 57 | 19 | 24 | 14 | %44.19 | 2.37 |
+| 3.00-4.99 | 91 | 25 | 66 | 0 | %27.47 | 3.61 |
+| 5.00+ | 22 | 2 | 20 | 0 | %9.09 | 5.74 |
+| bilinmiyor | 45 | 0 | 0 | 44 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Almanya Bölgesel Lig Kuzey Doğu | 2 | 0 | 0 | 2 | %0 | 1.93 |
-| Arjantin Ulusal Primera Lig | 1 | 0 | 0 | 1 | %0 | 2.09 |
-| Avustralya FFA Kupası Çeyrek Final | 1 | 0 | 0 | 1 | %0 | 0 |
-| Bolivya Premier Lig | 2 | 0 | 0 | 2 | %0 | 1.84 |
-| Brezilya Kupa Çeyrek Final | 1 | 0 | 0 | 1 | %0 | 1.47 |
-| Brezilya Serie B | 2 | 0 | 0 | 2 | %0 | 1.62 |
-| CONCACAF Ligler Kupası Çeyrek Final | 2 | 0 | 0 | 2 | %0 | 1.96 |
-| Copa Libertadores Son 16 Turu | 1 | 0 | 0 | 1 | %0 | 1.38 |
-| Danimarka DBU Kupası 2.Tur | 12 | 0 | 0 | 12 | %0 | 1.62 |
-| Güney Afrika PSL | 4 | 0 | 0 | 4 | %0 | 1.81 |
-| Güney Kore K Lig 1 | 3 | 0 | 0 | 3 | %0 | 1.48 |
-| Irak Premier Lig | 5 | 0 | 0 | 5 | %0 | 1.42 |
+| ABD USL | 2 | 0 | 0 | 2 | %0 | 1.51 |
+| ABD USL Lig 1 | 1 | 0 | 0 | 1 | %0 | 1.94 |
+| AFF Şampiyonası Final | 1 | 0 | 0 | 1 | %0 | 1.59 |
+| Almanya Bölgesel Lig Kuzey | 4 | 0 | 0 | 4 | %0 | 1.6 |
+| Arjantin Kupa Son 16 Turu | 1 | 0 | 0 | 1 | %0 | 1.73 |
+| Arjantin Ulusal Primera Lig | 5 | 0 | 0 | 5 | %0 | 2.01 |
+| Avustralya FFA Kupası Çeyrek Final | 1 | 0 | 0 | 1 | %0 | 1.84 |
+| Bolivya Premier Lig | 3 | 0 | 0 | 3 | %0 | 1.71 |
+| Brezilya Kupa Çeyrek Final | 3 | 0 | 0 | 3 | %0 | 1.5 |
+| Brezilya Serie B | 2 | 0 | 0 | 2 | %0 | 1.68 |
+| CONCACAF Ligler Kupası Çeyrek Final | 5 | 0 | 0 | 5 | %0 | 1.68 |
+| CONCACAF Orta Amerika Kupası Grup A | 2 | 0 | 0 | 2 | %0 | 1.65 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| 1860 Münih | 1 | 0 | 1 | 0 | %0.0 | 4.92 |
-| Abha | 1 | 0 | 1 | 0 | %0.0 | 5.78 |
-| Abha VS Al Khaleej | 1 | 0 | 0 | 1 | %0 | 1.6 |
-| Academia Puerto | 1 | 0 | 1 | 0 | %0.0 | 3.26 |
-| Academico Vise VS Vizela U23 | 1 | 0 | 0 | 1 | %0 | 1.41 |
-| Academico Viseu | 1 | 0 | 1 | 0 | %0.0 | 3.44 |
-| Accrington | 1 | 0 | 1 | 0 | %0.0 | 3.25 |
+| (1) Nijmegen | 1 | 1 | 0 | 0 | %100.0 | 1.37 |
+| Aberdeen Ii | 2 | 0 | 2 | 0 | %0.0 | 2.08 |
+| Abha | 2 | 1 | 1 | 0 | %50.0 | 1.61 |
+| Acassuso VS San Telmo | 1 | 0 | 0 | 1 | %0 | 1.92 |
 | Ad San Carlos | 2 | 2 | 0 | 0 | %100.0 | 3.52 |
-| Adt | 2 | 0 | 2 | 0 | %0.0 | 3.33 |
-| Afc Wimbledon | 1 | 1 | 0 | 0 | %100.0 | 2.91 |
-| Afturelding VS Grotta | 1 | 0 | 0 | 1 | %0 | 0 |
-| Airdrieonians VS Stirling Albion | 1 | 0 | 0 | 1 | %0 | 1.42 |
+| Admira Praha VS Sezimivo Usti | 1 | 0 | 0 | 1 | %0 | 1.34 |
+| Adt | 1 | 0 | 1 | 0 | %0.0 | 2.96 |
+| Aek (0) VS (0) Levski Sofya | 1 | 0 | 0 | 1 | %0 | 1.31 |
+| Airdrieonians | 1 | 0 | 1 | 0 | %0.0 | 1.33 |
+| Ajax (K) VS Real Madrid (K) | 1 | 0 | 0 | 1 | %0 | 0 |
+| Akron | 1 | 0 | 1 | 0 | %0.0 | 3.09 |
+| Al Adalah VS Al Taee | 1 | 0 | 0 | 1 | %0 | 1.77 |
 
 ## Öğrenme Ağırlıkları - Market
 
 | Başlık | Ağırlık | Güven | Sonuçlanan | Öneri |
 |---|---:|---|---:|---|
-| 2.5 Alt | 1.18 | guclu | 27 | Güçlü geçmiş; benzer sinyallerde puanı kontrollü artır. |
-| 2.5 Üst | 1.18 | guclu | 10 | Güçlü geçmiş; benzer sinyallerde puanı kontrollü artır. |
+| - | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| 2.5 Alt | 1.18 | guclu | 51 | Güçlü geçmiş; benzer sinyallerde puanı kontrollü artır. |
+| 2.5 Üst | 1.18 | guclu | 17 | Güçlü geçmiş; benzer sinyallerde puanı kontrollü artır. |
 | 3.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | Değerli market yok | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | Güncel maç değil | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 1 | 0.78 | zayif | 29 | Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür. |
-| MS 2 | 0.78 | zayif | 93 | Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür. |
-| MS X | 0.78 | zayif | 89 | Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür. |
+| MS 1 | 0.9 | dikkat | 41 | Dikkatli kullan; ek doğrulama olmadan yüksek güven verme. |
+| MS 2 | 0.78 | zayif | 80 | Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür. |
+| MS X | 0.78 | zayif | 58 | Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür. |
 | İkinci Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | İlk Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 
@@ -91,23 +93,25 @@ Güncelleme: 2026-08-25T07:09:08+03:00
 
 | Başlık | Ağırlık | Güven | Sonuçlanan | Öneri |
 |---|---:|---|---:|---|
-| 1.01-1.49 | 1.18 | guclu | 18 | Güçlü geçmiş; benzer sinyallerde puanı kontrollü artır. |
-| 1.50-1.99 | 1.18 | guclu | 26 | Güçlü geçmiş; benzer sinyallerde puanı kontrollü artır. |
-| 2.00-2.99 | 0.78 | zayif | 45 | Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür. |
-| 3.00-4.99 | 0.78 | zayif | 131 | Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür. |
-| 5.00+ | 0.78 | zayif | 28 | Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür. |
+| 1.01-1.49 | 1.18 | guclu | 36 | Güçlü geçmiş; benzer sinyallerde puanı kontrollü artır. |
+| 1.50-1.99 | 1.18 | guclu | 55 | Güçlü geçmiş; benzer sinyallerde puanı kontrollü artır. |
+| 2.00-2.99 | 0.9 | dikkat | 43 | Dikkatli kullan; ek doğrulama olmadan yüksek güven verme. |
+| 3.00-4.99 | 0.78 | zayif | 91 | Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür. |
+| 5.00+ | 0.78 | zayif | 22 | Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür. |
 | bilinmiyor | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 
 ## Öğrenme Uyarıları
 
-- market/MS 1: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
+- market/MS 1: Dikkatli kullan; ek doğrulama olmadan yüksek güven verme.
 - market/MS 2: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
 - market/MS X: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
+- team/Al Feiha: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
+- team/Al Taawon: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
+- team/Celtic Ii: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
+- team/Dumbarton: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
 - team/Fiorentina: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
 - team/Roma: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
-- odds/2.00-2.99: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
-- odds/3.00-4.99: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
-- odds/5.00+: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
+- odds/2.00-2.99: Dikkatli kullan; ek doğrulama olmadan yüksek güven verme.
 
 ## Eksik / Takip Edilecek Alanlar
 
