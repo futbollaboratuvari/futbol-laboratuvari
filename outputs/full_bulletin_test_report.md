@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 159
 - Live match count: 3
-- Finished removed count: 1
+- Finished removed count: 0
 - Date window: 2026-08-26 / 2026-08-27 23:59
 
 - 2026-08-26 05:30 | Club Leon - Salt Lake | live
