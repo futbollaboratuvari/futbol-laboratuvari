@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: futbol-main-data-writer
+  group: futbol-live-power-writer
   cancel-in-progress: false
 
 jobs:
@@ -41,7 +41,8 @@ jobs:
         run: node scripts/update-live-power-series.js
 
       - name: Validate output JSON
-        run: node -e "const x=JSON.parse(require('fs').readFileSync('data/live-power-series.json','utf8')); if(!x.source_verified) throw new Error('source not verified'); if(x.sampling?.paid_api_required!==false) throw new Error('paid API flag invalid'); console.log('live-power-series.json OK')"
+        run: |
+          node -e "const x=JSON.parse(require('fs').readFileSync('data/live-power-series.json','utf8')); if(!String(x.source||'').startsWith('ESPN')) throw new Error('free ESPN source missing'); if(x.sampling?.paid_api_required!==false) throw new Error('paid API flag invalid'); if(x.status!=='provider_error' && x.source_verified!==true) throw new Error('source not verified'); if(x.status==='provider_error' && x.source_verified!==false) throw new Error('provider error verification flag invalid'); console.log('live-power-series.json OK')"
 
       - name: Commit live power output
         run: |
