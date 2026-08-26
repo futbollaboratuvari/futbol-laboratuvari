@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-26T12:53:04.996Z
+- Güncelleme: 2026-08-26T13:15:44.581Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -13,9 +13,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Avispa Fukuoka VS Verspah Oita | Japonya İmparatorluk Kupası 2.Tur | 14:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Johor Dt VS Kelantan Red Wa | Malezya Süper Lig | 15:15 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Vietnam (2) VS (0) Tayland | AFF Şampiyonası Final | 16:00 | 2.5 Alt | 1.58 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Rana VS Follo | Norveç 2.Lig Grup 2 | 16:00 | MS 1 | 1.34 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Kuala Lumpur VS Kuching Fa | Malezya Süper Lig | 16:00 | KG Var | 1.87 | 47 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Vietnam (2) VS (0) Tayland | AFF Şampiyonası Final | 16:00 | 2.5 Alt | 1.58 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Rana VS Follo | Norveç 2.Lig Grup 2 | 16:00 | MS 1 | 1.34 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Kuala Lumpur VS Kuching Fa | Malezya Süper Lig | 16:00 | KG Var | 1.87 | 47 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Smouha VS Asyut Petroleum | Mısır Premier Lig | 17:00 | MS 1 | 1.39 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Orsha VS Dinamo Minsk Ii | Belarus 1.Lig | 17:30 | MS 2 | 2.13 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Kozlovice VS Karvina | Çek Cumhuriyeti Kupa 2.Tur | 18:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |

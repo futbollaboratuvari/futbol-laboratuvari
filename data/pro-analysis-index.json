@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-26T12:53:06.329Z",
+  "generated_at": "2026-08-26T13:16:08.839Z",
   "date": "2026-08-26",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı PRO 13",
@@ -131,7 +131,7 @@
       "home": "Vietnam (2)",
       "away": "(0) Tayland",
       "match_code": "16383",
-      "status": "scheduled",
+      "status": "live",
       "recommended_market": "2.5 Alt",
       "model_score": 59,
       "score_type": "signal_strength",
@@ -185,7 +185,7 @@
       "home": "Rana",
       "away": "Follo",
       "match_code": "18360",
-      "status": "scheduled",
+      "status": "live",
       "recommended_market": "MS 1",
       "model_score": 48,
       "score_type": "signal_strength",
@@ -239,28 +239,24 @@
       "home": "Kuala Lumpur",
       "away": "Kuching Fa",
       "match_code": "17211",
-      "status": "scheduled",
-      "recommended_market": "KG Var",
-      "model_score": 47,
+      "status": "filtered_no_value_market",
+      "recommended_market": "Değerli market yok",
+      "model_score": 0,
       "score_type": "signal_strength",
-      "estimated_probability": 53.5,
-      "market_probability": 53.5,
-      "edge_percent": 0,
-      "data_completeness": 13,
+      "estimated_probability": null,
+      "market_probability": null,
+      "edge_percent": null,
+      "data_completeness": 0,
       "data_quality": "Sınırlı",
       "evidence_mode": "market_baseline",
       "independent_evidence": false,
       "probability_source": [],
       "data_gap_risk": "Yüksek",
       "risk_level": "Yüksek",
-      "recommended_odd": 1.87,
+      "recommended_odd": null,
       "include_in_coupon": false,
-      "value_label": "Piyasa ile Uyumlu",
-      "expected_scores": [
-        "1-1",
-        "2-1",
-        "2-2"
-      ],
+      "value_label": "Değerli market yok",
+      "expected_scores": [],
       "metrics": {
         "homeScoredLast10": 4,
         "awayScoredLast10": 4,
@@ -274,13 +270,9 @@
         "leagueGoalAverage": 2.75
       },
       "signals": [
-        "Market: KG Var",
-        "Oran: 1.87",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %53.",
-        "Birleşik tahmini olasılık %53.",
-        "Model-piyasa farkı +0.0 puan."
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Markete özel olasılık ve veri doğrulaması oluşmadı."
       ],
       "model_version": "pro13-market-conditioned-v1",
       "source": "Robot ham veri havuzu"
@@ -2047,7 +2039,18 @@
         "0-2",
         "1-2"
       ],
-      "metrics": {},
+      "metrics": {
+        "homeScoredLast10": 5,
+        "awayScoredLast10": 5,
+        "homeConcededLast10": 3,
+        "awayConcededLast10": 3,
+        "bttsPercent": 36,
+        "over25Percent": 59,
+        "over35Percent": 41,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 42,
+        "leagueGoalAverage": 2.83
+      },
       "signals": [
         "Market: MS 2",
         "Oran: 1.38",
@@ -3611,7 +3614,18 @@
         "2-0",
         "2-1"
       ],
-      "metrics": {},
+      "metrics": {
+        "homeScoredLast10": 6,
+        "awayScoredLast10": 6,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 50,
+        "over25Percent": 67,
+        "over35Percent": 17,
+        "firstHalfGoalTrend": 36,
+        "secondHalfGoalTrend": 56,
+        "leagueGoalAverage": 2.67
+      },
       "signals": [
         "Market: MS 1",
         "Oran: 1.80",
@@ -3654,7 +3668,18 @@
         "1-0",
         "1-1"
       ],
-      "metrics": {},
+      "metrics": {
+        "homeScoredLast10": 6,
+        "awayScoredLast10": 6,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 50,
+        "over25Percent": 67,
+        "over35Percent": 17,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 54,
+        "leagueGoalAverage": 2.67
+      },
       "signals": [
         "Market: 2.5 Alt",
         "Oran: 1.74",
@@ -3697,7 +3722,18 @@
         "1-0",
         "1-1"
       ],
-      "metrics": {},
+      "metrics": {
+        "homeScoredLast10": 6,
+        "awayScoredLast10": 6,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 50,
+        "over25Percent": 67,
+        "over35Percent": 17,
+        "firstHalfGoalTrend": 38,
+        "secondHalfGoalTrend": 58,
+        "leagueGoalAverage": 2.67
+      },
       "signals": [
         "Market: 2.5 Alt",
         "Oran: 1.53",
@@ -3740,7 +3776,18 @@
         "0-2",
         "1-2"
       ],
-      "metrics": {},
+      "metrics": {
+        "homeScoredLast10": 6,
+        "awayScoredLast10": 6,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 50,
+        "over25Percent": 67,
+        "over35Percent": 17,
+        "firstHalfGoalTrend": 38,
+        "secondHalfGoalTrend": 56,
+        "leagueGoalAverage": 2.67
+      },
       "signals": [
         "Market: MS 2",
         "Oran: 1.36",
@@ -3783,7 +3830,18 @@
         "3-1",
         "2-2"
       ],
-      "metrics": {},
+      "metrics": {
+        "homeScoredLast10": 6,
+        "awayScoredLast10": 6,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 50,
+        "over25Percent": 67,
+        "over35Percent": 17,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 54,
+        "leagueGoalAverage": 2.67
+      },
       "signals": [
         "Market: 2.5 Üst",
         "Oran: 1.64",
@@ -4186,7 +4244,18 @@
         "3-1",
         "2-2"
       ],
-      "metrics": {},
+      "metrics": {
+        "homeScoredLast10": 6,
+        "awayScoredLast10": 6,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 50,
+        "over25Percent": 67,
+        "over35Percent": 17,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 53,
+        "leagueGoalAverage": 2.67
+      },
       "signals": [
         "Market: 2.5 Üst",
         "Oran: 1.66",
