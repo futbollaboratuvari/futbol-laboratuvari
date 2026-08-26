@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-26 / 2026-08-27
 Kaynak: fixtures.json
-Ham mac: 171
+Ham mac: 170
 Aktif mac: 166
 Canli mac: 4
-Biten mac: 1
-Bultenden dusurulen mac: 5
+Biten mac: 0
+Bultenden dusurulen mac: 4
 Bugun: 140
 Yarin: 26
 
@@ -185,4 +185,4 @@ Yarin: 26
 - 2026-08-26 02:00 | Bolivya Premier Lig | Universitario - Nacional Potosi | live | -
 
 ## Biten Maclar
-- 2026-08-26 00:30 | Paraguay Kupa 3.Tur | Sol De America - Sportivo Trinid | finished | -
+Biten mac yok.
