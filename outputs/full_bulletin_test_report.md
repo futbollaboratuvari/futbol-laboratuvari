@@ -2,16 +2,16 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 140
-- Live match count: 4
-- Finished removed count: 1
+- Scheduled match count: 139
+- Live match count: 5
+- Finished removed count: 0
 - Date window: 2026-08-26 / 2026-08-27 23:59
 
 - 2026-08-26 16:00 | Vietnam (2) - (0) Tayland | live
 - 2026-08-26 16:00 | Kuala Lumpur - Kuching Fa | live
 - 2026-08-26 16:00 | Rana - Follo | live
 - 2026-08-26 17:00 | Smouha - Asyut Petroleum | live
-- 2026-08-26 17:30 | Orsha - Dinamo Minsk Ii | scheduled
+- 2026-08-26 17:30 | Orsha - Dinamo Minsk Ii | live
 - 2026-08-26 18:00 | Kozlovice - Karvina | scheduled
 - 2026-08-26 18:00 | Sparta Brno - Banik Ostrava | scheduled
 - 2026-08-26 18:00 | Dila Gori - Samgurali | scheduled

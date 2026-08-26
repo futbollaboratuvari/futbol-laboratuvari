@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 17:26:48
+Oluşturma: 26.08.2026 17:46:02
 
 ## Özet
 
-- Toplam tahmin: 1315
-- Bekleyen tahmin: 948
+- Toplam tahmin: 1316
+- Bekleyen tahmin: 949
 - Kazanan tahmin: 152
 - Kaybeden tahmin: 214
 - Lig sayısı: 198
@@ -22,7 +22,7 @@ Oluşturma: 26.08.2026 17:26:48
 
 - 2.5 Üst: toplam 52, bekleyen 35, başarı %88, ağırlık 1.12
 - 2.5 Alt: toplam 181, bekleyen 127, başarı %72, ağırlık 1.12
-- MS 1: toplam 213, bekleyen 160, başarı %38, ağırlık 0.88
+- MS 1: toplam 214, bekleyen 161, başarı %38, ağırlık 0.88
 - MS 2: toplam 343, bekleyen 217, başarı %33, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
@@ -30,6 +30,7 @@ Oluşturma: 26.08.2026 17:26:48
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | Macaristan NB III Güneybatı | Kaposvar - Paksi Fc Ii | MS 1 | pending | 50/100
 - 2026-08-26 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | St. Pölten (K) - Juventus (K) | 2.5 Alt | pending | 62/100
 - 2026-08-26 | Hazırlık Kulüpler | Atletico Astor - Salamanca | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Hazırlık Kulüpler | Numancia - Utebo | 2.5 Alt | pending | 64/100
@@ -44,5 +45,4 @@ Oluşturma: 26.08.2026 17:26:48
 - 2026-08-26 | Macaristan NB III Güneybatı | Erdi Vse - Pecs | MS 2 | pending | 47/100
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup C | Caracas Fc - Fundacion Lara | MS 1 | pending | 50/100
 - 2026-08-26 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Psv Eindhoven - Koge (K) | 2.5 Alt | pending | 64/100
-- 2026-08-26 | Güney Afrika PSL | Mamelodi Sundo - Amazulu | 2.5 Üst | pending | 64/100
 
