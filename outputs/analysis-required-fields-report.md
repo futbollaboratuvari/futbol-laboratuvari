@@ -1,15 +1,14 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 160
-Tam analiz: 117
-Eksik analiz: 43
+Toplam analiz: 165
+Tam analiz: 120
+Eksik analiz: 45
 
 - Tokushima VS Fc Tokushima: eksik score, confidence
 - Hiroshima VS Okinawa Sv: eksik score, confidence
 - Cerezo Osaka VS Fc Gifu: eksik score, confidence
 - Machida Zelvia VS Grulla Morioka: eksik score, confidence
-- Tokyo Verdy VS Kusatsu Gunma: eksik score, confidence
 - Nagoya VS Gainare Tottori: eksik score, confidence
 - V-Varen Nagasa VS Ehime Fc: eksik score, confidence
 - Kashima VS Suzuka Unlimite: eksik score, confidence
@@ -20,6 +19,7 @@ Eksik analiz: 43
 - Kawasaki VS Tochigi Sc: eksik score, confidence
 - Kyoto Sanga VS Maruyasu Indust: eksik score, confidence
 - Fagiano Okayam VS Bergarosso Hama: eksik score, confidence
+- Johor Dt VS Kelantan Red Wa: eksik score, confidence
 - Kozlovice VS Karvina: eksik score, confidence
 - Sparta Brno VS Banik Ostrava: eksik score, confidence
 - Pisek VS Pardubice: eksik score, confidence
