@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 166
-Tam analiz: 123
+Toplam analiz: 160
+Tam analiz: 117
 Eksik analiz: 43
 
 - Tokushima VS Fc Tokushima: eksik score, confidence
