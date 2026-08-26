@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 05:43:40
+Oluşturma: 26.08.2026 06:16:27
 
 ## Özet
 
@@ -29,7 +29,7 @@ Oluşturma: 26.08.2026 05:43:40
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-26 | Bolivya Premier Lig | Universitario - Nacional Potosi | 2.5 Alt | won | 72/100
+- 2026-08-26 | Bolivya Premier Lig | Universitario - Nacional Potosi | 2.5 Alt | won | 78/100
 - 2026-08-26 | Brezilya Kupa Çeyrek Final | Palmeiras - Santos | 2.5 Alt | pending | 66/100
 - 2026-08-26 | Norveç 1.Lig | Stabaek - Ranheim | MS 1 | pending | 50/100
 - 2026-08-26 | İngiltere Non League Premier Kuzey | Avro - Leek Town | 2.5 Alt | pending | 64/100
