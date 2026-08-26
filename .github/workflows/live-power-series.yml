@@ -1,0 +1,66 @@
+name: Live Power Series
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "12,42 * * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "ops/live-power-trigger.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: futbol-main-data-writer
+  cancel-in-progress: false
+
+jobs:
+  live-power:
+    runs-on: ubuntu-latest
+    env:
+      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      API_FOOTBALL_KEY2: ${{ secrets.API_FOOTBALL_KEY2 }}
+      LIVE_POWER_MAX_MATCHES: "8"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Test live power engine
+        run: node tests/live-power-series.test.js
+
+      - name: Collect verified live power snapshots
+        run: node scripts/update-live-power-series.js
+
+      - name: Validate output JSON
+        run: node -e "JSON.parse(require('fs').readFileSync('data/live-power-series.json','utf8')); console.log('live-power-series.json OK')"
+
+      - name: Commit live power output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live-power-series.json
+          if git diff --cached --quiet; then
+            echo "No live power changes"
+            exit 0
+          fi
+          git commit -m "Update verified live power series"
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && node tests/live-power-series.test.js && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 3))
+          done
+          echo "Live Power push failed after retries"
+          exit 1
