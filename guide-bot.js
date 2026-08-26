@@ -49,21 +49,33 @@
     },
     {
       id: "payment",
-      keys: ["odeme", "havale", "eft", "fast", "iban", "para gonder", "nasil odeyecegim", "satın al", "satin al"],
-      answer: "Ödeme için önce Üyelik bölümünde bilgilerini ve paketini seçip Ödeme Talebi Oluştur'a bas. Sistem sana IBAN, kesin tutar ve FL-... ödeme kodunu gösterir. Transfer açıklamasına yalnız verilen FL kodunu yaz; kod oluşmadan para gönderme.",
+      keys: ["odeme", "havale", "eft", "fast", "iban", "para gonder", "nasil odeyecegim", "satin al", "satın al", "fatura bilgisi"],
+      answer: "Ödeme için Üyelik bölümünde müşteri ve fatura bilgilerini doldurup paketini seç. Ödeme Talebi Oluştur'a bastığında sistem IBAN, kesin tutar ve benzersiz FL-... kodunu gösterir. Transfer açıklamasına yalnız bu FL kodunu yaz. Ödeme sonrası dekont görselini yükleyip Ödemeyi Bildir; dekont olmadan ödeme onaya gönderilmez.",
       actions: [["Ödeme Bölümünü Aç", "#membership-payment-panel"]],
     },
     {
       id: "paid",
-      keys: ["odemeyi yaptim", "para gonderdim", "odeme yaptim", "onay ne zaman", "banka kontrolu", "odeme bekliyor"],
-      answer: "Transferi yaptıktan sonra sitede Ödemeyi Yaptım düğmesine bas. Durum 'banka kontrolü bekleniyor' olur. Banka hesabında tutar ve FL açıklama kodu doğrulandıktan sonra ödeme yönetimden onaylanır ve üyelik kodun hazırlanır.",
-      actions: [["Üyelik / Ödeme", "#membership-payment-panel"]],
+      keys: ["odemeyi yaptim", "para gonderdim", "odeme yaptim", "onay ne zaman", "banka kontrolu", "odeme bekliyor", "dekont yukledim", "dekont attim", "dekont onayi"],
+      answer: "Transferden sonra dekontunu yüklediğinde ödeme kontrol sırasına girer. Yönetim dekontu gerçek banka hareketindeki tutar ve FL açıklama koduyla karşılaştırır. Onay verilince üyeliğin otomatik açılır ve üyelik kodun ödeme ekranında görünür. Aynı anda fatura kaydı oluşturulur; e-posta ve SMS bilgilendirmesi de gönderim sırasına alınır.",
+      actions: [["Ödeme Durumunu Aç", "#membership-payment-panel"]],
+    },
+    {
+      id: "notifications",
+      keys: ["mail gelir mi", "email gelir mi", "e posta", "sms gelir mi", "telefona mesaj", "telefon mesaj", "kod mail", "kod sms", "bildirim", "mesaj gelmedi"],
+      answer: "Ödeme onaylandığında kayıtlı e-posta adresin ve telefon numaran için ödeme/üyelik bilgilendirmesi hazırlanır. Mesajda üyeliğinin aktif olduğu ve üyelik kodun yer alır. Mesaj gecikse bile ödeme ekranındaki Durumu Kontrol Et düğmesiyle üyelik kodunu görebilirsin; sitedeki ödeme durumu esas kaynaktır.",
+      actions: [["Ödeme Durumunu Kontrol Et", "#membership-payment-panel"]],
+    },
+    {
+      id: "invoice",
+      keys: ["fatura", "e arsiv", "e fatura", "faturam", "vergi no", "vergi dairesi", "fatura adresi", "fatura ne zaman"],
+      answer: "Satın alma sırasında fatura adı/unvanı ve adresini girmen gerekir; vergi mükellefi/kurumsal seçiminde vergi veya T.C. numarası ile vergi dairesi de istenir. Ödeme onaylandığında fatura kaydı otomatik oluşturulur. Faturanın resmi düzenlenmesi işletme tarafından mevzuata uygun e-Arşiv/e-Fatura veya uygun belge türüyle tamamlanır.",
+      actions: [["Üyelik / Fatura Bilgileri", "#membership-payment-panel"]],
     },
     {
       id: "code",
-      keys: ["uyelik kodu", "kodu nereye", "kod nasil", "kod girecegim", "kod kabul", "kod aktif"],
-      answer: "Ödeme onaylandıktan sonra aldığın üyelik kodunu Özel Analiz bölümündeki Üye Kodu alanına yazıp Kod ile Aç'a bas. Kod backend tarafından doğrulanır ve kalan analiz hakkın ekranda görünür.",
-      actions: [["Kod Alanını Aç", "#premium-analysis-panel"]],
+      keys: ["uyelik kodu", "kodu nereye", "kod nasil", "kod girecegim", "kod kabul", "kod aktif", "sifre nerede"],
+      answer: "Ödeme onaylanınca üyelik kodun ödeme ekranında görünür. Kodu kopyalayıp Özel Analiz bölümündeki Üye Kodu alanına yaz ve Kod ile Aç'a bas. Kod sunucuda doğrulanır; paket ve kalan analiz hakkın ekranda görünür.",
+      actions: [["Kod Alanını Aç", "#premium-analysis-panel"], ["Ödeme Durumu", "#membership-payment-panel"]],
     },
     {
       id: "results",
@@ -99,7 +111,7 @@
       .sort((a, b) => b.score - a.score);
     if (!ranked[0] || ranked[0].score < 2) {
       return {
-        answer: "Ben Futbol Laboratuvarı kullanım rehberiyim. Site kullanımı, maçlar, Kupon Merkezi, üyelik, ücretsiz deneme, Havale / EFT / FAST ödeme ve Özel Analiz hakkında yardımcı olabilirim.",
+        answer: "Ben Futbol Laboratuvarı kullanım rehberiyim. Site kullanımı, maçlar, Kupon Merkezi, üyelik, dekontlu Havale / EFT / FAST ödeme, üyelik kodu, bildirimler, fatura ve Özel Analiz hakkında yardımcı olabilirim.",
         actions: [["Nasıl Kullanılır?", "guide:start"], ["Üyelik", "#membership-payment-panel"]],
       };
     }
@@ -179,9 +191,9 @@
     panel.className = "fl-guide-panel";
     panel.setAttribute("aria-label", "Futbol Laboratuvarı yapay zeka rehberi");
     panel.innerHTML = `
-      <div class="fl-guide-head"><div><strong>Futbol Laboratuvarı Rehberi</strong><small>Site kullanımı ve üyelik yardımcısı</small></div><button class="fl-guide-close" type="button" aria-label="Kapat">×</button></div>
+      <div class="fl-guide-head"><div><strong>Futbol Laboratuvarı Rehberi</strong><small>Site kullanımı, üyelik, ödeme ve fatura yardımcısı</small></div><button class="fl-guide-close" type="button" aria-label="Kapat">×</button></div>
       <div class="fl-guide-log" aria-live="polite"></div>
-      <div class="fl-guide-compose"><div class="fl-guide-chips"><button class="fl-guide-chip" type="button">Nasıl kullanılır?</button><button class="fl-guide-chip" type="button">Ücretsiz deneme</button><button class="fl-guide-chip" type="button">Nasıl ödeme yaparım?</button><button class="fl-guide-chip" type="button">Özel Analiz</button></div><form class="fl-guide-form"><input class="fl-guide-input" maxlength="220" placeholder="Sorunu yaz..." aria-label="Rehbere soru sor"><button class="fl-guide-send" type="submit">Gönder</button></form></div>`;
+      <div class="fl-guide-compose"><div class="fl-guide-chips"><button class="fl-guide-chip" type="button">Nasıl ödeme yaparım?</button><button class="fl-guide-chip" type="button">Dekont yükledim</button><button class="fl-guide-chip" type="button">Faturam nasıl gelir?</button><button class="fl-guide-chip" type="button">Üyelik kodu</button></div><form class="fl-guide-form"><input class="fl-guide-input" maxlength="220" placeholder="Sorunu yaz..." aria-label="Rehbere soru sor"><button class="fl-guide-send" type="submit">Gönder</button></form></div>`;
 
     document.body.appendChild(launch);
     document.body.appendChild(panel);
@@ -189,7 +201,7 @@
     const input = panel.querySelector(".fl-guide-input");
     const open = () => {
       panel.classList.add("open");
-      if (!log.children.length) addMessage("bot", "Merhaba! Futbol Laboratuvarı'nı nasıl kullanacağını, üyelik ve ödeme adımlarını anlatabilirim. Ne yapmak istiyorsun?", [["Nasıl Kullanılır?", "guide:start"], ["Üyelik Paketleri", "#membership-payment-panel"]]);
+      if (!log.children.length) addMessage("bot", "Merhaba! Site kullanımı, üyelik, dekontlu ödeme, ödeme onayı, üyelik kodu, e-posta/SMS ve fatura süreci hakkında yardımcı olabilirim. Ne yapmak istiyorsun?", [["Ödeme Nasıl Yapılır?", "guide:Nasıl ödeme yaparım?"], ["Üyelik Paketleri", "#membership-payment-panel"]]);
       setTimeout(() => input?.focus(), 50);
     };
     launch.addEventListener("click", () => panel.classList.contains("open") ? panel.classList.remove("open") : open());
