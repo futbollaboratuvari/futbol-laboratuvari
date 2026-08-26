@@ -1,12 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 146
-Tam analiz: 111
-Eksik analiz: 35
+Toplam analiz: 144
+Tam analiz: 113
+Eksik analiz: 31
 
-- Avispa Fukuoka VS Verspah Oita: eksik score, confidence
-- Johor Dt VS Kelantan Red Wa: eksik score, confidence
 - Kuala Lumpur VS Kuching Fa: eksik score, confidence
 - Kozlovice VS Karvina: eksik score, confidence
 - Sparta Brno VS Banik Ostrava: eksik score, confidence
@@ -22,6 +20,8 @@ Eksik analiz: 35
 - Tatran Vsechov VS Prostejov: eksik score, confidence
 - Mosonmagyarova VS 1908 Szac: eksik score, confidence
 - Esmtk VS Sandorfalva: eksik score, confidence
-- Kaposvar VS Paksi Fc Ii: eksik score, confidence
 - Budafoki Mte VS Szekszard: eksik score, confidence
 - Fc Tatabánya VS Sárisápi Bányás: eksik score, confidence
+- Wolfsburg (K) VS Inter Milano (K: eksik score, confidence
+- Varhaug VS Sandnes: eksik score, confidence
+- Fa 2000 VS Lyngby: eksik score, confidence
