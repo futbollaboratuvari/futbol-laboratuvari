@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Futbol Laboratuvarı | Fatura Yönetimi</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#020611;color:#f8fbff;font-family:Arial,sans-serif}.wrap{width:min(1420px,100%);margin:auto;padding:24px}.panel{padding:18px;margin-bottom:16px;border:1px solid rgba(57,255,136,.22);border-radius:20px;background:#061126}.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}input,select{min-height:40px;border:1px solid rgba(255,255,255,.14);border-radius:10px;background:#020817;color:#fff;padding:0 10px}input.secret{min-width:310px}button,.link{min-height:40px;border:0;border-radius:10px;padding:0 12px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#06110d;font-weight:900;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}.secondary{background:rgba(255,255,255,.08)!important;border:1px solid rgba(255,255,255,.14)!important;color:#fff!important}.scroll{overflow:auto}table{width:100%;border-collapse:collapse;min-width:1350px}th,td{padding:9px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left;font-size:12px;vertical-align:top}th{color:#ffe08a}.muted{color:#9fb0c7}.ok{color:#39ff88}.warn{color:#ffe08a}.err{color:#ff9da6}.badge{display:inline-block;padding:4px 7px;border-radius:999px;background:rgba(255,255,255,.08);font-weight:900;font-size:11px}.badge.ok{background:rgba(57,255,136,.1)}.badge.warn{background:rgba(255,224,138,.08)}.badge.err{background:rgba(255,92,107,.1)}.deadline.overdue{color:#ff9da6;font-weight:900}.deadline.soon{color:#ffe08a;font-weight:900}.invoice-form{display:grid;gap:6px}.invoice-form input,.invoice-form select{min-width:140px}.actions{display:flex;gap:6px;flex-wrap:wrap}.notice{padding:12px;border:1px solid rgba(255,224,138,.28);border-radius:12px;background:rgba(255,224,138,.08);color:#ffe08a;line-height:1.5}a{color:inherit}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <section class="panel">
+    <div class="row" style="justify-content:space-between">
+      <div><h1 style="margin:0 0 7px">Fatura Yönetimi</h1><div class="muted">Ödeme onaylarından oluşan fatura kuyruğu ve bildirim takibi.</div></div>
+      <div class="row"><a class="link secondary" href="./bank-transfer-admin.html">Ödemeler</a><a class="link secondary" href="./admin.html">Kod Yönetimi</a><a class="link secondary" target="_blank" rel="noopener noreferrer" href="https://earsivportal.efatura.gov.tr/intragiris.html">GİB e-Arşiv Portalı</a></div>
+    </div>
+    <p class="notice"><strong>Önemli:</strong> Bu ekran muhasebe/fatura takip kuyruğudur. “Fatura düzenlendi” işaretini yalnız belgeyi gerçekten GİB e-Arşiv/e-Fatura sisteminde veya mevzuata uygun kağıt belge olarak düzenledikten sonra kullanın.</p>
+    <div class="row">
+      <input id="secret" class="secret" type="password" autocomplete="off" placeholder="Ödeme admin anahtarı">
+      <select id="status"><option value="pending_issue">Fatura bekleyen</option><option value="issued">Düzenlenen</option><option value="all">Tümü</option></select>
+      <button id="load">Listeyi Getir</button>
+      <button id="export" class="secondary" type="button">CSV Dışa Aktar</button>
+    </div>
+    <p id="provider" class="muted"></p><p id="msg" class="muted"></p>
+  </section>
+  <section class="panel scroll">
+    <table>
+      <thead><tr><th>Sipariş</th><th>Müşteri / Fatura</th><th>Paket / Tutar</th><th>Hizmet Tarihi</th><th>Son Fatura Tarihi</th><th>Belge Durumu</th><th>Bildirim</th><th>İşlem</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </section>
+</div>
+<script>
+const BASE='https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-receipt';
+const $=s=>document.querySelector(s);
+const esc=v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'","&#039;");
+const money=k=>new Intl.NumberFormat('tr-TR',{style:'currency',currency:'TRY'}).format(Number(k||0)/100);
+const dt=v=>v?new Date(v).toLocaleString('tr-TR'):'-';
+let lastInvoices=[],lastNotifications=[];
+async function api(action,options={}){
+  const secret=$('#secret').value.trim();
+  if(!secret) throw new Error('Ödeme admin anahtarı girilmedi.');
+  const r=await fetch(`${BASE}?action=${encodeURIComponent(action)}`,{...options,mode:'cors',credentials:'omit',cache:'no-store',headers:{'Content-Type':'application/json','x-admin-payment-secret':secret,...(options.headers||{})}});
+  const d=await r.json().catch(()=>({}));
+  if(!r.ok||d.ok===false) throw new Error(d.error||d.message||'İşlem başarısız');
+  return d;
+}
+function notif(orderCode){
+  const rows=lastNotifications.filter(n=>n.order_code===orderCode&&n.template_key==='payment_approved');
+  if(!rows.length)return '<span class="badge">Kayıt yok</span>';
+  return rows.map(n=>`<div><span class="badge ${n.status==='sent'?'ok':n.status==='failed'?'err':'warn'}">${esc(n.channel.toUpperCase())}: ${esc(n.status)}</span>${n.last_error?`<div class="muted">${esc(n.last_error)}</div>`:''}</div>`).join('');
+}
+function deadlineClass(v,status){
+  if(status!=='pending_issue'||!v)return '';
+  const diff=new Date(v).getTime()-Date.now();
+  if(diff<0)return 'overdue';
+  if(diff<2*86400000)return 'soon';
+  return '';
+}
+function docText(i){
+  if(i.status!=='issued')return '<span class="badge warn">Fatura bekliyor</span>';
+  const map={e_arsiv:'e-Arşiv',e_fatura:'e-Fatura',paper:'Kağıt'};
+  return `<span class="badge ok">${esc(map[i.document_type]||i.document_type)}</span><br><strong>${esc(i.invoice_number||'-')}</strong><br><span class="muted">${dt(i.issue_date)} · ${esc(i.gib_status)}</span>`;
+}
+function render(){
+  $('#rows').innerHTML=lastInvoices.map(i=>`<tr>
+    <td><strong>${esc(i.order_code)}</strong></td>
+    <td><strong>${esc(i.invoice_name||i.customer_name)}</strong><br>${esc(i.invoice_address||'Adres yok')}<br><span class="muted">${esc(i.email)} · ${esc(i.phone)}</span>${i.invoice_type==='business'?`<br><span class="muted">VKN/TCKN: ${esc(i.tax_number||'-')} · ${esc(i.tax_office||'-')}</span>`:''}</td>
+    <td>${esc(i.plan_name)}<br><strong>${esc(money(i.gross_amount_kurus))}</strong></td>
+    <td>${dt(i.service_date)}</td>
+    <td class="deadline ${deadlineClass(i.issue_deadline,i.status)}">${dt(i.issue_deadline)}</td>
+    <td>${docText(i)}</td>
+    <td>${notif(i.order_code)}</td>
+    <td>${i.status==='pending_issue'?`<div class="invoice-form">
+      <select data-type="${esc(i.order_code)}"><option value="e_arsiv">e-Arşiv</option><option value="e_fatura">e-Fatura</option><option value="paper">Kağıt Fatura</option></select>
+      <input data-number="${esc(i.order_code)}" placeholder="Fatura No">
+      <input data-date="${esc(i.order_code)}" type="date" value="${new Date().toISOString().slice(0,10)}">
+      <button data-issue="${esc(i.order_code)}">Düzenlendi Olarak Kaydet</button>
+      <button class="secondary" data-retry="${esc(i.order_code)}">Bildirimleri Tekrar Dene</button>
+    </div>`:`<div class="actions"><button class="secondary" data-retry="${esc(i.order_code)}">Bildirimleri Tekrar Dene</button></div>`}</td>
+  </tr>`).join('');
+  document.querySelectorAll('[data-issue]').forEach(b=>b.onclick=()=>markIssued(b.dataset.issue,b));
+  document.querySelectorAll('[data-retry]').forEach(b=>b.onclick=()=>retry(b.dataset.retry,b));
+}
+async function load(){
+  $('#msg').textContent='Yükleniyor...';
+  try{
+    const d=await api('admin-invoices',{method:'POST',body:JSON.stringify({status:$('#status').value})});
+    lastInvoices=d.invoices||[];lastNotifications=d.notifications||[];
+    $('#provider').innerHTML=`E-posta: <strong class="${d.providers?.email?'ok':'warn'}">${d.providers?.email?'hazır':'servis anahtarı gerekli'}</strong> · SMS: <strong class="${d.providers?.sms?'ok':'warn'}">${d.providers?.sms?'hazır':'servis anahtarı gerekli'}</strong>`;
+    $('#msg').textContent=`${lastInvoices.length} fatura kaydı bulundu.`;
+    render();
+  }catch(e){$('#msg').textContent=e.message;}
+}
+async function markIssued(orderCode,button){
+  const type=document.querySelector(`[data-type="${CSS.escape(orderCode)}"]`)?.value;
+  const number=document.querySelector(`[data-number="${CSS.escape(orderCode)}"]`)?.value?.trim();
+  const date=document.querySelector(`[data-date="${CSS.escape(orderCode)}"]`)?.value;
+  if(!number){alert('Fatura numarasını girin.');return;}
+  if(!confirm(`${orderCode}\n${number}\n\nBu belge gerçekten düzenlendi mi?`))return;
+  button.disabled=true;
+  try{
+    const d=await api('mark-invoice-issued',{method:'POST',body:JSON.stringify({order_code:orderCode,document_type:type,invoice_number:number,issue_date:date})});
+    alert(`Fatura kaydedildi. E-posta durumu: ${d.invoice_email||'-'}`);
+    await load();
+  }catch(e){alert(e.message);}finally{button.disabled=false;}
+}
+async function retry(orderCode,button){
+  button.disabled=true;
+  try{
+    const d=await api('retry-notifications',{method:'POST',body:JSON.stringify({order_code:orderCode})});
+    alert((d.results||[]).map(x=>`${x.channel}: ${x.status}`).join('\n')||'Tekrar denenecek bildirim yok.');
+    await load();
+  }catch(e){alert(e.message);}finally{button.disabled=false;}
+}
+function csv(){
+  if(!lastInvoices.length)return alert('Önce listeyi yükleyin.');
+  const cols=['order_code','customer_name','invoice_name','invoice_address','tax_number','tax_office','plan_name','gross_amount_kurus','service_date','issue_deadline','status','document_type','invoice_number','issue_date','gib_status'];
+  const q=v=>`"${String(v??'').replaceAll('"','""')}"`;
+  const text=[cols.join(','),...lastInvoices.map(i=>cols.map(c=>q(i[c])).join(','))].join('\n');
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+text],{type:'text/csv;charset=utf-8'}));a.download=`faturalar-${new Date().toISOString().slice(0,10)}.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+}
+$('#load').onclick=load;$('#status').onchange=()=>{if($('#secret').value.trim())load();};$('#export').onclick=csv;
+</script>
+</body>
+</html>
