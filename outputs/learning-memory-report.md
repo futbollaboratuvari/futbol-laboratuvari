@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 04:58:21
+Oluşturma: 26.08.2026 05:03:45
 
 ## Özet
 
 - Toplam tahmin: 1270
-- Bekleyen tahmin: 909
-- Kazanan tahmin: 149
+- Bekleyen tahmin: 908
+- Kazanan tahmin: 150
 - Kaybeden tahmin: 211
 - Lig sayısı: 197
 - Seçenek sayısı: 6
@@ -21,7 +21,7 @@ Oluşturma: 26.08.2026 04:58:21
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 46, bekleyen 29, başarı %88, ağırlık 1.12
-- 2.5 Alt: toplam 157, bekleyen 107, başarı %72, ağırlık 1.12
+- 2.5 Alt: toplam 157, bekleyen 106, başarı %73, ağırlık 1.12
 - MS 1: toplam 205, bekleyen 152, başarı %38, ağırlık 0.88
 - MS 2: toplam 337, bekleyen 213, başarı %34, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
@@ -29,7 +29,7 @@ Oluşturma: 26.08.2026 04:58:21
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-26 | Bolivya Premier Lig | Universitario - Nacional Potosi | 2.5 Alt | pending | 72/100
+- 2026-08-26 | Bolivya Premier Lig | Universitario - Nacional Potosi | 2.5 Alt | won | 72/100
 - 2026-08-26 | Brezilya Kupa Çeyrek Final | Palmeiras - Santos | 2.5 Alt | pending | 66/100
 - 2026-08-26 | Norveç 1.Lig | Stabaek - Ranheim | MS 1 | pending | 50/100
 - 2026-08-26 | İngiltere Non League Premier Kuzey | Avro - Leek Town | 2.5 Alt | pending | 64/100

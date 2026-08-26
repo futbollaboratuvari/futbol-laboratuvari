@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T22:52:58.709Z",
+  "generated_at": "2026-08-26T02:03:52.047Z",
   "status": "active",
-  "prediction_count": 1265,
+  "prediction_count": 1270,
   "market_memory": {
     "total": 6,
     "ready": 5,
@@ -11,22 +11,22 @@
       {
         "name": "2.5 Üst",
         "total": 46,
-        "pending": 30,
-        "won": 14,
+        "pending": 29,
+        "won": 15,
         "lost": 2,
         "void": 0,
-        "success_rate": 0.875,
+        "success_rate": 0.882,
         "weight": 1.12,
         "confidence_adjustment": 4
       },
       {
         "name": "2.5 Alt",
-        "total": 154,
-        "pending": 110,
-        "won": 33,
-        "lost": 11,
+        "total": 157,
+        "pending": 106,
+        "won": 37,
+        "lost": 14,
         "void": 0,
-        "success_rate": 0.75,
+        "success_rate": 0.725,
         "weight": 1.12,
         "confidence_adjustment": 4
       }
@@ -46,22 +46,22 @@
       {
         "name": "MS 2",
         "total": 337,
-        "pending": 214,
-        "won": 41,
+        "pending": 213,
+        "won": 42,
         "lost": 82,
         "void": 0,
-        "success_rate": 0.333,
+        "success_rate": 0.339,
         "weight": 0.88,
         "confidence_adjustment": -5
       },
       {
         "name": "MS 1",
-        "total": 203,
-        "pending": 153,
-        "won": 17,
+        "total": 205,
+        "pending": 152,
+        "won": 20,
         "lost": 33,
         "void": 0,
-        "success_rate": 0.34,
+        "success_rate": 0.377,
         "weight": 0.88,
         "confidence_adjustment": -5
       }
@@ -69,18 +69,29 @@
   },
   "league_memory": {
     "total": 197,
-    "ready": 33,
-    "boost": 5,
-    "penalty": 23,
+    "ready": 34,
+    "boost": 6,
+    "penalty": 22,
     "best": [
       {
         "name": "İngiltere Lig Kupası 2.Tur",
         "total": 27,
-        "pending": 7,
-        "won": 13,
+        "pending": 3,
+        "won": 17,
         "lost": 7,
         "void": 0,
-        "success_rate": 0.65,
+        "success_rate": 0.708,
+        "weight": 1.12,
+        "confidence_adjustment": 4
+      },
+      {
+        "name": "Bolivya Premier Lig",
+        "total": 13,
+        "pending": 7,
+        "won": 4,
+        "lost": 2,
+        "void": 0,
+        "success_rate": 0.667,
         "weight": 1.12,
         "confidence_adjustment": 4
       },
@@ -208,6 +219,17 @@
         "confidence_adjustment": -5
       },
       {
+        "name": "İskoçya Challenge Kupası Lig Aşaması",
+        "total": 23,
+        "pending": 2,
+        "won": 6,
+        "lost": 15,
+        "void": 0,
+        "success_rate": 0.286,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
         "name": "İspanya 2.Lig",
         "total": 13,
         "pending": 6,
@@ -228,30 +250,19 @@
         "success_rate": 0.286,
         "weight": 0.88,
         "confidence_adjustment": -5
-      },
-      {
-        "name": "Hollanda Eredivisie",
-        "total": 9,
-        "pending": 2,
-        "won": 2,
-        "lost": 5,
-        "void": 0,
-        "success_rate": 0.286,
-        "weight": 0.88,
-        "confidence_adjustment": -5
       }
     ]
   },
   "league_market_memory": {
-    "total": 527,
-    "ready": 18,
+    "total": 528,
+    "ready": 19,
     "boost": 5,
-    "penalty": 12,
+    "penalty": 13,
     "best": [
       {
-        "name": "İngiltere Lig Kupası 2.Tur :: MS 2",
-        "total": 7,
-        "pending": 2,
+        "name": "İngiltere Lig Kupası 2.Tur :: 2.5 Üst",
+        "total": 6,
+        "pending": 1,
         "won": 5,
         "lost": 0,
         "void": 0,
@@ -260,13 +271,13 @@
         "confidence_adjustment": 4
       },
       {
-        "name": "İskoçya Challenge Kupası Lig Aşaması :: 2.5 Alt",
-        "total": 9,
-        "pending": 3,
-        "won": 4,
-        "lost": 2,
+        "name": "İngiltere Lig Kupası 2.Tur :: MS 2",
+        "total": 7,
+        "pending": 1,
+        "won": 6,
+        "lost": 0,
         "void": 0,
-        "success_rate": 0.667,
+        "success_rate": 1,
         "weight": 1.12,
         "confidence_adjustment": 4
       },
@@ -405,9 +416,9 @@
         "confidence_adjustment": -5
       },
       {
-        "name": "İngiltere Lig Kupası 2.Tur :: 2.5 Alt",
-        "total": 10,
-        "pending": 3,
+        "name": "İngiltere 2.Lig :: MS 2",
+        "total": 7,
+        "pending": 0,
         "won": 2,
         "lost": 5,
         "void": 0,
