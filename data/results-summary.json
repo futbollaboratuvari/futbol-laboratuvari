@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-08-26T01:17:11.271Z",
+  "generated_at": "2026-08-26T01:58:35.211Z",
   "date": "2026-08-26",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
   "completed_items": [
+    {
+      "id": "2026-08-26|bolivya premier lig|universitario nacional potosi|2 5 alt|02 00",
+      "date": "2026-08-26",
+      "time": "02:00",
+      "title": "Universitario - Nacional Potosi",
+      "match": "Universitario - Nacional Potosi",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.98",
+      "score": "2-0",
+      "result_score": "2-0",
+      "confidence": "72%",
+      "confidence_score": "72%",
+      "model_score": 72,
+      "estimated_probability": 52.1,
+      "market_probability": 41.8,
+      "edge_percent": 10.3,
+      "data_completeness": 46,
+      "model_version": "pro13-market-conditioned-v1",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-08-26T01:58:35.057Z",
+      "source": "Robot ham veri havuzu"
+    },
     {
       "id": "2026-08-26|bolivya premier lig|universitario nacional potosi|ms 1|02 00",
       "date": "2026-08-26",
@@ -42,13 +69,13 @@
       "odds": "1.82",
       "score": "2-0",
       "result_score": "2-0",
-      "confidence": "41%",
-      "confidence_score": "41%",
-      "model_score": 41,
+      "confidence": "42%",
+      "confidence_score": "42%",
+      "model_score": 42,
       "estimated_probability": 45.3,
       "market_probability": 45.3,
       "edge_percent": 0,
-      "data_completeness": 40,
+      "data_completeness": 43,
       "model_version": "pro13-market-conditioned-v1",
       "risk": "Yüksek",
       "status": "won",
@@ -786,45 +813,18 @@
       "market_group_label": "Gol Marketleri",
       "finalized_at": "2026-08-25T20:48:33.287Z",
       "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-08-25|iskocya challenge kupasi lig asamasi|queen of south hibernian ii|2 5 alt|21 45",
-      "date": "2026-08-25",
-      "time": "21:45",
-      "title": "Queen Of South - Hibernian Ii",
-      "match": "Queen Of South - Hibernian Ii",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "odds": "2.00",
-      "score": "1-0",
-      "result_score": "1-0",
-      "confidence": "66%",
-      "confidence_score": "66%",
-      "model_score": 66,
-      "estimated_probability": 51.7,
-      "market_probability": 41.3,
-      "edge_percent": 10.4,
-      "data_completeness": 46,
-      "model_version": "pro13-market-conditioned-v1",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-08-25T20:48:33.287Z",
-      "source": "Robot ham veri havuzu"
     }
   ],
   "performance": {
-    "prediction_count": 1269,
-    "measured_count": 360,
+    "prediction_count": 1270,
+    "measured_count": 361,
     "pending_count": 908,
-    "won_count": 149,
+    "won_count": 150,
     "lost_count": 211,
     "void_count": 1,
-    "success_rate": 41,
-    "probability_sample_count": 114,
-    "brier_score": 0.2146,
+    "success_rate": 42,
+    "probability_sample_count": 115,
+    "brier_score": 0.2147,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -846,10 +846,10 @@
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 53,
-        "won": 40,
-        "average_probability": 54.5,
-        "observed_rate": 75.5
+        "predictions": 54,
+        "won": 41,
+        "average_probability": 54.4,
+        "observed_rate": 75.9
       },
       {
         "lower": 60,
@@ -860,7 +860,7 @@
         "observed_rate": 85.7
       }
     ],
-    "verified_at": "2026-08-26T01:17:11.152Z",
+    "verified_at": "2026-08-26T01:58:35.057Z",
     "groups": [
       {
         "key": "match_result",
@@ -873,8 +873,8 @@
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 67,
-        "won": 51,
+        "measured": 68,
+        "won": 52,
         "lost": 16,
         "success_rate": 76
       }

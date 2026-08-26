@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 04:55:15
+Oluşturma: 26.08.2026 04:58:21
 
 ## Özet
 
@@ -34,13 +34,13 @@ Oluşturma: 26.08.2026 04:55:15
 - 2026-08-26 | Norveç 1.Lig | Stabaek - Ranheim | MS 1 | pending | 50/100
 - 2026-08-26 | İngiltere Non League Premier Kuzey | Avro - Leek Town | 2.5 Alt | pending | 64/100
 - 2026-08-26 | AFF Şampiyonası Final | Vietnam (2) - (0) Tayland | MS 1 | pending | 37/100
-- 2026-08-26 | Bolivya Premier Lig | San Antonio Bu - The Strongest | 2.5 Alt | pending | 62/100
+- 2026-08-26 | Bolivya Premier Lig | San Antonio Bu - The Strongest | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Hannover 96 (Am | 2.5 Alt | pending | 62/100
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup B | El Vigia - Atletico Barina | 2.5 Üst | pending | 64/100
 - 2026-08-26 | Bolivya Premier Lig | San Antonio Bu - The Strongest | MS 2 | pending | 41/100
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup E | Bolívar - Monagas | 2.5 Alt | pending | 76/100
 - 2026-08-26 | Norveç 1.Lig | Moss - Sogndal | MS 1 | pending | 40/100
-- 2026-08-26 | Norveç 1.Lig | Odds Bk - Kongsvinger | MS 2 | pending | 39/100
+- 2026-08-26 | Norveç 1.Lig | Odds Bk - Kongsvinger | MS 2 | pending | 38/100
 - 2026-08-26 | Norveç 1.Lig | Asane - Lyn Oslo | MS 2 | pending | 41/100
 - 2026-08-26 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Hannover 96 (Am | MS 2 | pending | 42/100
 - 2026-08-26 | Almanya Bölgesel Lig Kuzey | Lübeck - Hamburger Sv (A | MS 1 | pending | 43/100

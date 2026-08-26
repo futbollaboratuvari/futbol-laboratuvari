@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-26 / 2026-08-27
 Kaynak: fixtures.json
-Ham mac: 171
+Ham mac: 166
 Aktif mac: 162
 Canli mac: 4
-Biten mac: 5
-Bultenden dusurulen mac: 9
+Biten mac: 0
+Bultenden dusurulen mac: 4
 Bugun: 136
 Yarin: 26
 
@@ -181,8 +181,4 @@ Yarin: 26
 - 2026-08-26 04:00 | Kolombiya Primera A Clausura | Depor Cucuta - Alianza Petrole | live | -
 
 ## Biten Maclar
-- 2026-08-26 00:30 | Paraguay Kupa 3.Tur | Sol De America - Sportivo Trinid | finished | -
-- 2026-08-26 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Godoy Cruz | finished | -
-- 2026-08-26 01:30 | Brezilya Serie B | Atletico Goian - Botafogo Ribeir | finished | -
-- 2026-08-26 01:30 | Brezilya Serie B | Juventude - Regatas | finished | -
-- 2026-08-26 02:00 | Bolivya Premier Lig | Universitario - Nacional Potosi | finished | -
+Biten mac yok.
