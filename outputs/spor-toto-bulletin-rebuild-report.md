@@ -1,6 +1,6 @@
 # Spor Toto Haftalık 15 Güvenli Rapor
 
-- Güncelleme: 2026-08-26T04:09:11.439Z
+- Güncelleme: 2026-08-26T04:28:41.140Z
 - Hafta: 2026/2027 3. Hafta
 - Program maçı: 15
 - Analize hazır: 15

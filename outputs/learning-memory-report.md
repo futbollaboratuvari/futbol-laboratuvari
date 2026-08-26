@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 07:09:05
+Oluşturma: 26.08.2026 07:28:22
 
 ## Özet
 
-- Toplam tahmin: 1271
-- Bekleyen tahmin: 907
+- Toplam tahmin: 1272
+- Bekleyen tahmin: 908
 - Kazanan tahmin: 151
 - Kaybeden tahmin: 212
 - Lig sayısı: 197
@@ -21,7 +21,7 @@ Oluşturma: 26.08.2026 07:09:05
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 46, bekleyen 29, başarı %88, ağırlık 1.12
-- 2.5 Alt: toplam 158, bekleyen 106, başarı %73, ağırlık 1.12
+- 2.5 Alt: toplam 159, bekleyen 107, başarı %73, ağırlık 1.12
 - MS 1: toplam 205, bekleyen 152, başarı %38, ağırlık 0.88
 - MS 2: toplam 337, bekleyen 212, başarı %34, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
@@ -29,6 +29,7 @@ Oluşturma: 26.08.2026 07:09:05
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | Şili Kupa Grup E | Recoleta - O Higgins | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Irak Premier Lig | Al Kahraba - Al Karma | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Bolivya Premier Lig | Universitario - Nacional Potosi | 2.5 Alt | won | 78/100
 - 2026-08-26 | Brezilya Kupa Çeyrek Final | Palmeiras - Santos | 2.5 Alt | pending | 66/100
@@ -43,5 +44,4 @@ Oluşturma: 26.08.2026 07:09:05
 - 2026-08-26 | Norveç 1.Lig | Moss - Sogndal | MS 1 | pending | 40/100
 - 2026-08-26 | Norveç 1.Lig | Odds Bk - Kongsvinger | MS 2 | pending | 38/100
 - 2026-08-26 | Norveç 1.Lig | Asane - Lyn Oslo | MS 2 | pending | 41/100
-- 2026-08-26 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Hannover 96 (Am | MS 2 | pending | 42/100
 

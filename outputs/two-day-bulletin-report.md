@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-26 / 2026-08-27
 Kaynak: fixtures.json
-Ham mac: 171
-Aktif mac: 159
+Ham mac: 172
+Aktif mac: 160
 Canli mac: 3
 Biten mac: 9
 Bultenden dusurulen mac: 12
-Bugun: 133
+Bugun: 134
 Yarin: 26
 
 ## Baslamamis Maclar
@@ -81,6 +81,7 @@ Yarin: 26
 - 2026-08-26 18:30 | Macaristan NB III Güneybatı | Budafoki Mte - Szekszard | scheduled | -
 - 2026-08-26 18:45 | Kuveyt Premier Lig | Al Shabab - Al-Jahra | scheduled | -
 - 2026-08-26 18:45 | Suudi Arabistan 1.Lig | Al Adalah - Al Taee | scheduled | -
+- 2026-08-26 18:45 | Irak Premier Lig | Al Kahraba - Al Karma | scheduled | -
 - 2026-08-26 19:00 | Suudi Arabistan Pro Lig | Al Faisaly - Al Fateh | scheduled | -
 - 2026-08-26 19:00 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Wolfsburg (K) - Inter Milano (K | scheduled | -
 - 2026-08-26 19:00 | Danimarka DBU Kupası 2.Tur | Fredericia - Odense | scheduled | -
