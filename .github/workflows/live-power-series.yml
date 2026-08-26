@@ -21,8 +21,6 @@ jobs:
   live-power:
     runs-on: ubuntu-latest
     env:
-      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-      API_FOOTBALL_KEY2: ${{ secrets.API_FOOTBALL_KEY2 }}
       LIVE_POWER_MAX_MATCHES: "8"
 
     steps:
@@ -39,11 +37,11 @@ jobs:
       - name: Test live power engine
         run: node tests/live-power-series.test.js
 
-      - name: Collect verified live power snapshots
+      - name: Collect verified free-source live power snapshots
         run: node scripts/update-live-power-series.js
 
       - name: Validate output JSON
-        run: node -e "JSON.parse(require('fs').readFileSync('data/live-power-series.json','utf8')); console.log('live-power-series.json OK')"
+        run: node -e "const x=JSON.parse(require('fs').readFileSync('data/live-power-series.json','utf8')); if(!x.source_verified) throw new Error('source not verified'); if(x.sampling?.paid_api_required!==false) throw new Error('paid API flag invalid'); console.log('live-power-series.json OK')"
 
       - name: Commit live power output
         run: |
@@ -54,7 +52,7 @@ jobs:
             echo "No live power changes"
             exit 0
           fi
-          git commit -m "Update verified live power series"
+          git commit -m "Update verified free-source live power series"
           for attempt in 1 2 3 4 5; do
             if git pull --rebase --autostash origin main && node tests/live-power-series.test.js && git push origin HEAD:main; then
               exit 0
