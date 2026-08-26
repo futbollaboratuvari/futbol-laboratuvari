@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 19:08:57
+Oluşturma: 26.08.2026 19:57:25
 
 ## Özet
 
-- Toplam tahmin: 1318
-- Bekleyen tahmin: 951
+- Toplam tahmin: 1319
+- Bekleyen tahmin: 952
 - Kazanan tahmin: 152
 - Kaybeden tahmin: 214
 - Lig sayısı: 198
@@ -22,7 +22,7 @@ Oluşturma: 26.08.2026 19:08:57
 
 - 2.5 Üst: toplam 53, bekleyen 36, başarı %88, ağırlık 1.12
 - 2.5 Alt: toplam 181, bekleyen 127, başarı %72, ağırlık 1.12
-- MS 1: toplam 215, bekleyen 162, başarı %38, ağırlık 0.88
+- MS 1: toplam 216, bekleyen 163, başarı %38, ağırlık 0.88
 - MS 2: toplam 343, bekleyen 217, başarı %33, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
@@ -30,6 +30,7 @@ Oluşturma: 26.08.2026 19:08:57
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | Mısır Premier Lig | Petrojet - El Geish | MS 1 | pending | 36/100
 - 2026-08-26 | UEFA Şampiyonlar Ligi Play Off | Lyon (1) - (1) Fenerbahçe | MS 1 | pending | 43/100
 - 2026-08-26 | Suudi Arabistan 1.Lig | Al Zulfi - Al Wahda | 2.5 Üst | pending | 64/100
 - 2026-08-26 | Macaristan NB III Güneybatı | Kaposvar - Paksi Fc Ii | MS 1 | pending | 50/100
@@ -44,5 +45,4 @@ Oluşturma: 26.08.2026 19:08:57
 - 2026-08-26 | Hazırlık Kulüpler | Numancia - Utebo | 2.5 Üst | pending | 64/100
 - 2026-08-26 | Hazırlık Kulüpler | Atletico Astor - Salamanca | 2.5 Üst | pending | 64/100
 - 2026-08-26 | Suudi Arabistan 1.Lig | Al Bukayriyah - Al Akhdoud | 2.5 Alt | pending | 64/100
-- 2026-08-26 | Macaristan NB III Güneybatı | Erdi Vse - Pecs | MS 2 | pending | 47/100
 
