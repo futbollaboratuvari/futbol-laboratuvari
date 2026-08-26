@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 09:49:42
+Oluşturma: 26.08.2026 10:08:28
 
 ## Özet
 
 - Toplam tahmin: 1288
-- Bekleyen tahmin: 922
+- Bekleyen tahmin: 921
 - Kazanan tahmin: 152
-- Kaybeden tahmin: 213
+- Kaybeden tahmin: 214
 - Lig sayısı: 197
 - Seçenek sayısı: 7
 
@@ -23,7 +23,7 @@ Oluşturma: 26.08.2026 09:49:42
 - 2.5 Üst: toplam 48, bekleyen 31, başarı %88, ağırlık 1.12
 - 2.5 Alt: toplam 168, bekleyen 114, başarı %72, ağırlık 1.12
 - MS 1: toplam 207, bekleyen 154, başarı %38, ağırlık 0.88
-- MS 2: toplam 339, bekleyen 214, başarı %34, ağırlık 0.88
+- MS 2: toplam 339, bekleyen 213, başarı %33, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
@@ -36,7 +36,7 @@ Oluşturma: 26.08.2026 09:49:42
 - 2026-08-26 | Avustralya FFA Kupası Çeyrek Final | Preston Lions - South Melbourne | 2.5 Alt | pending | 53/100
 - 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Tokyo Verdy - Kusatsu Gunma | 2.5 Alt | pending | 62/100
 - 2026-08-26 | AFF Şampiyonası Final | Vietnam (2) - (0) Tayland | 2.5 Üst | pending | 59/100
-- 2026-08-26 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon - Salt Lake | MS 2 | pending | 34/100
+- 2026-08-26 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon - Salt Lake | MS 2 | lost | 34/100
 - 2026-08-26 | Gürcistan David Kipiani Kupası Çeyrek Final | Torpedo Kutais - Dinamo Batumi | 2.5 Alt | pending | 54/100
 - 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Iwata - Tegevajaro Miya | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Malezya Süper Lig | Kuala Lumpur - Kuching Fa | KG Var | pending | 47/100
