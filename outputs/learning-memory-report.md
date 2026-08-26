@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 14:45:32
+Oluşturma: 26.08.2026 14:50:07
 
 ## Özet
 
-- Toplam tahmin: 1301
-- Bekleyen tahmin: 934
+- Toplam tahmin: 1303
+- Bekleyen tahmin: 936
 - Kazanan tahmin: 152
 - Kaybeden tahmin: 214
 - Lig sayısı: 198
@@ -21,8 +21,8 @@ Oluşturma: 26.08.2026 14:45:32
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 50, bekleyen 33, başarı %88, ağırlık 1.12
-- 2.5 Alt: toplam 173, bekleyen 119, başarı %72, ağırlık 1.12
-- MS 1: toplam 211, bekleyen 158, başarı %38, ağırlık 0.88
+- 2.5 Alt: toplam 174, bekleyen 120, başarı %72, ağırlık 1.12
+- MS 1: toplam 212, bekleyen 159, başarı %38, ağırlık 0.88
 - MS 2: toplam 341, bekleyen 215, başarı %33, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
@@ -30,6 +30,8 @@ Oluşturma: 26.08.2026 14:45:32
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | Venezuela Kupa 1.Tur Grup C | Caracas Fc - Fundacion Lara | MS 1 | pending | 50/100
+- 2026-08-26 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Psv Eindhoven - Koge (K) | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Güney Afrika PSL | Mamelodi Sundo - Amazulu | 2.5 Üst | pending | 64/100
 - 2026-08-26 | Suudi Arabistan 1.Lig | Al Bukayriyah - Al Akhdoud | 2.5 Üst | pending | 64/100
 - 2026-08-26 | Macaristan NB III Güneydoğu | Honved Ii - Szegedi Vse | MS 1 | pending | 40/100
@@ -43,6 +45,4 @@ Oluşturma: 26.08.2026 14:45:32
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup C | Aragua - Yaracuyanos | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Gürcistan David Kipiani Kupası Çeyrek Final | Gagra - Aragvi Dusheti | 2.5 Alt | pending | 59/100
 - 2026-08-26 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | E. Frankfurt ( - Psg (K) | 2.5 Alt | pending | 62/100
-- 2026-08-26 | CONCACAF Orta Amerika Kupası Grup A | Alajuelense - Plaza Amador | MS 1 | pending | 45/100
-- 2026-08-26 | Paraguay Kupa 3.Tur | Depor Santani - Deportivo Recol | 2.5 Alt | pending | 64/100
 

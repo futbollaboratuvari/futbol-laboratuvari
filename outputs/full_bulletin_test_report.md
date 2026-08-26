@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 138
 - Live match count: 22
-- Finished removed count: 7
+- Finished removed count: 0
 - Date window: 2026-08-26 / 2026-08-27 23:59
 
 - 2026-08-26 13:00 | Avispa Fukuoka - Verspah Oita | live
