@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 08:01:23
+Oluşturma: 26.08.2026 08:08:37
 
 ## Özet
 
-- Toplam tahmin: 1273
-- Bekleyen tahmin: 909
+- Toplam tahmin: 1276
+- Bekleyen tahmin: 912
 - Kazanan tahmin: 151
 - Kaybeden tahmin: 212
 - Lig sayısı: 197
@@ -21,14 +21,17 @@ Oluşturma: 26.08.2026 08:01:23
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 47, bekleyen 30, başarı %88, ağırlık 1.12
-- 2.5 Alt: toplam 159, bekleyen 107, başarı %73, ağırlık 1.12
-- MS 1: toplam 205, bekleyen 152, başarı %38, ağırlık 0.88
-- MS 2: toplam 337, bekleyen 212, başarı %34, ağırlık 0.88
+- 2.5 Alt: toplam 160, bekleyen 108, başarı %73, ağırlık 1.12
+- MS 1: toplam 206, bekleyen 153, başarı %38, ağırlık 0.88
+- MS 2: toplam 338, bekleyen 213, başarı %34, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | Şili Kupa Grup E | Recoleta - O Higgins | MS 2 | pending | 43/100
+- 2026-08-26 | ABD USL | New Mexico Uni - Lexington | 2.5 Alt | pending | 59/100
+- 2026-08-26 | Venezuela Kupa 1.Tur Grup B | El Vigia - Atletico Barina | MS 1 | pending | 42/100
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup E | Bolívar - Monagas | 2.5 Üst | pending | 76/100
 - 2026-08-26 | Şili Kupa Grup E | Recoleta - O Higgins | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Irak Premier Lig | Al Kahraba - Al Karma | 2.5 Alt | pending | 64/100
@@ -40,8 +43,5 @@ Oluşturma: 26.08.2026 08:01:23
 - 2026-08-26 | Bolivya Premier Lig | San Antonio Bu - The Strongest | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Hannover 96 (Am | 2.5 Alt | pending | 62/100
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup B | El Vigia - Atletico Barina | 2.5 Üst | pending | 64/100
-- 2026-08-26 | Bolivya Premier Lig | San Antonio Bu - The Strongest | MS 2 | pending | 41/100
-- 2026-08-26 | Venezuela Kupa 1.Tur Grup E | Bolívar - Monagas | 2.5 Alt | pending | 76/100
-- 2026-08-26 | Norveç 1.Lig | Moss - Sogndal | MS 1 | pending | 40/100
-- 2026-08-26 | Norveç 1.Lig | Odds Bk - Kongsvinger | MS 2 | pending | 38/100
+- 2026-08-26 | Bolivya Premier Lig | San Antonio Bu - The Strongest | MS 2 | pending | 45/100
 
