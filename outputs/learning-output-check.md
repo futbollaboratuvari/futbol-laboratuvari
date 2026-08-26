@@ -1,6 +1,6 @@
 # Learning Output Check
 
-Generated: 2026-08-26T07:58:58.789Z
+Generated: 2026-08-26T09:04:25.901Z
 Status: ready
 
 ## Checks
@@ -19,8 +19,8 @@ Status: ready
 - Scoring mode: market_conditioned_probability_ensemble_with_learning_memory
 - Robot matches: 165
 - Learning adjusted count: 117
-- Memory predictions: 1291
-- Pending predictions: 924
+- Memory predictions: 1293
+- Pending predictions: 926
 
 Learning output fields are present. The site can display learning notes.
 

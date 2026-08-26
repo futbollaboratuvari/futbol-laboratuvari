@@ -2,12 +2,12 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 165
-- Live match count: 0
+- Scheduled match count: 164
+- Live match count: 1
 - Finished removed count: 0
 - Date window: 2026-08-26 / 2026-08-27 23:59
 
-- 2026-08-26 12:00 | Ujpest Ii - Szeged-Csanad I | scheduled
+- 2026-08-26 12:00 | Ujpest Ii - Szeged-Csanad I | live
 - 2026-08-26 12:30 | Preston Lions - South Melbourne | scheduled
 - 2026-08-26 12:30 | Cerezo Osaka - Fc Gifu | scheduled
 - 2026-08-26 12:30 | Hiroshima - Okinawa Sv | scheduled
