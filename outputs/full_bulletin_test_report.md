@@ -2,8 +2,8 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 157
-- Live match count: 8
+- Scheduled match count: 140
+- Live match count: 26
 - Finished removed count: 0
 - Date window: 2026-08-26 / 2026-08-27 23:59
 
@@ -15,5 +15,5 @@
 - 2026-08-26 12:30 | Nagoya - Gainare Tottori | live
 - 2026-08-26 12:30 | Tokushima - Fc Tokushima | live
 - 2026-08-26 12:30 | Tokyo Verdy - Kusatsu Gunma | live
-- 2026-08-26 13:00 | Avispa Fukuoka - Verspah Oita | scheduled
-- 2026-08-26 13:00 | Fagiano Okayam - Bergarosso Hama | scheduled
+- 2026-08-26 13:00 | Avispa Fukuoka - Verspah Oita | live
+- 2026-08-26 13:00 | Fagiano Okayam - Bergarosso Hama | live

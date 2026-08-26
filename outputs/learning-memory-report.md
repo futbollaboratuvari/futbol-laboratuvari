@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 12:59:03
+Oluşturma: 26.08.2026 13:03:03
 
 ## Özet
 
-- Toplam tahmin: 1294
-- Bekleyen tahmin: 927
+- Toplam tahmin: 1299
+- Bekleyen tahmin: 932
 - Kazanan tahmin: 152
 - Kaybeden tahmin: 214
-- Lig sayısı: 197
+- Lig sayısı: 198
 - Seçenek sayısı: 7
 
 ## Öğrenme Mantığı
@@ -22,27 +22,27 @@ Oluşturma: 26.08.2026 12:59:03
 
 - 2.5 Üst: toplam 48, bekleyen 31, başarı %88, ağırlık 1.12
 - 2.5 Alt: toplam 173, bekleyen 119, başarı %72, ağırlık 1.12
-- MS 1: toplam 208, bekleyen 155, başarı %38, ağırlık 0.88
-- MS 2: toplam 339, bekleyen 213, başarı %33, ağırlık 0.88
+- MS 1: toplam 211, bekleyen 158, başarı %38, ağırlık 0.88
+- MS 2: toplam 341, bekleyen 215, başarı %33, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | Macaristan NB III Güneydoğu | Honved Ii - Szegedi Vse | MS 1 | pending | 40/100
+- 2026-08-26 | Macaristan NB III Güneybatı | Pte-Peac - Budaors | MS 2 | pending | 37/100
+- 2026-08-26 | Belarus 1.Lig | Orsha - Dinamo Minsk Ii | MS 2 | pending | 37/100
+- 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | V-Varen Nagasa - Ehime Fc | MS 1 | pending | 50/100
+- 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Sendai - Tochigi City | MS 1 | pending | 42/100
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup E | Mineros - Dinamo Puerto L | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Omiya - Vanraure | MS 1 | pending | 45/100
 - 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Niigata - Kagoshima Unite | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup C | Aragua - Yaracuyanos | 2.5 Alt | pending | 64/100
-- 2026-08-26 | Gürcistan David Kipiani Kupası Çeyrek Final | Gagra - Aragvi Dusheti | 2.5 Alt | pending | 61/100
+- 2026-08-26 | Gürcistan David Kipiani Kupası Çeyrek Final | Gagra - Aragvi Dusheti | 2.5 Alt | pending | 59/100
 - 2026-08-26 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | E. Frankfurt ( - Psg (K) | 2.5 Alt | pending | 62/100
 - 2026-08-26 | CONCACAF Orta Amerika Kupası Grup A | Alajuelense - Plaza Amador | MS 1 | pending | 45/100
 - 2026-08-26 | Paraguay Kupa 3.Tur | Depor Santani - Deportivo Recol | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Irak Premier Lig | Al Mosul - Karbala | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Avustralya FFA Kupası Çeyrek Final | Preston Lions - South Melbourne | 2.5 Alt | pending | 54/100
-- 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Tokyo Verdy - Kusatsu Gunma | 2.5 Alt | pending | 62/100
-- 2026-08-26 | AFF Şampiyonası Final | Vietnam (2) - (0) Tayland | 2.5 Üst | pending | 59/100
-- 2026-08-26 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon - Salt Lake | MS 2 | lost | 34/100
-- 2026-08-26 | Gürcistan David Kipiani Kupası Çeyrek Final | Torpedo Kutais - Dinamo Batumi | 2.5 Alt | pending | 56/100
-- 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Iwata - Tegevajaro Miya | 2.5 Alt | pending | 64/100
 
