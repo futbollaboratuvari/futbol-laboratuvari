@@ -25,6 +25,12 @@ function writeJson(file, value) {
   fs.writeFileSync(file, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
 }
 
+function writeIfChanged(file, current, next) {
+  if (JSON.stringify(current) === JSON.stringify(next)) return false;
+  writeJson(file, next);
+  return true;
+}
+
 function finite(value) {
   if (value === null || value === undefined || value === '' || value === '-') return null;
   const number = Number(String(value).replace('%', '').replace(',', '.'));
@@ -273,21 +279,29 @@ function recentEnough(iso, hours = KEEP_RECENT_HOURS) {
   return Number.isFinite(time) && (Date.now() - time) <= hours * 3600 * 1000;
 }
 
+function stableWaitingPayload(previous, now) {
+  const payload = {
+    ...previous,
+    schema_version: 1,
+    generated_at: previous.generated_at || now,
+    timezone: 'Europe/Istanbul',
+    status: 'waiting_api_key',
+    source: 'API-Football statistics',
+    source_verified: true,
+    message: 'Canlı güç veri sağlayıcısı yapılandırması bekleniyor. Eski doğrulanmış veriler korunuyor.',
+  };
+  delete payload.last_attempt_at;
+  return payload;
+}
+
 async function main() {
   const now = new Date().toISOString();
   const previous = readJson(OUTPUT_FILE, { schema_version: 1, matches: [], recent_matches: [] });
   const apiKey = process.env.API_FOOTBALL_KEY || process.env.API_FOOTBALL_KEY2 || '';
   if (!apiKey) {
-    writeJson(OUTPUT_FILE, {
-      ...previous,
-      schema_version: 1,
-      generated_at: previous.generated_at || now,
-      last_attempt_at: now,
-      status: 'waiting_api_key',
-      source: 'API-Football statistics',
-      message: 'Canli guc verisi icin API_FOOTBALL_KEY bekleniyor. Eski dogrulanmis veriler korunuyor.',
-    });
-    console.log('Live power: API key unavailable; preserved previous verified data.');
+    const waiting = stableWaitingPayload(previous, now);
+    const changed = writeIfChanged(OUTPUT_FILE, previous, waiting);
+    console.log(`Live power: provider credential unavailable; verified data preserved${changed ? ' and waiting state normalized' : ''}.`);
     return;
   }
 
@@ -295,18 +309,22 @@ async function main() {
   try {
     liveResult = await apiRequest('/fixtures', { live: 'all' }, apiKey);
   } catch (error) {
-    writeJson(OUTPUT_FILE, {
+    const message = String(error?.message || error).slice(0, 300);
+    const failure = {
       ...previous,
-      last_attempt_at: now,
       status: 'api_error',
-      message: String(error?.message || error).slice(0, 300),
-    });
-    console.warn('Live power API error:', error?.message || error);
+      message: 'Canlı güç veri sağlayıcısına geçici olarak ulaşılamadı. Eski doğrulanmış veriler korunuyor.',
+      provider_error_code: message,
+    };
+    delete failure.last_attempt_at;
+    writeIfChanged(OUTPUT_FILE, previous, failure);
+    console.warn('Live power API error:', message);
     return;
   }
 
   const apiFixtures = Array.isArray(liveResult.body?.response) ? liveResult.body.response : [];
   const siteCandidates = collectSiteCandidates();
+  const previousMap = new Map((Array.isArray(previous.matches) ? previous.matches : []).map((row) => [Number(row.fixture_id), row]));
   const matches = [];
   const usedFixtureIds = new Set();
   for (const fixture of apiFixtures) {
@@ -315,16 +333,21 @@ async function main() {
     const fixtureId = Number(fixture?.fixture?.id);
     if (!fixtureId || usedFixtureIds.has(fixtureId)) continue;
     usedFixtureIds.add(fixtureId);
-    matches.push({ fixture, site: best.site, similarity: best.sim.total });
+    matches.push({ fixture, site: best.site, similarity: best.sim.total, fixtureId });
   }
-  matches.sort((a, b) => (b.site.priority - a.site.priority) || (b.similarity - a.similarity));
+  matches.sort((a, b) => {
+    const continuityA = previousMap.has(a.fixtureId) ? 100000 : 0;
+    const continuityB = previousMap.has(b.fixtureId) ? 100000 : 0;
+    return (continuityB - continuityA)
+      || (b.site.priority - a.site.priority)
+      || (b.similarity - a.similarity);
+  });
 
   const lowQuotaMode = liveResult.limit !== null && liveResult.limit <= 150;
   const remaining = liveResult.remaining;
   let statCap = lowQuotaMode ? 1 : MAX_MATCHES;
   if (remaining !== null) statCap = Math.max(0, Math.min(statCap, Math.floor(remaining - 2)));
   const selected = matches.slice(0, statCap);
-  const previousMap = new Map((Array.isArray(previous.matches) ? previous.matches : []).map((row) => [Number(row.fixture_id), row]));
   const activeSeries = [];
 
   for (const item of selected) {
@@ -417,8 +440,8 @@ async function main() {
       sampled_match_count: activeSeries.length,
     },
     message: activeSeries.length
-      ? 'Dogrulanmis canli istatistiklerden Team Power ve Goal Power snapshotlari uretildi.'
-      : 'Dogrulanmis canli istatistik eslesmesi bekleniyor; sahte grafik uretilmedi.',
+      ? 'Doğrulanmış canlı istatistiklerden Team Power ve Goal Power snapshotları üretildi.'
+      : 'Doğrulanmış canlı istatistik eşleşmesi bekleniyor; sahte grafik üretilmedi.',
     matches: activeSeries,
     recent_matches: [...recentMap.values()].sort((a, b) => String(b.last_seen_at).localeCompare(String(a.last_seen_at))).slice(0, 12),
   };
@@ -440,4 +463,5 @@ module.exports = {
   computePower,
   mergeSnapshot,
   teamPairSimilarity,
+  stableWaitingPayload,
 };
