@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 18:58:25
+Oluşturma: 26.08.2026 19:05:45
 
 ## Özet
 
-- Toplam tahmin: 1316
-- Bekleyen tahmin: 949
+- Toplam tahmin: 1318
+- Bekleyen tahmin: 951
 - Kazanan tahmin: 152
 - Kaybeden tahmin: 214
 - Lig sayısı: 198
@@ -20,9 +20,9 @@ Oluşturma: 26.08.2026 18:58:25
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 52, bekleyen 35, başarı %88, ağırlık 1.12
+- 2.5 Üst: toplam 53, bekleyen 36, başarı %88, ağırlık 1.12
 - 2.5 Alt: toplam 181, bekleyen 127, başarı %72, ağırlık 1.12
-- MS 1: toplam 214, bekleyen 161, başarı %38, ağırlık 0.88
+- MS 1: toplam 215, bekleyen 162, başarı %38, ağırlık 0.88
 - MS 2: toplam 343, bekleyen 217, başarı %33, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
@@ -30,6 +30,8 @@ Oluşturma: 26.08.2026 18:58:25
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | UEFA Şampiyonlar Ligi Play Off | Lyon (1) - (1) Fenerbahçe | MS 1 | pending | 43/100
+- 2026-08-26 | Suudi Arabistan 1.Lig | Al Zulfi - Al Wahda | 2.5 Üst | pending | 64/100
 - 2026-08-26 | Macaristan NB III Güneybatı | Kaposvar - Paksi Fc Ii | MS 1 | pending | 50/100
 - 2026-08-26 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | St. Pölten (K) - Juventus (K) | 2.5 Alt | pending | 62/100
 - 2026-08-26 | Hazırlık Kulüpler | Atletico Astor - Salamanca | 2.5 Alt | pending | 64/100
@@ -43,6 +45,4 @@ Oluşturma: 26.08.2026 18:58:25
 - 2026-08-26 | Hazırlık Kulüpler | Atletico Astor - Salamanca | 2.5 Üst | pending | 64/100
 - 2026-08-26 | Suudi Arabistan 1.Lig | Al Bukayriyah - Al Akhdoud | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Macaristan NB III Güneybatı | Erdi Vse - Pecs | MS 2 | pending | 47/100
-- 2026-08-26 | Venezuela Kupa 1.Tur Grup C | Caracas Fc - Fundacion Lara | MS 1 | pending | 50/100
-- 2026-08-26 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Psv Eindhoven - Koge (K) | 2.5 Alt | pending | 64/100
 

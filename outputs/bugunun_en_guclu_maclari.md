@@ -2,23 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-26T15:58:23.607Z
+- Güncelleme: 2026-08-26T16:04:22.333Z
 - Ham maç sayısı: 144
 - Yarın bülteni maç sayısı: 27
 - Detay blok sayısı: 365
-- Aktif bülten maçı: 99
-- Bültenden düşürülen maç: 45
+- Aktif bülten maçı: 92
+- Bültenden düşürülen maç: 52
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Al Faisaly - Al Fateh | Suudi Arabistan Pro Lig | 19:00 | Veri bekleniyor | - | 2.39 | 8 |
-| Wolfsburg (K) - Inter Milano (K | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.2 | 4 |
-| Fredericia - Odense | Danimarka DBU Kupası 2.Tur | 19:00 | Veri bekleniyor | - | 2.49 | 8 |
-| Strommen - Raufoss | Norveç 1.Lig | 19:00 | Veri bekleniyor | - | 1.68 | 8 |
-| Varhaug - Sandnes | Norveç NM Kupası 1.Tur | 19:00 | Veri bekleniyor | - | 8.65 | 3 |
-| Tammeka Tartu - Flora Tallinn | Estonya Premium Lig | 19:00 | Veri bekleniyor | - | 3.89 | 3 |
-| Gagra - Aragvi Dusheti | Gürcistan David Kipiani Kupası Çeyrek Final | 19:00 | Veri bekleniyor | - | 1.38 | 5 |
 | Al Zulfi - Al Wahda | Suudi Arabistan 1.Lig | 19:05 | Veri bekleniyor | - | 2.97 | 8 |
 | Al Bukayriyah - Al Akhdoud | Suudi Arabistan 1.Lig | 19:10 | Veri bekleniyor | - | 2.79 | 8 |
 | Sparta Prague - Servette Chenoi | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | 19:30 | Veri bekleniyor | - | 1.78 | 8 |
