@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 16:57:27
+Oluşturma: 26.08.2026 17:24:02
 
 ## Özet
 
-- Toplam tahmin: 1314
-- Bekleyen tahmin: 947
+- Toplam tahmin: 1315
+- Bekleyen tahmin: 948
 - Kazanan tahmin: 152
 - Kaybeden tahmin: 214
 - Lig sayısı: 198
@@ -21,7 +21,7 @@ Oluşturma: 26.08.2026 16:57:27
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 52, bekleyen 35, başarı %88, ağırlık 1.12
-- 2.5 Alt: toplam 180, bekleyen 126, başarı %72, ağırlık 1.12
+- 2.5 Alt: toplam 181, bekleyen 127, başarı %72, ağırlık 1.12
 - MS 1: toplam 213, bekleyen 160, başarı %38, ağırlık 0.88
 - MS 2: toplam 343, bekleyen 217, başarı %33, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
@@ -30,6 +30,7 @@ Oluşturma: 26.08.2026 16:57:27
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | St. Pölten (K) - Juventus (K) | 2.5 Alt | pending | 62/100
 - 2026-08-26 | Hazırlık Kulüpler | Atletico Astor - Salamanca | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Hazırlık Kulüpler | Numancia - Utebo | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Copa Sudamericana Son 16 Turu | River Plate (0) - (0) Santa Fe | 2.5 Alt | pending | 64/100
@@ -44,5 +45,4 @@ Oluşturma: 26.08.2026 16:57:27
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup C | Caracas Fc - Fundacion Lara | MS 1 | pending | 50/100
 - 2026-08-26 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Psv Eindhoven - Koge (K) | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Güney Afrika PSL | Mamelodi Sundo - Amazulu | 2.5 Üst | pending | 64/100
-- 2026-08-26 | Suudi Arabistan 1.Lig | Al Bukayriyah - Al Akhdoud | 2.5 Üst | pending | 64/100
 
