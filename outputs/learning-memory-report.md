@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 07:28:22
+Oluşturma: 26.08.2026 08:01:23
 
 ## Özet
 
-- Toplam tahmin: 1272
-- Bekleyen tahmin: 908
+- Toplam tahmin: 1273
+- Bekleyen tahmin: 909
 - Kazanan tahmin: 151
 - Kaybeden tahmin: 212
 - Lig sayısı: 197
@@ -20,7 +20,7 @@ Oluşturma: 26.08.2026 07:28:22
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 46, bekleyen 29, başarı %88, ağırlık 1.12
+- 2.5 Üst: toplam 47, bekleyen 30, başarı %88, ağırlık 1.12
 - 2.5 Alt: toplam 159, bekleyen 107, başarı %73, ağırlık 1.12
 - MS 1: toplam 205, bekleyen 152, başarı %38, ağırlık 0.88
 - MS 2: toplam 337, bekleyen 212, başarı %34, ağırlık 0.88
@@ -29,6 +29,7 @@ Oluşturma: 26.08.2026 07:28:22
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | Venezuela Kupa 1.Tur Grup E | Bolívar - Monagas | 2.5 Üst | pending | 76/100
 - 2026-08-26 | Şili Kupa Grup E | Recoleta - O Higgins | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Irak Premier Lig | Al Kahraba - Al Karma | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Bolivya Premier Lig | Universitario - Nacional Potosi | 2.5 Alt | won | 78/100
@@ -43,5 +44,4 @@ Oluşturma: 26.08.2026 07:28:22
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup E | Bolívar - Monagas | 2.5 Alt | pending | 76/100
 - 2026-08-26 | Norveç 1.Lig | Moss - Sogndal | MS 1 | pending | 40/100
 - 2026-08-26 | Norveç 1.Lig | Odds Bk - Kongsvinger | MS 2 | pending | 38/100
-- 2026-08-26 | Norveç 1.Lig | Asane - Lyn Oslo | MS 2 | pending | 41/100
 
