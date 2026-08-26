@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-26T10:56:55.067Z",
+  "generated_at": "2026-08-26T11:15:38.646Z",
   "date": "2026-08-26",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı PRO 13",
@@ -8,8 +8,8 @@
   "score_semantics": "model_score is signal strength from 0 to 100; it is not an outcome probability",
   "source": "robot-analysis.json compact verified projection",
   "summary": {
-    "match_count": 168,
-    "pro_ready_count": 48,
+    "match_count": 167,
+    "pro_ready_count": 49,
     "coupon_candidate_count": 7,
     "average_data_completeness": 29
   },
@@ -40,55 +40,6 @@
     "note": "Tahmini olasılıklar tamamlanan sonuçlarla Brier skoru üzerinden ölçülüyor."
   },
   "matches": [
-    {
-      "id": "19662",
-      "date": "2026-08-26",
-      "time": "12:00",
-      "league": "Macaristan NB III Güneydoğu",
-      "home": "Ujpest Ii",
-      "away": "Szeged-Csanad I",
-      "match_code": "19662",
-      "status": "live",
-      "recommended_market": "MS 1",
-      "model_score": 43,
-      "score_type": "signal_strength",
-      "estimated_probability": 50.7,
-      "market_probability": 50.7,
-      "edge_percent": 0,
-      "data_completeness": 40,
-      "data_quality": "Sınırlı",
-      "evidence_mode": "market_baseline",
-      "independent_evidence": false,
-      "probability_source": [],
-      "data_gap_risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "recommended_odd": 1.63,
-      "include_in_coupon": false,
-      "value_label": "Piyasa ile Uyumlu",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "metrics": {
-        "homeScoredLast10": 4,
-        "awayScoredLast10": 4,
-        "over25Percent": 50,
-        "over35Percent": 32,
-        "leagueGoalAverage": 2.72
-      },
-      "signals": [
-        "Market: MS 1",
-        "Oran: 1.63",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %51.",
-        "Birleşik tahmini olasılık %51.",
-        "Model-piyasa farkı +0.0 puan."
-      ],
-      "model_version": "pro13-market-conditioned-v1",
-      "source": "Robot ham veri havuzu"
-    },
     {
       "id": "15926",
       "date": "2026-08-26",
@@ -2513,8 +2464,8 @@
       "recommended_market": "MS 2",
       "model_score": 45,
       "score_type": "signal_strength",
-      "estimated_probability": 56.1,
-      "market_probability": 56.1,
+      "estimated_probability": 55.2,
+      "market_probability": 55.2,
       "edge_percent": 0,
       "data_completeness": 40,
       "data_quality": "Sınırlı",
@@ -2523,7 +2474,7 @@
       "probability_source": [],
       "data_gap_risk": "Yüksek",
       "risk_level": "Yüksek",
-      "recommended_odd": 1.47,
+      "recommended_odd": 1.5,
       "include_in_coupon": false,
       "value_label": "Piyasa ile Uyumlu",
       "expected_scores": [
@@ -2545,11 +2496,11 @@
       },
       "signals": [
         "Market: MS 2",
-        "Oran: 1.47",
+        "Oran: 1.50",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %56.",
-        "Birleşik tahmini olasılık %56.",
+        "Marjı temizlenmiş piyasa olasılığı %55.",
+        "Birleşik tahmini olasılık %55.",
         "Model-piyasa farkı +0.0 puan."
       ],
       "model_version": "pro13-market-conditioned-v1",
@@ -3944,8 +3895,8 @@
       "recommended_market": "2.5 Üst",
       "model_score": 64,
       "score_type": "signal_strength",
-      "estimated_probability": 52.3,
-      "market_probability": 52.3,
+      "estimated_probability": 51.7,
+      "market_probability": 51.7,
       "edge_percent": 0,
       "data_completeness": 40,
       "data_quality": "Sınırlı",
@@ -3954,7 +3905,7 @@
       "probability_source": [],
       "data_gap_risk": "Yüksek",
       "risk_level": "Yüksek",
-      "recommended_odd": 1.58,
+      "recommended_odd": 1.6,
       "include_in_coupon": false,
       "value_label": "Piyasa ile Uyumlu",
       "expected_scores": [
@@ -3976,7 +3927,7 @@
       },
       "signals": [
         "Market: 2.5 Üst",
-        "Oran: 1.58",
+        "Oran: 1.60",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %52.",
@@ -6765,11 +6716,11 @@
       "away": "Dinamo Puerto L",
       "match_code": "08022",
       "status": "scheduled",
-      "recommended_market": "MS 1",
-      "model_score": 39,
+      "recommended_market": "2.5 Alt",
+      "model_score": 64,
       "score_type": "signal_strength",
-      "estimated_probability": 40,
-      "market_probability": 40,
+      "estimated_probability": 61.3,
+      "market_probability": 61.3,
       "edge_percent": 0,
       "data_completeness": 40,
       "data_quality": "Sınırlı",
@@ -6778,13 +6729,13 @@
       "probability_source": [],
       "data_gap_risk": "Yüksek",
       "risk_level": "Yüksek",
-      "recommended_odd": 2.07,
+      "recommended_odd": 1.35,
       "include_in_coupon": false,
       "value_label": "Piyasa ile Uyumlu",
       "expected_scores": [
+        "0-0",
         "1-0",
-        "2-0",
-        "2-1"
+        "1-1"
       ],
       "metrics": {
         "homeScoredLast10": 3,
@@ -6799,12 +6750,12 @@
         "leagueGoalAverage": 2.58
       },
       "signals": [
-        "Market: MS 1",
-        "Oran: 2.07",
+        "Market: 2.5 Alt",
+        "Oran: 1.35",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %40.",
-        "Birleşik tahmini olasılık %40.",
+        "Marjı temizlenmiş piyasa olasılığı %61.",
+        "Birleşik tahmini olasılık %61.",
         "Model-piyasa farkı +0.0 puan."
       ],
       "model_version": "pro13-market-conditioned-v1",
@@ -7291,8 +7242,8 @@
       "recommended_market": "MS 2",
       "model_score": 43,
       "score_type": "signal_strength",
-      "estimated_probability": 48.3,
-      "market_probability": 48.3,
+      "estimated_probability": 49.4,
+      "market_probability": 49.4,
       "edge_percent": 0,
       "data_completeness": 42,
       "data_quality": "Sınırlı",
@@ -7301,7 +7252,7 @@
       "probability_source": [],
       "data_gap_risk": "Yüksek",
       "risk_level": "Yüksek",
-      "recommended_odd": 1.71,
+      "recommended_odd": 1.67,
       "include_in_coupon": false,
       "value_label": "Piyasa ile Uyumlu",
       "expected_scores": [
@@ -7323,11 +7274,11 @@
       },
       "signals": [
         "Market: MS 2",
-        "Oran: 1.71",
+        "Oran: 1.67",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %48.",
-        "Birleşik tahmini olasılık %48.",
+        "Marjı temizlenmiş piyasa olasılığı %49.",
+        "Birleşik tahmini olasılık %49.",
         "Model-piyasa farkı +0.0 puan."
       ],
       "model_version": "pro13-market-conditioned-v1",
