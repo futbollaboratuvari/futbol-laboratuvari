@@ -5,6 +5,7 @@ const {
   parseTeamStats,
   computePower,
   mergeSnapshot,
+  stableWaitingPayload,
 } = require('../scripts/update-live-power-series');
 
 assert.strictEqual(normalizeName('Real Madrid CF'), 'real madrid');
@@ -72,5 +73,18 @@ series = mergeSnapshot(series, { minute: 15, recorded_at: 'b' });
 series = mergeSnapshot(series, { minute: 30, recorded_at: 'c' });
 assert.deepStrictEqual(series.map((row) => row.minute), [15, 30]);
 assert.strictEqual(series[1].recorded_at, 'c');
+
+const waiting = stableWaitingPayload({
+  schema_version: 1,
+  generated_at: '2026-08-26T20:00:00.000Z',
+  status: 'waiting_api_key',
+  last_attempt_at: '2026-08-26T21:00:00.000Z',
+  matches: [],
+  recent_matches: [],
+}, '2026-08-27T00:00:00.000Z');
+assert.strictEqual(waiting.generated_at, '2026-08-26T20:00:00.000Z');
+assert.strictEqual(waiting.last_attempt_at, undefined);
+assert.strictEqual(waiting.status, 'waiting_api_key');
+assert(!waiting.message.includes('API_FOOTBALL_KEY'));
 
 console.log('live-power-series.test.js OK');
