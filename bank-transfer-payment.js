@@ -1,9 +1,11 @@
 (() => {
   const BASE = "https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-transfer";
+  const RECEIPT_BASE = "https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-receipt";
   const API = {
     create: `${BASE}?action=create-order`,
     report: `${BASE}?action=report-payment`,
     status: `${BASE}?action=order-status`,
+    receipt: `${RECEIPT_BASE}?action=upload`,
   };
 
   const esc = (value) => String(value ?? "")
@@ -31,6 +33,19 @@
   const createOrder = (payload) => request(API.create, { method: "POST", body: JSON.stringify(payload) });
   const reportPayment = (orderCode, email) => request(API.report, { method: "POST", body: JSON.stringify({ order_code: orderCode, email }) });
   const getStatus = (orderCode, email) => request(API.status, { method: "POST", body: JSON.stringify({ order_code: orderCode, email }) });
+  async function uploadReceipt(orderCode, emailAddress, file) {
+    if (!(file instanceof File)) throw new Error("Dekont görseli seçin.");
+    if (!["image/jpeg", "image/png", "image/webp"].includes(file.type)) throw new Error("Dekont JPG, PNG veya WEBP olmalıdır.");
+    if (file.size <= 0 || file.size > 8 * 1024 * 1024) throw new Error("Dekont en fazla 8 MB olabilir.");
+    const form = new FormData();
+    form.append("order_code", orderCode);
+    form.append("email", emailAddress);
+    form.append("receipt", file, file.name || "dekont.jpg");
+    const response = await fetch(API.receipt, { method: "POST", mode: "cors", credentials: "omit", cache: "no-store", body: form });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok || data.ok === false) throw new Error(data.error || data.message || "Dekont yüklenemedi.");
+    return data;
+  }
 
   async function copy(value, button) {
     try {
@@ -47,7 +62,7 @@
     style.id = "fl-bank-transfer-style";
     style.textContent = `
       .fl-bank{max-width:820px;margin:16px auto 0;padding:18px;border:1px solid rgba(57,255,136,.28);border-radius:18px;background:#061126;color:#f8fbff;box-shadow:0 20px 55px rgba(0,0,0,.3)}
-      .fl-bank h2,.fl-bank h3{color:#ffe08a;margin:0 0 10px}.fl-bank p{color:#aebbd0;line-height:1.55}.fl-bank-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.fl-bank label{display:grid;gap:6px;color:#d7e4f5;font-size:12px;font-weight:800}.fl-bank input,.fl-bank select{min-height:43px;border-radius:11px;border:1px solid rgba(255,255,255,.14);background:#020817;color:#fff;padding:0 12px}.fl-bank button{min-height:42px;border:0;border-radius:11px;padding:0 14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#06110d;font-weight:950;cursor:pointer}.fl-bank button:disabled{opacity:.55;cursor:not-allowed}.fl-bank button.secondary{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:#fff}.fl-bank-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}.fl-bank-output{margin-top:16px;padding:15px;border:1px solid rgba(57,255,136,.2);border-radius:15px;background:rgba(57,255,136,.06)}.fl-bank-row{display:grid;grid-template-columns:120px 1fr auto;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.07)}.fl-bank-row:last-child{border-bottom:0}.fl-bank-key{color:#9fb0c7;font-size:12px;font-weight:900}.fl-bank-value{font-weight:900;word-break:break-word}.fl-bank-note{margin-top:12px;padding:12px;border-radius:12px;background:rgba(255,224,138,.08);color:#ffe08a;font-weight:800;line-height:1.5}.fl-bank-status{margin-top:12px;color:#c8ffdd;font-weight:900}.fl-bank-error{margin-top:12px;color:#ffd0d5;font-weight:900}.fl-bank-code{font-size:18px;letter-spacing:.04em;color:#39ff88}@media(max-width:680px){.fl-bank-grid,.fl-bank-row{grid-template-columns:1fr}.fl-bank-row button{width:max-content}}
+      .fl-bank h2,.fl-bank h3{color:#ffe08a;margin:0 0 10px}.fl-bank p{color:#aebbd0;line-height:1.55}.fl-bank-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.fl-bank label{display:grid;gap:6px;color:#d7e4f5;font-size:12px;font-weight:800}.fl-bank input,.fl-bank select{min-height:43px;border-radius:11px;border:1px solid rgba(255,255,255,.14);background:#020817;color:#fff;padding:0 12px}.fl-bank input[type=file]{padding:10px;height:auto}.fl-bank button{min-height:42px;border:0;border-radius:11px;padding:0 14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#06110d;font-weight:950;cursor:pointer}.fl-bank button:disabled{opacity:.55;cursor:not-allowed}.fl-bank button.secondary{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:#fff}.fl-bank-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}.fl-bank-output{margin-top:16px;padding:15px;border:1px solid rgba(57,255,136,.2);border-radius:15px;background:rgba(57,255,136,.06)}.fl-bank-row{display:grid;grid-template-columns:120px 1fr auto;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.07)}.fl-bank-row:last-child{border-bottom:0}.fl-bank-key{color:#9fb0c7;font-size:12px;font-weight:900}.fl-bank-value{font-weight:900;word-break:break-word}.fl-bank-note{margin-top:12px;padding:12px;border-radius:12px;background:rgba(255,224,138,.08);color:#ffe08a;font-weight:800;line-height:1.5}.fl-bank-status{margin-top:12px;color:#c8ffdd;font-weight:900}.fl-bank-error{margin-top:12px;color:#ffd0d5;font-weight:900}.fl-bank-code{font-size:18px;letter-spacing:.04em;color:#39ff88}.fl-bank-receipt{margin-top:14px;padding:14px;border:1px solid rgba(255,224,138,.25);border-radius:14px;background:rgba(255,224,138,.05)}.fl-bank-receipt strong{color:#ffe08a}@media(max-width:680px){.fl-bank-grid,.fl-bank-row{grid-template-columns:1fr}.fl-bank-row button{width:max-content}}
     `;
     document.head.appendChild(style);
   }
@@ -61,7 +76,7 @@
     root.innerHTML = `
       <section class="fl-bank">
         <h2>Havale / EFT / FAST ile Ödeme</h2>
-        <p>Ödeme talebi oluşturulduktan sonra IBAN, tutar ve benzersiz FL kodu gösterilir.</p>
+        <p>Ödeme talebi oluşturulduktan sonra IBAN, tutar ve benzersiz FL kodu gösterilir. Transferden sonra dekont görseli yüklemek zorunludur.</p>
         <form data-fl-bank-form>
           <div class="fl-bank-grid">
             <label>Paket<select name="plan_id"><option value="starter">Gold Paket</option><option value="pro">Diamond Paket</option><option value="vip">Premium Paket</option></select></label>
@@ -86,7 +101,7 @@
       try {
         const data = await getStatus(activeOrder.order.order_code, activeOrder.email);
         const statusBox = message.querySelector("[data-status]");
-        if (statusBox) statusBox.textContent = data.order.status === "paid" ? "Ödeme onaylandı. Üyeliğiniz hazır." : data.order.status === "payment_reported" ? "Ödeme bildirildi, banka kontrolü bekleniyor." : `Durum: ${data.order.status}`;
+        if (statusBox) statusBox.textContent = data.order.status === "paid" ? "Ödeme onaylandı. Üyeliğiniz hazır." : data.order.status === "payment_reported" ? "Dekont alındı, ödeme kontrolü bekleniyor." : `Durum: ${data.order.status}`;
         if (data.order.status === "paid" && data.membership?.code) {
           const codeBox = message.querySelector("[data-membership]");
           if (codeBox) codeBox.innerHTML = `<div class="fl-bank-note">Üyelik kodunuz: <span class="fl-bank-code">${esc(data.membership.code)}</span> <button class="secondary" type="button" data-copy-code>Kopyala</button><br>Bu kodu Özel Analiz panelindeki üyelik kodu alanına girin.</div>`;
@@ -116,18 +131,33 @@
             <div class="fl-bank-row"><span class="fl-bank-key">Tutar</span><span class="fl-bank-value">${esc(money(data.order.amount_kurus))}</span></div>
             <div class="fl-bank-row"><span class="fl-bank-key">Açıklama</span><span class="fl-bank-value fl-bank-code">${esc(data.order.payment_reference)}</span><button class="secondary" type="button" data-copy="reference">Kopyala</button></div>
             <div class="fl-bank-note">Transfer açıklamasına yalnız <strong>${esc(data.order.payment_reference)}</strong> yazın. Tutarı ve IBAN'ı değiştirmeyin.</div>
-            <div class="fl-bank-actions"><button type="button" data-reported>Ödemeyi Yaptım</button><button class="secondary" type="button" data-check>Durumu Kontrol Et</button></div>
-            <div class="fl-bank-status" data-status>Ödeme bekleniyor.</div><div data-membership></div>
+            <div class="fl-bank-receipt">
+              <strong>Ödemeden sonra dekont yükleyin</strong>
+              <p style="margin:8px 0 10px">JPG, PNG veya WEBP · en fazla 8 MB. Dekont olmadan ödeme onaya gönderilmez.</p>
+              <input type="file" accept="image/jpeg,image/png,image/webp" data-receipt required>
+              <div class="fl-bank-actions"><button type="button" data-upload>Dekontu Yükle ve Ödemeyi Bildir</button><button class="secondary" type="button" data-check>Durumu Kontrol Et</button></div>
+            </div>
+            <div class="fl-bank-status" data-status>Ödeme ve dekont bekleniyor.</div><div data-membership></div>
           </div>`;
         message.querySelector('[data-copy="holder"]')?.addEventListener("click", (e) => copy(data.bank.account_holder, e.currentTarget));
         message.querySelector('[data-copy="iban"]')?.addEventListener("click", (e) => copy(data.bank.iban, e.currentTarget));
         message.querySelector('[data-copy="reference"]')?.addEventListener("click", (e) => copy(data.order.payment_reference, e.currentTarget));
-        message.querySelector("[data-reported]")?.addEventListener("click", async () => {
+        message.querySelector("[data-upload]")?.addEventListener("click", async (event) => {
+          const button = event.currentTarget;
+          const file = message.querySelector("[data-receipt]")?.files?.[0];
+          if (!file) { message.querySelector("[data-status]").textContent = "Önce dekont görselini seçin."; return; }
+          button.disabled = true;
+          message.querySelector("[data-status]").textContent = "Dekont güvenli alana yükleniyor...";
           try {
-            const result = await reportPayment(data.order.order_code, activeOrder.email);
-            message.querySelector("[data-status]").textContent = result.message;
+            const result = await uploadReceipt(data.order.order_code, activeOrder.email, file);
+            message.querySelector("[data-status]").textContent = result.message || "Dekont alındı. Ödeme kontrol sırasına gönderildi.";
+            const receiptInput = message.querySelector("[data-receipt]");
+            if (receiptInput) receiptInput.disabled = true;
+            button.textContent = "Dekont Alındı";
+            await showStatus();
           } catch (error) {
             message.querySelector("[data-status]").textContent = error.message;
+            button.disabled = false;
           }
         });
         message.querySelector("[data-check]")?.addEventListener("click", showStatus);
@@ -139,5 +169,5 @@
     });
   }
 
-  window.FLBankTransfer = { createOrder, reportPayment, getStatus, renderInto, apiBase: BASE };
+  window.FLBankTransfer = { createOrder, reportPayment, getStatus, uploadReceipt, renderInto, apiBase: BASE, receiptApiBase: RECEIPT_BASE };
 })();
