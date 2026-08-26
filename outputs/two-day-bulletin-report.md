@@ -2,22 +2,15 @@
 
 Gunler: 2026-08-26 / 2026-08-27
 Kaynak: fixtures.json
-Ham mac: 177
-Aktif mac: 164
-Canli mac: 1
-Biten mac: 12
-Bultenden dusurulen mac: 13
-Bugun: 137
+Ham mac: 165
+Aktif mac: 157
+Canli mac: 8
+Biten mac: 0
+Bultenden dusurulen mac: 8
+Bugun: 130
 Yarin: 27
 
 ## Baslamamis Maclar
-- 2026-08-26 12:30 | Avustralya FFA Kupası Çeyrek Final | Preston Lions - South Melbourne | scheduled | -
-- 2026-08-26 12:30 | Japonya İmparatorluk Kupası 2.Tur | Tokushima - Fc Tokushima | scheduled | -
-- 2026-08-26 12:30 | Japonya İmparatorluk Kupası 2.Tur | Hiroshima - Okinawa Sv | scheduled | -
-- 2026-08-26 12:30 | Japonya İmparatorluk Kupası 2.Tur | Cerezo Osaka - Fc Gifu | scheduled | -
-- 2026-08-26 12:30 | Japonya İmparatorluk Kupası 2.Tur | Machida Zelvia - Grulla Morioka | scheduled | -
-- 2026-08-26 12:30 | Japonya İmparatorluk Kupası 2.Tur | Tokyo Verdy - Kusatsu Gunma | scheduled | -
-- 2026-08-26 12:30 | Japonya İmparatorluk Kupası 2.Tur | Nagoya - Gainare Tottori | scheduled | -
 - 2026-08-26 13:00 | Japonya İmparatorluk Kupası 2.Tur | V-Varen Nagasa - Ehime Fc | scheduled | -
 - 2026-08-26 13:00 | Japonya İmparatorluk Kupası 2.Tur | Kashima - Suzuka Unlimite | scheduled | -
 - 2026-08-26 13:00 | Japonya İmparatorluk Kupası 2.Tur | Sendai - Tochigi City | scheduled | -
@@ -178,17 +171,13 @@ Yarin: 27
 
 ## Canli Maclar
 - 2026-08-26 12:00 | Macaristan NB III Güneydoğu | Ujpest Ii - Szeged-Csanad I | live | -
+- 2026-08-26 12:30 | Avustralya FFA Kupası Çeyrek Final | Preston Lions - South Melbourne | live | -
+- 2026-08-26 12:30 | Japonya İmparatorluk Kupası 2.Tur | Tokushima - Fc Tokushima | live | -
+- 2026-08-26 12:30 | Japonya İmparatorluk Kupası 2.Tur | Hiroshima - Okinawa Sv | live | -
+- 2026-08-26 12:30 | Japonya İmparatorluk Kupası 2.Tur | Cerezo Osaka - Fc Gifu | live | -
+- 2026-08-26 12:30 | Japonya İmparatorluk Kupası 2.Tur | Machida Zelvia - Grulla Morioka | live | -
+- 2026-08-26 12:30 | Japonya İmparatorluk Kupası 2.Tur | Tokyo Verdy - Kusatsu Gunma | live | -
+- 2026-08-26 12:30 | Japonya İmparatorluk Kupası 2.Tur | Nagoya - Gainare Tottori | live | -
 
 ## Biten Maclar
-- 2026-08-26 00:30 | Paraguay Kupa 3.Tur | Sol De America - Sportivo Trinid | finished | -
-- 2026-08-26 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Godoy Cruz | finished | -
-- 2026-08-26 01:30 | Brezilya Serie B | Atletico Goian - Botafogo Ribeir | finished | -
-- 2026-08-26 01:30 | Brezilya Serie B | Juventude - Regatas | finished | -
-- 2026-08-26 02:00 | Bolivya Premier Lig | Universitario - Nacional Potosi | finished | -
-- 2026-08-26 03:00 | Brezilya Kupa Çeyrek Final | Cruzeiro - Atletico Mg | finished | -
-- 2026-08-26 03:30 | CONCACAF Ligler Kupası Çeyrek Final | Monterrey - Chicago | finished | -
-- 2026-08-26 03:30 | Copa Libertadores Son 16 Turu | Indep. Jose Te (1) - (0) Deportes Tolima | finished | -
-- 2026-08-26 04:00 | Kolombiya Primera A Clausura | Depor Cucuta - Alianza Petrole | finished | -
-- 2026-08-26 05:30 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon - Salt Lake | finished | -
-- 2026-08-26 05:30 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines - Deportivo Fas | finished | -
-- 2026-08-26 05:30 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Depor Motagua | finished | -
+Biten mac yok.
