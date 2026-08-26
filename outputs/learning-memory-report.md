@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 09:06:31
+Oluşturma: 26.08.2026 09:23:22
 
 ## Özet
 
-- Toplam tahmin: 1281
-- Bekleyen tahmin: 915
+- Toplam tahmin: 1283
+- Bekleyen tahmin: 917
 - Kazanan tahmin: 152
 - Kaybeden tahmin: 213
 - Lig sayısı: 197
@@ -20,16 +20,18 @@ Oluşturma: 26.08.2026 09:06:31
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 47, bekleyen 30, başarı %88, ağırlık 1.12
+- 2.5 Üst: toplam 48, bekleyen 31, başarı %88, ağırlık 1.12
 - 2.5 Alt: toplam 164, bekleyen 110, başarı %72, ağırlık 1.12
 - MS 1: toplam 206, bekleyen 153, başarı %38, ağırlık 0.88
-- MS 2: toplam 338, bekleyen 213, başarı %34, ağırlık 0.88
+- MS 2: toplam 339, bekleyen 214, başarı %34, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | AFF Şampiyonası Final | Vietnam (2) - (0) Tayland | 2.5 Üst | pending | 59/100
+- 2026-08-26 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon - Salt Lake | MS 2 | pending | 34/100
 - 2026-08-26 | Gürcistan David Kipiani Kupası Çeyrek Final | Torpedo Kutais - Dinamo Batumi | 2.5 Alt | pending | 54/100
 - 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Iwata - Tegevajaro Miya | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Malezya Süper Lig | Kuala Lumpur - Kuching Fa | KG Var | pending | 47/100
@@ -43,6 +45,4 @@ Oluşturma: 26.08.2026 09:06:31
 - 2026-08-26 | Irak Premier Lig | Al Kahraba - Al Karma | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Bolivya Premier Lig | Universitario - Nacional Potosi | 2.5 Alt | won | 78/100
 - 2026-08-26 | Brezilya Kupa Çeyrek Final | Palmeiras - Santos | 2.5 Alt | pending | 67/100
-- 2026-08-26 | Norveç 1.Lig | Stabaek - Ranheim | MS 1 | pending | 50/100
-- 2026-08-26 | İngiltere Non League Premier Kuzey | Avro - Leek Town | 2.5 Alt | pending | 64/100
 
