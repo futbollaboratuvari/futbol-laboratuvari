@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 13:03:03
+Oluşturma: 26.08.2026 13:44:29
 
 ## Özet
 
-- Toplam tahmin: 1299
-- Bekleyen tahmin: 932
+- Toplam tahmin: 1301
+- Bekleyen tahmin: 934
 - Kazanan tahmin: 152
 - Kaybeden tahmin: 214
 - Lig sayısı: 198
@@ -20,7 +20,7 @@ Oluşturma: 26.08.2026 13:03:03
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 48, bekleyen 31, başarı %88, ağırlık 1.12
+- 2.5 Üst: toplam 50, bekleyen 33, başarı %88, ağırlık 1.12
 - 2.5 Alt: toplam 173, bekleyen 119, başarı %72, ağırlık 1.12
 - MS 1: toplam 211, bekleyen 158, başarı %38, ağırlık 0.88
 - MS 2: toplam 341, bekleyen 215, başarı %33, ağırlık 0.88
@@ -30,6 +30,8 @@ Oluşturma: 26.08.2026 13:03:03
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | Güney Afrika PSL | Mamelodi Sundo - Amazulu | 2.5 Üst | pending | 64/100
+- 2026-08-26 | Suudi Arabistan 1.Lig | Al Bukayriyah - Al Akhdoud | 2.5 Üst | pending | 64/100
 - 2026-08-26 | Macaristan NB III Güneydoğu | Honved Ii - Szegedi Vse | MS 1 | pending | 40/100
 - 2026-08-26 | Macaristan NB III Güneybatı | Pte-Peac - Budaors | MS 2 | pending | 37/100
 - 2026-08-26 | Belarus 1.Lig | Orsha - Dinamo Minsk Ii | MS 2 | pending | 37/100
@@ -43,6 +45,4 @@ Oluşturma: 26.08.2026 13:03:03
 - 2026-08-26 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | E. Frankfurt ( - Psg (K) | 2.5 Alt | pending | 62/100
 - 2026-08-26 | CONCACAF Orta Amerika Kupası Grup A | Alajuelense - Plaza Amador | MS 1 | pending | 45/100
 - 2026-08-26 | Paraguay Kupa 3.Tur | Depor Santani - Deportivo Recol | 2.5 Alt | pending | 64/100
-- 2026-08-26 | Irak Premier Lig | Al Mosul - Karbala | 2.5 Alt | pending | 64/100
-- 2026-08-26 | Avustralya FFA Kupası Çeyrek Final | Preston Lions - South Melbourne | 2.5 Alt | pending | 54/100
 

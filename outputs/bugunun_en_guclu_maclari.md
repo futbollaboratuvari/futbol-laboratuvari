@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-26T10:02:58.268Z
+- Güncelleme: 2026-08-26T10:44:24.167Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -37,9 +37,10 @@
 | Omiya VS Vanraure | Japonya İmparatorluk Kupası 2.Tur | 13:00 | MS 1 | 1.51 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Fagiano Okayam VS Bergarosso Hama | Japonya İmparatorluk Kupası 2.Tur | 13:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Fc Imabari VS Blaublitz Akita | Japonya İmparatorluk Kupası 2.Tur | 13:00 | 2.5 Alt | 1.48 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Daejeon Citize VS Ulsan | Güney Kore K Lig 1 | 13:30 | 2.5 Alt | 2.00 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Anyang VS Incheon Utd | Güney Kore K Lig 1 | 13:30 | 2.5 Alt | 1.53 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Gangwon VS Gwangju | Güney Kore K Lig 1 | 13:30 | MS 1 | 1.35 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Daejeon Citize VS Ulsan | Güney Kore K Lig 1 | 13:30 | 2.5 Alt | 2.00 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Anyang VS Incheon Utd | Güney Kore K Lig 1 | 13:30 | 2.5 Alt | 1.53 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Gangwon VS Gwangju | Güney Kore K Lig 1 | 13:30 | MS 1 | 1.35 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Avispa Fukuoka VS Verspah Oita | Japonya İmparatorluk Kupası 2.Tur | 14:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Johor Dt VS Kelantan Red Wa | Malezya Süper Lig | 15:15 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Vietnam (2) VS (0) Tayland | AFF Şampiyonası Final | 16:00 | 2.5 Üst | 1.63 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Rana VS Follo | Norveç 2.Lig Grup 2 | 16:00 | MS 1 | 1.50 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -67,18 +68,18 @@
 | Bk Marienlyst VS Vsk Arhus | Danimarka DBU Kupası 2.Tur | 18:30 | MS 2 | 1.47 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Naft VS Duhok | Irak Premier Lig | 18:30 | 2.5 Alt | 1.35 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Godollo VS Füzesabony | Macaristan NB III Kuzeydoğu | 18:30 | MS 1 | 1.70 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Tiszafuredi VS Cigand Se | Macaristan NB III Kuzeydoğu | 18:30 | MS 2 | 1.63 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Dvsc Deac VS Egri | Macaristan NB III Kuzeydoğu | 18:30 | MS 1 | 1.96 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Tiszafuredi VS Cigand Se | Macaristan NB III Kuzeydoğu | 18:30 | MS 2 | 1.72 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Dvsc Deac VS Egri | Macaristan NB III Kuzeydoğu | 18:30 | MS 1 | 1.93 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Mosonmagyarova VS 1908 Szac | Macaristan NB III Kuzeybatı | 18:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Dorogi Fc VS Komarom | Macaristan NB III Kuzeybatı | 18:30 | MS 1 | 1.63 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Dorogi Fc VS Komarom | Macaristan NB III Kuzeybatı | 18:30 | MS 1 | 1.61 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Gyor Ii VS Kiraly Sze | Macaristan NB III Kuzeybatı | 18:30 | MS 1 | 1.65 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Veszprem VS Szombathelyi Ii | Macaristan NB III Kuzeybatı | 18:30 | 2.5 Alt | 1.79 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Esmtk VS Sandorfalva | Macaristan NB III Güneydoğu | 18:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Csepel Tc VS Bkv Elore | Macaristan NB III Güneydoğu | 18:30 | MS 1 | 1.38 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Bss Monor VS Hodmezovasarhel | Macaristan NB III Güneydoğu | 18:30 | MS 1 | 1.46 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Csepel Tc VS Bkv Elore | Macaristan NB III Güneydoğu | 18:30 | MS 1 | 1.47 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Bss Monor VS Hodmezovasarhel | Macaristan NB III Güneydoğu | 18:30 | MS 1 | 1.44 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Honved Ii VS Szegedi Vse | Macaristan NB III Güneydoğu | 18:30 | MS 1 | 1.90 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Iii Keruleti T VS Bekescsaba Elor | Macaristan NB III Güneydoğu | 18:30 | MS 1 | 1.43 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Pte-Peac VS Budaors | Macaristan NB III Güneybatı | 18:30 | MS 2 | 2.21 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Pte-Peac VS Budaors | Macaristan NB III Güneybatı | 18:30 | MS 2 | 2.14 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Kaposvar VS Paksi Fc Ii | Macaristan NB III Güneybatı | 18:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Budafoki Mte VS Szekszard | Macaristan NB III Güneybatı | 18:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Fc Tatabánya VS Sárisápi Bányás | Macaristan NB III Kuzeybatı | 18:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
@@ -91,23 +92,24 @@
 | Strommen VS Raufoss | Norveç 1.Lig | 19:00 | MS 1 | 1.68 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Varhaug VS Sandnes | Norveç NM Kupası 1.Tur | 19:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Tammeka Tartu VS Flora Tallinn | Estonya Premium Lig | 19:00 | MS 2 | 1.47 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Gagra VS Aragvi Dusheti | Gürcistan David Kipiani Kupası Çeyrek Final | 19:00 | 2.5 Alt | 1.54 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Gagra VS Aragvi Dusheti | Gürcistan David Kipiani Kupası Çeyrek Final | 19:00 | 2.5 Alt | 1.57 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Al Zulfi VS Al Wahda | Suudi Arabistan 1.Lig | 19:05 | 2.5 Alt | 1.63 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Al Bukayriyah VS Al Akhdoud | Suudi Arabistan 1.Lig | 19:10 | 2.5 Üst | 1.58 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Sparta Prague VS Servette Chenoi | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | 19:30 | MS 1 | 1.81 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Schöningen VS Sankt Pauli Ii | Almanya Bölgesel Lig Kuzey | 19:30 | MS 1 | 1.56 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Rapid Wien (2) VS (2) Hearts | UEFA Konferans Ligi Play Off | 19:45 | MS 1 | 1.39 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Rapid Wien (2) VS (2) Hearts | UEFA Konferans Ligi Play Off | 19:45 | MS 1 | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Czarni Sosnowi VS Oh Leuven (K) | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | 20:00 | MS 2 | 1.52 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | E. Frankfurt ( VS Psg (K) | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | 20:00 | 2.5 Alt | 1.97 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Psv Eindhoven VS Koge (K) | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | 20:00 | MS 1 | 1.81 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Fa 2000 VS Lyngby | Danimarka DBU Kupası 2.Tur | 20:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Petrojet VS El Geish | Mısır Premier Lig | 20:00 | MS 2 | 2.19 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Petrojet VS El Geish | Mısır Premier Lig | 20:00 | MS 2 | 2.24 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | National Bank VS Al Zamalek Cair | Mısır Premier Lig | 20:00 | 2.5 Alt | 1.40 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Haugesund VS Egersunds | Norveç 1.Lig | 20:00 | MS 1 | 1.37 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Moss VS Sogndal | Norveç 1.Lig | 20:00 | MS 1 | 1.89 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Odds Bk VS Kongsvinger | Norveç 1.Lig | 20:00 | MS 2 | 1.99 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Odds Bk VS Kongsvinger | Norveç 1.Lig | 20:00 | MS 2 | 1.93 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Stromsgodset VS Hodd | Norveç 1.Lig | 20:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Asane VS Lyn Oslo | Norveç 1.Lig | 20:00 | MS 2 | 1.68 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Stabaek VS Ranheim | Norveç 1.Lig | 20:00 | MS 1 | 1.25 | 63 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Stabaek VS Ranheim | Norveç 1.Lig | 20:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Jeddeloh VS Hannover 96 (Am | Almanya Bölgesel Lig Kuzey | 20:00 | MS 2 | 1.71 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Lübeck VS Hamburger Sv (A | Almanya Bölgesel Lig Kuzey | 20:00 | MS 1 | 1.70 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Torpedo Kutais VS Dinamo Batumi | Gürcistan David Kipiani Kupası Çeyrek Final | 20:00 | 2.5 Alt | 1.74 | 46 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -115,7 +117,7 @@
 | Golden Arrows VS Stellenbosch Fc | Güney Afrika PSL | 20:30 | MS 1 | 2.31 | 47 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Richards Bay VS Kaizer Chiefs | Güney Afrika PSL | 20:30 | MS 2 | 1.83 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Polokwane City VS Milford | Güney Afrika PSL | 20:30 | MS 1 | 1.85 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Mamelodi Sundo VS Amazulu | Güney Afrika PSL | 20:30 | 2.5 Alt | 1.75 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Mamelodi Sundo VS Amazulu | Güney Afrika PSL | 20:30 | 2.5 Üst | 1.59 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Drochtersen / VS Werder Bremen ( | Almanya Bölgesel Lig Kuzey | 20:30 | MS 1 | 1.38 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Bulle VS Young Boys Ii | İsviçre 1.Lig Promotion | 20:30 | MS 1 | 1.55 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Chelsea (K) VS Real Sociedad ( | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | 20:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
@@ -124,7 +126,7 @@
 | Bromley U21 VS West Brom (B) | İngiltere Premier Lig Kupası Grup H | 21:00 | MS 2 | 1.54 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Stockport Coun VS Charlton Athlet | İngiltere Premier Lig Kupası Grup I | 21:00 | MS 2 | 1.47 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Acassuso VS San Telmo | Arjantin Ulusal Primera Lig | 21:00 | MS 1 | 1.92 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Chaco For Ever VS San Miguel | Arjantin Ulusal Primera Lig | 21:00 | MS 1 | 2.00 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Chaco For Ever VS San Miguel | Arjantin Ulusal Primera Lig | 21:00 | MS 1 | 2.04 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Al Salmiyah VS Al Nasar | Kuveyt Premier Lig | 21:00 | 2.5 Alt | 1.57 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Al Minaa Basra VS Al Gharraf | Irak Premier Lig | 21:00 | 2.5 Alt | 1.38 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Ifk Umea VS Umea Fc Akademi | İsveç 2.Lig Norrland Düşme Grubu | 21:00 | MS 2 | 1.51 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -135,7 +137,7 @@
 | Newcastle Utd VS West Bromwich | İngiltere Lig Kupası 2.Tur | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | St. Pölten (K) VS Juventus (K) | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Al Talaba VS Newroz | Irak Premier Lig | 21:45 | 2.5 Alt | 1.51 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Avro VS Leek Town | İngiltere Non League Premier Kuzey | 21:45 | 2.5 Alt | 1.54 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Avro VS Leek Town | İngiltere Non League Premier Kuzey | 21:45 | 2.5 Alt | 1.57 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Lyon (1) VS (1) Fenerbahçe | UEFA Şampiyonlar Ligi Play Off | 22:00 | 2.5 Üst | 1.58 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Aek (0) VS (0) Levski Sofya | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 1 | 1.32 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Viking (2) VS (2) Dinamo Zagreb | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 1 | 2.19 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -147,7 +149,7 @@
 | Depor Santani VS Deportivo Recol | Paraguay Kupa 3.Tur | 22:00 | 2.5 Alt | 1.49 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | El Vigia VS Atletico Barina | Venezuela Kupa 1.Tur Grup B | 22:30 | MS 1 | 1.72 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Rayo Zuliano VS Urena Fc | Venezuela Kupa 1.Tur Grup D | 22:30 | 2.5 Üst | 1.62 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Mineros VS Dinamo Puerto L | Venezuela Kupa 1.Tur Grup E | 22:30 | 2.5 Alt | 1.36 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Mineros VS Dinamo Puerto L | Venezuela Kupa 1.Tur Grup E | 22:30 | MS 1 | 2.07 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Aragua VS Yaracuyanos | Venezuela Kupa 1.Tur Grup C | 23:00 | 2.5 Alt | 1.38 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Trujillanos VS Deportivo Lara | Venezuela Kupa 1.Tur Grup D | 23:00 | 2.5 Alt | 1.47 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Chico VS Fortaleza | Kolombiya Primera A Clausura | 00:00 | MS 1 | 2.39 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -172,7 +174,7 @@
 | Blooming VS Real Oruro | Bolivya Premier Lig | 03:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Herediano VS Antigua Guatema | CONCACAF Orta Amerika Kupası Grup B | 03:30 | MS 1 | 1.31 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | El Paso Locomo VS Pittsburgh Rive | ABD USL | 04:00 | 2.5 Alt | 1.41 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Atletico Nacio VS Deportivo Cali | Kolombiya Primera A Clausura | 04:30 | MS 1 | 1.41 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Atletico Nacio VS Deportivo Cali | Kolombiya Primera A Clausura | 04:30 | MS 1 | 1.39 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | New Mexico Uni VS Lexington | ABD USL | 04:30 | 2.5 Alt | 1.77 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Xelaju VS Firpo | CONCACAF Orta Amerika Kupası Grup A | 05:30 | 2.5 Alt | 1.71 | 64 | Sadece izleme | Değerli | Orta | Orta | scheduled |
 | Alajuelense VS Plaza Amador | CONCACAF Orta Amerika Kupası Grup A | 05:30 | MS 1 | 1.53 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |

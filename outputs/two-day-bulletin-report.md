@@ -2,18 +2,16 @@
 
 Gunler: 2026-08-26 / 2026-08-27
 Kaynak: fixtures.json
-Ham mac: 178
-Aktif mac: 140
-Canli mac: 26
+Ham mac: 180
+Aktif mac: 139
+Canli mac: 29
 Biten mac: 12
-Bultenden dusurulen mac: 38
-Bugun: 113
+Bultenden dusurulen mac: 41
+Bugun: 112
 Yarin: 27
 
 ## Baslamamis Maclar
-- 2026-08-26 13:30 | Güney Kore K Lig 1 | Daejeon Citize - Ulsan | scheduled | -
-- 2026-08-26 13:30 | Güney Kore K Lig 1 | Anyang - Incheon Utd | scheduled | -
-- 2026-08-26 13:30 | Güney Kore K Lig 1 | Gangwon - Gwangju | scheduled | -
+- 2026-08-26 14:00 | Japonya İmparatorluk Kupası 2.Tur | Avispa Fukuoka - Verspah Oita | scheduled | -
 - 2026-08-26 15:15 | Malezya Süper Lig | Johor Dt - Kelantan Red Wa | scheduled | -
 - 2026-08-26 16:00 | AFF Şampiyonası Final | Vietnam (2) - (0) Tayland | scheduled | -
 - 2026-08-26 16:00 | Norveç 2.Lig Grup 2 | Rana - Follo | scheduled | -
@@ -67,6 +65,7 @@ Yarin: 27
 - 2026-08-26 19:00 | Estonya Premium Lig | Tammeka Tartu - Flora Tallinn | scheduled | -
 - 2026-08-26 19:00 | Gürcistan David Kipiani Kupası Çeyrek Final | Gagra - Aragvi Dusheti | scheduled | -
 - 2026-08-26 19:05 | Suudi Arabistan 1.Lig | Al Zulfi - Al Wahda | scheduled | -
+- 2026-08-26 19:10 | Suudi Arabistan 1.Lig | Al Bukayriyah - Al Akhdoud | scheduled | -
 - 2026-08-26 19:30 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Sparta Prague - Servette Chenoi | scheduled | -
 - 2026-08-26 19:30 | Almanya Bölgesel Lig Kuzey | Schöningen - Sankt Pauli Ii | scheduled | -
 - 2026-08-26 19:45 | UEFA Konferans Ligi Play Off | Rapid Wien (2) - (2) Hearts | scheduled | -
@@ -179,6 +178,9 @@ Yarin: 27
 - 2026-08-26 13:00 | Japonya İmparatorluk Kupası 2.Tur | Omiya - Vanraure | live | -
 - 2026-08-26 13:00 | Japonya İmparatorluk Kupası 2.Tur | Fagiano Okayam - Bergarosso Hama | live | -
 - 2026-08-26 13:00 | Japonya İmparatorluk Kupası 2.Tur | Fc Imabari - Blaublitz Akita | live | -
+- 2026-08-26 13:30 | Güney Kore K Lig 1 | Daejeon Citize - Ulsan | live | -
+- 2026-08-26 13:30 | Güney Kore K Lig 1 | Anyang - Incheon Utd | live | -
+- 2026-08-26 13:30 | Güney Kore K Lig 1 | Gangwon - Gwangju | live | -
 
 ## Biten Maclar
 - 2026-08-26 00:30 | Paraguay Kupa 3.Tur | Sol De America - Sportivo Trinid | finished | -
