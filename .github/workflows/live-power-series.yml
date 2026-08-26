@@ -35,14 +35,16 @@ jobs:
           node-version: "20"
 
       - name: Test live power engine
-        run: node tests/live-power-series.test.js
+        run: |
+          node tests/live-power-series.test.js
+          node tests/live-power-core.test.js
 
       - name: Collect verified free-source live power snapshots
-        run: node scripts/update-live-power-series.js
+        run: node scripts/update-live-power-series-v2.js
 
       - name: Validate output JSON
         run: |
-          node -e "const x=JSON.parse(require('fs').readFileSync('data/live-power-series.json','utf8')); if(!String(x.source||'').startsWith('ESPN')) throw new Error('free ESPN source missing'); if(x.sampling?.paid_api_required!==false) throw new Error('paid API flag invalid'); if(x.status!=='provider_error' && x.source_verified!==true) throw new Error('source not verified'); if(x.status==='provider_error' && x.source_verified!==false) throw new Error('provider error verification flag invalid'); console.log('live-power-series.json OK')"
+          node -e "const x=JSON.parse(require('fs').readFileSync('data/live-power-series.json','utf8')); if(!String(x.source||'').startsWith('ESPN')) throw new Error('free ESPN source missing'); if(x.sampling?.paid_api_required!==false) throw new Error('paid API flag invalid'); if(x.status!=='provider_error' && x.source_verified!==true) throw new Error('source not verified'); if(x.status==='provider_error' && x.source_verified!==false) throw new Error('provider error verification flag invalid'); const bad=[...(x.matches||[]),...(x.recent_matches||[])].flatMap(m=>m.snapshots||[]).some(s=>s.observed!==true||s.interpolated!==false); if(bad) throw new Error('non-observed/interpolated live power point found'); console.log('live-power-series.json OK')"
 
       - name: Commit live power output
         run: |
@@ -55,7 +57,7 @@ jobs:
           fi
           git commit -m "Update verified free-source live power series"
           for attempt in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && node tests/live-power-series.test.js && git push origin HEAD:main; then
+            if git pull --rebase --autostash origin main && node tests/live-power-series.test.js && node tests/live-power-core.test.js && git push origin HEAD:main; then
               exit 0
             fi
             git rebase --abort || true
