@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-26T07:48:04.141Z",
+  "generated_at": "2026-08-26T07:58:49.912Z",
   "date": "2026-08-26",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı PRO 13",
@@ -2135,7 +2135,13 @@
       "include_in_coupon": false,
       "value_label": "Değerli market yok",
       "expected_scores": [],
-      "metrics": {},
+      "metrics": {
+        "homeScoredLast10": 5,
+        "awayScoredLast10": 5,
+        "over25Percent": 60,
+        "over35Percent": 42,
+        "leagueGoalAverage": 2.84
+      },
       "signals": [
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
@@ -2377,7 +2383,13 @@
         "2-0",
         "2-1"
       ],
-      "metrics": {},
+      "metrics": {
+        "homeScoredLast10": 5,
+        "awayScoredLast10": 5,
+        "over25Percent": 60,
+        "over35Percent": 42,
+        "leagueGoalAverage": 2.84
+      },
       "signals": [
         "Market: MS 1",
         "Oran: 1.62",
@@ -3748,7 +3760,13 @@
         "1-0",
         "1-1"
       ],
-      "metrics": {},
+      "metrics": {
+        "homeScoredLast10": 4,
+        "awayScoredLast10": 4,
+        "over25Percent": 44,
+        "over35Percent": 26,
+        "leagueGoalAverage": 2.66
+      },
       "signals": [
         "Market: 2.5 Alt",
         "Oran: 1.47",
@@ -6937,7 +6955,18 @@
       "include_in_coupon": false,
       "value_label": "Değerli market yok",
       "expected_scores": [],
-      "metrics": {},
+      "metrics": {
+        "homeScoredLast10": 5,
+        "awayScoredLast10": 5,
+        "homeConcededLast10": 3,
+        "awayConcededLast10": 3,
+        "bttsPercent": 30,
+        "over25Percent": 63,
+        "over35Percent": 45,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 36,
+        "leagueGoalAverage": 2.87
+      },
       "signals": [
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
