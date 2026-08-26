@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260827-live-power-v1";
+  const version = "20260827-live-power-free-v2";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
