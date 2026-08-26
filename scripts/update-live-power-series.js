@@ -216,7 +216,11 @@ async function fetchEspnSummary(eventId) {
 }
 
 function statKey(value) {
-  return String(value || '').toLocaleLowerCase('en-US').replace(/[^a-z0-9]+/g, ' ').trim();
+  return String(value || '')
+    .replace(/([a-z0-9])([A-Z])/g, '$1 $2')
+    .toLocaleLowerCase('en-US')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
 }
 
 function statisticsMap(rows) {
