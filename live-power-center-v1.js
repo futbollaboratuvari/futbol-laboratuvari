@@ -115,11 +115,20 @@
     if (!match) return `<div class="flp-empty">Canlı doğrulanmış istatistik geldiğinde Team Power ve Goal Power grafikleri otomatik açılır.</div>`;
     const snap = lastSnapshot(match) || {};
     const status = match.status === 'live' ? 'CANLI' : 'SON KAYIT';
-    return `<div class="flp-topline"><div><small>${esc(match.league || 'Lig')} · ${esc(status)}</small><h3>${esc(match.home)} - ${esc(match.away)}</h3><div class="flp-score">${esc(snap.score?.home ?? '—')} - ${esc(snap.score?.away ?? '—')} · ${esc(snap.minute ?? '—')}'</div></div><small>Kaynak: doğrulanmış API istatistik snapshotı</small></div>
+    const source = match.source || state.data?.source || 'ESPN canlı istatistikleri';
+    return `<div class="flp-topline"><div><small>${esc(match.league || 'Lig')} · ${esc(status)}</small><h3>${esc(match.home)} - ${esc(match.away)}</h3><div class="flp-score">${esc(snap.score?.home ?? '—')} - ${esc(snap.score?.away ?? '—')} · ${esc(snap.minute ?? '—')}'</div></div><small>Kaynak: ${esc(source)}</small></div>
       <div class="flp-current"><div><span>Team Power · Ev</span><b>${esc(pct(snap.team_power?.home))}</b><small>Maç içi güç payı</small></div><div><span>Team Power · Dep</span><b>${esc(pct(snap.team_power?.away))}</b><small>Maç içi güç payı</small></div><div><span>Goal Power · Ev</span><b>${esc(pct(snap.goal_power?.home))}</b><small>Gol tehdit yoğunluğu</small></div><div><span>Goal Power · Dep</span><b>${esc(pct(snap.goal_power?.away))}</b><small>Gol tehdit yoğunluğu</small></div></div>
       <div class="flp-chart-grid">${chart(match, 'team_power', 'Team Power zaman serisi')}${chart(match, 'goal_power', 'Goal Power zaman serisi')}</div>
       <div class="flp-stats"><div class="flp-teamstats"><h4>${esc(match.home)} · ham canlı veriler</h4>${statRows(snap.stats?.home)}</div><div class="flp-teamstats"><h4>${esc(match.away)} · ham canlı veriler</h4>${statRows(snap.stats?.away)}</div></div>
-      <p class="flp-note"><b>Önemli:</b> Noktalar yalnız API'den gerçekten gözlenen dakikalardır. Aradaki dakikalar ölçülmüş gibi gösterilmez; çizgiler yalnız gözlem noktalarını birbirine bağlar. Team Power sonuç olasılığı değildir. Goal Power da gol garantisi değil, mevcut canlı şut/ceza sahası/korner/xG yoğunluğundan türetilen tehdit göstergesidir.</p>`;
+      <p class="flp-note"><b>Önemli:</b> Noktalar yalnız ücretsiz veri kaynağından gerçekten gözlenen dakikalardır. Aradaki dakikalar ölçülmüş gibi gösterilmez; çizgiler yalnız gözlem noktalarını birbirine bağlar. Team Power sonuç olasılığı değildir. Goal Power da gol garantisi değil, mevcut canlı şut/ceza sahası/korner/xG yoğunluğundan türetilen tehdit göstergesidir.</p>`;
+  }
+
+  function statusLabel(status, hasMatches) {
+    if (status === 'ok' && hasMatches) return 'Aktif';
+    if (status === 'no_live_matches') return 'Canlı maç bekleniyor';
+    if (status === 'no_matching_verified_stats') return 'Doğrulanmış istatistik bekleniyor';
+    if (status === 'provider_error') return 'Kaynak geçici hatası';
+    return hasMatches ? 'Son doğrulanmış veri' : 'Veri bekleniyor';
   }
 
   function render() {
@@ -128,10 +137,12 @@
     if (!state.selectedId && matches[0]) state.selectedId = String(matches[0].fixture_id);
     let selected = matches.find((m) => String(m.fixture_id) === state.selectedId) || matches[0] || null;
     if (selected) state.selectedId = String(selected.fixture_id);
-    const isActive = state.data?.status === 'active';
+    const isActive = state.data?.status === 'ok' && (Array.isArray(state.data?.matches) ? state.data.matches.length : 0) > 0;
     const summary = state.data?.summary || {};
-    root.innerHTML = `<div class="flp-head"><div><p>Canlı Güç Motoru</p><h2>Team Power + Goal Power</h2><span>Gerçek canlı maç istatistiklerini zaman içinde saklar; güç değişimini ve gol tehdidini sahte dakika üretmeden gösterir.</span></div><span class="flp-badge">Observed Live Data</span></div>
-      <div class="flp-status" data-state="${isActive ? 'active' : 'waiting'}"><b>${esc(isActive ? 'Aktif' : 'Veri bekleniyor')}</b> · API canlı: ${esc(summary.api_live_fixture_count ?? 0)} · Site eşleşmesi: ${esc(summary.matched_fixture_count ?? 0)} · Örneklenen: ${esc(summary.sampled_match_count ?? 0)}. ${esc(state.data?.message || '')}</div>
+    const liveCount = summary.espn_live_event_count ?? summary.api_live_fixture_count ?? 0;
+    const label = statusLabel(state.data?.status, matches.length > 0);
+    root.innerHTML = `<div class="flp-head"><div><p>Canlı Güç Motoru</p><h2>Team Power + Goal Power</h2><span>Gerçek canlı maç istatistiklerini zaman içinde saklar; güç değişimini ve gol tehdidini sahte dakika üretmeden gösterir.</span></div><span class="flp-badge">Ücretsiz · Observed Live Data</span></div>
+      <div class="flp-status" data-state="${isActive ? 'active' : 'waiting'}"><b>${esc(label)}</b> · ESPN canlı: ${esc(liveCount)} · Site eşleşmesi: ${esc(summary.matched_fixture_count ?? 0)} · Örneklenen: ${esc(summary.sampled_match_count ?? 0)}. ${esc(state.data?.message || '')}</div>
       <div class="flp-layout"><aside class="flp-list"><h3>Canlı maçlar</h3>${matches.length ? matches.map(matchButton).join('') : `<div class="flp-empty">Şu anda doğrulanmış canlı güç snapshotı yok.</div>`}</aside><div class="flp-panel">${detail(selected)}</div></div>`;
   }
 
