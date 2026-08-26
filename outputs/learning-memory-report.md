@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 12:04:11
+Oluşturma: 26.08.2026 12:08:49
 
 ## Özet
 
-- Toplam tahmin: 1293
-- Bekleyen tahmin: 926
+- Toplam tahmin: 1294
+- Bekleyen tahmin: 927
 - Kazanan tahmin: 152
 - Kaybeden tahmin: 214
 - Lig sayısı: 197
@@ -21,7 +21,7 @@ Oluşturma: 26.08.2026 12:04:11
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 48, bekleyen 31, başarı %88, ağırlık 1.12
-- 2.5 Alt: toplam 172, bekleyen 118, başarı %72, ağırlık 1.12
+- 2.5 Alt: toplam 173, bekleyen 119, başarı %72, ağırlık 1.12
 - MS 1: toplam 208, bekleyen 155, başarı %38, ağırlık 0.88
 - MS 2: toplam 339, bekleyen 213, başarı %33, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
@@ -30,7 +30,8 @@ Oluşturma: 26.08.2026 12:04:11
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Omiya - Vanraure | MS 1 | pending | 44/100
+- 2026-08-26 | Venezuela Kupa 1.Tur Grup E | Mineros - Dinamo Puerto L | 2.5 Alt | pending | 64/100
+- 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Omiya - Vanraure | MS 1 | pending | 45/100
 - 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Niigata - Kagoshima Unite | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup C | Aragua - Yaracuyanos | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Gürcistan David Kipiani Kupası Çeyrek Final | Gagra - Aragvi Dusheti | 2.5 Alt | pending | 61/100
@@ -44,5 +45,4 @@ Oluşturma: 26.08.2026 12:04:11
 - 2026-08-26 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon - Salt Lake | MS 2 | lost | 34/100
 - 2026-08-26 | Gürcistan David Kipiani Kupası Çeyrek Final | Torpedo Kutais - Dinamo Batumi | 2.5 Alt | pending | 56/100
 - 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Iwata - Tegevajaro Miya | 2.5 Alt | pending | 64/100
-- 2026-08-26 | Malezya Süper Lig | Kuala Lumpur - Kuching Fa | KG Var | pending | 47/100
 
