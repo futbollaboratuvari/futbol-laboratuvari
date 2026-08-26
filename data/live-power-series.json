@@ -1,24 +1,34 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-26T21:15:02.885Z",
+  "generated_at": "2026-08-26T22:23:04.850Z",
   "timezone": "Europe/Istanbul",
-  "status": "waiting_api_key",
-  "source": "API-Football statistics",
+  "status": "no_matching_verified_stats",
+  "source": "ESPN Scoreboard + ESPN Summary",
   "source_verified": true,
   "sampling": {
     "workflow_interval_minutes": 30,
     "observed_points_only": true,
     "interpolation_used": false,
-    "low_quota_mode": null,
-    "max_matches_per_run": 0
+    "max_matches_per_run": 8,
+    "paid_api_required": false
   },
   "summary": {
-    "api_live_fixture_count": 0,
-    "site_candidate_count": 0,
-    "matched_fixture_count": 0,
-    "sampled_match_count": 0
+    "espn_live_event_count": 6,
+    "site_candidate_count": 140,
+    "matched_fixture_count": 4,
+    "sampled_match_count": 0,
+    "summary_success_count": 0,
+    "useful_stats_count": 0,
+    "thesportsdb_verified_count": 0
   },
-  "message": "Canlı güç veri sağlayıcısı yapılandırması bekleniyor. Eski doğrulanmış veriler korunuyor.",
+  "message": "Canlı maçlar bulundu ancak site eşleşmesi veya ayrıntılı istatistik yeterli değildi; veri uydurulmadı.",
   "matches": [],
-  "recent_matches": []
+  "recent_matches": [],
+  "provider_errors": [
+    "site.api.espn.com: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;site&#46;api&#46;espn&#46;com&#47;apis&#47;",
+    "ESPN summary 401850620: site.api.espn.com: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;site&#46;api&#46;espn&#46;com&#47;apis&#47; | site.web.api.espn.com: HTTP 404: {\"code\":404}",
+    "ESPN summary 401896915: site.api.espn.com: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;site&#46;api&#46;espn&#46;com&#47;apis&#47; | site.web.api.espn.com: HTTP 404: {\"code\":404}",
+    "ESPN summary 401899675: site.api.espn.com: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;site&#46;api&#46;espn&#46;com&#47;apis&#47; | site.web.api.espn.com: HTTP 404: {\"code\":404}",
+    "ESPN summary 401878025: site.api.espn.com: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;site&#46;api&#46;espn&#46;com&#47;apis&#47; | site.web.api.espn.com: HTTP 404: {\"code\":404}"
+  ]
 }
