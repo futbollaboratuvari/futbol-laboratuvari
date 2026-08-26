@@ -313,6 +313,45 @@
     return `<div class="fl-pa3-validation"><strong>Geçmiş doğrulama</strong><span>${historical ? `${esc(historical)} tamamlanan eski tahmin ölçüldü.` : "Tamamlanan sonuç örneği biriktiriliyor."} ${samples >= 30 && brier !== null && Number.isFinite(brier) ? `PRO olasılık Brier skoru ${esc(brier.toFixed(3))}.` : "PRO olasılık kalibrasyonu için yeni örnekler biriktiriliyor."}</span></div>`;
   };
 
+  const teamStatusText = (teamName, status, lineup) => {
+    if (!status && !lineup) return `${teamName}: kadro verisi bekleniyor`;
+    const names = (key) => (Array.isArray(status?.[key]) ? status[key] : [])
+      .map((player) => typeof player === "string" ? player : player?.name)
+      .filter(Boolean);
+    const parts = [];
+    const injured = names("injured_players");
+    const suspended = names("suspended_players");
+    const doubtful = names("doubtful_players");
+    const transfersIn = names("transfers_in");
+    const transfersOut = names("transfers_out");
+    if (injured.length) parts.push(`sakat: ${injured.join(", ")}`);
+    if (suspended.length) parts.push(`cezalı: ${suspended.join(", ")}`);
+    if (doubtful.length) parts.push(`şüpheli: ${doubtful.join(", ")}`);
+    if (transfersIn.length) parts.push(`transfer girişi: ${transfersIn.join(", ")}`);
+    if (transfersOut.length) parts.push(`transfer çıkışı: ${transfersOut.join(", ")}`);
+    if (!injured.length && status?.injury_news_count) parts.push(`${status.injury_news_count} sakatlık haber sinyali`);
+    if (!suspended.length && status?.suspension_news_count) parts.push(`${status.suspension_news_count} ceza haber sinyali`);
+    if (!doubtful.length && status?.doubtful_news_count) parts.push(`${status.doubtful_news_count} belirsizlik haber sinyali`);
+    if (!transfersIn.length && !transfersOut.length && (status?.transfer_in_news_count || status?.transfer_out_news_count)) parts.push(`transfer haber sinyali +${status.transfer_in_news_count || 0} / -${status.transfer_out_news_count || 0}`);
+    if (lineup?.lineup_confirmed) parts.push(`ilk 11 doğrulandı${lineup.formation && lineup.formation !== "-" ? ` (${lineup.formation})` : ""}`);
+    if (!parts.length && status?.availability_checked) parts.push("sağlayıcı akışında isimli eksik yok");
+    if (!parts.length) parts.push("kadro verisi bekleniyor");
+    return `${teamName}: ${parts.join(" · ")}`;
+  };
+
+  const teamIntelligenceHtml = (result) => {
+    const intel = result.match?.teamIntelligence || result.match?.pro?.teamIntelligence;
+    if (!intel) return `<div class="fl-pa3-validation"><strong>Kadro ve futbolcu analizi</strong><span>Doğrulanmış oyuncu verisi henüz eşleşmedi; düşük risk varsayılmadı.</span></div>`;
+    const hasTeamDetail = intel.home_status || intel.away_status || intel.home_lineup || intel.away_lineup;
+    if (!hasTeamDetail) {
+      const verified = Number(intel.verified_team_count || 0);
+      return `<div class="fl-pa3-validation"><strong>Kadro ve futbolcu analizi</strong><span>${verified ? `${esc(verified)}/2 takım için sağlayıcı kontrolü tamamlandı; isimli eksik kaydı yok.` : "Doğrulanmış oyuncu verisi henüz eşleşmedi; düşük risk varsayılmadı."}<br>Kadro riski: ${esc(intel.squad_risk_level || "Belirsiz")} · İlk 11 riski: ${esc(intel.lineup_risk_level || "Belirsiz")}</span></div>`;
+    }
+    const home = teamStatusText(result.match.home, intel.home_status, intel.home_lineup);
+    const away = teamStatusText(result.match.away, intel.away_status, intel.away_lineup);
+    return `<div class="fl-pa3-validation"><strong>Kadro ve futbolcu analizi</strong><span>${esc(home)}<br>${esc(away)}<br>Kadro riski: ${esc(intel.squad_risk_level || "Belirsiz")} · İlk 11 riski: ${esc(intel.lineup_risk_level || "Belirsiz")}</span></div>`;
+  };
+
   const recommendationLabel = (result) => ({
     coupon: "Kupona uygun seçim",
     analysis: "Robot görüşü",
@@ -354,6 +393,7 @@
       <div><span>Model–piyasa farkı</span><strong>${esc(signedPercentText(result.edgePercent))}</strong></div>
       <div><span>Veri kapsamı</span><strong>${esc(percentText(result.dataCompleteness))}</strong><small>${esc(result.dataQuality || "Sınırlı")}</small></div>
     </div>
+    ${teamIntelligenceHtml(result)}
     <div class="fl-pa3-reasons"><h4>Neden?</h4><ol>${result.reasons.map((reason) => `<li>${esc(reason)}</li>`).join("")}</ol></div>
     ${validationHtml(result)}
     ${detailsHtml(result)}
@@ -366,7 +406,7 @@
     </div>
     <h3>${coupon.legs.length} maçlık kupon görünümü</h3>
     <div class="fl-pa3-coupon-summary"><div><span>Ort. model gücü</span><strong>${esc(modelScoreText(coupon.averageModelScore))}</strong></div><div><span>Robot görüşü</span><strong>${esc(coupon.opinionCount)}/${esc(coupon.legs.length)}</strong></div><div><span>Kupona uygun</span><strong>${esc(coupon.pickedCount)}/${esc(coupon.legs.length)}</strong></div><div><span>Birleşik olasılık</span><strong>${esc(percentText(coupon.combinedProbability, 2))}</strong></div><div><span>Toplam oran</span><strong>${esc(oddText(coupon.totalOdd))}</strong></div></div>
-    <div class="fl-pa3-coupon-legs">${coupon.legs.map((leg, index) => `<article class="${leg.noPick ? "is-no-pick" : ""}"><span>${index + 1}</span><div><strong>${esc(leg.match.home)} – ${esc(leg.match.away)}</strong><small>${esc(leg.market)} · ${esc(couponLegStatus(leg))} · Model ${esc(modelScoreText(leg.modelScore ?? leg.confidence))} · ${esc(percentText(leg.estimatedProbability, 1))}</small></div><b>${esc(oddText(leg.odd))}</b></article>`).join("")}</div>
+    <div class="fl-pa3-coupon-legs">${coupon.legs.map((leg, index) => `<article class="${leg.noPick ? "is-no-pick" : ""}"><span>${index + 1}</span><div><strong>${esc(leg.match.home)} – ${esc(leg.match.away)}</strong><small>${esc(leg.market)} · ${esc(couponLegStatus(leg))} · Model ${esc(modelScoreText(leg.modelScore ?? leg.confidence))} · ${esc(percentText(leg.estimatedProbability, 1))} · Kadro ${esc(leg.match.pro?.squadRiskLevel || "Belirsiz")}</small></div><b>${esc(oddText(leg.odd))}</b></article>`).join("")}</div>
     <div class="fl-pa3-reasons"><h4>Kupon notu</h4><ol><li>Toplam oran ve birleşik olasılık yalnız bütün ayaklar kupona uygun olduğunda hesaplanır.</li><li>${esc(coupon.watchCount)} izleme görüşü marketiyle birlikte gösterildi fakat kupon hesabına katılmadı.</li><li>${esc(coupon.unavailableCount)} maçta güvenilir market görüşü oluşmadı; eksik veriyle tahmin uydurulmadı.</li></ol></div>
     <p class="fl-pa3-disclaimer">Model gücü olasılık değildir. Kupon olasılığı yaklaşık bir risk göstergesidir; bütçe ve süre sınırını koru.</p>
     <div class="fl-pa3-result-actions"><button type="button" data-pa3-copy>Sonucu Kopyala</button><button type="button" data-pa3-new>Yeni Analiz</button></div>`;

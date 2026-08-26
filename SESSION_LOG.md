@@ -201,3 +201,18 @@ Summary:
 - Son otomatik veri yenilemesi alındıktan sonraki uçtan uca kontrolde 9 yaklaşan/PRO eşleşme, 8 robot görüşü, 1 kupon adayı, 7 izleme ve 1 veri yetersiz kayıt doğrulandı.
 - PRO, performans, sonuç ve Spor Toto testleri; sözdizimi, çatışma kontrolü ve ayrı kopyadaki üretim paketi başarılıdır.
 - Bülten JSON dosyaları, daily-matches-widget.js, Kuponum, üyelik, ödeme, workflow, CNAME ve DNS değiştirilmedi.
+
+2026-08-26
+
+Otomatik takım ve futbolcu analizi tamamlama oturumu kaydedildi.
+
+Summary:
+- Canlı veri zincirinde takım/futbolcu modüllerinin ayrı JSON ürettiği fakat robot kararına bağlanmadığı doğrulandı; `band-signals.json` içindeki bütün canlı maçların `match_name: "-"` olması temel eşleşme hatasıydı.
+- API-Football için önbellekli ve günlük istek bütçeli oyuncu istihbaratı eklendi: maç kimliği, sakatlık, ceza, şüpheli durum, ilk 11, kadro pozisyonu ve transfer hareketleri tek şemada birleştirildi.
+- Manuel doğrulama, yapılandırılmış API gerçeği ve açık haber sinyali birbirinden ayrıldı; veri yokluğu düşük risk veya sağlıklı kadro kanıtı sayılmadı.
+- Kadro/ilk 11 riski robot puanına ihtiyat indirimi uygular; yüksek risk kupon uygunluğunu kapatır ve gerekçeyi robot sinyallerine ekler.
+- Takım/futbolcu verisi tam bülten, canlı çıktı, robot çıktısı ve kompakt PRO indeksine bağlandı; günlük maç detayı ve Özel Analiz sonucu kullanıcıya isimli eksik, transfer ve ilk 11 özetini gösterir.
+- Otomatik iş akışlarına oyuncu verisi, ilk 11 üretimi ve uçtan uca çıktı sözleşmesi testi eklendi. Yanlış `"-"` maç anahtarı ve veri yokken “Düşük” ilk 11 riski için regresyon testleri eklendi.
+- PRO indeksi canlı/bitmiş maçları dışarıda bırakıp minify edilerek 108.553 bayta indirildi; 150 KB performans sınırı yeniden sağlandı.
+- Takım istihbaratı, PRO, Özel Analiz, performans, sonuç, Spor Toto, JavaScript sözdizimi ve JSON çatışma kontrolleri başarılıdır.
+- `matches` / `live_matches` ayrımı, Kuponum, üyelik/ödeme akışı, CNAME ve DNS değiştirilmedi.

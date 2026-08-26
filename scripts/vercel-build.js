@@ -37,6 +37,7 @@ const excludedRelativePaths = new Set([
   "data/archive",
   "data/detail-raw-signals.json",
   "data/longterm-match-archive.json",
+  "data/player-intelligence-cache.json",
   "data/robot_match_archive.json",
   "football-lab-hero.png"
 ]);
@@ -85,6 +86,12 @@ try {
   require("./merge-bulletin-detail-fields");
 } catch (error) {
   console.warn(`Bulten detay birlestirme atlandi: ${error.message}`);
+}
+
+try {
+  require("./lineup-lite").buildLineupSignals();
+} catch (error) {
+  console.warn(`Ilk 11 sinyalleri yenilenemedi: ${error.message}`);
 }
 
 try {

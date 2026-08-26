@@ -19,7 +19,7 @@ function readJson(file, fallback) {
 
 function writeJson(file, value) {
   fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, `${JSON.stringify(value, null, 2)}\n`, "utf8");
+  fs.writeFileSync(file, `${JSON.stringify(value)}\n`, "utf8");
 }
 
 function finite(value) {
@@ -141,7 +141,75 @@ function couponEligibility(item, modelScore, dataCompleteness, market) {
     && dataCompleteness >= 45
     && Number(estimatedProbability || 0) >= 42
     && !/degerli market yok|oynama|secim yok|pas gec/.test(clean(market))
-    && !clean(item.risk_level || item.risk).includes("yuksek");
+    && !clean(item.risk_level || item.risk).includes("yuksek")
+    && !clean(`${item.squad_risk_level || ""} ${item.lineup_risk_level || ""}`).includes("yuksek");
+}
+
+function compactStatus(record) {
+  if (!record || typeof record !== "object") return null;
+  const names = (value, count = 8) => (Array.isArray(value) ? value : [])
+    .map((row) => typeof row === "string" ? row : row?.name)
+    .filter(Boolean).slice(0, count);
+  const output = {
+    data_status: String(record.data_status || "no_verified_data"),
+    availability_checked: Boolean(record.availability_checked),
+    lineup_confirmed: Boolean(record.lineup_confirmed),
+    injured_players: names(record.injured_players),
+    suspended_players: names(record.suspended_players),
+    doubtful_players: names(record.doubtful_players),
+    transfers_in: names(record.transfers_in, 5),
+    transfers_out: names(record.transfers_out, 5),
+    player_impacts: (Array.isArray(record.player_impacts) ? record.player_impacts : []).slice(0, 8).map((player) => ({
+      name: String(player?.name || ""),
+      position: String(player?.position || "-"),
+      status: String(player?.status || ""),
+      reason: String(player?.reason || ""),
+      impact_level: String(player?.impact_level || ""),
+      impact_score: finite(player?.impact_score),
+    })),
+  };
+  const hasNamedData = output.injured_players.length || output.suspended_players.length || output.doubtful_players.length
+    || output.transfers_in.length || output.transfers_out.length || output.player_impacts.length;
+  return hasNamedData ? output : null;
+}
+
+function compactLineup(record) {
+  if (!record || typeof record !== "object") return null;
+  const output = {
+    team_name: String(record.team_name || ""),
+    formation: String(record.formation || "-"),
+    starting_11_count: Number(record.starting_11_count || 0),
+    substitutes_count: Number(record.substitutes_count || 0),
+    strength_label: String(record.strength_label || "Veri Yok"),
+    lineup_confirmed: Boolean(record.lineup_confirmed),
+    availability_checked: Boolean(record.availability_checked),
+    top_starting_players: (Array.isArray(record.top_starting_players) ? record.top_starting_players : []).slice(0, 3),
+    unavailable_players: (Array.isArray(record.unavailable_players) ? record.unavailable_players : []).slice(0, 8).map((player) => ({
+      name: String(player?.name || player || ""),
+      position: String(player?.position || "-"),
+      status: String(player?.status || ""),
+      reason: String(player?.reason || ""),
+      impact_level: String(player?.impact_level || ""),
+    })),
+  };
+  return output.lineup_confirmed || output.unavailable_players.length ? output : null;
+}
+
+function compactTeamIntelligence(item) {
+  const intel = item.team_intelligence;
+  if (!intel || typeof intel !== "object") return null;
+  const output = {
+    home_status: compactStatus(intel.team_status?.home || intel.home_status),
+    away_status: compactStatus(intel.team_status?.away || intel.away_status),
+    home_lineup: compactLineup(intel.lineup?.home || intel.home_lineup),
+    away_lineup: compactLineup(intel.lineup?.away || intel.away_lineup),
+  };
+  return Object.values(output).some(Boolean) ? output : null;
+}
+
+function selectProMatches(matches) {
+  const blocked = /^(live|finished|ended|cancelled|canceled|postponed|suspended|abandoned|filtered_old_fixture)$/i;
+  return (Array.isArray(matches) ? matches : []).filter((item) => !blocked.test(String(item.status || 'scheduled')));
 }
 
 function compactMatch(item, parent) {
@@ -156,7 +224,7 @@ function compactMatch(item, parent) {
       : item.robot_comment ? [item.robot_comment] : [])
     .map((value) => String(value).trim())
     .filter(Boolean)
-    .slice(0, 7);
+    .slice(0, 3);
   return {
     id: matchId(item, date),
     date,
@@ -165,7 +233,6 @@ function compactMatch(item, parent) {
     home: teams.home,
     away: teams.away,
     match_code: String(item.match_code || item.matchCode || ""),
-    status: String(item.status || "scheduled"),
     recommended_market: market,
     model_score: modelScore,
     score_type: item.score_type || "signal_strength",
@@ -179,14 +246,16 @@ function compactMatch(item, parent) {
     probability_source: Array.isArray(item.probability_source) ? item.probability_source.slice(0, 4) : [],
     data_gap_risk: String(item.data_gap_risk || "Yüksek"),
     risk_level: String(item.risk_level || item.risk || "Yüksek"),
+    squad_risk_level: String(item.squad_risk_level || item.team_intelligence?.squad_risk_level || "Belirsiz"),
+    lineup_risk_level: String(item.lineup_risk_level || item.team_intelligence?.lineup_risk_level || "Belirsiz"),
+    team_status_verified_count: Number(item.team_status_verified_count || item.team_intelligence?.squad_verified_team_count || 0),
+    named_player_count: Number(item.named_player_count || item.team_intelligence?.named_player_count || 0),
     recommended_odd: finite(item.estimated_odds || item.odds),
     include_in_coupon: includeInCoupon,
     value_label: String(item.value_label || "Piyasa ile Uyumlu"),
-    expected_scores: Array.isArray(item.expected_scores) ? item.expected_scores.slice(0, 3) : [],
     metrics: compactMetrics(item),
     signals,
     model_version: item.model_version || parent.model_version || FALLBACK_MODEL_VERSION,
-    source: String(item.odds_source || item.source || parent.engine || "PRO analiz akışı"),
   };
 }
 
@@ -197,7 +266,8 @@ function buildProAnalysisIndex() {
   }
   const robot = readJson(robotFile, { matches: [], summary: {} });
   const history = readJson(historyFile, { completed_items: [], performance: {} });
-  const matches = (Array.isArray(robot.matches) ? robot.matches : []).map((item) => compactMatch(item, robot));
+  const sourceMatches = Array.isArray(robot.matches) ? robot.matches : [];
+  const matches = selectProMatches(sourceMatches).map((item) => compactMatch(item, robot));
   const ready = matches.filter((item) => item.model_score >= 60
     && item.data_completeness >= 35
     && !/değerli market yok|degerli market yok|oynama/i.test(item.recommended_market));
@@ -212,6 +282,7 @@ function buildProAnalysisIndex() {
     source: "robot-analysis.json compact verified projection",
     summary: {
       match_count: matches.length,
+      source_match_count: sourceMatches.length,
       pro_ready_count: ready.length,
       coupon_candidate_count: matches.filter((item) => item.include_in_coupon).length,
       average_data_completeness: matches.length
@@ -231,4 +302,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { buildCalibration, buildProAnalysisIndex, compactMatch, compactMetrics, couponEligibility, main, matchId, teamsOf };
+module.exports = { buildCalibration, buildProAnalysisIndex, compactMatch, compactMetrics, compactTeamIntelligence, couponEligibility, main, matchId, selectProMatches, teamsOf };

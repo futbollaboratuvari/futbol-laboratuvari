@@ -1,7 +1,7 @@
 "use strict";
 
 const assert = require("node:assert/strict");
-const { buildCalibration, compactMatch, compactMetrics } = require("../scripts/build-pro-analysis-index.js");
+const { buildCalibration, compactMatch, compactMetrics, selectProMatches } = require("../scripts/build-pro-analysis-index.js");
 
 const test = (name, fn) => {
   try {
@@ -97,6 +97,16 @@ test("eski model skoru olasılık örneği gibi sayılmaz", () => {
   });
   assert.equal(calibration.probability_sample_count, 0);
   assert.equal(calibration.brier_score, null);
+});
+
+test("kompakt PRO akışı canlı ve bitmiş maçları istemciye taşımaz", () => {
+  const selected = selectProMatches([
+    { status: "scheduled", home: "A" },
+    { status: "filtered_no_value_market", home: "B" },
+    { status: "live", home: "C" },
+    { status: "finished", home: "D" },
+  ]);
+  assert.deepEqual(selected.map((row) => row.home), ["A", "B"]);
 });
 
 process.stdout.write("Kompakt PRO veri indeksi testleri tamamlandı.\n");

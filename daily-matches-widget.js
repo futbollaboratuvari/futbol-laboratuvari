@@ -330,13 +330,52 @@
     return `<div>Tahmin bilgisi: <strong>${esc(prediction)}</strong></div><div>Analiz: ${candidateText || "Detay analizi için Maçkolik/robot verisi bekleniyor."}</div>`;
   }
 
+  function playerNames(record, key) {
+    return (Array.isArray(record?.[key]) ? record[key] : [])
+      .map((player) => typeof player === "string" ? player : player?.name)
+      .filter(Boolean);
+  }
+
+  function teamStatusHtml(teamName, status, lineup) {
+    const parts = [];
+    const injured = playerNames(status, "injured_players");
+    const suspended = playerNames(status, "suspended_players");
+    const doubtful = playerNames(status, "doubtful_players");
+    const transfersIn = playerNames(status, "transfers_in");
+    const transfersOut = playerNames(status, "transfers_out");
+    if (injured.length) parts.push(`Sakat: ${injured.join(", ")}`);
+    if (suspended.length) parts.push(`Cezalı: ${suspended.join(", ")}`);
+    if (doubtful.length) parts.push(`Şüpheli: ${doubtful.join(", ")}`);
+    if (transfersIn.length) parts.push(`Transfer girişi: ${transfersIn.join(", ")}`);
+    if (transfersOut.length) parts.push(`Transfer çıkışı: ${transfersOut.join(", ")}`);
+    if (!injured.length && status?.injury_news_count) parts.push(`${status.injury_news_count} sakatlık haber sinyali`);
+    if (!suspended.length && status?.suspension_news_count) parts.push(`${status.suspension_news_count} ceza haber sinyali`);
+    if (!doubtful.length && status?.doubtful_news_count) parts.push(`${status.doubtful_news_count} belirsizlik haber sinyali`);
+    if (!transfersIn.length && !transfersOut.length && (status?.transfer_in_news_count || status?.transfer_out_news_count)) parts.push(`Transfer haber sinyali +${status.transfer_in_news_count || 0} / -${status.transfer_out_news_count || 0}`);
+    if (lineup?.lineup_confirmed) parts.push(`İlk 11 doğrulandı${lineup.formation && lineup.formation !== "-" ? ` (${lineup.formation})` : ""}`);
+    if (!parts.length && status?.availability_checked) parts.push("Sağlayıcı akışında isimli eksik yok");
+    if (!parts.length) parts.push("Doğrulanmış oyuncu verisi bekleniyor");
+    return `<div><strong>${esc(teamName)}:</strong> ${esc(parts.join(" · "))}</div>`;
+  }
+
+  function teamIntelligenceHtml(m) {
+    const intel = m.team_intelligence || {};
+    const homeStatus = intel.home_status || intel.team_status?.home || m.home_status;
+    const awayStatus = intel.away_status || intel.team_status?.away || m.away_status;
+    const homeLineup = intel.home_lineup || intel.lineup?.home || m.home_lineup;
+    const awayLineup = intel.away_lineup || intel.lineup?.away || m.away_lineup;
+    const squadRisk = intel.squad_risk_level || m.squad_risk_level || "Belirsiz";
+    const lineupRisk = intel.lineup_risk_level || m.lineup_risk_level || "Belirsiz";
+    return `${teamStatusHtml(m.home, homeStatus, homeLineup)}${teamStatusHtml(m.away, awayStatus, awayLineup)}<div class="flw-detail-note">Kadro riski: ${esc(squadRisk)} · İlk 11 riski: ${esc(lineupRisk)}. Veri yoksa takım risksiz sayılmaz.</div>`;
+  }
+
   function detailHtml(m) {
     const score = scoreOf(m);
     return `<div class="flw-detail-row"><div class="flw-detail-grid">
       <div class="flw-detail-card"><b>Maç Bilgisi</b><div>${esc(m.home)} - ${esc(m.away)}</div><div>Lig: ${esc(m.league)}</div><div>Başlama: ${esc(m.date)} ${esc(m.time)}</div><div>Durum: ${esc(statusLabel(m))}${m.minute ? ` · ${esc(m.minute)}'` : ""}</div><div>Skor: ${esc(score || "Skor bekleniyor")}</div></div>
       <div class="flw-detail-card"><b>Analiz ve Tahmin</b>${analysisText(m)}</div>
       <div class="flw-detail-card"><b>Gol ve Oran Detayları</b>${detailOddLine(m)}</div>
-      <div class="flw-detail-card"><b>Takım Bilgileri</b><div>Ev sahibi: ${esc(m.home)}</div><div>Deplasman: ${esc(m.away)}</div><div class="flw-detail-note">Takım form verisi yoksa robot sonraki güncellemede tamamlar.</div></div>
+      <div class="flw-detail-card"><b>Takım ve Futbolcu Analizi</b>${teamIntelligenceHtml(m)}</div>
       <div class="flw-detail-card"><b>Kaynak</b><div>${esc(m.source || "Maçkolik veri akışı")}</div><div>Güncel veri zamanı: ${esc(m.lastLiveUpdate || m.last_update || app.lastUpdated || "Veri zamanı bekleniyor")}</div><div>Kod: ${esc(m.matchCode || m.match_code || m._id)}</div></div>
       <div class="flw-detail-card"><b>Veri Notu</b><div>${esc(m.raw_market_source_note || "Veri yoksa hatalı oran gösterilmez; güncel Maçkolik/robot verisi beklenir.")}</div></div>
     </div></div>`;

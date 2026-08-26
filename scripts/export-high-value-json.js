@@ -77,16 +77,90 @@ const cleanKey = (value) => String(value || "-")
   .replace(/[^a-z0-9]+/g, " ")
   .trim();
 
+const DEFAULT_BAND_RECORD = {
+  band_check: { level: "Orta", notes: ["Kadro istihbaratı eşleşmedi; düşük risk varsayılmadı."] },
+  extra_used: {
+    squad_risk_level: "Belirsiz",
+    lineup_risk_level: "Belirsiz",
+    squad_verified_team_count: 0,
+    named_player_count: 0,
+    team_status: null,
+    lineup: null,
+  },
+};
+
+const bandKey = (item) => {
+  const date = String(item.date || item.tarih || item.utc_date || "").slice(0, 10);
+  const name = cleanKey(item.match_name || item.match || `${item.home || ""} VS ${item.away || ""}`);
+  return date ? `${date}|${name}` : name;
+};
+
 const loadBandMap = () => {
   const data = readJson(bandSignalsPath, { matches: [] });
   const map = new Map();
   for (const item of data.matches || []) {
-    map.set(cleanKey(item.match_name || item.match), item.band_check || { level: "Düşük", notes: [] });
+    map.set(bandKey(item), item);
   }
   return map;
 };
 
-const bandFor = (item, map) => map.get(cleanKey(item.match_name || item.match)) || { level: "Düşük", notes: ["Bant kontrol verisi yok."] };
+const bandRecordFor = (item, map) => map.get(bandKey(item))
+  || map.get(cleanKey(item.match_name || item.match || `${item.home || ""} VS ${item.away || ""}`))
+  || DEFAULT_BAND_RECORD;
+
+const riskRank = (value) => {
+  const text = cleanKey(value);
+  if (text.includes("yuksek")) return 3;
+  if (text.includes("orta") || text.includes("belirsiz") || text.includes("veri yok")) return 2;
+  if (text.includes("dusuk")) return 1;
+  return 0;
+};
+
+const worstRisk = (...values) => {
+  const rank = Math.max(...values.map(riskRank), 0);
+  return rank >= 3 ? "Yüksek" : rank >= 2 ? "Orta" : rank === 1 ? "Düşük" : "Yüksek";
+};
+
+function applyTeamIntelligence(item, bandRecord = DEFAULT_BAND_RECORD) {
+  const extra = bandRecord?.extra_used || DEFAULT_BAND_RECORD.extra_used;
+  const squadRisk = String(extra.squad_risk_level || "Belirsiz");
+  const lineupRisk = String(extra.lineup_risk_level || "Belirsiz");
+  const verifiedTeams = Number(extra.squad_verified_team_count || 0);
+  const combined = worstRisk(squadRisk, lineupRisk);
+  const unknown = /belirsiz|veri yok/i.test(`${squadRisk} ${lineupRisk}`) || verifiedTeams < 2;
+  const penalty = combined === "Yüksek" ? 12 : unknown ? 4 : combined === "Orta" ? 6 : 0;
+  const originalScore = Number(item.model_score ?? item.analysis_score ?? item.score ?? 0);
+  const adjustedScore = Math.max(0, Math.round(originalScore - penalty));
+  const originalCompleteness = Number(item.data_completeness || 0);
+  const adjustedCompleteness = unknown ? Math.max(0, originalCompleteness - 5) : originalCompleteness;
+  const note = combined === "Yüksek"
+    ? `Kadro/ilk 11 riski yüksek; model gücü ${penalty} puan düşürüldü ve kupon kapatıldı.`
+    : unknown
+      ? `İki takım için kadro doğrulaması tamamlanmadı; model gücü ${penalty} puan ihtiyat payıyla düşürüldü.`
+      : combined === "Orta" ? `Kadro/ilk 11 riski orta; model gücü ${penalty} puan düşürüldü.` : "Kadro akışı iki takım için doğrulandı.";
+  const signals = [note, ...(Array.isArray(item.pro_signals) ? item.pro_signals : [])];
+  return {
+    ...item,
+    score: adjustedScore,
+    model_score: adjustedScore,
+    analysis_score: adjustedScore,
+    confidence: `${adjustedScore}%`,
+    trust_score: `${adjustedScore}/100`,
+    data_completeness: adjustedCompleteness,
+    data_gap_risk: unknown ? worstRisk(item.data_gap_risk, "Orta") : item.data_gap_risk,
+    risk: worstRisk(item.risk, combined),
+    squad_risk_level: squadRisk,
+    lineup_risk_level: lineupRisk,
+    team_status_verified_count: verifiedTeams,
+    named_player_count: Number(extra.named_player_count || 0),
+    team_intelligence: {
+      ...extra,
+      adjustment: { original_model_score: originalScore, penalty, adjusted_model_score: adjustedScore, reason: note },
+    },
+    band_check: bandRecord?.band_check || DEFAULT_BAND_RECORD.band_check,
+    pro_signals: signals,
+  };
+}
 
 const fixtureDate = (fixture) => String(fixture.date || fixture.tarih || fixture.utc_date || "").slice(0, 10);
 
@@ -184,6 +258,11 @@ function live_match_output(match) {
     value_label: scored.value_label || "-",
     band_attention_level: band.level,
     band_attention_notes: band.notes || [],
+    squad_risk_level: scored.squad_risk_level || scored.team_intelligence?.squad_risk_level || "Belirsiz",
+    lineup_risk_level: scored.lineup_risk_level || scored.team_intelligence?.lineup_risk_level || "Belirsiz",
+    team_status_verified_count: Number(scored.team_status_verified_count || 0),
+    named_player_count: Number(scored.named_player_count || 0),
+    team_intelligence: scored.team_intelligence || null,
     robot_comment: generate_robot_explanation(scored),
     include_in_coupon: Boolean(scored.hasOdds
       && Number(scored.score || 0) >= 65
@@ -234,6 +313,9 @@ function make_coupon(type, items, size) {
     odds_source: item.oddsSource || item.odds_source || item.source || item.raw_market_source || "-",
     value_label: item.value_label || "-",
     band_attention_level: item.band_check?.level || "Düşük",
+    squad_risk_level: item.squad_risk_level || "Belirsiz",
+    lineup_risk_level: item.lineup_risk_level || "Belirsiz",
+    named_player_count: Number(item.named_player_count || 0),
     robot_reason: generate_robot_explanation(item),
     learning_adjustment: item.learning_adjustment || null,
   }));
@@ -261,7 +343,7 @@ function make_coupon(type, items, size) {
 
 function build_daily_coupons(matches) {
   const bandMap = loadBandMap();
-  const scored = matches.map(score_match).map((item) => ({ ...item, band_check: bandFor(item, bandMap) }));
+  const scored = matches.map(score_match).map((item) => applyTeamIntelligence(item, bandRecordFor(item, bandMap)));
   const available = scored.filter((item) => item.hasOdds && Number(item.score || 0) >= 65 && item.band_check?.level !== "Yüksek");
   const watchlist = scored.filter((item) => item.hasOdds && Number(item.score || 0) >= 40 && Number(item.score || 0) < 65 && item.band_check?.level !== "Yüksek");
   const balancedPool = available
@@ -319,6 +401,8 @@ function export_json_outputs(couponBundle, matches, analysisBundle = couponBundl
       coupon_candidate_count: analysisBundle.available.length,
       watch_candidate_count: (analysisBundle.watchlist || []).length,
       learning_adjusted_count: analysisScored.filter((item) => item.learning_adjustment?.applied).length,
+      squad_adjusted_count: analysisScored.filter((item) => Number(item.team_intelligence?.adjustment?.penalty || 0) > 0).length,
+      named_player_match_count: analysisScored.filter((item) => Number(item.named_player_count || 0) > 0).length,
     },
     watchlist: (analysisBundle.watchlist || []).map((item) => live_match_output(item)),
     matches: analysisScored.map((item) => ({
@@ -358,6 +442,8 @@ module.exports = {
   build_daily_coupons,
   generate_robot_explanation,
   export_json_outputs,
+  applyTeamIntelligence,
+  bandRecordFor,
   selectAnalysisMatches,
   selectDailyMatches,
 };

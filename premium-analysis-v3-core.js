@@ -52,6 +52,15 @@
 
   const normalizeMatch = (match, index = 0) => {
     const pro = match?.proAnalysis || match?.pro_analysis || match?.pro || {};
+    const rawTeamIntelligence = pro?.team_intelligence || match?.team_intelligence || null;
+    const hasTeamFields = rawTeamIntelligence || pro?.squad_risk_level || match?.squad_risk_level;
+    const teamIntelligence = hasTeamFields ? {
+      ...(rawTeamIntelligence || {}),
+      squad_risk_level: String(first(pro?.squad_risk_level, match?.squad_risk_level, rawTeamIntelligence?.squad_risk_level, "Belirsiz")),
+      lineup_risk_level: String(first(pro?.lineup_risk_level, match?.lineup_risk_level, rawTeamIntelligence?.lineup_risk_level, "Belirsiz")),
+      verified_team_count: finite(first(pro?.team_status_verified_count, match?.team_status_verified_count, rawTeamIntelligence?.verified_team_count)) || 0,
+      named_player_count: finite(first(pro?.named_player_count, match?.named_player_count, rawTeamIntelligence?.named_player_count)) || 0,
+    } : null;
     const rawTitle = first(match?.match_name, match?.match, match?.title, "") ?? "";
     const titleParts = String(rawTitle || "").split(/\s+(?:vs\.?|v|-)\s+/i);
     const home = String(first(match?.home, match?.home_team_name, match?.ev_sahibi, titleParts[0], "Ev sahibi")).trim();
@@ -93,6 +102,7 @@
       riskLevel: String(first(pro?.risk_level, match?.risk_level, "") ?? ""),
       reason: String(first(pro?.signals?.[0], match?.robot_reason, match?.robot_comment, match?.commentary, "") ?? ""),
       metricQuality: String(first(pro?.data_quality, match?.metric_quality, "unknown")),
+      teamIntelligence,
       pro: {
         available: Boolean(pro?.available ?? pro?.recommended_market),
         fresh: pro?.fresh !== false,
@@ -114,6 +124,9 @@
         includeInCoupon: Boolean(pro?.include_in_coupon),
         valueLabel: String(first(pro?.value_label, "") ?? ""),
         signals: Array.isArray(pro?.signals) ? pro.signals.map(String).filter(Boolean).slice(0, 7) : [],
+        squadRiskLevel: String(first(pro?.squad_risk_level, match?.squad_risk_level, teamIntelligence?.squad_risk_level, "Belirsiz")),
+        lineupRiskLevel: String(first(pro?.lineup_risk_level, match?.lineup_risk_level, teamIntelligence?.lineup_risk_level, "Belirsiz")),
+        teamIntelligence,
         calibration: pro?.calibration && typeof pro.calibration === "object" ? pro.calibration : null,
       },
       metrics: {
@@ -276,6 +289,17 @@
       );
     } else {
       rows.push({ label: "Veri niteliği", value: normalizeText(match.metricQuality).includes("proxy") ? "Oran destekli sınırlı veri" : "Piyasa verisi" });
+    }
+    const intelligence = match.teamIntelligence || match.pro.teamIntelligence;
+    if (intelligence) {
+      const verified = Number(intelligence.verified_team_count ?? intelligence.squad_verified_team_count ?? 0);
+      const named = Number(intelligence.named_player_count || 0);
+      rows.push(
+        { label: "Kadro / ilk 11 riski", value: `${match.pro.squadRiskLevel || "Belirsiz"} / ${match.pro.lineupRiskLevel || "Belirsiz"}` },
+        { label: "Oyuncu veri kapsamı", value: `${verified}/2 takım doğrulandı · ${named} isimli eksik` },
+      );
+    } else {
+      rows.push({ label: "Oyuncu veri kapsamı", value: "Kadro verisi henüz eşleşmedi" });
     }
     return rows;
   };

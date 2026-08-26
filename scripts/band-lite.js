@@ -17,6 +17,19 @@ function keyOf(name) {
   return String(name || '-').toLocaleLowerCase('tr-TR').replace(/ı/g, 'i').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 }
 
+function matchName(row) {
+  if (row?.match_name || row?.match) return String(row.match_name || row.match);
+  const home = String(row?.home || row?.home_team_name || row?.ev_sahibi || '').trim();
+  const away = String(row?.away || row?.away_team_name || row?.deplasman || '').trim();
+  return home && away ? `${home} VS ${away}` : '-';
+}
+
+function matchKey(row) {
+  const date = String(row?.date || row?.tarih || '').slice(0, 10);
+  const name = keyOf(matchName(row));
+  return date ? `${date}|${name}` : name;
+}
+
 function readNumber(row, keys) {
   for (const key of keys) {
     const value = row?.[key] ?? row?.analysis?.[key] ?? row?.stats?.[key] ?? row?.band_extra?.[key];
@@ -37,23 +50,30 @@ function readText(row, keys) {
 function byMatch(file) {
   const data = readJson(path.join(dataDir, file), { matches: [] });
   const out = {};
-  for (const row of data.matches || []) out[keyOf(row.match_name || row.match)] = row;
+  for (const row of data.matches || []) out[matchKey(row)] = row;
   return out;
 }
 
 function mergeSignals(row, maps) {
-  const key = keyOf(row.match_name || row.match || `${row.home || ''} VS ${row.away || ''}`);
-  const status = maps.status[key] || null;
-  const lineup = maps.lineup[key] || {};
-  const homeAway = maps.homeAway[key] || {};
-  const standing = maps.standing[key] || {};
-  const league = maps.league[key] || {};
+  const key = matchKey(row);
+  const fallbackKey = keyOf(matchName(row));
+  const status = maps.status[key] || maps.status[fallbackKey] || null;
+  const lineup = maps.lineup[key] || maps.lineup[fallbackKey] || {};
+  const homeAway = maps.homeAway[key] || maps.homeAway[fallbackKey] || {};
+  const standing = maps.standing[key] || maps.standing[fallbackKey] || {};
+  const league = maps.league[key] || maps.league[fallbackKey] || {};
   return {
     ...row,
     band_extra: {
       squad_risk_level: status?.squad_risk_level || 'Belirsiz',
       squad_verified_team_count: Number.isFinite(Number(status?.verified_team_count)) ? Number(status.verified_team_count) : 0,
-      lineup_risk_level: lineup.lineup_risk_level,
+      squad_signal_team_count: Number.isFinite(Number(status?.signal_team_count)) ? Number(status.signal_team_count) : 0,
+      named_player_count: Number.isFinite(Number(status?.named_player_count)) ? Number(status.named_player_count) : 0,
+      lineup_risk_level: lineup.lineup_risk_level || 'Belirsiz',
+      squad_comment: status?.robot_comment || '',
+      lineup_comment: lineup.robot_comment || '',
+      team_status: status ? { home: status.home_status, away: status.away_status } : null,
+      lineup: lineup ? { home: lineup.home_lineup, away: lineup.away_lineup } : null,
       home_edge: homeAway.home_edge,
       away_edge: homeAway.away_edge,
       momentum_difference: standing.momentum_difference,
@@ -68,7 +88,7 @@ function labelFor(row, bands) {
   const q = readNumber(row, ['odds', 'odd', 'price', 'oran']);
   const s = readNumber(row, ['analysis_score', 'score', 'confidence']);
   const missing = readNumber(row, ['data_missing_count']) || 0;
-  const squad = readText(row, ['squad_risk_level', 'lineup_risk_level']).toLocaleLowerCase('tr-TR');
+  const squad = [readText(row, ['squad_risk_level']), readText(row, ['lineup_risk_level'])].join(' ').toLocaleLowerCase('tr-TR');
   const verifiedTeams = readNumber(row, ['squad_verified_team_count']);
   const homeEdge = readNumber(row, ['home_edge']);
   const awayEdge = readNumber(row, ['away_edge']);
@@ -124,11 +144,16 @@ function runBandLite() {
   };
   const live = readJson(path.join(dataDir, 'live-matches.json'), { matches: [] }).matches || [];
   const analysis = readJson(path.join(dataDir, 'robot-analysis.json'), { matches: [] }).matches || [];
-  const rows = live.length ? live : analysis;
+  const full = readJson(path.join(dataDir, 'full-bulletin.json'), { matches: [] }).matches || [];
+  const rows = full.length ? full : (analysis.length ? analysis : live);
   const matches = rows.map((row) => {
     const merged = mergeSignals(row, maps);
     return {
-      match_name: row.match_name || row.match || '-',
+      match_name: matchName(row),
+      home: row.home || row.home_team_name || '',
+      away: row.away || row.away_team_name || '',
+      date: row.date || row.tarih || '',
+      start_time: row.start_time || row.time || '-',
       league: row.league || row.competition_name || '-',
       extra_used: merged.band_extra,
       band_check: labelFor(merged, bands)
@@ -144,4 +169,4 @@ function runBandLite() {
 }
 
 if (require.main === module) runBandLite();
-module.exports = { runBandLite, labelFor, mergeSignals };
+module.exports = { runBandLite, labelFor, matchKey, matchName, mergeSignals };

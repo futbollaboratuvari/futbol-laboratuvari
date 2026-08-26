@@ -83,8 +83,10 @@ jobs:
 
       - name: Refresh squad transfer injury and suspension intelligence
         run: |
+          node scripts/player-intelligence-api.js
           node scripts/team-news-auto.js
           node scripts/team-status-lite.js
+          node scripts/lineup-lite.js
           node scripts/team-status-apply.js
           node tests/team-intelligence.test.js
 
@@ -146,6 +148,7 @@ jobs:
           node scripts/full-bulletin-output-check.js
           node scripts/update-match-archive.js || true
           node scripts/team-status-lite.js
+          node scripts/lineup-lite.js
           node scripts/team-status-apply.js
           node scripts/band-lite.js
 
@@ -170,6 +173,7 @@ jobs:
           node tests/spor-toto-market.test.js
           node tests/spor-toto-weekly.test.js
           node tests/team-intelligence.test.js
+          node tests/team-intelligence-integration.test.js
 
       - name: Validate data outputs before commit
         run: node scripts/validate-json-no-conflicts.js
@@ -191,7 +195,7 @@ jobs:
           fi
           git commit -m "Update fixtures and High Value Engine"
           for attempt in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && node tests/spor-toto-archive.test.js && node tests/spor-toto-market.test.js && node tests/spor-toto-weekly.test.js && node tests/team-intelligence.test.js && git push origin HEAD:main; then
+            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && node tests/spor-toto-archive.test.js && node tests/spor-toto-market.test.js && node tests/spor-toto-weekly.test.js && node tests/team-intelligence.test.js && node tests/team-intelligence-integration.test.js && git push origin HEAD:main; then
               exit 0
             fi
             git rebase --abort || true

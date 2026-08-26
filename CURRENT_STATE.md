@@ -1,5 +1,20 @@
 # State
 
+2026-08-26
+
+Main focus: otomatik takım ve futbolcu analizinin robot karar zincirine tamamlanması.
+
+Current team/player intelligence state:
+- `scripts/player-intelligence-api.js` API-Football üzerinden maç eşlemesi, isimli sakat/cezalı/şüpheli oyuncu, doğrulanmış ilk 11, kadro pozisyonu ve son transfer hareketlerini önbellekli ve günlük istek bütçeli biçimde toplar.
+- Google News RSS verisi yapılandırılmış oyuncu gerçeği gibi sunulmaz; haber sinyali, manuel doğrulama ve API kaydı ayrı veri statülerinde korunur.
+- Veri yokluğu artık “Düşük” riske çevrilmez. Bilinmeyen kadro için ihtiyat payı, yüksek kadro/ilk 11 riski için daha güçlü puan indirimi ve kupon engeli uygulanır.
+- `band-signals.json` maç anahtarları artık `home VS away` ve tarih ile doğru oluşur; eski `"-"` anahtar hatası giderildi.
+- Takım/futbolcu etkisi `robot-analysis.json`, `live-matches.json`, `pro-analysis-index.json` ve `full-bulletin.json` zincirine taşınır; isimli eksikler, transferler ve ilk 11 durumu maç detayında görünür.
+- Günlük bülten detayı “Takım ve Futbolcu Analizi” kartını, Özel Analiz sonucu da kadro/futbolcu özetini gösterir.
+- PRO indeksi yalnız yaklaşan maçları ve en fazla üç gerekçeyi taşır; kompakt üretim yaklaşık 109 KB ile 150 KB performans sınırının altındadır.
+- Birim, PRO, performans, sonuç, Spor Toto, sözdizimi ve JSON bütünlük testleri başarılıdır. Üretim entegrasyon testi otomatik ana veri işinde gerçek çıktıları birlikte doğrular.
+- `matches` / `live_matches` ayrımı, Kuponum, üyelik/ödeme, CNAME ve DNS kuralları korunur.
+
 2026-08-24
 
 Main focus: Özel Analiz kuponunda “Seçim yok” belirsizliği ve kupon uygunluk tutarsızlığının giderilmesi.
