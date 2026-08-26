@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260826-ai-insights-v1";
+  const version = "20260827-live-power-v1";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
@@ -34,6 +34,7 @@
   loadScript("spor-toto-dashboard.js", "spor-toto-dashboard-script");
   loadScript("spor-toto-metric-ui.js", "spor-toto-metric-ui-script");
   loadScript("analysis-insights-v1.js", "analysis-insights-v1-script");
+  loadScript("live-power-center-v1.js", "live-power-center-v1-script");
 
   const loadVisualEnhancements = () => {
     loadScript("fl-pagination-slider.js", "fl-pagination-slider-script");
