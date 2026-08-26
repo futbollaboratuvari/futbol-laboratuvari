@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 10:58:51
+Oluşturma: 26.08.2026 11:13:55
 
 ## Özet
 
-- Toplam tahmin: 1291
-- Bekleyen tahmin: 924
+- Toplam tahmin: 1292
+- Bekleyen tahmin: 925
 - Kazanan tahmin: 152
 - Kaybeden tahmin: 214
 - Lig sayısı: 197
@@ -21,7 +21,7 @@ Oluşturma: 26.08.2026 10:58:51
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 48, bekleyen 31, başarı %88, ağırlık 1.12
-- 2.5 Alt: toplam 171, bekleyen 117, başarı %72, ağırlık 1.12
+- 2.5 Alt: toplam 172, bekleyen 118, başarı %72, ağırlık 1.12
 - MS 1: toplam 207, bekleyen 154, başarı %38, ağırlık 0.88
 - MS 2: toplam 339, bekleyen 213, başarı %33, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
@@ -30,6 +30,7 @@ Oluşturma: 26.08.2026 10:58:51
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Niigata - Kagoshima Unite | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup C | Aragua - Yaracuyanos | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Gürcistan David Kipiani Kupası Çeyrek Final | Gagra - Aragvi Dusheti | 2.5 Alt | pending | 61/100
 - 2026-08-26 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | E. Frankfurt ( - Psg (K) | 2.5 Alt | pending | 62/100
@@ -44,5 +45,4 @@ Oluşturma: 26.08.2026 10:58:51
 - 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Iwata - Tegevajaro Miya | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Malezya Süper Lig | Kuala Lumpur - Kuching Fa | KG Var | pending | 47/100
 - 2026-08-26 | Gürcistan David Kipiani Kupası Çeyrek Final | Dila Gori - Samgurali | 2.5 Alt | pending | 61/100
-- 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Sagan Tosu - Kataller Toyama | 2.5 Alt | pending | 64/100
 
