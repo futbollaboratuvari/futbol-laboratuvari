@@ -6,28 +6,28 @@
   <meta name="robots" content="noindex,nofollow,noarchive">
   <title>Futbol Laboratuvarı | Banka Ödemeleri</title>
   <style>
-    *{box-sizing:border-box}body{margin:0;background:#020611;color:#f8fbff;font-family:Arial,sans-serif}.wrap{width:min(1280px,100%);margin:auto;padding:24px}.panel{padding:18px;margin-bottom:16px;border:1px solid rgba(57,255,136,.22);border-radius:20px;background:#061126}.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}input,select{min-height:42px;border:1px solid rgba(255,255,255,.14);border-radius:11px;background:#020817;color:#fff;padding:0 12px}input{min-width:310px}button,.link{min-height:42px;border:0;border-radius:11px;padding:0 14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#06110d;font-weight:900;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}.link.secondary,button.secondary{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:#fff}.danger{background:rgba(255,92,107,.14);border:1px solid rgba(255,92,107,.35);color:#ffd0d5}button:disabled{opacity:.5;cursor:not-allowed}table{width:100%;border-collapse:collapse;min-width:1120px}th,td{padding:10px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left;font-size:13px;vertical-align:top}th{color:#ffe08a}.scroll{overflow:auto}.muted{color:#9fb0c7}.ok{color:#39ff88}.err{color:#ff9da6}.code{font-weight:900;color:#ffe08a}.warning{padding:12px;border:1px solid rgba(255,224,138,.28);border-radius:12px;background:rgba(255,224,138,.08);color:#ffe08a;line-height:1.5}.badge{display:inline-block;padding:5px 8px;border-radius:999px;background:rgba(255,255,255,.08);font-size:11px;font-weight:900}.badge.ok{background:rgba(57,255,136,.1)}.badge.warn{color:#ffe08a;background:rgba(255,224,138,.08)}.actions{display:flex;gap:7px;flex-wrap:wrap}.actions button{min-height:34px;padding:0 10px;font-size:12px}
+    *{box-sizing:border-box}body{margin:0;background:#020611;color:#f8fbff;font-family:Arial,sans-serif}.wrap{width:min(1320px,100%);margin:auto;padding:24px}.panel{padding:18px;margin-bottom:16px;border:1px solid rgba(57,255,136,.22);border-radius:20px;background:#061126}.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}input,select{min-height:42px;border:1px solid rgba(255,255,255,.14);border-radius:11px;background:#020817;color:#fff;padding:0 12px}input{min-width:310px}button,.link{min-height:42px;border:0;border-radius:11px;padding:0 14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#06110d;font-weight:900;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}.secondary{background:rgba(255,255,255,.08)!important;border:1px solid rgba(255,255,255,.14)!important;color:#fff!important}.danger{background:rgba(255,92,107,.14);border:1px solid rgba(255,92,107,.35);color:#ffd0d5}button:disabled{opacity:.5;cursor:not-allowed}table{width:100%;border-collapse:collapse;min-width:1200px}th,td{padding:10px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left;font-size:13px;vertical-align:top}th{color:#ffe08a}.scroll{overflow:auto}.muted{color:#9fb0c7}.ok{color:#39ff88}.err{color:#ff9da6}.warn{color:#ffe08a}.code{font-weight:900;color:#ffe08a}.warning{padding:12px;border:1px solid rgba(255,224,138,.28);border-radius:12px;background:rgba(255,224,138,.08);color:#ffe08a;line-height:1.5}.badge{display:inline-block;padding:5px 8px;border-radius:999px;background:rgba(255,255,255,.08);font-size:11px;font-weight:900}.badge.ok{background:rgba(57,255,136,.1)}.badge.warn{color:#ffe08a;background:rgba(255,224,138,.08)}.actions{display:flex;gap:7px;flex-wrap:wrap}.actions button{min-height:34px;padding:0 10px;font-size:12px}
   </style>
 </head>
 <body>
 <div class="wrap">
   <section class="panel">
-    <div class="row" style="justify-content:space-between"><div><h1 style="margin:0 0 8px">Banka Ödemeleri + Dekont Kontrolü</h1><p class="muted" style="margin:0">Havale / EFT / FAST siparişleri ve özel alana yüklenen dekontlar.</p></div><div class="row"><a class="link secondary" href="./admin.html">Kod Yönetimi</a><a class="link secondary" href="./index.html">Ana Site</a></div></div>
-    <p class="warning"><strong>Güvenli akış:</strong> Dekontu açıp banka hesabındaki gerçek transferle karşılaştır. “Dekontu Onayla” dediğinde üyelik kodu otomatik üretilir ve sipariş anında aktif edilir. Aynı dekont ikinci bir siparişte kullanılamaz.</p>
-    <div class="row"><input id="secret" type="password" autocomplete="off" placeholder="Ödeme admin anahtarı"><select id="status"><option value="payment_reported">Kontrol bekleyen</option><option value="pending">Dekont bekleyen</option><option value="paid">Ödendi</option></select><button id="load">Listeyi Getir</button></div><p id="msg" class="muted"></p>
+    <div class="row" style="justify-content:space-between"><div><h1 style="margin:0 0 8px">Banka Ödemeleri + Dekont Kontrolü</h1><p class="muted" style="margin:0">Havale / EFT / FAST siparişleri ve özel alana yüklenen dekontlar.</p></div><div class="row"><a class="link secondary" href="./invoice-admin.html">Faturalar</a><a class="link secondary" href="./admin.html">Kod Yönetimi</a><a class="link secondary" href="./index.html">Ana Site</a></div></div>
+    <p class="warning"><strong>Güvenli akış:</strong> Dekontu banka hesabındaki gerçek transferle karşılaştır. “Dekontu Onayla” dediğinde üyelik otomatik açılır, fatura kuyruğu oluşturulur ve e-posta/SMS bildirimleri işleme alınır.</p>
+    <div class="row"><input id="secret" type="password" autocomplete="off" placeholder="Ödeme admin anahtarı"><select id="status"><option value="payment_reported">Kontrol bekleyen</option><option value="pending">Dekont bekleyen</option><option value="paid">Ödendi</option></select><button id="load">Listeyi Getir</button></div><p id="provider" class="muted"></p><p id="msg" class="muted"></p>
   </section>
-  <section class="panel scroll"><table><thead><tr><th>Sipariş</th><th>Müşteri</th><th>Paket</th><th>Tutar</th><th>Açıklama</th><th>Dekont</th><th>Durum</th><th>İşlem</th></tr></thead><tbody id="rows"></tbody></table></section>
+  <section class="panel scroll"><table><thead><tr><th>Sipariş</th><th>Müşteri</th><th>Paket</th><th>Tutar</th><th>Açıklama</th><th>Fatura</th><th>Dekont</th><th>Durum</th><th>İşlem</th></tr></thead><tbody id="rows"></tbody></table></section>
 </div>
 <script>
-  const RECEIPT_BASE='https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-receipt';
+  const BASE='https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-receipt';
   const $=s=>document.querySelector(s);
-  const esc=v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;');
+  const esc=v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'","&#039;");
   const money=k=>new Intl.NumberFormat('tr-TR',{style:'currency',currency:'TRY'}).format(Number(k||0)/100);
   const setMsg=(text,type='muted')=>{$('#msg').className=type;$('#msg').textContent=text;};
   async function api(action,options={}){
     const secret=$('#secret').value.trim();
     if(!secret) throw new Error('Ödeme admin anahtarı girilmedi.');
-    const r=await fetch(`${RECEIPT_BASE}?action=${encodeURIComponent(action)}`,{...options,mode:'cors',credentials:'omit',cache:'no-store',headers:{'Content-Type':'application/json','x-admin-payment-secret':secret,...(options.headers||{})}});
+    const r=await fetch(`${BASE}?action=${encodeURIComponent(action)}`,{...options,mode:'cors',credentials:'omit',cache:'no-store',headers:{'Content-Type':'application/json','x-admin-payment-secret':secret,...(options.headers||{})}});
     const d=await r.json().catch(()=>({}));
     if(!r.ok||d.ok===false) throw new Error(d.error||d.message||'İşlem başarısız');
     return d;
@@ -36,19 +36,25 @@
   async function load(){
     setMsg('Yükleniyor...');
     try{
-      const d=await api('admin-orders',{method:'POST',body:JSON.stringify({status:$('#status').value})});
+      const [d,p]=await Promise.all([
+        api('admin-orders',{method:'POST',body:JSON.stringify({status:$('#status').value})}),
+        api('provider-status',{method:'POST',body:'{}'})
+      ]);
+      $('#provider').innerHTML=`E-posta: <strong class="${p.providers?.email?'ok':'warn'}">${p.providers?.email?'hazır':'API anahtarı gerekli'}</strong> · SMS: <strong class="${p.providers?.sms?'ok':'warn'}">${p.providers?.sms?'hazır':'API anahtarı gerekli'}</strong>`;
       $('#rows').innerHTML=(d.orders||[]).map(o=>{
         const hasReceipt=Boolean(o.receipt_path);
         const canApprove=['pending','payment_reported'].includes(o.status)&&o.receipt_status==='uploaded'&&hasReceipt;
+        const invoiceInfo=o.invoice_name?`${esc(o.invoice_name)}<br><span class="muted">${esc(o.invoice_type==='business'?(o.tax_number||'Vergi no yok'):'Bireysel')}</span>`:'<span class="muted">Eski sipariş / fatura bilgisi yok</span>';
         return `<tr>
           <td class="code">${esc(o.order_code)}<br><span class="muted">${esc(new Date(o.created_at).toLocaleString('tr-TR'))}</span></td>
           <td>${esc(o.customer_name)}<br><span class="muted">${esc(o.email)} · ${esc(o.phone)}</span></td>
           <td>${esc(o.plan_name)}</td>
           <td>${esc(money(o.amount_kurus))}</td>
           <td class="code">${esc(o.payment_reference)}</td>
+          <td>${invoiceInfo}</td>
           <td>${receiptBadge(o)}${hasReceipt?`<br><button class="secondary" style="margin-top:7px" data-view="${esc(o.order_code)}">Dekontu Aç</button>`:''}</td>
           <td>${esc(o.status)}</td>
-          <td><div class="actions">${canApprove?`<button data-approve="${esc(o.order_code)}" data-amount="${esc(money(o.amount_kurus))}" data-ref="${esc(o.payment_reference)}">Dekontu Onayla</button><button class="danger" data-reject="${esc(o.order_code)}">Reddet</button>`:o.status==='paid'?'<span class="ok">Üyelik aktif</span>':o.receipt_status==='rejected'?'<span class="muted">Yeni dekont bekleniyor</span>':'<span class="muted">Dekont bekleniyor</span>'}</div></td>
+          <td><div class="actions">${canApprove?`<button data-approve="${esc(o.order_code)}" data-amount="${esc(money(o.amount_kurus))}" data-ref="${esc(o.payment_reference)}">Dekontu Onayla</button><button class="danger" data-reject="${esc(o.order_code)}">Reddet</button>`:o.status==='paid'?'<span class="ok">Üyelik aktif · Fatura kuyruğunda</span>':o.receipt_status==='rejected'?'<span class="muted">Yeni dekont bekleniyor</span>':'<span class="muted">Dekont bekleniyor</span>'}</div></td>
         </tr>`;
       }).join('');
       setMsg(`${(d.orders||[]).length} kayıt bulundu.`,'ok');
@@ -67,11 +73,12 @@
   }
   async function approve(button){
     const orderCode=button.dataset.approve,amount=button.dataset.amount,ref=button.dataset.ref;
-    if(!confirm(`${orderCode}\n${amount}\nAçıklama: ${ref}\n\nDekontu ve banka hesabındaki gerçek transferi kontrol ettiniz mi? Onay sonrası üyelik otomatik açılacaktır.`)) return;
+    if(!confirm(`${orderCode}\n${amount}\nAçıklama: ${ref}\n\nDekontu ve banka hesabındaki gerçek transferi kontrol ettiniz mi? Onay sonrası üyelik açılacak ve fatura kuyruğu oluşacaktır.`)) return;
     button.disabled=true;
     try{
       const d=await api('approve-receipt',{method:'POST',body:JSON.stringify({order_code:orderCode})});
-      alert('Ödeme onaylandı ve üyelik otomatik açıldı. Üyelik kodu: '+(d.membership_code||''));
+      const mail=d.notifications?.email||'-',sms=d.notifications?.sms||'-';
+      alert(`Ödeme onaylandı ve üyelik açıldı.\nÜyelik kodu: ${d.membership_code||''}\nE-posta: ${mail}\nSMS: ${sms}\nFatura: ${d.invoice?.status||'-'}\nSon fatura tarihi: ${d.invoice?.issue_deadline?new Date(d.invoice.issue_deadline).toLocaleString('tr-TR'):'-'}`);
       await load();
     }catch(e){alert(e.message);}finally{button.disabled=false;}
   }
