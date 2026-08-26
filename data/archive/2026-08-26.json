@@ -1,6 +1,6 @@
 {
   "liveMatches": {
-    "generated_at": "2026-08-26T12:53:06.321Z",
+    "generated_at": "2026-08-26T13:29:54.460Z",
     "date": "2026-08-26",
     "source": "High Value Coupon Engine",
     "message": "",
@@ -1034,7 +1034,7 @@
         "include_in_coupon": false,
         "suitable_coupon_type": "Sadece izleme",
         "data_gap_risk": "Yüksek",
-        "status": "scheduled",
+        "status": "live",
         "expected_scores": [
           "0-0",
           "1-0",
@@ -1050,8 +1050,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -1457,7 +1457,7 @@
         "include_in_coupon": false,
         "suitable_coupon_type": "Oynama",
         "data_gap_risk": "Yüksek",
-        "status": "scheduled",
+        "status": "live",
         "expected_scores": [
           "1-0",
           "2-0",
@@ -1473,8 +1473,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -1512,21 +1512,21 @@
         "match_code": "17211",
         "league": "Malezya Süper Lig",
         "start_time": "16:00",
-        "recommended_market": "KG Var",
-        "confidence_score": "47%",
-        "model_score": 47,
-        "analysis_score": 47,
+        "recommended_market": "Değerli market yok",
+        "confidence_score": "0%",
+        "model_score": 0,
+        "analysis_score": 0,
         "score_type": "signal_strength",
-        "estimated_probability": 53.5,
-        "market_probability": 53.5,
-        "edge_percent": 0,
-        "data_completeness": 13,
+        "estimated_probability": null,
+        "market_probability": null,
+        "edge_percent": null,
+        "data_completeness": 0,
         "evidence_mode": "market_baseline",
         "independent_evidence": false,
         "probability_source": [],
         "model_version": "pro13-market-conditioned-v1",
         "risk_level": "Yüksek",
-        "estimated_odds": "1.87",
+        "estimated_odds": "-",
         "available_odds": {
           "ms1": "16.10",
           "msx": "7.46",
@@ -2010,61 +2010,18 @@
           }
         ],
         "odds_source": "Robot ham veri havuzu",
-        "value_label": "Piyasa ile Uyumlu",
+        "value_label": "Değerli market yok",
         "band_attention_level": "Düşük",
         "band_attention_notes": [
           "Bant kontrol verisi yok."
         ],
-        "robot_comment": "Market: KG Var | Oran: 1.87 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
+        "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Markete özel olasılık ve veri doğrulaması oluşmadı.",
         "include_in_coupon": false,
         "suitable_coupon_type": "Oynama",
         "data_gap_risk": "Yüksek",
-        "status": "scheduled",
-        "expected_scores": [
-          "1-1",
-          "2-1",
-          "2-2"
-        ],
-        "learning_adjustment": {
-          "market": "KG Var",
-          "league": "Malezya Süper Lig",
-          "delta": 0,
-          "weight": 1,
-          "applied": false,
-          "notes": [
-            "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-          ],
-          "market_bucket": {
-            "total": 1,
-            "pending": 1,
-            "won": 0,
-            "lost": 0,
-            "void": 0,
-            "success_rate": null,
-            "weight": 1,
-            "confidence_adjustment": 0
-          },
-          "league_bucket": {
-            "total": 8,
-            "pending": 8,
-            "won": 0,
-            "lost": 0,
-            "void": 0,
-            "success_rate": null,
-            "weight": 1,
-            "confidence_adjustment": 0
-          },
-          "league_market_bucket": {
-            "total": 1,
-            "pending": 1,
-            "won": 0,
-            "lost": 0,
-            "void": 0,
-            "success_rate": null,
-            "weight": 1,
-            "confidence_adjustment": 0
-          }
-        }
+        "status": "filtered_no_value_market",
+        "expected_scores": [],
+        "learning_adjustment": null
       },
       {
         "match_name": "Smouha VS Asyut Petroleum",
@@ -2675,8 +2632,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -2948,8 +2905,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -3930,8 +3887,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -5057,8 +5014,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -5674,8 +5631,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -6604,8 +6561,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -7163,8 +7120,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -8006,8 +7963,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -8646,8 +8603,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -9145,8 +9102,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -9644,8 +9601,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -10143,8 +10100,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -10416,8 +10373,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -11295,8 +11252,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -11794,8 +11751,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -12293,8 +12250,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -12720,8 +12677,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -13360,8 +13317,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -13859,8 +13816,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -14499,8 +14456,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -14998,8 +14955,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -16239,8 +16196,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -16738,8 +16695,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -17237,8 +17194,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -17877,8 +17834,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -18377,8 +18334,8 @@
             "Öğrenme: Suudi Arabistan Pro Lig lig hafızası %36 (-2)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -19030,8 +18987,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -19529,8 +19486,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -19862,8 +19819,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -20276,8 +20233,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -20775,8 +20732,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -21274,8 +21231,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -21773,8 +21730,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -22046,8 +22003,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -22686,8 +22643,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -23185,8 +23142,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -23684,8 +23641,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -24183,8 +24140,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -24827,8 +24784,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -25326,8 +25283,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -25966,8 +25923,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -26465,8 +26422,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -26964,8 +26921,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -27843,8 +27800,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -28496,8 +28453,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -28769,8 +28726,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -29183,8 +29140,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -29682,8 +29639,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -29692,8 +29649,8 @@
             "confidence_adjustment": -5
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -29702,8 +29659,8 @@
             "confidence_adjustment": 0
           },
           "league_market_bucket": {
-            "total": 2,
-            "pending": 1,
+            "total": 3,
+            "pending": 2,
             "won": 1,
             "lost": 0,
             "void": 0,
@@ -30181,8 +30138,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -30191,8 +30148,8 @@
             "confidence_adjustment": 4
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -30200,7 +30157,16 @@
             "weight": 1,
             "confidence_adjustment": 0
           },
-          "league_market_bucket": null
+          "league_market_bucket": {
+            "total": 2,
+            "pending": 2,
+            "won": 0,
+            "lost": 0,
+            "void": 0,
+            "success_rate": null,
+            "weight": 1,
+            "confidence_adjustment": 0
+          }
         }
       },
       {
@@ -30671,8 +30637,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -30681,8 +30647,8 @@
             "confidence_adjustment": 4
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -30690,7 +30656,16 @@
             "weight": 1,
             "confidence_adjustment": 0
           },
-          "league_market_bucket": null
+          "league_market_bucket": {
+            "total": 2,
+            "pending": 2,
+            "won": 0,
+            "lost": 0,
+            "void": 0,
+            "success_rate": null,
+            "weight": 1,
+            "confidence_adjustment": 0
+          }
         }
       },
       {
@@ -31076,8 +31051,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -31086,8 +31061,8 @@
             "confidence_adjustment": -5
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -31096,8 +31071,8 @@
             "confidence_adjustment": 0
           },
           "league_market_bucket": {
-            "total": 2,
-            "pending": 1,
+            "total": 3,
+            "pending": 2,
             "won": 0,
             "lost": 1,
             "void": 0,
@@ -31575,8 +31550,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -31585,8 +31560,8 @@
             "confidence_adjustment": 4
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -31594,7 +31569,16 @@
             "weight": 1,
             "confidence_adjustment": 0
           },
-          "league_market_bucket": null
+          "league_market_bucket": {
+            "total": 2,
+            "pending": 2,
+            "won": 0,
+            "lost": 0,
+            "void": 0,
+            "success_rate": null,
+            "weight": 1,
+            "confidence_adjustment": 0
+          }
         }
       },
       {
@@ -32219,8 +32203,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -32718,8 +32702,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -33217,8 +33201,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -33640,8 +33624,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -34054,8 +34038,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -34327,8 +34311,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -34826,8 +34810,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -34836,8 +34820,8 @@
             "confidence_adjustment": 4
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -34845,7 +34829,16 @@
             "weight": 1,
             "confidence_adjustment": 0
           },
-          "league_market_bucket": null
+          "league_market_bucket": {
+            "total": 2,
+            "pending": 2,
+            "won": 0,
+            "lost": 0,
+            "void": 0,
+            "success_rate": null,
+            "weight": 1,
+            "confidence_adjustment": 0
+          }
         }
       },
       {
@@ -35471,8 +35464,8 @@
             "Öğrenme: Suudi Arabistan Pro Lig lig hafızası %36 (-2)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -36265,8 +36258,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -36679,8 +36672,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -36952,8 +36945,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -37225,8 +37218,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -37724,8 +37717,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -38223,8 +38216,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -38496,8 +38489,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -38995,8 +38988,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -39268,8 +39261,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -40149,8 +40142,8 @@
             "Öğrenme: lig+seçenek hafızası %100 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -41547,8 +41540,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -42046,8 +42039,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -42545,8 +42538,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -43185,8 +43178,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -43684,8 +43677,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -44183,8 +44176,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -45205,8 +45198,8 @@
             "Öğrenme: lig+seçenek hafızası %100 (+4)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -45479,8 +45472,8 @@
             "Öğrenme: Bolivya Premier Lig lig hafızası %67 (+2)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -45980,8 +45973,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -46394,8 +46387,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -46893,8 +46886,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -47392,8 +47385,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -47891,8 +47884,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -48390,8 +48383,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -48889,8 +48882,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -48923,7 +48916,7 @@
     ]
   },
   "dailyCoupons": {
-    "generated_at": "2026-08-26T12:53:06.321Z",
+    "generated_at": "2026-08-26T13:29:54.460Z",
     "date": "2026-08-26",
     "source": "High Value Coupon Engine",
     "message": "",
@@ -49172,8 +49165,8 @@
                 "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
               ],
               "market_bucket": {
-                "total": 50,
-                "pending": 33,
+                "total": 52,
+                "pending": 35,
                 "won": 15,
                 "lost": 2,
                 "void": 0,
@@ -49456,8 +49449,8 @@
                 "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
               ],
               "market_bucket": {
-                "total": 50,
-                "pending": 33,
+                "total": 52,
+                "pending": 35,
                 "won": 15,
                 "lost": 2,
                 "void": 0,
@@ -49523,7 +49516,7 @@
     }
   },
   "robotAnalysis": {
-    "generated_at": "2026-08-26T12:53:06.329Z",
+    "generated_at": "2026-08-26T13:29:54.467Z",
     "date": "2026-08-26",
     "engine": "Futbol Laboratuvarı PRO 13",
     "model_version": "pro13-market-conditioned-v1",
@@ -49533,7 +49526,7 @@
       "fixture_count": 146,
       "scored_match_count": 146,
       "coupon_candidate_count": 7,
-      "watch_candidate_count": 94,
+      "watch_candidate_count": 93,
       "learning_adjusted_count": 111
     },
     "watchlist": [
@@ -49989,7 +49982,7 @@
         "include_in_coupon": false,
         "suitable_coupon_type": "Sadece izleme",
         "data_gap_risk": "Yüksek",
-        "status": "scheduled",
+        "status": "live",
         "expected_scores": [
           "0-0",
           "1-0",
@@ -50005,8 +49998,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -50412,7 +50405,7 @@
         "include_in_coupon": false,
         "suitable_coupon_type": "Oynama",
         "data_gap_risk": "Yüksek",
-        "status": "scheduled",
+        "status": "live",
         "expected_scores": [
           "1-0",
           "2-0",
@@ -50428,8 +50421,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -50440,568 +50433,6 @@
           "league_bucket": {
             "total": 1,
             "pending": 1,
-            "won": 0,
-            "lost": 0,
-            "void": 0,
-            "success_rate": null,
-            "weight": 1,
-            "confidence_adjustment": 0
-          },
-          "league_market_bucket": {
-            "total": 1,
-            "pending": 1,
-            "won": 0,
-            "lost": 0,
-            "void": 0,
-            "success_rate": null,
-            "weight": 1,
-            "confidence_adjustment": 0
-          }
-        }
-      },
-      {
-        "match_name": "Kuala Lumpur VS Kuching Fa",
-        "home": "Kuala Lumpur",
-        "away": "Kuching Fa",
-        "date": "2026-08-26",
-        "match_code": "17211",
-        "league": "Malezya Süper Lig",
-        "start_time": "16:00",
-        "recommended_market": "KG Var",
-        "confidence_score": "47%",
-        "model_score": 47,
-        "analysis_score": 47,
-        "score_type": "signal_strength",
-        "estimated_probability": 53.5,
-        "market_probability": 53.5,
-        "edge_percent": 0,
-        "data_completeness": 13,
-        "evidence_mode": "market_baseline",
-        "independent_evidence": false,
-        "probability_source": [],
-        "model_version": "pro13-market-conditioned-v1",
-        "risk_level": "Yüksek",
-        "estimated_odds": "1.87",
-        "available_odds": {
-          "ms1": "16.10",
-          "msx": "7.46",
-          "ms2": "1.09",
-          "over25": "1.38",
-          "under25": "2.06",
-          "over35": "-",
-          "under35": "-",
-          "bttsYes": "16.10",
-          "bttsNo": "7.46",
-          "firstHalfBttsYes": "-",
-          "firstHalfBttsNo": "-",
-          "secondHalfBttsYes": "-",
-          "secondHalfBttsNo": "-"
-        },
-        "raw_market_guess_odds": {
-          "bttsYes_guess": 16.1,
-          "bttsNo_guess": 7.46,
-          "under25": 2.06,
-          "over25": 1.38
-        },
-        "detail_market_candidates": [
-          {
-            "market_code": "17211",
-            "market": "KG Var / Yok",
-            "values": {
-              "bttsYes_guess": 16.1,
-              "bttsNo_guess": 7.46
-            }
-          },
-          {
-            "market_code": "17211",
-            "market": "İlk Yarı KG Var / Yok",
-            "values": {
-              "firstHalfBttsYes_guess": 16.1,
-              "firstHalfBttsNo_guess": 7.46
-            }
-          },
-          {
-            "market_code": "17211",
-            "market": "İkinci Yarı KG Var / Yok",
-            "values": {
-              "secondHalfBttsYes_guess": 16.1,
-              "secondHalfBttsNo_guess": 7.46
-            }
-          },
-          {
-            "market_code": "17211",
-            "market": "0.5 Alt / Üst",
-            "values": {
-              "under05_guess": 16.1,
-              "over05_guess": 7.46
-            }
-          },
-          {
-            "market_code": "17211",
-            "market": "1.5 Alt / Üst",
-            "values": {
-              "under15_guess": 16.1,
-              "over15_guess": 7.46
-            }
-          },
-          {
-            "market_code": "17211",
-            "market": "2.5 Alt / Üst",
-            "values": {
-              "under25_guess": 16.1,
-              "over25_guess": 7.46
-            }
-          },
-          {
-            "market_code": "17211",
-            "market": "3.5 Alt / Üst",
-            "values": {
-              "under35_guess": 16.1,
-              "over35_guess": 7.46
-            }
-          },
-          {
-            "market_code": "17211",
-            "market": "4.5 Alt / Üst",
-            "values": {
-              "under45_guess": 16.1,
-              "over45_guess": 7.46
-            }
-          },
-          {
-            "market_code": "17211",
-            "market": "İlk Yarı 0.5 Alt / Üst",
-            "values": {
-              "firstHalfUnder05_guess": 16.1,
-              "firstHalfOver05_guess": 7.46
-            }
-          },
-          {
-            "market_code": "17211",
-            "market": "İlk Yarı 1.5 Alt / Üst",
-            "values": {
-              "firstHalfUnder15_guess": 16.1,
-              "firstHalfOver15_guess": 7.46
-            }
-          },
-          {
-            "market_code": "17211",
-            "market": "İkinci Yarı 0.5 Alt / Üst",
-            "values": {
-              "secondHalfUnder05_guess": 16.1,
-              "secondHalfOver05_guess": 7.46
-            }
-          },
-          {
-            "market_code": "17211",
-            "market": "İkinci Yarı 1.5 Alt / Üst",
-            "values": {
-              "secondHalfUnder15_guess": 16.1,
-              "secondHalfOver15_guess": 7.46
-            }
-          },
-          {
-            "market_code": "17211",
-            "market": "Ev Sahibi 1.5 Alt / Üst",
-            "values": {
-              "homeUnder15_guess": 16.1,
-              "homeOver15_guess": 7.46
-            }
-          },
-          {
-            "market_code": "17211",
-            "market": "Deplasman 1.5 Alt / Üst",
-            "values": {
-              "awayUnder15_guess": 16.1,
-              "awayOver15_guess": 7.46
-            }
-          },
-          {
-            "market_code": "17215",
-            "market": "KG Var / Yok",
-            "values": {
-              "bttsYes_guess": 2.06,
-              "bttsNo_guess": 1.38
-            }
-          },
-          {
-            "market_code": "17215",
-            "market": "İlk Yarı KG Var / Yok",
-            "values": {
-              "firstHalfBttsYes_guess": 2.06,
-              "firstHalfBttsNo_guess": 1.38
-            }
-          },
-          {
-            "market_code": "17215",
-            "market": "İkinci Yarı KG Var / Yok",
-            "values": {
-              "secondHalfBttsYes_guess": 2.06,
-              "secondHalfBttsNo_guess": 1.38
-            }
-          },
-          {
-            "market_code": "17215",
-            "market": "0.5 Alt / Üst",
-            "values": {
-              "under05_guess": 2.06,
-              "over05_guess": 1.38
-            }
-          },
-          {
-            "market_code": "17215",
-            "market": "1.5 Alt / Üst",
-            "values": {
-              "under15_guess": 2.06,
-              "over15_guess": 1.38
-            }
-          },
-          {
-            "market_code": "17215",
-            "market": "2.5 Alt / Üst",
-            "values": {
-              "under25_guess": 2.06,
-              "over25_guess": 1.38
-            }
-          },
-          {
-            "market_code": "17215",
-            "market": "3.5 Alt / Üst",
-            "values": {
-              "under35_guess": 2.06,
-              "over35_guess": 1.38
-            }
-          },
-          {
-            "market_code": "17215",
-            "market": "4.5 Alt / Üst",
-            "values": {
-              "under45_guess": 2.06,
-              "over45_guess": 1.38
-            }
-          },
-          {
-            "market_code": "17215",
-            "market": "İlk Yarı 0.5 Alt / Üst",
-            "values": {
-              "firstHalfUnder05_guess": 2.06,
-              "firstHalfOver05_guess": 1.38
-            }
-          },
-          {
-            "market_code": "17215",
-            "market": "İlk Yarı 1.5 Alt / Üst",
-            "values": {
-              "firstHalfUnder15_guess": 2.06,
-              "firstHalfOver15_guess": 1.38
-            }
-          },
-          {
-            "market_code": "17215",
-            "market": "İkinci Yarı 0.5 Alt / Üst",
-            "values": {
-              "secondHalfUnder05_guess": 2.06,
-              "secondHalfOver05_guess": 1.38
-            }
-          },
-          {
-            "market_code": "17215",
-            "market": "İkinci Yarı 1.5 Alt / Üst",
-            "values": {
-              "secondHalfUnder15_guess": 2.06,
-              "secondHalfOver15_guess": 1.38
-            }
-          },
-          {
-            "market_code": "17215",
-            "market": "Ev Sahibi 1.5 Alt / Üst",
-            "values": {
-              "homeUnder15_guess": 2.06,
-              "homeOver15_guess": 1.38
-            }
-          },
-          {
-            "market_code": "17215",
-            "market": "Deplasman 1.5 Alt / Üst",
-            "values": {
-              "awayUnder15_guess": 2.06,
-              "awayOver15_guess": 1.38
-            }
-          }
-        ],
-        "raw_market_blocks": [
-          {
-            "market_code": "17211",
-            "values": [
-              16.1,
-              7.46
-            ],
-            "guess": "KG Var / Yok",
-            "named_values": {
-              "bttsYes_guess": 16.1,
-              "bttsNo_guess": 7.46
-            },
-            "detail_market_candidates": [
-              {
-                "market": "KG Var / Yok",
-                "values": {
-                  "bttsYes_guess": 16.1,
-                  "bttsNo_guess": 7.46
-                }
-              },
-              {
-                "market": "İlk Yarı KG Var / Yok",
-                "values": {
-                  "firstHalfBttsYes_guess": 16.1,
-                  "firstHalfBttsNo_guess": 7.46
-                }
-              },
-              {
-                "market": "İkinci Yarı KG Var / Yok",
-                "values": {
-                  "secondHalfBttsYes_guess": 16.1,
-                  "secondHalfBttsNo_guess": 7.46
-                }
-              },
-              {
-                "market": "0.5 Alt / Üst",
-                "values": {
-                  "under05_guess": 16.1,
-                  "over05_guess": 7.46
-                }
-              },
-              {
-                "market": "1.5 Alt / Üst",
-                "values": {
-                  "under15_guess": 16.1,
-                  "over15_guess": 7.46
-                }
-              },
-              {
-                "market": "2.5 Alt / Üst",
-                "values": {
-                  "under25_guess": 16.1,
-                  "over25_guess": 7.46
-                }
-              },
-              {
-                "market": "3.5 Alt / Üst",
-                "values": {
-                  "under35_guess": 16.1,
-                  "over35_guess": 7.46
-                }
-              },
-              {
-                "market": "4.5 Alt / Üst",
-                "values": {
-                  "under45_guess": 16.1,
-                  "over45_guess": 7.46
-                }
-              },
-              {
-                "market": "İlk Yarı 0.5 Alt / Üst",
-                "values": {
-                  "firstHalfUnder05_guess": 16.1,
-                  "firstHalfOver05_guess": 7.46
-                }
-              },
-              {
-                "market": "İlk Yarı 1.5 Alt / Üst",
-                "values": {
-                  "firstHalfUnder15_guess": 16.1,
-                  "firstHalfOver15_guess": 7.46
-                }
-              },
-              {
-                "market": "İkinci Yarı 0.5 Alt / Üst",
-                "values": {
-                  "secondHalfUnder05_guess": 16.1,
-                  "secondHalfOver05_guess": 7.46
-                }
-              },
-              {
-                "market": "İkinci Yarı 1.5 Alt / Üst",
-                "values": {
-                  "secondHalfUnder15_guess": 16.1,
-                  "secondHalfOver15_guess": 7.46
-                }
-              },
-              {
-                "market": "Ev Sahibi 1.5 Alt / Üst",
-                "values": {
-                  "homeUnder15_guess": 16.1,
-                  "homeOver15_guess": 7.46
-                }
-              },
-              {
-                "market": "Deplasman 1.5 Alt / Üst",
-                "values": {
-                  "awayUnder15_guess": 16.1,
-                  "awayOver15_guess": 7.46
-                }
-              }
-            ]
-          },
-          {
-            "market_code": "17215",
-            "values": [
-              2.06,
-              1.38
-            ],
-            "guess": "2.5 Alt / Üst",
-            "named_values": {
-              "under25": 2.06,
-              "over25": 1.38
-            },
-            "detail_market_candidates": [
-              {
-                "market": "KG Var / Yok",
-                "values": {
-                  "bttsYes_guess": 2.06,
-                  "bttsNo_guess": 1.38
-                }
-              },
-              {
-                "market": "İlk Yarı KG Var / Yok",
-                "values": {
-                  "firstHalfBttsYes_guess": 2.06,
-                  "firstHalfBttsNo_guess": 1.38
-                }
-              },
-              {
-                "market": "İkinci Yarı KG Var / Yok",
-                "values": {
-                  "secondHalfBttsYes_guess": 2.06,
-                  "secondHalfBttsNo_guess": 1.38
-                }
-              },
-              {
-                "market": "0.5 Alt / Üst",
-                "values": {
-                  "under05_guess": 2.06,
-                  "over05_guess": 1.38
-                }
-              },
-              {
-                "market": "1.5 Alt / Üst",
-                "values": {
-                  "under15_guess": 2.06,
-                  "over15_guess": 1.38
-                }
-              },
-              {
-                "market": "2.5 Alt / Üst",
-                "values": {
-                  "under25_guess": 2.06,
-                  "over25_guess": 1.38
-                }
-              },
-              {
-                "market": "3.5 Alt / Üst",
-                "values": {
-                  "under35_guess": 2.06,
-                  "over35_guess": 1.38
-                }
-              },
-              {
-                "market": "4.5 Alt / Üst",
-                "values": {
-                  "under45_guess": 2.06,
-                  "over45_guess": 1.38
-                }
-              },
-              {
-                "market": "İlk Yarı 0.5 Alt / Üst",
-                "values": {
-                  "firstHalfUnder05_guess": 2.06,
-                  "firstHalfOver05_guess": 1.38
-                }
-              },
-              {
-                "market": "İlk Yarı 1.5 Alt / Üst",
-                "values": {
-                  "firstHalfUnder15_guess": 2.06,
-                  "firstHalfOver15_guess": 1.38
-                }
-              },
-              {
-                "market": "İkinci Yarı 0.5 Alt / Üst",
-                "values": {
-                  "secondHalfUnder05_guess": 2.06,
-                  "secondHalfOver05_guess": 1.38
-                }
-              },
-              {
-                "market": "İkinci Yarı 1.5 Alt / Üst",
-                "values": {
-                  "secondHalfUnder15_guess": 2.06,
-                  "secondHalfOver15_guess": 1.38
-                }
-              },
-              {
-                "market": "Ev Sahibi 1.5 Alt / Üst",
-                "values": {
-                  "homeUnder15_guess": 2.06,
-                  "homeOver15_guess": 1.38
-                }
-              },
-              {
-                "market": "Deplasman 1.5 Alt / Üst",
-                "values": {
-                  "awayUnder15_guess": 2.06,
-                  "awayOver15_guess": 1.38
-                }
-              }
-            ]
-          },
-          {
-            "market_code": "17212",
-            "values": [
-              4.18
-            ],
-            "guess": "Ham detay market",
-            "named_values": {},
-            "detail_market_candidates": []
-          }
-        ],
-        "odds_source": "Robot ham veri havuzu",
-        "value_label": "Piyasa ile Uyumlu",
-        "band_attention_level": "Düşük",
-        "band_attention_notes": [
-          "Bant kontrol verisi yok."
-        ],
-        "robot_comment": "Market: KG Var | Oran: 1.87 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
-        "include_in_coupon": false,
-        "suitable_coupon_type": "Oynama",
-        "data_gap_risk": "Yüksek",
-        "status": "scheduled",
-        "expected_scores": [
-          "1-1",
-          "2-1",
-          "2-2"
-        ],
-        "learning_adjustment": {
-          "market": "KG Var",
-          "league": "Malezya Süper Lig",
-          "delta": 0,
-          "weight": 1,
-          "applied": false,
-          "notes": [
-            "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-          ],
-          "market_bucket": {
-            "total": 1,
-            "pending": 1,
-            "won": 0,
-            "lost": 0,
-            "void": 0,
-            "success_rate": null,
-            "weight": 1,
-            "confidence_adjustment": 0
-          },
-          "league_bucket": {
-            "total": 8,
-            "pending": 8,
             "won": 0,
             "lost": 0,
             "void": 0,
@@ -51630,8 +51061,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -52044,8 +51475,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -52458,8 +51889,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -52646,8 +52077,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -53060,8 +52491,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -53474,8 +52905,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -53888,8 +53319,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -54528,8 +53959,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -55027,8 +54458,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -55526,8 +54957,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -56025,8 +55456,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -56298,8 +55729,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -56797,8 +56228,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -57296,8 +56727,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -57795,8 +57226,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -58068,8 +57499,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -58708,8 +58139,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -59207,8 +58638,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -59847,8 +59278,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -60487,8 +59918,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -60986,8 +60417,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -61485,8 +60916,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -62125,8 +61556,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -62625,8 +62056,8 @@
             "Öğrenme: Suudi Arabistan Pro Lig lig hafızası %36 (-2)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -63124,8 +62555,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -63623,8 +63054,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -63811,8 +63242,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -64225,8 +63656,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -64724,8 +64155,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -65223,8 +64654,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -65722,8 +65153,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -65995,8 +65426,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -66635,8 +66066,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -67134,8 +66565,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -67633,8 +67064,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -68132,8 +67563,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -68631,8 +68062,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -69271,8 +68702,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -69770,8 +69201,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -70269,8 +69700,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -70542,8 +69973,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -70815,8 +70246,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -71229,8 +70660,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -71728,8 +71159,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -71738,8 +71169,8 @@
             "confidence_adjustment": -5
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -71748,8 +71179,8 @@
             "confidence_adjustment": 0
           },
           "league_market_bucket": {
-            "total": 2,
-            "pending": 1,
+            "total": 3,
+            "pending": 2,
             "won": 1,
             "lost": 0,
             "void": 0,
@@ -72227,8 +71658,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -72237,8 +71668,8 @@
             "confidence_adjustment": 4
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -72246,7 +71677,16 @@
             "weight": 1,
             "confidence_adjustment": 0
           },
-          "league_market_bucket": null
+          "league_market_bucket": {
+            "total": 2,
+            "pending": 2,
+            "won": 0,
+            "lost": 0,
+            "void": 0,
+            "success_rate": null,
+            "weight": 1,
+            "confidence_adjustment": 0
+          }
         }
       },
       {
@@ -72717,8 +72157,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -72727,8 +72167,8 @@
             "confidence_adjustment": 4
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -72736,7 +72176,16 @@
             "weight": 1,
             "confidence_adjustment": 0
           },
-          "league_market_bucket": null
+          "league_market_bucket": {
+            "total": 2,
+            "pending": 2,
+            "won": 0,
+            "lost": 0,
+            "void": 0,
+            "success_rate": null,
+            "weight": 1,
+            "confidence_adjustment": 0
+          }
         }
       },
       {
@@ -73122,8 +72571,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -73132,8 +72581,8 @@
             "confidence_adjustment": -5
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -73142,8 +72591,8 @@
             "confidence_adjustment": 0
           },
           "league_market_bucket": {
-            "total": 2,
-            "pending": 1,
+            "total": 3,
+            "pending": 2,
             "won": 0,
             "lost": 1,
             "void": 0,
@@ -73621,8 +73070,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -73631,8 +73080,8 @@
             "confidence_adjustment": 4
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -73640,7 +73089,16 @@
             "weight": 1,
             "confidence_adjustment": 0
           },
-          "league_market_bucket": null
+          "league_market_bucket": {
+            "total": 2,
+            "pending": 2,
+            "won": 0,
+            "lost": 0,
+            "void": 0,
+            "success_rate": null,
+            "weight": 1,
+            "confidence_adjustment": 0
+          }
         }
       },
       {
@@ -74111,8 +73569,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -74610,8 +74068,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -75033,8 +74491,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -75447,8 +74905,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -75720,8 +75178,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -76219,8 +75677,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -76229,8 +75687,8 @@
             "confidence_adjustment": 4
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -76238,7 +75696,16 @@
             "weight": 1,
             "confidence_adjustment": 0
           },
-          "league_market_bucket": null
+          "league_market_bucket": {
+            "total": 2,
+            "pending": 2,
+            "won": 0,
+            "lost": 0,
+            "void": 0,
+            "success_rate": null,
+            "weight": 1,
+            "confidence_adjustment": 0
+          }
         }
       },
       {
@@ -76624,8 +76091,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -77038,8 +76505,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -77311,8 +76778,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -77584,8 +77051,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -78083,8 +77550,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -78582,8 +78049,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -78855,8 +78322,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -79354,8 +78821,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -79855,8 +79322,8 @@
             "Öğrenme: lig+seçenek hafızası %100 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -80354,8 +79821,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -80853,8 +80320,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -81352,8 +80819,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -81992,8 +81459,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -82491,8 +81958,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -83133,8 +82600,8 @@
             "Öğrenme: lig+seçenek hafızası %100 (+4)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -83407,8 +82874,8 @@
             "Öğrenme: Bolivya Premier Lig lig hafızası %67 (+2)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -83821,8 +83288,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -84320,8 +83787,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -84819,8 +84286,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -85318,8 +84785,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -85817,8 +85284,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -86316,8 +85783,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -86816,8 +86283,8 @@
             "Öğrenme: Şili Premier Lig lig hafızası %50 (+0)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -87456,8 +86923,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -87955,8 +87422,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -88454,8 +87921,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -88953,8 +88420,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -89593,8 +89060,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -90233,8 +89700,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -90243,6 +89710,16 @@
             "confidence_adjustment": 4
           },
           "league_bucket": {
+            "total": 2,
+            "pending": 2,
+            "won": 0,
+            "lost": 0,
+            "void": 0,
+            "success_rate": null,
+            "weight": 1,
+            "confidence_adjustment": 0
+          },
+          "league_market_bucket": {
             "total": 1,
             "pending": 1,
             "won": 0,
@@ -90251,8 +89728,7 @@
             "success_rate": null,
             "weight": 1,
             "confidence_adjustment": 0
-          },
-          "league_market_bucket": null
+          }
         }
       },
       {
@@ -90497,8 +89973,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -90920,8 +90396,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -91419,8 +90895,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -92059,8 +91535,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -92559,8 +92035,8 @@
             "Öğrenme: ABD USL lig hafızası %27 (-2)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -93199,8 +92675,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -93699,8 +93175,8 @@
             "Öğrenme: ABD USL lig hafızası %27 (-2)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -94198,8 +93674,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -95384,7 +94860,7 @@
         "include_in_coupon": false,
         "suitable_coupon_type": "Sadece izleme",
         "data_gap_risk": "Yüksek",
-        "status": "scheduled",
+        "status": "live",
         "expected_scores": [
           "0-0",
           "1-0",
@@ -95400,8 +94876,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -95503,8 +94979,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -95928,7 +95404,7 @@
         "include_in_coupon": false,
         "suitable_coupon_type": "Oynama",
         "data_gap_risk": "Yüksek",
-        "status": "scheduled",
+        "status": "live",
         "expected_scores": [
           "1-0",
           "2-0",
@@ -95944,8 +95420,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -96047,8 +95523,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -96103,21 +95579,21 @@
         "match_code": "17211",
         "league": "Malezya Süper Lig",
         "start_time": "16:00",
-        "recommended_market": "KG Var",
-        "confidence_score": "47%",
-        "model_score": 47,
-        "analysis_score": 47,
+        "recommended_market": "Değerli market yok",
+        "confidence_score": "0%",
+        "model_score": 0,
+        "analysis_score": 0,
         "score_type": "signal_strength",
-        "estimated_probability": 53.5,
-        "market_probability": 53.5,
-        "edge_percent": 0,
-        "data_completeness": 13,
+        "estimated_probability": null,
+        "market_probability": null,
+        "edge_percent": null,
+        "data_completeness": 0,
         "evidence_mode": "market_baseline",
         "independent_evidence": false,
         "probability_source": [],
         "model_version": "pro13-market-conditioned-v1",
         "risk_level": "Yüksek",
-        "estimated_odds": "1.87",
+        "estimated_odds": "-",
         "available_odds": {
           "ms1": "16.10",
           "msx": "7.46",
@@ -96601,61 +96077,18 @@
           }
         ],
         "odds_source": "Robot ham veri havuzu",
-        "value_label": "Piyasa ile Uyumlu",
+        "value_label": "Değerli market yok",
         "band_attention_level": "Düşük",
         "band_attention_notes": [
           "Bant kontrol verisi yok."
         ],
-        "robot_comment": "Market: KG Var | Oran: 1.87 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
+        "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Markete özel olasılık ve veri doğrulaması oluşmadı.",
         "include_in_coupon": false,
         "suitable_coupon_type": "Oynama",
         "data_gap_risk": "Yüksek",
-        "status": "scheduled",
-        "expected_scores": [
-          "1-1",
-          "2-1",
-          "2-2"
-        ],
-        "learning_adjustment": {
-          "market": "KG Var",
-          "league": "Malezya Süper Lig",
-          "delta": 0,
-          "weight": 1,
-          "applied": false,
-          "notes": [
-            "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-          ],
-          "market_bucket": {
-            "total": 1,
-            "pending": 1,
-            "won": 0,
-            "lost": 0,
-            "void": 0,
-            "success_rate": null,
-            "weight": 1,
-            "confidence_adjustment": 0
-          },
-          "league_bucket": {
-            "total": 8,
-            "pending": 8,
-            "won": 0,
-            "lost": 0,
-            "void": 0,
-            "success_rate": null,
-            "weight": 1,
-            "confidence_adjustment": 0
-          },
-          "league_market_bucket": {
-            "total": 1,
-            "pending": 1,
-            "won": 0,
-            "lost": 0,
-            "void": 0,
-            "success_rate": null,
-            "weight": 1,
-            "confidence_adjustment": 0
-          }
-        },
+        "status": "filtered_no_value_market",
+        "expected_scores": [],
+        "learning_adjustment": null,
         "metrics": {
           "homeScoredLast10": 4,
           "awayScoredLast10": 4,
@@ -96710,31 +96143,13 @@
               "bttsRate": 0,
               "over25Rate": 0
             },
-            "signals": [
-              "Hafıza: takım sonuç örneği henüz sınırlı"
-            ]
-          },
-          "poisson": null,
-          "homeScoredLast10Count": 4,
-          "awayScoredLast10Count": 4,
-          "homeConcededLast10Count": 3,
-          "awayConcededLast10Count": 3
+            "signals": []
+          }
         },
         "signals": [
-          "Market: KG Var",
-          "Oran: 1.87",
-          "Veri tipi: standard",
-          "Değer etiketi: Piyasa ile Uyumlu",
-          "Marjı temizlenmiş piyasa olasılığı %53.",
-          "Birleşik tahmini olasılık %53.",
-          "Model-piyasa farkı +0.0 puan.",
-          "Hafıza: takım sonuç örneği henüz sınırlı",
-          "Geçmiş market örneği 378; ham isabet %55.",
-          "Karşı market oranı eksik; marj kontrolü tamamlanamadı.",
-          "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-          "Veri kapsama puanı 13/100 (Yüksek eksik veri riski).",
-          "Model gücü 47/100: Sadece izleme.",
-          "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+          "Düşük oran veya eksik veri nedeniyle elendi",
+          "Çifte şans kullanılmadı",
+          "Markete özel olasılık ve veri doğrulaması oluşmadı."
         ]
       },
       {
@@ -97346,8 +96761,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -97449,8 +96864,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -97739,8 +97154,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -97842,8 +97257,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -98965,8 +98380,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -99068,8 +98483,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -100399,8 +99814,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -100502,8 +99917,8 @@
               "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
             ],
             "market_bucket": {
-              "total": 50,
-              "pending": 33,
+              "total": 52,
+              "pending": 35,
               "won": 15,
               "lost": 2,
               "void": 0,
@@ -101260,8 +100675,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -101363,8 +100778,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -102434,8 +101849,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -102537,8 +101952,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -103175,8 +102590,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -103278,8 +102693,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -104262,8 +103677,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -104365,8 +103780,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -105022,8 +104437,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -105125,8 +104540,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -105641,8 +105056,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -105744,8 +105159,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -106260,8 +105675,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -106363,8 +105778,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -106879,8 +106294,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -106982,8 +106397,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -107272,8 +106687,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -107375,8 +106790,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -108333,8 +107748,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -108436,8 +107851,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -108952,8 +108367,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -109055,8 +108470,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -109571,8 +108986,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -109674,8 +109089,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -110180,8 +109595,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -110283,8 +109698,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -110940,8 +110355,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -111043,8 +110458,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -111559,8 +110974,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -111662,8 +111077,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -112319,8 +111734,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -112422,8 +111837,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -112938,8 +112353,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -113041,8 +112456,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -114485,8 +113900,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -114516,16 +113931,16 @@
           }
         },
         "metrics": {
-          "homeScoredLast10": null,
-          "awayScoredLast10": null,
-          "homeConcededLast10": null,
-          "awayConcededLast10": null,
-          "bttsPercent": null,
-          "over25Percent": null,
-          "over35Percent": null,
-          "firstHalfGoalTrend": null,
-          "secondHalfGoalTrend": null,
-          "leagueGoalAverage": null,
+          "homeScoredLast10": 5,
+          "awayScoredLast10": 5,
+          "homeConcededLast10": 3,
+          "awayConcededLast10": 3,
+          "bttsPercent": 36,
+          "over25Percent": 59,
+          "over35Percent": 41,
+          "firstHalfGoalTrend": 35,
+          "secondHalfGoalTrend": 42,
+          "leagueGoalAverage": 2.83,
           "memory": {
             "scoreDelta": 0,
             "totalMatches": 0,
@@ -114574,10 +113989,10 @@
             ]
           },
           "poisson": null,
-          "homeScoredLast10Count": null,
-          "awayScoredLast10Count": null,
-          "homeConcededLast10Count": null,
-          "awayConcededLast10Count": null,
+          "homeScoredLast10Count": 5,
+          "awayScoredLast10Count": 5,
+          "homeConcededLast10Count": 3,
+          "awayConcededLast10Count": 3,
           "learning_adjustment": {
             "market": "MS 2",
             "league": "Macaristan NB III Güneybatı",
@@ -114588,8 +114003,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -115104,8 +114519,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -115207,8 +114622,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -115723,8 +115138,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -115826,8 +115241,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -116483,8 +115898,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -116586,8 +116001,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -117103,8 +116518,8 @@
             "Öğrenme: Suudi Arabistan Pro Lig lig hafızası %36 (-2)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -117207,8 +116622,8 @@
               "Öğrenme: Suudi Arabistan Pro Lig lig hafızası %36 (-2)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -117940,8 +117355,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -118043,8 +117458,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -118559,8 +117974,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -118662,8 +118077,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -119074,8 +118489,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -119177,8 +118592,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -119608,8 +119023,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -119711,8 +119126,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -120228,8 +119643,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -120331,8 +119746,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -120847,8 +120262,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -120950,8 +120365,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -121466,8 +120881,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -121569,8 +120984,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -121859,8 +121274,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -121962,8 +121377,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -122619,8 +122034,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -122722,8 +122137,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -123238,8 +122653,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -123341,8 +122756,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -123857,8 +123272,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -123960,8 +123375,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -124476,8 +123891,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -124579,8 +123994,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -125302,8 +124717,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -125405,8 +124820,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -125921,8 +125336,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -126024,8 +125439,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -126681,8 +126096,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -126784,8 +126199,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -127300,8 +126715,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -127403,8 +126818,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -127919,8 +127334,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -128022,8 +127437,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -128980,8 +128395,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -129083,8 +128498,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -129815,8 +129230,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -129918,8 +129333,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -130208,8 +129623,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -130311,8 +129726,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -130742,8 +130157,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -130845,8 +130260,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -131362,8 +130777,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -131372,8 +130787,8 @@
             "confidence_adjustment": -5
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -131382,8 +130797,8 @@
             "confidence_adjustment": 0
           },
           "league_market_bucket": {
-            "total": 2,
-            "pending": 1,
+            "total": 3,
+            "pending": 2,
             "won": 1,
             "lost": 0,
             "void": 0,
@@ -131393,16 +130808,16 @@
           }
         },
         "metrics": {
-          "homeScoredLast10": null,
-          "awayScoredLast10": null,
-          "homeConcededLast10": null,
-          "awayConcededLast10": null,
-          "bttsPercent": null,
-          "over25Percent": null,
-          "over35Percent": null,
-          "firstHalfGoalTrend": null,
-          "secondHalfGoalTrend": null,
-          "leagueGoalAverage": null,
+          "homeScoredLast10": 6,
+          "awayScoredLast10": 6,
+          "homeConcededLast10": 4,
+          "awayConcededLast10": 4,
+          "bttsPercent": 50,
+          "over25Percent": 67,
+          "over35Percent": 17,
+          "firstHalfGoalTrend": 36,
+          "secondHalfGoalTrend": 56,
+          "leagueGoalAverage": 2.67,
           "memory": {
             "scoreDelta": 0,
             "totalMatches": 6,
@@ -131451,10 +130866,10 @@
             ]
           },
           "poisson": null,
-          "homeScoredLast10Count": null,
-          "awayScoredLast10Count": null,
-          "homeConcededLast10Count": null,
-          "awayConcededLast10Count": null,
+          "homeScoredLast10Count": 6,
+          "awayScoredLast10Count": 6,
+          "homeConcededLast10Count": 4,
+          "awayConcededLast10Count": 4,
           "learning_adjustment": {
             "market": "MS 1",
             "league": "Hazırlık Kulüpler",
@@ -131465,8 +130880,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -131475,8 +130890,8 @@
               "confidence_adjustment": -5
             },
             "league_bucket": {
-              "total": 9,
-              "pending": 7,
+              "total": 15,
+              "pending": 13,
               "won": 1,
               "lost": 1,
               "void": 0,
@@ -131485,8 +130900,8 @@
               "confidence_adjustment": 0
             },
             "league_market_bucket": {
-              "total": 2,
-              "pending": 1,
+              "total": 3,
+              "pending": 2,
               "won": 1,
               "lost": 0,
               "void": 0,
@@ -131981,8 +131396,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -131991,8 +131406,8 @@
             "confidence_adjustment": 4
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -132000,19 +131415,28 @@
             "weight": 1,
             "confidence_adjustment": 0
           },
-          "league_market_bucket": null
+          "league_market_bucket": {
+            "total": 2,
+            "pending": 2,
+            "won": 0,
+            "lost": 0,
+            "void": 0,
+            "success_rate": null,
+            "weight": 1,
+            "confidence_adjustment": 0
+          }
         },
         "metrics": {
-          "homeScoredLast10": null,
-          "awayScoredLast10": null,
-          "homeConcededLast10": null,
-          "awayConcededLast10": null,
-          "bttsPercent": null,
-          "over25Percent": null,
-          "over35Percent": null,
-          "firstHalfGoalTrend": null,
-          "secondHalfGoalTrend": null,
-          "leagueGoalAverage": null,
+          "homeScoredLast10": 6,
+          "awayScoredLast10": 6,
+          "homeConcededLast10": 4,
+          "awayConcededLast10": 4,
+          "bttsPercent": 50,
+          "over25Percent": 67,
+          "over35Percent": 17,
+          "firstHalfGoalTrend": 35,
+          "secondHalfGoalTrend": 54,
+          "leagueGoalAverage": 2.67,
           "memory": {
             "scoreDelta": 0,
             "totalMatches": 6,
@@ -132061,10 +131485,10 @@
             ]
           },
           "poisson": null,
-          "homeScoredLast10Count": null,
-          "awayScoredLast10Count": null,
-          "homeConcededLast10Count": null,
-          "awayConcededLast10Count": null,
+          "homeScoredLast10Count": 6,
+          "awayScoredLast10Count": 6,
+          "homeConcededLast10Count": 4,
+          "awayConcededLast10Count": 4,
           "learning_adjustment": {
             "market": "2.5 Alt",
             "league": "Hazırlık Kulüpler",
@@ -132075,8 +131499,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -132085,8 +131509,8 @@
               "confidence_adjustment": 4
             },
             "league_bucket": {
-              "total": 9,
-              "pending": 7,
+              "total": 15,
+              "pending": 13,
               "won": 1,
               "lost": 1,
               "void": 0,
@@ -132094,7 +131518,16 @@
               "weight": 1,
               "confidence_adjustment": 0
             },
-            "league_market_bucket": null
+            "league_market_bucket": {
+              "total": 2,
+              "pending": 2,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            }
           }
         },
         "signals": [
@@ -132582,8 +132015,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -132592,8 +132025,8 @@
             "confidence_adjustment": 4
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -132601,19 +132034,28 @@
             "weight": 1,
             "confidence_adjustment": 0
           },
-          "league_market_bucket": null
+          "league_market_bucket": {
+            "total": 2,
+            "pending": 2,
+            "won": 0,
+            "lost": 0,
+            "void": 0,
+            "success_rate": null,
+            "weight": 1,
+            "confidence_adjustment": 0
+          }
         },
         "metrics": {
-          "homeScoredLast10": null,
-          "awayScoredLast10": null,
-          "homeConcededLast10": null,
-          "awayConcededLast10": null,
-          "bttsPercent": null,
-          "over25Percent": null,
-          "over35Percent": null,
-          "firstHalfGoalTrend": null,
-          "secondHalfGoalTrend": null,
-          "leagueGoalAverage": null,
+          "homeScoredLast10": 6,
+          "awayScoredLast10": 6,
+          "homeConcededLast10": 4,
+          "awayConcededLast10": 4,
+          "bttsPercent": 50,
+          "over25Percent": 67,
+          "over35Percent": 17,
+          "firstHalfGoalTrend": 38,
+          "secondHalfGoalTrend": 58,
+          "leagueGoalAverage": 2.67,
           "memory": {
             "scoreDelta": 0,
             "totalMatches": 6,
@@ -132662,10 +132104,10 @@
             ]
           },
           "poisson": null,
-          "homeScoredLast10Count": null,
-          "awayScoredLast10Count": null,
-          "homeConcededLast10Count": null,
-          "awayConcededLast10Count": null,
+          "homeScoredLast10Count": 6,
+          "awayScoredLast10Count": 6,
+          "homeConcededLast10Count": 4,
+          "awayConcededLast10Count": 4,
           "learning_adjustment": {
             "market": "2.5 Alt",
             "league": "Hazırlık Kulüpler",
@@ -132676,8 +132118,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -132686,8 +132128,8 @@
               "confidence_adjustment": 4
             },
             "league_bucket": {
-              "total": 9,
-              "pending": 7,
+              "total": 15,
+              "pending": 13,
               "won": 1,
               "lost": 1,
               "void": 0,
@@ -132695,7 +132137,16 @@
               "weight": 1,
               "confidence_adjustment": 0
             },
-            "league_market_bucket": null
+            "league_market_bucket": {
+              "total": 2,
+              "pending": 2,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            }
           }
         },
         "signals": [
@@ -133098,8 +132549,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -133108,8 +132559,8 @@
             "confidence_adjustment": -5
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -133118,8 +132569,8 @@
             "confidence_adjustment": 0
           },
           "league_market_bucket": {
-            "total": 2,
-            "pending": 1,
+            "total": 3,
+            "pending": 2,
             "won": 0,
             "lost": 1,
             "void": 0,
@@ -133129,16 +132580,16 @@
           }
         },
         "metrics": {
-          "homeScoredLast10": null,
-          "awayScoredLast10": null,
-          "homeConcededLast10": null,
-          "awayConcededLast10": null,
-          "bttsPercent": null,
-          "over25Percent": null,
-          "over35Percent": null,
-          "firstHalfGoalTrend": null,
-          "secondHalfGoalTrend": null,
-          "leagueGoalAverage": null,
+          "homeScoredLast10": 6,
+          "awayScoredLast10": 6,
+          "homeConcededLast10": 4,
+          "awayConcededLast10": 4,
+          "bttsPercent": 50,
+          "over25Percent": 67,
+          "over35Percent": 17,
+          "firstHalfGoalTrend": 38,
+          "secondHalfGoalTrend": 56,
+          "leagueGoalAverage": 2.67,
           "memory": {
             "scoreDelta": 0,
             "totalMatches": 6,
@@ -133187,10 +132638,10 @@
             ]
           },
           "poisson": null,
-          "homeScoredLast10Count": null,
-          "awayScoredLast10Count": null,
-          "homeConcededLast10Count": null,
-          "awayConcededLast10Count": null,
+          "homeScoredLast10Count": 6,
+          "awayScoredLast10Count": 6,
+          "homeConcededLast10Count": 4,
+          "awayConcededLast10Count": 4,
           "learning_adjustment": {
             "market": "MS 2",
             "league": "Hazırlık Kulüpler",
@@ -133201,8 +132652,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -133211,8 +132662,8 @@
               "confidence_adjustment": -5
             },
             "league_bucket": {
-              "total": 9,
-              "pending": 7,
+              "total": 15,
+              "pending": 13,
               "won": 1,
               "lost": 1,
               "void": 0,
@@ -133221,8 +132672,8 @@
               "confidence_adjustment": 0
             },
             "league_market_bucket": {
-              "total": 2,
-              "pending": 1,
+              "total": 3,
+              "pending": 2,
               "won": 0,
               "lost": 1,
               "void": 0,
@@ -133717,8 +133168,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -133727,8 +133178,8 @@
             "confidence_adjustment": 4
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -133736,19 +133187,28 @@
             "weight": 1,
             "confidence_adjustment": 0
           },
-          "league_market_bucket": null
+          "league_market_bucket": {
+            "total": 2,
+            "pending": 2,
+            "won": 0,
+            "lost": 0,
+            "void": 0,
+            "success_rate": null,
+            "weight": 1,
+            "confidence_adjustment": 0
+          }
         },
         "metrics": {
-          "homeScoredLast10": null,
-          "awayScoredLast10": null,
-          "homeConcededLast10": null,
-          "awayConcededLast10": null,
-          "bttsPercent": null,
-          "over25Percent": null,
-          "over35Percent": null,
-          "firstHalfGoalTrend": null,
-          "secondHalfGoalTrend": null,
-          "leagueGoalAverage": null,
+          "homeScoredLast10": 6,
+          "awayScoredLast10": 6,
+          "homeConcededLast10": 4,
+          "awayConcededLast10": 4,
+          "bttsPercent": 50,
+          "over25Percent": 67,
+          "over35Percent": 17,
+          "firstHalfGoalTrend": 35,
+          "secondHalfGoalTrend": 54,
+          "leagueGoalAverage": 2.67,
           "memory": {
             "scoreDelta": 0,
             "totalMatches": 6,
@@ -133797,10 +133257,10 @@
             ]
           },
           "poisson": null,
-          "homeScoredLast10Count": null,
-          "awayScoredLast10Count": null,
-          "homeConcededLast10Count": null,
-          "awayConcededLast10Count": null,
+          "homeScoredLast10Count": 6,
+          "awayScoredLast10Count": 6,
+          "homeConcededLast10Count": 4,
+          "awayConcededLast10Count": 4,
           "learning_adjustment": {
             "market": "2.5 Üst",
             "league": "Hazırlık Kulüpler",
@@ -133811,8 +133271,8 @@
               "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
             ],
             "market_bucket": {
-              "total": 50,
-              "pending": 33,
+              "total": 52,
+              "pending": 35,
               "won": 15,
               "lost": 2,
               "void": 0,
@@ -133821,8 +133281,8 @@
               "confidence_adjustment": 4
             },
             "league_bucket": {
-              "total": 9,
-              "pending": 7,
+              "total": 15,
+              "pending": 13,
               "won": 1,
               "lost": 1,
               "void": 0,
@@ -133830,7 +133290,16 @@
               "weight": 1,
               "confidence_adjustment": 0
             },
-            "league_market_bucket": null
+            "league_market_bucket": {
+              "total": 2,
+              "pending": 2,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            }
           }
         },
         "signals": [
@@ -134534,8 +134003,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -134637,8 +134106,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -135153,8 +134622,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -135256,8 +134725,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -135772,8 +135241,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -135875,8 +135344,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -136315,8 +135784,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -136418,8 +135887,8 @@
               "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
             ],
             "market_bucket": {
-              "total": 50,
-              "pending": 33,
+              "total": 52,
+              "pending": 35,
               "won": 15,
               "lost": 2,
               "void": 0,
@@ -136849,8 +136318,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -136952,8 +136421,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -137242,8 +136711,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -137345,8 +136814,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -137861,8 +137330,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -137871,8 +137340,8 @@
             "confidence_adjustment": 4
           },
           "league_bucket": {
-            "total": 9,
-            "pending": 7,
+            "total": 15,
+            "pending": 13,
             "won": 1,
             "lost": 1,
             "void": 0,
@@ -137880,19 +137349,28 @@
             "weight": 1,
             "confidence_adjustment": 0
           },
-          "league_market_bucket": null
+          "league_market_bucket": {
+            "total": 2,
+            "pending": 2,
+            "won": 0,
+            "lost": 0,
+            "void": 0,
+            "success_rate": null,
+            "weight": 1,
+            "confidence_adjustment": 0
+          }
         },
         "metrics": {
-          "homeScoredLast10": null,
-          "awayScoredLast10": null,
-          "homeConcededLast10": null,
-          "awayConcededLast10": null,
-          "bttsPercent": null,
-          "over25Percent": null,
-          "over35Percent": null,
-          "firstHalfGoalTrend": null,
-          "secondHalfGoalTrend": null,
-          "leagueGoalAverage": null,
+          "homeScoredLast10": 6,
+          "awayScoredLast10": 6,
+          "homeConcededLast10": 4,
+          "awayConcededLast10": 4,
+          "bttsPercent": 50,
+          "over25Percent": 67,
+          "over35Percent": 17,
+          "firstHalfGoalTrend": 35,
+          "secondHalfGoalTrend": 53,
+          "leagueGoalAverage": 2.67,
           "memory": {
             "scoreDelta": 0,
             "totalMatches": 6,
@@ -137941,10 +137419,10 @@
             ]
           },
           "poisson": null,
-          "homeScoredLast10Count": null,
-          "awayScoredLast10Count": null,
-          "homeConcededLast10Count": null,
-          "awayConcededLast10Count": null,
+          "homeScoredLast10Count": 6,
+          "awayScoredLast10Count": 6,
+          "homeConcededLast10Count": 4,
+          "awayConcededLast10Count": 4,
           "learning_adjustment": {
             "market": "2.5 Üst",
             "league": "Hazırlık Kulüpler",
@@ -137955,8 +137433,8 @@
               "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
             ],
             "market_bucket": {
-              "total": 50,
-              "pending": 33,
+              "total": 52,
+              "pending": 35,
               "won": 15,
               "lost": 2,
               "void": 0,
@@ -137965,8 +137443,8 @@
               "confidence_adjustment": 4
             },
             "league_bucket": {
-              "total": 9,
-              "pending": 7,
+              "total": 15,
+              "pending": 13,
               "won": 1,
               "lost": 1,
               "void": 0,
@@ -137974,7 +137452,16 @@
               "weight": 1,
               "confidence_adjustment": 0
             },
-            "league_market_bucket": null
+            "league_market_bucket": {
+              "total": 2,
+              "pending": 2,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            }
           }
         },
         "signals": [
@@ -138679,8 +138166,8 @@
             "Öğrenme: Suudi Arabistan Pro Lig lig hafızası %36 (-2)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -138783,8 +138270,8 @@
               "Öğrenme: Suudi Arabistan Pro Lig lig hafızası %36 (-2)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -139657,8 +139144,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -139760,8 +139247,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -140191,8 +139678,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -140294,8 +139781,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -140584,8 +140071,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -140687,8 +140174,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -140977,8 +140464,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -141080,8 +140567,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -141596,8 +141083,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -141699,8 +141186,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -142215,8 +141702,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -142318,8 +141805,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -142608,8 +142095,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -142711,8 +142198,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -143227,8 +142714,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -143330,8 +142817,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -143620,8 +143107,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -143723,8 +143210,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -144683,8 +144170,8 @@
             "Öğrenme: lig+seçenek hafızası %100 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -144789,8 +144276,8 @@
               "Öğrenme: lig+seçenek hafızası %100 (+4)"
             ],
             "market_bucket": {
-              "total": 50,
-              "pending": 33,
+              "total": 52,
+              "pending": 35,
               "won": 15,
               "lost": 2,
               "void": 0,
@@ -146331,8 +145818,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -146434,8 +145921,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -146950,8 +146437,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -147053,8 +146540,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -147569,8 +147056,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -147672,8 +147159,8 @@
               "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
             ],
             "market_bucket": {
-              "total": 50,
-              "pending": 33,
+              "total": 52,
+              "pending": 35,
               "won": 15,
               "lost": 2,
               "void": 0,
@@ -148329,8 +147816,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -148432,8 +147919,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -148948,8 +148435,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -149051,8 +148538,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -149567,8 +149054,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -149670,8 +149157,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -150771,8 +150258,8 @@
             "Öğrenme: lig+seçenek hafızası %100 (+4)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -150876,8 +150363,8 @@
               "Öğrenme: lig+seçenek hafızası %100 (+4)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -151169,8 +150656,8 @@
             "Öğrenme: Bolivya Premier Lig lig hafızası %67 (+2)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -151273,8 +150760,8 @@
               "Öğrenme: Bolivya Premier Lig lig hafızası %67 (+2)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -151792,8 +151279,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -151895,8 +151382,8 @@
               "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
             ],
             "market_bucket": {
-              "total": 50,
-              "pending": 33,
+              "total": 52,
+              "pending": 35,
               "won": 15,
               "lost": 2,
               "void": 0,
@@ -152326,8 +151813,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -152429,8 +151916,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -152945,8 +152432,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -153048,8 +152535,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -153564,8 +153051,8 @@
             "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
           ],
           "market_bucket": {
-            "total": 50,
-            "pending": 33,
+            "total": 52,
+            "pending": 35,
             "won": 15,
             "lost": 2,
             "void": 0,
@@ -153667,8 +153154,8 @@
               "Öğrenme: 2.5 Üst başarı hafızası %88 (+4)"
             ],
             "market_bucket": {
-              "total": 50,
-              "pending": 33,
+              "total": 52,
+              "pending": 35,
               "won": 15,
               "lost": 2,
               "void": 0,
@@ -154183,8 +153670,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -154286,8 +153773,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -154802,8 +154289,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -154905,8 +154392,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -155421,8 +154908,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -155524,8 +155011,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -156040,8 +155527,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -156143,8 +155630,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -156662,8 +156149,8 @@
             "Öğrenme: El Salvador Primera Lig Apertura lig hafızası %40 (-2)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -156766,8 +156253,8 @@
               "Öğrenme: El Salvador Primera Lig Apertura lig hafızası %40 (-2)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -158437,8 +157924,8 @@
             "Öğrenme: Şili Premier Lig lig hafızası %50 (+0)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -158541,8 +158028,8 @@
               "Öğrenme: Şili Premier Lig lig hafızası %50 (+0)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -159060,8 +158547,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -159163,8 +158650,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -159821,8 +159308,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -159924,8 +159411,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -160440,8 +159927,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -160543,8 +160030,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -161059,8 +160546,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -161162,8 +160649,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -161678,8 +161165,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -161781,8 +161268,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -162300,8 +161787,8 @@
             "Öğrenme: ABD USL Lig 1 lig hafızası %43 (-1)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -162404,8 +161891,8 @@
               "Öğrenme: ABD USL Lig 1 lig hafızası %43 (-1)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -163062,8 +162549,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -163165,8 +162652,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -163823,8 +163310,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -163833,6 +163320,16 @@
             "confidence_adjustment": 4
           },
           "league_bucket": {
+            "total": 2,
+            "pending": 2,
+            "won": 0,
+            "lost": 0,
+            "void": 0,
+            "success_rate": null,
+            "weight": 1,
+            "confidence_adjustment": 0
+          },
+          "league_market_bucket": {
             "total": 1,
             "pending": 1,
             "won": 0,
@@ -163841,8 +163338,7 @@
             "success_rate": null,
             "weight": 1,
             "confidence_adjustment": 0
-          },
-          "league_market_bucket": null
+          }
         },
         "metrics": {
           "homeScoredLast10": 3,
@@ -163917,8 +163413,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -163927,6 +163423,16 @@
               "confidence_adjustment": 4
             },
             "league_bucket": {
+              "total": 2,
+              "pending": 2,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            },
+            "league_market_bucket": {
               "total": 1,
               "pending": 1,
               "won": 0,
@@ -163935,8 +163441,7 @@
               "success_rate": null,
               "weight": 1,
               "confidence_adjustment": 0
-            },
-            "league_market_bucket": null
+            }
           }
         },
         "signals": [
@@ -164198,8 +163703,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -164301,8 +163806,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -164960,8 +164465,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -165063,8 +164568,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -165723,8 +165228,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -165826,8 +165331,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -166267,8 +165772,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -166370,8 +165875,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -166886,8 +166391,8 @@
             "Öğrenme: MS 2 başarı hafızası %33 (-5)"
           ],
           "market_bucket": {
-            "total": 342,
-            "pending": 216,
+            "total": 343,
+            "pending": 217,
             "won": 42,
             "lost": 84,
             "void": 0,
@@ -166989,8 +166494,8 @@
               "Öğrenme: MS 2 başarı hafızası %33 (-5)"
             ],
             "market_bucket": {
-              "total": 342,
-              "pending": 216,
+              "total": 343,
+              "pending": 217,
               "won": 42,
               "lost": 84,
               "void": 0,
@@ -167279,8 +166784,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -167382,8 +166887,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -168255,8 +167760,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -168358,8 +167863,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -168875,8 +168380,8 @@
             "Öğrenme: ABD USL lig hafızası %27 (-2)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -168979,8 +168484,8 @@
               "Öğrenme: ABD USL lig hafızası %27 (-2)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -169637,8 +169142,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -169740,8 +169245,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -170257,8 +169762,8 @@
             "Öğrenme: ABD USL lig hafızası %27 (-2)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -170361,8 +169866,8 @@
               "Öğrenme: ABD USL lig hafızası %27 (-2)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -170880,8 +170385,8 @@
             "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
           ],
           "market_bucket": {
-            "total": 175,
-            "pending": 121,
+            "total": 178,
+            "pending": 124,
             "won": 39,
             "lost": 15,
             "void": 0,
@@ -170983,8 +170488,8 @@
               "Öğrenme: 2.5 Alt başarı hafızası %72 (+4)"
             ],
             "market_bucket": {
-              "total": 175,
-              "pending": 121,
+              "total": 178,
+              "pending": 124,
               "won": 39,
               "lost": 15,
               "void": 0,
@@ -171499,8 +171004,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -171602,8 +171107,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,
@@ -172259,8 +171764,8 @@
             "Öğrenme: MS 1 başarı hafızası %38 (-5)"
           ],
           "market_bucket": {
-            "total": 212,
-            "pending": 159,
+            "total": 213,
+            "pending": 160,
             "won": 20,
             "lost": 33,
             "void": 0,
@@ -172362,8 +171867,8 @@
               "Öğrenme: MS 1 başarı hafızası %38 (-5)"
             ],
             "market_bucket": {
-              "total": 212,
-              "pending": 159,
+              "total": 213,
+              "pending": 160,
               "won": 20,
               "lost": 33,
               "void": 0,

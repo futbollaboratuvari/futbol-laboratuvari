@@ -1,10 +1,10 @@
 # Ogrenme Agirlik Saglik Kontrolu
 
 Durum: active
-Tahmin sayisi: 1303
+Tahmin sayisi: 1312
 Hazir market hafizasi: 5/7
 Hazir lig hafizasi: 34/198
-Hazir lig+market hafizasi: 19/542
+Hazir lig+market hafizasi: 19/545
 Guclendirilen toplam: 13
 Dusurulen toplam: 38
 
