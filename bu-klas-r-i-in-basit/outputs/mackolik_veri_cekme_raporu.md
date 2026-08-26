@@ -1,25 +1,35 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-26T06:23:08.597434+00:00
+Tarih: 2026-08-26T06:49:08.913321+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 135
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 135
-- Ham veri havuzu toplam mac sayisi: 9227
+- Kac mac bulundu: 168
+- Kac mac kaydedildi: 5
+- Kac mac zaten vardi: 163
+- Ham veri havuzu toplam mac sayisi: 9232
 - Hedef tarih: 26.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
 - AFF Şampiyonası Final
 - Almanya Bölgesel Lig Kuzey
+- Arjantin Kupa Son 16 Turu
 - Arjantin Ulusal Primera Lig
 - Avustralya FFA Kupası Çeyrek Final
 - Bolivya Premier Lig
+- Brezilya Kupa Çeyrek Final
+- CONCACAF Ligler Kupası Çeyrek Final
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup B
+- Copa Sudamericana Son 16 Turu
 - Danimarka DBU Kupası 2.Tur
+- Ekvador Kupa Çeyrek Final
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - FIFA Kıtalararası Kupa 1. Tur
 - Güney Afrika PSL
@@ -27,6 +37,7 @@ Tarih: 2026-08-26T06:23:08.597434+00:00
 - Gürcistan David Kipiani Kupası Çeyrek Final
 - Irak Premier Lig
 - Japonya İmparatorluk Kupası 2.Tur
+- Kolombiya Primera A Clausura
 - Kuveyt Premier Lig
 - Macaristan NB III Güneybatı
 - Macaristan NB III Güneydoğu
@@ -37,11 +48,13 @@ Tarih: 2026-08-26T06:23:08.597434+00:00
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 2
 - Norveç NM Kupası 1.Tur
+- Paraguay Kupa 3.Tur
 - Suudi Arabistan 1.Lig
 - Suudi Arabistan Pro Lig
 - UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu
 - UEFA Konferans Ligi Play Off
 - UEFA Şampiyonlar Ligi Play Off
+- Venezuela Kupa 1.Tur Grup A
 - Venezuela Kupa 1.Tur Grup B
 - Venezuela Kupa 1.Tur Grup C
 - Venezuela Kupa 1.Tur Grup D
@@ -54,6 +67,8 @@ Tarih: 2026-08-26T06:23:08.597434+00:00
 - İspanya LaLiga
 - İsveç 2.Lig Norrland Düşme Grubu
 - İsviçre 1.Lig Promotion
+- Şili Kupa Grup E
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -110,8 +125,8 @@ Tarih: 2026-08-26T06:23:08.597434+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 58
-- Acilan detay: 58
+- Denenen Tumu alani: 60
+- Acilan detay: 60
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0

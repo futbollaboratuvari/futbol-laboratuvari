@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 09:23:22
+Oluşturma: 26.08.2026 09:49:42
 
 ## Özet
 
-- Toplam tahmin: 1283
-- Bekleyen tahmin: 917
+- Toplam tahmin: 1288
+- Bekleyen tahmin: 922
 - Kazanan tahmin: 152
 - Kaybeden tahmin: 213
 - Lig sayısı: 197
@@ -21,8 +21,8 @@ Oluşturma: 26.08.2026 09:23:22
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 48, bekleyen 31, başarı %88, ağırlık 1.12
-- 2.5 Alt: toplam 164, bekleyen 110, başarı %72, ağırlık 1.12
-- MS 1: toplam 206, bekleyen 153, başarı %38, ağırlık 0.88
+- 2.5 Alt: toplam 168, bekleyen 114, başarı %72, ağırlık 1.12
+- MS 1: toplam 207, bekleyen 154, başarı %38, ağırlık 0.88
 - MS 2: toplam 339, bekleyen 214, başarı %34, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
@@ -30,6 +30,11 @@ Oluşturma: 26.08.2026 09:23:22
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | CONCACAF Orta Amerika Kupası Grup A | Alajuelense - Plaza Amador | MS 1 | pending | 45/100
+- 2026-08-26 | Paraguay Kupa 3.Tur | Depor Santani - Deportivo Recol | 2.5 Alt | pending | 64/100
+- 2026-08-26 | Irak Premier Lig | Al Mosul - Karbala | 2.5 Alt | pending | 64/100
+- 2026-08-26 | Avustralya FFA Kupası Çeyrek Final | Preston Lions - South Melbourne | 2.5 Alt | pending | 53/100
+- 2026-08-26 | Japonya İmparatorluk Kupası 2.Tur | Tokyo Verdy - Kusatsu Gunma | 2.5 Alt | pending | 62/100
 - 2026-08-26 | AFF Şampiyonası Final | Vietnam (2) - (0) Tayland | 2.5 Üst | pending | 59/100
 - 2026-08-26 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon - Salt Lake | MS 2 | pending | 34/100
 - 2026-08-26 | Gürcistan David Kipiani Kupası Çeyrek Final | Torpedo Kutais - Dinamo Batumi | 2.5 Alt | pending | 54/100
@@ -40,9 +45,4 @@ Oluşturma: 26.08.2026 09:23:22
 - 2026-08-26 | Şili Kupa Grup E | Recoleta - O Higgins | MS 2 | pending | 43/100
 - 2026-08-26 | ABD USL | New Mexico Uni - Lexington | 2.5 Alt | pending | 59/100
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup B | El Vigia - Atletico Barina | MS 1 | pending | 42/100
-- 2026-08-26 | Venezuela Kupa 1.Tur Grup E | Bolívar - Monagas | 2.5 Üst | pending | 76/100
-- 2026-08-26 | Şili Kupa Grup E | Recoleta - O Higgins | 2.5 Alt | pending | 64/100
-- 2026-08-26 | Irak Premier Lig | Al Kahraba - Al Karma | 2.5 Alt | pending | 64/100
-- 2026-08-26 | Bolivya Premier Lig | Universitario - Nacional Potosi | 2.5 Alt | won | 78/100
-- 2026-08-26 | Brezilya Kupa Çeyrek Final | Palmeiras - Santos | 2.5 Alt | pending | 67/100
 

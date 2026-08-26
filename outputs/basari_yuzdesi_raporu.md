@@ -1,5 +1,5 @@
 # Başarı Yüzdesi Raporu
 
-- Güncelleme: 2026-08-26T06:21:42.592Z
-- Sonuçlanan tahmin sayısı: 0
-- Durum: Canlı tahmin geçmişi bekleniyor.
+- Güncelleme: 2026-08-26T06:49:34.834Z
+- Sonuçlanan analiz sayısı: 250
+- Durum: Sonuç verisi geldiğinde kazandı/kaybetti ayrımı otomatik gösterilecek.

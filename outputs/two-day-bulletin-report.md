@@ -2,13 +2,13 @@
 
 Gunler: 2026-08-26 / 2026-08-27
 Kaynak: fixtures.json
-Ham mac: 160
-Aktif mac: 160
+Ham mac: 177
+Aktif mac: 165
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 134
-Yarin: 26
+Biten mac: 12
+Bultenden dusurulen mac: 12
+Bugun: 138
+Yarin: 27
 
 ## Baslamamis Maclar
 - 2026-08-26 12:00 | Macaristan NB III Güneydoğu | Ujpest Ii - Szeged-Csanad I | scheduled | -
@@ -40,6 +40,7 @@ Yarin: 26
 - 2026-08-26 13:30 | Güney Kore K Lig 1 | Daejeon Citize - Ulsan | scheduled | -
 - 2026-08-26 13:30 | Güney Kore K Lig 1 | Anyang - Incheon Utd | scheduled | -
 - 2026-08-26 13:30 | Güney Kore K Lig 1 | Gangwon - Gwangju | scheduled | -
+- 2026-08-26 15:15 | Malezya Süper Lig | Johor Dt - Kelantan Red Wa | scheduled | -
 - 2026-08-26 16:00 | AFF Şampiyonası Final | Vietnam (2) - (0) Tayland | scheduled | -
 - 2026-08-26 16:00 | Norveç 2.Lig Grup 2 | Rana - Follo | scheduled | -
 - 2026-08-26 16:00 | Malezya Süper Lig | Kuala Lumpur - Kuching Fa | scheduled | -
@@ -79,6 +80,7 @@ Yarin: 26
 - 2026-08-26 18:30 | Macaristan NB III Güneybatı | Pte-Peac - Budaors | scheduled | -
 - 2026-08-26 18:30 | Macaristan NB III Güneybatı | Kaposvar - Paksi Fc Ii | scheduled | -
 - 2026-08-26 18:30 | Macaristan NB III Güneybatı | Budafoki Mte - Szekszard | scheduled | -
+- 2026-08-26 18:30 | Macaristan NB III Kuzeybatı | Fc Tatabánya - Sárisápi Bányás | scheduled | -
 - 2026-08-26 18:45 | Kuveyt Premier Lig | Al Shabab - Al-Jahra | scheduled | -
 - 2026-08-26 18:45 | Suudi Arabistan 1.Lig | Al Adalah - Al Taee | scheduled | -
 - 2026-08-26 18:45 | Irak Premier Lig | Al Kahraba - Al Karma | scheduled | -
@@ -125,6 +127,7 @@ Yarin: 26
 - 2026-08-26 21:00 | Kuveyt Premier Lig | Al Salmiyah - Al Nasar | scheduled | -
 - 2026-08-26 21:00 | Irak Premier Lig | Al Minaa Basra - Al Gharraf | scheduled | -
 - 2026-08-26 21:00 | İsveç 2.Lig Norrland Düşme Grubu | Ifk Umea - Umea Fc Akademi | scheduled | -
+- 2026-08-26 21:00 | Irak Premier Lig | Al Mosul - Karbala | scheduled | -
 - 2026-08-26 21:30 | Arjantin Ulusal Primera Lig | Patronato - Atlanta | scheduled | -
 - 2026-08-26 21:45 | İngiltere Lig Kupası 2.Tur | Tottenham - Charlton | scheduled | -
 - 2026-08-26 21:45 | İngiltere Lig Kupası 2.Tur | Bradford - Burnley | scheduled | -
@@ -140,6 +143,7 @@ Yarin: 26
 - 2026-08-26 22:00 | İngiltere Lig Kupası 2.Tur | Prest - Everton | scheduled | -
 - 2026-08-26 22:00 | Bolivya Premier Lig | San Antonio Bu - The Strongest | scheduled | -
 - 2026-08-26 22:00 | Venezuela Kupa 1.Tur Grup E | Bolívar - Monagas | scheduled | -
+- 2026-08-26 22:00 | Paraguay Kupa 3.Tur | Depor Santani - Deportivo Recol | scheduled | -
 - 2026-08-26 22:30 | Venezuela Kupa 1.Tur Grup B | El Vigia - Atletico Barina | scheduled | -
 - 2026-08-26 22:30 | Venezuela Kupa 1.Tur Grup D | Rayo Zuliano - Urena Fc | scheduled | -
 - 2026-08-26 22:30 | Venezuela Kupa 1.Tur Grup E | Mineros - Dinamo Puerto L | scheduled | -
@@ -148,6 +152,7 @@ Yarin: 26
 - 2026-08-27 00:00 | Kolombiya Primera A Clausura | Chico - Fortaleza | scheduled | -
 - 2026-08-27 00:00 | El Salvador Primera Lig Apertura | Platense - Alianza | scheduled | -
 - 2026-08-27 00:00 | Venezuela Kupa 1.Tur Grup B | Zamora - Real Frontera | scheduled | -
+- 2026-08-27 00:30 | Paraguay Kupa 3.Tur | Cristobal Colo - Olimpia Asuncio | scheduled | -
 - 2026-08-27 01:00 | Şili Premier Lig | Coquimbo Unido - Univ. Catolica | scheduled | -
 - 2026-08-27 01:00 | Ekvador Kupa Çeyrek Final | Ldu Quito - Aucas | scheduled | -
 - 2026-08-27 01:00 | Venezuela Kupa 1.Tur Grup C | Caracas Fc - Fundacion Lara | scheduled | -
@@ -176,4 +181,15 @@ Yarin: 26
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-26 00:30 | Paraguay Kupa 3.Tur | Sol De America - Sportivo Trinid | finished | -
+- 2026-08-26 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Godoy Cruz | finished | -
+- 2026-08-26 01:30 | Brezilya Serie B | Atletico Goian - Botafogo Ribeir | finished | -
+- 2026-08-26 01:30 | Brezilya Serie B | Juventude - Regatas | finished | -
+- 2026-08-26 02:00 | Bolivya Premier Lig | Universitario - Nacional Potosi | finished | -
+- 2026-08-26 03:00 | Brezilya Kupa Çeyrek Final | Cruzeiro - Atletico Mg | finished | -
+- 2026-08-26 03:30 | CONCACAF Ligler Kupası Çeyrek Final | Monterrey - Chicago | finished | -
+- 2026-08-26 03:30 | Copa Libertadores Son 16 Turu | Indep. Jose Te (1) - (0) Deportes Tolima | finished | -
+- 2026-08-26 04:00 | Kolombiya Primera A Clausura | Depor Cucuta - Alianza Petrole | finished | -
+- 2026-08-26 05:30 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon - Salt Lake | finished | -
+- 2026-08-26 05:30 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines - Deportivo Fas | finished | -
+- 2026-08-26 05:30 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Depor Motagua | finished | -
