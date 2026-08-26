@@ -6,14 +6,17 @@
   <meta name="robots" content="noindex,nofollow,noarchive">
   <title>Futbol Laboratuvarı | Admin Panel</title>
   <style>
-    :root{--bg:#050b18;--panel:#09172f;--line:rgba(255,159,28,.28);--gold:#ffe08a;--green:#39ff88;--text:#f8fbff;--muted:#9fb0c7;--danger:#ff5f6d}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#102a4e 0,#050b18 42%,#020611 100%);color:var(--text);font-family:Arial,Helvetica,sans-serif;min-height:100vh}.wrap{width:min(1380px,100%);margin:0 auto;padding:22px}.top{display:flex;justify-content:space-between;gap:14px;align-items:center;margin-bottom:18px}.brand h1{margin:0;color:var(--gold);font-size:clamp(26px,4vw,44px)}.brand p{margin:7px 0 0;color:var(--muted)}.btn{border:0;border-radius:14px;padding:12px 15px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;font-weight:900;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center}.btn.secondary{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:var(--text)}.btn.danger{background:rgba(255,95,109,.16);border:1px solid rgba(255,95,109,.35);color:#ffd0d5}.panel{border:1px solid var(--line);border-radius:22px;background:linear-gradient(180deg,rgba(9,23,47,.96),rgba(3,8,23,.98));box-shadow:0 20px 70px rgba(0,0,0,.35);padding:18px;margin-bottom:16px}.lock{max-width:680px;margin:10vh auto}.lock h2{margin:0 0 10px;color:var(--gold)}.input,.select,.textarea{width:100%;min-height:44px;border:1px solid rgba(255,159,28,.24);border-radius:12px;background:rgba(0,0,0,.25);color:var(--text);padding:0 12px;font-weight:800}.textarea{min-height:76px;padding:10px 12px;resize:vertical}.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.stat{padding:14px;border:1px solid rgba(57,255,136,.18);border-radius:16px;background:rgba(57,255,136,.06)}.stat span{display:block;color:var(--muted);font-size:11px;font-weight:900;text-transform:uppercase}.stat strong{display:block;margin-top:6px;font-size:24px}.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}.table-wrap{overflow:auto;border:1px solid rgba(255,255,255,.08);border-radius:16px}table{width:100%;border-collapse:collapse;min-width:1060px}th,td{border-bottom:1px solid rgba(255,255,255,.08);padding:10px;text-align:left;font-size:13px;vertical-align:top}th{color:var(--gold);font-size:12px;text-transform:uppercase;background:rgba(255,159,28,.08)}td input,td select{min-height:36px;font-size:12px}.pill{display:inline-flex;border-radius:999px;padding:6px 9px;font-size:12px;font-weight:900}.active{background:rgba(57,255,136,.14);color:#c8ffdd;border:1px solid rgba(57,255,136,.25)}.passive{background:rgba(255,95,109,.12);color:#ffd0d5;border:1px solid rgba(255,95,109,.25)}.small{color:var(--muted);font-size:12px;line-height:1.5}.source{color:#c8ffdd}.hide{display:none!important}@media(max-width:900px){.grid,.stats{grid-template-columns:1fr}.top{display:grid}.toolbar{display:grid;align-items:stretch}}
+    :root{--bg:#050b18;--panel:#09172f;--line:rgba(255,159,28,.28);--gold:#ffe08a;--green:#39ff88;--text:#f8fbff;--muted:#9fb0c7;--danger:#ff5f6d}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#102a4e 0,#050b18 42%,#020611 100%);color:var(--text);font-family:Arial,Helvetica,sans-serif;min-height:100vh}.wrap{width:min(1380px,100%);margin:0 auto;padding:22px}.top{display:flex;justify-content:space-between;gap:14px;align-items:center;margin-bottom:18px}.brand h1{margin:0;color:var(--gold);font-size:clamp(26px,4vw,44px)}.brand p{margin:7px 0 0;color:var(--muted)}.btn{border:0;border-radius:14px;padding:12px 15px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;font-weight:900;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}.btn.secondary{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:var(--text)}.btn.danger{background:rgba(255,95,109,.16);border:1px solid rgba(255,95,109,.35);color:#ffd0d5}.panel{border:1px solid var(--line);border-radius:22px;background:linear-gradient(180deg,rgba(9,23,47,.96),rgba(3,8,23,.98));box-shadow:0 20px 70px rgba(0,0,0,.35);padding:18px;margin-bottom:16px}.lock{max-width:680px;margin:10vh auto}.lock h2{margin:0 0 10px;color:var(--gold)}.input,.select,.textarea{width:100%;min-height:44px;border:1px solid rgba(255,159,28,.24);border-radius:12px;background:rgba(0,0,0,.25);color:var(--text);padding:0 12px;font-weight:800}.textarea{min-height:76px;padding:10px 12px;resize:vertical}.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.stat{padding:14px;border:1px solid rgba(57,255,136,.18);border-radius:16px;background:rgba(57,255,136,.06)}.stat span{display:block;color:var(--muted);font-size:11px;font-weight:900;text-transform:uppercase}.stat strong{display:block;margin-top:6px;font-size:24px}.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}.table-wrap{overflow:auto;border:1px solid rgba(255,255,255,.08);border-radius:16px}table{width:100%;border-collapse:collapse;min-width:1060px}th,td{border-bottom:1px solid rgba(255,255,255,.08);padding:10px;text-align:left;font-size:13px;vertical-align:top}th{color:var(--gold);font-size:12px;text-transform:uppercase;background:rgba(255,159,28,.08)}td input,td select{min-height:36px;font-size:12px}.pill{display:inline-flex;border-radius:999px;padding:6px 9px;font-size:12px;font-weight:900}.active{background:rgba(57,255,136,.14);color:#c8ffdd;border:1px solid rgba(57,255,136,.25)}.passive{background:rgba(255,95,109,.12);color:#ffd0d5;border:1px solid rgba(255,95,109,.25)}.small{color:var(--muted);font-size:12px;line-height:1.5}.source{color:#c8ffdd}.hide{display:none!important}
+    .tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.tool-card{display:flex;flex-direction:column;gap:8px;min-height:150px;padding:15px;border:1px solid rgba(57,255,136,.18);border-radius:17px;background:rgba(57,255,136,.05)}.tool-card h3{margin:0;color:var(--gold);font-size:17px}.tool-card p{margin:0;color:var(--muted);font-size:12px;line-height:1.5;flex:1}.tool-card .btn{width:100%}.tool-card.external{border-color:rgba(255,224,138,.2);background:rgba(255,224,138,.04)}
+    @media(max-width:900px){.grid,.stats,.tools{grid-template-columns:1fr}.top{display:grid}.toolbar{display:grid;align-items:stretch}}
   </style>
 </head>
 <body>
   <div class="wrap">
     <section id="lock" class="panel lock">
       <h2>Admin Girişi</h2>
-      <p class="small">Kod yönetim tablosunu açmak için kurucu kodunu gir.</p>
+      <p class="small">Yönetim panelini açmak için kurucu kodunu gir.</p>
       <input id="adminCode" class="input" type="password" placeholder="Kurucu kodu">
       <div style="display:flex;gap:10px;margin-top:12px"><button id="loginBtn" class="btn">Admin Paneli Aç</button><a class="btn secondary" href="./index.html">Ana Site</a></div>
       <p id="loginMsg" class="small"></p>
@@ -21,15 +24,52 @@
 
     <main id="app" class="hide">
       <div class="top">
-        <div class="brand"><h1>Futbol Laboratuvarı Admin</h1><p>Üyelik kodları yönetim tablosu</p></div>
+        <div class="brand"><h1>Futbol Laboratuvarı Admin</h1><p>Ödeme, fatura, bildirim ve üyelik yönetimi</p></div>
         <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn secondary" href="./index.html">Ana Site</a><button id="logoutBtn" class="btn danger">Çıkış</button></div>
       </div>
 
+      <section class="panel">
+        <h2 style="margin:0 0 8px;color:var(--gold)">Yönetim Araçları</h2>
+        <p class="small" style="margin:0 0 14px">Ödeme, dekont, fatura, bildirim ve resmi portal bağlantılarını buradan yönet.</p>
+        <div class="tools">
+          <div class="tool-card">
+            <h3>💳 Ödeme & Dekont</h3>
+            <p>Havale/EFT/FAST siparişlerini, kullanıcı dekontlarını ve ödeme onaylarını kontrol et.</p>
+            <a class="btn" href="./bank-transfer-admin.html">Ödeme Panelini Aç</a>
+          </div>
+          <div class="tool-card">
+            <h3>🧾 Fatura & Bildirim</h3>
+            <p>Fatura kuyruğunu, son düzenleme tarihlerini, e-posta/SMS servislerini ve teslim durumunu yönet.</p>
+            <a class="btn" href="https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-invoice-admin">Fatura Panelini Aç</a>
+          </div>
+          <div class="tool-card">
+            <h3>🎟️ Üyelik Kodları</h3>
+            <p>Kurucu, hediye ve paket üyelik kodlarını aşağıdaki mevcut yönetim tablosundan kontrol et.</p>
+            <a class="btn secondary" href="#code-management">Kod Yönetimine Git</a>
+          </div>
+          <div class="tool-card external">
+            <h3>🏛️ GİB e-Arşiv</h3>
+            <p>Gerçek e-Arşiv faturayı resmi GİB portalında düzenlemek için giriş ekranını aç.</p>
+            <a class="btn secondary" target="_blank" rel="noopener noreferrer" href="https://earsivportal.efatura.gov.tr/intragiris.html">GİB e-Arşiv Aç</a>
+          </div>
+          <div class="tool-card external">
+            <h3>📨 Resend</h3>
+            <p>Ödeme ve üyelik e-posta bildirimlerinde kullanılacak gönderici alan adı ve API anahtarını yönet.</p>
+            <a class="btn secondary" target="_blank" rel="noopener noreferrer" href="https://resend.com">Resend Aç</a>
+          </div>
+          <div class="tool-card external">
+            <h3>📱 Netgsm</h3>
+            <p>SMS API hesabını, onaylı gönderici başlığını ve SMS servis bilgilerini yönet.</p>
+            <a class="btn secondary" target="_blank" rel="noopener noreferrer" href="https://www.netgsm.com.tr">Netgsm Aç</a>
+          </div>
+        </div>
+      </section>
+
       <section class="stats" id="stats"></section>
 
-      <section class="panel">
+      <section class="panel" id="code-management">
         <h2 style="margin:0 0 12px;color:var(--gold)">Yeni Kod Kaydı</h2>
-        <p class="small">Bu bölüm şu an yerel taslak oluşturur. Kalıcı yazma bir sonraki aşamada veritabanına bağlanacak.</p>
+        <p class="small">Bu bölüm şu an yerel taslak oluşturur. Merkezi üyelik kodları aşağıdaki veri dosyasından okunur.</p>
         <div class="grid">
           <input id="newCode" class="input" placeholder="Kod">
           <select id="newPlan" class="select"><option>Gold Paket</option><option>Diamond Paket</option><option>Premium Paket</option><option>Kurucu Üye</option><option>Hediyelik Kod</option></select>
