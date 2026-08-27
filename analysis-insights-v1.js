@@ -4,6 +4,30 @@
 
   const state = { root: null, data: null, selectedId: "", onClick: null };
   window[KEY] = state;
+  let eligibility = window.FLCouponEligibility;
+
+  function loadEligibility() {
+    if (eligibility?.selectStrongestMatches) return Promise.resolve(eligibility);
+    return new Promise((resolve, reject) => {
+      const existing = document.getElementById("pro-coupon-eligibility-script");
+      const complete = () => {
+        eligibility = window.FLCouponEligibility;
+        if (eligibility?.selectStrongestMatches) resolve(eligibility);
+        else reject(new Error("Kupon uygunluk kuralları yüklenemedi."));
+      };
+      if (existing) {
+        existing.addEventListener("load", complete, { once: true });
+        existing.addEventListener("error", reject, { once: true });
+        return;
+      }
+      const script = document.createElement("script");
+      script.id = "pro-coupon-eligibility-script";
+      script.src = `pro-coupon-eligibility.js?v=${encodeURIComponent(document.documentElement.dataset.flCacheVersion || "1")}`;
+      script.addEventListener("load", complete, { once: true });
+      script.addEventListener("error", reject, { once: true });
+      document.head.appendChild(script);
+    });
+  }
 
   const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -51,26 +75,15 @@
     return { score, parts };
   }
 
-  function validPick(match) {
-    const market = clean(match.recommended_market);
-    return market && !/degerli market yok|oynama|secim yok|pas gec/.test(market)
-      && finite(match.model_score) !== null && finite(match.data_completeness) !== null;
-  }
-
-  function pickRank(match) {
-    const c = confidence(match).score;
-    return (match.include_in_coupon ? 100000 : 0)
-      + ((finite(match.estimated_probability) || 0) * 100)
-      + ((finite(match.model_score) || 0) * 25)
-      + ((finite(match.data_completeness) || 0) * 15)
-      + (c * 10);
-  }
-
   function topMatches(data) {
-    return (Array.isArray(data?.matches) ? data.matches : [])
-      .filter(validPick)
-      .sort((a, b) => pickRank(b) - pickRank(a))
-      .slice(0, 6);
+    if (!eligibility?.selectStrongestMatches) return [];
+    return eligibility.selectStrongestMatches(data?.matches, 6);
+  }
+
+  function tierLabel(match) {
+    if (match.insight_tier === "coupon") return { text: "Kupon adayı", className: "is-coupon" };
+    if (match.insight_tier === "pro_ready") return { text: "Doğrulanmış PRO görüşü · Kupon dışı", className: "is-pro" };
+    return { text: "İzleme görüşü · Kupona uygun değil", className: "is-watch" };
   }
 
   function qualityLabel(score) {
@@ -117,12 +130,13 @@
     const odd = finite(match.recommended_odd);
     const edge = finite(match.edge_percent);
     const selected = state.selectedId === String(match.id) ? " is-open" : "";
+    const tier = tierLabel(match);
     return `<article class="flai-pick${selected}" data-flai-id="${esc(match.id)}" tabindex="0" role="button" aria-expanded="${selected ? "true" : "false"}">
       <div class="flai-rank">${index + 1}</div>
       <div class="flai-pick-main"><small>${esc(match.league || "Lig")} · ${esc(match.time || "--:--")}</small><strong>${esc(match.home)} <em>vs</em> ${esc(match.away)}</strong><span>${esc(match.recommended_market)}</span></div>
       <div class="flai-score"><small>Bileşik güven</small><strong>${c.score}</strong><span>${esc(qualityLabel(c.score))}</span></div>
       <div class="flai-meta"><span>Olasılık <b>${esc(probability === null ? "—" : `${Math.round(probability)}%`)}</b></span><span>Veri <b>${esc(pct(match.data_completeness))}</b></span><span>Oran <b>${esc(odd === null ? "—" : odd.toFixed(2))}</b></span>${edge === null ? "" : `<span>Edge <b>${esc(`${edge >= 0 ? "+" : ""}${edge.toFixed(1)}`)}</b></span>`}</div>
-      ${match.include_in_coupon ? `<span class="flai-coupon">Kupon adayı</span>` : ""}
+      <span class="flai-tier ${tier.className}">${esc(tier.text)}</span>
     </article>`;
   }
 
@@ -131,6 +145,7 @@
     const c = confidence(match);
     const metrics = match.metrics || {};
     const signals = Array.isArray(match.signals) ? match.signals.filter(Boolean) : [];
+    const tier = tierLabel(match);
     const rawValues = [metrics.homeScoredLast10, metrics.awayScoredLast10, metrics.homeConcededLast10, metrics.awayConcededLast10]
       .map(finite).filter((v) => v !== null);
     const rawMax = Math.max(1, ...rawValues);
@@ -150,7 +165,7 @@
       rawBar(`${match.away} · son 10 yedi`, metrics.awayConcededLast10, rawMax),
     ].filter(Boolean).join("");
 
-    return `<div class="flai-detail-head"><div><small>Seçili analiz</small><h3>${esc(match.home)} - ${esc(match.away)}</h3><p><b>${esc(match.recommended_market)}</b> · ${esc(match.data_quality || "Veri kalitesi belirtilmedi")}</p></div><div class="flai-big-score"><span>Bileşik güven</span><strong>${c.score}/100</strong><small>Sonuç olasılığı değildir</small></div></div>
+    return `<div class="flai-detail-head"><div><small>${esc(tier.text)}</small><h3>${esc(match.home)} - ${esc(match.away)}</h3><p><b>${esc(match.recommended_market)}</b> · ${esc(match.data_quality || "Veri kalitesi belirtilmedi")}</p></div><div class="flai-big-score"><span>Bileşik güven</span><strong>${c.score}/100</strong><small>Sonuç olasılığı değildir</small></div></div>
       <div class="flai-detail-grid">
         <section><h4>AI neden bunu seçti?</h4>${signals.length ? `<ul>${signals.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>` : `<p class="flai-muted">Bu maç için açıklama sinyali henüz oluşmadı.</p>`}<div class="flai-riskline"><span>Kadro riski <b>${esc(match.squad_risk_level || "Belirsiz")}</b></span><span>İlk 11 riski <b>${esc(match.lineup_risk_level || "Belirsiz")}</b></span><span>İsimli oyuncu verisi <b>${esc(match.named_player_count ?? 0)}</b></span><span>Doğrulanmış takım <b>${esc(match.team_status_verified_count ?? 0)}/2</b></span></div></section>
         <section><h4>Güven bileşenleri</h4>${componentBars || `<p class="flai-muted">Bileşen verisi bekleniyor.</p>`}</section>
@@ -168,7 +183,7 @@
       .flai-head{display:flex;justify-content:space-between;gap:18px;padding:22px 24px 14px;align-items:flex-end}.flai-head p{margin:0;color:#8fffcf;font-size:12px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.flai-head h2{margin:5px 0 6px;font-size:clamp(24px,3vw,38px)}.flai-head>div>span{display:block;max-width:760px;color:#a9bac8;line-height:1.55}.flai-status{flex:0 0 auto;padding:8px 11px;border:1px solid rgba(143,255,207,.25);border-radius:999px;color:#bfffe2;font-size:12px;font-weight:900}
       .flai-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;padding:10px 24px}.flai-kpis article{padding:15px;border:1px solid rgba(255,255,255,.08);border-radius:15px;background:rgba(255,255,255,.035)}.flai-kpis span,.flai-kpis small{display:block;color:#8fa5b6;font-size:11px}.flai-kpis strong{display:block;margin:5px 0;font-size:24px;color:#fff}.flai-groups{display:flex;gap:8px;flex-wrap:wrap;padding:0 24px 18px}.flai-groups span{padding:7px 9px;border-radius:999px;background:#0e2a35;color:#d8fff0;font-size:11px}.flai-groups small{color:#7f9dab}
       .flai-body{display:grid;grid-template-columns:minmax(0,.9fr) minmax(360px,1.1fr);gap:14px;padding:0 24px 24px}.flai-list,.flai-detail{border:1px solid rgba(255,255,255,.08);border-radius:17px;background:rgba(0,0,0,.18);padding:12px}.flai-list-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:3px 3px 11px}.flai-list-head h3{margin:0;font-size:17px}.flai-list-head small{color:#7fa0b1}
-      .flai-pick{position:relative;display:grid;grid-template-columns:34px minmax(0,1fr) 76px;gap:10px;align-items:center;padding:12px 10px;margin:7px 0;border:1px solid rgba(255,255,255,.08);border-radius:13px;background:#0a1c28;cursor:pointer;transition:.18s ease}.flai-pick:hover,.flai-pick:focus,.flai-pick.is-open{outline:none;border-color:rgba(143,255,207,.58);transform:translateY(-1px);background:#0c2631}.flai-rank{display:grid;place-items:center;width:30px;height:30px;border-radius:9px;background:#122f3d;color:#8fffcf;font-weight:1000}.flai-pick-main small{display:block;color:#7893a4;font-size:10px}.flai-pick-main strong{display:block;margin:3px 0;color:#fff;font-size:13px}.flai-pick-main em{font-style:normal;color:#5f7d8c;font-size:10px}.flai-pick-main span{color:#8fffcf;font-size:12px;font-weight:900}.flai-score{text-align:right}.flai-score small,.flai-score span{display:block;color:#7893a4;font-size:9px}.flai-score strong{display:block;font-size:22px;color:#fff}.flai-meta{grid-column:2/4;display:flex;gap:6px;flex-wrap:wrap}.flai-meta span{padding:5px 7px;border-radius:7px;background:#102935;color:#91a9b6;font-size:9px}.flai-meta b{color:#fff}.flai-coupon{position:absolute;right:8px;top:7px;padding:3px 6px;border-radius:999px;background:#153c2c;color:#8fffcf;font-size:8px;font-weight:1000}
+      .flai-pick{position:relative;display:grid;grid-template-columns:34px minmax(0,1fr) 76px;gap:10px;align-items:center;padding:12px 10px 35px;margin:7px 0;border:1px solid rgba(255,255,255,.08);border-radius:13px;background:#0a1c28;cursor:pointer;transition:.18s ease}.flai-pick:hover,.flai-pick:focus,.flai-pick.is-open{outline:none;border-color:rgba(143,255,207,.58);transform:translateY(-1px);background:#0c2631}.flai-rank{display:grid;place-items:center;width:30px;height:30px;border-radius:9px;background:#122f3d;color:#8fffcf;font-weight:1000}.flai-pick-main small{display:block;color:#7893a4;font-size:10px}.flai-pick-main strong{display:block;margin:3px 0;color:#fff;font-size:13px}.flai-pick-main em{font-style:normal;color:#5f7d8c;font-size:10px}.flai-pick-main span{color:#8fffcf;font-size:12px;font-weight:900}.flai-score{text-align:right}.flai-score small,.flai-score span{display:block;color:#7893a4;font-size:9px}.flai-score strong{display:block;font-size:22px;color:#fff}.flai-meta{grid-column:2/4;display:flex;gap:6px;flex-wrap:wrap}.flai-meta span{padding:5px 7px;border-radius:7px;background:#102935;color:#91a9b6;font-size:9px}.flai-meta b{color:#fff}.flai-tier{position:absolute;left:54px;bottom:8px;padding:4px 7px;border-radius:999px;background:#132b37;color:#a9bdc8;font-size:8px;font-weight:1000}.flai-tier.is-coupon{background:#153c2c;color:#8fffcf}.flai-tier.is-pro{background:#18334b;color:#a9d7ff}.flai-tier.is-watch{background:#352d1b;color:#f2d58c}
       .flai-empty{display:grid;place-items:center;min-height:300px;text-align:center;color:#7893a4;padding:30px}.flai-detail-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:5px 5px 12px}.flai-detail-head small{color:#7893a4}.flai-detail-head h3{margin:3px 0;font-size:20px}.flai-detail-head p{margin:0;color:#91a9b6;font-size:12px}.flai-detail-head p b{color:#8fffcf}.flai-big-score{min-width:118px;text-align:right}.flai-big-score span,.flai-big-score small{display:block;color:#7893a4;font-size:9px}.flai-big-score strong{display:block;color:#fff;font-size:24px}.flai-detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.flai-detail-grid section{padding:12px;border:1px solid rgba(255,255,255,.07);border-radius:13px;background:#091923}.flai-detail-grid h4{margin:0 0 9px;color:#eafff5;font-size:13px}.flai-detail-grid ul{margin:0;padding-left:17px;color:#b7cad5;font-size:11px;line-height:1.55}.flai-riskline{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-top:10px}.flai-riskline span{padding:6px;border-radius:8px;background:#0e2733;color:#86a1b1;font-size:9px}.flai-riskline b{display:block;color:#fff;margin-top:2px}
       .flai-bar-row{margin:8px 0}.flai-bar-row>div{display:flex;justify-content:space-between;gap:8px;font-size:10px;color:#9eb3c0}.flai-bar-row strong{color:#fff}.flai-bar-row i{display:block;height:7px;margin-top:4px;border-radius:99px;background:#122c38;overflow:hidden}.flai-bar-row i b{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#47d9a0,#a7ffd7)}.flai-bar-row small{display:block;margin-top:3px;color:#647f8f;font-size:8px}.flai-raw i b{background:linear-gradient(90deg,#5ca8ff,#a38bff)}.flai-note,.flai-muted{color:#718c9c;font-size:9px;line-height:1.45}.flai-note b{color:#fff}.flai-foot{padding:0 24px 22px;color:#6f8999;font-size:10px;line-height:1.5}.flai-foot b{color:#9edfc6}
       @media(max-width:980px){.flai-kpis{grid-template-columns:1fr 1fr}.flai-body{grid-template-columns:1fr}.flai-detail-grid{grid-template-columns:1fr 1fr}}
@@ -218,6 +233,7 @@
     ensureStyle();
     ensureRoot().innerHTML = `<div class="flai-empty">AI güven ve başarı verisi hazırlanıyor…</div>`;
     try {
+      await loadEligibility();
       state.data = await readJson("./data/pro-analysis-index.json");
       render();
       state.onClick = (event) => {
@@ -250,3 +266,4 @@
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot, { once: true });
   else boot();
 })();
+

@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const couponRules = require("../pro-coupon-eligibility");
 
 const root = path.join(__dirname, "..");
 const dataDir = path.join(root, "data");
@@ -134,15 +135,12 @@ function compactMetrics(item) {
 }
 
 function couponEligibility(item, modelScore, dataCompleteness, market) {
-  const estimatedProbability = finite(item.estimated_probability);
-  return Boolean(item.include_in_coupon)
-    && Boolean(item.independent_evidence)
-    && modelScore >= 65
-    && dataCompleteness >= 45
-    && Number(estimatedProbability || 0) >= 42
-    && !/degerli market yok|oynama|secim yok|pas gec/.test(clean(market))
-    && !clean(item.risk_level || item.risk).includes("yuksek")
-    && !clean(`${item.squad_risk_level || ""} ${item.lineup_risk_level || ""}`).includes("yuksek");
+  return couponRules.isCouponEligible({
+    ...item,
+    model_score: modelScore,
+    data_completeness: dataCompleteness,
+    recommended_market: market,
+  });
 }
 
 function compactStatus(record) {
@@ -303,3 +301,4 @@ function main() {
 if (require.main === module) main();
 
 module.exports = { buildCalibration, buildProAnalysisIndex, compactMatch, compactMetrics, compactTeamIntelligence, couponEligibility, main, matchId, selectProMatches, teamsOf };
+

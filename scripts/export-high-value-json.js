@@ -3,6 +3,7 @@ const path = require("path");
 const { MODEL_VERSION, scoreFixture } = require("./robot-exact-scoring");
 const { applyLearningWeightsToScoredItem } = require("./apply-learning-weights");
 const { buildProAnalysisIndex } = require("./build-pro-analysis-index");
+const couponRules = require("../pro-coupon-eligibility");
 
 const rootDir = path.join(__dirname, "..");
 const dataDir = path.join(rootDir, "data");
@@ -264,11 +265,15 @@ function live_match_output(match) {
     named_player_count: Number(scored.named_player_count || 0),
     team_intelligence: scored.team_intelligence || null,
     robot_comment: generate_robot_explanation(scored),
-    include_in_coupon: Boolean(scored.hasOdds
-      && Number(scored.score || 0) >= 65
-      && Number(scored.data_completeness || 0) >= 45
-      && Number(scored.estimated_probability || 0) >= 42
-      && band.level !== "Yüksek"),
+    include_in_coupon: Boolean(scored.hasOdds && couponRules.meetsCouponCriteria({
+      ...scored,
+      model_score: Number(scored.model_score ?? scored.analysis_score ?? scored.score ?? 0),
+      recommended_market: scored.selection || scored.market || "-",
+      risk_level: scored.risk || "-",
+      data_gap_risk: band.level === "Yüksek" ? "Yüksek" : scored.data_gap_risk,
+      squad_risk_level: scored.squad_risk_level || scored.team_intelligence?.squad_risk_level || "Belirsiz",
+      lineup_risk_level: scored.lineup_risk_level || scored.team_intelligence?.lineup_risk_level || "Belirsiz",
+    })),
     suitable_coupon_type: coupon_type_for_match(scored),
     data_gap_risk: scored.data_gap_risk || "-",
     status: scored.status || "scheduled",
@@ -447,3 +452,4 @@ module.exports = {
   selectAnalysisMatches,
   selectDailyMatches,
 };
+
