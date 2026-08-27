@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 20:00:07
+Oluşturma: 27.08.2026 06:30:40
 
 ## Özet
 
-- Toplam tahmin: 1320
-- Bekleyen tahmin: 953
-- Kazanan tahmin: 152
-- Kaybeden tahmin: 214
+- Toplam tahmin: 1344
+- Bekleyen tahmin: 974
+- Kazanan tahmin: 153
+- Kaybeden tahmin: 216
 - Lig sayısı: 198
 - Seçenek sayısı: 7
 
@@ -20,29 +20,29 @@ Oluşturma: 26.08.2026 20:00:07
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 53, bekleyen 36, başarı %88, ağırlık 1.12
-- 2.5 Alt: toplam 182, bekleyen 128, başarı %72, ağırlık 1.12
-- MS 1: toplam 216, bekleyen 163, başarı %38, ağırlık 0.88
-- MS 2: toplam 343, bekleyen 217, başarı %33, ağırlık 0.88
+- 2.5 Üst: toplam 53, bekleyen 35, başarı %89, ağırlık 1.12
+- 2.5 Alt: toplam 194, bekleyen 139, başarı %71, ağırlık 1.12
+- MS 1: toplam 226, bekleyen 172, başarı %37, ağırlık 0.88
+- MS 2: toplam 345, bekleyen 219, başarı %33, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-26 | İngiltere Premier Lig Kupası Grup I | Stockport Coun - Charlton Athlet | 2.5 Alt | pending | 62/100
-- 2026-08-26 | Mısır Premier Lig | Petrojet - El Geish | MS 1 | pending | 36/100
-- 2026-08-26 | UEFA Şampiyonlar Ligi Play Off | Lyon (1) - (1) Fenerbahçe | MS 1 | pending | 43/100
-- 2026-08-26 | Suudi Arabistan 1.Lig | Al Zulfi - Al Wahda | 2.5 Üst | pending | 64/100
-- 2026-08-26 | Macaristan NB III Güneybatı | Kaposvar - Paksi Fc Ii | MS 1 | pending | 50/100
-- 2026-08-26 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | St. Pölten (K) - Juventus (K) | 2.5 Alt | pending | 62/100
-- 2026-08-26 | Hazırlık Kulüpler | Atletico Astor - Salamanca | 2.5 Alt | pending | 64/100
-- 2026-08-26 | Hazırlık Kulüpler | Numancia - Utebo | 2.5 Alt | pending | 64/100
-- 2026-08-26 | Copa Sudamericana Son 16 Turu | River Plate (0) - (0) Santa Fe | 2.5 Alt | pending | 64/100
-- 2026-08-26 | Hazırlık Kulüpler | Barcelona B - Reddis | MS 1 | pending | 42/100
-- 2026-08-26 | Hazırlık Kulüpler | Oyonesa - San Ignacio | 2.5 Alt | pending | 64/100
-- 2026-08-26 | Hazırlık Kulüpler | Terrassa - Vilanova | 2.5 Alt | pending | 64/100
-- 2026-08-26 | Hazırlık Kulüpler | Real Unión De - Tenerife Ii | MS 2 | pending | 48/100
-- 2026-08-26 | Hazırlık Kulüpler | Numancia - Utebo | 2.5 Üst | pending | 64/100
-- 2026-08-26 | Hazırlık Kulüpler | Atletico Astor - Salamanca | 2.5 Üst | pending | 64/100
+- 2026-08-27 | ABD USL | New Mexico Uni - Lexington | 2.5 Alt | pending | 55/100
+- 2026-08-27 | CONCACAF Orta Amerika Kupası Grup A | Xelaju - Firpo | 2.5 Alt | pending | 72/100
+- 2026-08-27 | CONCACAF Orta Amerika Kupası Grup A | Alajuelense - Plaza Amador | MS 1 | pending | 41/100
+- 2026-08-27 | CONCACAF Ligler Kupası Çeyrek Final | Club America - Columbus | MS 1 | pending | 35/100
+- 2026-08-27 | Venezuela Kupa 1.Tur Grup C | Caracas Fc - Fundacion Lara | MS 1 | pending | 46/100
+- 2026-08-27 | Arjantin Kupa Son 16 Turu | Aldosivi - Rivadavia | MS 2 | pending | 39/100
+- 2026-08-27 | Venezuela Kupa 1.Tur Grup A | Deportivo Peta - Academia Anzoat | 2.5 Alt | pending | 60/100
+- 2026-08-27 | Kolombiya Primera A Clausura | America De Cal - Atletico Junior | 2.5 Alt | pending | 60/100
+- 2026-08-27 | ABD USL Lig 1 | Naples - Union Omaha | 2.5 Alt | pending | 64/100
+- 2026-08-27 | CONCACAF Ligler Kupası Çeyrek Final | Toluca - Austin | MS 1 | pending | 36/100
+- 2026-08-27 | Copa Sudamericana Son 16 Turu | River Plate (0) - (0) Santa Fe | 2.5 Alt | pending | 60/100
+- 2026-08-27 | CONCACAF Orta Amerika Kupası Grup B | Marathon - Real Esteli | MS 1 | pending | 37/100
+- 2026-08-27 | Brezilya Kupa Çeyrek Final | Vasco Da Gama - Vitoria Bahia | 2.5 Alt | pending | 63/100
+- 2026-08-27 | Brezilya Kupa Çeyrek Final | Palmeiras - Santos | 2.5 Alt | pending | 62/100
+- 2026-08-27 | Şili Kupa Grup E | Colo Colo - Union Espanola | MS 1 | pending | 46/100
 
