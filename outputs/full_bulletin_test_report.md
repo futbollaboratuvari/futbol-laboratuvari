@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 74
-- Live match count: 7
+- Scheduled match count: 257
+- Live match count: 4
 - Finished removed count: 0
-- Date window: 2026-08-27 / 2026-08-28 23:59
+- Date window: 2026-08-28 / 2026-08-29 23:59
 
-- 2026-08-27 16:00 | Mashujaa - Kagera Sugar | live
-- 2026-08-27 16:30 | Delta United - El Harby | live
-- 2026-08-27 16:30 | Kahraba Ismail - Proxy | live
-- 2026-08-27 16:30 | Maleyet Kafr E - Tanta | live
-- 2026-08-27 16:30 | Tersana - La Viena Fc | live
-- 2026-08-27 17:00 | Modern Sc - Ghazl El Mehall | live
-- 2026-08-27 17:15 | Gharrafa - Al Shamal | live
-- 2026-08-27 18:00 | Kuopion (1) - (1) Shamrock Rovers | scheduled
-- 2026-08-27 18:45 | Al Sahel - Al Sulaibikhat | scheduled
-- 2026-08-27 19:00 | Al Najma Manam - Khalidiya | scheduled
+- 2026-08-28 01:00 | Estudiantes Lp - Barracas | live
+- 2026-08-28 01:30 | Independiente - Guabira | live
+- 2026-08-28 02:00 | Internacional - Gremio | live
+- 2026-08-28 02:10 | Llaneros - Los Millionario | live
+- 2026-08-28 03:15 | Platense - Instituto Cordo | scheduled
+- 2026-08-28 03:30 | Bolivar - Academia Del Ba | scheduled
+- 2026-08-28 04:00 | Alebrijes - Cd Tapatio | scheduled
+- 2026-08-28 04:00 | Cancun Fc - Ca La Paz | scheduled
+- 2026-08-28 04:15 | Inter Bogota - Deportivo Pasto | scheduled
+- 2026-08-28 05:30 | Depor. Olimpia - Deportivo Sapri | scheduled

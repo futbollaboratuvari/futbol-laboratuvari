@@ -1,38 +1,125 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-27T14:35:21.588184+00:00
+Tarih: 2026-08-27T23:56:56.864920+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 59
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 59
-- Ham veri havuzu toplam mac sayisi: 9324
-- Hedef tarih: 27.08.2026 Europe/Istanbul
+- Kac mac bulundu: 244
+- Kac mac kaydedildi: 244
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 9568
+- Hedef tarih: 28.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- Almanya 2. Bundesliga
+- Almanya 3. Lig
+- Almanya Bundesliga
+- Almanya Bölgesel Lig Bayern
+- Almanya Bölgesel Lig Güney Batı
+- Almanya Bölgesel Lig Kuzey Doğu
+- Almanya Kadınlar Bundesliga
+- Arjantin Premier Lig 2. Aşama
+- Arjantin Ulusal Primera Lig
+- Avustralya NPL Kuzey YGG Play-Off 1.Tur
+- Avustralya NPL Tazmanya Ön Eleme Final
+- Avusturya 1.Lig
+- Avusturya Bundesliga
 - Bahreyn Premier Lig
-- Bolivya Premier Lig
-- Danimarka DBU Kupası 2.Tur
-- Fransa Ligue 3
+- Belarus Premier Lig
+- Belçika Challenger Pro Lig
+- Belçika Pro Lig
+- Birleşik Arap Emirlikleri 1.Lig
+- Birleşik Arap Emirlikleri Arap Körfez Ligi
+- Bosna-Hersek Premier Lig
+- Brezilya Serie B
+- Bulgaristan 1.Lig
+- Danimarka 2.Lig
+- Danimarka 3.Lig
+- Danimarka Süperlig
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
+- Faroe Adaları Master Lig
+- Finlandiya Ykkösliiga
+- Fransa Ligue 1
+- Fransa Ligue 2
+- Galler FAW Championship Güney
+- Galler FAW Championship Kuzey
+- Galler Premier Lig 1.Aşama
+- Guatemala Ulusal Lig Apertura
+- Güney Afrika 1.Lig
+- Güney Kore K Lig 2
+- Hollanda Eerste Divisie
+- Hollanda Eredivisie
+- Honduras Ulusal Lig Apertura
+- Hırvatistan 2.HNL
+- Kanada Premier Lig
 - Katar Yıldızlar Ligi
-- Kuveyt Premier Lig
+- Kosta Rika Premier Lig Apertura
+- Kuzey İrlanda Championship
+- Kuzey İrlanda Premiership
+- Litvanya 1.Lig
+- Macaristan NB I
+- Malezya Süper Lig
+- Malta Premier Lig Açılış
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
+- Mısır 2. Lig
 - Mısır Premier Lig
-- Paraguay Kupa 3.Tur
-- Peru Kupa Bicentenario Çeyrek Final
+- Norveç 3.Lig Grup 1
+- Peru Premier Lig Clausura
+- Polonya 1.Lig
+- Polonya 2.Lig
+- Polonya Ekstraklasa
+- Portekiz 2.Lig
+- Portekiz Kupa 1.Tur
+- Portekiz Premier Lig
+- Romanya 1.Lig
+- Rusya FNL
+- Rusya Premier Lig
+- Slovakya 2.Lig
+- Slovenya 1.SNL
+- Slovenya 2.SNL
 - Suudi Arabistan 1.Lig
+- Suudi Arabistan Pro Lig
 - Tanzanya Kuu Bara Ligi
-- UEFA Avrupa Ligi Play Off
-- UEFA Konferans Ligi Play Off
-- Uruguay Kupa Ön Eleme Turu Grup 6
-- İngiltere Lig Kupası 2.Tur
+- Türkiye Süper Lig
+- Türkiye TFF 1. Lig
+- Ukrayna Premier Lig
+- Uruguay Premier Lig Clausura
+- Çek Cumhuriyeti FNL
+- Çin Halk Cumhuriyeti Süper Lig
+- Ürdün Süper Kupa Final
+- İngiltere Championship
+- İngiltere Non League Premier Güney Merkez
+- İngiltere Non League Premier Kuzey
+- İngiltere Premier Lig
+- İngiltere Premier Lig 2
 - İngiltere Ulusal Lig
+- İngiltere Ulusal Lig N / S Kuzey
+- İran Persian Gulf Pro Lig
+- İrlanda 1.Lig
+- İrlanda Premier Lig
+- İskoçya 2.Lig
+- İskoçya Championship
+- İspanya 2.Lig
 - İspanya LaLiga
-- İsveç 2.Lig Norrland Yükselme Grubu
+- İspanya Primera Lig RFEF Grup 1
+- İsveç 2.Lig Norra Götaland
+- İsveç 2.Lig Norra Svealand
+- İsveç 2.Lig Södra Götaland
+- İsveç 2.Lig Södra Svealand
+- İsveç 2.Lig Vastra Götaland
+- İsviçre Challenge Lig
+- İtalya Serie A
+- İtalya Serie B
+- İtalya Serie C Grup B
+- İtalya Serie C Grup C
+- İzlanda 1.Lig
 - İzlanda 2.Lig
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -89,8 +176,8 @@ Tarih: 2026-08-27T14:35:21.588184+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 27
-- Acilan detay: 27
+- Denenen Tumu alani: 90
+- Acilan detay: 90
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -103,26 +190,26 @@ Tarih: 2026-08-27T14:35:21.588184+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 27.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Lillestrom (0) | (0) Egnatia | 09437 | 5 |
-| 27.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Salzburg (1) | (0) Mjallby | 10203 | 5 |
-| 27.08.2026 | 21:00 | UEFA Avrupa Ligi Play Off | Thun (0) | (7) Lech Poznan | 11391 | 5 |
-| 27.08.2026 | 21:30 | UEFA Avrupa Ligi Play Off | Ferencvaros (1) | (0) Trabzonspor | 11744 | 5 |
-| 27.08.2026 | 19:00 | UEFA Avrupa Ligi Play Off | Fc Iberia (0) | (4) Jagiellonia | 07543 | 5 |
-| 27.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Viktoria Plzen (0) | (3) Kizilyildiz | 10384 | 5 |
-| 27.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Kauno Zalgiris (0) | (3) Beşiktaş | 10564 | 5 |
-| 27.08.2026 | 19:00 | UEFA Avrupa Ligi Play Off | Ararat-Armenia (1) | (1) Universitatea C | 07301 | 5 |
-| 27.08.2026 | 21:00 | UEFA Avrupa Ligi Play Off | Cska Sofia (0) | (3) Ofi | 11041 | 5 |
-| 27.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Omonia (0) | (1) St. Truidense | 09529 | 5 |
-| 27.08.2026 | 21:30 | UEFA Avrupa Ligi Play Off | Anderlecht (3) | (0) Kairat Almaty | 11461 | 5 |
-| 27.08.2026 | 21:00 | UEFA Avrupa Ligi Play Off | Aarhus (1) | (3) Benfica | 10840 | 5 |
-| 27.08.2026 | 21:00 | UEFA Konferans Ligi Play Off | Ajax (4) | (2) Sion | 10949 | 5 |
-| 27.08.2026 | 21:45 | UEFA Konferans Ligi Play Off | Rijeka (0) | (2) Midtjylland | 11841 | 5 |
-| 27.08.2026 | 22:00 | UEFA Konferans Ligi Play Off | Hibernian (0) | (0) Gent | 11930 | 5 |
-| 27.08.2026 | 20:00 | UEFA Konferans Ligi Play Off | Brann (1) | (1) Paok | 08782 | 5 |
-| 27.08.2026 | 19:00 | UEFA Konferans Ligi Play Off | Jablonec (0) | (1) Glasgow Rangers | 07814 | 5 |
-| 27.08.2026 | 19:45 | UEFA Konferans Ligi Play Off | Freiburg (3) | (1) Motherwell | 08471 | 4 |
-| 27.08.2026 | 22:00 | UEFA Konferans Ligi Play Off | Larne Fc (2) | (0) Lincoln Red Imp | 11999 | 5 |
-| 27.08.2026 | 20:00 | UEFA Konferans Ligi Play Off | Riga Fc (0) | (0) Kí Klaksvík | 10034 | 5 |
+| 28.08.2026 | 21:30 | Türkiye Süper Lig | Gençlerbirliği | Erzurumspor Fk | 00766 | 5 |
+| 28.08.2026 | 21:30 | Türkiye TFF 1. Lig | Antalyaspor | Sarıyer | 20393 | 5 |
+| 28.08.2026 | 19:00 | Türkiye TFF 1. Lig | Pendikspor | Bandirmaspor | 20376 | 5 |
+| 28.08.2026 | 19:00 | Türkiye TFF 1. Lig | A. Keçiörengüc | Ümraniyespor | 02666 | 5 |
+| 28.08.2026 | 21:30 | Türkiye TFF 1. Lig | Muğlaspor | Boluspor | 20410 | 5 |
+| 28.08.2026 | 22:00 | İngiltere Premier Lig | Crystal Palace | Manchester City | 02254 | 5 |
+| 28.08.2026 | 22:30 | İspanya LaLiga | Alaves | Villarreal | 15786 | 5 |
+| 28.08.2026 | 20:00 | İspanya LaLiga | Santander | Elche | 01050 | 5 |
+| 28.08.2026 | 21:45 | İtalya Serie A | Ac Milan | Unione V. | 03619 | 5 |
+| 28.08.2026 | 21:45 | Fransa Ligue 1 | Lille | Psg | 10168 | 5 |
+| 28.08.2026 | 21:30 | Almanya Bundesliga | B.Münih | Stuttgart | 20913 | 5 |
+| 28.08.2026 | 21:00 | Hollanda Eredivisie | Groningen | Fortuna Sittard | 01423 | 5 |
+| 28.08.2026 | 22:15 | Portekiz Premier Lig | Rio Ave | Sporting Cp | 03750 | 5 |
+| 28.08.2026 | 18:50 | Suudi Arabistan Pro Lig | Al Riyadh | Neom Sc | 48708 | 5 |
+| 28.08.2026 | 19:00 | Suudi Arabistan Pro Lig | Al Feiha | Abha | 48767 | 5 |
+| 28.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Khaleej | Al Hilal (Riyad | 48983 | 5 |
+| 28.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya | Al Taawon | 00025 | 5 |
+| 28.08.2026 | 21:45 | Belçika Pro Lig | Genk | Waasland Bevere | 27566 | 5 |
+| 28.08.2026 | 22:00 | İngiltere Championship | Wrexham | Birmingham | 02485 | 5 |
+| 28.08.2026 | 22:00 | İspanya 2.Lig | Tenerife | Sporting Gijon | 00913 | 5 |
 
 ## Sonuc
 

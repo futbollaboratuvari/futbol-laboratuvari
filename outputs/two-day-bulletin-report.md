@@ -1,22 +1,16 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-08-27 / 2026-08-28
+Gunler: 2026-08-28 / 2026-08-29
 Kaynak: fixtures.json
-Ham mac: 81
-Aktif mac: 13
-Canli mac: 27
-Biten mac: 41
-Bultenden dusurulen mac: 68
-Bugun: 0
-Yarin: 13
+Ham mac: 256
+Aktif mac: 250
+Canli mac: 4
+Biten mac: 2
+Bultenden dusurulen mac: 6
+Bugun: 227
+Yarin: 23
 
 ## Baslamamis Maclar
-- 2026-08-28 00:15 | Uruguay Kupa Ön Eleme Turu Grup 5 | Nacional Df - Albion | scheduled | -
-- 2026-08-28 00:30 | Paraguay Kupa 3.Tur | Resistencia - Cerro Porteno | scheduled | -
-- 2026-08-28 01:00 | Arjantin Kupa Son 16 Turu | Estudiantes Lp - Barracas | scheduled | -
-- 2026-08-28 01:30 | Bolivya Premier Lig | Independiente - Guabira | scheduled | -
-- 2026-08-28 02:00 | Brezilya Kupa Çeyrek Final | Internacional - Gremio | scheduled | -
-- 2026-08-28 02:10 | Kolombiya Primera A Clausura | Llaneros - Los Millionario | scheduled | -
 - 2026-08-28 03:15 | Arjantin Kupa Son 16 Turu | Platense - Instituto Cordo | scheduled | -
 - 2026-08-28 03:30 | Bolivya Premier Lig | Bolivar - Academia Del Ba | scheduled | -
 - 2026-08-28 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Cd Tapatio | scheduled | -
@@ -24,75 +18,256 @@ Yarin: 13
 - 2026-08-28 04:15 | Kolombiya Primera A Clausura | Inter Bogota - Deportivo Pasto | scheduled | -
 - 2026-08-28 05:30 | CONCACAF Orta Amerika Kupası Grup C | Mixco - Alianza Fc | scheduled | -
 - 2026-08-28 05:30 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia - Deportivo Sapri | scheduled | -
+- 2026-08-28 13:30 | Güney Kore K Lig 2 | Ansan Greeners - Daegu | scheduled | -
+- 2026-08-28 13:30 | Güney Kore K Lig 2 | Jeonnam Dragon - Cheonan City Fc | scheduled | -
+- 2026-08-28 14:30 | Malezya Süper Lig | Sabah - Pulau Pinang | scheduled | -
+- 2026-08-28 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Shandong Taisha | scheduled | -
+- 2026-08-28 14:35 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing - Beijing Guoan | scheduled | -
+- 2026-08-28 15:00 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng - Shanghai Port | scheduled | -
+- 2026-08-28 15:30 | Ukrayna Premier Lig | Kolos Kovalivk - Obolon-Brovar | scheduled | -
+- 2026-08-28 16:00 | Malezya Süper Lig | Terengganu - Selangor Fa | scheduled | -
+- 2026-08-28 16:00 | Güney Afrika 1.Lig | Gomora United - Venda Fc | scheduled | -
+- 2026-08-28 16:00 | Litvanya 1.Lig | Tauras - Bfa | scheduled | -
+- 2026-08-28 16:00 | Tanzanya Kuu Bara Ligi | Fountain Gate - Mbeya City | scheduled | -
+- 2026-08-28 16:30 | Mısır 2. Lig | Pharco - El Mansura | scheduled | -
+- 2026-08-28 16:30 | Mısır 2. Lig | Baladiyyat - El Daklyeh | scheduled | -
+- 2026-08-28 16:30 | Mısır 2. Lig | Nasr - Haras El Hodood | scheduled | -
+- 2026-08-28 16:30 | Mısır 2. Lig | Telecom Egypt - Ismaily | scheduled | -
+- 2026-08-28 16:30 | Mısır 2. Lig | Masar - Derot | scheduled | -
+- 2026-08-28 16:55 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Dubai United - Al Ittihad Kalb | scheduled | -
+- 2026-08-28 17:00 | Mısır Premier Lig | Enppi - Wadi Degla | scheduled | -
+- 2026-08-28 17:00 | Mısır Premier Lig | Al Qanah - El Gounah | scheduled | -
+- 2026-08-28 17:15 | Katar Yıldızlar Ligi | Al Ahli - Lusail City | scheduled | -
+- 2026-08-28 18:00 | Rusya Premier Lig | Akron - Cska Moskova | scheduled | -
+- 2026-08-28 18:00 | Romanya 1.Lig | Voluntari - Otelul Galati | scheduled | -
+- 2026-08-28 18:00 | Belarus Premier Lig | Vitebsk - Naftan | scheduled | -
+- 2026-08-28 18:00 | Slovenya 2.SNL | Nd Slovan Ljub - Ilirija | scheduled | -
+- 2026-08-28 18:00 | Litvanya 1.Lig | Fk Dainava - Zalgiris Ii | scheduled | -
+- 2026-08-28 18:00 | Hırvatistan 2.HNL | Radnik Sesvete - Dugopolje | scheduled | -
+- 2026-08-28 18:05 | Birleşik Arap Emirlikleri 1.Lig | Al Ittifaq - Al Urooba | scheduled | -
+- 2026-08-28 18:05 | Birleşik Arap Emirlikleri 1.Lig | Al Thaid - City Fc Dubai | scheduled | -
+- 2026-08-28 18:05 | Birleşik Arap Emirlikleri 1.Lig | Dubba Al Fujai - Gulf United | scheduled | -
+- 2026-08-28 18:30 | Finlandiya Ykkösliiga | Japs - Kapa | scheduled | -
+- 2026-08-28 18:30 | Finlandiya Ykkösliiga | Kotka - Haka | scheduled | -
+- 2026-08-28 18:30 | İran Persian Gulf Pro Lig | Chadormalu - Tractor Fc | scheduled | -
+- 2026-08-28 18:30 | İran Persian Gulf Pro Lig | Peykan - Esteghlal Khuze | scheduled | -
+- 2026-08-28 18:30 | Hırvatistan 2.HNL | Dubrava Zagred - Croatia Zmijavc | scheduled | -
+- 2026-08-28 18:30 | Hırvatistan 2.HNL | Bijelo Brdo - Cibalia | scheduled | -
+- 2026-08-28 18:30 | Hırvatistan 2.HNL | Vukovar - Segesta | scheduled | -
+- 2026-08-28 18:30 | Tanzanya Kuu Bara Ligi | Geita Gold - Azam Fc | scheduled | -
+- 2026-08-28 18:45 | İran Persian Gulf Pro Lig | Nassaji Mazand - Shams Azar Qazv | scheduled | -
+- 2026-08-28 18:45 | İran Persian Gulf Pro Lig | Shahrdari Arak - Kheybar Khorram | scheduled | -
+- 2026-08-28 18:50 | Suudi Arabistan Pro Lig | Al Riyadh - Neom Sc | scheduled | -
+- 2026-08-28 18:55 | Suudi Arabistan 1.Lig | Al Anwar - Al Ula | scheduled | -
+- 2026-08-28 19:00 | Türkiye TFF 1. Lig | Pendikspor - Bandirmaspor | scheduled | -
+- 2026-08-28 19:00 | Türkiye TFF 1. Lig | A. Keçiörengüc - Ümraniyespor | scheduled | -
+- 2026-08-28 19:00 | Suudi Arabistan Pro Lig | Al Feiha - Abha | scheduled | -
+- 2026-08-28 19:00 | Polonya Ekstraklasa | Wisla Plock - Korona Kielce | scheduled | -
+- 2026-08-28 19:00 | Bulgaristan 1.Lig | Slavia Sofia - Septemvri Sofia | scheduled | -
+- 2026-08-28 19:00 | İran Persian Gulf Pro Lig | Sepahan - Gol Gohar Sirja | scheduled | -
+- 2026-08-28 19:00 | Polonya 1.Lig | Unia Skierniew - Rzeszow | scheduled | -
+- 2026-08-28 19:00 | Çek Cumhuriyeti FNL | Dukla Prag - Jihlava | scheduled | -
+- 2026-08-28 19:00 | Slovenya 2.SNL | Nd Primorje - Krka Novo Mesto | scheduled | -
+- 2026-08-28 19:00 | Slovakya 2.Lig | Pohronie - Tatran Presov | scheduled | -
+- 2026-08-28 19:00 | Bahreyn Premier Lig | Al Muharraq - Al Ahli Manama | scheduled | -
+- 2026-08-28 19:00 | Bahreyn Premier Lig | East Riffa - Al Hadd | scheduled | -
+- 2026-08-28 19:00 | Almanya Bölgesel Lig Bayern | Ansbach 09 - Schwaben Augsbu | scheduled | -
+- 2026-08-28 19:00 | Litvanya 1.Lig | Fa Siauliai Ii - Minija | scheduled | -
+- 2026-08-28 19:05 | Suudi Arabistan 1.Lig | Al-Raed - Hajer | scheduled | -
+- 2026-08-28 19:15 | Polonya 1.Lig | Pogon Grodzisk - Nieciecza | scheduled | -
+- 2026-08-28 19:30 | Almanya 2. Bundesliga | Braunschweig - Hertha Berlin | scheduled | -
+- 2026-08-28 19:30 | Almanya 2. Bundesliga | Bochum - Osnabruck | scheduled | -
+- 2026-08-28 19:30 | Rusya FNL | Neftekhimik - Ufa | scheduled | -
+- 2026-08-28 19:30 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Wasl - Al Ahli Dubai | scheduled | -
+- 2026-08-28 19:30 | Katar Yıldızlar Ligi | Qatar Sc - Al Sadd | scheduled | -
+- 2026-08-28 19:30 | Avusturya 1.Lig | Voitsberg - Liefering | scheduled | -
+- 2026-08-28 19:30 | Avusturya 1.Lig | First Vienna - Amstetten | scheduled | -
+- 2026-08-28 19:30 | Avusturya 1.Lig | St Polten - Austria Salzbur | scheduled | -
+- 2026-08-28 19:30 | Avusturya 1.Lig | Kapfenberg - Blau-Weiss Linz | scheduled | -
+- 2026-08-28 19:30 | Almanya Kadınlar Bundesliga | Köln (K) - Hoffenheim (K) | scheduled | -
+- 2026-08-28 19:30 | Malta Premier Lig Açılış | Hibernians - Zabbar St Patri | scheduled | -
+- 2026-08-28 20:00 | İspanya LaLiga | Santander - Elche | scheduled | -
+- 2026-08-28 20:00 | Danimarka Süperlig | Horsens - Viborg | scheduled | -
+- 2026-08-28 20:00 | Portekiz 2.Lig | Leiria - Tondela | scheduled | -
+- 2026-08-28 20:00 | Almanya 3. Lig | Fortuna Düssel - Stuttgart (Amt) | scheduled | -
+- 2026-08-28 20:00 | Mısır Premier Lig | Zed - Al Ahly | scheduled | -
+- 2026-08-28 20:00 | Mısır Premier Lig | Al Ittihad Al - Ceramica Cleopa | scheduled | -
+- 2026-08-28 20:00 | Belarus Premier Lig | Gomel - Belshina Bobrui | scheduled | -
+- 2026-08-28 20:00 | Almanya Bölgesel Lig Güney Batı | Lehnerz - Fsv Frankfurt | scheduled | -
+- 2026-08-28 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Altglienicke - Chemie Leipzig | scheduled | -
+- 2026-08-28 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Chemnitzer - Carl Zeiss Jena | scheduled | -
+- 2026-08-28 20:00 | İspanya Primera Lig RFEF Grup 1 | Real Aviles - Pontevedra | scheduled | -
+- 2026-08-28 20:00 | Danimarka 2.Lig | Nykobing - Roskilde | scheduled | -
+- 2026-08-28 20:00 | Danimarka 2.Lig | Fremad Amager - Thisted | scheduled | -
+- 2026-08-28 20:00 | Norveç 3.Lig Grup 1 | Fk Union Carl - Kfum Ii | scheduled | -
+- 2026-08-28 20:00 | Danimarka 3.Lig | Asa Aarhus - Holstebro | scheduled | -
+- 2026-08-28 20:00 | Danimarka 3.Lig | Helsingor - Ishoj | scheduled | -
+- 2026-08-28 20:00 | İsveç 2.Lig Norra Svealand | Taby - Franke | scheduled | -
+- 2026-08-28 20:00 | İsveç 2.Lig Vastra Götaland | Böljan - Qviding | scheduled | -
+- 2026-08-28 20:00 | İsveç 2.Lig Vastra Götaland | Lindome Gif - Frolunda | scheduled | -
+- 2026-08-28 20:00 | İsveç 2.Lig Södra Götaland | Torns - Ifk Trelleborg | scheduled | -
+- 2026-08-28 20:00 | İsveç 2.Lig Norra Götaland | Stenungsund - Herrestads | scheduled | -
+- 2026-08-28 20:00 | Ürdün Süper Kupa Final | Al Faisaly Amm - Al-Hussein | scheduled | -
+- 2026-08-28 20:30 | Avusturya Bundesliga | Avusturya Lust - Wattens | scheduled | -
+- 2026-08-28 20:30 | İran Persian Gulf Pro Lig | Foolad Khuzest - Esteghlal | scheduled | -
+- 2026-08-28 20:30 | İsviçre Challenge Lig | Sc Kriens - Stade Nyonnais | scheduled | -
+- 2026-08-28 20:30 | İsviçre Challenge Lig | Winterthur - Stade Ouchy | scheduled | -
+- 2026-08-28 20:30 | İsviçre Challenge Lig | Yverdon - Wil | scheduled | -
+- 2026-08-28 20:30 | İsveç 2.Lig Vastra Götaland | Kongahalla - Galtabacks | scheduled | -
+- 2026-08-28 20:30 | İsveç 2.Lig Södra Götaland | Linero - Sölvesborgs Goi | scheduled | -
+- 2026-08-28 20:30 | Güney Afrika 1.Lig | Orbit College - Hungry Lions | scheduled | -
+- 2026-08-28 20:30 | Faroe Adaları Master Lig | Vikingur Gota - Hb Torshavn | scheduled | -
+- 2026-08-28 20:45 | Galler FAW Championship Güney | Treowen Stars - Cardiff Draconi | scheduled | -
+- 2026-08-28 20:50 | Suudi Arabistan 1.Lig | Damak - Al Orubah Club | scheduled | -
+- 2026-08-28 21:00 | Hollanda Eredivisie | Groningen - Fortuna Sittard | scheduled | -
+- 2026-08-28 21:00 | Suudi Arabistan Pro Lig | Al Khaleej - Al Hilal (Riyad | scheduled | -
+- 2026-08-28 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya - Al Taawon | scheduled | -
+- 2026-08-28 21:00 | Fransa Ligue 2 | Nancy - Dunkerque | scheduled | -
+- 2026-08-28 21:00 | Fransa Ligue 2 | Montpellier - Boulogne | scheduled | -
+- 2026-08-28 21:00 | Fransa Ligue 2 | Clermont - Sochaux | scheduled | -
+- 2026-08-28 21:00 | Fransa Ligue 2 | Rodez Aveyron - Pau Fc | scheduled | -
+- 2026-08-28 21:00 | Fransa Ligue 2 | Stade Lavalloi - Grenoble | scheduled | -
+- 2026-08-28 21:00 | Hollanda Eerste Divisie | Waalwijk - Psv (B) | scheduled | -
+- 2026-08-28 21:00 | Hollanda Eerste Divisie | Jong Az Alkmaa - Maastricht | scheduled | -
+- 2026-08-28 21:00 | Hollanda Eerste Divisie | Volendam - Dordrecht | scheduled | -
+- 2026-08-28 21:00 | Hollanda Eerste Divisie | Den Bosch - Vitesse | scheduled | -
+- 2026-08-28 21:00 | Hollanda Eerste Divisie | Roda - Breda | scheduled | -
+- 2026-08-28 21:00 | Hollanda Eerste Divisie | Ajax (B) - Helmond Sport | scheduled | -
+- 2026-08-28 21:00 | Hollanda Eerste Divisie | Oss - Utrecht (Ii) | scheduled | -
+- 2026-08-28 21:00 | Belçika Challenger Pro Lig | Sporting Hasse - Kaa Gent Ii | scheduled | -
+- 2026-08-28 21:00 | Belçika Challenger Pro Lig | Lokeren-Temse - Krc Genk Ii | scheduled | -
+- 2026-08-28 21:00 | Macaristan NB I | Debreceni - Mtk | scheduled | -
+- 2026-08-28 21:00 | Romanya 1.Lig | Universitatea - Petrolul 52 | scheduled | -
+- 2026-08-28 21:00 | Slovenya 2.SNL | Tabor Sezana - Brezice | scheduled | -
+- 2026-08-28 21:00 | İngiltere Premier Lig 2 | Burnley U21 - Reading (B) | scheduled | -
+- 2026-08-28 21:00 | İngiltere Premier Lig 2 | Everton (B) - Southampton (B) | scheduled | -
+- 2026-08-28 21:00 | İngiltere Premier Lig 2 | Ipswich Town U - Blackburn Rover | scheduled | -
+- 2026-08-28 21:00 | İngiltere Premier Lig 2 | Aston Villa U2 - Crystal Palace | scheduled | -
+- 2026-08-28 21:00 | İngiltere Premier Lig 2 | Nottingham For - Man City U21 | scheduled | -
+- 2026-08-28 21:00 | İngiltere Premier Lig 2 | Norwich City U - Stoke (B) | scheduled | -
+- 2026-08-28 21:00 | Bosna-Hersek Premier Lig | Celik - Velez Mostar | scheduled | -
+- 2026-08-28 21:00 | İsveç 2.Lig Södra Svealand | Farsta - Nacka Iliria | scheduled | -
+- 2026-08-28 21:00 | Tanzanya Kuu Bara Ligi | Young Africans - Pamba Jiji | scheduled | -
+- 2026-08-28 21:15 | Bulgaristan 1.Lig | Cska 1948 Sofi - Lokomotiv Plovd | scheduled | -
+- 2026-08-28 21:15 | İsviçre Challenge Lig | Etoile Carouge - Rappersvil Jona | scheduled | -
+- 2026-08-28 21:15 | İsviçre Challenge Lig | Aarau - Neuchatel Xamax | scheduled | -
+- 2026-08-28 21:15 | Slovenya 1.SNL | Aluminij - Koper | scheduled | -
+- 2026-08-28 21:30 | Türkiye Süper Lig | Gençlerbirliği - Erzurumspor Fk | scheduled | -
+- 2026-08-28 21:30 | Türkiye TFF 1. Lig | Antalyaspor - Sarıyer | scheduled | -
+- 2026-08-28 21:30 | Türkiye TFF 1. Lig | Muğlaspor - Boluspor | scheduled | -
+- 2026-08-28 21:30 | Almanya Bundesliga | B.Münih - Stuttgart | scheduled | -
+- 2026-08-28 21:30 | İtalya Serie B | Cremonese - Modena | scheduled | -
+- 2026-08-28 21:30 | Polonya Ekstraklasa | Legia Varşova - Slask Wroclaw | scheduled | -
+- 2026-08-28 21:30 | İskoçya Championship | Dunfermline - Raith Rovers | scheduled | -
+- 2026-08-28 21:30 | Avusturya 1.Lig | Wspg Wels - Admira Wacker | scheduled | -
+- 2026-08-28 21:30 | Polonya 2.Lig | Resovia Rzeszo - Sandecja Nowy S | scheduled | -
+- 2026-08-28 21:30 | Galler FAW Championship Güney | Newport City - Ynyshir Albions | scheduled | -
+- 2026-08-28 21:30 | Galler FAW Championship Güney | Llanelli Town - Carmarthen | scheduled | -
+- 2026-08-28 21:30 | Galler FAW Championship Güney | Swansea Univer - Pontypridd Town | scheduled | -
+- 2026-08-28 21:30 | Galler FAW Championship Güney | Baglan Dragons - Caerau Ely | scheduled | -
+- 2026-08-28 21:45 | İtalya Serie A | Ac Milan - Unione V. | scheduled | -
+- 2026-08-28 21:45 | Fransa Ligue 1 | Lille - Psg | scheduled | -
+- 2026-08-28 21:45 | Belçika Pro Lig | Genk - Waasland Bevere | scheduled | -
+- 2026-08-28 21:45 | İrlanda Premier Lig | St Patricks - Waterford | scheduled | -
+- 2026-08-28 21:45 | İrlanda Premier Lig | Galway United - Shelbourne | scheduled | -
+- 2026-08-28 21:45 | İrlanda Premier Lig | Bohemian - Sligo Rovers | scheduled | -
+- 2026-08-28 21:45 | Galler Premier Lig 1.Aşama | Llandudno - Haverfordwest | scheduled | -
+- 2026-08-28 21:45 | Galler Premier Lig 1.Aşama | Holywell Town - Caernarfon | scheduled | -
+- 2026-08-28 21:45 | Galler Premier Lig 1.Aşama | Trefelin - Ammanford | scheduled | -
+- 2026-08-28 21:45 | Galler Premier Lig 1.Aşama | Penybont - Flint Town | scheduled | -
+- 2026-08-28 21:45 | Galler Premier Lig 1.Aşama | Gap Connahs Qu - Cambrian | scheduled | -
+- 2026-08-28 21:45 | Galler Premier Lig 1.Aşama | The New Saints - Colwyn Bay | scheduled | -
+- 2026-08-28 21:45 | Galler Premier Lig 1.Aşama | Barry Town - Airbus Uk | scheduled | -
+- 2026-08-28 21:45 | Galler Premier Lig 1.Aşama | Cardiff Mu - Briton Ferry | scheduled | -
+- 2026-08-28 21:45 | Kuzey İrlanda Premiership | Portadown Fc - Coleraine | scheduled | -
+- 2026-08-28 21:45 | İrlanda 1.Lig | Cork City - Wexford Youths | scheduled | -
+- 2026-08-28 21:45 | İrlanda 1.Lig | Ucd - Finn Harps | scheduled | -
+- 2026-08-28 21:45 | İrlanda 1.Lig | Cobh Ramblers - Longford | scheduled | -
+- 2026-08-28 21:45 | İrlanda 1.Lig | Athlone - Bray Wanderers | scheduled | -
+- 2026-08-28 21:45 | İrlanda 1.Lig | Kerry - Treaty Unt. | scheduled | -
+- 2026-08-28 21:45 | Polonya 1.Lig | Odra Opole - Lks Lodz | scheduled | -
+- 2026-08-28 21:45 | Kuzey İrlanda Championship | Ards Fc - Queens Universi | scheduled | -
+- 2026-08-28 21:45 | Kuzey İrlanda Championship | Moyola Park - Armagh | scheduled | -
+- 2026-08-28 21:45 | Kuzey İrlanda Championship | Glenavon - Rathfriland Ran | scheduled | -
+- 2026-08-28 21:45 | Kuzey İrlanda Championship | Strabane Athle - Newington Yc | scheduled | -
+- 2026-08-28 21:45 | Kuzey İrlanda Championship | Hw Welders - Dundela | scheduled | -
+- 2026-08-28 21:45 | Kuzey İrlanda Championship | Loughgall Fc - Warrenpoint Tow | scheduled | -
+- 2026-08-28 21:45 | İngiltere Ulusal Lig | Scunthorpe - Solihull Moors | scheduled | -
+- 2026-08-28 21:45 | İngiltere Ulusal Lig | Wealdstone - Carlisle | scheduled | -
+- 2026-08-28 21:45 | İngiltere Ulusal Lig | Hartlepool - Eastleigh | scheduled | -
+- 2026-08-28 21:45 | İngiltere Ulusal Lig | Hornchurch - Woking | scheduled | -
+- 2026-08-28 21:45 | İngiltere Ulusal Lig | Aldershot - Harrogate | scheduled | -
+- 2026-08-28 21:45 | İngiltere Ulusal Lig | Southend - Kidderminster | scheduled | -
+- 2026-08-28 21:45 | İngiltere Ulusal Lig | Altrincham - Halifax | scheduled | -
+- 2026-08-28 21:45 | İngiltere Ulusal Lig | Gateshead - Sutton United | scheduled | -
+- 2026-08-28 21:45 | İngiltere Ulusal Lig | Tamworth - Worthing | scheduled | -
+- 2026-08-28 21:45 | İngiltere Ulusal Lig | Barrow - Yeovil | scheduled | -
+- 2026-08-28 21:45 | İngiltere Ulusal Lig | Afc Fylde - Forest Green | scheduled | -
+- 2026-08-28 21:45 | İskoçya 2.Lig | Edinburg C. - Forfar | scheduled | -
+- 2026-08-28 21:45 | İngiltere Ulusal Lig N / S Kuzey | Hednesford Tow - Harborough Town | scheduled | -
+- 2026-08-28 21:45 | İngiltere Ulusal Lig N / S Kuzey | Oxford City - Buxton | scheduled | -
+- 2026-08-28 21:45 | İngiltere Ulusal Lig N / S Kuzey | Morecambe - Telford | scheduled | -
+- 2026-08-28 21:45 | Galler FAW Championship Kuzey | Bangor - Brickfield Rang | scheduled | -
+- 2026-08-28 21:45 | Galler FAW Championship Kuzey | Porthmadog - Caersws | scheduled | -
+- 2026-08-28 21:45 | Galler FAW Championship Kuzey | Buckley Town - Guilsfield Fc | scheduled | -
+- 2026-08-28 21:45 | Galler FAW Championship Kuzey | Y Rhyl 1879 - Bala Town | scheduled | -
+- 2026-08-28 21:45 | Galler FAW Championship Kuzey | Penrhyncoch - Denbigh Town | scheduled | -
+- 2026-08-28 21:45 | Galler FAW Championship Kuzey | Newtown - Llanuwchllyn | scheduled | -
+- 2026-08-28 21:45 | Galler FAW Championship Güney | Trethomas Blue - Afan Lido | scheduled | -
+- 2026-08-28 21:45 | Galler FAW Championship Güney | Aberystwyth To - Pontardawe | scheduled | -
+- 2026-08-28 21:45 | İngiltere Non League Premier Kuzey | Ashton United - Gainsborough Tr | scheduled | -
+- 2026-08-28 21:45 | İngiltere Non League Premier Kuzey | Guiseley - Lancaster City | scheduled | -
+- 2026-08-28 21:45 | İngiltere Non League Premier Kuzey | Cleethorpes To - Curzon Ashton | scheduled | -
+- 2026-08-28 22:00 | İngiltere Premier Lig | Crystal Palace - Manchester City | scheduled | -
+- 2026-08-28 22:00 | İngiltere Championship | Wrexham - Birmingham | scheduled | -
+- 2026-08-28 22:00 | İspanya 2.Lig | Tenerife - Sporting Gijon | scheduled | -
+- 2026-08-28 22:00 | İrlanda Premier Lig | Drogheda - Dundalk | scheduled | -
+- 2026-08-28 22:00 | Portekiz Kupa 1.Tur | Beira Mar - Uniao Lamas | scheduled | -
+- 2026-08-28 22:00 | İtalya Serie C Grup B | Pianese - F.C. Vado | scheduled | -
+- 2026-08-28 22:00 | İtalya Serie C Grup C | Barletta - Bari | scheduled | -
+- 2026-08-28 22:00 | İtalya Serie C Grup C | Scafatese - Picerno | scheduled | -
+- 2026-08-28 22:00 | İtalya Serie C Grup C | Cavese - Audace Cerignol | scheduled | -
+- 2026-08-28 22:00 | İtalya Serie C Grup C | Casarano - Ssc Giugliano | scheduled | -
+- 2026-08-28 22:00 | Galler FAW Championship Kuzey | Ruthin Town - Mold Alexandra | scheduled | -
+- 2026-08-28 22:00 | Malta Premier Lig Açılış | Valletta - Marsaxlokk Fc | scheduled | -
+- 2026-08-28 22:15 | Portekiz Premier Lig | Rio Ave - Sporting Cp | scheduled | -
+- 2026-08-28 22:15 | İspanya Primera Lig RFEF Grup 1 | Cacereno - Mirandes | scheduled | -
+- 2026-08-28 22:15 | İzlanda 1.Lig | Throttur - Aegir | scheduled | -
+- 2026-08-28 22:15 | İzlanda 1.Lig | Fylkir - Grotta | scheduled | -
+- 2026-08-28 22:15 | İzlanda 2.Lig | Kari - Throttur Vogar | scheduled | -
+- 2026-08-28 22:30 | İspanya LaLiga | Alaves - Villarreal | scheduled | -
+- 2026-08-28 23:00 | Peru Premier Lig Clausura | Comerciantes U - Fc Cajamarca | scheduled | -
+- 2026-08-28 23:30 | Ekvador Pro Lig | Mushuc Runa - Delfin | scheduled | -
+- 2026-08-29 01:00 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Sarmiento | scheduled | -
+- 2026-08-29 01:00 | Uruguay Premier Lig Clausura | Montevideo Wan - Central Espanol | scheduled | -
+- 2026-08-29 01:00 | El Salvador Primera Lig Apertura | Municipal Lime - Isidro Metapan | scheduled | -
+- 2026-08-29 01:30 | Şili Premier Lig | Cobresal - Palestino | scheduled | -
+- 2026-08-29 01:30 | Brezilya Serie B | Goias - Sao Bernardo | scheduled | -
+- 2026-08-29 02:00 | Kanada Premier Lig | Supra Du Quebe - Forge | scheduled | -
+- 2026-08-29 02:00 | Kanada Premier Lig | Atletico Ottaw - Inter Toronto | scheduled | -
+- 2026-08-29 02:30 | Brezilya Serie B | Nautico - Athletic Club | scheduled | -
+- 2026-08-29 02:30 | Brezilya Serie B | Novorizontino - Sport Recife | scheduled | -
+- 2026-08-29 03:00 | Ekvador Pro Lig | T.Universitari - Deportivo Cuenc | scheduled | -
+- 2026-08-29 03:00 | El Salvador Primera Lig Apertura | Inca-Aruba - Cacahuatique | scheduled | -
+- 2026-08-29 03:30 | Arjantin Premier Lig 2. Aşama | Boca Juniors - Lanus | scheduled | -
+- 2026-08-29 04:00 | Meksika Liga MX Apertura | Atlante - Club Leon | scheduled | -
+- 2026-08-29 04:00 | Meksika Liga MX Apertura | Necaxa - Cruz Azul | scheduled | -
+- 2026-08-29 04:00 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir - Chacarita Junio | scheduled | -
+- 2026-08-29 04:00 | Meksika Ascenso MX Apertura | Dorados - Monarcas | scheduled | -
+- 2026-08-29 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Durango | scheduled | -
+- 2026-08-29 04:00 | Honduras Ulusal Lig Apertura | Juticalpa - Upnfm | scheduled | -
+- 2026-08-29 05:00 | Kosta Rika Premier Lig Apertura | Sporting San J - Inter San Carlo | scheduled | -
+- 2026-08-29 05:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Coban Imperial | scheduled | -
+- 2026-08-29 06:10 | Meksika Liga MX Apertura | Club Tijuana - Pumas Unam | scheduled | -
+- 2026-08-29 07:00 | Avustralya NPL Tazmanya Ön Eleme Final | South Hobart - Kingborough Lio | scheduled | -
+- 2026-08-29 07:00 | Avustralya NPL Kuzey YGG Play-Off 1.Tur | Kahibah (2) - (1) New Lambton Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-08-27 16:00 | Tanzanya Kuu Bara Ligi | Mashujaa - Kagera Sugar | live | -
-- 2026-08-27 16:30 | Mısır 2. Lig | Delta United - El Harby | live | -
-- 2026-08-27 16:30 | Mısır 2. Lig | Maleyet Kafr E - Tanta | live | -
-- 2026-08-27 16:30 | Mısır 2. Lig | Tersana - La Viena Fc | live | -
-- 2026-08-27 16:30 | Mısır 2. Lig | Kahraba Ismail - Proxy | live | -
-- 2026-08-27 17:00 | Mısır Premier Lig | Modern Sc - Ghazl El Mehall | live | -
-- 2026-08-27 17:15 | Katar Yıldızlar Ligi | Gharrafa - Al Shamal | live | -
-- 2026-08-27 21:30 | UEFA Avrupa Ligi Play Off | Ferencvaros (1) - (0) Trabzonspor | live | -
-- 2026-08-27 21:30 | UEFA Avrupa Ligi Play Off | Anderlecht (3) - (0) Kairat Almaty | live | -
-- 2026-08-27 21:30 | UEFA Konferans Ligi Play Off | Austria Vienna (0) - (2) Braga | live | -
-- 2026-08-27 21:30 | UEFA Konferans Ligi Play Off | Brighton (0) - (0) Tromso | live | -
-- 2026-08-27 21:30 | UEFA Konferans Ligi Play Off | Borac Banja Lu (3) - (1) Vikingur Reykja | live | -
-- 2026-08-27 21:30 | İspanya LaLiga | Celta Vigo - Osasuna | live | -
-- 2026-08-27 21:30 | İngiltere Lig Kupası 2.Tur | Chelsea - Luton | live | -
-- 2026-08-27 21:45 | UEFA Konferans Ligi Play Off | Rijeka (0) - (2) Midtjylland | live | -
-- 2026-08-27 21:45 | Fransa Ligue 3 | Caen - Bastia | live | -
-- 2026-08-27 21:45 | İngiltere Ulusal Lig | Boreham Wood - Boston United | live | -
-- 2026-08-27 22:00 | UEFA Konferans Ligi Play Off | Hibernian (0) - (0) Gent | live | -
-- 2026-08-27 22:00 | UEFA Konferans Ligi Play Off | Larne Fc (2) - (0) Lincoln Red Imp | live | -
-- 2026-08-27 22:00 | UEFA Konferans Ligi Play Off | Partizan Belgr (1) - (3) Getafe | live | -
-- 2026-08-27 22:00 | İspanya LaLiga | Barcelona - Athletic Bilbao | live | -
-- 2026-08-27 22:00 | İngiltere Lig Kupası 2.Tur | Fulham - Afc Wimbledon | live | -
-- 2026-08-27 22:00 | Bolivya Premier Lig | Always Ready - Aurora | live | -
-- 2026-08-27 22:00 | Paraguay Kupa 3.Tur | Guairena - 12 De Octubre | live | -
-- 2026-08-27 23:00 | Cezayir 1.Lig | Mc Alger - Mc Oran | live | -
-- 2026-08-27 23:00 | İzlanda 2.Lig | Hviti - Fjolnir | live | -
-- 2026-08-27 23:00 | Peru Kupa Bicentenario Çeyrek Final | Adt - Deportivo Moque | live | -
+- 2026-08-28 01:00 | Arjantin Kupa Son 16 Turu | Estudiantes Lp - Barracas | live | -
+- 2026-08-28 01:30 | Bolivya Premier Lig | Independiente - Guabira | live | -
+- 2026-08-28 02:00 | Brezilya Kupa Çeyrek Final | Internacional - Gremio | live | -
+- 2026-08-28 02:10 | Kolombiya Primera A Clausura | Llaneros - Los Millionario | live | -
 
 ## Biten Maclar
-- 2026-08-27 18:00 | UEFA Konferans Ligi Play Off | Kuopion (1) - (1) Shamrock Rovers | finished | -
-- 2026-08-27 18:45 | Kuveyt Premier Lig | Al Sahel - Al Sulaibikhat | finished | -
-- 2026-08-27 19:00 | UEFA Avrupa Ligi Play Off | Fc Iberia (0) - (4) Jagiellonia | finished | -
-- 2026-08-27 19:00 | UEFA Avrupa Ligi Play Off | Ararat-Armenia (1) - (1) Universitatea C | finished | -
-- 2026-08-27 19:00 | UEFA Konferans Ligi Play Off | Jablonec (0) - (1) Glasgow Rangers | finished | -
-- 2026-08-27 19:00 | UEFA Konferans Ligi Play Off | Qarabagh (1) - (0) Twente | finished | -
-- 2026-08-27 19:00 | UEFA Konferans Ligi Play Off | Maccabi Tel Av (1) - (2) Lugano | finished | -
-- 2026-08-27 19:00 | Bahreyn Premier Lig | Al Najma Manam - Khalidiya | finished | -
-- 2026-08-27 19:00 | Bahreyn Premier Lig | Sitra - Malkiya Club | finished | -
-- 2026-08-27 19:00 | Tanzanya Kuu Bara Ligi | Simba - Coastal Union | finished | -
-- 2026-08-27 19:20 | Suudi Arabistan 1.Lig | Al Jabalain - Al Jeel | finished | -
-- 2026-08-27 19:20 | Suudi Arabistan 1.Lig | Jeddah Club - Al Najma | finished | -
-- 2026-08-27 19:30 | Katar Yıldızlar Ligi | Al Wakrah - Al Rayyan | finished | -
-- 2026-08-27 19:45 | UEFA Konferans Ligi Play Off | Freiburg (3) - (1) Motherwell | finished | -
-- 2026-08-27 19:45 | UEFA Konferans Ligi Play Off | Monaco (3) - (2) Gornik Zabrze | finished | -
-- 2026-08-27 20:00 | UEFA Avrupa Ligi Play Off | Lillestrom (0) - (0) Egnatia | finished | -
-- 2026-08-27 20:00 | UEFA Avrupa Ligi Play Off | Salzburg (1) - (0) Mjallby | finished | -
-- 2026-08-27 20:00 | UEFA Avrupa Ligi Play Off | Viktoria Plzen (0) - (3) Kizilyildiz | finished | -
-- 2026-08-27 20:00 | UEFA Avrupa Ligi Play Off | Kauno Zalgiris (0) - (3) Beşiktaş | finished | -
-- 2026-08-27 20:00 | UEFA Avrupa Ligi Play Off | Omonia (0) - (1) St. Truidense | finished | -
-- 2026-08-27 20:00 | UEFA Konferans Ligi Play Off | Brann (1) - (1) Paok | finished | -
-- 2026-08-27 20:00 | UEFA Konferans Ligi Play Off | Riga Fc (0) - (0) Kí Klaksvík | finished | -
-- 2026-08-27 20:00 | UEFA Konferans Ligi Play Off | Hradec Kralove (2) - (2) Panathinaikos | finished | -
-- 2026-08-27 20:00 | UEFA Konferans Ligi Play Off | Inter Escaldes (2) - (2) Fc Drita | finished | -
-- 2026-08-27 20:00 | UEFA Konferans Ligi Play Off | Kopenhag (0) - (0) Inter Turku | finished | -
-- 2026-08-27 20:00 | UEFA Konferans Ligi Play Off | Pafos Fc (1) - (1) Dinamo Tirana | finished | -
-- 2026-08-27 20:00 | UEFA Konferans Ligi Play Off | Rakow Czestoch (2) - (2) Hajduk Split | finished | -
-- 2026-08-27 20:00 | Mısır Premier Lig | Pyramids Fc - Abu Qair | finished | -
-- 2026-08-27 20:00 | Mısır Premier Lig | Al Mokawloon A - Masryal Masry P | finished | -
-- 2026-08-27 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Kubikenborgs I - Gottne | finished | -
-- 2026-08-27 20:30 | Danimarka DBU Kupası 2.Tur | Vejle - Silkeborg | finished | -
-- 2026-08-27 20:50 | Suudi Arabistan 1.Lig | Al-Jandal - Al-Saqer | finished | -
-- 2026-08-27 21:00 | UEFA Avrupa Ligi Play Off | Thun (0) - (7) Lech Poznan | finished | -
-- 2026-08-27 21:00 | UEFA Avrupa Ligi Play Off | Cska Sofia (0) - (3) Ofi | finished | -
-- 2026-08-27 21:00 | UEFA Avrupa Ligi Play Off | Aarhus (1) - (3) Benfica | finished | -
-- 2026-08-27 21:00 | UEFA Konferans Ligi Play Off | Ajax (4) - (2) Sion | finished | -
-- 2026-08-27 21:00 | UEFA Konferans Ligi Play Off | St Gallen (0) - (1) Nordsjaelland | finished | -
-- 2026-08-27 21:00 | UEFA Konferans Ligi Play Off | Hapoel Tel Avi (0) - (0) Atalanta | finished | -
-- 2026-08-27 21:00 | Cezayir 1.Lig | Es Setif - Es Ben Aknoun | finished | -
-- 2026-08-27 21:00 | Kuveyt Premier Lig | Kazma - Al Tadhamon | finished | -
-- 2026-08-27 21:00 | Uruguay Kupa Ön Eleme Turu Grup 6 | Atl Fenix - Liverpool Monte | finished | -
+- 2026-08-28 00:15 | Uruguay Kupa Ön Eleme Turu Grup 5 | Nacional Df - Albion | finished | -
+- 2026-08-28 00:30 | Paraguay Kupa 3.Tur | Resistencia - Cerro Porteno | finished | -
