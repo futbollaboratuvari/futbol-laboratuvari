@@ -43,6 +43,9 @@ jobs:
           cp scripts/bulletin-active-filter.js "$TMP_ROOT/scripts/bulletin-active-filter.js"
           (
             cd "$TMP_ROOT"
+            npm init -y >/dev/null 2>&1
+            npm install playwright --no-save --no-audit --no-fund
+            npx playwright install chromium
             node scripts/update-fixtures.js
           )
           node - "$TMP_ROOT/data/fixtures.json" <<'NODE'
