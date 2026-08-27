@@ -1,12 +1,12 @@
 # Analiz Sağlık Kontrolü
 
-Durum: ok
+Durum: warning
 Tarih: 2026-08-27
-Bugünkü bülten maçı: 5
-Robot analiz maçı: 5
-Canlı veri maçı: 5
+Bugünkü bülten maçı: 68
+Robot analiz maçı: 81
+Canlı veri maçı: 68
 Tekrar eden analiz: 0
 Marketsiz analiz: 0
-Skorsuz analiz: 0
+Skorsuz analiz: 14
 
-Sonraki aksiyon: Tahmin kaydi asamasina gecilebilir.
+Sonraki aksiyon: Analiz verisi kontrol edilmeli.
