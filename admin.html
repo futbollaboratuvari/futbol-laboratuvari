@@ -9,7 +9,8 @@
     :root{--bg:#050b18;--panel:#09172f;--line:rgba(255,159,28,.28);--gold:#ffe08a;--green:#39ff88;--text:#f8fbff;--muted:#9fb0c7;--danger:#ff5f6d}
     *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#102a4e 0,#050b18 42%,#020611 100%);color:var(--text);font-family:Arial,Helvetica,sans-serif;min-height:100vh}.wrap{width:min(1380px,100%);margin:0 auto;padding:22px}.top{display:flex;justify-content:space-between;gap:14px;align-items:center;margin-bottom:18px}.brand h1{margin:0;color:var(--gold);font-size:clamp(26px,4vw,44px)}.brand p{margin:7px 0 0;color:var(--muted)}.btn{border:0;border-radius:14px;padding:12px 15px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;font-weight:900;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}.btn.secondary{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:var(--text)}.btn.danger{background:rgba(255,95,109,.16);border:1px solid rgba(255,95,109,.35);color:#ffd0d5}.panel{border:1px solid var(--line);border-radius:22px;background:linear-gradient(180deg,rgba(9,23,47,.96),rgba(3,8,23,.98));box-shadow:0 20px 70px rgba(0,0,0,.35);padding:18px;margin-bottom:16px}.lock{max-width:680px;margin:10vh auto}.lock h2{margin:0 0 10px;color:var(--gold)}.input,.select,.textarea{width:100%;min-height:44px;border:1px solid rgba(255,159,28,.24);border-radius:12px;background:rgba(0,0,0,.25);color:var(--text);padding:0 12px;font-weight:800}.textarea{min-height:76px;padding:10px 12px;resize:vertical}.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.stat{padding:14px;border:1px solid rgba(57,255,136,.18);border-radius:16px;background:rgba(57,255,136,.06)}.stat span{display:block;color:var(--muted);font-size:11px;font-weight:900;text-transform:uppercase}.stat strong{display:block;margin-top:6px;font-size:24px}.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}.table-wrap{overflow:auto;border:1px solid rgba(255,255,255,.08);border-radius:16px}table{width:100%;border-collapse:collapse;min-width:1060px}th,td{border-bottom:1px solid rgba(255,255,255,.08);padding:10px;text-align:left;font-size:13px;vertical-align:top}th{color:var(--gold);font-size:12px;text-transform:uppercase;background:rgba(255,159,28,.08)}td input,td select{min-height:36px;font-size:12px}.pill{display:inline-flex;border-radius:999px;padding:6px 9px;font-size:12px;font-weight:900}.active{background:rgba(57,255,136,.14);color:#c8ffdd;border:1px solid rgba(57,255,136,.25)}.passive{background:rgba(255,95,109,.12);color:#ffd0d5;border:1px solid rgba(255,95,109,.25)}.small{color:var(--muted);font-size:12px;line-height:1.5}.source{color:#c8ffdd}.hide{display:none!important}
     .tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.tool-card{display:flex;flex-direction:column;gap:8px;min-height:150px;padding:15px;border:1px solid rgba(57,255,136,.18);border-radius:17px;background:rgba(57,255,136,.05)}.tool-card h3{margin:0;color:var(--gold);font-size:17px}.tool-card p{margin:0;color:var(--muted);font-size:12px;line-height:1.5;flex:1}.tool-card .btn{width:100%}.tool-card.external{border-color:rgba(255,224,138,.2);background:rgba(255,224,138,.04)}
-    @media(max-width:900px){.grid,.stats,.tools{grid-template-columns:1fr}.top{display:grid}.toolbar{display:grid;align-items:stretch}}
+    .integration-card{grid-column:span 2;min-height:auto}.integration-fields{display:grid;grid-template-columns:1fr 1fr;gap:9px}.integration-fields .full{grid-column:1/-1}.field-label{display:grid;gap:5px;color:#d7e4f5;font-size:11px;font-weight:900}.integration-actions{display:flex;gap:8px;flex-wrap:wrap}.integration-actions .btn{width:auto}.integration-status{padding:9px 10px;border-radius:10px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);color:var(--muted);font-size:12px;font-weight:800}.integration-status.ok{color:#c8ffdd;border-color:rgba(57,255,136,.28);background:rgba(57,255,136,.08)}.integration-status.err{color:#ffd0d5;border-color:rgba(255,95,109,.28);background:rgba(255,95,109,.08)}
+    @media(max-width:900px){.grid,.stats,.tools,.integration-fields{grid-template-columns:1fr}.integration-card{grid-column:auto}.top{display:grid}.toolbar{display:grid;align-items:stretch}}
   </style>
 </head>
 <body>
@@ -52,11 +53,29 @@
             <p>Gerçek e-Arşiv faturayı resmi GİB portalında düzenlemek için giriş ekranını aç.</p>
             <a class="btn secondary" target="_blank" rel="noopener noreferrer" href="https://earsivportal.efatura.gov.tr/intragiris.html">GİB e-Arşiv Aç</a>
           </div>
-          <div class="tool-card external">
-            <h3>📨 Resend</h3>
-            <p>Ödeme ve üyelik e-posta bildirimlerinde kullanılacak gönderici alan adı ve API anahtarını yönet.</p>
-            <a class="btn secondary" target="_blank" rel="noopener noreferrer" href="https://resend.com">Resend Aç</a>
+
+          <div class="tool-card external integration-card" id="resend-integration">
+            <h3>📨 Resend · E-posta Entegrasyonu</h3>
+            <p>API anahtarını burada doğrudan Futbol Laboratuvarı bildirim sistemine bağla. Anahtar tarayıcıda saklanmaz; backend tarafında şifreli kaydedilir.</p>
+            <div class="integration-fields">
+              <label class="field-label full">Ödeme admin anahtarı
+                <input id="paymentAdminSecret" class="input" type="password" placeholder="FLADMIN-..." autocomplete="off">
+              </label>
+              <label class="field-label">Resend API Key
+                <input id="resendApiKey" class="input" type="password" placeholder="re_..." autocomplete="off">
+              </label>
+              <label class="field-label">Gönderici e-posta
+                <input id="resendFromEmail" class="input" type="email" placeholder="odeme@alanadiniz.com" autocomplete="off">
+              </label>
+            </div>
+            <div class="integration-actions">
+              <button id="saveResendBtn" class="btn" type="button">Resend'i Bağla</button>
+              <button id="checkResendBtn" class="btn secondary" type="button">Durumu Kontrol Et</button>
+              <a class="btn secondary" target="_blank" rel="noopener noreferrer" href="https://resend.com/api-keys">Resend API Keys</a>
+            </div>
+            <div id="resendStatus" class="integration-status">Henüz kontrol edilmedi.</div>
           </div>
+
           <div class="tool-card external">
             <h3>📱 Netgsm</h3>
             <p>SMS API hesabını, onaylı gönderici başlığını ve SMS servis bilgilerini yönet.</p>
@@ -96,6 +115,8 @@
     const DATA_URL = './data/membership-codes.json';
     const STORE = 'fl_admin_membership_codes_v2';
     const AUTH = 'fl_admin_unlocked';
+    const NOTIFICATION_HUB = 'https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-notification-hub';
+    const PAYMENT_SECRET_SESSION = 'fl_payment_admin_secret';
     const planLimits = {'Gold Paket':25,'Diamond Paket':50,'Premium Paket':100,'Kurucu Üye':9999,'Hediyelik Kod':10};
     const packageOrder = ['Gold Paket','Diamond Paket','Premium Paket','Kurucu Üye','Hediyelik Kod'];
     const sample = [
@@ -113,13 +134,54 @@
     let rows = load();
 
     function planCodeToName(code){ return ({gold:'Gold Paket',diamond:'Diamond Paket',premium:'Premium Paket',founder:'Kurucu Üye',gift:'Hediyelik Kod'})[code] || code || 'Gold Paket'; }
-    function showApp(){ $('#lock').classList.add('hide'); $('#app').classList.remove('hide'); render(); loadCentral(false); }
+    function showApp(){ $('#lock').classList.add('hide'); $('#app').classList.remove('hide'); render(); loadCentral(false); const saved=sessionStorage.getItem(PAYMENT_SECRET_SESSION)||''; if(saved) $('#paymentAdminSecret').value=saved; }
     function mapCentral(data){ return (data.codes || []).map(item => ({ code:item.codeLabel || item.codeHash || '', hash:item.codeHash || '', plan:item.planName || planCodeToName(item.planCode), owner:item.owner || '', limit:Number(item.remainingAnalysisCount || 0), status:item.active === false ? 'Pasif' : 'Aktif', date:item.createdAt || '', note:item.note || '', source:'merkezi' })); }
     async function loadCentral(showAlert){ try{ const res = await fetch(DATA_URL + '?ts=' + Date.now(), {cache:'no-store'}); if(!res.ok) throw new Error('Veri dosyası okunamadı'); const data = await res.json(); rows = mapCentral(data); save(rows); $('#sourceMsg').textContent = 'Merkezi data/membership-codes.json dosyasından yüklendi. Backend aynı dosyayı okuyor.'; render(); if(showAlert) alert('Merkezi veri dosyası yüklendi.'); }catch(err){ $('#sourceMsg').textContent = 'Merkezi dosya okunamadı, yerel tablo gösteriliyor.'; if(showAlert) alert('Merkezi dosya okunamadı.'); render(); } }
     function render(){ const q = ($('#search')?.value || '').toLowerCase(); const filtered = rows.filter(r => Object.values(r).join(' ').toLowerCase().includes(q)); const counts = {total:rows.length, active:rows.filter(r=>r.status==='Aktif').length, founder:rows.filter(r=>r.plan==='Kurucu Üye').length, premium:rows.filter(r=>r.plan==='Premium Paket').length, gift:rows.filter(r=>r.plan==='Hediyelik Kod').length}; $('#stats').innerHTML = `<div class="stat"><span>Toplam Kod</span><strong>${counts.total}</strong></div><div class="stat"><span>Aktif</span><strong>${counts.active}</strong></div><div class="stat"><span>Kurucu</span><strong>${counts.founder}</strong></div><div class="stat"><span>Premium</span><strong>${counts.premium}</strong></div><div class="stat"><span>Hediye</span><strong>${counts.gift}</strong></div>`; $('#tbody').innerHTML = filtered.map(r=>{ const realIndex = rows.indexOf(r); return `<tr><td><input class="input" value="${r.code}" data-i="${realIndex}" data-k="code"><div class="small">Kaynak: ${r.source || 'yerel'}</div></td><td><select class="select" data-i="${realIndex}" data-k="plan">${packageOrder.map(p=>`<option ${p===r.plan?'selected':''}>${p}</option>`).join('')}</select></td><td><input class="input" value="${r.owner||''}" data-i="${realIndex}" data-k="owner"></td><td><input class="input" type="number" value="${r.limit||0}" data-i="${realIndex}" data-k="limit"></td><td><select class="select" data-i="${realIndex}" data-k="status"><option ${r.status==='Aktif'?'selected':''}>Aktif</option><option ${r.status==='Pasif'?'selected':''}>Pasif</option></select><br><span class="pill ${r.status==='Aktif'?'active':'passive'}">${r.status}</span></td><td>${r.date||''}</td><td><textarea class="textarea" data-i="${realIndex}" data-k="note">${r.note||''}</textarea></td><td><button class="btn danger" data-del="${realIndex}">Sil</button></td></tr>` }).join(''); }
 
+    function setResendStatus(text, state=''){
+      const el=$('#resendStatus');
+      el.textContent=text;
+      el.className='integration-status'+(state?` ${state}`:'');
+    }
+    async function notificationHub(action,payload={}){
+      const paymentSecret=($('#paymentAdminSecret')?.value||'').trim();
+      if(!paymentSecret) throw new Error('Ödeme admin anahtarını gir.');
+      sessionStorage.setItem(PAYMENT_SECRET_SESSION,paymentSecret);
+      const response=await fetch(`${NOTIFICATION_HUB}?action=${encodeURIComponent(action)}`,{
+        method:'POST',cache:'no-store',credentials:'omit',
+        headers:{'Content-Type':'application/json','x-admin-payment-secret':paymentSecret},
+        body:JSON.stringify(payload)
+      });
+      const data=await response.json().catch(()=>({}));
+      if(!response.ok||data.ok===false) throw new Error(data.error||data.message||`HTTP ${response.status}`);
+      return data;
+    }
+    async function checkResend(){
+      setResendStatus('Kontrol ediliyor...');
+      try{
+        const data=await notificationHub('status');
+        if(data.providers?.resend) setResendStatus('Resend bağlı ve kayıtlı.','ok');
+        else setResendStatus('Resend henüz bağlı değil.','err');
+      }catch(error){ setResendStatus(error.message||'Kontrol başarısız.','err'); }
+    }
+    async function saveResend(){
+      const apiKey=($('#resendApiKey')?.value||'').trim();
+      const fromEmail=($('#resendFromEmail')?.value||'').trim();
+      if(!apiKey) return setResendStatus('Resend API Key kutusuna re_... anahtarını yapıştır.','err');
+      if(!fromEmail||!fromEmail.includes('@')) return setResendStatus('Gönderici e-posta adresini gir.','err');
+      setResendStatus('Resend kaydediliyor...');
+      try{
+        const data=await notificationHub('save-resend',{api_key:apiKey,from_email:fromEmail});
+        $('#resendApiKey').value='';
+        setResendStatus(`Resend bağlandı. Bekleyen e-postalar tekrar işlendi: ${data.retried?.length||0}`,'ok');
+      }catch(error){ setResendStatus(error.message||'Resend bağlanamadı.','err'); }
+    }
+
     $('#loginBtn').onclick = () => { if(ADMIN_CODES.includes(normalize($('#adminCode').value))){ localStorage.setItem(AUTH,'1'); showApp(); } else { $('#loginMsg').textContent='Kurucu kodu hatalı.'; } };
-    $('#logoutBtn').onclick = () => { localStorage.removeItem(AUTH); location.reload(); };
+    $('#logoutBtn').onclick = () => { localStorage.removeItem(AUTH); sessionStorage.removeItem(PAYMENT_SECRET_SESSION); location.reload(); };
+    $('#saveResendBtn').onclick = saveResend;
+    $('#checkResendBtn').onclick = checkResend;
     $('#newPlan').onchange = () => { $('#newLimit').value = planLimits[$('#newPlan').value] || 25; };
     $('#addBtn').onclick = () => { const code=normalize($('#newCode').value); if(!code) return alert('Kod boş olamaz'); rows.unshift({code,plan:$('#newPlan').value,owner:$('#newOwner').value,limit:Number($('#newLimit').value||0),status:$('#newStatus').value,date:today(),note:$('#newNote').value,source:'yerel taslak'}); save(rows); render(); $('#newCode').value=''; $('#newOwner').value=''; $('#newNote').value=''; };
     $('#search').oninput = render;
