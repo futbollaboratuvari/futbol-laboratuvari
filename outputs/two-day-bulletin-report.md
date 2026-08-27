@@ -3,21 +3,14 @@
 Gunler: 2026-08-27 / 2026-08-28
 Kaynak: fixtures.json
 Ham mac: 108
-Aktif mac: 81
-Canli mac: 0
+Aktif mac: 74
+Canli mac: 7
 Biten mac: 27
-Bultenden dusurulen mac: 27
-Bugun: 68
+Bultenden dusurulen mac: 34
+Bugun: 61
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-08-27 16:00 | Tanzanya Kuu Bara Ligi | Mashujaa - Kagera Sugar | scheduled | -
-- 2026-08-27 16:30 | Mısır 2. Lig | Delta United - El Harby | scheduled | -
-- 2026-08-27 16:30 | Mısır 2. Lig | Maleyet Kafr E - Tanta | scheduled | -
-- 2026-08-27 16:30 | Mısır 2. Lig | Tersana - La Viena Fc | scheduled | -
-- 2026-08-27 16:30 | Mısır 2. Lig | Kahraba Ismail - Proxy | scheduled | -
-- 2026-08-27 17:00 | Mısır Premier Lig | Modern Sc - Ghazl El Mehall | scheduled | -
-- 2026-08-27 17:15 | Katar Yıldızlar Ligi | Gharrafa - Al Shamal | scheduled | -
 - 2026-08-27 18:00 | UEFA Konferans Ligi Play Off | Kuopion (1) - (1) Shamrock Rovers | scheduled | -
 - 2026-08-27 18:45 | Kuveyt Premier Lig | Al Sahel - Al Sulaibikhat | scheduled | -
 - 2026-08-27 19:00 | UEFA Avrupa Ligi Play Off | Fc Iberia (0) - (4) Jagiellonia | scheduled | -
@@ -94,7 +87,13 @@ Yarin: 13
 - 2026-08-28 05:30 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia - Deportivo Sapri | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-27 16:00 | Tanzanya Kuu Bara Ligi | Mashujaa - Kagera Sugar | live | -
+- 2026-08-27 16:30 | Mısır 2. Lig | Delta United - El Harby | live | -
+- 2026-08-27 16:30 | Mısır 2. Lig | Maleyet Kafr E - Tanta | live | -
+- 2026-08-27 16:30 | Mısır 2. Lig | Tersana - La Viena Fc | live | -
+- 2026-08-27 16:30 | Mısır 2. Lig | Kahraba Ismail - Proxy | live | -
+- 2026-08-27 17:00 | Mısır Premier Lig | Modern Sc - Ghazl El Mehall | live | -
+- 2026-08-27 17:15 | Katar Yıldızlar Ligi | Gharrafa - Al Shamal | live | -
 
 ## Biten Maclar
 - 2026-08-27 00:00 | Kolombiya Primera A Clausura | Chico - Fortaleza | finished | -
