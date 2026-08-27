@@ -16,14 +16,27 @@
     <p class="warning"><strong>Güvenli akış:</strong> Dekontu banka hesabındaki gerçek transferle karşılaştır. “Dekontu Onayla” dediğinde üyelik otomatik açılır, fatura kuyruğu oluşturulur ve e-posta/SMS bildirimleri işleme alınır.</p>
     <div class="row"><input id="secret" type="password" autocomplete="off" placeholder="Ödeme admin anahtarı"><select id="status"><option value="payment_reported">Kontrol bekleyen</option><option value="pending">Dekont bekleyen</option><option value="paid">Ödendi</option></select><button id="load">Listeyi Getir</button></div><p id="provider" class="muted"></p><p id="msg" class="muted"></p>
   </section>
+  <section class="panel">
+    <h2 style="margin:0 0 8px">Banka Bildirim Gmail Bağlantısı</h2>
+    <p class="muted" style="margin:0 0 12px">Bu bağlantı yalnız banka para giriş bildirimlerini okumak içindir. Üyelere mail atan Gmail hesabından tamamen ayrıdır.</p>
+    <div class="row">
+      <input id="bankGmail" value="cemkaplanoglu@gmail.com" readonly aria-label="Banka bildirim Gmail hesabı">
+      <input id="bankGmailKey" type="password" autocomplete="new-password" placeholder="Google uygulama parolası (normal Gmail şifresi değil)">
+      <button id="connectBankGmail">Bağla ve Test Et</button>
+      <button id="checkBankGmail" class="secondary">Bağlantı Durumu</button>
+    </div>
+    <p id="bankGmailMsg" class="muted">Bağlantı durumu henüz kontrol edilmedi.</p>
+  </section>
   <section class="panel scroll"><table><thead><tr><th>Sipariş</th><th>Müşteri</th><th>Paket</th><th>Tutar</th><th>Açıklama</th><th>Fatura</th><th>Dekont</th><th>Durum</th><th>İşlem</th></tr></thead><tbody id="rows"></tbody></table></section>
 </div>
 <script>
   const BASE='https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-receipt';
+  const BANK_GMAIL_SETUP='https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-gmail-setup';
   const $=s=>document.querySelector(s);
   const esc=v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'","&#039;");
   const money=k=>new Intl.NumberFormat('tr-TR',{style:'currency',currency:'TRY'}).format(Number(k||0)/100);
   const setMsg=(text,type='muted')=>{$('#msg').className=type;$('#msg').textContent=text;};
+  const setBankGmailMsg=(text,type='muted')=>{$('#bankGmailMsg').className=type;$('#bankGmailMsg').textContent=text;};
   async function api(action,options={}){
     const secret=$('#secret').value.trim();
     if(!secret) throw new Error('Ödeme admin anahtarı girilmedi.');
@@ -31,6 +44,36 @@
     const d=await r.json().catch(()=>({}));
     if(!r.ok||d.ok===false) throw new Error(d.error||d.message||'İşlem başarısız');
     return d;
+  }
+  async function bankGmailApi(method='GET',payload=null){
+    const secret=$('#secret').value.trim();
+    if(method==='POST'&&!secret) throw new Error('Ödeme admin anahtarı girilmedi.');
+    const options={method,mode:'cors',credentials:'omit',cache:'no-store',headers:{'Content-Type':'application/json'}};
+    if(secret) options.headers['x-admin-payment-secret']=secret;
+    if(payload) options.body=JSON.stringify(payload);
+    const r=await fetch(BANK_GMAIL_SETUP,options);
+    const d=await r.json().catch(()=>({}));
+    if(!r.ok||d.ok===false) throw new Error(d.error||d.message||'Banka Gmail bağlantısı başarısız');
+    return d;
+  }
+  async function checkBankGmail(){
+    const button=$('#checkBankGmail');button.disabled=true;setBankGmailMsg('Kontrol ediliyor...');
+    try{
+      const d=await bankGmailApi('GET');
+      if(d.bank_gmail_configured) setBankGmailMsg('cemkaplanoglu@gmail.com banka bildirimleri için bağlı ve otomatik kontrol aktif.','ok');
+      else setBankGmailMsg('cemkaplanoglu@gmail.com henüz banka bildirim okuyucusuna bağlanmadı.','warn');
+    }catch(e){setBankGmailMsg(e.message,'err');}finally{button.disabled=false;}
+  }
+  async function connectBankGmail(){
+    const button=$('#connectBankGmail');
+    const key=$('#bankGmailKey').value.replace(/\s+/g,'');
+    if(!key){setBankGmailMsg('Banka Gmail okuma yetkisini girin.','warn');return;}
+    button.disabled=true;setBankGmailMsg('Gmail bağlantısı doğrulanıyor...');
+    try{
+      const d=await bankGmailApi('POST',{email:$('#bankGmail').value,app_password:key});
+      $('#bankGmailKey').value='';
+      setBankGmailMsg(d.configured?'Bağlantı başarılı. Otomatik banka bildirimi kontrolü aktif.':'Bağlantı tamamlanamadı.',d.configured?'ok':'warn');
+    }catch(e){setBankGmailMsg(e.message,'err');}finally{button.disabled=false;}
   }
   const receiptBadge=o=>o.receipt_status==='approved'?'<span class="badge ok">Dekont onaylandı</span>':o.receipt_status==='uploaded'?'<span class="badge warn">Dekont yüklendi</span>':o.receipt_status==='rejected'?'<span class="badge err">Dekont reddedildi</span>':'<span class="badge">Dekont yok</span>';
   async function load(){
@@ -61,6 +104,7 @@
       document.querySelectorAll('[data-view]').forEach(btn=>btn.onclick=()=>viewReceipt(btn.dataset.view,btn));
       document.querySelectorAll('[data-approve]').forEach(btn=>btn.onclick=()=>approve(btn));
       document.querySelectorAll('[data-reject]').forEach(btn=>btn.onclick=()=>rejectReceipt(btn.dataset.reject,btn));
+      checkBankGmail();
     }catch(e){setMsg(e.message,'err');}
   }
   async function viewReceipt(orderCode,button){
@@ -93,6 +137,9 @@
   }
   $('#load').onclick=load;
   $('#status').onchange=()=>{if($('#secret').value.trim())load();};
+  $('#connectBankGmail').onclick=connectBankGmail;
+  $('#checkBankGmail').onclick=checkBankGmail;
+  checkBankGmail();
 </script>
 </body>
 </html>
