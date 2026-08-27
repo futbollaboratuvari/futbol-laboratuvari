@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { writeJson } = require("./json-file-policy");
 
 const root = path.join(__dirname, "..");
 const fixturesPath = path.join(root, "data", "fixtures.json");
@@ -14,11 +15,6 @@ const readJson = (file, fallback) => {
   } catch {
     return fallback;
   }
-};
-
-const writeJson = (file, value) => {
-  fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 };
 
 const keyOf = (match) => [match.date, match.time, match.league, match.home, match.away]
@@ -209,3 +205,4 @@ const main = () => {
 };
 
 main();
+

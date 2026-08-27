@@ -76,6 +76,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main
+          node scripts/validate-json-no-conflicts.js
+          node scripts/validate-generated-file-sizes.js
           git add data outputs
           if git diff --cached --quiet; then
             echo "No robot pipeline changes"
@@ -83,7 +86,7 @@ jobs:
           fi
           git commit -m "Update robot automatic pipeline"
           for attempt in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && git push origin HEAD:main; then
+            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && node scripts/validate-generated-file-sizes.js && git push origin HEAD:main; then
               exit 0
             fi
             git rebase --abort || true
@@ -91,3 +94,4 @@ jobs:
           done
           echo "Stage 4 push failed after retries"
           exit 1
+

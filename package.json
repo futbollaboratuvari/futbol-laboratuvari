@@ -30,6 +30,7 @@
     "update:team-intelligence": "node scripts/player-intelligence-api.js && node scripts/team-news-auto.js && node scripts/team-status-lite.js && node scripts/lineup-lite.js && node scripts/team-status-apply.js && node scripts/band-lite.js",
     "test:performance": "node tests/performance-loading.test.js",
     "test:results": "node tests/results-pipeline.test.js",
+    "test:data-size": "node tests/generated-file-size.test.js && node scripts/validate-generated-file-sizes.js",
     "update:all": "node scripts/update-fixtures.js && node scripts/update-night-window.js && node scripts/two-day-bulletin-window.js && node scripts/build-full-bulletin.js && node scripts/merge-bulletin-detail-fields.js && node scripts/full-bulletin-output-check.js && node scripts/build-live-now.js && node scripts/enrich-fixture-metrics.js && node scripts/update-analysis-report.js && node scripts/export-high-value-json.js && node scripts/ensure-live-json.js && node scripts/sync-analysis-results.js && node scripts/learning-result-sync.js && node scripts/learning-output-check.js && npm run build:spor-toto"
   },
   "dependencies": {},

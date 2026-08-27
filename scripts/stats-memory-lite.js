@@ -1,12 +1,12 @@
 const fs = require('fs');
 const path = require('path');
+const { writeJson } = require('./json-file-policy');
 
 const root = path.join(__dirname, '..');
 const fixturesFile = path.join(root, 'data', 'fixtures.json');
 const archiveFile = path.join(root, 'data', 'robot_match_archive.json');
 
 const read = (file, fallback) => { try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch { return fallback; } };
-const write = (file, data) => { fs.mkdirSync(path.dirname(file), { recursive: true }); fs.writeFileSync(file, JSON.stringify(data, null, 2) + '\n'); };
 const n = (v) => { if (v === '-' || v === '') return null; const x = Number(String(v ?? '').replace('%', '').replace(',', '.')); return Number.isFinite(x) ? x : null; };
 const pick = (m, keys) => { for (const k of keys) { const v = n(m[k] ?? m.stats?.[k] ?? m.statistics?.[k] ?? m.live_stats?.[k]); if (v !== null) return v; } return null; };
 const key = (m) => [m.date, m.time, m.league, m.home, m.away].map(x => String(x || '').toLowerCase().trim()).join('|');
@@ -94,5 +94,6 @@ archive.generated_at = now;
 archive.matches = [...map.values()];
 archive.team_index = teams;
 archive.stats_memory_summary = { matches: archive.matches.length, teams: Object.keys(teams).length, tracked_fields: statFields };
-write(archiveFile, archive);
+writeJson(archiveFile, archive);
 console.log(`Stats memory updated: ${archive.matches.length} matches, ${Object.keys(teams).length} teams`);
+

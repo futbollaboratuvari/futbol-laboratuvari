@@ -1,6 +1,7 @@
 const fs = require("fs");
 const https = require("https");
 const path = require("path");
+const { writeJson } = require("./json-file-policy");
 
 const root = path.join(__dirname, "..");
 const archiveFile = path.join(root, "data", "robot_match_archive.json");
@@ -21,11 +22,6 @@ function readJson(file, fallback) {
   } catch {
     return fallback;
   }
-}
-
-function writeJson(file, value) {
-  fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
 function istanbulParts(date = new Date()) {
@@ -488,3 +484,4 @@ module.exports = {
   sportsDbResults,
   teamSimilarity,
 };
+
