@@ -116,6 +116,9 @@ jobs:
             test "$SPOR_BEFORE" = "$SPOR_AFTER"
           fi
 
+      - name: Enrich bulletin with ESPN supplemental data only
+        run: node scripts/enrich-football-bulletin-espn.js
+
       - name: Validate fresh today and tomorrow bulletin
         run: |
           node - <<'NODE'
@@ -137,7 +140,8 @@ jobs:
           if (data?.date_window?.main_day !== today) throw new Error(`Wrong main day: ${data?.date_window?.main_day} expected ${today}`);
           if (matches.length < 10) throw new Error(`Too few scheduled matches: ${matches.length}`);
           if (tomorrowCount < 1) throw new Error(`Tomorrow window missing: ${tomorrow}`);
-          console.log(`Bulletin OK: scheduled=${matches.length}, today=${todayCount}, tomorrow=${tomorrowCount}, live=${Number(data.live_count || 0)}`);
+          if (data?.secondary_sources?.espn?.role !== 'supplemental_only_no_overwrite') throw new Error('ESPN supplemental guard missing');
+          console.log(`Bulletin OK: scheduled=${matches.length}, today=${todayCount}, tomorrow=${tomorrowCount}, live=${Number(data.live_count || 0)}, espn_matched=${Number(data?.secondary_sources?.espn?.matched_count || 0)}`);
           NODE
 
       - name: Verify no unrelated repository file changed
