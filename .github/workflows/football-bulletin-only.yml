@@ -1,0 +1,114 @@
+name: Football Bulletin Only
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 */6 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/football-bulletin-only.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: football-bulletin-only
+  cancel-in-progress: true
+
+jobs:
+  refresh-bulletin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Isolate Spor Toto and build football bulletin
+        shell: bash
+        run: |
+          set -euo pipefail
+          SPOR_TOTO="data/spor_toto_bulteni.json"
+          BACKUP="${RUNNER_TEMP}/spor_toto_bulteni.json"
+          if [ -f "$SPOR_TOTO" ]; then
+            cp "$SPOR_TOTO" "$BACKUP"
+            BEFORE_SHA="$(sha256sum "$SPOR_TOTO" | awk '{print $1}')"
+            rm "$SPOR_TOTO"
+          else
+            BEFORE_SHA="missing"
+          fi
+
+          node scripts/build-full-bulletin.js
+
+          if [ -f "$BACKUP" ]; then
+            cp "$BACKUP" "$SPOR_TOTO"
+            AFTER_SHA="$(sha256sum "$SPOR_TOTO" | awk '{print $1}')"
+            test "$BEFORE_SHA" = "$AFTER_SHA"
+          fi
+
+      - name: Validate fresh today and tomorrow window
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const p = 'data/full-bulletin.json';
+          const data = JSON.parse(fs.readFileSync(p, 'utf8'));
+          const parts = new Intl.DateTimeFormat('en-CA', {
+            timeZone: 'Europe/Istanbul', year: 'numeric', month: '2-digit', day: '2-digit'
+          }).formatToParts(new Date());
+          const bag = Object.fromEntries(parts.map(x => [x.type, x.value]));
+          const today = `${bag.year}-${bag.month}-${bag.day}`;
+          const d = new Date(`${today}T12:00:00Z`);
+          d.setUTCDate(d.getUTCDate() + 1);
+          const tomorrow = d.toISOString().slice(0, 10);
+          const matches = Array.isArray(data.matches) ? data.matches : [];
+          const todayCount = matches.filter(m => String(m.date || '').slice(0,10) === today).length;
+          const tomorrowCount = matches.filter(m => String(m.date || '').slice(0,10) === tomorrow).length;
+          if (data.status !== 'active') throw new Error(`Bulletin inactive: ${data.status}`);
+          if (data?.date_window?.main_day !== today) throw new Error(`Wrong main day: ${data?.date_window?.main_day} expected ${today}`);
+          if (matches.length < 10) throw new Error(`Too few scheduled matches: ${matches.length}`);
+          if (tomorrowCount < 1) throw new Error(`Tomorrow window missing: ${tomorrow}`);
+          console.log(`Bulletin OK: scheduled=${matches.length}, today=${todayCount}, tomorrow=${tomorrowCount}`);
+          NODE
+
+      - name: Verify no unrelated file changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          CHANGED="$(git status --porcelain | awk '{print $2}')"
+          echo "$CHANGED"
+          BAD="$(echo "$CHANGED" | grep -v '^data/full-bulletin.json$' || true)"
+          if [ -n "$BAD" ]; then
+            echo "Unexpected changed files detected:"
+            echo "$BAD"
+            exit 1
+          fi
+
+      - name: Commit only football bulletin
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/full-bulletin.json
+          if git diff --cached --quiet; then
+            echo "No bulletin change"
+            exit 0
+          fi
+          git commit -m "Refresh football bulletin only"
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 3))
+          done
+          echo "Football bulletin push failed"
+          exit 1
