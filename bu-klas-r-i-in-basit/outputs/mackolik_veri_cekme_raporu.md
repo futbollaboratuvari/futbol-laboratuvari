@@ -1,30 +1,25 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-27T14:29:00.120527+00:00
+Tarih: 2026-08-27T14:35:21.588184+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 72
+- Kac mac bulundu: 59
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 72
+- Kac mac zaten vardi: 59
 - Ham veri havuzu toplam mac sayisi: 9324
 - Hedef tarih: 27.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Kupa Son 16 Turu
 - Bahreyn Premier Lig
 - Bolivya Premier Lig
-- Brezilya Kupa Çeyrek Final
-- CONCACAF Orta Amerika Kupası Grup C
 - Danimarka DBU Kupası 2.Tur
 - Fransa Ligue 3
 - Katar Yıldızlar Ligi
-- Kolombiya Primera A Clausura
 - Kuveyt Premier Lig
-- Meksika Ascenso MX Apertura
 - Mısır Premier Lig
 - Paraguay Kupa 3.Tur
 - Peru Kupa Bicentenario Çeyrek Final
@@ -32,7 +27,6 @@ Tarih: 2026-08-27T14:29:00.120527+00:00
 - Tanzanya Kuu Bara Ligi
 - UEFA Avrupa Ligi Play Off
 - UEFA Konferans Ligi Play Off
-- Uruguay Kupa Ön Eleme Turu Grup 5
 - Uruguay Kupa Ön Eleme Turu Grup 6
 - İngiltere Lig Kupası 2.Tur
 - İngiltere Ulusal Lig
@@ -126,7 +120,7 @@ Tarih: 2026-08-27T14:29:00.120527+00:00
 | 27.08.2026 | 22:00 | UEFA Konferans Ligi Play Off | Hibernian (0) | (0) Gent | 11930 | 5 |
 | 27.08.2026 | 20:00 | UEFA Konferans Ligi Play Off | Brann (1) | (1) Paok | 08782 | 5 |
 | 27.08.2026 | 19:00 | UEFA Konferans Ligi Play Off | Jablonec (0) | (1) Glasgow Rangers | 07814 | 5 |
-| 27.08.2026 | 19:45 | UEFA Konferans Ligi Play Off | Freiburg (3) | (1) Motherwell | 08471 | 5 |
+| 27.08.2026 | 19:45 | UEFA Konferans Ligi Play Off | Freiburg (3) | (1) Motherwell | 08471 | 4 |
 | 27.08.2026 | 22:00 | UEFA Konferans Ligi Play Off | Larne Fc (2) | (0) Lincoln Red Imp | 11999 | 5 |
 | 27.08.2026 | 20:00 | UEFA Konferans Ligi Play Off | Riga Fc (0) | (0) Kí Klaksvík | 10034 | 5 |
 
