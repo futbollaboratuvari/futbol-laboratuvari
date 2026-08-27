@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-27T01:02:55.013Z",
+  "generated_at": "2026-08-27T03:29:45.144Z",
   "timezone": "Europe/Istanbul",
-  "status": "ok",
-  "source": "ESPN Scoreboard + ESPN Core/Summary",
+  "status": "no_matching_verified_stats",
+  "source": "ESPN Scoreboard + ESPN Core/Summary + TheSportsDB event stats",
   "source_verified": true,
   "sampling": {
     "workflow_interval_minutes": 30,
@@ -13,17 +13,20 @@
     "paid_api_required": false
   },
   "summary": {
-    "espn_live_event_count": 16,
-    "site_candidate_count": 140,
-    "matched_fixture_count": 12,
-    "sampled_match_count": 6,
-    "stats_success_count": 6,
+    "espn_live_event_count": 4,
+    "site_candidate_count": 150,
+    "matched_fixture_count": 0,
+    "sampled_match_count": 0,
+    "stats_success_count": 0,
+    "scoreboard_stats_count": 0,
     "core_stats_count": 0,
-    "summary_stats_count": 6,
-    "thesportsdb_verified_count": 1
+    "summary_stats_count": 0,
+    "thesportsdb_stats_count": 0,
+    "thesportsdb_verified_count": 0
   },
-  "message": "Canlı Team Power ve Goal Power yalnız ESPN üzerinde gerçekten gözlenen maç istatistiklerinden üretildi.",
-  "matches": [
+  "message": "Canlı maçlar bulundu ancak ayrıntılı doğrulanmış istatistik yeterli değildi; veri uydurulmadı.",
+  "matches": [],
+  "recent_matches": [
     {
       "fixture_id": "401911271",
       "provider_event_id": "401911271",
@@ -803,9 +806,7 @@
         }
       },
       "updated_at": "2026-08-27T01:02:55.013Z"
-    }
-  ],
-  "recent_matches": [
+    },
     {
       "fixture_id": "401850620",
       "provider_event_id": "401850620",
@@ -1341,30 +1342,5 @@
       "updated_at": "2026-08-26T22:35:05.260Z"
     }
   ],
-  "provider_errors": [
-    "401903295: summary site.web.api.espn.com/apis/site/v2/sports/soccer/5454/summary: HTTP 400: {\"code\":400,\"message\":\"Error invoking GET: http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/5454/events/40190329",
-    "401903295: summary site.web.api.espn.com/apis/site/v3/sports/soccer/5454/summary: HTTP 404: {\"code\":404}",
-    "401903295: summary site.api.espn.com/apis/site/v2/sports/soccer/5454/summary: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"ht",
-    "401843979: core stats /v2/sports/soccer/leagues/3903/events/401843979/competitions/401843979/competitors/11993/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/3903).\",\"code\":400}}",
-    "401843979: core stats /v2/sports/soccer/leagues/3903/events/401843979/competitions/401843979/competitors/11993/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/3903).\",\"code\":400}}",
-    "401843979: core competitor: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/3903).\",\"code\":400}}",
-    "401843979: core stats /v2/sports/soccer/leagues/3903/events/401843979/competitions/401843979/competitors/10154/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/3903).\",\"code\":400}}",
-    "401843979: core stats /v2/sports/soccer/leagues/3903/events/401843979/competitions/401843979/competitors/10154/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/3903).\",\"code\":400}}",
-    "401843979: core competitor: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/3903).\",\"code\":400,\"errors\":null,\"exceptions\":null}}",
-    "401843979: summary site.web.api.espn.com/apis/site/v2/sports/soccer/3903/summary: HTTP 400: {\"code\":400,\"message\":\"Error invoking GET: http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/3903/events/40184397",
-    "401843979: summary site.web.api.espn.com/apis/site/v3/sports/soccer/3903/summary: HTTP 404: {\"code\":404}",
-    "401843979: summary site.api.espn.com/apis/site/v2/sports/soccer/3903/summary: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"ht",
-    "401843979: summary empty: /apis/site/v2/sports/soccer/all/summary",
-    "401843979: summary site.web.api.espn.com/apis/site/v3/sports/soccer/all/summary: HTTP 404: {\"code\":404}",
-    "401843979: summary site.api.espn.com/apis/site/v2/sports/soccer/all/summary: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"ht",
-    "401909113: core stats /v2/sports/soccer/leagues/8306/events/401909113/competitions/401909113/competitors/3454/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/8306).\",\"code\":400,\"errors\":null,\"exceptions\":null}}",
-    "401909113: core stats /v2/sports/soccer/leagues/8306/events/401909113/competitions/401909113/competitors/3454/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/8306).\",\"code\":400}}",
-    "401909113: core competitor: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/8306).\",\"code\":400}}",
-    "401909113: core stats /v2/sports/soccer/leagues/8306/events/401909113/competitions/401909113/competitors/3457/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/8306).\",\"code\":400}}",
-    "401909113: core stats /v2/sports/soccer/leagues/8306/events/401909113/competitions/401909113/competitors/3457/statistics: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/8306).\",\"code\":400}}",
-    "401909113: core competitor: HTTP 400: {\"error\":{\"message\":\"Invalid sport/league combination (soccer/8306).\",\"code\":400}}",
-    "401909113: summary site.web.api.espn.com/apis/site/v2/sports/soccer/8306/summary: HTTP 400: {\"code\":400,\"message\":\"Error invoking GET: http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/8306/events/40190911",
-    "401909113: summary site.web.api.espn.com/apis/site/v3/sports/soccer/8306/summary: HTTP 404: {\"code\":404}",
-    "401909113: summary site.api.espn.com/apis/site/v2/sports/soccer/8306/summary: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"ht"
-  ]
+  "provider_errors": []
 }
