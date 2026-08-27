@@ -59,6 +59,21 @@ const transfers = player.normalizeTransfers({ response: [{
 }] }, 10);
 assert.strictEqual(transfers[0].direction, 'in');
 
+const transferredOut = { player_id: 7, name: 'Player Seven', date: '2026-08-25', direction: 'out', from: 'Example FC', to: 'New FC' };
+assert.strictEqual(player.playerTransferredOut(injured, [transferredOut], '2026-08-26'), true);
+assert.strictEqual(player.playerTransferredOut(injured, [{ ...transferredOut, date: '2026-08-27' }], '2026-08-26'), false);
+const transferredOutput = player.buildOutput([
+  { date: '2026-08-26', time: '20:00', home: 'Example FC', away: 'Other' }
+], {
+  fixtures_by_date: { '2026-08-26': { items: [fixture] } },
+  injuries_by_date: { '2026-08-26': { status: 'ok', items: [injured] } },
+  lineups_by_fixture: {},
+  squads_by_team: {},
+  transfers_by_team: { 10: { items: [transferredOut] } },
+});
+assert.strictEqual(transferredOutput.matches[0].home_team.suspended_players.length, 0);
+assert.strictEqual(transferredOutput.matches[0].home_team.transfers_out[0].name, 'Player Seven');
+
 const structured = { teams: { 'Example FC': {
   data_status: 'lineup_confirmed', availability_checked: true, lineup_confirmed: true, sources: ['API-Football injuries'],
   injured_players: [{ id: 8, name: 'Player Eight', status: 'injury', impact_score: 8, impact_level: 'Yüksek' }],
@@ -139,3 +154,4 @@ assert.strictEqual(news.isFresh({ checked_at: new Date().toISOString() }), true)
 assert.strictEqual(news.isFresh({ checked_at: '2020-01-01T00:00:00.000Z' }), false);
 
 console.log('team-intelligence.test.js OK');
+

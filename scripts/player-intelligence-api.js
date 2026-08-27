@@ -372,16 +372,31 @@ function playerImpact(event, squad, lineup) {
   };
 }
 
+function playerTransferredOut(event, transfers, fixtureDate) {
+  const referenceDate = String(fixtureDate || "").slice(0, 10);
+  if (!referenceDate) return false;
+  const matching = (Array.isArray(transfers) ? transfers : [])
+    .filter((row) => {
+      const sameId = event?.player_id && row?.player_id && Number(event.player_id) === Number(row.player_id);
+      const sameName = clean(event?.name) && clean(event?.name) === clean(row?.name);
+      const transferDate = String(row?.date || "").slice(0, 10);
+      return (sameId || sameName) && transferDate && transferDate <= referenceDate;
+    })
+    .sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  return matching[0]?.direction === "out";
+}
+
 function teamIntelligence(localName, side, fixture, injuriesEntry, cache) {
   const providerTeam = fixture?.[side] || {};
   const teamId = providerTeam.id || null;
   const lineupEntry = fixture?.fixture_id ? cache.lineups_by_fixture?.[fixture.fixture_id] : null;
   const lineup = (lineupEntry?.teams || []).find((row) => Number(row.team_id) === Number(teamId)) || null;
   const squad = cache.squads_by_team?.[teamId]?.players || [];
-  const events = (injuriesEntry?.items || []).filter((row) => Number(row.team_id) === Number(teamId)
-    && (!row.fixture_id || Number(row.fixture_id) === Number(fixture?.fixture_id)));
-  const playerRows = events.map((event) => playerImpact(event, squad, lineup));
   const transfers = cache.transfers_by_team?.[teamId]?.items || [];
+  const events = (injuriesEntry?.items || []).filter((row) => Number(row.team_id) === Number(teamId)
+    && (!row.fixture_id || Number(row.fixture_id) === Number(fixture?.fixture_id))
+    && !playerTransferredOut(row, transfers, fixture?.date));
+  const playerRows = events.map((event) => playerImpact(event, squad, lineup));
   const availabilityChecked = Boolean(fixture && injuriesEntry?.status === "ok");
   const lineupConfirmed = Boolean(lineup?.confirmed && lineupEntry?.status === "confirmed");
   const sources = [];
@@ -630,8 +645,10 @@ module.exports = {
   normalizeSquad,
   normalizeTransfers,
   playerImpact,
+  playerTransferredOut,
   pruneCache,
   run,
   similarity,
   uniqueMatches,
 };
+
