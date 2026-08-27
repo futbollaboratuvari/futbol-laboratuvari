@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-27 / 2026-08-28
 Kaynak: fixtures.json
-Ham mac: 108
+Ham mac: 81
 Aktif mac: 74
 Canli mac: 7
-Biten mac: 27
-Bultenden dusurulen mac: 34
+Biten mac: 0
+Bultenden dusurulen mac: 7
 Bugun: 61
 Yarin: 13
 
@@ -96,30 +96,4 @@ Yarin: 13
 - 2026-08-27 17:15 | Katar Yıldızlar Ligi | Gharrafa - Al Shamal | live | -
 
 ## Biten Maclar
-- 2026-08-27 00:00 | Kolombiya Primera A Clausura | Chico - Fortaleza | finished | -
-- 2026-08-27 00:00 | El Salvador Primera Lig Apertura | Platense - Alianza | finished | -
-- 2026-08-27 00:00 | Venezuela Kupa 1.Tur Grup B | Zamora - Real Frontera | finished | -
-- 2026-08-27 00:30 | Paraguay Kupa 3.Tur | Cristobal Colo - Olimpia Asuncio | finished | -
-- 2026-08-27 01:00 | Şili Premier Lig | Coquimbo Unido - Univ. Catolica | finished | -
-- 2026-08-27 01:00 | Ekvador Kupa Çeyrek Final | Ldu Quito - Aucas | finished | -
-- 2026-08-27 01:00 | Venezuela Kupa 1.Tur Grup C | Caracas Fc - Fundacion Lara | finished | -
-- 2026-08-27 01:15 | Arjantin Kupa Son 16 Turu | Aldosivi - Rivadavia | finished | -
-- 2026-08-27 02:00 | Venezuela Kupa 1.Tur Grup A | Deportivo Peta - Academia Anzoat | finished | -
-- 2026-08-27 02:20 | Kolombiya Primera A Clausura | America De Cal - Atletico Junior | finished | -
-- 2026-08-27 02:30 | ABD USL Lig 1 | Naples - Union Omaha | finished | -
-- 2026-08-27 03:30 | CONCACAF Ligler Kupası Çeyrek Final | Toluca - Austin | finished | -
-- 2026-08-27 03:30 | Copa Sudamericana Son 16 Turu | River Plate (0) - (0) Santa Fe | finished | -
-- 2026-08-27 03:30 | CONCACAF Orta Amerika Kupası Grup B | Marathon - Real Esteli | finished | -
-- 2026-08-27 03:30 | Brezilya Kupa Çeyrek Final | Vasco Da Gama - Vitoria Bahia | finished | -
-- 2026-08-27 03:30 | Brezilya Kupa Çeyrek Final | Palmeiras - Santos | finished | -
-- 2026-08-27 03:30 | Şili Kupa Grup E | Colo Colo - Union Espanola | finished | -
-- 2026-08-27 03:30 | Şili Kupa Grup E | Recoleta - O Higgins | finished | -
-- 2026-08-27 03:30 | Arjantin Ulusal Primera Lig | Central Norte - Moron | finished | -
-- 2026-08-27 03:30 | Bolivya Premier Lig | Blooming - Real Oruro | finished | -
-- 2026-08-27 03:30 | CONCACAF Orta Amerika Kupası Grup B | Herediano - Antigua Guatema | finished | -
-- 2026-08-27 04:00 | ABD USL | El Paso Locomo - Pittsburgh Rive | finished | -
-- 2026-08-27 04:30 | Kolombiya Primera A Clausura | Atletico Nacio - Deportivo Cali | finished | -
-- 2026-08-27 04:30 | ABD USL | New Mexico Uni - Lexington | finished | -
-- 2026-08-27 05:30 | CONCACAF Orta Amerika Kupası Grup A | Xelaju - Firpo | finished | -
-- 2026-08-27 05:30 | CONCACAF Orta Amerika Kupası Grup A | Alajuelense - Plaza Amador | finished | -
-- 2026-08-27 05:45 | CONCACAF Ligler Kupası Çeyrek Final | Club America - Columbus | finished | -
+Biten mac yok.
