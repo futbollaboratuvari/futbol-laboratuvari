@@ -1,31 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-27T10:55:53.969300+00:00
+Tarih: 2026-08-27T10:59:42.710870+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 81
-- Kac mac kaydedildi: 81
-- Kac mac zaten vardi: 0
+- Kac mac bulundu: 68
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 68
 - Ham veri havuzu toplam mac sayisi: 9324
 - Hedef tarih: 27.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Kupa Son 16 Turu
 - Bahreyn Premier Lig
 - Bolivya Premier Lig
-- Brezilya Kupa Çeyrek Final
-- CONCACAF Orta Amerika Kupası Grup C
 - Cezayir 1.Lig
 - Danimarka DBU Kupası 2.Tur
 - Fransa Ligue 3
 - Katar Yıldızlar Ligi
-- Kolombiya Primera A Clausura
 - Kuveyt Premier Lig
-- Meksika Ascenso MX Apertura
 - Mısır 2. Lig
 - Mısır Premier Lig
 - Paraguay Kupa 3.Tur
@@ -34,7 +29,6 @@ Tarih: 2026-08-27T10:55:53.969300+00:00
 - Tanzanya Kuu Bara Ligi
 - UEFA Avrupa Ligi Play Off
 - UEFA Konferans Ligi Play Off
-- Uruguay Kupa Ön Eleme Turu Grup 5
 - Uruguay Kupa Ön Eleme Turu Grup 6
 - İngiltere Lig Kupası 2.Tur
 - İngiltere Ulusal Lig
