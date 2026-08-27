@@ -1,5 +1,31 @@
 # State
 
+2026-08-27
+
+Main focus: yarım kalan canlı güç, otomatik veri yazıcıları ve en güçlü tahmin uygunluk zincirinin GitHub `main` üzerinde tamamlanması.
+
+Audit sonucu:
+- A / tamamlanmış ve yalnız regresyonu doğrulanan alanlar: Özel Analiz V3, üyelik hakkı, Kuponum, ödeme, günlük maç widget'ı, sonuç/performance, AI Şeffaflık Merkezi ve 15 maçlık Spor Toto üretim sözleşmesi.
+- B / tamamlanan gerçek eksikler: ücretsiz canlı istatistik sağlayıcı zinciri, eksik metriklerin gerçek sıfırdan ayrılması, son snapshot koruması, veri-yazıcı boyut/push güvenliği, ortak PRO kupon uygunluk kuralı ve transfer olmuş oyuncunun eski takım eksiklerinde kalması.
+- C / harici veriye bağlı durum: koşu anında site fikstürüyle eşleşen doğrulanmış canlı istatistik yoksa sistem veri üretmez; `no_matching_verified_stats`/bekleme durumu, boş snapshot ve güvenli kullanıcı mesajı korunur.
+
+Current completion state:
+- Canlı güç kolektörü ESPN Scoreboard içindeki gözlenmiş istatistikleri öncelikle, ESPN Core/Summary ve resmi TheSportsDB event stats uçlarını birbirinden bağımsız fallback olarak kullanır. xG yalnız kaynak sağlarsa taşınır; eksik metrik sıfır yapılmaz; coverage ayrıca yayımlanır.
+- Canlı snapshot yalnız gözlenmiş dakikada `observed: true`, `interpolated: false` olarak oluşur. Aynı dakika çoğaltılmaz ve geçici sağlayıcı hatası son geçerli/recent maç kayıtlarını silmez.
+- `include_in_coupon` artık tek başına sıralama bonusu değildir. Ortak kural modülü bağımsız kanıt, model skoru, veri kapsamı, tahmini olasılık, market ve kadro/ilk 11 riskini hem builder hem UI için aynı biçimde doğrular. Üçüncü kademe açıkça `İzleme görüşü · Kupona uygun değil` etiketlidir.
+- Otomatik writer'lar ortak concurrency grubunda, rebase/autostash, çıktı doğrulama, sınırlı retry ve dosya-kapsamlı staging ile çalışır. 100 MiB GitHub sınırını aşan robot arşivi kayıpsız kompakt yazılır ve 95 MiB policy sınırıyla erken reddedilir.
+- GitHub Actions Live Power koşusu `33036466175` başarılıdır; test, collector, JSON validation, commit, rebase ve push adımları yeşildir. Koşu anında 4 ESPN canlı event, 0 site eşleşmesi ve 0 doğrulanmış snapshot vardı; bu nedenle canlı veri aktifmiş gibi raporlanmaz.
+- İzole Fixtures koşusu `33064982178`: üretim, takım/futbolcu, Spor Toto finalizer, JSON/boyut kontrolü ve commit/rebase/push dahil başarılı.
+- İzole Live Data koşusu `33065258620`: collector, robot importu, PRO/canlı/Spor Toto çıktıları ve commit/rebase/push dahil başarılı.
+- Yerel regresyon paketi: 15 test dosyası başarılı; 637 JSON parse edildi; değişen JavaScript dosyalarında `node --check`, conflict marker taraması ve statik production build başarılıdır.
+- Production: `https://futbollaboratuuvari.org/` ve gerekli JS/JSON uçları HTTP 200; ortak uygunluk modülü, izleme etiketi, 15 Spor Toto kartı ve 320/360/390/430 px taşmasız mobil render doğrulandı. Son veri Pages koşusu `33065462579` başarılıdır.
+
+Main commits:
+- `f44bed31f55d69d7fdabc94afc9a6f0139e9e445` canlı güç kaynak zinciri.
+- `ac2e7de3b5923ada8515e2eb21ae59c5ac8d75fc` ortak en güçlü tahmin uygunluğu.
+- `12952704de13724fdb54c2ece97d28ff4a51c8ee` transfer/eksik oyuncu regresyonu.
+- `35a8aef591d281cb89d7aec95c61a3030d56ac61` otomatik veri writer güvenliği.
+
 2026-08-26
 
 Main focus: otomatik takım ve futbolcu analizinin robot karar zincirine tamamlanması.
@@ -108,3 +134,4 @@ Latest fix focus:
 - Build flow keeps started/past matches out of matches and separates live matches into live_matches.
 - If no usable scheduled/live bulletin data is produced, build-full-bulletin.js does not overwrite data/full-bulletin.json with an empty bulletin.
 - Direct site/widget/admin/workflow/domain files were not changed.
+

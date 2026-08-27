@@ -1,5 +1,23 @@
 # Session Log
 
+2026-08-27
+
+Yarım kalan işleri kesin tamamlama oturumu kaydedildi.
+
+Summary:
+- Çalışma güncel GitHub `main` durumu üzerinden yürütüldü; tamamlanmış UI, üyelik/ödeme, Kuponum, DNS/CNAME ve veri ayrımı yeniden yazılmadı.
+- Canlı güçte workflow'un yeşil olup snapshot üretememesinin kök nedeni ESPN Summary 403/404 bağımlılığı ve Scoreboard içindeki kullanılabilir istatistiklerin okunmamasıydı. Scoreboard gömülü istatistikleri, Core/Summary ve anahtarsız TheSportsDB event stats ayrı adaptörler olarak bağlandı.
+- Eksik canlı metrikler `0` yapılmadı; xG/dangerous attacks tahmin edilmedi; metrik coverage yayımlandı; yalnız gerçek gözlem snapshot sayıldı ve geçici provider hatasında son doğrulanmış kayıtlar korundu.
+- Live Power Actions koşusu `33036466175` test, collector, JSON validation, commit, rebase ve push dahil başarılı tamamlandı. Ağ koşusunda siteyle eşleşen canlı maç olmadığından 0 snapshot dürüst bekleme/no-stats sonucudur.
+- Önceki fixtures koşusundaki son push hatasının concurrency değil, `data/robot_match_archive.json` dosyasının GitHub 100 MiB limitini 100.07 MiB ile aşması olduğu job loglarıyla kanıtlandı. Arşiv kayıpsız kompakt yazıma alınarak yaklaşık 56.1 MB'a indirildi; 95 MiB boyut policy testi eklendi.
+- Ana veri writer workflow'larına ortak concurrency, pull/rebase/autostash, üretim sonrası JSON/boyut/test doğrulaması, sınırlı push retry ve yalnız kendi çıktılarını stage etme kuralları uygulandı. İzole Fixtures `33064982178` ve Live Data `33065258620` koşularının bütün adımları başarılıdır.
+- En güçlü tahmin listesi için builder ve frontend'in kullandığı ortak uygunluk modülü eklendi. Kupon, PRO-ready ve izleme kademeleri kesin ayrıldı; izleme kartı kupon adayı dili kullanmıyor.
+- Futbolcu intelligence regresyonunda, fikstürden önce başka kulübe transfer olmuş oyuncunun eski takım eksiklerinde kalması düzeltildi; gelecekteki transfer bugüne uygulanmıyor ve daha yeni giriş kaydı doğru takımı geri kurabiliyor.
+- Özel Analiz, takım/futbolcu intelligence, PRO, Spor Toto, sonuç ve performance alanları mevcut tasarım korunarak regresyon testinden geçti. Spor Toto üretim testi tam 15 maç, doğru sıra ve boş kart olmadan geçti.
+- Toplam 15 test dosyası, değişen JS sözdizimi, 637 JSON parse, conflict marker taraması ve production build başarılıdır.
+- Production ana sayfa ve gerekli JS/JSON uçları HTTP 200 verdi; ortak uygunluk modülü, kupona uygun olmayan izleme etiketi, tam 15 Spor Toto kartı ve 320/360/390/430 px yatay taşmasız Özel Analiz/Canlı Güç/Spor Toto renderı doğrulandı. Son veri Pages koşusu `33065462579` başarılıdır.
+- Kod tamamlanmıştır; harici sağlayıcı/site eşleşmesi olmayan saatlerde canlı doğrulanmış snapshot beklenir ve sistem aktif veri varmış gibi göstermez.
+
 2026-06-28
 
 Memory files were added.
@@ -216,3 +234,4 @@ Summary:
 - PRO indeksi canlı/bitmiş maçları dışarıda bırakıp minify edilerek 108.553 bayta indirildi; 150 KB performans sınırı yeniden sağlandı.
 - Takım istihbaratı, PRO, Özel Analiz, performans, sonuç, Spor Toto, JavaScript sözdizimi ve JSON çatışma kontrolleri başarılıdır.
 - `matches` / `live_matches` ayrımı, Kuponum, üyelik/ödeme akışı, CNAME ve DNS değiştirilmedi.
+
