@@ -1,48 +1,46 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-26T16:57:13.016111+00:00
+Tarih: 2026-08-27T10:55:53.969300+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 64
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 63
-- Ham veri havuzu toplam mac sayisi: 9243
-- Hedef tarih: 26.08.2026 Europe/Istanbul
+- Kac mac bulundu: 81
+- Kac mac kaydedildi: 81
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 9324
+- Hedef tarih: 27.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Almanya Bölgesel Lig Kuzey
-- Arjantin Ulusal Primera Lig
+- Arjantin Kupa Son 16 Turu
+- Bahreyn Premier Lig
 - Bolivya Premier Lig
+- Brezilya Kupa Çeyrek Final
+- CONCACAF Orta Amerika Kupası Grup C
+- Cezayir 1.Lig
 - Danimarka DBU Kupası 2.Tur
-- FIFA Kıtalararası Kupa 1. Tur
-- Güney Afrika PSL
-- Gürcistan David Kipiani Kupası Çeyrek Final
-- Hazırlık Kulüpler
-- Irak Premier Lig
+- Fransa Ligue 3
+- Katar Yıldızlar Ligi
+- Kolombiya Primera A Clausura
 - Kuveyt Premier Lig
-- Macaristan NB III Güneydoğu
+- Meksika Ascenso MX Apertura
+- Mısır 2. Lig
 - Mısır Premier Lig
-- Norveç 1.Lig
 - Paraguay Kupa 3.Tur
-- Suudi Arabistan Pro Lig
-- UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu
-- UEFA Şampiyonlar Ligi Play Off
-- Venezuela Kupa 1.Tur Grup B
-- Venezuela Kupa 1.Tur Grup C
-- Venezuela Kupa 1.Tur Grup D
-- Venezuela Kupa 1.Tur Grup E
-- Çek Cumhuriyeti Kupa 2.Tur
+- Peru Kupa Bicentenario Çeyrek Final
+- Suudi Arabistan 1.Lig
+- Tanzanya Kuu Bara Ligi
+- UEFA Avrupa Ligi Play Off
+- UEFA Konferans Ligi Play Off
+- Uruguay Kupa Ön Eleme Turu Grup 5
+- Uruguay Kupa Ön Eleme Turu Grup 6
 - İngiltere Lig Kupası 2.Tur
-- İngiltere Non League Premier Kuzey
-- İngiltere Premier Lig Kupası Grup H
-- İngiltere Premier Lig Kupası Grup I
+- İngiltere Ulusal Lig
 - İspanya LaLiga
-- İsveç 2.Lig Norrland Düşme Grubu
-- İsviçre 1.Lig Promotion
+- İsveç 2.Lig Norrland Yükselme Grubu
+- İzlanda 2.Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -99,8 +97,8 @@ Tarih: 2026-08-26T16:57:13.016111+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 47
-- Acilan detay: 47
+- Denenen Tumu alani: 29
+- Acilan detay: 29
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -113,26 +111,26 @@ Tarih: 2026-08-26T16:57:13.016111+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Viking (2) | (2) Dinamo Zagreb | 06795 | 5 |
-| 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Lyon (1) | (1) Fenerbahçe | 06471 | 5 |
-| 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Celje (1) | (1) Slovan Bratisla | 06619 | 5 |
-| 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Aek (0) | (0) Levski Sofya | 06322 | 5 |
-| 26.08.2026 | 22:00 | İspanya LaLiga | Real Madrid | Real Sociedad | 16821 | 5 |
-| 26.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Diriyah | Al Kholood | 21358 | 5 |
-| 26.08.2026 | 22:00 | İngiltere Lig Kupası 2.Tur | Prest | Everton | 13699 | 5 |
-| 26.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Tottenham | Charlton | 13645 | 4 |
-| 26.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Newcastle Utd | West Bromwich | 13573 | 5 |
-| 26.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Bradford | Burnley | 13519 | 5 |
-| 26.08.2026 | 21:00 | FIFA Kıtalararası Kupa 1. Tur | Al Ahli (Cidde | Auckland | 22596 | 5 |
-| 26.08.2026 | 21:45 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | St. Pölten (K) | Juventus (K) | 19803 | 4 |
-| 26.08.2026 | 20:30 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Ajax (K) | Real Madrid (K) | 19786 | 3 |
-| 26.08.2026 | 20:00 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Czarni Sosnowi | Oh Leuven (K) | 07955 | 5 |
-| 26.08.2026 | 20:00 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | E. Frankfurt ( | Psg (K) | 07977 | 5 |
-| 26.08.2026 | 20:00 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Psv Eindhoven | Koge (K) | 19493 | 5 |
-| 26.08.2026 | 20:45 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Chelsea (K) | Real Sociedad ( | 08794 | 3 |
-| 26.08.2026 | 18:30 | Çek Cumhuriyeti Kupa 2.Tur | Uhersky Brod | Sk Artis Brno | 15071 | 3 |
-| 26.08.2026 | 21:00 | İngiltere Premier Lig Kupası Grup H | Bromley U21 | West Brom (B) | 07822 | 3 |
-| 26.08.2026 | 21:00 | İngiltere Premier Lig Kupası Grup I | Stockport Coun | Charlton Athlet | 15563 | 3 |
+| 27.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Lillestrom (0) | (0) Egnatia | 09437 | 5 |
+| 27.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Salzburg (1) | (0) Mjallby | 10203 | 5 |
+| 27.08.2026 | 21:00 | UEFA Avrupa Ligi Play Off | Thun (0) | (7) Lech Poznan | 11391 | 5 |
+| 27.08.2026 | 21:30 | UEFA Avrupa Ligi Play Off | Ferencvaros (1) | (0) Trabzonspor | 11744 | 5 |
+| 27.08.2026 | 19:00 | UEFA Avrupa Ligi Play Off | Fc Iberia (0) | (4) Jagiellonia | 07543 | 5 |
+| 27.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Viktoria Plzen (0) | (3) Kizilyildiz | 10384 | 5 |
+| 27.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Kauno Zalgiris (0) | (3) Beşiktaş | 10564 | 5 |
+| 27.08.2026 | 19:00 | UEFA Avrupa Ligi Play Off | Ararat-Armenia (1) | (1) Universitatea C | 07301 | 5 |
+| 27.08.2026 | 21:00 | UEFA Avrupa Ligi Play Off | Cska Sofia (0) | (3) Ofi | 11041 | 5 |
+| 27.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Omonia (0) | (1) St. Truidense | 09529 | 5 |
+| 27.08.2026 | 21:30 | UEFA Avrupa Ligi Play Off | Anderlecht (3) | (0) Kairat Almaty | 11461 | 5 |
+| 27.08.2026 | 21:00 | UEFA Avrupa Ligi Play Off | Aarhus (1) | (3) Benfica | 10840 | 5 |
+| 27.08.2026 | 21:00 | UEFA Konferans Ligi Play Off | Ajax (4) | (2) Sion | 10949 | 5 |
+| 27.08.2026 | 21:45 | UEFA Konferans Ligi Play Off | Rijeka (0) | (2) Midtjylland | 11841 | 5 |
+| 27.08.2026 | 22:00 | UEFA Konferans Ligi Play Off | Hibernian (0) | (0) Gent | 11930 | 5 |
+| 27.08.2026 | 20:00 | UEFA Konferans Ligi Play Off | Brann (1) | (1) Paok | 08782 | 5 |
+| 27.08.2026 | 19:00 | UEFA Konferans Ligi Play Off | Jablonec (0) | (1) Glasgow Rangers | 07814 | 5 |
+| 27.08.2026 | 19:45 | UEFA Konferans Ligi Play Off | Freiburg (3) | (1) Motherwell | 08471 | 5 |
+| 27.08.2026 | 22:00 | UEFA Konferans Ligi Play Off | Larne Fc (2) | (0) Lincoln Red Imp | 11999 | 5 |
+| 27.08.2026 | 20:00 | UEFA Konferans Ligi Play Off | Riga Fc (0) | (0) Kí Klaksvík | 10034 | 5 |
 
 ## Sonuc
 
