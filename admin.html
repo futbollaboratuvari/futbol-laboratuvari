@@ -1,196 +1,49 @@
 <!doctype html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex,nofollow,noarchive">
-  <title>Futbol Laboratuvarı | Admin Panel</title>
-  <style>
-    :root{--bg:#050b18;--panel:#09172f;--line:rgba(255,159,28,.28);--gold:#ffe08a;--green:#39ff88;--text:#f8fbff;--muted:#9fb0c7;--danger:#ff5f6d}
-    *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#102a4e 0,#050b18 42%,#020611 100%);color:var(--text);font-family:Arial,Helvetica,sans-serif;min-height:100vh}.wrap{width:min(1380px,100%);margin:0 auto;padding:22px}.top{display:flex;justify-content:space-between;gap:14px;align-items:center;margin-bottom:18px}.brand h1{margin:0;color:var(--gold);font-size:clamp(26px,4vw,44px)}.brand p{margin:7px 0 0;color:var(--muted)}.btn{border:0;border-radius:14px;padding:12px 15px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;font-weight:900;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}.btn.secondary{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:var(--text)}.btn.danger{background:rgba(255,95,109,.16);border:1px solid rgba(255,95,109,.35);color:#ffd0d5}.panel{border:1px solid var(--line);border-radius:22px;background:linear-gradient(180deg,rgba(9,23,47,.96),rgba(3,8,23,.98));box-shadow:0 20px 70px rgba(0,0,0,.35);padding:18px;margin-bottom:16px}.lock{max-width:680px;margin:10vh auto}.lock h2{margin:0 0 10px;color:var(--gold)}.input,.select,.textarea{width:100%;min-height:44px;border:1px solid rgba(255,159,28,.24);border-radius:12px;background:rgba(0,0,0,.25);color:var(--text);padding:0 12px;font-weight:800}.textarea{min-height:76px;padding:10px 12px;resize:vertical}.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.stat{padding:14px;border:1px solid rgba(57,255,136,.18);border-radius:16px;background:rgba(57,255,136,.06)}.stat span{display:block;color:var(--muted);font-size:11px;font-weight:900;text-transform:uppercase}.stat strong{display:block;margin-top:6px;font-size:24px}.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}.table-wrap{overflow:auto;border:1px solid rgba(255,255,255,.08);border-radius:16px}table{width:100%;border-collapse:collapse;min-width:1060px}th,td{border-bottom:1px solid rgba(255,255,255,.08);padding:10px;text-align:left;font-size:13px;vertical-align:top}th{color:var(--gold);font-size:12px;text-transform:uppercase;background:rgba(255,159,28,.08)}td input,td select{min-height:36px;font-size:12px}.pill{display:inline-flex;border-radius:999px;padding:6px 9px;font-size:12px;font-weight:900}.active{background:rgba(57,255,136,.14);color:#c8ffdd;border:1px solid rgba(57,255,136,.25)}.passive{background:rgba(255,95,109,.12);color:#ffd0d5;border:1px solid rgba(255,95,109,.25)}.small{color:var(--muted);font-size:12px;line-height:1.5}.source{color:#c8ffdd}.hide{display:none!important}
-    .tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.tool-card{display:flex;flex-direction:column;gap:8px;min-height:150px;padding:15px;border:1px solid rgba(57,255,136,.18);border-radius:17px;background:rgba(57,255,136,.05)}.tool-card h3{margin:0;color:var(--gold);font-size:17px}.tool-card p{margin:0;color:var(--muted);font-size:12px;line-height:1.5;flex:1}.tool-card .btn{width:100%}.tool-card.external{border-color:rgba(255,224,138,.2);background:rgba(255,224,138,.04)}
-    .integration-card{grid-column:span 2;min-height:auto}.integration-fields{display:grid;grid-template-columns:1fr 1fr;gap:9px}.integration-fields .full{grid-column:1/-1}.field-label{display:grid;gap:5px;color:#d7e4f5;font-size:11px;font-weight:900}.integration-actions{display:flex;gap:8px;flex-wrap:wrap}.integration-actions .btn{width:auto}.integration-status{padding:9px 10px;border-radius:10px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);color:var(--muted);font-size:12px;font-weight:800}.integration-status.ok{color:#c8ffdd;border-color:rgba(57,255,136,.28);background:rgba(57,255,136,.08)}.integration-status.err{color:#ffd0d5;border-color:rgba(255,95,109,.28);background:rgba(255,95,109,.08)}
-    @media(max-width:900px){.grid,.stats,.tools,.integration-fields{grid-template-columns:1fr}.integration-card{grid-column:auto}.top{display:grid}.toolbar{display:grid;align-items:stretch}}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>Futbol Laboratuvarı | Yönetim Merkezi</title>
+<style>
+:root{--bg:#050b18;--panel:#0a1730;--line:#294760;--gold:#ffe08a;--green:#39ff88;--text:#f8fbff;--muted:#9fb0c7;--danger:#ff6574;--blue:#74b9ff}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#102a4e 0,#050b18 45%,#020611 100%);color:var(--text);font-family:Arial,Helvetica,sans-serif;min-height:100vh}.wrap{width:min(1500px,100%);margin:auto;padding:16px}.panel{background:linear-gradient(180deg,#0a1730ee,#050c1cee);border:1px solid var(--line);border-radius:18px;padding:16px;margin-top:14px;box-shadow:0 18px 55px #0005}.login{max-width:620px;margin:9vh auto}.top{display:flex;justify-content:space-between;gap:12px;align-items:center}.brand h1{margin:0;color:var(--gold);font-size:clamp(25px,4vw,42px)}.brand p,.muted{color:var(--muted);font-size:12px;line-height:1.5}.input,.select,.textarea{width:100%;min-height:42px;border:1px solid #3c526d;border-radius:10px;background:#020817;color:#fff;padding:0 11px}.textarea{padding:9px;min-height:65px}.btn{border:0;border-radius:10px;min-height:40px;padding:0 13px;font-weight:900;cursor:pointer;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#06110d;text-decoration:none;display:inline-flex;align-items:center}.btn.secondary{background:#17243a;color:#fff;border:1px solid #425575}.btn.danger{background:#451722;color:#ffd5da;border:1px solid #803340}.btn.blue{background:#15345e;color:#d8eaff;border:1px solid #315d93}.nav{display:flex;gap:8px;flex-wrap:wrap;position:sticky;top:0;z-index:10;padding:10px 0;background:#050b18ee;backdrop-filter:blur(8px)}.nav button{background:#101c30;color:#cfe0f5;border:1px solid #29405f}.nav button.active{background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#06110d}.hide{display:none!important}.tab{display:none}.tab.active{display:block}.stats{display:grid;grid-template-columns:repeat(6,1fr);gap:9px}.stat{padding:14px;border:1px solid #244766;border-radius:14px;background:#071426}.stat span{display:block;color:var(--muted);font-size:11px;font-weight:900;text-transform:uppercase}.stat strong{display:block;font-size:24px;margin-top:5px}.toolbar{display:flex;gap:9px;flex-wrap:wrap;align-items:end;justify-content:space-between}.group,.actions{display:flex;gap:8px;flex-wrap:wrap;align-items:end}.field{display:grid;gap:5px;min-width:180px}.field label{font-size:12px;color:#b7c8df;font-weight:900}.table-wrap{overflow:auto;border:1px solid #203750;border-radius:12px;margin-top:12px}table{width:100%;border-collapse:collapse;min-width:1080px}th,td{padding:9px;border-bottom:1px solid #1d3048;text-align:left;vertical-align:top;font-size:12px}th{color:var(--gold);background:#0d1c33;position:sticky;top:0}.pill{display:inline-flex;padding:4px 8px;border-radius:999px;font-weight:900;font-size:11px}.ok{color:#bfffd8;background:#123c27}.warn{color:#ffe9a6;background:#493b11}.bad{color:#ffd2d7;background:#4c1720}.msg{margin-top:10px;padding:10px;border-radius:10px;background:#101c30;white-space:pre-wrap}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.card{border:1px solid #294561;border-radius:14px;padding:14px;background:#071426}.card h3,.section-title{margin:0;color:var(--gold)}.mini{min-width:110px}@media(max-width:900px){.stats{grid-template-columns:1fr 1fr}.grid2{grid-template-columns:1fr}.top{display:grid}.wrap{padding:10px}.nav{overflow:auto;flex-wrap:nowrap}.nav button{white-space:nowrap}.toolbar,.group{display:grid}.field{min-width:0}}
+</style>
 </head>
 <body>
-  <div class="wrap">
-    <section id="lock" class="panel lock">
-      <h2>Admin Girişi</h2>
-      <p class="small">Yönetim panelini açmak için kurucu kodunu gir.</p>
-      <input id="adminCode" class="input" type="password" placeholder="Kurucu kodu">
-      <div style="display:flex;gap:10px;margin-top:12px"><button id="loginBtn" class="btn">Admin Paneli Aç</button><a class="btn secondary" href="./index.html">Ana Site</a></div>
-      <p id="loginMsg" class="small"></p>
-    </section>
-
-    <main id="app" class="hide">
-      <div class="top">
-        <div class="brand"><h1>Futbol Laboratuvarı Admin</h1><p>Ödeme, fatura, bildirim ve üyelik yönetimi</p></div>
-        <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn secondary" href="./index.html">Ana Site</a><button id="logoutBtn" class="btn danger">Çıkış</button></div>
-      </div>
-
-      <section class="panel">
-        <h2 style="margin:0 0 8px;color:var(--gold)">Yönetim Araçları</h2>
-        <p class="small" style="margin:0 0 14px">Ödeme, dekont, fatura, bildirim ve resmi portal bağlantılarını buradan yönet.</p>
-        <div class="tools">
-          <div class="tool-card">
-            <h3>💳 Ödeme & Dekont</h3>
-            <p>Havale/EFT/FAST siparişlerini, kullanıcı dekontlarını ve ödeme onaylarını kontrol et.</p>
-            <a class="btn" href="./bank-transfer-admin.html">Ödeme Panelini Aç</a>
-          </div>
-          <div class="tool-card">
-            <h3>🧾 Fatura & Bildirim</h3>
-            <p>Fatura kuyruğunu, son düzenleme tarihlerini, e-posta/SMS servislerini ve teslim durumunu yönet.</p>
-            <a class="btn" href="https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-invoice-admin">Fatura Panelini Aç</a>
-          </div>
-          <div class="tool-card">
-            <h3>🎟️ Üyelik Kodları</h3>
-            <p>Kurucu, hediye ve paket üyelik kodlarını aşağıdaki mevcut yönetim tablosundan kontrol et.</p>
-            <a class="btn secondary" href="#code-management">Kod Yönetimine Git</a>
-          </div>
-          <div class="tool-card external">
-            <h3>🏛️ GİB e-Arşiv</h3>
-            <p>Gerçek e-Arşiv faturayı resmi GİB portalında düzenlemek için giriş ekranını aç.</p>
-            <a class="btn secondary" target="_blank" rel="noopener noreferrer" href="https://earsivportal.efatura.gov.tr/intragiris.html">GİB e-Arşiv Aç</a>
-          </div>
-
-          <div class="tool-card external integration-card" id="resend-integration">
-            <h3>📨 Resend · E-posta Entegrasyonu</h3>
-            <p>API anahtarını burada doğrudan Futbol Laboratuvarı bildirim sistemine bağla. Anahtar tarayıcıda saklanmaz; backend tarafında şifreli kaydedilir.</p>
-            <div class="integration-fields">
-              <label class="field-label full">Ödeme admin anahtarı
-                <input id="paymentAdminSecret" class="input" type="password" placeholder="FLADMIN-..." autocomplete="off">
-              </label>
-              <label class="field-label">Resend API Key
-                <input id="resendApiKey" class="input" type="password" placeholder="re_..." autocomplete="off">
-              </label>
-              <label class="field-label">Gönderici e-posta
-                <input id="resendFromEmail" class="input" type="email" placeholder="odeme@alanadiniz.com" autocomplete="off">
-              </label>
-            </div>
-            <div class="integration-actions">
-              <button id="saveResendBtn" class="btn" type="button">Resend'i Bağla</button>
-              <button id="checkResendBtn" class="btn secondary" type="button">Durumu Kontrol Et</button>
-              <a class="btn secondary" target="_blank" rel="noopener noreferrer" href="https://resend.com/api-keys">Resend API Keys</a>
-            </div>
-            <div id="resendStatus" class="integration-status">Henüz kontrol edilmedi.</div>
-          </div>
-
-          <div class="tool-card external">
-            <h3>📱 Netgsm</h3>
-            <p>SMS API hesabını, onaylı gönderici başlığını ve SMS servis bilgilerini yönet.</p>
-            <a class="btn secondary" target="_blank" rel="noopener noreferrer" href="https://www.netgsm.com.tr">Netgsm Aç</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="stats" id="stats"></section>
-
-      <section class="panel" id="code-management">
-        <h2 style="margin:0 0 12px;color:var(--gold)">Yeni Kod Kaydı</h2>
-        <p class="small">Bu bölüm şu an yerel taslak oluşturur. Merkezi üyelik kodları aşağıdaki veri dosyasından okunur.</p>
-        <div class="grid">
-          <input id="newCode" class="input" placeholder="Kod">
-          <select id="newPlan" class="select"><option>Gold Paket</option><option>Diamond Paket</option><option>Premium Paket</option><option>Kurucu Üye</option><option>Hediyelik Kod</option></select>
-          <input id="newOwner" class="input" placeholder="Kime verildi">
-          <input id="newLimit" class="input" type="number" placeholder="Kullanım" value="25">
-          <select id="newStatus" class="select"><option>Aktif</option><option>Pasif</option></select>
-          <button id="addBtn" class="btn">Yerel Taslak Ekle</button>
-        </div>
-        <textarea id="newNote" class="textarea" placeholder="Not" style="margin-top:10px"></textarea>
-      </section>
-
-      <section class="panel">
-        <div class="toolbar">
-          <div><h2 style="margin:0;color:var(--gold)">Kod Listesi</h2><p id="sourceMsg" class="small source" style="margin:6px 0 0">Merkezi veri dosyası yükleniyor...</p></div>
-          <div style="display:flex;gap:10px;flex-wrap:wrap"><input id="search" class="input" style="width:240px" placeholder="Ara"><button id="reloadBtn" class="btn secondary">Merkezi Dosyadan Yenile</button><button id="exportBtn" class="btn secondary">JSON Dışa Aktar</button><button id="resetBtn" class="btn danger">Örnekleri Sıfırla</button></div>
-        </div>
-        <div class="table-wrap" style="margin-top:14px"><table><thead><tr><th>Kod / Etiket</th><th>Paket</th><th>Kime Verildi</th><th>Kullanım</th><th>Durum</th><th>Tarih</th><th>Not</th><th>İşlem</th></tr></thead><tbody id="tbody"></tbody></table></div>
-      </section>
-    </main>
-  </div>
-
-  <script>
-    const ADMIN_CODES = ['KURUCU-U1NZ-MGHT-KZ9L'];
-    const DATA_URL = './data/membership-codes.json';
-    const STORE = 'fl_admin_membership_codes_v2';
-    const AUTH = 'fl_admin_unlocked';
-    const NOTIFICATION_HUB = 'https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-notification-hub';
-    const PAYMENT_SECRET_SESSION = 'fl_payment_admin_secret';
-    const planLimits = {'Gold Paket':25,'Diamond Paket':50,'Premium Paket':100,'Kurucu Üye':9999,'Hediyelik Kod':10};
-    const packageOrder = ['Gold Paket','Diamond Paket','Premium Paket','Kurucu Üye','Hediyelik Kod'];
-    const sample = [
-      {code:'KURUCU-U1NZ-****-KZ9L', plan:'Kurucu Üye', owner:'Cem / Kurucu', limit:9999, status:'Aktif', date:'23.06.2026', note:'Ana kurucu kodu', source:'örnek'},
-      {code:'GOLD-C1GO-****-SWVU', plan:'Gold Paket', owner:'Test', limit:25, status:'Aktif', date:'23.06.2026', note:'Giriş paketi', source:'örnek'},
-      {code:'DIAMOND-G12O-****-43RZ', plan:'Diamond Paket', owner:'Test', limit:50, status:'Aktif', date:'23.06.2026', note:'Gold üstü paket', source:'örnek'},
-      {code:'PREMIUM-Y9GW-****-CVGF', plan:'Premium Paket', owner:'Test', limit:100, status:'Aktif', date:'23.06.2026', note:'En yüksek paket', source:'örnek'},
-      {code:'HEDIYE-CABO-****-LK35', plan:'Hediyelik Kod', owner:'Test', limit:10, status:'Aktif', date:'23.06.2026', note:'Hediye test kodu', source:'örnek'}
-    ];
-    const $ = s => document.querySelector(s);
-    const today = () => new Intl.DateTimeFormat('tr-TR',{timeZone:'Europe/Istanbul'}).format(new Date());
-    const normalize = v => String(v||'').trim().replace(/\s+/g,'').toLocaleUpperCase('tr-TR');
-    const load = () => JSON.parse(localStorage.getItem(STORE) || 'null') || sample;
-    const save = rows => localStorage.setItem(STORE, JSON.stringify(rows));
-    let rows = load();
-
-    function planCodeToName(code){ return ({gold:'Gold Paket',diamond:'Diamond Paket',premium:'Premium Paket',founder:'Kurucu Üye',gift:'Hediyelik Kod'})[code] || code || 'Gold Paket'; }
-    function showApp(){ $('#lock').classList.add('hide'); $('#app').classList.remove('hide'); render(); loadCentral(false); const saved=sessionStorage.getItem(PAYMENT_SECRET_SESSION)||''; if(saved) $('#paymentAdminSecret').value=saved; }
-    function mapCentral(data){ return (data.codes || []).map(item => ({ code:item.codeLabel || item.codeHash || '', hash:item.codeHash || '', plan:item.planName || planCodeToName(item.planCode), owner:item.owner || '', limit:Number(item.remainingAnalysisCount || 0), status:item.active === false ? 'Pasif' : 'Aktif', date:item.createdAt || '', note:item.note || '', source:'merkezi' })); }
-    async function loadCentral(showAlert){ try{ const res = await fetch(DATA_URL + '?ts=' + Date.now(), {cache:'no-store'}); if(!res.ok) throw new Error('Veri dosyası okunamadı'); const data = await res.json(); rows = mapCentral(data); save(rows); $('#sourceMsg').textContent = 'Merkezi data/membership-codes.json dosyasından yüklendi. Backend aynı dosyayı okuyor.'; render(); if(showAlert) alert('Merkezi veri dosyası yüklendi.'); }catch(err){ $('#sourceMsg').textContent = 'Merkezi dosya okunamadı, yerel tablo gösteriliyor.'; if(showAlert) alert('Merkezi dosya okunamadı.'); render(); } }
-    function render(){ const q = ($('#search')?.value || '').toLowerCase(); const filtered = rows.filter(r => Object.values(r).join(' ').toLowerCase().includes(q)); const counts = {total:rows.length, active:rows.filter(r=>r.status==='Aktif').length, founder:rows.filter(r=>r.plan==='Kurucu Üye').length, premium:rows.filter(r=>r.plan==='Premium Paket').length, gift:rows.filter(r=>r.plan==='Hediyelik Kod').length}; $('#stats').innerHTML = `<div class="stat"><span>Toplam Kod</span><strong>${counts.total}</strong></div><div class="stat"><span>Aktif</span><strong>${counts.active}</strong></div><div class="stat"><span>Kurucu</span><strong>${counts.founder}</strong></div><div class="stat"><span>Premium</span><strong>${counts.premium}</strong></div><div class="stat"><span>Hediye</span><strong>${counts.gift}</strong></div>`; $('#tbody').innerHTML = filtered.map(r=>{ const realIndex = rows.indexOf(r); return `<tr><td><input class="input" value="${r.code}" data-i="${realIndex}" data-k="code"><div class="small">Kaynak: ${r.source || 'yerel'}</div></td><td><select class="select" data-i="${realIndex}" data-k="plan">${packageOrder.map(p=>`<option ${p===r.plan?'selected':''}>${p}</option>`).join('')}</select></td><td><input class="input" value="${r.owner||''}" data-i="${realIndex}" data-k="owner"></td><td><input class="input" type="number" value="${r.limit||0}" data-i="${realIndex}" data-k="limit"></td><td><select class="select" data-i="${realIndex}" data-k="status"><option ${r.status==='Aktif'?'selected':''}>Aktif</option><option ${r.status==='Pasif'?'selected':''}>Pasif</option></select><br><span class="pill ${r.status==='Aktif'?'active':'passive'}">${r.status}</span></td><td>${r.date||''}</td><td><textarea class="textarea" data-i="${realIndex}" data-k="note">${r.note||''}</textarea></td><td><button class="btn danger" data-del="${realIndex}">Sil</button></td></tr>` }).join(''); }
-
-    function setResendStatus(text, state=''){
-      const el=$('#resendStatus');
-      el.textContent=text;
-      el.className='integration-status'+(state?` ${state}`:'');
-    }
-    async function notificationHub(action,payload={}){
-      const paymentSecret=($('#paymentAdminSecret')?.value||'').trim();
-      if(!paymentSecret) throw new Error('Ödeme admin anahtarını gir.');
-      sessionStorage.setItem(PAYMENT_SECRET_SESSION,paymentSecret);
-      const response=await fetch(`${NOTIFICATION_HUB}?action=${encodeURIComponent(action)}`,{
-        method:'POST',cache:'no-store',credentials:'omit',
-        headers:{'Content-Type':'application/json','x-admin-payment-secret':paymentSecret},
-        body:JSON.stringify(payload)
-      });
-      const data=await response.json().catch(()=>({}));
-      if(!response.ok||data.ok===false) throw new Error(data.error||data.message||`HTTP ${response.status}`);
-      return data;
-    }
-    async function checkResend(){
-      setResendStatus('Kontrol ediliyor...');
-      try{
-        const data=await notificationHub('status');
-        if(data.providers?.resend) setResendStatus('Resend bağlı ve kayıtlı.','ok');
-        else setResendStatus('Resend henüz bağlı değil.','err');
-      }catch(error){ setResendStatus(error.message||'Kontrol başarısız.','err'); }
-    }
-    async function saveResend(){
-      const apiKey=($('#resendApiKey')?.value||'').trim();
-      const fromEmail=($('#resendFromEmail')?.value||'').trim();
-      if(!apiKey) return setResendStatus('Resend API Key kutusuna re_... anahtarını yapıştır.','err');
-      if(!fromEmail||!fromEmail.includes('@')) return setResendStatus('Gönderici e-posta adresini gir.','err');
-      setResendStatus('Resend kaydediliyor...');
-      try{
-        const data=await notificationHub('save-resend',{api_key:apiKey,from_email:fromEmail});
-        $('#resendApiKey').value='';
-        setResendStatus(`Resend bağlandı. Bekleyen e-postalar tekrar işlendi: ${data.retried?.length||0}`,'ok');
-      }catch(error){ setResendStatus(error.message||'Resend bağlanamadı.','err'); }
-    }
-
-    $('#loginBtn').onclick = () => { if(ADMIN_CODES.includes(normalize($('#adminCode').value))){ localStorage.setItem(AUTH,'1'); showApp(); } else { $('#loginMsg').textContent='Kurucu kodu hatalı.'; } };
-    $('#logoutBtn').onclick = () => { localStorage.removeItem(AUTH); sessionStorage.removeItem(PAYMENT_SECRET_SESSION); location.reload(); };
-    $('#saveResendBtn').onclick = saveResend;
-    $('#checkResendBtn').onclick = checkResend;
-    $('#newPlan').onchange = () => { $('#newLimit').value = planLimits[$('#newPlan').value] || 25; };
-    $('#addBtn').onclick = () => { const code=normalize($('#newCode').value); if(!code) return alert('Kod boş olamaz'); rows.unshift({code,plan:$('#newPlan').value,owner:$('#newOwner').value,limit:Number($('#newLimit').value||0),status:$('#newStatus').value,date:today(),note:$('#newNote').value,source:'yerel taslak'}); save(rows); render(); $('#newCode').value=''; $('#newOwner').value=''; $('#newNote').value=''; };
-    $('#search').oninput = render;
-    $('#reloadBtn').onclick = () => loadCentral(true);
-    $('#exportBtn').onclick = () => { navigator.clipboard.writeText(JSON.stringify(rows,null,2)); alert('Kod listesi JSON olarak kopyalandı.'); };
-    $('#resetBtn').onclick = () => { if(confirm('Örnek kod listesi sıfırlansın mı?')){ rows=sample; save(rows); $('#sourceMsg').textContent='Örnek liste gösteriliyor.'; render(); } };
-    document.addEventListener('input', e => { const i=e.target.dataset.i, k=e.target.dataset.k; if(i!==undefined && k){ rows[Number(i)][k] = k==='limit' ? Number(e.target.value||0) : e.target.value; if(k==='plan') rows[Number(i)].limit = planLimits[e.target.value] || rows[Number(i)].limit; rows[Number(i)].source = rows[Number(i)].source === 'merkezi' ? 'yerel düzenleme' : rows[Number(i)].source; save(rows); render(); } });
-    document.addEventListener('click', e => { const i=e.target.dataset.del; if(i!==undefined && confirm('Bu kod kaydı silinsin mi?')){ rows.splice(Number(i),1); save(rows); render(); } });
-    if(localStorage.getItem(AUTH)==='1') showApp();
-  </script>
-</body>
-</html>
+<div class="wrap">
+<section id="login" class="panel login">
+<h1 style="color:var(--gold);margin-top:0">Futbol Laboratuvarı Yönetim Merkezi</h1>
+<p class="muted">Ödeme, dekont, fatura, bildirim, üyelik ve entegrasyonlar tek panelde.</p>
+<div class="field"><label>Ödeme admin anahtarı</label><input id="secret" class="input" type="password" placeholder="FLADMIN-..." autocomplete="off"></div>
+<div class="actions" style="margin-top:12px"><button id="loginBtn" class="btn">Paneli Aç</button><a class="btn secondary" href="./index.html">Ana Site</a></div>
+<div id="loginMsg" class="msg">Hazır.</div>
+</section>
+<main id="app" class="hide">
+<div class="top"><div class="brand"><h1>Futbol Laboratuvarı Yönetim</h1><p>Tek merkez · canlı Supabase verisi</p></div><div class="actions"><button id="refreshAll" class="btn secondary">Tümünü Yenile</button><button id="logout" class="btn danger">Çıkış</button></div></div>
+<nav class="nav"><button data-tab="overview" class="btn active">Özet</button><button data-tab="payments" class="btn">Ödeme & Dekont</button><button data-tab="invoices" class="btn">Faturalar</button><button data-tab="notifications" class="btn">Bildirimler</button><button data-tab="memberships" class="btn">Üyelikler</button><button data-tab="integrations" class="btn">Entegrasyonlar</button></nav>
+<section id="overview" class="tab active"><div class="panel"><h2 class="section-title">Sistem Özeti</h2><div id="stats" class="stats" style="margin-top:12px"></div><div id="overviewMsg" class="msg">Veriler yükleniyor...</div></div></section>
+<section id="payments" class="tab"><div class="panel"><div class="toolbar"><div><h2 class="section-title">Ödeme & Dekont</h2><div class="muted">Dekontu görüntüle, onayla veya reddet.</div></div><div class="group"><div class="field"><label>Durum</label><select id="payStatus" class="select"><option value="payment_reported">Kontrol Bekleyen</option><option value="pending">Ödeme Bekleyen</option><option value="paid">Onaylanan</option><option value="rejected">Reddedilen</option><option value="cancelled">İptal</option><option value="expired">Süresi Dolan</option></select></div><button id="loadPayments" class="btn secondary">Yenile</button></div></div><div class="table-wrap"><table><thead><tr><th>Sipariş</th><th>Müşteri</th><th>Paket/Tutar</th><th>Dekont</th><th>Fatura Bilgisi</th><th>Durum</th><th>İşlem</th></tr></thead><tbody id="paymentsBody"></tbody></table></div><div id="paymentsMsg" class="msg">Hazır.</div></div></section>
+<section id="invoices" class="tab"><div class="panel"><div class="toolbar"><div><h2 class="section-title">Faturalar</h2><div class="muted">Resmi faturayı GİB/e-belge tarafında düzenledikten sonra numarasını burada kaydet.</div></div><div class="group"><div class="field"><label>Durum</label><select id="invoiceStatus" class="select"><option value="pending_issue">Düzenlenecek</option><option value="issued">Düzenlenen</option><option value="all">Tümü</option><option value="cancelled">İptal</option></select></div><button id="loadInvoices" class="btn secondary">Yenile</button></div></div><div class="table-wrap"><table><thead><tr><th>Sipariş</th><th>Müşteri/Fatura</th><th>Tutar</th><th>Son Tarih</th><th>Durum</th><th>Belge Bilgisi</th><th>İşlem</th></tr></thead><tbody id="invoicesBody"></tbody></table></div><div id="invoiceMsg" class="msg">Hazır.</div></div></section>
+<section id="notifications" class="tab"><div class="panel"><div class="toolbar"><div><h2 class="section-title">Bildirimler</h2><div class="muted">E-posta/SMS kuyruğu ve hata kayıtları.</div></div><div class="group"><button id="retryAll" class="btn">Bekleyenleri Tekrar Gönder</button><button id="loadNotifications" class="btn secondary">Yenile</button></div></div><div class="table-wrap"><table><thead><tr><th>Sipariş</th><th>Kanal</th><th>Şablon</th><th>Alıcı</th><th>Durum</th><th>Sağlayıcı</th><th>Hata/Gönderim</th></tr></thead><tbody id="notificationsBody"></tbody></table></div><div id="notificationsMsg" class="msg">Hazır.</div></div></section>
+<section id="memberships" class="tab"><div class="panel"><div class="toolbar"><div><h2 class="section-title">Üyelikler</h2><div class="muted">Gerçek Supabase üyelik kayıtları.</div></div><button id="loadMemberships" class="btn secondary">Yenile</button></div><div class="table-wrap"><table><thead><tr><th>Kod</th><th>Paket</th><th>Sahip</th><th>Kalan</th><th>Aktif</th><th>Bitiş</th><th>Sipariş</th><th>Not</th><th>İşlem</th></tr></thead><tbody id="membershipsBody"></tbody></table></div><div id="membershipMsg" class="msg">Hazır.</div></div></section>
+<section id="integrations" class="tab"><div class="panel"><h2 class="section-title">Entegrasyonlar</h2><div class="grid2" style="margin-top:12px"><div class="card"><h3>Resend · E-posta</h3><div id="resendState" class="msg">Durum bilinmiyor.</div><div class="field"><label>Resend API Key</label><input id="resendKey" class="input" type="password" placeholder="re_..." autocomplete="off"></div><div class="field"><label>Gönderici e-posta</label><input id="resendFrom" class="input" type="email" placeholder="odeme@alanadiniz.com"></div><div class="actions"><button id="saveResend" class="btn">Resend'i Bağla</button><a class="btn secondary" href="https://resend.com/api-keys" target="_blank" rel="noopener">Resend API Keys</a></div></div><div class="card"><h3>Netgsm · SMS</h3><div id="netgsmState" class="msg">Durum bilinmiyor.</div><div class="field"><label>Kullanıcı kodu</label><input id="netUser" class="input"></div><div class="field"><label>API şifresi</label><input id="netPass" class="input" type="password" autocomplete="off"></div><div class="field"><label>Onaylı SMS başlığı</label><input id="netHeader" class="input"></div><div class="actions"><button id="saveNetgsm" class="btn">Netgsm'ı Bağla</button></div></div></div><div class="card" style="margin-top:12px"><div class="muted">API anahtarları ekranda geri gösterilmez. Sunucu tarafında şifreli saklanır. SMS kullanmayacaksan Netgsm bölümünü boş bırakabilirsin.</div><button id="checkProviders" class="btn secondary" style="margin-top:10px">Bağlantı Durumunu Yenile</button></div></div></section>
+</main></div>
+<script>
+const API='https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-admin-api';const $=id=>document.getElementById(id);let secret=sessionStorage.getItem('fl_admin_secret')||'';const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));const money=k=>new Intl.NumberFormat('tr-TR',{style:'currency',currency:'TRY'}).format(Number(k||0)/100);const dt=v=>v?new Intl.DateTimeFormat('tr-TR',{dateStyle:'short',timeStyle:'short'}).format(new Date(v)):'-';const dateOnly=v=>v?new Intl.DateTimeFormat('tr-TR',{dateStyle:'short'}).format(new Date(v)):'-';
+async function call(action,payload={}){const r=await fetch(API+'?action='+encodeURIComponent(action),{method:'POST',cache:'no-store',headers:{'Content-Type':'application/json','x-admin-payment-secret':secret},body:JSON.stringify(payload)});const d=await r.json().catch(()=>({}));if(!r.ok||d.ok===false)throw new Error(d.error||d.message||('HTTP '+r.status));return d}function msg(id,t,b=false){$(id).textContent=t;$(id).style.color=b?'#ffd2d7':'#d7e4f5'}function pill(s){const x=String(s||'-'),c=['sent','paid','issued','approved'].includes(x)?'ok':['failed','rejected','cancelled'].includes(x)?'bad':'warn';return '<span class="pill '+c+'">'+esc(x)+'</span>'}
+function tab(name){document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.id===name));document.querySelectorAll('[data-tab]').forEach(x=>x.classList.toggle('active',x.dataset.tab===name));if(name==='payments')loadPayments();if(name==='invoices')loadInvoices();if(name==='notifications')loadNotifications();if(name==='memberships')loadMemberships();if(name==='integrations')providers()}document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>tab(b.dataset.tab));
+async function summary(){const d=await call('summary');$('stats').innerHTML=[['Bekleyen Dekont',d.receipts_waiting],['Fatura Bekleyen',d.invoices_pending],['Bildirim Bekleyen',d.notifications_pending],['Aktif Üyelik',d.memberships_active],['Resend',d.resend?'Bağlı':'Kapalı'],['Netgsm',d.netgsm?'Bağlı':'Kapalı']].map(x=>'<div class="stat"><span>'+esc(x[0])+'</span><strong>'+esc(x[1])+'</strong></div>').join('');msg('overviewMsg','Sistem güncel · '+new Date().toLocaleTimeString('tr-TR'));return d}
+$('loginBtn').onclick=async()=>{secret=$('secret').value.trim()||secret;if(!secret)return msg('loginMsg','Admin anahtarını gir.',true);try{await summary();sessionStorage.setItem('fl_admin_secret',secret);$('login').classList.add('hide');$('app').classList.remove('hide');$('secret').value='';providers()}catch(e){msg('loginMsg','Giriş başarısız: '+e.message,true)}};$('logout').onclick=()=>{sessionStorage.removeItem('fl_admin_secret');location.reload()};$('refreshAll').onclick=async()=>{await summary();const a=document.querySelector('.tab.active')?.id;if(a&&a!=='overview')tab(a)};
+async function loadPayments(){msg('paymentsMsg','Yükleniyor...');try{const d=await call('payments',{status:$('payStatus').value});$('paymentsBody').innerHTML=(d.orders||[]).map(o=>'<tr><td><strong>'+esc(o.order_code)+'</strong><br><span class="muted">'+dt(o.created_at)+'</span></td><td>'+esc(o.customer_name)+'<br><span class="muted">'+esc(o.email)+'<br>'+esc(o.phone)+'</span></td><td>'+esc(o.plan_name)+'<br><strong>'+money(o.amount_kurus)+'</strong></td><td>'+pill(o.receipt_status)+'<br><span class="muted">'+(o.receipt_uploaded_at?dt(o.receipt_uploaded_at):'Dekont yok')+'</span></td><td>'+esc(o.invoice_type||'-')+'<br><span class="muted">'+esc(o.invoice_name||'')+'<br>'+esc(o.tax_number||'')+'</span></td><td>'+pill(o.status)+'</td><td><div class="actions">'+(o.receipt_path?'<button class="btn blue" data-view="'+esc(o.order_code)+'">Dekont</button>':'')+(o.status==='payment_reported'&&o.receipt_status==='uploaded'?'<button class="btn" data-approve="'+esc(o.order_code)+'">Onayla</button><button class="btn danger" data-reject="'+esc(o.order_code)+'">Reddet</button>':'')+'</div></td></tr>').join('')||'<tr><td colspan="7">Kayıt yok.</td></tr>';msg('paymentsMsg',(d.orders||[]).length+' kayıt.')}catch(e){msg('paymentsMsg',e.message,true)}}$('loadPayments').onclick=loadPayments;$('payStatus').onchange=loadPayments;
+document.addEventListener('click',async e=>{const t=e.target;if(t.dataset?.view){try{const d=await call('receipt-url',{order_code:t.dataset.view});window.open(d.signed_url,'_blank','noopener')}catch(x){msg('paymentsMsg',x.message,true)}}if(t.dataset?.approve){if(!confirm(t.dataset.approve+' ödemesi onaylansın mı?'))return;try{t.disabled=true;const d=await call('approve-receipt',{order_code:t.dataset.approve});msg('paymentsMsg','Onaylandı. Üyelik: '+(d.membership_code||'-'));await loadPayments();await summary()}catch(x){msg('paymentsMsg',x.message,true)}finally{t.disabled=false}}if(t.dataset?.reject){if(!confirm('Dekont reddedilsin mi?'))return;try{await call('reject-receipt',{order_code:t.dataset.reject});await loadPayments();msg('paymentsMsg','Dekont reddedildi.')}catch(x){msg('paymentsMsg',x.message,true)}}});
+async function loadInvoices(){msg('invoiceMsg','Yükleniyor...');try{const d=await call('invoices',{status:$('invoiceStatus').value});$('invoicesBody').innerHTML=(d.invoices||[]).map(i=>'<tr><td><strong>'+esc(i.order_code)+'</strong><br><span class="muted">Hizmet: '+dateOnly(i.service_date)+'</span></td><td>'+esc(i.customer_name)+'<br><span class="muted">'+esc(i.invoice_name||'')+'<br>'+esc(i.invoice_type||'')+(i.tax_number?' · '+esc(i.tax_number):'')+'</span></td><td><strong>'+money(i.gross_amount_kurus)+'</strong></td><td>'+dateOnly(i.issue_deadline)+'</td><td>'+pill(i.status)+'<br><span class="muted">'+esc(i.gib_status||'')+'</span></td><td>'+(i.status==='issued'?'<strong>'+esc(i.invoice_number||'-')+'</strong><br><span class="muted">'+esc(i.document_type||'')+' · '+dateOnly(i.issue_date)+'</span>':'<input class="input mini" data-invno="'+esc(i.order_code)+'" placeholder="Fatura No"><select class="select mini" data-invtype="'+esc(i.order_code)+'"><option value="e_arsiv">e-Arşiv</option><option value="e_fatura">e-Fatura</option><option value="paper">Kağıt</option></select><input class="input mini" type="date" data-invdate="'+esc(i.order_code)+'">')+'</td><td><div class="actions">'+(i.status!=='issued'?'<button class="btn" data-issue="'+esc(i.order_code)+'">Düzenlendi İşaretle</button>':'')+'<button class="btn secondary" data-retry="'+esc(i.order_code)+'">Bildirim Tekrar</button></div></td></tr>').join('')||'<tr><td colspan="7">Kayıt yok.</td></tr>';msg('invoiceMsg',(d.invoices||[]).length+' kayıt.')}catch(e){msg('invoiceMsg',e.message,true)}}$('loadInvoices').onclick=loadInvoices;$('invoiceStatus').onchange=loadInvoices;
+document.addEventListener('click',async e=>{const t=e.target;if(t.dataset?.issue){const c=t.dataset.issue,no=document.querySelector('[data-invno="'+CSS.escape(c)+'"]')?.value.trim(),type=document.querySelector('[data-invtype="'+CSS.escape(c)+'"]')?.value,date=document.querySelector('[data-invdate="'+CSS.escape(c)+'"]')?.value;if(!no)return msg('invoiceMsg','Fatura numarasını gir.',true);try{await call('mark-invoice-issued',{order_code:c,invoice_number:no,document_type:type,issue_date:date||new Date().toISOString()});await loadInvoices();await summary();msg('invoiceMsg','Fatura kaydı güncellendi.')}catch(x){msg('invoiceMsg',x.message,true)}}if(t.dataset?.retry){try{await call('retry-order-notifications',{order_code:t.dataset.retry});msg('invoiceMsg','Bildirimler tekrar işlendi.')}catch(x){msg('invoiceMsg',x.message,true)}}});
+async function loadNotifications(){msg('notificationsMsg','Yükleniyor...');try{const d=await call('notifications');$('notificationsBody').innerHTML=(d.rows||[]).map(n=>'<tr><td>'+esc(n.order_code)+'</td><td>'+esc(n.channel)+'</td><td>'+esc(n.template_key)+'</td><td>'+esc(n.recipient)+'</td><td>'+pill(n.status)+'</td><td>'+esc(n.provider||'-')+'</td><td><span class="muted">'+esc(n.last_error||'')+(n.sent_at?'<br>'+dt(n.sent_at):'')+'</span></td></tr>').join('')||'<tr><td colspan="7">Kayıt yok.</td></tr>';msg('notificationsMsg',(d.rows||[]).length+' kayıt.')}catch(e){msg('notificationsMsg',e.message,true)}}$('loadNotifications').onclick=loadNotifications;$('retryAll').onclick=async()=>{try{msg('notificationsMsg','Tekrar deneniyor...');const d=await call('retry-pending');msg('notificationsMsg','E-posta: '+(d.email?.length||0)+' · SMS: '+(d.sms?.length||0));await loadNotifications();await summary()}catch(e){msg('notificationsMsg',e.message,true)}};
+async function loadMemberships(){msg('membershipMsg','Yükleniyor...');try{const d=await call('memberships');$('membershipsBody').innerHTML=(d.rows||[]).map(m=>'<tr><td><strong>'+esc(m.code_label||'-')+'</strong></td><td>'+esc(m.plan_name||m.plan_code)+'</td><td><input class="input" data-mowner="'+m.id+'" value="'+esc(m.owner||'')+'"></td><td><input class="input mini" type="number" min="0" data-mremain="'+m.id+'" value="'+Number(m.remaining_analysis_count||0)+'"></td><td><input type="checkbox" data-mactive="'+m.id+'" '+(m.active?'checked':'')+'></td><td><input class="input" type="datetime-local" data-mexpires="'+m.id+'" value="'+(m.expires_at?new Date(m.expires_at).toISOString().slice(0,16):'')+'"></td><td>'+esc(m.order_code||'-')+'</td><td><textarea class="textarea" data-mnote="'+m.id+'">'+esc(m.note||'')+'</textarea></td><td><button class="btn" data-msave="'+m.id+'">Kaydet</button></td></tr>').join('')||'<tr><td colspan="9">Üyelik yok.</td></tr>';msg('membershipMsg',(d.rows||[]).length+' kayıt.')}catch(e){msg('membershipMsg',e.message,true)}}$('loadMemberships').onclick=loadMemberships;
+document.addEventListener('click',async e=>{const t=e.target;if(t.dataset?.msave){const id=t.dataset.msave,q=s=>document.querySelector('['+s+'="'+CSS.escape(id)+'"]');try{await call('update-membership',{id,owner:q('data-mowner')?.value||'',remaining_analysis_count:Number(q('data-mremain')?.value||0),active:!!q('data-mactive')?.checked,expires_at:q('data-mexpires')?.value||null,note:q('data-mnote')?.value||''});msg('membershipMsg','Üyelik güncellendi.');await loadMemberships();await summary()}catch(x){msg('membershipMsg',x.message,true)}}});
+async function providers(){try{const d=await call('provider-status');$('resendState').innerHTML=d.providers?.resend?'<span class="pill ok">Bağlı</span>':'<span class="pill warn">Bağlı değil</span>';$('netgsmState').innerHTML=d.providers?.netgsm?'<span class="pill ok">Bağlı</span>':'<span class="pill warn">Bağlı değil</span>'}catch(e){$('resendState').textContent=e.message;$('netgsmState').textContent=e.message}}$('checkProviders').onclick=providers;
+$('saveResend').onclick=async()=>{const api_key=$('resendKey').value.trim(),from_email=$('resendFrom').value.trim();if(!api_key||!from_email)return $('resendState').textContent='API key ve gönderici e-posta gerekli.';try{$('resendState').textContent='Kaydediliyor...';const d=await call('save-resend',{api_key,from_email});$('resendKey').value='';$('resendState').innerHTML='<span class="pill ok">Bağlı</span><div class="muted">Bekleyen e-posta: '+(d.retried?.length||0)+' tekrar denendi.</div>';await summary()}catch(e){$('resendState').textContent=e.message}};
+$('saveNetgsm').onclick=async()=>{const usercode=$('netUser').value.trim(),password=$('netPass').value.trim(),msgheader=$('netHeader').value.trim();if(!usercode||!password||!msgheader)return $('netgsmState').textContent='Tüm alanları doldur.';try{const d=await call('save-netgsm',{usercode,password,msgheader});$('netPass').value='';$('netgsmState').innerHTML='<span class="pill ok">Bağlı</span><div class="muted">Bekleyen SMS: '+(d.retried?.length||0)+' tekrar denendi.</div>';await summary()}catch(e){$('netgsmState').textContent=e.message}};
+if(secret){$('secret').value=secret;$('loginBtn').click()}
+</script>
+</body></html>
