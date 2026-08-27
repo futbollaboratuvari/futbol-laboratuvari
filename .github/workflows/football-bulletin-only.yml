@@ -32,29 +32,83 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Isolate Spor Toto and build football bulletin
+      - name: Build fresh fixture snapshot outside repository
         shell: bash
         run: |
           set -euo pipefail
+          TMP_ROOT="${RUNNER_TEMP}/fl-football-bulletin-source"
+          rm -rf "$TMP_ROOT"
+          mkdir -p "$TMP_ROOT/scripts" "$TMP_ROOT/data" "$TMP_ROOT/outputs"
+          cp scripts/update-fixtures.js "$TMP_ROOT/scripts/update-fixtures.js"
+          cp scripts/bulletin-active-filter.js "$TMP_ROOT/scripts/bulletin-active-filter.js"
+          (
+            cd "$TMP_ROOT"
+            node scripts/update-fixtures.js
+          )
+          node - "$TMP_ROOT/data/fixtures.json" <<'NODE'
+          const fs = require('fs');
+          const path = process.argv[2];
+          const rows = JSON.parse(fs.readFileSync(path, 'utf8'));
+          const parts = new Intl.DateTimeFormat('en-CA', {
+            timeZone: 'Europe/Istanbul', year: 'numeric', month: '2-digit', day: '2-digit'
+          }).formatToParts(new Date());
+          const bag = Object.fromEntries(parts.map(x => [x.type, x.value]));
+          const today = `${bag.year}-${bag.month}-${bag.day}`;
+          const d = new Date(`${today}T12:00:00Z`);
+          d.setUTCDate(d.getUTCDate() + 1);
+          const tomorrow = d.toISOString().slice(0, 10);
+          const todayCount = rows.filter(m => m.date === today).length;
+          const tomorrowCount = rows.filter(m => m.date === tomorrow).length;
+          console.log(`Fresh isolated source: total=${rows.length}, today=${todayCount}, tomorrow=${tomorrowCount}`);
+          if (rows.length < 20) throw new Error(`Fresh source too small: ${rows.length}`);
+          if (tomorrowCount < 1) throw new Error(`Fresh source has no tomorrow matches: ${tomorrow}`);
+          NODE
+
+      - name: Build only full bulletin with temporary fixture snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          TMP_ROOT="${RUNNER_TEMP}/fl-football-bulletin-source"
+          FIXTURES="data/fixtures.json"
           SPOR_TOTO="data/spor_toto_bulteni.json"
-          BACKUP="${RUNNER_TEMP}/spor_toto_bulteni.json"
-          if [ -f "$SPOR_TOTO" ]; then
-            cp "$SPOR_TOTO" "$BACKUP"
-            BEFORE_SHA="$(sha256sum "$SPOR_TOTO" | awk '{print $1}')"
-            rm "$SPOR_TOTO"
+          FIX_BACKUP="${RUNNER_TEMP}/fixtures.original"
+          SPOR_BACKUP="${RUNNER_TEMP}/spor_toto.original"
+
+          if [ -f "$FIXTURES" ]; then
+            cp "$FIXTURES" "$FIX_BACKUP"
+            FIX_BEFORE="$(sha256sum "$FIXTURES" | awk '{print $1}')"
           else
-            BEFORE_SHA="missing"
+            FIX_BEFORE="missing"
+          fi
+          if [ -f "$SPOR_TOTO" ]; then
+            cp "$SPOR_TOTO" "$SPOR_BACKUP"
+            SPOR_BEFORE="$(sha256sum "$SPOR_TOTO" | awk '{print $1}')"
+          else
+            SPOR_BEFORE="missing"
           fi
 
+          cleanup() {
+            if [ -f "$FIX_BACKUP" ]; then cp "$FIX_BACKUP" "$FIXTURES"; else rm -f "$FIXTURES"; fi
+            if [ -f "$SPOR_BACKUP" ]; then cp "$SPOR_BACKUP" "$SPOR_TOTO"; else rm -f "$SPOR_TOTO"; fi
+          }
+          trap cleanup EXIT
+
+          cp "$TMP_ROOT/data/fixtures.json" "$FIXTURES"
+          rm -f "$SPOR_TOTO"
           node scripts/build-full-bulletin.js
+          cleanup
+          trap - EXIT
 
-          if [ -f "$BACKUP" ]; then
-            cp "$BACKUP" "$SPOR_TOTO"
-            AFTER_SHA="$(sha256sum "$SPOR_TOTO" | awk '{print $1}')"
-            test "$BEFORE_SHA" = "$AFTER_SHA"
+          if [ "$FIX_BEFORE" != "missing" ]; then
+            FIX_AFTER="$(sha256sum "$FIXTURES" | awk '{print $1}')"
+            test "$FIX_BEFORE" = "$FIX_AFTER"
+          fi
+          if [ "$SPOR_BEFORE" != "missing" ]; then
+            SPOR_AFTER="$(sha256sum "$SPOR_TOTO" | awk '{print $1}')"
+            test "$SPOR_BEFORE" = "$SPOR_AFTER"
           fi
 
-      - name: Validate fresh today and tomorrow window
+      - name: Validate fresh today and tomorrow bulletin
         run: |
           node - <<'NODE'
           const fs = require('fs');
@@ -75,10 +129,10 @@ jobs:
           if (data?.date_window?.main_day !== today) throw new Error(`Wrong main day: ${data?.date_window?.main_day} expected ${today}`);
           if (matches.length < 10) throw new Error(`Too few scheduled matches: ${matches.length}`);
           if (tomorrowCount < 1) throw new Error(`Tomorrow window missing: ${tomorrow}`);
-          console.log(`Bulletin OK: scheduled=${matches.length}, today=${todayCount}, tomorrow=${tomorrowCount}`);
+          console.log(`Bulletin OK: scheduled=${matches.length}, today=${todayCount}, tomorrow=${tomorrowCount}, live=${Number(data.live_count || 0)}`);
           NODE
 
-      - name: Verify no unrelated file changed
+      - name: Verify no unrelated repository file changed
         shell: bash
         run: |
           set -euo pipefail
