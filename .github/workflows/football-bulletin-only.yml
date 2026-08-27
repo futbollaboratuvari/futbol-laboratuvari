@@ -12,6 +12,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: football-bulletin-only
@@ -20,6 +22,9 @@ concurrency:
 jobs:
   refresh-bulletin:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
@@ -155,17 +160,34 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/full-bulletin.json
-          if git diff --cached --quiet; then
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh football bulletin only"
+            for attempt in 1 2 3 4 5; do
+              if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+                break
+              fi
+              git rebase --abort || true
+              if [ "$attempt" -eq 5 ]; then
+                echo "Football bulletin push failed"
+                exit 1
+              fi
+              sleep $((attempt * 3))
+            done
+          else
             echo "No bulletin change"
-            exit 0
           fi
-          git commit -m "Refresh football bulletin only"
-          for attempt in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
-              exit 0
-            fi
-            git rebase --abort || true
-            sleep $((attempt * 3))
-          done
-          echo "Football bulletin push failed"
-          exit 1
+
+      - name: Sync current main before Pages upload
+        run: git pull --ff-only origin main
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy football bulletin site snapshot
+        id: deployment
+        uses: actions/deploy-pages@v4
