@@ -4,6 +4,10 @@ const {
   extractLeagueId,
   parseCoreStats,
   competitionParts,
+  parseSportsDbStats,
+  scoreboardTeamStats,
+  comparableStats,
+  safeProviderError,
 } = require('../scripts/update-live-power-series-v2');
 
 assert.strictEqual(extractUidPart('s:600~l:710~e:677419', 'l'), '710');
@@ -49,4 +53,32 @@ assert.deepStrictEqual(
   { leagueId: '710', eventId: '677419', competitionId: '677419', teamId: '176' },
 );
 
+const scoreboardStats = scoreboardTeamStats({
+  competitions: [{ competitors: [
+    { homeAway: 'home', statistics: [{ name: 'shotsOnTarget', displayValue: '2' }, { name: 'wonCorners', displayValue: '3' }] },
+    { homeAway: 'away', statistics: [{ name: 'shotsOnTarget', displayValue: '0' }, { name: 'wonCorners', displayValue: '1' }] },
+  ] }],
+});
+assert.strictEqual(scoreboardStats.home.shots_on_goal, 2);
+assert.strictEqual(scoreboardStats.away.shots_on_goal, 0);
+assert.strictEqual(scoreboardStats.home.corners, 3);
+assert.strictEqual(scoreboardStats.home.expected_goals, null);
+assert.strictEqual(comparableStats(scoreboardStats.home, scoreboardStats.away), true);
+
+const sportsDbStats = parseSportsDbStats({ eventstats: [
+  { strStat: 'Shots on Goal', intHome: '5', intAway: '2' },
+  { strStat: 'Total Shots', intHome: '12', intAway: '7' },
+  { strStat: 'Shots insidebox', intHome: '8', intAway: '3' },
+  { strStat: 'Blocked Shots', intHome: '2', intAway: '1' },
+] });
+assert.strictEqual(sportsDbStats.home.shots_on_goal, 5);
+assert.strictEqual(sportsDbStats.away.total_shots, 7);
+assert.strictEqual(sportsDbStats.home.expected_goals, null);
+assert.strictEqual(comparableStats(sportsDbStats.home, sportsDbStats.away), true);
+
+const safeError = safeProviderError('summary', 'https://example.test/path', Object.assign(new Error('<HTML>Access Denied</HTML>'), { statusCode: 403 }));
+assert.strictEqual(safeError, 'summary:example.test:http_403');
+assert.strictEqual(safeError.includes('HTML'), false);
+
 console.log('live-power-core.test.js OK');
+

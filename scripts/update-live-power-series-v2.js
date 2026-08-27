@@ -12,6 +12,8 @@ const THESPORTSDB_BASE = 'https://www.thesportsdb.com/api/v1/json/123';
 const MAX_MATCHES = Math.max(1, Math.min(12, Number(process.env.LIVE_POWER_MAX_MATCHES || 8)));
 const MAX_SNAPSHOTS = 40;
 const KEEP_RECENT_HOURS = 8;
+const SPORTSDB_EVENT_CACHE = new Map();
+const SPORTSDB_SEARCH_CACHE = new Map();
 
 function readJson(file, fallback) {
   try {
@@ -47,7 +49,9 @@ function requestJson(url) {
       response.on('data', (chunk) => { body += chunk; });
       response.on('end', () => {
         if (response.statusCode < 200 || response.statusCode >= 300) {
-          reject(new Error(`HTTP ${response.statusCode}: ${body.slice(0, 120)}`));
+          const error = new Error(`HTTP ${response.statusCode}`);
+          error.statusCode = response.statusCode;
+          reject(error);
           return;
         }
         try {
@@ -60,6 +64,17 @@ function requestJson(url) {
     request.setTimeout(20000, () => request.destroy(new Error('Kaynak zaman aşımına uğradı.')));
     request.on('error', reject);
   });
+}
+
+function safeProviderError(stage, url, error) {
+  const status = Number(error?.statusCode) || Number(String(error?.message || '').match(/HTTP\s+(\d{3})/i)?.[1]);
+  const code = status
+    ? `http_${status}`
+    : /zaman aşımı|timeout/i.test(String(error?.message || '')) ? 'timeout'
+      : /json/i.test(String(error?.message || '')) ? 'invalid_json' : 'unavailable';
+  let host = 'provider';
+  try { host = new URL(url).hostname; } catch { /* safe fallback */ }
+  return `${stage}:${host}:${code}`.slice(0, 120);
 }
 
 function extractUidPart(value, key) {
@@ -128,7 +143,7 @@ async function fetchScoreboard() {
     try {
       return { payload: await requestJson(url), url, errors };
     } catch (error) {
-      errors.push(`${new URL(url).hostname}: ${error.message}`);
+      errors.push(safeProviderError('scoreboard', url, error));
     }
   }
   throw new Error(errors.join(' | ') || 'ESPN scoreboard unavailable');
@@ -166,16 +181,35 @@ function parseCoreStats(payload) {
 }
 
 function hasUsefulStats(stats) {
-  if (!stats) return false;
-  return [
-    stats.shots_on_goal,
-    stats.total_shots,
-    stats.shots_inside_box,
-    stats.corners,
-    stats.possession,
-    stats.expected_goals,
-    stats.dangerous_attacks,
-  ].some((value) => Number(value || 0) > 0);
+  return base.statsCoverage(stats, stats).common_metric_count > 0;
+}
+
+function scoreboardTeamStats(event) {
+  const competitors = Array.isArray(event?.competitions?.[0]?.competitors)
+    ? event.competitions[0].competitors : [];
+  const rowFor = (side, fallbackIndex) => competitors.find((row) => row?.homeAway === side) || competitors[fallbackIndex];
+  const home = rowFor('home', 0);
+  const away = rowFor('away', 1);
+  return {
+    home: home ? base.parseTeamStatsFromRows(home.statistics) : null,
+    away: away ? base.parseTeamStatsFromRows(away.statistics) : null,
+  };
+}
+
+function mergeStats(...rows) {
+  const fields = [
+    'shots_on_goal', 'total_shots', 'shots_inside_box', 'blocked_shots', 'corners',
+    'possession', 'accurate_passes', 'total_passes', 'expected_goals', 'dangerous_attacks',
+  ];
+  return Object.fromEntries(fields.map((key) => {
+    const found = rows.map((row) => base.finite(row?.[key])).find((value) => value !== null);
+    return [key, found === undefined ? null : found];
+  }));
+}
+
+function comparableStats(home, away) {
+  return hasUsefulStats(home) && hasUsefulStats(away)
+    && base.statsCoverage(home, away).common_metric_count > 0;
 }
 
 function competitionParts(event, side) {
@@ -226,9 +260,9 @@ async function fetchCoreTeamStats(event, side) {
       const payload = await requestJson(url);
       const stats = parseCoreStats(payload);
       if (hasUsefulStats(stats)) return { stats, verified: true, source: 'espn_core_statistics', url, errors, parts };
-      errors.push(`core stats empty: ${url}`);
+      errors.push(safeProviderError(`core_${side}`, url, new Error('empty')));
     } catch (error) {
-      errors.push(`core stats ${new URL(url).pathname}: ${error.message}`);
+      errors.push(safeProviderError(`core_${side}`, url, error));
     }
   }
 
@@ -244,13 +278,13 @@ async function fetchCoreTeamStats(event, side) {
         const refPayload = await requestJson(ref);
         const refStats = parseCoreStats(refPayload);
         if (hasUsefulStats(refStats)) return { stats: refStats, verified: true, source: 'espn_core_ref', url: ref, errors, parts };
-        errors.push('core statistics ref returned no useful soccer stats');
+        errors.push(safeProviderError(`core_ref_${side}`, ref, new Error('empty')));
       } catch (error) {
-        errors.push(`core statistics ref: ${error.message}`);
+        errors.push(safeProviderError(`core_ref_${side}`, ref, error));
       }
     }
   } catch (error) {
-    errors.push(`core competitor: ${error.message}`);
+    errors.push(safeProviderError(`core_competitor_${side}`, baseUrl, error));
   }
 
   return { stats: null, verified: false, errors, parts };
@@ -274,39 +308,161 @@ async function fetchSummaryStats(event) {
         if (hasUsefulStats(stats.home) || hasUsefulStats(stats.away)) {
           return { stats, verified: true, source: 'espn_summary', url, errors, payload };
         }
-        errors.push(`summary empty: ${new URL(url).pathname}`);
+        errors.push(safeProviderError('summary', url, new Error('empty')));
       } catch (error) {
-        errors.push(`summary ${new URL(url).hostname}${new URL(url).pathname}: ${error.message}`);
+        errors.push(safeProviderError('summary', url, error));
       }
     }
   }
   return { stats: { home: null, away: null }, verified: false, errors };
 }
 
-async function fetchObservedStats(event) {
+function sportsDbRows(payload) {
+  if (Array.isArray(payload?.events)) return payload.events;
+  if (Array.isArray(payload?.event)) return payload.event;
+  return [];
+}
+
+async function sportsDbEventsForDate(date) {
+  if (!date) return [];
+  if (!SPORTSDB_EVENT_CACHE.has(date)) {
+    const url = `${THESPORTSDB_BASE}/eventsday.php?d=${encodeURIComponent(date)}&s=Soccer`;
+    SPORTSDB_EVENT_CACHE.set(date, requestJson(url).then(sportsDbRows));
+  }
+  return SPORTSDB_EVENT_CACHE.get(date);
+}
+
+async function searchSportsDbEvent(date, home, away) {
+  const key = `${date}|${base.normalizeName(home)}|${base.normalizeName(away)}`;
+  if (!SPORTSDB_SEARCH_CACHE.has(key)) {
+    const eventName = `${home} vs ${away}`;
+    const url = `${THESPORTSDB_BASE}/searchevents.php?e=${encodeURIComponent(eventName)}&d=${encodeURIComponent(date)}`;
+    SPORTSDB_SEARCH_CACHE.set(key, requestJson(url).then(sportsDbRows));
+  }
+  return SPORTSDB_SEARCH_CACHE.get(key);
+}
+
+function bestSportsDbEvent(events, home, away) {
+  let best = null;
+  for (const event of events || []) {
+    const homeSimilarity = base.nameSimilarity(home, event?.strHomeTeam);
+    const awaySimilarity = base.nameSimilarity(away, event?.strAwayTeam);
+    const similarity = (homeSimilarity + awaySimilarity) / 2;
+    if (homeSimilarity < 0.5 || awaySimilarity < 0.5 || similarity < 0.65) continue;
+    if (!best || similarity > best.similarity) best = { event, similarity };
+  }
+  return best;
+}
+
+async function findSportsDbEvent(dates, home, away) {
+  const errors = [];
+  for (const date of [...new Set((Array.isArray(dates) ? dates : [dates]).filter(Boolean))]) {
+    const dayUrl = `${THESPORTSDB_BASE}/eventsday.php?d=${encodeURIComponent(date)}&s=Soccer`;
+    try {
+      const matched = bestSportsDbEvent(await sportsDbEventsForDate(date), home, away);
+      if (matched) return { ...matched, date, errors };
+    } catch (error) {
+      errors.push(safeProviderError('sportsdb_day', dayUrl, error));
+    }
+    const searchUrl = `${THESPORTSDB_BASE}/searchevents.php?e=${encodeURIComponent(`${home} vs ${away}`)}&d=${encodeURIComponent(date)}`;
+    try {
+      const matched = bestSportsDbEvent(await searchSportsDbEvent(date, home, away), home, away);
+      if (matched) return { ...matched, date, errors };
+    } catch (error) {
+      errors.push(safeProviderError('sportsdb_search', searchUrl, error));
+    }
+  }
+  return { event: null, similarity: 0, errors };
+}
+
+function parseSportsDbStats(payload) {
+  const rows = Array.isArray(payload?.eventstats) ? payload.eventstats : [];
+  const homeRows = rows.map((row) => ({ name: row?.strStat, displayValue: row?.intHome }));
+  const awayRows = rows.map((row) => ({ name: row?.strStat, displayValue: row?.intAway }));
+  return {
+    home: base.parseTeamStatsFromRows(homeRows),
+    away: base.parseTeamStatsFromRows(awayRows),
+  };
+}
+
+async function fetchSportsDbStats(dates, home, away) {
+  const matched = await findSportsDbEvent(dates, home, away);
+  if (!matched.event?.idEvent) return { home: null, away: null, verified: false, errors: matched.errors };
+  const url = `${THESPORTSDB_BASE}/lookupeventstats.php?id=${encodeURIComponent(matched.event.idEvent)}`;
+  try {
+    const stats = parseSportsDbStats(await requestJson(url));
+    return {
+      ...stats,
+      verified: comparableStats(stats.home, stats.away),
+      event_id: String(matched.event.idEvent),
+      similarity: Number(matched.similarity.toFixed(3)),
+      errors: matched.errors,
+    };
+  } catch (error) {
+    return { home: null, away: null, verified: false, errors: [...matched.errors, safeProviderError('sportsdb_stats', url, error)] };
+  }
+}
+
+async function fetchObservedStats(event, site) {
+  const errors = [];
+  const providers = [];
+  const embedded = scoreboardTeamStats(event);
+  let home = embedded.home;
+  let away = embedded.away;
+  if (comparableStats(home, away)) {
+    return {
+      home, away, verified: true, method: 'espn_scoreboard', errors,
+      metadata: { provider_chain: ['espn_scoreboard'], league_id: extractLeagueId(event) },
+    };
+  }
+
   const [homeCore, awayCore] = await Promise.all([
     fetchCoreTeamStats(event, 'home'),
     fetchCoreTeamStats(event, 'away'),
   ]);
-  if (homeCore.verified || awayCore.verified) {
-    return {
-      home: homeCore.stats || base.parseTeamStatsFromRows([]),
-      away: awayCore.stats || base.parseTeamStatsFromRows([]),
-      verified: hasUsefulStats(homeCore.stats) || hasUsefulStats(awayCore.stats),
-      method: 'espn_core',
-      errors: [...homeCore.errors, ...awayCore.errors],
-      metadata: { home: homeCore.source || null, away: awayCore.source || null, league_id: extractLeagueId(event) },
-    };
+  errors.push(...homeCore.errors, ...awayCore.errors);
+  if (homeCore.verified || awayCore.verified) providers.push('espn_core');
+  home = mergeStats(home, homeCore.stats);
+  away = mergeStats(away, awayCore.stats);
+
+  if (!comparableStats(home, away)) {
+    const summary = await fetchSummaryStats(event);
+    errors.push(...summary.errors);
+    if (summary.verified) providers.push('espn_summary');
+    home = mergeStats(home, summary.stats.home);
+    away = mergeStats(away, summary.stats.away);
   }
 
-  const summary = await fetchSummaryStats(event);
+  let sportsDb = null;
+  if (!comparableStats(home, away)) {
+    const teams = base.espnEventTeams(event);
+    sportsDb = await fetchSportsDbStats(
+      [site?.date, String(event?.date || '').slice(0, 10)],
+      teams.home,
+      teams.away,
+    );
+    errors.push(...sportsDb.errors);
+    if (sportsDb.verified) providers.push('thesportsdb_event_stats');
+    home = mergeStats(home, sportsDb.home);
+    away = mergeStats(away, sportsDb.away);
+  }
+
+  const verified = comparableStats(home, away);
+  const method = providers.includes('espn_summary') ? 'espn_summary'
+    : providers.includes('espn_core') ? 'espn_core'
+      : providers.includes('thesportsdb_event_stats') ? 'thesportsdb_event_stats' : 'none';
   return {
-    home: summary.stats.home || base.parseTeamStatsFromRows([]),
-    away: summary.stats.away || base.parseTeamStatsFromRows([]),
-    verified: summary.verified,
-    method: summary.verified ? 'espn_summary' : 'none',
-    errors: [...homeCore.errors, ...awayCore.errors, ...summary.errors],
-    metadata: { league_id: extractLeagueId(event), summary_url: summary.url || null },
+    home,
+    away,
+    verified,
+    method,
+    errors,
+    metadata: {
+      provider_chain: providers,
+      league_id: extractLeagueId(event),
+      sportsdb_event_id: sportsDb?.event_id || null,
+      sportsdb_similarity: sportsDb?.similarity ?? null,
+    },
   };
 }
 
@@ -315,22 +471,15 @@ function recentEnough(iso, hours = KEEP_RECENT_HOURS) {
   return Number.isFinite(time) && (Date.now() - time) <= hours * 3600 * 1000;
 }
 
-async function verifyWithSportsDb(date, home, away) {
-  if (!date) return { checked: false, matched: false };
-  try {
-    const payload = await requestJson(`${THESPORTSDB_BASE}/eventsday.php?d=${encodeURIComponent(date)}&s=Soccer`);
-    const events = Array.isArray(payload?.events) ? payload.events : [];
-    let best = 0;
-    for (const event of events) {
-      const homeSim = base.nameSimilarity(home, event?.strHomeTeam);
-      const awaySim = base.nameSimilarity(away, event?.strAwayTeam);
-      const score = (homeSim + awaySim) / 2;
-      if (homeSim >= 0.5 && awaySim >= 0.5 && score > best) best = score;
-    }
-    return { checked: true, matched: best >= 0.65, similarity: Number(best.toFixed(3)) };
-  } catch (error) {
-    return { checked: false, matched: false, error: String(error.message || error).slice(0, 160) };
-  }
+async function verifyWithSportsDb(dates, home, away) {
+  const result = await findSportsDbEvent(dates, home, away);
+  return {
+    checked: result.errors.length === 0,
+    matched: Boolean(result.event),
+    event_id: result.event?.idEvent ? String(result.event.idEvent) : null,
+    similarity: result.event ? Number(result.similarity.toFixed(3)) : 0,
+    errors: result.errors,
+  };
 }
 
 async function main() {
@@ -345,7 +494,7 @@ async function main() {
       schema_version: 1,
       timezone: 'Europe/Istanbul',
       status: 'provider_error',
-      source: 'ESPN Scoreboard + ESPN Core/Summary',
+      source: 'ESPN Scoreboard + ESPN Core/Summary + TheSportsDB event stats',
       source_verified: false,
       sampling: {
         ...(previous.sampling || {}),
@@ -356,7 +505,7 @@ async function main() {
         paid_api_required: false,
       },
       message: 'Ücretsiz ESPN canlı veri kaynağına geçici olarak ulaşılamadı. Eski doğrulanmış veriler korunuyor.',
-      provider_errors: [String(error.message || error).slice(0, 280)],
+      provider_errors: [safeProviderError('scoreboard', 'https://site.web.api.espn.com/', error)],
     };
     writeIfChanged(OUTPUT_FILE, previous, payload);
     return;
@@ -382,13 +531,15 @@ async function main() {
   const active = [];
   const errors = [...(scoreboard.errors || [])];
   let statsSuccessCount = 0;
+  let scoreboardStatsCount = 0;
   let coreStatsCount = 0;
   let summaryStatsCount = 0;
+  let sportsDbStatsCount = 0;
   let sportsDbVerifiedCount = 0;
 
   for (const item of matched.slice(0, MAX_MATCHES)) {
-    const observed = await fetchObservedStats(item.event);
-    errors.push(...observed.errors.map((value) => `${item.eventId}: ${value}`));
+    const observed = await fetchObservedStats(item.event, item.site);
+    errors.push(...observed.errors.map((value) => `${item.eventId}:${value}`.slice(0, 140)));
     if (!observed.verified || (!hasUsefulStats(observed.home) && !hasUsefulStats(observed.away))) {
       const old = previousMap.get(item.eventId);
       if (old) active.push({ ...old, status: 'stats_temporarily_unavailable' });
@@ -396,8 +547,10 @@ async function main() {
     }
 
     statsSuccessCount += 1;
+    if (observed.method === 'espn_scoreboard') scoreboardStatsCount += 1;
     if (observed.method === 'espn_core') coreStatsCount += 1;
     if (observed.method === 'espn_summary') summaryStatsCount += 1;
+    if (observed.method === 'thesportsdb_event_stats') sportsDbStatsCount += 1;
 
     const minute = base.extractMinute(item.event, null);
     if (minute === null) continue;
@@ -417,7 +570,8 @@ async function main() {
     };
     const snapshots = base.mergeSnapshot(oldSnapshots, snapshot).slice(-MAX_SNAPSHOTS);
     const matchDate = String(item.event?.date || '').slice(0, 10);
-    const sportsDb = await verifyWithSportsDb(matchDate, teams.home, teams.away);
+    const sportsDb = await verifyWithSportsDb([item.site.date, matchDate], teams.home, teams.away);
+    errors.push(...sportsDb.errors.map((value) => `${item.eventId}:${value}`.slice(0, 140)));
     if (sportsDb.matched) sportsDbVerifiedCount += 1;
 
     active.push({
@@ -432,13 +586,17 @@ async function main() {
       away: teams.away,
       source_match: item.site,
       source_match_similarity: Number(item.similarity.toFixed(3)),
-      source: observed.method === 'espn_core' ? 'ESPN Core live statistics' : 'ESPN match summary',
+      source: observed.method === 'espn_scoreboard' ? 'ESPN Scoreboard embedded live statistics'
+        : observed.method === 'espn_core' ? 'ESPN Core live statistics'
+          : observed.method === 'espn_summary' ? 'ESPN match summary'
+            : 'TheSportsDB event statistics',
       source_verified: true,
       verification: {
         stats_method: observed.method,
         stats_metadata: observed.metadata,
         thesportsdb_checked: sportsDb.checked,
         thesportsdb_matched: sportsDb.matched,
+        thesportsdb_event_id: sportsDb.event_id,
         thesportsdb_similarity: sportsDb.similarity ?? null,
       },
       snapshots,
@@ -459,8 +617,8 @@ async function main() {
     schema_version: 1,
     generated_at: now,
     timezone: 'Europe/Istanbul',
-    status: active.length ? 'ok' : (events.length ? 'no_matching_verified_stats' : 'no_live_matches'),
-    source: 'ESPN Scoreboard + ESPN Core/Summary',
+    status: statsSuccessCount > 0 ? 'ok' : (events.length ? 'no_matching_verified_stats' : 'no_live_matches'),
+    source: 'ESPN Scoreboard + ESPN Core/Summary + TheSportsDB event stats',
     source_verified: true,
     sampling: {
       workflow_interval_minutes: 30,
@@ -473,24 +631,26 @@ async function main() {
       espn_live_event_count: events.length,
       site_candidate_count: candidates.length,
       matched_fixture_count: matched.length,
-      sampled_match_count: active.length,
+      sampled_match_count: statsSuccessCount,
       stats_success_count: statsSuccessCount,
+      scoreboard_stats_count: scoreboardStatsCount,
       core_stats_count: coreStatsCount,
       summary_stats_count: summaryStatsCount,
+      thesportsdb_stats_count: sportsDbStatsCount,
       thesportsdb_verified_count: sportsDbVerifiedCount,
     },
-    message: active.length
-      ? 'Canlı Team Power ve Goal Power yalnız ESPN üzerinde gerçekten gözlenen maç istatistiklerinden üretildi.'
+    message: statsSuccessCount > 0
+      ? 'Canlı Team Power ve Goal Power yalnız kaynaklarda gerçekten gözlenen maç istatistiklerinden üretildi; veri kapsamı her snapshotta ayrıca gösterildi.'
       : (events.length
         ? 'Canlı maçlar bulundu ancak ayrıntılı doğrulanmış istatistik yeterli değildi; veri uydurulmadı.'
         : 'Şu anda ESPN kaynağında canlı maç bulunmuyor.'),
     matches: active,
     recent_matches: recent,
-    provider_errors: errors.slice(-24),
+    provider_errors: [...new Set(errors)].slice(-24),
   };
 
   const changed = writeIfChanged(OUTPUT_FILE, previous, payload);
-  console.log(`Live power v2: live=${events.length}, matched=${matched.length}, sampled=${active.length}, core=${coreStatsCount}, summary=${summaryStatsCount}, changed=${changed}`);
+  console.log(`Live power v2: live=${events.length}, matched=${matched.length}, sampled=${statsSuccessCount}, preserved=${active.length - statsSuccessCount}, scoreboard=${scoreboardStatsCount}, core=${coreStatsCount}, summary=${summaryStatsCount}, sportsdb=${sportsDbStatsCount}, changed=${changed}`);
 }
 
 if (require.main === module) {
@@ -506,6 +666,12 @@ module.exports = {
   extractLeagueId,
   statRowsFromTree,
   parseCoreStats,
+  parseSportsDbStats,
+  scoreboardTeamStats,
+  mergeStats,
+  comparableStats,
+  safeProviderError,
   competitionParts,
   hasUsefulStats,
 };
+

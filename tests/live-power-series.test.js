@@ -10,6 +10,7 @@ const {
   isLiveEspnEvent,
   boxscoreTeams,
   extractMinute,
+  statsCoverage,
 } = require('../scripts/update-live-power-series');
 
 assert.strictEqual(finite('62%'), 62);
@@ -29,6 +30,16 @@ assert.strictEqual(parsed.total_shots, 11);
 assert.strictEqual(parsed.corners, 6);
 assert.strictEqual(parsed.possession, 57);
 assert.strictEqual(parsed.expected_goals, 1.42);
+assert.strictEqual(parsed.shots_inside_box, null);
+assert.strictEqual(parsed.dangerous_attacks, null);
+
+const scoreboardStyle = parseTeamStatsFromRows([
+  { name: 'wonCorners', displayValue: '4' },
+  { name: 'shotsOnTarget', displayValue: '0' },
+]);
+assert.strictEqual(scoreboardStyle.corners, 4);
+assert.strictEqual(scoreboardStyle.shots_on_goal, 0);
+assert.strictEqual(scoreboardStyle.expected_goals, null);
 
 const event = {
   id: '401234567',
@@ -94,6 +105,8 @@ const first = computePower(
 assert.ok(first.team_power.home > first.team_power.away);
 assert.ok(first.goal_power.home > first.goal_power.away);
 assert.strictEqual(first.momentum.home, null);
+assert.ok(first.data_coverage.common_metric_count >= 6);
+assert.strictEqual(first.data_coverage.expected_goals_observed.home, true);
 
 const previousSnapshot = {
   minute: 55,
@@ -121,4 +134,12 @@ const snapshots = mergeSnapshot([
 assert.strictEqual(snapshots.length, 2);
 assert.strictEqual(snapshots[1].marker, 'replace');
 
+const emptyStats = parseTeamStatsFromRows([]);
+const unavailable = computePower(emptyStats, emptyStats, 12, null, null, null);
+assert.strictEqual(unavailable.team_power.home, null);
+assert.strictEqual(unavailable.goal_power.home, null);
+assert.strictEqual(unavailable.data_coverage.label, 'unavailable');
+assert.deepStrictEqual(statsCoverage(emptyStats, emptyStats).common_metrics, []);
+
 console.log('live-power-series.test.js OK');
+

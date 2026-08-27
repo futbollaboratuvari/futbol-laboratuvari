@@ -13,6 +13,16 @@ const THESPORTSDB_BASE = 'https://www.thesportsdb.com/api/v1/json/123';
 const MAX_MATCHES = Math.max(1, Math.min(12, Number(process.env.LIVE_POWER_MAX_MATCHES || 8)));
 const KEEP_RECENT_HOURS = 8;
 const MAX_SNAPSHOTS = 40;
+const POWER_METRICS = [
+  'shots_on_goal',
+  'total_shots',
+  'shots_inside_box',
+  'blocked_shots',
+  'corners',
+  'possession',
+  'expected_goals',
+  'dangerous_attacks',
+];
 
 function readJson(file, fallback) {
   try {
@@ -242,7 +252,7 @@ function firstStat(map, names) {
     const number = finite(value);
     if (number !== null) return number;
   }
-  return 0;
+  return null;
 }
 
 function parseTeamStatsFromRows(rows) {
@@ -252,7 +262,7 @@ function parseTeamStatsFromRows(rows) {
     total_shots: firstStat(map, ['total shots', 'shots total', 'shots']),
     shots_inside_box: firstStat(map, ['shots inside box', 'shots insidebox']),
     blocked_shots: firstStat(map, ['blocked shots']),
-    corners: firstStat(map, ['corner kicks', 'corners', 'corner kick']),
+    corners: firstStat(map, ['corner kicks', 'corners', 'corner kick', 'won corners', 'woncorners']),
     possession: firstStat(map, ['possession', 'ball possession', 'possessionpct']),
     accurate_passes: firstStat(map, ['accurate passes', 'passes accurate', 'accuratepasses']),
     total_passes: firstStat(map, ['total passes', 'passes total', 'passes']),
@@ -274,76 +284,126 @@ function boxscoreTeams(summary) {
 
 function hasUsefulStats(stats) {
   if (!stats) return false;
-  return [
-    stats.shots_on_goal,
-    stats.total_shots,
-    stats.shots_inside_box,
-    stats.corners,
-    stats.possession,
-    stats.expected_goals,
-    stats.dangerous_attacks,
-  ].some((value) => Number(value || 0) > 0);
+  return POWER_METRICS.some((key) => finite(stats[key]) !== null);
 }
 
-function attackWeight(stats, goals = 0) {
-  return (stats.shots_on_goal * 4.5)
-    + (stats.total_shots * 1.25)
-    + (stats.shots_inside_box * 1.8)
-    + (stats.blocked_shots * 0.35)
-    + (stats.corners * 1.1)
-    + (stats.possession * 0.05)
-    + (stats.expected_goals * 12)
-    + (stats.dangerous_attacks * 0.25)
-    + (Number(goals || 0) * 7);
+function metricValue(stats, key) {
+  return finite(stats?.[key]);
 }
 
-function goalThreat(stats, minute, goals = 0) {
-  const weighted = (stats.shots_on_goal * 5)
-    + (stats.total_shots * 1.2)
-    + (stats.shots_inside_box * 2)
-    + (stats.corners * 1.2)
-    + (stats.expected_goals * 18)
-    + (stats.dangerous_attacks * 0.25)
-    + (Number(goals || 0) * 5);
+function weightedMetrics(stats, weights, allowedMetrics = null) {
+  return Object.entries(weights).reduce((sum, [key, weight]) => {
+    if (allowedMetrics && !allowedMetrics.includes(key)) return sum;
+    const value = metricValue(stats, key);
+    return value === null ? sum : sum + (value * weight);
+  }, 0);
+}
+
+function attackWeight(stats, goals = null, allowedMetrics = null) {
+  const weights = {
+    shots_on_goal: 4.5,
+    total_shots: 1.25,
+    shots_inside_box: 1.8,
+    blocked_shots: 0.35,
+    corners: 1.1,
+    possession: 0.05,
+    expected_goals: 12,
+    dangerous_attacks: 0.25,
+  };
+  const goalValue = finite(goals);
+  return weightedMetrics(stats, weights, allowedMetrics) + (goalValue === null ? 0 : goalValue * 7);
+}
+
+function goalThreat(stats, minute, goals = null, allowedMetrics = null) {
+  const weights = {
+    shots_on_goal: 5,
+    total_shots: 1.2,
+    shots_inside_box: 2,
+    corners: 1.2,
+    expected_goals: 18,
+    dangerous_attacks: 0.25,
+  };
+  const available = Object.keys(weights).filter((key) => (!allowedMetrics || allowedMetrics.includes(key)) && metricValue(stats, key) !== null);
+  const goalValue = finite(goals);
+  if (!available.length && goalValue === null) return null;
+  const weighted = weightedMetrics(stats, weights, allowedMetrics) + (goalValue === null ? 0 : goalValue * 5);
   const elapsed = Math.max(10, Number(minute || 0));
   return clamp(Math.round((weighted / elapsed) * 32));
 }
 
 function deltaValue(current, previous, key) {
-  return Math.max(0, Number(current?.[key] || 0) - Number(previous?.[key] || 0));
+  const currentValue = finite(current?.[key]);
+  const previousValue = finite(previous?.[key]);
+  if (currentValue === null || previousValue === null) return null;
+  return Math.max(0, currentValue - previousValue);
 }
 
 function momentumScore(current, previous, minute, previousMinute, goals, previousGoals) {
   if (!previous || previousMinute === null || previousMinute === undefined) return null;
   const deltaMinutes = Math.max(1, Number(minute || 0) - Number(previousMinute || 0));
-  const deltaThreat = (deltaValue(current, previous, 'shots_on_goal') * 12)
-    + (deltaValue(current, previous, 'total_shots') * 4)
-    + (deltaValue(current, previous, 'shots_inside_box') * 6)
-    + (deltaValue(current, previous, 'corners') * 4)
-    + (deltaValue(current, previous, 'expected_goals') * 35)
-    + (deltaValue(current, previous, 'dangerous_attacks') * 0.6)
-    + (Math.max(0, Number(goals || 0) - Number(previousGoals || 0)) * 18);
+  const deltas = [
+    ['shots_on_goal', 12],
+    ['total_shots', 4],
+    ['shots_inside_box', 6],
+    ['corners', 4],
+    ['expected_goals', 35],
+    ['dangerous_attacks', 0.6],
+  ].map(([key, weight]) => {
+    const value = deltaValue(current, previous, key);
+    return value === null ? null : value * weight;
+  }).filter((value) => value !== null);
+  const currentGoals = finite(goals);
+  const oldGoals = finite(previousGoals);
+  if (currentGoals !== null && oldGoals !== null) deltas.push(Math.max(0, currentGoals - oldGoals) * 18);
+  if (!deltas.length) return null;
+  const deltaThreat = deltas.reduce((sum, value) => sum + value, 0);
   return clamp(Math.round((deltaThreat / deltaMinutes) * 10));
 }
 
-function computePower(homeStats, awayStats, minute, homeGoals = 0, awayGoals = 0, previousSnapshot = null) {
-  const homeRaw = attackWeight(homeStats, homeGoals);
-  const awayRaw = attackWeight(awayStats, awayGoals);
+function statsCoverage(homeStats, awayStats) {
+  const homeMetrics = POWER_METRICS.filter((key) => metricValue(homeStats, key) !== null);
+  const awayMetrics = POWER_METRICS.filter((key) => metricValue(awayStats, key) !== null);
+  const commonMetrics = homeMetrics.filter((key) => awayMetrics.includes(key));
+  const ratio = Number((commonMetrics.length / POWER_METRICS.length).toFixed(3));
+  return {
+    home_metric_count: homeMetrics.length,
+    away_metric_count: awayMetrics.length,
+    common_metric_count: commonMetrics.length,
+    common_metrics: commonMetrics,
+    missing_metrics: POWER_METRICS.filter((key) => !commonMetrics.includes(key)),
+    ratio,
+    label: ratio >= 0.75 ? 'high' : ratio >= 0.4 ? 'medium' : ratio > 0 ? 'limited' : 'unavailable',
+    expected_goals_observed: {
+      home: homeMetrics.includes('expected_goals'),
+      away: awayMetrics.includes('expected_goals'),
+    },
+  };
+}
+
+function computePower(homeStats, awayStats, minute, homeGoals = null, awayGoals = null, previousSnapshot = null) {
+  const coverage = statsCoverage(homeStats, awayStats);
+  const comparableGoals = finite(homeGoals) !== null && finite(awayGoals) !== null;
+  const homeRaw = attackWeight(homeStats, comparableGoals ? homeGoals : null, coverage.common_metrics);
+  const awayRaw = attackWeight(awayStats, comparableGoals ? awayGoals : null, coverage.common_metrics);
   const total = homeRaw + awayRaw;
-  const homeShare = total > 0 ? Math.round((homeRaw / total) * 100) : 50;
-  const awayShare = 100 - homeShare;
+  const homeShare = total > 0 ? Math.round((homeRaw / total) * 100) : null;
+  const awayShare = homeShare === null ? null : 100 - homeShare;
   const previousStats = previousSnapshot?.stats || {};
   const previousScore = previousSnapshot?.score || {};
   return {
-    team_power: { home: clamp(homeShare), away: clamp(awayShare) },
+    team_power: {
+      home: homeShare === null ? null : clamp(homeShare),
+      away: awayShare === null ? null : clamp(awayShare),
+    },
     goal_power: {
-      home: goalThreat(homeStats, minute, homeGoals),
-      away: goalThreat(awayStats, minute, awayGoals),
+      home: goalThreat(homeStats, minute, homeGoals, coverage.common_metrics),
+      away: goalThreat(awayStats, minute, awayGoals, coverage.common_metrics),
     },
     momentum: {
       home: momentumScore(homeStats, previousStats.home, minute, previousSnapshot?.minute, homeGoals, previousScore.home),
       away: momentumScore(awayStats, previousStats.away, minute, previousSnapshot?.minute, awayGoals, previousScore.away),
     },
+    data_coverage: coverage,
   };
 }
 
@@ -566,6 +626,7 @@ module.exports = {
   normalizeName,
   nameSimilarity,
   parseTeamStatsFromRows,
+  statsCoverage,
   computePower,
   mergeSnapshot,
   espnEventTeams,
@@ -573,3 +634,4 @@ module.exports = {
   boxscoreTeams,
   extractMinute,
 };
+

@@ -29,6 +29,7 @@
       .flp-topline{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin-bottom:10px}.flp-topline small{color:#7893a4}.flp-topline h3{margin:2px 0 3px;font-size:20px}.flp-score{font-weight:950;color:#fff}.flp-current{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin:10px 0}.flp-current div{padding:9px;border-radius:10px;background:#0b2430}.flp-current span{display:block;color:#7893a4;font-size:9px}.flp-current b{display:block;margin-top:3px;color:#fff;font-size:17px}.flp-current small{display:block;color:#8ecfdf;font-size:8px}
       .flp-chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.flp-chart{border:1px solid rgba(255,255,255,.07);border-radius:12px;background:#071923;padding:9px}.flp-chart-head{display:flex;justify-content:space-between;gap:9px;align-items:center;margin-bottom:6px}.flp-chart-head b{font-size:12px}.flp-legend{display:flex;gap:8px;font-size:8px;color:#8ea5b2}.flp-legend i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:3px}.flp-home-dot{background:#65e5a5}.flp-away-dot{background:#63bbff}.flp-chart svg{display:block;width:100%;height:auto}.flp-gridline{stroke:rgba(255,255,255,.08);stroke-width:1}.flp-axis{fill:#657e8d;font-size:9px}.flp-home-line{fill:none;stroke:#65e5a5;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}.flp-away-line{fill:none;stroke:#63bbff;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}.flp-linkline{stroke-dasharray:4 4;opacity:.65}.flp-home-point{fill:#65e5a5}.flp-away-point{fill:#63bbff}
       .flp-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}.flp-teamstats{padding:10px;border-radius:11px;background:#0a1e29}.flp-teamstats h4{margin:0 0 7px;font-size:11px}.flp-statrow{display:flex;justify-content:space-between;gap:8px;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.05);font-size:9px;color:#8199a8}.flp-statrow b{color:#fff}.flp-note{margin:10px 0 0;color:#6f8998;font-size:9px;line-height:1.5}.flp-note b{color:#aeeaff}
+      .flp-coverage{margin:8px 0;padding:8px 10px;border-radius:9px;background:#0a202b;color:#8fb1c0;font-size:9px;line-height:1.45}.flp-coverage b{color:#dff8ff}
       @media(max-width:900px){.flp-layout{grid-template-columns:1fr}.flp-list{display:flex;gap:7px;overflow:auto}.flp-list h3{display:none}.flp-match{min-width:235px;margin:0}.flp-chart-grid{grid-template-columns:1fr}}
       @media(max-width:620px){.flp{margin:18px 8px;border-radius:15px}.flp-head{display:block;padding:16px 14px 10px}.flp-badge{display:inline-block;margin-top:8px}.flp-status{margin:0 14px 10px}.flp-layout{padding:0 14px 14px}.flp-current{grid-template-columns:1fr 1fr}.flp-stats{grid-template-columns:1fr}.flp-topline{display:block}.flp-score{margin-top:6px}}
     `;
@@ -116,11 +117,16 @@
     const snap = lastSnapshot(match) || {};
     const status = match.status === 'live' ? 'CANLI' : 'SON KAYIT';
     const source = match.source || state.data?.source || 'ESPN canlı istatistikleri';
+    const coverage = snap.data_coverage || {};
+    const coverageLabels = { high: 'Yüksek', medium: 'Orta', limited: 'Sınırlı', unavailable: 'Veri bekleniyor' };
+    const xgObserved = coverage.expected_goals_observed?.home || coverage.expected_goals_observed?.away;
+    const coverageHtml = `<div class="flp-coverage"><b>Veri kapsamı: ${esc(coverageLabels[coverage.label] || 'Belirsiz')}</b> · İki takımda ortak ${esc(coverage.common_metric_count ?? '—')}/8 metrik. xG: ${esc(xgObserved ? 'kaynakta gözlendi' : 'doğrulanmış veri yok')}. Eksik alanlar sıfır kabul edilmez.</div>`;
     return `<div class="flp-topline"><div><small>${esc(match.league || 'Lig')} · ${esc(status)}</small><h3>${esc(match.home)} - ${esc(match.away)}</h3><div class="flp-score">${esc(snap.score?.home ?? '—')} - ${esc(snap.score?.away ?? '—')} · ${esc(snap.minute ?? '—')}'</div></div><small>Kaynak: ${esc(source)}</small></div>
       <div class="flp-current"><div><span>Team Power · Ev</span><b>${esc(pct(snap.team_power?.home))}</b><small>Maç içi güç payı</small></div><div><span>Team Power · Dep</span><b>${esc(pct(snap.team_power?.away))}</b><small>Maç içi güç payı</small></div><div><span>Goal Power · Ev</span><b>${esc(pct(snap.goal_power?.home))}</b><small>Gol tehdit yoğunluğu</small></div><div><span>Goal Power · Dep</span><b>${esc(pct(snap.goal_power?.away))}</b><small>Gol tehdit yoğunluğu</small></div></div>
+      ${coverageHtml}
       <div class="flp-chart-grid">${chart(match, 'team_power', 'Team Power zaman serisi')}${chart(match, 'goal_power', 'Goal Power zaman serisi')}</div>
       <div class="flp-stats"><div class="flp-teamstats"><h4>${esc(match.home)} · ham canlı veriler</h4>${statRows(snap.stats?.home)}</div><div class="flp-teamstats"><h4>${esc(match.away)} · ham canlı veriler</h4>${statRows(snap.stats?.away)}</div></div>
-      <p class="flp-note"><b>Önemli:</b> Noktalar yalnız ücretsiz veri kaynağından gerçekten gözlenen dakikalardır. Aradaki dakikalar ölçülmüş gibi gösterilmez; çizgiler yalnız gözlem noktalarını birbirine bağlar. Team Power sonuç olasılığı değildir. Goal Power da gol garantisi değil, mevcut canlı şut/ceza sahası/korner/xG yoğunluğundan türetilen tehdit göstergesidir.</p>`;
+      <p class="flp-note"><b>Önemli:</b> Noktalar yalnız ücretsiz veri kaynağından gerçekten gözlenen dakikalardır. Aradaki dakikalar ölçülmüş gibi gösterilmez; çizgiler yalnız gözlem noktalarını birbirine bağlar. Team Power sonuç olasılığı değildir. Goal Power da gol garantisi değil, yalnız o snapshotta kaynakta bulunan canlı hücum metriklerinden türetilen tehdit göstergesidir.</p>`;
   }
 
   function statusLabel(status, hasMatches) {
@@ -182,3 +188,4 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot, { once: true });
   else boot();
 })();
+
