@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-28 / 2026-08-29
 Kaynak: fixtures.json
-Ham mac: 256
-Aktif mac: 250
-Canli mac: 4
-Biten mac: 2
-Bultenden dusurulen mac: 6
-Bugun: 227
+Ham mac: 254
+Aktif mac: 249
+Canli mac: 5
+Biten mac: 0
+Bultenden dusurulen mac: 5
+Bugun: 226
 Yarin: 23
 
 ## Baslamamis Maclar
-- 2026-08-28 03:15 | Arjantin Kupa Son 16 Turu | Platense - Instituto Cordo | scheduled | -
 - 2026-08-28 03:30 | Bolivya Premier Lig | Bolivar - Academia Del Ba | scheduled | -
 - 2026-08-28 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Cd Tapatio | scheduled | -
 - 2026-08-28 04:00 | Meksika Ascenso MX Apertura | Cancun Fc - Ca La Paz | scheduled | -
@@ -267,7 +266,7 @@ Yarin: 23
 - 2026-08-28 01:30 | Bolivya Premier Lig | Independiente - Guabira | live | -
 - 2026-08-28 02:00 | Brezilya Kupa Çeyrek Final | Internacional - Gremio | live | -
 - 2026-08-28 02:10 | Kolombiya Primera A Clausura | Llaneros - Los Millionario | live | -
+- 2026-08-28 03:15 | Arjantin Kupa Son 16 Turu | Platense - Instituto Cordo | live | -
 
 ## Biten Maclar
-- 2026-08-28 00:15 | Uruguay Kupa Ön Eleme Turu Grup 5 | Nacional Df - Albion | finished | -
-- 2026-08-28 00:30 | Paraguay Kupa 3.Tur | Resistencia - Cerro Porteno | finished | -
+Biten mac yok.

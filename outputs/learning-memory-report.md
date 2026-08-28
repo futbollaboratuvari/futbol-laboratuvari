@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 28.08.2026 03:02:44
+Oluşturma: 28.08.2026 03:26:13
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1137
+- Bekleyen tahmin: 1140
 - Kazanan tahmin: 163
-- Kaybeden tahmin: 199
+- Kaybeden tahmin: 196
 - Lig sayısı: 217
 - Seçenek sayısı: 7
 
@@ -21,15 +21,18 @@ Oluşturma: 28.08.2026 03:02:44
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 93, bekleyen 66, başarı %89, ağırlık 1.12
-- 2.5 Alt: toplam 309, bekleyen 235, başarı %62, ağırlık 1.12
+- 2.5 Alt: toplam 312, bekleyen 238, başarı %62, ağırlık 1.12
 - MS 1: toplam 327, bekleyen 262, başarı %43, ağırlık 0.94
-- MS 2: toplam 342, bekleyen 231, başarı %36, ağırlık 0.88
-- MS X: toplam 269, bekleyen 184, başarı %29, ağırlık 0.88
+- MS 2: toplam 341, bekleyen 231, başarı %36, ağırlık 0.88
+- MS X: toplam 267, bekleyen 184, başarı %30, ağırlık 0.88
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-28 | Galler FAW Championship Kuzey | Y Rhyl 1879 - Bala Town | 2.5 Alt | pending | 59/100
+- 2026-08-28 | İsveç 2.Lig Vastra Götaland | Böljan - Qviding | 2.5 Alt | pending | 59/100
+- 2026-08-28 | Almanya Bölgesel Lig Bayern | Ansbach 09 - Schwaben Augsbu | 2.5 Alt | pending | 58/100
 - 2026-08-28 | Uruguay Kupa Ön Eleme Turu Grup 5 | Nacional Df - Albion | 2.5 Alt | pending | 60/100
 - 2026-08-28 | Paraguay Kupa 3.Tur | Resistencia - Cerro Porteno | MS 2 | pending | 46/100
 - 2026-08-28 | Arjantin Premier Lig 2. Aşama | Boca Juniors - Lanus | MS 1 | pending | 42/100
@@ -42,7 +45,4 @@ Oluşturma: 28.08.2026 03:02:44
 - 2026-08-28 | Kosta Rika Premier Lig Apertura | Sporting San J - Inter San Carlo | MS 1 | pending | 49/100
 - 2026-08-28 | Guatemala Ulusal Lig Apertura | Suchitepequez - Coban Imperial | 2.5 Üst | pending | 71/100
 - 2026-08-28 | Meksika Liga MX Apertura | Club Tijuana - Pumas Unam | 2.5 Alt | pending | 74/100
-- 2026-08-28 | Avustralya NPL Tazmanya Ön Eleme Final | South Hobart - Kingborough Lio | MS 1 | pending | 37/100
-- 2026-08-28 | Avustralya NPL Kuzey YGG Play-Off 1.Tur | Kahibah (2) - (1) New Lambton Fc | MS 1 | pending | 42/100
-- 2026-08-28 | İngiltere Championship | Wrexham - Birmingham | 2.5 Üst | pending | 73/100
 
