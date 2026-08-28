@@ -1,20 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-28T09:46:14.537502+00:00
+Tarih: 2026-08-28T11:15:51.696316+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 250
+- Kac mac bulundu: 228
 - Kac mac kaydedildi: 6
-- Kac mac zaten vardi: 244
-- Ham veri havuzu toplam mac sayisi: 9574
+- Kac mac zaten vardi: 222
+- Ham veri havuzu toplam mac sayisi: 9580
 - Hedef tarih: 28.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 1
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bundesliga
@@ -22,10 +21,6 @@ Tarih: 2026-08-28T09:46:14.537502+00:00
 - Almanya Bölgesel Lig Güney Batı
 - Almanya Bölgesel Lig Kuzey Doğu
 - Almanya Kadınlar Bundesliga
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
-- Avustralya NPL Kuzey YGG Play-Off 1.Tur
-- Avustralya NPL Tazmanya Ön Eleme Final
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Bahreyn Premier Lig
@@ -36,13 +31,11 @@ Tarih: 2026-08-28T09:46:14.537502+00:00
 - Birleşik Arap Emirlikleri 1.Lig
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bosna-Hersek Premier Lig
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Faroe Adaları Master Lig
 - Finlandiya Ykkösliiga
 - Fransa Ligue 1
@@ -50,25 +43,19 @@ Tarih: 2026-08-28T09:46:14.537502+00:00
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika 1.Lig
-- Güney Kore K Lig 2
+- Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
-- Honduras Ulusal Lig Apertura
 - Hong Kong Premier Lig
 - Hırvatistan 2.HNL
-- Kanada Premier Lig
 - Katar Yıldızlar Ligi
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Litvanya 1.Lig
 - Macaristan NB I
 - Malezya Süper Lig
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Mısır 2. Lig
 - Mısır Premier Lig
 - Nijerya NPFL
@@ -94,7 +81,6 @@ Tarih: 2026-08-28T09:46:14.537502+00:00
 - Türkiye TFF 1. Lig
 - Uganda Premier Lig
 - Ukrayna Premier Lig
-- Uruguay Premier Lig Clausura
 - Çek Cumhuriyeti FNL
 - Çin Halk Cumhuriyeti Süper Lig
 - Ürdün Süper Kupa Final
@@ -125,7 +111,6 @@ Tarih: 2026-08-28T09:46:14.537502+00:00
 - İtalya Serie C Grup C
 - İzlanda 1.Lig
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
