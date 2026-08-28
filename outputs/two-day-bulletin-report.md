@@ -3,20 +3,14 @@
 Gunler: 2026-08-28 / 2026-08-29
 Kaynak: fixtures.json
 Ham mac: 254
-Aktif mac: 249
-Canli mac: 5
-Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 226
+Aktif mac: 243
+Canli mac: 3
+Biten mac: 8
+Bultenden dusurulen mac: 11
+Bugun: 220
 Yarin: 23
 
 ## Baslamamis Maclar
-- 2026-08-28 03:30 | Bolivya Premier Lig | Bolivar - Academia Del Ba | scheduled | -
-- 2026-08-28 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Cd Tapatio | scheduled | -
-- 2026-08-28 04:00 | Meksika Ascenso MX Apertura | Cancun Fc - Ca La Paz | scheduled | -
-- 2026-08-28 04:15 | Kolombiya Primera A Clausura | Inter Bogota - Deportivo Pasto | scheduled | -
-- 2026-08-28 05:30 | CONCACAF Orta Amerika Kupası Grup C | Mixco - Alianza Fc | scheduled | -
-- 2026-08-28 05:30 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia - Deportivo Sapri | scheduled | -
 - 2026-08-28 13:30 | Güney Kore K Lig 2 | Ansan Greeners - Daegu | scheduled | -
 - 2026-08-28 13:30 | Güney Kore K Lig 2 | Jeonnam Dragon - Cheonan City Fc | scheduled | -
 - 2026-08-28 14:30 | Malezya Süper Lig | Sabah - Pulau Pinang | scheduled | -
@@ -262,11 +256,16 @@ Yarin: 23
 - 2026-08-29 07:00 | Avustralya NPL Kuzey YGG Play-Off 1.Tur | Kahibah (2) - (1) New Lambton Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-08-28 01:00 | Arjantin Kupa Son 16 Turu | Estudiantes Lp - Barracas | live | -
-- 2026-08-28 01:30 | Bolivya Premier Lig | Independiente - Guabira | live | -
 - 2026-08-28 02:00 | Brezilya Kupa Çeyrek Final | Internacional - Gremio | live | -
 - 2026-08-28 02:10 | Kolombiya Primera A Clausura | Llaneros - Los Millionario | live | -
 - 2026-08-28 03:15 | Arjantin Kupa Son 16 Turu | Platense - Instituto Cordo | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-28 01:00 | Arjantin Kupa Son 16 Turu | Estudiantes Lp - Barracas | finished | 3-1
+- 2026-08-28 01:30 | Bolivya Premier Lig | Independiente - Guabira | finished | 3-1
+- 2026-08-28 03:30 | Bolivya Premier Lig | Bolivar - Academia Del Ba | finished | -
+- 2026-08-28 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Cd Tapatio | finished | -
+- 2026-08-28 04:00 | Meksika Ascenso MX Apertura | Cancun Fc - Ca La Paz | finished | -
+- 2026-08-28 04:15 | Kolombiya Primera A Clausura | Inter Bogota - Deportivo Pasto | finished | -
+- 2026-08-28 05:30 | CONCACAF Orta Amerika Kupası Grup C | Mixco - Alianza Fc | finished | -
+- 2026-08-28 05:30 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia - Deportivo Sapri | finished | -

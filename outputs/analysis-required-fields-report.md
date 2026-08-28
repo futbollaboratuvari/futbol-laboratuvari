@@ -1,21 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 81
-Tam analiz: 67
-Eksik analiz: 14
+Toplam analiz: 254
+Tam analiz: 234
+Eksik analiz: 20
 
-- Freiburg (3) VS (1) Motherwell: eksik score, confidence
-- Monaco (3) VS (2) Gornik Zabrze: eksik score, confidence
-- Salzburg (1) VS (0) Mjallby: eksik score, confidence
-- Riga Fc (0) VS (0) Kí Klaksvík: eksik score, confidence
-- Kopenhag (0) VS (0) Inter Turku: eksik score, confidence
-- Pafos Fc (1) VS (1) Dinamo Tirana: eksik score, confidence
-- Aarhus (1) VS (3) Benfica: eksik score, confidence
-- Ajax (4) VS (2) Sion: eksik score, confidence
-- Brighton (0) VS (0) Tromso: eksik score, confidence
-- Chelsea VS Luton: eksik score, confidence
-- Barcelona VS Athletic Bilbao: eksik score, confidence
-- Fulham VS Afc Wimbledon: eksik score, confidence
-- Always Ready VS Aurora: eksik score, confidence
 - Bolivar VS Academia Del Ba: eksik score, confidence
+- Dubba Al Fujai VS Gulf United: eksik score, confidence
+- Fa Siauliai Ii VS Minija: eksik score, confidence
+- Kapfenberg VS Blau-Weiss Linz: eksik score, confidence
+- Al Khaleej VS Al Hilal (Riyad: eksik score, confidence
+- Al Nassr (Riya VS Al Taawon: eksik score, confidence
+- Tabor Sezana VS Brezice: eksik score, confidence
+- Young Africans VS Pamba Jiji: eksik score, confidence
+- B.Münih VS Stuttgart: eksik score, confidence
+- St Patricks VS Waterford: eksik score, confidence
+- Bohemian VS Sligo Rovers: eksik score, confidence
+- Holywell Town VS Caernarfon: eksik score, confidence
+- Cork City VS Wexford Youths: eksik score, confidence
+- Ucd VS Finn Harps: eksik score, confidence
+- Glenavon VS Rathfriland Ran: eksik score, confidence
+- Hw Welders VS Dundela: eksik score, confidence
+- Newtown VS Llanuwchllyn: eksik score, confidence
+- Rio Ave VS Sporting Cp: eksik score, confidence
+- Throttur VS Aegir: eksik score, confidence
+- Fylkir VS Grotta: eksik score, confidence

@@ -1,20 +1,20 @@
 # Ogrenme Agirlik Saglik Kontrolu
 
 Durum: active
-Tahmin sayisi: 1427
+Tahmin sayisi: 1500
 Hazir market hafizasi: 5/7
-Hazir lig hafizasi: 39/208
-Hazir lig+market hafizasi: 21/575
-Guclendirilen toplam: 19
-Dusurulen toplam: 38
+Hazir lig hafizasi: 36/217
+Hazir lig+market hafizasi: 13/629
+Guclendirilen toplam: 14
+Dusurulen toplam: 33
 
 ## Guclu Marketler
-- 2.5 Üst: basari 0.889, agirlik 1.12, guven 4
-- 2.5 Alt: basari 0.622, agirlik 1.12, guven 4
+- 2.5 Üst: basari 0.833, agirlik 1.12, guven 4
+- 2.5 Alt: basari 0.578, agirlik 1.06, guven 2
 
 ## Zayif Marketler
-- MS X: basari 0.31, agirlik 0.88, guven -5
-- MS 2: basari 0.356, agirlik 0.88, guven -5
-- MS 1: basari 0.437, agirlik 0.94, guven -2
+- MS X: basari 0.301, agirlik 0.88, guven -5
+- MS 2: basari 0.366, agirlik 0.88, guven -5
+- MS 1: basari 0.457, agirlik 0.94, guven -2
 
 Sonraki aksiyon: Sonraki analizlerde agirliklar uygulanir.
