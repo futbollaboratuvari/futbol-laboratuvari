@@ -1,66 +1,98 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-28T11:15:51.696316+00:00
+Tarih: 2026-08-28T21:05:10.550760+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 228
-- Kac mac kaydedildi: 6
-- Kac mac zaten vardi: 222
-- Ham veri havuzu toplam mac sayisi: 9580
-- Hedef tarih: 28.08.2026 Europe/Istanbul
+- Kac mac bulundu: 559
+- Kac mac kaydedildi: 559
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 10139
+- Hedef tarih: 29.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bundesliga
 - Almanya Bölgesel Lig Bayern
-- Almanya Bölgesel Lig Güney Batı
 - Almanya Bölgesel Lig Kuzey Doğu
 - Almanya Kadınlar Bundesliga
+- Arjantin Premier Lig 2. Aşama
+- Arjantin Ulusal Primera Lig
+- Avustralya NPL Başkent Bölgesi Play-off
+- Avustralya NPL Güney Avustralya Yarı Final
+- Avustralya NPL Kuzey YGG Yarı Final
+- Avustralya NPL Queensland Eleme Finali
+- Avustralya NPL Victoria
 - Avusturya 1.Lig
 - Avusturya Bundesliga
+- Azerbaycan Premier Lig
 - Bahreyn Premier Lig
-- Belarus 1.Lig
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
 - Birleşik Arap Emirlikleri 1.Lig
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bosna-Hersek Premier Lig
-- Bulgaristan 1.Lig
+- Brezilya Serie A
+- Brezilya Serie B
+- Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
-- Danimarka Süperlig
 - Ekvador Pro Lig
-- Faroe Adaları Master Lig
+- El Salvador Primera Lig Apertura
+- Estonya Premium Lig
+- Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
 - Fransa Ligue 1
 - Fransa Ligue 2
-- Galler FAW Championship Güney
-- Galler FAW Championship Kuzey
-- Galler Premier Lig 1.Aşama
+- Fransa Ligue 3
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika 1.Lig
+- Güney Afrika 8 Kupası Yarı Final
+- Güney Kore K Lig 1
+- Güney Kore K Lig 2
+- Güney Kore K3 Ligi
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
+- Hollanda Tweede Divisie
+- Honduras Ulusal Lig Apertura
 - Hong Kong Premier Lig
+- Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
+- Irak Premier Lig
+- Japonya J1 Lig
+- Japonya J2 Lig
+- Japonya J3 Lig
+- Japonya WE Ligi Kadınlar
+- Kanada Premier Lig
 - Katar Yıldızlar Ligi
-- Kuzey İrlanda Championship
+- Kazakistan Premier Lig
+- Kolombiya Primera A Clausura
+- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Premiership
+- Letonya 1.Lig
+- Letonya Virsliga
 - Litvanya 1.Lig
 - Macaristan NB I
+- Macaristan NB II
+- Macaristan NB III Güneybatı
+- Macaristan NB III Güneydoğu
+- Macaristan NB III Kuzeybatı
+- Macaristan NB III Kuzeydoğu
 - Malezya Süper Lig
 - Malta Premier Lig Açılış
-- Mısır 2. Lig
-- Mısır Premier Lig
-- Nijerya NPFL
-- Norveç 3.Lig Grup 1
-- Norveç 3.Lig Grup 6
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
+- Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
 - Polonya 2.Lig
@@ -72,45 +104,62 @@ Tarih: 2026-08-28T11:15:51.696316+00:00
 - Rusya FNL
 - Rusya Premier Lig
 - Slovakya 2.Lig
+- Slovakya Süper Lig
 - Slovenya 1.SNL
 - Slovenya 2.SNL
-- Suudi Arabistan 1.Lig
 - Suudi Arabistan Pro Lig
+- Sırbistan Süper Lig
 - Tanzanya Kuu Bara Ligi
+- Tunus 1.Lig
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Uganda Premier Lig
 - Ukrayna Premier Lig
+- Uruguay Premier Lig Clausura
+- Yunanistan Süper Lig
+- Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
+- Çin Halk Cumhuriyeti 1.Lig
 - Çin Halk Cumhuriyeti Süper Lig
-- Ürdün Süper Kupa Final
+- İngiltere 1.Lig
+- İngiltere 2.Lig
 - İngiltere Championship
+- İngiltere Non League Premier Güney
 - İngiltere Non League Premier Güney Merkez
 - İngiltere Non League Premier Kuzey
 - İngiltere Premier Lig
-- İngiltere Premier Lig 2
-- İngiltere Ulusal Lig
+- İngiltere Ulusal Lig N / S Güney
 - İngiltere Ulusal Lig N / S Kuzey
 - İran Persian Gulf Pro Lig
-- İrlanda 1.Lig
-- İrlanda Premier Lig
+- İskoçya 1.Lig
 - İskoçya 2.Lig
 - İskoçya Championship
+- İskoçya Premiership
 - İspanya 2.Lig
+- İspanya Kadınlar Primera Lig
 - İspanya LaLiga
 - İspanya Primera Lig RFEF Grup 1
+- İspanya Primera Lig RFEF Grup 2
 - İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norra Svealand
+- İsveç 2.Lig Norrland Düşme Grubu
+- İsveç 2.Lig Norrland Yükselme Grubu
 - İsveç 2.Lig Södra Götaland
 - İsveç 2.Lig Södra Svealand
 - İsveç 2.Lig Vastra Götaland
-- İsviçre Challenge Lig
+- İsveç Allsvenskan
+- İsveç Superettan
+- İsviçre 1.Lig Promotion
+- İsviçre Süper Lig
 - İtalya Serie A
+- İtalya Serie A Kadınlar Kupası Grup C
 - İtalya Serie B
 - İtalya Serie C Grup B
 - İtalya Serie C Grup C
 - İzlanda 1.Lig
 - İzlanda 2.Lig
+- İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -181,26 +230,26 @@ Tarih: 2026-08-28T11:15:51.696316+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 28.08.2026 | 21:30 | Türkiye Süper Lig | Gençlerbirliği | Erzurumspor Fk | 00766 | 5 |
-| 28.08.2026 | 21:30 | Türkiye TFF 1. Lig | Antalyaspor | Sarıyer | 20393 | 5 |
-| 28.08.2026 | 19:00 | Türkiye TFF 1. Lig | Pendikspor | Bandirmaspor | 20376 | 5 |
-| 28.08.2026 | 19:00 | Türkiye TFF 1. Lig | A. Keçiörengüc | Ümraniyespor | 02666 | 5 |
-| 28.08.2026 | 21:30 | Türkiye TFF 1. Lig | Muğlaspor | Boluspor | 20410 | 5 |
-| 28.08.2026 | 22:00 | İngiltere Premier Lig | Crystal Palace | Manchester City | 02254 | 5 |
-| 28.08.2026 | 22:30 | İspanya LaLiga | Alaves | Villarreal | 15786 | 5 |
-| 28.08.2026 | 20:00 | İspanya LaLiga | Santander | Elche | 01050 | 5 |
-| 28.08.2026 | 21:45 | İtalya Serie A | Ac Milan | Unione V. | 03619 | 5 |
-| 28.08.2026 | 21:45 | Fransa Ligue 1 | Lille | Psg | 10168 | 5 |
-| 28.08.2026 | 21:30 | Almanya Bundesliga | B.Münih | Stuttgart | 20913 | 5 |
-| 28.08.2026 | 21:00 | Hollanda Eredivisie | Groningen | Fortuna Sittard | 01423 | 5 |
-| 28.08.2026 | 22:15 | Portekiz Premier Lig | Rio Ave | Sporting Cp | 03750 | 5 |
-| 28.08.2026 | 18:50 | Suudi Arabistan Pro Lig | Al Riyadh | Neom Sc | 48708 | 5 |
-| 28.08.2026 | 19:00 | Suudi Arabistan Pro Lig | Al Feiha | Abha | 48767 | 5 |
-| 28.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Khaleej | Al Hilal (Riyad | 48983 | 5 |
-| 28.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya | Al Taawon | 00025 | 5 |
-| 28.08.2026 | 21:45 | Belçika Pro Lig | Genk | Waasland Bevere | 27566 | 5 |
-| 28.08.2026 | 22:00 | İngiltere Championship | Wrexham | Birmingham | 02485 | 5 |
-| 28.08.2026 | 22:00 | İspanya 2.Lig | Tenerife | Sporting Gijon | 00913 | 5 |
+| 29.08.2026 | 19:00 | Türkiye Süper Lig | Konyaspor | Kocaelispor | 06174 | 5 |
+| 29.08.2026 | 21:30 | Türkiye Süper Lig | Galatasaray | Göztepe | 06175 | 5 |
+| 29.08.2026 | 21:30 | Türkiye Süper Lig | Gaziantep Fk | Rizespor | 06553 | 5 |
+| 29.08.2026 | 21:30 | Türkiye TFF 1. Lig | Mardin 1969 | Van Spor Fk | 20477 | 5 |
+| 29.08.2026 | 19:00 | Türkiye TFF 1. Lig | İstanbulspor | Fatih Karagümrü | 20443 | 5 |
+| 29.08.2026 | 19:00 | Türkiye TFF 1. Lig | Kayserispor | Bursaspor | 20427 | 5 |
+| 29.08.2026 | 21:30 | Türkiye TFF 1. Lig | Batman Petrol | Sivasspor | 20460 | 5 |
+| 29.08.2026 | 19:30 | İngiltere Premier Lig | Tottenham | Newcastle Utd | 11462 | 5 |
+| 29.08.2026 | 17:00 | İngiltere Premier Lig | Coventry | Hull | 13369 | 5 |
+| 29.08.2026 | 14:30 | İngiltere Premier Lig | Liverpool | Nottingham F | 02703 | 5 |
+| 29.08.2026 | 17:00 | İngiltere Premier Lig | Bournemouth | Everton | 02349 | 5 |
+| 29.08.2026 | 20:00 | İspanya LaLiga | Real Sociedad | Espanyol | 18325 | 5 |
+| 29.08.2026 | 22:30 | İspanya LaLiga | Sevilla | Atletico Madrid | 11392 | 5 |
+| 29.08.2026 | 18:00 | İspanya LaLiga | Levante | Real Betis | 15896 | 5 |
+| 29.08.2026 | 21:45 | İtalya Serie A | Juventus | Parma | 24219 | 5 |
+| 29.08.2026 | 19:30 | İtalya Serie A | Sassuolo | Torino | 24161 | 5 |
+| 29.08.2026 | 19:30 | İtalya Serie A | Monza | Udinese | 24045 | 5 |
+| 29.08.2026 | 19:30 | İtalya Serie A | Fiorentina | Frosinone | 24103 | 5 |
+| 29.08.2026 | 21:45 | Fransa Ligue 1 | Auxerre | Angers | 27087 | 5 |
+| 29.08.2026 | 21:45 | Fransa Ligue 1 | Lorient | Troyes | 27203 | 5 |
 
 ## Sonuc
 
