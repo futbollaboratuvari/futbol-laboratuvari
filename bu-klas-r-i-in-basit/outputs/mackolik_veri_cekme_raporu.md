@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-27T23:56:56.864920+00:00
+Tarih: 2026-08-28T00:02:29.516563+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 244
-- Kac mac kaydedildi: 244
-- Kac mac zaten vardi: 0
+- Kac mac bulundu: 221
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 221
 - Ham veri havuzu toplam mac sayisi: 9568
 - Hedef tarih: 28.08.2026 Europe/Istanbul
 
@@ -21,10 +21,6 @@ Tarih: 2026-08-27T23:56:56.864920+00:00
 - Almanya Bölgesel Lig Güney Batı
 - Almanya Bölgesel Lig Kuzey Doğu
 - Almanya Kadınlar Bundesliga
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
-- Avustralya NPL Kuzey YGG Play-Off 1.Tur
-- Avustralya NPL Tazmanya Ön Eleme Final
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Bahreyn Premier Lig
@@ -34,13 +30,11 @@ Tarih: 2026-08-27T23:56:56.864920+00:00
 - Birleşik Arap Emirlikleri 1.Lig
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bosna-Hersek Premier Lig
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Faroe Adaları Master Lig
 - Finlandiya Ykkösliiga
 - Fransa Ligue 1
@@ -48,24 +42,18 @@ Tarih: 2026-08-27T23:56:56.864920+00:00
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika 1.Lig
 - Güney Kore K Lig 2
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 2.HNL
-- Kanada Premier Lig
 - Katar Yıldızlar Ligi
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Litvanya 1.Lig
 - Macaristan NB I
 - Malezya Süper Lig
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Mısır 2. Lig
 - Mısır Premier Lig
 - Norveç 3.Lig Grup 1
@@ -88,7 +76,6 @@ Tarih: 2026-08-27T23:56:56.864920+00:00
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Ukrayna Premier Lig
-- Uruguay Premier Lig Clausura
 - Çek Cumhuriyeti FNL
 - Çin Halk Cumhuriyeti Süper Lig
 - Ürdün Süper Kupa Final
@@ -119,7 +106,6 @@ Tarih: 2026-08-27T23:56:56.864920+00:00
 - İtalya Serie C Grup C
 - İzlanda 1.Lig
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
