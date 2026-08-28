@@ -1,15 +1,15 @@
 # Robot Gelişim Raporu
 
-Oluşturma: 2026-08-28T05:32:04.733Z
+Oluşturma: 2026-08-28T18:51:35.603Z
 Toplam tahmin: 1500
-Sonuçlanan: 379
-Bekleyen: 1121
+Sonuçlanan: 374
+Bekleyen: 1126
 
 ## Güçlü Marketler
 - 2.5 Üst: %83 (25/30)
 
 ## Zayıf Marketler
-- MS 2: %37 (41/112)
+- MS 2: %37 (40/108)
 - MS X: %30 (25/83)
 
 ## Sonraki Aksiyonlar
