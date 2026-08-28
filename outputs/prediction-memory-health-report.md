@@ -2,11 +2,11 @@
 
 Durum: ok
 Robot analiz maci: 254
-Aday tahmin: 21
+Aday tahmin: 13
 Toplam tahmin: 1500
-Bekleyen: 1121
-Kazanan: 171
-Kaybeden: 207
+Bekleyen: 1126
+Kazanan: 170
+Kaybeden: 203
 Eksik kayit: 0
 Tekrar eden: 0
 
