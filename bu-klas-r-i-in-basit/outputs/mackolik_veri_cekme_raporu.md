@@ -1,22 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-28T21:05:10.550760+00:00
+Tarih: 2026-08-28T21:32:38.268724+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 559
-- Kac mac kaydedildi: 559
-- Kac mac zaten vardi: 0
+- Kac mac bulundu: 499
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 499
 - Ham veri havuzu toplam mac sayisi: 10139
 - Hedef tarih: 29.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bundesliga
@@ -40,20 +38,16 @@ Tarih: 2026-08-28T21:05:10.550760+00:00
 - Birleşik Arap Emirlikleri 1.Lig
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bosna-Hersek Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
 - Fransa Ligue 1
 - Fransa Ligue 2
 - Fransa Ligue 3
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika 1.Lig
 - Güney Afrika 8 Kupası Yarı Final
 - Güney Kore K Lig 1
@@ -63,7 +57,6 @@ Tarih: 2026-08-28T21:05:10.550760+00:00
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Tweede Divisie
-- Honduras Ulusal Lig Apertura
 - Hong Kong Premier Lig
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
@@ -72,11 +65,8 @@ Tarih: 2026-08-28T21:05:10.550760+00:00
 - Japonya J2 Lig
 - Japonya J3 Lig
 - Japonya WE Ligi Kadınlar
-- Kanada Premier Lig
 - Katar Yıldızlar Ligi
 - Kazakistan Premier Lig
-- Kolombiya Primera A Clausura
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
 - Letonya Virsliga
@@ -90,9 +80,7 @@ Tarih: 2026-08-28T21:05:10.550760+00:00
 - Malezya Süper Lig
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
 - Polonya 2.Lig
@@ -159,7 +147,6 @@ Tarih: 2026-08-28T21:05:10.550760+00:00
 - İzlanda 1.Lig
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
