@@ -2,13 +2,13 @@
 
 Gunler: 2026-08-28 / 2026-08-29
 Kaynak: fixtures.json
-Ham mac: 254
-Aktif mac: 243
-Canli mac: 3
-Biten mac: 8
-Bultenden dusurulen mac: 11
-Bugun: 220
-Yarin: 23
+Ham mac: 262
+Aktif mac: 249
+Canli mac: 0
+Biten mac: 13
+Bultenden dusurulen mac: 13
+Bugun: 225
+Yarin: 24
 
 ## Baslamamis Maclar
 - 2026-08-28 13:30 | Güney Kore K Lig 2 | Ansan Greeners - Daegu | scheduled | -
@@ -17,6 +17,7 @@ Yarin: 23
 - 2026-08-28 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Shandong Taisha | scheduled | -
 - 2026-08-28 14:35 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing - Beijing Guoan | scheduled | -
 - 2026-08-28 15:00 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng - Shanghai Port | scheduled | -
+- 2026-08-28 15:00 | Hong Kong Premier Lig | Lee Man - Shatin | scheduled | -
 - 2026-08-28 15:30 | Ukrayna Premier Lig | Kolos Kovalivk - Obolon-Brovar | scheduled | -
 - 2026-08-28 16:00 | Malezya Süper Lig | Terengganu - Selangor Fa | scheduled | -
 - 2026-08-28 16:00 | Güney Afrika 1.Lig | Gomora United - Venda Fc | scheduled | -
@@ -30,6 +31,7 @@ Yarin: 23
 - 2026-08-28 16:55 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Dubai United - Al Ittihad Kalb | scheduled | -
 - 2026-08-28 17:00 | Mısır Premier Lig | Enppi - Wadi Degla | scheduled | -
 - 2026-08-28 17:00 | Mısır Premier Lig | Al Qanah - El Gounah | scheduled | -
+- 2026-08-28 17:00 | Belarus 1.Lig | Energetik-Bgu - Fc Minsk Ii | scheduled | -
 - 2026-08-28 17:15 | Katar Yıldızlar Ligi | Al Ahli - Lusail City | scheduled | -
 - 2026-08-28 18:00 | Rusya Premier Lig | Akron - Cska Moskova | scheduled | -
 - 2026-08-28 18:00 | Romanya 1.Lig | Voluntari - Otelul Galati | scheduled | -
@@ -37,6 +39,7 @@ Yarin: 23
 - 2026-08-28 18:00 | Slovenya 2.SNL | Nd Slovan Ljub - Ilirija | scheduled | -
 - 2026-08-28 18:00 | Litvanya 1.Lig | Fk Dainava - Zalgiris Ii | scheduled | -
 - 2026-08-28 18:00 | Hırvatistan 2.HNL | Radnik Sesvete - Dugopolje | scheduled | -
+- 2026-08-28 18:00 | Nijerya NPFL | Shooting Stars - Inter Lagos | scheduled | -
 - 2026-08-28 18:05 | Birleşik Arap Emirlikleri 1.Lig | Al Ittifaq - Al Urooba | scheduled | -
 - 2026-08-28 18:05 | Birleşik Arap Emirlikleri 1.Lig | Al Thaid - City Fc Dubai | scheduled | -
 - 2026-08-28 18:05 | Birleşik Arap Emirlikleri 1.Lig | Dubba Al Fujai - Gulf United | scheduled | -
@@ -101,6 +104,8 @@ Yarin: 23
 - 2026-08-28 20:00 | İsveç 2.Lig Södra Götaland | Torns - Ifk Trelleborg | scheduled | -
 - 2026-08-28 20:00 | İsveç 2.Lig Norra Götaland | Stenungsund - Herrestads | scheduled | -
 - 2026-08-28 20:00 | Ürdün Süper Kupa Final | Al Faisaly Amm - Al-Hussein | scheduled | -
+- 2026-08-28 20:00 | Norveç 3.Lig Grup 6 | Gjovik-Lyn - Brumunddal | scheduled | -
+- 2026-08-28 20:00 | Uganda Premier Lig | Vipers - Entebbe Uppc | scheduled | -
 - 2026-08-28 20:30 | Avusturya Bundesliga | Avusturya Lust - Wattens | scheduled | -
 - 2026-08-28 20:30 | İran Persian Gulf Pro Lig | Foolad Khuzest - Esteghlal | scheduled | -
 - 2026-08-28 20:30 | İsviçre Challenge Lig | Sc Kriens - Stade Nyonnais | scheduled | -
@@ -238,6 +243,7 @@ Yarin: 23
 - 2026-08-29 01:30 | Brezilya Serie B | Goias - Sao Bernardo | scheduled | -
 - 2026-08-29 02:00 | Kanada Premier Lig | Supra Du Quebe - Forge | scheduled | -
 - 2026-08-29 02:00 | Kanada Premier Lig | Atletico Ottaw - Inter Toronto | scheduled | -
+- 2026-08-29 02:00 | ABD USL Lig 1 | Charlotte Inde - Alta | scheduled | -
 - 2026-08-29 02:30 | Brezilya Serie B | Nautico - Athletic Club | scheduled | -
 - 2026-08-29 02:30 | Brezilya Serie B | Novorizontino - Sport Recife | scheduled | -
 - 2026-08-29 03:00 | Ekvador Pro Lig | T.Universitari - Deportivo Cuenc | scheduled | -
@@ -256,13 +262,16 @@ Yarin: 23
 - 2026-08-29 07:00 | Avustralya NPL Kuzey YGG Play-Off 1.Tur | Kahibah (2) - (1) New Lambton Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-08-28 02:00 | Brezilya Kupa Çeyrek Final | Internacional - Gremio | live | -
-- 2026-08-28 02:10 | Kolombiya Primera A Clausura | Llaneros - Los Millionario | live | -
-- 2026-08-28 03:15 | Arjantin Kupa Son 16 Turu | Platense - Instituto Cordo | live | -
+Canli mac yok.
 
 ## Biten Maclar
-- 2026-08-28 01:00 | Arjantin Kupa Son 16 Turu | Estudiantes Lp - Barracas | finished | 3-1
-- 2026-08-28 01:30 | Bolivya Premier Lig | Independiente - Guabira | finished | 3-1
+- 2026-08-28 00:15 | Uruguay Kupa Ön Eleme Turu Grup 5 | Nacional Df - Albion | finished | -
+- 2026-08-28 00:30 | Paraguay Kupa 3.Tur | Resistencia - Cerro Porteno | finished | -
+- 2026-08-28 01:00 | Arjantin Kupa Son 16 Turu | Estudiantes Lp - Barracas | finished | -
+- 2026-08-28 01:30 | Bolivya Premier Lig | Independiente - Guabira | finished | -
+- 2026-08-28 02:00 | Brezilya Kupa Çeyrek Final | Internacional - Gremio | finished | -
+- 2026-08-28 02:10 | Kolombiya Primera A Clausura | Llaneros - Los Millionario | finished | -
+- 2026-08-28 03:15 | Arjantin Kupa Son 16 Turu | Platense - Instituto Cordo | finished | -
 - 2026-08-28 03:30 | Bolivya Premier Lig | Bolivar - Academia Del Ba | finished | -
 - 2026-08-28 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Cd Tapatio | finished | -
 - 2026-08-28 04:00 | Meksika Ascenso MX Apertura | Cancun Fc - Ca La Paz | finished | -
