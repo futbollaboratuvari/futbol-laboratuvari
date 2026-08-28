@@ -2,22 +2,15 @@
 
 Gunler: 2026-08-28 / 2026-08-29
 Kaynak: fixtures.json
-Ham mac: 262
-Aktif mac: 249
-Canli mac: 0
-Biten mac: 13
-Bultenden dusurulen mac: 13
-Bugun: 225
+Ham mac: 254
+Aktif mac: 247
+Canli mac: 7
+Biten mac: 0
+Bultenden dusurulen mac: 7
+Bugun: 223
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-08-28 13:30 | Güney Kore K Lig 2 | Ansan Greeners - Daegu | scheduled | -
-- 2026-08-28 13:30 | Güney Kore K Lig 2 | Jeonnam Dragon - Cheonan City Fc | scheduled | -
-- 2026-08-28 14:30 | Malezya Süper Lig | Sabah - Pulau Pinang | scheduled | -
-- 2026-08-28 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Shandong Taisha | scheduled | -
-- 2026-08-28 14:35 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing - Beijing Guoan | scheduled | -
-- 2026-08-28 15:00 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng - Shanghai Port | scheduled | -
-- 2026-08-28 15:00 | Hong Kong Premier Lig | Lee Man - Shatin | scheduled | -
 - 2026-08-28 15:30 | Ukrayna Premier Lig | Kolos Kovalivk - Obolon-Brovar | scheduled | -
 - 2026-08-28 16:00 | Malezya Süper Lig | Terengganu - Selangor Fa | scheduled | -
 - 2026-08-28 16:00 | Güney Afrika 1.Lig | Gomora United - Venda Fc | scheduled | -
@@ -82,6 +75,7 @@ Yarin: 24
 - 2026-08-28 19:30 | Avusturya 1.Lig | Kapfenberg - Blau-Weiss Linz | scheduled | -
 - 2026-08-28 19:30 | Almanya Kadınlar Bundesliga | Köln (K) - Hoffenheim (K) | scheduled | -
 - 2026-08-28 19:30 | Malta Premier Lig Açılış | Hibernians - Zabbar St Patri | scheduled | -
+- 2026-08-28 19:30 | Hazırlık Kulüpler | Portugalete - G.Torrelavega | scheduled | -
 - 2026-08-28 20:00 | İspanya LaLiga | Santander - Elche | scheduled | -
 - 2026-08-28 20:00 | Danimarka Süperlig | Horsens - Viborg | scheduled | -
 - 2026-08-28 20:00 | Portekiz 2.Lig | Leiria - Tondela | scheduled | -
@@ -106,6 +100,7 @@ Yarin: 24
 - 2026-08-28 20:00 | Ürdün Süper Kupa Final | Al Faisaly Amm - Al-Hussein | scheduled | -
 - 2026-08-28 20:00 | Norveç 3.Lig Grup 6 | Gjovik-Lyn - Brumunddal | scheduled | -
 - 2026-08-28 20:00 | Uganda Premier Lig | Vipers - Entebbe Uppc | scheduled | -
+- 2026-08-28 20:15 | Norveç 3.Lig Grup 1 | Fk Union Carl - Kfum Ii | scheduled | -
 - 2026-08-28 20:30 | Avusturya Bundesliga | Avusturya Lust - Wattens | scheduled | -
 - 2026-08-28 20:30 | İran Persian Gulf Pro Lig | Foolad Khuzest - Esteghlal | scheduled | -
 - 2026-08-28 20:30 | İsviçre Challenge Lig | Sc Kriens - Stade Nyonnais | scheduled | -
@@ -115,6 +110,7 @@ Yarin: 24
 - 2026-08-28 20:30 | İsveç 2.Lig Södra Götaland | Linero - Sölvesborgs Goi | scheduled | -
 - 2026-08-28 20:30 | Güney Afrika 1.Lig | Orbit College - Hungry Lions | scheduled | -
 - 2026-08-28 20:30 | Faroe Adaları Master Lig | Vikingur Gota - Hb Torshavn | scheduled | -
+- 2026-08-28 20:30 | Hazırlık Kulüpler | Yeclano - Alcoyano | scheduled | -
 - 2026-08-28 20:45 | Galler FAW Championship Güney | Treowen Stars - Cardiff Draconi | scheduled | -
 - 2026-08-28 20:50 | Suudi Arabistan 1.Lig | Damak - Al Orubah Club | scheduled | -
 - 2026-08-28 21:00 | Hollanda Eredivisie | Groningen - Fortuna Sittard | scheduled | -
@@ -163,6 +159,7 @@ Yarin: 24
 - 2026-08-28 21:30 | Galler FAW Championship Güney | Llanelli Town - Carmarthen | scheduled | -
 - 2026-08-28 21:30 | Galler FAW Championship Güney | Swansea Univer - Pontypridd Town | scheduled | -
 - 2026-08-28 21:30 | Galler FAW Championship Güney | Baglan Dragons - Caerau Ely | scheduled | -
+- 2026-08-28 21:30 | Hazırlık Kulüpler | Sanluqueno - Real Betis Ii | scheduled | -
 - 2026-08-28 21:45 | İtalya Serie A | Ac Milan - Unione V. | scheduled | -
 - 2026-08-28 21:45 | Fransa Ligue 1 | Lille - Psg | scheduled | -
 - 2026-08-28 21:45 | Belçika Pro Lig | Genk - Waasland Bevere | scheduled | -
@@ -228,6 +225,7 @@ Yarin: 24
 - 2026-08-28 22:00 | İtalya Serie C Grup C | Casarano - Ssc Giugliano | scheduled | -
 - 2026-08-28 22:00 | Galler FAW Championship Kuzey | Ruthin Town - Mold Alexandra | scheduled | -
 - 2026-08-28 22:00 | Malta Premier Lig Açılış | Valletta - Marsaxlokk Fc | scheduled | -
+- 2026-08-28 22:00 | Hazırlık Kulüpler | Real Unión De - San Miguel | scheduled | -
 - 2026-08-28 22:15 | Portekiz Premier Lig | Rio Ave - Sporting Cp | scheduled | -
 - 2026-08-28 22:15 | İspanya Primera Lig RFEF Grup 1 | Cacereno - Mirandes | scheduled | -
 - 2026-08-28 22:15 | İzlanda 1.Lig | Throttur - Aegir | scheduled | -
@@ -262,19 +260,13 @@ Yarin: 24
 - 2026-08-29 07:00 | Avustralya NPL Kuzey YGG Play-Off 1.Tur | Kahibah (2) - (1) New Lambton Fc | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-28 13:30 | Güney Kore K Lig 2 | Ansan Greeners - Daegu | live | -
+- 2026-08-28 13:30 | Güney Kore K Lig 2 | Jeonnam Dragon - Cheonan City Fc | live | -
+- 2026-08-28 14:30 | Malezya Süper Lig | Sabah - Pulau Pinang | live | -
+- 2026-08-28 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Shandong Taisha | live | -
+- 2026-08-28 14:35 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing - Beijing Guoan | live | -
+- 2026-08-28 15:00 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng - Shanghai Port | live | -
+- 2026-08-28 15:00 | Hong Kong Premier Lig | Lee Man - Shatin | live | -
 
 ## Biten Maclar
-- 2026-08-28 00:15 | Uruguay Kupa Ön Eleme Turu Grup 5 | Nacional Df - Albion | finished | -
-- 2026-08-28 00:30 | Paraguay Kupa 3.Tur | Resistencia - Cerro Porteno | finished | -
-- 2026-08-28 01:00 | Arjantin Kupa Son 16 Turu | Estudiantes Lp - Barracas | finished | -
-- 2026-08-28 01:30 | Bolivya Premier Lig | Independiente - Guabira | finished | -
-- 2026-08-28 02:00 | Brezilya Kupa Çeyrek Final | Internacional - Gremio | finished | -
-- 2026-08-28 02:10 | Kolombiya Primera A Clausura | Llaneros - Los Millionario | finished | -
-- 2026-08-28 03:15 | Arjantin Kupa Son 16 Turu | Platense - Instituto Cordo | finished | -
-- 2026-08-28 03:30 | Bolivya Premier Lig | Bolivar - Academia Del Ba | finished | -
-- 2026-08-28 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Cd Tapatio | finished | -
-- 2026-08-28 04:00 | Meksika Ascenso MX Apertura | Cancun Fc - Ca La Paz | finished | -
-- 2026-08-28 04:15 | Kolombiya Primera A Clausura | Inter Bogota - Deportivo Pasto | finished | -
-- 2026-08-28 05:30 | CONCACAF Orta Amerika Kupası Grup C | Mixco - Alianza Fc | finished | -
-- 2026-08-28 05:30 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia - Deportivo Sapri | finished | -
+Biten mac yok.
