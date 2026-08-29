@@ -148,6 +148,7 @@ function testStaticProtectionAndConsent() {
   assert.match(pagesWorkflow, /run: npm run build/);
   assert.match(pagesWorkflow, /path: \.\/public/);
   assert.equal(fs.existsSync(path.join(root, ".nojekyll")), false);
+  assert.ok(fs.statSync(path.join(root, "favicon.ico")).size > 1000);
   assert.match(cookie, /data-cookie-choice="accept"/);
   assert.match(cookie, /data-cookie-choice="reject"/);
   assert.match(cookie, /data-cookie-choice="preferences"/);
