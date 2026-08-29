@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.08.2026 21:37:49
+Oluşturma: 29.08.2026 21:40:52
 
 ## Özet
 
@@ -33,7 +33,7 @@ Oluşturma: 29.08.2026 21:37:49
 - 2026-08-29 | Irak Premier Lig | Al Karkh - Al Kahraba | 2.5 Alt | pending | 60/100
 - 2026-08-29 | Portekiz Kupa 1.Tur | Pacos Ferreira - Fafe | MS 1 | pending | 53/100
 - 2026-08-29 | İtalya Serie C Grup C | Cosenza - Rossoblu Potenz | 2.5 Üst | pending | 60/100
-- 2026-08-29 | Meksika Liga MX Apertura | Pachuca - Guadalajara | 2.5 Üst | pending | 67/100
+- 2026-08-29 | Meksika Liga MX Apertura | Pachuca - Guadalajara | 2.5 Üst | pending | 77/100
 - 2026-08-29 | Norveç 3.Lig Grup 4 | Hinna - Vag Fk | MS 1 | pending | 45/100
 - 2026-08-29 | Belarus 1.Lig | Ostrovets Fc - Volna Pinsk | MS 1 | pending | 45/100
 - 2026-08-29 | Finlandiya Ykkönen | Oulun Ls - Tampere Utd | MS 1 | pending | 45/100

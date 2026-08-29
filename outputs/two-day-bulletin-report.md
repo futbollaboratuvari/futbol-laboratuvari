@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-29 / 2026-08-30
 Kaynak: fixtures.json
-Ham mac: 600
-Aktif mac: 99
+Ham mac: 166
+Aktif mac: 100
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 501
-Bugun: 36
+Bultenden dusurulen mac: 66
+Bugun: 37
 Yarin: 63
 
 ## Baslamamis Maclar
@@ -43,6 +43,7 @@ Yarin: 63
 - 2026-08-29 22:30 | Portekiz 2.Lig | Torreense - Vizela | scheduled | -
 - 2026-08-29 22:30 | Arjantin Ulusal Primera Lig | Midland - Nueva Chicago | scheduled | -
 - 2026-08-29 22:30 | İspanya Primera Lig RFEF Grup 2 | Hercules - Murcia | scheduled | -
+- 2026-08-29 22:30 | Irak Premier Lig | Al Karkh - Al Kahraba | scheduled | -
 - 2026-08-29 23:00 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Gimnasia La Pla | scheduled | -
 - 2026-08-29 23:00 | Uruguay Premier Lig Clausura | Defensor Sport - Torque | scheduled | -
 - 2026-08-29 23:30 | ABD MLS | Seattle - Chicago | scheduled | -
