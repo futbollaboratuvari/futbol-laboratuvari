@@ -1,62 +1,62 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-21T22:07:49.740Z",
-  "updated_at": "2026-08-29T11:05:42.488Z",
+  "updated_at": "2026-08-29T12:08:16.514Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
     "total_predictions": 1500,
     "pending_predictions": 1230,
-    "won_predictions": 158,
-    "lost_predictions": 112,
+    "won_predictions": 159,
+    "lost_predictions": 111,
     "void_predictions": 0,
     "league_count": 218,
     "market_count": 6,
-    "added_predictions": 0,
+    "added_predictions": 1,
     "updated_predictions": 5,
-    "last_score_link_checked": 1238,
-    "last_score_linked": 8,
-    "last_finalizer_checked": 8,
-    "last_finalizer_updated": 8
+    "last_score_link_checked": 1231,
+    "last_score_linked": 1,
+    "last_finalizer_checked": 1,
+    "last_finalizer_updated": 1
   },
   "market_memory": {
     "2.5 Alt": {
-      "total": 604,
-      "pending": 495,
-      "won": 59,
+      "total": 605,
+      "pending": 493,
+      "won": 62,
       "lost": 50,
       "void": 0,
-      "success_rate": 0.541,
-      "weight": 1,
-      "confidence_adjustment": 0
+      "success_rate": 0.554,
+      "weight": 1.06,
+      "confidence_adjustment": 2
     },
     "2.5 Üst": {
       "total": 191,
-      "pending": 146,
-      "won": 32,
-      "lost": 13,
+      "pending": 142,
+      "won": 35,
+      "lost": 14,
       "void": 0,
-      "success_rate": 0.711,
+      "success_rate": 0.714,
       "weight": 1.12,
       "confidence_adjustment": 4
     },
     "MS 1": {
-      "total": 494,
+      "total": 493,
       "pending": 422,
       "won": 38,
-      "lost": 34,
+      "lost": 33,
       "void": 0,
-      "success_rate": 0.528,
+      "success_rate": 0.535,
       "weight": 1,
       "confidence_adjustment": 0
     },
     "MS 2": {
       "total": 204,
-      "pending": 168,
+      "pending": 167,
       "won": 23,
-      "lost": 13,
+      "lost": 14,
       "void": 0,
-      "success_rate": 0.639,
+      "success_rate": 0.622,
       "weight": 1.12,
       "confidence_adjustment": 4
     },
@@ -82,30 +82,40 @@
     }
   },
   "league_memory": {
-    "Meksika Ascenso MX Apertura": {
-      "total": 13,
+    "Japonya J1 Lig": {
+      "total": 11,
       "pending": 9,
-      "won": 2,
+      "won": 0,
       "lost": 2,
       "void": 0,
-      "success_rate": 0.5,
+      "success_rate": 0,
       "weight": 1,
       "confidence_adjustment": 0
     },
+    "Meksika Ascenso MX Apertura": {
+      "total": 13,
+      "pending": 8,
+      "won": 3,
+      "lost": 2,
+      "void": 0,
+      "success_rate": 0.6,
+      "weight": 1.06,
+      "confidence_adjustment": 2
+    },
     "Honduras Ulusal Lig Apertura": {
       "total": 8,
-      "pending": 5,
-      "won": 2,
+      "pending": 4,
+      "won": 3,
       "lost": 1,
       "void": 0,
-      "success_rate": 0.667,
+      "success_rate": 0.75,
       "weight": 1,
       "confidence_adjustment": 0
     },
     "Kosta Rika Premier Lig Apertura": {
       "total": 7,
-      "pending": 5,
-      "won": 2,
+      "pending": 4,
+      "won": 3,
       "lost": 0,
       "void": 0,
       "success_rate": 1,
@@ -114,33 +124,33 @@
     },
     "Brezilya Serie B": {
       "total": 21,
-      "pending": 12,
-      "won": 6,
+      "pending": 11,
+      "won": 7,
       "lost": 3,
       "void": 0,
-      "success_rate": 0.667,
+      "success_rate": 0.7,
       "weight": 1.12,
       "confidence_adjustment": 4
     },
     "Arjantin Premier Lig 2. Aşama": {
       "total": 19,
-      "pending": 12,
-      "won": 3,
+      "pending": 11,
+      "won": 4,
       "lost": 4,
       "void": 0,
-      "success_rate": 0.429,
-      "weight": 0.94,
-      "confidence_adjustment": -2
+      "success_rate": 0.5,
+      "weight": 1,
+      "confidence_adjustment": 0
     },
     "El Salvador Primera Lig Apertura": {
       "total": 11,
-      "pending": 6,
-      "won": 3,
+      "pending": 5,
+      "won": 4,
       "lost": 2,
       "void": 0,
-      "success_rate": 0.6,
-      "weight": 1.06,
-      "confidence_adjustment": 2
+      "success_rate": 0.667,
+      "weight": 1.12,
+      "confidence_adjustment": 4
     },
     "ABD USL": {
       "total": 23,
@@ -713,14 +723,14 @@
       "confidence_adjustment": 0
     },
     "Suudi Arabistan Pro Lig": {
-      "total": 16,
+      "total": 15,
       "pending": 3,
       "won": 6,
-      "lost": 7,
+      "lost": 6,
       "void": 0,
-      "success_rate": 0.462,
-      "weight": 0.94,
-      "confidence_adjustment": -2
+      "success_rate": 0.5,
+      "weight": 1,
+      "confidence_adjustment": 0
     },
     "Çek Cumhuriyeti Czech Liga": {
       "total": 3,
@@ -1425,16 +1435,6 @@
     "Japonya J3 Lig": {
       "total": 4,
       "pending": 4,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Japonya J1 Lig": {
-      "total": 10,
-      "pending": 10,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -2264,17 +2264,17 @@
     }
   },
   "league_market_memory": {
-    "Meksika Ascenso MX Apertura :: 2.5 Alt": {
-      "total": 5,
-      "pending": 4,
-      "won": 1,
+    "Japonya J1 Lig :: 2.5 Alt": {
+      "total": 6,
+      "pending": 6,
+      "won": 0,
       "lost": 0,
       "void": 0,
-      "success_rate": 1,
+      "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Honduras Ulusal Lig Apertura :: 2.5 Alt": {
+    "Meksika Ascenso MX Apertura :: 2.5 Alt": {
       "total": 5,
       "pending": 3,
       "won": 2,
@@ -2284,17 +2284,7 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Kosta Rika Premier Lig Apertura :: 2.5 Alt": {
-      "total": 4,
-      "pending": 3,
-      "won": 1,
-      "lost": 0,
-      "void": 0,
-      "success_rate": 1,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Brezilya Serie B :: 2.5 Üst": {
+    "Honduras Ulusal Lig Apertura :: 2.5 Alt": {
       "total": 5,
       "pending": 2,
       "won": 3,
@@ -2304,10 +2294,30 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
+    "Kosta Rika Premier Lig Apertura :: 2.5 Alt": {
+      "total": 4,
+      "pending": 2,
+      "won": 2,
+      "lost": 0,
+      "void": 0,
+      "success_rate": 1,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie B :: 2.5 Üst": {
+      "total": 5,
+      "pending": 1,
+      "won": 4,
+      "lost": 0,
+      "void": 0,
+      "success_rate": 1,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Arjantin Premier Lig 2. Aşama :: 2.5 Üst": {
       "total": 3,
-      "pending": 1,
-      "won": 2,
+      "pending": 0,
+      "won": 3,
       "lost": 0,
       "void": 0,
       "success_rate": 1,
@@ -2316,11 +2326,11 @@
     },
     "El Salvador Primera Lig Apertura :: 2.5 Üst": {
       "total": 1,
-      "pending": 1,
-      "won": 0,
+      "pending": 0,
+      "won": 1,
       "lost": 0,
       "void": 0,
-      "success_rate": null,
+      "success_rate": 1,
       "weight": 1,
       "confidence_adjustment": 0
     },
@@ -4944,23 +4954,13 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Japonya J1 Lig :: 2.5 Alt": {
-      "total": 5,
-      "pending": 5,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Japonya J1 Lig :: MS 2": {
       "total": 2,
-      "pending": 2,
+      "pending": 1,
       "won": 0,
-      "lost": 0,
+      "lost": 1,
       "void": 0,
-      "success_rate": null,
+      "success_rate": 0,
       "weight": 1,
       "confidence_adjustment": 0
     },
@@ -4996,11 +4996,11 @@
     },
     "Japonya J1 Lig :: 2.5 Üst": {
       "total": 2,
-      "pending": 2,
+      "pending": 1,
       "won": 0,
-      "lost": 0,
+      "lost": 1,
       "void": 0,
-      "success_rate": null,
+      "success_rate": 0,
       "weight": 1,
       "confidence_adjustment": 0
     },
@@ -6995,14 +6995,14 @@
       "confidence_adjustment": 0
     },
     "Suudi Arabistan Pro Lig :: MS 1": {
-      "total": 5,
+      "total": 4,
       "pending": 0,
       "won": 1,
-      "lost": 4,
+      "lost": 3,
       "void": 0,
-      "success_rate": 0.2,
-      "weight": 0.88,
-      "confidence_adjustment": -5
+      "success_rate": 0.25,
+      "weight": 1,
+      "confidence_adjustment": 0
     },
     "İngiltere Premier Lig Kupası Grup H :: MS 2": {
       "total": 1,
@@ -7747,6 +7747,31 @@
   },
   "predictions": [
     {
+      "id": "2026-08-29|japonya j1 lig|gamba osaka hiroshima|2 5 alt|12 00",
+      "date": "2026-08-29",
+      "created_at": "2026-08-29T12:08:09.520Z",
+      "match_name": "Gamba Osaka - Hiroshima",
+      "league": "Japonya J1 Lig",
+      "start_time": "12:00",
+      "market": "2.5 Alt",
+      "odds": "2.09",
+      "confidence_score": "57%",
+      "analysis_score": 57,
+      "model_score": 57,
+      "estimated_probability": 42.5,
+      "market_probability": 40.8,
+      "edge_percent": 1.7,
+      "data_completeness": 41,
+      "model_version": "pro13-market-conditioned-v1",
+      "risk_level": "Orta",
+      "status": "won",
+      "result_score": "0-0",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "score_linked_at": "2026-08-29T12:08:15.454Z",
+      "finalized_at": "2026-08-29T12:08:16.514Z"
+    },
+    {
       "id": "2026-08-29|meksika ascenso mx apertura|correcaminos u durango|2 5 alt|04 00",
       "date": "2026-08-29",
       "created_at": "2026-08-29T10:19:15.419Z",
@@ -7918,7 +7943,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|abd usl|las vegas ligh charleston batt|2 5 ust|05 30",
@@ -7942,7 +7967,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.545Z"
     },
     {
       "id": "2026-08-29|avustralya npl kuzey ygg play off 1 tur|wallsend 6 6 newcastle croat|ms 1|07 00",
@@ -7966,7 +7991,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.545Z"
     },
     {
       "id": "2026-08-29|meksika liga mx apertura|club america puebla|ms 1|04 05",
@@ -7990,7 +8015,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|abd usl|new mexico uni san antonio|2 5 alt|04 30",
@@ -8014,7 +8039,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|honduras ulusal lig apertura|platense atletico indepe|2 5 alt|02 15",
@@ -8038,7 +8063,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|ispanya kadinlar primera lig|madrid cf k granada k|2 5 alt|22 00",
@@ -8062,7 +8087,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|ispanya laliga|sevilla atletico madrid|2 5 alt|22 30",
@@ -8086,7 +8111,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|irak premier lig|al karkh al kahraba|2 5 alt|21 00",
@@ -8110,7 +8135,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|polonya ekstraklasa|zaglebie lubin pogon szczecin|2 5 alt|21 15",
@@ -8134,7 +8159,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|italya serie a kadinlar kupasi grup c|ac milan k como k|2 5 ust|21 30",
@@ -8158,7 +8183,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|fransa ligue 1|lyon le havre|2 5 alt|21 45",
@@ -8182,7 +8207,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|hazirlik kulupler|terrassa badalona|2 5 alt|20 00",
@@ -8206,7 +8231,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|italya serie a|fiorentina frosinone|2 5 alt|19 30",
@@ -8230,7 +8255,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|portekiz kupa 1 tur|montijo atletico|2 5 alt|19 00",
@@ -8254,7 +8279,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|italya serie c grup b|sassari torres sambenedetese|ms 1|19 00",
@@ -8278,7 +8303,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|macaristan nb ii|diosgyor bvsc|2 5 ust|18 30",
@@ -8302,7 +8327,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|macaristan nb iii kuzeydogu|fuzesabony mateszalka|2 5 ust|18 30",
@@ -8326,7 +8351,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|tanzanya kuu bara ligi|singida black polisi morogoro|ms 1|18 30",
@@ -8350,7 +8375,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|macaristan nb iii guneybati|dunaharaszti kaposvar|ms 2|18 30",
@@ -8374,7 +8399,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|avusturya bundesliga|grazer ak wolfsberger|2 5 ust|18 00",
@@ -8398,7 +8423,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|kazakistan premier lig|ordabasy kyzyl zhar|ms 1|18 00",
@@ -8422,7 +8447,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney|hanwell chichester city|ms 1|17 00",
@@ -8446,7 +8471,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|kuzey irlanda championship|institute fc newry city afc|ms 1|17 00",
@@ -8470,7 +8495,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s guney|chelmsford maidenhead utd|2 5 ust|17 00",
@@ -8494,7 +8519,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier kuzey|bamber bridge hyde|2 5 alt|17 00",
@@ -8518,7 +8543,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s kuzey|hereford fc chester|2 5 ust|17 00",
@@ -8542,7 +8567,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s kuzey|brackley town gateshead south|2 5 ust|17 00",
@@ -8566,7 +8591,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere 1 lig|stockport wycombe|2 5 alt|17 00",
@@ -8590,7 +8615,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|finlandiya ykkosliiga|ekenas if jippo joensuu|2 5 ust|17 00",
@@ -8614,7 +8639,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|ingiltere 2 lig|crawley bristol rovers|ms 2|17 00",
@@ -8638,7 +8663,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|ingiltere championship|southam millwall|ms 1|17 00",
@@ -8662,7 +8687,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|ingiltere championship|blackburn qpr|2 5 ust|17 00",
@@ -8686,7 +8711,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|guney afrika 8 kupasi yari final|orlando pirate 1 0 sekhukhune unit|2 5 alt|16 00",
@@ -8710,7 +8735,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|uganda premier lig|police mbarara city|2 5 alt|16 00",
@@ -8734,7 +8759,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|tanzanya kuu bara ligi|tabora united dodoma jiji|2 5 alt|16 00",
@@ -8758,7 +8783,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|guney afrika 1 lig|magesi fc the bees|2 5 alt|16 00",
@@ -8782,7 +8807,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|uganda premier lig|sc villa kitara|ms 1|16 00",
@@ -8806,7 +8831,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|uganda premier lig|kampala city nec|ms 1|16 00",
@@ -8830,7 +8855,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|danimarka 3 lig|vanlose frem|2 5 ust|15 00",
@@ -8854,7 +8879,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|danimarka 3 lig|horsholm usser bronshoj|ms 2|15 00",
@@ -8878,7 +8903,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|fransa ligue 2|red star paris reims|2 5 ust|15 00",
@@ -8902,7 +8927,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|danimarka 3 lig|ringsted sundby|ms 1|14 00",
@@ -8926,7 +8951,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig sodra svealand|smedby ais forward|ms 2|14 00",
@@ -8950,7 +8975,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|kenya premier lig|nairobi united kcb|ms 1|14 00",
@@ -8974,7 +8999,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|kenya premier lig|gor mahia muranga all sta|ms 1|14 00",
@@ -8998,7 +9023,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|guney kore k lig 1|ulsan gimcheon sangmu|2 5 ust|13 30",
@@ -9022,7 +9047,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|guney kore k lig 1|bucheon anyang|2 5 ust|13 30",
@@ -9046,7 +9071,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|hazirlik kulupler|barcelona b ue cornella|ms 1|11 00",
@@ -9094,7 +9119,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig norra svealand|skiljebo sk sunnersta aif|2 5 alt|17 00",
@@ -9118,7 +9143,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|macaristan nb iii guneydogu|szegedi vse szolnok|2 5 alt|17 00",
@@ -9142,7 +9167,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|izlanda 2 lig|kormakur kfa|2 5 alt|17 00",
@@ -9166,7 +9191,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|izlanda 1 lig|grindavik hk kopavogur|2 5 alt|17 00",
@@ -9190,7 +9215,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere championship|watford west ham|kg var|17 00",
@@ -9214,7 +9239,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|hollanda tweede divisie|jong sparta hhc|2 5 alt|16 00",
@@ -9238,7 +9263,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|ekvador pro lig|t universitari deportivo cuenc|2 5 ust|03 00",
@@ -9314,7 +9339,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd usl|oakland roots orange county b|ms 1|03 00",
@@ -9338,7 +9363,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|italya serie c grup c|internazionale team altamura|2 5 alt|22 00",
@@ -9362,7 +9387,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|italya serie c grup c|ss monopoli 19 catania|ms 2|22 00",
@@ -9386,7 +9411,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|hollanda eredivisie|az alkmaar go ahead eagles|ms 1|19 45",
@@ -9434,7 +9459,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|slovenya 2 snl|rudar nk bilje|2 5 alt|18 00",
@@ -9458,7 +9483,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig norra svealand|skiljebo sk sunnersta aif|ms 2|17 00",
@@ -9506,7 +9531,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere championship|cardiff sheffield utd|ms 2|17 00",
@@ -9530,7 +9555,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|tanzanya kuu bara ligi|tabora united dodoma jiji|ms 1|16 00",
@@ -9578,7 +9603,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|ingiltere 2 lig|barnet cheltenham|ms 1|14 30",
@@ -9602,7 +9627,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|cin halk cumhuriyeti 1 lig|foshan nanshi shenzhen junior|2 5 alt|14 30",
@@ -9650,7 +9675,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|avustralya npl baskent bolgesi play off|tuggeranong un queanbeyan city|ms 2|12 00",
@@ -9674,7 +9699,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.521Z"
     },
     {
       "id": "2026-08-29|hazirlik kulupler|g segoviana real madrid iii|2 5 alt|12 00",
@@ -9698,7 +9723,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.521Z"
     },
     {
       "id": "2026-08-29|slovakya super lig|dukla banska b kfc komarno|2 5 alt|21 30",
@@ -9722,7 +9747,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|italya serie a kadinlar kupasi grup c|ac milan k como k|ms 1|21 30",
@@ -9770,7 +9795,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|fransa ligue 1|auxerre angers|2 5 alt|21 45",
@@ -9794,7 +9819,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|fransa ligue 1|lorient troyes|2 5 alt|21 45",
@@ -9818,7 +9843,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|fransa ligue 1|lyon le havre|ms 1|21 45",
@@ -9866,7 +9891,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|belcika pro lig|cercle brugge lommel|ms 1|21 45",
@@ -9890,7 +9915,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|belcika pro lig|oh leuven standard liege|2 5 ust|21 45",
@@ -9914,7 +9939,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|bosna hersek premier lig|sarajevo zrinjski|2 5 alt|21 45",
@@ -9938,7 +9963,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|avusturya bundesliga|lask linz altach|ms 1|20 30",
@@ -9962,7 +9987,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|macaristan nb i|ujpest vasas|ms 1|20 30",
@@ -9986,7 +10011,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|hirvatistan 2 hnl|karlovac 1919 opatija|2 5 alt|20 30",
@@ -10010,7 +10035,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|arjantin premier lig 2 asama|riestra velez sarsfield|ms x|20 45",
@@ -10034,7 +10059,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|suudi arabistan pro lig|al fateh al ittihad cid|ms 2|21 00",
@@ -10058,7 +10083,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|suudi arabistan pro lig|al ettifaq diriyah|2 5 alt|21 00",
@@ -10082,7 +10107,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|fransa ligue 2|guingamp nantes|2 5 ust|21 00",
@@ -10106,7 +10131,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|cek cumhuriyeti czech liga|banik ostrava sigma olomouc|2 5 ust|21 00",
@@ -10130,7 +10155,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|belcika challenger pro lig|patro eisden club brugge ii|2 5 ust|21 00",
@@ -10154,7 +10179,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|peru premier lig clausura|chankas cyc juan pablo ii c|ms 1|21 00",
@@ -10178,7 +10203,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|arjantin ulusal primera lig|colegiales maipu|ms 1|21 00",
@@ -10202,7 +10227,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|meksika ascenso mx apertura|cruz azul hida tepatitlan de m|ms 1|21 00",
@@ -10226,7 +10251,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|ekvador pro lig|indep jose te univ catolica|ms 1|21 00",
@@ -10250,7 +10275,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|irak premier lig|al zawraa zakho|2 5 alt|21 00",
@@ -10274,7 +10299,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|tanzanya kuu bara ligi|jkt tanzania namungo|ms 1|21 00",
@@ -10298,7 +10323,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|polonya ekstraklasa|zaglebie lubin pogon szczecin|2 5 ust|21 15",
@@ -10346,7 +10371,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|polonya 2 lig|zawisza bydgos legia warszawa|ms 1|21 15",
@@ -10370,7 +10395,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|turkiye super lig|galatasaray goztepe|ms 1|21 30",
@@ -10418,7 +10443,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|turkiye tff 1 lig|mardin 1969 van spor fk|ms 1|21 30",
@@ -10442,7 +10467,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|turkiye tff 1 lig|batman petrol sivasspor|2 5 alt|21 30",
@@ -10466,7 +10491,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|almanya 2 bundesliga|nurnberg arminia bielefe|2 5 alt|21 30",
@@ -10490,7 +10515,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|yunanistan super lig|panetolikos kalamata|2 5 ust|21 30",
@@ -10514,7 +10539,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|isvicre super lig|young boys basel|ms 1|21 30",
@@ -10538,7 +10563,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|hazirlik kulupler|sanluqueno xerez|2 5 alt|21 30",
@@ -10562,7 +10587,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|romanya 1 lig|hunedoara dinamo bukres|2 5 alt|21 30",
@@ -10586,7 +10611,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.636Z"
+      "updated_at": "2026-08-29T12:08:09.540Z"
     },
     {
       "id": "2026-08-29|yunanistan super lig|volos nfc iraklis 1908|2 5 alt|19 30",
@@ -10610,7 +10635,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|hirvatistan 1 hnl|istra dinamo zagreb|ms 2|19 30",
@@ -10634,7 +10659,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|belarus premier lig|neman grodno slavia mozyr|2 5 alt|19 30",
@@ -10658,7 +10683,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|katar yildizlar ligi|shahaniya al sailiya|2 5 alt|19 30",
@@ -10682,7 +10707,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|avusturya 1 lig|avusturya wien bregenz|2 5 alt|19 30",
@@ -10706,7 +10731,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|ispanya primera lig rfef grup 1|arenas de getx racing ferrol|2 5 alt|19 30",
@@ -10730,7 +10755,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|iskocya 1 lig|ross county east kilbride|ms 1|19 30",
@@ -10754,7 +10779,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|malta premier lig acilis|hamrun floriana|2 5 alt|19 30",
@@ -10778,7 +10803,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|ispanya laliga|real sociedad espanyol|2 5 ust|20 00",
@@ -10802,7 +10827,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|portekiz premier lig|academico vise porto|2 5 alt|20 00",
@@ -10826,7 +10851,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|ispanya 2 lig|albacete oviedo|2 5 alt|20 00",
@@ -10850,7 +10875,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|ispanya 2 lig|leganes eldense|2 5 alt|20 00",
@@ -10874,7 +10899,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|italya serie b|virtus entella cesena|2 5 alt|20 00",
@@ -10898,7 +10923,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|italya serie b|sampdoria juve stabia|2 5 alt|20 00",
@@ -10922,7 +10947,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|rusya premier lig|akhmat grozny krylya sovietov|2 5 ust|20 00",
@@ -10946,7 +10971,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|rusya premier lig|l moskova dinamo moskova|ms 2|20 00",
@@ -10970,7 +10995,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|sirbistan super lig|zeleznicar pan radnik surdulic|2 5 alt|20 00",
@@ -10994,7 +11019,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|moldova ulusal lig|zimbru sheriff tiraspo|2 5 alt|20 00",
@@ -11018,7 +11043,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|slovakya 2 lig|zlate moravce galanta|ms 1|20 00",
@@ -11042,7 +11067,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|polonya 2 lig|olimpia grudzi nkp podhale|ms 1|20 00",
@@ -11066,7 +11091,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|uruguay premier lig clausura|boston river cerro|2 5 alt|20 00",
@@ -11090,7 +11115,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|uruguay premier lig clausura|juventud dl pi deportivo maldo|2 5 alt|20 00",
@@ -11114,7 +11139,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|izlanda urvalsdeild|vestmannaeyjar thor akureyri|ms 1|20 00",
@@ -11138,7 +11163,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|ispanya primera lig rfef grup 1|merida ad dep fabril|2 5 alt|20 15",
@@ -11162,7 +11187,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|ispanya primera lig rfef grup 1|zamora a bilbao b|2 5 alt|20 15",
@@ -11186,7 +11211,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|ispanya primera lig rfef grup 2|algeciras cartagena|ms 1|20 15",
@@ -11210,7 +11235,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|ispanya primera lig rfef grup 2|huesca sant andreu|ms 1|20 15",
@@ -11234,7 +11259,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|ispanya primera lig rfef grup 2|rayo majadahon villarreal b|2 5 alt|20 15",
@@ -11258,7 +11283,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.635Z"
+      "updated_at": "2026-08-29T12:08:09.539Z"
     },
     {
       "id": "2026-08-29|portekiz kupa 1 tur|fatima benfica castelo|2 5 alt|19 00",
@@ -11282,7 +11307,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|italya serie c grup b|ravenna latina|2 5 alt|19 00",
@@ -11306,7 +11331,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|italya serie c grup b|sassari torres sambenedetese|2 5 alt|19 00",
@@ -11354,7 +11379,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|italya serie c grup c|foggia salernitana|2 5 alt|19 00",
@@ -11378,7 +11403,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|italya serie c grup c|sorrento calci crotone|2 5 alt|19 00",
@@ -11402,7 +11427,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|italya serie c grup c|savoia casertana|2 5 alt|19 00",
@@ -11426,7 +11451,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|slovakya super lig|trencin ruzomberok|ms 1|19 00",
@@ -11450,7 +11475,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|slovakya super lig|podbrezova fk kosice|ms 1|19 00",
@@ -11474,7 +11499,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|cek cumhuriyeti fnl|sezimivo usti usti nad labem|2 5 ust|19 00",
@@ -11498,7 +11523,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|cek cumhuriyeti fnl|trinec banik ostrava i|2 5 alt|19 00",
@@ -11522,7 +11547,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|bahreyn premier lig|al rifaa al ittifaq maqa|2 5 alt|19 00",
@@ -11546,7 +11571,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|bahreyn premier lig|aali fc manama|2 5 alt|19 00",
@@ -11570,7 +11595,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|izlanda 1 lig|volsungur ir reykjavik|ms 2|19 00",
@@ -11618,7 +11643,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|bosna hersek premier lig|zeljeznicar siroki brijeg|2 5 alt|19 00",
@@ -11642,7 +11667,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|italya serie a kadinlar kupasi grup c|juventus k como k|2 5 alt|19 00",
@@ -11666,7 +11691,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|letonya 1 lig|marupe jdfs alberts|ms 2|19 00",
@@ -11690,7 +11715,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|hollanda tweede divisie|de treffers rijnsburgse boy|ms 1|19 00",
@@ -11714,7 +11739,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|izlanda 2 lig|dalvik kfg gardabar|ms 1|19 00",
@@ -11738,7 +11763,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|suudi arabistan pro lig|al kholood al ahli cidde|2 5 alt|19 05",
@@ -11762,7 +11787,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|belcika pro lig|kortrijk charleroi|2 5 ust|19 15",
@@ -11786,7 +11811,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|azerbaycan premier lig|safa imisli fk|2 5 alt|19 15",
@@ -11810,7 +11835,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|ingiltere premier lig|tottenham newcastle utd|ms 1|19 30",
@@ -11834,7 +11859,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|italya serie a|sassuolo torino|2 5 ust|19 30",
@@ -11858,7 +11883,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|italya serie a|monza udinese|2 5 alt|19 30",
@@ -11882,7 +11907,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.634Z"
+      "updated_at": "2026-08-29T12:08:09.538Z"
     },
     {
       "id": "2026-08-29|italya serie a|fiorentina frosinone|2 5 ust|19 30",
@@ -11930,7 +11955,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|cek cumhuriyeti fnl|hanacka slavia prostejov|2 5 alt|18 30",
@@ -11954,7 +11979,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|avusturya 1 lig|floridsdorfer wacker innsbruc|2 5 alt|18 30",
@@ -11978,7 +12003,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|slovenya 1 snl|radomlje olimpija ljubli|2 5 ust|18 30",
@@ -12002,7 +12027,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|isvicre 1 lig promotion|lugano ii bavois|ms 2|18 30",
@@ -12026,7 +12051,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|macaristan nb ii|nagykanizsai u tiszakecske|2 5 ust|18 30",
@@ -12050,7 +12075,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|macaristan nb ii|mezokovesd zso gyirmot|2 5 alt|18 30",
@@ -12074,7 +12099,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|macaristan nb ii|diosgyor bvsc|2 5 alt|18 30",
@@ -12145,7 +12170,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|macaristan nb iii kuzeydogu|fuzesabony mateszalka|2 5 alt|18 30",
@@ -12193,7 +12218,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|macaristan nb iii kuzeybati|papai perutz puskas fc ii|ms 2|18 30",
@@ -12217,7 +12242,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|macaristan nb iii kuzeybati|veszprem gyor ii|ms 1|18 30",
@@ -12241,7 +12266,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|macaristan nb iii guneybati|budaors budafoki mte|ms 2|18 30",
@@ -12265,7 +12290,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|tanzanya kuu bara ligi|singida black polisi morogoro|2 5 alt|18 30",
@@ -12313,7 +12338,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|irak premier lig|diala al golan|ms 1|18 45",
@@ -12337,7 +12362,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|irak premier lig|al jawiya naft maysan|ms 1|18 45",
@@ -12361,7 +12386,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|turkiye super lig|konyaspor kocaelispor|2 5 alt|19 00",
@@ -12385,7 +12410,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|turkiye tff 1 lig|istanbulspor fatih karagumru|2 5 ust|19 00",
@@ -12409,7 +12434,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|turkiye tff 1 lig|kayserispor bursaspor|2 5 alt|19 00",
@@ -12433,7 +12458,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|isvicre super lig|lausanne zurich|ms 1|19 00",
@@ -12457,7 +12482,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.536Z"
     },
     {
       "id": "2026-08-29|isvicre super lig|servette luzern|ms 1|19 00",
@@ -12481,7 +12506,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|portekiz kupa 1 tur|varzim trofense|2 5 alt|19 00",
@@ -12505,7 +12530,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.633Z"
+      "updated_at": "2026-08-29T12:08:09.537Z"
     },
     {
       "id": "2026-08-29|portekiz kupa 1 tur|montijo atletico|2 5 ust|19 00",
@@ -12553,7 +12578,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|cek cumhuriyeti czech liga|brno zlin|ms 1|18 00",
@@ -12577,7 +12602,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|ukrayna premier lig|shakhtar donet polessya|2 5 alt|18 00",
@@ -12601,7 +12626,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|isvec superettan|united nordic norrkoping|ms 2|18 00",
@@ -12625,7 +12650,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|macaristan nb i|budapest honve zalaegerszeg|ms 1|18 00",
@@ -12649,7 +12674,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|cek cumhuriyeti fnl|pribram karvina|2 5 alt|18 00",
@@ -12673,7 +12698,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|slovenya 2 snl|dravinja triglav kranj|ms 2|18 00",
@@ -12697,7 +12722,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|slovenya 2 snl|krsko jadran dekani|2 5 ust|18 00",
@@ -12721,7 +12746,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|slovenya 2 snl|jesenice beltinci|ms 2|18 00",
@@ -12745,7 +12770,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|slovenya 2 snl|bistrica dren vrhnika|2 5 ust|18 00",
@@ -12769,7 +12794,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|polonya 2 lig|hutnik krakow stal s wola|2 5 ust|18 00",
@@ -12793,7 +12818,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|ispanya primera lig rfef grup 1|ud ourense ponferradina|2 5 alt|18 00",
@@ -12817,7 +12842,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|ispanya kadinlar primera lig|eibar k espanyol k|ms 2|18 00",
@@ -12841,7 +12866,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|kazakistan premier lig|kaisar okzhetpes|2 5 alt|18 00",
@@ -12865,7 +12890,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|kazakistan premier lig|ordabasy kyzyl zhar|2 5 alt|18 00",
@@ -12913,7 +12938,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|litvanya 1 lig|kauno zalgiris hegelmann ii|ms 1|18 00",
@@ -12937,7 +12962,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|birlesik arap emirlikleri 1 lig|al arabi fujairah|2 5 alt|18 10",
@@ -12961,7 +12986,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|fransa ligue 1|strasbourg lens|ms 2|18 15",
@@ -12985,7 +13010,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|isvec allsvenskan|halmstads kalmar|2 5 alt|18 30",
@@ -13009,7 +13034,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|polonya ekstraklasa|wisla krakow ks wieczysta kr|ms 1|18 30",
@@ -13033,7 +13058,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|iran persian gulf pro lig|mes shahr e ba sanat naft|ms 1|18 30",
@@ -13057,7 +13082,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|iran persian gulf pro lig|fajr sepasi zob ahan fc|ms 1|18 30",
@@ -13081,7 +13106,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|romanya 1 lig|argesul pitest sepsi|ms 1|18 30",
@@ -13105,7 +13130,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|tunus 1 lig|club africain es hammam souss|2 5 alt|18 30",
@@ -13129,7 +13154,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|tunus 1 lig|cs sfaxien es zarzis|ms 1|18 30",
@@ -13153,7 +13178,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|tunus 1 lig|marsa progres sakiet|ms 1|18 30",
@@ -13177,7 +13202,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.632Z"
+      "updated_at": "2026-08-29T12:08:09.535Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney|bath city uxbridge|ms 1|17 00",
@@ -13201,7 +13226,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney|wimborne town hanworth villa|2 5 alt|17 00",
@@ -13225,7 +13250,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney merkez|stratford town needham market|2 5 ust|17 00",
@@ -13249,7 +13274,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney merkez|leamington worcester city|2 5 alt|17 00",
@@ -13273,7 +13298,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney merkez|alvechurch racing club war|ms 1|17 00",
@@ -13297,7 +13322,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney merkez|stamford rushall olympic|2 5 alt|17 00",
@@ -13321,7 +13346,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney merkez|halesowen town real bedford|ms 2|17 00",
@@ -13345,7 +13370,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney merkez|bromsgrove spo bishops stortfo|ms 1|17 00",
@@ -13369,7 +13394,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney merkez|leiston redditch united|2 5 alt|17 00",
@@ -13393,7 +13418,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney merkez|leighton town bury town|2 5 ust|17 00",
@@ -13417,7 +13442,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney merkez|banbury united stourbridge|2 5 alt|17 00",
@@ -13441,7 +13466,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney merkez|hitchin town kettering|ms 2|17 00",
@@ -13465,7 +13490,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|katar yildizlar ligi|al duhail sc al arabi|ms 1|17 15",
@@ -13489,7 +13514,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|hollanda eredivisie|excelsior sparta rotterda|ms 1|17 30",
@@ -13513,7 +13538,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|portekiz premier lig|arouca maritimo|2 5 alt|17 30",
@@ -13537,7 +13562,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|portekiz premier lig|alverca santa clara|2 5 alt|17 30",
@@ -13561,7 +13586,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|hollanda eerste divisie|de graafschap almere city|ms 1|17 30",
@@ -13585,7 +13610,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|rusya premier lig|krasnodar rostov|2 5 alt|17 30",
@@ -13609,7 +13634,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|almanya 3 lig|hoffenheim ii regensburg|ms 2|17 30",
@@ -13633,7 +13658,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|belarus premier lig|dinamo brest ml vitebsk|2 5 alt|17 30",
@@ -13657,7 +13682,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|slovakya 2 lig|banik lehota p humenne|ms 1|17 30",
@@ -13681,7 +13706,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|slovakya 2 lig|samorin zilina ii|ms 1|17 30",
@@ -13705,7 +13730,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|slovakya 2 lig|inter bratisla lokomotiva zvol|2 5 ust|17 30",
@@ -13729,7 +13754,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|ispanya laliga|levante real betis|2 5 alt|18 00",
@@ -13753,7 +13778,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|ispanya 2 lig|sabadell almeria|2 5 alt|18 00",
@@ -13777,7 +13802,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.631Z"
+      "updated_at": "2026-08-29T12:08:09.534Z"
     },
     {
       "id": "2026-08-29|avusturya bundesliga|grazer ak wolfsberger|2 5 alt|18 00",
@@ -13825,7 +13850,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig norra gotaland|lidkopings skara|ms 2|17 00",
@@ -13849,7 +13874,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|letonya 1 lig|jfk ventspils riga ii|ms 2|17 00",
@@ -13873,7 +13898,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|litvanya 1 lig|ekranas be1 nfa|ms 2|17 00",
@@ -13897,7 +13922,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|litvanya 1 lig|neptuna klaipe atmosfera|2 5 alt|17 00",
@@ -13921,7 +13946,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|macaristan nb iii guneydogu|szegedi vse szolnok|ms 2|17 00",
@@ -13993,7 +14018,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|izlanda 2 lig|vikingur ol haukar|ms 2|17 00",
@@ -14017,7 +14042,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier kuzey|quorn whitby town|2 5 ust|17 00",
@@ -14041,7 +14066,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier kuzey|bamber bridge hyde|2 5 ust|17 00",
@@ -14089,7 +14114,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier kuzey|avro stockton town|ms 1|17 00",
@@ -14113,7 +14138,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier kuzey|redcar athleti united of manch|ms 1|17 00",
@@ -14137,7 +14162,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier kuzey|workington leek town|2 5 ust|17 00",
@@ -14161,7 +14186,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier kuzey|bury ilkeston town|ms 1|17 00",
@@ -14185,7 +14210,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier kuzey|warrington tow afc emley|ms 1|17 00",
@@ -14209,7 +14234,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney|gosport boroug malvern town|ms 1|17 00",
@@ -14233,7 +14258,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney|hanwell chichester city|2 5 alt|17 00",
@@ -14281,7 +14306,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney|chippenham tow berkhamsted|2 5 alt|17 00",
@@ -14305,7 +14330,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney|evesham united plymouth parkwa|2 5 alt|17 00",
@@ -14329,7 +14354,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney|poole town yate town|ms 1|17 00",
@@ -14353,7 +14378,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney|havant and w gloucester city|2 5 alt|17 00",
@@ -14377,7 +14402,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney|chertsey town frome town|ms 1|17 00",
@@ -14401,7 +14426,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|ingiltere non league premier guney|taunton town basingstoke|ms 1|17 00",
@@ -14425,7 +14450,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.630Z"
+      "updated_at": "2026-08-29T12:08:09.533Z"
     },
     {
       "id": "2026-08-29|iskocya 2 lig|elgin stirling albion|2 5 alt|17 00",
@@ -14449,7 +14474,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|iskocya 2 lig|annan dumbarton|ms 1|17 00",
@@ -14473,7 +14498,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|iskocya 2 lig|spartans clyde|2 5 alt|17 00",
@@ -14544,7 +14569,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|letonya virsliga|fk tukums 2000 fs jelgava|2 5 alt|17 00",
@@ -14568,7 +14593,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|estonya premium lig|kuressaare vaprus|2 5 alt|17 00",
@@ -14592,7 +14617,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s kuzey|spalding unite worksop town|2 5 alt|17 00",
@@ -14616,7 +14641,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s kuzey|merthyr town chorley|ms 1|17 00",
@@ -14640,7 +14665,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s kuzey|hereford fc chester|2 5 alt|17 00",
@@ -14688,7 +14713,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s kuzey|bedford town spennymoor|2 5 alt|17 00",
@@ -14712,7 +14737,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s kuzey|brackley town gateshead south|ms 2|17 00",
@@ -14760,7 +14785,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s kuzey|marine radcliffe borou|2 5 alt|17 00",
@@ -14784,7 +14809,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s kuzey|scarborough at southport|2 5 ust|17 00",
@@ -14808,7 +14833,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s guney|afc totton chesham united|2 5 alt|17 00",
@@ -14832,7 +14857,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s guney|chelmsford maidenhead utd|2 5 alt|17 00",
@@ -14880,7 +14905,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s guney|maidstone unit salisbury|ms 1|17 00",
@@ -14904,7 +14929,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s guney|dover athletic braintree|2 5 alt|17 00",
@@ -14928,7 +14953,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s guney|walton and her dorking wand|ms 2|17 00",
@@ -14952,7 +14977,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s guney|truro city dagenham red|2 5 alt|17 00",
@@ -14976,7 +15001,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s guney|horsham farnham town|2 5 alt|17 00",
@@ -15000,7 +15025,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s guney|torquay hampton richmon|ms 1|17 00",
@@ -15048,7 +15073,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|ingiltere ulusal lig n s guney|billericay tow tonbridge angel|2 5 ust|17 00",
@@ -15072,7 +15097,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.629Z"
+      "updated_at": "2026-08-29T12:08:09.532Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig norra svealand|skiljebo sk sunnersta aif|ms 1|17 00",
@@ -15119,7 +15144,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|belcika challenger pro lig|rfc liege dender|2 5 alt|17 00",
@@ -15143,7 +15168,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|rusya fnl|tekstilshchik veles|2 5 alt|17 00",
@@ -15167,7 +15192,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|rusya fnl|arsenal tula ural|2 5 alt|17 00",
@@ -15191,7 +15216,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|ingiltere 2 lig|crawley bristol rovers|2 5 ust|17 00",
@@ -15239,7 +15264,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|ingiltere 2 lig|oldham swindon|2 5 ust|17 00",
@@ -15263,7 +15288,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|ingiltere 2 lig|colchester rochdale|2 5 ust|17 00",
@@ -15287,7 +15312,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|ingiltere 2 lig|walsall accrington|2 5 alt|17 00",
@@ -15311,7 +15336,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|ingiltere 2 lig|shrewsbury salford city|2 5 alt|17 00",
@@ -15335,7 +15360,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|ingiltere 2 lig|grimsby fleetwood town|2 5 alt|17 00",
@@ -15359,7 +15384,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|ingiltere 2 lig|gillingham northampton|2 5 alt|17 00",
@@ -15383,7 +15408,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|ingiltere 2 lig|newport county tranmere|2 5 alt|17 00",
@@ -15407,7 +15432,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|cek cumhuriyeti fnl|arsenal ceska vlasim|ms 2|17 00",
@@ -15431,7 +15456,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|moldova ulusal lig|politeh chisin sireti|ms 1|17 00",
@@ -15455,7 +15480,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|iskocya championship|partick thistl queens park|2 5 alt|17 00",
@@ -15479,7 +15504,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|iskocya championship|stenhousemuir inverness ct|2 5 alt|17 00",
@@ -15503,7 +15528,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|iskocya championship|ayr utd morton|2 5 alt|17 00",
@@ -15527,7 +15552,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|iskocya championship|arbroath livingston|2 5 ust|17 00",
@@ -15551,7 +15576,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|polonya 2 lig|sokol kleczew chojniczanka|ms 2|17 00",
@@ -15575,7 +15600,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|uruguay premier lig clausura|progreso danubio|2 5 alt|17 00",
@@ -15599,7 +15624,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|almanya bolgesel lig kuzey dogu|zwickau babelsberg|ms 1|17 00",
@@ -15623,7 +15648,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|iskocya 1 lig|montrose queen of south|2 5 alt|17 00",
@@ -15647,7 +15672,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|iskocya 1 lig|hamilton cove rangers|2 5 alt|17 00",
@@ -15671,7 +15696,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|iskocya 1 lig|airdrieonians east fife|2 5 ust|17 00",
@@ -15695,7 +15720,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.530Z"
     },
     {
       "id": "2026-08-29|iskocya 1 lig|alloa peterhead|2 5 ust|17 00",
@@ -15719,7 +15744,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|iskocya 2 lig|stranraer kelty hearts|ms 1|17 00",
@@ -15743,7 +15768,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.628Z"
+      "updated_at": "2026-08-29T12:08:09.531Z"
     },
     {
       "id": "2026-08-29|birlesik arap emirlikleri arap korfez ligi|khorfakkan clu al dhafra|ms 1|16 55",
@@ -15790,7 +15815,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|ingiltere premier lig|coventry hull|2 5 ust|17 00",
@@ -15814,7 +15839,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|ingiltere premier lig|bournemouth everton|2 5 ust|17 00",
@@ -15838,7 +15863,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|belcika pro lig|la louviere mechelen|2 5 alt|17 00",
@@ -15862,7 +15887,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|ingiltere championship|bristol city portsmouth|2 5 ust|17 00",
@@ -15886,7 +15911,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|ingiltere championship|southam millwall|2 5 ust|17 00",
@@ -15982,7 +16007,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|ingiltere championship|cardiff sheffield utd|ms 1|17 00",
@@ -16029,7 +16054,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|ingiltere championship|norwich burnley|2 5 ust|17 00",
@@ -16053,7 +16078,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|iskocya premiership|hearts st johnstone|ms 1|17 00",
@@ -16077,7 +16102,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|iskocya premiership|kilmarnock dundee utd|2 5 alt|17 00",
@@ -16101,7 +16126,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|azerbaycan premier lig|qabala keshla|2 5 alt|17 00",
@@ -16125,7 +16150,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|ingiltere 1 lig|cambridge huddersfield|2 5 alt|17 00",
@@ -16149,7 +16174,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|ingiltere 1 lig|sheffield wed bromley|2 5 alt|17 00",
@@ -16173,7 +16198,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|ingiltere 1 lig|stockport wycombe|2 5 ust|17 00",
@@ -16221,7 +16246,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|ingiltere 1 lig|notts county burton albion|2 5 ust|17 00",
@@ -16245,7 +16270,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|ingiltere 1 lig|stevenage doncaster|2 5 ust|17 00",
@@ -16269,7 +16294,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|ingiltere 1 lig|plymouth bradford|2 5 alt|17 00",
@@ -16293,7 +16318,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|finlandiya ykkosliiga|ekenas if jippo joensuu|2 5 alt|17 00",
@@ -16341,7 +16366,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|kuzey irlanda premiership|bangor fc carrick rangers|ms 2|17 00",
@@ -16365,7 +16390,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|kuzey irlanda premiership|limavady unite linfield|ms 2|17 00",
@@ -16389,7 +16414,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.627Z"
+      "updated_at": "2026-08-29T12:08:09.529Z"
     },
     {
       "id": "2026-08-29|finlandiya ykkosliiga|mikkelin pk 35 ry|2 5 ust|16 00",
@@ -16413,7 +16438,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|rusya fnl|leningradets kamaz|2 5 alt|16 00",
@@ -16437,7 +16462,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|romanya 1 lig|csikszereda cfr cluj|2 5 alt|16 00",
@@ -16461,7 +16486,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|belarus premier lig|dinamo minsk baranovichi|2 5 alt|16 00",
@@ -16509,7 +16534,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig vastra gotaland|hestrafor torslanda ik|ms 1|16 00",
@@ -16533,7 +16558,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|guney afrika 1 lig|pretoria unive midlands wander|2 5 alt|16 00",
@@ -16557,7 +16582,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|guney afrika 1 lig|gomora united venda fc|ms 1|16 00",
@@ -16581,7 +16606,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|hollanda tweede divisie|kozakken boys gvvv|ms 1|16 00",
@@ -16605,7 +16630,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|hollanda tweede divisie|jong almere ci koninklijke hfc|ms 1|16 00",
@@ -16629,7 +16654,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|hollanda tweede divisie|jong sparta hhc|ms 2|16 00",
@@ -16677,7 +16702,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|hollanda tweede divisie|ijsselmeervoge rkav volendam|ms 1|16 00",
@@ -16701,7 +16726,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|uganda premier lig|police mbarara city|ms 1|16 00",
@@ -16749,7 +16774,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|almanya bundesliga|rb leipzig m gladbach|ms 1|16 30",
@@ -16773,7 +16798,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|almanya bundesliga|union berlin e frankfurt|ms 1|16 30",
@@ -16797,7 +16822,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|almanya bundesliga|koln hoffenheim|ms 2|16 30",
@@ -16821,7 +16846,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|almanya bundesliga|elversberg b leverkusen|ms 2|16 30",
@@ -16845,7 +16870,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|almanya bundesliga|mainz paderborn|ms 1|16 30",
@@ -16869,7 +16894,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|polonya 1 lig|pogon siedlce stal mielec|2 5 alt|16 30",
@@ -16893,7 +16918,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|polonya 1 lig|polonia varsov lechia gdansk|ms 1|16 30",
@@ -16917,7 +16942,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|polonya 1 lig|puszcza niepol p bielsko|2 5 alt|16 30",
@@ -16941,7 +16966,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|isvicre 1 lig promotion|grand saconnex paradiso|ms 1|16 30",
@@ -16965,7 +16990,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|bosna hersek premier lig|bsk banja luka sloga doboj|2 5 alt|16 45",
@@ -16989,7 +17014,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.626Z"
+      "updated_at": "2026-08-29T12:08:09.528Z"
     },
     {
       "id": "2026-08-29|danimarka 2 lig|hellerup ik middelfart|ms 2|15 00",
@@ -17013,7 +17038,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|almanya kadinlar bundesliga|stuttgart k hamburger sv k|ms 1|15 00",
@@ -17037,7 +17062,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|kazakistan premier lig|ulytau zhetysu|2 5 alt|15 00",
@@ -17061,7 +17086,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|danimarka 3 lig|vanlose frem|2 5 alt|15 00",
@@ -17133,7 +17158,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig sodra svealand|fittja orebro syriansk|ms 1|15 00",
@@ -17157,7 +17182,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig norra gotaland|ahlafors if ifk kumla|ms 1|15 00",
@@ -17181,7 +17206,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig norrland yukselme grubu|skelleftea bodens|ms 1|15 00",
@@ -17205,7 +17230,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|litvanya 1 lig|transinvest vi lietava jonava|ms 2|15 00",
@@ -17229,7 +17254,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|ukrayna premier lig|livyi bereh karpaty lviv|2 5 alt|15 30",
@@ -17253,7 +17278,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|polonya 2 lig|avia swidnik falubaz zielona|ms 1|15 30",
@@ -17277,7 +17302,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|hollanda tweede divisie|hoek hsv sv spakenburg|ms 1|15 30",
@@ -17301,7 +17326,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|polonya ekstraklasa|motor lublin piast gliwice|2 5 alt|15 45",
@@ -17325,7 +17350,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|fransa ligue 3|thionville lus paris 13 atleti|ms 1|15 45",
@@ -17349,7 +17374,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|fransa ligue 3|valenciennes concarneau|2 5 alt|15 45",
@@ -17373,7 +17398,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|fransa ligue 3|aubagne air be bourg peronnas|2 5 alt|15 45",
@@ -17397,7 +17422,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|fransa ligue 3|fc villefranch rouen|2 5 alt|15 45",
@@ -17421,7 +17446,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|fransa ligue 3|orleans la roche sur yo|2 5 alt|15 45",
@@ -17445,7 +17470,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|fransa ligue 3|cannes le puy|2 5 alt|15 45",
@@ -17469,7 +17494,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|fransa ligue 3|quevilly rouen fc fleury 91|2 5 alt|15 45",
@@ -17493,7 +17518,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|fransa ligue 3|amiens versailles|2 5 alt|15 45",
@@ -17517,7 +17542,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|macaristan nb i|nyiregyhaza paksi|ms 1|15 45",
@@ -17541,7 +17566,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|isvec allsvenskan|hacken vasteras|ms 1|16 00",
@@ -17589,7 +17614,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|portekiz 2 lig|academica lusitania de lo|2 5 alt|16 00",
@@ -17613,7 +17638,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|isvec superettan|falkenberg brage|ms 1|16 00",
@@ -17637,7 +17662,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.625Z"
+      "updated_at": "2026-08-29T12:08:09.527Z"
     },
     {
       "id": "2026-08-29|ingiltere 2 lig|barnet cheltenham|2 5 ust|14 30",
@@ -17684,7 +17709,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|cin halk cumhuriyeti 1 lig|nanjing city guangxi hengche|2 5 alt|14 30",
@@ -17708,7 +17733,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|cin halk cumhuriyeti 1 lig|hebei kungfu wuxi wugou|2 5 alt|14 30",
@@ -17732,7 +17757,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|danimarka 2 lig|vsk arhus fa 2000|ms 1|14 30",
@@ -17756,7 +17781,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|estonya premium lig|nomme united harju jalgpalli|ms 1|14 30",
@@ -17780,7 +17805,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|fransa ligue 2|annecy metz|2 5 alt|15 00",
@@ -17804,7 +17829,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|fransa ligue 2|red star paris reims|2 5 alt|15 00",
@@ -17852,7 +17877,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|cin halk cumhuriyeti super lig|henan jianye chongqing tongl|ms 1|15 00",
@@ -17876,7 +17901,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|almanya 3 lig|verl 1924 fortuna koln|ms 1|15 00",
@@ -17900,7 +17925,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|almanya 3 lig|duisburg wurzburger kick|ms 1|15 00",
@@ -17924,7 +17949,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|almanya 3 lig|wehen essen|ms 2|15 00",
@@ -17948,7 +17973,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|almanya 3 lig|aachen sv meppen|ms 1|15 00",
@@ -17972,7 +17997,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|almanya 3 lig|sonnenhof gros ingolstadt|2 5 alt|15 00",
@@ -17996,7 +18021,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|danimarka 1 lig|aalborg hb koge|ms 1|15 00",
@@ -18020,7 +18045,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|ingiltere 2 lig|rotherham chesterfield|2 5 alt|15 00",
@@ -18044,7 +18069,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|cin halk cumhuriyeti 1 lig|heilongjiang l suzhou dongwu|2 5 alt|15 00",
@@ -18068,7 +18093,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|almanya bolgesel lig bayern|buchbach bayreuth|ms 1|15 00",
@@ -18092,7 +18117,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|almanya bolgesel lig bayern|memmingen unterhaching|ms 2|15 00",
@@ -18116,7 +18141,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|almanya bolgesel lig bayern|eichstatt aubstadt|ms 2|15 00",
@@ -18140,7 +18165,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|almanya bolgesel lig bayern|illertissen bayern munich|ms 1|15 00",
@@ -18164,7 +18189,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|almanya bolgesel lig bayern|burghausen vilzing|ms 1|15 00",
@@ -18188,7 +18213,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|almanya bolgesel lig kuzey dogu|hertha berlin hallescher|ms 2|15 00",
@@ -18212,7 +18237,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|letonya virsliga|grobina bfc daugavpils|2 5 ust|15 00",
@@ -18236,7 +18261,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|danimarka 2 lig|brabrand b93 kopenhag|ms 2|15 00",
@@ -18260,7 +18285,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.624Z"
+      "updated_at": "2026-08-29T12:08:09.526Z"
     },
     {
       "id": "2026-08-29|cin halk cumhuriyeti super lig|zhejiang g fc yunnan yukun|ms 1|14 00",
@@ -18284,7 +18309,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|isvec superettan|landskrona ostersund|2 5 ust|14 00",
@@ -18308,7 +18333,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|isvec superettan|ljungskile varnamo|2 5 alt|14 00",
@@ -18332,7 +18357,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|danimarka 1 lig|kolding if ab gladsaxe|ms 1|14 00",
@@ -18356,7 +18381,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|finlandiya ykkonen|rops vjs|ms 1|14 00",
@@ -18380,7 +18405,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|finlandiya ykkonen|fc jazz inter turku ii|ms 1|14 00",
@@ -18404,7 +18429,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|finlandiya ykkonen|tpv tampere pk keski uusima|ms 1|14 00",
@@ -18428,7 +18453,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|finlandiya ykkonen|oulun ls tampere utd|ms 2|14 00",
@@ -18452,7 +18477,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|finlandiya ykkonen|kups ak salpa salo|ms 2|14 00",
@@ -18476,7 +18501,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|cin halk cumhuriyeti 1 lig|shaanxi union yanbian longdin|2 5 alt|14 00",
@@ -18500,7 +18525,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|danimarka 3 lig|holb k naesby|ms 1|14 00",
@@ -18524,7 +18549,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|danimarka 3 lig|ringsted sundby|ms 2|14 00",
@@ -18572,7 +18597,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig vastra gotaland|onsala dalstorps if|ms 1|14 00",
@@ -18596,7 +18621,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig sodra gotaland|lilla torg rappe|ms 1|14 00",
@@ -18620,7 +18645,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig sodra svealand|sleipner eker orebro|ms 1|14 00",
@@ -18644,7 +18669,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig sodra svealand|smedby ais forward|ms 1|14 00",
@@ -18692,7 +18717,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig norra gotaland|if karlstad ii vanersborgs fk|ms 1|14 00",
@@ -18716,7 +18741,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig norrland dusme grubu|storfors fransta|ms 1|14 00",
@@ -18740,7 +18765,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|ingiltere premier lig|liverpool nottingham f|ms 1|14 30",
@@ -18764,7 +18789,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|ingiltere championship|middlesbrough west bromwich|2 5 ust|14 30",
@@ -18788,7 +18813,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|ingiltere championship|derby county swansea|2 5 alt|14 30",
@@ -18812,7 +18837,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|ingiltere championship|wolverhampton stoke|2 5 ust|14 30",
@@ -18836,7 +18861,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|ingiltere 1 lig|blackpool peterborough|ms 1|14 30",
@@ -18860,7 +18885,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.524Z"
     },
     {
       "id": "2026-08-29|ingiltere 1 lig|mk dons leicester|2 5 alt|14 30",
@@ -18884,7 +18909,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|ingiltere 2 lig|port vale crewe|2 5 alt|14 30",
@@ -18908,7 +18933,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.623Z"
+      "updated_at": "2026-08-29T12:08:09.525Z"
     },
     {
       "id": "2026-08-29|japonya j2 lig|tokushima oita trinita|ms 1|13 00",
@@ -18932,7 +18957,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|japonya j2 lig|fc imabari yamagata|2 5 alt|13 00",
@@ -18956,7 +18981,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|japonya j2 lig|kofu sapporo|2 5 alt|13 00",
@@ -18980,7 +19005,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|japonya j2 lig|yokohama fc sagan tosu|2 5 alt|13 00",
@@ -19004,7 +19029,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|japonya j2 lig|omiya shonan|2 5 alt|13 00",
@@ -19028,7 +19053,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|japonya j2 lig|sendai tegevajaro miya|2 5 alt|13 00",
@@ -19052,7 +19077,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|ispanya kadinlar primera lig|deportivo de l sevilla k|2 5 alt|13 00",
@@ -19076,7 +19101,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|almanya kadinlar bundesliga|freiburg k union berlin k|ms 1|13 00",
@@ -19100,7 +19125,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|guney kore k3 ligi|daejeon korail yangpyeong|2 5 ust|13 00",
@@ -19147,7 +19172,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|japonya we ligi kadinlar|sanfrecce hiro omiya k|2 5 alt|13 00",
@@ -19171,7 +19196,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|letonya 1 lig|leevon ppk super nova ii|ms 1|13 00",
@@ -19195,7 +19220,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|litvanya 1 lig|garliava babrungas|ms 2|13 00",
@@ -19219,7 +19244,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|polonya ekstraklasa|radomiak radom cracovia krakow|2 5 ust|13 15",
@@ -19243,7 +19268,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|guney kore k lig 1|ulsan gimcheon sangmu|ms 1|13 30",
@@ -19315,7 +19340,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|guney kore k lig 2|seongnam seoul e land|2 5 alt|13 30",
@@ -19339,7 +19364,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|guney kore k lig 2|gyeongnam paju citizen|2 5 alt|13 30",
@@ -19363,7 +19388,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|guney kore k lig 2|gimpo citizen suwon sb|2 5 alt|13 30",
@@ -19387,7 +19412,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|guney kore k lig 2|hwaseong cheongju fc|2 5 ust|13 30",
@@ -19411,7 +19436,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|isvec 2 lig norra svealand|fc gute lidingo|ms 1|13 30",
@@ -19435,7 +19460,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|almanya 2 bundesliga|e cottbus greuther furth|ms 1|14 00",
@@ -19459,7 +19484,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|almanya 2 bundesliga|heidenheim dynamo dresden|ms 1|14 00",
@@ -19483,7 +19508,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|almanya 2 bundesliga|karlsruhe wolfsburg|ms 2|14 00",
@@ -19507,7 +19532,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|cin halk cumhuriyeti super lig|tianjin teda qingdao west co|2 5 alt|14 00",
@@ -19531,7 +19556,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.622Z"
+      "updated_at": "2026-08-29T12:08:09.523Z"
     },
     {
       "id": "2026-08-29|japonya j2 lig|tochigi city iwata|2 5 alt|12 00",
@@ -19555,7 +19580,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.520Z"
     },
     {
       "id": "2026-08-29|japonya j2 lig|iwaki niigata|2 5 alt|12 00",
@@ -19579,7 +19604,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.520Z"
     },
     {
       "id": "2026-08-29|guney kore k3 ligi|dangjin citize chuncheon citiz|2 5 alt|12 00",
@@ -19603,7 +19628,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.521Z"
     },
     {
       "id": "2026-08-29|japonya we ligi kadinlar|parceiro nagan ntv beleza k|2 5 alt|12 00",
@@ -19627,7 +19652,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.521Z"
     },
     {
       "id": "2026-08-29|macaristan nb iii guneybati|paksi fc ii mtk ii|ms 2|12 00",
@@ -19651,7 +19676,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.521Z"
     },
     {
       "id": "2026-08-29|japonya j3 lig|fc gifu tochigi sc|2 5 alt|12 00",
@@ -19675,7 +19700,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.521Z"
     },
     {
       "id": "2026-08-29|japonya j3 lig|ryukyu sagamihara|2 5 alt|12 00",
@@ -19699,7 +19724,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.521Z"
     },
     {
       "id": "2026-08-29|japonya j3 lig|kamatamare san kagoshima unite|2 5 alt|12 00",
@@ -19723,7 +19748,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.521Z"
     },
     {
       "id": "2026-08-29|japonya j3 lig|fukushima unit nara club|2 5 alt|12 00",
@@ -19747,7 +19772,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.521Z"
     },
     {
       "id": "2026-08-29|japonya j1 lig|shimizu kashiwa|2 5 alt|12 30",
@@ -19758,9 +19783,9 @@
       "start_time": "12:30",
       "market": "2.5 Alt",
       "odds": "1.57",
-      "confidence_score": "54%",
-      "analysis_score": 54,
-      "model_score": 54,
+      "confidence_score": "56%",
+      "analysis_score": 56,
+      "model_score": 56,
       "estimated_probability": 54.2,
       "market_probability": 54.2,
       "edge_percent": 0,
@@ -19771,7 +19796,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.521Z"
     },
     {
       "id": "2026-08-29|japonya j1 lig|v varen nagasa fc tokyo|ms 2|12 30",
@@ -19795,7 +19820,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.521Z"
     },
     {
       "id": "2026-08-29|hazirlik kulupler|gernika basconia|2 5 alt|12 30",
@@ -19819,7 +19844,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.521Z"
     },
     {
       "id": "2026-08-29|japonya j2 lig|vanraure blaublitz akita|ms 1|12 30",
@@ -19843,7 +19868,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.521Z"
     },
     {
       "id": "2026-08-29|japonya j2 lig|kataller toyam fujieda|2 5 ust|12 30",
@@ -19867,7 +19892,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.521Z"
     },
     {
       "id": "2026-08-29|avustralya npl guney avustralya yari final|ne metrostars west torrens|ms 1|12 30",
@@ -19891,7 +19916,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.620Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|ukrayna premier lig|kudrivka epitsentr dunay|2 5 alt|13 00",
@@ -19915,7 +19940,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|japonya j1 lig|kawasaki jef utd chiba|ms 1|13 00",
@@ -19939,7 +19964,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|japonya j1 lig|tokyo verdy kashima|2 5 alt|13 00",
@@ -19950,9 +19975,9 @@
       "start_time": "13:00",
       "market": "2.5 Alt",
       "odds": "1.53",
-      "confidence_score": "60%",
-      "analysis_score": 60,
-      "model_score": 60,
+      "confidence_score": "62%",
+      "analysis_score": 62,
+      "model_score": 62,
       "estimated_probability": 54.6,
       "market_probability": 55.7,
       "edge_percent": -1,
@@ -19963,7 +19988,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|japonya j1 lig|kyoto sanga avispa fukuoka|2 5 ust|13 00",
@@ -19987,7 +20012,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|japonya j1 lig|nagoya fagiano okayama|2 5 alt|13 00",
@@ -19998,9 +20023,9 @@
       "start_time": "13:00",
       "market": "2.5 Alt",
       "odds": "1.62",
-      "confidence_score": "53%",
-      "analysis_score": 53,
-      "model_score": 53,
+      "confidence_score": "56%",
+      "analysis_score": 56,
+      "model_score": 56,
       "estimated_probability": 52.5,
       "market_probability": 52.5,
       "edge_percent": 0,
@@ -20011,7 +20036,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|japonya j1 lig|vissel kobe cerezo osaka|2 5 alt|13 00",
@@ -20022,9 +20047,9 @@
       "start_time": "13:00",
       "market": "2.5 Alt",
       "odds": "1.63",
-      "confidence_score": "62%",
-      "analysis_score": 62,
-      "model_score": 62,
+      "confidence_score": "64%",
+      "analysis_score": 64,
+      "model_score": 64,
       "estimated_probability": 60.6,
       "market_probability": 52.2,
       "edge_percent": 8.4,
@@ -20035,7 +20060,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|japonya j1 lig|urawa yokohama marino|2 5 alt|13 00",
@@ -20046,9 +20071,9 @@
       "start_time": "13:00",
       "market": "2.5 Alt",
       "odds": "1.58",
-      "confidence_score": "54%",
-      "analysis_score": 54,
-      "model_score": 54,
+      "confidence_score": "56%",
+      "analysis_score": 56,
+      "model_score": 56,
       "estimated_probability": 53.9,
       "market_probability": 53.9,
       "edge_percent": 0,
@@ -20059,7 +20084,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|portekiz 2 lig|portimonense leixoes|2 5 alt|13 00",
@@ -20083,7 +20108,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.621Z"
+      "updated_at": "2026-08-29T12:08:09.522Z"
     },
     {
       "id": "2026-08-29|avustralya npl kuzey ygg play off 1 tur|kahibah 2 1 new lambton fc|ms 1|07 00",
@@ -20419,7 +20444,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.619Z"
+      "updated_at": "2026-08-29T12:08:09.520Z"
     },
     {
       "id": "2026-08-29|japonya j1 lig|mito hollyhock machida zelvia|2 5 ust|12 00",
@@ -20443,7 +20468,7 @@
       "result_score": "1-1",
       "source": "Robot ham veri havuzu",
       "learning_note": "Tahmin yanlış sonuçlandı.",
-      "updated_at": "2026-08-29T11:05:35.619Z",
+      "updated_at": "2026-08-29T12:08:09.520Z",
       "score_linked_at": "2026-08-29T11:05:41.802Z",
       "finalized_at": "2026-08-29T11:05:42.488Z"
     },
@@ -21083,7 +21108,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|el salvador primera lig apertura|alianza balboa|2 5 alt|04 00",
@@ -21107,7 +21132,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|meksika liga mx apertura|club america puebla|2 5 alt|04 05",
@@ -21155,7 +21180,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|kolombiya primera a clausura|alianza petrol atletico nacion|2 5 alt|04 30",
@@ -21179,7 +21204,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|abd usl|new mexico uni san antonio|2 5 ust|04 30",
@@ -21227,7 +21252,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|kosta rika premier lig apertura|perez zeledon alajuelense|2 5 alt|05 00",
@@ -21275,7 +21300,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|abd mls|san diego los angeles|ms 1|05 30",
@@ -21299,7 +21324,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.545Z"
     },
     {
       "id": "2026-08-29|abd mls|portland austin|ms 1|05 30",
@@ -21323,7 +21348,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.545Z"
     },
     {
       "id": "2026-08-29|abd usl|phoenix rising indy eleven|ms 1|05 30",
@@ -21347,7 +21372,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.545Z"
     },
     {
       "id": "2026-08-29|abd usl|las vegas ligh charleston batt|2 5 alt|05 30",
@@ -21395,7 +21420,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.545Z"
     },
     {
       "id": "2026-08-29|abd usl lig 1|greenville tri naples|2 5 alt|02 00",
@@ -21419,7 +21444,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd mls|new york philadelphia|2 5 alt|02 30",
@@ -21443,7 +21468,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd mls|dc united los angeles fc|ms 2|02 30",
@@ -21467,7 +21492,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd mls|atlanta utd charlotte|ms 1|02 30",
@@ -21491,7 +21516,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd mls|toronto new york city|2 5 alt|02 30",
@@ -21515,7 +21540,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd mls|inter miami montreal|ms 1|02 30",
@@ -21539,7 +21564,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|kolombiya primera a clausura|atletico junio santa fe|2 5 alt|02 30",
@@ -21563,7 +21588,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|sili premier lig|atletico nuble concepcion|2 5 alt|03 00",
@@ -21587,7 +21612,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|ekvador pro lig|manta barcelona gua|2 5 alt|03 00",
@@ -21611,7 +21636,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd usl|louisville cit detroit city|2 5 ust|03 00",
@@ -21635,7 +21660,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd usl|oakland roots orange county b|2 5 ust|03 00",
@@ -21683,7 +21708,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|brezilya serie a|vasco da gama cruzeiro|2 5 alt|03 20",
@@ -21707,7 +21732,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd mls|kansas vancouver|ms 2|03 30",
@@ -21731,7 +21756,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd mls|houston san jose|ms 1|03 30",
@@ -21755,7 +21780,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|abd mls|nashville sc cincinnati|ms 1|03 30",
@@ -21779,7 +21804,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|abd mls|minnesota utd orlando city|ms 1|03 30",
@@ -21803,7 +21828,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|arjantin premier lig 2 asama|atletico tucum belgrano|ms 1|03 30",
@@ -21827,7 +21852,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|arjantin premier lig 2 asama|talleres corboda santiag|2 5 alt|03 30",
@@ -21851,7 +21876,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|peru premier lig clausura|alianza lima deportivo garci|2 5 ust|03 30",
@@ -21875,7 +21900,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|abd usl|tulsa roughnec rhode island|2 5 alt|03 30",
@@ -21899,7 +21924,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|meksika ascenso mx apertura|zacatecas cds tampico mad|ms 1|04 00",
@@ -21923,7 +21948,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|guatemala ulusal lig apertura|comunicaciones municipal|2 5 alt|04 00",
@@ -21947,7 +21972,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|abd usl|el paso locomo loudoun united|2 5 alt|04 00",
@@ -21971,7 +21996,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.640Z"
+      "updated_at": "2026-08-29T12:08:09.544Z"
     },
     {
       "id": "2026-08-29|arjantin ulusal primera lig|midland nueva chicago|ms 1|22 30",
@@ -21995,7 +22020,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|ispanya primera lig rfef grup 2|hercules murcia|2 5 alt|22 30",
@@ -22019,7 +22044,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|arjantin premier lig 2 asama|rosario centra gimnasia la pla|2 5 alt|23 00",
@@ -22043,7 +22068,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|uruguay premier lig clausura|defensor sport torque|2 5 alt|23 00",
@@ -22067,7 +22092,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|abd mls|seattle chicago|2 5 alt|23 30",
@@ -22091,7 +22116,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|peru premier lig clausura|univ de cajama universitario|2 5 alt|23 30",
@@ -22115,7 +22140,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|guatemala ulusal lig apertura|guastatoya marquense|2 5 ust|00 00",
@@ -22139,7 +22164,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|ekvador pro lig|guayaquil city ldu quito|2 5 alt|00 00",
@@ -22163,7 +22188,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|kanada premier lig|cavalry vancouver fc|ms 1|00 00",
@@ -22187,7 +22212,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|abd usl|pittsburgh riv tampa bay rowdi|2 5 alt|00 00",
@@ -22211,7 +22236,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|honduras ulusal lig apertura|genesis pn marathon|2 5 alt|00 00",
@@ -22235,7 +22260,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|kolombiya primera a clausura|jaguares america de cali|2 5 alt|00 25",
@@ -22259,7 +22284,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|brezilya serie a|atletico mg vitoria bahia|2 5 alt|00 30",
@@ -22283,7 +22308,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|sili premier lig|deportes limac everton de vina|2 5 alt|00 30",
@@ -22307,7 +22332,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|brezilya serie b|botafogo ribei cuiaba|ms 1|00 30",
@@ -22331,7 +22356,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|el salvador primera lig apertura|platense inter fa|2 5 alt|00 30",
@@ -22355,7 +22380,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|arjantin premier lig 2 asama|huracan rio cuarto|ms 1|01 00",
@@ -22379,7 +22404,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|meksika ascenso mx apertura|tlaxcala venados fc|ms 1|01 00",
@@ -22403,7 +22428,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|brezilya serie a|sao paulo bragantino|2 5 alt|02 00",
@@ -22427,7 +22452,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|meksika liga mx apertura|atlas queretaro|2 5 ust|02 00",
@@ -22451,7 +22476,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|meksika liga mx apertura|pachuca guadalajara|2 5 alt|02 00",
@@ -22475,7 +22500,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd usl|hartford athle birmingham legi|ms 1|02 00",
@@ -22499,7 +22524,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd usl|brooklyn sporting jax|ms 1|02 00",
@@ -22523,7 +22548,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd usl|lexington colorado spring|2 5 ust|02 00",
@@ -22547,7 +22572,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd usl lig 1|chattanooga re athletic club b|ms 2|02 00",
@@ -22571,7 +22596,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd usl lig 1|richmond kicke forward madison|ms 2|02 00",
@@ -22595,7 +22620,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|abd usl lig 1|portland heart fort wayne|ms 1|02 00",
@@ -22619,7 +22644,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.639Z"
+      "updated_at": "2026-08-29T12:08:09.543Z"
     },
     {
       "id": "2026-08-29|italya serie b|ascoli picchio carrarese|2 5 ust|22 00",
@@ -22643,7 +22668,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|italya serie b|padova verona|2 5 alt|22 00",
@@ -22667,7 +22692,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|sirbistan super lig|radnicki nis radnicki 1923|2 5 alt|22 00",
@@ -22691,7 +22716,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|sirbistan super lig|cukaricki vojvodina|ms 2|22 00",
@@ -22715,7 +22740,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|sirbistan super lig|novi pazar macva|ms 1|22 00",
@@ -22739,7 +22764,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|portekiz kupa 1 tur|pacos ferreira fafe|2 5 alt|22 00",
@@ -22763,7 +22788,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|italya serie c grup b|spezia campobasso|2 5 alt|22 00",
@@ -22787,7 +22812,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|italya serie c grup b|forli pescara|2 5 alt|22 00",
@@ -22811,7 +22836,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|italya serie c grup b|pineto livorno|2 5 alt|22 00",
@@ -22835,7 +22860,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|italya serie c grup c|internazionale team altamura|ms 1|22 00",
@@ -22907,7 +22932,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|hirvatistan 1 hnl|varazdin rudes|2 5 alt|22 00",
@@ -22931,7 +22956,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|arjantin ulusal primera lig|rafaela tristan|ms 1|22 00",
@@ -22955,7 +22980,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|arjantin ulusal primera lig|ciudad de boli d belgrano|ms 1|22 00",
@@ -22979,7 +23004,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|ispanya kadinlar primera lig|madrid cf k granada k|2 5 ust|22 00",
@@ -23027,7 +23052,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|ispanya laliga|sevilla atletico madrid|2 5 ust|22 30",
@@ -23075,7 +23100,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|portekiz 2 lig|torreense vizela|2 5 alt|22 30",
@@ -23099,7 +23124,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.638Z"
+      "updated_at": "2026-08-29T12:08:09.542Z"
     },
     {
       "id": "2026-08-29|hollanda eredivisie|zwolle nijmegen|ms 2|22 00",
@@ -23123,7 +23148,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-29|italya serie b|avellino vicenza|2 5 alt|22 00",
@@ -23147,7 +23172,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-29T11:05:35.637Z"
+      "updated_at": "2026-08-29T12:08:09.541Z"
     },
     {
       "id": "2026-08-28|hazirlik kulupler|real union de san miguel|2 5 alt|22 00",
@@ -44201,26 +44226,6 @@
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-08-24T10:22:49.841Z"
-    },
-    {
-      "id": "2026-08-24|suudi arabistan pro lig|neom sc al qadsiah|ms 1|19 40",
-      "date": "2026-08-24",
-      "created_at": "2026-08-23T22:42:13.287Z",
-      "match_name": "Neom Sc - Al-Qadsiah",
-      "league": "Suudi Arabistan Pro Lig",
-      "start_time": "19:40",
-      "market": "MS 1",
-      "odds": "4.26",
-      "confidence_score": "35%",
-      "analysis_score": 35,
-      "risk_level": "Yüksek",
-      "status": "lost",
-      "result_score": "0-2",
-      "source": "Robot ham veri havuzu",
-      "learning_note": "Tahmin yanlış sonuçlandı.",
-      "updated_at": "2026-08-24T10:22:49.840Z",
-      "score_linked_at": "2026-08-24T19:02:34.889Z",
-      "finalized_at": "2026-08-24T19:02:36.906Z"
     }
   ]
 }

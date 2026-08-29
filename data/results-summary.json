@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-08-29T11:05:42.788Z",
+  "generated_at": "2026-08-29T12:08:16.793Z",
   "date": "2026-08-29",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
   "completed_items": [
+    {
+      "id": "2026-08-29|japonya j1 lig|gamba osaka hiroshima|2 5 alt|12 00",
+      "date": "2026-08-29",
+      "time": "12:00",
+      "title": "Gamba Osaka - Hiroshima",
+      "match": "Gamba Osaka - Hiroshima",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "2.09",
+      "score": "0-0",
+      "result_score": "0-0",
+      "confidence": "57%",
+      "confidence_score": "57%",
+      "model_score": 57,
+      "estimated_probability": 42.5,
+      "market_probability": 40.8,
+      "edge_percent": 1.7,
+      "data_completeness": 41,
+      "model_version": "pro13-market-conditioned-v1",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-08-29T12:08:16.514Z",
+      "source": "Robot ham veri havuzu"
+    },
     {
       "id": "2026-08-29|japonya j1 lig|mito hollyhock machida zelvia|2 5 ust|12 00",
       "date": "2026-08-29",
@@ -786,45 +813,18 @@
       "market_group_label": "Gol Marketleri",
       "finalized_at": "2026-08-29T03:15:49.312Z",
       "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-08-28|ekvador pro lig|mushuc runa delfin|ms 1|23 30",
-      "date": "2026-08-28",
-      "time": "23:30",
-      "title": "Mushuc Runa - Delfin",
-      "match": "Mushuc Runa - Delfin",
-      "market": "MS 1",
-      "prediction": "MS 1",
-      "odds": "1.39",
-      "score": "1-0",
-      "result_score": "1-0",
-      "confidence": "50%",
-      "confidence_score": "50%",
-      "model_score": 50,
-      "estimated_probability": 59.4,
-      "market_probability": 59.4,
-      "edge_percent": 0,
-      "data_completeness": 37,
-      "model_version": "pro13-market-conditioned-v1",
-      "risk": "Yüksek",
-      "status": "won",
-      "result": "won",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-08-29T03:15:49.312Z",
-      "source": "Robot ham veri havuzu"
     }
   ],
   "performance": {
     "prediction_count": 1500,
     "measured_count": 270,
     "pending_count": 1230,
-    "won_count": 158,
-    "lost_count": 112,
+    "won_count": 159,
+    "lost_count": 111,
     "void_count": 0,
     "success_rate": 59,
-    "probability_sample_count": 269,
-    "brier_score": 0.2315,
+    "probability_sample_count": 270,
+    "brier_score": 0.2318,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -838,10 +838,10 @@
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 81,
-        "won": 39,
+        "predictions": 82,
+        "won": 40,
         "average_probability": 45.4,
-        "observed_rate": 48.1
+        "observed_rate": 48.8
       },
       {
         "lower": 50,
@@ -860,22 +860,22 @@
         "observed_rate": 80.5
       }
     ],
-    "verified_at": "2026-08-29T11:05:42.488Z",
+    "verified_at": "2026-08-29T12:08:16.514Z",
     "groups": [
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 161,
-        "won": 97,
+        "measured": 162,
+        "won": 98,
         "lost": 64,
         "success_rate": 60
       },
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 109,
+        "measured": 108,
         "won": 61,
-        "lost": 48,
+        "lost": 47,
         "success_rate": 56
       }
     ]

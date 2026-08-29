@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T11:05:33.179Z",
+  "generated_at": "2026-08-29T12:08:07.198Z",
   "date": "2026-08-29",
   "engine": "Futbol Laboratuvarı PRO 13",
   "model_version": "pro13-market-conditioned-v1",
@@ -8,7 +8,7 @@
   "summary": {
     "fixture_count": 557,
     "scored_match_count": 557,
-    "coupon_candidate_count": 32,
+    "coupon_candidate_count": 0,
     "watch_candidate_count": 502,
     "learning_adjusted_count": 535,
     "squad_adjusted_count": 557,
@@ -540,21 +540,23 @@
       "match_code": "42599",
       "league": "Japonya J1 Lig",
       "start_time": "12:00",
-      "recommended_market": "MS 2",
-      "confidence_score": "60%",
-      "model_score": 60,
-      "analysis_score": 60,
+      "recommended_market": "2.5 Alt",
+      "confidence_score": "57%",
+      "model_score": 57,
+      "analysis_score": 57,
       "score_type": "signal_strength",
-      "estimated_probability": 58.9,
-      "market_probability": 58.9,
-      "edge_percent": 0,
-      "data_completeness": 38,
-      "evidence_mode": "market_baseline",
-      "independent_evidence": false,
-      "probability_source": [],
+      "estimated_probability": 42.5,
+      "market_probability": 40.8,
+      "edge_percent": 1.7,
+      "data_completeness": 41,
+      "evidence_mode": "market_plus_independent",
+      "independent_evidence": true,
+      "probability_source": [
+        "sonuç hafızası"
+      ],
       "model_version": "pro13-market-conditioned-v1",
-      "risk_level": "Yüksek",
-      "estimated_odds": "1.44",
+      "risk_level": "Orta",
+      "estimated_odds": "2.09",
       "available_odds": {
         "ms1": "4.52",
         "msx": "3.81",
@@ -992,40 +994,40 @@
         "team_status": null,
         "lineup": null,
         "adjustment": {
-          "original_model_score": 64,
+          "original_model_score": 61,
           "penalty": 4,
-          "adjusted_model_score": 60,
+          "adjusted_model_score": 57,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
-      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 2 | Oran: 1.44 | Veri tipi: standard",
+      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 2.09 | Veri tipi: standard",
       "include_in_coupon": false,
       "suitable_coupon_type": "Sadece izleme",
-      "data_gap_risk": "Yüksek",
-      "status": "live",
+      "data_gap_risk": "Orta",
+      "status": "finished",
       "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
+        "0-0",
+        "1-0",
+        "1-1"
       ],
       "learning_adjustment": {
-        "market": "MS 2",
+        "market": "2.5 Alt",
         "league": "Japonya J1 Lig",
-        "delta": 4,
-        "weight": 1.12,
+        "delta": 0,
+        "weight": 1,
         "applied": true,
         "notes": [
-          "Öğrenme: MS 2 başarı hafızası %64 (+4)"
+          "Öğrenme: 2.5 Alt başarı hafızası %54 (+0)"
         ],
         "market_bucket": {
-          "total": 204,
-          "pending": 168,
-          "won": 23,
-          "lost": 13,
+          "total": 604,
+          "pending": 495,
+          "won": 59,
+          "lost": 50,
           "void": 0,
-          "success_rate": 0.639,
-          "weight": 1.12,
-          "confidence_adjustment": 4
+          "success_rate": 0.541,
+          "weight": 1,
+          "confidence_adjustment": 0
         },
         "league_bucket": {
           "total": 10,
@@ -1038,8 +1040,8 @@
           "confidence_adjustment": 0
         },
         "league_market_bucket": {
-          "total": 2,
-          "pending": 2,
+          "total": 5,
+          "pending": 5,
           "won": 0,
           "lost": 0,
           "void": 0,
@@ -6582,9 +6584,9 @@
       "league": "Japonya J1 Lig",
       "start_time": "12:30",
       "recommended_market": "2.5 Alt",
-      "confidence_score": "54%",
-      "model_score": 54,
-      "analysis_score": 54,
+      "confidence_score": "56%",
+      "model_score": 56,
+      "analysis_score": 56,
       "score_type": "signal_strength",
       "estimated_probability": 54.2,
       "market_probability": 54.2,
@@ -7033,9 +7035,9 @@
         "team_status": null,
         "lineup": null,
         "adjustment": {
-          "original_model_score": 58,
+          "original_model_score": 60,
           "penalty": 4,
-          "adjusted_model_score": 54,
+          "adjusted_model_score": 56,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
@@ -11000,9 +11002,9 @@
       "league": "Japonya J1 Lig",
       "start_time": "13:00",
       "recommended_market": "2.5 Alt",
-      "confidence_score": "60%",
-      "model_score": 60,
-      "analysis_score": 60,
+      "confidence_score": "62%",
+      "model_score": 62,
+      "analysis_score": 62,
       "score_type": "signal_strength",
       "estimated_probability": 54.6,
       "market_probability": 55.7,
@@ -11453,9 +11455,9 @@
         "team_status": null,
         "lineup": null,
         "adjustment": {
-          "original_model_score": 64,
+          "original_model_score": 66,
           "penalty": 4,
-          "adjusted_model_score": 60,
+          "adjusted_model_score": 62,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
@@ -11519,9 +11521,9 @@
       "league": "Japonya J1 Lig",
       "start_time": "13:00",
       "recommended_market": "2.5 Alt",
-      "confidence_score": "53%",
-      "model_score": 53,
-      "analysis_score": 53,
+      "confidence_score": "56%",
+      "model_score": 56,
+      "analysis_score": 56,
       "score_type": "signal_strength",
       "estimated_probability": 52.5,
       "market_probability": 52.5,
@@ -11970,9 +11972,9 @@
         "team_status": null,
         "lineup": null,
         "adjustment": {
-          "original_model_score": 57,
+          "original_model_score": 60,
           "penalty": 4,
-          "adjusted_model_score": 53,
+          "adjusted_model_score": 56,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
@@ -12036,9 +12038,9 @@
       "league": "Japonya J1 Lig",
       "start_time": "13:00",
       "recommended_market": "2.5 Alt",
-      "confidence_score": "62%",
-      "model_score": 62,
-      "analysis_score": 62,
+      "confidence_score": "64%",
+      "model_score": 64,
+      "analysis_score": 64,
       "score_type": "signal_strength",
       "estimated_probability": 60.6,
       "market_probability": 52.2,
@@ -12489,9 +12491,9 @@
         "team_status": null,
         "lineup": null,
         "adjustment": {
-          "original_model_score": 66,
+          "original_model_score": 68,
           "penalty": 4,
-          "adjusted_model_score": 62,
+          "adjusted_model_score": 64,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
@@ -12555,9 +12557,9 @@
       "league": "Japonya J1 Lig",
       "start_time": "13:00",
       "recommended_market": "2.5 Alt",
-      "confidence_score": "54%",
-      "model_score": 54,
-      "analysis_score": 54,
+      "confidence_score": "56%",
+      "model_score": 56,
+      "analysis_score": 56,
       "score_type": "signal_strength",
       "estimated_probability": 53.9,
       "market_probability": 53.9,
@@ -13006,9 +13008,9 @@
         "team_status": null,
         "lineup": null,
         "adjustment": {
-          "original_model_score": 58,
+          "original_model_score": 60,
           "penalty": 4,
-          "adjusted_model_score": 54,
+          "adjusted_model_score": 56,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
@@ -302428,7 +302430,7 @@
       "include_in_coupon": false,
       "suitable_coupon_type": "Dengeli Kupon",
       "data_gap_risk": "Orta",
-      "status": "live",
+      "status": "finished",
       "expected_scores": [
         "2-1",
         "3-1",
@@ -302487,7 +302489,7 @@
         "leagueGoalAverage": 2.63,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 10,
+          "totalMatches": 12,
           "home": {
             "count": 1,
             "scored": 1,
@@ -302523,10 +302525,10 @@
             "pointsPerGame": 3
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.63,
-            "bttsRate": 63,
-            "over25Rate": 50
+            "count": 10,
+            "goalAverage": 2.3,
+            "bttsRate": 60,
+            "over25Rate": 40
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -302604,21 +302606,23 @@
       "match_code": "42599",
       "league": "Japonya J1 Lig",
       "start_time": "12:00",
-      "recommended_market": "MS 2",
-      "confidence_score": "60%",
-      "model_score": 60,
-      "analysis_score": 60,
+      "recommended_market": "2.5 Alt",
+      "confidence_score": "57%",
+      "model_score": 57,
+      "analysis_score": 57,
       "score_type": "signal_strength",
-      "estimated_probability": 58.9,
-      "market_probability": 58.9,
-      "edge_percent": 0,
-      "data_completeness": 38,
-      "evidence_mode": "market_baseline",
-      "independent_evidence": false,
-      "probability_source": [],
+      "estimated_probability": 42.5,
+      "market_probability": 40.8,
+      "edge_percent": 1.7,
+      "data_completeness": 41,
+      "evidence_mode": "market_plus_independent",
+      "independent_evidence": true,
+      "probability_source": [
+        "sonuç hafızası"
+      ],
       "model_version": "pro13-market-conditioned-v1",
-      "risk_level": "Yüksek",
-      "estimated_odds": "1.44",
+      "risk_level": "Orta",
+      "estimated_odds": "2.09",
       "available_odds": {
         "ms1": "4.52",
         "msx": "3.81",
@@ -303056,40 +303060,40 @@
         "team_status": null,
         "lineup": null,
         "adjustment": {
-          "original_model_score": 64,
+          "original_model_score": 61,
           "penalty": 4,
-          "adjusted_model_score": 60,
+          "adjusted_model_score": 57,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
-      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 2 | Oran: 1.44 | Veri tipi: standard",
+      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 2.09 | Veri tipi: standard",
       "include_in_coupon": false,
       "suitable_coupon_type": "Sadece izleme",
-      "data_gap_risk": "Yüksek",
-      "status": "live",
+      "data_gap_risk": "Orta",
+      "status": "finished",
       "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
+        "0-0",
+        "1-0",
+        "1-1"
       ],
       "learning_adjustment": {
-        "market": "MS 2",
+        "market": "2.5 Alt",
         "league": "Japonya J1 Lig",
-        "delta": 4,
-        "weight": 1.12,
+        "delta": 0,
+        "weight": 1,
         "applied": true,
         "notes": [
-          "Öğrenme: MS 2 başarı hafızası %64 (+4)"
+          "Öğrenme: 2.5 Alt başarı hafızası %54 (+0)"
         ],
         "market_bucket": {
-          "total": 204,
-          "pending": 168,
-          "won": 23,
-          "lost": 13,
+          "total": 604,
+          "pending": 495,
+          "won": 59,
+          "lost": 50,
           "void": 0,
-          "success_rate": 0.639,
-          "weight": 1.12,
-          "confidence_adjustment": 4
+          "success_rate": 0.541,
+          "weight": 1,
+          "confidence_adjustment": 0
         },
         "league_bucket": {
           "total": 10,
@@ -303102,8 +303106,8 @@
           "confidence_adjustment": 0
         },
         "league_market_bucket": {
-          "total": 2,
-          "pending": 2,
+          "total": 5,
+          "pending": 5,
           "won": 0,
           "lost": 0,
           "void": 0,
@@ -303124,8 +303128,8 @@
         "secondHalfGoalTrend": 41,
         "leagueGoalAverage": 2.63,
         "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 10,
+          "scoreDelta": 5,
+          "totalMatches": 12,
           "home": {
             "count": 1,
             "scored": 1,
@@ -303161,12 +303165,13 @@
             "pointsPerGame": 1
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.63,
-            "bttsRate": 63,
-            "over25Rate": 50
+            "count": 10,
+            "goalAverage": 2.3,
+            "bttsRate": 60,
+            "over25Rate": 40
           },
           "signals": [
+            "Hafıza: düşük lig gol ortalaması 2.3: +5",
             "Hafıza: takım sonuç örneği henüz sınırlı"
           ]
         },
@@ -303176,23 +303181,23 @@
         "homeConcededLast10Count": 1,
         "awayConcededLast10Count": 1,
         "learning_adjustment": {
-          "market": "MS 2",
+          "market": "2.5 Alt",
           "league": "Japonya J1 Lig",
-          "delta": 4,
-          "weight": 1.12,
+          "delta": 0,
+          "weight": 1,
           "applied": true,
           "notes": [
-            "Öğrenme: MS 2 başarı hafızası %64 (+4)"
+            "Öğrenme: 2.5 Alt başarı hafızası %54 (+0)"
           ],
           "market_bucket": {
-            "total": 204,
-            "pending": 168,
-            "won": 23,
-            "lost": 13,
+            "total": 604,
+            "pending": 495,
+            "won": 59,
+            "lost": 50,
             "void": 0,
-            "success_rate": 0.639,
-            "weight": 1.12,
-            "confidence_adjustment": 4
+            "success_rate": 0.541,
+            "weight": 1,
+            "confidence_adjustment": 0
           },
           "league_bucket": {
             "total": 10,
@@ -303205,8 +303210,8 @@
             "confidence_adjustment": 0
           },
           "league_market_bucket": {
-            "total": 2,
-            "pending": 2,
+            "total": 5,
+            "pending": 5,
             "won": 0,
             "lost": 0,
             "void": 0,
@@ -303218,20 +303223,21 @@
       },
       "signals": [
         "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: MS 2",
-        "Oran: 1.44",
+        "Market: 2.5 Alt",
+        "Oran: 2.09",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %59.",
-        "Birleşik tahmini olasılık %59.",
-        "Model-piyasa farkı +0.0 puan.",
+        "Marjı temizlenmiş piyasa olasılığı %41.",
+        "Bağımsız sonuç hafızası tahmini %50.",
+        "Birleşik tahmini olasılık %42.",
+        "Model-piyasa farkı +1.7 puan.",
+        "Hafıza: düşük lig gol ortalaması 2.3: +5",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 513; ham isabet %33.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
-        "Model gücü 59/100: Sadece izleme.",
-        "Öğrenme: MS 2 başarı hafızası %64 (+4)",
-        "Öğrenme etkisi: 59/100 → 64/100"
+        "Geçmiş market örneği 513; ham isabet %45.",
+        "Veri kapsama puanı 46/100 (Orta eksik veri riski).",
+        "Model gücü 61/100: Sadece izleme.",
+        "Öğrenme: 2.5 Alt başarı hafızası %54 (+0)",
+        "Öğrenme etkisi: 61/100 → 61/100"
       ]
     },
     {
@@ -310099,9 +310105,9 @@
       "league": "Japonya J1 Lig",
       "start_time": "12:30",
       "recommended_market": "2.5 Alt",
-      "confidence_score": "54%",
-      "model_score": 54,
-      "analysis_score": 54,
+      "confidence_score": "56%",
+      "model_score": 56,
+      "analysis_score": 56,
       "score_type": "signal_strength",
       "estimated_probability": 54.2,
       "market_probability": 54.2,
@@ -310550,9 +310556,9 @@
         "team_status": null,
         "lineup": null,
         "adjustment": {
-          "original_model_score": 58,
+          "original_model_score": 60,
           "penalty": 4,
-          "adjusted_model_score": 54,
+          "adjusted_model_score": 56,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
@@ -310618,8 +310624,8 @@
         "secondHalfGoalTrend": 49,
         "leagueGoalAverage": 2.63,
         "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 9,
+          "scoreDelta": 5,
+          "totalMatches": 11,
           "home": {
             "count": 1,
             "scored": 0,
@@ -310655,12 +310661,13 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.63,
-            "bttsRate": 63,
-            "over25Rate": 50
+            "count": 10,
+            "goalAverage": 2.3,
+            "bttsRate": 60,
+            "over25Rate": 40
           },
           "signals": [
+            "Hafıza: düşük lig gol ortalaması 2.3: +5",
             "Hafıza: takım sonuç örneği henüz sınırlı"
           ]
         },
@@ -310719,13 +310726,14 @@
         "Marjı temizlenmiş piyasa olasılığı %54.",
         "Birleşik tahmini olasılık %54.",
         "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: düşük lig gol ortalaması 2.3: +5",
         "Hafıza: takım sonuç örneği henüz sınırlı",
         "Geçmiş market örneği 513; ham isabet %45.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
-        "Model gücü 58/100: Sadece izleme.",
+        "Model gücü 60/100: Sadece izleme.",
         "Öğrenme: 2.5 Alt başarı hafızası %54 (+0)",
-        "Öğrenme etkisi: 58/100 → 58/100"
+        "Öğrenme etkisi: 60/100 → 60/100"
       ]
     },
     {
@@ -311398,7 +311406,7 @@
         "leagueGoalAverage": 2.63,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 8,
+          "totalMatches": 10,
           "home": {
             "count": 0,
             "scored": 0,
@@ -311434,10 +311442,10 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.63,
-            "bttsRate": 63,
-            "over25Rate": 50
+            "count": 10,
+            "goalAverage": 2.3,
+            "bttsRate": 60,
+            "over25Rate": 40
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -315368,7 +315376,7 @@
         "leagueGoalAverage": 2.63,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 9,
+          "totalMatches": 11,
           "home": {
             "count": 1,
             "scored": 1,
@@ -315404,10 +315412,10 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.63,
-            "bttsRate": 63,
-            "over25Rate": 50
+            "count": 10,
+            "goalAverage": 2.3,
+            "bttsRate": 60,
+            "over25Rate": 40
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -315486,9 +315494,9 @@
       "league": "Japonya J1 Lig",
       "start_time": "13:00",
       "recommended_market": "2.5 Alt",
-      "confidence_score": "60%",
-      "model_score": 60,
-      "analysis_score": 60,
+      "confidence_score": "62%",
+      "model_score": 62,
+      "analysis_score": 62,
       "score_type": "signal_strength",
       "estimated_probability": 54.6,
       "market_probability": 55.7,
@@ -315939,9 +315947,9 @@
         "team_status": null,
         "lineup": null,
         "adjustment": {
-          "original_model_score": 64,
+          "original_model_score": 66,
           "penalty": 4,
-          "adjusted_model_score": 60,
+          "adjusted_model_score": 62,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
@@ -316007,8 +316015,8 @@
         "secondHalfGoalTrend": 45,
         "leagueGoalAverage": 2.63,
         "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 10,
+          "scoreDelta": 5,
+          "totalMatches": 12,
           "home": {
             "count": 1,
             "scored": 0,
@@ -316044,12 +316052,13 @@
             "pointsPerGame": 3
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.63,
-            "bttsRate": 63,
-            "over25Rate": 50
+            "count": 10,
+            "goalAverage": 2.3,
+            "bttsRate": 60,
+            "over25Rate": 40
           },
           "signals": [
+            "Hafıza: düşük lig gol ortalaması 2.3: +5",
             "Hafıza: takım sonuç örneği henüz sınırlı"
           ]
         },
@@ -316109,12 +316118,13 @@
         "Bağımsız sonuç hafızası tahmini %50.",
         "Birleşik tahmini olasılık %55.",
         "Model-piyasa farkı -1.0 puan.",
+        "Hafıza: düşük lig gol ortalaması 2.3: +5",
         "Hafıza: takım sonuç örneği henüz sınırlı",
         "Geçmiş market örneği 513; ham isabet %45.",
         "Veri kapsama puanı 46/100 (Orta eksik veri riski).",
-        "Model gücü 64/100: Sadece izleme.",
+        "Model gücü 66/100: Orta risk kupon adayı.",
         "Öğrenme: 2.5 Alt başarı hafızası %54 (+0)",
-        "Öğrenme etkisi: 64/100 → 64/100"
+        "Öğrenme etkisi: 66/100 → 66/100"
       ]
     },
     {
@@ -316648,7 +316658,7 @@
         "leagueGoalAverage": 2.63,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 10,
+          "totalMatches": 12,
           "home": {
             "count": 1,
             "scored": 1,
@@ -316684,10 +316694,10 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.63,
-            "bttsRate": 63,
-            "over25Rate": 50
+            "count": 10,
+            "goalAverage": 2.3,
+            "bttsRate": 60,
+            "over25Rate": 40
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -316766,9 +316776,9 @@
       "league": "Japonya J1 Lig",
       "start_time": "13:00",
       "recommended_market": "2.5 Alt",
-      "confidence_score": "53%",
-      "model_score": 53,
-      "analysis_score": 53,
+      "confidence_score": "56%",
+      "model_score": 56,
+      "analysis_score": 56,
       "score_type": "signal_strength",
       "estimated_probability": 52.5,
       "market_probability": 52.5,
@@ -317217,9 +317227,9 @@
         "team_status": null,
         "lineup": null,
         "adjustment": {
-          "original_model_score": 57,
+          "original_model_score": 60,
           "penalty": 4,
-          "adjusted_model_score": 53,
+          "adjusted_model_score": 56,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
@@ -317285,8 +317295,8 @@
         "secondHalfGoalTrend": 54,
         "leagueGoalAverage": 2.63,
         "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 9,
+          "scoreDelta": 5,
+          "totalMatches": 11,
           "home": {
             "count": 1,
             "scored": 1,
@@ -317322,12 +317332,13 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.63,
-            "bttsRate": 63,
-            "over25Rate": 50
+            "count": 10,
+            "goalAverage": 2.3,
+            "bttsRate": 60,
+            "over25Rate": 40
           },
           "signals": [
+            "Hafıza: düşük lig gol ortalaması 2.3: +5",
             "Hafıza: takım sonuç örneği henüz sınırlı"
           ]
         },
@@ -317386,13 +317397,14 @@
         "Marjı temizlenmiş piyasa olasılığı %52.",
         "Birleşik tahmini olasılık %52.",
         "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: düşük lig gol ortalaması 2.3: +5",
         "Hafıza: takım sonuç örneği henüz sınırlı",
         "Geçmiş market örneği 513; ham isabet %45.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
-        "Model gücü 57/100: Sadece izleme.",
+        "Model gücü 60/100: Sadece izleme.",
         "Öğrenme: 2.5 Alt başarı hafızası %54 (+0)",
-        "Öğrenme etkisi: 57/100 → 57/100"
+        "Öğrenme etkisi: 60/100 → 60/100"
       ]
     },
     {
@@ -317404,9 +317416,9 @@
       "league": "Japonya J1 Lig",
       "start_time": "13:00",
       "recommended_market": "2.5 Alt",
-      "confidence_score": "62%",
-      "model_score": 62,
-      "analysis_score": 62,
+      "confidence_score": "64%",
+      "model_score": 64,
+      "analysis_score": 64,
       "score_type": "signal_strength",
       "estimated_probability": 60.6,
       "market_probability": 52.2,
@@ -317857,9 +317869,9 @@
         "team_status": null,
         "lineup": null,
         "adjustment": {
-          "original_model_score": 66,
+          "original_model_score": 68,
           "penalty": 4,
-          "adjusted_model_score": 62,
+          "adjusted_model_score": 64,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
@@ -317925,8 +317937,8 @@
         "secondHalfGoalTrend": 57,
         "leagueGoalAverage": 2.63,
         "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 10,
+          "scoreDelta": 5,
+          "totalMatches": 12,
           "home": {
             "count": 1,
             "scored": 0,
@@ -317962,12 +317974,13 @@
             "pointsPerGame": 3
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.63,
-            "bttsRate": 63,
-            "over25Rate": 50
+            "count": 10,
+            "goalAverage": 2.3,
+            "bttsRate": 60,
+            "over25Rate": 40
           },
           "signals": [
+            "Hafıza: düşük lig gol ortalaması 2.3: +5",
             "Hafıza: takım sonuç örneği henüz sınırlı"
           ]
         },
@@ -318027,12 +318040,13 @@
         "Bağımsız sonuç hafızası tahmini %99.",
         "Birleşik tahmini olasılık %61.",
         "Model-piyasa farkı +8.4 puan.",
+        "Hafıza: düşük lig gol ortalaması 2.3: +5",
         "Hafıza: takım sonuç örneği henüz sınırlı",
         "Geçmiş market örneği 513; ham isabet %45.",
         "Veri kapsama puanı 46/100 (Orta eksik veri riski).",
-        "Model gücü 66/100: Orta risk kupon adayı.",
+        "Model gücü 68/100: Orta risk kupon adayı.",
         "Öğrenme: 2.5 Alt başarı hafızası %54 (+0)",
-        "Öğrenme etkisi: 66/100 → 66/100"
+        "Öğrenme etkisi: 68/100 → 68/100"
       ]
     },
     {
@@ -318044,9 +318058,9 @@
       "league": "Japonya J1 Lig",
       "start_time": "13:00",
       "recommended_market": "2.5 Alt",
-      "confidence_score": "54%",
-      "model_score": 54,
-      "analysis_score": 54,
+      "confidence_score": "56%",
+      "model_score": 56,
+      "analysis_score": 56,
       "score_type": "signal_strength",
       "estimated_probability": 53.9,
       "market_probability": 53.9,
@@ -318495,9 +318509,9 @@
         "team_status": null,
         "lineup": null,
         "adjustment": {
-          "original_model_score": 58,
+          "original_model_score": 60,
           "penalty": 4,
-          "adjusted_model_score": 54,
+          "adjusted_model_score": 56,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
@@ -318563,8 +318577,8 @@
         "secondHalfGoalTrend": 55,
         "leagueGoalAverage": 2.63,
         "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 9,
+          "scoreDelta": 5,
+          "totalMatches": 11,
           "home": {
             "count": 1,
             "scored": 1,
@@ -318600,12 +318614,13 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.63,
-            "bttsRate": 63,
-            "over25Rate": 50
+            "count": 10,
+            "goalAverage": 2.3,
+            "bttsRate": 60,
+            "over25Rate": 40
           },
           "signals": [
+            "Hafıza: düşük lig gol ortalaması 2.3: +5",
             "Hafıza: takım sonuç örneği henüz sınırlı"
           ]
         },
@@ -318664,13 +318679,14 @@
         "Marjı temizlenmiş piyasa olasılığı %54.",
         "Birleşik tahmini olasılık %54.",
         "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: düşük lig gol ortalaması 2.3: +5",
         "Hafıza: takım sonuç örneği henüz sınırlı",
         "Geçmiş market örneği 513; ham isabet %45.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
-        "Model gücü 58/100: Sadece izleme.",
+        "Model gücü 60/100: Sadece izleme.",
         "Öğrenme: 2.5 Alt başarı hafızası %54 (+0)",
-        "Öğrenme etkisi: 58/100 → 58/100"
+        "Öğrenme etkisi: 60/100 → 60/100"
       ]
     },
     {
