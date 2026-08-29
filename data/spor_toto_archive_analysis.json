@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-29T18:37:55.860Z",
+  "generated_at": "2026-08-29T21:12:38.411Z",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
   "model_version": "pro13-market-conditioned-v1-weekly-archive",
   "week_label": "2026/2027 3. Hafta",
-  "archive_match_count": 10106,
+  "archive_match_count": 10429,
   "archive_ready_count": 0,
   "public_distribution_count": 15,
   "analysis_available_count": 15,
@@ -119,45 +119,55 @@
       "poisson": null,
       "form": {
         "home": {
-          "count": 1,
-          "scored": 1,
-          "conceded": 1,
+          "count": 2,
+          "scored": 2,
+          "conceded": 2,
           "bttsRate": 100,
           "over25Rate": 100,
-          "over35Rate": 100,
-          "goalsForAvg": 2,
-          "goalsAgainstAvg": 4,
+          "over35Rate": 50,
+          "goalsForAvg": 1.5,
+          "goalsAgainstAvg": 3,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
+          "losses": 2,
           "winRate": 0,
           "drawRate": 0,
           "lossRate": 100,
           "pointsPerGame": 0,
           "recent": [
+            "L",
             "L"
           ]
         },
         "away": {
-          "count": 0,
-          "scored": 0,
-          "conceded": 0,
-          "bttsRate": 0,
-          "over25Rate": 0,
+          "count": 1,
+          "scored": 1,
+          "conceded": 1,
+          "bttsRate": 100,
+          "over25Rate": 100,
           "over35Rate": 0,
-          "goalsForAvg": 0,
-          "goalsAgainstAvg": 0,
-          "wins": 0,
+          "goalsForAvg": 2,
+          "goalsAgainstAvg": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "winRate": 0,
+          "winRate": 100,
           "drawRate": 0,
           "lossRate": 0,
-          "pointsPerGame": 0,
-          "recent": []
+          "pointsPerGame": 3,
+          "recent": [
+            "W"
+          ]
         }
       },
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-08-29",
+          "home": "Konyaspor",
+          "away": "Kocaelispor",
+          "score": "1-2"
+        }
+      ]
     },
     {
       "no": 3,
@@ -915,23 +925,24 @@
           "recent": []
         },
         "away": {
-          "count": 2,
-          "scored": 2,
+          "count": 3,
+          "scored": 3,
           "conceded": 2,
-          "bttsRate": 100,
-          "over25Rate": 100,
-          "over35Rate": 100,
-          "goalsForAvg": 2.5,
-          "goalsAgainstAvg": 2,
-          "wins": 1,
+          "bttsRate": 67,
+          "over25Rate": 67,
+          "over35Rate": 67,
+          "goalsForAvg": 2.33,
+          "goalsAgainstAvg": 1.33,
+          "wins": 2,
           "draws": 1,
           "losses": 0,
-          "winRate": 50,
-          "drawRate": 50,
+          "winRate": 67,
+          "drawRate": 33,
           "lossRate": 0,
-          "pointsPerGame": 2,
+          "pointsPerGame": 2.33,
           "recent": [
             "D",
+            "W",
             "W"
           ]
         }

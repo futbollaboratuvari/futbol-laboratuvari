@@ -1,48 +1,148 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-29T18:37:37.232637+00:00
+Tarih: 2026-08-29T21:11:46.241403+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 44
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 43
-- Ham veri havuzu toplam mac sayisi: 10159
-- Hedef tarih: 29.08.2026 Europe/Istanbul
+- Kac mac bulundu: 391
+- Kac mac kaydedildi: 391
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 10550
+- Hedef tarih: 30.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
+- Almanya 2. Bundesliga
+- Almanya 3. Lig
+- Almanya Bundesliga
+- Almanya Kadınlar Bundesliga
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Kuzey YGG Yarı Final
-- Avustralya NPL Queensland Eleme Finali
+- Avustralya NPL Queensland Yarı Final
+- Avustralya NPL Yeni Güney Galler
+- Avustralya Victoria NPL 1
+- Avusturya 1.Lig
+- Avusturya Bundesliga
+- Azerbaycan Premier Lig
+- Belarus 1.Lig
+- Belarus Premier Lig
+- Belçika Challenger Pro Lig
 - Belçika Pro Lig
+- Birleşik Arap Emirlikleri 1.Lig
+- Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bosna-Hersek Premier Lig
+- Brezilya Serie A
+- Brezilya Serie B
+- Bulgaristan 1.Lig
+- Danimarka 1.Lig
+- Danimarka 2.Lig
+- Danimarka Süperlig
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
+- Estonya Premium Lig
+- Faroe Adaları Master Lig
+- Finlandiya Ykkösliiga
 - Fransa Ligue 1
+- Guatemala Ulusal Lig Apertura
+- Güney Afrika 8 Kupası Yarı Final
+- Güney Kore K Lig 1
+- Güney Kore K Lig 2
+- Güney Kore K3 Ligi
+- Gürcistan Erovnuli Liga
+- Hollanda Eerste Divisie
 - Hollanda Eredivisie
+- Honduras Ulusal Lig Apertura
+- Hong Kong Premier Lig
 - Hırvatistan 1.HNL
-- Irak Premier Lig
-- Kenya Premier Lig
+- Hırvatistan 2.HNL
+- Japonya J3 Lig
+- Japonya WE Ligi Kadınlar
+- Kanada Premier Lig
+- Kazakistan Premier Lig
+- Kolombiya Primera A Clausura
+- Kosta Rika Premier Lig Apertura
+- Kuveyt Premier Lig
+- Letonya Virsliga
+- Litvanya A Ligi
+- Macaristan NB I
+- Macaristan NB II
 - Macaristan NB III Güneybatı
+- Macaristan NB III Güneydoğu
+- Macaristan NB III Kuzeybatı
+- Macaristan NB III Kuzeydoğu
+- Malezya Süper Lig
 - Malta Premier Lig Açılış
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
+- Moldova Ulusal Lig
+- Nijerya NPFL
+- Nikaragua Premier Lig Apertura
+- Norveç 1.Lig
+- Norveç 2.Lig Grup 1
+- Norveç 2.Lig Grup 2
+- Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 4
+- Norveç 3.Lig Grup 5
+- Norveç 3.Lig Grup 6
+- Norveç Eliteserien
 - Peru Premier Lig Clausura
+- Polonya 1.Lig
+- Polonya 2.Lig
+- Polonya Ekstraklasa
 - Portekiz 2.Lig
 - Portekiz Kupa 1.Tur
+- Portekiz Premier Lig
+- Romanya 1.Lig
+- Rusya FNL
+- Rusya Premier Lig
+- Slovakya 2.Lig
+- Slovakya Süper Lig
+- Slovenya 1.SNL
+- Suudi Arabistan Pro Lig
 - Sırbistan Süper Lig
-- Tanzanya Kuu Bara Ligi
+- Tunus 1.Lig
+- Türkiye Süper Lig
+- Türkiye TFF 1. Lig
+- Ukrayna Premier Lig
+- Umman Profesyonel Lig
 - Uruguay Premier Lig Clausura
+- Venezuela Premier Lig Clausura
+- Yunanistan Süper Lig
+- Çek Cumhuriyeti Czech Liga
+- Çek Cumhuriyeti FNL
+- Çin Halk Cumhuriyeti 1.Lig
+- İngiltere 1.Lig
+- İngiltere Premier Lig
+- İngiltere Premier Lig 2
+- İrlanda Premier Lig
+- İskoçya Premiership
 - İspanya 2.Lig
 - İspanya Kadınlar Primera Lig
 - İspanya LaLiga
+- İspanya Primera Lig RFEF Grup 1
 - İspanya Primera Lig RFEF Grup 2
 - İsveç 2.Lig Norra Götaland
+- İsveç 2.Lig Norra Svealand
+- İsveç 2.Lig Norrland Yükselme Grubu
+- İsveç 2.Lig Södra Götaland
+- İsveç 2.Lig Södra Svealand
+- İsveç 2.Lig Vastra Götaland
+- İsveç Allsvenskan
+- İsveç Superettan
+- İsviçre 1.Lig Promotion
+- İsviçre Süper Lig
 - İtalya Serie A
+- İtalya Serie A Kadınlar Kupası Grup A
+- İtalya Serie A Kadınlar Kupası Grup B
 - İtalya Serie B
+- İtalya Serie C Grup A
 - İtalya Serie C Grup B
-- İtalya Serie C Grup C
+- İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -99,8 +199,8 @@ Tarih: 2026-08-29T18:37:37.232637+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 51
-- Acilan detay: 51
+- Denenen Tumu alani: 90
+- Acilan detay: 90
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -113,26 +213,26 @@ Tarih: 2026-08-29T18:37:37.232637+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 29.08.2026 | 22:30 | İspanya LaLiga | Sevilla | Atletico Madrid | 11392 | 5 |
-| 29.08.2026 | 21:45 | İtalya Serie A | Juventus | Parma | 24219 | 5 |
-| 29.08.2026 | 21:45 | Fransa Ligue 1 | Lorient | Troyes | 27203 | 5 |
-| 29.08.2026 | 21:45 | Fransa Ligue 1 | Lyon | Le Havre | 27255 | 5 |
-| 29.08.2026 | 21:45 | Fransa Ligue 1 | Auxerre | Angers | 27087 | 5 |
-| 29.08.2026 | 21:45 | Fransa Ligue 1 | Brest | Toulouse | 27145 | 5 |
-| 29.08.2026 | 22:00 | Hollanda Eredivisie | Zwolle | Nijmegen | 28415 | 5 |
-| 29.08.2026 | 21:45 | Belçika Pro Lig | Cercle Brugge | Lommel | 27829 | 5 |
-| 29.08.2026 | 21:45 | Belçika Pro Lig | Oh Leuven | Standard Liege | 27887 | 5 |
-| 29.08.2026 | 22:30 | İspanya 2.Lig | Girona | Las Palmas | 19955 | 5 |
-| 29.08.2026 | 22:00 | İtalya Serie B | Padova | Verona | 25553 | 5 |
-| 29.08.2026 | 22:00 | İtalya Serie B | Ascoli Picchio | Carrarese | 25489 | 5 |
-| 29.08.2026 | 22:00 | İtalya Serie B | Avellino | Vicenza | 25429 | 5 |
-| 29.08.2026 | 22:00 | Sırbistan Süper Lig | Cukaricki | Vojvodina | 50393 | 5 |
-| 29.08.2026 | 22:00 | Sırbistan Süper Lig | Novi Pazar | Macva | 50410 | 5 |
-| 29.08.2026 | 22:00 | Sırbistan Süper Lig | Radnicki Nis | Radnicki 1923 | 50427 | 5 |
-| 29.08.2026 | 23:30 | ABD MLS | Seattle | Chicago | 43628 | 5 |
-| 29.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Rosario Centra | Gimnasia La Pla | 31015 | 5 |
-| 29.08.2026 | 22:30 | Portekiz 2.Lig | Torreense | Vizela | 29920 | 5 |
-| 29.08.2026 | 22:00 | Portekiz Kupa 1.Tur | Pacos Ferreira | Fafe | 05264 | 5 |
+| 30.08.2026 | 21:30 | Türkiye Süper Lig | Samsunspor | Fenerbahçe | 06560 | 5 |
+| 30.08.2026 | 19:00 | Türkiye Süper Lig | Eyüpspor | Alanyaspor | 06555 | 5 |
+| 30.08.2026 | 21:30 | Türkiye Süper Lig | Başakşehir Fk | Kasimpaşa | 06558 | 5 |
+| 30.08.2026 | 21:30 | Türkiye TFF 1. Lig | Manisa Futbol | Bodrum Fk | 20511 | 5 |
+| 30.08.2026 | 19:00 | Türkiye TFF 1. Lig | Esenler Eroksp | Iğdır Fk | 20494 | 5 |
+| 30.08.2026 | 18:30 | İngiltere Premier Lig | Man. Utd | Ipswich | 14031 | 5 |
+| 30.08.2026 | 16:00 | İngiltere Premier Lig | Chelsea | Brighton | 13427 | 5 |
+| 30.08.2026 | 16:00 | İngiltere Premier Lig | Sunderland | Fulham | 13961 | 5 |
+| 30.08.2026 | 16:00 | İngiltere Premier Lig | Leeds Utd | Brentford | 13489 | 5 |
+| 30.08.2026 | 20:30 | İspanya LaLiga | D.La Coruna | Valencia | 19211 | 5 |
+| 30.08.2026 | 18:00 | İspanya LaLiga | Real Madrid | Malaga | 18729 | 4 |
+| 30.08.2026 | 22:30 | İspanya LaLiga | Celta Vigo | Athletic Bilbao | 19269 | 5 |
+| 30.08.2026 | 19:30 | İtalya Serie A | Napoli | Como | 24276 | 5 |
+| 30.08.2026 | 21:45 | İtalya Serie A | Lazio | Genoa | 24334 | 5 |
+| 30.08.2026 | 21:45 | İtalya Serie A | Cagliari | Inter | 00160 | 5 |
+| 30.08.2026 | 18:15 | Fransa Ligue 1 | Rennes | Le Mans | 27370 | 5 |
+| 30.08.2026 | 21:45 | Fransa Ligue 1 | Monaco | Marsilya | 06854 | 5 |
+| 30.08.2026 | 16:00 | Fransa Ligue 1 | Paris Fc | Nice | 27313 | 5 |
+| 30.08.2026 | 18:30 | Almanya Bundesliga | Augsburg | Schalke | 21882 | 5 |
+| 30.08.2026 | 16:30 | Almanya Bundesliga | Freiburg | Werder Bremen | 21765 | 5 |
 
 ## Sonuc
 

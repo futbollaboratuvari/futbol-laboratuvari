@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.08.2026 21:40:52
+Oluşturma: 30.08.2026 00:12:23
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1230
-- Kazanan tahmin: 159
-- Kaybeden tahmin: 111
-- Lig sayısı: 216
+- Bekleyen tahmin: 1169
+- Kazanan tahmin: 179
+- Kaybeden tahmin: 152
+- Lig sayısı: 217
 - Seçenek sayısı: 7
 
 ## Öğrenme Mantığı
@@ -20,29 +20,29 @@ Oluşturma: 29.08.2026 21:40:52
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 192, bekleyen 143, başarı %71, ağırlık 1.12
-- MS 2: toplam 199, bekleyen 164, başarı %60, ağırlık 1.06
-- 2.5 Alt: toplam 601, bekleyen 486, başarı %56, ağırlık 1.06
-- MS 1: toplam 501, bekleyen 430, başarı %54, ağırlık 1
-- KG Var: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
+- KG Var: toplam 3, bekleyen 2, başarı %100, ağırlık 1
+- 2.5 Üst: toplam 192, bekleyen 128, başarı %69, ağırlık 1.12
+- MS 2: toplam 195, bekleyen 153, başarı %52, ağırlık 1
+- 2.5 Alt: toplam 609, bekleyen 467, başarı %51, ağırlık 1
+- MS 1: toplam 497, bekleyen 415, başarı %49, ağırlık 1
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 - MS X: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-29 | Irak Premier Lig | Al Karkh - Al Kahraba | 2.5 Alt | pending | 60/100
-- 2026-08-29 | Portekiz Kupa 1.Tur | Pacos Ferreira - Fafe | MS 1 | pending | 53/100
-- 2026-08-29 | İtalya Serie C Grup C | Cosenza - Rossoblu Potenz | 2.5 Üst | pending | 60/100
-- 2026-08-29 | Meksika Liga MX Apertura | Pachuca - Guadalajara | 2.5 Üst | pending | 77/100
-- 2026-08-29 | Norveç 3.Lig Grup 4 | Hinna - Vag Fk | MS 1 | pending | 45/100
-- 2026-08-29 | Belarus 1.Lig | Ostrovets Fc - Volna Pinsk | MS 1 | pending | 45/100
-- 2026-08-29 | Finlandiya Ykkönen | Oulun Ls - Tampere Utd | MS 1 | pending | 45/100
-- 2026-08-29 | Japonya J1 Lig | Mito Hollyhock - Machida Zelvia | 2.5 Alt | won | 70/100
-- 2026-08-29 | Meksika Liga MX Apertura | Club Tijuana - Pumas Unam | 2.5 Alt | won | 60/100
-- 2026-08-29 | Meksika Liga MX Apertura | Atlante - Club Leon | 2.5 Alt | won | 59/100
-- 2026-08-29 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Gimnasia La Pla | MS 1 | pending | 56/100
-- 2026-08-29 | Suudi Arabistan Pro Lig | Al Kholood - Al Ahli (Cidde) | MS 2 | pending | 60/100
-- 2026-08-29 | Hırvatistan 1.HNL | Istra - Dinamo Zagreb | KG Var | pending | 39/100
-- 2026-08-29 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ain - Al Nasr | MS 1 | pending | 57/100
-- 2026-08-29 | Avusturya 1.Lig | Avusturya Wien - Bregenz | MS 1 | pending | 49/100
+- 2026-08-30 | Peru Premier Lig Clausura | Cienciano - Cusco Fc | MS 1 | pending | 49/100
+- 2026-08-30 | Şili Premier Lig | Coquimbo Unido - Huachipato | MS 1 | pending | 57/100
+- 2026-08-30 | Arjantin Premier Lig 2. Aşama | Rivadavia - Racing Club | 2.5 Alt | pending | 73/100
+- 2026-08-30 | Guatemala Ulusal Lig Apertura | Xelaju - Mixco | 2.5 Alt | pending | 66/100
+- 2026-08-30 | Nikaragua Premier Lig Apertura | Unan Managua - Managua | MS 2 | pending | 55/100
+- 2026-08-30 | Kolombiya Primera A Clausura | Deportivo Cali - Bucaramanga | 2.5 Alt | pending | 76/100
+- 2026-08-30 | Meksika Liga MX Apertura | Monterrey - Atletico San Lu | MS 1 | pending | 60/100
+- 2026-08-30 | Honduras Ulusal Lig Apertura | Estrella Roja - Depor. Olimpia | 2.5 Üst | pending | 72/100
+- 2026-08-30 | El Salvador Primera Lig Apertura | Aguila - Fuerte San Fran | MS 1 | pending | 60/100
+- 2026-08-30 | Kolombiya Primera A Clausura | Independiente - Llaneros | 2.5 Alt | pending | 75/100
+- 2026-08-30 | Brezilya Serie A | Mirassol - Palmeiras | 2.5 Alt | pending | 72/100
+- 2026-08-30 | Brezilya Serie A | Gremio - Chapecoense | 2.5 Alt | pending | 73/100
+- 2026-08-30 | Şili Premier Lig | Colo Colo - Audax Italiano | MS 1 | pending | 58/100
+- 2026-08-30 | Arjantin Ulusal Primera Lig | San Martin Tuc - Club Atletico G | MS 1 | pending | 60/100
+- 2026-08-30 | Brezilya Serie B | Vila Nova - Ceara | 2.5 Alt | pending | 73/100
 
