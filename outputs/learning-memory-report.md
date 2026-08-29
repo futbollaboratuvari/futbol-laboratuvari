@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.08.2026 12:11:38
+Oluşturma: 29.08.2026 13:10:18
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1219
-- Kazanan tahmin: 156
-- Kaybeden tahmin: 125
-- Lig sayısı: 216
+- Bekleyen tahmin: 1240
+- Kazanan tahmin: 150
+- Kaybeden tahmin: 110
+- Lig sayısı: 218
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -20,28 +20,28 @@ Oluşturma: 29.08.2026 12:11:38
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 173, bekleyen 131, başarı %74, ağırlık 1.12
-- 2.5 Alt: toplam 585, bekleyen 476, başarı %54, ağırlık 1
-- MS 1: toplam 486, bekleyen 413, başarı %52, ağırlık 1
-- MS 2: toplam 231, bekleyen 179, başarı %50, ağırlık 1
-- MS X: toplam 23, bekleyen 18, başarı %40, ağırlık 0.88
+- 2.5 Üst: toplam 188, bekleyen 146, başarı %74, ağırlık 1.12
+- MS 2: toplam 206, bekleyen 169, başarı %62, ağırlık 1.12
+- 2.5 Alt: toplam 601, bekleyen 492, başarı %54, ağırlık 1
+- MS 1: toplam 494, bekleyen 423, başarı %52, ağırlık 1
 - KG Var: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
+- MS X: toplam 9, bekleyen 8, başarı %0, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-29 | İzlanda 1.Lig | Völsungur - Ir Reykjavik | 2.5 Alt | pending | 49/100
-- 2026-08-29 | İsveç 2.Lig Norra Svealand | Skiljebo Sk - Sunnersta Aif | 2.5 Alt | pending | 49/100
-- 2026-08-29 | Macaristan NB III Güneydoğu | Szegedi Vse - Szolnok | 2.5 Alt | pending | 48/100
-- 2026-08-29 | İzlanda 2.Lig | Kormakur - Kfa | 2.5 Alt | pending | 49/100
-- 2026-08-29 | İzlanda 1.Lig | Grindavik - Hk Kopavogur | 2.5 Alt | pending | 48/100
-- 2026-08-29 | İngiltere Championship | Watford - West Ham | KG Var | pending | 57/100
-- 2026-08-29 | Hollanda Tweede Divisie | Jong Sparta - Hhc | 2.5 Alt | pending | 49/100
-- 2026-08-29 | Ekvador Pro Lig | T.Universitari - Deportivo Cuenc | 2.5 Üst | won | 68/100
-- 2026-08-29 | Uruguay Premier Lig Clausura | Montevideo Wan - Central Espanol | 2.5 Üst | won | 71/100
-- 2026-08-29 | ABD USL Lig 1 | Westchester Sc - Spokane Velocit | 2.5 Alt | pending | 50/100
-- 2026-08-29 | ABD USL | Oakland Roots - Orange County B | MS 1 | pending | 51/100
-- 2026-08-29 | İtalya Serie C Grup C | Internazionale - Team Altamura | 2.5 Alt | pending | 54/100
-- 2026-08-29 | İtalya Serie C Grup C | Ss Monopoli 19 - Catania | MS 2 | pending | 47/100
-- 2026-08-29 | Hollanda Eredivisie | Az Alkmaar - Go Ahead Eagles | MS 1 | pending | 60/100
-- 2026-08-29 | Macaristan NB II | Kecskemeti - Kozarmisleny | 2.5 Alt | pending | 49/100
+- 2026-08-29 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Alajuelense | 2.5 Üst | pending | 60/100
+- 2026-08-29 | ABD USL | Las Vegas Ligh - Charleston Batt | 2.5 Üst | pending | 60/100
+- 2026-08-29 | Avustralya NPL Kuzey YGG Play-Off 1.Tur | Wallsend (6) - (6) Newcastle Croat | MS 1 | pending | 40/100
+- 2026-08-29 | Meksika Liga MX Apertura | Club America - Puebla | MS 1 | pending | 60/100
+- 2026-08-29 | ABD USL | New Mexico Uni - San Antonio | 2.5 Alt | pending | 57/100
+- 2026-08-29 | Honduras Ulusal Lig Apertura | Platense - Atlético Indepe | 2.5 Alt | pending | 55/100
+- 2026-08-29 | İspanya Kadınlar Primera Lig | Madrid Cf (K) - Granada (K) | 2.5 Alt | pending | 52/100
+- 2026-08-29 | İspanya LaLiga | Sevilla - Atletico Madrid | 2.5 Alt | pending | 52/100
+- 2026-08-29 | Irak Premier Lig | Al Karkh - Al Kahraba | 2.5 Alt | pending | 57/100
+- 2026-08-29 | Polonya Ekstraklasa | Zaglebie Lubin - Pogon Szczecin | 2.5 Alt | pending | 52/100
+- 2026-08-29 | İtalya Serie A Kadınlar Kupası Grup C | Ac Milan (K) - Como (K) | 2.5 Üst | pending | 60/100
+- 2026-08-29 | Fransa Ligue 1 | Lyon - Le Havre | 2.5 Alt | pending | 59/100
+- 2026-08-29 | Hazırlık Kulüpler | Terrassa - Badalona | 2.5 Alt | pending | 56/100
+- 2026-08-29 | İtalya Serie A | Fiorentina - Frosinone | 2.5 Alt | pending | 59/100
+- 2026-08-29 | Portekiz Kupa 1.Tur | Montijo - Atletico | 2.5 Alt | pending | 54/100
 
