@@ -1,12 +1,12 @@
 # Analiz Sağlık Kontrolü
 
 Durum: warning
-Tarih: 2026-08-29
-Bugünkü bülten maçı: 103
-Robot analiz maçı: 166
-Canlı veri maçı: 103
-Tekrar eden analiz: 1
+Tarih: 2026-08-30
+Bugünkü bülten maçı: 11
+Robot analiz maçı: 49
+Canlı veri maçı: 11
+Tekrar eden analiz: 0
 Marketsiz analiz: 0
-Skorsuz analiz: 5
+Skorsuz analiz: 2
 
 Sonraki aksiyon: Analiz verisi kontrol edilmeli.

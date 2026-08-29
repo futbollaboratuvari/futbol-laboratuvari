@@ -1,167 +1,113 @@
 {
-  "generated_at": "2026-08-29T18:42:47.317Z",
+  "generated_at": "2026-08-29T21:50:28.789Z",
   "status": "active",
   "prediction_count": 1500,
   "market_memory": {
     "total": 7,
     "ready": 4,
-    "boost": 3,
-    "penalty": 0,
+    "boost": 1,
+    "penalty": 1,
     "best": [
       {
         "name": "2.5 Üst",
-        "total": 192,
-        "pending": 143,
-        "won": 35,
-        "lost": 14,
+        "total": 185,
+        "pending": 136,
+        "won": 32,
+        "lost": 17,
         "void": 0,
-        "success_rate": 0.714,
+        "success_rate": 0.653,
         "weight": 1.12,
         "confidence_adjustment": 4
-      },
-      {
-        "name": "MS 2",
-        "total": 199,
-        "pending": 164,
-        "won": 21,
-        "lost": 14,
-        "void": 0,
-        "success_rate": 0.6,
-        "weight": 1.06,
-        "confidence_adjustment": 2
-      },
-      {
-        "name": "2.5 Alt",
-        "total": 601,
-        "pending": 486,
-        "won": 65,
-        "lost": 50,
-        "void": 0,
-        "success_rate": 0.565,
-        "weight": 1.06,
-        "confidence_adjustment": 2
       }
     ],
-    "weak": []
+    "weak": [
+      {
+        "name": "MS 2",
+        "total": 200,
+        "pending": 178,
+        "won": 10,
+        "lost": 12,
+        "void": 0,
+        "success_rate": 0.455,
+        "weight": 0.94,
+        "confidence_adjustment": -2
+      }
+    ]
   },
   "league_memory": {
-    "total": 216,
-    "ready": 21,
-    "boost": 13,
-    "penalty": 5,
+    "total": 213,
+    "ready": 13,
+    "boost": 5,
+    "penalty": 7,
     "best": [
       {
-        "name": "Ekvador Pro Lig",
-        "total": 10,
-        "pending": 5,
-        "won": 5,
-        "lost": 0,
-        "void": 0,
-        "success_rate": 1,
-        "weight": 1.12,
-        "confidence_adjustment": 4
-      },
-      {
-        "name": "Brezilya Serie A",
-        "total": 9,
-        "pending": 4,
-        "won": 4,
-        "lost": 1,
-        "void": 0,
-        "success_rate": 0.8,
-        "weight": 1.12,
-        "confidence_adjustment": 4
-      },
-      {
-        "name": "Brezilya Kupa Çeyrek Final",
-        "total": 10,
-        "pending": 5,
-        "won": 4,
-        "lost": 1,
-        "void": 0,
-        "success_rate": 0.8,
-        "weight": 1.12,
-        "confidence_adjustment": 4
-      },
-      {
         "name": "Kolombiya Primera A Clausura",
-        "total": 20,
-        "pending": 12,
-        "won": 6,
+        "total": 19,
+        "pending": 13,
+        "won": 4,
         "lost": 2,
         "void": 0,
-        "success_rate": 0.75,
+        "success_rate": 0.667,
         "weight": 1.12,
         "confidence_adjustment": 4
       },
       {
-        "name": "Arjantin Ulusal Primera Lig",
-        "total": 17,
-        "pending": 10,
-        "won": 5,
-        "lost": 2,
+        "name": "İngiltere Championship",
+        "total": 16,
+        "pending": 2,
+        "won": 9,
+        "lost": 5,
         "void": 0,
-        "success_rate": 0.714,
+        "success_rate": 0.643,
         "weight": 1.12,
         "confidence_adjustment": 4
       },
       {
-        "name": "Brezilya Serie B",
-        "total": 21,
-        "pending": 11,
+        "name": "Japonya J1 Lig",
+        "total": 12,
+        "pending": 1,
         "won": 7,
+        "lost": 4,
+        "void": 0,
+        "success_rate": 0.636,
+        "weight": 1.12,
+        "confidence_adjustment": 4
+      },
+      {
+        "name": "Hazırlık Kulüpler",
+        "total": 19,
+        "pending": 12,
+        "won": 4,
         "lost": 3,
         "void": 0,
-        "success_rate": 0.7,
-        "weight": 1.12,
-        "confidence_adjustment": 4
+        "success_rate": 0.571,
+        "weight": 1.06,
+        "confidence_adjustment": 2
       },
       {
-        "name": "İngiltere Lig Kupası 2.Tur",
-        "total": 27,
-        "pending": 1,
-        "won": 18,
-        "lost": 8,
+        "name": "İngiltere 1.Lig",
+        "total": 12,
+        "pending": 3,
+        "won": 5,
+        "lost": 4,
         "void": 0,
-        "success_rate": 0.692,
-        "weight": 1.12,
-        "confidence_adjustment": 4
-      },
-      {
-        "name": "El Salvador Primera Lig Apertura",
-        "total": 11,
-        "pending": 5,
-        "won": 4,
-        "lost": 2,
-        "void": 0,
-        "success_rate": 0.667,
-        "weight": 1.12,
-        "confidence_adjustment": 4
-      },
-      {
-        "name": "Bolivya Premier Lig",
-        "total": 10,
-        "pending": 4,
-        "won": 4,
-        "lost": 2,
-        "void": 0,
-        "success_rate": 0.667,
-        "weight": 1.12,
-        "confidence_adjustment": 4
-      },
-      {
-        "name": "Meksika Ascenso MX Apertura",
-        "total": 13,
-        "pending": 8,
-        "won": 3,
-        "lost": 2,
-        "void": 0,
-        "success_rate": 0.6,
+        "success_rate": 0.556,
         "weight": 1.06,
         "confidence_adjustment": 2
       }
     ],
     "weak": [
+      {
+        "name": "İspanya LaLiga",
+        "total": 11,
+        "pending": 6,
+        "won": 1,
+        "lost": 4,
+        "void": 0,
+        "success_rate": 0.2,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
       {
         "name": "UEFA Avrupa Ligi Play Off",
         "total": 12,
@@ -174,20 +120,31 @@
         "confidence_adjustment": -5
       },
       {
-        "name": "İskoçya Challenge Kupası Lig Aşaması",
-        "total": 23,
-        "pending": 2,
-        "won": 6,
-        "lost": 15,
+        "name": "Almanya 2. Bundesliga",
+        "total": 9,
+        "pending": 4,
+        "won": 2,
+        "lost": 3,
         "void": 0,
-        "success_rate": 0.286,
+        "success_rate": 0.4,
         "weight": 0.88,
         "confidence_adjustment": -5
       },
       {
-        "name": "İspanya LaLiga",
-        "total": 11,
-        "pending": 6,
+        "name": "Meksika Liga MX Apertura",
+        "total": 21,
+        "pending": 16,
+        "won": 2,
+        "lost": 3,
+        "void": 0,
+        "success_rate": 0.4,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "Fransa Ligue 2",
+        "total": 9,
+        "pending": 4,
         "won": 2,
         "lost": 3,
         "void": 0,
@@ -207,72 +164,39 @@
         "confidence_adjustment": -5
       },
       {
-        "name": "Fransa Ligue 2",
-        "total": 12,
-        "pending": 5,
-        "won": 3,
-        "lost": 4,
+        "name": "İngiltere 2.Lig",
+        "total": 14,
+        "pending": 1,
+        "won": 6,
+        "lost": 7,
         "void": 0,
-        "success_rate": 0.429,
+        "success_rate": 0.462,
         "weight": 0.94,
         "confidence_adjustment": -2
       }
     ]
   },
   "league_market_memory": {
-    "total": 544,
-    "ready": 11,
-    "boost": 6,
-    "penalty": 5,
+    "total": 541,
+    "ready": 6,
+    "boost": 3,
+    "penalty": 3,
     "best": [
       {
-        "name": "İngiltere Lig Kupası 2.Tur :: MS 2",
+        "name": "İngiltere Championship :: 2.5 Üst",
+        "total": 8,
+        "pending": 1,
+        "won": 6,
+        "lost": 1,
+        "void": 0,
+        "success_rate": 0.857,
+        "weight": 1.12,
+        "confidence_adjustment": 4
+      },
+      {
+        "name": "Japonya J1 Lig :: 2.5 Alt",
         "total": 7,
         "pending": 0,
-        "won": 7,
-        "lost": 0,
-        "void": 0,
-        "success_rate": 1,
-        "weight": 1.12,
-        "confidence_adjustment": 4
-      },
-      {
-        "name": "İngiltere Lig Kupası 2.Tur :: 2.5 Üst",
-        "total": 6,
-        "pending": 0,
-        "won": 5,
-        "lost": 1,
-        "void": 0,
-        "success_rate": 0.833,
-        "weight": 1.12,
-        "confidence_adjustment": 4
-      },
-      {
-        "name": "Meksika Liga MX Apertura :: 2.5 Alt",
-        "total": 10,
-        "pending": 5,
-        "won": 4,
-        "lost": 1,
-        "void": 0,
-        "success_rate": 0.8,
-        "weight": 1.12,
-        "confidence_adjustment": 4
-      },
-      {
-        "name": "Suudi Arabistan Pro Lig :: 2.5 Alt",
-        "total": 7,
-        "pending": 2,
-        "won": 4,
-        "lost": 1,
-        "void": 0,
-        "success_rate": 0.8,
-        "weight": 1.12,
-        "confidence_adjustment": 4
-      },
-      {
-        "name": "Arjantin Ulusal Primera Lig :: MS 1",
-        "total": 16,
-        "pending": 9,
         "won": 5,
         "lost": 2,
         "void": 0,
@@ -281,9 +205,9 @@
         "confidence_adjustment": 4
       },
       {
-        "name": "El Salvador Primera Lig Apertura :: 2.5 Alt",
-        "total": 10,
-        "pending": 5,
+        "name": "Hazırlık Kulüpler :: 2.5 Alt",
+        "total": 14,
+        "pending": 9,
         "won": 3,
         "lost": 2,
         "void": 0,
@@ -294,20 +218,9 @@
     ],
     "weak": [
       {
-        "name": "İskoçya Challenge Kupası Lig Aşaması :: MS 1",
-        "total": 8,
-        "pending": 1,
-        "won": 1,
-        "lost": 6,
-        "void": 0,
-        "success_rate": 0.143,
-        "weight": 0.88,
-        "confidence_adjustment": -5
-      },
-      {
-        "name": "İskoçya Challenge Kupası Lig Aşaması :: MS 2",
-        "total": 5,
-        "pending": 0,
+        "name": "İngiltere 1.Lig :: 2.5 Alt",
+        "total": 7,
+        "pending": 2,
         "won": 1,
         "lost": 4,
         "void": 0,
@@ -327,24 +240,13 @@
         "confidence_adjustment": -5
       },
       {
-        "name": "İskoçya Challenge Kupası Lig Aşaması :: 2.5 Alt",
-        "total": 9,
+        "name": "İngiltere 2.Lig :: 2.5 Alt",
+        "total": 7,
         "pending": 0,
-        "won": 4,
-        "lost": 5,
+        "won": 3,
+        "lost": 4,
         "void": 0,
-        "success_rate": 0.444,
-        "weight": 0.94,
-        "confidence_adjustment": -2
-      },
-      {
-        "name": "İngiltere Lig Kupası 2.Tur :: 2.5 Alt",
-        "total": 10,
-        "pending": 1,
-        "won": 4,
-        "lost": 5,
-        "void": 0,
-        "success_rate": 0.444,
+        "success_rate": 0.429,
         "weight": 0.94,
         "confidence_adjustment": -2
       }

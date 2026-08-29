@@ -3,16 +3,15 @@
 Durum: active
 Tahmin sayisi: 1500
 Hazir market hafizasi: 4/7
-Hazir lig hafizasi: 21/216
-Hazir lig+market hafizasi: 11/544
-Guclendirilen toplam: 22
-Dusurulen toplam: 10
+Hazir lig hafizasi: 13/213
+Hazir lig+market hafizasi: 6/541
+Guclendirilen toplam: 9
+Dusurulen toplam: 11
 
 ## Guclu Marketler
-- 2.5 Üst: basari 0.714, agirlik 1.12, guven 4
-- MS 2: basari 0.6, agirlik 1.06, guven 2
-- 2.5 Alt: basari 0.565, agirlik 1.06, guven 2
+- 2.5 Üst: basari 0.653, agirlik 1.12, guven 4
 
 ## Zayif Marketler
+- MS 2: basari 0.455, agirlik 0.94, guven -2
 
 Sonraki aksiyon: Sonraki analizlerde agirliklar uygulanir.

@@ -2,32 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-29T21:14:36.107Z
-- Ham maç sayısı: 65
+- Güncelleme: 2026-08-29T21:50:17.386Z
+- Ham maç sayısı: 49
 - Yarın bülteni maç sayısı: 38
-- Detay blok sayısı: 187
-- Aktif bülten maçı: 65
+- Detay blok sayısı: 139
+- Aktif bülten maçı: 49
 - Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Benevento - Sudtirol | İtalya Serie B | 22:00 | Veri bekleniyor | - | 1.92 | 8 |
-| Pisa - Catanzaro | İtalya Serie B | 22:00 | Veri bekleniyor | - | 1.68 | 8 |
-| Imt Novi Beogr - Mladost Lucani | Sırbistan Süper Lig | 22:00 | Veri bekleniyor | - | 1.46 | 7 |
-| Corinthians - Santos | Brezilya Serie A | 22:00 | Veri bekleniyor | - | 1.68 | 8 |
-| Flamengo - Botafogo | Brezilya Serie A | 22:00 | Veri bekleniyor | - | 1.25 | 7 |
-| Lumezzane - Giana Erminio | İtalya Serie C Grup A | 22:00 | Veri bekleniyor | - | 2.11 | 8 |
-| Pergolettese - Union Brescia | İtalya Serie C Grup A | 22:00 | Veri bekleniyor | - | 6.02 | 7 |
-| Vis Pasaro - Perugia | İtalya Serie C Grup B | 22:00 | Veri bekleniyor | - | 2.9 | 8 |
-| Gubbio - Reggiana | İtalya Serie C Grup B | 22:00 | Veri bekleniyor | - | 3.14 | 8 |
-| Rionegro Aguil - Chico | Kolombiya Primera A Clausura | 22:00 | Veri bekleniyor | - | 1.39 | 7 |
-| Univ De Concep - Univ. De Şili | Şili Premier Lig | 22:00 | Veri bekleniyor | - | 4.12 | 8 |
-| America Mineir - Ponte Preta | Brezilya Serie B | 22:00 | Veri bekleniyor | - | - | 5 |
-| Avai - Atletico Goiani | Brezilya Serie B | 22:00 | Veri bekleniyor | - | 2.16 | 8 |
-| Radnik Bijelji - Borac Banja Luk | Bosna-Hersek Premier Lig | 22:00 | Veri bekleniyor | - | 5.38 | 7 |
-| Real Madrid (K - Atl Madrid (K) | İspanya Kadınlar Primera Lig | 22:00 | Veri bekleniyor | - | 1.38 | 7 |
-| Sliema - Birzebbuga | Malta Premier Lig Açılış | 22:00 | Veri bekleniyor | - | 1.61 | 8 |
 | Valur - Akranes | İzlanda Urvalsdeild | 22:15 | Veri bekleniyor | - | 1.95 | 6 |
 | Celta Vigo - Athletic Bilbao | İspanya LaLiga | 22:30 | Veri bekleniyor | - | 2.18 | 8 |
 | Famalicao - Gil Vicente | Portekiz Premier Lig | 22:30 | Veri bekleniyor | - | 1.96 | 8 |

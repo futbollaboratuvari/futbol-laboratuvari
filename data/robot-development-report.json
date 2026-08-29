@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-29T18:42:47.333Z",
+  "generated_at": "2026-08-29T21:50:28.803Z",
   "totals": {
     "predictions": 1500,
-    "finished": 358,
-    "pending": 1142
+    "finished": 267,
+    "pending": 1233
   },
   "learning_output_status": "ready",
   "market_development": {
@@ -11,20 +11,11 @@
     "strong": [
       {
         "name": "2.5 Üst",
-        "won": 35,
-        "lost": 14,
+        "won": 32,
+        "lost": 17,
         "total": 49,
-        "success_rate": 71,
+        "success_rate": 65,
         "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "MS 2",
-        "won": 21,
-        "lost": 14,
-        "total": 35,
-        "success_rate": 60,
-        "weight": 1.06,
         "ready": true
       }
     ],
@@ -34,54 +25,36 @@
     "label": "league",
     "strong": [
       {
-        "name": "Ekvador Pro Lig",
-        "won": 5,
-        "lost": 0,
-        "total": 5,
-        "success_rate": 100,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "Brezilya Serie A",
-        "won": 4,
-        "lost": 1,
-        "total": 5,
-        "success_rate": 80,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "Brezilya Kupa Çeyrek Final",
-        "won": 4,
-        "lost": 1,
-        "total": 5,
-        "success_rate": 80,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
         "name": "Kolombiya Primera A Clausura",
-        "won": 6,
+        "won": 4,
         "lost": 2,
-        "total": 8,
-        "success_rate": 75,
+        "total": 6,
+        "success_rate": 67,
         "weight": 1.12,
         "ready": true
       },
       {
-        "name": "Arjantin Ulusal Primera Lig",
-        "won": 5,
-        "lost": 2,
-        "total": 7,
-        "success_rate": 71,
+        "name": "İngiltere Championship",
+        "won": 9,
+        "lost": 5,
+        "total": 14,
+        "success_rate": 64,
+        "weight": 1.12,
+        "ready": true
+      },
+      {
+        "name": "Japonya J1 Lig",
+        "won": 7,
+        "lost": 4,
+        "total": 11,
+        "success_rate": 64,
         "weight": 1.12,
         "ready": true
       }
     ],
     "weak": [
       {
-        "name": "İspanya LaLiga",
+        "name": "Almanya 2. Bundesliga",
         "won": 2,
         "lost": 3,
         "total": 5,
@@ -90,11 +63,29 @@
         "ready": true
       },
       {
-        "name": "İskoçya Challenge Kupası Lig Aşaması",
-        "won": 6,
-        "lost": 15,
-        "total": 21,
-        "success_rate": 29,
+        "name": "Meksika Liga MX Apertura",
+        "won": 2,
+        "lost": 3,
+        "total": 5,
+        "success_rate": 40,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "Fransa Ligue 2",
+        "won": 2,
+        "lost": 3,
+        "total": 5,
+        "success_rate": 40,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "İspanya LaLiga",
+        "won": 1,
+        "lost": 4,
+        "total": 5,
+        "success_rate": 20,
         "weight": 0.88,
         "ready": true
       },
@@ -113,48 +104,30 @@
     "label": "league_market",
     "strong": [
       {
-        "name": "İngiltere Lig Kupası 2.Tur :: MS 2",
-        "won": 7,
-        "lost": 0,
+        "name": "İngiltere Championship :: 2.5 Üst",
+        "won": 6,
+        "lost": 1,
         "total": 7,
-        "success_rate": 100,
+        "success_rate": 86,
         "weight": 1.12,
         "ready": true
       },
       {
-        "name": "İngiltere Lig Kupası 2.Tur :: 2.5 Üst",
-        "won": 5,
-        "lost": 1,
-        "total": 6,
-        "success_rate": 83,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "Meksika Liga MX Apertura :: 2.5 Alt",
-        "won": 4,
-        "lost": 1,
-        "total": 5,
-        "success_rate": 80,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "Suudi Arabistan Pro Lig :: 2.5 Alt",
-        "won": 4,
-        "lost": 1,
-        "total": 5,
-        "success_rate": 80,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "Arjantin Ulusal Primera Lig :: MS 1",
+        "name": "Japonya J1 Lig :: 2.5 Alt",
         "won": 5,
         "lost": 2,
         "total": 7,
         "success_rate": 71,
         "weight": 1.12,
+        "ready": true
+      },
+      {
+        "name": "Hazırlık Kulüpler :: 2.5 Alt",
+        "won": 3,
+        "lost": 2,
+        "total": 5,
+        "success_rate": 60,
+        "weight": 1.06,
         "ready": true
       }
     ],
@@ -169,20 +142,11 @@
         "ready": true
       },
       {
-        "name": "İskoçya Challenge Kupası Lig Aşaması :: MS 2",
+        "name": "İngiltere 1.Lig :: 2.5 Alt",
         "won": 1,
         "lost": 4,
         "total": 5,
         "success_rate": 20,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "İskoçya Challenge Kupası Lig Aşaması :: MS 1",
-        "won": 1,
-        "lost": 6,
-        "total": 7,
-        "success_rate": 14,
         "weight": 0.88,
         "ready": true
       }
