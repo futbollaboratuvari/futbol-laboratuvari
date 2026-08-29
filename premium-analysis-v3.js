@@ -13,6 +13,10 @@
   const LAST_KEY = "fl_last_premium_robot_analysis";
   const QUEUE_KEY = "fl_premium_robot_queue";
   const ANALYSIS_COUNT_KEY = "fl_premium_analysis_count";
+  const SECURE_API_ORIGIN = /^(localhost|127\.0\.0\.1)$/i.test(window.location.hostname)
+    || window.location.hostname.endsWith(".vercel.app")
+    ? ""
+    : "https://futbol-laboratuvari.vercel.app";
   const PAGE_SIZE = 12;
   const MAX_COUPON = 10;
 
@@ -651,9 +655,10 @@
   const fetchProIndex = async (code) => {
     const normalized = String(code || "").trim().replace(/\s+/g, "").toLocaleUpperCase("tr-TR");
     if (normalized.length < 4) throw new Error("Üyelik kodu gerekli.");
-    const response = await fetch("/api/pro-analysis", {
+    const response = await fetch(`${SECURE_API_ORIGIN}/api/pro-analysis`, {
       method: "POST",
-      credentials: "same-origin",
+      mode: "cors",
+      credentials: "omit",
       cache: "no-store",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ code: normalized, clientId: clientId() }),

@@ -250,3 +250,16 @@ Summary:
 - CSP, HSTS ve diğer güvenlik başlıkları; favicon, web manifest, sitemap ve yanlış host yönlendirme kuralı eklendi.
 - Birim/regresyon testleri, JavaScript sözdizimi, JSON yapılandırması ve güvenli Vercel statik üretim çıktısı başarılıdır. Satıcı ortam değişkenleri dış yapılandırmada tamamlanmadan ücretli satış açılmaz.
 
+2026-08-29
+
+GitHub Pages / Vercel çift yayın güvenlik tamamlaması yapıldı.
+
+Summary:
+- İlk üretim dağıtımından sonra özel alan adının Vercel değil GitHub Pages tarafından sunulduğu canlı HTTP başlıklarıyla tespit edildi.
+- Korumalı PRO ve ödeme istemcileri sabit Vercel üretim API origin'ine geçirildi; iki doğru site origin'i için dar CORS, OPTIONS ve yabancı-origin reddi eklendi.
+- `.nojekyll` kaldırıldı ve `_config.yml` ile özel analiz, tam sonuç, ham havuz, üyelik ve kullanım verileri GitHub Pages çıktısından dışlandı.
+- Eski `/api/verify-code` kullanım günlüğü GET'i yönetici anahtarı olmadan 401 dönecek şekilde kapatıldı; herkese açık CORS kaldırıldı.
+- GitHub Pages için erken CSP meta politikası, değişen betikler için yeni önbellek sürümü ve Vercel CSP bağlantı izni eklendi.
+- Doğrulanmış statü, PRO model/indeks, sonuç zinciri, takım istihbaratı, güvenlik/yasal, performans, Özel Analiz V3 ve kupon uygunluk regresyonları birlikte geçti.
+- Supabase şeması veya verisi değiştirilmedi; mevcut doğrulama, deneme, kullanım ve ödeme sağlayıcı akışları korunarak yalnız Vercel proxy sınırı düzenlendi.
+

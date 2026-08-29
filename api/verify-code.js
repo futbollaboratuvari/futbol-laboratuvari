@@ -14,6 +14,10 @@ const CODE_DATABASE = {
 
 const USAGE_LOG_KEY = "__FL_USAGE_LOG__";
 const MAX_USAGE_LOG = 200;
+const TRUSTED_BROWSER_ORIGINS = new Set([
+  "https://futbollaboratuuvari.org",
+  "https://www.futbollaboratuuvari.org",
+]);
 
 globalThis[USAGE_LOG_KEY] = globalThis[USAGE_LOG_KEY] || [];
 
@@ -113,10 +117,33 @@ async function getUsageLog() {
   return globalThis[USAGE_LOG_KEY].slice(0, MAX_USAGE_LOG);
 }
 
+function originAllowed(req) {
+  const origin = String(req.headers?.origin || "").trim();
+  if (!origin) return true;
+  const host = String(req.headers?.["x-forwarded-host"] || req.headers?.host || "").trim();
+  try {
+    const parsed = new URL(origin);
+    return parsed.host === host || TRUSTED_BROWSER_ORIGINS.has(parsed.origin);
+  } catch {
+    return false;
+  }
+}
+
+function secretMatches(value, expected) {
+  const left = Buffer.from(String(value || ""));
+  const right = Buffer.from(String(expected || ""));
+  return left.length > 0 && left.length === right.length && crypto.timingSafeEqual(left, right);
+}
+
 module.exports = async function handler(req, res) {
-  res.setHeader("Access-Control-Allow-Origin", "*");
+  if (!originAllowed(req)) return res.status(403).json({ ok: false, message: "Kaynak adresine izin verilmiyor." });
+  const origin = String(req.headers?.origin || "").trim();
+  if (origin) {
+    res.setHeader("Access-Control-Allow-Origin", origin);
+    res.setHeader("Vary", "Origin");
+  }
   res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
-  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type, x-admin-payment-secret");
   res.setHeader("Cache-Control", "no-store");
 
   if (req.method === "OPTIONS") {
@@ -124,6 +151,11 @@ module.exports = async function handler(req, res) {
   }
 
   if (req.method === "GET") {
+    const expected = String(process.env.ADMIN_PAYMENT_SECRET || "").trim();
+    const provided = String(req.headers?.["x-admin-payment-secret"] || "").trim();
+    if (!expected || !secretMatches(provided, expected)) {
+      return res.status(401).json({ ok: false, message: "Yönetici anahtarı gerekli." });
+    }
     return res.status(200).json({
       ok: true,
       storage: "permanent-file-read",

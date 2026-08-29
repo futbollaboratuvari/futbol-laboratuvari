@@ -6,6 +6,10 @@ const MAX_ATTEMPTS = 8;
 const RATE_KEY = "__FL_BANK_ORDER_RATE_LIMIT__";
 const REQUIRED_SELLER_ENV = ["SELLER_LEGAL_NAME", "SELLER_ADDRESS", "SELLER_TAX_ID", "SELLER_TAX_OFFICE", "SELLER_EMAIL", "SELLER_PHONE"];
 const ALLOWED_PLANS = new Set(["starter", "pro", "vip"]);
+const TRUSTED_BROWSER_ORIGINS = new Set([
+  "https://futbollaboratuuvari.org",
+  "https://www.futbollaboratuuvari.org",
+]);
 
 globalThis[RATE_KEY] = globalThis[RATE_KEY] || new Map();
 
@@ -72,7 +76,23 @@ function originAllowed(req) {
   const origin = String(req.headers?.origin || "").trim();
   if (!origin) return true;
   const host = String(req.headers?.["x-forwarded-host"] || req.headers?.host || "").trim();
-  try { return new URL(origin).host === host; } catch { return false; }
+  try {
+    const parsed = new URL(origin);
+    return parsed.host === host || TRUSTED_BROWSER_ORIGINS.has(parsed.origin);
+  } catch {
+    return false;
+  }
+}
+
+function configureCors(req, res) {
+  const origin = String(req.headers?.origin || "").trim();
+  if (!origin) return true;
+  if (!originAllowed(req)) return false;
+  res.setHeader("Access-Control-Allow-Origin", origin);
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  res.setHeader("Vary", "Origin");
+  return true;
 }
 
 function validAcceptance(body) {
@@ -89,6 +109,11 @@ function validAcceptance(body) {
 }
 
 async function handler(req, res) {
+  if (!configureCors(req, res)) return send(res, 403, { ok: false, error: "origin_not_allowed" });
+  if (req.method === "OPTIONS") {
+    res.statusCode = 204;
+    return res.end();
+  }
   if (req.method === "GET") {
     const seller = sellerProfile();
     return send(res, 200, {
@@ -151,6 +176,7 @@ async function handler(req, res) {
 
 handler.sellerProfile = sellerProfile;
 handler.validAcceptance = validAcceptance;
+handler.originAllowed = originAllowed;
 handler.LEGAL_VERSION = LEGAL_VERSION;
 
 module.exports = handler;

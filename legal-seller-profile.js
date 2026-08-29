@@ -1,5 +1,9 @@
 (() => {
   "use strict";
+  const SECURE_API_ORIGIN = /^(localhost|127\.0\.0\.1)$/i.test(window.location.hostname)
+    || window.location.hostname.endsWith(".vercel.app")
+    ? ""
+    : "https://futbol-laboratuvari.vercel.app";
   const labels = {
     legalName: "Satıcı unvanı",
     address: "Açık adres",
@@ -18,7 +22,7 @@
     const targets = [...document.querySelectorAll("[data-seller-profile]")];
     if (!targets.length) return;
     try {
-      const response = await fetch("/api/bank-order", { cache: "no-store", credentials: "same-origin" });
+      const response = await fetch(`${SECURE_API_ORIGIN}/api/bank-order`, { cache: "no-store", mode: "cors", credentials: "omit" });
       const data = await response.json().catch(() => ({}));
       if (!response.ok || !data.salesEnabled || !data.seller) throw new Error("seller_profile_incomplete");
       const rows = Object.entries(labels)

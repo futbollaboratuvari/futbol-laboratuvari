@@ -1,8 +1,12 @@
 (() => {
   const BASE = "https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-transfer";
   const RECEIPT_BASE = "https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-receipt";
+  const SECURE_API_ORIGIN = /^(localhost|127\.0\.0\.1)$/i.test(window.location.hostname)
+    || window.location.hostname.endsWith(".vercel.app")
+    ? ""
+    : "https://futbol-laboratuvari.vercel.app";
   const API = {
-    create: "/api/bank-order",
+    create: `${SECURE_API_ORIGIN}/api/bank-order`,
     status: `${BASE}?action=order-status`,
     receipt: `${RECEIPT_BASE}?action=upload`,
   };
@@ -121,7 +125,7 @@
     const customerName = root.querySelector('[name="name"]');
     let activeOrder = null;
 
-    fetch(API.create, { cache: "no-store", credentials: "same-origin" })
+    fetch(API.create, { cache: "no-store", mode: "cors", credentials: "omit" })
       .then((response) => response.json().then((data) => ({ response, data })))
       .then(({ response, data }) => {
         if (!response.ok || !data.salesEnabled) throw new Error("seller_profile_incomplete");

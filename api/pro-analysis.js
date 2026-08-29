@@ -7,6 +7,10 @@ const PRO_INDEX_PATH = path.join(process.cwd(), "data", "pro-analysis-index.json
 const WINDOW_MS = 10 * 60 * 1000;
 const MAX_ATTEMPTS = 20;
 const RATE_KEY = "__FL_PRO_ANALYSIS_RATE_LIMIT__";
+const TRUSTED_BROWSER_ORIGINS = new Set([
+  "https://futbollaboratuuvari.org",
+  "https://www.futbollaboratuuvari.org",
+]);
 
 globalThis[RATE_KEY] = globalThis[RATE_KEY] || new Map();
 
@@ -17,6 +21,29 @@ function send(res, status, payload) {
   res.setHeader("Pragma", "no-cache");
   res.setHeader("X-Content-Type-Options", "nosniff");
   res.end(JSON.stringify(payload));
+}
+
+function originAllowed(req) {
+  const origin = String(req.headers?.origin || "").trim();
+  if (!origin) return true;
+  const host = String(req.headers?.["x-forwarded-host"] || req.headers?.host || "").trim();
+  try {
+    const parsed = new URL(origin);
+    return parsed.host === host || TRUSTED_BROWSER_ORIGINS.has(parsed.origin);
+  } catch {
+    return false;
+  }
+}
+
+function configureCors(req, res) {
+  const origin = String(req.headers?.origin || "").trim();
+  if (!origin) return true;
+  if (!originAllowed(req)) return false;
+  res.setHeader("Access-Control-Allow-Origin", origin);
+  res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  res.setHeader("Vary", "Origin");
+  return true;
 }
 
 function requestIp(req) {
@@ -77,6 +104,11 @@ async function verifyMembership(code, clientId) {
 }
 
 async function handler(req, res) {
+  if (!configureCors(req, res)) return send(res, 403, { ok: false, error: "origin_not_allowed" });
+  if (req.method === "OPTIONS") {
+    res.statusCode = 204;
+    return res.end();
+  }
   if (req.method !== "POST") return send(res, 405, { ok: false, error: "method_not_allowed" });
   if (rateLimited(req)) return send(res, 429, { ok: false, error: "too_many_attempts" });
 
@@ -106,5 +138,6 @@ async function handler(req, res) {
 
 handler.readProIndex = readProIndex;
 handler.verifyMembership = verifyMembership;
+handler.originAllowed = originAllowed;
 
 module.exports = handler;

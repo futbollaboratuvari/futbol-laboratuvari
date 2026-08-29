@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260829-security-integrity-v1";
+  const version = "20260829-secure-api-v2";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {

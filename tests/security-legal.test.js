@@ -35,6 +35,15 @@ async function testProtectedProRoute() {
     const invalid = responseCapture();
     await handler(request("POST", { code: "" }, { "x-forwarded-for": "127.0.0.10" }), invalid);
     assert.equal(invalid.statusCode, 400);
+    assert.equal(invalid.headers["access-control-allow-origin"], "https://futbollaboratuuvari.org");
+
+    const preflight = responseCapture();
+    await handler(request("OPTIONS", {}, { "x-forwarded-for": "127.0.0.12" }), preflight);
+    assert.equal(preflight.statusCode, 204);
+
+    const foreign = responseCapture();
+    await handler(request("POST", { code: "TEST-1234" }, { origin: "https://example.com", "x-forwarded-for": "127.0.0.13" }), foreign);
+    assert.equal(foreign.statusCode, 403);
 
     const valid = responseCapture();
     await handler(request("POST", { code: "TEST-1234", clientId: "test-client" }, { "x-forwarded-for": "127.0.0.11" }), valid);
@@ -59,6 +68,15 @@ async function testLegalOrderGate() {
     await handler(request("POST", { plan_id: "starter" }, { "x-forwarded-for": "127.0.0.20" }), blocked);
     assert.equal(blocked.statusCode, 503);
     assert.equal(JSON.parse(blocked.body).error, "seller_profile_incomplete");
+    assert.equal(blocked.headers["access-control-allow-origin"], "https://futbollaboratuuvari.org");
+
+    const preflight = responseCapture();
+    await handler(request("OPTIONS", {}, { "x-forwarded-for": "127.0.0.22" }), preflight);
+    assert.equal(preflight.statusCode, 204);
+
+    const foreign = responseCapture();
+    await handler(request("POST", { plan_id: "starter" }, { origin: "https://example.com", "x-forwarded-for": "127.0.0.23" }), foreign);
+    assert.equal(foreign.statusCode, 403);
 
     assert.equal(handler.validAcceptance({}), false);
     assert.equal(handler.validAcceptance({
@@ -114,14 +132,24 @@ function testStaticProtectionAndConsent() {
   const build = read("scripts/vercel-build.js");
   const cookie = read("cookie-consent.js");
   const payment = read("bank-transfer-payment.js");
+  const legalProfile = read("legal-seller-profile.js");
   const daily = read("daily-matches-widget.js");
+  const pagesConfig = read("_config.yml");
   const { sanitizePublicLive } = require("../scripts/sanitize-public-live");
   const htmlFiles = fs.readdirSync(root).filter((name) => name.endsWith(".html"));
 
   assert.equal(premium.includes("./data/pro-analysis-index.json"), false);
   assert.equal(insights.includes("pro-analysis-index.json"), false);
-  assert.match(premium, /fetch\("\/api\/pro-analysis"/);
+  assert.match(premium, /futbol-laboratuvari\.vercel\.app/);
+  assert.match(premium, /SECURE_API_ORIGIN/);
+  assert.match(payment, /futbol-laboratuvari\.vercel\.app/);
+  assert.match(legalProfile, /futbol-laboratuvari\.vercel\.app/);
   assert.match(build, /data\/pro-analysis-index\.json/);
+  assert.match(pagesConfig, /data\/robot-analysis\.json/);
+  assert.match(pagesConfig, /data\/analiz_sonuclari\.json/);
+  assert.match(pagesConfig, /data\/membership-codes\.json/);
+  assert.match(pagesConfig, /data\/usage-log\.json/);
+  assert.equal(fs.existsSync(path.join(root, ".nojekyll")), false);
   assert.match(cookie, /data-cookie-choice="accept"/);
   assert.match(cookie, /data-cookie-choice="reject"/);
   assert.match(cookie, /data-cookie-choice="preferences"/);
