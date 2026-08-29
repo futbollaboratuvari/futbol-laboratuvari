@@ -2,51 +2,15 @@
 
 Gunler: 2026-08-29 / 2026-08-30
 Kaynak: fixtures.json
-Ham mac: 596
-Aktif mac: 514
-Canli mac: 47
-Biten mac: 35
-Bultenden dusurulen mac: 82
-Bugun: 451
+Ham mac: 557
+Aktif mac: 478
+Canli mac: 79
+Biten mac: 0
+Bultenden dusurulen mac: 79
+Bugun: 415
 Yarin: 63
 
 ## Baslamamis Maclar
-- 2026-08-29 13:15 | Polonya Ekstraklasa | Radomiak Radom - Cracovia Krakow | scheduled | -
-- 2026-08-29 13:30 | Güney Kore K Lig 1 | Ulsan - Gimcheon Sangmu | scheduled | -
-- 2026-08-29 13:30 | Güney Kore K Lig 1 | Bucheon - Anyang | scheduled | -
-- 2026-08-29 13:30 | Polonya 2.Lig | Slask Wroclaw - Znicz Pruszkow | scheduled | -
-- 2026-08-29 13:30 | Güney Kore K Lig 2 | Seongnam - Seoul E-Land | scheduled | -
-- 2026-08-29 13:30 | Güney Kore K Lig 2 | Gyeongnam - Paju Citizen | scheduled | -
-- 2026-08-29 13:30 | Güney Kore K Lig 2 | Gimpo Citizen - Suwon Sb | scheduled | -
-- 2026-08-29 13:30 | Güney Kore K Lig 2 | Hwaseong - Cheongju Fc | scheduled | -
-- 2026-08-29 13:30 | İsveç 2.Lig Norra Svealand | Fc Gute - Lidingö | scheduled | -
-- 2026-08-29 14:00 | Almanya 2. Bundesliga | E.Cottbus - Greuther Furth | scheduled | -
-- 2026-08-29 14:00 | Almanya 2. Bundesliga | Heidenheim - Dynamo Dresden | scheduled | -
-- 2026-08-29 14:00 | Almanya 2. Bundesliga | Karlsruhe - Wolfsburg | scheduled | -
-- 2026-08-29 14:00 | Çin Halk Cumhuriyeti Süper Lig | Tianjin Teda - Qingdao West Co | scheduled | -
-- 2026-08-29 14:00 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Yunnan Yukun | scheduled | -
-- 2026-08-29 14:00 | İsveç Superettan | Landskrona - Ostersund | scheduled | -
-- 2026-08-29 14:00 | İsveç Superettan | Ljungskile - Varnamo | scheduled | -
-- 2026-08-29 14:00 | Danimarka 1.Lig | Kolding If - Ab Gladsaxe | scheduled | -
-- 2026-08-29 14:00 | Finlandiya Ykkönen | Rops - Vjs | scheduled | -
-- 2026-08-29 14:00 | Finlandiya Ykkönen | Fc Jazz - Inter Turku Ii | scheduled | -
-- 2026-08-29 14:00 | Finlandiya Ykkönen | Tpv Tampere - Pk Keski Uusima | scheduled | -
-- 2026-08-29 14:00 | Finlandiya Ykkönen | Oulun Ls - Tampere Utd | scheduled | -
-- 2026-08-29 14:00 | Finlandiya Ykkönen | Jyvaskyla - Kpv Kokkola | scheduled | -
-- 2026-08-29 14:00 | Finlandiya Ykkönen | Kups Ak. - Salpa Salo | scheduled | -
-- 2026-08-29 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shaanxi Union - Yanbian Longdin | scheduled | -
-- 2026-08-29 14:00 | Danimarka 3.Lig | Holbæk - Naesby | scheduled | -
-- 2026-08-29 14:00 | Danimarka 3.Lig | Ringsted - Sundby | scheduled | -
-- 2026-08-29 14:00 | İsveç 2.Lig Norra Svealand | Enskede - Viggbyholms Ik | scheduled | -
-- 2026-08-29 14:00 | İsveç 2.Lig Vastra Götaland | Onsala - Dalstorps If | scheduled | -
-- 2026-08-29 14:00 | İsveç 2.Lig Södra Götaland | Lilla Torg - Rappe | scheduled | -
-- 2026-08-29 14:00 | İsveç 2.Lig Södra Svealand | Sleipner - Eker Örebro | scheduled | -
-- 2026-08-29 14:00 | İsveç 2.Lig Södra Svealand | Smedby Ais - Forward | scheduled | -
-- 2026-08-29 14:00 | İsveç 2.Lig Södra Svealand | Nykobing Fa - Ragsved | scheduled | -
-- 2026-08-29 14:00 | İsveç 2.Lig Norra Götaland | If Karlstad Ii - Vanersborgs Fk | scheduled | -
-- 2026-08-29 14:00 | İsveç 2.Lig Norrland Düşme Grubu | Storfors - Fransta | scheduled | -
-- 2026-08-29 14:00 | Kenya Premier Lig | Nairobi United - Kcb | scheduled | -
-- 2026-08-29 14:00 | Kenya Premier Lig | Gor Mahia - Muranga All Sta | scheduled | -
 - 2026-08-29 14:30 | İngiltere Premier Lig | Liverpool - Nottingham F | scheduled | -
 - 2026-08-29 14:30 | İngiltere Championship | Middlesbrough - West Bromwich | scheduled | -
 - 2026-08-29 14:30 | İngiltere Championship | Derby County - Swansea | scheduled | -
@@ -527,10 +491,6 @@ Yarin: 63
 - 2026-08-30 07:00 | Avustralya NPL Kuzey YGG Play-Off 1.Tur | Wallsend (6) - (6) Newcastle Croat | scheduled | -
 
 ## Canli Maclar
-- 2026-08-29 11:00 | Hazırlık Kulüpler | Cadiz Ii - Atlético Centra | live | -
-- 2026-08-29 11:00 | Hazırlık Kulüpler | Barcelona B - Ue Cornella | live | -
-- 2026-08-29 11:00 | Hong Kong Premier Lig | North District - Kitchee Footbal | live | -
-- 2026-08-29 11:00 | Hong Kong Premier Lig | Sd Rsa - Kowloon City | live | -
 - 2026-08-29 12:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn - Wuhan Three Tow | live | -
 - 2026-08-29 12:00 | Japonya J1 Lig | Mito Hollyhock - Machida Zelvia | live | -
 - 2026-08-29 12:00 | Japonya J1 Lig | Gamba Osaka - Hiroshima | live | -
@@ -574,40 +534,42 @@ Yarin: 63
 - 2026-08-29 13:00 | Japonya WE Ligi Kadınlar | Sanfrecce Hiro - Omiya (K) | live | -
 - 2026-08-29 13:00 | Letonya 1.Lig | Leevon / Ppk - Super Nova Ii | live | -
 - 2026-08-29 13:00 | Litvanya 1.Lig | Garliava - Babrungas | live | -
+- 2026-08-29 13:15 | Polonya Ekstraklasa | Radomiak Radom - Cracovia Krakow | live | -
+- 2026-08-29 13:30 | Güney Kore K Lig 1 | Ulsan - Gimcheon Sangmu | live | -
+- 2026-08-29 13:30 | Güney Kore K Lig 1 | Bucheon - Anyang | live | -
+- 2026-08-29 13:30 | Polonya 2.Lig | Slask Wroclaw - Znicz Pruszkow | live | -
+- 2026-08-29 13:30 | Güney Kore K Lig 2 | Seongnam - Seoul E-Land | live | -
+- 2026-08-29 13:30 | Güney Kore K Lig 2 | Gyeongnam - Paju Citizen | live | -
+- 2026-08-29 13:30 | Güney Kore K Lig 2 | Gimpo Citizen - Suwon Sb | live | -
+- 2026-08-29 13:30 | Güney Kore K Lig 2 | Hwaseong - Cheongju Fc | live | -
+- 2026-08-29 13:30 | İsveç 2.Lig Norra Svealand | Fc Gute - Lidingö | live | -
+- 2026-08-29 14:00 | Almanya 2. Bundesliga | E.Cottbus - Greuther Furth | live | -
+- 2026-08-29 14:00 | Almanya 2. Bundesliga | Heidenheim - Dynamo Dresden | live | -
+- 2026-08-29 14:00 | Almanya 2. Bundesliga | Karlsruhe - Wolfsburg | live | -
+- 2026-08-29 14:00 | Çin Halk Cumhuriyeti Süper Lig | Tianjin Teda - Qingdao West Co | live | -
+- 2026-08-29 14:00 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Yunnan Yukun | live | -
+- 2026-08-29 14:00 | İsveç Superettan | Landskrona - Ostersund | live | -
+- 2026-08-29 14:00 | İsveç Superettan | Ljungskile - Varnamo | live | -
+- 2026-08-29 14:00 | Danimarka 1.Lig | Kolding If - Ab Gladsaxe | live | -
+- 2026-08-29 14:00 | Finlandiya Ykkönen | Rops - Vjs | live | -
+- 2026-08-29 14:00 | Finlandiya Ykkönen | Fc Jazz - Inter Turku Ii | live | -
+- 2026-08-29 14:00 | Finlandiya Ykkönen | Tpv Tampere - Pk Keski Uusima | live | -
+- 2026-08-29 14:00 | Finlandiya Ykkönen | Oulun Ls - Tampere Utd | live | -
+- 2026-08-29 14:00 | Finlandiya Ykkönen | Jyvaskyla - Kpv Kokkola | live | -
+- 2026-08-29 14:00 | Finlandiya Ykkönen | Kups Ak. - Salpa Salo | live | -
+- 2026-08-29 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shaanxi Union - Yanbian Longdin | live | -
+- 2026-08-29 14:00 | Danimarka 3.Lig | Holbæk - Naesby | live | -
+- 2026-08-29 14:00 | Danimarka 3.Lig | Ringsted - Sundby | live | -
+- 2026-08-29 14:00 | İsveç 2.Lig Norra Svealand | Enskede - Viggbyholms Ik | live | -
+- 2026-08-29 14:00 | İsveç 2.Lig Vastra Götaland | Onsala - Dalstorps If | live | -
+- 2026-08-29 14:00 | İsveç 2.Lig Södra Götaland | Lilla Torg - Rappe | live | -
+- 2026-08-29 14:00 | İsveç 2.Lig Södra Svealand | Sleipner - Eker Örebro | live | -
+- 2026-08-29 14:00 | İsveç 2.Lig Södra Svealand | Smedby Ais - Forward | live | -
+- 2026-08-29 14:00 | İsveç 2.Lig Södra Svealand | Nykobing Fa - Ragsved | live | -
+- 2026-08-29 14:00 | İsveç 2.Lig Norra Götaland | If Karlstad Ii - Vanersborgs Fk | live | -
+- 2026-08-29 14:00 | İsveç 2.Lig Norrland Düşme Grubu | Storfors - Fransta | live | -
+- 2026-08-29 14:00 | Kenya Premier Lig | Nairobi United - Kcb | live | -
+- 2026-08-29 14:00 | Kenya Premier Lig | Gor Mahia - Muranga All Sta | live | -
 
 ## Biten Maclar
-- 2026-08-29 01:00 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Sarmiento | finished | -
-- 2026-08-29 01:00 | Uruguay Premier Lig Clausura | Montevideo Wan - Central Espanol | finished | -
-- 2026-08-29 01:00 | El Salvador Primera Lig Apertura | Municipal Lime - Isidro Metapan | finished | -
-- 2026-08-29 01:30 | Şili Premier Lig | Cobresal - Palestino | finished | -
-- 2026-08-29 01:30 | Brezilya Serie B | Goias - Sao Bernardo | finished | -
-- 2026-08-29 02:00 | Kanada Premier Lig | Supra Du Quebe - Forge | finished | -
-- 2026-08-29 02:00 | Kanada Premier Lig | Atletico Ottaw - Inter Toronto | finished | -
-- 2026-08-29 02:00 | ABD USL Lig 1 | Charlotte Inde - Alta | finished | -
-- 2026-08-29 02:30 | Brezilya Serie B | Nautico - Athletic Club | finished | -
-- 2026-08-29 02:30 | Brezilya Serie B | Novorizontino - Sport Recife | finished | -
-- 2026-08-29 03:00 | Ekvador Pro Lig | T.Universitari - Deportivo Cuenc | finished | -
-- 2026-08-29 03:00 | El Salvador Primera Lig Apertura | Inca-Aruba - Cacahuatique | finished | -
-- 2026-08-29 03:30 | Arjantin Premier Lig 2. Aşama | Boca Juniors - Lanus | finished | -
-- 2026-08-29 04:00 | Meksika Liga MX Apertura | Atlante - Club Leon | finished | -
-- 2026-08-29 04:00 | Meksika Liga MX Apertura | Necaxa - Cruz Azul | finished | -
-- 2026-08-29 04:00 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir - Chacarita Junio | finished | -
-- 2026-08-29 04:00 | Meksika Ascenso MX Apertura | Dorados - Monarcas | finished | -
-- 2026-08-29 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Durango | finished | -
-- 2026-08-29 04:00 | Honduras Ulusal Lig Apertura | Juticalpa - Upnfm | finished | -
-- 2026-08-29 05:00 | Kosta Rika Premier Lig Apertura | Sporting San J - Inter San Carlo | finished | -
-- 2026-08-29 05:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Coban Imperial | finished | -
-- 2026-08-29 06:10 | Meksika Liga MX Apertura | Club Tijuana - Pumas Unam | finished | -
-- 2026-08-29 07:00 | Avustralya NPL Tazmanya Ön Eleme Final | South Hobart - Kingborough Lio | finished | -
-- 2026-08-29 07:00 | Avustralya NPL Kuzey YGG Play-Off 1.Tur | Kahibah (2) - (1) New Lambton Fc | finished | -
-- 2026-08-29 08:00 | Avustralya NPL Victoria | Caroline S. - South Melbourne | finished | -
-- 2026-08-29 08:00 | Avustralya NPL Victoria | St. Albans Sai - Dandenong Thund | finished | -
-- 2026-08-29 08:00 | Avustralya NPL Victoria | Avondale Heigh - Hume City | finished | -
-- 2026-08-29 08:00 | Avustralya NPL Victoria | Heidelberg Uni - Bentleigh Green | finished | -
-- 2026-08-29 08:00 | Avustralya NPL Victoria | Preston Lions - Altona Magic | finished | -
-- 2026-08-29 08:00 | Avustralya NPL Victoria | Oakleigh Canno - Dandenong City | finished | -
-- 2026-08-29 08:00 | Avustralya NPL Victoria | Melbourne City - Green Gully | finished | -
-- 2026-08-29 08:30 | Avustralya NPL Güney Avustralya Yarı Final | Playford City - Adelaide City | finished | -
-- 2026-08-29 09:00 | Avustralya NPL Başkent Bölgesi Play-off | Cooma Tigers - Canberra Juvent | finished | -
-- 2026-08-29 09:00 | Avustralya NPL Kuzey YGG Yarı Final | Broadmeadow Ma - Weston Bears | finished | -
-- 2026-08-29 10:00 | Avustralya NPL Queensland Eleme Finali | Moreton City E - Gold Coast Knig | finished | -
+Biten mac yok.

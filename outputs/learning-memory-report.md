@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.08.2026 13:19:15
+Oluşturma: 29.08.2026 14:05:35
 
 ## Özet
 
@@ -38,7 +38,7 @@ Oluşturma: 29.08.2026 13:19:15
 - 2026-08-29 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Alajuelense | 2.5 Üst | pending | 60/100
 - 2026-08-29 | ABD USL | Las Vegas Ligh - Charleston Batt | 2.5 Üst | pending | 60/100
 - 2026-08-29 | Avustralya NPL Kuzey YGG Play-Off 1.Tur | Wallsend (6) - (6) Newcastle Croat | MS 1 | pending | 40/100
-- 2026-08-29 | Meksika Liga MX Apertura | Club America - Puebla | MS 1 | pending | 59/100
+- 2026-08-29 | Meksika Liga MX Apertura | Club America - Puebla | MS 1 | pending | 53/100
 - 2026-08-29 | ABD USL | New Mexico Uni - San Antonio | 2.5 Alt | pending | 57/100
 - 2026-08-29 | Honduras Ulusal Lig Apertura | Platense - Atlético Indepe | 2.5 Alt | pending | 55/100
 - 2026-08-29 | İspanya Kadınlar Primera Lig | Madrid Cf (K) - Granada (K) | 2.5 Alt | pending | 52/100
