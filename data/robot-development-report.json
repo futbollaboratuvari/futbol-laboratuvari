@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-29T02:21:12.618Z",
+  "generated_at": "2026-08-29T09:11:46.434Z",
   "totals": {
     "predictions": 1500,
-    "finished": 230,
-    "pending": 1270
+    "finished": 281,
+    "pending": 1219
   },
   "learning_output_status": "ready",
   "market_development": {
@@ -11,30 +11,21 @@
     "strong": [
       {
         "name": "2.5 Üst",
-        "won": 25,
-        "lost": 5,
-        "total": 30,
-        "success_rate": 83,
+        "won": 31,
+        "lost": 11,
+        "total": 42,
+        "success_rate": 74,
         "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "2.5 Alt",
-        "won": 52,
-        "lost": 35,
-        "total": 87,
-        "success_rate": 60,
-        "weight": 1.06,
         "ready": true
       }
     ],
     "weak": [
       {
         "name": "MS X",
-        "won": 3,
-        "lost": 5,
-        "total": 8,
-        "success_rate": 38,
+        "won": 2,
+        "lost": 3,
+        "total": 5,
+        "success_rate": 40,
         "weight": 0.88,
         "ready": true
       }
@@ -43,6 +34,24 @@
   "league_development": {
     "label": "league",
     "strong": [
+      {
+        "name": "Ekvador Pro Lig",
+        "won": 5,
+        "lost": 1,
+        "total": 6,
+        "success_rate": 83,
+        "weight": 1.12,
+        "ready": true
+      },
+      {
+        "name": "Şili Premier Lig",
+        "won": 4,
+        "lost": 1,
+        "total": 5,
+        "success_rate": 80,
+        "weight": 1.12,
+        "ready": true
+      },
       {
         "name": "Brezilya Kupa Çeyrek Final",
         "won": 4,
@@ -53,7 +62,7 @@
         "ready": true
       },
       {
-        "name": "Brezilya Serie B",
+        "name": "Arjantin Ulusal Primera Lig",
         "won": 5,
         "lost": 2,
         "total": 7,
@@ -69,29 +78,11 @@
         "success_rate": 71,
         "weight": 1.12,
         "ready": true
-      },
-      {
-        "name": "Bolivya Premier Lig",
-        "won": 5,
-        "lost": 2,
-        "total": 7,
-        "success_rate": 71,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "İngiltere Lig Kupası 2.Tur",
-        "won": 18,
-        "lost": 8,
-        "total": 26,
-        "success_rate": 69,
-        "weight": 1.12,
-        "ready": true
       }
     ],
     "weak": [
       {
-        "name": "Arjantin Premier Lig 2. Aşama",
+        "name": "Meksika Ascenso MX Apertura",
         "won": 2,
         "lost": 3,
         "total": 5,
@@ -100,20 +91,11 @@
         "ready": true
       },
       {
-        "name": "İspanya LaLiga",
-        "won": 2,
-        "lost": 3,
-        "total": 5,
-        "success_rate": 40,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "El Salvador Primera Lig Apertura",
-        "won": 2,
-        "lost": 3,
-        "total": 5,
-        "success_rate": 40,
+        "name": "Fransa Ligue 2",
+        "won": 3,
+        "lost": 5,
+        "total": 8,
+        "success_rate": 38,
         "weight": 0.88,
         "ready": true
       },
@@ -159,12 +141,30 @@
         "ready": true
       },
       {
-        "name": "Arjantin Ulusal Primera Lig :: MS 1",
+        "name": "Suudi Arabistan Pro Lig :: 2.5 Alt",
         "won": 4,
-        "lost": 2,
-        "total": 6,
-        "success_rate": 67,
+        "lost": 1,
+        "total": 5,
+        "success_rate": 80,
         "weight": 1.12,
+        "ready": true
+      },
+      {
+        "name": "Arjantin Ulusal Primera Lig :: MS 1",
+        "won": 5,
+        "lost": 2,
+        "total": 7,
+        "success_rate": 71,
+        "weight": 1.12,
+        "ready": true
+      },
+      {
+        "name": "El Salvador Primera Lig Apertura :: 2.5 Alt",
+        "won": 3,
+        "lost": 2,
+        "total": 5,
+        "success_rate": 60,
+        "weight": 1.06,
         "ready": true
       }
     ],

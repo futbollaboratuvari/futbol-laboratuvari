@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.08.2026 06:56:21
+Oluşturma: 29.08.2026 12:11:38
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1221
-- Kazanan tahmin: 154
+- Bekleyen tahmin: 1219
+- Kazanan tahmin: 156
 - Kaybeden tahmin: 125
 - Lig sayısı: 216
 - Seçenek sayısı: 6
@@ -20,7 +20,7 @@ Oluşturma: 29.08.2026 06:56:21
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 173, bekleyen 133, başarı %73, ağırlık 1.12
+- 2.5 Üst: toplam 173, bekleyen 131, başarı %74, ağırlık 1.12
 - 2.5 Alt: toplam 585, bekleyen 476, başarı %54, ağırlık 1
 - MS 1: toplam 486, bekleyen 413, başarı %52, ağırlık 1
 - MS 2: toplam 231, bekleyen 179, başarı %50, ağırlık 1
@@ -36,8 +36,8 @@ Oluşturma: 29.08.2026 06:56:21
 - 2026-08-29 | İzlanda 1.Lig | Grindavik - Hk Kopavogur | 2.5 Alt | pending | 48/100
 - 2026-08-29 | İngiltere Championship | Watford - West Ham | KG Var | pending | 57/100
 - 2026-08-29 | Hollanda Tweede Divisie | Jong Sparta - Hhc | 2.5 Alt | pending | 49/100
-- 2026-08-29 | Ekvador Pro Lig | T.Universitari - Deportivo Cuenc | 2.5 Üst | pending | 68/100
-- 2026-08-29 | Uruguay Premier Lig Clausura | Montevideo Wan - Central Espanol | 2.5 Üst | pending | 71/100
+- 2026-08-29 | Ekvador Pro Lig | T.Universitari - Deportivo Cuenc | 2.5 Üst | won | 68/100
+- 2026-08-29 | Uruguay Premier Lig Clausura | Montevideo Wan - Central Espanol | 2.5 Üst | won | 71/100
 - 2026-08-29 | ABD USL Lig 1 | Westchester Sc - Spokane Velocit | 2.5 Alt | pending | 50/100
 - 2026-08-29 | ABD USL | Oakland Roots - Orange County B | MS 1 | pending | 51/100
 - 2026-08-29 | İtalya Serie C Grup C | Internazionale - Team Altamura | 2.5 Alt | pending | 54/100

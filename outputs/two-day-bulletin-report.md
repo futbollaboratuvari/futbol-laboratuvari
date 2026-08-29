@@ -3,45 +3,14 @@
 Gunler: 2026-08-29 / 2026-08-30
 Kaynak: fixtures.json
 Ham mac: 566
-Aktif mac: 563
-Canli mac: 3
-Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 502
+Aktif mac: 532
+Canli mac: 21
+Biten mac: 13
+Bultenden dusurulen mac: 34
+Bugun: 471
 Yarin: 61
 
 ## Baslamamis Maclar
-- 2026-08-29 07:00 | Avustralya NPL Tazmanya Ön Eleme Final | South Hobart - Kingborough Lio | scheduled | -
-- 2026-08-29 07:00 | Avustralya NPL Kuzey YGG Play-Off 1.Tur | Kahibah (2) - (1) New Lambton Fc | scheduled | -
-- 2026-08-29 08:00 | Avustralya NPL Victoria | Caroline S. - South Melbourne | scheduled | -
-- 2026-08-29 08:00 | Avustralya NPL Victoria | St. Albans Sai - Dandenong Thund | scheduled | -
-- 2026-08-29 08:00 | Avustralya NPL Victoria | Avondale Heigh - Hume City | scheduled | -
-- 2026-08-29 08:00 | Avustralya NPL Victoria | Heidelberg Uni - Bentleigh Green | scheduled | -
-- 2026-08-29 08:00 | Avustralya NPL Victoria | Preston Lions - Altona Magic | scheduled | -
-- 2026-08-29 08:00 | Avustralya NPL Victoria | Oakleigh Canno - Dandenong City | scheduled | -
-- 2026-08-29 08:00 | Avustralya NPL Victoria | Melbourne City - Green Gully | scheduled | -
-- 2026-08-29 08:30 | Avustralya NPL Güney Avustralya Yarı Final | Playford City - Adelaide City | scheduled | -
-- 2026-08-29 09:00 | Avustralya NPL Başkent Bölgesi Play-off | Cooma Tigers - Canberra Juvent | scheduled | -
-- 2026-08-29 09:00 | Avustralya NPL Kuzey YGG Yarı Final | Broadmeadow Ma - Weston Bears | scheduled | -
-- 2026-08-29 10:00 | Avustralya NPL Queensland Eleme Finali | Moreton City E - Gold Coast Knig | scheduled | -
-- 2026-08-29 11:00 | Hazırlık Kulüpler | Cadiz Ii - Atlético Centra | scheduled | -
-- 2026-08-29 11:00 | Hazırlık Kulüpler | Barcelona B - Ue Cornella | scheduled | -
-- 2026-08-29 11:00 | Hong Kong Premier Lig | North District - Kitchee Footbal | scheduled | -
-- 2026-08-29 11:00 | Hong Kong Premier Lig | Sd Rsa - Kowloon City | scheduled | -
-- 2026-08-29 12:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn - Wuhan Three Tow | scheduled | -
-- 2026-08-29 12:00 | Japonya J1 Lig | Mito Hollyhock - Machida Zelvia | scheduled | -
-- 2026-08-29 12:00 | Japonya J1 Lig | Gamba Osaka - Hiroshima | scheduled | -
-- 2026-08-29 12:00 | Japonya J2 Lig | Tochigi City - Iwata | scheduled | -
-- 2026-08-29 12:00 | Japonya J2 Lig | Iwaki - Niigata | scheduled | -
-- 2026-08-29 12:00 | Avustralya NPL Başkent Bölgesi Play-off | Tuggeranong Un - Queanbeyan City | scheduled | -
-- 2026-08-29 12:00 | Güney Kore K3 Ligi | Dangjin Citize - Chuncheon Citiz | scheduled | -
-- 2026-08-29 12:00 | Japonya WE Ligi Kadınlar | Parceiro Nagan - Ntv Beleza (K) | scheduled | -
-- 2026-08-29 12:00 | Macaristan NB III Güneybatı | Paksi Fc Ii - Mtk Ii | scheduled | -
-- 2026-08-29 12:00 | Japonya J3 Lig | Fc Gifu - Tochigi Sc | scheduled | -
-- 2026-08-29 12:00 | Japonya J3 Lig | Ryukyu - Sagamihara | scheduled | -
-- 2026-08-29 12:00 | Japonya J3 Lig | Kamatamare San - Kagoshima Unite | scheduled | -
-- 2026-08-29 12:00 | Japonya J3 Lig | Fukushima Unit - Nara Club | scheduled | -
-- 2026-08-29 12:00 | Hazırlık Kulüpler | G.Segoviana - Real Madrid Iii | scheduled | -
 - 2026-08-29 12:30 | Japonya J1 Lig | Shimizu - Kashiwa | scheduled | -
 - 2026-08-29 12:30 | Japonya J1 Lig | V-Varen Nagasa - Fc Tokyo | scheduled | -
 - 2026-08-29 12:30 | Hazırlık Kulüpler | Gernika - Basconia | scheduled | -
@@ -579,6 +548,36 @@ Yarin: 61
 - 2026-08-29 05:00 | Kosta Rika Premier Lig Apertura | Sporting San J - Inter San Carlo | live | -
 - 2026-08-29 05:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Coban Imperial | live | -
 - 2026-08-29 06:10 | Meksika Liga MX Apertura | Club Tijuana - Pumas Unam | live | -
+- 2026-08-29 11:00 | Hazırlık Kulüpler | Cadiz Ii - Atlético Centra | live | -
+- 2026-08-29 11:00 | Hazırlık Kulüpler | Barcelona B - Ue Cornella | live | -
+- 2026-08-29 11:00 | Hong Kong Premier Lig | North District - Kitchee Footbal | live | -
+- 2026-08-29 11:00 | Hong Kong Premier Lig | Sd Rsa - Kowloon City | live | -
+- 2026-08-29 12:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn - Wuhan Three Tow | live | -
+- 2026-08-29 12:00 | Japonya J1 Lig | Mito Hollyhock - Machida Zelvia | live | -
+- 2026-08-29 12:00 | Japonya J1 Lig | Gamba Osaka - Hiroshima | live | -
+- 2026-08-29 12:00 | Japonya J2 Lig | Tochigi City - Iwata | live | -
+- 2026-08-29 12:00 | Japonya J2 Lig | Iwaki - Niigata | live | -
+- 2026-08-29 12:00 | Avustralya NPL Başkent Bölgesi Play-off | Tuggeranong Un - Queanbeyan City | live | -
+- 2026-08-29 12:00 | Güney Kore K3 Ligi | Dangjin Citize - Chuncheon Citiz | live | -
+- 2026-08-29 12:00 | Japonya WE Ligi Kadınlar | Parceiro Nagan - Ntv Beleza (K) | live | -
+- 2026-08-29 12:00 | Macaristan NB III Güneybatı | Paksi Fc Ii - Mtk Ii | live | -
+- 2026-08-29 12:00 | Japonya J3 Lig | Fc Gifu - Tochigi Sc | live | -
+- 2026-08-29 12:00 | Japonya J3 Lig | Ryukyu - Sagamihara | live | -
+- 2026-08-29 12:00 | Japonya J3 Lig | Kamatamare San - Kagoshima Unite | live | -
+- 2026-08-29 12:00 | Japonya J3 Lig | Fukushima Unit - Nara Club | live | -
+- 2026-08-29 12:00 | Hazırlık Kulüpler | G.Segoviana - Real Madrid Iii | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-29 07:00 | Avustralya NPL Tazmanya Ön Eleme Final | South Hobart - Kingborough Lio | finished | -
+- 2026-08-29 07:00 | Avustralya NPL Kuzey YGG Play-Off 1.Tur | Kahibah (2) - (1) New Lambton Fc | finished | -
+- 2026-08-29 08:00 | Avustralya NPL Victoria | Caroline S. - South Melbourne | finished | -
+- 2026-08-29 08:00 | Avustralya NPL Victoria | St. Albans Sai - Dandenong Thund | finished | -
+- 2026-08-29 08:00 | Avustralya NPL Victoria | Avondale Heigh - Hume City | finished | -
+- 2026-08-29 08:00 | Avustralya NPL Victoria | Heidelberg Uni - Bentleigh Green | finished | -
+- 2026-08-29 08:00 | Avustralya NPL Victoria | Preston Lions - Altona Magic | finished | -
+- 2026-08-29 08:00 | Avustralya NPL Victoria | Oakleigh Canno - Dandenong City | finished | -
+- 2026-08-29 08:00 | Avustralya NPL Victoria | Melbourne City - Green Gully | finished | -
+- 2026-08-29 08:30 | Avustralya NPL Güney Avustralya Yarı Final | Playford City - Adelaide City | finished | -
+- 2026-08-29 09:00 | Avustralya NPL Başkent Bölgesi Play-off | Cooma Tigers - Canberra Juvent | finished | -
+- 2026-08-29 09:00 | Avustralya NPL Kuzey YGG Yarı Final | Broadmeadow Ma - Weston Bears | finished | -
+- 2026-08-29 10:00 | Avustralya NPL Queensland Eleme Finali | Moreton City E - Gold Coast Knig | finished | -
