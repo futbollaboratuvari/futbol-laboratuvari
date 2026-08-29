@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.08.2026 18:08:57
+Oluşturma: 29.08.2026 18:14:14
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1231
-- Kazanan tahmin: 158
+- Bekleyen tahmin: 1232
+- Kazanan tahmin: 157
 - Kaybeden tahmin: 111
 - Lig sayısı: 216
 - Seçenek sayısı: 7
@@ -20,16 +20,22 @@ Oluşturma: 29.08.2026 18:08:57
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 192, bekleyen 143, başarı %71, ağırlık 1.12
-- MS 2: toplam 202, bekleyen 166, başarı %61, ağırlık 1.06
-- 2.5 Alt: toplam 600, bekleyen 487, başarı %56, ağırlık 1.06
-- MS 1: toplam 499, bekleyen 428, başarı %54, ağırlık 1
+- 2.5 Üst: toplam 190, bekleyen 141, başarı %71, ağırlık 1.12
+- MS 2: toplam 200, bekleyen 164, başarı %61, ağırlık 1.06
+- 2.5 Alt: toplam 602, bekleyen 490, başarı %55, ağırlık 1.06
+- MS 1: toplam 501, bekleyen 430, başarı %54, ağırlık 1
 - KG Var: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 - MS X: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-29 | Norveç 3.Lig Grup 4 | Hinna - Vag Fk | MS 1 | pending | 45/100
+- 2026-08-29 | Belarus 1.Lig | Ostrovets Fc - Volna Pinsk | MS 1 | pending | 45/100
+- 2026-08-29 | Finlandiya Ykkönen | Oulun Ls - Tampere Utd | MS 1 | pending | 45/100
+- 2026-08-29 | Japonya J1 Lig | Mito Hollyhock - Machida Zelvia | 2.5 Alt | pending | 70/100
+- 2026-08-29 | Meksika Liga MX Apertura | Club Tijuana - Pumas Unam | 2.5 Alt | pending | 60/100
+- 2026-08-29 | Meksika Liga MX Apertura | Atlante - Club Leon | 2.5 Alt | pending | 59/100
 - 2026-08-29 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Gimnasia La Pla | MS 1 | pending | 55/100
 - 2026-08-29 | Suudi Arabistan Pro Lig | Al Kholood - Al Ahli (Cidde) | MS 2 | pending | 60/100
 - 2026-08-29 | Hırvatistan 1.HNL | Istra - Dinamo Zagreb | KG Var | pending | 39/100
@@ -39,10 +45,4 @@ Oluşturma: 29.08.2026 18:08:57
 - 2026-08-29 | İspanya LaLiga | Real Sociedad - Espanyol | MS 1 | pending | 53/100
 - 2026-08-29 | Macaristan NB III Kuzeybatı | Veszprem - Gyor Ii | 2.5 Alt | pending | 53/100
 - 2026-08-29 | Slovenya 2.SNL | Bistrica - Dren Vrhnika | 2.5 Alt | pending | 55/100
-- 2026-08-29 | Kazakistan Premier Lig | Kaisar - Okzhetpes | 2.5 Üst | pending | 60/100
-- 2026-08-29 | Kazakistan Premier Lig | Ordabasy - Kyzyl-Zhar | KG Yok | pending | 38/100
-- 2026-08-29 | Slovenya 2.SNL | Rudar - Nk Bilje | MS 1 | pending | 53/100
-- 2026-08-29 | Belarus 1.Lig | Soligorsk - Lida | MS 1 | pending | 46/100
-- 2026-08-29 | İngiltere Ulusal Lig N / S Kuzey | Scarborough At - Southport | MS 1 | pending | 52/100
-- 2026-08-29 | Belarus 1.Lig | Slutsk - Bumprom | MS 1 | pending | 51/100
 
