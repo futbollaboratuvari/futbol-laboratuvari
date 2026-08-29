@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 30.08.2026 00:12:23
+Oluşturma: 30.08.2026 00:18:16
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1169
-- Kazanan tahmin: 179
-- Kaybeden tahmin: 152
-- Lig sayısı: 217
+- Bekleyen tahmin: 1279
+- Kazanan tahmin: 116
+- Kaybeden tahmin: 105
+- Lig sayısı: 213
 - Seçenek sayısı: 7
 
 ## Öğrenme Mantığı
@@ -20,29 +20,29 @@ Oluşturma: 30.08.2026 00:12:23
 
 ## En Güçlü Seçenek Hafızası
 
-- KG Var: toplam 3, bekleyen 2, başarı %100, ağırlık 1
-- 2.5 Üst: toplam 192, bekleyen 128, başarı %69, ağırlık 1.12
-- MS 2: toplam 195, bekleyen 153, başarı %52, ağırlık 1
-- 2.5 Alt: toplam 609, bekleyen 467, başarı %51, ağırlık 1
-- MS 1: toplam 497, bekleyen 415, başarı %49, ağırlık 1
+- KG Var: toplam 2, bekleyen 1, başarı %100, ağırlık 1
+- 2.5 Üst: toplam 185, bekleyen 136, başarı %65, ağırlık 1.12
+- MS 1: toplam 505, bekleyen 457, başarı %50, ağırlık 1
+- 2.5 Alt: toplam 605, bekleyen 504, başarı %49, ağırlık 1
+- MS 2: toplam 200, bekleyen 178, başarı %46, ağırlık 0.94
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
-- MS X: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
+- MS X: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-30 | Peru Premier Lig Clausura | Cienciano - Cusco Fc | MS 1 | pending | 49/100
-- 2026-08-30 | Şili Premier Lig | Coquimbo Unido - Huachipato | MS 1 | pending | 57/100
-- 2026-08-30 | Arjantin Premier Lig 2. Aşama | Rivadavia - Racing Club | 2.5 Alt | pending | 73/100
-- 2026-08-30 | Guatemala Ulusal Lig Apertura | Xelaju - Mixco | 2.5 Alt | pending | 66/100
-- 2026-08-30 | Nikaragua Premier Lig Apertura | Unan Managua - Managua | MS 2 | pending | 55/100
-- 2026-08-30 | Kolombiya Primera A Clausura | Deportivo Cali - Bucaramanga | 2.5 Alt | pending | 76/100
-- 2026-08-30 | Meksika Liga MX Apertura | Monterrey - Atletico San Lu | MS 1 | pending | 60/100
-- 2026-08-30 | Honduras Ulusal Lig Apertura | Estrella Roja - Depor. Olimpia | 2.5 Üst | pending | 72/100
-- 2026-08-30 | El Salvador Primera Lig Apertura | Aguila - Fuerte San Fran | MS 1 | pending | 60/100
-- 2026-08-30 | Kolombiya Primera A Clausura | Independiente - Llaneros | 2.5 Alt | pending | 75/100
-- 2026-08-30 | Brezilya Serie A | Mirassol - Palmeiras | 2.5 Alt | pending | 72/100
-- 2026-08-30 | Brezilya Serie A | Gremio - Chapecoense | 2.5 Alt | pending | 73/100
-- 2026-08-30 | Şili Premier Lig | Colo Colo - Audax Italiano | MS 1 | pending | 58/100
-- 2026-08-30 | Arjantin Ulusal Primera Lig | San Martin Tuc - Club Atletico G | MS 1 | pending | 60/100
-- 2026-08-30 | Brezilya Serie B | Vila Nova - Ceara | 2.5 Alt | pending | 73/100
+- 2026-08-30 | Slovenya 1.SNL | Nafta - Maribor | MS 2 | pending | 55/100
+- 2026-08-30 | Türkiye Süper Lig | Samsunspor - Fenerbahçe | 2.5 Alt | pending | 57/100
+- 2026-08-30 | Türkiye Süper Lig | Başakşehir Fk - Kasimpaşa | 2.5 Alt | pending | 59/100
+- 2026-08-30 | Türkiye TFF 1. Lig | Manisa Futbol - Bodrum Fk | 2.5 Alt | pending | 52/100
+- 2026-08-30 | Arjantin Ulusal Primera Lig | Moron - San Miguel | MS 1 | pending | 60/100
+- 2026-08-30 | Arjantin Ulusal Primera Lig | All Boys - Chaco For Ever | MS 1 | pending | 60/100
+- 2026-08-30 | Arjantin Ulusal Primera Lig | Patronato - Almagro | MS 1 | pending | 60/100
+- 2026-08-30 | Arjantin Ulusal Primera Lig | Caseros - Ferro Carril Oe | MS 1 | pending | 59/100
+- 2026-08-30 | Arjantin Ulusal Primera Lig | Atlanta - San Martin Sj | MS 1 | pending | 60/100
+- 2026-08-30 | Uruguay Premier Lig Clausura | Penarol - Nacional Df | 2.5 Alt | pending | 66/100
+- 2026-08-30 | İtalya Serie A Kadınlar Kupası Grup B | Fiorentina (K) - Ternana (K) | MS 1 | pending | 59/100
+- 2026-08-30 | İtalya Serie A | Lazio - Genoa | 2.5 Alt | pending | 60/100
+- 2026-08-30 | İtalya Serie A | Cagliari - Inter | 2.5 Üst | pending | 67/100
+- 2026-08-30 | Fransa Ligue 1 | Monaco - Marsilya | MS 1 | pending | 46/100
+- 2026-08-30 | Yunanistan Süper Lig | Atromitos - Paok | 2.5 Üst | pending | 72/100
 
