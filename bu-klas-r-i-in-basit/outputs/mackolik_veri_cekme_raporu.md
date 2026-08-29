@@ -1,89 +1,84 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-29T10:18:59.015691+00:00
+Tarih: 2026-08-29T15:08:23.569013+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 459
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 459
-- Ham veri havuzu toplam mac sayisi: 10154
+- Kac mac bulundu: 259
+- Kac mac kaydedildi: 4
+- Kac mac zaten vardi: 255
+- Ham veri havuzu toplam mac sayisi: 10158
 - Hedef tarih: 29.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - Almanya 2. Bundesliga
-- Almanya 3. Lig
 - Almanya Bundesliga
-- Almanya Bölgesel Lig Bayern
-- Almanya Bölgesel Lig Kuzey Doğu
-- Almanya Kadınlar Bundesliga
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
+- Avustralya NPL Kuzey YGG Play-Off 1.Tur
 - Avustralya NPL Kuzey YGG Yarı Final
 - Avustralya NPL Queensland Eleme Finali
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
 - Bahreyn Premier Lig
+- Belarus 1.Lig
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
 - Birleşik Arap Emirlikleri 1.Lig
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bosna-Hersek Premier Lig
-- Danimarka 1.Lig
+- Brezilya Serie A
+- Brezilya Serie B
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Ekvador Pro Lig
-- Estonya Premium Lig
+- El Salvador Primera Lig Apertura
 - Finlandiya Ykkönen
-- Finlandiya Ykkösliiga
 - Fransa Ligue 1
 - Fransa Ligue 2
-- Fransa Ligue 3
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika 1.Lig
-- Güney Afrika 8 Kupası Yarı Final
-- Güney Kore K Lig 1
-- Güney Kore K Lig 2
-- Güney Kore K3 Ligi
 - Hazırlık Kulüpler
-- Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Tweede Divisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Irak Premier Lig
+- Kanada Premier Lig
 - Katar Yıldızlar Ligi
 - Kazakistan Premier Lig
 - Kenya Premier Lig
-- Kuzey İrlanda Championship
-- Kuzey İrlanda Premiership
+- Kolombiya Primera A Clausura
+- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
 - Letonya Virsliga
-- Litvanya 1.Lig
 - Macaristan NB I
 - Macaristan NB II
 - Macaristan NB III Güneybatı
-- Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
-- Malezya Süper Lig
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
+- Norveç 3.Lig Grup 4
 - Peru Premier Lig Clausura
-- Polonya 1.Lig
 - Polonya 2.Lig
 - Polonya Ekstraklasa
 - Portekiz 2.Lig
 - Portekiz Kupa 1.Tur
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Rusya FNL
 - Rusya Premier Lig
 - Slovakya 2.Lig
 - Slovakya Süper Lig
@@ -101,36 +96,18 @@ Tarih: 2026-08-29T10:18:59.015691+00:00
 - Yunanistan Süper Lig
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
-- Çin Halk Cumhuriyeti 1.Lig
-- Çin Halk Cumhuriyeti Süper Lig
-- İngiltere 1.Lig
-- İngiltere 2.Lig
-- İngiltere Championship
-- İngiltere Non League Premier Güney
-- İngiltere Non League Premier Güney Merkez
-- İngiltere Non League Premier Kuzey
 - İngiltere Premier Lig
-- İngiltere Ulusal Lig N / S Güney
 - İngiltere Ulusal Lig N / S Kuzey
 - İran Persian Gulf Pro Lig
 - İskoçya 1.Lig
-- İskoçya 2.Lig
-- İskoçya Championship
-- İskoçya Premiership
 - İspanya 2.Lig
 - İspanya Kadınlar Primera Lig
 - İspanya LaLiga
 - İspanya Primera Lig RFEF Grup 1
 - İspanya Primera Lig RFEF Grup 2
 - İsveç 2.Lig Norra Götaland
-- İsveç 2.Lig Norra Svealand
 - İsveç 2.Lig Norrland Düşme Grubu
-- İsveç 2.Lig Norrland Yükselme Grubu
-- İsveç 2.Lig Södra Götaland
-- İsveç 2.Lig Södra Svealand
-- İsveç 2.Lig Vastra Götaland
 - İsveç Allsvenskan
-- İsveç Superettan
 - İsviçre 1.Lig Promotion
 - İsviçre Süper Lig
 - İtalya Serie A
@@ -141,6 +118,7 @@ Tarih: 2026-08-29T10:18:59.015691+00:00
 - İzlanda 1.Lig
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -212,25 +190,25 @@ Tarih: 2026-08-29T10:18:59.015691+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 29.08.2026 | 19:00 | Türkiye Süper Lig | Konyaspor | Kocaelispor | 06174 | 5 |
-| 29.08.2026 | 21:30 | Türkiye Süper Lig | Galatasaray | Göztepe | 06175 | 5 |
 | 29.08.2026 | 21:30 | Türkiye Süper Lig | Gaziantep Fk | Rizespor | 06553 | 5 |
-| 29.08.2026 | 21:30 | Türkiye TFF 1. Lig | Mardin 1969 | Van Spor Fk | 20477 | 5 |
-| 29.08.2026 | 19:00 | Türkiye TFF 1. Lig | İstanbulspor | Fatih Karagümrü | 20443 | 5 |
+| 29.08.2026 | 21:30 | Türkiye Süper Lig | Galatasaray | Göztepe | 06175 | 5 |
 | 29.08.2026 | 19:00 | Türkiye TFF 1. Lig | Kayserispor | Bursaspor | 20427 | 5 |
+| 29.08.2026 | 19:00 | Türkiye TFF 1. Lig | İstanbulspor | Fatih Karagümrü | 20443 | 5 |
 | 29.08.2026 | 21:30 | Türkiye TFF 1. Lig | Batman Petrol | Sivasspor | 20460 | 5 |
+| 29.08.2026 | 21:30 | Türkiye TFF 1. Lig | Mardin 1969 | Van Spor Fk | 20477 | 5 |
 | 29.08.2026 | 19:30 | İngiltere Premier Lig | Tottenham | Newcastle Utd | 11462 | 5 |
-| 29.08.2026 | 17:00 | İngiltere Premier Lig | Coventry | Hull | 13369 | 5 |
-| 29.08.2026 | 14:30 | İngiltere Premier Lig | Liverpool | Nottingham F | 02703 | 5 |
-| 29.08.2026 | 17:00 | İngiltere Premier Lig | Bournemouth | Everton | 02349 | 5 |
 | 29.08.2026 | 20:00 | İspanya LaLiga | Real Sociedad | Espanyol | 18325 | 5 |
 | 29.08.2026 | 22:30 | İspanya LaLiga | Sevilla | Atletico Madrid | 11392 | 5 |
-| 29.08.2026 | 18:00 | İspanya LaLiga | Levante | Real Betis | 15896 | 5 |
-| 29.08.2026 | 21:45 | İtalya Serie A | Juventus | Parma | 24219 | 5 |
-| 29.08.2026 | 19:30 | İtalya Serie A | Sassuolo | Torino | 24161 | 5 |
 | 29.08.2026 | 19:30 | İtalya Serie A | Monza | Udinese | 24045 | 5 |
 | 29.08.2026 | 19:30 | İtalya Serie A | Fiorentina | Frosinone | 24103 | 5 |
-| 29.08.2026 | 21:45 | Fransa Ligue 1 | Auxerre | Angers | 27087 | 5 |
+| 29.08.2026 | 21:45 | İtalya Serie A | Juventus | Parma | 24219 | 5 |
+| 29.08.2026 | 19:30 | İtalya Serie A | Sassuolo | Torino | 24161 | 5 |
+| 29.08.2026 | 21:45 | Fransa Ligue 1 | Brest | Toulouse | 27145 | 5 |
+| 29.08.2026 | 18:15 | Fransa Ligue 1 | Strasbourg | Lens | 26971 | 5 |
 | 29.08.2026 | 21:45 | Fransa Ligue 1 | Lorient | Troyes | 27203 | 5 |
+| 29.08.2026 | 21:45 | Fransa Ligue 1 | Lyon | Le Havre | 27255 | 5 |
+| 29.08.2026 | 21:45 | Fransa Ligue 1 | Auxerre | Angers | 27087 | 5 |
+| 29.08.2026 | 19:30 | Almanya Bundesliga | B.Dortmund | Hamburg | 00722 | 5 |
 
 ## Sonuc
 
