@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 30.08.2026 02:25:19
+Oluşturma: 30.08.2026 02:31:21
 
 ## Özet
 
@@ -24,25 +24,25 @@ Oluşturma: 30.08.2026 02:25:19
 - MS X: toplam 2, bekleyen 1, başarı %100, ağırlık 1
 - 2.5 Üst: toplam 187, bekleyen 129, başarı %67, ağırlık 1.12
 - MS 1: toplam 502, bekleyen 444, başarı %55, ağırlık 1.06
-- MS 2: toplam 201, bekleyen 177, başarı %46, ağırlık 0.94
-- 2.5 Alt: toplam 605, bekleyen 480, başarı %46, ağırlık 0.94
+- MS 2: toplam 200, bekleyen 176, başarı %46, ağırlık 0.94
+- 2.5 Alt: toplam 606, bekleyen 481, başarı %46, ağırlık 0.94
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-30 | Umman Profesyonel Lig | Al Nasr - Fanja | 2.5 Alt | pending | 49/100
 - 2026-08-30 | Nikaragua Premier Lig Apertura | Export Sebaco - Real Esteli | MS 2 | pending | 49/100
 - 2026-08-30 | Belçika Pro Lig | Union St.G - Anderlecht | 2.5 Üst | pending | 60/100
 - 2026-08-30 | Portekiz Premier Lig | Nacional Madei - Estrela | 2.5 Üst | pending | 60/100
 - 2026-08-30 | Belarus Premier Lig | Dnepr Mogilev - Isloch | MS 2 | pending | 49/100
-- 2026-08-30 | Belçika Pro Lig | Antwerp - St. Truidense | 2.5 Alt | pending | 49/100
+- 2026-08-30 | Belçika Pro Lig | Antwerp - St. Truidense | 2.5 Alt | pending | 44/100
 - 2026-08-30 | Slovenya 1.SNL | Nafta - Maribor | MS 2 | pending | 49/100
-- 2026-08-30 | Türkiye Süper Lig | Samsunspor - Fenerbahçe | 2.5 Alt | pending | 55/100
-- 2026-08-30 | Türkiye Süper Lig | Başakşehir Fk - Kasimpaşa | 2.5 Alt | pending | 57/100
-- 2026-08-30 | Türkiye TFF 1. Lig | Manisa Futbol - Bodrum Fk | 2.5 Alt | pending | 52/100
-- 2026-08-30 | Arjantin Ulusal Primera Lig | Moron - San Miguel | MS 1 | pending | 53/100
-- 2026-08-30 | Arjantin Ulusal Primera Lig | All Boys - Chaco For Ever | MS 1 | pending | 47/100
-- 2026-08-30 | Arjantin Ulusal Primera Lig | Patronato - Almagro | MS 1 | pending | 54/100
-- 2026-08-30 | Arjantin Ulusal Primera Lig | Caseros - Ferro Carril Oe | MS 1 | pending | 44/100
-- 2026-08-30 | Arjantin Ulusal Primera Lig | Atlanta - San Martin Sj | MS 1 | pending | 48/100
-- 2026-08-30 | Uruguay Premier Lig Clausura | Penarol - Nacional Df | 2.5 Alt | pending | 66/100
+- 2026-08-30 | Türkiye Süper Lig | Samsunspor - Fenerbahçe | 2.5 Alt | pending | 44/100
+- 2026-08-30 | Türkiye Süper Lig | Başakşehir Fk - Kasimpaşa | 2.5 Alt | pending | 46/100
+- 2026-08-30 | Türkiye TFF 1. Lig | Manisa Futbol - Bodrum Fk | 2.5 Alt | pending | 47/100
+- 2026-08-30 | Arjantin Ulusal Primera Lig | Moron - San Miguel | MS 1 | pending | 60/100
+- 2026-08-30 | Arjantin Ulusal Primera Lig | All Boys - Chaco For Ever | MS 1 | pending | 60/100
+- 2026-08-30 | Arjantin Ulusal Primera Lig | Patronato - Almagro | MS 1 | pending | 60/100
+- 2026-08-30 | Arjantin Ulusal Primera Lig | Caseros - Ferro Carril Oe | MS 1 | pending | 60/100
+- 2026-08-30 | Arjantin Ulusal Primera Lig | Atlanta - San Martin Sj | MS 1 | pending | 60/100
 
