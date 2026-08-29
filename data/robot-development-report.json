@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-28T18:53:16.437Z",
+  "generated_at": "2026-08-29T02:19:40.666Z",
   "totals": {
     "predictions": 1500,
-    "finished": 374,
-    "pending": 1126
+    "finished": 230,
+    "pending": 1270
   },
   "learning_output_status": "ready",
   "market_development": {
@@ -17,24 +17,24 @@
         "success_rate": 83,
         "weight": 1.12,
         "ready": true
+      },
+      {
+        "name": "2.5 Alt",
+        "won": 52,
+        "lost": 35,
+        "total": 87,
+        "success_rate": 60,
+        "weight": 1.06,
+        "ready": true
       }
     ],
     "weak": [
       {
-        "name": "MS 2",
-        "won": 40,
-        "lost": 68,
-        "total": 108,
-        "success_rate": 37,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
         "name": "MS X",
-        "won": 25,
-        "lost": 58,
-        "total": 83,
-        "success_rate": 30,
+        "won": 3,
+        "lost": 5,
+        "total": 8,
+        "success_rate": 38,
         "weight": 0.88,
         "ready": true
       }
@@ -44,6 +44,42 @@
     "label": "league",
     "strong": [
       {
+        "name": "Brezilya Kupa Çeyrek Final",
+        "won": 4,
+        "lost": 1,
+        "total": 5,
+        "success_rate": 80,
+        "weight": 1.12,
+        "ready": true
+      },
+      {
+        "name": "Brezilya Serie B",
+        "won": 5,
+        "lost": 2,
+        "total": 7,
+        "success_rate": 71,
+        "weight": 1.12,
+        "ready": true
+      },
+      {
+        "name": "Brezilya Serie A",
+        "won": 5,
+        "lost": 2,
+        "total": 7,
+        "success_rate": 71,
+        "weight": 1.12,
+        "ready": true
+      },
+      {
+        "name": "Bolivya Premier Lig",
+        "won": 5,
+        "lost": 2,
+        "total": 7,
+        "success_rate": 71,
+        "weight": 1.12,
+        "ready": true
+      },
+      {
         "name": "İngiltere Lig Kupası 2.Tur",
         "won": 18,
         "lost": 8,
@@ -51,23 +87,41 @@
         "success_rate": 69,
         "weight": 1.12,
         "ready": true
-      },
-      {
-        "name": "Arjantin Ulusal Primera Lig",
-        "won": 4,
-        "lost": 2,
-        "total": 6,
-        "success_rate": 67,
-        "weight": 1.12,
-        "ready": true
       }
     ],
     "weak": [
       {
-        "name": "Hollanda Eredivisie",
+        "name": "Arjantin Premier Lig 2. Aşama",
         "won": 2,
-        "lost": 5,
-        "total": 7,
+        "lost": 3,
+        "total": 5,
+        "success_rate": 40,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "İspanya LaLiga",
+        "won": 2,
+        "lost": 3,
+        "total": 5,
+        "success_rate": 40,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "El Salvador Primera Lig Apertura",
+        "won": 2,
+        "lost": 3,
+        "total": 5,
+        "success_rate": 40,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "İskoçya Challenge Kupası Lig Aşaması",
+        "won": 6,
+        "lost": 15,
+        "total": 21,
         "success_rate": 29,
         "weight": 0.88,
         "ready": true
@@ -78,33 +132,6 @@
         "lost": 4,
         "total": 5,
         "success_rate": 20,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "Rusya Premier Lig",
-        "won": 1,
-        "lost": 5,
-        "total": 6,
-        "success_rate": 17,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "Almanya DFB Kupası 1.Tur",
-        "won": 1,
-        "lost": 10,
-        "total": 11,
-        "success_rate": 9,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "Peru Premier Lig Clausura",
-        "won": 0,
-        "lost": 6,
-        "total": 6,
-        "success_rate": 0,
         "weight": 0.88,
         "ready": true
       }
@@ -143,6 +170,24 @@
     ],
     "weak": [
       {
+        "name": "UEFA Konferans Ligi Play Off :: 2.5 Alt",
+        "won": 2,
+        "lost": 3,
+        "total": 5,
+        "success_rate": 40,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "Suudi Arabistan Pro Lig :: MS 1",
+        "won": 1,
+        "lost": 4,
+        "total": 5,
+        "success_rate": 20,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
         "name": "İskoçya Challenge Kupası Lig Aşaması :: MS 2",
         "won": 1,
         "lost": 4,
@@ -157,33 +202,6 @@
         "lost": 6,
         "total": 7,
         "success_rate": 14,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "ABD USL :: MS X",
-        "won": 1,
-        "lost": 6,
-        "total": 7,
-        "success_rate": 14,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "Almanya DFB Kupası 1.Tur :: MS 1",
-        "won": 0,
-        "lost": 6,
-        "total": 6,
-        "success_rate": 0,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "Brezilya Serie A :: MS 2",
-        "won": 0,
-        "lost": 5,
-        "total": 5,
-        "success_rate": 0,
         "weight": 0.88,
         "ready": true
       }
