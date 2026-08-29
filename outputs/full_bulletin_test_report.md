@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 69
-- Live match count: 0
+- Scheduled match count: 573
+- Live match count: 3
 - Finished removed count: 0
 - Date window: 2026-08-29 / 2026-08-30 23:59
 
-- 2026-08-29 22:30 | Midland - Nueva Chicago | scheduled
-- 2026-08-29 22:30 | Girona - Las Palmas | scheduled
-- 2026-08-29 22:30 | Sevilla - Atletico Madrid | scheduled
-- 2026-08-29 22:30 | Hercules - Murcia | scheduled
-- 2026-08-29 22:30 | Torreense - Vizela | scheduled
-- 2026-08-29 23:00 | Rosario Centra - Gimnasia La Pla | scheduled
-- 2026-08-29 23:00 | Defensor Sport - Torque | scheduled
-- 2026-08-29 23:30 | Seattle - Chicago | scheduled
-- 2026-08-29 23:30 | Univ De Cajama - Universitario | scheduled
-- 2026-08-30 00:00 | Pittsburgh Riv - Tampa Bay Rowdi | scheduled
+- 2026-08-29 05:00 | Suchitepequez - Coban Imperial | live
+- 2026-08-29 05:00 | Sporting San J - Inter San Carlo | live
+- 2026-08-29 06:10 | Club Tijuana - Pumas Unam | live
+- 2026-08-29 07:00 | Kahibah (2) - (1) New Lambton Fc | scheduled
+- 2026-08-29 07:00 | South Hobart - Kingborough Lio | scheduled
+- 2026-08-29 08:00 | Avondale Heigh - Hume City | scheduled
+- 2026-08-29 08:00 | Caroline S. - South Melbourne | scheduled
+- 2026-08-29 08:00 | Heidelberg Uni - Bentleigh Green | scheduled
+- 2026-08-29 08:00 | Melbourne City - Green Gully | scheduled
+- 2026-08-29 08:00 | Oakleigh Canno - Dandenong City | scheduled
