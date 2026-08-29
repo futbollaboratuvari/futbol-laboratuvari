@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-29 / 2026-08-30
 Kaynak: fixtures.json
-Ham mac: 585
+Ham mac: 566
 Aktif mac: 563
 Canli mac: 3
-Biten mac: 19
-Bultenden dusurulen mac: 22
+Biten mac: 0
+Bultenden dusurulen mac: 3
 Bugun: 502
 Yarin: 61
 
@@ -581,22 +581,4 @@ Yarin: 61
 - 2026-08-29 06:10 | Meksika Liga MX Apertura | Club Tijuana - Pumas Unam | live | -
 
 ## Biten Maclar
-- 2026-08-29 01:00 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Sarmiento | finished | -
-- 2026-08-29 01:00 | Uruguay Premier Lig Clausura | Montevideo Wan - Central Espanol | finished | -
-- 2026-08-29 01:00 | El Salvador Primera Lig Apertura | Municipal Lime - Isidro Metapan | finished | -
-- 2026-08-29 01:30 | Şili Premier Lig | Cobresal - Palestino | finished | -
-- 2026-08-29 01:30 | Brezilya Serie B | Goias - Sao Bernardo | finished | -
-- 2026-08-29 02:00 | Kanada Premier Lig | Supra Du Quebe - Forge | finished | -
-- 2026-08-29 02:00 | Kanada Premier Lig | Atletico Ottaw - Inter Toronto | finished | -
-- 2026-08-29 02:00 | ABD USL Lig 1 | Charlotte Inde - Alta | finished | -
-- 2026-08-29 02:30 | Brezilya Serie B | Nautico - Athletic Club | finished | -
-- 2026-08-29 02:30 | Brezilya Serie B | Novorizontino - Sport Recife | finished | -
-- 2026-08-29 03:00 | Ekvador Pro Lig | T.Universitari - Deportivo Cuenc | finished | -
-- 2026-08-29 03:00 | El Salvador Primera Lig Apertura | Inca-Aruba - Cacahuatique | finished | -
-- 2026-08-29 03:30 | Arjantin Premier Lig 2. Aşama | Boca Juniors - Lanus | finished | -
-- 2026-08-29 04:00 | Meksika Liga MX Apertura | Atlante - Club Leon | finished | -
-- 2026-08-29 04:00 | Meksika Liga MX Apertura | Necaxa - Cruz Azul | finished | -
-- 2026-08-29 04:00 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir - Chacarita Junio | finished | -
-- 2026-08-29 04:00 | Meksika Ascenso MX Apertura | Dorados - Monarcas | finished | -
-- 2026-08-29 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Durango | finished | -
-- 2026-08-29 04:00 | Honduras Ulusal Lig Apertura | Juticalpa - Upnfm | finished | -
+Biten mac yok.
