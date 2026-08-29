@@ -162,7 +162,7 @@
     try {
       const [live, history, daily] = await Promise.all([
         readJson("./data/live-matches.json", { matches: [], active_items: [], counts: {} }),
-        readJson("./data/analiz_sonuclari.json", { active_items: [] }),
+        readJson("./data/results-summary.json", { active_items: [] }),
         readJson("./data/daily-coupons.json", { coupons: {} })
       ]);
       const hasOfficial = Object.values(daily.coupons || {}).some((item) => item?.is_available);

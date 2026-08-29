@@ -1,5 +1,10 @@
 const fs = require("fs");
 const path = require("path");
+const {
+  classifyBulletinMatch,
+  verifiedMinute,
+  hasVerifiedStatusEvidence,
+} = require("./bulletin-active-filter");
 
 const root = path.join(__dirname, "..");
 const dataDir = path.join(root, "data");
@@ -8,7 +13,6 @@ const fullPath = path.join(dataDir, "full-bulletin.json");
 const cachePath = path.join(dataDir, "full-bulletin-cache.json");
 const healthPath = path.join(dataDir, "full-bulletin-health.json");
 const reportPath = path.join(outDir, "full_bulletin_test_report.md");
-const LIVE_WINDOW = 130;
 
 function readJson(file, fallback) {
   try {
@@ -49,12 +53,6 @@ function todayTR() {
   return `${p.year}-${p.month}-${p.day}`;
 }
 
-function nowMin() {
-  const p = trParts();
-  const hour = Number(p.hour === "24" ? "0" : p.hour || 0);
-  return hour * 60 + Number(p.minute || 0);
-}
-
 function addDays(dateKey, days) {
   const [y, m, d] = String(dateKey).split("-").map(Number);
   return new Date(Date.UTC(y, m - 1, d + days, 12)).toISOString().slice(0, 10);
@@ -63,29 +61,6 @@ function addDays(dateKey, days) {
 function clockMin(time) {
   const m = String(time || "").match(/^(\d{1,2}):(\d{2})$/);
   return m ? Number(m[1]) * 60 + Number(m[2]) : null;
-}
-
-function statusOf(match) {
-  const date = String(match.date || "").slice(0, 10);
-  const start = clockMin(match.time);
-  const today = todayTR();
-  if (!date || start === null) return String(match.status || "scheduled").toLowerCase();
-  if (date < today) return "finished";
-  if (date > today) return "scheduled";
-  const elapsed = nowMin() - start;
-  if (elapsed < 0) return "scheduled";
-  if (elapsed <= LIVE_WINDOW) return "live";
-  return "finished";
-}
-
-function minuteOf(match, status) {
-  const n = Number(match.minute || match.elapsed || match.matchMinute);
-  if (Number.isFinite(n) && n > 0) return Math.min(120, Math.round(n));
-  if (status !== "live") return null;
-  const start = clockMin(match.time);
-  if (start === null) return null;
-  const elapsed = nowMin() - start;
-  return Math.max(1, Math.min(90, elapsed > 60 ? elapsed - 15 : elapsed));
 }
 
 function inWindow(match) {
@@ -106,12 +81,20 @@ function normalize(source, sourceName) {
     ...(Array.isArray(source?.matches) ? source.matches : []),
     ...(Array.isArray(source?.live_matches) ? source.live_matches : []),
   ].filter(inWindow).map((match) => {
-    const status = statusOf(match);
-    return { ...match, status, liveStatus: status, minute: minuteOf(match, status) };
+    const status = classifyBulletinMatch(match);
+    return {
+      ...match,
+      status,
+      liveStatus: status,
+      status_verified: ["live", "finished"].includes(status) && hasVerifiedStatusEvidence(match),
+      minute: verifiedMinute(match, status),
+    };
   });
   const scheduled = raw.filter((m) => m.status === "scheduled");
   const live = raw.filter((m) => m.status === "live");
   const finished = raw.filter((m) => m.status === "finished");
+  const expiredScheduled = raw.filter((m) => m.status === "expired_scheduled");
+  const unverified = raw.filter((m) => ["unverified", "unknown"].includes(m.status));
   const today = todayTR();
   const tomorrow = addDays(today, 1);
   return {
@@ -126,6 +109,9 @@ function normalize(source, sourceName) {
     live_count: live.length,
     scheduled_count: scheduled.length,
     finished_count: finished.length,
+    expired_scheduled_count: expiredScheduled.length,
+    unverified_status_count: unverified.length,
+    status_policy: "provider_verified_only",
     wide_market_odds_count: scheduled.reduce((sum, item) => sum + oddsCount(item), 0),
     matches: scheduled,
     live_matches: live,

@@ -1,5 +1,21 @@
 # State
 
+2026-08-29
+
+Main focus: canlı site denetiminde bulunan veri bütünlüğü, ücretli içerik koruması, ödeme/yasal uyum, çerez ve performans açıklarının kapatılması.
+
+Current completion state:
+- Canlı ve bitmiş statüsü yalnız sağlayıcı statüsü/skor kanıtıyla oluşur; saat karşılaştırmasıyla sahte canlı veya sonuç üretilmez. Analiz/kupon nesneleri maç sonuç akışından ayrılmıştır.
+- Kupon kartları tek merkezi uygunluk kuralını kullanır; uygunsuz ayaklar, tekrar eden dengeli kupon ve aday yokken yayımlanan kupon engellenir.
+- `data/pro-analysis-index.json` artık Git'te ve statik Vercel çıktısında yayımlanmaz. Geçerli üyelik kodu olmadan veri döndürmeyen `/api/pro-analysis` katmanı kullanılır; PRO veri açılmadan analiz hakkı tüketilmez.
+- Kamuya açık `live-matches.json` üretim çıktısı analiz, öneri, model puanı ve robot gerekçesinden arındırılır; robot, analiz, üyelik ve kullanım dosyaları statik pakete kopyalanmaz. Sonuçlar yalnız kompakt `results-summary.json` ile gösterilir.
+- Üyelik paneli sayfa açılışında güvenli sırayla hazırlanır; doğrudan hash ve normal gezinme aynı sonucu verir.
+- Ödeme talebi yalnız eksiksiz satıcı profili, ön bilgilendirme, mesafeli satış, KVKK ve hemen ifa onaylarıyla aynı alan adlı sunucu API'sinden oluşturulur. Satıcı unvanı/adresi/vergi/telefon ortam değişkenleri eksikse ücretli satış güvenli biçimde kapalı kalır.
+- Ön bilgilendirme, mesafeli satış, iptal/iade ve KVKK sayfaları eklendi. AdSense ilk ziyarette yüklenmez; kabul, ret ve tercihler eşit görünür kontrollerle yönetilir.
+- Bülten ilk 30 maçı gösterir ve istekle devam eder; sahte “oynanabilir” skoru kaldırılıp yalnız ham piyasa oran karşılığı açıklandı. Model gücü, olasılık ve veri kapsamı ayrı adlandırılır.
+- HSTS, CSP, çerçeve/izin/referrer güvenlik başlıkları, favicon ve web manifest eklendi; tek-u alan adı için Vercel host yönlendirme kuralı hazırlandı.
+- PRO, kupon, durum, sonuç, performans, güvenlik/yasal ve üretim derleme kontrolleri başarılıdır. Canlı yayın doğrulaması bu kaydın ardından yapılacaktır.
+
 2026-08-27
 
 Main focus: yarım kalan canlı güç, otomatik veri yazıcıları ve en güçlü tahmin uygunluk zincirinin GitHub `main` üzerinde tamamlanması.

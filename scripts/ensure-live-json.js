@@ -1,5 +1,10 @@
 const fs = require('fs');
 const path = require('path');
+const {
+  classifyBulletinMatch,
+  verifiedMinute,
+  hasVerifiedStatusEvidence,
+} = require('./bulletin-active-filter');
 
 try {
   require('./update-match-archive.js');
@@ -12,10 +17,7 @@ const dataDir = path.join(root, 'data');
 const liveFile = path.join(dataDir, 'live-matches.json');
 const fixturesFile = path.join(dataDir, 'fixtures.json');
 const fullBulletinFile = path.join(dataDir, 'full-bulletin.json');
-const analysisFile = path.join(dataDir, 'analiz_sonuclari.json');
-const robotAnalysisFile = path.join(dataDir, 'robot-analysis.json');
 const focusFile = path.join(dataDir, 'focused_markets.json');
-const LIVE_WINDOW_MINUTES = 130;
 
 function readJson(file, fallback) {
   try {
@@ -46,78 +48,12 @@ function todayKey() {
   return `${p.year}-${p.month}-${p.day}`;
 }
 
-function nowMinutesTR() {
-  const p = partsTR();
-  return Number(p.hour) * 60 + Number(p.minute);
-}
-
-function clockMinutes(time) {
-  const m = String(time || '').trim().match(/^(\d{1,2}):(\d{2})$/);
-  return m ? Number(m[1]) * 60 + Number(m[2]) : null;
-}
-
-function cleanKey(value) {
-  return String(value || '')
-    .toLocaleLowerCase('tr-TR')
-    .replace(/ı/g, 'i')
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim();
-}
-
-function titleOf(match) {
-  return String(match.match_name || match.match || `${match.home || match.home_team_name || ''} ${match.away || match.away_team_name || ''}`).trim();
-}
-
-function keyOf(match) {
-  return cleanKey(`${match.home || match.home_team_name || ''} ${match.away || match.away_team_name || ''}`);
-}
-
-function robotKey(match) {
-  return cleanKey(titleOf(match).replace(/\bVS\b/gi, ' '));
-}
-
-function buildAnalysisMap(robotAnalysis) {
-  const map = new Map();
-  for (const item of robotAnalysis.matches || []) {
-    const key = robotKey(item);
-    if (key) map.set(key, item);
-  }
-  return map;
-}
-
-function findAnalysis(match, map) {
-  const direct = keyOf(match);
-  const reverse = cleanKey(`${match.away || match.away_team_name || ''} ${match.home || match.home_team_name || ''}`);
-  return map.get(direct) || map.get(reverse) || null;
-}
-
 function statusOf(match) {
-  const explicit = String(match.status || match.liveStatus || match.durum || 'scheduled').toLocaleLowerCase('tr-TR');
-  if (['live', 'canlı', 'canli', 'in_play', 'inplay', '1h', '2h', 'ht', 'paused'].includes(explicit)) return 'live';
-  if (['finished', 'bitti', 'tamamlandı', 'tamamlandi', 'full_time', 'ft', 'ms', 'cancelled', 'canceled', 'iptal'].includes(explicit)) return 'finished';
-  const date = String(match.date || match.tarih || '').slice(0, 10);
-  const start = clockMinutes(match.time || match.saat || match.start_time);
-  const today = todayKey();
-  if (!date || start === null) return 'scheduled';
-  if (date < today) return 'finished';
-  if (date > today) return 'scheduled';
-  const diff = nowMinutesTR() - start;
-  if (diff >= 0 && diff <= LIVE_WINDOW_MINUTES) return 'live';
-  if (diff > LIVE_WINDOW_MINUTES) return 'finished';
-  return 'scheduled';
+  return classifyBulletinMatch(match);
 }
 
 function minuteOf(match, status) {
-  const explicit = Number(match.minute ?? match.elapsed ?? match.matchMinute);
-  if (Number.isFinite(explicit) && explicit > 0) return Math.min(120, Math.round(explicit));
-  if (status !== 'live') return null;
-  const start = clockMinutes(match.time || match.saat || match.start_time);
-  if (start === null) return null;
-  const diff = nowMinutesTR() - start;
-  if (diff <= 0) return null;
-  return Math.max(1, Math.min(90, diff > 60 ? diff - 15 : diff));
+  return verifiedMinute(match, status);
 }
 
 function scoreOf(match) {
@@ -171,10 +107,9 @@ function decisionFor(analysis) {
   return 'Oynama';
 }
 
-function normalizeMatch(match, analysis = null) {
-  const odds = availableOdds(match, analysis);
+function normalizeMatch(match) {
+  const odds = availableOdds(match, null);
   const status = statusOf(match);
-  const score = analysis ? Number(analysis.analysis_score ?? analysis.score ?? 0) : null;
   const oddsCount = Object.values(odds).filter((value) => value !== undefined && value !== null && value !== '').length;
   return {
     date: match.date || match.tarih || '',
@@ -184,7 +119,11 @@ function normalizeMatch(match, analysis = null) {
     away: match.away || match.away_team_name || match.deplasman || '',
     status,
     liveStatus: status,
+    status_verified: ['live', 'finished'].includes(status) && hasVerifiedStatusEvidence(match),
+    status_source: match.status_source || (['live', 'finished'].includes(status) ? match.source || match.kaynak || '' : 'schedule_only'),
     minute: minuteOf(match, status),
+    homeScore: match.homeScore ?? match.home_score ?? null,
+    awayScore: match.awayScore ?? match.away_score ?? null,
     score: scoreOf(match),
     source: match.source || match.kaynak || '',
     matchCode: match.matchCode || match.mac_kodu || match.match_code || null,
@@ -194,14 +133,6 @@ function normalizeMatch(match, analysis = null) {
     raw_odds_sequence: match.raw_odds_sequence || [],
     market_odds_inventory: Object.keys(odds),
     wide_market_odds_count: oddsCount,
-    suggested_option: analysis?.recommended_market || analysis?.market || analysis?.selection || '',
-    suggested_odds: analysis?.estimated_odds || analysis?.odds || '',
-    analysis_score: score,
-    confidence: analysis?.confidence_score || (score !== null ? `${score}%` : ''),
-    risk_level: analysis?.risk_level || '',
-    decision: decisionFor(analysis),
-    robot_reason: analysis?.robot_comment || analysis?.robot_reason || '',
-    include_in_coupon: Boolean(analysis?.include_in_coupon),
     raw_market_value_count: match.raw_market_value_count || oddsCount
   };
 }
@@ -209,8 +140,6 @@ function normalizeMatch(match, analysis = null) {
 const today = todayKey();
 const fixtures = readJson(fixturesFile, []);
 const fullBulletin = readJson(fullBulletinFile, { matches: [], live_matches: [] });
-const analysis = readJson(analysisFile, { active_items: [], completed_items: [] });
-const robotAnalysis = readJson(robotAnalysisFile, { matches: [], summary: {} });
 const focus = readJson(focusFile, { focused_markets: [] });
 
 const sourceList = [
@@ -227,14 +156,12 @@ for (const item of sourceList) {
   uniqueMap.set(key, item);
 }
 
-const robotMap = buildAnalysisMap(robotAnalysis);
-const enrichedMatches = [...uniqueMap.values()].map((match) => normalizeMatch(match, findAnalysis(match, robotMap)));
+const enrichedMatches = [...uniqueMap.values()].map((match) => normalizeMatch(match));
 const liveMatches = enrichedMatches.filter((match) => match.status === 'live');
 const finishedMatches = enrichedMatches.filter((match) => match.status === 'finished');
 const scheduledMatches = enrichedMatches.filter((match) => match.status === 'scheduled');
-const activeItems = Array.isArray(analysis.active_items) ? analysis.active_items : [];
-const completedItems = Array.isArray(analysis.completed_items) ? analysis.completed_items : [];
-const source = fullBulletin.source || robotAnalysis.engine || analysis.source || 'Güncel veri bekleniyor';
+const unverifiedMatches = enrichedMatches.filter((match) => ['expired_scheduled', 'unverified', 'unknown'].includes(match.status));
+const source = fullBulletin.source || 'Güncel veri bekleniyor';
 const nextMatch = scheduledMatches.slice().sort((a, b) => String(a.time || '').localeCompare(String(b.time || '')))[0] || liveMatches[0] || null;
 
 const payload = {
@@ -244,24 +171,26 @@ const payload = {
   source,
   title: 'Futbol Laboratuvarı Canlı Veri',
   status: liveMatches.length ? 'active' : 'waiting',
-  message: liveMatches.length ? 'Başlayan karşılaşmalar canlı listede.' : 'Şu anda başlayan karşılaşma yok.',
+  message: liveMatches.length ? 'Sağlayıcı tarafından doğrulanan canlı karşılaşmalar listede.' : 'Şu anda doğrulanmış canlı karşılaşma yok.',
+  status_policy: 'provider_verified_only',
   counts: {
     total: enrichedMatches.length,
     current_window: enrichedMatches.length,
     live: liveMatches.length,
     scheduled: scheduledMatches.length,
     finished: finishedMatches.length,
-    active_analysis: enrichedMatches.filter((match) => match.analysis_score !== null).length,
-    completed_analysis: completedItems.length,
-    coupon_candidates: enrichedMatches.filter((match) => match.decision === 'Kupon Adayı').length,
-    watch_candidates: enrichedMatches.filter((match) => match.decision === 'İzleme').length,
+    unverified_or_expired: unverifiedMatches.length,
+    active_analysis: 0,
+    completed_analysis: 0,
+    coupon_candidates: 0,
+    watch_candidates: 0,
     focused_markets: Array.isArray(focus.focused_markets) ? focus.focused_markets.length : 0,
     wide_market_odds: enrichedMatches.reduce((sum, match) => sum + Number(match.wide_market_odds_count || 0), 0)
   },
   next_match: nextMatch,
   focused_markets: Array.isArray(focus.focused_markets) ? focus.focused_markets : [],
-  active_items: activeItems,
-  completed_items: completedItems,
+  active_items: [],
+  completed_items: [],
   matches: liveMatches,
   scheduled_matches: scheduledMatches
 };

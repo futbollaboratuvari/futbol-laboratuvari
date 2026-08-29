@@ -2,7 +2,7 @@
   const KEY = "__flAnalysisInsightsV1";
   if (window[KEY]?.destroy) window[KEY].destroy();
 
-  const state = { root: null, data: null, selectedId: "", onClick: null };
+  const state = { root: null, data: null, selectedId: "", onClick: null, onProtectedData: null, onKeydown: null };
   window[KEY] = state;
   let eligibility = window.FLCouponEligibility;
 
@@ -134,7 +134,7 @@
     return `<article class="flai-pick${selected}" data-flai-id="${esc(match.id)}" tabindex="0" role="button" aria-expanded="${selected ? "true" : "false"}">
       <div class="flai-rank">${index + 1}</div>
       <div class="flai-pick-main"><small>${esc(match.league || "Lig")} · ${esc(match.time || "--:--")}</small><strong>${esc(match.home)} <em>vs</em> ${esc(match.away)}</strong><span>${esc(match.recommended_market)}</span></div>
-      <div class="flai-score"><small>Bileşik güven</small><strong>${c.score}</strong><span>${esc(qualityLabel(c.score))}</span></div>
+      <div class="flai-score"><small>Bileşik değerlendirme</small><strong>${c.score}</strong><span>${esc(qualityLabel(c.score))}</span></div>
       <div class="flai-meta"><span>Olasılık <b>${esc(probability === null ? "—" : `${Math.round(probability)}%`)}</b></span><span>Veri <b>${esc(pct(match.data_completeness))}</b></span><span>Oran <b>${esc(odd === null ? "—" : odd.toFixed(2))}</b></span>${edge === null ? "" : `<span>Edge <b>${esc(`${edge >= 0 ? "+" : ""}${edge.toFixed(1)}`)}</b></span>`}</div>
       <span class="flai-tier ${tier.className}">${esc(tier.text)}</span>
     </article>`;
@@ -165,7 +165,7 @@
       rawBar(`${match.away} · son 10 yedi`, metrics.awayConcededLast10, rawMax),
     ].filter(Boolean).join("");
 
-    return `<div class="flai-detail-head"><div><small>${esc(tier.text)}</small><h3>${esc(match.home)} - ${esc(match.away)}</h3><p><b>${esc(match.recommended_market)}</b> · ${esc(match.data_quality || "Veri kalitesi belirtilmedi")}</p></div><div class="flai-big-score"><span>Bileşik güven</span><strong>${c.score}/100</strong><small>Sonuç olasılığı değildir</small></div></div>
+    return `<div class="flai-detail-head"><div><small>${esc(tier.text)}</small><h3>${esc(match.home)} - ${esc(match.away)}</h3><p><b>${esc(match.recommended_market)}</b> · ${esc(match.data_quality || "Veri kalitesi belirtilmedi")}</p></div><div class="flai-big-score"><span>Bileşik değerlendirme</span><strong>${c.score}/100</strong><small>Sonuç olasılığı değildir</small></div></div>
       <div class="flai-detail-grid">
         <section><h4>AI neden bunu seçti?</h4>${signals.length ? `<ul>${signals.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>` : `<p class="flai-muted">Bu maç için açıklama sinyali henüz oluşmadı.</p>`}<div class="flai-riskline"><span>Kadro riski <b>${esc(match.squad_risk_level || "Belirsiz")}</b></span><span>İlk 11 riski <b>${esc(match.lineup_risk_level || "Belirsiz")}</b></span><span>İsimli oyuncu verisi <b>${esc(match.named_player_count ?? 0)}</b></span><span>Doğrulanmış takım <b>${esc(match.team_status_verified_count ?? 0)}/2</b></span></div></section>
         <section><h4>Güven bileşenleri</h4>${componentBars || `<p class="flai-muted">Bileşen verisi bekleniyor.</p>`}</section>
@@ -219,23 +219,30 @@
     root.innerHTML = `<div class="flai-head"><div><p>AI Şeffaflık Merkezi</p><h2>Güven, başarı ve neden tek ekranda</h2><span>Robotun seçimini yalnız yüzdeyle değil; gerçek geçmiş performans, veri kapsamı, model sinyali, piyasa farkı ve kadro/ilk 11 riskiyle birlikte gösterir.</span></div><span class="flai-status">${esc(data?.engine || "PRO veri akışı")}</span></div>
       ${statsHtml(data)}
       <div class="flai-body"><div class="flai-list"><div class="flai-list-head"><h3>Günün en güçlü tahminleri</h3><small>${esc(picks.length)} seçim</small></div>${picks.length ? picks.map(pickCard).join("") : `<div class="flai-empty">Bugün güven eşiğini geçen açıklanabilir PRO seçimi henüz oluşmadı.</div>`}</div><div class="flai-detail">${detailHtml(selected)}</div></div>
-      <div class="flai-foot"><b>Bileşik güven skoru sonuç olasılığı değildir.</b> Tahmini olasılık varsa onu; veri kapsamı, model sinyali, piyasa farkı ve kadro/ilk 11 riskleriyle birlikte bir güven göstergesine dönüştürür. Dakika dakika takım gücü verisi mevcut değilse sistem böyle bir grafik uydurmaz; yalnız mevcut gerçek metrikleri gösterir.</div>`;
+      <div class="flai-foot"><b>Bileşik değerlendirme puanı sonuç olasılığı değildir.</b> Tahmini olasılığı; veri kapsamı, model sinyali, piyasa farkı ve kadro/ilk 11 riskleriyle birlikte açıklama amacıyla sunar. Dakika dakika takım gücü verisi mevcut değilse sistem böyle bir grafik uydurmaz; yalnız mevcut gerçek metrikleri gösterir.</div>`;
   }
 
-  async function readJson(url) {
-    if (typeof window.__flReadJsonShared === "function") return window.__flReadJsonShared(url);
-    const response = await fetch(url, { cache: "no-cache" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    return response.json();
+  function renderLocked() {
+    const root = ensureRoot();
+    root.innerHTML = `<div class="flai-head"><div><p>AI Şeffaflık Merkezi</p><h2>PRO veri üyelikle açılır</h2><span>Ücretli öneri, olasılık ve kupon uygunluğu yalnız geçerli üyelik doğrulamasından sonra yüklenir.</span></div><span class="flai-status">Korumalı</span></div><div class="flai-empty">Özel Analiz bölümünden üyelik kodunu doğruladığında şeffaflık verileri bu alanda açılır.</div>`;
   }
 
   async function boot() {
     ensureStyle();
-    ensureRoot().innerHTML = `<div class="flai-empty">AI güven ve başarı verisi hazırlanıyor…</div>`;
+    renderLocked();
     try {
       await loadEligibility();
-      state.data = await readJson("./data/pro-analysis-index.json");
-      render();
+      if (window.__flProtectedProIndex) {
+        state.data = window.__flProtectedProIndex;
+        render();
+      }
+      state.onProtectedData = (event) => {
+        const data = event.detail?.data;
+        if (!data || !Array.isArray(data.matches)) return;
+        state.data = data;
+        render();
+      };
+      window.addEventListener("fl:pro-analysis-ready", state.onProtectedData);
       state.onClick = (event) => {
         const card = event.target.closest("[data-flai-id]");
         if (!card || !state.root?.contains(card)) return;
@@ -243,14 +250,15 @@
         render();
       };
       state.root.addEventListener("click", state.onClick);
-      state.root.addEventListener("keydown", (event) => {
+      state.onKeydown = (event) => {
         if (event.key !== "Enter" && event.key !== " ") return;
         const card = event.target.closest("[data-flai-id]");
         if (!card) return;
         event.preventDefault();
         state.selectedId = String(card.getAttribute("data-flai-id") || "");
         render();
-      });
+      };
+      state.root.addEventListener("keydown", state.onKeydown);
     } catch (error) {
       state.root.innerHTML = `<div class="flai-empty">AI güven merkezi verisi şu anda alınamadı. Mevcut maç/analiz ekranları çalışmaya devam eder.</div>`;
       console.warn("[Futbol Laboratuvarı] analysis insights load failed", error);
@@ -259,6 +267,8 @@
 
   state.destroy = () => {
     if (state.root && state.onClick) state.root.removeEventListener("click", state.onClick);
+    if (state.root && state.onKeydown) state.root.removeEventListener("keydown", state.onKeydown);
+    if (state.onProtectedData) window.removeEventListener("fl:pro-analysis-ready", state.onProtectedData);
     state.root?.remove();
     document.getElementById("flai-v1-style")?.remove();
   };

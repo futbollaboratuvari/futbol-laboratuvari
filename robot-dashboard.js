@@ -4,7 +4,7 @@ const robotPaths = {
   robotAnalysis: "./data/robot-analysis.json",
   robotBridge: "./data/robot-engine-bridge.json",
   rawPool: "./data/ham_mac_havuzu.json",
-  history: "./data/analiz_sonuclari.json",
+  history: "./data/results-summary.json",
   mainReport: "./outputs/bugunun_en_guclu_maclari.md",
   sourceReport: "./outputs/mackolik_veri_cekme_raporu.md",
   successReport: "./outputs/basari_yuzdesi_raporu.md"
@@ -148,7 +148,7 @@ function matchCard(item, index) {
       <div class="robot-row"><span>Lig</span><strong>${robotEscape(item.league || "-")}</strong></div>
       <div class="robot-row"><span>Saat</span><strong>${robotEscape(item.start_time || "-")}</strong></div>
       <div class="robot-row"><span>Öneri</span><strong>${robotEscape(item.recommended_market || "-")}</strong></div>
-      <div class="robot-row"><span>Güven skoru</span><strong>${robotEscape(item.confidence_score || item.analysis_score || "-")}</strong></div>
+      <div class="robot-row"><span>Model gücü</span><strong>${robotEscape(item.model_score || item.confidence_score || item.analysis_score || "-")}</strong></div>
       <div class="robot-row"><span>Risk seviyesi</span><strong>${robotEscape(item.risk_level || "-")}</strong></div>
       <div class="robot-row"><span>Değer etiketi</span><strong>${robotEscape(item.value_label || "-")}</strong></div>
       ${oddsBox(item)}
@@ -164,6 +164,7 @@ function couponLeg(leg) {
       <span>${robotEscape(leg.match_name || "Maç")}</span>
       <strong>${robotEscape(leg.recommended_market || "-")} / ${robotEscape(leg.estimated_odds || "-")}</strong>
     </div>
+    <div class="robot-row"><span>Model Gücü / Veri Kapsamı</span><strong>${robotEscape(leg.model_score ?? leg.analysis_score ?? "-")} / ${robotEscape(leg.data_completeness ?? "-")}</strong></div>
     ${oddsBox(leg)}
     <p class="robot-note">${robotEscape(leg.robot_reason || "Robot gerekçesi bekleniyor.")}</p>
   `;
@@ -172,12 +173,17 @@ function couponLeg(leg) {
 function couponCard(coupon) {
   if (!coupon || !coupon.is_available) return emptyCard(coupon?.short_description || emptyMessage);
   const legs = Array.isArray(coupon.selected_matches) ? coupon.selected_matches : [];
+  const rules = window.FLCouponEligibility;
+  if (!legs.length || !rules?.isCouponEligible || !legs.every((leg) => rules.isCouponEligible(leg))) {
+    return emptyCard("Kupon doğrulama kurallarını geçmediği için yayımlanmadı.");
+  }
   return `
     <article class="robot-live-card">
       <span class="robot-pill">${robotEscape(coupon.coupon_name || "Laboratuvar Kuponu")}</span>
       <h3>${robotEscape(coupon.coupon_name || "Kupon")}</h3>
       <div class="robot-row"><span>Toplam Oran</span><strong>${robotEscape(coupon.total_odds || "-")}</strong></div>
-      <div class="robot-row"><span>Güven Skoru</span><strong>${robotEscape(coupon.average_confidence_score || "-")}</strong></div>
+      <div class="robot-row"><span>Ortalama Model Gücü</span><strong>${robotEscape(coupon.average_confidence_score || "-")}</strong></div>
+      <div class="robot-row"><span>Birleşik Tahmini Olasılık</span><strong>${robotEscape(coupon.combined_estimated_probability ?? "-")}${coupon.combined_estimated_probability !== null && coupon.combined_estimated_probability !== undefined ? "%" : ""}</strong></div>
       <div class="robot-row"><span>Risk Seviyesi</span><strong><span class="robot-pill ${robotRiskClass(coupon.risk_level)}">${robotEscape(coupon.risk_level || "-")}</span></strong></div>
       <p class="robot-note">${robotEscape(coupon.short_description || "Robot açıklaması bekleniyor.")}</p>
       <p class="robot-note"><strong>Robotun Gerekçesi:</strong> ${robotEscape(coupon.robot_reason || "-")}</p>
@@ -269,7 +275,7 @@ async function robotBoot() {
   robotSet("[data-success-state]", state.history.completed_items?.length ? "sonuçlandı" : "bekliyor");
 
   fill("[data-admin-matches]", matches.length ? matches.map(matchCard).join("") : emptyCard(state.live.message || emptyMessage));
-  fill("[data-coupons-single]", [coupons.laboratory_today, coupons.balanced].map(couponCard).join(""));
+  fill("[data-coupons-single]", couponCard(coupons.balanced || coupons.laboratory_today));
   fill("[data-coupons-double]", couponCard(coupons.high_value));
   fill("[data-coupons-triple]", couponCard(coupons.risk_lab));
 

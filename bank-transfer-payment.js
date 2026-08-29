@@ -2,7 +2,7 @@
   const BASE = "https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-transfer";
   const RECEIPT_BASE = "https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-receipt";
   const API = {
-    create: `${BASE}?action=create-order`,
+    create: "/api/bank-order",
     status: `${BASE}?action=order-status`,
     receipt: `${RECEIPT_BASE}?action=upload`,
   };
@@ -16,6 +16,7 @@
   const formatIban = (value) => String(value || "").replace(/\s+/g, "").replace(/(.{4})/g, "$1 ").trim();
   const money = (kurus) => new Intl.NumberFormat("tr-TR", { style: "currency", currency: "TRY" }).format(Number(kurus || 0) / 100);
   const digits = (value) => String(value || "").replace(/\D+/g, "");
+  const LEGAL_VERSION = "2026-08-29-v1";
 
   async function request(url, options = {}) {
     const response = await fetch(url, {
@@ -65,7 +66,7 @@
     style.id = "fl-bank-transfer-style";
     style.textContent = `
       .fl-bank{max-width:860px;margin:16px auto 0;padding:18px;border:1px solid rgba(57,255,136,.28);border-radius:18px;background:#061126;color:#f8fbff;box-shadow:0 20px 55px rgba(0,0,0,.3)}
-      .fl-bank h2,.fl-bank h3{color:#ffe08a;margin:0 0 10px}.fl-bank p{color:#aebbd0;line-height:1.55}.fl-bank-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.fl-bank label{display:grid;gap:6px;color:#d7e4f5;font-size:12px;font-weight:800}.fl-bank input,.fl-bank select,.fl-bank textarea{min-height:43px;border-radius:11px;border:1px solid rgba(255,255,255,.14);background:#020817;color:#fff;padding:0 12px}.fl-bank textarea{min-height:76px;padding:10px 12px;resize:vertical}.fl-bank input[type=file]{padding:10px;height:auto}.fl-bank button{min-height:42px;border:0;border-radius:11px;padding:0 14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#06110d;font-weight:950;cursor:pointer}.fl-bank button:disabled{opacity:.55;cursor:not-allowed}.fl-bank button.secondary{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:#fff}.fl-bank-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}.fl-bank-output{margin-top:16px;padding:15px;border:1px solid rgba(57,255,136,.2);border-radius:15px;background:rgba(57,255,136,.06)}.fl-bank-row{display:grid;grid-template-columns:120px 1fr auto;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.07)}.fl-bank-row:last-child{border-bottom:0}.fl-bank-key{color:#9fb0c7;font-size:12px;font-weight:900}.fl-bank-value{font-weight:900;word-break:break-word}.fl-bank-note{margin-top:12px;padding:12px;border-radius:12px;background:rgba(255,224,138,.08);color:#ffe08a;font-weight:800;line-height:1.5}.fl-bank-status{margin-top:12px;color:#c8ffdd;font-weight:900}.fl-bank-error{margin-top:12px;color:#ffd0d5;font-weight:900}.fl-bank-code{font-size:18px;letter-spacing:.04em;color:#39ff88}.fl-bank-receipt,.fl-bank-invoice{margin-top:14px;padding:14px;border:1px solid rgba(255,224,138,.25);border-radius:14px;background:rgba(255,224,138,.05)}.fl-bank-receipt strong,.fl-bank-invoice strong{color:#ffe08a}.fl-bank-help{font-size:12px;color:#9fb0c7;line-height:1.5}.fl-bank-tax[hidden]{display:none!important}@media(max-width:680px){.fl-bank-grid,.fl-bank-row{grid-template-columns:1fr}.fl-bank-row button{width:max-content}}
+      .fl-bank h2,.fl-bank h3{color:#ffe08a;margin:0 0 10px}.fl-bank p{color:#aebbd0;line-height:1.55}.fl-bank-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.fl-bank label{display:grid;gap:6px;color:#d7e4f5;font-size:12px;font-weight:800}.fl-bank input,.fl-bank select,.fl-bank textarea{min-height:43px;border-radius:11px;border:1px solid rgba(255,255,255,.14);background:#020817;color:#fff;padding:0 12px}.fl-bank textarea{min-height:76px;padding:10px 12px;resize:vertical}.fl-bank input[type=file]{padding:10px;height:auto}.fl-bank button{min-height:42px;border:0;border-radius:11px;padding:0 14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#06110d;font-weight:950;cursor:pointer}.fl-bank button:disabled{opacity:.55;cursor:not-allowed}.fl-bank button.secondary{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:#fff}.fl-bank-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}.fl-bank-output{margin-top:16px;padding:15px;border:1px solid rgba(57,255,136,.2);border-radius:15px;background:rgba(57,255,136,.06)}.fl-bank-row{display:grid;grid-template-columns:120px 1fr auto;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.07)}.fl-bank-row:last-child{border-bottom:0}.fl-bank-key{color:#9fb0c7;font-size:12px;font-weight:900}.fl-bank-value{font-weight:900;word-break:break-word}.fl-bank-note{margin-top:12px;padding:12px;border-radius:12px;background:rgba(255,224,138,.08);color:#ffe08a;font-weight:800;line-height:1.5}.fl-bank-status{margin-top:12px;color:#c8ffdd;font-weight:900}.fl-bank-error{margin-top:12px;color:#ffd0d5;font-weight:900}.fl-bank-code{font-size:18px;letter-spacing:.04em;color:#39ff88}.fl-bank-receipt,.fl-bank-invoice,.fl-bank-legal{margin-top:14px;padding:14px;border:1px solid rgba(255,224,138,.25);border-radius:14px;background:rgba(255,224,138,.05)}.fl-bank-receipt strong,.fl-bank-invoice strong{color:#ffe08a}.fl-bank-help{font-size:12px;color:#9fb0c7;line-height:1.5}.fl-bank-tax[hidden]{display:none!important}.fl-bank-legal label{display:grid;grid-template-columns:20px 1fr;align-items:start;margin:10px 0;font-size:12px;line-height:1.5}.fl-bank-legal input{min-height:0;width:17px;height:17px;margin-top:2px}.fl-bank-legal a{color:#c8ffdd}.fl-bank-sale-state{margin-top:12px;padding:12px;border-radius:12px;background:rgba(255,82,102,.09);color:#ffd0d5;font-weight:850}@media(max-width:680px){.fl-bank-grid,.fl-bank-row{grid-template-columns:1fr}.fl-bank-row button{width:max-content}}
     `;
     document.head.appendChild(style);
   }
@@ -98,7 +99,14 @@
               <label class="fl-bank-tax" data-tax-field hidden>Vergi dairesi<input name="tax_office"></label>
             </div>
           </div>
-          <div class="fl-bank-actions"><button type="submit" data-create>Ödeme Talebi Oluştur</button></div>
+          <div class="fl-bank-legal">
+            <strong>Satın alma öncesi zorunlu onaylar</strong>
+            <label><input type="checkbox" name="accept_preinformation" required><span><a href="./on-bilgilendirme-formu.html" target="_blank" rel="noopener">Ön Bilgilendirme Formu</a>'nu okudum ve bilgilendirildim.</span></label>
+            <label><input type="checkbox" name="accept_distance_contract" required><span><a href="./mesafeli-satis-sozlesmesi.html" target="_blank" rel="noopener">Mesafeli Satış Sözleşmesi</a>'ni okudum ve kabul ediyorum.</span></label>
+            <label><input type="checkbox" name="accept_privacy_notice" required><span><a href="./kvkk-aydinlatma-metni.html" target="_blank" rel="noopener">KVKK Aydınlatma Metni</a>'ni okudum.</span></label>
+            <label><input type="checkbox" name="accept_immediate_performance" required><span>Dijital hizmetin üyelik aktivasyonuyla hemen başlamasını talep ediyorum; hizmetin tamamen ifasıyla cayma hakkımı kaybedebileceğim konusunda bilgilendirildim.</span></label>
+          </div>
+          <div class="fl-bank-actions"><button type="submit" data-create>Ödeme Yükümlülüğü Doğuran Talebi Oluştur</button></div>
         </form>
         <div data-fl-bank-message></div>
       </section>`;
@@ -112,6 +120,16 @@
     const invoiceName = root.querySelector('[name="invoice_name"]');
     const customerName = root.querySelector('[name="name"]');
     let activeOrder = null;
+
+    fetch(API.create, { cache: "no-store", credentials: "same-origin" })
+      .then((response) => response.json().then((data) => ({ response, data })))
+      .then(({ response, data }) => {
+        if (!response.ok || !data.salesEnabled) throw new Error("seller_profile_incomplete");
+      })
+      .catch(() => {
+        createButton.disabled = true;
+        message.innerHTML = `<div class="fl-bank-sale-state">Satıcı unvanı, açık adres, vergi ve iletişim bilgileri tamamlanana kadar ücretli ödeme talebi alımı kapalıdır. Ücretsiz deneme kullanılabilir.</div>`;
+      });
 
     const syncInvoiceFields = () => {
       if (invoiceName && !invoiceName.value.trim() && customerName?.value.trim()) invoiceName.value = customerName.value.trim();
@@ -154,6 +172,14 @@
       if (createButton.disabled) return;
       syncInvoiceFields();
       const fields = Object.fromEntries(new FormData(form).entries());
+      const legalFields = ["accept_preinformation", "accept_distance_contract", "accept_privacy_notice", "accept_immediate_performance"];
+      if (legalFields.some((name) => !form.elements[name]?.checked)) {
+        message.innerHTML = `<div class="fl-bank-error">Ödeme talebi için ön bilgilendirme, sözleşme, KVKK ve dijital hizmet başlangıcı onaylarının tamamı zorunludur.</div>`;
+        return;
+      }
+      legalFields.forEach((name) => { fields[name] = true; });
+      fields.legal_version = LEGAL_VERSION;
+      fields.legal_accepted_at = new Date().toISOString();
       if (!String(fields.invoice_name || "").trim() || !String(fields.invoice_address || "").trim()) {
         message.innerHTML = `<div class="fl-bank-error">Fatura adı/unvanı ve fatura adresi zorunludur.</div>`;
         return;

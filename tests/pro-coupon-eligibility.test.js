@@ -55,7 +55,7 @@ const ui = fs.readFileSync(path.join(root, "analysis-insights-v1.js"), "utf8");
 assert.match(ui, /FLCouponEligibility/);
 assert.match(ui, /pro-coupon-eligibility\.js/);
 assert.match(ui, /İzleme görüşü · Kupona uygun değil/);
-assert.match(ui, /Bileşik güven skoru sonuç olasılığı değildir/);
+assert.match(ui, /Bileşik değerlendirme puanı sonuç olasılığı değildir/);
 
 process.stdout.write("pro-coupon-eligibility.test.js OK\n");
 

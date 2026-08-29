@@ -17,6 +17,7 @@
   const MAX_COUPON = 10;
 
   const state = {
+    bulletin: [],
     matches: [],
     mode: "single",
     type: "robot",
@@ -28,6 +29,7 @@
     resultReady: false,
     loading: true,
     proMeta: null,
+    proLoading: false,
   };
 
   const esc = (value) => String(value ?? "")
@@ -583,10 +585,16 @@
       if (status) status.dataset.kind = "error";
       updateAccessView();
     });
-    document.addEventListener("fl:trial-access-started", () => {
+    document.addEventListener("fl:trial-access-started", async () => {
       updateAccessView();
-      closeAccess();
-      setMessage("Deneme erişimi aktif. Seçimini analiz edebilirsin.", "success");
+      const code = String(localStorage.getItem(CODE_KEY) || "").trim();
+      try {
+        await refreshProtectedPro(code);
+        closeAccess();
+        setMessage("Deneme erişimi ve korumalı PRO verisi aktif. Seçimini analiz edebilirsin.", "success");
+      } catch {
+        openAccess("Deneme aktif ancak korumalı analiz verisi açılamadı. Lütfen yeniden dene.");
+      }
     });
     window.addEventListener("storage", updateAccessView);
   };
@@ -630,20 +638,64 @@
     return [];
   };
 
-  const fetchProIndex = async () => {
+  const clientId = () => {
+    const key = "fl_premium_client_id";
+    let id = localStorage.getItem(key);
+    if (!id) {
+      id = crypto?.randomUUID?.() || `client-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+      localStorage.setItem(key, id);
+    }
+    return id;
+  };
+
+  const fetchProIndex = async (code) => {
+    const normalized = String(code || "").trim().replace(/\s+/g, "").toLocaleUpperCase("tr-TR");
+    if (normalized.length < 4) throw new Error("Üyelik kodu gerekli.");
+    const response = await fetch("/api/pro-analysis", {
+      method: "POST",
+      credentials: "same-origin",
+      cache: "no-store",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ code: normalized, clientId: clientId() }),
+    });
+    const payload = await response.json().catch(() => ({}));
+    if (!response.ok || payload.ok === false) {
+      const messages = {
+        membership_invalid_or_expired: "Üyelik kodu geçersiz veya süresi dolmuş.",
+        too_many_attempts: "Çok fazla doğrulama denemesi yapıldı. Lütfen daha sonra tekrar dene.",
+        protected_analysis_unavailable: "Korumalı analiz verisi şu anda alınamıyor.",
+      };
+      throw new Error(messages[payload.error] || "Korumalı analiz verisi açılamadı.");
+    }
+    const data = payload.data;
+    if (!data || typeof data !== "object" || !Array.isArray(data.matches)) {
+      throw new Error("Korumalı analiz verisi geçersiz.");
+    }
+    return data;
+  };
+
+  const applyProtectedPro = (proIndex) => {
+    state.proMeta = proIndex;
+    state.matches = CORE.filterUpcoming(CORE.mergeProAnalysis(state.bulletin, proIndex, new Date()), new Date());
+    window.__flProtectedProIndex = proIndex;
+    window.dispatchEvent(new CustomEvent("fl:pro-analysis-ready", { detail: { data: proIndex } }));
+    updateProStatus();
+    renderDates();
+    renderMatches();
+    return proIndex;
+  };
+
+  const refreshProtectedPro = async (code = localStorage.getItem(CODE_KEY)) => {
+    if (state.proLoading) throw new Error("Korumalı analiz verisi hazırlanıyor.");
+    state.proLoading = true;
     try {
-      const source = "./data/pro-analysis-index.json";
-      const data = typeof window.__flReadJsonShared === "function"
-        ? await window.__flReadJsonShared(source)
-        : await fetch(source, { cache: "no-cache" }).then((response) => {
-          if (!response.ok) throw new Error(String(response.status));
-          return response.json();
-        });
-      return data && typeof data === "object" && Array.isArray(data.matches) ? data : null;
-    } catch {
-      return null;
+      return applyProtectedPro(await fetchProIndex(code));
+    } finally {
+      state.proLoading = false;
     }
   };
+
+  window.FLProAnalysisAccess = Object.freeze({ refresh: refreshProtectedPro });
 
   const updateProStatus = () => {
     const node = query("[data-pa3-pro-status]");
@@ -668,9 +720,9 @@
     updateAccessView();
     renderDates();
     renderMatches();
-    const [bulletin, proIndex] = await Promise.all([fetchBulletin(), fetchProIndex()]);
-    state.proMeta = proIndex;
-    state.matches = CORE.filterUpcoming(CORE.mergeProAnalysis(bulletin, proIndex, new Date()), new Date());
+    const bulletin = await fetchBulletin();
+    state.bulletin = bulletin;
+    state.matches = CORE.filterUpcoming(CORE.mergeProAnalysis(bulletin, null, new Date()), new Date());
     state.loading = false;
     updateProStatus();
     renderDates();
@@ -680,6 +732,17 @@
     setMessage(state.matches.length
       ? "Başlamamış maçlardan birini seçerek ilerle."
       : "Güncel yaklaşan maç bulunamadı; bülten yenilendiğinde liste otomatik açılır.", state.matches.length ? "info" : "warning");
+
+    const code = String(localStorage.getItem(CODE_KEY) || "").trim();
+    if (membershipState().active && code) {
+      try {
+        await refreshProtectedPro(code);
+        setMessage("Üyelik doğrulandı; korumalı PRO verisi hazır.", "success");
+      } catch {
+        clearExpiredAccess();
+        updateAccessView();
+      }
+    }
   };
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot, { once: true });

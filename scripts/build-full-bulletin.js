@@ -1,6 +1,12 @@
 const fs = require("fs");
 const https = require("https");
 const path = require("path");
+const {
+  classifyVerifiedStatus,
+  scheduledStartHasPassed,
+  verifiedMinute,
+  hasVerifiedScore,
+} = require("./bulletin-active-filter");
 
 const rootDir = path.join(__dirname, "..");
 const dataDir = path.join(rootDir, "data");
@@ -11,7 +17,6 @@ const sporTotoPath = path.join(dataDir, "spor_toto_bulteni.json");
 const twoDayPath = path.join(dataDir, "two-day-bulletin.json");
 const MACKOLIK_IDDAA_URL = "https://www.mackolik.com/iddaa";
 const MACKOLIK_SOURCE = "Maçkolik İddaa Futbol";
-const LIVE_WINDOW_MINUTES = 130;
 const EXTRA_MARKET_KEYS = [
   "doubleChance1X", "doubleChance12", "doubleChanceX2", "dc1x", "dc12", "dcx2",
   "firstHalfDoubleChance1X", "firstHalfDoubleChance12", "firstHalfDoubleChanceX2",
@@ -53,12 +58,6 @@ const turkeyParts = (date = new Date()) =>
 const todayTR = () => {
   const parts = turkeyParts();
   return `${parts.year}-${parts.month}-${parts.day}`;
-};
-
-const nowMinutesTR = () => {
-  const parts = turkeyParts();
-  const hour = Number(parts.hour === "24" ? "0" : parts.hour || 0);
-  return hour * 60 + Number(parts.minute || 0);
 };
 
 const addDays = (dateKey, days) => {
@@ -204,31 +203,6 @@ const fixtureKey = (item) => [item.date, item.time, item.league, item.home, item
   .map((value) => String(value || "").trim().toLocaleLowerCase("tr-TR"))
   .join("|");
 
-const statusFromTime = (date, time, explicitStatus) => {
-  const status = String(explicitStatus || "").toLowerCase();
-  if (["live", "finished", "cancelled", "postponed"].includes(status)) return status;
-  const today = todayTR();
-  const minute = parseClockMinutes(time);
-  if (!date || minute === null) return "scheduled";
-  if (date < today) return "finished";
-  if (date > today) return "scheduled";
-  const elapsed = nowMinutesTR() - minute;
-  if (elapsed < 0) return "scheduled";
-  if (elapsed <= LIVE_WINDOW_MINUTES) return "live";
-  return "finished";
-};
-
-const minuteFromStatus = (date, time, explicitMinute, status) => {
-  const number = Number(explicitMinute);
-  if (Number.isFinite(number) && number > 0) return Math.min(120, Math.round(number));
-  if (status !== "live" || date !== todayTR()) return null;
-  const start = parseClockMinutes(time);
-  if (start === null) return null;
-  const elapsed = nowMinutesTR() - start;
-  if (elapsed <= 0) return null;
-  return Math.max(1, Math.min(90, elapsed > 60 ? elapsed - 15 : elapsed));
-};
-
 const normalizeFixture = (item, sourceName = MACKOLIK_SOURCE) => {
   const matchName = item?.match || item?.match_name || "";
   const split = String(matchName).split(/\s+-\s+|\s+VS\s+/i);
@@ -237,8 +211,16 @@ const normalizeFixture = (item, sourceName = MACKOLIK_SOURCE) => {
   const home = cleanTeam(item?.home || item?.home_team_name || item?.ev_sahibi || split[0]);
   const away = cleanTeam(item?.away || item?.away_team_name || item?.deplasman || split[1]);
   if (!date || !time || !home || !away) return null;
-  const status = statusFromTime(date, time, item?.status || item?.liveStatus);
-  const minute = minuteFromStatus(date, time, item?.minute || item?.elapsed || item?.matchMinute, status);
+  const evidenceStatus = classifyVerifiedStatus(item || {});
+  const status = ["scheduled", "live", "finished", "cancelled", "postponed"].includes(evidenceStatus)
+    ? evidenceStatus
+    : "unverified";
+  const minute = verifiedMinute(item || {}, status);
+  const homeScore = item?.homeScore ?? item?.home_score ?? item?.homeGoals ?? item?.home_goals ?? null;
+  const awayScore = item?.awayScore ?? item?.away_score ?? item?.awayGoals ?? item?.away_goals ?? null;
+  const score = homeScore !== null && homeScore !== "" && awayScore !== null && awayScore !== ""
+    ? `${homeScore}-${awayScore}`
+    : String(item?.score || item?.skor || item?.result_score || "").trim();
   const extraOdds = collectExtraOdds(item);
   const odds = {
     ...extraOdds,
@@ -275,8 +257,12 @@ const normalizeFixture = (item, sourceName = MACKOLIK_SOURCE) => {
     mbs: item?.mbs || item?.MBS || null,
     status,
     liveStatus: status,
+    status_verified: ["live", "finished"].includes(status) ? hasVerifiedScore({ ...item, homeScore, awayScore, score }) || item?.status_verified === true : false,
+    status_source: item?.status_source || (["live", "finished"].includes(status) ? item?.source || sourceName : "schedule_only"),
     minute,
-    score: item?.score || "",
+    homeScore,
+    awayScore,
+    score,
     source: item?.source || sourceName,
     odds: cleanOdds,
     available_odds: cleanOdds,
@@ -356,7 +342,10 @@ const uniqueAndSort = (matches) => {
   const map = new Map();
   for (const match of matches) {
     if (!inBulletinWindow(match.date, match.time, window)) continue;
-    map.set(fixtureKey(match), match);
+    const key = fixtureKey(match);
+    const previous = map.get(key);
+    const rank = (item) => ({ live: 4, finished: 4, cancelled: 3, postponed: 3, scheduled: 2, unverified: 1, unknown: 0 }[classifyVerifiedStatus(item)] || 0);
+    map.set(key, previous && rank(previous) > rank(match) ? previous : { ...(previous || {}), ...match });
   }
   return [...map.values()].sort((a, b) => `${a.date} ${a.time} ${a.league} ${a.home}`.localeCompare(`${b.date} ${b.time} ${b.league} ${b.home}`, "tr"));
 };
@@ -377,7 +366,8 @@ const buildBulletin = async () => {
   const allMatches = uniqueAndSort([...local, ...external]);
   const liveMatches = allMatches.filter((item) => item.status === "live" || item.liveStatus === "live");
   const finishedMatches = allMatches.filter((item) => item.status === "finished");
-  const matches = allMatches.filter((item) => item.status === "scheduled");
+  const expiredScheduled = allMatches.filter((item) => item.status === "scheduled" && scheduledStartHasPassed(item));
+  const matches = allMatches.filter((item) => item.status === "scheduled" && !scheduledStartHasPassed(item));
   const mainDay = todayTR();
   const nextDay = addDays(mainDay, 1);
   const source = external.length || hasMackolikSource(allMatches) ? MACKOLIK_SOURCE : "Yerel veri kaynaklari";
@@ -395,6 +385,8 @@ const buildBulletin = async () => {
     live_count: liveMatches.length,
     scheduled_count: matches.length,
     finished_count: finishedMatches.length,
+    expired_scheduled_count: expiredScheduled.length,
+    status_policy: "provider_verified_only",
     wide_market_odds_count: matches.reduce((sum, item) => sum + Object.keys(item.available_odds || {}).length, 0),
     matches,
     live_matches: liveMatches,

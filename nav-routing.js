@@ -84,7 +84,13 @@
       window.dispatchEvent(new CustomEvent("fl:open-panel", { detail: { id: targetHash.slice(1), scroll: true } }));
     }
     const target = document.querySelector(targetHash);
-    if (!target) return false;
+    if (!target) {
+      if (targetHash === "#membership-payment-panel") {
+        loadMembership();
+        document.addEventListener("fl:membership-ready", () => goToSection(targetHash, updateHistory), { once: true });
+      }
+      return false;
+    }
     const top = target.getBoundingClientRect().top + window.scrollY - headerOffset();
     window.scrollTo({ top: Math.max(top, 0), behavior: "smooth" });
     if (updateHistory) history.pushState(null, "", targetHash);
@@ -109,8 +115,8 @@
     ensureScript("hero-summary-sync.js", "hero-summary-sync-script");
     ensureScript("hero-vitrin.js", "hero-vitrin-script");
     ensureScript("site-human-language.js", "site-human-language-script");
+    loadMembership();
     queueIdleEnhancements();
-    if (window.location.hash === "#membership-payment-panel") loadMembership();
 
     const button = document.querySelector(".menu-toggle");
     const nav = document.querySelector(".nav-links");

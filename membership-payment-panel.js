@@ -93,6 +93,7 @@
         fallbackClick(shell, plan);
       });
     });
+    document.dispatchEvent(new CustomEvent("fl:membership-ready", { detail: { id: PANEL_ID } }));
   };
 
   readJson(PLANS_URL, DEFAULT_PLANS).then((data) => render(Array.isArray(data) ? data : data?.plans || DEFAULT_PLANS));

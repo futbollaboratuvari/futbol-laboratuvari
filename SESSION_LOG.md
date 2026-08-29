@@ -235,3 +235,18 @@ Summary:
 - Takım istihbaratı, PRO, Özel Analiz, performans, sonuç, Spor Toto, JavaScript sözdizimi ve JSON çatışma kontrolleri başarılıdır.
 - `matches` / `live_matches` ayrımı, Kuponum, üyelik/ödeme akışı, CNAME ve DNS değiştirilmedi.
 
+2026-08-29
+
+Canlı denetim bulgularının P0 → P2 uygulaması tamamlandı.
+
+Summary:
+- Saatten türetilen canlı/bitmiş statü kaldırıldı; yalnız sağlayıcı statüsü veya doğrulanmış skor kanıtı kabul edildi. Analiz ve kupon kayıtlarının sonuç listesine karışması engellendi.
+- Ortak kupon uygunluk kuralı üretici ve arayüze bağlandı; tekrarlar ve çelişkili `include_in_coupon` ayakları kaldırıldı.
+- PRO indeks statik yayından ve Git takibinden çıkarıldı; üyeliği doğrulayan `/api/pro-analysis` sunucu ucu ve hak tüketmeden önce veri açma sırası eklendi.
+- Kamu canlı JSON'u öneri/model alanlarından arındırıldı; robot, tam analiz, üyelik kodu ve kullanım kayıtları Vercel statik çıktısından çıkarıldı.
+- Üyelik yükleme yarışı giderildi. Ödeme için eksiksiz satıcı profili ve dört ayrı güncel yasal onay zorunlu kılındı; profil eksikse sipariş sunucu tarafından 503 ile güvenli biçimde durdurulur.
+- Ön bilgilendirme, mesafeli satış, iptal/iade ve KVKK sayfaları ile dinamik satıcı profili eklendi. AdSense açık çerez onayından önce yüklenmez; kabul/ret/tercih yönetimi eklendi.
+- Bülten 30 kayıtlık artımlı gösterime geçirildi; sahte oran skoru ve “oynanabilir” dili kaldırıldı. Model gücü, olasılık ve veri kapsamı ayrıştırıldı.
+- CSP, HSTS ve diğer güvenlik başlıkları; favicon, web manifest, sitemap ve yanlış host yönlendirme kuralı eklendi.
+- Birim/regresyon testleri, JavaScript sözdizimi, JSON yapılandırması ve güvenli Vercel statik üretim çıktısı başarılıdır. Satıcı ortam değişkenleri dış yapılandırmada tamamlanmadan ücretli satış açılmaz.
+

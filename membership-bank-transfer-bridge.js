@@ -101,7 +101,7 @@
         hidden.value = selected.id;
         form.appendChild(hidden);
       }
-      host.insertAdjacentHTML("afterbegin", '<div class="membership-bank-safety"><strong>Güvenli ödeme:</strong> Önce “Ödeme Talebi Oluştur” butonuna basın. IBAN, tutar ve FL-... açıklama kodu başarılı siparişten sonra gösterilir.</div>');
+      host.insertAdjacentHTML("afterbegin", '<div class="membership-bank-safety"><strong>Güvenli ödeme:</strong> Zorunlu bilgilendirmeleri okuyup onayladıktan sonra ödeme yükümlülüğü doğuran talebi oluşturun. IBAN, tutar ve FL-... açıklama kodu yalnız başarılı siparişten sonra gösterilir.</div>');
     } catch (error) {
       output.innerHTML = `<strong>Ödeme sistemi şu anda açılamadı.</strong><br>${String(error?.message || "Bağlantı hatası")}<br><strong>Sipariş kodu oluşmadan para göndermeyin.</strong>`;
     }

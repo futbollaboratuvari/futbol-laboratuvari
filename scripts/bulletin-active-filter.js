@@ -1,5 +1,3 @@
-const LIVE_WINDOW_MINUTES = 130;
-
 const normalizeStatusToken = (value) => String(value || "")
   .trim()
   .toLocaleLowerCase("tr-TR")
@@ -61,23 +59,48 @@ const clockMinutes = (time) => {
 const normalizeBulletinStatus = (match = {}) =>
   normalizeStatusToken(match.status || match.liveStatus || match.result_status || match.fixture_status || "scheduled");
 
-const classifyBulletinMatch = (match = {}, now = turkeyNow()) => {
+const hasVerifiedScore = (match = {}) => {
+  const home = match.homeScore ?? match.home_score ?? match.homeGoals ?? match.home_goals;
+  const away = match.awayScore ?? match.away_score ?? match.awayGoals ?? match.away_goals;
+  if (home !== undefined && home !== null && home !== "" && away !== undefined && away !== null && away !== "") return true;
+  return /^\s*\d+\s*[-:]\s*\d+\s*$/.test(String(match.score || match.skor || match.result_score || ""));
+};
+
+const hasVerifiedStatusEvidence = (match = {}) =>
+  match.status_verified === true
+  || match.provider_status_verified === true
+  || match.live_status_verified === true
+  || hasVerifiedScore(match);
+
+const classifyVerifiedStatus = (match = {}) => {
   const status = normalizeBulletinStatus(match);
   if (CANCELLED_STATUSES.has(status)) return "cancelled";
   if (POSTPONED_STATUSES.has(status)) return "postponed";
-  if (FINISHED_STATUSES.has(status)) return "finished";
-  if (LIVE_STATUSES.has(status)) return "live";
+  if (FINISHED_STATUSES.has(status)) return hasVerifiedStatusEvidence(match) ? "finished" : "unverified";
+  if (LIVE_STATUSES.has(status)) return hasVerifiedStatusEvidence(match) ? "live" : "unverified";
+  if (SCHEDULED_STATUSES.has(status)) return "scheduled";
+  return "unknown";
+};
 
+const scheduledStartHasPassed = (match = {}, now = turkeyNow()) => {
   const date = toIsoDate(match.date || match.tarih || match.start_date || match.utc_date);
   const minute = clockMinutes(match.time || match.saat || match.start_time);
-  if (!date || minute === null) return SCHEDULED_STATUSES.has(status) ? "scheduled" : "finished";
-  if (date < now.date) return "finished";
-  if (date > now.date) return "scheduled";
+  if (!date || minute === null) return false;
+  if (date < now.date) return true;
+  if (date > now.date) return false;
+  return minute <= now.minute;
+};
 
-  const elapsed = now.minute - minute;
-  if (elapsed < 0) return "scheduled";
-  if (elapsed <= LIVE_WINDOW_MINUTES) return "live";
-  return "finished";
+const verifiedMinute = (match = {}, status = classifyVerifiedStatus(match)) => {
+  if (status !== "live") return null;
+  const minute = Number(match.minute ?? match.elapsed ?? match.matchMinute);
+  return Number.isFinite(minute) && minute > 0 ? Math.min(120, Math.round(minute)) : null;
+};
+
+const classifyBulletinMatch = (match = {}, now = turkeyNow()) => {
+  const status = classifyVerifiedStatus(match);
+  if (status === "scheduled" && scheduledStartHasPassed(match, now)) return "expired_scheduled";
+  return status;
 };
 
 const isActiveBulletinMatch = (match = {}) =>
@@ -91,9 +114,13 @@ const countInactiveBulletinMatches = (matches) =>
     count + (isActiveBulletinMatch(match) ? 0 : 1), 0);
 
 module.exports = {
-  LIVE_WINDOW_MINUTES,
   INACTIVE_BULLETIN_STATUSES,
   normalizeBulletinStatus,
+  hasVerifiedScore,
+  hasVerifiedStatusEvidence,
+  classifyVerifiedStatus,
+  scheduledStartHasPassed,
+  verifiedMinute,
   classifyBulletinMatch,
   isActiveBulletinMatch,
   filterActiveBulletinMatches,

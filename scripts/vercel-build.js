@@ -21,6 +21,9 @@ const excludedRoots = new Set([
   "node_modules",
   "public",
   "scripts",
+  "server-lib",
+  "supabase",
+  "tests",
   "package.json",
   "package-lock.json",
   "vercel.json"
@@ -36,9 +39,17 @@ const excludedRelativePaths = new Set([
   "assets/gallery-yorum-kosesi.png",
   "data/archive",
   "data/detail-raw-signals.json",
+  "data/analiz_sonuclari.json",
+  "data/ham_mac_havuzu.json",
+  "data/home-away-performance.json",
+  "data/learning-memory.json",
   "data/longterm-match-archive.json",
+  "data/membership-codes.json",
   "data/player-intelligence-cache.json",
+  "data/pro-analysis-index.json",
+  "data/robot-analysis.json",
   "data/robot_match_archive.json",
+  "data/usage-log.json",
   "football-lab-hero.png"
 ]);
 
@@ -127,6 +138,14 @@ fs.mkdirSync(outDir, { recursive: true });
 
 for (const entry of fs.readdirSync(root)) {
   copyRecursive(path.join(root, entry), path.join(outDir, entry), entry);
+}
+
+try {
+  const sourceLive = path.join(root, "data", "live-matches.json");
+  const publicLive = path.join(outDir, "data", "live-matches.json");
+  if (fs.existsSync(sourceLive)) require("./sanitize-public-live").sanitizeFile(sourceLive, publicLive);
+} catch (error) {
+  throw new Error(`Canlı veri kamu görünümü güvenli hazırlanamadı: ${error.message}`);
 }
 
 console.log(`Vercel public output hazırlandı. Dosya: ${copiedFiles}. Boyut: ${(copiedBytes / 1024 / 1024).toFixed(2)} MB.`);

@@ -7,6 +7,8 @@
     <meta name="description" content="Futbol Laboratuvarı; güncel maçları form, oyun dengesi, şut, pas, korner, kart riski ve maç hikâyesiyle gerekçeli olarak değerlendirir." />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="theme-color" content="#071522" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="canonical" href="https://futbollaboratuuvari.org/" />
     <meta property="og:locale" content="tr_TR" />
     <meta property="og:type" content="website" />
@@ -53,8 +55,7 @@
           ]
     }
     </script>
-    <meta name="deploy-version" content="20260824-results-resilience-v2" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4488561171980540" crossorigin="anonymous"></script>
+    <meta name="deploy-version" content="20260829-security-integrity-v1" />
     <style>
       .reveal { opacity: 1 !important; transform: none !important; visibility: visible !important; }
       .hero-media, .dashboard-hero::after, .dashboard-hero::before, .site-header::before, .site-header::after { pointer-events: none !important; }
@@ -100,7 +101,7 @@
           <div class="fl-hero-credibility"><span><strong>1</strong> Takımların son dönem formu ve oyun tarzı birlikte okunur.</span><span><strong>2</strong> Gol eğilimi, ilk yarı, ikinci yarı ve maç senaryosu ayrı ayrı değerlendirilir.</span><span><strong>3</strong> Sonuçlar takip edilerek değerlendirme kalitesi düzenli olarak ölçülür.</span></div>
           <div class="hero-actions" aria-label="Hızlı erişim bağlantıları"><a class="hero-button" href="#robot-analizleri">Kupon Merkezini Aç</a><a class="hero-button secondary" href="#daily-matches-widget">Bugünün Maçlarını Gör</a><a class="hero-button secondary" href="#premium-analysis-panel">Özel Analiz Al</a></div>
         </div>
-        <aside class="platform-summary reveal visible" aria-label="Günün maç panosu"><div><span>Bugünün odağı</span><strong id="today-count">Hazırlanıyor</strong><small>Güncel liste oluşunca maç sayısı görünür</small></div><div><span>Güven notu</span><strong id="avg-confidence">Veri bekleniyor</strong><small>Net veri gelmeden sayı gösterilmez</small></div><div><span>Öne çıkan seçim</span><strong id="top-market">Günün seçimi hazırlanıyor</strong><small>En güçlü seçenek güncel listeyle belirlenir</small></div></aside>
+        <aside class="platform-summary reveal visible" aria-label="Günün maç panosu"><div><span>Bugünün odağı</span><strong id="today-count">Hazırlanıyor</strong><small>Güncel liste oluşunca maç sayısı görünür</small></div><div><span>Model gücü</span><strong id="avg-confidence">Veri bekleniyor</strong><small>Bu puan sonuç olasılığı değildir</small></div><div><span>Öne çıkan seçim</span><strong id="top-market">Günün seçimi hazırlanıyor</strong><small>En güçlü seçenek güncel listeyle belirlenir</small></div></aside>
       </section>
 
       <div id="yaklasan-maclar" class="daily-matches-anchor" aria-hidden="true"></div>
@@ -196,11 +197,11 @@
       <section class="section strongest-pick" id="guclu-tahmin"><div class="section-heading reveal visible"><p class="eyebrow">Günün Seçimi</p><h2>Bugünün en güçlü adayı</h2></div><div id="strongest-pick-card" class="strongest-card reveal visible"><div class="fixtures-empty">Günün seçimi güncel maç listesi oluştuktan sonra gösterilecek.</div></div></section>
       <section class="section" id="son-analizler"><div class="section-heading reveal visible"><p class="eyebrow">Maç Yorumları</p><h2>Maç bazlı detaylı değerlendirmeler</h2><p>Her maç; form, kadro, oran hareketi, topa sahip olma, pas, şut, korner, kart dengesi ve maç hikayesiyle birlikte okunur.</p></div><div id="analysis-list" class="analysis-list"></div></section>
       <section class="section spor-toto-section" id="spor-toto-performansi"><div class="section-heading reveal visible"><p class="eyebrow">Spor Toto</p><h2>1-X-2 seçimleri ve kupon ayrımı</h2><p>Banko, beraberlik adayı ve sürpriz adayları maç bazlı oran, risk ve oyun dengesiyle değerlendirilir.</p></div><div id="spor-toto-summary" class="spor-summary reveal visible"></div><div id="spor-toto-grid" class="spor-grid"></div></section>
-      <section class="section archive-section" id="sonuc-arsivi"><div class="section-heading reveal visible"><p class="eyebrow">Sonuçlar</p><h2>Sonuçlanan tahminlerin kaydı</h2><p>Yalnızca final skor kaynağıyla eşleşen ve doğrulanan tahminler listelenir.</p><p id="results-data-status" role="status" aria-live="polite" data-state="loading">Doğrulanmış sonuçlar yükleniyor.</p></div><div class="table-wrap reveal visible"><table><thead><tr><th>Tarih</th><th>Maç</th><th>Tahmin</th><th>Oran</th><th>Skor</th><th>Güven</th><th>Sonuç</th></tr></thead><tbody id="result-archive"><tr><td class="result-empty-cell" colspan="7"><div class="result-empty-state"><strong>Sonuçlar yükleniyor</strong><span>Son doğrulanmış skorlar getiriliyor.</span></div></td></tr></tbody></table></div></section>
+      <section class="section archive-section" id="sonuc-arsivi"><div class="section-heading reveal visible"><p class="eyebrow">Sonuçlar</p><h2>Sonuçlanan tahminlerin kaydı</h2><p>Yalnızca final skor kaynağıyla eşleşen ve doğrulanan tahminler listelenir.</p><p id="results-data-status" role="status" aria-live="polite" data-state="loading">Doğrulanmış sonuçlar yükleniyor.</p></div><div class="table-wrap reveal visible"><table><thead><tr><th>Tarih</th><th>Maç</th><th>Tahmin</th><th>Oran</th><th>Skor</th><th>Model gücü</th><th>Sonuç</th></tr></thead><tbody id="result-archive"><tr><td class="result-empty-cell" colspan="7"><div class="result-empty-state"><strong>Sonuçlar yükleniyor</strong><span>Son doğrulanmış skorlar getiriliyor.</span></div></td></tr></tbody></table></div></section>
       <section class="section tracking-section" id="basari-takip"><div class="section-heading reveal visible"><p class="eyebrow">Performans</p><h2>Doğrulanmış tahmin performansı</h2><p>Bekleyen maçlar yüzdeye dahil edilmez; başarı oranı sadece sonuçlanan tahminlerden hesaplanır.</p></div><div id="success-grid" class="success-grid"><article class="success-card reveal visible" data-state="loading"><strong data-unit="">—</strong><span>Performans yükleniyor</span><small>Doğrulanmış ölçümler getiriliyor</small></article></div></section>
-      <section class="section database-section" id="analiz-veritabani"><div class="section-heading reveal visible"><p class="eyebrow">Maç Kayıtları</p><h2>Geçmiş maçlar ve tahmin notları</h2><p>Geçmiş değerlendirmeler, tahminler ve sonuçlar düzenli bir kayıt alanında tutulur.</p></div><div class="table-wrap reveal visible"><table><thead><tr><th>Tarih</th><th>Lig</th><th>Maç</th><th>Yorum Türü</th><th>Tahmin</th><th>Oran</th><th>Güven</th><th>Skor Tahmini</th><th>Gerçek Skor</th><th>Sonuç</th></tr></thead><tbody id="analysis-database-body"></tbody></table></div></section>
+      <section class="section database-section" id="analiz-veritabani"><div class="section-heading reveal visible"><p class="eyebrow">Maç Kayıtları</p><h2>Geçmiş maçlar ve tahmin notları</h2><p>Geçmiş değerlendirmeler, tahminler ve sonuçlar düzenli bir kayıt alanında tutulur.</p></div><div class="table-wrap reveal visible"><table><thead><tr><th>Tarih</th><th>Lig</th><th>Maç</th><th>Yorum Türü</th><th>Tahmin</th><th>Oran</th><th>Model gücü</th><th>Skor Tahmini</th><th>Gerçek Skor</th><th>Sonuç</th></tr></thead><tbody id="analysis-database-body"></tbody></table></div></section>
       <section class="section opinion-section" id="yorum-kosesi"><div class="opinion-panel reveal visible"><div><p class="eyebrow">Yorum Köşesi</p><h2>Maçı sadece skorla değil, hikayesiyle oku</h2><p>Maç önü senaryolar, oran davranışı, kadro dengesi, oyun temposu ve psikolojik eşikler tek çatı altında yorumlanır.</p></div><div class="opinion-metrics" aria-label="Yorum köşesi odağı"><span>Form</span><span>Oran hareketi</span><span>Oyun dengesi</span><span>Takım psikolojisi</span></div></div></section>
-      <section class="section modules-section" id="analiz-modulleri"><div class="section-heading reveal visible"><p class="eyebrow">Nasıl Değerlendiriyoruz?</p><h2>Tahmini oluşturan ana başlıklar</h2></div><div class="module-grid"><article class="module-card reveal visible"><span>01</span><h3>Form Durumu</h3><p>Takımların son maçlardaki gidişatı, gol üretimi ve savunma dengesi.</p></article><article class="module-card reveal visible"><span>02</span><h3>Oyun Üstünlüğü</h3><p>Topa sahip olma, pas trafiği, şut üretimi ve korner baskısı.</p></article><article class="module-card reveal visible"><span>03</span><h3>Oran Hareketi</h3><p>Maç öncesi oran değişimleri ve risk-ödül dengesi.</p></article><article class="module-card reveal visible"><span>04</span><h3>İlk Yarı / İkinci Yarı</h3><p>Maçın bölümlere ayrılan temposu, gol ihtimali ve skor senaryosu.</p></article><article class="module-card reveal visible"><span>05</span><h3>Kart ve Baskı Riski</h3><p>Sarı kart, kırmızı kart, serbest vuruş ve oyun sertliği.</p></article><article class="module-card reveal visible"><span>06</span><h3>Mental Durum</h3><p>Geriye düşme tepkisi, deplasman baskısı ve motivasyon.</p></article><article class="module-card reveal visible wide"><span>07</span><h3>Genel Güven</h3><p>Tüm başlıkların birlikte değerlendirilmesiyle tahmin güveni oluşur.</p></article></div></section>
+      <section class="section modules-section" id="analiz-modulleri"><div class="section-heading reveal visible"><p class="eyebrow">Nasıl Değerlendiriyoruz?</p><h2>Tahmini oluşturan ana başlıklar</h2></div><div class="module-grid"><article class="module-card reveal visible"><span>01</span><h3>Form Durumu</h3><p>Takımların son maçlardaki gidişatı, gol üretimi ve savunma dengesi.</p></article><article class="module-card reveal visible"><span>02</span><h3>Oyun Üstünlüğü</h3><p>Topa sahip olma, pas trafiği, şut üretimi ve korner baskısı.</p></article><article class="module-card reveal visible"><span>03</span><h3>Oran Hareketi</h3><p>Maç öncesi oran değişimleri ve risk-ödül dengesi.</p></article><article class="module-card reveal visible"><span>04</span><h3>İlk Yarı / İkinci Yarı</h3><p>Maçın bölümlere ayrılan temposu, gol ihtimali ve skor senaryosu.</p></article><article class="module-card reveal visible"><span>05</span><h3>Kart ve Baskı Riski</h3><p>Sarı kart, kırmızı kart, serbest vuruş ve oyun sertliği.</p></article><article class="module-card reveal visible"><span>06</span><h3>Mental Durum</h3><p>Geriye düşme tepkisi, deplasman baskısı ve motivasyon.</p></article><article class="module-card reveal visible wide"><span>07</span><h3>Model Gücü ve Veri Kapsamı</h3><p>Sinyal gücü sonuç olasılığı olarak sunulmaz; tahmini olasılık ve veri kapsamı ayrı gösterilir.</p></article></div></section>
       <section class="section founder-section" id="kurucu"><div class="founder-card reveal visible"><div class="founder-copy"><p class="eyebrow">Hakkımızda</p><h2>Cem Kaplanoğlu</h2><p class="founder-title">Spor Yazarı ve Futbol Yorumcusu</p><p>Futbol Laboratuvarı; maçları sadece skor olarak değil, form, kadro, oran, saha içi denge, maç içi istatistikler ve hikayeyle birlikte okumayı hedefler.</p><div class="founder-motto">Tahmin değil, gerekçeli futbol yorumu.</div></div><figure class="founder-photo"><img src="assets/images/cem-kaplanoglu-founder.webp" alt="Cem Kaplanoğlu" loading="lazy" decoding="async" /></figure></div></section>
       <section class="section media-section" id="medya-galerisi"><div class="section-heading reveal visible"><p class="eyebrow">Galeri</p><h2>Futbol Laboratuvarı görsel arşivi</h2><p>Logo, sosyal medya içerikleri ve maç yorumu görselleri kompakt kart düzeninde sunulur.</p></div><div class="media-grid"><article class="media-card logo-card reveal visible"><img src="assets/images/fl-logo-gallery.webp" alt="Futbol Laboratuvarı marka logosu" loading="lazy" decoding="async" /><div><span>Logo</span><h3>Futbol Laboratuvarı</h3></div></article><article class="media-card reveal visible"><img src="assets/images/gallery-analiz-serisi.webp" alt="Futbol Laboratuvarı analiz serisi görseli" loading="lazy" decoding="async" /><div><span>Sosyal Medya</span><h3>Maç Yorumu Serisi</h3></div></article><article class="media-card reveal visible"><img src="assets/images/gallery-spor-toto.webp" alt="Futbol Laboratuvarı Spor Toto dosyası görseli" loading="lazy" decoding="async" /><div><span>Spor Toto</span><h3>Spor Toto Dosyası</h3></div></article></div></section>
     </main>
@@ -212,21 +213,27 @@
         <a href="./gizlilik-politikasi.html">Gizlilik Politikası</a>
         <a href="./kullanim-sartlari.html">Kullanım Şartları</a>
         <a href="./cerez-politikasi.html">Çerez Politikası</a>
+        <a href="./on-bilgilendirme-formu.html">Ön Bilgilendirme</a>
+        <a href="./mesafeli-satis-sozlesmesi.html">Mesafeli Satış</a>
+        <a href="./iptal-iade-politikasi.html">İptal ve İade</a>
+        <a href="./kvkk-aydinlatma-metni.html">KVKK</a>
         <a href="./yasal-uyari.html">Yasal Uyarı</a>
         <a href="./sorumlu-kullanim.html">Sorumlu Kullanım</a>
         <a href="./iletisim.html">İletişim</a>
       </nav>
     </footer>
     <script src="site-visible-fix.js?v=20260629-live-flow-v1"></script>
-    <script src="script.js?v=20260824-results-resilience-v2"></script>
-    <script src="daily-matches-widget.js?v=20260823-performance-v3"></script>
-    <script src="server-membership-guard.js?v=20260824-premium-pro13-v1"></script>
+    <script src="script.js?v=20260829-security-integrity-v1"></script>
+    <script src="daily-matches-widget.js?v=20260829-security-integrity-v1"></script>
+    <script src="server-membership-guard.js?v=20260829-security-integrity-v1"></script>
     <script src="premium-analysis-v3-core.js?v=20260824-premium-decision-fix-v2"></script>
-    <script src="premium-analysis-v3.js?v=20260824-premium-decision-fix-v2"></script>
-    <script src="robot-dashboard.js?v=20260823-performance-v3"></script>
-    <script src="cache-version.js?v=20260824-spor-toto-pro-v6"></script>
+    <script src="premium-analysis-v3.js?v=20260829-security-integrity-v1"></script>
+    <script id="pro-coupon-eligibility-script" src="pro-coupon-eligibility.js?v=20260828-integrity-v1"></script>
+    <script src="robot-dashboard.js?v=20260829-security-integrity-v1"></script>
+    <script src="cache-version.js?v=20260829-security-integrity-v1"></script>
     <script src="hero-vitrin.js?v=20260629-live-flow-v1"></script>
     <script src="site-human-language.js?v=20260823-performance-v3"></script>
-    <script src="nav-routing.js?v=20260823-performance-v3"></script>
+    <script src="nav-routing.js?v=20260829-security-integrity-v1"></script>
+    <script defer src="cookie-consent.js?v=20260829-consent-v1"></script>
   </body>
 </html>

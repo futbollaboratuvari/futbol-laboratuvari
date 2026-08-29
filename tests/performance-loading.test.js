@@ -119,8 +119,7 @@ async function testResultsFallbackAndLastGoodCache() {
   };
   const window = { location: { href: "https://futbollaboratuuvari.org/" }, localStorage };
   const fetch = async (url) => {
-    if (String(url).includes("results-summary.json")) throw new Error("Özet bağlantısı geçici olarak kesildi");
-    if (String(url).includes("analiz_sonuclari.json")) return { ok: true, status: 200, json: async () => payload };
+    if (String(url).includes("results-summary.json")) return { ok: true, status: 200, json: async () => payload };
     return { ok: true, status: 200, json: async () => ({ matches: [], match_count: 0 }) };
   };
   const immediateTimeout = (fn) => { fn(); return 0; };
@@ -182,7 +181,6 @@ function testLegacyStartupChainRemoved() {
   const premiumAnalysis = read("premium-analysis-v3.js");
   const homepage = read("index.html");
   const resultsSummaryText = read("data/results-summary.json");
-  const proIndexText = read("data/pro-analysis-index.json");
   const resultsSummary = JSON.parse(resultsSummaryText);
 
   [
@@ -199,7 +197,8 @@ function testLegacyStartupChainRemoved() {
 
   assert.match(dailyWidget, /const twoDayRes = fullHasMatches[\s\S]*skipped: true/);
   assert.match(dailyWidget, /__flPremiumBulletinMatches = app\.bulletin/);
-  assert.match(premiumAnalysis, /pro-analysis-index\.json/);
+  assert.match(premiumAnalysis, /\/api\/pro-analysis/);
+  assert.equal(premiumAnalysis.includes("./data/pro-analysis-index.json"), false, "PRO indeks statik istemci dosyasından okunmamalı");
   assert.equal(premiumAnalysis.includes("robot-analysis.json"), false, "Özel Analiz büyük robot çıktısını indirmemeli");
   assert.match(premiumAnalysis, /Robot görüşü/);
   assert.match(premiumAnalysis, /Kupona uygun/);
@@ -208,7 +207,6 @@ function testLegacyStartupChainRemoved() {
   assert.match(homepage, /id="result-archive"[\s\S]*Sonuçlar yükleniyor/);
   assert.match(homepage, /id="success-grid"[\s\S]*Performans yükleniyor/);
   assert.ok(Buffer.byteLength(resultsSummaryText, "utf8") < 50 * 1024, "sonuç özeti 50 KB altında kalmalı");
-  assert.ok(Buffer.byteLength(proIndexText, "utf8") < 150 * 1024, "PRO analiz indeksi 150 KB altında kalmalı");
   assert.equal(resultsSummary.completed_items.length <= 30, true);
 }
 
@@ -218,7 +216,7 @@ function testLegacyStartupChainRemoved() {
   await testHomepageSkipsAdminPayloads();
   console.log("✓ ana sayfa yönetim ve 4,9 MB robot yüklerini indirmez");
   await testResultsFallbackAndLastGoodCache();
-  console.log("✓ küçük sonuç özeti kesilse bile büyük veri ve son geçerli kayıtlar alanları dolu tutar");
+  console.log("✓ küçük sonuç özeti ve son geçerli önbellek sonuç alanlarını dolu tutar");
   testLegacyStartupChainRemoved();
   console.log("✓ eski panel zinciri kaldırıldı ve bülten geri dönüşü koşullu çalışır");
   console.log("Performans yükleme testleri tamamlandı.");

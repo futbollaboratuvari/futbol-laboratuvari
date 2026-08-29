@@ -1,12 +1,15 @@
 const fs = require("fs");
 const path = require("path");
+const {
+  classifyVerifiedStatus,
+  hasVerifiedStatusEvidence,
+} = require("./bulletin-active-filter");
 
 const rootDir = path.join(__dirname, "..");
 const siteDataDir = path.join(rootDir, "data");
 const siteFixturesPath = path.join(siteDataDir, "fixtures.json");
 const siteRawPoolPath = path.join(siteDataDir, "ham_mac_havuzu.json");
 const robotRawPoolPath = path.join(rootDir, "bu-klas-r-i-in-basit", "data", "ham_mac_havuzu.json");
-const LIVE_WINDOW_MINUTES = 130;
 
 const readJson = (filePath, fallback) => {
   try {
@@ -28,19 +31,6 @@ const formatTurkeyDate = (date = new Date()) =>
     month: "2-digit",
     day: "2-digit",
   }).format(date);
-
-const formatTurkeyTime = (date = new Date()) =>
-  new Intl.DateTimeFormat("tr-TR", {
-    timeZone: "Europe/Istanbul",
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: false,
-  }).format(date);
-
-const turkeyMinutes = () => {
-  const [hour, minute] = formatTurkeyTime().split(":").map(Number);
-  return hour * 60 + minute;
-};
 
 const dotToIso = (value) => {
   const text = String(value || "").trim();
@@ -156,12 +146,6 @@ const hasOdds = (item) => {
   );
 };
 
-const parseClockMinutes = (time) => {
-  const match = String(time || "").trim().match(/^(\d{1,2}):(\d{2})$/);
-  if (!match) return null;
-  return Number(match[1]) * 60 + Number(match[2]);
-};
-
 const normalizeNumber = (value) => {
   if (value === undefined || value === null || value === "") return null;
   const number = Number(value);
@@ -183,26 +167,17 @@ const pickLiveFields = (item = {}, fallback = {}) => {
   };
 };
 
-const statusFromClock = (date, time) => {
-  const dateKey = dotToIso(date) || date;
-  const start = parseClockMinutes(time);
-  if (!dateKey || start === null) return { status: "scheduled", minute: null };
-  const today = formatTurkeyDate();
-  if (dateKey < today) return { status: "finished", minute: 90 };
-  if (dateKey > today) return { status: "scheduled", minute: null };
-  const elapsed = turkeyMinutes() - start;
-  if (elapsed < 0) return { status: "scheduled", minute: null };
-  if (elapsed <= LIVE_WINDOW_MINUTES) return { status: "live", minute: Math.max(1, Math.min(90, elapsed > 60 ? elapsed - 15 : elapsed)) };
-  return { status: "finished", minute: 90 };
-};
-
 const normalizeStatus = (item, fallback = {}) => {
-  const status = String(pickFirst(item.status, item.durum, item.liveStatus, fallback.status, fallback.durum, fallback.liveStatus, "") || "").toLocaleLowerCase("tr-TR").trim();
-  if (["live", "canlı", "canli", "1h", "2h", "ht", "devre arası"].includes(status)) return "live";
-  if (["finished", "tamamlandı", "tamamlandi", "bitti", "ms", "fulltime"].includes(status)) return "finished";
-  if (["postponed", "ertelendi"].includes(status)) return "postponed";
-  if (["cancelled", "canceled", "iptal"].includes(status)) return "cancelled";
-  return statusFromClock(item.date || item.tarih || item.utc_date, item.time || item.saat).status;
+  const live = pickLiveFields(item, fallback);
+  const status = classifyVerifiedStatus({
+    ...fallback,
+    ...item,
+    status: pickFirst(item.status, item.durum, item.liveStatus, fallback.status, fallback.durum, fallback.liveStatus, "scheduled"),
+    homeScore: live.homeScore,
+    awayScore: live.awayScore,
+    score: live.score,
+  });
+  return ["live", "finished", "postponed", "cancelled"].includes(status) ? status : "scheduled";
 };
 
 const rawToFixture = (item, existing = {}) => {
@@ -213,9 +188,9 @@ const rawToFixture = (item, existing = {}) => {
   if (!date || !time || !home || !away) return null;
 
   const live = pickLiveFields(item, existing);
-  const clock = statusFromClock(date, time);
   const status = normalizeStatus({ ...item, date, time }, existing);
-  const minute = live.minute !== null ? live.minute : status === "live" ? clock.minute : status === "finished" ? 90 : null;
+  const minute = status === "live" && live.minute !== null ? Math.min(120, Math.round(live.minute)) : null;
+  const statusVerified = ["live", "finished"].includes(status) && hasVerifiedStatusEvidence({ ...item, ...existing, homeScore: live.homeScore, awayScore: live.awayScore, score: live.score });
 
   return {
     date,
@@ -225,6 +200,8 @@ const rawToFixture = (item, existing = {}) => {
     away,
     status,
     liveStatus: status,
+    status_verified: statusVerified,
+    status_source: statusVerified ? (item.status_source || existing.status_source || item.source || item.kaynak || existing.source || "Robot ham veri havuzu") : "schedule_only",
     minute,
     homeScore: live.homeScore,
     awayScore: live.awayScore,
@@ -240,13 +217,15 @@ const rawToFixture = (item, existing = {}) => {
 const mergeLiveFields = (base, incoming) => {
   const live = pickLiveFields(incoming, base);
   const status = normalizeStatus(incoming, base);
-  const clock = statusFromClock(incoming.date || base.date, incoming.time || base.time);
+  const statusVerified = ["live", "finished"].includes(status) && hasVerifiedStatusEvidence({ ...base, ...incoming, homeScore: live.homeScore, awayScore: live.awayScore, score: live.score });
   return {
     ...base,
     ...pickOdds(incoming),
     status,
     liveStatus: status,
-    minute: live.minute !== null ? live.minute : status === "live" ? clock.minute : status === "finished" ? 90 : base.minute ?? null,
+    status_verified: statusVerified,
+    status_source: statusVerified ? (incoming.status_source || base.status_source || incoming.source || base.source || "Robot ham veri havuzu") : "schedule_only",
+    minute: status === "live" && live.minute !== null ? Math.min(120, Math.round(live.minute)) : null,
     homeScore: live.homeScore,
     awayScore: live.awayScore,
     score: live.score || base.score || "",

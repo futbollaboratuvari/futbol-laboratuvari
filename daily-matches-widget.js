@@ -1,8 +1,8 @@
 (() => {
   const KEY = "__flDailyWidget";
+  const PAGE_SIZE = 30;
   if (window[KEY]?.off) window[KEY].off();
 
-  const LIVE_WINDOW_MINUTES = 130;
   const app = {
     bulletin: [],
     live: [],
@@ -15,8 +15,10 @@
     timer: null,
     window: null,
     dataWarning: "",
+    suppressedUnverified: 0,
     lastUpdated: "",
     source: ""
+    ,visibleLimit: PAGE_SIZE
   };
   window[KEY] = app;
 
@@ -61,26 +63,42 @@
 
   const rawStatus = (m) => statusToken(m.status || m.liveStatus || m.result_status || m.fixture_status || "scheduled");
 
+  const hasVerifiedScore = (m) => {
+    const home = m.homeScore ?? m.home_score ?? m.homeGoals ?? m.home_goals;
+    const away = m.awayScore ?? m.away_score ?? m.awayGoals ?? m.away_goals;
+    if (!isBlank(home) && !isBlank(away)) return true;
+    return /^\s*\d+\s*[-:]\s*\d+\s*$/.test(String(m.score || m.skor || m.result_score || ""));
+  };
+
+  const hasVerifiedStatus = (m) =>
+    m.status_verified === true
+    || m.provider_status_verified === true
+    || m.live_status_verified === true
+    || hasVerifiedScore(m);
+
   function classify(m) {
     const token = rawStatus(m);
     if (cancelledStatuses.has(token)) return { bucket: "finished", status: "cancelled", minute: null };
     if (postponedStatuses.has(token)) return { bucket: "finished", status: "postponed", minute: null };
-    if (finishedStatuses.has(token)) return { bucket: "finished", status: "finished", minute: m.minute ?? 90 };
-    if (liveStatuses.has(token)) return { bucket: "live", status: "live", minute: m.minute ?? m.elapsed ?? m.matchMinute ?? null };
+    if (finishedStatuses.has(token)) return hasVerifiedStatus(m)
+      ? { bucket: "finished", status: "finished", minute: null }
+      : { bucket: "unverified", status: "unverified", minute: null };
+    if (liveStatuses.has(token)) return hasVerifiedStatus(m)
+      ? { bucket: "live", status: "live", minute: m.minute ?? m.elapsed ?? m.matchMinute ?? null }
+      : { bucket: "unverified", status: "unverified", minute: null };
+    if (scheduledStatuses.has(token)) return { bucket: "scheduled", status: "scheduled", minute: null };
+    return { bucket: "unverified", status: "unverified", minute: null };
+  }
 
+  const scheduledStartHasPassed = (m) => {
     const date = toIsoDate(m.date || m.tarih || m.start_date || m.utc_date);
     const start = minuteOf(m.time || m.saat || m.start_time);
-    if (!date || start === null) return { bucket: scheduledStatuses.has(token) ? "scheduled" : "finished", status: scheduledStatuses.has(token) ? "scheduled" : "finished", minute: null };
-
+    if (!date || start === null) return false;
     const now = trNow();
-    if (date < now.date) return { bucket: "finished", status: "finished", minute: 90 };
-    if (date > now.date) return { bucket: "scheduled", status: "scheduled", minute: null };
-
-    const elapsed = now.minute - start;
-    if (elapsed < 0) return { bucket: "scheduled", status: "scheduled", minute: null };
-    if (elapsed <= LIVE_WINDOW_MINUTES) return { bucket: "live", status: "live", minute: Math.max(1, Math.min(90, elapsed > 60 ? elapsed - 15 : elapsed)) };
-    return { bucket: "finished", status: "finished", minute: 90 };
-  }
+    if (date < now.date) return true;
+    if (date > now.date) return false;
+    return start <= now.minute;
+  };
 
   const scoreOf = (m) => {
     const home = m.homeScore ?? m.home_score ?? m.homeGoals ?? m.home_goals;
@@ -94,7 +112,8 @@
     live: "Canlı",
     finished: "Bitti",
     postponed: "Ertelendi",
-    cancelled: "İptal"
+    cancelled: "İptal",
+    unverified: "Durum doğrulanmadı"
   }[m.status || m.liveStatus] || "Bekleniyor");
 
   const liveLabel = (m) => {
@@ -156,7 +175,7 @@
     return { ...base, _state: state.bucket, liveStatus: state.bucket, status: state.status, minute: base.minute ?? state.minute };
   }
 
-  const priority = (m) => ({ finished: 3, live: 2, scheduled: 1 }[classify(m).bucket] || 0);
+  const priority = (m) => ({ finished: 4, live: 3, scheduled: 2, unverified: 1 }[classify(m).bucket] || 0);
 
   function unique(list) {
     const map = new Map();
@@ -195,16 +214,32 @@
 
   function ingest(root, sourceName, defaultDate = "") {
     const out = [];
-    const push = (items, status) => Array.isArray(items) && items.forEach((x, i) => out.push(norm({ ...x, source: x.source || sourceName }, i, { date: defaultDate, status })));
+    const push = (items, status) => Array.isArray(items) && items.forEach((x, i) => {
+      const item = norm({ ...x, source: x.source || sourceName }, i, { date: defaultDate, status });
+      if (item.date && item.time !== "--:--" && item.home !== "Ev" && item.away !== "Dep") out.push(item);
+    });
     push(root?.matches, "scheduled");
     push(root?.scheduled_matches, "scheduled");
     push(root?.live_matches, "live");
-    push(root?.active_items, "live");
     push(root?.finished_matches, "finished");
-    push(root?.completed_items, "finished");
     push(root?.results, "finished");
     return out;
   }
+
+  const latestGeneratedAt = (...values) => values
+    .filter(Boolean)
+    .map((value) => ({ value, time: Date.parse(value) }))
+    .filter((item) => Number.isFinite(item.time))
+    .sort((a, b) => b.time - a.time)[0]?.value || "";
+
+  const freshnessWarning = (generatedAt) => {
+    const generated = Date.parse(generatedAt || "");
+    if (!Number.isFinite(generated)) return "Veri güncelleme zamanı doğrulanamadı; canlı ve sonuç durumları yalnız sağlayıcı kanıtıyla gösterilir.";
+    const ageMinutes = Math.max(0, Math.floor((Date.now() - generated) / 60000));
+    if (ageMinutes < 30) return "";
+    const age = ageMinutes >= 60 ? `${Math.floor(ageMinutes / 60)} sa ${ageMinutes % 60} dk` : `${ageMinutes} dk`;
+    return `Veri ${age} önce güncellendi. Eski saat bilgisi canlı veya bitmiş maç üretmek için kullanılmaz.`;
+  };
 
   async function load() {
     const [fullRes, liveRes] = await Promise.all([
@@ -229,7 +264,7 @@
     }
 
     app.window = full?.date_window || (Array.isArray(twoDay?.days) ? { main_day: twoDay.days[0], includes_next_day_until: `${twoDay.days[1] || ""} 08:00` } : app.window) || null;
-    app.lastUpdated = full?.generated_at || twoDay?.generated_at || live?.generated_at || app.lastUpdated || "";
+    app.lastUpdated = latestGeneratedAt(full?.generated_at, twoDay?.generated_at, live?.generated_at) || app.lastUpdated || "";
     app.source = full?.source || twoDay?.source || live?.source || "Maçkolik veri akışı";
     const liveRootDate = toIsoDate(live?.date || full?.date_window?.main_day || "");
     const all = unique([
@@ -242,7 +277,13 @@
       const state = classify(m);
       return { ...m, _state: state.bucket, liveStatus: state.bucket, status: state.status, minute: m.minute ?? state.minute };
     });
-    app.bulletin = sortMatches(classified.filter((m) => m._state === "scheduled"));
+    const expiredScheduled = classified.filter((m) => m._state === "scheduled" && scheduledStartHasPassed(m));
+    const unverified = classified.filter((m) => m._state === "unverified");
+    app.suppressedUnverified = expiredScheduled.length + unverified.length;
+    const warnings = [app.dataWarning, freshnessWarning(app.lastUpdated)];
+    if (app.suppressedUnverified) warnings.push(`${app.suppressedUnverified} kaydın canlı/sonuç durumu doğrulanamadığı için listeden çıkarıldı.`);
+    app.dataWarning = warnings.filter(Boolean).join(" ");
+    app.bulletin = sortMatches(classified.filter((m) => m._state === "scheduled" && !scheduledStartHasPassed(m)));
     app.live = sortMatches(classified.filter((m) => m._state === "live"));
     app.finished = sortMatches(classified.filter((m) => m._state === "finished"));
     window.__flPremiumBulletinMatches = app.bulletin;
@@ -257,6 +298,13 @@
     return app.bulletin.filter((m) => m.date === nextDay && isEarly(m)).length;
   }
 
+  const formatTimestamp = (value) => {
+    const date = new Date(value);
+    return Number.isNaN(date.getTime())
+      ? String(value || "")
+      : date.toLocaleString("tr-TR", { timeZone: "Europe/Istanbul", dateStyle: "short", timeStyle: "short" });
+  };
+
   function ensureRoot() {
     let root = $("#daily-matches-widget");
     if (!root) {
@@ -268,13 +316,13 @@
     root.className = "flw";
     const early = earlyCount();
     const warning = app.dataWarning ? `<div class="flw-warning">${esc(app.dataWarning)}</div>` : "";
-    const updated = app.lastUpdated ? ` · <span>Güncelleme: ${esc(app.lastUpdated)}</span>` : "";
+    const updated = app.lastUpdated ? ` · <span>Güncelleme: ${esc(formatTimestamp(app.lastUpdated))}</span>` : "";
     const source = app.source ? ` · <span>Kaynak: ${esc(app.source)}</span>` : "";
     root.innerHTML = `
       <div class="flw-top"><h2>Futbol Bülteni</h2><div><span>${app.bulletin.length} başlamamış</span> · <span>${app.live.length} canlı</span> · <span>${app.finished.length} sonuç</span>${early ? ` · <span>${early} gece/erken maç</span>` : ""}${updated}${source}</div></div>
       ${warning}
-      <div class="flw-tabs"><button data-mode="bulletin" class="${app.mode === "bulletin" ? "on" : ""}">Tüm Bülten</button><button data-mode="live" class="${app.mode === "live" ? "on" : ""}">Canlı Karşılaşmalar</button><button data-mode="finished" class="${app.mode === "finished" ? "on" : ""}">Biten Karşılaşmalar</button></div>
-      <div class="flw-filter"><input data-q value="${esc(app.q)}" placeholder="Maç veya lig ara"><select data-league></select><button data-refresh>Yenile</button></div>
+      <div class="flw-tabs" role="group" aria-label="Bülten görünümü"><button type="button" data-mode="bulletin" aria-pressed="${app.mode === "bulletin"}" class="${app.mode === "bulletin" ? "on" : ""}">Tüm Bülten</button><button type="button" data-mode="live" aria-pressed="${app.mode === "live"}" class="${app.mode === "live" ? "on" : ""}">Canlı Karşılaşmalar</button><button type="button" data-mode="finished" aria-pressed="${app.mode === "finished"}" class="${app.mode === "finished" ? "on" : ""}">Biten Karşılaşmalar</button></div>
+      <div class="flw-filter"><label class="flw-sr" for="flw-search">Maç veya lig ara</label><input id="flw-search" data-q value="${esc(app.q)}" placeholder="Maç veya lig ara"><label class="flw-sr" for="flw-league">Lig seç</label><select id="flw-league" data-league></select><button type="button" data-refresh>Yenile</button></div>
       <div class="flw-layout"><div class="flw-main"></div><aside class="flw-slip"></aside></div>`;
   }
 
@@ -282,7 +330,7 @@
     if ($("#flw-style")) return;
     const s = document.createElement("style");
     s.id = "flw-style";
-    s.textContent = `.flw{margin:18px clamp(10px,3vw,52px);background:#073d3b;color:#fff;border:1px solid rgba(255,212,0,.28);font-family:inherit}.flw-top{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#ffd400;color:#073d3b;padding:12px 14px}.flw-top h2{margin:0;font-size:19px}.flw-warning{padding:8px 14px;background:#3b2107;color:#ffe2b8;font-size:12px;font-weight:850}.flw-tabs{display:flex;gap:8px;padding:10px 14px;background:#0f645e;flex-wrap:wrap}.flw-tabs button{border:1px solid rgba(255,212,0,.45);border-radius:999px;background:rgba(255,255,255,.08);color:#fff;font-weight:1000;padding:8px 12px;cursor:pointer}.flw-tabs button.on{background:#ffd400;color:#073d3b}.flw-filter{display:grid;grid-template-columns:1fr 220px 90px;gap:8px;padding:10px 14px;background:#062d2c}.flw-filter input,.flw-filter select,.flw-filter button{height:38px;border:0;border-radius:9px;padding:0 10px;font-weight:850}.flw-filter button,.flw-analyze,.flw-clear,.flw-remove,.flw-detail-toggle{background:#ffd400;color:#073d3b;cursor:pointer}.flw-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px}.flw-main{padding:12px;overflow:auto}.flw-table{min-width:960px;background:#f7fff9;color:#062d2c;border-radius:12px;overflow:hidden}.flw-head,.flw-row{display:grid;grid-template-columns:76px 130px minmax(240px,1fr) repeat(7,58px) 86px}.flw-head{background:#0a504b;color:#fff7bd;font-size:11px;font-weight:1000}.flw-head span,.flw-row>*{padding:7px 6px;border-right:1px solid #cbded6;border-bottom:1px solid #cbded6}.flw-league{background:#d9efe3;color:#073d3b;padding:8px 11px;font-size:11px;font-weight:1000}.flw-row{font-size:11px}.flw-time{font-weight:1000;color:#006447}.flw-live-time{color:#d01515}.flw-finished-time{color:#555}.flw-teams b{display:block}.flw-code{font-size:9px;color:#6a837d}.flw-empty{margin:13px;padding:19px 12px;border:1px dashed rgba(255,255,255,.25);border-radius:11px;text-align:center;color:#bfd6cf}.flw-odd{display:block;width:100%;min-height:30px;border-radius:8px;border:1px solid #bdd0ca;background:#fff;color:#073d3b;font-weight:950;cursor:pointer}.flw-odd.on,.flw-odd:hover{background:#ffd400}.flw-odd:disabled{cursor:not-allowed;color:#7c918b;background:#edf5f1}.flw-detail-toggle{border:0;border-radius:8px;font-weight:1000;padding:7px 9px;width:100%}.flw-detail-row{padding:10px 12px;background:#fff;border-bottom:1px solid #cbded6}.flw-detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.flw-detail-card{border:1px solid #cbded6;border-radius:8px;padding:8px;background:#f7fff9;font-size:11px;line-height:1.45}.flw-detail-card b{display:block;color:#073d3b;margin-bottom:4px}.flw-detail-note{color:#59766f}.flw-detail-market{display:flex;justify-content:space-between;gap:8px;align-items:center;margin:5px 0}.flw-detail-market span{font-weight:850}.flw-detail-odd{width:auto;min-width:74px;padding:5px 8px}.flw-slip{background:#092c2b;border-left:1px solid rgba(255,255,255,.14);padding:14px}.flw-slip h3{margin:0;color:#ffd400}.flw-card{margin-top:9px;padding:9px;border:1px solid rgba(255,255,255,.15);border-radius:10px;background:rgba(255,255,255,.05);font-size:11px}.flw-flex{display:flex;justify-content:space-between;gap:8px;align-items:center;color:#ffd400;font-weight:950}.flw-act{display:grid;gap:8px;margin-top:9px}.flw-analyze,.flw-clear,.flw-remove{border:0;border-radius:8px;font-weight:1000;padding:7px 9px}.flw-analysis{line-height:1.45;color:#dceee8}.flw-note{color:#a8c2ba;font-size:11px;margin-top:8px}@media(max-width:920px){.flw-filter{grid-template-columns:1fr}.flw-layout{display:block}.flw-slip{border-left:0}.flw-top{display:block}.flw-detail-grid{grid-template-columns:1fr}.flw-table{min-width:900px}}`;
+    s.textContent = `.flw{margin:18px clamp(10px,3vw,52px);background:#073d3b;color:#fff;border:1px solid rgba(255,212,0,.28);font-family:inherit}.flw-sr{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}.flw-top{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#ffd400;color:#073d3b;padding:12px 14px}.flw-top h2{margin:0;font-size:19px}.flw-warning{padding:8px 14px;background:#3b2107;color:#ffe2b8;font-size:12px;font-weight:850}.flw-tabs{display:flex;gap:8px;padding:10px 14px;background:#0f645e;flex-wrap:wrap}.flw-tabs button{border:1px solid rgba(255,212,0,.45);border-radius:999px;background:rgba(255,255,255,.08);color:#fff;font-weight:1000;padding:8px 12px;cursor:pointer}.flw-tabs button.on{background:#ffd400;color:#073d3b}.flw-filter{display:grid;grid-template-columns:1fr 220px 90px;gap:8px;padding:10px 14px;background:#062d2c}.flw-filter input,.flw-filter select,.flw-filter button{height:38px;border:0;border-radius:9px;padding:0 10px;font-weight:850}.flw-filter button,.flw-analyze,.flw-clear,.flw-remove,.flw-detail-toggle,.flw-more{background:#ffd400;color:#073d3b;cursor:pointer}.flw-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px}.flw-main{padding:12px;overflow:auto}.flw-table{min-width:960px;background:#f7fff9;color:#062d2c;border-radius:12px;overflow:hidden}.flw-head,.flw-row{display:grid;grid-template-columns:76px 130px minmax(240px,1fr) repeat(7,58px) 86px}.flw-head{background:#0a504b;color:#fff7bd;font-size:11px;font-weight:1000}.flw-head span,.flw-row>*{padding:7px 6px;border-right:1px solid #cbded6;border-bottom:1px solid #cbded6}.flw-league{background:#d9efe3;color:#073d3b;padding:8px 11px;font-size:11px;font-weight:1000}.flw-row{font-size:11px}.flw-time{font-weight:1000;color:#006447}.flw-live-time{color:#d01515}.flw-finished-time{color:#555}.flw-teams b{display:block}.flw-code{font-size:9px;color:#6a837d}.flw-empty{margin:13px;padding:19px 12px;border:1px dashed rgba(255,255,255,.25);border-radius:11px;text-align:center;color:#bfd6cf}.flw-odd{display:block;width:100%;min-height:30px;border-radius:8px;border:1px solid #bdd0ca;background:#fff;color:#073d3b;font-weight:950;cursor:pointer}.flw-odd.on,.flw-odd:hover{background:#ffd400}.flw-odd:disabled{cursor:not-allowed;color:#7c918b;background:#edf5f1}.flw-detail-toggle{border:0;border-radius:8px;font-weight:1000;padding:7px 9px;width:100%}.flw-detail-row{padding:10px 12px;background:#fff;border-bottom:1px solid #cbded6}.flw-detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.flw-detail-card{border:1px solid #cbded6;border-radius:8px;padding:8px;background:#f7fff9;font-size:11px;line-height:1.45}.flw-detail-card b{display:block;color:#073d3b;margin-bottom:4px}.flw-detail-note{color:#59766f}.flw-detail-market{display:flex;justify-content:space-between;gap:8px;align-items:center;margin:5px 0}.flw-detail-market span{font-weight:850}.flw-detail-odd{width:auto;min-width:74px;padding:5px 8px}.flw-more{display:block;min-height:40px;margin:12px auto 0;padding:7px 18px;border:0;border-radius:10px;font-weight:1000}.flw-slip{background:#092c2b;border-left:1px solid rgba(255,255,255,.14);padding:14px}.flw-slip h3{margin:0;color:#ffd400}.flw-card{margin-top:9px;padding:9px;border:1px solid rgba(255,255,255,.15);border-radius:10px;background:rgba(255,255,255,.05);font-size:11px}.flw-flex{display:flex;justify-content:space-between;gap:8px;align-items:center;color:#ffd400;font-weight:950}.flw-act{display:grid;gap:8px;margin-top:9px}.flw-analyze,.flw-clear,.flw-remove{border:0;border-radius:8px;font-weight:1000;padding:7px 9px}.flw-analysis{line-height:1.45;color:#dceee8}.flw-note{color:#a8c2ba;font-size:11px;margin-top:8px}@media(max-width:920px){.flw-filter{grid-template-columns:1fr}.flw-layout{display:block}.flw-slip{border-left:0}.flw-top{display:block}.flw-detail-grid{grid-template-columns:1fr}.flw-table{min-width:900px}}`;
     document.head.appendChild(s);
   }
 
@@ -305,7 +353,7 @@
     const value = pick(m, keys);
     if (isBlank(value)) return `<button class="flw-odd" disabled title="Oran verisi bekleniyor">—</button>`;
     const on = app.picks.has(pickId(m._id, key)) ? " on" : "";
-    return `<button class="flw-odd${on}" data-pick="${esc(m._id)}" data-key="${esc(key)}" title="${esc(label)}">${esc(fmt(value))}</button>`;
+    return `<button class="flw-odd${on}" data-pick="${esc(m._id)}" data-key="${esc(key)}" title="${esc(label)}" aria-label="${esc(`${m.home} - ${m.away}, ${label}, oran ${fmt(value)}`)}">${esc(fmt(value))}</button>`;
   }
 
   function detailOddBtn(m, key, label, keys) {
@@ -314,7 +362,7 @@
       return `<div class="flw-detail-market"><span>${esc(label)}</span><button class="flw-odd flw-detail-odd" disabled title="Oran verisi bekleniyor">Veri bekleniyor</button></div>`;
     }
     const on = app.picks.has(pickId(m._id, key)) ? " on" : "";
-    return `<div class="flw-detail-market"><span>${esc(label)}</span><button class="flw-odd flw-detail-odd${on}" data-detail-pick="${esc(m._id)}" data-detail-key="${esc(key)}" title="${esc(label)}">${esc(fmt(value))}</button></div>`;
+    return `<div class="flw-detail-market"><span>${esc(label)}</span><button class="flw-odd flw-detail-odd${on}" data-detail-pick="${esc(m._id)}" data-detail-key="${esc(key)}" title="${esc(label)}" aria-label="${esc(`${m.home} - ${m.away}, ${label}, oran ${fmt(value)}`)}">${esc(fmt(value))}</button></div>`;
   }
 
   function detailOddLine(m) {
@@ -383,7 +431,8 @@
 
   function drawRows() {
     const base = listForMode();
-    const list = visible();
+    const all = visible();
+    const list = all.slice(0, app.visibleLimit);
     const sel = $("[data-league]");
     if (sel) {
       const leagues = [...new Set(base.map((m) => m.league).filter(Boolean))].sort((a, b) => a.localeCompare(b, "tr"));
@@ -410,15 +459,14 @@
       const open = app.expanded.has(m._id);
       html += `<div class="flw-row"><div class="${timeClass}">${esc(timeText)}</div><div>${esc(m.league)}</div><div class="flw-teams"><b>${esc(m.home)} - ${esc(m.away)}</b><span class="flw-code">Durum: ${esc(statusLabel(m))} · Kod: ${esc(m.matchCode || m.match_code || m._id)}</span></div>${markets.map(([key, label, keys]) => `<div>${oddBtn(m, key, label, keys)}</div>`).join("")}<div><button class="flw-detail-toggle" data-toggle="${esc(m._id)}">${open ? "Kapat" : "Aç"}</button></div></div>${open ? detailHtml(m) : ""}`;
     });
-    box.innerHTML = html + `</div>`;
+    const remaining = all.length - list.length;
+    box.innerHTML = html + `</div>${remaining > 0 ? `<button type="button" class="flw-more" data-more>Daha fazla göster (${remaining})</button>` : ""}`;
   }
 
-  function proComment(p) {
+  function marketSummary(p) {
     const odd = n(p.value);
-    if (odd >= 3.5) return "Pro 12.2: oran yüksek, risk de yüksek; tekli veya düşük stake daha uygun.";
-    if (odd >= 2.1) return "Pro 12.2: dengeli oran; maç verisi destekliyorsa kupona aday.";
-    if (odd > 0 && odd < 1.5) return "Pro 12.2: oran düşük, değer sınırlı; dikkatli değerlendir.";
-    return "Pro 12.2: veri sınırlı; canlı akış ve oran hareketi beklenmeli.";
+    if (!odd) return "Geçerli oran olmadığı için ham piyasa olasılığı hesaplanamadı.";
+    return `Ondalık oranın marj düzeltilmemiş karşılığı yaklaşık %${(100 / odd).toFixed(1)}'dir; model tahmini veya öneri değildir.`;
   }
 
   function drawSlip() {
@@ -435,10 +483,11 @@
     if (!out) return;
     const picks = [...app.picks.values()];
     if (!picks.length) return;
-    const scores = picks.map((p) => Math.max(1, Math.min(99, Math.round((n(p.value) ? 100 / n(p.value) : 45) + 4))));
-    const avg = Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
-    const risk = avg >= 60 ? "Kontrollü oynanabilir" : avg >= 45 ? "Orta risk" : "Yüksek risk";
-    out.innerHTML = `<div class="flw-card flw-analysis"><b>Pro 12.2 Kısa Yorum</b><p>Ortalama skor: %${avg} · ${esc(risk)}</p>${picks.map((p, i) => `<p><b>${esc(p.label)} · ${esc(fmt(p.value))} · %${scores[i]}</b><br>${esc(proComment(p))}</p>`).join("")}</div>`;
+    const probabilities = picks.map((p) => n(p.value) > 1 ? 100 / n(p.value) : null);
+    const combined = probabilities.every((value) => value !== null)
+      ? probabilities.reduce((total, value) => total * (value / 100), 1) * 100
+      : null;
+    out.innerHTML = `<div class="flw-card flw-analysis"><b>Piyasa Oran Özeti</b><p>Birleşik ham piyasa karşılığı: ${combined === null ? "Hesaplanamadı" : `%${combined.toFixed(1)}`}. Bu değer bahis şirketi marjını içerir; başarı tahmini, model gücü veya oynama önerisi değildir.</p>${picks.map((p, i) => `<p><b>${esc(p.label)} · ${esc(fmt(p.value))}${probabilities[i] === null ? "" : ` · ham %${probabilities[i].toFixed(1)}`}</b><br>${esc(marketSummary(p))}</p>`).join("")}</div>`;
   }
 
   function draw() { ensureRoot(); style(); drawRows(); drawSlip(); }
@@ -471,7 +520,8 @@
 
   app.click = (e) => {
     const mode = e.target.closest("[data-mode]");
-    if (mode) { app.mode = ["live", "finished"].includes(mode.dataset.mode) ? mode.dataset.mode : "bulletin"; app.league = "all"; draw(); return; }
+    if (mode) { app.mode = ["live", "finished"].includes(mode.dataset.mode) ? mode.dataset.mode : "bulletin"; app.league = "all"; app.visibleLimit = PAGE_SIZE; draw(); return; }
+    if (e.target.closest("[data-more]")) { app.visibleLimit += PAGE_SIZE; drawRows(); return; }
     const toggle = e.target.closest("[data-toggle]");
     if (toggle) { const id = toggle.dataset.toggle; app.expanded.has(id) ? app.expanded.delete(id) : app.expanded.add(id); drawRows(); return; }
     const detailPick = e.target.closest("[data-detail-pick]");
@@ -485,8 +535,8 @@
     if (e.target.closest("[data-refresh]")) load();
   };
   app.input = (e) => {
-    if (e.target.matches("[data-q]")) { app.q = e.target.value.toLocaleLowerCase("tr-TR"); drawRows(); }
-    if (e.target.matches("[data-league]")) { app.league = e.target.value; drawRows(); }
+    if (e.target.matches("[data-q]")) { app.q = e.target.value.toLocaleLowerCase("tr-TR"); app.visibleLimit = PAGE_SIZE; drawRows(); }
+    if (e.target.matches("[data-league]")) { app.league = e.target.value; app.visibleLimit = PAGE_SIZE; drawRows(); }
   };
   app.off = () => { document.removeEventListener("click", app.click); document.removeEventListener("input", app.input); document.removeEventListener("change", app.input); clearInterval(app.timer); };
 

@@ -305,12 +305,15 @@ function make_coupon(type, items, size) {
     confidence_score: item.confidence || "-",
     model_score: Number(item.model_score ?? item.analysis_score ?? item.score ?? 0),
     analysis_score: item.analysis_score ?? item.score ?? 0,
+    include_in_coupon: Boolean(item.include_in_coupon),
+    independent_evidence: Boolean(item.independent_evidence),
     estimated_probability: numberOrNull(item.estimated_probability),
     market_probability: numberOrNull(item.market_probability),
     edge_percent: numberOrNull(item.edge_percent),
     data_completeness: numberOrNull(item.data_completeness) || 0,
     model_version: item.model_version || MODEL_VERSION,
     risk_level: item.risk || "-",
+    data_gap_risk: item.data_gap_risk || "-",
     estimated_odds: item.odds || "-",
     available_odds: oddsSnapshot(item),
     raw_market_guess_odds: item.raw_market_guess_odds || {},
@@ -348,8 +351,20 @@ function make_coupon(type, items, size) {
 
 function build_daily_coupons(matches) {
   const bandMap = loadBandMap();
-  const scored = matches.map(score_match).map((item) => applyTeamIntelligence(item, bandRecordFor(item, bandMap)));
-  const available = scored.filter((item) => item.hasOdds && Number(item.score || 0) >= 65 && item.band_check?.level !== "Yüksek");
+  const scored = matches.map(score_match)
+    .map((item) => applyTeamIntelligence(item, bandRecordFor(item, bandMap)))
+    .map((item) => {
+      const includeInCoupon = Boolean(item.hasOdds && couponRules.meetsCouponCriteria({
+        ...item,
+        model_score: Number(item.model_score ?? item.analysis_score ?? item.score ?? 0),
+        recommended_market: item.selection || item.market || "-",
+        risk_level: item.risk || "-",
+        squad_risk_level: item.squad_risk_level || "Belirsiz",
+        lineup_risk_level: item.lineup_risk_level || "Belirsiz",
+      }));
+      return { ...item, include_in_coupon: includeInCoupon };
+    });
+  const available = scored.filter((item) => couponRules.isCouponEligible(item));
   const watchlist = scored.filter((item) => item.hasOdds && Number(item.score || 0) >= 40 && Number(item.score || 0) < 65 && item.band_check?.level !== "Yüksek");
   const balancedPool = available
     .filter((item) => Number(item.score || 0) >= 65 && item.risk !== "Yüksek")
@@ -366,7 +381,6 @@ function build_daily_coupons(matches) {
     watchlist,
     available,
     coupons: {
-      laboratory_today: make_coupon("balanced", balancedPool, 3),
       balanced: make_coupon("balanced", balancedPool, 3),
       high_value: make_coupon("high_value", highValuePool, 4),
       risk_lab: make_coupon("risk_lab", riskLabPool, 3),

@@ -154,7 +154,7 @@ const proAnalysisCouponCard = (item) => `
   <article class="robot-live-card">
     <h3>${escapeHtml(normalizeTitle(item))}</h3>
     <div class="robot-row"><span>Seçenek</span><strong>${escapeHtml(normalizeMarket(item))}</strong></div>
-    <div class="robot-row"><span>PRO güveni</span><strong>${escapeHtml(normalizeScore(item))}</strong></div>
+    <div class="robot-row"><span>Model gücü</span><strong>${escapeHtml(normalizeScore(item))}</strong></div>
     <div class="robot-row"><span>Risk</span><strong>${escapeHtml(normalizeRisk(item))}</strong></div>
     <div class="robot-row"><span>Durum</span><strong>${escapeHtml(item.status || "takipte")}</strong></div>
     <p class="robot-note">Bu kart yalnızca PRO robotun ürettiği veri katmanları varsa gösterilir.</p>
@@ -167,7 +167,7 @@ const analysisCommentCard = (item, index) => `
     <h3>${escapeHtml(normalizeTitle(item))}</h3>
     <p>${escapeHtml(item.commentary || item.comment || item.analysis_note || "PRO robot yorumu bekleniyor.")}</p>
     <div class="robot-row"><span>Seçenek</span><strong>${escapeHtml(normalizeMarket(item))}</strong></div>
-    <div class="robot-row"><span>Güven / Risk</span><strong>${escapeHtml(normalizeScore(item))} / ${escapeHtml(normalizeRisk(item))}</strong></div>
+    <div class="robot-row"><span>Model gücü / Risk</span><strong>${escapeHtml(normalizeScore(item))} / ${escapeHtml(normalizeRisk(item))}</strong></div>
     <p class="robot-note">Veri dayanağı: ${escapeHtml(getSignalsText(item) || "PRO veri katmanları bekleniyor")}</p>
   </article>
 `;
@@ -454,20 +454,14 @@ const renderProAnalysisCenter = (payload, bulletinPayload = null) => {
 };
 
 const loadProAnalysisCenter = async () => {
-  const [payload, bulletinPayload] = await Promise.all([
-    readJson("./data/analiz_sonuclari.json", {
-      source: "PRO analiz bekleniyor",
-      active_items: [],
-      completed_items: [],
-    }),
-    readJson("./data/full-bulletin.json", {
-      source: "Güncel bülten bekleniyor",
-      match_count: 0,
-      matches: [],
-    }),
-  ]);
-  renderProAnalysisCenter(payload, bulletinPayload);
-  applyResultsPayload(payload, "network");
+  const bulletinPayload = await readJson("./data/full-bulletin.json", {
+    source: "Güncel bülten bekleniyor",
+    match_count: 0,
+    matches: [],
+  });
+  setSummary([], bulletinPayload?.source || "Güncel bülten", bulletinPayload);
+  if (analysisList) analysisList.innerHTML = emptyBox("Maç bazlı PRO değerlendirmeler üyelik doğrulamasından sonra Özel Analiz alanında açılır.");
+  if (strongestPickCard) strongestPickCard.innerHTML = emptyBox("Korumalı günün seçimi için Özel Analiz alanında üyelik kodunu doğrula.");
 };
 
 const renderFixtures = () => {
@@ -505,8 +499,8 @@ const loadFixtures = async () => {
 };
 
 const renderStaticEmptySections = () => {
-  if (analysisList) analysisList.innerHTML = emptyBox("Maç bazlı PRO analiz bekleniyor. Eski sabit/uydurma veriler gösterilmez.");
-  if (strongestPickCard) strongestPickCard.innerHTML = emptyBox("Günün seçimi gerçek PRO analiz geldikten sonra otomatik üretilecek.");
+  if (analysisList) analysisList.innerHTML = emptyBox("Maç bazlı PRO değerlendirmeler üyelik doğrulamasından sonra Özel Analiz alanında açılır.");
+  if (strongestPickCard) strongestPickCard.innerHTML = emptyBox("Korumalı günün seçimi için Özel Analiz alanında üyelik kodunu doğrula.");
   if (databaseBody) databaseBody.innerHTML = `<tr><td colspan="10">Canlı veri görünümü bekleniyor. Eski sabit maç kayıtları gösterilmez.</td></tr>`;
   setSummary([], "PRO analiz bekleniyor");
 };

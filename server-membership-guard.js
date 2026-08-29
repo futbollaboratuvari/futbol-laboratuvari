@@ -147,8 +147,12 @@
 
     const oldText = button.textContent;
     button.disabled = true;
-    button.textContent = "Hak kontrol ediliyor...";
+    button.textContent = "PRO veri ve hak kontrol ediliyor...";
     try {
+      if (!window.FLProAnalysisAccess?.refresh) {
+        throw new Error("Korumalı analiz modülü henüz hazır değil. Lütfen birkaç saniye sonra yeniden dene.");
+      }
+      await window.FLProAnalysisAccess.refresh(code);
       const data = await request(CONSUME_URL, { code, clientId: getClientId() });
       const membership = data.membership || {};
       const serverRemaining = Number(membership.remainingAnalysisCount);
