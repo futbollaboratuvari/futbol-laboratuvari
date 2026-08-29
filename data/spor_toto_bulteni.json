@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T15:14:21.463Z",
+  "generated_at": "2026-08-29T18:33:47.879Z",
   "timezone": "Europe/Istanbul",
   "source": "Haftalık 15 maç programı + Futbol Laboratuvarı PRO 13",
   "official_game_format_verified": true,
@@ -15,7 +15,7 @@
   "match_count": 15,
   "analysis_ready_count": 15,
   "analysis_waiting_count": 0,
-  "source_match_count": 422,
+  "source_match_count": 165,
   "verification_sources": [
     {
       "name": "Spor Toto Teşkilat Başkanlığı",
@@ -205,23 +205,23 @@
       "away": "Kocaelispor",
       "match": "Tümosan Konyaspor - Kocaelispor",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "06174",
-      "one": 1.75,
-      "draw": 2.95,
-      "two": 3.74,
-      "oneOdd": 1.75,
-      "drawOdd": 2.95,
-      "twoOdd": 3.74,
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
       "probabilities": {
         "1": 64,
         "2": 10,
         "X": 26
       },
       "market_probabilities": {
-        "1": 48.5,
-        "2": 22.7,
-        "X": 28.8
+        "1": null,
+        "2": null,
+        "X": null
       },
       "public_distribution": {
         "1": 64,
@@ -252,7 +252,6 @@
       ],
       "model_version": "pro13-market-conditioned-v1",
       "score_type": "spor_toto_1x2",
-      "independent_evidence": false,
       "form": {
         "home": {
           "count": 1,
@@ -308,6 +307,7 @@
         "away": [],
         "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
       },
+      "independent_evidence": false,
       "evidence_mode": "cross_verified_public_distribution",
       "archive_analysis": {
         "ready": false,
@@ -336,21 +336,21 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "matchCode": "06175",
-      "one": 1.18,
-      "draw": 5.79,
-      "two": 9.58,
-      "oneOdd": 1.18,
-      "drawOdd": 5.79,
-      "twoOdd": 9.58,
+      "one": 1.16,
+      "draw": 6,
+      "two": 9.81,
+      "oneOdd": 1.16,
+      "drawOdd": 6,
+      "twoOdd": 9.81,
       "probabilities": {
         "1": 72,
         "2": 12,
         "X": 16
       },
       "market_probabilities": {
-        "1": 75.3,
-        "2": 9.3,
-        "X": 15.4
+        "1": 76.3,
+        "2": 9,
+        "X": 14.7
       },
       "public_distribution": {
         "1": 72,
@@ -1248,21 +1248,21 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "matchCode": "00722",
-      "one": 1.22,
-      "draw": 4.92,
-      "two": 6.67,
-      "oneOdd": 1.22,
-      "drawOdd": 4.92,
-      "twoOdd": 6.67,
+      "one": 1.17,
+      "draw": 5.29,
+      "two": 7.37,
+      "oneOdd": 1.17,
+      "drawOdd": 5.29,
+      "twoOdd": 7.37,
       "probabilities": {
         "1": 86,
         "2": 6,
         "X": 8
       },
       "market_probabilities": {
-        "1": 69.9,
-        "2": 12.8,
-        "X": 17.3
+        "1": 72.5,
+        "2": 11.5,
+        "X": 16
       },
       "public_distribution": {
         "1": 86,
@@ -1636,21 +1636,21 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "matchCode": "11462",
-      "one": 1.94,
-      "draw": 3.32,
-      "two": 2.77,
-      "oneOdd": 1.94,
-      "drawOdd": 3.32,
-      "twoOdd": 2.77,
+      "one": 1.95,
+      "draw": 3.33,
+      "two": 2.75,
+      "oneOdd": 1.95,
+      "drawOdd": 3.33,
+      "twoOdd": 2.75,
       "probabilities": {
         "1": 51,
         "2": 28,
         "X": 21
       },
       "market_probabilities": {
-        "1": 43.7,
-        "2": 30.7,
-        "X": 25.6
+        "1": 43.6,
+        "2": 30.9,
+        "X": 25.5
       },
       "public_distribution": {
         "1": 51,
@@ -1766,10 +1766,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "matchCode": "11392",
-      "one": 3.62,
+      "one": 3.64,
       "draw": 3.05,
       "two": 1.74,
-      "oneOdd": 3.62,
+      "oneOdd": 3.64,
       "drawOdd": 3.05,
       "twoOdd": 1.74,
       "probabilities": {
@@ -2017,8 +2017,8 @@
   ],
   "archive_enrichment": {
     "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
-    "generated_at": "2026-08-29T15:14:20.092Z",
-    "archive_match_count": 10104,
+    "generated_at": "2026-08-29T18:33:46.654Z",
+    "archive_match_count": 10106,
     "archive_ready_count": 0,
     "distribution_ready_count": 15,
     "analysis_available_count": 15

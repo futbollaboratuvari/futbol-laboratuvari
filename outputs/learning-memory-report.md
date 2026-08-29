@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.08.2026 18:14:14
+Oluşturma: 29.08.2026 21:33:34
 
 ## Özet
 
@@ -20,9 +20,9 @@ Oluşturma: 29.08.2026 18:14:14
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 190, bekleyen 141, başarı %71, ağırlık 1.12
+- 2.5 Üst: toplam 191, bekleyen 142, başarı %71, ağırlık 1.12
 - MS 2: toplam 200, bekleyen 164, başarı %61, ağırlık 1.06
-- 2.5 Alt: toplam 602, bekleyen 490, başarı %55, ağırlık 1.06
+- 2.5 Alt: toplam 601, bekleyen 489, başarı %55, ağırlık 1.06
 - MS 1: toplam 501, bekleyen 430, başarı %54, ağırlık 1
 - KG Var: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
@@ -30,6 +30,7 @@ Oluşturma: 29.08.2026 18:14:14
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-29 | Meksika Liga MX Apertura | Pachuca - Guadalajara | 2.5 Üst | pending | 67/100
 - 2026-08-29 | Norveç 3.Lig Grup 4 | Hinna - Vag Fk | MS 1 | pending | 45/100
 - 2026-08-29 | Belarus 1.Lig | Ostrovets Fc - Volna Pinsk | MS 1 | pending | 45/100
 - 2026-08-29 | Finlandiya Ykkönen | Oulun Ls - Tampere Utd | MS 1 | pending | 45/100
@@ -41,8 +42,7 @@ Oluşturma: 29.08.2026 18:14:14
 - 2026-08-29 | Hırvatistan 1.HNL | Istra - Dinamo Zagreb | KG Var | pending | 39/100
 - 2026-08-29 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ain - Al Nasr | MS 1 | pending | 57/100
 - 2026-08-29 | Avusturya 1.Lig | Avusturya Wien - Bregenz | MS 1 | pending | 49/100
-- 2026-08-29 | Malta Premier Lig Açılış | Hamrun - Floriana | MS 1 | pending | 56/100
-- 2026-08-29 | İspanya LaLiga | Real Sociedad - Espanyol | MS 1 | pending | 53/100
+- 2026-08-29 | Malta Premier Lig Açılış | Hamrun - Floriana | MS 1 | pending | 53/100
+- 2026-08-29 | İspanya LaLiga | Real Sociedad - Espanyol | MS 1 | pending | 47/100
 - 2026-08-29 | Macaristan NB III Kuzeybatı | Veszprem - Gyor Ii | 2.5 Alt | pending | 53/100
-- 2026-08-29 | Slovenya 2.SNL | Bistrica - Dren Vrhnika | 2.5 Alt | pending | 55/100
 
