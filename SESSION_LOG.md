@@ -257,7 +257,7 @@ GitHub Pages / Vercel çift yayın güvenlik tamamlaması yapıldı.
 Summary:
 - İlk üretim dağıtımından sonra özel alan adının Vercel değil GitHub Pages tarafından sunulduğu canlı HTTP başlıklarıyla tespit edildi.
 - Korumalı PRO ve ödeme istemcileri sabit Vercel üretim API origin'ine geçirildi; iki doğru site origin'i için dar CORS, OPTIONS ve yabancı-origin reddi eklendi.
-- `.nojekyll` kaldırıldı ve `_config.yml` ile özel analiz, tam sonuç, ham havuz, üyelik ve kullanım verileri GitHub Pages çıktısından dışlandı.
+- `.nojekyll` kaldırıldı; Pages iş akışı `npm run build` ile güvenli `public/` artifact'i üretip yalnız bu dizini yayımlayacak şekilde değiştirildi. Özel analiz, tam sonuç, ham havuz, üyelik ve kullanım verileri artifact'e hiç girmez.
 - Eski `/api/verify-code` kullanım günlüğü GET'i yönetici anahtarı olmadan 401 dönecek şekilde kapatıldı; herkese açık CORS kaldırıldı.
 - GitHub Pages için erken CSP meta politikası, değişen betikler için yeni önbellek sürümü ve Vercel CSP bağlantı izni eklendi.
 - Doğrulanmış statü, PRO model/indeks, sonuç zinciri, takım istihbaratı, güvenlik/yasal, performans, Özel Analiz V3 ve kupon uygunluk regresyonları birlikte geçti.

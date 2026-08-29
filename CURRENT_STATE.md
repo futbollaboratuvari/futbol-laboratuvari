@@ -159,7 +159,7 @@ Current hosting and security state:
 - Özel alan adı GitHub Pages üzerinden arayüzü, `futbol-laboratuvari.vercel.app` ise korumalı analiz ve sipariş API'lerini sunar.
 - İstemci yalnız yerel/Vercel ortamında aynı origin'i; GitHub Pages alan adında sabit Vercel üretim origin'ini kullanır.
 - PRO ve banka API'leri yalnız doğru iki üretim origin'ine CORS izni verir; yabancı origin ve geçersiz preflight istekleri reddedilir.
-- GitHub Pages artık Jekyll dışlama listesiyle robot analizi, tam sonuç arşivi, üyelik kodu, kullanım günlüğü ve ham havuz dosyalarını yayımlamaz.
+- GitHub Pages iş akışı artık depoyu doğrudan yayımlamaz; güvenli `public/` artifact'ini üretir ve robot analizi, tam sonuç arşivi, üyelik kodu, kullanım günlüğü ile ham havuz dosyalarını fiziksel olarak artifact dışında bırakır.
 - Eski kullanım günlüğü API'sinin anonim GET erişimi kapatıldı; yönetici anahtarı olmadan kayıt dönmez.
 - GitHub Pages üzerinde CSP meta politikası, Vercel üzerinde CSP/HSTS ve diğer güvenlik başlıkları uygulanır.
 - Satıcı profili eksik kaldığı sürece ücretli sipariş hem arayüzde hem sunucuda kapalıdır; ücretsiz deneme ve mevcut üyelik doğrulaması ayrı Supabase akışında kalır.

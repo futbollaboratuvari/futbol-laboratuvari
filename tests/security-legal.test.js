@@ -134,7 +134,7 @@ function testStaticProtectionAndConsent() {
   const payment = read("bank-transfer-payment.js");
   const legalProfile = read("legal-seller-profile.js");
   const daily = read("daily-matches-widget.js");
-  const pagesConfig = read("_config.yml");
+  const pagesWorkflow = read(".github/workflows/deploy-pages.yml");
   const { sanitizePublicLive } = require("../scripts/sanitize-public-live");
   const htmlFiles = fs.readdirSync(root).filter((name) => name.endsWith(".html"));
 
@@ -145,10 +145,8 @@ function testStaticProtectionAndConsent() {
   assert.match(payment, /futbol-laboratuvari\.vercel\.app/);
   assert.match(legalProfile, /futbol-laboratuvari\.vercel\.app/);
   assert.match(build, /data\/pro-analysis-index\.json/);
-  assert.match(pagesConfig, /data\/robot-analysis\.json/);
-  assert.match(pagesConfig, /data\/analiz_sonuclari\.json/);
-  assert.match(pagesConfig, /data\/membership-codes\.json/);
-  assert.match(pagesConfig, /data\/usage-log\.json/);
+  assert.match(pagesWorkflow, /run: npm run build/);
+  assert.match(pagesWorkflow, /path: \.\/public/);
   assert.equal(fs.existsSync(path.join(root, ".nojekyll")), false);
   assert.match(cookie, /data-cookie-choice="accept"/);
   assert.match(cookie, /data-cookie-choice="reject"/);

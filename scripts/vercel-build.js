@@ -26,8 +26,7 @@ const excludedRoots = new Set([
   "tests",
   "package.json",
   "package-lock.json",
-  "vercel.json",
-  "_config.yml"
+  "vercel.json"
 ]);
 
 const excludedRelativePaths = new Set([
