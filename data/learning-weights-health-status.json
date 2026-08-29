@@ -1,60 +1,70 @@
 {
-  "generated_at": "2026-08-29T09:11:46.417Z",
+  "generated_at": "2026-08-29T14:38:03.074Z",
   "status": "active",
   "prediction_count": 1500,
   "market_memory": {
     "total": 6,
-    "ready": 5,
-    "boost": 1,
-    "penalty": 1,
+    "ready": 4,
+    "boost": 3,
+    "penalty": 0,
     "best": [
       {
         "name": "2.5 Üst",
-        "total": 173,
-        "pending": 131,
-        "won": 31,
-        "lost": 11,
+        "total": 191,
+        "pending": 142,
+        "won": 35,
+        "lost": 14,
         "void": 0,
-        "success_rate": 0.738,
-        "weight": 1.12,
-        "confidence_adjustment": 4
-      }
-    ],
-    "weak": [
-      {
-        "name": "MS X",
-        "total": 23,
-        "pending": 18,
-        "won": 2,
-        "lost": 3,
-        "void": 0,
-        "success_rate": 0.4,
-        "weight": 0.88,
-        "confidence_adjustment": -5
-      }
-    ]
-  },
-  "league_memory": {
-    "total": 216,
-    "ready": 23,
-    "boost": 13,
-    "penalty": 9,
-    "best": [
-      {
-        "name": "Ekvador Pro Lig",
-        "total": 11,
-        "pending": 5,
-        "won": 5,
-        "lost": 1,
-        "void": 0,
-        "success_rate": 0.833,
+        "success_rate": 0.714,
         "weight": 1.12,
         "confidence_adjustment": 4
       },
       {
-        "name": "Şili Premier Lig",
-        "total": 11,
-        "pending": 6,
+        "name": "MS 2",
+        "total": 204,
+        "pending": 167,
+        "won": 23,
+        "lost": 14,
+        "void": 0,
+        "success_rate": 0.622,
+        "weight": 1.12,
+        "confidence_adjustment": 4
+      },
+      {
+        "name": "2.5 Alt",
+        "total": 605,
+        "pending": 493,
+        "won": 62,
+        "lost": 50,
+        "void": 0,
+        "success_rate": 0.554,
+        "weight": 1.06,
+        "confidence_adjustment": 2
+      }
+    ],
+    "weak": []
+  },
+  "league_memory": {
+    "total": 218,
+    "ready": 21,
+    "boost": 12,
+    "penalty": 5,
+    "best": [
+      {
+        "name": "Ekvador Pro Lig",
+        "total": 10,
+        "pending": 5,
+        "won": 5,
+        "lost": 0,
+        "void": 0,
+        "success_rate": 1,
+        "weight": 1.12,
+        "confidence_adjustment": 4
+      },
+      {
+        "name": "Brezilya Serie A",
+        "total": 9,
+        "pending": 4,
         "won": 4,
         "lost": 1,
         "void": 0,
@@ -74,6 +84,17 @@
         "confidence_adjustment": 4
       },
       {
+        "name": "Kolombiya Primera A Clausura",
+        "total": 20,
+        "pending": 12,
+        "won": 6,
+        "lost": 2,
+        "void": 0,
+        "success_rate": 0.75,
+        "weight": 1.12,
+        "confidence_adjustment": 4
+      },
+      {
         "name": "Arjantin Ulusal Primera Lig",
         "total": 18,
         "pending": 11,
@@ -85,24 +106,13 @@
         "confidence_adjustment": 4
       },
       {
-        "name": "Brezilya Serie A",
-        "total": 11,
-        "pending": 4,
-        "won": 5,
-        "lost": 2,
+        "name": "Brezilya Serie B",
+        "total": 21,
+        "pending": 11,
+        "won": 7,
+        "lost": 3,
         "void": 0,
-        "success_rate": 0.714,
-        "weight": 1.12,
-        "confidence_adjustment": 4
-      },
-      {
-        "name": "Bolivya Premier Lig",
-        "total": 11,
-        "pending": 4,
-        "won": 5,
-        "lost": 2,
-        "void": 0,
-        "success_rate": 0.714,
+        "success_rate": 0.7,
         "weight": 1.12,
         "confidence_adjustment": 4
       },
@@ -118,31 +128,31 @@
         "confidence_adjustment": 4
       },
       {
-        "name": "Kolombiya Primera A Clausura",
-        "total": 22,
-        "pending": 13,
-        "won": 6,
-        "lost": 3,
+        "name": "El Salvador Primera Lig Apertura",
+        "total": 11,
+        "pending": 5,
+        "won": 4,
+        "lost": 2,
         "void": 0,
         "success_rate": 0.667,
         "weight": 1.12,
         "confidence_adjustment": 4
       },
       {
-        "name": "İtalya Serie A",
-        "total": 11,
-        "pending": 6,
-        "won": 3,
+        "name": "Bolivya Premier Lig",
+        "total": 10,
+        "pending": 4,
+        "won": 4,
         "lost": 2,
         "void": 0,
-        "success_rate": 0.6,
-        "weight": 1.06,
-        "confidence_adjustment": 2
+        "success_rate": 0.667,
+        "weight": 1.12,
+        "confidence_adjustment": 4
       },
       {
-        "name": "Meksika Liga MX Apertura",
-        "total": 16,
-        "pending": 11,
+        "name": "Meksika Ascenso MX Apertura",
+        "total": 13,
+        "pending": 8,
         "won": 3,
         "lost": 2,
         "void": 0,
@@ -175,20 +185,9 @@
         "confidence_adjustment": -5
       },
       {
-        "name": "Fransa Ligue 2",
-        "total": 12,
-        "pending": 4,
-        "won": 3,
-        "lost": 5,
-        "void": 0,
-        "success_rate": 0.375,
-        "weight": 0.88,
-        "confidence_adjustment": -5
-      },
-      {
-        "name": "Meksika Ascenso MX Apertura",
-        "total": 13,
-        "pending": 8,
+        "name": "Meksika Liga MX Apertura",
+        "total": 15,
+        "pending": 10,
         "won": 2,
         "lost": 3,
         "void": 0,
@@ -208,40 +207,7 @@
         "confidence_adjustment": -5
       },
       {
-        "name": "Arjantin Premier Lig 2. Aşama",
-        "total": 18,
-        "pending": 11,
-        "won": 3,
-        "lost": 4,
-        "void": 0,
-        "success_rate": 0.429,
-        "weight": 0.94,
-        "confidence_adjustment": -2
-      },
-      {
-        "name": "Suudi Arabistan Pro Lig",
-        "total": 17,
-        "pending": 3,
-        "won": 6,
-        "lost": 8,
-        "void": 0,
-        "success_rate": 0.429,
-        "weight": 0.94,
-        "confidence_adjustment": -2
-      },
-      {
-        "name": "İspanya LaLiga",
-        "total": 11,
-        "pending": 4,
-        "won": 3,
-        "lost": 4,
-        "void": 0,
-        "success_rate": 0.429,
-        "weight": 0.94,
-        "confidence_adjustment": -2
-      },
-      {
-        "name": "El Salvador Primera Lig Apertura",
+        "name": "Fransa Ligue 2",
         "total": 12,
         "pending": 5,
         "won": 3,
@@ -254,10 +220,10 @@
     ]
   },
   "league_market_memory": {
-    "total": 569,
-    "ready": 11,
+    "total": 548,
+    "ready": 10,
     "boost": 5,
-    "penalty": 6,
+    "penalty": 5,
     "best": [
       {
         "name": "İngiltere Lig Kupası 2.Tur :: MS 2",
@@ -324,17 +290,6 @@
         "lost": 6,
         "void": 0,
         "success_rate": 0.143,
-        "weight": 0.88,
-        "confidence_adjustment": -5
-      },
-      {
-        "name": "Suudi Arabistan Pro Lig :: MS 1",
-        "total": 5,
-        "pending": 0,
-        "won": 1,
-        "lost": 4,
-        "void": 0,
-        "success_rate": 0.2,
         "weight": 0.88,
         "confidence_adjustment": -5
       },

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-29T09:11:46.434Z",
+  "generated_at": "2026-08-29T14:38:03.090Z",
   "totals": {
     "predictions": 1500,
-    "finished": 281,
-    "pending": 1219
+    "finished": 270,
+    "pending": 1230
   },
   "learning_output_status": "ready",
   "market_development": {
@@ -11,25 +11,24 @@
     "strong": [
       {
         "name": "2.5 Üst",
-        "won": 31,
-        "lost": 11,
-        "total": 42,
-        "success_rate": 74,
+        "won": 35,
+        "lost": 14,
+        "total": 49,
+        "success_rate": 71,
+        "weight": 1.12,
+        "ready": true
+      },
+      {
+        "name": "MS 2",
+        "won": 23,
+        "lost": 14,
+        "total": 37,
+        "success_rate": 62,
         "weight": 1.12,
         "ready": true
       }
     ],
-    "weak": [
-      {
-        "name": "MS X",
-        "won": 2,
-        "lost": 3,
-        "total": 5,
-        "success_rate": 40,
-        "weight": 0.88,
-        "ready": true
-      }
-    ]
+    "weak": []
   },
   "league_development": {
     "label": "league",
@@ -37,14 +36,14 @@
       {
         "name": "Ekvador Pro Lig",
         "won": 5,
-        "lost": 1,
-        "total": 6,
-        "success_rate": 83,
+        "lost": 0,
+        "total": 5,
+        "success_rate": 100,
         "weight": 1.12,
         "ready": true
       },
       {
-        "name": "Şili Premier Lig",
+        "name": "Brezilya Serie A",
         "won": 4,
         "lost": 1,
         "total": 5,
@@ -62,16 +61,16 @@
         "ready": true
       },
       {
-        "name": "Arjantin Ulusal Primera Lig",
-        "won": 5,
+        "name": "Kolombiya Primera A Clausura",
+        "won": 6,
         "lost": 2,
-        "total": 7,
-        "success_rate": 71,
+        "total": 8,
+        "success_rate": 75,
         "weight": 1.12,
         "ready": true
       },
       {
-        "name": "Brezilya Serie A",
+        "name": "Arjantin Ulusal Primera Lig",
         "won": 5,
         "lost": 2,
         "total": 7,
@@ -82,20 +81,11 @@
     ],
     "weak": [
       {
-        "name": "Meksika Ascenso MX Apertura",
+        "name": "Meksika Liga MX Apertura",
         "won": 2,
         "lost": 3,
         "total": 5,
         "success_rate": 40,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "Fransa Ligue 2",
-        "won": 3,
-        "lost": 5,
-        "total": 8,
-        "success_rate": 38,
         "weight": 0.88,
         "ready": true
       },
@@ -175,15 +165,6 @@
         "lost": 3,
         "total": 5,
         "success_rate": 40,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "Suudi Arabistan Pro Lig :: MS 1",
-        "won": 1,
-        "lost": 4,
-        "total": 5,
-        "success_rate": 20,
         "weight": 0.88,
         "ready": true
       },
