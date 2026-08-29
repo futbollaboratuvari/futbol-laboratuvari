@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.08.2026 06:15:39
+Oluşturma: 29.08.2026 06:24:37
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1274
-- Kazanan tahmin: 133
-- Kaybeden tahmin: 93
-- Lig sayısı: 218
+- Bekleyen tahmin: 1218
+- Kazanan tahmin: 156
+- Kaybeden tahmin: 126
+- Lig sayısı: 217
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -20,15 +20,17 @@ Oluşturma: 29.08.2026 06:15:39
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 171, bekleyen 141, başarı %83, ağırlık 1.12
-- 2.5 Alt: toplam 579, bekleyen 492, başarı %60, ağırlık 1.06
-- MS 1: toplam 487, bekleyen 430, başarı %54, ağırlık 1
-- MS X: toplam 27, bekleyen 21, başarı %50, ağırlık 1
-- MS 2: toplam 235, bekleyen 189, başarı %48, ağırlık 0.94
+- 2.5 Üst: toplam 173, bekleyen 133, başarı %73, ağırlık 1.12
+- 2.5 Alt: toplam 579, bekleyen 470, başarı %54, ağırlık 1
+- MS 1: toplam 487, bekleyen 413, başarı %53, ağırlık 1
+- MS X: toplam 26, bekleyen 20, başarı %50, ağırlık 1
+- MS 2: toplam 234, bekleyen 181, başarı %49, ağırlık 1
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-29 | Ekvador Pro Lig | T.Universitari - Deportivo Cuenc | 2.5 Üst | pending | 68/100
+- 2026-08-29 | Uruguay Premier Lig Clausura | Montevideo Wan - Central Espanol | 2.5 Üst | pending | 71/100
 - 2026-08-29 | ABD USL Lig 1 | Westchester Sc - Spokane Velocit | 2.5 Alt | pending | 55/100
 - 2026-08-29 | ABD USL | Oakland Roots - Orange County B | MS 1 | pending | 51/100
 - 2026-08-29 | İtalya Serie C Grup C | Internazionale - Team Altamura | 2.5 Alt | pending | 59/100
@@ -42,6 +44,4 @@ Oluşturma: 29.08.2026 06:15:39
 - 2026-08-29 | Tanzanya Kuu Bara Ligi | Tabora United - Dodoma Jiji | MS 1 | pending | 55/100
 - 2026-08-29 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Khorfakkan Clu - Al Dhafra | 2.5 Alt | pending | 53/100
 - 2026-08-29 | İngiltere 2.Lig | Barnet - Cheltenham | MS 1 | pending | 56/100
-- 2026-08-29 | Çin Halk Cumhuriyeti 1.Lig | Foshan Nanshi - Shenzhen Junior | 2.5 Alt | pending | 55/100
-- 2026-08-29 | Güney Kore K3 Ligi | Daejeon Korail - Yangpyeong | MS 1 | pending | 53/100
 
