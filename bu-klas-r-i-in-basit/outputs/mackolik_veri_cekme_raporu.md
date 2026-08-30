@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-30T13:00:24.965876+00:00
+Tarih: 2026-08-30T13:17:39.880019+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 308
-- Kac mac kaydedildi: 16
-- Kac mac zaten vardi: 292
+- Kac mac bulundu: 251
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 251
 - Ham veri havuzu toplam mac sayisi: 10572
 - Hedef tarih: 30.08.2026 Europe/Istanbul
 
@@ -17,7 +17,6 @@ Tarih: 2026-08-30T13:00:24.965876+00:00
 - ABD MLS
 - Almanya 3. Lig
 - Almanya Bundesliga
-- Almanya Bölgesel Lig Kuzey
 - Almanya Kadınlar Bundesliga
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
@@ -34,24 +33,18 @@ Tarih: 2026-08-30T13:00:24.965876+00:00
 - Brezilya Serie A
 - Brezilya Serie B
 - Bulgaristan 1.Lig
-- Danimarka 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Ykkösliiga
 - Fransa Ligue 1
-- Guatemala Ulusal Lig Apertura
-- Güney Afrika 8 Kupası Yarı Final
 - Gürcistan Erovnuli Liga
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Irak Premier Lig
-- Kanada Premier Lig
 - Kazakistan Premier Lig
 - Kolombiya Primera A Clausura
 - Kosta Rika Premier Lig Apertura
@@ -67,13 +60,10 @@ Tarih: 2026-08-30T13:00:24.965876+00:00
 - Macaristan NB III Kuzeydoğu
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Nijerya NPFL
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
-- Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 3
@@ -98,7 +88,6 @@ Tarih: 2026-08-30T13:00:24.965876+00:00
 - Tunus 1.Lig
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
-- Uganda Premier Lig
 - Ukrayna Premier Lig
 - Umman Profesyonel Lig
 - Uruguay Premier Lig Clausura
@@ -202,26 +191,26 @@ Tarih: 2026-08-30T13:00:24.965876+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 30.08.2026 | 19:00 | Türkiye Süper Lig | Eyüpspor | Alanyaspor | 06555 | 5 |
 | 30.08.2026 | 21:30 | Türkiye Süper Lig | Başakşehir Fk | Kasimpaşa | 06558 | 5 |
 | 30.08.2026 | 21:30 | Türkiye Süper Lig | Samsunspor | Fenerbahçe | 06560 | 5 |
-| 30.08.2026 | 21:30 | Türkiye TFF 1. Lig | Manisa Futbol | Bodrum Fk | 20511 | 5 |
+| 30.08.2026 | 19:00 | Türkiye Süper Lig | Eyüpspor | Alanyaspor | 06555 | 5 |
 | 30.08.2026 | 19:00 | Türkiye TFF 1. Lig | Esenler Eroksp | Iğdır Fk | 20494 | 5 |
-| 30.08.2026 | 16:00 | İngiltere Premier Lig | Chelsea | Brighton | 13427 | 5 |
-| 30.08.2026 | 16:00 | İngiltere Premier Lig | Leeds Utd | Brentford | 13489 | 5 |
-| 30.08.2026 | 16:00 | İngiltere Premier Lig | Sunderland | Fulham | 13961 | 5 |
+| 30.08.2026 | 21:30 | Türkiye TFF 1. Lig | Manisa Futbol | Bodrum Fk | 20511 | 5 |
 | 30.08.2026 | 18:30 | İngiltere Premier Lig | Man. Utd | Ipswich | 14031 | 5 |
+| 30.08.2026 | 22:30 | İspanya LaLiga | Celta Vigo | Athletic Bilbao | 19269 | 5 |
 | 30.08.2026 | 18:00 | İspanya LaLiga | Real Madrid | Malaga | 18729 | 4 |
 | 30.08.2026 | 20:30 | İspanya LaLiga | D.La Coruna | Valencia | 19211 | 5 |
-| 30.08.2026 | 22:30 | İspanya LaLiga | Celta Vigo | Athletic Bilbao | 19269 | 5 |
-| 30.08.2026 | 19:30 | İtalya Serie A | Napoli | Como | 24276 | 5 |
-| 30.08.2026 | 21:45 | İtalya Serie A | Cagliari | Inter | 00160 | 5 |
 | 30.08.2026 | 21:45 | İtalya Serie A | Lazio | Genoa | 24334 | 5 |
-| 30.08.2026 | 16:00 | Fransa Ligue 1 | Paris Fc | Nice | 27313 | 5 |
-| 30.08.2026 | 21:45 | Fransa Ligue 1 | Monaco | Marsilya | 06854 | 5 |
+| 30.08.2026 | 21:45 | İtalya Serie A | Cagliari | Inter | 00160 | 5 |
+| 30.08.2026 | 19:30 | İtalya Serie A | Napoli | Como | 24276 | 5 |
 | 30.08.2026 | 18:15 | Fransa Ligue 1 | Rennes | Le Mans | 27370 | 5 |
-| 30.08.2026 | 18:30 | Almanya Bundesliga | Augsburg | Schalke | 21882 | 5 |
+| 30.08.2026 | 21:45 | Fransa Ligue 1 | Monaco | Marsilya | 06854 | 5 |
 | 30.08.2026 | 16:30 | Almanya Bundesliga | Freiburg | Werder Bremen | 21765 | 5 |
+| 30.08.2026 | 18:30 | Almanya Bundesliga | Augsburg | Schalke | 21882 | 5 |
+| 30.08.2026 | 21:00 | Hollanda Eredivisie | Cambuur | Twente | 28705 | 5 |
+| 30.08.2026 | 17:45 | Hollanda Eredivisie | Telstar | Ajax | 28647 | 5 |
+| 30.08.2026 | 22:30 | Portekiz Premier Lig | Famalicao | Gil Vicente | 29106 | 5 |
+| 30.08.2026 | 20:00 | Portekiz Premier Lig | Casa Pia | Moreirense | 29048 | 5 |
 
 ## Sonuc
 
