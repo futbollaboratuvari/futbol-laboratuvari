@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-08-30T01:40:07.805Z",
+  "generated_at": "2026-08-30T05:58:44.072Z",
   "date": "2026-08-30",
-  "source": "High Value Coupon Engine",
-  "message": "",
+  "source": "PRO merkezi kupon uygunluk motoru",
+  "message": "Doğrulanmış kupon adayı yok; kupon yayımlanmadı.",
+  "candidate_count": 0,
+  "eligibility_policy": "include_in_coupon + independent_evidence + model>=65 + completeness>=45 + probability>=42 + acceptable_risk",
   "coupons": {
     "balanced": {
       "coupon_name": "Dengeli Kupon",
@@ -12,8 +14,8 @@
       "average_confidence_score": "-",
       "combined_estimated_probability": null,
       "risk_level": "-",
-      "short_description": "Bugün için güncel veri henüz oluşmadı.",
-      "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
+      "short_description": "Doğrulanmış kupon adayı yok. Uygunluk eşikleri sağlanmadan kupon yayımlanmaz.",
+      "robot_reason": "Bağımsız kanıt, model gücü, veri kapsamı, olasılık ve risk kuralları birlikte sağlanmadı.",
       "is_available": false
     },
     "high_value": {
@@ -24,8 +26,8 @@
       "average_confidence_score": "-",
       "combined_estimated_probability": null,
       "risk_level": "-",
-      "short_description": "Bugün için güncel veri henüz oluşmadı.",
-      "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
+      "short_description": "Doğrulanmış kupon adayı yok. Uygunluk eşikleri sağlanmadan kupon yayımlanmaz.",
+      "robot_reason": "Bağımsız kanıt, model gücü, veri kapsamı, olasılık ve risk kuralları birlikte sağlanmadı.",
       "is_available": false
     },
     "risk_lab": {
@@ -36,8 +38,8 @@
       "average_confidence_score": "-",
       "combined_estimated_probability": null,
       "risk_level": "-",
-      "short_description": "Bugün için güncel veri henüz oluşmadı.",
-      "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
+      "short_description": "Doğrulanmış kupon adayı yok. Uygunluk eşikleri sağlanmadan kupon yayımlanmaz.",
+      "robot_reason": "Bağımsız kanıt, model gücü, veri kapsamı, olasılık ve risk kuralları birlikte sağlanmadı.",
       "is_available": false
     }
   }
