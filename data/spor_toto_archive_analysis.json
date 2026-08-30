@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T20:02:38.968Z",
+  "generated_at": "2026-08-30T22:28:36.480Z",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
   "model_version": "pro13-market-conditioned-v1-weekly-archive",
@@ -475,7 +475,8 @@
           "lossRate": 0,
           "pointsPerGame": 3,
           "recent": [
-            "W"
+            "W",
+            "D"
           ]
         }
       },
@@ -527,7 +528,8 @@
           "lossRate": 0,
           "pointsPerGame": 3,
           "recent": [
-            "W"
+            "W",
+            "L"
           ]
         },
         "away": {
@@ -547,11 +549,19 @@
           "lossRate": 0,
           "pointsPerGame": 3,
           "recent": [
+            "W",
             "W"
           ]
         }
       },
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-08-30",
+          "home": "Samsunspor",
+          "away": "Fenerbahçe",
+          "score": "0-2"
+        }
+      ]
     },
     {
       "no": 8,
@@ -881,29 +891,39 @@
           "lossRate": 0,
           "pointsPerGame": 3,
           "recent": [
+            "W",
             "W"
           ]
         },
         "away": {
-          "count": 0,
+          "count": 1,
           "scored": 0,
-          "conceded": 0,
+          "conceded": 1,
           "bttsRate": 0,
           "over25Rate": 0,
           "over35Rate": 0,
           "goalsForAvg": 0,
-          "goalsAgainstAvg": 0,
+          "goalsAgainstAvg": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
+          "losses": 1,
           "winRate": 0,
           "drawRate": 0,
-          "lossRate": 0,
+          "lossRate": 100,
           "pointsPerGame": 0,
-          "recent": []
+          "recent": [
+            "L"
+          ]
         }
       },
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-08-30",
+          "home": "Monaco",
+          "away": "Marsilya",
+          "score": "2-0"
+        }
+      ]
     },
     {
       "no": 13,
@@ -1103,7 +1123,8 @@
           "lossRate": 0,
           "pointsPerGame": 3,
           "recent": [
-            "W"
+            "W",
+            "L"
           ]
         },
         "away": {
@@ -1123,11 +1144,19 @@
           "lossRate": 0,
           "pointsPerGame": 3,
           "recent": [
+            "W",
             "W"
           ]
         }
       },
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-08-30",
+          "home": "Cagliari",
+          "away": "Inter",
+          "score": "0-1"
+        }
+      ]
     }
   ]
 }

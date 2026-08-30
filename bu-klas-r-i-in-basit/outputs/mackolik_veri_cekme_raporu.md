@@ -1,27 +1,82 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-30T20:02:20.853673+00:00
+Tarih: 2026-08-30T22:27:45.211045+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 8
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 8
-- Ham veri havuzu toplam mac sayisi: 10572
-- Hedef tarih: 30.08.2026 Europe/Istanbul
+- Kac mac bulundu: 183
+- Kac mac kaydedildi: 183
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 10755
+- Hedef tarih: 31.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
+- AFC Şampiyonlar Ligi 2 Ön Eleme Turu
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Ekvador Pro Lig
-- Norveç 3.Lig Grup 1
+- Azerbaycan Premier Lig
+- Brezilya Serie A
+- Brezilya Serie B
+- Bulgaristan 1.Lig
+- Danimarka Süperlig
+- Faroe Adaları Master Lig
+- Finlandiya Veikkausliiga
+- Fransa Ligue 2
+- Galler FAW Championship Güney
+- Galler Premier Lig 1.Aşama
+- Gürcistan Erovnuli Liga
+- Hollanda Eerste Divisie
+- Hırvatistan 1.HNL
+- Irak Premier Lig
+- Kazakistan Premier Lig
+- Kenya Premier Lig
+- Kolombiya Primera A Clausura
+- Kuveyt Premier Lig
+- Letonya Virsliga
+- Litvanya A Ligi
+- Macaristan NB II
+- Mısır Premier Lig
+- Norveç 3.Lig Grup 2
+- Norveç 3.Lig Grup 3
+- Norveç 3.Lig Grup 6
 - Peru Premier Lig Clausura
+- Portekiz Premier Lig
+- Portekiz U23 Ulusal Şampiyona
+- Romanya 1.Lig
+- Rusya FNL
+- Slovakya 2.Lig
+- Suudi Arabistan 1.Lig
+- Sırbistan Süper Lig
+- Tanzanya Kuu Bara Ligi
+- Türkiye Süper Lig
+- Ukrayna Premier Lig
+- Umman Profesyonel Lig
+- Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
-- İsveç 2.Lig Södra Götaland
+- Yunanistan Süper Lig
+- İngiltere Non League Premier Güney
+- İngiltere Non League Premier Güney Merkez
+- İngiltere Non League Premier Kuzey
+- İngiltere Premier Lig
+- İngiltere Premier Lig 2
+- İngiltere Professional Development Lig
+- İngiltere Ulusal Lig
+- İngiltere Ulusal Lig N / S Güney
+- İngiltere Ulusal Lig N / S Kuzey
+- İspanya 2.Lig
+- İspanya LaLiga
+- İspanya Primera Lig RFEF Grup 1
+- İspanya Primera Lig RFEF Grup 2
+- İsveç Allsvenskan
+- İsveç Superettan
+- İsviçre Challenge Lig
+- İtalya Serie A
+- İtalya Serie C Grup A
+- İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -78,8 +133,8 @@ Tarih: 2026-08-30T20:02:20.853673+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 26
-- Acilan detay: 26
+- Denenen Tumu alani: 63
+- Acilan detay: 63
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -92,14 +147,26 @@ Tarih: 2026-08-30T20:02:20.853673+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 30.08.2026 | 23:30 | ABD MLS | Columbus | New England | 43871 | 5 |
-| 30.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Argentinos Jr | Aldosivi | 31389 | 5 |
-| 30.08.2026 | 23:30 | Peru Premier Lig Clausura | Sport Boys | Sporting Crista | 51258 | 5 |
-| 30.08.2026 | 23:30 | Venezuela Premier Lig Clausura | Trujillanos | Monagas | 05365 | 5 |
-| 30.08.2026 | 23:00 | Arjantin Ulusal Primera Lig | R Cordoba | Colon Santa Fe | 30998 | 3 |
-| 30.08.2026 | 23:30 | Ekvador Pro Lig | Orense | Depor Macara | 51241 | 5 |
-| 30.08.2026 | 15:00 | Norveç 3.Lig Grup 1 | Konnerud | Baerum | 56287 | 3 |
-| 30.08.2026 | 15:00 | İsveç 2.Lig Södra Götaland | Karlskrona | Ifk Berga | 40484 | 3 |
+| 31.08.2026 | 21:30 | Türkiye Süper Lig | Beşiktaş | Çorum | 06565 | 5 |
+| 31.08.2026 | 21:30 | Türkiye Süper Lig | Amed Sk | Trabzonspor | 06562 | 5 |
+| 31.08.2026 | 22:00 | İngiltere Premier Lig | Aston Villa | Arsenal | 14098 | 5 |
+| 31.08.2026 | 20:30 | İspanya LaLiga | Osasuna | Getafe | 19326 | 5 |
+| 31.08.2026 | 22:30 | İspanya LaLiga | Barcelona | Vallecano | 19384 | 4 |
+| 31.08.2026 | 19:30 | İtalya Serie A | Lecce | Roma | 24392 | 5 |
+| 31.08.2026 | 21:45 | İtalya Serie A | Atalanta | Bologna | 24450 | 5 |
+| 31.08.2026 | 22:15 | Portekiz Premier Lig | Benfica | Estoril | 29164 | 4 |
+| 31.08.2026 | 22:15 | Portekiz Premier Lig | Braga | Guimaraes | 29221 | 5 |
+| 31.08.2026 | 20:00 | İspanya 2.Lig | Burgos | Real Sociedad I | 20245 | 5 |
+| 31.08.2026 | 22:30 | İspanya 2.Lig | Celta Vigo Ii | Castellon | 20303 | 5 |
+| 31.08.2026 | 21:45 | Fransa Ligue 2 | Dijon | St Etienne | 27428 | 5 |
+| 31.08.2026 | 21:00 | Hollanda Eerste Divisie | Jong Az Alkmaa | Utrecht (Ii) | 10690 | 5 |
+| 31.08.2026 | 21:00 | Hollanda Eerste Divisie | Psv (B) | Ajax (B) | 29819 | 5 |
+| 31.08.2026 | 20:00 | Danimarka Süperlig | Kopenhag | Sonderjyske | 35479 | 5 |
+| 31.08.2026 | 19:30 | Yunanistan Süper Lig | Apo Levadeiako | Panathinaikos | 36380 | 5 |
+| 31.08.2026 | 20:00 | İsveç Allsvenskan | Gais | Brommapojkarna | 40753 | 5 |
+| 31.08.2026 | 20:00 | İsveç Allsvenskan | Djurgarden | Mjallby | 40699 | 5 |
+| 31.08.2026 | 20:00 | İsveç Allsvenskan | Sirius | Malmö | 40807 | 5 |
+| 31.08.2026 | 15:00 | AFC Şampiyonlar Ligi 2 Ön Eleme Turu | Persib | Manila Digger | 05336 | 3 |
 
 ## Sonuc
 

@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 46
+- Scheduled match count: 204
 - Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-08-30 / 2026-08-31 23:59
+- Date window: 2026-08-31 / 2026-09-01 23:59
 
-- 2026-08-30 23:00 | Argentinos Jr - Aldosivi | scheduled
-- 2026-08-30 23:00 | R Cordoba - Colon Santa Fe | scheduled
-- 2026-08-30 23:30 | Columbus - New England | scheduled
-- 2026-08-30 23:30 | Orense - Depor Macara | scheduled
-- 2026-08-30 23:30 | Sport Boys - Sporting Crista | scheduled
-- 2026-08-30 23:30 | Trujillanos - Monagas | scheduled
-- 2026-08-31 00:00 | Godoy Cruz - San Telmo | scheduled
-- 2026-08-31 00:00 | Regatas - Criciuma | scheduled
-- 2026-08-31 00:00 | Aguila - Fuerte San Fran | scheduled
-- 2026-08-31 00:00 | Deportivo San - Antigua Guatema | scheduled
+- 2026-08-31 01:30 | Bahia - Internacional | scheduled
+- 2026-08-31 01:30 | Portuguesa - Metropolitanos | scheduled
+- 2026-08-31 02:00 | St. Louis City - Dallas | scheduled
+- 2026-08-31 02:00 | Emelec - Leones Del Nort | scheduled
+- 2026-08-31 02:00 | Aurora - Malacateco | scheduled
+- 2026-08-31 02:00 | San Marcos - Walter Ferretti | scheduled
+- 2026-08-31 02:00 | Carabobo - Zamora | scheduled
+- 2026-08-31 02:15 | Real Espana - Choloma | scheduled
+- 2026-08-31 02:15 | Los Millionari - Inter Bogota | scheduled
+- 2026-08-31 02:30 | Deportivo Fas - Firpo | scheduled
