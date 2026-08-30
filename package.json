@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "vercel dev",
     "start": "vercel dev",
-    "build": "node tests/team-intelligence.test.js && node tests/verified-fixture-status.test.js && node tests/security-legal.test.js && node scripts/vercel-build.js",
+    "build": "node tests/iddaa-data-source.test.js && node tests/team-intelligence.test.js && node tests/verified-fixture-status.test.js && node tests/security-legal.test.js && node scripts/vercel-build.js",
     "build:spor-toto": "node scripts/sync-spor-toto-weekly-program.js && node scripts/build-spor-toto-archive-analysis.js && node scripts/enrich-spor-toto-weekly-api.js && node scripts/rebuild-spor-toto-bulletin.js && node scripts/apply-spor-toto-archive-analysis.js && node scripts/apply-spor-toto-weekly-market.js && node scripts/finalize-spor-toto-pro.js && node tests/spor-toto-archive.test.js && node tests/spor-toto-market.test.js && node tests/spor-toto-weekly.test.js",
     "build:spor-toto:offline": "node scripts/rebuild-spor-toto-bulletin.js && node scripts/apply-spor-toto-archive-analysis.js && node scripts/apply-spor-toto-weekly-market.js && node scripts/finalize-spor-toto-pro.js && node tests/spor-toto-archive.test.js && node tests/spor-toto-market.test.js && node tests/spor-toto-weekly.test.js",
     "update:fixtures": "node scripts/update-fixtures.js && node scripts/update-night-window.js && node scripts/two-day-bulletin-window.js && node scripts/build-full-bulletin.js && node scripts/merge-bulletin-detail-fields.js && node scripts/full-bulletin-output-check.js && node scripts/build-live-now.js && npm run build:spor-toto",
@@ -30,6 +30,7 @@
     "update:team-intelligence": "node scripts/player-intelligence-api.js && node scripts/team-news-auto.js && node scripts/team-status-lite.js && node scripts/lineup-lite.js && node scripts/team-status-apply.js && node scripts/band-lite.js",
     "test:performance": "node tests/performance-loading.test.js",
     "test:security": "node tests/security-legal.test.js",
+    "test:iddaa": "node tests/iddaa-data-source.test.js",
     "test:results": "node tests/results-pipeline.test.js",
     "test:data-size": "node tests/generated-file-size.test.js && node scripts/validate-generated-file-sizes.js",
     "update:all": "node scripts/update-fixtures.js && node scripts/update-night-window.js && node scripts/two-day-bulletin-window.js && node scripts/build-full-bulletin.js && node scripts/merge-bulletin-detail-fields.js && node scripts/full-bulletin-output-check.js && node scripts/build-live-now.js && node scripts/enrich-fixture-metrics.js && node scripts/update-analysis-report.js && node scripts/export-high-value-json.js && node scripts/ensure-live-json.js && node scripts/sync-analysis-results.js && node scripts/learning-result-sync.js && node scripts/learning-output-check.js && npm run build:spor-toto"

@@ -9,6 +9,9 @@
     finished: [],
     picks: new Map(),
     expanded: new Set(),
+    details: new Map(),
+    detailLoading: new Set(),
+    detailErrors: new Map(),
     mode: "bulletin",
     q: "",
     league: "all",
@@ -242,10 +245,12 @@
   };
 
   async function load() {
-    const [fullRes, liveRes] = await Promise.all([
+    const [officialRes, fullRes, liveRes] = await Promise.all([
+      readJson("/api/iddaa-bulletin"),
       readJson("./data/full-bulletin.json"),
       readJson("./data/live-matches.json")
     ]);
+    const officialHasMatches = officialRes.ok && Array.isArray(officialRes.data?.matches) && officialRes.data.matches.length > 0;
     const fullHasMatches = fullRes.ok && [
       ...(Array.isArray(fullRes.data?.matches) ? fullRes.data.matches : []),
       ...(Array.isArray(fullRes.data?.scheduled_matches) ? fullRes.data.scheduled_matches : [])
@@ -256,22 +261,34 @@
     const full = fullRes.data;
     const live = liveRes.data;
     const twoDay = twoDayRes.data;
-    app.dataWarning = !liveRes.ok || (!fullRes.ok && !twoDayRes.ok) ? "Veri akışı kesildi; son geçerli liste korunuyor." : "";
+    app.dataWarning = officialHasMatches
+      ? ""
+      : "Resmi iddaa akışı geçici olarak kullanılamadı; son geçerli bülten gösteriliyor.";
 
-    if (!fullRes.ok && !twoDayRes.ok && (app.bulletin.length || app.live.length || app.finished.length)) {
+    if (!officialHasMatches && !fullRes.ok && !twoDayRes.ok && (app.bulletin.length || app.live.length || app.finished.length)) {
       draw();
       return;
     }
 
-    app.window = full?.date_window || (Array.isArray(twoDay?.days) ? { main_day: twoDay.days[0], includes_next_day_until: `${twoDay.days[1] || ""} 08:00` } : app.window) || null;
-    app.lastUpdated = latestGeneratedAt(full?.generated_at, twoDay?.generated_at, live?.generated_at) || app.lastUpdated || "";
-    app.source = full?.source || twoDay?.source || live?.source || "Maçkolik veri akışı";
+    app.window = officialHasMatches
+      ? null
+      : full?.date_window || (Array.isArray(twoDay?.days) ? { main_day: twoDay.days[0], includes_next_day_until: `${twoDay.days[1] || ""} 08:00` } : app.window) || null;
+    app.lastUpdated = latestGeneratedAt(officialRes.data?.generated_at, full?.generated_at, twoDay?.generated_at, live?.generated_at) || app.lastUpdated || "";
+    app.source = officialHasMatches
+      ? officialRes.data.source || "iddaa.com resmi futbol bülteni"
+      : full?.source || twoDay?.source || live?.source || "Son geçerli futbol bülteni";
     const liveRootDate = toIsoDate(live?.date || full?.date_window?.main_day || "");
-    const all = unique([
+    const staticMatches = unique([
       ...ingest(twoDay, "two-day-bulletin.json"),
       ...ingest(full, "full-bulletin.json"),
       ...ingest(live, "live-matches.json", liveRootDate)
     ]);
+    const officialMatches = officialHasMatches
+      ? ingest(officialRes.data, officialRes.data.source || "iddaa.com resmi futbol bülteni")
+      : [];
+    const all = officialHasMatches
+      ? unique([...officialMatches, ...staticMatches.filter((match) => classify(match).bucket === "finished")])
+      : staticMatches;
 
     const classified = all.map((m) => {
       const state = classify(m);
@@ -330,7 +347,7 @@
     if ($("#flw-style")) return;
     const s = document.createElement("style");
     s.id = "flw-style";
-    s.textContent = `.flw{margin:18px clamp(10px,3vw,52px);background:#073d3b;color:#fff;border:1px solid rgba(255,212,0,.28);font-family:inherit}.flw-sr{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}.flw-top{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#ffd400;color:#073d3b;padding:12px 14px}.flw-top h2{margin:0;font-size:19px}.flw-warning{padding:8px 14px;background:#3b2107;color:#ffe2b8;font-size:12px;font-weight:850}.flw-tabs{display:flex;gap:8px;padding:10px 14px;background:#0f645e;flex-wrap:wrap}.flw-tabs button{border:1px solid rgba(255,212,0,.45);border-radius:999px;background:rgba(255,255,255,.08);color:#fff;font-weight:1000;padding:8px 12px;cursor:pointer}.flw-tabs button.on{background:#ffd400;color:#073d3b}.flw-filter{display:grid;grid-template-columns:1fr 220px 90px;gap:8px;padding:10px 14px;background:#062d2c}.flw-filter input,.flw-filter select,.flw-filter button{height:38px;border:0;border-radius:9px;padding:0 10px;font-weight:850}.flw-filter button,.flw-analyze,.flw-clear,.flw-remove,.flw-detail-toggle,.flw-more{background:#ffd400;color:#073d3b;cursor:pointer}.flw-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px}.flw-main{padding:12px;overflow:auto}.flw-table{min-width:960px;background:#f7fff9;color:#062d2c;border-radius:12px;overflow:hidden}.flw-head,.flw-row{display:grid;grid-template-columns:76px 130px minmax(240px,1fr) repeat(7,58px) 86px}.flw-head{background:#0a504b;color:#fff7bd;font-size:11px;font-weight:1000}.flw-head span,.flw-row>*{padding:7px 6px;border-right:1px solid #cbded6;border-bottom:1px solid #cbded6}.flw-league{background:#d9efe3;color:#073d3b;padding:8px 11px;font-size:11px;font-weight:1000}.flw-row{font-size:11px}.flw-time{font-weight:1000;color:#006447}.flw-live-time{color:#d01515}.flw-finished-time{color:#555}.flw-teams b{display:block}.flw-code{font-size:9px;color:#6a837d}.flw-empty{margin:13px;padding:19px 12px;border:1px dashed rgba(255,255,255,.25);border-radius:11px;text-align:center;color:#bfd6cf}.flw-odd{display:block;width:100%;min-height:30px;border-radius:8px;border:1px solid #bdd0ca;background:#fff;color:#073d3b;font-weight:950;cursor:pointer}.flw-odd.on,.flw-odd:hover{background:#ffd400}.flw-odd:disabled{cursor:not-allowed;color:#7c918b;background:#edf5f1}.flw-detail-toggle{border:0;border-radius:8px;font-weight:1000;padding:7px 9px;width:100%}.flw-detail-row{padding:10px 12px;background:#fff;border-bottom:1px solid #cbded6}.flw-detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.flw-detail-card{border:1px solid #cbded6;border-radius:8px;padding:8px;background:#f7fff9;font-size:11px;line-height:1.45}.flw-detail-card b{display:block;color:#073d3b;margin-bottom:4px}.flw-detail-note{color:#59766f}.flw-detail-market{display:flex;justify-content:space-between;gap:8px;align-items:center;margin:5px 0}.flw-detail-market span{font-weight:850}.flw-detail-odd{width:auto;min-width:74px;padding:5px 8px}.flw-more{display:block;min-height:40px;margin:12px auto 0;padding:7px 18px;border:0;border-radius:10px;font-weight:1000}.flw-slip{background:#092c2b;border-left:1px solid rgba(255,255,255,.14);padding:14px}.flw-slip h3{margin:0;color:#ffd400}.flw-card{margin-top:9px;padding:9px;border:1px solid rgba(255,255,255,.15);border-radius:10px;background:rgba(255,255,255,.05);font-size:11px}.flw-flex{display:flex;justify-content:space-between;gap:8px;align-items:center;color:#ffd400;font-weight:950}.flw-act{display:grid;gap:8px;margin-top:9px}.flw-analyze,.flw-clear,.flw-remove{border:0;border-radius:8px;font-weight:1000;padding:7px 9px}.flw-analysis{line-height:1.45;color:#dceee8}.flw-note{color:#a8c2ba;font-size:11px;margin-top:8px}@media(max-width:920px){.flw-filter{grid-template-columns:1fr}.flw-layout{display:block}.flw-slip{border-left:0}.flw-top{display:block}.flw-detail-grid{grid-template-columns:1fr}.flw-table{min-width:900px}}`;
+    s.textContent = `.flw{margin:18px clamp(10px,3vw,52px);background:#073d3b;color:#fff;border:1px solid rgba(255,212,0,.28);font-family:inherit}.flw-sr{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}.flw-top{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#ffd400;color:#073d3b;padding:12px 14px}.flw-top h2{margin:0;font-size:19px}.flw-warning{padding:8px 14px;background:#3b2107;color:#ffe2b8;font-size:12px;font-weight:850}.flw-tabs{display:flex;gap:8px;padding:10px 14px;background:#0f645e;flex-wrap:wrap}.flw-tabs button{border:1px solid rgba(255,212,0,.45);border-radius:999px;background:rgba(255,255,255,.08);color:#fff;font-weight:1000;padding:8px 12px;cursor:pointer}.flw-tabs button.on{background:#ffd400;color:#073d3b}.flw-filter{display:grid;grid-template-columns:1fr 220px 90px;gap:8px;padding:10px 14px;background:#062d2c}.flw-filter input,.flw-filter select,.flw-filter button{height:38px;border:0;border-radius:9px;padding:0 10px;font-weight:850}.flw-filter button,.flw-analyze,.flw-clear,.flw-remove,.flw-detail-toggle,.flw-more{background:#ffd400;color:#073d3b;cursor:pointer}.flw-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px}.flw-main{padding:12px;overflow:auto}.flw-table{min-width:960px;background:#f7fff9;color:#062d2c;border-radius:12px;overflow:hidden}.flw-head,.flw-row{display:grid;grid-template-columns:76px 130px minmax(240px,1fr) repeat(7,58px) 86px}.flw-head{background:#0a504b;color:#fff7bd;font-size:11px;font-weight:1000}.flw-head span,.flw-row>*{padding:7px 6px;border-right:1px solid #cbded6;border-bottom:1px solid #cbded6}.flw-league{background:#d9efe3;color:#073d3b;padding:8px 11px;font-size:11px;font-weight:1000}.flw-row{font-size:11px;cursor:pointer;transition:background .15s ease}.flw-row:hover,.flw-row:focus,.flw-row.is-open{background:#e8f7ed;outline:none}.flw-row:focus{box-shadow:inset 0 0 0 2px #ffd400}.flw-time{font-weight:1000;color:#006447}.flw-live-time{color:#d01515}.flw-finished-time{color:#555}.flw-teams b{display:block}.flw-code{font-size:9px;color:#6a837d}.flw-empty{margin:13px;padding:19px 12px;border:1px dashed rgba(255,255,255,.25);border-radius:11px;text-align:center;color:#bfd6cf}.flw-odd{display:block;width:100%;min-height:30px;border-radius:8px;border:1px solid #bdd0ca;background:#fff;color:#073d3b;font-weight:950;cursor:pointer}.flw-odd.on,.flw-odd:hover{background:#ffd400}.flw-odd:disabled{cursor:not-allowed;color:#7c918b;background:#edf5f1}.flw-detail-toggle{border:0;border-radius:8px;font-weight:1000;padding:7px 4px;width:100%;font-size:10px}.flw-detail-row{padding:10px 12px;background:#fff;border-bottom:1px solid #cbded6}.flw-detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.flw-detail-card{border:1px solid #cbded6;border-radius:8px;padding:8px;background:#f7fff9;font-size:11px;line-height:1.45}.flw-detail-card b{display:block;color:#073d3b;margin-bottom:4px}.flw-detail-note{color:#59766f}.flw-detail-market{display:flex;justify-content:space-between;gap:8px;align-items:center;margin:5px 0}.flw-detail-market span{font-weight:850}.flw-detail-odd{width:auto;min-width:74px;padding:5px 8px}.flw-detail-all{grid-column:1/-1;padding:12px}.flw-detail-loading{padding:16px;border:1px dashed #91b4a9;border-radius:8px;color:#3e6e63}.flw-market-heading{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:10px}.flw-market-heading>b{margin:0}.flw-market-heading span{color:#59766f;font-weight:850}.flw-market-section{margin:12px 0}.flw-market-section h4{margin:0 0 7px;padding:7px 9px;border-radius:7px;background:#0a504b;color:#fff7bd}.flw-market-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.flw-market-block{border:1px solid #cbded6;border-radius:8px;background:#fff;padding:8px;min-width:0}.flw-market-title{display:flex;justify-content:space-between;gap:7px;align-items:flex-start;color:#073d3b;font-weight:1000;margin-bottom:7px}.flw-market-info{flex:0 0 20px;width:20px;height:20px;padding:0;border:0;border-radius:50%;background:#d9efe3;color:#073d3b;font-weight:1000;cursor:help}.flw-market-outcomes{display:grid;grid-template-columns:repeat(auto-fit,minmax(72px,1fr));gap:6px}.flw-market-outcome{display:flex;justify-content:space-between;align-items:center;gap:5px;padding:6px 8px}.flw-market-outcome span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.flw-market-outcome b{margin:0;color:inherit}.flw-more{display:block;min-height:40px;margin:12px auto 0;padding:7px 18px;border:0;border-radius:10px;font-weight:1000}.flw-slip{background:#092c2b;border-left:1px solid rgba(255,255,255,.14);padding:14px}.flw-slip h3{margin:0;color:#ffd400}.flw-card{margin-top:9px;padding:9px;border:1px solid rgba(255,255,255,.15);border-radius:10px;background:rgba(255,255,255,.05);font-size:11px}.flw-flex{display:flex;justify-content:space-between;gap:8px;align-items:center;color:#ffd400;font-weight:950}.flw-act{display:grid;gap:8px;margin-top:9px}.flw-analyze,.flw-clear,.flw-remove{border:0;border-radius:8px;font-weight:1000;padding:7px 9px}.flw-analysis{line-height:1.45;color:#dceee8}.flw-note{color:#a8c2ba;font-size:11px;margin-top:8px}@media(max-width:920px){.flw-filter{grid-template-columns:1fr}.flw-layout{display:block}.flw-slip{border-left:0}.flw-top{display:block}.flw-detail-grid,.flw-market-grid{grid-template-columns:1fr}.flw-table{min-width:900px}}`;
     document.head.appendChild(s);
   }
 
@@ -369,6 +386,66 @@
     const lines = detailMarkets.map(([key, label, keys]) => detailOddBtn(m, key, label, keys));
     const oddsCount = Object.values(m.available_odds || m.odds || {}).filter((v) => !isBlank(v)).length;
     return `${lines.join("")}<div class="flw-detail-note">Oran kaynağı: ${esc(m.oddsSource || m.source || "Maçkolik veri akışı")}. ${oddsCount ? `${oddsCount} oran alanı bulundu.` : "Oran verisi bekleniyor."}</div>`;
+  }
+
+  function matchById(id) {
+    return [...app.bulletin, ...app.live, ...app.finished].find((match) => match._id === id);
+  }
+
+  function detailedMatch(m) {
+    return app.details.get(m._id) || m;
+  }
+
+  function dynamicOutcomeButton(m, market, outcome) {
+    const key = `iddaa:${market.id}:${outcome.outcome_no ?? outcome.id}`;
+    const on = app.picks.has(pickId(m._id, key)) ? " on" : "";
+    return `<button type="button" class="flw-odd flw-market-outcome${on}" data-dynamic-pick="${esc(m._id)}" data-market-id="${esc(market.id)}" data-outcome-no="${esc(outcome.outcome_no ?? outcome.id)}" aria-label="${esc(`${m.home} - ${m.away}, ${market.title}, ${outcome.label}, oran ${fmt(outcome.odd)}`)}"><span>${esc(outcome.label)}</span><b>${esc(fmt(outcome.odd))}</b></button>`;
+  }
+
+  function allMarketsHtml(m) {
+    if (app.detailLoading.has(m._id)) {
+      return `<div class="flw-detail-card flw-detail-all"><b>Tüm İddaa Pazarları</b><div class="flw-detail-loading" role="status">Bu maça ait resmi pazarlar yükleniyor…</div></div>`;
+    }
+    const error = app.detailErrors.get(m._id);
+    const detail = detailedMatch(m);
+    const groups = Array.isArray(detail.market_groups) ? detail.market_groups.filter((market) => Array.isArray(market.outcomes) && market.outcomes.length) : [];
+    if (!groups.length) {
+      const message = error || "Resmi detay verisi bulunamadı; özet oranlar gösteriliyor.";
+      return `<div class="flw-detail-card flw-detail-all"><b>Tüm İddaa Pazarları</b><div class="flw-detail-note">${esc(message)}</div></div>`;
+    }
+    const categories = new Map();
+    groups.forEach((market) => {
+      const category = market.category || "Diğer";
+      if (!categories.has(category)) categories.set(category, []);
+      categories.get(category).push(market);
+    });
+    const sections = [...categories.entries()].map(([category, marketsInCategory]) => `<section class="flw-market-section"><h4>${esc(category)}</h4><div class="flw-market-grid">${marketsInCategory.map((market) => `<article class="flw-market-block"><div class="flw-market-title"><span>${esc(market.title)}</span>${market.description ? `<button type="button" class="flw-market-info" title="${esc(market.description)}" aria-label="${esc(`${market.title} açıklaması`)}">i</button>` : ""}</div><div class="flw-market-outcomes">${market.outcomes.map((outcome) => dynamicOutcomeButton(m, market, outcome)).join("")}</div></article>`).join("")}</div></section>`).join("");
+    return `<div class="flw-detail-card flw-detail-all"><div class="flw-market-heading"><b>Tüm İddaa Pazarları</b><span>${groups.length} pazar · ${groups.reduce((sum, market) => sum + market.outcomes.length, 0)} seçim</span></div>${sections}<div class="flw-detail-note">Her oran yalnız bu maçın resmi etkinlik kimliğinden alınmıştır.</div></div>`;
+  }
+
+  async function loadDetail(id) {
+    const item = matchById(id);
+    const eventId = String(item?.iddaa_event_id || "").trim();
+    if (!item || app.details.has(id) || app.detailLoading.has(id) || !/^\d{1,12}$/.test(eventId)) return;
+    app.detailLoading.add(id);
+    app.detailErrors.delete(id);
+    drawRows();
+    const response = await readJson(`/api/iddaa-bulletin?eventId=${encodeURIComponent(eventId)}`);
+    if (response.ok && response.data?.match && String(response.data.match.iddaa_event_id) === eventId) {
+      app.details.set(id, { ...item, ...response.data.match, _id: item._id });
+    } else {
+      app.detailErrors.set(id, "Resmi pazar ayrıntısı şu anda alınamadı. Yenile düğmesiyle tekrar deneyebilirsiniz.");
+    }
+    app.detailLoading.delete(id);
+    drawRows();
+  }
+
+  function toggleRow(id) {
+    const opening = !app.expanded.has(id);
+    if (opening) app.expanded.add(id);
+    else app.expanded.delete(id);
+    drawRows();
+    if (opening) loadDetail(id);
   }
 
   function analysisText(m) {
@@ -418,14 +495,16 @@
   }
 
   function detailHtml(m) {
-    const score = scoreOf(m);
+    const detail = detailedMatch(m);
+    const score = scoreOf(detail);
     return `<div class="flw-detail-row"><div class="flw-detail-grid">
-      <div class="flw-detail-card"><b>Maç Bilgisi</b><div>${esc(m.home)} - ${esc(m.away)}</div><div>Lig: ${esc(m.league)}</div><div>Başlama: ${esc(m.date)} ${esc(m.time)}</div><div>Durum: ${esc(statusLabel(m))}${m.minute ? ` · ${esc(m.minute)}'` : ""}</div><div>Skor: ${esc(score || "Skor bekleniyor")}</div></div>
-      <div class="flw-detail-card"><b>Analiz ve Tahmin</b>${analysisText(m)}</div>
-      <div class="flw-detail-card"><b>Gol ve Oran Detayları</b>${detailOddLine(m)}</div>
-      <div class="flw-detail-card"><b>Takım ve Futbolcu Analizi</b>${teamIntelligenceHtml(m)}</div>
-      <div class="flw-detail-card"><b>Kaynak</b><div>${esc(m.source || "Maçkolik veri akışı")}</div><div>Güncel veri zamanı: ${esc(m.lastLiveUpdate || m.last_update || app.lastUpdated || "Veri zamanı bekleniyor")}</div><div>Kod: ${esc(m.matchCode || m.match_code || m._id)}</div></div>
-      <div class="flw-detail-card"><b>Veri Notu</b><div>${esc(m.raw_market_source_note || "Veri yoksa hatalı oran gösterilmez; güncel Maçkolik/robot verisi beklenir.")}</div></div>
+      <div class="flw-detail-card"><b>Maç Bilgisi</b><div>${esc(detail.home)} - ${esc(detail.away)}</div><div>Lig: ${esc(detail.league)}</div><div>Başlama: ${esc(detail.date)} ${esc(detail.time)}</div><div>Durum: ${esc(statusLabel(detail))}${detail.minute ? ` · ${esc(detail.minute)}'` : ""}</div><div>Skor: ${esc(score || "Skor bekleniyor")}</div></div>
+      <div class="flw-detail-card"><b>Analiz ve Tahmin</b>${analysisText(detail)}</div>
+      <div class="flw-detail-card"><b>Özet Oranlar</b>${detailOddLine(detail)}</div>
+      <div class="flw-detail-card"><b>Takım ve Futbolcu Analizi</b>${teamIntelligenceHtml(detail)}</div>
+      <div class="flw-detail-card"><b>Kaynak</b><div>${esc(detail.source || "iddaa.com resmi futbol bülteni")}</div><div>Güncel veri zamanı: ${esc(detail.lastLiveUpdate || detail.last_update || app.lastUpdated || "Veri zamanı bekleniyor")}</div><div>Etkinlik kodu: ${esc(detail.iddaa_event_id || detail.matchCode || detail.match_code || detail._id)}</div></div>
+      <div class="flw-detail-card"><b>Veri Notu</b><div>${esc(detail.raw_market_source_note || "Veri yoksa hatalı oran gösterilmez; resmi akışın güncellenmesi beklenir.")}</div></div>
+      ${allMarketsHtml(m)}
     </div></div>`;
   }
 
@@ -457,7 +536,7 @@
       const timeText = app.mode === "live" ? liveLabel(m) : app.mode === "finished" ? `${m.time} · ${scoreOf(m) || statusLabel(m)}` : m.time;
       const timeClass = app.mode === "live" ? "flw-time flw-live-time" : app.mode === "finished" ? "flw-time flw-finished-time" : "flw-time";
       const open = app.expanded.has(m._id);
-      html += `<div class="flw-row"><div class="${timeClass}">${esc(timeText)}</div><div>${esc(m.league)}</div><div class="flw-teams"><b>${esc(m.home)} - ${esc(m.away)}</b><span class="flw-code">Durum: ${esc(statusLabel(m))} · Kod: ${esc(m.matchCode || m.match_code || m._id)}</span></div>${markets.map(([key, label, keys]) => `<div>${oddBtn(m, key, label, keys)}</div>`).join("")}<div><button class="flw-detail-toggle" data-toggle="${esc(m._id)}">${open ? "Kapat" : "Aç"}</button></div></div>${open ? detailHtml(m) : ""}`;
+      html += `<div class="flw-row${open ? " is-open" : ""}" data-row-toggle="${esc(m._id)}" tabindex="0" aria-expanded="${open}" aria-label="${esc(`${m.home} - ${m.away} tüm bahis pazarlarını ${open ? "kapat" : "aç"}`)}"><div class="${timeClass}">${esc(timeText)}</div><div>${esc(m.league)}</div><div class="flw-teams"><b>${esc(m.home)} - ${esc(m.away)}</b><span class="flw-code">Durum: ${esc(statusLabel(m))} · Kod: ${esc(m.matchCode || m.match_code || m._id)}</span></div>${markets.map(([key, label, keys]) => `<div>${oddBtn(m, key, label, keys)}</div>`).join("")}<div><button type="button" class="flw-detail-toggle" data-toggle="${esc(m._id)}" aria-expanded="${open}">${open ? "Kapat" : "Tümünü Aç"}</button></div></div>${open ? detailHtml(m) : ""}`;
     });
     const remaining = all.length - list.length;
     box.innerHTML = html + `</div>${remaining > 0 ? `<button type="button" class="flw-more" data-more>Daha fazla göster (${remaining})</button>` : ""}`;
@@ -518,12 +597,36 @@
     drawSlip();
   }
 
+  function selectDynamic(id, marketId, outcomeNo) {
+    const item = matchById(id);
+    const detail = app.details.get(id);
+    const market = Array.isArray(detail?.market_groups)
+      ? detail.market_groups.find((candidate) => String(candidate.id) === String(marketId))
+      : null;
+    const outcome = market?.outcomes?.find((candidate) => String(candidate.outcome_no ?? candidate.id) === String(outcomeNo));
+    if (!item || !market || !outcome || isBlank(outcome.odd)) return;
+    const key = `iddaa:${market.id}:${outcome.outcome_no ?? outcome.id}`;
+    const idKey = pickId(id, key);
+    if (app.picks.has(idKey)) app.picks.delete(idKey);
+    else app.picks.set(idKey, {
+      id: idKey,
+      matchId: id,
+      key,
+      label: `${market.title} · ${outcome.label}`,
+      value: outcome.odd,
+      home: item.home,
+      away: item.away,
+    });
+    drawRows();
+    drawSlip();
+  }
+
   app.click = (e) => {
     const mode = e.target.closest("[data-mode]");
     if (mode) { app.mode = ["live", "finished"].includes(mode.dataset.mode) ? mode.dataset.mode : "bulletin"; app.league = "all"; app.visibleLimit = PAGE_SIZE; draw(); return; }
     if (e.target.closest("[data-more]")) { app.visibleLimit += PAGE_SIZE; drawRows(); return; }
-    const toggle = e.target.closest("[data-toggle]");
-    if (toggle) { const id = toggle.dataset.toggle; app.expanded.has(id) ? app.expanded.delete(id) : app.expanded.add(id); drawRows(); return; }
+    const dynamicPick = e.target.closest("[data-dynamic-pick]");
+    if (dynamicPick) { selectDynamic(dynamicPick.dataset.dynamicPick, dynamicPick.dataset.marketId, dynamicPick.dataset.outcomeNo); return; }
     const detailPick = e.target.closest("[data-detail-pick]");
     if (detailPick) { selectDetail(detailPick.dataset.detailPick, detailPick.dataset.detailKey); return; }
     const p = e.target.closest("[data-pick]");
@@ -532,15 +635,26 @@
     if (rm) { app.picks.delete(rm.dataset.remove); drawRows(); drawSlip(); return; }
     if (e.target.closest("[data-clear]")) { app.picks.clear(); drawRows(); drawSlip(); return; }
     if (e.target.closest("[data-analyze]")) { analyze(); return; }
-    if (e.target.closest("[data-refresh]")) load();
+    if (e.target.closest("[data-refresh]")) { app.details.clear(); app.detailErrors.clear(); load(); return; }
+    const toggle = e.target.closest("[data-toggle]");
+    if (toggle) { toggleRow(toggle.dataset.toggle); return; }
+    const row = e.target.closest("[data-row-toggle]");
+    if (row && !e.target.closest("button,input,select,a")) toggleRow(row.dataset.rowToggle);
+  };
+  app.keydown = (e) => {
+    const row = e.target.closest?.("[data-row-toggle]");
+    if (!row || e.target !== row || !["Enter", " "].includes(e.key)) return;
+    e.preventDefault();
+    toggleRow(row.dataset.rowToggle);
   };
   app.input = (e) => {
     if (e.target.matches("[data-q]")) { app.q = e.target.value.toLocaleLowerCase("tr-TR"); app.visibleLimit = PAGE_SIZE; drawRows(); }
     if (e.target.matches("[data-league]")) { app.league = e.target.value; app.visibleLimit = PAGE_SIZE; drawRows(); }
   };
-  app.off = () => { document.removeEventListener("click", app.click); document.removeEventListener("input", app.input); document.removeEventListener("change", app.input); clearInterval(app.timer); };
+  app.off = () => { document.removeEventListener("click", app.click); document.removeEventListener("keydown", app.keydown); document.removeEventListener("input", app.input); document.removeEventListener("change", app.input); clearInterval(app.timer); };
 
   document.addEventListener("click", app.click);
+  document.addEventListener("keydown", app.keydown);
   document.addEventListener("input", app.input);
   document.addEventListener("change", app.input);
   draw();
