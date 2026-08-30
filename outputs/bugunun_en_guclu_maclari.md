@@ -2,28 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-30T20:01:51.265Z
-- Ham maç sayısı: 97
-- Yarın bülteni maç sayısı: 38
-- Detay blok sayısı: 276
-- Aktif bülten maçı: 42
-- Bültenden düşürülen maç: 55
+- Güncelleme: 2026-08-30T21:15:59.355Z
+- Ham maç sayısı: 38
+- Yarın bülteni maç sayısı: 0
+- Detay blok sayısı: 109
+- Aktif bülten maçı: 30
+- Bültenden düşürülen maç: 8
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Columbus - New England | ABD MLS | 23:30 | Veri bekleniyor | - | 2 | 8 |
-| Sport Boys - Sporting Crista | Peru Premier Lig Clausura | 23:30 | Veri bekleniyor | - | 2.17 | 8 |
-| Trujillanos - Monagas | Venezuela Premier Lig Clausura | 23:30 | Veri bekleniyor | - | 1.93 | 8 |
-| Orense - Depor Macara | Ekvador Pro Lig | 23:30 | Veri bekleniyor | - | 1.95 | 8 |
-| Depor Tachira - Caracas Fc | Venezuela Premier Lig Clausura | 00:00 | Veri bekleniyor | - | 1.29 | 7 |
-| Godoy Cruz - San Telmo | Arjantin Ulusal Primera Lig | 00:00 | Veri bekleniyor | - | 1.39 | 7 |
-| Regatas - Criciuma | Brezilya Serie B | 00:00 | Veri bekleniyor | - | 1.96 | 8 |
-| Deportivo San - Antigua Guatema | Guatemala Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 2.45 | 8 |
-| Export Sebaco - Real Esteli | Nikaragua Premier Lig Apertura | 00:00 | Veri bekleniyor | - | 4.25 | 7 |
-| Estrella Roja - Depor. Olimpia | Honduras Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 2.86 | 5 |
-| Aguila - Fuerte San Fran | El Salvador Primera Lig Apertura | 00:00 | Veri bekleniyor | - | 1.45 | 7 |
-| Independiente - Llaneros | Kolombiya Primera A Clausura | 00:10 | Veri bekleniyor | - | 1.36 | 7 |
 | Mirassol - Palmeiras | Brezilya Serie A | 00:30 | Veri bekleniyor | - | 2.97 | 8 |
 | Gremio - Chapecoense | Brezilya Serie A | 00:30 | Veri bekleniyor | - | 1.39 | 7 |
 | Colo Colo - Audax Italiano | Şili Premier Lig | 00:30 | Veri bekleniyor | - | 1.26 | 7 |

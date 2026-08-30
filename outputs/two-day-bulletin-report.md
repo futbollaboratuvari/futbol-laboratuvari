@@ -1,30 +1,16 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-08-30 / 2026-08-31
+Gunler: 2026-08-31 / 2026-09-01
 Kaynak: fixtures.json
-Ham mac: 471
-Aktif mac: 44
+Ham mac: 38
+Aktif mac: 30
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 427
-Bugun: 6
-Yarin: 38
+Bultenden dusurulen mac: 8
+Bugun: 30
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-08-30 23:00 | Arjantin Premier Lig 2. Aşama | Argentinos Jr - Aldosivi | scheduled | -
-- 2026-08-30 23:00 | Arjantin Ulusal Primera Lig | R Cordoba - Colon Santa Fe | scheduled | -
-- 2026-08-30 23:30 | ABD MLS | Columbus - New England | scheduled | -
-- 2026-08-30 23:30 | Peru Premier Lig Clausura | Sport Boys - Sporting Crista | scheduled | -
-- 2026-08-30 23:30 | Venezuela Premier Lig Clausura | Trujillanos - Monagas | scheduled | -
-- 2026-08-30 23:30 | Ekvador Pro Lig | Orense - Depor Macara | scheduled | -
-- 2026-08-31 00:00 | Venezuela Premier Lig Clausura | Depor Tachira - Caracas Fc | scheduled | -
-- 2026-08-31 00:00 | Arjantin Ulusal Primera Lig | Godoy Cruz - San Telmo | scheduled | -
-- 2026-08-31 00:00 | Brezilya Serie B | Regatas - Criciuma | scheduled | -
-- 2026-08-31 00:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Antigua Guatema | scheduled | -
-- 2026-08-31 00:00 | Nikaragua Premier Lig Apertura | Export Sebaco - Real Esteli | scheduled | -
-- 2026-08-31 00:00 | Honduras Ulusal Lig Apertura | Estrella Roja - Depor. Olimpia | scheduled | -
-- 2026-08-31 00:00 | El Salvador Primera Lig Apertura | Aguila - Fuerte San Fran | scheduled | -
-- 2026-08-31 00:10 | Kolombiya Primera A Clausura | Independiente - Llaneros | scheduled | -
 - 2026-08-31 00:30 | Brezilya Serie A | Mirassol - Palmeiras | scheduled | -
 - 2026-08-31 00:30 | Brezilya Serie A | Gremio - Chapecoense | scheduled | -
 - 2026-08-31 00:30 | Şili Premier Lig | Colo Colo - Audax Italiano | scheduled | -
