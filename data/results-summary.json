@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-08-30T17:38:44.426Z",
+  "generated_at": "2026-08-30T19:35:06.736Z",
   "date": "2026-08-30",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
   "completed_items": [
+    {
+      "id": "2026-08-30|almanya bundesliga|augsburg schalke|ms 1|18 30",
+      "date": "2026-08-30",
+      "time": "18:30",
+      "title": "Augsburg - Schalke",
+      "match": "Augsburg - Schalke",
+      "market": "MS 1",
+      "prediction": "MS 1",
+      "odds": "1.99",
+      "score": "3-0",
+      "result_score": "3-0",
+      "confidence": "49%",
+      "confidence_score": "49%",
+      "model_score": 49,
+      "estimated_probability": 42.7,
+      "market_probability": 42.7,
+      "edge_percent": 0,
+      "data_completeness": 40,
+      "model_version": "pro13-market-conditioned-v1",
+      "risk": "Yüksek",
+      "status": "won",
+      "result": "won",
+      "market_group": "match_result",
+      "market_group_label": "Maç Sonucu",
+      "finalized_at": "2026-08-30T19:35:06.560Z",
+      "source": "Robot ham veri havuzu"
+    },
     {
       "id": "2026-08-30|almanya bundesliga|augsburg schalke|2 5 alt|18 30",
       "date": "2026-08-30",
@@ -786,45 +813,18 @@
       "market_group_label": "Maç Sonucu",
       "finalized_at": "2026-08-30T17:38:44.323Z",
       "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-08-30|almanya 2 bundesliga|darmstadt hannover|ms 2|14 30",
-      "date": "2026-08-30",
-      "time": "14:30",
-      "title": "Darmstadt - Hannover",
-      "match": "Darmstadt - Hannover",
-      "market": "MS 2",
-      "prediction": "MS 2",
-      "odds": "1.95",
-      "score": "0-1",
-      "result_score": "0-1",
-      "confidence": "43%",
-      "confidence_score": "43%",
-      "model_score": 43,
-      "estimated_probability": 43.5,
-      "market_probability": 43.5,
-      "edge_percent": 0,
-      "data_completeness": 38,
-      "model_version": "pro13-market-conditioned-v1",
-      "risk": "Yüksek",
-      "status": "won",
-      "result": "won",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-08-30T17:38:44.323Z",
-      "source": "Robot ham veri havuzu"
     }
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 347,
-    "pending_count": 1153,
-    "won_count": 184,
-    "lost_count": 163,
+    "measured_count": 344,
+    "pending_count": 1156,
+    "won_count": 183,
+    "lost_count": 161,
     "void_count": 0,
     "success_rate": 53,
-    "probability_sample_count": 347,
-    "brier_score": 0.2499,
+    "probability_sample_count": 344,
+    "brier_score": 0.2497,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -840,43 +840,43 @@
         "upper": 49,
         "predictions": 97,
         "won": 54,
-        "average_probability": 45.7,
+        "average_probability": 45.6,
         "observed_rate": 55.7
       },
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 191,
-        "won": 103,
+        "predictions": 189,
+        "won": 102,
         "average_probability": 54.7,
-        "observed_rate": 53.9
+        "observed_rate": 54
       },
       {
         "lower": 60,
         "upper": 69,
-        "predictions": 45,
+        "predictions": 44,
         "won": 22,
-        "average_probability": 63.5,
-        "observed_rate": 48.9
+        "average_probability": 63.4,
+        "observed_rate": 50
       }
     ],
-    "verified_at": "2026-08-30T17:38:44.323Z",
+    "verified_at": "2026-08-30T19:35:06.560Z",
     "groups": [
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 232,
+        "measured": 230,
         "won": 124,
-        "lost": 108,
-        "success_rate": 53
+        "lost": 106,
+        "success_rate": 54
       },
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 114,
-        "won": 59,
+        "measured": 113,
+        "won": 58,
         "lost": 55,
-        "success_rate": 52
+        "success_rate": 51
       },
       {
         "key": "btts",
