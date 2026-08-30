@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 30.08.2026 20:36:42
+Oluşturma: 30.08.2026 20:38:37
 
 ## Özet
 
@@ -31,9 +31,9 @@ Oluşturma: 30.08.2026 20:36:42
 ## Son Tahmin Kayıtları
 
 - 2026-08-30 | Bulgaristan 1.Lig | Cska Sofia - Cherno More | 2.5 Üst | pending | 60/100
-- 2026-08-30 | Arjantin Premier Lig 2. Aşama | Independiente - Gimnasia Mendoz | 2.5 Alt | pending | 47/100
+- 2026-08-30 | Arjantin Premier Lig 2. Aşama | Independiente - Gimnasia Mendoz | 2.5 Alt | pending | 52/100
 - 2026-08-30 | İtalya Serie A | Lazio - Genoa | MS 1 | pending | 50/100
-- 2026-08-30 | İtalya Serie A | Cagliari - Inter | 2.5 Alt | pending | 53/100
+- 2026-08-30 | İtalya Serie A | Cagliari - Inter | 2.5 Alt | pending | 59/100
 - 2026-08-30 | Türkiye Süper Lig | Samsunspor - Fenerbahçe | MS 2 | pending | 51/100
 - 2026-08-30 | İspanya Primera Lig RFEF Grup 2 | Antequera - Ud Ibiza | MS 1 | pending | 44/100
 - 2026-08-30 | İspanya Primera Lig RFEF Grup 2 | Cd Aguilas - Alcorcon | MS 1 | pending | 44/100

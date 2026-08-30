@@ -1,44 +1,32 @@
 {
-  "generated_at": "2026-08-30T16:49:44.623Z",
+  "generated_at": "2026-08-30T17:38:44.513Z",
   "status": "active",
   "prediction_count": 1500,
   "market_memory": {
     "total": 7,
     "ready": 4,
     "boost": 1,
-    "penalty": 1,
+    "penalty": 0,
     "best": [
       {
         "name": "2.5 Üst",
-        "total": 191,
+        "total": 193,
         "pending": 124,
-        "won": 43,
+        "won": 45,
         "lost": 24,
         "void": 0,
-        "success_rate": 0.642,
+        "success_rate": 0.652,
         "weight": 1.12,
         "confidence_adjustment": 4
       }
     ],
-    "weak": [
-      {
-        "name": "2.5 Alt",
-        "total": 600,
-        "pending": 456,
-        "won": 68,
-        "lost": 76,
-        "void": 0,
-        "success_rate": 0.472,
-        "weight": 0.94,
-        "confidence_adjustment": -2
-      }
-    ]
+    "weak": []
   },
   "league_memory": {
-    "total": 205,
+    "total": 204,
     "ready": 29,
-    "boost": 13,
-    "penalty": 12,
+    "boost": 14,
+    "penalty": 10,
     "best": [
       {
         "name": "İspanya 2.Lig",
@@ -129,9 +117,9 @@
         "confidence_adjustment": 4
       },
       {
-        "name": "Honduras Ulusal Lig Apertura",
-        "total": 13,
-        "pending": 8,
+        "name": "İtalya Serie A",
+        "total": 12,
+        "pending": 7,
         "won": 3,
         "lost": 2,
         "void": 0,
@@ -140,11 +128,11 @@
         "confidence_adjustment": 2
       },
       {
-        "name": "Hollanda Eerste Divisie",
-        "total": 13,
-        "pending": 8,
-        "won": 3,
-        "lost": 2,
+        "name": "ABD USL",
+        "total": 35,
+        "pending": 15,
+        "won": 12,
+        "lost": 8,
         "void": 0,
         "success_rate": 0.6,
         "weight": 1.06,
@@ -209,8 +197,8 @@
       },
       {
         "name": "Arjantin Premier Lig 2. Aşama",
-        "total": 18,
-        "pending": 10,
+        "total": 19,
+        "pending": 11,
         "won": 3,
         "lost": 5,
         "void": 0,
@@ -219,31 +207,9 @@
         "confidence_adjustment": -5
       },
       {
-        "name": "İspanya Kadınlar Primera Lig",
-        "total": 9,
-        "pending": 4,
-        "won": 2,
-        "lost": 3,
-        "void": 0,
-        "success_rate": 0.4,
-        "weight": 0.88,
-        "confidence_adjustment": -5
-      },
-      {
-        "name": "ABD MLS",
-        "total": 29,
-        "pending": 19,
-        "won": 4,
-        "lost": 6,
-        "void": 0,
-        "success_rate": 0.4,
-        "weight": 0.88,
-        "confidence_adjustment": -5
-      },
-      {
         "name": "Türkiye Süper Lig",
-        "total": 9,
-        "pending": 4,
+        "total": 10,
+        "pending": 5,
         "won": 2,
         "lost": 3,
         "void": 0,
@@ -261,13 +227,35 @@
         "success_rate": 0.417,
         "weight": 0.88,
         "confidence_adjustment": -5
+      },
+      {
+        "name": "İspanya LaLiga",
+        "total": 11,
+        "pending": 2,
+        "won": 4,
+        "lost": 5,
+        "void": 0,
+        "success_rate": 0.444,
+        "weight": 0.94,
+        "confidence_adjustment": -2
+      },
+      {
+        "name": "İngiltere 2.Lig",
+        "total": 14,
+        "pending": 1,
+        "won": 6,
+        "lost": 7,
+        "void": 0,
+        "success_rate": 0.462,
+        "weight": 0.94,
+        "confidence_adjustment": -2
       }
     ]
   },
   "league_market_memory": {
     "total": 534,
-    "ready": 12,
-    "boost": 6,
+    "ready": 13,
+    "boost": 7,
     "penalty": 6,
     "best": [
       {
@@ -278,6 +266,17 @@
         "lost": 1,
         "void": 0,
         "success_rate": 0.857,
+        "weight": 1.12,
+        "confidence_adjustment": 4
+      },
+      {
+        "name": "Meksika Liga MX Apertura :: 2.5 Alt",
+        "total": 10,
+        "pending": 5,
+        "won": 4,
+        "lost": 1,
+        "void": 0,
+        "success_rate": 0.8,
         "weight": 1.12,
         "confidence_adjustment": 4
       },
@@ -306,13 +305,13 @@
       {
         "name": "ABD USL :: MS 1",
         "total": 10,
-        "pending": 5,
-        "won": 3,
+        "pending": 4,
+        "won": 4,
         "lost": 2,
         "void": 0,
-        "success_rate": 0.6,
-        "weight": 1.06,
-        "confidence_adjustment": 2
+        "success_rate": 0.667,
+        "weight": 1.12,
+        "confidence_adjustment": 4
       },
       {
         "name": "Uruguay Premier Lig Clausura :: 2.5 Alt",

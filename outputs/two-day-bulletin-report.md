@@ -2,18 +2,15 @@
 
 Gunler: 2026-08-30 / 2026-08-31
 Kaynak: fixtures.json
-Ham mac: 471
-Aktif mac: 100
+Ham mac: 191
+Aktif mac: 97
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 371
-Bugun: 62
+Bultenden dusurulen mac: 94
+Bugun: 59
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-30 20:30 | İspanya LaLiga | D.La Coruna - Valencia | scheduled | -
-- 2026-08-30 20:30 | Almanya 3. Lig | Viktoria Köln - Preussen Munste | scheduled | -
-- 2026-08-30 20:30 | Polonya 2.Lig | Gornik Leczna - Rekord Bielsko | scheduled | -
 - 2026-08-30 20:55 | Kuveyt Premier Lig | Al-Jahra - Al Arabi | scheduled | -
 - 2026-08-30 21:00 | Hollanda Eredivisie | Cambuur - Twente | scheduled | -
 - 2026-08-30 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah - Al Faisaly | scheduled | -
