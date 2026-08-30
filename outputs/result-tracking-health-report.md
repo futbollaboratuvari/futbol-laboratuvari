@@ -1,14 +1,14 @@
 # Sonuc Takip Saglik Kontrolu
 
 Durum: ok
-Aktif bulten maci: 0
+Aktif bulten maci: 212
 Arsiv maci: 10515
-Biten mac: 10458
-Skorlu arsiv maci: 758
+Biten mac: 10515
+Skorlu arsiv maci: 788
 Tahmin sayisi: 1500
-Bekleyen tahmin: 1140
-Skor baglanan tahmin: 373
-Son kontrol: 1140
-Son baglanan: 13
+Bekleyen tahmin: 1119
+Skor baglanan tahmin: 381
+Son kontrol: 1119
+Son baglanan: 0
 
 Sonraki aksiyon: Tahmin olcum asamasina gecilebilir.

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-30T22:50:46.084Z",
+  "generated_at": "2026-08-30T23:37:47.447Z",
   "totals": {
     "predictions": 1500,
-    "finished": 383,
-    "pending": 1117
+    "finished": 381,
+    "pending": 1119
   },
   "learning_output_status": "ready",
   "market_development": {
@@ -11,10 +11,10 @@
     "strong": [
       {
         "name": "2.5 Üst",
-        "won": 54,
-        "lost": 26,
-        "total": 80,
-        "success_rate": 68,
+        "won": 58,
+        "lost": 29,
+        "total": 87,
+        "success_rate": 67,
         "weight": 1.12,
         "ready": true
       }
@@ -25,25 +25,34 @@
     "label": "league",
     "strong": [
       {
-        "name": "İspanya 2.Lig",
-        "won": 7,
+        "name": "Ekvador Pro Lig",
+        "won": 6,
         "lost": 1,
-        "total": 8,
-        "success_rate": 88,
+        "total": 7,
+        "success_rate": 86,
         "weight": 1.12,
         "ready": true
       },
       {
-        "name": "Ekvador Pro Lig",
-        "won": 5,
-        "lost": 1,
-        "total": 6,
-        "success_rate": 83,
+        "name": "İspanya 2.Lig",
+        "won": 8,
+        "lost": 2,
+        "total": 10,
+        "success_rate": 80,
         "weight": 1.12,
         "ready": true
       },
       {
         "name": "Kosta Rika Premier Lig Apertura",
+        "won": 4,
+        "lost": 1,
+        "total": 5,
+        "success_rate": 80,
+        "weight": 1.12,
+        "ready": true
+      },
+      {
+        "name": "Meksika Ascenso MX Apertura",
         "won": 4,
         "lost": 1,
         "total": 5,
@@ -59,33 +68,33 @@
         "success_rate": 80,
         "weight": 1.12,
         "ready": true
-      },
-      {
-        "name": "Rusya Premier Lig",
-        "won": 5,
-        "lost": 2,
-        "total": 7,
-        "success_rate": 71,
-        "weight": 1.12,
-        "ready": true
       }
     ],
     "weak": [
       {
-        "name": "Arjantin Premier Lig 2. Aşama",
-        "won": 3,
-        "lost": 5,
-        "total": 8,
-        "success_rate": 38,
+        "name": "Almanya Bundesliga",
+        "won": 2,
+        "lost": 3,
+        "total": 5,
+        "success_rate": 40,
         "weight": 0.88,
         "ready": true
       },
       {
-        "name": "Suudi Arabistan Pro Lig",
-        "won": 1,
-        "lost": 4,
-        "total": 5,
-        "success_rate": 20,
+        "name": "Fransa Ligue 1",
+        "won": 2,
+        "lost": 6,
+        "total": 8,
+        "success_rate": 25,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "İtalya Serie B",
+        "won": 2,
+        "lost": 7,
+        "total": 9,
+        "success_rate": 22,
         "weight": 0.88,
         "ready": true
       },
@@ -99,20 +108,11 @@
         "ready": true
       },
       {
-        "name": "Fransa Ligue 1",
+        "name": "Suudi Arabistan Pro Lig",
         "won": 1,
-        "lost": 6,
-        "total": 7,
-        "success_rate": 14,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "İtalya Serie B",
-        "won": 1,
-        "lost": 6,
-        "total": 7,
-        "success_rate": 14,
+        "lost": 5,
+        "total": 6,
+        "success_rate": 17,
         "weight": 0.88,
         "ready": true
       }
@@ -124,18 +124,9 @@
       {
         "name": "Portekiz Kupa 1.Tur :: 2.5 Üst",
         "won": 7,
-        "lost": 0,
-        "total": 7,
-        "success_rate": 100,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "İspanya 2.Lig :: 2.5 Alt",
-        "won": 6,
         "lost": 1,
-        "total": 7,
-        "success_rate": 86,
+        "total": 8,
+        "success_rate": 88,
         "weight": 1.12,
         "ready": true
       },
@@ -165,24 +156,24 @@
         "success_rate": 78,
         "weight": 1.12,
         "ready": true
+      },
+      {
+        "name": "İspanya 2.Lig :: 2.5 Alt",
+        "won": 6,
+        "lost": 2,
+        "total": 8,
+        "success_rate": 75,
+        "weight": 1.12,
+        "ready": true
       }
     ],
     "weak": [
       {
-        "name": "Portekiz Premier Lig :: 2.5 Alt",
-        "won": 2,
-        "lost": 3,
-        "total": 5,
-        "success_rate": 40,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
         "name": "Portekiz Kupa 1.Tur :: 2.5 Alt",
-        "won": 4,
+        "won": 5,
         "lost": 8,
-        "total": 12,
-        "success_rate": 33,
+        "total": 13,
+        "success_rate": 38,
         "weight": 0.88,
         "ready": true
       },
@@ -196,20 +187,20 @@
         "ready": true
       },
       {
+        "name": "İtalya Serie B :: 2.5 Alt",
+        "won": 2,
+        "lost": 6,
+        "total": 8,
+        "success_rate": 25,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
         "name": "Fransa Ligue 1 :: 2.5 Alt",
         "won": 1,
         "lost": 4,
         "total": 5,
         "success_rate": 20,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "İtalya Serie B :: 2.5 Alt",
-        "won": 1,
-        "lost": 5,
-        "total": 6,
-        "success_rate": 17,
         "weight": 0.88,
         "ready": true
       }

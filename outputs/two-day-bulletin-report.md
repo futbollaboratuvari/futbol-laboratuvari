@@ -3,25 +3,14 @@
 Gunler: 2026-08-31 / 2026-09-01
 Kaynak: fixtures.json
 Ham mac: 220
-Aktif mac: 202
+Aktif mac: 191
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 18
-Bugun: 188
+Bultenden dusurulen mac: 29
+Bugun: 177
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-08-31 01:30 | Brezilya Serie A | Bahia - Internacional | scheduled | -
-- 2026-08-31 01:30 | Venezuela Premier Lig Clausura | Portuguesa - Metropolitanos | scheduled | -
-- 2026-08-31 02:00 | ABD MLS | St. Louis City - Dallas | scheduled | -
-- 2026-08-31 02:00 | Venezuela Premier Lig Clausura | Carabobo - Zamora | scheduled | -
-- 2026-08-31 02:00 | Guatemala Ulusal Lig Apertura | Aurora - Malacateco | scheduled | -
-- 2026-08-31 02:00 | Ekvador Pro Lig | Emelec - Leones Del Nort | scheduled | -
-- 2026-08-31 02:00 | Nikaragua Premier Lig Apertura | San Marcos - Walter Ferretti | scheduled | -
-- 2026-08-31 02:15 | Kolombiya Primera A Clausura | Los Millionari - Inter Bogota | scheduled | -
-- 2026-08-31 02:15 | Honduras Ulusal Lig Apertura | Real Espana - Choloma | scheduled | -
-- 2026-08-31 02:30 | Venezuela Premier Lig Clausura | Deportivo La G - Estudiantes Fc | scheduled | -
-- 2026-08-31 02:30 | El Salvador Primera Lig Apertura | Deportivo Fas - Firpo | scheduled | -
 - 2026-08-31 03:00 | Meksika Liga MX Apertura | Toluca - Fc Juarez | scheduled | -
 - 2026-08-31 03:00 | Peru Premier Lig Clausura | Cienciano - Cusco Fc | scheduled | -
 - 2026-08-31 03:00 | Şili Premier Lig | Coquimbo Unido - Huachipato | scheduled | -
