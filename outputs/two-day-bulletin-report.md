@@ -2,68 +2,15 @@
 
 Gunler: 2026-08-30 / 2026-08-31
 Kaynak: fixtures.json
-Ham mac: 191
-Aktif mac: 97
+Ham mac: 471
+Aktif mac: 44
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 94
-Bugun: 59
+Bultenden dusurulen mac: 427
+Bugun: 6
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-30 20:55 | Kuveyt Premier Lig | Al-Jahra - Al Arabi | scheduled | -
-- 2026-08-30 21:00 | Hollanda Eredivisie | Cambuur - Twente | scheduled | -
-- 2026-08-30 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah - Al Faisaly | scheduled | -
-- 2026-08-30 21:00 | Yunanistan Süper Lig | Kifisias - Aek | scheduled | -
-- 2026-08-30 21:00 | Yunanistan Süper Lig | Asteras Tripol - Olympiakos | scheduled | -
-- 2026-08-30 21:00 | Çek Cumhuriyeti Czech Liga | Sparta Prag - Slavia Prag | scheduled | -
-- 2026-08-30 21:00 | Sırbistan Süper Lig | Zemun Belg. - Kizilyildiz | scheduled | -
-- 2026-08-30 21:00 | Arjantin Premier Lig 2. Aşama | Banfield - River Plate | scheduled | -
-- 2026-08-30 21:00 | Hırvatistan 1.HNL | Osijek - Slaven Belupo | scheduled | -
-- 2026-08-30 21:00 | Romanya 1.Lig | Fc Steaua - Uta Arad | scheduled | -
-- 2026-08-30 21:00 | Arjantin Ulusal Primera Lig | Almirante - Deportivo Madry | scheduled | -
-- 2026-08-30 21:00 | Arjantin Ulusal Primera Lig | Ca Mitre - Central Norte | scheduled | -
-- 2026-08-30 21:00 | Meksika Ascenso MX Apertura | Leones Negros - Piratas | scheduled | -
-- 2026-08-30 21:00 | Ekvador Pro Lig | Aucas - Libertad | scheduled | -
-- 2026-08-30 21:00 | Irak Premier Lig | Al Shorta - Al Mosul | scheduled | -
-- 2026-08-30 21:15 | Polonya Ekstraklasa | Widzew Lodz - Lech Poznan | scheduled | -
-- 2026-08-30 21:15 | Bulgaristan 1.Lig | Cska Sofia - Cherno More | scheduled | -
-- 2026-08-30 21:15 | Peru Premier Lig Clausura | Adt - Sport Huancayo | scheduled | -
-- 2026-08-30 21:15 | Slovenya 1.SNL | Nafta - Maribor | scheduled | -
-- 2026-08-30 21:30 | Türkiye Süper Lig | Samsunspor - Fenerbahçe | scheduled | -
-- 2026-08-30 21:30 | Türkiye Süper Lig | Başakşehir Fk - Kasimpaşa | scheduled | -
-- 2026-08-30 21:30 | Türkiye TFF 1. Lig | Manisa Futbol - Bodrum Fk | scheduled | -
-- 2026-08-30 21:30 | Arjantin Ulusal Primera Lig | Moron - San Miguel | scheduled | -
-- 2026-08-30 21:30 | Arjantin Ulusal Primera Lig | All Boys - Chaco For Ever | scheduled | -
-- 2026-08-30 21:30 | Arjantin Ulusal Primera Lig | Patronato - Almagro | scheduled | -
-- 2026-08-30 21:30 | Arjantin Ulusal Primera Lig | Caseros - Ferro Carril Oe | scheduled | -
-- 2026-08-30 21:30 | Arjantin Ulusal Primera Lig | Atlanta - San Martin Sj | scheduled | -
-- 2026-08-30 21:30 | Uruguay Premier Lig Clausura | Penarol - Nacional Df | scheduled | -
-- 2026-08-30 21:30 | İtalya Serie A Kadınlar Kupası Grup B | Fiorentina (K) - Ternana (K) | scheduled | -
-- 2026-08-30 21:45 | İtalya Serie A | Lazio - Genoa | scheduled | -
-- 2026-08-30 21:45 | İtalya Serie A | Cagliari - Inter | scheduled | -
-- 2026-08-30 21:45 | Fransa Ligue 1 | Monaco - Marsilya | scheduled | -
-- 2026-08-30 22:00 | İtalya Serie B | Benevento - Sudtirol | scheduled | -
-- 2026-08-30 22:00 | İtalya Serie B | Pisa - Catanzaro | scheduled | -
-- 2026-08-30 22:00 | Sırbistan Süper Lig | Imt Novi Beogr - Mladost Lucani | scheduled | -
-- 2026-08-30 22:00 | Brezilya Serie A | Corinthians - Santos | scheduled | -
-- 2026-08-30 22:00 | Brezilya Serie A | Flamengo - Botafogo | scheduled | -
-- 2026-08-30 22:00 | İtalya Serie C Grup A | Lumezzane - Giana Erminio | scheduled | -
-- 2026-08-30 22:00 | İtalya Serie C Grup A | Pergolettese - Union Brescia | scheduled | -
-- 2026-08-30 22:00 | İtalya Serie C Grup B | Vis Pasaro - Perugia | scheduled | -
-- 2026-08-30 22:00 | İtalya Serie C Grup B | Gubbio - Reggiana | scheduled | -
-- 2026-08-30 22:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Chico | scheduled | -
-- 2026-08-30 22:00 | Şili Premier Lig | Univ De Concep - Univ. De Şili | scheduled | -
-- 2026-08-30 22:00 | Brezilya Serie B | America Mineir - Ponte Preta | scheduled | -
-- 2026-08-30 22:00 | Brezilya Serie B | Avai - Atletico Goiani | scheduled | -
-- 2026-08-30 22:00 | Bosna-Hersek Premier Lig | Radnik Bijelji - Borac Banja Luk | scheduled | -
-- 2026-08-30 22:00 | İspanya Kadınlar Primera Lig | Real Madrid (K - Atl Madrid (K) | scheduled | -
-- 2026-08-30 22:00 | Malta Premier Lig Açılış | Sliema - Birzebbuga | scheduled | -
-- 2026-08-30 22:15 | İzlanda Urvalsdeild | Valur - Akranes | scheduled | -
-- 2026-08-30 22:30 | İspanya LaLiga | Celta Vigo - Athletic Bilbao | scheduled | -
-- 2026-08-30 22:30 | Portekiz Premier Lig | Famalicao - Gil Vicente | scheduled | -
-- 2026-08-30 22:30 | İspanya 2.Lig | Cordoba - Granada | scheduled | -
-- 2026-08-30 22:30 | İspanya Primera Lig RFEF Grup 2 | Tarragona - Zaragoza | scheduled | -
 - 2026-08-30 23:00 | Arjantin Premier Lig 2. Aşama | Argentinos Jr - Aldosivi | scheduled | -
 - 2026-08-30 23:00 | Arjantin Ulusal Primera Lig | R Cordoba - Colon Santa Fe | scheduled | -
 - 2026-08-30 23:30 | ABD MLS | Columbus - New England | scheduled | -

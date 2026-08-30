@@ -1,63 +1,38 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-30T17:36:29.609714+00:00
+Tarih: 2026-08-30T19:53:02.325531+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 66
+- Kac mac bulundu: 46
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 66
+- Kac mac zaten vardi: 46
 - Ham veri havuzu toplam mac sayisi: 10572
 - Hedef tarih: 30.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
-- Almanya 3. Lig
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Bosna-Hersek Premier Lig
 - Brezilya Serie A
 - Brezilya Serie B
-- Bulgaristan 1.Lig
 - Ekvador Pro Lig
-- Fransa Ligue 1
-- Hollanda Eredivisie
-- Hırvatistan 1.HNL
-- Irak Premier Lig
+- El Salvador Primera Lig Apertura
+- Guatemala Ulusal Lig Apertura
+- Honduras Ulusal Lig Apertura
+- Kanada Premier Lig
 - Kolombiya Primera A Clausura
-- Kuveyt Premier Lig
-- Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
+- Kosta Rika Premier Lig Apertura
+- Meksika Liga MX Apertura
+- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 1
 - Peru Premier Lig Clausura
-- Polonya 2.Lig
-- Polonya Ekstraklasa
-- Portekiz Premier Lig
-- Romanya 1.Lig
-- Slovenya 1.SNL
-- Suudi Arabistan Pro Lig
-- Sırbistan Süper Lig
-- Türkiye Süper Lig
-- Türkiye TFF 1. Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
-- Yunanistan Süper Lig
-- Çek Cumhuriyeti Czech Liga
-- İspanya 2.Lig
-- İspanya Kadınlar Primera Lig
-- İspanya LaLiga
-- İspanya Primera Lig RFEF Grup 2
 - İsveç 2.Lig Södra Götaland
-- İsviçre 1.Lig Promotion
-- İtalya Serie A
-- İtalya Serie A Kadınlar Kupası Grup B
-- İtalya Serie B
-- İtalya Serie C Grup A
-- İtalya Serie C Grup B
-- İzlanda Urvalsdeild
 - Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
@@ -115,8 +90,8 @@ Tarih: 2026-08-30T17:36:29.609714+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 63
-- Acilan detay: 63
+- Denenen Tumu alani: 26
+- Acilan detay: 26
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -129,26 +104,26 @@ Tarih: 2026-08-30T17:36:29.609714+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 30.08.2026 | 21:30 | Türkiye Süper Lig | Samsunspor | Fenerbahçe | 06560 | 5 |
-| 30.08.2026 | 21:30 | Türkiye Süper Lig | Başakşehir Fk | Kasimpaşa | 06558 | 5 |
-| 30.08.2026 | 21:30 | Türkiye TFF 1. Lig | Manisa Futbol | Bodrum Fk | 20511 | 5 |
-| 30.08.2026 | 20:30 | İspanya LaLiga | D.La Coruna | Valencia | 19211 | 5 |
-| 30.08.2026 | 22:30 | İspanya LaLiga | Celta Vigo | Athletic Bilbao | 19269 | 5 |
-| 30.08.2026 | 21:45 | İtalya Serie A | Cagliari | Inter | 00160 | 5 |
-| 30.08.2026 | 21:45 | İtalya Serie A | Lazio | Genoa | 24334 | 5 |
-| 30.08.2026 | 21:45 | Fransa Ligue 1 | Monaco | Marsilya | 06854 | 5 |
-| 30.08.2026 | 21:00 | Hollanda Eredivisie | Cambuur | Twente | 28705 | 5 |
-| 30.08.2026 | 22:30 | Portekiz Premier Lig | Famalicao | Gil Vicente | 29106 | 5 |
-| 30.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah | Al Faisaly | 10140 | 4 |
-| 30.08.2026 | 22:30 | İspanya 2.Lig | Cordoba | Granada | 20187 | 5 |
-| 30.08.2026 | 22:00 | İtalya Serie B | Benevento | Sudtirol | 25869 | 5 |
-| 30.08.2026 | 22:00 | İtalya Serie B | Pisa | Catanzaro | 25809 | 5 |
-| 30.08.2026 | 21:00 | Yunanistan Süper Lig | Asteras Tripol | Olympiakos | 36326 | 5 |
-| 30.08.2026 | 21:00 | Yunanistan Süper Lig | Kifisias | Aek | 36273 | 5 |
-| 30.08.2026 | 21:15 | Polonya Ekstraklasa | Widzew Lodz | Lech Poznan | 38338 | 5 |
-| 30.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Sparta Prag | Slavia Prag | 34621 | 5 |
-| 30.08.2026 | 21:00 | Sırbistan Süper Lig | Zemun Belg. | Kizilyildiz | 51074 | 2 |
-| 30.08.2026 | 22:00 | Sırbistan Süper Lig | Imt Novi Beogr | Mladost Lucani | 51207 | 5 |
+| 30.08.2026 | 23:30 | ABD MLS | Columbus | New England | 43871 | 5 |
+| 31.08.2026 | 02:00 | ABD MLS | St. Louis City | Dallas | 44862 | 5 |
+| 31.08.2026 | 01:30 | Brezilya Serie A | Bahia | Internacional | 32653 | 5 |
+| 31.08.2026 | 00:30 | Brezilya Serie A | Mirassol | Palmeiras | 32562 | 5 |
+| 31.08.2026 | 00:30 | Brezilya Serie A | Gremio | Chapecoense | 32503 | 5 |
+| 30.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Argentinos Jr | Aldosivi | 31389 | 5 |
+| 31.08.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | Independiente | Gimnasia Mendoz | 31481 | 5 |
+| 31.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Rivadavia | Racing Club | 31539 | 5 |
+| 31.08.2026 | 03:00 | Meksika Liga MX Apertura | Toluca | Fc Juarez | 33199 | 5 |
+| 31.08.2026 | 05:10 | Meksika Liga MX Apertura | Monterrey | Atletico San Lu | 33241 | 5 |
+| 31.08.2026 | 04:20 | Kolombiya Primera A Clausura | Deportivo Cali | Bucaramanga | 17903 | 5 |
+| 31.08.2026 | 02:15 | Kolombiya Primera A Clausura | Los Millionari | Inter Bogota | 51421 | 5 |
+| 31.08.2026 | 00:10 | Kolombiya Primera A Clausura | Independiente | Llaneros | 51314 | 5 |
+| 30.08.2026 | 23:30 | Peru Premier Lig Clausura | Sport Boys | Sporting Crista | 51258 | 5 |
+| 31.08.2026 | 03:00 | Peru Premier Lig Clausura | Cienciano | Cusco Fc | 51460 | 5 |
+| 30.08.2026 | 23:30 | Venezuela Premier Lig Clausura | Trujillanos | Monagas | 05365 | 5 |
+| 31.08.2026 | 02:00 | Venezuela Premier Lig Clausura | Carabobo | Zamora | 06025 | 5 |
+| 31.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Portuguesa | Metropolitanos | 05858 | 5 |
+| 31.08.2026 | 00:00 | Venezuela Premier Lig Clausura | Depor Tachira | Caracas Fc | 05474 | 5 |
+| 31.08.2026 | 02:30 | Venezuela Premier Lig Clausura | Deportivo La G | Estudiantes Fc | 06083 | 5 |
 
 ## Sonuc
 
