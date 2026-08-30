@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-30T13:17:39.880019+00:00
+Tarih: 2026-08-30T17:16:44.587857+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 251
+- Kac mac bulundu: 113
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 251
+- Kac mac zaten vardi: 113
 - Ham veri havuzu toplam mac sayisi: 10572
 - Hedef tarih: 30.08.2026 Europe/Istanbul
 
@@ -16,105 +16,54 @@ Tarih: 2026-08-30T13:17:39.880019+00:00
 
 - ABD MLS
 - Almanya 3. Lig
-- Almanya Bundesliga
-- Almanya Kadınlar Bundesliga
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya Victoria NPL 1
-- Avusturya Bundesliga
-- Azerbaycan Premier Lig
-- Belarus 1.Lig
-- Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
-- Birleşik Arap Emirlikleri 1.Lig
-- Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bosna-Hersek Premier Lig
 - Brezilya Serie A
 - Brezilya Serie B
 - Bulgaristan 1.Lig
-- Danimarka Süperlig
 - Ekvador Pro Lig
-- Estonya Premium Lig
-- Faroe Adaları Master Lig
-- Finlandiya Ykkösliiga
+- El Salvador Primera Lig Apertura
 - Fransa Ligue 1
-- Gürcistan Erovnuli Liga
-- Hollanda Eerste Divisie
+- Guatemala Ulusal Lig Apertura
 - Hollanda Eredivisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
-- Hırvatistan 2.HNL
 - Irak Premier Lig
-- Kazakistan Premier Lig
+- Kanada Premier Lig
 - Kolombiya Primera A Clausura
 - Kosta Rika Premier Lig Apertura
 - Kuveyt Premier Lig
-- Letonya 1.Lig
-- Letonya Virsliga
-- Litvanya A Ligi
-- Macaristan NB I
-- Macaristan NB II
-- Macaristan NB III Güneybatı
-- Macaristan NB III Güneydoğu
-- Macaristan NB III Kuzeybatı
-- Macaristan NB III Kuzeydoğu
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
-- Moldova Ulusal Lig
-- Nijerya NPFL
-- Norveç 1.Lig
-- Norveç 2.Lig Grup 1
+- Meksika Liga MX Apertura
+- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 1
-- Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 3
-- Norveç 3.Lig Grup 4
-- Norveç 3.Lig Grup 5
-- Norveç 3.Lig Grup 6
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
-- Polonya 1.Lig
 - Polonya 2.Lig
 - Polonya Ekstraklasa
-- Portekiz 2.Lig
-- Portekiz Kupa 1.Tur
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Rusya FNL
-- Rusya Premier Lig
-- Slovakya Süper Lig
 - Slovenya 1.SNL
 - Suudi Arabistan Pro Lig
 - Sırbistan Süper Lig
-- Tunus 1.Lig
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
-- Ukrayna Premier Lig
-- Umman Profesyonel Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - Yunanistan Süper Lig
 - Çek Cumhuriyeti Czech Liga
-- Çek Cumhuriyeti FNL
-- İngiltere 1.Lig
-- İngiltere Premier Lig
-- İrlanda Premier Lig
-- İskoçya Premiership
 - İspanya 2.Lig
 - İspanya Kadınlar Primera Lig
 - İspanya LaLiga
 - İspanya Primera Lig RFEF Grup 1
 - İspanya Primera Lig RFEF Grup 2
-- İsveç 2.Lig Norra Götaland
-- İsveç 2.Lig Norra Svealand
-- İsveç 2.Lig Norrland Yükselme Grubu
 - İsveç 2.Lig Södra Götaland
-- İsveç 2.Lig Vastra Götaland
-- İsveç Allsvenskan
-- İsveç Superettan
 - İsviçre 1.Lig Promotion
-- İsviçre Süper Lig
 - İtalya Serie A
-- İtalya Serie A Kadınlar Kupası Grup A
 - İtalya Serie A Kadınlar Kupası Grup B
 - İtalya Serie B
 - İtalya Serie C Grup A
@@ -177,8 +126,8 @@ Tarih: 2026-08-30T13:17:39.880019+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 90
-- Acilan detay: 90
+- Denenen Tumu alani: 67
+- Acilan detay: 67
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -191,26 +140,26 @@ Tarih: 2026-08-30T13:17:39.880019+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 30.08.2026 | 21:30 | Türkiye Süper Lig | Başakşehir Fk | Kasimpaşa | 06558 | 5 |
 | 30.08.2026 | 21:30 | Türkiye Süper Lig | Samsunspor | Fenerbahçe | 06560 | 5 |
-| 30.08.2026 | 19:00 | Türkiye Süper Lig | Eyüpspor | Alanyaspor | 06555 | 5 |
-| 30.08.2026 | 19:00 | Türkiye TFF 1. Lig | Esenler Eroksp | Iğdır Fk | 20494 | 5 |
+| 30.08.2026 | 21:30 | Türkiye Süper Lig | Başakşehir Fk | Kasimpaşa | 06558 | 5 |
 | 30.08.2026 | 21:30 | Türkiye TFF 1. Lig | Manisa Futbol | Bodrum Fk | 20511 | 5 |
-| 30.08.2026 | 18:30 | İngiltere Premier Lig | Man. Utd | Ipswich | 14031 | 5 |
 | 30.08.2026 | 22:30 | İspanya LaLiga | Celta Vigo | Athletic Bilbao | 19269 | 5 |
-| 30.08.2026 | 18:00 | İspanya LaLiga | Real Madrid | Malaga | 18729 | 4 |
 | 30.08.2026 | 20:30 | İspanya LaLiga | D.La Coruna | Valencia | 19211 | 5 |
 | 30.08.2026 | 21:45 | İtalya Serie A | Lazio | Genoa | 24334 | 5 |
 | 30.08.2026 | 21:45 | İtalya Serie A | Cagliari | Inter | 00160 | 5 |
-| 30.08.2026 | 19:30 | İtalya Serie A | Napoli | Como | 24276 | 5 |
-| 30.08.2026 | 18:15 | Fransa Ligue 1 | Rennes | Le Mans | 27370 | 5 |
 | 30.08.2026 | 21:45 | Fransa Ligue 1 | Monaco | Marsilya | 06854 | 5 |
-| 30.08.2026 | 16:30 | Almanya Bundesliga | Freiburg | Werder Bremen | 21765 | 5 |
-| 30.08.2026 | 18:30 | Almanya Bundesliga | Augsburg | Schalke | 21882 | 5 |
 | 30.08.2026 | 21:00 | Hollanda Eredivisie | Cambuur | Twente | 28705 | 5 |
-| 30.08.2026 | 17:45 | Hollanda Eredivisie | Telstar | Ajax | 28647 | 5 |
 | 30.08.2026 | 22:30 | Portekiz Premier Lig | Famalicao | Gil Vicente | 29106 | 5 |
-| 30.08.2026 | 20:00 | Portekiz Premier Lig | Casa Pia | Moreirense | 29048 | 5 |
+| 30.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah | Al Faisaly | 10140 | 4 |
+| 30.08.2026 | 20:15 | Belçika Pro Lig | Westerlo | Zulte Waregem | 28185 | 5 |
+| 30.08.2026 | 22:30 | İspanya 2.Lig | Cordoba | Granada | 20187 | 5 |
+| 30.08.2026 | 22:00 | İtalya Serie B | Pisa | Catanzaro | 25809 | 5 |
+| 30.08.2026 | 22:00 | İtalya Serie B | Benevento | Sudtirol | 25869 | 5 |
+| 30.08.2026 | 21:00 | Yunanistan Süper Lig | Kifisias | Aek | 36273 | 5 |
+| 30.08.2026 | 20:15 | Yunanistan Süper Lig | Atromitos | Paok | 36219 | 5 |
+| 30.08.2026 | 21:00 | Yunanistan Süper Lig | Asteras Tripol | Olympiakos | 36326 | 5 |
+| 30.08.2026 | 21:15 | Polonya Ekstraklasa | Widzew Lodz | Lech Poznan | 38338 | 5 |
+| 30.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Sparta Prag | Slavia Prag | 34621 | 5 |
 
 ## Sonuc
 
