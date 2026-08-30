@@ -152,27 +152,119 @@ const getSignalsText = (item) => {
   return String(signals || "");
 };
 
-const proAnalysisCouponCard = (item) => `
-  <article class="robot-live-card">
-    <h3>${escapeHtml(normalizeTitle(item))}</h3>
-    <div class="robot-row"><span>Seçenek</span><strong>${escapeHtml(normalizeMarket(item))}</strong></div>
-    <div class="robot-row"><span>Model gücü</span><strong>${escapeHtml(normalizeScore(item))}</strong></div>
-    <div class="robot-row"><span>Risk</span><strong>${escapeHtml(normalizeRisk(item))}</strong></div>
-    <div class="robot-row"><span>Durum</span><strong>${escapeHtml(item.status || "takipte")}</strong></div>
-    <p class="robot-note">Bu kart yalnızca PRO robotun ürettiği veri katmanları varsa gösterilir.</p>
-  </article>
-`;
+const proMetricNumber = (value) => {
+  const parsed = Number(String(value ?? "").replace("%", "").replace(",", "."));
+  return Number.isFinite(parsed) ? parsed : null;
+};
 
-const analysisCommentCard = (item, index) => `
-  <article class="analysis-card reveal visible">
-    <div class="meta-row"><span>PRO Robot #${index + 1}</span><span>${escapeHtml(item.status || "takipte")}</span></div>
-    <h3>${escapeHtml(normalizeTitle(item))}</h3>
-    <p>${escapeHtml(item.commentary || item.comment || item.analysis_note || "PRO robot yorumu bekleniyor.")}</p>
-    <div class="robot-row"><span>Seçenek</span><strong>${escapeHtml(normalizeMarket(item))}</strong></div>
-    <div class="robot-row"><span>Model gücü / Risk</span><strong>${escapeHtml(normalizeScore(item))} / ${escapeHtml(normalizeRisk(item))}</strong></div>
-    <p class="robot-note">Veri dayanağı: ${escapeHtml(getSignalsText(item) || "PRO veri katmanları bekleniyor")}</p>
-  </article>
-`;
+const proNumberLabel = (value, digits = 1) => {
+  const parsed = proMetricNumber(value);
+  if (parsed === null) return "—";
+  return parsed.toLocaleString("tr-TR", {
+    minimumFractionDigits: Number.isInteger(parsed) ? 0 : digits,
+    maximumFractionDigits: digits,
+  });
+};
+
+const proPercentLabel = (value) => {
+  const label = proNumberLabel(value);
+  return label === "—" ? label : `%${label}`;
+};
+
+const proScoreValue = (item) => Math.max(0, Math.min(100, scoreNumber(item)));
+
+const proScheduleLabel = (item) => {
+  const [year, month, day] = String(item?.date || "").slice(0, 10).split("-");
+  const date = year && month && day ? `${day}.${month}.${year}` : "Tarih bekleniyor";
+  const time = /^\d{2}:\d{2}/.test(String(item?.time || "")) ? String(item.time).slice(0, 5) : "--:--";
+  return `${date} · ${time}`;
+};
+
+const proRiskTone = (value) => {
+  const risk = String(value || "").toLocaleLowerCase("tr-TR");
+  if (risk.includes("düşük") || risk.includes("dusuk") || risk.includes("low")) return "low";
+  if (risk.includes("yüksek") || risk.includes("yuksek") || risk.includes("high")) return "high";
+  if (risk.includes("orta") || risk.includes("medium")) return "medium";
+  return "unknown";
+};
+
+const proAnalysisCouponCard = (item) => {
+  const score = proScoreValue(item);
+  const risk = normalizeRisk(item);
+  const status = item.status || "İzleme";
+  const commentary = item.commentary || item.comment || item.analysis_note || "PRO robot yorumu bekleniyor.";
+  return `
+    <article class="fl-pro-featured-card" data-risk="${proRiskTone(risk)}">
+      <header class="fl-pro-card-topline">
+        <div class="fl-pro-card-identity">
+          <span class="fl-pro-kicker">PRO Günün Seçimi</span>
+          <span class="fl-pro-league">${escapeHtml(item.league || "Lig bilgisi bekleniyor")}</span>
+        </div>
+        <div class="fl-pro-card-state">
+          <span class="fl-pro-status${item.include_in_coupon === true ? " is-coupon" : ""}">${escapeHtml(status)}</span>
+          <time datetime="${escapeHtml(`${item.date || ""}T${item.time || ""}`)}">${escapeHtml(proScheduleLabel(item))}</time>
+        </div>
+      </header>
+      <div class="fl-pro-featured-body">
+        <div class="fl-pro-featured-copy">
+          <h3>${escapeHtml(normalizeTitle(item))}</h3>
+          <p class="fl-pro-commentary">${escapeHtml(commentary)}</p>
+          <dl class="fl-pro-featured-metrics">
+            <div class="is-primary"><dt>Önerilen seçenek</dt><dd>${escapeHtml(normalizeMarket(item))}</dd></div>
+            <div><dt>Önerilen oran</dt><dd>${escapeHtml(proNumberLabel(item.recommended_odd, 2))}</dd></div>
+            <div><dt>Tahmini olasılık</dt><dd>${escapeHtml(proPercentLabel(item.estimated_probability))}</dd></div>
+            <div><dt>Veri kapsamı</dt><dd>${escapeHtml(proPercentLabel(item.data_completeness))}</dd></div>
+          </dl>
+        </div>
+        <div class="fl-pro-score-panel">
+          <div class="fl-pro-score-ring" style="--fl-pro-score: ${score}%" role="img" aria-label="Model gücü ${escapeHtml(proNumberLabel(score))} üzerinden 100">
+            <span><strong>${escapeHtml(proNumberLabel(score))}</strong><small>/100</small></span>
+          </div>
+          <b>Model gücü</b>
+          <small>Sonuç olasılığı değildir</small>
+        </div>
+      </div>
+      <footer class="fl-pro-card-footer">
+        <span class="fl-pro-risk" data-risk="${proRiskTone(risk)}">Risk: <strong>${escapeHtml(risk)}</strong></span>
+        <span>Veri kalitesi: <strong>${escapeHtml(item.data_quality || "Belirsiz")}</strong></span>
+        <span>PRO veri katmanlarıyla oluşturuldu</span>
+      </footer>
+    </article>
+  `;
+};
+
+const analysisCommentCard = (item, index) => {
+  const risk = normalizeRisk(item);
+  const score = proScoreValue(item);
+  const commentary = item.commentary || item.comment || item.analysis_note || "PRO robot yorumu bekleniyor.";
+  return `
+    <article class="analysis-card fl-pro-detail-card reveal visible" data-risk="${proRiskTone(risk)}">
+      <header class="fl-pro-detail-topline">
+        <span class="fl-pro-index">${String(index + 1).padStart(2, "0")}</span>
+        <div>
+          <span class="fl-pro-league">${escapeHtml(item.league || "Lig bilgisi bekleniyor")}</span>
+          <time datetime="${escapeHtml(`${item.date || ""}T${item.time || ""}`)}">${escapeHtml(proScheduleLabel(item))}</time>
+        </div>
+        <span class="fl-pro-status${item.include_in_coupon === true ? " is-coupon" : ""}">${escapeHtml(item.status || "İzleme")}</span>
+      </header>
+      <h3>${escapeHtml(normalizeTitle(item))}</h3>
+      <p class="fl-pro-commentary">${escapeHtml(commentary)}</p>
+      <div class="fl-pro-selection-row">
+        <div><span>Önerilen seçenek</span><strong>${escapeHtml(normalizeMarket(item))}</strong></div>
+        <div><span>Model gücü</span><strong>${escapeHtml(proNumberLabel(score))}<small>/100</small></strong></div>
+      </div>
+      <dl class="fl-pro-detail-metrics">
+        <div><dt>Oran</dt><dd>${escapeHtml(proNumberLabel(item.recommended_odd, 2))}</dd></div>
+        <div><dt>Tahmini olasılık</dt><dd>${escapeHtml(proPercentLabel(item.estimated_probability))}</dd></div>
+        <div><dt>Veri kapsamı</dt><dd>${escapeHtml(proPercentLabel(item.data_completeness))}</dd></div>
+      </dl>
+      <footer class="fl-pro-detail-footer">
+        <span class="fl-pro-risk" data-risk="${proRiskTone(risk)}">Risk: <strong>${escapeHtml(risk)}</strong></span>
+        <span>${escapeHtml(item.data_quality || "Veri kalitesi belirsiz")}</span>
+      </footer>
+    </article>
+  `;
+};
 
 const protectedMatchTimestamp = (item) => {
   const date = String(item?.date || "").slice(0, 10);

@@ -80,7 +80,12 @@ async function testSharedJsonRequests() {
     },
   });
   assert.match(strongestPickCard.innerHTML, /Canlı Kart A – Canlı Kart B/);
+  assert.match(strongestPickCard.innerHTML, /fl-pro-featured-card/);
+  assert.match(strongestPickCard.innerHTML, /PRO Günün Seçimi/);
+  assert.match(strongestPickCard.innerHTML, /Model gücü/);
   assert.match(analysisList.innerHTML, /İki takım gol eğilimi/);
+  assert.match(analysisList.innerHTML, /fl-pro-detail-card/);
+  assert.match(analysisList.innerHTML, /Tahmini olasılık/);
   listeners.get("fl:pro-analysis-cleared")();
   assert.match(strongestPickCard.innerHTML, /üyelik kodunu doğrula/);
   const waitingCards = window.__flResultsPerformance.performanceCards({

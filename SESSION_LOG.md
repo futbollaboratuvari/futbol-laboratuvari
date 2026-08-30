@@ -288,3 +288,11 @@ Summary:
 - Korumalı indeks yeni karta dönüştürülerek güçlü aday ve maç yorumları alanlarına bağlandı; geçmiş maçlar ve sinyalsiz kayıtlar dışarıda bırakıldı.
 - Erişim temizleme olayı eklendi; önceki üyeye ait PRO içeriğin kod değişiminden sonra ekranda kalması engellendi.
 - Supabase yalnız salt okunur kontrol edildi; `memberships` tablosundaki `founder` kaydı aktif ve sınırsız hak karşılığı 9999 olarak bulundu.
+
+## 2026-08-30 — Güçlü aday ve maç yorumu kartları
+
+- Kullanıcının ekran görüntüsündeki iki PRO alanı mevcut lacivert, altın ve yeşil marka diliyle yeniden tasarlandı.
+- Güçlü aday geniş vitrin kartı; maç yorumları ise masaüstü/tablet/mobil için 3/2/1 sütunlu kart düzeni kullanır.
+- Lig, maç saati, önerilen market, oran, model gücü, tahmini olasılık, veri kapsamı, veri kalitesi ve risk birbirinden ayrıldı.
+- Kartlar yalnız mevcut korumalı PRO alanlarını gösterir; yeni veri, tahmin veya üyelik davranışı üretilmedi.
+- JavaScript, performans, güvenlik/yasal ve Özel Analiz testleri ile ayrı üretim paketi başarılıdır; özel PRO ve üyelik dosyaları kamu paketinin dışında kalır.

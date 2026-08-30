@@ -190,3 +190,10 @@ Current hosting and security state:
 - Yalnız başlamamış ve gerçek PRO sinyali bulunan kayıtlar gösterilir; kupona uygun kayıtlar önce, ardından model gücüne göre sıralanır.
 - Kod değiştirildiğinde veya erişim temizlendiğinde korumalı içerik de ana sayfadan kaldırılır.
 - Supabase `founder` üyeliği aktif ve 9999 hakla doğrulandı; veri tabanında üyelik kaydı değiştirilmedi.
+
+## 2026-08-30 — PRO merkez kart tasarımı
+
+- “Bugünün en güçlü adayı” tek, geniş ve lacivert-altın PRO vitrin kartına dönüştürüldü.
+- Güçlü aday kartında lig/saat, önerilen seçenek, oran, tahmini olasılık, veri kapsamı, model gücü ve risk ayrı görsel alanlarda sunulur.
+- Maç bazlı değerlendirmeler masaüstünde üç, tablette iki, mobilde tek sütunlu okunabilir kart düzenine geçirildi.
+- Model gücünün sonuç olasılığı olmadığı kart üzerinde açıkça korunur; üyelik doğrulama, hak tüketimi ve korumalı veri akışı değiştirilmedi.
