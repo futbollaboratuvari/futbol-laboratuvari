@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-30T13:03:45.913Z",
+  "generated_at": "2026-08-30T16:49:44.623Z",
   "status": "active",
   "prediction_count": 1500,
   "market_memory": {
     "total": 7,
     "ready": 4,
     "boost": 1,
-    "penalty": 2,
+    "penalty": 1,
     "best": [
       {
         "name": "2.5 Üst",
-        "total": 189,
-        "pending": 122,
+        "total": 191,
+        "pending": 124,
         "won": 43,
         "lost": 24,
         "void": 0,
@@ -22,24 +22,13 @@
     ],
     "weak": [
       {
-        "name": "MS 2",
-        "total": 207,
-        "pending": 183,
-        "won": 11,
-        "lost": 13,
-        "void": 0,
-        "success_rate": 0.458,
-        "weight": 0.94,
-        "confidence_adjustment": -2
-      },
-      {
         "name": "2.5 Alt",
-        "total": 601,
-        "pending": 458,
+        "total": 600,
+        "pending": 456,
         "won": 68,
-        "lost": 75,
+        "lost": 76,
         "void": 0,
-        "success_rate": 0.476,
+        "success_rate": 0.472,
         "weight": 0.94,
         "confidence_adjustment": -2
       }
@@ -47,9 +36,9 @@
   },
   "league_memory": {
     "total": 205,
-    "ready": 26,
-    "boost": 11,
-    "penalty": 11,
+    "ready": 29,
+    "boost": 13,
+    "penalty": 12,
     "best": [
       {
         "name": "İspanya 2.Lig",
@@ -74,9 +63,20 @@
         "confidence_adjustment": 4
       },
       {
+        "name": "Hollanda Eredivisie",
+        "total": 7,
+        "pending": 2,
+        "won": 4,
+        "lost": 1,
+        "void": 0,
+        "success_rate": 0.8,
+        "weight": 1.12,
+        "confidence_adjustment": 4
+      },
+      {
         "name": "Kolombiya Primera A Clausura",
-        "total": 20,
-        "pending": 12,
+        "total": 19,
+        "pending": 11,
         "won": 6,
         "lost": 2,
         "void": 0,
@@ -140,24 +140,13 @@
         "confidence_adjustment": 2
       },
       {
-        "name": "İtalya Serie A",
-        "total": 10,
-        "pending": 5,
+        "name": "Hollanda Eerste Divisie",
+        "total": 13,
+        "pending": 8,
         "won": 3,
         "lost": 2,
         "void": 0,
         "success_rate": 0.6,
-        "weight": 1.06,
-        "confidence_adjustment": 2
-      },
-      {
-        "name": "ABD USL",
-        "total": 34,
-        "pending": 15,
-        "won": 11,
-        "lost": 8,
-        "void": 0,
-        "success_rate": 0.579,
         "weight": 1.06,
         "confidence_adjustment": 2
       }
@@ -230,7 +219,7 @@
         "confidence_adjustment": -5
       },
       {
-        "name": "Türkiye Süper Lig",
+        "name": "İspanya Kadınlar Primera Lig",
         "total": 9,
         "pending": 4,
         "won": 2,
@@ -242,10 +231,21 @@
       },
       {
         "name": "ABD MLS",
-        "total": 27,
-        "pending": 17,
+        "total": 29,
+        "pending": 19,
         "won": 4,
         "lost": 6,
+        "void": 0,
+        "success_rate": 0.4,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "Türkiye Süper Lig",
+        "total": 9,
+        "pending": 4,
+        "won": 2,
+        "lost": 3,
         "void": 0,
         "success_rate": 0.4,
         "weight": 0.88,
@@ -261,22 +261,11 @@
         "success_rate": 0.417,
         "weight": 0.88,
         "confidence_adjustment": -5
-      },
-      {
-        "name": "İspanya LaLiga",
-        "total": 11,
-        "pending": 2,
-        "won": 4,
-        "lost": 5,
-        "void": 0,
-        "success_rate": 0.444,
-        "weight": 0.94,
-        "confidence_adjustment": -2
       }
     ]
   },
   "league_market_memory": {
-    "total": 536,
+    "total": 534,
     "ready": 12,
     "boost": 6,
     "penalty": 6,
@@ -316,8 +305,8 @@
       },
       {
         "name": "ABD USL :: MS 1",
-        "total": 9,
-        "pending": 4,
+        "total": 10,
+        "pending": 5,
         "won": 3,
         "lost": 2,
         "void": 0,
