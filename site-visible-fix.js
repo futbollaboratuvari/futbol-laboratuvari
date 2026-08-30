@@ -15,6 +15,19 @@
       if (!box.querySelector(".fl-extra-market") && !box.querySelector(".fl-widget-empty")) box.innerHTML = '<div class="fl-widget-empty">Bu maç için detay market verisi akışta yok.</div>';
     });
   };
+  const loadVercelAnalytics = () => {
+    if (document.querySelector('script[data-vercel-analytics="true"]')) return;
+
+    window.va = window.va || function () {
+      (window.vaq = window.vaq || []).push(arguments);
+    };
+
+    const analyticsScript = document.createElement("script");
+    analyticsScript.defer = true;
+    analyticsScript.src = "/_vercel/insights/script.js";
+    analyticsScript.dataset.vercelAnalytics = "true";
+    document.head.appendChild(analyticsScript);
+  };
   document.addEventListener("click", (event) => {
     if (event.target.closest?.("#daily-matches-widget [data-detail-uid]")) setTimeout(cleanMarkets, 80);
   });
@@ -30,6 +43,7 @@
     cleanMarkets();
   };
 
+  loadVercelAnalytics();
   apply();
   document.addEventListener("DOMContentLoaded", apply, { once: true });
   window.addEventListener("load", apply, { once: true });
