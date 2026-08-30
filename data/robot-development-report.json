@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-30T17:38:44.524Z",
+  "generated_at": "2026-08-30T19:55:32.685Z",
   "totals": {
     "predictions": 1500,
-    "finished": 347,
-    "pending": 1153
+    "finished": 382,
+    "pending": 1118
   },
   "learning_output_status": "ready",
   "market_development": {
@@ -11,9 +11,9 @@
     "strong": [
       {
         "name": "2.5 Üst",
-        "won": 45,
-        "lost": 24,
-        "total": 69,
+        "won": 49,
+        "lost": 26,
+        "total": 75,
         "success_rate": 65,
         "weight": 1.12,
         "ready": true
@@ -26,9 +26,9 @@
     "strong": [
       {
         "name": "İspanya 2.Lig",
-        "won": 5,
+        "won": 6,
         "lost": 0,
-        "total": 5,
+        "total": 6,
         "success_rate": 100,
         "weight": 1.12,
         "ready": true
@@ -39,15 +39,6 @@
         "lost": 1,
         "total": 6,
         "success_rate": 83,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "Hollanda Eredivisie",
-        "won": 4,
-        "lost": 1,
-        "total": 5,
-        "success_rate": 80,
         "weight": 1.12,
         "ready": true
       },
@@ -68,33 +59,33 @@
         "success_rate": 67,
         "weight": 1.12,
         "ready": true
+      },
+      {
+        "name": "Meksika Ascenso MX Apertura",
+        "won": 4,
+        "lost": 2,
+        "total": 6,
+        "success_rate": 67,
+        "weight": 1.12,
+        "ready": true
       }
     ],
     "weak": [
       {
-        "name": "Almanya 2. Bundesliga",
+        "name": "İngiltere Premier Lig",
         "won": 2,
-        "lost": 4,
-        "total": 6,
-        "success_rate": 33,
+        "lost": 5,
+        "total": 7,
+        "success_rate": 29,
         "weight": 0.88,
         "ready": true
       },
       {
         "name": "Portekiz Kupa 1.Tur",
         "won": 2,
-        "lost": 6,
-        "total": 8,
-        "success_rate": 25,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "Fransa Ligue 1",
-        "won": 1,
-        "lost": 5,
-        "total": 6,
-        "success_rate": 17,
+        "lost": 8,
+        "total": 10,
+        "success_rate": 20,
         "weight": 0.88,
         "ready": true
       },
@@ -115,12 +106,30 @@
         "success_rate": 17,
         "weight": 0.88,
         "ready": true
+      },
+      {
+        "name": "Fransa Ligue 1",
+        "won": 1,
+        "lost": 6,
+        "total": 7,
+        "success_rate": 14,
+        "weight": 0.88,
+        "ready": true
       }
     ]
   },
   "league_market_development": {
     "label": "league_market",
     "strong": [
+      {
+        "name": "İspanya 2.Lig :: 2.5 Alt",
+        "won": 5,
+        "lost": 0,
+        "total": 5,
+        "success_rate": 100,
+        "weight": 1.12,
+        "ready": true
+      },
       {
         "name": "İngiltere Championship :: 2.5 Üst",
         "won": 6,
@@ -156,24 +165,15 @@
         "success_rate": 71,
         "weight": 1.12,
         "ready": true
-      },
-      {
-        "name": "ABD USL :: MS 1",
-        "won": 4,
-        "lost": 2,
-        "total": 6,
-        "success_rate": 67,
-        "weight": 1.12,
-        "ready": true
       }
     ],
     "weak": [
       {
-        "name": "Portekiz Kupa 1.Tur :: 2.5 Alt",
-        "won": 1,
+        "name": "İngiltere 1.Lig :: 2.5 Alt",
+        "won": 2,
         "lost": 4,
-        "total": 5,
-        "success_rate": 20,
+        "total": 6,
+        "success_rate": 33,
         "weight": 0.88,
         "ready": true
       },
@@ -187,7 +187,7 @@
         "ready": true
       },
       {
-        "name": "İngiltere 1.Lig :: 2.5 Alt",
+        "name": "Fransa Ligue 1 :: 2.5 Alt",
         "won": 1,
         "lost": 4,
         "total": 5,
@@ -201,6 +201,15 @@
         "lost": 4,
         "total": 5,
         "success_rate": 20,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "Portekiz Kupa 1.Tur :: 2.5 Alt",
+        "won": 1,
+        "lost": 5,
+        "total": 6,
+        "success_rate": 17,
         "weight": 0.88,
         "ready": true
       }
