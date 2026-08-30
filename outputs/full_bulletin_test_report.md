@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 430
+- Scheduled match count: 399
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-08-30 / 2026-08-31 23:59
 
-- 2026-08-30 02:30 | Atlanta Utd - Charlotte | scheduled
-- 2026-08-30 02:30 | Dc United - Los Angeles Fc | scheduled
-- 2026-08-30 02:30 | Inter Miami - Montreal | scheduled
-- 2026-08-30 02:30 | New York - Philadelphia | scheduled
-- 2026-08-30 02:30 | Toronto - New York City | scheduled
-- 2026-08-30 02:30 | Atletico Junio - Santa Fe | scheduled
-- 2026-08-30 03:00 | Union Omaha - New York Cosmos | scheduled
-- 2026-08-30 03:00 | Louisville Cit - Detroit City | scheduled
-- 2026-08-30 03:00 | Oakland Roots - Orange County B | scheduled
-- 2026-08-30 03:00 | Manta - Barcelona Gua | scheduled
+- 2026-08-30 05:00 | Monterey Bay - Sacramento Repu | scheduled
+- 2026-08-30 05:00 | Perez Zeledon - Alajuelense | scheduled
+- 2026-08-30 05:30 | Portland - Austin | scheduled
+- 2026-08-30 05:30 | San Diego - Los Angeles | scheduled
+- 2026-08-30 05:30 | Las Vegas Ligh - Charleston Batt | scheduled
+- 2026-08-30 05:30 | Phoenix Rising - Indy Eleven | scheduled
+- 2026-08-30 06:10 | Santos Laguna - Tigres Uanl | scheduled
+- 2026-08-30 07:00 | Wallsend (6) - (6) Newcastle Croat | scheduled
+- 2026-08-30 08:00 | Apia - St George City | scheduled
+- 2026-08-30 08:00 | Blacktown City - Western Sydney | scheduled

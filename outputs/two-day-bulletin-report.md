@@ -2,33 +2,15 @@
 
 Gunler: 2026-08-30 / 2026-08-31
 Kaynak: fixtures.json
-Ham mac: 445
-Aktif mac: 413
+Ham mac: 450
+Aktif mac: 395
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 32
-Bugun: 375
+Bultenden dusurulen mac: 55
+Bugun: 357
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-30 03:30 | ABD MLS | Kansas - Vancouver | scheduled | -
-- 2026-08-30 03:30 | ABD MLS | Houston - San Jose | scheduled | -
-- 2026-08-30 03:30 | ABD MLS | Nashville Sc - Cincinnati | scheduled | -
-- 2026-08-30 03:30 | ABD MLS | Minnesota Utd - Orlando City | scheduled | -
-- 2026-08-30 03:30 | Arjantin Premier Lig 2. Aşama | Atletico Tucum - Belgrano | scheduled | -
-- 2026-08-30 03:30 | Arjantin Premier Lig 2. Aşama | Talleres - Corboda Santiag | scheduled | -
-- 2026-08-30 03:30 | Peru Premier Lig Clausura | Alianza Lima - Deportivo Garci | scheduled | -
-- 2026-08-30 03:30 | ABD USL | Tulsa Roughnec - Rhode Island | scheduled | -
-- 2026-08-30 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Cds Tampico Mad | scheduled | -
-- 2026-08-30 04:00 | Guatemala Ulusal Lig Apertura | Comunicaciones - Municipal | scheduled | -
-- 2026-08-30 04:00 | ABD USL | El Paso Locomo - Loudoun United | scheduled | -
-- 2026-08-30 04:00 | Nikaragua Premier Lig Apertura | Matagalpa - Rancho Santana | scheduled | -
-- 2026-08-30 04:00 | El Salvador Primera Lig Apertura | Alianza - Balboa | scheduled | -
-- 2026-08-30 04:05 | Meksika Liga MX Apertura | Club America - Puebla | scheduled | -
-- 2026-08-30 04:30 | ABD MLS | Colorado - Salt Lake | scheduled | -
-- 2026-08-30 04:30 | Kolombiya Primera A Clausura | Alianza Petrol - Atletico Nacion | scheduled | -
-- 2026-08-30 04:30 | ABD USL | New Mexico Uni - San Antonio | scheduled | -
-- 2026-08-30 04:30 | Honduras Ulusal Lig Apertura | Depor Motagua - Olancho | scheduled | -
 - 2026-08-30 05:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Alajuelense | scheduled | -
 - 2026-08-30 05:00 | ABD USL | Monterey Bay - Sacramento Repu | scheduled | -
 - 2026-08-30 05:30 | ABD MLS | San Diego - Los Angeles | scheduled | -
