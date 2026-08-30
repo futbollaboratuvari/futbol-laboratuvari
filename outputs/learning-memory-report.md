@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 30.08.2026 16:01:18
+Oluşturma: 30.08.2026 16:03:37
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1208
-- Kazanan tahmin: 148
-- Kaybeden tahmin: 144
+- Bekleyen tahmin: 1197
+- Kazanan tahmin: 158
+- Kaybeden tahmin: 145
 - Lig sayısı: 205
 - Seçenek sayısı: 7
 
@@ -22,10 +22,10 @@ Oluşturma: 30.08.2026 16:01:18
 
 - KG Var: toplam 2, bekleyen 1, başarı %100, ağırlık 1
 - MS X: toplam 2, bekleyen 1, başarı %100, ağırlık 1
-- 2.5 Üst: toplam 189, bekleyen 124, başarı %63, ağırlık 1.12
+- 2.5 Üst: toplam 189, bekleyen 122, başarı %64, ağırlık 1.12
 - MS 1: toplam 498, bekleyen 431, başarı %51, ağırlık 1
-- 2.5 Alt: toplam 601, bekleyen 466, başarı %45, ağırlık 0.94
-- MS 2: toplam 207, bekleyen 184, başarı %44, ağırlık 0.94
+- 2.5 Alt: toplam 601, bekleyen 458, başarı %48, ağırlık 0.94
+- MS 2: toplam 207, bekleyen 183, başarı %46, ağırlık 0.94
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
@@ -35,11 +35,11 @@ Oluşturma: 30.08.2026 16:01:18
 - 2026-08-30 | Sırbistan Süper Lig | Imt Novi Beogr - Mladost Lucani | MS 1 | pending | 55/100
 - 2026-08-30 | Yunanistan Süper Lig | Asteras Tripol - Olympiakos | MS 2 | pending | 52/100
 - 2026-08-30 | Irak Premier Lig | Al Shorta - Al Mosul | 2.5 Alt | pending | 49/100
-- 2026-08-30 | Türkiye Süper Lig | Samsunspor - Fenerbahçe | 2.5 Üst | pending | 61/100
+- 2026-08-30 | Türkiye Süper Lig | Samsunspor - Fenerbahçe | 2.5 Üst | pending | 66/100
 - 2026-08-30 | Moldova Ulusal Lig | Dacia-Buiucani - Milsami-Ursidos | MS 2 | pending | 47/100
 - 2026-08-30 | İzlanda Urvalsdeild | Hafnarfjordur - Keflavik | MS 2 | pending | 40/100
 - 2026-08-30 | Yunanistan Süper Lig | Atromitos - Paok | 2.5 Alt | pending | 51/100
-- 2026-08-30 | Norveç Eliteserien | Lillestrom - Fredrikstad | 2.5 Üst | pending | 59/100
+- 2026-08-30 | Norveç Eliteserien | Lillestrom - Fredrikstad | 2.5 Üst | pending | 60/100
 - 2026-08-30 | Portekiz Kupa 1.Tur | Rebordosa Ac - Alpendorada | MS 1 | pending | 44/100
 - 2026-08-30 | Irak Premier Lig | Al Karma - Karbala | 2.5 Alt | pending | 47/100
 - 2026-08-30 | Irak Premier Lig | Newroz - Duhok | 2.5 Alt | pending | 50/100
