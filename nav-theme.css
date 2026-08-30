@@ -118,11 +118,22 @@
 .nav-group:nth-child(3) {
   grid-area: secondary;
   min-width: min(720px, 100%);
+  max-width: 100%;
+  flex-wrap: wrap !important;
+  gap: 4px 0 !important;
   padding: 5px 18px !important;
   border: 1px solid rgba(246, 200, 95, .30) !important;
-  border-radius: 999px !important;
+  border-radius: 22px !important;
   background: rgba(4, 10, 24, .60) !important;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .045), 0 12px 34px rgba(0, 0, 0, .20) !important;
+}
+
+.nav-featured-sections a[href="#ai-guven-merkezi"],
+.nav-featured-sections a[href="#live-power-center"],
+.nav-featured-sections a[href="#son-analizler"],
+.nav-featured-sections a[href="#spor-toto-performansi"] {
+  border-color: rgba(41, 224, 132, .24) !important;
+  background: rgba(41, 224, 132, .055) !important;
 }
 
 .nav-group-label {
@@ -234,7 +245,7 @@
   .site-header::after { display: none; }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1180px) {
   .site-header {
     display: flex !important;
     min-height: 70px !important;
@@ -277,6 +288,9 @@
     border-radius: 18px !important;
     background: rgba(2, 8, 18, .98) !important;
     box-shadow: 0 22px 60px rgba(0, 0, 0, .45) !important;
+    max-height: calc(100vh - 92px) !important;
+    overflow-y: auto !important;
+    overscroll-behavior: contain;
   }
 
   .nav-links.nav-classified.open {
@@ -382,6 +396,8 @@ h2::after {
 #kurucu,
 #medya-galerisi,
 #guclu-tahmin,
+#ai-guven-merkezi,
+#live-power-center,
 #son-analizler,
 #spor-toto-performansi,
 #analiz-veritabani,
