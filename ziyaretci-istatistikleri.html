@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src https://lnngvkitcwwgrljtjwsd.supabase.co; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'">
+<title>Futbol Laboratuvarı | Ziyaretçi İstatistikleri</title>
+<style>
+:root{--bg:#050b18;--panel:#0a1730;--line:#294760;--gold:#ffe08a;--green:#39ff88;--text:#f8fbff;--muted:#9fb0c7;--danger:#ff6574}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#102a4e 0,#050b18 45%,#020611 100%);color:var(--text);font-family:Arial,Helvetica,sans-serif;min-height:100vh}.wrap{width:min(1200px,100%);margin:auto;padding:16px}.panel{background:linear-gradient(180deg,#0a1730ee,#050c1cee);border:1px solid var(--line);border-radius:18px;padding:16px;margin-top:14px;box-shadow:0 18px 55px #0005}.login{max-width:620px;margin:9vh auto}.top{display:flex;justify-content:space-between;gap:12px;align-items:center}.brand h1{margin:0;color:var(--gold);font-size:clamp(25px,4vw,42px)}.brand p,.muted{color:var(--muted);font-size:12px;line-height:1.5}.input{width:100%;min-height:42px;border:1px solid #3c526d;border-radius:10px;background:#020817;color:#fff;padding:0 11px}.btn{border:0;border-radius:10px;min-height:40px;padding:0 13px;font-weight:900;cursor:pointer;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#06110d;text-decoration:none;display:inline-flex;align-items:center}.btn.secondary{background:#17243a;color:#fff;border:1px solid #425575}.btn.danger{background:#451722;color:#ffd5da;border:1px solid #803340}.hide{display:none!important}.field{display:grid;gap:5px}.field label{font-size:12px;color:#b7c8df;font-weight:900}.actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}.stat{padding:14px;border:1px solid #244766;border-radius:14px;background:#071426}.stat span{display:block;color:var(--muted);font-size:11px;font-weight:900;text-transform:uppercase}.stat strong{display:block;font-size:28px;margin-top:6px}.stat small{display:block;color:#b8c9dc;margin-top:4px}.grid2{display:grid;grid-template-columns:1.4fr 1fr;gap:12px}.card{border:1px solid #294561;border-radius:14px;padding:14px;background:#071426}.card h2{margin:0;color:var(--gold)}.table-wrap{overflow:auto;border:1px solid #203750;border-radius:12px;margin-top:12px}table{width:100%;border-collapse:collapse;min-width:560px}th,td{padding:10px;border-bottom:1px solid #1d3048;text-align:left;font-size:12px}th{color:var(--gold);background:#0d1c33}.msg{margin-top:10px;padding:10px;border-radius:10px;background:#101c30;white-space:pre-wrap}.device{display:flex;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px solid #1d3048}.device:last-child{border-bottom:0}@media(max-width:800px){.stats{grid-template-columns:1fr 1fr}.grid2{grid-template-columns:1fr}.top{display:grid}.wrap{padding:10px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<section id="login" class="panel login">
+<h1 style="color:var(--gold);margin-top:0">Ziyaretçi İstatistikleri</h1>
+<p class="muted">Bu ekran yalnızca yönetici anahtarıyla açılır.</p>
+<div class="field"><label>Admin anahtarı</label><input id="secret" class="input" type="password" placeholder="FLADMIN-..." autocomplete="off"></div>
+<div class="actions" style="margin-top:12px"><button id="loginBtn" class="btn">İstatistikleri Aç</button><a class="btn secondary" href="./admin.html">Yönetim Merkezi</a><a class="btn secondary" href="./index.html">Ana Site</a></div>
+<div id="loginMsg" class="msg">Hazır.</div>
+</section>
+<main id="app" class="hide">
+<div class="top"><div class="brand"><h1>Ziyaretçi İstatistikleri</h1><p>Futbol Laboratuvarı · anonim ve gizlilik odaklı sayım</p></div><div class="actions"><button id="refresh" class="btn secondary">Yenile</button><a class="btn secondary" href="./admin.html">Yönetim</a><button id="logout" class="btn danger">Çıkış</button></div></div>
+<section class="panel">
+<div class="stats" id="stats"></div>
+<div id="status" class="msg">Veriler yükleniyor...</div>
+</section>
+<section class="grid2">
+<div class="panel card"><h2>En Çok Görüntülenen Sayfalar · Son 30 Gün</h2><div class="table-wrap"><table><thead><tr><th>Sayfa</th><th>Ziyaretçi</th><th>Görüntüleme</th></tr></thead><tbody id="pages"></tbody></table></div></div>
+<div class="panel card"><h2>Cihaz Dağılımı · Son 30 Gün</h2><div id="devices" style="margin-top:10px"></div></div>
+</section>
+<section class="panel"><div class="muted">Sistem ham IP adresi, ad, telefon veya e-posta kaydetmez. Tarayıcıda oluşturulan anonim ziyaretçi kimliği sunucuda SHA-256 ile tek yönlü özetlenerek saklanır.</div></section>
+</main>
+</div>
+<script>
+const API='https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-site-analytics?action=stats';
+const $=id=>document.getElementById(id);let secret=sessionStorage.getItem('fl_admin_secret')||'';
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+const fmt=n=>new Intl.NumberFormat('tr-TR').format(Number(n||0));
+const dt=v=>v?new Intl.DateTimeFormat('tr-TR',{dateStyle:'short',timeStyle:'medium'}).format(new Date(v)):'Henüz ziyaret yok';
+async function load(){
+  const r=await fetch(API,{method:'POST',cache:'no-store',headers:{'Content-Type':'application/json','x-admin-payment-secret':secret},body:'{}'});
+  const d=await r.json().catch(()=>({}));if(!r.ok||d.ok===false)throw new Error(d.error||('HTTP '+r.status));
+  const s=d.stats||{};
+  const cards=[['Bugün',s.today],['Son 7 Gün',s.seven_days],['Son 30 Gün',s.thirty_days],['Toplam',s.total]];
+  $('stats').innerHTML=cards.map(([label,x])=>'<div class="stat"><span>'+esc(label)+'</span><strong>'+fmt(x?.visitors)+'</strong><small>'+fmt(x?.pageviews)+' sayfa görüntüleme</small></div>').join('');
+  $('pages').innerHTML=(s.top_pages||[]).map(x=>'<tr><td>'+esc(x.path)+'</td><td>'+fmt(x.visitors)+'</td><td>'+fmt(x.views)+'</td></tr>').join('')||'<tr><td colspan="3">Henüz veri yok.</td></tr>';
+  $('devices').innerHTML=(s.devices||[]).map(x=>'<div class="device"><span>'+esc(x.device)+'</span><strong>'+fmt(x.views)+'</strong></div>').join('')||'<div class="muted">Henüz veri yok.</div>';
+  $('status').textContent='Son ziyaret: '+dt(s.last_visit_at)+' · Güncellendi: '+new Date().toLocaleTimeString('tr-TR');
+}
+$('loginBtn').onclick=async()=>{secret=$('secret').value.trim()||secret;if(!secret){$('loginMsg').textContent='Admin anahtarını gir.';return}try{await load();sessionStorage.setItem('fl_admin_secret',secret);$('login').classList.add('hide');$('app').classList.remove('hide');$('secret').value=''}catch(e){$('loginMsg').textContent='Giriş başarısız: '+e.message}};
+$('refresh').onclick=()=>load().catch(e=>$('status').textContent='Hata: '+e.message);
+$('logout').onclick=()=>{sessionStorage.removeItem('fl_admin_secret');location.reload()};
+if(secret){$('secret').value=secret;$('loginBtn').click()}
+</script>
+</body>
+</html>
