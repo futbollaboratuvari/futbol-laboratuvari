@@ -32,6 +32,22 @@
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 
+  const normalizeMembership = (value = {}) => {
+    const membership = value && typeof value === "object" ? value : {};
+    const rawRemaining = membership.remainingAnalysisCount ?? membership.remaining_analysis_count;
+    const remaining = rawRemaining === null || rawRemaining === undefined || rawRemaining === ""
+      ? null
+      : Number(rawRemaining);
+    return {
+      ...membership,
+      planCode: String(membership.planCode ?? membership.plan_code ?? "").trim(),
+      planName: String(membership.planName ?? membership.plan_name ?? "Üyelik").trim() || "Üyelik",
+      remainingAnalysisCount: Number.isFinite(remaining) ? remaining : null,
+      expiresAt: membership.expiresAt ?? membership.expires_at ?? "",
+      active: membership.active !== false,
+    };
+  };
+
   async function request(url, payload) {
     const response = await fetch(url, {
       method: "POST",
@@ -66,7 +82,7 @@
   };
 
   const saveServerTrial = (data, planId, info) => {
-    const membership = data.membership || {};
+    const membership = normalizeMembership(data.membership);
     const expiresAt = Date.parse(membership.expiresAt || "") || (Date.now() + 86400000);
     localStorage.setItem(ACCESS_KEY, "1");
     localStorage.setItem(CODE_KEY, String(data.trial_code || ""));
@@ -107,7 +123,7 @@
         clientId: getClientId(),
       });
       saveServerTrial(data, planId, info);
-      const member = data.membership || {};
+      const member = normalizeMembership(data.membership);
       const end = member.expiresAt
         ? new Date(member.expiresAt).toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" })
         : "24 saat sonra";
@@ -154,7 +170,7 @@
       }
       await window.FLProAnalysisAccess.refresh(code);
       const data = await request(CONSUME_URL, { code, clientId: getClientId() });
-      const membership = data.membership || {};
+      const membership = normalizeMembership(data.membership);
       const serverRemaining = Number(membership.remainingAnalysisCount);
 
       // Mevcut analiz paneli sonucu oluşturmaya devam etsin. Panel kendi yerel
@@ -173,7 +189,7 @@
       button.click();
     } catch (error) {
       const message = String(error?.message || "Analiz hakkı kullanılamadı.");
-      if (/süresi dol|aktif değil|hakkı kalmamış/i.test(message)) clearInvalidAccess();
+      if (/süresi dol|aktif değil|geçersiz|hakk[ıi].*kalma/i.test(message)) clearInvalidAccess();
       if (document.querySelector("#premium-analysis-panel[data-pa3-root]")) {
         window.dispatchEvent(new CustomEvent("fl:premium-access-error", { detail: { message } }));
       } else if (resultBox) {

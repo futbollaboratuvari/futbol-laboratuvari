@@ -162,8 +162,12 @@
         }
         if (data.order.status === "paid" && data.membership?.code) {
           const codeBox = message.querySelector("[data-membership]");
-          if (codeBox) codeBox.innerHTML = `<div class="fl-bank-note"><strong>Ödeme alındı ve üyeliğiniz açıldı.</strong><br>Üyelik kodunuz: <span class="fl-bank-code">${esc(data.membership.code)}</span> <button class="secondary" type="button" data-copy-code>Kopyala</button><br>Bu kodu Özel Analiz panelindeki Üye Kodu alanına girin. Ödeme onayı için e-posta/SMS bilgilendirmesi ayrıca işleme alınır; mesaj gecikse bile kodunuz burada geçerlidir. Fatura kaydınız yönetim sisteminde oluşturulur.</div>`;
+          if (codeBox) codeBox.innerHTML = `<div class="fl-bank-note"><strong>Ödeme alındı ve üyeliğiniz açıldı.</strong><br>Üyelik kodunuz: <span class="fl-bank-code">${esc(data.membership.code)}</span> <button class="secondary" type="button" data-copy-code>Kopyala</button><br>Mesaj gecikse bile bu kod geçerlidir. Fatura kaydınız yönetim sisteminde oluşturulur.<div class="fl-bank-actions"><button type="button" data-use-code>Kodu Kullan ve Özel Analize Git</button></div></div>`;
           message.querySelector("[data-copy-code]")?.addEventListener("click", (event) => copy(data.membership.code, event.currentTarget), { once: true });
+          message.querySelector("[data-use-code]")?.addEventListener("click", () => {
+            window.dispatchEvent(new CustomEvent("fl:membership-code-received", { detail: { code: data.membership.code } }));
+            document.getElementById("membership-code-access")?.scrollIntoView({ behavior: "smooth", block: "center" });
+          }, { once: true });
         }
       } catch (error) {
         const statusBox = message.querySelector("[data-status]");

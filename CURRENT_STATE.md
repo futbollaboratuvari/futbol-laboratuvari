@@ -1,5 +1,18 @@
 # State
 
+2026-08-30
+
+Main focus: üyelik kodunun Özel Analiz alanında anlaşılır, kalıcı ve hak tüketmeyen doğrulama akışına dönüştürülmesi.
+
+Current membership-code state:
+- “Üyelik Kodum Var” bağlantısı ana menüye eklendi; üyelik kodu kartı Özel Analiz PRO başlığının hemen altında ve maç seçiminden önce sürekli görünür.
+- Kod doğrulama ile analiz oluşturma kesin olarak ayrıldı. “Kodu Doğrula” yalnız korumalı sunucu doğrulamasını yapar; analiz hakkı ancak kullanıcı maç seçip “Analizi Oluştur” dediğinde tüketilir.
+- Aktif üyelik kartı paket adını, kalan analiz hakkını ve kodun yalnız son dört karakterini gösterir. “Analize Başla” ve “Kodu Değiştir” ayrı işlemlerdir.
+- Kod göster/gizle kontrolü, klavyede Enter ile doğrulama, yükleme/hata durumları ve mobil tek sütun görünümü eklendi.
+- Ödeme onayından sonra “Kodu Kullan ve Özel Analize Git” düğmesi kodu URL'ye yazmadan aynı doğrulama bileşenine aktarır.
+- Supabase'in snake_case üyelik yanıtları ortak istemci biçimine dönüştürülür; kalan hak iki kez düşmez. Hakkı bitmiş üyelik kodu `/api/pro-analysis` üzerinden korumalı PRO verisini alamaz.
+- Bülten, canlı maç, kupon, Spor Toto ve otomatik veri üretim dosyaları değiştirilmedi. Güvenlik, premium, performans ve üretim paketi kontrolleri başarılıdır.
+
 2026-08-29
 
 Main focus: canlı site denetiminde bulunan veri bütünlüğü, ücretli içerik koruması, ödeme/yasal uyum, çerez ve performans açıklarının kapatılması.

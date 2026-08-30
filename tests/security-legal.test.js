@@ -30,7 +30,8 @@ async function testProtectedProRoute() {
   buildProAnalysisIndex();
   const handler = require("../api/pro-analysis");
   const originalFetch = global.fetch;
-  global.fetch = async () => ({ ok: true, status: 200, json: async () => ({ ok: true, membership: { planCode: "test" } }) });
+  let verifiedMembership = { plan_code: "test", plan_name: "Test Paket", remaining_analysis_count: 5, active: true };
+  global.fetch = async () => ({ ok: true, status: 200, json: async () => ({ ok: true, membership: verifiedMembership }) });
   try {
     const invalid = responseCapture();
     await handler(request("POST", { code: "" }, { "x-forwarded-for": "127.0.0.10" }), invalid);
@@ -52,6 +53,13 @@ async function testProtectedProRoute() {
     assert.equal(payload.ok, true);
     assert.ok(Array.isArray(payload.data.matches));
     assert.match(valid.headers["cache-control"], /no-store/);
+
+    verifiedMembership = { plan_code: "test", plan_name: "Test Paket", remaining_analysis_count: 0, active: true };
+    const exhausted = responseCapture();
+    await handler(request("POST", { code: "TEST-1234", clientId: "test-client" }, { "x-forwarded-for": "127.0.0.14" }), exhausted);
+    assert.equal(exhausted.statusCode, 403);
+    assert.equal(JSON.parse(exhausted.body).error, "membership_rights_exhausted");
+    assert.equal(handler.membershipHasRights(verifiedMembership), false);
   } finally {
     global.fetch = originalFetch;
   }
@@ -127,6 +135,7 @@ async function testLegalOrderGate() {
 }
 
 function testStaticProtectionAndConsent() {
+  const index = read("index.html");
   const premium = read("premium-analysis-v3.js");
   const insights = read("analysis-insights-v1.js");
   const build = read("scripts/vercel-build.js");
@@ -142,7 +151,18 @@ function testStaticProtectionAndConsent() {
   assert.equal(insights.includes("pro-analysis-index.json"), false);
   assert.match(premium, /futbol-laboratuvari\.vercel\.app/);
   assert.match(premium, /SECURE_API_ORIGIN/);
+  assert.match(index, /id="membership-code-access"/);
+  assert.match(index, />Üyelik Kodum Var</);
+  assert.match(index, /data-pa3-unlock>Kodu Doğrula</);
+  assert.match(index, /data-pa3-start>Analize Başla</);
+  assert.match(index, /data-pa3-change>Kodu Değiştir</);
+  assert.ok(index.indexOf('id="membership-code-access"') < index.indexOf('class="fl-pa3-mode"'));
+  assert.equal(index.includes("Kodu Kontrol Et ve Analiz Et"), false);
+  assert.match(premium, /fl:membership-code-received/);
+  assert.match(premium, /Kod doğrulama sırasında analiz hakkı kullanılmadı/);
+  assert.match(premium, /storeVerifiedMembership\(payload\.membership, normalized\)/);
   assert.match(payment, /futbol-laboratuvari\.vercel\.app/);
+  assert.match(payment, /Kodu Kullan ve Özel Analize Git/);
   assert.match(legalProfile, /futbol-laboratuvari\.vercel\.app/);
   assert.match(build, /data\/pro-analysis-index\.json/);
   assert.match(pagesWorkflow, /run: npm run build/);

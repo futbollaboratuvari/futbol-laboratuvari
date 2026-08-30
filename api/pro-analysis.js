@@ -103,6 +103,16 @@ async function verifyMembership(code, clientId) {
   return data;
 }
 
+function membershipHasRights(membership) {
+  if (!membership || typeof membership !== "object" || membership.active === false) return false;
+  const plan = String(membership.planCode ?? membership.plan_code ?? membership.planName ?? membership.plan_name ?? "");
+  if (/founder|kurucu/i.test(plan)) return true;
+  const rawRemaining = membership.remainingAnalysisCount ?? membership.remaining_analysis_count;
+  if (rawRemaining === null || rawRemaining === undefined || rawRemaining === "") return false;
+  const remaining = Number(rawRemaining);
+  return Number.isFinite(remaining) && remaining > 0;
+}
+
 async function handler(req, res) {
   if (!configureCors(req, res)) return send(res, 403, { ok: false, error: "origin_not_allowed" });
   if (req.method === "OPTIONS") {
@@ -121,6 +131,12 @@ async function handler(req, res) {
     }
 
     const verified = await verifyMembership(code, clientId);
+    if (!verified.membership) {
+      return send(res, 401, { ok: false, error: "membership_invalid_or_expired" });
+    }
+    if (!membershipHasRights(verified.membership)) {
+      return send(res, 403, { ok: false, error: "membership_rights_exhausted" });
+    }
     const pro = readProIndex();
     return send(res, 200, {
       ok: true,
@@ -138,6 +154,7 @@ async function handler(req, res) {
 
 handler.readProIndex = readProIndex;
 handler.verifyMembership = verifyMembership;
+handler.membershipHasRights = membershipHasRights;
 handler.originAllowed = originAllowed;
 
 module.exports = handler;

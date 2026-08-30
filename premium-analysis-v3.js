@@ -60,13 +60,39 @@
     }
   };
 
+  const ACCESS_STORAGE_KEYS = [
+    ACCESS_KEY,
+    CODE_KEY,
+    MEMBER_KEY,
+    TRIAL_KEY,
+    "fl_premium_access_note",
+    "fl_premium_access_level",
+  ];
+
+  const normalizeMembership = (value = {}) => {
+    const membership = value && typeof value === "object" ? value : {};
+    const rawRemaining = membership.remainingAnalysisCount ?? membership.remaining_analysis_count;
+    const remaining = rawRemaining === null || rawRemaining === undefined || rawRemaining === ""
+      ? null
+      : Number(rawRemaining);
+    return {
+      ...membership,
+      planCode: String(membership.planCode ?? membership.plan_code ?? "").trim(),
+      planName: String(membership.planName ?? membership.plan_name ?? "Üyelik").trim() || "Üyelik",
+      remainingAnalysisCount: Number.isFinite(remaining) ? remaining : null,
+      expiresAt: membership.expiresAt ?? membership.expires_at ?? "",
+      active: membership.active !== false,
+    };
+  };
+
+  const clearStoredAccess = () => ACCESS_STORAGE_KEYS.forEach((key) => localStorage.removeItem(key));
+
   const clearExpiredAccess = () => {
     const trial = readJson(TRIAL_KEY, null);
-    const member = readJson(MEMBER_KEY, null);
+    const member = normalizeMembership(readJson(MEMBER_KEY, null));
     const expiresAt = Date.parse(member?.expiresAt || trial?.expiresAt || "");
     if (Number.isFinite(expiresAt) && expiresAt <= Date.now()) {
-      [ACCESS_KEY, CODE_KEY, MEMBER_KEY, TRIAL_KEY, "fl_premium_access_note", "fl_premium_access_level"]
-        .forEach((key) => localStorage.removeItem(key));
+      clearStoredAccess();
       return true;
     }
     return false;
@@ -74,13 +100,32 @@
 
   const membershipState = () => {
     clearExpiredAccess();
-    const membership = readJson(MEMBER_KEY, {});
+    const membership = normalizeMembership(readJson(MEMBER_KEY, {}));
     const activeFlag = localStorage.getItem(ACCESS_KEY) === "1";
     const planCode = String(membership.planCode || localStorage.getItem("fl_premium_access_level") || "");
-    const remaining = Number(membership.remainingAnalysisCount);
+    const remaining = membership.remainingAnalysisCount === null ? Number.NaN : Number(membership.remainingAnalysisCount);
     const unlimited = /founder|kurucu/i.test(`${planCode} ${membership.planName || ""}`) || remaining >= 9999;
-    const active = activeFlag && (unlimited || !Number.isFinite(remaining) || remaining > 0);
+    const active = activeFlag && membership.active !== false && (unlimited || !Number.isFinite(remaining) || remaining > 0);
     return { active, unlimited, remaining, membership };
+  };
+
+  const storeVerifiedMembership = (value, code) => {
+    const membership = normalizeMembership(value);
+    const remaining = membership.remainingAnalysisCount === null ? Number.NaN : Number(membership.remainingAnalysisCount);
+    const unlimited = /founder|kurucu/i.test(`${membership.planCode} ${membership.planName}`) || remaining >= 9999;
+    if (membership.active === false || (!unlimited && Number.isFinite(remaining) && remaining <= 0)) {
+      throw new Error("Üyelik kodunda kullanılabilir analiz hakkı kalmadı.");
+    }
+    localStorage.setItem(CODE_KEY, String(code || ""));
+    localStorage.setItem(ACCESS_KEY, "1");
+    localStorage.setItem(MEMBER_KEY, JSON.stringify(membership));
+    localStorage.setItem("fl_premium_access_level", membership.planCode || "member");
+    return membership;
+  };
+
+  const maskedCode = () => {
+    const code = String(localStorage.getItem(CODE_KEY) || "").replace(/\s+/g, "");
+    return code ? `•••• ${code.slice(-4).toLocaleUpperCase("tr-TR")}` : "••••";
   };
 
   const rightLabel = () => {
@@ -124,11 +169,31 @@
 
   const updateAccessView = () => {
     const badge = query("[data-pa3-rights]");
-    if (!badge) return;
     const member = membershipState();
-    badge.textContent = rightLabel();
-    badge.dataset.state = member.active ? "active" : "locked";
-    badge.setAttribute("aria-label", member.active ? `Üyelik aktif, ${rightLabel()}` : rightLabel());
+    if (badge) {
+      badge.textContent = rightLabel();
+      badge.dataset.state = member.active ? "active" : "locked";
+      badge.setAttribute("aria-label", member.active ? `Üyelik aktif, ${rightLabel()}` : rightLabel());
+    }
+
+    const access = query("[data-pa3-access]");
+    const entry = query("[data-pa3-code-entry]");
+    const active = query("[data-pa3-code-active]");
+    if (access) access.dataset.state = member.active ? "active" : "locked";
+    if (entry) entry.hidden = member.active;
+    if (active) active.hidden = !member.active;
+    if (!member.active) return;
+
+    const plan = query("[data-pa3-plan]");
+    const remaining = query("[data-pa3-remaining]");
+    const code = query("[data-pa3-masked-code]");
+    if (plan) plan.textContent = member.membership.planName || "Üyelik";
+    if (remaining) remaining.textContent = member.unlimited
+      ? "Sınırsız"
+      : Number.isFinite(member.remaining)
+        ? `${Math.max(0, member.remaining)} analiz`
+        : "Aktif";
+    if (code) code.textContent = maskedCode();
   };
 
   const selectedMatches = () => state.matches.filter((match) => state.selected.has(match.id));
@@ -442,24 +507,68 @@
     }
   };
 
-  const closeAccess = () => {
-    const drawer = query("[data-pa3-access]");
-    if (!drawer) return;
-    drawer.hidden = true;
-    drawer.setAttribute("aria-hidden", "true");
-  };
-
   const openAccess = (message = "Analizi oluşturmak için üyelik kodunu gir.") => {
     const drawer = query("[data-pa3-access]");
     const status = query("[data-pa3-access-status]");
     if (!drawer) return;
-    drawer.hidden = false;
-    drawer.setAttribute("aria-hidden", "false");
+    updateAccessView();
     if (status) {
       status.textContent = message;
       status.dataset.kind = "info";
     }
-    setTimeout(() => query("[data-pa3-code]")?.focus(), 30);
+    drawer.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (!membershipState().active) setTimeout(() => query("[data-pa3-code]")?.focus(), 250);
+  };
+
+  const resetProtectedAccess = () => {
+    state.proMeta = null;
+    state.matches = CORE.filterUpcoming(CORE.mergeProAnalysis(state.bulletin, null, new Date()), new Date());
+    delete window.__flProtectedProIndex;
+    updateProStatus();
+    renderDates();
+    renderMatches();
+  };
+
+  const changeCode = () => {
+    clearStoredAccess();
+    resetProtectedAccess();
+    updateAccessView();
+    const input = query("[data-pa3-code]");
+    const status = query("[data-pa3-access-status]");
+    if (input) {
+      input.type = "password";
+      input.value = "";
+    }
+    const toggle = query("[data-pa3-code-toggle]");
+    if (toggle) {
+      toggle.textContent = "Göster";
+      toggle.setAttribute("aria-pressed", "false");
+      toggle.setAttribute("aria-label", "Üyelik kodunu göster");
+    }
+    if (status) {
+      status.textContent = "Yeni üyelik kodunu girip doğrula.";
+      status.dataset.kind = "info";
+    }
+    setTimeout(() => input?.focus(), 30);
+  };
+
+  const startWithMembership = () => {
+    const target = query(".fl-pa3-match-card");
+    target?.scrollIntoView({ behavior: "smooth", block: "start" });
+    setMessage(state.selected.size ? "Seçimin hazır. Analiz türünü belirleyip Analizi Oluştur düğmesine bas." : "Üyeliğin aktif. Şimdi analiz edeceğin maçı seç.", "success");
+    setTimeout(() => query("[data-pa3-search]")?.focus(), 250);
+  };
+
+  const toggleCodeVisibility = () => {
+    const input = query("[data-pa3-code]");
+    const button = query("[data-pa3-code-toggle]");
+    if (!input || !button) return;
+    const visible = input.type === "text";
+    input.type = visible ? "password" : "text";
+    button.textContent = visible ? "Göster" : "Gizle";
+    button.setAttribute("aria-pressed", String(!visible));
+    button.setAttribute("aria-label", visible ? "Üyelik kodunu göster" : "Üyelik kodunu gizle");
+    input.focus();
   };
 
   const handleAnalyze = () => {
@@ -487,7 +596,6 @@
     }
     consumeLocalRight();
     updateAccessView();
-    closeAccess();
     state.resultReady = true;
     updateSteps();
     const analysisCount = Number(readJson(ANALYSIS_COUNT_KEY, 0) || 0) + 1;
@@ -499,10 +607,12 @@
     if (window.matchMedia("(max-width: 900px)").matches) output.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
-  const activateCode = () => {
+  const activateCode = async (providedCode = "") => {
     const input = query("[data-pa3-code]");
     const status = query("[data-pa3-access-status]");
-    const code = String(input?.value || "").trim().replace(/\s+/g, "").toLocaleUpperCase("tr-TR");
+    const verifyButton = query("[data-pa3-unlock]");
+    const toggleButton = query("[data-pa3-code-toggle]");
+    const code = String(providedCode || input?.value || "").trim().replace(/\s+/g, "").toLocaleUpperCase("tr-TR");
     if (code.length < 4) {
       if (status) {
         status.textContent = "Geçerli üyelik kodunu gir.";
@@ -511,13 +621,39 @@
       input?.focus();
       return;
     }
-    localStorage.setItem(CODE_KEY, code);
     if (status) {
-      status.textContent = "Kod ve analiz hakkı güvenli biçimde kontrol ediliyor…";
+      status.textContent = "Üyelik kodu güvenli biçimde doğrulanıyor…";
       status.dataset.kind = "info";
     }
-    const button = query("[data-pa-analyze]");
-    if (button && !button.disabled) button.click();
+    if (input) input.disabled = true;
+    if (verifyButton) {
+      verifyButton.disabled = true;
+      verifyButton.textContent = "Doğrulanıyor…";
+    }
+    if (toggleButton) toggleButton.disabled = true;
+
+    try {
+      await refreshProtectedPro(code);
+      if (input) input.value = "";
+      updateAccessView();
+      setMessage("Üyelik doğrulandı; korumalı PRO verisi hazır. Kod doğrulama sırasında analiz hakkı kullanılmadı.", "success");
+    } catch (error) {
+      clearStoredAccess();
+      resetProtectedAccess();
+      updateAccessView();
+      if (status) {
+        status.textContent = String(error?.message || "Üyelik kodu doğrulanamadı.");
+        status.dataset.kind = "error";
+      }
+      input?.focus();
+    } finally {
+      if (input) input.disabled = false;
+      if (verifyButton) {
+        verifyButton.disabled = false;
+        verifyButton.textContent = "Kodu Doğrula";
+      }
+      if (toggleButton) toggleButton.disabled = false;
+    }
   };
 
   const resetAnalysis = () => {
@@ -547,7 +683,9 @@
         return;
       }
       if (event.target.closest?.("[data-pa3-unlock]")) return activateCode();
-      if (event.target.closest?.("[data-pa3-access-close]")) return closeAccess();
+      if (event.target.closest?.("[data-pa3-code-toggle]")) return toggleCodeVisibility();
+      if (event.target.closest?.("[data-pa3-start]")) return startWithMembership();
+      if (event.target.closest?.("[data-pa3-change]")) return changeCode();
       if (event.target.closest?.("[data-pa3-copy]")) return copyResult();
       if (event.target.closest?.("[data-pa3-new]")) return resetAnalysis();
       if (event.target.closest?.("[data-pa-analyze]")) return handleAnalyze();
@@ -589,12 +727,20 @@
       if (status) status.dataset.kind = "error";
       updateAccessView();
     });
+    window.addEventListener("fl:membership-code-received", (event) => {
+      const code = String(event.detail?.code || "").trim();
+      if (!code) return;
+      const input = query("[data-pa3-code]");
+      if (input) input.value = code;
+      openAccess("Ödeme sonrası üyelik kodun alındı; güvenli biçimde doğrulanıyor…");
+      activateCode(code);
+    });
     document.addEventListener("fl:trial-access-started", async () => {
       updateAccessView();
       const code = String(localStorage.getItem(CODE_KEY) || "").trim();
       try {
         await refreshProtectedPro(code);
-        closeAccess();
+        updateAccessView();
         setMessage("Deneme erişimi ve korumalı PRO verisi aktif. Seçimini analiz edebilirsin.", "success");
       } catch {
         openAccess("Deneme aktif ancak korumalı analiz verisi açılamadı. Lütfen yeniden dene.");
@@ -666,8 +812,11 @@
     const payload = await response.json().catch(() => ({}));
     if (!response.ok || payload.ok === false) {
       const messages = {
+        membership_code_required: "Üyelik kodu gerekli.",
         membership_invalid_or_expired: "Üyelik kodu geçersiz veya süresi dolmuş.",
+        membership_rights_exhausted: "Üyelik kodunda kullanılabilir analiz hakkı kalmadı.",
         too_many_attempts: "Çok fazla doğrulama denemesi yapıldı. Lütfen daha sonra tekrar dene.",
+        origin_not_allowed: "Bu adres üzerinden üyelik doğrulamasına izin verilmiyor.",
         protected_analysis_unavailable: "Korumalı analiz verisi şu anda alınamıyor.",
       };
       throw new Error(messages[payload.error] || "Korumalı analiz verisi açılamadı.");
@@ -676,6 +825,10 @@
     if (!data || typeof data !== "object" || !Array.isArray(data.matches)) {
       throw new Error("Korumalı analiz verisi geçersiz.");
     }
+    if (!payload.membership || typeof payload.membership !== "object") {
+      throw new Error("Üyelik bilgisi güvenli sunucudan alınamadı.");
+    }
+    storeVerifiedMembership(payload.membership, normalized);
     return data;
   };
 
@@ -742,9 +895,11 @@
     if (membershipState().active && code) {
       try {
         await refreshProtectedPro(code);
+        updateAccessView();
         setMessage("Üyelik doğrulandı; korumalı PRO verisi hazır.", "success");
       } catch {
-        clearExpiredAccess();
+        clearStoredAccess();
+        resetProtectedAccess();
         updateAccessView();
       }
     }

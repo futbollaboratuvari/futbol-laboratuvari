@@ -56,7 +56,7 @@
           ]
     }
     </script>
-    <meta name="deploy-version" content="20260829-secure-api-v2" />
+    <meta name="deploy-version" content="20260830-membership-code-ux-v1" />
     <style>
       .reveal { opacity: 1 !important; transform: none !important; visibility: visible !important; }
       .hero-media, .dashboard-hero::after, .dashboard-hero::before, .site-header::before, .site-header::after { pointer-events: none !important; }
@@ -71,7 +71,7 @@
     <link rel="stylesheet" href="nav-theme.css?v=20260629-live-flow-v1" />
     <link rel="stylesheet" href="header-fixes.css?v=20260629-live-flow-v1" />
     <link rel="stylesheet" href="hero-vitrin.css?v=20260629-live-flow-v1" />
-    <link rel="stylesheet" href="premium-analysis-v3.css?v=20260824-premium-pro13-v1" />
+    <link rel="stylesheet" href="premium-analysis-v3.css?v=20260830-membership-code-ux-v1" />
     <style id="remove-header-after-widget">
       .site-header::after { content: none !important; display: none !important; visibility: hidden !important; opacity: 0 !important; width: 0 !important; height: 0 !important; overflow: hidden !important; }
     </style>
@@ -85,7 +85,7 @@
       <button class="menu-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false"><span></span><span></span></button>
       <nav class="nav-links nav-classified" aria-label="Ana menü">
         <div class="nav-group" aria-label="Ana bölüm"><span class="nav-group-label">Futbol Laboratuvarı</span><a class="nav-primary" href="#platform">Ana Sayfa</a><a href="#daily-matches-widget">Bugünün Maçları</a></div>
-        <div class="nav-group" aria-label="Analiz ve üyelik"><span class="nav-group-label">Analiz & Üyelik</span><a class="nav-primary" href="#robot-analizleri">Kupon Merkezi</a><a href="#membership-payment-panel">Üyelik / Satın Al</a><a href="#premium-analysis-panel">Özel Analiz</a></div>
+        <div class="nav-group" aria-label="Analiz ve üyelik"><span class="nav-group-label">Analiz & Üyelik</span><a class="nav-primary" href="#robot-analizleri">Kupon Merkezi</a><a href="#membership-payment-panel">Üyelik / Satın Al</a><a href="#membership-code-access">Üyelik Kodum Var</a><a href="#premium-analysis-panel">Özel Analiz</a></div>
         <div class="nav-group" aria-label="Sonuçlar ve marka"><span class="nav-group-label">Sonuçlar & Marka</span><a href="#sonuc-arsivi">Sonuçlar</a><a href="#basari-takip">Performans</a><a href="#kurucu">Hakkımızda</a><a class="nav-admin" href="./admin.html">Yönetim</a></div>
       </nav>
     </header>
@@ -128,6 +128,22 @@
           </div>
           <span class="fl-pa3-rights" data-pa3-rights data-state="locked" aria-live="polite">Üyelik gerekli</span>
         </div>
+
+        <section class="fl-pa3-access" id="membership-code-access" data-pa3-access data-state="locked" aria-labelledby="fl-pa3-access-title">
+          <span class="fl-pa3-access-icon" aria-hidden="true">◆</span>
+          <div class="fl-pa3-access-copy"><p class="eyebrow">Üye Erişimi</p><h3 id="fl-pa3-access-title">Üyelik kodun var mı?</h3><p>Ödeme onayından sonra verilen üyelik kodunu buraya gir. Kodu doğrulamak analiz hakkı tüketmez.</p></div>
+          <div class="fl-pa3-access-entry" data-pa3-code-entry>
+            <label><span>Üyelik kodu</span><span class="fl-pa3-code-field"><input type="password" autocomplete="one-time-code" autocapitalize="characters" spellcheck="false" placeholder="Kodunu gir" aria-describedby="fl-pa3-access-status" data-pa3-code /><button type="button" data-pa3-code-toggle aria-pressed="false" aria-label="Üyelik kodunu göster">Göster</button></span></label>
+            <button class="fl-pa3-access-submit" type="button" data-pa3-unlock>Kodu Doğrula</button>
+            <p class="fl-pa3-access-status" id="fl-pa3-access-status" data-pa3-access-status data-kind="info" aria-live="polite">Kodun güvenli sunucu üzerinden doğrulanır.</p>
+            <a href="#membership-payment-panel">Kodum yok — Üyelik seçeneklerini gör</a>
+          </div>
+          <div class="fl-pa3-access-active" data-pa3-code-active hidden>
+            <div class="fl-pa3-active-heading"><span aria-hidden="true"></span><strong>Üyelik aktif</strong><small data-pa3-masked-code>••••</small></div>
+            <dl><div><dt>Paket</dt><dd data-pa3-plan>Üyelik</dd></div><div><dt>Kalan hak</dt><dd data-pa3-remaining>Kontrol ediliyor</dd></div></dl>
+            <div class="fl-pa3-active-actions"><button type="button" data-pa3-start>Analize Başla</button><button type="button" class="secondary" data-pa3-change>Kodu Değiştir</button></div>
+          </div>
+        </section>
 
         <div class="fl-pa3-mode" role="group" aria-label="Analiz modu">
           <button class="is-active" type="button" aria-pressed="true" data-pa3-mode="single"><span>Tek Maç</span><small>Hızlı ve odaklı</small></button>
@@ -184,15 +200,6 @@
           </aside>
         </div>
 
-        <div class="fl-pa3-access" data-pa3-access hidden aria-hidden="true" role="region" aria-labelledby="fl-pa3-access-title">
-          <button class="fl-pa3-access-close" type="button" aria-label="Üyelik kodu alanını kapat" data-pa3-access-close>×</button>
-          <span class="fl-pa3-access-icon" aria-hidden="true">◆</span>
-          <div><p class="eyebrow">Üye Erişimi</p><h3 id="fl-pa3-access-title">Analizi aç</h3><p>Üyelik kodun yalnızca analiz hakkını güvenli biçimde kontrol etmek için kullanılır.</p></div>
-          <label><span>Üyelik kodu</span><input type="password" autocomplete="one-time-code" placeholder="Kodunu gir" data-pa3-code /></label>
-          <button class="fl-pa3-access-submit" type="button" data-pa3-unlock>Kodu Kontrol Et ve Analiz Et</button>
-          <p class="fl-pa3-access-status" data-pa3-access-status data-kind="info" aria-live="polite">Analizi oluşturmak için üyelik kodunu gir.</p>
-          <a href="#membership-payment-panel">Kodun yok mu? Üyelik seçeneklerini gör</a>
-        </div>
       </section>
 
       <section class="section strongest-pick" id="guclu-tahmin"><div class="section-heading reveal visible"><p class="eyebrow">Günün Seçimi</p><h2>Bugünün en güçlü adayı</h2></div><div id="strongest-pick-card" class="strongest-card reveal visible"><div class="fixtures-empty">Günün seçimi güncel maç listesi oluştuktan sonra gösterilecek.</div></div></section>
@@ -226,9 +233,9 @@
     <script src="site-visible-fix.js?v=20260629-live-flow-v1"></script>
     <script src="script.js?v=20260829-security-integrity-v1"></script>
     <script src="daily-matches-widget.js?v=20260829-security-integrity-v1"></script>
-    <script src="server-membership-guard.js?v=20260829-security-integrity-v1"></script>
+    <script src="server-membership-guard.js?v=20260830-membership-code-ux-v1"></script>
     <script src="premium-analysis-v3-core.js?v=20260824-premium-decision-fix-v2"></script>
-    <script src="premium-analysis-v3.js?v=20260829-secure-api-v2"></script>
+    <script src="premium-analysis-v3.js?v=20260830-membership-code-ux-v1"></script>
     <script id="pro-coupon-eligibility-script" src="pro-coupon-eligibility.js?v=20260828-integrity-v1"></script>
     <script src="robot-dashboard.js?v=20260829-security-integrity-v1"></script>
     <script src="cache-version.js?v=20260829-secure-api-v2"></script>
