@@ -5,9 +5,9 @@
   const CUSTOMER_KEY = "fl_membership_customer_info";
 
   const DEFAULT_PLANS = [
-    { id: "starter", name: "Gold Paket", price: "149 TL / 3 Gün", duration_label: "3 Gün", trial_label: "1 Gün Ücretsiz Deneme", features: ["10 özel analiz hakkı", "Günlük kuponları görme", "Maç bülteni ve sonuçlar", "Özel Analiz paneli öncelikli erişim"] },
-    { id: "pro", name: "Diamond Paket", price: "299 TL / 2 Hafta", duration_label: "2 Hafta", trial_label: "1 Gün Ücretsiz Deneme", features: ["40 özel analiz hakkı", "Özel maç analizi paneli", "Seçenek seçerek analiz isteği", "Daha geniş analiz geçmişi"] },
-    { id: "vip", name: "Premium Paket", price: "499 TL / 4 Hafta", duration_label: "4 Hafta", trial_label: "1 Gün Ücretsiz Deneme", features: ["120 özel analiz hakkı", "Tüm Diamond özellikleri", "Öncelikli analiz kuyruğu", "Yüksek oranlı özel analiz odağı"] }
+    { id: "starter", name: "Gold Paket", price: "149 TL / 3 Gün", duration_label: "3 Gün", trial_label: "1 Gün Ücretsiz Deneme", features: ["Günlük kuponları görme", "Maç bülteni ve sonuçlar", "Özel Analiz paneli öncelikli erişim"] },
+    { id: "pro", name: "Diamond Paket", price: "299 TL / 2 Hafta", duration_label: "2 Hafta", trial_label: "1 Gün Ücretsiz Deneme", features: ["Özel maç analizi paneli", "Seçenek seçerek analiz isteği", "Daha geniş analiz geçmişi"] },
+    { id: "vip", name: "Premium Paket", price: "499 TL / 4 Hafta", duration_label: "4 Hafta", trial_label: "1 Gün Ücretsiz Deneme", features: ["Tüm Diamond özellikleri", "Öncelikli analiz kuyruğu", "Yüksek oranlı özel analiz odağı"] }
   ];
 
   const esc = (value) => String(value ?? "")
