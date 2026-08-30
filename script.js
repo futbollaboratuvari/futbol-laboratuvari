@@ -18,6 +18,8 @@ let fixtures = [];
 let activeFixtureDay = "today";
 let hasRenderedResults = false;
 let renderedResultsTimestamp = 0;
+let protectedProIndex = window.__flProtectedProIndex || null;
+let protectedBulletinPayload = null;
 
 const escapeHtml = (value) =>
   String(value ?? "")
@@ -171,6 +173,53 @@ const analysisCommentCard = (item, index) => `
     <p class="robot-note">Veri dayanağı: ${escapeHtml(getSignalsText(item) || "PRO veri katmanları bekleniyor")}</p>
   </article>
 `;
+
+const protectedMatchTimestamp = (item) => {
+  const date = String(item?.date || "").slice(0, 10);
+  const time = String(item?.time || "").slice(0, 5);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !/^\d{2}:\d{2}$/.test(time)) return Number.NaN;
+  return Date.parse(`${date}T${time}:00+03:00`);
+};
+
+const normalizeProtectedProMatch = (item) => {
+  const signals = Array.isArray(item?.signals) ? item.signals.filter(Boolean).map(String) : [];
+  const title = [item?.home, item?.away].filter(Boolean).join(" – ") || "PRO analiz";
+  const commentary = signals.find((signal) => !/^(market|oran):/i.test(signal))
+    || `${title} karşılaşması için korumalı PRO veri katmanları değerlendirildi.`;
+  const status = item?.include_in_coupon === true
+    ? "Kupona uygun"
+    : String(item?.value_label || "İzleme");
+  return {
+    ...item,
+    title,
+    match: title,
+    market: item?.recommended_market || "-",
+    score: item?.model_score,
+    risk: item?.risk_level || item?.data_gap_risk || "Belirsiz",
+    status,
+    decision: item?.include_in_coupon === true ? "Kupon Adayı" : "İzleme",
+    commentary,
+    pro_signals: signals,
+  };
+};
+
+const protectedItemsFromIndex = (payload, now = Date.now()) => {
+  const rawNow = Number(now);
+  const nowMs = Number.isFinite(rawNow) ? rawNow : Date.now();
+  return (Array.isArray(payload?.matches) ? payload.matches : [])
+    .filter((item) => {
+      const timestamp = protectedMatchTimestamp(item);
+      return !Number.isFinite(timestamp) || timestamp > nowMs;
+    })
+    .map(normalizeProtectedProMatch)
+    .filter(hasRealProSignals)
+    .sort((left, right) => {
+      const couponOrder = Number(right.include_in_coupon === true) - Number(left.include_in_coupon === true);
+      return couponOrder || scoreNumber(right) - scoreNumber(left);
+    });
+};
+
+window.__flProtectedAnalysisCenter = Object.freeze({ itemsFromIndex: protectedItemsFromIndex });
 
 const resultOutcome = (value) => {
   const status = String(value || "").toLocaleLowerCase("tr-TR");
@@ -438,7 +487,7 @@ const renderProAnalysisCenter = (payload, bulletinPayload = null) => {
 
   if (analysisList) {
     analysisList.innerHTML = visibleItems.length
-      ? visibleItems.map(analysisCommentCard).join("")
+      ? visibleItems.slice(0, 12).map(analysisCommentCard).join("")
       : emptyBox("Maç listesi geldi; maç bazlı PRO analiz çıktısı bekleniyor.");
   }
 
@@ -459,10 +508,41 @@ const loadProAnalysisCenter = async () => {
     match_count: 0,
     matches: [],
   });
+  protectedBulletinPayload = bulletinPayload;
+  if (protectedProIndex) {
+    renderProtectedProAnalysisCenter(protectedProIndex);
+    return;
+  }
   setSummary([], bulletinPayload?.source || "Güncel bülten", bulletinPayload);
   if (analysisList) analysisList.innerHTML = emptyBox("Maç bazlı PRO değerlendirmeler üyelik doğrulamasından sonra Özel Analiz alanında açılır.");
   if (strongestPickCard) strongestPickCard.innerHTML = emptyBox("Korumalı günün seçimi için Özel Analiz alanında üyelik kodunu doğrula.");
 };
+
+const renderProtectedProAnalysisCenter = (payload) => {
+  protectedProIndex = payload && typeof payload === "object" ? payload : null;
+  if (!protectedProIndex) return;
+  const activeItems = protectedItemsFromIndex(protectedProIndex);
+  if (!activeItems.length) {
+    if (analysisList) analysisList.innerHTML = emptyBox("Korumalı PRO veri açıldı; henüz başlamamış maç bulunamadı.");
+    if (strongestPickCard) strongestPickCard.innerHTML = emptyBox("Korumalı PRO veri açıldı; günün seçimi için başlamamış maç bekleniyor.");
+    setSummary([], protectedProIndex.source || "Korumalı PRO veri açık", protectedBulletinPayload);
+    return;
+  }
+  renderProAnalysisCenter({
+    active_items: activeItems,
+    source: protectedProIndex.source || "Korumalı PRO veri",
+  }, protectedBulletinPayload);
+};
+
+const clearProtectedProAnalysisCenter = () => {
+  protectedProIndex = null;
+  if (analysisList) analysisList.innerHTML = emptyBox("Maç bazlı PRO değerlendirmeler üyelik doğrulamasından sonra Özel Analiz alanında açılır.");
+  if (strongestPickCard) strongestPickCard.innerHTML = emptyBox("Korumalı günün seçimi için Özel Analiz alanında üyelik kodunu doğrula.");
+  setSummary([], protectedBulletinPayload?.source || "PRO analiz bekleniyor", protectedBulletinPayload);
+};
+
+window.addEventListener?.("fl:pro-analysis-ready", (event) => renderProtectedProAnalysisCenter(event.detail?.data));
+window.addEventListener?.("fl:pro-analysis-cleared", clearProtectedProAnalysisCenter);
 
 const renderFixtures = () => {
   if (!fixturesList || fixturesList.classList.contains("fixtures-summary-mode")) return;

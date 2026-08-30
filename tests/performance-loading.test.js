@@ -9,9 +9,19 @@ const waitForTasks = () => new Promise((resolve) => setTimeout(resolve, 20));
 
 async function testSharedJsonRequests() {
   const calls = [];
-  const window = { location: { href: "https://futbollaboratuuvari.org/" } };
+  const listeners = new Map();
+  const analysisList = { innerHTML: "" };
+  const strongestPickCard = { innerHTML: "" };
+  const nodes = {
+    "#analysis-list": analysisList,
+    "#strongest-pick-card": strongestPickCard,
+  };
+  const window = {
+    location: { href: "https://futbollaboratuuvari.org/" },
+    addEventListener: (name, listener) => listeners.set(name, listener),
+  };
   const document = {
-    querySelector: () => null,
+    querySelector: (selector) => nodes[selector] || null,
     querySelectorAll: () => [],
     addEventListener: () => {}
   };
@@ -46,6 +56,33 @@ async function testSharedJsonRequests() {
   assert.equal(calls.filter((url) => url.includes("full-bulletin.json")).length, 1);
   assert.equal(calls.some((url) => url.includes("fixtures.json")), false);
   assert.equal(typeof window.__flReadJsonShared, "function");
+  const protectedItems = window.__flProtectedAnalysisCenter.itemsFromIndex({
+    matches: [
+      { id: "past", date: "2026-08-30", time: "10:00", home: "Geçmiş", away: "Maç", recommended_market: "MS 1", model_score: 90, risk_level: "Düşük", signals: ["Market: MS 1"], include_in_coupon: true },
+      { id: "watch", date: "2026-08-30", time: "18:00", home: "Takım A", away: "Takım B", recommended_market: "2.5 Üst", model_score: 70, risk_level: "Orta", signals: ["Bağımsız veri sinyali", "Market: 2.5 Üst"], include_in_coupon: false, value_label: "Değerli" },
+      { id: "coupon", date: "2026-08-30", time: "20:00", home: "Takım C", away: "Takım D", recommended_market: "KG Var", model_score: 65, risk_level: "Düşük", signals: ["İki takım gol eğilimi", "Market: KG Var"], include_in_coupon: true },
+    ],
+  }, Date.parse("2026-08-30T12:00:00Z"));
+  assert.equal(protectedItems.length, 2);
+  assert.equal(protectedItems[0].id, "coupon");
+  assert.equal(protectedItems[0].title, "Takım C – Takım D");
+  assert.equal(protectedItems[0].market, "KG Var");
+  assert.equal(protectedItems[0].status, "Kupona uygun");
+  assert.equal(protectedItems[1].commentary, "Bağımsız veri sinyali");
+  listeners.get("fl:pro-analysis-ready")({
+    detail: {
+      data: {
+        source: "Korumalı test verisi",
+        matches: [
+          { id: "visible", date: "2099-01-01", time: "20:00", home: "Canlı Kart A", away: "Canlı Kart B", recommended_market: "KG Var", model_score: 72, risk_level: "Düşük", signals: ["İki takım gol eğilimi", "Market: KG Var"], include_in_coupon: true },
+        ],
+      },
+    },
+  });
+  assert.match(strongestPickCard.innerHTML, /Canlı Kart A – Canlı Kart B/);
+  assert.match(analysisList.innerHTML, /İki takım gol eğilimi/);
+  listeners.get("fl:pro-analysis-cleared")();
+  assert.match(strongestPickCard.innerHTML, /üyelik kodunu doğrula/);
   const waitingCards = window.__flResultsPerformance.performanceCards({
     completed_items: [],
     performance: { prediction_count: 850, pending_count: 850, measured_count: 0, success_rate: null }
@@ -179,6 +216,7 @@ function testLegacyStartupChainRemoved() {
   const navigation = read("nav-routing.js");
   const dailyWidget = read("daily-matches-widget.js");
   const premiumAnalysis = read("premium-analysis-v3.js");
+  const main = read("script.js");
   const homepage = read("index.html");
   const resultsSummaryText = read("data/results-summary.json");
   const resultsSummary = JSON.parse(resultsSummaryText);
@@ -203,6 +241,9 @@ function testLegacyStartupChainRemoved() {
   assert.match(premiumAnalysis, /Robot görüşü/);
   assert.match(premiumAnalysis, /Kupona uygun/);
   assert.match(premiumAnalysis, /izleme görüşü marketiyle birlikte gösterildi/);
+  assert.match(premiumAnalysis, /fl:pro-analysis-cleared/);
+  assert.match(main, /fl:pro-analysis-ready/);
+  assert.match(main, /renderProtectedProAnalysisCenter/);
   assert.match(homepage, /id="results-data-status"[\s\S]*Doğrulanmış sonuçlar yükleniyor/);
   assert.match(homepage, /id="result-archive"[\s\S]*Sonuçlar yükleniyor/);
   assert.match(homepage, /id="success-grid"[\s\S]*Performans yükleniyor/);

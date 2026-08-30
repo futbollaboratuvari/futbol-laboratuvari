@@ -183,3 +183,10 @@ Current hosting and security state:
 - Üyelik kodu kartındaki `Göster/Gizle`, `Kodu Doğrula`, `Analize Başla` ve `Kodu Değiştir` eylemleri doğrudan düğmelere bağlandı.
 - Kart eylemleri artık panel ve güvenlik katmanlarının olay kabarcıklanmasına bağlı değil.
 - Canlı sürüm işareti `20260830-membership-code-ux-v3` olarak güncellendi.
+
+## 2026-08-30 — Admin/kod sonrası PRO merkez eşlemesi
+
+- Korumalı PRO indeksinin `fl:pro-analysis-ready` olayı artık ana sayfadaki “Bugünün en güçlü adayı” ve “Maç bazlı detaylı değerlendirmeler” alanlarını da doldurur.
+- Yalnız başlamamış ve gerçek PRO sinyali bulunan kayıtlar gösterilir; kupona uygun kayıtlar önce, ardından model gücüne göre sıralanır.
+- Kod değiştirildiğinde veya erişim temizlendiğinde korumalı içerik de ana sayfadan kaldırılır.
+- Supabase `founder` üyeliği aktif ve 9999 hakla doğrulandı; veri tabanında üyelik kaydı değiştirilmedi.

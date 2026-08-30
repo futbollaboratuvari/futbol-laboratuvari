@@ -136,6 +136,7 @@ async function testLegalOrderGate() {
 
 function testStaticProtectionAndConsent() {
   const index = read("index.html");
+  const main = read("script.js");
   const premium = read("premium-analysis-v3.js");
   const insights = read("analysis-insights-v1.js");
   const build = read("scripts/vercel-build.js");
@@ -165,6 +166,9 @@ function testStaticProtectionAndConsent() {
   assert.match(premium, /bindAccessAction\("\[data-pa3-unlock\]", \(\) => activateCode\(\)\)/);
   assert.match(premium, /bindAccessAction\("\[data-pa3-code-toggle\]", toggleCodeVisibility\)/);
   assert.match(premium, /event\.stopPropagation\(\)/);
+  assert.match(premium, /fl:pro-analysis-cleared/);
+  assert.match(main, /fl:pro-analysis-ready/);
+  assert.match(main, /protectedItemsFromIndex/);
   assert.match(navigation, /parentPanelForHash/);
   assert.match(navigation, /#membership-code-access.*#premium-analysis-panel/);
   assert.match(premium, /id: "premium-analysis-panel", scroll: false/);

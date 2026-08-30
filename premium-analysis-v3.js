@@ -527,6 +527,7 @@
     state.proMeta = null;
     state.matches = CORE.filterUpcoming(CORE.mergeProAnalysis(state.bulletin, null, new Date()), new Date());
     delete window.__flProtectedProIndex;
+    window.dispatchEvent(new CustomEvent("fl:pro-analysis-cleared"));
     updateProStatus();
     renderDates();
     renderMatches();

@@ -281,3 +281,10 @@ Summary:
 - Canlı tarayıcı kontrolünde üyelik kodu kartının görünür olduğu, ancak `Göster` düğmesinin olay kabarcıklanması üzerinden çalışmadığı görüldü.
 - Üyelik kodu kartındaki dört kullanıcı eylemi doğrudan düğme dinleyicilerine taşındı.
 - Statik güvenlik testi yeni doğrudan bağlama sözleşmesini kontrol edecek şekilde genişletildi.
+
+## 2026-08-30 — Admin kodu sonrası boş PRO alanları
+
+- Ekran görüntüsündeki boşluğun nedeni üyelik doğrulaması değil, `script.js` içindeki ana PRO merkezinin korumalı veri olayını dinlememesi olarak tespit edildi.
+- Korumalı indeks yeni karta dönüştürülerek güçlü aday ve maç yorumları alanlarına bağlandı; geçmiş maçlar ve sinyalsiz kayıtlar dışarıda bırakıldı.
+- Erişim temizleme olayı eklendi; önceki üyeye ait PRO içeriğin kod değişiminden sonra ekranda kalması engellendi.
+- Supabase yalnız salt okunur kontrol edildi; `memberships` tablosundaki `founder` kaydı aktif ve sınırsız hak karşılığı 9999 olarak bulundu.
