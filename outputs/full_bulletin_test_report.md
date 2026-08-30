@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 399
+- Scheduled match count: 379
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-08-30 / 2026-08-31 23:59
 
-- 2026-08-30 05:00 | Monterey Bay - Sacramento Repu | scheduled
-- 2026-08-30 05:00 | Perez Zeledon - Alajuelense | scheduled
-- 2026-08-30 05:30 | Portland - Austin | scheduled
-- 2026-08-30 05:30 | San Diego - Los Angeles | scheduled
-- 2026-08-30 05:30 | Las Vegas Ligh - Charleston Batt | scheduled
-- 2026-08-30 05:30 | Phoenix Rising - Indy Eleven | scheduled
-- 2026-08-30 06:10 | Santos Laguna - Tigres Uanl | scheduled
-- 2026-08-30 07:00 | Wallsend (6) - (6) Newcastle Croat | scheduled
-- 2026-08-30 08:00 | Apia - St George City | scheduled
-- 2026-08-30 08:00 | Blacktown City - Western Sydney | scheduled
+- 2026-08-30 11:00 | Siheung Citize - Pocheon | scheduled
+- 2026-08-30 11:00 | Wofoo Tai Po - Eastern | scheduled
+- 2026-08-30 11:15 | Slavia Praha I - Opava | scheduled
+- 2026-08-30 11:30 | Strum Graz Ii - Rapid Vienna (A | scheduled
+- 2026-08-30 11:30 | Petrzalka - Liptovsky Mikul | scheduled
+- 2026-08-30 11:30 | Slovan Bratisl - Povazska Bystri | scheduled
+- 2026-08-30 12:00 | Gira Kitakyush - Matsumoto Yamag | scheduled
+- 2026-08-30 12:00 | Parceiro Nagan - Kusatsu Gunma | scheduled
+- 2026-08-30 12:00 | Albirex Niigat - Mynavi Sendai ( | scheduled
+- 2026-08-30 12:00 | Elfen Saitama - Inac Kobe Leone | scheduled

@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-30T01:39:59.752550+00:00
+Tarih: 2026-08-30T07:18:15.816878+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 352
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 352
-- Ham veri havuzu toplam mac sayisi: 10550
+- Kac mac bulundu: 383
+- Kac mac kaydedildi: 6
+- Kac mac zaten vardi: 377
+- Ham veri havuzu toplam mac sayisi: 10556
 - Hedef tarih: 30.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -21,9 +21,7 @@ Tarih: 2026-08-30T01:39:59.752550+00:00
 - Almanya Kadınlar Bundesliga
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Kuzey YGG Yarı Final
 - Avustralya NPL Queensland Yarı Final
-- Avustralya NPL Yeni Güney Galler
 - Avustralya Victoria NPL 1
 - Avusturya 1.Lig
 - Avusturya Bundesliga
@@ -42,10 +40,12 @@ Tarih: 2026-08-30T01:39:59.752550+00:00
 - Danimarka 2.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Ykkösliiga
 - Fransa Ligue 1
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika 8 Kupası Yarı Final
 - Güney Kore K Lig 1
 - Güney Kore K Lig 2
@@ -53,15 +53,18 @@ Tarih: 2026-08-30T01:39:59.752550+00:00
 - Gürcistan Erovnuli Liga
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
+- Honduras Ulusal Lig Apertura
 - Hong Kong Premier Lig
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Japonya J3 Lig
 - Japonya WE Ligi Kadınlar
+- Kanada Premier Lig
 - Kazakistan Premier Lig
 - Kolombiya Primera A Clausura
 - Kosta Rika Premier Lig Apertura
 - Kuveyt Premier Lig
+- Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya A Ligi
 - Macaristan NB I
@@ -73,12 +76,15 @@ Tarih: 2026-08-30T01:39:59.752550+00:00
 - Malezya Süper Lig
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
-- Moldova Ulusal Lig
+- Meksika Liga MX Apertura
 - Nijerya NPFL
+- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 2
+- Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
 - Norveç 3.Lig Grup 5
 - Norveç 3.Lig Grup 6
@@ -225,8 +231,8 @@ Tarih: 2026-08-30T01:39:59.752550+00:00
 | 30.08.2026 | 18:15 | Fransa Ligue 1 | Rennes | Le Mans | 27370 | 5 |
 | 30.08.2026 | 21:45 | Fransa Ligue 1 | Monaco | Marsilya | 06854 | 5 |
 | 30.08.2026 | 16:00 | Fransa Ligue 1 | Paris Fc | Nice | 27313 | 5 |
-| 30.08.2026 | 16:30 | Almanya Bundesliga | Freiburg | Werder Bremen | 21765 | 5 |
 | 30.08.2026 | 18:30 | Almanya Bundesliga | Augsburg | Schalke | 21882 | 5 |
+| 30.08.2026 | 16:30 | Almanya Bundesliga | Freiburg | Werder Bremen | 21765 | 5 |
 
 ## Sonuc
 

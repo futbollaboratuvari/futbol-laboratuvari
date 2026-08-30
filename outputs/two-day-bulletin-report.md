@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-30 / 2026-08-31
 Kaynak: fixtures.json
-Ham mac: 426
-Aktif mac: 371
+Ham mac: 455
+Aktif mac: 375
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 55
-Bugun: 333
+Bultenden dusurulen mac: 80
+Bugun: 337
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-30 10:00 | Avustralya NPL Queensland Yarı Final | Queensland Lio - Peninsula Power | scheduled | -
 - 2026-08-30 11:00 | Hong Kong Premier Lig | Wofoo Tai Po - Eastern | scheduled | -
 - 2026-08-30 11:00 | Güney Kore K3 Ligi | Siheung Citize - Pocheon | scheduled | -
 - 2026-08-30 11:15 | Çek Cumhuriyeti FNL | Slavia Praha I - Opava | scheduled | -
@@ -27,6 +26,7 @@ Yarin: 38
 - 2026-08-30 12:00 | Macaristan NB III Güneydoğu | Honved Ii - Bss Monor | scheduled | -
 - 2026-08-30 12:00 | Japonya J3 Lig | Parceiro Nagan - Kusatsu Gunma | scheduled | -
 - 2026-08-30 12:00 | Japonya J3 Lig | Gira Kitakyush - Matsumoto Yamag | scheduled | -
+- 2026-08-30 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Iii Keruleti Tv | scheduled | -
 - 2026-08-30 12:30 | Japonya J3 Lig | Mio Biwako Shi - Gainare Tottori | scheduled | -
 - 2026-08-30 13:00 | Ukrayna Premier Lig | Chernomorets - Kryvbas Kr | scheduled | -
 - 2026-08-30 13:00 | Portekiz 2.Lig | Amarante Fc - Benfica (B) | scheduled | -
@@ -37,6 +37,7 @@ Yarin: 38
 - 2026-08-30 13:00 | Japonya J3 Lig | Renofa Yamaguc - Osaka | scheduled | -
 - 2026-08-30 13:00 | Japonya J3 Lig | Kochi United - Roasso Kumamoto | scheduled | -
 - 2026-08-30 13:00 | Japonya J3 Lig | Zweigen Kanaza - Ehime Fc | scheduled | -
+- 2026-08-30 13:00 | Letonya 1.Lig | Skanste - Tukums Ii | scheduled | -
 - 2026-08-30 13:15 | Hollanda Eredivisie | Utrecht - Psv Eindhoven | scheduled | -
 - 2026-08-30 13:15 | Hollanda Eerste Divisie | Fc Eindhoven - Heracles | scheduled | -
 - 2026-08-30 13:30 | Güney Kore K Lig 1 | Gwangju - Fc Seoul | scheduled | -
@@ -67,6 +68,7 @@ Yarin: 38
 - 2026-08-30 14:00 | İsveç 2.Lig Norra Götaland | Ifk Skövde - Motala Aif Fk | scheduled | -
 - 2026-08-30 14:00 | İsveç 2.Lig Norra Götaland | Husqvarna - Grebbestads If | scheduled | -
 - 2026-08-30 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Lucksta - Ifk Lulea | scheduled | -
+- 2026-08-30 14:00 | Norveç 3.Lig Grup 3 | Fyllingsdalen - Austevoll | scheduled | -
 - 2026-08-30 14:30 | Belçika Pro Lig | Gent - Club Brugge | scheduled | -
 - 2026-08-30 14:30 | Almanya 2. Bundesliga | St Pauli - Kaiserslautern | scheduled | -
 - 2026-08-30 14:30 | Almanya 2. Bundesliga | Darmstadt - Hannover | scheduled | -
@@ -142,6 +144,7 @@ Yarin: 38
 - 2026-08-30 17:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Ostersund - Taftea | scheduled | -
 - 2026-08-30 17:00 | Faroe Adaları Master Lig | B36 Torshavn - B68 Toftir | scheduled | -
 - 2026-08-30 17:00 | Faroe Adaları Master Lig | Runavik - Ab Argir | scheduled | -
+- 2026-08-30 17:15 | Norveç 3.Lig Grup 2 | Melhus - Strindheim | scheduled | -
 - 2026-08-30 17:30 | Portekiz Premier Lig | Nacional Madei - Estrela | scheduled | -
 - 2026-08-30 17:30 | İsveç Allsvenskan | Göteborg - Orgryte | scheduled | -
 - 2026-08-30 17:30 | İsviçre Süper Lig | Vaduz - Grasshoppers | scheduled | -
@@ -190,6 +193,7 @@ Yarin: 38
 - 2026-08-30 18:00 | Nijerya NPFL | Ikorodu City - Ranchers Bees | scheduled | -
 - 2026-08-30 18:00 | Nijerya NPFL | Doma United - Sporting Lagos | scheduled | -
 - 2026-08-30 18:00 | Hırvatistan 2.HNL | Kustosija - Zdralovi | scheduled | -
+- 2026-08-30 18:00 | Gürcistan Erovnuli Liga | Samgurali - Fc Rustavi | scheduled | -
 - 2026-08-30 18:05 | Birleşik Arap Emirlikleri 1.Lig | Emirates - Palm City 365 | scheduled | -
 - 2026-08-30 18:05 | Umman Profesyonel Lig | Al Nasr - Fanja | scheduled | -
 - 2026-08-30 18:10 | Birleşik Arap Emirlikleri 1.Lig | Al Hamriyah - Gulf Heroes | scheduled | -
