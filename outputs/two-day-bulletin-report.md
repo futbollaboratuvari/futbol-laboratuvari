@@ -2,28 +2,15 @@
 
 Gunler: 2026-08-30 / 2026-08-31
 Kaynak: fixtures.json
-Ham mac: 450
-Aktif mac: 426
+Ham mac: 445
+Aktif mac: 413
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 24
-Bugun: 388
+Bultenden dusurulen mac: 32
+Bugun: 375
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-30 02:30 | ABD MLS | New York - Philadelphia | scheduled | -
-- 2026-08-30 02:30 | ABD MLS | Dc United - Los Angeles Fc | scheduled | -
-- 2026-08-30 02:30 | ABD MLS | Atlanta Utd - Charlotte | scheduled | -
-- 2026-08-30 02:30 | ABD MLS | Toronto - New York City | scheduled | -
-- 2026-08-30 02:30 | ABD MLS | Inter Miami - Montreal | scheduled | -
-- 2026-08-30 02:30 | Kolombiya Primera A Clausura | Atletico Junio - Santa Fe | scheduled | -
-- 2026-08-30 03:00 | Şili Premier Lig | Atletico Nuble - Concepcion | scheduled | -
-- 2026-08-30 03:00 | Ekvador Pro Lig | Manta - Barcelona Gua | scheduled | -
-- 2026-08-30 03:00 | ABD USL | Louisville Cit - Detroit City | scheduled | -
-- 2026-08-30 03:00 | ABD USL | Oakland Roots - Orange County B | scheduled | -
-- 2026-08-30 03:00 | Nikaragua Premier Lig Apertura | Diriangen - Jalapa | scheduled | -
-- 2026-08-30 03:00 | ABD USL Lig 1 | Union Omaha - New York Cosmos | scheduled | -
-- 2026-08-30 03:20 | Brezilya Serie A | Vasco Da Gama - Cruzeiro | scheduled | -
 - 2026-08-30 03:30 | ABD MLS | Kansas - Vancouver | scheduled | -
 - 2026-08-30 03:30 | ABD MLS | Houston - San Jose | scheduled | -
 - 2026-08-30 03:30 | ABD MLS | Nashville Sc - Cincinnati | scheduled | -

@@ -2,29 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-29T23:27:34.970Z
+- Güncelleme: 2026-08-30T00:27:47.759Z
 - Ham maç sayısı: 445
 - Yarın bülteni maç sayısı: 38
-- Detay blok sayısı: 1236
-- Aktif bülten maçı: 426
-- Bültenden düşürülen maç: 19
+- Detay blok sayısı: 1237
+- Aktif bülten maçı: 413
+- Bültenden düşürülen maç: 32
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| New York - Philadelphia | ABD MLS | 02:30 | Veri bekleniyor | - | 2.63 | 8 |
-| Dc United - Los Angeles Fc | ABD MLS | 02:30 | Veri bekleniyor | - | 3.42 | 8 |
-| Atlanta Utd - Charlotte | ABD MLS | 02:30 | Veri bekleniyor | - | 2.25 | 8 |
-| Toronto - New York City | ABD MLS | 02:30 | Veri bekleniyor | - | 2.18 | 8 |
-| Inter Miami - Montreal | ABD MLS | 02:30 | Veri bekleniyor | - | 1.27 | 6 |
-| Atletico Junio - Santa Fe | Kolombiya Primera A Clausura | 02:30 | Veri bekleniyor | - | 1.65 | 8 |
-| Atletico Nuble - Concepcion | Şili Premier Lig | 03:00 | Veri bekleniyor | - | 1.9 | 8 |
-| Manta - Barcelona Gua | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 3.22 | 8 |
-| Louisville Cit - Detroit City | ABD USL | 03:00 | Veri bekleniyor | - | 1.58 | 8 |
-| Oakland Roots - Orange County B | ABD USL | 03:00 | Veri bekleniyor | - | 1.68 | 8 |
-| Diriangen - Jalapa | Nikaragua Premier Lig Apertura | 03:00 | Veri bekleniyor | - | 1.21 | 6 |
-| Union Omaha - New York Cosmos | ABD USL Lig 1 | 03:00 | Veri bekleniyor | - | 1.17 | 4 |
-| Vasco Da Gama - Cruzeiro | Brezilya Serie A | 03:20 | Veri bekleniyor | - | 1.82 | 8 |
 | Kansas - Vancouver | ABD MLS | 03:30 | Veri bekleniyor | - | 5.77 | 6 |
 | Houston - San Jose | ABD MLS | 03:30 | Veri bekleniyor | - | 1.44 | 8 |
 | Nashville Sc - Cincinnati | ABD MLS | 03:30 | Veri bekleniyor | - | 1.63 | 8 |
@@ -247,7 +234,7 @@
 | Doma United - Sporting Lagos | Nijerya NPFL | 18:00 | Veri bekleniyor | - | 1.5 | 7 |
 | Kustosija - Zdralovi | Hırvatistan 2.HNL | 18:00 | Veri bekleniyor | - | 1.68 | 8 |
 | Emirates - Palm City 365 | Birleşik Arap Emirlikleri 1.Lig | 18:05 | Veri bekleniyor | - | 4.22 | 5 |
-| Al Nasr - Fanja | Umman Profesyonel Lig | 18:05 | Veri bekleniyor | - | 1.49 | 5 |
+| Al Nasr - Fanja | Umman Profesyonel Lig | 18:05 | Veri bekleniyor | - | 1.53 | 7 |
 | Al Hamriyah - Gulf Heroes | Birleşik Arap Emirlikleri 1.Lig | 18:10 | Veri bekleniyor | - | 1.46 | 7 |
 | Rennes - Le Mans | Fransa Ligue 1 | 18:15 | Veri bekleniyor | - | 1.27 | 7 |
 | Chrobry Glogow - Ruch Chorzow | Polonya 1.Lig | 18:15 | Veri bekleniyor | - | 2.69 | 8 |
