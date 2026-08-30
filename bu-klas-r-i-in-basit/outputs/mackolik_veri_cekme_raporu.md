@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-30T17:16:44.587857+00:00
+Tarih: 2026-08-30T17:36:29.609714+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 113
+- Kac mac bulundu: 66
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 113
+- Kac mac zaten vardi: 66
 - Ham veri havuzu toplam mac sayisi: 10572
 - Hedef tarih: 30.08.2026 Europe/Istanbul
 
@@ -18,30 +18,20 @@ Tarih: 2026-08-30T17:16:44.587857+00:00
 - Almanya 3. Lig
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Belçika Challenger Pro Lig
-- Belçika Pro Lig
 - Bosna-Hersek Premier Lig
 - Brezilya Serie A
 - Brezilya Serie B
 - Bulgaristan 1.Lig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Fransa Ligue 1
-- Guatemala Ulusal Lig Apertura
 - Hollanda Eredivisie
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
-- Kanada Premier Lig
 - Kolombiya Primera A Clausura
-- Kosta Rika Premier Lig Apertura
 - Kuveyt Premier Lig
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 1
-- Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 2.Lig
 - Polonya Ekstraklasa
@@ -59,7 +49,6 @@ Tarih: 2026-08-30T17:16:44.587857+00:00
 - İspanya 2.Lig
 - İspanya Kadınlar Primera Lig
 - İspanya LaLiga
-- İspanya Primera Lig RFEF Grup 1
 - İspanya Primera Lig RFEF Grup 2
 - İsveç 2.Lig Södra Götaland
 - İsviçre 1.Lig Promotion
@@ -126,8 +115,8 @@ Tarih: 2026-08-30T17:16:44.587857+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 67
-- Acilan detay: 67
+- Denenen Tumu alani: 63
+- Acilan detay: 63
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -143,23 +132,23 @@ Tarih: 2026-08-30T17:16:44.587857+00:00
 | 30.08.2026 | 21:30 | Türkiye Süper Lig | Samsunspor | Fenerbahçe | 06560 | 5 |
 | 30.08.2026 | 21:30 | Türkiye Süper Lig | Başakşehir Fk | Kasimpaşa | 06558 | 5 |
 | 30.08.2026 | 21:30 | Türkiye TFF 1. Lig | Manisa Futbol | Bodrum Fk | 20511 | 5 |
-| 30.08.2026 | 22:30 | İspanya LaLiga | Celta Vigo | Athletic Bilbao | 19269 | 5 |
 | 30.08.2026 | 20:30 | İspanya LaLiga | D.La Coruna | Valencia | 19211 | 5 |
-| 30.08.2026 | 21:45 | İtalya Serie A | Lazio | Genoa | 24334 | 5 |
+| 30.08.2026 | 22:30 | İspanya LaLiga | Celta Vigo | Athletic Bilbao | 19269 | 5 |
 | 30.08.2026 | 21:45 | İtalya Serie A | Cagliari | Inter | 00160 | 5 |
+| 30.08.2026 | 21:45 | İtalya Serie A | Lazio | Genoa | 24334 | 5 |
 | 30.08.2026 | 21:45 | Fransa Ligue 1 | Monaco | Marsilya | 06854 | 5 |
 | 30.08.2026 | 21:00 | Hollanda Eredivisie | Cambuur | Twente | 28705 | 5 |
 | 30.08.2026 | 22:30 | Portekiz Premier Lig | Famalicao | Gil Vicente | 29106 | 5 |
 | 30.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah | Al Faisaly | 10140 | 4 |
-| 30.08.2026 | 20:15 | Belçika Pro Lig | Westerlo | Zulte Waregem | 28185 | 5 |
 | 30.08.2026 | 22:30 | İspanya 2.Lig | Cordoba | Granada | 20187 | 5 |
-| 30.08.2026 | 22:00 | İtalya Serie B | Pisa | Catanzaro | 25809 | 5 |
 | 30.08.2026 | 22:00 | İtalya Serie B | Benevento | Sudtirol | 25869 | 5 |
-| 30.08.2026 | 21:00 | Yunanistan Süper Lig | Kifisias | Aek | 36273 | 5 |
-| 30.08.2026 | 20:15 | Yunanistan Süper Lig | Atromitos | Paok | 36219 | 5 |
+| 30.08.2026 | 22:00 | İtalya Serie B | Pisa | Catanzaro | 25809 | 5 |
 | 30.08.2026 | 21:00 | Yunanistan Süper Lig | Asteras Tripol | Olympiakos | 36326 | 5 |
+| 30.08.2026 | 21:00 | Yunanistan Süper Lig | Kifisias | Aek | 36273 | 5 |
 | 30.08.2026 | 21:15 | Polonya Ekstraklasa | Widzew Lodz | Lech Poznan | 38338 | 5 |
 | 30.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Sparta Prag | Slavia Prag | 34621 | 5 |
+| 30.08.2026 | 21:00 | Sırbistan Süper Lig | Zemun Belg. | Kizilyildiz | 51074 | 2 |
+| 30.08.2026 | 22:00 | Sırbistan Süper Lig | Imt Novi Beogr | Mladost Lucani | 51207 | 5 |
 
 ## Sonuc
 
