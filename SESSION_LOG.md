@@ -276,3 +276,8 @@ Summary:
 - Doğrulanmış statü, PRO model/indeks, sonuç zinciri, takım istihbaratı, güvenlik/yasal, performans, Özel Analiz V3 ve kupon uygunluk regresyonları birlikte geçti.
 - Supabase şeması veya verisi değiştirilmedi; mevcut doğrulama, deneme, kullanım ve ödeme sağlayıcı akışları korunarak yalnız Vercel proxy sınırı düzenlendi.
 
+## 2026-08-30 — Üyelik kodu canlı etkileşim kapanışı
+
+- Canlı tarayıcı kontrolünde üyelik kodu kartının görünür olduğu, ancak `Göster` düğmesinin olay kabarcıklanması üzerinden çalışmadığı görüldü.
+- Üyelik kodu kartındaki dört kullanıcı eylemi doğrudan düğme dinleyicilerine taşındı.
+- Statik güvenlik testi yeni doğrudan bağlama sözleşmesini kontrol edecek şekilde genişletildi.

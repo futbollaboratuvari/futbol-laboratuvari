@@ -162,6 +162,9 @@ function testStaticProtectionAndConsent() {
   assert.match(premium, /fl:membership-code-received/);
   assert.match(premium, /Kod doğrulama sırasında analiz hakkı kullanılmadı/);
   assert.match(premium, /storeVerifiedMembership\(payload\.membership, normalized\)/);
+  assert.match(premium, /bindAccessAction\("\[data-pa3-unlock\]", \(\) => activateCode\(\)\)/);
+  assert.match(premium, /bindAccessAction\("\[data-pa3-code-toggle\]", toggleCodeVisibility\)/);
+  assert.match(premium, /event\.stopPropagation\(\)/);
   assert.match(navigation, /parentPanelForHash/);
   assert.match(navigation, /#membership-code-access.*#premium-analysis-panel/);
   assert.match(premium, /id: "premium-analysis-panel", scroll: false/);

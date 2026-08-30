@@ -178,3 +178,8 @@ Current hosting and security state:
 - GitHub Pages üzerinde CSP meta politikası, Vercel üzerinde CSP/HSTS ve diğer güvenlik başlıkları uygulanır.
 - Satıcı profili eksik kaldığı sürece ücretli sipariş hem arayüzde hem sunucuda kapalıdır; ücretsiz deneme ve mevcut üyelik doğrulaması ayrı Supabase akışında kalır.
 
+## 2026-08-30 — Üyelik kodu canlı etkileşim düzeltmesi
+
+- Üyelik kodu kartındaki `Göster/Gizle`, `Kodu Doğrula`, `Analize Başla` ve `Kodu Değiştir` eylemleri doğrudan düğmelere bağlandı.
+- Kart eylemleri artık panel ve güvenlik katmanlarının olay kabarcıklanmasına bağlı değil.
+- Canlı sürüm işareti `20260830-membership-code-ux-v3` olarak güncellendi.

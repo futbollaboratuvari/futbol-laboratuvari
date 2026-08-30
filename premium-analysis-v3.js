@@ -673,6 +673,25 @@
     if (!shell || shell.dataset.pa3Bound === "1") return;
     shell.dataset.pa3Bound = "1";
 
+    const bindAccessAction = (selector, action) => {
+      const button = query(selector);
+      if (!button || button.dataset.pa3DirectBound === "1") return;
+      button.dataset.pa3DirectBound = "1";
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        action();
+      });
+    };
+
+    // Üyelik kodu kontrollerini doğrudan bağla. Bu kart, panel açma ve
+    // güvenlik katmanlarının yakalama aşamasındaki dinleyicilerinden bağımsız
+    // çalışmalı; doğrulama ve görünürlük eylemleri kabarcıklanmaya bağlı kalmamalı.
+    bindAccessAction("[data-pa3-unlock]", () => activateCode());
+    bindAccessAction("[data-pa3-code-toggle]", toggleCodeVisibility);
+    bindAccessAction("[data-pa3-start]", startWithMembership);
+    bindAccessAction("[data-pa3-change]", changeCode);
+
     shell.addEventListener("click", (event) => {
       const mode = event.target.closest?.("[data-pa3-mode]");
       if (mode) return setMode(mode.dataset.pa3Mode);
@@ -685,10 +704,6 @@
         renderMatches();
         return;
       }
-      if (event.target.closest?.("[data-pa3-unlock]")) return activateCode();
-      if (event.target.closest?.("[data-pa3-code-toggle]")) return toggleCodeVisibility();
-      if (event.target.closest?.("[data-pa3-start]")) return startWithMembership();
-      if (event.target.closest?.("[data-pa3-change]")) return changeCode();
       if (event.target.closest?.("[data-pa3-copy]")) return copyResult();
       if (event.target.closest?.("[data-pa3-new]")) return resetAnalysis();
       if (event.target.closest?.("[data-pa-analyze]")) return handleAnalyze();
