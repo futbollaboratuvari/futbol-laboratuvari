@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 30.08.2026 22:53:32
+Oluşturma: 30.08.2026 23:02:32
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1156
-- Kazanan tahmin: 183
-- Kaybeden tahmin: 161
-- Lig sayısı: 204
+- Bekleyen tahmin: 1124
+- Kazanan tahmin: 200
+- Kaybeden tahmin: 176
+- Lig sayısı: 201
 - Seçenek sayısı: 7
 
 ## Öğrenme Mantığı
@@ -22,27 +22,27 @@ Oluşturma: 30.08.2026 22:53:32
 
 - KG Var: toplam 2, bekleyen 1, başarı %100, ağırlık 1
 - MS X: toplam 2, bekleyen 1, başarı %100, ağırlık 1
-- 2.5 Üst: toplam 195, bekleyen 120, başarı %65, ağırlık 1.12
-- MS 1: toplam 499, bekleyen 422, başarı %52, ağırlık 1
-- MS 2: toplam 206, bekleyen 171, başarı %49, ağırlık 1
-- 2.5 Alt: toplam 595, bekleyen 440, başarı %48, ağırlık 1
+- 2.5 Üst: toplam 202, bekleyen 123, başarı %66, ağırlık 1.12
+- MS 1: toplam 498, bekleyen 413, başarı %53, ağırlık 1
+- MS 2: toplam 205, bekleyen 166, başarı %51, ağırlık 1
+- 2.5 Alt: toplam 590, bekleyen 419, başarı %47, ağırlık 0.94
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-30 | Brezilya Serie A | Mirassol - Palmeiras | 2.5 Üst | pending | 66/100
-- 2026-08-30 | Arjantin Ulusal Primera Lig | Moron - San Miguel | 2.5 Üst | pending | 67/100
-- 2026-08-30 | İzlanda Urvalsdeild | Hafnarfjordur - Keflavik | 2.5 Alt | pending | 49/100
-- 2026-08-30 | Portekiz Kupa 1.Tur | Florgrade - Sao Joao Ver | 2.5 Üst | pending | 59/100
-- 2026-08-30 | Almanya Bundesliga | Augsburg - Schalke | MS 1 | won | 49/100
-- 2026-08-30 | Bulgaristan 1.Lig | Cska Sofia - Cherno More | 2.5 Üst | pending | 60/100
-- 2026-08-30 | Arjantin Premier Lig 2. Aşama | Independiente - Gimnasia Mendoz | 2.5 Alt | pending | 53/100
-- 2026-08-30 | İtalya Serie A | Lazio - Genoa | MS 1 | pending | 50/100
-- 2026-08-30 | İtalya Serie A | Cagliari - Inter | 2.5 Alt | pending | 59/100
-- 2026-08-30 | Türkiye Süper Lig | Samsunspor - Fenerbahçe | MS 2 | pending | 51/100
-- 2026-08-30 | İspanya Primera Lig RFEF Grup 2 | Antequera - Ud Ibiza | MS 1 | pending | 44/100
-- 2026-08-30 | İspanya Primera Lig RFEF Grup 2 | Cd Aguilas - Alcorcon | MS 1 | pending | 44/100
-- 2026-08-30 | İspanya Primera Lig RFEF Grup 2 | Atl Madrid Ii - Juventud Torrem | 2.5 Üst | pending | 60/100
-- 2026-08-30 | Almanya 3. Lig | Viktoria Köln - Preussen Munste | MS 1 | pending | 50/100
-- 2026-08-30 | İskoçya Premiership | Aberdeen - Glasgow Rangers | 2.5 Alt | won | 51/100
+- 2026-08-30 | Peru Premier Lig Clausura | Sport Boys - Sporting Crista | 2.5 Üst | pending | 60/100
+- 2026-08-30 | Yunanistan Süper Lig | Aris - Ofi | 2.5 Üst | pending | 60/100
+- 2026-08-30 | Portekiz Kupa 1.Tur | Rebordelo - Gd Bragança | 2.5 Üst | pending | 66/100
+- 2026-08-30 | Portekiz Kupa 1.Tur | Ud Da Serra - Uniao Pombal | 2.5 Üst | pending | 68/100
+- 2026-08-30 | Portekiz Kupa 1.Tur | Sanjoanense - Paços Brandao | 2.5 Üst | pending | 68/100
+- 2026-08-30 | Peru Premier Lig Clausura | Deportivo Moqu - Alianza Atletic | 2.5 Üst | pending | 74/100
+- 2026-08-30 | Portekiz Kupa 1.Tur | Caldas - Su Sintrense | 2.5 Üst | pending | 67/100
+- 2026-08-30 | Norveç Eliteserien | Tromso - Sarpsborg | 2.5 Alt | pending | 50/100
+- 2026-08-30 | Norveç Eliteserien | Sandefjord - Brann | 2.5 Alt | pending | 48/100
+- 2026-08-30 | Belçika Pro Lig | Antwerp - St. Truidense | MS 1 | pending | 46/100
+- 2026-08-30 | İskoçya Premiership | St Mirren - Motherwell | 2.5 Üst | pending | 76/100
+- 2026-08-30 | Almanya 2. Bundesliga | Magdeburg - Holstein Kiel | 2.5 Alt | pending | 52/100
+- 2026-08-30 | Danimarka Süperlig | Lyngby - Odense | 2.5 Alt | pending | 55/100
+- 2026-08-30 | Rusya Premier Lig | Fk Rodina Mosk - Baltika Kalinin | 2.5 Üst | pending | 79/100
+- 2026-08-30 | Portekiz Kupa 1.Tur | Machico - Camacha | 2.5 Üst | pending | 64/100
 
