@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T06:50:14.854Z",
+  "generated_at": "2026-08-30T12:03:11.488Z",
   "status": "active",
   "prediction_count": 1500,
   "market_memory": {
@@ -10,51 +10,51 @@
     "best": [
       {
         "name": "2.5 Üst",
-        "total": 188,
-        "pending": 130,
-        "won": 39,
-        "lost": 19,
+        "total": 192,
+        "pending": 125,
+        "won": 41,
+        "lost": 26,
         "void": 0,
-        "success_rate": 0.672,
-        "weight": 1.12,
-        "confidence_adjustment": 4
+        "success_rate": 0.612,
+        "weight": 1.06,
+        "confidence_adjustment": 2
       }
     ],
     "weak": [
       {
-        "name": "2.5 Alt",
-        "total": 606,
-        "pending": 472,
-        "won": 59,
-        "lost": 75,
+        "name": "MS 2",
+        "total": 203,
+        "pending": 178,
+        "won": 11,
+        "lost": 14,
         "void": 0,
         "success_rate": 0.44,
         "weight": 0.94,
         "confidence_adjustment": -2
       },
       {
-        "name": "MS 2",
-        "total": 200,
-        "pending": 176,
-        "won": 11,
-        "lost": 13,
+        "name": "2.5 Alt",
+        "total": 605,
+        "pending": 468,
+        "won": 62,
+        "lost": 75,
         "void": 0,
-        "success_rate": 0.458,
+        "success_rate": 0.453,
         "weight": 0.94,
         "confidence_adjustment": -2
       }
     ]
   },
   "league_memory": {
-    "total": 210,
-    "ready": 24,
+    "total": 204,
+    "ready": 28,
     "boost": 10,
-    "penalty": 12,
+    "penalty": 14,
     "best": [
       {
         "name": "İspanya 2.Lig",
-        "total": 9,
-        "pending": 4,
+        "total": 10,
+        "pending": 5,
         "won": 5,
         "lost": 0,
         "void": 0,
@@ -63,13 +63,24 @@
         "confidence_adjustment": 4
       },
       {
-        "name": "Arjantin Ulusal Primera Lig",
-        "total": 18,
-        "pending": 13,
-        "won": 4,
+        "name": "Ekvador Pro Lig",
+        "total": 13,
+        "pending": 7,
+        "won": 5,
         "lost": 1,
         "void": 0,
-        "success_rate": 0.8,
+        "success_rate": 0.833,
+        "weight": 1.12,
+        "confidence_adjustment": 4
+      },
+      {
+        "name": "Kolombiya Primera A Clausura",
+        "total": 20,
+        "pending": 14,
+        "won": 4,
+        "lost": 2,
+        "void": 0,
+        "success_rate": 0.667,
         "weight": 1.12,
         "confidence_adjustment": 4
       },
@@ -118,6 +129,17 @@
         "confidence_adjustment": 4
       },
       {
+        "name": "Honduras Ulusal Lig Apertura",
+        "total": 12,
+        "pending": 7,
+        "won": 3,
+        "lost": 2,
+        "void": 0,
+        "success_rate": 0.6,
+        "weight": 1.06,
+        "confidence_adjustment": 2
+      },
+      {
         "name": "İtalya Serie A",
         "total": 10,
         "pending": 5,
@@ -129,31 +151,9 @@
         "confidence_adjustment": 2
       },
       {
-        "name": "Kolombiya Primera A Clausura",
-        "total": 19,
-        "pending": 12,
-        "won": 4,
-        "lost": 3,
-        "void": 0,
-        "success_rate": 0.571,
-        "weight": 1.06,
-        "confidence_adjustment": 2
-      },
-      {
         "name": "İngiltere 1.Lig",
         "total": 12,
         "pending": 3,
-        "won": 5,
-        "lost": 4,
-        "void": 0,
-        "success_rate": 0.556,
-        "weight": 1.06,
-        "confidence_adjustment": 2
-      },
-      {
-        "name": "Hazırlık Kulüpler",
-        "total": 19,
-        "pending": 10,
         "won": 5,
         "lost": 4,
         "void": 0,
@@ -209,8 +209,8 @@
       },
       {
         "name": "Portekiz Kupa 1.Tur",
-        "total": 22,
-        "pending": 14,
+        "total": 27,
+        "pending": 19,
         "won": 2,
         "lost": 6,
         "void": 0,
@@ -230,6 +230,17 @@
         "confidence_adjustment": -5
       },
       {
+        "name": "Arjantin Premier Lig 2. Aşama",
+        "total": 18,
+        "pending": 10,
+        "won": 3,
+        "lost": 5,
+        "void": 0,
+        "success_rate": 0.375,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
         "name": "Türkiye Süper Lig",
         "total": 8,
         "pending": 3,
@@ -241,11 +252,11 @@
         "confidence_adjustment": -5
       },
       {
-        "name": "Meksika Liga MX Apertura",
-        "total": 21,
-        "pending": 16,
-        "won": 2,
-        "lost": 3,
+        "name": "ABD MLS",
+        "total": 27,
+        "pending": 17,
+        "won": 4,
+        "lost": 6,
         "void": 0,
         "success_rate": 0.4,
         "weight": 0.88,
@@ -261,25 +272,14 @@
         "success_rate": 0.417,
         "weight": 0.88,
         "confidence_adjustment": -5
-      },
-      {
-        "name": "Arjantin Premier Lig 2. Aşama",
-        "total": 18,
-        "pending": 11,
-        "won": 3,
-        "lost": 4,
-        "void": 0,
-        "success_rate": 0.429,
-        "weight": 0.94,
-        "confidence_adjustment": -2
       }
     ]
   },
   "league_market_memory": {
-    "total": 540,
-    "ready": 10,
-    "boost": 5,
-    "penalty": 5,
+    "total": 534,
+    "ready": 13,
+    "boost": 6,
+    "penalty": 7,
     "best": [
       {
         "name": "İngiltere Championship :: 2.5 Üst",
@@ -289,17 +289,6 @@
         "lost": 1,
         "void": 0,
         "success_rate": 0.857,
-        "weight": 1.12,
-        "confidence_adjustment": 4
-      },
-      {
-        "name": "Arjantin Ulusal Primera Lig :: MS 1",
-        "total": 16,
-        "pending": 11,
-        "won": 4,
-        "lost": 1,
-        "void": 0,
-        "success_rate": 0.8,
         "weight": 1.12,
         "confidence_adjustment": 4
       },
@@ -315,6 +304,28 @@
         "confidence_adjustment": 4
       },
       {
+        "name": "ABD USL :: 2.5 Alt",
+        "total": 14,
+        "pending": 9,
+        "won": 3,
+        "lost": 2,
+        "void": 0,
+        "success_rate": 0.6,
+        "weight": 1.06,
+        "confidence_adjustment": 2
+      },
+      {
+        "name": "ABD USL :: MS 1",
+        "total": 9,
+        "pending": 4,
+        "won": 3,
+        "lost": 2,
+        "void": 0,
+        "success_rate": 0.6,
+        "weight": 1.06,
+        "confidence_adjustment": 2
+      },
+      {
         "name": "Uruguay Premier Lig Clausura :: 2.5 Alt",
         "total": 8,
         "pending": 3,
@@ -327,21 +338,21 @@
       },
       {
         "name": "Hazırlık Kulüpler :: 2.5 Alt",
-        "total": 14,
-        "pending": 7,
-        "won": 4,
-        "lost": 3,
+        "total": 10,
+        "pending": 5,
+        "won": 3,
+        "lost": 2,
         "void": 0,
-        "success_rate": 0.571,
+        "success_rate": 0.6,
         "weight": 1.06,
         "confidence_adjustment": 2
       }
     ],
     "weak": [
       {
-        "name": "İtalya Serie B :: 2.5 Alt",
-        "total": 9,
-        "pending": 4,
+        "name": "Portekiz Kupa 1.Tur :: 2.5 Alt",
+        "total": 12,
+        "pending": 7,
         "won": 1,
         "lost": 4,
         "void": 0,
@@ -350,9 +361,9 @@
         "confidence_adjustment": -5
       },
       {
-        "name": "Portekiz Kupa 1.Tur :: 2.5 Alt",
-        "total": 8,
-        "pending": 3,
+        "name": "İtalya Serie B :: 2.5 Alt",
+        "total": 9,
+        "pending": 4,
         "won": 1,
         "lost": 4,
         "void": 0,
@@ -372,6 +383,17 @@
         "confidence_adjustment": -5
       },
       {
+        "name": "ABD USL :: 2.5 Üst",
+        "total": 11,
+        "pending": 6,
+        "won": 1,
+        "lost": 4,
+        "void": 0,
+        "success_rate": 0.2,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
         "name": "UEFA Konferans Ligi Play Off :: 2.5 Alt",
         "total": 11,
         "pending": 6,
@@ -381,6 +403,17 @@
         "success_rate": 0.4,
         "weight": 0.88,
         "confidence_adjustment": -5
+      },
+      {
+        "name": "ABD MLS :: MS 1",
+        "total": 17,
+        "pending": 10,
+        "won": 3,
+        "lost": 4,
+        "void": 0,
+        "success_rate": 0.429,
+        "weight": 0.94,
+        "confidence_adjustment": -2
       },
       {
         "name": "İngiltere 2.Lig :: 2.5 Alt",
