@@ -34,15 +34,12 @@
 
   const normalizeMembership = (value = {}) => {
     const membership = value && typeof value === "object" ? value : {};
-    const rawRemaining = membership.remainingAnalysisCount ?? membership.remaining_analysis_count;
-    const remaining = rawRemaining === null || rawRemaining === undefined || rawRemaining === ""
-      ? null
-      : Number(rawRemaining);
     return {
       ...membership,
       planCode: String(membership.planCode ?? membership.plan_code ?? "").trim(),
       planName: String(membership.planName ?? membership.plan_name ?? "Üyelik").trim() || "Üyelik",
-      remainingAnalysisCount: Number.isFinite(remaining) ? remaining : null,
+      remainingAnalysisCount: 9999,
+      unlimited: true,
       expiresAt: membership.expiresAt ?? membership.expires_at ?? "",
       active: membership.active !== false,
     };
@@ -128,7 +125,7 @@
         ? new Date(member.expiresAt).toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" })
         : "24 saat sonra";
       box.innerHTML = `<strong>${esc(member.planName || "1 Günlük Deneme")} aktif.</strong><br>` +
-        `Bitiş: ${esc(end)}<br>Kalan özel analiz hakkı: <strong>${esc(member.remainingAnalysisCount ?? "-")}</strong>` +
+        `Bitiş: ${esc(end)}<br>Analiz kullanımı: <strong>Sınırsız</strong>` +
         (data.resumed ? "<br><small>Mevcut aktif denemen yeniden açıldı.</small>" : "<br><small>Deneme hakkın sunucuda kaydedildi.</small>");
       document.dispatchEvent(new CustomEvent("fl:trial-access-started", { detail: { membership: member, serverControlled: true } }));
     } catch (error) {
@@ -163,7 +160,7 @@
 
     const oldText = button.textContent;
     button.disabled = true;
-    button.textContent = "PRO veri ve hak kontrol ediliyor...";
+    button.textContent = "PRO veri ve üyelik kontrol ediliyor...";
     try {
       if (!window.FLProAnalysisAccess?.refresh) {
         throw new Error("Korumalı analiz modülü henüz hazır değil. Lütfen birkaç saniye sonra yeniden dene.");
@@ -171,16 +168,7 @@
       await window.FLProAnalysisAccess.refresh(code);
       const data = await request(CONSUME_URL, { code, clientId: getClientId() });
       const membership = normalizeMembership(data.membership);
-      const serverRemaining = Number(membership.remainingAnalysisCount);
-
-      // Mevcut analiz paneli sonucu oluşturmaya devam etsin. Panel kendi yerel
-      // sayacını 1 azaltacağı için bir fazlasını geçici olarak yazarız; sonuç
-      // ekrana geldiğinde görünen değer sunucudaki gerçek kalan hakla eşleşir.
-      const localMembership = {
-        ...membership,
-        remainingAnalysisCount: Number.isFinite(serverRemaining) ? serverRemaining + 1 : membership.remainingAnalysisCount,
-      };
-      localStorage.setItem(MEMBER_KEY, JSON.stringify(localMembership));
+      localStorage.setItem(MEMBER_KEY, JSON.stringify(membership));
       localStorage.setItem(ACCESS_KEY, "1");
 
       analyzeBypass = true;
@@ -188,8 +176,8 @@
       button.textContent = oldText;
       button.click();
     } catch (error) {
-      const message = String(error?.message || "Analiz hakkı kullanılamadı.");
-      if (/süresi dol|aktif değil|geçersiz|hakk[ıi].*kalma/i.test(message)) clearInvalidAccess();
+      const message = String(error?.message || "Analiz başlatılamadı.");
+      if (/süresi dol|aktif değil|geçersiz/i.test(message)) clearInvalidAccess();
       if (document.querySelector("#premium-analysis-panel[data-pa3-root]")) {
         window.dispatchEvent(new CustomEvent("fl:premium-access-error", { detail: { message } }));
       } else if (resultBox) {
@@ -229,7 +217,7 @@
       return;
     }
 
-    // Analiz oluşmadan hak tüketme: kullanıcı en az bir gerçek maç seçmiş olmalı.
+    // Kullanıcı en az bir gerçek maç seçmiş olmalı.
     // Seçim yoksa mevcut panel kendi "En az 1 maç seç" uyarısını gösterebilir.
     const matchSelect = document.querySelector("#premium-analysis-panel [data-pa-match]");
     const hasSelection = Array.from(matchSelect?.selectedOptions || [])
