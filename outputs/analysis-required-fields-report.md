@@ -1,9 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 445
-Tam analiz: 414
-Eksik analiz: 31
+Toplam analiz: 426
+Tam analiz: 394
+Eksik analiz: 32
 
 - Union Omaha VS New York Cosmos: eksik score, confidence
 - Moreland Zebra VS Manningham Unit: eksik score, confidence
@@ -24,4 +24,4 @@ Eksik analiz: 31
 - Viktoria Plzen VS Slovacko: eksik score, confidence
 - Viking VS Aalesund: eksik score, confidence
 - Slovan Bratisl VS Zemplin: eksik score, confidence
-- Cigand Se VS Tarpa: eksik score, confidence
+- Man. Utd VS Ipswich: eksik score, confidence

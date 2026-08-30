@@ -2,39 +2,15 @@
 
 Gunler: 2026-08-30 / 2026-08-31
 Kaynak: fixtures.json
-Ham mac: 450
-Aktif mac: 395
+Ham mac: 426
+Aktif mac: 371
 Canli mac: 0
 Biten mac: 0
 Bultenden dusurulen mac: 55
-Bugun: 357
+Bugun: 333
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-30 05:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Alajuelense | scheduled | -
-- 2026-08-30 05:00 | ABD USL | Monterey Bay - Sacramento Repu | scheduled | -
-- 2026-08-30 05:30 | ABD MLS | San Diego - Los Angeles | scheduled | -
-- 2026-08-30 05:30 | ABD MLS | Portland - Austin | scheduled | -
-- 2026-08-30 05:30 | ABD USL | Phoenix Rising - Indy Eleven | scheduled | -
-- 2026-08-30 05:30 | ABD USL | Las Vegas Ligh - Charleston Batt | scheduled | -
-- 2026-08-30 06:10 | Meksika Liga MX Apertura | Santos Laguna - Tigres Uanl | scheduled | -
-- 2026-08-30 07:00 | Avustralya NPL Kuzey YGG Play-Off 1.Tur | Wallsend (6) - (6) Newcastle Croat | scheduled | -
-- 2026-08-30 08:00 | Rusya FNL | Ska-Khabarovsk - Torpedo Moskova | scheduled | -
-- 2026-08-30 08:00 | Avustralya NPL Yeni Güney Galler | Sydney United - St. George Sain | scheduled | -
-- 2026-08-30 08:00 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - Sd Raiders | scheduled | -
-- 2026-08-30 08:00 | Avustralya NPL Yeni Güney Galler | Apia - St George City | scheduled | -
-- 2026-08-30 08:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Sydney Ii | scheduled | -
-- 2026-08-30 08:00 | Avustralya NPL Yeni Güney Galler | Rockdale Cs - Unsw Fc | scheduled | -
-- 2026-08-30 08:00 | Avustralya NPL Yeni Güney Galler | Wollongong Wol - Manly United | scheduled | -
-- 2026-08-30 08:00 | Avustralya NPL Yeni Güney Galler | Blacktown City - Western Sydney | scheduled | -
-- 2026-08-30 08:00 | Avustralya NPL Yeni Güney Galler | Marconi - Nws Spirit | scheduled | -
-- 2026-08-30 08:00 | Avustralya Victoria NPL 1 | Moreland Zebra - Manningham Unit | scheduled | -
-- 2026-08-30 08:00 | Avustralya Victoria NPL 1 | Brunswick City - Melbourne Srbij | scheduled | -
-- 2026-08-30 08:00 | Avustralya Victoria NPL 1 | Bulleen Lions - Northcote City | scheduled | -
-- 2026-08-30 08:00 | Avustralya Victoria NPL 1 | Melbourne Vict - Port Melbourne | scheduled | -
-- 2026-08-30 08:00 | Avustralya Victoria NPL 1 | Langwarrin - North Geelong | scheduled | -
-- 2026-08-30 08:00 | Avustralya Victoria NPL 1 | Eltham Redback - Melbourne Knigh | scheduled | -
-- 2026-08-30 09:00 | Avustralya NPL Kuzey YGG Yarı Final | Maitland - Edgeworth Eagle | scheduled | -
 - 2026-08-30 10:00 | Avustralya NPL Queensland Yarı Final | Queensland Lio - Peninsula Power | scheduled | -
 - 2026-08-30 11:00 | Hong Kong Premier Lig | Wofoo Tai Po - Eastern | scheduled | -
 - 2026-08-30 11:00 | Güney Kore K3 Ligi | Siheung Citize - Pocheon | scheduled | -

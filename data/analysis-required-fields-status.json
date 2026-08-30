@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T00:27:50.845Z",
-  "total": 445,
-  "ok_count": 414,
-  "bad_count": 31,
+  "generated_at": "2026-08-30T06:50:07.331Z",
+  "total": 426,
+  "ok_count": 394,
+  "bad_count": 32,
   "status": "warning",
   "bad_examples": [
     {
@@ -223,6 +223,18 @@
     },
     {
       "match": "Slovan Bratisl VS Zemplin",
+      "market": "Değerli market yok",
+      "score": 0,
+      "confidence": 0,
+      "risk": "Yüksek",
+      "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Markete özel olasılık ve veri doğrulaması oluşmadı.",
+      "missing": [
+        "score",
+        "confidence"
+      ]
+    },
+    {
+      "match": "Man. Utd VS Ipswich",
       "market": "Değerli market yok",
       "score": 0,
       "confidence": 0,

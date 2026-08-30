@@ -2,40 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-30T01:36:32.035Z
+- Güncelleme: 2026-08-30T06:50:05.292Z
 - Ham maç sayısı: 426
 - Yarın bülteni maç sayısı: 38
 - Detay blok sayısı: 1181
-- Aktif bülten maçı: 395
-- Bültenden düşürülen maç: 31
+- Aktif bülten maçı: 371
+- Bültenden düşürülen maç: 55
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Perez Zeledon - Alajuelense | Kosta Rika Premier Lig Apertura | 05:00 | Veri bekleniyor | - | 3.46 | 8 |
-| Monterey Bay - Sacramento Repu | ABD USL | 05:00 | Veri bekleniyor | - | 3.23 | 8 |
-| San Diego - Los Angeles | ABD MLS | 05:30 | Veri bekleniyor | - | 1.52 | 8 |
-| Portland - Austin | ABD MLS | 05:30 | Veri bekleniyor | - | 1.4 | 8 |
-| Phoenix Rising - Indy Eleven | ABD USL | 05:30 | Veri bekleniyor | - | 1.75 | 8 |
-| Las Vegas Ligh - Charleston Batt | ABD USL | 05:30 | Veri bekleniyor | - | 2.87 | 8 |
-| Santos Laguna - Tigres Uanl | Meksika Liga MX Apertura | 06:10 | Veri bekleniyor | - | 3.75 | 8 |
-| Wallsend (6) - (6) Newcastle Croat | Avustralya NPL Kuzey YGG Play-Off 1.Tur | 07:00 | Veri bekleniyor | - | 1.88 | 6 |
-| Ska-Khabarovsk - Torpedo Moskova | Rusya FNL | 08:00 | Veri bekleniyor | - | 5.09 | 7 |
-| Sydney United - St. George Sain | Avustralya NPL Yeni Güney Galler | 08:00 | Veri bekleniyor | - | 1.09 | 6 |
-| Sutherland Sha - Sd Raiders | Avustralya NPL Yeni Güney Galler | 08:00 | Veri bekleniyor | - | 2.83 | 8 |
-| Apia - St George City | Avustralya NPL Yeni Güney Galler | 08:00 | Veri bekleniyor | - | 1.31 | 7 |
-| Sydney Olympic - Sydney Ii | Avustralya NPL Yeni Güney Galler | 08:00 | Veri bekleniyor | - | 3.42 | 8 |
-| Rockdale Cs - Unsw Fc | Avustralya NPL Yeni Güney Galler | 08:00 | Veri bekleniyor | - | 1.47 | 6 |
-| Wollongong Wol - Manly United | Avustralya NPL Yeni Güney Galler | 08:00 | Veri bekleniyor | - | 2.28 | 8 |
-| Blacktown City - Western Sydney | Avustralya NPL Yeni Güney Galler | 08:00 | Veri bekleniyor | - | 1.57 | 6 |
-| Marconi - Nws Spirit | Avustralya NPL Yeni Güney Galler | 08:00 | Veri bekleniyor | - | 1.38 | 7 |
-| Moreland Zebra - Manningham Unit | Avustralya Victoria NPL 1 | 08:00 | Veri bekleniyor | - | 1.08 | 4 |
-| Brunswick City - Melbourne Srbij | Avustralya Victoria NPL 1 | 08:00 | Veri bekleniyor | - | 2.21 | 6 |
-| Bulleen Lions - Northcote City | Avustralya Victoria NPL 1 | 08:00 | Veri bekleniyor | - | 2.18 | 8 |
-| Melbourne Vict - Port Melbourne | Avustralya Victoria NPL 1 | 08:00 | Veri bekleniyor | - | - | 3 |
-| Langwarrin - North Geelong | Avustralya Victoria NPL 1 | 08:00 | Veri bekleniyor | - | 1.72 | 6 |
-| Eltham Redback - Melbourne Knigh | Avustralya Victoria NPL 1 | 08:00 | Veri bekleniyor | - | 1.72 | 6 |
-| Maitland - Edgeworth Eagle | Avustralya NPL Kuzey YGG Yarı Final | 09:00 | Veri bekleniyor | - | 2.33 | 8 |
 | Queensland Lio - Peninsula Power | Avustralya NPL Queensland Yarı Final | 10:00 | Veri bekleniyor | - | 1.68 | 8 |
 | Wofoo Tai Po - Eastern | Hong Kong Premier Lig | 11:00 | Veri bekleniyor | - | 1.83 | 8 |
 | Siheung Citize - Pocheon | Güney Kore K3 Ligi | 11:00 | Veri bekleniyor | - | 2.2 | 8 |
@@ -142,7 +118,7 @@
 | Trygg/Lade - Skeid | Norveç 2.Lig Grup 2 | 16:00 | Veri bekleniyor | - | 2.53 | 8 |
 | Levanger - Lorenskog | Norveç 2.Lig Grup 2 | 16:00 | Veri bekleniyor | - | 1.37 | 7 |
 | Golden Arrows (1) - (0) Mamelodi Sundow | Güney Afrika 8 Kupası Yarı Final | 16:00 | Veri bekleniyor | - | 4.24 | 7 |
-| Freiburg - Werder Bremen | Almanya Bundesliga | 16:30 | Veri bekleniyor | - | 1.71 | 8 |
+| Freiburg - Werder Bremen | Almanya Bundesliga | 16:30 | Veri bekleniyor | - | 1.7 | 8 |
 | Hatta Dubai - Al Sharjah | Birleşik Arap Emirlikleri Arap Körfez Ligi | 16:55 | Veri bekleniyor | - | 4.38 | 7 |
 | Al Nahda - Al Musannah | Umman Profesyonel Lig | 16:55 | Veri bekleniyor | - | 1.47 | 7 |
 | Antwerp - St. Truidense | Belçika Pro Lig | 17:00 | Veri bekleniyor | - | 2.21 | 8 |
@@ -308,7 +284,7 @@
 | Antequera - Ud Ibiza | İspanya Primera Lig RFEF Grup 2 | 20:15 | Veri bekleniyor | - | 2.73 | 8 |
 | Cd Aguilas - Alcorcon | İspanya Primera Lig RFEF Grup 2 | 20:15 | Veri bekleniyor | - | 2.26 | 8 |
 | Atl Madrid Ii - Juventud Torrem | İspanya Primera Lig RFEF Grup 2 | 20:15 | Veri bekleniyor | - | 1.69 | 8 |
-| D.La Coruna - Valencia | İspanya LaLiga | 20:30 | Veri bekleniyor | - | 2.26 | 8 |
+| D.La Coruna - Valencia | İspanya LaLiga | 20:30 | Veri bekleniyor | - | 2.27 | 8 |
 | Viktoria Köln - Preussen Munste | Almanya 3. Lig | 20:30 | Veri bekleniyor | - | 1.93 | 8 |
 | Gornik Leczna - Rekord Bielsko | Polonya 2.Lig | 20:30 | Veri bekleniyor | - | 1.84 | 8 |
 | Al-Jahra - Al Arabi | Kuveyt Premier Lig | 20:55 | Veri bekleniyor | - | 10.4 | 6 |
