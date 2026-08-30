@@ -516,8 +516,11 @@
       status.textContent = message;
       status.dataset.kind = "info";
     }
-    drawer.scrollIntoView({ behavior: "smooth", block: "center" });
-    if (!membershipState().active) setTimeout(() => query("[data-pa3-code]")?.focus(), 250);
+    window.dispatchEvent(new CustomEvent("fl:open-panel", { detail: { id: "premium-analysis-panel", scroll: false } }));
+    setTimeout(() => {
+      drawer.scrollIntoView({ behavior: "smooth", block: "center" });
+      if (!membershipState().active) query("[data-pa3-code]")?.focus();
+    }, 80);
   };
 
   const resetProtectedAccess = () => {

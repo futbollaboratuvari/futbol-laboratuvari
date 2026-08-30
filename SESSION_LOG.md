@@ -9,6 +9,7 @@ Summary:
 - Eski “Kodu Kontrol Et ve Analiz Et” birleşik işlemi kaldırıldı. Kod doğrulama PRO verisini güvenli sunucudan açar fakat analiz hakkı tüketmez; hak yalnız gerçek analiz oluşturulurken sunucuda düşer.
 - Kod girişine göster/gizle kontrolü, doğrulama yükleme ve hata durumları eklendi. Aktif durumda paket adı, kalan hak, maskeli kod, “Analize Başla” ve “Kodu Değiştir” gösterilir.
 - Ödeme onayı ekranına “Kodu Kullan ve Özel Analize Git” geçişi eklendi; kod URL veya statik sayfa kaynağına yazılmaz.
+- Canlı ilk kontrolde yeni menü hedefinin Özel Analiz ana panelini açmadan gizli alt karta kaydığı görüldü. Menü/doğrudan hash ve ödeme geçişleri ana paneli önce açacak şekilde düzeltildi.
 - Supabase snake_case üyelik alanları normalize edildi ve iki kez hak düşme riski giderildi. Hakkı sıfır olan üyelikte korumalı PRO yanıtı sunucu tarafından 403 ile engellenir.
 - JavaScript sözdizimi, premium, kupon uygunluğu, performans, güvenlik/yasal ve tam üretim paketi kontrolleri geçti. Build sırasında yenilenen veri çıktıları geri alındı; bülten/robot/kupon verileri çalışmanın parçası olarak değiştirilmedi.
 

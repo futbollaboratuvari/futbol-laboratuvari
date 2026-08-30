@@ -10,6 +10,7 @@ Current membership-code state:
 - Aktif üyelik kartı paket adını, kalan analiz hakkını ve kodun yalnız son dört karakterini gösterir. “Analize Başla” ve “Kodu Değiştir” ayrı işlemlerdir.
 - Kod göster/gizle kontrolü, klavyede Enter ile doğrulama, yükleme/hata durumları ve mobil tek sütun görünümü eklendi.
 - Ödeme onayından sonra “Kodu Kullan ve Özel Analize Git” düğmesi kodu URL'ye yazmadan aynı doğrulama bileşenine aktarır.
+- Menü, doğrudan hash ve ödeme sonrası geçişler önce Özel Analiz ana panelini açıp ardından kod kartına kaydırır; panel kapalıyken görünmez hedefe gitme durumu engellendi.
 - Supabase'in snake_case üyelik yanıtları ortak istemci biçimine dönüştürülür; kalan hak iki kez düşmez. Hakkı bitmiş üyelik kodu `/api/pro-analysis` üzerinden korumalı PRO verisini alamaz.
 - Bülten, canlı maç, kupon, Spor Toto ve otomatik veri üretim dosyaları değiştirilmedi. Güvenlik, premium, performans ve üretim paketi kontrolleri başarılıdır.
 

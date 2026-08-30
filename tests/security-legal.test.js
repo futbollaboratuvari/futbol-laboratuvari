@@ -143,6 +143,7 @@ function testStaticProtectionAndConsent() {
   const payment = read("bank-transfer-payment.js");
   const legalProfile = read("legal-seller-profile.js");
   const daily = read("daily-matches-widget.js");
+  const navigation = read("nav-routing.js");
   const pagesWorkflow = read(".github/workflows/deploy-pages.yml");
   const { sanitizePublicLive } = require("../scripts/sanitize-public-live");
   const htmlFiles = fs.readdirSync(root).filter((name) => name.endsWith(".html"));
@@ -161,6 +162,9 @@ function testStaticProtectionAndConsent() {
   assert.match(premium, /fl:membership-code-received/);
   assert.match(premium, /Kod doğrulama sırasında analiz hakkı kullanılmadı/);
   assert.match(premium, /storeVerifiedMembership\(payload\.membership, normalized\)/);
+  assert.match(navigation, /parentPanelForHash/);
+  assert.match(navigation, /#membership-code-access.*#premium-analysis-panel/);
+  assert.match(premium, /id: "premium-analysis-panel", scroll: false/);
   assert.match(payment, /futbol-laboratuvari\.vercel\.app/);
   assert.match(payment, /Kodu Kullan ve Özel Analize Git/);
   assert.match(legalProfile, /futbol-laboratuvari\.vercel\.app/);

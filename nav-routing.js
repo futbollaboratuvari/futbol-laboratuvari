@@ -76,12 +76,14 @@
 
   const resolveHash = (hash) => hash === "#yaklasan-maclar" ? "#daily-matches-widget" : hash;
   const panelHashes = new Set(["#daily-matches-widget", "#robot-analizleri", "#membership-payment-panel", "#premium-analysis-panel"]);
+  const parentPanelForHash = new Map([["#membership-code-access", "#premium-analysis-panel"]]);
   const headerOffset = () => (document.querySelector(".site-header")?.offsetHeight || 0) + 18;
 
   const goToSection = (hash, updateHistory = true) => {
     const targetHash = resolveHash(hash);
-    if (panelHashes.has(targetHash)) {
-      window.dispatchEvent(new CustomEvent("fl:open-panel", { detail: { id: targetHash.slice(1), scroll: true } }));
+    const panelHash = parentPanelForHash.get(targetHash) || targetHash;
+    if (panelHashes.has(panelHash)) {
+      window.dispatchEvent(new CustomEvent("fl:open-panel", { detail: { id: panelHash.slice(1), scroll: true } }));
     }
     const target = document.querySelector(targetHash);
     if (!target) {
