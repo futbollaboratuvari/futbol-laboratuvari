@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 30.08.2026 10:25:57
+Oluşturma: 30.08.2026 16:01:18
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1200
-- Kazanan tahmin: 151
-- Kaybeden tahmin: 149
-- Lig sayısı: 204
+- Bekleyen tahmin: 1208
+- Kazanan tahmin: 148
+- Kaybeden tahmin: 144
+- Lig sayısı: 205
 - Seçenek sayısı: 7
 
 ## Öğrenme Mantığı
@@ -22,27 +22,27 @@ Oluşturma: 30.08.2026 10:25:57
 
 - KG Var: toplam 2, bekleyen 1, başarı %100, ağırlık 1
 - MS X: toplam 2, bekleyen 1, başarı %100, ağırlık 1
-- 2.5 Üst: toplam 192, bekleyen 125, başarı %61, ağırlık 1.06
-- MS 1: toplam 495, bekleyen 426, başarı %51, ağırlık 1
-- 2.5 Alt: toplam 605, bekleyen 468, başarı %45, ağırlık 0.94
-- MS 2: toplam 203, bekleyen 178, başarı %44, ağırlık 0.94
+- 2.5 Üst: toplam 189, bekleyen 124, başarı %63, ağırlık 1.12
+- MS 1: toplam 498, bekleyen 431, başarı %51, ağırlık 1
+- 2.5 Alt: toplam 601, bekleyen 466, başarı %45, ağırlık 0.94
+- MS 2: toplam 207, bekleyen 184, başarı %44, ağırlık 0.94
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-30 | Kolombiya Primera A Clausura | Rionegro Aguil - Chico | MS 1 | pending | 59/100
-- 2026-08-30 | Avusturya Bundesliga | Hartberg - Ried | 2.5 Üst | pending | 60/100
-- 2026-08-30 | Kolombiya Primera A Clausura | Alianza Petrol - Atletico Nacion | 2.5 Üst | pending | 74/100
-- 2026-08-30 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Alajuelense | 2.5 Alt | pending | 54/100
-- 2026-08-30 | ABD USL | Las Vegas Ligh - Charleston Batt | 2.5 Alt | pending | 54/100
-- 2026-08-30 | Meksika Liga MX Apertura | Santos Laguna - Tigres Uanl | 2.5 Alt | pending | 45/100
-- 2026-08-30 | ABD USL | Louisville Cit - Detroit City | 2.5 Alt | pending | 55/100
-- 2026-08-30 | ABD USL | Oakland Roots - Orange County B | 2.5 Alt | pending | 53/100
-- 2026-08-30 | Peru Premier Lig Clausura | Alianza Lima - Deportivo Garci | 2.5 Alt | pending | 55/100
-- 2026-08-30 | ABD USL | Lexington - Colorado Spring | 2.5 Alt | pending | 53/100
-- 2026-08-30 | ABD USL Lig 1 | Richmond Kicke - Forward Madison | 2.5 Alt | pending | 49/100
-- 2026-08-30 | ABD USL Lig 1 | Westchester Sc - Spokane Velocit | MS 2 | pending | 41/100
-- 2026-08-30 | Kolombiya Primera A Clausura | Jaguares - America De Cali | 2.5 Üst | pending | 72/100
-- 2026-08-30 | Kolombiya Primera A Clausura | Los Millionari - Inter Bogota | MS 1 | pending | 60/100
-- 2026-08-30 | Şili Premier Lig | Univ De Concep - Univ. De Şili | MS 2 | pending | 48/100
+- 2026-08-30 | Nikaragua Premier Lig Apertura | San Marcos - Walter Ferretti | MS 2 | pending | 46/100
+- 2026-08-30 | Honduras Ulusal Lig Apertura | Real Espana - Choloma | MS 1 | pending | 60/100
+- 2026-08-30 | Sırbistan Süper Lig | Imt Novi Beogr - Mladost Lucani | MS 1 | pending | 55/100
+- 2026-08-30 | Yunanistan Süper Lig | Asteras Tripol - Olympiakos | MS 2 | pending | 52/100
+- 2026-08-30 | Irak Premier Lig | Al Shorta - Al Mosul | 2.5 Alt | pending | 49/100
+- 2026-08-30 | Türkiye Süper Lig | Samsunspor - Fenerbahçe | 2.5 Üst | pending | 61/100
+- 2026-08-30 | Moldova Ulusal Lig | Dacia-Buiucani - Milsami-Ursidos | MS 2 | pending | 47/100
+- 2026-08-30 | İzlanda Urvalsdeild | Hafnarfjordur - Keflavik | MS 2 | pending | 40/100
+- 2026-08-30 | Yunanistan Süper Lig | Atromitos - Paok | 2.5 Alt | pending | 51/100
+- 2026-08-30 | Norveç Eliteserien | Lillestrom - Fredrikstad | 2.5 Üst | pending | 59/100
+- 2026-08-30 | Portekiz Kupa 1.Tur | Rebordosa Ac - Alpendorada | MS 1 | pending | 44/100
+- 2026-08-30 | Irak Premier Lig | Al Karma - Karbala | 2.5 Alt | pending | 47/100
+- 2026-08-30 | Irak Premier Lig | Newroz - Duhok | 2.5 Alt | pending | 50/100
+- 2026-08-30 | Portekiz Kupa 1.Tur | Sporting Covil - Mortagua Fc | 2.5 Alt | pending | 35/100
+- 2026-08-30 | Portekiz Kupa 1.Tur | Ad Nogueirense - Naval 1893 | 2.5 Alt | pending | 31/100
 

@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 379
+- Scheduled match count: 276
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-08-30 / 2026-08-31 23:59
 
-- 2026-08-30 11:00 | Siheung Citize - Pocheon | scheduled
-- 2026-08-30 11:00 | Wofoo Tai Po - Eastern | scheduled
-- 2026-08-30 11:15 | Slavia Praha I - Opava | scheduled
-- 2026-08-30 11:30 | Strum Graz Ii - Rapid Vienna (A | scheduled
-- 2026-08-30 11:30 | Petrzalka - Liptovsky Mikul | scheduled
-- 2026-08-30 11:30 | Slovan Bratisl - Povazska Bystri | scheduled
-- 2026-08-30 12:00 | Gira Kitakyush - Matsumoto Yamag | scheduled
-- 2026-08-30 12:00 | Parceiro Nagan - Kusatsu Gunma | scheduled
-- 2026-08-30 12:00 | Albirex Niigat - Mynavi Sendai ( | scheduled
-- 2026-08-30 12:00 | Elfen Saitama - Inac Kobe Leone | scheduled
+- 2026-08-30 16:30 | Freiburg - Werder Bremen | scheduled
+- 2026-08-30 16:55 | Hatta Dubai - Al Sharjah | scheduled
+- 2026-08-30 16:55 | Al Nahda - Al Musannah | scheduled
+- 2026-08-30 17:00 | Bayer Leverkus - Wolfsburg (K) | scheduled
+- 2026-08-30 17:00 | Kapaz - Turan | scheduled
+- 2026-08-30 17:00 | Excelsior Virt - Francs Borains | scheduled
+- 2026-08-30 17:00 | Antwerp - St. Truidense | scheduled
+- 2026-08-30 17:00 | Atletico Pr - Fluminense | scheduled
+- 2026-08-30 17:00 | Randers - Aarhus | scheduled
+- 2026-08-30 17:00 | Flora Tallinn - Paide Linnamees | scheduled
