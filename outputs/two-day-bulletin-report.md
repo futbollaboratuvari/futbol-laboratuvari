@@ -2,109 +2,15 @@
 
 Gunler: 2026-08-31 / 2026-09-01
 Kaynak: fixtures.json
-Ham mac: 221
-Aktif mac: 183
+Ham mac: 183
+Aktif mac: 89
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 38
-Bugun: 169
+Bultenden dusurulen mac: 94
+Bugun: 75
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-08-31 15:00 | AFC Şampiyonlar Ligi 2 Ön Eleme Turu | Persib - Manila Digger | scheduled | -
-- 2026-08-31 15:00 | İngiltere Professional Development Lig | Bolton U21 - Coventry City U | scheduled | -
-- 2026-08-31 15:00 | İngiltere Premier Lig 2 | Bournemouth U2 - Middlesbrough ( | scheduled | -
-- 2026-08-31 15:00 | İngiltere Premier Lig 2 | Derby County U - West Brom (B) | scheduled | -
-- 2026-08-31 15:00 | İngiltere Premier Lig 2 | Brentford U21 - Sunderland (B) | scheduled | -
-- 2026-08-31 15:00 | İngiltere Premier Lig 2 | Chelsea (B) - West Ham (B) | scheduled | -
-- 2026-08-31 15:00 | Kenya Premier Lig | Mathare - Aps Bomet | scheduled | -
-- 2026-08-31 16:00 | İngiltere Premier Lig 2 | Tottenham U21 - Birmingham City | scheduled | -
-- 2026-08-31 16:00 | İngiltere Premier Lig 2 | Manchester Uni - Leicester (B) | scheduled | -
-- 2026-08-31 16:30 | Galler Premier Lig 1.Aşama | Briton Ferry - Barry Town | scheduled | -
-- 2026-08-31 16:30 | Galler Premier Lig 1.Aşama | Flint Town - Gap Connahs Qua | scheduled | -
-- 2026-08-31 16:30 | Galler Premier Lig 1.Aşama | Cambrian - Penybont | scheduled | -
-- 2026-08-31 16:30 | Galler Premier Lig 1.Aşama | Airbus Uk - Holywell Town | scheduled | -
-- 2026-08-31 16:30 | Galler Premier Lig 1.Aşama | Haverfordwest - Trefelin | scheduled | -
-- 2026-08-31 16:30 | Galler Premier Lig 1.Aşama | Ammanford - Cardiff Mu | scheduled | -
-- 2026-08-31 16:30 | Galler FAW Championship Güney | Pontypridd Tow - Llantwit Major | scheduled | -
-- 2026-08-31 16:30 | Galler FAW Championship Güney | Aberystwyth To - Llanelli Town | scheduled | -
-- 2026-08-31 16:30 | Galler FAW Championship Güney | Newport City - Swansea Univers | scheduled | -
-- 2026-08-31 16:30 | Galler FAW Championship Güney | Carmarthen - Trethomas Blueb | scheduled | -
-- 2026-08-31 16:30 | Galler FAW Championship Güney | Cardiff Dracon - Pontardawe | scheduled | -
-- 2026-08-31 16:30 | Galler FAW Championship Güney | Afan Lido - Ynyshir Albions | scheduled | -
-- 2026-08-31 16:30 | Galler FAW Championship Güney | Baglan Dragons - Caerphilly Athl | scheduled | -
-- 2026-08-31 16:30 | Galler FAW Championship Güney | Caerau Ely - Treowen Stars | scheduled | -
-- 2026-08-31 16:40 | Umman Profesyonel Lig | Oman Fc - Dhofar Scsc | scheduled | -
-- 2026-08-31 16:45 | Umman Profesyonel Lig | Smail - Saham | scheduled | -
-- 2026-08-31 17:00 | Azerbaycan Premier Lig | Araz - Sabah | scheduled | -
-- 2026-08-31 17:00 | Galler Premier Lig 1.Aşama | Caernarfon - The New Saints | scheduled | -
-- 2026-08-31 17:00 | Mısır Premier Lig | Asyut Petroleu - National Bank O | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig | Kidderminster - Barrow | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig | Sutton United - Wealdstone | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig | Carlisle - Scunthorpe | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig | Boston United - Hornchurch | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig | Harrogate - Gateshead | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig | Solihull Moors - Afc Fylde | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig | Woking - Southend | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig | Yeovil - Tamworth | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig | Worthing - Boreham Wood | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig | Forest Green - Altrincham | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig | Eastleigh - Aldershot | scheduled | -
-- 2026-08-31 17:00 | Kazakistan Premier Lig | Yelimay Semey - Kairat Almaty | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Kuzey | Chorley - Brackley Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Kuzey | Telford - Bedford Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Kuzey | Harborough Tow - Marine | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Kuzey | Gateshead(Sout - Spalding United | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Kuzey | Spennymoor - Hednesford Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Kuzey | Lynn Town - Scarborough Ath | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Kuzey | Buxton - Merthyr Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Kuzey | Worksop Town - Oxford City | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Kuzey | Southport - Hereford Fc | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Kuzey | Chester - Morecambe | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Kuzey | Radcliffe Boro - Darlington 1883 | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Kuzey | Macclesfield - Hebburn Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Güney | Maidenhead Utd - Afc Totton | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Güney | Folkestone Inv - Hemel | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Güney | Dorking Wand. - Truro City | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Güney | Braintree - Farnborough | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Güney | Weston-S-Mare - Chelmsford | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Güney | Dagenham & Red - Slough Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Güney | Farnham Town - Torquay | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Güney | Salisbury - Billericay Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Güney | Hampton Richmo - Maidstone Unite | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Güney | Tonbridge Ange - Walton And Hers | scheduled | -
-- 2026-08-31 17:00 | İngiltere Ulusal Lig N / S Güney | Chesham United - Dover Athletic | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Kuzey | Ilkeston Town - Quorn | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Kuzey | Whitby Town - Alfreton | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Kuzey | Rylands - Bamber Bridge | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Kuzey | United Of Manc - Avro | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Kuzey | Curzon Ashton - Ashton United | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Kuzey | Gainsborough T - Cleethorpes Tow | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Kuzey | Stockton Town - Redcar Athletic | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Kuzey | Lancaster City - Workington | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Kuzey | Hyde - Bury | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Kuzey | Afc Emley - Guiseley | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney | Plymouth Parkw - Poole Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney | Sholing - Gosport Borough | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney | Malvern Town - Chippenham Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney | Basingstoke - Bracknell Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney | Berkhamsted - Hanwell | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney | Yate Town - Taunton Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney | Frome Town - Bath City | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney | Gloucester Cit - Evesham United | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney | Uxbridge - Wimborne Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney | Hanworth Villa - Chertsey Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney | Chichester Cit - Havant And W. | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney Merkez | Redditch Unite - Halesowen Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney Merkez | Real Bedford - Leighton Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney Merkez | Racing Club Wa - Stratford Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney Merkez | Bury Town - Leiston | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney Merkez | Needham Market - Peterborough Sp | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney Merkez | Kettering - Stamford | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney Merkez | Rushall Olympi - Alvechurch | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney Merkez | Bishops Stortf - Hitchin Town | scheduled | -
-- 2026-08-31 17:00 | İngiltere Non League Premier Güney Merkez | Worcester City - Bromsgrove Spor | scheduled | -
-- 2026-08-31 17:00 | Portekiz U23 Ulusal Şampiyona | Torreense U23 - Sporting Braga | scheduled | -
 - 2026-08-31 17:30 | Letonya Virsliga | Liepaja - Riga Fc | scheduled | -
 - 2026-08-31 18:00 | Ukrayna Premier Lig | Bukovyna - Dynamo Kiev | scheduled | -
 - 2026-08-31 18:00 | Gürcistan Erovnuli Liga | Torpedo Kutais - Meshakhte | scheduled | -
