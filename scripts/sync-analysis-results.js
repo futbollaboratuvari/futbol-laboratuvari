@@ -185,6 +185,15 @@ function buildPerformance(memory) {
   const brierScore = probabilityRows.length
     ? probabilityRows.reduce((sum, item) => sum + (((item.probability / 100) - item.outcome) ** 2), 0) / probabilityRows.length
     : null;
+  const probabilityBaseRate = probabilityRows.length
+    ? probabilityRows.reduce((sum, item) => sum + item.outcome, 0) / probabilityRows.length
+    : null;
+  const baselineBrierScore = probabilityBaseRate === null
+    ? null
+    : probabilityBaseRate * (1 - probabilityBaseRate);
+  const brierSkillScore = brierScore !== null && baselineBrierScore > 0
+    ? 1 - (brierScore / baselineBrierScore)
+    : null;
   const calibrationMap = new Map();
   probabilityRows.forEach((item) => {
     const lower = Math.min(90, Math.floor(item.probability / 10) * 10);
@@ -224,6 +233,8 @@ function buildPerformance(memory) {
     success_rate: measured ? Math.round((won.length / measured) * 100) : null,
     probability_sample_count: probabilityRows.length,
     brier_score: brierScore === null ? null : Number(brierScore.toFixed(4)),
+    baseline_brier_score: baselineBrierScore === null ? null : Number(baselineBrierScore.toFixed(4)),
+    brier_skill_score: brierSkillScore === null ? null : Number(brierSkillScore.toFixed(4)),
     calibration_status: probabilityRows.length >= 30 ? 'measured' : 'collecting_probability_history',
     calibration_buckets: calibrationBuckets,
     verified_at: verifiedAt,
@@ -249,6 +260,8 @@ function buildResultsSummary(payload) {
       success_rate: null,
       probability_sample_count: 0,
       brier_score: null,
+      baseline_brier_score: null,
+      brier_skill_score: null,
       calibration_status: 'collecting_probability_history',
       calibration_buckets: [],
       groups: [],

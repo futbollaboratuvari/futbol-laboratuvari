@@ -2,6 +2,7 @@
 
 const { fetchIddaaBulletin } = require("./iddaa-data-source");
 const { MODEL_VERSION, buildBttsAnalysis, scoreFixture } = require("./robot-exact-scoring");
+const { applyLearningWeightsToScoredItem } = require("./apply-learning-weights");
 const { compactMatch } = require("./build-pro-analysis-index");
 
 const CACHE_MS = 90 * 1000;
@@ -24,7 +25,7 @@ function currentScheduled(matches, today = todayTR()) {
 
 function projectOfficialProIndex(bulletin, base = {}, options = {}) {
   const matches = currentScheduled(bulletin?.matches, options.today || todayTR()).map((match) => {
-    const scored = scoreFixture(match);
+    const scored = applyLearningWeightsToScoredItem(scoreFixture(match));
     scored.btts_analysis = buildBttsAnalysis(match);
     return compactMatch(scored, { model_version: MODEL_VERSION, date: scored.date });
   });

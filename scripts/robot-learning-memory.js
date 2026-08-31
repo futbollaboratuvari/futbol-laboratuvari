@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { evaluateLearningBucket } = require("./learning-confidence");
 
 const rootDir = path.join(__dirname, "..");
 const dataDir = path.join(rootDir, "data");
@@ -169,43 +170,51 @@ function makeBucket() {
     lost: 0,
     void: 0,
     success_rate: null,
+    profit_sample_count: 0,
+    odds_sum: 0,
+    profit_sum: 0,
+    profit_square_sum: 0,
+    distinct_date_count: 0,
+    _prediction_dates: new Set(),
+    average_odds: null,
+    flat_roi: null,
     weight: 1,
     confidence_adjustment: 0
   };
 }
 
-function addToBucket(bucket, status) {
+function addToBucket(bucket, prediction) {
+  const status = prediction.status;
   bucket.total += 1;
   if (status === "won") bucket.won += 1;
   else if (status === "lost") bucket.lost += 1;
   else if (status === "void") bucket.void += 1;
   else bucket.pending += 1;
+  const odd = numberOrNull(prediction.odds);
+  if (["won", "lost"].includes(status) && odd > 1) {
+    const profit = status === "won" ? odd - 1 : -1;
+    bucket.profit_sample_count += 1;
+    bucket.odds_sum += odd;
+    bucket.profit_sum += profit;
+    bucket.profit_square_sum += profit ** 2;
+    if (prediction.date) bucket._prediction_dates.add(String(prediction.date).slice(0, 10));
+  }
 }
 
-function finalizeBucket(bucket) {
+function finalizeBucket(bucket, scope = "market") {
   const settled = bucket.won + bucket.lost;
   bucket.success_rate = settled ? Number((bucket.won / settled).toFixed(3)) : null;
-  if (settled < 5 || bucket.success_rate === null) {
-    bucket.weight = 1;
-    bucket.confidence_adjustment = 0;
-    return bucket;
-  }
-  if (bucket.success_rate >= 0.62) {
-    bucket.weight = 1.12;
-    bucket.confidence_adjustment = 4;
-  } else if (bucket.success_rate >= 0.55) {
-    bucket.weight = 1.06;
-    bucket.confidence_adjustment = 2;
-  } else if (bucket.success_rate <= 0.42) {
-    bucket.weight = 0.88;
-    bucket.confidence_adjustment = -5;
-  } else if (bucket.success_rate <= 0.48) {
-    bucket.weight = 0.94;
-    bucket.confidence_adjustment = -2;
-  } else {
-    bucket.weight = 1;
-    bucket.confidence_adjustment = 0;
-  }
+  bucket.odds_sum = Number(bucket.odds_sum.toFixed(4));
+  bucket.profit_sum = Number(bucket.profit_sum.toFixed(4));
+  bucket.profit_square_sum = Number(bucket.profit_square_sum.toFixed(4));
+  bucket.distinct_date_count = bucket._prediction_dates instanceof Set
+    ? bucket._prediction_dates.size : Number(bucket.distinct_date_count || 0);
+  delete bucket._prediction_dates;
+  bucket.average_odds = bucket.profit_sample_count
+    ? Number((bucket.odds_sum / bucket.profit_sample_count).toFixed(3)) : null;
+  bucket.flat_roi = bucket.profit_sample_count
+    ? Number((bucket.profit_sum / bucket.profit_sample_count).toFixed(3)) : null;
+  Object.assign(bucket, evaluateLearningBucket(bucket, scope));
   return bucket;
 }
 
@@ -221,14 +230,14 @@ function buildMemory(predictions) {
     marketMemory[market] = marketMemory[market] || makeBucket();
     leagueMemory[league] = leagueMemory[league] || makeBucket();
     leagueMarketMemory[leagueMarket] = leagueMarketMemory[leagueMarket] || makeBucket();
-    addToBucket(marketMemory[market], prediction.status);
-    addToBucket(leagueMemory[league], prediction.status);
-    addToBucket(leagueMarketMemory[leagueMarket], prediction.status);
+    addToBucket(marketMemory[market], prediction);
+    addToBucket(leagueMemory[league], prediction);
+    addToBucket(leagueMarketMemory[leagueMarket], prediction);
   }
 
-  Object.values(marketMemory).forEach(finalizeBucket);
-  Object.values(leagueMemory).forEach(finalizeBucket);
-  Object.values(leagueMarketMemory).forEach(finalizeBucket);
+  Object.values(marketMemory).forEach((bucket) => finalizeBucket(bucket, "market"));
+  Object.values(leagueMemory).forEach((bucket) => finalizeBucket(bucket, "league"));
+  Object.values(leagueMarketMemory).forEach((bucket) => finalizeBucket(bucket, "league_market"));
 
   return { marketMemory, leagueMemory, leagueMarketMemory };
 }
@@ -252,8 +261,10 @@ function makeReport(memory) {
   lines.push("");
   lines.push("- Robot tahminleri maç, lig, seçenek, oran, güven ve risk bilgisiyle kaydedilir.");
   lines.push("- Maç sonucu geldiğinde uygun seçeneklerde kazandı/kaybetti değerlendirmesi yapılır.");
-  lines.push("- Lig ve seçenek başarı oranları oluşunca ağırlık ve güven ayarı hesaplanır.");
-  lines.push("- 5 sonuçtan az veri varsa ağırlık nötr kalır; robot acele öğrenmez.");
+  lines.push("- Lig ve seçeneklerde isabet değil, kaydedilen oranlarla bir birimlik düz bahis getirisi ve güven aralığı hesaplanır.");
+  lines.push("- Küçük örneklem ve geniş güven aralığı varsa ağırlık nötr kalır; yalnız istatistiksel olarak ayrışan sonuçlar skoru etkiler.");
+  lines.push("- Pozitif ağırlık için sonuçların en az 7 farklı güne yayılması gerekir; kısa dönem yükselişleri terfi ettirilmez.");
+  lines.push("- Öğrenme etkisi takım/market kanıtına göre maç başına en fazla 3 veya 6 puanla sınırlandırılır.");
   lines.push("");
   lines.push("## En Güçlü Seçenek Hafızası");
   lines.push("");
@@ -262,7 +273,8 @@ function makeReport(memory) {
     .slice(0, 12);
   if (!markets.length) lines.push("- Henüz seçenek hafızası oluşmadı.");
   for (const [market, stat] of markets) {
-    lines.push(`- ${market}: toplam ${stat.total}, bekleyen ${stat.pending}, başarı ${stat.success_rate === null ? "bekleniyor" : `%${Math.round(stat.success_rate * 100)}`}, ağırlık ${stat.weight}`);
+    const roi = stat.flat_roi === null || stat.flat_roi === undefined ? "bekleniyor" : `%${Math.round(stat.flat_roi * 100)}`;
+    lines.push(`- ${market}: toplam ${stat.total}, bekleyen ${stat.pending}, başarı ${stat.success_rate === null ? "bekleniyor" : `%${Math.round(stat.success_rate * 100)}`}, düz getiri ${roi}, ağırlık ${stat.weight}`);
   }
   lines.push("");
   lines.push("## Son Tahmin Kayıtları");
@@ -345,5 +357,6 @@ module.exports = {
   evaluateMarket,
   canonicalMarket,
   buildMemory,
+  finalizeBucket,
   mergePrediction,
 };

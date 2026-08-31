@@ -7,7 +7,7 @@ const dataDir = path.join(root, "data");
 const robotFile = path.join(dataDir, "robot-analysis.json");
 const historyFile = path.join(dataDir, "analiz_sonuclari.json");
 const outputFile = path.join(dataDir, "pro-analysis-index.json");
-const FALLBACK_MODEL_VERSION = "pro13-btts-conditioned-v2";
+const FALLBACK_MODEL_VERSION = "pro13-btts-conditioned-v3";
 
 function readJson(file, fallback) {
   try {
@@ -94,16 +94,34 @@ function buildCalibration(history) {
     ? probabilityRows.reduce((sum, item) => sum + ((item.probability - item.outcome) ** 2), 0) / probabilityRows.length
     : null;
   const performance = history.performance || {};
+  const performanceProbabilityCount = finite(performance.probability_sample_count);
+  const performanceBrier = finite(performance.brier_score);
+  const hasFullPerformance = performanceProbabilityCount !== null && performanceBrier !== null;
+  const measuredCount = Number(performance.measured_count ?? settled.length);
+  const wonCount = Number(performance.won_count ?? settled.filter((item) => statusOf(item) === "won").length);
+  const lostCount = Number(performance.lost_count ?? settled.filter((item) => statusOf(item) === "lost").length);
+  const finalBrier = hasFullPerformance ? performanceBrier : brier;
+  const baseRate = measuredCount ? wonCount / measuredCount : null;
+  const baselineBrier = baseRate === null ? null : baseRate * (1 - baseRate);
+  const skillScore = finalBrier !== null && baselineBrier > 0
+    ? 1 - (finalBrier / baselineBrier)
+    : null;
+  const performanceGroups = Array.isArray(performance.groups) ? performance.groups : [];
+  const performanceBuckets = Array.isArray(performance.calibration_buckets) ? performance.calibration_buckets : [];
   return {
-    measured_count: Number(performance.measured_count ?? settled.length),
-    won_count: Number(performance.won_count ?? settled.filter((item) => statusOf(item) === "won").length),
-    lost_count: Number(performance.lost_count ?? settled.filter((item) => statusOf(item) === "lost").length),
+    measured_count: measuredCount,
+    won_count: wonCount,
+    lost_count: lostCount,
     success_rate: finite(performance.success_rate),
-    groups: [...groups.values()].sort((a, b) => b.measured - a.measured),
-    probability_sample_count: probabilityRows.length,
-    brier_score: brier === null ? null : Number(brier.toFixed(4)),
-    calibration_status: probabilityRows.length >= 30 ? "measured" : "collecting_probability_history",
-    note: probabilityRows.length >= 30
+    groups: (performanceGroups.length ? performanceGroups : [...groups.values()])
+      .sort((a, b) => Number(b.measured || 0) - Number(a.measured || 0)),
+    probability_sample_count: hasFullPerformance ? performanceProbabilityCount : probabilityRows.length,
+    brier_score: finalBrier === null ? null : Number(finalBrier.toFixed(4)),
+    baseline_brier_score: baselineBrier === null ? null : Number(baselineBrier.toFixed(4)),
+    brier_skill_score: skillScore === null ? null : Number(skillScore.toFixed(4)),
+    calibration_buckets: performanceBuckets,
+    calibration_status: (hasFullPerformance ? performanceProbabilityCount : probabilityRows.length) >= 30 ? "measured" : "collecting_probability_history",
+    note: (hasFullPerformance ? performanceProbabilityCount : probabilityRows.length) >= 30
       ? "Tahmini olasılıklar tamamlanan sonuçlarla Brier skoru üzerinden ölçülüyor."
       : "Eski model puanları olasılık değildi; PRO 13 olasılık geçmişi biriktikçe kalibrasyon ölçümü açılacak.",
   };

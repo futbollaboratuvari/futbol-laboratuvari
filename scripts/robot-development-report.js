@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { evaluateLearningBucket, hydrateLearningProfitability } = require("./learning-confidence");
 
 const root = path.join(__dirname, "..");
 const memoryFile = path.join(root, "data", "learning-memory.json");
@@ -24,31 +25,44 @@ function pickMemory(memory, snake, camel) {
   return memory?.[snake] || memory?.[camel] || {};
 }
 
-function bucketRows(items) {
+function bucketRows(items, scope) {
   return Object.entries(items || {}).map(([name, data]) => {
     const won = Number(data.won || 0);
     const lost = Number(data.lost || 0);
     const total = won + lost;
-    return { name, won, lost, total, success_rate: pct(won, total), weight: Number(data.weight || 1), ready: total >= 5 };
-  }).sort((a, b) => b.success_rate - a.success_rate || b.total - a.total);
+    const evaluation = evaluateLearningBucket(data, scope);
+    return {
+      name,
+      won,
+      lost,
+      total,
+      success_rate: pct(won, total),
+      adjusted_success_rate: Math.round(evaluation.adjusted_success_rate * 100),
+      flat_roi: evaluation.flat_roi,
+      adjusted_roi: evaluation.adjusted_roi,
+      weight: evaluation.weight,
+      ready: evaluation.sample_ready,
+      learning_state: evaluation.learning_state,
+    };
+  }).sort((a, b) => Number(b.adjusted_roi || 0) - Number(a.adjusted_roi || 0) || b.total - a.total);
 }
 
 function adviceFrom(rows, label) {
   const ready = rows.filter((row) => row.ready);
-  const strong = ready.filter((row) => row.success_rate >= 60).slice(0, 5);
-  const weak = ready.filter((row) => row.success_rate <= 40).slice(-5);
+  const strong = ready.filter((row) => row.learning_state === "boost").slice(0, 5);
+  const weak = ready.filter((row) => row.learning_state === "penalty").slice(-5);
   return { label, strong, weak };
 }
 
 function runRobotDevelopmentReport() {
-  const memory = readJson(memoryFile, { predictions: [], market_memory: {}, league_memory: {}, league_market_memory: {} });
+  const memory = hydrateLearningProfitability(readJson(memoryFile, { predictions: [], market_memory: {}, league_memory: {}, league_market_memory: {} }));
   const outputStatus = readJson(statusFile, {});
   const predictions = Array.isArray(memory.predictions) ? memory.predictions : [];
   const pending = predictions.filter((item) => item.status === "pending").length;
   const finished = predictions.length - pending;
-  const marketRows = bucketRows(pickMemory(memory, "market_memory", "marketMemory"));
-  const leagueRows = bucketRows(pickMemory(memory, "league_memory", "leagueMemory"));
-  const leagueMarketRows = bucketRows(pickMemory(memory, "league_market_memory", "leagueMarketMemory"));
+  const marketRows = bucketRows(pickMemory(memory, "market_memory", "marketMemory"), "market");
+  const leagueRows = bucketRows(pickMemory(memory, "league_memory", "leagueMemory"), "league");
+  const leagueMarketRows = bucketRows(pickMemory(memory, "league_market_memory", "leagueMarketMemory"), "league_market");
   const report = {
     generated_at: new Date().toISOString(),
     totals: { predictions: predictions.length, finished, pending },
@@ -58,7 +72,8 @@ function runRobotDevelopmentReport() {
     league_market_development: adviceFrom(leagueMarketRows, "league_market"),
     next_actions: [
       "Pending kayitlar icin skor senkronunu takip et.",
-      "Hazir olmayan marketlerde en az 5 sonuc birikene kadar agirlik degistirme.",
+      "Kucuk orneklem ve genis guven araliginda agirligi notr tut.",
+      "Tek mac ogrenme etkisini bagimsiz kanit yoksa 3, varsa 6 puanla sinirla.",
       "Basari orani dusuk marketleri kupon adaylarinda daha dusuk guvenle kullan.",
       "Basari orani yuksek marketleri o liglerde one cikar."
     ]
@@ -72,10 +87,10 @@ function runRobotDevelopmentReport() {
     `Bekleyen: ${report.totals.pending}`,
     "",
     "## Güçlü Marketler",
-    ...report.market_development.strong.map((row) => `- ${row.name}: %${row.success_rate} (${row.won}/${row.total})`),
+    ...report.market_development.strong.map((row) => `- ${row.name}: düz getiri %${Math.round(row.flat_roi * 100)} (${row.won}/${row.total})`),
     "",
     "## Zayıf Marketler",
-    ...report.market_development.weak.map((row) => `- ${row.name}: %${row.success_rate} (${row.won}/${row.total})`),
+    ...report.market_development.weak.map((row) => `- ${row.name}: düz getiri %${Math.round(row.flat_roi * 100)} (${row.won}/${row.total})`),
     "",
     "## Sonraki Aksiyonlar",
     ...report.next_actions.map((item) => `- ${item}`),

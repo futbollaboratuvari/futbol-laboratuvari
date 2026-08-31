@@ -36,7 +36,9 @@ function runRobotPipelineStatus() {
   const pickRows = Number(robot.summary?.coupon_candidate_count || 0);
   const watchOnly = robotRows > 0 && pickRows === 0;
   const stage3Ready = exists("scripts/robot-learning-memory.js") && (memoryRows > 0 || watchOnly);
-  const stage3Text = watchOnly ? "0 hafiza kaydi, izleme" : `${memoryRows} hafiza kaydi`;
+  const stage3Text = watchOnly
+    ? `${memoryRows} toplam hafiza kaydi; bu tur yeni kupon adayi yok (izleme)`
+    : `${memoryRows} toplam hafiza kaydi`;
   const stages = [
     stage(1, "Bulteni ceker", countRows(fixtures) > 0 && exists("scripts/update-fixtures.js"), `${countRows(fixtures)} mac`),
     stage(2, "Analiz eder", robotRows > 0 && exists("scripts/export-high-value-json.js"), `${robotRows} analiz`),

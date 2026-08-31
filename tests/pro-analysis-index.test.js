@@ -99,6 +99,29 @@ test("eski model skoru olasılık örneği gibi sayılmaz", () => {
   assert.equal(calibration.brier_score, null);
 });
 
+test("kalibrasyon özeti kırpılmış liste yerine tüm performans hafızasını kullanır", () => {
+  const calibration = buildCalibration({
+    completed_items: [{ status: "won", market: "MS 1", estimated_probability: 80 }],
+    performance: {
+      measured_count: 100,
+      won_count: 55,
+      lost_count: 45,
+      success_rate: 55,
+      probability_sample_count: 100,
+      brier_score: 0.24,
+      calibration_buckets: [{ lower: 50, upper: 59, predictions: 100, won: 55 }],
+      groups: [{ key: "btts", measured: 25, won: 14, lost: 11, success_rate: 56 }],
+    },
+  });
+  assert.equal(calibration.measured_count, 100);
+  assert.equal(calibration.probability_sample_count, 100);
+  assert.equal(calibration.brier_score, 0.24);
+  assert.equal(calibration.groups[0].key, "btts");
+  assert.equal(calibration.calibration_buckets.length, 1);
+  assert.equal(calibration.baseline_brier_score, 0.2475);
+  assert.ok(calibration.brier_skill_score > 0);
+});
+
 test("kompakt PRO akışı canlı ve bitmiş maçları istemciye taşımaz", () => {
   const selected = selectProMatches([
     { status: "scheduled", home: "A" },

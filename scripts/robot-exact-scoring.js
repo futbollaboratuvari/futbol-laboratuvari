@@ -4,7 +4,7 @@ const path = require("path");
 const archivePath = process.env.ROBOT_ARCHIVE_PATH
   ? path.resolve(process.env.ROBOT_ARCHIVE_PATH)
   : path.join(__dirname, "..", "data", "robot_match_archive.json");
-const MODEL_VERSION = "pro13-btts-conditioned-v2";
+const MODEL_VERSION = "pro13-btts-conditioned-v3";
 let memoryCache = null;
 let teamIndexCache = null;
 let archiveLookupCache = null;

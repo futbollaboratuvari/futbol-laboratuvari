@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { boundedLearningScore, evaluateLearningBucket, hydrateLearningProfitability } = require("./learning-confidence");
 
 const memoryPath = path.join(__dirname, "..", "data", "learning-memory.json");
 
@@ -12,10 +13,6 @@ function readJson(filePath, fallback) {
   } catch {
     return fallback;
   }
-}
-
-function clamp(value, min = 0, max = 100) {
-  return Math.max(min, Math.min(max, value));
 }
 
 function clean(value) {
@@ -47,19 +44,17 @@ function canonicalMarket(value) {
 
 function loadLearningMemory() {
   if (cache) return cache;
-  cache = readJson(memoryPath, {
+  cache = hydrateLearningProfitability(readJson(memoryPath, {
     status: "missing",
     market_memory: {},
     league_memory: {},
     league_market_memory: {}
-  });
+  }));
   return cache;
 }
 
-function bucketIsReady(bucket) {
-  if (!bucket) return false;
-  const settled = Number(bucket.won || 0) + Number(bucket.lost || 0);
-  return settled >= 5 && Number.isFinite(Number(bucket.success_rate));
+function bucketIsReady(bucket, scope = "market") {
+  return evaluateLearningBucket(bucket, scope).learning_active;
 }
 
 function classFor(score) {
@@ -84,29 +79,32 @@ function adjustmentFor(scoredItem) {
   const marketBucket = memory.market_memory?.[market];
   const leagueBucket = memory.league_memory?.[league];
   const leagueMarketBucket = memory.league_market_memory?.[`${league} :: ${market}`];
+  const marketLearning = evaluateLearningBucket(marketBucket, "market");
+  const leagueLearning = evaluateLearningBucket(leagueBucket, "league");
+  const leagueMarketLearning = evaluateLearningBucket(leagueMarketBucket, "league_market");
   const parts = [];
   let delta = 0;
   let weight = 1;
 
-  if (bucketIsReady(marketBucket)) {
-    const d = Number(marketBucket.confidence_adjustment || 0);
+  if (marketLearning.learning_active) {
+    const d = marketLearning.confidence_adjustment;
     delta += d;
-    weight *= Number(marketBucket.weight || 1);
-    parts.push(`Öğrenme: ${market} başarı hafızası %${Math.round(Number(marketBucket.success_rate) * 100)} (${d >= 0 ? "+" : ""}${d})`);
+    weight *= marketLearning.weight;
+    parts.push(`Öğrenme: ${market} ${marketLearning.profit_sample_count} oranlı sonuç, düzeltilmiş getiri %${marketLearning.adjusted_roi >= 0 ? "+" : ""}${Math.round(marketLearning.adjusted_roi * 100)} (${d >= 0 ? "+" : ""}${d})`);
   }
 
-  if (bucketIsReady(leagueBucket)) {
-    const d = Math.round(Number(leagueBucket.confidence_adjustment || 0) / 2);
+  if (leagueLearning.learning_active) {
+    const d = leagueLearning.confidence_adjustment;
     delta += d;
-    weight *= Math.sqrt(Number(leagueBucket.weight || 1));
-    parts.push(`Öğrenme: ${league} lig hafızası %${Math.round(Number(leagueBucket.success_rate) * 100)} (${d >= 0 ? "+" : ""}${d})`);
+    weight *= Math.sqrt(leagueLearning.weight);
+    parts.push(`Öğrenme: ${league} ${leagueLearning.profit_sample_count} oranlı sonuç, düzeltilmiş lig getirisi %${leagueLearning.adjusted_roi >= 0 ? "+" : ""}${Math.round(leagueLearning.adjusted_roi * 100)} (${d >= 0 ? "+" : ""}${d})`);
   }
 
-  if (bucketIsReady(leagueMarketBucket)) {
-    const d = Number(leagueMarketBucket.confidence_adjustment || 0);
+  if (leagueMarketLearning.learning_active) {
+    const d = leagueMarketLearning.confidence_adjustment;
     delta += d;
-    weight *= Number(leagueMarketBucket.weight || 1);
-    parts.push(`Öğrenme: lig+seçenek hafızası %${Math.round(Number(leagueMarketBucket.success_rate) * 100)} (${d >= 0 ? "+" : ""}${d})`);
+    weight *= leagueMarketLearning.weight;
+    parts.push(`Öğrenme: lig+seçenek ${leagueMarketLearning.profit_sample_count} oranlı sonuç, düzeltilmiş getiri %${leagueMarketLearning.adjusted_roi >= 0 ? "+" : ""}${Math.round(leagueMarketLearning.adjusted_roi * 100)} (${d >= 0 ? "+" : ""}${d})`);
   }
 
   delta = Math.max(-8, Math.min(8, Math.round(delta)));
@@ -120,7 +118,12 @@ function adjustmentFor(scoredItem) {
     notes: parts.length ? parts : ["Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."],
     market_bucket: marketBucket || null,
     league_bucket: leagueBucket || null,
-    league_market_bucket: leagueMarketBucket || null
+    league_market_bucket: leagueMarketBucket || null,
+    confidence_evaluation: {
+      market: marketLearning,
+      league: leagueLearning,
+      league_market: leagueMarketLearning
+    }
   };
 }
 
@@ -138,8 +141,8 @@ function applyLearningWeightsToScoredItem(scoredItem) {
     };
   }
 
-  const rawWeightedScore = Math.round(clamp((baseScore * adjustment.weight) + adjustment.delta));
-  const weightedScore = scoredItem.independent_evidence === false ? Math.min(64, rawWeightedScore) : rawWeightedScore;
+  const bounded = boundedLearningScore(baseScore, adjustment.weight, adjustment.delta, scoredItem.independent_evidence !== false);
+  const weightedScore = scoredItem.independent_evidence === false ? Math.min(64, bounded.score) : bounded.score;
   const analysisClass = classFor(weightedScore);
   const risk = riskFor(weightedScore, scoredItem.risk, scoredItem);
   const signals = [
@@ -159,10 +162,20 @@ function applyLearningWeightsToScoredItem(scoredItem) {
     tag: analysisClass,
     analysis_class: analysisClass,
     risk,
-    learning_adjustment: adjustment,
+    learning_adjustment: {
+      ...adjustment,
+      raw_weighted_score: bounded.raw_score,
+      bounded_score: weightedScore,
+      max_score_shift: bounded.max_score_shift
+    },
     analysis_metrics: {
       ...(scoredItem.analysis_metrics || {}),
-      learning_adjustment: adjustment
+      learning_adjustment: {
+        ...adjustment,
+        raw_weighted_score: bounded.raw_score,
+        bounded_score: weightedScore,
+        max_score_shift: bounded.max_score_shift
+      }
     },
     pro_signals: signals
   };
@@ -172,5 +185,6 @@ module.exports = {
   applyLearningWeightsToScoredItem,
   loadLearningMemory,
   adjustmentFor,
+  bucketIsReady,
   canonicalMarket
 };
