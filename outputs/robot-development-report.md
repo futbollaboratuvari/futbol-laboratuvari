@@ -1,17 +1,18 @@
 # Robot Gelişim Raporu
 
-Oluşturma: 2026-08-31T20:54:28.143Z
+Oluşturma: 2026-08-31T22:03:42.542Z
 Toplam tahmin: 1500
 Sonuçlanan: 422
 Bekleyen: 1078
 
 ## Güçlü Marketler
-- 2.5 Üst: %66 (59/89)
 
 ## Zayıf Marketler
+- 2.5 Alt: düz getiri %-19 (96/197)
 
 ## Sonraki Aksiyonlar
 - Pending kayitlar icin skor senkronunu takip et.
-- Hazir olmayan marketlerde en az 5 sonuc birikene kadar agirlik degistirme.
+- Kucuk orneklem ve genis guven araliginda agirligi notr tut.
+- Tek mac ogrenme etkisini bagimsiz kanit yoksa 3, varsa 6 puanla sinirla.
 - Basari orani dusuk marketleri kupon adaylarinda daha dusuk guvenle kullan.
 - Basari orani yuksek marketleri o liglerde one cikar.

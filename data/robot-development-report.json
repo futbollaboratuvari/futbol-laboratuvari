@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T20:54:28.143Z",
+  "generated_at": "2026-08-31T22:03:42.542Z",
   "totals": {
     "predictions": 1500,
     "finished": 422,
@@ -8,216 +8,37 @@
   "learning_output_status": "ready",
   "market_development": {
     "label": "market",
-    "strong": [
+    "strong": [],
+    "weak": [
       {
-        "name": "2.5 Üst",
-        "won": 59,
-        "lost": 30,
-        "total": 89,
-        "success_rate": 66,
-        "weight": 1.12,
-        "ready": true
+        "name": "2.5 Alt",
+        "won": 96,
+        "lost": 101,
+        "total": 197,
+        "success_rate": 49,
+        "adjusted_success_rate": 49,
+        "flat_roi": -0.193,
+        "adjusted_roi": -0.167,
+        "weight": 0.94,
+        "ready": true,
+        "learning_state": "penalty"
       }
-    ],
-    "weak": []
+    ]
   },
   "league_development": {
     "label": "league",
-    "strong": [
-      {
-        "name": "El Salvador Primera Lig Apertura",
-        "won": 4,
-        "lost": 1,
-        "total": 5,
-        "success_rate": 80,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "Guatemala Ulusal Lig Apertura",
-        "won": 4,
-        "lost": 1,
-        "total": 5,
-        "success_rate": 80,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "Meksika Ascenso MX Apertura",
-        "won": 4,
-        "lost": 1,
-        "total": 5,
-        "success_rate": 80,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "Hollanda Eredivisie",
-        "won": 4,
-        "lost": 1,
-        "total": 5,
-        "success_rate": 80,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "İspanya 2.Lig",
-        "won": 7,
-        "lost": 2,
-        "total": 9,
-        "success_rate": 78,
-        "weight": 1.12,
-        "ready": true
-      }
-    ],
-    "weak": [
-      {
-        "name": "Fransa Ligue 1",
-        "won": 2,
-        "lost": 6,
-        "total": 8,
-        "success_rate": 25,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "İtalya Serie B",
-        "won": 2,
-        "lost": 7,
-        "total": 9,
-        "success_rate": 22,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "İngiltere Premier Lig",
-        "won": 1,
-        "lost": 5,
-        "total": 6,
-        "success_rate": 17,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "Suudi Arabistan Pro Lig",
-        "won": 1,
-        "lost": 5,
-        "total": 6,
-        "success_rate": 17,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "Venezuela Premier Lig Clausura",
-        "won": 0,
-        "lost": 5,
-        "total": 5,
-        "success_rate": 0,
-        "weight": 0.88,
-        "ready": true
-      }
-    ]
+    "strong": [],
+    "weak": []
   },
   "league_market_development": {
     "label": "league_market",
-    "strong": [
-      {
-        "name": "Portekiz Kupa 1.Tur :: 2.5 Üst",
-        "won": 7,
-        "lost": 1,
-        "total": 8,
-        "success_rate": 88,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "İngiltere Championship :: 2.5 Üst",
-        "won": 5,
-        "lost": 1,
-        "total": 6,
-        "success_rate": 83,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "Meksika Liga MX Apertura :: 2.5 Alt",
-        "won": 4,
-        "lost": 1,
-        "total": 5,
-        "success_rate": 80,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "ABD USL :: 2.5 Alt",
-        "won": 7,
-        "lost": 2,
-        "total": 9,
-        "success_rate": 78,
-        "weight": 1.12,
-        "ready": true
-      },
-      {
-        "name": "Uruguay Premier Lig Clausura :: 2.5 Alt",
-        "won": 5,
-        "lost": 2,
-        "total": 7,
-        "success_rate": 71,
-        "weight": 1.12,
-        "ready": true
-      }
-    ],
-    "weak": [
-      {
-        "name": "İngiltere 1.Lig :: 2.5 Alt",
-        "won": 2,
-        "lost": 4,
-        "total": 6,
-        "success_rate": 33,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "İtalya Serie B :: 2.5 Alt",
-        "won": 2,
-        "lost": 6,
-        "total": 8,
-        "success_rate": 25,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "Fransa Ligue 1 :: 2.5 Alt",
-        "won": 1,
-        "lost": 4,
-        "total": 5,
-        "success_rate": 20,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "Arjantin Premier Lig 2. Aşama :: 2.5 Alt",
-        "won": 0,
-        "lost": 5,
-        "total": 5,
-        "success_rate": 0,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "Brezilya Serie A :: 2.5 Alt",
-        "won": 0,
-        "lost": 5,
-        "total": 5,
-        "success_rate": 0,
-        "weight": 0.88,
-        "ready": true
-      }
-    ]
+    "strong": [],
+    "weak": []
   },
   "next_actions": [
     "Pending kayitlar icin skor senkronunu takip et.",
-    "Hazir olmayan marketlerde en az 5 sonuc birikene kadar agirlik degistirme.",
+    "Kucuk orneklem ve genis guven araliginda agirligi notr tut.",
+    "Tek mac ogrenme etkisini bagimsiz kanit yoksa 3, varsa 6 puanla sinirla.",
     "Basari orani dusuk marketleri kupon adaylarinda daha dusuk guvenle kullan.",
     "Basari orani yuksek marketleri o liglerde one cikar."
   ]

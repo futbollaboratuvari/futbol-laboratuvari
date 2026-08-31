@@ -1,19 +1,16 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-08-31 / 2026-09-01
+Gunler: 2026-09-01 / 2026-09-02
 Kaynak: fixtures.json
-Ham mac: 225
-Aktif mac: 14
+Ham mac: 14
+Aktif mac: 11
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 211
-Bugun: 0
-Yarin: 14
+Bultenden dusurulen mac: 3
+Bugun: 11
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-09-01 01:00 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Platense | scheduled | -
-- 2026-09-01 01:00 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp - Newells Old Boy | scheduled | -
-- 2026-09-01 01:00 | Arjantin Ulusal Primera Lig | Los Andes - Acassuso | scheduled | -
 - 2026-09-01 01:15 | Şili Premier Lig | Union La Caler - La Serena | scheduled | -
 - 2026-09-01 01:30 | Venezuela Premier Lig Clausura | Ucv - Rayo Zuliano | scheduled | -
 - 2026-09-01 01:30 | Brezilya Serie B | Fortaleza Ce - Operario | scheduled | -
