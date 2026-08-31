@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 220
-Tam analiz: 204
+Toplam analiz: 200
+Tam analiz: 184
 Eksik analiz: 16
 
 - Toluca VS Fc Juarez: eksik score, confidence

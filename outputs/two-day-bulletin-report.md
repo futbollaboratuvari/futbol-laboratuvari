@@ -2,19 +2,15 @@
 
 Gunler: 2026-08-31 / 2026-09-01
 Kaynak: fixtures.json
-Ham mac: 220
-Aktif mac: 186
+Ham mac: 200
+Aktif mac: 182
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 34
-Bugun: 172
+Bultenden dusurulen mac: 18
+Bugun: 168
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-08-31 04:00 | Guatemala Ulusal Lig Apertura | Xelaju - Mixco | scheduled | -
-- 2026-08-31 04:00 | Nikaragua Premier Lig Apertura | Unan Managua - Managua | scheduled | -
-- 2026-08-31 04:20 | Kolombiya Primera A Clausura | Deportivo Cali - Bucaramanga | scheduled | -
-- 2026-08-31 05:10 | Meksika Liga MX Apertura | Monterrey - Atletico San Lu | scheduled | -
 - 2026-08-31 15:00 | AFC Şampiyonlar Ligi 2 Ön Eleme Turu | Persib - Manila Digger | scheduled | -
 - 2026-08-31 15:00 | İngiltere Professional Development Lig | Bolton U21 - Coventry City U | scheduled | -
 - 2026-08-31 15:00 | İngiltere Premier Lig 2 | Bournemouth U2 - Middlesbrough ( | scheduled | -
