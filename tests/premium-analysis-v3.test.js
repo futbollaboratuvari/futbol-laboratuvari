@@ -65,6 +65,98 @@ test("güçlü gol eğilimi 2.5 üst sonucunu ve gerekçeleri üretir", () => {
   assert.ok(result.confidence >= 60);
 });
 
+test("korumalı resmi KG analizi KG Var seçimini model alanlarıyla gösterir", () => {
+  const result = core.analyze({
+    date: "2026-08-24",
+    time: "20:00",
+    home: "Golcü A",
+    away: "Golcü B",
+    status: "scheduled",
+    available_odds: { bttsYes: 1.78, bttsNo: 2.02 },
+    proAnalysis: {
+      available: true,
+      fresh: true,
+      btts_analysis: {
+        available: true,
+        pair_complete: true,
+        trusted_odds: true,
+        recommended_key: "bttsYes",
+        recommended_market: "KG Var",
+        model_version: "pro13-btts-conditioned-v2",
+        outcomes: {
+          bttsYes: { key: "bttsYes", label: "KG Var", odd: 1.78, model_score: 69, estimated_probability: 62, market_probability: 53.2, edge_percent: 8.8, data_completeness: 66, independent_evidence: true, probability_source: ["Poisson gol modeli", "sonuç hafızası"], risk_level: "Orta", signals: ["Bağımsız gol modeli %62."] },
+          bttsNo: { key: "bttsNo", label: "KG Yok", odd: 2.02, model_score: 51, estimated_probability: 38, market_probability: 46.8, edge_percent: -8.8, data_completeness: 66, independent_evidence: true, risk_level: "Yüksek", signals: ["Birleşik tahmini olasılık %38."] },
+        },
+      },
+    },
+  }, "advanced", "KG Var");
+  assert.equal(result.market, "KG Var");
+  assert.equal(result.noPick, false);
+  assert.equal(result.modelScore, 69);
+  assert.equal(result.estimatedProbability, 62);
+  assert.equal(result.edgePercent, 8.8);
+  assert.equal(result.sourceMode, "pro_btts");
+  assert.match(result.headline, /karşılıklı gol analizinde öne çıkıyor/);
+});
+
+test("doğrudan KG Var/Yok analiz türü güçlü tarafı otomatik seçer", () => {
+  const result = core.analyze({
+    date: "2026-08-24",
+    time: "20:00",
+    home: "KG A",
+    away: "KG B",
+    status: "scheduled",
+    available_odds: { bttsYes: 1.75, bttsNo: 2.1 },
+    proAnalysis: {
+      available: true,
+      fresh: true,
+      btts_analysis: {
+        available: true,
+        pair_complete: true,
+        trusted_odds: true,
+        recommended_key: "bttsYes",
+        model_version: "pro13-btts-conditioned-v2",
+        outcomes: {
+          bttsYes: { key: "bttsYes", label: "KG Var", odd: 1.75, model_score: 67, estimated_probability: 61, market_probability: 54.5, data_completeness: 62, independent_evidence: true, risk_level: "Orta", signals: ["Poisson ve sonuç hafızası KG Var tarafını destekliyor."] },
+          bttsNo: { key: "bttsNo", label: "KG Yok", odd: 2.1, model_score: 50, estimated_probability: 39, market_probability: 45.5, data_completeness: 62, independent_evidence: true, risk_level: "Yüksek", signals: ["KG Yok olasılığı %39."] },
+        },
+      },
+    },
+  }, "btts");
+  assert.equal(result.market, "KG Var");
+  assert.equal(result.noPick, false);
+  assert.equal(result.estimatedProbability, 61);
+});
+
+test("desteklenmeyen KG tarafı sahte öneriye çevrilmeden ölçülü görüş olarak kalır", () => {
+  const result = core.analyze({
+    date: "2026-08-24",
+    time: "20:00",
+    home: "A",
+    away: "B",
+    status: "scheduled",
+    available_odds: { bttsYes: 2.15, bttsNo: 1.65 },
+    proAnalysis: {
+      available: true,
+      fresh: true,
+      btts_analysis: {
+        available: true,
+        pair_complete: true,
+        trusted_odds: true,
+        outcomes: {
+          bttsYes: { key: "bttsYes", label: "KG Var", odd: 2.15, model_score: 51, estimated_probability: 41, market_probability: 43.4, data_completeness: 43, independent_evidence: false, risk_level: "Yüksek", signals: ["Birleşik tahmini olasılık %41."] },
+          bttsNo: { key: "bttsNo", label: "KG Yok", odd: 1.65, model_score: 59, estimated_probability: 59, market_probability: 56.6, data_completeness: 43, independent_evidence: false, risk_level: "Yüksek", signals: ["Birleşik tahmini olasılık %59."] },
+        },
+      },
+    },
+  }, "advanced", "KG Var");
+  assert.equal(result.market, "KG Var");
+  assert.equal(result.noPick, true);
+  assert.equal(result.hasOpinion, true);
+  assert.equal(result.recommendationStatus, "watch");
+  assert.equal(result.estimatedProbability, 41);
+});
+
 test("oynama kararı ve düşük skor zorunlu seçim üretmez", () => {
   const result = core.analyze({
     date: "2026-08-24",

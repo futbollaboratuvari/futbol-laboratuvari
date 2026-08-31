@@ -301,7 +301,7 @@
   };
 
   const setType = (type) => {
-    state.type = ["match", "goals", "advanced"].includes(type) ? type : "robot";
+    state.type = ["match", "goals", "btts", "advanced"].includes(type) ? type : "robot";
     state.resultReady = false;
     root()?.querySelectorAll("[data-pa3-type]").forEach((button) => {
       const active = button.dataset.pa3Type === state.type;
@@ -881,12 +881,13 @@
     const opinionCount = matched.filter((match) => CORE.marketKey(match.pro.recommendedMarket)
       && Number(match.pro.dataCompleteness || 0) >= 35).length;
     const couponCount = matched.filter((match) => match.pro.includeInCoupon === true).length;
+    const bttsCount = Number(state.proMeta?.summary?.btts_pair_count || 0);
     const generatedAt = Date.parse(state.proMeta?.generated_at || "");
     const time = Number.isFinite(generatedAt)
       ? new Intl.DateTimeFormat("tr-TR", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Istanbul" }).format(new Date(generatedAt))
       : "";
     node.textContent = matched.length
-      ? `PRO veri: ${matched.length} maç · ${opinionCount} robot görüşü · ${couponCount} kupon adayı${time ? ` · ${time}` : ""}`
+      ? `PRO veri: ${matched.length} maç · ${opinionCount} robot görüşü · ${bttsCount} KG analizi · ${couponCount} kupon adayı${time ? ` · ${time}` : ""}`
       : "PRO veri eşleşmesi bekleniyor; oran-only robot seçimi kapalı.";
     node.dataset.state = matched.length ? "ready" : "waiting";
   };

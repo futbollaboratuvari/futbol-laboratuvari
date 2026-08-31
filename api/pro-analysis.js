@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { buildOfficialProIndex } = require("../scripts/official-pro-analysis");
 
 const VERIFY_URL = process.env.FL_BANK_TRANSFER_VERIFY_URL
   || "https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-transfer?action=verify-code";
@@ -137,7 +138,17 @@ async function handler(req, res) {
     if (!membershipHasRights(verified.membership)) {
       return send(res, 403, { ok: false, error: "membership_rights_exhausted" });
     }
-    const pro = readProIndex();
+    const storedPro = readProIndex();
+    let pro = storedPro;
+    try {
+      // Membership verification happens first. Official odds and BTTS model
+      // details therefore stay inside the protected PRO response.
+      pro = await buildOfficialProIndex(storedPro);
+    } catch {
+      // A temporary provider error must not take the already verified static
+      // analysis away from the member.
+      pro = { ...storedPro, official_feed: false, official_feed_status: "temporary_fallback" };
+    }
     return send(res, 200, {
       ok: true,
       membership: verified.membership || null,

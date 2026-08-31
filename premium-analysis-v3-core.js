@@ -50,8 +50,48 @@
     return null;
   };
 
+  const normalizeBttsOutcome = (item, fallbackKey) => {
+    if (!item || typeof item !== "object") return null;
+    return {
+      key: String(first(item.key, fallbackKey, "") ?? ""),
+      label: String(first(item.label, fallbackKey === "bttsYes" ? "KG Var" : "KG Yok", "") ?? ""),
+      odd: odd(item.odd),
+      modelScore: percent(item.model_score),
+      estimatedProbability: percent(item.estimated_probability),
+      marketProbability: percent(item.market_probability),
+      independentProbability: percent(item.independent_probability),
+      edgePercent: finite(item.edge_percent),
+      dataCompleteness: percent(item.data_completeness),
+      dataGapRisk: String(first(item.data_gap_risk, "Yüksek")),
+      independentEvidence: Boolean(item.independent_evidence),
+      evidenceMode: String(first(item.evidence_mode, "market_baseline")),
+      probabilitySource: Array.isArray(item.probability_source) ? item.probability_source.map(String).slice(0, 4) : [],
+      riskLevel: String(first(item.risk_level, "Yüksek")),
+      signals: Array.isArray(item.signals) ? item.signals.map(String).filter(Boolean).slice(0, 5) : [],
+      expectedScores: Array.isArray(item.expected_scores) ? item.expected_scores.map(String).slice(0, 3) : [],
+    };
+  };
+
+  const normalizeBttsAnalysis = (value) => {
+    if (!value || typeof value !== "object" || value.available !== true) return null;
+    const yes = normalizeBttsOutcome(value.outcomes?.bttsYes, "bttsYes");
+    const no = normalizeBttsOutcome(value.outcomes?.bttsNo, "bttsNo");
+    if (!yes && !no) return null;
+    return {
+      available: true,
+      pairComplete: Boolean(value.pair_complete && yes && no),
+      trustedOdds: Boolean(value.trusted_odds),
+      recommendedKey: String(value.recommended_key || ""),
+      recommendedMarket: String(value.recommended_market || "Görüş oluşmadı"),
+      recommendationStatus: String(value.recommendation_status || "insufficient_data"),
+      modelVersion: String(value.model_version || ""),
+      outcomes: { bttsYes: yes, bttsNo: no },
+    };
+  };
+
   const normalizeMatch = (match, index = 0) => {
     const pro = match?.proAnalysis || match?.pro_analysis || match?.pro || {};
+    const bttsAnalysis = normalizeBttsAnalysis(pro?.btts_analysis || match?.btts_analysis);
     const rawTeamIntelligence = pro?.team_intelligence || match?.team_intelligence || null;
     const hasTeamFields = rawTeamIntelligence || pro?.squad_risk_level || match?.squad_risk_level;
     const teamIntelligence = hasTeamFields ? {
@@ -128,6 +168,7 @@
         lineupRiskLevel: String(first(pro?.lineup_risk_level, match?.lineup_risk_level, teamIntelligence?.lineup_risk_level, "Belirsiz")),
         teamIntelligence,
         calibration: pro?.calibration && typeof pro.calibration === "object" ? pro.calibration : null,
+        bttsAnalysis,
       },
       metrics: {
         homeScored: finite(first(pro?.metrics?.homeScoredLast10, match?.homeScoredLast10, match?.metrics?.homeScoredLast10)),
@@ -409,7 +450,12 @@
       ? null
       : clamp(50 + (match.metrics.leagueGoalAverage - 2.5) * 22, 25, 78);
     const overSignal = match.metrics.over25 ?? leagueSignal ?? 50;
-    const bttsSignal = match.metrics.btts ?? 50;
+    const proBtts = match.pro.bttsAnalysis;
+    const pairedMarketBtts = binaryMarketProbability(match.odds.bttsYes, match.odds.bttsNo);
+    const bttsSignal = proBtts?.outcomes?.bttsYes?.estimatedProbability
+      ?? match.metrics.btts
+      ?? pairedMarketBtts
+      ?? 50;
     const lateSignal = match.metrics.secondHalfGoal ?? 50;
     const over = clamp((overSignal * 0.62) + (leagueSignal ?? overSignal) * 0.23 + (lateSignal * 0.15), 0, 100);
     return {
@@ -429,6 +475,81 @@
     return (selected / (selected + opposite)) * 100;
   };
 
+  const analyzeBtts = (match, key) => {
+    const analysis = match.pro.bttsAnalysis;
+    const outcome = analysis?.outcomes?.[key];
+    if (!outcome || !analysis?.pairComplete || !analysis?.trustedOdds) return null;
+    const probability = outcome.estimatedProbability;
+    const modelScore = outcome.modelScore;
+    const dataCompleteness = outcome.dataCompleteness ?? 0;
+    const supported = probability !== null && probability >= 54 && dataCompleteness >= 35;
+    const oppositeKey = key === "bttsYes" ? "bttsNo" : "bttsYes";
+    const opposite = analysis.outcomes?.[oppositeKey];
+    const signalReasons = outcome.signals
+      .filter((value) => !/^(model gücü|veri kapsama puanı)/i.test(String(value).trim()))
+      .slice(0, 5);
+    const fallback = [
+      `${outcome.label} için birleşik tahmini olasılık ${probability === null ? "ölçülemedi" : `%${Math.round(probability)}`}.`,
+      opposite?.estimatedProbability === null || opposite?.estimatedProbability === undefined
+        ? "Karşı seçenek olasılığı tamamlanmadı."
+        : `${opposite.label} karşı olasılığı %${Math.round(opposite.estimatedProbability)}.`,
+      outcome.independentEvidence
+        ? `Bağımsız ${outcome.probabilitySource.join(" + ") || "form/gol"} verisi piyasa oranıyla birlikte kullanıldı.`
+        : "Takım form örneği sınırlı; sonuç marjı temizlenmiş resmi piyasa tabanı olarak işaretlendi.",
+    ];
+    const evidenceReason = outcome.independentEvidence
+      ? signalReasons.find((value) => /bağımsız|poisson|hafıza|form/i.test(value)) || fallback[2]
+      : fallback[2];
+    const reasons = [signalReasons[0], evidenceReason, ...signalReasons.slice(1)]
+      .filter((value, index, list) => value && list.indexOf(value) === index)
+      .slice(0, 3);
+    while (reasons.length < 3) reasons.push(fallback[reasons.length] || fallback[0]);
+    return {
+      match,
+      type: "goals",
+      market: outcome.label,
+      odd: outcome.odd ?? match.odds[key] ?? null,
+      confidence: modelScore === null ? null : Math.round(modelScore),
+      modelScore: modelScore === null ? null : Math.round(modelScore),
+      estimatedProbability: probability,
+      marketProbability: outcome.marketProbability,
+      edgePercent: outcome.edgePercent,
+      dataCompleteness: Math.round(dataCompleteness),
+      dataQuality: outcome.independentEvidence ? (dataCompleteness >= 70 ? "Yüksek" : "Orta") : "Sınırlı",
+      modelVersion: analysis.modelVersion || match.pro.modelVersion,
+      sourceMode: outcome.independentEvidence ? "pro_btts" : "market_baseline",
+      calibration: match.pro.calibration,
+      risk: outcome.riskLevel || "Yüksek",
+      noPick: !supported,
+      hasOpinion: true,
+      couponEligible: supported
+        && outcome.independentEvidence
+        && Number(modelScore || 0) >= 65
+        && dataCompleteness >= 45
+        && !normalizeText(outcome.riskLevel).includes("yuksek"),
+      recommendationStatus: supported ? "analysis" : "watch",
+      headline: supported
+        ? `${outcome.label} karşılıklı gol analizinde öne çıkıyor`
+        : `${outcome.label} incelendi; güçlü seçim eşiğini geçmedi`,
+      reasons,
+      details: detailRows(match, impliedProbabilities(match)),
+    };
+  };
+
+  const analyzeBttsMarket = (match) => {
+    const analysis = match.pro.bttsAnalysis;
+    if (!analysis?.pairComplete || !analysis?.trustedOdds) return noPickResult(match, "btts", [
+      "Bu maç için resmi KG Var/KG Yok oran çifti PRO kaydıyla eşleşmedi.",
+      "Tek taraflı veya doğrulanmamış oranla karşılıklı gol görüşü üretilmedi.",
+      "Resmi veri çifti geldiğinde KG analizi otomatik olarak açılacak.",
+    ]);
+    const ranked = [analysis.outcomes.bttsYes, analysis.outcomes.bttsNo]
+      .filter(Boolean)
+      .sort((a, b) => Number(b.estimatedProbability || 0) - Number(a.estimatedProbability || 0));
+    const key = analysis.recommendedKey || ranked[0]?.key || "";
+    return analyzeBtts(match, key) || noPickResult(match, "btts");
+  };
+
   const analyzeGoals = (match, forcedKey = "") => {
     const strengths = goalStrengths(match);
     const allowed = Object.keys(strengths);
@@ -437,6 +558,10 @@
       ? forcedKey
       : primary.sort((a, b) => strengths[b] - strengths[a])[0];
     const strength = strengths[key];
+    if (["bttsYes", "bttsNo"].includes(key)) {
+      const bttsResult = analyzeBtts(match, key);
+      if (bttsResult) return bttsResult;
+    }
     if (!key || strength < 54) return noPickResult(match, "goals", [
       "Gol göstergeleri aynı yönde yeterince güçlü birleşmiyor.",
       "Üst, alt ve karşılıklı gol seçenekleri arasında net ayrışma yok.",
@@ -486,6 +611,9 @@
   const analyzeAdvanced = (match, market) => {
     const key = marketKey(market);
     if (["ms1", "msx", "ms2"].includes(key)) return analyzeMatchResult(match, key);
+    if (["bttsYes", "bttsNo"].includes(key)) {
+      return analyzeBtts(match, key) || analyzeGoals(match, key);
+    }
     if (["over25", "under25", "bttsYes", "bttsNo", "firstHalfBttsYes", "secondHalfBttsYes"].includes(key)) {
       return analyzeGoals(match, key);
     }
@@ -607,6 +735,7 @@
     const match = isNormalizedMatch(input) ? input : normalizeMatch(input);
     if (type === "match") return analyzeMatchResult(match);
     if (type === "goals") return analyzeGoals(match);
+    if (type === "btts") return analyzeBttsMarket(match);
     if (type === "advanced") return analyzeAdvanced(match, advancedMarket);
     return analyzeRobot(match);
   };

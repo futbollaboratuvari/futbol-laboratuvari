@@ -7,7 +7,7 @@ const dataDir = path.join(root, "data");
 const robotFile = path.join(dataDir, "robot-analysis.json");
 const historyFile = path.join(dataDir, "analiz_sonuclari.json");
 const outputFile = path.join(dataDir, "pro-analysis-index.json");
-const FALLBACK_MODEL_VERSION = "pro13-market-conditioned-v1";
+const FALLBACK_MODEL_VERSION = "pro13-btts-conditioned-v2";
 
 function readJson(file, fallback) {
   try {
@@ -134,6 +134,48 @@ function compactMetrics(item) {
   return compact;
 }
 
+function compactBttsOutcome(item) {
+  if (!item || typeof item !== "object") return null;
+  return {
+    key: String(item.key || ""),
+    label: String(item.label || ""),
+    odd: finite(item.odd),
+    model_score: finite(item.model_score),
+    estimated_probability: finite(item.estimated_probability),
+    market_probability: finite(item.market_probability),
+    independent_probability: finite(item.independent_probability),
+    edge_percent: finite(item.edge_percent),
+    data_completeness: finite(item.data_completeness) || 0,
+    data_gap_risk: String(item.data_gap_risk || "Yüksek"),
+    independent_evidence: Boolean(item.independent_evidence),
+    evidence_mode: String(item.evidence_mode || "market_baseline"),
+    probability_source: Array.isArray(item.probability_source) ? item.probability_source.slice(0, 4) : [],
+    risk_level: String(item.risk_level || item.risk || "Yüksek"),
+    odd_source_type: String(item.odd_source_type || ""),
+    expected_scores: Array.isArray(item.expected_scores) ? item.expected_scores.slice(0, 3) : [],
+    signals: Array.isArray(item.signals) ? item.signals.map(String).filter(Boolean).slice(0, 5) : [],
+  };
+}
+
+function compactBttsAnalysis(value) {
+  if (!value || typeof value !== "object" || value.available !== true) return null;
+  const yes = compactBttsOutcome(value.outcomes?.bttsYes);
+  const no = compactBttsOutcome(value.outcomes?.bttsNo);
+  if (!yes && !no) return null;
+  return {
+    available: true,
+    pair_complete: Boolean(value.pair_complete && yes && no),
+    trusted_odds: Boolean(value.trusted_odds),
+    market_group: "btts",
+    market_group_label: "Karşılıklı Gol",
+    recommended_key: String(value.recommended_key || ""),
+    recommended_market: String(value.recommended_market || "Görüş oluşmadı"),
+    recommendation_status: String(value.recommendation_status || "insufficient_data"),
+    model_version: String(value.model_version || FALLBACK_MODEL_VERSION),
+    outcomes: { bttsYes: yes, bttsNo: no },
+  };
+}
+
 function couponEligibility(item, modelScore, dataCompleteness, market) {
   return couponRules.isCouponEligible({
     ...item,
@@ -223,6 +265,7 @@ function compactMatch(item, parent) {
     .map((value) => String(value).trim())
     .filter(Boolean)
     .slice(0, 3);
+  const bttsAnalysis = compactBttsAnalysis(item.btts_analysis || item.bttsAnalysis);
   return {
     id: matchId(item, date),
     date,
@@ -252,6 +295,7 @@ function compactMatch(item, parent) {
     include_in_coupon: includeInCoupon,
     value_label: String(item.value_label || "Piyasa ile Uyumlu"),
     metrics: compactMetrics(item),
+    ...(bttsAnalysis ? { btts_analysis: bttsAnalysis } : {}),
     signals,
     model_version: item.model_version || parent.model_version || FALLBACK_MODEL_VERSION,
   };
@@ -300,5 +344,5 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { buildCalibration, buildProAnalysisIndex, compactMatch, compactMetrics, compactTeamIntelligence, couponEligibility, main, matchId, selectProMatches, teamsOf };
+module.exports = { buildCalibration, buildProAnalysisIndex, compactBttsAnalysis, compactMatch, compactMetrics, compactTeamIntelligence, couponEligibility, main, matchId, selectProMatches, teamsOf };
 

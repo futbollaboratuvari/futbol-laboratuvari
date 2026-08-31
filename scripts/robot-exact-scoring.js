@@ -4,7 +4,7 @@ const path = require("path");
 const archivePath = process.env.ROBOT_ARCHIVE_PATH
   ? path.resolve(process.env.ROBOT_ARCHIVE_PATH)
   : path.join(__dirname, "..", "data", "robot_match_archive.json");
-const MODEL_VERSION = "pro13-market-conditioned-v1";
+const MODEL_VERSION = "pro13-btts-conditioned-v2";
 let memoryCache = null;
 let teamIndexCache = null;
 let archiveLookupCache = null;
@@ -447,9 +447,12 @@ const fairProbabilityFor = (fixture, key, selectedEntry) => {
   const pair = pairMap[key];
   if (pair) {
     const paired = oddEntryFor(fixture, pair[1]);
+    // oddEntryFor also returns the physical source key (for example bttsYes).
+    // Keep the model market key (kgVar/kgYok) authoritative here; otherwise the
+    // spread overwrites it and an existing opposite odd is treated as missing.
     const normalized = normalizeProbabilitySet([
-      { key, ...selectedEntry },
-      { key: pair[0], ...paired },
+      { ...selectedEntry, key },
+      { ...paired, key: pair[0] },
     ], key);
     if (normalized) return normalized;
   }
@@ -720,10 +723,106 @@ const buildMatchAnalysis = (fixture, candidate = null) => {
   };
 };
 
-const candidateFor = (fixture, key, rule) => {
+const analysisMarketKey = (key) => ({
+  kgVar: "bttsYes",
+  kgYok: "bttsNo",
+}[key] || key);
+
+const analyzeMarket = (fixture, key) => {
+  const rule = marketRules[key];
+  if (!rule) return null;
   const entry = oddEntryFor(fixture, rule.keys);
-  if (!entry?.odd || entry.odd < rule.minOdd || entry.odd > rule.maxOdd) return null;
+  if (!entry?.odd) return null;
   const analysis = buildMatchAnalysis(fixture, { key, odd: entry.odd, entry });
+  return {
+    key: analysisMarketKey(key),
+    model_key: key,
+    label: rule.label,
+    odd: entry.odd,
+    odd_source_type: entry.source,
+    model_score: analysis.analysis_score,
+    analysis_class: analysis.analysis_class,
+    estimated_probability: analysis.estimated_probability,
+    market_probability: analysis.market_probability,
+    independent_probability: analysis.independent_probability,
+    edge_percent: analysis.edge_percent,
+    data_completeness: analysis.data_completeness,
+    data_gap_risk: analysis.data_gap_risk,
+    independent_evidence: analysis.independent_evidence,
+    evidence_mode: analysis.evidence_mode,
+    probability_source: analysis.probability_source,
+    risk: riskForAnalysis(
+      analysis.analysis_score,
+      analysis.estimated_probability,
+      entry.odd,
+      analysis.data_completeness,
+      analysis.data_gap_risk === "Yüksek" || !analysis.independent_evidence,
+    ),
+    expected_scores: rule.scores,
+    signals: analysis.signals,
+    analysis,
+  };
+};
+
+const compactMarketAnalysis = (item) => item ? ({
+  key: item.key,
+  label: item.label,
+  odd: Number(item.odd.toFixed(2)),
+  model_score: item.model_score,
+  estimated_probability: item.estimated_probability,
+  market_probability: item.market_probability,
+  independent_probability: item.independent_probability,
+  edge_percent: item.edge_percent,
+  data_completeness: item.data_completeness,
+  data_gap_risk: item.data_gap_risk,
+  independent_evidence: item.independent_evidence,
+  evidence_mode: item.evidence_mode,
+  probability_source: item.probability_source,
+  risk_level: item.risk,
+  odd_source_type: item.odd_source_type,
+  expected_scores: item.expected_scores,
+  signals: item.signals.slice(0, 7),
+}) : null;
+
+const buildBttsAnalysis = (fixture) => {
+  const yes = analyzeMarket(fixture, "kgVar");
+  const no = analyzeMarket(fixture, "kgYok");
+  const available = [yes, no].filter(Boolean);
+  const pairComplete = Boolean(yes && no);
+  const officialPair = pairComplete && available.every((item) => item.odd_source_type !== "raw_market_guess_odds");
+  const ranked = available.slice().sort((a, b) =>
+    Number(b.estimated_probability || 0) - Number(a.estimated_probability || 0)
+      || b.model_score - a.model_score);
+  const strongest = ranked[0] || null;
+  const recommendation = officialPair
+    && Number(strongest?.estimated_probability || 0) >= 54
+    && Number(strongest?.data_completeness || 0) >= 35
+    ? strongest : null;
+
+  return {
+    available: available.length > 0,
+    pair_complete: pairComplete,
+    trusted_odds: officialPair,
+    market_group: "btts",
+    market_group_label: "Karşılıklı Gol",
+    recommended_key: recommendation?.key || "",
+    recommended_market: recommendation?.label || "Görüş oluşmadı",
+    recommendation_status: recommendation
+      ? (recommendation.independent_evidence ? "model_analysis" : "market_baseline")
+      : "insufficient_data",
+    model_version: MODEL_VERSION,
+    outcomes: {
+      bttsYes: compactMarketAnalysis(yes),
+      bttsNo: compactMarketAnalysis(no),
+    },
+  };
+};
+
+const candidateFor = (fixture, key, rule) => {
+  const evaluated = analyzeMarket(fixture, key);
+  if (!evaluated || evaluated.odd < rule.minOdd || evaluated.odd > rule.maxOdd) return null;
+  const entry = { odd: evaluated.odd, source: evaluated.odd_source_type };
+  const analysis = evaluated.analysis;
   const probabilityFloor = key === "msx" ? 27 : ["ms1", "ms2"].includes(key) ? 34 : 42;
   if (analysis.analysis_score < 42 || Number(analysis.estimated_probability || 0) < probabilityFloor) return null;
   if (entry.source === "raw_market_guess_odds" && analysis.data_completeness < 45) return null;
@@ -807,6 +906,8 @@ const buildCouponAnalysis = (fixtures = []) => {
 
 module.exports = {
   MODEL_VERSION,
+  analyzeMarket,
+  buildBttsAnalysis,
   scoreFixture,
   buildCouponAnalysis,
   buildMatchAnalysis,

@@ -1,7 +1,7 @@
 "use strict";
 
 const assert = require("node:assert/strict");
-const { MODEL_VERSION, scoreFixture, buildCouponAnalysis } = require("../scripts/robot-exact-scoring.js");
+const { MODEL_VERSION, buildBttsAnalysis, scoreFixture, buildCouponAnalysis, _internals } = require("../scripts/robot-exact-scoring.js");
 
 const test = (name, fn) => {
   try {
@@ -57,6 +57,42 @@ test("doğrulanmış gol metriği markete özel olasılık ve pozitif fark üret
   assert.ok(result.estimated_probability > result.market_probability);
   assert.ok(result.edge_percent > 0);
   assert.equal(result.model_version, MODEL_VERSION);
+});
+
+test("resmi KG Var/Yok çifti tek pazar olarak marjdan arındırılır", () => {
+  const fixture = base({
+    available_odds: { bttsYes: 1.82, bttsNo: 1.96 },
+    oddsSource: "iddaa.com resmi futbol bülteni",
+    bttsPercent: 63,
+    metric_quality: "verified",
+  });
+  const fair = _internals.fairProbabilityFor(fixture, "kgVar", {
+    odd: 1.82,
+    source: "standard",
+    key: "bttsYes",
+  });
+  const analysis = buildBttsAnalysis(fixture);
+  assert.equal(fair.complete, true);
+  assert.ok(Math.abs((analysis.outcomes.bttsYes.market_probability + analysis.outcomes.bttsNo.market_probability) - 100) < 0.2);
+  assert.equal(analysis.pair_complete, true);
+  assert.equal(analysis.trusted_odds, true);
+  assert.equal(analysis.outcomes.bttsYes.odd_source_type, "standard");
+  assert.match(analysis.outcomes.bttsYes.signals.join(" "), /Marjı temizlenmiş piyasa olasılığı/);
+});
+
+test("KG modeli iki tarafı da ayrı olasılık, risk ve gerekçeyle analiz eder", () => {
+  const analysis = buildBttsAnalysis(base({
+    available_odds: { bttsYes: 1.72, bttsNo: 2.08 },
+    bttsPercent: 68,
+    leagueGoalAverage: 3.1,
+    metric_quality: "verified",
+  }));
+  assert.equal(analysis.available, true);
+  assert.ok(analysis.outcomes.bttsYes.model_score > 0);
+  assert.ok(analysis.outcomes.bttsNo.model_score > 0);
+  assert.ok(["Düşük", "Orta", "Yüksek"].includes(analysis.outcomes.bttsYes.risk_level));
+  assert.ok(analysis.outcomes.bttsYes.signals.length >= 3);
+  assert.equal(analysis.model_version, MODEL_VERSION);
 });
 
 test("proxy metrik doğrulanmış metriğe göre veri kapsamını ve model gücünü düşürür", () => {
