@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 95
+- Scheduled match count: 14
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-08-31 / 2026-09-01 23:59
 
-- 2026-08-31 17:30 | Liepaja - Riga Fc | scheduled
-- 2026-08-31 18:00 | Gagra - Fc Iberia | scheduled
-- 2026-08-31 18:00 | Torpedo Kutais - Meshakhte | scheduled
-- 2026-08-31 18:00 | Malzenice - Mfk Bytca | scheduled
-- 2026-08-31 18:00 | Bukovyna - Dynamo Kiev | scheduled
-- 2026-08-31 18:30 | Simba - Geita Gold | scheduled
-- 2026-08-31 18:40 | Al Sulaibikhat - Al Shabab | scheduled
-- 2026-08-31 18:45 | Al Talaba - Naft | scheduled
-- 2026-08-31 18:45 | Dziugas Telsia - Hegelmann | scheduled
-- 2026-08-31 19:00 | Bayern München - Mainz 05 (K) | scheduled
+- 2026-09-01 01:00 | Defensa Justic - Platense | scheduled
+- 2026-09-01 01:00 | Estudiantes Lp - Newells Old Boy | scheduled
+- 2026-09-01 01:00 | Los Andes - Acassuso | scheduled
+- 2026-09-01 01:15 | Union La Caler - La Serena | scheduled
+- 2026-09-01 01:30 | Fortaleza Ce - Operario | scheduled
+- 2026-09-01 01:30 | Ucv - Rayo Zuliano | scheduled
+- 2026-09-01 02:00 | Remo - Coritiba | scheduled
+- 2026-09-01 02:00 | Deportivo Past - Pereira | scheduled
+- 2026-09-01 02:30 | Academia Puert - Academia Anzoat | scheduled
+- 2026-09-01 03:00 | Gimnasia Jujuy - Agropecuario | scheduled

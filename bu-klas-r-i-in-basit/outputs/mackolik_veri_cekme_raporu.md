@@ -1,72 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-31T14:29:14.157376+00:00
+Tarih: 2026-08-31T20:18:38.080926+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 96
-- Kac mac kaydedildi: 4
-- Kac mac zaten vardi: 92
+- Kac mac bulundu: 18
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 18
 - Ham veri havuzu toplam mac sayisi: 10760
 - Hedef tarih: 31.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Almanya Kadınlar Bundesliga
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Azerbaycan Premier Lig
 - Brezilya Serie A
 - Brezilya Serie B
-- Bulgaristan 1.Lig
-- Danimarka Süperlig
-- Faroe Adaları Master Lig
-- Finlandiya Veikkausliiga
-- Fransa Ligue 2
 - Galler FAW Championship Güney
-- Galler Premier Lig 1.Aşama
-- Gürcistan Erovnuli Liga
-- Hollanda Eerste Divisie
-- Hırvatistan 1.HNL
-- Irak Premier Lig
 - Kolombiya Primera A Clausura
-- Kuveyt Premier Lig
-- Letonya Virsliga
-- Litvanya A Ligi
-- Macaristan NB II
-- Mısır Premier Lig
-- Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 3
-- Norveç 3.Lig Grup 4
-- Norveç 3.Lig Grup 6
-- Portekiz Premier Lig
-- Romanya 1.Lig
-- Rusya FNL
-- Slovakya 2.Lig
-- Suudi Arabistan 1.Lig
-- Sırbistan Süper Lig
-- Tanzanya Kuu Bara Ligi
-- Türkiye Süper Lig
-- Ukrayna Premier Lig
-- Umman Profesyonel Lig
-- Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
-- Yunanistan Süper Lig
-- İngiltere Non League Premier Güney Merkez
-- İngiltere Premier Lig
-- İngiltere Premier Lig 2
-- İspanya 2.Lig
-- İspanya LaLiga
-- İspanya Primera Lig RFEF Grup 1
-- İspanya Primera Lig RFEF Grup 2
-- İsveç Allsvenskan
-- İsveç Superettan
-- İsviçre Challenge Lig
-- İtalya Serie A
-- İtalya Serie C Grup A
-- İzlanda Urvalsdeild
 - Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
@@ -124,8 +78,8 @@ Tarih: 2026-08-31T14:29:14.157376+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 54
-- Acilan detay: 54
+- Denenen Tumu alani: 8
+- Acilan detay: 8
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -138,26 +92,24 @@ Tarih: 2026-08-31T14:29:14.157376+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 31.08.2026 | 21:30 | Türkiye Süper Lig | Beşiktaş | Çorum | 06565 | 5 |
-| 31.08.2026 | 21:30 | Türkiye Süper Lig | Amed Sk | Trabzonspor | 06562 | 5 |
-| 31.08.2026 | 22:00 | İngiltere Premier Lig | Aston Villa | Arsenal | 14098 | 5 |
-| 31.08.2026 | 20:30 | İspanya LaLiga | Osasuna | Getafe | 19326 | 5 |
-| 31.08.2026 | 22:30 | İspanya LaLiga | Barcelona | Vallecano | 19384 | 4 |
-| 31.08.2026 | 19:30 | İtalya Serie A | Lecce | Roma | 24392 | 5 |
-| 31.08.2026 | 21:45 | İtalya Serie A | Atalanta | Bologna | 24450 | 5 |
-| 31.08.2026 | 22:15 | Portekiz Premier Lig | Benfica | Estoril | 29164 | 4 |
-| 31.08.2026 | 22:15 | Portekiz Premier Lig | Braga | Guimaraes | 29221 | 5 |
-| 31.08.2026 | 20:00 | İspanya 2.Lig | Burgos | Real Sociedad I | 20245 | 5 |
-| 31.08.2026 | 22:30 | İspanya 2.Lig | Celta Vigo Ii | Castellon | 20303 | 5 |
-| 31.08.2026 | 21:45 | Fransa Ligue 2 | Dijon | St Etienne | 27428 | 5 |
-| 31.08.2026 | 21:00 | Hollanda Eerste Divisie | Psv (B) | Ajax (B) | 29819 | 5 |
-| 31.08.2026 | 21:00 | Hollanda Eerste Divisie | Jong Az Alkmaa | Utrecht (Ii) | 10690 | 5 |
-| 31.08.2026 | 20:00 | Danimarka Süperlig | Kopenhag | Sonderjyske | 35479 | 5 |
-| 31.08.2026 | 19:30 | Yunanistan Süper Lig | Apo Levadeiako | Panathinaikos | 36380 | 5 |
-| 31.08.2026 | 20:00 | İsveç Allsvenskan | Sirius | Malmö | 40807 | 5 |
-| 31.08.2026 | 20:00 | İsveç Allsvenskan | Gais | Brommapojkarna | 40753 | 5 |
-| 31.08.2026 | 20:00 | İsveç Allsvenskan | Djurgarden | Mjallby | 40699 | 5 |
-| 31.08.2026 | 19:00 | Finlandiya Veikkausliiga | Mariehamn | Jaro | 35851 | 5 |
+| 01.09.2026 | 02:00 | Brezilya Serie A | Remo | Coritiba | 32744 | 5 |
+| 01.09.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Tigre | Barracas | 31729 | 5 |
+| 01.09.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Instituto Cord | San Lorenzo | 31788 | 5 |
+| 01.09.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp | Newells Old Boy | 31655 | 5 |
+| 01.09.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Defensa Justic | Platense | 31597 | 5 |
+| 01.09.2026 | 02:00 | Kolombiya Primera A Clausura | Deportivo Past | Pereira | 04681 | 5 |
+| 01.09.2026 | 04:05 | Kolombiya Primera A Clausura | Deportes Tolim | Depor Cucuta | 54827 | 5 |
+| 01.09.2026 | 02:30 | Venezuela Premier Lig Clausura | Academia Puert | Academia Anzoat | 31886 | 5 |
+| 01.09.2026 | 01:30 | Venezuela Premier Lig Clausura | Ucv | Rayo Zuliano | 06105 | 5 |
+| 01.09.2026 | 01:15 | Şili Premier Lig | Union La Caler | La Serena | 41581 | 5 |
+| 01.09.2026 | 03:45 | Şili Premier Lig | Univ. Catolica | O Higgins | 41598 | 5 |
+| 01.09.2026 | 01:00 | Arjantin Ulusal Primera Lig | Los Andes | Acassuso | 30913 | 3 |
+| 01.09.2026 | 03:00 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy | Agropecuario | 31713 | 5 |
+| 01.09.2026 | 01:30 | Brezilya Serie B | Fortaleza Ce | Operario | 32711 | 5 |
+| 31.08.2026 | 16:30 | Galler FAW Championship Güney | Newport City | Swansea Univers | 13262 | 3 |
+| 31.08.2026 | 16:30 | Galler FAW Championship Güney | Cardiff Dracon | Pontardawe | 14477 | 3 |
+| 31.08.2026 | 16:30 | Galler FAW Championship Güney | Pontypridd Tow | Llantwit Major | 15383 | 3 |
+| 31.08.2026 | 16:30 | Galler FAW Championship Güney | Baglan Dragons | Caerphilly Athl | 21720 | 5 |
 
 ## Sonuc
 
