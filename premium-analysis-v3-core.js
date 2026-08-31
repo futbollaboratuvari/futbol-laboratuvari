@@ -506,7 +506,7 @@
     while (reasons.length < 3) reasons.push(fallback[reasons.length] || fallback[0]);
     return {
       match,
-      type: "goals",
+      type: "btts",
       market: outcome.label,
       odd: outcome.odd ?? match.odds[key] ?? null,
       confidence: modelScore === null ? null : Math.round(modelScore),

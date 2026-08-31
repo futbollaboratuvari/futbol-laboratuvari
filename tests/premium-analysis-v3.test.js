@@ -123,9 +123,44 @@ test("doğrudan KG Var/Yok analiz türü güçlü tarafı otomatik seçer", () =
       },
     },
   }, "btts");
+  assert.equal(result.type, "btts");
   assert.equal(result.market, "KG Var");
   assert.equal(result.noPick, false);
   assert.equal(result.estimatedProbability, 61);
+});
+
+test("KG kupon analizi hiçbir ayakta taraf marketine dönmez", () => {
+  const kgMatch = (home, away, recommendedKey, yesProbability, noProbability) => ({
+    date: "2026-08-24",
+    time: "20:00",
+    home,
+    away,
+    status: "scheduled",
+    available_odds: { ms1: 1.45, msx: 4.1, ms2: 5.8, bttsYes: 1.78, bttsNo: 2.02 },
+    proAnalysis: {
+      available: true,
+      fresh: true,
+      recommended_market: "MS 1",
+      btts_analysis: {
+        available: true,
+        pair_complete: true,
+        trusted_odds: true,
+        recommended_key: recommendedKey,
+        model_version: "pro13-btts-conditioned-v2",
+        outcomes: {
+          bttsYes: { key: "bttsYes", label: "KG Var", odd: 1.78, model_score: yesProbability, estimated_probability: yesProbability, market_probability: 53.2, data_completeness: 66, independent_evidence: true, risk_level: "Orta", signals: ["KG Var ölçüldü."] },
+          bttsNo: { key: "bttsNo", label: "KG Yok", odd: 2.02, model_score: noProbability, estimated_probability: noProbability, market_probability: 46.8, data_completeness: 66, independent_evidence: true, risk_level: "Orta", signals: ["KG Yok ölçüldü."] },
+        },
+      },
+    },
+  });
+  const coupon = core.analyzeCoupon([
+    kgMatch("KG Var A", "KG Var B", "bttsYes", 62, 38),
+    kgMatch("KG Yok A", "KG Yok B", "bttsNo", 41, 59),
+  ], "btts");
+  assert.deepEqual(coupon.legs.map((leg) => leg.market), ["KG Var", "KG Yok"]);
+  assert.ok(coupon.legs.every((leg) => leg.type === "btts"));
+  assert.ok(coupon.legs.every((leg) => !/^MS\s/i.test(leg.market)));
 });
 
 test("desteklenmeyen KG tarafı sahte öneriye çevrilmeden ölçülü görüş olarak kalır", () => {

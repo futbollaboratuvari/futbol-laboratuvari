@@ -19,6 +19,14 @@
     : "https://futbol-laboratuvari.vercel.app";
   const PAGE_SIZE = 12;
   const MAX_COUPON = 10;
+  const ANALYSIS_TYPES = new Set(["robot", "match", "goals", "btts", "advanced"]);
+  const ANALYSIS_TYPE_LABELS = {
+    robot: "PRO Robot",
+    match: "Maç Sonucu",
+    goals: "Gol",
+    btts: "KG Var / Yok",
+    advanced: "Gelişmiş Market",
+  };
 
   const state = {
     bulletin: [],
@@ -34,7 +42,12 @@
     loading: true,
     proMeta: null,
     proLoading: false,
+    modeTouched: false,
+    typeTouched: false,
   };
+
+  const normalizeAnalysisType = (value) => ANALYSIS_TYPES.has(String(value || "")) ? String(value) : "robot";
+  const analysisTypeLabel = (value) => ANALYSIS_TYPE_LABELS[normalizeAnalysisType(value)] || ANALYSIS_TYPE_LABELS.robot;
 
   const esc = (value) => String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -230,7 +243,11 @@
     }
     if (analyze) {
       analyze.disabled = state.loading || state.selected.size === 0;
-      analyze.textContent = state.mode === "single" ? "Analizi Oluştur" : `Kuponu Analiz Et (${state.selected.size})`;
+      analyze.dataset.pa3CurrentType = state.type;
+      const typeLabel = analysisTypeLabel(state.type);
+      analyze.textContent = state.mode === "single"
+        ? `${typeLabel} Analizini Oluştur`
+        : `${typeLabel} Kuponunu Analiz Et (${state.selected.size})`;
     }
     syncHiddenSelect();
     updateSteps();
@@ -284,7 +301,8 @@
     updateSelectionSummary();
   };
 
-  const setMode = (mode) => {
+  const setMode = (mode, options = {}) => {
+    if (options.user === true) state.modeTouched = true;
     state.mode = mode === "coupon" ? "coupon" : "single";
     if (state.mode === "single" && state.selected.size > 1) {
       state.selected = new Set([state.selected.values().next().value]);
@@ -300,8 +318,9 @@
     renderMatches();
   };
 
-  const setType = (type) => {
-    state.type = ["match", "goals", "btts", "advanced"].includes(type) ? type : "robot";
+  const setType = (type, options = {}) => {
+    if (options.user === true) state.typeTouched = true;
+    state.type = normalizeAnalysisType(type);
     state.resultReady = false;
     root()?.querySelectorAll("[data-pa3-type]").forEach((button) => {
       const active = button.dataset.pa3Type === state.type;
@@ -310,7 +329,7 @@
     });
     const advanced = query("[data-pa3-advanced]");
     if (advanced) advanced.open = state.type === "advanced";
-    updateSteps();
+    updateSelectionSummary();
   };
 
   const toggleMatch = (id) => {
@@ -471,11 +490,11 @@
     <p class="fl-pa3-disclaimer">Model gücü, sinyallerin tutarlılığını gösterir; kazanma olasılığı değildir. Tahmini olasılık da belirsizlik içerir ve kesin sonuç garantisi vermez.</p>
     <div class="fl-pa3-result-actions"><button type="button" data-pa3-copy>Sonucu Kopyala</button><button type="button" data-pa3-new>Yeni Analiz</button></div>`;
 
-  const couponResultHtml = (coupon) => `<div class="fl-pa3-result-head">
-      <span class="fl-pa3-kicker">3 · Kupon Sonucu</span>
+  const couponResultHtml = (coupon, type = "robot") => `<div class="fl-pa3-result-head">
+      <span class="fl-pa3-kicker">3 · ${esc(analysisTypeLabel(type))} Kupon Sonucu</span>
       <span class="fl-pa3-risk is-${riskClass(coupon.risk)}">${esc(coupon.risk)} risk</span>
     </div>
-    <h3>${coupon.legs.length} maçlık kupon görünümü</h3>
+    <h3>${coupon.legs.length} maçlık ${esc(analysisTypeLabel(type))} analizi</h3>
     <div class="fl-pa3-coupon-summary"><div><span>Ort. model gücü</span><strong>${esc(modelScoreText(coupon.averageModelScore))}</strong></div><div><span>Robot görüşü</span><strong>${esc(coupon.opinionCount)}/${esc(coupon.legs.length)}</strong></div><div><span>Kupona uygun</span><strong>${esc(coupon.pickedCount)}/${esc(coupon.legs.length)}</strong></div><div><span>Birleşik olasılık</span><strong>${esc(percentText(coupon.combinedProbability, 2))}</strong></div><div><span>Toplam oran</span><strong>${esc(oddText(coupon.totalOdd))}</strong></div></div>
     <div class="fl-pa3-coupon-legs">${coupon.legs.map((leg, index) => `<article class="${leg.noPick ? "is-no-pick" : ""}"><span>${index + 1}</span><div><strong>${esc(leg.match.home)} – ${esc(leg.match.away)}</strong><small>${esc(leg.market)} · ${esc(couponLegStatus(leg))} · Model ${esc(modelScoreText(leg.modelScore ?? leg.confidence))} · ${esc(percentText(leg.estimatedProbability, 1))} · Kadro ${esc(leg.match.pro?.squadRiskLevel || "Belirsiz")}</small></div><b>${esc(oddText(leg.odd))}</b></article>`).join("")}</div>
     <div class="fl-pa3-reasons"><h4>Kupon notu</h4><ol><li>Toplam oran ve birleşik olasılık yalnız bütün ayaklar kupona uygun olduğunda hesaplanır.</li><li>${esc(coupon.watchCount)} izleme görüşü marketiyle birlikte gösterildi fakat kupon hesabına katılmadı.</li><li>${esc(coupon.unavailableCount)} maçta güvenilir market görüşü oluşmadı; eksik veriyle tahmin uydurulmadı.</li></ol></div>
@@ -575,7 +594,41 @@
     input.focus();
   };
 
-  const handleAnalyze = () => {
+  const selectedTypeFromUi = () => normalizeAnalysisType(
+    query('[data-pa3-type][aria-pressed="true"]')?.dataset.pa3Type || state.type,
+  );
+
+  const requestedTypeFor = (button) => normalizeAnalysisType(
+    button?.dataset.pa3RequestedType
+      || button?.dataset.pa3CurrentType
+      || selectedTypeFromUi(),
+  );
+
+  const enforceRequestedType = (result, requestedType) => {
+    if (requestedType !== "btts") return result;
+    const market = String(result?.market || "");
+    if (/^KG (Var|Yok)$/i.test(market) || /görüş oluşmadı/i.test(market)) {
+      return { ...result, type: "btts" };
+    }
+    return {
+      ...result,
+      type: "btts",
+      market: "KG görüşü oluşmadı",
+      odd: null,
+      noPick: true,
+      hasOpinion: false,
+      couponEligible: false,
+      recommendationStatus: "unavailable",
+      headline: "KG analizi taraf marketinden ayrıldı",
+      reasons: [
+        "KG Var / Yok analizi seçildiği için taraf marketi sonucu reddedildi.",
+        "Yalnız resmi KG Var ve KG Yok oran çiftiyle sonuç üretilir.",
+        "Güvenilir KG görüşü oluşmadığında seçim zorlanmaz.",
+      ],
+    };
+  };
+
+  const handleAnalyze = (analyzeButton) => {
     const matches = selectedMatches();
     if (!matches.length) {
       setMessage("Analiz için önce en az bir maç seç.", "warning");
@@ -588,14 +641,20 @@
 
     const output = query("[data-pa-output]");
     if (!output) return;
-    const advanced = state.type === "advanced" ? state.advancedMarket : "";
+    const requestedType = requestedTypeFor(analyzeButton);
+    setType(requestedType);
+    if (analyzeButton) delete analyzeButton.dataset.pa3RequestedType;
+    const advanced = requestedType === "advanced" ? state.advancedMarket : "";
     if (state.mode === "single") {
-      const result = CORE.analyze(matches[0], state.type, advanced);
+      const result = enforceRequestedType(CORE.analyze(matches[0], requestedType, advanced), requestedType);
       output.innerHTML = singleResultHtml(result);
       persistResults([result]);
     } else {
-      const coupon = CORE.analyzeCoupon(matches, state.type, advanced);
-      output.innerHTML = couponResultHtml(coupon);
+      const rawCoupon = CORE.analyzeCoupon(matches, requestedType, advanced);
+      const coupon = requestedType === "btts"
+        ? { ...rawCoupon, legs: rawCoupon.legs.map((result) => enforceRequestedType(result, requestedType)) }
+        : rawCoupon;
+      output.innerHTML = couponResultHtml(coupon, requestedType);
       persistResults(coupon.legs);
     }
     consumeLocalRight();
@@ -607,7 +666,7 @@
     setMessage(analysisCount > 0 && analysisCount % 3 === 0
       ? "Analiz hazır. Kısa bir ara verip bütçe ve süre sınırını yeniden kontrol et."
       : "Analiz hazırlandı. Risk, olasılık ve veri kapsamını birlikte değerlendir.", analysisCount % 3 === 0 ? "warning" : "success");
-    document.dispatchEvent(new CustomEvent("fl:premium-analysis-complete", { detail: { mode: state.mode, count: matches.length } }));
+    document.dispatchEvent(new CustomEvent("fl:premium-analysis-complete", { detail: { mode: state.mode, type: requestedType, count: matches.length } }));
     if (window.matchMedia("(max-width: 900px)").matches) output.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
@@ -695,9 +754,9 @@
 
     shell.addEventListener("click", (event) => {
       const mode = event.target.closest?.("[data-pa3-mode]");
-      if (mode) return setMode(mode.dataset.pa3Mode);
+      if (mode) return setMode(mode.dataset.pa3Mode, { user: true });
       const type = event.target.closest?.("[data-pa3-type]");
-      if (type) return setType(type.dataset.pa3Type);
+      if (type) return setType(type.dataset.pa3Type, { user: true });
       const match = event.target.closest?.("[data-pa3-match-id]");
       if (match) return toggleMatch(match.dataset.pa3MatchId);
       if (event.target.closest?.("[data-pa3-more]")) {
@@ -707,7 +766,8 @@
       }
       if (event.target.closest?.("[data-pa3-copy]")) return copyResult();
       if (event.target.closest?.("[data-pa3-new]")) return resetAnalysis();
-      if (event.target.closest?.("[data-pa-analyze]")) return handleAnalyze();
+      const analyze = event.target.closest?.("[data-pa-analyze]");
+      if (analyze) return handleAnalyze(analyze);
     });
 
     shell.addEventListener("input", (event) => {
@@ -728,7 +788,7 @@
       }
       if (event.target.matches("[data-pa3-advanced-market]")) {
         state.advancedMarket = event.target.value;
-        setType("advanced");
+        setType("advanced", { user: true });
       }
     });
 
@@ -905,8 +965,8 @@
     updateProStatus();
     renderDates();
     renderMatches();
-    setMode("single");
-    setType("robot");
+    if (!state.modeTouched) setMode("single");
+    if (!state.typeTouched) setType("robot");
     setMessage(state.matches.length
       ? "Başlamamış maçlardan birini seçerek ilerle."
       : "Güncel yaklaşan maç bulunamadı; bülten yenilendiğinde liste otomatik açılır.", state.matches.length ? "info" : "warning");

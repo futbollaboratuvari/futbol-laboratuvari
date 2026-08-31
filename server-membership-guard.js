@@ -217,6 +217,13 @@
       return;
     }
 
+    // Üyelik ve korumalı veri kontrolü asenkron sürerken kullanıcının seçtiği
+    // analiz türünü kilitle. Böylece KG seçimi yeniden oynatılan tıklamada
+    // varsayılan PRO Robot / taraf marketine dönemez.
+    const activeType = document.querySelector('#premium-analysis-panel [data-pa3-type][aria-pressed="true"]')?.dataset.pa3Type
+      || analyze.dataset.pa3CurrentType;
+    if (activeType) analyze.dataset.pa3RequestedType = activeType;
+
     // Kullanıcı en az bir gerçek maç seçmiş olmalı.
     // Seçim yoksa mevcut panel kendi "En az 1 maç seç" uyarısını gösterebilir.
     const matchSelect = document.querySelector("#premium-analysis-panel [data-pa-match]");

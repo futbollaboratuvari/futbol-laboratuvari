@@ -138,6 +138,7 @@ function testStaticProtectionAndConsent() {
   const index = read("index.html");
   const main = read("script.js");
   const premium = read("premium-analysis-v3.js");
+  const membershipGuard = read("server-membership-guard.js");
   const insights = read("analysis-insights-v1.js");
   const build = read("scripts/vercel-build.js");
   const cookie = read("cookie-consent.js");
@@ -172,6 +173,10 @@ function testStaticProtectionAndConsent() {
   assert.match(navigation, /parentPanelForHash/);
   assert.match(navigation, /#membership-code-access.*#premium-analysis-panel/);
   assert.match(premium, /id: "premium-analysis-panel", scroll: false/);
+  assert.match(premium, /pa3RequestedType/);
+  assert.match(premium, /if \(!state\.typeTouched\) setType\("robot"\)/);
+  assert.match(premium, /KG Var \/ Yok Kuponunu Analiz Et|analysisTypeLabel/);
+  assert.match(membershipGuard, /pa3RequestedType = activeType/);
   assert.match(payment, /futbol-laboratuvari\.vercel\.app/);
   assert.match(payment, /Kodu Kullan ve Özel Analize Git/);
   assert.match(legalProfile, /futbol-laboratuvari\.vercel\.app/);
