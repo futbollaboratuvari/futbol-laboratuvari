@@ -3,19 +3,14 @@
 Gunler: 2026-08-31 / 2026-09-01
 Kaynak: fixtures.json
 Ham mac: 220
-Aktif mac: 191
+Aktif mac: 186
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 29
-Bugun: 177
+Bultenden dusurulen mac: 34
+Bugun: 172
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-08-31 03:00 | Meksika Liga MX Apertura | Toluca - Fc Juarez | scheduled | -
-- 2026-08-31 03:00 | Peru Premier Lig Clausura | Cienciano - Cusco Fc | scheduled | -
-- 2026-08-31 03:00 | Şili Premier Lig | Coquimbo Unido - Huachipato | scheduled | -
-- 2026-08-31 03:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Liberia | scheduled | -
-- 2026-08-31 03:30 | Arjantin Premier Lig 2. Aşama | Rivadavia - Racing Club | scheduled | -
 - 2026-08-31 04:00 | Guatemala Ulusal Lig Apertura | Xelaju - Mixco | scheduled | -
 - 2026-08-31 04:00 | Nikaragua Premier Lig Apertura | Unan Managua - Managua | scheduled | -
 - 2026-08-31 04:20 | Kolombiya Primera A Clausura | Deportivo Cali - Bucaramanga | scheduled | -
