@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-31 / 2026-09-01
 Kaynak: fixtures.json
-Ham mac: 200
-Aktif mac: 182
+Ham mac: 221
+Aktif mac: 183
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 18
-Bugun: 168
+Bultenden dusurulen mac: 38
+Bugun: 169
 Yarin: 14
 
 ## Baslamamis Maclar
@@ -158,6 +158,7 @@ Yarin: 14
 - 2026-08-31 21:00 | Hollanda Eerste Divisie | Psv (B) - Ajax (B) | scheduled | -
 - 2026-08-31 21:00 | İngiltere Premier Lig 2 | Newcastle (B) - Fulham (B) | scheduled | -
 - 2026-08-31 21:00 | İngiltere Premier Lig 2 | Brighton (B) - Arsenal U21 | scheduled | -
+- 2026-08-31 21:00 | Irak Premier Lig | Erbil Sc - Al Minaa Basra | scheduled | -
 - 2026-08-31 21:15 | Bulgaristan 1.Lig | Arda Kardzhali - Botev Vratsa | scheduled | -
 - 2026-08-31 21:15 | İsviçre Challenge Lig | Wil - Aarau | scheduled | -
 - 2026-08-31 21:30 | Türkiye Süper Lig | Beşiktaş - Çorum | scheduled | -

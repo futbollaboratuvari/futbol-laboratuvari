@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-31T00:48:28.290795+00:00
+Tarih: 2026-08-31T06:44:12.359677+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 183
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 184
+- Kac mac kaydedildi: 1
 - Kac mac zaten vardi: 183
-- Ham veri havuzu toplam mac sayisi: 10755
+- Ham veri havuzu toplam mac sayisi: 10756
 - Hedef tarih: 31.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -152,15 +152,15 @@ Tarih: 2026-08-31T00:48:28.290795+00:00
 | 31.08.2026 | 22:00 | İngiltere Premier Lig | Aston Villa | Arsenal | 14098 | 5 |
 | 31.08.2026 | 20:30 | İspanya LaLiga | Osasuna | Getafe | 19326 | 5 |
 | 31.08.2026 | 22:30 | İspanya LaLiga | Barcelona | Vallecano | 19384 | 4 |
-| 31.08.2026 | 19:30 | İtalya Serie A | Lecce | Roma | 24392 | 5 |
 | 31.08.2026 | 21:45 | İtalya Serie A | Atalanta | Bologna | 24450 | 5 |
-| 31.08.2026 | 22:15 | Portekiz Premier Lig | Benfica | Estoril | 29164 | 4 |
+| 31.08.2026 | 19:30 | İtalya Serie A | Lecce | Roma | 24392 | 5 |
 | 31.08.2026 | 22:15 | Portekiz Premier Lig | Braga | Guimaraes | 29221 | 5 |
-| 31.08.2026 | 20:00 | İspanya 2.Lig | Burgos | Real Sociedad I | 20245 | 5 |
+| 31.08.2026 | 22:15 | Portekiz Premier Lig | Benfica | Estoril | 29164 | 4 |
 | 31.08.2026 | 22:30 | İspanya 2.Lig | Celta Vigo Ii | Castellon | 20303 | 5 |
+| 31.08.2026 | 20:00 | İspanya 2.Lig | Burgos | Real Sociedad I | 20245 | 5 |
 | 31.08.2026 | 21:45 | Fransa Ligue 2 | Dijon | St Etienne | 27428 | 5 |
-| 31.08.2026 | 21:00 | Hollanda Eerste Divisie | Jong Az Alkmaa | Utrecht (Ii) | 10690 | 5 |
 | 31.08.2026 | 21:00 | Hollanda Eerste Divisie | Psv (B) | Ajax (B) | 29819 | 5 |
+| 31.08.2026 | 21:00 | Hollanda Eerste Divisie | Jong Az Alkmaa | Utrecht (Ii) | 10690 | 5 |
 | 31.08.2026 | 20:00 | Danimarka Süperlig | Kopenhag | Sonderjyske | 35479 | 5 |
 | 31.08.2026 | 19:30 | Yunanistan Süper Lig | Apo Levadeiako | Panathinaikos | 36380 | 5 |
 | 31.08.2026 | 20:00 | İsveç Allsvenskan | Gais | Brommapojkarna | 40753 | 5 |
