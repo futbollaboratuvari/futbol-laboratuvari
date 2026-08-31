@@ -7,6 +7,7 @@ const {
   normalizeBulletin,
   normalizeEvent,
 } = require("../scripts/iddaa-data-source");
+const iddaaApi = require("../api/iddaa-bulletin");
 
 const config = {
   data: {
@@ -70,9 +71,20 @@ assert.strictEqual(detail.raw_market_blocks.length, 3);
 assert.ok(detail.market_groups.every((market) => market.id && market.outcomes.length));
 
 const widget = fs.readFileSync(path.join(__dirname, "..", "daily-matches-widget.js"), "utf8");
-assert.match(widget, /readJson\("\/api\/iddaa-bulletin"\)/, "widget must load the official same-origin feed");
+assert.match(widget, /https:\/\/futbol-laboratuvari\.vercel\.app/, "GitHub Pages must use the production API origin");
+assert.match(widget, /readJson\(officialApiUrl\(\)\)/, "widget must load the official feed");
+assert.match(widget, /readJson\(officialApiUrl\(eventId\)\)/, "match detail must use the same official API bridge");
 assert.match(widget, /data-row-toggle=/, "the complete match row must be clickable");
 assert.match(widget, /data-dynamic-pick=/, "all detail outcomes must be selectable");
 assert.match(widget, /Tüm İddaa Pazarları/, "the full market panel must be visible");
+
+assert.strictEqual(iddaaApi.originAllowed("https://futbollaboratuuvari.org"), true);
+assert.strictEqual(iddaaApi.originAllowed("https://www.futbollaboratuuvari.org"), true);
+assert.strictEqual(iddaaApi.originAllowed("https://evil.example"), false);
+const corsHeaders = {};
+assert.strictEqual(iddaaApi.configureCors({ headers: { origin: "https://futbollaboratuuvari.org" } }, {
+  setHeader(name, value) { corsHeaders[name] = value; },
+}), true);
+assert.strictEqual(corsHeaders["Access-Control-Allow-Origin"], "https://futbollaboratuuvari.org");
 
 console.log("iddaa-data-source.test.js: OK");

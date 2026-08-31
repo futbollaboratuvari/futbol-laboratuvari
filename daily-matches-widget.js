@@ -1,6 +1,10 @@
 (() => {
   const KEY = "__flDailyWidget";
   const PAGE_SIZE = 30;
+  const OFFICIAL_API_ORIGIN = /(^|\.)vercel\.app$/i.test(window.location.hostname)
+    ? ""
+    : "https://futbol-laboratuvari.vercel.app";
+  const officialApiUrl = (eventId = "") => `${OFFICIAL_API_ORIGIN}/api/iddaa-bulletin${eventId ? `?eventId=${encodeURIComponent(eventId)}` : ""}`;
   if (window[KEY]?.off) window[KEY].off();
 
   const app = {
@@ -246,7 +250,7 @@
 
   async function load() {
     const [officialRes, fullRes, liveRes] = await Promise.all([
-      readJson("/api/iddaa-bulletin"),
+      readJson(officialApiUrl()),
       readJson("./data/full-bulletin.json"),
       readJson("./data/live-matches.json")
     ]);
@@ -430,7 +434,7 @@
     app.detailLoading.add(id);
     app.detailErrors.delete(id);
     drawRows();
-    const response = await readJson(`/api/iddaa-bulletin?eventId=${encodeURIComponent(eventId)}`);
+    const response = await readJson(officialApiUrl(eventId));
     if (response.ok && response.data?.match && String(response.data.match.iddaa_event_id) === eventId) {
       app.details.set(id, { ...item, ...response.data.match, _id: item._id });
     } else {
