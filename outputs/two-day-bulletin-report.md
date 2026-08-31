@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-31 / 2026-09-01
 Kaynak: fixtures.json
-Ham mac: 183
-Aktif mac: 89
+Ham mac: 225
+Aktif mac: 93
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 94
-Bugun: 75
+Bultenden dusurulen mac: 132
+Bugun: 79
 Yarin: 14
 
 ## Baslamamis Maclar
@@ -31,6 +31,8 @@ Yarin: 14
 - 2026-08-31 19:00 | Norveç 3.Lig Grup 3 | Fana - Brann Ii | scheduled | -
 - 2026-08-31 19:00 | Norveç 3.Lig Grup 3 | Asane Ii - Sogndal Ii | scheduled | -
 - 2026-08-31 19:00 | Norveç 3.Lig Grup 6 | Lyn Oslo B - Sandefjord Ii | scheduled | -
+- 2026-08-31 19:00 | Almanya Kadınlar Bundesliga | Bayern München - Mainz 05 (K) | scheduled | -
+- 2026-08-31 19:00 | Norveç 3.Lig Grup 4 | Madla - Odd Bk Ii | scheduled | -
 - 2026-08-31 19:05 | Suudi Arabistan 1.Lig | Al Bukayriyah - Al Adalah | scheduled | -
 - 2026-08-31 19:05 | Suudi Arabistan 1.Lig | Al-Saqer - Al Akhdoud | scheduled | -
 - 2026-08-31 19:15 | Azerbaycan Premier Lig | Sumqayit - Qarabagh | scheduled | -
@@ -54,6 +56,7 @@ Yarin: 14
 - 2026-08-31 20:00 | Gürcistan Erovnuli Liga | Dinamo Tiflis - Dila Gori | scheduled | -
 - 2026-08-31 20:00 | İspanya Primera Lig RFEF Grup 1 | Ud Logrones - Extremadura 192 | scheduled | -
 - 2026-08-31 20:00 | Norveç 3.Lig Grup 2 | Rosenborg 2 - Byasen | scheduled | -
+- 2026-08-31 20:00 | Norveç 3.Lig Grup 6 | Sarpsborg 08 I - Rade | scheduled | -
 - 2026-08-31 20:30 | İspanya LaLiga | Osasuna - Getafe | scheduled | -
 - 2026-08-31 20:30 | Romanya 1.Lig | Rapid Bükreş - Universitatea C | scheduled | -
 - 2026-08-31 20:30 | Macaristan NB II | Szeged 2011 - Kazincbarcika | scheduled | -
@@ -65,6 +68,7 @@ Yarin: 14
 - 2026-08-31 21:00 | İngiltere Premier Lig 2 | Newcastle (B) - Fulham (B) | scheduled | -
 - 2026-08-31 21:00 | İngiltere Premier Lig 2 | Brighton (B) - Arsenal U21 | scheduled | -
 - 2026-08-31 21:00 | Irak Premier Lig | Erbil Sc - Al Minaa Basra | scheduled | -
+- 2026-08-31 21:00 | Tanzanya Kuu Bara Ligi | Kagera Sugar - Azam Fc | scheduled | -
 - 2026-08-31 21:15 | Bulgaristan 1.Lig | Arda Kardzhali - Botev Vratsa | scheduled | -
 - 2026-08-31 21:15 | İsviçre Challenge Lig | Wil - Aarau | scheduled | -
 - 2026-08-31 21:30 | Türkiye Süper Lig | Beşiktaş - Çorum | scheduled | -

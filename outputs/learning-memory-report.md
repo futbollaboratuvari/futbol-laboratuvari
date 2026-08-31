@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 31.08.2026 17:08:50
+Oluşturma: 31.08.2026 17:29:48
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1094
-- Kazanan tahmin: 221
+- Bekleyen tahmin: 1096
+- Kazanan tahmin: 219
 - Kaybeden tahmin: 185
 - Lig sayısı: 193
 - Seçenek sayısı: 7
@@ -22,27 +22,27 @@ Oluşturma: 31.08.2026 17:08:50
 
 - MS X: toplam 3, bekleyen 2, başarı %100, ağırlık 1
 - KG Var: toplam 2, bekleyen 1, başarı %100, ağırlık 1
-- 2.5 Üst: toplam 208, bekleyen 118, başarı %67, ağırlık 1.12
-- MS 1: toplam 485, bekleyen 396, başarı %54, ağırlık 1
-- MS 2: toplam 193, bekleyen 161, başarı %53, ağırlık 1
-- 2.5 Alt: toplam 608, bekleyen 415, başarı %49, ağırlık 1
+- 2.5 Üst: toplam 207, bekleyen 118, başarı %66, ağırlık 1.12
+- MS 1: toplam 486, bekleyen 397, başarı %54, ağırlık 1
+- MS 2: toplam 195, bekleyen 163, başarı %53, ağırlık 1
+- 2.5 Alt: toplam 606, bekleyen 414, başarı %48, ağırlık 1
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-31 | Kolombiya Primera A Clausura | Deportes Tolim - Depor Cucuta | MS 1 | pending | 60/100
+- 2026-08-31 | Tanzanya Kuu Bara Ligi | Kagera Sugar - Azam Fc | MS 2 | pending | 56/100
+- 2026-08-31 | Türkiye Süper Lig | Amed Sk - Trabzonspor | MS 2 | pending | 52/100
+- 2026-08-31 | İtalya Serie C Grup A | Novara - Folgore Carates | MS 1 | pending | 47/100
+- 2026-08-31 | Norveç 3.Lig Grup 6 | Sarpsborg 08 I - Rade | MS 1 | pending | 47/100
+- 2026-08-31 | Suudi Arabistan 1.Lig | Al Taee - Al-Jandal | 2.5 Üst | pending | 60/100
+- 2026-08-31 | Slovakya 2.Lig | Malzenice - Mfk Bytca | 2.5 Alt | pending | 47/100
+- 2026-08-31 | Litvanya A Ligi | Dziugas Telsia - Hegelmann | 2.5 Üst | pending | 60/100
+- 2026-08-31 | Irak Premier Lig | Al Talaba - Naft | MS 1 | pending | 50/100
+- 2026-08-31 | Finlandiya Veikkausliiga | Oulu - Seinajoen Jk | 2.5 Üst | pending | 60/100
+- 2026-08-31 | Norveç 3.Lig Grup 2 | Spjelkavik - Molde 2 | MS 1 | pending | 53/100
+- 2026-08-31 | Galler Premier Lig 1.Aşama | Colwyn Bay - Llandudno | 2.5 Üst | pending | 60/100
 - 2026-08-31 | İngiltere Premier Lig 2 | Newcastle (B) - Fulham (B) | 2.5 Alt | pending | 48/100
 - 2026-08-31 | Galler FAW Championship Güney | Newport City - Swansea Univers | 2.5 Alt | pending | 48/100
 - 2026-08-31 | Kolombiya Primera A Clausura | Deportes Tolim - Depor Cucuta | 2.5 Alt | pending | 41/100
-- 2026-08-31 | İngiltere Premier Lig | Aston Villa - Arsenal | MS 2 | pending | 51/100
-- 2026-08-31 | Irak Premier Lig | Erbil Sc - Al Minaa Basra | 2.5 Alt | pending | 55/100
-- 2026-08-31 | Mısır Premier Lig | Al Zamalek Cai - Petrojet | 2.5 Alt | pending | 54/100
-- 2026-08-31 | Finlandiya Veikkausliiga | Vaasa - Lahti | 2.5 Üst | pending | 60/100
-- 2026-08-31 | İngiltere Ulusal Lig N / S Kuzey | Gateshead(Sout - Spalding United | MS 1 | pending | 58/100
-- 2026-08-31 | Azerbaycan Premier Lig | Araz - Sabah | 2.5 Alt | pending | 48/100
-- 2026-08-31 | Mısır Premier Lig | Asyut Petroleu - National Bank O | MS 2 | pending | 46/100
-- 2026-08-31 | İngiltere Ulusal Lig | Solihull Moors - Afc Fylde | MS 2 | pending | 46/100
-- 2026-08-31 | İngiltere Premier Lig 2 | Brentford U21 - Sunderland (B) | MS 1 | pending | 46/100
-- 2026-08-31 | Venezuela Premier Lig Clausura | Ucv - Rayo Zuliano | 2.5 Alt | pending | 51/100
-- 2026-08-31 | Venezuela Premier Lig Clausura | Academia Puert - Academia Anzoat | MS 1 | pending | 52/100
-- 2026-08-31 | Şili Premier Lig | Univ. Catolica - O Higgins | 2.5 Alt | pending | 53/100
 
