@@ -1,27 +1,70 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-31T20:18:38.080926+00:00
+Tarih: 2026-09-01T00:02:21.794870+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 18
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 18
-- Ham veri havuzu toplam mac sayisi: 10760
-- Hedef tarih: 31.08.2026 Europe/Istanbul
+- Kac mac bulundu: 130
+- Kac mac kaydedildi: 130
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 10890
+- Hedef tarih: 01.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
-- Brezilya Serie A
+- Almanya Bölgesel Lig Batı
+- Almanya DFB Kupası 1.Tur
+- Avusturya Bundesliga
+- Bosna-Hersek Premier Lig
+- Brezilya Kupa Çeyrek Final
 - Brezilya Serie B
-- Galler FAW Championship Güney
+- Ekvador Pro Lig
+- Güney Afrika PSL
+- Hollanda KNVB Kupası 1. Ön Eleme Turu
+- Katar Kupa Yarı Final
+- Kenya Premier Lig
 - Kolombiya Primera A Clausura
-- Venezuela Premier Lig Clausura
-- Şili Premier Lig
+- Kuveyt Premier Lig
+- Litvanya Kupa Yarı Final
+- Malezya FA Kupası Son 16 Turu
+- Mısır Premier Lig
+- Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 6
+- Peru Premier Lig Clausura
+- Polonya Kupa 1.Tur
+- Portekiz U23 Ulusal Şampiyona
+- Romanya Kupa Grup B
+- Romanya Kupa Grup C
+- Romanya Kupa Grup D
+- Rusya Kupa Premier Lig Yolu Grup B
+- Rusya Kupa Premier Lig Yolu Grup D
+- Suudi Arabistan 1.Lig
+- Suudi Arabistan Pro Lig
+- Tanzanya Kuu Bara Ligi
+- Türkiye TFF 1. Lig
+- UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu
+- Uganda Premier Lig
+- Uruguay Kupa Ön Eleme Turu Grup 1
+- Uruguay Kupa Ön Eleme Turu Grup 6
+- Yunanistan Kupa Lig Aşaması
+- Çin Halk Cumhuriyeti FA Kupası Çeyrek Final
+- İngiltere 1.Lig
+- İngiltere 2.Lig
+- İngiltere Championship
+- İngiltere Non League Premier Güney Merkez
+- İngiltere Non League Premier Kuzey
+- İngiltere Professional Development Lig
+- İngiltere Ulusal Lig
+- İran Persian Gulf Pro Lig
+- İskoçya Challenge Kupası Lig Aşaması
+- İsveç Superettan
+- İsviçre Challenge Lig
+- İsviçre Süper Lig
+- İtalya Kupa 2.Tur
+- İtalya Serie C Kupası 2.Tur
+- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
@@ -78,8 +121,8 @@ Tarih: 2026-08-31T20:18:38.080926+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 8
-- Acilan detay: 8
+- Denenen Tumu alani: 51
+- Acilan detay: 51
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -92,24 +135,26 @@ Tarih: 2026-08-31T20:18:38.080926+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 01.09.2026 | 02:00 | Brezilya Serie A | Remo | Coritiba | 32744 | 5 |
-| 01.09.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Tigre | Barracas | 31729 | 5 |
-| 01.09.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Instituto Cord | San Lorenzo | 31788 | 5 |
-| 01.09.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp | Newells Old Boy | 31655 | 5 |
-| 01.09.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Defensa Justic | Platense | 31597 | 5 |
-| 01.09.2026 | 02:00 | Kolombiya Primera A Clausura | Deportivo Past | Pereira | 04681 | 5 |
-| 01.09.2026 | 04:05 | Kolombiya Primera A Clausura | Deportes Tolim | Depor Cucuta | 54827 | 5 |
-| 01.09.2026 | 02:30 | Venezuela Premier Lig Clausura | Academia Puert | Academia Anzoat | 31886 | 5 |
-| 01.09.2026 | 01:30 | Venezuela Premier Lig Clausura | Ucv | Rayo Zuliano | 06105 | 5 |
-| 01.09.2026 | 01:15 | Şili Premier Lig | Union La Caler | La Serena | 41581 | 5 |
-| 01.09.2026 | 03:45 | Şili Premier Lig | Univ. Catolica | O Higgins | 41598 | 5 |
-| 01.09.2026 | 01:00 | Arjantin Ulusal Primera Lig | Los Andes | Acassuso | 30913 | 3 |
-| 01.09.2026 | 03:00 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy | Agropecuario | 31713 | 5 |
-| 01.09.2026 | 01:30 | Brezilya Serie B | Fortaleza Ce | Operario | 32711 | 5 |
-| 31.08.2026 | 16:30 | Galler FAW Championship Güney | Newport City | Swansea Univers | 13262 | 3 |
-| 31.08.2026 | 16:30 | Galler FAW Championship Güney | Cardiff Dracon | Pontardawe | 14477 | 3 |
-| 31.08.2026 | 16:30 | Galler FAW Championship Güney | Pontypridd Tow | Llantwit Major | 15383 | 3 |
-| 31.08.2026 | 16:30 | Galler FAW Championship Güney | Baglan Dragons | Caerphilly Athl | 21720 | 5 |
+| 01.09.2026 | 20:00 | Türkiye TFF 1. Lig | Boluspor | A. Keçiörengücü | 21960 | 5 |
+| 01.09.2026 | 16:00 | Türkiye TFF 1. Lig | Bandirmaspor | Antalyaspor | 21871 | 5 |
+| 01.09.2026 | 17:00 | Türkiye TFF 1. Lig | Ümraniyespor | Muğlaspor | 21914 | 5 |
+| 01.09.2026 | 20:00 | Türkiye TFF 1. Lig | Sarıyer | Pendikspor | 22001 | 5 |
+| 01.09.2026 | 21:45 | Almanya DFB Kupası 1.Tur | Hebc | B.Dortmund | 03827 | 2 |
+| 01.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya | Al Ahli (Cidde) | 26980 | 5 |
+| 01.09.2026 | 19:00 | İtalya Kupa 2.Tur | Parma | Cremonese | 24202 | 5 |
+| 01.09.2026 | 22:00 | İtalya Kupa 2.Tur | Torino | Monza | 24256 | 5 |
+| 01.09.2026 | 21:45 | İngiltere Championship | Lincoln | Blackburn | 11780 | 5 |
+| 01.09.2026 | 21:45 | İngiltere Championship | Portsmouth | Derby County | 13133 | 5 |
+| 01.09.2026 | 22:00 | İngiltere Championship | Birmingham | Southam | 14902 | 5 |
+| 01.09.2026 | 21:45 | İngiltere Championship | Sheffield Utd | Bolton | 14229 | 5 |
+| 01.09.2026 | 22:00 | İngiltere Championship | Stoke | Norwich | 14968 | 5 |
+| 01.09.2026 | 21:45 | İngiltere Championship | Swansea | Watford | 14347 | 5 |
+| 01.09.2026 | 21:45 | İngiltere Championship | West Ham | Wolverhampton | 14739 | 5 |
+| 01.09.2026 | 21:45 | İngiltere Championship | Prest | Bristol City | 13754 | 5 |
+| 01.09.2026 | 20:30 | Avusturya Bundesliga | Wolfsberger | Lask Linz | 27022 | 5 |
+| 01.09.2026 | 21:30 | İsviçre Süper Lig | Zurich | Young Boys | 21127 | 5 |
+| 01.09.2026 | 18:00 | Yunanistan Kupa Lig Aşaması | Volos Nfc | Kalamata | 23688 | 5 |
+| 01.09.2026 | 14:35 | Çin Halk Cumhuriyeti FA Kupası Çeyrek Final | Shandong Taish | Shanghai Port | 27229 | 5 |
 
 ## Sonuc
 
