@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 02.09.2026 00:52:36
+Oluşturma: 02.09.2026 02:06:00
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1098
-- Kazanan tahmin: 225
-- Kaybeden tahmin: 177
-- Lig sayısı: 206
+- Bekleyen tahmin: 1076
+- Kazanan tahmin: 233
+- Kaybeden tahmin: 191
+- Lig sayısı: 211
 - Seçenek sayısı: 7
 
 ## Öğrenme Mantığı
@@ -22,29 +22,29 @@ Oluşturma: 02.09.2026 00:52:36
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 5, bekleyen 4, başarı %100, düz getiri %146, ağırlık 1
+- MS X: toplam 6, bekleyen 4, başarı %100, düz getiri %147, ağırlık 1
 - KG Var: toplam 2, bekleyen 1, başarı %100, düz getiri %87, ağırlık 1
-- 2.5 Üst: toplam 218, bekleyen 132, başarı %67, düz getiri %20, ağırlık 1
-- MS 2: toplam 208, bekleyen 174, başarı %59, düz getiri %-1, ağırlık 1
-- 2.5 Alt: toplam 587, bekleyen 404, başarı %52, düz getiri %-14, ağırlık 1
-- MS 1: toplam 479, bekleyen 382, başarı %52, düz getiri %-15, ağırlık 1
+- 2.5 Üst: toplam 226, bekleyen 126, başarı %61, düz getiri %8, ağırlık 1
+- MS 1: toplam 458, bekleyen 357, başarı %55, düz getiri %-9, ağırlık 1
+- MS 2: toplam 216, bekleyen 181, başarı %54, düz getiri %-9, ağırlık 1
+- 2.5 Alt: toplam 591, bekleyen 406, başarı %51, düz getiri %-15, ağırlık 1
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-02 | Ekvador Pro Lig | Delfin - T.Universitario | 2.5 Alt | pending | 58/100
-- 2026-09-02 | Brezilya Serie B | Londrina - Juventude | 2.5 Alt | pending | 59/100
-- 2026-09-02 | Uruguay Kupa Ön Eleme Turu Grup 1 | Torque - Danubio | 2.5 Alt | pending | 61/100
-- 2026-09-02 | Brezilya Kupa Çeyrek Final | Atletico Mg (1) - (1) Cruzeiro | 2.5 Alt | pending | 49/100
-- 2026-09-02 | Ekvador Pro Lig | Ldu Quito - Mushuc Runa | 2.5 Alt | pending | 61/100
-- 2026-09-02 | Kolombiya Primera A Clausura | Fortaleza - Once Caldas | 2.5 Alt | pending | 63/100
-- 2026-09-01 | İngiltere Ulusal Lig | Halifax - Hartlepool | 2.5 Alt | pending | 53/100
-- 2026-09-01 | İngiltere Championship | West Ham - Wolverhampton | MS 2 | pending | 56/100
-- 2026-09-01 | İngiltere Championship | Birmingham - Southam | MS 2 | pending | 58/100
-- 2026-09-01 | Kuveyt Premier Lig | Al Tadhamon - Al Salmiyah | 2.5 Alt | pending | 55/100
-- 2026-09-01 | İtalya Serie C Kupası 2.Tur | Campobasso - Scafatese | 2.5 Üst | pending | 53/100
-- 2026-09-01 | Uruguay Kupa Ön Eleme Turu Grup 6 | Colon - Atl Fenix | MS X | pending | 42/100
-- 2026-09-01 | İngiltere Championship | Swansea - Watford | 2.5 Alt | pending | 61/100
-- 2026-09-01 | Portekiz U23 Ulusal Şampiyona | Estrela U23 - Sporting Cp U23 | 2.5 Alt | pending | 52/100
-- 2026-09-01 | Romanya Kupa Grup D | Targoviste - Voluntari | 2.5 Üst | pending | 53/100
+- 2026-09-02 | Ekvador Pro Lig | Deportivo Cuen - Guayaquil City | 2.5 Alt | pending | 56/100
+- 2026-09-02 | Şili Premier Lig | Coquimbo Unido - Univ De Concepc | MS 1 | pending | 57/100
+- 2026-09-02 | Nikaragua Premier Lig Apertura | Jalapa - Rancho Santana | MS 1 | pending | 53/100
+- 2026-09-02 | Brezilya Serie A | Flamengo - Mirassol | 2.5 Alt | pending | 55/100
+- 2026-09-02 | Kolombiya Kupa Son 16 Turu | Quindio - Llaneros | MS 1 | pending | 45/100
+- 2026-09-02 | Venezuela Premier Lig Clausura | Caracas Fc - Portuguesa | 2.5 Alt | pending | 65/100
+- 2026-09-02 | Arjantin Ulusal Primera Lig | Colegiales - Midland | MS 1 | pending | 49/100
+- 2026-09-02 | Uruguay Kupa Ön Eleme Turu Grup 1 | Atenas - Penarol | 2.5 Alt | pending | 58/100
+- 2026-09-02 | ABD USL | Charleston Bat - Hartford Athlet | MS 1 | pending | 57/100
+- 2026-09-02 | ABD USL Lig 1 | Westchester Sc - Chattanooga Red | 2.5 Alt | pending | 49/100
+- 2026-09-02 | ABD USL Lig 1 | Fort Wayne - Richmond Kicker | MS 1 | pending | 57/100
+- 2026-09-02 | ABD USL Lig 1 | New York Cosmo - Sarasota Paradi | MS 1 | pending | 49/100
+- 2026-09-02 | ABD USL Lig 1 | Charlotte Inde - Portland Hearts | MS 1 | pending | 59/100
+- 2026-09-02 | Ekvador Pro Lig | Barcelona Gua - Indep. Jose Ter | 2.5 Alt | pending | 55/100
+- 2026-09-02 | ABD USL Lig 1 | Forward Madiso - One Knoxville | 2.5 Üst | pending | 62/100
 
