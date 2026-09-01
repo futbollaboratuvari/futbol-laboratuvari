@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-01 / 2026-09-02
 Kaynak: fixtures.json
-Ham mac: 146
-Aktif mac: 47
+Ham mac: 94
+Aktif mac: 45
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 99
-Bugun: 41
+Bultenden dusurulen mac: 49
+Bugun: 39
 Yarin: 6
 
 ## Baslamamis Maclar
-- 2026-09-01 21:30 | İsviçre Süper Lig | Zurich - Young Boys | scheduled | -
-- 2026-09-01 21:30 | Polonya Kupa 1.Tur | Motor Lublin - Legia Varşova | scheduled | -
 - 2026-09-01 21:45 | Almanya DFB Kupası 1.Tur | Hebc - B.Dortmund | scheduled | -
 - 2026-09-01 21:45 | İngiltere Championship | Lincoln - Blackburn | scheduled | -
 - 2026-09-01 21:45 | İngiltere Championship | Portsmouth - Derby County | scheduled | -
