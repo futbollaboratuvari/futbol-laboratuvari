@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-01T04:57:00.842352+00:00
+Tarih: 2026-09-01T09:48:11.446912+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 129
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 129
-- Ham veri havuzu toplam mac sayisi: 10890
+- Kac mac bulundu: 130
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 128
+- Ham veri havuzu toplam mac sayisi: 10892
 - Hedef tarih: 01.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -20,11 +20,11 @@ Tarih: 2026-09-01T04:57:00.842352+00:00
 - Bosna-Hersek Premier Lig
 - Brezilya Kupa Çeyrek Final
 - Brezilya Serie B
+- Danimarka DBU Kupası 2.Tur
 - Ekvador Pro Lig
 - Güney Afrika PSL
 - Hollanda KNVB Kupası 1. Ön Eleme Turu
 - Katar Kupa Yarı Final
-- Kenya Premier Lig
 - Kolombiya Primera A Clausura
 - Kuveyt Premier Lig
 - Litvanya Kupa Yarı Final
@@ -135,14 +135,14 @@ Tarih: 2026-09-01T04:57:00.842352+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 01.09.2026 | 20:00 | Türkiye TFF 1. Lig | Boluspor | A. Keçiörengücü | 21960 | 5 |
-| 01.09.2026 | 16:00 | Türkiye TFF 1. Lig | Bandirmaspor | Antalyaspor | 21871 | 5 |
 | 01.09.2026 | 17:00 | Türkiye TFF 1. Lig | Ümraniyespor | Muğlaspor | 21914 | 5 |
 | 01.09.2026 | 20:00 | Türkiye TFF 1. Lig | Sarıyer | Pendikspor | 22001 | 5 |
+| 01.09.2026 | 20:00 | Türkiye TFF 1. Lig | Boluspor | A. Keçiörengücü | 21960 | 5 |
+| 01.09.2026 | 16:00 | Türkiye TFF 1. Lig | Bandirmaspor | Antalyaspor | 21871 | 5 |
 | 01.09.2026 | 21:45 | Almanya DFB Kupası 1.Tur | Hebc | B.Dortmund | 03827 | 2 |
-| 01.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya | Al Ahli (Cidde) | 26980 | 5 |
 | 01.09.2026 | 19:00 | İtalya Kupa 2.Tur | Parma | Cremonese | 24202 | 5 |
 | 01.09.2026 | 22:00 | İtalya Kupa 2.Tur | Torino | Monza | 24256 | 5 |
+| 01.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya | Al Ahli (Cidde) | 26980 | 5 |
 | 01.09.2026 | 21:45 | İngiltere Championship | Lincoln | Blackburn | 11780 | 5 |
 | 01.09.2026 | 21:45 | İngiltere Championship | Portsmouth | Derby County | 13133 | 5 |
 | 01.09.2026 | 22:00 | İngiltere Championship | Birmingham | Southam | 14902 | 5 |

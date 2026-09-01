@@ -2,12 +2,12 @@
 
 Gunler: 2026-09-01 / 2026-09-02
 Kaynak: fixtures.json
-Ham mac: 130
-Aktif mac: 130
+Ham mac: 146
+Aktif mac: 132
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 124
+Bultenden dusurulen mac: 14
+Bugun: 126
 Yarin: 6
 
 ## Baslamamis Maclar
@@ -27,6 +27,7 @@ Yarin: 6
 - 2026-09-01 16:00 | Romanya Kupa Grup B | Spartac Bucure - Concordia Chiaj | scheduled | -
 - 2026-09-01 16:00 | Uganda Premier Lig | Nec - Lugazi Municipa | scheduled | -
 - 2026-09-01 16:00 | Kenya Premier Lig | Gor Mahia - Muranga All Sta | scheduled | -
+- 2026-09-01 16:00 | Uganda Premier Lig | Entebbe Uppc - Updf | scheduled | -
 - 2026-09-01 16:15 | Rusya Kupa Premier Lig Yolu Grup D | Akron - L.Moskova | scheduled | -
 - 2026-09-01 16:30 | Polonya Kupa 1.Tur | Nkp Podhale - Pogon Grodzisk | scheduled | -
 - 2026-09-01 17:00 | Türkiye TFF 1. Lig | Ümraniyespor - Muğlaspor | scheduled | -
@@ -55,6 +56,7 @@ Yarin: 6
 - 2026-09-01 19:00 | Portekiz U23 Ulusal Şampiyona | Gil Vicente U2 - Rio Ave U23 | scheduled | -
 - 2026-09-01 19:00 | Portekiz U23 Ulusal Şampiyona | Felgueiras U23 - Estoril U23 | scheduled | -
 - 2026-09-01 19:00 | Tanzanya Kuu Bara Ligi | Singida Black - Namungo | scheduled | -
+- 2026-09-01 19:00 | Danimarka DBU Kupası 2.Tur | Lyseng - Horsens | scheduled | -
 - 2026-09-01 19:20 | Suudi Arabistan 1.Lig | Al Orubah Club - Al Zulfi | scheduled | -
 - 2026-09-01 19:30 | Bosna-Hersek Premier Lig | Sloga Doboj - Celik | scheduled | -
 - 2026-09-01 19:30 | Norveç 3.Lig Grup 1 | Nordstrand - Sf Grei | scheduled | -

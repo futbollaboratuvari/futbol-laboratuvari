@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T05:23:22.827Z",
+  "generated_at": "2026-09-01T09:48:55.798Z",
   "date": "2026-09-01",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -817,16 +817,16 @@
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 416,
-    "pending_count": 1084,
-    "won_count": 230,
-    "lost_count": 186,
+    "measured_count": 405,
+    "pending_count": 1095,
+    "won_count": 226,
+    "lost_count": 179,
     "void_count": 0,
-    "success_rate": 55,
-    "probability_sample_count": 416,
-    "brier_score": 0.2446,
-    "baseline_brier_score": 0.2472,
-    "brier_skill_score": 0.0103,
+    "success_rate": 56,
+    "probability_sample_count": 405,
+    "brier_score": 0.2445,
+    "baseline_brier_score": 0.2466,
+    "brier_skill_score": 0.0088,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -840,18 +840,18 @@
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 101,
-        "won": 56,
+        "predictions": 98,
+        "won": 54,
         "average_probability": 45.6,
-        "observed_rate": 55.4
+        "observed_rate": 55.1
       },
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 225,
-        "won": 123,
-        "average_probability": 54.5,
-        "observed_rate": 54.7
+        "predictions": 217,
+        "won": 121,
+        "average_probability": 54.6,
+        "observed_rate": 55.8
       },
       {
         "lower": 60,
@@ -867,17 +867,17 @@
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 279,
-        "won": 155,
-        "lost": 124,
-        "success_rate": 56
+        "measured": 272,
+        "won": 154,
+        "lost": 118,
+        "success_rate": 57
       },
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 136,
-        "won": 74,
-        "lost": 62,
+        "measured": 132,
+        "won": 71,
+        "lost": 61,
         "success_rate": 54
       },
       {
