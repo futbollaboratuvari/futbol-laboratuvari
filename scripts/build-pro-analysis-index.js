@@ -7,7 +7,7 @@ const dataDir = path.join(root, "data");
 const robotFile = path.join(dataDir, "robot-analysis.json");
 const historyFile = path.join(dataDir, "analiz_sonuclari.json");
 const outputFile = path.join(dataDir, "pro-analysis-index.json");
-const FALLBACK_MODEL_VERSION = "pro13-btts-conditioned-v3";
+const FALLBACK_MODEL_VERSION = "pro13-official-intelligence-v4";
 
 function readJson(file, fallback) {
   try {
@@ -138,7 +138,7 @@ function compactMetrics(item) {
   ];
   const compact = {};
   fields.forEach((key) => {
-    const value = metrics[key];
+    const value = metrics[key] ?? item[key];
     if (value !== undefined && value !== null && value !== "") compact[key] = value;
   });
   const memorySamples = finite(metrics.memory_samples ?? memory.samples);
@@ -189,6 +189,7 @@ function compactBttsAnalysis(value) {
     recommended_key: String(value.recommended_key || ""),
     recommended_market: String(value.recommended_market || "Görüş oluşmadı"),
     recommendation_status: String(value.recommendation_status || "insufficient_data"),
+    team_risk_adjusted: Boolean(value.team_risk_adjusted),
     model_version: String(value.model_version || FALLBACK_MODEL_VERSION),
     outcomes: { bttsYes: yes, bttsNo: no },
   };
@@ -217,6 +218,12 @@ function compactStatus(record) {
     doubtful_players: names(record.doubtful_players),
     transfers_in: names(record.transfers_in, 5),
     transfers_out: names(record.transfers_out, 5),
+    injury_news_count: Number(record.injury_news_count || 0),
+    suspension_news_count: Number(record.suspension_news_count || 0),
+    doubtful_news_count: Number(record.doubtful_news_count || 0),
+    transfer_in_news_count: Number(record.transfer_in_news_count || 0),
+    transfer_out_news_count: Number(record.transfer_out_news_count || 0),
+    verified_source_count: Number(record.verified_source_count || 0),
     player_impacts: (Array.isArray(record.player_impacts) ? record.player_impacts : []).slice(0, 8).map((player) => ({
       name: String(player?.name || ""),
       position: String(player?.position || "-"),
@@ -228,7 +235,10 @@ function compactStatus(record) {
   };
   const hasNamedData = output.injured_players.length || output.suspended_players.length || output.doubtful_players.length
     || output.transfers_in.length || output.transfers_out.length || output.player_impacts.length;
-  return hasNamedData ? output : null;
+  const hasProviderEvidence = output.availability_checked || output.lineup_confirmed
+    || output.verified_source_count > 0 || output.injury_news_count > 0 || output.suspension_news_count > 0
+    || output.doubtful_news_count > 0 || output.transfer_in_news_count > 0 || output.transfer_out_news_count > 0;
+  return hasNamedData || hasProviderEvidence ? output : null;
 }
 
 function compactLineup(record) {
@@ -257,12 +267,18 @@ function compactTeamIntelligence(item) {
   const intel = item.team_intelligence;
   if (!intel || typeof intel !== "object") return null;
   const output = {
+    squad_risk_level: String(item.squad_risk_level || intel.squad_risk_level || "Belirsiz"),
+    lineup_risk_level: String(item.lineup_risk_level || intel.lineup_risk_level || "Belirsiz"),
+    verified_team_count: Number(item.team_status_verified_count || intel.squad_verified_team_count || intel.verified_team_count || 0),
+    named_player_count: Number(item.named_player_count || intel.named_player_count || 0),
     home_status: compactStatus(intel.team_status?.home || intel.home_status),
     away_status: compactStatus(intel.team_status?.away || intel.away_status),
     home_lineup: compactLineup(intel.lineup?.home || intel.home_lineup),
     away_lineup: compactLineup(intel.lineup?.away || intel.away_lineup),
   };
-  return Object.values(output).some(Boolean) ? output : null;
+  const hasDetails = output.home_status || output.away_status || output.home_lineup || output.away_lineup;
+  const hasVerifiedSummary = output.verified_team_count > 0 || output.named_player_count > 0;
+  return hasDetails || hasVerifiedSummary ? output : null;
 }
 
 function selectProMatches(matches) {
@@ -284,6 +300,7 @@ function compactMatch(item, parent) {
     .filter(Boolean)
     .slice(0, 3);
   const bttsAnalysis = compactBttsAnalysis(item.btts_analysis || item.bttsAnalysis);
+  const teamIntelligence = compactTeamIntelligence(item);
   return {
     id: matchId(item, date),
     date,
@@ -313,6 +330,7 @@ function compactMatch(item, parent) {
     include_in_coupon: includeInCoupon,
     value_label: String(item.value_label || "Piyasa ile Uyumlu"),
     metrics: compactMetrics(item),
+    ...(teamIntelligence ? { team_intelligence: teamIntelligence } : {}),
     ...(bttsAnalysis ? { btts_analysis: bttsAnalysis } : {}),
     signals,
     model_version: item.model_version || parent.model_version || FALLBACK_MODEL_VERSION,

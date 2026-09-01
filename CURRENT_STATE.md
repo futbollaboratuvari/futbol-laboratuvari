@@ -191,6 +191,15 @@ Current hosting and security state:
 - Kod değiştirildiğinde veya erişim temizlendiğinde korumalı içerik de ana sayfadan kaldırılır.
 - Supabase `founder` üyeliği aktif ve 9999 hakla doğrulandı; veri tabanında üyelik kaydı değiştirilmedi.
 
+## 2026-09-01 — PRO Robot 13.4 resmi oran ve kadro zekâsı
+
+- Taze resmi İddaa oranları, en fazla 18 saatlik sakatlık/ceza/ilk 11 ve doğrulanmış takım verisiyle güvenli biçimde birleştirilir; resmi oran daima önceliklidir.
+- Korumalı PRO indeksinde isimli futbolcu ve kaynak doğrulama bilgileri artık sıkıştırma sırasında kaybolmaz.
+- Resmi akışta kupon uygunluğu ortak model gücü, veri kapsamı, olasılık, risk ve bağımsız kanıt kurallarıyla yeniden hesaplanır.
+- Yüksek kadro veya ilk 11 riski robot puanını düşürür ve kuponu kapatır; KG modeli takım riskinden etkilenir fakat başka bir markete dönüşmez.
+- Resmi sağlayıcının boş yanıtı güvenli hata sayılır ve son korumalı indeks yedeği kullanılır.
+- Bülten verileri, üyelik/ödeme akışı, workflow, CNAME, DNS ve Supabase şeması değiştirilmedi.
+
 ## 2026-08-30 — PRO merkez kart tasarımı
 
 - “Bugünün en güçlü adayı” tek, geniş ve lacivert-altın PRO vitrin kartına dönüştürüldü.

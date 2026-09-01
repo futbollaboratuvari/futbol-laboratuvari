@@ -79,6 +79,32 @@ test("kompakt metrikler büyük ham ve hafıza bloklarını dışarıda bırakı
   assert.equal(Object.hasOwn(metrics.poisson, "matrix"), false);
 });
 
+test("kompakt PRO kaydı doğrulanmış kadro ve isimli oyuncu ayrıntısını korur", () => {
+  const row = compactMatch({
+    date: "2026-09-01",
+    home: "Kadro Ev",
+    away: "Kadro Dep",
+    squad_risk_level: "Yüksek",
+    lineup_risk_level: "Orta",
+    team_status_verified_count: 2,
+    named_player_count: 1,
+    team_intelligence: {
+      squad_risk_level: "Yüksek",
+      lineup_risk_level: "Orta",
+      squad_verified_team_count: 2,
+      named_player_count: 1,
+      team_status: {
+        home: { availability_checked: true, suspended_players: [{ name: "Cezalı Oyuncu" }], verified_source_count: 1 },
+        away: { availability_checked: true, injured_players: [], verified_source_count: 1 },
+      },
+    },
+  }, {});
+  assert.equal(row.team_intelligence.verified_team_count, 2);
+  assert.equal(row.team_intelligence.named_player_count, 1);
+  assert.deepEqual(row.team_intelligence.home_status.suspended_players, ["Cezalı Oyuncu"]);
+  assert.equal(row.team_intelligence.away_status.availability_checked, true);
+});
+
 test("tamamlanan PRO olasılıkları Brier skoru ile ölçülür", () => {
   const calibration = buildCalibration({
     completed_items: [

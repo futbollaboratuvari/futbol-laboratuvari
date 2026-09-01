@@ -296,3 +296,14 @@ Summary:
 - Lig, maç saati, önerilen market, oran, model gücü, tahmini olasılık, veri kapsamı, veri kalitesi ve risk birbirinden ayrıldı.
 - Kartlar yalnız mevcut korumalı PRO alanlarını gösterir; yeni veri, tahmin veya üyelik davranışı üretilmedi.
 - JavaScript, performans, güvenlik/yasal ve Özel Analiz testleri ile ayrı üretim paketi başarılıdır; özel PRO ve üyelik dosyaları kamu paketinin dışında kalır.
+
+## 2026-09-01 — Futbol Laboratuvarı PRO Robot 13.4
+
+- Resmi İddaa beslemesinin taze oranlarını korurken son 18 saatteki depolanmış takım, futbolcu ve doğrulanmış metrik kanıtını eşleştiren birleşim katmanı eklendi.
+- Resmi akışa ortak kupon uygunluk kontrolü bağlandı; yüksek kadro/ilk 11 riski skor ve risk etiketine yansıtıldı, kupon uygunluğu güvenli biçimde kapatıldı.
+- KG Var/Yok kararı takım riskini kullanacak şekilde geliştirildi fakat yan markete dönüşme ihtimali engellendi.
+- Kompakt PRO indeksinin isimli sakat/cezalı oyuncu, haber sayıları ve doğrulanmış sağlayıcı bilgisini koruması sağlandı.
+- Boş resmi sağlayıcı yanıtının sıfır maç üretmesi yerine korumalı veri yedeğine düşmesi sağlandı.
+- Yeni regresyon testleri resmi oran önceliğini, taze/bayat kanıt ayrımını, oyuncu verisi aktarımını, kadro riskini ve KG market kilidini doğruluyor.
+- PRO, takım istihbaratı, sonuç, performans, güvenlik, İddaa testleri ve üretim derlemesi başarılıdır.
+- Derleme sırasında yenilenen bülten/çıktı dosyaları geri alındı; bülten verileri, Kuponum, üyelik, ödeme, workflow, CNAME, DNS ve Supabase verisi değiştirilmedi.
