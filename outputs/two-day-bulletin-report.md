@@ -2,20 +2,15 @@
 
 Gunler: 2026-09-01 / 2026-09-02
 Kaynak: fixtures.json
-Ham mac: 146
-Aktif mac: 105
+Ham mac: 121
+Aktif mac: 100
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 41
-Bugun: 99
+Bultenden dusurulen mac: 21
+Bugun: 94
 Yarin: 6
 
 ## Baslamamis Maclar
-- 2026-09-01 18:00 | Yunanistan Kupa Lig Aşaması | Volos Nfc - Kalamata | scheduled | -
-- 2026-09-01 18:00 | Romanya Kupa Grup B | Sepsi - Cfr Cluj | scheduled | -
-- 2026-09-01 18:00 | Romanya Kupa Grup C | Corona Brasov - Bihor | scheduled | -
-- 2026-09-01 18:00 | Rusya Kupa Premier Lig Yolu Grup B | Fakel Voronezh - Krasnodar | scheduled | -
-- 2026-09-01 18:00 | Litvanya Kupa Yarı Final | Minija - Fk Dainava | scheduled | -
 - 2026-09-01 18:30 | Polonya Kupa 1.Tur | Odra Opole - Wisla Krakow | scheduled | -
 - 2026-09-01 18:30 | İran Persian Gulf Pro Lig | Esteghlal Khuz - Chadormalu | scheduled | -
 - 2026-09-01 18:30 | İran Persian Gulf Pro Lig | Gol Gohar Sirj - Shahrdari Arak | scheduled | -
