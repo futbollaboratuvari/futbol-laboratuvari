@@ -1,52 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-01T14:34:38.364943+00:00
+Tarih: 2026-09-01T17:59:53.409197+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 105
+- Kac mac bulundu: 60
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 105
+- Kac mac zaten vardi: 60
 - Ham veri havuzu toplam mac sayisi: 10892
 - Hedef tarih: 01.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- Almanya Bölgesel Lig Batı
 - Almanya DFB Kupası 1.Tur
-- Avusturya Bundesliga
 - Bosna-Hersek Premier Lig
 - Brezilya Kupa Çeyrek Final
 - Brezilya Serie B
-- Danimarka DBU Kupası 2.Tur
 - Ekvador Pro Lig
-- Güney Afrika PSL
 - Hollanda KNVB Kupası 1. Ön Eleme Turu
-- Katar Kupa Yarı Final
 - Kolombiya Primera A Clausura
 - Kuveyt Premier Lig
-- Litvanya Kupa Yarı Final
-- Mısır Premier Lig
-- Norveç 3.Lig Grup 1
-- Norveç 3.Lig Grup 6
 - Peru Premier Lig Clausura
 - Polonya Kupa 1.Tur
 - Portekiz U23 Ulusal Şampiyona
 - Romanya Kupa Grup B
-- Romanya Kupa Grup C
-- Romanya Kupa Grup D
-- Rusya Kupa Premier Lig Yolu Grup B
-- Rusya Kupa Premier Lig Yolu Grup D
-- Suudi Arabistan 1.Lig
 - Suudi Arabistan Pro Lig
-- Tanzanya Kuu Bara Ligi
-- Türkiye TFF 1. Lig
-- UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu
 - Uruguay Kupa Ön Eleme Turu Grup 1
 - Uruguay Kupa Ön Eleme Turu Grup 6
-- Yunanistan Kupa Lig Aşaması
 - İngiltere 1.Lig
 - İngiltere 2.Lig
 - İngiltere Championship
@@ -54,14 +36,10 @@ Tarih: 2026-09-01T14:34:38.364943+00:00
 - İngiltere Non League Premier Kuzey
 - İngiltere Professional Development Lig
 - İngiltere Ulusal Lig
-- İran Persian Gulf Pro Lig
 - İskoçya Challenge Kupası Lig Aşaması
-- İsveç Superettan
-- İsviçre Challenge Lig
 - İsviçre Süper Lig
 - İtalya Kupa 2.Tur
 - İtalya Serie C Kupası 2.Tur
-- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
@@ -118,8 +96,8 @@ Tarih: 2026-09-01T14:34:38.364943+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 48
-- Acilan detay: 48
+- Denenen Tumu alani: 26
+- Acilan detay: 26
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -132,26 +110,26 @@ Tarih: 2026-09-01T14:34:38.364943+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 01.09.2026 | 20:00 | Türkiye TFF 1. Lig | Boluspor | A. Keçiörengücü | 21960 | 5 |
-| 01.09.2026 | 20:00 | Türkiye TFF 1. Lig | Sarıyer | Pendikspor | 22001 | 5 |
 | 01.09.2026 | 21:45 | Almanya DFB Kupası 1.Tur | Hebc | B.Dortmund | 03827 | 2 |
 | 01.09.2026 | 22:00 | İtalya Kupa 2.Tur | Torino | Monza | 24256 | 5 |
-| 01.09.2026 | 19:00 | İtalya Kupa 2.Tur | Parma | Cremonese | 24202 | 5 |
 | 01.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya | Al Ahli (Cidde) | 26980 | 5 |
 | 01.09.2026 | 21:45 | İngiltere Championship | Lincoln | Blackburn | 11780 | 5 |
-| 01.09.2026 | 22:00 | İngiltere Championship | Stoke | Norwich | 14968 | 5 |
-| 01.09.2026 | 22:00 | İngiltere Championship | Birmingham | Southam | 14902 | 5 |
-| 01.09.2026 | 21:45 | İngiltere Championship | Sheffield Utd | Bolton | 14229 | 5 |
+| 01.09.2026 | 21:45 | İngiltere Championship | Portsmouth | Derby County | 13133 | 5 |
 | 01.09.2026 | 21:45 | İngiltere Championship | Swansea | Watford | 14347 | 5 |
 | 01.09.2026 | 21:45 | İngiltere Championship | West Ham | Wolverhampton | 14739 | 5 |
-| 01.09.2026 | 21:45 | İngiltere Championship | Portsmouth | Derby County | 13133 | 5 |
 | 01.09.2026 | 21:45 | İngiltere Championship | Prest | Bristol City | 13754 | 5 |
-| 01.09.2026 | 20:30 | Avusturya Bundesliga | Wolfsberger | Lask Linz | 27022 | 5 |
+| 01.09.2026 | 21:45 | İngiltere Championship | Sheffield Utd | Bolton | 14229 | 5 |
+| 01.09.2026 | 22:00 | İngiltere Championship | Birmingham | Southam | 14902 | 5 |
+| 01.09.2026 | 22:00 | İngiltere Championship | Stoke | Norwich | 14968 | 5 |
 | 01.09.2026 | 21:30 | İsviçre Süper Lig | Zurich | Young Boys | 21127 | 5 |
-| 01.09.2026 | 18:00 | Yunanistan Kupa Lig Aşaması | Volos Nfc | Kalamata | 23688 | 5 |
-| 01.09.2026 | 19:00 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Austria Wien ( (1) | (2) Brann (K) | 04103 | 5 |
 | 02.09.2026 | 03:00 | Brezilya Kupa Çeyrek Final | Atletico Mg (1) | (1) Cruzeiro | 17019 | 5 |
 | 01.09.2026 | 21:00 | Hollanda KNVB Kupası 1. Ön Eleme Turu | Ado 20 | Excelsior Maass | 17783 | 5 |
+| 01.09.2026 | 21:00 | Hollanda KNVB Kupası 1. Ön Eleme Turu | Sportlust 46 | Blauw Geel 38 | 17911 | 5 |
+| 01.09.2026 | 21:00 | Hollanda KNVB Kupası 1. Ön Eleme Turu | Genemuiden | Lisse | 17906 | 5 |
+| 01.09.2026 | 21:00 | Hollanda KNVB Kupası 1. Ön Eleme Turu | Harkemase Boys | Excelsior 31 | 17784 | 5 |
+| 01.09.2026 | 21:00 | Hollanda KNVB Kupası 1. Ön Eleme Turu | Achilles Veen | Poortugaal | 17782 | 3 |
+| 01.09.2026 | 21:00 | Hollanda KNVB Kupası 1. Ön Eleme Turu | Afc 34 | Vv Scherpenzeel | 21030 | 5 |
+| 01.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Stranraer | Celtic Ii | 17299 | 3 |
 
 ## Sonuc
 

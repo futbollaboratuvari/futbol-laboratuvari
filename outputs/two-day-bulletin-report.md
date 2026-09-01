@@ -2,68 +2,15 @@
 
 Gunler: 2026-09-01 / 2026-09-02
 Kaynak: fixtures.json
-Ham mac: 121
-Aktif mac: 100
+Ham mac: 146
+Aktif mac: 47
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 21
-Bugun: 94
+Bultenden dusurulen mac: 99
+Bugun: 41
 Yarin: 6
 
 ## Baslamamis Maclar
-- 2026-09-01 18:30 | Polonya Kupa 1.Tur | Odra Opole - Wisla Krakow | scheduled | -
-- 2026-09-01 18:30 | İran Persian Gulf Pro Lig | Esteghlal Khuz - Chadormalu | scheduled | -
-- 2026-09-01 18:30 | İran Persian Gulf Pro Lig | Gol Gohar Sirj - Shahrdari Arak | scheduled | -
-- 2026-09-01 18:40 | Kuveyt Premier Lig | Kazma - Al Sahel | scheduled | -
-- 2026-09-01 18:40 | Suudi Arabistan 1.Lig | Al Jeel - Jeddah Club | scheduled | -
-- 2026-09-01 18:45 | İran Persian Gulf Pro Lig | Shams Azar Qaz - Tractor Fc | scheduled | -
-- 2026-09-01 19:00 | İtalya Kupa 2.Tur | Parma - Cremonese | scheduled | -
-- 2026-09-01 19:00 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Austria Wien ( (1) - (2) Brann (K) | scheduled | -
-- 2026-09-01 19:00 | Portekiz U23 Ulusal Şampiyona | União De Leiri - Marítimo U23 | scheduled | -
-- 2026-09-01 19:00 | Portekiz U23 Ulusal Şampiyona | Estrela U23 - Sporting Cp U23 | scheduled | -
-- 2026-09-01 19:00 | Portekiz U23 Ulusal Şampiyona | Gil Vicente U2 - Rio Ave U23 | scheduled | -
-- 2026-09-01 19:00 | Portekiz U23 Ulusal Şampiyona | Felgueiras U23 - Estoril U23 | scheduled | -
-- 2026-09-01 19:00 | Tanzanya Kuu Bara Ligi | Singida Black - Namungo | scheduled | -
-- 2026-09-01 19:00 | Danimarka DBU Kupası 2.Tur | Lyseng - Horsens | scheduled | -
-- 2026-09-01 19:20 | Suudi Arabistan 1.Lig | Al Orubah Club - Al Zulfi | scheduled | -
-- 2026-09-01 19:30 | Bosna-Hersek Premier Lig | Sloga Doboj - Celik | scheduled | -
-- 2026-09-01 19:30 | Norveç 3.Lig Grup 1 | Nordstrand - Sf Grei | scheduled | -
-- 2026-09-01 19:30 | Katar Kupa Yarı Final | Al Shamal - Al Rayyan | scheduled | -
-- 2026-09-01 20:00 | Türkiye TFF 1. Lig | Boluspor - A. Keçiörengücü | scheduled | -
-- 2026-09-01 20:00 | Türkiye TFF 1. Lig | Sarıyer - Pendikspor | scheduled | -
-- 2026-09-01 20:00 | Romanya Kupa Grup D | Targoviste - Voluntari | scheduled | -
-- 2026-09-01 20:00 | İsveç Superettan | Helsingborg - Orebro | scheduled | -
-- 2026-09-01 20:00 | Polonya Kupa 1.Tur | Polonia Sroda - Sandecja Nowy S | scheduled | -
-- 2026-09-01 20:00 | Polonya Kupa 1.Tur | Kluczbork - Lechia Gdansk | scheduled | -
-- 2026-09-01 20:00 | Polonya Kupa 1.Tur | Rzeszow - P. Bielsko | scheduled | -
-- 2026-09-01 20:00 | Mısır Premier Lig | Wadi Degla - Al Qanah | scheduled | -
-- 2026-09-01 20:00 | Norveç 3.Lig Grup 6 | Gjovik-Lyn - Brumunddal | scheduled | -
-- 2026-09-01 20:30 | Avusturya Bundesliga | Wolfsberger - Lask Linz | scheduled | -
-- 2026-09-01 20:30 | İsviçre Challenge Lig | Rappersvil Jon - Sc Kriens | scheduled | -
-- 2026-09-01 20:30 | İsviçre Challenge Lig | Stade Ouchy - Etoile Carouge | scheduled | -
-- 2026-09-01 20:30 | İsviçre Challenge Lig | Neuchatel Xama - Yverdon | scheduled | -
-- 2026-09-01 20:30 | İsviçre Challenge Lig | Stade Nyonnais - Winterthur | scheduled | -
-- 2026-09-01 20:30 | Güney Afrika PSL | Kruger United - Orlando Pirates | scheduled | -
-- 2026-09-01 20:30 | Güney Afrika PSL | Durban City - Stellenbosch Fc | scheduled | -
-- 2026-09-01 20:30 | İzlanda Urvalsdeild | Kr Reykjavik - Vikingur Reykja | scheduled | -
-- 2026-09-01 20:30 | Almanya Bölgesel Lig Batı | Fc Bocholt - Bonner Sc | scheduled | -
-- 2026-09-01 20:30 | Almanya Bölgesel Lig Batı | B.Dortmund (Am - Schalke 04 (Am) | scheduled | -
-- 2026-09-01 20:40 | Suudi Arabistan 1.Lig | Al Najma - Al Jabalain | scheduled | -
-- 2026-09-01 20:45 | Rusya Kupa Premier Lig Yolu Grup D | Rostov - Cska Moskova | scheduled | -
-- 2026-09-01 20:47 | Polonya Kupa 1.Tur | Wigry Suwalki - Nieciecza | scheduled | -
-- 2026-09-01 20:55 | Kuveyt Premier Lig | Al Tadhamon - Al Salmiyah | scheduled | -
-- 2026-09-01 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya - Al Ahli (Cidde) | scheduled | -
-- 2026-09-01 21:00 | Romanya Kupa Grup B | Universitatea - Petrolul 52 | scheduled | -
-- 2026-09-01 21:00 | Hollanda KNVB Kupası 1. Ön Eleme Turu | Afc 34 - Vv Scherpenzeel | scheduled | -
-- 2026-09-01 21:00 | Hollanda KNVB Kupası 1. Ön Eleme Turu | Harkemase Boys - Excelsior 31 | scheduled | -
-- 2026-09-01 21:00 | Hollanda KNVB Kupası 1. Ön Eleme Turu | Ado 20 - Excelsior Maass | scheduled | -
-- 2026-09-01 21:00 | Hollanda KNVB Kupası 1. Ön Eleme Turu | Achilles Veen - Poortugaal | scheduled | -
-- 2026-09-01 21:00 | Hollanda KNVB Kupası 1. Ön Eleme Turu | Genemuiden - Lisse | scheduled | -
-- 2026-09-01 21:00 | Hollanda KNVB Kupası 1. Ön Eleme Turu | Sportlust 46 - Blauw Geel 38 | scheduled | -
-- 2026-09-01 21:00 | İtalya Serie C Kupası 2.Tur | Campobasso - Scafatese | scheduled | -
-- 2026-09-01 21:00 | İngiltere Professional Development Lig | Colchester Uni - Barnsley U21 | scheduled | -
-- 2026-09-01 21:00 | İngiltere Professional Development Lig | Cardiff City U - Sheffield Wedne | scheduled | -
-- 2026-09-01 21:00 | Uruguay Kupa Ön Eleme Turu Grup 6 | Colon - Atl Fenix | scheduled | -
 - 2026-09-01 21:30 | İsviçre Süper Lig | Zurich - Young Boys | scheduled | -
 - 2026-09-01 21:30 | Polonya Kupa 1.Tur | Motor Lublin - Legia Varşova | scheduled | -
 - 2026-09-01 21:45 | Almanya DFB Kupası 1.Tur | Hebc - B.Dortmund | scheduled | -
