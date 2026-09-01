@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T05:46:42.546Z",
+  "generated_at": "2026-09-01T10:34:18.515Z",
   "date": "2026-09-01",
   "source_count": 8,
-  "match_count": 124,
+  "match_count": 126,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
     {
@@ -60,7 +60,7 @@
       "match_name": "Farense U23 VS Famalicão U23",
       "league": "Portekiz U23 Ulusal Şampiyona",
       "start_time": "13:00",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -880,6 +880,57 @@
       ]
     },
     {
+      "match_name": "Entebbe Uppc VS Updf",
+      "league": "Uganda Premier Lig",
+      "start_time": "16:00",
+      "recommended_market": "2.5 Alt",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
       "match_name": "Akron VS L.Moskova",
       "league": "Rusya Kupa Premier Lig Yolu Grup D",
       "start_time": "16:15",
@@ -985,7 +1036,7 @@
       "match_name": "Ümraniyespor VS Muğlaspor",
       "league": "Türkiye TFF 1. Lig",
       "start_time": "17:00",
-      "recommended_market": "MS 1",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1553,7 +1604,7 @@
       "match_name": "Corona Brasov VS Bihor",
       "league": "Romanya Kupa Grup C",
       "start_time": "18:00",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2114,7 +2165,7 @@
       "match_name": "União De Leiri VS Marítimo U23",
       "league": "Portekiz U23 Ulusal Şampiyona",
       "start_time": "19:00",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2319,6 +2370,57 @@
       "league": "Tanzanya Kuu Bara Ligi",
       "start_time": "19:00",
       "recommended_market": "MS 1",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Lyseng VS Horsens",
+      "league": "Danimarka DBU Kupası 2.Tur",
+      "start_time": "19:00",
+      "recommended_market": "Değerli market yok",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2842,7 +2944,7 @@
       "match_name": "Helsingborg VS Orebro",
       "league": "İsveç Superettan",
       "start_time": "20:00",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2995,7 +3097,7 @@
       "match_name": "Rzeszow VS P. Bielsko",
       "league": "Polonya Kupa 1.Tur",
       "start_time": "20:00",
-      "recommended_market": "MS 2",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -3454,8 +3556,8 @@
       "match_name": "Durban City VS Stellenbosch Fc",
       "league": "Güney Afrika PSL",
       "start_time": "20:30",
-      "recommended_market": "MS 1",
-      "data_gap_risk": "Yüksek",
+      "recommended_market": "2.5 Alt",
+      "data_gap_risk": "Orta",
       "source_plan": [
         {
           "name": "Mackolik",
@@ -4423,7 +4525,7 @@
       "match_name": "Colon VS Atl Fenix",
       "league": "Uruguay Kupa Ön Eleme Turu Grup 6",
       "start_time": "21:00",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -4889,7 +4991,7 @@
       "match_name": "West Ham VS Wolverhampton",
       "league": "İngiltere Championship",
       "start_time": "21:45",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Orta",
       "source_plan": [
         {
@@ -5093,7 +5195,7 @@
       "match_name": "Bromley VS Leyton Orient",
       "league": "İngiltere 1.Lig",
       "start_time": "21:45",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Orta",
       "source_plan": [
         {
@@ -5705,7 +5807,7 @@
       "match_name": "Swindon VS Port Vale",
       "league": "İngiltere 2.Lig",
       "start_time": "21:45",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "2.5 Üst",
       "data_gap_risk": "Orta",
       "source_plan": [
         {
@@ -5960,7 +6062,7 @@
       "match_name": "Bristol Rovers VS Colchester",
       "league": "İngiltere 2.Lig",
       "start_time": "21:45",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Orta",
       "source_plan": [
         {
@@ -6368,7 +6470,7 @@
       "match_name": "Bari VS Picerno",
       "league": "İtalya Serie C Kupası 2.Tur",
       "start_time": "22:00",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -6521,7 +6623,7 @@
       "match_name": "Penafiel U23 VS Leixoes U23",
       "league": "Portekiz U23 Ulusal Şampiyona",
       "start_time": "22:00",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
