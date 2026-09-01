@@ -1,4072 +1,9 @@
 {
-  "generated_at": "2026-09-01T20:55:34.809Z",
+  "generated_at": "2026-09-01T21:52:35.733Z",
   "timezone": "Europe/Istanbul",
-  "source": "Maçkolik canlı robot",
-  "engine": "High Value Coupon Engine",
-  "scoring_mode": "net_threshold_rules",
-  "engine_rules": {
-    "banned_markets": [
-      "Çifte Şans"
-    ],
-    "focused_markets": [
-      "İlk Yarı KG Var",
-      "İkinci Yarı KG Var",
-      "KG Var",
-      "2.5 Üst",
-      "3.5 Üst",
-      "İlk Yarı 1/X/2",
-      "İkinci Yarı 1/X/2",
-      "İY/MS 1/1",
-      "İY/MS 1/X",
-      "İY/MS 1/2",
-      "İY/MS X/1",
-      "İY/MS X/X",
-      "İY/MS X/2",
-      "İY/MS 2/1",
-      "İY/MS 2/X",
-      "İY/MS 2/2"
-    ],
-    "scoring_classes": {
-      "80-100": "Ana kupon adayı",
-      "65-79": "Orta risk kupon adayı",
-      "50-64": "Sadece izleme",
-      "0-49": "Oynama"
-    },
-    "stale_data_policy": "Güncel maç değilse analiz dışı bırakılır."
-  },
-  "match_count": 45,
-  "analysis_count": 11,
+  "source": "Maçkolik canlı veri bekleniyor",
+  "match_count": 6,
   "matches": [
-    {
-      "home_team_name": "Hebc",
-      "away_team_name": "B.Dortmund",
-      "competition_name": "Almanya DFB Kupası 1.Tur",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "filtered_no_value_market",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "confidence_score": "0%",
-      "trust_score": "0/100",
-      "analysis_score": 0,
-      "analysis_class": "Oynama",
-      "value_label": "Değerli market yok",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 19,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 19,
-            "goalAverage": 4.53,
-            "bttsRate": 58,
-            "over25Rate": 74
-          },
-          "signals": []
-        }
-      },
-      "tag": "Oynama",
-      "expected_scores": [],
-      "signals": [
-        "Düşük oran veya eksik veri nedeniyle elendi",
-        "Çifte şans kullanılmadı",
-        "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ]
-    },
-    {
-      "home_team_name": "Lincoln",
-      "away_team_name": "Blackburn",
-      "competition_name": "İngiltere Championship",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.71",
-      "confidence_score": "69%",
-      "trust_score": "69/100",
-      "analysis_score": 69,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 5,
-          "totalMatches": 25,
-          "home": {
-            "count": 3,
-            "scored": 3,
-            "conceded": 2,
-            "bttsRate": 67,
-            "over25Rate": 67,
-            "over35Rate": 67,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 1.33,
-            "wins": 2,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 67,
-            "drawRate": 0,
-            "lossRate": 33,
-            "pointsPerGame": 2
-          },
-          "away": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 0,
-            "goalsForAvg": 1.5,
-            "goalsAgainstAvg": 1.5,
-            "wins": 1,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 50,
-            "drawRate": 0,
-            "lossRate": 50,
-            "pointsPerGame": 1.5
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 80,
-            "over25Rate": 75
-          },
-          "signals": [
-            "Hafıza: lig gol ortalaması 3.25: +5",
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.71",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %50.",
-        "Bağımsız sonuç hafızası tahmini %84.",
-        "Birleşik tahmini olasılık %56.",
-        "Model-piyasa farkı +6.5 puan.",
-        "Hafıza: lig gol ortalaması 3.25: +5",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %56.",
-        "Veri kapsama puanı 52/100 (Orta eksik veri riski).",
-        "Model gücü 69/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Portsmouth",
-      "away_team_name": "Derby County",
-      "competition_name": "İngiltere Championship",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.78",
-      "confidence_score": "68%",
-      "trust_score": "68/100",
-      "analysis_score": 68,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 5,
-          "totalMatches": 24,
-          "home": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 50,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 1.5,
-            "wins": 1,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 50,
-            "drawRate": 0,
-            "lossRate": 50,
-            "pointsPerGame": 1.5
-          },
-          "away": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 2,
-            "bttsRate": 50,
-            "over25Rate": 100,
-            "over35Rate": 50,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 2.5,
-            "wins": 0,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 50,
-            "lossRate": 50,
-            "pointsPerGame": 0.5
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 80,
-            "over25Rate": 75
-          },
-          "signals": [
-            "Hafıza: lig gol ortalaması 3.25: +5",
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.78",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %48.",
-        "Bağımsız sonuç hafızası tahmini %99.",
-        "Birleşik tahmini olasılık %57.",
-        "Model-piyasa farkı +9.4 puan.",
-        "Hafıza: lig gol ortalaması 3.25: +5",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %56.",
-        "Veri kapsama puanı 49/100 (Orta eksik veri riski).",
-        "Model gücü 68/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Sheffield Utd",
-      "away_team_name": "Bolton",
-      "competition_name": "İngiltere Championship",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.58",
-      "confidence_score": "64%",
-      "trust_score": "64/100",
-      "analysis_score": 64,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 5,
-          "totalMatches": 24,
-          "home": {
-            "count": 3,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 67,
-            "over25Rate": 67,
-            "over35Rate": 33,
-            "goalsForAvg": 1.33,
-            "goalsAgainstAvg": 1,
-            "wins": 1,
-            "draws": 2,
-            "losses": 0,
-            "winRate": 33,
-            "drawRate": 67,
-            "lossRate": 0,
-            "pointsPerGame": 1.67
-          },
-          "away": {
-            "count": 1,
-            "scored": 0,
-            "conceded": 1,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 1,
-            "wins": 0,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 80,
-            "over25Rate": 75
-          },
-          "signals": [
-            "Hafıza: lig gol ortalaması 3.25: +5",
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.58",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %54.",
-        "Bağımsız sonuç hafızası tahmini %34.",
-        "Birleşik tahmini olasılık %50.",
-        "Model-piyasa farkı -3.8 puan.",
-        "Hafıza: lig gol ortalaması 3.25: +5",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %56.",
-        "Veri kapsama puanı 49/100 (Orta eksik veri riski).",
-        "Model gücü 64/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Swansea",
-      "away_team_name": "Watford",
-      "competition_name": "İngiltere Championship",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.67",
-      "confidence_score": "65%",
-      "trust_score": "65/100",
-      "analysis_score": 65,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 25,
-          "home": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 50,
-            "over35Rate": 0,
-            "goalsForAvg": 1.5,
-            "goalsAgainstAvg": 0,
-            "wins": 1,
-            "draws": 1,
-            "losses": 0,
-            "winRate": 50,
-            "drawRate": 50,
-            "lossRate": 0,
-            "pointsPerGame": 2
-          },
-          "away": {
-            "count": 3,
-            "scored": 3,
-            "conceded": 3,
-            "bttsRate": 100,
-            "over25Rate": 33,
-            "over35Rate": 33,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 2.33,
-            "wins": 0,
-            "draws": 2,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 67,
-            "lossRate": 33,
-            "pointsPerGame": 0.67
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 80,
-            "over25Rate": 75
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.67",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %51.",
-        "Bağımsız sonuç hafızası tahmini %59.",
-        "Birleşik tahmini olasılık %52.",
-        "Model-piyasa farkı +1.5 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Veri kapsama puanı 52/100 (Orta eksik veri riski).",
-        "Model gücü 65/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "West Ham",
-      "away_team_name": "Wolverhampton",
-      "competition_name": "İngiltere Championship",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 2",
-      "suggested_odds": "2.84",
-      "confidence_score": "60%",
-      "trust_score": "60/100",
-      "analysis_score": 60,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Değerli",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 7,
-          "totalMatches": 26,
-          "home": {
-            "count": 3,
-            "scored": 3,
-            "conceded": 3,
-            "bttsRate": 100,
-            "over25Rate": 67,
-            "over35Rate": 33,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 1.33,
-            "wins": 1,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 33,
-            "drawRate": 33,
-            "lossRate": 33,
-            "pointsPerGame": 1.33
-          },
-          "away": {
-            "count": 3,
-            "scored": 3,
-            "conceded": 2,
-            "bttsRate": 67,
-            "over25Rate": 67,
-            "over35Rate": 67,
-            "goalsForAvg": 3,
-            "goalsAgainstAvg": 0.67,
-            "wins": 3,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 100,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 3
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 80,
-            "over25Rate": 75
-          },
-          "signals": [
-            "Hafıza: deplasman form puanında önde (3-1.33): +7"
-          ]
-        },
-        "poisson": {
-          "probabilities": {
-            "ms1": 37.60694869466517,
-            "msx": 22.9486015184277,
-            "ms2": 39.44444978690712,
-            "over15": 84.366291261569,
-            "over25": 64.43023966517934,
-            "under25": 35.569760334820636,
-            "over35": 42.3753180516201,
-            "kgVar": 65.55882573912263,
-            "kgYok": 34.441174260877354,
-            "homeGoal": 80.55336066103105,
-            "awayGoal": 81.38558739342295
-          },
-          "homeLambda": 1.64,
-          "awayLambda": 1.68,
-          "samples": 6,
-          "reliability": 0.375
-        },
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
-      ],
-      "signals": [
-        "Market: MS 2",
-        "Oran: 2.84",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %30.",
-        "Bağımsız takım formu + Poisson gol modeli tahmini %53.",
-        "Birleşik tahmini olasılık %36.",
-        "Model-piyasa farkı +5.6 puan.",
-        "Poisson gol beklentisi 1.64-1.68.",
-        "Hafıza: deplasman form puanında önde (3-1.33): +7",
-        "Geçmiş market örneği 855; ham isabet %32.",
-        "Veri kapsama puanı 58/100 (Orta eksik veri riski).",
-        "Model gücü 60/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Prest",
-      "away_team_name": "Bristol City",
-      "competition_name": "İngiltere Championship",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.70",
-      "confidence_score": "69%",
-      "trust_score": "69/100",
-      "analysis_score": 69,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 5,
-          "totalMatches": 25,
-          "home": {
-            "count": 3,
-            "scored": 1,
-            "conceded": 3,
-            "bttsRate": 33,
-            "over25Rate": 67,
-            "over35Rate": 67,
-            "goalsForAvg": 0.33,
-            "goalsAgainstAvg": 2.67,
-            "wins": 0,
-            "draws": 0,
-            "losses": 3,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 50,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 1.5,
-            "wins": 1,
-            "draws": 1,
-            "losses": 0,
-            "winRate": 50,
-            "drawRate": 50,
-            "lossRate": 0,
-            "pointsPerGame": 2
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 80,
-            "over25Rate": 75
-          },
-          "signals": [
-            "Hafıza: lig gol ortalaması 3.25: +5",
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.70",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %50.",
-        "Bağımsız sonuç hafızası tahmini %84.",
-        "Birleşik tahmini olasılık %57.",
-        "Model-piyasa farkı +6.4 puan.",
-        "Hafıza: lig gol ortalaması 3.25: +5",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %56.",
-        "Veri kapsama puanı 52/100 (Orta eksik veri riski).",
-        "Model gücü 69/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Stranraer",
-      "away_team_name": "Celtic Ii",
-      "competition_name": "İskoçya Challenge Kupası Lig Aşaması",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "1.74",
-      "confidence_score": "55%",
-      "trust_score": "55/100",
-      "analysis_score": 55,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 22,
-          "home": {
-            "count": 1,
-            "scored": 1,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 100,
-            "over35Rate": 0,
-            "goalsForAvg": 3,
-            "goalsAgainstAvg": 0,
-            "wins": 1,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 100,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 3
-          },
-          "away": {
-            "count": 1,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 100,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 2,
-            "wins": 0,
-            "draws": 1,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 100,
-            "lossRate": 0,
-            "pointsPerGame": 1
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.5,
-            "bttsRate": 60,
-            "over25Rate": 70
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "signals": [
-        "Market: MS 1",
-        "Oran: 1.74",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %47.",
-        "Birleşik tahmini olasılık %47.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %43.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
-        "Model gücü 55/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Peterborough",
-      "away_team_name": "Stevenage",
-      "competition_name": "İngiltere 1.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.66",
-      "confidence_score": "76%",
-      "trust_score": "76/100",
-      "analysis_score": 76,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 12,
-          "totalMatches": 26,
-          "home": {
-            "count": 3,
-            "scored": 2,
-            "conceded": 3,
-            "bttsRate": 67,
-            "over25Rate": 100,
-            "over35Rate": 67,
-            "goalsForAvg": 2.33,
-            "goalsAgainstAvg": 2,
-            "wins": 2,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 67,
-            "drawRate": 0,
-            "lossRate": 33,
-            "pointsPerGame": 2
-          },
-          "away": {
-            "count": 3,
-            "scored": 2,
-            "conceded": 3,
-            "bttsRate": 67,
-            "over25Rate": 100,
-            "over35Rate": 33,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 2.33,
-            "wins": 0,
-            "draws": 1,
-            "losses": 2,
-            "winRate": 0,
-            "drawRate": 33,
-            "lossRate": 67,
-            "pointsPerGame": 0.33
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 70,
-            "over25Rate": 65
-          },
-          "signals": [
-            "Hafıza: 2.5 Üst eğilimi yüksek (%100): +8",
-            "Hafıza: lig gol ortalaması 3.25: +5"
-          ]
-        },
-        "poisson": {
-          "probabilities": {
-            "ms1": 51.23117032641097,
-            "msx": 21.397299372202454,
-            "ms2": 27.37153030138657,
-            "over15": 86.32658630878755,
-            "over25": 67.7649397629151,
-            "under25": 32.23506023708488,
-            "over35": 46.15670829731345,
-            "kgVar": 66.63046921597,
-            "kgYok": 33.369530784030005,
-            "homeGoal": 87.00038583383251,
-            "awayGoal": 76.58640657437049
-          },
-          "homeLambda": 2.04,
-          "awayLambda": 1.45,
-          "samples": 6,
-          "reliability": 0.375
-        },
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.66",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %50.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %83.",
-        "Birleşik tahmini olasılık %58.",
-        "Model-piyasa farkı +8.5 puan.",
-        "Poisson gol beklentisi 2.04-1.45.",
-        "Hafıza: 2.5 Üst eğilimi yüksek (%100): +8",
-        "Hafıza: lig gol ortalaması 3.25: +5",
-        "Geçmiş market örneği 855; ham isabet %56.",
-        "Veri kapsama puanı 59/100 (Orta eksik veri riski).",
-        "Model gücü 76/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Bromley",
-      "away_team_name": "Leyton Orient",
-      "competition_name": "İngiltere 1.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.64",
-      "confidence_score": "65%",
-      "trust_score": "65/100",
-      "analysis_score": 65,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 5,
-          "totalMatches": 25,
-          "home": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 50,
-            "over35Rate": 50,
-            "goalsForAvg": 1.5,
-            "goalsAgainstAvg": 4,
-            "wins": 0,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 50,
-            "lossRate": 50,
-            "pointsPerGame": 0.5
-          },
-          "away": {
-            "count": 3,
-            "scored": 2,
-            "conceded": 1,
-            "bttsRate": 33,
-            "over25Rate": 33,
-            "over35Rate": 33,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 1,
-            "wins": 1,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 33,
-            "drawRate": 33,
-            "lossRate": 33,
-            "pointsPerGame": 1.33
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 70,
-            "over25Rate": 65
-          },
-          "signals": [
-            "Hafıza: lig gol ortalaması 3.25: +5",
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.64",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %50.",
-        "Bağımsız sonuç hafızası tahmini %42.",
-        "Birleşik tahmini olasılık %49.",
-        "Model-piyasa farkı -1.7 puan.",
-        "Hafıza: lig gol ortalaması 3.25: +5",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %56.",
-        "Veri kapsama puanı 52/100 (Orta eksik veri riski).",
-        "Model gücü 65/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Huddersfield",
-      "away_team_name": "Oxford",
-      "competition_name": "İngiltere 1.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "1.49",
-      "confidence_score": "59%",
-      "trust_score": "59/100",
-      "analysis_score": 59,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 22,
-          "home": {
-            "count": 1,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 0,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 1,
-            "wins": 1,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 100,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 3
-          },
-          "away": {
-            "count": 1,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 0,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 1,
-            "wins": 1,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 100,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 3
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 70,
-            "over25Rate": 65
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "signals": [
-        "Market: MS 1",
-        "Oran: 1.49",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %55.",
-        "Birleşik tahmini olasılık %55.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %43.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
-        "Model gücü 59/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Leicester",
-      "away_team_name": "Plymouth",
-      "competition_name": "İngiltere 1.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "1.70",
-      "confidence_score": "56%",
-      "trust_score": "56/100",
-      "analysis_score": 56,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 25,
-          "home": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 50,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 2.5,
-            "wins": 0,
-            "draws": 0,
-            "losses": 2,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 3,
-            "scored": 3,
-            "conceded": 2,
-            "bttsRate": 67,
-            "over25Rate": 33,
-            "over35Rate": 33,
-            "goalsForAvg": 1.67,
-            "goalsAgainstAvg": 1.67,
-            "wins": 1,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 33,
-            "drawRate": 33,
-            "lossRate": 33,
-            "pointsPerGame": 1.33
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 70,
-            "over25Rate": 65
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "signals": [
-        "Market: MS 1",
-        "Oran: 1.70",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %49.",
-        "Birleşik tahmini olasılık %49.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %43.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 48/100 (Yüksek eksik veri riski).",
-        "Model gücü 56/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Bradford",
-      "away_team_name": "Cambridge",
-      "competition_name": "İngiltere 1.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.47",
-      "confidence_score": "69%",
-      "trust_score": "69/100",
-      "analysis_score": 69,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 25,
-          "home": {
-            "count": 2,
-            "scored": 0,
-            "conceded": 1,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 1,
-            "wins": 0,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 50,
-            "lossRate": 50,
-            "pointsPerGame": 0.5
-          },
-          "away": {
-            "count": 3,
-            "scored": 2,
-            "conceded": 3,
-            "bttsRate": 67,
-            "over25Rate": 33,
-            "over35Rate": 0,
-            "goalsForAvg": 0.67,
-            "goalsAgainstAvg": 1.33,
-            "wins": 0,
-            "draws": 1,
-            "losses": 2,
-            "winRate": 0,
-            "drawRate": 33,
-            "lossRate": 67,
-            "pointsPerGame": 0.33
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 70,
-            "over25Rate": 65
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.47",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %56.",
-        "Bağımsız sonuç hafızası tahmini %84.",
-        "Birleşik tahmini olasılık %61.",
-        "Model-piyasa farkı +5.2 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Veri kapsama puanı 52/100 (Orta eksik veri riski).",
-        "Model gücü 69/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Doncaster",
-      "away_team_name": "Notts County",
-      "competition_name": "İngiltere 1.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.67",
-      "confidence_score": "69%",
-      "trust_score": "69/100",
-      "analysis_score": 69,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 5,
-          "totalMatches": 25,
-          "home": {
-            "count": 3,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 67,
-            "over25Rate": 67,
-            "over35Rate": 67,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 1.67,
-            "wins": 0,
-            "draws": 2,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 67,
-            "lossRate": 33,
-            "pointsPerGame": 0.67
-          },
-          "away": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 50,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 1.5,
-            "wins": 1,
-            "draws": 1,
-            "losses": 0,
-            "winRate": 50,
-            "drawRate": 50,
-            "lossRate": 0,
-            "pointsPerGame": 2
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 70,
-            "over25Rate": 65
-          },
-          "signals": [
-            "Hafıza: lig gol ortalaması 3.25: +5",
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.67",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %49.",
-        "Bağımsız sonuç hafızası tahmini %84.",
-        "Birleşik tahmini olasılık %56.",
-        "Model-piyasa farkı +6.6 puan.",
-        "Hafıza: lig gol ortalaması 3.25: +5",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %56.",
-        "Veri kapsama puanı 52/100 (Orta eksik veri riski).",
-        "Model gücü 69/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Wycombe",
-      "away_team_name": "Sheffield Wed",
-      "competition_name": "İngiltere 1.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.96",
-      "confidence_score": "60%",
-      "trust_score": "60/100",
-      "analysis_score": 60,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 24,
-          "home": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 50,
-            "over35Rate": 50,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 3,
-            "wins": 0,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 50,
-            "lossRate": 50,
-            "pointsPerGame": 0.5
-          },
-          "away": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 2,
-            "bttsRate": 50,
-            "over25Rate": 50,
-            "over35Rate": 50,
-            "goalsForAvg": 3.5,
-            "goalsAgainstAvg": 2,
-            "wins": 1,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 50,
-            "drawRate": 0,
-            "lossRate": 50,
-            "pointsPerGame": 1.5
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 70,
-            "over25Rate": 65
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.96",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %42.",
-        "Bağımsız sonuç hafızası tahmini %50.",
-        "Birleşik tahmini olasılık %44.",
-        "Model-piyasa farkı +1.4 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Veri kapsama puanı 49/100 (Orta eksik veri riski).",
-        "Model gücü 60/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Cheltenham",
-      "away_team_name": "York",
-      "competition_name": "İngiltere 2.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.58",
-      "confidence_score": "58%",
-      "trust_score": "58/100",
-      "analysis_score": 58,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 19,
-          "home": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 50,
-            "goalsForAvg": 1.5,
-            "goalsAgainstAvg": 2,
-            "wins": 0,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 50,
-            "lossRate": 50,
-            "pointsPerGame": 0.5
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 17,
-            "goalAverage": 2.59,
-            "bttsRate": 65,
-            "over25Rate": 59
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.58",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %52.",
-        "Birleşik tahmini olasılık %52.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %56.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
-        "Model gücü 58/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Crewe",
-      "away_team_name": "Walsall",
-      "competition_name": "İngiltere 2.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.76",
-      "confidence_score": "70%",
-      "trust_score": "70/100",
-      "analysis_score": 70,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 8,
-          "totalMatches": 23,
-          "home": {
-            "count": 3,
-            "scored": 2,
-            "conceded": 1,
-            "bttsRate": 33,
-            "over25Rate": 33,
-            "over35Rate": 33,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 1,
-            "wins": 1,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 33,
-            "drawRate": 33,
-            "lossRate": 33,
-            "pointsPerGame": 1.33
-          },
-          "away": {
-            "count": 3,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 33,
-            "over25Rate": 33,
-            "over35Rate": 33,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 0.67,
-            "wins": 1,
-            "draws": 2,
-            "losses": 0,
-            "winRate": 33,
-            "drawRate": 67,
-            "lossRate": 0,
-            "pointsPerGame": 1.67
-          },
-          "league": {
-            "count": 17,
-            "goalAverage": 2.59,
-            "bttsRate": 65,
-            "over25Rate": 59
-          },
-          "signals": [
-            "Hafıza: 2.5 Alt eğilimi destekli (%67): +8"
-          ]
-        },
-        "poisson": {
-          "probabilities": {
-            "ms1": 38.88352860264203,
-            "msx": 28.286712161542226,
-            "ms2": 32.829759235815736,
-            "over15": 66.95869864968115,
-            "over25": 40.44671135358631,
-            "under25": 59.55328864641367,
-            "over35": 20.103842568065286,
-            "kgVar": 46.62096471399245,
-            "kgYok": 53.379035286007536,
-            "homeGoal": 70.24862189002607,
-            "awayGoal": 66.3656644922905
-          },
-          "homeLambda": 1.21,
-          "awayLambda": 1.09,
-          "samples": 6,
-          "reliability": 0.375
-        },
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.76",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %47.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %63.",
-        "Birleşik tahmini olasılık %51.",
-        "Model-piyasa farkı +4.1 puan.",
-        "Poisson gol beklentisi 1.21-1.09.",
-        "Hafıza: 2.5 Alt eğilimi destekli (%67): +8",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Veri kapsama puanı 59/100 (Orta eksik veri riski).",
-        "Model gücü 70/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Fleetwood Town",
-      "away_team_name": "Oldham",
-      "competition_name": "İngiltere 2.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.74",
-      "confidence_score": "66%",
-      "trust_score": "66/100",
-      "analysis_score": 66,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 22,
-          "home": {
-            "count": 3,
-            "scored": 2,
-            "conceded": 1,
-            "bttsRate": 33,
-            "over25Rate": 67,
-            "over35Rate": 67,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 0.67,
-            "wins": 1,
-            "draws": 2,
-            "losses": 0,
-            "winRate": 33,
-            "drawRate": 67,
-            "lossRate": 0,
-            "pointsPerGame": 1.67
-          },
-          "away": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 1,
-            "bttsRate": 50,
-            "over25Rate": 100,
-            "over35Rate": 0,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 1,
-            "wins": 1,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 50,
-            "drawRate": 0,
-            "lossRate": 50,
-            "pointsPerGame": 1.5
-          },
-          "league": {
-            "count": 17,
-            "goalAverage": 2.59,
-            "bttsRate": 65,
-            "over25Rate": 59
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.74",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %48.",
-        "Bağımsız sonuç hafızası tahmini %84.",
-        "Birleşik tahmini olasılık %55.",
-        "Model-piyasa farkı +6.9 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %56.",
-        "Veri kapsama puanı 52/100 (Orta eksik veri riski).",
-        "Model gücü 66/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Northampton",
-      "away_team_name": "Crawley",
-      "competition_name": "İngiltere 2.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.70",
-      "confidence_score": "64%",
-      "trust_score": "64/100",
-      "analysis_score": 64,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 21,
-          "home": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 2,
-            "bttsRate": 50,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0.5,
-            "goalsAgainstAvg": 1,
-            "wins": 0,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 50,
-            "lossRate": 50,
-            "pointsPerGame": 0.5
-          },
-          "away": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 2,
-            "bttsRate": 50,
-            "over25Rate": 50,
-            "over35Rate": 0,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 1.5,
-            "wins": 1,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 50,
-            "drawRate": 0,
-            "lossRate": 50,
-            "pointsPerGame": 1.5
-          },
-          "league": {
-            "count": 17,
-            "goalAverage": 2.59,
-            "bttsRate": 65,
-            "over25Rate": 59
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.70",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %48.",
-        "Bağımsız sonuç hafızası tahmini %75.",
-        "Birleşik tahmini olasılık %53.",
-        "Model-piyasa farkı +4.9 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Veri kapsama puanı 49/100 (Orta eksik veri riski).",
-        "Model gücü 64/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Exeter",
-      "away_team_name": "Barnet",
-      "competition_name": "İngiltere 2.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.86",
-      "confidence_score": "60%",
-      "trust_score": "60/100",
-      "analysis_score": 60,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 20,
-          "home": {
-            "count": 1,
-            "scored": 1,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 0,
-            "wins": 1,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 100,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 3
-          },
-          "away": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 100,
-            "goalsForAvg": 2.5,
-            "goalsAgainstAvg": 1.5,
-            "wins": 1,
-            "draws": 1,
-            "losses": 0,
-            "winRate": 50,
-            "drawRate": 50,
-            "lossRate": 0,
-            "pointsPerGame": 2
-          },
-          "league": {
-            "count": 17,
-            "goalAverage": 2.59,
-            "bttsRate": 65,
-            "over25Rate": 59
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.86",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %44.",
-        "Bağımsız sonuç hafızası tahmini %50.",
-        "Birleşik tahmini olasılık %45.",
-        "Model-piyasa farkı +1.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Veri kapsama puanı 48/100 (Orta eksik veri riski).",
-        "Model gücü 60/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Chesterfield",
-      "away_team_name": "Gillingham",
-      "competition_name": "İngiltere 2.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.57",
-      "confidence_score": "66%",
-      "trust_score": "66/100",
-      "analysis_score": 66,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 21,
-          "home": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 1,
-            "bttsRate": 50,
-            "over25Rate": 50,
-            "over35Rate": 0,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 1,
-            "wins": 1,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 50,
-            "drawRate": 0,
-            "lossRate": 50,
-            "pointsPerGame": 1.5
-          },
-          "away": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 50,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0.5,
-            "goalsAgainstAvg": 0.5,
-            "wins": 0,
-            "draws": 2,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 100,
-            "lossRate": 0,
-            "pointsPerGame": 1
-          },
-          "league": {
-            "count": 17,
-            "goalAverage": 2.59,
-            "bttsRate": 65,
-            "over25Rate": 59
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.57",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %53.",
-        "Bağımsız sonuç hafızası tahmini %75.",
-        "Birleşik tahmini olasılık %57.",
-        "Model-piyasa farkı +4.1 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Veri kapsama puanı 49/100 (Orta eksik veri riski).",
-        "Model gücü 66/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Swindon",
-      "away_team_name": "Port Vale",
-      "competition_name": "İngiltere 2.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.59",
-      "confidence_score": "64%",
-      "trust_score": "64/100",
-      "analysis_score": 64,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 21,
-          "home": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 2,
-            "bttsRate": 50,
-            "over25Rate": 100,
-            "over35Rate": 0,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 2,
-            "wins": 1,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 50,
-            "drawRate": 0,
-            "lossRate": 50,
-            "pointsPerGame": 1.5
-          },
-          "away": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 50,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0.5,
-            "goalsAgainstAvg": 0.5,
-            "wins": 0,
-            "draws": 2,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 100,
-            "lossRate": 0,
-            "pointsPerGame": 1
-          },
-          "league": {
-            "count": 17,
-            "goalAverage": 2.59,
-            "bttsRate": 65,
-            "over25Rate": 59
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.59",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %52.",
-        "Bağımsız sonuç hafızası tahmini %50.",
-        "Birleşik tahmini olasılık %51.",
-        "Model-piyasa farkı -0.3 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Veri kapsama puanı 49/100 (Orta eksik veri riski).",
-        "Model gücü 64/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Accrington",
-      "away_team_name": "Grimsby",
-      "competition_name": "İngiltere 2.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.65",
-      "confidence_score": "64%",
-      "trust_score": "64/100",
-      "analysis_score": 64,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 21,
-          "home": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 2,
-            "bttsRate": 50,
-            "over25Rate": 50,
-            "over35Rate": 50,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 2.5,
-            "wins": 0,
-            "draws": 0,
-            "losses": 2,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 50,
-            "over25Rate": 50,
-            "over35Rate": 50,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 1,
-            "wins": 0,
-            "draws": 2,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 100,
-            "lossRate": 0,
-            "pointsPerGame": 1
-          },
-          "league": {
-            "count": 17,
-            "goalAverage": 2.59,
-            "bttsRate": 65,
-            "over25Rate": 59
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.65",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %50.",
-        "Bağımsız sonuç hafızası tahmini %50.",
-        "Birleşik tahmini olasılık %50.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %56.",
-        "Veri kapsama puanı 49/100 (Orta eksik veri riski).",
-        "Model gücü 64/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Rochdale",
-      "away_team_name": "Shrewsbury",
-      "competition_name": "İngiltere 2.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.71",
-      "confidence_score": "65%",
-      "trust_score": "65/100",
-      "analysis_score": 65,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 22,
-          "home": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 2,
-            "bttsRate": 50,
-            "over25Rate": 50,
-            "over35Rate": 0,
-            "goalsForAvg": 0.5,
-            "goalsAgainstAvg": 1.5,
-            "wins": 0,
-            "draws": 0,
-            "losses": 2,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 3,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 33,
-            "over25Rate": 67,
-            "over35Rate": 67,
-            "goalsForAvg": 0.67,
-            "goalsAgainstAvg": 2.33,
-            "wins": 1,
-            "draws": 0,
-            "losses": 2,
-            "winRate": 33,
-            "drawRate": 0,
-            "lossRate": 67,
-            "pointsPerGame": 1
-          },
-          "league": {
-            "count": 17,
-            "goalAverage": 2.59,
-            "bttsRate": 65,
-            "over25Rate": 59
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.71",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %48.",
-        "Bağımsız sonuç hafızası tahmini %59.",
-        "Birleşik tahmini olasılık %50.",
-        "Model-piyasa farkı +2.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %56.",
-        "Veri kapsama puanı 52/100 (Orta eksik veri riski).",
-        "Model gücü 65/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Salford City",
-      "away_team_name": "Newport County",
-      "competition_name": "İngiltere 2.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "1.42",
-      "confidence_score": "61%",
-      "trust_score": "61/100",
-      "analysis_score": 61,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 21,
-          "home": {
-            "count": 2,
-            "scored": 0,
-            "conceded": 2,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 1,
-            "wins": 0,
-            "draws": 0,
-            "losses": 2,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 100,
-            "goalsForAvg": 2.5,
-            "goalsAgainstAvg": 3.5,
-            "wins": 0,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 50,
-            "lossRate": 50,
-            "pointsPerGame": 0.5
-          },
-          "league": {
-            "count": 17,
-            "goalAverage": 2.59,
-            "bttsRate": 65,
-            "over25Rate": 59
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "signals": [
-        "Market: MS 1",
-        "Oran: 1.42",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %58.",
-        "Birleşik tahmini olasılık %58.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %43.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 46/100 (Yüksek eksik veri riski).",
-        "Model gücü 61/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Tranmere",
-      "away_team_name": "Rotherham",
-      "competition_name": "İngiltere 2.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.79",
-      "confidence_score": "64%",
-      "trust_score": "64/100",
-      "analysis_score": 64,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 20,
-          "home": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 50,
-            "over35Rate": 50,
-            "goalsForAvg": 1.5,
-            "goalsAgainstAvg": 1.5,
-            "wins": 0,
-            "draws": 2,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 100,
-            "lossRate": 0,
-            "pointsPerGame": 1
-          },
-          "away": {
-            "count": 1,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 0,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 1,
-            "wins": 1,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 100,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 3
-          },
-          "league": {
-            "count": 17,
-            "goalAverage": 2.59,
-            "bttsRate": 65,
-            "over25Rate": 59
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.79",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %46.",
-        "Bağımsız sonuç hafızası tahmini %75.",
-        "Birleşik tahmini olasılık %51.",
-        "Model-piyasa farkı +5.2 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %56.",
-        "Veri kapsama puanı 48/100 (Orta eksik veri riski).",
-        "Model gücü 64/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Bristol Rovers",
-      "away_team_name": "Colchester",
-      "competition_name": "İngiltere 2.Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.84",
-      "confidence_score": "61%",
-      "trust_score": "61/100",
-      "analysis_score": 61,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 22,
-          "home": {
-            "count": 3,
-            "scored": 3,
-            "conceded": 2,
-            "bttsRate": 67,
-            "over25Rate": 67,
-            "over35Rate": 67,
-            "goalsForAvg": 3,
-            "goalsAgainstAvg": 1.67,
-            "wins": 2,
-            "draws": 1,
-            "losses": 0,
-            "winRate": 67,
-            "drawRate": 33,
-            "lossRate": 0,
-            "pointsPerGame": 2.33
-          },
-          "away": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 1,
-            "bttsRate": 50,
-            "over25Rate": 50,
-            "over35Rate": 0,
-            "goalsForAvg": 1.5,
-            "goalsAgainstAvg": 0.5,
-            "wins": 2,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 100,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 3
-          },
-          "league": {
-            "count": 17,
-            "goalAverage": 2.59,
-            "bttsRate": 65,
-            "over25Rate": 59
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.84",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %45.",
-        "Bağımsız sonuç hafızası tahmini %42.",
-        "Birleşik tahmini olasılık %44.",
-        "Model-piyasa farkı -0.7 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Veri kapsama puanı 52/100 (Orta eksik veri riski).",
-        "Model gücü 61/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Halifax",
-      "away_team_name": "Hartlepool",
-      "competition_name": "İngiltere Ulusal Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.77",
-      "confidence_score": "57%",
-      "trust_score": "57/100",
-      "analysis_score": 57,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 33,
-          "home": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 50,
-            "goalsForAvg": 2.5,
-            "goalsAgainstAvg": 1.5,
-            "wins": 1,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 50,
-            "drawRate": 0,
-            "lossRate": 50,
-            "pointsPerGame": 1.5
-          },
-          "away": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 2,
-            "bttsRate": 50,
-            "over25Rate": 50,
-            "over35Rate": 0,
-            "goalsForAvg": 0.5,
-            "goalsAgainstAvg": 1.5,
-            "wins": 0,
-            "draws": 0,
-            "losses": 2,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 29,
-            "goalAverage": 3,
-            "bttsRate": 72,
-            "over25Rate": 59
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.77",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %47.",
-        "Bağımsız sonuç hafızası tahmini %25.",
-        "Birleşik tahmini olasılık %43.",
-        "Model-piyasa farkı -4.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Veri kapsama puanı 49/100 (Orta eksik veri riski).",
-        "Model gücü 57/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Zrinjski",
-      "away_team_name": "Bsk Banja Luka",
-      "competition_name": "Bosna-Hersek Premier Lig",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "filtered_no_value_market",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "confidence_score": "0%",
-      "trust_score": "0/100",
-      "analysis_score": 0,
-      "analysis_class": "Oynama",
-      "value_label": "Değerli market yok",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": []
-        }
-      },
-      "tag": "Oynama",
-      "expected_scores": [],
-      "signals": [
-        "Düşük oran veya eksik veri nedeniyle elendi",
-        "Çifte şans kullanılmadı",
-        "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ]
-    },
-    {
-      "home_team_name": "Leek Town",
-      "away_team_name": "Warrington Town",
-      "competition_name": "İngiltere Non League Premier Kuzey",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.76",
-      "confidence_score": "54%",
-      "trust_score": "54/100",
-      "analysis_score": 54,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.76",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %47.",
-        "Birleşik tahmini olasılık %47.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 54/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Stourbridge",
-      "away_team_name": "Leamington",
-      "competition_name": "İngiltere Non League Premier Güney Merkez",
-      "date": "2026-09-01",
-      "time": "21:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.80",
-      "confidence_score": "53%",
-      "trust_score": "53/100",
-      "analysis_score": 53,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.80",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %46.",
-        "Birleşik tahmini olasılık %46.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 53/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Torino",
-      "away_team_name": "Monza",
-      "competition_name": "İtalya Kupa 2.Tur",
-      "date": "2026-09-01",
-      "time": "22:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.76",
-      "confidence_score": "66%",
-      "trust_score": "66/100",
-      "analysis_score": 66,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 5,
-          "home": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 0,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 2,
-            "wins": 0,
-            "draws": 0,
-            "losses": 2,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 100,
-            "goalsForAvg": 1.5,
-            "goalsAgainstAvg": 3.5,
-            "wins": 0,
-            "draws": 0,
-            "losses": 2,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 1,
-            "goalAverage": 2,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.76",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %48.",
-        "Bağımsız sonuç hafızası tahmini %99.",
-        "Birleşik tahmini olasılık %58.",
-        "Model-piyasa farkı +9.3 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %56.",
-        "Veri kapsama puanı 49/100 (Orta eksik veri riski).",
-        "Model gücü 66/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Birmingham",
-      "away_team_name": "Southam",
-      "competition_name": "İngiltere Championship",
-      "date": "2026-09-01",
-      "time": "22:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 2",
-      "suggested_odds": "2.26",
-      "confidence_score": "62%",
-      "trust_score": "62/100",
-      "analysis_score": 62,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 7,
-          "totalMatches": 26,
-          "home": {
-            "count": 3,
-            "scored": 3,
-            "conceded": 3,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 67,
-            "goalsForAvg": 1.67,
-            "goalsAgainstAvg": 3,
-            "wins": 1,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 33,
-            "drawRate": 33,
-            "lossRate": 33,
-            "pointsPerGame": 1.33
-          },
-          "away": {
-            "count": 3,
-            "scored": 3,
-            "conceded": 3,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 100,
-            "goalsForAvg": 3,
-            "goalsAgainstAvg": 2,
-            "wins": 2,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 67,
-            "drawRate": 0,
-            "lossRate": 33,
-            "pointsPerGame": 2
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 80,
-            "over25Rate": 75
-          },
-          "signals": [
-            "Hafıza: deplasman form puanında önde (2-1.33): +7"
-          ]
-        },
-        "poisson": {
-          "probabilities": {
-            "ms1": 36.83920864535225,
-            "msx": 21.228384733178483,
-            "ms2": 41.932406621469276,
-            "over15": 89.33823266097069,
-            "over25": 73.25309048061295,
-            "under25": 26.746909519387064,
-            "over35": 52.828042897143156,
-            "kgVar": 72.37648136967945,
-            "kgYok": 27.623518630320582,
-            "homeGoal": 84.11700043895584,
-            "awayGoal": 86.0426322764605
-          },
-          "homeLambda": 1.84,
-          "awayLambda": 1.97,
-          "samples": 6,
-          "reliability": 0.375
-        },
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
-      ],
-      "signals": [
-        "Market: MS 2",
-        "Oran: 2.26",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %38.",
-        "Bağımsız takım formu + Poisson gol modeli tahmini %45.",
-        "Birleşik tahmini olasılık %39.",
-        "Model-piyasa farkı +1.8 puan.",
-        "Poisson gol beklentisi 1.84-1.97.",
-        "Hafıza: deplasman form puanında önde (2-1.33): +7",
-        "Geçmiş market örneği 855; ham isabet %32.",
-        "Veri kapsama puanı 58/100 (Orta eksik veri riski).",
-        "Model gücü 62/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Stoke",
-      "away_team_name": "Norwich",
-      "competition_name": "İngiltere Championship",
-      "date": "2026-09-01",
-      "time": "22:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.72",
-      "confidence_score": "70%",
-      "trust_score": "70/100",
-      "analysis_score": 70,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 5,
-          "totalMatches": 25,
-          "home": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 100,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 3.5,
-            "wins": 0,
-            "draws": 0,
-            "losses": 2,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 3,
-            "scored": 2,
-            "conceded": 3,
-            "bttsRate": 67,
-            "over25Rate": 100,
-            "over35Rate": 33,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 1.67,
-            "wins": 2,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 67,
-            "drawRate": 0,
-            "lossRate": 33,
-            "pointsPerGame": 2
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.25,
-            "bttsRate": 80,
-            "over25Rate": 75
-          },
-          "signals": [
-            "Hafıza: lig gol ortalaması 3.25: +5",
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.72",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %50.",
-        "Bağımsız sonuç hafızası tahmini %99.",
-        "Birleşik tahmini olasılık %59.",
-        "Model-piyasa farkı +9.5 puan.",
-        "Hafıza: lig gol ortalaması 3.25: +5",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %56.",
-        "Veri kapsama puanı 52/100 (Orta eksik veri riski).",
-        "Model gücü 70/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Bari",
-      "away_team_name": "Picerno",
-      "competition_name": "İtalya Serie C Kupası 2.Tur",
-      "date": "2026-09-01",
-      "time": "22:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "1.43",
-      "confidence_score": "59%",
-      "trust_score": "59/100",
-      "analysis_score": 59,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "signals": [
-        "Market: MS 1",
-        "Oran: 1.43",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %58.",
-        "Birleşik tahmini olasılık %58.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %43.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 59/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Ravenna",
-      "away_team_name": "Forli",
-      "competition_name": "İtalya Serie C Kupası 2.Tur",
-      "date": "2026-09-01",
-      "time": "22:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "1.46",
-      "confidence_score": "58%",
-      "trust_score": "58/100",
-      "analysis_score": 58,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "signals": [
-        "Market: MS 1",
-        "Oran: 1.46",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %57.",
-        "Birleşik tahmini olasılık %57.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %43.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 58/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Rossoblu Poten",
-      "away_team_name": "Ss Monopoli 196",
-      "competition_name": "İtalya Serie C Kupası 2.Tur",
-      "date": "2026-09-01",
-      "time": "22:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.42",
-      "confidence_score": "60%",
-      "trust_score": "60/100",
-      "analysis_score": 60,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.42",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %58.",
-        "Birleşik tahmini olasılık %58.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 60/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Penafiel U23",
-      "away_team_name": "Leixoes U23",
-      "competition_name": "Portekiz U23 Ulusal Şampiyona",
-      "date": "2026-09-01",
-      "time": "22:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.64",
-      "confidence_score": "56%",
-      "trust_score": "56/100",
-      "analysis_score": 56,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.64",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %50.",
-        "Birleşik tahmini olasılık %50.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 56/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Atletico Grau",
-      "away_team_name": "Melgar",
-      "competition_name": "Peru Premier Lig Clausura",
-      "date": "2026-09-01",
-      "time": "23:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.44",
-      "confidence_score": "60%",
-      "trust_score": "60/100",
-      "analysis_score": 60,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 12,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 1,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 100,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 1,
-            "wins": 0,
-            "draws": 1,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 100,
-            "lossRate": 0,
-            "pointsPerGame": 1
-          },
-          "league": {
-            "count": 11,
-            "goalAverage": 3.64,
-            "bttsRate": 73,
-            "over25Rate": 64
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.44",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %58.",
-        "Birleşik tahmini olasılık %58.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
-        "Model gücü 60/100: Sadece izleme."
-      ]
-    },
     {
       "home_team_name": "Delfin",
       "away_team_name": "T.Universitario",
@@ -4074,100 +11,242 @@
       "date": "2026-09-02",
       "time": "00:30",
       "status": "scheduled",
+      "liveStatus": "scheduled",
+      "status_verified": false,
+      "status_source": "schedule_only",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.36",
-      "confidence_score": "62%",
-      "trust_score": "62/100",
-      "analysis_score": 62,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 14,
-          "home": {
-            "count": 2,
-            "scored": 0,
-            "conceded": 2,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 1,
-            "wins": 0,
-            "draws": 0,
-            "losses": 2,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
+      "match_code": "21660",
+      "odds": {
+        "ms_1": 1.75,
+        "ms_x": 2.8,
+        "ms_2": 3.56,
+        "alt_25": 1.36,
+        "ust_25": 2.12
+      },
+      "raw_market_guess_odds": {
+        "ms1": 1.75,
+        "msx": 2.8,
+        "ms2": 3.56,
+        "under25": 1.36,
+        "over25": 2.12,
+        "bttsYes_guess": 1.09,
+        "bttsNo_guess": 1.17
+      },
+      "raw_market_labels": {},
+      "raw_market_blocks": [
+        {
+          "market_code": "21660",
+          "values": [
+            1.75,
+            2.8,
+            3.56
+          ],
+          "guess": "Maç Sonucu 1/X/2",
+          "named_values": {
+            "ms1": 1.75,
+            "msx": 2.8,
+            "ms2": 3.56
           },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 12,
-            "goalAverage": 2.42,
-            "bttsRate": 42,
-            "over25Rate": 50
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.75,
+                "msx": 2.8,
+                "ms2": 3.56
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.75,
+                "firstHalfX_guess": 2.8,
+                "firstHalf2_guess": 3.56
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.75,
+                "secondHalfX_guess": 2.8,
+                "secondHalf2_guess": 3.56
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.75,
+                "handicapX_guess": 2.8,
+                "handicap2_guess": 3.56
+              }
+            }
           ]
         },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
+        {
+          "market_code": "21664",
+          "values": [
+            1.36,
+            2.12
+          ],
+          "guess": "2.5 Alt / Üst",
+          "named_values": {
+            "under25": 1.36,
+            "over25": 2.12
+          },
+          "detail_market_candidates": [
+            {
+              "market": "KG Var / Yok",
+              "values": {
+                "bttsYes_guess": 1.36,
+                "bttsNo_guess": 2.12
+              }
+            },
+            {
+              "market": "İlk Yarı KG Var / Yok",
+              "values": {
+                "firstHalfBttsYes_guess": 1.36,
+                "firstHalfBttsNo_guess": 2.12
+              }
+            },
+            {
+              "market": "İkinci Yarı KG Var / Yok",
+              "values": {
+                "secondHalfBttsYes_guess": 1.36,
+                "secondHalfBttsNo_guess": 2.12
+              }
+            },
+            {
+              "market": "0.5 Alt / Üst",
+              "values": {
+                "under05_guess": 1.36,
+                "over05_guess": 2.12
+              }
+            },
+            {
+              "market": "1.5 Alt / Üst",
+              "values": {
+                "under15_guess": 1.36,
+                "over15_guess": 2.12
+              }
+            },
+            {
+              "market": "2.5 Alt / Üst",
+              "values": {
+                "under25_guess": 1.36,
+                "over25_guess": 2.12
+              }
+            },
+            {
+              "market": "3.5 Alt / Üst",
+              "values": {
+                "under35_guess": 1.36,
+                "over35_guess": 2.12
+              }
+            },
+            {
+              "market": "4.5 Alt / Üst",
+              "values": {
+                "under45_guess": 1.36,
+                "over45_guess": 2.12
+              }
+            },
+            {
+              "market": "İlk Yarı 0.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder05_guess": 1.36,
+                "firstHalfOver05_guess": 2.12
+              }
+            },
+            {
+              "market": "İlk Yarı 1.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder15_guess": 1.36,
+                "firstHalfOver15_guess": 2.12
+              }
+            },
+            {
+              "market": "İkinci Yarı 0.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder05_guess": 1.36,
+                "secondHalfOver05_guess": 2.12
+              }
+            },
+            {
+              "market": "İkinci Yarı 1.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder15_guess": 1.36,
+                "secondHalfOver15_guess": 2.12
+              }
+            },
+            {
+              "market": "Ev Sahibi 1.5 Alt / Üst",
+              "values": {
+                "homeUnder15_guess": 1.36,
+                "homeOver15_guess": 2.12
+              }
+            },
+            {
+              "market": "Deplasman 1.5 Alt / Üst",
+              "values": {
+                "awayUnder15_guess": 1.36,
+                "awayOver15_guess": 2.12
+              }
+            }
+          ]
+        },
+        {
+          "market_code": "21661",
+          "values": [
+            1.09,
+            1.17,
+            1.53
+          ],
+          "guess": "KG Var / Yok tahmini",
+          "named_values": {
+            "bttsYes_guess": 1.09,
+            "bttsNo_guess": 1.17
+          },
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.09,
+                "msx": 1.17,
+                "ms2": 1.53
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.09,
+                "firstHalfX_guess": 1.17,
+                "firstHalf2_guess": 1.53
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.09,
+                "secondHalfX_guess": 1.17,
+                "secondHalf2_guess": 1.53
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.09,
+                "handicapX_guess": 1.17,
+                "handicap2_guess": 1.53
+              }
+            }
+          ]
+        }
       ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.36",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %61.",
-        "Birleşik tahmini olasılık %61.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
-        "Model gücü 62/100: Sadece izleme."
-      ]
+      "raw_odds_sequence": []
     },
     {
       "home_team_name": "Londrina",
@@ -4176,102 +255,242 @@
       "date": "2026-09-02",
       "time": "01:30",
       "status": "scheduled",
+      "liveStatus": "scheduled",
+      "status_verified": false,
+      "status_source": "schedule_only",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.37",
-      "confidence_score": "63%",
-      "trust_score": "63/100",
-      "analysis_score": 63,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 5,
-          "totalMatches": 16,
-          "home": {
-            "count": 1,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 0,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 2,
-            "wins": 0,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
+      "match_code": "00798",
+      "odds": {
+        "ms_1": 2.84,
+        "ms_x": 2.7,
+        "ms_2": 2.05,
+        "alt_25": 1.37,
+        "ust_25": 2.08
+      },
+      "raw_market_guess_odds": {
+        "ms1": 2.84,
+        "msx": 2.7,
+        "ms2": 2.05,
+        "under25": 1.37,
+        "over25": 2.08,
+        "bttsYes_guess": 1.37,
+        "bttsNo_guess": 1.2
+      },
+      "raw_market_labels": {},
+      "raw_market_blocks": [
+        {
+          "market_code": "00798",
+          "values": [
+            2.84,
+            2.7,
+            2.05
+          ],
+          "guess": "Maç Sonucu 1/X/2",
+          "named_values": {
+            "ms1": 2.84,
+            "msx": 2.7,
+            "ms2": 2.05
           },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 15,
-            "goalAverage": 2.33,
-            "bttsRate": 53,
-            "over25Rate": 40
-          },
-          "signals": [
-            "Hafıza: düşük lig gol ortalaması 2.33: +5",
-            "Hafıza: takım sonuç örneği henüz sınırlı"
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 2.84,
+                "msx": 2.7,
+                "ms2": 2.05
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 2.84,
+                "firstHalfX_guess": 2.7,
+                "firstHalf2_guess": 2.05
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 2.84,
+                "secondHalfX_guess": 2.7,
+                "secondHalf2_guess": 2.05
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 2.84,
+                "handicapX_guess": 2.7,
+                "handicap2_guess": 2.05
+              }
+            }
           ]
         },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
+        {
+          "market_code": "13979",
+          "values": [
+            1.37,
+            2.08
+          ],
+          "guess": "2.5 Alt / Üst",
+          "named_values": {
+            "under25": 1.37,
+            "over25": 2.08
+          },
+          "detail_market_candidates": [
+            {
+              "market": "KG Var / Yok",
+              "values": {
+                "bttsYes_guess": 1.37,
+                "bttsNo_guess": 2.08
+              }
+            },
+            {
+              "market": "İlk Yarı KG Var / Yok",
+              "values": {
+                "firstHalfBttsYes_guess": 1.37,
+                "firstHalfBttsNo_guess": 2.08
+              }
+            },
+            {
+              "market": "İkinci Yarı KG Var / Yok",
+              "values": {
+                "secondHalfBttsYes_guess": 1.37,
+                "secondHalfBttsNo_guess": 2.08
+              }
+            },
+            {
+              "market": "0.5 Alt / Üst",
+              "values": {
+                "under05_guess": 1.37,
+                "over05_guess": 2.08
+              }
+            },
+            {
+              "market": "1.5 Alt / Üst",
+              "values": {
+                "under15_guess": 1.37,
+                "over15_guess": 2.08
+              }
+            },
+            {
+              "market": "2.5 Alt / Üst",
+              "values": {
+                "under25_guess": 1.37,
+                "over25_guess": 2.08
+              }
+            },
+            {
+              "market": "3.5 Alt / Üst",
+              "values": {
+                "under35_guess": 1.37,
+                "over35_guess": 2.08
+              }
+            },
+            {
+              "market": "4.5 Alt / Üst",
+              "values": {
+                "under45_guess": 1.37,
+                "over45_guess": 2.08
+              }
+            },
+            {
+              "market": "İlk Yarı 0.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder05_guess": 1.37,
+                "firstHalfOver05_guess": 2.08
+              }
+            },
+            {
+              "market": "İlk Yarı 1.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder15_guess": 1.37,
+                "firstHalfOver15_guess": 2.08
+              }
+            },
+            {
+              "market": "İkinci Yarı 0.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder05_guess": 1.37,
+                "secondHalfOver05_guess": 2.08
+              }
+            },
+            {
+              "market": "İkinci Yarı 1.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder15_guess": 1.37,
+                "secondHalfOver15_guess": 2.08
+              }
+            },
+            {
+              "market": "Ev Sahibi 1.5 Alt / Üst",
+              "values": {
+                "homeUnder15_guess": 1.37,
+                "homeOver15_guess": 2.08
+              }
+            },
+            {
+              "market": "Deplasman 1.5 Alt / Üst",
+              "values": {
+                "awayUnder15_guess": 1.37,
+                "awayOver15_guess": 2.08
+              }
+            }
+          ]
+        },
+        {
+          "market_code": "00947",
+          "values": [
+            1.37,
+            1.2,
+            1.17
+          ],
+          "guess": "KG Var / Yok tahmini",
+          "named_values": {
+            "bttsYes_guess": 1.37,
+            "bttsNo_guess": 1.2
+          },
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.37,
+                "msx": 1.2,
+                "ms2": 1.17
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.37,
+                "firstHalfX_guess": 1.2,
+                "firstHalf2_guess": 1.17
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.37,
+                "secondHalfX_guess": 1.2,
+                "secondHalf2_guess": 1.17
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.37,
+                "handicapX_guess": 1.2,
+                "handicap2_guess": 1.17
+              }
+            }
+          ]
+        }
       ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.37",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %60.",
-        "Birleşik tahmini olasılık %60.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: düşük lig gol ortalaması 2.33: +5",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
-        "Model gücü 63/100: Sadece izleme."
-      ]
+      "raw_odds_sequence": []
     },
     {
       "home_team_name": "Torque",
@@ -4280,100 +499,193 @@
       "date": "2026-09-02",
       "time": "02:15",
       "status": "scheduled",
+      "liveStatus": "scheduled",
+      "status_verified": false,
+      "status_source": "schedule_only",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.50",
-      "confidence_score": "65%",
-      "trust_score": "65/100",
-      "analysis_score": 65,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 4,
-          "home": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 100,
-            "goalsForAvg": 4,
-            "goalsAgainstAvg": 1,
-            "wins": 2,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 100,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 3
+      "match_code": "13457",
+      "odds": {
+        "ms_1": 1.83,
+        "ms_x": 2.91,
+        "ms_2": 3.13,
+        "alt_25": 1.5,
+        "ust_25": 1.85
+      },
+      "raw_market_guess_odds": {
+        "ms1": 1.83,
+        "msx": 2.91,
+        "ms2": 3.13,
+        "under25": 1.5,
+        "over25": 1.85
+      },
+      "raw_market_labels": {},
+      "raw_market_blocks": [
+        {
+          "market_code": "13457",
+          "values": [
+            1.83,
+            2.91,
+            3.13
+          ],
+          "guess": "Maç Sonucu 1/X/2",
+          "named_values": {
+            "ms1": 1.83,
+            "msx": 2.91,
+            "ms2": 3.13
           },
-          "away": {
-            "count": 2,
-            "scored": 0,
-            "conceded": 1,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0.5,
-            "wins": 0,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 50,
-            "lossRate": 50,
-            "pointsPerGame": 0.5
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.83,
+                "msx": 2.91,
+                "ms2": 3.13
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.83,
+                "firstHalfX_guess": 2.91,
+                "firstHalf2_guess": 3.13
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.83,
+                "secondHalfX_guess": 2.91,
+                "secondHalf2_guess": 3.13
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.83,
+                "handicapX_guess": 2.91,
+                "handicap2_guess": 3.13
+              }
+            }
           ]
         },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
+        {
+          "market_code": "04450",
+          "values": [
+            1.5,
+            1.85
+          ],
+          "guess": "2.5 Alt / Üst",
+          "named_values": {
+            "under25": 1.5,
+            "over25": 1.85
+          },
+          "detail_market_candidates": [
+            {
+              "market": "KG Var / Yok",
+              "values": {
+                "bttsYes_guess": 1.5,
+                "bttsNo_guess": 1.85
+              }
+            },
+            {
+              "market": "İlk Yarı KG Var / Yok",
+              "values": {
+                "firstHalfBttsYes_guess": 1.5,
+                "firstHalfBttsNo_guess": 1.85
+              }
+            },
+            {
+              "market": "İkinci Yarı KG Var / Yok",
+              "values": {
+                "secondHalfBttsYes_guess": 1.5,
+                "secondHalfBttsNo_guess": 1.85
+              }
+            },
+            {
+              "market": "0.5 Alt / Üst",
+              "values": {
+                "under05_guess": 1.5,
+                "over05_guess": 1.85
+              }
+            },
+            {
+              "market": "1.5 Alt / Üst",
+              "values": {
+                "under15_guess": 1.5,
+                "over15_guess": 1.85
+              }
+            },
+            {
+              "market": "2.5 Alt / Üst",
+              "values": {
+                "under25_guess": 1.5,
+                "over25_guess": 1.85
+              }
+            },
+            {
+              "market": "3.5 Alt / Üst",
+              "values": {
+                "under35_guess": 1.5,
+                "over35_guess": 1.85
+              }
+            },
+            {
+              "market": "4.5 Alt / Üst",
+              "values": {
+                "under45_guess": 1.5,
+                "over45_guess": 1.85
+              }
+            },
+            {
+              "market": "İlk Yarı 0.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder05_guess": 1.5,
+                "firstHalfOver05_guess": 1.85
+              }
+            },
+            {
+              "market": "İlk Yarı 1.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder15_guess": 1.5,
+                "firstHalfOver15_guess": 1.85
+              }
+            },
+            {
+              "market": "İkinci Yarı 0.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder05_guess": 1.5,
+                "secondHalfOver05_guess": 1.85
+              }
+            },
+            {
+              "market": "İkinci Yarı 1.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder15_guess": 1.5,
+                "secondHalfOver15_guess": 1.85
+              }
+            },
+            {
+              "market": "Ev Sahibi 1.5 Alt / Üst",
+              "values": {
+                "homeUnder15_guess": 1.5,
+                "homeOver15_guess": 1.85
+              }
+            },
+            {
+              "market": "Deplasman 1.5 Alt / Üst",
+              "values": {
+                "awayUnder15_guess": 1.5,
+                "awayOver15_guess": 1.85
+              }
+            }
+          ]
+        }
       ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.50",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %55.",
-        "Bağımsız sonuç hafızası tahmini %50.",
-        "Birleşik tahmini olasılık %54.",
-        "Model-piyasa farkı -1.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Veri kapsama puanı 49/100 (Orta eksik veri riski).",
-        "Model gücü 65/100: Orta risk kupon adayı."
-      ]
+      "raw_odds_sequence": []
     },
     {
       "home_team_name": "Atletico Mg (1)",
@@ -4382,101 +694,242 @@
       "date": "2026-09-02",
       "time": "03:00",
       "status": "scheduled",
+      "liveStatus": "scheduled",
+      "status_verified": false,
+      "status_source": "schedule_only",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.41",
-      "confidence_score": "53%",
-      "trust_score": "53/100",
-      "analysis_score": 53,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 4,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
+      "match_code": "17019",
+      "odds": {
+        "ms_1": 2.28,
+        "ms_x": 2.76,
+        "ms_2": 2.65,
+        "alt_25": 1.41,
+        "ust_25": 2.14
+      },
+      "raw_market_guess_odds": {
+        "ms1": 2.28,
+        "msx": 2.76,
+        "ms2": 2.65,
+        "under25": 1.41,
+        "over25": 2.14,
+        "bttsYes_guess": 1.25,
+        "bttsNo_guess": 1.23
+      },
+      "raw_market_labels": {},
+      "raw_market_blocks": [
+        {
+          "market_code": "17019",
+          "values": [
+            2.28,
+            2.76,
+            2.65
+          ],
+          "guess": "Maç Sonucu 1/X/2",
+          "named_values": {
+            "ms1": 2.28,
+            "msx": 2.76,
+            "ms2": 2.65
           },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 4,
-            "goalAverage": 1.5,
-            "bttsRate": 25,
-            "over25Rate": 25
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 2.28,
+                "msx": 2.76,
+                "ms2": 2.65
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 2.28,
+                "firstHalfX_guess": 2.76,
+                "firstHalf2_guess": 2.65
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 2.28,
+                "secondHalfX_guess": 2.76,
+                "secondHalf2_guess": 2.65
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 2.28,
+                "handicapX_guess": 2.76,
+                "handicap2_guess": 2.65
+              }
+            }
           ]
         },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
+        {
+          "market_code": "17050",
+          "values": [
+            1.41,
+            2.14
+          ],
+          "guess": "2.5 Alt / Üst",
+          "named_values": {
+            "under25": 1.41,
+            "over25": 2.14
+          },
+          "detail_market_candidates": [
+            {
+              "market": "KG Var / Yok",
+              "values": {
+                "bttsYes_guess": 1.41,
+                "bttsNo_guess": 2.14
+              }
+            },
+            {
+              "market": "İlk Yarı KG Var / Yok",
+              "values": {
+                "firstHalfBttsYes_guess": 1.41,
+                "firstHalfBttsNo_guess": 2.14
+              }
+            },
+            {
+              "market": "İkinci Yarı KG Var / Yok",
+              "values": {
+                "secondHalfBttsYes_guess": 1.41,
+                "secondHalfBttsNo_guess": 2.14
+              }
+            },
+            {
+              "market": "0.5 Alt / Üst",
+              "values": {
+                "under05_guess": 1.41,
+                "over05_guess": 2.14
+              }
+            },
+            {
+              "market": "1.5 Alt / Üst",
+              "values": {
+                "under15_guess": 1.41,
+                "over15_guess": 2.14
+              }
+            },
+            {
+              "market": "2.5 Alt / Üst",
+              "values": {
+                "under25_guess": 1.41,
+                "over25_guess": 2.14
+              }
+            },
+            {
+              "market": "3.5 Alt / Üst",
+              "values": {
+                "under35_guess": 1.41,
+                "over35_guess": 2.14
+              }
+            },
+            {
+              "market": "4.5 Alt / Üst",
+              "values": {
+                "under45_guess": 1.41,
+                "over45_guess": 2.14
+              }
+            },
+            {
+              "market": "İlk Yarı 0.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder05_guess": 1.41,
+                "firstHalfOver05_guess": 2.14
+              }
+            },
+            {
+              "market": "İlk Yarı 1.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder15_guess": 1.41,
+                "firstHalfOver15_guess": 2.14
+              }
+            },
+            {
+              "market": "İkinci Yarı 0.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder05_guess": 1.41,
+                "secondHalfOver05_guess": 2.14
+              }
+            },
+            {
+              "market": "İkinci Yarı 1.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder15_guess": 1.41,
+                "secondHalfOver15_guess": 2.14
+              }
+            },
+            {
+              "market": "Ev Sahibi 1.5 Alt / Üst",
+              "values": {
+                "homeUnder15_guess": 1.41,
+                "homeOver15_guess": 2.14
+              }
+            },
+            {
+              "market": "Deplasman 1.5 Alt / Üst",
+              "values": {
+                "awayUnder15_guess": 1.41,
+                "awayOver15_guess": 2.14
+              }
+            }
+          ]
+        },
+        {
+          "market_code": "17020",
+          "values": [
+            1.25,
+            1.23,
+            1.35
+          ],
+          "guess": "KG Var / Yok tahmini",
+          "named_values": {
+            "bttsYes_guess": 1.25,
+            "bttsNo_guess": 1.23
+          },
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.25,
+                "msx": 1.23,
+                "ms2": 1.35
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.25,
+                "firstHalfX_guess": 1.23,
+                "firstHalf2_guess": 1.35
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.25,
+                "secondHalfX_guess": 1.23,
+                "secondHalf2_guess": 1.35
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.25,
+                "handicapX_guess": 1.23,
+                "handicap2_guess": 1.35
+              }
+            }
+          ]
+        }
       ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.41",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %60.",
-        "Birleşik tahmini olasılık %60.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 53/100: Sadece izleme."
-      ]
+      "raw_odds_sequence": []
     },
     {
       "home_team_name": "Ldu Quito",
@@ -4485,100 +938,242 @@
       "date": "2026-09-02",
       "time": "03:00",
       "status": "scheduled",
+      "liveStatus": "scheduled",
+      "status_verified": false,
+      "status_source": "schedule_only",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.61",
-      "confidence_score": "65%",
-      "trust_score": "65/100",
-      "analysis_score": 65,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 15,
-          "home": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 1,
-            "bttsRate": 50,
-            "over25Rate": 50,
-            "over35Rate": 0,
-            "goalsForAvg": 1.5,
-            "goalsAgainstAvg": 1,
-            "wins": 1,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 50,
-            "drawRate": 0,
-            "lossRate": 50,
-            "pointsPerGame": 1.5
+      "match_code": "21681",
+      "odds": {
+        "ms_1": 1.53,
+        "ms_x": 3.21,
+        "ms_2": 4.06,
+        "alt_25": 1.61,
+        "ust_25": 1.7
+      },
+      "raw_market_guess_odds": {
+        "ms1": 1.53,
+        "msx": 3.21,
+        "ms2": 4.06,
+        "under25": 1.61,
+        "over25": 1.7,
+        "bttsYes_guess": 1.05,
+        "bttsNo_guess": 1.12
+      },
+      "raw_market_labels": {},
+      "raw_market_blocks": [
+        {
+          "market_code": "21681",
+          "values": [
+            1.53,
+            3.21,
+            4.06
+          ],
+          "guess": "Maç Sonucu 1/X/2",
+          "named_values": {
+            "ms1": 1.53,
+            "msx": 3.21,
+            "ms2": 4.06
           },
-          "away": {
-            "count": 1,
-            "scored": 1,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 0,
-            "wins": 1,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 100,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 3
-          },
-          "league": {
-            "count": 12,
-            "goalAverage": 2.42,
-            "bttsRate": 42,
-            "over25Rate": 50
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.53,
+                "msx": 3.21,
+                "ms2": 4.06
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.53,
+                "firstHalfX_guess": 3.21,
+                "firstHalf2_guess": 4.06
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.53,
+                "secondHalfX_guess": 3.21,
+                "secondHalf2_guess": 4.06
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.53,
+                "handicapX_guess": 3.21,
+                "handicap2_guess": 4.06
+              }
+            }
           ]
         },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
+        {
+          "market_code": "21686",
+          "values": [
+            1.61,
+            1.7
+          ],
+          "guess": "2.5 Alt / Üst",
+          "named_values": {
+            "under25": 1.61,
+            "over25": 1.7
+          },
+          "detail_market_candidates": [
+            {
+              "market": "KG Var / Yok",
+              "values": {
+                "bttsYes_guess": 1.61,
+                "bttsNo_guess": 1.7
+              }
+            },
+            {
+              "market": "İlk Yarı KG Var / Yok",
+              "values": {
+                "firstHalfBttsYes_guess": 1.61,
+                "firstHalfBttsNo_guess": 1.7
+              }
+            },
+            {
+              "market": "İkinci Yarı KG Var / Yok",
+              "values": {
+                "secondHalfBttsYes_guess": 1.61,
+                "secondHalfBttsNo_guess": 1.7
+              }
+            },
+            {
+              "market": "0.5 Alt / Üst",
+              "values": {
+                "under05_guess": 1.61,
+                "over05_guess": 1.7
+              }
+            },
+            {
+              "market": "1.5 Alt / Üst",
+              "values": {
+                "under15_guess": 1.61,
+                "over15_guess": 1.7
+              }
+            },
+            {
+              "market": "2.5 Alt / Üst",
+              "values": {
+                "under25_guess": 1.61,
+                "over25_guess": 1.7
+              }
+            },
+            {
+              "market": "3.5 Alt / Üst",
+              "values": {
+                "under35_guess": 1.61,
+                "over35_guess": 1.7
+              }
+            },
+            {
+              "market": "4.5 Alt / Üst",
+              "values": {
+                "under45_guess": 1.61,
+                "over45_guess": 1.7
+              }
+            },
+            {
+              "market": "İlk Yarı 0.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder05_guess": 1.61,
+                "firstHalfOver05_guess": 1.7
+              }
+            },
+            {
+              "market": "İlk Yarı 1.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder15_guess": 1.61,
+                "firstHalfOver15_guess": 1.7
+              }
+            },
+            {
+              "market": "İkinci Yarı 0.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder05_guess": 1.61,
+                "secondHalfOver05_guess": 1.7
+              }
+            },
+            {
+              "market": "İkinci Yarı 1.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder15_guess": 1.61,
+                "secondHalfOver15_guess": 1.7
+              }
+            },
+            {
+              "market": "Ev Sahibi 1.5 Alt / Üst",
+              "values": {
+                "homeUnder15_guess": 1.61,
+                "homeOver15_guess": 1.7
+              }
+            },
+            {
+              "market": "Deplasman 1.5 Alt / Üst",
+              "values": {
+                "awayUnder15_guess": 1.61,
+                "awayOver15_guess": 1.7
+              }
+            }
+          ]
+        },
+        {
+          "market_code": "21683",
+          "values": [
+            1.05,
+            1.12,
+            1.73
+          ],
+          "guess": "KG Var / Yok tahmini",
+          "named_values": {
+            "bttsYes_guess": 1.05,
+            "bttsNo_guess": 1.12
+          },
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.05,
+                "msx": 1.12,
+                "ms2": 1.73
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.05,
+                "firstHalfX_guess": 1.12,
+                "firstHalf2_guess": 1.73
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.05,
+                "secondHalfX_guess": 1.12,
+                "secondHalf2_guess": 1.73
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.05,
+                "handicapX_guess": 1.12,
+                "handicap2_guess": 1.73
+              }
+            }
+          ]
+        }
       ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.61",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %51.",
-        "Bağımsız sonuç hafızası tahmini %75.",
-        "Birleşik tahmini olasılık %56.",
-        "Model-piyasa farkı +4.3 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Veri kapsama puanı 48/100 (Orta eksik veri riski).",
-        "Model gücü 65/100: Orta risk kupon adayı."
-      ]
+      "raw_odds_sequence": []
     },
     {
       "home_team_name": "Fortaleza",
@@ -4587,101 +1182,242 @@
       "date": "2026-09-02",
       "time": "04:00",
       "status": "scheduled",
+      "liveStatus": "scheduled",
+      "status_verified": false,
+      "status_source": "schedule_only",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.50",
-      "confidence_score": "67%",
-      "trust_score": "67/100",
-      "analysis_score": 67,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 18,
-          "home": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 50,
-            "over25Rate": 50,
-            "over35Rate": 0,
-            "goalsForAvg": 0.5,
-            "goalsAgainstAvg": 1,
-            "wins": 0,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 50,
-            "lossRate": 50,
-            "pointsPerGame": 0.5
+      "match_code": "25615",
+      "odds": {
+        "ms_1": 3.06,
+        "ms_x": 2.84,
+        "ms_2": 1.88,
+        "alt_25": 1.5,
+        "ust_25": 1.85
+      },
+      "raw_market_guess_odds": {
+        "ms1": 3.06,
+        "msx": 2.84,
+        "ms2": 1.88,
+        "under25": 1.5,
+        "over25": 1.85,
+        "bttsYes_guess": 1.44,
+        "bttsNo_guess": 1.17
+      },
+      "raw_market_labels": {},
+      "raw_market_blocks": [
+        {
+          "market_code": "25615",
+          "values": [
+            3.06,
+            2.84,
+            1.88
+          ],
+          "guess": "Maç Sonucu 1/X/2",
+          "named_values": {
+            "ms1": 3.06,
+            "msx": 2.84,
+            "ms2": 1.88
           },
-          "away": {
-            "count": 1,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 100,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 1,
-            "wins": 0,
-            "draws": 1,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 100,
-            "lossRate": 0,
-            "pointsPerGame": 1
-          },
-          "league": {
-            "count": 15,
-            "goalAverage": 2.47,
-            "bttsRate": 67,
-            "over25Rate": 47
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 3.06,
+                "msx": 2.84,
+                "ms2": 1.88
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 3.06,
+                "firstHalfX_guess": 2.84,
+                "firstHalf2_guess": 1.88
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 3.06,
+                "secondHalfX_guess": 2.84,
+                "secondHalf2_guess": 1.88
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 3.06,
+                "handicapX_guess": 2.84,
+                "handicap2_guess": 1.88
+              }
+            }
           ]
         },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
+        {
+          "market_code": "25619",
+          "values": [
+            1.5,
+            1.85
+          ],
+          "guess": "2.5 Alt / Üst",
+          "named_values": {
+            "under25": 1.5,
+            "over25": 1.85
+          },
+          "detail_market_candidates": [
+            {
+              "market": "KG Var / Yok",
+              "values": {
+                "bttsYes_guess": 1.5,
+                "bttsNo_guess": 1.85
+              }
+            },
+            {
+              "market": "İlk Yarı KG Var / Yok",
+              "values": {
+                "firstHalfBttsYes_guess": 1.5,
+                "firstHalfBttsNo_guess": 1.85
+              }
+            },
+            {
+              "market": "İkinci Yarı KG Var / Yok",
+              "values": {
+                "secondHalfBttsYes_guess": 1.5,
+                "secondHalfBttsNo_guess": 1.85
+              }
+            },
+            {
+              "market": "0.5 Alt / Üst",
+              "values": {
+                "under05_guess": 1.5,
+                "over05_guess": 1.85
+              }
+            },
+            {
+              "market": "1.5 Alt / Üst",
+              "values": {
+                "under15_guess": 1.5,
+                "over15_guess": 1.85
+              }
+            },
+            {
+              "market": "2.5 Alt / Üst",
+              "values": {
+                "under25_guess": 1.5,
+                "over25_guess": 1.85
+              }
+            },
+            {
+              "market": "3.5 Alt / Üst",
+              "values": {
+                "under35_guess": 1.5,
+                "over35_guess": 1.85
+              }
+            },
+            {
+              "market": "4.5 Alt / Üst",
+              "values": {
+                "under45_guess": 1.5,
+                "over45_guess": 1.85
+              }
+            },
+            {
+              "market": "İlk Yarı 0.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder05_guess": 1.5,
+                "firstHalfOver05_guess": 1.85
+              }
+            },
+            {
+              "market": "İlk Yarı 1.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder15_guess": 1.5,
+                "firstHalfOver15_guess": 1.85
+              }
+            },
+            {
+              "market": "İkinci Yarı 0.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder05_guess": 1.5,
+                "secondHalfOver05_guess": 1.85
+              }
+            },
+            {
+              "market": "İkinci Yarı 1.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder15_guess": 1.5,
+                "secondHalfOver15_guess": 1.85
+              }
+            },
+            {
+              "market": "Ev Sahibi 1.5 Alt / Üst",
+              "values": {
+                "homeUnder15_guess": 1.5,
+                "homeOver15_guess": 1.85
+              }
+            },
+            {
+              "market": "Deplasman 1.5 Alt / Üst",
+              "values": {
+                "awayUnder15_guess": 1.5,
+                "awayOver15_guess": 1.85
+              }
+            }
+          ]
+        },
+        {
+          "market_code": "25616",
+          "values": [
+            1.44,
+            1.17,
+            1.14
+          ],
+          "guess": "KG Var / Yok tahmini",
+          "named_values": {
+            "bttsYes_guess": 1.44,
+            "bttsNo_guess": 1.17
+          },
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.44,
+                "msx": 1.17,
+                "ms2": 1.14
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.44,
+                "firstHalfX_guess": 1.17,
+                "firstHalf2_guess": 1.14
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.44,
+                "secondHalfX_guess": 1.17,
+                "secondHalf2_guess": 1.14
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.44,
+                "handicapX_guess": 1.17,
+                "handicap2_guess": 1.14
+              }
+            }
+          ]
+        }
       ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.50",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %55.",
-        "Bağımsız sonuç hafızası tahmini %75.",
-        "Birleşik tahmini olasılık %59.",
-        "Model-piyasa farkı +3.6 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 855; ham isabet %44.",
-        "Veri kapsama puanı 48/100 (Orta eksik veri riski).",
-        "Model gücü 67/100: Orta risk kupon adayı."
-      ]
+      "raw_odds_sequence": []
     }
-  ],
-  "focused_market_count": 16
+  ]
 }

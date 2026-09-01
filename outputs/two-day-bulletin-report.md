@@ -1,17 +1,16 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-09-01 / 2026-09-02
+Gunler: 2026-09-02 / 2026-09-03
 Kaynak: fixtures.json
-Ham mac: 146
-Aktif mac: 6
+Ham mac: 6
+Aktif mac: 5
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 140
-Bugun: 0
-Yarin: 6
+Bultenden dusurulen mac: 1
+Bugun: 5
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-09-02 00:30 | Ekvador Pro Lig | Delfin - T.Universitario | scheduled | -
 - 2026-09-02 01:30 | Brezilya Serie B | Londrina - Juventude | scheduled | -
 - 2026-09-02 02:15 | Uruguay Kupa Ön Eleme Turu Grup 1 | Torque - Danubio | scheduled | -
 - 2026-09-02 03:00 | Brezilya Kupa Çeyrek Final | Atletico Mg (1) - (1) Cruzeiro | scheduled | -

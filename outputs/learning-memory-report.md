@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 01.09.2026 23:56:00
+Oluşturma: 02.09.2026 00:52:36
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1096
-- Kazanan tahmin: 226
-- Kaybeden tahmin: 178
-- Lig sayısı: 207
+- Bekleyen tahmin: 1098
+- Kazanan tahmin: 225
+- Kaybeden tahmin: 177
+- Lig sayısı: 206
 - Seçenek sayısı: 7
 
 ## Öğrenme Mantığı
@@ -25,13 +25,19 @@ Oluşturma: 01.09.2026 23:56:00
 - MS X: toplam 5, bekleyen 4, başarı %100, düz getiri %146, ağırlık 1
 - KG Var: toplam 2, bekleyen 1, başarı %100, düz getiri %87, ağırlık 1
 - 2.5 Üst: toplam 218, bekleyen 132, başarı %67, düz getiri %20, ağırlık 1
-- MS 2: toplam 209, bekleyen 175, başarı %59, düz getiri %-1, ağırlık 1
-- 2.5 Alt: toplam 584, bekleyen 399, başarı %52, düz getiri %-14, ağırlık 1
-- MS 1: toplam 481, bekleyen 384, başarı %52, düz getiri %-15, ağırlık 1
+- MS 2: toplam 208, bekleyen 174, başarı %59, düz getiri %-1, ağırlık 1
+- 2.5 Alt: toplam 587, bekleyen 404, başarı %52, düz getiri %-14, ağırlık 1
+- MS 1: toplam 479, bekleyen 382, başarı %52, düz getiri %-15, ağırlık 1
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-02 | Ekvador Pro Lig | Delfin - T.Universitario | 2.5 Alt | pending | 58/100
+- 2026-09-02 | Brezilya Serie B | Londrina - Juventude | 2.5 Alt | pending | 59/100
+- 2026-09-02 | Uruguay Kupa Ön Eleme Turu Grup 1 | Torque - Danubio | 2.5 Alt | pending | 61/100
+- 2026-09-02 | Brezilya Kupa Çeyrek Final | Atletico Mg (1) - (1) Cruzeiro | 2.5 Alt | pending | 49/100
+- 2026-09-02 | Ekvador Pro Lig | Ldu Quito - Mushuc Runa | 2.5 Alt | pending | 61/100
+- 2026-09-02 | Kolombiya Primera A Clausura | Fortaleza - Once Caldas | 2.5 Alt | pending | 63/100
 - 2026-09-01 | İngiltere Ulusal Lig | Halifax - Hartlepool | 2.5 Alt | pending | 53/100
 - 2026-09-01 | İngiltere Championship | West Ham - Wolverhampton | MS 2 | pending | 56/100
 - 2026-09-01 | İngiltere Championship | Birmingham - Southam | MS 2 | pending | 58/100
@@ -41,10 +47,4 @@ Oluşturma: 01.09.2026 23:56:00
 - 2026-09-01 | İngiltere Championship | Swansea - Watford | 2.5 Alt | pending | 61/100
 - 2026-09-01 | Portekiz U23 Ulusal Şampiyona | Estrela U23 - Sporting Cp U23 | 2.5 Alt | pending | 52/100
 - 2026-09-01 | Romanya Kupa Grup D | Targoviste - Voluntari | 2.5 Üst | pending | 53/100
-- 2026-09-01 | İtalya Serie C Kupası 2.Tur | Bari - Picerno | MS 1 | pending | 55/100
-- 2026-09-01 | Portekiz U23 Ulusal Şampiyona | Penafiel U23 - Leixoes U23 | 2.5 Alt | pending | 52/100
-- 2026-09-01 | Brezilya Serie B | Londrina - Juventude | 2.5 Alt | pending | 59/100
-- 2026-09-01 | İngiltere 1.Lig | Bromley - Leyton Orient | 2.5 Alt | pending | 61/100
-- 2026-09-01 | İngiltere 2.Lig | Bristol Rovers - Colchester | 2.5 Alt | pending | 57/100
-- 2026-09-01 | Uruguay Kupa Ön Eleme Turu Grup 6 | Colon - Atl Fenix | MS 2 | pending | 43/100
 
