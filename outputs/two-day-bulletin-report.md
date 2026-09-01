@@ -2,40 +2,15 @@
 
 Gunler: 2026-09-01 / 2026-09-02
 Kaynak: fixtures.json
-Ham mac: 132
-Aktif mac: 130
+Ham mac: 146
+Aktif mac: 105
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 124
+Bultenden dusurulen mac: 41
+Bugun: 99
 Yarin: 6
 
 ## Baslamamis Maclar
-- 2026-09-01 14:35 | Çin Halk Cumhuriyeti FA Kupası Çeyrek Final | Shandong Taish - Shanghai Port | scheduled | -
-- 2026-09-01 14:35 | Çin Halk Cumhuriyeti FA Kupası Çeyrek Final | Dalian Zhixing - Shanghai Shenhu | scheduled | -
-- 2026-09-01 14:35 | Çin Halk Cumhuriyeti FA Kupası Çeyrek Final | Lanzhou Longyu - Beijing Guoan | scheduled | -
-- 2026-09-01 15:00 | İngiltere Professional Development Lig | Fleetwood Town - Millwall U21 | scheduled | -
-- 2026-09-01 15:00 | İngiltere Professional Development Lig | Charlton Athle - Wigan Athletic | scheduled | -
-- 2026-09-01 15:00 | İngiltere Professional Development Lig | Huddersfield T - Queens Park Ran | scheduled | -
-- 2026-09-01 15:00 | İngiltere Professional Development Lig | Hull City U21 - Swansea (B) | scheduled | -
-- 2026-09-01 15:00 | İngiltere Professional Development Lig | Bristol City U - Sheffield Unite | scheduled | -
-- 2026-09-01 15:15 | Malezya FA Kupası Son 16 Turu | Dpmm Fc - Terengganu | scheduled | -
-- 2026-09-01 15:30 | Polonya Kupa 1.Tur | Mks Korona Kie - Radomiak Radom | scheduled | -
-- 2026-09-01 16:00 | Türkiye TFF 1. Lig | Bandirmaspor - Antalyaspor | scheduled | -
-- 2026-09-01 16:00 | Romanya Kupa Grup B | Spartac Bucure - Concordia Chiaj | scheduled | -
-- 2026-09-01 16:00 | Uganda Premier Lig | Nec - Lugazi Municipa | scheduled | -
-- 2026-09-01 16:00 | Kenya Premier Lig | Gor Mahia - Muranga All Sta | scheduled | -
-- 2026-09-01 16:00 | Uganda Premier Lig | Entebbe Uppc - Updf | scheduled | -
-- 2026-09-01 16:15 | Rusya Kupa Premier Lig Yolu Grup D | Akron - L.Moskova | scheduled | -
-- 2026-09-01 16:30 | Polonya Kupa 1.Tur | Nkp Podhale - Pogon Grodzisk | scheduled | -
-- 2026-09-01 17:00 | Türkiye TFF 1. Lig | Ümraniyespor - Muğlaspor | scheduled | -
-- 2026-09-01 17:00 | Polonya Kupa 1.Tur | Kluczevia Star - Pogon Siedlce | scheduled | -
-- 2026-09-01 17:00 | Polonya Kupa 1.Tur | Chemik Bydgosz - Piast Gliwice | scheduled | -
-- 2026-09-01 17:00 | Polonya Kupa 1.Tur | Wisla Plock Ii - Puszcza Niepolo | scheduled | -
-- 2026-09-01 17:00 | Polonya Kupa 1.Tur | Siarka Tarnobr - Zaglebie Lubin | scheduled | -
-- 2026-09-01 17:00 | Mısır Premier Lig | El Geish - Zed | scheduled | -
-- 2026-09-01 17:00 | Mısır Premier Lig | Ghazl El Mehal - Enppi | scheduled | -
-- 2026-09-01 17:00 | Katar Kupa Yarı Final | Al Sadd - Gharrafa | scheduled | -
 - 2026-09-01 18:00 | Yunanistan Kupa Lig Aşaması | Volos Nfc - Kalamata | scheduled | -
 - 2026-09-01 18:00 | Romanya Kupa Grup B | Sepsi - Cfr Cluj | scheduled | -
 - 2026-09-01 18:00 | Romanya Kupa Grup C | Corona Brasov - Bihor | scheduled | -

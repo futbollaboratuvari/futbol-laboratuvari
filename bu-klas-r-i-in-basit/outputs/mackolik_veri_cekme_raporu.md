@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-01T09:48:11.446912+00:00
+Tarih: 2026-09-01T14:34:38.364943+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 130
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 128
+- Kac mac bulundu: 105
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 105
 - Ham veri havuzu toplam mac sayisi: 10892
 - Hedef tarih: 01.09.2026 Europe/Istanbul
 
@@ -28,7 +28,6 @@ Tarih: 2026-09-01T09:48:11.446912+00:00
 - Kolombiya Primera A Clausura
 - Kuveyt Premier Lig
 - Litvanya Kupa Yarı Final
-- Malezya FA Kupası Son 16 Turu
 - Mısır Premier Lig
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 6
@@ -45,11 +44,9 @@ Tarih: 2026-09-01T09:48:11.446912+00:00
 - Tanzanya Kuu Bara Ligi
 - Türkiye TFF 1. Lig
 - UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu
-- Uganda Premier Lig
 - Uruguay Kupa Ön Eleme Turu Grup 1
 - Uruguay Kupa Ön Eleme Turu Grup 6
 - Yunanistan Kupa Lig Aşaması
-- Çin Halk Cumhuriyeti FA Kupası Çeyrek Final
 - İngiltere 1.Lig
 - İngiltere 2.Lig
 - İngiltere Championship
@@ -121,8 +118,8 @@ Tarih: 2026-09-01T09:48:11.446912+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 51
-- Acilan detay: 51
+- Denenen Tumu alani: 48
+- Acilan detay: 48
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -135,26 +132,26 @@ Tarih: 2026-09-01T09:48:11.446912+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 01.09.2026 | 17:00 | Türkiye TFF 1. Lig | Ümraniyespor | Muğlaspor | 21914 | 5 |
-| 01.09.2026 | 20:00 | Türkiye TFF 1. Lig | Sarıyer | Pendikspor | 22001 | 5 |
 | 01.09.2026 | 20:00 | Türkiye TFF 1. Lig | Boluspor | A. Keçiörengücü | 21960 | 5 |
-| 01.09.2026 | 16:00 | Türkiye TFF 1. Lig | Bandirmaspor | Antalyaspor | 21871 | 5 |
+| 01.09.2026 | 20:00 | Türkiye TFF 1. Lig | Sarıyer | Pendikspor | 22001 | 5 |
 | 01.09.2026 | 21:45 | Almanya DFB Kupası 1.Tur | Hebc | B.Dortmund | 03827 | 2 |
-| 01.09.2026 | 19:00 | İtalya Kupa 2.Tur | Parma | Cremonese | 24202 | 5 |
 | 01.09.2026 | 22:00 | İtalya Kupa 2.Tur | Torino | Monza | 24256 | 5 |
+| 01.09.2026 | 19:00 | İtalya Kupa 2.Tur | Parma | Cremonese | 24202 | 5 |
 | 01.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya | Al Ahli (Cidde) | 26980 | 5 |
 | 01.09.2026 | 21:45 | İngiltere Championship | Lincoln | Blackburn | 11780 | 5 |
-| 01.09.2026 | 21:45 | İngiltere Championship | Portsmouth | Derby County | 13133 | 5 |
+| 01.09.2026 | 22:00 | İngiltere Championship | Stoke | Norwich | 14968 | 5 |
 | 01.09.2026 | 22:00 | İngiltere Championship | Birmingham | Southam | 14902 | 5 |
 | 01.09.2026 | 21:45 | İngiltere Championship | Sheffield Utd | Bolton | 14229 | 5 |
-| 01.09.2026 | 22:00 | İngiltere Championship | Stoke | Norwich | 14968 | 5 |
 | 01.09.2026 | 21:45 | İngiltere Championship | Swansea | Watford | 14347 | 5 |
 | 01.09.2026 | 21:45 | İngiltere Championship | West Ham | Wolverhampton | 14739 | 5 |
+| 01.09.2026 | 21:45 | İngiltere Championship | Portsmouth | Derby County | 13133 | 5 |
 | 01.09.2026 | 21:45 | İngiltere Championship | Prest | Bristol City | 13754 | 5 |
 | 01.09.2026 | 20:30 | Avusturya Bundesliga | Wolfsberger | Lask Linz | 27022 | 5 |
 | 01.09.2026 | 21:30 | İsviçre Süper Lig | Zurich | Young Boys | 21127 | 5 |
 | 01.09.2026 | 18:00 | Yunanistan Kupa Lig Aşaması | Volos Nfc | Kalamata | 23688 | 5 |
-| 01.09.2026 | 14:35 | Çin Halk Cumhuriyeti FA Kupası Çeyrek Final | Shandong Taish | Shanghai Port | 27229 | 5 |
+| 01.09.2026 | 19:00 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Austria Wien ( (1) | (2) Brann (K) | 04103 | 5 |
+| 02.09.2026 | 03:00 | Brezilya Kupa Çeyrek Final | Atletico Mg (1) | (1) Cruzeiro | 17019 | 5 |
+| 01.09.2026 | 21:00 | Hollanda KNVB Kupası 1. Ön Eleme Turu | Ado 20 | Excelsior Maass | 17783 | 5 |
 
 ## Sonuc
 
