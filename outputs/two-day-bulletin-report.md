@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-01 / 2026-09-02
 Kaynak: fixtures.json
-Ham mac: 146
-Aktif mac: 132
+Ham mac: 132
+Aktif mac: 130
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 14
-Bugun: 126
+Bultenden dusurulen mac: 2
+Bugun: 124
 Yarin: 6
 
 ## Baslamamis Maclar
-- 2026-09-01 13:00 | Portekiz U23 Ulusal Şampiyona | Vizela U23 - Santa Clara U23 | scheduled | -
-- 2026-09-01 13:00 | Portekiz U23 Ulusal Şampiyona | Farense U23 - Famalicão U23 | scheduled | -
 - 2026-09-01 14:35 | Çin Halk Cumhuriyeti FA Kupası Çeyrek Final | Shandong Taish - Shanghai Port | scheduled | -
 - 2026-09-01 14:35 | Çin Halk Cumhuriyeti FA Kupası Çeyrek Final | Dalian Zhixing - Shanghai Shenhu | scheduled | -
 - 2026-09-01 14:35 | Çin Halk Cumhuriyeti FA Kupası Çeyrek Final | Lanzhou Longyu - Beijing Guoan | scheduled | -

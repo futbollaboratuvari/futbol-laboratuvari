@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T05:23:14.928Z",
-  "total": 130,
-  "ok_count": 123,
-  "bad_count": 7,
+  "generated_at": "2026-09-01T10:18:28.602Z",
+  "total": 132,
+  "ok_count": 124,
+  "bad_count": 8,
   "status": "warning",
   "bad_examples": [
     {
@@ -55,6 +55,18 @@
     },
     {
       "match": "Siarka Tarnobr VS Zaglebie Lubin",
+      "market": "Değerli market yok",
+      "score": 0,
+      "confidence": 0,
+      "risk": "Yüksek",
+      "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Markete özel olasılık ve veri doğrulaması oluşmadı.",
+      "missing": [
+        "score",
+        "confidence"
+      ]
+    },
+    {
+      "match": "Lyseng VS Horsens",
       "market": "Değerli market yok",
       "score": 0,
       "confidence": 0,
