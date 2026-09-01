@@ -3,18 +3,14 @@
 Gunler: 2026-09-01 / 2026-09-02
 Kaynak: fixtures.json
 Ham mac: 144
-Aktif mac: 134
+Aktif mac: 130
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 128
+Bultenden dusurulen mac: 14
+Bugun: 124
 Yarin: 6
 
 ## Baslamamis Maclar
-- 2026-09-01 03:15 | Arjantin Premier Lig 2. Aşama | Tigre - Barracas | scheduled | -
-- 2026-09-01 03:15 | Arjantin Premier Lig 2. Aşama | Instituto Cord - San Lorenzo | scheduled | -
-- 2026-09-01 03:45 | Şili Premier Lig | Univ. Catolica - O Higgins | scheduled | -
-- 2026-09-01 04:05 | Kolombiya Primera A Clausura | Deportes Tolim - Depor Cucuta | scheduled | -
 - 2026-09-01 13:00 | Portekiz U23 Ulusal Şampiyona | Vizela U23 - Santa Clara U23 | scheduled | -
 - 2026-09-01 13:00 | Portekiz U23 Ulusal Şampiyona | Farense U23 - Famalicão U23 | scheduled | -
 - 2026-09-01 14:35 | Çin Halk Cumhuriyeti FA Kupası Çeyrek Final | Shandong Taish - Shanghai Port | scheduled | -
