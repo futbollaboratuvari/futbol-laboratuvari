@@ -1,5 +1,19 @@
 # Session Log
 
+2026-09-01
+
+PRO yarı marketleri ve İY/MS gerçek analiz tamamlama oturumu kaydedildi.
+
+Summary:
+- Resmî İddaa pazar adları doğrulanarak İlk Yarı/Maç Sonucu dokuzlu seti ve her iki yarı Karşılıklı Gol çiftleri `available_odds` şemasına eklendi.
+- Takım sonuç arşivinden hesaplanan ev/deplasman Poisson gol beklentileri yarılara bölündü; bütün ilk yarı ve ikinci yarı skor yolları toplanarak 1/1, 1/2, X/1, 2/1, 2/2 ve yarı KG olasılıkları üretildi.
+- Yarı marketlerde tam resmî oran seti, bağımsız takım hafızası, veri kapsamı ve edge kontrolü zorunlu yapıldı. Ham pazar tahminleri ve tek oranlı marketler özel görüş ya da robot seçimi üretemez.
+- Özel Analiz'e İY/MS 1/2 ve 2/1 seçenekleri eklendi; İY/MS sonucunu normal maç sonucu taraf eğiliminden uyduran eski istemci yolu kaldırıldı.
+- AI Şeffaflık listesi 6 maçtan 10 maça çıkarıldı. Her maç detayına yalnız doğrulanmış özel marketlerin oran/olasılık/model/veri/gerekçe kartları eklendi; görüş yoksa sistem bunu açıkça bildirir.
+- Yeni özel market testi dokuzlu marj temizleme, yarı Poisson toplamı, ham tahmin reddi, kompakt korumalı aktarım ve istemcide sahte fallback engelini kapsıyor.
+- Premium zinciri, İddaa, KG, takım istihbaratı, statü, güvenlik/yasal testleri ve ayrı worktree içindeki güvenli Vercel üretim paketi geçti. Üretim paketi 249 dosya/19.85 MB; korumalı PRO indeksinin kamu paketindeki HTTP durumu 404 olarak doğrulandı.
+- Kullanıcının açık push onayı sonrasında HTTPS kimlik bilgisi bulunmayan yerel Git yerine bağlı GitHub erişimi kullanılarak yalnız `codex/pro-robot-v14` önizleme dalı ve PR #29 güncellendi; `main` ve canlı üretime işlem yapılmadı.
+
 2026-08-30
 
 Üyelik kodu kullanıcı deneyimi tamamlama oturumu kaydedildi.
