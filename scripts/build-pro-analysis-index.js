@@ -7,7 +7,7 @@ const dataDir = path.join(root, "data");
 const robotFile = path.join(dataDir, "robot-analysis.json");
 const historyFile = path.join(dataDir, "analiz_sonuclari.json");
 const outputFile = path.join(dataDir, "pro-analysis-index.json");
-const FALLBACK_MODEL_VERSION = "pro13-official-intelligence-v4";
+const FALLBACK_MODEL_VERSION = "pro13-half-scenarios-v5";
 
 function readJson(file, fallback) {
   try {
@@ -166,12 +166,15 @@ function compactBttsOutcome(item) {
     data_completeness: finite(item.data_completeness) || 0,
     data_gap_risk: String(item.data_gap_risk || "Yüksek"),
     independent_evidence: Boolean(item.independent_evidence),
+    official_market_complete: Boolean(item.official_market_complete),
+    trusted_odds: Boolean(item.trusted_odds),
     evidence_mode: String(item.evidence_mode || "market_baseline"),
     probability_source: Array.isArray(item.probability_source) ? item.probability_source.slice(0, 4) : [],
     risk_level: String(item.risk_level || item.risk || "Yüksek"),
     odd_source_type: String(item.odd_source_type || ""),
     expected_scores: Array.isArray(item.expected_scores) ? item.expected_scores.slice(0, 3) : [],
     signals: Array.isArray(item.signals) ? item.signals.map(String).filter(Boolean).slice(0, 5) : [],
+    recommendation_status: String(item.recommendation_status || ""),
   };
 }
 
@@ -192,6 +195,28 @@ function compactBttsAnalysis(value) {
     team_risk_adjusted: Boolean(value.team_risk_adjusted),
     model_version: String(value.model_version || FALLBACK_MODEL_VERSION),
     outcomes: { bttsYes: yes, bttsNo: no },
+  };
+}
+
+function compactSpecialMarketAnalysis(value) {
+  if (!value || typeof value !== "object" || value.available !== true) return null;
+  const outcomes = {};
+  for (const key of ["firstHalfBttsYes", "secondHalfBttsYes", "htft11", "htft12", "htftx1", "htft21", "htft22"]) {
+    const compact = compactBttsOutcome(value.outcomes?.[key]);
+    if (compact && compact.official_market_complete && compact.trusted_odds && compact.independent_evidence) outcomes[key] = compact;
+  }
+  const keys = Object.keys(outcomes);
+  if (!keys.length) return null;
+  return {
+    available: true,
+    trusted_odds: Boolean(value.trusted_odds),
+    market_group: "half_scenarios",
+    market_group_label: "Yarı KG ve İlk Yarı / Maç Sonucu",
+    opinion_count: keys.length,
+    model_analysis_count: keys.filter((key) => outcomes[key].recommendation_status === "model_analysis").length,
+    team_risk_adjusted: Boolean(value.team_risk_adjusted),
+    model_version: String(value.model_version || FALLBACK_MODEL_VERSION),
+    outcomes,
   };
 }
 
@@ -300,6 +325,7 @@ function compactMatch(item, parent) {
     .filter(Boolean)
     .slice(0, 3);
   const bttsAnalysis = compactBttsAnalysis(item.btts_analysis || item.bttsAnalysis);
+  const specialMarketAnalysis = compactSpecialMarketAnalysis(item.special_market_analysis || item.specialMarketAnalysis);
   const teamIntelligence = compactTeamIntelligence(item);
   return {
     id: matchId(item, date),
@@ -332,6 +358,7 @@ function compactMatch(item, parent) {
     metrics: compactMetrics(item),
     ...(teamIntelligence ? { team_intelligence: teamIntelligence } : {}),
     ...(bttsAnalysis ? { btts_analysis: bttsAnalysis } : {}),
+    ...(specialMarketAnalysis ? { special_market_analysis: specialMarketAnalysis } : {}),
     signals,
     model_version: item.model_version || parent.model_version || FALLBACK_MODEL_VERSION,
   };
@@ -380,5 +407,5 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { buildCalibration, buildProAnalysisIndex, compactBttsAnalysis, compactMatch, compactMetrics, compactTeamIntelligence, couponEligibility, main, matchId, selectProMatches, teamsOf };
+module.exports = { buildCalibration, buildProAnalysisIndex, compactBttsAnalysis, compactMatch, compactMetrics, compactSpecialMarketAnalysis, compactTeamIntelligence, couponEligibility, main, matchId, selectProMatches, teamsOf };
 

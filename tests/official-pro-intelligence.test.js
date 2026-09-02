@@ -66,7 +66,7 @@ const payload = projectOfficialProIndex(bulletin, stored, { today: "2026-09-01",
 const row = payload.matches[0];
 
 assert.equal(payload.stored_evidence_status, "fresh");
-assert.equal(payload.schema_version, 3);
+assert.equal(payload.schema_version, 4);
 assert.equal(row.match_code, "9901");
 assert.equal(row.team_status_verified_count, 2);
 assert.equal(row.named_player_count, 1);

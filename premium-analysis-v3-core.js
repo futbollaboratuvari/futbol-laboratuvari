@@ -64,11 +64,14 @@
       dataCompleteness: percent(item.data_completeness),
       dataGapRisk: String(first(item.data_gap_risk, "Yüksek")),
       independentEvidence: Boolean(item.independent_evidence),
+      officialMarketComplete: Boolean(item.official_market_complete),
+      trustedOdds: Boolean(item.trusted_odds),
       evidenceMode: String(first(item.evidence_mode, "market_baseline")),
       probabilitySource: Array.isArray(item.probability_source) ? item.probability_source.map(String).slice(0, 4) : [],
       riskLevel: String(first(item.risk_level, "Yüksek")),
       signals: Array.isArray(item.signals) ? item.signals.map(String).filter(Boolean).slice(0, 5) : [],
       expectedScores: Array.isArray(item.expected_scores) ? item.expected_scores.map(String).slice(0, 3) : [],
+      recommendationStatus: String(item.recommendation_status || ""),
     };
   };
 
@@ -89,9 +92,26 @@
     };
   };
 
+  const normalizeSpecialMarketAnalysis = (value) => {
+    if (!value || typeof value !== "object" || value.available !== true) return null;
+    const outcomes = {};
+    ["firstHalfBttsYes", "secondHalfBttsYes", "htft11", "htft12", "htftx1", "htft21", "htft22"].forEach((key) => {
+      const outcome = normalizeBttsOutcome(value.outcomes?.[key], key);
+      if (outcome) outcomes[key] = outcome;
+    });
+    if (!Object.keys(outcomes).length) return null;
+    return {
+      available: true,
+      trustedOdds: Boolean(value.trusted_odds),
+      modelVersion: String(value.model_version || ""),
+      outcomes,
+    };
+  };
+
   const normalizeMatch = (match, index = 0) => {
     const pro = match?.proAnalysis || match?.pro_analysis || match?.pro || {};
     const bttsAnalysis = normalizeBttsAnalysis(pro?.btts_analysis || match?.btts_analysis);
+    const specialMarketAnalysis = normalizeSpecialMarketAnalysis(pro?.special_market_analysis || match?.special_market_analysis);
     const rawTeamIntelligence = pro?.team_intelligence || match?.team_intelligence || null;
     const hasTeamFields = rawTeamIntelligence || pro?.squad_risk_level || match?.squad_risk_level;
     const teamIntelligence = hasTeamFields ? {
@@ -119,7 +139,14 @@
       bttsYes: readOdd(match, ["bttsYes", "bttsYes_guess", "kgVar", "kg_var", "varOdd"]),
       bttsNo: readOdd(match, ["bttsNo", "bttsNo_guess", "kgYok", "kg_yok", "yokOdd"]),
       firstHalfBttsYes: readOdd(match, ["firstHalfBttsYes", "firstHalfBttsYes_guess", "iyKgVar", "iy_kg_var"]),
+      firstHalfBttsNo: readOdd(match, ["firstHalfBttsNo", "firstHalfBttsNo_guess", "iyKgYok", "iy_kg_yok"]),
       secondHalfBttsYes: readOdd(match, ["secondHalfBttsYes", "secondHalfBttsYes_guess", "ikinciYariKgVar", "ikinci_yari_kg_var"]),
+      secondHalfBttsNo: readOdd(match, ["secondHalfBttsNo", "secondHalfBttsNo_guess", "ikinciYariKgYok", "ikinci_yari_kg_yok"]),
+      htft11: readOdd(match, ["htFt11", "iyMs11", "iy_ms_11"]),
+      htft12: readOdd(match, ["htFt12", "iyMs12", "iy_ms_12"]),
+      htftx1: readOdd(match, ["htFtX1", "iyMsX1", "iy_ms_x1"]),
+      htft21: readOdd(match, ["htFt21", "iyMs21", "iy_ms_21"]),
+      htft22: readOdd(match, ["htFt22", "iyMs22", "iy_ms_22"]),
       firstHalfHome: readOdd(match, ["firstHalf1", "firstHalf1_guess", "iy1"]),
       firstHalfDraw: readOdd(match, ["firstHalfX", "firstHalfX_guess", "iyx"]),
       firstHalfAway: readOdd(match, ["firstHalf2", "firstHalf2_guess", "iy2"]),
@@ -169,6 +196,7 @@
         teamIntelligence,
         calibration: pro?.calibration && typeof pro.calibration === "object" ? pro.calibration : null,
         bttsAnalysis,
+        specialMarketAnalysis,
       },
       metrics: {
         homeScored: finite(first(pro?.metrics?.homeScoredLast10, match?.homeScoredLast10, match?.metrics?.homeScoredLast10)),
@@ -276,6 +304,8 @@
   const marketKey = (market) => {
     const text = normalizeText(market);
     if (/iy ms 1 1|ilk yari mac sonucu 1 1/.test(text)) return "htft11";
+    if (/iy ms 1 2|ilk yari mac sonucu 1 2/.test(text)) return "htft12";
+    if (/iy ms 2 1|ilk yari mac sonucu 2 1/.test(text)) return "htft21";
     if (/iy ms x 1|ilk yari mac sonucu x 1/.test(text)) return "htftx1";
     if (/iy ms 2 2|ilk yari mac sonucu 2 2/.test(text)) return "htft22";
     if (/1y kg|ilk yari kg/.test(text)) return "firstHalfBttsYes";
@@ -303,13 +333,17 @@
     firstHalfBttsYes: "1Y KG Var",
     secondHalfBttsYes: "2Y KG Var",
     htft11: "İY/MS 1/1",
+    htft12: "İY/MS 1/2",
+    htft21: "İY/MS 2/1",
     htftx1: "İY/MS X/1",
     htft22: "İY/MS 2/2",
   }[key] || key || "Seçim yok");
 
   const oddsForMarket = (match, market) => {
     const key = marketKey(market);
-    if (key === "htft11" || key === "htftx1" || key === "htft22" || key === "over35") return null;
+    const protectedOdd = match.pro.specialMarketAnalysis?.outcomes?.[key]?.odd;
+    if (protectedOdd) return protectedOdd;
+    if (key === "over35") return null;
     return match.odds[key] ?? null;
   };
 
@@ -550,6 +584,58 @@
     return analyzeBtts(match, key) || noPickResult(match, "btts");
   };
 
+  const analyzeSpecialMarket = (match, key) => {
+    const analysis = match.pro.specialMarketAnalysis;
+    const outcome = analysis?.outcomes?.[key];
+    if (!outcome || !analysis?.trustedOdds || !outcome.officialMarketComplete
+      || !outcome.trustedOdds || !outcome.independentEvidence) {
+      return noPickResult(match, "advanced", [
+        "Bu özel market için resmî oran seti ve bağımsız yarı modeli birlikte doğrulanmadı.",
+        "Eksik veya tek taraflı oranla İY/MS ya da yarı KG yorumu üretilmedi.",
+        "Gerekli gerçek veri eşleştiğinde analiz otomatik olarak açılacak.",
+      ]);
+    }
+    const dataCompleteness = outcome.dataCompleteness ?? 0;
+    const supported = outcome.recommendationStatus === "model_analysis";
+    const signalReasons = outcome.signals
+      .filter((value) => !/^(model gücü|veri kapsama puanı)/i.test(String(value).trim()))
+      .slice(0, 4);
+    const fallback = [
+      `${outcome.label} için birleşik olasılık %${Math.round(outcome.estimatedProbability || 0)}, resmî oran ${outcome.odd?.toFixed(2) || "-"}.`,
+      `Bağımsız ${outcome.probabilitySource.join(" + ") || "yarı Poisson modeli"} takım sonuç hafızasından üretildi.`,
+      outcome.edgePercent === null ? "Model-piyasa farkı ölçülemedi." : `Model-piyasa farkı ${outcome.edgePercent >= 0 ? "+" : ""}${outcome.edgePercent.toFixed(1)} puan.`,
+    ];
+    const reasons = [...signalReasons, ...fallback]
+      .filter((value, index, list) => value && list.indexOf(value) === index)
+      .slice(0, 3);
+    return {
+      match,
+      type: "advanced",
+      market: outcome.label || marketLabel(key),
+      odd: outcome.odd,
+      confidence: outcome.modelScore === null ? null : Math.round(outcome.modelScore),
+      modelScore: outcome.modelScore === null ? null : Math.round(outcome.modelScore),
+      estimatedProbability: outcome.estimatedProbability,
+      marketProbability: outcome.marketProbability,
+      edgePercent: outcome.edgePercent,
+      dataCompleteness: Math.round(dataCompleteness),
+      dataQuality: dataCompleteness >= 70 ? "Yüksek" : "Orta",
+      modelVersion: analysis.modelVersion || match.pro.modelVersion,
+      sourceMode: "pro_half_scenario",
+      calibration: match.pro.calibration,
+      risk: outcome.riskLevel || "Yüksek",
+      noPick: !supported,
+      hasOpinion: true,
+      couponEligible: false,
+      recommendationStatus: supported ? "analysis" : "watch",
+      headline: supported
+        ? `${outcome.label} gerçek yarı senaryosu analizinde öne çıkıyor`
+        : `${outcome.label} için gerçek görüş var; güçlü seçim eşiği aşılmadı`,
+      reasons,
+      details: detailRows(match, impliedProbabilities(match)),
+    };
+  };
+
   const analyzeGoals = (match, forcedKey = "") => {
     const strengths = goalStrengths(match);
     const allowed = Object.keys(strengths);
@@ -610,31 +696,15 @@
 
   const analyzeAdvanced = (match, market) => {
     const key = marketKey(market);
+    if (["firstHalfBttsYes", "secondHalfBttsYes", "htft11", "htft12", "htftx1", "htft21", "htft22"].includes(key)) {
+      return analyzeSpecialMarket(match, key);
+    }
     if (["ms1", "msx", "ms2"].includes(key)) return analyzeMatchResult(match, key);
     if (["bttsYes", "bttsNo"].includes(key)) {
       return analyzeBtts(match, key) || analyzeGoals(match, key);
     }
-    if (["over25", "under25", "bttsYes", "bttsNo", "firstHalfBttsYes", "secondHalfBttsYes"].includes(key)) {
+    if (["over25", "under25", "bttsYes", "bttsNo"].includes(key)) {
       return analyzeGoals(match, key);
-    }
-    if (["htft11", "htftx1", "htft22"].includes(key)) {
-      const result = analyzeMatchResult(match, key === "htft22" ? "ms2" : "ms1");
-      if (result.noPick) return result;
-      const confidence = clamp(result.confidence - 10, 45, 70);
-      return {
-        ...result,
-        type: "advanced",
-        market: marketLabel(key),
-        odd: null,
-        confidence,
-        risk: "Yüksek",
-        headline: `${marketLabel(key)} senaryosu incelendi`,
-        reasons: [
-          `${result.market} taraf eğilimi, devre/maç senaryosunun ana dayanağı.`,
-          "Devre sonucu oranı bulunmadığı için fiyat avantajı hesaplanmadı.",
-          "Birleşik market yapısı nedeniyle risk seviyesi yüksek tutuldu.",
-        ],
-      };
     }
     return noPickResult(match, "advanced", [
       "Seçilen gelişmiş market için yeterli veri eşleşmesi yok.",
@@ -677,6 +747,10 @@
       "Bilinmeyen market için tahmin uydurulmadı.",
       "Market eşlemesi güncellendiğinde analiz yeniden kullanılabilir olacak.",
     ]);
+
+    if (["firstHalfBttsYes", "secondHalfBttsYes", "htft11", "htft12", "htftx1", "htft21", "htft22"].includes(explicitKey)) {
+      return { ...analyzeSpecialMarket(match, explicitKey), type: "robot" };
+    }
 
     if (dataCompleteness < 35) return noPickResult(match, "robot", [
       `Veri kapsama %${Math.round(dataCompleteness)}; güvenilir görüş için en az %35 gerekiyor.`,

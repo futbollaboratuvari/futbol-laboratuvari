@@ -1,7 +1,7 @@
 "use strict";
 
 const { fetchIddaaBulletin } = require("./iddaa-data-source");
-const { MODEL_VERSION, buildBttsAnalysis, scoreFixture } = require("./robot-exact-scoring");
+const { MODEL_VERSION, buildBttsAnalysis, buildSpecialMarketAnalysis, scoreFixture } = require("./robot-exact-scoring");
 const { applyLearningWeightsToScoredItem } = require("./apply-learning-weights");
 const { applyTeamIntelligence } = require("./export-high-value-json");
 const { compactMatch, teamsOf } = require("./build-pro-analysis-index");
@@ -133,6 +133,32 @@ function adjustBttsForTeamRisk(analysis, scored) {
   };
 }
 
+function adjustSpecialForTeamRisk(analysis, scored) {
+  if (!analysis?.available) return analysis;
+  const adjustment = scored?.team_intelligence?.adjustment || {};
+  const penalty = Math.max(0, Number(adjustment.penalty || 0));
+  const highRisk = /yüksek|yuksek|high/i.test(`${scored?.squad_risk_level || ""} ${scored?.lineup_risk_level || ""}`);
+  const reason = String(adjustment.reason || "Kadro/ilk 11 doğrulaması özel market riskine uygulandı.");
+  const outcomes = {};
+  for (const [key, outcome] of Object.entries(analysis.outcomes || {})) {
+    const modelScore = Math.max(0, Math.round(Number(outcome.model_score || 0) - penalty));
+    outcomes[key] = {
+      ...outcome,
+      model_score: modelScore,
+      recommendation_status: outcome.recommendation_status === "model_analysis" && modelScore < 50 ? "watch" : outcome.recommendation_status,
+      risk_level: highRisk ? "Yüksek" : outcome.risk_level === "Düşük" && penalty > 0 ? "Orta" : outcome.risk_level,
+      signals: penalty > 0 ? [reason, ...(outcome.signals || [])].slice(0, 7) : outcome.signals,
+    };
+  }
+  return {
+    ...analysis,
+    opinion_count: Object.keys(outcomes).length,
+    model_analysis_count: Object.values(outcomes).filter((outcome) => outcome.recommendation_status === "model_analysis").length,
+    team_risk_adjusted: penalty > 0,
+    outcomes,
+  };
+}
+
 function currentScheduled(matches, today = todayTR()) {
   return (Array.isArray(matches) ? matches : []).filter((match) => {
     const date = String(match?.date || "").slice(0, 10);
@@ -156,23 +182,26 @@ function projectOfficialProIndex(bulletin, base = {}, options = {}) {
       risk_level: scored.risk || "Yüksek",
     }));
     scored.btts_analysis = adjustBttsForTeamRisk(buildBttsAnalysis(enriched), scored);
+    scored.special_market_analysis = adjustSpecialForTeamRisk(buildSpecialMarketAnalysis(enriched), scored);
     return compactMatch(scored, { model_version: MODEL_VERSION, date: scored.date });
   });
   const bttsRows = matches.filter((match) => match.btts_analysis?.pair_complete);
   const bttsOpinions = bttsRows.filter((match) => match.btts_analysis.recommended_key);
   const kgVar = bttsOpinions.filter((match) => match.btts_analysis.recommended_key === "bttsYes").length;
   const kgYok = bttsOpinions.filter((match) => match.btts_analysis.recommended_key === "bttsNo").length;
+  const specialRows = matches.filter((match) => match.special_market_analysis?.available);
+  const specialOutcomes = specialRows.flatMap((match) => Object.entries(match.special_market_analysis.outcomes || {}));
   const proReady = matches.filter((match) => match.model_score >= 60
     && match.data_completeness >= 35
     && !/değerli market yok|degerli market yok|oynama/i.test(match.recommended_market));
 
   return {
     ...base,
-    schema_version: 3,
+    schema_version: 4,
     generated_at: bulletin?.generated_at || new Date().toISOString(),
     date: options.today || todayTR(),
     timezone: "Europe/Istanbul",
-    engine: "Futbol Laboratuvarı PRO 13.4 · Resmi İddaa + Kadro",
+    engine: "Futbol Laboratuvarı PRO 13.5 · Resmi İddaa + Yarı Poisson + Kadro",
     model_version: MODEL_VERSION,
     score_semantics: "model_score is signal strength from 0 to 100; it is not an outcome probability",
     source: bulletin?.source || "iddaa.com resmi futbol bülteni",
@@ -190,6 +219,10 @@ function projectOfficialProIndex(bulletin, base = {}, options = {}) {
       btts_opinion_count: bttsOpinions.length,
       kg_var_opinion_count: kgVar,
       kg_yok_opinion_count: kgYok,
+      special_market_match_count: specialRows.length,
+      special_market_opinion_count: specialOutcomes.length,
+      half_btts_opinion_count: specialOutcomes.filter(([key]) => /HalfBtts/.test(key)).length,
+      htft_opinion_count: specialOutcomes.filter(([key]) => /^htft/.test(key)).length,
       team_intelligence_match_count: matches.filter((match) => match.team_intelligence).length,
       verified_squad_match_count: matches.filter((match) => Number(match.team_status_verified_count || 0) > 0).length,
       named_player_match_count: matches.filter((match) => Number(match.named_player_count || 0) > 0).length,
@@ -218,6 +251,7 @@ function resetOfficialProCache() {
 
 module.exports = {
   adjustBttsForTeamRisk,
+  adjustSpecialForTeamRisk,
   bandRecordForStored,
   buildStoredMatchLookup,
   buildOfficialProIndex,

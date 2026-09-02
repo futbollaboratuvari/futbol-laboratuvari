@@ -192,6 +192,45 @@ test("desteklenmeyen KG tarafı sahte öneriye çevrilmeden ölçülü görüş 
   assert.equal(result.estimatedProbability, 41);
 });
 
+test("İY/MS 1/2 gerçek resmî oran ve yarı Poisson gerekçesiyle gösterilir", () => {
+  const result = core.analyze({
+    date: "2026-09-02", time: "20:00", home: "Yarı Ev", away: "Yarı Dep", status: "scheduled",
+    proAnalysis: {
+      available: true, fresh: true,
+      special_market_analysis: {
+        available: true, trusted_odds: true, model_version: "pro13-half-scenarios-v5",
+        outcomes: {
+          htft12: {
+            key: "htft12", label: "İY/MS 1/2", odd: 28, model_score: 64,
+            estimated_probability: 7.8, market_probability: 3.9, edge_percent: 3.9,
+            data_completeness: 69, independent_evidence: true,
+            official_market_complete: true, trusted_odds: true,
+            recommendation_status: "model_analysis", probability_source: ["yarı Poisson modeli"],
+            risk_level: "Yüksek", signals: ["Yarı Poisson dağılımı gerçek takım sonuç hafızasıyla hesaplandı."],
+          },
+        },
+      },
+    },
+  }, "advanced", "İY/MS 1/2");
+  assert.equal(result.market, "İY/MS 1/2");
+  assert.equal(result.odd, 28);
+  assert.equal(result.noPick, false);
+  assert.equal(result.estimatedProbability, 7.8);
+  assert.equal(result.sourceMode, "pro_half_scenario");
+  assert.match(result.reasons.join(" "), /Poisson/);
+});
+
+test("İY/MS verisi yoksa taraf marketinden sahte birleşik yorum üretilmez", () => {
+  const result = core.analyze({
+    date: "2026-09-02", time: "20:00", home: "A", away: "B", status: "scheduled",
+    available_odds: { ms1: 1.4, msx: 4.2, ms2: 7.5 },
+  }, "advanced", "İY/MS 2/1");
+  assert.equal(result.noPick, true);
+  assert.equal(result.market, "Görüş oluşmadı");
+  assert.equal(result.odd, null);
+  assert.match(result.reasons.join(" "), /üretilmedi/);
+});
+
 test("oynama kararı ve düşük skor zorunlu seçim üretmez", () => {
   const result = core.analyze({
     date: "2026-08-24",

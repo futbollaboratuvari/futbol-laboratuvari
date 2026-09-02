@@ -77,7 +77,7 @@
 
   function topMatches(data) {
     if (!eligibility?.selectStrongestMatches) return [];
-    return eligibility.selectStrongestMatches(data?.matches, 6);
+    return eligibility.selectStrongestMatches(data?.matches, 10);
   }
 
   function tierLabel(match) {
@@ -140,6 +140,21 @@
     </article>`;
   }
 
+  function specialMarketHtml(match) {
+    const value = match?.special_market_analysis;
+    const outcomes = Object.values(value?.outcomes || {}).filter((outcome) => outcome
+      && outcome.official_market_complete && outcome.trusted_odds && outcome.independent_evidence
+      && /^(model_analysis|watch)$/.test(String(outcome.recommendation_status || "")));
+    if (!outcomes.length) {
+      return `<p class="flai-muted">Resmî oran seti ve bağımsız yarı verisi eşiğini geçen yorum yok; sistem yorum uydurmadı.</p>`;
+    }
+    return `<div class="flai-special">${outcomes.map((outcome) => {
+      const status = outcome.recommendation_status === "model_analysis" ? "Model görüşü" : "İzleme görüşü";
+      const signals = Array.isArray(outcome.signals) ? outcome.signals.filter(Boolean).slice(0, 2) : [];
+      return `<article><div><strong>${esc(outcome.label)}</strong><span>${esc(status)}</span></div><p>Oran <b>${esc(numText(outcome.odd, 2))}</b> · Olasılık <b>${esc(pct(outcome.estimated_probability))}</b> · Model <b>${esc(numText(outcome.model_score))}/100</b> · Veri <b>${esc(pct(outcome.data_completeness))}</b></p>${signals.length ? `<ul>${signals.map((signal) => `<li>${esc(signal)}</li>`).join("")}</ul>` : ""}</article>`;
+    }).join("")}</div>`;
+  }
+
   function detailHtml(match) {
     if (!match) return `<div class="flai-empty">Bir tahmine dokunarak ayrıntılı güven ve veri açıklamasını aç.</div>`;
     const c = confidence(match);
@@ -171,6 +186,7 @@
         <section><h4>Güven bileşenleri</h4>${componentBars || `<p class="flai-muted">Bileşen verisi bekleniyor.</p>`}</section>
         <section><h4>Gol profili</h4>${goalBars || `<p class="flai-muted">Gol eğilim verisi bu maçta yeterli değil.</p>`}${finite(metrics.leagueGoalAverage) === null ? "" : `<p class="flai-note">Lig gol ortalaması: <b>${esc(numText(metrics.leagueGoalAverage, 2))}</b></p>`}</section>
         <section><h4>Takım güç dengesi</h4>${teamBars || `<p class="flai-muted">Son 10 maç takım üretim verisi bu eşleşmede henüz oluşmadı.</p>`}<p class="flai-note">Bu alan dakika dakika güç iddiası yapmaz; yalnız mevcut son-10 üretim/yeme verisini karşılaştırır.</p></section>
+        <section class="flai-special-section"><h4>Yarı & İY/MS gerçek görüşleri</h4>${specialMarketHtml(match)}</section>
       </div>`;
   }
 
@@ -186,8 +202,9 @@
       .flai-pick{position:relative;display:grid;grid-template-columns:34px minmax(0,1fr) 76px;gap:10px;align-items:center;padding:12px 10px 35px;margin:7px 0;border:1px solid rgba(255,255,255,.08);border-radius:13px;background:#0a1c28;cursor:pointer;transition:.18s ease}.flai-pick:hover,.flai-pick:focus,.flai-pick.is-open{outline:none;border-color:rgba(143,255,207,.58);transform:translateY(-1px);background:#0c2631}.flai-rank{display:grid;place-items:center;width:30px;height:30px;border-radius:9px;background:#122f3d;color:#8fffcf;font-weight:1000}.flai-pick-main small{display:block;color:#7893a4;font-size:10px}.flai-pick-main strong{display:block;margin:3px 0;color:#fff;font-size:13px}.flai-pick-main em{font-style:normal;color:#5f7d8c;font-size:10px}.flai-pick-main span{color:#8fffcf;font-size:12px;font-weight:900}.flai-score{text-align:right}.flai-score small,.flai-score span{display:block;color:#7893a4;font-size:9px}.flai-score strong{display:block;font-size:22px;color:#fff}.flai-meta{grid-column:2/4;display:flex;gap:6px;flex-wrap:wrap}.flai-meta span{padding:5px 7px;border-radius:7px;background:#102935;color:#91a9b6;font-size:9px}.flai-meta b{color:#fff}.flai-tier{position:absolute;left:54px;bottom:8px;padding:4px 7px;border-radius:999px;background:#132b37;color:#a9bdc8;font-size:8px;font-weight:1000}.flai-tier.is-coupon{background:#153c2c;color:#8fffcf}.flai-tier.is-pro{background:#18334b;color:#a9d7ff}.flai-tier.is-watch{background:#352d1b;color:#f2d58c}
       .flai-empty{display:grid;place-items:center;min-height:300px;text-align:center;color:#7893a4;padding:30px}.flai-detail-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:5px 5px 12px}.flai-detail-head small{color:#7893a4}.flai-detail-head h3{margin:3px 0;font-size:20px}.flai-detail-head p{margin:0;color:#91a9b6;font-size:12px}.flai-detail-head p b{color:#8fffcf}.flai-big-score{min-width:118px;text-align:right}.flai-big-score span,.flai-big-score small{display:block;color:#7893a4;font-size:9px}.flai-big-score strong{display:block;color:#fff;font-size:24px}.flai-detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.flai-detail-grid section{padding:12px;border:1px solid rgba(255,255,255,.07);border-radius:13px;background:#091923}.flai-detail-grid h4{margin:0 0 9px;color:#eafff5;font-size:13px}.flai-detail-grid ul{margin:0;padding-left:17px;color:#b7cad5;font-size:11px;line-height:1.55}.flai-riskline{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-top:10px}.flai-riskline span{padding:6px;border-radius:8px;background:#0e2733;color:#86a1b1;font-size:9px}.flai-riskline b{display:block;color:#fff;margin-top:2px}
       .flai-bar-row{margin:8px 0}.flai-bar-row>div{display:flex;justify-content:space-between;gap:8px;font-size:10px;color:#9eb3c0}.flai-bar-row strong{color:#fff}.flai-bar-row i{display:block;height:7px;margin-top:4px;border-radius:99px;background:#122c38;overflow:hidden}.flai-bar-row i b{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#47d9a0,#a7ffd7)}.flai-bar-row small{display:block;margin-top:3px;color:#647f8f;font-size:8px}.flai-raw i b{background:linear-gradient(90deg,#5ca8ff,#a38bff)}.flai-note,.flai-muted{color:#718c9c;font-size:9px;line-height:1.45}.flai-note b{color:#fff}.flai-foot{padding:0 24px 22px;color:#6f8999;font-size:10px;line-height:1.5}.flai-foot b{color:#9edfc6}
+      .flai-special-section{grid-column:1/-1}.flai-special{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.flai-special article{padding:9px;border:1px solid rgba(143,255,207,.12);border-radius:10px;background:#0b202a}.flai-special article>div{display:flex;justify-content:space-between;gap:8px}.flai-special strong{font-size:11px;color:#fff}.flai-special span{font-size:8px;color:#8fffcf}.flai-special p{margin:6px 0;color:#8fa7b5;font-size:9px}.flai-special p b{color:#fff}.flai-special ul{margin:0;padding-left:14px;font-size:9px}
       @media(max-width:980px){.flai-kpis{grid-template-columns:1fr 1fr}.flai-body{grid-template-columns:1fr}.flai-detail-grid{grid-template-columns:1fr 1fr}}
-      @media(max-width:620px){.flai{margin:18px 8px;border-radius:16px}.flai-head{display:block;padding:18px 14px 10px}.flai-status{display:inline-block;margin-top:10px}.flai-kpis{padding:8px 14px;gap:7px}.flai-kpis article{padding:11px}.flai-kpis strong{font-size:19px}.flai-groups{padding:0 14px 12px}.flai-body{padding:0 14px 14px}.flai-detail-grid{grid-template-columns:1fr}.flai-pick{grid-template-columns:30px minmax(0,1fr) 64px;padding:10px 8px}.flai-meta{grid-column:1/4}.flai-foot{padding:0 14px 16px}}
+      @media(max-width:620px){.flai{margin:18px 8px;border-radius:16px}.flai-head{display:block;padding:18px 14px 10px}.flai-status{display:inline-block;margin-top:10px}.flai-kpis{padding:8px 14px;gap:7px}.flai-kpis article{padding:11px}.flai-kpis strong{font-size:19px}.flai-groups{padding:0 14px 12px}.flai-body{padding:0 14px 14px}.flai-detail-grid,.flai-special{grid-template-columns:1fr}.flai-pick{grid-template-columns:30px minmax(0,1fr) 64px;padding:10px 8px}.flai-meta{grid-column:1/4}.flai-foot{padding:0 14px 16px}}
     `;
     document.head.appendChild(style);
   }
@@ -218,7 +235,7 @@
 
     root.innerHTML = `<div class="flai-head"><div><p>AI Şeffaflık Merkezi</p><h2>Güven, başarı ve neden tek ekranda</h2><span>Robotun seçimini yalnız yüzdeyle değil; gerçek geçmiş performans, veri kapsamı, model sinyali, piyasa farkı ve kadro/ilk 11 riskiyle birlikte gösterir.</span></div><span class="flai-status">${esc(data?.engine || "PRO veri akışı")}</span></div>
       ${statsHtml(data)}
-      <div class="flai-body"><div class="flai-list"><div class="flai-list-head"><h3>Günün en güçlü tahminleri</h3><small>${esc(picks.length)} seçim</small></div>${picks.length ? picks.map(pickCard).join("") : `<div class="flai-empty">Bugün güven eşiğini geçen açıklanabilir PRO seçimi henüz oluşmadı.</div>`}</div><div class="flai-detail">${detailHtml(selected)}</div></div>
+      <div class="flai-body"><div class="flai-list"><div class="flai-list-head"><h3>Günün en güçlü tahminleri</h3><small>${esc(picks.length)}/10 seçim</small></div>${picks.length ? picks.map(pickCard).join("") : `<div class="flai-empty">Bugün güven eşiğini geçen açıklanabilir PRO seçimi henüz oluşmadı.</div>`}</div><div class="flai-detail">${detailHtml(selected)}</div></div>
       <div class="flai-foot"><b>Bileşik değerlendirme puanı sonuç olasılığı değildir.</b> Tahmini olasılığı; veri kapsamı, model sinyali, piyasa farkı ve kadro/ilk 11 riskleriyle birlikte açıklama amacıyla sunar. Dakika dakika takım gücü verisi mevcut değilse sistem böyle bir grafik uydurmaz; yalnız mevcut gerçek metrikleri gösterir.</div>`;
   }
 

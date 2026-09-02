@@ -105,6 +105,29 @@ test("kompakt PRO kaydı doğrulanmış kadro ve isimli oyuncu ayrıntısını k
   assert.equal(row.team_intelligence.away_status.availability_checked, true);
 });
 
+test("kompakt PRO kaydı yalnız doğrulanmış yarı ve İY/MS görüşlerini korur", () => {
+  const outcome = (key, label) => ({
+    key, label, odd: 4.2, model_score: 61, estimated_probability: 28,
+    market_probability: 22, edge_percent: 6, data_completeness: 68,
+    independent_evidence: true, official_market_complete: true, trusted_odds: true,
+    recommendation_status: "model_analysis", probability_source: ["yarı Poisson modeli"],
+    signals: ["Takım sonuç hafızası kullanıldı."],
+  });
+  const row = compactMatch({
+    home: "Yarı Ev", away: "Yarı Dep",
+    special_market_analysis: {
+      available: true, trusted_odds: true, model_version: "pro13-half-scenarios-v5",
+      outcomes: {
+        htft11: outcome("htft11", "İY/MS 1/1"),
+        htft12: { ...outcome("htft12", "İY/MS 1/2"), trusted_odds: false },
+      },
+    },
+  }, {});
+  assert.equal(row.special_market_analysis.outcomes.htft11.odd, 4.2);
+  assert.equal(row.special_market_analysis.outcomes.htft11.recommendation_status, "model_analysis");
+  assert.equal(row.special_market_analysis.outcomes.htft12, undefined);
+});
+
 test("tamamlanan PRO olasılıkları Brier skoru ile ölçülür", () => {
   const calibration = buildCalibration({
     completed_items: [

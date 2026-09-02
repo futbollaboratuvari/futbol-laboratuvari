@@ -120,6 +120,15 @@ function setCanonicalOdds(target, market) {
     const odd = byLabel.get(fold(label));
     if (odd !== null && odd !== undefined) target[key] = odd;
   };
+  const assignAny = (key, labels) => {
+    for (const label of labels) {
+      const odd = byLabel.get(fold(label));
+      if (odd !== null && odd !== undefined) {
+        target[key] = odd;
+        return;
+      }
+    }
+  };
 
   if (title === "mac sonucu") {
     assign("ms1", "1");
@@ -138,6 +147,25 @@ function setCanonicalOdds(target, market) {
     assign("cifte1x", "1 ve 0");
     assign("cifte12", "1 ve 2");
     assign("cifteX2", "0 ve 2");
+  }
+  if (title.includes("ilk yari mac sonucu") && !title.includes("skor")) {
+    assignAny("htFt11", ["1/1", "1-1"]);
+    assignAny("htFt1X", ["1/0", "1/X", "1-0", "1-X"]);
+    assignAny("htFt12", ["1/2", "1-2"]);
+    assignAny("htFtX1", ["0/1", "X/1", "0-1", "X-1"]);
+    assignAny("htFtXX", ["0/0", "X/X", "0-0", "X-X"]);
+    assignAny("htFtX2", ["0/2", "X/2", "0-2", "X-2"]);
+    assignAny("htFt21", ["2/1", "2-1"]);
+    assignAny("htFt2X", ["2/0", "2/X", "2-0", "2-X"]);
+    assignAny("htFt22", ["2/2", "2-2"]);
+  }
+  if (title.includes("karsilikli gol") && (title.includes("ilk yari") || title.includes("1 yari"))) {
+    assignAny("firstHalfBttsYes", ["Var", "Evet"]);
+    assignAny("firstHalfBttsNo", ["Yok", "Hayır", "Hayir"]);
+  }
+  if (title.includes("karsilikli gol") && (title.includes("ikinci yari") || title.includes("2 yari"))) {
+    assignAny("secondHalfBttsYes", ["Var", "Evet"]);
+    assignAny("secondHalfBttsNo", ["Yok", "Hayır", "Hayir"]);
   }
 }
 
