@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 02.09.2026 21:52:17
+Oluşturma: 03.09.2026 00:54:52
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1082
-- Kazanan tahmin: 234
+- Bekleyen tahmin: 1081
+- Kazanan tahmin: 235
 - Kaybeden tahmin: 184
 - Lig sayısı: 212
 - Seçenek sayısı: 7
@@ -22,29 +22,29 @@ Oluşturma: 02.09.2026 21:52:17
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 7, bekleyen 5, başarı %100, düz getiri %147, ağırlık 1
+- MS X: toplam 8, bekleyen 6, başarı %100, düz getiri %147, ağırlık 1
 - KG Var: toplam 2, bekleyen 1, başarı %100, düz getiri %87, ağırlık 1
-- 2.5 Üst: toplam 228, bekleyen 131, başarı %62, düz getiri %9, ağırlık 1
-- MS 2: toplam 220, bekleyen 185, başarı %57, düz getiri %-4, ağırlık 1
-- MS 1: toplam 461, bekleyen 360, başarı %56, düz getiri %-8, ağırlık 1
-- 2.5 Alt: toplam 581, bekleyen 399, başarı %52, düz getiri %-14, ağırlık 1
+- 2.5 Üst: toplam 226, bekleyen 131, başarı %62, düz getiri %10, ağırlık 1
+- MS 2: toplam 218, bekleyen 182, başarı %58, düz getiri %-4, ağırlık 1
+- MS 1: toplam 463, bekleyen 360, başarı %56, düz getiri %-8, ağırlık 1
+- 2.5 Alt: toplam 582, bekleyen 400, başarı %52, düz getiri %-14, ağırlık 1
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-02 | Arjantin Ulusal Primera Lig | Colegiales - Midland | MS X | pending | 43/100
-- 2026-09-02 | İngiltere 1.Lig | Luton - Stockport | MS 2 | pending | 47/100
-- 2026-09-02 | İtalya Serie C Kupası 2.Tur | Catania - Savoia | MS 1 | pending | 54/100
-- 2026-09-02 | Yunanistan Kupa Lig Aşaması | Paok - Ofi | MS 1 | pending | 59/100
-- 2026-09-02 | Şili Premier Lig | Coquimbo Unido - Univ De Concepc | 2.5 Alt | pending | 56/100
-- 2026-09-02 | İngiltere Premier Lig Kupası Grup E | Preston North - Wolverhampton U | MS 1 | pending | 50/100
-- 2026-09-02 | Bosna-Hersek Premier Lig | Siroki Brijeg - Sarajevo | MS 2 | pending | 44/100
-- 2026-09-02 | Avusturya Bundesliga | Austria Vienna - Wattens | MS 1 | pending | 52/100
-- 2026-09-02 | Hırvatistan 2.HNL | Jadran Lp - Dubrava Zagred | MS 1 | pending | 56/100
-- 2026-09-02 | Polonya Kupa 1.Tur | Falubaz Zielon - Ruch Chorzow | 2.5 Üst | pending | 54/100
-- 2026-09-02 | Polonya Kupa 1.Tur | Gornik Leczna - Stal Mielec | MS 1 | pending | 45/100
-- 2026-09-02 | CONCACAF Ligler Kupası Yarı Final | Toluca - Club Leon | 2.5 Üst | pending | 53/100
-- 2026-09-02 | CONCACAF Ligler Kupası Yarı Final | Club America - Monterrey | 2.5 Üst | pending | 53/100
-- 2026-09-02 | İngiltere 1.Lig | Reading - Mansfield | MS 1 | pending | 50/100
-- 2026-09-02 | İngiltere Premier Lig Kupası Grup E | Preston North - Wolverhampton U | MS 2 | pending | 46/100
+- 2026-09-03 | ABD USL Lig 1 | Westchester Sc - Chattanooga Red | 2.5 Alt | pending | 49/100
+- 2026-09-03 | ABD USL Lig 1 | Fort Wayne - Richmond Kicker | MS 1 | pending | 58/100
+- 2026-09-03 | ABD USL Lig 1 | New York Cosmo - Sarasota Paradi | MS 1 | pending | 49/100
+- 2026-09-03 | ABD USL Lig 1 | Charlotte Inde - Portland Hearts | MS 1 | pending | 59/100
+- 2026-09-03 | Ekvador Pro Lig | Barcelona Gua - Indep. Jose Ter | 2.5 Alt | pending | 56/100
+- 2026-09-03 | ABD USL Lig 1 | Forward Madiso - One Knoxville | 2.5 Üst | pending | 62/100
+- 2026-09-03 | Arjantin Kupa Son 16 Turu | Boca Juniors - Velez Sarsfield | 2.5 Alt | pending | 65/100
+- 2026-09-03 | Brezilya Kupa Çeyrek Final | Vitoria Bahia (0) - (1) Vasco Da Gama | 2.5 Alt | pending | 48/100
+- 2026-09-03 | Brezilya Kupa Çeyrek Final | Santos (0) - (3) Palmeiras | 2.5 Alt | pending | 45/100
+- 2026-09-03 | Şili Premier Lig | Deportes Limac - Atletico Nublen | 2.5 Üst | pending | 56/100
+- 2026-09-03 | CONCACAF Ligler Kupası Yarı Final | Toluca - Club Leon | 2.5 Alt | pending | 48/100
+- 2026-09-03 | Kolombiya Primera A Clausura | Santa Fe - Los Millionario | 2.5 Alt | pending | 66/100
+- 2026-09-03 | CONCACAF Ligler Kupası Yarı Final | Club America - Monterrey | 2.5 Alt | pending | 49/100
+- 2026-09-03 | Nikaragua Premier Lig Apertura | Export Sebaco - Walter Ferretti | 2.5 Üst | pending | 53/100
+- 2026-09-03 | Ekvador Pro Lig | Deportivo Cuen - Guayaquil City | 2.5 Alt | pending | 58/100
 

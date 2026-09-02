@@ -1,29 +1,16 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-09-02 / 2026-09-03
+Gunler: 2026-09-03 / 2026-09-04
 Kaynak: fixtures.json
-Ham mac: 115
-Aktif mac: 35
+Ham mac: 24
+Aktif mac: 22
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 80
-Bugun: 11
-Yarin: 24
+Bultenden dusurulen mac: 2
+Bugun: 22
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-09-02 22:00 | İngiltere Championship | Burnley - Middlesbrough | scheduled | -
-- 2026-09-02 22:00 | İskoçya Premiership | Falkirk - Glasgow Rangers | scheduled | -
-- 2026-09-02 22:00 | İngiltere 1.Lig | Reading - Mansfield | scheduled | -
-- 2026-09-02 22:00 | Ekvador Pro Lig | Depor Macara - Manta | scheduled | -
-- 2026-09-02 22:00 | İtalya Serie C Kupası 2.Tur | Team Altamura - Sambenedetese | scheduled | -
-- 2026-09-02 22:00 | İtalya Serie C Kupası 2.Tur | Spezia - F.C. Vado | scheduled | -
-- 2026-09-02 22:00 | İtalya Serie C Kupası 2.Tur | Catania - Savoia | scheduled | -
-- 2026-09-02 22:00 | Malta Premier Lig Açılış | Floriana - Gzira United | scheduled | -
-- 2026-09-02 22:15 | Yunanistan Kupa Lig Aşaması | Paok - Ofi | scheduled | -
-- 2026-09-02 23:00 | Venezuela Premier Lig Clausura | Zamora - Depor Tachira | scheduled | -
-- 2026-09-02 23:00 | Uruguay Kupa Ön Eleme Turu Grup 6 | Liverpool Mont - Boston River | scheduled | -
-- 2026-09-03 00:00 | Nikaragua Premier Lig Apertura | Export Sebaco - Walter Ferretti | scheduled | -
-- 2026-09-03 00:30 | Ekvador Pro Lig | Deportivo Cuen - Guayaquil City | scheduled | -
 - 2026-09-03 01:00 | Şili Premier Lig | Coquimbo Unido - Univ De Concepc | scheduled | -
 - 2026-09-03 01:00 | Nikaragua Premier Lig Apertura | Jalapa - Rancho Santana | scheduled | -
 - 2026-09-03 01:30 | Brezilya Serie A | Flamengo - Mirassol | scheduled | -

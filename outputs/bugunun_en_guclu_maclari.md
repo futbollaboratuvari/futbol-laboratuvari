@@ -2,29 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-02T18:52:15.457Z
-- Ham maç sayısı: 115
-- Yarın bülteni maç sayısı: 24
-- Detay blok sayısı: 308
-- Aktif bülten maçı: 35
-- Bültenden düşürülen maç: 80
+- Güncelleme: 2026-09-02T21:54:50.575Z
+- Ham maç sayısı: 24
+- Yarın bülteni maç sayısı: 0
+- Detay blok sayısı: 67
+- Aktif bülten maçı: 22
+- Bültenden düşürülen maç: 2
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Burnley - Middlesbrough | İngiltere Championship | 22:00 | Veri bekleniyor | - | 2.69 | 8 |
-| Falkirk - Glasgow Rangers | İskoçya Premiership | 22:00 | Veri bekleniyor | - | 4.85 | 7 |
-| Reading - Mansfield | İngiltere 1.Lig | 22:00 | Veri bekleniyor | - | 1.82 | 8 |
-| Depor Macara - Manta | Ekvador Pro Lig | 22:00 | Veri bekleniyor | - | 1.27 | 7 |
-| Team Altamura - Sambenedetese | İtalya Serie C Kupası 2.Tur | 22:00 | Veri bekleniyor | - | 1.93 | 8 |
-| Spezia - F.C. Vado | İtalya Serie C Kupası 2.Tur | 22:00 | Veri bekleniyor | - | 1.37 | 7 |
-| Catania - Savoia | İtalya Serie C Kupası 2.Tur | 22:00 | Veri bekleniyor | - | 1.46 | 7 |
-| Floriana - Gzira United | Malta Premier Lig Açılış | 22:00 | Veri bekleniyor | - | 1.34 | 7 |
-| Paok - Ofi | Yunanistan Kupa Lig Aşaması | 22:15 | Veri bekleniyor | - | 1.3 | 5 |
-| Zamora - Depor Tachira | Venezuela Premier Lig Clausura | 23:00 | Veri bekleniyor | - | 3.16 | 8 |
-| Liverpool Mont - Boston River | Uruguay Kupa Ön Eleme Turu Grup 6 | 23:00 | Veri bekleniyor | - | 1.79 | 5 |
-| Export Sebaco - Walter Ferretti | Nikaragua Premier Lig Apertura | 00:00 | Veri bekleniyor | - | 2.08 | 8 |
-| Deportivo Cuen - Guayaquil City | Ekvador Pro Lig | 00:30 | Veri bekleniyor | - | 1.43 | 7 |
 | Coquimbo Unido - Univ De Concepc | Şili Premier Lig | 01:00 | Veri bekleniyor | - | 1.39 | 7 |
 | Jalapa - Rancho Santana | Nikaragua Premier Lig Apertura | 01:00 | Veri bekleniyor | - | 1.55 | 8 |
 | Flamengo - Mirassol | Brezilya Serie A | 01:30 | Veri bekleniyor | - | 1.05 | 5 |
