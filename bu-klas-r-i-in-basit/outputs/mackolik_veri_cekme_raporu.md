@@ -1,50 +1,60 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-02T18:08:59.867499+00:00
+Tarih: 2026-09-02T23:21:13.592838+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 59
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 59
-- Ham veri havuzu toplam mac sayisi: 11075
-- Hedef tarih: 02.09.2026 Europe/Istanbul
+- Kac mac bulundu: 73
+- Kac mac kaydedildi: 73
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 11148
+- Hedef tarih: 03.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
-- Almanya DFB Kupası 1.Tur
-- Arjantin Kupa Son 16 Turu
-- Arjantin Ulusal Primera Lig
-- Avusturya Bundesliga
+- Belarus Premier Lig
 - Belçika Pro Lig
-- Bosna-Hersek Premier Lig
 - Brezilya Kupa Çeyrek Final
-- Brezilya Serie A
-- CONCACAF Ligler Kupası Yarı Final
+- Brezilya Serie B
+- Cezayir 1.Lig
+- Danimarka DBU Kupası 2.Tur
+- Danimarka Süperlig
 - Ekvador Pro Lig
-- Kenya Premier Lig
-- Kolombiya Kupa Son 16 Turu
+- Fransa Ligue 1
+- Fransa Ligue 3
+- Honduras Ulusal Lig Apertura
+- Irak Premier Lig
+- Katar Yıldızlar Ligi
 - Kolombiya Primera A Clausura
-- Malta Premier Lig Açılış
+- Letonya Kupa Yarı Final
+- Litvanya A Ligi
+- Litvanya Kupa Yarı Final
+- Macaristan NB I
+- Meksika Ascenso MX Apertura
+- Mısır 2. Lig
+- Mısır Premier Lig
 - Nikaragua Premier Lig Apertura
+- Polonya Ekstraklasa
 - Polonya Kupa 1.Tur
-- Romanya Kupa Grup C
-- Slovenya Kupa 1.Tur
-- UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu
-- Uruguay Kupa Ön Eleme Turu Grup 1
-- Uruguay Kupa Ön Eleme Turu Grup 6
+- Romanya Kupa Grup A
+- Romanya Kupa Grup D
+- Rusya Kupa Premier Lig Yolu Grup B
+- Suudi Arabistan Pro Lig
+- Türkiye TFF 1. Lig
+- Uganda Premier Lig
+- Uruguay Kupa Ön Eleme Turu Grup 5
 - Venezuela Premier Lig Clausura
 - Yunanistan Kupa Lig Aşaması
-- İngiltere 1.Lig
-- İngiltere Championship
+- Ürdün Premier Lig
+- İran Persian Gulf Pro Lig
 - İskoçya Premiership
+- İspanya LaLiga
+- İsveç Allsvenskan
 - İsviçre Süper Lig
+- İtalya Kupa 2.Tur
 - İtalya Serie C Kupası 2.Tur
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -101,8 +111,8 @@ Tarih: 2026-09-02T18:08:59.867499+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 33
-- Acilan detay: 33
+- Denenen Tumu alani: 43
+- Acilan detay: 43
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -115,26 +125,26 @@ Tarih: 2026-09-02T18:08:59.867499+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 02.09.2026 | 21:45 | Almanya DFB Kupası 1.Tur | Osnabruck | B.Münih | 22178 | 3 |
-| 02.09.2026 | 21:30 | Belçika Pro Lig | St. Truidense | Union St.G | 25336 | 5 |
-| 02.09.2026 | 22:00 | İngiltere Championship | Burnley | Middlesbrough | 15327 | 5 |
-| 02.09.2026 | 21:45 | İngiltere Championship | Millwall | Wrexham | 15099 | 5 |
-| 02.09.2026 | 21:45 | İngiltere Championship | West Bromwich | Charlton | 15244 | 5 |
-| 02.09.2026 | 21:45 | İngiltere Championship | Qpr | Cardiff | 15169 | 5 |
-| 02.09.2026 | 21:45 | İskoçya Premiership | Celtic | Aberdeen | 01832 | 5 |
-| 02.09.2026 | 21:45 | İskoçya Premiership | Dundee | St Johnstone | 19111 | 5 |
-| 02.09.2026 | 21:45 | İskoçya Premiership | Motherwell | Dundee Utd | 19764 | 5 |
-| 02.09.2026 | 22:00 | İskoçya Premiership | Falkirk | Glasgow Rangers | 19888 | 5 |
-| 02.09.2026 | 21:45 | İskoçya Premiership | Kilmarnock | St Mirren | 19680 | 5 |
-| 02.09.2026 | 21:30 | Avusturya Bundesliga | Salzburg | Rapid Wien | 26598 | 5 |
-| 02.09.2026 | 21:30 | İsviçre Süper Lig | Luzern | Vaduz | 27940 | 5 |
-| 02.09.2026 | 21:30 | İsviçre Süper Lig | Grasshoppers | St Gallen | 21238 | 5 |
-| 02.09.2026 | 21:30 | İsviçre Süper Lig | Thun | Lausanne | 21423 | 5 |
-| 02.09.2026 | 22:15 | Yunanistan Kupa Lig Aşaması | Paok | Ofi | 23729 | 5 |
-| 02.09.2026 | 21:30 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Juventus (K) (3) | (0) St. Pölten (K) | 16701 | 2 |
-| 03.09.2026 | 06:30 | CONCACAF Ligler Kupası Yarı Final | Club America | Monterrey | 25502 | 5 |
-| 03.09.2026 | 04:00 | CONCACAF Ligler Kupası Yarı Final | Toluca | Club Leon | 25454 | 5 |
-| 03.09.2026 | 01:30 | Brezilya Serie A | Flamengo | Mirassol | 17359 | 4 |
+| 03.09.2026 | 17:00 | Türkiye TFF 1. Lig | Iğdır Fk | Manisa Futbol K | 22069 | 5 |
+| 03.09.2026 | 20:00 | Türkiye TFF 1. Lig | Bodrum Fk | Esenler Erokspo | 22086 | 5 |
+| 03.09.2026 | 20:00 | Türkiye TFF 1. Lig | Bursaspor | İstanbulspor | 22103 | 5 |
+| 03.09.2026 | 22:00 | İspanya LaLiga | Real Sociedad | Celta Vigo | 05144 | 5 |
+| 03.09.2026 | 21:45 | Fransa Ligue 1 | Toulouse | Lille | 18947 | 5 |
+| 03.09.2026 | 19:00 | İtalya Kupa 2.Tur | Palermo | Mantova | 24653 | 5 |
+| 03.09.2026 | 22:00 | İtalya Kupa 2.Tur | Cagliari | Verona | 24707 | 5 |
+| 03.09.2026 | 18:55 | Suudi Arabistan Pro Lig | Al Feiha | Al Kholood | 26445 | 5 |
+| 03.09.2026 | 19:30 | Suudi Arabistan Pro Lig | Neom Sc | Al Khaleej | 26344 | 5 |
+| 03.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Diriyah | Al-Qadsiah | 14580 | 5 |
+| 03.09.2026 | 21:30 | Belçika Pro Lig | Anderlecht | Kortrijk | 25394 | 5 |
+| 03.09.2026 | 21:30 | Belçika Pro Lig | Gent | Oh Leuven | 25396 | 5 |
+| 03.09.2026 | 21:45 | İskoçya Premiership | Hibernian | Hearts | 19942 | 5 |
+| 03.09.2026 | 21:00 | Danimarka Süperlig | Kopenhag | Nordsjaelland | 24809 | 5 |
+| 03.09.2026 | 20:00 | İsveç Allsvenskan | Mjallby | Djurgarden | 18172 | 5 |
+| 03.09.2026 | 19:00 | Polonya Ekstraklasa | Rakow Czestoch | Gornik Zabrze | 25228 | 5 |
+| 03.09.2026 | 21:30 | Polonya Ekstraklasa | Lech Poznan | Jagiellonia | 25282 | 5 |
+| 03.09.2026 | 21:30 | İsviçre Süper Lig | Basel | Sion | 21505 | 5 |
+| 03.09.2026 | 21:30 | İsviçre Süper Lig | Lugano | Servette | 21583 | 5 |
+| 03.09.2026 | 21:00 | Yunanistan Kupa Lig Aşaması | Panathinaikos | Niki Volos | 23741 | 4 |
 
 ## Sonuc
 

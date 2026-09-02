@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 03.09.2026 00:54:52
+Oluşturma: 03.09.2026 02:21:53
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1081
-- Kazanan tahmin: 235
-- Kaybeden tahmin: 184
-- Lig sayısı: 212
+- Bekleyen tahmin: 1089
+- Kazanan tahmin: 230
+- Kaybeden tahmin: 181
+- Lig sayısı: 217
 - Seçenek sayısı: 7
 
 ## Öğrenme Mantığı
@@ -22,29 +22,29 @@ Oluşturma: 03.09.2026 00:54:52
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 8, bekleyen 6, başarı %100, düz getiri %147, ağırlık 1
+- MS X: toplam 9, bekleyen 7, başarı %100, düz getiri %147, ağırlık 1
 - KG Var: toplam 2, bekleyen 1, başarı %100, düz getiri %87, ağırlık 1
-- 2.5 Üst: toplam 226, bekleyen 131, başarı %62, düz getiri %10, ağırlık 1
-- MS 2: toplam 218, bekleyen 182, başarı %58, düz getiri %-4, ağırlık 1
-- MS 1: toplam 463, bekleyen 360, başarı %56, düz getiri %-8, ağırlık 1
-- 2.5 Alt: toplam 582, bekleyen 400, başarı %52, düz getiri %-14, ağırlık 1
+- 2.5 Üst: toplam 230, bekleyen 135, başarı %62, düz getiri %10, ağırlık 1
+- MS 2: toplam 213, bekleyen 177, başarı %58, düz getiri %-4, ağırlık 1
+- MS 1: toplam 457, bekleyen 356, başarı %56, düz getiri %-8, ağırlık 1
+- 2.5 Alt: toplam 588, bekleyen 412, başarı %51, düz getiri %-15, ağırlık 1
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-03 | ABD USL Lig 1 | Westchester Sc - Chattanooga Red | 2.5 Alt | pending | 49/100
-- 2026-09-03 | ABD USL Lig 1 | Fort Wayne - Richmond Kicker | MS 1 | pending | 58/100
-- 2026-09-03 | ABD USL Lig 1 | New York Cosmo - Sarasota Paradi | MS 1 | pending | 49/100
-- 2026-09-03 | ABD USL Lig 1 | Charlotte Inde - Portland Hearts | MS 1 | pending | 59/100
-- 2026-09-03 | Ekvador Pro Lig | Barcelona Gua - Indep. Jose Ter | 2.5 Alt | pending | 56/100
-- 2026-09-03 | ABD USL Lig 1 | Forward Madiso - One Knoxville | 2.5 Üst | pending | 62/100
-- 2026-09-03 | Arjantin Kupa Son 16 Turu | Boca Juniors - Velez Sarsfield | 2.5 Alt | pending | 65/100
-- 2026-09-03 | Brezilya Kupa Çeyrek Final | Vitoria Bahia (0) - (1) Vasco Da Gama | 2.5 Alt | pending | 48/100
-- 2026-09-03 | Brezilya Kupa Çeyrek Final | Santos (0) - (3) Palmeiras | 2.5 Alt | pending | 45/100
-- 2026-09-03 | Şili Premier Lig | Deportes Limac - Atletico Nublen | 2.5 Üst | pending | 56/100
-- 2026-09-03 | CONCACAF Ligler Kupası Yarı Final | Toluca - Club Leon | 2.5 Alt | pending | 48/100
-- 2026-09-03 | Kolombiya Primera A Clausura | Santa Fe - Los Millionario | 2.5 Alt | pending | 66/100
-- 2026-09-03 | CONCACAF Ligler Kupası Yarı Final | Club America - Monterrey | 2.5 Alt | pending | 49/100
-- 2026-09-03 | Nikaragua Premier Lig Apertura | Export Sebaco - Walter Ferretti | 2.5 Üst | pending | 53/100
-- 2026-09-03 | Ekvador Pro Lig | Deportivo Cuen - Guayaquil City | 2.5 Alt | pending | 58/100
+- 2026-09-03 | Ekvador Pro Lig | Libertad - Emelec | 2.5 Alt | pending | 67/100
+- 2026-09-03 | Kolombiya Primera A Clausura | Pereira - Independiente M | 2.5 Alt | pending | 54/100
+- 2026-09-03 | Meksika Ascenso MX Apertura | Tepatitlan De - Dorados | 2.5 Alt | pending | 50/100
+- 2026-09-03 | Nikaragua Premier Lig Apertura | Matagalpa - Unan Managua | 2.5 Alt | pending | 49/100
+- 2026-09-03 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Platense | 2.5 Alt | pending | 61/100
+- 2026-09-03 | Belçika Pro Lig | Gent - Oh Leuven | MS 1 | pending | 56/100
+- 2026-09-03 | Polonya Ekstraklasa | Lech Poznan - Jagiellonia | MS 1 | pending | 54/100
+- 2026-09-03 | İsviçre Süper Lig | Basel - Sion | MS 1 | pending | 45/100
+- 2026-09-03 | İsviçre Süper Lig | Lugano - Servette | MS 1 | pending | 50/100
+- 2026-09-03 | Polonya Kupa 1.Tur | Slask Wroclaw - Pogon Szczecin | 2.5 Üst | pending | 53/100
+- 2026-09-03 | Uruguay Kupa Ön Eleme Turu Grup 5 | River Plate (U - Nacional Df | 2.5 Alt | pending | 54/100
+- 2026-09-03 | Fransa Ligue 1 | Toulouse - Lille | 2.5 Alt | pending | 62/100
+- 2026-09-03 | İskoçya Premiership | Hibernian - Hearts | 2.5 Üst | pending | 54/100
+- 2026-09-03 | Fransa Ligue 3 | Rouen - Valenciennes | 2.5 Alt | pending | 53/100
+- 2026-09-03 | İspanya LaLiga | Real Sociedad - Celta Vigo | 2.5 Üst | pending | 64/100
 

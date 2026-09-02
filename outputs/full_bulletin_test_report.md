@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 57
+- Scheduled match count: 86
 - Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-09-02 / 2026-09-03 23:59
+- Date window: 2026-09-03 / 2026-09-04 23:59
 
-- 2026-09-02 21:30 | Salzburg - Rapid Wien | scheduled
-- 2026-09-02 21:30 | St. Truidense - Union St.G | scheduled
-- 2026-09-02 21:30 | Borac Banja Lu - Zeljeznicar | scheduled
-- 2026-09-02 21:30 | Siroki Brijeg - Sarajevo | scheduled
-- 2026-09-02 21:30 | Grasshoppers - St Gallen | scheduled
-- 2026-09-02 21:30 | Luzern - Vaduz | scheduled
-- 2026-09-02 21:30 | Thun - Lausanne | scheduled
-- 2026-09-02 21:30 | Widzew Lodz - Korona Kielce | scheduled
-- 2026-09-02 21:30 | Argesul Pitest - Fc Steaua | scheduled
-- 2026-09-02 21:30 | Juventus (K) (3) - (0) St. Pölten (K) | scheduled
+- 2026-09-03 02:30 | Charlotte Inde - Portland Hearts | scheduled
+- 2026-09-03 02:30 | Fort Wayne - Richmond Kicker | scheduled
+- 2026-09-03 02:30 | New York Cosmo - Sarasota Paradi | scheduled
+- 2026-09-03 03:00 | Forward Madiso - One Knoxville | scheduled
+- 2026-09-03 03:00 | Barcelona Gua - Indep. Jose Ter | scheduled
+- 2026-09-03 03:15 | Boca Juniors - Velez Sarsfield | scheduled
+- 2026-09-03 03:30 | Santos (0) - (3) Palmeiras | scheduled
+- 2026-09-03 03:30 | Vitoria Bahia (0) - (1) Vasco Da Gama | scheduled
+- 2026-09-03 03:30 | Deportes Limac - Atletico Nublen | scheduled
+- 2026-09-03 04:00 | Toluca - Club Leon | scheduled
