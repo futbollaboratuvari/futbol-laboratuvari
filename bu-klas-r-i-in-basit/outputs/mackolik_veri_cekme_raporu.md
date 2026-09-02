@@ -1,6 +1,6 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-02T01:04:39.653432+00:00
+Tarih: 2026-09-02T05:52:55.580723+00:00
 
 ## Ozet
 
@@ -151,8 +151,8 @@ Tarih: 2026-09-02T01:04:39.653432+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 02.09.2026 | 17:00 | Türkiye TFF 1. Lig | Van Spor Fk | Batman Petrol | 22018 | 5 |
-| 02.09.2026 | 20:00 | Türkiye TFF 1. Lig | Fatih Karagümr | Kayserispor | 22035 | 5 |
 | 02.09.2026 | 20:00 | Türkiye TFF 1. Lig | Sivasspor | Mardin 1969 | 22052 | 5 |
+| 02.09.2026 | 20:00 | Türkiye TFF 1. Lig | Fatih Karagümr | Kayserispor | 22035 | 5 |
 | 02.09.2026 | 21:45 | Almanya DFB Kupası 1.Tur | Osnabruck | B.Münih | 22178 | 3 |
 | 02.09.2026 | 19:00 | İtalya Kupa 2.Tur | Udinese | Unione V. | 24599 | 5 |
 | 02.09.2026 | 16:00 | İtalya Kupa 2.Tur | Sassuolo | Frosinone | 24545 | 5 |
@@ -161,15 +161,15 @@ Tarih: 2026-09-02T01:04:39.653432+00:00
 | 02.09.2026 | 21:45 | İngiltere Championship | Millwall | Wrexham | 15099 | 5 |
 | 02.09.2026 | 22:00 | İngiltere Championship | Burnley | Middlesbrough | 15327 | 5 |
 | 02.09.2026 | 21:45 | İngiltere Championship | Qpr | Cardiff | 15169 | 5 |
-| 02.09.2026 | 21:45 | İskoçya Premiership | Motherwell | Dundee Utd | 19764 | 5 |
+| 02.09.2026 | 21:45 | İskoçya Premiership | Dundee | St Johnstone | 19111 | 5 |
 | 02.09.2026 | 22:00 | İskoçya Premiership | Falkirk | Glasgow Rangers | 19888 | 5 |
 | 02.09.2026 | 21:45 | İskoçya Premiership | Kilmarnock | St Mirren | 19680 | 5 |
-| 02.09.2026 | 21:45 | İskoçya Premiership | Dundee | St Johnstone | 19111 | 5 |
+| 02.09.2026 | 21:45 | İskoçya Premiership | Motherwell | Dundee Utd | 19764 | 5 |
 | 02.09.2026 | 21:45 | İskoçya Premiership | Celtic | Aberdeen | 01832 | 5 |
 | 02.09.2026 | 19:30 | Avusturya Bundesliga | Austria Vienna | Wattens | 26778 | 5 |
 | 02.09.2026 | 21:30 | Avusturya Bundesliga | Salzburg | Rapid Wien | 26598 | 5 |
 | 02.09.2026 | 21:00 | Danimarka Süperlig | Aarhus | Midtjylland | 03615 | 5 |
-| 02.09.2026 | 21:30 | İsviçre Süper Lig | Luzern | Vaduz | 27940 | 5 |
+| 02.09.2026 | 21:30 | İsviçre Süper Lig | Thun | Lausanne | 21423 | 5 |
 
 ## Sonuc
 
