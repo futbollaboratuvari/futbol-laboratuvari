@@ -2,37 +2,15 @@
 
 Gunler: 2026-09-02 / 2026-09-03
 Kaynak: fixtures.json
-Ham mac: 188
-Aktif mac: 57
+Ham mac: 115
+Aktif mac: 35
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 131
-Bugun: 33
+Bultenden dusurulen mac: 80
+Bugun: 11
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-02 21:30 | Belçika Pro Lig | St. Truidense - Union St.G | scheduled | -
-- 2026-09-02 21:30 | Avusturya Bundesliga | Salzburg - Rapid Wien | scheduled | -
-- 2026-09-02 21:30 | İsviçre Süper Lig | Luzern - Vaduz | scheduled | -
-- 2026-09-02 21:30 | İsviçre Süper Lig | Grasshoppers - St Gallen | scheduled | -
-- 2026-09-02 21:30 | İsviçre Süper Lig | Thun - Lausanne | scheduled | -
-- 2026-09-02 21:30 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Juventus (K) (3) - (0) St. Pölten (K) | scheduled | -
-- 2026-09-02 21:30 | Polonya Kupa 1.Tur | Widzew Lodz - Korona Kielce | scheduled | -
-- 2026-09-02 21:30 | Romanya Kupa Grup C | Argesul Pitest - Fc Steaua | scheduled | -
-- 2026-09-02 21:30 | Bosna-Hersek Premier Lig | Borac Banja Lu - Zeljeznicar | scheduled | -
-- 2026-09-02 21:30 | Bosna-Hersek Premier Lig | Siroki Brijeg - Sarajevo | scheduled | -
-- 2026-09-02 21:45 | Almanya DFB Kupası 1.Tur | Osnabruck - B.Münih | scheduled | -
-- 2026-09-02 21:45 | İngiltere Championship | West Bromwich - Charlton | scheduled | -
-- 2026-09-02 21:45 | İngiltere Championship | Millwall - Wrexham | scheduled | -
-- 2026-09-02 21:45 | İngiltere Championship | Qpr - Cardiff | scheduled | -
-- 2026-09-02 21:45 | İskoçya Premiership | Motherwell - Dundee Utd | scheduled | -
-- 2026-09-02 21:45 | İskoçya Premiership | Kilmarnock - St Mirren | scheduled | -
-- 2026-09-02 21:45 | İskoçya Premiership | Dundee - St Johnstone | scheduled | -
-- 2026-09-02 21:45 | İskoçya Premiership | Celtic - Aberdeen | scheduled | -
-- 2026-09-02 21:45 | İngiltere 1.Lig | Burton Albion - Afc Wimbledon | scheduled | -
-- 2026-09-02 21:45 | İngiltere 1.Lig | Barnsley - Blackpool | scheduled | -
-- 2026-09-02 21:45 | İngiltere 1.Lig | Luton - Stockport | scheduled | -
-- 2026-09-02 21:45 | İngiltere 1.Lig | Wigan - Mk Dons | scheduled | -
 - 2026-09-02 22:00 | İngiltere Championship | Burnley - Middlesbrough | scheduled | -
 - 2026-09-02 22:00 | İskoçya Premiership | Falkirk - Glasgow Rangers | scheduled | -
 - 2026-09-02 22:00 | İngiltere 1.Lig | Reading - Mansfield | scheduled | -
