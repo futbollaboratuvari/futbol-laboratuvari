@@ -4,7 +4,7 @@ const path = require("path");
 const archivePath = process.env.ROBOT_ARCHIVE_PATH
   ? path.resolve(process.env.ROBOT_ARCHIVE_PATH)
   : path.join(__dirname, "..", "data", "robot_match_archive.json");
-const MODEL_VERSION = "pro13-btts-conditioned-v3";
+const MODEL_VERSION = "pro13-half-scenarios-v5";
 let memoryCache = null;
 let teamIndexCache = null;
 let archiveLookupCache = null;
@@ -366,10 +366,34 @@ const closedDefense = (fixture) => flag(fixture, [
   "closedDefense", "kapaliSavunma", "kapalı_savunma", "homeClosedDefense", "awayClosedDefense", "defensiveStyle", "savunma_oyunu"
 ]);
 
+const HTFT_MARKET_KEYS = [
+  "htft11", "htft1x", "htft12",
+  "htftx1", "htftxx", "htftx2",
+  "htft21", "htft2x", "htft22",
+];
+
+const HTFT_ODD_KEYS = {
+  htft11: ["htFt11", "iyMs11", "iy_ms_11", "halfFull11"],
+  htft1x: ["htFt1X", "iyMs1X", "iy_ms_1x", "halfFull1X"],
+  htft12: ["htFt12", "iyMs12", "iy_ms_12", "halfFull12"],
+  htftx1: ["htFtX1", "iyMsX1", "iy_ms_x1", "halfFullX1"],
+  htftxx: ["htFtXX", "iyMsXX", "iy_ms_xx", "halfFullXX"],
+  htftx2: ["htFtX2", "iyMsX2", "iy_ms_x2", "halfFullX2"],
+  htft21: ["htFt21", "iyMs21", "iy_ms_21", "halfFull21"],
+  htft2x: ["htFt2X", "iyMs2X", "iy_ms_2x", "halfFull2X"],
+  htft22: ["htFt22", "iyMs22", "iy_ms_22", "halfFull22"],
+};
+
 const marketRules = {
   ms1: { label: "MS 1", keys: ["ms1", "homeWin", "home_win", "macSonucu1", "ms_1"], minOdd: 1.25, maxOdd: 6.50, scores: ["1-0", "2-0", "2-1"] },
   msx: { label: "MS X", keys: ["msx", "draw", "beraberlik", "macSonucuX", "ms_x"], minOdd: 2.20, maxOdd: 5.80, scores: ["0-0", "1-1", "2-2"] },
   ms2: { label: "MS 2", keys: ["ms2", "awayWin", "away_win", "macSonucu2", "ms_2"], minOdd: 1.25, maxOdd: 7.50, scores: ["0-1", "0-2", "1-2"] },
+
+  htft11: { label: "İY/MS 1/1", keys: HTFT_ODD_KEYS.htft11, minOdd: 1.45, maxOdd: 18, scores: ["1-0 / 2-0", "1-0 / 2-1"] },
+  htft12: { label: "İY/MS 1/2", keys: HTFT_ODD_KEYS.htft12, minOdd: 4.00, maxOdd: 50, scores: ["1-0 / 1-2", "1-0 / 2-3"] },
+  htftx1: { label: "İY/MS X/1", keys: HTFT_ODD_KEYS.htftx1, minOdd: 2.50, maxOdd: 25, scores: ["0-0 / 1-0", "1-1 / 2-1"] },
+  htft21: { label: "İY/MS 2/1", keys: HTFT_ODD_KEYS.htft21, minOdd: 4.00, maxOdd: 50, scores: ["0-1 / 2-1", "0-1 / 3-2"] },
+  htft22: { label: "İY/MS 2/2", keys: HTFT_ODD_KEYS.htft22, minOdd: 1.45, maxOdd: 20, scores: ["0-1 / 0-2", "0-1 / 1-2"] },
 
   firstHalfBttsYes: { label: "İlk Yarı KG Var", keys: ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "first_half_btts_yes", "firstHalfBttsYes_guess"], minOdd: 1.85, maxOdd: 5.50, scores: ["1-1", "2-1"] },
   firstHalfBttsNo: { label: "İlk Yarı KG Yok", keys: ["firstHalfBttsNo", "iyKgYok", "iy_kg_yok", "first_half_btts_no", "firstHalfBttsNo_guess"], minOdd: 1.35, maxOdd: 4.50, scores: ["0-0", "1-0"] },
@@ -429,6 +453,13 @@ const fairProbabilityFor = (fixture, key, selectedEntry) => {
     return normalizeProbabilitySet(["ms1", "msx", "ms2"].map((item) => ({
       key: item,
       ...oddEntryFor(fixture, marketRules[item].keys),
+    })), key);
+  }
+
+  if (HTFT_MARKET_KEYS.includes(key)) {
+    return normalizeProbabilitySet(HTFT_MARKET_KEYS.map((item) => ({
+      ...oddEntryFor(fixture, HTFT_ODD_KEYS[item]),
+      key: item,
     })), key);
   }
 
@@ -516,6 +547,54 @@ const poissonProbabilities = (fixture, memory, metrics) => {
   };
 };
 
+const resultSide = (homeGoals, awayGoals) => homeGoals > awayGoals ? "1" : homeGoals < awayGoals ? "2" : "x";
+
+const halfScenarioProbabilities = (poisson, metrics = {}, trendReliability = 1) => {
+  if (!poisson || !Number.isFinite(poisson.homeLambda) || !Number.isFinite(poisson.awayLambda)) return null;
+  const firstTrend = Number(metrics.firstHalfGoalTrend);
+  const secondTrend = Number(metrics.secondHalfGoalTrend);
+  const measuredShare = trendReliability >= 0.9 && Number.isFinite(firstTrend) && Number.isFinite(secondTrend) && firstTrend + secondTrend > 0
+    ? firstTrend / (firstTrend + secondTrend)
+    : 0.45;
+  const firstHalfShare = clamp(measuredShare, 0.35, 0.55);
+  const lambdas = {
+    firstHome: poisson.homeLambda * firstHalfShare,
+    firstAway: poisson.awayLambda * firstHalfShare,
+    secondHome: poisson.homeLambda * (1 - firstHalfShare),
+    secondAway: poisson.awayLambda * (1 - firstHalfShare),
+  };
+  const result = Object.fromEntries(HTFT_MARKET_KEYS.map((key) => [key, 0]));
+  let mass = 0;
+  for (let firstHome = 0; firstHome <= 6; firstHome += 1) {
+    for (let firstAway = 0; firstAway <= 6; firstAway += 1) {
+      const firstMass = poissonMass(lambdas.firstHome, firstHome) * poissonMass(lambdas.firstAway, firstAway);
+      for (let secondHome = 0; secondHome <= 6; secondHome += 1) {
+        for (let secondAway = 0; secondAway <= 6; secondAway += 1) {
+          const probability = firstMass
+            * poissonMass(lambdas.secondHome, secondHome)
+            * poissonMass(lambdas.secondAway, secondAway);
+          mass += probability;
+          const half = resultSide(firstHome, firstAway);
+          const full = resultSide(firstHome + secondHome, firstAway + secondAway);
+          result[`htft${half}${full}`] += probability;
+        }
+      }
+    }
+  }
+  if (!mass) return null;
+  Object.keys(result).forEach((key) => { result[key] = (result[key] / mass) * 100; });
+  result.firstHalfBttsYes = (1 - Math.exp(-lambdas.firstHome)) * (1 - Math.exp(-lambdas.firstAway)) * 100;
+  result.firstHalfBttsNo = 100 - result.firstHalfBttsYes;
+  result.secondHalfBttsYes = (1 - Math.exp(-lambdas.secondHome)) * (1 - Math.exp(-lambdas.secondAway)) * 100;
+  result.secondHalfBttsNo = 100 - result.secondHalfBttsYes;
+  return {
+    probabilities: result,
+    firstHalfShare: Number(firstHalfShare.toFixed(3)),
+    lambdas: Object.fromEntries(Object.entries(lambdas).map(([key, value]) => [key, Number(value.toFixed(2))])),
+    samples: poisson.samples,
+  };
+};
+
 const metricReliability = (fixture) => {
   const quality = cleanKey(fixture?.metric_quality || fixture?.metric_source || "");
   if (/proxy|odds|tahmin|inferred/.test(quality)) return 0;
@@ -539,6 +618,7 @@ const formProbabilities = (memory) => {
 
 const independentProbabilityFor = (fixture, key, metrics, memory) => {
   const poisson = poissonProbabilities(fixture, memory, metrics);
+  const halfScenario = halfScenarioProbabilities(poisson, metrics, metricReliability(fixture));
   const form = formProbabilities(memory);
   const values = [];
   const add = (value, weight, source) => {
@@ -567,21 +647,18 @@ const independentProbabilityFor = (fixture, key, metrics, memory) => {
           : key === "kgVar" ? bttsMemory
             : key === "kgYok" ? (bttsMemory === null ? null : 100 - bttsMemory) : null;
     add(homeAwayRate, teamReliability, "sonuç hafızası");
-  } else if (["firstHalfBttsYes", "firstHalfBttsNo"].includes(key)) {
-    const value = metrics.firstHalfGoalTrend;
-    add(key.endsWith("Yes") ? value : Number.isFinite(value) ? 100 - value : null, directWeight * 0.35, "ilk yarı eğilimi");
-  } else if (["secondHalfBttsYes", "secondHalfBttsNo"].includes(key)) {
-    const value = metrics.secondHalfGoalTrend;
-    add(key.endsWith("Yes") ? value : Number.isFinite(value) ? 100 - value : null, directWeight * 0.35, "ikinci yarı eğilimi");
+  } else if (["firstHalfBttsYes", "firstHalfBttsNo", "secondHalfBttsYes", "secondHalfBttsNo", ...HTFT_MARKET_KEYS].includes(key)) {
+    add(halfScenario?.probabilities?.[key], poisson?.reliability || 0, "yarı Poisson modeli");
   }
 
   const totalWeight = values.reduce((sum, item) => sum + item.weight, 0);
-  if (!totalWeight) return { probability: null, reliability: 0, sources: [], poisson };
+  if (!totalWeight) return { probability: null, reliability: 0, sources: [], poisson, halfScenario };
   return {
     probability: values.reduce((sum, item) => sum + (item.value * item.weight), 0) / totalWeight,
     reliability: clamp(totalWeight / 2.2, 0.1, 1),
     sources: values.map((item) => item.source),
     poisson,
+    halfScenario,
   };
 };
 
@@ -666,6 +743,10 @@ const buildMatchAnalysis = (fixture, candidate = null) => {
   if (estimatedProbability !== null) signals.push(`Birleşik tahmini olasılık %${Math.round(estimatedProbability)}.`);
   if (edge !== null) signals.push(`Model-piyasa farkı ${edge >= 0 ? "+" : ""}${edge.toFixed(1)} puan.`);
   if (independent.poisson) signals.push(`Poisson gol beklentisi ${independent.poisson.homeLambda}-${independent.poisson.awayLambda}.`);
+  if (independent.halfScenario) {
+    const share = Math.round(independent.halfScenario.firstHalfShare * 100);
+    signals.push(`Yarı Poisson dağılımı ilk yarı %${share}, ikinci yarı %${100 - share}; örnek ${independent.halfScenario.samples}.`);
+  }
   signals.push(...memory.signals.slice(0, 2));
   if (prior?.samples) signals.push(`Geçmiş market örneği ${prior.samples}; ham isabet %${Math.round(prior.hitRate * 100)}.`);
   if (candidate.entry.source === "raw_market_guess_odds") {
@@ -708,12 +789,15 @@ const buildMatchAnalysis = (fixture, candidate = null) => {
     probability_source: independent.sources,
     evidence_mode: hasIndependentEvidence ? "market_plus_independent" : "market_baseline",
     independent_evidence: hasIndependentEvidence,
+    official_market_complete: Boolean(fair?.complete && fair.source === "standard"),
+    trusted_odds: Boolean(fair?.complete && fair.source === "standard" && candidate.entry.source !== "raw_market_guess_odds"),
     model_version: MODEL_VERSION,
     score_type: "signal_strength",
     metrics: {
       ...m,
       memory,
       poisson: independent.poisson,
+      halfScenario: independent.halfScenario,
       homeScoredLast10Count: toCount(m.homeScoredLast10),
       awayScoredLast10Count: toCount(m.awayScoredLast10),
       homeConcededLast10Count: toCount(m.homeConcededLast10),
@@ -749,6 +833,8 @@ const analyzeMarket = (fixture, key) => {
     data_completeness: analysis.data_completeness,
     data_gap_risk: analysis.data_gap_risk,
     independent_evidence: analysis.independent_evidence,
+    official_market_complete: analysis.official_market_complete,
+    trusted_odds: analysis.trusted_odds,
     evidence_mode: analysis.evidence_mode,
     probability_source: analysis.probability_source,
     risk: riskForAnalysis(
@@ -776,6 +862,8 @@ const compactMarketAnalysis = (item) => item ? ({
   data_completeness: item.data_completeness,
   data_gap_risk: item.data_gap_risk,
   independent_evidence: item.independent_evidence,
+  official_market_complete: item.official_market_complete,
+  trusted_odds: item.trusted_odds,
   evidence_mode: item.evidence_mode,
   probability_source: item.probability_source,
   risk_level: item.risk,
@@ -818,13 +906,60 @@ const buildBttsAnalysis = (fixture) => {
   };
 };
 
+const specialProbabilityFloor = (key) => ({
+  firstHalfBttsYes: 8,
+  firstHalfBttsNo: 45,
+  secondHalfBttsYes: 12,
+  secondHalfBttsNo: 40,
+  htft11: 18,
+  htft12: 5,
+  htftx1: 8,
+  htft21: 5,
+  htft22: 15,
+}[key] || 100);
+
+const specialOpinionStatus = (item) => {
+  if (!item || item.odd_source_type === "raw_market_guess_odds" || !item.official_market_complete
+    || !item.trusted_odds || !item.independent_evidence || Number(item.data_completeness || 0) < 45) return "unavailable";
+  const passes = Number(item.model_score || 0) >= 50
+    && Number(item.estimated_probability || 0) >= specialProbabilityFloor(item.model_key)
+    && Number(item.edge_percent || 0) >= 0;
+  return passes ? "model_analysis" : "watch";
+};
+
+const buildSpecialMarketAnalysis = (fixture) => {
+  const requested = ["firstHalfBttsYes", "secondHalfBttsYes", "htft11", "htft12", "htftx1", "htft21", "htft22"];
+  const outcomes = {};
+  requested.forEach((key) => {
+    const evaluated = analyzeMarket(fixture, key);
+    const status = specialOpinionStatus(evaluated);
+    if (status === "unavailable") return;
+    outcomes[key] = { ...compactMarketAnalysis(evaluated), recommendation_status: status };
+  });
+  const keys = Object.keys(outcomes);
+  if (!keys.length) return null;
+  return {
+    available: true,
+    trusted_odds: true,
+    market_group: "half_scenarios",
+    market_group_label: "Yarı KG ve İlk Yarı / Maç Sonucu",
+    opinion_count: keys.length,
+    model_analysis_count: keys.filter((key) => outcomes[key].recommendation_status === "model_analysis").length,
+    model_version: MODEL_VERSION,
+    outcomes,
+  };
+};
+
 const candidateFor = (fixture, key, rule) => {
   const evaluated = analyzeMarket(fixture, key);
   if (!evaluated || evaluated.odd < rule.minOdd || evaluated.odd > rule.maxOdd) return null;
   const entry = { odd: evaluated.odd, source: evaluated.odd_source_type };
   const analysis = evaluated.analysis;
-  const probabilityFloor = key === "msx" ? 27 : ["ms1", "ms2"].includes(key) ? 34 : 42;
-  if (analysis.analysis_score < 42 || Number(analysis.estimated_probability || 0) < probabilityFloor) return null;
+  const special = ["firstHalfBttsYes", "firstHalfBttsNo", "secondHalfBttsYes", "secondHalfBttsNo", "htft11", "htft12", "htftx1", "htft21", "htft22"].includes(key);
+  const probabilityFloor = special ? specialProbabilityFloor(key) : key === "msx" ? 27 : ["ms1", "ms2"].includes(key) ? 34 : 42;
+  if (analysis.analysis_score < (special ? 50 : 42) || Number(analysis.estimated_probability || 0) < probabilityFloor) return null;
+  if (special && (!analysis.official_market_complete || !analysis.trusted_odds || !analysis.independent_evidence
+    || analysis.data_completeness < 45 || Number(analysis.edge_percent || 0) < 0)) return null;
   if (entry.source === "raw_market_guess_odds" && analysis.data_completeness < 45) return null;
   return {
     key,
@@ -908,6 +1043,7 @@ module.exports = {
   MODEL_VERSION,
   analyzeMarket,
   buildBttsAnalysis,
+  buildSpecialMarketAnalysis,
   scoreFixture,
   buildCouponAnalysis,
   buildMatchAnalysis,
@@ -916,6 +1052,8 @@ module.exports = {
     candidateFor,
     candidatesFor,
     fairProbabilityFor,
+    halfScenarioProbabilities,
+    HTFT_MARKET_KEYS,
     independentProbabilityFor,
     poissonProbabilities,
   },

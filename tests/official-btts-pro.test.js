@@ -45,6 +45,8 @@ assert.equal(payload.matches[0].btts_analysis.trusted_odds, true);
 assert.ok(payload.matches[0].btts_analysis.outcomes.bttsYes.estimated_probability > 0);
 assert.ok(payload.matches[0].btts_analysis.outcomes.bttsNo.estimated_probability > 0);
 assert.equal(payload.summary.btts_pair_count, 1);
+assert.equal(payload.summary.btts_opinion_count, 1, "official KG pair must stay visible when squad data is unknown");
+assert.equal(payload.matches[0].btts_analysis.recommended_market, "KG Var");
 assert.equal(payload.calibration.calibration_status, "collecting_probability_history");
 assert.equal(settle("KG Var", "2-1"), "won");
 assert.equal(settle("KG Var", "1-0"), "lost");

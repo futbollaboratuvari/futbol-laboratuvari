@@ -56,6 +56,8 @@ assert.match(ui, /FLCouponEligibility/);
 assert.match(ui, /pro-coupon-eligibility\.js/);
 assert.match(ui, /İzleme görüşü · Kupona uygun değil/);
 assert.match(ui, /Bileşik değerlendirme puanı sonuç olasılığı değildir/);
+assert.match(ui, /selectStrongestMatches\(data\?\.matches, 10\)/);
+assert.match(ui, /Yarı & İY\/MS gerçek görüşleri/);
 
 process.stdout.write("pro-coupon-eligibility.test.js OK\n");
 

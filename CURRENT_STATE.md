@@ -1,5 +1,19 @@
 # State
 
+2026-09-01
+
+Main focus: PRO robotun resmî yarı marketleri ve gerçek gerekçeli İY/MS analizleriyle genişletilmesi.
+
+Current half-scenario state:
+- Resmî İddaa akışındaki İlk Yarı/Maç Sonucu dokuzlu oran seti ile ilk ve ikinci yarı Karşılıklı Gol Var/Yok çiftleri kanonik PRO oranlarına bağlandı.
+- Robot 1/1, 1/2, 2/1 ile mevcut X/1 ve 2/2 marketlerini; takım sonuç hafızasından üretilen tam maç Poisson lambdalarını yarılara bölüp bütün devre/maç skor yollarını toplayarak analiz eder.
+- İlk ve ikinci yarı KG Var olasılıkları ayrı yarı lambdalarından hesaplanır. Proxy metrikler yarı dağılımını yönlendiremez; doğrulanmış yarı metriği yoksa ihtiyatlı %45/%55 zaman payı kullanılır.
+- Özel market görüşü yalnız tam resmî oran seti, marjı temizlenmiş piyasa olasılığı, en az iki takım için yeterli sonuç örneği, bağımsız yarı Poisson kanıtı ve en az 45/100 veri kapsamı varsa yayımlanır. Ham tahmin oranı veya tek taraflı oran yorum üretmez.
+- Özel Analiz menüsüne İY/MS 1/2 ve 2/1 eklendi; eski taraf-marketinden türetilen sahte İY/MS senaryosu kaldırıldı. Güçlü eşiği aşmayan gerçek analiz ayrı “İzleme görüşü” olarak kalır ve kupona eklenmez.
+- AI Şeffaflık Merkezi en fazla 10 maç gösterir. Seçili maçta doğrulanmış yarı/İY-MS görüşleri resmî oran, model olasılığı, veri kapsamı ve gerçek gerekçeleriyle gösterilir; veri yoksa yorum uydurulmadığı açıkça yazılır.
+- PRO, Özel Analiz, İddaa, güvenlik, takım istihbaratı ve üretim paketi testleri başarılıdır. Güvenli Vercel çıktısı 249 dosya/19.85 MB üretildi ve özel PRO indeksinin statik pakette bulunmadığı doğrulandı.
+- Bülten veri dosyaları, Kuponum, üyelik/ödeme, workflow, CNAME, DNS ve Supabase verisi değiştirilmedi. Kullanıcı onayıyla yalnız `codex/pro-robot-v14` önizleme dalı ve PR #29 güncellendi; `main` ve canlı üretim değiştirilmedi.
+
 2026-08-30
 
 Main focus: üyelik kodunun Özel Analiz alanında anlaşılır, kalıcı ve hak tüketmeyen doğrulama akışına dönüştürülmesi.
@@ -190,6 +204,15 @@ Current hosting and security state:
 - Yalnız başlamamış ve gerçek PRO sinyali bulunan kayıtlar gösterilir; kupona uygun kayıtlar önce, ardından model gücüne göre sıralanır.
 - Kod değiştirildiğinde veya erişim temizlendiğinde korumalı içerik de ana sayfadan kaldırılır.
 - Supabase `founder` üyeliği aktif ve 9999 hakla doğrulandı; veri tabanında üyelik kaydı değiştirilmedi.
+
+## 2026-09-01 — PRO Robot 13.4 resmi oran ve kadro zekâsı
+
+- Taze resmi İddaa oranları, en fazla 18 saatlik sakatlık/ceza/ilk 11 ve doğrulanmış takım verisiyle güvenli biçimde birleştirilir; resmi oran daima önceliklidir.
+- Korumalı PRO indeksinde isimli futbolcu ve kaynak doğrulama bilgileri artık sıkıştırma sırasında kaybolmaz.
+- Resmi akışta kupon uygunluğu ortak model gücü, veri kapsamı, olasılık, risk ve bağımsız kanıt kurallarıyla yeniden hesaplanır.
+- Yüksek kadro veya ilk 11 riski robot puanını düşürür ve kuponu kapatır; KG modeli takım riskinden etkilenir fakat başka bir markete dönüşmez.
+- Resmi sağlayıcının boş yanıtı güvenli hata sayılır ve son korumalı indeks yedeği kullanılır.
+- Bülten verileri, üyelik/ödeme akışı, workflow, CNAME, DNS ve Supabase şeması değiştirilmedi.
 
 ## 2026-08-30 — PRO merkez kart tasarımı
 

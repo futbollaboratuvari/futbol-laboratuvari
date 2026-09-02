@@ -79,6 +79,55 @@ test("kompakt metrikler büyük ham ve hafıza bloklarını dışarıda bırakı
   assert.equal(Object.hasOwn(metrics.poisson, "matrix"), false);
 });
 
+test("kompakt PRO kaydı doğrulanmış kadro ve isimli oyuncu ayrıntısını korur", () => {
+  const row = compactMatch({
+    date: "2026-09-01",
+    home: "Kadro Ev",
+    away: "Kadro Dep",
+    squad_risk_level: "Yüksek",
+    lineup_risk_level: "Orta",
+    team_status_verified_count: 2,
+    named_player_count: 1,
+    team_intelligence: {
+      squad_risk_level: "Yüksek",
+      lineup_risk_level: "Orta",
+      squad_verified_team_count: 2,
+      named_player_count: 1,
+      team_status: {
+        home: { availability_checked: true, suspended_players: [{ name: "Cezalı Oyuncu" }], verified_source_count: 1 },
+        away: { availability_checked: true, injured_players: [], verified_source_count: 1 },
+      },
+    },
+  }, {});
+  assert.equal(row.team_intelligence.verified_team_count, 2);
+  assert.equal(row.team_intelligence.named_player_count, 1);
+  assert.deepEqual(row.team_intelligence.home_status.suspended_players, ["Cezalı Oyuncu"]);
+  assert.equal(row.team_intelligence.away_status.availability_checked, true);
+});
+
+test("kompakt PRO kaydı yalnız doğrulanmış yarı ve İY/MS görüşlerini korur", () => {
+  const outcome = (key, label) => ({
+    key, label, odd: 4.2, model_score: 61, estimated_probability: 28,
+    market_probability: 22, edge_percent: 6, data_completeness: 68,
+    independent_evidence: true, official_market_complete: true, trusted_odds: true,
+    recommendation_status: "model_analysis", probability_source: ["yarı Poisson modeli"],
+    signals: ["Takım sonuç hafızası kullanıldı."],
+  });
+  const row = compactMatch({
+    home: "Yarı Ev", away: "Yarı Dep",
+    special_market_analysis: {
+      available: true, trusted_odds: true, model_version: "pro13-half-scenarios-v5",
+      outcomes: {
+        htft11: outcome("htft11", "İY/MS 1/1"),
+        htft12: { ...outcome("htft12", "İY/MS 1/2"), trusted_odds: false },
+      },
+    },
+  }, {});
+  assert.equal(row.special_market_analysis.outcomes.htft11.odd, 4.2);
+  assert.equal(row.special_market_analysis.outcomes.htft11.recommendation_status, "model_analysis");
+  assert.equal(row.special_market_analysis.outcomes.htft12, undefined);
+});
+
 test("tamamlanan PRO olasılıkları Brier skoru ile ölçülür", () => {
   const calibration = buildCalibration({
     completed_items: [
