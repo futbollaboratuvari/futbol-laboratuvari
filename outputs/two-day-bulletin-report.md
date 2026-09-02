@@ -3,15 +3,14 @@
 Gunler: 2026-09-02 / 2026-09-03
 Kaynak: fixtures.json
 Ham mac: 184
-Aktif mac: 179
+Aktif mac: 178
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 155
+Bultenden dusurulen mac: 6
+Bugun: 154
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-02 04:00 | Kolombiya Primera A Clausura | Fortaleza - Once Caldas | scheduled | -
 - 2026-09-02 12:30 | Japonya Lig Kupası 1.Tur | Sagamihara - Iwata | scheduled | -
 - 2026-09-02 12:30 | Japonya Lig Kupası 1.Tur | Vanraure - Tochigi City | scheduled | -
 - 2026-09-02 12:30 | Avustralya NPL Yeni Güney Galler Eleme Finalleri | Sutherland Sha - Manly United | scheduled | -

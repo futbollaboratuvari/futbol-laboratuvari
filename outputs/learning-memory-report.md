@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 02.09.2026 03:21:24
+Oluşturma: 02.09.2026 04:05:29
 
 ## Özet
 
 - Toplam tahmin: 1500
 - Bekleyen tahmin: 1076
-- Kazanan tahmin: 233
-- Kaybeden tahmin: 191
+- Kazanan tahmin: 234
+- Kaybeden tahmin: 190
 - Lig sayısı: 211
 - Seçenek sayısı: 7
 
@@ -24,15 +24,17 @@ Oluşturma: 02.09.2026 03:21:24
 
 - MS X: toplam 6, bekleyen 4, başarı %100, düz getiri %147, ağırlık 1
 - KG Var: toplam 2, bekleyen 1, başarı %100, düz getiri %87, ağırlık 1
-- 2.5 Üst: toplam 226, bekleyen 126, başarı %61, düz getiri %8, ağırlık 1
+- 2.5 Üst: toplam 226, bekleyen 127, başarı %61, düz getiri %7, ağırlık 1
 - MS 1: toplam 458, bekleyen 357, başarı %55, düz getiri %-9, ağırlık 1
-- MS 2: toplam 216, bekleyen 181, başarı %54, düz getiri %-9, ağırlık 1
-- 2.5 Alt: toplam 591, bekleyen 406, başarı %51, düz getiri %-15, ağırlık 1
+- MS 2: toplam 217, bekleyen 182, başarı %54, düz getiri %-9, ağırlık 1
+- 2.5 Alt: toplam 590, bekleyen 404, başarı %52, düz getiri %-14, ağırlık 1
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-02 | Ekvador Pro Lig | Deportivo Cuen - Guayaquil City | 2.5 Alt | pending | 56/100
+- 2026-09-02 | Kolombiya Kupa Son 16 Turu | Quindio - Llaneros | MS 2 | pending | 44/100
+- 2026-09-02 | Romanya Kupa Grup A | Minerul Lupeni - Uta Arad | 2.5 Üst | pending | 54/100
+- 2026-09-02 | Ekvador Pro Lig | Deportivo Cuen - Guayaquil City | 2.5 Alt | pending | 59/100
 - 2026-09-02 | Şili Premier Lig | Coquimbo Unido - Univ De Concepc | MS 1 | pending | 57/100
 - 2026-09-02 | Nikaragua Premier Lig Apertura | Jalapa - Rancho Santana | MS 1 | pending | 53/100
 - 2026-09-02 | Brezilya Serie A | Flamengo - Mirassol | 2.5 Alt | pending | 55/100
@@ -45,6 +47,4 @@ Oluşturma: 02.09.2026 03:21:24
 - 2026-09-02 | ABD USL Lig 1 | Fort Wayne - Richmond Kicker | MS 1 | pending | 57/100
 - 2026-09-02 | ABD USL Lig 1 | New York Cosmo - Sarasota Paradi | MS 1 | pending | 49/100
 - 2026-09-02 | ABD USL Lig 1 | Charlotte Inde - Portland Hearts | MS 1 | pending | 59/100
-- 2026-09-02 | Ekvador Pro Lig | Barcelona Gua - Indep. Jose Ter | 2.5 Alt | pending | 55/100
-- 2026-09-02 | ABD USL Lig 1 | Forward Madiso - One Knoxville | 2.5 Üst | pending | 62/100
 
