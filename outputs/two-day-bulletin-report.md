@@ -2,19 +2,15 @@
 
 Gunler: 2026-09-02 / 2026-09-03
 Kaynak: fixtures.json
-Ham mac: 184
-Aktif mac: 178
+Ham mac: 178
+Aktif mac: 174
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 154
+Bultenden dusurulen mac: 4
+Bugun: 150
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-02 12:30 | Japonya Lig Kupası 1.Tur | Sagamihara - Iwata | scheduled | -
-- 2026-09-02 12:30 | Japonya Lig Kupası 1.Tur | Vanraure - Tochigi City | scheduled | -
-- 2026-09-02 12:30 | Avustralya NPL Yeni Güney Galler Eleme Finalleri | Sutherland Sha - Manly United | scheduled | -
-- 2026-09-02 12:30 | Avustralya NPL Yeni Güney Galler Eleme Finalleri | Marconi - Nws Spirit | scheduled | -
 - 2026-09-02 13:00 | Japonya J1 Lig | Avispa Fukuoka - Urawa | scheduled | -
 - 2026-09-02 13:00 | Japonya J1 Lig | Tokyo Verdy - Vissel Kobe | scheduled | -
 - 2026-09-02 13:00 | Japonya J1 Lig | Hiroshima - Nagoya | scheduled | -

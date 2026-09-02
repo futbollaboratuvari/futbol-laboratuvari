@@ -1,13 +1,11 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 182
-Tam analiz: 163
-Eksik analiz: 19
+Toplam analiz: 178
+Tam analiz: 161
+Eksik analiz: 17
 
-- Sutherland Sha VS Manly United: eksik score, confidence
 - Inac Kobe Leon VS Parceiro Nagano: eksik score, confidence
-- Luzino VS Wisla Plock: eksik score, confidence
 - Nestos Chrisou VS Aek: eksik score, confidence
 - Gornik Zabrze VS Olimpia Grudzia: eksik score, confidence
 - Ml Vitebsk VS Belshina Bobrui: eksik score, confidence

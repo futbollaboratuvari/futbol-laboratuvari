@@ -1,22 +1,435 @@
 {
-  "generated_at": "2026-09-02T06:02:39.571Z",
+  "generated_at": "2026-09-02T09:44:59.767Z",
   "date": "2026-09-02",
-  "source": "PRO merkezi kupon uygunluk motoru",
-  "message": "1 doğrulanmış kupon adayı bulundu.",
-  "candidate_count": 1,
-  "eligibility_policy": "include_in_coupon + independent_evidence + model>=65 + completeness>=45 + probability>=42 + acceptable_risk",
+  "source": "High Value Coupon Engine",
+  "message": "",
   "coupons": {
     "balanced": {
       "coupon_name": "Dengeli Kupon",
       "coupon_type": "balanced",
-      "selected_matches": [],
-      "total_odds": "-",
-      "average_confidence_score": "-",
-      "combined_estimated_probability": null,
-      "risk_level": "-",
-      "short_description": "Doğrulanmış kupon adayı yok. Uygunluk eşikleri sağlanmadan kupon yayımlanmaz.",
-      "robot_reason": "Bağımsız kanıt, model gücü, veri kapsamı, olasılık ve risk kuralları birlikte sağlanmadı.",
-      "is_available": false
+      "selected_matches": [
+        {
+          "no": 1,
+          "match_name": "West Bromwich VS Charlton",
+          "league": "İngiltere Championship",
+          "start_time": "21:45",
+          "recommended_market": "2.5 Üst",
+          "confidence_score": "71%",
+          "model_score": 71,
+          "analysis_score": 71,
+          "include_in_coupon": true,
+          "independent_evidence": true,
+          "estimated_probability": 55.2,
+          "market_probability": 48.5,
+          "edge_percent": 6.7,
+          "data_completeness": 54,
+          "model_version": "pro13-btts-conditioned-v3",
+          "risk_level": "Orta",
+          "data_gap_risk": "Orta",
+          "estimated_odds": "1.75",
+          "available_odds": {
+            "ms1": "1.57",
+            "msx": "3.30",
+            "ms2": "4.27",
+            "over25": "1.75",
+            "under25": "1.65",
+            "over35": "-",
+            "under35": "-",
+            "bttsYes": "1.07",
+            "bttsNo": "1.15",
+            "firstHalfBttsYes": "-",
+            "firstHalfBttsNo": "-",
+            "secondHalfBttsYes": "-",
+            "secondHalfBttsNo": "-"
+          },
+          "raw_market_guess_odds": {
+            "ms1": 1.57,
+            "msx": 3.3,
+            "ms2": 4.27,
+            "under25": 1.65,
+            "over25": 1.75,
+            "bttsYes_guess": 1.07,
+            "bttsNo_guess": 1.15
+          },
+          "detail_market_candidates": [
+            {
+              "market_code": "15244",
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.57,
+                "msx": 3.3,
+                "ms2": 4.27
+              }
+            },
+            {
+              "market_code": "15244",
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.57,
+                "firstHalfX_guess": 3.3,
+                "firstHalf2_guess": 4.27
+              }
+            },
+            {
+              "market_code": "15244",
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.57,
+                "secondHalfX_guess": 3.3,
+                "secondHalf2_guess": 4.27
+              }
+            },
+            {
+              "market_code": "15244",
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.57,
+                "handicapX_guess": 3.3,
+                "handicap2_guess": 4.27
+              }
+            },
+            {
+              "market_code": "15258",
+              "market": "KG Var / Yok",
+              "values": {
+                "bttsYes_guess": 1.65,
+                "bttsNo_guess": 1.75
+              }
+            },
+            {
+              "market_code": "15258",
+              "market": "İlk Yarı KG Var / Yok",
+              "values": {
+                "firstHalfBttsYes_guess": 1.65,
+                "firstHalfBttsNo_guess": 1.75
+              }
+            },
+            {
+              "market_code": "15258",
+              "market": "İkinci Yarı KG Var / Yok",
+              "values": {
+                "secondHalfBttsYes_guess": 1.65,
+                "secondHalfBttsNo_guess": 1.75
+              }
+            },
+            {
+              "market_code": "15258",
+              "market": "0.5 Alt / Üst",
+              "values": {
+                "under05_guess": 1.65,
+                "over05_guess": 1.75
+              }
+            },
+            {
+              "market_code": "15258",
+              "market": "1.5 Alt / Üst",
+              "values": {
+                "under15_guess": 1.65,
+                "over15_guess": 1.75
+              }
+            },
+            {
+              "market_code": "15258",
+              "market": "2.5 Alt / Üst",
+              "values": {
+                "under25_guess": 1.65,
+                "over25_guess": 1.75
+              }
+            },
+            {
+              "market_code": "15258",
+              "market": "3.5 Alt / Üst",
+              "values": {
+                "under35_guess": 1.65,
+                "over35_guess": 1.75
+              }
+            },
+            {
+              "market_code": "15258",
+              "market": "4.5 Alt / Üst",
+              "values": {
+                "under45_guess": 1.65,
+                "over45_guess": 1.75
+              }
+            },
+            {
+              "market_code": "15258",
+              "market": "İlk Yarı 0.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder05_guess": 1.65,
+                "firstHalfOver05_guess": 1.75
+              }
+            },
+            {
+              "market_code": "15258",
+              "market": "İlk Yarı 1.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder15_guess": 1.65,
+                "firstHalfOver15_guess": 1.75
+              }
+            },
+            {
+              "market_code": "15258",
+              "market": "İkinci Yarı 0.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder05_guess": 1.65,
+                "secondHalfOver05_guess": 1.75
+              }
+            },
+            {
+              "market_code": "15258",
+              "market": "İkinci Yarı 1.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder15_guess": 1.65,
+                "secondHalfOver15_guess": 1.75
+              }
+            },
+            {
+              "market_code": "15258",
+              "market": "Ev Sahibi 1.5 Alt / Üst",
+              "values": {
+                "homeUnder15_guess": 1.65,
+                "homeOver15_guess": 1.75
+              }
+            },
+            {
+              "market_code": "15258",
+              "market": "Deplasman 1.5 Alt / Üst",
+              "values": {
+                "awayUnder15_guess": 1.65,
+                "awayOver15_guess": 1.75
+              }
+            },
+            {
+              "market_code": "15245",
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.07,
+                "msx": 1.15,
+                "ms2": 1.83
+              }
+            },
+            {
+              "market_code": "15245",
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.07,
+                "firstHalfX_guess": 1.15,
+                "firstHalf2_guess": 1.83
+              }
+            },
+            {
+              "market_code": "15245",
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.07,
+                "secondHalfX_guess": 1.15,
+                "secondHalf2_guess": 1.83
+              }
+            },
+            {
+              "market_code": "15245",
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.07,
+                "handicapX_guess": 1.15,
+                "handicap2_guess": 1.83
+              }
+            }
+          ],
+          "odds_source": "Robot ham veri havuzu",
+          "value_label": "Değerli",
+          "band_attention_level": "Orta",
+          "squad_risk_level": "Belirsiz",
+          "lineup_risk_level": "Belirsiz",
+          "named_player_count": 0,
+          "robot_reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Üst | Oran: 1.75 | Veri tipi: standard",
+          "learning_adjustment": {
+            "market": "2.5 Üst",
+            "league": "İngiltere Championship",
+            "delta": 0,
+            "weight": 1,
+            "applied": false,
+            "notes": [
+              "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+            ],
+            "market_bucket": {
+              "total": 227,
+              "pending": 133,
+              "won": 57,
+              "lost": 37,
+              "void": 0,
+              "success_rate": 0.606,
+              "profit_sample_count": 94,
+              "odds_sum": 163.11,
+              "profit_sum": 6.97,
+              "profit_square_sum": 72.2773,
+              "distinct_date_count": 4,
+              "average_odds": 1.735,
+              "flat_roi": 0.074,
+              "weight": 1,
+              "confidence_adjustment": 0,
+              "scope": "market",
+              "settled": 94,
+              "adjusted_success_rate": 0.581,
+              "confidence_low": 0.522,
+              "confidence_high": 0.685,
+              "evaluation_basis": "flat_roi",
+              "adjusted_roi": 0.056,
+              "roi_confidence_low": -0.075,
+              "roi_confidence_high": 0.223,
+              "policy_min_settled": 30,
+              "policy_min_distinct_dates": 7,
+              "sample_ready": true,
+              "temporal_ready": false,
+              "learning_active": false,
+              "learning_state": "neutral"
+            },
+            "league_bucket": {
+              "total": 21,
+              "pending": 5,
+              "won": 7,
+              "lost": 9,
+              "void": 0,
+              "success_rate": 0.438,
+              "profit_sample_count": 16,
+              "odds_sum": 29.62,
+              "profit_sum": -4.02,
+              "profit_square_sum": 12.624,
+              "distinct_date_count": 2,
+              "average_odds": 1.851,
+              "flat_roi": -0.251,
+              "weight": 1,
+              "confidence_adjustment": 0,
+              "scope": "league",
+              "settled": 16,
+              "adjusted_success_rate": 0.481,
+              "confidence_low": 0.258,
+              "confidence_high": 0.635,
+              "evaluation_basis": "flat_roi",
+              "adjusted_roi": -0.077,
+              "roi_confidence_low": -0.613,
+              "roi_confidence_high": 0.111,
+              "policy_min_settled": 24,
+              "policy_min_distinct_dates": 10,
+              "sample_ready": false,
+              "temporal_ready": false,
+              "learning_active": false,
+              "learning_state": "neutral"
+            },
+            "league_market_bucket": {
+              "total": 11,
+              "pending": 3,
+              "won": 3,
+              "lost": 5,
+              "void": 0,
+              "success_rate": 0.375,
+              "profit_sample_count": 8,
+              "odds_sum": 13.36,
+              "profit_sum": -3.14,
+              "profit_square_sum": 6.1628,
+              "distinct_date_count": 1,
+              "average_odds": 1.67,
+              "flat_roi": -0.392,
+              "weight": 1,
+              "confidence_adjustment": 0,
+              "scope": "league_market",
+              "settled": 8,
+              "adjusted_success_rate": 0.482,
+              "confidence_low": 0.161,
+              "confidence_high": 0.652,
+              "evaluation_basis": "flat_roi",
+              "adjusted_roi": -0.056,
+              "roi_confidence_low": -0.881,
+              "roi_confidence_high": 0.096,
+              "policy_min_settled": 30,
+              "policy_min_distinct_dates": 14,
+              "sample_ready": false,
+              "temporal_ready": false,
+              "learning_active": false,
+              "learning_state": "neutral"
+            },
+            "confidence_evaluation": {
+              "market": {
+                "scope": "market",
+                "settled": 94,
+                "success_rate": 0.606,
+                "adjusted_success_rate": 0.581,
+                "confidence_low": 0.522,
+                "confidence_high": 0.685,
+                "evaluation_basis": "flat_roi",
+                "profit_sample_count": 94,
+                "distinct_date_count": 4,
+                "flat_roi": 0.074,
+                "adjusted_roi": 0.056,
+                "roi_confidence_low": -0.075,
+                "roi_confidence_high": 0.223,
+                "policy_min_settled": 30,
+                "policy_min_distinct_dates": 7,
+                "sample_ready": true,
+                "temporal_ready": false,
+                "learning_active": false,
+                "learning_state": "neutral",
+                "weight": 1,
+                "confidence_adjustment": 0
+              },
+              "league": {
+                "scope": "league",
+                "settled": 16,
+                "success_rate": 0.438,
+                "adjusted_success_rate": 0.481,
+                "confidence_low": 0.258,
+                "confidence_high": 0.635,
+                "evaluation_basis": "flat_roi",
+                "profit_sample_count": 16,
+                "distinct_date_count": 2,
+                "flat_roi": -0.251,
+                "adjusted_roi": -0.077,
+                "roi_confidence_low": -0.613,
+                "roi_confidence_high": 0.111,
+                "policy_min_settled": 24,
+                "policy_min_distinct_dates": 10,
+                "sample_ready": false,
+                "temporal_ready": false,
+                "learning_active": false,
+                "learning_state": "neutral",
+                "weight": 1,
+                "confidence_adjustment": 0
+              },
+              "league_market": {
+                "scope": "league_market",
+                "settled": 8,
+                "success_rate": 0.375,
+                "adjusted_success_rate": 0.482,
+                "confidence_low": 0.161,
+                "confidence_high": 0.652,
+                "evaluation_basis": "flat_roi",
+                "profit_sample_count": 8,
+                "distinct_date_count": 1,
+                "flat_roi": -0.393,
+                "adjusted_roi": -0.056,
+                "roi_confidence_low": -0.881,
+                "roi_confidence_high": 0.096,
+                "policy_min_settled": 30,
+                "policy_min_distinct_dates": 14,
+                "sample_ready": false,
+                "temporal_ready": false,
+                "learning_active": false,
+                "learning_state": "neutral",
+                "weight": 1,
+                "confidence_adjustment": 0
+              }
+            }
+          }
+        }
+      ],
+      "total_odds": "1.75",
+      "average_confidence_score": "71%",
+      "combined_estimated_probability": 55.2,
+      "risk_level": "Düşük-Orta",
+      "short_description": "Daha güvenli maçlardan oluşan düşük-orta riskli laboratuvar kuponu.",
+      "robot_reason": "Dengeli Kupon; 1 maç, toplam oran 1.75, ortalama model gücü 71/100.",
+      "is_available": true
     },
     "high_value": {
       "coupon_name": "Yüksek Oranlı Kupon",
@@ -26,8 +439,8 @@
       "average_confidence_score": "-",
       "combined_estimated_probability": null,
       "risk_level": "-",
-      "short_description": "Doğrulanmış kupon adayı yok. Uygunluk eşikleri sağlanmadan kupon yayımlanmaz.",
-      "robot_reason": "Bağımsız kanıt, model gücü, veri kapsamı, olasılık ve risk kuralları birlikte sağlanmadı.",
+      "short_description": "Bugün için güncel veri henüz oluşmadı.",
+      "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
       "is_available": false
     },
     "risk_lab": {
@@ -38,8 +451,8 @@
       "average_confidence_score": "-",
       "combined_estimated_probability": null,
       "risk_level": "-",
-      "short_description": "Doğrulanmış kupon adayı yok. Uygunluk eşikleri sağlanmadan kupon yayımlanmaz.",
-      "robot_reason": "Bağımsız kanıt, model gücü, veri kapsamı, olasılık ve risk kuralları birlikte sağlanmadı.",
+      "short_description": "Bugün için güncel veri henüz oluşmadı.",
+      "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
       "is_available": false
     }
   }
