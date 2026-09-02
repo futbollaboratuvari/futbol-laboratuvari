@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-02T14:46:17.442544+00:00
+Tarih: 2026-09-02T18:08:59.867499+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 131
+- Kac mac bulundu: 59
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 131
+- Kac mac zaten vardi: 59
 - Ham veri havuzu toplam mac sayisi: 11075
 - Hedef tarih: 02.09.2026 Europe/Istanbul
 
@@ -16,59 +16,33 @@ Tarih: 2026-09-02T14:46:17.442544+00:00
 
 - ABD USL
 - ABD USL Lig 1
-- Almanya Bölgesel Lig Batı
-- Almanya Bölgesel Lig Kuzey
-- Almanya Bölgesel Lig Kuzey Doğu
 - Almanya DFB Kupası 1.Tur
 - Arjantin Kupa Son 16 Turu
 - Arjantin Ulusal Primera Lig
 - Avusturya Bundesliga
-- Bahreyn Premier Lig
-- Belarus Premier Lig
 - Belçika Pro Lig
 - Bosna-Hersek Premier Lig
 - Brezilya Kupa Çeyrek Final
 - Brezilya Serie A
-- Bulgaristan 1.Lig
 - CONCACAF Ligler Kupası Yarı Final
-- Danimarka Süperlig
 - Ekvador Pro Lig
-- Estonya Premium Lig
-- Güney Afrika PSL
-- Hollanda KNVB Kupası 1. Ön Eleme Turu
-- Hırvatistan 2.HNL
 - Kenya Premier Lig
 - Kolombiya Kupa Son 16 Turu
 - Kolombiya Primera A Clausura
-- Letonya Kupa Yarı Final
 - Malta Premier Lig Açılış
-- Mısır Premier Lig
 - Nikaragua Premier Lig Apertura
-- Norveç NM Kupası 1.Tur
 - Polonya Kupa 1.Tur
-- Portekiz U23 Ulusal Şampiyona
 - Romanya Kupa Grup C
-- Romanya Kupa Grup D
-- Rusya Kupa Premier Lig Yolu Grup A
-- Rusya Kupa Premier Lig Yolu Grup C
-- Slovenya 1.SNL
 - Slovenya Kupa 1.Tur
-- Suudi Arabistan 1.Lig
-- Türkiye TFF 1. Lig
 - UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu
 - Uruguay Kupa Ön Eleme Turu Grup 1
 - Uruguay Kupa Ön Eleme Turu Grup 6
 - Venezuela Premier Lig Clausura
 - Yunanistan Kupa Lig Aşaması
-- Çek Cumhuriyeti Czech Liga
 - İngiltere 1.Lig
 - İngiltere Championship
-- İngiltere Premier Lig Kupası Grup E
-- İran Persian Gulf Pro Lig
 - İskoçya Premiership
-- İsveç Kupa 2.Tur
 - İsviçre Süper Lig
-- İtalya Kupa 2.Tur
 - İtalya Serie C Kupası 2.Tur
 - Şili Premier Lig
 
@@ -127,8 +101,8 @@ Tarih: 2026-09-02T14:46:17.442544+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 59
-- Acilan detay: 59
+- Denenen Tumu alani: 33
+- Acilan detay: 33
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -141,26 +115,26 @@ Tarih: 2026-09-02T14:46:17.442544+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 02.09.2026 | 20:00 | Türkiye TFF 1. Lig | Sivasspor | Mardin 1969 | 22052 | 5 |
-| 02.09.2026 | 20:00 | Türkiye TFF 1. Lig | Fatih Karagümr | Kayserispor | 22035 | 5 |
 | 02.09.2026 | 21:45 | Almanya DFB Kupası 1.Tur | Osnabruck | B.Münih | 22178 | 3 |
-| 02.09.2026 | 19:00 | İtalya Kupa 2.Tur | Udinese | Unione V. | 24599 | 5 |
 | 02.09.2026 | 21:30 | Belçika Pro Lig | St. Truidense | Union St.G | 25336 | 5 |
+| 02.09.2026 | 22:00 | İngiltere Championship | Burnley | Middlesbrough | 15327 | 5 |
 | 02.09.2026 | 21:45 | İngiltere Championship | Millwall | Wrexham | 15099 | 5 |
 | 02.09.2026 | 21:45 | İngiltere Championship | West Bromwich | Charlton | 15244 | 5 |
 | 02.09.2026 | 21:45 | İngiltere Championship | Qpr | Cardiff | 15169 | 5 |
-| 02.09.2026 | 22:00 | İngiltere Championship | Burnley | Middlesbrough | 15327 | 5 |
+| 02.09.2026 | 21:45 | İskoçya Premiership | Celtic | Aberdeen | 01832 | 5 |
 | 02.09.2026 | 21:45 | İskoçya Premiership | Dundee | St Johnstone | 19111 | 5 |
 | 02.09.2026 | 21:45 | İskoçya Premiership | Motherwell | Dundee Utd | 19764 | 5 |
-| 02.09.2026 | 21:45 | İskoçya Premiership | Celtic | Aberdeen | 01832 | 5 |
-| 02.09.2026 | 21:45 | İskoçya Premiership | Kilmarnock | St Mirren | 19680 | 5 |
 | 02.09.2026 | 22:00 | İskoçya Premiership | Falkirk | Glasgow Rangers | 19888 | 5 |
+| 02.09.2026 | 21:45 | İskoçya Premiership | Kilmarnock | St Mirren | 19680 | 5 |
 | 02.09.2026 | 21:30 | Avusturya Bundesliga | Salzburg | Rapid Wien | 26598 | 5 |
-| 02.09.2026 | 19:30 | Avusturya Bundesliga | Austria Vienna | Wattens | 26778 | 5 |
-| 02.09.2026 | 21:00 | Danimarka Süperlig | Aarhus | Midtjylland | 03615 | 5 |
 | 02.09.2026 | 21:30 | İsviçre Süper Lig | Luzern | Vaduz | 27940 | 5 |
 | 02.09.2026 | 21:30 | İsviçre Süper Lig | Grasshoppers | St Gallen | 21238 | 5 |
 | 02.09.2026 | 21:30 | İsviçre Süper Lig | Thun | Lausanne | 21423 | 5 |
+| 02.09.2026 | 22:15 | Yunanistan Kupa Lig Aşaması | Paok | Ofi | 23729 | 5 |
+| 02.09.2026 | 21:30 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Juventus (K) (3) | (0) St. Pölten (K) | 16701 | 2 |
+| 03.09.2026 | 06:30 | CONCACAF Ligler Kupası Yarı Final | Club America | Monterrey | 25502 | 5 |
+| 03.09.2026 | 04:00 | CONCACAF Ligler Kupası Yarı Final | Toluca | Club Leon | 25454 | 5 |
+| 03.09.2026 | 01:30 | Brezilya Serie A | Flamengo | Mirassol | 17359 | 4 |
 
 ## Sonuc
 
