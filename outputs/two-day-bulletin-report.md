@@ -3,17 +3,14 @@
 Gunler: 2026-09-02 / 2026-09-03
 Kaynak: fixtures.json
 Ham mac: 184
-Aktif mac: 182
+Aktif mac: 179
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 158
+Bultenden dusurulen mac: 5
+Bugun: 155
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-02 02:15 | Uruguay Kupa Ön Eleme Turu Grup 1 | Torque - Danubio | scheduled | -
-- 2026-09-02 03:00 | Brezilya Kupa Çeyrek Final | Atletico Mg (1) - (1) Cruzeiro | scheduled | -
-- 2026-09-02 03:00 | Ekvador Pro Lig | Ldu Quito - Mushuc Runa | scheduled | -
 - 2026-09-02 04:00 | Kolombiya Primera A Clausura | Fortaleza - Once Caldas | scheduled | -
 - 2026-09-02 12:30 | Japonya Lig Kupası 1.Tur | Sagamihara - Iwata | scheduled | -
 - 2026-09-02 12:30 | Japonya Lig Kupası 1.Tur | Vanraure - Tochigi City | scheduled | -
