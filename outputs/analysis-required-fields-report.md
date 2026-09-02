@@ -1,11 +1,12 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 178
-Tam analiz: 161
-Eksik analiz: 17
+Toplam analiz: 182
+Tam analiz: 163
+Eksik analiz: 19
 
 - Inac Kobe Leon VS Parceiro Nagano: eksik score, confidence
+- Kelantan Wts VS Negeri Sembilan: eksik score, confidence
 - Nestos Chrisou VS Aek: eksik score, confidence
 - Gornik Zabrze VS Olimpia Grudzia: eksik score, confidence
 - Ml Vitebsk VS Belshina Bobrui: eksik score, confidence
@@ -21,4 +22,5 @@ Eksik analiz: 17
 - Juventus (K) (3) VS (0) St. Pölten (K): eksik score, confidence
 - Osnabruck VS B.Münih: eksik score, confidence
 - Celtic VS Aberdeen: eksik score, confidence
+- Flamengo VS Mirassol: eksik score, confidence
 - Real Esteli VS San Marcos: eksik score, confidence

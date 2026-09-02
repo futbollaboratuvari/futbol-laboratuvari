@@ -2,39 +2,15 @@
 
 Gunler: 2026-09-02 / 2026-09-03
 Kaynak: fixtures.json
-Ham mac: 188
-Aktif mac: 154
+Ham mac: 182
+Aktif mac: 130
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 34
-Bugun: 130
+Bultenden dusurulen mac: 52
+Bugun: 106
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-02 14:30 | Malezya FA Kupası Son 16 Turu | Sabah - Selangor Fa | scheduled | -
-- 2026-09-02 15:00 | Çin Halk Cumhuriyeti FA Kupası Çeyrek Final | Yunnan Yukun - Chongqing Tongl | scheduled | -
-- 2026-09-02 15:00 | Malezya FA Kupası Son 16 Turu | Melaka - Pulau Pinang | scheduled | -
-- 2026-09-02 15:00 | Kenya Premier Lig | Nairobi United - Kcb | scheduled | -
-- 2026-09-02 15:30 | Polonya Kupa 1.Tur | Luzino - Wisla Plock | scheduled | -
-- 2026-09-02 16:00 | İtalya Kupa 2.Tur | Sassuolo - Frosinone | scheduled | -
-- 2026-09-02 16:00 | Romanya Kupa Grup A | Minerul Lupeni - Uta Arad | scheduled | -
-- 2026-09-02 16:00 | Malezya FA Kupası Son 16 Turu | Kedah Fa - Imigresen | scheduled | -
-- 2026-09-02 16:00 | Güney Afrika 1.Lig | Black Aces - Leicesterfield | scheduled | -
-- 2026-09-02 16:00 | Uganda Premier Lig | Blacks Power - Police | scheduled | -
-- 2026-09-02 16:00 | Uganda Premier Lig | Ntugasaze - Maroons | scheduled | -
-- 2026-09-02 16:00 | Malezya FA Kupası Son 16 Turu | Kelantan Wts - Negeri Sembilan | scheduled | -
-- 2026-09-02 16:15 | Rusya Kupa Premier Lig Yolu Grup A | Orenburg - Rubin Kazan | scheduled | -
-- 2026-09-02 16:45 | Romanya Kupa Grup A | Botosani - Hunedoara | scheduled | -
-- 2026-09-02 17:00 | Türkiye TFF 1. Lig | Van Spor Fk - Batman Petrol | scheduled | -
-- 2026-09-02 17:00 | Yunanistan Kupa Lig Aşaması | Nestos Chrisou - Aek | scheduled | -
-- 2026-09-02 17:00 | Polonya Kupa 1.Tur | Gornik Zabrze - Olimpia Grudzia | scheduled | -
-- 2026-09-02 17:00 | Polonya Kupa 1.Tur | Ks Polkowice - Polonia Varşova | scheduled | -
-- 2026-09-02 17:00 | Polonya Kupa 1.Tur | Beskid Andrych - Slask Wroclaw I | scheduled | -
-- 2026-09-02 17:00 | Mısır Premier Lig | El Gounah - Al Mokawloon Al | scheduled | -
-- 2026-09-02 17:30 | İran Persian Gulf Pro Lig | Malavan Fc - Nassaji Mazanda | scheduled | -
-- 2026-09-02 17:30 | İran Persian Gulf Pro Lig | Zob Ahan Fc - Peykan | scheduled | -
-- 2026-09-02 17:30 | Estonya Kupa Son 16 Turu | Nomme United - Vaprus | scheduled | -
-- 2026-09-02 17:30 | Gürcistan David Kipiani Kupası Son 16 Turu | Samtredia - Fc Iberia | scheduled | -
 - 2026-09-02 18:00 | Polonya Kupa 1.Tur | Gornik Leczna - Stal Mielec | scheduled | -
 - 2026-09-02 18:00 | Romanya Kupa Grup C | Acs Gloria Bis - Csikszereda | scheduled | -
 - 2026-09-02 18:00 | İran Persian Gulf Pro Lig | Kheybar Khorra - Foolad Khuzesta | scheduled | -
