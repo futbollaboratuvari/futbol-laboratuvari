@@ -1,377 +1,1194 @@
 {
-  "generated_at": "2026-09-01T10:18:26.644Z",
+  "generated_at": "2026-09-02T05:35:24.146Z",
   "timezone": "Europe/Istanbul",
-  "source": "Maçkolik canlı veri bekleniyor",
-  "week_label": "2026-09-01 / 2026-09-07",
-  "total_source_matches": 132,
-  "active_match_count": 130,
-  "removed_finished_count": 2,
-  "removed_statuses": [
-    "finished",
-    "cancelled",
-    "postponed"
-  ],
+  "source": "Resmî haftalık Spor Toto programı + Futbol Laboratuvarı PRO 13",
+  "official_game_format_verified": true,
+  "official_bulletin": true,
+  "program_verification_status": "official_primary",
+  "bulletin_note": "15 maçlık program Spor Toto Teşkilat Başkanlığı resmî haftalık listesinden alınır; Futbol Laboratuvarı yalnız doğrulanmış kendi verisi geldiğinde model tahmini üretir.",
+  "engine_version": "spor-toto-weekly15-safe-pro13-v2",
+  "season": "2026/2027",
+  "week": 4,
+  "week_label": "2026/2027 4. Hafta",
+  "program_start": "2026-09-04",
+  "program_end": "2026-09-07",
   "match_count": 15,
+  "analysis_ready_count": 0,
+  "analysis_waiting_count": 15,
+  "source_match_count": 178,
+  "verification_sources": [
+    {
+      "name": "Spor Toto Teşkilat Başkanlığı",
+      "url": "https://www.sportoto.gov.tr/spor-toto-listeler",
+      "match_count": 15
+    }
+  ],
+  "coupon": {
+    "ready": false,
+    "total_columns": 0,
+    "single_count": 0,
+    "double_count": 0,
+    "triple_count": 0,
+    "average_confidence": 0,
+    "average_data_completeness": 0,
+    "unit_stake": null,
+    "estimated_cost": null,
+    "note": "15 maç için doğrulanmış analiz verisi bekleniyor; eksik veriyle kupon/maliyet üretilmez."
+  },
   "matches": [
     {
       "no": 1,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "14:35",
-      "league": "Çin Halk Cumhuriyeti FA Kupası Çeyrek Final",
-      "home": "Shandong Taish",
-      "away": "Shanghai Port",
-      "match": "Shandong Taish - Shanghai Port",
-      "one": 2.06,
-      "draw": 3.38,
-      "two": 2.34,
-      "oneOdd": 2.06,
-      "drawOdd": 3.38,
-      "twoOdd": 2.34,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-05",
+      "time": "17:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Erzurumspor FK",
+      "away": "Tümosan Konyaspor",
+      "match": "Erzurumspor FK - Tümosan Konyaspor",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 2,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "14:35",
-      "league": "Çin Halk Cumhuriyeti FA Kupası Çeyrek Final",
-      "home": "Dalian Zhixing",
-      "away": "Shanghai Shenhu",
-      "match": "Dalian Zhixing - Shanghai Shenhu",
-      "one": 2.39,
-      "draw": 3.27,
-      "two": 2.06,
-      "oneOdd": 2.39,
-      "drawOdd": 3.27,
-      "twoOdd": 2.06,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-06",
+      "time": "17:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Kasımpaşa",
+      "away": "Amed Sportif Faaliyetler",
+      "match": "Kasımpaşa - Amed Sportif Faaliyetler",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 3,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "14:35",
-      "league": "Çin Halk Cumhuriyeti FA Kupası Çeyrek Final",
-      "home": "Lanzhou Longyu",
-      "away": "Beijing Guoan",
-      "match": "Lanzhou Longyu - Beijing Guoan",
-      "one": 12.2,
-      "draw": 6.76,
-      "two": null,
-      "oneOdd": 12.2,
-      "drawOdd": 6.76,
-      "twoOdd": null,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-06",
+      "time": "17:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Arca Çorum FK",
+      "away": "Eyüpspor",
+      "match": "Arca Çorum FK - Eyüpspor",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 4,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "15:00",
-      "league": "İngiltere Professional Development Lig",
-      "home": "Fleetwood Town",
-      "away": "Millwall U21",
-      "match": "Fleetwood Town - Millwall U21",
-      "one": 1.93,
-      "draw": 3.8,
-      "two": 2.33,
-      "oneOdd": 1.93,
-      "drawOdd": 3.8,
-      "twoOdd": 2.33,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-05",
+      "time": "20:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Fenerbahçe",
+      "away": "Beşiktaş",
+      "match": "Fenerbahçe - Beşiktaş",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 5,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "15:00",
-      "league": "İngiltere Professional Development Lig",
-      "home": "Charlton Athle",
-      "away": "Wigan Athletic",
-      "match": "Charlton Athle - Wigan Athletic",
-      "one": 1.45,
-      "draw": 4.16,
-      "two": 3.57,
-      "oneOdd": 1.45,
-      "drawOdd": 4.16,
-      "twoOdd": 3.57,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-04",
+      "time": "20:00",
+      "league": "Türkiye Süper Lig",
+      "home": "İstanbul Başakşehir",
+      "away": "Galatasaray",
+      "match": "İstanbul Başakşehir - Galatasaray",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 6,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "15:00",
-      "league": "İngiltere Professional Development Lig",
-      "home": "Huddersfield T",
-      "away": "Queens Park Ran",
-      "match": "Huddersfield T - Queens Park Ran",
-      "one": 1.53,
-      "draw": 4.01,
-      "two": 3.25,
-      "oneOdd": 1.53,
-      "drawOdd": 4.01,
-      "twoOdd": 3.25,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-06",
+      "time": "20:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Kocaelispor",
+      "away": "Samsunspor",
+      "match": "Kocaelispor - Samsunspor",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 7,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "15:00",
-      "league": "İngiltere Professional Development Lig",
-      "home": "Hull City U21",
-      "away": "Swansea (B)",
-      "match": "Hull City U21 - Swansea (B)",
-      "one": 2.28,
-      "draw": 3.58,
-      "two": 2.02,
-      "oneOdd": 2.28,
-      "drawOdd": 3.58,
-      "twoOdd": 2.02,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-06",
+      "time": "20:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Trabzonspor",
+      "away": "Gençlerbirliği",
+      "match": "Trabzonspor - Gençlerbirliği",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 8,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "15:00",
-      "league": "İngiltere Professional Development Lig",
-      "home": "Bristol City U",
-      "away": "Sheffield Unite",
-      "match": "Bristol City U - Sheffield Unite",
-      "one": 2.45,
-      "draw": 3.56,
-      "two": 1.92,
-      "oneOdd": 2.45,
-      "drawOdd": 3.56,
-      "twoOdd": 1.92,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-07",
+      "time": "20:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Çaykur Rizespor",
+      "away": "Corendon Alanyaspor",
+      "match": "Çaykur Rizespor - Corendon Alanyaspor",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 9,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "15:15",
-      "league": "Malezya FA Kupası Son 16 Turu",
-      "home": "Dpmm Fc",
-      "away": "Terengganu",
-      "match": "Dpmm Fc - Terengganu",
-      "one": 3.75,
-      "draw": 3.42,
-      "two": 1.62,
-      "oneOdd": 3.75,
-      "drawOdd": 3.42,
-      "twoOdd": 1.62,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-07",
+      "time": "20:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Göztepe",
+      "away": "Gaziantep FK",
+      "match": "Göztepe - Gaziantep FK",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 10,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "15:30",
-      "league": "Polonya Kupa 1.Tur",
-      "home": "Mks Korona Kie",
-      "away": "Radomiak Radom",
-      "match": "Mks Korona Kie - Radomiak Radom",
-      "one": 10.5,
-      "draw": 6.59,
-      "two": 1.07,
-      "oneOdd": 10.5,
-      "drawOdd": 6.59,
-      "twoOdd": 1.07,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-06",
+      "time": "16:00",
+      "league": "İngiltere Premier Lig",
+      "home": "Everton",
+      "away": "Manchester United",
+      "match": "Everton - Manchester United",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 11,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "16:00",
-      "league": "Türkiye TFF 1. Lig",
-      "home": "Bandirmaspor",
-      "away": "Antalyaspor",
-      "match": "Bandirmaspor - Antalyaspor",
-      "one": 2.21,
-      "draw": 2.85,
-      "two": 2.44,
-      "oneOdd": 2.21,
-      "drawOdd": 2.85,
-      "twoOdd": 2.44,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-06",
+      "time": "18:30",
+      "league": "İngiltere Premier Lig",
+      "home": "Arsenal",
+      "away": "Chelsea",
+      "match": "Arsenal - Chelsea",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 12,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "16:00",
-      "league": "Romanya Kupa Grup B",
-      "home": "Spartac Bucure",
-      "away": "Concordia Chiaj",
-      "match": "Spartac Bucure - Concordia Chiaj",
-      "one": 7.2,
-      "draw": 4.78,
-      "two": 1.16,
-      "oneOdd": 7.2,
-      "drawOdd": 4.78,
-      "twoOdd": 1.16,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-05",
+      "time": "17:15",
+      "league": "İspanya La Liga",
+      "home": "Athletic Bilbao",
+      "away": "Atletico Madrid",
+      "match": "Athletic Bilbao - Atletico Madrid",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 13,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "16:00",
-      "league": "Uganda Premier Lig",
-      "home": "Nec",
-      "away": "Lugazi Municipa",
-      "match": "Nec - Lugazi Municipa",
-      "one": 1.46,
-      "draw": 2.83,
-      "two": 5.79,
-      "oneOdd": 1.46,
-      "drawOdd": 2.83,
-      "twoOdd": 5.79,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-05",
+      "time": "19:00",
+      "league": "İtalya Serie A",
+      "home": "Inter",
+      "away": "Napoli",
+      "match": "Inter - Napoli",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 14,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "16:00",
-      "league": "Kenya Premier Lig",
-      "home": "Gor Mahia",
-      "away": "Muranga All Sta",
-      "match": "Gor Mahia - Muranga All Sta",
-      "one": 1.3,
-      "draw": 3.45,
-      "two": 6.67,
-      "oneOdd": 1.3,
-      "drawOdd": 3.45,
-      "twoOdd": 6.67,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-05",
+      "time": "21:45",
+      "league": "İtalya Serie A",
+      "home": "Roma",
+      "away": "Atalanta",
+      "match": "Roma - Atalanta",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 15,
-      "week": "2026-09-01 / 2026-09-07",
-      "date": "2026-09-01",
-      "time": "16:00",
-      "league": "Uganda Premier Lig",
-      "home": "Entebbe Uppc",
-      "away": "Updf",
-      "match": "Entebbe Uppc - Updf",
-      "one": 1.46,
-      "draw": 3.11,
-      "two": 4.93,
-      "oneOdd": 1.46,
-      "drawOdd": 3.11,
-      "twoOdd": 4.93,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 4. Hafta",
+      "date": "2026-09-06",
+      "time": "21:45",
+      "league": "İtalya Serie A",
+      "home": "Juventus",
+      "away": "Milan",
+      "match": "Juventus - Milan",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %-, X %-, 2 %-."
+      ],
+      "model_version": "pro13-half-scenarios-v5",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0,
+          "count": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     }
-  ]
+  ],
+  "archive_enrichment": {
+    "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
+    "generated_at": "2026-09-02T05:28:17.574Z",
+    "archive_match_count": 11012,
+    "archive_ready_count": 0,
+    "distribution_ready_count": 0,
+    "analysis_available_count": 0
+  },
+  "evidence_summary": {
+    "archive_backed_match_count": 0,
+    "distribution_based_match_count": 0,
+    "market_baseline_match_count": 0,
+    "waiting_match_count": 15
+  }
 }

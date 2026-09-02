@@ -1,10 +1,13 @@
 const fs = require("fs");
 const https = require("https");
 const path = require("path");
+const { spawnSync } = require("child_process");
 
 const root = path.join(__dirname, "..");
 const file = path.join(root, "data", "spor_toto_weekly_program.json");
+const officialBrowserRunner = path.join(root, "bu-klas-r-i-in-basit", "src", "sportoto_official_runner.py");
 const SOURCES = [
+  { name: "Spor Toto Teşkilat Başkanlığı", url: "https://www.sportoto.gov.tr/spor-toto-listeler", parser: "official", authoritative: true },
   { name: "Spor Toto Formül 15", url: "https://sportotoformul15.com/", parser: "formul15" },
   { name: "Spor Toto Tahmin", url: "https://sportototahmin.com/blog", parser: "tahmin" },
 ];
@@ -41,6 +44,13 @@ const normalizeDistribution = (values) => {
   out["1"] += 100 - out["1"] - out.X - out["2"];
   return out;
 };
+const toIsoDate = (value) => {
+  const match = String(value || "").match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/);
+  return match ? `${match[3]}-${match[2].padStart(2, "0")}-${match[1].padStart(2, "0")}` : "";
+};
+const lastProgramDate = (program) => Array.isArray(program?.matches)
+  ? program.matches.map((match) => String(match.date || "")).filter(Boolean).sort().at(-1) || ""
+  : "";
 
 function get(url, redirects = 3) {
   return new Promise((resolve, reject) => {
@@ -82,6 +92,73 @@ function parseFormul15(html) {
   return matches;
 }
 
+function parseOfficial(html) {
+  const lines = textLines(html);
+  const seasonLine = lines.find((line) => /20\d{2}\s*\/\s*20\d{2}\s+Sezonu/i.test(line)) || "";
+  const weekLine = lines.find((line) => /^\d+\.\s*Hafta$/i.test(line)) || "";
+  const seasonMatch = seasonLine.match(/(20\d{2})\s*\/\s*(20\d{2})/);
+  const weekMatch = weekLine.match(/^(\d+)\./);
+  const matches = [];
+
+  for (let i = 0; i < lines.length && matches.length < 15; i += 1) {
+    const expectedNo = matches.length + 1;
+    if (lines[i] !== String(expectedNo)) continue;
+    let teams = null;
+    let date = "";
+    let time = "";
+    for (let j = i + 1; j <= Math.min(i + 24, lines.length - 1); j += 1) {
+      if (!teams) {
+        const teamMatch = lines[j].match(/^(.+?)\s+[—–-]\s+(.+)$/);
+        if (teamMatch && !/^\d{1,2}\.\d{1,2}\.\d{4}/.test(lines[j])) {
+          teams = [normalizeTeam(teamMatch[1]), normalizeTeam(teamMatch[2])];
+        }
+      }
+      if (!date) date = toIsoDate(lines[j]);
+      if (!time) {
+        const timeMatch = lines[j].match(/^(\d{1,2}:\d{2})$/);
+        if (timeMatch) time = timeMatch[1];
+      }
+      if (teams && date && time) break;
+      if (j > i + 1 && lines[j] === String(expectedNo + 1)) break;
+    }
+    if (!teams || !date || !time) continue;
+    matches.push({ no: expectedNo, date, time, home: teams[0], away: teams[1] });
+  }
+
+  return {
+    matches,
+    season: seasonMatch ? `${seasonMatch[1]}/${seasonMatch[2]}` : null,
+    week: weekMatch ? Number(weekMatch[1]) : null,
+  };
+}
+
+function readOfficialWithBrowser() {
+  if (!fs.existsSync(officialBrowserRunner)) return null;
+  const commands = [...new Set([process.env.PYTHON, "python3", "python"].filter(Boolean))];
+  for (const command of commands) {
+    const result = spawnSync(command, [officialBrowserRunner], {
+      cwd: root,
+      encoding: "utf8",
+      timeout: 45000,
+      env: { ...process.env, PYTHONUNBUFFERED: "1" },
+    });
+    if (result.error?.code === "ENOENT") continue;
+    if (result.status !== 0) {
+      const detail = String(result.stderr || result.error?.message || "browser runner failed").trim().split(/\r?\n/).at(-1);
+      console.warn(`Spor Toto official browser source skipped (${command}): ${detail}`);
+      return null;
+    }
+    try {
+      const parsed = JSON.parse(String(result.stdout || "").trim());
+      if (validate15(parsed.matches)) return parsed;
+    } catch (error) {
+      console.warn(`Spor Toto official browser output invalid: ${error.message}`);
+    }
+    return null;
+  }
+  return null;
+}
+
 function parseTahmin(html) {
   const lines = textLines(html);
   const header = lines.find((line) => /Spor Toto\s*·?\s*\d+\.\s*Hafta/i.test(line)) || lines.find((line) => /Spor Toto\s+\d+\.\s*Hafta/i.test(line)) || "";
@@ -119,6 +196,36 @@ function leagueFor(match, oldByKey) {
   return previous?.league || "Spor Toto";
 }
 
+function buildProgram(current, primary, fetched, verificationStatus) {
+  const oldByKey = new Map(current.matches.map((match) => [keyOf(match), match]));
+  const dates = primary.matches.map((match) => match.date).sort();
+  const crossCheck = fetched.find((source) => source !== primary && overlapCount(primary.matches, source.matches) === 15);
+  const week = primary.week || crossCheck?.week || current.week || null;
+  const season = primary.season || current.season || "";
+  const matches = primary.matches.map((match, index) => ({
+    no: index + 1,
+    date: match.date,
+    time: match.time,
+    league: leagueFor(match, oldByKey),
+    home: match.home,
+    away: match.away,
+    public_distribution: match.public_distribution || oldByKey.get(keyOf(match))?.public_distribution || null,
+  }));
+  return {
+    ...current,
+    season,
+    week,
+    week_label: week ? `${season} ${week}. Hafta`.trim() : current.week_label,
+    program_start: dates[0],
+    program_end: dates[dates.length - 1],
+    match_count: 15,
+    verification_status: verificationStatus,
+    verified_at: new Date().toISOString(),
+    sync_sources: fetched.map((source) => ({ name: source.name, url: source.url, match_count: source.matches.length })),
+    matches,
+  };
+}
+
 async function run() {
   const current = read(null);
   if (!current || !Array.isArray(current.matches) || current.matches.length !== 15) throw new Error("Mevcut doğrulanmış Spor Toto programı yok");
@@ -126,15 +233,49 @@ async function run() {
   for (const source of SOURCES) {
     try {
       const html = await get(source.url);
-      const parsed = source.parser === "formul15" ? { matches: parseFormul15(html), week: null } : parseTahmin(html);
+      let parsed = source.parser === "official"
+        ? parseOfficial(html)
+        : source.parser === "formul15" ? { matches: parseFormul15(html), week: null } : parseTahmin(html);
+      if (source.parser === "official" && !validate15(parsed.matches)) {
+        parsed = readOfficialWithBrowser() || parsed;
+      }
       console.log(`Spor Toto weekly source ${source.name}: ${parsed.matches.length} match.`);
       if (validate15(parsed.matches)) fetched.push({ ...source, ...parsed });
     } catch (error) {
+      if (source.parser === "official") {
+        const rendered = readOfficialWithBrowser();
+        if (rendered && validate15(rendered.matches)) {
+          console.log(`Spor Toto weekly source ${source.name}: ${rendered.matches.length} match (browser).`);
+          fetched.push({ ...source, ...rendered });
+          continue;
+        }
+      }
       console.warn(`Spor Toto weekly source skipped (${source.name}): ${error.message}`);
     }
   }
+
+  const official = fetched.find((source) => source.authoritative);
+  if (official) {
+    const officialEnd = lastProgramDate(official);
+    const currentEnd = lastProgramDate(current);
+    if (currentEnd && officialEnd < currentEnd) {
+      console.warn(`Spor Toto weekly sync: resmî kaynak eski program döndürdü (${officialEnd} < ${currentEnd}); mevcut program korundu.`);
+      return current;
+    }
+    const officialCrossChecks = fetched.filter((source) => source !== official && overlapCount(official.matches, source.matches) === 15);
+    const next = buildProgram(
+      current,
+      official,
+      [official, ...officialCrossChecks],
+      officialCrossChecks.length ? "official_cross_verified_auto" : "official_primary_auto",
+    );
+    write(next);
+    console.log(`Spor Toto weekly sync updated from official source: ${next.week_label}, ${next.matches.length} matches, cross-check=${officialCrossChecks.length}.`);
+    return next;
+  }
+
   if (fetched.length < 2) {
-    console.log("Spor Toto weekly sync: iki bağımsız 15 maç kaynağı doğrulanamadı; son sağlam program korundu.");
+    console.log("Spor Toto weekly sync: resmî kaynak ve iki bağımsız 15 maç kaynağı doğrulanamadı; son sağlam program korundu.");
     return current;
   }
   let bestA = null; let bestB = null; let bestOverlap = -1;
@@ -147,29 +288,11 @@ async function run() {
     return current;
   }
   const primary = bestA.parser === "formul15" ? bestA : bestB;
-  const oldByKey = new Map(current.matches.map((m) => [keyOf(m), m]));
-  const dates = primary.matches.map((m) => m.date).sort();
-  const week = bestA.week || bestB.week || current.week || null;
-  const matches = primary.matches.map((m, index) => ({
-    no: index + 1, date: m.date, time: m.time, league: leagueFor(m, oldByKey), home: m.home, away: m.away,
-    public_distribution: m.public_distribution || oldByKey.get(keyOf(m))?.public_distribution || null,
-  }));
-  const next = {
-    ...current,
-    week: week || current.week,
-    week_label: week ? `${current.season || ""} ${week}. Hafta`.trim() : current.week_label,
-    program_start: dates[0],
-    program_end: dates[dates.length - 1],
-    match_count: 15,
-    verification_status: "cross_verified_auto",
-    verified_at: new Date().toISOString(),
-    sync_sources: fetched.map((s) => ({ name: s.name, url: s.url, match_count: s.matches.length })),
-    matches,
-  };
+  const next = buildProgram(current, primary, [bestA, bestB], "cross_verified_auto");
   write(next);
-  console.log(`Spor Toto weekly sync updated: ${next.week_label}, ${matches.length} matches, consensus 15/15.`);
+  console.log(`Spor Toto weekly sync updated: ${next.week_label}, ${next.matches.length} matches, consensus 15/15.`);
   return next;
 }
 
 if (require.main === module) run().catch((error) => { console.error(error); process.exitCode = 1; });
-module.exports = { run, parseFormul15, parseTahmin, validate15, overlapCount, teamKey };
+module.exports = { run, parseOfficial, parseFormul15, parseTahmin, validate15, overlapCount, teamKey, lastProgramDate, readOfficialWithBrowser };

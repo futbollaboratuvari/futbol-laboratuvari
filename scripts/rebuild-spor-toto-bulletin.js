@@ -259,14 +259,17 @@ function run() {
   const matches = program.matches.map((programMatch) => outputMatch(programMatch, findFixture(programMatch, list)));
   matches.forEach((match) => { match.week = program.week_label; });
   const ready = matches.filter((match) => match.analysis_ready);
+  const officialBulletin = /^official(?:_|$)/i.test(String(program.verification_status || ""));
   const output = {
     generated_at: new Date().toISOString(),
     timezone: "Europe/Istanbul",
-    source: "Haftalık Spor Toto programı + Futbol Laboratuvarı PRO 13",
+    source: officialBulletin ? "Resmî haftalık Spor Toto programı + Futbol Laboratuvarı PRO 13" : "Haftalık Spor Toto programı + Futbol Laboratuvarı PRO 13",
     official_game_format_verified: true,
-    official_bulletin: false,
+    official_bulletin: officialBulletin,
     program_verification_status: program.verification_status || "verified_seed",
-    bulletin_note: "Spor Toto oyunu haftalık 15 maçtır. Bu liste haftalık program kaynaklarıyla çapraz doğrulanır; Futbol Laboratuvarı yalnız doğrulanmış kendi verisi geldiğinde model tahmini üretir.",
+    bulletin_note: officialBulletin
+      ? "15 maçlık program Spor Toto Teşkilat Başkanlığı resmî haftalık listesinden alınır; Futbol Laboratuvarı yalnız doğrulanmış kendi verisi geldiğinde model tahmini üretir."
+      : "Spor Toto oyunu haftalık 15 maçtır. Bu liste haftalık program kaynaklarıyla çapraz doğrulanır; Futbol Laboratuvarı yalnız doğrulanmış kendi verisi geldiğinde model tahmini üretir.",
     engine_version: `spor-toto-weekly15-${MODEL_VERSION}`,
     season: program.season,
     week: program.week,
@@ -277,7 +280,7 @@ function run() {
     analysis_ready_count: ready.length,
     analysis_waiting_count: 15 - ready.length,
     source_match_count: list.length,
-    verification_sources: program.sources || [],
+    verification_sources: program.sync_sources || program.sources || [],
     coupon: {
       ready: ready.length === 15,
       total_columns: ready.length === 15 ? 1 : 0,

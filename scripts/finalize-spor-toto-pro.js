@@ -169,7 +169,9 @@ function run() {
   const output = {
     ...current,
     generated_at: new Date().toISOString(),
-    source: "Haftalık 15 maç programı + Futbol Laboratuvarı PRO 13",
+    source: current.official_bulletin
+      ? "Resmî haftalık Spor Toto programı + Futbol Laboratuvarı PRO 13"
+      : "Haftalık 15 maç programı + Futbol Laboratuvarı PRO 13",
     engine_version: "spor-toto-weekly15-safe-pro13-v2",
     match_count: 15,
     analysis_ready_count: ready.length,
