@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T06:02:31.598Z",
+  "generated_at": "2026-09-02T11:15:36.131Z",
   "date": "2026-09-02",
   "source_count": 8,
-  "match_count": 178,
+  "match_count": 182,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
     {
@@ -1488,8 +1488,8 @@
       "match_name": "Yunnan Yukun VS Chongqing Tongl",
       "league": "Çin Halk Cumhuriyeti FA Kupası Çeyrek Final",
       "start_time": "15:00",
-      "recommended_market": "MS 1",
-      "data_gap_risk": "Yüksek",
+      "recommended_market": "2.5 Alt",
+      "data_gap_risk": "Orta",
       "source_plan": [
         {
           "name": "Mackolik",
@@ -1896,7 +1896,7 @@
       "match_name": "Blacks Power VS Police",
       "league": "Uganda Premier Lig",
       "start_time": "16:00",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1948,6 +1948,57 @@
       "league": "Uganda Premier Lig",
       "start_time": "16:00",
       "recommended_market": "2.5 Alt",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Kelantan Wts VS Negeri Sembilan",
+      "league": "Malezya FA Kupası Son 16 Turu",
+      "start_time": "16:00",
+      "recommended_market": "Değerli market yok",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2413,7 +2464,7 @@
       "match_name": "El Gounah VS Al Mokawloon Al",
       "league": "Mısır Premier Lig",
       "start_time": "17:00",
-      "recommended_market": "MS X",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -3076,7 +3127,58 @@
       "match_name": "Croatia Zmijav VS Bijelo Brdo",
       "league": "Hırvatistan 2.HNL",
       "start_time": "18:00",
-      "recommended_market": "MS 1",
+      "recommended_market": "2.5 Alt",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Bfc Daugavpils VS Auda",
+      "league": "Letonya Kupa Yarı Final",
+      "start_time": "18:00",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -3994,7 +4096,58 @@
       "match_name": "Benfica U23 VS Academico Viseu",
       "league": "Portekiz U23 Ulusal Şampiyona",
       "start_time": "19:00",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "East Riffa VS Sitra",
+      "league": "Bahreyn Premier Lig",
+      "start_time": "19:00",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -6351,6 +6504,57 @@
       ]
     },
     {
+      "match_name": "Preston North VS Wolverhampton U",
+      "league": "İngiltere Premier Lig Kupası Grup E",
+      "start_time": "21:00",
+      "recommended_market": "MS 2",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
       "match_name": "St. Truidense VS Union St.G",
       "league": "Belçika Pro Lig",
       "start_time": "21:30",
@@ -6936,7 +7140,7 @@
       "match_name": "Borac Banja Lu VS Zeljeznicar",
       "league": "Bosna-Hersek Premier Lig",
       "start_time": "21:30",
-      "recommended_market": "MS 1",
+      "recommended_market": "2.5 Üst",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -7752,8 +7956,8 @@
       "match_name": "Reading VS Mansfield",
       "league": "İngiltere 1.Lig",
       "start_time": "22:00",
-      "recommended_market": "2.5 Alt",
-      "data_gap_risk": "Orta",
+      "recommended_market": "MS 1",
+      "data_gap_risk": "Yüksek",
       "source_plan": [
         {
           "name": "Mackolik",
@@ -8415,8 +8619,8 @@
       "match_name": "Flamengo VS Mirassol",
       "league": "Brezilya Serie A",
       "start_time": "01:30",
-      "recommended_market": "2.5 Alt",
-      "data_gap_risk": "Orta",
+      "recommended_market": "Değerli market yok",
+      "data_gap_risk": "Yüksek",
       "source_plan": [
         {
           "name": "Mackolik",
@@ -8466,7 +8670,7 @@
       "match_name": "Quindio VS Llaneros",
       "league": "Kolombiya Kupa Son 16 Turu",
       "start_time": "01:30",
-      "recommended_market": "MS 2",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -9231,7 +9435,7 @@
       "match_name": "Toluca VS Club Leon",
       "league": "CONCACAF Ligler Kupası Yarı Final",
       "start_time": "04:00",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "2.5 Üst",
       "data_gap_risk": "Orta",
       "source_plan": [
         {
@@ -9384,7 +9588,7 @@
       "match_name": "Club America VS Monterrey",
       "league": "CONCACAF Ligler Kupası Yarı Final",
       "start_time": "06:30",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "2.5 Üst",
       "data_gap_risk": "Orta",
       "source_plan": [
         {
