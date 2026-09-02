@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 184
-Tam analiz: 165
+Toplam analiz: 182
+Tam analiz: 163
 Eksik analiz: 19
 
 - Sutherland Sha VS Manly United: eksik score, confidence
