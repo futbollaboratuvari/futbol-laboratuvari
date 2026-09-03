@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-03 / 2026-09-04
 Kaynak: fixtures.json
-Ham mac: 73
-Aktif mac: 60
+Ham mac: 97
+Aktif mac: 59
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 13
-Bugun: 47
+Bultenden dusurulen mac: 38
+Bugun: 46
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-03 18:00 | İtalya Serie C Kupası 2.Tur | Cittadella - Renate | scheduled | -
 - 2026-09-03 18:30 | Polonya Kupa 1.Tur | Gks Tychy - Lks Lodz | scheduled | -
 - 2026-09-03 18:30 | İran Persian Gulf Pro Lig | Fajr Sepasi - Mes Shahr-E Bab | scheduled | -
 - 2026-09-03 18:45 | Irak Premier Lig | Diala - Al Karma | scheduled | -

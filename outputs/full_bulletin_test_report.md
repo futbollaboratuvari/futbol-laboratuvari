@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 73
+- Scheduled match count: 59
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-03 / 2026-09-04 23:59
 
-- 2026-09-03 15:30 | Avia Swidnik - Ks Wieczysta Kr | scheduled
-- 2026-09-03 16:00 | Kataka - Bul | scheduled
-- 2026-09-03 16:30 | Baladiyyat - Mega Sport | scheduled
-- 2026-09-03 16:30 | Derot - Telecom Egypt | scheduled
-- 2026-09-03 16:30 | El Mansura - Kahraba Ismaili | scheduled
-- 2026-09-03 16:30 | El Saka El Had - Maleyet Kafr El | scheduled
-- 2026-09-03 16:30 | Haras El Hodoo - El Harby | scheduled
-- 2026-09-03 16:30 | La Viena Fc - Team | scheduled
-- 2026-09-03 17:00 | Isloch - Bate Borisov | scheduled
-- 2026-09-03 17:00 | Al Ahli - Qatar Sc | scheduled
+- 2026-09-03 18:30 | Fajr Sepasi - Mes Shahr-E Bab | scheduled
+- 2026-09-03 18:30 | Gks Tychy - Lks Lodz | scheduled
+- 2026-09-03 18:45 | Al Mosul - Al Zawraa | scheduled
+- 2026-09-03 18:45 | Diala - Al Karma | scheduled
+- 2026-09-03 18:55 | Al Feiha - Al Kholood | scheduled
+- 2026-09-03 19:00 | Thisted - Sonderjyske | scheduled
+- 2026-09-03 19:00 | Palermo - Mantova | scheduled
+- 2026-09-03 19:00 | Daugava Riga - Riga Fc | scheduled
+- 2026-09-03 19:00 | Banga - Fk Panevezys | scheduled
+- 2026-09-03 19:00 | Rakow Czestoch - Gornik Zabrze | scheduled

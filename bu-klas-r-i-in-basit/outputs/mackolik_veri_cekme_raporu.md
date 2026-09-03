@@ -1,20 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-03T11:16:59.221387+00:00
+Tarih: 2026-09-03T15:04:25.138474+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 73
+- Kac mac bulundu: 60
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 73
+- Kac mac zaten vardi: 60
 - Ham veri havuzu toplam mac sayisi: 11148
 - Hedef tarih: 03.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- Belarus Premier Lig
 - Belçika Pro Lig
 - Brezilya Kupa Çeyrek Final
 - Brezilya Serie B
@@ -30,7 +29,6 @@ Tarih: 2026-09-03T11:16:59.221387+00:00
 - Kolombiya Primera A Clausura
 - Letonya Kupa Yarı Final
 - Litvanya A Ligi
-- Litvanya Kupa Yarı Final
 - Macaristan NB I
 - Meksika Ascenso MX Apertura
 - Mısır 2. Lig
@@ -39,7 +37,6 @@ Tarih: 2026-09-03T11:16:59.221387+00:00
 - Polonya Ekstraklasa
 - Polonya Kupa 1.Tur
 - Romanya Kupa Grup A
-- Romanya Kupa Grup D
 - Rusya Kupa Premier Lig Yolu Grup B
 - Suudi Arabistan Pro Lig
 - Türkiye TFF 1. Lig
@@ -111,8 +108,8 @@ Tarih: 2026-09-03T11:16:59.221387+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 43
-- Acilan detay: 43
+- Denenen Tumu alani: 40
+- Acilan detay: 40
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -127,24 +124,24 @@ Tarih: 2026-09-03T11:16:59.221387+00:00
 |---|---|---|---|---|---|---:|
 | 03.09.2026 | 20:00 | Türkiye TFF 1. Lig | Bursaspor | İstanbulspor | 22103 | 5 |
 | 03.09.2026 | 20:00 | Türkiye TFF 1. Lig | Bodrum Fk | Esenler Erokspo | 22086 | 5 |
-| 03.09.2026 | 17:00 | Türkiye TFF 1. Lig | Iğdır Fk | Manisa Futbol K | 22069 | 5 |
 | 03.09.2026 | 22:00 | İspanya LaLiga | Real Sociedad | Celta Vigo | 05144 | 5 |
 | 03.09.2026 | 21:45 | Fransa Ligue 1 | Toulouse | Lille | 18947 | 5 |
 | 03.09.2026 | 22:00 | İtalya Kupa 2.Tur | Cagliari | Verona | 24707 | 5 |
 | 03.09.2026 | 19:00 | İtalya Kupa 2.Tur | Palermo | Mantova | 24653 | 5 |
-| 03.09.2026 | 19:30 | Suudi Arabistan Pro Lig | Neom Sc | Al Khaleej | 26344 | 5 |
-| 03.09.2026 | 18:55 | Suudi Arabistan Pro Lig | Al Feiha | Al Kholood | 26445 | 5 |
 | 03.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Diriyah | Al-Qadsiah | 14580 | 5 |
-| 03.09.2026 | 21:30 | Belçika Pro Lig | Gent | Oh Leuven | 25396 | 5 |
+| 03.09.2026 | 18:55 | Suudi Arabistan Pro Lig | Al Feiha | Al Kholood | 26445 | 5 |
+| 03.09.2026 | 19:30 | Suudi Arabistan Pro Lig | Neom Sc | Al Khaleej | 26344 | 5 |
 | 03.09.2026 | 21:30 | Belçika Pro Lig | Anderlecht | Kortrijk | 25394 | 5 |
+| 03.09.2026 | 21:30 | Belçika Pro Lig | Gent | Oh Leuven | 25396 | 5 |
 | 03.09.2026 | 21:45 | İskoçya Premiership | Hibernian | Hearts | 19942 | 5 |
 | 03.09.2026 | 21:00 | Danimarka Süperlig | Kopenhag | Nordsjaelland | 24809 | 5 |
 | 03.09.2026 | 20:00 | İsveç Allsvenskan | Mjallby | Djurgarden | 18172 | 5 |
 | 03.09.2026 | 19:00 | Polonya Ekstraklasa | Rakow Czestoch | Gornik Zabrze | 25228 | 5 |
 | 03.09.2026 | 21:30 | Polonya Ekstraklasa | Lech Poznan | Jagiellonia | 25282 | 5 |
-| 03.09.2026 | 21:30 | İsviçre Süper Lig | Basel | Sion | 21505 | 5 |
 | 03.09.2026 | 21:30 | İsviçre Süper Lig | Lugano | Servette | 21583 | 5 |
-| 03.09.2026 | 21:00 | Yunanistan Kupa Lig Aşaması | Panathinaikos | Niki Volos | 23741 | 4 |
+| 03.09.2026 | 21:30 | İsviçre Süper Lig | Basel | Sion | 21505 | 5 |
+| 03.09.2026 | 21:00 | Yunanistan Kupa Lig Aşaması | Panathinaikos | Niki Volos | 23741 | 5 |
+| 04.09.2026 | 02:00 | Brezilya Kupa Çeyrek Final | Gremio (0) | (0) Internacional | 18343 | 5 |
 
 ## Sonuc
 
