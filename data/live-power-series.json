@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T23:18:34.914Z",
+  "generated_at": "2026-09-03T01:26:18.409Z",
   "timezone": "Europe/Istanbul",
-  "status": "ok",
+  "status": "no_matching_verified_stats",
   "source": "ESPN Scoreboard + ESPN Core/Summary + TheSportsDB event stats",
   "source_verified": true,
   "sampling": {
@@ -13,19 +13,20 @@
     "paid_api_required": false
   },
   "summary": {
-    "espn_live_event_count": 19,
-    "site_candidate_count": 97,
-    "matched_fixture_count": 7,
-    "sampled_match_count": 6,
-    "stats_success_count": 6,
-    "scoreboard_stats_count": 6,
+    "espn_live_event_count": 15,
+    "site_candidate_count": 75,
+    "matched_fixture_count": 0,
+    "sampled_match_count": 0,
+    "stats_success_count": 0,
+    "scoreboard_stats_count": 0,
     "core_stats_count": 0,
     "summary_stats_count": 0,
     "thesportsdb_stats_count": 0,
-    "thesportsdb_verified_count": 4
+    "thesportsdb_verified_count": 0
   },
-  "message": "Canlı Team Power ve Goal Power yalnız kaynaklarda gerçekten gözlenen maç istatistiklerinden üretildi; veri kapsamı her snapshotta ayrıca gösterildi.",
-  "matches": [
+  "message": "Canlı maçlar bulundu ancak ayrıntılı doğrulanmış istatistik yeterli değildi; veri uydurulmadı.",
+  "matches": [],
+  "recent_matches": [
     {
       "fixture_id": "401913077",
       "provider_event_id": "401913077",
@@ -1312,9 +1313,7 @@
         }
       },
       "updated_at": "2026-09-02T23:18:34.914Z"
-    }
-  ],
-  "recent_matches": [
+    },
     {
       "fixture_id": "401903355",
       "provider_event_id": "401903355",
@@ -2211,14 +2210,5 @@
       "updated_at": "2026-09-02T17:53:03.444Z"
     }
   ],
-  "provider_errors": [
-    "401902570:core_home:sports.core.api.espn.com:http_400",
-    "401902570:core_competitor_home:sports.core.api.espn.com:http_400",
-    "401902570:core_away:sports.core.api.espn.com:http_400",
-    "401902570:core_competitor_away:sports.core.api.espn.com:http_400",
-    "401902570:summary:site.web.api.espn.com:http_400",
-    "401902570:summary:site.web.api.espn.com:http_404",
-    "401902570:summary:site.api.espn.com:http_403",
-    "401902570:summary:site.web.api.espn.com:unavailable"
-  ]
+  "provider_errors": []
 }
