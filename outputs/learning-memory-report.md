@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 04.09.2026 00:48:50
+Oluşturma: 04.09.2026 02:29:30
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1061
-- Kazanan tahmin: 248
-- Kaybeden tahmin: 191
-- Lig sayısı: 218
+- Bekleyen tahmin: 1103
+- Kazanan tahmin: 228
+- Kaybeden tahmin: 169
+- Lig sayısı: 231
 - Seçenek sayısı: 7
 
 ## Öğrenme Mantığı
@@ -22,29 +22,29 @@ Oluşturma: 04.09.2026 00:48:50
 
 ## En Güçlü Seçenek Hafızası
 
-- KG Var: toplam 2, bekleyen 1, başarı %100, düz getiri %87, ağırlık 1
-- MS X: toplam 10, bekleyen 7, başarı %67, düz getiri %64, ağırlık 1
-- 2.5 Üst: toplam 234, bekleyen 136, başarı %60, düz getiri %7, ağırlık 1
-- MS 2: toplam 213, bekleyen 173, başarı %60, düz getiri %0, ağırlık 1
-- MS 1: toplam 457, bekleyen 344, başarı %58, düz getiri %-4, ağırlık 1
-- 2.5 Alt: toplam 583, bekleyen 399, başarı %52, düz getiri %-13, ağırlık 1
+- MS 2: toplam 232, bekleyen 194, başarı %63, düz getiri %4, ağırlık 1
+- MS 1: toplam 477, bekleyen 372, başarı %59, düz getiri %-3, ağırlık 1
+- 2.5 Üst: toplam 220, bekleyen 130, başarı %58, düz getiri %2, ağırlık 1
+- 2.5 Alt: toplam 560, bekleyen 398, başarı %55, düz getiri %-8, ağırlık 1
+- MS X: toplam 9, bekleyen 7, başarı %50, düz getiri %24, ağırlık 1
+- KG Var: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-04 | Şili Premier Lig | Concepcion - Audax Italiano | 2.5 Üst | pending | 61/100
-- 2026-09-04 | Brezilya Serie B | Regatas - America Mineiro | MS 1 | pending | 57/100
-- 2026-09-04 | Ekvador Pro Lig | T.Universitari - Ldu Quito | 2.5 Üst | pending | 59/100
-- 2026-09-04 | Meksika Ascenso MX Apertura | Durango - Tlaxcala | 2.5 Üst | pending | 63/100
-- 2026-09-04 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Aurora | 2.5 Üst | pending | 57/100
-- 2026-09-04 | Honduras Ulusal Lig Apertura | Choloma - Olancho | MS 2 | pending | 52/100
-- 2026-09-04 | Kosta Rika Premier Lig Apertura | Liberia - Inter San Carlo | 2.5 Üst | pending | 53/100
-- 2026-09-04 | Meksika Liga MX Apertura | Fc Juarez - Pachuca | 2.5 Üst | pending | 62/100
-- 2026-09-04 | Meksika Ascenso MX Apertura | Ca La Paz - Zacatecas | MS 1 | pending | 50/100
-- 2026-09-04 | Avustralya NPL Tazmanya Büyük Final | South Hobart - Devonport City | MS 1 | pending | 45/100
-- 2026-09-04 | Avustralya NPL Victoria Eleme Final | Avondale Heigh - Preston Lions | 2.5 Alt | pending | 40/100
-- 2026-09-04 | İspanya Primera Lig RFEF Grup 1 | Ponferradina - Lugo | MS 1 | pending | 50/100
-- 2026-09-04 | Arjantin Premier Lig 2. Aşama | Rio Cuarto - Sarmiento | MS 1 | pending | 45/100
-- 2026-09-04 | Cezayir 1.Lig | Js Kabylie - Rouisset | MS 1 | pending | 57/100
-- 2026-09-04 | Peru Premier Lig Clausura | Alianza Atleti - Univ De Cajamar | MS 1 | pending | 55/100
+- 2026-09-04 | Galler Premier Lig 1.Aşama | Gap Connahs Qu - Haverfordwest | 2.5 Alt | pending | 48/100
+- 2026-09-04 | Galler Premier Lig 1.Aşama | Caernarfon - Flint Town | MS 1 | pending | 57/100
+- 2026-09-04 | Galler Premier Lig 1.Aşama | Cardiff Mu - Cambrian | MS 1 | pending | 51/100
+- 2026-09-04 | Galler Premier Lig 1.Aşama | Holywell Town - Trefelin | MS 2 | pending | 46/100
+- 2026-09-04 | Galler Premier Lig 1.Aşama | Briton Ferry - Airbus Uk | MS 1 | pending | 48/100
+- 2026-09-04 | Kuzey İrlanda Premiership | Larne Fc - Glentoran | 2.5 Alt | pending | 54/100
+- 2026-09-04 | İrlanda 1.Lig | Treaty Unt. - Wexford Youths | 2.5 Üst | pending | 53/100
+- 2026-09-04 | İrlanda 1.Lig | Finn Harps - Athlone | MS 2 | pending | 52/100
+- 2026-09-04 | İrlanda 1.Lig | Cobh Ramblers - Ucd | 2.5 Alt | pending | 49/100
+- 2026-09-04 | İrlanda 1.Lig | Bray Wanderers - Cork City | MS 2 | pending | 49/100
+- 2026-09-04 | Kuzey İrlanda Championship | Annagh United - Ards Fc | MS 1 | pending | 53/100
+- 2026-09-04 | Kuzey İrlanda Championship | Newry City Afc - Armagh | MS 1 | pending | 55/100
+- 2026-09-04 | İngiltere Ulusal Lig | Altrincham - Eastleigh | 2.5 Alt | pending | 60/100
+- 2026-09-04 | Galler FAW Championship Kuzey | Ruthin Town - Caersws | MS 2 | pending | 48/100
+- 2026-09-04 | Galler FAW Championship Güney | Trethomas Blue - Caerphilly Athl | MS 1 | pending | 46/100
 
