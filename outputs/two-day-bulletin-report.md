@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-03 / 2026-09-04
 Kaynak: fixtures.json
-Ham mac: 97
-Aktif mac: 75
+Ham mac: 86
+Aktif mac: 73
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 22
-Bugun: 62
+Bultenden dusurulen mac: 13
+Bugun: 60
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-03 04:25 | Kolombiya Primera A Clausura | Santa Fe - Los Millionario | scheduled | -
-- 2026-09-03 06:30 | CONCACAF Ligler Kupası Yarı Final | Club America - Monterrey | scheduled | -
 - 2026-09-03 15:30 | Polonya Kupa 1.Tur | Avia Swidnik - Ks Wieczysta Kr | scheduled | -
 - 2026-09-03 16:00 | Uganda Premier Lig | Kataka - Bul | scheduled | -
 - 2026-09-03 16:30 | Mısır 2. Lig | La Viena Fc - Team | scheduled | -
