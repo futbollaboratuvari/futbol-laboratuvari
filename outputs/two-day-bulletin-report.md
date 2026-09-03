@@ -2,20 +2,15 @@
 
 Gunler: 2026-09-03 / 2026-09-04
 Kaynak: fixtures.json
-Ham mac: 96
-Aktif mac: 80
+Ham mac: 97
+Aktif mac: 75
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 16
-Bugun: 67
+Bultenden dusurulen mac: 22
+Bugun: 62
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-03 03:30 | Brezilya Kupa Çeyrek Final | Vitoria Bahia (0) - (1) Vasco Da Gama | scheduled | -
-- 2026-09-03 03:30 | Brezilya Kupa Çeyrek Final | Santos (0) - (3) Palmeiras | scheduled | -
-- 2026-09-03 03:30 | Şili Premier Lig | Deportes Limac - Atletico Nublen | scheduled | -
-- 2026-09-03 04:00 | CONCACAF Ligler Kupası Yarı Final | Toluca - Club Leon | scheduled | -
-- 2026-09-03 04:00 | Nikaragua Premier Lig Apertura | Real Esteli - San Marcos | scheduled | -
 - 2026-09-03 04:25 | Kolombiya Primera A Clausura | Santa Fe - Los Millionario | scheduled | -
 - 2026-09-03 06:30 | CONCACAF Ligler Kupası Yarı Final | Club America - Monterrey | scheduled | -
 - 2026-09-03 15:30 | Polonya Kupa 1.Tur | Avia Swidnik - Ks Wieczysta Kr | scheduled | -
