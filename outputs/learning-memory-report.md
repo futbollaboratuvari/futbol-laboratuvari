@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 03.09.2026 09:13:09
+Oluşturma: 03.09.2026 12:58:09
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1070
-- Kazanan tahmin: 242
-- Kaybeden tahmin: 188
+- Bekleyen tahmin: 1054
+- Kazanan tahmin: 251
+- Kaybeden tahmin: 195
 - Lig sayısı: 215
 - Seçenek sayısı: 7
 
@@ -22,12 +22,12 @@ Oluşturma: 03.09.2026 09:13:09
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 9, bekleyen 7, başarı %100, düz getiri %147, ağırlık 1
 - KG Var: toplam 2, bekleyen 1, başarı %100, düz getiri %87, ağırlık 1
-- 2.5 Üst: toplam 233, bekleyen 133, başarı %62, düz getiri %10, ağırlık 1
-- MS 2: toplam 215, bekleyen 176, başarı %62, düz getiri %3, ağırlık 1
-- MS 1: toplam 454, bekleyen 345, başarı %58, düz getiri %-5, ağırlık 1
-- 2.5 Alt: toplam 586, bekleyen 407, başarı %50, düz getiri %-16, ağırlık 1
+- MS X: toplam 9, bekleyen 6, başarı %67, düz getiri %64, ağırlık 1
+- 2.5 Üst: toplam 233, bekleyen 132, başarı %61, düz getiri %9, ağırlık 1
+- MS 2: toplam 215, bekleyen 175, başarı %60, düz getiri %0, ağırlık 1
+- MS 1: toplam 454, bekleyen 340, başarı %58, düz getiri %-5, ağırlık 1
+- 2.5 Alt: toplam 586, bekleyen 399, başarı %51, düz getiri %-15, ağırlık 1
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
@@ -43,7 +43,7 @@ Oluşturma: 03.09.2026 09:13:09
 - 2026-09-03 | Ürdün Premier Lig | Al Baqaa - Doqarah | MS 2 | pending | 48/100
 - 2026-09-03 | Ekvador Pro Lig | Univ Catolica - Aucas | 2.5 Üst | pending | 60/100
 - 2026-09-03 | Venezuela Premier Lig Clausura | Academia Anzoa - Monagas | 2.5 Üst | pending | 55/100
-- 2026-09-03 | Ekvador Pro Lig | Deportivo Cuen - Guayaquil City | MS 1 | pending | 56/100
+- 2026-09-03 | Ekvador Pro Lig | Deportivo Cuen - Guayaquil City | MS 1 | won | 56/100
 - 2026-09-03 | Ekvador Pro Lig | Libertad - Emelec | 2.5 Alt | pending | 65/100
 - 2026-09-03 | Kolombiya Primera A Clausura | Pereira - Independiente M | 2.5 Alt | pending | 54/100
 - 2026-09-03 | Meksika Ascenso MX Apertura | Tepatitlan De - Dorados | 2.5 Alt | pending | 50/100

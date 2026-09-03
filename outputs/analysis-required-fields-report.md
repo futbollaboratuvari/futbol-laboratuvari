@@ -1,12 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 86
-Tam analiz: 81
-Eksik analiz: 5
+Toplam analiz: 73
+Tam analiz: 70
+Eksik analiz: 3
 
-- Real Esteli VS San Marcos: eksik score, confidence
 - Fc Bacau VS Universitatea C: eksik score, confidence
-- Daugava Riga VS Riga Fc: eksik score, confidence
 - Thisted VS Sonderjyske: eksik score, confidence
 - Panathinaikos VS Niki Volos: eksik score, confidence
