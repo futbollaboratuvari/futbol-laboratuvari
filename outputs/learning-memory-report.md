@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 03.09.2026 21:41:15
+Oluşturma: 04.09.2026 00:25:27
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1056
-- Kazanan tahmin: 250
-- Kaybeden tahmin: 194
-- Lig sayısı: 215
+- Bekleyen tahmin: 1061
+- Kazanan tahmin: 248
+- Kaybeden tahmin: 191
+- Lig sayısı: 218
 - Seçenek sayısı: 7
 
 ## Öğrenme Mantığı
@@ -23,28 +23,28 @@ Oluşturma: 03.09.2026 21:41:15
 ## En Güçlü Seçenek Hafızası
 
 - KG Var: toplam 2, bekleyen 1, başarı %100, düz getiri %87, ağırlık 1
-- MS X: toplam 9, bekleyen 6, başarı %67, düz getiri %64, ağırlık 1
-- 2.5 Üst: toplam 232, bekleyen 132, başarı %61, düz getiri %8, ağırlık 1
-- MS 2: toplam 215, bekleyen 175, başarı %60, düz getiri %0, ağırlık 1
-- MS 1: toplam 452, bekleyen 338, başarı %58, düz getiri %-5, ağırlık 1
-- 2.5 Alt: toplam 589, bekleyen 403, başarı %52, düz getiri %-14, ağırlık 1
+- MS X: toplam 10, bekleyen 7, başarı %67, düz getiri %64, ağırlık 1
+- 2.5 Üst: toplam 234, bekleyen 136, başarı %60, düz getiri %7, ağırlık 1
+- MS 2: toplam 213, bekleyen 173, başarı %60, düz getiri %0, ağırlık 1
+- MS 1: toplam 457, bekleyen 344, başarı %58, düz getiri %-4, ağırlık 1
+- 2.5 Alt: toplam 583, bekleyen 399, başarı %52, düz getiri %-13, ağırlık 1
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-03 | Venezuela Premier Lig Clausura | Estudiantes Fc - Ucv | 2.5 Alt | pending | 61/100
-- 2026-09-03 | Meksika Ascenso MX Apertura | Tepatitlan De - Dorados | 2.5 Üst | pending | 56/100
-- 2026-09-03 | İsviçre Süper Lig | Lugano - Servette | 2.5 Alt | pending | 49/100
-- 2026-09-03 | İskoçya Premiership | Hibernian - Hearts | 2.5 Alt | pending | 49/100
-- 2026-09-03 | Kolombiya Primera A Clausura | America De Cal - Alianza Petrole | 2.5 Üst | pending | 53/100
-- 2026-09-03 | Brezilya Kupa Çeyrek Final | Gremio (0) - (0) Internacional | 2.5 Alt | pending | 48/100
-- 2026-09-03 | Venezuela Premier Lig Clausura | Academia Puert - Deportivo La Gu | MS 1 | pending | 48/100
-- 2026-09-03 | Nikaragua Premier Lig Apertura | Managua - Diriangen | 2.5 Alt | pending | 52/100
-- 2026-09-03 | Rusya Kupa Premier Lig Yolu Grup B | Dinamo Moskova - Akhmat Grozny | 2.5 Alt | pending | 50/100
-- 2026-09-03 | Romanya Kupa Grup A | Asu Poli Timiş - Rapid Bükreş | 2.5 Üst | pending | 53/100
-- 2026-09-03 | İtalya Kupa 2.Tur | Palermo - Mantova | MS 1 | pending | 56/100
-- 2026-09-03 | Litvanya A Ligi | Banga - Fk Panevezys | 2.5 Alt | pending | 50/100
-- 2026-09-03 | Kolombiya Primera A Clausura | Pereira - Independiente M | MS 2 | pending | 54/100
-- 2026-09-03 | Cezayir 1.Lig | Js El Biar - Oued Akbou | MS 1 | pending | 44/100
-- 2026-09-03 | Irak Premier Lig | Al Mosul - Al Zawraa | MS 2 | pending | 49/100
+- 2026-09-04 | Şili Premier Lig | Concepcion - Audax Italiano | 2.5 Üst | pending | 61/100
+- 2026-09-04 | Brezilya Serie B | Regatas - America Mineiro | MS 1 | pending | 57/100
+- 2026-09-04 | Ekvador Pro Lig | T.Universitari - Ldu Quito | 2.5 Üst | pending | 59/100
+- 2026-09-04 | Meksika Ascenso MX Apertura | Durango - Tlaxcala | 2.5 Üst | pending | 63/100
+- 2026-09-04 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Aurora | 2.5 Üst | pending | 57/100
+- 2026-09-04 | Honduras Ulusal Lig Apertura | Choloma - Olancho | MS 2 | pending | 52/100
+- 2026-09-04 | Kosta Rika Premier Lig Apertura | Liberia - Inter San Carlo | 2.5 Üst | pending | 53/100
+- 2026-09-04 | Meksika Liga MX Apertura | Fc Juarez - Pachuca | 2.5 Üst | pending | 62/100
+- 2026-09-04 | Meksika Ascenso MX Apertura | Ca La Paz - Zacatecas | MS 1 | pending | 50/100
+- 2026-09-04 | Avustralya NPL Tazmanya Büyük Final | South Hobart - Devonport City | MS 1 | pending | 45/100
+- 2026-09-04 | Avustralya NPL Victoria Eleme Final | Avondale Heigh - Preston Lions | 2.5 Alt | pending | 40/100
+- 2026-09-04 | İspanya Primera Lig RFEF Grup 1 | Ponferradina - Lugo | MS 1 | pending | 50/100
+- 2026-09-04 | Arjantin Premier Lig 2. Aşama | Rio Cuarto - Sarmiento | MS 1 | pending | 45/100
+- 2026-09-04 | Cezayir 1.Lig | Js Kabylie - Rouisset | MS 1 | pending | 57/100
+- 2026-09-04 | Peru Premier Lig Clausura | Alianza Atleti - Univ De Cajamar | MS 1 | pending | 55/100
 

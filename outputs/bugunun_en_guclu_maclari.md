@@ -4,76 +4,54 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-03T18:41:07.629Z
+- Güncelleme: 2026-09-03T21:25:21.047Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Neom Sc VS Al Khaleej | Suudi Arabistan Pro Lig | 19:30 | 2.5 Alt | 1.82 | 64 | Sadece izleme | Değerli | Orta | Orta | scheduled |
-| Dinamo Moskova VS Akhmat Grozny | Rusya Kupa Premier Lig Yolu Grup B | 19:30 | 2.5 Alt | 1.79 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Bodrum Fk VS Esenler Erokspo | Türkiye TFF 1. Lig | 20:00 | 2.5 Alt | 1.56 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Bursaspor VS İstanbulspor | Türkiye TFF 1. Lig | 20:00 | MS 1 | 1.29 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Mjallby VS Djurgarden | İsveç Allsvenskan | 20:00 | MS 2 | 1.48 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Al Ahly VS Smouha | Mısır Premier Lig | 20:00 | 2.5 Alt | 1.46 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Express VS Kampala City | Uganda Premier Lig | 20:00 | MS 2 | 1.72 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Asu Poli Timiş VS Rapid Bükreş | Romanya Kupa Grup A | 20:30 | 2.5 Üst | 1.61 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Gyor VS Ferencvaros | Macaristan NB I | 20:30 | MS 2 | 1.62 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Diriyah VS Al-Qadsiah | Suudi Arabistan Pro Lig | 21:00 | MS 2 | 1.25 | 64 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Kopenhag VS Nordsjaelland | Danimarka Süperlig | 21:00 | MS 1 | 1.93 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Panathinaikos VS Niki Volos | Yunanistan Kupa Lig Aşaması | 21:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Es Setif VS Es Ben Aknoun | Cezayir 1.Lig | 21:00 | 2.5 Alt | 1.38 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Novara VS Livorno | İtalya Serie C Kupası 2.Tur | 21:00 | 2.5 Alt | 1.46 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Albion VS Progreso | Uruguay Kupa Ön Eleme Turu Grup 5 | 21:00 | 2.5 Alt | 1.44 | 69 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
-| Duhok VS Al Jawiya | Irak Premier Lig | 21:00 | 2.5 Alt | 1.43 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Al Kahraba VS Al Gharraf | Irak Premier Lig | 21:00 | 2.5 Alt | 1.44 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Anderlecht VS Kortrijk | Belçika Pro Lig | 21:30 | MS 1 | 1.30 | 64 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Gent VS Oh Leuven | Belçika Pro Lig | 21:30 | MS 1 | 1.53 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Lech Poznan VS Jagiellonia | Polonya Ekstraklasa | 21:30 | MS 1 | 1.48 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Basel VS Sion | İsviçre Süper Lig | 21:30 | MS 2 | 2.08 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Lugano VS Servette | İsviçre Süper Lig | 21:30 | 2.5 Alt | 1.93 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Slask Wroclaw VS Pogon Szczecin | Polonya Kupa 1.Tur | 21:30 | 2.5 Üst | 1.61 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| River Plate (U VS Nacional Df | Uruguay Kupa Ön Eleme Turu Grup 5 | 21:30 | 2.5 Alt | 1.42 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Toulouse VS Lille | Fransa Ligue 1 | 21:45 | 2.5 Alt | 1.70 | 64 | Sadece izleme | Değerli | Orta | Orta | scheduled |
-| Hibernian VS Hearts | İskoçya Premiership | 21:45 | 2.5 Alt | 1.96 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Rouen VS Valenciennes | Fransa Ligue 3 | 21:45 | 2.5 Alt | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Real Sociedad VS Celta Vigo | İspanya LaLiga | 22:00 | 2.5 Üst | 1.58 | 69 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
-| Cagliari VS Verona | İtalya Kupa 2.Tur | 22:00 | 2.5 Alt | 1.51 | 67 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
-| Univ Catolica VS Aucas | Ekvador Pro Lig | 22:00 | 2.5 Alt | 1.52 | 64 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
-| Trento Calcio VS Calvina | İtalya Serie C Kupası 2.Tur | 22:00 | 2.5 Alt | 1.46 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Rayo Zuliano VS Carabobo | Venezuela Premier Lig Clausura | 22:30 | 2.5 Üst | 1.64 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
-| Js El Biar VS Oued Akbou | Cezayir 1.Lig | 23:00 | MS 1 | 2.35 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Academia Anzoa VS Monagas | Venezuela Premier Lig Clausura | 23:00 | 2.5 Üst | 1.61 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| America De Cal VS Alianza Petrole | Kolombiya Primera A Clausura | 00:00 | 2.5 Üst | 1.65 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Leones Del Nor VS Orense | Ekvador Pro Lig | 00:30 | 2.5 Alt | 1.37 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Estudiantes Fc VS Ucv | Venezuela Premier Lig Clausura | 01:00 | 2.5 Alt | 1.51 | 65 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
-| Gremio (0) VS (0) Internacional | Brezilya Kupa Çeyrek Final | 02:00 | 2.5 Alt | 1.43 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Academia Puert VS Deportivo La Gu | Venezuela Premier Lig Clausura | 02:00 | MS 1 | 1.92 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Metropolitanos VS Trujillanos | Venezuela Premier Lig Clausura | 02:00 | 2.5 Üst | 1.71 | 68 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
-| Nautico VS Botafogo Ribeir | Brezilya Serie B | 02:00 | 2.5 Alt | 1.45 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Managua VS Diriangen | Nikaragua Premier Lig Apertura | 02:00 | 2.5 Üst | 1.59 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Libertad VS Emelec | Ekvador Pro Lig | 03:00 | 2.5 Alt | 1.37 | 69 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
-| Pereira VS Independiente M | Kolombiya Primera A Clausura | 04:00 | 2.5 Alt | 1.62 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Tepatitlan De VS Dorados | Meksika Ascenso MX Apertura | 04:00 | 2.5 Üst | 1.58 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Matagalpa VS Unan Managua | Nikaragua Premier Lig Apertura | 04:00 | 2.5 Alt | 1.76 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Depor. Olimpia VS Platense | Honduras Ulusal Lig Apertura | 04:00 | 2.5 Alt | 1.89 | 64 | Sadece izleme | Değerli | Orta | Orta | scheduled |
+| Porto VS Moreirense | Portekiz Premier Lig | 22:15 | 2.5 Alt | 2.00 | 63 | Sadece izleme | Değerli | Orta | Orta | scheduled |
+| Ponferradina VS Lugo | İspanya Primera Lig RFEF Grup 1 | 22:15 | MS 1 | 1.75 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Rio Cuarto VS Sarmiento | Arjantin Premier Lig 2. Aşama | 22:45 | MS 1 | 2.50 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Js Kabylie VS Rouisset | Cezayir 1.Lig | 23:00 | MS 1 | 1.35 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Alianza Atleti VS Univ De Cajamar | Peru Premier Lig Clausura | 23:15 | MS 1 | 1.45 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Academia Del B VS Universitario D | Bolivya Premier Lig | 00:15 | MS 1 | 1.54 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Platense VS Riestra | Arjantin Premier Lig 2. Aşama | 01:00 | MS X | 2.51 | 58 | Sadece izleme | Değerli | Orta | Orta | scheduled |
+| Belgrano VS Huracan | Arjantin Premier Lig 2. Aşama | 01:00 | MS 1 | 1.92 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Torque VS Cerro Largo | Uruguay Premier Lig Clausura | 01:00 | 2.5 Alt | 1.51 | 67 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Criciuma VS Cuiaba | Brezilya Serie B | 01:30 | MS 1 | 1.65 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Ferro Carril O VS Ca Mitre | Arjantin Ulusal Primera Lig | 02:00 | MS 1 | 1.47 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Loudoun United VS Colorado Spring | ABD USL | 02:00 | 2.5 Alt | 1.72 | 63 | Sadece izleme | Değerli | Orta | Orta | scheduled |
+| New York City VS Nashville Sc | ABD MLS | 02:30 | 2.5 Üst | 1.58 | 68 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Athletic Club VS Vila Nova | Brezilya Serie B | 02:30 | MS 1 | 2.26 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Concepcion VS Audax Italiano | Şili Premier Lig | 03:30 | 2.5 Üst | 1.75 | 65 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Regatas VS America Mineiro | Brezilya Serie B | 03:30 | MS 1 | 1.36 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| T.Universitari VS Ldu Quito | Ekvador Pro Lig | 03:30 | 2.5 Üst | 1.90 | 63 | Sadece izleme | Değerli | Orta | Orta | scheduled |
+| Durango VS Tlaxcala | Meksika Ascenso MX Apertura | 04:00 | 2.5 Üst | 1.68 | 67 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
+| Antigua Guatem VS Aurora | Guatemala Ulusal Lig Apertura | 04:00 | 2.5 Üst | 1.62 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Choloma VS Olancho | Honduras Ulusal Lig Apertura | 04:00 | MS 2 | 1.64 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Liberia VS Inter San Carlo | Kosta Rika Premier Lig Apertura | 05:00 | 2.5 Üst | 1.66 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Fc Juarez VS Pachuca | Meksika Liga MX Apertura | 06:00 | 2.5 Üst | 1.67 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Ca La Paz VS Zacatecas | Meksika Ascenso MX Apertura | 06:00 | MS 1 | 1.79 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| South Hobart VS Devonport City | Avustralya NPL Tazmanya Büyük Final | 06:00 | MS 1 | 1.53 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Avondale Heigh VS Preston Lions | Avustralya NPL Victoria Eleme Final | 07:00 | 2.5 Alt | 1.95 | 44 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Real Sociedad VS Celta Vigo | 2.5 Üst | 1.58 | 69 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta |
-| Albion VS Progreso | 2.5 Alt | 1.44 | 69 | Orta risk kupon adayı | Değerli | Orta | Orta |
-| Libertad VS Emelec | 2.5 Alt | 1.37 | 69 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta |
-| Metropolitanos VS Trujillanos | 2.5 Üst | 1.71 | 68 | Orta risk kupon adayı | Değerli | Orta | Orta |
-| Cagliari VS Verona | 2.5 Alt | 1.51 | 67 | Orta risk kupon adayı | Değerli | Orta | Orta |
-| Rayo Zuliano VS Carabobo | 2.5 Üst | 1.64 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta |
+| New York City VS Nashville Sc | 2.5 Üst | 1.58 | 68 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta |
+| Durango VS Tlaxcala | 2.5 Üst | 1.68 | 67 | Orta risk kupon adayı | Değerli | Orta | Orta |
+| Torque VS Cerro Largo | 2.5 Alt | 1.51 | 67 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta |
+| Fc Juarez VS Pachuca | 2.5 Üst | 1.67 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta |
+| Concepcion VS Audax Italiano | 2.5 Üst | 1.75 | 65 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Metropolitanos VS Trujillanos + Rayo Zuliano VS Carabobo | 2.5 Üst + 2.5 Üst | 2.80 | 67 | Orta risk kupon adayı | Normal Değer | Orta | Orta |
+| Durango VS Tlaxcala + Fc Juarez VS Pachuca | 2.5 Üst + 2.5 Üst | 2.81 | 67 | Orta risk kupon adayı | Normal Değer | Orta | Orta |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Durango VS Tlaxcala + Fc Juarez VS Pachuca + Concepcion VS Audax Italiano | 2.5 Üst + 2.5 Üst + 2.5 Üst | 4.91 | 66 | Orta risk kupon adayı | Normal Değer | Yüksek | Orta |
