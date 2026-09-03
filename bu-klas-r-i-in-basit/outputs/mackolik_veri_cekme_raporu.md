@@ -1,55 +1,33 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-03T15:04:25.138474+00:00
+Tarih: 2026-09-03T18:40:37.290373+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 60
+- Kac mac bulundu: 24
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 60
+- Kac mac zaten vardi: 24
 - Ham veri havuzu toplam mac sayisi: 11148
 - Hedef tarih: 03.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- Belçika Pro Lig
 - Brezilya Kupa Çeyrek Final
 - Brezilya Serie B
 - Cezayir 1.Lig
-- Danimarka DBU Kupası 2.Tur
-- Danimarka Süperlig
 - Ekvador Pro Lig
 - Fransa Ligue 1
 - Fransa Ligue 3
 - Honduras Ulusal Lig Apertura
-- Irak Premier Lig
-- Katar Yıldızlar Ligi
 - Kolombiya Primera A Clausura
-- Letonya Kupa Yarı Final
-- Litvanya A Ligi
-- Macaristan NB I
 - Meksika Ascenso MX Apertura
 - Mısır 2. Lig
-- Mısır Premier Lig
 - Nikaragua Premier Lig Apertura
-- Polonya Ekstraklasa
-- Polonya Kupa 1.Tur
-- Romanya Kupa Grup A
-- Rusya Kupa Premier Lig Yolu Grup B
-- Suudi Arabistan Pro Lig
-- Türkiye TFF 1. Lig
-- Uganda Premier Lig
-- Uruguay Kupa Ön Eleme Turu Grup 5
 - Venezuela Premier Lig Clausura
-- Yunanistan Kupa Lig Aşaması
-- Ürdün Premier Lig
-- İran Persian Gulf Pro Lig
 - İskoçya Premiership
 - İspanya LaLiga
-- İsveç Allsvenskan
-- İsviçre Süper Lig
 - İtalya Kupa 2.Tur
 - İtalya Serie C Kupası 2.Tur
 
@@ -108,8 +86,8 @@ Tarih: 2026-09-03T15:04:25.138474+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 40
-- Acilan detay: 40
+- Denenen Tumu alani: 18
+- Acilan detay: 18
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -122,26 +100,26 @@ Tarih: 2026-09-03T15:04:25.138474+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 03.09.2026 | 20:00 | Türkiye TFF 1. Lig | Bursaspor | İstanbulspor | 22103 | 5 |
-| 03.09.2026 | 20:00 | Türkiye TFF 1. Lig | Bodrum Fk | Esenler Erokspo | 22086 | 5 |
 | 03.09.2026 | 22:00 | İspanya LaLiga | Real Sociedad | Celta Vigo | 05144 | 5 |
 | 03.09.2026 | 21:45 | Fransa Ligue 1 | Toulouse | Lille | 18947 | 5 |
 | 03.09.2026 | 22:00 | İtalya Kupa 2.Tur | Cagliari | Verona | 24707 | 5 |
-| 03.09.2026 | 19:00 | İtalya Kupa 2.Tur | Palermo | Mantova | 24653 | 5 |
-| 03.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Diriyah | Al-Qadsiah | 14580 | 5 |
-| 03.09.2026 | 18:55 | Suudi Arabistan Pro Lig | Al Feiha | Al Kholood | 26445 | 5 |
-| 03.09.2026 | 19:30 | Suudi Arabistan Pro Lig | Neom Sc | Al Khaleej | 26344 | 5 |
-| 03.09.2026 | 21:30 | Belçika Pro Lig | Anderlecht | Kortrijk | 25394 | 5 |
-| 03.09.2026 | 21:30 | Belçika Pro Lig | Gent | Oh Leuven | 25396 | 5 |
 | 03.09.2026 | 21:45 | İskoçya Premiership | Hibernian | Hearts | 19942 | 5 |
-| 03.09.2026 | 21:00 | Danimarka Süperlig | Kopenhag | Nordsjaelland | 24809 | 5 |
-| 03.09.2026 | 20:00 | İsveç Allsvenskan | Mjallby | Djurgarden | 18172 | 5 |
-| 03.09.2026 | 19:00 | Polonya Ekstraklasa | Rakow Czestoch | Gornik Zabrze | 25228 | 5 |
-| 03.09.2026 | 21:30 | Polonya Ekstraklasa | Lech Poznan | Jagiellonia | 25282 | 5 |
-| 03.09.2026 | 21:30 | İsviçre Süper Lig | Lugano | Servette | 21583 | 5 |
-| 03.09.2026 | 21:30 | İsviçre Süper Lig | Basel | Sion | 21505 | 5 |
-| 03.09.2026 | 21:00 | Yunanistan Kupa Lig Aşaması | Panathinaikos | Niki Volos | 23741 | 5 |
 | 04.09.2026 | 02:00 | Brezilya Kupa Çeyrek Final | Gremio (0) | (0) Internacional | 18343 | 5 |
+| 03.09.2026 | 21:45 | Fransa Ligue 3 | Rouen | Valenciennes | 01855 | 5 |
+| 03.09.2026 | 23:00 | Cezayir 1.Lig | Js El Biar | Oued Akbou | 26204 | 5 |
+| 04.09.2026 | 00:00 | Kolombiya Primera A Clausura | America De Cal | Alianza Petrole | 26153 | 5 |
+| 04.09.2026 | 04:00 | Kolombiya Primera A Clausura | Pereira | Independiente M | 26170 | 5 |
+| 03.09.2026 | 22:30 | Venezuela Premier Lig Clausura | Rayo Zuliano | Carabobo | 07871 | 5 |
+| 03.09.2026 | 23:00 | Venezuela Premier Lig Clausura | Academia Anzoa | Monagas | 10593 | 5 |
+| 04.09.2026 | 02:00 | Venezuela Premier Lig Clausura | Academia Puert | Deportivo La Gu | 10656 | 5 |
+| 04.09.2026 | 01:00 | Venezuela Premier Lig Clausura | Estudiantes Fc | Ucv | 10622 | 5 |
+| 04.09.2026 | 02:00 | Venezuela Premier Lig Clausura | Metropolitanos | Trujillanos | 10607 | 5 |
+| 04.09.2026 | 02:00 | Brezilya Serie B | Nautico | Botafogo Ribeir | 18559 | 5 |
+| 04.09.2026 | 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De | Dorados | 26187 | 5 |
+| 03.09.2026 | 22:00 | Ekvador Pro Lig | Univ Catolica | Aucas | 21756 | 5 |
+| 04.09.2026 | 00:30 | Ekvador Pro Lig | Leones Del Nor | Orense | 21787 | 5 |
+| 04.09.2026 | 03:00 | Ekvador Pro Lig | Libertad | Emelec | 21836 | 5 |
+| 03.09.2026 | 22:00 | İtalya Serie C Kupası 2.Tur | Trento Calcio | Calvina | 10447 | 5 |
 
 ## Sonuc
 

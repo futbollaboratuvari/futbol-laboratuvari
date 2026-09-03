@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 03.09.2026 18:04:58
+Oluşturma: 03.09.2026 21:41:15
 
 ## Özet
 
@@ -32,11 +32,12 @@ Oluşturma: 03.09.2026 18:04:58
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-03 | Meksika Ascenso MX Apertura | Tepatitlan De - Dorados | 2.5 Üst | pending | 55/100
+- 2026-09-03 | Venezuela Premier Lig Clausura | Estudiantes Fc - Ucv | 2.5 Alt | pending | 61/100
+- 2026-09-03 | Meksika Ascenso MX Apertura | Tepatitlan De - Dorados | 2.5 Üst | pending | 56/100
 - 2026-09-03 | İsviçre Süper Lig | Lugano - Servette | 2.5 Alt | pending | 49/100
-- 2026-09-03 | İskoçya Premiership | Hibernian - Hearts | 2.5 Alt | pending | 48/100
+- 2026-09-03 | İskoçya Premiership | Hibernian - Hearts | 2.5 Alt | pending | 49/100
 - 2026-09-03 | Kolombiya Primera A Clausura | America De Cal - Alianza Petrole | 2.5 Üst | pending | 53/100
-- 2026-09-03 | Brezilya Kupa Çeyrek Final | Gremio (0) - (0) Internacional | 2.5 Alt | pending | 49/100
+- 2026-09-03 | Brezilya Kupa Çeyrek Final | Gremio (0) - (0) Internacional | 2.5 Alt | pending | 48/100
 - 2026-09-03 | Venezuela Premier Lig Clausura | Academia Puert - Deportivo La Gu | MS 1 | pending | 48/100
 - 2026-09-03 | Nikaragua Premier Lig Apertura | Managua - Diriangen | 2.5 Alt | pending | 52/100
 - 2026-09-03 | Rusya Kupa Premier Lig Yolu Grup B | Dinamo Moskova - Akhmat Grozny | 2.5 Alt | pending | 50/100
@@ -46,5 +47,4 @@ Oluşturma: 03.09.2026 18:04:58
 - 2026-09-03 | Kolombiya Primera A Clausura | Pereira - Independiente M | MS 2 | pending | 54/100
 - 2026-09-03 | Cezayir 1.Lig | Js El Biar - Oued Akbou | MS 1 | pending | 44/100
 - 2026-09-03 | Irak Premier Lig | Al Mosul - Al Zawraa | MS 2 | pending | 49/100
-- 2026-09-03 | Romanya Kupa Grup A | Asu Poli Timiş - Rapid Bükreş | MS 2 | pending | 53/100
 
