@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 03.09.2026 02:21:53
+Oluşturma: 03.09.2026 03:23:12
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1089
-- Kazanan tahmin: 230
-- Kaybeden tahmin: 181
+- Bekleyen tahmin: 1067
+- Kazanan tahmin: 243
+- Kaybeden tahmin: 190
 - Lig sayısı: 217
 - Seçenek sayısı: 7
 
@@ -24,15 +24,18 @@ Oluşturma: 03.09.2026 02:21:53
 
 - MS X: toplam 9, bekleyen 7, başarı %100, düz getiri %147, ağırlık 1
 - KG Var: toplam 2, bekleyen 1, başarı %100, düz getiri %87, ağırlık 1
-- 2.5 Üst: toplam 230, bekleyen 135, başarı %62, düz getiri %10, ağırlık 1
-- MS 2: toplam 213, bekleyen 177, başarı %58, düz getiri %-4, ağırlık 1
-- MS 1: toplam 457, bekleyen 356, başarı %56, düz getiri %-8, ağırlık 1
-- 2.5 Alt: toplam 588, bekleyen 412, başarı %51, düz getiri %-15, ağırlık 1
+- 2.5 Üst: toplam 232, bekleyen 132, başarı %62, düz getiri %10, ağırlık 1
+- MS 2: toplam 213, bekleyen 172, başarı %59, düz getiri %-2, ağırlık 1
+- MS 1: toplam 455, bekleyen 346, başarı %58, düz getiri %-5, ağırlık 1
+- 2.5 Alt: toplam 588, bekleyen 408, başarı %51, düz getiri %-16, ağırlık 1
 - KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-03 | Ekvador Pro Lig | Libertad - Emelec | 2.5 Alt | pending | 67/100
+- 2026-09-03 | Ekvador Pro Lig | Univ Catolica - Aucas | 2.5 Üst | pending | 60/100
+- 2026-09-03 | Venezuela Premier Lig Clausura | Academia Anzoa - Monagas | 2.5 Üst | pending | 55/100
+- 2026-09-03 | Ekvador Pro Lig | Deportivo Cuen - Guayaquil City | MS 1 | pending | 56/100
+- 2026-09-03 | Ekvador Pro Lig | Libertad - Emelec | 2.5 Alt | pending | 65/100
 - 2026-09-03 | Kolombiya Primera A Clausura | Pereira - Independiente M | 2.5 Alt | pending | 54/100
 - 2026-09-03 | Meksika Ascenso MX Apertura | Tepatitlan De - Dorados | 2.5 Alt | pending | 50/100
 - 2026-09-03 | Nikaragua Premier Lig Apertura | Matagalpa - Unan Managua | 2.5 Alt | pending | 49/100
@@ -44,7 +47,4 @@ Oluşturma: 03.09.2026 02:21:53
 - 2026-09-03 | Polonya Kupa 1.Tur | Slask Wroclaw - Pogon Szczecin | 2.5 Üst | pending | 53/100
 - 2026-09-03 | Uruguay Kupa Ön Eleme Turu Grup 5 | River Plate (U - Nacional Df | 2.5 Alt | pending | 54/100
 - 2026-09-03 | Fransa Ligue 1 | Toulouse - Lille | 2.5 Alt | pending | 62/100
-- 2026-09-03 | İskoçya Premiership | Hibernian - Hearts | 2.5 Üst | pending | 54/100
-- 2026-09-03 | Fransa Ligue 3 | Rouen - Valenciennes | 2.5 Alt | pending | 53/100
-- 2026-09-03 | İspanya LaLiga | Real Sociedad - Celta Vigo | 2.5 Üst | pending | 64/100
 

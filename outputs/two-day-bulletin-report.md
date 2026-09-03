@@ -2,21 +2,15 @@
 
 Gunler: 2026-09-03 / 2026-09-04
 Kaynak: fixtures.json
-Ham mac: 97
-Aktif mac: 86
+Ham mac: 96
+Aktif mac: 80
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 73
+Bultenden dusurulen mac: 16
+Bugun: 67
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-03 02:30 | ABD USL Lig 1 | Fort Wayne - Richmond Kicker | scheduled | -
-- 2026-09-03 02:30 | ABD USL Lig 1 | New York Cosmo - Sarasota Paradi | scheduled | -
-- 2026-09-03 02:30 | ABD USL Lig 1 | Charlotte Inde - Portland Hearts | scheduled | -
-- 2026-09-03 03:00 | Ekvador Pro Lig | Barcelona Gua - Indep. Jose Ter | scheduled | -
-- 2026-09-03 03:00 | ABD USL Lig 1 | Forward Madiso - One Knoxville | scheduled | -
-- 2026-09-03 03:15 | Arjantin Kupa Son 16 Turu | Boca Juniors - Velez Sarsfield | scheduled | -
 - 2026-09-03 03:30 | Brezilya Kupa Çeyrek Final | Vitoria Bahia (0) - (1) Vasco Da Gama | scheduled | -
 - 2026-09-03 03:30 | Brezilya Kupa Çeyrek Final | Santos (0) - (3) Palmeiras | scheduled | -
 - 2026-09-03 03:30 | Şili Premier Lig | Deportes Limac - Atletico Nublen | scheduled | -
