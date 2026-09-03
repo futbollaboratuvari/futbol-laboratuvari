@@ -2,28 +2,15 @@
 
 Gunler: 2026-09-03 / 2026-09-04
 Kaynak: fixtures.json
-Ham mac: 97
-Aktif mac: 73
+Ham mac: 73
+Aktif mac: 60
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 24
-Bugun: 60
+Bultenden dusurulen mac: 13
+Bugun: 47
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-03 15:30 | Polonya Kupa 1.Tur | Avia Swidnik - Ks Wieczysta Kr | scheduled | -
-- 2026-09-03 16:00 | Uganda Premier Lig | Kataka - Bul | scheduled | -
-- 2026-09-03 16:30 | Mısır 2. Lig | La Viena Fc - Team | scheduled | -
-- 2026-09-03 16:30 | Mısır 2. Lig | El Saka El Had - Maleyet Kafr El | scheduled | -
-- 2026-09-03 16:30 | Mısır 2. Lig | Derot - Telecom Egypt | scheduled | -
-- 2026-09-03 16:30 | Mısır 2. Lig | Baladiyyat - Mega Sport | scheduled | -
-- 2026-09-03 16:30 | Mısır 2. Lig | El Mansura - Kahraba Ismaili | scheduled | -
-- 2026-09-03 16:30 | Mısır 2. Lig | Haras El Hodoo - El Harby | scheduled | -
-- 2026-09-03 17:00 | Türkiye TFF 1. Lig | Iğdır Fk - Manisa Futbol K | scheduled | -
-- 2026-09-03 17:00 | Belarus Premier Lig | Isloch - Bate Borisov | scheduled | -
-- 2026-09-03 17:00 | Katar Yıldızlar Ligi | Al Ahli - Qatar Sc | scheduled | -
-- 2026-09-03 17:15 | Litvanya Kupa Yarı Final | Fa Siauliai - Kauno Zalgiris | scheduled | -
-- 2026-09-03 17:30 | Romanya Kupa Grup D | Fc Bacau - Universitatea C | scheduled | -
 - 2026-09-03 18:00 | İtalya Serie C Kupası 2.Tur | Cittadella - Renate | scheduled | -
 - 2026-09-03 18:30 | Polonya Kupa 1.Tur | Gks Tychy - Lks Lodz | scheduled | -
 - 2026-09-03 18:30 | İran Persian Gulf Pro Lig | Fajr Sepasi - Mes Shahr-E Bab | scheduled | -
