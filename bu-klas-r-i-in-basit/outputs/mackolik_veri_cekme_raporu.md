@@ -1,6 +1,6 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-03T06:12:38.933555+00:00
+Tarih: 2026-09-03T11:16:59.221387+00:00
 
 ## Ozet
 
@@ -125,18 +125,18 @@ Tarih: 2026-09-03T06:12:38.933555+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 03.09.2026 | 17:00 | Türkiye TFF 1. Lig | Iğdır Fk | Manisa Futbol K | 22069 | 5 |
-| 03.09.2026 | 20:00 | Türkiye TFF 1. Lig | Bodrum Fk | Esenler Erokspo | 22086 | 5 |
 | 03.09.2026 | 20:00 | Türkiye TFF 1. Lig | Bursaspor | İstanbulspor | 22103 | 5 |
+| 03.09.2026 | 20:00 | Türkiye TFF 1. Lig | Bodrum Fk | Esenler Erokspo | 22086 | 5 |
+| 03.09.2026 | 17:00 | Türkiye TFF 1. Lig | Iğdır Fk | Manisa Futbol K | 22069 | 5 |
 | 03.09.2026 | 22:00 | İspanya LaLiga | Real Sociedad | Celta Vigo | 05144 | 5 |
 | 03.09.2026 | 21:45 | Fransa Ligue 1 | Toulouse | Lille | 18947 | 5 |
-| 03.09.2026 | 19:00 | İtalya Kupa 2.Tur | Palermo | Mantova | 24653 | 5 |
 | 03.09.2026 | 22:00 | İtalya Kupa 2.Tur | Cagliari | Verona | 24707 | 5 |
-| 03.09.2026 | 18:55 | Suudi Arabistan Pro Lig | Al Feiha | Al Kholood | 26445 | 5 |
+| 03.09.2026 | 19:00 | İtalya Kupa 2.Tur | Palermo | Mantova | 24653 | 5 |
 | 03.09.2026 | 19:30 | Suudi Arabistan Pro Lig | Neom Sc | Al Khaleej | 26344 | 5 |
+| 03.09.2026 | 18:55 | Suudi Arabistan Pro Lig | Al Feiha | Al Kholood | 26445 | 5 |
 | 03.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Diriyah | Al-Qadsiah | 14580 | 5 |
-| 03.09.2026 | 21:30 | Belçika Pro Lig | Anderlecht | Kortrijk | 25394 | 5 |
 | 03.09.2026 | 21:30 | Belçika Pro Lig | Gent | Oh Leuven | 25396 | 5 |
+| 03.09.2026 | 21:30 | Belçika Pro Lig | Anderlecht | Kortrijk | 25394 | 5 |
 | 03.09.2026 | 21:45 | İskoçya Premiership | Hibernian | Hearts | 19942 | 5 |
 | 03.09.2026 | 21:00 | Danimarka Süperlig | Kopenhag | Nordsjaelland | 24809 | 5 |
 | 03.09.2026 | 20:00 | İsveç Allsvenskan | Mjallby | Djurgarden | 18172 | 5 |
