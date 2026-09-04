@@ -2,19 +2,15 @@
 
 Gunler: 2026-09-04 / 2026-09-05
 Kaynak: fixtures.json
-Ham mac: 209
-Aktif mac: 201
+Ham mac: 210
+Aktif mac: 197
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 181
+Bultenden dusurulen mac: 13
+Bugun: 177
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-09-04 04:00 | Kolombiya Primera A Clausura | Pereira - Independiente M | scheduled | -
-- 2026-09-04 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Dorados | scheduled | -
-- 2026-09-04 04:00 | Nikaragua Premier Lig Apertura | Matagalpa - Unan Managua | scheduled | -
-- 2026-09-04 04:00 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Platense | scheduled | -
 - 2026-09-04 11:30 | Endonezya Süper Lig | Arema - Adhyaksa | scheduled | -
 - 2026-09-04 12:00 | İtalya Primavera Şampiyonası 1 | Lecce U20 - Roma U20 | scheduled | -
 - 2026-09-04 13:00 | Ukrayna Premier Lig | Chernomorets - Livyi Bereh | scheduled | -
