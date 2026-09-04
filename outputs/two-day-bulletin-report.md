@@ -1,17 +1,16 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-09-04 / 2026-09-05
+Gunler: 2026-09-05 / 2026-09-06
 Kaynak: fixtures.json
-Ham mac: 216
-Aktif mac: 20
+Ham mac: 20
+Aktif mac: 19
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 196
-Bugun: 0
-Yarin: 20
+Bultenden dusurulen mac: 1
+Bugun: 19
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-09-05 00:15 | Bolivya Premier Lig | Academia Del B - Universitario D | scheduled | -
 - 2026-09-05 01:00 | Arjantin Premier Lig 2. Aşama | Platense - Riestra | scheduled | -
 - 2026-09-05 01:00 | Arjantin Premier Lig 2. Aşama | Belgrano - Huracan | scheduled | -
 - 2026-09-05 01:00 | Uruguay Premier Lig Clausura | Torque - Cerro Largo | scheduled | -
