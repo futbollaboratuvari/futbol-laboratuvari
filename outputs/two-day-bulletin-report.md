@@ -2,55 +2,15 @@
 
 Gunler: 2026-09-04 / 2026-09-05
 Kaynak: fixtures.json
-Ham mac: 216
-Aktif mac: 99
+Ham mac: 165
+Aktif mac: 59
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 117
-Bugun: 79
+Bultenden dusurulen mac: 106
+Bugun: 39
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-09-04 21:00 | Hollanda Eredivisie | Sparta Rotterd - Zwolle | scheduled | -
-- 2026-09-04 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy - Al Hilal (Riyad | scheduled | -
-- 2026-09-04 21:00 | Suudi Arabistan Pro Lig | Al Ahli (Cidde - Al Riyadh | scheduled | -
-- 2026-09-04 21:00 | Fransa Ligue 2 | Pau Fc - Sochaux | scheduled | -
-- 2026-09-04 21:00 | Fransa Ligue 2 | Boulogne - Dijon | scheduled | -
-- 2026-09-04 21:00 | Fransa Ligue 2 | Stade Lavalloi - Red Star Paris | scheduled | -
-- 2026-09-04 21:00 | Fransa Ligue 2 | Grenoble - Annecy | scheduled | -
-- 2026-09-04 21:00 | Fransa Ligue 2 | Dunkerque - Clermont | scheduled | -
-- 2026-09-04 21:00 | Hollanda Eerste Divisie | Emmen - Volendam | scheduled | -
-- 2026-09-04 21:00 | Hollanda Eerste Divisie | Helmond Sport - Vvv Venlo | scheduled | -
-- 2026-09-04 21:00 | Hollanda Eerste Divisie | Heracles - De Graafschap | scheduled | -
-- 2026-09-04 21:00 | Hollanda Eerste Divisie | Vitesse - Oss | scheduled | -
-- 2026-09-04 21:00 | Hollanda Eerste Divisie | Almere City - Ajax (B) | scheduled | -
-- 2026-09-04 21:00 | Hollanda Eerste Divisie | Waalwijk - Breda | scheduled | -
-- 2026-09-04 21:00 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Js Saoura - Horoya | scheduled | -
-- 2026-09-04 21:00 | Hırvatistan 1.HNL | Varazdin - Istra | scheduled | -
-- 2026-09-04 21:00 | İngiltere Premier Lig Kupası Grup A | Bolton U21 - Southampton (B) | scheduled | -
-- 2026-09-04 21:00 | İngiltere Premier Lig Kupası Grup B | Leicester (B) - Bournemouth U21 | scheduled | -
-- 2026-09-04 21:00 | İngiltere Premier Lig Kupası Grup F | West Ham (B) - Brighton (B) | scheduled | -
-- 2026-09-04 21:00 | İngiltere Premier Lig Kupası Grup H | Coventry City - West Brom (B) | scheduled | -
-- 2026-09-04 21:00 | İngiltere Premier Lig Kupası Grup I | Charlton Athle - Leeds United U2 | scheduled | -
-- 2026-09-04 21:00 | İngiltere Premier Lig Kupası Grup I | Stockport Coun - Stoke (B) | scheduled | -
-- 2026-09-04 21:00 | Belçika Challenger Pro Lig | Beerschot-Wilr - Patro Eisden | scheduled | -
-- 2026-09-04 21:00 | Belçika Challenger Pro Lig | Dender - Rfc Seraing | scheduled | -
-- 2026-09-04 21:00 | Peru Premier Lig Clausura | Fc Cajamarca - Cienciano | scheduled | -
-- 2026-09-04 21:00 | İngiltere Kadınlar Premier Lig | London City (K - Manchester Unit | scheduled | -
-- 2026-09-04 21:00 | Irak Premier Lig | Al Shorta - Erbil Sc | scheduled | -
-- 2026-09-04 21:00 | Irak Premier Lig | Naft Maysan - Newroz | scheduled | -
-- 2026-09-04 21:00 | İsveç 2.Lig Södra Svealand | Ragsved - Haninge | scheduled | -
-- 2026-09-04 21:15 | Bulgaristan 1.Lig | Arda Kardzhali - Botev Plovdiv | scheduled | -
-- 2026-09-04 21:15 | İsviçre Challenge Lig | Etoile Carouge - Wil | scheduled | -
-- 2026-09-04 21:15 | İsviçre Challenge Lig | Winterthur - Neuchatel Xamax | scheduled | -
-- 2026-09-04 21:15 | Slovenya 1.SNL | Nafta - Radomlje | scheduled | -
-- 2026-09-04 21:30 | Almanya Bundesliga | Stuttgart - Köln | scheduled | -
-- 2026-09-04 21:30 | İspanya 2.Lig | Las Palmas - Leganes | scheduled | -
-- 2026-09-04 21:30 | Polonya Ekstraklasa | Piast Gliwice - Gks Katowice | scheduled | -
-- 2026-09-04 21:30 | Arjantin Ulusal Primera Lig | D Belgrano - R Cordoba | scheduled | -
-- 2026-09-04 21:30 | İskoçya Championship | Livingston - Stenhousemuir | scheduled | -
-- 2026-09-04 21:30 | Galler FAW Championship Güney | Llanelli Town - Treowen Stars | scheduled | -
-- 2026-09-04 21:30 | Galler FAW Championship Güney | Baglan Dragons - Afan Lido | scheduled | -
 - 2026-09-04 21:45 | İtalya Serie A | Genoa - Como | scheduled | -
 - 2026-09-04 21:45 | Belçika Pro Lig | Lommel - Club Brugge | scheduled | -
 - 2026-09-04 21:45 | İrlanda FAI Kupası Çeyrek Final | Waterford - Sligo Rovers | scheduled | -

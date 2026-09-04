@@ -1,16 +1,11 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 201
-Tam analiz: 183
-Eksik analiz: 18
+Toplam analiz: 165
+Tam analiz: 152
+Eksik analiz: 13
 
-- Perth Redstar VS Perth: eksik score, confidence
-- Johor Dt VS Dpmm Fc: eksik score, confidence
-- Fc Minsk Ii VS Niva Dolbizno: eksik score, confidence
-- Al Ittihad Kal VS Al Ain: eksik score, confidence
-- Molodechno VS Bate Ii: eksik score, confidence
-- Be1 Nfa VS Kauno Zalgiris: eksik score, confidence
+- Vejle VS Vendsyssel: eksik score, confidence
 - Karvina VS Kladno: eksik score, confidence
 - Al Wasl VS Khorfakkan Club: eksik score, confidence
 - Altach VS Bischofshofen: eksik score, confidence
