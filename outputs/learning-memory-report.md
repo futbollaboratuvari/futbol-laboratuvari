@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 04.09.2026 21:31:11
+Oluşturma: 04.09.2026 23:21:44
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1109
-- Kazanan tahmin: 223
-- Kaybeden tahmin: 168
+- Bekleyen tahmin: 1105
+- Kazanan tahmin: 224
+- Kaybeden tahmin: 171
 - Lig sayısı: 228
 - Seçenek sayısı: 5
 
@@ -22,14 +22,15 @@ Oluşturma: 04.09.2026 21:31:11
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 238, bekleyen 201, başarı %65, düz getiri %7, ağırlık 1
+- MS 2: toplam 238, bekleyen 200, başarı %66, düz getiri %10, ağırlık 1
 - 2.5 Üst: toplam 222, bekleyen 131, başarı %59, düz getiri %4, ağırlık 1
-- MS 1: toplam 476, bekleyen 374, başarı %59, düz getiri %-3, ağırlık 1
+- MS 1: toplam 476, bekleyen 371, başarı %57, düz getiri %-6, ağırlık 1
 - 2.5 Alt: toplam 555, bekleyen 396, başarı %53, düz getiri %-12, ağırlık 1
 - MS X: toplam 9, bekleyen 7, başarı %50, düz getiri %24, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-04 | Honduras Ulusal Lig Apertura | Choloma - Olancho | 2.5 Alt | pending | 55/100
 - 2026-09-04 | Peru Premier Lig Clausura | Alianza Atleti - Univ De Cajamar | 2.5 Üst | pending | 56/100
 - 2026-09-04 | İngiltere Premier Lig Kupası Grup I | Stockport Coun - Stoke (B) | MS 1 | pending | 47/100
 - 2026-09-04 | Cezayir 1.Lig | Js Kabylie - Rouisset | 2.5 Alt | pending | 57/100
@@ -44,5 +45,4 @@ Oluşturma: 04.09.2026 21:31:11
 - 2026-09-04 | Mısır 2. Lig | Baladiyyat - Mega Sport | MS 1 | pending | 48/100
 - 2026-09-04 | Şili Premier Lig | Concepcion - Audax Italiano | 2.5 Alt | pending | 60/100
 - 2026-09-04 | Kosta Rika Premier Lig Apertura | Liberia - Inter San Carlo | MS 2 | pending | 49/100
-- 2026-09-04 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Js Saoura - Horoya | 2.5 Alt | pending | 50/100
 
