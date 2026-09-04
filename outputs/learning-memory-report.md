@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 05.09.2026 00:36:27
+Oluşturma: 05.09.2026 01:35:27
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1114
-- Kazanan tahmin: 220
-- Kaybeden tahmin: 166
-- Lig sayısı: 228
+- Bekleyen tahmin: 1296
+- Kazanan tahmin: 121
+- Kaybeden tahmin: 83
+- Lig sayısı: 245
 - Seçenek sayısı: 5
 
 ## Öğrenme Mantığı
@@ -22,27 +22,27 @@ Oluşturma: 05.09.2026 00:36:27
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 236, bekleyen 198, başarı %66, düz getiri %10, ağırlık 1
-- 2.5 Üst: toplam 226, bekleyen 135, başarı %59, düz getiri %4, ağırlık 1
-- MS 1: toplam 481, bekleyen 376, başarı %57, düz getiri %-6, ağırlık 1
-- 2.5 Alt: toplam 547, bekleyen 397, başarı %53, düz getiri %-11, ağırlık 1
+- MS 1: toplam 476, bekleyen 415, başarı %64, düz getiri %5, ağırlık 1
+- MS 2: toplam 241, bekleyen 215, başarı %62, düz getiri %-1, ağırlık 1
+- 2.5 Alt: toplam 534, bekleyen 466, başarı %57, düz getiri %-7, ağırlık 1
+- 2.5 Üst: toplam 239, bekleyen 192, başarı %55, düz getiri %-3, ağırlık 1
 - MS X: toplam 10, bekleyen 8, başarı %50, düz getiri %24, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-05 | Avustralya NPL Tazmanya Büyük Final | South Hobart - Devonport City | MS 1 | pending | 42/100
-- 2026-09-05 | Avustralya NPL Victoria Eleme Final | Avondale Heigh - Preston Lions | 2.5 Alt | pending | 40/100
-- 2026-09-05 | Brezilya Serie B | Criciuma - Cuiaba | MS 1 | pending | 51/100
-- 2026-09-05 | Arjantin Ulusal Primera Lig | Ferro Carril O - Ca Mitre | MS 1 | pending | 56/100
-- 2026-09-05 | ABD USL | Loudoun United - Colorado Spring | 2.5 Alt | pending | 58/100
-- 2026-09-05 | ABD MLS | New York City - Nashville Sc | 2.5 Üst | pending | 63/100
-- 2026-09-05 | Brezilya Serie B | Athletic Club - Vila Nova | MS 1 | pending | 46/100
-- 2026-09-05 | Şili Premier Lig | Concepcion - Audax Italiano | 2.5 Alt | pending | 60/100
-- 2026-09-05 | Brezilya Serie B | Regatas - America Mineiro | MS 1 | pending | 58/100
-- 2026-09-05 | Ekvador Pro Lig | T.Universitari - Ldu Quito | 2.5 Alt | pending | 61/100
-- 2026-09-05 | Meksika Ascenso MX Apertura | Durango - Tlaxcala | 2.5 Üst | pending | 65/100
-- 2026-09-05 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Aurora | 2.5 Üst | pending | 56/100
-- 2026-09-05 | Honduras Ulusal Lig Apertura | Choloma - Olancho | 2.5 Alt | pending | 55/100
-- 2026-09-05 | Kosta Rika Premier Lig Apertura | Liberia - Inter San Carlo | 2.5 Üst | pending | 54/100
-- 2026-09-05 | Meksika Liga MX Apertura | Fc Juarez - Pachuca | 2.5 Üst | pending | 62/100
+- 2026-09-05 | Meksika Liga MX Apertura | Atlas - Atlante | 2.5 Alt | pending | 60/100
+- 2026-09-05 | Guatemala Ulusal Lig Apertura | Marquense - Xelaju | 2.5 Üst | pending | 61/100
+- 2026-09-05 | Japonya J2 Lig | Sapporo - Tochigi City | 2.5 Alt | pending | 48/100
+- 2026-09-05 | Avustralya NPL Yeni Güney Galler Yarı Final | Sydney United - Manly United | MS 1 | pending | 48/100
+- 2026-09-05 | Meksika Ascenso MX Apertura | Piratas - Correcaminos Ua | MS 1 | pending | 57/100
+- 2026-09-05 | Meksika Ascenso MX Apertura | Cancun Fc - Cruz Azul Hidal | 2.5 Alt | pending | 50/100
+- 2026-09-05 | Meksika Ascenso MX Apertura | Cds Tampico Ma - Venados Fc | MS 1 | pending | 53/100
+- 2026-09-05 | Meksika Ascenso MX Apertura | Monarcas - Alebrijes | MS 1 | pending | 58/100
+- 2026-09-05 | Guatemala Ulusal Lig Apertura | Malacateco - Suchitepequez | 2.5 Alt | pending | 61/100
+- 2026-09-05 | ABD USL | Orange County - Sacramento Repu | 2.5 Üst | pending | 60/100
+- 2026-09-05 | El Salvador Primera Lig Apertura | Isidro Metapan - Inca-Aruba | 2.5 Alt | pending | 60/100
+- 2026-09-05 | ABD MLS | Los Angeles - New England | MS 1 | pending | 47/100
+- 2026-09-05 | ABD MLS | Salt Lake - Los Angeles Fc | 2.5 Alt | pending | 49/100
+- 2026-09-05 | Kolombiya Primera A Clausura | Atletico Junio - Jaguares | 2.5 Üst | pending | 60/100
+- 2026-09-05 | Peru Premier Lig Clausura | Universitario - Comerciantes Un | 2.5 Alt | pending | 50/100
 
