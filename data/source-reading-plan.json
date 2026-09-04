@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T06:08:42.545Z",
+  "generated_at": "2026-09-04T11:15:29.749Z",
   "date": "2026-09-04",
   "source_count": 8,
-  "match_count": 198,
+  "match_count": 200,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
     {
@@ -526,7 +526,7 @@
       "match_name": "Bali United VS Pss Sleman",
       "league": "Endonezya Süper Lig",
       "start_time": "15:00",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -635,7 +635,7 @@
       "match_name": "Pattani VS Bg Pathum Unite",
       "league": "Tayland 1.Lig",
       "start_time": "15:00",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "2.5 Üst",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1330,6 +1330,57 @@
       ]
     },
     {
+      "match_name": "Fc Minsk Ii VS Niva Dolbizno",
+      "league": "Belarus 1.Lig",
+      "start_time": "16:30",
+      "recommended_market": "Değerli market yok",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
       "match_name": "Al Ittihad Kal VS Al Ain",
       "league": "Birleşik Arap Emirlikleri Arap Körfez Ligi",
       "start_time": "16:45",
@@ -1483,10 +1534,112 @@
       ]
     },
     {
+      "match_name": "Molodechno VS Bate Ii",
+      "league": "Belarus 1.Lig",
+      "start_time": "17:00",
+      "recommended_market": "Değerli market yok",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
       "match_name": "Es Zarzis VS Asc Diambars",
       "league": "CAF Konfederasyon Kupası 1.Ön Eleme Turu",
       "start_time": "17:30",
-      "recommended_market": "Değerli market yok",
+      "recommended_market": "2.5 Alt",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Volna Pinsk VS Dinamo Minsk Ii",
+      "league": "Belarus 1.Lig",
+      "start_time": "17:30",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2251,8 +2404,8 @@
       "match_name": "Abha VS Al Ettifaq",
       "league": "Suudi Arabistan Pro Lig",
       "start_time": "19:00",
-      "recommended_market": "Değerli market yok",
-      "data_gap_risk": "Yüksek",
+      "recommended_market": "MS 2",
+      "data_gap_risk": "Orta",
       "source_plan": [
         {
           "name": "Mackolik",
@@ -3016,7 +3169,7 @@
       "match_name": "Stal S Wola VS Zawisza Bydgosz",
       "league": "Polonya 2.Lig",
       "start_time": "19:00",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -3221,6 +3374,57 @@
       "league": "Tanzanya Kuu Bara Ligi",
       "start_time": "19:00",
       "recommended_market": "MS 1",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Al Ittifaq Maq VS Al Muharraq",
+      "league": "Bahreyn Premier Lig",
+      "start_time": "19:00",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -4356,7 +4560,7 @@
       "match_name": "Floridsdorfer VS Bregenz",
       "league": "Avusturya ÖFB Kupası 2.Tur",
       "start_time": "20:00",
-      "recommended_market": "MS 1",
+      "recommended_market": "2.5 Üst",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -6352,7 +6556,7 @@
       "match_name": "Js Saoura VS Horoya",
       "league": "CAF Şampiyonlar Ligi 1.Ön Eleme Turu",
       "start_time": "21:00",
-      "recommended_market": "Değerli market yok",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -6760,7 +6964,7 @@
       "match_name": "Beerschot-Wilr VS Patro Eisden",
       "league": "Belçika Challenger Pro Lig",
       "start_time": "21:00",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -10126,7 +10330,7 @@
       "match_name": "Concepcion VS Audax Italiano",
       "league": "Şili Premier Lig",
       "start_time": "03:30",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Orta",
       "source_plan": [
         {
@@ -10432,7 +10636,7 @@
       "match_name": "Liberia VS Inter San Carlo",
       "league": "Kosta Rika Premier Lig Apertura",
       "start_time": "05:00",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -10535,108 +10739,6 @@
       "league": "Meksika Ascenso MX Apertura",
       "start_time": "06:00",
       "recommended_market": "MS 1",
-      "data_gap_risk": "Yüksek",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "South Hobart VS Devonport City",
-      "league": "Avustralya NPL Tazmanya Büyük Final",
-      "start_time": "06:00",
-      "recommended_market": "MS 1",
-      "data_gap_risk": "Yüksek",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Avondale Heigh VS Preston Lions",
-      "league": "Avustralya NPL Victoria Eleme Final",
-      "start_time": "07:00",
-      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
