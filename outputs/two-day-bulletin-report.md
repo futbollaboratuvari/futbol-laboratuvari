@@ -2,33 +2,15 @@
 
 Gunler: 2026-09-04 / 2026-09-05
 Kaynak: fixtures.json
-Ham mac: 215
-Aktif mac: 197
+Ham mac: 201
+Aktif mac: 179
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 18
-Bugun: 177
+Bultenden dusurulen mac: 22
+Bugun: 159
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-09-04 14:00 | Vietnam V-Lig 1 | Binh Phuoc - Viettel | scheduled | -
-- 2026-09-04 14:00 | İngiltere Professional Development Lig | Sheffield Wedn - Wigan Athletic | scheduled | -
-- 2026-09-04 14:00 | Avustralya NPL Batı Avustralya Yarı Final | Bayswater City - Olympic Kingswa | scheduled | -
-- 2026-09-04 14:00 | Avustralya NPL Batı Avustralya Yarı Final | Perth Redstar - Perth | scheduled | -
-- 2026-09-04 15:00 | Endonezya Süper Lig | Bali United - Pss Sleman | scheduled | -
-- 2026-09-04 15:00 | Tayland 1.Lig | Pattani - Bg Pathum Unite | scheduled | -
-- 2026-09-04 15:15 | Malezya Süper Lig | Johor Dt - Dpmm Fc | scheduled | -
-- 2026-09-04 16:00 | Güney Afrika 1.Lig | Casric Stars - Midlands Wander | scheduled | -
-- 2026-09-04 16:00 | Tanzanya Kuu Bara Ligi | Tabora United - Mbeya City | scheduled | -
-- 2026-09-04 16:30 | Mısır 2. Lig | El Daklyeh - Pharco | scheduled | -
-- 2026-09-04 16:30 | Mısır 2. Lig | Ismaily - Nasr | scheduled | -
-- 2026-09-04 16:30 | Mısır 2. Lig | Tanta - Masar | scheduled | -
-- 2026-09-04 16:30 | Mısır 2. Lig | Proxy - Tersana | scheduled | -
-- 2026-09-04 16:30 | Belarus 1.Lig | Fc Minsk Ii - Niva Dolbizno | scheduled | -
-- 2026-09-04 16:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ittihad Kal - Al Ain | scheduled | -
-- 2026-09-04 17:00 | Azerbaycan Premier Lig | Qabala - İmişli Fk | scheduled | -
-- 2026-09-04 17:00 | Katar Yıldızlar Ligi | Al Shamal - Shahaniya | scheduled | -
-- 2026-09-04 17:00 | Belarus 1.Lig | Molodechno - Bate Ii | scheduled | -
 - 2026-09-04 17:30 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Es Zarzis - Asc Diambars | scheduled | -
 - 2026-09-04 17:30 | Belarus 1.Lig | Volna Pinsk - Dinamo Minsk Ii | scheduled | -
 - 2026-09-04 18:00 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Panthere - Rayon Sports | scheduled | -
