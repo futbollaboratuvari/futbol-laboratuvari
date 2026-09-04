@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-04 / 2026-09-05
 Kaynak: fixtures.json
-Ham mac: 198
-Aktif mac: 196
+Ham mac: 215
+Aktif mac: 197
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 176
+Bultenden dusurulen mac: 18
+Bugun: 177
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-09-04 13:00 | Ukrayna Premier Lig | Chernomorets - Livyi Bereh | scheduled | -
-- 2026-09-04 13:30 | Güney Kore K Lig 2 | Paju Citizen - Daegu | scheduled | -
-- 2026-09-04 13:30 | Güney Kore K Lig 2 | Cheongju Fc - Seoul E-Land | scheduled | -
 - 2026-09-04 14:00 | Vietnam V-Lig 1 | Binh Phuoc - Viettel | scheduled | -
 - 2026-09-04 14:00 | İngiltere Professional Development Lig | Sheffield Wedn - Wigan Athletic | scheduled | -
 - 2026-09-04 14:00 | Avustralya NPL Batı Avustralya Yarı Final | Bayswater City - Olympic Kingswa | scheduled | -
@@ -27,10 +24,13 @@ Yarin: 20
 - 2026-09-04 16:30 | Mısır 2. Lig | Ismaily - Nasr | scheduled | -
 - 2026-09-04 16:30 | Mısır 2. Lig | Tanta - Masar | scheduled | -
 - 2026-09-04 16:30 | Mısır 2. Lig | Proxy - Tersana | scheduled | -
+- 2026-09-04 16:30 | Belarus 1.Lig | Fc Minsk Ii - Niva Dolbizno | scheduled | -
 - 2026-09-04 16:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ittihad Kal - Al Ain | scheduled | -
 - 2026-09-04 17:00 | Azerbaycan Premier Lig | Qabala - İmişli Fk | scheduled | -
 - 2026-09-04 17:00 | Katar Yıldızlar Ligi | Al Shamal - Shahaniya | scheduled | -
+- 2026-09-04 17:00 | Belarus 1.Lig | Molodechno - Bate Ii | scheduled | -
 - 2026-09-04 17:30 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Es Zarzis - Asc Diambars | scheduled | -
+- 2026-09-04 17:30 | Belarus 1.Lig | Volna Pinsk - Dinamo Minsk Ii | scheduled | -
 - 2026-09-04 18:00 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Panthere - Rayon Sports | scheduled | -
 - 2026-09-04 18:00 | Ukrayna Premier Lig | Polessya - Kudrivka | scheduled | -
 - 2026-09-04 18:00 | Ürdün Premier Lig | Shabab Al Ordo - Al-Ramtha | scheduled | -
@@ -65,6 +65,7 @@ Yarin: 20
 - 2026-09-04 19:00 | Litvanya 1.Lig | Hegelmann Ii - Fa Siauliai Ii | scheduled | -
 - 2026-09-04 19:00 | Litvanya 1.Lig | Lietava Jonava - Fk Dainava | scheduled | -
 - 2026-09-04 19:00 | Tanzanya Kuu Bara Ligi | Dodoma Jiji - Mashujaa | scheduled | -
+- 2026-09-04 19:00 | Bahreyn Premier Lig | Al Ittifaq Maq - Al Muharraq | scheduled | -
 - 2026-09-04 19:15 | Azerbaycan Premier Lig | Kapaz - Keshla | scheduled | -
 - 2026-09-04 19:15 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Wasl - Khorfakkan Club | scheduled | -
 - 2026-09-04 19:15 | Katar Yıldızlar Ligi | Lusail City - Al Wakrah | scheduled | -

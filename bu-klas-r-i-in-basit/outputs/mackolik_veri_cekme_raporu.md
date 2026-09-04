@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-04T05:58:29.515839+00:00
+Tarih: 2026-09-04T10:44:36.043110+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 198
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 197
-- Ham veri havuzu toplam mac sayisi: 11346
+- Kac mac bulundu: 197
+- Kac mac kaydedildi: 4
+- Kac mac zaten vardi: 193
+- Ham veri havuzu toplam mac sayisi: 11350
 - Hedef tarih: 04.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -28,6 +28,7 @@ Tarih: 2026-09-04T05:58:29.515839+00:00
 - Avusturya ÖFB Kupası 2.Tur
 - Azerbaycan Premier Lig
 - Bahreyn Premier Lig
+- Belarus 1.Lig
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
@@ -55,7 +56,6 @@ Tarih: 2026-09-04T05:58:29.515839+00:00
 - Guatemala Ulusal Lig Apertura
 - Güney Afrika 1.Lig
 - Güney Afrika PSL
-- Güney Kore K Lig 2
 - Gürcistan Erovnuli Liga
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
@@ -120,7 +120,6 @@ Tarih: 2026-09-04T05:58:29.515839+00:00
 - İsveç 2.Lig Vastra Götaland
 - İsveç Superettan
 - İsviçre Challenge Lig
-- İtalya Primavera Şampiyonası 1
 - İtalya Serie A
 - Şili Premier Lig
 
@@ -197,21 +196,21 @@ Tarih: 2026-09-04T05:58:29.515839+00:00
 | 04.09.2026 | 22:00 | İngiltere Premier Lig | Ipswich | Liverpool | 02277 | 5 |
 | 04.09.2026 | 22:00 | İspanya LaLiga | Real Betis | Real Madrid | 13549 | 5 |
 | 04.09.2026 | 21:45 | İtalya Serie A | Genoa | Como | 06604 | 5 |
-| 04.09.2026 | 22:05 | Fransa Ligue 1 | Psg | Monaco | 17396 | 5 |
 | 04.09.2026 | 20:00 | Fransa Ligue 1 | Lyon | Auxerre | 00340 | 5 |
+| 04.09.2026 | 22:05 | Fransa Ligue 1 | Psg | Monaco | 17396 | 5 |
 | 04.09.2026 | 21:30 | Almanya Bundesliga | Stuttgart | Köln | 00144 | 5 |
 | 04.09.2026 | 21:00 | Hollanda Eredivisie | Sparta Rotterd | Zwolle | 02300 | 5 |
 | 04.09.2026 | 22:15 | Portekiz Premier Lig | Porto | Moreirense | 03826 | 4 |
-| 04.09.2026 | 19:00 | Suudi Arabistan Pro Lig | Abha | Al Ettifaq | 49506 | 5 |
 | 04.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy | Al Hilal (Riyad | 43767 | 5 |
 | 04.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ahli (Cidde | Al Riyadh | 43809 | 5 |
+| 04.09.2026 | 19:00 | Suudi Arabistan Pro Lig | Abha | Al Ettifaq | 43725 | 5 |
 | 04.09.2026 | 21:45 | Belçika Pro Lig | Lommel | Club Brugge | 02070 | 5 |
 | 04.09.2026 | 21:30 | İspanya 2.Lig | Las Palmas | Leganes | 00049 | 5 |
-| 04.09.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Sochaux | 18199 | 5 |
-| 04.09.2026 | 21:00 | Fransa Ligue 2 | Boulogne | Dijon | 18416 | 5 |
-| 04.09.2026 | 21:00 | Fransa Ligue 2 | Stade Lavalloi | Red Star Paris | 18286 | 5 |
-| 04.09.2026 | 21:00 | Fransa Ligue 2 | Grenoble | Annecy | 18116 | 5 |
 | 04.09.2026 | 21:00 | Fransa Ligue 2 | Dunkerque | Clermont | 02108 | 5 |
+| 04.09.2026 | 21:00 | Fransa Ligue 2 | Grenoble | Annecy | 18116 | 5 |
+| 04.09.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Sochaux | 18199 | 5 |
+| 04.09.2026 | 21:00 | Fransa Ligue 2 | Stade Lavalloi | Red Star Paris | 18286 | 5 |
+| 04.09.2026 | 21:00 | Fransa Ligue 2 | Boulogne | Dijon | 18416 | 5 |
 | 04.09.2026 | 19:30 | Almanya 2. Bundesliga | Hannover | Karlsruhe | 16531 | 5 |
 
 ## Sonuc
