@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-04 / 2026-09-05
 Kaynak: fixtures.json
-Ham mac: 211
-Aktif mac: 198
+Ham mac: 198
+Aktif mac: 196
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 13
-Bugun: 178
+Bultenden dusurulen mac: 2
+Bugun: 176
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-09-04 11:30 | Endonezya Süper Lig | Arema - Adhyaksa | scheduled | -
-- 2026-09-04 12:00 | İtalya Primavera Şampiyonası 1 | Lecce U20 - Roma U20 | scheduled | -
 - 2026-09-04 13:00 | Ukrayna Premier Lig | Chernomorets - Livyi Bereh | scheduled | -
 - 2026-09-04 13:30 | Güney Kore K Lig 2 | Paju Citizen - Daegu | scheduled | -
 - 2026-09-04 13:30 | Güney Kore K Lig 2 | Cheongju Fc - Seoul E-Land | scheduled | -

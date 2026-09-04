@@ -1,12 +1,14 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 207
-Tam analiz: 189
-Eksik analiz: 18
+Toplam analiz: 198
+Tam analiz: 179
+Eksik analiz: 19
 
 - Perth Redstar VS Perth: eksik score, confidence
+- Johor Dt VS Dpmm Fc: eksik score, confidence
 - Al Ittihad Kal VS Al Ain: eksik score, confidence
+- Es Zarzis VS Asc Diambars: eksik score, confidence
 - Be1 Nfa VS Kauno Zalgiris: eksik score, confidence
 - Abha VS Al Ettifaq: eksik score, confidence
 - Karvina VS Kladno: eksik score, confidence
@@ -20,6 +22,5 @@ Eksik analiz: 18
 - Js Saoura VS Horoya: eksik score, confidence
 - Lommel VS Club Brugge: eksik score, confidence
 - Llandudno VS Ammanford: eksik score, confidence
-- Real Betis VS Real Madrid: eksik score, confidence
 - Fleury 91 (K) VS Lyon (K): eksik score, confidence
 - Psg VS Monaco: eksik score, confidence
