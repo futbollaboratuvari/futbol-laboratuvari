@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-04 / 2026-09-05
 Kaynak: fixtures.json
-Ham mac: 210
-Aktif mac: 202
+Ham mac: 209
+Aktif mac: 201
 Canli mac: 0
 Biten mac: 0
 Bultenden dusurulen mac: 8
-Bugun: 182
+Bugun: 181
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-09-04 03:00 | Ekvador Pro Lig | Libertad - Emelec | scheduled | -
 - 2026-09-04 04:00 | Kolombiya Primera A Clausura | Pereira - Independiente M | scheduled | -
 - 2026-09-04 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Dorados | scheduled | -
 - 2026-09-04 04:00 | Nikaragua Premier Lig Apertura | Matagalpa - Unan Managua | scheduled | -
