@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-04T14:37:37.510365+00:00
+Tarih: 2026-09-04T17:52:06.888775+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 179
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 178
+- Kac mac bulundu: 101
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 101
 - Ham veri havuzu toplam mac sayisi: 11351
 - Hedef tarih: 04.09.2026 Europe/Istanbul
 
@@ -16,34 +16,19 @@ Tarih: 2026-09-04T14:37:37.510365+00:00
 
 - ABD MLS
 - ABD USL
-- Almanya 2. Bundesliga
-- Almanya 3. Lig
 - Almanya Bundesliga
-- Almanya Kadınlar Bundesliga
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Tazmanya Büyük Final
 - Avustralya NPL Victoria Eleme Final
-- Avusturya ÖFB Kupası 2.Tur
-- Azerbaycan Premier Lig
-- Bahreyn Premier Lig
-- Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
-- Birleşik Arap Emirlikleri 1.Lig
-- Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bolivya Premier Lig
 - Brezilya Serie B
 - Bulgaristan 1.Lig
-- CAF Konfederasyon Kupası 1.Ön Eleme Turu
 - CAF Şampiyonlar Ligi 1.Ön Eleme Turu
 - Cezayir 1.Lig
-- Danimarka 1.Lig
-- Danimarka 2.Lig
-- Danimarka 3.Lig
-- Danimarka Süperlig
 - Ekvador Pro Lig
-- Finlandiya Ykkösliiga
 - Fransa Kadınlar 1.Lig
 - Fransa Ligue 1
 - Fransa Ligue 2
@@ -52,45 +37,26 @@ Tarih: 2026-09-04T14:37:37.510365+00:00
 - Galler Premier Lig 1.Aşama
 - Guatemala Ulusal Lig Apertura
 - Güney Afrika 1.Lig
-- Güney Afrika PSL
-- Gürcistan Erovnuli Liga
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
-- Katar Yıldızlar Ligi
 - Kosta Rika Premier Lig Apertura
 - Kuveyt Premier Lig
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
-- Litvanya 1.Lig
-- Macaristan NB I
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
-- Mısır 2. Lig
-- Norveç 3.Lig Grup 1
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
-- Polonya 2.Lig
 - Polonya Ekstraklasa
 - Portekiz 3.Lig Grup B
 - Portekiz Premier Lig
-- Romanya 1.Lig
-- Rusya FNL
-- Slovakya 2.Lig
 - Slovenya 1.SNL
-- Slovenya 2.SNL
 - Suudi Arabistan Pro Lig
-- Sırbistan Süper Lig
-- Tanzanya Kuu Bara Ligi
-- Türkiye Süper Lig
-- Uganda Premier Lig
-- Ukrayna Premier Lig
 - Uruguay Premier Lig Clausura
-- Çek Cumhuriyeti FNL
-- Ürdün Premier Lig
 - İngiltere FA Cup Eleme 1.Tur
 - İngiltere Kadınlar Premier Lig
 - İngiltere Premier Lig
@@ -107,11 +73,7 @@ Tarih: 2026-09-04T14:37:37.510365+00:00
 - İspanya 2.Lig
 - İspanya LaLiga
 - İspanya Primera Lig RFEF Grup 1
-- İspanya Primera Lig RFEF Grup 2
-- İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Södra Svealand
-- İsveç 2.Lig Vastra Götaland
-- İsveç Superettan
 - İsviçre Challenge Lig
 - İtalya Serie A
 - Şili Premier Lig
@@ -171,8 +133,8 @@ Tarih: 2026-09-04T14:37:37.510365+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 90
-- Acilan detay: 90
+- Denenen Tumu alani: 66
+- Acilan detay: 66
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -185,26 +147,26 @@ Tarih: 2026-09-04T14:37:37.510365+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 04.09.2026 | 20:00 | Türkiye Süper Lig | Başakşehir Fk | Galatasaray | 15384 | 5 |
 | 04.09.2026 | 22:00 | İngiltere Premier Lig | Ipswich | Liverpool | 02277 | 5 |
 | 04.09.2026 | 22:00 | İspanya LaLiga | Real Betis | Real Madrid | 13549 | 5 |
 | 04.09.2026 | 21:45 | İtalya Serie A | Genoa | Como | 06604 | 5 |
-| 04.09.2026 | 20:00 | Fransa Ligue 1 | Lyon | Auxerre | 00340 | 5 |
 | 04.09.2026 | 22:05 | Fransa Ligue 1 | Psg | Monaco | 17396 | 5 |
 | 04.09.2026 | 21:30 | Almanya Bundesliga | Stuttgart | Köln | 00144 | 5 |
 | 04.09.2026 | 21:00 | Hollanda Eredivisie | Sparta Rotterd | Zwolle | 02300 | 5 |
 | 04.09.2026 | 22:15 | Portekiz Premier Lig | Porto | Moreirense | 03826 | 4 |
 | 04.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ahli (Cidde | Al Riyadh | 43809 | 5 |
 | 04.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy | Al Hilal (Riyad | 43767 | 5 |
-| 04.09.2026 | 19:00 | Suudi Arabistan Pro Lig | Abha | Al Ettifaq | 43725 | 5 |
 | 04.09.2026 | 21:45 | Belçika Pro Lig | Lommel | Club Brugge | 02070 | 5 |
 | 04.09.2026 | 21:30 | İspanya 2.Lig | Las Palmas | Leganes | 00049 | 5 |
-| 04.09.2026 | 21:00 | Fransa Ligue 2 | Boulogne | Dijon | 18416 | 5 |
-| 04.09.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Sochaux | 18199 | 5 |
-| 04.09.2026 | 21:00 | Fransa Ligue 2 | Grenoble | Annecy | 18116 | 5 |
 | 04.09.2026 | 21:00 | Fransa Ligue 2 | Stade Lavalloi | Red Star Paris | 18286 | 5 |
 | 04.09.2026 | 21:00 | Fransa Ligue 2 | Dunkerque | Clermont | 02108 | 5 |
-| 04.09.2026 | 19:30 | Almanya 2. Bundesliga | Arminia Bielef | St Pauli | 07697 | 5 |
+| 04.09.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Sochaux | 18199 | 5 |
+| 04.09.2026 | 21:00 | Fransa Ligue 2 | Grenoble | Annecy | 18116 | 5 |
+| 04.09.2026 | 21:00 | Fransa Ligue 2 | Boulogne | Dijon | 18416 | 5 |
+| 04.09.2026 | 21:00 | Hollanda Eerste Divisie | Helmond Sport | Vvv Venlo | 24511 | 5 |
+| 04.09.2026 | 21:00 | Hollanda Eerste Divisie | Heracles | De Graafschap | 24883 | 5 |
+| 04.09.2026 | 21:00 | Hollanda Eerste Divisie | Almere City | Ajax (B) | 24403 | 5 |
+| 04.09.2026 | 21:00 | Hollanda Eerste Divisie | Emmen | Volendam | 24457 | 5 |
 
 ## Sonuc
 
