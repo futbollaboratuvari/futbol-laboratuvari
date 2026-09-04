@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-04 / 2026-09-05
 Kaynak: fixtures.json
-Ham mac: 201
-Aktif mac: 179
+Ham mac: 216
+Aktif mac: 177
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 22
-Bugun: 159
+Bultenden dusurulen mac: 39
+Bugun: 157
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-09-04 17:30 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Es Zarzis - Asc Diambars | scheduled | -
-- 2026-09-04 17:30 | Belarus 1.Lig | Volna Pinsk - Dinamo Minsk Ii | scheduled | -
 - 2026-09-04 18:00 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Panthere - Rayon Sports | scheduled | -
 - 2026-09-04 18:00 | Ukrayna Premier Lig | Polessya - Kudrivka | scheduled | -
 - 2026-09-04 18:00 | Ürdün Premier Lig | Shabab Al Ordo - Al-Ramtha | scheduled | -

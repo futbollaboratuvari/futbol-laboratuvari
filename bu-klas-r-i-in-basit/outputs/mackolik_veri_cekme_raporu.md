@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-04T10:44:36.043110+00:00
+Tarih: 2026-09-04T14:37:37.510365+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 197
-- Kac mac kaydedildi: 4
-- Kac mac zaten vardi: 193
-- Ham veri havuzu toplam mac sayisi: 11350
+- Kac mac bulundu: 179
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 178
+- Ham veri havuzu toplam mac sayisi: 11351
 - Hedef tarih: 04.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -22,13 +22,11 @@ Tarih: 2026-09-04T10:44:36.043110+00:00
 - Almanya Kadınlar Bundesliga
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Batı Avustralya Yarı Final
 - Avustralya NPL Tazmanya Büyük Final
 - Avustralya NPL Victoria Eleme Final
 - Avusturya ÖFB Kupası 2.Tur
 - Azerbaycan Premier Lig
 - Bahreyn Premier Lig
-- Belarus 1.Lig
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
@@ -45,7 +43,6 @@ Tarih: 2026-09-04T10:44:36.043110+00:00
 - Danimarka 3.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
-- Endonezya Süper Lig
 - Finlandiya Ykkösliiga
 - Fransa Kadınlar 1.Lig
 - Fransa Ligue 1
@@ -69,7 +66,6 @@ Tarih: 2026-09-04T10:44:36.043110+00:00
 - Kuzey İrlanda Premiership
 - Litvanya 1.Lig
 - Macaristan NB I
-- Malezya Süper Lig
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
 - Mısır 2. Lig
@@ -89,12 +85,10 @@ Tarih: 2026-09-04T10:44:36.043110+00:00
 - Suudi Arabistan Pro Lig
 - Sırbistan Süper Lig
 - Tanzanya Kuu Bara Ligi
-- Tayland 1.Lig
 - Türkiye Süper Lig
 - Uganda Premier Lig
 - Ukrayna Premier Lig
 - Uruguay Premier Lig Clausura
-- Vietnam V-Lig 1
 - Çek Cumhuriyeti FNL
 - Ürdün Premier Lig
 - İngiltere FA Cup Eleme 1.Tur
@@ -105,7 +99,6 @@ Tarih: 2026-09-04T10:44:36.043110+00:00
 - İngiltere Premier Lig Kupası Grup F
 - İngiltere Premier Lig Kupası Grup H
 - İngiltere Premier Lig Kupası Grup I
-- İngiltere Professional Development Lig
 - İngiltere Ulusal Lig
 - İrlanda 1.Lig
 - İrlanda FAI Kupası Çeyrek Final
@@ -201,17 +194,17 @@ Tarih: 2026-09-04T10:44:36.043110+00:00
 | 04.09.2026 | 21:30 | Almanya Bundesliga | Stuttgart | Köln | 00144 | 5 |
 | 04.09.2026 | 21:00 | Hollanda Eredivisie | Sparta Rotterd | Zwolle | 02300 | 5 |
 | 04.09.2026 | 22:15 | Portekiz Premier Lig | Porto | Moreirense | 03826 | 4 |
-| 04.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy | Al Hilal (Riyad | 43767 | 5 |
 | 04.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ahli (Cidde | Al Riyadh | 43809 | 5 |
+| 04.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy | Al Hilal (Riyad | 43767 | 5 |
 | 04.09.2026 | 19:00 | Suudi Arabistan Pro Lig | Abha | Al Ettifaq | 43725 | 5 |
 | 04.09.2026 | 21:45 | Belçika Pro Lig | Lommel | Club Brugge | 02070 | 5 |
 | 04.09.2026 | 21:30 | İspanya 2.Lig | Las Palmas | Leganes | 00049 | 5 |
-| 04.09.2026 | 21:00 | Fransa Ligue 2 | Dunkerque | Clermont | 02108 | 5 |
-| 04.09.2026 | 21:00 | Fransa Ligue 2 | Grenoble | Annecy | 18116 | 5 |
-| 04.09.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Sochaux | 18199 | 5 |
-| 04.09.2026 | 21:00 | Fransa Ligue 2 | Stade Lavalloi | Red Star Paris | 18286 | 5 |
 | 04.09.2026 | 21:00 | Fransa Ligue 2 | Boulogne | Dijon | 18416 | 5 |
-| 04.09.2026 | 19:30 | Almanya 2. Bundesliga | Hannover | Karlsruhe | 16531 | 5 |
+| 04.09.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Sochaux | 18199 | 5 |
+| 04.09.2026 | 21:00 | Fransa Ligue 2 | Grenoble | Annecy | 18116 | 5 |
+| 04.09.2026 | 21:00 | Fransa Ligue 2 | Stade Lavalloi | Red Star Paris | 18286 | 5 |
+| 04.09.2026 | 21:00 | Fransa Ligue 2 | Dunkerque | Clermont | 02108 | 5 |
+| 04.09.2026 | 19:30 | Almanya 2. Bundesliga | Arminia Bielef | St Pauli | 07697 | 5 |
 
 ## Sonuc
 
