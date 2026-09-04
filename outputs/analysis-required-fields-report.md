@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 209
-Tam analiz: 191
+Toplam analiz: 207
+Tam analiz: 189
 Eksik analiz: 18
 
 - Perth Redstar VS Perth: eksik score, confidence
