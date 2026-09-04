@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-04T01:13:54.832825+00:00
+Tarih: 2026-09-04T05:58:29.515839+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 197
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 198
+- Kac mac kaydedildi: 1
 - Kac mac zaten vardi: 197
-- Ham veri havuzu toplam mac sayisi: 11345
+- Ham veri havuzu toplam mac sayisi: 11346
 - Hedef tarih: 04.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -69,6 +69,7 @@ Tarih: 2026-09-04T01:13:54.832825+00:00
 - Kuzey İrlanda Premiership
 - Litvanya 1.Lig
 - Macaristan NB I
+- Malezya Süper Lig
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
 - Mısır 2. Lig
@@ -200,7 +201,7 @@ Tarih: 2026-09-04T01:13:54.832825+00:00
 | 04.09.2026 | 20:00 | Fransa Ligue 1 | Lyon | Auxerre | 00340 | 5 |
 | 04.09.2026 | 21:30 | Almanya Bundesliga | Stuttgart | Köln | 00144 | 5 |
 | 04.09.2026 | 21:00 | Hollanda Eredivisie | Sparta Rotterd | Zwolle | 02300 | 5 |
-| 04.09.2026 | 22:15 | Portekiz Premier Lig | Porto | Moreirense | 03826 | 5 |
+| 04.09.2026 | 22:15 | Portekiz Premier Lig | Porto | Moreirense | 03826 | 4 |
 | 04.09.2026 | 19:00 | Suudi Arabistan Pro Lig | Abha | Al Ettifaq | 49506 | 5 |
 | 04.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy | Al Hilal (Riyad | 43767 | 5 |
 | 04.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ahli (Cidde | Al Riyadh | 43809 | 5 |

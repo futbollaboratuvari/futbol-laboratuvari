@@ -2,12 +2,12 @@
 
 Gunler: 2026-09-04 / 2026-09-05
 Kaynak: fixtures.json
-Ham mac: 207
-Aktif mac: 197
+Ham mac: 211
+Aktif mac: 198
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 177
+Bultenden dusurulen mac: 13
+Bugun: 178
 Yarin: 20
 
 ## Baslamamis Maclar
@@ -22,6 +22,7 @@ Yarin: 20
 - 2026-09-04 14:00 | Avustralya NPL Batı Avustralya Yarı Final | Perth Redstar - Perth | scheduled | -
 - 2026-09-04 15:00 | Endonezya Süper Lig | Bali United - Pss Sleman | scheduled | -
 - 2026-09-04 15:00 | Tayland 1.Lig | Pattani - Bg Pathum Unite | scheduled | -
+- 2026-09-04 15:15 | Malezya Süper Lig | Johor Dt - Dpmm Fc | scheduled | -
 - 2026-09-04 16:00 | Güney Afrika 1.Lig | Casric Stars - Midlands Wander | scheduled | -
 - 2026-09-04 16:00 | Tanzanya Kuu Bara Ligi | Tabora United - Mbeya City | scheduled | -
 - 2026-09-04 16:30 | Mısır 2. Lig | El Daklyeh - Pharco | scheduled | -

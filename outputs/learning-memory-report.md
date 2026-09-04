@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 04.09.2026 07:45:52
+Oluşturma: 04.09.2026 08:59:31
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1105
-- Kazanan tahmin: 226
+- Bekleyen tahmin: 1106
+- Kazanan tahmin: 225
 - Kaybeden tahmin: 169
-- Lig sayısı: 231
-- Seçenek sayısı: 7
+- Lig sayısı: 230
+- Seçenek sayısı: 5
 
 ## Öğrenme Mantığı
 
@@ -22,29 +22,27 @@ Oluşturma: 04.09.2026 07:45:52
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 232, bekleyen 194, başarı %63, düz getiri %4, ağırlık 1
-- MS 1: toplam 478, bekleyen 373, başarı %59, düz getiri %-3, ağırlık 1
-- 2.5 Üst: toplam 220, bekleyen 130, başarı %58, düz getiri %2, ağırlık 1
-- 2.5 Alt: toplam 559, bekleyen 399, başarı %54, düz getiri %-10, ağırlık 1
+- MS 2: toplam 236, bekleyen 198, başarı %63, düz getiri %4, ağırlık 1
+- MS 1: toplam 474, bekleyen 370, başarı %59, düz getiri %-4, ağırlık 1
+- 2.5 Üst: toplam 221, bekleyen 131, başarı %58, düz getiri %2, ağırlık 1
+- 2.5 Alt: toplam 560, bekleyen 400, başarı %54, düz getiri %-10, ağırlık 1
 - MS X: toplam 9, bekleyen 7, başarı %50, düz getiri %24, ağırlık 1
-- KG Var: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- KG Yok: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-04 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Aurora | MS 1 | pending | 60/100
+- 2026-09-04 | İngiltere FA Cup Eleme 1.Tur | Ossett United - Pontefract Coll | 2.5 Alt | pending | 48/100
+- 2026-09-04 | İspanya LaLiga | Real Betis - Real Madrid | MS 2 | pending | 60/100
+- 2026-09-04 | İrlanda Premier Lig | Shamrock Rover - Shelbourne | MS 1 | pending | 53/100
+- 2026-09-04 | Arjantin Premier Lig 2. Aşama | Rio Cuarto - Sarmiento | MS 2 | pending | 44/100
+- 2026-09-04 | İrlanda FAI Kupası Çeyrek Final | Waterford - Sligo Rovers | MS 1 | pending | 44/100
+- 2026-09-04 | Sırbistan Süper Lig | Novi Pazar - Zeleznicar Panc | 2.5 Üst | pending | 54/100
+- 2026-09-04 | İsveç Superettan | Oster - United Nordic | MS 2 | pending | 44/100
+- 2026-09-04 | Romanya 1.Lig | Cfr Cluj - Ssc Farul | 2.5 Alt | pending | 53/100
+- 2026-09-04 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Port Sudan - Welwalo Adigrat | MS 1 | pending | 50/100
+- 2026-09-04 | Slovenya 2.SNL | Jadran Dekani - Tabor Sezana | MS 2 | pending | 57/100
+- 2026-09-04 | Finlandiya Ykkösliiga | Jippo Joensuu - Kotka | 2.5 Üst | pending | 53/100
+- 2026-09-04 | Tayland 1.Lig | Pattani - Bg Pathum Unite | 2.5 Alt | pending | 50/100
 - 2026-09-04 | Ekvador Pro Lig | T.Universitari - Ldu Quito | 2.5 Alt | pending | 61/100
 - 2026-09-04 | İngiltere Kadınlar Premier Lig | London City (K - Manchester Unit | 2.5 Alt | pending | 52/100
-- 2026-09-04 | Belarus Premier Lig | Slavia Mozyr - Vitebsk | MS 1 | pending | 46/100
-- 2026-09-04 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Es Zarzis - Asc Diambars | 2.5 Alt | pending | 57/100
-- 2026-09-04 | Galler Premier Lig 1.Aşama | Gap Connahs Qu - Haverfordwest | 2.5 Alt | pending | 48/100
-- 2026-09-04 | Galler Premier Lig 1.Aşama | Caernarfon - Flint Town | MS 1 | pending | 57/100
-- 2026-09-04 | Galler Premier Lig 1.Aşama | Cardiff Mu - Cambrian | MS 1 | pending | 51/100
-- 2026-09-04 | Galler Premier Lig 1.Aşama | Holywell Town - Trefelin | MS 2 | pending | 46/100
-- 2026-09-04 | Galler Premier Lig 1.Aşama | Briton Ferry - Airbus Uk | MS 1 | pending | 48/100
-- 2026-09-04 | Kuzey İrlanda Premiership | Larne Fc - Glentoran | 2.5 Alt | pending | 54/100
-- 2026-09-04 | İrlanda 1.Lig | Treaty Unt. - Wexford Youths | 2.5 Üst | pending | 53/100
-- 2026-09-04 | İrlanda 1.Lig | Finn Harps - Athlone | MS 2 | pending | 51/100
-- 2026-09-04 | İrlanda 1.Lig | Cobh Ramblers - Ucd | 2.5 Alt | pending | 49/100
-- 2026-09-04 | İrlanda 1.Lig | Bray Wanderers - Cork City | MS 2 | pending | 49/100
-- 2026-09-04 | Kuzey İrlanda Championship | Annagh United - Ards Fc | MS 1 | pending | 53/100
 
