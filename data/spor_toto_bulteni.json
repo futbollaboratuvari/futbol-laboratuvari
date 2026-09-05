@@ -1,2122 +1,377 @@
 {
-  "generated_at": "2026-09-05T08:57:26.143Z",
+  "generated_at": "2026-09-05T09:15:07.698Z",
   "timezone": "Europe/Istanbul",
-  "source": "Haftalık 15 maç programı + Futbol Laboratuvarı PRO 13",
-  "official_game_format_verified": true,
-  "official_bulletin": false,
-  "program_verification_status": "cross_verified",
-  "bulletin_note": "Spor Toto oyunu haftalık 15 maçtır. Bu liste haftalık program kaynaklarıyla çapraz doğrulanır; Futbol Laboratuvarı yalnız doğrulanmış kendi verisi geldiğinde model tahmini üretir.",
-  "engine_version": "spor-toto-weekly15-safe-pro13-v2",
-  "season": "2026/2027",
-  "week": 3,
-  "week_label": "2026/2027 3. Hafta",
-  "program_start": "2026-08-28",
-  "program_end": "2026-08-31",
-  "match_count": 15,
-  "analysis_ready_count": 15,
-  "analysis_waiting_count": 0,
-  "source_match_count": 655,
-  "verification_sources": [
-    {
-      "name": "Spor Toto Teşkilat Başkanlığı",
-      "url": "https://sportoto.gov.tr/spor-toto-listeler",
-      "role": "official_program_page"
-    },
-    {
-      "name": "Spor Toto Formül 15",
-      "url": "https://sportotoformul15.com/",
-      "role": "current_week_cross_check"
-    },
-    {
-      "name": "Spor Toto Tahmin",
-      "url": "https://sportototahmin.com/blog",
-      "role": "current_week_cross_check"
-    },
-    {
-      "name": "Spor Toto Hedef 15",
-      "url": "https://www.sportotohedef15.com/sportoto_formul_yuzdeselformulu.php",
-      "role": "secondary_cross_check"
-    },
-    {
-      "name": "TFF",
-      "url": "https://www.tff.org/",
-      "role": "turkish_fixture_cross_check"
-    }
+  "source": "Maçkolik canlı veri bekleniyor",
+  "week_label": "2026-09-05 / 2026-09-11",
+  "total_source_matches": 655,
+  "active_match_count": 634,
+  "removed_finished_count": 21,
+  "removed_statuses": [
+    "finished",
+    "cancelled",
+    "postponed"
   ],
-  "coupon": {
-    "ready": true,
-    "total_columns": 4,
-    "single_count": 13,
-    "double_count": 2,
-    "triple_count": 0,
-    "average_confidence": 51,
-    "average_data_completeness": 28,
-    "unit_stake": null,
-    "estimated_cost": null,
-    "note": "15 maçın tamamı analiz sinyaliyle kupon hesabına hazır; dağılım bazlı maçlar yüksek risk olarak işaretlenmiştir."
-  },
+  "match_count": 15,
   "matches": [
     {
       "no": 1,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-28",
-      "time": "21:30",
-      "league": "Türkiye Süper Lig",
-      "home": "Gençlerbirliği",
-      "away": "Erzurumspor FK",
-      "match": "Gençlerbirliği - Erzurumspor FK",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "12:30",
+      "league": "Japonya J2 Lig",
+      "home": "Fujieda",
+      "away": "Vanraure",
+      "match": "Fujieda - Vanraure",
+      "one": 1.84,
+      "draw": 2.73,
+      "two": 3.32,
+      "oneOdd": 1.84,
+      "drawOdd": 2.73,
+      "twoOdd": 3.32,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 66,
-        "2": 15,
-        "X": 19
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 66,
-        "2": 15,
-        "X": 19
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "1",
-      "selected_options": [
-        "1"
-      ],
-      "selection": "1",
-      "coupon_role": "Oynanma Dağılımı Bazlı",
-      "classification": "Oynanma Dağılımı Bazlı",
-      "confidence": 51,
-      "confidence_score": 51,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 47,
-      "column_multiplier": 1,
-      "reasons": [
-        "PRO 13: 1 olasılığı %66.0; ikinci seçenek %19.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %66.0, X %19.0, 2 %15.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 0.5,
-          "wins": 1,
-          "draws": 1,
-          "losses": 0,
-          "winRate": 50,
-          "drawRate": 50,
-          "lossRate": 0,
-          "pointsPerGame": 2,
-          "recent": [
-            "W",
-            "D"
-          ],
-          "sample": 2,
-          "ppg": 2,
-          "goals_for_avg": 1,
-          "goals_against_avg": 0.5
-        },
-        "away": {
-          "count": 1,
-          "scored": 1,
-          "conceded": 1,
-          "bttsRate": 100,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 1,
-          "wins": 0,
-          "draws": 1,
-          "losses": 0,
-          "winRate": 0,
-          "drawRate": 100,
-          "lossRate": 0,
-          "pointsPerGame": 1,
-          "recent": [
-            "D"
-          ],
-          "sample": 1,
-          "ppg": 1,
-          "goals_for_avg": 1,
-          "goals_against_avg": 1
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-08-28",
-          "home": "Gençlerbirliği",
-          "away": "Erzurumspor Fk",
-          "score": "1-1"
-        }
-      ],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "Gençlerbirliği",
-        "canonical_away": "Erzurumspor FK",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 66,
-          "2": 15,
-          "X": 19
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     },
     {
       "no": 2,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-29",
-      "time": "19:00",
-      "league": "Türkiye Süper Lig",
-      "home": "Tümosan Konyaspor",
-      "away": "Kocaelispor",
-      "match": "Tümosan Konyaspor - Kocaelispor",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "12:30",
+      "league": "Avustralya NPL Güney Avustralya Yarı Final",
+      "home": "West Torrens (2)",
+      "away": "(2) Ne Metrostars",
+      "match": "West Torrens (2) - (2) Ne Metrostars",
+      "one": 2.07,
+      "draw": 3.17,
+      "two": 2.43,
+      "oneOdd": 2.07,
+      "drawOdd": 3.17,
+      "twoOdd": 2.43,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 64,
-        "2": 10,
-        "X": 26
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 64,
-        "2": 10,
-        "X": 26
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "1",
-      "selected_options": [
-        "1"
-      ],
-      "selection": "1",
-      "coupon_role": "Oynanma Dağılımı Bazlı",
-      "classification": "Oynanma Dağılımı Bazlı",
-      "confidence": 51,
-      "confidence_score": 51,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 38,
-      "column_multiplier": 1,
-      "reasons": [
-        "PRO 13: 1 olasılığı %64.0; ikinci seçenek %26.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %64.0, X %26.0, 2 %10.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 2,
-          "bttsRate": 100,
-          "over25Rate": 100,
-          "over35Rate": 50,
-          "goalsForAvg": 1.5,
-          "goalsAgainstAvg": 3,
-          "wins": 0,
-          "draws": 0,
-          "losses": 2,
-          "winRate": 0,
-          "drawRate": 0,
-          "lossRate": 100,
-          "pointsPerGame": 0,
-          "recent": [
-            "L",
-            "L"
-          ],
-          "sample": 2,
-          "ppg": 0,
-          "goals_for_avg": 1.5,
-          "goals_against_avg": 3
-        },
-        "away": {
-          "count": 1,
-          "scored": 1,
-          "conceded": 1,
-          "bttsRate": 100,
-          "over25Rate": 100,
-          "over35Rate": 0,
-          "goalsForAvg": 2,
-          "goalsAgainstAvg": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 100,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 3,
-          "recent": [
-            "W"
-          ],
-          "sample": 1,
-          "ppg": 3,
-          "goals_for_avg": 2,
-          "goals_against_avg": 1
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-08-29",
-          "home": "Konyaspor",
-          "away": "Kocaelispor",
-          "score": "1-2"
-        }
-      ],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "Konyaspor",
-        "canonical_away": "Kocaelispor",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 64,
-          "2": 10,
-          "X": 26
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     },
     {
       "no": 3,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-29",
-      "time": "21:30",
-      "league": "Türkiye Süper Lig",
-      "home": "Galatasaray",
-      "away": "Göztepe",
-      "match": "Galatasaray - Göztepe",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "12:30",
+      "league": "Avustralya NPL Güney Avustralya Yarı Final",
+      "home": "Adelaide City (2)",
+      "away": "(1) Playford City P",
+      "match": "Adelaide City (2) - (1) Playford City P",
+      "one": 1.49,
+      "draw": 3.54,
+      "two": 3.89,
+      "oneOdd": 1.49,
+      "drawOdd": 3.54,
+      "twoOdd": 3.89,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 72,
-        "2": 12,
-        "X": 16
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 72,
-        "2": 12,
-        "X": 16
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "1",
-      "selected_options": [
-        "1"
-      ],
-      "selection": "1",
-      "coupon_role": "Oynanma Dağılımı Bazlı",
-      "classification": "Oynanma Dağılımı Bazlı",
-      "confidence": 51,
-      "confidence_score": 51,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 56,
-      "column_multiplier": 1,
-      "reasons": [
-        "PRO 13: 1 olasılığı %72.0; ikinci seçenek %16.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %72.0, X %16.0, 2 %12.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 2,
-          "bttsRate": 100,
-          "over25Rate": 100,
-          "over35Rate": 100,
-          "goalsForAvg": 3,
-          "goalsAgainstAvg": 2,
-          "wins": 2,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 100,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 3,
-          "recent": [
-            "W",
-            "W"
-          ],
-          "sample": 2,
-          "ppg": 3,
-          "goals_for_avg": 3,
-          "goals_against_avg": 2
-        },
-        "away": {
-          "count": 2,
-          "scored": 1,
-          "conceded": 2,
-          "bttsRate": 50,
-          "over25Rate": 50,
-          "over35Rate": 50,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 2,
-          "wins": 0,
-          "draws": 0,
-          "losses": 2,
-          "winRate": 0,
-          "drawRate": 0,
-          "lossRate": 100,
-          "pointsPerGame": 0,
-          "recent": [
-            "L",
-            "L"
-          ],
-          "sample": 2,
-          "ppg": 0,
-          "goals_for_avg": 1,
-          "goals_against_avg": 2
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-08-29",
-          "home": "Galatasaray",
-          "away": "Göztepe",
-          "score": "3-2"
-        }
-      ],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "Galatasaray",
-        "canonical_away": "Göztepe",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 72,
-          "2": 12,
-          "X": 16
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     },
     {
       "no": 4,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-29",
-      "time": "21:30",
-      "league": "Türkiye Süper Lig",
-      "home": "Gaziantep FK",
-      "away": "Çaykur Rizespor",
-      "match": "Gaziantep FK - Çaykur Rizespor",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "13:00",
+      "league": "Ukrayna Premier Lig",
+      "home": "Kryvbas Kr",
+      "away": "Kolos Kovalivka",
+      "match": "Kryvbas Kr - Kolos Kovalivka",
+      "one": 3.13,
+      "draw": 2.95,
+      "two": 1.81,
+      "oneOdd": 3.13,
+      "drawOdd": 2.95,
+      "twoOdd": 1.81,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 30,
-        "2": 29,
-        "X": 41
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 30,
-        "2": 29,
-        "X": 41
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "X",
-      "selected_options": [
-        "1",
-        "X"
-      ],
-      "selection": "1X",
-      "coupon_role": "Çifte Şans",
-      "classification": "Oynanma Dağılımı · Çifte Adayı",
-      "confidence": 49,
-      "confidence_score": 49,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 11,
-      "column_multiplier": 2,
-      "reasons": [
-        "PRO 13: X olasılığı %41.0; ikinci seçenek %30.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %30.0, X %41.0, 2 %29.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 50,
-          "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "winRate": 50,
-          "drawRate": 0,
-          "lossRate": 50,
-          "pointsPerGame": 1.5,
-          "recent": [
-            "W",
-            "L"
-          ],
-          "sample": 2,
-          "ppg": 1.5,
-          "goals_for_avg": 1,
-          "goals_against_avg": 1
-        },
-        "away": {
-          "count": 2,
-          "scored": 1,
-          "conceded": 2,
-          "bttsRate": 50,
-          "over25Rate": 50,
-          "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 1.5,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "winRate": 50,
-          "drawRate": 0,
-          "lossRate": 50,
-          "pointsPerGame": 1.5,
-          "recent": [
-            "L",
-            "W"
-          ],
-          "sample": 2,
-          "ppg": 1.5,
-          "goals_for_avg": 1,
-          "goals_against_avg": 1.5
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-08-29",
-          "home": "Gaziantep Fk",
-          "away": "Rizespor",
-          "score": "1-2"
-        }
-      ],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "Gaziantep FK",
-        "canonical_away": "Rizespor",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 30,
-          "2": 29,
-          "X": 41
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     },
     {
       "no": 5,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-30",
-      "time": "19:00",
-      "league": "Türkiye Süper Lig",
-      "home": "Eyüpspor",
-      "away": "Corendon Alanyaspor",
-      "match": "Eyüpspor - Corendon Alanyaspor",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "13:00",
+      "league": "Ukrayna Premier Lig",
+      "home": "Fc Kharkiv",
+      "away": "Obolon-Brovar",
+      "match": "Fc Kharkiv - Obolon-Brovar",
+      "one": 1.18,
+      "draw": 4.41,
+      "two": 7.15,
+      "oneOdd": 1.18,
+      "drawOdd": 4.41,
+      "twoOdd": 7.15,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 23,
-        "2": 49,
-        "X": 28
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 23,
-        "2": 49,
-        "X": 28
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "2",
-      "selected_options": [
-        "2"
-      ],
-      "selection": "2",
-      "coupon_role": "Oynanma Dağılımı Bazlı",
-      "classification": "Oynanma Dağılımı Bazlı",
-      "confidence": 51,
-      "confidence_score": 51,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 21,
-      "column_multiplier": 1,
-      "reasons": [
-        "PRO 13: 2 olasılığı %49.0; ikinci seçenek %28.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %23.0, X %28.0, 2 %49.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 2,
-          "scored": 1,
-          "conceded": 2,
-          "bttsRate": 50,
-          "over25Rate": 50,
-          "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "winRate": 50,
-          "drawRate": 0,
-          "lossRate": 50,
-          "pointsPerGame": 1.5,
-          "recent": [
-            "L",
-            "W"
-          ],
-          "sample": 2,
-          "ppg": 1.5,
-          "goals_for_avg": 1,
-          "goals_against_avg": 1
-        },
-        "away": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 50,
-          "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "winRate": 50,
-          "drawRate": 0,
-          "lossRate": 50,
-          "pointsPerGame": 1.5,
-          "recent": [
-            "W",
-            "L"
-          ],
-          "sample": 2,
-          "ppg": 1.5,
-          "goals_for_avg": 1,
-          "goals_against_avg": 1
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-08-30",
-          "home": "Eyüpspor",
-          "away": "Alanyaspor",
-          "score": "2-1"
-        }
-      ],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "Eyüpspor",
-        "canonical_away": "Alanyaspor",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 23,
-          "2": 49,
-          "X": 28
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     },
     {
       "no": 6,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-30",
-      "time": "21:30",
-      "league": "Türkiye Süper Lig",
-      "home": "İstanbul Başakşehir",
-      "away": "Kasımpaşa",
-      "match": "İstanbul Başakşehir - Kasımpaşa",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "13:00",
+      "league": "Güney Kore K Lig 1",
+      "home": "Bucheon",
+      "away": "Daejeon Citizen",
+      "match": "Bucheon - Daejeon Citizen",
+      "one": 3.44,
+      "draw": 3.12,
+      "two": 1.77,
+      "oneOdd": 3.44,
+      "drawOdd": 3.12,
+      "twoOdd": 1.77,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 67,
-        "2": 13,
-        "X": 20
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 67,
-        "2": 13,
-        "X": 20
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "1",
-      "selected_options": [
-        "1"
-      ],
-      "selection": "1",
-      "coupon_role": "Oynanma Dağılımı Bazlı",
-      "classification": "Oynanma Dağılımı Bazlı",
-      "confidence": 51,
-      "confidence_score": 51,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 47,
-      "column_multiplier": 1,
-      "reasons": [
-        "PRO 13: 1 olasılığı %67.0; ikinci seçenek %20.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %67.0, X %20.0, 2 %13.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 0,
-          "scored": 0,
-          "conceded": 0,
-          "bttsRate": 0,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 0,
-          "goalsAgainstAvg": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 0,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 0,
-          "recent": [],
-          "sample": 0,
-          "ppg": 0,
-          "goals_for_avg": 0,
-          "goals_against_avg": 0
-        },
-        "away": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 0.5,
-          "wins": 1,
-          "draws": 1,
-          "losses": 0,
-          "winRate": 50,
-          "drawRate": 50,
-          "lossRate": 0,
-          "pointsPerGame": 2,
-          "recent": [
-            "W",
-            "D"
-          ],
-          "sample": 2,
-          "ppg": 2,
-          "goals_for_avg": 1,
-          "goals_against_avg": 0.5
-        }
-      },
-      "h2h": [],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "İstanbul Başakşehir",
-        "canonical_away": "Kasımpaşa",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 67,
-          "2": 13,
-          "X": 20
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     },
     {
       "no": 7,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-30",
-      "time": "21:30",
-      "league": "Türkiye Süper Lig",
-      "home": "Samsunspor",
-      "away": "Fenerbahçe",
-      "match": "Samsunspor - Fenerbahçe",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "13:00",
+      "league": "Güney Kore K Lig 1",
+      "home": "Jeju Utd",
+      "away": "Ulsan",
+      "match": "Jeju Utd - Ulsan",
+      "one": 2.86,
+      "draw": 3.14,
+      "two": 1.97,
+      "oneOdd": 2.86,
+      "drawOdd": 3.14,
+      "twoOdd": 1.97,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 12,
-        "2": 70,
-        "X": 18
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 12,
-        "2": 70,
-        "X": 18
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "2",
-      "selected_options": [
-        "2"
-      ],
-      "selection": "2",
-      "coupon_role": "Oynanma Dağılımı Bazlı",
-      "classification": "Oynanma Dağılımı Bazlı",
-      "confidence": 51,
-      "confidence_score": 51,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 52,
-      "column_multiplier": 1,
-      "reasons": [
-        "PRO 13: 2 olasılığı %70.0; ikinci seçenek %18.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %12.0, X %18.0, 2 %70.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 2,
-          "scored": 1,
-          "conceded": 1,
-          "bttsRate": 0,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "winRate": 50,
-          "drawRate": 0,
-          "lossRate": 50,
-          "pointsPerGame": 1.5,
-          "recent": [
-            "W",
-            "L"
-          ],
-          "sample": 2,
-          "ppg": 1.5,
-          "goals_for_avg": 1,
-          "goals_against_avg": 1
-        },
-        "away": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 50,
-          "over35Rate": 50,
-          "goalsForAvg": 3,
-          "goalsAgainstAvg": 1,
-          "wins": 2,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 100,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 3,
-          "recent": [
-            "W",
-            "W"
-          ],
-          "sample": 2,
-          "ppg": 3,
-          "goals_for_avg": 3,
-          "goals_against_avg": 1
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-08-30",
-          "home": "Samsunspor",
-          "away": "Fenerbahçe",
-          "score": "0-2"
-        }
-      ],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "Samsunspor",
-        "canonical_away": "Fenerbahçe",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 12,
-          "2": 70,
-          "X": 18
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     },
     {
       "no": 8,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-31",
-      "time": "21:30",
-      "league": "Türkiye Süper Lig",
-      "home": "Amed Sportif Faaliyetler",
-      "away": "Trabzonspor",
-      "match": "Amed Sportif Faaliyetler - Trabzonspor",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "13:00",
+      "league": "Güney Kore K Lig 1",
+      "home": "Jeonbuk Hm",
+      "away": "Pohang Steelers",
+      "match": "Jeonbuk Hm - Pohang Steelers",
+      "one": 1.69,
+      "draw": 3.09,
+      "two": 3.83,
+      "oneOdd": 1.69,
+      "drawOdd": 3.09,
+      "twoOdd": 3.83,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 13,
-        "2": 64,
-        "X": 23
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 13,
-        "2": 64,
-        "X": 23
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "2",
-      "selected_options": [
-        "2"
-      ],
-      "selection": "2",
-      "coupon_role": "Oynanma Dağılımı Bazlı",
-      "classification": "Oynanma Dağılımı Bazlı",
-      "confidence": 51,
-      "confidence_score": 51,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 41,
-      "column_multiplier": 1,
-      "reasons": [
-        "PRO 13: 2 olasılığı %64.0; ikinci seçenek %23.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %13.0, X %23.0, 2 %64.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 0,
-          "scored": 0,
-          "conceded": 0,
-          "bttsRate": 0,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 0,
-          "goalsAgainstAvg": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 0,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 0,
-          "recent": [],
-          "sample": 0,
-          "ppg": 0,
-          "goals_for_avg": 0,
-          "goals_against_avg": 0
-        },
-        "away": {
-          "count": 1,
-          "scored": 1,
-          "conceded": 1,
-          "bttsRate": 100,
-          "over25Rate": 100,
-          "over35Rate": 0,
-          "goalsForAvg": 2,
-          "goalsAgainstAvg": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 100,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 3,
-          "recent": [
-            "W"
-          ],
-          "sample": 1,
-          "ppg": 3,
-          "goals_for_avg": 2,
-          "goals_against_avg": 1
-        }
-      },
-      "h2h": [],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "Amed Sportif Faaliyetler",
-        "canonical_away": "Trabzonspor",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 13,
-          "2": 64,
-          "X": 23
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     },
     {
       "no": 9,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-31",
-      "time": "21:30",
-      "league": "Türkiye Süper Lig",
-      "home": "Beşiktaş",
-      "away": "Arca Çorum FK",
-      "match": "Beşiktaş - Arca Çorum FK",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "13:00",
+      "league": "Güney Kore K Lig 1",
+      "home": "Fc Seoul",
+      "away": "Incheon Utd",
+      "match": "Fc Seoul - Incheon Utd",
+      "one": 1.56,
+      "draw": 3.36,
+      "two": 4.23,
+      "oneOdd": 1.56,
+      "drawOdd": 3.36,
+      "twoOdd": 4.23,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 87,
-        "2": 5,
-        "X": 8
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 87,
-        "2": 5,
-        "X": 8
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "1",
-      "selected_options": [
-        "1"
-      ],
-      "selection": "1",
-      "coupon_role": "Oynanma Dağılımı Bazlı",
-      "classification": "Oynanma Dağılımı Bazlı",
-      "confidence": 51,
-      "confidence_score": 51,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 79,
-      "column_multiplier": 1,
-      "reasons": [
-        "PRO 13: 1 olasılığı %87.0; ikinci seçenek %8.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %87.0, X %8.0, 2 %5.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 2,
-          "scored": 1,
-          "conceded": 2,
-          "bttsRate": 50,
-          "over25Rate": 50,
-          "over35Rate": 50,
-          "goalsForAvg": 3,
-          "goalsAgainstAvg": 1.5,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "winRate": 50,
-          "drawRate": 0,
-          "lossRate": 50,
-          "pointsPerGame": 1.5,
-          "recent": [
-            "L",
-            "W"
-          ],
-          "sample": 2,
-          "ppg": 1.5,
-          "goals_for_avg": 3,
-          "goals_against_avg": 1.5
-        },
-        "away": {
-          "count": 2,
-          "scored": 1,
-          "conceded": 2,
-          "bttsRate": 50,
-          "over25Rate": 50,
-          "over35Rate": 50,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 3.5,
-          "wins": 0,
-          "draws": 0,
-          "losses": 2,
-          "winRate": 0,
-          "drawRate": 0,
-          "lossRate": 100,
-          "pointsPerGame": 0,
-          "recent": [
-            "L",
-            "L"
-          ],
-          "sample": 2,
-          "ppg": 0,
-          "goals_for_avg": 1,
-          "goals_against_avg": 3.5
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-08-31",
-          "home": "Beşiktaş",
-          "away": "Çorum",
-          "score": "6-2"
-        }
-      ],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "Beşiktaş",
-        "canonical_away": "Çorum",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 87,
-          "2": 5,
-          "X": 8
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     },
     {
       "no": 10,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-29",
-      "time": "19:30",
-      "league": "Almanya Bundesliga",
-      "home": "Borussia Dortmund",
-      "away": "Hamburger SV",
-      "match": "Borussia Dortmund - Hamburger SV",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "13:00",
+      "league": "Japonya J1 Lig",
+      "home": "Avispa Fukuoka",
+      "away": "Mito Hollyhock",
+      "match": "Avispa Fukuoka - Mito Hollyhock",
+      "one": 1.84,
+      "draw": 2.98,
+      "two": 3.36,
+      "oneOdd": 1.84,
+      "drawOdd": 2.98,
+      "twoOdd": 3.36,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 86,
-        "2": 6,
-        "X": 8
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 86,
-        "2": 6,
-        "X": 8
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "1",
-      "selected_options": [
-        "1"
-      ],
-      "selection": "1",
-      "coupon_role": "Oynanma Dağılımı Bazlı",
-      "classification": "Oynanma Dağılımı Bazlı",
-      "confidence": 51,
-      "confidence_score": 51,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 78,
-      "column_multiplier": 1,
-      "reasons": [
-        "PRO 13: 1 olasılığı %86.0; ikinci seçenek %8.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %86.0, X %8.0, 2 %6.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 0,
-          "scored": 0,
-          "conceded": 0,
-          "bttsRate": 0,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 0,
-          "goalsAgainstAvg": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 0,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 0,
-          "recent": [],
-          "sample": 0,
-          "ppg": 0,
-          "goals_for_avg": 0,
-          "goals_against_avg": 0
-        },
-        "away": {
-          "count": 1,
-          "scored": 1,
-          "conceded": 0,
-          "bttsRate": 0,
-          "over25Rate": 100,
-          "over35Rate": 0,
-          "goalsForAvg": 3,
-          "goalsAgainstAvg": 0,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 100,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 3,
-          "recent": [
-            "W"
-          ],
-          "sample": 1,
-          "ppg": 3,
-          "goals_for_avg": 3,
-          "goals_against_avg": 0
-        }
-      },
-      "h2h": [],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "Borussia Dortmund",
-        "canonical_away": "Hamburg",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 86,
-          "2": 6,
-          "X": 8
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     },
     {
       "no": 11,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-28",
-      "time": "21:45",
-      "league": "Fransa Ligue 1",
-      "home": "Lille",
-      "away": "Paris Saint-Germain",
-      "match": "Lille - Paris Saint-Germain",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "13:00",
+      "league": "Portekiz 2.Lig",
+      "home": "Tondela",
+      "away": "Porto (B)",
+      "match": "Tondela - Porto (B)",
+      "one": 1.47,
+      "draw": 3.33,
+      "two": 4.31,
+      "oneOdd": 1.47,
+      "drawOdd": 3.33,
+      "twoOdd": 4.31,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 9,
-        "2": 70,
-        "X": 21
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 9,
-        "2": 70,
-        "X": 21
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "2",
-      "selected_options": [
-        "2"
-      ],
-      "selection": "2",
-      "coupon_role": "Oynanma Dağılımı Bazlı",
-      "classification": "Oynanma Dağılımı Bazlı",
-      "confidence": 51,
-      "confidence_score": 51,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 49,
-      "column_multiplier": 1,
-      "reasons": [
-        "PRO 13: 2 olasılığı %70.0; ikinci seçenek %21.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %9.0, X %21.0, 2 %70.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 0,
-          "bttsRate": 0,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 1.5,
-          "goalsAgainstAvg": 0,
-          "wins": 2,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 100,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 3,
-          "recent": [
-            "W",
-            "W"
-          ],
-          "sample": 2,
-          "ppg": 3,
-          "goals_for_avg": 1.5,
-          "goals_against_avg": 0
-        },
-        "away": {
-          "count": 0,
-          "scored": 0,
-          "conceded": 0,
-          "bttsRate": 0,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 0,
-          "goalsAgainstAvg": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 0,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 0,
-          "recent": [],
-          "sample": 0,
-          "ppg": 0,
-          "goals_for_avg": 0,
-          "goals_against_avg": 0
-        }
-      },
-      "h2h": [],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "Lille",
-        "canonical_away": "Paris Saint-Germain",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 9,
-          "2": 70,
-          "X": 21
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     },
     {
       "no": 12,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-30",
-      "time": "21:45",
-      "league": "Fransa Ligue 1",
-      "home": "Monaco",
-      "away": "Marsilya",
-      "match": "Monaco - Marsilya",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "13:00",
+      "league": "Polonya 2.Lig",
+      "home": "Nkp Podhale",
+      "away": "Sandecja Nowy S",
+      "match": "Nkp Podhale - Sandecja Nowy S",
+      "one": 2.82,
+      "draw": 2.93,
+      "two": 1.94,
+      "oneOdd": 2.82,
+      "drawOdd": 2.93,
+      "twoOdd": 1.94,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 37,
-        "2": 20,
-        "X": 43
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 37,
-        "2": 20,
-        "X": 43
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "X",
-      "selected_options": [
-        "1",
-        "X"
-      ],
-      "selection": "1X",
-      "coupon_role": "Çifte Şans",
-      "classification": "Oynanma Dağılımı · Çifte Adayı",
-      "confidence": 47,
-      "confidence_score": 47,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 6,
-      "column_multiplier": 2,
-      "reasons": [
-        "PRO 13: X olasılığı %43.0; ikinci seçenek %37.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %37.0, X %43.0, 2 %20.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 0,
-          "bttsRate": 0,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 1.5,
-          "goalsAgainstAvg": 0,
-          "wins": 2,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 100,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 3,
-          "recent": [
-            "W",
-            "W"
-          ],
-          "sample": 2,
-          "ppg": 3,
-          "goals_for_avg": 1.5,
-          "goals_against_avg": 0
-        },
-        "away": {
-          "count": 1,
-          "scored": 0,
-          "conceded": 1,
-          "bttsRate": 0,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 0,
-          "goalsAgainstAvg": 2,
-          "wins": 0,
-          "draws": 0,
-          "losses": 1,
-          "winRate": 0,
-          "drawRate": 0,
-          "lossRate": 100,
-          "pointsPerGame": 0,
-          "recent": [
-            "L"
-          ],
-          "sample": 1,
-          "ppg": 0,
-          "goals_for_avg": 0,
-          "goals_against_avg": 2
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-08-30",
-          "home": "Monaco",
-          "away": "Marsilya",
-          "score": "2-0"
-        }
-      ],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "Monaco",
-        "canonical_away": "Marsilya",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 37,
-          "2": 20,
-          "X": 43
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     },
     {
       "no": 13,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-29",
-      "time": "19:30",
-      "league": "İngiltere Premier Lig",
-      "home": "Tottenham Hotspur",
-      "away": "Newcastle United",
-      "match": "Tottenham Hotspur - Newcastle United",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "13:00",
+      "league": "Japonya J2 Lig",
+      "home": "Yamagata",
+      "away": "Kofu",
+      "match": "Yamagata - Kofu",
+      "one": 1.79,
+      "draw": 2.91,
+      "two": 3.24,
+      "oneOdd": 1.79,
+      "drawOdd": 2.91,
+      "twoOdd": 3.24,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 51,
-        "2": 28,
-        "X": 21
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 51,
-        "2": 28,
-        "X": 21
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "1",
-      "selected_options": [
-        "1"
-      ],
-      "selection": "1",
-      "coupon_role": "Oynanma Dağılımı Bazlı",
-      "classification": "Oynanma Dağılımı Bazlı",
-      "confidence": 51,
-      "confidence_score": 51,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 23,
-      "column_multiplier": 1,
-      "reasons": [
-        "PRO 13: 1 olasılığı %51.0; ikinci seçenek %28.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %51.0, X %21.0, 2 %28.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 0,
-          "scored": 0,
-          "conceded": 0,
-          "bttsRate": 0,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 0,
-          "goalsAgainstAvg": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 0,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 0,
-          "recent": [],
-          "sample": 0,
-          "ppg": 0,
-          "goals_for_avg": 0,
-          "goals_against_avg": 0
-        },
-        "away": {
-          "count": 3,
-          "scored": 3,
-          "conceded": 2,
-          "bttsRate": 67,
-          "over25Rate": 67,
-          "over35Rate": 67,
-          "goalsForAvg": 2.33,
-          "goalsAgainstAvg": 1.33,
-          "wins": 2,
-          "draws": 1,
-          "losses": 0,
-          "winRate": 67,
-          "drawRate": 33,
-          "lossRate": 0,
-          "pointsPerGame": 2.33,
-          "recent": [
-            "D",
-            "W",
-            "W"
-          ],
-          "sample": 3,
-          "ppg": 2.33,
-          "goals_for_avg": 2.33,
-          "goals_against_avg": 1.33
-        }
-      },
-      "h2h": [],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "Tottenham Hotspur",
-        "canonical_away": "Newcastle Utd",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 51,
-          "2": 28,
-          "X": 21
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     },
     {
       "no": 14,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-29",
-      "time": "22:30",
-      "league": "İspanya La Liga",
-      "home": "Sevilla",
-      "away": "Atletico Madrid",
-      "match": "Sevilla - Atletico Madrid",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "13:00",
+      "league": "Japonya J2 Lig",
+      "home": "Shonan",
+      "away": "Sendai",
+      "match": "Shonan - Sendai",
+      "one": 2.57,
+      "draw": 2.84,
+      "two": 2.13,
+      "oneOdd": 2.57,
+      "drawOdd": 2.84,
+      "twoOdd": 2.13,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 19,
-        "2": 57,
-        "X": 24
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 19,
-        "2": 57,
-        "X": 24
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "2",
-      "selected_options": [
-        "2"
-      ],
-      "selection": "2",
-      "coupon_role": "Oynanma Dağılımı Bazlı",
-      "classification": "Oynanma Dağılımı Bazlı",
-      "confidence": 51,
-      "confidence_score": 51,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 33,
-      "column_multiplier": 1,
-      "reasons": [
-        "PRO 13: 2 olasılığı %57.0; ikinci seçenek %24.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %19.0, X %24.0, 2 %57.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 2,
-          "bttsRate": 100,
-          "over25Rate": 100,
-          "over35Rate": 100,
-          "goalsForAvg": 2,
-          "goalsAgainstAvg": 2,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "winRate": 50,
-          "drawRate": 0,
-          "lossRate": 50,
-          "pointsPerGame": 1.5,
-          "recent": [
-            "W",
-            "L"
-          ],
-          "sample": 2,
-          "ppg": 1.5,
-          "goals_for_avg": 2,
-          "goals_against_avg": 2
-        },
-        "away": {
-          "count": 1,
-          "scored": 1,
-          "conceded": 1,
-          "bttsRate": 100,
-          "over25Rate": 100,
-          "over35Rate": 100,
-          "goalsForAvg": 3,
-          "goalsAgainstAvg": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 100,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 3,
-          "recent": [
-            "W"
-          ],
-          "sample": 1,
-          "ppg": 3,
-          "goals_for_avg": 3,
-          "goals_against_avg": 1
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-08-29",
-          "home": "Sevilla",
-          "away": "Atletico Madrid",
-          "score": "1-3"
-        }
-      ],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "Sevilla",
-        "canonical_away": "Atletico Madrid",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 19,
-          "2": 57,
-          "X": 24
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     },
     {
       "no": 15,
-      "week": "2026/2027 3. Hafta",
-      "date": "2026-08-30",
-      "time": "21:45",
-      "league": "İtalya Serie A",
-      "home": "Cagliari",
-      "away": "Inter",
-      "match": "Cagliari - Inter",
+      "week": "2026-09-05 / 2026-09-11",
+      "date": "2026-09-05",
+      "time": "13:00",
+      "league": "Japonya J2 Lig",
+      "home": "Tokushima",
+      "away": "Iwaki",
+      "match": "Tokushima - Iwaki",
+      "one": 2.09,
+      "draw": 2.83,
+      "two": 2.64,
+      "oneOdd": 2.09,
+      "drawOdd": 2.83,
+      "twoOdd": 2.64,
+      "decision": "Bekleniyor",
+      "className": "Haftalık Spor Toto",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "-",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
-      "probabilities": {
-        "1": 8,
-        "2": 84,
-        "X": 8
-      },
-      "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
-      },
-      "public_distribution": {
-        "1": 8,
-        "2": 84,
-        "X": 8
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "analysis_ready": true,
-      "decision": "2",
-      "selected_options": [
-        "2"
-      ],
-      "selection": "2",
-      "coupon_role": "Oynanma Dağılımı Bazlı",
-      "classification": "Oynanma Dağılımı Bazlı",
-      "confidence": 51,
-      "confidence_score": 51,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 76,
-      "column_multiplier": 1,
-      "reasons": [
-        "PRO 13: 2 olasılığı %84.0; ikinci seçenek %8.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %8.0, X %8.0, 2 %84.0."
-      ],
-      "model_version": "pro13-btts-conditioned-v3",
-      "score_type": "spor_toto_1x2",
-      "form": {
-        "home": {
-          "count": 3,
-          "scored": 2,
-          "conceded": 2,
-          "bttsRate": 33,
-          "over25Rate": 33,
-          "over35Rate": 0,
-          "goalsForAvg": 0.67,
-          "goalsAgainstAvg": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 2,
-          "winRate": 33,
-          "drawRate": 0,
-          "lossRate": 67,
-          "pointsPerGame": 1,
-          "recent": [
-            "W",
-            "L",
-            "L"
-          ],
-          "sample": 3,
-          "ppg": 1,
-          "goals_for_avg": 0.67,
-          "goals_against_avg": 1
-        },
-        "away": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 50,
-          "over35Rate": 50,
-          "goalsForAvg": 2.5,
-          "goalsAgainstAvg": 0.5,
-          "wins": 2,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 100,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 3,
-          "recent": [
-            "W",
-            "W"
-          ],
-          "sample": 2,
-          "ppg": 3,
-          "goals_for_avg": 2.5,
-          "goals_against_avg": 0.5
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-08-30",
-          "home": "Cagliari",
-          "away": "Inter",
-          "score": "0-1"
-        }
-      ],
-      "squad": {
-        "available": false,
-        "home": [],
-        "away": [],
-        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
-      },
-      "independent_evidence": false,
-      "evidence_mode": "cross_verified_public_distribution",
-      "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
-        "canonical_home": "Cagliari",
-        "canonical_away": "Inter",
-        "archive_probabilities": null,
-        "public_distribution": {
-          "1": 8,
-          "2": 84,
-          "X": 8
-        },
-        "poisson": null,
-        "agreement_score": null
-      }
+      "source": "Maçkolik canlı robot"
     }
-  ],
-  "archive_enrichment": {
-    "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
-    "generated_at": "2026-09-05T08:57:25.525Z",
-    "archive_match_count": 11928,
-    "archive_ready_count": 0,
-    "distribution_ready_count": 15,
-    "analysis_available_count": 15
-  },
-  "evidence_summary": {
-    "archive_backed_match_count": 0,
-    "distribution_based_match_count": 15,
-    "market_baseline_match_count": 0,
-    "waiting_match_count": 0
-  }
+  ]
 }

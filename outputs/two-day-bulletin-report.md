@@ -2,26 +2,15 @@
 
 Gunler: 2026-09-05 / 2026-09-06
 Kaynak: fixtures.json
-Ham mac: 676
-Aktif mac: 645
+Ham mac: 655
+Aktif mac: 634
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 31
-Bugun: 573
+Bultenden dusurulen mac: 21
+Bugun: 562
 Yarin: 72
 
 ## Baslamamis Maclar
-- 2026-09-05 12:00 | İtalya Primavera Şampiyonası 1 | Cagliari U20 - Sassuolo U20 | scheduled | -
-- 2026-09-05 12:00 | Japonya WE Ligi Kadınlar | Elfen Saitama - Parceiro Nagano | scheduled | -
-- 2026-09-05 12:00 | Japonya WE Ligi Kadınlar | Urawa Red (K) - Ntv Beleza (K) | scheduled | -
-- 2026-09-05 12:00 | Japonya WE Ligi Kadınlar | Cerezo Osaka ( - Sanfrecce Hiros | scheduled | -
-- 2026-09-05 12:00 | Japonya WE Ligi Kadınlar | Omiya (K) - Albirex Niigata | scheduled | -
-- 2026-09-05 12:00 | Japonya J3 Lig | Sagamihara - Parceiro Nagano | scheduled | -
-- 2026-09-05 12:00 | Japonya J3 Lig | Fc Gifu - Zweigen Kanazaw | scheduled | -
-- 2026-09-05 12:00 | Japonya J3 Lig | Matsumoto Yama - Osaka | scheduled | -
-- 2026-09-05 12:00 | Japonya J3 Lig | Kamatamare San - Mio Biwako Shig | scheduled | -
-- 2026-09-05 12:00 | Avustralya NPL Başkent Bölgesi Yarı Final | Monaro Panther - Cooma Tigers | scheduled | -
-- 2026-09-05 12:00 | Japonya Futbol Ligi | Vonds Ichihara - Criacao Shinjuk | scheduled | -
 - 2026-09-05 12:30 | Japonya J2 Lig | Fujieda - Vanraure | scheduled | -
 - 2026-09-05 12:30 | Avustralya NPL Güney Avustralya Yarı Final | West Torrens (2) - (2) Ne Metrostars | scheduled | -
 - 2026-09-05 12:30 | Avustralya NPL Güney Avustralya Yarı Final | Adelaide City (2) - (1) Playford City P | scheduled | -

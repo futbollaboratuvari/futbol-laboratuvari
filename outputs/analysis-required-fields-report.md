@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 651
-Tam analiz: 602
-Eksik analiz: 49
+Toplam analiz: 655
+Tam analiz: 603
+Eksik analiz: 52
 
-- Wofoo Tai Po VS Buler Rangers: eksik score, confidence
 - Wolfsburg VS E.Cottbus: eksik score, confidence
 - Ullern VS Asker: eksik score, confidence
 - Ifk Umea VS Friska Viljor: eksik score, confidence
@@ -19,9 +18,10 @@ Eksik analiz: 49
 - Slavia Prag VS Brno: eksik score, confidence
 - Sotra Sk VS Vidar: eksik score, confidence
 - Vindbjart VS Hinna: eksik score, confidence
+- Sogndal Ii VS Fyllingsdalen: eksik score, confidence
+- Os Turn Fotbal VS Forde: eksik score, confidence
+- Brumunddal VS Elverum: eksik score, confidence
 - Voitsberg VS Sturm Graz: eksik score, confidence
 - Deutschlandsbe VS Lask Linz: eksik score, confidence
 - Newtown VS Denbigh Town: eksik score, confidence
 - Manchester Cit VS Coventry: eksik score, confidence
-- Rosenborg VS Ham Kam: eksik score, confidence
-- Kongsvinger VS Raufoss: eksik score, confidence
