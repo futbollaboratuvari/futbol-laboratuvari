@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 05.09.2026 07:41:44
+Oluşturma: 05.09.2026 07:56:34
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1293
-- Kazanan tahmin: 122
-- Kaybeden tahmin: 85
-- Lig sayısı: 245
+- Bekleyen tahmin: 1301
+- Kazanan tahmin: 116
+- Kaybeden tahmin: 83
+- Lig sayısı: 246
 - Seçenek sayısı: 5
 
 ## Öğrenme Mantığı
@@ -23,26 +23,26 @@ Oluşturma: 05.09.2026 07:41:44
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 10, bekleyen 7, başarı %67, düz getiri %66, ağırlık 1
-- MS 1: toplam 475, bekleyen 413, başarı %63, düz getiri %4, ağırlık 1
-- MS 2: toplam 242, bekleyen 216, başarı %62, düz getiri %-1, ağırlık 1
-- 2.5 Alt: toplam 534, bekleyen 465, başarı %56, düz getiri %-8, ağırlık 1
-- 2.5 Üst: toplam 239, bekleyen 192, başarı %55, düz getiri %-3, ağırlık 1
+- MS 1: toplam 473, bekleyen 415, başarı %64, düz getiri %5, ağırlık 1
+- MS 2: toplam 243, bekleyen 218, başarı %60, düz getiri %-3, ağırlık 1
+- 2.5 Alt: toplam 538, bekleyen 471, başarı %55, düz getiri %-11, ağırlık 1
+- 2.5 Üst: toplam 236, bekleyen 190, başarı %54, düz getiri %-5, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-05 | Tanzanya Kuu Bara Ligi | Jkt Tanzania - Pamba Jiji | 2.5 Alt | pending | 57/100
-- 2026-09-05 | Norveç 1.Lig | Strommen - Bryne | MS 2 | pending | 48/100
-- 2026-09-05 | Güney Afrika PSL | Chippa United - Milford | MS 1 | pending | 45/100
-- 2026-09-05 | Kazakistan Premier Lig | Kaspyi - Kairat Almaty | 2.5 Alt | pending | 48/100
-- 2026-09-05 | Tayland 1.Lig | Rayong Fc - Prachuap | 2.5 Üst | pending | 53/100
-- 2026-09-05 | Meksika Liga MX Apertura | Atlas - Atlante | 2.5 Alt | pending | 60/100
-- 2026-09-05 | Guatemala Ulusal Lig Apertura | Marquense - Xelaju | 2.5 Üst | pending | 61/100
-- 2026-09-05 | Japonya J2 Lig | Sapporo - Tochigi City | 2.5 Alt | pending | 48/100
-- 2026-09-05 | Avustralya NPL Yeni Güney Galler Yarı Final | Sydney United - Manly United | MS 1 | pending | 48/100
-- 2026-09-05 | Meksika Ascenso MX Apertura | Piratas - Correcaminos Ua | MS 1 | pending | 57/100
-- 2026-09-05 | Meksika Ascenso MX Apertura | Cancun Fc - Cruz Azul Hidal | 2.5 Alt | pending | 50/100
-- 2026-09-05 | Meksika Ascenso MX Apertura | Cds Tampico Ma - Venados Fc | MS 1 | pending | 53/100
-- 2026-09-05 | Meksika Ascenso MX Apertura | Monarcas - Alebrijes | MS 1 | pending | 58/100
-- 2026-09-05 | Guatemala Ulusal Lig Apertura | Malacateco - Suchitepequez | 2.5 Alt | pending | 61/100
-- 2026-09-05 | ABD USL | Orange County - Sacramento Repu | 2.5 Üst | pending | 62/100
+- 2026-09-05 | Fransa Ligue 2 | St Etienne - Montpellier | 2.5 Alt | pending | 57/100
+- 2026-09-05 | Yunanistan Süper Lig | Aek - Aris | 2.5 Üst | pending | 56/100
+- 2026-09-05 | İngiltere Premier Lig | Hull - Aston Villa | 2.5 Alt | pending | 54/100
+- 2026-09-05 | İtalya Serie C Grup B | Nuova Monteros - Pianese | MS 1 | pending | 49/100
+- 2026-09-05 | Slovenya 2.SNL | Krka Novo Mest - Jesenice | 2.5 Alt | pending | 49/100
+- 2026-09-05 | İrlanda FAI Kupası Çeyrek Final | St Patricks - Bohemian | 2.5 Alt | pending | 46/100
+- 2026-09-05 | Nijerya NPFL | Inter Lagos - Doma United | 2.5 Alt | pending | 57/100
+- 2026-09-05 | İzlanda 1.Lig | Grotta - Völsungur | MS 2 | pending | 45/100
+- 2026-09-05 | Norveç 3.Lig Grup 1 | Valerenga Ii - Konnerud | MS 1 | pending | 58/100
+- 2026-09-05 | İngiltere Ulusal Lig N / S Kuzey | Spalding Unite - Southport | 2.5 Alt | pending | 50/100
+- 2026-09-05 | Belçika Challenger Pro Lig | Club Brugge Ii - Eupen | 2.5 Alt | pending | 50/100
+- 2026-09-05 | İngiltere 1.Lig | Huddersfield - Notts County | MS 1 | pending | 57/100
+- 2026-09-05 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Red Arrows - Rouge | 2.5 Alt | pending | 57/100
+- 2026-09-05 | Güney Afrika PSL | Chippa United - Milford | MS 2 | pending | 44/100
+- 2026-09-05 | Litvanya 1.Lig | Atmosfera - Tauras | 2.5 Alt | pending | 50/100
 

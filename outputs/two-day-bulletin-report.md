@@ -2,12 +2,12 @@
 
 Gunler: 2026-09-05 / 2026-09-06
 Kaynak: fixtures.json
-Ham mac: 651
-Aktif mac: 635
+Ham mac: 656
+Aktif mac: 636
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 16
-Bugun: 563
+Bultenden dusurulen mac: 20
+Bugun: 564
 Yarin: 72
 
 ## Baslamamis Maclar
@@ -167,6 +167,7 @@ Yarin: 72
 - 2026-09-05 15:00 | Litvanya 1.Lig | Atmosfera - Tauras | scheduled | -
 - 2026-09-05 15:00 | Hollanda Tweede Divisie | Koninklijke Hf - Jong Sparta | scheduled | -
 - 2026-09-05 15:00 | İngiltere FA Cup Eleme 1.Tur | Curzon Ashton - Bradford Park A | scheduled | -
+- 2026-09-05 15:00 | Norveç 3.Lig Grup 5 | Floya - Skjetten | scheduled | -
 - 2026-09-05 15:15 | Vietnam V-Lig 1 | Cand - Hong Linh Ha Ti | scheduled | -
 - 2026-09-05 15:30 | Avusturya ÖFB Kupası 2.Tur | Lafnitz - Avusturya Luste | scheduled | -
 - 2026-09-05 15:30 | Belarus Premier Lig | Torpedo Zhodin - Gomel | scheduled | -
