@@ -2,57 +2,15 @@
 
 Gunler: 2026-09-05 / 2026-09-06
 Kaynak: fixtures.json
-Ham mac: 683
-Aktif mac: 217
+Ham mac: 438
+Aktif mac: 175
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 466
-Bugun: 145
+Bultenden dusurulen mac: 263
+Bugun: 103
 Yarin: 72
 
 ## Baslamamis Maclar
-- 2026-09-05 18:35 | Kuveyt Premier Lig | Al-Kuwait - Al-Jahra | scheduled | -
-- 2026-09-05 18:45 | Irak Premier Lig | Zakho - Al Talaba | scheduled | -
-- 2026-09-05 18:50 | Suudi Arabistan Pro Lig | Al Faisaly - Al Hazm | scheduled | -
-- 2026-09-05 18:55 | Suudi Arabistan Pro Lig | Al Taawon - Al Fateh | scheduled | -
-- 2026-09-05 19:00 | İtalya Serie A | Inter - Napoli | scheduled | -
-- 2026-09-05 19:00 | Danimarka Süperlig | Aarhus - Silkeborg | scheduled | -
-- 2026-09-05 19:00 | Yunanistan Süper Lig | Volos Nfc - Olympiakos | scheduled | -
-- 2026-09-05 19:00 | İsviçre Süper Lig | Vaduz - Lausanne | scheduled | -
-- 2026-09-05 19:00 | İsviçre Süper Lig | Young Boys - Luzern | scheduled | -
-- 2026-09-05 19:00 | Rusya Premier Lig | Rostov - Fakel Voronezh | scheduled | -
-- 2026-09-05 19:00 | Çek Cumhuriyeti Czech Liga | Sk Artis Brno - Viktoria Plzen | scheduled | -
-- 2026-09-05 19:00 | Norveç Eliteserien | Brann - Lillestrom | scheduled | -
-- 2026-09-05 19:00 | Sırbistan Süper Lig | Radnik Surduli - Cukaricki | scheduled | -
-- 2026-09-05 19:00 | Bulgaristan 1.Lig | Spartak Varna - Cska Sofia | scheduled | -
-- 2026-09-05 19:00 | İtalya Serie C Grup B | Latina - Forli | scheduled | -
-- 2026-09-05 19:00 | İtalya Serie C Grup B | Campobasso - Gubbio | scheduled | -
-- 2026-09-05 19:00 | İtalya Serie C Grup B | Nuova Monteros - Pianese | scheduled | -
-- 2026-09-05 19:00 | İtalya Serie C Grup C | Crotone - Barletta | scheduled | -
-- 2026-09-05 19:00 | Hırvatistan 1.HNL | Dinamo Zagreb - Hnk Gorica | scheduled | -
-- 2026-09-05 19:00 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Kabuscorp - Unam | scheduled | -
-- 2026-09-05 19:00 | Slovakya Süper Lig | Zemplin - Trencin | scheduled | -
-- 2026-09-05 19:00 | Slovakya Süper Lig | Zilina - Podbrezova | scheduled | -
-- 2026-09-05 19:00 | Slovakya Süper Lig | Kfc Komarno - Skalica | scheduled | -
-- 2026-09-05 19:00 | Gürcistan Erovnuli Liga | Fc Iberia - Samgurali | scheduled | -
-- 2026-09-05 19:00 | Çek Cumhuriyeti FNL | Opava - Dukla Prag | scheduled | -
-- 2026-09-05 19:00 | Slovenya 2.SNL | Krka Novo Mest - Jesenice | scheduled | -
-- 2026-09-05 19:00 | Slovakya 2.Lig | Tatran Presov - Zlate Moravce | scheduled | -
-- 2026-09-05 19:00 | Bahreyn Premier Lig | Manama - Al Rifaa | scheduled | -
-- 2026-09-05 19:00 | Bahreyn Premier Lig | Al Hadd - Al Ahli Manama | scheduled | -
-- 2026-09-05 19:00 | Portekiz 3.Lig Grup A | Guimaraes (B) - Trofense | scheduled | -
-- 2026-09-05 19:00 | Portekiz 3.Lig Grup B | Cd Mafra - Sporting Covilh | scheduled | -
-- 2026-09-05 19:00 | İspanya Primera Lig RFEF Grup 2 | Ud Ibiza - Rayo Majadahond | scheduled | -
-- 2026-09-05 19:00 | Estonya Premium Lig | Flora Tallinn - Nomme Kalju | scheduled | -
-- 2026-09-05 19:00 | Fransa Kadınlar 1.Lig | Montpellier (K - Toulouse (K) | scheduled | -
-- 2026-09-05 19:00 | Fransa Kadınlar 1.Lig | Strasbourg (K) - Saint Malo (K) | scheduled | -
-- 2026-09-05 19:00 | Malta Premier Lig Açılış | Balzan Fc - Birzebbuga | scheduled | -
-- 2026-09-05 19:00 | İzlanda 2.Lig | Magni - Kari | scheduled | -
-- 2026-09-05 19:00 | İzlanda 2.Lig | Kfa - Dalvik | scheduled | -
-- 2026-09-05 19:00 | Tanzanya Kuu Bara Ligi | Jkt Tanzania - Pamba Jiji | scheduled | -
-- 2026-09-05 19:00 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Vipers - Nouadhibou | scheduled | -
-- 2026-09-05 19:00 | Rusya FNL | Pfc Sochi - Olimpiyets | scheduled | -
-- 2026-09-05 19:10 | Umman Profesyonel Lig | Al Shabab - Al Nahda | scheduled | -
 - 2026-09-05 19:15 | Belçika Pro Lig | Mechelen - Westerlo | scheduled | -
 - 2026-09-05 19:15 | Galler Premier Lig 1.Aşama | The New Saints - Barry Town | scheduled | -
 - 2026-09-05 19:15 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ahli Dubai - Al Jazira | scheduled | -
