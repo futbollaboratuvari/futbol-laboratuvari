@@ -1,29 +1,16 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-09-05 / 2026-09-06
+Gunler: 2026-09-06 / 2026-09-07
 Kaynak: fixtures.json
-Ham mac: 683
-Aktif mac: 78
+Ham mac: 72
+Aktif mac: 65
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 605
-Bugun: 6
-Yarin: 72
+Bultenden dusurulen mac: 7
+Bugun: 65
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-09-05 22:30 | Portekiz Premier Lig | Sporting Cp - Nacional Madeir | scheduled | -
-- 2026-09-05 22:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Boca Juniors | scheduled | -
-- 2026-09-05 23:00 | Cezayir 1.Lig | Aso Chlef - Belouizdad | scheduled | -
-- 2026-09-05 23:00 | Peru Premier Lig Clausura | Sport Huancayo - Sport Boys | scheduled | -
-- 2026-09-05 23:00 | Arjantin Ulusal Primera Lig | Colon Santa Fe - Moron | scheduled | -
-- 2026-09-05 23:00 | Kanada Premier Lig | Atletico Ottaw - Pacific Fc | scheduled | -
-- 2026-09-06 00:00 | Kolombiya Primera A Clausura | Chico - Once Caldas | scheduled | -
-- 2026-09-06 00:00 | Brezilya Serie B | Juventude - Atletico Goiani | scheduled | -
-- 2026-09-06 00:00 | Uruguay Premier Lig Clausura | Deportivo Mald - Montevideo Wand | scheduled | -
-- 2026-09-06 00:00 | Guatemala Ulusal Lig Apertura | Mixco - Comunicaciones | scheduled | -
-- 2026-09-06 00:00 | El Salvador Primera Lig Apertura | Fuerte San Fra - Deportivo Fas | scheduled | -
-- 2026-09-06 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Platense | scheduled | -
-- 2026-09-06 00:15 | Bolivya Premier Lig | Aurora - Gualberto Villa | scheduled | -
 - 2026-09-06 00:30 | Brezilya Serie A | Sao Paulo - Atletico Mg | scheduled | -
 - 2026-09-06 00:30 | Şili Premier Lig | Everton De Vin - Univ. Catolica | scheduled | -
 - 2026-09-06 00:30 | Brezilya Serie B | Ceara - Sport Recife | scheduled | -
