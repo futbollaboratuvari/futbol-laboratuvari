@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-05T04:55:26.352116+00:00
+Tarih: 2026-09-05T08:56:32.698326+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 642
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 641
-- Ham veri havuzu toplam mac sayisi: 11993
+- Kac mac bulundu: 651
+- Kac mac kaydedildi: 20
+- Kac mac zaten vardi: 631
+- Ham veri havuzu toplam mac sayisi: 12013
 - Hedef tarih: 05.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -27,11 +27,8 @@ Tarih: 2026-09-05T04:55:26.352116+00:00
 - Andorra 1.Lig
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Batı Avustralya Yükselme/Düşme Play-off
 - Avustralya NPL Başkent Bölgesi Yarı Final
 - Avustralya NPL Güney Avustralya Yarı Final
-- Avustralya NPL Queensland Ön Eleme Final
-- Avustralya NPL Yeni Güney Galler Play-off 1/2
 - Avustralya NPL Yeni Güney Galler Yarı Final
 - Avusturya ÖFB Kupası 2.Tur
 - Azerbaycan Premier Lig
@@ -67,6 +64,7 @@ Tarih: 2026-09-05T04:55:26.352116+00:00
 - Galler Premier Lig 1.Aşama
 - Gana Premier Lig
 - Guatemala Ulusal Lig Apertura
+- Güney Afrika 1.Lig
 - Güney Afrika PSL
 - Güney Kore K Lig 1
 - Güney Kore K Lig 2
@@ -116,6 +114,7 @@ Tarih: 2026-09-05T04:55:26.352116+00:00
 - Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
+- Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
 - Norveç 3.Lig Grup 5
 - Norveç 3.Lig Grup 6
@@ -141,6 +140,7 @@ Tarih: 2026-09-05T04:55:26.352116+00:00
 - Tanzanya Kuu Bara Ligi
 - Tayland 1.Lig
 - Tunus 1.Lig
+- Türkiye 3.Lig 2.Grup
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Ukrayna Premier Lig

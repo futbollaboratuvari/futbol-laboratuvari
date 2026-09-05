@@ -2,26 +2,15 @@
 
 Gunler: 2026-09-05 / 2026-09-06
 Kaynak: fixtures.json
-Ham mac: 656
-Aktif mac: 636
+Ham mac: 676
+Aktif mac: 645
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 20
-Bugun: 564
+Bultenden dusurulen mac: 31
+Bugun: 573
 Yarin: 72
 
 ## Baslamamis Maclar
-- 2026-09-05 09:00 | Avustralya NPL Başkent Bölgesi Yarı Final | Canberra - Queanbeyan City | scheduled | -
-- 2026-09-05 10:00 | Avustralya NPL Queensland Ön Eleme Final | Peninsula Powe - Moreton City Ex | scheduled | -
-- 2026-09-05 10:00 | Avustralya NPL Batı Avustralya Yükselme/Düşme Play-off | Joondalup City - Armadale | scheduled | -
-- 2026-09-05 10:30 | Çin Halk Cumhuriyeti 1.Lig | Shaanxi Union - Heilongjiang Ls | scheduled | -
-- 2026-09-05 11:00 | Hong Kong Premier Lig | Wofoo Tai Po - Buler Rangers | scheduled | -
-- 2026-09-05 11:00 | Güney Kore K3 Ligi | Changwon City - Daejeon Korail | scheduled | -
-- 2026-09-05 11:30 | Endonezya Süper Lig | Psim Yogyakart - Persita Tangera | scheduled | -
-- 2026-09-05 11:30 | Endonezya Süper Lig | Persik - Dewa United | scheduled | -
-- 2026-09-05 11:30 | Endonezya Süper Lig | Bhayangkara Su - Persebaya | scheduled | -
-- 2026-09-05 11:30 | Avustralya NPL Yeni Güney Galler Play-off 1/2 | Northern Tiger - St. George Sain | scheduled | -
-- 2026-09-05 11:45 | Malezya Süper Lig | Negeri Sembila - Imigresen | scheduled | -
 - 2026-09-05 12:00 | İtalya Primavera Şampiyonası 1 | Cagliari U20 - Sassuolo U20 | scheduled | -
 - 2026-09-05 12:00 | Japonya WE Ligi Kadınlar | Elfen Saitama - Parceiro Nagano | scheduled | -
 - 2026-09-05 12:00 | Japonya WE Ligi Kadınlar | Urawa Red (K) - Ntv Beleza (K) | scheduled | -
@@ -64,6 +53,7 @@ Yarin: 72
 - 2026-09-05 13:00 | Japonya J3 Lig | Tochigi Sc - Kochi United | scheduled | -
 - 2026-09-05 13:00 | Japonya J3 Lig | Ehime Fc - Gira Kitakyushu | scheduled | -
 - 2026-09-05 13:00 | Portekiz U23 Ulusal Şampiyona | Leixoes U23 - Sporting Cp U23 | scheduled | -
+- 2026-09-05 13:00 | İspanya Kadınlar Primera Lig | Valencia (K) - Madrid Cf (K) | scheduled | -
 - 2026-09-05 13:30 | Hong Kong Premier Lig | Eastern - Kowloon City | scheduled | -
 - 2026-09-05 14:00 | Almanya 2. Bundesliga | Kaiserslautern - Darmstadt | scheduled | -
 - 2026-09-05 14:00 | Almanya 2. Bundesliga | Wolfsburg - E.Cottbus | scheduled | -
@@ -100,6 +90,8 @@ Yarin: 72
 - 2026-09-05 14:00 | İsveç 2.Lig Norrland Düşme Grubu | Ifk Umea - Friska Viljor | scheduled | -
 - 2026-09-05 14:00 | Letonya 1.Lig | Valmieras Fk/B - Metta / Lu | scheduled | -
 - 2026-09-05 14:00 | Litvanya 1.Lig | Minija - Transinvest Vil | scheduled | -
+- 2026-09-05 14:00 | Norveç 3.Lig Grup 3 | Stord Sunnhord - Fana | scheduled | -
+- 2026-09-05 14:00 | Norveç 3.Lig Grup 4 | Vag Fk - Akra | scheduled | -
 - 2026-09-05 14:30 | İngiltere Premier Lig | Newcastle Utd - Bournemouth | scheduled | -
 - 2026-09-05 14:30 | İngiltere Championship | Lincoln - Southam | scheduled | -
 - 2026-09-05 14:30 | İngiltere Championship | Prest - Blackburn | scheduled | -
@@ -168,6 +160,8 @@ Yarin: 72
 - 2026-09-05 15:00 | Hollanda Tweede Divisie | Koninklijke Hf - Jong Sparta | scheduled | -
 - 2026-09-05 15:00 | İngiltere FA Cup Eleme 1.Tur | Curzon Ashton - Bradford Park A | scheduled | -
 - 2026-09-05 15:00 | Norveç 3.Lig Grup 5 | Floya - Skjetten | scheduled | -
+- 2026-09-05 15:00 | Norveç 3.Lig Grup 2 | Orkla - Ntnui | scheduled | -
+- 2026-09-05 15:00 | Norveç 3.Lig Grup 3 | Djerv - Askoy | scheduled | -
 - 2026-09-05 15:15 | Vietnam V-Lig 1 | Cand - Hong Linh Ha Ti | scheduled | -
 - 2026-09-05 15:30 | Avusturya ÖFB Kupası 2.Tur | Lafnitz - Avusturya Luste | scheduled | -
 - 2026-09-05 15:30 | Belarus Premier Lig | Torpedo Zhodin - Gomel | scheduled | -
@@ -218,6 +212,17 @@ Yarin: 72
 - 2026-09-05 16:00 | Hollanda Tweede Divisie | Rohda Raalte - Kozakken Boys | scheduled | -
 - 2026-09-05 16:00 | Hollanda Tweede Divisie | Katwijk - Jong Almere Cit | scheduled | -
 - 2026-09-05 16:00 | Hollanda Tweede Divisie | Vv Kloetinge - Ijsselmeervogel | scheduled | -
+- 2026-09-05 16:00 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Kmkm - Al Ahli Tripoli | scheduled | -
+- 2026-09-05 16:00 | Norveç 3.Lig Grup 3 | Sogndal Ii - Fyllingsdalen | scheduled | -
+- 2026-09-05 16:00 | Norveç 3.Lig Grup 3 | Os Turn Fotbal - Forde | scheduled | -
+- 2026-09-05 16:00 | Norveç 3.Lig Grup 4 | Staal Jorpelan - Mandalskamerate | scheduled | -
+- 2026-09-05 16:00 | Norveç 3.Lig Grup 4 | Flekkeroy - Madla | scheduled | -
+- 2026-09-05 16:00 | Norveç 3.Lig Grup 6 | Brumunddal - Elverum | scheduled | -
+- 2026-09-05 16:00 | Norveç 3.Lig Grup 6 | Rade - Gjovik-Lyn | scheduled | -
+- 2026-09-05 16:00 | Güney Afrika 1.Lig | Leicesterfield - Magesi Fc | scheduled | -
+- 2026-09-05 16:00 | Güney Afrika 1.Lig | Upington City - Highbury | scheduled | -
+- 2026-09-05 16:00 | Litvanya 1.Lig | Ekranas - Garliava | scheduled | -
+- 2026-09-05 16:00 | Hollanda Tweede Divisie | Sv Spakenburg - Bvv Barendrecht | scheduled | -
 - 2026-09-05 16:30 | Almanya Bundesliga | Werder Bremen - Rb Leipzig | scheduled | -
 - 2026-09-05 16:30 | Almanya Bundesliga | Hoffenheim - B.Dortmund | scheduled | -
 - 2026-09-05 16:30 | Almanya Bundesliga | M Gladbach - Elversberg | scheduled | -
@@ -386,6 +391,8 @@ Yarin: 72
 - 2026-09-05 17:00 | Macaristan NB III Güneybatı | Pte-Peac - Paksi Fc Ii | scheduled | -
 - 2026-09-05 17:00 | İzlanda 2.Lig | Fjolnir - Throttur Vogar | scheduled | -
 - 2026-09-05 17:00 | İzlanda 2.Lig | Haukar - Selfoss | scheduled | -
+- 2026-09-05 17:00 | Türkiye 3.Lig 2.Grup | Bursa Yıldırım - Söke 1970 Sk | scheduled | -
+- 2026-09-05 17:00 | İzlanda 2.Lig | Hviti - Kormakur | scheduled | -
 - 2026-09-05 17:15 | İspanya LaLiga | Athletic Bilba - Atletico Madrid | scheduled | -
 - 2026-09-05 17:15 | İspanya 2.Lig | Sporting Gijon - Girona | scheduled | -
 - 2026-09-05 17:30 | Hollanda Eredivisie | Nijmegen - Feyenoord | scheduled | -
@@ -420,6 +427,7 @@ Yarin: 72
 - 2026-09-05 18:00 | Hırvatistan 2.HNL | Radnik Sesvete - Segesta | scheduled | -
 - 2026-09-05 18:00 | Hırvatistan 2.HNL | Dugopolje - Zdralovi | scheduled | -
 - 2026-09-05 18:00 | Gana Premier Lig | Vision - Young Apostles | scheduled | -
+- 2026-09-05 18:00 | Macaristan NB III Güneybatı | Siofok - Budaors | scheduled | -
 - 2026-09-05 18:05 | Birleşik Arap Emirlikleri 1.Lig | Palm City 365 - Al Hamriyah | scheduled | -
 - 2026-09-05 18:05 | Birleşik Arap Emirlikleri 1.Lig | City Fc Dubai - Al Ittifaq | scheduled | -
 - 2026-09-05 18:15 | Fransa Ligue 1 | Lens - Lorient | scheduled | -
@@ -473,6 +481,7 @@ Yarin: 72
 - 2026-09-05 19:00 | İzlanda 2.Lig | Magni - Kari | scheduled | -
 - 2026-09-05 19:00 | İzlanda 2.Lig | Kfa - Dalvik | scheduled | -
 - 2026-09-05 19:00 | Tanzanya Kuu Bara Ligi | Jkt Tanzania - Pamba Jiji | scheduled | -
+- 2026-09-05 19:00 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Vipers - Nouadhibou | scheduled | -
 - 2026-09-05 19:10 | Umman Profesyonel Lig | Al Shabab - Al Nahda | scheduled | -
 - 2026-09-05 19:15 | Belçika Pro Lig | Mechelen - Westerlo | scheduled | -
 - 2026-09-05 19:15 | Galler Premier Lig 1.Aşama | The New Saints - Barry Town | scheduled | -

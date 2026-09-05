@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 636
+- Scheduled match count: 645
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-05 / 2026-09-06 23:59
 
-- 2026-09-05 09:00 | Canberra - Queanbeyan City | scheduled
-- 2026-09-05 10:00 | Joondalup City - Armadale | scheduled
-- 2026-09-05 10:00 | Peninsula Powe - Moreton City Ex | scheduled
-- 2026-09-05 10:30 | Shaanxi Union - Heilongjiang Ls | scheduled
-- 2026-09-05 11:00 | Changwon City - Daejeon Korail | scheduled
-- 2026-09-05 11:00 | Wofoo Tai Po - Buler Rangers | scheduled
-- 2026-09-05 11:30 | Northern Tiger - St. George Sain | scheduled
-- 2026-09-05 11:30 | Bhayangkara Su - Persebaya | scheduled
-- 2026-09-05 11:30 | Persik - Dewa United | scheduled
-- 2026-09-05 11:30 | Psim Yogyakart - Persita Tangera | scheduled
+- 2026-09-05 12:00 | Monaro Panther - Cooma Tigers | scheduled
+- 2026-09-05 12:00 | Cagliari U20 - Sassuolo U20 | scheduled
+- 2026-09-05 12:00 | Vonds Ichihara - Criacao Shinjuk | scheduled
+- 2026-09-05 12:00 | Fc Gifu - Zweigen Kanazaw | scheduled
+- 2026-09-05 12:00 | Kamatamare San - Mio Biwako Shig | scheduled
+- 2026-09-05 12:00 | Matsumoto Yama - Osaka | scheduled
+- 2026-09-05 12:00 | Sagamihara - Parceiro Nagano | scheduled
+- 2026-09-05 12:00 | Cerezo Osaka ( - Sanfrecce Hiros | scheduled
+- 2026-09-05 12:00 | Elfen Saitama - Parceiro Nagano | scheduled
+- 2026-09-05 12:00 | Omiya (K) - Albirex Niigata | scheduled
