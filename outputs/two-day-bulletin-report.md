@@ -2,24 +2,15 @@
 
 Gunler: 2026-09-05 / 2026-09-06
 Kaynak: fixtures.json
-Ham mac: 681
-Aktif mac: 487
+Ham mac: 606
+Aktif mac: 478
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 194
-Bugun: 415
+Bultenden dusurulen mac: 128
+Bugun: 406
 Yarin: 72
 
 ## Baslamamis Maclar
-- 2026-09-05 15:45 | Polonya Ekstraklasa | Widzew Lodz - Radomiak Radom | scheduled | -
-- 2026-09-05 15:45 | Fransa Ligue 3 | Paris 13 Atlet - Aubagne Air Bel | scheduled | -
-- 2026-09-05 15:45 | Fransa Ligue 3 | Versailles - Cannes | scheduled | -
-- 2026-09-05 15:45 | Fransa Ligue 3 | Bastia - Amiens | scheduled | -
-- 2026-09-05 15:45 | Fransa Ligue 3 | Le Puy - Orleans | scheduled | -
-- 2026-09-05 15:45 | Fransa Ligue 3 | Concarneau - Thionville Lusi | scheduled | -
-- 2026-09-05 15:45 | Fransa Ligue 3 | Bourg-Peronnas - Caen | scheduled | -
-- 2026-09-05 15:45 | Fransa Ligue 3 | Fc Fleury 91 - Fc Villefranche | scheduled | -
-- 2026-09-05 15:45 | Fransa Ligue 3 | La Roche-Sur-Y - Quevilly-Rouen | scheduled | -
 - 2026-09-05 16:00 | Türkiye TFF 1. Lig | Bandirmaspor - Boluspor | scheduled | -
 - 2026-09-05 16:00 | İtalya Serie A | Fiorentina - Torino | scheduled | -
 - 2026-09-05 16:00 | İtalya Serie B | Sudtirol - Catanzaro | scheduled | -

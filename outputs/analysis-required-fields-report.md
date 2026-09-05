@@ -1,9 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 655
-Tam analiz: 603
-Eksik analiz: 52
+Toplam analiz: 606
+Tam analiz: 551
+Eksik analiz: 55
 
 - Wolfsburg VS E.Cottbus: eksik score, confidence
 - Ullern VS Asker: eksik score, confidence
@@ -18,10 +18,10 @@ Eksik analiz: 52
 - Slavia Prag VS Brno: eksik score, confidence
 - Sotra Sk VS Vidar: eksik score, confidence
 - Vindbjart VS Hinna: eksik score, confidence
-- Sogndal Ii VS Fyllingsdalen: eksik score, confidence
 - Os Turn Fotbal VS Forde: eksik score, confidence
 - Brumunddal VS Elverum: eksik score, confidence
+- B.Leverkusen VS Union Berlin: eksik score, confidence
 - Voitsberg VS Sturm Graz: eksik score, confidence
 - Deutschlandsbe VS Lask Linz: eksik score, confidence
 - Newtown VS Denbigh Town: eksik score, confidence
-- Manchester Cit VS Coventry: eksik score, confidence
+- Al Sharjah VS Dubai United: eksik score, confidence
