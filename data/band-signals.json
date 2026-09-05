@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:31:03.649Z",
+  "generated_at": "2026-09-05T17:19:54.482Z",
   "match_count": 217,
   "matches": [
     {
@@ -3086,10 +3086,10 @@
       "extra_used": {
         "squad_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 2,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Inter için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Napoli için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Inter için 1 ceza/men haberi sinyali bulundu | Inter transfer gündemi: +10 / -1 haber sinyali | Napoli transfer gündemi: +11 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -3099,10 +3099,55 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "source_note": "Otomatik açık kaynak: The New York Times, MLSsoccer.com, The Guardian, Yahoo Sports, ESPN",
+            "evidence": [
+              {
+                "title": "Chicago Fire to sign Noah Allen on loan from Inter Miami: Sources - The Athletic - The New York Times",
+                "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTEoyR1hZRE5IMUxRVTF6eWJDZDA3SVctT2hYb2tYMmliQU1BeVpfOVVKNXpjTnFvLUV6SW84TlEyZ3IzX21TR1JKdUdEaUE0SVdaRXJ2NTZGQl9fam1BT1prUmNUbWpmZXdjRHk5c2hXcHR6UmdnZVkyMDg5MF80Sk1qNUYyVm1FS3pfUUNJalFlLUtpU3o4?oc=5",
+                "source_name": "The New York Times",
+                "published_at": "Wed, 02 Sep 2026 21:19:35 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 2.8,
+                "confidence": "medium"
+              },
+              {
+                "title": "Inter Miami's Guillermo Hoyos suspended for Late Kickoff Policy violations - MLSsoccer.com",
+                "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZEpTREdKU2VXUVdXWXY4Y1R4eVVUT01UMGhPalpIUElseHlpU0p4VVdsRGp2TF9MRlNBYjlXa0VOY0hGdVludFdiZl82ZHRveHF0Zl9VaGhmWk5WYUMzLUMxcjJaS0s4LWpMNFo2NDR5UG16bjhIRVF5SWR3b0tJajM0d25xYmZPSjFEaFpjSTZ2TzU2VFhMZUNkTWNyU1VqaHhUeF8wUzI?oc=5",
+                "source_name": "MLSsoccer.com",
+                "published_at": "Thu, 27 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "suspension"
+                ],
+                "age_days": 9.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "Inter Miami sign Casemiro as MLS announces investigation into tampering - The Guardian",
+                "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYmVrS2d2X1M0YkxNY2x3WnBtaXQ1MWEwazZ1NjB2NkxMQTZQZVdaNnZnVnFXaUZnUlJLMVFaX3lMX0NjMVUwN2wzWnFPektXSllkNEl5dUpuY2dSRHM2ODhOSFg3WGNPODZVVWxJWHdmVTg2cG91WHJ2NnhDQlBTc3VHVm5rb1RrV1lHc0d6WkFVakk5ZVI5TG9FX3dBUQ?oc=5",
+                "source_name": "The Guardian",
+                "published_at": "Wed, 22 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 45.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "Inter could change summer transfer strategy if Luis Henrique is sold - Yahoo Sports",
+                "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ0pWVFBNUXp3aEJoUEZVZ21tQUhDTGg0RHlDTmFVcmNLaU1TdS1KaU5OSkhvYjNCM0tRY2hlWUNfb0k3UWdkY3Z0bFFfbWNYOXlHN3ItQzBfdUlKQXF2Qmh3c1RVSmxfTU9QcjZ3d0UtT1VzRVR2WXQwLVNQRUxIUEVMRmh1bkNPV2lJ?oc=5",
+                "source_name": "Yahoo Sports",
+                "published_at": "Sun, 16 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_out"
+                ],
+                "age_days": 20.4,
+                "confidence": "medium"
+              }
+            ],
+            "auto_risk_score": 1.5,
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -3112,10 +3157,10 @@
             "lineup_confirmed": false,
             "provider_team_id": null,
             "injury_news_count": 0,
-            "suspension_news_count": 0,
+            "suspension_news_count": 1,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
-            "transfer_out_news_count": 0,
+            "transfer_in_news_count": 10,
+            "transfer_out_news_count": 1,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
           },
@@ -3126,10 +3171,55 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: The New York Times, Reuters, ESPN, Yahoo Sports, Flashscore.com",
+            "evidence": [
+              {
+                "title": "Napoli announce loan signing of Benoit Badiashile from Chelsea - The Athletic - The New York Times",
+                "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWTR6THFnaDRQZFMyc3J2anVSQlFvV3ptR1lzbmJfNGh3bERMSF9mUVZyTXI5MFNzZnVPVkJseHVRZlZUUXNQZFZRSXpIYnVjd2NRTlFGWWVBNzc1SXhTQ29tX0dpdGVRdHp6VmIxS0VqSm5TUXRvRmVqQmMzWktmV2lhY3NfQ01tY0lvWDBVQWVrVTg3MzhwSC1rU1NrTE0?oc=5",
+                "source_name": "The New York Times",
+                "published_at": "Thu, 13 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 23.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "Napoli sign Hojlund from Man United after loan spell - Reuters",
+                "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWVUtOHc4eDl1c3lfd1M0VlVzN0xDSnppSWk3ZHhQZDQ2MzF0cjc3UUQ2eENDeFk0TGc5QUk0UlAweS1OTURKSWhUV24xNFExVV8yNkFRSXE2Y193MFVfVFlZVFRWSHhxbjZYSkRxRHFscTNSTXQ5bEZEeE93MTRrRlZMbk1rUm9fREM2b190a2tCekk5VnJ5cjNaR0FIUQ?oc=5",
+                "source_name": "Reuters",
+                "published_at": "Wed, 03 Jun 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 94.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "Fenerbahce sign Romelu Lukaku from Napoli - ESPN",
+                "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM0JkeElvRjJfMWw1MWJpeFUtTVdxLVZOczA3T2NUQmpubUR3OU41aFdvdkhBYkpkQ0ZlZHVBTDZZSnBCU2I1R2s3NHNVdHgtaVIxVm1VMHZIWEw0MjBNZ2haQzZ3dXdaTkZYSEgwN2NUcXFDQzd2S3c5ZGltSkt0c25HZ01XeWRuSGFYLQ?oc=5",
+                "source_name": "ESPN",
+                "published_at": "Wed, 12 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 24.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "Romelu Lukaku joins Fenerbahce on permanent transfer from Napoli - The New York Times",
+                "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLUFBaUJQNm9XU0VrSzY3QVhtQnpLRjdrQ1UxY3htQXFLMWpEcEZlQnY1OG4wU29HNDlfQ19IaG5mMGg5RmFsU2xfOXh6akE4Nl9vRElZaDJXcEZIQTdXREU0ZjNIRWxsTFRjaUM2dWNmc0E5bktSYU1QYXRQWHh5cFY5MEd6Q0licFk5UC1LeWdoMkt2RTlhbg?oc=5",
+                "source_name": "The New York Times",
+                "published_at": "Wed, 12 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 24.4,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -3141,7 +3231,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 11,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -3340,10 +3430,10 @@
       "extra_used": {
         "squad_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 1,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Latina için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Forli için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Latina için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Forli için 1 güncel sakatlık haberi sinyali bulundu",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -3380,10 +3470,22 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "source_note": "Otomatik açık kaynak: Quotidiano Sportivo",
+            "evidence": [
+              {
+                "title": "Forlì, the absentees are returning. Santos Silva and Pinza are nearing their debuts in Friuli. Both have already trained: the pivot has returned from the Cape Verde national team, the point guard has recovered from a shoulder injury. - Quotidiano Sportivo",
+                "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY3RBSEZYSnpDZ0lmbjM1eEdxUkNUT0c1VXJuV2pybXU5WUVGNnlfYnF2eGlldUthbW9ENDN3VGJkQ2dDX1pmNXAyMnNscGpOMVowYjlpT3VoeGRWZ1Z6NExPX3hfNUtZZFhONE0xNDFsNm5vclVTT0c1OFIwTDFZNU1ucHRSMjh1cm1od3RIMy1Jdw?oc=5",
+                "source_name": "Quotidiano Sportivo",
+                "published_at": "Tue, 01 Sep 2026 02:47:12 GMT",
+                "categories": [
+                  "injury"
+                ],
+                "age_days": 4.6,
+                "confidence": "medium"
+              }
+            ],
+            "auto_risk_score": 4,
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -3392,7 +3494,7 @@
             "availability_checked": false,
             "lineup_confirmed": false,
             "provider_team_id": null,
-            "injury_news_count": 0,
+            "injury_news_count": 1,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
             "transfer_in_news_count": 0,
@@ -3467,10 +3569,10 @@
       "extra_used": {
         "squad_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 1,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Nuova Monteros için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Pianese için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Nuova Monteros için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Pianese transfer gündemi: +1 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -3507,10 +3609,22 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: AfricaSoccer.com",
+            "evidence": [
+              {
+                "title": "Mamadou Balde: Guinea midfielder joins Club Milano on loan from Pianese - AfricaSoccer.com",
+                "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLW9YcFQ4dmFER1Z0aFpycG0xdExJWVFyT0JjRnEwYXZvTWotcUxOczcwQW5nWjljTm5jNkduTlhFbmRsNTczWDc2UlN5Sjg3dWNfRVpyRDRIbjhsTExsUTA3UjJXSG4xSGVUY3NpcG5hNThndG1zbnNQNmxoTVQ5WmRqWEVPN0kySlZRVmw1ME5Pd1dYV2h0R25rNm8?oc=5",
+                "source_name": "AfricaSoccer.com",
+                "published_at": "Thu, 30 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 37.4,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -3522,7 +3636,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 1,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -3721,10 +3835,10 @@
       "extra_used": {
         "squad_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 1,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Kfa için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Dalvik için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Kfa transfer gündemi: +1 / -0 haber sinyali | Dalvik için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -3734,10 +3848,22 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: Yonhap News Agency",
+            "evidence": [
+              {
+                "title": "Nat'l football head coach 'surprised' by KFA chief's resignation offer - Yonhap News Agency",
+                "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wZkMxcUE2Zy1RcXlfdlByUGp6UjhvdHQ5RlVlbzJqR1dkNTdYc3ROc01QSHAtenBaYktnc3lWME5ma3YyajZ4SU9SSTdLelMyNUMwekNqWFFwUQ?oc=5",
+                "source_name": "Yonhap News Agency",
+                "published_at": "Sat, 30 May 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 98.4,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -3749,7 +3875,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 1,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -3848,10 +3974,10 @@
       "extra_used": {
         "squad_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 1,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Magni için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Kari için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Magni için 1 ceza/men haberi sinyali bulundu | Kari için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -3861,10 +3987,22 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "source_note": "Otomatik açık kaynak: FotMob",
+            "evidence": [
+              {
+                "title": "Red cards - Magni stats for 2. Deild 2026 - FotMob",
+                "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVzJBZzlubE0wRmpWVDRzMlNKTFhoTWREX1RmQWp0NUpZVzNDaTFzM0JTV0xXZDlQREFEYmNKajV1MTRzY3Z6andlRkxpcGRncUV4b1Zxa2hoNkxsclJkODZ0andfUnJHZndSYkwtX0ozd25TYV9tSlJSMlI1WXRlYzFFdFNyZjN0c0lMWC1hVWp3R3FTaDFNdWZsVnZ2SVpvRFhuUWZwbFNzUDVz?oc=5",
+                "source_name": "FotMob",
+                "published_at": "Sat, 29 Aug 2026 11:20:20 GMT",
+                "categories": [
+                  "suspension"
+                ],
+                "age_days": 7.2,
+                "confidence": "medium"
+              }
+            ],
+            "auto_risk_score": 3.8,
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -3874,7 +4012,7 @@
             "lineup_confirmed": false,
             "provider_team_id": null,
             "injury_news_count": 0,
-            "suspension_news_count": 0,
+            "suspension_news_count": 1,
             "doubtful_news_count": 0,
             "transfer_in_news_count": 0,
             "transfer_out_news_count": 0,
@@ -3975,10 +4113,10 @@
       "extra_used": {
         "squad_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 2,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Balzan Fc için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Birzebbuga için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Balzan Fc transfer gündemi: +1 / -0 haber sinyali | Birzebbuga transfer gündemi: +1 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -3988,10 +4126,22 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: AfricaSoccer.com",
+            "evidence": [
+              {
+                "title": "Mohammed Marzuq Yahaya: Nigerian striker joins Balzan FC after spell without club - AfricaSoccer.com",
+                "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPanBxMkRBV2djOU5fQ1d5YWxjcGdYaUNoR2tWbERBT2F3OXFhanZ5dG5fdGdGVGh0Nml6cS11YnQ1bWtzR1JSTGtlY1hZdks4NjBrbno5TldhQXcyRkdwWnVod1JfVWZ5TkV2cmc0WEJaYTZTcThJbXV6YU1jWTRkcDU5aEx4eXB2X1VvZkQ1QlhGUWkyM29QMEZvXzhiZ2E4VWdhV0c4ME50QQ?oc=5",
+                "source_name": "AfricaSoccer.com",
+                "published_at": "Sat, 25 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 42.4,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -4003,7 +4153,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 1,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -4015,10 +4165,22 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: SportsDesk",
+            "evidence": [
+              {
+                "title": "Yuri Messias set to join Birżebbuġa St Peter’s - SportsDesk",
+                "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQkpiZFVjblBtdzRsdTBWZjNwU0pOM3hqakh6V1p4QUk0U1NhT3JJYnFsZG85MnBvWHFhajNPT21zdF9hWm9pYTlOclIzRkRscE9MNlp2TkpPODBfUW85ZVI3TTdqV0RabFAzVmxJZ0xZZEs4QXJvbWRqLVJ1dVpHNkw5bmpGOHhMSFlLRUxRbE4xZw?oc=5",
+                "source_name": "SportsDesk",
+                "published_at": "Thu, 04 Jun 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 93.4,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -4030,7 +4192,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 1,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -4102,10 +4264,10 @@
       "extra_used": {
         "squad_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 2,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Brann için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Lillestrom için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Brann transfer gündemi: +3 / -0 haber sinyali | Lillestrom transfer gündemi: +1 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -4115,10 +4277,44 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: BBC, Her Football Hub",
+            "evidence": [
+              {
+                "title": "Tottenham sign Selma Panengstuen from Norwegian champions SK Brann - BBC",
+                "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JNHBEc0tMSjc1b181NU5EdE9IVzBjUERITWViU19LYUZTUGNzSVFfejU0REpXR0Q2bTlOR2VIMC1KMXB5ck9hNF85OWZSbjN0ZjlwSTNtX0Y4T051dnVTb3RBd2xaMXM?oc=5",
+                "source_name": "BBC",
+                "published_at": "Tue, 30 Jun 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 67.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "WSL: Tottenham sign Selma Panengstuen from SK Brann - Her Football Hub",
+                "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQRF9oZmpzOWdGcVUwU2lDUGNrX2dUNXdudExqUERCV25vWUNwbFFOTDkwZGh6SmgzVTVlSUNEN1hINWJLTVQ3eURMcld1WVpRVEhLd2pFRnpQRHJ4R3FjZzJzTGV6ajM4Y0pHR0gwNE9EaDVROFotZFRfanFKQQ?oc=5",
+                "source_name": "Her Football Hub",
+                "published_at": "Tue, 30 Jun 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 67.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "Felix Horn Myhre: West Bromwich Albion sign Norway midfielder from SK Brann - BBC",
+                "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFTjlPRWM4NGpQYXRWa1phYkZSR1VNeFJDeGlVdEF4UW5Zd2paR1RQRzNRT0Z5SjFLTzl4NWttMm5FTmNDY0h6ZThpemhINEthREk4VkVEa3dKQlJEai1CZTZoUjJfNjA?oc=5",
+                "source_name": "BBC",
+                "published_at": "Wed, 05 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 31.4,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -4130,7 +4326,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 3,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -4142,10 +4338,22 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: Soccernet.ng",
+            "evidence": [
+              {
+                "title": "“The quality is high” – Nigerian striker joins Lillestrom from Sporting Lagos - Soccernet.ng",
+                "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NeXlIeWZ1N1dtUVdfcl9TdC1seUlsa0Q4Z04temQyY0JfRGNXSEs1Z0dEZXpIVUtJZWE4ejlQc2t6enYyRnN4dUswekNYV1V4d2ZTcENuM2pwdEQ1MzhBWXlleF9ra2ZIMXJndjFEZXRCTlVfRFRJ?oc=5",
+                "source_name": "Soccernet.ng",
+                "published_at": "Mon, 13 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 54.4,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -4157,7 +4365,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 1,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -4229,10 +4437,10 @@
       "extra_used": {
         "squad_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 2,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Guimaraes (B) için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Trofense için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Guimaraes (B) transfer gündemi: +10 / -2 haber sinyali | Trofense transfer gündemi: +1 / -1 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -4242,10 +4450,55 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: The New York Times, BBC, Football London, Sky Sports, Goal.com",
+            "evidence": [
+              {
+                "title": "The making of Arsenal signing Bruno Guimaraes, a captivating leader who couldn’t tie his shoelaces - The Athletic - The New York Times",
+                "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMnpzeW1NSEJaa1o1T21xVk1ZU2V2TmNZZmhOdlhaSGFhZ2dNWkpncE54M29pYXZUNzFSNnlra0R4YjBtUjhxYUl0c1lSNjlMNV9TYmh1RWJZU3UyY1JfeEc1ZkMtUEF3Z2Vmdk03bjNLX1plYTBWeUhaS19ic0FSTDRub3l2UnJYZHI1N2VPOUhzY1M4T0d3N2lWRzhDYmItaFlOazNMNnlZU3hwUEE?oc=5",
+                "source_name": "The New York Times",
+                "published_at": "Mon, 10 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 26.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "Bruno Guimaraes joins Arsenal from Newcastle - BBC",
+                "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iRUV3ZF9MRUhvWnZKSGtzX1FUVHJLbk5tYVZMQll3dkpGMXFlSWRSZjZpaVZHTkFNZC1MX3BJSHV1T0NrODM3UWlIVjNweWhBTFdNei1lRmozRkFZZWhaQTZtOUFiblk?oc=5",
+                "source_name": "BBC",
+                "published_at": "Sat, 08 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 28.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "Arsenal transfer frenzy as Bruno Guimaraes agent drops big Vinicius Jr signing hint - Football London",
+                "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObEZpZG5oTThveDRPQ0JrRm9COVVxaHZkcFhhRHdWakh0a0xJTkZNVnVMR3B4SUQ4dDg2MkU1ME4taFFjN3pfZ0lwLUt2WVZ5dWVZQjBxY0dyT1NabGEzSk5iZW43T2FSNmxpWnFUQ0dVLUdWRjF4bUhrdHRLZ0JVZXcwMUdwWUNSVnVLOUgxaWZQdDgtZkhEWlFhWmJNWGRqVDZ0T0NR0gGrAUFVX3lxTE1SbUs0RjRWTTNsWER4czN3a2pTSDZYeGNfdXE0VnNvSVFpdXlpYmtLbU1yakg2ei1HMVRxc3piWDZ6RVR6OGItLVY1eFRpcXJWbHp2ekZyb3hlNzZoTC1FNFpmS2xOaThyUUVJMmFRVjlDTzgzZHo4SFdHWUYzb0x5VHdpM2EyZFFhdGl6cC12WVRpaVBBSFRnbDQ2QUVnMjZNaHVVT2VNdEhiZw?oc=5",
+                "source_name": "Football London",
+                "published_at": "Fri, 31 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 36.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "Bruno Guimaraes transfer news: Newcastle captain tells club he wants to join Arsenal after World Cup exit with Brazil - Sky Sports",
+                "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNS0ZUNDF0UnByLWRVV2dYVE9iVU5xSGVhTGE5V1pWdG1EZmJ5dEU3d24tVUxLcHBqUEVUandMSmhmQm9lb3ZLMEs3OUFUS2lmT0dPSW1XWkRHLUdEME5sZkJSTmpSVDBzRmdxNkE4VGdaSmdvZHJleW0tWEhmeWhpSEN0bVNpcTcxVl9xZ0dRVDJhcTdNcUZfSllyRTFqa2VDMm0wejFUY2dyX3lDX29KQW9QMEFSOFZUNnpEb1NqNTlZRkc2NjE1bENteEdSbzUtYTR5Q2o0cE9VaHdfWjc0dXlIaDgxNFJUV2hGR2ljOXl5SEh0bGVkWHhWcmd0RVdR?oc=5",
+                "source_name": "Sky Sports",
+                "published_at": "Thu, 09 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 58.4,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -4257,8 +4510,8 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
-            "transfer_out_news_count": 0,
+            "transfer_in_news_count": 10,
+            "transfer_out_news_count": 2,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
           },
@@ -4269,10 +4522,23 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "source_note": "Otomatik açık kaynak: AfricaSoccer.com",
+            "evidence": [
+              {
+                "title": "Samuca: Trofense sign Sao Tome and Principe–Portugal left-back from Estrela U23 - AfricaSoccer.com",
+                "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYWhaczI3ZlVrLXVmZEp5Y3AzS2dMVUs5dXdVUk00MmdFenZPU3EwV0VTV3VUanRnZ3QzWUxQVnliYXNpRjd5UFlMVmJteFozdjBrWTM4Y3gwZHdrWjlCak5NRlAzeFJocWx4SVNoeE1QYWxrbnJFTXoyejZSUjlKeXBkWTJpRUY1NmFVa3lIb1FEU29yVHdqZjhWNUoxUV9icGt0RV9YUQ?oc=5",
+                "source_name": "AfricaSoccer.com",
+                "published_at": "Tue, 28 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in",
+                  "transfer_out"
+                ],
+                "age_days": 39.4,
+                "confidence": "medium"
+              }
+            ],
+            "auto_risk_score": 0.3,
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -4284,8 +4550,8 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
-            "transfer_out_news_count": 0,
+            "transfer_in_news_count": 1,
+            "transfer_out_news_count": 1,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
           }
@@ -4610,10 +4876,10 @@
       "extra_used": {
         "squad_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 1,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Rostov için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Fakel Voronezh için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Rostov için 1 ceza/men haberi sinyali bulundu | Rostov transfer gündemi: +5 / -2 haber sinyali | Fakel Voronezh için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -4623,10 +4889,56 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "source_note": "Otomatik açık kaynak: Ahram Online, TribalFootball, sportaran.com, YSscores, AfricaSoccer.com",
+            "evidence": [
+              {
+                "title": "Egypt's Pyramids FC sign defender El-Askalany from Russia's Rostov - Egyptian Football - Sports - Ahram Online",
+                "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE96YVQ0WUdDS1BhYkwzcFVjUjhDS2FJS0EtWlJzdDRfa2hQV2FTSlpMOEI2eExpTDlMbWRJT05kU3ozeXJuRHdpeGl3Q243aDBHcHdzZVhQcjI?oc=5",
+                "source_name": "Ahram Online",
+                "published_at": "Tue, 28 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 39.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "FC Rostov sign Nigeria winger Olakunle Olusegun from Krasnodar - TribalFootball",
+                "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUVpjS3E4WjB2a2lPLTZvb2ZpTENUTzJvRzVZNVlTRGFMVEhSMzNwUjJwdzlIaTF2emtveXlqcjQ0QXRSNTdpeHd2NkRNX3hIV2FueWF4OWR5SVpOTVVCaUY4cjZNa2gtR2hVenp2SGNJWEpWSktMUl9uMDVqYjBYejZ0c1d1RFdXQUdDZXhBcDMwOFVSRUxVZHd3OGUxWU5LR1J4NDJNbWQ5UVozeVc0M29zLVpsOU9QTmNfT2dxdWxxZDRQckZoS1VhYjdJQmdvYy05Rg?oc=5",
+                "source_name": "TribalFootball",
+                "published_at": "Fri, 17 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 50.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "Official: Khoren Bayramyan leaves Rostov and joins Ural - sportaran.com",
+                "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbHBaYkw2LXlia2hRU0NXN2xDQjZPNElGQVNpU0E0SDN1TlVfbzZmVXlzVDRnbE84aWduSFkzRjV3TkphcFp1bGE0eVlhdTdFYU9Jb0RCVkRmMWdMQ0NRMEZFQ1JPV0toOUdLVlFMdlJEM1U5M3VxS2NIUkF5TlJEUV9ZY3FnaHozcUlhbFVobWtFY1E?oc=5",
+                "source_name": "sportaran.com",
+                "published_at": "Fri, 19 Jun 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in",
+                  "transfer_out"
+                ],
+                "age_days": 78.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "Pyramids FC Signs Eyad Al-Asqalani from Russian Club Rostov - YSscores",
+                "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTi02Q2RWQ0EzNHFONEduUUpTbldtUmxYVUdFV2YxaC1hMHhFOXZzMXRnRXJ2TjlNLVhZSWRzYkFqSHk5MExQbHh2WUtrYWFKUklTbHdoXzJVM3ZseDFxWHU3Y2V6NmlfajdwWGEyOHJIS3M0ZVhCX0hGa1FkLVZSRzNPRDN6Zl9ibW9mdlBQbEMtMlF3cHNvLUdXbGQ3ZjdMSXl3?oc=5",
+                "source_name": "YSscores",
+                "published_at": "Tue, 28 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 39.4,
+                "confidence": "medium"
+              }
+            ],
+            "auto_risk_score": 4.8,
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -4636,10 +4948,10 @@
             "lineup_confirmed": false,
             "provider_team_id": null,
             "injury_news_count": 0,
-            "suspension_news_count": 0,
+            "suspension_news_count": 1,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
-            "transfer_out_news_count": 0,
+            "transfer_in_news_count": 5,
+            "transfer_out_news_count": 2,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
           },
@@ -5118,10 +5430,10 @@
       "extra_used": {
         "squad_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 2,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Zemplin için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Trencin için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Zemplin transfer gündemi: +1 / -0 haber sinyali | Trencin transfer gündemi: +2 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -5131,10 +5443,22 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: DaveOCKOP",
+            "evidence": [
+              {
+                "title": "MFK Zemplin Michalovce to sign Liverpool midfielder on permanent transfer - DaveOCKOP",
+                "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVW4yNDYzQUpuT29SRnByeTRFWEcwSTk1cjBVamx6eC1wY3h5QnhDTVdHdW5hZ09CblgydFZHWXlpNU1CY2dOcmYtSmJYeE1SR2paSlBEMjZhVHg1RjZ3TW5Rb3A5YUNnOEtEWFZrSE9jVGxHUmlmMmNVYmNtOU1sZGxlVkNqVkNIVkltc3E4V2h3TzBkbC1CV1NOVHRWUUk3ekloT3M3d2JWLU11OGZ1bEFla3o?oc=5",
+                "source_name": "DaveOCKOP",
+                "published_at": "Tue, 21 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 46.4,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -5146,7 +5470,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 1,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -5158,10 +5482,33 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: Ghana Sports Online, dailypost.ng",
+            "evidence": [
+              {
+                "title": "OFFICIAL: Clement Ansah joins AS Trencin in Slovakia - Ghana Sports Online",
+                "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVTJvTWJiWXdsZW9reGlPMXJPeEhmb3V1d2lNQVRLTjNXUkE1dGlsb0N2RElQQ0oyQ1J1RXhtd0NoLUpyTG14WVN2aFZrSGY2c1hLSHZ0NDJuZGdyaUotU0JmWkM1Z3l4Vmpud3lXYzhOeTQxN0UyT3FOdjU5MkF5SUJiOXBUeTZCUkHSAZIBQVVfeXFMT0VEMWJ2RW1YU0sydXU3MUMxVUt6UmgwRTZYWHNKTGF3RnJTNnJJOWgyQlVHaW0tdU1xVjQ4ZDc3MW1pbG5zRW9nWjYzWW16bmlVSlJHZU0tQ20wRVpKcTUxQW5NRzJBVFdIM3lFd2pkSHY5enlJY1cyV1lKZUZkM21hNHh3OXV5aEVKZXFnQlZDWXc?oc=5",
+                "source_name": "Ghana Sports Online",
+                "published_at": "Fri, 14 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 22.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "NNL: Slovakian club AS Trenčín sign Mohammed Garba - dailypost.ng",
+                "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdHNQa2RFOURLbUdhN2FQUk93Z3lyMDV5akNac2ZicUdDZk1LZ3UtcXRncG1SR2lUc0pJR0V2OTFoUGpZNHl4LXFpYnRvaENpdU15ajRrUGNOaEJURUVmamNocVltVFBxdWk2RWVyNjFlUnprQ0E0Y2dROFpCMUd2TXVNaXNsOHhPc3c?oc=5",
+                "source_name": "dailypost.ng",
+                "published_at": "Fri, 07 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 29.4,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -5173,7 +5520,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 2,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -5245,10 +5592,10 @@
       "extra_used": {
         "squad_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 2,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Zilina için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Podbrezova için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Zilina transfer gündemi: +4 / -0 haber sinyali | Podbrezova transfer gündemi: +3 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -5258,10 +5605,55 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: Pan Africa Football, AfricaSoccer.com, GhanaSoccernet",
+            "evidence": [
+              {
+                "title": "Frank Appiah: MSK Zilina sign Ghanaian midfielder - Pan Africa Football",
+                "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02VzZUb0cyMWtQU2h1bkJfSzU1eENwV3FScThBd0hPam8yaUluVWIyamhxNVpaamdhNHFyVE1WbXk4Y3UxbS16WnVvWHVZcmxrMzZodGYzUFdtTmZmZWp2b1RydWd6bElDT0hZQklR?oc=5",
+                "source_name": "Pan Africa Football",
+                "published_at": "Sat, 20 Jun 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 77.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "Ghana centre-back Yusif Haruna joins MSK Zilina U19 in Slovakian switch - AfricaSoccer.com",
+                "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRjdsT0t4X1VYT3NjZzR6NXJsc0F5eTdDTURYNGpyR28zM25kcjdNenFyeEp1MlBEWlpsdVYzRGk2VUxmdUhpLXA2UUZacV9WTmJWNW1RdXQ2cWNfV3FUVE9uUzFTNmpoZS1VYkpMcXNXd1hlRzhySS1pYnItbGd3TzZobk5jaUlHUkJ1U183MEwxeFJYM3gycHc0TWMzZw?oc=5",
+                "source_name": "AfricaSoccer.com",
+                "published_at": "Thu, 20 Aug 2026 20:11:41 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 15.9,
+                "confidence": "medium"
+              },
+              {
+                "title": "Yusif Haruna joins MSK Zilina U19 as Ghanaian defender begins new loan spell - GhanaSoccernet",
+                "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV1VvWVpyUHIxMFloazh6bEhZSEdPNjdSS0pTOENMZWk1NnlpZmVHdnRBbVhxNnZXNGRWNU1tcnh6NkVyMU5NSTk1WHN3Z3ZDUkdZeXdpOERoLVdrY0FmYVIwRnhJNlhlMXVNR2lDb21KMlFnenhPTHlua0owaUdWeHM1Y0M3U1MxZ3RCWGY3SzAtZTJXRU01SDY1X2VxX1JWemlHTGln?oc=5",
+                "source_name": "GhanaSoccernet",
+                "published_at": "Thu, 20 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 16.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "Ben Sowah Adjei: Ghanaian midfielder joins MSK Zilina U19 from Zilina Africa - AfricaSoccer.com",
+                "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV2MwOXF5YzBOVnE0ajlFWmY2aEl5bHNsVzhCMktlRE1xQW43Mm9qX1BndFF2VlM4dWtMaExCa1ZxdUVkb3RQRnNzYVgyc05EanBuZmV5X2p0OW5Ud1g2TjNYSzk4S1g2NmJHQURPZndNX1E4WHlBTzdDSlBBdWVrcHMxc1VuSW9COGxJdjlrQUVncHN0LTdZeHVxLW1GZmUxQ3lR?oc=5",
+                "source_name": "AfricaSoccer.com",
+                "published_at": "Fri, 24 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 43.4,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -5273,7 +5665,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 4,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -5285,10 +5677,44 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: AllNigeriaSoccer, GhanaSoccernet, MyJoyOnline",
+            "evidence": [
+              {
+                "title": "Official: 2026 Unity Cup-winning midfielder joins FK Zeleziarne Podbrezova on loan - AllNigeriaSoccer",
+                "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcms0UGhFWFEyRVJkeTQyQW1aNnpoMkhyZFNnejZGVkFjdE40ZEhZSFJ0NDVYY3d0ajc1bUxId2FzVl9vcDNhanM0enA5Vm4wTGVKcHNHV2hmVlVwNndFSTlsNW83Z2JQb1NGV19XVVZGcHZ1NHZjNWEta3I5TTNzS3g1YUVUVkp2V3RBN016YnhSbThKbXFDQ1hnaXFUcEJ2SjZ2S0ZnamxuajJiem5HclpTUjc?oc=5",
+                "source_name": "AllNigeriaSoccer",
+                "published_at": "Sat, 05 Sep 2026 14:26:53 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 0.1,
+                "confidence": "medium"
+              },
+              {
+                "title": "Ghanaian youngster Alexander Junior Amoafo joins Zeleziarne Podbrezova after successful trial - GhanaSoccernet",
+                "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONmltMTRwVS00QURFamMwalZ5X3JhbXBnS3EwNDZ1OGl0UVRPYVBGbzAwMTBFTDlRMnRyeGxXRmNZanVYWkVlQ0p3STdmdHVFLXZTNGxNSFBXSEpGRVFtdkYxcE03UHZJSFcwQU01Q3JIREdsSS12QTV3WWZ3X29OQmhCSFNDd0lXSTJ5NzVrUXBGV1plWjQ0aXlNYVN3QVRIeTg3TGpsWXJEejl2dHJUXy1rLXNQekcybXc3dA?oc=5",
+                "source_name": "GhanaSoccernet",
+                "published_at": "Sat, 18 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 49.4,
+                "confidence": "medium"
+              },
+              {
+                "title": "Alexander Amoafo Jnr joins Slovak Premier League side FK Železiarne Podbrezová - MyJoyOnline",
+                "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTVlydUNtZGJ3LVBXa3ZheHJzR2FwdnBFOXlpWUE1UFdPRDlXMTh2YTd1MnhSY0ktSTdJLVNtVDlmeENBUVV1SDdMRW5IYW9GMk10cHpyMmtZbS1RZkF5NXFVMUQ5Y3NJMVJ1TnZ3T3gxNGxvQ1Z2S3UyaDdFZWVQRWVEcU1jQTkxQUtrMlEyc0poX2hUU3hsUzhBWWtXaGpzYVBlcERZcGZqb1k?oc=5",
+                "source_name": "MyJoyOnline",
+                "published_at": "Fri, 17 Jul 2026 12:18:49 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 50.2,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -5300,7 +5726,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 3,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
