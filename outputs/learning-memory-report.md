@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 05.09.2026 01:35:27
+Oluşturma: 05.09.2026 03:13:19
 
 ## Özet
 
@@ -39,7 +39,7 @@ Oluşturma: 05.09.2026 01:35:27
 - 2026-09-05 | Meksika Ascenso MX Apertura | Cds Tampico Ma - Venados Fc | MS 1 | pending | 53/100
 - 2026-09-05 | Meksika Ascenso MX Apertura | Monarcas - Alebrijes | MS 1 | pending | 58/100
 - 2026-09-05 | Guatemala Ulusal Lig Apertura | Malacateco - Suchitepequez | 2.5 Alt | pending | 61/100
-- 2026-09-05 | ABD USL | Orange County - Sacramento Repu | 2.5 Üst | pending | 60/100
+- 2026-09-05 | ABD USL | Orange County - Sacramento Repu | 2.5 Üst | pending | 62/100
 - 2026-09-05 | El Salvador Primera Lig Apertura | Isidro Metapan - Inca-Aruba | 2.5 Alt | pending | 60/100
 - 2026-09-05 | ABD MLS | Los Angeles - New England | MS 1 | pending | 47/100
 - 2026-09-05 | ABD MLS | Salt Lake - Los Angeles Fc | 2.5 Alt | pending | 49/100

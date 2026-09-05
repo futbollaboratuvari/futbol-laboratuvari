@@ -3,18 +3,14 @@
 Gunler: 2026-09-05 / 2026-09-06
 Kaynak: fixtures.json
 Ham mac: 655
-Aktif mac: 650
+Aktif mac: 646
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 578
+Bultenden dusurulen mac: 9
+Bugun: 574
 Yarin: 72
 
 ## Baslamamis Maclar
-- 2026-09-05 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - Ca Mitre | scheduled | -
-- 2026-09-05 02:00 | ABD USL | Loudoun United - Colorado Spring | scheduled | -
-- 2026-09-05 02:30 | ABD MLS | New York City - Nashville Sc | scheduled | -
-- 2026-09-05 02:30 | Brezilya Serie B | Athletic Club - Vila Nova | scheduled | -
 - 2026-09-05 03:30 | Şili Premier Lig | Concepcion - Audax Italiano | scheduled | -
 - 2026-09-05 03:30 | Brezilya Serie B | Regatas - America Mineiro | scheduled | -
 - 2026-09-05 03:30 | Ekvador Pro Lig | T.Universitari - Ldu Quito | scheduled | -

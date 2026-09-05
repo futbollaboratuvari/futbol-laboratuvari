@@ -1,7 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
-Durum: ok
-Toplam analiz: 20
-Tam analiz: 20
-Eksik analiz: 0
+Durum: warning
+Toplam analiz: 655
+Tam analiz: 606
+Eksik analiz: 49
 
+- Wofoo Tai Po VS Buler Rangers: eksik score, confidence
+- Wolfsburg VS E.Cottbus: eksik score, confidence
+- Ullern VS Asker: eksik score, confidence
+- Ifk Umea VS Friska Viljor: eksik score, confidence
+- Minija VS Transinvest Vil: eksik score, confidence
+- Chelsea (K) VS Aston Villa (K): eksik score, confidence
+- Dalian Zhixing VS Qingdao Zhongne: eksik score, confidence
+- Baerum VS Nordstrand: eksik score, confidence
+- Jdfs Alberts VS Smiltene: eksik score, confidence
+- Cand VS Hong Linh Ha Ti: eksik score, confidence
+- Lafnitz VS Avusturya Luste: eksik score, confidence
+- Slavia Prag VS Brno: eksik score, confidence
+- Sotra Sk VS Vidar: eksik score, confidence
+- Vindbjart VS Hinna: eksik score, confidence
+- Voitsberg VS Sturm Graz: eksik score, confidence
+- Deutschlandsbe VS Lask Linz: eksik score, confidence
+- Newtown VS Denbigh Town: eksik score, confidence
+- Manchester Cit VS Coventry: eksik score, confidence
+- Rosenborg VS Ham Kam: eksik score, confidence
+- Kongsvinger VS Raufoss: eksik score, confidence
