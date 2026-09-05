@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 05.09.2026 12:15:12
+Oluşturma: 05.09.2026 15:30:33
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1294
-- Kazanan tahmin: 119
-- Kaybeden tahmin: 87
+- Bekleyen tahmin: 1297
+- Kazanan tahmin: 118
+- Kaybeden tahmin: 85
 - Lig sayısı: 246
 - Seçenek sayısı: 5
 
@@ -23,26 +23,26 @@ Oluşturma: 05.09.2026 12:15:12
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 10, bekleyen 7, başarı %67, düz getiri %66, ağırlık 1
-- MS 1: toplam 476, bekleyen 416, başarı %63, düz getiri %5, ağırlık 1
-- MS 2: toplam 246, bekleyen 221, başarı %60, düz getiri %-3, ağırlık 1
-- 2.5 Alt: toplam 529, bekleyen 459, başarı %56, düz getiri %-10, ağırlık 1
-- 2.5 Üst: toplam 239, bekleyen 191, başarı %52, düz getiri %-9, ağırlık 1
+- MS 1: toplam 474, bekleyen 415, başarı %64, düz getiri %8, ağırlık 1
+- MS 2: toplam 247, bekleyen 223, başarı %58, düz getiri %-4, ağırlık 1
+- 2.5 Alt: toplam 532, bekleyen 464, başarı %57, düz getiri %-7, ağırlık 1
+- 2.5 Üst: toplam 237, bekleyen 188, başarı %51, düz getiri %-11, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-05 | Meksika Liga MX Apertura | Tigres Uanl - Necaxa | 2.5 Alt | pending | 57/100
-- 2026-09-05 | Meksika Ascenso MX Apertura | Cancun Fc - Cruz Azul Hidal | MS 1 | pending | 50/100
-- 2026-09-05 | ABD MLS | Los Angeles - New England | MS 2 | pending | 45/100
-- 2026-09-05 | ABD MLS | Salt Lake - Los Angeles Fc | MS 2 | pending | 46/100
-- 2026-09-05 | Kosta Rika Premier Lig Apertura | Alajuelense - Deportivo Sapri | 2.5 Üst | pending | 54/100
-- 2026-09-05 | Ekvador Pro Lig | Indep. Jose Te - Depor Macara | 2.5 Alt | pending | 53/100
-- 2026-09-05 | Brezilya Serie B | Ceara - Sport Recife | 2.5 Alt | pending | 59/100
-- 2026-09-05 | Arjantin Ulusal Primera Lig | Acassuso - All Boys | MS 2 | pending | 45/100
-- 2026-09-05 | Malta Premier Lig Açılış | Marsaxlokk Fc - Mosta Fc | MS 1 | pending | 53/100
-- 2026-09-05 | İtalya Serie A | Roma - Atalanta | MS 1 | pending | 56/100
-- 2026-09-05 | Belçika Pro Lig | Standard Liege - Antwerp | MS 1 | pending | 49/100
-- 2026-09-05 | İspanya 2.Lig | Eldense - Mallorca | 2.5 Üst | pending | 61/100
-- 2026-09-05 | Brezilya Serie B | Goias - Fortaleza Ce | MS 1 | pending | 46/100
-- 2026-09-05 | Cezayir 1.Lig | Temouchent - Cs Constantine | MS 2 | pending | 44/100
-- 2026-09-05 | Arjantin Ulusal Primera Lig | San Telmo - Los Andes | MS 2 | pending | 44/100
+- 2026-09-05 | Honduras Ulusal Lig Apertura | Atlético Indep - Depor Motagua | 2.5 Üst | pending | 57/100
+- 2026-09-05 | İspanya 2. Lig RFEF Grup 3 | Castellonense - Ucam Murcia | 2.5 Alt | pending | 53/100
+- 2026-09-05 | Kuveyt Premier Lig | Al Fahaheel - Al Tadhamon | MS 1 | pending | 50/100
+- 2026-09-05 | İspanya Primera Lig RFEF Grup 2 | Sant Andreu - Cd Aguilas | MS 1 | pending | 47/100
+- 2026-09-05 | Arjantin Premier Lig 2. Aşama | Aldosivi - Banfield | 2.5 Alt | pending | 60/100
+- 2026-09-05 | Birleşik Arap Emirlikleri 1.Lig | Palm City 365 - Al Hamriyah | MS 2 | pending | 45/100
+- 2026-09-05 | Slovenya 2.SNL | Nk Bilje - Nd Slovan Ljubl | 2.5 Alt | pending | 50/100
+- 2026-09-05 | Gana Premier Lig | Vision - Young Apostles | 2.5 Alt | pending | 57/100
+- 2026-09-05 | İngiltere FA Cup Eleme 1.Tur | Avro - Witton Albion | MS 1 | pending | 55/100
+- 2026-09-05 | İzlanda 2.Lig | Kfg Gardabar - Vikingur Ol. | MS 1 | pending | 48/100
+- 2026-09-05 | Letonya Virsliga | Fs Jelgava - Super Nova | MS 1 | pending | 51/100
+- 2026-09-05 | İngiltere Ulusal Lig N / S Kuzey | Hednesford Tow - Gateshead(South | 2.5 Alt | pending | 48/100
+- 2026-09-05 | İngiltere Ulusal Lig | Gateshead - Solihull Moors | MS 2 | pending | 55/100
+- 2026-09-05 | İskoçya 1.Lig | Queen Of South - Airdrieonians | 2.5 Üst | pending | 60/100
+- 2026-09-05 | Moldova Ulusal Lig | Politeh Chişin - Dacia-Buiucani | 2.5 Alt | pending | 49/100
 
