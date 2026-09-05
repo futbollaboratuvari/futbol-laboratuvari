@@ -2,38 +2,15 @@
 
 Gunler: 2026-09-05 / 2026-09-06
 Kaynak: fixtures.json
-Ham mac: 683
-Aktif mac: 134
+Ham mac: 227
+Aktif mac: 111
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 549
-Bugun: 62
+Bultenden dusurulen mac: 116
+Bugun: 39
 Yarin: 72
 
 ## Baslamamis Maclar
-- 2026-09-05 20:50 | Kuveyt Premier Lig | Al Fahaheel - Al Tadhamon | scheduled | -
-- 2026-09-05 21:00 | Hollanda Eredivisie | Ajax - Psv Eindhoven | scheduled | -
-- 2026-09-05 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci - Al Nassr (Riyad | scheduled | -
-- 2026-09-05 21:00 | Fransa Ligue 2 | St Etienne - Montpellier | scheduled | -
-- 2026-09-05 21:00 | Yunanistan Süper Lig | Aek - Aris | scheduled | -
-- 2026-09-05 21:00 | Sırbistan Süper Lig | Macva - Radnicki 1923 | scheduled | -
-- 2026-09-05 21:00 | Sırbistan Süper Lig | Mladost Lucani - Radnicki Nis | scheduled | -
-- 2026-09-05 21:00 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Club Africain - Djoliba | scheduled | -
-- 2026-09-05 21:00 | Belçika Challenger Pro Lig | Krc Genk Ii - Sporting Hassel | scheduled | -
-- 2026-09-05 21:00 | Cezayir 1.Lig | Temouchent - Cs Constantine | scheduled | -
-- 2026-09-05 21:00 | Norveç 1.Lig | Stabaek - Moss | scheduled | -
-- 2026-09-05 21:00 | Macaristan NB I | Paksi - Debreceni | scheduled | -
-- 2026-09-05 21:00 | Arjantin Ulusal Primera Lig | San Telmo - Los Andes | scheduled | -
-- 2026-09-05 21:00 | Arjantin Ulusal Primera Lig | Tristan - San Martin Tucu | scheduled | -
-- 2026-09-05 21:00 | Slovenya 2.SNL | Brezice - Dravinja | scheduled | -
-- 2026-09-05 21:00 | Polonya 2.Lig | Falubaz Zielon - Swit Skolwin | scheduled | -
-- 2026-09-05 21:00 | Uruguay Premier Lig Clausura | Danubio - Penarol | scheduled | -
-- 2026-09-05 21:00 | Faroe Adaları Kupa Final | Vikingur Gota - Kí Klaksvík | scheduled | -
-- 2026-09-05 21:00 | Fransa Kadınlar 1.Lig | Lens (K) - Psg (K) | scheduled | -
-- 2026-09-05 21:00 | Irak Premier Lig | Al Minaa Basra - Naft | scheduled | -
-- 2026-09-05 21:15 | Polonya Ekstraklasa | Motor Lublin - Legia Varşova | scheduled | -
-- 2026-09-05 21:15 | Bulgaristan 1.Lig | Levski Sofya - Cska 1948 Sofia | scheduled | -
-- 2026-09-05 21:15 | Slovenya 1.SNL | Olimpija Ljubl - Nk Brinje Grosu | scheduled | -
 - 2026-09-05 21:30 | Almanya 2. Bundesliga | Dynamo Dresden - Bochum | scheduled | -
 - 2026-09-05 21:30 | İsviçre Süper Lig | Grasshoppers - Zurich | scheduled | -
 - 2026-09-05 21:30 | Avusturya ÖFB Kupası 2.Tur | Austria Klagen - Rapid Wien | scheduled | -
