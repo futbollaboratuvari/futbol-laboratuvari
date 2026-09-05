@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <title>Futbol Laboratuvarı — Mobil Demo</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#0b1220;color:#fff}main{max-width:520px;margin:auto;padding:18px}.top{display:flex;align-items:center;gap:12px;margin:8px 0 22px}.logo{width:48px;height:48px;border-radius:14px;object-fit:cover}.eyebrow{font-size:12px;opacity:.65;text-transform:uppercase;letter-spacing:.08em}.hero{padding:20px;border-radius:22px;background:linear-gradient(145deg,#18243a,#101827);margin-bottom:16px}.hero h1{font-size:25px;margin:6px 0 8px}.hero p{margin:0;line-height:1.5;opacity:.78}.card{background:#141e30;border:1px solid #243149;border-radius:18px;padding:16px;margin:12px 0}.row{display:flex;justify-content:space-between;gap:12px}.badge{font-size:11px;padding:5px 8px;border-radius:8px;background:#243149;color:#b9d4ff}.teams{font-size:18px;font-weight:700;margin:12px 0}.muted{font-size:13px;opacity:.65}.button{display:block;text-align:center;text-decoration:none;color:#fff;background:#246bff;padding:12px;border-radius:12px;margin-top:14px;font-weight:700}.status{font-size:13px;color:#9fd2ff}.footer{text-align:center;opacity:.5;font-size:12px;padding:20px}.error{color:#ffb4b4}
+  </style>
+</head>
+<body>
+<main>
+  <header class="top">
+    <img class="logo" src="../assets/images/fl-logo-mark.webp" alt="Futbol Laboratuvarı">
+    <div><strong>Futbol Laboratuvarı</strong><div class="eyebrow">Mobil prototip</div></div>
+  </header>
+  <section class="hero">
+    <div class="eyebrow">Mobil uygulama denemesi</div>
+    <h1>Maçları cebinden takip et</h1>
+    <p>Bu ekran, mevcut Futbol Laboratuvarı projesini bozmadan mobil arayüz için yapılan izole bir prototiptir.</p>
+  </section>
+  <section class="card">
+    <div class="row"><strong>Bugünün Maçları</strong><span class="badge" id="count">Demo</span></div>
+    <p class="muted">Bir sonraki aşamada mevcut canlı maç veri kaynağı buraya bağlanabilir.</p>
+    <div class="status" id="status">Prototip hazır — mevcut veriye müdahale edilmiyor.</div>
+  </section>
+  <section class="card">
+    <div class="eyebrow">Sonraki modül</div>
+    <div class="teams">Maç Detayları + Analiz</div>
+    <div class="muted">Form • istatistik • analiz sonucu • risk seviyesi</div>
+    <a class="button" href="../index.html">Web sitesine dön</a>
+  </section>
+  <div class="footer">Futbol Laboratuvarı · Güvenli mobil demo</div>
+</main>
+</body>
+</html>
