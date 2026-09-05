@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-05T15:31:11.672Z",
+  "generated_at": "2026-09-05T17:34:03.026Z",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
   "model_version": "pro13-btts-conditioned-v3-weekly-archive",
   "week_label": "2026/2027 3. Hafta",
-  "archive_match_count": 11953,
+  "archive_match_count": 11955,
   "archive_ready_count": 0,
   "public_distribution_count": 15,
   "analysis_available_count": 15,
@@ -60,23 +60,24 @@
           ]
         },
         "away": {
-          "count": 1,
-          "scored": 1,
+          "count": 2,
+          "scored": 2,
           "conceded": 1,
-          "bttsRate": 100,
+          "bttsRate": 50,
           "over25Rate": 0,
           "over35Rate": 0,
           "goalsForAvg": 1,
-          "goalsAgainstAvg": 1,
-          "wins": 0,
+          "goalsAgainstAvg": 0.5,
+          "wins": 1,
           "draws": 1,
           "losses": 0,
-          "winRate": 0,
-          "drawRate": 100,
+          "winRate": 50,
+          "drawRate": 50,
           "lossRate": 0,
-          "pointsPerGame": 1,
+          "pointsPerGame": 2,
           "recent": [
-            "D"
+            "D",
+            "W"
           ]
         }
       },
@@ -119,22 +120,23 @@
       "poisson": null,
       "form": {
         "home": {
-          "count": 2,
+          "count": 3,
           "scored": 2,
-          "conceded": 2,
-          "bttsRate": 100,
-          "over25Rate": 100,
-          "over35Rate": 50,
-          "goalsForAvg": 1.5,
-          "goalsAgainstAvg": 3,
+          "conceded": 3,
+          "bttsRate": 67,
+          "over25Rate": 67,
+          "over35Rate": 33,
+          "goalsForAvg": 1,
+          "goalsAgainstAvg": 2.33,
           "wins": 0,
           "draws": 0,
-          "losses": 2,
+          "losses": 3,
           "winRate": 0,
           "drawRate": 0,
           "lossRate": 100,
           "pointsPerGame": 0,
           "recent": [
+            "L",
             "L",
             "L"
           ]
@@ -984,25 +986,26 @@
           "recent": []
         },
         "away": {
-          "count": 3,
-          "scored": 3,
-          "conceded": 2,
-          "bttsRate": 67,
-          "over25Rate": 67,
-          "over35Rate": 67,
-          "goalsForAvg": 2.33,
-          "goalsAgainstAvg": 1.33,
+          "count": 4,
+          "scored": 4,
+          "conceded": 3,
+          "bttsRate": 75,
+          "over25Rate": 75,
+          "over35Rate": 75,
+          "goalsForAvg": 2.25,
+          "goalsAgainstAvg": 1.5,
           "wins": 2,
-          "draws": 1,
+          "draws": 2,
           "losses": 0,
-          "winRate": 67,
-          "drawRate": 33,
+          "winRate": 50,
+          "drawRate": 50,
           "lossRate": 0,
-          "pointsPerGame": 2.33,
+          "pointsPerGame": 2,
           "recent": [
             "D",
             "W",
-            "W"
+            "W",
+            "D"
           ]
         }
       },

@@ -2,56 +2,15 @@
 
 Gunler: 2026-09-05 / 2026-09-06
 Kaynak: fixtures.json
-Ham mac: 438
-Aktif mac: 175
+Ham mac: 683
+Aktif mac: 134
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 263
-Bugun: 103
+Bultenden dusurulen mac: 549
+Bugun: 62
 Yarin: 72
 
 ## Baslamamis Maclar
-- 2026-09-05 19:15 | Belçika Pro Lig | Mechelen - Westerlo | scheduled | -
-- 2026-09-05 19:15 | Galler Premier Lig 1.Aşama | The New Saints - Barry Town | scheduled | -
-- 2026-09-05 19:15 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ahli Dubai - Al Jazira | scheduled | -
-- 2026-09-05 19:15 | Katar Yıldızlar Ligi | Al Sadd - Gharrafa | scheduled | -
-- 2026-09-05 19:15 | İspanya Primera Lig RFEF Grup 2 | Sant Andreu - Cd Aguilas | scheduled | -
-- 2026-09-05 19:30 | İngiltere Premier Lig | Hull - Aston Villa | scheduled | -
-- 2026-09-05 19:30 | İspanya LaLiga | Vallecano - Santander | scheduled | -
-- 2026-09-05 19:30 | Almanya Bundesliga | Schalke - B.Münih | scheduled | -
-- 2026-09-05 19:30 | İspanya 2.Lig | Valladolid - Fc Andorra | scheduled | -
-- 2026-09-05 19:30 | İspanya 2.Lig | Ceuta - Celta Vigo Ii | scheduled | -
-- 2026-09-05 19:30 | Arjantin Premier Lig 2. Aşama | Aldosivi - Banfield | scheduled | -
-- 2026-09-05 19:30 | Azerbaycan Premier Lig | Neftchi Baku - Safa | scheduled | -
-- 2026-09-05 19:30 | İngiltere Ulusal Lig | Boreham Wood - Carlisle | scheduled | -
-- 2026-09-05 19:30 | İzlanda Urvalsdeild | Keflavik - Valur | scheduled | -
-- 2026-09-05 19:30 | İspanya 2. Lig RFEF Grup 3 | Real Murcia Ii - Orihuela | scheduled | -
-- 2026-09-05 19:45 | Hollanda Eredivisie | Utrecht - Go Ahead Eagles | scheduled | -
-- 2026-09-05 19:45 | İspanya Primera Lig RFEF Grup 1 | Unionistas De - Union Irun | scheduled | -
-- 2026-09-05 19:45 | İspanya Primera Lig RFEF Grup 1 | Cd Coria - Barakaldo | scheduled | -
-- 2026-09-05 19:45 | İspanya Primera Lig RFEF Grup 1 | Pontevedra - Arenas De Getxo | scheduled | -
-- 2026-09-05 19:45 | İspanya Primera Lig RFEF Grup 2 | Cartagena - Tarragona | scheduled | -
-- 2026-09-05 20:00 | Türkiye Süper Lig | Fenerbahçe - Beşiktaş | scheduled | -
-- 2026-09-05 20:00 | Türkiye TFF 1. Lig | A. Keçiörengüc - Sarıyer | scheduled | -
-- 2026-09-05 20:00 | Türkiye TFF 1. Lig | Pendikspor - Ümraniyespor | scheduled | -
-- 2026-09-05 20:00 | Portekiz Premier Lig | Maritimo - Benfica | scheduled | -
-- 2026-09-05 20:00 | Portekiz Premier Lig | Alverca - Braga | scheduled | -
-- 2026-09-05 20:00 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Al Marreekh Om - Power Dynamos | scheduled | -
-- 2026-09-05 20:00 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Gaborone Unite - Young Africans | scheduled | -
-- 2026-09-05 20:00 | Kuzey İrlanda Premiership | Coleraine - Crusaders | scheduled | -
-- 2026-09-05 20:00 | Moldova Ulusal Lig | Sheriff Tirasp - Petrocub | scheduled | -
-- 2026-09-05 20:00 | Macaristan NB II | Bvsc - Nagykanizsai Ul | scheduled | -
-- 2026-09-05 20:00 | Macaristan NB II | Tiszakecske - Szentlorinc Se | scheduled | -
-- 2026-09-05 20:00 | İspanya 2. Lig RFEF Grup 1 | G.Torrelavega - Llanera | scheduled | -
-- 2026-09-05 20:00 | İspanya 2. Lig RFEF Grup 3 | Castellon Ii - Intercity | scheduled | -
-- 2026-09-05 20:00 | Macaristan NB III Kuzeybatı | Dorogi Fc - Papai Perutz | scheduled | -
-- 2026-09-05 20:00 | İspanya Primera Lig RFEF Grup 2 | Ud Ibiza - Rayo Majadahond | scheduled | -
-- 2026-09-05 20:15 | İspanya 2. Lig RFEF Grup 3 | Castellonense - Ucam Murcia | scheduled | -
-- 2026-09-05 20:30 | İtalya Serie B | Carrarese - Empoli | scheduled | -
-- 2026-09-05 20:30 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl - Tigre | scheduled | -
-- 2026-09-05 20:30 | Romanya 1.Lig | Dinamo Bükreş - Fc Steaua | scheduled | -
-- 2026-09-05 20:30 | Ürdün Premier Lig | Al-Hussein - Al Jazeera | scheduled | -
-- 2026-09-05 20:30 | Portekiz 3.Lig Grup A | Varzim - Paredes | scheduled | -
 - 2026-09-05 20:50 | Kuveyt Premier Lig | Al Fahaheel - Al Tadhamon | scheduled | -
 - 2026-09-05 21:00 | Hollanda Eredivisie | Ajax - Psv Eindhoven | scheduled | -
 - 2026-09-05 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci - Al Nassr (Riyad | scheduled | -
