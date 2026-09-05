@@ -2,26 +2,15 @@
 
 Gunler: 2026-09-05 / 2026-09-06
 Kaynak: fixtures.json
-Ham mac: 655
-Aktif mac: 646
+Ham mac: 651
+Aktif mac: 635
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 574
+Bultenden dusurulen mac: 16
+Bugun: 563
 Yarin: 72
 
 ## Baslamamis Maclar
-- 2026-09-05 03:30 | Şili Premier Lig | Concepcion - Audax Italiano | scheduled | -
-- 2026-09-05 03:30 | Brezilya Serie B | Regatas - America Mineiro | scheduled | -
-- 2026-09-05 03:30 | Ekvador Pro Lig | T.Universitari - Ldu Quito | scheduled | -
-- 2026-09-05 04:00 | Meksika Ascenso MX Apertura | Durango - Tlaxcala | scheduled | -
-- 2026-09-05 04:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Aurora | scheduled | -
-- 2026-09-05 04:00 | Honduras Ulusal Lig Apertura | Choloma - Olancho | scheduled | -
-- 2026-09-05 05:00 | Kosta Rika Premier Lig Apertura | Liberia - Inter San Carlo | scheduled | -
-- 2026-09-05 06:00 | Meksika Liga MX Apertura | Fc Juarez - Pachuca | scheduled | -
-- 2026-09-05 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Zacatecas | scheduled | -
-- 2026-09-05 06:00 | Avustralya NPL Tazmanya Büyük Final | South Hobart - Devonport City | scheduled | -
-- 2026-09-05 07:00 | Avustralya NPL Victoria Eleme Final | Avondale Heigh - Preston Lions | scheduled | -
 - 2026-09-05 09:00 | Avustralya NPL Başkent Bölgesi Yarı Final | Canberra - Queanbeyan City | scheduled | -
 - 2026-09-05 10:00 | Avustralya NPL Queensland Ön Eleme Final | Peninsula Powe - Moreton City Ex | scheduled | -
 - 2026-09-05 10:00 | Avustralya NPL Batı Avustralya Yükselme/Düşme Play-off | Joondalup City - Armadale | scheduled | -

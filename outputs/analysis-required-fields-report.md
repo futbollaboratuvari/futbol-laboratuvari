@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 655
-Tam analiz: 606
+Toplam analiz: 651
+Tam analiz: 602
 Eksik analiz: 49
 
 - Wofoo Tai Po VS Buler Rangers: eksik score, confidence
