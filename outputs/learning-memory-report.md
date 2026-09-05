@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 05.09.2026 21:27:10
+Oluşturma: 05.09.2026 22:24:38
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1215
-- Kazanan tahmin: 160
-- Kaybeden tahmin: 125
+- Bekleyen tahmin: 1187
+- Kazanan tahmin: 172
+- Kaybeden tahmin: 141
 - Lig sayısı: 246
 - Seçenek sayısı: 5
 
@@ -23,18 +23,19 @@ Oluşturma: 05.09.2026 21:27:10
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 10, bekleyen 7, başarı %67, düz getiri %66, ağırlık 1
-- 2.5 Alt: toplam 531, bekleyen 437, başarı %60, düz getiri %-2, ağırlık 1
-- 2.5 Üst: toplam 238, bekleyen 165, başarı %56, düz getiri %-3, ağırlık 1
-- MS 1: toplam 475, bekleyen 392, başarı %54, düz getiri %-10, ağırlık 1
-- MS 2: toplam 246, bekleyen 214, başarı %50, düz getiri %-17, ağırlık 1
+- 2.5 Alt: toplam 531, bekleyen 427, başarı %59, düz getiri %-3, ağırlık 1
+- 2.5 Üst: toplam 238, bekleyen 159, başarı %58, düz getiri %1, ağırlık 1
+- MS 1: toplam 474, bekleyen 382, başarı %50, düz getiri %-17, ağırlık 1
+- MS 2: toplam 247, bekleyen 212, başarı %49, düz getiri %-18, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-05 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Boca Juniors | MS 2 | pending | 45/100
 - 2026-09-05 | ABD USL | Detroit City - Hartford Athlet | 2.5 Alt | pending | 61/100
 - 2026-09-05 | İtalya Serie C Grup B | Vis Pasaro - Ostia Mare Lido | 2.5 Üst | pending | 53/100
 - 2026-09-05 | İtalya Serie C Grup C | Bari - Casarano | 2.5 Üst | pending | 53/100
 - 2026-09-05 | Hollanda Eredivisie | Ajax - Psv Eindhoven | MS 1 | pending | 46/100
-- 2026-09-05 | Arjantin Premier Lig 2. Aşama | San Lorenzo - Talleres | 2.5 Alt | pending | 65/100
+- 2026-09-05 | Arjantin Premier Lig 2. Aşama | San Lorenzo - Talleres | 2.5 Alt | pending | 62/100
 - 2026-09-05 | Bolivya Premier Lig | Oriente Petrol - Always Ready | MS 1 | pending | 48/100
 - 2026-09-05 | Fransa Ligue 1 | Nice - Le Mans | MS 1 | pending | 55/100
 - 2026-09-05 | Brezilya Serie A | Bragantino - Bahia | 2.5 Alt | pending | 57/100
@@ -44,5 +45,4 @@ Oluşturma: 05.09.2026 21:27:10
 - 2026-09-05 | İspanya Primera Lig RFEF Grup 2 | Ud Ibiza - Rayo Majadahond | 2.5 Alt | pending | 55/100
 - 2026-09-05 | Rusya FNL | Pfc Sochi - Olimpiyets | 2.5 Alt | pending | 52/100
 - 2026-09-05 | Slovenya 1.SNL | Aluminij - Ask Bravo | 2.5 Üst | pending | 53/100
-- 2026-09-05 | Honduras Ulusal Lig Apertura | Atlético Indep - Depor Motagua | 2.5 Üst | pending | 57/100
 

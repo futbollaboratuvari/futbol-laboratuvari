@@ -2,48 +2,15 @@
 
 Gunler: 2026-09-05 / 2026-09-06
 Kaynak: fixtures.json
-Ham mac: 227
-Aktif mac: 111
+Ham mac: 683
+Aktif mac: 78
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 116
-Bugun: 39
+Bultenden dusurulen mac: 605
+Bugun: 6
 Yarin: 72
 
 ## Baslamamis Maclar
-- 2026-09-05 21:30 | Almanya 2. Bundesliga | Dynamo Dresden - Bochum | scheduled | -
-- 2026-09-05 21:30 | İsviçre Süper Lig | Grasshoppers - Zurich | scheduled | -
-- 2026-09-05 21:30 | Avusturya ÖFB Kupası 2.Tur | Austria Klagen - Rapid Wien | scheduled | -
-- 2026-09-05 21:30 | Slovakya Süper Lig | Dac - Slovan Bratisla | scheduled | -
-- 2026-09-05 21:30 | İrlanda 1.Lig | Longford - Kerry | scheduled | -
-- 2026-09-05 21:30 | Arjantin Ulusal Primera Lig | Chacarita Juni - Atlanta | scheduled | -
-- 2026-09-05 21:30 | Arjantin Ulusal Primera Lig | Acassuso - All Boys | scheduled | -
-- 2026-09-05 21:30 | Andorra 1.Lig | Carroi - Santa Coloma | scheduled | -
-- 2026-09-05 21:30 | İspanya Kadınlar Primera Lig | Sevilla (K) - Barcelona (K) | scheduled | -
-- 2026-09-05 21:30 | İspanya 2. Lig RFEF Grup 5 | Atletico Madri - Real Avila | scheduled | -
-- 2026-09-05 21:30 | Malta Premier Lig Açılış | Marsaxlokk Fc - Mosta Fc | scheduled | -
-- 2026-09-05 21:45 | İtalya Serie A | Roma - Atalanta | scheduled | -
-- 2026-09-05 21:45 | Fransa Ligue 1 | Le Havre - Brest | scheduled | -
-- 2026-09-05 21:45 | Fransa Ligue 1 | Nice - Le Mans | scheduled | -
-- 2026-09-05 21:45 | Belçika Pro Lig | Standard Liege - Antwerp | scheduled | -
-- 2026-09-05 21:45 | Belçika Pro Lig | St. Truidense - La Louvière | scheduled | -
-- 2026-09-05 21:45 | Bosna-Hersek Premier Lig | Radnik Bijelji - Sloga Doboj | scheduled | -
-- 2026-09-05 22:00 | İspanya LaLiga | Villarreal - D.La Coruna | scheduled | -
-- 2026-09-05 22:00 | Hollanda Eredivisie | Willem - Excelsior | scheduled | -
-- 2026-09-05 22:00 | İngiltere Championship | Swansea - Wrexham | scheduled | -
-- 2026-09-05 22:00 | İspanya 2.Lig | Eldense - Mallorca | scheduled | -
-- 2026-09-05 22:00 | İskoçya Premiership | St Mirren - Celtic | scheduled | -
-- 2026-09-05 22:00 | Brezilya Serie A | Bragantino - Bahia | scheduled | -
-- 2026-09-05 22:00 | İtalya Serie C Grup B | Vis Pasaro - Ostia Mare Lido | scheduled | -
-- 2026-09-05 22:00 | İtalya Serie C Grup C | Rossoblu Poten - Ss Monopoli 196 | scheduled | -
-- 2026-09-05 22:00 | İtalya Serie C Grup C | Bari - Casarano | scheduled | -
-- 2026-09-05 22:00 | İtalya Serie C Grup C | Ssc Giugliano - Sorrento Calcio | scheduled | -
-- 2026-09-05 22:00 | Hırvatistan 1.HNL | Rijeka - Osijek | scheduled | -
-- 2026-09-05 22:00 | Brezilya Serie B | Goias - Fortaleza Ce | scheduled | -
-- 2026-09-05 22:00 | Brezilya Serie B | Novorizontino - Avai | scheduled | -
-- 2026-09-05 22:00 | İspanya Primera Lig RFEF Grup 2 | Zaragoza - Antequera | scheduled | -
-- 2026-09-05 22:00 | Fransa Kadınlar 1.Lig | Olympique Mars - Le Havre (K) | scheduled | -
-- 2026-09-05 22:00 | Bolivya Premier Lig | Guabira - Real Potosi | scheduled | -
 - 2026-09-05 22:30 | Portekiz Premier Lig | Sporting Cp - Nacional Madeir | scheduled | -
 - 2026-09-05 22:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Boca Juniors | scheduled | -
 - 2026-09-05 23:00 | Cezayir 1.Lig | Aso Chlef - Belouizdad | scheduled | -

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-05T17:34:03.026Z",
+  "generated_at": "2026-09-05T19:24:52.747Z",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
   "model_version": "pro13-btts-conditioned-v3-weekly-archive",
   "week_label": "2026/2027 3. Hafta",
   "archive_match_count": 11955,
-  "archive_ready_count": 0,
+  "archive_ready_count": 1,
   "public_distribution_count": 15,
   "analysis_available_count": 15,
   "matches": [
@@ -1062,23 +1062,24 @@
           ]
         },
         "away": {
-          "count": 1,
+          "count": 2,
           "scored": 1,
-          "conceded": 1,
-          "bttsRate": 100,
+          "conceded": 2,
+          "bttsRate": 50,
           "over25Rate": 100,
-          "over35Rate": 100,
-          "goalsForAvg": 3,
-          "goalsAgainstAvg": 1,
+          "over35Rate": 50,
+          "goalsForAvg": 1.5,
+          "goalsAgainstAvg": 2,
           "wins": 1,
           "draws": 0,
-          "losses": 0,
-          "winRate": 100,
+          "losses": 1,
+          "winRate": 50,
           "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 3,
+          "lossRate": 50,
+          "pointsPerGame": 1.5,
           "recent": [
-            "W"
+            "W",
+            "L"
           ]
         }
       },
@@ -1100,25 +1101,34 @@
       "away": "Inter",
       "canonical_home": "Cagliari",
       "canonical_away": "Inter",
-      "archive_ready": false,
+      "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 8,
-        "2": 84,
-        "X": 8
+        "1": 25.6,
+        "2": 54.2,
+        "X": 20.2
       },
-      "archive_probabilities": null,
+      "archive_probabilities": {
+        "1": 33.6,
+        "2": 40.7,
+        "X": 25.7
+      },
       "public_distribution": {
         "1": 8,
         "2": 84,
         "X": 8
       },
-      "probability_basis": "cross_verified_public_distribution",
-      "confidence": 51,
-      "data_completeness": 28,
-      "probability_gap": 76,
-      "agreement_score": null,
-      "poisson": null,
+      "probability_basis": "archive_poisson_plus_public_distribution",
+      "confidence": 67,
+      "data_completeness": 66,
+      "probability_gap": 28.6,
+      "agreement_score": 56.7,
+      "poisson": {
+        "home_lambda": 1.27,
+        "away_lambda": 1.43,
+        "samples": 6,
+        "reliability": 0.375
+      },
       "form": {
         "home": {
           "count": 3,
@@ -1143,15 +1153,15 @@
           ]
         },
         "away": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 50,
-          "over35Rate": 50,
-          "goalsForAvg": 2.5,
-          "goalsAgainstAvg": 0.5,
-          "wins": 2,
+          "count": 3,
+          "scored": 3,
+          "conceded": 2,
+          "bttsRate": 67,
+          "over25Rate": 67,
+          "over35Rate": 67,
+          "goalsForAvg": 2.67,
+          "goalsAgainstAvg": 1,
+          "wins": 3,
           "draws": 0,
           "losses": 0,
           "winRate": 100,
@@ -1159,6 +1169,7 @@
           "lossRate": 0,
           "pointsPerGame": 3,
           "recent": [
+            "W",
             "W",
             "W"
           ]
