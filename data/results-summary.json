@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T12:51:24.867Z",
+  "generated_at": "2026-09-05T15:31:06.999Z",
   "date": "2026-09-05",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -817,16 +817,16 @@
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 206,
-    "pending_count": 1294,
-    "won_count": 120,
-    "lost_count": 86,
+    "measured_count": 203,
+    "pending_count": 1297,
+    "won_count": 118,
+    "lost_count": 85,
     "void_count": 0,
     "success_rate": 58,
-    "probability_sample_count": 206,
-    "brier_score": 0.2472,
-    "baseline_brier_score": 0.2432,
-    "brier_skill_score": -0.0165,
+    "probability_sample_count": 203,
+    "brier_score": 0.2473,
+    "baseline_brier_score": 0.2434,
+    "brier_skill_score": -0.0159,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -848,10 +848,10 @@
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 99,
-        "won": 54,
-        "average_probability": 54.7,
-        "observed_rate": 54.5
+        "predictions": 96,
+        "won": 52,
+        "average_probability": 54.8,
+        "observed_rate": 54.2
       },
       {
         "lower": 60,
@@ -867,18 +867,18 @@
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 120,
-        "won": 66,
-        "lost": 54,
+        "measured": 118,
+        "won": 65,
+        "lost": 53,
         "success_rate": 55
       },
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 86,
-        "won": 54,
+        "measured": 85,
+        "won": 53,
         "lost": 32,
-        "success_rate": 63
+        "success_rate": 62
       }
     ]
   }
