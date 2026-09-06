@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 06.09.2026 17:26:38
+Oluşturma: 06.09.2026 19:46:38
 
 ## Özet
 
@@ -23,13 +23,17 @@ Oluşturma: 06.09.2026 17:26:38
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 3, bekleyen 1, başarı %100, düz getiri %148, ağırlık 1
-- 2.5 Üst: toplam 228, bekleyen 163, başarı %59, düz getiri %1, ağırlık 1
-- 2.5 Alt: toplam 533, bekleyen 434, başarı %58, düz getiri %-4, ağırlık 1
-- MS 1: toplam 505, bekleyen 412, başarı %45, düz getiri %-25, ağırlık 0.94
+- 2.5 Üst: toplam 230, bekleyen 165, başarı %59, düz getiri %1, ağırlık 1
+- 2.5 Alt: toplam 532, bekleyen 433, başarı %58, düz getiri %-4, ağırlık 1
+- MS 1: toplam 504, bekleyen 411, başarı %45, düz getiri %-25, ağırlık 0.94
 - MS 2: toplam 231, bekleyen 194, başarı %43, düz getiri %-20, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-06 | CONCACAF Ligler Kupası Final | Toluca - Monterrey | MS 1 | pending | 49/100
+- 2026-09-06 | Bosna-Hersek Premier Lig | Zrinjski - Siroki Brijeg | 2.5 Üst | pending | 54/100
+- 2026-09-06 | Belçika Pro Lig | Waasland Bever - Oh Leuven | 2.5 Alt | pending | 49/100
+- 2026-09-06 | Norveç Eliteserien | Kristiansund - Tromso | 2.5 Üst | pending | 57/100
 - 2026-09-06 | İran Persian Gulf Pro Lig | Shahrdari Arak - Esteghlal | 2.5 Alt | pending | 50/100
 - 2026-09-06 | İran Persian Gulf Pro Lig | Chadormalu - Shams Azar Qazv | 2.5 Alt | pending | 50/100
 - 2026-09-06 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Asc Kara - Asec | 2.5 Alt | pending | 49/100
@@ -37,12 +41,8 @@ Oluşturma: 06.09.2026 17:26:38
 - 2026-09-06 | Belarus 1.Lig | Orsha - Ostrovets Fc | 2.5 Alt | pending | 48/100
 - 2026-09-06 | Peru Premier Lig Clausura | Melgar - Adt | MS 1 | pending | 57/100
 - 2026-09-06 | Peru Premier Lig Clausura | Deportivo Garc - Atletico Grau | 2.5 Alt | pending | 60/100
-- 2026-09-06 | Portekiz 2.Lig | Leiria - Portimonense | 2.5 Alt | pending | 52/100
+- 2026-09-06 | Portekiz 2.Lig | Leiria - Portimonense | 2.5 Alt | pending | 53/100
 - 2026-09-06 | İspanya 2. Lig RFEF Grup 2 | Pena Sport - Utebo | 2.5 Alt | pending | 53/100
 - 2026-09-06 | İspanya 2. Lig RFEF Grup 2 | Barbastro - Girona Ii | MS 1 | pending | 41/100
 - 2026-09-06 | İspanya 2. Lig RFEF Grup 2 | Ue Olot - Ebro | MS 1 | pending | 44/100
-- 2026-09-06 | Bulgaristan 1.Lig | Lokomotiv Plov - Cherno More | MS 1 | pending | 41/100
-- 2026-09-06 | Gürcistan Erovnuli Liga | Torpedo Kutais - Dinamo Tiflis | MS 1 | pending | 42/100
-- 2026-09-06 | İrlanda FAI Kupası Çeyrek Final | Derry City - Dundalk | 2.5 Alt | pending | 41/100
-- 2026-09-06 | Letonya Virsliga | Auda - Grobina | 2.5 Alt | pending | 48/100
 
