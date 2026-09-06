@@ -2,22 +2,15 @@
 
 Gunler: 2026-09-06 / 2026-09-07
 Kaynak: fixtures.json
-Ham mac: 92
-Aktif mac: 41
+Ham mac: 516
+Aktif mac: 34
 Canli mac: 0
-Biten mac: 2
-Bultenden dusurulen mac: 51
-Bugun: 7
+Biten mac: 0
+Bultenden dusurulen mac: 482
+Bugun: 0
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-09-06 23:00 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Independiente | scheduled | -
-- 2026-09-06 23:00 | Arjantin Premier Lig 2. Aşama | Lanus - Defensa Justici | scheduled | -
-- 2026-09-06 23:00 | Peru Premier Lig Clausura | Juan Pablo Ii - Alianza Lima | scheduled | -
-- 2026-09-06 23:00 | Venezuela Premier Lig Clausura | Monagas - Metropolitanos | scheduled | -
-- 2026-09-06 23:00 | Şili Premier Lig | Huachipato - Colo Colo | scheduled | -
-- 2026-09-06 23:00 | Arjantin Ulusal Primera Lig | Club Atletico - Gimnasia Y Tiro | scheduled | -
-- 2026-09-06 23:00 | Arjantin Ulusal Primera Lig | Central Norte - Almirante | scheduled | -
 - 2026-09-07 00:00 | Kolombiya Primera A Clausura | Inter Bogota - Rionegro Aguila | scheduled | -
 - 2026-09-07 00:00 | Venezuela Premier Lig Clausura | Trujillanos - Caracas Fc | scheduled | -
 - 2026-09-07 00:00 | Ekvador Pro Lig | Delfin - Univ Catolica ( | scheduled | -
@@ -57,5 +50,4 @@ Yarin: 34
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-09-06 20:15 | Belçika Pro Lig | Waasland Bever - Oh Leuven | finished | 3-0
-- 2026-09-06 20:15 | Norveç Eliteserien | Kristiansund - Tromso | finished | 2-0
+Biten mac yok.
