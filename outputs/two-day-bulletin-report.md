@@ -3,16 +3,14 @@
 Gunler: 2026-09-06 / 2026-09-07
 Kaynak: fixtures.json
 Ham mac: 342
-Aktif mac: 225
+Aktif mac: 223
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 117
-Bugun: 191
+Biten mac: 4
+Bultenden dusurulen mac: 119
+Bugun: 189
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-09-06 17:15 | İspanya LaLiga | Valencia - Barcelona | scheduled | -
-- 2026-09-06 17:15 | İspanya 2.Lig | Oviedo - Burgos | scheduled | -
 - 2026-09-06 17:30 | Portekiz Premier Lig | Santa Clara - Rio Ave | scheduled | -
 - 2026-09-06 17:30 | İsveç Allsvenskan | Brommapojkarna - Elfsborg | scheduled | -
 - 2026-09-06 17:30 | İsviçre Süper Lig | Sion - Thun | scheduled | -
@@ -241,4 +239,7 @@ Yarin: 34
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-06 15:00 | İspanya 2.Lig | Eibar - Granada | finished | 3-0
+- 2026-09-06 15:00 | İsveç Allsvenskan | Orgryte - Hammarby | finished | 1-1
+- 2026-09-06 15:00 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Gor Mahia - Pyramids Fc | finished | 0-2
+- 2026-09-06 15:00 | İngiltere FA Cup Eleme 1.Tur | Afc Emley - Bishop Auckland | finished | 1-1
