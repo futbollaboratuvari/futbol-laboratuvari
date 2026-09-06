@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 472
+- Scheduled match count: 440
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-06 / 2026-09-07 23:59
 
-- 2026-09-06 02:25 | Santa Fe - Fortaleza | scheduled
-- 2026-09-06 02:30 | Charlotte - Houston | scheduled
-- 2026-09-06 02:30 | Cincinnati - Dc United | scheduled
-- 2026-09-06 02:30 | Columbus - Colorado | scheduled
-- 2026-09-06 02:30 | Inter Miami - Atlanta Utd | scheduled
-- 2026-09-06 02:30 | Orlando City - San Diego | scheduled
-- 2026-09-06 02:30 | Philadelphia - Montreal | scheduled
-- 2026-09-06 02:30 | Toronto - Chicago | scheduled
-- 2026-09-06 02:30 | Fort Wayne - New York Cosmos | scheduled
-- 2026-09-06 02:30 | Naples - Athletic Club B | scheduled
+- 2026-09-06 04:30 | Los Angeles - New England | scheduled
+- 2026-09-06 04:30 | Salt Lake - Los Angeles Fc | scheduled
+- 2026-09-06 04:30 | Marathon - Estrella Roja | scheduled
+- 2026-09-06 04:30 | Atletico Junio - Jaguares | scheduled
+- 2026-09-06 04:30 | Universitario - Comerciantes Un | scheduled
+- 2026-09-06 05:00 | Monterey Bay - Phoenix Rising | scheduled
+- 2026-09-06 05:00 | Alajuelense - Deportivo Sapri | scheduled
+- 2026-09-06 05:30 | Portland - Minnesota Utd | scheduled
+- 2026-09-06 05:30 | Vancouver - St. Louis City | scheduled
+- 2026-09-06 05:30 | Las Vegas Ligh - New Mexico Unit | scheduled
