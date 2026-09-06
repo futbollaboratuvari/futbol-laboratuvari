@@ -77,7 +77,7 @@
 
   function topMatches(data) {
     if (!eligibility?.selectStrongestMatches) return [];
-    return eligibility.selectStrongestMatches(data?.matches, 6);
+    return eligibility.selectStrongestMatches(data?.matches, 10);
   }
 
   function tierLabel(match) {
