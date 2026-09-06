@@ -3,20 +3,14 @@
 Gunler: 2026-09-07 / 2026-09-08
 Kaynak: fixtures.json
 Ham mac: 120
-Aktif mac: 103
+Aktif mac: 97
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 17
-Bugun: 92
+Bultenden dusurulen mac: 23
+Bugun: 86
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-09-07 02:00 | Meksika Liga MX Apertura | Cruz Azul - Santos Laguna | scheduled | -
-- 2026-09-07 02:00 | Venezuela Premier Lig Clausura | Deportivo La G - Academia Anzoat | scheduled | -
-- 2026-09-07 02:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Leones Negros | scheduled | -
-- 2026-09-07 02:00 | Guatemala Ulusal Lig Apertura | Municipal - Deportivo San P | scheduled | -
-- 2026-09-07 02:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Managua | scheduled | -
-- 2026-09-07 02:10 | Kolombiya Primera A Clausura | Pereira - Los Millionario | scheduled | -
 - 2026-09-07 02:15 | Honduras Ulusal Lig Apertura | Real Espana - Upnfm | scheduled | -
 - 2026-09-07 02:30 | Peru Premier Lig Clausura | Melgar - Adt | scheduled | -
 - 2026-09-07 02:30 | El Salvador Primera Lig Apertura | Firpo - Inter Fa | scheduled | -

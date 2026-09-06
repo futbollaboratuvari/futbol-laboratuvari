@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 103
+- Scheduled match count: 97
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-07 / 2026-09-08 23:59
 
-- 2026-09-07 02:00 | Municipal - Deportivo San P | scheduled
-- 2026-09-07 02:00 | Cd Tapatio - Leones Negros | scheduled
-- 2026-09-07 02:00 | Cruz Azul - Santos Laguna | scheduled
-- 2026-09-07 02:00 | Walter Ferrett - Managua | scheduled
-- 2026-09-07 02:00 | Deportivo La G - Academia Anzoat | scheduled
-- 2026-09-07 02:10 | Pereira - Los Millionario | scheduled
 - 2026-09-07 02:15 | Real Espana - Upnfm | scheduled
 - 2026-09-07 02:30 | Firpo - Inter Fa | scheduled
 - 2026-09-07 02:30 | Melgar - Adt | scheduled
 - 2026-09-07 03:00 | Nacional Potos - Blooming | scheduled
+- 2026-09-07 03:00 | Aucas - Barcelona Gua | scheduled
+- 2026-09-07 03:00 | Deportivo Cuen - Libertad | scheduled
+- 2026-09-07 03:30 | Racing Club - Atletico Tucuma | scheduled
+- 2026-09-07 04:00 | Ad San Carlos - Sporting San Jo | scheduled
+- 2026-09-07 04:00 | Matagalpa - Diriangen | scheduled
+- 2026-09-07 04:15 | Toluca - Monterrey | scheduled
