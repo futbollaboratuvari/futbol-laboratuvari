@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 07.09.2026 01:29:15
+Oluşturma: 07.09.2026 01:45:52
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1134
-- Kazanan tahmin: 191
-- Kaybeden tahmin: 175
-- Lig sayısı: 220
+- Bekleyen tahmin: 1142
+- Kazanan tahmin: 186
+- Kaybeden tahmin: 172
+- Lig sayısı: 221
 - Seçenek sayısı: 5
 
 ## Öğrenme Mantığı
@@ -23,26 +23,26 @@ Oluşturma: 07.09.2026 01:29:15
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 3, bekleyen 1, başarı %100, düz getiri %148, ağırlık 1
-- 2.5 Üst: toplam 235, bekleyen 148, başarı %60, düz getiri %3, ağırlık 1
-- 2.5 Alt: toplam 544, bekleyen 421, başarı %54, düz getiri %-11, ağırlık 1
-- MS 2: toplam 228, bekleyen 180, başarı %48, düz getiri %-13, ağırlık 1
-- MS 1: toplam 490, bekleyen 384, başarı %45, düz getiri %-25, ağırlık 0.94
+- 2.5 Üst: toplam 236, bekleyen 151, başarı %60, düz getiri %2, ağırlık 1
+- 2.5 Alt: toplam 545, bekleyen 424, başarı %53, düz getiri %-12, ağırlık 1
+- MS 2: toplam 228, bekleyen 181, başarı %49, düz getiri %-11, ağırlık 1
+- MS 1: toplam 488, bekleyen 385, başarı %45, düz getiri %-26, ağırlık 0.94
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-07 | Arjantin Premier Lig 2. Aşama | Barracas - Argentinos Jr | MS 2 | pending | 50/100
+- 2026-09-07 | Venezuela Premier Lig Clausura | Carabobo - Estudiantes Fc | 2.5 Üst | pending | 61/100
+- 2026-09-07 | Brezilya Serie A | Vitoria Bahia - Gremio | 2.5 Alt | pending | 69/100
+- 2026-09-07 | Kolombiya Primera A Clausura | Llaneros - Deportes Tolima | 2.5 Alt | pending | 58/100
+- 2026-09-07 | Venezuela Premier Lig Clausura | Ucv - Academia Puerto | 2.5 Alt | pending | 64/100
+- 2026-09-07 | Şili Premier Lig | Deportes Limac - Cobresal | MS 1 | pending | 52/100
+- 2026-09-07 | Ekvador Pro Lig | Emelec - Manta | 2.5 Alt | pending | 64/100
+- 2026-09-07 | Ekvador Pro Lig | Mushuc Runa - Leones Del Nort | 2.5 Alt | pending | 63/100
+- 2026-09-07 | Ekvador Pro Lig | Orense - Guayaquil City | 2.5 Üst | pending | 65/100
+- 2026-09-07 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Instituto Cordo | MS 1 | pending | 42/100
+- 2026-09-07 | Kolombiya Kupa Son 16 Turu | Atletico Nacio - Deportivo Cali | 2.5 Üst | pending | 61/100
 - 2026-09-07 | Belarus Premier Lig | Dinamo Brest - Bate Borisov | MS 1 | pending | 50/100
 - 2026-09-07 | İtalya Serie C Grup C | Catania - Cosenza | MS 1 | pending | 54/100
 - 2026-09-07 | İtalya Serie A | Udinese - Lazio | 2.5 Alt | pending | 65/100
 - 2026-09-07 | Fransa Ligue 2 | Nantes - Nancy | 2.5 Üst | pending | 56/100
-- 2026-09-07 | İngiltere 1.Lig | Bromley - Afc Wimbledon | 2.5 Üst | pending | 70/100
-- 2026-09-07 | İtalya Serie C Grup A | Alcione - Treviso | MS 1 | pending | 44/100
-- 2026-09-07 | İtalya Serie C Grup A | Renate - Novara | 2.5 Alt | pending | 56/100
-- 2026-09-07 | İtalya Serie C Grup A | Pro Vercelli - Folgore Carates | MS 1 | pending | 46/100
-- 2026-09-07 | İtalya Serie C Grup A | Trento Calcio - Lecco | 2.5 Alt | pending | 55/100
-- 2026-09-07 | İtalya Serie C Grup C | Picerno - Internazionale | 2.5 Alt | pending | 55/100
-- 2026-09-07 | Kanada Premier Lig | Hfx Wanderers - Cavalry | MS 2 | pending | 51/100
-- 2026-09-07 | Portekiz Premier Lig | Estoril - Arouca | 2.5 Üst | pending | 60/100
-- 2026-09-07 | İspanya LaLiga | Elche - Real Sociedad | MS 2 | pending | 57/100
-- 2026-09-07 | Arjantin Ulusal Primera Lig | Nueva Chicago - Quilmes | MS 1 | pending | 43/100
-- 2026-09-07 | Mısır Premier Lig | Petrojet - Masryal Masry P | 2.5 Alt | pending | 56/100
 
