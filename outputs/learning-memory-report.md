@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 07.09.2026 00:56:35
+Oluşturma: 07.09.2026 01:29:15
 
 ## Özet
 
@@ -30,6 +30,7 @@ Oluşturma: 07.09.2026 00:56:35
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-07 | Belarus Premier Lig | Dinamo Brest - Bate Borisov | MS 1 | pending | 50/100
 - 2026-09-07 | İtalya Serie C Grup C | Catania - Cosenza | MS 1 | pending | 54/100
 - 2026-09-07 | İtalya Serie A | Udinese - Lazio | 2.5 Alt | pending | 65/100
 - 2026-09-07 | Fransa Ligue 2 | Nantes - Nancy | 2.5 Üst | pending | 56/100
@@ -41,8 +42,7 @@ Oluşturma: 07.09.2026 00:56:35
 - 2026-09-07 | İtalya Serie C Grup C | Picerno - Internazionale | 2.5 Alt | pending | 55/100
 - 2026-09-07 | Kanada Premier Lig | Hfx Wanderers - Cavalry | MS 2 | pending | 51/100
 - 2026-09-07 | Portekiz Premier Lig | Estoril - Arouca | 2.5 Üst | pending | 60/100
-- 2026-09-07 | İspanya LaLiga | Elche - Real Sociedad | MS 2 | pending | 47/100
+- 2026-09-07 | İspanya LaLiga | Elche - Real Sociedad | MS 2 | pending | 57/100
 - 2026-09-07 | Arjantin Ulusal Primera Lig | Nueva Chicago - Quilmes | MS 1 | pending | 43/100
 - 2026-09-07 | Mısır Premier Lig | Petrojet - Masryal Masry P | 2.5 Alt | pending | 56/100
-- 2026-09-07 | Polonya 1.Lig | Ruch Chorzow - Unia Skierniewi | MS 1 | pending | 49/100
 
