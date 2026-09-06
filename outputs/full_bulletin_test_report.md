@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 65
+- Scheduled match count: 41
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-06 / 2026-09-07 23:59
 
-- 2026-09-06 21:45 | Marsilya - Paris Fc | scheduled
-- 2026-09-06 21:45 | Juventus - Ac Milan | scheduled
-- 2026-09-06 22:00 | Atl Temperley - Colegiales | scheduled
-- 2026-09-06 22:00 | Chaco For Ever - Caseros | scheduled
-- 2026-09-06 22:00 | Deportivo Madr - Ciudad De Bolív | scheduled
-- 2026-09-06 22:00 | Maipu - Patronato | scheduled
-- 2026-09-06 22:00 | Independiente - Bolivar | scheduled
-- 2026-09-06 22:00 | Cruzeiro - Atletico Pr | scheduled
-- 2026-09-06 22:00 | Internacional - Santos | scheduled
-- 2026-09-06 22:00 | Remo - Flamengo | scheduled
+- 2026-09-06 23:00 | Corboda Santia - Independiente | scheduled
+- 2026-09-06 23:00 | Lanus - Defensa Justici | scheduled
+- 2026-09-06 23:00 | Central Norte - Almirante | scheduled
+- 2026-09-06 23:00 | Club Atletico - Gimnasia Y Tiro | scheduled
+- 2026-09-06 23:00 | Juan Pablo Ii - Alianza Lima | scheduled
+- 2026-09-06 23:00 | Huachipato - Colo Colo | scheduled
+- 2026-09-06 23:00 | Monagas - Metropolitanos | scheduled
+- 2026-09-07 00:00 | Delfin - Univ Catolica ( | scheduled
+- 2026-09-07 00:00 | Aguila - Alianza | scheduled
+- 2026-09-07 00:00 | Balboa - Municipal Limen | scheduled

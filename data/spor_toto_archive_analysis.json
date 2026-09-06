@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-06T18:44:27.722Z",
+  "generated_at": "2026-09-06T19:32:24.594Z",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
   "model_version": "pro13-btts-conditioned-v3-weekly-archive",
   "week_label": "2026/2027 3. Hafta",
   "archive_match_count": 12399,
-  "archive_ready_count": 2,
+  "archive_ready_count": 3,
   "public_distribution_count": 15,
   "analysis_available_count": 15,
   "matches": [
@@ -39,24 +39,25 @@
       "poisson": null,
       "form": {
         "home": {
-          "count": 2,
+          "count": 3,
           "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 0.5,
+          "conceded": 2,
+          "bttsRate": 33,
+          "over25Rate": 33,
+          "over35Rate": 33,
+          "goalsForAvg": 0.67,
+          "goalsAgainstAvg": 2,
           "wins": 1,
           "draws": 1,
-          "losses": 0,
-          "winRate": 50,
-          "drawRate": 50,
-          "lossRate": 0,
-          "pointsPerGame": 2,
+          "losses": 1,
+          "winRate": 33,
+          "drawRate": 33,
+          "lossRate": 33,
+          "pointsPerGame": 1.33,
           "recent": [
             "W",
-            "D"
+            "D",
+            "L"
           ]
         },
         "away": {
@@ -142,15 +143,15 @@
           ]
         },
         "away": {
-          "count": 1,
-          "scored": 1,
+          "count": 2,
+          "scored": 2,
           "conceded": 1,
-          "bttsRate": 100,
-          "over25Rate": 100,
+          "bttsRate": 50,
+          "over25Rate": 50,
           "over35Rate": 0,
-          "goalsForAvg": 2,
-          "goalsAgainstAvg": 1,
-          "wins": 1,
+          "goalsForAvg": 1.5,
+          "goalsAgainstAvg": 0.5,
+          "wins": 2,
           "draws": 0,
           "losses": 0,
           "winRate": 100,
@@ -158,6 +159,7 @@
           "lossRate": 0,
           "pointsPerGame": 3,
           "recent": [
+            "W",
             "W"
           ]
         }
@@ -495,44 +497,54 @@
       "away": "Fenerbahçe",
       "canonical_home": "Samsunspor",
       "canonical_away": "Fenerbahçe",
-      "archive_ready": false,
+      "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 12,
-        "2": 70,
-        "X": 18
+        "1": 29.1,
+        "2": 47.9,
+        "X": 23
       },
-      "archive_probabilities": null,
+      "archive_probabilities": {
+        "1": 36.8,
+        "2": 37.9,
+        "X": 25.3
+      },
       "public_distribution": {
         "1": 12,
         "2": 70,
         "X": 18
       },
-      "probability_basis": "cross_verified_public_distribution",
-      "confidence": 51,
-      "data_completeness": 28,
-      "probability_gap": 52,
-      "agreement_score": null,
-      "poisson": null,
+      "probability_basis": "archive_poisson_plus_public_distribution",
+      "confidence": 68,
+      "data_completeness": 66,
+      "probability_gap": 18.8,
+      "agreement_score": 67.9,
+      "poisson": {
+        "home_lambda": 1.38,
+        "away_lambda": 1.41,
+        "samples": 6,
+        "reliability": 0.375
+      },
       "form": {
         "home": {
-          "count": 2,
+          "count": 3,
           "scored": 1,
-          "conceded": 1,
+          "conceded": 2,
           "bttsRate": 0,
           "over25Rate": 0,
           "over35Rate": 0,
-          "goalsForAvg": 1,
+          "goalsForAvg": 0.67,
           "goalsAgainstAvg": 1,
           "wins": 1,
           "draws": 0,
-          "losses": 1,
-          "winRate": 50,
+          "losses": 2,
+          "winRate": 33,
           "drawRate": 0,
-          "lossRate": 50,
-          "pointsPerGame": 1.5,
+          "lossRate": 67,
+          "pointsPerGame": 1,
           "recent": [
             "W",
+            "L",
             "L"
           ]
         },
@@ -616,15 +628,15 @@
           "recent": []
         },
         "away": {
-          "count": 1,
-          "scored": 1,
+          "count": 2,
+          "scored": 2,
           "conceded": 1,
-          "bttsRate": 100,
+          "bttsRate": 50,
           "over25Rate": 100,
-          "over35Rate": 0,
-          "goalsForAvg": 2,
-          "goalsAgainstAvg": 1,
-          "wins": 1,
+          "over35Rate": 50,
+          "goalsForAvg": 3.5,
+          "goalsAgainstAvg": 0.5,
+          "wins": 2,
           "draws": 0,
           "losses": 0,
           "winRate": 100,
@@ -632,6 +644,7 @@
           "lossRate": 0,
           "pointsPerGame": 3,
           "recent": [
+            "W",
             "W"
           ]
         }
@@ -1118,14 +1131,14 @@
       "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 25.6,
+        "1": 25.7,
         "2": 54.2,
-        "X": 20.2
+        "X": 20.1
       },
       "archive_probabilities": {
-        "1": 33.5,
+        "1": 33.7,
         "2": 40.7,
-        "X": 25.8
+        "X": 25.6
       },
       "public_distribution": {
         "1": 8,
@@ -1135,11 +1148,11 @@
       "probability_basis": "archive_poisson_plus_public_distribution",
       "confidence": 67,
       "data_completeness": 66,
-      "probability_gap": 28.6,
+      "probability_gap": 28.5,
       "agreement_score": 56.7,
       "poisson": {
-        "home_lambda": 1.26,
-        "away_lambda": 1.42,
+        "home_lambda": 1.28,
+        "away_lambda": 1.44,
         "samples": 6,
         "reliability": 0.375
       },
