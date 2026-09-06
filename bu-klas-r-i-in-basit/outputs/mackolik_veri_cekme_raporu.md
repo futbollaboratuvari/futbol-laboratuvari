@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-06T06:03:15.232878+00:00
+Tarih: 2026-09-06T10:44:15.098476+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 426
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 425
-- Ham veri havuzu toplam mac sayisi: 12448
+- Kac mac bulundu: 375
+- Kac mac kaydedildi: 12
+- Kac mac zaten vardi: 363
+- Ham veri havuzu toplam mac sayisi: 12460
 - Hedef tarih: 06.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -24,10 +24,9 @@ Tarih: 2026-09-06T06:03:15.232878+00:00
 - Andorra 1.Lig
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Victoria Eleme Final
-- Avustralya NPL Yeni Güney Galler Yarı Final
 - Avusturya ÖFB Kupası 2.Tur
 - Azerbaycan Premier Lig
+- Belarus 1.Lig
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
@@ -41,6 +40,7 @@ Tarih: 2026-09-06T06:03:15.232878+00:00
 - CAF Konfederasyon Kupası 1.Ön Eleme Turu
 - CAF Şampiyonlar Ligi 1.Ön Eleme Turu
 - CONCACAF Ligler Kupası Final
+- CONCACAF Ligler Kupası Üçüncülük Maçı
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka Süperlig
@@ -56,21 +56,13 @@ Tarih: 2026-09-06T06:03:15.232878+00:00
 - Guatemala Ulusal Lig Apertura
 - Güney Afrika 1.Lig
 - Güney Afrika PSL
-- Güney Kore K Lig 1
-- Güney Kore K Lig 2
-- Güney Kore K3 Ligi
 - Gürcistan Erovnuli Liga
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Kadınlar Eredivisie
 - Honduras Ulusal Lig Apertura
-- Hong Kong Premier Lig
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
-- Japonya J1 Lig
-- Japonya J2 Lig
-- Japonya J3 Lig
-- Japonya WE Ligi Kadınlar
 - Kadınlar U20 Dünya Kupası Grup C
 - Kadınlar U20 Dünya Kupası Grup D
 - Kanada Premier Lig
@@ -78,7 +70,6 @@ Tarih: 2026-09-06T06:03:15.232878+00:00
 - Kolombiya Primera A Clausura
 - Kosta Rika Premier Lig Apertura
 - Kuveyt Premier Lig
-- Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya A Ligi
 - Macaristan NB I
@@ -134,6 +125,7 @@ Tarih: 2026-09-06T06:03:15.232878+00:00
 - İngiltere FA Cup Eleme 1.Tur
 - İngiltere Kadınlar Premier Lig
 - İngiltere Premier Lig
+- İran Persian Gulf Pro Lig
 - İrlanda FAI Kupası Çeyrek Final
 - İskoçya Premiership
 - İspanya 2. Lig RFEF Grup 1
@@ -156,7 +148,6 @@ Tarih: 2026-09-06T06:03:15.232878+00:00
 - İsviçre Süper Lig
 - İtalya Serie A
 - İtalya Serie A Kadınlar Kupası Grup A
-- İtalya Serie A Kadınlar Kupası Grup C
 - İtalya Serie B
 - İtalya Serie C Grup A
 - İtalya Serie C Grup B
@@ -250,9 +241,9 @@ Tarih: 2026-09-06T06:03:15.232878+00:00
 | 06.09.2026 | 19:00 | İtalya Serie A | Bologna | Sassuolo | 12041 | 5 |
 | 06.09.2026 | 21:45 | İtalya Serie A | Juventus | Ac Milan | 55271 | 5 |
 | 06.09.2026 | 16:00 | İtalya Serie A | Parma | Monza | 11915 | 5 |
+| 06.09.2026 | 21:45 | Fransa Ligue 1 | Marsilya | Paris Fc | 17971 | 5 |
 | 06.09.2026 | 18:15 | Fransa Ligue 1 | Angers | Rennes | 17909 | 5 |
 | 06.09.2026 | 16:00 | Fransa Ligue 1 | Troyes | Strasbourg | 17816 | 5 |
-| 06.09.2026 | 21:45 | Fransa Ligue 1 | Marsilya | Paris Fc | 17971 | 5 |
 
 ## Sonuc
 
