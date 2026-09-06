@@ -1,14 +1,14 @@
 # Robot Gelişim Raporu
 
-Oluşturma: 2026-09-06T17:12:24.686Z
+Oluşturma: 2026-09-06T19:20:15.393Z
 Toplam tahmin: 1500
-Sonuçlanan: 332
-Bekleyen: 1168
+Sonuçlanan: 357
+Bekleyen: 1143
 
 ## Güçlü Marketler
 
 ## Zayıf Marketler
-- MS 1: düz getiri %-29 (43/100)
+- MS 1: düz getiri %-28 (43/100)
 
 ## Sonraki Aksiyonlar
 - Pending kayitlar icin skor senkronunu takip et.

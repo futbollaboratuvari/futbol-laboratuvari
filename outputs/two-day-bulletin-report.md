@@ -2,37 +2,15 @@
 
 Gunler: 2026-09-06 / 2026-09-07
 Kaynak: fixtures.json
-Ham mac: 516
-Aktif mac: 65
+Ham mac: 118
+Aktif mac: 43
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 451
-Bugun: 31
+Bultenden dusurulen mac: 75
+Bugun: 9
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-09-06 21:45 | İtalya Serie A | Juventus - Ac Milan | scheduled | -
-- 2026-09-06 21:45 | Fransa Ligue 1 | Marsilya - Paris Fc | scheduled | -
-- 2026-09-06 22:00 | İspanya LaLiga | Espanyol - Sevilla | scheduled | -
-- 2026-09-06 22:00 | İspanya 2.Lig | Almeria - Cadiz | scheduled | -
-- 2026-09-06 22:00 | Sırbistan Süper Lig | Vojvodina - Zemun Belg. | scheduled | -
-- 2026-09-06 22:00 | Brezilya Serie A | Cruzeiro - Atletico Pr | scheduled | -
-- 2026-09-06 22:00 | Brezilya Serie A | Internacional - Santos | scheduled | -
-- 2026-09-06 22:00 | Brezilya Serie A | Remo - Flamengo | scheduled | -
-- 2026-09-06 22:00 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Maghreb Fes - Rahimo | scheduled | -
-- 2026-09-06 22:00 | İtalya Serie C Grup A | Ospitaletto - Union Arzignano | scheduled | -
-- 2026-09-06 22:00 | İtalya Serie C Grup A | Cittadella - Lumezzane | scheduled | -
-- 2026-09-06 22:00 | İtalya Serie C Grup A | Union Brescia - Calvina | scheduled | -
-- 2026-09-06 22:00 | İtalya Serie C Grup B | Perugia - Pineto | scheduled | -
-- 2026-09-06 22:00 | İtalya Serie C Grup C | Casertana - Scafatese | scheduled | -
-- 2026-09-06 22:00 | İtalya Serie C Grup C | Foggia - Audace Cerignol | scheduled | -
-- 2026-09-06 22:00 | Hırvatistan 1.HNL | Slaven Belupo - Lokomotiva | scheduled | -
-- 2026-09-06 22:00 | Arjantin Ulusal Primera Lig | Maipu - Patronato | scheduled | -
-- 2026-09-06 22:00 | Arjantin Ulusal Primera Lig | Chaco For Ever - Caseros | scheduled | -
-- 2026-09-06 22:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Ciudad De Bolív | scheduled | -
-- 2026-09-06 22:00 | Arjantin Ulusal Primera Lig | Atl Temperley - Colegiales | scheduled | -
-- 2026-09-06 22:00 | Guatemala Ulusal Lig Apertura | Coban Imperial - Guastatoya | scheduled | -
-- 2026-09-06 22:00 | Bolivya Premier Lig | Independiente - Bolivar | scheduled | -
 - 2026-09-06 22:30 | Portekiz Premier Lig | Gil Vicente - Academico Viseu | scheduled | -
 - 2026-09-06 22:30 | Uruguay Premier Lig Clausura | Nacional Df - Juventud Dl Pie | scheduled | -
 - 2026-09-06 23:00 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Independiente | scheduled | -
