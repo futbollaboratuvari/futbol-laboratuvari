@@ -1,22 +1,16 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-09-06 / 2026-09-07
+Gunler: 2026-09-07 / 2026-09-08
 Kaynak: fixtures.json
-Ham mac: 516
-Aktif mac: 34
+Ham mac: 34
+Aktif mac: 28
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 482
-Bugun: 0
-Yarin: 34
+Bultenden dusurulen mac: 6
+Bugun: 28
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-09-07 00:00 | Kolombiya Primera A Clausura | Inter Bogota - Rionegro Aguila | scheduled | -
-- 2026-09-07 00:00 | Venezuela Premier Lig Clausura | Trujillanos - Caracas Fc | scheduled | -
-- 2026-09-07 00:00 | Ekvador Pro Lig | Delfin - Univ Catolica ( | scheduled | -
-- 2026-09-07 00:00 | Nikaragua Premier Lig Apertura | Export Sebaco - Managua | scheduled | -
-- 2026-09-07 00:00 | El Salvador Primera Lig Apertura | Balboa - Municipal Limen | scheduled | -
-- 2026-09-07 00:00 | El Salvador Primera Lig Apertura | Aguila - Alianza | scheduled | -
 - 2026-09-07 00:30 | Brezilya Serie A | Botafogo - Palmeiras | scheduled | -
 - 2026-09-07 00:30 | Venezuela Premier Lig Clausura | Depor Tachira - Rayo Zuliano | scheduled | -
 - 2026-09-07 00:30 | Brezilya Serie B | Ponte Preta - Sao Bernardo | scheduled | -
