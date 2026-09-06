@@ -2,50 +2,15 @@
 
 Gunler: 2026-09-06 / 2026-09-07
 Kaynak: fixtures.json
-Ham mac: 516
-Aktif mac: 260
+Ham mac: 342
+Aktif mac: 225
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 256
-Bugun: 226
+Bultenden dusurulen mac: 117
+Bugun: 191
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-09-06 17:00 | Türkiye Süper Lig | Çorum - Eyüpspor | scheduled | -
-- 2026-09-06 17:00 | Türkiye Süper Lig | Kasimpaşa - Amed Sk | scheduled | -
-- 2026-09-06 17:00 | Belçika Pro Lig | Kortrijk - Zulte Waregem | scheduled | -
-- 2026-09-06 17:00 | İskoçya Premiership | Hearts - Dundee | scheduled | -
-- 2026-09-06 17:00 | İskoçya Premiership | St Johnstone - Hibernian | scheduled | -
-- 2026-09-06 17:00 | Danimarka Süperlig | Odense - Kopenhag | scheduled | -
-- 2026-09-06 17:00 | Avusturya ÖFB Kupası 2.Tur | Kitzbuhel - Grazer Ak | scheduled | -
-- 2026-09-06 17:00 | Brezilya Serie A | Coritiba - Mirassol | scheduled | -
-- 2026-09-06 17:00 | Azerbaycan Premier Lig | Turan - Sumqayit | scheduled | -
-- 2026-09-06 17:00 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Al Ahli Wad Me - Tusker | scheduled | -
-- 2026-09-06 17:00 | Belçika Challenger Pro Lig | Lierse Kempenz - Rfc Liege | scheduled | -
-- 2026-09-06 17:00 | Belarus Premier Lig | Baranovichi - Dnepr Mogilev | scheduled | -
-- 2026-09-06 17:00 | Norveç 2.Lig Grup 2 | Lorenskog - Ik Junkeren | scheduled | -
-- 2026-09-06 17:00 | Brezilya Serie B | Londrina - Operario | scheduled | -
-- 2026-09-06 17:00 | İzlanda Urvalsdeild | Vikingur Reykj - Fram | scheduled | -
-- 2026-09-06 17:00 | İzlanda Urvalsdeild | Akranes - Kr Reykjavik | scheduled | -
-- 2026-09-06 17:00 | İzlanda Urvalsdeild | Stjarnan - Vestmannaeyjar | scheduled | -
-- 2026-09-06 17:00 | İzlanda Urvalsdeild | Ka Akureyri - Breidablik | scheduled | -
-- 2026-09-06 17:00 | İzlanda Urvalsdeild | Thor Akureyri - Hafnarfjordur | scheduled | -
-- 2026-09-06 17:00 | Almanya Bölgesel Lig Kuzey | Hsc Hannover - Weiche Flensbur | scheduled | -
-- 2026-09-06 17:00 | İspanya Primera Lig RFEF Grup 1 | Cultural Leone - Merida Ad | scheduled | -
-- 2026-09-06 17:00 | Estonya Premium Lig | Harju Jalgpall - Tammeka Tartu | scheduled | -
-- 2026-09-06 17:00 | Almanya Kadınlar Bundesliga | Bayern München - Freiburg (K) | scheduled | -
-- 2026-09-06 17:00 | Kazakistan Premier Lig | Tobol Kostanay - Ulytau | scheduled | -
-- 2026-09-06 17:00 | İsveç 2.Lig Norra Svealand | Viggbyholms Ik - Falu Bs | scheduled | -
-- 2026-09-06 17:00 | İsveç 2.Lig Norra Götaland | Skara - Vanersborgs If | scheduled | -
-- 2026-09-06 17:00 | İngiltere FA Cup Eleme 1.Tur | Stourbridge - Rushall Olympic | scheduled | -
-- 2026-09-06 17:00 | Macaristan NB III Kuzeydoğu | Hajdunanas - Füzesabony | scheduled | -
-- 2026-09-06 17:00 | Macaristan NB III Güneydoğu | Esmtk - Vasas Ii | scheduled | -
-- 2026-09-06 17:00 | Belarus 1.Lig | Smorgon - Slutsk | scheduled | -
-- 2026-09-06 17:00 | Türkiye 2.Lig Kırmızı Grup | İnegölspor - 12 Bingolspor | scheduled | -
-- 2026-09-06 17:00 | Türkiye 2.Lig Kırmızı Grup | Karacabey Bld - Serik Bld. | scheduled | -
-- 2026-09-06 17:00 | Türkiye 3.Lig 2.Grup | Bigaspor - Uşak Spor A.Ş. | scheduled | -
-- 2026-09-06 17:00 | Türkiye 3.Lig 2.Grup | Balikesirspor - Bucaspor 1928 | scheduled | -
-- 2026-09-06 17:00 | Norveç 2.Lig Grup 2 | Trygg/Lade - Honefoss | scheduled | -
 - 2026-09-06 17:15 | İspanya LaLiga | Valencia - Barcelona | scheduled | -
 - 2026-09-06 17:15 | İspanya 2.Lig | Oviedo - Burgos | scheduled | -
 - 2026-09-06 17:30 | Portekiz Premier Lig | Santa Clara - Rio Ave | scheduled | -
