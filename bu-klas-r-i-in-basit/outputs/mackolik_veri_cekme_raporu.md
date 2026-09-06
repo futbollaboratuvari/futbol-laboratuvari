@@ -1,22 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-06T10:44:15.098476+00:00
+Tarih: 2026-09-06T13:53:07.201282+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 375
-- Kac mac kaydedildi: 12
-- Kac mac zaten vardi: 363
-- Ham veri havuzu toplam mac sayisi: 12460
+- Kac mac bulundu: 263
+- Kac mac kaydedildi: 7
+- Kac mac zaten vardi: 256
+- Ham veri havuzu toplam mac sayisi: 12467
 - Hedef tarih: 06.09.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL
 - ABD USL Lig 1
-- Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bundesliga
 - Almanya Bölgesel Lig Kuzey
@@ -41,20 +40,14 @@ Tarih: 2026-09-06T10:44:15.098476+00:00
 - CAF Şampiyonlar Ligi 1.Ön Eleme Turu
 - CONCACAF Ligler Kupası Final
 - CONCACAF Ligler Kupası Üçüncülük Maçı
-- Danimarka 1.Lig
-- Danimarka 2.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
 - El Salvador Primera Lig Apertura
-- Endonezya Süper Lig
 - Estonya Premium Lig
 - Finlandiya Ykkösliiga
-- Fransa Kadınlar 1.Lig
 - Fransa Ligue 1
-- Galler FAW Championship Kuzey
 - Gana Premier Lig
 - Guatemala Ulusal Lig Apertura
-- Güney Afrika 1.Lig
 - Güney Afrika PSL
 - Gürcistan Erovnuli Liga
 - Hollanda Eerste Divisie
@@ -74,11 +67,9 @@ Tarih: 2026-09-06T10:44:15.098476+00:00
 - Litvanya A Ligi
 - Macaristan NB I
 - Macaristan NB II
-- Macaristan NB III Güneybatı
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
-- Malezya Süper Lig
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
@@ -88,7 +79,6 @@ Tarih: 2026-09-06T10:44:15.098476+00:00
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
-- Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
 - Norveç 3.Lig Grup 5
 - Norveç Eliteserien
@@ -101,29 +91,22 @@ Tarih: 2026-09-06T10:44:15.098476+00:00
 - Portekiz 3.Lig Grup B
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Rusya FNL
 - Rusya Premier Lig
-- Singapur Community Shield
 - Slovakya Süper Lig
 - Slovenya 1.SNL
 - Sırbistan Süper Lig
-- Tayland 1.Lig
 - Tunus 1.Lig
+- Türkiye 2.Lig Kırmızı Grup
+- Türkiye 3.Lig 2.Grup
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Ukrayna Premier Lig
 - Umman Profesyonel Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
-- Vietnam V-Lig 1
 - Yunanistan Süper Lig
 - Çek Cumhuriyeti Czech Liga
-- Çek Cumhuriyeti FNL
-- Çin Halk Cumhuriyeti 1.Lig
-- Çin Halk Cumhuriyeti Süper Lig
-- İngiltere Championship
 - İngiltere FA Cup Eleme 1.Tur
-- İngiltere Kadınlar Premier Lig
 - İngiltere Premier Lig
 - İran Persian Gulf Pro Lig
 - İrlanda FAI Kupası Çeyrek Final
@@ -140,14 +123,10 @@ Tarih: 2026-09-06T10:44:15.098476+00:00
 - İspanya Primera Lig RFEF Grup 2
 - İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norra Svealand
-- İsveç 2.Lig Södra Götaland
 - İsveç 2.Lig Södra Svealand
-- İsveç 2.Lig Vastra Götaland
 - İsveç Allsvenskan
-- İsviçre Challenge Lig
 - İsviçre Süper Lig
 - İtalya Serie A
-- İtalya Serie A Kadınlar Kupası Grup A
 - İtalya Serie B
 - İtalya Serie C Grup A
 - İtalya Serie C Grup B
@@ -224,26 +203,26 @@ Tarih: 2026-09-06T10:44:15.098476+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 06.09.2026 | 20:00 | Türkiye Süper Lig | Kocaelispor | Samsunspor | 15401 | 5 |
-| 06.09.2026 | 20:00 | Türkiye Süper Lig | Trabzonspor | Gençlerbirliği | 16114 | 5 |
 | 06.09.2026 | 17:00 | Türkiye Süper Lig | Çorum | Eyüpspor | 15381 | 5 |
 | 06.09.2026 | 17:00 | Türkiye Süper Lig | Kasimpaşa | Amed Sk | 15377 | 5 |
-| 06.09.2026 | 20:00 | Türkiye TFF 1. Lig | Antalyaspor | Sivasspor | 50213 | 5 |
+| 06.09.2026 | 20:00 | Türkiye Süper Lig | Kocaelispor | Samsunspor | 15401 | 5 |
+| 06.09.2026 | 20:00 | Türkiye Süper Lig | Trabzonspor | Gençlerbirliği | 16114 | 5 |
 | 06.09.2026 | 20:00 | Türkiye TFF 1. Lig | Muğlaspor | Van Spor Fk | 50282 | 5 |
 | 06.09.2026 | 20:00 | Türkiye TFF 1. Lig | Batman Petrol | Fatih Karagümrü | 50248 | 5 |
-| 06.09.2026 | 16:00 | İngiltere Premier Lig | Everton | Man. Utd | 00476 | 5 |
+| 06.09.2026 | 20:00 | Türkiye TFF 1. Lig | Antalyaspor | Sivasspor | 50213 | 5 |
 | 06.09.2026 | 18:30 | İngiltere Premier Lig | Arsenal | Chelsea | 55373 | 5 |
 | 06.09.2026 | 19:30 | İspanya LaLiga | Alaves | Osasuna | 13837 | 5 |
 | 06.09.2026 | 22:00 | İspanya LaLiga | Espanyol | Sevilla | 13958 | 5 |
 | 06.09.2026 | 17:15 | İspanya LaLiga | Valencia | Barcelona | 13745 | 5 |
 | 06.09.2026 | 19:30 | İspanya LaLiga | Malaga | Levante | 13895 | 5 |
-| 06.09.2026 | 16:00 | İtalya Serie A | Frosinone | Unione V. | 11840 | 5 |
 | 06.09.2026 | 19:00 | İtalya Serie A | Bologna | Sassuolo | 12041 | 5 |
 | 06.09.2026 | 21:45 | İtalya Serie A | Juventus | Ac Milan | 55271 | 5 |
-| 06.09.2026 | 16:00 | İtalya Serie A | Parma | Monza | 11915 | 5 |
-| 06.09.2026 | 21:45 | Fransa Ligue 1 | Marsilya | Paris Fc | 17971 | 5 |
 | 06.09.2026 | 18:15 | Fransa Ligue 1 | Angers | Rennes | 17909 | 5 |
-| 06.09.2026 | 16:00 | Fransa Ligue 1 | Troyes | Strasbourg | 17816 | 5 |
+| 06.09.2026 | 21:45 | Fransa Ligue 1 | Marsilya | Paris Fc | 17971 | 5 |
+| 06.09.2026 | 18:30 | Almanya Bundesliga | E.Frankfurt | Augsburg | 16352 | 5 |
+| 06.09.2026 | 17:45 | Hollanda Eredivisie | Den Haag | Fortuna Sittard | 20187 | 5 |
+| 06.09.2026 | 22:30 | Portekiz Premier Lig | Gil Vicente | Academico Viseu | 20647 | 5 |
+| 06.09.2026 | 17:30 | Portekiz Premier Lig | Santa Clara | Rio Ave | 20531 | 5 |
 
 ## Sonuc
 
