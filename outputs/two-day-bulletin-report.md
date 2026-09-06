@@ -1,19 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-09-07 / 2026-09-08
-Kaynak: fixtures.json
-Ham mac: 34
-Aktif mac: 28
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Ham mac: 28
+Aktif mac: 25
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 28
+Bultenden dusurulen mac: 3
+Bugun: 25
 Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-09-07 00:30 | Brezilya Serie A | Botafogo - Palmeiras | scheduled | -
-- 2026-09-07 00:30 | Venezuela Premier Lig Clausura | Depor Tachira - Rayo Zuliano | scheduled | -
-- 2026-09-07 00:30 | Brezilya Serie B | Ponte Preta - Sao Bernardo | scheduled | -
 - 2026-09-07 01:00 | Kosta Rika Premier Lig Apertura | Puntarenas Fc - Cs Cartagines | scheduled | -
 - 2026-09-07 01:00 | Kanada Premier Lig | Vancouver Fc - Supra Du Quebec | scheduled | -
 - 2026-09-07 01:00 | ABD USL Lig 1 | Portland Heart - Westchester Sc | scheduled | -

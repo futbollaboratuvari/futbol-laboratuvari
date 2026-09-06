@@ -1,7 +1,7 @@
 # Learning Output Check
 
-Generated: 2026-09-06T19:32:17.915Z
-Status: ready
+Generated: 2026-09-06T21:44:05.749Z
+Status: waiting
 
 ## Checks
 
@@ -10,17 +10,17 @@ Status: ready
 - live_exists: true
 - learning_engine_name: false
 - learning_mode_name: true
-- learning_fields_ready: true
+- learning_fields_ready: false
 - memory_has_predictions: true
 
 ## Summary
 
 - Robot engine: Futbol Laboratuvarı PRO 13
 - Scoring mode: market_conditioned_probability_ensemble_with_learning_memory
-- Robot matches: 92
-- Learning adjusted count: 23
+- Robot matches: 0
+- Learning adjusted count: 0
 - Memory predictions: 1500
-- Pending predictions: 1142
+- Pending predictions: 1126
 
-Learning output fields are present. The site can display learning notes.
+Learning output is not fully ready yet. The next export run should regenerate robot-analysis.json with learning fields.
 
