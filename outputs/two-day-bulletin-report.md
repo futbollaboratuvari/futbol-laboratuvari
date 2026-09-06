@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-06 / 2026-09-07
 Kaynak: fixtures.json
-Ham mac: 217
-Aktif mac: 92
+Ham mac: 211
+Aktif mac: 89
 Canli mac: 0
-Biten mac: 3
-Bultenden dusurulen mac: 125
-Bugun: 58
+Biten mac: 0
+Bultenden dusurulen mac: 122
+Bugun: 55
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-09-06 20:15 | Belçika Pro Lig | Waasland Bever - Oh Leuven | scheduled | -
-- 2026-09-06 20:15 | Norveç Eliteserien | Kristiansund - Tromso | scheduled | -
-- 2026-09-06 20:15 | Belçika Challenger Pro Lig | Francs Borains - Lokeren-Temse | scheduled | -
 - 2026-09-06 20:30 | İtalya Serie B | Cremonese - Padova | scheduled | -
 - 2026-09-06 20:30 | Almanya 3. Lig | Fortuna Köln - Fortuna Düsseld | scheduled | -
 - 2026-09-06 20:30 | Romanya 1.Lig | Otelul Galati - Rapid Bükreş | scheduled | -
@@ -108,6 +105,4 @@ Yarin: 34
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-09-06 17:45 | Hollanda Eredivisie | Den Haag - Fortuna Sittard | finished | 2-3
-- 2026-09-06 17:45 | Hollanda Kadınlar Eredivisie | Twente (K) - Heerenveen (K) | finished | 5-1
-- 2026-09-06 17:45 | Hollanda Kadınlar Eredivisie | Pec Zwolle (K) - Ado Den Haag (K | finished | 2-4
+Biten mac yok.
