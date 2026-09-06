@@ -120,7 +120,7 @@ jobs:
           node tests/spor-toto-archive.test.js
           node tests/spor-toto-market.test.js
           node tests/spor-toto-weekly.test.js
-          git add -A data outputs bu-klas-r-i-in-basit/data bu-klas-r-i-in-basit/outputs || true
+          git add -A -- data outputs bu-klas-r-i-in-basit/data bu-klas-r-i-in-basit/outputs
           if git diff --cached --quiet; then
             echo "No data changes"
             exit 0
@@ -135,4 +135,3 @@ jobs:
           done
           echo "Live Data push failed after retries"
           exit 1
-
