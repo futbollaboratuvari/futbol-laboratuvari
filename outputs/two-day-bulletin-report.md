@@ -2,39 +2,15 @@
 
 Gunler: 2026-09-06 / 2026-09-07
 Kaynak: fixtures.json
-Ham mac: 211
-Aktif mac: 89
+Ham mac: 516
+Aktif mac: 65
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 122
-Bugun: 55
+Bultenden dusurulen mac: 451
+Bugun: 31
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-09-06 20:30 | İtalya Serie B | Cremonese - Padova | scheduled | -
-- 2026-09-06 20:30 | Almanya 3. Lig | Fortuna Köln - Fortuna Düsseld | scheduled | -
-- 2026-09-06 20:30 | Romanya 1.Lig | Otelul Galati - Rapid Bükreş | scheduled | -
-- 2026-09-06 20:30 | Polonya 2.Lig | Gks Tychy - Avia Swidnik | scheduled | -
-- 2026-09-06 20:45 | Rusya Premier Lig | Baltika Kalini - L.Moskova | scheduled | -
-- 2026-09-06 20:45 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Newells Old Boy | scheduled | -
-- 2026-09-06 20:45 | Şili Premier Lig | O Higgins - Union La Calera | scheduled | -
-- 2026-09-06 20:50 | Kuveyt Premier Lig | Al Shabab - Kazma | scheduled | -
-- 2026-09-06 21:00 | Macaristan NB I | Gyor - Budapest Honved | scheduled | -
-- 2026-09-06 21:00 | Arjantin Ulusal Primera Lig | Agropecuario - Rafaela | scheduled | -
-- 2026-09-06 21:00 | Arjantin Ulusal Primera Lig | San Miguel - Godoy Cruz | scheduled | -
-- 2026-09-06 21:00 | Andorra 1.Lig | Penya - Descaldes | scheduled | -
-- 2026-09-06 21:00 | İspanya 2. Lig RFEF Grup 4 | Atlético Centr - Huelva | scheduled | -
-- 2026-09-06 21:15 | Polonya Ekstraklasa | Jagiellonia - Slask Wroclaw | scheduled | -
-- 2026-09-06 21:15 | Bulgaristan 1.Lig | Lokomotiv Sofi - Ludogorets | scheduled | -
-- 2026-09-06 21:15 | Slovenya 1.SNL | Celje - Koper | scheduled | -
-- 2026-09-06 21:15 | Bosna-Hersek Premier Lig | Zrinjski - Siroki Brijeg | scheduled | -
-- 2026-09-06 21:30 | Yunanistan Süper Lig | Panathinaikos - Paok | scheduled | -
-- 2026-09-06 21:30 | Peru Premier Lig Clausura | Deportivo Garc - Atletico Grau | scheduled | -
-- 2026-09-06 21:30 | Arjantin Ulusal Primera Lig | Almagro - Gimnasia Jujuy | scheduled | -
-- 2026-09-06 21:30 | Arjantin Ulusal Primera Lig | San Martin Sj - Midland | scheduled | -
-- 2026-09-06 21:30 | İspanya Primera Lig RFEF Grup 1 | Zamora - Ud Logrones | scheduled | -
-- 2026-09-06 21:30 | İspanya Kadınlar Primera Lig | Real Madrid (K - Eibar (K) | scheduled | -
-- 2026-09-06 21:30 | Malta Premier Lig Açılış | Hamrun - Zabbar St Patri | scheduled | -
 - 2026-09-06 21:45 | İtalya Serie A | Juventus - Ac Milan | scheduled | -
 - 2026-09-06 21:45 | Fransa Ligue 1 | Marsilya - Paris Fc | scheduled | -
 - 2026-09-06 22:00 | İspanya LaLiga | Espanyol - Sevilla | scheduled | -
