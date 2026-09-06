@@ -13,6 +13,8 @@ function uniqueStrings(values, limit = 64) {
 function compactMatch(item) {
   const blocks = Array.isArray(item.raw_market_blocks) ? item.raw_market_blocks : [];
   const candidates = Array.isArray(item.detail_market_candidates) ? item.detail_market_candidates : [];
+  const existingCodes = Array.isArray(item.market_codes) ? item.market_codes : [];
+  const existingMarkets = Array.isArray(item.detail_markets) ? item.detail_markets : [];
 
   return {
     match_name: item.match_name || "-",
@@ -22,8 +24,8 @@ function compactMatch(item) {
     raw_market_guess_odds: item.raw_market_guess_odds || {},
     raw_market_block_count: Number(item.raw_market_block_count || blocks.length || 0),
     raw_market_value_count: Number(item.raw_market_value_count || blocks.reduce((sum, block) => sum + (Array.isArray(block.values) ? block.values.length : 0), 0)),
-    market_codes: uniqueStrings(blocks.map((block) => block.market_code)),
-    detail_markets: uniqueStrings(candidates.map((candidate) => candidate.market))
+    market_codes: uniqueStrings(blocks.length ? blocks.map((block) => block.market_code) : existingCodes),
+    detail_markets: uniqueStrings(candidates.length ? candidates.map((candidate) => candidate.market) : existingMarkets)
   };
 }
 
