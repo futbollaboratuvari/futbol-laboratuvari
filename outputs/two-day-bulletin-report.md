@@ -2,41 +2,15 @@
 
 Gunler: 2026-09-06 / 2026-09-07
 Kaynak: fixtures.json
-Ham mac: 510
-Aktif mac: 374
+Ham mac: 429
+Aktif mac: 348
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 136
-Bugun: 340
+Bultenden dusurulen mac: 81
+Bugun: 314
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-09-06 13:45 | İspanya Kadınlar Primera Lig | Tenerife (K) - Deportivo De La | scheduled | -
-- 2026-09-06 14:00 | İngiltere Championship | Birmingham - Wolverhampton | scheduled | -
-- 2026-09-06 14:00 | Rusya Premier Lig | Orenburg - Akron | scheduled | -
-- 2026-09-06 14:00 | Çek Cumhuriyeti Czech Liga | Mlada Boleslav - Banik Ostrava | scheduled | -
-- 2026-09-06 14:00 | Çin Halk Cumhuriyeti Süper Lig | Chongqing Tong - Shanghai Shenhu | scheduled | -
-- 2026-09-06 14:00 | Danimarka 1.Lig | Aarhus Fremad - Kolding If | scheduled | -
-- 2026-09-06 14:00 | Norveç 2.Lig Grup 1 | Pors Grenland - Traeff | scheduled | -
-- 2026-09-06 14:00 | Norveç 2.Lig Grup 2 | Grorud Il - Rana | scheduled | -
-- 2026-09-06 14:00 | Tayland 1.Lig | Ayutthaya Unit - Ratchaburi Fc | scheduled | -
-- 2026-09-06 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shenzhen Junio - Meizhou Hakka | scheduled | -
-- 2026-09-06 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Nanjing City | scheduled | -
-- 2026-09-06 14:00 | Vietnam V-Lig 1 | M Nam Dinh - Lg Hn Acb | scheduled | -
-- 2026-09-06 14:00 | Vietnam V-Lig 1 | Slna - Bac Ninh | scheduled | -
-- 2026-09-06 14:00 | Danimarka 2.Lig | Thisted - Nykobing | scheduled | -
-- 2026-09-06 14:00 | İngiltere Kadınlar Premier Lig | Tottenham Hots - West Ham United | scheduled | -
-- 2026-09-06 14:00 | İngiltere Kadınlar Premier Lig | Brighton & Hov - Arsenal (K) | scheduled | -
-- 2026-09-06 14:00 | İspanya 2. Lig RFEF Grup 4 | Tamaraceite - Sevilla B | scheduled | -
-- 2026-09-06 14:00 | İspanya 2. Lig RFEF Grup 4 | Las Palmas Ii - Real Betis Ii | scheduled | -
-- 2026-09-06 14:00 | İsveç 2.Lig Vastra Götaland | Astrio - Astorp | scheduled | -
-- 2026-09-06 14:00 | İsveç 2.Lig Vastra Götaland | Hestrafor - Lindome Gif | scheduled | -
-- 2026-09-06 14:00 | İsveç 2.Lig Södra Götaland | Staffanstorp U - Karlskrona | scheduled | -
-- 2026-09-06 14:00 | İsveç 2.Lig Södra Svealand | Forward - Farsta | scheduled | -
-- 2026-09-06 14:00 | Macaristan NB III Güneybatı | Mtk Ii - Dunaharaszti | scheduled | -
-- 2026-09-06 14:00 | Belarus 1.Lig | Gomel Ii - Slonim | scheduled | -
-- 2026-09-06 14:00 | Norveç 3.Lig Grup 4 | Odd Bk Ii - Haugesund Ii | scheduled | -
-- 2026-09-06 14:00 | Norveç 3.Lig Grup 5 | Skjervoy - Kongsvinger Ii | scheduled | -
 - 2026-09-06 14:30 | Belçika Pro Lig | Cercle Brugge - Gent | scheduled | -
 - 2026-09-06 14:30 | Almanya 2. Bundesliga | Greuther Furth - Heidenheim | scheduled | -
 - 2026-09-06 14:30 | Almanya 2. Bundesliga | Osnabruck - Braunschweig | scheduled | -
