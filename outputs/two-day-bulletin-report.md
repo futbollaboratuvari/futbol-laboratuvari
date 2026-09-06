@@ -2,33 +2,15 @@
 
 Gunler: 2026-09-06 / 2026-09-07
 Kaynak: fixtures.json
-Ham mac: 516
-Aktif mac: 110
+Ham mac: 217
+Aktif mac: 92
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 406
-Bugun: 76
+Biten mac: 3
+Bultenden dusurulen mac: 125
+Bugun: 58
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-09-06 20:00 | Türkiye Süper Lig | Kocaelispor - Samsunspor | scheduled | -
-- 2026-09-06 20:00 | Türkiye Süper Lig | Trabzonspor - Gençlerbirliği | scheduled | -
-- 2026-09-06 20:00 | Türkiye TFF 1. Lig | Antalyaspor - Sivasspor | scheduled | -
-- 2026-09-06 20:00 | Türkiye TFF 1. Lig | Muğlaspor - Van Spor Fk | scheduled | -
-- 2026-09-06 20:00 | Türkiye TFF 1. Lig | Batman Petrol - Fatih Karagümrü | scheduled | -
-- 2026-09-06 20:00 | Portekiz Premier Lig | Guimaraes - Casa Pia | scheduled | -
-- 2026-09-06 20:00 | Yunanistan Süper Lig | Apo Levadeiako - Panetolikos | scheduled | -
-- 2026-09-06 20:00 | Sırbistan Süper Lig | Kizilyildiz - Partizan Belgra | scheduled | -
-- 2026-09-06 20:00 | Portekiz 2.Lig | Leiria - Portimonense | scheduled | -
-- 2026-09-06 20:00 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Zed - Asas | scheduled | -
-- 2026-09-06 20:00 | Slovakya Süper Lig | Ruzomberok - Spartak Trnava | scheduled | -
-- 2026-09-06 20:00 | Polonya 1.Lig | Pogon Siedlce - Puszcza Niepolo | scheduled | -
-- 2026-09-06 20:00 | Belarus Premier Lig | Ml Vitebsk - Dinamo Minsk | scheduled | -
-- 2026-09-06 20:00 | İspanya 2. Lig RFEF Grup 2 | Barcelona B - Naxara | scheduled | -
-- 2026-09-06 20:00 | İspanya 2. Lig RFEF Grup 3 | Lorca Deportiv - Elche Ii | scheduled | -
-- 2026-09-06 20:00 | İspanya 2. Lig RFEF Grup 4 | Antoniano - Don Benito | scheduled | -
-- 2026-09-06 20:00 | İspanya 2. Lig RFEF Grup 5 | Dep. Guadalaja - Salamanca | scheduled | -
-- 2026-09-06 20:00 | Hırvatistan 2.HNL | Karlovac 1919 - Hrvace | scheduled | -
 - 2026-09-06 20:15 | Belçika Pro Lig | Waasland Bever - Oh Leuven | scheduled | -
 - 2026-09-06 20:15 | Norveç Eliteserien | Kristiansund - Tromso | scheduled | -
 - 2026-09-06 20:15 | Belçika Challenger Pro Lig | Francs Borains - Lokeren-Temse | scheduled | -
@@ -126,4 +108,6 @@ Yarin: 34
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-06 17:45 | Hollanda Eredivisie | Den Haag - Fortuna Sittard | finished | 2-3
+- 2026-09-06 17:45 | Hollanda Kadınlar Eredivisie | Twente (K) - Heerenveen (K) | finished | 5-1
+- 2026-09-06 17:45 | Hollanda Kadınlar Eredivisie | Pec Zwolle (K) - Ado Den Haag (K | finished | 2-4
