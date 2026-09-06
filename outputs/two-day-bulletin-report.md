@@ -2,32 +2,15 @@
 
 Gunler: 2026-09-06 / 2026-09-07
 Kaynak: fixtures.json
-Ham mac: 497
-Aktif mac: 440
+Ham mac: 498
+Aktif mac: 424
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 57
-Bugun: 407
+Bultenden dusurulen mac: 74
+Bugun: 391
 Yarin: 33
 
 ## Baslamamis Maclar
-- 2026-09-06 04:30 | ABD MLS | Los Angeles - New England | scheduled | -
-- 2026-09-06 04:30 | ABD MLS | Salt Lake - Los Angeles Fc | scheduled | -
-- 2026-09-06 04:30 | Kolombiya Primera A Clausura | Atletico Junio - Jaguares | scheduled | -
-- 2026-09-06 04:30 | Peru Premier Lig Clausura | Universitario - Comerciantes Un | scheduled | -
-- 2026-09-06 04:30 | Honduras Ulusal Lig Apertura | Marathon - Estrella Roja | scheduled | -
-- 2026-09-06 05:00 | Kosta Rika Premier Lig Apertura | Alajuelense - Deportivo Sapri | scheduled | -
-- 2026-09-06 05:00 | ABD USL | Monterey Bay - Phoenix Rising | scheduled | -
-- 2026-09-06 05:30 | ABD MLS | Portland - Minnesota Utd | scheduled | -
-- 2026-09-06 05:30 | ABD MLS | Vancouver - St. Louis City | scheduled | -
-- 2026-09-06 05:30 | ABD USL | Las Vegas Ligh - New Mexico Unit | scheduled | -
-- 2026-09-06 05:30 | ABD USL Lig 1 | Alta - One Knoxville | scheduled | -
-- 2026-09-06 06:00 | Meksika Liga MX Apertura | Atlas - Atlante | scheduled | -
-- 2026-09-06 06:00 | Guatemala Ulusal Lig Apertura | Marquense - Xelaju | scheduled | -
-- 2026-09-06 07:00 | Japonya J2 Lig | Sapporo - Tochigi City | scheduled | -
-- 2026-09-06 07:00 | Avustralya NPL Yeni Güney Galler Yarı Final | Sydney United - Manly United | scheduled | -
-- 2026-09-06 08:00 | Avustralya NPL Kuzey YGG Ön Eleme Final | Broadmeadow Ma - Maitland | scheduled | -
-- 2026-09-06 09:00 | Avustralya NPL Yeni Güney Galler Yarı Final | Apia - Nws Spirit | scheduled | -
 - 2026-09-06 10:00 | Avustralya NPL Victoria Eleme Final | South Melbourn - Heidelberg Unit | scheduled | -
 - 2026-09-06 11:00 | Hong Kong Premier Lig | Shatin - North District | scheduled | -
 - 2026-09-06 11:00 | Güney Kore K3 Ligi | Yangpyeong - Siheung Citizen | scheduled | -
@@ -277,6 +260,7 @@ Yarin: 33
 - 2026-09-06 18:00 | Gana Premier Lig | Heart Of Lions - Aduana Stars | scheduled | -
 - 2026-09-06 18:00 | Gana Premier Lig | Debibi United - Asante Kotoko | scheduled | -
 - 2026-09-06 18:00 | Gana Premier Lig | Hearts Of Oak - Berekum Chelsea | scheduled | -
+- 2026-09-06 18:00 | ABD USL | Miami Fc - Pittsburgh Rive | scheduled | -
 - 2026-09-06 18:05 | Birleşik Arap Emirlikleri 1.Lig | Gulf Heroes - Dubba Al Husun | scheduled | -
 - 2026-09-06 18:15 | Fransa Ligue 1 | Angers - Rennes | scheduled | -
 - 2026-09-06 18:15 | İtalya Serie B | Verona - Arezzo | scheduled | -

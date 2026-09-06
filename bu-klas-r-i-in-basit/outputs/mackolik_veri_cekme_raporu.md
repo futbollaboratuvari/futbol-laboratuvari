@@ -1,19 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-06T01:05:13.545829+00:00
+Tarih: 2026-09-06T06:03:15.232878+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 427
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 427
-- Ham veri havuzu toplam mac sayisi: 12447
+- Kac mac bulundu: 426
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 425
+- Ham veri havuzu toplam mac sayisi: 12448
 - Hedef tarih: 06.09.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
 - ABD USL Lig 1
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
@@ -23,7 +24,6 @@ Tarih: 2026-09-06T01:05:13.545829+00:00
 - Andorra 1.Lig
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Kuzey YGG Ön Eleme Final
 - Avustralya NPL Victoria Eleme Final
 - Avustralya NPL Yeni Güney Galler Yarı Final
 - Avusturya ÖFB Kupası 2.Tur

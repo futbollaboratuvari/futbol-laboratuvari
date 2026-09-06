@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 06.09.2026 04:06:34
+Oluşturma: 06.09.2026 09:04:30
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1273
-- Kazanan tahmin: 119
-- Kaybeden tahmin: 108
-- Lig sayısı: 224
+- Bekleyen tahmin: 1258
+- Kazanan tahmin: 126
+- Kaybeden tahmin: 116
+- Lig sayısı: 223
 - Seçenek sayısı: 5
 
 ## Öğrenme Mantığı
@@ -22,27 +22,27 @@ Oluşturma: 06.09.2026 04:06:34
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 4, bekleyen 2, başarı %100, düz getiri %148, ağırlık 1
-- 2.5 Üst: toplam 227, bekleyen 175, başarı %62, düz getiri %6, ağırlık 1
-- 2.5 Alt: toplam 549, bekleyen 476, başarı %56, düz getiri %-6, ağırlık 1
-- MS 1: toplam 488, bekleyen 416, başarı %44, düz getiri %-27, ağırlık 1
-- MS 2: toplam 232, bekleyen 204, başarı %43, düz getiri %-25, ağırlık 1
+- MS X: toplam 3, bekleyen 1, başarı %100, düz getiri %148, ağırlık 1
+- 2.5 Üst: toplam 234, bekleyen 181, başarı %62, düz getiri %7, ağırlık 1
+- 2.5 Alt: toplam 543, bekleyen 459, başarı %57, düz getiri %-5, ağırlık 1
+- MS 1: toplam 493, bekleyen 418, başarı %43, düz getiri %-29, ağırlık 1
+- MS 2: toplam 227, bekleyen 199, başarı %39, düz getiri %-30, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-06 | Nikaragua Premier Lig Apertura | Walter Ferrett - Managua | MS 2 | pending | 53/100
-- 2026-09-06 | İspanya 2. Lig RFEF Grup 4 | Atlético Centr - Huelva | 2.5 Alt | pending | 56/100
-- 2026-09-06 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Gor Mahia - Pyramids Fc | MS 2 | pending | 54/100
-- 2026-09-06 | Brezilya Serie A | Cruzeiro - Atletico Pr | 2.5 Üst | pending | 64/100
-- 2026-09-06 | Brezilya Serie A | Internacional - Santos | 2.5 Alt | pending | 67/100
-- 2026-09-06 | Brezilya Serie A | Remo - Flamengo | 2.5 Üst | pending | 67/100
-- 2026-09-06 | İtalya Serie C Grup A | Ospitaletto - Union Arzignano | MS 1 | pending | 45/100
-- 2026-09-06 | İtalya Serie C Grup A | Cittadella - Lumezzane | 2.5 Alt | pending | 54/100
-- 2026-09-06 | İtalya Serie C Grup A | Union Brescia - Calvina | MS 1 | pending | 56/100
-- 2026-09-06 | İtalya Serie C Grup B | Perugia - Pineto | 2.5 Alt | pending | 56/100
-- 2026-09-06 | İtalya Serie C Grup C | Casertana - Scafatese | 2.5 Alt | pending | 54/100
-- 2026-09-06 | İtalya Serie C Grup C | Foggia - Audace Cerignol | 2.5 Alt | pending | 55/100
-- 2026-09-06 | Hırvatistan 1.HNL | Slaven Belupo - Lokomotiva | 2.5 Alt | pending | 49/100
-- 2026-09-06 | Arjantin Ulusal Primera Lig | Maipu - Patronato | MS 1 | pending | 50/100
-- 2026-09-06 | Arjantin Ulusal Primera Lig | Chaco For Ever - Caseros | MS 1 | pending | 48/100
+- 2026-09-06 | Nikaragua Premier Lig Apertura | Matagalpa - Diriangen | 2.5 Üst | pending | 53/100
+- 2026-09-06 | Arjantin Ulusal Primera Lig | Club Atletico - Gimnasia Y Tiro | MS 1 | pending | 44/100
+- 2026-09-06 | Belçika Pro Lig | Anderlecht - Genk | MS 1 | pending | 48/100
+- 2026-09-06 | Hırvatistan 2.HNL | Karlovac 1919 - Hrvace | 2.5 Alt | pending | 52/100
+- 2026-09-06 | İtalya Serie C Grup B | Pescara - Ravenna | 2.5 Üst | pending | 53/100
+- 2026-09-06 | İngiltere Premier Lig | Arsenal - Chelsea | 2.5 Üst | pending | 60/100
+- 2026-09-06 | Güney Afrika PSL | Kaizer Chiefs - Siwelele | MS 1 | pending | 56/100
+- 2026-09-06 | Norveç 3.Lig Grup 5 | Stromsgodset B - Finnsnes | MS 1 | pending | 47/100
+- 2026-09-06 | Ukrayna Premier Lig | Epitsentr Duna - Bukovyna | 2.5 Üst | pending | 53/100
+- 2026-09-06 | İrlanda FAI Kupası Çeyrek Final | Derry City - Dundalk | MS 1 | pending | 42/100
+- 2026-09-06 | Nijerya NPFL | Nasarawa Unite - Bendel Insuranc | 2.5 Alt | pending | 57/100
+- 2026-09-06 | ABD USL | Miami Fc - Pittsburgh Rive | 2.5 Üst | pending | 61/100
+- 2026-09-06 | Almanya Bundesliga | Hamburg - Mainz | 2.5 Üst | pending | 62/100
+- 2026-09-06 | Azerbaycan Premier Lig | Turan - Sumqayit | 2.5 Alt | pending | 54/100
+- 2026-09-06 | İtalya Serie A | Frosinone - Unione V. | MS 1 | pending | 46/100
 
