@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 07.09.2026 19:34:10
+Oluşturma: 07.09.2026 20:56:34
 
 ## Özet
 
@@ -8,7 +8,7 @@ Oluşturma: 07.09.2026 19:34:10
 - Bekleyen tahmin: 1116
 - Kazanan tahmin: 204
 - Kaybeden tahmin: 180
-- Lig sayısı: 222
+- Lig sayısı: 221
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -24,13 +24,14 @@ Oluşturma: 07.09.2026 19:34:10
 
 - MS X: toplam 3, bekleyen 1, başarı %100, düz getiri %148, ağırlık 1
 - 2.5 Üst: toplam 238, bekleyen 144, başarı %60, düz getiri %1, ağırlık 1
-- 2.5 Alt: toplam 541, bekleyen 408, başarı %56, düz getiri %-7, ağırlık 1
-- MS 1: toplam 491, bekleyen 384, başarı %47, düz getiri %-23, ağırlık 0.94
+- 2.5 Alt: toplam 542, bekleyen 409, başarı %56, düz getiri %-7, ağırlık 1
+- MS 1: toplam 490, bekleyen 383, başarı %47, düz getiri %-23, ağırlık 0.94
 - MS 2: toplam 226, bekleyen 178, başarı %46, düz getiri %-17, ağırlık 1
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-07 | Norveç 3.Lig Grup 2 | Molde 2 - Aalesund B | 2.5 Alt | pending | 49/100
 - 2026-09-07 | Brezilya Serie C Grup C | Paysandu - Brusque | MS 1 | pending | 49/100
 - 2026-09-07 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Instituto Cordo | MS 2 | pending | 44/100
 - 2026-09-07 | İtalya Serie C Grup A | Pro Vercelli - Folgore Carates | 2.5 Alt | pending | 54/100
@@ -45,5 +46,4 @@ Oluşturma: 07.09.2026 19:34:10
 - 2026-09-07 | Tanzanya Kuu Bara Ligi | Azam Fc - Namungo | 2.5 Alt | pending | 50/100
 - 2026-09-07 | Suudi Arabistan 1.Lig | Al Jabalain - Al Wahda | 2.5 Üst | pending | 54/100
 - 2026-09-07 | İtalya Serie A | Cagliari - Lecce | 2.5 Üst | pending | 60/100
-- 2026-09-07 | İsveç Allsvenskan | Mjallby - Göteborg | 2.5 Üst | pending | 61/100
 

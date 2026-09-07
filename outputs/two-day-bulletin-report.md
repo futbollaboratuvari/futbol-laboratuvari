@@ -2,42 +2,15 @@
 
 Gunler: 2026-09-07 / 2026-09-08
 Kaynak: fixtures.json
-Ham mac: 98
-Aktif mac: 68
+Ham mac: 93
+Aktif mac: 41
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 30
-Bugun: 56
+Bultenden dusurulen mac: 52
+Bugun: 29
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-09-07 20:00 | Türkiye Süper Lig | Göztepe - Gaziantep Fk | scheduled | -
-- 2026-09-07 20:00 | Türkiye Süper Lig | Rizespor - Alanyaspor | scheduled | -
-- 2026-09-07 20:00 | Türkiye TFF 1. Lig | Mardin 1969 - Bodrum Fk | scheduled | -
-- 2026-09-07 20:00 | Türkiye TFF 1. Lig | Manisa Futbol - Bursaspor | scheduled | -
-- 2026-09-07 20:00 | İspanya LaLiga | Getafe - Celta Vigo | scheduled | -
-- 2026-09-07 20:00 | Danimarka Süperlig | Midtjylland - Nordsjaelland | scheduled | -
-- 2026-09-07 20:00 | İsveç Allsvenskan | Kalmar - Djurgarden | scheduled | -
-- 2026-09-07 20:00 | İsveç Allsvenskan | Malmö - Aik Stockholm | scheduled | -
-- 2026-09-07 20:00 | İsveç Allsvenskan | Mjallby - Göteborg | scheduled | -
-- 2026-09-07 20:00 | Portekiz 2.Lig | Lusitania De L - Avs | scheduled | -
-- 2026-09-07 20:00 | Mısır Premier Lig | National Bank - Ghazl El Mehall | scheduled | -
-- 2026-09-07 20:00 | Mısır Premier Lig | Petrojet - Masryal Masry P | scheduled | -
-- 2026-09-07 20:00 | Polonya 1.Lig | Ruch Chorzow - Unia Skierniewi | scheduled | -
-- 2026-09-07 20:00 | Norveç 3.Lig Grup 1 | Kfum Ii - Lokomotiv Oslo | scheduled | -
-- 2026-09-07 20:00 | Norveç 3.Lig Grup 2 | Kvik Trond - Ranheim Ii | scheduled | -
-- 2026-09-07 20:00 | Irak Premier Lig | Al Zawraa - Al Kahraba | scheduled | -
-- 2026-09-07 20:00 | Irak Premier Lig | Karbala - Al Jawiya | scheduled | -
-- 2026-09-07 20:00 | Litvanya 1.Lig | Zalgiris Ii - Neptüna Klaiped | scheduled | -
-- 2026-09-07 20:00 | Norveç 3.Lig Grup 3 | Gneist - Asane Ii | scheduled | -
-- 2026-09-07 20:00 | Norveç 3.Lig Grup 6 | Orn Horten - Sarpsborg 08 Ii | scheduled | -
-- 2026-09-07 20:00 | Malta Süper Kupa | Floriana - Valletta | scheduled | -
-- 2026-09-07 20:05 | İsveç Superettan | Orebro - Ostersund | scheduled | -
-- 2026-09-07 20:20 | Suudi Arabistan 1.Lig | Al Akhdoud - Al Najma | scheduled | -
-- 2026-09-07 20:30 | Bulgaristan 1.Lig | Dunav 2010 - Slavia Sofia | scheduled | -
-- 2026-09-07 20:30 | Romanya 1.Lig | Universitatea - Universitatea C | scheduled | -
-- 2026-09-07 20:30 | Macaristan NB II | Mol Vidi - Diosgyor | scheduled | -
-- 2026-09-07 20:30 | İspanya Kadınlar Primera Lig | Granada (K) - Real Sociedad ( | scheduled | -
 - 2026-09-07 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya - Neom Sc | scheduled | -
 - 2026-09-07 21:00 | Hollanda Eerste Divisie | Psv (B) - Den Bosch | scheduled | -
 - 2026-09-07 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) - Fc Eindhoven | scheduled | -
