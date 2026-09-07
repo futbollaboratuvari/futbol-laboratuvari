@@ -3,20 +3,14 @@
 Gunler: 2026-09-07 / 2026-09-08
 Kaynak: fixtures.json
 Ham mac: 120
-Aktif mac: 97
+Aktif mac: 91
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 23
-Bugun: 86
+Bultenden dusurulen mac: 29
+Bugun: 80
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-09-07 02:15 | Honduras Ulusal Lig Apertura | Real Espana - Upnfm | scheduled | -
-- 2026-09-07 02:30 | Peru Premier Lig Clausura | Melgar - Adt | scheduled | -
-- 2026-09-07 02:30 | El Salvador Primera Lig Apertura | Firpo - Inter Fa | scheduled | -
-- 2026-09-07 03:00 | Ekvador Pro Lig | Aucas - Barcelona Gua | scheduled | -
-- 2026-09-07 03:00 | Ekvador Pro Lig | Deportivo Cuen - Libertad | scheduled | -
-- 2026-09-07 03:00 | Bolivya Premier Lig | Nacional Potos - Blooming | scheduled | -
 - 2026-09-07 03:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Atletico Tucuma | scheduled | -
 - 2026-09-07 04:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Sporting San Jo | scheduled | -
 - 2026-09-07 04:00 | Nikaragua Premier Lig Apertura | Matagalpa - Diriangen | scheduled | -
