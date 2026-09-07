@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-07 / 2026-09-08
 Kaynak: fixtures.json
-Ham mac: 123
-Aktif mac: 94
+Ham mac: 110
+Aktif mac: 91
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 29
-Bugun: 83
+Bultenden dusurulen mac: 19
+Bugun: 80
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-09-07 03:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Atletico Tucuma | scheduled | -
-- 2026-09-07 04:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Sporting San Jo | scheduled | -
-- 2026-09-07 04:00 | Nikaragua Premier Lig Apertura | Matagalpa - Diriangen | scheduled | -
 - 2026-09-07 04:15 | CONCACAF Ligler Kupası Final | Toluca - Monterrey | scheduled | -
 - 2026-09-07 04:30 | Honduras Ulusal Lig Apertura | Juticalpa - Genesis Pn | scheduled | -
 - 2026-09-07 16:00 | Kadınlar U20 Dünya Kupası Grup E | Kuzey Kore U20 - Portekiz U20 (K | scheduled | -
