@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 07.09.2026 07:58:12
+Oluşturma: 07.09.2026 08:06:37
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1130
-- Kazanan tahmin: 192
-- Kaybeden tahmin: 178
+- Bekleyen tahmin: 1114
+- Kazanan tahmin: 205
+- Kaybeden tahmin: 181
 - Lig sayısı: 220
 - Seçenek sayısı: 6
 
@@ -23,14 +23,15 @@ Oluşturma: 07.09.2026 07:58:12
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 3, bekleyen 1, başarı %100, düz getiri %148, ağırlık 1
-- 2.5 Üst: toplam 235, bekleyen 146, başarı %58, düz getiri %-1, ağırlık 1
-- 2.5 Alt: toplam 546, bekleyen 420, başarı %54, düz getiri %-10, ağırlık 1
+- 2.5 Üst: toplam 235, bekleyen 142, başarı %59, düz getiri %0, ağırlık 1
+- 2.5 Alt: toplam 546, bekleyen 411, başarı %56, düz getiri %-7, ağırlık 1
 - MS 2: toplam 227, bekleyen 178, başarı %47, düz getiri %-15, ağırlık 1
-- MS 1: toplam 488, bekleyen 384, başarı %45, düz getiri %-25, ağırlık 0.94
+- MS 1: toplam 488, bekleyen 381, başarı %47, düz getiri %-23, ağırlık 0.94
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-07 | Venezuela Premier Lig Clausura | Carabobo - Estudiantes Fc | 2.5 Alt | pending | 61/100
 - 2026-09-07 | İspanya LaLiga | Elche - Real Sociedad | 2.5 Üst | pending | 66/100
 - 2026-09-07 | Romanya 1.Lig | Voluntari - Argesul Pitesti | MS 2 | pending | 44/100
 - 2026-09-07 | İran Persian Gulf Pro Lig | Nassaji Mazand - Kheybar Khorram | MS 2 | pending | 44/100
@@ -45,5 +46,4 @@ Oluşturma: 07.09.2026 07:58:12
 - 2026-09-07 | Kolombiya Primera A Clausura | Llaneros - Deportes Tolima | 2.5 Alt | pending | 58/100
 - 2026-09-07 | Venezuela Premier Lig Clausura | Ucv - Academia Puerto | 2.5 Alt | pending | 64/100
 - 2026-09-07 | Şili Premier Lig | Deportes Limac - Cobresal | MS 1 | pending | 52/100
-- 2026-09-07 | Ekvador Pro Lig | Emelec - Manta | 2.5 Alt | pending | 64/100
 
