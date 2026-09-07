@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T17:56:43.565Z",
+  "generated_at": "2026-09-07T19:57:04.039Z",
   "date": "2026-09-07",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -817,16 +817,16 @@
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 384,
-    "pending_count": 1116,
-    "won_count": 204,
+    "measured_count": 383,
+    "pending_count": 1117,
+    "won_count": 203,
     "lost_count": 180,
     "void_count": 0,
     "success_rate": 53,
-    "probability_sample_count": 384,
-    "brier_score": 0.2481,
-    "baseline_brier_score": 0.249,
-    "brier_skill_score": 0.0036,
+    "probability_sample_count": 383,
+    "brier_score": 0.2483,
+    "baseline_brier_score": 0.2491,
+    "brier_skill_score": 0.0034,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -848,10 +848,10 @@
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 190,
-        "won": 105,
+        "predictions": 189,
+        "won": 104,
         "average_probability": 54.4,
-        "observed_rate": 55.3
+        "observed_rate": 55
       },
       {
         "lower": 60,
@@ -875,8 +875,8 @@
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 157,
-        "won": 74,
+        "measured": 156,
+        "won": 73,
         "lost": 83,
         "success_rate": 47
       }
