@@ -2,12 +2,12 @@
 
 Gunler: 2026-09-07 / 2026-09-08
 Kaynak: fixtures.json
-Ham mac: 120
-Aktif mac: 91
+Ham mac: 123
+Aktif mac: 94
 Canli mac: 0
 Biten mac: 0
 Bultenden dusurulen mac: 29
-Bugun: 80
+Bugun: 83
 Yarin: 11
 
 ## Baslamamis Maclar
@@ -28,6 +28,8 @@ Yarin: 11
 - 2026-09-07 18:00 | Letonya 1.Lig | Riga Ii - Skanste | scheduled | -
 - 2026-09-07 18:30 | Suudi Arabistan Pro Lig | Al Khaleej - Al Riyadh | scheduled | -
 - 2026-09-07 18:30 | Suudi Arabistan 1.Lig | Al Adalah - Al-Saqer | scheduled | -
+- 2026-09-07 18:30 | İran Persian Gulf Pro Lig | Nassaji Mazand - Kheybar Khorram | scheduled | -
+- 2026-09-07 18:30 | İran Persian Gulf Pro Lig | Persepolis - Zob Ahan Fc | scheduled | -
 - 2026-09-07 18:45 | Litvanya A Ligi | Hegelmann - Fk Panevezys | scheduled | -
 - 2026-09-07 19:00 | Polonya Ekstraklasa | Ks Wieczysta K - Zaglebie Lubin | scheduled | -
 - 2026-09-07 19:00 | Kadınlar U20 Dünya Kupası Grup E | Kosta Rika U20 - Kolombiya U20 ( | scheduled | -
@@ -42,6 +44,7 @@ Yarin: 11
 - 2026-09-07 19:30 | İtalya Serie A | Cagliari - Lecce | scheduled | -
 - 2026-09-07 19:30 | Rusya Premier Lig | Rubin Kazan - Akhmat Grozny | scheduled | -
 - 2026-09-07 19:30 | Belarus Premier Lig | Dinamo Brest - Bate Borisov | scheduled | -
+- 2026-09-07 19:30 | İran Persian Gulf Pro Lig | Foolad Khuzest - Fajr Sepasi | scheduled | -
 - 2026-09-07 20:00 | Türkiye Süper Lig | Göztepe - Gaziantep Fk | scheduled | -
 - 2026-09-07 20:00 | Türkiye Süper Lig | Rizespor - Alanyaspor | scheduled | -
 - 2026-09-07 20:00 | Türkiye TFF 1. Lig | Mardin 1969 - Bodrum Fk | scheduled | -
