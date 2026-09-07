@@ -1,78 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-07T16:02:07.180208+00:00
+Tarih: 2026-09-07T19:52:51.627078+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 83
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 82
-- Ham veri havuzu toplam mac sayisi: 12566
+- Kac mac bulundu: 3
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 1
+- Ham veri havuzu toplam mac sayisi: 12568
 - Hedef tarih: 07.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- Almanya Kadınlar Bundesliga
-- Arjantin Premier Lig 2. Aşama
+- ABD MLS Next Pro
+- Arjantin Kadınlar Primera A 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Belarus Premier Lig
-- Brezilya Serie A
-- Brezilya Serie C Grup C
-- Bulgaristan 1.Lig
-- Danimarka Süperlig
-- Ekvador Pro Lig
-- Finlandiya Ykkösliiga
-- Fransa Ligue 2
-- Hollanda Eerste Divisie
-- Irak Premier Lig
-- Kadınlar U20 Dünya Kupası Grup E
-- Kadınlar U20 Dünya Kupası Grup F
-- Kanada Premier Lig
-- Kolombiya Kupa Son 16 Turu
-- Kolombiya Primera A Clausura
-- Letonya Virsliga
-- Litvanya 1.Lig
-- Macaristan NB II
-- Malta Süper Kupa
-- Mısır Premier Lig
-- Norveç 3.Lig Grup 1
-- Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 3
-- Norveç 3.Lig Grup 6
-- Polonya 1.Lig
-- Polonya Ekstraklasa
-- Portekiz 2.Lig
-- Portekiz Premier Lig
-- Portekiz U23 Ulusal Şampiyona
-- Romanya 1.Lig
-- Rusya Premier Lig
-- Suudi Arabistan 1.Lig
-- Suudi Arabistan Pro Lig
-- Sırbistan Süper Lig
-- Tanzanya Kuu Bara Ligi
-- Türkiye Süper Lig
-- Türkiye TFF 1. Lig
-- Uruguay Premier Lig Clausura
-- Venezuela Premier Lig Clausura
-- İngiltere 1.Lig
-- İngiltere FA Cup Eleme 1.Tur Tekrar
-- İngiltere Premier Lig Kupası Grup B
-- İngiltere Premier Lig Kupası Grup C
-- İngiltere Premier Lig Kupası Grup D
-- İngiltere Premier Lig Kupası Grup G
-- İran Persian Gulf Pro Lig
-- İspanya 2.Lig
-- İspanya Kadınlar Primera Lig
-- İspanya LaLiga
-- İsveç Allsvenskan
-- İsveç Superettan
-- İtalya Serie A
-- İtalya Serie B
-- İtalya Serie C Grup A
-- İtalya Serie C Grup C
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -129,8 +73,8 @@ Tarih: 2026-09-07T16:02:07.180208+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 59
-- Acilan detay: 59
+- Denenen Tumu alani: 13
+- Acilan detay: 13
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -143,26 +87,9 @@ Tarih: 2026-09-07T16:02:07.180208+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 07.09.2026 | 20:00 | Türkiye Süper Lig | Rizespor | Alanyaspor | 55708 | 5 |
-| 07.09.2026 | 20:00 | Türkiye Süper Lig | Göztepe | Gaziantep Fk | 55707 | 5 |
-| 07.09.2026 | 20:00 | Türkiye TFF 1. Lig | Mardin 1969 | Bodrum Fk | 50424 | 5 |
-| 07.09.2026 | 20:00 | Türkiye TFF 1. Lig | Manisa Futbol | Bursaspor | 50388 | 5 |
-| 07.09.2026 | 22:30 | İspanya LaLiga | Elche | Real Sociedad | 14113 | 5 |
-| 07.09.2026 | 20:00 | İspanya LaLiga | Getafe | Celta Vigo | 14046 | 5 |
-| 07.09.2026 | 21:45 | İtalya Serie A | Udinese | Lazio | 12574 | 5 |
-| 07.09.2026 | 19:30 | İtalya Serie A | Cagliari | Lecce | 12221 | 5 |
-| 07.09.2026 | 22:15 | Portekiz Premier Lig | Estoril | Arouca | 20732 | 5 |
-| 07.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya | Neom Sc | 08570 | 4 |
-| 07.09.2026 | 21:30 | İspanya 2.Lig | Sabadell | Cordoba | 14938 | 5 |
-| 07.09.2026 | 21:30 | İtalya Serie B | Palermo | Sampdoria | 13423 | 5 |
-| 07.09.2026 | 21:45 | Fransa Ligue 2 | Nantes | Nancy | 18740 | 5 |
-| 07.09.2026 | 21:00 | Hollanda Eerste Divisie | Psv (B) | Den Bosch | 25669 | 5 |
-| 07.09.2026 | 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) | Fc Eindhoven | 25723 | 5 |
-| 07.09.2026 | 20:00 | Danimarka Süperlig | Midtjylland | Nordsjaelland | 30650 | 5 |
-| 07.09.2026 | 20:00 | İsveç Allsvenskan | Kalmar | Djurgarden | 35705 | 5 |
-| 07.09.2026 | 20:00 | İsveç Allsvenskan | Mjallby | Göteborg | 35921 | 5 |
-| 07.09.2026 | 20:00 | İsveç Allsvenskan | Malmö | Aik Stockholm | 35811 | 5 |
-| 07.09.2026 | 21:30 | Polonya Ekstraklasa | Pogon Szczecin | Wisla Plock | 33237 | 5 |
+| 07.09.2026 | 23:00 | Arjantin Ulusal Primera Lig | Nueva Chicago | Quilmes | 28756 | 3 |
+| 07.09.2026 | 23:00 | ABD MLS Next Pro | Portland Timbe | Whitecaps Fc Ii | 10010 | 3 |
+| 07.09.2026 | 21:00 | Arjantin Kadınlar Primera A 2. Aşama | Union (K) | Sat (K) | 02599 | 5 |
 
 ## Sonuc
 
