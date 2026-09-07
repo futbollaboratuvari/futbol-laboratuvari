@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 07.09.2026 23:41:23
+Oluşturma: 08.09.2026 00:30:45
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1117
-- Kazanan tahmin: 203
-- Kaybeden tahmin: 180
-- Lig sayısı: 224
+- Bekleyen tahmin: 1107
+- Kazanan tahmin: 207
+- Kaybeden tahmin: 186
+- Lig sayısı: 223
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,28 +22,28 @@ Oluşturma: 07.09.2026 23:41:23
 
 ## En Güçlü Seçenek Hafızası
 
+- KG Var: toplam 1, bekleyen 0, başarı %100, düz getiri %93, ağırlık 1
 - MS X: toplam 3, bekleyen 1, başarı %100, düz getiri %148, ağırlık 1
-- 2.5 Üst: toplam 238, bekleyen 144, başarı %60, düz getiri %1, ağırlık 1
-- 2.5 Alt: toplam 543, bekleyen 410, başarı %56, düz getiri %-7, ağırlık 1
-- MS 1: toplam 489, bekleyen 383, başarı %46, düz getiri %-23, ağırlık 0.94
-- MS 2: toplam 226, bekleyen 178, başarı %46, düz getiri %-17, ağırlık 1
-- KG Var: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- 2.5 Üst: toplam 240, bekleyen 140, başarı %59, düz getiri %0, ağırlık 1
+- 2.5 Alt: toplam 548, bekleyen 408, başarı %56, düz getiri %-6, ağırlık 1
+- MS 1: toplam 483, bekleyen 379, başarı %44, düz getiri %-27, ağırlık 0.94
+- MS 2: toplam 225, bekleyen 179, başarı %44, düz getiri %-20, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-08 | Brezilya Serie C Grup C | Paysandu - Brusque | MS 1 | pending | 50/100
+- 2026-09-08 | Meksika Kadınlar Liga MX Apertura Grup 1 | Atlante (K) - Juarez (K) | MS 2 | pending | 51/100
+- 2026-09-08 | Arjantin Premier Lig 2. Aşama | Barracas - Argentinos Jr | MS 2 | pending | 50/100
+- 2026-09-08 | Venezuela Premier Lig Clausura | Carabobo - Estudiantes Fc | 2.5 Üst | pending | 62/100
+- 2026-09-08 | Brezilya Serie A | Vitoria Bahia - Gremio | 2.5 Alt | pending | 71/100
+- 2026-09-08 | Kolombiya Primera A Clausura | Llaneros - Deportes Tolima | 2.5 Alt | pending | 57/100
+- 2026-09-08 | Venezuela Premier Lig Clausura | Ucv - Academia Puerto | 2.5 Alt | pending | 64/100
+- 2026-09-08 | Şili Premier Lig | Deportes Limac - Cobresal | MS 1 | pending | 54/100
+- 2026-09-08 | Arjantin Prim B Metro | Excur - Ituzaingo | 2.5 Alt | pending | 54/100
+- 2026-09-08 | Ekvador Pro Lig | Emelec - Manta | 2.5 Alt | pending | 65/100
+- 2026-09-08 | Ekvador Pro Lig | Mushuc Runa - Leones Del Nort | 2.5 Alt | pending | 64/100
+- 2026-09-08 | Ekvador Pro Lig | Orense - Guayaquil City | 2.5 Üst | pending | 68/100
+- 2026-09-08 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Instituto Cordo | MS 2 | pending | 45/100
+- 2026-09-08 | Kolombiya Kupa Son 16 Turu | Atletico Nacio - Deportivo Cali | 2.5 Üst | pending | 61/100
 - 2026-09-07 | Meksika Kadınlar Liga MX Apertura Grup 1 | Atlante (K) - Juarez (K) | MS 2 | pending | 51/100
-- 2026-09-07 | Arjantin Prim B Metro | Excur - Ituzaingo | 2.5 Alt | pending | 54/100
-- 2026-09-07 | ABD MLS Next Pro | Portland Timbe - Whitecaps Fc Ii | MS 1 | pending | 54/100
-- 2026-09-07 | Arjantin Kadınlar Primera A 2. Aşama | Union (K) - Sat (K) | 2.5 Alt | pending | 55/100
-- 2026-09-07 | Norveç 3.Lig Grup 2 | Molde 2 - Aalesund B | 2.5 Alt | pending | 49/100
-- 2026-09-07 | Brezilya Serie C Grup C | Paysandu - Brusque | MS 1 | pending | 50/100
-- 2026-09-07 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Instituto Cordo | MS 2 | pending | 45/100
-- 2026-09-07 | İtalya Serie C Grup A | Pro Vercelli - Folgore Carates | 2.5 Alt | pending | 54/100
-- 2026-09-07 | Litvanya 1.Lig | Zalgiris Ii - Neptüna Klaiped | MS 2 | pending | 48/100
-- 2026-09-07 | Suudi Arabistan 1.Lig | Al Jabalain - Al Wahda | MS 1 | pending | 46/100
-- 2026-09-07 | Türkiye Süper Lig | Göztepe - Gaziantep Fk | 2.5 Alt | pending | 61/100
-- 2026-09-07 | İngiltere FA Cup Eleme 1.Tur Tekrar | Carshalton Ath - Chertsey Town | MS 1 | pending | 47/100
-- 2026-09-07 | İngiltere FA Cup Eleme 1.Tur Tekrar | Swindon Superm - Winslow United | MS 1 | pending | 51/100
-- 2026-09-07 | İngiltere FA Cup Eleme 1.Tur Tekrar | Redditch Unite - Malvern Town | MS 1 | pending | 50/100
-- 2026-09-07 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Penafiel U23 | MS 1 | pending | 49/100
 

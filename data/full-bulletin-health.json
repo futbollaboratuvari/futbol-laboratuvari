@@ -1,20 +1,18 @@
 {
-  "generated_at": "2026-09-07T19:56:46.315Z",
+  "generated_at": "2026-09-07T21:30:32.792Z",
   "status": "pass",
   "source_status": "active",
   "full_bulletin_exists": true,
   "restored_from_cache": false,
-  "match_count": 17,
+  "match_count": 14,
   "live_match_count": 0,
   "finished_count": 0,
   "first_match": {
-    "date": "2026-09-07",
-    "time": "23:00",
-    "league": "ABD MLS Next Pro",
-    "home": "Portland Timbe",
-    "away": "Whitecaps Fc Ii",
-    "matchCode": "10010",
-    "mbs": null,
+    "date": "2026-09-08",
+    "time": "00:45",
+    "league": "Meksika Kadınlar Liga MX Apertura Grup 1",
+    "home": "Atlante (K)",
+    "away": "Juarez (K)",
     "status": "scheduled",
     "liveStatus": "scheduled",
     "status_verified": false,
@@ -23,28 +21,301 @@
     "homeScore": null,
     "awayScore": null,
     "score": "",
+    "lastLiveUpdate": null,
     "source": "Maçkolik canlı robot",
+    "matchCode": "10061",
+    "oddsSource": "Robot ham veri havuzu",
+    "one": 3.42,
+    "oneOdd": 3.42,
+    "ms1": 3.42,
+    "odd1": 3.42,
+    "draw": 3.33,
+    "drawOdd": 3.33,
+    "msx": 3.33,
+    "oddX": 3.33,
+    "two": 1.62,
+    "twoOdd": 1.62,
+    "ms2": 1.62,
+    "odd2": 1.62,
+    "raw_market_blocks": [
+      {
+        "market_code": "10061",
+        "values": [
+          3.42,
+          3.33,
+          1.62
+        ],
+        "guess": "Maç Sonucu 1/X/2",
+        "named_values": {
+          "ms1": 3.42,
+          "msx": 3.33,
+          "ms2": 1.62
+        },
+        "detail_market_candidates": [
+          {
+            "market": "Maç Sonucu 1/X/2",
+            "values": {
+              "ms1": 3.42,
+              "msx": 3.33,
+              "ms2": 1.62
+            }
+          },
+          {
+            "market": "İlk Yarı 1/X/2",
+            "values": {
+              "firstHalf1_guess": 3.42,
+              "firstHalfX_guess": 3.33,
+              "firstHalf2_guess": 1.62
+            }
+          },
+          {
+            "market": "İkinci Yarı 1/X/2",
+            "values": {
+              "secondHalf1_guess": 3.42,
+              "secondHalfX_guess": 3.33,
+              "secondHalf2_guess": 1.62
+            }
+          },
+          {
+            "market": "Handikap 1/X/2",
+            "values": {
+              "handicap1_guess": 3.42,
+              "handicapX_guess": 3.33,
+              "handicap2_guess": 1.62
+            }
+          }
+        ]
+      },
+      {
+        "market_code": "10062",
+        "values": [
+          1.64,
+          1.11,
+          1.09
+        ],
+        "guess": "2.5 Alt / Üst",
+        "named_values": {
+          "under25": 1.64,
+          "over25": 1.11
+        },
+        "detail_market_candidates": [
+          {
+            "market": "Maç Sonucu 1/X/2",
+            "values": {
+              "ms1": 1.64,
+              "msx": 1.11,
+              "ms2": 1.09
+            }
+          },
+          {
+            "market": "İlk Yarı 1/X/2",
+            "values": {
+              "firstHalf1_guess": 1.64,
+              "firstHalfX_guess": 1.11,
+              "firstHalf2_guess": 1.09
+            }
+          },
+          {
+            "market": "İkinci Yarı 1/X/2",
+            "values": {
+              "secondHalf1_guess": 1.64,
+              "secondHalfX_guess": 1.11,
+              "secondHalf2_guess": 1.09
+            }
+          },
+          {
+            "market": "Handikap 1/X/2",
+            "values": {
+              "handicap1_guess": 1.64,
+              "handicapX_guess": 1.11,
+              "handicap2_guess": 1.09
+            }
+          }
+        ]
+      }
+    ],
+    "raw_market_guess_odds": {
+      "ms1": 3.42,
+      "msx": 3.33,
+      "ms2": 1.62,
+      "under25": 1.64,
+      "over25": 1.11
+    },
+    "detail_market_candidates": [
+      {
+        "market_code": "10061",
+        "market": "Maç Sonucu 1/X/2",
+        "values": {
+          "ms1": 3.42,
+          "msx": 3.33,
+          "ms2": 1.62
+        }
+      },
+      {
+        "market_code": "10061",
+        "market": "İlk Yarı 1/X/2",
+        "values": {
+          "firstHalf1_guess": 3.42,
+          "firstHalfX_guess": 3.33,
+          "firstHalf2_guess": 1.62
+        }
+      },
+      {
+        "market_code": "10061",
+        "market": "İkinci Yarı 1/X/2",
+        "values": {
+          "secondHalf1_guess": 3.42,
+          "secondHalfX_guess": 3.33,
+          "secondHalf2_guess": 1.62
+        }
+      },
+      {
+        "market_code": "10061",
+        "market": "Handikap 1/X/2",
+        "values": {
+          "handicap1_guess": 3.42,
+          "handicapX_guess": 3.33,
+          "handicap2_guess": 1.62
+        }
+      },
+      {
+        "market_code": "10062",
+        "market": "Maç Sonucu 1/X/2",
+        "values": {
+          "ms1": 1.64,
+          "msx": 1.11,
+          "ms2": 1.09
+        }
+      },
+      {
+        "market_code": "10062",
+        "market": "İlk Yarı 1/X/2",
+        "values": {
+          "firstHalf1_guess": 1.64,
+          "firstHalfX_guess": 1.11,
+          "firstHalf2_guess": 1.09
+        }
+      },
+      {
+        "market_code": "10062",
+        "market": "İkinci Yarı 1/X/2",
+        "values": {
+          "secondHalf1_guess": 1.64,
+          "secondHalfX_guess": 1.11,
+          "secondHalf2_guess": 1.09
+        }
+      },
+      {
+        "market_code": "10062",
+        "market": "Handikap 1/X/2",
+        "values": {
+          "handicap1_guess": 1.64,
+          "handicapX_guess": 1.11,
+          "handicap2_guess": 1.09
+        }
+      }
+    ],
+    "raw_market_block_count": 2,
+    "raw_market_value_count": 6,
+    "raw_market_source": "Robot ham veri hücreleri",
+    "flow_status": "scheduled",
+    "mbs": null,
     "odds": {
-      "ms1": 1.33,
-      "msx": 4.13,
-      "ms2": 4.66
+      "ms1": 3.42,
+      "msx": 3.33,
+      "ms2": 1.62,
+      "under25": 1.64,
+      "over25": 1.11
     },
     "available_odds": {
-      "ms1": 1.33,
-      "msx": 4.13,
-      "ms2": 4.66
-    },
-    "raw_market_guess_odds": {
-      "ms1": 1.33,
-      "msx": 4.13,
-      "ms2": 4.66
+      "ms1": 3.42,
+      "msx": 3.33,
+      "ms2": 1.62,
+      "under25": 1.64,
+      "over25": 1.11
     },
     "raw_odds_sequence": [],
-    "raw_market_value_count": 4
+    "detail_markets": [
+      {
+        "key": "ms1",
+        "label": "MS 1",
+        "odd": 3.42,
+        "source": "Robot ham veri havuzu"
+      },
+      {
+        "key": "msx",
+        "label": "MS X",
+        "odd": 3.33,
+        "source": "Robot ham veri havuzu"
+      },
+      {
+        "key": "ms2",
+        "label": "MS 2",
+        "odd": 1.62,
+        "source": "Robot ham veri havuzu"
+      },
+      {
+        "key": "under25",
+        "label": "2.5 Alt",
+        "odd": 1.64,
+        "source": "Robot ham veri havuzu"
+      },
+      {
+        "key": "over25",
+        "label": "2.5 Ust",
+        "odd": 1.11,
+        "source": "Robot ham veri havuzu"
+      }
+    ],
+    "wide_market_odds_count": 5,
+    "detail": {
+      "analysis": "Detay analizi icin robot verisi bekleniyor.",
+      "prediction": "Tahmin verisi bekleniyor",
+      "confidence": null,
+      "risk": "",
+      "team_info": {
+        "home": null,
+        "away": null
+      },
+      "league_info": null,
+      "goal_expectation": null,
+      "markets": [
+        {
+          "key": "ms1",
+          "label": "MS 1",
+          "odd": 3.42,
+          "source": "Robot ham veri havuzu"
+        },
+        {
+          "key": "msx",
+          "label": "MS X",
+          "odd": 3.33,
+          "source": "Robot ham veri havuzu"
+        },
+        {
+          "key": "ms2",
+          "label": "MS 2",
+          "odd": 1.62,
+          "source": "Robot ham veri havuzu"
+        },
+        {
+          "key": "under25",
+          "label": "2.5 Alt",
+          "odd": 1.64,
+          "source": "Robot ham veri havuzu"
+        },
+        {
+          "key": "over25",
+          "label": "2.5 Ust",
+          "odd": 1.11,
+          "source": "Robot ham veri havuzu"
+        }
+      ]
+    }
   },
   "date_window": {
-    "main_day": "2026-09-07",
-    "includes_next_day_until": "2026-09-08 23:59"
+    "main_day": "2026-09-08",
+    "includes_next_day_until": "2026-09-09 23:59"
   },
   "notes": [
     "Bulten veri akisi aktif.",

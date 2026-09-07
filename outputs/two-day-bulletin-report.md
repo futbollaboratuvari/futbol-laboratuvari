@@ -1,17 +1,16 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-09-07 / 2026-09-08
+Gunler: 2026-09-08 / 2026-09-09
 Kaynak: fixtures.json
-Ham mac: 46
-Aktif mac: 15
+Ham mac: 15
+Aktif mac: 14
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 31
-Bugun: 0
-Yarin: 15
+Bultenden dusurulen mac: 1
+Bugun: 14
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-09-08 00:00 | Brezilya Serie C Grup C | Paysandu - Brusque | scheduled | -
 - 2026-09-08 00:45 | Meksika Kadınlar Liga MX Apertura Grup 1 | Atlante (K) - Juarez (K) | scheduled | -
 - 2026-09-08 01:00 | Arjantin Premier Lig 2. Aşama | Barracas - Argentinos Jr | scheduled | -
 - 2026-09-08 01:00 | Venezuela Premier Lig Clausura | Carabobo - Estudiantes Fc | scheduled | -
