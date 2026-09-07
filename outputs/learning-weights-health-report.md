@@ -3,8 +3,8 @@
 Durum: active
 Tahmin sayisi: 1500
 Hazir market hafizasi: 4/6
-Hazir lig hafizasi: 0/224
-Hazir lig+market hafizasi: 0/560
+Hazir lig hafizasi: 0/223
+Hazir lig+market hafizasi: 0/558
 Aktif ve guvenli agirlik: 1
 Guclendirilen toplam: 0
 Dusurulen toplam: 1
@@ -12,6 +12,6 @@ Dusurulen toplam: 1
 ## Guclu Marketler
 
 ## Zayif Marketler
-- MS 1: duzeltilmis getiri -0.193, agirlik 0.94, guven -2
+- MS 1: duzeltilmis getiri -0.208, agirlik 0.94, guven -2
 
 Sonraki aksiyon: Yalniz guven araligi notr bandin disina cikan hafizalar sonraki analizlerde sinirli uygulanir.
