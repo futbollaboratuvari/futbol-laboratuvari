@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-07 / 2026-09-08
 Kaynak: fixtures.json
-Ham mac: 138
-Aktif mac: 17
+Ham mac: 46
+Aktif mac: 15
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 121
-Bugun: 2
+Bultenden dusurulen mac: 31
+Bugun: 0
 Yarin: 15
 
 ## Baslamamis Maclar
-- 2026-09-07 23:00 | Arjantin Ulusal Primera Lig | Nueva Chicago - Quilmes | scheduled | -
-- 2026-09-07 23:00 | ABD MLS Next Pro | Portland Timbe - Whitecaps Fc Ii | scheduled | -
 - 2026-09-08 00:00 | Brezilya Serie C Grup C | Paysandu - Brusque | scheduled | -
 - 2026-09-08 00:45 | Meksika Kadınlar Liga MX Apertura Grup 1 | Atlante (K) - Juarez (K) | scheduled | -
 - 2026-09-08 01:00 | Arjantin Premier Lig 2. Aşama | Barracas - Argentinos Jr | scheduled | -
