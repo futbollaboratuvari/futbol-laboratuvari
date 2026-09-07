@@ -108,6 +108,7 @@
     ensureStylesheet("header-fixes.css", "header-fixes-style");
     ensureStylesheet("hero-vitrin.css", "hero-vitrin-style");
     ensureStylesheet("premium-analysis-v3.css", "premium-analysis-v3-style");
+    ensureStylesheet("nesine-coupon-assistant.css", "nesine-coupon-assistant-style");
     ensureScript("panel-stabilizer.js", "panel-stabilizer-script");
     ensureScript("daily-matches-widget.js", "daily-matches-widget-script");
     ensureScript("server-membership-guard.js", "server-membership-guard-script");
@@ -117,6 +118,7 @@
     ensureScript("hero-summary-sync.js", "hero-summary-sync-script");
     ensureScript("hero-vitrin.js", "hero-vitrin-script");
     ensureScript("site-human-language.js", "site-human-language-script");
+    ensureScript("nesine-coupon-assistant.js", "nesine-coupon-assistant-script");
     loadMembership();
     queueIdleEnhancements();
 
