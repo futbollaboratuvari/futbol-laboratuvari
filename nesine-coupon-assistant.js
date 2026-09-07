@@ -53,7 +53,7 @@
 
   const candidatePool = (payload) => {
     const coupons = payload?.coupons || {};
-    const ordered = [coupons.balanced, coupons.high_value, coupons.risky, coupons.laboratory_today].filter(Boolean);
+    const ordered = [coupons.balanced, coupons.high_value, coupons.risk_lab, coupons.laboratory_today].filter(Boolean);
     const seen = new Set();
     const pool = [];
     ordered.forEach((coupon) => {
