@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 07.09.2026 04:03:23
+Oluşturma: 07.09.2026 07:55:45
 
 ## Özet
 
@@ -8,7 +8,7 @@ Oluşturma: 07.09.2026 04:03:23
 - Bekleyen tahmin: 1130
 - Kazanan tahmin: 192
 - Kaybeden tahmin: 178
-- Lig sayısı: 221
+- Lig sayısı: 220
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -23,14 +23,15 @@ Oluşturma: 07.09.2026 04:03:23
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 3, bekleyen 1, başarı %100, düz getiri %148, ağırlık 1
-- 2.5 Üst: toplam 234, bekleyen 145, başarı %58, düz getiri %-1, ağırlık 1
+- 2.5 Üst: toplam 235, bekleyen 146, başarı %58, düz getiri %-1, ağırlık 1
 - 2.5 Alt: toplam 546, bekleyen 420, başarı %54, düz getiri %-10, ağırlık 1
-- MS 2: toplam 228, bekleyen 179, başarı %47, düz getiri %-15, ağırlık 1
+- MS 2: toplam 227, bekleyen 178, başarı %47, düz getiri %-15, ağırlık 1
 - MS 1: toplam 488, bekleyen 384, başarı %45, düz getiri %-25, ağırlık 0.94
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-07 | İspanya LaLiga | Elche - Real Sociedad | 2.5 Üst | pending | 68/100
 - 2026-09-07 | Romanya 1.Lig | Voluntari - Argesul Pitesti | MS 2 | pending | 44/100
 - 2026-09-07 | İran Persian Gulf Pro Lig | Nassaji Mazand - Kheybar Khorram | MS 2 | pending | 44/100
 - 2026-09-07 | İran Persian Gulf Pro Lig | Persepolis - Zob Ahan Fc | MS 1 | pending | 56/100
@@ -45,5 +46,4 @@ Oluşturma: 07.09.2026 04:03:23
 - 2026-09-07 | Venezuela Premier Lig Clausura | Ucv - Academia Puerto | 2.5 Alt | pending | 64/100
 - 2026-09-07 | Şili Premier Lig | Deportes Limac - Cobresal | MS 1 | pending | 52/100
 - 2026-09-07 | Ekvador Pro Lig | Emelec - Manta | 2.5 Alt | pending | 64/100
-- 2026-09-07 | Ekvador Pro Lig | Mushuc Runa - Leones Del Nort | 2.5 Alt | pending | 63/100
 

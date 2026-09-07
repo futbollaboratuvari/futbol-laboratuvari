@@ -1,27 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-07T00:24:51.444387+00:00
+Tarih: 2026-09-07T04:55:32.535526+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 89
+- Kac mac bulundu: 78
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 89
+- Kac mac zaten vardi: 78
 - Ham veri havuzu toplam mac sayisi: 12556
 - Hedef tarih: 07.09.2026 Europe/Istanbul
 
 ## Ligler
 
 - Almanya Kadınlar Bundesliga
-- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Belarus Premier Lig
-- Brezilya Serie A
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
 - Finlandiya Ykkösliiga
 - Fransa Ligue 2
 - Hollanda Eerste Divisie
@@ -29,8 +26,6 @@ Tarih: 2026-09-07T00:24:51.444387+00:00
 - Kadınlar U20 Dünya Kupası Grup E
 - Kadınlar U20 Dünya Kupası Grup F
 - Kanada Premier Lig
-- Kolombiya Kupa Son 16 Turu
-- Kolombiya Primera A Clausura
 - Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya 1.Lig
@@ -53,7 +48,6 @@ Tarih: 2026-09-07T00:24:51.444387+00:00
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Uruguay Premier Lig Clausura
-- Venezuela Premier Lig Clausura
 - Yunanistan Süper Lig
 - İngiltere 1.Lig
 - İngiltere Premier Lig Kupası Grup B
@@ -70,7 +64,6 @@ Tarih: 2026-09-07T00:24:51.444387+00:00
 - İtalya Serie B
 - İtalya Serie C Grup A
 - İtalya Serie C Grup C
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
