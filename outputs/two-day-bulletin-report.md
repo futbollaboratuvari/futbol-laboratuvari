@@ -2,20 +2,15 @@
 
 Gunler: 2026-09-07 / 2026-09-08
 Kaynak: fixtures.json
-Ham mac: 133
-Aktif mac: 73
+Ham mac: 98
+Aktif mac: 68
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 60
-Bugun: 61
+Bultenden dusurulen mac: 30
+Bugun: 56
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-09-07 19:05 | Suudi Arabistan 1.Lig | Al Jabalain - Al Wahda | scheduled | -
-- 2026-09-07 19:30 | İtalya Serie A | Cagliari - Lecce | scheduled | -
-- 2026-09-07 19:30 | Rusya Premier Lig | Rubin Kazan - Akhmat Grozny | scheduled | -
-- 2026-09-07 19:30 | Belarus Premier Lig | Dinamo Brest - Bate Borisov | scheduled | -
-- 2026-09-07 19:30 | İran Persian Gulf Pro Lig | Foolad Khuzest - Fajr Sepasi | scheduled | -
 - 2026-09-07 20:00 | Türkiye Süper Lig | Göztepe - Gaziantep Fk | scheduled | -
 - 2026-09-07 20:00 | Türkiye Süper Lig | Rizespor - Alanyaspor | scheduled | -
 - 2026-09-07 20:00 | Türkiye TFF 1. Lig | Mardin 1969 - Bodrum Fk | scheduled | -
