@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 07.09.2026 13:22:13
+Oluşturma: 07.09.2026 13:31:14
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1117
-- Kazanan tahmin: 203
+- Bekleyen tahmin: 1115
+- Kazanan tahmin: 205
 - Kaybeden tahmin: 180
 - Lig sayısı: 222
 - Seçenek sayısı: 6
@@ -23,8 +23,8 @@ Oluşturma: 07.09.2026 13:22:13
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 3, bekleyen 1, başarı %100, düz getiri %148, ağırlık 1
-- 2.5 Üst: toplam 238, bekleyen 145, başarı %59, düz getiri %0, ağırlık 1
-- 2.5 Alt: toplam 540, bekleyen 408, başarı %55, düz getiri %-8, ağırlık 1
+- 2.5 Üst: toplam 238, bekleyen 144, başarı %60, düz getiri %1, ağırlık 1
+- 2.5 Alt: toplam 540, bekleyen 407, başarı %56, düz getiri %-7, ağırlık 1
 - MS 2: toplam 228, bekleyen 179, başarı %47, düz getiri %-15, ağırlık 1
 - MS 1: toplam 490, bekleyen 383, başarı %47, düz getiri %-23, ağırlık 0.94
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
@@ -45,5 +45,5 @@ Oluşturma: 07.09.2026 13:22:13
 - 2026-09-07 | Norveç 3.Lig Grup 3 | Gneist - Asane Ii | MS 1 | pending | 43/100
 - 2026-09-07 | Norveç 3.Lig Grup 6 | Orn Horten - Sarpsborg 08 Ii | MS 1 | pending | 51/100
 - 2026-09-07 | Malta Süper Kupa | Floriana - Valletta | MS 1 | pending | 46/100
-- 2026-09-07 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Sporting San Jo | 2.5 Alt | pending | 64/100
+- 2026-09-07 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Sporting San Jo | 2.5 Alt | won | 64/100
 
