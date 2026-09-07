@@ -2,21 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-07T22:47:23.779Z
+- Güncelleme: 2026-09-07T23:37:07.268Z
 - Ham maç sayısı: 166
 - Yarın bülteni maç sayısı: 11
 - Detay blok sayısı: 413
-- Aktif bülten maçı: 162
-- Bültenden düşürülen maç: 4
+- Aktif bülten maçı: 157
+- Bültenden düşürülen maç: 9
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Vitoria Bahia - Gremio | Brezilya Serie A | 02:00 | Veri bekleniyor | - | 1.93 | 8 |
-| Llaneros - Deportes Tolima | Kolombiya Primera A Clausura | 02:00 | Veri bekleniyor | - | 2.39 | 8 |
-| Ucv - Academia Puerto | Venezuela Premier Lig Clausura | 02:00 | Veri bekleniyor | - | 2.78 | 8 |
-| Deportes Limac - Cobresal | Şili Premier Lig | 02:00 | Veri bekleniyor | - | 1.39 | 7 |
-| Excur - Ituzaingo | Arjantin Prim B Metro | 02:00 | Veri bekleniyor | - | 1.21 | 7 |
 | Emelec - Manta | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 1.41 | 7 |
 | Mushuc Runa - Leones Del Nort | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 1.86 | 8 |
 | Orense - Guayaquil City | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 1.78 | 8 |
@@ -33,7 +28,7 @@
 | Incheon Utd - Bucheon | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 1.59 | 8 |
 | Porto U19 - Manchester City | UEFA Gençlik Ligi Lig Aşaması | 14:00 | Veri bekleniyor | - | 2.38 | 8 |
 | Olympic Kingsw - Perth | Avustralya NPL Batı Avustralya Ön Eleme Final | 14:00 | Veri bekleniyor | - | 2 | 3 |
-| Club Brugge U1 - Aston Villa U19 | UEFA Gençlik Ligi Lig Aşaması | 15:00 | Veri bekleniyor | - | 1.76 | 8 |
+| Club Brugge U1 - Aston Villa U19 | UEFA Gençlik Ligi Lig Aşaması | 15:00 | Veri bekleniyor | - | 1.75 | 8 |
 | Lille U19 - Real Betis U19 | UEFA Gençlik Ligi Lig Aşaması | 16:00 | Veri bekleniyor | - | 3.32 | 8 |
 | Benin U20 (K) - Arjantin U20 (K | Kadınlar U20 Dünya Kupası Grup A | 16:00 | Veri bekleniyor | - | 5.05 | 6 |
 | Imigresen (2) - (2) Kedah Fa | Malezya FA Kupası Son 16 Turu | 16:00 | Veri bekleniyor | - | 1.2 | 3 |
@@ -68,7 +63,7 @@
 | Aek - Lask Linz | UEFA Şampiyonlar Ligi Lig Aşaması | 19:45 | Veri bekleniyor | - | 1.61 | 8 |
 | Club Brugge - Aston Villa | UEFA Şampiyonlar Ligi Lig Aşaması | 19:45 | Veri bekleniyor | - | 2.35 | 8 |
 | Nijmegen - Excelsior | Hollanda Eredivisie | 19:45 | Veri bekleniyor | - | 1.41 | 8 |
-| Al Zamalek Cai - Abu Qair | Mısır Premier Lig | 20:00 | Veri bekleniyor | - | 1.25 | 7 |
+| Al Zamalek Cai - Abu Qair | Mısır Premier Lig | 20:00 | Veri bekleniyor | - | 1.24 | 7 |
 | Smouha - Ceramica Cleopa | Mısır Premier Lig | 20:00 | Veri bekleniyor | - | 3.04 | 8 |
 | Asker - Stromsgodset | Norveç NM Kupası 2.Tur | 20:00 | Veri bekleniyor | - | 11 | 2 |
 | Astoria Walldo - Stuttgarter Kic | Almanya Bölgesel Lig Güney Batı | 20:00 | Veri bekleniyor | - | 2.83 | 6 |

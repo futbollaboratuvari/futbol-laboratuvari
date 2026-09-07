@@ -3,19 +3,14 @@
 Gunler: 2026-09-08 / 2026-09-09
 Kaynak: fixtures.json
 Ham mac: 166
-Aktif mac: 162
+Aktif mac: 157
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 151
+Bultenden dusurulen mac: 9
+Bugun: 146
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-09-08 02:00 | Brezilya Serie A | Vitoria Bahia - Gremio | scheduled | -
-- 2026-09-08 02:00 | Kolombiya Primera A Clausura | Llaneros - Deportes Tolima | scheduled | -
-- 2026-09-08 02:00 | Venezuela Premier Lig Clausura | Ucv - Academia Puerto | scheduled | -
-- 2026-09-08 02:00 | Şili Premier Lig | Deportes Limac - Cobresal | scheduled | -
-- 2026-09-08 02:00 | Arjantin Prim B Metro | Excur - Ituzaingo | scheduled | -
 - 2026-09-08 03:00 | Ekvador Pro Lig | Emelec - Manta | scheduled | -
 - 2026-09-08 03:00 | Ekvador Pro Lig | Mushuc Runa - Leones Del Nort | scheduled | -
 - 2026-09-08 03:00 | Ekvador Pro Lig | Orense - Guayaquil City | scheduled | -
