@@ -1,32 +1,69 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-07T19:56:12.934401+00:00
+Tarih: 2026-09-07T22:34:07.602366+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 18
-- Kac mac kaydedildi: 3
-- Kac mac zaten vardi: 15
-- Ham veri havuzu toplam mac sayisi: 12571
-- Hedef tarih: 07.09.2026 Europe/Istanbul
+- Kac mac bulundu: 154
+- Kac mac kaydedildi: 154
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 12725
+- Hedef tarih: 08.09.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS Next Pro
-- Arjantin Kadınlar Primera A 2. Aşama
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Prim B Metro
-- Arjantin Ulusal Primera Lig
-- Brezilya Serie A
-- Brezilya Serie C Grup C
-- Ekvador Pro Lig
-- Kolombiya Kupa Son 16 Turu
-- Kolombiya Primera A Clausura
-- Meksika Kadınlar Liga MX Apertura Grup 1
-- Venezuela Premier Lig Clausura
-- Şili Premier Lig
+- ABD USL Kupası Yarı Final
+- Almanya Bölgesel Lig Güney Batı
+- Arjantin Primera C
+- Avustralya NPL Batı Avustralya Ön Eleme Final
+- Brezilya Serie B
+- Bulgaristan 2.Lig
+- Copa Libertadores Çeyrek Final
+- Copa Sudamericana Çeyrek Final
+- El Salvador Primera Lig Apertura
+- Estonya Premium Lig
+- Finlandiya Veikkausliiga Küme Düşme Grubu
+- Finlandiya Veikkausliiga Şampiyonluk Grubu
+- Güney Afrika 1.Lig
+- Güney Kore K Lig 1
+- Hollanda Eredivisie
+- Irak Premier Lig
+- Kadınlar U20 Dünya Kupası Grup A
+- Kadınlar U20 Dünya Kupası Grup B
+- Karadağ 1.Lig
+- Katar 2.Lig
+- Kolombiya Primera B Clausura
+- Kosova Süper Lig
+- Kuzey İrlanda Premiership
+- Malezya FA Kupası Son 16 Turu
+- Mısır Premier Lig
+- Norveç NM Kupası 2.Tur
+- Portekiz U23 Ulusal Şampiyona
+- Suudi Arabistan 1.Lig
+- Suudi Arabistan Pro Lig
+- Tanzanya Kuu Bara Ligi
+- UEFA Gençlik Ligi Lig Aşaması
+- UEFA Şampiyonlar Ligi Lig Aşaması
+- Uganda Premier Lig
+- Yunanistan Kupa Lig Aşaması
+- İngiltere Championship
+- İngiltere EFL Trophy Güney Grup A
+- İngiltere EFL Trophy Kuzey Grup H
+- İngiltere FA Cup Eleme 1.Tur Tekrar
+- İngiltere Lig Kupası 3.Tur
+- İngiltere Premier Lig Kupası Grup E
+- İngiltere Premier Lig Kupası Grup J
+- İngiltere Ulusal Lig Kupası Grup A
+- İngiltere Ulusal Lig Kupası Grup B
+- İngiltere Ulusal Lig Kupası Grup C
+- İngiltere Ulusal Lig Kupası Grup D
+- İngiltere Ulusal Lig N / S Güney
+- İngiltere Ulusal Lig N / S Kuzey
+- İskoçya Challenge Kupası Lig Aşaması
+- İspanya Federasyon Kupası Son 32 Turu
 
 ## Okunabilen Oran Alanlari
 
@@ -83,8 +120,8 @@ Tarih: 2026-09-07T19:56:12.934401+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 13
-- Acilan detay: 13
+- Denenen Tumu alani: 51
+- Acilan detay: 51
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -97,24 +134,26 @@ Tarih: 2026-09-07T19:56:12.934401+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 08.09.2026 | 02:00 | Brezilya Serie A | Vitoria Bahia | Gremio | 28592 | 5 |
-| 08.09.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Barracas | Argentinos Jr | 28683 | 5 |
-| 08.09.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe | Instituto Cordo | 28773 | 5 |
-| 08.09.2026 | 02:00 | Kolombiya Primera A Clausura | Llaneros | Deportes Tolima | 00355 | 5 |
-| 08.09.2026 | 02:00 | Venezuela Premier Lig Clausura | Ucv | Academia Puerto | 07623 | 5 |
-| 08.09.2026 | 01:00 | Venezuela Premier Lig Clausura | Carabobo | Estudiantes Fc | 00947 | 5 |
-| 08.09.2026 | 02:00 | Şili Premier Lig | Deportes Limac | Cobresal | 36333 | 5 |
-| 07.09.2026 | 23:00 | Arjantin Ulusal Primera Lig | Nueva Chicago | Quilmes | 28756 | 3 |
-| 08.09.2026 | 04:15 | Kolombiya Kupa Son 16 Turu | Atletico Nacio | Deportivo Cali | 42394 | 5 |
-| 08.09.2026 | 03:00 | Ekvador Pro Lig | Emelec | Manta | 02821 | 5 |
-| 08.09.2026 | 03:00 | Ekvador Pro Lig | Orense | Guayaquil City | 00008 | 5 |
-| 08.09.2026 | 03:00 | Ekvador Pro Lig | Mushuc Runa | Leones Del Nort | 12006 | 5 |
-| 07.09.2026 | 23:00 | ABD MLS Next Pro | Portland Timbe | Whitecaps Fc Ii | 10010 | 3 |
-| 07.09.2026 | 21:00 | Arjantin Kadınlar Primera A 2. Aşama | Union (K) | Sat (K) | 02599 | 5 |
-| 08.09.2026 | 00:00 | Brezilya Serie C Grup C | Paysandu | Brusque | 01307 | 5 |
-| 08.09.2026 | 02:00 | Arjantin Prim B Metro | Excur | Ituzaingo | 10195 | 5 |
-| 08.09.2026 | 04:06 | Meksika Kadınlar Liga MX Apertura Grup 1 | León (K) | Puebla (K) | 10359 | 2 |
-| 08.09.2026 | 00:45 | Meksika Kadınlar Liga MX Apertura Grup 1 | Atlante (K) | Juarez (K) | 10061 | 3 |
+| 08.09.2026 | 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Aek | Lask Linz | 53778 | 5 |
+| 08.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Porto | Manchester City | 54012 | 5 |
+| 08.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | B.Dortmund | Villarreal | 53893 | 5 |
+| 08.09.2026 | 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Club Brugge | Aston Villa | 53836 | 5 |
+| 08.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Real Madrid | Inter | 54096 | 5 |
+| 08.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Lille | Real Betis | 53951 | 5 |
+| 08.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Millwall | Newcastle Utd | 15154 | 5 |
+| 08.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Bournemouth | Lincoln | 13620 | 5 |
+| 08.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Leyton Orient | Bradford | 14300 | 5 |
+| 08.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Sunderland | Hull | 14466 | 5 |
+| 08.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Crystal Palace | Middlesbrough | 14192 | 5 |
+| 08.09.2026 | 19:45 | Hollanda Eredivisie | Nijmegen | Excelsior | 19126 | 5 |
+| 08.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci | Al Feiha | 12334 | 5 |
+| 08.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah | Al Ahli (Cidde) | 12399 | 5 |
+| 08.09.2026 | 18:30 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Faisaly | 11828 | 5 |
+| 08.09.2026 | 18:55 | Suudi Arabistan Pro Lig | Al Hazm | Al Taawon | 12100 | 5 |
+| 08.09.2026 | 17:00 | UEFA Gençlik Ligi Lig Aşaması | Real Madrid U1 | Internazionale | 18970 | 5 |
+| 08.09.2026 | 14:00 | UEFA Gençlik Ligi Lig Aşaması | Porto U19 | Manchester City | 14715 | 5 |
+| 08.09.2026 | 12:00 | UEFA Gençlik Ligi Lig Aşaması | Aek Athens U19 | Lask U19 | 08394 | 3 |
+| 08.09.2026 | 17:00 | UEFA Gençlik Ligi Lig Aşaması | B. Dortmund U1 | Villarreal U19 | 18963 | 5 |
 
 ## Sonuc
 

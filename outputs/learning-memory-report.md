@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.09.2026 00:30:45
+Oluşturma: 08.09.2026 01:34:46
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1107
-- Kazanan tahmin: 207
-- Kaybeden tahmin: 186
-- Lig sayısı: 223
+- Bekleyen tahmin: 1131
+- Kazanan tahmin: 194
+- Kaybeden tahmin: 175
+- Lig sayısı: 238
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -23,27 +23,27 @@ Oluşturma: 08.09.2026 00:30:45
 ## En Güçlü Seçenek Hafızası
 
 - KG Var: toplam 1, bekleyen 0, başarı %100, düz getiri %93, ağırlık 1
-- MS X: toplam 3, bekleyen 1, başarı %100, düz getiri %148, ağırlık 1
-- 2.5 Üst: toplam 240, bekleyen 140, başarı %59, düz getiri %0, ağırlık 1
-- 2.5 Alt: toplam 548, bekleyen 408, başarı %56, düz getiri %-6, ağırlık 1
-- MS 1: toplam 483, bekleyen 379, başarı %44, düz getiri %-27, ağırlık 0.94
-- MS 2: toplam 225, bekleyen 179, başarı %44, düz getiri %-20, ağırlık 1
+- MS X: toplam 2, bekleyen 1, başarı %100, düz getiri %146, ağırlık 1
+- 2.5 Üst: toplam 231, bekleyen 136, başarı %61, düz getiri %4, ağırlık 1
+- 2.5 Alt: toplam 528, bekleyen 396, başarı %56, düz getiri %-7, ağırlık 1
+- MS 2: toplam 234, bekleyen 191, başarı %44, düz getiri %-19, ağırlık 1
+- MS 1: toplam 504, bekleyen 407, başarı %42, düz getiri %-31, ağırlık 0.94
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-08 | Brezilya Serie C Grup C | Paysandu - Brusque | MS 1 | pending | 50/100
-- 2026-09-08 | Meksika Kadınlar Liga MX Apertura Grup 1 | Atlante (K) - Juarez (K) | MS 2 | pending | 51/100
-- 2026-09-08 | Arjantin Premier Lig 2. Aşama | Barracas - Argentinos Jr | MS 2 | pending | 50/100
-- 2026-09-08 | Venezuela Premier Lig Clausura | Carabobo - Estudiantes Fc | 2.5 Üst | pending | 62/100
-- 2026-09-08 | Brezilya Serie A | Vitoria Bahia - Gremio | 2.5 Alt | pending | 71/100
-- 2026-09-08 | Kolombiya Primera A Clausura | Llaneros - Deportes Tolima | 2.5 Alt | pending | 57/100
-- 2026-09-08 | Venezuela Premier Lig Clausura | Ucv - Academia Puerto | 2.5 Alt | pending | 64/100
-- 2026-09-08 | Şili Premier Lig | Deportes Limac - Cobresal | MS 1 | pending | 54/100
-- 2026-09-08 | Arjantin Prim B Metro | Excur - Ituzaingo | 2.5 Alt | pending | 54/100
-- 2026-09-08 | Ekvador Pro Lig | Emelec - Manta | 2.5 Alt | pending | 65/100
-- 2026-09-08 | Ekvador Pro Lig | Mushuc Runa - Leones Del Nort | 2.5 Alt | pending | 64/100
-- 2026-09-08 | Ekvador Pro Lig | Orense - Guayaquil City | 2.5 Üst | pending | 68/100
-- 2026-09-08 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Instituto Cordo | MS 2 | pending | 45/100
-- 2026-09-08 | Kolombiya Kupa Son 16 Turu | Atletico Nacio - Deportivo Cali | 2.5 Üst | pending | 61/100
-- 2026-09-07 | Meksika Kadınlar Liga MX Apertura Grup 1 | Atlante (K) - Juarez (K) | MS 2 | pending | 51/100
+- 2026-09-08 | İngiltere FA Cup Eleme 1.Tur Tekrar | Fakenham Town - Ware | 2.5 Alt | pending | 48/100
+- 2026-09-08 | İngiltere FA Cup Eleme 1.Tur Tekrar | Havant And W. - Chippenham Town | 2.5 Alt | pending | 49/100
+- 2026-09-08 | İngiltere FA Cup Eleme 1.Tur Tekrar | Kettering - Wellingborough | MS 1 | pending | 52/100
+- 2026-09-08 | UEFA Şampiyonlar Ligi Lig Aşaması | Porto - Manchester City | MS 2 | pending | 54/100
+- 2026-09-08 | UEFA Şampiyonlar Ligi Lig Aşaması | B.Dortmund - Villarreal | MS 1 | pending | 50/100
+- 2026-09-08 | UEFA Şampiyonlar Ligi Lig Aşaması | Real Madrid - Inter | MS 1 | pending | 56/100
+- 2026-09-08 | UEFA Şampiyonlar Ligi Lig Aşaması | Lille - Real Betis | 2.5 Alt | pending | 61/100
+- 2026-09-08 | İngiltere Lig Kupası 3.Tur | Millwall - Newcastle Utd | MS 2 | pending | 62/100
+- 2026-09-08 | İngiltere Championship | Bolton - West Ham | MS 2 | pending | 70/100
+- 2026-09-08 | Copa Libertadores Çeyrek Final | Fluminense - Platense | MS 1 | pending | 58/100
+- 2026-09-08 | Copa Sudamericana Çeyrek Final | Santa Fe - Vasco Da Gama | 2.5 Alt | pending | 58/100
+- 2026-09-08 | ABD USL Kupası Yarı Final | Hartford Athle - Colorado Spring | 2.5 Üst | pending | 53/100
+- 2026-09-08 | ABD MLS Next Pro | New York City - New York Rb Ii | MS 2 | pending | 49/100
+- 2026-09-08 | ABD MLS Next Pro | Toronto Fc Ii - Columbus Crew I | MS 1 | pending | 44/100
+- 2026-09-08 | Brezilya Serie B | Cuiaba - Athletic Club | MS 1 | pending | 49/100
 
