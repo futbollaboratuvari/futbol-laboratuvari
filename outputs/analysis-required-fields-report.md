@@ -1,13 +1,12 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 120
-Tam analiz: 112
-Eksik analiz: 8
+Toplam analiz: 89
+Tam analiz: 82
+Eksik analiz: 7
 
-- Depor Tachira VS Rayo Zuliano: eksik score, confidence
-- Cruz Azul VS Santos Laguna: eksik score, confidence
 - Kuzey Kore U20 VS Portekiz U20 (K: eksik score, confidence
+- Persepolis VS Zob Ahan Fc: eksik score, confidence
 - Kosta Rika U20 VS Kolombiya U20 (: eksik score, confidence
 - İspanya U20 (K VS Nijerya U20 (K): eksik score, confidence
 - Daugava Riga VS Liepaja: eksik score, confidence

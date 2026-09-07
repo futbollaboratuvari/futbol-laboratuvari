@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 07.09.2026 07:55:45
+Oluşturma: 07.09.2026 07:58:12
 
 ## Özet
 
@@ -31,7 +31,7 @@ Oluşturma: 07.09.2026 07:55:45
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-07 | İspanya LaLiga | Elche - Real Sociedad | 2.5 Üst | pending | 68/100
+- 2026-09-07 | İspanya LaLiga | Elche - Real Sociedad | 2.5 Üst | pending | 66/100
 - 2026-09-07 | Romanya 1.Lig | Voluntari - Argesul Pitesti | MS 2 | pending | 44/100
 - 2026-09-07 | İran Persian Gulf Pro Lig | Nassaji Mazand - Kheybar Khorram | MS 2 | pending | 44/100
 - 2026-09-07 | İran Persian Gulf Pro Lig | Persepolis - Zob Ahan Fc | MS 1 | pending | 56/100

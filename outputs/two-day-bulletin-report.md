@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-07 / 2026-09-08
 Kaynak: fixtures.json
-Ham mac: 110
-Aktif mac: 91
+Ham mac: 89
+Aktif mac: 89
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 19
-Bugun: 80
+Bultenden dusurulen mac: 0
+Bugun: 78
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-09-07 04:15 | CONCACAF Ligler Kupası Final | Toluca - Monterrey | scheduled | -
-- 2026-09-07 04:30 | Honduras Ulusal Lig Apertura | Juticalpa - Genesis Pn | scheduled | -
 - 2026-09-07 16:00 | Kadınlar U20 Dünya Kupası Grup E | Kuzey Kore U20 - Portekiz U20 (K | scheduled | -
 - 2026-09-07 17:00 | Türkiye TFF 1. Lig | İstanbulspor - Iğdır Fk | scheduled | -
 - 2026-09-07 17:00 | Türkiye TFF 1. Lig | Esenler Eroksp - Kayserispor | scheduled | -
