@@ -2,12 +2,12 @@
 
 Gunler: 2026-09-07 / 2026-09-08
 Kaynak: fixtures.json
-Ham mac: 89
-Aktif mac: 89
+Ham mac: 132
+Aktif mac: 98
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 78
+Bultenden dusurulen mac: 34
+Bugun: 87
 Yarin: 11
 
 ## Baslamamis Maclar
@@ -21,6 +21,7 @@ Yarin: 11
 - 2026-09-07 18:00 | Yunanistan Süper Lig | Asteras Tripol - Iraklis 1908 | scheduled | -
 - 2026-09-07 18:00 | Slovakya 2.Lig | Zilina Ii - Slovan Bratisla | scheduled | -
 - 2026-09-07 18:00 | Letonya 1.Lig | Riga Ii - Skanste | scheduled | -
+- 2026-09-07 18:15 | İran Persian Gulf Pro Lig | Mes Shahr-E Ba - Malavan Fc | scheduled | -
 - 2026-09-07 18:30 | Suudi Arabistan Pro Lig | Al Khaleej - Al Riyadh | scheduled | -
 - 2026-09-07 18:30 | Suudi Arabistan 1.Lig | Al Adalah - Al-Saqer | scheduled | -
 - 2026-09-07 18:30 | İran Persian Gulf Pro Lig | Nassaji Mazand - Kheybar Khorram | scheduled | -
@@ -35,6 +36,7 @@ Yarin: 11
 - 2026-09-07 19:00 | Almanya Kadınlar Bundesliga | Union Berlin ( - E. Frankfurt (K | scheduled | -
 - 2026-09-07 19:00 | Norveç 3.Lig Grup 2 | Molde 2 - Aalesund B | scheduled | -
 - 2026-09-07 19:00 | Norveç 3.Lig Grup 6 | Drobak/Frogn - Lyn Oslo B | scheduled | -
+- 2026-09-07 19:00 | Tanzanya Kuu Bara Ligi | Azam Fc - Namungo | scheduled | -
 - 2026-09-07 19:05 | Suudi Arabistan 1.Lig | Al Jabalain - Al Wahda | scheduled | -
 - 2026-09-07 19:30 | İtalya Serie A | Cagliari - Lecce | scheduled | -
 - 2026-09-07 19:30 | Rusya Premier Lig | Rubin Kazan - Akhmat Grozny | scheduled | -
@@ -58,6 +60,9 @@ Yarin: 11
 - 2026-09-07 20:00 | Irak Premier Lig | Al Zawraa - Al Kahraba | scheduled | -
 - 2026-09-07 20:00 | Irak Premier Lig | Karbala - Al Jawiya | scheduled | -
 - 2026-09-07 20:00 | Litvanya 1.Lig | Zalgiris Ii - Neptüna Klaiped | scheduled | -
+- 2026-09-07 20:00 | Norveç 3.Lig Grup 3 | Gneist - Asane Ii | scheduled | -
+- 2026-09-07 20:00 | Norveç 3.Lig Grup 6 | Orn Horten - Sarpsborg 08 Ii | scheduled | -
+- 2026-09-07 20:00 | Malta Süper Kupa | Floriana - Valletta | scheduled | -
 - 2026-09-07 20:05 | İsveç Superettan | Orebro - Ostersund | scheduled | -
 - 2026-09-07 20:20 | Suudi Arabistan 1.Lig | Al Akhdoud - Al Najma | scheduled | -
 - 2026-09-07 20:30 | Bulgaristan 1.Lig | Dunav 2010 - Slavia Sofia | scheduled | -
@@ -79,6 +84,9 @@ Yarin: 11
 - 2026-09-07 21:30 | İtalya Serie C Grup C | Catania - Cosenza | scheduled | -
 - 2026-09-07 21:45 | İtalya Serie A | Udinese - Lazio | scheduled | -
 - 2026-09-07 21:45 | Fransa Ligue 2 | Nantes - Nancy | scheduled | -
+- 2026-09-07 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Carshalton Ath - Chertsey Town | scheduled | -
+- 2026-09-07 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Swindon Superm - Winslow United | scheduled | -
+- 2026-09-07 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Redditch Unite - Malvern Town | scheduled | -
 - 2026-09-07 22:00 | İngiltere 1.Lig | Bromley - Afc Wimbledon | scheduled | -
 - 2026-09-07 22:00 | İtalya Serie C Grup A | Alcione - Treviso | scheduled | -
 - 2026-09-07 22:00 | İtalya Serie C Grup A | Renate - Novara | scheduled | -
@@ -86,6 +94,7 @@ Yarin: 11
 - 2026-09-07 22:00 | İtalya Serie C Grup A | Trento Calcio - Lecco | scheduled | -
 - 2026-09-07 22:00 | İtalya Serie C Grup C | Picerno - Internazionale | scheduled | -
 - 2026-09-07 22:00 | Kanada Premier Lig | Hfx Wanderers - Cavalry | scheduled | -
+- 2026-09-07 22:00 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Penafiel U23 | scheduled | -
 - 2026-09-07 22:15 | Portekiz Premier Lig | Estoril - Arouca | scheduled | -
 - 2026-09-07 22:30 | İspanya LaLiga | Elche - Real Sociedad | scheduled | -
 - 2026-09-07 23:00 | Arjantin Ulusal Primera Lig | Nueva Chicago - Quilmes | scheduled | -
