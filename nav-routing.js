@@ -57,7 +57,7 @@
     if (!header) return;
     header.querySelectorAll(".fl-access-actions, .fl-access-flow-note").forEach((element) => element.remove());
     header.querySelectorAll("button, a, div, span").forEach((element) => {
-      const text = String(element.textContent || "").toLocaleLowerCase("tr-TR\");
+      const text = String(element.textContent || "").toLocaleLowerCase("tr-TR");
       if (text.includes("giriş yap") || text.includes("1 gün dene") || text.includes("1 gün ücretsiz dene")) {
         const container = element.closest(".fl-access-actions") || element;
         container.remove();
