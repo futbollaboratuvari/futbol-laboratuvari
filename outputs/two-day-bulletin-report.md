@@ -2,41 +2,15 @@
 
 Gunler: 2026-09-07 / 2026-09-08
 Kaynak: fixtures.json
-Ham mac: 98
-Aktif mac: 98
+Ham mac: 133
+Aktif mac: 73
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 87
-Yarin: 11
+Bultenden dusurulen mac: 60
+Bugun: 61
+Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-09-07 16:00 | Kadınlar U20 Dünya Kupası Grup E | Kuzey Kore U20 - Portekiz U20 (K | scheduled | -
-- 2026-09-07 17:00 | Türkiye TFF 1. Lig | İstanbulspor - Iğdır Fk | scheduled | -
-- 2026-09-07 17:00 | Türkiye TFF 1. Lig | Esenler Eroksp - Kayserispor | scheduled | -
-- 2026-09-07 17:00 | Mısır Premier Lig | Al Ittihad Al - Asyut Petroleum | scheduled | -
-- 2026-09-07 17:00 | Mısır Premier Lig | Al Qanah - El Geish | scheduled | -
-- 2026-09-07 17:00 | Belarus Premier Lig | Isloch - Arsenal | scheduled | -
-- 2026-09-07 17:30 | Romanya 1.Lig | Voluntari - Argesul Pitesti | scheduled | -
-- 2026-09-07 18:00 | Yunanistan Süper Lig | Asteras Tripol - Iraklis 1908 | scheduled | -
-- 2026-09-07 18:00 | Slovakya 2.Lig | Zilina Ii - Slovan Bratisla | scheduled | -
-- 2026-09-07 18:00 | Letonya 1.Lig | Riga Ii - Skanste | scheduled | -
-- 2026-09-07 18:15 | İran Persian Gulf Pro Lig | Mes Shahr-E Ba - Malavan Fc | scheduled | -
-- 2026-09-07 18:30 | Suudi Arabistan Pro Lig | Al Khaleej - Al Riyadh | scheduled | -
-- 2026-09-07 18:30 | Suudi Arabistan 1.Lig | Al Adalah - Al-Saqer | scheduled | -
-- 2026-09-07 18:30 | İran Persian Gulf Pro Lig | Nassaji Mazand - Kheybar Khorram | scheduled | -
-- 2026-09-07 18:30 | İran Persian Gulf Pro Lig | Persepolis - Zob Ahan Fc | scheduled | -
-- 2026-09-07 18:45 | Litvanya A Ligi | Hegelmann - Fk Panevezys | scheduled | -
-- 2026-09-07 19:00 | Polonya Ekstraklasa | Ks Wieczysta K - Zaglebie Lubin | scheduled | -
-- 2026-09-07 19:00 | Kadınlar U20 Dünya Kupası Grup E | Kosta Rika U20 - Kolombiya U20 ( | scheduled | -
-- 2026-09-07 19:00 | Kadınlar U20 Dünya Kupası Grup F | İspanya U20 (K - Nijerya U20 (K) | scheduled | -
-- 2026-09-07 19:00 | Finlandiya Ykkösliiga | Klubi 04 - Kapa | scheduled | -
-- 2026-09-07 19:00 | Letonya Virsliga | Daugava Riga - Liepaja | scheduled | -
-- 2026-09-07 19:00 | Letonya Virsliga | Riga Fc - Bfc Daugavpils | scheduled | -
-- 2026-09-07 19:00 | Almanya Kadınlar Bundesliga | Union Berlin ( - E. Frankfurt (K | scheduled | -
-- 2026-09-07 19:00 | Norveç 3.Lig Grup 2 | Molde 2 - Aalesund B | scheduled | -
-- 2026-09-07 19:00 | Norveç 3.Lig Grup 6 | Drobak/Frogn - Lyn Oslo B | scheduled | -
-- 2026-09-07 19:00 | Tanzanya Kuu Bara Ligi | Azam Fc - Namungo | scheduled | -
 - 2026-09-07 19:05 | Suudi Arabistan 1.Lig | Al Jabalain - Al Wahda | scheduled | -
 - 2026-09-07 19:30 | İtalya Serie A | Cagliari - Lecce | scheduled | -
 - 2026-09-07 19:30 | Rusya Premier Lig | Rubin Kazan - Akhmat Grozny | scheduled | -
@@ -98,6 +72,7 @@ Yarin: 11
 - 2026-09-07 22:15 | Portekiz Premier Lig | Estoril - Arouca | scheduled | -
 - 2026-09-07 22:30 | İspanya LaLiga | Elche - Real Sociedad | scheduled | -
 - 2026-09-07 23:00 | Arjantin Ulusal Primera Lig | Nueva Chicago - Quilmes | scheduled | -
+- 2026-09-08 00:00 | Brezilya Serie C Grup C | Paysandu - Brusque | scheduled | -
 - 2026-09-08 01:00 | Arjantin Premier Lig 2. Aşama | Barracas - Argentinos Jr | scheduled | -
 - 2026-09-08 01:00 | Venezuela Premier Lig Clausura | Carabobo - Estudiantes Fc | scheduled | -
 - 2026-09-08 02:00 | Brezilya Serie A | Vitoria Bahia - Gremio | scheduled | -
