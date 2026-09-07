@@ -3,7 +3,7 @@
 Durum: active
 Tahmin sayisi: 1500
 Hazir market hafizasi: 4/6
-Hazir lig hafizasi: 0/222
+Hazir lig hafizasi: 0/221
 Hazir lig+market hafizasi: 0/558
 Aktif ve guvenli agirlik: 1
 Guclendirilen toplam: 0
