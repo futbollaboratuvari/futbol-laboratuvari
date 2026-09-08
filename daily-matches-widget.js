@@ -400,12 +400,14 @@
         #daily-matches-widget .flw-main{padding:10px;overflow:visible}
         #daily-matches-widget .flw-table{min-width:0;border:0;background:transparent;box-shadow:none;overflow:visible}
         #daily-matches-widget .flw-head{display:none}
-        #daily-matches-widget .flw-row{grid-template-columns:repeat(7,minmax(0,1fr));gap:5px;margin:8px 0;padding:10px;border:1px solid #2e4755;border-radius:12px}
+        #daily-matches-widget .flw-row{grid-template-columns:repeat(12,minmax(0,1fr));gap:5px;margin:8px 0;padding:10px;border:1px solid #2e4755;border-radius:12px}
         #daily-matches-widget .flw-row>*{padding:0;border:0;min-width:0}
-        #daily-matches-widget .flw-row>:nth-child(1){grid-column:1/3;align-self:center}
-        #daily-matches-widget .flw-row>:nth-child(2){grid-column:3/-1;text-align:right;color:#acbeca;font-size:10px}
+        #daily-matches-widget .flw-row>:nth-child(1){grid-column:1/4;align-self:center}
+        #daily-matches-widget .flw-row>:nth-child(2){grid-column:4/-1;text-align:right;color:#acbeca;font-size:11px;overflow-wrap:anywhere}
         #daily-matches-widget .flw-row>:nth-child(3){grid-column:1/-1;padding:5px 0}
         #daily-matches-widget .flw-row>:last-child{grid-column:1/-1;margin-top:5px}
+        #daily-matches-widget .flw-row>:nth-child(n+4):nth-child(-n+6){grid-column:span 4}
+        #daily-matches-widget .flw-row>:nth-child(n+7):nth-child(-n+10){grid-column:span 3}
         #daily-matches-widget .flw-row>:nth-child(n+4):nth-child(-n+10)::before{display:block;text-align:center;color:#acbeca;font-size:10px;margin-bottom:5px}
         #daily-matches-widget .flw-row>:nth-child(4)::before{content:'1'}
         #daily-matches-widget .flw-row>:nth-child(5)::before{content:'X'}
@@ -414,8 +416,14 @@
         #daily-matches-widget .flw-row>:nth-child(8)::before{content:'Üst'}
         #daily-matches-widget .flw-row>:nth-child(9)::before{content:'Var'}
         #daily-matches-widget .flw-row>:nth-child(10)::before{content:'Yok'}
-        #daily-matches-widget .flw-row .flw-odd{padding:0;font-size:11px;min-height:40px}
-        #daily-matches-widget .flw-detail-toggle{min-height:40px;font-size:12px}
+        #daily-matches-widget .flw-row .flw-odd{padding:0;font-size:14px;min-height:44px}
+        #daily-matches-widget .flw-detail-toggle{min-height:44px;font-size:12px}
+        #daily-matches-widget .flw-teams b{font-size:14px;overflow-wrap:anywhere}
+        #daily-matches-widget .flw-code{font-size:10px;overflow-wrap:anywhere}
+        #daily-matches-widget .flw-detail-card,#daily-matches-widget .flw-card{min-width:0;overflow-wrap:anywhere}
+        #daily-matches-widget .flw-filter input,#daily-matches-widget .flw-filter select{min-width:0;width:100%;box-sizing:border-box;font-size:16px;min-height:44px}
+        #daily-matches-widget .flw-tabs button,#daily-matches-widget .flw-filter button,#daily-matches-widget .flw-detail-odd,#daily-matches-widget .flw-market-outcome,#daily-matches-widget .flw-detail-bridge-odd,#daily-matches-widget .flw-analyze,#daily-matches-widget .flw-clear,#daily-matches-widget .flw-more{min-height:44px}
+        #daily-matches-widget .flw-remove{min-width:44px;min-height:44px}
         #daily-matches-widget .flw-detail-row{padding:0 0 10px}
         #daily-matches-widget .flw-detail-grid,#daily-matches-widget .flw-market-grid{grid-template-columns:minmax(0,1fr)}
         #daily-matches-widget .flw-market-heading{flex-wrap:wrap}
