@@ -1,0 +1,65 @@
+name: High Odds HTFT Daily Scan
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/robot-analysis.json'
+      - 'scripts/generate-high-odds-htft.js'
+      - '.github/workflows/high-odds-htft.yml'
+  schedule:
+    - cron: '25 */3 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: high-odds-htft
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Generate high-odds HTFT cards
+        run: node scripts/generate-high-odds-htft.js
+
+      - name: Validate output
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('data/high-odds-htft.json', 'utf8'));
+          if (!Array.isArray(data.picks)) throw new Error('picks array missing');
+          if (!Array.isArray(data.market_scope) || !data.market_scope.includes('1/2') || !data.market_scope.includes('2/1')) throw new Error('market scope invalid');
+          if (data.picks.length > 3) throw new Error('more than 3 picks generated');
+          for (const pick of data.picks) {
+            if (!['1/2', '2/1'].includes(pick.market)) throw new Error(`invalid market: ${pick.market}`);
+            if (!pick.match_name || !pick.reason) throw new Error('incomplete pick');
+            if (!(Number(pick.model_odds) >= 11.75)) throw new Error('high-odds threshold failed');
+          }
+          console.log(`Validated ${data.picks.length} high-odds HTFT picks for ${data.date}.`);
+          NODE
+
+      - name: Commit generated data only
+        run: |
+          if git diff --quiet -- data/high-odds-htft.json; then
+            echo 'No high-odds data change.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/high-odds-htft.json
+          git commit -m 'chore: refresh daily high-odds HTFT [skip ci]'
+          git push
