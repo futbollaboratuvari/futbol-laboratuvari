@@ -30,7 +30,21 @@ assert.match(injectedCss, /#daily-matches-widget \.flw-table\{background:#0b1b28
 assert.match(injectedCss, /#daily-matches-widget \.flw-row\{background:#0b1b28/);
 assert.match(injectedCss, /@media\(max-width:640px\)/);
 assert.match(injectedCss, /#daily-matches-widget \.flw-table\{min-width:0/);
-assert.match(injectedCss, /grid-template-columns:repeat\(7,minmax\(0,1fr\)\)/);
+assert.match(injectedCss, /grid-template-columns:repeat\(12,minmax\(0,1fr\)\)/);
+assert.match(injectedCss, /nth-child\(n\+4\):nth-child\(-n\+6\)\{grid-column:span 4\}/);
+assert.match(injectedCss, /nth-child\(n\+7\):nth-child\(-n\+10\)\{grid-column:span 3\}/);
+assert.match(injectedCss, /font-size:14px;min-height:44px/);
+assert.match(injectedCss, /font-size:16px;min-height:44px/);
+for (const label of ["1", "X", "2", "Alt", "Üst", "Var", "Yok"]) {
+  assert.ok(injectedCss.includes(`content:'${label}'`), `mobile label retained: ${label}`);
+}
+// Geometry calculation from the CSS, not a browser layout measurement.
+for (const viewport of [320, 360, 375, 390, 414, 430, 640]) {
+  const margin = Math.max(10, Math.min(viewport * 0.03, 52));
+  const inner = viewport - margin * 2 - 2 - 20 - 22;
+  const fourMarketWidth = (inner - 15) / 4;
+  assert.ok(fourMarketWidth >= 44, `${viewport}px: odds touch width ${fourMarketWidth}`);
+}
 const match = {
   _id: "test-match", home: "Home", away: "Away", league: "Test League",
   date: "2099-01-01", time: "15:00", status: "scheduled",
