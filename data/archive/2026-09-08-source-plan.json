@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-08T09:15:06.311Z",
+  "generated_at": "2026-09-08T13:44:23.283Z",
   "date": "2026-09-08",
   "source_count": 8,
-  "match_count": 152,
+  "match_count": 155,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
     {
@@ -213,7 +213,7 @@
       "match_name": "Portimonense U VS Felgueiras U23",
       "league": "Portekiz U23 Ulusal Şampiyona",
       "start_time": "13:00",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "2.5 Üst",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -975,6 +975,108 @@
       ]
     },
     {
+      "match_name": "3 De Noviembre VS Sol De America",
+      "league": "Paraguay Intermedia Lig",
+      "start_time": "16:00",
+      "recommended_market": "2.5 Üst",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Paraguari VS Guairena",
+      "league": "Paraguay Intermedia Lig",
+      "start_time": "16:00",
+      "recommended_market": "2.5 Alt",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
       "match_name": "Real Madrid U1 VS Internazionale",
       "league": "UEFA Gençlik Ligi Lig Aşaması",
       "start_time": "17:00",
@@ -1080,7 +1182,7 @@
       "match_name": "Kosova Vushtrr VS Llapi",
       "league": "Kosova Süper Lig",
       "start_time": "17:00",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1298,7 +1400,7 @@
       "match_name": "Mesaimeer VS Khuraitiat",
       "league": "Katar 2.Lig",
       "start_time": "17:00",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1757,7 +1859,7 @@
       "match_name": "Erbil Sc VS Diala",
       "league": "Irak Premier Lig",
       "start_time": "18:45",
-      "recommended_market": "MS 1",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2420,7 +2522,7 @@
       "match_name": "Al Zamalek Cai VS Abu Qair",
       "league": "Mısır Premier Lig",
       "start_time": "20:00",
-      "recommended_market": "MS 1",
+      "recommended_market": "2.5 Üst",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2726,7 +2828,7 @@
       "match_name": "Al Anwar VS Al Taee",
       "league": "Suudi Arabistan 1.Lig",
       "start_time": "20:30",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2777,7 +2879,7 @@
       "match_name": "Al Ittihad (Ci VS Al Feiha",
       "league": "Suudi Arabistan Pro Lig",
       "start_time": "21:00",
-      "recommended_market": "MS 1",
+      "recommended_market": "Değerli market yok",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2879,7 +2981,7 @@
       "match_name": "Doncaster VS Huddersfield",
       "league": "İngiltere EFL Trophy Kuzey Grup H",
       "start_time": "21:00",
-      "recommended_market": "MS 2",
+      "recommended_market": "2.5 Üst",
       "data_gap_risk": "Orta",
       "source_plan": [
         {
@@ -5225,7 +5327,7 @@
       "match_name": "Annan VS Motherwell Ii",
       "league": "İskoçya Challenge Kupası Lig Aşaması",
       "start_time": "21:45",
-      "recommended_market": "Değerli market yok",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -5327,7 +5429,7 @@
       "match_name": "Clyde VS East Fife",
       "league": "İskoçya Challenge Kupası Lig Aşaması",
       "start_time": "21:45",
-      "recommended_market": "MS 2",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -6449,7 +6551,7 @@
       "match_name": "Salisbury VS Slough Town",
       "league": "İngiltere Ulusal Lig N / S Güney",
       "start_time": "21:45",
-      "recommended_market": "MS 1",
+      "recommended_market": "Değerli market yok",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -7415,11 +7517,62 @@
       ]
     },
     {
+      "match_name": "General Caball VS Resistencia",
+      "league": "Paraguay Intermedia Lig",
+      "start_time": "01:00",
+      "recommended_market": "2.5 Alt",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
       "match_name": "Hartford Athle VS Colorado Spring",
       "league": "ABD USL Kupası Yarı Final",
       "start_time": "02:00",
-      "recommended_market": "2.5 Üst",
-      "data_gap_risk": "Orta",
+      "recommended_market": "MS 1",
+      "data_gap_risk": "Yüksek",
       "source_plan": [
         {
           "name": "Mackolik",
