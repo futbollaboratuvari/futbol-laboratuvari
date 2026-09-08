@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.09.2026 07:32:53
+Oluşturma: 08.09.2026 07:52:58
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1121
-- Kazanan tahmin: 199
-- Kaybeden tahmin: 180
+- Bekleyen tahmin: 1109
+- Kazanan tahmin: 206
+- Kaybeden tahmin: 185
 - Lig sayısı: 238
 - Seçenek sayısı: 6
 
@@ -24,10 +24,10 @@ Oluşturma: 08.09.2026 07:32:53
 
 - KG Var: toplam 2, bekleyen 1, başarı %100, düz getiri %93, ağırlık 1
 - MS X: toplam 2, bekleyen 1, başarı %100, düz getiri %146, ağırlık 1
-- 2.5 Üst: toplam 232, bekleyen 134, başarı %60, düz getiri %2, ağırlık 1
-- 2.5 Alt: toplam 530, bekleyen 397, başarı %56, düz getiri %-8, ağırlık 1
-- MS 2: toplam 233, bekleyen 188, başarı %44, düz getiri %-19, ağırlık 1
-- MS 1: toplam 501, bekleyen 400, başarı %44, düz getiri %-29, ağırlık 0.94
+- 2.5 Üst: toplam 232, bekleyen 131, başarı %60, düz getiri %3, ağırlık 1
+- 2.5 Alt: toplam 530, bekleyen 391, başarı %56, düz getiri %-8, ağırlık 1
+- MS 1: toplam 501, bekleyen 399, başarı %44, düz getiri %-28, ağırlık 0.94
+- MS 2: toplam 233, bekleyen 186, başarı %43, düz getiri %-22, ağırlık 1
 
 ## Son Tahmin Kayıtları
 

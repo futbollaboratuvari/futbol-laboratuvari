@@ -1,13 +1,13 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 166
-Tam analiz: 152
+Toplam analiz: 152
+Tam analiz: 138
 Eksik analiz: 14
 
-- León (K) VS Puebla (K): eksik score, confidence
 - Negeri Sembila (0) VS (2) Kelantan Wts: eksik score, confidence
 - Imigresen (2) VS (2) Kedah Fa: eksik score, confidence
+- Real Madrid U1 VS Internazionale: eksik score, confidence
 - Djerv VS Haugesund: eksik score, confidence
 - Asker VS Stromsgodset: eksik score, confidence
 - Boreham Wood VS Newcastle (B): eksik score, confidence
