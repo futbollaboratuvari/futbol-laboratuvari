@@ -54,12 +54,30 @@ jobs:
 
       - name: Commit generated data only
         run: |
-          if git diff --quiet -- data/high-odds-htft.json; then
-            echo 'No high-odds data change.'
-            exit 0
-          fi
+          cp data/high-odds-htft.json /tmp/high-odds-htft.json
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/high-odds-htft.json
-          git commit -m 'chore: refresh daily high-odds HTFT [skip ci]'
-          git push
+
+          for attempt in 1 2 3; do
+            echo "Push attempt ${attempt}/3"
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/high-odds-htft.json data/high-odds-htft.json
+
+            if git diff --quiet -- data/high-odds-htft.json; then
+              echo 'No high-odds data change.'
+              exit 0
+            fi
+
+            git add data/high-odds-htft.json
+            git commit -m 'chore: refresh daily high-odds HTFT [skip ci]'
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo 'Remote changed while publishing; retrying on latest main.'
+            sleep 2
+          done
+
+          echo 'Unable to publish generated HTFT data after 3 attempts.' >&2
+          exit 1
