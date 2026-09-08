@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.09.2026 08:25:10
+Oluşturma: 08.09.2026 11:52:30
 
 ## Özet
 
@@ -31,6 +31,7 @@ Oluşturma: 08.09.2026 08:25:10
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-08 | İskoçya Challenge Kupası Lig Aşaması | Banks O Dee - Forfar | 2.5 Alt | pending | 49/100
 - 2026-09-08 | Kolombiya Primera A Clausura | Llaneros - Deportes Tolima | 2.5 Üst | pending | 61/100
 - 2026-09-08 | Arjantin Prim B Metro | Excur - Ituzaingo | 2.5 Üst | pending | 60/100
 - 2026-09-08 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Instituto Cordo | 2.5 Üst | pending | 56/100
@@ -45,5 +46,4 @@ Oluşturma: 08.09.2026 08:25:10
 - 2026-09-08 | Almanya Bölgesel Lig Güney Batı | Astoria Walldo - Stuttgarter Kic | 2.5 Alt | pending | 48/100
 - 2026-09-08 | Uganda Premier Lig | Kigezi Home Bo - Kampala City | 2.5 Alt | pending | 57/100
 - 2026-09-08 | Uganda Premier Lig | Bul - Ntugasaze | 2.5 Alt | pending | 55/100
-- 2026-09-08 | Suudi Arabistan 1.Lig | Damak - Al Ula | 2.5 Alt | pending | 53/100
 

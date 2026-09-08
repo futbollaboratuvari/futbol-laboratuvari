@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-08 / 2026-09-09
 Kaynak: fixtures.json
-Ham mac: 167
-Aktif mac: 152
+Ham mac: 152
+Aktif mac: 151
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 15
-Bugun: 141
+Bultenden dusurulen mac: 1
+Bugun: 140
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-09-08 11:45 | Malezya FA Kupası Son 16 Turu | Negeri Sembila (0) - (2) Kelantan Wts | scheduled | -
 - 2026-09-08 12:00 | UEFA Gençlik Ligi Lig Aşaması | Aek Athens U19 - Lask U19 | scheduled | -
 - 2026-09-08 13:00 | İspanya Federasyon Kupası Son 32 Turu | Ud San Fernand - Orihuela | scheduled | -
 - 2026-09-08 13:00 | Portekiz U23 Ulusal Şampiyona | Rio Ave U23 - Torreense U23 | scheduled | -

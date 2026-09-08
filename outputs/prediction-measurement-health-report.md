@@ -4,10 +4,10 @@ Durum: ok
 Toplam tahmin: 1500
 Olculen tahmin: 391
 Bekleyen tahmin: 1109
-Kazanan: 206
-Kaybeden: 185
+Kazanan: 207
+Kaybeden: 184
 Skoru olup pending kalan: 0
-Son finalizer kontrolu: 0
-Son finalizer guncelleme: 0
+Son finalizer kontrolu: 4
+Son finalizer guncelleme: 4
 
 Sonraki aksiyon: Olculen tahminler agirlik hesaplamasinda kullanilabilir.
