@@ -2,23 +2,22 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-08T14:24:29.507Z
+- Güncelleme: 2026-09-08T14:40:27.684Z
 - Ham maç sayısı: 150
 - Yarın bülteni maç sayısı: 13
 - Detay blok sayısı: 398
-- Aktif bülten maçı: 134
-- Bültenden düşürülen maç: 16
+- Aktif bülten maçı: 133
+- Bültenden düşürülen maç: 17
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Trans Narva - Flora Tallinn | Estonya Premium Lig | 17:30 | Veri bekleniyor | - | 4.53 | 5 |
 | Vaasa - Oulu | Finlandiya Veikkausliiga Şampiyonluk Grubu | 18:00 | Veri bekleniyor | - | 1.92 | 8 |
 | Turku - Seinajoen Jk | Finlandiya Veikkausliiga Küme Düşme Grubu | 18:00 | Veri bekleniyor | - | 2.35 | 8 |
 | Lahti - Mariehamn | Finlandiya Veikkausliiga Küme Düşme Grubu | 18:00 | Veri bekleniyor | - | 1.37 | 7 |
 | Ilves - Jaro | Finlandiya Veikkausliiga Küme Düşme Grubu | 18:00 | Veri bekleniyor | - | 1.44 | 8 |
 | Nomme Kalju - Nomme United | Estonya Premium Lig | 18:00 | Veri bekleniyor | - | 1.22 | 3 |
-| Al Ettifaq - Al Faisaly | Suudi Arabistan Pro Lig | 18:30 | Veri bekleniyor | - | 1.76 | 8 |
+| Al Ettifaq - Al Faisaly | Suudi Arabistan Pro Lig | 18:30 | Veri bekleniyor | - | 1.72 | 8 |
 | Erbil Sc - Diala | Irak Premier Lig | 18:45 | Veri bekleniyor | - | 1.65 | 8 |
 | Duhok - Gaz Al-Shamal | Irak Premier Lig | 18:45 | Veri bekleniyor | - | 1.49 | 7 |
 | Al Zulfi - Hajer | Suudi Arabistan 1.Lig | 18:50 | Veri bekleniyor | - | 1.48 | 7 |
@@ -41,10 +40,10 @@
 | Huesca (K) - Zaragoza (K) | İspanya De La Reina Kupası 1. Tur | 20:00 | Veri bekleniyor | - | 2.37 | 8 |
 | Al Anwar - Al Taee | Suudi Arabistan 1.Lig | 20:30 | Veri bekleniyor | - | 1.94 | 8 |
 | Alhama (K) - Fundacion Albac | İspanya De La Reina Kupası 1. Tur | 20:30 | Veri bekleniyor | - | 1.52 | 8 |
-| Al Ittihad (Ci - Al Feiha | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 1.23 | 6 |
+| Al Ittihad (Ci - Al Feiha | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 1.22 | 6 |
 | Al-Qadsiah - Al Ahli (Cidde) | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 1.82 | 8 |
 | Doncaster - Huddersfield | İngiltere EFL Trophy Kuzey Grup H | 21:00 | Veri bekleniyor | - | 2.74 | 8 |
-| Exeter - Tottenham U21 | İngiltere EFL Trophy Güney Grup A | 21:00 | Veri bekleniyor | - | 1.51 | 8 |
+| Exeter - Tottenham U21 | İngiltere EFL Trophy Güney Grup A | 21:00 | Veri bekleniyor | - | 1.48 | 8 |
 | Fleetwood Town - Burnley U21 | İngiltere Premier Lig Kupası Grup E | 21:00 | Veri bekleniyor | - | 2.35 | 6 |
 | Hull City U21 - Brentford U21 | İngiltere Premier Lig Kupası Grup J | 21:00 | Veri bekleniyor | - | 3.35 | 6 |
 | Atlanta United - Connecticut Uni | ABD MLS Next Pro | 21:00 | Veri bekleniyor | - | 1.92 | 6 |
@@ -65,7 +64,7 @@
 | Braintree - Fulham (B) | İngiltere Ulusal Lig Kupası Grup B | 21:30 | Veri bekleniyor | - | 2.57 | 6 |
 | Aldershot - West Ham (B) | İngiltere Ulusal Lig Kupası Grup B | 21:30 | Veri bekleniyor | - | 1.93 | 6 |
 | Bournemouth - Lincoln | İngiltere Lig Kupası 3.Tur | 21:45 | Veri bekleniyor | - | 1.12 | 6 |
-| Leyton Orient - Bradford | İngiltere Lig Kupası 3.Tur | 21:45 | Veri bekleniyor | - | 2.63 | 8 |
+| Leyton Orient - Bradford | İngiltere Lig Kupası 3.Tur | 21:45 | Veri bekleniyor | - | 2.56 | 8 |
 | Sunderland - Hull | İngiltere Lig Kupası 3.Tur | 21:45 | Veri bekleniyor | - | 1.51 | 8 |
 | Crystal Palace - Middlesbrough | İngiltere Lig Kupası 3.Tur | 21:45 | Veri bekleniyor | - | 1.61 | 8 |
 | Watford - Prest | İngiltere Championship | 21:45 | Veri bekleniyor | - | 1.9 | 8 |
@@ -94,7 +93,7 @@
 | Airdrieonians - St. Mirren Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Veri bekleniyor | - | 1.35 | 4 |
 | Clyde - East Fife | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Veri bekleniyor | - | 2.28 | 8 |
 | Larne Fc - Bangor Fc | Kuzey İrlanda Premiership | 21:45 | Veri bekleniyor | - | 1.06 | 5 |
-| Southport - Morecambe | İngiltere Ulusal Lig N / S Kuzey | 21:45 | Veri bekleniyor | - | 2.7 | 8 |
+| Southport - Morecambe | İngiltere Ulusal Lig N / S Kuzey | 21:45 | Veri bekleniyor | - | 2.78 | 8 |
 | Worksop Town - Bedford Town | İngiltere Ulusal Lig N / S Kuzey | 21:45 | Veri bekleniyor | - | 1.84 | 8 |
 | Chester - Merthyr Town | İngiltere Ulusal Lig N / S Kuzey | 21:45 | Veri bekleniyor | - | 1.45 | 7 |
 | Macclesfield - Scarborough Ath | İngiltere Ulusal Lig N / S Kuzey | 21:45 | Veri bekleniyor | - | 1.54 | 8 |
@@ -113,7 +112,7 @@
 | Dorking Wand. - Chelmsford | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 1.83 | 8 |
 | Maidenhead Utd - Torquay | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 2.54 | 8 |
 | Ebbsfleet - Hemel | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 1.66 | 8 |
-| Chesham United - Billericay Town | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 1.86 | 8 |
+| Chesham United - Billericay Town | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 1.88 | 8 |
 | Salisbury - Slough Town | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 1.16 | 6 |
 | Hampton Richmo - Farnborough | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 2.3 | 8 |
 | Woking - Southampton (B) | İngiltere Ulusal Lig Kupası Grup D | 21:45 | Veri bekleniyor | - | 1.72 | 6 |

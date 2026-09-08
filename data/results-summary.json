@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-09-08T14:18:55.514Z",
+  "generated_at": "2026-09-08T14:40:38.905Z",
   "date": "2026-09-08",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
   "completed_items": [
+    {
+      "id": "2026-09-08|guney kore k lig 1|incheon utd bucheon|2 5 ust|13 30",
+      "date": "2026-09-08",
+      "time": "13:30",
+      "title": "Incheon Utd - Bucheon",
+      "match": "Incheon Utd - Bucheon",
+      "market": "2.5 Üst",
+      "prediction": "2.5 Üst",
+      "odds": "1.95",
+      "score": "2-1",
+      "result_score": "2-1",
+      "confidence": "59%",
+      "confidence_score": "59%",
+      "model_score": 59,
+      "estimated_probability": 53.6,
+      "market_probability": 43.6,
+      "edge_percent": 10,
+      "data_completeness": 41,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-08T14:40:38.729Z",
+      "source": "Robot ham veri havuzu"
+    },
     {
       "id": "2026-09-08|guney kore k lig 1|incheon utd bucheon|2 5 alt|13 30",
       "date": "2026-09-08",
@@ -786,47 +813,20 @@
       "market_group_label": "Gol Marketleri",
       "finalized_at": "2026-09-07T20:41:33.450Z",
       "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-07|uruguay premier lig clausura|albion progreso|2 5 alt|21 00",
-      "date": "2026-09-07",
-      "time": "21:00",
-      "title": "Albion - Progreso",
-      "match": "Albion - Progreso",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "odds": "1.45",
-      "score": "0-1",
-      "result_score": "0-1",
-      "confidence": "67%",
-      "confidence_score": "67%",
-      "model_score": 67,
-      "estimated_probability": 64.5,
-      "market_probability": 57,
-      "edge_percent": 7.6,
-      "data_completeness": 43,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-07T20:41:33.450Z",
-      "source": "Robot ham veri havuzu"
     }
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 382,
-    "pending_count": 1118,
-    "won_count": 200,
+    "measured_count": 383,
+    "pending_count": 1117,
+    "won_count": 201,
     "lost_count": 182,
     "void_count": 0,
     "success_rate": 52,
-    "probability_sample_count": 382,
-    "brier_score": 0.2441,
+    "probability_sample_count": 383,
+    "brier_score": 0.244,
     "baseline_brier_score": 0.2494,
-    "brier_skill_score": 0.0214,
+    "brier_skill_score": 0.0215,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -848,10 +848,10 @@
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 191,
-        "won": 105,
+        "predictions": 192,
+        "won": 106,
         "average_probability": 54.4,
-        "observed_rate": 55
+        "observed_rate": 55.2
       },
       {
         "lower": 60,
@@ -862,15 +862,15 @@
         "observed_rate": 65.4
       }
     ],
-    "verified_at": "2026-09-08T14:18:55.350Z",
+    "verified_at": "2026-09-08T14:40:38.729Z",
     "groups": [
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 235,
-        "won": 135,
+        "measured": 236,
+        "won": 136,
         "lost": 100,
-        "success_rate": 57
+        "success_rate": 58
       },
       {
         "key": "match_result",

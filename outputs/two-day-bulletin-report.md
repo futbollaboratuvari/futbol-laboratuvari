@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-08 / 2026-09-09
 Kaynak: fixtures.json
-Ham mac: 176
-Aktif mac: 134
+Ham mac: 150
+Aktif mac: 133
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 42
-Bugun: 121
+Bultenden dusurulen mac: 17
+Bugun: 120
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-08 17:30 | Estonya Premium Lig | Trans Narva - Flora Tallinn | scheduled | -
 - 2026-09-08 18:00 | Finlandiya Veikkausliiga Şampiyonluk Grubu | Vaasa - Oulu | scheduled | -
 - 2026-09-08 18:00 | Finlandiya Veikkausliiga Küme Düşme Grubu | Turku - Seinajoen Jk | scheduled | -
 - 2026-09-08 18:00 | Finlandiya Veikkausliiga Küme Düşme Grubu | Lahti - Mariehamn | scheduled | -
