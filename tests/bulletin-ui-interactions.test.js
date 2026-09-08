@@ -9,20 +9,28 @@ const read = (name) => fs.readFileSync(path.join(__dirname, "..", name), "utf8")
 const main = { innerHTML: "" };
 const slip = { innerHTML: "" };
 const handlers = {};
+let injectedCss = "";
 const windowMock = { location: { hostname: "localhost" } };
 const source = read("daily-matches-widget.js");
 const boot = "  draw();\n  load();\n  app.timer = setInterval(load, 60000);";
 assert.ok(source.includes(boot), "widget boot hook must be present");
-vm.runInNewContext(source.replace(boot, ""), {
+vm.runInNewContext(source.replace(boot, "  style();"), {
   window: windowMock,
   document: {
     querySelector: (selector) => selector === ".flw-main" ? main : selector === ".flw-slip" ? slip : null,
     addEventListener: (type, fn) => { handlers[type] = fn; },
     removeEventListener() {},
+    createElement: () => ({ textContent: "" }),
+    head: { appendChild: (element) => { injectedCss = element.textContent; } },
   },
   setInterval, clearInterval,
 });
 const app = windowMock.__flDailyWidget;
+assert.match(injectedCss, /#daily-matches-widget \.flw-table\{background:#0b1b28/);
+assert.match(injectedCss, /#daily-matches-widget \.flw-row\{background:#0b1b28/);
+assert.match(injectedCss, /@media\(max-width:640px\)/);
+assert.match(injectedCss, /#daily-matches-widget \.flw-table\{min-width:0/);
+assert.match(injectedCss, /grid-template-columns:repeat\(7,minmax\(0,1fr\)\)/);
 const match = {
   _id: "test-match", home: "Home", away: "Away", league: "Test League",
   date: "2099-01-01", time: "15:00", status: "scheduled",
