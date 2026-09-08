@@ -147,7 +147,7 @@
     section.innerHTML = `
       <div class="section-heading reveal visible">
         <p class="eyebrow">Manuel Kupon Hazırlama</p>
-        <h2>Nesine Kupon Asistanı</h2>
+        <h2>Kupon Asistanı</h2>
         <p>Futbol Laboratuvarı'nın doğrulanmış günlük seçimlerini risk profiline göre sıralar ve kopyalanabilir kupon listesi hazırlar.</p>
       </div>
       <div class="nka-panel">
@@ -163,7 +163,7 @@
         </div>
         <div class="nka-status" data-nka-status>Günlük veri hazırlanıyor…</div>
         <div data-nka-output></div>
-        <div class="nka-boundary"><strong>Manuel onay zorunlu:</strong> Bu asistan Nesine hesabına giriş yapmaz, şifre saklamaz ve kuponu otomatik oynamaz. Bahis kayıp riski taşır; kesin sonuç garantisi yoktur.</div>
+        <div class="nka-boundary"><strong>Manuel onay zorunlu:</strong> Bu asistan bahis hesabına giriş yapmaz, şifre saklamaz ve kuponu otomatik oynamaz. Bahis kayıp riski taşır; kesin sonuç garantisi yoktur.</div>
       </div>`;
     const anchor = document.getElementById('robot-analizleri');
     if (anchor?.parentNode) anchor.insertAdjacentElement('afterend', section);
