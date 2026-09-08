@@ -204,37 +204,55 @@ function buildCouponEmail(entry) {
 
   const htmlLegs = coupon.selected_matches.map((leg, index) => {
     const model = leg.model_score ?? leg.confidence_score ?? leg.analysis_score;
-    const metrics = [
-      `<strong>Tahmini oran:</strong> ${escapeHtml(cleanText(leg.estimated_odds, 40) || "-")}`,
-    ];
-    if (finiteNumber(model) !== null) metrics.push(`<strong>Model / güven:</strong> ${escapeHtml(displayMetric(model, "%"))}`);
-    if (finiteNumber(leg.edge_percent) !== null) metrics.push(`<strong>Edge:</strong> ${escapeHtml(displayMetric(leg.edge_percent, "%"))}`);
     const legReason = cleanText(leg.robot_reason, 300);
-    return `<tr>
-      <td style="padding:12px;border-bottom:1px solid #dbe4ee;vertical-align:top">${index + 1}</td>
-      <td style="padding:12px;border-bottom:1px solid #dbe4ee;vertical-align:top"><strong>${escapeHtml(cleanText(leg.match_name, 200))}</strong>${legReason ? `<br><span style="color:#526274">${escapeHtml(legReason)}</span>` : ""}</td>
-      <td style="padding:12px;border-bottom:1px solid #dbe4ee;vertical-align:top">${escapeHtml(cleanText(leg.recommended_market, 120))}</td>
-      <td style="padding:12px;border-bottom:1px solid #dbe4ee;vertical-align:top">${metrics.join("<br>")}</td>
-    </tr>`;
+    const modelValue = finiteNumber(model) !== null ? displayMetric(model, "%") : "-";
+    const edgeValue = finiteNumber(leg.edge_percent) !== null ? displayMetric(leg.edge_percent, "%") : "-";
+    return `<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="width:100%;margin:0 0 14px;border-collapse:separate;border-spacing:0;background:#f8fbff;border:1px solid #dbe4ee;border-radius:12px">
+      <tr>
+        <td style="padding:16px 16px 10px">
+          <div style="font-size:12px;font-weight:700;color:#6b7788;letter-spacing:.04em">MAÇ ${index + 1}</div>
+          <div style="font-size:18px;line-height:1.35;font-weight:700;color:#102033;margin-top:5px">${escapeHtml(cleanText(leg.match_name, 200))}</div>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:0 16px 12px">
+          <span style="display:inline-block;background:#071426;color:#ffffff;border-radius:999px;padding:7px 11px;font-size:13px;font-weight:700">${escapeHtml(cleanText(leg.recommended_market, 120))}</span>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:0 16px 14px">
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="width:100%;border-collapse:collapse;background:#ffffff;border:1px solid #e4ebf2;border-radius:9px">
+            <tr>
+              <td width="33.33%" style="padding:10px 8px;text-align:center;border-right:1px solid #e4ebf2"><div style="font-size:11px;color:#6b7788">ORAN</div><div style="font-size:16px;font-weight:700;color:#102033;margin-top:3px">${escapeHtml(cleanText(leg.estimated_odds, 40) || "-")}</div></td>
+              <td width="33.33%" style="padding:10px 8px;text-align:center;border-right:1px solid #e4ebf2"><div style="font-size:11px;color:#6b7788">MODEL</div><div style="font-size:16px;font-weight:700;color:#102033;margin-top:3px">${escapeHtml(modelValue)}</div></td>
+              <td width="33.33%" style="padding:10px 8px;text-align:center"><div style="font-size:11px;color:#6b7788">EDGE</div><div style="font-size:16px;font-weight:700;color:#102033;margin-top:3px">${escapeHtml(edgeValue)}</div></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      ${legReason ? `<tr><td style="padding:0 16px 16px"><div style="background:#eef3f8;border-radius:9px;padding:11px 12px;color:#526274;font-size:13px;line-height:1.5"><strong style="color:#102033">Robot gerekçesi:</strong> ${escapeHtml(legReason)}</div></td></tr>` : ""}
+    </table>`;
   }).join("");
 
   const html = `<!doctype html>
   <html lang="tr"><body style="margin:0;background:#f3f6f9;color:#102033;font-family:Arial,Helvetica,sans-serif">
-    <div style="max-width:760px;margin:0 auto;padding:24px">
+    <div style="max-width:720px;margin:0 auto;padding:24px">
       <div style="background:#071426;color:#fff;border-radius:14px 14px 0 0;padding:22px">
         <div style="color:#ffd166;font-size:13px;font-weight:700;letter-spacing:.08em">FUTBOL LABORATUVARI</div>
         <h1 style="font-size:24px;margin:8px 0 0">Yeni Kupon</h1>
       </div>
       <div style="background:#fff;border:1px solid #dbe4ee;border-top:0;border-radius:0 0 14px 14px;padding:22px">
-        <p><strong>Kupon tipi / risk profili:</strong> ${escapeHtml(couponType)} / ${escapeHtml(risk)}</p>
-        <table role="presentation" style="width:100%;border-collapse:collapse;font-size:14px">
-          <thead><tr style="background:#edf3f8;text-align:left"><th style="padding:10px">#</th><th style="padding:10px">Maç</th><th style="padding:10px">Önerilen market</th><th style="padding:10px">Veriler</th></tr></thead>
-          <tbody>${htmlLegs}</tbody>
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="width:100%;margin:0 0 18px;border-collapse:separate;border-spacing:0;background:#edf3f8;border-radius:12px">
+          <tr>
+            <td width="34%" style="padding:12px;text-align:center;border-right:1px solid #dbe4ee"><div style="font-size:11px;color:#6b7788">KUPON</div><div style="font-size:14px;font-weight:700;color:#102033;margin-top:4px">${escapeHtml(couponType)}</div></td>
+            <td width="33%" style="padding:12px;text-align:center;border-right:1px solid #dbe4ee"><div style="font-size:11px;color:#6b7788">RİSK</div><div style="font-size:14px;font-weight:700;color:#102033;margin-top:4px">${escapeHtml(risk)}</div></td>
+            <td width="33%" style="padding:12px;text-align:center"><div style="font-size:11px;color:#6b7788">TOPLAM ORAN</div><div style="font-size:18px;font-weight:700;color:#102033;margin-top:3px">${escapeHtml(totalOdds)}</div></td>
+          </tr>
         </table>
-        <p><strong>Toplam oran:</strong> ${escapeHtml(totalOdds)}<br><strong>Üretildiği tarih ve saat:</strong> ${escapeHtml(producedAt)}</p>
-        <p><strong>Kısa robot gerekçesi:</strong> ${escapeHtml(reason)}</p>
-        <p style="background:#fff4d6;border-left:4px solid #e59b00;padding:12px"><strong>${escapeHtml(DISCLAIMER)}</strong></p>
-        <p style="color:#6b7788;font-size:12px">Kupon kimliği: ${escapeHtml(couponId)}</p>
+        ${htmlLegs}
+        <div style="margin-top:4px;padding:14px 0;border-top:1px solid #dbe4ee;border-bottom:1px solid #dbe4ee;font-size:13px;line-height:1.55;color:#526274"><strong style="color:#102033">Üretildiği tarih ve saat:</strong> ${escapeHtml(producedAt)}<br><strong style="color:#102033">Kısa robot gerekçesi:</strong> ${escapeHtml(reason)}</div>
+        <p style="background:#fff4d6;border-left:4px solid #e59b00;padding:12px;line-height:1.5"><strong>${escapeHtml(DISCLAIMER)}</strong></p>
+        <p style="color:#6b7788;font-size:11px;word-break:break-all">Kupon kimliği: ${escapeHtml(couponId)}</p>
       </div>
     </div>
   </body></html>`;
