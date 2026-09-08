@@ -2,10 +2,11 @@
 
 Durum: warning
 Toplam analiz: 152
-Tam analiz: 138
-Eksik analiz: 14
+Tam analiz: 137
+Eksik analiz: 15
 
 - Negeri Sembila (0) VS (2) Kelantan Wts: eksik score, confidence
+- Olympic Kingsw VS Perth: eksik score, confidence
 - Imigresen (2) VS (2) Kedah Fa: eksik score, confidence
 - Real Madrid U1 VS Internazionale: eksik score, confidence
 - Djerv VS Haugesund: eksik score, confidence

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T09:07:35.340Z",
+  "generated_at": "2026-09-08T09:52:20.821Z",
   "date": "2026-09-08",
   "engine": "Futbol Laboratuvarı PRO 13",
   "model_version": "pro13-btts-conditioned-v3",
@@ -235,7 +235,7 @@
       "value_label": "Piyasa ile Uyumlu",
       "band_attention_level": "Orta",
       "band_attention_notes": [
-        "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı."
+        "Kadro istihbaratı eşleşmedi; düşük risk varsayılmadı."
       ],
       "squad_risk_level": "Belirsiz",
       "lineup_risk_level": "Belirsiz",
@@ -243,114 +243,11 @@
       "named_player_count": 0,
       "team_intelligence": {
         "squad_risk_level": "Belirsiz",
-        "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
-        "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Aek Athens U19 için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Lask U19 için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
-        "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
-        "team_status": {
-          "home": {
-            "transfers_in": [],
-            "transfers_out": [],
-            "injured_players": [],
-            "suspended_players": [],
-            "doubtful_players": [],
-            "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
-            "player_impacts": [],
-            "transfer_details": {
-              "in": [],
-              "out": []
-            },
-            "availability_checked": false,
-            "lineup_confirmed": false,
-            "provider_team_id": null,
-            "injury_news_count": 0,
-            "suspension_news_count": 0,
-            "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
-            "transfer_out_news_count": 0,
-            "verified_source_count": 0,
-            "structured_fact_source_count": 0
-          },
-          "away": {
-            "transfers_in": [],
-            "transfers_out": [],
-            "injured_players": [],
-            "suspended_players": [],
-            "doubtful_players": [],
-            "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
-            "player_impacts": [],
-            "transfer_details": {
-              "in": [],
-              "out": []
-            },
-            "availability_checked": false,
-            "lineup_confirmed": false,
-            "provider_team_id": null,
-            "injury_news_count": 0,
-            "suspension_news_count": 0,
-            "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
-            "transfer_out_news_count": 0,
-            "verified_source_count": 0,
-            "structured_fact_source_count": 0
-          }
-        },
-        "lineup": {
-          "home": {
-            "team_name": "Aek Athens U19",
-            "formation": "-",
-            "starting_11_count": 0,
-            "substitutes_count": 0,
-            "starting_11_strength": 0,
-            "bench_strength": 0,
-            "strength_label": "Veri Yok",
-            "top_starting_players": [],
-            "top_bench_players": [],
-            "unavailable_players": [],
-            "important_missing_count": 0,
-            "data_available": false,
-            "availability_checked": false,
-            "lineup_confirmed": false,
-            "data_status": "no_verified_data",
-            "note": "",
-            "source_note": ""
-          },
-          "away": {
-            "team_name": "Lask U19",
-            "formation": "-",
-            "starting_11_count": 0,
-            "substitutes_count": 0,
-            "starting_11_strength": 0,
-            "bench_strength": 0,
-            "strength_label": "Veri Yok",
-            "top_starting_players": [],
-            "top_bench_players": [],
-            "unavailable_players": [],
-            "important_missing_count": 0,
-            "data_available": false,
-            "availability_checked": false,
-            "lineup_confirmed": false,
-            "data_status": "no_verified_data",
-            "note": "",
-            "source_note": ""
-          }
-        },
-        "home_edge": 0,
-        "away_edge": 0,
-        "momentum_difference": 0,
-        "point_difference": 0,
-        "goal_profile": "unknown",
-        "high_scoring_watch": false,
+        "squad_verified_team_count": 0,
+        "named_player_count": 0,
+        "team_status": null,
+        "lineup": null,
         "adjustment": {
           "original_model_score": 53,
           "penalty": 4,
@@ -12718,11 +12615,11 @@
                 "categories": [
                   "transfer_out"
                 ],
-                "age_days": 7,
+                "age_days": 7.4,
                 "confidence": "medium"
               }
             ],
-            "auto_risk_score": 1,
+            "auto_risk_score": 0.8,
             "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
@@ -13490,7 +13387,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 3.2,
+                "age_days": 3.6,
                 "confidence": "medium"
               }
             ],
@@ -17214,7 +17111,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 5.5,
+                "age_days": 5.9,
                 "confidence": "medium"
               }
             ],
@@ -17933,10 +17830,10 @@
       "team_intelligence": {
         "squad_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 1,
+        "squad_signal_team_count": 0,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Turku transfer gündemi: +2 / -0 haber sinyali | Seinajoen Jk için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Turku için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Seinajoen Jk için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -17946,33 +17843,10 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "Otomatik açık kaynak: Sports247 Nigeria, dailypost.ng",
-            "evidence": [
-              {
-                "title": "Former Flying Eagles Captain Daniel Bameyi Joins Finnish Club Inter Turku II - Sports247 Nigeria",
-                "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMmtESkFCLXVDYU5KclhhMGY1UW5IeWJRQmt1eWNsQXdNbkVrS2UtN1hvUG9CSFljNkE4S29mYV9QUnZFbmZMT2VkS2RXRzVzaUVtQnM4cGhRYnd4Y0psbU5wMUJsWnNzeXRfWW9KSmF5RUVrRXh6c1gzaVJWaEc5UzVkZ0thNnZJY2doWVZZYUxxRXZDbWNUQktMalVwZjdVZXU1UA?oc=5",
-                "source_name": "Sports247 Nigeria",
-                "published_at": "Sun, 30 Aug 2026 08:16:59 GMT",
-                "categories": [
-                  "transfer_in"
-                ],
-                "age_days": 8.7,
-                "confidence": "medium"
-              },
-              {
-                "title": "Transfer: Jephta joins Finnish club FC Inter Turku on permanent deal after successful loan spell - dailypost.ng",
-                "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRC1TakpNSENOa1Znb3JBVFQ4YzNaYW1NcDlZZE9MRVhzUFo3LXNiNTExT1o2WDZqT2NFNVh3V0dFSnJ4eTBnUlR0T3Y4M1FkUkM4RC02WnQ0VXNTT3RWUHBuTk5SYVJOV3ZUQTh2SllTazlBdHQ3bVFHUm45SFlnZE93Q0FDcVRmb2hUMkVvcENlaGN6QjNLc2pfWHd4QmtmVG40VHYybUVqVW9wV2pGRE5RTWJBbjNab3puZFFnZ0hKdXVpbWRB?oc=5",
-                "source_name": "dailypost.ng",
-                "published_at": "Wed, 24 Jun 2026 07:00:00 GMT",
-                "categories": [
-                  "transfer_in"
-                ],
-                "age_days": 75.7,
-                "confidence": "medium"
-              }
-            ],
+            "source_note": "",
+            "evidence": [],
             "auto_risk_score": 0,
-            "data_status": "public_news_signal",
+            "data_status": "no_verified_data",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -17984,7 +17858,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 2,
+            "transfer_in_news_count": 0,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -19617,7 +19491,7 @@
         "squad_signal_team_count": 1,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Ilves için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Jaro transfer gündemi: +1 / -1 haber sinyali",
+        "squad_comment": "Ilves için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Jaro transfer gündemi: +1 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -19654,7 +19528,7 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "Otomatik açık kaynak: BBC, AfricaSoccer.com",
+            "source_note": "Otomatik açık kaynak: BBC",
             "evidence": [
               {
                 "title": "Jonathan Lawson: Watford youngster joins Finnish club FF Jaro - BBC",
@@ -19664,22 +19538,11 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 55.7,
-                "confidence": "medium"
-              },
-              {
-                "title": "Emmanuel Mendy: Gambian winger leaves FF Jaro and becomes free agent - AfricaSoccer.com",
-                "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd0RtUC1ud0xFNFJ1QXpGOFZGX3dJYkg0YVZhRUE2ejlVZElBZmt2bnkyblFZd2ZZeUdmU1RBS2I4Ni1MYzRhaTJYLUFCSTd0N29tODVORzJNNkQ3VmVvbVFfTEc1YzMyeWZScWxoMjljN0JFblFJZWN6eU9KSWh3Q2lpYkdfbHh1SFRtQWhTNzNmVDEtSTZUdQ?oc=5",
-                "source_name": "AfricaSoccer.com",
-                "published_at": "Thu, 16 Jul 2026 07:00:00 GMT",
-                "categories": [
-                  "transfer_out"
-                ],
-                "age_days": 53.7,
+                "age_days": 56.1,
                 "confidence": "medium"
               }
             ],
-            "auto_risk_score": 0.3,
+            "auto_risk_score": 0,
             "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
@@ -19693,7 +19556,7 @@
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
             "transfer_in_news_count": 1,
-            "transfer_out_news_count": 1,
+            "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
           }
@@ -21010,7 +20873,7 @@
                 "categories": [
                   "transfer_out"
                 ],
-                "age_days": 109.7,
+                "age_days": 110.1,
                 "confidence": "medium"
               }
             ],
@@ -21923,7 +21786,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 66.7,
+                "age_days": 67.1,
                 "confidence": "medium"
               },
               {
@@ -21934,7 +21797,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 58.3,
+                "age_days": 58.7,
                 "confidence": "medium"
               }
             ],
@@ -22703,7 +22566,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 54.5,
+                "age_days": 54.9,
                 "confidence": "medium"
               }
             ],
@@ -22732,7 +22595,7 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "Otomatik açık kaynak: Ghana Sports Online, Modern Ghana, ghanasoccernet.com",
+            "source_note": "Otomatik açık kaynak: Ghana Sports Online, Modern Ghana, GhanaSoccernet",
             "evidence": [
               {
                 "title": "OFFICIAL: Albert Amoah joins Saudi side Hajer Club on permanent deal - Ghana Sports Online",
@@ -22742,7 +22605,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 24.7,
+                "age_days": 25.1,
                 "confidence": "medium"
               },
               {
@@ -22753,18 +22616,18 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 24.7,
+                "age_days": 25.1,
                 "confidence": "medium"
               },
               {
-                "title": "Former Asante Kotoko striker Albert Amoah joins Saudi side Hajer FC - ghanasoccernet.com",
+                "title": "Former Asante Kotoko striker Albert Amoah joins Saudi side Hajer FC - GhanaSoccernet",
                 "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcGZvcnhXZFA0Z09rQVlQQUE2aDlMSTM2V2hETjNOS2w2RnF2VGY1aEFiZzdOYmpsTThnQjBqNXcxa05oVUNpZDQ1VUlCYWRaZnZqNHFyVll4RkNsNUd5alRZWTloZzhHVEpRam5WVFQzeU5Qb0M2WUxFTnJidnItRHI3a2xBMGE5N2YxOVBBbEFGa0dublJaLXdWRmh2UlN2U2tSTFNn?oc=5",
-                "source_name": "ghanasoccernet.com",
+                "source_name": "GhanaSoccernet",
                 "published_at": "Fri, 14 Aug 2026 07:00:00 GMT",
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 24.7,
+                "age_days": 25.1,
                 "confidence": "medium"
               }
             ],
@@ -25010,7 +24873,7 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "Otomatik açık kaynak: Montana State University Athletics, Bozeman Daily Chronicle, 406mtsports.com",
+            "source_note": "Otomatik açık kaynak: Montana State University Athletics, Bozeman Daily Chronicle, 406 Sports",
             "evidence": [
               {
                 "title": "Bruin Fleischmann, Alec Wills Officially Join Bobcat Football Program - Montana State University Athletics",
@@ -25020,7 +24883,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 91.7,
+                "age_days": 92.1,
                 "confidence": "medium"
               },
               {
@@ -25031,18 +24894,18 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 9,
+                "age_days": 9.4,
                 "confidence": "medium"
               },
               {
-                "title": "Montana Grizzlies sign All-Frontier defensive lineman with FBS experience - 406mtsports.com",
+                "title": "Montana Grizzlies sign All-Frontier defensive lineman with FBS experience - 406 Sports",
                 "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNTk8xa1dVaEpQTWVtR2VKNVNqZ2lDVXlmMmpHNDNzS3J5b1hkX2RKX2ZIN2wxSmJSN3RYV01RNDRNdk5DTWN0Mm9ZWW1ZX3JxaDh2V2hHWFY3R2ZCOS1Nb1ZrWTkzeEl2U0ZFZjAwanNXbERlSVhpd0t6QzN5Ulp4Ny1mcDN6UkY0NVRrTVJwSWNyUmU1eHJ6bWZ6VnBPQTVBTjZpeUZYSkpnXzdIMEVZNE5QaHhTeWJlVy1nTXU4djM1MFZ0WUF3bldHdVJYNW1wZ0JnSWJGNnNFbVM2THNSZVVkbS1HSGh3U09ZTmFaZ3lDVjNhX1htQ1pfVDhIRW1xTzk2WVJVM3NETFZBenRwbkdCdHhUQUV3YlRyY19BVVpQQdIBpwJBVV95cUxNM21FdDhuTFpVUjRxY3lJSmNvcVFBODVmQnlXRFZocDdlb3RNNk84U0xYYzEtelFPV3NCUERWVi1QUXYwWmtBeS1mV1FIYzdEQmZ0NktmUU5NOHM1YVVORUxUMENSWHFna29kWW9RMG1HZUNyNUJoTkFvQUVvLTBIb1lKV3YyLU5lYTFlV2N4bFVPTXZSSlRWMUg4YlBWakZSRXNHMDdwRjh2MVNhS191Nm4zYTBJTVNmTGJ4ejA5TTFlRUd2aVpWenBOa3BLS3YtNVNKS3RhOG5STm1oUDd1bUoxSHY3Nml2Umh0YWFNUXBxeVRvdHVPdHNTbzczdVBSUWc0QW5aUTBNS01CQ25BX21WOEVTUlZ5czdlSFhReW41QVFPdENV?oc=5",
-                "source_name": "406mtsports.com",
+                "source_name": "406 Sports",
                 "published_at": "Fri, 05 Jun 2026 07:00:00 GMT",
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 94.7,
+                "age_days": 95.1,
                 "confidence": "medium"
               }
             ],
@@ -34180,19 +34043,22 @@
       "league": "Suudi Arabistan Pro Lig",
       "start_time": "21:00",
       "recommended_market": "MS 1",
-      "confidence_score": "48%",
-      "model_score": 48,
-      "analysis_score": 48,
+      "confidence_score": "60%",
+      "model_score": 60,
+      "analysis_score": 60,
       "score_type": "signal_strength",
-      "estimated_probability": 46.7,
+      "estimated_probability": 50.4,
       "market_probability": 46.7,
-      "edge_percent": 0,
-      "data_completeness": 43,
-      "evidence_mode": "market_baseline",
-      "independent_evidence": false,
-      "probability_source": [],
+      "edge_percent": 3.7,
+      "data_completeness": 59,
+      "evidence_mode": "market_plus_independent",
+      "independent_evidence": true,
+      "probability_source": [
+        "takım formu",
+        "Poisson gol modeli"
+      ],
       "model_version": "pro13-btts-conditioned-v3",
-      "risk_level": "Yüksek",
+      "risk_level": "Orta",
       "estimated_odds": "1.77",
       "available_odds": {
         "ms1": "1.77",
@@ -34614,7 +34480,7 @@
         }
       ],
       "odds_source": "Robot ham veri havuzu",
-      "value_label": "Piyasa ile Uyumlu",
+      "value_label": "Değerli",
       "band_attention_level": "Orta",
       "band_attention_notes": [
         "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı."
@@ -34781,16 +34647,16 @@
         "goal_profile": "yuksek",
         "high_scoring_watch": true,
         "adjustment": {
-          "original_model_score": 52,
+          "original_model_score": 64,
           "penalty": 4,
-          "adjusted_model_score": 48,
+          "adjusted_model_score": 60,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
       "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 1 | Oran: 1.77 | Veri tipi: standard",
       "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Yüksek",
+      "suitable_coupon_type": "Sadece izleme",
+      "data_gap_risk": "Orta",
       "status": "scheduled",
       "expected_scores": [
         "1-0",
@@ -34973,9 +34839,9 @@
             "confidence_adjustment": 0
           }
         },
-        "raw_weighted_score": 50,
-        "bounded_score": 52,
-        "max_score_shift": 3
+        "raw_weighted_score": 64,
+        "bounded_score": 64,
+        "max_score_shift": 6
       }
     },
     {
@@ -85698,14 +85564,14 @@
       "league": "Copa Libertadores Çeyrek Final",
       "start_time": "01:00",
       "recommended_market": "2.5 Üst",
-      "confidence_score": "63%",
-      "model_score": 63,
-      "analysis_score": 63,
+      "confidence_score": "61%",
+      "model_score": 61,
+      "analysis_score": 61,
       "score_type": "signal_strength",
-      "estimated_probability": 43.6,
+      "estimated_probability": 42.9,
       "market_probability": 34.9,
-      "edge_percent": 8.8,
-      "data_completeness": 80,
+      "edge_percent": 8.1,
+      "data_completeness": 73,
       "evidence_mode": "market_plus_independent",
       "independent_evidence": true,
       "probability_source": [
@@ -86390,10 +86256,16 @@
             "source_note": ""
           }
         },
+        "home_edge": -0.06,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
-          "original_model_score": 67,
+          "original_model_score": 65,
           "penalty": 4,
-          "adjusted_model_score": 63,
+          "adjusted_model_score": 61,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
@@ -87145,6 +87017,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 63,
           "penalty": 4,
@@ -87898,6 +87776,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 57,
           "penalty": 4,
@@ -88423,6 +88307,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 53,
           "penalty": 4,
@@ -88948,6 +88838,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 48,
           "penalty": 4,
@@ -89845,6 +89741,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "orta",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 53,
           "penalty": 4,
@@ -90599,6 +90501,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "orta",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 51,
           "penalty": 4,
@@ -91355,6 +91263,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 68,
           "penalty": 4,
@@ -92109,6 +92023,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 50,
           "penalty": 4,
@@ -92865,6 +92785,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 57,
           "penalty": 4,
@@ -93540,6 +93466,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 53,
           "penalty": 4,
@@ -93872,7 +93804,7 @@
       "value_label": "Değerli market yok",
       "band_attention_level": "Orta",
       "band_attention_notes": [
-        "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı."
+        "Kadro istihbaratı eşleşmedi; düşük risk varsayılmadı."
       ],
       "squad_risk_level": "Belirsiz",
       "lineup_risk_level": "Belirsiz",
@@ -93880,114 +93812,11 @@
       "named_player_count": 0,
       "team_intelligence": {
         "squad_risk_level": "Belirsiz",
-        "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
-        "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Negeri Sembila (0) için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | (2) Kelantan Wts için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
-        "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
-        "team_status": {
-          "home": {
-            "transfers_in": [],
-            "transfers_out": [],
-            "injured_players": [],
-            "suspended_players": [],
-            "doubtful_players": [],
-            "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
-            "player_impacts": [],
-            "transfer_details": {
-              "in": [],
-              "out": []
-            },
-            "availability_checked": false,
-            "lineup_confirmed": false,
-            "provider_team_id": null,
-            "injury_news_count": 0,
-            "suspension_news_count": 0,
-            "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
-            "transfer_out_news_count": 0,
-            "verified_source_count": 0,
-            "structured_fact_source_count": 0
-          },
-          "away": {
-            "transfers_in": [],
-            "transfers_out": [],
-            "injured_players": [],
-            "suspended_players": [],
-            "doubtful_players": [],
-            "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
-            "player_impacts": [],
-            "transfer_details": {
-              "in": [],
-              "out": []
-            },
-            "availability_checked": false,
-            "lineup_confirmed": false,
-            "provider_team_id": null,
-            "injury_news_count": 0,
-            "suspension_news_count": 0,
-            "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
-            "transfer_out_news_count": 0,
-            "verified_source_count": 0,
-            "structured_fact_source_count": 0
-          }
-        },
-        "lineup": {
-          "home": {
-            "team_name": "Negeri Sembila (0)",
-            "formation": "-",
-            "starting_11_count": 0,
-            "substitutes_count": 0,
-            "starting_11_strength": 0,
-            "bench_strength": 0,
-            "strength_label": "Veri Yok",
-            "top_starting_players": [],
-            "top_bench_players": [],
-            "unavailable_players": [],
-            "important_missing_count": 0,
-            "data_available": false,
-            "availability_checked": false,
-            "lineup_confirmed": false,
-            "data_status": "no_verified_data",
-            "note": "",
-            "source_note": ""
-          },
-          "away": {
-            "team_name": "(2) Kelantan Wts",
-            "formation": "-",
-            "starting_11_count": 0,
-            "substitutes_count": 0,
-            "starting_11_strength": 0,
-            "bench_strength": 0,
-            "strength_label": "Veri Yok",
-            "top_starting_players": [],
-            "top_bench_players": [],
-            "unavailable_players": [],
-            "important_missing_count": 0,
-            "data_available": false,
-            "availability_checked": false,
-            "lineup_confirmed": false,
-            "data_status": "no_verified_data",
-            "note": "",
-            "source_note": ""
-          }
-        },
-        "home_edge": 0,
-        "away_edge": 0,
-        "momentum_difference": 0,
-        "point_difference": 0,
-        "goal_profile": "unknown",
-        "high_scoring_watch": false,
+        "squad_verified_team_count": 0,
+        "named_player_count": 0,
+        "team_status": null,
+        "lineup": null,
         "adjustment": {
           "original_model_score": 0,
           "penalty": 4,
@@ -94286,7 +94115,7 @@
       "value_label": "Piyasa ile Uyumlu",
       "band_attention_level": "Orta",
       "band_attention_notes": [
-        "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı."
+        "Kadro istihbaratı eşleşmedi; düşük risk varsayılmadı."
       ],
       "squad_risk_level": "Belirsiz",
       "lineup_risk_level": "Belirsiz",
@@ -94294,114 +94123,11 @@
       "named_player_count": 0,
       "team_intelligence": {
         "squad_risk_level": "Belirsiz",
-        "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
-        "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Aek Athens U19 için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Lask U19 için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
-        "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
-        "team_status": {
-          "home": {
-            "transfers_in": [],
-            "transfers_out": [],
-            "injured_players": [],
-            "suspended_players": [],
-            "doubtful_players": [],
-            "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
-            "player_impacts": [],
-            "transfer_details": {
-              "in": [],
-              "out": []
-            },
-            "availability_checked": false,
-            "lineup_confirmed": false,
-            "provider_team_id": null,
-            "injury_news_count": 0,
-            "suspension_news_count": 0,
-            "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
-            "transfer_out_news_count": 0,
-            "verified_source_count": 0,
-            "structured_fact_source_count": 0
-          },
-          "away": {
-            "transfers_in": [],
-            "transfers_out": [],
-            "injured_players": [],
-            "suspended_players": [],
-            "doubtful_players": [],
-            "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
-            "player_impacts": [],
-            "transfer_details": {
-              "in": [],
-              "out": []
-            },
-            "availability_checked": false,
-            "lineup_confirmed": false,
-            "provider_team_id": null,
-            "injury_news_count": 0,
-            "suspension_news_count": 0,
-            "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
-            "transfer_out_news_count": 0,
-            "verified_source_count": 0,
-            "structured_fact_source_count": 0
-          }
-        },
-        "lineup": {
-          "home": {
-            "team_name": "Aek Athens U19",
-            "formation": "-",
-            "starting_11_count": 0,
-            "substitutes_count": 0,
-            "starting_11_strength": 0,
-            "bench_strength": 0,
-            "strength_label": "Veri Yok",
-            "top_starting_players": [],
-            "top_bench_players": [],
-            "unavailable_players": [],
-            "important_missing_count": 0,
-            "data_available": false,
-            "availability_checked": false,
-            "lineup_confirmed": false,
-            "data_status": "no_verified_data",
-            "note": "",
-            "source_note": ""
-          },
-          "away": {
-            "team_name": "Lask U19",
-            "formation": "-",
-            "starting_11_count": 0,
-            "substitutes_count": 0,
-            "starting_11_strength": 0,
-            "bench_strength": 0,
-            "strength_label": "Veri Yok",
-            "top_starting_players": [],
-            "top_bench_players": [],
-            "unavailable_players": [],
-            "important_missing_count": 0,
-            "data_available": false,
-            "availability_checked": false,
-            "lineup_confirmed": false,
-            "data_status": "no_verified_data",
-            "note": "",
-            "source_note": ""
-          }
-        },
-        "home_edge": 0,
-        "away_edge": 0,
-        "momentum_difference": 0,
-        "point_difference": 0,
-        "goal_profile": "unknown",
-        "high_scoring_watch": false,
+        "squad_verified_team_count": 0,
+        "named_player_count": 0,
+        "team_status": null,
+        "lineup": null,
         "adjustment": {
           "original_model_score": 53,
           "penalty": 4,
@@ -109844,7 +109570,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 88.7,
+                "age_days": 89.1,
                 "confidence": "medium"
               }
             ],
@@ -110523,11 +110249,11 @@
                 "categories": [
                   "transfer_out"
                 ],
-                "age_days": 7,
+                "age_days": 7.4,
                 "confidence": "medium"
               }
             ],
-            "auto_risk_score": 1,
+            "auto_risk_score": 0.8,
             "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
@@ -111556,7 +111282,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 3.2,
+                "age_days": 3.6,
                 "confidence": "medium"
               }
             ],
@@ -115680,7 +115406,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 5.5,
+                "age_days": 5.9,
                 "confidence": "medium"
               }
             ],
@@ -116479,10 +116205,10 @@
       "team_intelligence": {
         "squad_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 1,
+        "squad_signal_team_count": 0,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Turku transfer gündemi: +2 / -0 haber sinyali | Seinajoen Jk için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Turku için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Seinajoen Jk için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -116492,33 +116218,10 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "Otomatik açık kaynak: Sports247 Nigeria, dailypost.ng",
-            "evidence": [
-              {
-                "title": "Former Flying Eagles Captain Daniel Bameyi Joins Finnish Club Inter Turku II - Sports247 Nigeria",
-                "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMmtESkFCLXVDYU5KclhhMGY1UW5IeWJRQmt1eWNsQXdNbkVrS2UtN1hvUG9CSFljNkE4S29mYV9QUnZFbmZMT2VkS2RXRzVzaUVtQnM4cGhRYnd4Y0psbU5wMUJsWnNzeXRfWW9KSmF5RUVrRXh6c1gzaVJWaEc5UzVkZ0thNnZJY2doWVZZYUxxRXZDbWNUQktMalVwZjdVZXU1UA?oc=5",
-                "source_name": "Sports247 Nigeria",
-                "published_at": "Sun, 30 Aug 2026 08:16:59 GMT",
-                "categories": [
-                  "transfer_in"
-                ],
-                "age_days": 8.7,
-                "confidence": "medium"
-              },
-              {
-                "title": "Transfer: Jephta joins Finnish club FC Inter Turku on permanent deal after successful loan spell - dailypost.ng",
-                "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRC1TakpNSENOa1Znb3JBVFQ4YzNaYW1NcDlZZE9MRVhzUFo3LXNiNTExT1o2WDZqT2NFNVh3V0dFSnJ4eTBnUlR0T3Y4M1FkUkM4RC02WnQ0VXNTT3RWUHBuTk5SYVJOV3ZUQTh2SllTazlBdHQ3bVFHUm45SFlnZE93Q0FDcVRmb2hUMkVvcENlaGN6QjNLc2pfWHd4QmtmVG40VHYybUVqVW9wV2pGRE5RTWJBbjNab3puZFFnZ0hKdXVpbWRB?oc=5",
-                "source_name": "dailypost.ng",
-                "published_at": "Wed, 24 Jun 2026 07:00:00 GMT",
-                "categories": [
-                  "transfer_in"
-                ],
-                "age_days": 75.7,
-                "confidence": "medium"
-              }
-            ],
+            "source_note": "",
+            "evidence": [],
             "auto_risk_score": 0,
-            "data_status": "public_news_signal",
+            "data_status": "no_verified_data",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -116530,7 +116233,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 2,
+            "transfer_in_news_count": 0,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -118506,7 +118209,7 @@
         "squad_signal_team_count": 1,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Ilves için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Jaro transfer gündemi: +1 / -1 haber sinyali",
+        "squad_comment": "Ilves için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Jaro transfer gündemi: +1 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -118543,7 +118246,7 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "Otomatik açık kaynak: BBC, AfricaSoccer.com",
+            "source_note": "Otomatik açık kaynak: BBC",
             "evidence": [
               {
                 "title": "Jonathan Lawson: Watford youngster joins Finnish club FF Jaro - BBC",
@@ -118553,22 +118256,11 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 55.7,
-                "confidence": "medium"
-              },
-              {
-                "title": "Emmanuel Mendy: Gambian winger leaves FF Jaro and becomes free agent - AfricaSoccer.com",
-                "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd0RtUC1ud0xFNFJ1QXpGOFZGX3dJYkg0YVZhRUE2ejlVZElBZmt2bnkyblFZd2ZZeUdmU1RBS2I4Ni1MYzRhaTJYLUFCSTd0N29tODVORzJNNkQ3VmVvbVFfTEc1YzMyeWZScWxoMjljN0JFblFJZWN6eU9KSWh3Q2lpYkdfbHh1SFRtQWhTNzNmVDEtSTZUdQ?oc=5",
-                "source_name": "AfricaSoccer.com",
-                "published_at": "Thu, 16 Jul 2026 07:00:00 GMT",
-                "categories": [
-                  "transfer_out"
-                ],
-                "age_days": 53.7,
+                "age_days": 56.1,
                 "confidence": "medium"
               }
             ],
-            "auto_risk_score": 0.3,
+            "auto_risk_score": 0,
             "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
@@ -118582,7 +118274,7 @@
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
             "transfer_in_news_count": 1,
-            "transfer_out_news_count": 1,
+            "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
           }
@@ -120265,7 +119957,7 @@
         "squad_signal_team_count": 2,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Al Ettifaq transfer gündemi: +3 / -1 haber sinyali | Al Faisaly için 2 güncel sakatlık haberi sinyali bulundu | Al Faisaly transfer gündemi: +7 / -0 haber sinyali",
+        "squad_comment": "Al Ettifaq transfer gündemi: +3 / -1 haber sinyali | Al Faisaly için 2 güncel sakatlık haberi sinyali bulundu | Al Faisaly transfer gündemi: +8 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
         "team_status": {
           "home": {
@@ -120275,7 +119967,7 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "Otomatik açık kaynak: Canadian Soccer Daily -, BBC, YSscores",
+            "source_note": "Otomatik açık kaynak: Canadian Soccer Daily -, bbc.co.uk, YSscores",
             "evidence": [
               {
                 "title": "Derek Cornelius could join Saudi club Al-Ettifaq after Marseille blocked Canada defender's transfer to Rayo Vallecano: Romano - Canadian Soccer Daily -",
@@ -120285,29 +119977,29 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 4.2,
+                "age_days": 4.6,
                 "confidence": "medium"
               },
               {
-                "title": "Abdoulaye Kante: Midfielder leaves Middlesbrough for Al-Ettifaq - BBC",
+                "title": "Abdoulaye Kante: Midfielder leaves Middlesbrough for Al-Ettifaq - bbc.co.uk",
                 "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvZ05DbzlzVmlvQUJ6Nkt2c3hSTFZYbm9oWkF5ajQ0a3AyTWdXSGFBaHRKcjN3ejZwbWd0RTU0dTR6ZDRuanoyMm9YY2Zyajk5RzdsdXpUQjJnZXVpbEdLYlVOQWkzYmtGTWc?oc=5",
-                "source_name": "BBC",
+                "source_name": "bbc.co.uk",
                 "published_at": "Sun, 30 Aug 2026 07:00:00 GMT",
                 "categories": [
                   "transfer_out"
                 ],
-                "age_days": 8.7,
+                "age_days": 9.1,
                 "confidence": "medium"
               },
               {
-                "title": "Scotland defender Jack Hendry signs new deal with Al-Ettifaq - BBC",
+                "title": "Scotland defender Jack Hendry signs new deal with Al-Ettifaq - bbc.co.uk",
                 "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5nV1ZJTjYtX05WbkZYT1k1UWlfOTZLQ0xmNjJyZkx3VmF1RHZneGUzc0JlTkxSZ2d3U2NsQ1pfdmRYYjJRSWZaRDlBc2M1cE55NnVWdVRiUmVEV28wNXc?oc=5",
-                "source_name": "BBC",
+                "source_name": "bbc.co.uk",
                 "published_at": "Sat, 04 Jul 2026 07:00:00 GMT",
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 65.7,
+                "age_days": 66.1,
                 "confidence": "medium"
               },
               {
@@ -120318,7 +120010,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 8.2,
+                "age_days": 8.6,
                 "confidence": "medium"
               }
             ],
@@ -120350,17 +120042,6 @@
             "source_note": "Otomatik açık kaynak: jordannews.jo, YSscores, Dailysports, AfricaSoccer.com",
             "evidence": [
               {
-                "title": "Al-Faisaly Sign Palestinian Player Camilo Saldana... - jordannews.jo",
-                "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZkZpaTVLV0RXM0FGRy1tRXVULXRfUFdYbkpiWTQ3aGJkY0RTel9vQkJUTUJGcmVoam5sS0FROGp0ak56OGNYWGZTZXFCeWxNQThsM2IzT293Qmk0MTVFNWNLejAwTEktbmlwWXBUY2xqZ2dtbDl1WVJRTTlydmk3Qll1REliYVJvNHRJUnQxSVpDeEZjcWhKR09QNWhFRDdOSkpN?oc=5",
-                "source_name": "jordannews.jo",
-                "published_at": "Wed, 02 Sep 2026 08:55:33 GMT",
-                "categories": [
-                  "transfer_in"
-                ],
-                "age_days": 5.6,
-                "confidence": "medium"
-              },
-              {
                 "title": "Leith Abu Rahal Joins Al-Faisaly on a Three-Season Deal... - jordannews.jo",
                 "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNDZsQnBDOXNNMXZ5alJXVWRPaDNYM1NZc2xyb2cwYW16aElSRVM2XzlDQnVSbnFGMHg0dm5XSjBhTFdZT1haVzZ3T2tiOWU4ZlQ0VTVQbmdPaW9pVFlBRWt5LUlNLWt2cm9rQVhEQldoMHVNWTBxSXlyRmZRaDY0dm9Ldy03OWlDQ0xxM2J2OWhFT0lwR0o4UHFBcDVMVFp2YS1OanYyMi02SUk?oc=5",
                 "source_name": "jordannews.jo",
@@ -120368,7 +120049,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 40.3,
+                "age_days": 40.7,
                 "confidence": "medium"
               },
               {
@@ -120379,7 +120060,18 @@
                 "categories": [
                   "injury"
                 ],
-                "age_days": 1.5,
+                "age_days": 1.9,
+                "confidence": "medium"
+              },
+              {
+                "title": "Al-Faisaly Sign Palestinian Player Camilo Saldana... - jordannews.jo",
+                "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZkZpaTVLV0RXM0FGRy1tRXVULXRfUFdYbkpiWTQ3aGJkY0RTel9vQkJUTUJGcmVoam5sS0FROGp0ak56OGNYWGZTZXFCeWxNQThsM2IzT293Qmk0MTVFNWNLejAwTEktbmlwWXBUY2xqZ2dtbDl1WVJRTTlydmk3Qll1REliYVJvNHRJUnQxSVpDeEZjcWhKR09QNWhFRDdOSkpN?oc=5",
+                "source_name": "jordannews.jo",
+                "published_at": "Wed, 02 Sep 2026 08:55:33 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 6,
                 "confidence": "medium"
               },
               {
@@ -120390,11 +120082,11 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 2.4,
+                "age_days": 2.8,
                 "confidence": "medium"
               }
             ],
-            "auto_risk_score": 5.4,
+            "auto_risk_score": 5.1,
             "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
@@ -120407,7 +120099,7 @@
             "injury_news_count": 2,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 7,
+            "transfer_in_news_count": 8,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -121372,7 +121064,7 @@
                 "categories": [
                   "transfer_out"
                 ],
-                "age_days": 109.7,
+                "age_days": 110.1,
                 "confidence": "medium"
               }
             ],
@@ -122546,7 +122238,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 66.7,
+                "age_days": 67.1,
                 "confidence": "medium"
               },
               {
@@ -122557,7 +122249,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 58.3,
+                "age_days": 58.7,
                 "confidence": "medium"
               }
             ],
@@ -123406,7 +123098,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 54.5,
+                "age_days": 54.9,
                 "confidence": "medium"
               }
             ],
@@ -123435,7 +123127,7 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "Otomatik açık kaynak: Ghana Sports Online, Modern Ghana, ghanasoccernet.com",
+            "source_note": "Otomatik açık kaynak: Ghana Sports Online, Modern Ghana, GhanaSoccernet",
             "evidence": [
               {
                 "title": "OFFICIAL: Albert Amoah joins Saudi side Hajer Club on permanent deal - Ghana Sports Online",
@@ -123445,7 +123137,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 24.7,
+                "age_days": 25.1,
                 "confidence": "medium"
               },
               {
@@ -123456,18 +123148,18 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 24.7,
+                "age_days": 25.1,
                 "confidence": "medium"
               },
               {
-                "title": "Former Asante Kotoko striker Albert Amoah joins Saudi side Hajer FC - ghanasoccernet.com",
+                "title": "Former Asante Kotoko striker Albert Amoah joins Saudi side Hajer FC - GhanaSoccernet",
                 "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcGZvcnhXZFA0Z09rQVlQQUE2aDlMSTM2V2hETjNOS2w2RnF2VGY1aEFiZzdOYmpsTThnQjBqNXcxa05oVUNpZDQ1VUlCYWRaZnZqNHFyVll4RkNsNUd5alRZWTloZzhHVEpRam5WVFQzeU5Qb0M2WUxFTnJidnItRHI3a2xBMGE5N2YxOVBBbEFGa0dublJaLXdWRmh2UlN2U2tSTFNn?oc=5",
-                "source_name": "ghanasoccernet.com",
+                "source_name": "GhanaSoccernet",
                 "published_at": "Fri, 14 Aug 2026 07:00:00 GMT",
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 24.7,
+                "age_days": 25.1,
                 "confidence": "medium"
               }
             ],
@@ -125130,7 +124822,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 18.7,
+                "age_days": 19.1,
                 "confidence": "medium"
               },
               {
@@ -125141,7 +124833,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 36.4,
+                "age_days": 36.7,
                 "confidence": "medium"
               },
               {
@@ -125152,7 +124844,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 36.3,
+                "age_days": 36.6,
                 "confidence": "medium"
               }
             ],
@@ -127315,7 +127007,7 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "Otomatik açık kaynak: Montana State University Athletics, Bozeman Daily Chronicle, 406mtsports.com",
+            "source_note": "Otomatik açık kaynak: Montana State University Athletics, Bozeman Daily Chronicle, 406 Sports",
             "evidence": [
               {
                 "title": "Bruin Fleischmann, Alec Wills Officially Join Bobcat Football Program - Montana State University Athletics",
@@ -127325,7 +127017,7 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 91.7,
+                "age_days": 92.1,
                 "confidence": "medium"
               },
               {
@@ -127336,18 +127028,18 @@
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 9,
+                "age_days": 9.4,
                 "confidence": "medium"
               },
               {
-                "title": "Montana Grizzlies sign All-Frontier defensive lineman with FBS experience - 406mtsports.com",
+                "title": "Montana Grizzlies sign All-Frontier defensive lineman with FBS experience - 406 Sports",
                 "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNTk8xa1dVaEpQTWVtR2VKNVNqZ2lDVXlmMmpHNDNzS3J5b1hkX2RKX2ZIN2wxSmJSN3RYV01RNDRNdk5DTWN0Mm9ZWW1ZX3JxaDh2V2hHWFY3R2ZCOS1Nb1ZrWTkzeEl2U0ZFZjAwanNXbERlSVhpd0t6QzN5Ulp4Ny1mcDN6UkY0NVRrTVJwSWNyUmU1eHJ6bWZ6VnBPQTVBTjZpeUZYSkpnXzdIMEVZNE5QaHhTeWJlVy1nTXU4djM1MFZ0WUF3bldHdVJYNW1wZ0JnSWJGNnNFbVM2THNSZVVkbS1HSGh3U09ZTmFaZ3lDVjNhX1htQ1pfVDhIRW1xTzk2WVJVM3NETFZBenRwbkdCdHhUQUV3YlRyY19BVVpQQdIBpwJBVV95cUxNM21FdDhuTFpVUjRxY3lJSmNvcVFBODVmQnlXRFZocDdlb3RNNk84U0xYYzEtelFPV3NCUERWVi1QUXYwWmtBeS1mV1FIYzdEQmZ0NktmUU5NOHM1YVVORUxUMENSWHFna29kWW9RMG1HZUNyNUJoTkFvQUVvLTBIb1lKV3YyLU5lYTFlV2N4bFVPTXZSSlRWMUg4YlBWakZSRXNHMDdwRjh2MVNhS191Nm4zYTBJTVNmTGJ4ejA5TTFlRUd2aVpWenBOa3BLS3YtNVNKS3RhOG5STm1oUDd1bUoxSHY3Nml2Umh0YWFNUXBxeVRvdHVPdHNTbzczdVBSUWc0QW5aUTBNS01CQ25BX21WOEVTUlZ5czdlSFhReW41QVFPdENV?oc=5",
-                "source_name": "406mtsports.com",
+                "source_name": "406 Sports",
                 "published_at": "Fri, 05 Jun 2026 07:00:00 GMT",
                 "categories": [
                   "transfer_in"
                 ],
-                "age_days": 94.7,
+                "age_days": 95.1,
                 "confidence": "medium"
               }
             ],
@@ -139272,19 +138964,22 @@
       "league": "Suudi Arabistan Pro Lig",
       "start_time": "21:00",
       "recommended_market": "MS 1",
-      "confidence_score": "48%",
-      "model_score": 48,
-      "analysis_score": 48,
+      "confidence_score": "60%",
+      "model_score": 60,
+      "analysis_score": 60,
       "score_type": "signal_strength",
-      "estimated_probability": 46.7,
+      "estimated_probability": 50.4,
       "market_probability": 46.7,
-      "edge_percent": 0,
-      "data_completeness": 43,
-      "evidence_mode": "market_baseline",
-      "independent_evidence": false,
-      "probability_source": [],
+      "edge_percent": 3.7,
+      "data_completeness": 59,
+      "evidence_mode": "market_plus_independent",
+      "independent_evidence": true,
+      "probability_source": [
+        "takım formu",
+        "Poisson gol modeli"
+      ],
       "model_version": "pro13-btts-conditioned-v3",
-      "risk_level": "Yüksek",
+      "risk_level": "Orta",
       "estimated_odds": "1.77",
       "available_odds": {
         "ms1": "1.77",
@@ -139706,7 +139401,7 @@
         }
       ],
       "odds_source": "Robot ham veri havuzu",
-      "value_label": "Piyasa ile Uyumlu",
+      "value_label": "Değerli",
       "band_attention_level": "Orta",
       "band_attention_notes": [
         "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı."
@@ -139873,16 +139568,16 @@
         "goal_profile": "yuksek",
         "high_scoring_watch": true,
         "adjustment": {
-          "original_model_score": 52,
+          "original_model_score": 64,
           "penalty": 4,
-          "adjusted_model_score": 48,
+          "adjusted_model_score": 60,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
       "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 1 | Oran: 1.77 | Veri tipi: standard",
       "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Yüksek",
+      "suitable_coupon_type": "Sadece izleme",
+      "data_gap_risk": "Orta",
       "status": "scheduled",
       "expected_scores": [
         "1-0",
@@ -140065,9 +139760,9 @@
             "confidence_adjustment": 0
           }
         },
-        "raw_weighted_score": 50,
-        "bounded_score": 52,
-        "max_score_shift": 3
+        "raw_weighted_score": 64,
+        "bounded_score": 64,
+        "max_score_shift": 6
       },
       "metrics": {
         "homeScoredLast10": 3,
@@ -140081,8 +139776,8 @@
         "secondHalfGoalTrend": 55,
         "leagueGoalAverage": 2.57,
         "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 31,
+          "scoreDelta": 7,
+          "totalMatches": 34,
           "home": {
             "count": 3,
             "scored": 3,
@@ -140101,21 +139796,21 @@
             "pointsPerGame": 3
           },
           "away": {
-            "count": 2,
-            "scored": 1,
+            "count": 5,
+            "scored": 4,
             "conceded": 2,
-            "bttsRate": 50,
-            "over25Rate": 100,
-            "over35Rate": 50,
-            "goalsForAvg": 0.5,
-            "goalsAgainstAvg": 3,
-            "wins": 0,
+            "bttsRate": 20,
+            "over25Rate": 80,
+            "over35Rate": 60,
+            "goalsForAvg": 2.2,
+            "goalsAgainstAvg": 1.2,
+            "wins": 3,
             "draws": 0,
             "losses": 2,
-            "winRate": 0,
+            "winRate": 60,
             "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
+            "lossRate": 40,
+            "pointsPerGame": 1.8
           },
           "league": {
             "count": 26,
@@ -140124,10 +139819,28 @@
             "over25Rate": 50
           },
           "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
+            "Hafıza: ev sahibi form puanında önde (3-1.8): +7"
           ]
         },
-        "poisson": null,
+        "poisson": {
+          "probabilities": {
+            "ms1": 45.53278377765733,
+            "msx": 24.682167608378034,
+            "ms2": 29.785048613964584,
+            "over15": 77.43866813522877,
+            "over25": 53.82342552257688,
+            "under25": 46.17657447742311,
+            "over35": 31.526700622464666,
+            "kgVar": 56.612997807331844,
+            "kgYok": 43.387002192668135,
+            "homeGoal": 79.64017091895889,
+            "awayGoal": 71.08598230526236
+          },
+          "homeLambda": 1.59,
+          "awayLambda": 1.24,
+          "samples": 8,
+          "reliability": 0.5
+        },
         "homeScoredLast10Count": 3,
         "awayScoredLast10Count": 4,
         "homeConcededLast10Count": 1,
@@ -140308,9 +140021,9 @@
               "confidence_adjustment": 0
             }
           },
-          "raw_weighted_score": 50,
-          "bounded_score": 52,
-          "max_score_shift": 3
+          "raw_weighted_score": 64,
+          "bounded_score": 64,
+          "max_score_shift": 6
         }
       },
       "signals": [
@@ -140318,17 +140031,18 @@
         "Market: MS 1",
         "Oran: 1.77",
         "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
+        "Değer etiketi: Değerli",
         "Marjı temizlenmiş piyasa olasılığı %47.",
-        "Birleşik tahmini olasılık %47.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
+        "Bağımsız takım formu + Poisson gol modeli tahmini %61.",
+        "Birleşik tahmini olasılık %50.",
+        "Model-piyasa farkı +3.7 puan.",
+        "Poisson gol beklentisi 1.59-1.24.",
+        "Hafıza: ev sahibi form puanında önde (3-1.8): +7",
         "Geçmiş market örneği 1383; ham isabet %42.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 48/100 (Yüksek eksik veri riski).",
-        "Model gücü 55/100: Sadece izleme.",
+        "Veri kapsama puanı 64/100 (Düşük eksik veri riski).",
+        "Model gücü 70/100: Orta risk kupon adayı.",
         "Öğrenme: MS 1 101 oranlı sonuç, düzeltilmiş getiri %-21 (-2)",
-        "Öğrenme etkisi: 55/100 → 52/100"
+        "Öğrenme etkisi: 70/100 → 64/100"
       ]
     },
     {
@@ -214206,14 +213920,14 @@
       "league": "Copa Libertadores Çeyrek Final",
       "start_time": "01:00",
       "recommended_market": "2.5 Üst",
-      "confidence_score": "63%",
-      "model_score": 63,
-      "analysis_score": 63,
+      "confidence_score": "61%",
+      "model_score": 61,
+      "analysis_score": 61,
       "score_type": "signal_strength",
-      "estimated_probability": 43.6,
+      "estimated_probability": 42.9,
       "market_probability": 34.9,
-      "edge_percent": 8.8,
-      "data_completeness": 80,
+      "edge_percent": 8.1,
+      "data_completeness": 73,
       "evidence_mode": "market_plus_independent",
       "independent_evidence": true,
       "probability_source": [
@@ -214898,10 +214612,16 @@
             "source_note": ""
           }
         },
+        "home_edge": -0.06,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
-          "original_model_score": 67,
+          "original_model_score": 65,
           "penalty": 4,
-          "adjusted_model_score": 63,
+          "adjusted_model_score": 61,
           "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
         }
       },
@@ -215105,7 +214825,7 @@
         "leagueGoalAverage": 2.83,
         "memory": {
           "scoreDelta": 8,
-          "totalMatches": 12,
+          "totalMatches": 10,
           "home": {
             "count": 3,
             "scored": 3,
@@ -215124,21 +214844,21 @@
             "pointsPerGame": 2.33
           },
           "away": {
-            "count": 9,
-            "scored": 6,
-            "conceded": 9,
-            "bttsRate": 67,
-            "over25Rate": 44,
-            "over35Rate": 22,
+            "count": 7,
+            "scored": 5,
+            "conceded": 7,
+            "bttsRate": 71,
+            "over25Rate": 43,
+            "over35Rate": 29,
             "goalsForAvg": 1,
-            "goalsAgainstAvg": 1.56,
-            "wins": 2,
+            "goalsAgainstAvg": 1.57,
+            "wins": 1,
             "draws": 3,
-            "losses": 4,
-            "winRate": 22,
-            "drawRate": 33,
-            "lossRate": 44,
-            "pointsPerGame": 1
+            "losses": 3,
+            "winRate": 14,
+            "drawRate": 43,
+            "lossRate": 43,
+            "pointsPerGame": 0.86
           },
           "league": {
             "count": 0,
@@ -215147,27 +214867,27 @@
             "over25Rate": 0
           },
           "signals": [
-            "Hafıza: 2.5 Üst eğilimi yüksek (%56): +8"
+            "Hafıza: 2.5 Üst eğilimi yüksek (%55): +8"
           ]
         },
         "poisson": {
           "probabilities": {
-            "ms1": 49.82756865336979,
-            "msx": 23.993053938397697,
-            "ms2": 26.17937740823246,
-            "over15": 77.91576580873796,
-            "over25": 54.502206950574575,
-            "under25": 45.497793049425404,
-            "over35": 32.170243018520914,
-            "kgVar": 56.1840351863929,
-            "kgYok": 43.81596481360708,
-            "homeGoal": 81.67543143792,
-            "awayGoal": 68.78939504482125
+            "ms1": 49.5302107647774,
+            "msx": 23.99385570297938,
+            "ms2": 26.475933532243218,
+            "over15": 78.07648795339949,
+            "over25": 54.7325509861768,
+            "under25": 45.26744901382324,
+            "over35": 32.390328291925286,
+            "kgVar": 56.452899888156395,
+            "kgYok": 43.5471001118436,
+            "homeGoal": 81.6477359712602,
+            "awayGoal": 69.14202729151936
           },
           "homeLambda": 1.7,
-          "awayLambda": 1.16,
-          "samples": 12,
-          "reliability": 0.75
+          "awayLambda": 1.18,
+          "samples": 10,
+          "reliability": 0.625
         },
         "homeScoredLast10Count": 3,
         "awayScoredLast10Count": 6,
@@ -215182,14 +214902,14 @@
         "Değer etiketi: Değerli",
         "Marjı temizlenmiş piyasa olasılığı %35.",
         "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %56.",
-        "Birleşik tahmini olasılık %44.",
-        "Model-piyasa farkı +8.8 puan.",
-        "Poisson gol beklentisi 1.7-1.16.",
-        "Hafıza: 2.5 Üst eğilimi yüksek (%56): +8",
+        "Birleşik tahmini olasılık %43.",
+        "Model-piyasa farkı +8.1 puan.",
+        "Poisson gol beklentisi 1.7-1.18.",
+        "Hafıza: 2.5 Üst eğilimi yüksek (%55): +8",
         "Geçmiş market örneği 1383; ham isabet %55.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
-        "Veri kapsama puanı 85/100 (Düşük eksik veri riski).",
-        "Model gücü 67/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 78/100 (Düşük eksik veri riski).",
+        "Model gücü 65/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ]
     },
@@ -215753,6 +215473,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 63,
           "penalty": 4,
@@ -216603,6 +216329,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 57,
           "penalty": 4,
@@ -217209,6 +216941,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 53,
           "penalty": 4,
@@ -217814,6 +217552,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 48,
           "penalty": 4,
@@ -218972,6 +218716,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "orta",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 53,
           "penalty": 4,
@@ -219984,6 +219734,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "orta",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 51,
           "penalty": 4,
@@ -221001,6 +220757,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 68,
           "penalty": 4,
@@ -221835,6 +221597,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 50,
           "penalty": 4,
@@ -222869,6 +222637,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 57,
           "penalty": 4,
@@ -223625,6 +223399,12 @@
             "source_note": ""
           }
         },
+        "home_edge": 0,
+        "away_edge": 0,
+        "momentum_difference": 0,
+        "point_difference": 0,
+        "goal_profile": "unknown",
+        "high_scoring_watch": false,
         "adjustment": {
           "original_model_score": 53,
           "penalty": 4,

@@ -2,7 +2,7 @@
 
 Durum: ok
 Aktif bulten maci: 152
-Arsiv maci: 12654
+Arsiv maci: 12655
 Biten mac: 12503
 Skorlu arsiv maci: 1383
 Tahmin sayisi: 1500
