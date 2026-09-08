@@ -34,6 +34,7 @@
   loadScript("spor-toto-dashboard.js", "spor-toto-dashboard-script");
   loadScript("spor-toto-metric-ui.js", "spor-toto-metric-ui-script");
   loadScript("analysis-insights-v1.js", "analysis-insights-v1-script");
+  loadScript("high-odds-htft-widget.js", "high-odds-htft-widget-script");
   loadScript("live-power-center-v1.js", "live-power-center-v1-script");
 
   const loadVisualEnhancements = () => {
