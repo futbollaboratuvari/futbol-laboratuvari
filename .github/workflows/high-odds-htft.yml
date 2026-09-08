@@ -70,7 +70,7 @@ jobs:
             fi
 
             git add data/high-odds-htft.json
-            git commit -m 'chore: refresh daily high-odds HTFT [skip ci]'
+            git commit -m 'chore: refresh daily high-odds HTFT'
             if git push origin HEAD:main; then
               exit 0
             fi
