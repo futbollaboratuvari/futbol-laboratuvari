@@ -2,19 +2,15 @@
 
 Gunler: 2026-09-08 / 2026-09-09
 Kaynak: fixtures.json
-Ham mac: 152
-Aktif mac: 150
+Ham mac: 170
+Aktif mac: 149
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 139
-Yarin: 11
+Bultenden dusurulen mac: 21
+Bugun: 137
+Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-09-08 13:00 | İspanya Federasyon Kupası Son 32 Turu | Ud San Fernand - Orihuela | scheduled | -
-- 2026-09-08 13:00 | Portekiz U23 Ulusal Şampiyona | Rio Ave U23 - Torreense U23 | scheduled | -
-- 2026-09-08 13:00 | Portekiz U23 Ulusal Şampiyona | Portimonense U - Felgueiras U23 | scheduled | -
-- 2026-09-08 13:00 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Famalicão U23 | scheduled | -
 - 2026-09-08 13:30 | Güney Kore K Lig 1 | Ulsan - Fc Seoul | scheduled | -
 - 2026-09-08 13:30 | Güney Kore K Lig 1 | Incheon Utd - Bucheon | scheduled | -
 - 2026-09-08 14:00 | UEFA Gençlik Ligi Lig Aşaması | Porto U19 - Manchester City | scheduled | -
@@ -28,6 +24,8 @@ Yarin: 11
 - 2026-09-08 16:00 | Uganda Premier Lig | Bul - Ntugasaze | scheduled | -
 - 2026-09-08 16:00 | Uganda Premier Lig | Maroons - Blacks Power | scheduled | -
 - 2026-09-08 16:00 | Tanzanya Kuu Bara Ligi | Mashujaa - Singida Black S | scheduled | -
+- 2026-09-08 16:00 | Paraguay Intermedia Lig | 3 De Noviembre - Sol De America | scheduled | -
+- 2026-09-08 16:00 | Paraguay Intermedia Lig | Paraguari - Guairena | scheduled | -
 - 2026-09-08 17:00 | UEFA Gençlik Ligi Lig Aşaması | Real Madrid U1 - Internazionale | scheduled | -
 - 2026-09-08 17:00 | UEFA Gençlik Ligi Lig Aşaması | B. Dortmund U1 - Villarreal U19 | scheduled | -
 - 2026-09-08 17:00 | Kosova Süper Lig | Kosova Vushtrr - Llapi | scheduled | -
@@ -152,6 +150,7 @@ Yarin: 11
 - 2026-09-08 22:00 | İngiltere Championship | Bolton - West Ham | scheduled | -
 - 2026-09-09 01:00 | Copa Libertadores Çeyrek Final | Fluminense - Platense | scheduled | -
 - 2026-09-09 01:00 | Copa Sudamericana Çeyrek Final | Santa Fe - Vasco Da Gama | scheduled | -
+- 2026-09-09 01:00 | Paraguay Intermedia Lig | General Caball - Resistencia | scheduled | -
 - 2026-09-09 02:00 | ABD USL Kupası Yarı Final | Hartford Athle - Colorado Spring | scheduled | -
 - 2026-09-09 02:00 | ABD MLS Next Pro | New York City - New York Rb Ii | scheduled | -
 - 2026-09-09 02:00 | ABD MLS Next Pro | Toronto Fc Ii - Columbus Crew I | scheduled | -

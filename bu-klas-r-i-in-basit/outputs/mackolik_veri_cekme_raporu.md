@@ -1,24 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-08T09:56:21.161162+00:00
+Tarih: 2026-09-08T10:00:39.364525+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 143
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 141
-- Ham veri havuzu toplam mac sayisi: 12728
+- Kac mac bulundu: 155
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 154
+- Ham veri havuzu toplam mac sayisi: 12729
 - Hedef tarih: 08.09.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS Next Pro
+- ABD USL Kupası Yarı Final
 - Almanya Bölgesel Lig Güney Batı
 - Arjantin Primera C
 - Avustralya NPL Batı Avustralya Ön Eleme Final
+- Brezilya Serie B
 - Bulgaristan 2.Lig
+- Copa Libertadores Çeyrek Final
+- Copa Sudamericana Çeyrek Final
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga Küme Düşme Grubu
 - Finlandiya Veikkausliiga Şampiyonluk Grubu
@@ -30,6 +35,7 @@ Tarih: 2026-09-08T09:56:21.161162+00:00
 - Kadınlar U20 Dünya Kupası Grup B
 - Karadağ 1.Lig
 - Katar 2.Lig
+- Kolombiya Primera B Clausura
 - Kosova Süper Lig
 - Kuzey İrlanda Premiership
 - Malezya FA Kupası Son 16 Turu
@@ -140,15 +146,15 @@ Tarih: 2026-09-08T09:56:21.161162+00:00
 | 08.09.2026 | 18:55 | Suudi Arabistan Pro Lig | Al Hazm | Al Taawon | 12100 | 5 |
 | 08.09.2026 | 18:30 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Faisaly | 11828 | 5 |
 | 08.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah | Al Ahli (Cidde) | 12399 | 5 |
+| 09.09.2026 | 01:00 | Copa Libertadores Çeyrek Final | Fluminense | Platense | 16774 | 5 |
+| 09.09.2026 | 03:30 | Copa Sudamericana Çeyrek Final | Boca Juniors | Sao Paulo | 16961 | 5 |
+| 09.09.2026 | 01:00 | Copa Sudamericana Çeyrek Final | Santa Fe | Vasco Da Gama | 16893 | 5 |
 | 08.09.2026 | 22:00 | İngiltere Championship | Bolton | West Ham | 14953 | 5 |
 | 08.09.2026 | 21:45 | İngiltere Championship | Cardiff | Stoke | 13688 | 5 |
 | 08.09.2026 | 21:45 | İngiltere Championship | Blackburn | Sheffield Utd | 12948 | 5 |
 | 08.09.2026 | 21:45 | İngiltere Championship | Southam | Swansea | 14355 | 5 |
 | 08.09.2026 | 21:45 | İngiltere Championship | Watford | Prest | 14524 | 5 |
 | 08.09.2026 | 21:45 | İngiltere Championship | Wrexham | Burnley | 14613 | 5 |
-| 08.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Crystal Palace | Middlesbrough | 14192 | 5 |
-| 08.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Bournemouth | Lincoln | 13620 | 5 |
-| 08.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Millwall | Newcastle Utd | 15154 | 5 |
 
 ## Sonuc
 

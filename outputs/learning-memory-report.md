@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.09.2026 12:56:34
+Oluşturma: 08.09.2026 13:01:13
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1116
-- Kazanan tahmin: 202
+- Bekleyen tahmin: 1118
+- Kazanan tahmin: 200
 - Kaybeden tahmin: 182
 - Lig sayısı: 238
 - Seçenek sayısı: 6
@@ -24,13 +24,15 @@ Oluşturma: 08.09.2026 12:56:34
 
 - KG Var: toplam 3, bekleyen 2, başarı %100, düz getiri %93, ağırlık 1
 - MS X: toplam 2, bekleyen 1, başarı %100, düz getiri %146, ağırlık 1
-- 2.5 Üst: toplam 234, bekleyen 134, başarı %61, düz getiri %5, ağırlık 1
-- 2.5 Alt: toplam 536, bekleyen 400, başarı %56, düz getiri %-8, ağırlık 1
-- MS 1: toplam 500, bekleyen 400, başarı %44, düz getiri %-28, ağırlık 0.94
+- 2.5 Üst: toplam 233, bekleyen 134, başarı %61, düz getiri %4, ağırlık 1
+- 2.5 Alt: toplam 536, bekleyen 401, başarı %56, düz getiri %-9, ağırlık 1
+- MS 1: toplam 501, bekleyen 401, başarı %44, düz getiri %-28, ağırlık 0.94
 - MS 2: toplam 225, bekleyen 179, başarı %41, düz getiri %-25, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-08 | Paraguay Intermedia Lig | General Caball - Resistencia | 2.5 Alt | pending | 54/100
+- 2026-09-08 | ABD USL Kupası Yarı Final | Hartford Athle - Colorado Spring | MS 1 | pending | 36/100
 - 2026-09-08 | İskoçya Challenge Kupası Lig Aşaması | Annan - Motherwell Ii | MS 1 | pending | 57/100
 - 2026-09-08 | İskoçya Challenge Kupası Lig Aşaması | Clyde - East Fife | MS 1 | pending | 42/100
 - 2026-09-08 | Irak Premier Lig | Erbil Sc - Diala | 2.5 Alt | pending | 53/100
@@ -44,6 +46,4 @@ Oluşturma: 08.09.2026 12:56:34
 - 2026-09-08 | Kosova Süper Lig | Kosova Vushtrr - Llapi | 2.5 Alt | pending | 53/100
 - 2026-09-08 | Katar 2.Lig | Mesaimeer - Khuraitiat | 2.5 Alt | pending | 50/100
 - 2026-09-08 | Portekiz U23 Ulusal Şampiyona | Rio Ave U23 - Torreense U23 | 2.5 Üst | pending | 54/100
-- 2026-09-08 | İskoçya Challenge Kupası Lig Aşaması | Banks O Dee - Forfar | 2.5 Alt | pending | 49/100
-- 2026-09-08 | Kolombiya Primera A Clausura | Llaneros - Deportes Tolima | 2.5 Üst | won | 61/100
 
