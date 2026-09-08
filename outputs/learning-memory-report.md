@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.09.2026 23:56:46
+Oluşturma: 09.09.2026 00:07:57
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1115
-- Kazanan tahmin: 203
-- Kaybeden tahmin: 182
-- Lig sayısı: 239
+- Bekleyen tahmin: 1103
+- Kazanan tahmin: 210
+- Kaybeden tahmin: 187
+- Lig sayısı: 246
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -24,26 +24,26 @@ Oluşturma: 08.09.2026 23:56:46
 
 - KG Var: toplam 3, bekleyen 2, başarı %100, düz getiri %93, ağırlık 1
 - MS X: toplam 2, bekleyen 1, başarı %100, düz getiri %146, ağırlık 1
-- 2.5 Üst: toplam 237, bekleyen 137, başarı %61, düz getiri %5, ağırlık 1
-- 2.5 Alt: toplam 534, bekleyen 396, başarı %56, düz getiri %-8, ağırlık 1
-- MS 1: toplam 504, bekleyen 405, başarı %44, düz getiri %-27, ağırlık 0.94
-- MS 2: toplam 220, bekleyen 174, başarı %41, düz getiri %-25, ağırlık 1
+- 2.5 Üst: toplam 229, bekleyen 138, başarı %62, düz getiri %6, ağırlık 1
+- 2.5 Alt: toplam 543, bekleyen 404, başarı %53, düz getiri %-14, ağırlık 1
+- MS 1: toplam 504, bekleyen 392, başarı %48, düz getiri %-22, ağırlık 0.94
+- MS 2: toplam 219, bekleyen 166, başarı %47, düz getiri %-16, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-08 | Paraguay Intermedia Lig | General Caball - Resistencia | 2.5 Üst | pending | 54/100
-- 2026-09-08 | ABD USL Kupası Yarı Final | Hartford Athle - Colorado Spring | 2.5 Alt | pending | 45/100
-- 2026-09-08 | İngiltere Premier Lig Kupası Grup E | Fleetwood Town - Burnley U21 | MS 1 | pending | 46/100
-- 2026-09-08 | İngiltere Ulusal Lig N / S Güney | Chesham United - Billericay Town | MS 1 | pending | 46/100
-- 2026-09-08 | İngiltere Ulusal Lig N / S Kuzey | Southport - Morecambe | 2.5 Alt | pending | 54/100
-- 2026-09-08 | İngiltere Ulusal Lig N / S Kuzey | Lynn Town - Hednesford Town | 2.5 Üst | pending | 53/100
-- 2026-09-08 | İngiltere Ulusal Lig N / S Kuzey | Telford - Oxford City | MS 1 | pending | 42/100
-- 2026-09-08 | Güney Kore K Lig 1 | Incheon Utd - Bucheon | 2.5 Üst | won | 59/100
-- 2026-09-08 | ABD MLS Next Pro | Toronto Fc Ii - Columbus Crew I | MS 1 | pending | 45/100
-- 2026-09-08 | ABD MLS Next Pro | New York City - New York Rb Ii | MS 2 | pending | 51/100
-- 2026-09-08 | Copa Sudamericana Çeyrek Final | Santa Fe - Vasco Da Gama | MS 1 | pending | 45/100
-- 2026-09-08 | Paraguay Intermedia Lig | General Caball - Resistencia | MS 1 | pending | 48/100
-- 2026-09-08 | İngiltere Ulusal Lig N / S Güney | Maidenhead Utd - Torquay | 2.5 Üst | pending | 53/100
-- 2026-09-08 | İngiltere FA Cup Eleme 1.Tur Tekrar | Buckhurst Hill - Yaxley | MS 1 | pending | 42/100
-- 2026-09-08 | Irak Premier Lig | Al Gharraf - Al Shorta | 2.5 Alt | pending | 55/100
+- 2026-09-09 | İspanya De La Reina Kupası 1. Tur | Samper (K) - Olympia Las Roz | MS 2 | pending | 48/100
+- 2026-09-09 | Paraguay Intermedia Lig | Depor Santani - Indep Cambo Gra | 2.5 Alt | pending | 53/100
+- 2026-09-09 | Kolombiya Primera B Clausura | Independiente - Quindio | MS 1 | pending | 46/100
+- 2026-09-09 | Güney Afrika PSL | Mamelodi Sundo - Siwelele | 2.5 Üst | pending | 61/100
+- 2026-09-09 | Suudi Arabistan 1.Lig | Jeddah Club - Al Orubah Club | 2.5 Alt | pending | 57/100
+- 2026-09-09 | Suudi Arabistan Pro Lig | Al Fateh - Diriyah | 2.5 Alt | pending | 67/100
+- 2026-09-09 | Uruguay Kupa Ön Eleme Turu Grup 4 | Racing Montevi - Central Espanol | MS 1 | pending | 47/100
+- 2026-09-09 | Uruguay Kupa Ön Eleme Turu Grup 6 | Boston River - Colon | 2.5 Alt | pending | 57/100
+- 2026-09-09 | Irak Premier Lig | Newroz - Al Mosul | 2.5 Alt | pending | 55/100
+- 2026-09-09 | Irak Premier Lig | Al Minaa Basra - Naft Maysan | 2.5 Alt | pending | 57/100
+- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Comillas - Lhospitalet | MS 2 | pending | 50/100
+- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Badalona - Sestao | MS 2 | pending | 48/100
+- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Torrent - Saguntino | MS 1 | pending | 45/100
+- 2026-09-09 | Karadağ 1.Lig | Decic Tuzi - Petrovac | MS 1 | pending | 43/100
+- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | San Juan - Terrassa | MS 2 | pending | 51/100
 

@@ -1,27 +1,64 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-08T20:56:08.082375+00:00
+Tarih: 2026-09-08T21:07:44.465626+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 11
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 11
-- Ham veri havuzu toplam mac sayisi: 12735
-- Hedef tarih: 08.09.2026 Europe/Istanbul
+- Kac mac bulundu: 109
+- Kac mac kaydedildi: 109
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 12844
+- Hedef tarih: 09.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS Next Pro
-- ABD USL Kupası Yarı Final
-- Brezilya Serie B
-- Copa Libertadores Çeyrek Final
-- Copa Sudamericana Çeyrek Final
-- El Salvador Primera Lig Apertura
+- Arjantin Ulusal Primera Lig
+- Avustralya FFA Kupası Yarı Final
+- Bosna-Hersek Premier Lig
+- Bulgaristan Süper Kupa
+- Danimarka DBU Kupası 3.Tur
+- Estonya Premium Lig
+- Finlandiya Veikkausliiga Şampiyonluk Grubu
+- Güney Afrika PSL
+- Güney Kore K Lig 1
+- Gürcistan Erovnuli Liga
+- Hollanda Eredivisie
+- Irak Premier Lig
+- Japonya J3 Lig
+- Japonya Lig Kupası 1.Tur
+- Kadınlar U20 Dünya Kupası Grup C
+- Kadınlar U20 Dünya Kupası Grup D
+- Karadağ 1.Lig
+- Kazakistan Premier Lig
 - Kolombiya Primera B Clausura
+- Kosova Süper Lig
+- Litvanya A Ligi
+- Malezya FA Kupası Son 16 Turu
+- Mısır Premier Lig
 - Paraguay Intermedia Lig
+- Portekiz Premier Lig
+- Portekiz U23 Ulusal Şampiyona
+- Suudi Arabistan 1.Lig
+- Suudi Arabistan Pro Lig
+- Tanzanya Kuu Bara Ligi
+- UEFA Şampiyonlar Ligi Lig Aşaması
+- Uganda Premier Lig
+- Uruguay Kupa Ön Eleme Turu Grup 4
+- Uruguay Kupa Ön Eleme Turu Grup 6
+- Yunanistan Kupa Lig Aşaması
+- Çek Cumhuriyeti Czech Liga
+- Çek Cumhuriyeti Kupa 3.Tur
+- Özbekistan Super League
+- İngiltere Championship
+- İngiltere FA Cup Eleme 1.Tur Tekrar
+- İngiltere Lig Kupası 3.Tur
+- İskoçya Premiership
+- İspanya De La Reina Kupası 1. Tur
+- İspanya Federasyon Kupası Son 32 Turu
+- İsveç Superettan
+- İzlanda 1.Lig Yükselme Play Off Yarı Final
 
 ## Okunabilen Oran Alanlari
 
@@ -78,8 +115,8 @@ Tarih: 2026-09-08T20:56:08.082375+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 8
-- Acilan detay: 8
+- Denenen Tumu alani: 57
+- Acilan detay: 57
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -92,17 +129,26 @@ Tarih: 2026-09-08T20:56:08.082375+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 09.09.2026 | 01:00 | Copa Libertadores Çeyrek Final | Fluminense | Platense | 16774 | 5 |
-| 09.09.2026 | 03:30 | Copa Sudamericana Çeyrek Final | Boca Juniors | Sao Paulo | 16961 | 5 |
-| 09.09.2026 | 01:00 | Copa Sudamericana Çeyrek Final | Santa Fe | Vasco Da Gama | 16893 | 5 |
-| 09.09.2026 | 03:30 | ABD USL Kupası Yarı Final | San Antonio | Louisville City | 12885 | 5 |
-| 09.09.2026 | 02:00 | ABD USL Kupası Yarı Final | Hartford Athle | Colorado Spring | 12314 | 5 |
-| 09.09.2026 | 02:30 | Brezilya Serie B | Cuiaba | Athletic Club | 15739 | 5 |
-| 09.09.2026 | 03:00 | Brezilya Serie B | Criciuma | Juventude | 15806 | 5 |
-| 09.09.2026 | 03:30 | Kolombiya Primera B Clausura | Internacional | Atletico Fc | 02410 | 5 |
-| 09.09.2026 | 00:00 | ABD MLS Next Pro | New York City | New York Rb Ii | 12310 | 3 |
-| 09.09.2026 | 01:00 | Paraguay Intermedia Lig | General Caball | Resistencia | 04624 | 5 |
-| 09.09.2026 | 03:00 | El Salvador Primera Lig Apertura | Inca-Aruba | Balboa | 12653 | 5 |
+| 09.09.2026 | 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Barcelona | Feyenoord | 54154 | 3 |
+| 09.09.2026 | 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Stuttgart | Viking | 54211 | 5 |
+| 09.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Napoli | Arsenal | 54347 | 5 |
+| 09.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Sporting Cp | Galatasaray | 54463 | 5 |
+| 09.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Liverpool | Atletico Madrid | 54273 | 5 |
+| 09.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Psg | Slovan Bratisla | 54407 | 4 |
+| 09.09.2026 | 19:45 | Hollanda Eredivisie | Twente | Telstar | 19223 | 5 |
+| 09.09.2026 | 22:45 | Portekiz Premier Lig | Moreirense | Benfica | 20329 | 4 |
+| 09.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Fateh | Diriyah | 12558 | 5 |
+| 09.09.2026 | 18:55 | Suudi Arabistan Pro Lig | Al Kholood | Al Shabab (Riya | 12494 | 5 |
+| 09.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya | Abha | 12680 | 4 |
+| 09.09.2026 | 21:45 | İngiltere Championship | Derby County | West Bromwich | 15280 | 5 |
+| 09.09.2026 | 21:45 | İngiltere Championship | Norwich | Birmingham | 15389 | 5 |
+| 09.09.2026 | 22:00 | İngiltere Championship | Charlton | Qpr | 15479 | 5 |
+| 09.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Chelsea | Leeds Utd | 15594 | 5 |
+| 09.09.2026 | 21:45 | İskoçya Premiership | Glasgow Ranger | St Mirren | 19816 | 5 |
+| 09.09.2026 | 22:00 | İskoçya Premiership | St Johnstone | Celtic | 19881 | 5 |
+| 09.09.2026 | 18:00 | Çek Cumhuriyeti Czech Liga | Jablonec | Banik Ostrava | 19076 | 5 |
+| 09.09.2026 | 20:00 | Çek Cumhuriyeti Czech Liga | Hradec Kralove | Viktoria Plzen | 19760 | 5 |
+| 09.09.2026 | 18:00 | Finlandiya Veikkausliiga Şampiyonluk Grubu | Helsinki | Inter Turku | 11229 | 5 |
 
 ## Sonuc
 

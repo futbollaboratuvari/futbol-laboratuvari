@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T20:57:03.543Z",
+  "generated_at": "2026-09-08T21:08:06.075Z",
   "timezone": "Europe/Istanbul",
   "source": "Haftalık 15 maç programı + Futbol Laboratuvarı PRO 13",
   "official_game_format_verified": true,
@@ -15,7 +15,7 @@
   "match_count": 15,
   "analysis_ready_count": 15,
   "analysis_waiting_count": 0,
-  "source_match_count": 82,
+  "source_match_count": 14,
   "verification_sources": [
     {
       "name": "Spor Toto Teşkilat Başkanlığı",
@@ -1766,9 +1766,9 @@
       "drawOdd": null,
       "twoOdd": null,
       "probabilities": {
-        "1": 55.2,
-        "2": 21,
-        "X": 23.8
+        "1": 53.6,
+        "2": 22.4,
+        "X": 24
       },
       "market_probabilities": {
         "1": null,
@@ -1793,44 +1793,44 @@
       "confidence_score": 70,
       "risk": "Orta",
       "risk_level": "Orta",
-      "data_completeness": 66,
-      "probability_gap": 31.4,
+      "data_completeness": 67,
+      "probability_gap": 29.6,
       "column_multiplier": 1,
       "reasons": [
-        "PRO 13: 1 olasılığı %55.2; ikinci seçenek %23.8.",
+        "PRO 13: 1 olasılığı %53.6; ikinci seçenek %24.0.",
         "Doğrulanmış sonuç hafızası mevcut; haftalık 1-X-2 kararı gerçek geçmiş sonuçlarla sınandı.",
-        "Gerçek sonuç arşivi: ev 3, deplasman 3 maç örneği kullanıldı.",
-        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 1 seçeneği %55.2 ile önde."
+        "Gerçek sonuç arşivi: ev 4, deplasman 3 maç örneği kullanıldı.",
+        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 1 seçeneği %53.6 ile önde."
       ],
       "model_version": "pro13-btts-conditioned-v3",
       "score_type": "spor_toto_1x2",
       "form": {
         "home": {
-          "count": 3,
-          "scored": 3,
-          "conceded": 2,
-          "bttsRate": 67,
-          "over25Rate": 67,
-          "over35Rate": 67,
-          "goalsForAvg": 2.67,
-          "goalsAgainstAvg": 1,
+          "count": 4,
+          "scored": 4,
+          "conceded": 3,
+          "bttsRate": 75,
+          "over25Rate": 75,
+          "over35Rate": 50,
+          "goalsForAvg": 2.25,
+          "goalsAgainstAvg": 1.25,
           "wins": 3,
           "draws": 0,
-          "losses": 0,
-          "winRate": 100,
+          "losses": 1,
+          "winRate": 75,
           "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 3,
+          "lossRate": 25,
+          "pointsPerGame": 2.25,
           "recent": [
             "W",
             "W",
             "W",
             "L"
           ],
-          "sample": 3,
-          "ppg": 3,
-          "goals_for_avg": 2.67,
-          "goals_against_avg": 1
+          "sample": 4,
+          "ppg": 2.25,
+          "goals_for_avg": 2.25,
+          "goals_against_avg": 1.25
         },
         "away": {
           "count": 3,
@@ -1881,9 +1881,9 @@
         "canonical_home": "Inter",
         "canonical_away": "Napoli",
         "archive_probabilities": {
-          "1": 50.4,
-          "2": 26.4,
-          "X": 23.2
+          "1": 48.3,
+          "2": 28.2,
+          "X": 23.5
         },
         "public_distribution": {
           "1": 66,
@@ -1891,12 +1891,12 @@
           "X": 25
         },
         "poisson": {
-          "home_lambda": 1.79,
-          "away_lambda": 1.24,
-          "samples": 6,
-          "reliability": 0.375
+          "home_lambda": 1.74,
+          "away_lambda": 1.28,
+          "samples": 7,
+          "reliability": 0.4375
         },
-        "agreement_score": 82.6
+        "agreement_score": 80.8
       }
     },
     {
@@ -2185,8 +2185,8 @@
   ],
   "archive_enrichment": {
     "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
-    "generated_at": "2026-09-08T20:57:03.277Z",
-    "archive_match_count": 12665,
+    "generated_at": "2026-09-08T21:08:05.856Z",
+    "archive_match_count": 12760,
     "archive_ready_count": 6,
     "distribution_ready_count": 15,
     "analysis_available_count": 15
