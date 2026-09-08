@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.09.2026 02:00:15
+Oluşturma: 09.09.2026 02:16:27
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1103
-- Kazanan tahmin: 210
-- Kaybeden tahmin: 187
-- Lig sayısı: 246
+- Bekleyen tahmin: 1122
+- Kazanan tahmin: 204
+- Kaybeden tahmin: 174
+- Lig sayısı: 247
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,28 +22,28 @@ Oluşturma: 09.09.2026 02:00:15
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 3, bekleyen 2, başarı %100, düz getiri %146, ağırlık 1
 - KG Var: toplam 3, bekleyen 2, başarı %100, düz getiri %93, ağırlık 1
-- MS X: toplam 2, bekleyen 1, başarı %100, düz getiri %146, ağırlık 1
-- 2.5 Üst: toplam 229, bekleyen 138, başarı %62, düz getiri %6, ağırlık 1
-- 2.5 Alt: toplam 543, bekleyen 404, başarı %53, düz getiri %-14, ağırlık 1
-- MS 1: toplam 504, bekleyen 392, başarı %48, düz getiri %-22, ağırlık 0.94
-- MS 2: toplam 219, bekleyen 166, başarı %47, düz getiri %-16, ağırlık 1
+- 2.5 Üst: toplam 229, bekleyen 142, başarı %61, düz getiri %5, ağırlık 1
+- 2.5 Alt: toplam 547, bekleyen 413, başarı %54, düz getiri %-12, ağırlık 1
+- MS 1: toplam 500, bekleyen 397, başarı %51, düz getiri %-18, ağırlık 1
+- MS 2: toplam 218, bekleyen 166, başarı %48, düz getiri %-15, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-09 | İspanya De La Reina Kupası 1. Tur | Samper (K) - Olympia Las Roz | MS 2 | pending | 48/100
-- 2026-09-09 | Paraguay Intermedia Lig | Depor Santani - Indep Cambo Gra | 2.5 Alt | pending | 53/100
-- 2026-09-09 | Kolombiya Primera B Clausura | Independiente - Quindio | MS 1 | pending | 46/100
-- 2026-09-09 | Güney Afrika PSL | Mamelodi Sundo - Siwelele | 2.5 Üst | pending | 61/100
-- 2026-09-09 | Suudi Arabistan 1.Lig | Jeddah Club - Al Orubah Club | 2.5 Alt | pending | 57/100
-- 2026-09-09 | Suudi Arabistan Pro Lig | Al Fateh - Diriyah | 2.5 Alt | pending | 67/100
-- 2026-09-09 | Uruguay Kupa Ön Eleme Turu Grup 4 | Racing Montevi - Central Espanol | MS 1 | pending | 47/100
-- 2026-09-09 | Uruguay Kupa Ön Eleme Turu Grup 6 | Boston River - Colon | 2.5 Alt | pending | 57/100
-- 2026-09-09 | Irak Premier Lig | Newroz - Al Mosul | 2.5 Alt | pending | 55/100
-- 2026-09-09 | Irak Premier Lig | Al Minaa Basra - Naft Maysan | 2.5 Alt | pending | 57/100
-- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Comillas - Lhospitalet | MS 2 | pending | 50/100
-- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Badalona - Sestao | MS 2 | pending | 48/100
-- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Torrent - Saguntino | MS 1 | pending | 45/100
-- 2026-09-09 | Karadağ 1.Lig | Decic Tuzi - Petrovac | MS 1 | pending | 43/100
-- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | San Juan - Terrassa | MS 2 | pending | 51/100
+- 2026-09-09 | ABD MLS | Minnesota Utd - Dallas | MS 1 | pending | 48/100
+- 2026-09-09 | Brezilya Serie B | Atletico Goian - Ceara | 2.5 Alt | pending | 57/100
+- 2026-09-09 | ABD MLS Next Pro | North Texas - Houston Dynamo | MS 2 | pending | 46/100
+- 2026-09-09 | El Salvador Primera Lig Apertura | Municipal Lime - Aguila | 2.5 Üst | pending | 60/100
+- 2026-09-09 | CONCACAF Orta Amerika Kupası Çeyrek Final | Deportivo Sapr - Cs Cartagines | 2.5 Alt | pending | 48/100
+- 2026-09-09 | Kolombiya Kupa Son 16 Turu | Deportivo Past - Independiente M | 2.5 Üst | pending | 59/100
+- 2026-09-09 | Guatemala Ulusal Lig Apertura | Suchitepequez - Guastatoya | 2.5 Üst | pending | 66/100
+- 2026-09-09 | ABD MLS | Vancouver - Los Angeles | MS 1 | pending | 57/100
+- 2026-09-09 | ABD MLS | Portland - St. Louis City | MS 1 | pending | 45/100
+- 2026-09-09 | ABD MLS | Los Angeles Fc - New York | MS 1 | pending | 57/100
+- 2026-09-09 | ABD MLS | San Diego - San Jose | MS 1 | pending | 52/100
+- 2026-09-09 | ABD MLS Next Pro | San Jose Earth - Ventura County | MS 1 | pending | 46/100
+- 2026-09-09 | CONCACAF Orta Amerika Kupası Çeyrek Final | Depor Motagua - Alianza | MS 1 | pending | 48/100
+- 2026-09-09 | ABD MLS | Austin - Colorado | 2.5 Üst | pending | 66/100
+- 2026-09-09 | Uruguay Kupa Ön Eleme Turu Grup 3 | Deportivo Mald - Montevideo Wand | 2.5 Alt | pending | 64/100
 
