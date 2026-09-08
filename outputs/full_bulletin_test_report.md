@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 105
+- Scheduled match count: 85
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-08 / 2026-09-09 23:59
 
-- 2026-09-08 21:00 | Atlanta United - Connecticut Uni | scheduled
-- 2026-09-08 21:00 | Claypole - Ballester | scheduled
-- 2026-09-08 21:00 | Al Gharraf - Al Shorta | scheduled
-- 2026-09-08 21:00 | Exeter - Tottenham U21 | scheduled
-- 2026-09-08 21:00 | Doncaster - Huddersfield | scheduled
-- 2026-09-08 21:00 | Fleetwood Town - Burnley U21 | scheduled
-- 2026-09-08 21:00 | Hull City U21 - Brentford U21 | scheduled
-- 2026-09-08 21:00 | Gateshead - Derby County U2 | scheduled
-- 2026-09-08 21:00 | Halifax - Wolverhampton U | scheduled
-- 2026-09-08 21:00 | Scunthorpe - Nottingham Fore | scheduled
+- 2026-09-08 21:30 | Aldershot - West Ham (B) | scheduled
+- 2026-09-08 21:30 | Braintree - Fulham (B) | scheduled
+- 2026-09-08 21:30 | Worthing - Norwich City U2 | scheduled
+- 2026-09-08 21:45 | Blackburn - Sheffield Utd | scheduled
+- 2026-09-08 21:45 | Cardiff - Stoke | scheduled
+- 2026-09-08 21:45 | Southam - Swansea | scheduled
+- 2026-09-08 21:45 | Watford - Prest | scheduled
+- 2026-09-08 21:45 | Wrexham - Burnley | scheduled
+- 2026-09-08 21:45 | Boldmere St. M - Bourne Town | scheduled
+- 2026-09-08 21:45 | Brentwood Town - Concord Rangers | scheduled
