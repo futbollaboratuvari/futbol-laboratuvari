@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.09.2026 02:47:44
+Oluşturma: 08.09.2026 03:45:04
 
 ## Özet
 
@@ -26,11 +26,13 @@ Oluşturma: 08.09.2026 02:47:44
 - MS X: toplam 2, bekleyen 1, başarı %100, düz getiri %146, ağırlık 1
 - 2.5 Üst: toplam 232, bekleyen 134, başarı %60, düz getiri %2, ağırlık 1
 - 2.5 Alt: toplam 530, bekleyen 397, başarı %56, düz getiri %-8, ağırlık 1
-- MS 2: toplam 233, bekleyen 188, başarı %44, düz getiri %-19, ağırlık 1
-- MS 1: toplam 501, bekleyen 400, başarı %44, düz getiri %-29, ağırlık 0.94
+- MS 2: toplam 234, bekleyen 189, başarı %44, düz getiri %-19, ağırlık 1
+- MS 1: toplam 500, bekleyen 399, başarı %44, düz getiri %-29, ağırlık 0.94
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-08 | Meksika Kadınlar Liga MX Apertura Grup 1 | Atlante (K) - Juarez (K) | MS 2 | pending | 52/100
+- 2026-09-08 | Güney Kore K Lig 1 | Ulsan - Fc Seoul | MS 2 | pending | 48/100
 - 2026-09-08 | UEFA Şampiyonlar Ligi Lig Aşaması | Porto - Manchester City | KG Var | pending | 56/100
 - 2026-09-08 | Copa Libertadores Çeyrek Final | Fluminense - Platense | 2.5 Üst | pending | 64/100
 - 2026-09-08 | İngiltere Ulusal Lig Kupası Grup B | Braintree - Fulham (B) | 2.5 Alt | pending | 49/100
@@ -44,6 +46,4 @@ Oluşturma: 08.09.2026 02:47:44
 - 2026-09-08 | UEFA Şampiyonlar Ligi Lig Aşaması | Lille - Real Betis | 2.5 Alt | pending | 61/100
 - 2026-09-08 | İngiltere Lig Kupası 3.Tur | Millwall - Newcastle Utd | MS 2 | pending | 62/100
 - 2026-09-08 | İngiltere Championship | Bolton - West Ham | MS 2 | pending | 70/100
-- 2026-09-08 | Copa Libertadores Çeyrek Final | Fluminense - Platense | MS 1 | pending | 58/100
-- 2026-09-08 | Copa Sudamericana Çeyrek Final | Santa Fe - Vasco Da Gama | 2.5 Alt | pending | 59/100
 

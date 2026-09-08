@@ -2,19 +2,15 @@
 
 Gunler: 2026-09-08 / 2026-09-09
 Kaynak: fixtures.json
-Ham mac: 165
-Aktif mac: 157
+Ham mac: 167
+Aktif mac: 154
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 146
+Bultenden dusurulen mac: 13
+Bugun: 143
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-09-08 03:00 | Ekvador Pro Lig | Emelec - Manta | scheduled | -
-- 2026-09-08 03:00 | Ekvador Pro Lig | Mushuc Runa - Leones Del Nort | scheduled | -
-- 2026-09-08 03:00 | Ekvador Pro Lig | Orense - Guayaquil City | scheduled | -
-- 2026-09-08 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Instituto Cordo | scheduled | -
 - 2026-09-08 04:06 | Meksika Kadınlar Liga MX Apertura Grup 1 | León (K) - Puebla (K) | scheduled | -
 - 2026-09-08 04:15 | Kolombiya Kupa Son 16 Turu | Atletico Nacio - Deportivo Cali | scheduled | -
 - 2026-09-08 11:45 | Malezya FA Kupası Son 16 Turu | Negeri Sembila (0) - (2) Kelantan Wts | scheduled | -
@@ -87,6 +83,7 @@ Yarin: 11
 - 2026-09-08 21:00 | İngiltere Ulusal Lig Kupası Grup D | Sutton United - Birmingham City | scheduled | -
 - 2026-09-08 21:00 | Karadağ 1.Lig | Sutjeska - Mornar Bar | scheduled | -
 - 2026-09-08 21:00 | Arjantin Primera C | Claypole - Ballester | scheduled | -
+- 2026-09-08 21:00 | Meksika Kadınlar Liga MX Apertura Grup 1 | Atlante (K) - Juarez (K) | scheduled | -
 - 2026-09-08 21:30 | İngiltere Ulusal Lig Kupası Grup B | Worthing - Norwich City U2 | scheduled | -
 - 2026-09-08 21:30 | İngiltere Ulusal Lig Kupası Grup B | Braintree - Fulham (B) | scheduled | -
 - 2026-09-08 21:30 | İngiltere Ulusal Lig Kupası Grup B | Aldershot - West Ham (B) | scheduled | -
