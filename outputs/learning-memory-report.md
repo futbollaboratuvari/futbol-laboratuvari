@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.09.2026 21:50:08
+Oluşturma: 08.09.2026 23:19:19
 
 ## Özet
 
@@ -25,12 +25,13 @@ Oluşturma: 08.09.2026 21:50:08
 - KG Var: toplam 3, bekleyen 2, başarı %100, düz getiri %93, ağırlık 1
 - MS X: toplam 2, bekleyen 1, başarı %100, düz getiri %146, ağırlık 1
 - 2.5 Üst: toplam 236, bekleyen 136, başarı %61, düz getiri %5, ağırlık 1
-- 2.5 Alt: toplam 536, bekleyen 398, başarı %56, düz getiri %-8, ağırlık 1
-- MS 1: toplam 503, bekleyen 404, başarı %44, düz getiri %-27, ağırlık 0.94
+- 2.5 Alt: toplam 535, bekleyen 397, başarı %56, düz getiri %-8, ağırlık 1
+- MS 1: toplam 504, bekleyen 405, başarı %44, düz getiri %-27, ağırlık 0.94
 - MS 2: toplam 220, bekleyen 174, başarı %41, düz getiri %-25, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-08 | İngiltere Premier Lig Kupası Grup E | Fleetwood Town - Burnley U21 | MS 1 | pending | 46/100
 - 2026-09-08 | İngiltere Ulusal Lig N / S Güney | Chesham United - Billericay Town | MS 1 | pending | 46/100
 - 2026-09-08 | İngiltere Ulusal Lig N / S Kuzey | Southport - Morecambe | 2.5 Alt | pending | 54/100
 - 2026-09-08 | İngiltere Ulusal Lig N / S Kuzey | Lynn Town - Hednesford Town | 2.5 Üst | pending | 53/100
@@ -45,5 +46,4 @@ Oluşturma: 08.09.2026 21:50:08
 - 2026-09-08 | Irak Premier Lig | Al Gharraf - Al Shorta | 2.5 Alt | pending | 55/100
 - 2026-09-08 | İspanya De La Reina Kupası 1. Tur | Huesca (K) - Zaragoza (K) | 2.5 Alt | pending | 54/100
 - 2026-09-08 | İspanya De La Reina Kupası 1. Tur | Alhama (K) - Fundacion Albac | MS 1 | pending | 50/100
-- 2026-09-08 | İngiltere Premier Lig Kupası Grup E | Fleetwood Town - Burnley U21 | 2.5 Alt | pending | 50/100
 

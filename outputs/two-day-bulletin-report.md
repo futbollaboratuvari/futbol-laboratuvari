@@ -2,22 +2,15 @@
 
 Gunler: 2026-09-08 / 2026-09-09
 Kaynak: fixtures.json
-Ham mac: 123
-Aktif mac: 20
+Ham mac: 117
+Aktif mac: 13
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 103
-Bugun: 7
+Bultenden dusurulen mac: 104
+Bugun: 0
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-08 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Porto - Manchester City | scheduled | -
-- 2026-09-08 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | B.Dortmund - Villarreal | scheduled | -
-- 2026-09-08 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Real Madrid - Inter | scheduled | -
-- 2026-09-08 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Lille - Real Betis | scheduled | -
-- 2026-09-08 22:00 | İngiltere Lig Kupası 3.Tur | Millwall - Newcastle Utd | scheduled | -
-- 2026-09-08 22:00 | İngiltere Championship | Bolton - West Ham | scheduled | -
-- 2026-09-08 22:00 | ABD MLS Next Pro | Toronto Fc Ii - Columbus Crew I | scheduled | -
 - 2026-09-09 00:00 | ABD MLS Next Pro | New York City - New York Rb Ii | scheduled | -
 - 2026-09-09 01:00 | Copa Libertadores Çeyrek Final | Fluminense - Platense | scheduled | -
 - 2026-09-09 01:00 | Copa Sudamericana Çeyrek Final | Santa Fe - Vasco Da Gama | scheduled | -
