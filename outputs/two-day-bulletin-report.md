@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-08 / 2026-09-09
 Kaynak: fixtures.json
-Ham mac: 167
-Aktif mac: 154
+Ham mac: 163
+Aktif mac: 152
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 13
-Bugun: 143
+Bultenden dusurulen mac: 11
+Bugun: 141
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-09-08 04:06 | Meksika Kadınlar Liga MX Apertura Grup 1 | León (K) - Puebla (K) | scheduled | -
-- 2026-09-08 04:15 | Kolombiya Kupa Son 16 Turu | Atletico Nacio - Deportivo Cali | scheduled | -
 - 2026-09-08 11:45 | Malezya FA Kupası Son 16 Turu | Negeri Sembila (0) - (2) Kelantan Wts | scheduled | -
 - 2026-09-08 12:00 | UEFA Gençlik Ligi Lig Aşaması | Aek Athens U19 - Lask U19 | scheduled | -
 - 2026-09-08 13:00 | İspanya Federasyon Kupası Son 32 Turu | Ud San Fernand - Orihuela | scheduled | -
