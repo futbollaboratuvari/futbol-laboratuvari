@@ -72,8 +72,9 @@
       if (!detail?.classList?.contains("flw-detail-row") || detail.dataset.bridgeEnhanced === id) return;
       const match = findMatch(id);
       if (!match) return;
-      const cards = detail.querySelectorAll(".flw-detail-card");
-      const target = cards[2];
+      const target = detail.querySelector(".flw-detail-summary") ||
+        Array.from(detail.querySelectorAll(".flw-detail-card")).find((card) =>
+          card.querySelector("b")?.textContent.trim() === "Özet Oranlar");
       if (!target) return;
       const markets = marketsFor(match);
       target.innerHTML = `<b>Gol ve Oran Detayları</b>${markets.length ? markets.map((market) => `<button type="button" class="flw-detail-bridge-odd" data-fl-detail-analysis="1" data-match-id="${esc(id)}" data-market-key="${esc(market.key)}" data-market-label="${esc(market.label)}" data-market-value="${esc(market.value)}"><span>${esc(market.label)}</span><strong>${esc(market.value)}</strong></button>`).join("") : `<div>Oran verisi bekleniyor</div>`}<div class="flw-detail-bridge-note">${esc(match.oddsSource || match.source || "Maçkolik veri akışı")} · Tıklanan oran özel analiz paneline aktarılır.</div>`;
