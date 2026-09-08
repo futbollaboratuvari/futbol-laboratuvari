@@ -2,25 +2,27 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-08T21:06:20.731Z
-- Ham maç sayısı: 13
+- Güncelleme: 2026-09-08T21:57:24.854Z
+- Ham maç sayısı: 14
 - Yarın bülteni maç sayısı: 0
-- Detay blok sayısı: 36
-- Aktif bülten maçı: 12
-- Bültenden düşürülen maç: 1
+- Detay blok sayısı: 37
+- Aktif bülten maçı: 14
+- Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Fluminense - Platense | Copa Libertadores Çeyrek Final | 01:00 | Veri bekleniyor | - | 1.46 | 7 |
-| Santa Fe - Vasco Da Gama | Copa Sudamericana Çeyrek Final | 01:00 | Veri bekleniyor | - | 2.06 | 8 |
-| General Caball - Resistencia | Paraguay Intermedia Lig | 01:00 | Veri bekleniyor | - | 1.78 | 8 |
-| Hartford Athle - Colorado Spring | ABD USL Kupası Yarı Final | 02:00 | Veri bekleniyor | - | 2.07 | 8 |
-| New York City - New York Rb Ii | ABD MLS Next Pro | 02:00 | Veri bekleniyor | - | 2.57 | 6 |
-| Toronto Fc Ii - Columbus Crew I | ABD MLS Next Pro | 02:00 | Veri bekleniyor | - | 1.95 | 6 |
-| Cuiaba - Athletic Club | Brezilya Serie B | 02:30 | Veri bekleniyor | - | 1.67 | 8 |
-| Criciuma - Juventude | Brezilya Serie B | 03:00 | Veri bekleniyor | - | 2.04 | 8 |
-| Inca-Aruba - Balboa | El Salvador Primera Lig Apertura | 03:00 | Veri bekleniyor | - | 2.76 | 8 |
-| Boca Juniors - Sao Paulo | Copa Sudamericana Çeyrek Final | 03:30 | Veri bekleniyor | - | 1.77 | 8 |
-| San Antonio - Louisville City | ABD USL Kupası Yarı Final | 03:30 | Veri bekleniyor | - | 3.05 | 8 |
-| Internacional - Atletico Fc | Kolombiya Primera B Clausura | 03:30 | Veri bekleniyor | - | 1.16 | 6 |
+| Napoli - Arsenal | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | 4.48 | 8 |
+| Sporting Cp - Galatasaray | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | 1.69 | 8 |
+| Liverpool - Atletico Madrid | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | 1.52 | 8 |
+| Psg - Slovan Bratisla | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | - | 5 |
+| Charlton - Qpr | İngiltere Championship | 22:00 | Veri bekleniyor | - | 2.81 | 8 |
+| Chelsea - Leeds Utd | İngiltere Lig Kupası 3.Tur | 22:00 | Veri bekleniyor | - | 1.47 | 8 |
+| St Johnstone - Celtic | İskoçya Premiership | 22:00 | Veri bekleniyor | - | 5.2 | 7 |
+| Al Karma - Naft | Irak Premier Lig | 22:00 | Veri bekleniyor | - | 1.51 | 7 |
+| Talavera Cf - Navalcarnero | İspanya Federasyon Kupası Son 32 Turu | 22:00 | Veri bekleniyor | - | 2.12 | 3 |
+| Samper (K) - Olympia Las Roz | İspanya De La Reina Kupası 1. Tur | 22:00 | Veri bekleniyor | - | 2.54 | 3 |
+| Hk Kopavogur - Fylkir | İzlanda 1.Lig Yükselme Play Off Yarı Final | 22:15 | Veri bekleniyor | - | 2.31 | 6 |
+| Depor Santani - Indep Cambo Gra | Paraguay Intermedia Lig | 22:30 | Veri bekleniyor | - | 1.63 | 8 |
+| Moreirense - Benfica | Portekiz Premier Lig | 22:45 | Veri bekleniyor | - | 13.45 | 5 |
+| Independiente - Quindio | Kolombiya Primera B Clausura | 23:30 | Veri bekleniyor | - | 2.1 | 8 |
