@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-08T05:24:56.030184+00:00
+Tarih: 2026-09-08T09:56:21.161162+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
 - Kac mac bulundu: 143
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 143
-- Ham veri havuzu toplam mac sayisi: 12726
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 141
+- Ham veri havuzu toplam mac sayisi: 12728
 - Hedef tarih: 08.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -36,10 +36,10 @@ Tarih: 2026-09-08T05:24:56.030184+00:00
 - Meksika Kadınlar Liga MX Apertura Grup 1
 - Mısır Premier Lig
 - Norveç NM Kupası 2.Tur
+- Paraguay Intermedia Lig
 - Portekiz U23 Ulusal Şampiyona
 - Suudi Arabistan 1.Lig
 - Suudi Arabistan Pro Lig
-- Tanzanya Kuu Bara Ligi
 - UEFA Gençlik Ligi Lig Aşaması
 - UEFA Şampiyonlar Ligi Lig Aşaması
 - Uganda Premier Lig
@@ -115,8 +115,8 @@ Tarih: 2026-09-08T05:24:56.030184+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 52
-- Acilan detay: 52
+- Denenen Tumu alani: 53
+- Acilan detay: 53
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -129,26 +129,26 @@ Tarih: 2026-09-08T05:24:56.030184+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 08.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Real Madrid | Inter | 54096 | 5 |
-| 08.09.2026 | 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Aek | Lask Linz | 53778 | 5 |
 | 08.09.2026 | 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Club Brugge | Aston Villa | 53836 | 5 |
 | 08.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | B.Dortmund | Villarreal | 53893 | 5 |
 | 08.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Lille | Real Betis | 53951 | 5 |
+| 08.09.2026 | 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Aek | Lask Linz | 53778 | 5 |
 | 08.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Porto | Manchester City | 54012 | 5 |
+| 08.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Real Madrid | Inter | 54096 | 5 |
+| 08.09.2026 | 19:45 | Hollanda Eredivisie | Nijmegen | Excelsior | 19126 | 5 |
+| 08.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci | Al Feiha | 12334 | 5 |
+| 08.09.2026 | 18:55 | Suudi Arabistan Pro Lig | Al Hazm | Al Taawon | 12100 | 5 |
+| 08.09.2026 | 18:30 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Faisaly | 11828 | 5 |
+| 08.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah | Al Ahli (Cidde) | 12399 | 5 |
+| 08.09.2026 | 22:00 | İngiltere Championship | Bolton | West Ham | 14953 | 5 |
+| 08.09.2026 | 21:45 | İngiltere Championship | Cardiff | Stoke | 13688 | 5 |
+| 08.09.2026 | 21:45 | İngiltere Championship | Blackburn | Sheffield Utd | 12948 | 5 |
+| 08.09.2026 | 21:45 | İngiltere Championship | Southam | Swansea | 14355 | 5 |
+| 08.09.2026 | 21:45 | İngiltere Championship | Watford | Prest | 14524 | 5 |
+| 08.09.2026 | 21:45 | İngiltere Championship | Wrexham | Burnley | 14613 | 5 |
 | 08.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Crystal Palace | Middlesbrough | 14192 | 5 |
 | 08.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Bournemouth | Lincoln | 13620 | 5 |
-| 08.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Leyton Orient | Bradford | 14300 | 5 |
 | 08.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Millwall | Newcastle Utd | 15154 | 5 |
-| 08.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Sunderland | Hull | 14466 | 5 |
-| 08.09.2026 | 19:45 | Hollanda Eredivisie | Nijmegen | Excelsior | 19126 | 5 |
-| 08.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah | Al Ahli (Cidde) | 12399 | 5 |
-| 08.09.2026 | 18:30 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Faisaly | 11828 | 5 |
-| 08.09.2026 | 18:55 | Suudi Arabistan Pro Lig | Al Hazm | Al Taawon | 12100 | 5 |
-| 08.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci | Al Feiha | 12334 | 5 |
-| 08.09.2026 | 15:00 | UEFA Gençlik Ligi Lig Aşaması | Club Brugge U1 | Aston Villa U19 | 14755 | 5 |
-| 08.09.2026 | 17:00 | UEFA Gençlik Ligi Lig Aşaması | B. Dortmund U1 | Villarreal U19 | 18963 | 5 |
-| 08.09.2026 | 14:00 | UEFA Gençlik Ligi Lig Aşaması | Porto U19 | Manchester City | 14715 | 5 |
-| 08.09.2026 | 17:00 | UEFA Gençlik Ligi Lig Aşaması | Real Madrid U1 | Internazionale | 18970 | 5 |
 
 ## Sonuc
 
