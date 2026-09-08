@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-08T08:51:52.067Z
+- Güncelleme: 2026-09-08T08:55:59.218Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -59,7 +59,7 @@
 | Al Zamalek Cai VS Abu Qair | Mısır Premier Lig | 20:00 | MS 1 | 1.25 | 63 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Smouha VS Ceramica Cleopa | Mısır Premier Lig | 20:00 | MS 2 | 2.11 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Asker VS Stromsgodset | Norveç NM Kupası 2.Tur | 20:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Astoria Walldo VS Stuttgarter Kic | Almanya Bölgesel Lig Güney Batı | 20:00 | 2.5 Alt | 1.47 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Astoria Walldo VS Stuttgarter Kic | Almanya Bölgesel Lig Güney Batı | 20:00 | 2.5 Alt | 1.45 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Offenbach VS Steinbach | Almanya Bölgesel Lig Güney Batı | 20:00 | MS 1 | 1.80 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Eintracht Trie VS Freiburg Ii | Almanya Bölgesel Lig Güney Batı | 20:00 | MS 1 | 2.10 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Al Anwar VS Al Taee | Suudi Arabistan 1.Lig | 20:30 | 2.5 Alt | 1.76 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -104,7 +104,7 @@
 | Berwick VS Hibernian Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 1.88 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Peterhead VS Clachnacuddin | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Ross County VS Aberdeen Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Banks O Dee VS Forfar | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 2 | 2.05 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Banks O Dee VS Forfar | İskoçya Challenge Kupası Lig Aşaması | 21:45 | 2.5 Alt | 1.37 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Clydebank Fc VS Alloa | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 2 | 1.49 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Cove Rangers VS Dumbarton | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Elgin VS Fraserburgh | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |

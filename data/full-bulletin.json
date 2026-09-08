@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T08:51:42.236Z",
+  "generated_at": "2026-09-08T08:55:49.812Z",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik İddaa Futbol",
   "status": "active",
@@ -252,6 +252,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -842,7 +843,11 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
       "wide_market_odds_count": 7,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -850,6 +855,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -888,6 +894,16 @@
       "ust25": 1.82,
       "over": 1.82,
       "ust": 1.82,
+      "homeScoredLast10": 4,
+      "awayScoredLast10": 4,
+      "homeConcededLast10": 4,
+      "awayConcededLast10": 4,
+      "bttsPercent": 49,
+      "over25Percent": 45,
+      "over35Percent": 27,
+      "firstHalfGoalTrend": 35,
+      "secondHalfGoalTrend": 55,
+      "leagueGoalAverage": 2.67,
       "flow_status": "scheduled",
       "mbs": null,
       "odds": {
@@ -978,7 +994,7 @@
           "over25Percent": null,
           "over35Percent": null
         },
-        "goal_expectation": null,
+        "goal_expectation": 2.67,
         "markets": [
           {
             "key": "ms1",
@@ -1486,8 +1502,8 @@
         "ms2": 2.21,
         "under25": 2.01,
         "over25": 1.4,
-        "bttsYes_guess": 1.3,
-        "bttsNo_guess": 1.13
+        "bttsYes_guess": 1.31,
+        "bttsNo_guess": 1.12
       },
       "market_odds_inventory": [
         "ms1",
@@ -1504,6 +1520,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -1542,8 +1559,8 @@
         "ms2": 2.21,
         "under25": 2.01,
         "over25": 1.4,
-        "bttsYes_guess": 1.3,
-        "bttsNo_guess": 1.13
+        "bttsYes_guess": 1.31,
+        "bttsNo_guess": 1.12
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -1580,13 +1597,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.3,
+          "odd": 1.31,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.13,
+          "odd": 1.12,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -1659,13 +1676,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.3,
+            "odd": 1.31,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.13,
+            "odd": 1.12,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -2132,8 +2149,8 @@
         "ms2": 2.96,
         "under25": 1.62,
         "over25": 1.69,
-        "bttsYes_guess": 1.14,
-        "bttsNo_guess": 1.15
+        "bttsYes_guess": 1.16,
+        "bttsNo_guess": 1.16
       },
       "market_odds_inventory": [
         "ms1",
@@ -2150,6 +2167,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -2188,8 +2206,8 @@
         "ms2": 2.96,
         "under25": 1.62,
         "over25": 1.69,
-        "bttsYes_guess": 1.14,
-        "bttsNo_guess": 1.15
+        "bttsYes_guess": 1.16,
+        "bttsNo_guess": 1.16
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -2226,13 +2244,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.14,
+          "odd": 1.16,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.15,
+          "odd": 1.16,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -2305,13 +2323,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.14,
+            "odd": 1.16,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.15,
+            "odd": 1.16,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -2778,7 +2796,7 @@
         "ms2": 2.77,
         "under25": 1.63,
         "over25": 1.68,
-        "bttsYes_guess": 1.17,
+        "bttsYes_guess": 1.18,
         "bttsNo_guess": 1.16
       },
       "market_odds_inventory": [
@@ -2796,6 +2814,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -2834,7 +2853,7 @@
         "ms2": 2.77,
         "under25": 1.63,
         "over25": 1.68,
-        "bttsYes_guess": 1.17,
+        "bttsYes_guess": 1.18,
         "bttsNo_guess": 1.16
       },
       "raw_odds_sequence": [],
@@ -2872,7 +2891,7 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.17,
+          "odd": 1.18,
           "source": "Robot ham veri havuzu"
         },
         {
@@ -2951,7 +2970,7 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.17,
+            "odd": 1.18,
             "source": "Robot ham veri havuzu"
           },
           {
@@ -3442,6 +3461,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -4070,8 +4090,8 @@
         "ms2": 1.79,
         "under25": 2.04,
         "over25": 1.45,
-        "bttsYes_guess": 1.53,
-        "bttsNo_guess": 1.17
+        "bttsYes_guess": 1.6,
+        "bttsNo_guess": 1.16
       },
       "market_odds_inventory": [
         "ms1",
@@ -4088,6 +4108,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -4126,8 +4147,8 @@
         "ms2": 1.79,
         "under25": 2.04,
         "over25": 1.45,
-        "bttsYes_guess": 1.53,
-        "bttsNo_guess": 1.17
+        "bttsYes_guess": 1.6,
+        "bttsNo_guess": 1.16
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -4164,13 +4185,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.53,
+          "odd": 1.6,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.17,
+          "odd": 1.16,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -4243,13 +4264,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.53,
+            "odd": 1.6,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.17,
+            "odd": 1.16,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -4704,7 +4725,11 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
       "wide_market_odds_count": 7,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -4712,6 +4737,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -4750,6 +4776,16 @@
       "ust25": 1.2,
       "over": 1.2,
       "ust": 1.2,
+      "homeScoredLast10": 6,
+      "awayScoredLast10": 6,
+      "homeConcededLast10": 4,
+      "awayConcededLast10": 4,
+      "bttsPercent": 45,
+      "over25Percent": 69,
+      "over35Percent": 51,
+      "firstHalfGoalTrend": 35,
+      "secondHalfGoalTrend": 51,
+      "leagueGoalAverage": 2.94,
       "flow_status": "scheduled",
       "mbs": null,
       "odds": {
@@ -4840,7 +4876,7 @@
           "over25Percent": null,
           "over35Percent": null
         },
-        "goal_expectation": null,
+        "goal_expectation": 2.94,
         "markets": [
           {
             "key": "ms1",
@@ -5366,6 +5402,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -5994,8 +6031,8 @@
         "ms2": 2.77,
         "under25": 2.11,
         "over25": 1.36,
-        "bttsYes_guess": 1.14,
-        "bttsNo_guess": 1.11
+        "bttsYes_guess": 1.18,
+        "bttsNo_guess": 1.13
       },
       "market_odds_inventory": [
         "ms1",
@@ -6012,6 +6049,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -6050,8 +6088,8 @@
         "ms2": 2.77,
         "under25": 2.11,
         "over25": 1.36,
-        "bttsYes_guess": 1.14,
-        "bttsNo_guess": 1.11
+        "bttsYes_guess": 1.18,
+        "bttsNo_guess": 1.13
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -6088,13 +6126,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.14,
+          "odd": 1.18,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.11,
+          "odd": 1.13,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -6167,13 +6205,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.14,
+            "odd": 1.18,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.11,
+            "odd": 1.13,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -6658,6 +6696,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -7220,6 +7259,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -7502,6 +7542,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -8096,6 +8137,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -8742,6 +8784,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -9506,7 +9549,9 @@
         "msx",
         "ms2",
         "under25",
-        "over25"
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
       "wide_market_odds_count": 7,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -9514,6 +9559,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -9552,6 +9598,11 @@
       "ust25": 1.94,
       "over": 1.94,
       "ust": 1.94,
+      "homeConcededLast10": 6,
+      "awayConcededLast10": 6,
+      "bttsPercent": 69,
+      "firstHalfGoalTrend": 55,
+      "secondHalfGoalTrend": 75,
       "flow_status": "scheduled",
       "mbs": null,
       "odds": {
@@ -10145,7 +10196,9 @@
         "msx",
         "ms2",
         "under25",
-        "over25"
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
       "wide_market_odds_count": 7,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -10153,6 +10206,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -10191,6 +10245,11 @@
       "ust25": 2.1,
       "over": 2.1,
       "ust": 2.1,
+      "homeConcededLast10": 4,
+      "awayConcededLast10": 4,
+      "bttsPercent": 42,
+      "firstHalfGoalTrend": 35,
+      "secondHalfGoalTrend": 48,
       "flow_status": "scheduled",
       "mbs": null,
       "odds": {
@@ -10784,7 +10843,9 @@
         "msx",
         "ms2",
         "under25",
-        "over25"
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
       "wide_market_odds_count": 7,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -10792,6 +10853,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -10830,6 +10892,11 @@
       "ust25": 2.16,
       "over": 2.16,
       "ust": 2.16,
+      "homeConcededLast10": 4,
+      "awayConcededLast10": 4,
+      "bttsPercent": 52,
+      "firstHalfGoalTrend": 38,
+      "secondHalfGoalTrend": 58,
       "flow_status": "scheduled",
       "mbs": null,
       "odds": {
@@ -11428,8 +11495,8 @@
         "ms2": 1.83,
         "under25": 1.72,
         "over25": 1.59,
-        "bttsYes_guess": 1.65,
-        "bttsNo_guess": 1.12
+        "bttsYes_guess": 1.48,
+        "bttsNo_guess": 1.14
       },
       "market_odds_inventory": [
         "ms1",
@@ -11446,6 +11513,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -11484,8 +11552,8 @@
         "ms2": 1.83,
         "under25": 1.72,
         "over25": 1.59,
-        "bttsYes_guess": 1.65,
-        "bttsNo_guess": 1.12
+        "bttsYes_guess": 1.48,
+        "bttsNo_guess": 1.14
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -11522,13 +11590,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.65,
+          "odd": 1.48,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.12,
+          "odd": 1.14,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -11601,13 +11669,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.65,
+            "odd": 1.48,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.12,
+            "odd": 1.14,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -12092,6 +12160,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -12739,6 +12808,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -13366,8 +13436,8 @@
         "ms2": 1.86,
         "under25": 1.84,
         "over25": 1.5,
-        "bttsYes_guess": 1.49,
-        "bttsNo_guess": 1.13
+        "bttsYes_guess": 1.46,
+        "bttsNo_guess": 1.14
       },
       "market_odds_inventory": [
         "ms1",
@@ -13384,6 +13454,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -13422,8 +13493,8 @@
         "ms2": 1.86,
         "under25": 1.84,
         "over25": 1.5,
-        "bttsYes_guess": 1.49,
-        "bttsNo_guess": 1.13
+        "bttsYes_guess": 1.46,
+        "bttsNo_guess": 1.14
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -13460,13 +13531,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.49,
+          "odd": 1.46,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.13,
+          "odd": 1.14,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -13539,13 +13610,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.49,
+            "odd": 1.46,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.13,
+            "odd": 1.14,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -14030,6 +14101,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -14592,6 +14664,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -15118,6 +15191,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -15400,6 +15474,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -15976,8 +16051,8 @@
         "ms2": 4.59,
         "under25": 2.09,
         "over25": 1.44,
-        "bttsYes_guess": 1.08,
-        "bttsNo_guess": 2.19
+        "bttsYes_guess": 1.05,
+        "bttsNo_guess": 1.1
       },
       "market_odds_inventory": [
         "ms1",
@@ -15994,6 +16069,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -16032,8 +16108,8 @@
         "ms2": 4.59,
         "under25": 2.09,
         "over25": 1.44,
-        "bttsYes_guess": 1.08,
-        "bttsNo_guess": 2.19
+        "bttsYes_guess": 1.05,
+        "bttsNo_guess": 1.1
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -16070,13 +16146,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.08,
+          "odd": 1.05,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 2.19,
+          "odd": 1.1,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -16149,13 +16225,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.08,
+            "odd": 1.05,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 2.19,
+            "odd": 1.1,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -16764,7 +16840,7 @@
         "under25": 1.93,
         "over25": 1.52,
         "bttsYes_guess": 1.09,
-        "bttsNo_guess": 2.14
+        "bttsNo_guess": 2.07
       },
       "market_odds_inventory": [
         "ms1",
@@ -16781,6 +16857,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -16820,7 +16897,7 @@
         "under25": 1.93,
         "over25": 1.52,
         "bttsYes_guess": 1.09,
-        "bttsNo_guess": 2.14
+        "bttsNo_guess": 2.07
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -16863,7 +16940,7 @@
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 2.14,
+          "odd": 2.07,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -16942,7 +17019,7 @@
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 2.14,
+            "odd": 2.07,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -17409,8 +17486,8 @@
         "ms2": 2.4,
         "under25": 1.89,
         "over25": 1.54,
-        "bttsYes_guess": 1.25,
-        "bttsNo_guess": 1.17
+        "bttsYes_guess": 1.31,
+        "bttsNo_guess": 1.16
       },
       "market_odds_inventory": [
         "ms1",
@@ -17427,6 +17504,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -17465,8 +17543,8 @@
         "ms2": 2.4,
         "under25": 1.89,
         "over25": 1.54,
-        "bttsYes_guess": 1.25,
-        "bttsNo_guess": 1.17
+        "bttsYes_guess": 1.31,
+        "bttsNo_guess": 1.16
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -17503,13 +17581,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.25,
+          "odd": 1.31,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.17,
+          "odd": 1.16,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -17582,13 +17660,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.25,
+            "odd": 1.31,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.17,
+            "odd": 1.16,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -18056,7 +18134,7 @@
         "under25": 1.65,
         "over25": 1.75,
         "bttsYes_guess": 1.17,
-        "bttsNo_guess": 1.19
+        "bttsNo_guess": 1.18
       },
       "market_odds_inventory": [
         "ms1",
@@ -18073,6 +18151,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -18112,7 +18191,7 @@
         "under25": 1.65,
         "over25": 1.75,
         "bttsYes_guess": 1.17,
-        "bttsNo_guess": 1.19
+        "bttsNo_guess": 1.18
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -18155,7 +18234,7 @@
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.19,
+          "odd": 1.18,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -18234,7 +18313,7 @@
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.19,
+            "odd": 1.18,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -18719,6 +18798,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -19507,6 +19587,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -20275,8 +20356,8 @@
         "ms2": 4.73,
         "under25": 1.61,
         "over25": 1.7,
-        "bttsYes_guess": 1.08,
-        "bttsNo_guess": 2.06
+        "bttsYes_guess": 1.1,
+        "bttsNo_guess": 1.88
       },
       "market_odds_inventory": [
         "ms1",
@@ -20293,6 +20374,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -20331,8 +20413,8 @@
         "ms2": 4.73,
         "under25": 1.61,
         "over25": 1.7,
-        "bttsYes_guess": 1.08,
-        "bttsNo_guess": 2.06
+        "bttsYes_guess": 1.1,
+        "bttsNo_guess": 1.88
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -20369,13 +20451,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.08,
+          "odd": 1.1,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 2.06,
+          "odd": 1.88,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -20448,13 +20530,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.08,
+            "odd": 1.1,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 2.06,
+            "odd": 1.88,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -20939,6 +21021,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -21567,8 +21650,8 @@
         "ms2": 1.53,
         "under25": 1.55,
         "over25": 1.77,
-        "bttsYes_guess": 1.84,
-        "bttsNo_guess": 1.09
+        "bttsYes_guess": 1.73,
+        "bttsNo_guess": 1.12
       },
       "market_odds_inventory": [
         "ms1",
@@ -21585,6 +21668,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -21623,8 +21707,8 @@
         "ms2": 1.53,
         "under25": 1.55,
         "over25": 1.77,
-        "bttsYes_guess": 1.84,
-        "bttsNo_guess": 1.09
+        "bttsYes_guess": 1.73,
+        "bttsNo_guess": 1.12
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -21661,13 +21745,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.84,
+          "odd": 1.73,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.09,
+          "odd": 1.12,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -21740,13 +21824,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.84,
+            "odd": 1.73,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.09,
+            "odd": 1.12,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -22213,8 +22297,8 @@
         "ms2": 1.88,
         "under25": 1.69,
         "over25": 1.61,
-        "bttsYes_guess": 1.46,
-        "bttsNo_guess": 1.15
+        "bttsYes_guess": 1.44,
+        "bttsNo_guess": 1.16
       },
       "market_odds_inventory": [
         "ms1",
@@ -22231,6 +22315,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -22269,8 +22354,8 @@
         "ms2": 1.88,
         "under25": 1.69,
         "over25": 1.61,
-        "bttsYes_guess": 1.46,
-        "bttsNo_guess": 1.15
+        "bttsYes_guess": 1.44,
+        "bttsNo_guess": 1.16
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -22307,13 +22392,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.46,
+          "odd": 1.44,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.15,
+          "odd": 1.16,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -22386,13 +22471,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.46,
+            "odd": 1.44,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.15,
+            "odd": 1.16,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -22859,8 +22944,8 @@
         "ms2": 2.45,
         "under25": 1.59,
         "over25": 1.72,
-        "bttsYes_guess": 1.23,
-        "bttsNo_guess": 1.15
+        "bttsYes_guess": 1.24,
+        "bttsNo_guess": 1.17
       },
       "market_odds_inventory": [
         "ms1",
@@ -22877,6 +22962,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -22915,8 +23001,8 @@
         "ms2": 2.45,
         "under25": 1.59,
         "over25": 1.72,
-        "bttsYes_guess": 1.23,
-        "bttsNo_guess": 1.15
+        "bttsYes_guess": 1.24,
+        "bttsNo_guess": 1.17
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -22953,13 +23039,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.23,
+          "odd": 1.24,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.15,
+          "odd": 1.17,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -23032,13 +23118,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.23,
+            "odd": 1.24,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.15,
+            "odd": 1.17,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -23505,8 +23591,8 @@
         "ms2": 1.69,
         "under25": 2.09,
         "over25": 1.44,
-        "bttsYes_guess": 1.65,
-        "bttsNo_guess": 1.15
+        "bttsYes_guess": 1.68,
+        "bttsNo_guess": 1.14
       },
       "market_odds_inventory": [
         "ms1",
@@ -23523,6 +23609,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -23561,8 +23648,8 @@
         "ms2": 1.69,
         "under25": 2.09,
         "over25": 1.44,
-        "bttsYes_guess": 1.65,
-        "bttsNo_guess": 1.15
+        "bttsYes_guess": 1.68,
+        "bttsNo_guess": 1.14
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -23599,13 +23686,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.65,
+          "odd": 1.68,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.15,
+          "odd": 1.14,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -23678,13 +23765,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.65,
+            "odd": 1.68,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.15,
+            "odd": 1.14,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -23972,6 +24059,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -24562,7 +24650,7 @@
         "under25": 1.84,
         "over25": 1.5,
         "bttsYes_guess": 1.13,
-        "bttsNo_guess": 1.1
+        "bttsNo_guess": 1.13
       },
       "market_odds_inventory": [
         "ms1",
@@ -24579,6 +24667,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -24618,7 +24707,7 @@
         "under25": 1.84,
         "over25": 1.5,
         "bttsYes_guess": 1.13,
-        "bttsNo_guess": 1.1
+        "bttsNo_guess": 1.13
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -24661,7 +24750,7 @@
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.1,
+          "odd": 1.13,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -24740,7 +24829,7 @@
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.1,
+            "odd": 1.13,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -25207,8 +25296,8 @@
         "ms2": 2.42,
         "under25": 1.52,
         "over25": 1.81,
-        "bttsYes_guess": 1.23,
-        "bttsNo_guess": 1.16
+        "bttsYes_guess": 1.25,
+        "bttsNo_guess": 1.17
       },
       "market_odds_inventory": [
         "ms1",
@@ -25225,6 +25314,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -25263,8 +25353,8 @@
         "ms2": 2.42,
         "under25": 1.52,
         "over25": 1.81,
-        "bttsYes_guess": 1.23,
-        "bttsNo_guess": 1.16
+        "bttsYes_guess": 1.25,
+        "bttsNo_guess": 1.17
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -25301,13 +25391,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.23,
+          "odd": 1.25,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.16,
+          "odd": 1.17,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -25380,13 +25470,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.23,
+            "odd": 1.25,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.16,
+            "odd": 1.17,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -25854,7 +25944,7 @@
         "under25": 2.6,
         "over25": 1.26,
         "bttsYes_guess": 1.06,
-        "bttsNo_guess": 1.08
+        "bttsNo_guess": 1.09
       },
       "market_odds_inventory": [
         "ms1",
@@ -25871,6 +25961,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -25910,7 +26001,7 @@
         "under25": 2.6,
         "over25": 1.26,
         "bttsYes_guess": 1.06,
-        "bttsNo_guess": 1.08
+        "bttsNo_guess": 1.09
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -25953,7 +26044,7 @@
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.08,
+          "odd": 1.09,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -26032,7 +26123,7 @@
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.08,
+            "odd": 1.09,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -26499,8 +26590,8 @@
         "ms2": 3.83,
         "under25": 2.07,
         "over25": 1.44,
-        "bttsYes_guess": 1.1,
-        "bttsNo_guess": 1.14
+        "bttsYes_guess": 1.09,
+        "bttsNo_guess": 1.13
       },
       "market_odds_inventory": [
         "ms1",
@@ -26517,6 +26608,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -26555,8 +26647,8 @@
         "ms2": 3.83,
         "under25": 2.07,
         "over25": 1.44,
-        "bttsYes_guess": 1.1,
-        "bttsNo_guess": 1.14
+        "bttsYes_guess": 1.09,
+        "bttsNo_guess": 1.13
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -26593,13 +26685,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.1,
+          "odd": 1.09,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.14,
+          "odd": 1.13,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -26672,13 +26764,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.1,
+            "odd": 1.09,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.14,
+            "odd": 1.13,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -27145,7 +27237,7 @@
         "ms2": 2.44,
         "under25": 1.92,
         "over25": 1.52,
-        "bttsYes_guess": 1.34,
+        "bttsYes_guess": 1.3,
         "bttsNo_guess": 1.17
       },
       "market_odds_inventory": [
@@ -27163,6 +27255,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -27201,7 +27294,7 @@
         "ms2": 2.44,
         "under25": 1.92,
         "over25": 1.52,
-        "bttsYes_guess": 1.34,
+        "bttsYes_guess": 1.3,
         "bttsNo_guess": 1.17
       },
       "raw_odds_sequence": [],
@@ -27239,7 +27332,7 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.34,
+          "odd": 1.3,
           "source": "Robot ham veri havuzu"
         },
         {
@@ -27318,7 +27411,7 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.34,
+            "odd": 1.3,
             "source": "Robot ham veri havuzu"
           },
           {
@@ -27550,8 +27643,8 @@
         "ms1": 2.75,
         "msx": 3.22,
         "ms2": 1.86,
-        "under25": 1.47,
-        "over25": 1.13
+        "under25": 1.45,
+        "over25": 1.12
       },
       "market_odds_inventory": [
         "ms1",
@@ -27566,6 +27659,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -27602,8 +27696,8 @@
         "ms1": 2.75,
         "msx": 3.22,
         "ms2": 1.86,
-        "under25": 1.47,
-        "over25": 1.13
+        "under25": 1.45,
+        "over25": 1.12
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -27628,13 +27722,13 @@
         {
           "key": "under25",
           "label": "2.5 Alt",
-          "odd": 1.47,
+          "odd": 1.45,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "over25",
           "label": "2.5 Ust",
-          "odd": 1.13,
+          "odd": 1.12,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -27695,13 +27789,13 @@
           {
             "key": "under25",
             "label": "2.5 Alt",
-            "odd": 1.47,
+            "odd": 1.45,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "over25",
             "label": "2.5 Ust",
-            "odd": 1.13,
+            "odd": 1.12,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -27944,6 +28038,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -28305,8 +28400,8 @@
         "ms1": 1.8,
         "msx": 3.37,
         "ms2": 2.78,
-        "under25": 1.16,
-        "over25": 1.1
+        "under25": 1.17,
+        "over25": 1.11
       },
       "market_odds_inventory": [
         "ms1",
@@ -28321,6 +28416,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -28357,8 +28453,8 @@
         "ms1": 1.8,
         "msx": 3.37,
         "ms2": 2.78,
-        "under25": 1.16,
-        "over25": 1.1
+        "under25": 1.17,
+        "over25": 1.11
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -28383,13 +28479,13 @@
         {
           "key": "under25",
           "label": "2.5 Alt",
-          "odd": 1.16,
+          "odd": 1.17,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "over25",
           "label": "2.5 Ust",
-          "odd": 1.1,
+          "odd": 1.11,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -28450,13 +28546,13 @@
           {
             "key": "under25",
             "label": "2.5 Alt",
-            "odd": 1.16,
+            "odd": 1.17,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "over25",
             "label": "2.5 Ust",
-            "odd": 1.1,
+            "odd": 1.11,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -29065,7 +29161,7 @@
         "under25": 1.67,
         "over25": 1.63,
         "bttsYes_guess": 1.06,
-        "bttsNo_guess": 2.28
+        "bttsNo_guess": 2.27
       },
       "market_odds_inventory": [
         "ms1",
@@ -29082,6 +29178,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -29121,7 +29218,7 @@
         "under25": 1.67,
         "over25": 1.63,
         "bttsYes_guess": 1.06,
-        "bttsNo_guess": 2.28
+        "bttsNo_guess": 2.27
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -29164,7 +29261,7 @@
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 2.28,
+          "odd": 2.27,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -29243,7 +29340,7 @@
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 2.28,
+            "odd": 2.27,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -29710,8 +29807,8 @@
         "ms2": 2.11,
         "under25": 1.21,
         "over25": 2.63,
-        "bttsYes_guess": 1.34,
-        "bttsNo_guess": 1.25
+        "bttsYes_guess": 1.35,
+        "bttsNo_guess": 1.23
       },
       "market_odds_inventory": [
         "ms1",
@@ -29728,6 +29825,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -29766,8 +29864,8 @@
         "ms2": 2.11,
         "under25": 1.21,
         "over25": 2.63,
-        "bttsYes_guess": 1.34,
-        "bttsNo_guess": 1.25
+        "bttsYes_guess": 1.35,
+        "bttsNo_guess": 1.23
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -29804,13 +29902,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.34,
+          "odd": 1.35,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.25,
+          "odd": 1.23,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -29883,13 +29981,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.34,
+            "odd": 1.35,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.25,
+            "odd": 1.23,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -30177,6 +30275,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -30785,6 +30884,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -31188,6 +31288,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -31548,8 +31649,8 @@
         "ms1": 1.98,
         "msx": 2.65,
         "ms2": 3.05,
-        "under25": 1.16,
-        "over25": 1.2
+        "under25": 1.14,
+        "over25": 1.21
       },
       "market_odds_inventory": [
         "ms1",
@@ -31564,6 +31665,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -31600,8 +31702,8 @@
         "ms1": 1.98,
         "msx": 2.65,
         "ms2": 3.05,
-        "under25": 1.16,
-        "over25": 1.2
+        "under25": 1.14,
+        "over25": 1.21
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -31626,13 +31728,13 @@
         {
           "key": "under25",
           "label": "2.5 Alt",
-          "odd": 1.16,
+          "odd": 1.14,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "over25",
           "label": "2.5 Ust",
-          "odd": 1.2,
+          "odd": 1.21,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -31693,13 +31795,13 @@
           {
             "key": "under25",
             "label": "2.5 Alt",
-            "odd": 1.16,
+            "odd": 1.14,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "over25",
             "label": "2.5 Ust",
-            "odd": 1.2,
+            "odd": 1.21,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -32184,6 +32286,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -32831,6 +32934,7 @@
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -33235,6 +33339,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -33612,6 +33717,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -33973,8 +34079,8 @@
         "ms1": 1.73,
         "msx": 3.49,
         "ms2": 2.87,
-        "under25": 1.18,
-        "over25": 1.1
+        "under25": 1.16,
+        "over25": 1.09
       },
       "market_odds_inventory": [
         "ms1",
@@ -33989,6 +34095,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -34025,8 +34132,8 @@
         "ms1": 1.73,
         "msx": 3.49,
         "ms2": 2.87,
-        "under25": 1.18,
-        "over25": 1.1
+        "under25": 1.16,
+        "over25": 1.09
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -34051,13 +34158,13 @@
         {
           "key": "under25",
           "label": "2.5 Alt",
-          "odd": 1.18,
+          "odd": 1.16,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "over25",
           "label": "2.5 Ust",
-          "odd": 1.1,
+          "odd": 1.09,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -34118,13 +34225,13 @@
           {
             "key": "under25",
             "label": "2.5 Alt",
-            "odd": 1.18,
+            "odd": 1.16,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "over25",
             "label": "2.5 Ust",
-            "odd": 1.1,
+            "odd": 1.09,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -34351,7 +34458,7 @@
         "ms1": 1.63,
         "msx": 3.55,
         "ms2": 3.19,
-        "under25": 1.1,
+        "under25": 1.12,
         "over25": 1.09
       },
       "market_odds_inventory": [
@@ -34367,6 +34474,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -34403,7 +34511,7 @@
         "ms1": 1.63,
         "msx": 3.55,
         "ms2": 3.19,
-        "under25": 1.1,
+        "under25": 1.12,
         "over25": 1.09
       },
       "raw_odds_sequence": [],
@@ -34429,7 +34537,7 @@
         {
           "key": "under25",
           "label": "2.5 Alt",
-          "odd": 1.1,
+          "odd": 1.12,
           "source": "Robot ham veri havuzu"
         },
         {
@@ -34496,7 +34604,7 @@
           {
             "key": "under25",
             "label": "2.5 Alt",
-            "odd": 1.1,
+            "odd": 1.12,
             "source": "Robot ham veri havuzu"
           },
           {
@@ -34729,7 +34837,7 @@
         "ms1": 1.63,
         "msx": 3.5,
         "ms2": 3.23,
-        "under25": 1.11,
+        "under25": 1.12,
         "over25": 1.09
       },
       "market_odds_inventory": [
@@ -34745,6 +34853,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -34781,7 +34890,7 @@
         "ms1": 1.63,
         "msx": 3.5,
         "ms2": 3.23,
-        "under25": 1.11,
+        "under25": 1.12,
         "over25": 1.09
       },
       "raw_odds_sequence": [],
@@ -34807,7 +34916,7 @@
         {
           "key": "under25",
           "label": "2.5 Alt",
-          "odd": 1.11,
+          "odd": 1.12,
           "source": "Robot ham veri havuzu"
         },
         {
@@ -34874,7 +34983,7 @@
           {
             "key": "under25",
             "label": "2.5 Alt",
-            "odd": 1.11,
+            "odd": 1.12,
             "source": "Robot ham veri havuzu"
           },
           {
@@ -35039,6 +35148,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -35392,6 +35502,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -35685,6 +35796,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -36037,6 +36149,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -36415,6 +36528,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -36919,7 +37033,7 @@
         "msx": 4.1,
         "ms2": 4.49,
         "under25": 1.05,
-        "over25": 2.04
+        "over25": 2.03
       },
       "market_odds_inventory": [
         "ms1",
@@ -36934,6 +37048,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -36971,7 +37086,7 @@
         "msx": 4.1,
         "ms2": 4.49,
         "under25": 1.05,
-        "over25": 2.04
+        "over25": 2.03
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -37002,7 +37117,7 @@
         {
           "key": "over25",
           "label": "2.5 Ust",
-          "odd": 2.04,
+          "odd": 2.03,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -37069,7 +37184,7 @@
           {
             "key": "over25",
             "label": "2.5 Ust",
-            "odd": 2.04,
+            "odd": 2.03,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -37554,6 +37669,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -38200,6 +38316,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -38765,6 +38882,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -39367,7 +39485,7 @@
         "ms2": 2.91,
         "under25": 2.07,
         "over25": 1.37,
-        "bttsYes_guess": 1.14,
+        "bttsYes_guess": 1.16,
         "bttsNo_guess": 1.11
       },
       "market_odds_inventory": [
@@ -39385,6 +39503,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -39423,7 +39542,7 @@
         "ms2": 2.91,
         "under25": 2.07,
         "over25": 1.37,
-        "bttsYes_guess": 1.14,
+        "bttsYes_guess": 1.16,
         "bttsNo_guess": 1.11
       },
       "raw_odds_sequence": [],
@@ -39461,7 +39580,7 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.14,
+          "odd": 1.16,
           "source": "Robot ham veri havuzu"
         },
         {
@@ -39540,7 +39659,7 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.14,
+            "odd": 1.16,
             "source": "Robot ham veri havuzu"
           },
           {
@@ -39789,6 +39908,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -40150,8 +40270,8 @@
         "ms1": 2.21,
         "msx": 3.33,
         "ms2": 2.19,
-        "under25": 1.33,
-        "over25": 1.1
+        "under25": 1.31,
+        "over25": 1.11
       },
       "market_odds_inventory": [
         "ms1",
@@ -40166,6 +40286,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -40202,8 +40323,8 @@
         "ms1": 2.21,
         "msx": 3.33,
         "ms2": 2.19,
-        "under25": 1.33,
-        "over25": 1.1
+        "under25": 1.31,
+        "over25": 1.11
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -40228,13 +40349,13 @@
         {
           "key": "under25",
           "label": "2.5 Alt",
-          "odd": 1.33,
+          "odd": 1.31,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "over25",
           "label": "2.5 Ust",
-          "odd": 1.1,
+          "odd": 1.11,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -40295,13 +40416,13 @@
           {
             "key": "under25",
             "label": "2.5 Alt",
-            "odd": 1.33,
+            "odd": 1.31,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "over25",
             "label": "2.5 Ust",
-            "odd": 1.1,
+            "odd": 1.11,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -40544,6 +40665,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -41164,6 +41286,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -41792,7 +41915,7 @@
         "ms2": 2.88,
         "under25": 2.09,
         "over25": 1.43,
-        "bttsYes_guess": 1.22,
+        "bttsYes_guess": 1.21,
         "bttsNo_guess": 1.16
       },
       "market_odds_inventory": [
@@ -41810,6 +41933,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -41848,7 +41972,7 @@
         "ms2": 2.88,
         "under25": 2.09,
         "over25": 1.43,
-        "bttsYes_guess": 1.22,
+        "bttsYes_guess": 1.21,
         "bttsNo_guess": 1.16
       },
       "raw_odds_sequence": [],
@@ -41886,7 +42010,7 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.22,
+          "odd": 1.21,
           "source": "Robot ham veri havuzu"
         },
         {
@@ -41965,7 +42089,7 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.22,
+            "odd": 1.21,
             "source": "Robot ham veri havuzu"
           },
           {
@@ -42438,7 +42562,7 @@
         "ms2": 3.38,
         "under25": 1.82,
         "over25": 1.59,
-        "bttsYes_guess": 1.13,
+        "bttsYes_guess": 1.14,
         "bttsNo_guess": 1.15
       },
       "market_odds_inventory": [
@@ -42456,6 +42580,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -42494,7 +42619,7 @@
         "ms2": 3.38,
         "under25": 1.82,
         "over25": 1.59,
-        "bttsYes_guess": 1.13,
+        "bttsYes_guess": 1.14,
         "bttsNo_guess": 1.15
       },
       "raw_odds_sequence": [],
@@ -42532,7 +42657,7 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.13,
+          "odd": 1.14,
           "source": "Robot ham veri havuzu"
         },
         {
@@ -42611,7 +42736,7 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.13,
+            "odd": 1.14,
             "source": "Robot ham veri havuzu"
           },
           {
@@ -43102,6 +43227,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -43730,7 +43856,7 @@
         "ms2": 3.28,
         "under25": 1.73,
         "over25": 1.66,
-        "bttsYes_guess": 1.16,
+        "bttsYes_guess": 1.15,
         "bttsNo_guess": 1.16
       },
       "market_odds_inventory": [
@@ -43748,6 +43874,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -43786,7 +43913,7 @@
         "ms2": 3.28,
         "under25": 1.73,
         "over25": 1.66,
-        "bttsYes_guess": 1.16,
+        "bttsYes_guess": 1.15,
         "bttsNo_guess": 1.16
       },
       "raw_odds_sequence": [],
@@ -43824,7 +43951,7 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.16,
+          "odd": 1.15,
           "source": "Robot ham veri havuzu"
         },
         {
@@ -43903,7 +44030,7 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.16,
+            "odd": 1.15,
             "source": "Robot ham veri havuzu"
           },
           {
@@ -44394,6 +44521,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -45041,6 +45169,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -45668,8 +45797,8 @@
         "ms2": 1.98,
         "under25": 1.95,
         "over25": 1.44,
-        "bttsYes_guess": 1.38,
-        "bttsNo_guess": 1.1
+        "bttsYes_guess": 1.4,
+        "bttsNo_guess": 1.09
       },
       "market_odds_inventory": [
         "ms1",
@@ -45686,6 +45815,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -45724,8 +45854,8 @@
         "ms2": 1.98,
         "under25": 1.95,
         "over25": 1.44,
-        "bttsYes_guess": 1.38,
-        "bttsNo_guess": 1.1
+        "bttsYes_guess": 1.4,
+        "bttsNo_guess": 1.09
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -45762,13 +45892,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.38,
+          "odd": 1.4,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.1,
+          "odd": 1.09,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -45841,13 +45971,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.38,
+            "odd": 1.4,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.1,
+            "odd": 1.09,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -46314,7 +46444,7 @@
         "ms2": 2.63,
         "under25": 1.82,
         "over25": 1.51,
-        "bttsYes_guess": 1.25,
+        "bttsYes_guess": 1.2,
         "bttsNo_guess": 1.11
       },
       "market_odds_inventory": [
@@ -46332,6 +46462,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -46370,7 +46501,7 @@
         "ms2": 2.63,
         "under25": 1.82,
         "over25": 1.51,
-        "bttsYes_guess": 1.25,
+        "bttsYes_guess": 1.2,
         "bttsNo_guess": 1.11
       },
       "raw_odds_sequence": [],
@@ -46408,7 +46539,7 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.25,
+          "odd": 1.2,
           "source": "Robot ham veri havuzu"
         },
         {
@@ -46487,7 +46618,7 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.25,
+            "odd": 1.2,
             "source": "Robot ham veri havuzu"
           },
           {
@@ -46958,7 +47089,11 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
       "wide_market_odds_count": 7,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -46966,6 +47101,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -47602,7 +47738,7 @@
         "ms2": 3.6,
         "under25": 2,
         "over25": 1.41,
-        "bttsYes_guess": 1.06,
+        "bttsYes_guess": 1.09,
         "bttsNo_guess": 1.08
       },
       "market_odds_inventory": [
@@ -47620,6 +47756,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -47658,7 +47795,7 @@
         "ms2": 3.6,
         "under25": 2,
         "over25": 1.41,
-        "bttsYes_guess": 1.06,
+        "bttsYes_guess": 1.09,
         "bttsNo_guess": 1.08
       },
       "raw_odds_sequence": [],
@@ -47696,7 +47833,7 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.06,
+          "odd": 1.09,
           "source": "Robot ham veri havuzu"
         },
         {
@@ -47775,7 +47912,7 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.06,
+            "odd": 1.09,
             "source": "Robot ham veri havuzu"
           },
           {
@@ -48266,6 +48403,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -49035,8 +49173,8 @@
         "ms2": 4.32,
         "under25": 1.82,
         "over25": 1.51,
-        "bttsYes_guess": 1.05,
-        "bttsNo_guess": 1.08
+        "bttsYes_guess": 1.08,
+        "bttsNo_guess": 1.9
       },
       "market_odds_inventory": [
         "ms1",
@@ -49053,6 +49191,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -49091,8 +49230,8 @@
         "ms2": 4.32,
         "under25": 1.82,
         "over25": 1.51,
-        "bttsYes_guess": 1.05,
-        "bttsNo_guess": 1.08
+        "bttsYes_guess": 1.08,
+        "bttsNo_guess": 1.9
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -49129,13 +49268,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.05,
+          "odd": 1.08,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.08,
+          "odd": 1.9,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -49208,13 +49347,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.05,
+            "odd": 1.08,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.08,
+            "odd": 1.9,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -49619,6 +49758,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -50239,6 +50379,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -50886,6 +51027,7 @@
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -51532,6 +51674,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -51935,6 +52078,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -52555,6 +52699,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -53343,6 +53488,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -53970,8 +54116,8 @@
         "ms2": 2.7,
         "under25": 2.02,
         "over25": 1.39,
-        "bttsYes_guess": 1.17,
-        "bttsNo_guess": 1.13
+        "bttsYes_guess": 1.19,
+        "bttsNo_guess": 1.12
       },
       "market_odds_inventory": [
         "ms1",
@@ -53988,6 +54134,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -54026,8 +54173,8 @@
         "ms2": 2.7,
         "under25": 2.02,
         "over25": 1.39,
-        "bttsYes_guess": 1.17,
-        "bttsNo_guess": 1.13
+        "bttsYes_guess": 1.19,
+        "bttsNo_guess": 1.12
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -54064,13 +54211,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.17,
+          "odd": 1.19,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.13,
+          "odd": 1.12,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -54143,13 +54290,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.17,
+            "odd": 1.19,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.13,
+            "odd": 1.12,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -54634,6 +54781,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -55281,6 +55429,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -55927,6 +56076,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -56554,8 +56704,8 @@
         "ms2": 2.1,
         "under25": 1.94,
         "over25": 1.44,
-        "bttsYes_guess": 1.36,
-        "bttsNo_guess": 1.14
+        "bttsYes_guess": 1.35,
+        "bttsNo_guess": 1.15
       },
       "market_odds_inventory": [
         "ms1",
@@ -56572,6 +56722,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -56610,8 +56761,8 @@
         "ms2": 2.1,
         "under25": 1.94,
         "over25": 1.44,
-        "bttsYes_guess": 1.36,
-        "bttsNo_guess": 1.14
+        "bttsYes_guess": 1.35,
+        "bttsNo_guess": 1.15
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -56648,13 +56799,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.36,
+          "odd": 1.35,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.14,
+          "odd": 1.15,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -56727,13 +56878,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.36,
+            "odd": 1.35,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.14,
+            "odd": 1.15,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -57133,6 +57284,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -57753,6 +57905,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -58400,6 +58553,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -59045,6 +59199,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -59832,6 +59987,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -60783,6 +60939,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -61428,6 +61585,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -62075,6 +62233,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -62720,6 +62879,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -63367,6 +63527,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -64012,6 +64173,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -64659,6 +64821,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -65304,6 +65467,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -65951,6 +66115,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -66279,6 +66444,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -66554,6 +66720,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -66900,7 +67067,9 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25"
       ],
       "wide_market_odds_count": 5,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -66908,6 +67077,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -67280,7 +67450,9 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25"
       ],
       "wide_market_odds_count": 5,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -67288,6 +67460,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -67888,7 +68061,11 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
       "wide_market_odds_count": 7,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -67896,6 +68073,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -68530,7 +68708,11 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
       "wide_market_odds_count": 7,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -68538,6 +68720,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -69085,7 +69268,9 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25"
       ],
       "wide_market_odds_count": 5,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -69093,6 +69278,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -69465,7 +69651,9 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25"
       ],
       "wide_market_odds_count": 5,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -69473,6 +69661,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -69845,7 +70034,9 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25"
       ],
       "wide_market_odds_count": 5,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -69853,6 +70044,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -70155,6 +70347,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -70729,7 +70922,11 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
       "wide_market_odds_count": 7,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -70737,6 +70934,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -71284,7 +71482,9 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25"
       ],
       "wide_market_odds_count": 5,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -71292,6 +71492,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -71594,6 +71795,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -71940,7 +72142,9 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25"
       ],
       "wide_market_odds_count": 5,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -71948,6 +72152,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -72370,8 +72575,8 @@
       "secondHalfGoalTrend": 72,
       "leagueGoalAverage": 3.67,
       "available_odds": {
-        "bttsYes_guess": 6.88,
-        "bttsNo_guess": 13.15,
+        "bttsYes_guess": 6.74,
+        "bttsNo_guess": 12.45,
         "msx": 6.74,
         "ms2": 12.45
       },
@@ -72385,6 +72590,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -72418,8 +72624,8 @@
       "flow_status": "scheduled",
       "mbs": null,
       "odds": {
-        "bttsYes_guess": 6.88,
-        "bttsNo_guess": 13.15,
+        "bttsYes_guess": 6.74,
+        "bttsNo_guess": 12.45,
         "msx": 6.74,
         "ms2": 12.45
       },
@@ -72428,13 +72634,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 6.88,
+          "odd": 6.74,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 13.15,
+          "odd": 12.45,
           "source": "Robot ham veri havuzu"
         },
         {
@@ -72489,13 +72695,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 6.88,
+            "odd": 6.74,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 13.15,
+            "odd": 12.45,
             "source": "Robot ham veri havuzu"
           },
           {
@@ -72674,6 +72880,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -73070,8 +73277,8 @@
       "secondHalfGoalTrend": 67,
       "leagueGoalAverage": 3.67,
       "available_odds": {
-        "bttsYes_guess": 6.81,
-        "bttsNo_guess": 10.5,
+        "bttsYes_guess": 6.83,
+        "bttsNo_guess": 10.05,
         "msx": 6.83,
         "ms2": 10.05
       },
@@ -73085,6 +73292,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -73118,8 +73326,8 @@
       "flow_status": "scheduled",
       "mbs": null,
       "odds": {
-        "bttsYes_guess": 6.81,
-        "bttsNo_guess": 10.5,
+        "bttsYes_guess": 6.83,
+        "bttsNo_guess": 10.05,
         "msx": 6.83,
         "ms2": 10.05
       },
@@ -73128,13 +73336,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 6.81,
+          "odd": 6.83,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 10.5,
+          "odd": 10.05,
           "source": "Robot ham veri havuzu"
         },
         {
@@ -73189,13 +73397,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 6.81,
+            "odd": 6.83,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 10.5,
+            "odd": 10.05,
             "source": "Robot ham veri havuzu"
           },
           {
@@ -73672,7 +73880,11 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
       "wide_market_odds_count": 7,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -73680,6 +73892,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -74086,7 +74299,9 @@
       "market_odds_inventory": [
         "ms1",
         "msx",
-        "ms2"
+        "ms2",
+        "under25",
+        "over25"
       ],
       "wide_market_odds_count": 5,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -74094,6 +74309,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -74762,7 +74978,9 @@
         "msx",
         "ms2",
         "under25",
-        "over25"
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
       "wide_market_odds_count": 7,
       "wide_market_learning_source": "fixture_odds_inventory",
@@ -74770,6 +74988,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -74800,6 +75019,11 @@
         "over25Percent": null,
         "over35Percent": null
       },
+      "homeConcededLast10": 6,
+      "awayConcededLast10": 6,
+      "bttsPercent": 66,
+      "firstHalfGoalTrend": 52,
+      "secondHalfGoalTrend": 72,
       "flow_status": "scheduled",
       "mbs": null,
       "odds": {
@@ -75206,8 +75430,8 @@
       "firstHalfGoalTrend": 55,
       "secondHalfGoalTrend": 75,
       "available_odds": {
-        "bttsYes_guess": 7.47,
-        "bttsNo_guess": 16.95,
+        "bttsYes_guess": 7.84,
+        "bttsNo_guess": 17.5,
         "msx": 7.84,
         "ms2": 17.5
       },
@@ -75221,6 +75445,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -75254,8 +75479,8 @@
       "flow_status": "scheduled",
       "mbs": null,
       "odds": {
-        "bttsYes_guess": 7.47,
-        "bttsNo_guess": 16.95,
+        "bttsYes_guess": 7.84,
+        "bttsNo_guess": 17.5,
         "msx": 7.84,
         "ms2": 17.5
       },
@@ -75264,13 +75489,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 7.47,
+          "odd": 7.84,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 16.95,
+          "odd": 17.5,
           "source": "Robot ham veri havuzu"
         },
         {
@@ -75325,13 +75550,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 7.47,
+            "odd": 7.84,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 16.95,
+            "odd": 17.5,
             "source": "Robot ham veri havuzu"
           },
           {
@@ -75951,8 +76176,8 @@
         "ms2": 1.38,
         "under25": 2.2,
         "over25": 1.38,
-        "bttsYes_guess": 2,
-        "bttsNo_guess": 1.1
+        "bttsYes_guess": 2.14,
+        "bttsNo_guess": 1.09
       },
       "market_odds_inventory": [
         "ms1",
@@ -75969,6 +76194,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -76007,8 +76233,8 @@
         "ms2": 1.38,
         "under25": 2.2,
         "over25": 1.38,
-        "bttsYes_guess": 2,
-        "bttsNo_guess": 1.1
+        "bttsYes_guess": 2.14,
+        "bttsNo_guess": 1.09
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -76045,13 +76271,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 2,
+          "odd": 2.14,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.1,
+          "odd": 1.09,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -76124,13 +76350,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 2,
+            "odd": 2.14,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.1,
+            "odd": 1.09,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -76738,7 +76964,7 @@
         "ms2": 1.36,
         "under25": 1.99,
         "over25": 1.49,
-        "bttsYes_guess": 2.13,
+        "bttsYes_guess": 2.2,
         "bttsNo_guess": 1.09
       },
       "market_odds_inventory": [
@@ -76756,6 +76982,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -76794,7 +77021,7 @@
         "ms2": 1.36,
         "under25": 1.99,
         "over25": 1.49,
-        "bttsYes_guess": 2.13,
+        "bttsYes_guess": 2.2,
         "bttsNo_guess": 1.09
       },
       "raw_odds_sequence": [],
@@ -76832,7 +77059,7 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 2.13,
+          "odd": 2.2,
           "source": "Robot ham veri havuzu"
         },
         {
@@ -76911,7 +77138,7 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 2.13,
+            "odd": 2.2,
             "source": "Robot ham veri havuzu"
           },
           {
@@ -77402,6 +77629,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -78049,6 +78277,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -78695,6 +78924,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -79322,8 +79552,8 @@
         "ms2": 4.52,
         "under25": 2.49,
         "over25": 1.29,
-        "bttsYes_guess": 1.07,
-        "bttsNo_guess": 1.09
+        "bttsYes_guess": 1.05,
+        "bttsNo_guess": 1.08
       },
       "market_odds_inventory": [
         "ms1",
@@ -79340,6 +79570,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -79378,8 +79609,8 @@
         "ms2": 4.52,
         "under25": 2.49,
         "over25": 1.29,
-        "bttsYes_guess": 1.07,
-        "bttsNo_guess": 1.09
+        "bttsYes_guess": 1.05,
+        "bttsNo_guess": 1.08
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -79416,13 +79647,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.07,
+          "odd": 1.05,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.09,
+          "odd": 1.08,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -79495,13 +79726,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.07,
+            "odd": 1.05,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.09,
+            "odd": 1.08,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -80109,8 +80340,8 @@
         "ms2": 5.02,
         "under25": 1.3,
         "over25": 2.43,
-        "bttsYes_guess": 1.13,
-        "bttsNo_guess": 2.14
+        "bttsYes_guess": 1.19,
+        "bttsNo_guess": 1.83
       },
       "market_odds_inventory": [
         "ms1",
@@ -80127,6 +80358,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -80165,8 +80397,8 @@
         "ms2": 5.02,
         "under25": 1.3,
         "over25": 2.43,
-        "bttsYes_guess": 1.13,
-        "bttsNo_guess": 2.14
+        "bttsYes_guess": 1.19,
+        "bttsNo_guess": 1.83
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -80203,13 +80435,13 @@
         {
           "key": "bttsYes_guess",
           "label": "bttsYes_guess",
-          "odd": 1.13,
+          "odd": 1.19,
           "source": "Robot ham veri havuzu"
         },
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 2.14,
+          "odd": 1.83,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -80282,13 +80514,13 @@
           {
             "key": "bttsYes_guess",
             "label": "bttsYes_guess",
-            "odd": 1.13,
+            "odd": 1.19,
             "source": "Robot ham veri havuzu"
           },
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 2.14,
+            "odd": 1.83,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -80774,6 +81006,7 @@
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -81178,6 +81411,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -81554,6 +81788,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -82174,6 +82409,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -82962,6 +83198,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -83607,6 +83844,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -84254,6 +84492,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -84900,6 +85139,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -85528,7 +85768,7 @@
         "under25": 1.3,
         "over25": 2.47,
         "bttsYes_guess": 1.05,
-        "bttsNo_guess": 1.19
+        "bttsNo_guess": 1.21
       },
       "market_odds_inventory": [
         "ms1",
@@ -85545,6 +85785,7 @@
       "metric_quality": "medium",
       "metric_notes": [
         "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
@@ -85584,7 +85825,7 @@
         "under25": 1.3,
         "over25": 2.47,
         "bttsYes_guess": 1.05,
-        "bttsNo_guess": 1.19
+        "bttsNo_guess": 1.21
       },
       "raw_odds_sequence": [],
       "detail_markets": [
@@ -85627,7 +85868,7 @@
         {
           "key": "bttsNo_guess",
           "label": "bttsNo_guess",
-          "odd": 1.19,
+          "odd": 1.21,
           "source": "Robot ham veri havuzu"
         }
       ],
@@ -85706,7 +85947,7 @@
           {
             "key": "bttsNo_guess",
             "label": "bttsNo_guess",
-            "odd": 1.19,
+            "odd": 1.21,
             "source": "Robot ham veri havuzu"
           }
         ]
@@ -86108,6 +86349,7 @@
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -86250,7 +86492,7 @@
     }
   ],
   "live_matches": [],
-  "detail_enriched_at": "2026-09-08T08:51:42.119Z",
+  "detail_enriched_at": "2026-09-08T08:55:49.695Z",
   "detail_source_files": [
     "data/two-day-bulletin.json",
     "data/fixtures.json",
