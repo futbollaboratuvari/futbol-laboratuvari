@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T11:02:28.079Z",
+  "generated_at": "2026-09-08T16:46:08.720Z",
   "date": "2026-09-08",
   "engine": "Futbol Laboratuvarı Yüksek Oran İY/MS v1",
   "source": "data/robot-analysis.json",
@@ -7,8 +7,8 @@
     "1/2",
     "2/1"
   ],
-  "scan_count": 143,
-  "candidate_count": 127,
+  "scan_count": 137,
+  "candidate_count": 120,
   "selected_count": 3,
   "target_card_count": 3,
   "status": "ready",
@@ -16,6 +16,24 @@
   "confidence_label": "Model güveni bir sonuç olasılığı değil, senaryo sinyal gücüdür.",
   "message": "Günün 1/2 ve 2/1 ters sonuç adayları güncel analiz havuzundan seçildi.",
   "picks": [
+    {
+      "match_code": "14300",
+      "date": "2026-09-08",
+      "time": "21:45",
+      "league": "İngiltere Lig Kupası 3.Tur",
+      "home": "Leyton Orient",
+      "away": "Bradford",
+      "match_name": "Leyton Orient VS Bradford",
+      "market": "1/2",
+      "model_confidence": 77,
+      "scenario_probability": 8.5,
+      "model_odds": 11.76,
+      "risk_level": "Yüksek",
+      "data_completeness": 70,
+      "source_model_score": 74,
+      "first_half_signal_source": "detail_market_candidates",
+      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %70, ana model gücü %74."
+    },
     {
       "match_code": "53836",
       "date": "2026-09-08",
@@ -33,24 +51,6 @@
       "source_model_score": 57,
       "first_half_signal_source": "detail_market_candidates",
       "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %44 olduğu için seçim yüksek risk etiketiyle sunuluyor."
-    },
-    {
-      "match_code": "14300",
-      "date": "2026-09-08",
-      "time": "21:45",
-      "league": "İngiltere Lig Kupası 3.Tur",
-      "home": "Leyton Orient",
-      "away": "Bradford",
-      "match_name": "Leyton Orient VS Bradford",
-      "market": "1/2",
-      "model_confidence": 76,
-      "scenario_probability": 8.5,
-      "model_odds": 11.76,
-      "risk_level": "Yüksek",
-      "data_completeness": 70,
-      "source_model_score": 73,
-      "first_half_signal_source": "detail_market_candidates",
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %70, ana model gücü %73."
     },
     {
       "match_code": "12948",
