@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.09.2026 17:40:30
+Oluşturma: 08.09.2026 20:32:26
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1118
-- Kazanan tahmin: 200
+- Bekleyen tahmin: 1117
+- Kazanan tahmin: 201
 - Kaybeden tahmin: 182
 - Lig sayısı: 239
 - Seçenek sayısı: 6
@@ -24,7 +24,7 @@ Oluşturma: 08.09.2026 17:40:30
 
 - KG Var: toplam 3, bekleyen 2, başarı %100, düz getiri %93, ağırlık 1
 - MS X: toplam 2, bekleyen 1, başarı %100, düz getiri %146, ağırlık 1
-- 2.5 Üst: toplam 235, bekleyen 136, başarı %61, düz getiri %4, ağırlık 1
+- 2.5 Üst: toplam 235, bekleyen 135, başarı %61, düz getiri %5, ağırlık 1
 - 2.5 Alt: toplam 536, bekleyen 400, başarı %55, düz getiri %-9, ağırlık 1
 - MS 1: toplam 502, bekleyen 403, başarı %44, düz getiri %-27, ağırlık 0.94
 - MS 2: toplam 222, bekleyen 176, başarı %41, düz getiri %-25, ağırlık 1
@@ -32,7 +32,7 @@ Oluşturma: 08.09.2026 17:40:30
 ## Son Tahmin Kayıtları
 
 - 2026-09-08 | İngiltere Ulusal Lig N / S Kuzey | Telford - Oxford City | MS 1 | pending | 42/100
-- 2026-09-08 | Güney Kore K Lig 1 | Incheon Utd - Bucheon | 2.5 Üst | pending | 59/100
+- 2026-09-08 | Güney Kore K Lig 1 | Incheon Utd - Bucheon | 2.5 Üst | won | 59/100
 - 2026-09-08 | ABD MLS Next Pro | Toronto Fc Ii - Columbus Crew I | MS 1 | pending | 44/100
 - 2026-09-08 | ABD MLS Next Pro | New York City - New York Rb Ii | MS 2 | pending | 49/100
 - 2026-09-08 | Copa Sudamericana Çeyrek Final | Santa Fe - Vasco Da Gama | MS 1 | pending | 46/100

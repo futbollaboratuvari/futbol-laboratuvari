@@ -3,42 +3,14 @@
 Gunler: 2026-09-08 / 2026-09-09
 Kaynak: fixtures.json
 Ham mac: 150
-Aktif mac: 133
+Aktif mac: 105
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 17
-Bugun: 120
+Bultenden dusurulen mac: 45
+Bugun: 92
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-08 18:00 | Finlandiya Veikkausliiga Şampiyonluk Grubu | Vaasa - Oulu | scheduled | -
-- 2026-09-08 18:00 | Finlandiya Veikkausliiga Küme Düşme Grubu | Turku - Seinajoen Jk | scheduled | -
-- 2026-09-08 18:00 | Finlandiya Veikkausliiga Küme Düşme Grubu | Lahti - Mariehamn | scheduled | -
-- 2026-09-08 18:00 | Finlandiya Veikkausliiga Küme Düşme Grubu | Ilves - Jaro | scheduled | -
-- 2026-09-08 18:00 | Estonya Premium Lig | Nomme Kalju - Nomme United | scheduled | -
-- 2026-09-08 18:30 | Suudi Arabistan Pro Lig | Al Ettifaq - Al Faisaly | scheduled | -
-- 2026-09-08 18:45 | Irak Premier Lig | Erbil Sc - Diala | scheduled | -
-- 2026-09-08 18:45 | Irak Premier Lig | Duhok - Gaz Al-Shamal | scheduled | -
-- 2026-09-08 18:50 | Suudi Arabistan 1.Lig | Al Zulfi - Hajer | scheduled | -
-- 2026-09-08 18:50 | Suudi Arabistan 1.Lig | Damak - Al Ula | scheduled | -
-- 2026-09-08 18:55 | Suudi Arabistan Pro Lig | Al Hazm - Al Taawon | scheduled | -
-- 2026-09-08 19:00 | Finlandiya Veikkausliiga Şampiyonluk Grubu | Gnistan - Kuopion | scheduled | -
-- 2026-09-08 19:00 | Norveç NM Kupası 2.Tur | Djerv - Haugesund | scheduled | -
-- 2026-09-08 19:00 | Bulgaristan 2.Lig | Montana - Vihren | scheduled | -
-- 2026-09-08 19:00 | Portekiz U23 Ulusal Şampiyona | Academico Vise - Moreirense U23 | scheduled | -
-- 2026-09-08 19:00 | Portekiz U23 Ulusal Şampiyona | Estrela U23 - União De Leiria | scheduled | -
-- 2026-09-08 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Aek - Lask Linz | scheduled | -
-- 2026-09-08 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Club Brugge - Aston Villa | scheduled | -
-- 2026-09-08 19:45 | Hollanda Eredivisie | Nijmegen - Excelsior | scheduled | -
-- 2026-09-08 20:00 | Mısır Premier Lig | Al Zamalek Cai - Abu Qair | scheduled | -
-- 2026-09-08 20:00 | Mısır Premier Lig | Smouha - Ceramica Cleopa | scheduled | -
-- 2026-09-08 20:00 | Norveç NM Kupası 2.Tur | Asker - Stromsgodset | scheduled | -
-- 2026-09-08 20:00 | Almanya Bölgesel Lig Güney Batı | Astoria Walldo - Stuttgarter Kic | scheduled | -
-- 2026-09-08 20:00 | Almanya Bölgesel Lig Güney Batı | Offenbach - Steinbach | scheduled | -
-- 2026-09-08 20:00 | Almanya Bölgesel Lig Güney Batı | Eintracht Trie - Freiburg Ii | scheduled | -
-- 2026-09-08 20:00 | İspanya De La Reina Kupası 1. Tur | Huesca (K) - Zaragoza (K) | scheduled | -
-- 2026-09-08 20:30 | Suudi Arabistan 1.Lig | Al Anwar - Al Taee | scheduled | -
-- 2026-09-08 20:30 | İspanya De La Reina Kupası 1. Tur | Alhama (K) - Fundacion Albac | scheduled | -
 - 2026-09-08 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci - Al Feiha | scheduled | -
 - 2026-09-08 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah - Al Ahli (Cidde) | scheduled | -
 - 2026-09-08 21:00 | İngiltere EFL Trophy Kuzey Grup H | Doncaster - Huddersfield | scheduled | -
