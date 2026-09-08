@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-08 / 2026-09-09
 Kaynak: fixtures.json
-Ham mac: 170
-Aktif mac: 149
+Ham mac: 155
+Aktif mac: 147
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 21
-Bugun: 137
+Bultenden dusurulen mac: 8
+Bugun: 135
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-09-08 13:30 | Güney Kore K Lig 1 | Ulsan - Fc Seoul | scheduled | -
-- 2026-09-08 13:30 | Güney Kore K Lig 1 | Incheon Utd - Bucheon | scheduled | -
 - 2026-09-08 14:00 | UEFA Gençlik Ligi Lig Aşaması | Porto U19 - Manchester City | scheduled | -
 - 2026-09-08 14:00 | Avustralya NPL Batı Avustralya Ön Eleme Final | Olympic Kingsw - Perth | scheduled | -
 - 2026-09-08 15:00 | UEFA Gençlik Ligi Lig Aşaması | Club Brugge U1 - Aston Villa U19 | scheduled | -
