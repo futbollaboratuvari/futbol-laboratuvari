@@ -1,35 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-08T23:15:49.901625+00:00
+Tarih: 2026-09-08T23:24:41.405475+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 151
-- Kac mac kaydedildi: 42
-- Kac mac zaten vardi: 109
-- Ham veri havuzu toplam mac sayisi: 12886
+- Kac mac bulundu: 114
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 112
+- Ham veri havuzu toplam mac sayisi: 12888
 - Hedef tarih: 09.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD MLS Next Pro
-- Arjantin Kupa Çeyrek Final
 - Arjantin Ulusal Primera Lig
 - Avustralya FFA Kupası Yarı Final
 - Bosna-Hersek Premier Lig
-- Brezilya Serie B
 - Bulgaristan Süper Kupa
-- CONCACAF Orta Amerika Kupası Çeyrek Final
-- Copa Libertadores Çeyrek Final
-- Copa Sudamericana Çeyrek Final
 - Danimarka DBU Kupası 3.Tur
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga Şampiyonluk Grubu
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Güney Kore K Lig 1
 - Gürcistan Erovnuli Liga
@@ -39,10 +30,8 @@ Tarih: 2026-09-08T23:15:49.901625+00:00
 - Japonya Lig Kupası 1.Tur
 - Kadınlar U20 Dünya Kupası Grup C
 - Kadınlar U20 Dünya Kupası Grup D
-- Kanada Premier Lig
 - Karadağ 1.Lig
 - Kazakistan Premier Lig
-- Kolombiya Kupa Son 16 Turu
 - Kolombiya Primera B Clausura
 - Kosova Süper Lig
 - Litvanya A Ligi
@@ -57,9 +46,10 @@ Tarih: 2026-09-08T23:15:49.901625+00:00
 - UEFA Gençlik Ligi Lig Aşaması
 - UEFA Şampiyonlar Ligi Lig Aşaması
 - Uganda Premier Lig
-- Uruguay Kupa Ön Eleme Turu Grup 3
 - Uruguay Kupa Ön Eleme Turu Grup 4
 - Uruguay Kupa Ön Eleme Turu Grup 6
+- Venezuela Kupa 1.Tur Grup C
+- Venezuela Kupa 1.Tur Grup E
 - Yunanistan Kupa Lig Aşaması
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti Kupa 3.Tur
@@ -128,8 +118,8 @@ Tarih: 2026-09-08T23:15:49.901625+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 58
-- Acilan detay: 58
+- Denenen Tumu alani: 61
+- Acilan detay: 61
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -153,15 +143,15 @@ Tarih: 2026-09-08T23:15:49.901625+00:00
 | 09.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Fateh | Diriyah | 12558 | 5 |
 | 09.09.2026 | 18:55 | Suudi Arabistan Pro Lig | Al Kholood | Al Shabab (Riya | 12494 | 5 |
 | 09.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya | Abha | 12680 | 4 |
-| 10.09.2026 | 01:00 | Copa Libertadores Çeyrek Final | Palmeiras | Ldu Quito | 17021 | 5 |
-| 10.09.2026 | 03:30 | Copa Libertadores Çeyrek Final | Estudiantes Lp | Corinthians | 17492 | 5 |
-| 10.09.2026 | 01:00 | Copa Sudamericana Çeyrek Final | Santos | Atletico Mg | 17185 | 5 |
 | 09.09.2026 | 21:45 | İngiltere Championship | Norwich | Birmingham | 15389 | 5 |
 | 09.09.2026 | 22:00 | İngiltere Championship | Charlton | Qpr | 15479 | 5 |
 | 09.09.2026 | 21:45 | İngiltere Championship | Derby County | West Bromwich | 15280 | 5 |
 | 09.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Chelsea | Leeds Utd | 15594 | 5 |
 | 09.09.2026 | 17:00 | UEFA Gençlik Ligi Lig Aşaması | Liverpool Fc U | Atl Madrid U19 | 02076 | 5 |
 | 09.09.2026 | 21:45 | İskoçya Premiership | Glasgow Ranger | St Mirren | 19816 | 5 |
+| 09.09.2026 | 22:00 | İskoçya Premiership | St Johnstone | Celtic | 19881 | 5 |
+| 09.09.2026 | 18:00 | Çek Cumhuriyeti Czech Liga | Jablonec | Banik Ostrava | 19076 | 5 |
+| 09.09.2026 | 20:00 | Çek Cumhuriyeti Czech Liga | Hradec Kralove | Viktoria Plzen | 19760 | 5 |
 
 ## Sonuc
 
