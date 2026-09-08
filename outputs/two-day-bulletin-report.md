@@ -2,21 +2,15 @@
 
 Gunler: 2026-09-08 / 2026-09-09
 Kaynak: fixtures.json
-Ham mac: 155
+Ham mac: 176
 Aktif mac: 134
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 21
-Bugun: 122
-Yarin: 12
+Bultenden dusurulen mac: 42
+Bugun: 121
+Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-08 17:00 | UEFA Gençlik Ligi Lig Aşaması | Real Madrid U1 - Internazionale | scheduled | -
-- 2026-09-08 17:00 | UEFA Gençlik Ligi Lig Aşaması | B. Dortmund U1 - Villarreal U19 | scheduled | -
-- 2026-09-08 17:00 | Kosova Süper Lig | Kosova Vushtrr - Llapi | scheduled | -
-- 2026-09-08 17:00 | Kosova Süper Lig | Drenica Skende - Prishtina | scheduled | -
-- 2026-09-08 17:00 | Katar 2.Lig | Mesaimeer - Khuraitiat | scheduled | -
-- 2026-09-08 17:00 | Portekiz U23 Ulusal Şampiyona | Marítimo U23 - Gil Vicente U23 | scheduled | -
 - 2026-09-08 17:30 | Estonya Premium Lig | Trans Narva - Flora Tallinn | scheduled | -
 - 2026-09-08 18:00 | Finlandiya Veikkausliiga Şampiyonluk Grubu | Vaasa - Oulu | scheduled | -
 - 2026-09-08 18:00 | Finlandiya Veikkausliiga Küme Düşme Grubu | Turku - Seinajoen Jk | scheduled | -
@@ -43,7 +37,9 @@ Yarin: 12
 - 2026-09-08 20:00 | Almanya Bölgesel Lig Güney Batı | Astoria Walldo - Stuttgarter Kic | scheduled | -
 - 2026-09-08 20:00 | Almanya Bölgesel Lig Güney Batı | Offenbach - Steinbach | scheduled | -
 - 2026-09-08 20:00 | Almanya Bölgesel Lig Güney Batı | Eintracht Trie - Freiburg Ii | scheduled | -
+- 2026-09-08 20:00 | İspanya De La Reina Kupası 1. Tur | Huesca (K) - Zaragoza (K) | scheduled | -
 - 2026-09-08 20:30 | Suudi Arabistan 1.Lig | Al Anwar - Al Taee | scheduled | -
+- 2026-09-08 20:30 | İspanya De La Reina Kupası 1. Tur | Alhama (K) - Fundacion Albac | scheduled | -
 - 2026-09-08 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci - Al Feiha | scheduled | -
 - 2026-09-08 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah - Al Ahli (Cidde) | scheduled | -
 - 2026-09-08 21:00 | İngiltere EFL Trophy Kuzey Grup H | Doncaster - Huddersfield | scheduled | -
@@ -63,6 +59,7 @@ Yarin: 12
 - 2026-09-08 21:00 | Karadağ 1.Lig | Sutjeska - Mornar Bar | scheduled | -
 - 2026-09-08 21:00 | Arjantin Primera C | Claypole - Ballester | scheduled | -
 - 2026-09-08 21:00 | Meksika Kadınlar Liga MX Apertura Grup 1 | Atlante (K) - Juarez (K) | scheduled | -
+- 2026-09-08 21:00 | Irak Premier Lig | Al Gharraf - Al Shorta | scheduled | -
 - 2026-09-08 21:30 | İngiltere Ulusal Lig Kupası Grup B | Worthing - Norwich City U2 | scheduled | -
 - 2026-09-08 21:30 | İngiltere Ulusal Lig Kupası Grup B | Braintree - Fulham (B) | scheduled | -
 - 2026-09-08 21:30 | İngiltere Ulusal Lig Kupası Grup B | Aldershot - West Ham (B) | scheduled | -
@@ -127,12 +124,15 @@ Yarin: 12
 - 2026-09-08 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Fakenham Town - Ware | scheduled | -
 - 2026-09-08 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Havant And W. - Chippenham Town | scheduled | -
 - 2026-09-08 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Kettering - Wellingborough | scheduled | -
+- 2026-09-08 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Buckhurst Hill - Yaxley | scheduled | -
 - 2026-09-08 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Porto - Manchester City | scheduled | -
 - 2026-09-08 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | B.Dortmund - Villarreal | scheduled | -
 - 2026-09-08 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Real Madrid - Inter | scheduled | -
 - 2026-09-08 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Lille - Real Betis | scheduled | -
 - 2026-09-08 22:00 | İngiltere Lig Kupası 3.Tur | Millwall - Newcastle Utd | scheduled | -
 - 2026-09-08 22:00 | İngiltere Championship | Bolton - West Ham | scheduled | -
+- 2026-09-08 22:00 | ABD MLS Next Pro | Toronto Fc Ii - Columbus Crew I | scheduled | -
+- 2026-09-09 00:00 | ABD MLS Next Pro | New York City - New York Rb Ii | scheduled | -
 - 2026-09-09 01:00 | Copa Libertadores Çeyrek Final | Fluminense - Platense | scheduled | -
 - 2026-09-09 01:00 | Copa Sudamericana Çeyrek Final | Santa Fe - Vasco Da Gama | scheduled | -
 - 2026-09-09 01:00 | Paraguay Intermedia Lig | General Caball - Resistencia | scheduled | -

@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.09.2026 16:37:06
+Oluşturma: 08.09.2026 17:18:46
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1118
+- Bekleyen tahmin: 1119
 - Kazanan tahmin: 200
-- Kaybeden tahmin: 182
-- Lig sayısı: 238
+- Kaybeden tahmin: 181
+- Lig sayısı: 239
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -24,26 +24,26 @@ Oluşturma: 08.09.2026 16:37:06
 
 - KG Var: toplam 3, bekleyen 2, başarı %100, düz getiri %93, ağırlık 1
 - MS X: toplam 2, bekleyen 1, başarı %100, düz getiri %146, ağırlık 1
-- 2.5 Üst: toplam 233, bekleyen 134, başarı %61, düz getiri %4, ağırlık 1
+- 2.5 Üst: toplam 234, bekleyen 135, başarı %61, düz getiri %4, ağırlık 1
 - 2.5 Alt: toplam 536, bekleyen 401, başarı %56, düz getiri %-9, ağırlık 1
-- MS 1: toplam 501, bekleyen 401, başarı %44, düz getiri %-28, ağırlık 0.94
-- MS 2: toplam 225, bekleyen 179, başarı %41, düz getiri %-25, ağırlık 1
+- MS 1: toplam 502, bekleyen 403, başarı %44, düz getiri %-27, ağırlık 0.94
+- MS 2: toplam 223, bekleyen 177, başarı %41, düz getiri %-25, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-08 | ABD MLS Next Pro | Toronto Fc Ii - Columbus Crew I | MS 1 | pending | 44/100
+- 2026-09-08 | ABD MLS Next Pro | New York City - New York Rb Ii | MS 2 | pending | 49/100
+- 2026-09-08 | Copa Sudamericana Çeyrek Final | Santa Fe - Vasco Da Gama | MS 1 | pending | 46/100
+- 2026-09-08 | Paraguay Intermedia Lig | General Caball - Resistencia | MS 1 | pending | 48/100
+- 2026-09-08 | İngiltere Ulusal Lig N / S Güney | Maidenhead Utd - Torquay | 2.5 Üst | pending | 53/100
+- 2026-09-08 | İngiltere FA Cup Eleme 1.Tur Tekrar | Buckhurst Hill - Yaxley | MS 1 | pending | 42/100
+- 2026-09-08 | Irak Premier Lig | Al Gharraf - Al Shorta | 2.5 Alt | pending | 55/100
+- 2026-09-08 | İspanya De La Reina Kupası 1. Tur | Huesca (K) - Zaragoza (K) | 2.5 Alt | pending | 54/100
+- 2026-09-08 | İspanya De La Reina Kupası 1. Tur | Alhama (K) - Fundacion Albac | MS 1 | pending | 50/100
+- 2026-09-08 | İngiltere Premier Lig Kupası Grup E | Fleetwood Town - Burnley U21 | 2.5 Alt | pending | 50/100
+- 2026-09-08 | Suudi Arabistan 1.Lig | Al Zulfi - Hajer | MS 1 | pending | 51/100
 - 2026-09-08 | Paraguay Intermedia Lig | General Caball - Resistencia | 2.5 Alt | pending | 54/100
 - 2026-09-08 | ABD USL Kupası Yarı Final | Hartford Athle - Colorado Spring | MS 1 | pending | 36/100
 - 2026-09-08 | İskoçya Challenge Kupası Lig Aşaması | Annan - Motherwell Ii | MS 1 | pending | 57/100
 - 2026-09-08 | İskoçya Challenge Kupası Lig Aşaması | Clyde - East Fife | MS 1 | pending | 42/100
-- 2026-09-08 | Irak Premier Lig | Erbil Sc - Diala | 2.5 Alt | pending | 53/100
-- 2026-09-08 | Mısır Premier Lig | Al Zamalek Cai - Abu Qair | 2.5 Üst | pending | 53/100
-- 2026-09-08 | Suudi Arabistan 1.Lig | Al Anwar - Al Taee | MS 1 | pending | 47/100
-- 2026-09-08 | İngiltere EFL Trophy Kuzey Grup H | Doncaster - Huddersfield | 2.5 Üst | pending | 71/100
-- 2026-09-08 | Portekiz U23 Ulusal Şampiyona | Portimonense U - Felgueiras U23 | 2.5 Üst | pending | 53/100
-- 2026-09-08 | Güney Kore K Lig 1 | Ulsan - Fc Seoul | KG Var | pending | 49/100
-- 2026-09-08 | Paraguay Intermedia Lig | 3 De Noviembre - Sol De America | 2.5 Üst | pending | 53/100
-- 2026-09-08 | Paraguay Intermedia Lig | Paraguari - Guairena | 2.5 Alt | pending | 56/100
-- 2026-09-08 | Kosova Süper Lig | Kosova Vushtrr - Llapi | 2.5 Alt | pending | 53/100
-- 2026-09-08 | Katar 2.Lig | Mesaimeer - Khuraitiat | 2.5 Alt | pending | 50/100
-- 2026-09-08 | Portekiz U23 Ulusal Şampiyona | Rio Ave U23 - Torreense U23 | 2.5 Üst | pending | 54/100
 

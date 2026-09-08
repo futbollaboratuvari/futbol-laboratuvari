@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-08T10:00:39.364525+00:00
+Tarih: 2026-09-08T14:18:10.412442+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 155
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 154
-- Ham veri havuzu toplam mac sayisi: 12729
+- Kac mac bulundu: 134
+- Kac mac kaydedildi: 6
+- Kac mac zaten vardi: 128
+- Ham veri havuzu toplam mac sayisi: 12735
 - Hedef tarih: 08.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -18,7 +18,6 @@ Tarih: 2026-09-08T10:00:39.364525+00:00
 - ABD USL Kupası Yarı Final
 - Almanya Bölgesel Lig Güney Batı
 - Arjantin Primera C
-- Avustralya NPL Batı Avustralya Ön Eleme Final
 - Brezilya Serie B
 - Bulgaristan 2.Lig
 - Copa Libertadores Çeyrek Final
@@ -27,28 +26,21 @@ Tarih: 2026-09-08T10:00:39.364525+00:00
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga Küme Düşme Grubu
 - Finlandiya Veikkausliiga Şampiyonluk Grubu
-- Güney Afrika 1.Lig
-- Güney Kore K Lig 1
 - Hollanda Eredivisie
 - Irak Premier Lig
 - Kadınlar U20 Dünya Kupası Grup A
 - Kadınlar U20 Dünya Kupası Grup B
 - Karadağ 1.Lig
-- Katar 2.Lig
 - Kolombiya Primera B Clausura
-- Kosova Süper Lig
 - Kuzey İrlanda Premiership
-- Malezya FA Kupası Son 16 Turu
-- Meksika Kadınlar Liga MX Apertura Grup 1
+- Meksika Kadınlar Liga MX Apertura
 - Mısır Premier Lig
 - Norveç NM Kupası 2.Tur
 - Paraguay Intermedia Lig
 - Portekiz U23 Ulusal Şampiyona
 - Suudi Arabistan 1.Lig
 - Suudi Arabistan Pro Lig
-- UEFA Gençlik Ligi Lig Aşaması
 - UEFA Şampiyonlar Ligi Lig Aşaması
-- Uganda Premier Lig
 - Yunanistan Kupa Lig Aşaması
 - İngiltere Championship
 - İngiltere EFL Trophy Güney Grup A
@@ -64,7 +56,7 @@ Tarih: 2026-09-08T10:00:39.364525+00:00
 - İngiltere Ulusal Lig N / S Güney
 - İngiltere Ulusal Lig N / S Kuzey
 - İskoçya Challenge Kupası Lig Aşaması
-- İspanya Federasyon Kupası Son 32 Turu
+- İspanya De La Reina Kupası 1. Tur
 
 ## Okunabilen Oran Alanlari
 
@@ -121,8 +113,8 @@ Tarih: 2026-09-08T10:00:39.364525+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 53
-- Acilan detay: 53
+- Denenen Tumu alani: 44
+- Acilan detay: 44
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -150,11 +142,11 @@ Tarih: 2026-09-08T10:00:39.364525+00:00
 | 09.09.2026 | 03:30 | Copa Sudamericana Çeyrek Final | Boca Juniors | Sao Paulo | 16961 | 5 |
 | 09.09.2026 | 01:00 | Copa Sudamericana Çeyrek Final | Santa Fe | Vasco Da Gama | 16893 | 5 |
 | 08.09.2026 | 22:00 | İngiltere Championship | Bolton | West Ham | 14953 | 5 |
-| 08.09.2026 | 21:45 | İngiltere Championship | Cardiff | Stoke | 13688 | 5 |
-| 08.09.2026 | 21:45 | İngiltere Championship | Blackburn | Sheffield Utd | 12948 | 5 |
-| 08.09.2026 | 21:45 | İngiltere Championship | Southam | Swansea | 14355 | 5 |
 | 08.09.2026 | 21:45 | İngiltere Championship | Watford | Prest | 14524 | 5 |
 | 08.09.2026 | 21:45 | İngiltere Championship | Wrexham | Burnley | 14613 | 5 |
+| 08.09.2026 | 21:45 | İngiltere Championship | Blackburn | Sheffield Utd | 12948 | 5 |
+| 08.09.2026 | 21:45 | İngiltere Championship | Southam | Swansea | 14355 | 5 |
+| 08.09.2026 | 21:45 | İngiltere Championship | Cardiff | Stoke | 13688 | 5 |
 
 ## Sonuc
 

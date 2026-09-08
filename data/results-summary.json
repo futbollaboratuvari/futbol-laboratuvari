@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-09-08T13:37:21.057Z",
+  "generated_at": "2026-09-08T14:18:55.514Z",
   "date": "2026-09-08",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
   "completed_items": [
+    {
+      "id": "2026-09-08|guney kore k lig 1|incheon utd bucheon|2 5 alt|13 30",
+      "date": "2026-09-08",
+      "time": "13:30",
+      "title": "Incheon Utd - Bucheon",
+      "match": "Incheon Utd - Bucheon",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.51",
+      "score": "2-1",
+      "result_score": "2-1",
+      "confidence": "55%",
+      "confidence_score": "55%",
+      "model_score": 55,
+      "estimated_probability": 56.4,
+      "market_probability": 56.4,
+      "edge_percent": 0,
+      "data_completeness": 35,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Yüksek",
+      "status": "lost",
+      "result": "lost",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-08T14:18:55.350Z",
+      "source": "Robot ham veri havuzu"
+    },
     {
       "id": "2026-09-08|kolombiya kupa son 16 turu|atletico nacio deportivo cali|2 5 ust|04 15",
       "date": "2026-09-08",
@@ -786,33 +813,6 @@
       "market_group_label": "Gol Marketleri",
       "finalized_at": "2026-09-07T20:41:33.450Z",
       "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-07|ispanya kadinlar primera lig|granada k real sociedad|kg var|20 30",
-      "date": "2026-09-07",
-      "time": "20:30",
-      "title": "Granada (K) - Real Sociedad (",
-      "match": "Granada (K) - Real Sociedad (",
-      "market": "KG Var",
-      "prediction": "KG Var",
-      "odds": "1.93",
-      "score": "3-2",
-      "result_score": "3-2",
-      "confidence": "56%",
-      "confidence_score": "56%",
-      "model_score": 56,
-      "estimated_probability": 47.4,
-      "market_probability": 36.1,
-      "edge_percent": 11.3,
-      "data_completeness": 41,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "btts",
-      "market_group_label": "Karşılıklı Gol",
-      "finalized_at": "2026-09-07T20:41:33.450Z",
-      "source": "Robot ham veri havuzu"
     }
   ],
   "performance": {
@@ -824,9 +824,9 @@
     "void_count": 0,
     "success_rate": 52,
     "probability_sample_count": 382,
-    "brier_score": 0.2438,
+    "brier_score": 0.2441,
     "baseline_brier_score": 0.2494,
-    "brier_skill_score": 0.0226,
+    "brier_skill_score": 0.0214,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -840,18 +840,18 @@
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 114,
+        "predictions": 113,
         "won": 51,
         "average_probability": 45.8,
-        "observed_rate": 44.7
+        "observed_rate": 45.1
       },
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 190,
+        "predictions": 191,
         "won": 105,
         "average_probability": 54.4,
-        "observed_rate": 55.3
+        "observed_rate": 55
       },
       {
         "lower": 60,
@@ -862,22 +862,22 @@
         "observed_rate": 65.4
       }
     ],
-    "verified_at": "2026-09-08T08:52:47.998Z",
+    "verified_at": "2026-09-08T14:18:55.350Z",
     "groups": [
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 234,
+        "measured": 235,
         "won": 135,
-        "lost": 99,
-        "success_rate": 58
+        "lost": 100,
+        "success_rate": 57
       },
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 147,
+        "measured": 146,
         "won": 64,
-        "lost": 83,
+        "lost": 82,
         "success_rate": 44
       },
       {
