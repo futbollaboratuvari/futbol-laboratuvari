@@ -3,27 +3,14 @@
 Gunler: 2026-09-08 / 2026-09-09
 Kaynak: fixtures.json
 Ham mac: 155
-Aktif mac: 147
+Aktif mac: 134
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 135
+Bultenden dusurulen mac: 21
+Bugun: 122
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-09-08 14:00 | UEFA Gençlik Ligi Lig Aşaması | Porto U19 - Manchester City | scheduled | -
-- 2026-09-08 14:00 | Avustralya NPL Batı Avustralya Ön Eleme Final | Olympic Kingsw - Perth | scheduled | -
-- 2026-09-08 15:00 | UEFA Gençlik Ligi Lig Aşaması | Club Brugge U1 - Aston Villa U19 | scheduled | -
-- 2026-09-08 16:00 | UEFA Gençlik Ligi Lig Aşaması | Lille U19 - Real Betis U19 | scheduled | -
-- 2026-09-08 16:00 | Kadınlar U20 Dünya Kupası Grup A | Benin U20 (K) - Arjantin U20 (K | scheduled | -
-- 2026-09-08 16:00 | Malezya FA Kupası Son 16 Turu | Imigresen (2) - (2) Kedah Fa | scheduled | -
-- 2026-09-08 16:00 | Güney Afrika 1.Lig | Orbit College - Lerumo Lions | scheduled | -
-- 2026-09-08 16:00 | Uganda Premier Lig | Kigezi Home Bo - Kampala City | scheduled | -
-- 2026-09-08 16:00 | Uganda Premier Lig | Bul - Ntugasaze | scheduled | -
-- 2026-09-08 16:00 | Uganda Premier Lig | Maroons - Blacks Power | scheduled | -
-- 2026-09-08 16:00 | Tanzanya Kuu Bara Ligi | Mashujaa - Singida Black S | scheduled | -
-- 2026-09-08 16:00 | Paraguay Intermedia Lig | 3 De Noviembre - Sol De America | scheduled | -
-- 2026-09-08 16:00 | Paraguay Intermedia Lig | Paraguari - Guairena | scheduled | -
 - 2026-09-08 17:00 | UEFA Gençlik Ligi Lig Aşaması | Real Madrid U1 - Internazionale | scheduled | -
 - 2026-09-08 17:00 | UEFA Gençlik Ligi Lig Aşaması | B. Dortmund U1 - Villarreal U19 | scheduled | -
 - 2026-09-08 17:00 | Kosova Süper Lig | Kosova Vushtrr - Llapi | scheduled | -

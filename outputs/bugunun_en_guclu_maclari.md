@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-08T10:54:40.436Z
+- Güncelleme: 2026-09-08T13:36:38.629Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -17,7 +17,7 @@
 | Rio Ave U23 VS Torreense U23 | Portekiz U23 Ulusal Şampiyona | 13:00 | 2.5 Alt | 1.79 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Portimonense U VS Felgueiras U23 | Portekiz U23 Ulusal Şampiyona | 13:00 | 2.5 Üst | 1.61 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Estoril U23 VS Famalicão U23 | Portekiz U23 Ulusal Şampiyona | 13:00 | MS 1 | 2.15 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Ulsan VS Fc Seoul | Güney Kore K Lig 1 | 13:30 | KG Var | 1.60 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Ulsan VS Fc Seoul | Güney Kore K Lig 1 | 13:30 | MS 2 | 1.82 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Incheon Utd VS Bucheon | Güney Kore K Lig 1 | 13:30 | 2.5 Alt | 1.51 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Porto U19 VS Manchester City | UEFA Gençlik Ligi Lig Aşaması | 14:00 | MS 2 | 1.96 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Olympic Kingsw VS Perth | Avustralya NPL Batı Avustralya Ön Eleme Final | 14:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
@@ -106,7 +106,7 @@
 | Berwick VS Hibernian Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 1.88 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Peterhead VS Clachnacuddin | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Ross County VS Aberdeen Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Banks O Dee VS Forfar | İskoçya Challenge Kupası Lig Aşaması | 21:45 | 2.5 Alt | 1.37 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Banks O Dee VS Forfar | İskoçya Challenge Kupası Lig Aşaması | 21:45 | 2.5 Alt | 1.37 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Clydebank Fc VS Alloa | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 2 | 1.71 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Cove Rangers VS Dumbarton | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Elgin VS Fraserburgh | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 1.34 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -148,7 +148,7 @@
 | Fakenham Town VS Ware | İngiltere FA Cup Eleme 1.Tur Tekrar | 21:45 | 2.5 Alt | 1.95 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Havant And W. VS Chippenham Town | İngiltere FA Cup Eleme 1.Tur Tekrar | 21:45 | 2.5 Alt | 1.82 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Kettering VS Wellingborough | İngiltere FA Cup Eleme 1.Tur Tekrar | 21:45 | MS 1 | 1.64 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Porto VS Manchester City | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | KG Var | 1.89 | 60 | Sadece izleme | Değerli | Orta | Orta | scheduled |
+| Porto VS Manchester City | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | KG Var | 1.93 | 60 | Sadece izleme | Değerli | Orta | Orta | scheduled |
 | B.Dortmund VS Villarreal | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | MS 1 | 1.60 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Real Madrid VS Inter | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | MS 1 | 1.43 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Lille VS Real Betis | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | 2.5 Alt | 1.80 | 65 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
