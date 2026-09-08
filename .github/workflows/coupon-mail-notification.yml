@@ -1,0 +1,46 @@
+name: Coupon Mail Notification
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Update fixtures and High Value Engine
+      - Live Data Trigger
+      - Derived Data Pipeline
+      - Learning Output Check
+      - Stage 4 Result Tracking
+      - Run robot now
+      - Cards User Choice
+      - Card Flow
+      - Auto relaxed analysis
+    types:
+      - completed
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: coupon-mail-notification
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current coupon data
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Notify only for a new valid coupon
+        env:
+          COUPON_MAIL_ENDPOINT: ${{ vars.COUPON_MAIL_ENDPOINT }}
+        run: node scripts/send-coupon-notification.js
