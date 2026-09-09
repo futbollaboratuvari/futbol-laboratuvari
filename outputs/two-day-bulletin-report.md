@@ -2,22 +2,15 @@
 
 Gunler: 2026-09-09 / 2026-09-10
 Kaynak: fixtures.json
-Ham mac: 137
-Aktif mac: 68
+Ham mac: 185
+Aktif mac: 61
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 69
-Bugun: 28
+Bultenden dusurulen mac: 124
+Bugun: 21
 Yarin: 40
 
 ## Baslamamis Maclar
-- 2026-09-09 21:45 | İngiltere Championship | Derby County - West Bromwich | scheduled | -
-- 2026-09-09 21:45 | İngiltere Championship | Norwich - Birmingham | scheduled | -
-- 2026-09-09 21:45 | İskoçya Premiership | Glasgow Ranger - St Mirren | scheduled | -
-- 2026-09-09 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Exmouth - Banbury United | scheduled | -
-- 2026-09-09 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Afc Whyteleafe - Crowborough Ath | scheduled | -
-- 2026-09-09 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Bishop Aucklan - Afc Emley | scheduled | -
-- 2026-09-09 21:45 | İngiltere Ulusal Lig Kupası Grup C | Tamworth - Middlesbrough ( | scheduled | -
 - 2026-09-09 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Napoli - Arsenal | scheduled | -
 - 2026-09-09 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Sporting Cp - Galatasaray | scheduled | -
 - 2026-09-09 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Liverpool - Atletico Madrid | scheduled | -
