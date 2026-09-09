@@ -2,19 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-08T23:23:12.041Z
-- Ham maç sayısı: 163
+- Güncelleme: 2026-09-09T00:23:06.362Z
+- Ham maç sayısı: 165
 - Yarın bülteni maç sayısı: 39
-- Detay blok sayısı: 419
-- Aktif bülten maçı: 157
-- Bültenden düşürülen maç: 6
+- Detay blok sayısı: 424
+- Aktif bülten maçı: 156
+- Bültenden düşürülen maç: 9
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cuiaba - Athletic Club | Brezilya Serie B | 02:30 | Veri bekleniyor | - | 1.67 | 8 |
-| Criciuma - Juventude | Brezilya Serie B | 03:00 | Veri bekleniyor | - | 2.04 | 8 |
-| Inca-Aruba - Balboa | El Salvador Primera Lig Apertura | 03:00 | Veri bekleniyor | - | 2.76 | 8 |
 | Boca Juniors - Sao Paulo | Copa Sudamericana Çeyrek Final | 03:30 | Veri bekleniyor | - | 1.77 | 8 |
 | San Antonio - Louisville City | ABD USL Kupası Yarı Final | 03:30 | Veri bekleniyor | - | 3.05 | 8 |
 | Internacional - Atletico Fc | Kolombiya Primera B Clausura | 03:30 | Veri bekleniyor | - | 1.16 | 6 |
@@ -33,12 +30,12 @@
 | Gwangju - Jeju Utd | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 3.59 | 8 |
 | Gangwon - Jeonbuk Hm | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 2.35 | 8 |
 | Santa Clara U2 - Farense U23 | Portekiz U23 Ulusal Şampiyona | 15:00 | Veri bekleniyor | - | 2.17 | 8 |
-| Dpmm Fc - Terengganu | Malezya FA Kupası Son 16 Turu | 15:15 | Veri bekleniyor | - | 3.48 | 3 |
+| Dpmm Fc - Terengganu | Malezya FA Kupası Son 16 Turu | 15:15 | Veri bekleniyor | - | 3.82 | 3 |
 | Kuala Lumpur (1) - (0) Perak Fa | Malezya FA Kupası Son 16 Turu | 15:15 | Veri bekleniyor | - | 1.21 | 3 |
 | Italy U20 (K) - Yeni Zelanda U2 | Kadınlar U20 Dünya Kupası Grup D | 16:00 | Veri bekleniyor | - | 1.05 | 4 |
 | Fernando De La - Depor Capiata | Paraguay Intermedia Lig | 16:00 | Veri bekleniyor | - | 2 | 8 |
 | Encarnacion - Tacuary | Paraguay Intermedia Lig | 16:00 | Veri bekleniyor | - | 1.94 | 8 |
-| Selangor Fa (2) - (2) Sabah | Malezya FA Kupası Son 16 Turu | 16:00 | Veri bekleniyor | - | 1.19 | 3 |
+| Selangor Fa (2) - (2) Sabah | Malezya FA Kupası Son 16 Turu | 16:00 | Veri bekleniyor | - | 1.2 | 3 |
 | Sc Villa - Express | Uganda Premier Lig | 16:00 | Veri bekleniyor | - | 1.2 | 5 |
 | Mashujaa - Singida Black S | Tanzanya Kuu Bara Ligi | 16:00 | Veri bekleniyor | - | 3.76 | 8 |
 | Entebbe Uppc - Lugazi Municipa | Uganda Premier Lig | 16:00 | Veri bekleniyor | - | 1.38 | 5 |
@@ -122,13 +119,15 @@
 | Psg - Slovan Bratisla | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | - | 5 |
 | Charlton - Qpr | İngiltere Championship | 22:00 | Veri bekleniyor | - | 2.81 | 8 |
 | Chelsea - Leeds Utd | İngiltere Lig Kupası 3.Tur | 22:00 | Veri bekleniyor | - | 1.47 | 8 |
-| St Johnstone - Celtic | İskoçya Premiership | 22:00 | Veri bekleniyor | - | 5.2 | 7 |
+| St Johnstone - Celtic | İskoçya Premiership | 22:00 | Veri bekleniyor | - | 5.47 | 7 |
 | Al Karma - Naft | Irak Premier Lig | 22:00 | Veri bekleniyor | - | 1.51 | 7 |
 | Talavera Cf - Navalcarnero | İspanya Federasyon Kupası Son 32 Turu | 22:00 | Veri bekleniyor | - | 2.12 | 3 |
 | Samper (K) - Olympia Las Roz | İspanya De La Reina Kupası 1. Tur | 22:00 | Veri bekleniyor | - | 2.54 | 3 |
 | Hk Kopavogur - Fylkir | İzlanda 1.Lig Yükselme Play Off Yarı Final | 22:15 | Veri bekleniyor | - | 2.31 | 6 |
 | Depor Santani - Indep Cambo Gra | Paraguay Intermedia Lig | 22:30 | Veri bekleniyor | - | 1.63 | 8 |
 | Moreirense - Benfica | Portekiz Premier Lig | 22:45 | Veri bekleniyor | - | 13.45 | 5 |
+| Yaracuyanos - Aragua | Venezuela Kupa 1.Tur Grup C | 23:00 | Veri bekleniyor | - | 1.78 | 8 |
+| Monagas - Bolívar | Venezuela Kupa 1.Tur Grup E | 23:00 | Veri bekleniyor | - | 1.16 | 4 |
 | Independiente - Quindio | Kolombiya Primera B Clausura | 23:30 | Veri bekleniyor | - | 2.11 | 8 |
 | Deportivo San - Mixco | Guatemala Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 1.48 | 7 |
 | Platense - Isidro Metapan | El Salvador Primera Lig Apertura | 00:00 | Veri bekleniyor | - | 3.04 | 8 |

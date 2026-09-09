@@ -7,7 +7,7 @@ Bekleyen tahmin: 1110
 Kazanan: 212
 Kaybeden: 178
 Skoru olup pending kalan: 0
-Son finalizer kontrolu: 12
-Son finalizer guncelleme: 12
+Son finalizer kontrolu: 0
+Son finalizer guncelleme: 0
 
 Sonraki aksiyon: Olculen tahminler agirlik hesaplamasinda kullanilabilir.

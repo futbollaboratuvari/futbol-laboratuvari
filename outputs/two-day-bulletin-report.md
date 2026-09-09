@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-09 / 2026-09-10
 Kaynak: fixtures.json
-Ham mac: 164
-Aktif mac: 157
+Ham mac: 165
+Aktif mac: 156
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 118
+Bultenden dusurulen mac: 9
+Bugun: 117
 Yarin: 39
 
 ## Baslamamis Maclar
-- 2026-09-09 02:30 | Brezilya Serie B | Cuiaba - Athletic Club | scheduled | -
-- 2026-09-09 03:00 | Brezilya Serie B | Criciuma - Juventude | scheduled | -
-- 2026-09-09 03:00 | El Salvador Primera Lig Apertura | Inca-Aruba - Balboa | scheduled | -
 - 2026-09-09 03:30 | Copa Sudamericana Çeyrek Final | Boca Juniors - Sao Paulo | scheduled | -
 - 2026-09-09 03:30 | ABD USL Kupası Yarı Final | San Antonio - Louisville City | scheduled | -
 - 2026-09-09 03:30 | Kolombiya Primera B Clausura | Internacional - Atletico Fc | scheduled | -
@@ -128,6 +125,8 @@ Yarin: 39
 - 2026-09-09 22:15 | İzlanda 1.Lig Yükselme Play Off Yarı Final | Hk Kopavogur - Fylkir | scheduled | -
 - 2026-09-09 22:30 | Paraguay Intermedia Lig | Depor Santani - Indep Cambo Gra | scheduled | -
 - 2026-09-09 22:45 | Portekiz Premier Lig | Moreirense - Benfica | scheduled | -
+- 2026-09-09 23:00 | Venezuela Kupa 1.Tur Grup C | Yaracuyanos - Aragua | scheduled | -
+- 2026-09-09 23:00 | Venezuela Kupa 1.Tur Grup E | Monagas - Bolívar | scheduled | -
 - 2026-09-09 23:30 | Kolombiya Primera B Clausura | Independiente - Quindio | scheduled | -
 - 2026-09-10 00:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Mixco | scheduled | -
 - 2026-09-10 00:00 | El Salvador Primera Lig Apertura | Platense - Isidro Metapan | scheduled | -
