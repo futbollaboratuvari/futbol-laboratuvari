@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-09 / 2026-09-10
 Kaynak: fixtures.json
-Ham mac: 165
-Aktif mac: 156
+Ham mac: 162
+Aktif mac: 153
 Canli mac: 0
 Biten mac: 0
 Bultenden dusurulen mac: 9
-Bugun: 117
+Bugun: 114
 Yarin: 39
 
 ## Baslamamis Maclar
-- 2026-09-09 03:30 | Copa Sudamericana Çeyrek Final | Boca Juniors - Sao Paulo | scheduled | -
-- 2026-09-09 03:30 | ABD USL Kupası Yarı Final | San Antonio - Louisville City | scheduled | -
-- 2026-09-09 03:30 | Kolombiya Primera B Clausura | Internacional - Atletico Fc | scheduled | -
 - 2026-09-09 11:30 | Malezya FA Kupası Son 16 Turu | Pulau Pinang (1) - (0) Melaka | scheduled | -
 - 2026-09-09 12:30 | Avustralya FFA Kupası Yarı Final | Sydney - Melbourne Victo | scheduled | -
 - 2026-09-09 12:30 | Japonya Lig Kupası 1.Tur | Mio Biwako Shi - Tokyo Verdy | scheduled | -

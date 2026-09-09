@@ -1,21 +1,444 @@
 {
-  "generated_at": "2026-09-08T23:16:27.532Z",
+  "generated_at": "2026-09-09T01:16:00.970Z",
   "status": "pass",
   "source_status": "active",
   "full_bulletin_exists": true,
   "restored_from_cache": false,
-  "match_count": 157,
+  "match_count": 153,
   "live_match_count": 0,
   "finished_count": 0,
   "first_match": {
+    "match_name": "Pulau Pinang (1) VS (0) Melaka",
+    "home": "Pulau Pinang (1)",
+    "away": "(0) Melaka",
     "date": "2026-09-09",
-    "time": "02:30",
-    "league": "Brezilya Serie B",
-    "home": "Cuiaba",
-    "away": "Athletic Club",
-    "matchCode": "15739",
-    "mbs": null,
+    "match_code": "05919",
+    "league": "Malezya FA Kupası Son 16 Turu",
+    "start_time": "11:30",
+    "recommended_market": "MS 1",
+    "confidence_score": "54%",
+    "model_score": 54,
+    "analysis_score": 54,
+    "score_type": "signal_strength",
+    "estimated_probability": 55.5,
+    "market_probability": 55.5,
+    "edge_percent": 0,
+    "data_completeness": 35,
+    "evidence_mode": "market_baseline",
+    "independent_evidence": false,
+    "probability_source": [],
+    "model_version": "pro13-btts-conditioned-v3",
+    "risk_level": "Yüksek",
+    "estimated_odds": "1.53",
+    "available_odds": {
+      "ms1": 1.53,
+      "msx": 3.52,
+      "ms2": 4.17
+    },
+    "raw_market_guess_odds": {
+      "ms1": 1.53,
+      "msx": 3.52,
+      "ms2": 4.17
+    },
+    "detail_market_candidates": [
+      {
+        "market_code": "05919",
+        "market": "Maç Sonucu 1/X/2",
+        "values": {
+          "ms1": 1.53,
+          "msx": 3.52,
+          "ms2": 4.17
+        }
+      },
+      {
+        "market_code": "05919",
+        "market": "İlk Yarı 1/X/2",
+        "values": {
+          "firstHalf1_guess": 1.53,
+          "firstHalfX_guess": 3.52,
+          "firstHalf2_guess": 4.17
+        }
+      },
+      {
+        "market_code": "05919",
+        "market": "İkinci Yarı 1/X/2",
+        "values": {
+          "secondHalf1_guess": 1.53,
+          "secondHalfX_guess": 3.52,
+          "secondHalf2_guess": 4.17
+        }
+      },
+      {
+        "market_code": "05919",
+        "market": "Handikap 1/X/2",
+        "values": {
+          "handicap1_guess": 1.53,
+          "handicapX_guess": 3.52,
+          "handicap2_guess": 4.17
+        }
+      }
+    ],
+    "raw_market_blocks": [
+      {
+        "market_code": "05919",
+        "values": [
+          1.53,
+          3.52,
+          4.17
+        ],
+        "guess": "Maç Sonucu 1/X/2",
+        "named_values": {
+          "ms1": 1.53,
+          "msx": 3.52,
+          "ms2": 4.17
+        },
+        "detail_market_candidates": [
+          {
+            "market": "Maç Sonucu 1/X/2",
+            "values": {
+              "ms1": 1.53,
+              "msx": 3.52,
+              "ms2": 4.17
+            }
+          },
+          {
+            "market": "İlk Yarı 1/X/2",
+            "values": {
+              "firstHalf1_guess": 1.53,
+              "firstHalfX_guess": 3.52,
+              "firstHalf2_guess": 4.17
+            }
+          },
+          {
+            "market": "İkinci Yarı 1/X/2",
+            "values": {
+              "secondHalf1_guess": 1.53,
+              "secondHalfX_guess": 3.52,
+              "secondHalf2_guess": 4.17
+            }
+          },
+          {
+            "market": "Handikap 1/X/2",
+            "values": {
+              "handicap1_guess": 1.53,
+              "handicapX_guess": 3.52,
+              "handicap2_guess": 4.17
+            }
+          }
+        ]
+      }
+    ],
+    "odds_source": "Robot ham veri havuzu",
+    "value_label": "Piyasa ile Uyumlu",
+    "band_attention_level": "Orta",
+    "band_attention_notes": [
+      "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı."
+    ],
+    "squad_risk_level": "Belirsiz",
+    "lineup_risk_level": "Belirsiz",
+    "team_status_verified_count": 0,
+    "named_player_count": 0,
+    "team_intelligence": {
+      "squad_risk_level": "Belirsiz",
+      "squad_verified_team_count": 0,
+      "squad_signal_team_count": 0,
+      "named_player_count": 0,
+      "lineup_risk_level": "Belirsiz",
+      "squad_comment": "Pulau Pinang (1) için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | (0) Melaka için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+      "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz.",
+      "team_status": {
+        "home": {
+          "transfers_in": [],
+          "transfers_out": [],
+          "injured_players": [],
+          "suspended_players": [],
+          "doubtful_players": [],
+          "squad_note": "",
+          "source_note": "",
+          "evidence": [],
+          "auto_risk_score": 0,
+          "data_status": "no_verified_data",
+          "player_impacts": [],
+          "transfer_details": {
+            "in": [],
+            "out": []
+          },
+          "availability_checked": false,
+          "lineup_confirmed": false,
+          "provider_team_id": null,
+          "injury_news_count": 0,
+          "suspension_news_count": 0,
+          "doubtful_news_count": 0,
+          "transfer_in_news_count": 0,
+          "transfer_out_news_count": 0,
+          "verified_source_count": 0,
+          "structured_fact_source_count": 0
+        },
+        "away": {
+          "transfers_in": [],
+          "transfers_out": [],
+          "injured_players": [],
+          "suspended_players": [],
+          "doubtful_players": [],
+          "squad_note": "",
+          "source_note": "",
+          "evidence": [],
+          "auto_risk_score": 0,
+          "data_status": "no_verified_data",
+          "player_impacts": [],
+          "transfer_details": {
+            "in": [],
+            "out": []
+          },
+          "availability_checked": false,
+          "lineup_confirmed": false,
+          "provider_team_id": null,
+          "injury_news_count": 0,
+          "suspension_news_count": 0,
+          "doubtful_news_count": 0,
+          "transfer_in_news_count": 0,
+          "transfer_out_news_count": 0,
+          "verified_source_count": 0,
+          "structured_fact_source_count": 0
+        }
+      },
+      "lineup": {
+        "home": {
+          "team_name": "Pulau Pinang (1)",
+          "formation": "-",
+          "starting_11_count": 0,
+          "substitutes_count": 0,
+          "starting_11_strength": 0,
+          "bench_strength": 0,
+          "strength_label": "Veri Yok",
+          "top_starting_players": [],
+          "top_bench_players": [],
+          "unavailable_players": [],
+          "important_missing_count": 0,
+          "data_available": false,
+          "availability_checked": false,
+          "lineup_confirmed": false,
+          "data_status": "no_verified_data",
+          "note": "",
+          "source_note": ""
+        },
+        "away": {
+          "team_name": "(0) Melaka",
+          "formation": "-",
+          "starting_11_count": 0,
+          "substitutes_count": 0,
+          "starting_11_strength": 0,
+          "bench_strength": 0,
+          "strength_label": "Veri Yok",
+          "top_starting_players": [],
+          "top_bench_players": [],
+          "unavailable_players": [],
+          "important_missing_count": 0,
+          "data_available": false,
+          "availability_checked": false,
+          "lineup_confirmed": false,
+          "data_status": "no_verified_data",
+          "note": "",
+          "source_note": ""
+        }
+      },
+      "adjustment": {
+        "original_model_score": 58,
+        "penalty": 4,
+        "adjusted_model_score": 54,
+        "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü."
+      }
+    },
+    "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 1 | Oran: 1.53 | Veri tipi: standard",
+    "include_in_coupon": false,
+    "suitable_coupon_type": "Sadece izleme",
+    "data_gap_risk": "Yüksek",
     "status": "scheduled",
+    "expected_scores": [
+      "1-0",
+      "2-0",
+      "2-1"
+    ],
+    "learning_adjustment": {
+      "market": "MS 1",
+      "league": "Malezya FA Kupası Son 16 Turu",
+      "delta": 0,
+      "weight": 1,
+      "applied": false,
+      "notes": [
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "market_bucket": {
+        "total": 499,
+        "pending": 391,
+        "won": 57,
+        "lost": 51,
+        "void": 0,
+        "success_rate": 0.528,
+        "profit_sample_count": 108,
+        "odds_sum": 181.88,
+        "profit_sum": -15.9,
+        "profit_square_sum": 77.4972,
+        "distinct_date_count": 4,
+        "average_odds": 1.684,
+        "flat_roi": -0.147,
+        "weight": 1,
+        "confidence_adjustment": 0,
+        "scope": "market",
+        "settled": 108,
+        "adjusted_success_rate": 0.522,
+        "confidence_low": 0.449,
+        "confidence_high": 0.605,
+        "evaluation_basis": "flat_roi",
+        "adjusted_roi": -0.115,
+        "roi_confidence_low": -0.28,
+        "roi_confidence_high": -0.015,
+        "policy_min_settled": 30,
+        "policy_min_distinct_dates": 7,
+        "sample_ready": true,
+        "temporal_ready": false,
+        "learning_active": false,
+        "learning_state": "neutral"
+      },
+      "league_bucket": {
+        "total": 2,
+        "pending": 2,
+        "won": 0,
+        "lost": 0,
+        "void": 0,
+        "success_rate": null,
+        "profit_sample_count": 0,
+        "odds_sum": 0,
+        "profit_sum": 0,
+        "profit_square_sum": 0,
+        "distinct_date_count": 0,
+        "average_odds": null,
+        "flat_roi": null,
+        "weight": 1,
+        "confidence_adjustment": 0,
+        "scope": "league",
+        "settled": 0,
+        "adjusted_success_rate": 0.5,
+        "confidence_low": 0,
+        "confidence_high": 1,
+        "evaluation_basis": "flat_roi",
+        "adjusted_roi": null,
+        "roi_confidence_low": null,
+        "roi_confidence_high": null,
+        "policy_min_settled": 24,
+        "policy_min_distinct_dates": 10,
+        "sample_ready": false,
+        "temporal_ready": false,
+        "learning_active": false,
+        "learning_state": "neutral"
+      },
+      "league_market_bucket": {
+        "total": 1,
+        "pending": 1,
+        "won": 0,
+        "lost": 0,
+        "void": 0,
+        "success_rate": null,
+        "profit_sample_count": 0,
+        "odds_sum": 0,
+        "profit_sum": 0,
+        "profit_square_sum": 0,
+        "distinct_date_count": 0,
+        "average_odds": null,
+        "flat_roi": null,
+        "weight": 1,
+        "confidence_adjustment": 0,
+        "scope": "league_market",
+        "settled": 0,
+        "adjusted_success_rate": 0.5,
+        "confidence_low": 0,
+        "confidence_high": 1,
+        "evaluation_basis": "flat_roi",
+        "adjusted_roi": null,
+        "roi_confidence_low": null,
+        "roi_confidence_high": null,
+        "policy_min_settled": 30,
+        "policy_min_distinct_dates": 14,
+        "sample_ready": false,
+        "temporal_ready": false,
+        "learning_active": false,
+        "learning_state": "neutral"
+      },
+      "confidence_evaluation": {
+        "market": {
+          "scope": "market",
+          "settled": 108,
+          "success_rate": 0.528,
+          "adjusted_success_rate": 0.522,
+          "confidence_low": 0.449,
+          "confidence_high": 0.605,
+          "evaluation_basis": "flat_roi",
+          "profit_sample_count": 108,
+          "distinct_date_count": 4,
+          "flat_roi": -0.147,
+          "adjusted_roi": -0.115,
+          "roi_confidence_low": -0.28,
+          "roi_confidence_high": -0.015,
+          "policy_min_settled": 30,
+          "policy_min_distinct_dates": 7,
+          "sample_ready": true,
+          "temporal_ready": false,
+          "learning_active": false,
+          "learning_state": "neutral",
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league": {
+          "scope": "league",
+          "settled": 0,
+          "success_rate": null,
+          "adjusted_success_rate": 0.5,
+          "confidence_low": 0,
+          "confidence_high": 1,
+          "evaluation_basis": "flat_roi",
+          "profit_sample_count": 0,
+          "distinct_date_count": 0,
+          "flat_roi": null,
+          "adjusted_roi": null,
+          "roi_confidence_low": null,
+          "roi_confidence_high": null,
+          "policy_min_settled": 24,
+          "policy_min_distinct_dates": 10,
+          "sample_ready": false,
+          "temporal_ready": false,
+          "learning_active": false,
+          "learning_state": "neutral",
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market": {
+          "scope": "league_market",
+          "settled": 0,
+          "success_rate": null,
+          "adjusted_success_rate": 0.5,
+          "confidence_low": 0,
+          "confidence_high": 1,
+          "evaluation_basis": "flat_roi",
+          "profit_sample_count": 0,
+          "distinct_date_count": 0,
+          "flat_roi": null,
+          "adjusted_roi": null,
+          "roi_confidence_low": null,
+          "roi_confidence_high": null,
+          "policy_min_settled": 30,
+          "policy_min_distinct_dates": 14,
+          "sample_ready": false,
+          "temporal_ready": false,
+          "learning_active": false,
+          "learning_state": "neutral",
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
+      }
+    },
+    "time": "11:30",
+    "matchCode": "05919",
+    "mbs": null,
     "liveStatus": "scheduled",
     "status_verified": false,
     "status_source": "schedule_only",
@@ -25,22 +448,67 @@
     "score": "",
     "source": "Maçkolik canlı robot",
     "odds": {
-      "ms1": 1.67,
-      "msx": 2.73,
-      "ms2": 4.07,
-      "under25": 1.27,
-      "over25": 2.35
+      "ms1": 1.53,
+      "msx": 3.52,
+      "ms2": 4.17
     },
-    "available_odds": {
-      "ms1": 1.67,
-      "msx": 2.73,
-      "ms2": 4.07,
-      "under25": 1.27,
-      "over25": 2.35
-    },
-    "raw_market_guess_odds": {},
     "raw_odds_sequence": [],
-    "raw_market_value_count": 5
+    "raw_market_value_count": 3,
+    "detail_markets": [
+      {
+        "key": "ms1",
+        "label": "MS 1",
+        "odd": 1.53,
+        "source": "Maçkolik canlı robot"
+      },
+      {
+        "key": "msx",
+        "label": "MS X",
+        "odd": 3.52,
+        "source": "Maçkolik canlı robot"
+      },
+      {
+        "key": "ms2",
+        "label": "MS 2",
+        "odd": 4.17,
+        "source": "Maçkolik canlı robot"
+      }
+    ],
+    "raw_market_source": "Maçkolik canlı robot",
+    "oddsSource": "Maçkolik canlı robot",
+    "wide_market_odds_count": 3,
+    "detail": {
+      "analysis": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 1 | Oran: 1.53 | Veri tipi: standard",
+      "prediction": "MS 1",
+      "confidence": 54,
+      "risk": "Yüksek",
+      "team_info": {
+        "home": null,
+        "away": null
+      },
+      "league_info": null,
+      "goal_expectation": null,
+      "markets": [
+        {
+          "key": "ms1",
+          "label": "MS 1",
+          "odd": 1.53,
+          "source": "Maçkolik canlı robot"
+        },
+        {
+          "key": "msx",
+          "label": "MS X",
+          "odd": 3.52,
+          "source": "Maçkolik canlı robot"
+        },
+        {
+          "key": "ms2",
+          "label": "MS 2",
+          "odd": 4.17,
+          "source": "Maçkolik canlı robot"
+        }
+      ]
+    }
   },
   "date_window": {
     "main_day": "2026-09-09",
