@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 130
+- Scheduled match count: 107
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-09 / 2026-09-10 23:59
 
-- 2026-09-09 18:30 | Levski Sofya - Cska Sofia | scheduled
-- 2026-09-09 18:30 | Vsk Arhus - Lyngby | scheduled
-- 2026-09-09 18:30 | Oviedo Moderno - Sporting Gijón | scheduled
-- 2026-09-09 18:45 | Al Talaba - Al Karkh | scheduled
-- 2026-09-09 18:45 | Kauno Zalgiris - Suduva | scheduled
-- 2026-09-09 18:50 | Al-Raed - Al Jeel | scheduled
-- 2026-09-09 18:55 | Al Kholood - Al Shabab (Riya | scheduled
-- 2026-09-09 19:00 | Zeljeznicar - Sarajevo | scheduled
-- 2026-09-09 19:00 | Prostejov - Sigma Olomouc | scheduled
-- 2026-09-09 19:00 | Levadia Tallin - Kuressaare | scheduled
+- 2026-09-09 19:45 | Twente - Telstar | scheduled
+- 2026-09-09 19:45 | Barcelona - Feyenoord | scheduled
+- 2026-09-09 19:45 | Stuttgart - Viking | scheduled
+- 2026-09-09 20:00 | Hradec Kralove - Viktoria Plzen | scheduled
+- 2026-09-09 20:00 | Viktoria Zizko - Sparta Prag | scheduled
+- 2026-09-09 20:00 | Kolding If - Odense | scheduled
+- 2026-09-09 20:00 | Nykobing - Middelfart | scheduled
+- 2026-09-09 20:00 | Dinamo Batumi - Fc Iberia | scheduled
+- 2026-09-09 20:00 | Burgos (K) - Bizkerre (K) | scheduled
+- 2026-09-09 20:00 | Celta De Vigo - Real Avilés (K) | scheduled

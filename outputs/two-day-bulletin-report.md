@@ -2,38 +2,15 @@
 
 Gunler: 2026-09-09 / 2026-09-10
 Kaynak: fixtures.json
-Ham mac: 185
-Aktif mac: 130
+Ham mac: 137
+Aktif mac: 107
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 55
-Bugun: 90
+Bultenden dusurulen mac: 30
+Bugun: 67
 Yarin: 40
 
 ## Baslamamis Maclar
-- 2026-09-09 18:30 | İspanya De La Reina Kupası 1. Tur | Oviedo Moderno - Sporting Gijón | scheduled | -
-- 2026-09-09 18:30 | Bulgaristan Süper Kupa | Levski Sofya - Cska Sofia | scheduled | -
-- 2026-09-09 18:30 | Danimarka DBU Kupası 3.Tur | Vsk Arhus - Lyngby | scheduled | -
-- 2026-09-09 18:45 | Litvanya A Ligi | Kauno Zalgiris - Suduva | scheduled | -
-- 2026-09-09 18:45 | Irak Premier Lig | Al Talaba - Al Karkh | scheduled | -
-- 2026-09-09 18:50 | Suudi Arabistan 1.Lig | Al-Raed - Al Jeel | scheduled | -
-- 2026-09-09 18:55 | Suudi Arabistan Pro Lig | Al Kholood - Al Shabab (Riya | scheduled | -
-- 2026-09-09 19:00 | Çek Cumhuriyeti Kupa 3.Tur | Prostejov - Sigma Olomouc | scheduled | -
-- 2026-09-09 19:00 | Kadınlar U20 Dünya Kupası Grup C | Fransa U20 (K) - Ekvador U20 (K) | scheduled | -
-- 2026-09-09 19:00 | Kadınlar U20 Dünya Kupası Grup D | Japonya U20 (K - Abd U20 (K) | scheduled | -
-- 2026-09-09 19:00 | Estonya Premium Lig | Levadia Tallin - Kuressaare | scheduled | -
-- 2026-09-09 19:00 | Estonya Premium Lig | Vaprus - Harju Jalgpalli | scheduled | -
-- 2026-09-09 19:00 | Estonya Premium Lig | Tammeka Tartu - Paide Linnamees | scheduled | -
-- 2026-09-09 19:00 | Bosna-Hersek Premier Lig | Zeljeznicar - Sarajevo | scheduled | -
-- 2026-09-09 19:00 | İspanya De La Reina Kupası 1. Tur | Elche (K) - Levante (K) | scheduled | -
-- 2026-09-09 19:00 | Portekiz U23 Ulusal Şampiyona | Benfica U23 - Vizela U23 | scheduled | -
-- 2026-09-09 19:00 | İtalya Serie C Kupası 2.Tur | Grosseto - Latina | scheduled | -
-- 2026-09-09 19:00 | İtalya Süper Kupa Primavera | Fiorentina U20 - Atalanta U20 | scheduled | -
-- 2026-09-09 19:10 | Suudi Arabistan 1.Lig | Al-Jandal - Al Bukayriyah | scheduled | -
-- 2026-09-09 19:30 | İspanya De La Reina Kupası 1. Tur | Balears (K) - Villarreal (K) | scheduled | -
-- 2026-09-09 19:30 | İspanya De La Reina Kupası 1. Tur | Sporting De Hu - Malaga (K) | scheduled | -
-- 2026-09-09 19:30 | Danimarka DBU Kupası 3.Tur | Vanlose - Hillerod | scheduled | -
-- 2026-09-09 19:30 | Danimarka DBU Kupası 3.Tur | Frem - Roskilde | scheduled | -
 - 2026-09-09 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Barcelona - Feyenoord | scheduled | -
 - 2026-09-09 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Stuttgart - Viking | scheduled | -
 - 2026-09-09 19:45 | Hollanda Eredivisie | Twente - Telstar | scheduled | -
