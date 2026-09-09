@@ -1,15 +1,13 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 168
-Tam analiz: 147
-Eksik analiz: 21
+Toplam analiz: 137
+Tam analiz: 118
+Eksik analiz: 19
 
-- Italy U20 (K) VS Yeni Zelanda U2: eksik score, confidence
-- Neftchi Fargon VS Termez Surkhon: eksik score, confidence
 - Nasaf Qarshi VS Bunyodkor: eksik score, confidence
 - Vsk Arhus VS Lyngby: eksik score, confidence
-- Fransa U20 (K) VS Ekvador U20 (K): eksik score, confidence
+- Prostejov VS Sigma Olomouc: eksik score, confidence
 - Levadia Tallin VS Kuressaare: eksik score, confidence
 - Elche (K) VS Levante (K): eksik score, confidence
 - Balears (K) VS Villarreal (K): eksik score, confidence
@@ -25,3 +23,4 @@ Eksik analiz: 21
 - Monagas VS Bolívar: eksik score, confidence
 - America De Cal VS Pereira: eksik score, confidence
 - Vancouver VS Los Angeles: eksik score, confidence
+- Los Angeles Fc VS New York: eksik score, confidence

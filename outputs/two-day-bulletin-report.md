@@ -3,53 +3,14 @@
 Gunler: 2026-09-09 / 2026-09-10
 Kaynak: fixtures.json
 Ham mac: 137
-Aktif mac: 107
+Aktif mac: 68
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 30
-Bugun: 67
+Bultenden dusurulen mac: 69
+Bugun: 28
 Yarin: 40
 
 ## Baslamamis Maclar
-- 2026-09-09 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Barcelona - Feyenoord | scheduled | -
-- 2026-09-09 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Stuttgart - Viking | scheduled | -
-- 2026-09-09 19:45 | Hollanda Eredivisie | Twente - Telstar | scheduled | -
-- 2026-09-09 20:00 | Çek Cumhuriyeti Czech Liga | Hradec Kralove - Viktoria Plzen | scheduled | -
-- 2026-09-09 20:00 | Çek Cumhuriyeti Kupa 3.Tur | Viktoria Zizko - Sparta Prag | scheduled | -
-- 2026-09-09 20:00 | Danimarka DBU Kupası 3.Tur | Kolding If - Odense | scheduled | -
-- 2026-09-09 20:00 | İsveç Superettan | United Nordic - Varnamo | scheduled | -
-- 2026-09-09 20:00 | İsveç Superettan | Ljungskile - Norrby | scheduled | -
-- 2026-09-09 20:00 | İsveç Superettan | Sandvikens - Oddevold | scheduled | -
-- 2026-09-09 20:00 | İsveç Superettan | Landskrona - Helsingborg | scheduled | -
-- 2026-09-09 20:00 | Mısır Premier Lig | Al Mokawloon A - Al Ahly | scheduled | -
-- 2026-09-09 20:00 | Mısır Premier Lig | Enppi - Zed | scheduled | -
-- 2026-09-09 20:00 | Gürcistan Erovnuli Liga | Dinamo Batumi - Fc Iberia | scheduled | -
-- 2026-09-09 20:00 | Kosova Süper Lig | Gjilani - Ballkani | scheduled | -
-- 2026-09-09 20:00 | İspanya Federasyon Kupası Son 32 Turu | Compostela - Derio | scheduled | -
-- 2026-09-09 20:00 | İspanya Federasyon Kupası Son 32 Turu | Ud Santa Marta - Vimenor | scheduled | -
-- 2026-09-09 20:00 | İspanya De La Reina Kupası 1. Tur | Celta De Vigo - Real Avilés (K) | scheduled | -
-- 2026-09-09 20:00 | İspanya De La Reina Kupası 1. Tur | Burgos (K) - Bizkerre (K) | scheduled | -
-- 2026-09-09 20:00 | İzlanda 1.Lig Yükselme Play Off Yarı Final | Njardvik - Throttur | scheduled | -
-- 2026-09-09 20:00 | Danimarka DBU Kupası 3.Tur | Nykobing - Middelfart | scheduled | -
-- 2026-09-09 20:30 | Güney Afrika PSL | Mamelodi Sundo - Siwelele | scheduled | -
-- 2026-09-09 20:30 | Suudi Arabistan 1.Lig | Jeddah Club - Al Orubah Club | scheduled | -
-- 2026-09-09 20:30 | Andorra Süper Kupa | Inter Escaldes - Descaldes | scheduled | -
-- 2026-09-09 20:30 | İspanya Federasyon Kupası Son 32 Turu | Salamanca - Caudal Deportiv | scheduled | -
-- 2026-09-09 21:00 | Suudi Arabistan Pro Lig | Al Fateh - Diriyah | scheduled | -
-- 2026-09-09 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya - Abha | scheduled | -
-- 2026-09-09 21:00 | Uruguay Kupa Ön Eleme Turu Grup 4 | Racing Montevi - Central Espanol | scheduled | -
-- 2026-09-09 21:00 | Uruguay Kupa Ön Eleme Turu Grup 6 | Boston River - Colon | scheduled | -
-- 2026-09-09 21:00 | Irak Premier Lig | Newroz - Al Mosul | scheduled | -
-- 2026-09-09 21:00 | Irak Premier Lig | Al Minaa Basra - Naft Maysan | scheduled | -
-- 2026-09-09 21:00 | İspanya Federasyon Kupası Son 32 Turu | Comillas - Lhospitalet | scheduled | -
-- 2026-09-09 21:00 | İspanya Federasyon Kupası Son 32 Turu | Badalona - Sestao | scheduled | -
-- 2026-09-09 21:00 | İspanya Federasyon Kupası Son 32 Turu | Torrent - Saguntino | scheduled | -
-- 2026-09-09 21:00 | Karadağ 1.Lig | Decic Tuzi - Petrovac | scheduled | -
-- 2026-09-09 21:00 | İngiltere Premier Lig Kupası Grup A | Blackburn Rove - Queens Park Ran | scheduled | -
-- 2026-09-09 21:15 | İspanya Federasyon Kupası Son 32 Turu | San Juan - Terrassa | scheduled | -
-- 2026-09-09 21:30 | Arjantin Ulusal Primera Lig | D Belgrano - Los Andes | scheduled | -
-- 2026-09-09 21:30 | İspanya Federasyon Kupası Son 32 Turu | Motril - Huelva | scheduled | -
-- 2026-09-09 21:30 | İspanya De La Reina Kupası 1. Tur | Sport Extremad - Cacereno (K) | scheduled | -
 - 2026-09-09 21:45 | İngiltere Championship | Derby County - West Bromwich | scheduled | -
 - 2026-09-09 21:45 | İngiltere Championship | Norwich - Birmingham | scheduled | -
 - 2026-09-09 21:45 | İskoçya Premiership | Glasgow Ranger - St Mirren | scheduled | -
