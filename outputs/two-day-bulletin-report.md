@@ -2,13 +2,13 @@
 
 Gunler: 2026-09-09 / 2026-09-10
 Kaynak: fixtures.json
-Ham mac: 162
-Aktif mac: 153
+Ham mac: 167
+Aktif mac: 154
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 9
+Bultenden dusurulen mac: 13
 Bugun: 114
-Yarin: 39
+Yarin: 40
 
 ## Baslamamis Maclar
 - 2026-09-09 11:30 | Malezya FA Kupası Son 16 Turu | Pulau Pinang (1) - (0) Melaka | scheduled | -
@@ -127,6 +127,7 @@ Yarin: 39
 - 2026-09-09 23:30 | Kolombiya Primera B Clausura | Independiente - Quindio | scheduled | -
 - 2026-09-10 00:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Mixco | scheduled | -
 - 2026-09-10 00:00 | El Salvador Primera Lig Apertura | Platense - Isidro Metapan | scheduled | -
+- 2026-09-10 00:30 | Venezuela Kupa 1.Tur Grup C | Fundacion Lara - Caracas Fc | scheduled | -
 - 2026-09-10 01:00 | Copa Libertadores Çeyrek Final | Palmeiras - Ldu Quito | scheduled | -
 - 2026-09-10 01:00 | Copa Sudamericana Çeyrek Final | Santos - Atletico Mg | scheduled | -
 - 2026-09-10 01:00 | Arjantin Kupa Çeyrek Final | Riestra - Banfield | scheduled | -
