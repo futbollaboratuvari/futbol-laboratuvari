@@ -2,12 +2,12 @@
 
 Gunler: 2026-09-09 / 2026-09-10
 Kaynak: fixtures.json
-Ham mac: 154
-Aktif mac: 154
+Ham mac: 170
+Aktif mac: 157
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 114
+Bultenden dusurulen mac: 13
+Bugun: 117
 Yarin: 40
 
 ## Baslamamis Maclar
@@ -52,6 +52,7 @@ Yarin: 40
 - 2026-09-09 18:00 | Özbekistan Super League | Nasaf Qarshi - Bunyodkor | scheduled | -
 - 2026-09-09 18:30 | İspanya De La Reina Kupası 1. Tur | Oviedo Moderno - Sporting Gijón | scheduled | -
 - 2026-09-09 18:30 | Bulgaristan Süper Kupa | Levski Sofya - Cska Sofia | scheduled | -
+- 2026-09-09 18:30 | Danimarka DBU Kupası 3.Tur | Vsk Arhus - Lyngby | scheduled | -
 - 2026-09-09 18:45 | Litvanya A Ligi | Kauno Zalgiris - Suduva | scheduled | -
 - 2026-09-09 18:45 | Irak Premier Lig | Al Talaba - Al Karkh | scheduled | -
 - 2026-09-09 18:50 | Suudi Arabistan 1.Lig | Al-Raed - Al Jeel | scheduled | -
@@ -88,8 +89,10 @@ Yarin: 40
 - 2026-09-09 20:00 | İspanya De La Reina Kupası 1. Tur | Celta De Vigo - Real Avilés (K) | scheduled | -
 - 2026-09-09 20:00 | İspanya De La Reina Kupası 1. Tur | Burgos (K) - Bizkerre (K) | scheduled | -
 - 2026-09-09 20:00 | İzlanda 1.Lig Yükselme Play Off Yarı Final | Njardvik - Throttur | scheduled | -
+- 2026-09-09 20:00 | Danimarka DBU Kupası 3.Tur | Nykobing - Middelfart | scheduled | -
 - 2026-09-09 20:30 | Güney Afrika PSL | Mamelodi Sundo - Siwelele | scheduled | -
 - 2026-09-09 20:30 | Suudi Arabistan 1.Lig | Jeddah Club - Al Orubah Club | scheduled | -
+- 2026-09-09 20:30 | Andorra Süper Kupa | Inter Escaldes - Descaldes | scheduled | -
 - 2026-09-09 21:00 | Suudi Arabistan Pro Lig | Al Fateh - Diriyah | scheduled | -
 - 2026-09-09 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya - Abha | scheduled | -
 - 2026-09-09 21:00 | Uruguay Kupa Ön Eleme Turu Grup 4 | Racing Montevi - Central Espanol | scheduled | -

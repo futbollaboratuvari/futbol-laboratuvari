@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.09.2026 08:51:28
+Oluşturma: 09.09.2026 09:27:36
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1114
-- Kazanan tahmin: 210
-- Kaybeden tahmin: 176
-- Lig sayısı: 247
+- Bekleyen tahmin: 1109
+- Kazanan tahmin: 214
+- Kaybeden tahmin: 177
+- Lig sayısı: 248
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -23,27 +23,27 @@ Oluşturma: 09.09.2026 08:51:28
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 3, bekleyen 2, başarı %100, düz getiri %146, ağırlık 1
-- 2.5 Üst: toplam 227, bekleyen 142, başarı %62, düz getiri %8, ağırlık 1
-- MS 1: toplam 502, bekleyen 392, başarı %53, düz getiri %-15, ağırlık 1
-- 2.5 Alt: toplam 546, bekleyen 412, başarı %52, düz getiri %-14, ağırlık 1
-- MS 2: toplam 219, bekleyen 165, başarı %50, düz getiri %-12, ağırlık 1
+- 2.5 Üst: toplam 228, bekleyen 143, başarı %62, düz getiri %8, ağırlık 1
+- MS 1: toplam 499, bekleyen 386, başarı %53, düz getiri %-14, ağırlık 1
+- 2.5 Alt: toplam 551, bekleyen 415, başarı %53, düz getiri %-13, ağırlık 1
+- MS 2: toplam 216, bekleyen 162, başarı %50, düz getiri %-12, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-09 | Kosova Süper Lig | Feronikeli - Fc Drita | 2.5 Üst | pending | 53/100
-- 2026-09-09 | Uganda Premier Lig | Sc Villa - Express | MS 1 | pending | 58/100
-- 2026-09-09 | Venezuela Kupa 1.Tur Grup C | Fundacion Lara - Caracas Fc | MS 2 | pending | 51/100
-- 2026-09-09 | Malezya FA Kupası Son 16 Turu | Kuala Lumpur (1) - (0) Perak Fa | MS 1 | pending | 58/100
-- 2026-09-09 | Malezya FA Kupası Son 16 Turu | Selangor Fa (2) - (2) Sabah | MS 1 | pending | 59/100
-- 2026-09-09 | ABD MLS Next Pro | North Texas - Houston Dynamo | 2.5 Alt | pending | 49/100
-- 2026-09-09 | İzlanda 1.Lig Yükselme Play Off Yarı Final | Hk Kopavogur - Fylkir | 2.5 Alt | pending | 41/100
-- 2026-09-09 | ABD MLS Next Pro | Huntsville Cit - Chattanooga | 2.5 Alt | pending | 49/100
-- 2026-09-09 | Estonya Premium Lig | Vaprus - Harju Jalgpalli | 2.5 Alt | pending | 49/100
-- 2026-09-09 | İzlanda 1.Lig Yükselme Play Off Yarı Final | Njardvik - Throttur | 2.5 Alt | pending | 40/100
-- 2026-09-09 | Venezuela Kupa 1.Tur Grup C | Yaracuyanos - Aragua | 2.5 Alt | pending | 57/100
-- 2026-09-09 | Tanzanya Kuu Bara Ligi | Mashujaa - Singida Black S | MS 2 | pending | 50/100
-- 2026-09-09 | ABD MLS | Minnesota Utd - Dallas | MS 1 | pending | 51/100
-- 2026-09-09 | Brezilya Serie B | Atletico Goian - Ceara | 2.5 Alt | pending | 57/100
-- 2026-09-09 | ABD MLS Next Pro | North Texas - Houston Dynamo | MS 2 | pending | 46/100
+- 2026-09-09 | ABD MLS | Montreal - Charlotte | MS 1 | pending | 49/100
+- 2026-09-09 | Kolombiya Primera B Clausura | Independiente - Quindio | 2.5 Alt | pending | 66/100
+- 2026-09-09 | Danimarka DBU Kupası 3.Tur | Nykobing - Middelfart | MS 1 | pending | 51/100
+- 2026-09-09 | Andorra Süper Kupa | Inter Escaldes - Descaldes | MS 1 | pending | 51/100
+- 2026-09-09 | Uruguay Kupa Ön Eleme Turu Grup 4 | Racing Montevi - Central Espanol | 2.5 Alt | pending | 62/100
+- 2026-09-09 | İngiltere Championship | Norwich - Birmingham | 2.5 Üst | pending | 80/100
+- 2026-09-09 | Danimarka DBU Kupası 3.Tur | Vanlose - Hillerod | MS 2 | pending | 56/100
+- 2026-09-09 | Mısır Premier Lig | Al Mokawloon A - Al Ahly | 2.5 Alt | pending | 53/100
+- 2026-09-09 | İspanya De La Reina Kupası 1. Tur | Celta De Vigo - Real Avilés (K) | MS 1 | pending | 57/100
+- 2026-09-09 | Finlandiya Veikkausliiga Şampiyonluk Grubu | Helsinki - Inter Turku | 2.5 Üst | pending | 54/100
+- 2026-09-09 | Gürcistan Erovnuli Liga | Samgurali - Dila Gori | 2.5 Alt | pending | 54/100
+- 2026-09-09 | Uganda Premier Lig | Sc Villa - Express | 2.5 Alt | pending | 57/100
+- 2026-09-09 | Özbekistan Super League | Otmk Olmaliq - Pakhtakor | 2.5 Alt | pending | 50/100
+- 2026-09-09 | Japonya Lig Kupası 1.Tur | Tochigi Sc - Yamagata | 2.5 Üst | pending | 53/100
+- 2026-09-09 | Japonya J3 Lig | Ryukyu - Gira Kitakyushu | 2.5 Alt | pending | 49/100
 
