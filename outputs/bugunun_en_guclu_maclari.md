@@ -2,10 +2,10 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-09T01:29:30.908Z
+- Güncelleme: 2026-09-09T04:57:02.998Z
 - Ham maç sayısı: 160
 - Yarın bülteni maç sayısı: 40
-- Detay blok sayısı: 411
+- Detay blok sayısı: 412
 - Aktif bülten maçı: 154
 - Bültenden düşürülen maç: 6
 
@@ -32,8 +32,8 @@
 | Italy U20 (K) - Yeni Zelanda U2 | Kadınlar U20 Dünya Kupası Grup D | 16:00 | Veri bekleniyor | - | 1.06 | 4 |
 | Fernando De La - Depor Capiata | Paraguay Intermedia Lig | 16:00 | Veri bekleniyor | - | 1.97 | 8 |
 | Encarnacion - Tacuary | Paraguay Intermedia Lig | 16:00 | Veri bekleniyor | - | 1.93 | 8 |
-| Selangor Fa (2) - (2) Sabah | Malezya FA Kupası Son 16 Turu | 16:00 | Veri bekleniyor | - | 1.27 | 3 |
-| Sc Villa - Express | Uganda Premier Lig | 16:00 | Veri bekleniyor | - | 1.2 | 5 |
+| Selangor Fa (2) - (2) Sabah | Malezya FA Kupası Son 16 Turu | 16:00 | Veri bekleniyor | - | 1.29 | 3 |
+| Sc Villa - Express | Uganda Premier Lig | 16:00 | Veri bekleniyor | - | 1.31 | 7 |
 | Mashujaa - Singida Black S | Tanzanya Kuu Bara Ligi | 16:00 | Veri bekleniyor | - | 3.76 | 8 |
 | Entebbe Uppc - Lugazi Municipa | Uganda Premier Lig | 16:00 | Veri bekleniyor | - | 1.38 | 5 |
 | Otmk Olmaliq - Pakhtakor | Özbekistan Super League | 16:30 | Veri bekleniyor | - | 3.12 | 8 |
@@ -41,7 +41,7 @@
 | Pyramids Fc - El Gounah | Mısır Premier Lig | 17:00 | Veri bekleniyor | - | 1.24 | 7 |
 | Modern Sc - Wadi Degla | Mısır Premier Lig | 17:00 | Veri bekleniyor | - | 2.76 | 8 |
 | Kairat Almaty - Zhenys | Kazakistan Premier Lig | 17:00 | Veri bekleniyor | - | 1.15 | 6 |
-| Feronikeli - Fc Drita | Kosova Süper Lig | 17:00 | Veri bekleniyor | - | 6.42 | 7 |
+| Feronikeli - Fc Drita | Kosova Süper Lig | 17:00 | Veri bekleniyor | - | 7.11 | 6 |
 | Neftchi Fargon - Termez Surkhon | Özbekistan Super League | 17:00 | Veri bekleniyor | - | 1.15 | 4 |
 | Liverpool Fc U - Atl Madrid U19 | UEFA Gençlik Ligi Lig Aşaması | 17:00 | Veri bekleniyor | - | 1.93 | 8 |
 | Jablonec - Banik Ostrava | Çek Cumhuriyeti Czech Liga | 18:00 | Veri bekleniyor | - | 1.75 | 8 |

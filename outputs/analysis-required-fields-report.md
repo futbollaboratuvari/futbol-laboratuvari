@@ -1,14 +1,11 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 165
-Tam analiz: 143
-Eksik analiz: 22
+Toplam analiz: 160
+Tam analiz: 141
+Eksik analiz: 19
 
-- Kuala Lumpur (1) VS (0) Perak Fa: eksik score, confidence
 - Italy U20 (K) VS Yeni Zelanda U2: eksik score, confidence
-- Selangor Fa (2) VS (2) Sabah: eksik score, confidence
-- Sc Villa VS Express: eksik score, confidence
 - Ofi VS Nestos Chrisoup: eksik score, confidence
 - Neftchi Fargon VS Termez Surkhon: eksik score, confidence
 - Levadia Tallin VS Kuressaare: eksik score, confidence
@@ -23,5 +20,7 @@ Eksik analiz: 22
 - Al Nassr (Riya VS Abha: eksik score, confidence
 - Glasgow Ranger VS St Mirren: eksik score, confidence
 - Psg VS Slovan Bratisla: eksik score, confidence
-- Hk Kopavogur VS Fylkir: eksik score, confidence
 - Moreirense VS Benfica: eksik score, confidence
+- Monagas VS Bolívar: eksik score, confidence
+- America De Cal VS Pereira: eksik score, confidence
+- Vancouver VS Los Angeles: eksik score, confidence

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T01:21:28.151Z",
+  "generated_at": "2026-09-09T04:57:22.232Z",
   "date": "2026-09-09",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -45,9 +45,9 @@
       "confidence": "64%",
       "confidence_score": "64%",
       "model_score": 64,
-      "estimated_probability": 56.9,
+      "estimated_probability": 56.8,
       "market_probability": 58.1,
-      "edge_percent": -1.2,
+      "edge_percent": -1.3,
       "data_completeness": 71,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Orta",
@@ -817,16 +817,16 @@
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 387,
-    "pending_count": 1113,
-    "won_count": 211,
+    "measured_count": 386,
+    "pending_count": 1114,
+    "won_count": 210,
     "lost_count": 176,
     "void_count": 0,
-    "success_rate": 55,
-    "probability_sample_count": 387,
-    "brier_score": 0.2426,
-    "baseline_brier_score": 0.248,
-    "brier_skill_score": 0.0215,
+    "success_rate": 54,
+    "probability_sample_count": 386,
+    "brier_score": 0.2427,
+    "baseline_brier_score": 0.2481,
+    "brier_skill_score": 0.0217,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -848,10 +848,10 @@
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 179,
-        "won": 104,
+        "predictions": 178,
+        "won": 103,
         "average_probability": 54.6,
-        "observed_rate": 58.1
+        "observed_rate": 57.9
       },
       {
         "lower": 60,
@@ -867,8 +867,8 @@
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 220,
-        "won": 124,
+        "measured": 219,
+        "won": 123,
         "lost": 96,
         "success_rate": 56
       },
