@@ -2,44 +2,23 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-09T11:59:22.102Z
+- Güncelleme: 2026-09-09T14:41:57.300Z
 - Ham maç sayısı: 168
 - Yarın bülteni maç sayısı: 40
-- Detay blok sayısı: 451
-- Aktif bülten maçı: 157
-- Bültenden düşürülen maç: 11
+- Detay blok sayısı: 455
+- Aktif bülten maçı: 136
+- Bültenden düşürülen maç: 32
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Santa Clara U2 - Farense U23 | Portekiz U23 Ulusal Şampiyona | 15:00 | Veri bekleniyor | - | 2.14 | 8 |
-| Napoli U19 - Arsenal Fc U19 | UEFA Gençlik Ligi Lig Aşaması | 15:00 | Veri bekleniyor | - | 4.15 | 7 |
-| Dpmm Fc - Terengganu | Malezya FA Kupası Son 16 Turu | 15:15 | Veri bekleniyor | - | 3.17 | 3 |
-| Kuala Lumpur (1) - (0) Perak Fa | Malezya FA Kupası Son 16 Turu | 15:15 | Veri bekleniyor | - | 1.3 | 3 |
-| Shahdagh - Karvan | Azerbaycan 1.Lig | 15:30 | Veri bekleniyor | - | 3.19 | 8 |
-| Italy U20 (K) - Yeni Zelanda U2 | Kadınlar U20 Dünya Kupası Grup D | 16:00 | Veri bekleniyor | - | 1.06 | 3 |
-| Fernando De La - Depor Capiata | Paraguay Intermedia Lig | 16:00 | Veri bekleniyor | - | 1.86 | 8 |
-| Encarnacion - Tacuary | Paraguay Intermedia Lig | 16:00 | Veri bekleniyor | - | 1.93 | 8 |
-| Selangor Fa (2) - (2) Sabah | Malezya FA Kupası Son 16 Turu | 16:00 | Veri bekleniyor | - | 1.29 | 3 |
-| Sc Villa - Express | Uganda Premier Lig | 16:00 | Veri bekleniyor | - | 1.74 | 8 |
-| Mashujaa - Singida Black S | Tanzanya Kuu Bara Ligi | 16:00 | Veri bekleniyor | - | 3.75 | 8 |
-| Entebbe Uppc - Lugazi Municipa | Uganda Premier Lig | 16:00 | Veri bekleniyor | - | 1.38 | 5 |
-| Gana U20 (K) - Güney Kore U20 | Kadınlar U20 Dünya Kupası Grup C | 16:00 | Veri bekleniyor | - | 2.8 | 8 |
-| Otmk Olmaliq - Pakhtakor | Özbekistan Super League | 16:30 | Veri bekleniyor | - | 3 | 8 |
-| Ofi - Nestos Chrisoup | Yunanistan Kupa Lig Aşaması | 17:00 | Veri bekleniyor | - | - | 5 |
-| Pyramids Fc - El Gounah | Mısır Premier Lig | 17:00 | Veri bekleniyor | - | 1.28 | 7 |
-| Modern Sc - Wadi Degla | Mısır Premier Lig | 17:00 | Veri bekleniyor | - | 3.82 | 8 |
-| Kairat Almaty - Zhenys | Kazakistan Premier Lig | 17:00 | Veri bekleniyor | - | 1.16 | 6 |
-| Feronikeli - Fc Drita | Kosova Süper Lig | 17:00 | Veri bekleniyor | - | 5.79 | 7 |
-| Neftchi Fargon - Termez Surkhon | Özbekistan Super League | 17:00 | Veri bekleniyor | - | 1.21 | 4 |
-| Liverpool Fc U - Atl Madrid U19 | UEFA Gençlik Ligi Lig Aşaması | 17:00 | Veri bekleniyor | - | 2.07 | 8 |
 | Jablonec - Banik Ostrava | Çek Cumhuriyeti Czech Liga | 18:00 | Veri bekleniyor | - | 1.62 | 8 |
 | Helsinki - Inter Turku | Finlandiya Veikkausliiga Şampiyonluk Grubu | 18:00 | Veri bekleniyor | - | 2.28 | 8 |
 | Samgurali - Dila Gori | Gürcistan Erovnuli Liga | 18:00 | Veri bekleniyor | - | 2.61 | 8 |
 | Spaeri - Fc Rustavi | Gürcistan Erovnuli Liga | 18:00 | Veri bekleniyor | - | 2.93 | 8 |
 | Al Golan - Zakho | Irak Premier Lig | 18:00 | Veri bekleniyor | - | 3.06 | 8 |
 | Cd Getafe (K) - Pozuelo Alarcon | İspanya De La Reina Kupası 1. Tur | 18:00 | Veri bekleniyor | - | 2.36 | 8 |
-| Nasaf Qarshi - Bunyodkor | Özbekistan Super League | 18:00 | Veri bekleniyor | - | 1.19 | 6 |
+| Nasaf Qarshi - Bunyodkor | Özbekistan Super League | 18:00 | Veri bekleniyor | - | 1.16 | 6 |
 | Oviedo Moderno - Sporting Gijón | İspanya De La Reina Kupası 1. Tur | 18:30 | Veri bekleniyor | - | 1.29 | 6 |
 | Levski Sofya - Cska Sofia | Bulgaristan Süper Kupa | 18:30 | Veri bekleniyor | - | 1.68 | 8 |
 | Vsk Arhus - Lyngby | Danimarka DBU Kupası 3.Tur | 18:30 | Veri bekleniyor | - | 7.07 | 6 |
@@ -54,13 +33,13 @@
 | Vaprus - Harju Jalgpalli | Estonya Premium Lig | 19:00 | Veri bekleniyor | - | 2.08 | 3 |
 | Tammeka Tartu - Paide Linnamees | Estonya Premium Lig | 19:00 | Veri bekleniyor | - | 2.79 | 5 |
 | Zeljeznicar - Sarajevo | Bosna-Hersek Premier Lig | 19:00 | Veri bekleniyor | - | 3.72 | 8 |
-| Elche (K) - Levante (K) | İspanya De La Reina Kupası 1. Tur | 19:00 | Veri bekleniyor | - | 6.78 | 3 |
+| Elche (K) - Levante (K) | İspanya De La Reina Kupası 1. Tur | 19:00 | Veri bekleniyor | - | 6.78 | 6 |
 | Benfica U23 - Vizela U23 | Portekiz U23 Ulusal Şampiyona | 19:00 | Veri bekleniyor | - | 1.43 | 7 |
 | Grosseto - Latina | İtalya Serie C Kupası 2.Tur | 19:00 | Veri bekleniyor | - | 2.27 | 3 |
 | Fiorentina U20 - Atalanta U20 | İtalya Süper Kupa Primavera | 19:00 | Veri bekleniyor | - | 1.65 | 3 |
 | Al-Jandal - Al Bukayriyah | Suudi Arabistan 1.Lig | 19:10 | Veri bekleniyor | - | 2.25 | 8 |
 | Balears (K) - Villarreal (K) | İspanya De La Reina Kupası 1. Tur | 19:30 | Veri bekleniyor | - | 8.56 | 3 |
-| Sporting De Hu - Malaga (K) | İspanya De La Reina Kupası 1. Tur | 19:30 | Veri bekleniyor | - | 1.96 | 3 |
+| Sporting De Hu - Malaga (K) | İspanya De La Reina Kupası 1. Tur | 19:30 | Veri bekleniyor | - | 1.96 | 8 |
 | Vanlose - Hillerod | Danimarka DBU Kupası 3.Tur | 19:30 | Veri bekleniyor | - | 4 | 8 |
 | Frem - Roskilde | Danimarka DBU Kupası 3.Tur | 19:30 | Veri bekleniyor | - | 3.31 | 3 |
 | Barcelona - Feyenoord | UEFA Şampiyonlar Ligi Lig Aşaması | 19:45 | Veri bekleniyor | - | - | 4 |
@@ -71,9 +50,9 @@
 | Kolding If - Odense | Danimarka DBU Kupası 3.Tur | 20:00 | Veri bekleniyor | - | 3.27 | 8 |
 | United Nordic - Varnamo | İsveç Superettan | 20:00 | Veri bekleniyor | - | 1.83 | 8 |
 | Ljungskile - Norrby | İsveç Superettan | 20:00 | Veri bekleniyor | - | 1.79 | 8 |
-| Sandvikens - Oddevold | İsveç Superettan | 20:00 | Veri bekleniyor | - | 2.03 | 8 |
+| Sandvikens - Oddevold | İsveç Superettan | 20:00 | Veri bekleniyor | - | 1.93 | 8 |
 | Landskrona - Helsingborg | İsveç Superettan | 20:00 | Veri bekleniyor | - | 1.57 | 8 |
-| Al Mokawloon A - Al Ahly | Mısır Premier Lig | 20:00 | Veri bekleniyor | - | 7.27 | 6 |
+| Al Mokawloon A - Al Ahly | Mısır Premier Lig | 20:00 | Veri bekleniyor | - | 7.88 | 6 |
 | Enppi - Zed | Mısır Premier Lig | 20:00 | Veri bekleniyor | - | 3.26 | 8 |
 | Dinamo Batumi - Fc Iberia | Gürcistan Erovnuli Liga | 20:00 | Veri bekleniyor | - | 1.73 | 8 |
 | Gjilani - Ballkani | Kosova Süper Lig | 20:00 | Veri bekleniyor | - | 2.79 | 8 |
@@ -112,9 +91,9 @@
 | Sporting Cp - Galatasaray | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | 1.6 | 8 |
 | Liverpool - Atletico Madrid | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | 1.55 | 8 |
 | Psg - Slovan Bratisla | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | - | 4 |
-| Charlton - Qpr | İngiltere Championship | 22:00 | Veri bekleniyor | - | 2.91 | 8 |
+| Charlton - Qpr | İngiltere Championship | 22:00 | Veri bekleniyor | - | 3 | 8 |
 | Chelsea - Leeds Utd | İngiltere Lig Kupası 3.Tur | 22:00 | Veri bekleniyor | - | 1.34 | 7 |
-| St Johnstone - Celtic | İskoçya Premiership | 22:00 | Veri bekleniyor | - | 5.89 | 7 |
+| St Johnstone - Celtic | İskoçya Premiership | 22:00 | Veri bekleniyor | - | 5.68 | 7 |
 | Al Karma - Naft | Irak Premier Lig | 22:00 | Veri bekleniyor | - | 1.56 | 7 |
 | Talavera Cf - Navalcarnero | İspanya Federasyon Kupası Son 32 Turu | 22:00 | Veri bekleniyor | - | 2.12 | 8 |
 | Samper (K) - Olympia Las Roz | İspanya De La Reina Kupası 1. Tur | 22:00 | Veri bekleniyor | - | 2.54 | 3 |
@@ -122,7 +101,7 @@
 | Hk Kopavogur - Fylkir | İzlanda 1.Lig Yükselme Play Off Yarı Final | 22:15 | Veri bekleniyor | - | 2.31 | 6 |
 | Depor Santani - Indep Cambo Gra | Paraguay Intermedia Lig | 22:30 | Veri bekleniyor | - | 1.78 | 8 |
 | Real Frontera - Zamora | Venezuela Kupa 1.Tur Grup B | 22:30 | Veri bekleniyor | - | 8.23 | 4 |
-| Atletico Barin - El Vigia | Venezuela Kupa 1.Tur Grup B | 22:30 | Veri bekleniyor | - | 1.59 | 8 |
+| Atletico Barin - El Vigia | Venezuela Kupa 1.Tur Grup B | 22:30 | Veri bekleniyor | - | 1.52 | 8 |
 | Moreirense - Benfica | Portekiz Premier Lig | 22:45 | Veri bekleniyor | - | 14.2 | 5 |
 | Yaracuyanos - Aragua | Venezuela Kupa 1.Tur Grup C | 23:00 | Veri bekleniyor | - | 1.73 | 8 |
 | Monagas - Bolívar | Venezuela Kupa 1.Tur Grup E | 23:00 | Veri bekleniyor | - | 1.18 | 6 |

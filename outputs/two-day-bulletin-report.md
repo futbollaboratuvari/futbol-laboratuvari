@@ -3,35 +3,14 @@
 Gunler: 2026-09-09 / 2026-09-10
 Kaynak: fixtures.json
 Ham mac: 168
-Aktif mac: 157
+Aktif mac: 136
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 117
+Bultenden dusurulen mac: 32
+Bugun: 96
 Yarin: 40
 
 ## Baslamamis Maclar
-- 2026-09-09 15:00 | Portekiz U23 Ulusal Şampiyona | Santa Clara U2 - Farense U23 | scheduled | -
-- 2026-09-09 15:00 | UEFA Gençlik Ligi Lig Aşaması | Napoli U19 - Arsenal Fc U19 | scheduled | -
-- 2026-09-09 15:15 | Malezya FA Kupası Son 16 Turu | Dpmm Fc - Terengganu | scheduled | -
-- 2026-09-09 15:15 | Malezya FA Kupası Son 16 Turu | Kuala Lumpur (1) - (0) Perak Fa | scheduled | -
-- 2026-09-09 15:30 | Azerbaycan 1.Lig | Shahdagh - Karvan | scheduled | -
-- 2026-09-09 16:00 | Kadınlar U20 Dünya Kupası Grup D | Italy U20 (K) - Yeni Zelanda U2 | scheduled | -
-- 2026-09-09 16:00 | Paraguay Intermedia Lig | Fernando De La - Depor Capiata | scheduled | -
-- 2026-09-09 16:00 | Paraguay Intermedia Lig | Encarnacion - Tacuary | scheduled | -
-- 2026-09-09 16:00 | Malezya FA Kupası Son 16 Turu | Selangor Fa (2) - (2) Sabah | scheduled | -
-- 2026-09-09 16:00 | Uganda Premier Lig | Sc Villa - Express | scheduled | -
-- 2026-09-09 16:00 | Tanzanya Kuu Bara Ligi | Mashujaa - Singida Black S | scheduled | -
-- 2026-09-09 16:00 | Uganda Premier Lig | Entebbe Uppc - Lugazi Municipa | scheduled | -
-- 2026-09-09 16:00 | Kadınlar U20 Dünya Kupası Grup C | Gana U20 (K) - Güney Kore U20 | scheduled | -
-- 2026-09-09 16:30 | Özbekistan Super League | Otmk Olmaliq - Pakhtakor | scheduled | -
-- 2026-09-09 17:00 | Yunanistan Kupa Lig Aşaması | Ofi - Nestos Chrisoup | scheduled | -
-- 2026-09-09 17:00 | Mısır Premier Lig | Pyramids Fc - El Gounah | scheduled | -
-- 2026-09-09 17:00 | Mısır Premier Lig | Modern Sc - Wadi Degla | scheduled | -
-- 2026-09-09 17:00 | Kazakistan Premier Lig | Kairat Almaty - Zhenys | scheduled | -
-- 2026-09-09 17:00 | Kosova Süper Lig | Feronikeli - Fc Drita | scheduled | -
-- 2026-09-09 17:00 | Özbekistan Super League | Neftchi Fargon - Termez Surkhon | scheduled | -
-- 2026-09-09 17:00 | UEFA Gençlik Ligi Lig Aşaması | Liverpool Fc U - Atl Madrid U19 | scheduled | -
 - 2026-09-09 18:00 | Çek Cumhuriyeti Czech Liga | Jablonec - Banik Ostrava | scheduled | -
 - 2026-09-09 18:00 | Finlandiya Veikkausliiga Şampiyonluk Grubu | Helsinki - Inter Turku | scheduled | -
 - 2026-09-09 18:00 | Gürcistan Erovnuli Liga | Samgurali - Dila Gori | scheduled | -
