@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.09.2026 09:44:08
+Oluşturma: 09.09.2026 12:55:14
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1109
-- Kazanan tahmin: 214
+- Bekleyen tahmin: 1107
+- Kazanan tahmin: 216
 - Kaybeden tahmin: 177
 - Lig sayısı: 248
 - Seçenek sayısı: 6
@@ -23,8 +23,8 @@ Oluşturma: 09.09.2026 09:44:08
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 3, bekleyen 2, başarı %100, düz getiri %146, ağırlık 1
-- 2.5 Üst: toplam 229, bekleyen 144, başarı %62, düz getiri %8, ağırlık 1
-- MS 1: toplam 501, bekleyen 388, başarı %53, düz getiri %-14, ağırlık 1
+- 2.5 Üst: toplam 229, bekleyen 143, başarı %63, düz getiri %9, ağırlık 1
+- MS 1: toplam 501, bekleyen 387, başarı %54, düz getiri %-13, ağırlık 1
 - 2.5 Alt: toplam 549, bekleyen 413, başarı %53, düz getiri %-13, ağırlık 1
 - MS 2: toplam 215, bekleyen 161, başarı %50, düz getiri %-12, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
@@ -32,8 +32,8 @@ Oluşturma: 09.09.2026 09:44:08
 ## Son Tahmin Kayıtları
 
 - 2026-09-09 | ABD MLS Next Pro | North Texas - Houston Dynamo | MS 1 | pending | 45/100
-- 2026-09-09 | ABD USL Kupası Yarı Final | Hartford Athle - Colorado Spring | MS 1 | pending | 40/100
-- 2026-09-09 | Brezilya Serie B | Cuiaba - Athletic Club | 2.5 Üst | pending | 65/100
+- 2026-09-09 | ABD USL Kupası Yarı Final | Hartford Athle - Colorado Spring | MS 1 | won | 40/100
+- 2026-09-09 | Brezilya Serie B | Cuiaba - Athletic Club | 2.5 Üst | won | 65/100
 - 2026-09-09 | ABD MLS | Montreal - Charlotte | MS 1 | pending | 49/100
 - 2026-09-09 | Kolombiya Primera B Clausura | Independiente - Quindio | 2.5 Alt | pending | 66/100
 - 2026-09-09 | Danimarka DBU Kupası 3.Tur | Nykobing - Middelfart | MS 1 | pending | 51/100

@@ -3,17 +3,14 @@
 Gunler: 2026-09-09 / 2026-09-10
 Kaynak: fixtures.json
 Ham mac: 157
-Aktif mac: 157
+Aktif mac: 154
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 117
+Bultenden dusurulen mac: 3
+Bugun: 114
 Yarin: 40
 
 ## Baslamamis Maclar
-- 2026-09-09 11:30 | Malezya FA Kupası Son 16 Turu | Pulau Pinang (1) - (0) Melaka | scheduled | -
-- 2026-09-09 12:30 | Avustralya FFA Kupası Yarı Final | Sydney - Melbourne Victo | scheduled | -
-- 2026-09-09 12:30 | Japonya Lig Kupası 1.Tur | Mio Biwako Shi - Tokyo Verdy | scheduled | -
 - 2026-09-09 13:00 | Japonya Lig Kupası 1.Tur | Tochigi Sc - Yamagata | scheduled | -
 - 2026-09-09 13:00 | Japonya Lig Kupası 1.Tur | Fukushima Unit - Sendai | scheduled | -
 - 2026-09-09 13:00 | Japonya Lig Kupası 1.Tur | Parceiro Nagan - Mito Hollyhock | scheduled | -
