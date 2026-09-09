@@ -5,8 +5,9 @@ const path = require("path");
 const root = path.join(__dirname, "..");
 const file = path.join(root, "data", "spor_toto_weekly_program.json");
 const SOURCES = [
-  { name: "Spor Toto Formül 15", url: "https://sportotoformul15.com/", parser: "formul15" },
   { name: "Spor Toto Tahmin", url: "https://sportototahmin.com/blog", parser: "tahmin" },
+  { name: "Spor Toto Winner", url: "https://sportotowinner.com/", parser: "winner" },
+  { name: "Spor Toto Formül 15", url: "https://sportotoformul15.com/", parser: "formul15" },
 ];
 const MONTHS = { oca: "01", şub: "02", sub: "02", mar: "03", nis: "04", may: "05", haz: "06", tem: "07", ağu: "08", agu: "08", eyl: "09", eki: "10", kas: "11", ara: "12" };
 
@@ -19,17 +20,23 @@ const textLines = (html) => decode(html)
   .replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ")
   .replace(/<br\s*\/?\s*>/gi, "\n").replace(/<\/(?:div|p|tr|td|th|li|h1|h2|h3|h4|section|article|button)>/gi, "\n")
   .replace(/<[^>]+>/g, " ").split(/\r?\n/).map((line) => line.replace(/\s+/g, " ").trim()).filter(Boolean);
-const clean = (value) => String(value || "").toLocaleLowerCase("tr-TR").replace(/ı/g, "i")
+const clean = (value) => String(value || "").toLocaleLowerCase("tr-TR")
+  .replace(/ç/g, "c").replace(/ğ/g, "g").replace(/ı/g, "i").replace(/ö/g, "o").replace(/ş/g, "s").replace(/ü/g, "u")
   .normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").replace(/\s+/g, " ").trim();
 const teamKey = (value) => clean(value)
+  .replace(/^man utd$/, "manchester united")
+  .replace(/^man city$/, "manchester city")
+  .replace(/^(?:b|bayer) leverkusen$/, "leverkusen")
+  .replace(/^ac milan$/, "milan")
   .replace(/\b(tumosan|corendon|arca|rams)\b/g, " ")
-  .replace(/\b(fk|fc|sk)\b/g, " ")
-  .replace(/sportif faaliyetler/g, " ")
+  .replace(/\b(?:a\s+s|f\s+k|s\s+k|f\s+c|as|fk|fc|sk)\b/g, " ")
+  .replace(/\bspor(?:tif)? faaliyetler\b/g, " ")
+  .replace(/\bsportif\b/g, " ")
   .replace(/istanbul basaksehir/g, "basaksehir")
   .replace(/paris saint germain|paris st germain|psg/g, "paris sg")
   .replace(/hamburger sv/g, "hamburg")
   .replace(/\s+/g, " ").trim();
-const keyOf = (m) => `${m.date}|${teamKey(m.home)}|${teamKey(m.away)}`;
+const keyOf = (m) => `${m.date}|${m.time}|${teamKey(m.home)}|${teamKey(m.away)}`;
 const normalizeTeam = (value) => String(value || "").replace(/\s+/g, " ").trim();
 const normalizeDistribution = (values) => {
   if (!values) return null;
@@ -89,8 +96,11 @@ function parseTahmin(html) {
   const yearMatch = header.match(/(20\d{2})/) || lines.join(" ").match(/\b(20\d{2})\b/);
   const year = yearMatch ? Number(yearMatch[1]) : new Date().getUTCFullYear();
   const matches = [];
+  const leagueNames = new Set(["Süper Lig", "Bundesliga", "Ligue 1", "Premier League", "La Liga", "Serie A"]);
+  let currentLeague = "Spor Toto";
   for (let i = 0; i < lines.length && matches.length < 15; i += 1) {
-    const dm = lines[i].match(/^(\d{1,2})\s+([A-Za-zÇĞİÖŞÜçğıöşü]{3})\s*[·•]\s*(\d{1,2}:\d{2})$/);
+    if (leagueNames.has(lines[i])) currentLeague = lines[i];
+    const dm = lines[i].match(/\b(\d{1,2})\s+([A-Za-zÇĞİÖŞÜçğıöşü]{3})\s*[·•]\s*(\d{1,2}:\d{2})\b/);
     if (!dm) continue;
     const month = MONTHS[clean(dm[2]).slice(0, 3)] || MONTHS[dm[2].toLocaleLowerCase("tr-TR").slice(0, 3)];
     if (!month) continue;
@@ -100,9 +110,53 @@ function parseTahmin(html) {
       if (tm && !/Hafta$/i.test(lines[j])) { teams = [normalizeTeam(tm[1]), normalizeTeam(tm[2])]; i = j; break; }
     }
     if (!teams) continue;
-    matches.push({ no: matches.length + 1, date: `${year}-${month}-${String(Number(dm[1])).padStart(2, "0")}`, time: dm[3], home: teams[0], away: teams[1] });
+    matches.push({ no: matches.length + 1, date: `${year}-${month}-${String(Number(dm[1])).padStart(2, "0")}`, time: dm[3], league: currentLeague, home: teams[0], away: teams[1] });
   }
   return { matches, week: weekMatch ? Number(weekMatch[1]) : null };
+}
+
+function parseWinner(html) {
+  const lines = textLines(html);
+  const start = lines.findIndex((line) => /^Spor Toto Programı$/i.test(line));
+  const scope = lines.slice(start >= 0 ? start : 0);
+  const weekLine = scope.find((line) => /\bHafta\s+\d+\b/i.test(line)) || "";
+  const weekMatch = weekLine.match(/\bHafta\s+(\d+)\b/i);
+  const matches = [];
+  for (let i = 0; i < scope.length && matches.length < 15; i += 1) {
+    const dm = scope[i].match(/\b(\d{1,2})\.(\d{1,2})\.(20\d{2})\s+(\d{1,2}:\d{2})\b/);
+    if (!dm) continue;
+    let teams = null;
+    for (let j = i - 1; j >= Math.max(0, i - 5); j -= 1) {
+      const tm = scope[j].match(/^(.+?)\s+-\s+(.+)$/);
+      if (tm && !/Son Yazısı|Tahmin|Analiz/i.test(scope[j])) {
+        teams = [normalizeTeam(tm[1]), normalizeTeam(tm[2])];
+        break;
+      }
+    }
+    if (!teams) continue;
+    const percentages = [];
+    for (let j = i + 1; j <= Math.min(i + 8, scope.length - 1) && percentages.length < 3; j += 1) {
+      const pm = scope[j].match(/^%\s*(\d{1,3})$/) || scope[j].match(/^(\d{1,3})\s*%$/);
+      if (pm) percentages.push(Number(pm[1]));
+    }
+    matches.push({
+      no: matches.length + 1,
+      date: `${dm[3]}-${dm[2].padStart(2, "0")}-${dm[1].padStart(2, "0")}`,
+      time: dm[4],
+      home: teams[0],
+      away: teams[1],
+      public_distribution: percentages.length === 3
+        ? normalizeDistribution({ "1": percentages[0], X: percentages[1], "2": percentages[2] })
+        : null,
+    });
+  }
+  return { matches, week: weekMatch ? Number(weekMatch[1]) : null };
+}
+
+function parseSource(source, html) {
+  if (source.parser === "formul15") return { matches: parseFormul15(html), week: null };
+  if (source.parser === "winner") return parseWinner(html);
+  return parseTahmin(html);
 }
 
 function validate15(matches) {
@@ -114,9 +168,10 @@ function overlapCount(a, b) {
   const bKeys = new Set(b.map(keyOf));
   return a.filter((m) => bKeys.has(keyOf(m))).length;
 }
+const endDate = (matches) => matches.map((match) => match.date).sort().at(-1) || "";
 function leagueFor(match, oldByKey) {
   const previous = oldByKey.get(keyOf(match));
-  return previous?.league || "Spor Toto";
+  return match.league || previous?.league || "Spor Toto";
 }
 
 async function run() {
@@ -126,7 +181,7 @@ async function run() {
   for (const source of SOURCES) {
     try {
       const html = await get(source.url);
-      const parsed = source.parser === "formul15" ? { matches: parseFormul15(html), week: null } : parseTahmin(html);
+      const parsed = parseSource(source, html);
       console.log(`Spor Toto weekly source ${source.name}: ${parsed.matches.length} match.`);
       if (validate15(parsed.matches)) fetched.push({ ...source, ...parsed });
     } catch (error) {
@@ -137,22 +192,35 @@ async function run() {
     console.log("Spor Toto weekly sync: iki bağımsız 15 maç kaynağı doğrulanamadı; son sağlam program korundu.");
     return current;
   }
-  let bestA = null; let bestB = null; let bestOverlap = -1;
+  const pairs = [];
   for (let i = 0; i < fetched.length; i += 1) for (let j = i + 1; j < fetched.length; j += 1) {
     const count = overlapCount(fetched[i].matches, fetched[j].matches);
-    if (count > bestOverlap) { bestOverlap = count; bestA = fetched[i]; bestB = fetched[j]; }
+    pairs.push({ a: fetched[i], b: fetched[j], count, end: [endDate(fetched[i].matches), endDate(fetched[j].matches)].sort().at(-1) });
   }
+  pairs.sort((a, b) => b.count - a.count || String(b.end).localeCompare(String(a.end)));
+  const best = pairs.find((pair) => pair.count === 15) || pairs[0];
+  const bestA = best?.a || null;
+  const bestB = best?.b || null;
+  const bestOverlap = best?.count ?? -1;
   if (bestOverlap < 15) {
     console.log(`Spor Toto weekly sync: kaynaklar tam uyuşmadı (${bestOverlap}/15); son sağlam program korundu.`);
     return current;
   }
-  const primary = bestA.parser === "formul15" ? bestA : bestB;
+  const primary = [bestA, bestB].find((source) => source.parser === "tahmin")
+    || [bestA, bestB].find((source) => source.parser === "formul15")
+    || bestA;
+  const candidateEnd = endDate(primary.matches);
+  if (current.program_end && candidateEnd < current.program_end) {
+    console.log(`Spor Toto weekly sync: eski programa dönüş engellendi (${candidateEnd} < ${current.program_end}).`);
+    return current;
+  }
   const oldByKey = new Map(current.matches.map((m) => [keyOf(m), m]));
+  const consensusByKey = new Map([...bestA.matches, ...bestB.matches].map((match) => [keyOf(match), match]));
   const dates = primary.matches.map((m) => m.date).sort();
   const week = bestA.week || bestB.week || current.week || null;
   const matches = primary.matches.map((m, index) => ({
     no: index + 1, date: m.date, time: m.time, league: leagueFor(m, oldByKey), home: m.home, away: m.away,
-    public_distribution: m.public_distribution || oldByKey.get(keyOf(m))?.public_distribution || null,
+    public_distribution: m.public_distribution || consensusByKey.get(keyOf(m))?.public_distribution || oldByKey.get(keyOf(m))?.public_distribution || null,
   }));
   const next = {
     ...current,
@@ -163,7 +231,11 @@ async function run() {
     match_count: 15,
     verification_status: "cross_verified_auto",
     verified_at: new Date().toISOString(),
-    sync_sources: fetched.map((s) => ({ name: s.name, url: s.url, match_count: s.matches.length })),
+    sources: [
+      { name: "Spor Toto Teşkilat Başkanlığı", url: "https://www.sportoto.gov.tr/spor-toto-listeler", role: "official_program_page" },
+      ...[bestA, bestB].map((source) => ({ name: source.name, url: source.url, role: "current_week_cross_check" })),
+    ],
+    sync_sources: [bestA, bestB].map((s) => ({ name: s.name, url: s.url, match_count: s.matches.length })),
     matches,
   };
   write(next);
@@ -172,4 +244,4 @@ async function run() {
 }
 
 if (require.main === module) run().catch((error) => { console.error(error); process.exitCode = 1; });
-module.exports = { run, parseFormul15, parseTahmin, validate15, overlapCount, teamKey };
+module.exports = { run, parseFormul15, parseTahmin, parseWinner, parseSource, validate15, overlapCount, teamKey };
