@@ -1,46 +1,35 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-09T11:46:29.619294+00:00
+Tarih: 2026-09-09T12:00:57.469769+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 157
-- Kac mac kaydedildi: 15
-- Kac mac zaten vardi: 142
+- Kac mac bulundu: 117
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 117
 - Ham veri havuzu toplam mac sayisi: 12907
 - Hedef tarih: 09.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD MLS Next Pro
 - Andorra Süper Kupa
-- Arjantin Kupa Çeyrek Final
 - Arjantin Ulusal Primera Lig
 - Azerbaycan 1.Lig
 - Bosna-Hersek Premier Lig
-- Brezilya Serie B
 - Bulgaristan Süper Kupa
-- CONCACAF Orta Amerika Kupası Çeyrek Final
-- Copa Libertadores Çeyrek Final
-- Copa Sudamericana Çeyrek Final
 - Danimarka DBU Kupası 3.Tur
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga Şampiyonluk Grubu
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Gürcistan Erovnuli Liga
 - Hollanda Eredivisie
 - Irak Premier Lig
 - Kadınlar U20 Dünya Kupası Grup C
 - Kadınlar U20 Dünya Kupası Grup D
-- Kanada Premier Lig
 - Karadağ 1.Lig
 - Kazakistan Premier Lig
-- Kolombiya Kupa Son 16 Turu
 - Kolombiya Primera B Clausura
 - Kosova Süper Lig
 - Litvanya A Ligi
@@ -55,7 +44,6 @@ Tarih: 2026-09-09T11:46:29.619294+00:00
 - UEFA Gençlik Ligi Lig Aşaması
 - UEFA Şampiyonlar Ligi Lig Aşaması
 - Uganda Premier Lig
-- Uruguay Kupa Ön Eleme Turu Grup 3
 - Uruguay Kupa Ön Eleme Turu Grup 4
 - Uruguay Kupa Ön Eleme Turu Grup 6
 - Venezuela Kupa 1.Tur Grup A
@@ -160,14 +148,14 @@ Tarih: 2026-09-09T11:46:29.619294+00:00
 | 09.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya | Abha | 12680 | 4 |
 | 09.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Fateh | Diriyah | 12558 | 5 |
 | 09.09.2026 | 18:55 | Suudi Arabistan Pro Lig | Al Kholood | Al Shabab (Riya | 12494 | 5 |
-| 10.09.2026 | 01:00 | Copa Libertadores Çeyrek Final | Palmeiras | Ldu Quito | 17021 | 5 |
-| 10.09.2026 | 03:30 | Copa Libertadores Çeyrek Final | Estudiantes Lp | Corinthians | 17492 | 5 |
-| 10.09.2026 | 01:00 | Copa Sudamericana Çeyrek Final | Santos | Atletico Mg | 17185 | 5 |
 | 09.09.2026 | 22:00 | İngiltere Championship | Charlton | Qpr | 15479 | 5 |
 | 09.09.2026 | 21:45 | İngiltere Championship | Derby County | West Bromwich | 15280 | 5 |
 | 09.09.2026 | 21:45 | İngiltere Championship | Norwich | Birmingham | 15389 | 5 |
 | 09.09.2026 | 21:45 | İskoçya Premiership | Glasgow Ranger | St Mirren | 19816 | 5 |
 | 09.09.2026 | 22:00 | İskoçya Premiership | St Johnstone | Celtic | 19881 | 5 |
+| 09.09.2026 | 17:00 | UEFA Gençlik Ligi Lig Aşaması | Liverpool Fc U | Atl Madrid U19 | 02076 | 5 |
+| 09.09.2026 | 15:00 | UEFA Gençlik Ligi Lig Aşaması | Napoli U19 | Arsenal Fc U19 | 01321 | 5 |
+| 09.09.2026 | - | UEFA Gençlik Ligi Lig Aşaması | 15:30 | Paris Sg U19 - | - | 0 |
 
 ## Sonuc
 

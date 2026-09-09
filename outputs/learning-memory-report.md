@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.09.2026 14:55:34
+Oluşturma: 09.09.2026 15:01:11
 
 ## Özet
 
@@ -31,9 +31,10 @@ Oluşturma: 09.09.2026 14:55:34
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-09 | İspanya De La Reina Kupası 1. Tur | Sporting De Hu - Malaga (K) | 2.5 Alt | pending | 50/100
 - 2026-09-09 | ABD MLS | Chicago - Inter Miami | MS 2 | pending | 56/100
 - 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Cacereno - Ud San Pedro | MS 1 | pending | 59/100
-- 2026-09-09 | Venezuela Kupa 1.Tur Grup B | Atletico Barin - El Vigia | MS 1 | pending | 52/100
+- 2026-09-09 | Venezuela Kupa 1.Tur Grup B | Atletico Barin - El Vigia | MS 1 | pending | 53/100
 - 2026-09-09 | Venezuela Kupa 1.Tur Grup A | Academia Anzoa - Deportivo Petar | MS 1 | pending | 51/100
 - 2026-09-09 | Venezuela Kupa 1.Tur Grup D | Urena Fc - Rayo Zuliano | 2.5 Alt | pending | 55/100
 - 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Comillas - Lhospitalet | 2.5 Alt | pending | 55/100
@@ -45,5 +46,4 @@ Oluşturma: 09.09.2026 14:55:34
 - 2026-09-09 | İngiltere FA Cup Eleme 1.Tur Tekrar | Exmouth - Banbury United | 2.5 Üst | pending | 56/100
 - 2026-09-09 | İngiltere FA Cup Eleme 1.Tur Tekrar | Bishop Aucklan - Afc Emley | MS 2 | pending | 48/100
 - 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Talavera Cf - Navalcarnero | 2.5 Üst | pending | 53/100
-- 2026-09-09 | Gürcistan Erovnuli Liga | Dinamo Batumi - Fc Iberia | MS 1 | pending | 50/100
 
