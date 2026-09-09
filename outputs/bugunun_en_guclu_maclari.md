@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-09T21:47:49.984Z
-- Ham maç sayısı: 20
+- Güncelleme: 2026-09-09T21:57:37.771Z
+- Ham maç sayısı: 19
 - Yarın bülteni maç sayısı: 18
-- Detay blok sayısı: 59
-- Aktif bülten maçı: 20
+- Detay blok sayısı: 56
+- Aktif bülten maçı: 19
 - Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sportivo Carap - Benjamin Aceval | Paraguay Intermedia Lig | 22:30 | Veri bekleniyor | - | 3.15 | 8 |
 | Usm Alger - Js El Biar | Cezayir 1.Lig | 23:00 | Veri bekleniyor | - | 1.23 | 7 |
 | Aurora - Municipal | Guatemala Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 3.32 | 8 |
 | Export Sebaco - Diriangen | Nikaragua Premier Lig Apertura | 00:00 | Veri bekleniyor | - | 4.09 | 8 |
