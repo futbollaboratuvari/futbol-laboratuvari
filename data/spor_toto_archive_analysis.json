@@ -1,320 +1,44 @@
 {
-  "generated_at": "2026-09-09T01:31:23.662Z",
+  "generated_at": "2026-09-09T05:37:55.045Z",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
   "model_version": "pro13-btts-conditioned-v3-weekly-archive",
-  "week_label": "2026/2027 4. Hafta",
+  "week_label": "2026/2027 5. Hafta",
   "archive_match_count": 12818,
-  "archive_ready_count": 6,
+  "archive_ready_count": 5,
   "public_distribution_count": 15,
   "analysis_available_count": 15,
   "matches": [
     {
       "no": 1,
-      "date": "2026-09-05",
-      "time": "17:00",
-      "league": "Türkiye Süper Lig",
-      "home": "Erzurumspor FK",
-      "away": "Tümosan Konyaspor",
-      "canonical_home": "Erzurumspor FK",
-      "canonical_away": "Konyaspor",
-      "archive_ready": false,
-      "public_distribution_ready": true,
-      "probabilities": {
-        "1": 30,
-        "2": 42,
-        "X": 28
-      },
-      "archive_probabilities": null,
-      "public_distribution": {
-        "1": 30,
-        "2": 42,
-        "X": 28
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "confidence": 49,
-      "data_completeness": 28,
-      "probability_gap": 12,
-      "agreement_score": null,
-      "poisson": null,
-      "form": {
-        "home": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 0.5,
-          "wins": 1,
-          "draws": 1,
-          "losses": 0,
-          "winRate": 50,
-          "drawRate": 50,
-          "lossRate": 0,
-          "pointsPerGame": 2,
-          "recent": [
-            "D",
-            "W"
-          ]
-        },
-        "away": {
-          "count": 3,
-          "scored": 2,
-          "conceded": 3,
-          "bttsRate": 67,
-          "over25Rate": 67,
-          "over35Rate": 33,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 2.33,
-          "wins": 0,
-          "draws": 0,
-          "losses": 3,
-          "winRate": 0,
-          "drawRate": 0,
-          "lossRate": 100,
-          "pointsPerGame": 0,
-          "recent": [
-            "L",
-            "L",
-            "L"
-          ]
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-09-05",
-          "home": "Erzurumspor Fk",
-          "away": "Konyaspor",
-          "score": "1-0"
-        }
-      ]
-    },
-    {
-      "no": 2,
-      "date": "2026-09-06",
-      "time": "17:00",
-      "league": "Türkiye Süper Lig",
-      "home": "Kasımpaşa",
-      "away": "Amed Sportif Faaliyetler",
-      "canonical_home": "Kasımpaşa",
-      "canonical_away": "Amed Sportif Faaliyetler",
-      "archive_ready": false,
-      "public_distribution_ready": true,
-      "probabilities": {
-        "1": 45,
-        "2": 23,
-        "X": 32
-      },
-      "archive_probabilities": null,
-      "public_distribution": {
-        "1": 45,
-        "2": 23,
-        "X": 32
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "confidence": 50,
-      "data_completeness": 28,
-      "probability_gap": 13,
-      "agreement_score": null,
-      "poisson": null,
-      "form": {
-        "home": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 0.5,
-          "wins": 1,
-          "draws": 1,
-          "losses": 0,
-          "winRate": 50,
-          "drawRate": 50,
-          "lossRate": 0,
-          "pointsPerGame": 2,
-          "recent": [
-            "W",
-            "D"
-          ]
-        },
-        "away": {
-          "count": 0,
-          "scored": 0,
-          "conceded": 0,
-          "bttsRate": 0,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 0,
-          "goalsAgainstAvg": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 0,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 0,
-          "recent": []
-        }
-      },
-      "h2h": []
-    },
-    {
-      "no": 3,
-      "date": "2026-09-06",
-      "time": "17:00",
-      "league": "Türkiye Süper Lig",
-      "home": "Arca Çorum FK",
-      "away": "Eyüpspor",
-      "canonical_home": "Çorum",
-      "canonical_away": "Eyüpspor",
-      "archive_ready": true,
-      "public_distribution_ready": true,
-      "probabilities": {
-        "1": 48.6,
-        "2": 27.5,
-        "X": 23.9
-      },
-      "archive_probabilities": {
-        "1": 44.8,
-        "2": 31.4,
-        "X": 23.8
-      },
-      "public_distribution": {
-        "1": 57,
-        "2": 19,
-        "X": 24
-      },
-      "probability_basis": "archive_poisson_plus_public_distribution",
-      "confidence": 71,
-      "data_completeness": 66,
-      "probability_gap": 21.1,
-      "agreement_score": 87.6,
-      "poisson": {
-        "home_lambda": 1.68,
-        "away_lambda": 1.37,
-        "samples": 6,
-        "reliability": 0.375
-      },
-      "form": {
-        "home": {
-          "count": 3,
-          "scored": 2,
-          "conceded": 2,
-          "bttsRate": 33,
-          "over25Rate": 67,
-          "over35Rate": 33,
-          "goalsForAvg": 1.67,
-          "goalsAgainstAvg": 2.33,
-          "wins": 1,
-          "draws": 0,
-          "losses": 2,
-          "winRate": 33,
-          "drawRate": 0,
-          "lossRate": 67,
-          "pointsPerGame": 1,
-          "recent": [
-            "L",
-            "L",
-            "W"
-          ]
-        },
-        "away": {
-          "count": 3,
-          "scored": 1,
-          "conceded": 3,
-          "bttsRate": 33,
-          "over25Rate": 67,
-          "over35Rate": 0,
-          "goalsForAvg": 0.67,
-          "goalsAgainstAvg": 1.67,
-          "wins": 1,
-          "draws": 0,
-          "losses": 2,
-          "winRate": 33,
-          "drawRate": 0,
-          "lossRate": 67,
-          "pointsPerGame": 1,
-          "recent": [
-            "L",
-            "W",
-            "L"
-          ]
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-09-06",
-          "home": "Çorum",
-          "away": "Eyüpspor",
-          "score": "3-0"
-        }
-      ]
-    },
-    {
-      "no": 4,
-      "date": "2026-09-05",
+      "date": "2026-09-11",
       "time": "20:00",
       "league": "Türkiye Süper Lig",
-      "home": "Fenerbahçe",
-      "away": "Beşiktaş",
-      "canonical_home": "Fenerbahçe",
-      "canonical_away": "Beşiktaş",
-      "archive_ready": true,
+      "home": "Beşiktaş",
+      "away": "Erzurumspor FK",
+      "canonical_home": "Beşiktaş",
+      "canonical_away": "Erzurumspor FK",
+      "archive_ready": false,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 45,
-        "2": 30.1,
-        "X": 24.9
+        "1": 90,
+        "2": 3,
+        "X": 7
       },
-      "archive_probabilities": {
-        "1": 42.7,
-        "2": 34.3,
-        "X": 23
-      },
+      "archive_probabilities": null,
       "public_distribution": {
-        "1": 50,
-        "2": 21,
-        "X": 29
+        "1": 90,
+        "2": 3,
+        "X": 7
       },
-      "probability_basis": "archive_poisson_plus_public_distribution",
-      "confidence": 69,
-      "data_completeness": 66,
-      "probability_gap": 14.9,
-      "agreement_score": 86.7,
-      "poisson": {
-        "home_lambda": 1.74,
-        "away_lambda": 1.54,
-        "samples": 6,
-        "reliability": 0.375
-      },
+      "probability_basis": "cross_verified_public_distribution",
+      "confidence": 51,
+      "data_completeness": 28,
+      "probability_gap": 83,
+      "agreement_score": null,
+      "poisson": null,
       "form": {
         "home": {
-          "count": 3,
-          "scored": 3,
-          "conceded": 2,
-          "bttsRate": 67,
-          "over25Rate": 67,
-          "over35Rate": 33,
-          "goalsForAvg": 2.33,
-          "goalsAgainstAvg": 1.33,
-          "wins": 2,
-          "draws": 0,
-          "losses": 1,
-          "winRate": 67,
-          "drawRate": 0,
-          "lossRate": 33,
-          "pointsPerGame": 2,
-          "recent": [
-            "W",
-            "W",
-            "L"
-          ]
-        },
-        "away": {
           "count": 3,
           "scored": 2,
           "conceded": 3,
@@ -335,43 +59,462 @@
             "W",
             "W"
           ]
+        },
+        "away": {
+          "count": 2,
+          "scored": 2,
+          "conceded": 1,
+          "bttsRate": 50,
+          "over25Rate": 0,
+          "over35Rate": 0,
+          "goalsForAvg": 1,
+          "goalsAgainstAvg": 0.5,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "winRate": 50,
+          "drawRate": 50,
+          "lossRate": 0,
+          "pointsPerGame": 2,
+          "recent": [
+            "D",
+            "W"
+          ]
         }
       },
-      "h2h": [
-        {
-          "date": "2026-09-05",
-          "home": "Fenerbahçe",
-          "away": "Beşiktaş",
-          "score": "1-2"
+      "h2h": []
+    },
+    {
+      "no": 2,
+      "date": "2026-09-12",
+      "time": "17:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Eyüpspor",
+      "away": "Çaykur Rizespor",
+      "canonical_home": "Eyüpspor",
+      "canonical_away": "Rizespor",
+      "archive_ready": true,
+      "public_distribution_ready": true,
+      "probabilities": {
+        "1": 34.7,
+        "2": 38.7,
+        "X": 26.6
+      },
+      "archive_probabilities": {
+        "1": 40.4,
+        "2": 33.6,
+        "X": 26
+      },
+      "public_distribution": {
+        "1": 22,
+        "2": 50,
+        "X": 28
+      },
+      "probability_basis": "archive_poisson_plus_public_distribution",
+      "confidence": 63,
+      "data_completeness": 66,
+      "probability_gap": 4,
+      "agreement_score": 81.6,
+      "poisson": {
+        "home_lambda": 1.4,
+        "away_lambda": 1.25,
+        "samples": 6,
+        "reliability": 0.375
+      },
+      "form": {
+        "home": {
+          "count": 3,
+          "scored": 1,
+          "conceded": 3,
+          "bttsRate": 33,
+          "over25Rate": 67,
+          "over35Rate": 0,
+          "goalsForAvg": 0.67,
+          "goalsAgainstAvg": 1.67,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "winRate": 33,
+          "drawRate": 0,
+          "lossRate": 67,
+          "pointsPerGame": 1,
+          "recent": [
+            "L",
+            "W",
+            "L"
+          ]
+        },
+        "away": {
+          "count": 3,
+          "scored": 1,
+          "conceded": 3,
+          "bttsRate": 33,
+          "over25Rate": 33,
+          "over35Rate": 0,
+          "goalsForAvg": 0.67,
+          "goalsAgainstAvg": 1.33,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "winRate": 33,
+          "drawRate": 0,
+          "lossRate": 67,
+          "pointsPerGame": 1,
+          "recent": [
+            "L",
+            "W",
+            "L"
+          ]
         }
-      ]
+      },
+      "h2h": []
+    },
+    {
+      "no": 3,
+      "date": "2026-09-12",
+      "time": "17:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Samsunspor",
+      "away": "Arca Çorum FK",
+      "canonical_home": "Samsunspor",
+      "canonical_away": "Çorum",
+      "archive_ready": true,
+      "public_distribution_ready": true,
+      "probabilities": {
+        "1": 47.9,
+        "2": 27.8,
+        "X": 24.3
+      },
+      "archive_probabilities": {
+        "1": 44.3,
+        "2": 31.3,
+        "X": 24.4
+      },
+      "public_distribution": {
+        "1": 56,
+        "2": 20,
+        "X": 24
+      },
+      "probability_basis": "archive_poisson_plus_public_distribution",
+      "confidence": 71,
+      "data_completeness": 66,
+      "probability_gap": 20.1,
+      "agreement_score": 88.3,
+      "poisson": {
+        "home_lambda": 1.61,
+        "away_lambda": 1.31,
+        "samples": 6,
+        "reliability": 0.375
+      },
+      "form": {
+        "home": {
+          "count": 3,
+          "scored": 1,
+          "conceded": 2,
+          "bttsRate": 0,
+          "over25Rate": 0,
+          "over35Rate": 0,
+          "goalsForAvg": 0.67,
+          "goalsAgainstAvg": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "winRate": 33,
+          "drawRate": 0,
+          "lossRate": 67,
+          "pointsPerGame": 1,
+          "recent": [
+            "W",
+            "L",
+            "L"
+          ]
+        },
+        "away": {
+          "count": 3,
+          "scored": 2,
+          "conceded": 2,
+          "bttsRate": 33,
+          "over25Rate": 67,
+          "over35Rate": 33,
+          "goalsForAvg": 1.67,
+          "goalsAgainstAvg": 2.33,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "winRate": 33,
+          "drawRate": 0,
+          "lossRate": 67,
+          "pointsPerGame": 1,
+          "recent": [
+            "L",
+            "L",
+            "W"
+          ]
+        }
+      },
+      "h2h": []
+    },
+    {
+      "no": 4,
+      "date": "2026-09-12",
+      "time": "20:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Corendon Alanyaspor",
+      "away": "Göztepe",
+      "canonical_home": "Alanyaspor",
+      "canonical_away": "Göztepe",
+      "archive_ready": true,
+      "public_distribution_ready": true,
+      "probabilities": {
+        "1": 47.6,
+        "2": 26.8,
+        "X": 25.6
+      },
+      "archive_probabilities": {
+        "1": 50.2,
+        "2": 26.2,
+        "X": 23.6
+      },
+      "public_distribution": {
+        "1": 42,
+        "2": 28,
+        "X": 30
+      },
+      "probability_basis": "archive_poisson_plus_public_distribution",
+      "confidence": 71,
+      "data_completeness": 66,
+      "probability_gap": 20.8,
+      "agreement_score": 91.8,
+      "poisson": {
+        "home_lambda": 1.74,
+        "away_lambda": 1.2,
+        "samples": 6,
+        "reliability": 0.375
+      },
+      "form": {
+        "home": {
+          "count": 3,
+          "scored": 3,
+          "conceded": 1,
+          "bttsRate": 33,
+          "over25Rate": 33,
+          "over35Rate": 0,
+          "goalsForAvg": 1,
+          "goalsAgainstAvg": 0.67,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "winRate": 67,
+          "drawRate": 0,
+          "lossRate": 33,
+          "pointsPerGame": 2,
+          "recent": [
+            "W",
+            "L",
+            "W"
+          ]
+        },
+        "away": {
+          "count": 3,
+          "scored": 2,
+          "conceded": 3,
+          "bttsRate": 67,
+          "over25Rate": 67,
+          "over35Rate": 67,
+          "goalsForAvg": 1.33,
+          "goalsAgainstAvg": 2.67,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "winRate": 0,
+          "drawRate": 0,
+          "lossRate": 100,
+          "pointsPerGame": 0,
+          "recent": [
+            "L",
+            "L",
+            "L"
+          ]
+        }
+      },
+      "h2h": []
     },
     {
       "no": 5,
-      "date": "2026-09-04",
+      "date": "2026-09-12",
       "time": "20:00",
       "league": "Türkiye Süper Lig",
-      "home": "İstanbul Başakşehir",
-      "away": "Galatasaray",
-      "canonical_home": "İstanbul Başakşehir",
-      "canonical_away": "Galatasaray",
+      "home": "Tümosan Konyaspor",
+      "away": "Trabzonspor",
+      "canonical_home": "Konyaspor",
+      "canonical_away": "Trabzonspor",
       "archive_ready": false,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 10,
-        "2": 70,
-        "X": 20
+        "1": 15,
+        "2": 66,
+        "X": 19
       },
       "archive_probabilities": null,
       "public_distribution": {
-        "1": 10,
-        "2": 70,
-        "X": 20
+        "1": 15,
+        "2": 66,
+        "X": 19
       },
       "probability_basis": "cross_verified_public_distribution",
       "confidence": 51,
       "data_completeness": 28,
-      "probability_gap": 50,
+      "probability_gap": 47,
+      "agreement_score": null,
+      "poisson": null,
+      "form": {
+        "home": {
+          "count": 3,
+          "scored": 2,
+          "conceded": 3,
+          "bttsRate": 67,
+          "over25Rate": 67,
+          "over35Rate": 33,
+          "goalsForAvg": 1,
+          "goalsAgainstAvg": 2.33,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "winRate": 0,
+          "drawRate": 0,
+          "lossRate": 100,
+          "pointsPerGame": 0,
+          "recent": [
+            "L",
+            "L",
+            "L"
+          ]
+        },
+        "away": {
+          "count": 2,
+          "scored": 2,
+          "conceded": 1,
+          "bttsRate": 50,
+          "over25Rate": 100,
+          "over35Rate": 50,
+          "goalsForAvg": 3.5,
+          "goalsAgainstAvg": 0.5,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "winRate": 100,
+          "drawRate": 0,
+          "lossRate": 0,
+          "pointsPerGame": 3,
+          "recent": [
+            "W",
+            "W"
+          ]
+        }
+      },
+      "h2h": []
+    },
+    {
+      "no": 6,
+      "date": "2026-09-13",
+      "time": "17:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Gençlerbirliği",
+      "away": "Kasımpaşa",
+      "canonical_home": "Gençlerbirliği",
+      "canonical_away": "Kasımpaşa",
+      "archive_ready": false,
+      "public_distribution_ready": true,
+      "probabilities": {
+        "1": 46,
+        "2": 25,
+        "X": 29
+      },
+      "archive_probabilities": null,
+      "public_distribution": {
+        "1": 46,
+        "2": 25,
+        "X": 29
+      },
+      "probability_basis": "cross_verified_public_distribution",
+      "confidence": 51,
+      "data_completeness": 28,
+      "probability_gap": 17,
+      "agreement_score": null,
+      "poisson": null,
+      "form": {
+        "home": {
+          "count": 3,
+          "scored": 2,
+          "conceded": 2,
+          "bttsRate": 33,
+          "over25Rate": 33,
+          "over35Rate": 33,
+          "goalsForAvg": 0.67,
+          "goalsAgainstAvg": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "winRate": 33,
+          "drawRate": 33,
+          "lossRate": 33,
+          "pointsPerGame": 1.33,
+          "recent": [
+            "W",
+            "D",
+            "L"
+          ]
+        },
+        "away": {
+          "count": 2,
+          "scored": 2,
+          "conceded": 1,
+          "bttsRate": 50,
+          "over25Rate": 0,
+          "over35Rate": 0,
+          "goalsForAvg": 1,
+          "goalsAgainstAvg": 0.5,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "winRate": 50,
+          "drawRate": 50,
+          "lossRate": 0,
+          "pointsPerGame": 2,
+          "recent": [
+            "W",
+            "D"
+          ]
+        }
+      },
+      "h2h": []
+    },
+    {
+      "no": 7,
+      "date": "2026-09-13",
+      "time": "20:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Amed Sportif Faaliyetler",
+      "away": "İstanbul Başakşehir",
+      "canonical_home": "Amed Sportif Faaliyetler",
+      "canonical_away": "İstanbul Başakşehir",
+      "archive_ready": false,
+      "public_distribution_ready": true,
+      "probabilities": {
+        "1": 35,
+        "2": 37,
+        "X": 28
+      },
+      "archive_probabilities": null,
+      "public_distribution": {
+        "1": 35,
+        "2": 37,
+        "X": 28
+      },
+      "probability_basis": "cross_verified_public_distribution",
+      "confidence": 46,
+      "data_completeness": 28,
+      "probability_gap": 2,
       "agreement_score": null,
       "poisson": null,
       "form": {
@@ -394,6 +537,56 @@
           "recent": []
         },
         "away": {
+          "count": 0,
+          "scored": 0,
+          "conceded": 0,
+          "bttsRate": 0,
+          "over25Rate": 0,
+          "over35Rate": 0,
+          "goalsForAvg": 0,
+          "goalsAgainstAvg": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "winRate": 0,
+          "drawRate": 0,
+          "lossRate": 0,
+          "pointsPerGame": 0,
+          "recent": []
+        }
+      },
+      "h2h": []
+    },
+    {
+      "no": 8,
+      "date": "2026-09-13",
+      "time": "20:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Galatasaray",
+      "away": "Kocaelispor",
+      "canonical_home": "Galatasaray",
+      "canonical_away": "Kocaelispor",
+      "archive_ready": false,
+      "public_distribution_ready": true,
+      "probabilities": {
+        "1": 76,
+        "2": 7,
+        "X": 17
+      },
+      "archive_probabilities": null,
+      "public_distribution": {
+        "1": 76,
+        "2": 7,
+        "X": 17
+      },
+      "probability_basis": "cross_verified_public_distribution",
+      "confidence": 51,
+      "data_completeness": 28,
+      "probability_gap": 59,
+      "agreement_score": null,
+      "poisson": null,
+      "form": {
+        "home": {
           "count": 2,
           "scored": 2,
           "conceded": 2,
@@ -413,40 +606,8 @@
             "W",
             "W"
           ]
-        }
-      },
-      "h2h": []
-    },
-    {
-      "no": 6,
-      "date": "2026-09-06",
-      "time": "20:00",
-      "league": "Türkiye Süper Lig",
-      "home": "Kocaelispor",
-      "away": "Samsunspor",
-      "canonical_home": "Kocaelispor",
-      "canonical_away": "Samsunspor",
-      "archive_ready": false,
-      "public_distribution_ready": true,
-      "probabilities": {
-        "1": 40,
-        "2": 30,
-        "X": 30
-      },
-      "archive_probabilities": null,
-      "public_distribution": {
-        "1": 40,
-        "2": 30,
-        "X": 30
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "confidence": 49,
-      "data_completeness": 28,
-      "probability_gap": 10,
-      "agreement_score": null,
-      "poisson": null,
-      "form": {
-        "home": {
+        },
+        "away": {
           "count": 2,
           "scored": 2,
           "conceded": 1,
@@ -466,274 +627,49 @@
             "W",
             "W"
           ]
-        },
-        "away": {
-          "count": 3,
-          "scored": 1,
-          "conceded": 2,
-          "bttsRate": 0,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 0.67,
-          "goalsAgainstAvg": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 2,
-          "winRate": 33,
-          "drawRate": 0,
-          "lossRate": 67,
-          "pointsPerGame": 1,
-          "recent": [
-            "W",
-            "L",
-            "L"
-          ]
         }
       },
-      "h2h": [
-        {
-          "date": "2026-09-06",
-          "home": "Kocaelispor",
-          "away": "Samsunspor",
-          "score": "1-0"
-        }
-      ]
-    },
-    {
-      "no": 7,
-      "date": "2026-09-06",
-      "time": "20:00",
-      "league": "Türkiye Süper Lig",
-      "home": "Trabzonspor",
-      "away": "Gençlerbirliği",
-      "canonical_home": "Trabzonspor",
-      "canonical_away": "Gençlerbirliği",
-      "archive_ready": false,
-      "public_distribution_ready": true,
-      "probabilities": {
-        "1": 82,
-        "2": 7,
-        "X": 11
-      },
-      "archive_probabilities": null,
-      "public_distribution": {
-        "1": 82,
-        "2": 7,
-        "X": 11
-      },
-      "probability_basis": "cross_verified_public_distribution",
-      "confidence": 51,
-      "data_completeness": 28,
-      "probability_gap": 71,
-      "agreement_score": null,
-      "poisson": null,
-      "form": {
-        "home": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 100,
-          "over35Rate": 50,
-          "goalsForAvg": 3.5,
-          "goalsAgainstAvg": 0.5,
-          "wins": 2,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 100,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 3,
-          "recent": [
-            "W",
-            "W"
-          ]
-        },
-        "away": {
-          "count": 3,
-          "scored": 2,
-          "conceded": 2,
-          "bttsRate": 33,
-          "over25Rate": 33,
-          "over35Rate": 33,
-          "goalsForAvg": 0.67,
-          "goalsAgainstAvg": 2,
-          "wins": 1,
-          "draws": 1,
-          "losses": 1,
-          "winRate": 33,
-          "drawRate": 33,
-          "lossRate": 33,
-          "pointsPerGame": 1.33,
-          "recent": [
-            "W",
-            "D",
-            "L"
-          ]
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-09-06",
-          "home": "Trabzonspor",
-          "away": "Gençlerbirliği",
-          "score": "5-0"
-        }
-      ]
-    },
-    {
-      "no": 8,
-      "date": "2026-09-07",
-      "time": "20:00",
-      "league": "Türkiye Süper Lig",
-      "home": "Çaykur Rizespor",
-      "away": "Corendon Alanyaspor",
-      "canonical_home": "Rizespor",
-      "canonical_away": "Alanyaspor",
-      "archive_ready": true,
-      "public_distribution_ready": true,
-      "probabilities": {
-        "1": 41.9,
-        "2": 29.9,
-        "X": 28.2
-      },
-      "archive_probabilities": {
-        "1": 36.9,
-        "2": 36.2,
-        "X": 26.9
-      },
-      "public_distribution": {
-        "1": 53,
-        "2": 16,
-        "X": 31
-      },
-      "probability_basis": "archive_poisson_plus_public_distribution",
-      "confidence": 67,
-      "data_completeness": 66,
-      "probability_gap": 12,
-      "agreement_score": 79.8,
-      "poisson": {
-        "home_lambda": 1.27,
-        "away_lambda": 1.25,
-        "samples": 6,
-        "reliability": 0.375
-      },
-      "form": {
-        "home": {
-          "count": 3,
-          "scored": 1,
-          "conceded": 3,
-          "bttsRate": 33,
-          "over25Rate": 33,
-          "over35Rate": 0,
-          "goalsForAvg": 0.67,
-          "goalsAgainstAvg": 1.33,
-          "wins": 1,
-          "draws": 0,
-          "losses": 2,
-          "winRate": 33,
-          "drawRate": 0,
-          "lossRate": 67,
-          "pointsPerGame": 1,
-          "recent": [
-            "L",
-            "W",
-            "L"
-          ]
-        },
-        "away": {
-          "count": 3,
-          "scored": 3,
-          "conceded": 1,
-          "bttsRate": 33,
-          "over25Rate": 33,
-          "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 0.67,
-          "wins": 2,
-          "draws": 0,
-          "losses": 1,
-          "winRate": 67,
-          "drawRate": 0,
-          "lossRate": 33,
-          "pointsPerGame": 2,
-          "recent": [
-            "W",
-            "L",
-            "W"
-          ]
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-09-07",
-          "home": "Rizespor",
-          "away": "Alanyaspor",
-          "score": "0-1"
-        }
-      ]
+      "h2h": []
     },
     {
       "no": 9,
-      "date": "2026-09-07",
+      "date": "2026-09-14",
       "time": "20:00",
       "league": "Türkiye Süper Lig",
-      "home": "Göztepe",
-      "away": "Gaziantep FK",
-      "canonical_home": "Göztepe",
-      "canonical_away": "Gaziantep FK",
+      "home": "Gaziantep FK",
+      "away": "Fenerbahçe",
+      "canonical_home": "Gaziantep FK",
+      "canonical_away": "Fenerbahçe",
       "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 47.4,
-        "2": 30.6,
-        "X": 22
+        "1": 32.5,
+        "2": 46.3,
+        "X": 21.2
       },
       "archive_probabilities": {
-        "1": 35.8,
-        "2": 40.8,
-        "X": 23.4
+        "1": 42.3,
+        "2": 34.2,
+        "X": 23.5
       },
       "public_distribution": {
-        "1": 73,
-        "2": 8,
-        "X": 19
+        "1": 11,
+        "2": 73,
+        "X": 16
       },
       "probability_basis": "archive_poisson_plus_public_distribution",
-      "confidence": 67,
+      "confidence": 65,
       "data_completeness": 66,
-      "probability_gap": 16.8,
-      "agreement_score": 62.8,
+      "probability_gap": 13.8,
+      "agreement_score": 61.2,
       "poisson": {
-        "home_lambda": 1.54,
-        "away_lambda": 1.66,
+        "home_lambda": 1.67,
+        "away_lambda": 1.48,
         "samples": 6,
         "reliability": 0.375
       },
       "form": {
         "home": {
-          "count": 3,
-          "scored": 2,
-          "conceded": 3,
-          "bttsRate": 67,
-          "over25Rate": 67,
-          "over35Rate": 67,
-          "goalsForAvg": 1.33,
-          "goalsAgainstAvg": 2.67,
-          "wins": 0,
-          "draws": 0,
-          "losses": 3,
-          "winRate": 0,
-          "drawRate": 0,
-          "lossRate": 100,
-          "pointsPerGame": 0,
-          "recent": [
-            "L",
-            "L",
-            "L"
-          ]
-        },
-        "away": {
           "count": 3,
           "scored": 3,
           "conceded": 2,
@@ -754,66 +690,80 @@
             "L",
             "W"
           ]
+        },
+        "away": {
+          "count": 3,
+          "scored": 3,
+          "conceded": 2,
+          "bttsRate": 67,
+          "over25Rate": 67,
+          "over35Rate": 33,
+          "goalsForAvg": 2.33,
+          "goalsAgainstAvg": 1.33,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "winRate": 67,
+          "drawRate": 0,
+          "lossRate": 33,
+          "pointsPerGame": 2,
+          "recent": [
+            "W",
+            "W",
+            "L"
+          ]
         }
       },
-      "h2h": [
-        {
-          "date": "2026-09-07",
-          "home": "Göztepe",
-          "away": "Gaziantep Fk",
-          "score": "2-4"
-        }
-      ]
+      "h2h": []
     },
     {
       "no": 10,
-      "date": "2026-09-06",
-      "time": "16:00",
-      "league": "İngiltere Premier Lig",
-      "home": "Everton",
-      "away": "Manchester United",
-      "canonical_home": "Everton",
-      "canonical_away": "Manchester United",
+      "date": "2026-09-12",
+      "time": "16:30",
+      "league": "Almanya Bundesliga",
+      "home": "Augsburg",
+      "away": "Bayer Leverkusen",
+      "canonical_home": "Augsburg",
+      "canonical_away": "Bayer Leverkusen",
       "archive_ready": false,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 24,
-        "2": 48,
-        "X": 28
+        "1": 25,
+        "2": 53,
+        "X": 22
       },
       "archive_probabilities": null,
       "public_distribution": {
-        "1": 24,
-        "2": 48,
-        "X": 28
+        "1": 25,
+        "2": 53,
+        "X": 22
       },
       "probability_basis": "cross_verified_public_distribution",
       "confidence": 51,
       "data_completeness": 28,
-      "probability_gap": 20,
+      "probability_gap": 28,
       "agreement_score": null,
       "poisson": null,
       "form": {
         "home": {
-          "count": 3,
-          "scored": 3,
-          "conceded": 1,
-          "bttsRate": 33,
-          "over25Rate": 33,
-          "over35Rate": 33,
-          "goalsForAvg": 2.33,
-          "goalsAgainstAvg": 0.33,
+          "count": 2,
+          "scored": 2,
+          "conceded": 0,
+          "bttsRate": 0,
+          "over25Rate": 50,
+          "over35Rate": 0,
+          "goalsForAvg": 2.5,
+          "goalsAgainstAvg": 0,
           "wins": 2,
-          "draws": 1,
+          "draws": 0,
           "losses": 0,
-          "winRate": 67,
-          "drawRate": 33,
+          "winRate": 100,
+          "drawRate": 0,
           "lossRate": 0,
-          "pointsPerGame": 2.33,
+          "pointsPerGame": 3,
           "recent": [
             "W",
-            "W",
-            "D"
+            "W"
           ]
         },
         "away": {
@@ -839,55 +789,105 @@
     },
     {
       "no": 11,
-      "date": "2026-09-06",
-      "time": "18:30",
-      "league": "İngiltere Premier Lig",
-      "home": "Arsenal",
-      "away": "Chelsea",
-      "canonical_home": "Arsenal",
-      "canonical_away": "Chelsea",
+      "date": "2026-09-11",
+      "time": "21:45",
+      "league": "Fransa Ligue 1",
+      "home": "Rennes",
+      "away": "Marsilya",
+      "canonical_home": "Rennes",
+      "canonical_away": "Marsilya",
       "archive_ready": false,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 61,
-        "2": 15,
-        "X": 24
+        "1": 35,
+        "2": 36,
+        "X": 29
       },
       "archive_probabilities": null,
       "public_distribution": {
-        "1": 61,
-        "2": 15,
-        "X": 24
+        "1": 35,
+        "2": 36,
+        "X": 29
       },
       "probability_basis": "cross_verified_public_distribution",
-      "confidence": 51,
+      "confidence": 45,
       "data_completeness": 28,
-      "probability_gap": 37,
+      "probability_gap": 1,
       "agreement_score": null,
       "poisson": null,
       "form": {
         "home": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 50,
+          "count": 0,
+          "scored": 0,
+          "conceded": 0,
+          "bttsRate": 0,
+          "over25Rate": 0,
           "over35Rate": 0,
-          "goalsForAvg": 1.5,
-          "goalsAgainstAvg": 0.5,
-          "wins": 2,
+          "goalsForAvg": 0,
+          "goalsAgainstAvg": 0,
+          "wins": 0,
           "draws": 0,
           "losses": 0,
-          "winRate": 100,
+          "winRate": 0,
           "drawRate": 0,
           "lossRate": 0,
-          "pointsPerGame": 3,
-          "recent": [
-            "W",
-            "W"
-          ]
+          "pointsPerGame": 0,
+          "recent": []
         },
         "away": {
+          "count": 2,
+          "scored": 1,
+          "conceded": 2,
+          "bttsRate": 50,
+          "over25Rate": 50,
+          "over35Rate": 50,
+          "goalsForAvg": 1,
+          "goalsAgainstAvg": 2.5,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "winRate": 0,
+          "drawRate": 0,
+          "lossRate": 100,
+          "pointsPerGame": 0,
+          "recent": [
+            "L",
+            "L"
+          ]
+        }
+      },
+      "h2h": []
+    },
+    {
+      "no": 12,
+      "date": "2026-09-12",
+      "time": "17:00",
+      "league": "İngiltere Premier Lig",
+      "home": "Chelsea",
+      "away": "Hull City",
+      "canonical_home": "Chelsea",
+      "canonical_away": "Hull City",
+      "archive_ready": false,
+      "public_distribution_ready": true,
+      "probabilities": {
+        "1": 81,
+        "2": 7,
+        "X": 12
+      },
+      "archive_probabilities": null,
+      "public_distribution": {
+        "1": 81,
+        "2": 7,
+        "X": 12
+      },
+      "probability_basis": "cross_verified_public_distribution",
+      "confidence": 51,
+      "data_completeness": 28,
+      "probability_gap": 69,
+      "agreement_score": null,
+      "poisson": null,
+      "form": {
+        "home": {
           "count": 4,
           "scored": 4,
           "conceded": 3,
@@ -909,38 +909,49 @@
             "W",
             "L"
           ]
+        },
+        "away": {
+          "count": 0,
+          "scored": 0,
+          "conceded": 0,
+          "bttsRate": 0,
+          "over25Rate": 0,
+          "over35Rate": 0,
+          "goalsForAvg": 0,
+          "goalsAgainstAvg": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "winRate": 0,
+          "drawRate": 0,
+          "lossRate": 0,
+          "pointsPerGame": 0,
+          "recent": []
         }
       },
-      "h2h": [
-        {
-          "date": "2026-09-06",
-          "home": "Arsenal",
-          "away": "Chelsea",
-          "score": "2-1"
-        }
-      ]
+      "h2h": []
     },
     {
-      "no": 12,
-      "date": "2026-09-05",
-      "time": "17:15",
-      "league": "İspanya La Liga",
-      "home": "Athletic Bilbao",
-      "away": "Atletico Madrid",
-      "canonical_home": "Athletic Bilbao",
-      "canonical_away": "Atletico Madrid",
+      "no": 13,
+      "date": "2026-09-13",
+      "time": "18:30",
+      "league": "İngiltere Premier Lig",
+      "home": "Manchester United",
+      "away": "Manchester City",
+      "canonical_home": "Manchester United",
+      "canonical_away": "Manchester City",
       "archive_ready": false,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 23,
-        "2": 50,
-        "X": 27
+        "1": 25,
+        "2": 49,
+        "X": 26
       },
       "archive_probabilities": null,
       "public_distribution": {
-        "1": 23,
-        "2": 50,
-        "X": 27
+        "1": 25,
+        "2": 49,
+        "X": 26
       },
       "probability_basis": "cross_verified_public_distribution",
       "confidence": 51,
@@ -950,189 +961,31 @@
       "poisson": null,
       "form": {
         "home": {
-          "count": 2,
-          "scored": 1,
-          "conceded": 1,
+          "count": 0,
+          "scored": 0,
+          "conceded": 0,
           "bttsRate": 0,
           "over25Rate": 0,
           "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 1,
-          "wins": 1,
+          "goalsForAvg": 0,
+          "goalsAgainstAvg": 0,
+          "wins": 0,
           "draws": 0,
-          "losses": 1,
-          "winRate": 50,
+          "losses": 0,
+          "winRate": 0,
           "drawRate": 0,
-          "lossRate": 50,
-          "pointsPerGame": 1.5,
-          "recent": [
-            "L",
-            "W"
-          ]
+          "lossRate": 0,
+          "pointsPerGame": 0,
+          "recent": []
         },
         "away": {
-          "count": 2,
-          "scored": 1,
-          "conceded": 2,
-          "bttsRate": 50,
-          "over25Rate": 100,
-          "over35Rate": 50,
-          "goalsForAvg": 1.5,
-          "goalsAgainstAvg": 2,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "winRate": 50,
-          "drawRate": 0,
-          "lossRate": 50,
-          "pointsPerGame": 1.5,
-          "recent": [
-            "W",
-            "L"
-          ]
-        }
-      },
-      "h2h": []
-    },
-    {
-      "no": 13,
-      "date": "2026-09-05",
-      "time": "19:00",
-      "league": "İtalya Serie A",
-      "home": "Inter",
-      "away": "Napoli",
-      "canonical_home": "Inter",
-      "canonical_away": "Napoli",
-      "archive_ready": true,
-      "public_distribution_ready": true,
-      "probabilities": {
-        "1": 53.6,
-        "2": 22.4,
-        "X": 24
-      },
-      "archive_probabilities": {
-        "1": 48.3,
-        "2": 28.2,
-        "X": 23.5
-      },
-      "public_distribution": {
-        "1": 66,
-        "2": 9,
-        "X": 25
-      },
-      "probability_basis": "archive_poisson_plus_public_distribution",
-      "confidence": 70,
-      "data_completeness": 67,
-      "probability_gap": 29.6,
-      "agreement_score": 80.8,
-      "poisson": {
-        "home_lambda": 1.74,
-        "away_lambda": 1.28,
-        "samples": 7,
-        "reliability": 0.4375
-      },
-      "form": {
-        "home": {
-          "count": 4,
-          "scored": 4,
-          "conceded": 3,
-          "bttsRate": 75,
-          "over25Rate": 75,
-          "over35Rate": 50,
-          "goalsForAvg": 2.25,
-          "goalsAgainstAvg": 1.25,
-          "wins": 3,
-          "draws": 0,
-          "losses": 1,
-          "winRate": 75,
-          "drawRate": 0,
-          "lossRate": 25,
-          "pointsPerGame": 2.25,
-          "recent": [
-            "W",
-            "W",
-            "W",
-            "L"
-          ]
-        },
-        "away": {
-          "count": 3,
-          "scored": 3,
-          "conceded": 2,
-          "bttsRate": 67,
-          "over25Rate": 67,
-          "over35Rate": 33,
-          "goalsForAvg": 1.67,
-          "goalsAgainstAvg": 1.67,
-          "wins": 1,
-          "draws": 0,
-          "losses": 2,
-          "winRate": 33,
-          "drawRate": 0,
-          "lossRate": 67,
-          "pointsPerGame": 1,
-          "recent": [
-            "W",
-            "L",
-            "L"
-          ]
-        }
-      },
-      "h2h": [
-        {
-          "date": "2026-09-05",
-          "home": "Inter",
-          "away": "Napoli",
-          "score": "3-2"
-        }
-      ]
-    },
-    {
-      "no": 14,
-      "date": "2026-09-05",
-      "time": "21:45",
-      "league": "İtalya Serie A",
-      "home": "Roma",
-      "away": "Atalanta",
-      "canonical_home": "Roma",
-      "canonical_away": "Atalanta",
-      "archive_ready": true,
-      "public_distribution_ready": true,
-      "probabilities": {
-        "1": 55.8,
-        "2": 20.4,
-        "X": 23.8
-      },
-      "archive_probabilities": {
-        "1": 54.4,
-        "2": 22.4,
-        "X": 23.2
-      },
-      "public_distribution": {
-        "1": 59,
-        "2": 16,
-        "X": 25
-      },
-      "probability_basis": "archive_poisson_plus_public_distribution",
-      "confidence": 71,
-      "data_completeness": 66,
-      "probability_gap": 32,
-      "agreement_score": 93.6,
-      "poisson": {
-        "home_lambda": 1.79,
-        "away_lambda": 1.06,
-        "samples": 6,
-        "reliability": 0.375
-      },
-      "form": {
-        "home": {
           "count": 3,
           "scored": 3,
           "conceded": 1,
           "bttsRate": 33,
-          "over25Rate": 100,
-          "over35Rate": 67,
-          "goalsForAvg": 3.33,
+          "over25Rate": 33,
+          "over35Rate": 33,
+          "goalsForAvg": 2.67,
           "goalsAgainstAvg": 0.33,
           "wins": 3,
           "draws": 0,
@@ -1146,65 +999,122 @@
             "W",
             "W"
           ]
+        }
+      },
+      "h2h": []
+    },
+    {
+      "no": 14,
+      "date": "2026-09-13",
+      "time": "17:15",
+      "league": "İspanya La Liga",
+      "home": "Levante",
+      "away": "Barcelona",
+      "canonical_home": "Levante",
+      "canonical_away": "Barcelona",
+      "archive_ready": true,
+      "public_distribution_ready": true,
+      "probabilities": {
+        "1": 22.2,
+        "2": 58.4,
+        "X": 19.4
+      },
+      "archive_probabilities": {
+        "1": 29.2,
+        "2": 46.9,
+        "X": 23.9
+      },
+      "public_distribution": {
+        "1": 6,
+        "2": 85,
+        "X": 9
+      },
+      "probability_basis": "archive_poisson_plus_public_distribution",
+      "confidence": 67,
+      "data_completeness": 59,
+      "probability_gap": 36.2,
+      "agreement_score": 61.9,
+      "poisson": {
+        "home_lambda": 1.29,
+        "away_lambda": 1.69,
+        "samples": 7,
+        "reliability": 0.4375
+      },
+      "form": {
+        "home": {
+          "count": 3,
+          "scored": 1,
+          "conceded": 1,
+          "bttsRate": 33,
+          "over25Rate": 33,
+          "over35Rate": 33,
+          "goalsForAvg": 1.67,
+          "goalsAgainstAvg": 0.67,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "winRate": 33,
+          "drawRate": 67,
+          "lossRate": 0,
+          "pointsPerGame": 1.67,
+          "recent": [
+            "D",
+            "W",
+            "D"
+          ]
         },
         "away": {
-          "count": 3,
-          "scored": 3,
-          "conceded": 2,
-          "bttsRate": 67,
-          "over25Rate": 67,
-          "over35Rate": 0,
-          "goalsForAvg": 1.33,
-          "goalsAgainstAvg": 1,
-          "wins": 2,
+          "count": 4,
+          "scored": 4,
+          "conceded": 1,
+          "bttsRate": 25,
+          "over25Rate": 75,
+          "over35Rate": 75,
+          "goalsForAvg": 4.25,
+          "goalsAgainstAvg": 0.5,
+          "wins": 4,
           "draws": 0,
-          "losses": 1,
-          "winRate": 67,
+          "losses": 0,
+          "winRate": 100,
           "drawRate": 0,
-          "lossRate": 33,
-          "pointsPerGame": 2,
+          "lossRate": 0,
+          "pointsPerGame": 3,
           "recent": [
             "W",
             "W",
-            "L"
+            "W",
+            "W"
           ]
         }
       },
-      "h2h": [
-        {
-          "date": "2026-09-05",
-          "home": "Roma",
-          "away": "Atalanta",
-          "score": "2-1"
-        }
-      ]
+      "h2h": []
     },
     {
       "no": 15,
-      "date": "2026-09-06",
-      "time": "21:45",
+      "date": "2026-09-12",
+      "time": "19:00",
       "league": "İtalya Serie A",
-      "home": "Juventus",
+      "home": "Lazio",
       "away": "Milan",
-      "canonical_home": "Juventus",
+      "canonical_home": "Lazio",
       "canonical_away": "Milan",
       "archive_ready": false,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 41,
-        "2": 24,
-        "X": 35
+        "1": 26,
+        "2": 44,
+        "X": 30
       },
       "archive_probabilities": null,
       "public_distribution": {
-        "1": 41,
-        "2": 24,
-        "X": 35
+        "1": 26,
+        "2": 44,
+        "X": 30
       },
       "probability_basis": "cross_verified_public_distribution",
-      "confidence": 47,
+      "confidence": 50,
       "data_completeness": 28,
-      "probability_gap": 6,
+      "probability_gap": 14,
       "agreement_score": null,
       "poisson": null,
       "form": {
@@ -1213,21 +1123,21 @@
           "scored": 3,
           "conceded": 1,
           "bttsRate": 33,
-          "over25Rate": 0,
+          "over25Rate": 33,
           "over35Rate": 0,
           "goalsForAvg": 1.33,
           "goalsAgainstAvg": 0.33,
-          "wins": 2,
-          "draws": 1,
+          "wins": 3,
+          "draws": 0,
           "losses": 0,
-          "winRate": 67,
-          "drawRate": 33,
+          "winRate": 100,
+          "drawRate": 0,
           "lossRate": 0,
-          "pointsPerGame": 2.33,
+          "pointsPerGame": 3,
           "recent": [
             "W",
             "W",
-            "D"
+            "W"
           ]
         },
         "away": {
