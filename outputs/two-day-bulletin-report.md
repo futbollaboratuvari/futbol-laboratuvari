@@ -2,30 +2,15 @@
 
 Gunler: 2026-09-09 / 2026-09-10
 Kaynak: fixtures.json
-Ham mac: 185
-Aktif mac: 61
+Ham mac: 87
+Aktif mac: 46
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 124
-Bugun: 21
+Bultenden dusurulen mac: 41
+Bugun: 6
 Yarin: 40
 
 ## Baslamamis Maclar
-- 2026-09-09 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Napoli - Arsenal | scheduled | -
-- 2026-09-09 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Sporting Cp - Galatasaray | scheduled | -
-- 2026-09-09 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Liverpool - Atletico Madrid | scheduled | -
-- 2026-09-09 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Psg - Slovan Bratisla | scheduled | -
-- 2026-09-09 22:00 | İngiltere Championship | Charlton - Qpr | scheduled | -
-- 2026-09-09 22:00 | İngiltere Lig Kupası 3.Tur | Chelsea - Leeds Utd | scheduled | -
-- 2026-09-09 22:00 | İskoçya Premiership | St Johnstone - Celtic | scheduled | -
-- 2026-09-09 22:00 | Irak Premier Lig | Al Karma - Naft | scheduled | -
-- 2026-09-09 22:00 | İspanya Federasyon Kupası Son 32 Turu | Talavera Cf - Navalcarnero | scheduled | -
-- 2026-09-09 22:00 | İspanya De La Reina Kupası 1. Tur | Samper (K) - Olympia Las Roz | scheduled | -
-- 2026-09-09 22:00 | İspanya Federasyon Kupası Son 32 Turu | Cacereno - Ud San Pedro | scheduled | -
-- 2026-09-09 22:15 | İzlanda 1.Lig Yükselme Play Off Yarı Final | Hk Kopavogur - Fylkir | scheduled | -
-- 2026-09-09 22:30 | Paraguay Intermedia Lig | Depor Santani - Indep Cambo Gra | scheduled | -
-- 2026-09-09 22:30 | Venezuela Kupa 1.Tur Grup B | Real Frontera - Zamora | scheduled | -
-- 2026-09-09 22:30 | Venezuela Kupa 1.Tur Grup B | Atletico Barin - El Vigia | scheduled | -
 - 2026-09-09 22:45 | Portekiz Premier Lig | Moreirense - Benfica | scheduled | -
 - 2026-09-09 23:00 | Venezuela Kupa 1.Tur Grup C | Yaracuyanos - Aragua | scheduled | -
 - 2026-09-09 23:00 | Venezuela Kupa 1.Tur Grup E | Monagas - Bolívar | scheduled | -

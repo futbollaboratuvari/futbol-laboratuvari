@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 61
+- Scheduled match count: 46
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-09 / 2026-09-10 23:59
 
-- 2026-09-09 22:00 | Al Karma - Naft | scheduled
-- 2026-09-09 22:00 | Charlton - Qpr | scheduled
-- 2026-09-09 22:00 | Chelsea - Leeds Utd | scheduled
-- 2026-09-09 22:00 | St Johnstone - Celtic | scheduled
-- 2026-09-09 22:00 | Samper (K) - Olympia Las Roz | scheduled
-- 2026-09-09 22:00 | Cacereno - Ud San Pedro | scheduled
-- 2026-09-09 22:00 | Talavera Cf - Navalcarnero | scheduled
-- 2026-09-09 22:00 | Liverpool - Atletico Madrid | scheduled
-- 2026-09-09 22:00 | Napoli - Arsenal | scheduled
-- 2026-09-09 22:00 | Psg - Slovan Bratisla | scheduled
+- 2026-09-09 22:45 | Moreirense - Benfica | scheduled
+- 2026-09-09 23:00 | Academia Anzoa - Deportivo Petar | scheduled
+- 2026-09-09 23:00 | Yaracuyanos - Aragua | scheduled
+- 2026-09-09 23:00 | Urena Fc - Rayo Zuliano | scheduled
+- 2026-09-09 23:00 | Monagas - Bolívar | scheduled
+- 2026-09-09 23:30 | Independiente - Quindio | scheduled
+- 2026-09-10 00:00 | Platense - Isidro Metapan | scheduled
+- 2026-09-10 00:00 | Deportivo San - Mixco | scheduled
+- 2026-09-10 00:30 | Fundacion Lara - Caracas Fc | scheduled
+- 2026-09-10 01:00 | Riestra - Banfield | scheduled
