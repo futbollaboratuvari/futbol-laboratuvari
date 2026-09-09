@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.09.2026 17:41:59
+Oluşturma: 09.09.2026 18:22:41
 
 ## Özet
 
@@ -24,26 +24,26 @@ Oluşturma: 09.09.2026 17:41:59
 
 - MS X: toplam 3, bekleyen 2, başarı %100, düz getiri %146, ağırlık 1
 - 2.5 Üst: toplam 231, bekleyen 145, başarı %63, düz getiri %9, ağırlık 1
-- MS 1: toplam 500, bekleyen 387, başarı %54, düz getiri %-12, ağırlık 1
-- 2.5 Alt: toplam 550, bekleyen 414, başarı %53, düz getiri %-13, ağırlık 1
-- MS 2: toplam 213, bekleyen 161, başarı %52, düz getiri %-8, ağırlık 1
+- MS 1: toplam 499, bekleyen 386, başarı %54, düz getiri %-12, ağırlık 1
+- 2.5 Alt: toplam 552, bekleyen 416, başarı %53, düz getiri %-13, ağırlık 1
+- MS 2: toplam 212, bekleyen 160, başarı %52, düz getiri %-8, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-09 | Kolombiya Kupa Son 16 Turu | Once Caldas - Alianza Petrole | MS 1 | pending | 59/100
+- 2026-09-09 | İspanya De La Reina Kupası 1. Tur | Sport Extremad - Cacereno (K) | 2.5 Alt | pending | 50/100
+- 2026-09-09 | İngiltere Ulusal Lig Kupası Grup C | Tamworth - Middlesbrough ( | MS 1 | pending | 58/100
+- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Cacereno - Ud San Pedro | 2.5 Alt | pending | 55/100
+- 2026-09-09 | İsveç Superettan | Sandvikens - Oddevold | MS 1 | pending | 49/100
+- 2026-09-09 | Gürcistan Erovnuli Liga | Dinamo Batumi - Fc Iberia | 2.5 Üst | pending | 54/100
+- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Compostela - Derio | 2.5 Üst | pending | 54/100
+- 2026-09-09 | İspanya De La Reina Kupası 1. Tur | Burgos (K) - Bizkerre (K) | 2.5 Alt | pending | 53/100
+- 2026-09-09 | Kadınlar U20 Dünya Kupası Grup C | Fransa U20 (K) - Ekvador U20 (K) | MS 1 | pending | 54/100
 - 2026-09-09 | İspanya De La Reina Kupası 1. Tur | Sporting De Hu - Malaga (K) | 2.5 Alt | pending | 50/100
 - 2026-09-09 | ABD MLS | Chicago - Inter Miami | MS 2 | pending | 56/100
 - 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Cacereno - Ud San Pedro | MS 1 | pending | 59/100
 - 2026-09-09 | Venezuela Kupa 1.Tur Grup B | Atletico Barin - El Vigia | MS 1 | pending | 53/100
 - 2026-09-09 | Venezuela Kupa 1.Tur Grup A | Academia Anzoa - Deportivo Petar | MS 1 | pending | 51/100
-- 2026-09-09 | Venezuela Kupa 1.Tur Grup D | Urena Fc - Rayo Zuliano | 2.5 Alt | pending | 55/100
-- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Comillas - Lhospitalet | 2.5 Alt | pending | 55/100
-- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Badalona - Sestao | 2.5 Alt | pending | 53/100
-- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Torrent - Saguntino | 2.5 Alt | pending | 50/100
-- 2026-09-09 | İngiltere Premier Lig Kupası Grup A | Blackburn Rove - Queens Park Ran | MS 1 | pending | 49/100
-- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | San Juan - Terrassa | 2.5 Alt | pending | 56/100
-- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Motril - Huelva | 2.5 Üst | pending | 53/100
-- 2026-09-09 | İngiltere FA Cup Eleme 1.Tur Tekrar | Exmouth - Banbury United | 2.5 Üst | pending | 56/100
-- 2026-09-09 | İngiltere FA Cup Eleme 1.Tur Tekrar | Bishop Aucklan - Afc Emley | MS 2 | pending | 48/100
-- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Talavera Cf - Navalcarnero | 2.5 Üst | pending | 53/100
+- 2026-09-09 | Venezuela Kupa 1.Tur Grup D | Urena Fc - Rayo Zuliano | 2.5 Alt | pending | 54/100
 

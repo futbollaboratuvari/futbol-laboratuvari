@@ -2,22 +2,15 @@
 
 Gunler: 2026-09-09 / 2026-09-10
 Kaynak: fixtures.json
-Ham mac: 168
-Aktif mac: 136
+Ham mac: 185
+Aktif mac: 130
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 32
-Bugun: 96
+Bultenden dusurulen mac: 55
+Bugun: 90
 Yarin: 40
 
 ## Baslamamis Maclar
-- 2026-09-09 18:00 | Çek Cumhuriyeti Czech Liga | Jablonec - Banik Ostrava | scheduled | -
-- 2026-09-09 18:00 | Finlandiya Veikkausliiga Şampiyonluk Grubu | Helsinki - Inter Turku | scheduled | -
-- 2026-09-09 18:00 | Gürcistan Erovnuli Liga | Samgurali - Dila Gori | scheduled | -
-- 2026-09-09 18:00 | Gürcistan Erovnuli Liga | Spaeri - Fc Rustavi | scheduled | -
-- 2026-09-09 18:00 | Irak Premier Lig | Al Golan - Zakho | scheduled | -
-- 2026-09-09 18:00 | İspanya De La Reina Kupası 1. Tur | Cd Getafe (K) - Pozuelo Alarcon | scheduled | -
-- 2026-09-09 18:00 | Özbekistan Super League | Nasaf Qarshi - Bunyodkor | scheduled | -
 - 2026-09-09 18:30 | İspanya De La Reina Kupası 1. Tur | Oviedo Moderno - Sporting Gijón | scheduled | -
 - 2026-09-09 18:30 | Bulgaristan Süper Kupa | Levski Sofya - Cska Sofia | scheduled | -
 - 2026-09-09 18:30 | Danimarka DBU Kupası 3.Tur | Vsk Arhus - Lyngby | scheduled | -
@@ -86,6 +79,7 @@ Yarin: 40
 - 2026-09-09 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Exmouth - Banbury United | scheduled | -
 - 2026-09-09 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Afc Whyteleafe - Crowborough Ath | scheduled | -
 - 2026-09-09 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Bishop Aucklan - Afc Emley | scheduled | -
+- 2026-09-09 21:45 | İngiltere Ulusal Lig Kupası Grup C | Tamworth - Middlesbrough ( | scheduled | -
 - 2026-09-09 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Napoli - Arsenal | scheduled | -
 - 2026-09-09 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Sporting Cp - Galatasaray | scheduled | -
 - 2026-09-09 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Liverpool - Atletico Madrid | scheduled | -
