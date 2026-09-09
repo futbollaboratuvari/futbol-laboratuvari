@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.09.2026 09:27:36
+Oluşturma: 09.09.2026 09:39:06
 
 ## Özet
 
@@ -23,14 +23,16 @@ Oluşturma: 09.09.2026 09:27:36
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 3, bekleyen 2, başarı %100, düz getiri %146, ağırlık 1
-- 2.5 Üst: toplam 228, bekleyen 143, başarı %62, düz getiri %8, ağırlık 1
-- MS 1: toplam 499, bekleyen 386, başarı %53, düz getiri %-14, ağırlık 1
-- 2.5 Alt: toplam 551, bekleyen 415, başarı %53, düz getiri %-13, ağırlık 1
-- MS 2: toplam 216, bekleyen 162, başarı %50, düz getiri %-12, ağırlık 1
+- 2.5 Üst: toplam 229, bekleyen 144, başarı %62, düz getiri %8, ağırlık 1
+- MS 1: toplam 500, bekleyen 387, başarı %53, düz getiri %-14, ağırlık 1
+- 2.5 Alt: toplam 550, bekleyen 414, başarı %53, düz getiri %-13, ağırlık 1
+- MS 2: toplam 215, bekleyen 161, başarı %50, düz getiri %-12, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-09 | ABD USL Kupası Yarı Final | Hartford Athle - Colorado Spring | MS 1 | pending | 40/100
+- 2026-09-09 | Brezilya Serie B | Cuiaba - Athletic Club | 2.5 Üst | pending | 65/100
 - 2026-09-09 | ABD MLS | Montreal - Charlotte | MS 1 | pending | 49/100
 - 2026-09-09 | Kolombiya Primera B Clausura | Independiente - Quindio | 2.5 Alt | pending | 66/100
 - 2026-09-09 | Danimarka DBU Kupası 3.Tur | Nykobing - Middelfart | MS 1 | pending | 51/100
@@ -44,6 +46,4 @@ Oluşturma: 09.09.2026 09:27:36
 - 2026-09-09 | Gürcistan Erovnuli Liga | Samgurali - Dila Gori | 2.5 Alt | pending | 54/100
 - 2026-09-09 | Uganda Premier Lig | Sc Villa - Express | 2.5 Alt | pending | 57/100
 - 2026-09-09 | Özbekistan Super League | Otmk Olmaliq - Pakhtakor | 2.5 Alt | pending | 50/100
-- 2026-09-09 | Japonya Lig Kupası 1.Tur | Tochigi Sc - Yamagata | 2.5 Üst | pending | 53/100
-- 2026-09-09 | Japonya J3 Lig | Ryukyu - Gira Kitakyushu | 2.5 Alt | pending | 49/100
 
