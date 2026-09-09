@@ -1,49 +1,27 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-09T18:49:13.059818+00:00
+Tarih: 2026-09-09T19:27:49.986446+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 63
+- Kac mac bulundu: 9
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 63
+- Kac mac zaten vardi: 9
 - Ham veri havuzu toplam mac sayisi: 12908
 - Hedef tarih: 09.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD MLS Next Pro
-- Arjantin Kupa Çeyrek Final
-- Brezilya Serie B
-- CONCACAF Orta Amerika Kupası Çeyrek Final
-- Copa Libertadores Çeyrek Final
-- Copa Sudamericana Çeyrek Final
-- El Salvador Primera Lig Apertura
-- Guatemala Ulusal Lig Apertura
-- Irak Premier Lig
-- Kanada Premier Lig
-- Kolombiya Kupa Son 16 Turu
 - Kolombiya Primera B Clausura
 - Paraguay Intermedia Lig
 - Portekiz Premier Lig
-- UEFA Şampiyonlar Ligi Lig Aşaması
-- Uruguay Kupa Ön Eleme Turu Grup 3
 - Venezuela Kupa 1.Tur Grup A
 - Venezuela Kupa 1.Tur Grup B
 - Venezuela Kupa 1.Tur Grup C
 - Venezuela Kupa 1.Tur Grup D
 - Venezuela Kupa 1.Tur Grup E
-- İngiltere Championship
-- İngiltere FA Cup Eleme 1.Tur Tekrar
-- İngiltere Lig Kupası 3.Tur
-- İngiltere Ulusal Lig Kupası Grup C
-- İskoçya Premiership
-- İspanya De La Reina Kupası 1. Tur
-- İspanya Federasyon Kupası Son 32 Turu
-- İzlanda 1.Lig Yükselme Play Off Yarı Final
 
 ## Okunabilen Oran Alanlari
 
@@ -100,8 +78,8 @@ Tarih: 2026-09-09T18:49:13.059818+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 31
-- Acilan detay: 31
+- Denenen Tumu alani: 21
+- Acilan detay: 21
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -114,26 +92,15 @@ Tarih: 2026-09-09T18:49:13.059818+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 09.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Napoli | Arsenal | 54347 | 5 |
-| 09.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Psg | Slovan Bratisla | 54407 | 3 |
-| 09.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Sporting Cp | Galatasaray | 54463 | 5 |
-| 09.09.2026 | 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Liverpool | Atletico Madrid | 54273 | 5 |
-| 09.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Chelsea | Leeds Utd | 15594 | 5 |
 | 09.09.2026 | 22:45 | Portekiz Premier Lig | Moreirense | Benfica | 20329 | 4 |
-| 10.09.2026 | 03:30 | Copa Libertadores Çeyrek Final | Estudiantes Lp | Corinthians | 17492 | 5 |
-| 10.09.2026 | 01:00 | Copa Libertadores Çeyrek Final | Palmeiras | Ldu Quito | 17021 | 5 |
-| 10.09.2026 | 01:00 | Copa Sudamericana Çeyrek Final | Santos | Atletico Mg | 17185 | 5 |
-| 09.09.2026 | 22:00 | İngiltere Championship | Charlton | Qpr | 15479 | 5 |
-| 09.09.2026 | 22:00 | İskoçya Premiership | St Johnstone | Celtic | 19881 | 5 |
-| 10.09.2026 | 03:30 | ABD MLS | Chicago | Inter Miami | 09706 | 5 |
-| 10.09.2026 | 03:30 | ABD MLS | Austin | Colorado | 09592 | 5 |
-| 10.09.2026 | 03:30 | ABD MLS | Houston | Salt Lake | 09856 | 5 |
-| 10.09.2026 | 03:00 | ABD MLS | New York City | New England | 09505 | 5 |
-| 10.09.2026 | 02:30 | ABD MLS | Dc United | Columbus | 09064 | 5 |
-| 10.09.2026 | 05:30 | ABD MLS | Los Angeles Fc | New York | 10168 | 5 |
-| 10.09.2026 | 03:30 | ABD MLS | Minnesota Utd | Dallas | 10029 | 5 |
-| 10.09.2026 | 02:45 | ABD MLS | Philadelphia | Cincinnati | 09386 | 5 |
-| 10.09.2026 | 05:30 | ABD MLS | San Diego | San Jose | 10432 | 5 |
+| 09.09.2026 | 23:30 | Kolombiya Primera B Clausura | Independiente | Quindio | 09690 | 5 |
+| 09.09.2026 | 22:30 | Paraguay Intermedia Lig | Depor Santani | Indep Cambo Gra | 18497 | 5 |
+| 09.09.2026 | 23:00 | Venezuela Kupa 1.Tur Grup A | Academia Anzoa | Deportivo Petar | 08711 | 5 |
+| 09.09.2026 | 22:30 | Venezuela Kupa 1.Tur Grup B | Real Frontera | Zamora | 07842 | 3 |
+| 09.09.2026 | 22:30 | Venezuela Kupa 1.Tur Grup B | Atletico Barin | El Vigia | 08693 | 5 |
+| 09.09.2026 | 23:00 | Venezuela Kupa 1.Tur Grup C | Yaracuyanos | Aragua | 09005 | 5 |
+| 09.09.2026 | 23:00 | Venezuela Kupa 1.Tur Grup D | Urena Fc | Rayo Zuliano | 08943 | 5 |
+| 09.09.2026 | 23:00 | Venezuela Kupa 1.Tur Grup E | Monagas | Bolívar | 08766 | 5 |
 
 ## Sonuc
 

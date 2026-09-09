@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T18:50:33.603Z",
+  "generated_at": "2026-09-09T19:28:13.814Z",
   "timezone": "Europe/Istanbul",
   "source": "Haftalık 15 maç programı + Futbol Laboratuvarı PRO 13",
   "official_game_format_verified": true,
@@ -15,7 +15,7 @@
   "match_count": 15,
   "analysis_ready_count": 15,
   "analysis_waiting_count": 0,
-  "source_match_count": 107,
+  "source_match_count": 87,
   "verification_sources": [
     {
       "name": "Spor Toto Teşkilat Başkanlığı",
@@ -1829,9 +1829,9 @@
       "drawOdd": null,
       "twoOdd": null,
       "probabilities": {
-        "1": 22.2,
-        "2": 58.4,
-        "X": 19.4
+        "1": 21.3,
+        "2": 59.7,
+        "X": 19
       },
       "market_probabilities": {
         "1": null,
@@ -1850,20 +1850,20 @@
         "2"
       ],
       "selection": "2",
-      "coupon_role": "Arşiv Destekli Tek",
-      "classification": "Arşiv Destekli Tek",
-      "confidence": 67,
-      "confidence_score": 67,
+      "coupon_role": "Banko Adayı",
+      "classification": "Banko Adayı",
+      "confidence": 68,
+      "confidence_score": 68,
       "risk": "Orta",
       "risk_level": "Orta",
-      "data_completeness": 59,
-      "probability_gap": 36.2,
+      "data_completeness": 61,
+      "probability_gap": 38.4,
       "column_multiplier": 1,
       "reasons": [
-        "PRO 13: 2 olasılığı %58.4; ikinci seçenek %22.2.",
+        "PRO 13: 2 olasılığı %59.7; ikinci seçenek %21.3.",
         "Doğrulanmış sonuç hafızası mevcut; haftalık 1-X-2 kararı gerçek geçmiş sonuçlarla sınandı.",
-        "Gerçek sonuç arşivi: ev 3, deplasman 4 maç örneği kullanıldı.",
-        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 2 seçeneği %58.4 ile önde."
+        "Gerçek sonuç arşivi: ev 3, deplasman 5 maç örneği kullanıldı.",
+        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 2 seçeneği %59.7 ile önde."
       ],
       "model_version": "pro13-btts-conditioned-v3",
       "score_type": "spor_toto_1x2",
@@ -1895,15 +1895,15 @@
           "goals_against_avg": 0.67
         },
         "away": {
-          "count": 4,
-          "scored": 4,
-          "conceded": 1,
-          "bttsRate": 25,
-          "over25Rate": 75,
-          "over35Rate": 75,
-          "goalsForAvg": 4.25,
-          "goalsAgainstAvg": 0.5,
-          "wins": 4,
+          "count": 5,
+          "scored": 5,
+          "conceded": 2,
+          "bttsRate": 40,
+          "over25Rate": 80,
+          "over35Rate": 80,
+          "goalsForAvg": 4.4,
+          "goalsAgainstAvg": 0.6,
+          "wins": 5,
           "draws": 0,
           "losses": 0,
           "winRate": 100,
@@ -1917,10 +1917,10 @@
             "W",
             "W"
           ],
-          "sample": 4,
+          "sample": 5,
           "ppg": 3,
-          "goals_for_avg": 4.25,
-          "goals_against_avg": 0.5
+          "goals_for_avg": 4.4,
+          "goals_against_avg": 0.6
         }
       },
       "h2h": [],
@@ -1938,9 +1938,9 @@
         "canonical_home": "Levante",
         "canonical_away": "Barcelona",
         "archive_probabilities": {
-          "1": 29.2,
-          "2": 46.9,
-          "X": 23.9
+          "1": 27.5,
+          "2": 49.4,
+          "X": 23.1
         },
         "public_distribution": {
           "1": 6,
@@ -1949,11 +1949,11 @@
         },
         "poisson": {
           "home_lambda": 1.29,
-          "away_lambda": 1.69,
-          "samples": 7,
-          "reliability": 0.4375
+          "away_lambda": 1.8,
+          "samples": 8,
+          "reliability": 0.5
         },
-        "agreement_score": 61.9
+        "agreement_score": 64.4
       }
     },
     {
@@ -2091,7 +2091,7 @@
   ],
   "archive_enrichment": {
     "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
-    "generated_at": "2026-09-09T18:50:33.309Z",
+    "generated_at": "2026-09-09T19:28:13.523Z",
     "archive_match_count": 12837,
     "archive_ready_count": 5,
     "distribution_ready_count": 15,
