@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-10 / 2026-09-11
 Kaynak: fixtures.json
-Ham mac: 20
-Aktif mac: 20
+Ham mac: 19
+Aktif mac: 19
 Canli mac: 0
 Biten mac: 0
 Bultenden dusurulen mac: 0
-Bugun: 2
+Bugun: 1
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-09-10 22:30 | Paraguay Intermedia Lig | Sportivo Carap - Benjamin Aceval | scheduled | -
 - 2026-09-10 23:00 | Cezayir 1.Lig | Usm Alger - Js El Biar | scheduled | -
 - 2026-09-11 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Municipal | scheduled | -
 - 2026-09-11 00:00 | Nikaragua Premier Lig Apertura | Export Sebaco - Diriangen | scheduled | -

@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.09.2026 00:58:47
+Oluşturma: 10.09.2026 01:01:51
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1110
-- Kazanan tahmin: 215
+- Bekleyen tahmin: 1111
+- Kazanan tahmin: 214
 - Kaybeden tahmin: 175
 - Lig sayısı: 260
 - Seçenek sayısı: 6
@@ -23,7 +23,7 @@ Oluşturma: 10.09.2026 00:58:47
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 3, bekleyen 2, başarı %100, düz getiri %146, ağırlık 1
-- 2.5 Üst: toplam 238, bekleyen 151, başarı %61, düz getiri %6, ağırlık 1
+- 2.5 Üst: toplam 238, bekleyen 152, başarı %61, düz getiri %4, ağırlık 1
 - MS 1: toplam 494, bekleyen 382, başarı %57, düz getiri %-6, ağırlık 1
 - MS 2: toplam 214, bekleyen 160, başarı %52, düz getiri %-10, ağırlık 1
 - 2.5 Alt: toplam 548, bekleyen 414, başarı %51, düz getiri %-17, ağırlık 1
@@ -31,6 +31,7 @@ Oluşturma: 10.09.2026 00:58:47
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-10 | Guatemala Ulusal Lig Apertura | Xelaju - Coban Imperial | 2.5 Üst | pending | 72/100
 - 2026-09-10 | Estonya Esiliiga B | Tammeka Ii - Viljandi Tulevi | MS 1 | pending | 49/100
 - 2026-09-10 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ain - Al Wasl | MS 1 | pending | 53/100
 - 2026-09-10 | UEFA Şampiyonlar Ligi Lig Aşaması | Fenerbahçe - Roma | 2.5 Üst | pending | 73/100
@@ -45,5 +46,4 @@ Oluşturma: 10.09.2026 00:58:47
 - 2026-09-10 | İsviçre 1.Lig Promotion | Bulle - Amical Saint-Pr | MS 1 | pending | 57/100
 - 2026-09-10 | Karadağ 1.Lig | Bokelj Kotor - Otrant | MS 2 | pending | 43/100
 - 2026-09-10 | Karadağ 1.Lig | Buducnost - Jezero Plav | 2.5 Alt | pending | 57/100
-- 2026-09-10 | Karadağ 1.Lig | Fk Arsenal Tiv - Mladost Dg | 2.5 Alt | pending | 56/100
 
