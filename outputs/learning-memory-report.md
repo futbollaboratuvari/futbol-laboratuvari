@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.09.2026 22:31:21
+Oluşturma: 10.09.2026 00:33:34
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1106
-- Kazanan tahmin: 218
-- Kaybeden tahmin: 176
+- Bekleyen tahmin: 1113
+- Kazanan tahmin: 215
+- Kaybeden tahmin: 172
 - Lig sayısı: 255
 - Seçenek sayısı: 6
 
@@ -23,27 +23,27 @@ Oluşturma: 09.09.2026 22:31:21
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 3, bekleyen 2, başarı %100, düz getiri %146, ağırlık 1
-- 2.5 Üst: toplam 233, bekleyen 147, başarı %63, düz getiri %9, ağırlık 1
-- MS 1: toplam 499, bekleyen 385, başarı %54, düz getiri %-11, ağırlık 1
-- 2.5 Alt: toplam 551, bekleyen 413, başarı %53, düz getiri %-13, ağırlık 1
-- MS 2: toplam 211, bekleyen 158, başarı %51, düz getiri %-10, ağırlık 1
+- 2.5 Üst: toplam 233, bekleyen 148, başarı %62, düz getiri %9, ağırlık 1
+- MS 1: toplam 491, bekleyen 381, başarı %56, düz getiri %-9, ağırlık 1
+- 2.5 Alt: toplam 558, bekleyen 421, başarı %53, düz getiri %-12, ağırlık 1
+- MS 2: toplam 212, bekleyen 160, başarı %50, düz getiri %-12, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-09 | İspanya De La Reina Kupası 1. Tur | Balears (K) - Villarreal (K) | 2.5 Alt | pending | 57/100
-- 2026-09-09 | İspanya De La Reina Kupası 1. Tur | Cd Getafe (K) - Pozuelo Alarcon | 2.5 Alt | pending | 55/100
-- 2026-09-09 | Kolombiya Kupa Son 16 Turu | Once Caldas - Alianza Petrole | 2.5 Alt | pending | 58/100
-- 2026-09-09 | Guatemala Ulusal Lig Apertura | Comunicaciones - Marquense | 2.5 Üst | pending | 62/100
-- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Torrent - Saguntino | 2.5 Üst | pending | 53/100
-- 2026-09-09 | Kolombiya Kupa Son 16 Turu | Once Caldas - Alianza Petrole | MS 1 | pending | 59/100
-- 2026-09-09 | İspanya De La Reina Kupası 1. Tur | Sport Extremad - Cacereno (K) | 2.5 Alt | pending | 50/100
-- 2026-09-09 | İngiltere Ulusal Lig Kupası Grup C | Tamworth - Middlesbrough ( | MS 1 | pending | 58/100
-- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Cacereno - Ud San Pedro | 2.5 Alt | pending | 55/100
-- 2026-09-09 | İsveç Superettan | Sandvikens - Oddevold | MS 1 | pending | 51/100
-- 2026-09-09 | Gürcistan Erovnuli Liga | Dinamo Batumi - Fc Iberia | 2.5 Üst | pending | 53/100
-- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Compostela - Derio | 2.5 Üst | pending | 54/100
-- 2026-09-09 | İspanya De La Reina Kupası 1. Tur | Burgos (K) - Bizkerre (K) | 2.5 Alt | pending | 53/100
-- 2026-09-09 | Kadınlar U20 Dünya Kupası Grup C | Fransa U20 (K) - Ekvador U20 (K) | MS 1 | pending | 54/100
-- 2026-09-09 | İspanya De La Reina Kupası 1. Tur | Sporting De Hu - Malaga (K) | 2.5 Alt | won | 60/100
+- 2026-09-10 | Paraguay Intermedia Lig | 12 De Junio Vh - Atlético Tembet | MS 1 | pending | 54/100
+- 2026-09-10 | Arjantin Primera C | Club Mercedes - Dyc Espanol | 2.5 Alt | pending | 56/100
+- 2026-09-10 | Brezilya Serie B | Sao Bernardo - Londrina | 2.5 Alt | pending | 64/100
+- 2026-09-10 | Brezilya Serie B | Vila Nova - Goias | 2.5 Alt | pending | 71/100
+- 2026-09-10 | Venezuela Kupa 1.Tur Grup D | Deportivo Lara - Trujillanos | 2.5 Alt | pending | 57/100
+- 2026-09-10 | Guatemala Ulusal Lig Apertura | Malacateco - Antigua Guatema | 2.5 Alt | pending | 56/100
+- 2026-09-10 | Nikaragua Premier Lig Apertura | Managua - Real Esteli | MS 1 | pending | 46/100
+- 2026-09-10 | Copa Libertadores Çeyrek Final | Indep. Jose Te - Flamengo | 2.5 Alt | pending | 49/100
+- 2026-09-10 | Copa Sudamericana Çeyrek Final | Cienciano - Torque | 2.5 Üst | pending | 62/100
+- 2026-09-10 | Kolombiya Primera A Clausura | Los Millionari - Deportivo Cali | 2.5 Alt | pending | 55/100
+- 2026-09-10 | Meksika Ascenso MX Apertura | Alebrijes - Durango | 2.5 Alt | pending | 62/100
+- 2026-09-10 | Guatemala Ulusal Lig Apertura | Xelaju - Coban Imperial | MS 1 | pending | 72/100
+- 2026-09-10 | Meksika Liga MX Apertura | Pumas Unam - Club Leon | 2.5 Alt | pending | 61/100
+- 2026-09-10 | Paraguay Intermedia Lig | Sportivo Carap - Benjamin Aceval | MS 2 | pending | 50/100
+- 2026-09-10 | Cezayir 1.Lig | Usm Alger - Js El Biar | 2.5 Alt | pending | 54/100
 

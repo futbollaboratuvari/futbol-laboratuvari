@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 46
+- Scheduled match count: 126
 - Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-09-09 / 2026-09-10 23:59
+- Date window: 2026-09-10 / 2026-09-11 23:59
 
-- 2026-09-09 22:45 | Moreirense - Benfica | scheduled
-- 2026-09-09 23:00 | Academia Anzoa - Deportivo Petar | scheduled
-- 2026-09-09 23:00 | Yaracuyanos - Aragua | scheduled
-- 2026-09-09 23:00 | Urena Fc - Rayo Zuliano | scheduled
-- 2026-09-09 23:00 | Monagas - Bolívar | scheduled
-- 2026-09-09 23:30 | Independiente - Quindio | scheduled
-- 2026-09-10 00:00 | Platense - Isidro Metapan | scheduled
-- 2026-09-10 00:00 | Deportivo San - Mixco | scheduled
-- 2026-09-10 00:30 | Fundacion Lara - Caracas Fc | scheduled
 - 2026-09-10 01:00 | Riestra - Banfield | scheduled
+- 2026-09-10 01:00 | Palmeiras - Ldu Quito | scheduled
+- 2026-09-10 01:00 | Santos - Atletico Mg | scheduled
+- 2026-09-10 01:30 | Botafogo Ribei - Novorizontino | scheduled
+- 2026-09-10 01:30 | Fortaleza Ce - Avai | scheduled
+- 2026-09-10 02:00 | America De Cal - Pereira | scheduled
+- 2026-09-10 02:00 | Real Cundinama - Inter Bogota | scheduled
+- 2026-09-10 02:00 | Deportivo Mald - Montevideo Wand | scheduled
+- 2026-09-10 02:30 | Atlanta Utd - Orlando City | scheduled
+- 2026-09-10 02:30 | Dc United - Columbus | scheduled
