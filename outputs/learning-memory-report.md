@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.09.2026 12:55:14
+Oluşturma: 09.09.2026 14:47:14
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1107
+- Bekleyen tahmin: 1110
 - Kazanan tahmin: 216
-- Kaybeden tahmin: 177
-- Lig sayısı: 248
+- Kaybeden tahmin: 174
+- Lig sayısı: 255
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -23,27 +23,27 @@ Oluşturma: 09.09.2026 12:55:14
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 3, bekleyen 2, başarı %100, düz getiri %146, ağırlık 1
-- 2.5 Üst: toplam 229, bekleyen 143, başarı %63, düz getiri %9, ağırlık 1
-- MS 1: toplam 501, bekleyen 387, başarı %54, düz getiri %-13, ağırlık 1
-- 2.5 Alt: toplam 549, bekleyen 413, başarı %53, düz getiri %-13, ağırlık 1
-- MS 2: toplam 215, bekleyen 161, başarı %50, düz getiri %-12, ağırlık 1
+- 2.5 Üst: toplam 231, bekleyen 145, başarı %63, düz getiri %9, ağırlık 1
+- MS 1: toplam 500, bekleyen 387, başarı %54, düz getiri %-12, ağırlık 1
+- 2.5 Alt: toplam 550, bekleyen 414, başarı %53, düz getiri %-13, ağırlık 1
+- MS 2: toplam 213, bekleyen 161, başarı %52, düz getiri %-8, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-09 | ABD MLS Next Pro | North Texas - Houston Dynamo | MS 1 | pending | 45/100
-- 2026-09-09 | ABD USL Kupası Yarı Final | Hartford Athle - Colorado Spring | MS 1 | won | 40/100
-- 2026-09-09 | Brezilya Serie B | Cuiaba - Athletic Club | 2.5 Üst | won | 65/100
-- 2026-09-09 | ABD MLS | Montreal - Charlotte | MS 1 | pending | 49/100
-- 2026-09-09 | Kolombiya Primera B Clausura | Independiente - Quindio | 2.5 Alt | pending | 66/100
-- 2026-09-09 | Danimarka DBU Kupası 3.Tur | Nykobing - Middelfart | MS 1 | pending | 51/100
-- 2026-09-09 | Andorra Süper Kupa | Inter Escaldes - Descaldes | MS 1 | pending | 51/100
-- 2026-09-09 | Uruguay Kupa Ön Eleme Turu Grup 4 | Racing Montevi - Central Espanol | 2.5 Alt | pending | 62/100
-- 2026-09-09 | İngiltere Championship | Norwich - Birmingham | 2.5 Üst | pending | 80/100
-- 2026-09-09 | Danimarka DBU Kupası 3.Tur | Vanlose - Hillerod | MS 2 | pending | 56/100
-- 2026-09-09 | Mısır Premier Lig | Al Mokawloon A - Al Ahly | 2.5 Alt | pending | 53/100
-- 2026-09-09 | İspanya De La Reina Kupası 1. Tur | Celta De Vigo - Real Avilés (K) | MS 1 | pending | 57/100
-- 2026-09-09 | Finlandiya Veikkausliiga Şampiyonluk Grubu | Helsinki - Inter Turku | 2.5 Üst | pending | 54/100
-- 2026-09-09 | Gürcistan Erovnuli Liga | Samgurali - Dila Gori | 2.5 Alt | pending | 54/100
-- 2026-09-09 | Uganda Premier Lig | Sc Villa - Express | 2.5 Alt | pending | 57/100
+- 2026-09-09 | ABD MLS | Chicago - Inter Miami | MS 2 | pending | 56/100
+- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Cacereno - Ud San Pedro | MS 1 | pending | 59/100
+- 2026-09-09 | Venezuela Kupa 1.Tur Grup B | Atletico Barin - El Vigia | MS 1 | pending | 52/100
+- 2026-09-09 | Venezuela Kupa 1.Tur Grup A | Academia Anzoa - Deportivo Petar | MS 1 | pending | 51/100
+- 2026-09-09 | Venezuela Kupa 1.Tur Grup D | Urena Fc - Rayo Zuliano | 2.5 Alt | pending | 55/100
+- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Comillas - Lhospitalet | 2.5 Alt | pending | 55/100
+- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Badalona - Sestao | 2.5 Alt | pending | 53/100
+- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Torrent - Saguntino | 2.5 Alt | pending | 50/100
+- 2026-09-09 | İngiltere Premier Lig Kupası Grup A | Blackburn Rove - Queens Park Ran | MS 1 | pending | 49/100
+- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | San Juan - Terrassa | 2.5 Alt | pending | 56/100
+- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Motril - Huelva | 2.5 Üst | pending | 53/100
+- 2026-09-09 | İngiltere FA Cup Eleme 1.Tur Tekrar | Exmouth - Banbury United | 2.5 Üst | pending | 56/100
+- 2026-09-09 | İngiltere FA Cup Eleme 1.Tur Tekrar | Bishop Aucklan - Afc Emley | MS 2 | pending | 48/100
+- 2026-09-09 | İspanya Federasyon Kupası Son 32 Turu | Talavera Cf - Navalcarnero | 2.5 Üst | pending | 53/100
+- 2026-09-09 | Gürcistan Erovnuli Liga | Dinamo Batumi - Fc Iberia | MS 1 | pending | 50/100
 

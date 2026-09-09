@@ -2,29 +2,20 @@
 
 Gunler: 2026-09-09 / 2026-09-10
 Kaynak: fixtures.json
-Ham mac: 157
-Aktif mac: 154
+Ham mac: 184
+Aktif mac: 157
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 114
+Bultenden dusurulen mac: 27
+Bugun: 117
 Yarin: 40
 
 ## Baslamamis Maclar
-- 2026-09-09 13:00 | Japonya Lig Kupası 1.Tur | Tochigi Sc - Yamagata | scheduled | -
-- 2026-09-09 13:00 | Japonya Lig Kupası 1.Tur | Fukushima Unit - Sendai | scheduled | -
-- 2026-09-09 13:00 | Japonya Lig Kupası 1.Tur | Parceiro Nagan - Mito Hollyhock | scheduled | -
-- 2026-09-09 13:00 | Japonya Lig Kupası 1.Tur | Kochi United - V-Varen Nagasak | scheduled | -
-- 2026-09-09 13:00 | Japonya Lig Kupası 1.Tur | Matsumoto Yama - Shonan | scheduled | -
-- 2026-09-09 13:00 | Japonya Lig Kupası 1.Tur | Kamatamare San - Jef Utd Chiba | scheduled | -
-- 2026-09-09 13:00 | Japonya J3 Lig | Ryukyu - Gira Kitakyushu | scheduled | -
-- 2026-09-09 13:30 | Güney Kore K Lig 1 | Pohang Steeler - Gimcheon Sangmu | scheduled | -
-- 2026-09-09 13:30 | Güney Kore K Lig 1 | Daejeon Citize - Anyang | scheduled | -
-- 2026-09-09 13:30 | Güney Kore K Lig 1 | Gwangju - Jeju Utd | scheduled | -
-- 2026-09-09 13:30 | Güney Kore K Lig 1 | Gangwon - Jeonbuk Hm | scheduled | -
 - 2026-09-09 15:00 | Portekiz U23 Ulusal Şampiyona | Santa Clara U2 - Farense U23 | scheduled | -
+- 2026-09-09 15:00 | UEFA Gençlik Ligi Lig Aşaması | Napoli U19 - Arsenal Fc U19 | scheduled | -
 - 2026-09-09 15:15 | Malezya FA Kupası Son 16 Turu | Dpmm Fc - Terengganu | scheduled | -
 - 2026-09-09 15:15 | Malezya FA Kupası Son 16 Turu | Kuala Lumpur (1) - (0) Perak Fa | scheduled | -
+- 2026-09-09 15:30 | Azerbaycan 1.Lig | Shahdagh - Karvan | scheduled | -
 - 2026-09-09 16:00 | Kadınlar U20 Dünya Kupası Grup D | Italy U20 (K) - Yeni Zelanda U2 | scheduled | -
 - 2026-09-09 16:00 | Paraguay Intermedia Lig | Fernando De La - Depor Capiata | scheduled | -
 - 2026-09-09 16:00 | Paraguay Intermedia Lig | Encarnacion - Tacuary | scheduled | -
@@ -32,6 +23,7 @@ Yarin: 40
 - 2026-09-09 16:00 | Uganda Premier Lig | Sc Villa - Express | scheduled | -
 - 2026-09-09 16:00 | Tanzanya Kuu Bara Ligi | Mashujaa - Singida Black S | scheduled | -
 - 2026-09-09 16:00 | Uganda Premier Lig | Entebbe Uppc - Lugazi Municipa | scheduled | -
+- 2026-09-09 16:00 | Kadınlar U20 Dünya Kupası Grup C | Gana U20 (K) - Güney Kore U20 | scheduled | -
 - 2026-09-09 16:30 | Özbekistan Super League | Otmk Olmaliq - Pakhtakor | scheduled | -
 - 2026-09-09 17:00 | Yunanistan Kupa Lig Aşaması | Ofi - Nestos Chrisoup | scheduled | -
 - 2026-09-09 17:00 | Mısır Premier Lig | Pyramids Fc - El Gounah | scheduled | -
@@ -63,10 +55,13 @@ Yarin: 40
 - 2026-09-09 19:00 | Bosna-Hersek Premier Lig | Zeljeznicar - Sarajevo | scheduled | -
 - 2026-09-09 19:00 | İspanya De La Reina Kupası 1. Tur | Elche (K) - Levante (K) | scheduled | -
 - 2026-09-09 19:00 | Portekiz U23 Ulusal Şampiyona | Benfica U23 - Vizela U23 | scheduled | -
+- 2026-09-09 19:00 | İtalya Serie C Kupası 2.Tur | Grosseto - Latina | scheduled | -
+- 2026-09-09 19:00 | İtalya Süper Kupa Primavera | Fiorentina U20 - Atalanta U20 | scheduled | -
 - 2026-09-09 19:10 | Suudi Arabistan 1.Lig | Al-Jandal - Al Bukayriyah | scheduled | -
 - 2026-09-09 19:30 | İspanya De La Reina Kupası 1. Tur | Balears (K) - Villarreal (K) | scheduled | -
 - 2026-09-09 19:30 | İspanya De La Reina Kupası 1. Tur | Sporting De Hu - Malaga (K) | scheduled | -
 - 2026-09-09 19:30 | Danimarka DBU Kupası 3.Tur | Vanlose - Hillerod | scheduled | -
+- 2026-09-09 19:30 | Danimarka DBU Kupası 3.Tur | Frem - Roskilde | scheduled | -
 - 2026-09-09 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Barcelona - Feyenoord | scheduled | -
 - 2026-09-09 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Stuttgart - Viking | scheduled | -
 - 2026-09-09 19:45 | Hollanda Eredivisie | Twente - Telstar | scheduled | -
@@ -90,6 +85,7 @@ Yarin: 40
 - 2026-09-09 20:30 | Güney Afrika PSL | Mamelodi Sundo - Siwelele | scheduled | -
 - 2026-09-09 20:30 | Suudi Arabistan 1.Lig | Jeddah Club - Al Orubah Club | scheduled | -
 - 2026-09-09 20:30 | Andorra Süper Kupa | Inter Escaldes - Descaldes | scheduled | -
+- 2026-09-09 20:30 | İspanya Federasyon Kupası Son 32 Turu | Salamanca - Caudal Deportiv | scheduled | -
 - 2026-09-09 21:00 | Suudi Arabistan Pro Lig | Al Fateh - Diriyah | scheduled | -
 - 2026-09-09 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya - Abha | scheduled | -
 - 2026-09-09 21:00 | Uruguay Kupa Ön Eleme Turu Grup 4 | Racing Montevi - Central Espanol | scheduled | -
@@ -100,6 +96,7 @@ Yarin: 40
 - 2026-09-09 21:00 | İspanya Federasyon Kupası Son 32 Turu | Badalona - Sestao | scheduled | -
 - 2026-09-09 21:00 | İspanya Federasyon Kupası Son 32 Turu | Torrent - Saguntino | scheduled | -
 - 2026-09-09 21:00 | Karadağ 1.Lig | Decic Tuzi - Petrovac | scheduled | -
+- 2026-09-09 21:00 | İngiltere Premier Lig Kupası Grup A | Blackburn Rove - Queens Park Ran | scheduled | -
 - 2026-09-09 21:15 | İspanya Federasyon Kupası Son 32 Turu | San Juan - Terrassa | scheduled | -
 - 2026-09-09 21:30 | Arjantin Ulusal Primera Lig | D Belgrano - Los Andes | scheduled | -
 - 2026-09-09 21:30 | İspanya Federasyon Kupası Son 32 Turu | Motril - Huelva | scheduled | -
@@ -109,6 +106,7 @@ Yarin: 40
 - 2026-09-09 21:45 | İskoçya Premiership | Glasgow Ranger - St Mirren | scheduled | -
 - 2026-09-09 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Exmouth - Banbury United | scheduled | -
 - 2026-09-09 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Afc Whyteleafe - Crowborough Ath | scheduled | -
+- 2026-09-09 21:45 | İngiltere FA Cup Eleme 1.Tur Tekrar | Bishop Aucklan - Afc Emley | scheduled | -
 - 2026-09-09 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Napoli - Arsenal | scheduled | -
 - 2026-09-09 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Sporting Cp - Galatasaray | scheduled | -
 - 2026-09-09 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Liverpool - Atletico Madrid | scheduled | -
@@ -119,11 +117,16 @@ Yarin: 40
 - 2026-09-09 22:00 | Irak Premier Lig | Al Karma - Naft | scheduled | -
 - 2026-09-09 22:00 | İspanya Federasyon Kupası Son 32 Turu | Talavera Cf - Navalcarnero | scheduled | -
 - 2026-09-09 22:00 | İspanya De La Reina Kupası 1. Tur | Samper (K) - Olympia Las Roz | scheduled | -
+- 2026-09-09 22:00 | İspanya Federasyon Kupası Son 32 Turu | Cacereno - Ud San Pedro | scheduled | -
 - 2026-09-09 22:15 | İzlanda 1.Lig Yükselme Play Off Yarı Final | Hk Kopavogur - Fylkir | scheduled | -
 - 2026-09-09 22:30 | Paraguay Intermedia Lig | Depor Santani - Indep Cambo Gra | scheduled | -
+- 2026-09-09 22:30 | Venezuela Kupa 1.Tur Grup B | Real Frontera - Zamora | scheduled | -
+- 2026-09-09 22:30 | Venezuela Kupa 1.Tur Grup B | Atletico Barin - El Vigia | scheduled | -
 - 2026-09-09 22:45 | Portekiz Premier Lig | Moreirense - Benfica | scheduled | -
 - 2026-09-09 23:00 | Venezuela Kupa 1.Tur Grup C | Yaracuyanos - Aragua | scheduled | -
 - 2026-09-09 23:00 | Venezuela Kupa 1.Tur Grup E | Monagas - Bolívar | scheduled | -
+- 2026-09-09 23:00 | Venezuela Kupa 1.Tur Grup A | Academia Anzoa - Deportivo Petar | scheduled | -
+- 2026-09-09 23:00 | Venezuela Kupa 1.Tur Grup D | Urena Fc - Rayo Zuliano | scheduled | -
 - 2026-09-09 23:30 | Kolombiya Primera B Clausura | Independiente - Quindio | scheduled | -
 - 2026-09-10 00:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Mixco | scheduled | -
 - 2026-09-10 00:00 | El Salvador Primera Lig Apertura | Platense - Isidro Metapan | scheduled | -
