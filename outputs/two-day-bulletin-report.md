@@ -2,11 +2,11 @@
 
 Gunler: 2026-09-10 / 2026-09-11
 Kaynak: fixtures.json
-Ham mac: 90
+Ham mac: 129
 Aktif mac: 89
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 1
+Bultenden dusurulen mac: 40
 Bugun: 71
 Yarin: 18
 

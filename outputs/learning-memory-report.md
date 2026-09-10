@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.09.2026 07:57:10
+Oluşturma: 10.09.2026 09:25:36
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1113
-- Kazanan tahmin: 212
-- Kaybeden tahmin: 175
+- Bekleyen tahmin: 1092
+- Kazanan tahmin: 217
+- Kaybeden tahmin: 191
 - Lig sayısı: 259
 - Seçenek sayısı: 6
 
@@ -22,28 +22,28 @@ Oluşturma: 10.09.2026 07:57:10
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 237, bekleyen 151, başarı %59, düz getiri %3, ağırlık 1
-- MS 1: toplam 487, bekleyen 377, başarı %57, düz getiri %-6, ağırlık 1
-- MS 2: toplam 216, bekleyen 162, başarı %52, düz getiri %-10, ağırlık 1
-- 2.5 Alt: toplam 555, bekleyen 420, başarı %51, düz getiri %-16, ağırlık 1
+- 2.5 Üst: toplam 238, bekleyen 147, başarı %57, düz getiri %-1, ağırlık 1
+- MS 1: toplam 488, bekleyen 369, başarı %55, düz getiri %-10, ağırlık 1
+- 2.5 Alt: toplam 553, bekleyen 413, başarı %51, düz getiri %-17, ağırlık 1
+- MS 2: toplam 216, bekleyen 160, başarı %50, düz getiri %-13, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
 - MS X: toplam 2, bekleyen 2, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-10 | Uruguay Kupa Ön Eleme Turu Grup 3 | Cerro - Cerrito | MS 1 | pending | 48/100
+- 2026-09-10 | Brezilya Serie B | Vila Nova - Goias | MS 1 | pending | 57/100
+- 2026-09-10 | Yunanistan Kupa Lig Aşaması | Asteras Tripol - Aris | 2.5 Üst | pending | 61/100
+- 2026-09-10 | Bahreyn Premier Lig | Al Rifaa - Khalidiya | 2.5 Alt | pending | 50/100
 - 2026-09-10 | İsveç Superettan | Ostersund - Brage | 2.5 Üst | pending | 54/100
 - 2026-09-10 | UEFA Şampiyonlar Ligi Lig Aşaması | Slavia Prag - Lens | 2.5 Alt | pending | 49/100
-- 2026-09-10 | Irak Premier Lig | Al Jawiya - Al Zawraa | 2.5 Alt | pending | 56/100
+- 2026-09-10 | Irak Premier Lig | Al Jawiya - Al Zawraa | 2.5 Alt | pending | 54/100
 - 2026-09-10 | Cezayir 1.Lig | Usm Alger - Js El Biar | MS 1 | pending | 58/100
 - 2026-09-10 | UEFA Şampiyonlar Ligi Lig Aşaması | Fenerbahçe - Roma | MS 2 | pending | 61/100
 - 2026-09-10 | İsveç Superettan | Sundsvall - Orebro | 2.5 Alt | pending | 50/100
 - 2026-09-10 | İsveç Superettan | Varbergs - Norrkoping | MS 2 | pending | 48/100
-- 2026-09-10 | Vietnam V-Lig 1 | Viettel - Cand | 2.5 Alt | pending | 52/100
+- 2026-09-10 | Vietnam V-Lig 1 | Viettel - Cand | 2.5 Alt | pending | 53/100
 - 2026-09-10 | Mısır 2. Lig | Pharco - Baladiyyat | 2.5 Üst | pending | 49/100
 - 2026-09-10 | Guatemala Ulusal Lig Apertura | Deportivo San - Mixco | 2.5 Alt | won | 63/100
 - 2026-09-10 | Uganda Premier Lig | Police - Updf | 2.5 Alt | pending | 45/100
-- 2026-09-10 | Estonya Esiliiga A | Nomme United I - Tallinna Kalev | 2.5 Alt | pending | 48/100
-- 2026-09-10 | İran Persian Gulf Pro Lig | Shams Azar Qaz - Gol Gohar Sirja | 2.5 Alt | pending | 51/100
-- 2026-09-10 | Mısır 2. Lig | Mega Sport - Haras El Hodood | 2.5 Alt | pending | 49/100
-- 2026-09-10 | ABD MLS Next Pro | Huntsville Cit - Chattanooga | 2.5 Alt | pending | 49/100
 
