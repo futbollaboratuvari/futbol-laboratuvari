@@ -5,6 +5,17 @@ const head = String(process.env.VERCEL_GIT_COMMIT_SHA || "HEAD").trim();
 const owner = String(process.env.VERCEL_GIT_REPO_OWNER || "futbollaboratuvari").trim();
 const repo = String(process.env.VERCEL_GIT_REPO_SLUG || "futbol-laboratuvari").trim();
 
+const GENERATED_PREFIXES = [
+  "data/",
+  "outputs/",
+  "bu-klas-r-i-in-basit/data/",
+  "bu-klas-r-i-in-basit/outputs/",
+];
+
+function isGeneratedPath(file) {
+  return GENERATED_PREFIXES.some((prefix) => file.startsWith(prefix));
+}
+
 function continueBuild(reason) {
   console.log(`[vercel-ignore] build devam: ${reason}`);
   process.exit(1);
@@ -12,11 +23,9 @@ function continueBuild(reason) {
 
 function ignoreBuild(changedFiles, source) {
   if (!changedFiles.length) continueBuild(`${source}: degisen dosya bulunamadi`);
-  const githubDataOnly = changedFiles.every((file) =>
-    file.startsWith("data/") || file.startsWith("outputs/")
-  );
+  const githubDataOnly = changedFiles.every(isGeneratedPath);
   if (!githubDataOnly) {
-    const codeFiles = changedFiles.filter((file) => !file.startsWith("data/") && !file.startsWith("outputs/"));
+    const codeFiles = changedFiles.filter((file) => !isGeneratedPath(file));
     continueBuild(`${source}: kod/yapi degisikligi var: ${codeFiles.slice(0, 12).join(", ")}`);
   }
   console.log(`[vercel-ignore] Vercel build atlandi; ${changedFiles.length} GitHub veri/rapor dosyasi degisti (${source}).`);
