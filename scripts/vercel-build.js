@@ -3,6 +3,7 @@ const path = require("path");
 
 const root = process.cwd();
 const outDir = path.join(root, "public");
+const isVercelBuild = /^(1|true)$/i.test(String(process.env.VERCEL || ""));
 let copiedFiles = 0;
 let copiedBytes = 0;
 
@@ -17,10 +18,8 @@ const excludedRoots = new Set([
   "backend",
   "bu-klas-r-i-in-basit",
   "content",
-  "data",
   "futbol_laboratuvari",
   "node_modules",
-  "outputs",
   "public",
   "scripts",
   "server-lib",
@@ -30,6 +29,11 @@ const excludedRoots = new Set([
   "package-lock.json",
   "vercel.json"
 ]);
+
+if (isVercelBuild) {
+  excludedRoots.add("data");
+  excludedRoots.add("outputs");
+}
 
 const excludedRelativePaths = new Set([
   ".vercelignore",
