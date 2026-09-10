@@ -1,9 +1,13 @@
+"use strict";
+
 const fs = require('fs');
 const path = require('path');
+const { fetchIddaaBulletin, SOURCE_NAME } = require('./iddaa-data-source');
 
 const ROOT = path.resolve(__dirname, '..');
 const INPUT = path.join(ROOT, 'data', 'robot-analysis.json');
 const OUTPUT = path.join(ROOT, 'data', 'high-odds-htft.json');
+const MIN_REAL_ODDS = 11.75;
 
 function number(value) {
   if (value === null || value === undefined || value === '' || value === '-') return null;
@@ -28,6 +32,51 @@ function normalizeThree(a, x, b) {
   const safeX = px || 0.28;
   const total = pa + safeX + pb;
   return { one: pa / total, draw: safeX / total, two: pb / total };
+}
+
+function fold(value) {
+  return String(value || '')
+    .toLocaleLowerCase('tr-TR')
+    .replace(/ı/g, 'i')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+
+function selectionKey(value) {
+  return String(value || '')
+    .trim()
+    .replace(/\s+/g, '')
+    .replace(/[xX]/g, '0')
+    .replace(/[-\\]/g, '/');
+}
+
+function officialHtFtOdds(event) {
+  const groups = Array.isArray(event?.market_groups) ? event.market_groups : [];
+  const market = groups.find((group) => {
+    const token = fold(`${group?.title || ''} ${group?.description || ''}`);
+    return token.includes('ilk yari') && token.includes('mac sonucu');
+  });
+  if (!market || !Array.isArray(market.outcomes)) return {};
+
+  const result = {};
+  for (const outcome of market.outcomes) {
+    const key = selectionKey(outcome?.label);
+    if (!['1/2', '2/1'].includes(key)) continue;
+    const odd = number(outcome?.odd);
+    if (odd && odd > 1) result[key] = odd;
+  }
+  return result;
+}
+
+function officialEventMap(bulletin) {
+  const map = new Map();
+  for (const event of Array.isArray(bulletin?.matches) ? bulletin.matches : []) {
+    const id = String(event?.iddaa_event_id || event?.match_code || event?.matchCode || event?.id || '').trim();
+    if (id) map.set(id, event);
+  }
+  return map;
 }
 
 function firstHalfMarket(item) {
@@ -102,11 +151,20 @@ function reasonFor(item, market, ft, fh, openness, dataCompleteness, modelScore)
   return `${direction} aynı maçta birlikte güçleniyor. ${openText} ${dataText}`;
 }
 
-function analyzeMatch(item, targetDate) {
+function analyzeMatch(item, targetDate, officialById) {
   const date = String(item.date || '').slice(0, 10);
   if (targetDate && date && date !== targetDate) return null;
   const status = String(item.status || 'scheduled').toLowerCase();
   if (status && !['scheduled', 'not_started', 'upcoming', 'fixture'].includes(status)) return null;
+
+  const eventId = String(item.iddaa_event_id || item.match_code || item.matchCode || item.event_id || '').trim();
+  if (!eventId) return null;
+  const officialEvent = officialById.get(eventId);
+  if (!officialEvent || String(officialEvent.status || 'scheduled').toLowerCase() === 'live') return null;
+  if (date && officialEvent.date && String(officialEvent.date).slice(0, 10) !== date) return null;
+
+  const realOdds = officialHtFtOdds(officialEvent);
+  if (!Object.keys(realOdds).length) return null;
 
   const ftOdds = fullTimeMarket(item);
   if (!ftOdds.one || !ftOdds.two) return null;
@@ -115,7 +173,7 @@ function analyzeMatch(item, targetDate) {
 
   const fhOdds = firstHalfMarket(item);
   let fh = fhOdds ? normalizeThree(fhOdds.one, fhOdds.draw, fhOdds.two) : null;
-  let halfSource = fhOdds?.source || 'derived_from_full_time_direction';
+  const halfSource = fhOdds?.source || 'derived_from_full_time_direction';
   if (!fh) {
     const drawBoost = 0.41;
     const remaining = 1 - drawBoost;
@@ -139,33 +197,39 @@ function analyzeMatch(item, targetDate) {
     { market: '2/1', joint: fh.two * ft.one }
   ].map((scenario) => {
     const probability = clamp(scenario.joint * reversalFactor * seniorFactor, 0.018, 0.085);
-    const estimatedOdds = clamp(1 / probability, 11.75, 45);
     const balance = 1 - Math.abs(ft.one - ft.two);
     const signal = clamp(
       44 + balance * 13 + openness * 14 + quality * 13 + (scenario.joint * 35),
       48,
       82
     );
-    return { ...scenario, probability, estimatedOdds, signal };
-  });
+    return { ...scenario, probability, signal, bookmakerOdds: number(realOdds[scenario.market]) };
+  }).filter((scenario) => scenario.bookmakerOdds && scenario.bookmakerOdds >= MIN_REAL_ODDS);
 
+  if (!scenarios.length) return null;
   const best = scenarios.sort((a, b) => b.signal - a.signal || b.probability - a.probability)[0];
   const home = item.home || item.home_team || String(item.match_name || '').split(/\s+VS\s+|\s+-\s+/i)[0] || 'Ev Sahibi';
   const away = item.away || item.away_team || String(item.match_name || '').split(/\s+VS\s+|\s+-\s+/i)[1] || 'Deplasman';
   const matchName = item.match_name || `${home} - ${away}`;
+  const bookmakerOdds = Number(best.bookmakerOdds.toFixed(2));
 
   return {
-    match_code: item.match_code || item.matchCode || null,
+    match_code: item.match_code || item.matchCode || eventId,
+    iddaa_event_id: eventId,
     date: date || targetDate,
-    time: item.start_time || item.time || '-',
-    league: item.league || '-',
+    time: item.start_time || item.time || officialEvent.time || '-',
+    league: item.league || officialEvent.league || '-',
     home,
     away,
     match_name: matchName,
     market: best.market,
     model_confidence: Math.round(best.signal),
     scenario_probability: Number((best.probability * 100).toFixed(1)),
-    model_odds: Number(best.estimatedOdds.toFixed(2)),
+    bookmaker_odds: bookmakerOdds,
+    real_odds: bookmakerOdds,
+    model_odds: bookmakerOdds,
+    odds_source: officialEvent.oddsSource || officialEvent.source || SOURCE_NAME,
+    odds_verified: true,
     risk_level: 'Yüksek',
     data_completeness: Math.round(dataCompleteness),
     source_model_score: Math.round(modelScore),
@@ -174,13 +238,12 @@ function analyzeMatch(item, targetDate) {
   };
 }
 
-function main() {
-  if (!fs.existsSync(INPUT)) throw new Error(`Input bulunamadı: ${INPUT}`);
-  const source = JSON.parse(fs.readFileSync(INPUT, 'utf8'));
+async function buildOutput(source, officialBulletin) {
   const targetDate = String(source.date || source.generated_at || new Date().toISOString()).slice(0, 10);
   const matches = collectMatches(source);
+  const officialById = officialEventMap(officialBulletin);
   const analyzed = matches
-    .map((item) => analyzeMatch(item, targetDate))
+    .map((item) => analyzeMatch(item, targetDate, officialById))
     .filter(Boolean)
     .sort((a, b) => b.model_confidence - a.model_confidence || b.scenario_probability - a.scenario_probability);
 
@@ -194,27 +257,49 @@ function main() {
     if (selected.length === 3) break;
   }
 
-  const output = {
+  return {
     generated_at: new Date().toISOString(),
     date: targetDate,
-    engine: 'Futbol Laboratuvarı Yüksek Oran İY/MS v1',
-    source: 'data/robot-analysis.json',
+    engine: 'Futbol Laboratuvarı Yüksek Oran İY/MS v2',
+    source: 'data/robot-analysis.json + iddaa.com resmi futbol bülteni',
+    odds_source: officialBulletin?.source || SOURCE_NAME,
     market_scope: ['1/2', '2/1'],
     scan_count: matches.filter((item) => !targetDate || !item.date || String(item.date).slice(0, 10) === targetDate).length,
+    official_match_count: officialById.size,
     candidate_count: analyzed.length,
     selected_count: selected.length,
     target_card_count: 3,
-    status: selected.length >= 2 ? 'ready' : 'insufficient_data',
-    odds_label: 'Model oranı (bookmaker oranı değildir)',
+    status: selected.length >= 2 ? 'ready' : 'insufficient_verified_odds',
+    odds_label: 'Resmî İddaa İY/MS oranı',
     confidence_label: 'Model güveni bir sonuç olasılığı değil, senaryo sinyal gücüdür.',
     message: selected.length >= 2
-      ? 'Günün 1/2 ve 2/1 ters sonuç adayları güncel analiz havuzundan seçildi.'
-      : 'Bugün en az iki güvenilir ters sonuç adayı üretmek için yeterli güncel veri yok.',
+      ? 'Günün 1/2 ve 2/1 ters sonuç adayları yalnız doğrulanmış resmî İddaa İY/MS oranlarıyla seçildi.'
+      : 'Bugün en az iki adet doğrulanmış yüksek oranlı 1/2 veya 2/1 adayı bulunamadı; model oranı gösterilmedi.',
     picks: selected
   };
-
-  fs.writeFileSync(OUTPUT, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
-  console.log(`High-odds HT/FT: ${output.scan_count} maç tarandı, ${selected.length} kart üretildi (${targetDate}).`);
 }
 
-main();
+async function main() {
+  if (!fs.existsSync(INPUT)) throw new Error(`Input bulunamadı: ${INPUT}`);
+  const source = JSON.parse(fs.readFileSync(INPUT, 'utf8'));
+  const officialBulletin = await fetchIddaaBulletin({ includeMarkets: true, force: true });
+  const output = await buildOutput(source, officialBulletin);
+  fs.writeFileSync(OUTPUT, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
+  console.log(`High-odds HT/FT: ${output.scan_count} maç tarandı, ${output.selected_count} doğrulanmış kart üretildi (${output.date}).`);
+}
+
+module.exports = {
+  MIN_REAL_ODDS,
+  analyzeMatch,
+  buildOutput,
+  officialEventMap,
+  officialHtFtOdds,
+  selectionKey
+};
+
+if (require.main === module) {
+  main().catch((error) => {
+    console.error(`High-odds HT/FT üretimi başarısız: ${error.message}`);
+    process.exitCode = 1;
+  });
+}
