@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T09:43:09.403Z",
+  "generated_at": "2026-09-10T09:52:59.489Z",
   "date": "2026-09-10",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -23422,6 +23422,33 @@
   ],
   "completed_items": [
     {
+      "id": "2026-09-10|concacaf orta amerika kupasi ceyrek final|depor motagua alianza|ms 1|06 06",
+      "date": "2026-09-10",
+      "time": "06:06",
+      "title": "Depor Motagua - Alianza",
+      "match": "Depor Motagua - Alianza",
+      "market": "MS 1",
+      "prediction": "MS 1",
+      "odds": "1.33",
+      "score": "3-0",
+      "result_score": "3-0",
+      "confidence": "53%",
+      "confidence_score": "53%",
+      "model_score": 53,
+      "estimated_probability": 57.6,
+      "market_probability": 62,
+      "edge_percent": -4.4,
+      "data_completeness": 49,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "match_result",
+      "market_group_label": "Maç Sonucu",
+      "finalized_at": "2026-09-10T09:52:59.349Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
       "id": "2026-09-10|abd mls|portland st louis city|ms 2|05 30",
       "date": "2026-09-10",
       "time": "05:30",
@@ -30143,47 +30170,20 @@
       "market_group_label": "Gol Marketleri",
       "finalized_at": "2026-09-06T19:20:15.097Z",
       "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-06|ingiltere premier lig|arsenal chelsea|2 5 alt|18 30",
-      "date": "2026-09-06",
-      "time": "18:30",
-      "title": "Arsenal - Chelsea",
-      "match": "Arsenal - Chelsea",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "odds": "1.87",
-      "score": "2-1",
-      "result_score": "2-1",
-      "confidence": "58%",
-      "confidence_score": "58%",
-      "model_score": 58,
-      "estimated_probability": 49.4,
-      "market_probability": 45.5,
-      "edge_percent": 3.9,
-      "data_completeness": 44,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-06T19:20:15.097Z",
-      "source": "Robot ham veri havuzu"
     }
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 412,
-    "pending_count": 1088,
-    "won_count": 219,
+    "measured_count": 413,
+    "pending_count": 1087,
+    "won_count": 220,
     "lost_count": 193,
     "void_count": 0,
     "success_rate": 53,
-    "probability_sample_count": 412,
-    "brier_score": 0.2373,
-    "baseline_brier_score": 0.249,
-    "brier_skill_score": 0.047,
+    "probability_sample_count": 413,
+    "brier_score": 0.2372,
+    "baseline_brier_score": 0.2489,
+    "brier_skill_score": 0.0473,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -30213,10 +30213,10 @@
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 188,
-        "won": 108,
+        "predictions": 189,
+        "won": 109,
         "average_probability": 54.6,
-        "observed_rate": 57.4
+        "observed_rate": 57.7
       },
       {
         "lower": 60,
@@ -30227,7 +30227,7 @@
         "observed_rate": 74.1
       }
     ],
-    "verified_at": "2026-09-10T09:43:09.235Z",
+    "verified_at": "2026-09-10T09:52:59.349Z",
     "groups": [
       {
         "key": "goals",
@@ -30240,8 +30240,8 @@
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 177,
-        "won": 92,
+        "measured": 178,
+        "won": 93,
         "lost": 85,
         "success_rate": 52
       },
