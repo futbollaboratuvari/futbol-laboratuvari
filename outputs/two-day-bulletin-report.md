@@ -3,20 +3,14 @@
 Gunler: 2026-09-10 / 2026-09-11
 Kaynak: fixtures.json
 Ham mac: 93
-Aktif mac: 76
+Aktif mac: 70
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 17
-Bugun: 58
+Bultenden dusurulen mac: 23
+Bugun: 52
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-09-10 17:00 | Katar Yıldızlar Ligi | Al Wakrah - Al Shamal | scheduled | -
-- 2026-09-10 17:00 | Özbekistan Super League | Andijon - Kuruvchi Kokand | scheduled | -
-- 2026-09-10 17:00 | Özbekistan Super League | Dinamo Samarqa - Qizilqum Zarafs | scheduled | -
-- 2026-09-10 17:30 | Estonya Esiliiga A | Nomme United I - Tallinna Kalev | scheduled | -
-- 2026-09-10 17:30 | Estonya Esiliiga A | Fc Tallinn - Fc Maardu | scheduled | -
-- 2026-09-10 17:30 | Estonya Esiliiga A | Nomme Kalju Ii - Flora Tallinn I | scheduled | -
 - 2026-09-10 17:45 | Yunanistan Kupa Lig Aşaması | Asteras Tripol - Aris | scheduled | -
 - 2026-09-10 17:45 | Estonya Esiliiga B | Tallinna Jk Le - Tartu Kalev | scheduled | -
 - 2026-09-10 17:55 | Umman Profesyonel Lig | Al Nahda - Al Seeb | scheduled | -
