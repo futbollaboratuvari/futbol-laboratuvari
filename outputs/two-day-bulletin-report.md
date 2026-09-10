@@ -2,12 +2,12 @@
 
 Gunler: 2026-09-10 / 2026-09-11
 Kaynak: fixtures.json
-Ham mac: 90
-Aktif mac: 90
+Ham mac: 132
+Aktif mac: 91
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 72
+Bultenden dusurulen mac: 41
+Bugun: 73
 Yarin: 18
 
 ## Baslamamis Maclar
@@ -42,6 +42,7 @@ Yarin: 18
 - 2026-09-10 18:00 | Estonya Esiliiga B | Vaprus Ii - Phoenix | scheduled | -
 - 2026-09-10 18:30 | İran Persian Gulf Pro Lig | Esteghlal Khuz - Tractor Fc | scheduled | -
 - 2026-09-10 18:30 | İran Persian Gulf Pro Lig | Shams Azar Qaz - Gol Gohar Sirja | scheduled | -
+- 2026-09-10 18:30 | İran Persian Gulf Pro Lig | Esteghlal - Peykan | scheduled | -
 - 2026-09-10 19:00 | Danimarka DBU Kupası 3.Tur | Sundby - Midtjylland | scheduled | -
 - 2026-09-10 19:00 | Kadınlar U20 Dünya Kupası Grup E | Kolombiya U20 - Portekiz U20 (K | scheduled | -
 - 2026-09-10 19:00 | Ürdün Premier Lig | Al Jazeera - Shabab Al Ordon | scheduled | -

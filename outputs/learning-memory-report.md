@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.09.2026 14:03:40
+Oluşturma: 10.09.2026 14:43:29
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1087
-- Kazanan tahmin: 220
+- Bekleyen tahmin: 1088
+- Kazanan tahmin: 219
 - Kaybeden tahmin: 193
 - Lig sayısı: 261
 - Seçenek sayısı: 6
@@ -22,8 +22,8 @@ Oluşturma: 10.09.2026 14:03:40
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 237, bekleyen 146, başarı %58, düz getiri %1, ağırlık 1
-- MS 1: toplam 490, bekleyen 369, başarı %54, düz getiri %-12, ağırlık 1
+- 2.5 Üst: toplam 238, bekleyen 147, başarı %58, düz getiri %1, ağırlık 1
+- MS 1: toplam 489, bekleyen 369, başarı %53, düz getiri %-13, ağırlık 1
 - 2.5 Alt: toplam 552, bekleyen 410, başarı %51, düz getiri %-16, ağırlık 1
 - MS 2: toplam 215, bekleyen 159, başarı %50, düz getiri %-10, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
@@ -31,6 +31,8 @@ Oluşturma: 10.09.2026 14:03:40
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-10 | İran Persian Gulf Pro Lig | Esteghlal - Peykan | MS 1 | pending | 58/100
+- 2026-09-10 | Azerbaycan 1.Lig | Zaqatala - Baku Sportinq | 2.5 Üst | pending | 53/100
 - 2026-09-10 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | San Antonio - Atletico Fc | 2.5 Alt | pending | 58/100
 - 2026-09-10 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Cumbaya - Gualaceo | MS 1 | pending | 40/100
 - 2026-09-10 | Paraguay Intermedia Lig | Sportivo Carap - Benjamin Aceval | 2.5 Alt | pending | 50/100
@@ -44,6 +46,4 @@ Oluşturma: 10.09.2026 14:03:40
 - 2026-09-10 | Brezilya Serie B | America Mineir - Nautico | 2.5 Üst | won | 62/100
 - 2026-09-10 | Guatemala Ulusal Lig Apertura | Comunicaciones - Marquense | 2.5 Alt | won | 69/100
 - 2026-09-10 | ABD MLS | Chicago - Inter Miami | MS 1 | lost | 55/100
-- 2026-09-10 | ABD MLS | Austin - Colorado | 2.5 Alt | won | 68/100
-- 2026-09-10 | Brezilya Serie B | Atletico Goian - Ceara | 2.5 Üst | won | 61/100
 
