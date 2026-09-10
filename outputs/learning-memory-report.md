@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.09.2026 20:44:24
+Oluşturma: 10.09.2026 21:32:08
 
 ## Özet
 
@@ -8,7 +8,7 @@ Oluşturma: 10.09.2026 20:44:24
 - Bekleyen tahmin: 1094
 - Kazanan tahmin: 218
 - Kaybeden tahmin: 188
-- Lig sayısı: 262
+- Lig sayısı: 261
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,15 +22,17 @@ Oluşturma: 10.09.2026 20:44:24
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 239, bekleyen 151, başarı %59, düz getiri %3, ağırlık 1
+- 2.5 Üst: toplam 238, bekleyen 150, başarı %59, düz getiri %3, ağırlık 1
 - MS 1: toplam 486, bekleyen 368, başarı %54, düz getiri %-11, ağırlık 1
-- 2.5 Alt: toplam 552, bekleyen 411, başarı %52, düz getiri %-16, ağırlık 1
+- 2.5 Alt: toplam 553, bekleyen 412, başarı %52, düz getiri %-16, ağırlık 1
 - MS 2: toplam 217, bekleyen 161, başarı %50, düz getiri %-10, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
 - MS X: toplam 3, bekleyen 2, başarı %0, düz getiri %-100, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-10 | CONCACAF Orta Amerika Kupası Çeyrek Final | Marathon - Alajuelense | 2.5 Alt | pending | 54/100
+- 2026-09-10 | CONCACAF Orta Amerika Kupası Çeyrek Final | Firpo - Depor. Olimpia | 2.5 Alt | pending | 52/100
 - 2026-09-10 | Karadağ 1.Lig | Buducnost - Jezero Plav | 2.5 Üst | pending | 53/100
 - 2026-09-10 | Karadağ 1.Lig | Fk Arsenal Tiv - Mladost Dg | 2.5 Üst | pending | 54/100
 - 2026-09-10 | Nikaragua Premier Lig Apertura | Managua - Real Esteli | 2.5 Alt | pending | 53/100
@@ -44,6 +46,4 @@ Oluşturma: 10.09.2026 20:44:24
 - 2026-09-10 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | San Antonio - Atletico Fc | 2.5 Alt | pending | 57/100
 - 2026-09-10 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Cumbaya - Gualaceo | MS 1 | pending | 39/100
 - 2026-09-10 | Paraguay Intermedia Lig | Sportivo Carap - Benjamin Aceval | 2.5 Alt | pending | 50/100
-- 2026-09-10 | Gürcistan Erovnuli Liga | Dinamo Tiflis - Meshakhte | MS 1 | pending | 59/100
-- 2026-09-10 | Özbekistan Super League | Xorazm Urganch - Sogdiyona Jizza | 2.5 Üst | pending | 53/100
 

@@ -2,21 +2,15 @@
 
 Gunler: 2026-09-10 / 2026-09-11
 Kaynak: fixtures.json
-Ham mac: 64
-Aktif mac: 37
+Ham mac: 136
+Aktif mac: 33
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 27
-Bugun: 19
-Yarin: 18
+Bultenden dusurulen mac: 103
+Bugun: 13
+Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-09-10 21:00 | Cezayir 1.Lig | Es Ben Aknoun - Biskra | scheduled | -
-- 2026-09-10 21:00 | İsviçre 1.Lig Promotion | Bulle - Amical Saint-Pr | scheduled | -
-- 2026-09-10 21:00 | Karadağ 1.Lig | Bokelj Kotor - Otrant | scheduled | -
-- 2026-09-10 21:00 | Karadağ 1.Lig | Buducnost - Jezero Plav | scheduled | -
-- 2026-09-10 21:00 | Karadağ 1.Lig | Fk Arsenal Tiv - Mladost Dg | scheduled | -
-- 2026-09-10 21:15 | Yunanistan Süper Lig | Panathinaikos - Kifisias | scheduled | -
 - 2026-09-10 21:45 | Fransa Ligue 3 | Cannes - Amiens | scheduled | -
 - 2026-09-10 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Como - Rb Leipzig | scheduled | -
 - 2026-09-10 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Slavia Prag - Lens | scheduled | -
@@ -46,8 +40,10 @@ Yarin: 18
 - 2026-09-11 03:30 | Brezilya Serie B | Sport Recife - Ponte Preta | scheduled | -
 - 2026-09-11 04:00 | Kolombiya Primera A Clausura | Los Millionari - Deportivo Cali | scheduled | -
 - 2026-09-11 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Durango | scheduled | -
+- 2026-09-11 04:06 | CONCACAF Orta Amerika Kupası Çeyrek Final | Marathon - Alajuelense | scheduled | -
 - 2026-09-11 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Coban Imperial | scheduled | -
 - 2026-09-11 06:05 | Meksika Liga MX Apertura | Pumas Unam - Club Leon | scheduled | -
+- 2026-09-11 06:06 | CONCACAF Orta Amerika Kupası Çeyrek Final | Firpo - Depor. Olimpia | scheduled | -
 
 ## Canli Maclar
 Canli mac yok.
