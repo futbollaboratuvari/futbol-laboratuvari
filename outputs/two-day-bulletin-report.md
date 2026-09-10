@@ -2,22 +2,15 @@
 
 Gunler: 2026-09-10 / 2026-09-11
 Kaynak: fixtures.json
-Ham mac: 129
-Aktif mac: 96
+Ham mac: 95
+Aktif mac: 89
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 33
-Bugun: 78
+Bultenden dusurulen mac: 6
+Bugun: 71
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-09-10 05:10 | Guatemala Ulusal Lig Apertura | Suchitepequez - Guastatoya | scheduled | -
-- 2026-09-10 05:30 | ABD MLS | Vancouver - Los Angeles | scheduled | -
-- 2026-09-10 05:30 | ABD MLS | Portland - St. Louis City | scheduled | -
-- 2026-09-10 05:30 | ABD MLS | Los Angeles Fc - New York | scheduled | -
-- 2026-09-10 05:30 | ABD MLS | San Diego - San Jose | scheduled | -
-- 2026-09-10 05:30 | ABD MLS Next Pro | San Jose Earth - Ventura County | scheduled | -
-- 2026-09-10 06:06 | CONCACAF Orta Amerika Kupası Çeyrek Final | Depor Motagua - Alianza | scheduled | -
 - 2026-09-10 10:30 | UEFA Gençlik Ligi Lig Aşaması | Barcelona U19 - Feyenoord U19 | scheduled | -
 - 2026-09-10 15:00 | UEFA Gençlik Ligi Lig Aşaması | Psv Eindhoven - S. Donetsk U19 | scheduled | -
 - 2026-09-10 15:00 | UEFA Gençlik Ligi Lig Aşaması | Slavia Prag U1 - Lens U19 | scheduled | -
