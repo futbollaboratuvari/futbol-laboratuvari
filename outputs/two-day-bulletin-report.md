@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-10 / 2026-09-11
 Kaynak: fixtures.json
-Ham mac: 129
-Aktif mac: 89
+Ham mac: 91
+Aktif mac: 90
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 40
-Bugun: 71
+Bultenden dusurulen mac: 1
+Bugun: 72
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-09-10 10:30 | UEFA Gençlik Ligi Lig Aşaması | Barcelona U19 - Feyenoord U19 | scheduled | -
 - 2026-09-10 15:00 | UEFA Gençlik Ligi Lig Aşaması | Psv Eindhoven - S. Donetsk U19 | scheduled | -
 - 2026-09-10 15:00 | UEFA Gençlik Ligi Lig Aşaması | Slavia Prag U1 - Lens U19 | scheduled | -
 - 2026-09-10 15:15 | Vietnam V-Lig 1 | Viettel - Cand | scheduled | -
@@ -82,6 +81,8 @@ Yarin: 18
 - 2026-09-10 22:15 | Portekiz Premier Lig | Estrela - Braga | scheduled | -
 - 2026-09-10 22:30 | Paraguay Intermedia Lig | Sportivo Carap - Benjamin Aceval | scheduled | -
 - 2026-09-10 23:00 | Cezayir 1.Lig | Usm Alger - Js El Biar | scheduled | -
+- 2026-09-10 23:30 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | San Antonio - Atletico Fc | scheduled | -
+- 2026-09-10 23:30 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Cumbaya - Gualaceo | scheduled | -
 - 2026-09-11 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Municipal | scheduled | -
 - 2026-09-11 00:00 | Nikaragua Premier Lig Apertura | Export Sebaco - Diriangen | scheduled | -
 - 2026-09-11 01:00 | Kolombiya Primera B Clausura | Orsomarso - Tigres Fc | scheduled | -
