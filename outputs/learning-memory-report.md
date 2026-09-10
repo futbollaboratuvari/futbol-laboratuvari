@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.09.2026 18:14:15
+Oluşturma: 10.09.2026 20:19:16
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1092
+- Bekleyen tahmin: 1094
 - Kazanan tahmin: 218
-- Kaybeden tahmin: 190
+- Kaybeden tahmin: 188
 - Lig sayısı: 262
 - Seçenek sayısı: 6
 
@@ -22,8 +22,8 @@ Oluşturma: 10.09.2026 18:14:15
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 237, bekleyen 149, başarı %59, düz getiri %3, ağırlık 1
-- MS 1: toplam 488, bekleyen 368, başarı %53, düz getiri %-13, ağırlık 1
+- 2.5 Üst: toplam 239, bekleyen 151, başarı %59, düz getiri %3, ağırlık 1
+- MS 1: toplam 486, bekleyen 368, başarı %54, düz getiri %-11, ağırlık 1
 - 2.5 Alt: toplam 552, bekleyen 411, başarı %52, düz getiri %-16, ağırlık 1
 - MS 2: toplam 217, bekleyen 161, başarı %50, düz getiri %-10, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
@@ -31,6 +31,8 @@ Oluşturma: 10.09.2026 18:14:15
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-10 | Karadağ 1.Lig | Buducnost - Jezero Plav | 2.5 Üst | pending | 53/100
+- 2026-09-10 | Karadağ 1.Lig | Fk Arsenal Tiv - Mladost Dg | 2.5 Üst | pending | 54/100
 - 2026-09-10 | Nikaragua Premier Lig Apertura | Managua - Real Esteli | 2.5 Alt | pending | 53/100
 - 2026-09-10 | Copa Libertadores Çeyrek Final | Indep. Jose Te - Flamengo | MS 2 | pending | 38/100
 - 2026-09-10 | UEFA Şampiyonlar Ligi Lig Aşaması | Slavia Prag - Lens | MS 2 | pending | 45/100
@@ -44,6 +46,4 @@ Oluşturma: 10.09.2026 18:14:15
 - 2026-09-10 | Paraguay Intermedia Lig | Sportivo Carap - Benjamin Aceval | 2.5 Alt | pending | 50/100
 - 2026-09-10 | Gürcistan Erovnuli Liga | Dinamo Tiflis - Meshakhte | MS 1 | pending | 59/100
 - 2026-09-10 | Özbekistan Super League | Xorazm Urganch - Sogdiyona Jizza | 2.5 Üst | pending | 53/100
-- 2026-09-10 | Guatemala Ulusal Lig Apertura | Suchitepequez - Guastatoya | MS 1 | lost | 58/100
-- 2026-09-10 | ABD MLS | Portland - St. Louis City | MS 2 | lost | 57/100
 
