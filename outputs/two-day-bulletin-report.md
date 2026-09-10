@@ -2,32 +2,15 @@
 
 Gunler: 2026-09-10 / 2026-09-11
 Kaynak: fixtures.json
-Ham mac: 132
-Aktif mac: 91
+Ham mac: 93
+Aktif mac: 76
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 41
-Bugun: 73
+Bultenden dusurulen mac: 17
+Bugun: 58
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-09-10 15:00 | UEFA Gençlik Ligi Lig Aşaması | Psv Eindhoven - S. Donetsk U19 | scheduled | -
-- 2026-09-10 15:00 | UEFA Gençlik Ligi Lig Aşaması | Slavia Prag U1 - Lens U19 | scheduled | -
-- 2026-09-10 15:15 | Vietnam V-Lig 1 | Viettel - Cand | scheduled | -
-- 2026-09-10 15:30 | Azerbaycan 1.Lig | Sabail - Mingeçevir Fk | scheduled | -
-- 2026-09-10 15:30 | Azerbaycan 1.Lig | Zaqatala - Baku Sportinq | scheduled | -
-- 2026-09-10 16:00 | UEFA Gençlik Ligi Lig Aşaması | Como U19 - Rb Leipzig U19 | scheduled | -
-- 2026-09-10 16:00 | UEFA Gençlik Ligi Lig Aşaması | Manchester Uni - Sabah U19 | scheduled | -
-- 2026-09-10 16:00 | Uganda Premier Lig | Police - Updf | scheduled | -
-- 2026-09-10 16:00 | Azerbaycan 1.Lig | Cebrayıl - Xankendi | scheduled | -
-- 2026-09-10 16:30 | Mısır 2. Lig | Mega Sport - Haras El Hodood | scheduled | -
-- 2026-09-10 16:30 | Mısır 2. Lig | Kahraba Ismail - El Daklyeh | scheduled | -
-- 2026-09-10 16:30 | Mısır 2. Lig | Nasr - Derot | scheduled | -
-- 2026-09-10 16:30 | Mısır 2. Lig | Pharco - Baladiyyat | scheduled | -
-- 2026-09-10 16:30 | Mısır 2. Lig | Masar - El Saka El Hadi | scheduled | -
-- 2026-09-10 16:40 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Dubai United - Al Ahli Dubai | scheduled | -
-- 2026-09-10 16:40 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Jazira - Al Nasr | scheduled | -
-- 2026-09-10 16:40 | Umman Profesyonel Lig | Ibri - Saham | scheduled | -
 - 2026-09-10 17:00 | Katar Yıldızlar Ligi | Al Wakrah - Al Shamal | scheduled | -
 - 2026-09-10 17:00 | Özbekistan Super League | Andijon - Kuruvchi Kokand | scheduled | -
 - 2026-09-10 17:00 | Özbekistan Super League | Dinamo Samarqa - Qizilqum Zarafs | scheduled | -
@@ -53,6 +36,8 @@ Yarin: 18
 - 2026-09-10 19:00 | Estonya Esiliiga A | Levadia Tallin - Tartu Welco | scheduled | -
 - 2026-09-10 19:00 | Estonya Esiliiga A | Viimsi Mrjk - Fc Elva | scheduled | -
 - 2026-09-10 19:00 | Estonya Esiliiga B | Tammeka Ii - Viljandi Tulevi | scheduled | -
+- 2026-09-10 19:00 | Ürdün 1.Lig | Ethad Ar - Al Sareeh | scheduled | -
+- 2026-09-10 19:00 | Ürdün 1.Lig | Amman - Hay Al-Amir Has | scheduled | -
 - 2026-09-10 19:15 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ain - Al Wasl | scheduled | -
 - 2026-09-10 19:15 | Katar Yıldızlar Ligi | Al Sailiya - Al Sadd | scheduled | -
 - 2026-09-10 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Fenerbahçe - Roma | scheduled | -

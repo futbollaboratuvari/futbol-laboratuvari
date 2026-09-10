@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T11:43:44.721Z",
+  "generated_at": "2026-09-10T13:52:38.059Z",
   "date": "2026-09-10",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -15,13 +15,13 @@
       "odds": "1.33",
       "score": "3-0",
       "result_score": "3-0",
-      "confidence": "53%",
-      "confidence_score": "53%",
-      "model_score": 53,
-      "estimated_probability": 57.6,
+      "confidence": "62%",
+      "confidence_score": "62%",
+      "model_score": 62,
+      "estimated_probability": 59.9,
       "market_probability": 62,
-      "edge_percent": -4.4,
-      "data_completeness": 49,
+      "edge_percent": -2.1,
+      "data_completeness": 59,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Orta",
       "status": "won",
@@ -817,16 +817,16 @@
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 412,
-    "pending_count": 1088,
-    "won_count": 219,
-    "lost_count": 193,
+    "measured_count": 408,
+    "pending_count": 1092,
+    "won_count": 218,
+    "lost_count": 190,
     "void_count": 0,
     "success_rate": 53,
-    "probability_sample_count": 412,
-    "brier_score": 0.2374,
-    "baseline_brier_score": 0.249,
-    "brier_skill_score": 0.0466,
+    "probability_sample_count": 408,
+    "brier_score": 0.2368,
+    "baseline_brier_score": 0.2488,
+    "brier_skill_score": 0.0484,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -856,18 +856,18 @@
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 189,
-        "won": 109,
+        "predictions": 186,
+        "won": 108,
         "average_probability": 54.6,
-        "observed_rate": 57.7
+        "observed_rate": 58.1
       },
       {
         "lower": 60,
         "upper": 69,
-        "predictions": 53,
+        "predictions": 52,
         "won": 39,
-        "average_probability": 62.9,
-        "observed_rate": 73.6
+        "average_probability": 63,
+        "observed_rate": 75
       }
     ],
     "verified_at": "2026-09-10T09:52:59.349Z",
@@ -875,10 +875,10 @@
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 233,
-        "won": 126,
-        "lost": 107,
-        "success_rate": 54
+        "measured": 229,
+        "won": 125,
+        "lost": 104,
+        "success_rate": 55
       },
       {
         "key": "match_result",
