@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T17:41:19.998Z",
+  "generated_at": "2026-09-10T20:03:04.687Z",
   "date": "2026-09-10",
   "source_count": 8,
-  "match_count": 134,
+  "match_count": 136,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
     {
@@ -2559,7 +2559,7 @@
       "match_name": "Mega Sport VS Haras El Hodood",
       "league": "Mısır 2. Lig",
       "start_time": "16:30",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -3410,7 +3410,7 @@
       "match_name": "Nomme United I VS Tallinna Kalev",
       "league": "Estonya Esiliiga A",
       "start_time": "17:30",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -6090,7 +6090,7 @@
       "match_name": "Cerro VS Cerrito",
       "league": "Uruguay Kupa Ön Eleme Turu Grup 3",
       "start_time": "22:00",
-      "recommended_market": "MS 1",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -7008,7 +7008,7 @@
       "match_name": "Indep. Jose Te VS Flamengo",
       "league": "Copa Libertadores Çeyrek Final",
       "start_time": "03:30",
-      "recommended_market": "MS 2",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -7260,6 +7260,57 @@
       ]
     },
     {
+      "match_name": "Marathon VS Alajuelense",
+      "league": "CONCACAF Orta Amerika Kupası Çeyrek Final",
+      "start_time": "04:06",
+      "recommended_market": "2.5 Alt",
+      "data_gap_risk": "Orta",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
       "match_name": "Xelaju VS Coban Imperial",
       "league": "Guatemala Ulusal Lig Apertura",
       "start_time": "05:00",
@@ -7314,6 +7365,57 @@
       "match_name": "Pumas Unam VS Club Leon",
       "league": "Meksika Liga MX Apertura",
       "start_time": "06:05",
+      "recommended_market": "2.5 Alt",
+      "data_gap_risk": "Orta",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Firpo VS Depor. Olimpia",
+      "league": "CONCACAF Orta Amerika Kupası Çeyrek Final",
+      "start_time": "06:06",
       "recommended_market": "2.5 Alt",
       "data_gap_risk": "Orta",
       "source_plan": [
