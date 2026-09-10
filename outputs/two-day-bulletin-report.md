@@ -2,21 +2,15 @@
 
 Gunler: 2026-09-10 / 2026-09-11
 Kaynak: fixtures.json
-Ham mac: 93
-Aktif mac: 70
+Ham mac: 134
+Aktif mac: 64
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 23
-Bugun: 52
+Bultenden dusurulen mac: 70
+Bugun: 46
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-09-10 17:45 | Yunanistan Kupa Lig Aşaması | Asteras Tripol - Aris | scheduled | -
-- 2026-09-10 17:45 | Estonya Esiliiga B | Tallinna Jk Le - Tartu Kalev | scheduled | -
-- 2026-09-10 17:55 | Umman Profesyonel Lig | Al Nahda - Al Seeb | scheduled | -
-- 2026-09-10 18:00 | Gürcistan Erovnuli Liga | Dinamo Tiflis - Meshakhte | scheduled | -
-- 2026-09-10 18:00 | Özbekistan Super League | Xorazm Urganch - Sogdiyona Jizza | scheduled | -
-- 2026-09-10 18:00 | Estonya Esiliiga B | Vaprus Ii - Phoenix | scheduled | -
 - 2026-09-10 18:30 | İran Persian Gulf Pro Lig | Esteghlal Khuz - Tractor Fc | scheduled | -
 - 2026-09-10 18:30 | İran Persian Gulf Pro Lig | Shams Azar Qaz - Gol Gohar Sirja | scheduled | -
 - 2026-09-10 18:30 | İran Persian Gulf Pro Lig | Esteghlal - Peykan | scheduled | -

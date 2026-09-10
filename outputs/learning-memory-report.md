@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.09.2026 17:32:35
+Oluşturma: 10.09.2026 18:14:15
 
 ## Özet
 
@@ -23,14 +23,16 @@ Oluşturma: 10.09.2026 17:32:35
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 237, bekleyen 149, başarı %59, düz getiri %3, ağırlık 1
-- MS 1: toplam 489, bekleyen 369, başarı %53, düz getiri %-13, ağırlık 1
+- MS 1: toplam 488, bekleyen 368, başarı %53, düz getiri %-13, ağırlık 1
 - 2.5 Alt: toplam 552, bekleyen 411, başarı %52, düz getiri %-16, ağırlık 1
-- MS 2: toplam 216, bekleyen 160, başarı %50, düz getiri %-10, ağırlık 1
+- MS 2: toplam 217, bekleyen 161, başarı %50, düz getiri %-10, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
 - MS X: toplam 3, bekleyen 2, başarı %0, düz getiri %-100, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-10 | Nikaragua Premier Lig Apertura | Managua - Real Esteli | 2.5 Alt | pending | 53/100
+- 2026-09-10 | Copa Libertadores Çeyrek Final | Indep. Jose Te - Flamengo | MS 2 | pending | 38/100
 - 2026-09-10 | UEFA Şampiyonlar Ligi Lig Aşaması | Slavia Prag - Lens | MS 2 | pending | 45/100
 - 2026-09-10 | Ürdün 1.Lig | Ethad Ar - Al Sareeh | 2.5 Alt | pending | 55/100
 - 2026-09-10 | Ürdün 1.Lig | Amman - Hay Al-Amir Has | 2.5 Üst | pending | 53/100
@@ -44,6 +46,4 @@ Oluşturma: 10.09.2026 17:32:35
 - 2026-09-10 | Özbekistan Super League | Xorazm Urganch - Sogdiyona Jizza | 2.5 Üst | pending | 53/100
 - 2026-09-10 | Guatemala Ulusal Lig Apertura | Suchitepequez - Guastatoya | MS 1 | lost | 58/100
 - 2026-09-10 | ABD MLS | Portland - St. Louis City | MS 2 | lost | 57/100
-- 2026-09-10 | Mısır 2. Lig | Kahraba Ismail - El Daklyeh | 2.5 Alt | pending | 57/100
-- 2026-09-10 | ABD MLS | Montreal - Charlotte | MS 2 | won | 61/100
 
