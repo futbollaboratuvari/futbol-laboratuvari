@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.09.2026 22:50:04
+Oluşturma: 10.09.2026 23:06:09
 
 ## Özet
 
@@ -22,15 +22,16 @@ Oluşturma: 10.09.2026 22:50:04
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 238, bekleyen 150, başarı %59, düz getiri %3, ağırlık 1
+- 2.5 Üst: toplam 239, bekleyen 151, başarı %59, düz getiri %3, ağırlık 1
 - MS 1: toplam 486, bekleyen 368, başarı %54, düz getiri %-11, ağırlık 1
 - 2.5 Alt: toplam 553, bekleyen 412, başarı %52, düz getiri %-16, ağırlık 1
-- MS 2: toplam 217, bekleyen 161, başarı %50, düz getiri %-10, ağırlık 1
+- MS 2: toplam 216, bekleyen 160, başarı %50, düz getiri %-10, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
 - MS X: toplam 3, bekleyen 2, başarı %0, düz getiri %-100, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-10 | CONCACAF Orta Amerika Kupası Çeyrek Final | Marathon - Alajuelense | 2.5 Üst | pending | 57/100
 - 2026-09-10 | CONCACAF Orta Amerika Kupası Çeyrek Final | Marathon - Alajuelense | 2.5 Alt | pending | 54/100
 - 2026-09-10 | CONCACAF Orta Amerika Kupası Çeyrek Final | Firpo - Depor. Olimpia | 2.5 Alt | pending | 52/100
 - 2026-09-10 | Karadağ 1.Lig | Buducnost - Jezero Plav | 2.5 Üst | pending | 53/100
@@ -45,5 +46,4 @@ Oluşturma: 10.09.2026 22:50:04
 - 2026-09-10 | Azerbaycan 1.Lig | Zaqatala - Baku Sportinq | 2.5 Üst | pending | 53/100
 - 2026-09-10 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | San Antonio - Atletico Fc | 2.5 Alt | pending | 57/100
 - 2026-09-10 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Cumbaya - Gualaceo | MS 1 | pending | 39/100
-- 2026-09-10 | Paraguay Intermedia Lig | Sportivo Carap - Benjamin Aceval | 2.5 Alt | pending | 50/100
 

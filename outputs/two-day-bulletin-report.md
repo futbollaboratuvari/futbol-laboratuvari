@@ -2,26 +2,15 @@
 
 Gunler: 2026-09-10 / 2026-09-11
 Kaynak: fixtures.json
-Ham mac: 49
-Aktif mac: 33
+Ham mac: 39
+Aktif mac: 22
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 16
-Bugun: 13
+Bultenden dusurulen mac: 17
+Bugun: 2
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-09-10 21:45 | Fransa Ligue 3 | Cannes - Amiens | scheduled | -
-- 2026-09-10 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Como - Rb Leipzig | scheduled | -
-- 2026-09-10 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Slavia Prag - Lens | scheduled | -
-- 2026-09-10 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | Man. Utd - Sabah | scheduled | -
-- 2026-09-10 22:00 | UEFA Şampiyonlar Ligi Lig Aşaması | B.Münih - Bodo Glimt | scheduled | -
-- 2026-09-10 22:00 | İngiltere 1.Lig | Stevenage - Luton | scheduled | -
-- 2026-09-10 22:00 | Uruguay Kupa Ön Eleme Turu Grup 3 | Cerro - Cerrito | scheduled | -
-- 2026-09-10 22:00 | Irak Premier Lig | Al Jawiya - Al Zawraa | scheduled | -
-- 2026-09-10 22:15 | Portekiz Premier Lig | Estrela - Braga | scheduled | -
-- 2026-09-10 22:30 | Paraguay Intermedia Lig | Sportivo Carap - Benjamin Aceval | scheduled | -
-- 2026-09-10 23:00 | Cezayir 1.Lig | Usm Alger - Js El Biar | scheduled | -
 - 2026-09-10 23:30 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | San Antonio - Atletico Fc | scheduled | -
 - 2026-09-10 23:30 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Cumbaya - Gualaceo | scheduled | -
 - 2026-09-11 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Municipal | scheduled | -
