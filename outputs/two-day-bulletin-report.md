@@ -2,42 +2,15 @@
 
 Gunler: 2026-09-10 / 2026-09-11
 Kaynak: fixtures.json
-Ham mac: 134
-Aktif mac: 64
+Ham mac: 64
+Aktif mac: 37
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 70
-Bugun: 46
+Bultenden dusurulen mac: 27
+Bugun: 19
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-09-10 18:30 | İran Persian Gulf Pro Lig | Esteghlal Khuz - Tractor Fc | scheduled | -
-- 2026-09-10 18:30 | İran Persian Gulf Pro Lig | Shams Azar Qaz - Gol Gohar Sirja | scheduled | -
-- 2026-09-10 18:30 | İran Persian Gulf Pro Lig | Esteghlal - Peykan | scheduled | -
-- 2026-09-10 19:00 | Danimarka DBU Kupası 3.Tur | Sundby - Midtjylland | scheduled | -
-- 2026-09-10 19:00 | Kadınlar U20 Dünya Kupası Grup E | Kolombiya U20 - Portekiz U20 (K | scheduled | -
-- 2026-09-10 19:00 | Ürdün Premier Lig | Al Jazeera - Shabab Al Ordon | scheduled | -
-- 2026-09-10 19:00 | Bahreyn Premier Lig | Al Muharraq - Manama | scheduled | -
-- 2026-09-10 19:00 | Bahreyn Premier Lig | Al Rifaa - Khalidiya | scheduled | -
-- 2026-09-10 19:00 | Letonya Virsliga | Super Nova - Fk Tukums 2000 | scheduled | -
-- 2026-09-10 19:00 | Umman Profesyonel Lig | Smail - Fanja | scheduled | -
-- 2026-09-10 19:00 | Estonya Esiliiga A | Levadia Tallin - Tartu Welco | scheduled | -
-- 2026-09-10 19:00 | Estonya Esiliiga A | Viimsi Mrjk - Fc Elva | scheduled | -
-- 2026-09-10 19:00 | Estonya Esiliiga B | Tammeka Ii - Viljandi Tulevi | scheduled | -
-- 2026-09-10 19:00 | Ürdün 1.Lig | Ethad Ar - Al Sareeh | scheduled | -
-- 2026-09-10 19:00 | Ürdün 1.Lig | Amman - Hay Al-Amir Has | scheduled | -
-- 2026-09-10 19:15 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ain - Al Wasl | scheduled | -
-- 2026-09-10 19:15 | Katar Yıldızlar Ligi | Al Sailiya - Al Sadd | scheduled | -
-- 2026-09-10 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Fenerbahçe - Roma | scheduled | -
-- 2026-09-10 19:45 | UEFA Şampiyonlar Ligi Lig Aşaması | Psv Eindhoven - Shakhtar Donets | scheduled | -
-- 2026-09-10 20:00 | Sırbistan Süper Lig | Radnik Surduli - Kizilyildiz | scheduled | -
-- 2026-09-10 20:00 | İsveç Kupa 2.Tur | Haninge - Djurgarden | scheduled | -
-- 2026-09-10 20:00 | İsveç Superettan | Falkenberg - Oster | scheduled | -
-- 2026-09-10 20:00 | İsveç Superettan | Sundsvall - Orebro | scheduled | -
-- 2026-09-10 20:00 | İsveç Superettan | Varbergs - Norrkoping | scheduled | -
-- 2026-09-10 20:00 | İsveç Superettan | Ostersund - Brage | scheduled | -
-- 2026-09-10 20:00 | Gürcistan Erovnuli Liga | Gagra - Torpedo Kutaisi | scheduled | -
-- 2026-09-10 20:00 | Kosova Süper Lig | Dukagjini - Malisheva | scheduled | -
 - 2026-09-10 21:00 | Cezayir 1.Lig | Es Ben Aknoun - Biskra | scheduled | -
 - 2026-09-10 21:00 | İsviçre 1.Lig Promotion | Bulle - Amical Saint-Pr | scheduled | -
 - 2026-09-10 21:00 | Karadağ 1.Lig | Bokelj Kotor - Otrant | scheduled | -

@@ -1,6 +1,6 @@
 # Learning Output Check
 
-Generated: 2026-09-10T13:52:38.356Z
+Generated: 2026-09-10T17:44:41.712Z
 Status: ready
 
 ## Checks
@@ -17,10 +17,10 @@ Status: ready
 
 - Robot engine: Futbol Laboratuvarı PRO 13
 - Scoring mode: market_conditioned_probability_ensemble_with_learning_memory
-- Robot matches: 93
+- Robot matches: 64
 - Learning adjusted count: 0
 - Memory predictions: 1500
-- Pending predictions: 1092
+- Pending predictions: 1094
 
 Learning output fields are present. The site can display learning notes.
 

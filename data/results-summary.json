@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T15:14:20.553Z",
+  "generated_at": "2026-09-10T17:44:41.452Z",
   "date": "2026-09-10",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -817,16 +817,16 @@
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 408,
-    "pending_count": 1092,
+    "measured_count": 406,
+    "pending_count": 1094,
     "won_count": 218,
-    "lost_count": 190,
+    "lost_count": 188,
     "void_count": 0,
-    "success_rate": 53,
-    "probability_sample_count": 408,
-    "brier_score": 0.2368,
-    "baseline_brier_score": 0.2488,
-    "brier_skill_score": 0.0484,
+    "success_rate": 54,
+    "probability_sample_count": 406,
+    "brier_score": 0.2372,
+    "baseline_brier_score": 0.2486,
+    "brier_skill_score": 0.046,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -840,18 +840,18 @@
       {
         "lower": 30,
         "upper": 39,
-        "predictions": 33,
+        "predictions": 32,
         "won": 10,
         "average_probability": 37.6,
-        "observed_rate": 30.3
+        "observed_rate": 31.3
       },
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 136,
+        "predictions": 135,
         "won": 61,
         "average_probability": 45.6,
-        "observed_rate": 44.9
+        "observed_rate": 45.2
       },
       {
         "lower": 50,
@@ -883,10 +883,10 @@
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 177,
+        "measured": 175,
         "won": 92,
-        "lost": 85,
-        "success_rate": 52
+        "lost": 83,
+        "success_rate": 53
       },
       {
         "key": "btts",
