@@ -2,26 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-10T18:35:27.298Z
+- Güncelleme: 2026-09-10T19:49:30.038Z
 - Ham maç sayısı: 49
 - Yarın bülteni maç sayısı: 20
 - Detay blok sayısı: 142
-- Aktif bülten maçı: 33
-- Bültenden düşürülen maç: 16
+- Aktif bülten maçı: 23
+- Bültenden düşürülen maç: 26
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cannes - Amiens | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 1.84 | 8 |
-| Como - Rb Leipzig | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | 1.5 | 8 |
-| Slavia Prag - Lens | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | 2.35 | 8 |
-| Man. Utd - Sabah | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | - | 4 |
-| B.Münih - Bodo Glimt | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | - | 4 |
-| Stevenage - Luton | İngiltere 1.Lig | 22:00 | Veri bekleniyor | - | 2.93 | 8 |
-| Cerro - Cerrito | Uruguay Kupa Ön Eleme Turu Grup 3 | 22:00 | Veri bekleniyor | - | 1.77 | 5 |
-| Al Jawiya - Al Zawraa | Irak Premier Lig | 22:00 | Veri bekleniyor | - | 2.49 | 8 |
-| Estrela - Braga | Portekiz Premier Lig | 22:15 | Veri bekleniyor | - | 5.57 | 7 |
-| Sportivo Carap - Benjamin Aceval | Paraguay Intermedia Lig | 22:30 | Veri bekleniyor | - | 2.96 | 8 |
 | Usm Alger - Js El Biar | Cezayir 1.Lig | 23:00 | Veri bekleniyor | - | 1.27 | 7 |
 | San Antonio - Atletico Fc | Ekvador Pro Lig Serie B Şampiyonluk Grubu | 23:30 | Veri bekleniyor | - | 2.14 | 8 |
 | Cumbaya - Gualaceo | Ekvador Pro Lig Serie B Küme Düşme Grubu | 23:30 | Veri bekleniyor | - | 2.24 | 6 |
