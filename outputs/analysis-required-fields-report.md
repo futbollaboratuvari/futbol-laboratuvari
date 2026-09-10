@@ -1,21 +1,14 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 93
-Tam analiz: 79
-Eksik analiz: 14
+Toplam analiz: 49
+Tam analiz: 42
+Eksik analiz: 7
 
-- Psv Eindhoven VS S. Donetsk U19: eksik score, confidence
-- Manchester Uni VS Sabah U19: eksik score, confidence
-- Dubai United VS Al Ahli Dubai: eksik score, confidence
-- Tallinna Jk Le VS Tartu Kalev: eksik score, confidence
-- Dinamo Tiflis VS Meshakhte: eksik score, confidence
-- Esteghlal Khuz VS Tractor Fc: eksik score, confidence
-- Sundby VS Midtjylland: eksik score, confidence
-- Al Muharraq VS Manama: eksik score, confidence
-- Al Sailiya VS Al Sadd: eksik score, confidence
 - Radnik Surduli VS Kizilyildiz: eksik score, confidence
 - Haninge VS Djurgarden: eksik score, confidence
+- Panathinaikos VS Kifisias: eksik score, confidence
 - Man. Utd VS Sabah: eksik score, confidence
 - B.Münih VS Bodo Glimt: eksik score, confidence
+- Cumbaya VS Gualaceo: eksik score, confidence
 - Sport Recife VS Ponte Preta: eksik score, confidence
