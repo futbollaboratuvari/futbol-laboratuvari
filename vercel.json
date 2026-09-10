@@ -19,11 +19,11 @@
   "rewrites": [
     {
       "source": "/data/:path*",
-      "destination": "https://raw.githubusercontent.com/futbollaboratuvari/futbol-laboratuvari/main/data/:path*"
+      "destination": "https://futbollaboratuvari.github.io/futbol-laboratuvari/data/:path*"
     },
     {
       "source": "/outputs/:path*",
-      "destination": "https://raw.githubusercontent.com/futbollaboratuvari/futbol-laboratuvari/main/outputs/:path*"
+      "destination": "https://futbollaboratuvari.github.io/futbol-laboratuvari/outputs/:path*"
     },
     { "source": "/favicon.ico", "destination": "/favicon.svg" }
   ],
