@@ -7,6 +7,8 @@ on:
     paths:
       - 'data/robot-analysis.json'
       - 'scripts/generate-high-odds-htft.js'
+      - 'scripts/iddaa-data-source.js'
+      - 'tests/high-odds-htft.test.js'
       - '.github/workflows/high-odds-htft.yml'
   schedule:
     - cron: '25 */3 * * *'
@@ -33,6 +35,9 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Test verified HTFT odds guard
+        run: node tests/high-odds-htft.test.js
+
       - name: Generate high-odds HTFT cards
         run: node scripts/generate-high-odds-htft.js
 
@@ -44,12 +49,19 @@ jobs:
           if (!Array.isArray(data.picks)) throw new Error('picks array missing');
           if (!Array.isArray(data.market_scope) || !data.market_scope.includes('1/2') || !data.market_scope.includes('2/1')) throw new Error('market scope invalid');
           if (data.picks.length > 3) throw new Error('more than 3 picks generated');
+          if (!/iddaa/i.test(String(data.odds_source || ''))) throw new Error('official odds source missing');
+          if (data.odds_label !== 'Resmî İddaa İY/MS oranı') throw new Error('official odds label missing');
           for (const pick of data.picks) {
             if (!['1/2', '2/1'].includes(pick.market)) throw new Error(`invalid market: ${pick.market}`);
             if (!pick.match_name || !pick.reason) throw new Error('incomplete pick');
-            if (!(Number(pick.model_odds) >= 11.75)) throw new Error('high-odds threshold failed');
+            if (pick.odds_verified !== true) throw new Error('unverified HTFT odds rejected');
+            if (!/iddaa/i.test(String(pick.odds_source || ''))) throw new Error('pick odds source missing');
+            const real = Number(pick.bookmaker_odds);
+            if (!(real >= 11.75)) throw new Error('real high-odds threshold failed');
+            if (Number(pick.real_odds) !== real) throw new Error('real_odds mismatch');
+            if (Number(pick.model_odds) !== real) throw new Error('legacy display field must mirror official odd');
           }
-          console.log(`Validated ${data.picks.length} high-odds HTFT picks for ${data.date}.`);
+          console.log(`Validated ${data.picks.length} verified official HTFT picks for ${data.date}.`);
           NODE
 
       - name: Commit generated data only
