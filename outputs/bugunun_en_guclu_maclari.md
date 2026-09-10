@@ -1,120 +1,154 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-10T00:21:07.493Z
-- Ham maç sayısı: 126
-- Yarın bülteni maç sayısı: 18
-- Detay blok sayısı: 349
-- Aktif bülten maçı: 106
-- Bültenden düşürülen maç: 20
+- Kaynak: Maçkolik canlı robot
+- Motor: High Value Coupon Engine
+- Puanlama: Net eşik kuralları
+- Güncelleme: 2026-09-10T01:26:27.248Z
+- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
+- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
-| --- | --- | --- | --- | --- | --- | --- |
-| Estudiantes Lp - Corinthians | Copa Libertadores Çeyrek Final | 03:30 | Veri bekleniyor | - | 2.14 | 8 |
-| Houston - Salt Lake | ABD MLS | 03:30 | Veri bekleniyor | - | 1.74 | 8 |
-| Chicago - Inter Miami | ABD MLS | 03:30 | Veri bekleniyor | - | 2 | 8 |
-| Austin - Colorado | ABD MLS | 03:30 | Veri bekleniyor | - | 2.26 | 8 |
-| Minnesota Utd - Dallas | ABD MLS | 03:30 | Veri bekleniyor | - | 1.74 | 8 |
-| Atletico Goian - Ceara | Brezilya Serie B | 03:30 | Veri bekleniyor | - | 1.53 | 7 |
-| North Texas - Houston Dynamo | ABD MLS Next Pro | 03:45 | Veri bekleniyor | - | 2.12 | 6 |
-| Municipal Lime - Aguila | El Salvador Primera Lig Apertura | 04:00 | Veri bekleniyor | - | 2.42 | 8 |
-| Deportivo Sapr - Cs Cartagines | CONCACAF Orta Amerika Kupası Çeyrek Final | 04:06 | Veri bekleniyor | - | 1.89 | 8 |
-| Deportivo Past - Independiente M | Kolombiya Kupa Son 16 Turu | 04:10 | Veri bekleniyor | - | 3.08 | 8 |
-| Suchitepequez - Guastatoya | Guatemala Ulusal Lig Apertura | 05:10 | Veri bekleniyor | - | 1.96 | 8 |
-| Vancouver - Los Angeles | ABD MLS | 05:30 | Veri bekleniyor | - | 1.16 | 6 |
-| Portland - St. Louis City | ABD MLS | 05:30 | Veri bekleniyor | - | 2.16 | 8 |
-| Los Angeles Fc - New York | ABD MLS | 05:30 | Veri bekleniyor | - | 1.23 | 6 |
-| San Diego - San Jose | ABD MLS | 05:30 | Veri bekleniyor | - | 1.6 | 8 |
-| San Jose Earth - Ventura County | ABD MLS Next Pro | 05:30 | Veri bekleniyor | - | 1.83 | 6 |
-| Depor Motagua - Alianza | CONCACAF Orta Amerika Kupası Çeyrek Final | 06:06 | Veri bekleniyor | - | 1.33 | 7 |
-| Barcelona U19 - Feyenoord U19 | UEFA Gençlik Ligi Lig Aşaması | 10:30 | Veri bekleniyor | - | 1.21 | 6 |
-| Psv Eindhoven - S. Donetsk U19 | UEFA Gençlik Ligi Lig Aşaması | 15:00 | Veri bekleniyor | - | 1.23 | 6 |
-| Slavia Prag U1 - Lens U19 | UEFA Gençlik Ligi Lig Aşaması | 15:00 | Veri bekleniyor | - | 1.92 | 8 |
-| Viettel - Cand | Vietnam V-Lig 1 | 15:15 | Veri bekleniyor | - | 2.93 | 8 |
-| Sabail - Mingeçevir Fk | Azerbaycan 1.Lig | 15:30 | Veri bekleniyor | - | 1.33 | 7 |
-| Zaqatala - Baku Sportinq | Azerbaycan 1.Lig | 15:30 | Veri bekleniyor | - | 3.01 | 8 |
-| Como U19 - Rb Leipzig U19 | UEFA Gençlik Ligi Lig Aşaması | 16:00 | Veri bekleniyor | - | 2.19 | 6 |
-| Manchester Uni - Sabah U19 | UEFA Gençlik Ligi Lig Aşaması | 16:00 | Veri bekleniyor | - | - | 3 |
-| Police - Updf | Uganda Premier Lig | 16:00 | Veri bekleniyor | - | 1.46 | 5 |
-| Cebrayıl - Xankendi | Azerbaycan 1.Lig | 16:00 | Veri bekleniyor | - | 2.05 | 8 |
-| Mega Sport - Haras El Hodood | Mısır 2. Lig | 16:30 | Veri bekleniyor | - | 3.54 | 6 |
-| Kahraba Ismail - El Daklyeh | Mısır 2. Lig | 16:30 | Veri bekleniyor | - | 1.67 | 8 |
-| Nasr - Derot | Mısır 2. Lig | 16:30 | Veri bekleniyor | - | 1.54 | 8 |
-| Pharco - Baladiyyat | Mısır 2. Lig | 16:30 | Veri bekleniyor | - | 1.62 | 5 |
-| Masar - El Saka El Hadi | Mısır 2. Lig | 16:30 | Veri bekleniyor | - | 1.6 | 5 |
-| Dubai United - Al Ahli Dubai | Birleşik Arap Emirlikleri Arap Körfez Ligi | 16:40 | Veri bekleniyor | - | 7.21 | 6 |
-| Al Jazira - Al Nasr | Birleşik Arap Emirlikleri Arap Körfez Ligi | 16:40 | Veri bekleniyor | - | 1.31 | 6 |
-| Ibri - Saham | Umman Profesyonel Lig | 16:40 | Veri bekleniyor | - | 2.35 | 8 |
-| Al Wakrah - Al Shamal | Katar Yıldızlar Ligi | 17:00 | Veri bekleniyor | - | 2.47 | 8 |
-| Andijon - Kuruvchi Kokand | Özbekistan Super League | 17:00 | Veri bekleniyor | - | 1.83 | 8 |
-| Dinamo Samarqa - Qizilqum Zarafs | Özbekistan Super League | 17:00 | Veri bekleniyor | - | 1.49 | 7 |
-| Nomme United I - Tallinna Kalev | Estonya Esiliiga A | 17:30 | Veri bekleniyor | - | 2.39 | 6 |
-| Fc Tallinn - Fc Maardu | Estonya Esiliiga A | 17:30 | Veri bekleniyor | - | 2.61 | 6 |
-| Nomme Kalju Ii - Flora Tallinn I | Estonya Esiliiga A | 17:30 | Veri bekleniyor | - | 3.62 | 5 |
-| Asteras Tripol - Aris | Yunanistan Kupa Lig Aşaması | 17:45 | Veri bekleniyor | - | 2.69 | 8 |
-| Tallinna Jk Le - Tartu Kalev | Estonya Esiliiga B | 17:45 | Veri bekleniyor | - | 6.73 | 4 |
-| Al Nahda - Al Seeb | Umman Profesyonel Lig | 17:55 | Veri bekleniyor | - | 3.66 | 8 |
-| Dinamo Tiflis - Meshakhte | Gürcistan Erovnuli Liga | 18:00 | Veri bekleniyor | - | 1.23 | 6 |
-| Xorazm Urganch - Sogdiyona Jizza | Özbekistan Super League | 18:00 | Veri bekleniyor | - | 2.63 | 8 |
-| Vaprus Ii - Phoenix | Estonya Esiliiga B | 18:00 | Veri bekleniyor | - | 2.03 | 6 |
-| Esteghlal Khuz - Tractor Fc | İran Persian Gulf Pro Lig | 18:30 | Veri bekleniyor | - | 6.97 | 5 |
-| Shams Azar Qaz - Gol Gohar Sirja | İran Persian Gulf Pro Lig | 18:30 | Veri bekleniyor | - | 3.55 | 6 |
-| Sundby - Midtjylland | Danimarka DBU Kupası 3.Tur | 19:00 | Veri bekleniyor | - | 17.5 | 2 |
-| Kolombiya U20 - Portekiz U20 (K | Kadınlar U20 Dünya Kupası Grup E | 19:00 | Veri bekleniyor | - | 2.66 | 8 |
-| Al Jazeera - Shabab Al Ordon | Ürdün Premier Lig | 19:00 | Veri bekleniyor | - | 2.21 | 8 |
-| Al Muharraq - Manama | Bahreyn Premier Lig | 19:00 | Veri bekleniyor | - | 1.13 | 6 |
-| Al Rifaa - Khalidiya | Bahreyn Premier Lig | 19:00 | Veri bekleniyor | - | 2.61 | 8 |
-| Super Nova - Fk Tukums 2000 | Letonya Virsliga | 19:00 | Veri bekleniyor | - | 1.86 | 8 |
-| Smail - Fanja | Umman Profesyonel Lig | 19:00 | Veri bekleniyor | - | 2.2 | 8 |
-| Levadia Tallin - Tartu Welco | Estonya Esiliiga A | 19:00 | Veri bekleniyor | - | 3.4 | 6 |
-| Viimsi Mrjk - Fc Elva | Estonya Esiliiga A | 19:00 | Veri bekleniyor | - | 1.42 | 6 |
-| Tammeka Ii - Viljandi Tulevi | Estonya Esiliiga B | 19:00 | Veri bekleniyor | - | 1.81 | 6 |
-| Al Ain - Al Wasl | Birleşik Arap Emirlikleri Arap Körfez Ligi | 19:15 | Veri bekleniyor | - | 1.55 | 8 |
-| Al Sailiya - Al Sadd | Katar Yıldızlar Ligi | 19:15 | Veri bekleniyor | - | 10.65 | 5 |
-| Fenerbahçe - Roma | UEFA Şampiyonlar Ligi Lig Aşaması | 19:45 | Veri bekleniyor | - | 3.06 | 8 |
-| Psv Eindhoven - Shakhtar Donets | UEFA Şampiyonlar Ligi Lig Aşaması | 19:45 | Veri bekleniyor | - | 1.29 | 7 |
-| Radnik Surduli - Kizilyildiz | Sırbistan Süper Lig | 20:00 | Veri bekleniyor | - | 7.97 | 4 |
-| Haninge - Djurgarden | İsveç Kupa 2.Tur | 20:00 | Veri bekleniyor | - | 17.5 | 2 |
-| Falkenberg - Oster | İsveç Superettan | 20:00 | Veri bekleniyor | - | 1.72 | 8 |
-| Sundsvall - Orebro | İsveç Superettan | 20:00 | Veri bekleniyor | - | 3.26 | 8 |
-| Varbergs - Norrkoping | İsveç Superettan | 20:00 | Veri bekleniyor | - | 2.8 | 8 |
-| Ostersund - Brage | İsveç Superettan | 20:00 | Veri bekleniyor | - | 1.51 | 8 |
-| Gagra - Torpedo Kutaisi | Gürcistan Erovnuli Liga | 20:00 | Veri bekleniyor | - | 3.03 | 8 |
-| Dukagjini - Malisheva | Kosova Süper Lig | 20:00 | Veri bekleniyor | - | 2.14 | 8 |
-| Es Ben Aknoun - Biskra | Cezayir 1.Lig | 21:00 | Veri bekleniyor | - | 1.71 | 8 |
-| Bulle - Amical Saint-Pr | İsviçre 1.Lig Promotion | 21:00 | Veri bekleniyor | - | 1.32 | 4 |
-| Bokelj Kotor - Otrant | Karadağ 1.Lig | 21:00 | Veri bekleniyor | - | 2.56 | 8 |
-| Buducnost - Jezero Plav | Karadağ 1.Lig | 21:00 | Veri bekleniyor | - | 1.76 | 8 |
-| Fk Arsenal Tiv - Mladost Dg | Karadağ 1.Lig | 21:00 | Veri bekleniyor | - | 2.14 | 8 |
-| Panathinaikos - Kifisias | Yunanistan Süper Lig | 21:15 | Veri bekleniyor | - | 1.12 | 6 |
-| Cannes - Amiens | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 1.93 | 8 |
-| Como - Rb Leipzig | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | 1.65 | 8 |
-| Slavia Prag - Lens | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | 2.3 | 8 |
-| Man. Utd - Sabah | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | - | 5 |
-| B.Münih - Bodo Glimt | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Veri bekleniyor | - | - | 4 |
-| Stevenage - Luton | İngiltere 1.Lig | 22:00 | Veri bekleniyor | - | 2.68 | 8 |
-| Cerro - Cerrito | Uruguay Kupa Ön Eleme Turu Grup 3 | 22:00 | Veri bekleniyor | - | 2 | 5 |
-| Al Jawiya - Al Zawraa | Irak Premier Lig | 22:00 | Veri bekleniyor | - | 2.1 | 6 |
-| Estrela - Braga | Portekiz Premier Lig | 22:15 | Veri bekleniyor | - | 4.53 | 8 |
-| Sportivo Carap - Benjamin Aceval | Paraguay Intermedia Lig | 22:30 | Veri bekleniyor | - | 3.15 | 8 |
-| Usm Alger - Js El Biar | Cezayir 1.Lig | 23:00 | Veri bekleniyor | - | 1.23 | 7 |
-| Aurora - Municipal | Guatemala Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 3.32 | 8 |
-| Export Sebaco - Diriangen | Nikaragua Premier Lig Apertura | 00:00 | Veri bekleniyor | - | 3.98 | 8 |
-| Orsomarso - Tigres Fc | Kolombiya Primera B Clausura | 01:00 | Veri bekleniyor | - | 2 | 8 |
-| Patriotas - Barranguilla | Kolombiya Primera B Clausura | 01:00 | Veri bekleniyor | - | 1.43 | 7 |
-| 12 De Junio Vh - Atlético Tembet | Paraguay Intermedia Lig | 01:00 | Veri bekleniyor | - | 1.47 | 7 |
-| Club Mercedes - Dyc Espanol | Arjantin Primera C | 01:00 | Veri bekleniyor | - | 2.97 | 8 |
-| Sao Bernardo - Londrina | Brezilya Serie B | 01:30 | Veri bekleniyor | - | 1.61 | 8 |
-| Vila Nova - Goias | Brezilya Serie B | 01:30 | Veri bekleniyor | - | 1.79 | 8 |
-| Deportivo Lara - Trujillanos | Venezuela Kupa 1.Tur Grup D | 02:00 | Veri bekleniyor | - | 1.91 | 8 |
-| Malacateco - Antigua Guatema | Guatemala Ulusal Lig Apertura | 03:00 | Veri bekleniyor | - | 2.14 | 8 |
-| Managua - Real Esteli | Nikaragua Premier Lig Apertura | 03:00 | Veri bekleniyor | - | 2.18 | 6 |
-| Indep. Jose Te - Flamengo | Copa Libertadores Çeyrek Final | 03:30 | Veri bekleniyor | - | 2.38 | 8 |
-| Cienciano - Torque | Copa Sudamericana Çeyrek Final | 03:30 | Veri bekleniyor | - | 1.39 | 7 |
-| Sport Recife - Ponte Preta | Brezilya Serie B | 03:30 | Veri bekleniyor | - | - | 5 |
-| Los Millionari - Deportivo Cali | Kolombiya Primera A Clausura | 04:00 | Veri bekleniyor | - | 1.52 | 7 |
-| Alebrijes - Durango | Meksika Ascenso MX Apertura | 04:00 | Veri bekleniyor | - | 2.36 | 8 |
-| Xelaju - Coban Imperial | Guatemala Ulusal Lig Apertura | 05:00 | Veri bekleniyor | - | 1.28 | 7 |
-| Pumas Unam - Club Leon | Meksika Liga MX Apertura | 06:05 | Veri bekleniyor | - | 1.83 | 8 |
+| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Atlanta Utd VS Orlando City | ABD MLS | 02:30 | MS 1 | 1.97 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Montreal VS Charlotte | ABD MLS | 02:30 | MS 1 | 2.11 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Toronto VS Nashville Sc | ABD MLS | 02:30 | MS 2 | 1.87 | 62 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Dc United VS Columbus | ABD MLS | 02:30 | MS 1 | 2.25 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Operario VS Regatas | Brezilya Serie B | 02:30 | 2.5 Alt | 1.60 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| America Mineir VS Nautico | Brezilya Serie B | 02:30 | 2.5 Alt | 1.68 | 64 | Sadece izleme | Değerli | Orta | Orta | scheduled |
+| Inter Toronto VS Pacific Fc | Kanada Premier Lig | 02:30 | MS 1 | 2.03 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Philadelphia VS Cincinnati | ABD MLS | 02:45 | MS 1 | 1.51 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| New York City VS New England | ABD MLS | 03:00 | 2.5 Alt | 1.95 | 63 | Sadece izleme | Değerli | Orta | Orta | scheduled |
+| Once Caldas VS Alianza Petrole | Kolombiya Kupa Son 16 Turu | 03:00 | 2.5 Alt | 1.46 | 62 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Comunicaciones VS Marquense | Guatemala Ulusal Lig Apertura | 03:00 | 2.5 Üst | 1.79 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Huntsville Cit VS Chattanooga | ABD MLS Next Pro | 03:00 | 2.5 Alt | 1.43 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Estudiantes Lp VS Corinthians | Copa Libertadores Çeyrek Final | 03:30 | MS 1 | 2.14 | 58 | Sadece izleme | Değerli | Orta | Düşük | scheduled |
+| Houston VS Salt Lake | ABD MLS | 03:30 | MS 1 | 1.74 | 68 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Chicago VS Inter Miami | ABD MLS | 03:30 | MS 2 | 2.45 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Düşük | scheduled |
+| Austin VS Colorado | ABD MLS | 03:30 | 2.5 Üst | 1.63 | 72 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
+| Minnesota Utd VS Dallas | ABD MLS | 03:30 | MS 1 | 1.74 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Atletico Goian VS Ceara | Brezilya Serie B | 03:30 | 2.5 Alt | 1.46 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| North Texas VS Houston Dynamo | ABD MLS Next Pro | 03:45 | MS 1 | 2.12 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Municipal Lime VS Aguila | El Salvador Primera Lig Apertura | 04:00 | 2.5 Üst | 1.83 | 64 | Sadece izleme | Değerli | Orta | Orta | scheduled |
+| Deportivo Sapr VS Cs Cartagines | CONCACAF Orta Amerika Kupası Çeyrek Final | 04:06 | 2.5 Alt | 1.42 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Deportivo Past VS Independiente M | Kolombiya Kupa Son 16 Turu | 04:10 | 2.5 Üst | 1.88 | 63 | Sadece izleme | Değerli | Orta | Orta | scheduled |
+| Suchitepequez VS Guastatoya | Guatemala Ulusal Lig Apertura | 05:10 | 2.5 Üst | 2.21 | 72 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Vancouver VS Los Angeles | ABD MLS | 05:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Portland VS St. Louis City | ABD MLS | 05:30 | MS 1 | 2.16 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Los Angeles Fc VS New York | ABD MLS | 05:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| San Diego VS San Jose | ABD MLS | 05:30 | MS 1 | 1.60 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| San Jose Earth VS Ventura County | ABD MLS Next Pro | 05:30 | MS 1 | 1.83 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Depor Motagua VS Alianza | CONCACAF Orta Amerika Kupası Çeyrek Final | 06:06 | MS 1 | 1.33 | 57 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Barcelona U19 VS Feyenoord U19 | UEFA Gençlik Ligi Lig Aşaması | 10:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Psv Eindhoven VS S. Donetsk U19 | UEFA Gençlik Ligi Lig Aşaması | 15:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Slavia Prag U1 VS Lens U19 | UEFA Gençlik Ligi Lig Aşaması | 15:00 | MS 1 | 1.92 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Viettel VS Cand | Vietnam V-Lig 1 | 15:15 | 2.5 Üst | 1.65 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Sabail VS Mingeçevir Fk | Azerbaycan 1.Lig | 15:30 | MS 1 | 1.33 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Zaqatala VS Baku Sportinq | Azerbaycan 1.Lig | 15:30 | 2.5 Alt | 1.52 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Como U19 VS Rb Leipzig U19 | UEFA Gençlik Ligi Lig Aşaması | 16:00 | MS 2 | 2.08 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Manchester Uni VS Sabah U19 | UEFA Gençlik Ligi Lig Aşaması | 16:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Police VS Updf | Uganda Premier Lig | 16:00 | 2.5 Alt | 1.53 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Cebrayıl VS Xankendi | Azerbaycan 1.Lig | 16:00 | 2.5 Üst | 1.59 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Mega Sport VS Haras El Hodood | Mısır 2. Lig | 16:30 | 2.5 Alt | 1.46 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Kahraba Ismail VS El Daklyeh | Mısır 2. Lig | 16:30 | MS 1 | 1.67 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Nasr VS Derot | Mısır 2. Lig | 16:30 | 2.5 Alt | 1.36 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Pharco VS Baladiyyat | Mısır 2. Lig | 16:30 | MS 1 | 1.62 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Masar VS El Saka El Hadi | Mısır 2. Lig | 16:30 | MS 1 | 1.60 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Dubai United VS Al Ahli Dubai | Birleşik Arap Emirlikleri Arap Körfez Ligi | 16:40 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Al Jazira VS Al Nasr | Birleşik Arap Emirlikleri Arap Körfez Ligi | 16:40 | MS 1 | 1.31 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Ibri VS Saham | Umman Profesyonel Lig | 16:40 | 2.5 Alt | 1.45 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Al Wakrah VS Al Shamal | Katar Yıldızlar Ligi | 17:00 | MS 2 | 2.00 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Andijon VS Kuruvchi Kokand | Özbekistan Super League | 17:00 | 2.5 Alt | 1.41 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Dinamo Samarqa VS Qizilqum Zarafs | Özbekistan Super League | 17:00 | MS 1 | 1.49 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Nomme United I VS Tallinna Kalev | Estonya Esiliiga A | 17:30 | 2.5 Alt | 1.43 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Fc Tallinn VS Fc Maardu | Estonya Esiliiga A | 17:30 | MS 2 | 1.81 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Nomme Kalju Ii VS Flora Tallinn I | Estonya Esiliiga A | 17:30 | MS 2 | 1.44 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Asteras Tripol VS Aris | Yunanistan Kupa Lig Aşaması | 17:45 | 2.5 Alt | 1.45 | 65 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Tallinna Jk Le VS Tartu Kalev | Estonya Esiliiga B | 17:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Al Nahda VS Al Seeb | Umman Profesyonel Lig | 17:55 | 2.5 Alt | 1.49 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Dinamo Tiflis VS Meshakhte | Gürcistan Erovnuli Liga | 18:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Xorazm Urganch VS Sogdiyona Jizza | Özbekistan Super League | 18:00 | 2.5 Alt | 1.77 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Vaprus Ii VS Phoenix | Estonya Esiliiga B | 18:00 | MS 1 | 2.03 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Esteghlal Khuz VS Tractor Fc | İran Persian Gulf Pro Lig | 18:30 | MS 2 | 1.26 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Shams Azar Qaz VS Gol Gohar Sirja | İran Persian Gulf Pro Lig | 18:30 | 2.5 Alt | 1.37 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Sundby VS Midtjylland | Danimarka DBU Kupası 3.Tur | 19:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Kolombiya U20 VS Portekiz U20 (K | Kadınlar U20 Dünya Kupası Grup E | 19:00 | 2.5 Alt | 1.48 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Al Jazeera VS Shabab Al Ordon | Ürdün Premier Lig | 19:00 | 2.5 Alt | 1.45 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Al Muharraq VS Manama | Bahreyn Premier Lig | 19:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Al Rifaa VS Khalidiya | Bahreyn Premier Lig | 19:00 | 2.5 Üst | 1.65 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Super Nova VS Fk Tukums 2000 | Letonya Virsliga | 19:00 | 2.5 Alt | 1.76 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Smail VS Fanja | Umman Profesyonel Lig | 19:00 | 2.5 Alt | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Levadia Tallin VS Tartu Welco | Estonya Esiliiga A | 19:00 | MS 2 | 1.51 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Viimsi Mrjk VS Fc Elva | Estonya Esiliiga A | 19:00 | MS 1 | 1.42 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Tammeka Ii VS Viljandi Tulevi | Estonya Esiliiga B | 19:00 | MS 1 | 1.81 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Al Ain VS Al Wasl | Birleşik Arap Emirlikleri Arap Körfez Ligi | 19:15 | MS 1 | 1.55 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Al Sailiya VS Al Sadd | Katar Yıldızlar Ligi | 19:15 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Fenerbahçe VS Roma | UEFA Şampiyonlar Ligi Lig Aşaması | 19:45 | 2.5 Üst | 1.61 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Psv Eindhoven VS Shakhtar Donets | UEFA Şampiyonlar Ligi Lig Aşaması | 19:45 | MS 1 | 1.29 | 64 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Radnik Surduli VS Kizilyildiz | Sırbistan Süper Lig | 20:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Haninge VS Djurgarden | İsveç Kupa 2.Tur | 20:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Falkenberg VS Oster | İsveç Superettan | 20:00 | MS 1 | 1.72 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Sundsvall VS Orebro | İsveç Superettan | 20:00 | 2.5 Üst | 1.59 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Varbergs VS Norrkoping | İsveç Superettan | 20:00 | 2.5 Alt | 1.90 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Ostersund VS Brage | İsveç Superettan | 20:00 | MS 1 | 1.51 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Gagra VS Torpedo Kutaisi | Gürcistan Erovnuli Liga | 20:00 | 2.5 Alt | 1.78 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Dukagjini VS Malisheva | Kosova Süper Lig | 20:00 | 2.5 Üst | 1.65 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Es Ben Aknoun VS Biskra | Cezayir 1.Lig | 21:00 | 2.5 Alt | 1.56 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Bulle VS Amical Saint-Pr | İsviçre 1.Lig Promotion | 21:00 | MS 1 | 1.32 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Bokelj Kotor VS Otrant | Karadağ 1.Lig | 21:00 | MS 2 | 2.29 | 47 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Buducnost VS Jezero Plav | Karadağ 1.Lig | 21:00 | 2.5 Alt | 1.38 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Fk Arsenal Tiv VS Mladost Dg | Karadağ 1.Lig | 21:00 | 2.5 Alt | 1.42 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Panathinaikos VS Kifisias | Yunanistan Süper Lig | 21:15 | 2.5 Alt | 1.79 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Cannes VS Amiens | Fransa Ligue 3 | 21:45 | 2.5 Alt | 1.52 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Como VS Rb Leipzig | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | MS 1 | 1.62 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Slavia Prag VS Lens | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | 2.5 Üst | 1.58 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Man. Utd VS Sabah | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| B.Münih VS Bodo Glimt | UEFA Şampiyonlar Ligi Lig Aşaması | 22:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Stevenage VS Luton | İngiltere 1.Lig | 22:00 | 2.5 Üst | 1.70 | 79 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
+| Cerro VS Cerrito | Uruguay Kupa Ön Eleme Turu Grup 3 | 22:00 | 2.5 Alt | 1.37 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Al Jawiya VS Al Zawraa | Irak Premier Lig | 22:00 | MS 1 | 2.15 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Estrela VS Braga | Portekiz Premier Lig | 22:15 | 2.5 Üst | 1.75 | 65 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
+| Sportivo Carap VS Benjamin Aceval | Paraguay Intermedia Lig | 22:30 | MS 2 | 1.69 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Usm Alger VS Js El Biar | Cezayir 1.Lig | 23:00 | 2.5 Alt | 1.52 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Aurora VS Municipal | Guatemala Ulusal Lig Apertura | 00:00 | 2.5 Alt | 1.39 | 79 | Orta risk kupon adayı | Değerli | Düşük | Düşük | scheduled |
+| Export Sebaco VS Diriangen | Nikaragua Premier Lig Apertura | 00:00 | MS 2 | 1.51 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Orsomarso VS Tigres Fc | Kolombiya Primera B Clausura | 01:00 | MS 1 | 1.95 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Patriotas VS Barranguilla | Kolombiya Primera B Clausura | 01:00 | MS 1 | 1.44 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| 12 De Junio Vh VS Atlético Tembet | Paraguay Intermedia Lig | 01:00 | MS 1 | 1.47 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Club Mercedes VS Dyc Espanol | Arjantin Primera C | 01:00 | 2.5 Alt | 1.39 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Sao Bernardo VS Londrina | Brezilya Serie B | 01:30 | 2.5 Alt | 1.50 | 69 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
+| Vila Nova VS Goias | Brezilya Serie B | 01:30 | 2.5 Alt | 1.35 | 77 | Orta risk kupon adayı | Piyasa ile Uyumlu | Düşük | Düşük | scheduled |
+| Deportivo Lara VS Trujillanos | Venezuela Kupa 1.Tur Grup D | 02:00 | 2.5 Alt | 1.42 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Malacateco VS Antigua Guatema | Guatemala Ulusal Lig Apertura | 03:00 | 2.5 Alt | 1.47 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Managua VS Real Esteli | Nikaragua Premier Lig Apertura | 03:00 | MS 1 | 2.18 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Indep. Jose Te VS Flamengo | Copa Libertadores Çeyrek Final | 03:30 | 2.5 Alt | 1.41 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Cienciano VS Torque | Copa Sudamericana Çeyrek Final | 03:30 | 2.5 Üst | 1.65 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Sport Recife VS Ponte Preta | Brezilya Serie B | 03:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Los Millionari VS Deportivo Cali | Kolombiya Primera A Clausura | 04:00 | 2.5 Alt | 1.48 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Alebrijes VS Durango | Meksika Ascenso MX Apertura | 04:00 | 2.5 Alt | 1.61 | 66 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
+| Xelaju VS Coban Imperial | Guatemala Ulusal Lig Apertura | 05:00 | 2.5 Üst | 1.66 | 76 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
+| Pumas Unam VS Club Leon | Meksika Liga MX Apertura | 06:05 | 2.5 Alt | 1.82 | 65 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
+
+## Tek Mac Onerileri
+| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Fenerbahçe VS Roma | 2.5 Üst | 1.61 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Stevenage VS Luton | 2.5 Üst | 1.70 | 79 | Orta risk kupon adayı | Değerli | Orta | Düşük |
+| Aurora VS Municipal | 2.5 Alt | 1.39 | 79 | Orta risk kupon adayı | Değerli | Düşük | Düşük |
+| Vila Nova VS Goias | 2.5 Alt | 1.35 | 77 | Orta risk kupon adayı | Piyasa ile Uyumlu | Düşük | Düşük |
+| Xelaju VS Coban Imperial | 2.5 Üst | 1.66 | 76 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
+| Suchitepequez VS Guastatoya | 2.5 Üst | 2.21 | 72 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+
+## 2'li Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Fenerbahçe VS Roma + Stevenage VS Luton | 2.5 Üst + 2.5 Üst | 2.74 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Xelaju VS Coban Imperial + Suchitepequez VS Guastatoya | 2.5 Üst + 2.5 Üst | 3.67 | 74 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Austin VS Colorado + Cienciano VS Torque | 2.5 Üst + 2.5 Üst | 2.69 | 71 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+
+## 3'lu Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Fenerbahçe VS Roma + Stevenage VS Luton + Xelaju VS Coban Imperial | 2.5 Üst + 2.5 Üst + 2.5 Üst | 4.54 | 78 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Suchitepequez VS Guastatoya + Austin VS Colorado + Cienciano VS Torque | 2.5 Üst + 2.5 Üst + 2.5 Üst | 5.94 | 71 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |

@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.09.2026 03:21:09
+Oluşturma: 10.09.2026 04:26:34
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1114
-- Kazanan tahmin: 212
-- Kaybeden tahmin: 174
+- Bekleyen tahmin: 1110
+- Kazanan tahmin: 214
+- Kaybeden tahmin: 176
 - Lig sayısı: 260
 - Seçenek sayısı: 6
 
@@ -23,14 +23,15 @@ Oluşturma: 10.09.2026 03:21:09
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 3, bekleyen 2, başarı %100, düz getiri %146, ağırlık 1
-- 2.5 Üst: toplam 235, bekleyen 150, başarı %60, düz getiri %4, ağırlık 1
-- MS 1: toplam 491, bekleyen 380, başarı %58, düz getiri %-6, ağırlık 1
+- 2.5 Üst: toplam 235, bekleyen 149, başarı %59, düz getiri %3, ağırlık 1
+- MS 1: toplam 490, bekleyen 379, başarı %58, düz getiri %-6, ağırlık 1
 - MS 2: toplam 216, bekleyen 162, başarı %52, düz getiri %-10, ağırlık 1
-- 2.5 Alt: toplam 552, bekleyen 419, başarı %50, düz getiri %-18, ağırlık 1
+- 2.5 Alt: toplam 553, bekleyen 417, başarı %51, düz getiri %-17, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-10 | Uganda Premier Lig | Police - Updf | 2.5 Alt | pending | 46/100
 - 2026-09-10 | Estonya Esiliiga A | Nomme United I - Tallinna Kalev | 2.5 Alt | pending | 48/100
 - 2026-09-10 | İran Persian Gulf Pro Lig | Shams Azar Qaz - Gol Gohar Sirja | 2.5 Alt | pending | 51/100
 - 2026-09-10 | Mısır 2. Lig | Mega Sport - Haras El Hodood | 2.5 Alt | pending | 49/100
@@ -45,5 +46,4 @@ Oluşturma: 10.09.2026 03:21:09
 - 2026-09-10 | UEFA Şampiyonlar Ligi Lig Aşaması | Fenerbahçe - Roma | 2.5 Üst | pending | 76/100
 - 2026-09-10 | UEFA Şampiyonlar Ligi Lig Aşaması | Psv Eindhoven - Shakhtar Donets | MS 1 | pending | 60/100
 - 2026-09-10 | İsveç Superettan | Falkenberg - Oster | MS 1 | pending | 50/100
-- 2026-09-10 | İsveç Superettan | Sundsvall - Orebro | 2.5 Üst | pending | 54/100
 

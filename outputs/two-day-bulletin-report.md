@@ -2,25 +2,15 @@
 
 Gunler: 2026-09-10 / 2026-09-11
 Kaynak: fixtures.json
-Ham mac: 126
-Aktif mac: 106
+Ham mac: 129
+Aktif mac: 96
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 20
-Bugun: 88
+Bultenden dusurulen mac: 33
+Bugun: 78
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-09-10 03:30 | Copa Libertadores Çeyrek Final | Estudiantes Lp - Corinthians | scheduled | -
-- 2026-09-10 03:30 | ABD MLS | Houston - Salt Lake | scheduled | -
-- 2026-09-10 03:30 | ABD MLS | Chicago - Inter Miami | scheduled | -
-- 2026-09-10 03:30 | ABD MLS | Austin - Colorado | scheduled | -
-- 2026-09-10 03:30 | ABD MLS | Minnesota Utd - Dallas | scheduled | -
-- 2026-09-10 03:30 | Brezilya Serie B | Atletico Goian - Ceara | scheduled | -
-- 2026-09-10 03:45 | ABD MLS Next Pro | North Texas - Houston Dynamo | scheduled | -
-- 2026-09-10 04:00 | El Salvador Primera Lig Apertura | Municipal Lime - Aguila | scheduled | -
-- 2026-09-10 04:06 | CONCACAF Orta Amerika Kupası Çeyrek Final | Deportivo Sapr - Cs Cartagines | scheduled | -
-- 2026-09-10 04:10 | Kolombiya Kupa Son 16 Turu | Deportivo Past - Independiente M | scheduled | -
 - 2026-09-10 05:10 | Guatemala Ulusal Lig Apertura | Suchitepequez - Guastatoya | scheduled | -
 - 2026-09-10 05:30 | ABD MLS | Vancouver - Los Angeles | scheduled | -
 - 2026-09-10 05:30 | ABD MLS | Portland - St. Louis City | scheduled | -
