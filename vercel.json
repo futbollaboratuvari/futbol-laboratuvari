@@ -4,6 +4,7 @@
   "git": {
     "deploymentEnabled": true
   },
+  "ignoreCommand": "node scripts/vercel-ignore-build.js",
   "installCommand": "npm install --omit=dev --ignore-scripts --package-lock=false",
   "buildCommand": "npm run build",
   "outputDirectory": "public",
@@ -16,9 +17,31 @@
     }
   ],
   "rewrites": [
+    {
+      "source": "/data/:path*",
+      "destination": "https://raw.githubusercontent.com/futbollaboratuvari/futbol-laboratuvari/main/data/:path*"
+    },
+    {
+      "source": "/outputs/:path*",
+      "destination": "https://raw.githubusercontent.com/futbollaboratuvari/futbol-laboratuvari/main/outputs/:path*"
+    },
     { "source": "/favicon.ico", "destination": "/favicon.svg" }
   ],
   "headers": [
+    {
+      "source": "/data/:path*",
+      "headers": [
+        { "key": "x-vercel-enable-rewrite-caching", "value": "0" },
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/outputs/:path*",
+      "headers": [
+        { "key": "x-vercel-enable-rewrite-caching", "value": "0" },
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
     {
       "source": "/(.*)",
       "headers": [
