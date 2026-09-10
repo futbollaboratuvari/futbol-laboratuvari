@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.09.2026 07:46:11
+Oluşturma: 10.09.2026 07:57:10
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1114
-- Kazanan tahmin: 211
+- Bekleyen tahmin: 1113
+- Kazanan tahmin: 212
 - Kaybeden tahmin: 175
 - Lig sayısı: 259
 - Seçenek sayısı: 6
@@ -25,7 +25,7 @@ Oluşturma: 10.09.2026 07:46:11
 - 2.5 Üst: toplam 237, bekleyen 151, başarı %59, düz getiri %3, ağırlık 1
 - MS 1: toplam 487, bekleyen 377, başarı %57, düz getiri %-6, ağırlık 1
 - MS 2: toplam 216, bekleyen 162, başarı %52, düz getiri %-10, ağırlık 1
-- 2.5 Alt: toplam 555, bekleyen 421, başarı %51, düz getiri %-17, ağırlık 1
+- 2.5 Alt: toplam 555, bekleyen 420, başarı %51, düz getiri %-16, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
 - MS X: toplam 2, bekleyen 2, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
@@ -40,7 +40,7 @@ Oluşturma: 10.09.2026 07:46:11
 - 2026-09-10 | İsveç Superettan | Varbergs - Norrkoping | MS 2 | pending | 48/100
 - 2026-09-10 | Vietnam V-Lig 1 | Viettel - Cand | 2.5 Alt | pending | 52/100
 - 2026-09-10 | Mısır 2. Lig | Pharco - Baladiyyat | 2.5 Üst | pending | 49/100
-- 2026-09-10 | Guatemala Ulusal Lig Apertura | Deportivo San - Mixco | 2.5 Alt | pending | 63/100
+- 2026-09-10 | Guatemala Ulusal Lig Apertura | Deportivo San - Mixco | 2.5 Alt | won | 63/100
 - 2026-09-10 | Uganda Premier Lig | Police - Updf | 2.5 Alt | pending | 45/100
 - 2026-09-10 | Estonya Esiliiga A | Nomme United I - Tallinna Kalev | 2.5 Alt | pending | 48/100
 - 2026-09-10 | İran Persian Gulf Pro Lig | Shams Azar Qaz - Gol Gohar Sirja | 2.5 Alt | pending | 51/100

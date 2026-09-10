@@ -1,13 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 126
-Tam analiz: 109
-Eksik analiz: 17
+Toplam analiz: 90
+Tam analiz: 76
+Eksik analiz: 14
 
-- America De Cal VS Pereira: eksik score, confidence
-- Vancouver VS Los Angeles: eksik score, confidence
-- Los Angeles Fc VS New York: eksik score, confidence
 - Barcelona U19 VS Feyenoord U19: eksik score, confidence
 - Psv Eindhoven VS S. Donetsk U19: eksik score, confidence
 - Manchester Uni VS Sabah U19: eksik score, confidence
