@@ -3,15 +3,14 @@
 Gunler: 2026-09-11 / 2026-09-12
 Kaynak: fixtures.json
 Ham mac: 253
-Aktif mac: 245
+Aktif mac: 244
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 221
+Bultenden dusurulen mac: 9
+Bugun: 220
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-11 02:00 | Venezuela Kupa 1.Tur Grup D | Deportivo Lara - Trujillanos | scheduled | -
 - 2026-09-11 03:00 | Guatemala Ulusal Lig Apertura | Malacateco - Antigua Guatema | scheduled | -
 - 2026-09-11 03:00 | Nikaragua Premier Lig Apertura | Managua - Real Esteli | scheduled | -
 - 2026-09-11 03:30 | Copa Libertadores Çeyrek Final | Indep. Jose Te - Flamengo | scheduled | -

@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-09-10T23:00:37.019Z",
+  "generated_at": "2026-09-10T23:15:45.900Z",
   "date": "2026-09-11",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
   "completed_items": [
+    {
+      "id": "2026-09-11|guatemala ulusal lig apertura|aurora municipal|2 5 alt|00 00",
+      "date": "2026-09-11",
+      "time": "00:00",
+      "title": "Aurora - Municipal",
+      "match": "Aurora - Municipal",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.65",
+      "score": "1-2",
+      "result_score": "1-2",
+      "confidence": "73%",
+      "confidence_score": "73%",
+      "model_score": 73,
+      "estimated_probability": 56.8,
+      "market_probability": 50,
+      "edge_percent": 6.8,
+      "data_completeness": 67,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "lost",
+      "result": "lost",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-10T23:15:45.761Z",
+      "source": "Robot ham veri havuzu"
+    },
     {
       "id": "2026-09-10|portekiz premier lig|estrela braga|2 5 ust|22 15",
       "date": "2026-09-10",
@@ -786,47 +813,20 @@
       "market_group_label": "Gol Marketleri",
       "finalized_at": "2026-09-10T09:43:09.235Z",
       "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-10|abd mls|new york city new england|2 5 alt|03 00",
-      "date": "2026-09-10",
-      "time": "03:00",
-      "title": "New York City - New England",
-      "match": "New York City - New England",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "odds": "1.95",
-      "score": "1-2",
-      "result_score": "1-2",
-      "confidence": "60%",
-      "confidence_score": "60%",
-      "model_score": 60,
-      "estimated_probability": 45.2,
-      "market_probability": 43.6,
-      "edge_percent": 1.5,
-      "data_completeness": 57,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-10T04:57:19.566Z",
-      "source": "Robot ham veri havuzu"
     }
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 358,
-    "pending_count": 1142,
-    "won_count": 196,
+    "measured_count": 357,
+    "pending_count": 1143,
+    "won_count": 195,
     "lost_count": 162,
     "void_count": 0,
     "success_rate": 55,
-    "probability_sample_count": 358,
+    "probability_sample_count": 357,
     "brier_score": 0.2376,
-    "baseline_brier_score": 0.2477,
-    "brier_skill_score": 0.041,
+    "baseline_brier_score": 0.2479,
+    "brier_skill_score": 0.0416,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -848,18 +848,18 @@
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 119,
-        "won": 50,
+        "predictions": 117,
+        "won": 49,
         "average_probability": 45.5,
-        "observed_rate": 42
+        "observed_rate": 41.9
       },
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 164,
+        "predictions": 165,
         "won": 102,
         "average_probability": 54.6,
-        "observed_rate": 62.2
+        "observed_rate": 61.8
       },
       {
         "lower": 60,
@@ -870,13 +870,13 @@
         "observed_rate": 71.4
       }
     ],
-    "verified_at": "2026-09-10T21:13:22.442Z",
+    "verified_at": "2026-09-10T23:15:45.761Z",
     "groups": [
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 204,
-        "won": 110,
+        "measured": 203,
+        "won": 109,
         "lost": 94,
         "success_rate": 54
       },

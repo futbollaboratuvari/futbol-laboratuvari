@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.09.2026 02:00:28
+Oluşturma: 11.09.2026 02:15:39
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1142
-- Kazanan tahmin: 196
-- Kaybeden tahmin: 162
-- Lig sayısı: 275
+- Bekleyen tahmin: 1144
+- Kazanan tahmin: 195
+- Kaybeden tahmin: 161
+- Lig sayısı: 276
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,15 +22,17 @@ Oluşturma: 11.09.2026 02:00:28
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 225, bekleyen 139, başarı %59, düz getiri %3, ağırlık 1
+- 2.5 Üst: toplam 224, bekleyen 139, başarı %60, düz getiri %4, ağırlık 1
 - MS 1: toplam 494, bekleyen 392, başarı %57, düz getiri %-7, ağırlık 1
-- MS 2: toplam 223, bekleyen 174, başarı %55, düz getiri %-2, ağırlık 1
-- 2.5 Alt: toplam 552, bekleyen 434, başarı %50, düz getiri %-19, ağırlık 1
+- MS 2: toplam 224, bekleyen 175, başarı %55, düz getiri %-2, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
+- 2.5 Alt: toplam 552, bekleyen 435, başarı %50, düz getiri %-20, ağırlık 1
 - MS X: toplam 3, bekleyen 2, başarı %0, düz getiri %-100, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-11 | Slovakya 2.Lig | Pohronie - Liptovsky Mikul | MS 2 | pending | 44/100
+- 2026-09-11 | Kuzey Makedonya 1.Lig | Aresimi - Skendija | 2.5 Alt | pending | 49/100
 - 2026-09-11 | ABD USL Lig 1 | Athletic Club - New York Cosmos | 2.5 Üst | pending | 73/100
 - 2026-09-11 | İtalya Serie B | Pisa - Virtus Entella | 2.5 Üst | pending | 67/100
 - 2026-09-11 | İtalya Serie B | Benevento - Verona | 2.5 Üst | pending | 65/100
@@ -44,6 +46,4 @@ Oluşturma: 11.09.2026 02:00:28
 - 2026-09-11 | İskoçya Championship | Morton - Livingston | 2.5 Alt | pending | 70/100
 - 2026-09-11 | Avusturya 1.Lig | Wacker Innsbru - Voitsberg | 2.5 Alt | pending | 48/100
 - 2026-09-11 | Galler FAW Championship Güney | Pontypridd Tow - Afan Lido | MS 1 | pending | 54/100
-- 2026-09-11 | Galler FAW Championship Güney | Newport City - Trethomas Blueb | MS 1 | pending | 48/100
-- 2026-09-11 | Malta Premier Lig Açılış | Hamrun - Birzebbuga | 2.5 Alt | pending | 50/100
 
