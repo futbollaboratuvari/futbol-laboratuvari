@@ -2,20 +2,15 @@
 
 Gunler: 2026-09-10 / 2026-09-11
 Kaynak: fixtures.json
-Ham mac: 129
-Aktif mac: 111
+Ham mac: 126
+Aktif mac: 106
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 18
-Bugun: 93
+Bultenden dusurulen mac: 20
+Bugun: 88
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-09-10 02:45 | ABD MLS | Philadelphia - Cincinnati | scheduled | -
-- 2026-09-10 03:00 | ABD MLS | New York City - New England | scheduled | -
-- 2026-09-10 03:00 | Kolombiya Kupa Son 16 Turu | Once Caldas - Alianza Petrole | scheduled | -
-- 2026-09-10 03:00 | Guatemala Ulusal Lig Apertura | Comunicaciones - Marquense | scheduled | -
-- 2026-09-10 03:00 | ABD MLS Next Pro | Huntsville Cit - Chattanooga | scheduled | -
 - 2026-09-10 03:30 | Copa Libertadores Çeyrek Final | Estudiantes Lp - Corinthians | scheduled | -
 - 2026-09-10 03:30 | ABD MLS | Houston - Salt Lake | scheduled | -
 - 2026-09-10 03:30 | ABD MLS | Chicago - Inter Miami | scheduled | -
