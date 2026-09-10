@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.09.2026 00:43:48
+Oluşturma: 11.09.2026 01:02:51
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1090
-- Kazanan tahmin: 220
-- Kaybeden tahmin: 190
-- Lig sayısı: 265
+- Bekleyen tahmin: 1135
+- Kazanan tahmin: 201
+- Kaybeden tahmin: 164
+- Lig sayısı: 275
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,28 +22,28 @@ Oluşturma: 11.09.2026 00:43:48
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 240, bekleyen 149, başarı %59, düz getiri %3, ağırlık 1
-- MS 1: toplam 486, bekleyen 367, başarı %55, düz getiri %-11, ağırlık 1
-- 2.5 Alt: toplam 552, bekleyen 413, başarı %51, düz getiri %-17, ağırlık 1
-- MS 2: toplam 216, bekleyen 158, başarı %50, düz getiri %-9, ağırlık 1
+- 2.5 Üst: toplam 221, bekleyen 135, başarı %59, düz getiri %3, ağırlık 1
+- MS 1: toplam 496, bekleyen 392, başarı %58, düz getiri %-6, ağırlık 1
+- MS 2: toplam 224, bekleyen 174, başarı %56, düz getiri %1, ağırlık 1
+- 2.5 Alt: toplam 553, bekleyen 431, başarı %50, düz getiri %-18, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
 - MS X: toplam 3, bekleyen 2, başarı %0, düz getiri %-100, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-11 | Arjantin Prim B Metro | Ituzaingo - Club Comunicaci | MS 2 | pending | 52/100
-- 2026-09-11 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Gimnasia Mendoz | 2.5 Alt | pending | 64/100
-- 2026-09-11 | Arjantin Prim B Metro | De Merlo - Real Pilar | MS 2 | pending | 50/100
-- 2026-09-11 | ABD USL Lig 1 | One Knoxville - Naples | MS 1 | pending | 62/100
-- 2026-09-11 | Kolombiya Primera A Clausura | Jaguares - Fortaleza | 2.5 Üst | pending | 62/100
-- 2026-09-11 | Brezilya Serie A | Coritiba - Atletico Pr | 2.5 Üst | pending | 69/100
-- 2026-09-11 | Peru Premier Lig Clausura | Cusco Fc - Melgar | 2.5 Üst | pending | 66/100
-- 2026-09-11 | Bolivya Premier Lig | Real Potosi - Oriente Petrole | MS 1 | pending | 56/100
-- 2026-09-11 | Ekvador Pro Lig Serie B Küme Düşme Grubu | El Nacional - 22 De Julio | MS 1 | pending | 45/100
-- 2026-09-11 | Arjantin Premier Lig 2. Aşama | Boca Juniors - Corboda Santiag | MS 1 | pending | 60/100
-- 2026-09-11 | Meksika Liga MX Apertura | Necaxa - Puebla | 2.5 Alt | pending | 58/100
-- 2026-09-11 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir - Tristan | MS 1 | pending | 48/100
-- 2026-09-11 | Meksika Ascenso MX Apertura | Correcaminos U - Cancun Fc | 2.5 Alt | pending | 58/100
-- 2026-09-11 | ABD USL Lig 1 | Athletic Club - New York Cosmos | MS 1 | pending | 60/100
-- 2026-09-11 | Meksika Kadınlar Liga MX Apertura | Cruz Azul (K) - Pumas Unam (K) | MS 1 | pending | 47/100
+- 2026-09-11 | İspanya 2.Lig | Burgos - Ceuta | 2.5 Alt | pending | 62/100
+- 2026-09-11 | Polonya Ekstraklasa | Wisla Krakow - Jagiellonia | MS 1 | pending | 47/100
+- 2026-09-11 | İskoçya Championship | Morton - Livingston | 2.5 Alt | pending | 67/100
+- 2026-09-11 | Avusturya 1.Lig | Wacker Innsbru - Voitsberg | 2.5 Alt | pending | 48/100
+- 2026-09-11 | Galler FAW Championship Güney | Pontypridd Tow - Afan Lido | MS 1 | pending | 54/100
+- 2026-09-11 | Galler FAW Championship Güney | Newport City - Trethomas Blueb | MS 1 | pending | 48/100
+- 2026-09-11 | Malta Premier Lig Açılış | Hamrun - Birzebbuga | 2.5 Alt | pending | 50/100
+- 2026-09-11 | Arjantin Kadınlar Primera A 2. Aşama | Banfield (K) - San Lorenzo (K) | 2.5 Alt | pending | 57/100
+- 2026-09-11 | İtalya Serie A | Unione V. - Fiorentina | 2.5 Üst | pending | 55/100
+- 2026-09-11 | Fransa Ligue 1 | Rennes - Marsilya | MS 1 | pending | 49/100
+- 2026-09-11 | Belçika Pro Lig | Mechelen - Anderlecht | 2.5 Üst | pending | 65/100
+- 2026-09-11 | İrlanda Premier Lig | Shelbourne - Derry City | 2.5 Alt | pending | 53/100
+- 2026-09-11 | İrlanda Premier Lig | Waterford - Dundalk | MS 1 | pending | 46/100
+- 2026-09-11 | İrlanda Premier Lig | Drogheda - Sligo Rovers | MS 1 | pending | 53/100
+- 2026-09-11 | İrlanda Premier Lig | Galway United - Bohemian | MS 2 | pending | 51/100
 

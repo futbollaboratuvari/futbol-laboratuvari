@@ -2,29 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-10T21:43:47.176Z
-- Ham maç sayısı: 42
+- Güncelleme: 2026-09-10T22:00:11.246Z
+- Ham maç sayısı: 29
 - Yarın bülteni maç sayısı: 24
-- Detay blok sayısı: 117
-- Aktif bülten maçı: 42
+- Detay blok sayısı: 80
+- Aktif bülten maçı: 29
 - Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sevilla - Valencia | İspanya LaLiga | 22:00 | Veri bekleniyor | - | 1.87 | 8 |
-| West Ham - Wrexham | İngiltere Championship | 22:00 | Veri bekleniyor | - | 1.4 | 7 |
-| Pisa - Virtus Entella | İtalya Serie B | 22:00 | Veri bekleniyor | - | 1.56 | 7 |
-| Benevento - Verona | İtalya Serie B | 22:00 | Veri bekleniyor | - | 2.57 | 8 |
-| St Patricks - Shamrock Rovers | İrlanda Premier Lig | 22:00 | Veri bekleniyor | - | 1.93 | 8 |
-| Audace Cerigno - Ssc Giugliano | İtalya Serie C Grup C | 22:00 | Veri bekleniyor | - | 1.63 | 8 |
-| Team Altamura - Bari | İtalya Serie C Grup C | 22:00 | Veri bekleniyor | - | 3.53 | 8 |
-| Salernitana - Rossoblu Potenz | İtalya Serie C Grup C | 22:00 | Veri bekleniyor | - | 1.79 | 8 |
-| Casarano - Barletta | İtalya Serie C Grup C | 22:00 | Veri bekleniyor | - | 1.91 | 8 |
-| Strabane Athle - Newry City Afc | Kuzey İrlanda Championship | 22:00 | Veri bekleniyor | - | 3.23 | 8 |
-| Psg (K) - Strasbourg (K) | Fransa Kadınlar 1.Lig | 22:00 | Veri bekleniyor | - | - | 3 |
-| Breidablik - Afturelding | İzlanda Kupa Final | 22:00 | Veri bekleniyor | - | 1.89 | 6 |
-| Tarragona - Algeciras | İspanya Primera Lig RFEF Grup 2 | 22:15 | Veri bekleniyor | - | 1.86 | 8 |
 | Deportivo Cuen - Cuniburo Fc | Ekvador Pro Lig Serie B Şampiyonluk Grubu | 22:30 | Veri bekleniyor | - | 1.95 | 8 |
 | Academica - Benfica (B) | Portekiz 2.Lig | 22:45 | Veri bekleniyor | - | 2.06 | 8 |
 | Newells Old Bo - Velez Sarsfield | Arjantin Premier Lig 2. Aşama | 23:00 | Veri bekleniyor | - | 2.59 | 8 |

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T21:13:30.464Z",
+  "generated_at": "2026-09-10T22:03:02.712Z",
   "timezone": "Europe/Istanbul",
   "source": "Haftalık 15 maç programı + Futbol Laboratuvarı PRO 13",
   "official_game_format_verified": true,
@@ -15,7 +15,7 @@
   "match_count": 15,
   "analysis_ready_count": 15,
   "analysis_waiting_count": 0,
-  "source_match_count": 42,
+  "source_match_count": 253,
   "verification_sources": [
     {
       "name": "Spor Toto Teşkilat Başkanlığı",
@@ -56,23 +56,23 @@
       "away": "Erzurumspor FK",
       "match": "Beşiktaş - Erzurumspor FK",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
+      "source": "Maçkolik canlı robot",
+      "matchCode": "53254",
+      "one": 1.09,
+      "draw": 5.96,
+      "two": 11.15,
+      "oneOdd": 1.09,
+      "drawOdd": 5.96,
+      "twoOdd": 11.15,
       "probabilities": {
         "1": 90,
         "2": 3,
         "X": 7
       },
       "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
+        "1": 78.1,
+        "2": 7.6,
+        "X": 14.3
       },
       "public_distribution": {
         "1": 90,
@@ -103,6 +103,7 @@
       ],
       "model_version": "pro13-btts-conditioned-v3",
       "score_type": "spor_toto_1x2",
+      "independent_evidence": false,
       "form": {
         "home": {
           "count": 3,
@@ -163,7 +164,6 @@
         "away": [],
         "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
       },
-      "independent_evidence": false,
       "evidence_mode": "cross_verified_public_distribution",
       "archive_analysis": {
         "ready": false,
@@ -1162,9 +1162,9 @@
       "drawOdd": null,
       "twoOdd": null,
       "probabilities": {
-        "1": 32.5,
-        "2": 46.3,
-        "X": 21.2
+        "1": 33,
+        "2": 45.5,
+        "X": 21.5
       },
       "market_probabilities": {
         "1": null,
@@ -1189,14 +1189,14 @@
       "confidence_score": 65,
       "risk": "Orta",
       "risk_level": "Orta",
-      "data_completeness": 66,
-      "probability_gap": 13.8,
+      "data_completeness": 67,
+      "probability_gap": 12.5,
       "column_multiplier": 1,
       "reasons": [
-        "PRO 13: 2 olasılığı %46.3; ikinci seçenek %32.5.",
+        "PRO 13: 2 olasılığı %45.5; ikinci seçenek %33.0.",
         "Doğrulanmış sonuç hafızası mevcut; haftalık 1-X-2 kararı gerçek geçmiş sonuçlarla sınandı.",
-        "Gerçek sonuç arşivi: ev 3, deplasman 3 maç örneği kullanıldı.",
-        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 2 seçeneği %46.3 ile önde."
+        "Gerçek sonuç arşivi: ev 3, deplasman 4 maç örneği kullanıldı.",
+        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 2 seçeneği %45.5 ile önde."
       ],
       "model_version": "pro13-btts-conditioned-v3",
       "score_type": "spor_toto_1x2",
@@ -1228,31 +1228,31 @@
           "goals_against_avg": 1.33
         },
         "away": {
-          "count": 3,
-          "scored": 3,
-          "conceded": 2,
-          "bttsRate": 67,
-          "over25Rate": 67,
-          "over35Rate": 33,
-          "goalsForAvg": 2.33,
-          "goalsAgainstAvg": 1.33,
+          "count": 4,
+          "scored": 4,
+          "conceded": 3,
+          "bttsRate": 75,
+          "over25Rate": 50,
+          "over35Rate": 25,
+          "goalsForAvg": 2,
+          "goalsAgainstAvg": 1.25,
           "wins": 2,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
-          "winRate": 67,
-          "drawRate": 0,
-          "lossRate": 33,
-          "pointsPerGame": 2,
+          "winRate": 50,
+          "drawRate": 25,
+          "lossRate": 25,
+          "pointsPerGame": 1.75,
           "recent": [
             "W",
             "W",
             "L",
             "D"
           ],
-          "sample": 3,
-          "ppg": 2,
-          "goals_for_avg": 2.33,
-          "goals_against_avg": 1.33
+          "sample": 4,
+          "ppg": 1.75,
+          "goals_for_avg": 2,
+          "goals_against_avg": 1.25
         }
       },
       "h2h": [],
@@ -1270,9 +1270,9 @@
         "canonical_home": "Gaziantep FK",
         "canonical_away": "Fenerbahçe",
         "archive_probabilities": {
-          "1": 42.3,
-          "2": 34.2,
-          "X": 23.5
+          "1": 42.6,
+          "2": 33.6,
+          "X": 23.8
         },
         "public_distribution": {
           "1": 11,
@@ -1280,12 +1280,12 @@
           "X": 16
         },
         "poisson": {
-          "home_lambda": 1.67,
-          "away_lambda": 1.48,
-          "samples": 6,
-          "reliability": 0.375
+          "home_lambda": 1.65,
+          "away_lambda": 1.44,
+          "samples": 7,
+          "reliability": 0.4375
         },
-        "agreement_score": 61.2
+        "agreement_score": 60.6
       }
     },
     {
@@ -1428,23 +1428,23 @@
       "away": "Marsilya",
       "match": "Rennes - Marsilya",
       "status": "scheduled",
-      "source": "Haftalık Spor Toto programı",
-      "matchCode": null,
-      "one": null,
-      "draw": null,
-      "two": null,
-      "oneOdd": null,
-      "drawOdd": null,
-      "twoOdd": null,
+      "source": "Maçkolik canlı robot",
+      "matchCode": "05235",
+      "one": 1.91,
+      "draw": 3.37,
+      "two": 2.8,
+      "oneOdd": 1.91,
+      "drawOdd": 3.37,
+      "twoOdd": 2.8,
       "probabilities": {
         "1": 35,
         "2": 36,
         "X": 29
       },
       "market_probabilities": {
-        "1": null,
-        "2": null,
-        "X": null
+        "1": 44.5,
+        "2": 30.3,
+        "X": 25.2
       },
       "public_distribution": {
         "1": 35,
@@ -1476,6 +1476,7 @@
       ],
       "model_version": "pro13-btts-conditioned-v3",
       "score_type": "spor_toto_1x2",
+      "independent_evidence": false,
       "form": {
         "home": {
           "count": 0,
@@ -1532,7 +1533,6 @@
         "away": [],
         "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
       },
-      "independent_evidence": false,
       "evidence_mode": "cross_verified_public_distribution",
       "archive_analysis": {
         "ready": false,
@@ -2094,8 +2094,8 @@
   ],
   "archive_enrichment": {
     "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
-    "generated_at": "2026-09-10T21:13:30.304Z",
-    "archive_match_count": 13124,
+    "generated_at": "2026-09-10T22:03:01.477Z",
+    "archive_match_count": 13137,
     "archive_ready_count": 5,
     "distribution_ready_count": 15,
     "analysis_available_count": 15
