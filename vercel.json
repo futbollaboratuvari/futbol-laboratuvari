@@ -17,31 +17,9 @@
     }
   ],
   "rewrites": [
-    {
-      "source": "/data/:path*",
-      "destination": "https://futbollaboratuvari.github.io/futbol-laboratuvari/data/:path*"
-    },
-    {
-      "source": "/outputs/:path*",
-      "destination": "https://futbollaboratuvari.github.io/futbol-laboratuvari/outputs/:path*"
-    },
     { "source": "/favicon.ico", "destination": "/favicon.svg" }
   ],
   "headers": [
-    {
-      "source": "/data/:path*",
-      "headers": [
-        { "key": "x-vercel-enable-rewrite-caching", "value": "0" },
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
-      ]
-    },
-    {
-      "source": "/outputs/:path*",
-      "headers": [
-        { "key": "x-vercel-enable-rewrite-caching", "value": "0" },
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
-      ]
-    },
     {
       "source": "/(.*)",
       "headers": [
