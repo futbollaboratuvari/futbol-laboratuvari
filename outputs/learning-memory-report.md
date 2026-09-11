@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.09.2026 12:52:18
+Oluşturma: 11.09.2026 13:03:01
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1154
-- Kazanan tahmin: 186
+- Bekleyen tahmin: 1153
+- Kazanan tahmin: 187
 - Kaybeden tahmin: 160
 - Lig sayısı: 277
 - Seçenek sayısı: 6
@@ -22,17 +22,18 @@ Oluşturma: 11.09.2026 12:52:18
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 226, bekleyen 144, başarı %60, düz getiri %4, ağırlık 1
+- 2.5 Üst: toplam 225, bekleyen 142, başarı %60, düz getiri %5, ağırlık 1
 - MS 1: toplam 489, bekleyen 391, başarı %56, düz getiri %-10, ağırlık 1
 - MS 2: toplam 225, bekleyen 179, başarı %54, düz getiri %-4, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
-- 2.5 Alt: toplam 554, bekleyen 437, başarı %48, düz getiri %-23, ağırlık 0.94
+- 2.5 Alt: toplam 555, bekleyen 438, başarı %48, düz getiri %-23, ağırlık 0.94
 - MS X: toplam 3, bekleyen 2, başarı %0, düz getiri %-100, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-11 | CONCACAF Orta Amerika Kupası Çeyrek Final | Firpo - Depor. Olimpia | 2.5 Üst | pending | 57/100
-- 2026-09-11 | Brezilya Serie B | Sao Bernardo - Londrina | 2.5 Üst | pending | 67/100
+- 2026-09-11 | Almanya Bölgesel Lig Bayern | Buchbach - Bayern Munich ( | 2.5 Alt | pending | 46/100
+- 2026-09-11 | CONCACAF Orta Amerika Kupası Çeyrek Final | Firpo - Depor. Olimpia | 2.5 Üst | won | 57/100
+- 2026-09-11 | Brezilya Serie B | Sao Bernardo - Londrina | 2.5 Üst | won | 67/100
 - 2026-09-11 | Meksika Liga MX Apertura | Necaxa - Puebla | 2.5 Üst | pending | 62/100
 - 2026-09-11 | Meksika Liga MX Apertura | Club Tijuana - Queretaro | 2.5 Üst | pending | 64/100
 - 2026-09-11 | Portekiz 2.Lig | Academica - Benfica (B) | 2.5 Üst | pending | 54/100
@@ -45,5 +46,4 @@ Oluşturma: 11.09.2026 12:52:18
 - 2026-09-11 | Almanya Bölgesel Lig Bayern | Buchbach - Bayern Munich ( | MS 2 | pending | 45/100
 - 2026-09-11 | Almanya Bölgesel Lig Bayern | Aubstadt - Unterhaching | 2.5 Alt | pending | 46/100
 - 2026-09-11 | Almanya Bölgesel Lig Bayern | Illertissen - Nurnberg Ii | MS 2 | pending | 44/100
-- 2026-09-11 | Umman Profesyonel Lig | Al Nasr - Al Musannah | MS 1 | pending | 56/100
 

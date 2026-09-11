@@ -3,20 +3,14 @@
 Gunler: 2026-09-11 / 2026-09-12
 Kaynak: fixtures.json
 Ham mac: 236
-Aktif mac: 231
+Aktif mac: 225
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 207
+Bultenden dusurulen mac: 11
+Bugun: 201
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-11 13:00 | Ukrayna Premier Lig | Kolos Kovalivk - Karpaty Lviv | scheduled | -
-- 2026-09-11 13:00 | Japonya J1 Lig | Vissel Kobe - Kashima | scheduled | -
-- 2026-09-11 13:00 | Japonya J1 Lig | Kyoto Sanga - Kashiwa | scheduled | -
-- 2026-09-11 13:00 | Polonya 2.Lig | Sokol Kleczew - Olimpia Grudzia | scheduled | -
-- 2026-09-11 13:00 | Güney Kore K3 Ligi | Daejeon Korail - Ulsan Citizen | scheduled | -
-- 2026-09-11 13:00 | Avustralya NPL Güney Avustralya Final | Adelaide City - West Torrens | scheduled | -
 - 2026-09-11 14:00 | Tayland 1.Lig | Buriram Utd - Chiangrai Utd | scheduled | -
 - 2026-09-11 14:00 | Vietnam V-Lig 1 | Da Nang - M Nam Dinh | scheduled | -
 - 2026-09-11 14:00 | Vietnam V-Lig 1 | Ttbd Phu Dong - Thanh Hoa | scheduled | -
