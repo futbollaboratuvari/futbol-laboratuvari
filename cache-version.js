@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260911-pro14-market-expansion-v1";
+  const version = "20260911-pro14-iddaa-bridge-v1";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
@@ -31,6 +31,7 @@
   };
 
   loadScript("premium-analysis-pro14-extension.js", "premium-analysis-pro14-extension-script");
+  loadScript("premium-analysis-pro14-iddaa-bridge.js", "premium-analysis-pro14-iddaa-bridge-script");
   loadScript("site-bulletin-active-guard.js", "site-bulletin-active-guard-script");
   loadScript("spor-toto-dashboard.js", "spor-toto-dashboard-script");
   loadScript("spor-toto-metric-ui.js", "spor-toto-metric-ui-script");
