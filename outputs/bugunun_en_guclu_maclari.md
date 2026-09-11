@@ -2,56 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-11T18:41:03.934Z
-- Ham maç sayısı: 155
+- Güncelleme: 2026-09-11T19:48:39.768Z
+- Ham maç sayısı: 153
 - Yarın bülteni maç sayısı: 25
-- Detay blok sayısı: 437
-- Aktif bülten maçı: 68
-- Bültenden düşürülen maç: 87
+- Detay blok sayısı: 431
+- Aktif bülten maçı: 28
+- Bültenden düşürülen maç: 125
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Unione V. - Fiorentina | İtalya Serie A | 21:45 | Veri bekleniyor | - | 2.4 | 8 |
-| Rennes - Marsilya | Fransa Ligue 1 | 21:45 | Veri bekleniyor | - | 1.83 | 8 |
-| Mechelen - Anderlecht | Belçika Pro Lig | 21:45 | Veri bekleniyor | - | 3.71 | 8 |
-| Shelbourne - Derry City | İrlanda Premier Lig | 21:45 | Veri bekleniyor | - | 2.04 | 8 |
-| Waterford - Dundalk | İrlanda Premier Lig | 21:45 | Veri bekleniyor | - | 1.88 | 8 |
-| Drogheda - Sligo Rovers | İrlanda Premier Lig | 21:45 | Veri bekleniyor | - | 1.68 | 8 |
-| Galway United - Bohemian | İrlanda Premier Lig | 21:45 | Veri bekleniyor | - | 3.69 | 8 |
-| Stenhousemuir - Hearts | İskoçya Lig Kupası Çeyrek Final | 21:45 | Veri bekleniyor | - | 7.95 | 6 |
-| Barry Town - Llandudno | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 1.81 | 8 |
-| Flint Town - Cardiff Mu | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 2.45 | 8 |
-| Ammanford - Caernarfon | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 17.5 | 5 |
-| Trefelin - Penybont | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 6.76 | 6 |
-| Haverfordwest - Briton Ferry | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 1.98 | 8 |
-| Cambrian - Holywell Town | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 1.22 | 6 |
-| Airbus Uk - The New Saints | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 10.5 | 5 |
-| Coleraine - Ballymena | Kuzey İrlanda Premiership | 21:45 | Veri bekleniyor | - | 1.24 | 6 |
-| Cork City - Cobh Ramblers | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 1.27 | 6 |
-| Ucd - Athlone | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 1.8 | 8 |
-| Kerry - Bray Wanderers | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 2.49 | 8 |
-| Wexford Youths - Finn Harps | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 1.23 | 6 |
-| Puszcza Niepol - Lks Lodz | Polonya 1.Lig | 21:45 | Veri bekleniyor | - | 2.9 | 8 |
-| Kidderminster - Hartlepool | İngiltere Ulusal Lig | 21:45 | Veri bekleniyor | - | 2.04 | 8 |
-| Deportivo De L - Real Madrid (K) | İspanya Kadınlar Primera Lig | 21:45 | Veri bekleniyor | - | 9.28 | 6 |
-| Denbigh Town - Bala Town | Galler FAW Championship Kuzey | 21:45 | Veri bekleniyor | - | 3.99 | 6 |
-| Caerau Ely - Llanelli Town | Galler FAW Championship Güney | 21:45 | Veri bekleniyor | - | 1.1 | 4 |
-| Sevilla - Valencia | İspanya LaLiga | 22:00 | Veri bekleniyor | - | 1.66 | 8 |
-| West Ham - Wrexham | İngiltere Championship | 22:00 | Veri bekleniyor | - | 1.34 | 7 |
-| Pisa - Virtus Entella | İtalya Serie B | 22:00 | Veri bekleniyor | - | 1.64 | 8 |
-| Benevento - Verona | İtalya Serie B | 22:00 | Veri bekleniyor | - | 2.58 | 8 |
-| St Patricks - Shamrock Rovers | İrlanda Premier Lig | 22:00 | Veri bekleniyor | - | 2.02 | 8 |
-| Audace Cerigno - Ssc Giugliano | İtalya Serie C Grup C | 22:00 | Veri bekleniyor | - | 1.61 | 8 |
-| Team Altamura - Bari | İtalya Serie C Grup C | 22:00 | Veri bekleniyor | - | 3.12 | 8 |
-| Salernitana - Rossoblu Potenz | İtalya Serie C Grup C | 22:00 | Veri bekleniyor | - | 1.96 | 8 |
-| Casarano - Barletta | İtalya Serie C Grup C | 22:00 | Veri bekleniyor | - | 1.94 | 8 |
-| Strabane Athle - Newry City Afc | Kuzey İrlanda Championship | 22:00 | Veri bekleniyor | - | 3.44 | 8 |
-| Psg (K) - Strasbourg (K) | Fransa Kadınlar 1.Lig | 22:00 | Veri bekleniyor | - | - | 3 |
-| Breidablik - Afturelding | İzlanda Kupa Final | 22:00 | Veri bekleniyor | - | 1.92 | 6 |
-| Tarragona - Algeciras | İspanya Primera Lig RFEF Grup 2 | 22:15 | Veri bekleniyor | - | 1.91 | 8 |
-| Deportivo Cuen - Cuniburo Fc | Ekvador Pro Lig Serie B Şampiyonluk Grubu | 22:30 | Veri bekleniyor | - | 2.63 | 8 |
-| Academica - Benfica (B) | Portekiz 2.Lig | 22:45 | Veri bekleniyor | - | 1.93 | 8 |
 | Newells Old Bo - Velez Sarsfield | Arjantin Premier Lig 2. Aşama | 23:00 | Veri bekleniyor | - | 2.52 | 8 |
 | Belouizdad - Es Setif | Cezayir 1.Lig | 23:00 | Veri bekleniyor | - | 1.38 | 7 |
 | Univ De Cajama - Juan Pablo Ii C | Peru Premier Lig Clausura | 23:00 | Veri bekleniyor | - | 1.61 | 8 |
