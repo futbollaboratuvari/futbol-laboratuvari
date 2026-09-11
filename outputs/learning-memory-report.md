@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.09.2026 18:06:33
+Oluşturma: 11.09.2026 20:11:55
 
 ## Özet
 
@@ -31,6 +31,7 @@ Oluşturma: 11.09.2026 18:06:33
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-11 | Japonya J1 Lig | Vissel Kobe - Kashima | 2.5 Üst | pending | 67/100
 - 2026-09-11 | Meksika Kadınlar Liga MX Apertura | Cruz Azul (K) - Pumas Unam (K) | MS 2 | pending | 45/100
 - 2026-09-11 | Meksika Kadınlar Liga MX Apertura | Atlas (K) - Atlante (K) | MS 1 | pending | 49/100
 - 2026-09-11 | İrlanda Premier Lig | Drogheda - Sligo Rovers | 2.5 Alt | pending | 50/100
@@ -45,5 +46,4 @@ Oluşturma: 11.09.2026 18:06:33
 - 2026-09-11 | Polonya 1.Lig | Polonia Varşov - Polonia Bytom | 2.5 Alt | pending | 45/100
 - 2026-09-11 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | As Sobemap (1) - (1) Enugu Rangers | MS 2 | pending | 55/100
 - 2026-09-11 | Estonya Esiliiga B | Narva Trans Ii - Tallinna Infone | MS 1 | pending | 55/100
-- 2026-09-11 | Kuzey İrlanda Championship | Strabane Athle - Newry City Afc | MS 2 | pending | 50/100
 
