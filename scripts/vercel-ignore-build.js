@@ -1,5 +1,13 @@
 const { execFileSync } = require("child_process");
 
+// Production frontend is published by GitHub Pages. Automatic Git-triggered
+// Vercel deployments are intentionally disabled. This is a second safety lock
+// in case project-level Git deployment settings are ever re-enabled by mistake.
+if (String(process.env.VERCEL_GIT_COMMIT_SHA || "").trim()) {
+  console.log("[vercel-ignore] Git-triggered Vercel deployment blocked; GitHub Pages is the production publisher.");
+  process.exit(0);
+}
+
 const base = String(process.env.VERCEL_GIT_PREVIOUS_SHA || "").trim();
 const head = String(process.env.VERCEL_GIT_COMMIT_SHA || "HEAD").trim();
 const owner = String(process.env.VERCEL_GIT_REPO_OWNER || "futbollaboratuvari").trim();
