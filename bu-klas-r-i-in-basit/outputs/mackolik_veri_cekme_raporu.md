@@ -1,159 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-11T06:04:39.055324+00:00
+Tarih: 2026-09-11T09:06:59.162787+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: success
-- Kac mac bulundu: 239
-- Kac mac kaydedildi: 3
-- Kac mac zaten vardi: 236
+- Durum: error
+- Kac mac bulundu: 0
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 13244
 - Hedef tarih: 11.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
-- Almanya 2. Bundesliga
-- Almanya 3. Lig
-- Almanya Bundesliga
-- Almanya Bölgesel Lig Bayern
-- Almanya Bölgesel Lig Güney Batı
-- Almanya Bölgesel Lig Kuzey
-- Almanya Bölgesel Lig Kuzey Doğu
-- Almanya Kadınlar Bundesliga
-- Arjantin Kadınlar Primera A 2. Aşama
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Prim B Metro
-- Arjantin Ulusal Primera Lig
-- Arnavutluk Süperlig
-- Avustralya Kuzey Bölgesi
-- Avustralya NPL Güney Avustralya Final
-- Avustralya NPL Victoria Yarı Final
-- Avustralya NPL Yeni Güney Galler Play-off 2/3
-- Avustralya Victoria Kadınlar Premier Lig Ön Eleme Final
-- Avusturya 1.Lig
-- Avusturya Bundesliga
-- Azerbaycan 1.Lig
-- Azerbaycan Premier Lig
-- Bahreyn Premier Lig
-- Belarus Premier Lig
-- Belçika Challenger Pro Lig
-- Belçika Pro Lig
-- Birleşik Arap Emirlikleri 1.Lig
-- Birleşik Arap Emirlikleri Arap Körfez Ligi
-- Bolivya Premier Lig
-- Bosna-Hersek Premier Lig
-- Botsvana Premier Lig
-- Brezilya Serie A
-- Bulgaristan 1.Lig
-- CAF Konfederasyon Kupası 1.Ön Eleme Turu
-- CAF Şampiyonlar Ligi 1.Ön Eleme Turu
-- Cezayir 1.Lig
-- Danimarka 1.Lig
-- Danimarka 2.Lig
-- Danimarka Süperlig
-- Ekvador Pro Lig Serie B Küme Düşme Grubu
-- Ekvador Pro Lig Serie B Şampiyonluk Grubu
-- Endonezya Süper Lig
-- Estonya Esiliiga B
-- Faroe Adaları Master Lig
-- Finlandiya Ykkönen Küme Düşme Turu
-- Finlandiya Ykkösliiga
-- Fransa Kadınlar 1.Lig
-- Fransa Ligue 1
-- Fransa Ligue 2
-- Galler FAW Championship Güney
-- Galler FAW Championship Kuzey
-- Galler Premier Lig 1.Aşama
-- Güney Afrika PSL
-- Güney Kore K3 Ligi
-- Hollanda Eerste Divisie
-- Hollanda Eredivisie
-- Honduras Ulusal Lig Apertura
-- Hong Kong Premier Lig
-- Hırvatistan 2.HNL
-- Japonya J1 Lig
-- Kadınlar U20 Dünya Kupası Grup A
-- Kadınlar U20 Dünya Kupası Grup B
-- Katar Yıldızlar Ligi
-- Kolombiya Primera A Clausura
-- Kosta Rika Premier Lig Apertura
-- Kuzey Makedonya 1.Lig
-- Kuzey İrlanda Championship
-- Kuzey İrlanda Premiership
-- Letonya Virsliga
-- Litvanya 1.Lig
-- Malezya Süper Lig
-- Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Kadınlar Liga MX Apertura
-- Meksika Liga MX Apertura
-- Mısır 2. Lig
-- Norveç 2.Lig Grup 2
-- Peru Premier Lig Clausura
-- Polonya 1.Lig
-- Polonya 2.Lig
-- Polonya Ekstraklasa
-- Portekiz 2.Lig
-- Romanya 1.Lig
-- Ruanda Ulusal Futbol Ligi
-- Rusya Premier Lig
-- Singapur Premier Lig
-- Slovakya 2.Lig
-- Slovenya 1.SNL
-- Slovenya 2.SNL
-- Suudi Arabistan Pro Lig
-- Sırbistan Süper Lig
-- Tanzanya Kuu Bara Ligi
-- Tayland 1.Lig
-- Tayland 2.Lig
-- Türkiye Süper Lig
-- Türkiye TFF 1. Lig
-- Uganda Premier Lig
-- Ukrayna Premier Lig
-- Umman Profesyonel Lig
-- Vietnam V-Lig 1
-- Çek Cumhuriyeti FNL
-- Özbekistan Super League
-- Ürdün 1.Lig
-- Ürdün Premier Lig
-- İngiltere Championship
-- İngiltere Premier Lig 2
-- İngiltere Ulusal Lig
-- İrlanda 1.Lig
-- İrlanda Premier Lig
-- İskoçya Championship
-- İskoçya Lig Kupası Çeyrek Final
-- İspanya 2.Lig
-- İspanya Kadınlar Primera Lig
-- İspanya LaLiga
-- İspanya Primera Lig RFEF Grup 1
-- İspanya Primera Lig RFEF Grup 2
-- İsveç 2.Lig Norra Götaland
-- İsveç 2.Lig Vastra Götaland
-- İsveç Allsvenskan
-- İsviçre Challenge Lig
-- İtalya Primavera Şampiyonası 1
-- İtalya Serie A
-- İtalya Serie B
-- İtalya Serie C Grup C
-- İzlanda Kupa Final
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -197,41 +72,23 @@ Tarih: 2026-09-11T06:04:39.055324+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 90
-- Acilan detay: 90
+- Denenen Tumu alani: 0
+- Acilan detay: 0
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Hata yok.
+- Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://arsiv.mackolik.com/Iddaa-Programi", waiting until "domcontentloaded"
+
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 11.09.2026 | 20:00 | Türkiye Süper Lig | Beşiktaş | Erzurumspor Fk | 53254 | 5 |
-| 11.09.2026 | 20:00 | Türkiye TFF 1. Lig | Sarıyer | Bandirmaspor | 04658 | 5 |
-| 11.09.2026 | 22:00 | İspanya LaLiga | Sevilla | Valencia | 16908 | 5 |
-| 11.09.2026 | 21:45 | İtalya Serie A | Unione V. | Fiorentina | 24996 | 5 |
-| 11.09.2026 | 21:45 | Fransa Ligue 1 | Rennes | Marsilya | 05235 | 5 |
-| 11.09.2026 | 21:30 | Almanya Bundesliga | Union Berlin | Schalke | 23546 | 5 |
-| 11.09.2026 | 21:00 | Hollanda Eredivisie | Az Alkmaar | Willem | 29532 | 4 |
-| 11.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ahli (Cidde | Al Hazm | 51688 | 5 |
-| 11.09.2026 | 18:45 | Suudi Arabistan Pro Lig | Al Faisaly | Al Ittihad (Cid | 51647 | 5 |
-| 11.09.2026 | 18:25 | Suudi Arabistan Pro Lig | Al-Qadsiah | Al Ettifaq | 51605 | 5 |
-| 11.09.2026 | 21:45 | Belçika Pro Lig | Mechelen | Anderlecht | 28602 | 5 |
-| 11.09.2026 | 22:00 | İngiltere Championship | West Ham | Wrexham | 07582 | 5 |
-| 11.09.2026 | 21:30 | İspanya 2.Lig | Burgos | Ceuta | 16789 | 5 |
-| 11.09.2026 | 22:00 | İtalya Serie B | Benevento | Verona | 25218 | 5 |
-| 11.09.2026 | 22:00 | İtalya Serie B | Pisa | Virtus Entella | 25074 | 5 |
-| 11.09.2026 | 20:00 | İtalya Serie B | Empoli | Arezzo | 13493 | 5 |
-| 11.09.2026 | 21:00 | Fransa Ligue 2 | Dijon | Stade Lavallois | 27199 | 5 |
-| 11.09.2026 | 21:00 | Fransa Ligue 2 | Clermont | Boulogne | 27141 | 5 |
-| 11.09.2026 | 21:00 | Fransa Ligue 2 | Nancy | Reims | 21573 | 5 |
-| 11.09.2026 | 21:00 | Fransa Ligue 2 | Rodez Aveyron | Grenoble | 27315 | 5 |
+- Ornek mac yok.
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
