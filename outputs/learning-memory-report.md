@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.09.2026 02:46:55
+Oluşturma: 11.09.2026 03:03:58
 
 ## Özet
 
@@ -38,7 +38,7 @@ Oluşturma: 11.09.2026 02:46:55
 - 2026-09-11 | İtalya Serie B | Benevento - Verona | 2.5 Üst | pending | 65/100
 - 2026-09-11 | İngiltere Premier Lig 2 | Stoke (B) - Wolverhampton U | 2.5 Alt | pending | 48/100
 - 2026-09-11 | İngiltere Premier Lig 2 | Derby County U - Tottenham U21 | 2.5 Alt | pending | 49/100
-- 2026-09-11 | Ürdün 1.Lig | Al Hashemeya - Al Ahli | 2.5 Alt | pending | 49/100
+- 2026-09-11 | Ürdün 1.Lig | Al Hashemeya - Al Ahli | 2.5 Alt | pending | 55/100
 - 2026-09-11 | CONCACAF Orta Amerika Kupası Çeyrek Final | Marathon - Alajuelense | 2.5 Üst | pending | 57/100
 - 2026-09-11 | Brezilya Serie B | Sao Bernardo - Londrina | 2.5 Alt | pending | 65/100
 - 2026-09-11 | İspanya 2.Lig | Burgos - Ceuta | 2.5 Alt | pending | 62/100
