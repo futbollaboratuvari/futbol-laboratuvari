@@ -1,6 +1,7 @@
 (() => {
   const BASE = "https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-transfer";
   const RECEIPT_BASE = "https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-receipt";
+  // PRO/legal services may still use https://futbol-laboratuvari.vercel.app; paid order creation uses Supabase directly.
   const API = {
     create: `${BASE}?action=create-order`,
     status: `${BASE}?action=order-status`,
