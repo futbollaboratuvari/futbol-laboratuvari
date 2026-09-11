@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 251
-Tam analiz: 223
-Eksik analiz: 28
+Toplam analiz: 235
+Tam analiz: 208
+Eksik analiz: 27
 
-- Sport Recife VS Ponte Preta: eksik score, confidence
 - Buriram Utd VS Chiangrai Utd: eksik score, confidence
 - Ttbd Phu Dong VS Thanh Hoa: eksik score, confidence
 - Tampines Rover VS Balestier Khals: eksik score, confidence
@@ -25,3 +24,4 @@ Eksik analiz: 28
 - Breda VS Utrecht (Ii): eksik score, confidence
 - Heracles VS Jong Az Alkmaar: eksik score, confidence
 - Tabor Sezana VS Dravinja: eksik score, confidence
+- Swansea Univer VS Pontardawe: eksik score, confidence

@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-11 / 2026-09-12
 Kaynak: fixtures.json
-Ham mac: 253
-Aktif mac: 236
+Ham mac: 235
+Aktif mac: 233
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 17
-Bugun: 212
+Bultenden dusurulen mac: 2
+Bugun: 209
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-11 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Coban Imperial | scheduled | -
-- 2026-09-11 06:05 | Meksika Liga MX Apertura | Pumas Unam - Club Leon | scheduled | -
-- 2026-09-11 06:06 | CONCACAF Orta Amerika Kupası Çeyrek Final | Firpo - Depor. Olimpia | scheduled | -
 - 2026-09-11 11:30 | Endonezya Süper Lig | Garudayaksa - Persik | scheduled | -
 - 2026-09-11 12:00 | Avustralya NPL Yeni Güney Galler Play-off 2/3 | Prospect Unite (1) - (4) Parramatta Eagl | scheduled | -
 - 2026-09-11 12:00 | Avustralya Kuzey Bölgesi | Palmerston Rov - Hellenic Athlet | scheduled | -
