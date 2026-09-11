@@ -2,11 +2,11 @@
 
 Gunler: 2026-09-11 / 2026-09-12
 Kaynak: fixtures.json
-Ham mac: 80
+Ham mac: 78
 Aktif mac: 25
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 55
+Biten mac: 5
+Bultenden dusurulen mac: 53
 Bugun: 0
 Yarin: 25
 
@@ -41,4 +41,8 @@ Yarin: 25
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-11 21:30 | Almanya Bundesliga | Union Berlin - Schalke | finished | 1-3
+- 2026-09-11 21:30 | İspanya 2.Lig | Burgos - Ceuta | finished | 3-1
+- 2026-09-11 21:30 | İskoçya Championship | Morton - Livingston | finished | 1-4
+- 2026-09-11 21:45 | Belçika Pro Lig | Mechelen - Anderlecht | finished | 0-1
+- 2026-09-11 21:45 | İngiltere Ulusal Lig | Kidderminster - Hartlepool | finished | 2-0

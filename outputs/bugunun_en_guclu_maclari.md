@@ -4,19 +4,17 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-11T20:41:32.393Z
+- Güncelleme: 2026-09-11T20:58:09.209Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Etoile Carouge VS Winterthur | İsviçre Challenge Lig | 21:15 | MS 2 | 1.96 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Nk Brinje Gros VS Nafta | Slovenya 1.SNL | 21:15 | 2.5 Alt | 1.83 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Union Berlin VS Schalke | Almanya Bundesliga | 21:30 | MS 1 | 2.14 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Burgos VS Ceuta | İspanya 2.Lig | 21:30 | 2.5 Alt | 1.56 | 69 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Union Berlin VS Schalke | Almanya Bundesliga | 21:30 | MS 1 | 2.14 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | finished |
+| Burgos VS Ceuta | İspanya 2.Lig | 21:30 | 2.5 Alt | 1.56 | 69 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | finished |
 | Wisla Krakow VS Jagiellonia | Polonya Ekstraklasa | 21:30 | MS 1 | 1.93 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Morton VS Livingston | İskoçya Championship | 21:30 | 2.5 Alt | 1.80 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Morton VS Livingston | İskoçya Championship | 21:30 | 2.5 Alt | 1.80 | 74 | Orta risk kupon adayı | Değerli | Orta | Düşük | finished |
 | Wacker Innsbru VS Voitsberg | Avusturya 1.Lig | 21:30 | MS 1 | 1.87 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Pontypridd Tow VS Afan Lido | Galler FAW Championship Güney | 21:30 | MS 1 | 1.50 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Swansea Univer VS Pontardawe | Galler FAW Championship Güney | 21:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
@@ -25,7 +23,7 @@
 | Banfield (K) VS San Lorenzo (K) | Arjantin Kadınlar Primera A 2. Aşama | 21:30 | 2.5 Alt | 1.40 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Unione V. VS Fiorentina | İtalya Serie A | 21:45 | MS 2 | 2.31 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Rennes VS Marsilya | Fransa Ligue 1 | 21:45 | MS 1 | 1.83 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Mechelen VS Anderlecht | Belçika Pro Lig | 21:45 | 2.5 Alt | 1.92 | 61 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Mechelen VS Anderlecht | Belçika Pro Lig | 21:45 | 2.5 Alt | 1.92 | 61 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | finished |
 | Shelbourne VS Derry City | İrlanda Premier Lig | 21:45 | 2.5 Alt | 1.63 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Waterford VS Dundalk | İrlanda Premier Lig | 21:45 | MS 1 | 1.88 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Drogheda VS Sligo Rovers | İrlanda Premier Lig | 21:45 | 2.5 Alt | 1.57 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -44,7 +42,7 @@
 | Kerry VS Bray Wanderers | İrlanda 1.Lig | 21:45 | 2.5 Alt | 1.93 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Wexford Youths VS Finn Harps | İrlanda 1.Lig | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Puszcza Niepol VS Lks Lodz | Polonya 1.Lig | 21:45 | 2.5 Alt | 1.55 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Kidderminster VS Hartlepool | İngiltere Ulusal Lig | 21:45 | 2.5 Alt | 1.60 | 75 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
+| Kidderminster VS Hartlepool | İngiltere Ulusal Lig | 21:45 | 2.5 Alt | 1.60 | 75 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | finished |
 | Deportivo De L VS Real Madrid (K) | İspanya Kadınlar Primera Lig | 21:45 | 2.5 Alt | 2.06 | 61 | Sadece izleme | Değerli | Orta | Orta | scheduled |
 | Denbigh Town VS Bala Town | Galler FAW Championship Kuzey | 21:45 | MS 2 | 1.43 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Caerau Ely VS Llanelli Town | Galler FAW Championship Güney | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
@@ -98,19 +96,19 @@
 | Estrella Roja VS Platense | 2.5 Üst | 1.61 | 86 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Coritiba VS Atletico Pr | 2.5 Üst | 1.97 | 78 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Athletic Club VS New York Cosmos | 2.5 Üst | 1.97 | 77 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Morton VS Livingston | 2.5 Alt | 1.80 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Kidderminster VS Hartlepool | 2.5 Alt | 1.60 | 75 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
+| Morton VS Livingston | 2.5 Alt | 1.80 | 74 | Orta risk kupon adayı | Değerli | Orta | Düşük |
 | West Ham VS Wrexham | MS 1 | 1.34 | 74 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Estrella Roja VS Platense + Coritiba VS Atletico Pr | 2.5 Üst + 2.5 Üst | 3.17 | 82 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Athletic Club VS New York Cosmos + Morton VS Livingston | 2.5 Üst + 2.5 Alt | 3.55 | 76 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Kidderminster VS Hartlepool + Pisa VS Virtus Entella | 2.5 Alt + 2.5 Üst | 3.09 | 74 | Orta risk kupon adayı | Normal Değer | Orta | Düşük |
+| Athletic Club VS New York Cosmos + Kidderminster VS Hartlepool | 2.5 Üst + 2.5 Alt | 3.15 | 76 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Morton VS Livingston + Pisa VS Virtus Entella | 2.5 Alt + 2.5 Üst | 3.47 | 73 | Orta risk kupon adayı | Normal Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Estrella Roja VS Platense + Coritiba VS Atletico Pr + Athletic Club VS New York Cosmos | 2.5 Üst + 2.5 Üst + 2.5 Üst | 6.25 | 80 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Morton VS Livingston + Kidderminster VS Hartlepool + Pisa VS Virtus Entella | 2.5 Alt + 2.5 Alt + 2.5 Üst | 5.56 | 74 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Kidderminster VS Hartlepool + Morton VS Livingston + Pisa VS Virtus Entella | 2.5 Alt + 2.5 Alt + 2.5 Üst | 5.56 | 74 | Orta risk kupon adayı | Normal Değer | Yüksek | Düşük |
