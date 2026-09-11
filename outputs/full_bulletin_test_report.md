@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 75
+- Scheduled match count: 35
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-11 / 2026-09-12 23:59
 
-- 2026-09-11 21:45 | Mechelen - Anderlecht | scheduled
-- 2026-09-11 21:45 | Rennes - Marsilya | scheduled
-- 2026-09-11 21:45 | Caerau Ely - Llanelli Town | scheduled
-- 2026-09-11 21:45 | Denbigh Town - Bala Town | scheduled
-- 2026-09-11 21:45 | Airbus Uk - The New Saints | scheduled
-- 2026-09-11 21:45 | Ammanford - Caernarfon | scheduled
-- 2026-09-11 21:45 | Barry Town - Llandudno | scheduled
-- 2026-09-11 21:45 | Cambrian - Holywell Town | scheduled
-- 2026-09-11 21:45 | Flint Town - Cardiff Mu | scheduled
-- 2026-09-11 21:45 | Haverfordwest - Briton Ferry | scheduled
+- 2026-09-11 23:00 | Newells Old Bo - Velez Sarsfield | scheduled
+- 2026-09-11 23:00 | Belouizdad - Es Setif | scheduled
+- 2026-09-11 23:00 | Univ De Cajama - Juan Pablo Ii C | scheduled
+- 2026-09-12 00:30 | Ldu Portoviejo - Santo Domingo | scheduled
+- 2026-09-12 01:00 | Ituzaingo - Club Comunicaci | scheduled
+- 2026-09-12 01:00 | San Antonio Bu - Aurora | scheduled
+- 2026-09-12 01:15 | Defensa Justic - Gimnasia Mendoz | scheduled
+- 2026-09-12 02:00 | One Knoxville - Naples | scheduled
+- 2026-09-12 02:00 | De Merlo - Real Pilar | scheduled
+- 2026-09-12 02:15 | Jaguares - Fortaleza | scheduled
