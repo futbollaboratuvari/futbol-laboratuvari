@@ -4,6 +4,7 @@ const { GITHUB_OIDC_AUDIENCE, extractValidCoupons } = require("../server-lib/_li
 
 const DEFAULT_ENDPOINT = "https://futbol-laboratuvari.vercel.app/api/send-coupon-mail";
 const COUPON_FILE = path.join(__dirname, "..", "data", "daily-coupons.json");
+const RETRY_DELAYS_MS = [1500, 4000, 8000];
 
 function readCouponFile(filePath = COUPON_FILE) {
   try {
@@ -24,6 +25,12 @@ function trustedActionsOidcUrl(value) {
   }
 }
 
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+function retryableStatus(status) {
+  return status === 408 || status === 425 || status === 429 || status >= 500;
+}
+
 async function resolveAuthorizationToken(env, fetchImpl) {
   const sharedSecret = String(env.COUPON_MAIL_SECRET || "").trim();
   if (sharedSecret) return sharedSecret;
@@ -35,21 +42,66 @@ async function resolveAuthorizationToken(env, fetchImpl) {
 
   const url = new URL(requestUrl);
   url.searchParams.set("audience", GITHUB_OIDC_AUDIENCE);
-  const response = await fetchImpl(url.toString(), {
-    headers: {
-      Authorization: `Bearer ${requestToken}`,
-      Accept: "application/json",
-      "User-Agent": "futbol-laboratuvari-coupon-workflow",
-    },
-  });
-  const raw = await response.text();
-  if (!response.ok || raw.length > 64 * 1024) throw new Error(`GitHub Actions OIDC alınamadı (http_${response.status})`);
-  let token;
-  try { token = JSON.parse(raw)?.value; } catch { token = ""; }
-  if (typeof token !== "string" || token.split(".").length !== 3 || token.length > 32 * 1024) {
-    throw new Error("GitHub Actions OIDC yanıtı geçersiz");
+
+  let lastStatus = 0;
+  for (let attempt = 0; attempt <= RETRY_DELAYS_MS.length; attempt += 1) {
+    try {
+      const response = await fetchImpl(url.toString(), {
+        headers: {
+          Authorization: `Bearer ${requestToken}`,
+          Accept: "application/json",
+          "User-Agent": "futbol-laboratuvari-coupon-workflow",
+        },
+      });
+      const raw = await response.text();
+      lastStatus = response.status;
+      if (response.ok && raw.length <= 64 * 1024) {
+        let token;
+        try { token = JSON.parse(raw)?.value; } catch { token = ""; }
+        if (typeof token === "string" && token.split(".").length === 3 && token.length <= 32 * 1024) return token;
+        throw new Error("GitHub Actions OIDC yanıtı geçersiz");
+      }
+      if (!retryableStatus(response.status) || attempt === RETRY_DELAYS_MS.length) {
+        throw new Error(`GitHub Actions OIDC alınamadı (http_${response.status})`);
+      }
+    } catch (error) {
+      if (attempt === RETRY_DELAYS_MS.length || (lastStatus && !retryableStatus(lastStatus))) throw error;
+    }
+    await sleep(RETRY_DELAYS_MS[attempt]);
   }
-  return token;
+  throw new Error(`GitHub Actions OIDC alınamadı (http_${lastStatus || "network"})`);
+}
+
+async function callCouponEndpoint(endpoint, authorizationToken, fetchImpl) {
+  let lastError = "unknown";
+  for (let attempt = 0; attempt <= RETRY_DELAYS_MS.length; attempt += 1) {
+    try {
+      const response = await fetchImpl(endpoint, {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${authorizationToken}`,
+          "Content-Type": "application/json",
+          "User-Agent": "futbol-laboratuvari-coupon-workflow",
+        },
+        body: JSON.stringify({ trigger: "coupon-data-workflow" }),
+      });
+      const result = await response.json().catch(() => ({}));
+      if (response.ok && result.ok !== false) return result;
+
+      const code = result.error || result.status || `http_${response.status}`;
+      const missing = Array.isArray(result.missing) && result.missing.length ? `: ${result.missing.join(", ")}` : "";
+      lastError = `${code}${missing}`;
+      const retryable = retryableStatus(response.status) || result.status === "partial_failure";
+      if (!retryable || attempt === RETRY_DELAYS_MS.length) {
+        throw new Error(`Kupon mail endpoint'i başarısız (${lastError})`);
+      }
+    } catch (error) {
+      lastError = error?.message || String(error);
+      if (attempt === RETRY_DELAYS_MS.length) throw error;
+    }
+    await sleep(RETRY_DELAYS_MS[attempt]);
+  }
+  throw new Error(`Kupon mail endpoint'i başarısız (${lastError})`);
 }
 
 async function triggerCouponNotification({
@@ -67,23 +119,7 @@ async function triggerCouponNotification({
     throw new Error("COUPON_MAIL_ENDPOINT güvenli bir HTTPS adresi olmalıdır");
   }
   const authorizationToken = await resolveAuthorizationToken(env, fetchImpl);
-
-  const response = await fetchImpl(endpoint, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${authorizationToken}`,
-      "Content-Type": "application/json",
-      "User-Agent": "futbol-laboratuvari-coupon-workflow",
-    },
-    body: JSON.stringify({ trigger: "coupon-data-workflow" }),
-  });
-  const result = await response.json().catch(() => ({}));
-  if (!response.ok || result.ok === false) {
-    const code = result.error || result.status || `http_${response.status}`;
-    const missing = Array.isArray(result.missing) && result.missing.length ? `: ${result.missing.join(", ")}` : "";
-    throw new Error(`Kupon mail endpoint'i başarısız (${code}${missing})`);
-  }
-  return result;
+  return callCouponEndpoint(endpoint, authorizationToken, fetchImpl);
 }
 
 async function main() {
@@ -101,8 +137,11 @@ if (require.main === module) {
 module.exports = {
   COUPON_FILE,
   DEFAULT_ENDPOINT,
+  RETRY_DELAYS_MS,
+  callCouponEndpoint,
   readCouponFile,
   resolveAuthorizationToken,
+  retryableStatus,
   trustedActionsOidcUrl,
   triggerCouponNotification,
 };
