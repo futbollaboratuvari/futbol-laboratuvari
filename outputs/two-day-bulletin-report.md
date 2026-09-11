@@ -2,20 +2,15 @@
 
 Gunler: 2026-09-11 / 2026-09-12
 Kaynak: fixtures.json
-Ham mac: 256
-Aktif mac: 236
+Ham mac: 236
+Aktif mac: 231
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 20
-Bugun: 212
+Bultenden dusurulen mac: 5
+Bugun: 207
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-11 11:30 | Endonezya Süper Lig | Garudayaksa - Persik | scheduled | -
-- 2026-09-11 12:00 | Avustralya NPL Yeni Güney Galler Play-off 2/3 | Prospect Unite (1) - (4) Parramatta Eagl | scheduled | -
-- 2026-09-11 12:00 | Avustralya Kuzey Bölgesi | Palmerston Rov - Hellenic Athlet | scheduled | -
-- 2026-09-11 12:30 | Avustralya NPL Victoria Yarı Final | Oakleigh Canno - South Melbourne | scheduled | -
-- 2026-09-11 12:30 | Avustralya Victoria Kadınlar Premier Lig Ön Eleme Final | Box Hill Unite - Bulleen Lions ( | scheduled | -
 - 2026-09-11 13:00 | Ukrayna Premier Lig | Kolos Kovalivk - Karpaty Lviv | scheduled | -
 - 2026-09-11 13:00 | Japonya J1 Lig | Vissel Kobe - Kashima | scheduled | -
 - 2026-09-11 13:00 | Japonya J1 Lig | Kyoto Sanga - Kashiwa | scheduled | -

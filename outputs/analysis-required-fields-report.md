@@ -1,9 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 235
-Tam analiz: 208
-Eksik analiz: 27
+Toplam analiz: 236
+Tam analiz: 210
+Eksik analiz: 26
 
 - Buriram Utd VS Chiangrai Utd: eksik score, confidence
 - Ttbd Phu Dong VS Thanh Hoa: eksik score, confidence

@@ -2,18 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-11T09:06:26.807Z
+- Güncelleme: 2026-09-11T09:52:17.204Z
 - Ham maç sayısı: 236
 - Yarın bülteni maç sayısı: 24
 - Detay blok sayısı: 660
-- Aktif bülten maçı: 233
-- Bültenden düşürülen maç: 3
+- Aktif bülten maçı: 231
+- Bültenden düşürülen maç: 5
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Oakleigh Canno - South Melbourne | Avustralya NPL Victoria Yarı Final | 12:30 | Veri bekleniyor | - | 1.91 | 8 |
-| Box Hill Unite - Bulleen Lions ( | Avustralya Victoria Kadınlar Premier Lig Ön Eleme Final | 12:30 | Veri bekleniyor | - | 1.67 | 8 |
 | Kolos Kovalivk - Karpaty Lviv | Ukrayna Premier Lig | 13:00 | Veri bekleniyor | - | 2.84 | 8 |
 | Vissel Kobe - Kashima | Japonya J1 Lig | 13:00 | Veri bekleniyor | - | 2.42 | 8 |
 | Kyoto Sanga - Kashiwa | Japonya J1 Lig | 13:00 | Veri bekleniyor | - | 4.39 | 8 |

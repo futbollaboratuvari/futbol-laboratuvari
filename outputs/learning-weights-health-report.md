@@ -12,6 +12,6 @@ Dusurulen toplam: 1
 ## Guclu Marketler
 
 ## Zayif Marketler
-- 2.5 Alt: duzeltilmis getiri -0.187, agirlik 0.94, guven -2
+- 2.5 Alt: duzeltilmis getiri -0.182, agirlik 0.94, guven -2
 
 Sonraki aksiyon: Yalniz guven araligi notr bandin disina cikan hafizalar sonraki analizlerde sinirli uygulanir.
