@@ -1,18 +1,52 @@
 {
-  "generated_at": "2026-09-11T04:53:35.039Z",
-  "status": "calibrating",
+  "generated_at": "2026-09-11T06:09:30.909Z",
+  "status": "active",
   "prediction_count": 1500,
   "market_memory": {
     "total": 6,
     "ready": 4,
-    "active": 0,
+    "active": 1,
     "boost": 0,
-    "penalty": 0,
+    "penalty": 1,
     "best": [],
-    "weak": []
+    "weak": [
+      {
+        "name": "2.5 Alt",
+        "total": 555,
+        "pending": 437,
+        "won": 56,
+        "lost": 62,
+        "void": 0,
+        "success_rate": 0.475,
+        "profit_sample_count": 118,
+        "odds_sum": 195.01,
+        "profit_sum": -27.73,
+        "profit_square_sum": 85.3981,
+        "distinct_date_count": 6,
+        "average_odds": 1.653,
+        "flat_roi": -0.235,
+        "weight": 0.94,
+        "confidence_adjustment": -2,
+        "scope": "market",
+        "settled": 118,
+        "adjusted_success_rate": 0.48,
+        "confidence_low": 0.4,
+        "confidence_high": 0.55,
+        "evaluation_basis": "flat_roi",
+        "adjusted_roi": -0.187,
+        "roi_confidence_low": -0.359,
+        "roi_confidence_high": -0.111,
+        "policy_min_settled": 30,
+        "policy_min_distinct_dates": 7,
+        "sample_ready": true,
+        "temporal_ready": false,
+        "learning_active": true,
+        "learning_state": "penalty"
+      }
+    ]
   },
   "league_memory": {
-    "total": 276,
+    "total": 277,
     "ready": 0,
     "active": 0,
     "boost": 0,
@@ -21,7 +55,7 @@
     "weak": []
   },
   "league_market_memory": {
-    "total": 620,
+    "total": 623,
     "ready": 0,
     "active": 0,
     "boost": 0,
@@ -29,5 +63,5 @@
     "best": [],
     "weak": []
   },
-  "next_action": "Orneklem hazir; guven araligi ayrisana kadar agirliklar notr kalir."
+  "next_action": "Yalniz guven araligi notr bandin disina cikan hafizalar sonraki analizlerde sinirli uygulanir."
 }
