@@ -4,45 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-11T20:24:57.405Z
+- Güncelleme: 2026-09-11T20:41:32.393Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Torreense VS Leixoes | Portekiz 2.Lig | 20:45 | 2.5 Alt | 1.42 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Az Alkmaar VS Willem | Hollanda Eredivisie | 21:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Al Ahli (Cidde VS Al Hazm | Suudi Arabistan Pro Lig | 21:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Clermont VS Boulogne | Fransa Ligue 2 | 21:00 | 2.5 Alt | 1.51 | 69 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
-| Nancy VS Reims | Fransa Ligue 2 | 21:00 | 2.5 Üst | 1.75 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Montpellier VS Pau Fc | Fransa Ligue 2 | 21:00 | 2.5 Üst | 1.76 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
-| Rodez Aveyron VS Grenoble | Fransa Ligue 2 | 21:00 | 2.5 Üst | 1.60 | 82 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| Dijon VS Stade Lavallois | Fransa Ligue 2 | 21:00 | 2.5 Alt | 1.86 | 62 | Sadece izleme | Değerli | Orta | Orta | scheduled |
-| Breda VS Utrecht (Ii) | Hollanda Eerste Divisie | 21:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Maastricht VS Almere City | Hollanda Eerste Divisie | 21:00 | MS 2 | 1.95 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Helmond Sport VS Psv (B) | Hollanda Eerste Divisie | 21:00 | MS 2 | 2.07 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Vvv Venlo VS Oss | Hollanda Eerste Divisie | 21:00 | MS 1 | 1.60 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Ajax (B) VS Waalwijk | Hollanda Eerste Divisie | 21:00 | MS 2 | 1.73 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Emmen VS De Graafschap | Hollanda Eerste Divisie | 21:00 | MS 1 | 1.45 | 68 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
-| Fc Eindhoven VS Dordrecht | Hollanda Eerste Divisie | 21:00 | MS 1 | 1.96 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Heracles VS Jong Az Alkmaar | Hollanda Eerste Divisie | 21:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Cherno More VS Lokomotiv Sofia | Bulgaristan 1.Lig | 21:00 | 2.5 Üst | 1.62 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Beerschot-Wilr VS Lierse Kempenzo | Belçika Challenger Pro Lig | 21:00 | MS 1 | 1.27 | 63 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Kaa Gent Ii VS Dender | Belçika Challenger Pro Lig | 21:00 | MS 2 | 1.55 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Mc Oran VS Temouchent | Cezayir 1.Lig | 21:00 | MS 1 | 1.34 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Csikszereda VS Dinamo Bükreş | Romanya 1.Lig | 21:00 | MS 2 | 1.33 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Tabor Sezana VS Dravinja | Slovenya 2.SNL | 21:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Cruz Azul Hida VS Piratas | Meksika Ascenso MX Apertura | 21:00 | 2.5 Alt | 1.79 | 59 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
-| Norwich City U VS Birmingham City | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.37 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Sunderland (B) VS Ipswich Town U2 | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.54 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Fulham (B) VS Aston Villa U21 | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.67 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Stoke (B) VS Wolverhampton U | İngiltere Premier Lig 2 | 21:00 | MS 2 | 1.62 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Brighton (B) VS Leicester (B) | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.51 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Derby County U VS Tottenham U21 | İngiltere Premier Lig 2 | 21:00 | 2.5 Alt | 1.41 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Celik VS Radnik Bijeljin | Bosna-Hersek Premier Lig | 21:00 | 2.5 Alt | 1.44 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Independiente VS Lanus (K) | Arjantin Kadınlar Primera A 2. Aşama | 21:00 | 2.5 Alt | 1.41 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Belgrano (K) VS Ferro Carril Oe | Arjantin Kadınlar Primera A 2. Aşama | 21:00 | MS 1 | 1.52 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Etoile Carouge VS Winterthur | İsviçre Challenge Lig | 21:15 | MS 2 | 1.96 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Nk Brinje Gros VS Nafta | Slovenya 1.SNL | 21:15 | 2.5 Alt | 1.83 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Union Berlin VS Schalke | Almanya Bundesliga | 21:30 | MS 1 | 2.14 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -117,7 +85,7 @@
 | Cruz Azul (K) VS Pumas Unam (K) | Meksika Kadınlar Liga MX Apertura | 04:00 | MS 2 | 2.04 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Santa Fe VS Deportes Tolima | Kolombiya Primera A Clausura | 04:30 | 2.5 Üst | 1.97 | 66 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
 | New Mexico Uni VS Indy Eleven | ABD USL | 04:30 | MS 1 | 1.85 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Estrella Roja VS Platense | Honduras Ulusal Lig Apertura | 04:30 | 2.5 Üst | 1.61 | 82 | Ana kupon adayı | Değerli | Düşük | Düşük | scheduled |
+| Estrella Roja VS Platense | Honduras Ulusal Lig Apertura | 04:30 | 2.5 Üst | 1.61 | 86 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Perez Zeledon VS Ad San Carlos | Kosta Rika Premier Lig Apertura | 05:00 | 2.5 Alt | 1.51 | 67 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Colorado Sprin VS San Antonio | ABD USL | 05:00 | 2.5 Alt | 1.63 | 67 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
 | Atlante VS Pachuca | Meksika Liga MX Apertura | 06:00 | 2.5 Alt | 1.71 | 66 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
@@ -127,22 +95,22 @@
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Estrella Roja VS Platense | 2.5 Üst | 1.61 | 82 | Ana kupon adayı | Değerli | Düşük | Düşük |
-| Rodez Aveyron VS Grenoble | 2.5 Üst | 1.60 | 82 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Estrella Roja VS Platense | 2.5 Üst | 1.61 | 86 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Coritiba VS Atletico Pr | 2.5 Üst | 1.97 | 78 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Athletic Club VS New York Cosmos | 2.5 Üst | 1.97 | 77 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Morton VS Livingston | 2.5 Alt | 1.80 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Kidderminster VS Hartlepool | 2.5 Alt | 1.60 | 75 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
+| West Ham VS Wrexham | MS 1 | 1.34 | 74 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Estrella Roja VS Platense + Rodez Aveyron VS Grenoble | 2.5 Üst + 2.5 Üst | 2.58 | 82 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Coritiba VS Atletico Pr + Athletic Club VS New York Cosmos | 2.5 Üst + 2.5 Üst | 3.88 | 78 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Morton VS Livingston + Kidderminster VS Hartlepool | 2.5 Alt + 2.5 Alt | 2.88 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Estrella Roja VS Platense + Coritiba VS Atletico Pr | 2.5 Üst + 2.5 Üst | 3.17 | 82 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Athletic Club VS New York Cosmos + Morton VS Livingston | 2.5 Üst + 2.5 Alt | 3.55 | 76 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Kidderminster VS Hartlepool + Pisa VS Virtus Entella | 2.5 Alt + 2.5 Üst | 3.09 | 74 | Orta risk kupon adayı | Normal Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Estrella Roja VS Platense + Rodez Aveyron VS Grenoble + Coritiba VS Atletico Pr | 2.5 Üst + 2.5 Üst + 2.5 Üst | 5.07 | 81 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Athletic Club VS New York Cosmos + Morton VS Livingston + Kidderminster VS Hartlepool | 2.5 Üst + 2.5 Alt + 2.5 Alt | 5.67 | 76 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Estrella Roja VS Platense + Coritiba VS Atletico Pr + Athletic Club VS New York Cosmos | 2.5 Üst + 2.5 Üst + 2.5 Üst | 6.25 | 80 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Morton VS Livingston + Kidderminster VS Hartlepool + Pisa VS Virtus Entella | 2.5 Alt + 2.5 Alt + 2.5 Üst | 5.56 | 74 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
