@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-11 / 2026-09-12
 Kaynak: fixtures.json
-Ham mac: 247
-Aktif mac: 239
+Ham mac: 253
+Aktif mac: 236
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 215
+Bultenden dusurulen mac: 17
+Bugun: 212
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-11 04:00 | Kolombiya Primera A Clausura | Los Millionari - Deportivo Cali | scheduled | -
-- 2026-09-11 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Durango | scheduled | -
-- 2026-09-11 04:06 | CONCACAF Orta Amerika Kupası Çeyrek Final | Marathon - Alajuelense | scheduled | -
 - 2026-09-11 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Coban Imperial | scheduled | -
 - 2026-09-11 06:05 | Meksika Liga MX Apertura | Pumas Unam - Club Leon | scheduled | -
 - 2026-09-11 06:06 | CONCACAF Orta Amerika Kupası Çeyrek Final | Firpo - Depor. Olimpia | scheduled | -

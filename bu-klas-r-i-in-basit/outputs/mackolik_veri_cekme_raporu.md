@@ -1,19 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-11T00:03:45.238598+00:00
+Tarih: 2026-09-11T01:10:54.778695+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 212
+- Kac mac bulundu: 236
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 212
+- Kac mac zaten vardi: 236
 - Ham veri havuzu toplam mac sayisi: 13241
 - Hedef tarih: 11.09.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bundesliga
@@ -23,6 +25,8 @@ Tarih: 2026-09-11T00:03:45.238598+00:00
 - Almanya Kadınlar Bundesliga
 - Arjantin Kadınlar Primera A 2. Aşama
 - Arjantin Premier Lig 2. Aşama
+- Arjantin Prim B Metro
+- Arjantin Ulusal Primera Lig
 - Arnavutluk Süperlig
 - Avustralya Kuzey Bölgesi
 - Avustralya NPL Güney Avustralya Final
@@ -39,8 +43,10 @@ Tarih: 2026-09-11T00:03:45.238598+00:00
 - Belçika Pro Lig
 - Birleşik Arap Emirlikleri 1.Lig
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
+- Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Botsvana Premier Lig
+- Brezilya Serie A
 - Bulgaristan 1.Lig
 - CAF Konfederasyon Kupası 1.Ön Eleme Turu
 - CAF Şampiyonlar Ligi 1.Ön Eleme Turu
@@ -48,6 +54,7 @@ Tarih: 2026-09-11T00:03:45.238598+00:00
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka Süperlig
+- Ekvador Pro Lig Serie B Küme Düşme Grubu
 - Ekvador Pro Lig Serie B Şampiyonluk Grubu
 - Endonezya Süper Lig
 - Estonya Esiliiga B
@@ -64,12 +71,15 @@ Tarih: 2026-09-11T00:03:45.238598+00:00
 - Güney Kore K3 Ligi
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
+- Honduras Ulusal Lig Apertura
 - Hong Kong Premier Lig
 - Hırvatistan 2.HNL
 - Japonya J1 Lig
 - Kadınlar U20 Dünya Kupası Grup A
 - Kadınlar U20 Dünya Kupası Grup B
 - Katar Yıldızlar Ligi
+- Kolombiya Primera A Clausura
+- Kosta Rika Premier Lig Apertura
 - Kuzey Makedonya 1.Lig
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
@@ -78,6 +88,8 @@ Tarih: 2026-09-11T00:03:45.238598+00:00
 - Malezya Süper Lig
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
+- Meksika Kadınlar Liga MX Apertura
+- Meksika Liga MX Apertura
 - Mısır 2. Lig
 - Norveç 2.Lig Grup 2
 - Peru Premier Lig Clausura
@@ -211,12 +223,12 @@ Tarih: 2026-09-11T00:03:45.238598+00:00
 | 11.09.2026 | 21:45 | Belçika Pro Lig | Mechelen | Anderlecht | 28602 | 5 |
 | 11.09.2026 | 22:00 | İngiltere Championship | West Ham | Wrexham | 07582 | 5 |
 | 11.09.2026 | 21:30 | İspanya 2.Lig | Burgos | Ceuta | 16789 | 5 |
-| 11.09.2026 | 22:00 | İtalya Serie B | Pisa | Virtus Entella | 25074 | 5 |
 | 11.09.2026 | 22:00 | İtalya Serie B | Benevento | Verona | 25218 | 5 |
+| 11.09.2026 | 22:00 | İtalya Serie B | Pisa | Virtus Entella | 25074 | 5 |
 | 11.09.2026 | 20:00 | İtalya Serie B | Empoli | Arezzo | 13493 | 5 |
+| 11.09.2026 | 21:00 | Fransa Ligue 2 | Dijon | Stade Lavallois | 27199 | 5 |
 | 11.09.2026 | 21:00 | Fransa Ligue 2 | Clermont | Boulogne | 27141 | 5 |
 | 11.09.2026 | 21:00 | Fransa Ligue 2 | Nancy | Reims | 21573 | 5 |
-| 11.09.2026 | 21:00 | Fransa Ligue 2 | Montpellier | Pau Fc | 27257 | 5 |
 | 11.09.2026 | 21:00 | Fransa Ligue 2 | Rodez Aveyron | Grenoble | 27315 | 5 |
 
 ## Sonuc
