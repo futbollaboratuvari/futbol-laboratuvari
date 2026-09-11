@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T05:17:14.655Z",
+  "generated_at": "2026-09-11T06:05:30.719Z",
   "date": "2026-09-11",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -817,16 +817,16 @@
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 359,
-    "pending_count": 1141,
-    "won_count": 194,
-    "lost_count": 165,
+    "measured_count": 348,
+    "pending_count": 1152,
+    "won_count": 187,
+    "lost_count": 161,
     "void_count": 0,
     "success_rate": 54,
-    "probability_sample_count": 359,
-    "brier_score": 0.2382,
-    "baseline_brier_score": 0.2484,
-    "brier_skill_score": 0.0409,
+    "probability_sample_count": 348,
+    "brier_score": 0.2367,
+    "baseline_brier_score": 0.2486,
+    "brier_skill_score": 0.0478,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -840,34 +840,34 @@
       {
         "lower": 30,
         "upper": 39,
-        "predictions": 24,
-        "won": 8,
-        "average_probability": 37.8,
-        "observed_rate": 33.3
+        "predictions": 23,
+        "won": 7,
+        "average_probability": 37.7,
+        "observed_rate": 30.4
       },
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 117,
-        "won": 50,
+        "predictions": 111,
+        "won": 46,
         "average_probability": 45.6,
-        "observed_rate": 42.7
+        "observed_rate": 41.4
       },
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 166,
-        "won": 101,
+        "predictions": 163,
+        "won": 99,
         "average_probability": 54.6,
-        "observed_rate": 60.8
+        "observed_rate": 60.7
       },
       {
         "lower": 60,
         "upper": 69,
-        "predictions": 51,
+        "predictions": 50,
         "won": 35,
         "average_probability": 63,
-        "observed_rate": 68.6
+        "observed_rate": 70
       }
     ],
     "verified_at": "2026-09-11T05:17:14.473Z",
@@ -875,17 +875,17 @@
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 206,
-        "won": 110,
-        "lost": 96,
+        "measured": 201,
+        "won": 106,
+        "lost": 95,
         "success_rate": 53
       },
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 151,
-        "won": 83,
-        "lost": 68,
+        "measured": 145,
+        "won": 80,
+        "lost": 65,
         "success_rate": 55
       },
       {

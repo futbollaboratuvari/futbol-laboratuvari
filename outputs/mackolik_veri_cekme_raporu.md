@@ -3,7 +3,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-11T05:16:20.582Z
-- Maç sayısı: 235
+- Güncelleme: 2026-09-11T06:05:14.959Z
+- Maç sayısı: 236
 - Aktif analiz sayısı: 11
 - Filtre: Çifte şans yok, eski sabit veri yok, düşük oranlı marketler elendi.
