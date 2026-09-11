@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-11 / 2026-09-12
 Kaynak: fixtures.json
-Ham mac: 251
-Aktif mac: 242
+Ham mac: 247
+Aktif mac: 239
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 218
+Bultenden dusurulen mac: 8
+Bugun: 215
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-11 03:30 | Copa Libertadores Çeyrek Final | Indep. Jose Te - Flamengo | scheduled | -
-- 2026-09-11 03:30 | Copa Sudamericana Çeyrek Final | Cienciano - Torque | scheduled | -
-- 2026-09-11 03:30 | Brezilya Serie B | Sport Recife - Ponte Preta | scheduled | -
 - 2026-09-11 04:00 | Kolombiya Primera A Clausura | Los Millionari - Deportivo Cali | scheduled | -
 - 2026-09-11 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Durango | scheduled | -
 - 2026-09-11 04:06 | CONCACAF Orta Amerika Kupası Çeyrek Final | Marathon - Alajuelense | scheduled | -
