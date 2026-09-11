@@ -3,16 +3,14 @@
 Gunler: 2026-09-11 / 2026-09-12
 Kaynak: fixtures.json
 Ham mac: 251
-Aktif mac: 244
+Aktif mac: 242
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 220
+Bultenden dusurulen mac: 9
+Bugun: 218
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-11 03:00 | Guatemala Ulusal Lig Apertura | Malacateco - Antigua Guatema | scheduled | -
-- 2026-09-11 03:00 | Nikaragua Premier Lig Apertura | Managua - Real Esteli | scheduled | -
 - 2026-09-11 03:30 | Copa Libertadores Çeyrek Final | Indep. Jose Te - Flamengo | scheduled | -
 - 2026-09-11 03:30 | Copa Sudamericana Çeyrek Final | Cienciano - Torque | scheduled | -
 - 2026-09-11 03:30 | Brezilya Serie B | Sport Recife - Ponte Preta | scheduled | -
