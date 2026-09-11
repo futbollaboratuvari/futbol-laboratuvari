@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T20:58:39.523Z",
-  "date": "2026-09-11",
+  "generated_at": "2026-09-11T21:48:57.483Z",
+  "date": "2026-09-12",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
   "completed_items": [
@@ -817,16 +817,16 @@
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 366,
-    "pending_count": 1134,
-    "won_count": 194,
-    "lost_count": 172,
+    "measured_count": 360,
+    "pending_count": 1140,
+    "won_count": 192,
+    "lost_count": 168,
     "void_count": 0,
     "success_rate": 53,
-    "probability_sample_count": 366,
-    "brier_score": 0.2383,
-    "baseline_brier_score": 0.2491,
-    "brier_skill_score": 0.0434,
+    "probability_sample_count": 360,
+    "brier_score": 0.238,
+    "baseline_brier_score": 0.2489,
+    "brier_skill_score": 0.0438,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -848,18 +848,18 @@
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 118,
+        "predictions": 117,
         "won": 51,
-        "average_probability": 45.6,
-        "observed_rate": 43.2
+        "average_probability": 45.5,
+        "observed_rate": 43.6
       },
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 166,
-        "won": 97,
-        "average_probability": 54.6,
-        "observed_rate": 58.4
+        "predictions": 161,
+        "won": 95,
+        "average_probability": 54.5,
+        "observed_rate": 59
       },
       {
         "lower": 60,
@@ -875,16 +875,16 @@
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 209,
-        "won": 108,
-        "lost": 101,
+        "measured": 204,
+        "won": 107,
+        "lost": 97,
         "success_rate": 52
       },
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 155,
-        "won": 85,
+        "measured": 154,
+        "won": 84,
         "lost": 70,
         "success_rate": 55
       },

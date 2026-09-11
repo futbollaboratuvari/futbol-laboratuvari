@@ -1,17 +1,16 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-09-11 / 2026-09-12
+Gunler: 2026-09-12 / 2026-09-13
 Kaynak: fixtures.json
-Ham mac: 78
-Aktif mac: 25
+Ham mac: 25
+Aktif mac: 24
 Canli mac: 0
-Biten mac: 5
-Bultenden dusurulen mac: 53
-Bugun: 0
-Yarin: 25
+Biten mac: 0
+Bultenden dusurulen mac: 1
+Bugun: 24
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-09-12 00:30 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Ldu Portoviejo - Santo Domingo | scheduled | -
 - 2026-09-12 01:00 | Bolivya Premier Lig | San Antonio Bu - Aurora | scheduled | -
 - 2026-09-12 01:00 | Arjantin Prim B Metro | Ituzaingo - Club Comunicaci | scheduled | -
 - 2026-09-12 01:15 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Gimnasia Mendoz | scheduled | -
@@ -41,8 +40,4 @@ Yarin: 25
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-09-11 21:30 | Almanya Bundesliga | Union Berlin - Schalke | finished | 1-3
-- 2026-09-11 21:30 | İspanya 2.Lig | Burgos - Ceuta | finished | 3-1
-- 2026-09-11 21:30 | İskoçya Championship | Morton - Livingston | finished | 1-4
-- 2026-09-11 21:45 | Belçika Pro Lig | Mechelen - Anderlecht | finished | 0-1
-- 2026-09-11 21:45 | İngiltere Ulusal Lig | Kidderminster - Hartlepool | finished | 2-0
+Biten mac yok.
