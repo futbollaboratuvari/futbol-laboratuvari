@@ -1,18 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 221
-Tam analiz: 197
-Eksik analiz: 24
+Toplam analiz: 155
+Tam analiz: 138
+Eksik analiz: 17
 
-- Tanzanya U20 ( VS Kanada U20 (K): eksik score, confidence
-- Johor Dt VS Negeri Sembilan: eksik score, confidence
-- Aresimi VS Skendija: eksik score, confidence
-- Lokomotiv Taşk VS Mashal Muborak: eksik score, confidence
-- Al-Hussein VS Al Baqaa: eksik score, confidence
-- Riga Fc VS Auda: eksik score, confidence
-- Al-Qadsiah VS Al Ettifaq: eksik score, confidence
-- Kotka VS Japs: eksik score, confidence
 - Kopenhag VS Horsens: eksik score, confidence
 - Eidsvold Tf VS Ullensaker Kisa: eksik score, confidence
 - Az Alkmaar VS Willem: eksik score, confidence
@@ -21,7 +13,12 @@ Eksik analiz: 24
 - Heracles VS Jong Az Alkmaar: eksik score, confidence
 - Tabor Sezana VS Dravinja: eksik score, confidence
 - Swansea Univer VS Pontardawe: eksik score, confidence
-- Hamrun VS Birzebbuga: eksik score, confidence
 - Stenhousemuir VS Hearts: eksik score, confidence
 - Ammanford VS Caernarfon: eksik score, confidence
+- Cambrian VS Holywell Town: eksik score, confidence
 - Airbus Uk VS The New Saints: eksik score, confidence
+- Coleraine VS Ballymena: eksik score, confidence
+- Wexford Youths VS Finn Harps: eksik score, confidence
+- Caerau Ely VS Llanelli Town: eksik score, confidence
+- Psg (K) VS Strasbourg (K): eksik score, confidence
+- Ldu Portoviejo VS Santo Domingo: eksik score, confidence

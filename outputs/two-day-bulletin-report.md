@@ -2,11 +2,11 @@
 
 Gunler: 2026-09-11 / 2026-09-12
 Kaynak: fixtures.json
-Ham mac: 266
+Ham mac: 155
 Aktif mac: 68
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 198
+Biten mac: 2
+Bultenden dusurulen mac: 87
 Bugun: 43
 Yarin: 25
 
@@ -84,4 +84,5 @@ Yarin: 25
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-11 19:30 | Almanya 2. Bundesliga | Darmstadt - Arminia Bielefe | finished | 2-1
+- 2026-09-11 19:30 | Almanya 2. Bundesliga | Nürnberg - Hannover | finished | 2-1
