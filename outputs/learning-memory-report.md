@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.09.2026 07:53:23
+Oluşturma: 11.09.2026 08:17:04
 
 ## Özet
 
@@ -37,7 +37,7 @@ Oluşturma: 11.09.2026 07:53:23
 - 2026-09-11 | Çek Cumhuriyeti FNL | Usti Nad Labem - Jihlava | MS 1 | pending | 49/100
 - 2026-09-11 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Wahda - Al Sharjah | 2.5 Üst | pending | 54/100
 - 2026-09-11 | Kuzey Makedonya 1.Lig | Aresimi - Skendija | MS 2 | pending | 58/100
-- 2026-09-11 | Arjantin Prim B Metro | De Merlo - Real Pilar | 2.5 Alt | pending | 48/100
+- 2026-09-11 | Arjantin Prim B Metro | De Merlo - Real Pilar | 2.5 Alt | pending | 49/100
 - 2026-09-11 | Galler Premier Lig 1.Aşama | Barry Town - Llandudno | 2.5 Alt | pending | 49/100
 - 2026-09-11 | Vietnam V-Lig 1 | Bac Ninh - Clb Tp Ho Chi M | 2.5 Alt | pending | 57/100
 - 2026-09-11 | Slovakya 2.Lig | Pohronie - Liptovsky Mikul | MS 2 | pending | 44/100
