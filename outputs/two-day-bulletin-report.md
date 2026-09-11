@@ -3,17 +3,14 @@
 Gunler: 2026-09-11 / 2026-09-12
 Kaynak: fixtures.json
 Ham mac: 112
-Aktif mac: 28
+Aktif mac: 25
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 84
-Bugun: 3
+Bultenden dusurulen mac: 87
+Bugun: 0
 Yarin: 25
 
 ## Baslamamis Maclar
-- 2026-09-11 23:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo - Velez Sarsfield | scheduled | -
-- 2026-09-11 23:00 | Cezayir 1.Lig | Belouizdad - Es Setif | scheduled | -
-- 2026-09-11 23:00 | Peru Premier Lig Clausura | Univ De Cajama - Juan Pablo Ii C | scheduled | -
 - 2026-09-12 00:30 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Ldu Portoviejo - Santo Domingo | scheduled | -
 - 2026-09-12 01:00 | Bolivya Premier Lig | San Antonio Bu - Aurora | scheduled | -
 - 2026-09-12 01:00 | Arjantin Prim B Metro | Ituzaingo - Club Comunicaci | scheduled | -

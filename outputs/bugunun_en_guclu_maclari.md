@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-11T19:52:38.844Z
+- Güncelleme: 2026-09-11T20:24:57.405Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -113,11 +113,11 @@
 | Necaxa VS Puebla | Meksika Liga MX Apertura | 04:00 | 2.5 Alt | 1.86 | 62 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Gimnasia Y Tir VS Tristan | Arjantin Ulusal Primera Lig | 04:00 | MS 1 | 2.11 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Correcaminos U VS Cancun Fc | Meksika Ascenso MX Apertura | 04:00 | 2.5 Alt | 1.76 | 63 | Sadece izleme | Değerli | Orta | Orta | scheduled |
-| Athletic Club VS New York Cosmos | ABD USL Lig 1 | 04:00 | 2.5 Üst | 1.93 | 77 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Athletic Club VS New York Cosmos | ABD USL Lig 1 | 04:00 | 2.5 Üst | 1.97 | 77 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Cruz Azul (K) VS Pumas Unam (K) | Meksika Kadınlar Liga MX Apertura | 04:00 | MS 2 | 2.04 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Santa Fe VS Deportes Tolima | Kolombiya Primera A Clausura | 04:30 | 2.5 Üst | 1.97 | 66 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
 | New Mexico Uni VS Indy Eleven | ABD USL | 04:30 | MS 1 | 1.85 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Estrella Roja VS Platense | Honduras Ulusal Lig Apertura | 04:30 | 2.5 Üst | 1.61 | 86 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Estrella Roja VS Platense | Honduras Ulusal Lig Apertura | 04:30 | 2.5 Üst | 1.61 | 82 | Ana kupon adayı | Değerli | Düşük | Düşük | scheduled |
 | Perez Zeledon VS Ad San Carlos | Kosta Rika Premier Lig Apertura | 05:00 | 2.5 Alt | 1.51 | 67 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Colorado Sprin VS San Antonio | ABD USL | 05:00 | 2.5 Alt | 1.63 | 67 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
 | Atlante VS Pachuca | Meksika Liga MX Apertura | 06:00 | 2.5 Alt | 1.71 | 66 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
@@ -127,22 +127,22 @@
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Estrella Roja VS Platense | 2.5 Üst | 1.61 | 86 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Estrella Roja VS Platense | 2.5 Üst | 1.61 | 82 | Ana kupon adayı | Değerli | Düşük | Düşük |
 | Rodez Aveyron VS Grenoble | 2.5 Üst | 1.60 | 82 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Coritiba VS Atletico Pr | 2.5 Üst | 1.97 | 78 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Athletic Club VS New York Cosmos | 2.5 Üst | 1.93 | 77 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Athletic Club VS New York Cosmos | 2.5 Üst | 1.97 | 77 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Morton VS Livingston | 2.5 Alt | 1.80 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Kidderminster VS Hartlepool | 2.5 Alt | 1.60 | 75 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Estrella Roja VS Platense + Rodez Aveyron VS Grenoble | 2.5 Üst + 2.5 Üst | 2.58 | 84 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Coritiba VS Atletico Pr + Athletic Club VS New York Cosmos | 2.5 Üst + 2.5 Üst | 3.80 | 78 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Estrella Roja VS Platense + Rodez Aveyron VS Grenoble | 2.5 Üst + 2.5 Üst | 2.58 | 82 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Coritiba VS Atletico Pr + Athletic Club VS New York Cosmos | 2.5 Üst + 2.5 Üst | 3.88 | 78 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Morton VS Livingston + Kidderminster VS Hartlepool | 2.5 Alt + 2.5 Alt | 2.88 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Estrella Roja VS Platense + Rodez Aveyron VS Grenoble + Coritiba VS Atletico Pr | 2.5 Üst + 2.5 Üst + 2.5 Üst | 5.07 | 82 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Athletic Club VS New York Cosmos + Morton VS Livingston + Kidderminster VS Hartlepool | 2.5 Üst + 2.5 Alt + 2.5 Alt | 5.56 | 76 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Estrella Roja VS Platense + Rodez Aveyron VS Grenoble + Coritiba VS Atletico Pr | 2.5 Üst + 2.5 Üst + 2.5 Üst | 5.07 | 81 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Athletic Club VS New York Cosmos + Morton VS Livingston + Kidderminster VS Hartlepool | 2.5 Üst + 2.5 Alt + 2.5 Alt | 5.67 | 76 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
