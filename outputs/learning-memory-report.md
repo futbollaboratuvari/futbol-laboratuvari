@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.09.2026 01:08:14
+Oluşturma: 12.09.2026 02:19:28
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1302
-- Kazanan tahmin: 105
-- Kaybeden tahmin: 93
-- Lig sayısı: 272
+- Bekleyen tahmin: 1309
+- Kazanan tahmin: 100
+- Kaybeden tahmin: 91
+- Lig sayısı: 271
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,28 +22,28 @@ Oluşturma: 12.09.2026 01:08:14
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 213, bekleyen 175, başarı %61, düz getiri %10, ağırlık 1
-- MS 1: toplam 522, bekleyen 456, başarı %58, düz getiri %-4, ağırlık 1
-- MS 2: toplam 246, bekleyen 218, başarı %57, düz getiri %1, ağırlık 1
-- 2.5 Alt: toplam 513, bekleyen 449, başarı %44, düz getiri %-29, ağırlık 1
+- MS 2: toplam 243, bekleyen 216, başarı %59, düz getiri %4, ağırlık 1
+- 2.5 Üst: toplam 212, bekleyen 176, başarı %58, düz getiri %6, ağırlık 1
+- MS 1: toplam 519, bekleyen 454, başarı %57, düz getiri %-5, ağırlık 1
+- 2.5 Alt: toplam 515, bekleyen 454, başarı %43, düz getiri %-31, ağırlık 1
+- KG Var: toplam 7, bekleyen 6, başarı %0, düz getiri %-100, ağırlık 1
 - MS X: toplam 4, bekleyen 3, başarı %0, düz getiri %-100, ağırlık 1
-- KG Var: toplam 2, bekleyen 1, başarı %0, düz getiri %-100, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-12 | İspanya 2. Lig RFEF Grup 4 | Estepona - Linares Deporti | 2.5 Alt | pending | 52/100
-- 2026-09-12 | Bolivya Premier Lig | Gualberto Vill - Nacional Potosi | 2.5 Alt | pending | 45/100
-- 2026-09-12 | Arjantin Prim B Metro | Brown - Burzaco | MS 1 | pending | 48/100
-- 2026-09-12 | Portekiz Premier Lig | Academico Vise - Guimaraes | 2.5 Alt | pending | 54/100
-- 2026-09-12 | Uruguay Premier Lig Clausura | Montevideo Wan - Nacional Df | 2.5 Alt | pending | 53/100
-- 2026-09-12 | Brezilya Serie A | Chapecoense - Internacional | 2.5 Üst | pending | 70/100
-- 2026-09-12 | Cezayir 1.Lig | Cs Constantine - Aso Chlef | 2.5 Alt | pending | 54/100
-- 2026-09-12 | Venezuela Premier Lig Clausura | Academia Anzoa - Metropolitanos | 2.5 Üst | pending | 54/100
-- 2026-09-12 | Arjantin Ulusal Primera Lig | Quilmes - San Martin Sj | MS 2 | pending | 56/100
-- 2026-09-12 | Kanada Premier Lig | Supra Du Quebe - Hfx Wanderers | MS 1 | pending | 46/100
-- 2026-09-12 | Brezilya Serie C Grup B | Botafogo Pb - Floresta | MS 1 | pending | 55/100
-- 2026-09-12 | Peru Premier Lig Clausura | Deportivo Moqu - Sporting Crista | 2.5 Alt | pending | 51/100
-- 2026-09-12 | Arjantin Premier Lig 2. Aşama | Atletico Tucum - River Plate | MS 2 | pending | 50/100
-- 2026-09-12 | Kolombiya Primera B Clausura | Envigado - Leones Fc | 2.5 Alt | pending | 52/100
-- 2026-09-12 | Arjantin Ulusal Primera Lig | All Boys - San Telmo | MS 1 | pending | 59/100
+- 2026-09-12 | Hollanda Eredivisie | Cambuur - Nijmegen | KG Var | pending | 72/100
+- 2026-09-12 | İtalya Serie A | Atalanta - Cagliari | 2.5 Üst | pending | 66/100
+- 2026-09-12 | Avusturya Bundesliga | Wolfsberger - Rapid Wien | KG Var | pending | 56/100
+- 2026-09-12 | Fransa Ligue 2 | Dunkerque - St Etienne | KG Var | pending | 59/100
+- 2026-09-12 | İsveç Allsvenskan | Göteborg - Halmstads | 2.5 Alt | pending | 70/100
+- 2026-09-12 | İzlanda 2.Lig | Kari - Haukar | 2.5 Alt | pending | 49/100
+- 2026-09-12 | İzlanda 2.Lig | Kormakur - Fjolnir | 2.5 Alt | pending | 49/100
+- 2026-09-12 | İngiltere Ulusal Lig | Solihull Moors - Aldershot | 2.5 Alt | pending | 62/100
+- 2026-09-12 | İngiltere Ulusal Lig | Eastleigh - Boreham Wood | KG Var | pending | 72/100
+- 2026-09-12 | Hollanda Tweede Divisie | Jong Sparta - Katwijk | 2.5 Alt | pending | 48/100
+- 2026-09-12 | Hollanda Tweede Divisie | Jong Almere Ci - Sv Spakenburg | 2.5 Alt | pending | 49/100
+- 2026-09-12 | İsveç 2.Lig Södra Svealand | Karlslunds If - Örebro Syriansk | 2.5 Alt | pending | 48/100
+- 2026-09-12 | İsveç 2.Lig Södra Svealand | Lindo Ff - Ragsved | 2.5 Alt | pending | 49/100
+- 2026-09-12 | İsveç 2.Lig Norrland Yükselme Grubu | Taftea - Ifk Lulea | 2.5 Alt | pending | 49/100
+- 2026-09-12 | Japonya J1 Lig | Gamba Osaka - Fc Tokyo | KG Var | pending | 64/100
 
