@@ -2,88 +2,15 @@
 
 Gunler: 2026-09-11 / 2026-09-12
 Kaynak: fixtures.json
-Ham mac: 266
-Aktif mac: 184
+Ham mac: 195
+Aktif mac: 111
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 82
-Bugun: 159
+Bultenden dusurulen mac: 84
+Bugun: 86
 Yarin: 25
 
 ## Baslamamis Maclar
-- 2026-09-11 18:25 | Suudi Arabistan Pro Lig | Al-Qadsiah - Al Ettifaq | scheduled | -
-- 2026-09-11 18:30 | Finlandiya Ykkösliiga | Kotka - Japs | scheduled | -
-- 2026-09-11 18:30 | Finlandiya Ykkönen Küme Düşme Turu | Fc Jazz - Kpv Kokkola | scheduled | -
-- 2026-09-11 18:30 | Slovenya 2.SNL | Nd Primorje - Nk Bilje | scheduled | -
-- 2026-09-11 18:30 | Polonya 2.Lig | Resovia Rzeszo - Falubaz Zielona | scheduled | -
-- 2026-09-11 18:45 | Suudi Arabistan Pro Lig | Al Faisaly - Al Ittihad (Cid | scheduled | -
-- 2026-09-11 19:00 | Polonya Ekstraklasa | Rakow Czestoch - Motor Lublin | scheduled | -
-- 2026-09-11 19:00 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Apr Kigali (0) - (1) Les Aigles Du C | scheduled | -
-- 2026-09-11 19:00 | Kadınlar U20 Dünya Kupası Grup A | Arjantin U20 ( - Meksika U20 (K) | scheduled | -
-- 2026-09-11 19:00 | Danimarka 1.Lig | Hobro - Vejle | scheduled | -
-- 2026-09-11 19:00 | Finlandiya Ykkösliiga | Kapa - Pk-35 Ry | scheduled | -
-- 2026-09-11 19:00 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Real Bamako (2) - (1) Vitesse Fc | scheduled | -
-- 2026-09-11 19:00 | Polonya 1.Lig | Polonia Varşov - Polonia Bytom | scheduled | -
-- 2026-09-11 19:00 | Çek Cumhuriyeti FNL | Usti Nad Labem - Jihlava | scheduled | -
-- 2026-09-11 19:00 | Çek Cumhuriyeti FNL | Sezimivo Usti - Kladno | scheduled | -
-- 2026-09-11 19:00 | Çek Cumhuriyeti FNL | Dukla Prag - Vlasim | scheduled | -
-- 2026-09-11 19:00 | Çek Cumhuriyeti FNL | Pribram - Banik Ostrava I | scheduled | -
-- 2026-09-11 19:00 | Polonya 2.Lig | Znicz Pruszkow - Gks Tychy | scheduled | -
-- 2026-09-11 19:00 | Bahreyn Premier Lig | Aali Fc - Malkiya Club | scheduled | -
-- 2026-09-11 19:00 | Bahreyn Premier Lig | Al Najma Manam - East Riffa | scheduled | -
-- 2026-09-11 19:00 | Umman Profesyonel Lig | Oman Fc - Al Shabab | scheduled | -
-- 2026-09-11 19:00 | Ürdün 1.Lig | Al Sahl Horan - Maan | scheduled | -
-- 2026-09-11 19:00 | Estonya Esiliiga B | Tallinna Kalev - Jk Tabasalu | scheduled | -
-- 2026-09-11 19:00 | Tanzanya Kuu Bara Ligi | Dodoma Jiji - Namungo | scheduled | -
-- 2026-09-11 19:00 | Umman Profesyonel Lig | Sohar Club - Dhofar Scsc | scheduled | -
-- 2026-09-11 19:00 | Letonya 1.Lig | Rezekne / Bjss - Super Nova Ii | scheduled | -
-- 2026-09-11 19:15 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Wahda - Al Sharjah | scheduled | -
-- 2026-09-11 19:15 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Ajman - Al Ittihad Kalb | scheduled | -
-- 2026-09-11 19:15 | Katar Yıldızlar Ligi | Al Rayyan - Al Ahli | scheduled | -
-- 2026-09-11 19:30 | Almanya 2. Bundesliga | Darmstadt - Arminia Bielefe | scheduled | -
-- 2026-09-11 19:30 | Almanya 2. Bundesliga | Nürnberg - Hannover | scheduled | -
-- 2026-09-11 19:30 | Sırbistan Süper Lig | Zeleznicar Pan - Macva | scheduled | -
-- 2026-09-11 19:30 | Avusturya 1.Lig | Amstetten - Avusturya Wien | scheduled | -
-- 2026-09-11 19:30 | Avusturya 1.Lig | Rapid Vienna ( - First Vienna | scheduled | -
-- 2026-09-11 19:30 | Avusturya 1.Lig | Admira Wacker - Kapfenberg | scheduled | -
-- 2026-09-11 19:30 | Arnavutluk Süperlig | Skenderbeu - Tirana | scheduled | -
-- 2026-09-11 19:30 | Almanya Kadınlar Bundesliga | Werder Bremen - Hamburger Sv (K | scheduled | -
-- 2026-09-11 20:00 | Türkiye Süper Lig | Beşiktaş - Erzurumspor Fk | scheduled | -
-- 2026-09-11 20:00 | Türkiye TFF 1. Lig | Sarıyer - Bandirmaspor | scheduled | -
-- 2026-09-11 20:00 | İtalya Serie B | Empoli - Arezzo | scheduled | -
-- 2026-09-11 20:00 | Danimarka Süperlig | Kopenhag - Horsens | scheduled | -
-- 2026-09-11 20:00 | İsveç Allsvenskan | Hacken - Mjallby | scheduled | -
-- 2026-09-11 20:00 | Almanya 3. Lig | Viktoria Köln - Hansa Rostock | scheduled | -
-- 2026-09-11 20:00 | Danimarka 1.Lig | Vendsyssel - Aarhus Fremad | scheduled | -
-- 2026-09-11 20:00 | Norveç 2.Lig Grup 2 | Eidsvold Tf - Ullensaker Kisa | scheduled | -
-- 2026-09-11 20:00 | Almanya Bölgesel Lig Kuzey | Weiche Flensbu - Hamburger Sv (A | scheduled | -
-- 2026-09-11 20:00 | Almanya Bölgesel Lig Güney Batı | Freiburg Ii - Sandhausen | scheduled | -
-- 2026-09-11 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Altglienicke - Chemnitzer | scheduled | -
-- 2026-09-11 20:00 | İspanya Primera Lig RFEF Grup 1 | Barakaldo - Extremadura 192 | scheduled | -
-- 2026-09-11 20:00 | Danimarka 2.Lig | Fremad Amager - Hellerup Ik | scheduled | -
-- 2026-09-11 20:00 | İsveç 2.Lig Vastra Götaland | Lindome Gif - Landvetter Is | scheduled | -
-- 2026-09-11 20:00 | İsveç 2.Lig Norra Götaland | Stenungsund - Vanersborgs Fk | scheduled | -
-- 2026-09-11 20:00 | İsveç 2.Lig Norra Götaland | Ifk Kumla - Motala Aif Fk | scheduled | -
-- 2026-09-11 20:00 | Botsvana Premier Lig | Centre Chiefs - Nico United | scheduled | -
-- 2026-09-11 20:00 | Almanya Bölgesel Lig Bayern | Buchbach - Bayern Munich ( | scheduled | -
-- 2026-09-11 20:00 | Almanya Bölgesel Lig Bayern | Aubstadt - Unterhaching | scheduled | -
-- 2026-09-11 20:00 | Almanya Bölgesel Lig Bayern | Illertissen - Nurnberg Ii | scheduled | -
-- 2026-09-11 20:00 | Ürdün 1.Lig | Aqaba - Al Yarmouk | scheduled | -
-- 2026-09-11 20:00 | Botsvana Premier Lig | Tonota - Bdf Xi | scheduled | -
-- 2026-09-11 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Erfurt - Rsv Eintracht | scheduled | -
-- 2026-09-11 20:10 | Belarus Premier Lig | Minsk - Slavia Mozyr | scheduled | -
-- 2026-09-11 20:15 | İsveç 2.Lig Norra Götaland | Vanersborgs If - Grebbestads If | scheduled | -
-- 2026-09-11 20:30 | Avusturya Bundesliga | Ried - Salzburg | scheduled | -
-- 2026-09-11 20:30 | Ürdün Premier Lig | Al Faisaly Amm - Doqarah | scheduled | -
-- 2026-09-11 20:30 | İsviçre Challenge Lig | Rappersvil Jon - Yverdon | scheduled | -
-- 2026-09-11 20:30 | İsviçre Challenge Lig | Stade Nyonnais - Neuchatel Xamax | scheduled | -
-- 2026-09-11 20:30 | İsviçre Challenge Lig | Stade Ouchy - Wil | scheduled | -
-- 2026-09-11 20:30 | Güney Afrika PSL | Stellenbosch F - Sekhukhune Unit | scheduled | -
-- 2026-09-11 20:30 | İsveç 2.Lig Vastra Götaland | Böljan - Hestrafor | scheduled | -
-- 2026-09-11 20:30 | İsveç 2.Lig Vastra Götaland | Dalstorps If - Frolunda | scheduled | -
-- 2026-09-11 20:30 | Faroe Adaları Master Lig | Ab Argir - B68 Toftir | scheduled | -
-- 2026-09-11 20:30 | Ürdün 1.Lig | Al Hashemeya - Al Ahli | scheduled | -
-- 2026-09-11 20:45 | Portekiz 2.Lig | Torreense - Leixoes | scheduled | -
 - 2026-09-11 21:00 | Hollanda Eredivisie | Az Alkmaar - Willem | scheduled | -
 - 2026-09-11 21:00 | Suudi Arabistan Pro Lig | Al Ahli (Cidde - Al Hazm | scheduled | -
 - 2026-09-11 21:00 | Fransa Ligue 2 | Clermont - Boulogne | scheduled | -
