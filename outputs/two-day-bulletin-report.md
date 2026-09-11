@@ -2,30 +2,15 @@
 
 Gunler: 2026-09-11 / 2026-09-12
 Kaynak: fixtures.json
-Ham mac: 221
-Aktif mac: 196
+Ham mac: 266
+Aktif mac: 184
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 25
-Bugun: 172
-Yarin: 24
+Bultenden dusurulen mac: 82
+Bugun: 159
+Yarin: 25
 
 ## Baslamamis Maclar
-- 2026-09-11 17:55 | Birleşik Arap Emirlikleri 1.Lig | Al Arabi - Al Urooba | scheduled | -
-- 2026-09-11 17:55 | Birleşik Arap Emirlikleri 1.Lig | Al Jazira Al H - City Fc Dubai | scheduled | -
-- 2026-09-11 17:55 | Birleşik Arap Emirlikleri 1.Lig | Al Thaid - Dubba Al Fujair | scheduled | -
-- 2026-09-11 17:55 | Umman Profesyonel Lig | Al Nasr - Al Musannah | scheduled | -
-- 2026-09-11 18:00 | Rusya Premier Lig | Krylya Sovieto - Fk Rodina Moskv | scheduled | -
-- 2026-09-11 18:00 | Romanya 1.Lig | Ssc Farul - Uta Arad | scheduled | -
-- 2026-09-11 18:00 | Ürdün Premier Lig | Al-Hussein - Al Baqaa | scheduled | -
-- 2026-09-11 18:00 | İtalya Primavera Şampiyonası 1 | Parma U20 - Genoa U20 | scheduled | -
-- 2026-09-11 18:00 | Çek Cumhuriyeti FNL | Trinec - Karvina | scheduled | -
-- 2026-09-11 18:00 | Slovakya 2.Lig | Pohronie - Liptovsky Mikul | scheduled | -
-- 2026-09-11 18:00 | Letonya Virsliga | Riga Fc - Auda | scheduled | -
-- 2026-09-11 18:00 | Litvanya 1.Lig | Transinvest Vi - Hegelmann Ii | scheduled | -
-- 2026-09-11 18:00 | Litvanya 1.Lig | Babrungas - Atmosfera | scheduled | -
-- 2026-09-11 18:00 | Ürdün 1.Lig | Sama Al Sarhan - Jerash | scheduled | -
-- 2026-09-11 18:00 | Estonya Esiliiga B | Narva Trans Ii - Tallinna Infone | scheduled | -
 - 2026-09-11 18:25 | Suudi Arabistan Pro Lig | Al-Qadsiah - Al Ettifaq | scheduled | -
 - 2026-09-11 18:30 | Finlandiya Ykkösliiga | Kotka - Japs | scheduled | -
 - 2026-09-11 18:30 | Finlandiya Ykkönen Küme Düşme Turu | Fc Jazz - Kpv Kokkola | scheduled | -
@@ -51,6 +36,7 @@ Yarin: 24
 - 2026-09-11 19:00 | Estonya Esiliiga B | Tallinna Kalev - Jk Tabasalu | scheduled | -
 - 2026-09-11 19:00 | Tanzanya Kuu Bara Ligi | Dodoma Jiji - Namungo | scheduled | -
 - 2026-09-11 19:00 | Umman Profesyonel Lig | Sohar Club - Dhofar Scsc | scheduled | -
+- 2026-09-11 19:00 | Letonya 1.Lig | Rezekne / Bjss - Super Nova Ii | scheduled | -
 - 2026-09-11 19:15 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Wahda - Al Sharjah | scheduled | -
 - 2026-09-11 19:15 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Ajman - Al Ittihad Kalb | scheduled | -
 - 2026-09-11 19:15 | Katar Yıldızlar Ligi | Al Rayyan - Al Ahli | scheduled | -
@@ -84,6 +70,7 @@ Yarin: 24
 - 2026-09-11 20:00 | Almanya Bölgesel Lig Bayern | Illertissen - Nurnberg Ii | scheduled | -
 - 2026-09-11 20:00 | Ürdün 1.Lig | Aqaba - Al Yarmouk | scheduled | -
 - 2026-09-11 20:00 | Botsvana Premier Lig | Tonota - Bdf Xi | scheduled | -
+- 2026-09-11 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Erfurt - Rsv Eintracht | scheduled | -
 - 2026-09-11 20:10 | Belarus Premier Lig | Minsk - Slavia Mozyr | scheduled | -
 - 2026-09-11 20:15 | İsveç 2.Lig Norra Götaland | Vanersborgs If - Grebbestads If | scheduled | -
 - 2026-09-11 20:30 | Avusturya Bundesliga | Ried - Salzburg | scheduled | -
@@ -206,6 +193,7 @@ Yarin: 24
 - 2026-09-12 05:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Ad San Carlos | scheduled | -
 - 2026-09-12 05:00 | ABD USL | Colorado Sprin - San Antonio | scheduled | -
 - 2026-09-12 06:00 | Meksika Liga MX Apertura | Atlante - Pachuca | scheduled | -
+- 2026-09-12 06:06 | Meksika Kadınlar Liga MX Apertura | Atlas (K) - Atlante (K) | scheduled | -
 - 2026-09-12 06:10 | Meksika Liga MX Apertura | Club Tijuana - Queretaro | scheduled | -
 
 ## Canli Maclar
