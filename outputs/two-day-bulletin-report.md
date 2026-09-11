@@ -2,58 +2,15 @@
 
 Gunler: 2026-09-11 / 2026-09-12
 Kaynak: fixtures.json
-Ham mac: 195
-Aktif mac: 111
+Ham mac: 266
+Aktif mac: 68
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 84
-Bugun: 86
+Bultenden dusurulen mac: 198
+Bugun: 43
 Yarin: 25
 
 ## Baslamamis Maclar
-- 2026-09-11 21:00 | Hollanda Eredivisie | Az Alkmaar - Willem | scheduled | -
-- 2026-09-11 21:00 | Suudi Arabistan Pro Lig | Al Ahli (Cidde - Al Hazm | scheduled | -
-- 2026-09-11 21:00 | Fransa Ligue 2 | Clermont - Boulogne | scheduled | -
-- 2026-09-11 21:00 | Fransa Ligue 2 | Nancy - Reims | scheduled | -
-- 2026-09-11 21:00 | Fransa Ligue 2 | Montpellier - Pau Fc | scheduled | -
-- 2026-09-11 21:00 | Fransa Ligue 2 | Rodez Aveyron - Grenoble | scheduled | -
-- 2026-09-11 21:00 | Fransa Ligue 2 | Dijon - Stade Lavallois | scheduled | -
-- 2026-09-11 21:00 | Hollanda Eerste Divisie | Breda - Utrecht (Ii) | scheduled | -
-- 2026-09-11 21:00 | Hollanda Eerste Divisie | Maastricht - Almere City | scheduled | -
-- 2026-09-11 21:00 | Hollanda Eerste Divisie | Helmond Sport - Psv (B) | scheduled | -
-- 2026-09-11 21:00 | Hollanda Eerste Divisie | Vvv Venlo - Oss | scheduled | -
-- 2026-09-11 21:00 | Hollanda Eerste Divisie | Ajax (B) - Waalwijk | scheduled | -
-- 2026-09-11 21:00 | Hollanda Eerste Divisie | Emmen - De Graafschap | scheduled | -
-- 2026-09-11 21:00 | Hollanda Eerste Divisie | Fc Eindhoven - Dordrecht | scheduled | -
-- 2026-09-11 21:00 | Hollanda Eerste Divisie | Heracles - Jong Az Alkmaar | scheduled | -
-- 2026-09-11 21:00 | Bulgaristan 1.Lig | Cherno More - Lokomotiv Sofia | scheduled | -
-- 2026-09-11 21:00 | Belçika Challenger Pro Lig | Beerschot-Wilr - Lierse Kempenzo | scheduled | -
-- 2026-09-11 21:00 | Belçika Challenger Pro Lig | Kaa Gent Ii - Dender | scheduled | -
-- 2026-09-11 21:00 | Cezayir 1.Lig | Mc Oran - Temouchent | scheduled | -
-- 2026-09-11 21:00 | Romanya 1.Lig | Csikszereda - Dinamo Bükreş | scheduled | -
-- 2026-09-11 21:00 | Slovenya 2.SNL | Tabor Sezana - Dravinja | scheduled | -
-- 2026-09-11 21:00 | Meksika Ascenso MX Apertura | Cruz Azul Hida - Piratas | scheduled | -
-- 2026-09-11 21:00 | İngiltere Premier Lig 2 | Norwich City U - Birmingham City | scheduled | -
-- 2026-09-11 21:00 | İngiltere Premier Lig 2 | Sunderland (B) - Ipswich Town U2 | scheduled | -
-- 2026-09-11 21:00 | İngiltere Premier Lig 2 | Fulham (B) - Aston Villa U21 | scheduled | -
-- 2026-09-11 21:00 | İngiltere Premier Lig 2 | Stoke (B) - Wolverhampton U | scheduled | -
-- 2026-09-11 21:00 | İngiltere Premier Lig 2 | Brighton (B) - Leicester (B) | scheduled | -
-- 2026-09-11 21:00 | İngiltere Premier Lig 2 | Derby County U - Tottenham U21 | scheduled | -
-- 2026-09-11 21:00 | Bosna-Hersek Premier Lig | Celik - Radnik Bijeljin | scheduled | -
-- 2026-09-11 21:00 | Arjantin Kadınlar Primera A 2. Aşama | Independiente - Lanus (K) | scheduled | -
-- 2026-09-11 21:00 | Arjantin Kadınlar Primera A 2. Aşama | Belgrano (K) - Ferro Carril Oe | scheduled | -
-- 2026-09-11 21:15 | İsviçre Challenge Lig | Etoile Carouge - Winterthur | scheduled | -
-- 2026-09-11 21:15 | Slovenya 1.SNL | Nk Brinje Gros - Nafta | scheduled | -
-- 2026-09-11 21:30 | Almanya Bundesliga | Union Berlin - Schalke | scheduled | -
-- 2026-09-11 21:30 | İspanya 2.Lig | Burgos - Ceuta | scheduled | -
-- 2026-09-11 21:30 | Polonya Ekstraklasa | Wisla Krakow - Jagiellonia | scheduled | -
-- 2026-09-11 21:30 | İskoçya Championship | Morton - Livingston | scheduled | -
-- 2026-09-11 21:30 | Avusturya 1.Lig | Wacker Innsbru - Voitsberg | scheduled | -
-- 2026-09-11 21:30 | Galler FAW Championship Güney | Pontypridd Tow - Afan Lido | scheduled | -
-- 2026-09-11 21:30 | Galler FAW Championship Güney | Swansea Univer - Pontardawe | scheduled | -
-- 2026-09-11 21:30 | Galler FAW Championship Güney | Newport City - Trethomas Blueb | scheduled | -
-- 2026-09-11 21:30 | Malta Premier Lig Açılış | Hamrun - Birzebbuga | scheduled | -
-- 2026-09-11 21:30 | Arjantin Kadınlar Primera A 2. Aşama | Banfield (K) - San Lorenzo (K) | scheduled | -
 - 2026-09-11 21:45 | İtalya Serie A | Unione V. - Fiorentina | scheduled | -
 - 2026-09-11 21:45 | Fransa Ligue 1 | Rennes - Marsilya | scheduled | -
 - 2026-09-11 21:45 | Belçika Pro Lig | Mechelen - Anderlecht | scheduled | -

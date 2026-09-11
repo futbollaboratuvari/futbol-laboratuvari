@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.09.2026 20:56:35
+Oluşturma: 11.09.2026 21:36:31
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1161
-- Kazanan tahmin: 183
+- Bekleyen tahmin: 1160
+- Kazanan tahmin: 184
 - Kaybeden tahmin: 156
 - Lig sayısı: 277
 - Seçenek sayısı: 6
@@ -22,7 +22,7 @@ Oluşturma: 11.09.2026 20:56:35
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 221, bekleyen 141, başarı %63, düz getiri %9, ağırlık 1
+- 2.5 Üst: toplam 221, bekleyen 140, başarı %63, düz getiri %10, ağırlık 1
 - MS 1: toplam 494, bekleyen 397, başarı %57, düz getiri %-9, ağırlık 1
 - MS 2: toplam 230, bekleyen 185, başarı %56, düz getiri %-2, ağırlık 1
 - KG Var: toplam 3, bekleyen 1, başarı %50, düz getiri %-4, ağırlık 1
@@ -31,7 +31,9 @@ Oluşturma: 11.09.2026 20:56:35
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-11 | Japonya J1 Lig | Vissel Kobe - Kashima | 2.5 Üst | pending | 67/100
+- 2026-09-11 | İspanya Kadınlar Primera Lig | Deportivo De L - Real Madrid (K) | 2.5 Alt | pending | 51/100
+- 2026-09-11 | İspanya LaLiga | Sevilla - Valencia | 2.5 Üst | pending | 65/100
+- 2026-09-11 | Japonya J1 Lig | Vissel Kobe - Kashima | 2.5 Üst | won | 67/100
 - 2026-09-11 | Meksika Kadınlar Liga MX Apertura | Cruz Azul (K) - Pumas Unam (K) | MS 2 | pending | 45/100
 - 2026-09-11 | Meksika Kadınlar Liga MX Apertura | Atlas (K) - Atlante (K) | MS 1 | pending | 49/100
 - 2026-09-11 | İrlanda Premier Lig | Drogheda - Sligo Rovers | 2.5 Alt | pending | 50/100
@@ -44,6 +46,4 @@ Oluşturma: 11.09.2026 20:56:35
 - 2026-09-11 | Polonya 2.Lig | Resovia Rzeszo - Falubaz Zielona | 2.5 Alt | pending | 46/100
 - 2026-09-11 | İtalya Primavera Şampiyonası 1 | Parma U20 - Genoa U20 | 2.5 Alt | pending | 49/100
 - 2026-09-11 | Polonya 1.Lig | Polonia Varşov - Polonia Bytom | 2.5 Alt | pending | 45/100
-- 2026-09-11 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | As Sobemap (1) - (1) Enugu Rangers | MS 2 | pending | 55/100
-- 2026-09-11 | Estonya Esiliiga B | Narva Trans Ii - Tallinna Infone | MS 1 | pending | 55/100
 
