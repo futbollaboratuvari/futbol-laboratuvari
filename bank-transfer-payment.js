@@ -1,12 +1,8 @@
 (() => {
   const BASE = "https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-transfer";
   const RECEIPT_BASE = "https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-receipt";
-  const SECURE_API_ORIGIN = /^(localhost|127\.0\.0\.1)$/i.test(window.location.hostname)
-    || window.location.hostname.endsWith(".vercel.app")
-    ? ""
-    : "https://futbol-laboratuvari.vercel.app";
   const API = {
-    create: `${SECURE_API_ORIGIN}/api/bank-order`,
+    create: `${BASE}?action=create-order`,
     status: `${BASE}?action=order-status`,
     receipt: `${RECEIPT_BASE}?action=upload`,
   };
@@ -124,16 +120,6 @@
     const invoiceName = root.querySelector('[name="invoice_name"]');
     const customerName = root.querySelector('[name="name"]');
     let activeOrder = null;
-
-    fetch(API.create, { cache: "no-store", mode: "cors", credentials: "omit" })
-      .then((response) => response.json().then((data) => ({ response, data })))
-      .then(({ response, data }) => {
-        if (!response.ok || !data.salesEnabled) throw new Error("seller_profile_incomplete");
-      })
-      .catch(() => {
-        createButton.disabled = true;
-        message.innerHTML = `<div class="fl-bank-sale-state">Satıcı unvanı, açık adres, vergi ve iletişim bilgileri tamamlanana kadar ücretli ödeme talebi alımı kapalıdır. Ücretsiz deneme kullanılabilir.</div>`;
-      });
 
     const syncInvoiceFields = () => {
       if (invoiceName && !invoiceName.value.trim() && customerName?.value.trim()) invoiceName.value = customerName.value.trim();
