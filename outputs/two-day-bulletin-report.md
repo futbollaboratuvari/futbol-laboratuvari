@@ -2,12 +2,12 @@
 
 Gunler: 2026-09-12 / 2026-09-13
 Kaynak: fixtures.json
-Ham mac: 694
-Aktif mac: 691
+Ham mac: 724
+Aktif mac: 699
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 622
+Bultenden dusurulen mac: 25
+Bugun: 630
 Yarin: 69
 
 ## Baslamamis Maclar
@@ -174,6 +174,8 @@ Yarin: 69
 - 2026-09-12 15:00 | Hırvatistan 2.HNL | Jadran Lp - Orijent 1919 | scheduled | -
 - 2026-09-12 15:00 | İsveç Kadınlar Damallsvenskan | Brommapojkarna - Norrköping (K) | scheduled | -
 - 2026-09-12 15:00 | Tayland 2.Lig | Songkhla - Satun | scheduled | -
+- 2026-09-12 15:00 | Norveç 3.Lig Grup 3 | Fana - Os Turn Fotball | scheduled | -
+- 2026-09-12 15:00 | Norveç 3.Lig Grup 5 | Harstad - Ulfstind | scheduled | -
 - 2026-09-12 15:15 | Polonya 2.Lig | Hutnik Krakow - Zawisza Bydgosz | scheduled | -
 - 2026-09-12 15:15 | Vietnam V-Lig 1 | Ha Noi T&T - Slna | scheduled | -
 - 2026-09-12 15:15 | Malezya Süper Lig | Melaka - Kuching Fa | scheduled | -
@@ -238,6 +240,10 @@ Yarin: 69
 - 2026-09-12 16:00 | Ruanda Ulusal Futbol Ligi | Gicumbi - Amagaju | scheduled | -
 - 2026-09-12 16:00 | Ruanda Ulusal Futbol Ligi | Gorilla - Etincelles | scheduled | -
 - 2026-09-12 16:00 | Tanzanya Kuu Bara Ligi | Polisi Morogor - Mbeya City | scheduled | -
+- 2026-09-12 16:00 | Norveç 3.Lig Grup 1 | Fk Union Carl - Nordstrand | scheduled | -
+- 2026-09-12 16:00 | Norveç 3.Lig Grup 2 | Strindheim - Kvik Trond | scheduled | -
+- 2026-09-12 16:00 | Norveç 3.Lig Grup 3 | Fyllingsdalen - Gneist | scheduled | -
+- 2026-09-12 16:00 | Norveç 3.Lig Grup 6 | Sandefjord Ii - Orn Horten | scheduled | -
 - 2026-09-12 16:15 | Rusya Premier Lig | Zenit - L.Moskova | scheduled | -
 - 2026-09-12 16:15 | Hollanda Tweede Divisie | Afc Amsterdams - Hhc | scheduled | -
 - 2026-09-12 16:30 | Almanya Bundesliga | Hoffenheim - Stuttgart | scheduled | -
@@ -262,6 +268,8 @@ Yarin: 69
 - 2026-09-12 16:30 | Galler FAW Championship Güney | Cardiff Dracon - Baglan Dragons | scheduled | -
 - 2026-09-12 16:30 | Galler FAW Championship Güney | Treowen Stars - Llantwit Major | scheduled | -
 - 2026-09-12 16:30 | Galler FAW Championship Güney | Carmarthen - Ynyshir Albions | scheduled | -
+- 2026-09-12 16:30 | Türkiye 3.Lig 1.Grup | Beykoz İshaklı - Yalova Fk | scheduled | -
+- 2026-09-12 16:30 | Türkiye 3.Lig 1.Grup | Küçükçekmece S - Galata | scheduled | -
 - 2026-09-12 17:00 | Türkiye Süper Lig | Samsunspor - Çorum | scheduled | -
 - 2026-09-12 17:00 | Türkiye Süper Lig | Eyüpspor - Rizespor | scheduled | -
 - 2026-09-12 17:00 | Türkiye TFF 1. Lig | Van Spor Fk - A. Keçiörengücü | scheduled | -

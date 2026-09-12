@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.09.2026 07:52:16
+Oluşturma: 12.09.2026 09:24:43
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1327
-- Kazanan tahmin: 90
-- Kaybeden tahmin: 83
+- Bekleyen tahmin: 1335
+- Kazanan tahmin: 84
+- Kaybeden tahmin: 81
 - Lig sayısı: 266
 - Seçenek sayısı: 6
 
@@ -22,28 +22,28 @@ Oluşturma: 12.09.2026 07:52:16
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 223, bekleyen 183, başarı %60, düz getiri %10, ağırlık 1
-- MS 2: toplam 226, bekleyen 205, başarı %57, düz getiri %2, ağırlık 1
-- MS 1: toplam 504, bekleyen 451, başarı %53, düz getiri %-10, ağırlık 1
-- 2.5 Alt: toplam 535, bekleyen 478, başarı %46, düz getiri %-26, ağırlık 1
+- 2.5 Üst: toplam 221, bekleyen 183, başarı %61, düz getiri %13, ağırlık 1
+- MS 2: toplam 231, bekleyen 210, başarı %57, düz getiri %2, ağırlık 1
+- MS 1: toplam 501, bekleyen 452, başarı %49, düz getiri %-15, ağırlık 1
+- 2.5 Alt: toplam 535, bekleyen 480, başarı %46, düz getiri %-27, ağırlık 1
 - KG Var: toplam 8, bekleyen 7, başarı %0, düz getiri %-100, ağırlık 1
 - MS X: toplam 4, bekleyen 3, başarı %0, düz getiri %-100, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-12 | İtalya Serie C Grup B | Gubbio - Latina | MS 1 | pending | 44/100
-- 2026-09-12 | Bulgaristan 1.Lig | Cska Sofia - Arda Kardzhali | MS 1 | pending | 54/100
-- 2026-09-12 | İsviçre Süper Lig | Lugano - Young Boys | MS 1 | pending | 46/100
-- 2026-09-12 | Arnavutluk Süperlig | Teuta - Fk Vora | MS 1 | pending | 54/100
-- 2026-09-12 | Finlandiya Veikkausliiga Şampiyonluk Grubu | Oulu - Gnistan | 2.5 Alt | pending | 54/100
-- 2026-09-12 | Slovenya 2.SNL | Nd Slovan Ljub - Dren Vrhnika | 2.5 Alt | pending | 49/100
-- 2026-09-12 | İngiltere 2.Lig | Colchester - Crewe | 2.5 Alt | pending | 63/100
-- 2026-09-12 | Galler FAW Championship Güney | Cardiff Dracon - Baglan Dragons | 2.5 Alt | pending | 49/100
-- 2026-09-12 | Türkiye TFF 1. Lig | Boluspor - Pendikspor | 2.5 Alt | pending | 48/100
-- 2026-09-12 | Avusturya 1.Lig | Bregenz - Floridsdorfer | 2.5 Üst | pending | 54/100
-- 2026-09-12 | Paraguay Intermedia Lig | Guairena - General Caballe | 2.5 Alt | pending | 52/100
-- 2026-09-12 | İngiltere Kadınlar Premier Lig | West Ham Unite - London City (K) | MS 2 | pending | 58/100
-- 2026-09-12 | Japonya J2 Lig | Omiya - Oita Trinita | 2.5 Üst | pending | 53/100
-- 2026-09-12 | Güney Kore K Lig 2 | Asan Mugunghwa - Cheongju Fc | 2.5 Alt | pending | 52/100
-- 2026-09-12 | Güney Kore K3 Ligi | Gangneung City - Gyeongju Hnp | 2.5 Alt | pending | 52/100
+- 2026-09-12 | ABD USL | Phoenix Rising - Tulsa Roughneck | 2.5 Alt | pending | 57/100
+- 2026-09-12 | Peru Premier Lig Clausura | Alianza Lima - Universitario | MS 1 | pending | 50/100
+- 2026-09-12 | Venezuela Premier Lig Clausura | Academia Anzoa - Metropolitanos | MS 2 | pending | 51/100
+- 2026-09-12 | Arjantin Prim B Metro | Arsenal Sarand - Urquiza | 2.5 Alt | pending | 57/100
+- 2026-09-12 | Türkiye Süper Lig | Konyaspor - Trabzonspor | 2.5 Üst | pending | 68/100
+- 2026-09-12 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Asc Diambars (1) - (3) Es Zarzis | MS 2 | pending | 43/100
+- 2026-09-12 | İspanya 2. Lig RFEF Grup 5 | Albacete Ii - Atletico Tordes | MS 1 | pending | 48/100
+- 2026-09-12 | Belçika Pro Lig | Westerlo - Standard Liege | MS 2 | pending | 46/100
+- 2026-09-12 | Finlandiya Veikkausliiga Küme Düşme Grubu | Jaro - Seinajoen Jk | 2.5 Üst | pending | 46/100
+- 2026-09-12 | Arnavutluk Süperlig | Partizan Tiran - Dinamo Tirana | MS 2 | pending | 44/100
+- 2026-09-12 | Kazakistan Premier Lig | Ordabasy - Astana | MS 1 | pending | 51/100
+- 2026-09-12 | Kuzey İrlanda Premiership | Portadown Fc - Larne Fc | 2.5 Alt | pending | 52/100
+- 2026-09-12 | Türkiye 3.Lig 1.Grup | Küçükçekmece S - Galata | MS 1 | pending | 55/100
+- 2026-09-12 | Norveç 3.Lig Grup 1 | Fk Union Carl - Nordstrand | MS 1 | pending | 56/100
+- 2026-09-12 | Norveç 3.Lig Grup 3 | Fyllingsdalen - Gneist | MS 2 | pending | 50/100
 
