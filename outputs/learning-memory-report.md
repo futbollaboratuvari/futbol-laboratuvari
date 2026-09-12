@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.09.2026 22:24:01
+Oluşturma: 12.09.2026 22:29:36
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1242
-- Kazanan tahmin: 126
-- Kaybeden tahmin: 132
+- Bekleyen tahmin: 1225
+- Kazanan tahmin: 140
+- Kaybeden tahmin: 135
 - Lig sayısı: 267
 - Seçenek sayısı: 6
 
@@ -22,10 +22,10 @@ Oluşturma: 12.09.2026 22:24:01
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 532, bekleyen 446, başarı %55, düz getiri %-9, ağırlık 1
-- 2.5 Üst: toplam 220, bekleyen 153, başarı %52, düz getiri %-6, ağırlık 1
+- 2.5 Alt: toplam 532, bekleyen 437, başarı %58, düz getiri %-4, ağırlık 1
+- 2.5 Üst: toplam 220, bekleyen 151, başarı %54, düz getiri %-4, ağırlık 1
 - MS X: toplam 5, bekleyen 3, başarı %50, düz getiri %61, ağırlık 1
-- MS 1: toplam 514, bekleyen 449, başarı %45, düz getiri %-23, ağırlık 1
+- MS 1: toplam 514, bekleyen 443, başarı %47, düz getiri %-17, ağırlık 1
 - MS 2: toplam 221, bekleyen 186, başarı %37, düz getiri %-27, ağırlık 1
 - KG Var: toplam 8, bekleyen 5, başarı %33, düz getiri %-32, ağırlık 1
 
@@ -36,14 +36,14 @@ Oluşturma: 12.09.2026 22:24:01
 - 2026-09-12 | İspanya Tercera Ligi Grup 13 | Bala Azul - Mazarron Fc | MS 2 | pending | 42/100
 - 2026-09-12 | Fransa Ligue 1 | Le Havre - Angers | 2.5 Üst | pending | 60/100
 - 2026-09-12 | Arjantin Primera C | Estrella Del S - Yupanqui | MS 1 | pending | 48/100
-- 2026-09-12 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Rahimo (1) - (4) Maghreb Fes | 2.5 Alt | pending | 63/100
-- 2026-09-12 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Kitara (2) - (1) Mogadishu City | 2.5 Alt | pending | 62/100
-- 2026-09-12 | İspanya LaLiga | Osasuna - Espanyol | 2.5 Alt | pending | 70/100
-- 2026-09-12 | İspanya Kadınlar Primera Lig | Madrid Cf (K) - Sevilla (K) | MS 1 | pending | 64/100
-- 2026-09-12 | İngiltere Ulusal Lig | Boston United - Wealdstone | MS 1 | pending | 59/100
-- 2026-09-12 | İngiltere 2.Lig | Walsall - Rochdale | 2.5 Alt | pending | 66/100
-- 2026-09-12 | İngiltere Ulusal Lig | Halifax - Hornchurch | MS 1 | pending | 67/100
-- 2026-09-12 | İngiltere Ulusal Lig | Sutton United - Scunthorpe | 2.5 Alt | pending | 61/100
-- 2026-09-12 | İngiltere Championship | Swansea - Burnley | 2.5 Üst | pending | 72/100
-- 2026-09-12 | İngiltere Championship | Charlton - Portsmouth | 2.5 Alt | pending | 71/100
+- 2026-09-12 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Rahimo (1) - (4) Maghreb Fes | 2.5 Alt | won | 63/100
+- 2026-09-12 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Kitara (2) - (1) Mogadishu City | 2.5 Alt | won | 62/100
+- 2026-09-12 | İspanya LaLiga | Osasuna - Espanyol | 2.5 Alt | won | 70/100
+- 2026-09-12 | İspanya Kadınlar Primera Lig | Madrid Cf (K) - Sevilla (K) | MS 1 | won | 64/100
+- 2026-09-12 | İngiltere Ulusal Lig | Boston United - Wealdstone | MS 1 | lost | 59/100
+- 2026-09-12 | İngiltere 2.Lig | Walsall - Rochdale | 2.5 Alt | won | 66/100
+- 2026-09-12 | İngiltere Ulusal Lig | Halifax - Hornchurch | MS 1 | won | 67/100
+- 2026-09-12 | İngiltere Ulusal Lig | Sutton United - Scunthorpe | 2.5 Alt | won | 61/100
+- 2026-09-12 | İngiltere Championship | Swansea - Burnley | 2.5 Üst | won | 72/100
+- 2026-09-12 | İngiltere Championship | Charlton - Portsmouth | 2.5 Alt | won | 71/100
 
