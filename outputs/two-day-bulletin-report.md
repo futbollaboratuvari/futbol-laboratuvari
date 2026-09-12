@@ -2,24 +2,15 @@
 
 Gunler: 2026-09-12 / 2026-09-13
 Kaynak: fixtures.json
-Ham mac: 715
-Aktif mac: 705
+Ham mac: 716
+Aktif mac: 696
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 636
+Bultenden dusurulen mac: 20
+Bugun: 627
 Yarin: 69
 
 ## Baslamamis Maclar
-- 2026-09-12 03:30 | Arjantin Premier Lig 2. Aşama | Boca Juniors - Corboda Santiag | scheduled | -
-- 2026-09-12 04:00 | Meksika Liga MX Apertura | Necaxa - Puebla | scheduled | -
-- 2026-09-12 04:00 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir - Tristan | scheduled | -
-- 2026-09-12 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Cancun Fc | scheduled | -
-- 2026-09-12 04:00 | ABD USL Lig 1 | Athletic Club - New York Cosmos | scheduled | -
-- 2026-09-12 04:00 | Meksika Kadınlar Liga MX Apertura | Cruz Azul (K) - Pumas Unam (K) | scheduled | -
-- 2026-09-12 04:30 | Kolombiya Primera A Clausura | Santa Fe - Deportes Tolima | scheduled | -
-- 2026-09-12 04:30 | ABD USL | New Mexico Uni - Indy Eleven | scheduled | -
-- 2026-09-12 04:30 | Honduras Ulusal Lig Apertura | Estrella Roja - Platense | scheduled | -
 - 2026-09-12 05:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Ad San Carlos | scheduled | -
 - 2026-09-12 05:00 | ABD USL | Colorado Sprin - San Antonio | scheduled | -
 - 2026-09-12 06:00 | Meksika Liga MX Apertura | Atlante - Pachuca | scheduled | -

@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 721
+- Scheduled match count: 708
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-12 / 2026-09-13 23:59
 
-- 2026-09-12 03:00 | Real Potosi - Oriente Petrole | scheduled
-- 2026-09-12 03:00 | Coritiba - Atletico Pr | scheduled
-- 2026-09-12 03:00 | El Nacional - 22 De Julio | scheduled
-- 2026-09-12 03:00 | Cusco Fc - Melgar | scheduled
-- 2026-09-12 03:30 | Boca Juniors - Corboda Santiag | scheduled
-- 2026-09-12 04:00 | Athletic Club - New York Cosmos | scheduled
-- 2026-09-12 04:00 | Gimnasia Y Tir - Tristan | scheduled
-- 2026-09-12 04:00 | Correcaminos U - Cancun Fc | scheduled
-- 2026-09-12 04:00 | Cruz Azul (K) - Pumas Unam (K) | scheduled
-- 2026-09-12 04:00 | Necaxa - Puebla | scheduled
+- 2026-09-12 05:00 | Colorado Sprin - San Antonio | scheduled
+- 2026-09-12 05:00 | Perez Zeledon - Ad San Carlos | scheduled
+- 2026-09-12 06:00 | Atlante - Pachuca | scheduled
+- 2026-09-12 06:06 | Atlas (K) - Atlante (K) | scheduled
+- 2026-09-12 06:10 | Club Tijuana - Queretaro | scheduled
+- 2026-09-12 09:30 | Gold Coast Kni - Eastern Suburbs | scheduled
+- 2026-09-12 10:00 | Armadale (2) - (1) Joondalup City | scheduled
+- 2026-09-12 10:00 | Uwa Nedlands (1) - (0) Mandurah City | scheduled
+- 2026-09-12 10:30 | Adelaide Raide - Modbury Jets | scheduled
+- 2026-09-12 10:30 | Bucheon - Jeju Utd | scheduled

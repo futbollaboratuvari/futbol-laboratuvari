@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T00:25:25.246Z",
+  "generated_at": "2026-09-12T01:33:04.811Z",
   "date": "2026-09-12",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -817,16 +817,16 @@
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 183,
-    "pending_count": 1317,
-    "won_count": 97,
+    "measured_count": 180,
+    "pending_count": 1320,
+    "won_count": 94,
     "lost_count": 86,
     "void_count": 0,
-    "success_rate": 53,
-    "probability_sample_count": 183,
+    "success_rate": 52,
+    "probability_sample_count": 180,
     "brier_score": 0.2348,
-    "baseline_brier_score": 0.2491,
-    "brier_skill_score": 0.0576,
+    "baseline_brier_score": 0.2495,
+    "brier_skill_score": 0.0589,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -848,26 +848,26 @@
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 65,
-        "won": 28,
+        "predictions": 64,
+        "won": 27,
         "average_probability": 44.7,
-        "observed_rate": 43.1
+        "observed_rate": 42.2
       },
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 76,
-        "won": 47,
-        "average_probability": 54.3,
-        "observed_rate": 61.8
+        "predictions": 75,
+        "won": 46,
+        "average_probability": 54.4,
+        "observed_rate": 61.3
       },
       {
         "lower": 60,
         "upper": 69,
-        "predictions": 23,
-        "won": 16,
+        "predictions": 22,
+        "won": 15,
         "average_probability": 63.1,
-        "observed_rate": 69.6
+        "observed_rate": 68.2
       }
     ],
     "verified_at": "2026-09-11T23:37:00.505Z",
@@ -883,10 +883,10 @@
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 87,
-        "won": 50,
+        "measured": 84,
+        "won": 47,
         "lost": 37,
-        "success_rate": 57
+        "success_rate": 56
       },
       {
         "key": "btts",
