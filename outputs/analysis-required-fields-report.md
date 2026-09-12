@@ -1,14 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 154
-Tam analiz: 147
-Eksik analiz: 7
+Toplam analiz: 54
+Tam analiz: 52
+Eksik analiz: 2
 
-- Fortuna Sittar VS Ajax: eksik score, confidence
-- Al Khaleej VS Al Nassr (Riyad: eksik score, confidence
-- Union St.G VS Lommel: eksik score, confidence
-- Real Madrid VS Vallecano: eksik score, confidence
-- The Strongest VS Real Oruro: eksik score, confidence
-- Blooming VS Academia Del Ba: eksik score, confidence
-- Juarez (K) VS Necaxa (K): eksik score, confidence
+- Vancouver VS Austin: eksik score, confidence
+- New York Rb Ii VS Fc Cincinnati I: eksik score, confidence
