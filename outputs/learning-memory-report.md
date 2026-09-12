@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.09.2026 20:29:12
+Oluşturma: 12.09.2026 21:21:38
 
 ## Özet
 
@@ -8,7 +8,7 @@ Oluşturma: 12.09.2026 20:29:12
 - Bekleyen tahmin: 1242
 - Kazanan tahmin: 126
 - Kaybeden tahmin: 132
-- Lig sayısı: 266
+- Lig sayısı: 267
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,28 +22,28 @@ Oluşturma: 12.09.2026 20:29:12
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 531, bekleyen 446, başarı %54, düz getiri %-11, ağırlık 1
-- 2.5 Üst: toplam 218, bekleyen 151, başarı %52, düz getiri %-6, ağırlık 1
+- 2.5 Alt: toplam 532, bekleyen 446, başarı %55, düz getiri %-9, ağırlık 1
+- 2.5 Üst: toplam 219, bekleyen 152, başarı %52, düz getiri %-6, ağırlık 1
 - MS X: toplam 5, bekleyen 3, başarı %50, düz getiri %61, ağırlık 1
-- MS 1: toplam 510, bekleyen 444, başarı %46, düz getiri %-21, ağırlık 1
-- MS 2: toplam 228, bekleyen 193, başarı %37, düz getiri %-26, ağırlık 1
+- MS 1: toplam 515, bekleyen 450, başarı %45, düz getiri %-23, ağırlık 1
+- MS 2: toplam 221, bekleyen 186, başarı %37, düz getiri %-27, ağırlık 1
 - KG Var: toplam 8, bekleyen 5, başarı %33, düz getiri %-32, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-12 | Fransa Ligue 1 | Strasbourg - Monaco | 2.5 Alt | pending | 57/100
-- 2026-09-12 | Brezilya Serie A | Botafogo - Bragantino | 2.5 Alt | pending | 58/100
-- 2026-09-12 | Ekvador Pro Lig | Ldu Quito - Deportivo Cuenc | 2.5 Alt | pending | 59/100
-- 2026-09-12 | Kosta Rika Premier Lig Apertura | Inter San Carl - Puntarenas Fc | 2.5 Alt | pending | 53/100
-- 2026-09-12 | Fransa Ligue 1 | Paris Fc - Lyon | MS 1 | pending | 55/100
-- 2026-09-12 | Bolivya Premier Lig | Gualberto Vill - Nacional Potosi | MS 2 | pending | 46/100
-- 2026-09-12 | Arjantin Prim B Metro | Laferrere - San Carlos | 2.5 Alt | pending | 57/100
-- 2026-09-12 | Uruguay Premier Lig Clausura | Montevideo Wan - Nacional Df | 2.5 Üst | pending | 60/100
-- 2026-09-12 | İspanya Tercera Ligi Grup 5 | Ue Cornella - Cerdanyola Del | MS 1 | pending | 60/100
-- 2026-09-12 | Arjantin Prim B Metro | Talleres - Liniers | MS 1 | pending | 57/100
-- 2026-09-12 | Irak Premier Lig | Diala - Al Gharraf | 2.5 Alt | pending | 57/100
-- 2026-09-12 | Türkiye Süper Lig | Konyaspor - Trabzonspor | KG Var | pending | 58/100
-- 2026-09-12 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Al Zamalek Cai (2) - (1) Port | 2.5 Alt | pending | 50/100
-- 2026-09-12 | Kuzey İrlanda Premiership | Dungannon - Linfield | 2.5 Alt | pending | 50/100
-- 2026-09-12 | Slovakya Süper Lig | Ruzomberok - Zemplin | 2.5 Alt | pending | 48/100
+- 2026-09-12 | Cezayir 1.Lig | Cs Constantine - Aso Chlef | MS 1 | pending | 56/100
+- 2026-09-12 | İspanya Tercera Ligi Grup 13 | Bala Azul - Mazarron Fc | MS 2 | pending | 42/100
+- 2026-09-12 | Fransa Ligue 1 | Le Havre - Angers | 2.5 Üst | pending | 60/100
+- 2026-09-12 | Arjantin Primera C | Estrella Del S - Yupanqui | MS 1 | pending | 48/100
+- 2026-09-12 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Rahimo (1) - (4) Maghreb Fes | 2.5 Alt | pending | 63/100
+- 2026-09-12 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Kitara (2) - (1) Mogadishu City | 2.5 Alt | pending | 62/100
+- 2026-09-12 | İspanya LaLiga | Osasuna - Espanyol | 2.5 Alt | pending | 70/100
+- 2026-09-12 | İspanya Kadınlar Primera Lig | Madrid Cf (K) - Sevilla (K) | MS 1 | pending | 64/100
+- 2026-09-12 | İngiltere Ulusal Lig | Boston United - Wealdstone | MS 1 | pending | 59/100
+- 2026-09-12 | İngiltere 2.Lig | Walsall - Rochdale | 2.5 Alt | pending | 66/100
+- 2026-09-12 | İngiltere Ulusal Lig | Halifax - Hornchurch | MS 1 | pending | 67/100
+- 2026-09-12 | İngiltere Ulusal Lig | Sutton United - Scunthorpe | 2.5 Alt | pending | 61/100
+- 2026-09-12 | İngiltere Championship | Swansea - Burnley | 2.5 Üst | pending | 72/100
+- 2026-09-12 | İngiltere Championship | Charlton - Portsmouth | 2.5 Alt | pending | 71/100
+- 2026-09-12 | İngiltere 1.Lig | Afc Wimbledon - Doncaster | 2.5 Alt | pending | 72/100
 

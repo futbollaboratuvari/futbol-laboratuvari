@@ -1,23 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-12T17:13:41.036392+00:00
+Tarih: 2026-09-12T18:21:21.649102+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 168
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 168
-- Ham veri havuzu toplam mac sayisi: 14002
+- Kac mac bulundu: 67
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 66
+- Ham veri havuzu toplam mac sayisi: 14003
 - Hedef tarih: 12.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD MLS Next Pro
-- ABD USL
-- ABD USL Lig 1
 - Almanya 2. Bundesliga
 - Andorra 1.Lig
 - Arjantin Kadınlar Primera A 2. Aşama
@@ -25,54 +21,30 @@ Tarih: 2026-09-12T17:13:41.036392+00:00
 - Arjantin Prim B Metro
 - Arjantin Primera C
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Kuzey YGG Büyük Final
-- Avusturya Bundesliga
-- Belçika Challenger Pro Lig
 - Belçika Pro Lig
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Brezilya Serie A
 - Brezilya Serie C Grup B
-- Bulgaristan 1.Lig
 - CAF Konfederasyon Kupası 1.Ön Eleme Turu
 - CAF Şampiyonlar Ligi 1.Ön Eleme Turu
 - Cezayir 1.Lig
 - Ekvador Pro Lig
-- Ekvador Pro Lig Serie B Şampiyonluk Grubu
-- El Salvador Primera Lig Apertura
 - Finlandiya Ykkönen Yükselme Turu
 - Fransa Ligue 1
-- Fransa Ligue 2
-- Guatemala Ulusal Lig Apertura
 - Hollanda Eredivisie
-- Honduras Ulusal Lig Apertura
-- Hırvatistan 1.HNL
 - Irak Premier Lig
 - Kanada Premier Lig
-- Kolombiya Primera A Clausura
 - Kolombiya Primera B Clausura
-- Kosta Rika Premier Lig Apertura
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Kadınlar Liga MX Apertura
-- Meksika Liga MX Apertura
-- Norveç 1.Lig
 - Norveç 3.Lig Grup 6
-- Peru Premier Lig Clausura
-- Polonya Ekstraklasa
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Rusya Premier Lig
 - Slovakya Süper Lig
-- Slovenya 1.SNL
-- Suudi Arabistan Pro Lig
 - Sırbistan Süper Lig
-- Ukrayna Premier Lig
 - Umman Profesyonel Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
-- Yunanistan Süper Lig
-- Ürdün Premier Lig
 - İngiltere Premier Lig
 - İrlanda 1.Lig
 - İspanya 2. Lig RFEF Grup 2
@@ -80,17 +52,15 @@ Tarih: 2026-09-12T17:13:41.036392+00:00
 - İspanya 2.Lig
 - İspanya LaLiga
 - İspanya Primera Lig RFEF Grup 2
-- İspanya Tercera Ligi Grup 5
+- İspanya Tercera Ligi Grup 13
 - İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norrland Düşme Grubu
 - İsveç 2.Lig Södra Götaland
 - İsveç 2.Lig Vastra Götaland
 - İtalya Serie A
 - İtalya Serie A Kadınlar Kupası Yarı Final
-- İtalya Serie B
 - İtalya Serie C Grup B
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -147,8 +117,8 @@ Tarih: 2026-09-12T17:13:41.036392+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 90
-- Acilan detay: 90
+- Denenen Tumu alani: 73
+- Acilan detay: 73
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -168,19 +138,19 @@ Tarih: 2026-09-12T17:13:41.036392+00:00
 | 12.09.2026 | 21:45 | Fransa Ligue 1 | Paris Fc | Lyon | 28212 | 5 |
 | 12.09.2026 | 21:45 | Fransa Ligue 1 | Lorient | Toulouse | 28154 | 5 |
 | 12.09.2026 | 21:45 | Fransa Ligue 1 | Le Havre | Angers | 28096 | 5 |
-| 12.09.2026 | 21:00 | Hollanda Eredivisie | Fortuna Sittar | Ajax | 30947 | 5 |
 | 12.09.2026 | 22:00 | Hollanda Eredivisie | Cambuur | Nijmegen | 31005 | 5 |
 | 12.09.2026 | 22:30 | Portekiz Premier Lig | Academico Vise | Guimaraes | 31600 | 5 |
-| 12.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Khaleej | Al Nassr (Riyad | 51772 | 5 |
-| 12.09.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy | Al Feiha | 51807 | 5 |
-| 12.09.2026 | 21:45 | Belçika Pro Lig | Oh Leuven | Cercle Brugge | 28897 | 5 |
 | 12.09.2026 | 21:45 | Belçika Pro Lig | Union St.G | Lommel | 28955 | 5 |
+| 12.09.2026 | 21:45 | Belçika Pro Lig | Oh Leuven | Cercle Brugge | 28897 | 5 |
 | 12.09.2026 | 22:00 | İspanya 2.Lig | Cordoba | Almeria | 21538 | 5 |
-| 12.09.2026 | 20:30 | İtalya Serie B | Cesena | Cremonese | 26016 | 5 |
-| 12.09.2026 | 21:00 | Fransa Ligue 2 | Dunkerque | St Etienne | 27980 | 5 |
 | 12.09.2026 | 21:30 | Almanya 2. Bundesliga | St Pauli | Wolfsburg | 24412 | 5 |
-| 12.09.2026 | 20:30 | Avusturya Bundesliga | Wolfsberger | Rapid Wien | 36361 | 5 |
-| 12.09.2026 | 21:00 | Yunanistan Süper Lig | Iraklis 1908 | Atromitos | 39970 | 5 |
+| 12.09.2026 | 21:30 | Sırbistan Süper Lig | Radnicki 1923 | Mladost Lucani | 51514 | 5 |
+| 12.09.2026 | 22:00 | Brezilya Serie A | Atletico Mg | Fluminense | 34705 | 5 |
+| 12.09.2026 | 22:00 | Brezilya Serie A | Gremio | Vasco Da Gama | 34763 | 5 |
+| 12.09.2026 | 23:00 | Brezilya Serie A | Chapecoense | Internacional | 34836 | 5 |
+| 12.09.2026 | 23:30 | Arjantin Premier Lig 2. Aşama | Atletico Tucum | River Plate | 33799 | 5 |
+| 12.09.2026 | 22:00 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Mc Alger (0) | (0) Nigelec | 01058 | 5 |
+| 12.09.2026 | 22:00 | İtalya Serie C Grup B | Gubbio | Latina | 26132 | 5 |
 
 ## Sonuc
 
