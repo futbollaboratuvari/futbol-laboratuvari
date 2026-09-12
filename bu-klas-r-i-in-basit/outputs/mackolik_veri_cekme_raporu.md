@@ -1,23 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-11T23:35:23.794329+00:00
+Tarih: 2026-09-12T00:14:36.014077+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 694
-- Kac mac kaydedildi: 69
+- Kac mac bulundu: 625
+- Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 625
 - Ham veri havuzu toplam mac sayisi: 13948
 - Hedef tarih: 12.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD MLS Next Pro
-- ABD USL
-- ABD USL Lig 1
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bundesliga
@@ -37,7 +33,6 @@ Tarih: 2026-09-11T23:35:23.794329+00:00
 - Avustralya Kuzey Bölgesi
 - Avustralya NPL Batı Avustralya Büyük Final
 - Avustralya NPL Batı Avustralya Yükselme/Düşme Play-off
-- Avustralya NPL Kuzey YGG Büyük Final
 - Avustralya NPL Queensland Final
 - Avustralya NPL Victoria Yarı Final
 - Avustralya NPL Yeni Güney Galler Play-off 1/2
@@ -62,7 +57,6 @@ Tarih: 2026-09-11T23:35:23.794329+00:00
 - Danimarka 1.Lig
 - Ekvador Pro Lig
 - Ekvador Pro Lig Serie B Şampiyonluk Grubu
-- El Salvador Primera Lig Apertura
 - Endonezya Süper Lig
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga Küme Düşme Grubu
@@ -77,7 +71,6 @@ Tarih: 2026-09-11T23:35:23.794329+00:00
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika 1.Lig
 - Güney Afrika PSL
 - Güney Kore K Lig 1
@@ -86,7 +79,6 @@ Tarih: 2026-09-11T23:35:23.794329+00:00
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Tweede Divisie
-- Honduras Ulusal Lig Apertura
 - Hong Kong Premier Lig
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
@@ -99,9 +91,7 @@ Tarih: 2026-09-11T23:35:23.794329+00:00
 - Kanada Premier Lig
 - Katar Yıldızlar Ligi
 - Kazakistan Premier Lig
-- Kolombiya Primera A Clausura
 - Kolombiya Primera B Clausura
-- Kosta Rika Premier Lig Apertura
 - Kuzey Makedonya 1.Lig
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
@@ -110,9 +100,6 @@ Tarih: 2026-09-11T23:35:23.794329+00:00
 - Litvanya 1.Lig
 - Malezya Süper Lig
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Kadınlar Liga MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Nijerya NPFL
 - Norveç 1.Lig

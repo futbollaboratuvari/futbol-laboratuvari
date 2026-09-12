@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.09.2026 02:36:51
+Oluşturma: 12.09.2026 03:14:53
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1325
-- Kazanan tahmin: 93
-- Kaybeden tahmin: 82
-- Lig sayısı: 267
+- Bekleyen tahmin: 1317
+- Kazanan tahmin: 97
+- Kaybeden tahmin: 86
+- Lig sayısı: 266
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,15 +22,17 @@ Oluşturma: 12.09.2026 02:36:51
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 219, bekleyen 184, başarı %60, düz getiri %9, ağırlık 1
-- MS 1: toplam 511, bekleyen 450, başarı %59, düz getiri %-1, ağırlık 1
-- MS 2: toplam 233, bekleyen 209, başarı %58, düz getiri %3, ağırlık 1
-- 2.5 Alt: toplam 526, bekleyen 473, başarı %42, düz getiri %-33, ağırlık 1
+- 2.5 Üst: toplam 221, bekleyen 182, başarı %59, düz getiri %8, ağırlık 1
+- MS 2: toplam 232, bekleyen 208, başarı %58, düz getiri %3, ağırlık 1
+- MS 1: toplam 510, bekleyen 448, başarı %58, düz getiri %-3, ağırlık 1
+- 2.5 Alt: toplam 526, bekleyen 470, başarı %43, düz getiri %-30, ağırlık 1
 - KG Var: toplam 7, bekleyen 6, başarı %0, düz getiri %-100, ağırlık 1
 - MS X: toplam 4, bekleyen 3, başarı %0, düz getiri %-100, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-12 | Çin Halk Cumhuriyeti 1.Lig | Guangxi Hengch - Yanbian Longdin | 2.5 Üst | pending | 53/100
+- 2026-09-12 | Litvanya 1.Lig | Garliava - Bfa | 2.5 Üst | pending | 54/100
 - 2026-09-12 | ABD USL | Phoenix Rising - Tulsa Roughneck | 2.5 Üst | pending | 64/100
 - 2026-09-12 | ABD MLS | Los Angeles - Seattle | MS 1 | pending | 49/100
 - 2026-09-12 | ABD MLS | San Jose - Houston | 2.5 Alt | pending | 60/100
@@ -44,6 +46,4 @@ Oluşturma: 12.09.2026 02:36:51
 - 2026-09-12 | Brezilya Serie A | Santos - Cruzeiro | 2.5 Üst | pending | 71/100
 - 2026-09-12 | Ekvador Pro Lig | Ldu Quito - Deportivo Cuenc | 2.5 Üst | pending | 61/100
 - 2026-09-12 | ABD MLS Next Pro | Minnesota Unit - Whitecaps Fc Ii | MS 1 | pending | 57/100
-- 2026-09-12 | ABD MLS | Dallas - Portland | MS 1 | pending | 59/100
-- 2026-09-12 | ABD MLS | Kansas - Los Angeles Fc | MS 2 | pending | 54/100
 
