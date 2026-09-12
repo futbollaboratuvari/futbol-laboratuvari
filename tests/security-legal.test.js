@@ -65,6 +65,52 @@ async function testProtectedProRoute() {
   }
 }
 
+async function testSecureMembershipProxy() {
+  const handler = require("../api/verify-code");
+  const originalFetch = global.fetch;
+  let forwarded = null;
+  global.fetch = async (url, options) => {
+    forwarded = { url: String(url), options };
+    return {
+      status: 200,
+      text: async () => JSON.stringify({
+        ok: true,
+        message: "Üyelik aktif.",
+        membership: {
+          planCode: "gold",
+          planName: "Gold Paket",
+          remainingAnalysisCount: 7,
+          codeLabel: "GOLD-****",
+        },
+        internalField: "must-not-leak",
+      }),
+    };
+  };
+
+  try {
+    const valid = responseCapture();
+    await handler(request("POST", { code: " test-1234 ", clientId: "device-1" }), valid);
+    const payload = JSON.parse(valid.body);
+    assert.equal(valid.statusCode, 200);
+    assert.equal(payload.ok, true);
+    assert.equal(payload.membership.remainingAnalysisCount, 7);
+    assert.equal(payload.internalField, undefined);
+    assert.match(forwarded.url, /supabase\.co\/functions\/v1\/fl-bank-transfer\?action=verify-code/);
+    assert.equal(JSON.parse(forwarded.options.body).code, "TEST-1234");
+    assert.equal(forwarded.url.includes("raw.githubusercontent.com"), false);
+
+    const foreign = responseCapture();
+    await handler(request("POST", { code: "TEST-1234" }, { origin: "https://example.com" }), foreign);
+    assert.equal(foreign.statusCode, 403);
+
+    const legacyGet = responseCapture();
+    await handler(request("GET"), legacyGet);
+    assert.equal(legacyGet.statusCode, 405);
+  } finally {
+    global.fetch = originalFetch;
+  }
+}
+
 async function testLegalOrderGate() {
   const names = ["SELLER_LEGAL_NAME", "SELLER_ADDRESS", "SELLER_TAX_ID", "SELLER_TAX_OFFICE", "SELLER_EMAIL", "SELLER_PHONE"];
   const backup = Object.fromEntries(names.map((name) => [name, process.env[name]]));
@@ -147,6 +193,9 @@ function testStaticProtectionAndConsent() {
   const daily = read("daily-matches-widget.js");
   const navigation = read("nav-routing.js");
   const pagesWorkflow = read(".github/workflows/deploy-pages.yml");
+  const bulletinPagesWorkflow = read(".github/workflows/football-bulletin-only.yml");
+  const legacyVerify = read("api/verify-code.js");
+  const gitignore = read(".gitignore");
   const { sanitizePublicLive } = require("../scripts/sanitize-public-live");
   const htmlFiles = fs.readdirSync(root).filter((name) => name.endsWith(".html"));
 
@@ -183,6 +232,16 @@ function testStaticProtectionAndConsent() {
   assert.match(build, /data\/pro-analysis-index\.json/);
   assert.match(pagesWorkflow, /run: npm run build/);
   assert.match(pagesWorkflow, /path: \.\/public/);
+  assert.match(bulletinPagesWorkflow, /name: Build safe public artifact/);
+  assert.match(bulletinPagesWorkflow, /run: npm run build/);
+  assert.match(bulletinPagesWorkflow, /path: \.\/public/);
+  assert.equal(/^\s*path:\s*\.\s*$/m.test(bulletinPagesWorkflow), false);
+  assert.equal(legacyVerify.includes("raw.githubusercontent.com"), false);
+  assert.match(legacyVerify, /supabase\.co\/functions\/v1\/fl-bank-transfer\?action=verify-code/);
+  ["data/membership-codes.json", "data/usage-log.json"].forEach((file) => {
+    assert.equal(fs.existsSync(path.join(root, file)), false, `${file} public depoda bulunmamalı`);
+    assert.match(gitignore, new RegExp(`^${file.replace(/[.*+?^${}()|[\\]\\]/g, "\\$&")}$`, "m"));
+  });
   assert.equal(fs.existsSync(path.join(root, ".nojekyll")), false);
   assert.ok(fs.statSync(path.join(root, "favicon.ico")).size > 1000);
   assert.match(cookie, /data-cookie-choice="accept"/);
@@ -210,6 +269,8 @@ function testStaticProtectionAndConsent() {
 (async () => {
   await testProtectedProRoute();
   console.log("✓ PRO veri yalnız doğrulanmış sunucu isteğiyle döner");
+  await testSecureMembershipProxy();
+  console.log("✓ eski üyelik API yolu güvenli Supabase servisine yönlenir");
   await testLegalOrderGate();
   console.log("✓ eksik satıcı profili ve yasal onay olmadan sipariş alınmaz");
   testStaticProtectionAndConsent();
