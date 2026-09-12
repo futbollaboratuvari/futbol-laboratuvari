@@ -1,21 +1,146 @@
 {
-  "generated_at": "2026-09-12T21:40:11.560Z",
+  "generated_at": "2026-09-12T21:43:01.516Z",
   "status": "pass",
   "source_status": "active",
   "full_bulletin_exists": true,
   "restored_from_cache": false,
-  "match_count": 542,
+  "match_count": 60,
   "live_match_count": 0,
   "finished_count": 0,
   "first_match": {
+    "no": 6,
+    "week": "2026/2027 5. Hafta",
     "date": "2026-09-13",
-    "time": "01:00",
-    "league": "ABD USL Lig 1",
-    "home": "Forward Madiso",
-    "away": "Sarasota Paradi",
-    "matchCode": "56284",
-    "mbs": null,
+    "time": "17:00",
+    "league": "Türkiye Süper Lig",
+    "home": "Gençlerbirliği",
+    "away": "Kasımpaşa",
+    "match": "Gençlerbirliği - Kasımpaşa",
     "status": "scheduled",
+    "source": "Haftalık Spor Toto programı",
+    "matchCode": null,
+    "one": null,
+    "draw": null,
+    "two": null,
+    "oneOdd": null,
+    "drawOdd": null,
+    "twoOdd": null,
+    "probabilities": {
+      "1": 46,
+      "2": 25,
+      "X": 29
+    },
+    "market_probabilities": {
+      "1": null,
+      "2": null,
+      "X": null
+    },
+    "public_distribution": {
+      "1": 46,
+      "2": 25,
+      "X": 29
+    },
+    "probability_basis": "cross_verified_public_distribution",
+    "analysis_ready": true,
+    "decision": "1",
+    "selected_options": [
+      "1"
+    ],
+    "selection": "1",
+    "coupon_role": "Oynanma Dağılımı Bazlı",
+    "classification": "Oynanma Dağılımı Bazlı",
+    "confidence": 51,
+    "confidence_score": 51,
+    "risk": "Yüksek",
+    "risk_level": "Yüksek",
+    "data_completeness": 28,
+    "probability_gap": 17,
+    "column_multiplier": 1,
+    "reasons": [
+      "PRO 13: 1 olasılığı %46.0; ikinci seçenek %29.0.",
+      "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
+      "Bu maçta takım arşiv örneği güven eşiğinin altında.",
+      "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %46.0, X %29.0, 2 %25.0."
+    ],
+    "model_version": "pro13-btts-conditioned-v3",
+    "score_type": "spor_toto_1x2",
+    "form": {
+      "home": {
+        "count": 3,
+        "scored": 2,
+        "conceded": 2,
+        "bttsRate": 33,
+        "over25Rate": 33,
+        "over35Rate": 33,
+        "goalsForAvg": 0.67,
+        "goalsAgainstAvg": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "winRate": 33,
+        "drawRate": 33,
+        "lossRate": 33,
+        "pointsPerGame": 1.33,
+        "recent": [
+          "W",
+          "D",
+          "L"
+        ],
+        "sample": 3,
+        "ppg": 1.33,
+        "goals_for_avg": 0.67,
+        "goals_against_avg": 2
+      },
+      "away": {
+        "count": 2,
+        "scored": 2,
+        "conceded": 1,
+        "bttsRate": 50,
+        "over25Rate": 0,
+        "over35Rate": 0,
+        "goalsForAvg": 1,
+        "goalsAgainstAvg": 0.5,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "winRate": 50,
+        "drawRate": 50,
+        "lossRate": 0,
+        "pointsPerGame": 2,
+        "recent": [
+          "W",
+          "D"
+        ],
+        "sample": 2,
+        "ppg": 2,
+        "goals_for_avg": 1,
+        "goals_against_avg": 0.5
+      }
+    },
+    "h2h": [],
+    "squad": {
+      "available": false,
+      "home": [],
+      "away": [],
+      "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+    },
+    "independent_evidence": false,
+    "evidence_mode": "cross_verified_public_distribution",
+    "archive_analysis": {
+      "ready": false,
+      "generated_from_real_results": false,
+      "canonical_home": "Gençlerbirliği",
+      "canonical_away": "Kasımpaşa",
+      "archive_probabilities": null,
+      "public_distribution": {
+        "1": 46,
+        "2": 25,
+        "X": 29
+      },
+      "poisson": null,
+      "agreement_score": null
+    },
+    "mbs": null,
     "liveStatus": "scheduled",
     "status_verified": false,
     "status_source": "schedule_only",
@@ -23,32 +148,30 @@
     "homeScore": null,
     "awayScore": null,
     "score": "",
-    "source": "Maçkolik canlı robot",
-    "odds": {
-      "ms1": 1.47,
-      "msx": 3.44,
-      "ms2": 4.17,
-      "under25": 1.84,
-      "over25": 1.5
-    },
-    "available_odds": {
-      "ms1": 1.47,
-      "msx": 3.44,
-      "ms2": 4.17,
-      "under25": 1.84,
-      "over25": 1.5
-    },
-    "raw_market_guess_odds": {
-      "ms1": 1.47,
-      "msx": 3.44,
-      "ms2": 4.17,
-      "under25": 1.84,
-      "over25": 1.5,
-      "bttsYes_guess": 1.09,
-      "bttsNo_guess": 1.81
-    },
+    "odds": {},
+    "available_odds": {},
+    "raw_market_guess_odds": {},
     "raw_odds_sequence": [],
-    "raw_market_value_count": 7
+    "raw_market_value_count": 0,
+    "raw_market_blocks": [],
+    "detail_market_candidates": [],
+    "detail_markets": [],
+    "raw_market_source": "Haftalık Spor Toto programı",
+    "oddsSource": "Haftalık Spor Toto programı",
+    "wide_market_odds_count": 0,
+    "detail": {
+      "analysis": "Detay analizi icin robot verisi bekleniyor.",
+      "prediction": "1",
+      "confidence": 51,
+      "risk": "Yüksek",
+      "team_info": {
+        "home": null,
+        "away": null
+      },
+      "league_info": null,
+      "goal_expectation": null,
+      "markets": []
+    }
   },
   "date_window": {
     "main_day": "2026-09-13",
