@@ -1,27 +1,24 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 674
-Tam analiz: 618
-Eksik analiz: 56
+Toplam analiz: 276
+Tam analiz: 259
+Eksik analiz: 17
 
-- Smiltene VS Riga Mariners: eksik score, confidence
-- Metta / Lu VS Jfk Ventspils: eksik score, confidence
-- Valerenga Ii VS Gamle Oslo: eksik score, confidence
-- Sengkang VS Lion City: eksik score, confidence
-- Guangzhou E-Po VS Dalian Huayi: eksik score, confidence
-- Levadia Tallin VS Vaprus: eksik score, confidence
-- Lyon (K) VS Paris (K): eksik score, confidence
-- Djerv VS Austevoll: eksik score, confidence
-- Sotra Sk VS Sandviken: eksik score, confidence
-- Bali United VS Farmel: eksik score, confidence
-- Sunnersta Aif VS Bollstanas: eksik score, confidence
-- Oskarshamns Ai VS Rappe: eksik score, confidence
-- Fransta VS Ifk Umea: eksik score, confidence
-- Harstad VS Ulfstind: eksik score, confidence
-- Sarpsborg 08 I VS Ff Lillehammer: eksik score, confidence
-- Gjovik-Lyn VS Lyn Oslo B: eksik score, confidence
-- Ha Noi T&T VS Slna: eksik score, confidence
-- Melaka VS Kuching Fa: eksik score, confidence
-- Yeni Zelanda U VS Abd U20 (K): eksik score, confidence
-- Vidar VS Bjarg: eksik score, confidence
+- Osijek VS Dinamo Zagreb: eksik score, confidence
+- Blau-Weiss Lin VS Wspg Wels: eksik score, confidence
+- Al Taawon VS Al Hilal (Riyad: eksik score, confidence
+- Olympiakos VS Ofi: eksik score, confidence
+- De Treffers VS Koninklijke Hfc: eksik score, confidence
+- Espanyol U19 VS Osasuna U19: eksik score, confidence
+- Adana Demirspo VS Elazığspor: eksik score, confidence
+- Athletic Bilba VS Elche: eksik score, confidence
+- Asas (0) VS (4) Zed: eksik score, confidence
+- Barcelona (K) VS Atl Madrid (K): eksik score, confidence
+- Fortuna Sittar VS Ajax: eksik score, confidence
+- Al Khaleej VS Al Nassr (Riyad: eksik score, confidence
+- Union St.G VS Lommel: eksik score, confidence
+- Real Madrid VS Vallecano: eksik score, confidence
+- The Strongest VS Real Oruro: eksik score, confidence
+- Blooming VS Academia Del Ba: eksik score, confidence
+- Juarez (K) VS Necaxa (K): eksik score, confidence
