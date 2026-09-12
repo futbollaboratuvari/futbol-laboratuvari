@@ -2,6 +2,11 @@
 # committed or copied into the public static output.
 data/pro-analysis-index.json
 
+# Server-only membership records. Membership verification and usage tracking
+# are stored in Supabase; these files must never return to the public repo.
+data/membership-codes.json
+data/usage-log.json
+
 # Local deployment/build output.
 public/
 .vercel/
