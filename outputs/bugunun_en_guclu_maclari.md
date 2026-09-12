@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-12T06:24:13.557Z
+- Güncelleme: 2026-09-12T06:32:53.857Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -66,7 +66,7 @@
 | Asan Mugunghwa VS Cheongju Fc | Güney Kore K Lig 2 | 13:00 | 2.5 Alt | 1.62 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Ansan Greeners VS Hwaseong | Güney Kore K Lig 2 | 13:00 | MS 2 | 1.40 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Oliveirense VS Cd Mafra | Portekiz 3.Lig Grup B | 13:00 | 2.5 Alt | 1.49 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Athletic Club VS Espanyol (K) | İspanya Kadınlar Primera Lig | 13:00 | MS 1 | 1.36 | 71 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Athletic Club VS Espanyol (K) | İspanya Kadınlar Primera Lig | 13:00 | MS 1 | 1.36 | 72 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
 | Rb Leipzig (K) VS Nürnberg (K) | Almanya Kadınlar Bundesliga | 13:00 | MS 1 | 1.55 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Gangneung City VS Gyeongju Hnp | Güney Kore K3 Ligi | 13:00 | 2.5 Alt | 1.53 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Enskede VS Kungsangen | İsveç 2.Lig Norra Svealand | 13:00 | MS 1 | 1.34 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -644,7 +644,7 @@
 | Estudiantes Fc VS Depor Tachira | Venezuela Premier Lig Clausura | 00:00 | 2.5 Alt | 1.54 | 70 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Balboa VS Platense | El Salvador Primera Lig Apertura | 00:00 | 2.5 Alt | 1.48 | 84 | Ana kupon adayı | Değerli | Düşük | Düşük | scheduled |
 | Inter Bogota VS Llaneros | Kolombiya Primera A Clausura | 00:05 | 2.5 Alt | 1.38 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Palmeiras VS Sao Paulo | Brezilya Serie A | 00:30 | 2.5 Alt | 1.60 | 77 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
+| Palmeiras VS Sao Paulo | Brezilya Serie A | 00:30 | 2.5 Alt | 1.60 | 77 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Deportivo La G VS Ucv | Venezuela Premier Lig Clausura | 00:30 | 2.5 Üst | 1.65 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Guayaquil City VS Mushuc Runa | Ekvador Pro Lig | 00:30 | 2.5 Alt | 1.40 | 79 | Orta risk kupon adayı | Piyasa ile Uyumlu | Düşük | Düşük | scheduled |
 | The Strongest VS Real Oruro | Bolivya Premier Lig | 00:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
@@ -675,7 +675,7 @@
 | Toluca VS Atlas | Meksika Liga MX Apertura | 02:05 | MS 1 | 1.28 | 76 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Guadalajara (K VS Monterrey (K) | Meksika Kadınlar Liga MX Apertura | 02:07 | 2.5 Alt | 1.83 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Chico VS Independiente M | Kolombiya Primera A Clausura | 02:10 | 2.5 Alt | 1.51 | 65 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
-| Olancho VS Real Espana | Honduras Ulusal Lig Apertura | 02:15 | 2.5 Alt | 1.57 | 74 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
+| Olancho VS Real Espana | Honduras Ulusal Lig Apertura | 02:15 | 2.5 Alt | 1.57 | 74 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Cincinnati VS Charlotte | ABD MLS | 02:30 | MS 2 | 2.70 | 62 | Sadece izleme | Değerli | Yüksek | Düşük | scheduled |
 | Columbus VS New York | ABD MLS | 02:30 | MS 1 | 1.56 | 64 | Sadece izleme | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Orlando City VS Toronto | ABD MLS | 02:30 | MS 1 | 1.68 | 65 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |

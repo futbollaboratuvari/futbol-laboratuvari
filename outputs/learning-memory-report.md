@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.09.2026 09:24:43
+Oluşturma: 12.09.2026 09:35:49
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1335
-- Kazanan tahmin: 84
-- Kaybeden tahmin: 81
+- Bekleyen tahmin: 1320
+- Kazanan tahmin: 91
+- Kaybeden tahmin: 89
 - Lig sayısı: 266
 - Seçenek sayısı: 6
 
@@ -22,15 +22,18 @@ Oluşturma: 12.09.2026 09:24:43
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 221, bekleyen 183, başarı %61, düz getiri %13, ağırlık 1
+- 2.5 Üst: toplam 221, bekleyen 177, başarı %59, düz getiri %10, ağırlık 1
 - MS 2: toplam 231, bekleyen 210, başarı %57, düz getiri %2, ağırlık 1
-- MS 1: toplam 501, bekleyen 452, başarı %49, düz getiri %-15, ağırlık 1
-- 2.5 Alt: toplam 535, bekleyen 480, başarı %46, düz getiri %-27, ağırlık 1
-- KG Var: toplam 8, bekleyen 7, başarı %0, düz getiri %-100, ağırlık 1
+- MS 1: toplam 500, bekleyen 447, başarı %49, düz getiri %-16, ağırlık 1
+- 2.5 Alt: toplam 535, bekleyen 475, başarı %45, düz getiri %-27, ağırlık 1
+- KG Var: toplam 9, bekleyen 8, başarı %0, düz getiri %-100, ağırlık 1
 - MS X: toplam 4, bekleyen 3, başarı %0, düz getiri %-100, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-12 | İzlanda 2.Lig | Kari - Haukar | MS 1 | pending | 46/100
+- 2026-09-12 | İngiltere FA Trophy 2. Eleme Turu | Kidsgrove Athl - Stafford Ranger | 2.5 Alt | pending | 49/100
+- 2026-09-12 | Japonya J1 Lig | V-Varen Nagasa - Nagoya | KG Var | pending | 61/100
 - 2026-09-12 | ABD USL | Phoenix Rising - Tulsa Roughneck | 2.5 Alt | pending | 57/100
 - 2026-09-12 | Peru Premier Lig Clausura | Alianza Lima - Universitario | MS 1 | pending | 50/100
 - 2026-09-12 | Venezuela Premier Lig Clausura | Academia Anzoa - Metropolitanos | MS 2 | pending | 51/100
@@ -43,7 +46,4 @@ Oluşturma: 12.09.2026 09:24:43
 - 2026-09-12 | Arnavutluk Süperlig | Partizan Tiran - Dinamo Tirana | MS 2 | pending | 44/100
 - 2026-09-12 | Kazakistan Premier Lig | Ordabasy - Astana | MS 1 | pending | 51/100
 - 2026-09-12 | Kuzey İrlanda Premiership | Portadown Fc - Larne Fc | 2.5 Alt | pending | 52/100
-- 2026-09-12 | Türkiye 3.Lig 1.Grup | Küçükçekmece S - Galata | MS 1 | pending | 55/100
-- 2026-09-12 | Norveç 3.Lig Grup 1 | Fk Union Carl - Nordstrand | MS 1 | pending | 56/100
-- 2026-09-12 | Norveç 3.Lig Grup 3 | Fyllingsdalen - Gneist | MS 2 | pending | 50/100
 

@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-12 / 2026-09-13
 Kaynak: fixtures.json
-Ham mac: 724
-Aktif mac: 699
+Ham mac: 699
+Aktif mac: 698
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 25
-Bugun: 630
+Bultenden dusurulen mac: 1
+Bugun: 629
 Yarin: 69
 
 ## Baslamamis Maclar
-- 2026-09-12 09:30 | Avustralya Queensland NPL Kadınlar Final | Gold Coast Kni - Eastern Suburbs | scheduled | -
 - 2026-09-12 10:00 | Avustralya NPL Batı Avustralya Yükselme/Düşme Play-off | Uwa Nedlands (1) - (0) Mandurah City | scheduled | -
 - 2026-09-12 10:00 | Avustralya NPL Batı Avustralya Yükselme/Düşme Play-off | Armadale (2) - (1) Joondalup City | scheduled | -
 - 2026-09-12 10:30 | Güney Kore K Lig 1 | Bucheon - Jeju Utd | scheduled | -
