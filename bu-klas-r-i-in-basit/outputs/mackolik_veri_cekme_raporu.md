@@ -1,22 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-12T21:38:43.759058+00:00
+Tarih: 2026-09-12T22:44:40.615355+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 477
-- Kac mac kaydedildi: 477
-- Kac mac zaten vardi: 0
+- Kac mac bulundu: 434
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 434
 - Ham veri havuzu toplam mac sayisi: 14480
 - Hedef tarih: 13.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
 - ABD MLS Next Pro
-- ABD USL Lig 1
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bundesliga
@@ -52,7 +50,6 @@ Tarih: 2026-09-12T21:38:43.759058+00:00
 - Danimarka 3.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Endonezya Süper Lig
 - Estonya Esiliiga A
 - Estonya Esiliiga B
@@ -71,7 +68,6 @@ Tarih: 2026-09-12T21:38:43.759058+00:00
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Kadınlar Eredivisie
-- Honduras Ulusal Lig Apertura
 - Hong Kong HKFA 1.Lig
 - Hong Kong Premier Lig
 - Hırvatistan 1.HNL
@@ -87,14 +83,12 @@ Tarih: 2026-09-12T21:38:43.759058+00:00
 - Kazakistan Premier Lig
 - Kolombiya Primera A Clausura
 - Kolombiya Primera B Clausura
-- Kosta Rika Premier Lig Apertura
 - Kuzey Makedonya 1.Lig
 - Letonya Virsliga
 - Litvanya A Ligi
 - Malezya Süper Lig
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1

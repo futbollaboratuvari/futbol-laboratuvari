@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 13.09.2026 01:26:49
+Oluşturma: 13.09.2026 01:44:57
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1159
-- Kazanan tahmin: 168
-- Kaybeden tahmin: 173
-- Lig sayısı: 263
+- Bekleyen tahmin: 1247
+- Kazanan tahmin: 132
+- Kaybeden tahmin: 121
+- Lig sayısı: 249
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,28 +22,28 @@ Oluşturma: 13.09.2026 01:26:49
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 533, bekleyen 412, başarı %59, düz getiri %-3, ağırlık 1
-- 2.5 Üst: toplam 225, bekleyen 144, başarı %53, düz getiri %-5, ağırlık 1
-- MS 1: toplam 512, bekleyen 423, başarı %43, düz getiri %-25, ağırlık 0.94
-- MS X: toplam 5, bekleyen 2, başarı %33, düz getiri %7, ağırlık 1
-- MS 2: toplam 217, bekleyen 177, başarı %33, düz getiri %-36, ağırlık 1
+- 2.5 Alt: toplam 568, bekleyen 478, başarı %63, düz getiri %6, ağırlık 1
+- 2.5 Üst: toplam 203, bekleyen 140, başarı %54, düz getiri %-3, ağırlık 1
+- MS X: toplam 3, bekleyen 1, başarı %50, düz getiri %61, ağırlık 1
+- MS 1: toplam 508, bekleyen 447, başarı %48, düz getiri %-16, ağırlık 1
+- MS 2: toplam 210, bekleyen 180, başarı %30, düz getiri %-43, ağırlık 1
 - KG Var: toplam 8, bekleyen 1, başarı %29, düz getiri %-42, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-13 | ABD MLS Next Pro | New York City - Connecticut Uni | 2.5 Alt | pending | 50/100
-- 2026-09-13 | ABD MLS Next Pro | Swope Park Ran - Los Angeles Ii | MS 2 | pending | 51/100
-- 2026-09-13 | Arjantin Premier Lig 2. Aşama | Huracan - Racing Club | MS 1 | pending | 51/100
-- 2026-09-13 | ABD MLS Next Pro | Austin Ii - Colorado Rapids | MS 1 | pending | 54/100
-- 2026-09-13 | ABD MLS Next Pro | North Texas - Houston Dynamo | MS 2 | pending | 44/100
-- 2026-09-13 | ABD MLS | San Diego - Philadelphia | MS 2 | pending | 60/100
-- 2026-09-13 | Meksika Liga MX Apertura | Santos Laguna - Fc Juarez | 2.5 Alt | pending | 57/100
-- 2026-09-13 | Guatemala Ulusal Lig Apertura | Municipal - Malacateco | 2.5 Alt | pending | 70/100
-- 2026-09-13 | Meksika Liga MX Apertura | Guadalajara - Pumas Unam | MS 1 | pending | 62/100
-- 2026-09-13 | Kolombiya Primera A Clausura | Depor Cucuta - Los Millionario | 2.5 Üst | pending | 55/100
-- 2026-09-13 | Honduras Ulusal Lig Apertura | Atlético Indep - Juticalpa | MS 1 | pending | 52/100
-- 2026-09-13 | ABD MLS Next Pro | Ventura County - Tacoma Defiance | MS 1 | pending | 45/100
-- 2026-09-13 | ABD MLS Next Pro | San Jose Earth - Real Monarchs | MS 1 | pending | 52/100
-- 2026-09-13 | Brezilya Serie B | Novorizontino - Cuiaba | MS 1 | pending | 62/100
-- 2026-09-13 | Brezilya Serie B | Fortaleza Ce - Ceara | 2.5 Alt | pending | 73/100
+- 2026-09-13 | İspanya LaLiga | Real Sociedad - Atletico Madrid | MS 2 | pending | 47/100
+- 2026-09-13 | İspanya 2.Lig | Tenerife - Leganes | 2.5 Alt | pending | 74/100
+- 2026-09-13 | Brezilya Serie A | Mirassol - Vitoria Bahia | 2.5 Alt | pending | 69/100
+- 2026-09-13 | İtalya Serie C Grup A | Union Arzignan - Calvina | 2.5 Alt | pending | 57/100
+- 2026-09-13 | İtalya Serie C Grup A | Novara - Pergolettese | 2.5 Alt | pending | 55/100
+- 2026-09-13 | İtalya Serie C Grup A | Trento Calcio - Union Brescia | 2.5 Alt | pending | 56/100
+- 2026-09-13 | Kolombiya Primera A Clausura | Pereira - Bucaramanga | 2.5 Alt | pending | 65/100
+- 2026-09-13 | Arjantin Ulusal Primera Lig | R Cordoba - Moron | MS 1 | pending | 44/100
+- 2026-09-13 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy - Rafaela | 2.5 Alt | pending | 59/100
+- 2026-09-13 | Arjantin Ulusal Primera Lig | Ca Mitre - Chaco For Ever | MS 1 | pending | 46/100
+- 2026-09-13 | Brezilya Serie B | Atletico Goian - Criciuma | MS 1 | pending | 46/100
+- 2026-09-13 | Uruguay Premier Lig Clausura | Defensor Sport - Deportivo Maldo | 2.5 Alt | pending | 63/100
+- 2026-09-13 | Guatemala Ulusal Lig Apertura | Coban Imperial - Comunicaciones | 2.5 Alt | pending | 71/100
+- 2026-09-13 | Kanada Premier Lig | Inter Toronto - Vancouver Fc | 2.5 Alt | pending | 49/100
+- 2026-09-13 | ABD MLS Next Pro | Chicago Fire I - Bethlehem Steel | MS 1 | pending | 47/100
 
