@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.09.2026 23:42:28
+Oluşturma: 13.09.2026 00:40:11
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1196
-- Kazanan tahmin: 148
-- Kaybeden tahmin: 156
-- Lig sayısı: 267
+- Bekleyen tahmin: 1210
+- Kazanan tahmin: 143
+- Kaybeden tahmin: 147
+- Lig sayısı: 263
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,28 +22,28 @@ Oluşturma: 12.09.2026 23:42:28
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 533, bekleyen 427, başarı %55, düz getiri %-9, ağırlık 1
-- 2.5 Üst: toplam 223, bekleyen 150, başarı %52, düz getiri %-7, ağırlık 1
+- 2.5 Alt: toplam 532, bekleyen 430, başarı %57, düz getiri %-5, ağırlık 1
+- 2.5 Üst: toplam 226, bekleyen 156, başarı %53, düz getiri %-5, ağırlık 1
 - MS X: toplam 5, bekleyen 3, başarı %50, düz getiri %61, ağırlık 1
-- MS 1: toplam 511, bekleyen 432, başarı %46, düz getiri %-20, ağırlık 1
-- MS 2: toplam 220, bekleyen 181, başarı %36, düz getiri %-31, ağırlık 1
+- MS 1: toplam 512, bekleyen 438, başarı %45, düz getiri %-21, ağırlık 1
+- MS 2: toplam 217, bekleyen 180, başarı %35, düz getiri %-30, ağırlık 1
 - KG Var: toplam 8, bekleyen 3, başarı %20, düz getiri %-59, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-12 | İtalya Serie B | Cesena - Cremonese | 2.5 Üst | pending | 69/100
-- 2026-09-12 | Fransa Kadınlar 1.Lig | Fc Nantes (K) - Fleury 91 (K) | 2.5 Alt | pending | 61/100
-- 2026-09-12 | Fransa Kadınlar 1.Lig | Saint Malo (K) - Montpellier (K) | 2.5 Alt | pending | 60/100
-- 2026-09-12 | İtalya Serie A | Lazio - Ac Milan | 2.5 Üst | pending | 67/100
-- 2026-09-12 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Djoliba (0) - (1) Club Africain | 2.5 Üst | pending | 57/100
-- 2026-09-12 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Young Africans (1) - (1) Gaborone United | 2.5 Üst | pending | 62/100
-- 2026-09-12 | Meksika Ascenso MX Apertura | Tlaxcala - Cds Tampico Mad | 2.5 Üst | pending | 54/100
-- 2026-09-12 | Cezayir 1.Lig | Cs Constantine - Aso Chlef | MS 1 | pending | 56/100
-- 2026-09-12 | İspanya Tercera Ligi Grup 13 | Bala Azul - Mazarron Fc | MS 2 | pending | 42/100
-- 2026-09-12 | Fransa Ligue 1 | Le Havre - Angers | 2.5 Üst | pending | 60/100
-- 2026-09-12 | Arjantin Primera C | Estrella Del S - Yupanqui | MS 1 | pending | 48/100
-- 2026-09-12 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Rahimo (1) - (4) Maghreb Fes | 2.5 Alt | won | 63/100
-- 2026-09-12 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Kitara (2) - (1) Mogadishu City | 2.5 Alt | won | 65/100
-- 2026-09-12 | İspanya LaLiga | Osasuna - Espanyol | 2.5 Alt | won | 70/100
-- 2026-09-12 | İspanya Kadınlar Primera Lig | Madrid Cf (K) - Sevilla (K) | MS 1 | won | 64/100
+- 2026-09-13 | ABD MLS Next Pro | Swope Park Ran - Los Angeles Ii | MS 2 | pending | 51/100
+- 2026-09-13 | Arjantin Premier Lig 2. Aşama | Huracan - Racing Club | MS 1 | pending | 57/100
+- 2026-09-13 | ABD MLS Next Pro | Austin Ii - Colorado Rapids | MS 1 | pending | 57/100
+- 2026-09-13 | ABD MLS Next Pro | North Texas - Houston Dynamo | MS 2 | pending | 44/100
+- 2026-09-13 | ABD MLS | San Diego - Philadelphia | MS 2 | pending | 60/100
+- 2026-09-13 | Meksika Liga MX Apertura | Santos Laguna - Fc Juarez | 2.5 Alt | pending | 57/100
+- 2026-09-13 | Guatemala Ulusal Lig Apertura | Municipal - Malacateco | 2.5 Alt | pending | 71/100
+- 2026-09-13 | Meksika Liga MX Apertura | Guadalajara - Pumas Unam | MS 1 | pending | 68/100
+- 2026-09-13 | Kolombiya Primera A Clausura | Depor Cucuta - Los Millionario | 2.5 Üst | pending | 55/100
+- 2026-09-13 | Honduras Ulusal Lig Apertura | Atlético Indep - Juticalpa | MS 1 | pending | 55/100
+- 2026-09-13 | ABD MLS Next Pro | Ventura County - Tacoma Defiance | MS 1 | pending | 48/100
+- 2026-09-13 | ABD MLS Next Pro | San Jose Earth - Real Monarchs | MS 1 | pending | 55/100
+- 2026-09-13 | Brezilya Serie B | Novorizontino - Cuiaba | MS 1 | pending | 68/100
+- 2026-09-13 | Brezilya Serie B | Fortaleza Ce - Ceara | 2.5 Alt | pending | 72/100
+- 2026-09-13 | Bolivya Premier Lig | Universitario - Independiente P | MS 1 | pending | 52/100
 
