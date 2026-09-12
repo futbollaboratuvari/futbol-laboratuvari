@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.09.2026 20:18:29
+Oluşturma: 12.09.2026 20:29:12
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1310
-- Kazanan tahmin: 93
-- Kaybeden tahmin: 97
+- Bekleyen tahmin: 1242
+- Kazanan tahmin: 126
+- Kaybeden tahmin: 132
 - Lig sayısı: 266
 - Seçenek sayısı: 6
 
@@ -22,15 +22,16 @@ Oluşturma: 12.09.2026 20:18:29
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 218, bekleyen 171, başarı %55, düz getiri %2, ağırlık 1
-- 2.5 Alt: toplam 531, bekleyen 467, başarı %52, düz getiri %-14, ağırlık 1
+- 2.5 Alt: toplam 531, bekleyen 446, başarı %54, düz getiri %-11, ağırlık 1
+- 2.5 Üst: toplam 218, bekleyen 151, başarı %52, düz getiri %-6, ağırlık 1
 - MS X: toplam 5, bekleyen 3, başarı %50, düz getiri %61, ağırlık 1
-- MS 2: toplam 228, bekleyen 202, başarı %46, düz getiri %-11, ağırlık 1
-- MS 1: toplam 510, bekleyen 461, başarı %43, düz getiri %-24, ağırlık 1
-- KG Var: toplam 8, bekleyen 6, başarı %0, düz getiri %-100, ağırlık 1
+- MS 1: toplam 510, bekleyen 444, başarı %46, düz getiri %-21, ağırlık 1
+- MS 2: toplam 228, bekleyen 193, başarı %37, düz getiri %-26, ağırlık 1
+- KG Var: toplam 8, bekleyen 5, başarı %33, düz getiri %-32, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-12 | Fransa Ligue 1 | Strasbourg - Monaco | 2.5 Alt | pending | 57/100
 - 2026-09-12 | Brezilya Serie A | Botafogo - Bragantino | 2.5 Alt | pending | 58/100
 - 2026-09-12 | Ekvador Pro Lig | Ldu Quito - Deportivo Cuenc | 2.5 Alt | pending | 59/100
 - 2026-09-12 | Kosta Rika Premier Lig Apertura | Inter San Carl - Puntarenas Fc | 2.5 Alt | pending | 53/100
@@ -45,5 +46,4 @@ Oluşturma: 12.09.2026 20:18:29
 - 2026-09-12 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Al Zamalek Cai (2) - (1) Port | 2.5 Alt | pending | 50/100
 - 2026-09-12 | Kuzey İrlanda Premiership | Dungannon - Linfield | 2.5 Alt | pending | 50/100
 - 2026-09-12 | Slovakya Süper Lig | Ruzomberok - Zemplin | 2.5 Alt | pending | 48/100
-- 2026-09-12 | Fransa Kadınlar 1.Lig | Olympique Mars - Lens (K) | MS 1 | pending | 54/100
 

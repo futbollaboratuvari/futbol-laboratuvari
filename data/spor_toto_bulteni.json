@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T17:14:50.702Z",
+  "generated_at": "2026-09-12T17:29:35.765Z",
   "timezone": "Europe/Istanbul",
   "source": "Haftalık 15 maç programı + Futbol Laboratuvarı PRO 13",
   "official_game_format_verified": true,
@@ -15,7 +15,7 @@
   "match_count": 15,
   "analysis_ready_count": 15,
   "analysis_waiting_count": 0,
-  "source_match_count": 276,
+  "source_match_count": 248,
   "verification_sources": [
     {
       "name": "Spor Toto Teşkilat Başkanlığı",
@@ -65,9 +65,9 @@
       "drawOdd": null,
       "twoOdd": null,
       "probabilities": {
-        "1": 65.4,
+        "1": 65.6,
         "2": 16.8,
-        "X": 17.8
+        "X": 17.6
       },
       "market_probabilities": {
         "1": null,
@@ -93,13 +93,13 @@
       "risk": "Orta",
       "risk_level": "Orta",
       "data_completeness": 67,
-      "probability_gap": 47.6,
+      "probability_gap": 48,
       "column_multiplier": 1,
       "reasons": [
-        "PRO 13: 1 olasılığı %65.4; ikinci seçenek %17.8.",
+        "PRO 13: 1 olasılığı %65.6; ikinci seçenek %17.6.",
         "Doğrulanmış sonuç hafızası mevcut; haftalık 1-X-2 kararı gerçek geçmiş sonuçlarla sınandı.",
         "Gerçek sonuç arşivi: ev 4, deplasman 3 maç örneği kullanıldı.",
-        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 1 seçeneği %65.4 ile önde."
+        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 1 seçeneği %65.6 ile önde."
       ],
       "model_version": "pro13-btts-conditioned-v3",
       "score_type": "spor_toto_1x2",
@@ -180,9 +180,9 @@
         "canonical_home": "Beşiktaş",
         "canonical_away": "Erzurumspor FK",
         "archive_probabilities": {
-          "1": 54.9,
-          "2": 22.7,
-          "X": 22.4
+          "1": 55,
+          "2": 22.8,
+          "X": 22.2
         },
         "public_distribution": {
           "1": 90,
@@ -190,12 +190,12 @@
           "X": 7
         },
         "poisson": {
-          "home_lambda": 1.89,
-          "away_lambda": 1.13,
+          "home_lambda": 1.91,
+          "away_lambda": 1.16,
           "samples": 7,
           "reliability": 0.4375
         },
-        "agreement_score": 64.9
+        "agreement_score": 65
       }
     },
     {
@@ -217,9 +217,9 @@
       "drawOdd": null,
       "twoOdd": null,
       "probabilities": {
-        "1": 34.8,
-        "2": 38.7,
-        "X": 26.5
+        "1": 31.5,
+        "2": 41.8,
+        "X": 26.7
       },
       "market_probabilities": {
         "1": null,
@@ -235,82 +235,90 @@
       "analysis_ready": true,
       "decision": "2",
       "selected_options": [
-        "1",
         "2"
       ],
-      "selection": "12",
-      "coupon_role": "Çifte Şans",
+      "selection": "2",
+      "coupon_role": "Çifte Şans Adayı",
       "classification": "Çifte Şans Adayı",
-      "confidence": 63,
-      "confidence_score": 63,
+      "confidence": 68,
+      "confidence_score": 68,
       "risk": "Yüksek",
       "risk_level": "Yüksek",
-      "data_completeness": 66,
-      "probability_gap": 3.9,
-      "column_multiplier": 2,
+      "data_completeness": 69,
+      "probability_gap": 10.3,
+      "column_multiplier": 1,
       "reasons": [
-        "PRO 13: 2 olasılığı %38.7; ikinci seçenek %34.8.",
+        "PRO 13: 2 olasılığı %41.8; ikinci seçenek %31.5.",
         "Doğrulanmış sonuç hafızası mevcut; haftalık 1-X-2 kararı gerçek geçmiş sonuçlarla sınandı.",
-        "Gerçek sonuç arşivi: ev 3, deplasman 3 maç örneği kullanıldı.",
-        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 2 seçeneği %38.7 ile önde."
+        "Gerçek sonuç arşivi: ev 4, deplasman 4 maç örneği kullanıldı.",
+        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 2 seçeneği %41.8 ile önde."
       ],
       "model_version": "pro13-btts-conditioned-v3",
       "score_type": "spor_toto_1x2",
       "form": {
         "home": {
-          "count": 3,
+          "count": 4,
           "scored": 1,
-          "conceded": 3,
-          "bttsRate": 33,
-          "over25Rate": 67,
+          "conceded": 4,
+          "bttsRate": 25,
+          "over25Rate": 50,
           "over35Rate": 0,
-          "goalsForAvg": 0.67,
-          "goalsAgainstAvg": 1.67,
+          "goalsForAvg": 0.5,
+          "goalsAgainstAvg": 1.75,
           "wins": 1,
           "draws": 0,
-          "losses": 2,
-          "winRate": 33,
+          "losses": 3,
+          "winRate": 25,
           "drawRate": 0,
-          "lossRate": 67,
-          "pointsPerGame": 1,
+          "lossRate": 75,
+          "pointsPerGame": 0.75,
           "recent": [
             "L",
             "W",
+            "L",
             "L"
           ],
-          "sample": 3,
-          "ppg": 1,
-          "goals_for_avg": 0.67,
-          "goals_against_avg": 1.67
+          "sample": 4,
+          "ppg": 0.75,
+          "goals_for_avg": 0.5,
+          "goals_against_avg": 1.75
         },
         "away": {
-          "count": 3,
-          "scored": 1,
+          "count": 4,
+          "scored": 2,
           "conceded": 3,
-          "bttsRate": 33,
-          "over25Rate": 33,
+          "bttsRate": 25,
+          "over25Rate": 25,
           "over35Rate": 0,
-          "goalsForAvg": 0.67,
-          "goalsAgainstAvg": 1.33,
-          "wins": 1,
+          "goalsForAvg": 1,
+          "goalsAgainstAvg": 1,
+          "wins": 2,
           "draws": 0,
           "losses": 2,
-          "winRate": 33,
+          "winRate": 50,
           "drawRate": 0,
-          "lossRate": 67,
-          "pointsPerGame": 1,
+          "lossRate": 50,
+          "pointsPerGame": 1.5,
           "recent": [
             "L",
             "W",
-            "L"
+            "L",
+            "W"
           ],
-          "sample": 3,
-          "ppg": 1,
-          "goals_for_avg": 0.67,
-          "goals_against_avg": 1.33
+          "sample": 4,
+          "ppg": 1.5,
+          "goals_for_avg": 1,
+          "goals_against_avg": 1
         }
       },
-      "h2h": [],
+      "h2h": [
+        {
+          "date": "2026-09-12",
+          "home": "Eyüpspor",
+          "away": "Rizespor",
+          "score": "0-2"
+        }
+      ],
       "squad": {
         "available": false,
         "home": [],
@@ -325,9 +333,9 @@
         "canonical_home": "Eyüpspor",
         "canonical_away": "Rizespor",
         "archive_probabilities": {
-          "1": 40.6,
-          "2": 33.6,
-          "X": 25.8
+          "1": 35.4,
+          "2": 38.4,
+          "X": 26.2
         },
         "public_distribution": {
           "1": 22,
@@ -335,12 +343,12 @@
           "X": 28
         },
         "poisson": {
-          "home_lambda": 1.42,
-          "away_lambda": 1.27,
-          "samples": 6,
-          "reliability": 0.375
+          "home_lambda": 1.28,
+          "away_lambda": 1.35,
+          "samples": 8,
+          "reliability": 0.5
         },
-        "agreement_score": 81.4
+        "agreement_score": 86.6
       }
     },
     {
@@ -362,9 +370,9 @@
       "drawOdd": null,
       "twoOdd": null,
       "probabilities": {
-        "1": 48,
-        "2": 27.8,
-        "X": 24.2
+        "1": 41.7,
+        "2": 35,
+        "X": 23.3
       },
       "market_probabilities": {
         "1": null,
@@ -380,81 +388,91 @@
       "analysis_ready": true,
       "decision": "1",
       "selected_options": [
-        "1"
+        "1",
+        "2"
       ],
-      "selection": "1",
-      "coupon_role": "Arşiv Destekli Tek",
-      "classification": "Arşiv Destekli Tek",
-      "confidence": 71,
-      "confidence_score": 71,
-      "risk": "Orta",
-      "risk_level": "Orta",
-      "data_completeness": 66,
-      "probability_gap": 20.2,
-      "column_multiplier": 1,
+      "selection": "12",
+      "coupon_role": "Çifte Şans",
+      "classification": "Çifte Şans Adayı",
+      "confidence": 66,
+      "confidence_score": 66,
+      "risk": "Yüksek",
+      "risk_level": "Yüksek",
+      "data_completeness": 69,
+      "probability_gap": 6.7,
+      "column_multiplier": 2,
       "reasons": [
-        "PRO 13: 1 olasılığı %48.0; ikinci seçenek %27.8.",
+        "PRO 13: 1 olasılığı %41.7; ikinci seçenek %35.0.",
         "Doğrulanmış sonuç hafızası mevcut; haftalık 1-X-2 kararı gerçek geçmiş sonuçlarla sınandı.",
-        "Gerçek sonuç arşivi: ev 3, deplasman 3 maç örneği kullanıldı.",
-        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 1 seçeneği %48.0 ile önde."
+        "Gerçek sonuç arşivi: ev 4, deplasman 4 maç örneği kullanıldı.",
+        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 1 seçeneği %41.7 ile önde."
       ],
       "model_version": "pro13-btts-conditioned-v3",
       "score_type": "spor_toto_1x2",
       "form": {
         "home": {
-          "count": 3,
-          "scored": 1,
-          "conceded": 2,
-          "bttsRate": 0,
-          "over25Rate": 0,
-          "over35Rate": 0,
-          "goalsForAvg": 0.67,
-          "goalsAgainstAvg": 1,
+          "count": 4,
+          "scored": 2,
+          "conceded": 3,
+          "bttsRate": 25,
+          "over25Rate": 25,
+          "over35Rate": 25,
+          "goalsForAvg": 0.75,
+          "goalsAgainstAvg": 2,
           "wins": 1,
           "draws": 0,
-          "losses": 2,
-          "winRate": 33,
+          "losses": 3,
+          "winRate": 25,
           "drawRate": 0,
-          "lossRate": 67,
-          "pointsPerGame": 1,
+          "lossRate": 75,
+          "pointsPerGame": 0.75,
           "recent": [
             "W",
             "L",
+            "L",
             "L"
           ],
-          "sample": 3,
-          "ppg": 1,
-          "goals_for_avg": 0.67,
-          "goals_against_avg": 1
+          "sample": 4,
+          "ppg": 0.75,
+          "goals_for_avg": 0.75,
+          "goals_against_avg": 2
         },
         "away": {
-          "count": 3,
-          "scored": 2,
-          "conceded": 2,
-          "bttsRate": 33,
-          "over25Rate": 67,
-          "over35Rate": 33,
-          "goalsForAvg": 1.67,
-          "goalsAgainstAvg": 2.33,
-          "wins": 1,
+          "count": 4,
+          "scored": 3,
+          "conceded": 3,
+          "bttsRate": 50,
+          "over25Rate": 75,
+          "over35Rate": 50,
+          "goalsForAvg": 2.5,
+          "goalsAgainstAvg": 2,
+          "wins": 2,
           "draws": 0,
           "losses": 2,
-          "winRate": 33,
+          "winRate": 50,
           "drawRate": 0,
-          "lossRate": 67,
-          "pointsPerGame": 1,
+          "lossRate": 50,
+          "pointsPerGame": 1.5,
           "recent": [
             "L",
             "L",
+            "W",
             "W"
           ],
-          "sample": 3,
-          "ppg": 1,
-          "goals_for_avg": 1.67,
-          "goals_against_avg": 2.33
+          "sample": 4,
+          "ppg": 1.5,
+          "goals_for_avg": 2.5,
+          "goals_against_avg": 2
         }
       },
-      "h2h": [],
+      "h2h": [
+        {
+          "date": "2026-09-12",
+          "home": "Samsunspor",
+          "away": "Çorum",
+          "score": "1-5"
+        }
+      ],
       "squad": {
         "available": false,
         "home": [],
@@ -469,9 +487,9 @@
         "canonical_home": "Samsunspor",
         "canonical_away": "Çorum",
         "archive_probabilities": {
-          "1": 44.4,
-          "2": 31.3,
-          "X": 24.3
+          "1": 35.9,
+          "2": 41.1,
+          "X": 23
         },
         "public_distribution": {
           "1": 56,
@@ -479,12 +497,12 @@
           "X": 24
         },
         "poisson": {
-          "home_lambda": 1.62,
-          "away_lambda": 1.32,
-          "samples": 6,
-          "reliability": 0.375
+          "home_lambda": 1.58,
+          "away_lambda": 1.71,
+          "samples": 8,
+          "reliability": 0.5
         },
-        "agreement_score": 88.4
+        "agreement_score": 78.9
       }
     },
     {
@@ -507,8 +525,8 @@
       "twoOdd": 2.88,
       "probabilities": {
         "1": 47.7,
-        "2": 26.8,
-        "X": 25.5
+        "2": 26.9,
+        "X": 25.4
       },
       "market_probabilities": {
         "1": 42.2,
@@ -534,10 +552,10 @@
       "risk": "Orta",
       "risk_level": "Orta",
       "data_completeness": 66,
-      "probability_gap": 20.9,
+      "probability_gap": 20.8,
       "column_multiplier": 1,
       "reasons": [
-        "PRO 13: 1 olasılığı %47.7; ikinci seçenek %26.8.",
+        "PRO 13: 1 olasılığı %47.7; ikinci seçenek %26.9.",
         "Doğrulanmış sonuç hafızası mevcut; haftalık 1-X-2 kararı gerçek geçmiş sonuçlarla sınandı.",
         "Gerçek sonuç arşivi: ev 3, deplasman 3 maç örneği kullanıldı.",
         "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 1 seçeneği %47.7 ile önde."
@@ -613,9 +631,9 @@
         "canonical_home": "Alanyaspor",
         "canonical_away": "Göztepe",
         "archive_probabilities": {
-          "1": 50.2,
-          "2": 26.3,
-          "X": 23.5
+          "1": 50.3,
+          "2": 26.4,
+          "X": 23.3
         },
         "public_distribution": {
           "1": 42,
@@ -623,12 +641,12 @@
           "X": 30
         },
         "poisson": {
-          "home_lambda": 1.76,
-          "away_lambda": 1.21,
+          "home_lambda": 1.78,
+          "away_lambda": 1.23,
           "samples": 6,
           "reliability": 0.375
         },
-        "agreement_score": 91.8
+        "agreement_score": 91.7
       }
     },
     {
@@ -1180,9 +1198,9 @@
       "drawOdd": null,
       "twoOdd": null,
       "probabilities": {
-        "1": 33.1,
+        "1": 33.3,
         "2": 45.5,
-        "X": 21.4
+        "X": 21.2
       },
       "market_probabilities": {
         "1": null,
@@ -1208,10 +1226,10 @@
       "risk": "Orta",
       "risk_level": "Orta",
       "data_completeness": 67,
-      "probability_gap": 12.4,
+      "probability_gap": 12.2,
       "column_multiplier": 1,
       "reasons": [
-        "PRO 13: 2 olasılığı %45.5; ikinci seçenek %33.1.",
+        "PRO 13: 2 olasılığı %45.5; ikinci seçenek %33.3.",
         "Doğrulanmış sonuç hafızası mevcut; haftalık 1-X-2 kararı gerçek geçmiş sonuçlarla sınandı.",
         "Gerçek sonuç arşivi: ev 3, deplasman 4 maç örneği kullanıldı.",
         "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 2 seçeneği %45.5 ile önde."
@@ -1288,9 +1306,9 @@
         "canonical_home": "Gaziantep FK",
         "canonical_away": "Fenerbahçe",
         "archive_probabilities": {
-          "1": 42.6,
+          "1": 42.8,
           "2": 33.7,
-          "X": 23.7
+          "X": 23.5
         },
         "public_distribution": {
           "1": 11,
@@ -1298,8 +1316,8 @@
           "X": 16
         },
         "poisson": {
-          "home_lambda": 1.66,
-          "away_lambda": 1.45,
+          "home_lambda": 1.69,
+          "away_lambda": 1.47,
           "samples": 7,
           "reliability": 0.4375
         },
@@ -1365,29 +1383,30 @@
       "score_type": "spor_toto_1x2",
       "form": {
         "home": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 0,
-          "bttsRate": 0,
-          "over25Rate": 50,
-          "over35Rate": 0,
-          "goalsForAvg": 2.5,
-          "goalsAgainstAvg": 0,
+          "count": 3,
+          "scored": 3,
+          "conceded": 1,
+          "bttsRate": 33,
+          "over25Rate": 67,
+          "over35Rate": 33,
+          "goalsForAvg": 2.33,
+          "goalsAgainstAvg": 0.67,
           "wins": 2,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "winRate": 100,
-          "drawRate": 0,
+          "winRate": 67,
+          "drawRate": 33,
           "lossRate": 0,
-          "pointsPerGame": 3,
+          "pointsPerGame": 2.33,
           "recent": [
             "W",
-            "W"
+            "W",
+            "D"
           ],
-          "sample": 2,
-          "ppg": 3,
-          "goals_for_avg": 2.5,
-          "goals_against_avg": 0
+          "sample": 3,
+          "ppg": 2.33,
+          "goals_for_avg": 2.33,
+          "goals_against_avg": 0.67
         },
         "away": {
           "count": 0,
@@ -2112,7 +2131,7 @@
   ],
   "archive_enrichment": {
     "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
-    "generated_at": "2026-09-12T17:14:48.977Z",
+    "generated_at": "2026-09-12T17:29:34.067Z",
     "archive_match_count": 13924,
     "archive_ready_count": 6,
     "distribution_ready_count": 15,

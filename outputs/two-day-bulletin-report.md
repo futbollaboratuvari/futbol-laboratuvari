@@ -2,11 +2,11 @@
 
 Gunler: 2026-09-12 / 2026-09-13
 Kaynak: fixtures.json
-Ham mac: 276
+Ham mac: 251
 Aktif mac: 153
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 123
+Biten mac: 3
+Bultenden dusurulen mac: 98
 Bugun: 84
 Yarin: 69
 
@@ -169,4 +169,6 @@ Yarin: 69
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-12 18:15 | Fransa Ligue 1 | Strasbourg - Monaco | finished | 1-1
+- 2026-09-12 18:15 | İtalya Serie B | Catanzaro - Carrarese | finished | 1-0
+- 2026-09-12 19:00 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | Kitara (2) - (1) Mogadishu City | finished | 0-0
