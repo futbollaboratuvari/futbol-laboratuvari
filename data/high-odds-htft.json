@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-12T21:08:11.375Z",
+  "generated_at": "2026-09-12T23:07:46.755Z",
   "date": "2026-09-13",
-  "requested_date": "2026-09-12",
-  "date_fallback_used": true,
+  "requested_date": "2026-09-13",
+  "date_fallback_used": false,
   "evaluated_dates": [
-    "2026-09-12",
-    "2026-09-13"
+    "2026-09-13",
+    "2026-09-14"
   ],
   "engine": "Futbol Laboratuvarı Yüksek Oran İY/MS v3",
   "source": "data/robot-analysis.json + iddaa.com resmi futbol bülteni",
@@ -15,24 +15,24 @@
     "1/2",
     "2/1"
   ],
-  "scan_count": 69,
-  "scheduled_scan_count": 66,
-  "official_match_count": 712,
-  "official_htft_match_count": 101,
-  "official_high_odds_match_count": 101,
-  "identity_match_count": 45,
+  "scan_count": 502,
+  "scheduled_scan_count": 461,
+  "official_match_count": 695,
+  "official_htft_match_count": 99,
+  "official_high_odds_match_count": 99,
+  "identity_match_count": 333,
   "matched_by_official_id_count": 0,
-  "matched_by_date_teams_count": 0,
-  "matched_by_date_time_similarity_count": 45,
+  "matched_by_date_teams_count": 49,
+  "matched_by_date_time_similarity_count": 284,
   "ambiguous_identity_count": 0,
-  "unmatched_identity_count": 21,
-  "candidate_count": 12,
+  "unmatched_identity_count": 128,
+  "candidate_count": 74,
   "selected_count": 3,
   "target_card_count": 3,
   "status": "ready",
   "odds_label": "Resmî İddaa İY/MS oranı",
   "confidence_label": "Model güveni bir sonuç olasılığı değil, senaryo sinyal gücüdür.",
-  "message": "Sıradaki 1/2 ve 2/1 ters sonuç adayları yalnız doğrulanmış resmî İddaa İY/MS oranlarıyla seçildi.",
+  "message": "Günün 1/2 ve 2/1 ters sonuç adayları yalnız doğrulanmış resmî İddaa İY/MS oranlarıyla seçildi.",
   "picks": [
     {
       "match_code": "35025",
@@ -54,10 +54,10 @@
       "odds_source": "iddaa.com resmi futbol bülteni",
       "odds_verified": true,
       "risk_level": "Yüksek",
-      "data_completeness": 70,
-      "source_model_score": 74,
+      "data_completeness": 64,
+      "source_model_score": 73,
       "first_half_signal_source": "detail_market_candidates",
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %70, ana model gücü %74."
+      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %64, ana model gücü %73."
     },
     {
       "match_code": "46030",
@@ -73,9 +73,9 @@
       "market": "1/2",
       "model_confidence": 76,
       "scenario_probability": 8.5,
-      "bookmaker_odds": 26,
-      "real_odds": 26,
-      "model_odds": 26,
+      "bookmaker_odds": 25,
+      "real_odds": 25,
+      "model_odds": 25,
       "odds_source": "iddaa.com resmi futbol bülteni",
       "odds_verified": true,
       "risk_level": "Yüksek",
@@ -98,16 +98,16 @@
       "market": "1/2",
       "model_confidence": 76,
       "scenario_probability": 8.5,
-      "bookmaker_odds": 27.5,
-      "real_odds": 27.5,
-      "model_odds": 27.5,
+      "bookmaker_odds": 29,
+      "real_odds": 29,
+      "model_odds": 29,
       "odds_source": "iddaa.com resmi futbol bülteni",
       "odds_verified": true,
       "risk_level": "Yüksek",
       "data_completeness": 59,
-      "source_model_score": 58,
+      "source_model_score": 52,
       "first_half_signal_source": "detail_market_candidates",
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %59, ana model gücü %58."
+      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %59, ana model gücü %52."
     }
   ]
 }
