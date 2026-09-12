@@ -1,19 +1,23 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-12T08:59:36.031333+00:00
+Tarih: 2026-09-12T11:12:22.666183+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 626
-- Kac mac kaydedildi: 21
-- Kac mac zaten vardi: 605
-- Ham veri havuzu toplam mac sayisi: 13977
+- Kac mac bulundu: 643
+- Kac mac kaydedildi: 11
+- Kac mac zaten vardi: 632
+- Ham veri havuzu toplam mac sayisi: 13988
 - Hedef tarih: 12.09.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD MLS Next Pro
+- ABD USL
+- ABD USL Lig 1
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bundesliga
@@ -29,13 +33,12 @@ Tarih: 2026-09-12T08:59:36.031333+00:00
 - Arjantin Primera C
 - Arjantin Ulusal Primera Lig
 - Arnavutluk Süperlig
-- Avustralya Kuzey Bölgesi
-- Avustralya NPL Batı Avustralya Büyük Final
-- Avustralya NPL Queensland Final
+- Avustralya NPL Kuzey YGG Büyük Final
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
 - Bahreyn Premier Lig
+- Belarus 1.Lig
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
@@ -51,6 +54,7 @@ Tarih: 2026-09-12T08:59:36.031333+00:00
 - Danimarka 1.Lig
 - Ekvador Pro Lig
 - Ekvador Pro Lig Serie B Şampiyonluk Grubu
+- El Salvador Primera Lig Apertura
 - Endonezya Süper Lig
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga Küme Düşme Grubu
@@ -65,34 +69,34 @@ Tarih: 2026-09-12T08:59:36.031333+00:00
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika 1.Lig
 - Güney Afrika PSL
-- Güney Kore K Lig 1
-- Güney Kore K Lig 2
-- Güney Kore K3 Ligi
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Tweede Divisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Irak Premier Lig
-- Japonya J1 Lig
-- Japonya J2 Lig
-- Japonya J3 Lig
 - Kadınlar U20 Dünya Kupası Grup C
 - Kadınlar U20 Dünya Kupası Grup D
 - Kanada Premier Lig
 - Katar Yıldızlar Ligi
 - Kazakistan Premier Lig
+- Kolombiya Primera A Clausura
 - Kolombiya Primera B Clausura
+- Kosta Rika Premier Lig Apertura
 - Kuzey Makedonya 1.Lig
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
-- Letonya Virsliga
 - Litvanya 1.Lig
 - Malezya Süper Lig
 - Malta Premier Lig Açılış
+- Meksika Ascenso MX Apertura
+- Meksika Kadınlar Liga MX Apertura
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Nijerya NPFL
 - Norveç 1.Lig
@@ -115,7 +119,6 @@ Tarih: 2026-09-12T08:59:36.031333+00:00
 - Portekiz 3.Lig Grup B
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Romanya 2.Lig
 - Ruanda Ulusal Futbol Ligi
 - Rusya Premier Lig
 - Singapur Premier Lig
@@ -172,6 +175,11 @@ Tarih: 2026-09-12T08:59:36.031333+00:00
 - İspanya 2. Lig RFEF Grup 4
 - İspanya 2. Lig RFEF Grup 5
 - İspanya 2.Lig
+- İspanya Gençler Onur Ligi Grup 1
+- İspanya Gençler Onur Ligi Grup 3
+- İspanya Gençler Onur Ligi Grup 4
+- İspanya Gençler Onur Ligi Grup 5
+- İspanya Gençler Onur Ligi Grup 6
 - İspanya Kadınlar Primera Lig
 - İspanya LaLiga
 - İspanya Primera Lig RFEF Grup 1
@@ -188,7 +196,6 @@ Tarih: 2026-09-12T08:59:36.031333+00:00
 - İsviçre 1.Lig Promotion
 - İsviçre Challenge Lig
 - İsviçre Süper Lig
-- İtalya Primavera Şampiyonası 1
 - İtalya Serie A
 - İtalya Serie A Kadınlar Kupası Yarı Final
 - İtalya Serie B

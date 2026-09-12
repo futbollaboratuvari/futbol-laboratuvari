@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 710
+- Scheduled match count: 635
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-12 / 2026-09-13 23:59
 
-- 2026-09-12 10:00 | Armadale (2) - (1) Joondalup City | scheduled
-- 2026-09-12 10:00 | Uwa Nedlands (1) - (0) Mandurah City | scheduled
-- 2026-09-12 10:30 | Adelaide Raide - Modbury Jets | scheduled
-- 2026-09-12 10:30 | Bucheon - Jeju Utd | scheduled
-- 2026-09-12 10:30 | Jeonbuk Hm - Fc Seoul | scheduled
-- 2026-09-12 10:30 | Ulsan - Incheon Utd | scheduled
-- 2026-09-12 10:30 | Daegu - Yongin | scheduled
-- 2026-09-12 10:30 | Seoul E-Land - Suwon Sb | scheduled
-- 2026-09-12 11:00 | Shanghai Port - Jiangx Beidamen | scheduled
-- 2026-09-12 11:00 | Chuncheon Citi - Yeoju Sejong | scheduled
+- 2026-09-12 14:30 | Guangxi Hengch - Yanbian Longdin | scheduled
+- 2026-09-12 14:30 | Guangzhou E-Po - Dalian Huayi | scheduled
+- 2026-09-12 14:30 | Guangdong Ming - Shanghai Segend | scheduled
+- 2026-09-12 14:30 | Haimen Codion - Chengdu Rongche | scheduled
+- 2026-09-12 14:30 | Guizhou Zhuche - Dalian Kewei | scheduled
+- 2026-09-12 14:30 | Levadia Tallin - Vaprus | scheduled
+- 2026-09-12 14:30 | Nomme Kalju - Trans Narva | scheduled
+- 2026-09-12 14:30 | Lyon (K) - Paris (K) | scheduled
+- 2026-09-12 14:30 | Leyton Orient - Wycombe | scheduled
+- 2026-09-12 14:30 | Notts County - Bradford | scheduled
