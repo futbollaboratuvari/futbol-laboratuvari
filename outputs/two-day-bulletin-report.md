@@ -2,11 +2,11 @@
 
 Gunler: 2026-09-12 / 2026-09-13
 Kaynak: fixtures.json
-Ham mac: 756
+Ham mac: 705
 Aktif mac: 623
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 133
+Biten mac: 1
+Bultenden dusurulen mac: 82
 Bugun: 554
 Yarin: 69
 
@@ -639,4 +639,4 @@ Yarin: 69
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-12 12:00 | Japonya J1 Lig | Mito Hollyhock - Kawasaki | finished | 0-1
