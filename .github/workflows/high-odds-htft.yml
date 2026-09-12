@@ -49,6 +49,11 @@ jobs:
           if (!Array.isArray(data.picks)) throw new Error('picks array missing');
           if (!Array.isArray(data.market_scope) || !data.market_scope.includes('1/2') || !data.market_scope.includes('2/1')) throw new Error('market scope invalid');
           if (data.picks.length > 3) throw new Error('more than 3 picks generated');
+          if (Number(data.selected_count) !== data.picks.length) throw new Error('selected count mismatch');
+          if (Number(data.identity_match_count) !== Number(data.matched_by_official_id_count) + Number(data.matched_by_date_teams_count) + Number(data.matched_by_date_time_similarity_count)) throw new Error('identity diagnostics mismatch');
+          if (data.date < data.requested_date) throw new Error('stale bulletin date generated');
+          if (Number(data.official_high_odds_match_count) >= 2 && Number(data.scheduled_scan_count) >= 2 && Number(data.identity_match_count) === 0) throw new Error('official HTFT matches exist but provider identities do not match');
+          if (Number(data.candidate_count) >= 2 && data.picks.length < 2) throw new Error('verified candidates were not selected');
           if (!/iddaa/i.test(String(data.odds_source || ''))) throw new Error('official odds source missing');
           if (data.odds_label !== 'Resmî İddaa İY/MS oranı') throw new Error('official odds label missing');
           for (const pick of data.picks) {
@@ -56,6 +61,10 @@ jobs:
             if (!pick.match_name || !pick.reason) throw new Error('incomplete pick');
             if (pick.odds_verified !== true) throw new Error('unverified HTFT odds rejected');
             if (!/iddaa/i.test(String(pick.odds_source || ''))) throw new Error('pick odds source missing');
+            if (!/^\d{6,12}$/.test(String(pick.iddaa_event_id || ''))) throw new Error('resolved official event id missing');
+            if (!['iddaa_event_id', 'event_id', 'shared_match_code', 'date_teams', 'date_teams_time', 'date_time_team_similarity'].includes(pick.identity_match_source)) throw new Error('identity match source missing');
+            if (pick.date !== data.date) throw new Error('pick date does not match bulletin date');
+            if (pick.identity_match_source === 'date_time_team_similarity' && Number(pick.identity_match_score) < 72) throw new Error('unsafe fuzzy identity match');
             const real = Number(pick.bookmaker_odds);
             if (!(real >= 11.75)) throw new Error('real high-odds threshold failed');
             if (Number(pick.real_odds) !== real) throw new Error('real_odds mismatch');

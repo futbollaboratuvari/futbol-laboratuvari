@@ -64,13 +64,14 @@
         <span>Durum: <strong data-htft-status>Veri bekleniyor</strong></span>
       </div>
       <div class="fl-htft-grid" data-htft-cards></div>
-      <p class="fl-htft-warning">1/2 ve 2/1 yüksek varyanslı marketlerdir. “Model güveni” sonuç olasılığı değildir; karttaki oran bookmaker oranı değil modelin senaryo oranıdır.</p>
+      <p class="fl-htft-warning">1/2 ve 2/1 yüksek varyanslı marketlerdir. “Model güveni” sonuç olasılığı değildir; karttaki oran doğrulanmış resmî İddaa oranıdır.</p>
     `;
     anchor.insertAdjacentElement('afterend', root);
     return root;
   }
 
   function card(pick, index) {
+    const officialOdds = pick.bookmaker_odds ?? pick.real_odds ?? pick.model_odds ?? '-';
     return `
       <article class="robot-live-card fl-htft-card">
         <div class="robot-card-topline">
@@ -83,7 +84,7 @@
           <span>${escapeHtml(pick.date || '-')} · ${escapeHtml(pick.time || '-')}</span>
         </div>
         <div class="robot-row"><span>İY/MS Seçimi</span><strong class="fl-htft-market">${escapeHtml(pick.market || '-')}</strong></div>
-        <div class="robot-row"><span>Model Oranı</span><strong class="fl-htft-odds">${escapeHtml(pick.model_odds ?? '-')}</strong></div>
+        <div class="robot-row"><span>Resmî İddaa Oranı</span><strong class="fl-htft-odds">${escapeHtml(officialOdds)}</strong></div>
         <div class="robot-row"><span>Model Güveni</span><strong>${escapeHtml(pick.model_confidence ?? '-')}%</strong></div>
         <div class="robot-row"><span>Senaryo Olasılığı</span><strong>${escapeHtml(pick.scenario_probability ?? '-')}%</strong></div>
         <div class="robot-row"><span>Veri Kapsamı</span><strong>${escapeHtml(pick.data_completeness ?? '-')}%</strong></div>
@@ -97,15 +98,42 @@
     if (node) node.textContent = value;
   }
 
+  function todayInIstanbul() {
+    const parts = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Europe/Istanbul',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit'
+    }).formatToParts(new Date());
+    const bag = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+    return `${bag.year}-${bag.month}-${bag.day}`;
+  }
+
   function render(root, data) {
     const picks = Array.isArray(data?.picks) ? data.picks.slice(0, 3) : [];
+    const today = todayInIstanbul();
+    const bulletinDate = String(data?.date || '').slice(0, 10);
+    const futureBulletin = Boolean(bulletinDate && bulletinDate > today);
     setText(root, '[data-htft-scan]', `${Number(data?.scan_count || 0)} maç`);
     setText(root, '[data-htft-candidates]', String(Number(data?.candidate_count || 0)));
     setText(root, '[data-htft-selected]', String(picks.length));
-    setText(root, '[data-htft-status]', data?.status === 'ready' ? 'Güncel' : 'Yeterli aday bekleniyor');
+    setText(root, '[data-htft-status]', data?.status === 'ready'
+      ? futureBulletin ? 'Sıradaki bülten' : 'Güncel'
+      : 'Yeterli aday bekleniyor');
+    const title = root.querySelector('#high-odds-htft-title');
+    if (title) title.textContent = futureBulletin
+      ? 'Sıradaki 1/2 – 2/1 Özel Analizleri'
+      : 'Günün 1/2 – 2/1 Özel Analizleri';
 
     const cards = root.querySelector('[data-htft-cards]');
     if (!cards) return;
+    if (bulletinDate && bulletinDate < today) {
+      setText(root, '[data-htft-candidates]', '0');
+      setText(root, '[data-htft-selected]', '0');
+      setText(root, '[data-htft-status]', 'Güncel veri bekleniyor');
+      cards.innerHTML = '<article class="robot-live-card fl-htft-empty"><p class="robot-note">Bugünün 1/2 – 2/1 taraması yenileniyor.</p></article>';
+      return;
+    }
     if (picks.length) {
       cards.innerHTML = picks.map(card).join('');
       return;

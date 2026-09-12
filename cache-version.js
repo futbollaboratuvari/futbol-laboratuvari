@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260911-pro14-iddaa-bridge-v1";
+  const version = "20260912-htft-official-v3";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
