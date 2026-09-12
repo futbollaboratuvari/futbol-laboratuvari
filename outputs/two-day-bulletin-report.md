@@ -3,16 +3,14 @@
 Gunler: 2026-09-12 / 2026-09-13
 Kaynak: fixtures.json
 Ham mac: 154
-Aktif mac: 80
+Aktif mac: 78
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 74
-Bugun: 11
+Biten mac: 2
+Bultenden dusurulen mac: 76
+Bugun: 9
 Yarin: 69
 
 ## Baslamamis Maclar
-- 2026-09-12 22:30 | Portekiz Premier Lig | Academico Vise - Guimaraes | scheduled | -
-- 2026-09-12 22:30 | Uruguay Premier Lig Clausura | Montevideo Wan - Nacional Df | scheduled | -
 - 2026-09-12 23:00 | Brezilya Serie A | Chapecoense - Internacional | scheduled | -
 - 2026-09-12 23:00 | Cezayir 1.Lig | Cs Constantine - Aso Chlef | scheduled | -
 - 2026-09-12 23:00 | Venezuela Premier Lig Clausura | Academia Anzoa - Metropolitanos | scheduled | -
@@ -96,4 +94,5 @@ Yarin: 69
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-12 20:30 | İtalya Serie B | Cesena - Cremonese | finished | 2-2
+- 2026-09-12 20:30 | Avusturya Bundesliga | Wolfsberger - Rapid Wien | finished | 0-3

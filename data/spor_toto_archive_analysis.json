@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-12T19:24:26.730Z",
+  "generated_at": "2026-09-12T19:41:16.886Z",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
   "model_version": "pro13-btts-conditioned-v3-weekly-archive",
   "week_label": "2026/2027 5. Hafta",
   "archive_match_count": 13925,
-  "archive_ready_count": 6,
+  "archive_ready_count": 7,
   "public_distribution_count": 15,
   "analysis_available_count": 15,
   "matches": [
@@ -21,14 +21,14 @@
       "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 65.6,
+        "1": 65.5,
         "2": 16.8,
-        "X": 17.6
+        "X": 17.7
       },
       "archive_probabilities": {
         "1": 55,
-        "2": 22.8,
-        "X": 22.2
+        "2": 22.7,
+        "X": 22.3
       },
       "public_distribution": {
         "1": 90,
@@ -38,11 +38,11 @@
       "probability_basis": "archive_poisson_plus_public_distribution",
       "confidence": 68,
       "data_completeness": 67,
-      "probability_gap": 48,
+      "probability_gap": 47.8,
       "agreement_score": 65,
       "poisson": {
-        "home_lambda": 1.91,
-        "away_lambda": 1.16,
+        "home_lambda": 1.9,
+        "away_lambda": 1.15,
         "samples": 7,
         "reliability": 0.4375
       },
@@ -114,14 +114,14 @@
       "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 31.5,
+        "1": 31.4,
         "2": 41.8,
-        "X": 26.7
+        "X": 26.8
       },
       "archive_probabilities": {
-        "1": 35.4,
+        "1": 35.3,
         "2": 38.4,
-        "X": 26.2
+        "X": 26.3
       },
       "public_distribution": {
         "1": 22,
@@ -131,11 +131,11 @@
       "probability_basis": "archive_poisson_plus_public_distribution",
       "confidence": 68,
       "data_completeness": 69,
-      "probability_gap": 10.3,
-      "agreement_score": 86.6,
+      "probability_gap": 10.4,
+      "agreement_score": 86.7,
       "poisson": {
-        "home_lambda": 1.28,
-        "away_lambda": 1.35,
+        "home_lambda": 1.27,
+        "away_lambda": 1.34,
         "samples": 8,
         "reliability": 0.5
       },
@@ -208,14 +208,14 @@
       "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 41.7,
+        "1": 41.6,
         "2": 35,
-        "X": 23.3
+        "X": 23.4
       },
       "archive_probabilities": {
-        "1": 35.9,
+        "1": 35.8,
         "2": 41.1,
-        "X": 23
+        "X": 23.1
       },
       "public_distribution": {
         "1": 56,
@@ -225,11 +225,11 @@
       "probability_basis": "archive_poisson_plus_public_distribution",
       "confidence": 66,
       "data_completeness": 69,
-      "probability_gap": 6.7,
+      "probability_gap": 6.6,
       "agreement_score": 78.9,
       "poisson": {
-        "home_lambda": 1.58,
-        "away_lambda": 1.71,
+        "home_lambda": 1.57,
+        "away_lambda": 1.7,
         "samples": 8,
         "reliability": 0.5
       },
@@ -302,14 +302,14 @@
       "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 47.7,
-        "2": 26.9,
-        "X": 25.4
+        "1": 47.5,
+        "2": 27.5,
+        "X": 25
       },
       "archive_probabilities": {
-        "1": 50.3,
-        "2": 26.4,
-        "X": 23.3
+        "1": 49.7,
+        "2": 27.3,
+        "X": 23
       },
       "public_distribution": {
         "1": 42,
@@ -317,63 +317,72 @@
         "X": 30
       },
       "probability_basis": "archive_poisson_plus_public_distribution",
-      "confidence": 71,
-      "data_completeness": 66,
-      "probability_gap": 20.8,
-      "agreement_score": 91.7,
+      "confidence": 72,
+      "data_completeness": 69,
+      "probability_gap": 20,
+      "agreement_score": 92.3,
       "poisson": {
-        "home_lambda": 1.78,
-        "away_lambda": 1.23,
-        "samples": 6,
-        "reliability": 0.375
+        "home_lambda": 1.81,
+        "away_lambda": 1.29,
+        "samples": 8,
+        "reliability": 0.5
       },
       "form": {
         "home": {
-          "count": 3,
-          "scored": 3,
-          "conceded": 1,
-          "bttsRate": 33,
-          "over25Rate": 33,
-          "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 0.67,
+          "count": 4,
+          "scored": 4,
+          "conceded": 2,
+          "bttsRate": 50,
+          "over25Rate": 50,
+          "over35Rate": 25,
+          "goalsForAvg": 1.25,
+          "goalsAgainstAvg": 1,
           "wins": 2,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
-          "winRate": 67,
-          "drawRate": 0,
-          "lossRate": 33,
-          "pointsPerGame": 2,
+          "winRate": 50,
+          "drawRate": 25,
+          "lossRate": 25,
+          "pointsPerGame": 1.75,
           "recent": [
             "W",
             "L",
-            "W"
+            "W",
+            "D"
           ]
         },
         "away": {
-          "count": 3,
-          "scored": 2,
-          "conceded": 3,
-          "bttsRate": 67,
-          "over25Rate": 67,
-          "over35Rate": 67,
-          "goalsForAvg": 1.33,
-          "goalsAgainstAvg": 2.67,
+          "count": 4,
+          "scored": 3,
+          "conceded": 4,
+          "bttsRate": 75,
+          "over25Rate": 75,
+          "over35Rate": 75,
+          "goalsForAvg": 1.5,
+          "goalsAgainstAvg": 2.5,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 3,
           "winRate": 0,
-          "drawRate": 0,
-          "lossRate": 100,
-          "pointsPerGame": 0,
+          "drawRate": 25,
+          "lossRate": 75,
+          "pointsPerGame": 0.25,
           "recent": [
             "L",
             "L",
-            "L"
+            "L",
+            "D"
           ]
         }
       },
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-09-12",
+          "home": "Alanyaspor",
+          "away": "Göztepe",
+          "score": "2-2"
+        }
+      ]
     },
     {
       "no": 5,
@@ -384,71 +393,89 @@
       "away": "Trabzonspor",
       "canonical_home": "Konyaspor",
       "canonical_away": "Trabzonspor",
-      "archive_ready": false,
+      "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 15,
-        "2": 66,
-        "X": 19
+        "1": 27.2,
+        "2": 50,
+        "X": 22.8
       },
-      "archive_probabilities": null,
+      "archive_probabilities": {
+        "1": 32.5,
+        "2": 43.1,
+        "X": 24.4
+      },
       "public_distribution": {
         "1": 15,
         "2": 66,
         "X": 19
       },
-      "probability_basis": "cross_verified_public_distribution",
-      "confidence": 51,
-      "data_completeness": 28,
-      "probability_gap": 47,
-      "agreement_score": null,
-      "poisson": null,
+      "probability_basis": "archive_poisson_plus_public_distribution",
+      "confidence": 69,
+      "data_completeness": 67,
+      "probability_gap": 22.8,
+      "agreement_score": 77.1,
+      "poisson": {
+        "home_lambda": 1.34,
+        "away_lambda": 1.59,
+        "samples": 7,
+        "reliability": 0.4375
+      },
       "form": {
         "home": {
-          "count": 3,
-          "scored": 2,
+          "count": 4,
+          "scored": 3,
           "conceded": 3,
-          "bttsRate": 67,
-          "over25Rate": 67,
-          "over35Rate": 33,
+          "bttsRate": 50,
+          "over25Rate": 50,
+          "over35Rate": 25,
           "goalsForAvg": 1,
-          "goalsAgainstAvg": 2.33,
-          "wins": 0,
+          "goalsAgainstAvg": 1.75,
+          "wins": 1,
           "draws": 0,
           "losses": 3,
-          "winRate": 0,
+          "winRate": 25,
           "drawRate": 0,
-          "lossRate": 100,
-          "pointsPerGame": 0,
+          "lossRate": 75,
+          "pointsPerGame": 0.75,
           "recent": [
             "L",
             "L",
-            "L"
+            "L",
+            "W"
           ]
         },
         "away": {
-          "count": 2,
+          "count": 3,
           "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 100,
-          "over35Rate": 50,
-          "goalsForAvg": 3.5,
-          "goalsAgainstAvg": 0.5,
+          "conceded": 2,
+          "bttsRate": 33,
+          "over25Rate": 67,
+          "over35Rate": 33,
+          "goalsForAvg": 2.33,
+          "goalsAgainstAvg": 0.67,
           "wins": 2,
           "draws": 0,
-          "losses": 0,
-          "winRate": 100,
+          "losses": 1,
+          "winRate": 67,
           "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 3,
+          "lossRate": 33,
+          "pointsPerGame": 2,
           "recent": [
             "W",
-            "W"
+            "W",
+            "L"
           ]
         }
       },
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-09-12",
+          "home": "Konyaspor",
+          "away": "Trabzonspor",
+          "score": "1-0"
+        }
+      ]
     },
     {
       "no": 6,
@@ -680,14 +707,14 @@
       "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 33.3,
+        "1": 33.2,
         "2": 45.5,
-        "X": 21.2
+        "X": 21.3
       },
       "archive_probabilities": {
-        "1": 42.8,
+        "1": 42.7,
         "2": 33.7,
-        "X": 23.5
+        "X": 23.6
       },
       "public_distribution": {
         "1": 11,
@@ -697,11 +724,11 @@
       "probability_basis": "archive_poisson_plus_public_distribution",
       "confidence": 65,
       "data_completeness": 67,
-      "probability_gap": 12.2,
+      "probability_gap": 12.3,
       "agreement_score": 60.7,
       "poisson": {
-        "home_lambda": 1.69,
-        "away_lambda": 1.47,
+        "home_lambda": 1.67,
+        "away_lambda": 1.46,
         "samples": 7,
         "reliability": 0.4375
       },
@@ -1160,25 +1187,26 @@
       "poisson": null,
       "form": {
         "home": {
-          "count": 3,
-          "scored": 3,
-          "conceded": 1,
-          "bttsRate": 33,
-          "over25Rate": 33,
-          "over35Rate": 0,
-          "goalsForAvg": 1.33,
-          "goalsAgainstAvg": 0.33,
+          "count": 4,
+          "scored": 4,
+          "conceded": 2,
+          "bttsRate": 50,
+          "over25Rate": 50,
+          "over35Rate": 25,
+          "goalsForAvg": 1.5,
+          "goalsAgainstAvg": 0.75,
           "wins": 3,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "winRate": 100,
-          "drawRate": 0,
+          "winRate": 75,
+          "drawRate": 25,
           "lossRate": 0,
-          "pointsPerGame": 3,
+          "pointsPerGame": 2.5,
           "recent": [
             "W",
             "W",
-            "W"
+            "W",
+            "D"
           ]
         },
         "away": {
