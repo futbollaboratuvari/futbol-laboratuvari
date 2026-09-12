@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-12 / 2026-09-13
 Kaynak: fixtures.json
-Ham mac: 766
-Aktif mac: 288
+Ham mac: 609
+Aktif mac: 286
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 478
-Bugun: 219
+Biten mac: 4
+Bultenden dusurulen mac: 323
+Bugun: 217
 Yarin: 69
 
 ## Baslamamis Maclar
-- 2026-09-12 17:15 | İspanya LaLiga | Osasuna - Espanyol | scheduled | -
-- 2026-09-12 17:15 | İspanya 2.Lig | Cadiz - Las Palmas | scheduled | -
 - 2026-09-12 17:30 | Hollanda Eredivisie | Twente - Den Haag | scheduled | -
 - 2026-09-12 17:30 | Portekiz Premier Lig | Nacional Madei - Alverca | scheduled | -
 - 2026-09-12 17:30 | Hollanda Eerste Divisie | Roda - Vitesse | scheduled | -
@@ -304,4 +302,7 @@ Yarin: 69
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-12 15:00 | İspanya LaLiga | Santander - Alaves | finished | 2-1
+- 2026-09-12 15:00 | İspanya 2.Lig | Fc Andorra - Real Sociedad I | finished | 1-3
+- 2026-09-12 15:00 | Fransa Ligue 2 | Sochaux - Nantes | finished | 1-0
+- 2026-09-12 15:00 | Fransa Ligue 2 | Guingamp - Annecy | finished | 2-1

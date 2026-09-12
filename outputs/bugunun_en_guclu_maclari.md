@@ -4,17 +4,17 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-12T14:10:37.984Z
+- Güncelleme: 2026-09-12T14:24:00.026Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Santander VS Alaves | İspanya LaLiga | 15:00 | 2.5 Alt | 1.93 | 60 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
-| Fc Andorra VS Real Sociedad I | İspanya 2.Lig | 15:00 | 2.5 Alt | 2.00 | 62 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
-| Sochaux VS Nantes | Fransa Ligue 2 | 15:00 | 2.5 Üst | 1.72 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
-| Guingamp VS Annecy | Fransa Ligue 2 | 15:00 | 2.5 Üst | 1.68 | 70 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
+| Santander VS Alaves | İspanya LaLiga | 15:00 | 2.5 Alt | 1.93 | 60 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | finished |
+| Fc Andorra VS Real Sociedad I | İspanya 2.Lig | 15:00 | MS 1 | 1.43 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | finished |
+| Sochaux VS Nantes | Fransa Ligue 2 | 15:00 | 2.5 Üst | 1.72 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | finished |
+| Guingamp VS Annecy | Fransa Ligue 2 | 15:00 | 2.5 Üst | 1.68 | 70 | Orta risk kupon adayı | Değerli | Orta | Orta | finished |
 | Saarbrucken VS Ingolstadt | Almanya 3. Lig | 15:00 | MS 1 | 1.94 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Verl 1924 VS Sv Meppen | Almanya 3. Lig | 15:00 | MS 1 | 1.99 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Havelse VS Sonnenhof Gross | Almanya 3. Lig | 15:00 | MS 2 | 1.90 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -178,9 +178,9 @@
 | Chelsea VS Hull | İngiltere Premier Lig | 17:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Waasland Bever VS St. Truidense | Belçika Pro Lig | 17:00 | MS 2 | 2.05 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Blackburn VS Millwall | İngiltere Championship | 17:00 | 2.5 Üst | 1.73 | 82 | Ana kupon adayı | Değerli | Orta | Düşük | scheduled |
-| Prest VS Lincoln | İngiltere Championship | 17:00 | 2.5 Üst | 1.64 | 83 | Ana kupon adayı | Değerli | Orta | Düşük | scheduled |
+| Prest VS Lincoln | İngiltere Championship | 17:00 | 2.5 Üst | 1.64 | 82 | Ana kupon adayı | Değerli | Orta | Düşük | scheduled |
 | Swansea VS Burnley | İngiltere Championship | 17:00 | 2.5 Alt | 1.72 | 76 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
-| Watford VS Stoke | İngiltere Championship | 17:00 | 2.5 Üst | 1.71 | 75 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
+| Watford VS Stoke | İngiltere Championship | 17:00 | 2.5 Üst | 1.71 | 74 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Southam VS Bristol City | İngiltere Championship | 17:00 | MS 1 | 1.51 | 65 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Charlton VS Portsmouth | İngiltere Championship | 17:00 | 2.5 Üst | 1.96 | 76 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
 | Middlesbrough VS Norwich | İngiltere Championship | 17:00 | MS 1 | 1.68 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
@@ -223,13 +223,13 @@
 | Partizan Tiran VS Dinamo Tirana | Arnavutluk Süperlig | 17:00 | MS 2 | 2.19 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Annagh United VS Hw Welders | Kuzey İrlanda Championship | 17:00 | MS 2 | 1.82 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Ards Fc VS Rathfriland Ran | Kuzey İrlanda Championship | 17:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Solihull Moors VS Aldershot | İngiltere Ulusal Lig | 17:00 | 2.5 Alt | 2.07 | 66 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
-| Halifax VS Hornchurch | İngiltere Ulusal Lig | 17:00 | 2.5 Alt | 1.80 | 68 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
+| Solihull Moors VS Aldershot | İngiltere Ulusal Lig | 17:00 | 2.5 Alt | 2.07 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
+| Halifax VS Hornchurch | İngiltere Ulusal Lig | 17:00 | 2.5 Alt | 1.80 | 67 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Sutton United VS Scunthorpe | İngiltere Ulusal Lig | 17:00 | MS 1 | 2.00 | 67 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
 | Forest Green VS Gateshead | İngiltere Ulusal Lig | 17:00 | MS 1 | 1.31 | 69 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
-| Woking VS Altrincham | İngiltere Ulusal Lig | 17:00 | 2.5 Üst | 1.60 | 72 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
-| Eastleigh VS Boreham Wood | İngiltere Ulusal Lig | 17:00 | KG Var | 2.03 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Boston United VS Wealdstone | İngiltere Ulusal Lig | 17:00 | 2.5 Alt | 1.93 | 67 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
+| Woking VS Altrincham | İngiltere Ulusal Lig | 17:00 | 2.5 Üst | 1.60 | 73 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
+| Eastleigh VS Boreham Wood | İngiltere Ulusal Lig | 17:00 | KG Var | 2.03 | 76 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Boston United VS Wealdstone | İngiltere Ulusal Lig | 17:00 | 2.5 Alt | 1.93 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Yeovil VS Afc Fylde | İngiltere Ulusal Lig | 17:00 | MS 1 | 2.13 | 62 | Sadece izleme | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Varzim VS Vianense | Portekiz 3.Lig Grup A | 17:00 | MS 1 | 1.51 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Bruhl VS Schaffhausen | İsviçre 1.Lig Promotion | 17:00 | MS 1 | 1.63 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -333,7 +333,7 @@
 | Sporting Gijon VS Racing Santande | İspanya Gençler Onur Ligi Grup 1 | 17:00 | MS 1 | 1.59 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Rayo Alcobenda VS Mérida U19 | İspanya Gençler Onur Ligi Grup 5 | 17:00 | 2.5 Alt | 1.79 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Osasuna VS Espanyol | İspanya LaLiga | 17:15 | 2.5 Üst | 1.99 | 74 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
-| Cadiz VS Las Palmas | İspanya 2.Lig | 17:15 | 2.5 Alt | 1.58 | 70 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
+| Cadiz VS Las Palmas | İspanya 2.Lig | 17:15 | 2.5 Alt | 1.58 | 68 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Twente VS Den Haag | Hollanda Eredivisie | 17:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Nacional Madei VS Alverca | Portekiz Premier Lig | 17:30 | 2.5 Alt | 1.56 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Roda VS Vitesse | Hollanda Eerste Divisie | 17:30 | MS 1 | 1.91 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -435,8 +435,8 @@
 | Tottenham VS Everton | İngiltere Premier Lig | 19:30 | 2.5 Alt | 1.96 | 71 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
 | Athletic Bilba VS Elche | İspanya LaLiga | 19:30 | MS 1 | 1.25 | 64 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Köln VS Werder Bremen | Almanya Bundesliga | 19:30 | MS 1 | 1.83 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Granada VS Albacete | İspanya 2.Lig | 19:30 | 2.5 Alt | 1.65 | 70 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
-| Girona VS Castellon | İspanya 2.Lig | 19:30 | 2.5 Alt | 1.90 | 65 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
+| Granada VS Albacete | İspanya 2.Lig | 19:30 | MS 1 | 1.73 | 70 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
+| Girona VS Castellon | İspanya 2.Lig | 19:30 | 2.5 Alt | 1.90 | 62 | Sadece izleme | Değerli | Orta | Orta | scheduled |
 | Cukaricki VS Novi Pazar | Sırbistan Süper Lig | 19:30 | 2.5 Üst | 1.58 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Kolding If VS Fredericia | Danimarka 1.Lig | 19:30 | MS 2 | 1.66 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Colwyn Bay VS Gap Connahs Qua | Galler Premier Lig 1.Aşama | 19:30 | 2.5 Alt | 1.51 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -625,8 +625,8 @@
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Balboa VS Platense | 2.5 Alt | 1.49 | 84 | Ana kupon adayı | Değerli | Düşük | Düşük |
-| Prest VS Lincoln | 2.5 Üst | 1.64 | 83 | Ana kupon adayı | Değerli | Orta | Düşük |
 | Blackburn VS Millwall | 2.5 Üst | 1.73 | 82 | Ana kupon adayı | Değerli | Orta | Düşük |
+| Prest VS Lincoln | 2.5 Üst | 1.64 | 82 | Ana kupon adayı | Değerli | Orta | Düşük |
 | Cambridge VS Reading | 2.5 Üst | 1.71 | 79 | Orta risk kupon adayı | Değerli | Orta | Düşük |
 | Port Vale VS Exeter | 2.5 Alt | 1.58 | 79 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Shrewsbury VS Northampton | 2.5 Alt | 1.40 | 79 | Orta risk kupon adayı | Piyasa ile Uyumlu | Düşük | Düşük |
@@ -634,12 +634,12 @@
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Prest VS Lincoln + Blackburn VS Millwall | 2.5 Üst + 2.5 Üst | 2.84 | 83 | Ana kupon adayı | Normal Değer | Orta | Düşük |
+| Blackburn VS Millwall + Prest VS Lincoln | 2.5 Üst + 2.5 Üst | 2.84 | 82 | Ana kupon adayı | Normal Değer | Orta | Düşük |
 | Cambridge VS Reading + Santos VS Cruzeiro | 2.5 Üst + 2.5 Üst | 2.82 | 79 | Orta risk kupon adayı | Normal Değer | Orta | Düşük |
 | Newport County VS Fleetwood Town + Cambuur VS Nijmegen | 2.5 Üst + KG Var | 3.22 | 78 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Prest VS Lincoln + Blackburn VS Millwall + Cambridge VS Reading | 2.5 Üst + 2.5 Üst + 2.5 Üst | 4.85 | 81 | Ana kupon adayı | Normal Değer | Yüksek | Düşük |
+| Blackburn VS Millwall + Prest VS Lincoln + Cambridge VS Reading | 2.5 Üst + 2.5 Üst + 2.5 Üst | 4.85 | 81 | Ana kupon adayı | Normal Değer | Yüksek | Düşük |
 | Santos VS Cruzeiro + Newport County VS Fleetwood Town + Cambuur VS Nijmegen | 2.5 Üst + 2.5 Üst + KG Var | 5.31 | 78 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |

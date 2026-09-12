@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.09.2026 17:10:47
+Oluşturma: 12.09.2026 17:25:52
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1337
-- Kazanan tahmin: 81
-- Kaybeden tahmin: 82
+- Bekleyen tahmin: 1311
+- Kazanan tahmin: 90
+- Kaybeden tahmin: 99
 - Lig sayısı: 267
 - Seçenek sayısı: 6
 
@@ -22,15 +22,18 @@ Oluşturma: 12.09.2026 17:10:47
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 216, bekleyen 176, başarı %55, düz getiri %0, ağırlık 1
-- MS 2: toplam 232, bekleyen 213, başarı %53, düz getiri %0, ağırlık 1
-- 2.5 Alt: toplam 529, bekleyen 471, başarı %50, düz getiri %-18, ağırlık 1
-- MS 1: toplam 511, bekleyen 466, başarı %44, düz getiri %-22, ağırlık 1
-- MS X: toplam 5, bekleyen 4, başarı %0, düz getiri %-100, ağırlık 1
-- KG Var: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- 2.5 Üst: toplam 215, bekleyen 170, başarı %53, düz getiri %-3, ağırlık 1
+- 2.5 Alt: toplam 530, bekleyen 466, başarı %50, düz getiri %-18, ağırlık 1
+- MS X: toplam 5, bekleyen 3, başarı %50, düz getiri %61, ağırlık 1
+- MS 2: toplam 231, bekleyen 206, başarı %44, düz getiri %-17, ağırlık 1
+- MS 1: toplam 512, bekleyen 461, başarı %43, düz getiri %-24, ağırlık 1
+- KG Var: toplam 7, bekleyen 5, başarı %0, düz getiri %-100, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-12 | İspanya 2.Lig | Granada - Albacete | MS 1 | pending | 66/100
+- 2026-09-12 | Belarus 1.Lig | Slonim - Molodechno | 2.5 Alt | pending | 48/100
+- 2026-09-12 | İngiltere Premier Lig 2 | Arsenal U21 - Chelsea (B) | 2.5 Alt | pending | 49/100
 - 2026-09-12 | İspanya Gençler Onur Ligi Grup 3 | Huesca U18 - Atlético Monzón | MS 1 | pending | 52/100
 - 2026-09-12 | İspanya Gençler Onur Ligi Grup 3 | Girona U19 - Sant Andreu U18 | MS 1 | pending | 56/100
 - 2026-09-12 | Bulgaristan 1.Lig | Cska 1948 Sofi - Dunav 2010 | MS 1 | pending | 59/100
@@ -43,7 +46,4 @@ Oluşturma: 12.09.2026 17:10:47
 - 2026-09-12 | Slovakya 2.Lig | Inter Bratisla - Petrzalka | 2.5 Üst | pending | 54/100
 - 2026-09-12 | Galler FAW Championship Güney | Treowen Stars - Llantwit Major | MS 1 | pending | 59/100
 - 2026-09-12 | Türkiye 2.Lig Beyaz Grup | İnegöl Kafkas - Somaspor | MS 1 | pending | 55/100
-- 2026-09-12 | İngiltere Premier Lig | Crystal Palace - Ipswich | 2.5 Alt | pending | 61/100
-- 2026-09-12 | Türkiye 3.Lig 1.Grup | Düzcespor - Beykoz Anadolu | MS 1 | pending | 52/100
-- 2026-09-12 | Belarus 1.Lig | Slonim - Molodechno | MS 2 | pending | 47/100
 
