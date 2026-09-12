@@ -2,19 +2,15 @@
 
 Gunler: 2026-09-12 / 2026-09-13
 Kaynak: fixtures.json
-Ham mac: 716
-Aktif mac: 709
+Ham mac: 715
+Aktif mac: 705
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 640
+Bultenden dusurulen mac: 10
+Bugun: 636
 Yarin: 69
 
 ## Baslamamis Maclar
-- 2026-09-12 03:00 | Brezilya Serie A | Coritiba - Atletico Pr | scheduled | -
-- 2026-09-12 03:00 | Peru Premier Lig Clausura | Cusco Fc - Melgar | scheduled | -
-- 2026-09-12 03:00 | Bolivya Premier Lig | Real Potosi - Oriente Petrole | scheduled | -
-- 2026-09-12 03:00 | Ekvador Pro Lig Serie B Küme Düşme Grubu | El Nacional - 22 De Julio | scheduled | -
 - 2026-09-12 03:30 | Arjantin Premier Lig 2. Aşama | Boca Juniors - Corboda Santiag | scheduled | -
 - 2026-09-12 04:00 | Meksika Liga MX Apertura | Necaxa - Puebla | scheduled | -
 - 2026-09-12 04:00 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir - Tristan | scheduled | -
