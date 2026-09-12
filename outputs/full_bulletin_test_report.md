@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 158
+- Scheduled match count: 85
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-12 / 2026-09-13 23:59
 
-- 2026-09-12 20:30 | Wolfsberger - Rapid Wien | scheduled
-- 2026-09-12 20:30 | Cesena - Cremonese | scheduled
-- 2026-09-12 20:30 | Al Salt - Al Wihdat Amman | scheduled
-- 2026-09-12 20:45 | Estudiantes Lp - Platense | scheduled
-- 2026-09-12 20:45 | Rivadavia - Aldosivi | scheduled
-- 2026-09-12 20:45 | Cska Moskova - Rubin Kazan | scheduled
-- 2026-09-12 21:00 | Union (K) - San Luis (K) | scheduled
-- 2026-09-12 21:00 | Armenio - Sportivo | scheduled
-- 2026-09-12 21:00 | Arsenal Sarand - Urquiza | scheduled
-- 2026-09-12 21:00 | Def Unidos - Dock Sud | scheduled
+- 2026-09-12 22:30 | Academico Vise - Guimaraes | scheduled
+- 2026-09-12 22:30 | Montevideo Wan - Nacional Df | scheduled
+- 2026-09-12 23:00 | Quilmes - San Martin Sj | scheduled
+- 2026-09-12 23:00 | Chapecoense - Internacional | scheduled
+- 2026-09-12 23:00 | Botafogo Pb - Floresta | scheduled
+- 2026-09-12 23:00 | Cs Constantine - Aso Chlef | scheduled
+- 2026-09-12 23:00 | Supra Du Quebe - Hfx Wanderers | scheduled
+- 2026-09-12 23:00 | Academia Anzoa - Metropolitanos | scheduled
+- 2026-09-12 23:15 | Deportivo Moqu - Sporting Crista | scheduled
+- 2026-09-12 23:30 | Atletico Tucum - River Plate | scheduled

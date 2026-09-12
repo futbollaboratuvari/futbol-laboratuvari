@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.09.2026 21:21:38
+Oluşturma: 12.09.2026 22:24:01
 
 ## Özet
 
@@ -23,14 +23,15 @@ Oluşturma: 12.09.2026 21:21:38
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Alt: toplam 532, bekleyen 446, başarı %55, düz getiri %-9, ağırlık 1
-- 2.5 Üst: toplam 219, bekleyen 152, başarı %52, düz getiri %-6, ağırlık 1
+- 2.5 Üst: toplam 220, bekleyen 153, başarı %52, düz getiri %-6, ağırlık 1
 - MS X: toplam 5, bekleyen 3, başarı %50, düz getiri %61, ağırlık 1
-- MS 1: toplam 515, bekleyen 450, başarı %45, düz getiri %-23, ağırlık 1
+- MS 1: toplam 514, bekleyen 449, başarı %45, düz getiri %-23, ağırlık 1
 - MS 2: toplam 221, bekleyen 186, başarı %37, düz getiri %-27, ağırlık 1
 - KG Var: toplam 8, bekleyen 5, başarı %33, düz getiri %-32, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-12 | Meksika Ascenso MX Apertura | Tlaxcala - Cds Tampico Mad | 2.5 Üst | pending | 54/100
 - 2026-09-12 | Cezayir 1.Lig | Cs Constantine - Aso Chlef | MS 1 | pending | 56/100
 - 2026-09-12 | İspanya Tercera Ligi Grup 13 | Bala Azul - Mazarron Fc | MS 2 | pending | 42/100
 - 2026-09-12 | Fransa Ligue 1 | Le Havre - Angers | 2.5 Üst | pending | 60/100
@@ -45,5 +46,4 @@ Oluşturma: 12.09.2026 21:21:38
 - 2026-09-12 | İngiltere Ulusal Lig | Sutton United - Scunthorpe | 2.5 Alt | pending | 61/100
 - 2026-09-12 | İngiltere Championship | Swansea - Burnley | 2.5 Üst | pending | 72/100
 - 2026-09-12 | İngiltere Championship | Charlton - Portsmouth | 2.5 Alt | pending | 71/100
-- 2026-09-12 | İngiltere 1.Lig | Afc Wimbledon - Doncaster | 2.5 Alt | pending | 72/100
 

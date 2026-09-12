@@ -1,66 +1,58 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-12T18:21:21.649102+00:00
+Tarih: 2026-09-12T19:23:14.810774+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 67
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 66
+- Kac mac bulundu: 95
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 95
 - Ham veri havuzu toplam mac sayisi: 14003
 - Hedef tarih: 12.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- Almanya 2. Bundesliga
-- Andorra 1.Lig
-- Arjantin Kadınlar Primera A 2. Aşama
+- ABD MLS
+- ABD MLS Next Pro
+- ABD USL
+- ABD USL Lig 1
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Prim B Metro
 - Arjantin Primera C
 - Arjantin Ulusal Primera Lig
-- Belçika Pro Lig
+- Avustralya NPL Kuzey YGG Büyük Final
 - Bolivya Premier Lig
-- Bosna-Hersek Premier Lig
 - Brezilya Serie A
 - Brezilya Serie C Grup B
 - CAF Konfederasyon Kupası 1.Ön Eleme Turu
-- CAF Şampiyonlar Ligi 1.Ön Eleme Turu
 - Cezayir 1.Lig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Finlandiya Ykkönen Yükselme Turu
-- Fransa Ligue 1
-- Hollanda Eredivisie
+- Guatemala Ulusal Lig Apertura
+- Honduras Ulusal Lig Apertura
 - Irak Premier Lig
 - Kanada Premier Lig
+- Kolombiya Primera A Clausura
 - Kolombiya Primera B Clausura
-- Malta Premier Lig Açılış
-- Norveç 3.Lig Grup 6
+- Kosta Rika Premier Lig Apertura
+- Meksika Ascenso MX Apertura
+- Meksika Kadınlar Liga MX Apertura
+- Meksika Liga MX Apertura
+- Peru Premier Lig Clausura
 - Portekiz Premier Lig
-- Romanya 1.Lig
-- Slovakya Süper Lig
-- Sırbistan Süper Lig
 - Umman Profesyonel Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
-- İngiltere Premier Lig
-- İrlanda 1.Lig
 - İspanya 2. Lig RFEF Grup 2
-- İspanya 2. Lig RFEF Grup 4
-- İspanya 2.Lig
-- İspanya LaLiga
-- İspanya Primera Lig RFEF Grup 2
-- İspanya Tercera Ligi Grup 13
 - İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norrland Düşme Grubu
 - İsveç 2.Lig Södra Götaland
 - İsveç 2.Lig Vastra Götaland
-- İtalya Serie A
-- İtalya Serie A Kadınlar Kupası Yarı Final
-- İtalya Serie C Grup B
 - İzlanda 2.Lig
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -117,8 +109,8 @@ Tarih: 2026-09-12T18:21:21.649102+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 73
-- Acilan detay: 73
+- Denenen Tumu alani: 47
+- Acilan detay: 47
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -131,26 +123,26 @@ Tarih: 2026-09-12T18:21:21.649102+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 12.09.2026 | 22:00 | İngiltere Premier Lig | Sunderland | Arsenal | 15136 | 5 |
-| 12.09.2026 | 22:00 | İspanya LaLiga | Real Madrid | Vallecano | 21793 | 4 |
-| 12.09.2026 | 21:45 | İtalya Serie A | Atalanta | Cagliari | 26074 | 5 |
-| 12.09.2026 | 21:45 | Fransa Ligue 1 | Auxerre | Nice | 28038 | 5 |
-| 12.09.2026 | 21:45 | Fransa Ligue 1 | Paris Fc | Lyon | 28212 | 5 |
-| 12.09.2026 | 21:45 | Fransa Ligue 1 | Lorient | Toulouse | 28154 | 5 |
-| 12.09.2026 | 21:45 | Fransa Ligue 1 | Le Havre | Angers | 28096 | 5 |
-| 12.09.2026 | 22:00 | Hollanda Eredivisie | Cambuur | Nijmegen | 31005 | 5 |
 | 12.09.2026 | 22:30 | Portekiz Premier Lig | Academico Vise | Guimaraes | 31600 | 5 |
-| 12.09.2026 | 21:45 | Belçika Pro Lig | Union St.G | Lommel | 28955 | 5 |
-| 12.09.2026 | 21:45 | Belçika Pro Lig | Oh Leuven | Cercle Brugge | 28897 | 5 |
-| 12.09.2026 | 22:00 | İspanya 2.Lig | Cordoba | Almeria | 21538 | 5 |
-| 12.09.2026 | 21:30 | Almanya 2. Bundesliga | St Pauli | Wolfsburg | 24412 | 5 |
-| 12.09.2026 | 21:30 | Sırbistan Süper Lig | Radnicki 1923 | Mladost Lucani | 51514 | 5 |
-| 12.09.2026 | 22:00 | Brezilya Serie A | Atletico Mg | Fluminense | 34705 | 5 |
-| 12.09.2026 | 22:00 | Brezilya Serie A | Gremio | Vasco Da Gama | 34763 | 5 |
+| 13.09.2026 | 04:30 | ABD MLS | Salt Lake | New York City | 46435 | 5 |
+| 13.09.2026 | 03:30 | ABD MLS | Kansas | Los Angeles Fc | 46261 | 5 |
+| 13.09.2026 | 03:30 | ABD MLS | Dallas | Portland | 46204 | 5 |
+| 13.09.2026 | 05:30 | ABD MLS | San Jose | Houston | 46683 | 5 |
+| 13.09.2026 | 02:30 | ABD MLS | Columbus | New York | 45915 | 5 |
+| 13.09.2026 | 02:30 | ABD MLS | Cincinnati | Charlotte | 46030 | 5 |
+| 13.09.2026 | 02:30 | ABD MLS | Orlando City | Toronto | 46146 | 5 |
+| 13.09.2026 | 04:30 | ABD MLS | Colorado | Montreal | 46377 | 5 |
+| 13.09.2026 | 02:30 | ABD MLS | Inter Miami | Nashville Sc | 46088 | 5 |
+| 13.09.2026 | 03:30 | ABD MLS | St. Louis City | Minnesota Utd | 46319 | 5 |
+| 13.09.2026 | 02:30 | ABD MLS | Dc United | Atlanta Utd | 45973 | 5 |
+| 13.09.2026 | 05:30 | ABD MLS | Los Angeles | Seattle | 46625 | 5 |
 | 12.09.2026 | 23:00 | Brezilya Serie A | Chapecoense | Internacional | 34836 | 5 |
+| 13.09.2026 | 02:30 | Brezilya Serie A | Botafogo | Bragantino | 34967 | 5 |
+| 13.09.2026 | 03:00 | Brezilya Serie A | Santos | Cruzeiro | 35025 | 5 |
+| 13.09.2026 | 00:30 | Brezilya Serie A | Palmeiras | Sao Paulo | 34894 | 5 |
 | 12.09.2026 | 23:30 | Arjantin Premier Lig 2. Aşama | Atletico Tucum | River Plate | 33799 | 5 |
-| 12.09.2026 | 22:00 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Mc Alger (0) | (0) Nigelec | 01058 | 5 |
-| 12.09.2026 | 22:00 | İtalya Serie C Grup B | Gubbio | Latina | 26132 | 5 |
+| 13.09.2026 | 02:00 | Arjantin Premier Lig 2. Aşama | Talleres | Union Santa Fe | 33857 | 5 |
+| 13.09.2026 | 04:10 | Meksika Liga MX Apertura | Monterrey | Tigres Uanl | 35653 | 5 |
 
 ## Sonuc
 
