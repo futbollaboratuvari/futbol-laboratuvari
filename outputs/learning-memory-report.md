@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.09.2026 14:18:53
+Oluşturma: 12.09.2026 15:54:18
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1333
-- Kazanan tahmin: 84
-- Kaybeden tahmin: 83
-- Lig sayısı: 266
+- Bekleyen tahmin: 1337
+- Kazanan tahmin: 81
+- Kaybeden tahmin: 82
+- Lig sayısı: 267
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,28 +22,28 @@ Oluşturma: 12.09.2026 14:18:53
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 219, bekleyen 178, başarı %56, düz getiri %2, ağırlık 1
-- MS 2: toplam 231, bekleyen 212, başarı %53, düz getiri %0, ağırlık 1
-- 2.5 Alt: toplam 528, bekleyen 470, başarı %50, düz getiri %-18, ağırlık 1
-- MS 1: toplam 510, bekleyen 462, başarı %46, düz getiri %-19, ağırlık 1
+- 2.5 Üst: toplam 216, bekleyen 176, başarı %55, düz getiri %0, ağırlık 1
+- MS 2: toplam 232, bekleyen 213, başarı %53, düz getiri %0, ağırlık 1
+- 2.5 Alt: toplam 529, bekleyen 471, başarı %50, düz getiri %-18, ağırlık 1
+- MS 1: toplam 511, bekleyen 466, başarı %44, düz getiri %-22, ağırlık 1
 - MS X: toplam 5, bekleyen 4, başarı %0, düz getiri %-100, ağırlık 1
 - KG Var: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-12 | Norveç 3.Lig Grup 6 | Oppsal - Fram Larvik | 2.5 Alt | pending | 49/100
-- 2026-09-12 | Kosta Rika Premier Lig Apertura | Liberia - Herediano | 2.5 Alt | pending | 54/100
-- 2026-09-12 | Arjantin Ulusal Primera Lig | Quilmes - San Martin Sj | MS 1 | pending | 52/100
-- 2026-09-12 | Ekvador Pro Lig | Manta - Aucas | MS 2 | pending | 61/100
-- 2026-09-12 | Romanya 1.Lig | Rapid Bükreş - Voluntari | 2.5 Alt | pending | 50/100
-- 2026-09-12 | Arjantin Prim B Metro | Def Unidos - Dock Sud | 2.5 Alt | pending | 56/100
-- 2026-09-12 | Arjantin Prim B Metro | Armenio - Sportivo | MS X | pending | 42/100
-- 2026-09-12 | İspanya Gençler Onur Ligi Grup 4 | Marbella U19 - Cordoba U19 | 2.5 Alt | pending | 49/100
-- 2026-09-12 | İspanya Gençler Onur Ligi Grup 5 | Union Adarve U - Rayo Vallecano | 2.5 Alt | pending | 49/100
-- 2026-09-12 | İspanya Primera Lig RFEF Grup 2 | Teruel - Real Jaen | 2.5 Alt | pending | 57/100
-- 2026-09-12 | İspanya Gençler Onur Ligi Grup 4 | Almeria U18 - Cadiz U19 | 2.5 Üst | pending | 53/100
-- 2026-09-12 | İspanya Gençler Onur Ligi Grup 5 | Leganes U19 - Las Rozas U18 | MS 1 | pending | 51/100
-- 2026-09-12 | İspanya Gençler Onur Ligi Grup 1 | Sporting Gijon - Racing Santande | MS 1 | pending | 53/100
-- 2026-09-12 | İngiltere Non League Premier Kuzey | Lancaster City - Curzon Ashton | 2.5 Alt | pending | 51/100
-- 2026-09-12 | İngiltere Premier Lig | Crystal Palace - Ipswich | MS 1 | pending | 62/100
+- 2026-09-12 | İspanya Gençler Onur Ligi Grup 3 | Huesca U18 - Atlético Monzón | MS 1 | pending | 52/100
+- 2026-09-12 | İspanya Gençler Onur Ligi Grup 3 | Girona U19 - Sant Andreu U18 | MS 1 | pending | 56/100
+- 2026-09-12 | Bulgaristan 1.Lig | Cska 1948 Sofi - Dunav 2010 | MS 1 | pending | 59/100
+- 2026-09-12 | CAF Şampiyonlar Ligi 1.Ön Eleme Turu | Rahimo (1) - (4) Maghreb Fes | 2.5 Üst | pending | 53/100
+- 2026-09-12 | Slovenya 2.SNL | Krsko - Krka Novo Mesto | MS 2 | pending | 50/100
+- 2026-09-12 | İspanya Gençler Onur Ligi Grup 5 | Rayo Alcobenda - Mérida U19 | 2.5 Alt | pending | 50/100
+- 2026-09-12 | İngiltere Ulusal Lig N / S Güney | Horsham - Chesham United | 2.5 Alt | pending | 49/100
+- 2026-09-12 | İngiltere Ulusal Lig N / S Kuzey | Morecambe - Brackley Town | MS 1 | pending | 53/100
+- 2026-09-12 | Kuzey İrlanda Premiership | Crusaders - Limavady United | MS 1 | pending | 49/100
+- 2026-09-12 | Slovakya 2.Lig | Inter Bratisla - Petrzalka | 2.5 Üst | pending | 54/100
+- 2026-09-12 | Galler FAW Championship Güney | Treowen Stars - Llantwit Major | MS 1 | pending | 59/100
+- 2026-09-12 | Türkiye 2.Lig Beyaz Grup | İnegöl Kafkas - Somaspor | MS 1 | pending | 55/100
+- 2026-09-12 | İngiltere Premier Lig | Crystal Palace - Ipswich | 2.5 Alt | pending | 61/100
+- 2026-09-12 | Türkiye 3.Lig 1.Grup | Düzcespor - Beykoz Anadolu | MS 1 | pending | 52/100
+- 2026-09-12 | Belarus 1.Lig | Slonim - Molodechno | MS 2 | pending | 47/100
 

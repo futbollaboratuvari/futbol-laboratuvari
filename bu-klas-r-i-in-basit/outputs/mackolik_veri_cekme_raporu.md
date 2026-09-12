@@ -1,31 +1,23 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-12T11:12:22.666183+00:00
+Tarih: 2026-09-12T12:54:02.589003+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 643
-- Kac mac kaydedildi: 11
-- Kac mac zaten vardi: 632
-- Ham veri havuzu toplam mac sayisi: 13988
+- Kac mac bulundu: 494
+- Kac mac kaydedildi: 10
+- Kac mac zaten vardi: 484
+- Ham veri havuzu toplam mac sayisi: 13998
 - Hedef tarih: 12.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD MLS Next Pro
-- ABD USL
-- ABD USL Lig 1
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bundesliga
-- Almanya Bölgesel Lig Batı
-- Almanya Bölgesel Lig Güney Batı
 - Almanya Bölgesel Lig Kuzey
-- Almanya Bölgesel Lig Kuzey Doğu
-- Almanya Kadınlar Bundesliga
 - Andorra 1.Lig
 - Arjantin Kadınlar Primera A 2. Aşama
 - Arjantin Premier Lig 2. Aşama
@@ -33,7 +25,6 @@ Tarih: 2026-09-12T11:12:22.666183+00:00
 - Arjantin Primera C
 - Arjantin Ulusal Primera Lig
 - Arnavutluk Süperlig
-- Avustralya NPL Kuzey YGG Büyük Final
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
@@ -54,8 +45,6 @@ Tarih: 2026-09-12T11:12:22.666183+00:00
 - Danimarka 1.Lig
 - Ekvador Pro Lig
 - Ekvador Pro Lig Serie B Şampiyonluk Grubu
-- El Salvador Primera Lig Apertura
-- Endonezya Süper Lig
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga Küme Düşme Grubu
 - Finlandiya Veikkausliiga Şampiyonluk Grubu
@@ -65,17 +54,14 @@ Tarih: 2026-09-12T11:12:22.666183+00:00
 - Fransa Kadınlar 1.Lig
 - Fransa Ligue 1
 - Fransa Ligue 2
-- Fransa Ligue 3
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika 1.Lig
 - Güney Afrika PSL
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Tweede Divisie
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Irak Premier Lig
@@ -84,24 +70,17 @@ Tarih: 2026-09-12T11:12:22.666183+00:00
 - Kanada Premier Lig
 - Katar Yıldızlar Ligi
 - Kazakistan Premier Lig
-- Kolombiya Primera A Clausura
 - Kolombiya Primera B Clausura
-- Kosta Rika Premier Lig Apertura
 - Kuzey Makedonya 1.Lig
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
-- Litvanya 1.Lig
 - Malezya Süper Lig
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Kadınlar Liga MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Nijerya NPFL
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
-- Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 3
@@ -121,7 +100,6 @@ Tarih: 2026-09-12T11:12:22.666183+00:00
 - Romanya 1.Lig
 - Ruanda Ulusal Futbol Ligi
 - Rusya Premier Lig
-- Singapur Premier Lig
 - Slovakya 2.Lig
 - Slovakya Süper Lig
 - Slovenya 1.SNL
@@ -129,8 +107,6 @@ Tarih: 2026-09-12T11:12:22.666183+00:00
 - Suudi Arabistan Pro Lig
 - Sırbistan Süper Lig
 - Tanzanya Kuu Bara Ligi
-- Tayland 1.Lig
-- Tayland 2.Lig
 - Tunus 1.Lig
 - Türkiye 2.Lig Beyaz Grup
 - Türkiye 2.Lig Kırmızı Grup
@@ -138,22 +114,17 @@ Tarih: 2026-09-12T11:12:22.666183+00:00
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Ukrayna Premier Lig
+- Umman Profesyonel Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
-- Vietnam V-Lig 1
 - Yunanistan Süper Lig
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
-- Çin Halk Cumhuriyeti 1.Lig
-- Çin Halk Cumhuriyeti 2.Lig Küme Düşme Grubu
-- Çin Halk Cumhuriyeti 2.Lig Yükselme Grubu
-- Çin Halk Cumhuriyeti Süper Lig
 - Ürdün Premier Lig
 - İngiltere 1.Lig
 - İngiltere 2.Lig
 - İngiltere Championship
 - İngiltere FA Trophy 2. Eleme Turu
-- İngiltere Kadınlar Premier Lig
 - İngiltere Non League Premier Güney
 - İngiltere Non League Premier Güney Merkez
 - İngiltere Non League Premier Isthmian
@@ -187,9 +158,7 @@ Tarih: 2026-09-12T11:12:22.666183+00:00
 - İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norra Svealand
 - İsveç 2.Lig Norrland Düşme Grubu
-- İsveç 2.Lig Norrland Yükselme Grubu
 - İsveç 2.Lig Södra Götaland
-- İsveç 2.Lig Södra Svealand
 - İsveç 2.Lig Vastra Götaland
 - İsveç Allsvenskan
 - İsveç Kadınlar Damallsvenskan
@@ -273,26 +242,26 @@ Tarih: 2026-09-12T11:12:22.666183+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 12.09.2026 | 20:00 | Türkiye Süper Lig | Alanyaspor | Göztepe | 03594 | 5 |
 | 12.09.2026 | 17:00 | Türkiye Süper Lig | Samsunspor | Çorum | 03593 | 5 |
 | 12.09.2026 | 20:00 | Türkiye Süper Lig | Konyaspor | Trabzonspor | 05027 | 5 |
+| 12.09.2026 | 20:00 | Türkiye Süper Lig | Alanyaspor | Göztepe | 03594 | 5 |
 | 12.09.2026 | 17:00 | Türkiye Süper Lig | Eyüpspor | Rizespor | 03542 | 5 |
 | 12.09.2026 | 20:00 | Türkiye TFF 1. Lig | Ümraniyespor | Antalyaspor | 50920 | 5 |
 | 12.09.2026 | 20:00 | Türkiye TFF 1. Lig | Bodrum Fk | Batman Petrol | 50902 | 5 |
 | 12.09.2026 | 17:00 | Türkiye TFF 1. Lig | Van Spor Fk | A. Keçiörengücü | 50885 | 5 |
 | 12.09.2026 | 17:00 | Türkiye TFF 1. Lig | Boluspor | Pendikspor | 50868 | 5 |
-| 12.09.2026 | 17:00 | İngiltere Premier Lig | Liverpool | Fulham | 11907 | 5 |
 | 12.09.2026 | 17:00 | İngiltere Premier Lig | Aston Villa | Nottingham F | 08769 | 5 |
+| 12.09.2026 | 17:00 | İngiltere Premier Lig | Liverpool | Fulham | 11907 | 5 |
 | 12.09.2026 | 22:00 | İngiltere Premier Lig | Sunderland | Arsenal | 15136 | 5 |
 | 12.09.2026 | 17:00 | İngiltere Premier Lig | Crystal Palace | Ipswich | 10960 | 5 |
 | 12.09.2026 | 17:00 | İngiltere Premier Lig | Bournemouth | Brentford | 09921 | 5 |
 | 12.09.2026 | 17:00 | İngiltere Premier Lig | Chelsea | Hull | 53361 | 5 |
 | 12.09.2026 | 19:30 | İngiltere Premier Lig | Tottenham | Everton | 14980 | 5 |
 | 12.09.2026 | 17:15 | İspanya LaLiga | Osasuna | Espanyol | 19130 | 5 |
-| 12.09.2026 | 22:00 | İspanya LaLiga | Real Madrid | Vallecano | 21793 | 4 |
 | 12.09.2026 | 19:30 | İspanya LaLiga | Athletic Bilba | Elche | 20788 | 5 |
-| 12.09.2026 | 15:00 | İspanya LaLiga | Santander | Alaves | 18176 | 5 |
+| 12.09.2026 | 22:00 | İspanya LaLiga | Real Madrid | Vallecano | 21793 | 4 |
 | 12.09.2026 | 16:00 | İtalya Serie A | Genoa | Frosinone | 25519 | 5 |
+| 12.09.2026 | 21:45 | İtalya Serie A | Atalanta | Cagliari | 26074 | 5 |
 
 ## Sonuc
 
