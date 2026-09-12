@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T01:37:55.619Z",
+  "generated_at": "2026-09-12T04:52:26.580Z",
   "date": "2026-09-12",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -48,7 +48,7 @@
       "estimated_probability": 40.9,
       "market_probability": 40.9,
       "edge_percent": 0,
-      "data_completeness": 35,
+      "data_completeness": 38,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Yüksek",
       "status": "won",
@@ -137,6 +137,33 @@
       "market_group": "goals",
       "market_group_label": "Gol Marketleri",
       "finalized_at": "2026-09-12T01:37:55.363Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-12|arjantin prim b metro|ituzaingo club comunicaci|2 5 ust|01 00",
+      "date": "2026-09-12",
+      "time": "01:00",
+      "title": "Ituzaingo - Club Comunicaci",
+      "match": "Ituzaingo - Club Comunicaci",
+      "market": "2.5 Üst",
+      "prediction": "2.5 Üst",
+      "odds": "2.16",
+      "score": "2-2",
+      "result_score": "2-2",
+      "confidence": "57%",
+      "confidence_score": "57%",
+      "model_score": 57,
+      "estimated_probability": 49.1,
+      "market_probability": 38.1,
+      "edge_percent": 11,
+      "data_completeness": 41,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-12T04:52:26.153Z",
       "source": "Robot ham veri havuzu"
     },
     {
@@ -786,47 +813,20 @@
       "market_group_label": "Maç Sonucu",
       "finalized_at": "2026-09-11T20:42:04.773Z",
       "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-11|meksika ascenso mx apertura|cruz azul hida piratas|2 5 alt|21 00",
-      "date": "2026-09-11",
-      "time": "21:00",
-      "title": "Cruz Azul Hida - Piratas",
-      "match": "Cruz Azul Hida - Piratas",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "odds": "1.79",
-      "score": "1-1",
-      "result_score": "1-1",
-      "confidence": "49%",
-      "confidence_score": "49%",
-      "model_score": 49,
-      "estimated_probability": 43.8,
-      "market_probability": 46.1,
-      "edge_percent": -2.3,
-      "data_completeness": 44,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-11T20:42:04.773Z",
-      "source": "Robot ham veri havuzu"
     }
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 187,
-    "pending_count": 1313,
-    "won_count": 99,
-    "lost_count": 88,
+    "measured_count": 174,
+    "pending_count": 1326,
+    "won_count": 91,
+    "lost_count": 83,
     "void_count": 0,
-    "success_rate": 53,
-    "probability_sample_count": 187,
-    "brier_score": 0.2362,
-    "baseline_brier_score": 0.2491,
-    "brier_skill_score": 0.0518,
+    "success_rate": 52,
+    "probability_sample_count": 174,
+    "brier_score": 0.2384,
+    "baseline_brier_score": 0.2495,
+    "brier_skill_score": 0.0445,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -848,45 +848,45 @@
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 67,
-        "won": 30,
-        "average_probability": 44.8,
-        "observed_rate": 44.8
+        "predictions": 59,
+        "won": 27,
+        "average_probability": 45,
+        "observed_rate": 45.8
       },
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 79,
-        "won": 48,
-        "average_probability": 54.3,
-        "observed_rate": 60.8
+        "predictions": 78,
+        "won": 47,
+        "average_probability": 54.2,
+        "observed_rate": 60.3
       },
       {
         "lower": 60,
         "upper": 69,
-        "predictions": 22,
-        "won": 15,
-        "average_probability": 63.1,
-        "observed_rate": 68.2
+        "predictions": 18,
+        "won": 11,
+        "average_probability": 63.2,
+        "observed_rate": 61.1
       }
     ],
-    "verified_at": "2026-09-12T01:37:55.363Z",
+    "verified_at": "2026-09-12T04:52:26.153Z",
     "groups": [
       {
         "key": "goals",
         "label": "Gol Marketleri",
         "measured": 98,
-        "won": 50,
-        "lost": 48,
-        "success_rate": 51
+        "won": 51,
+        "lost": 47,
+        "success_rate": 52
       },
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 88,
-        "won": 49,
-        "lost": 39,
-        "success_rate": 56
+        "measured": 75,
+        "won": 40,
+        "lost": 35,
+        "success_rate": 53
       },
       {
         "key": "btts",

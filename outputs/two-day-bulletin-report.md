@@ -2,20 +2,15 @@
 
 Gunler: 2026-09-12 / 2026-09-13
 Kaynak: fixtures.json
-Ham mac: 709
-Aktif mac: 696
+Ham mac: 694
+Aktif mac: 691
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 13
-Bugun: 627
+Bultenden dusurulen mac: 3
+Bugun: 622
 Yarin: 69
 
 ## Baslamamis Maclar
-- 2026-09-12 05:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Ad San Carlos | scheduled | -
-- 2026-09-12 05:00 | ABD USL | Colorado Sprin - San Antonio | scheduled | -
-- 2026-09-12 06:00 | Meksika Liga MX Apertura | Atlante - Pachuca | scheduled | -
-- 2026-09-12 06:06 | Meksika Kadınlar Liga MX Apertura | Atlas (K) - Atlante (K) | scheduled | -
-- 2026-09-12 06:10 | Meksika Liga MX Apertura | Club Tijuana - Queretaro | scheduled | -
 - 2026-09-12 09:30 | Avustralya Queensland NPL Kadınlar Final | Gold Coast Kni - Eastern Suburbs | scheduled | -
 - 2026-09-12 10:00 | Avustralya NPL Batı Avustralya Yükselme/Düşme Play-off | Uwa Nedlands (1) - (0) Mandurah City | scheduled | -
 - 2026-09-12 10:00 | Avustralya NPL Batı Avustralya Yükselme/Düşme Play-off | Armadale (2) - (1) Joondalup City | scheduled | -

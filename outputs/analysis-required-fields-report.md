@@ -1,12 +1,11 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 715
-Tam analiz: 657
-Eksik analiz: 58
+Toplam analiz: 694
+Tam analiz: 637
+Eksik analiz: 57
 
 - Armadale (2) VS (1) Joondalup City: eksik score, confidence
-- Adelaide Raide VS Modbury Jets: eksik score, confidence
 - Sd Rsa VS Kitchee Footbal: eksik score, confidence
 - Wofoo Tai Po VS Hong Kong Fc: eksik score, confidence
 - Cs Dinamo Bucu VS Concordia Chiaj: eksik score, confidence
@@ -25,3 +24,4 @@ Eksik analiz: 58
 - Bali United VS Farmel: eksik score, confidence
 - Sunnersta Aif VS Bollstanas: eksik score, confidence
 - Oskarshamns Ai VS Rappe: eksik score, confidence
+- Fransta VS Ifk Umea: eksik score, confidence
