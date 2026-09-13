@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 13.09.2026 22:54:39
+Oluşturma: 14.09.2026 00:26:21
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1156
-- Kazanan tahmin: 181
+- Bekleyen tahmin: 1159
+- Kazanan tahmin: 178
 - Kaybeden tahmin: 163
-- Lig sayısı: 254
+- Lig sayısı: 250
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,28 +22,28 @@ Oluşturma: 13.09.2026 22:54:39
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 576, bekleyen 452, başarı %61, düz getiri %3, ağırlık 1
-- 2.5 Üst: toplam 183, bekleyen 117, başarı %52, düz getiri %-9, ağırlık 1
-- MS 1: toplam 511, bekleyen 418, başarı %51, düz getiri %-14, ağırlık 1
-- MS X: toplam 4, bekleyen 2, başarı %50, düz getiri %61, ağırlık 1
+- 2.5 Alt: toplam 579, bekleyen 455, başarı %61, düz getiri %3, ağırlık 1
+- 2.5 Üst: toplam 180, bekleyen 114, başarı %52, düz getiri %-9, ağırlık 1
+- MS 1: toplam 514, bekleyen 422, başarı %50, düz getiri %-15, ağırlık 1
+- MS X: toplam 5, bekleyen 3, başarı %50, düz getiri %61, ağırlık 1
 - KG Var: toplam 15, bekleyen 2, başarı %46, düz getiri %-14, ağırlık 1
-- MS 2: toplam 211, bekleyen 165, başarı %37, düz getiri %-30, ağırlık 1
+- MS 2: toplam 207, bekleyen 163, başarı %34, düz getiri %-35, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-13 | Suudi Arabistan Pro Lig | Neom Sc - Al Fateh | MS 1 | pending | 71/100
-- 2026-09-13 | Guatemala Ulusal Lig Apertura | Mixco - Aurora | MS 1 | pending | 67/100
-- 2026-09-13 | Norveç Eliteserien | Start - Brann | 2.5 Alt | pending | 62/100
-- 2026-09-13 | Norveç 3.Lig Grup 2 | Ranheim Ii - Byasen | 2.5 Alt | pending | 51/100
-- 2026-09-13 | Portekiz Premier Lig | Famalicao - Sporting Cp | MS 2 | pending | 68/100
-- 2026-09-13 | Norveç 3.Lig Grup 2 | Ranheim Ii - Byasen | MS 2 | pending | 46/100
-- 2026-09-13 | Malta Premier Lig Açılış | Sliema - Mosta Fc | 2.5 Alt | pending | 55/100
-- 2026-09-13 | Rusya Premier Lig | Spartak Moskov - Rostov | MS 1 | won | 69/100
-- 2026-09-13 | Güney Afrika PSL | Siwelele - Golden Arrows | MS 2 | lost | 56/100
-- 2026-09-13 | İngiltere Kadınlar Premier Lig | Everton (K) - Charlton Athlet | 2.5 Alt | won | 59/100
-- 2026-09-13 | İngiltere Kadınlar Premier Lig | Liverpool (K) - Tottenham Hotsp | 2.5 Alt | won | 60/100
-- 2026-09-13 | İngiltere Premier Lig | Coventry - Brighton | MS 2 | won | 63/100
-- 2026-09-13 | İtalya Serie A | Lecce - Monza | 2.5 Üst | won | 69/100
-- 2026-09-13 | Uruguay Premier Lig Clausura | Progreso - Cerro | MS 2 | won | 56/100
-- 2026-09-13 | Rusya Premier Lig | Akhmat Grozny - Makhachkala | 2.5 Üst | won | 69/100
+- 2026-09-14 | Kolombiya Primera A Clausura | America De Cal - Deportivo Pasto | 2.5 Üst | pending | 56/100
+- 2026-09-14 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Suchitepequez | 2.5 Üst | pending | 55/100
+- 2026-09-14 | Meksika Kadınlar Liga MX Apertura | Pachuca (K) - León (K) | MS 1 | pending | 59/100
+- 2026-09-14 | ABD MLS Next Pro | Portland Timbe - St. Louis City | MS 1 | pending | 47/100
+- 2026-09-14 | Kolombiya Primera B Clausura | Tigres Fc - Bogota | MS 1 | pending | 46/100
+- 2026-09-14 | Arjantin Premier Lig 2. Aşama | Banfield - Barracas | MS 1 | pending | 56/100
+- 2026-09-14 | Arjantin Premier Lig 2. Aşama | Riestra - Lanus | MS X | pending | 54/100
+- 2026-09-14 | Uruguay Premier Lig Clausura | Torque - Liverpool Monte | 2.5 Alt | pending | 64/100
+- 2026-09-14 | Paraguay Intermedia Lig | Indep Cambo Gr - Encarnacion | 2.5 Alt | pending | 54/100
+- 2026-09-14 | Brezilya Serie B | Botafogo Ribei - Goias | MS 1 | pending | 48/100
+- 2026-09-14 | Brezilya Serie B | America Mineir - Sao Bernardo | 2.5 Alt | pending | 62/100
+- 2026-09-14 | Kolombiya Primera B Clausura | Orsomarso - Atletico Fc | 2.5 Alt | pending | 55/100
+- 2026-09-14 | Brezilya Serie A | Bahia - Remo | MS 1 | pending | 74/100
+- 2026-09-14 | Şili Premier Lig | Union La Caler - Deportes Limach | 2.5 Üst | pending | 62/100
+- 2026-09-14 | Ekvador Pro Lig | Univ Catolica - Orense | MS 1 | pending | 73/100
 

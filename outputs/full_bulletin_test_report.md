@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 60
+- Scheduled match count: 155
 - Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-09-13 / 2026-09-14 23:59
+- Date window: 2026-09-14 / 2026-09-15 23:59
 
-- 2026-09-13 22:15 | Fylkir (3) - (2) Hk Kopavogur | scheduled
-- 2026-09-13 22:30 | Midland - Chacarita Junio | scheduled
-- 2026-09-13 22:30 | Paredes - Fafe | scheduled
-- 2026-09-13 22:30 | Famalicao - Sporting Cp | scheduled
-- 2026-09-13 22:30 | Rayo Zuliano - Portuguesa | scheduled
-- 2026-09-13 23:00 | Argentinos Jr - Gimnasia La Pla | scheduled
-- 2026-09-13 23:00 | Zamora - Trujillanos | scheduled
-- 2026-09-13 23:15 | Atletico Grau - Alianza Atletic | scheduled
-- 2026-09-13 23:30 | Flamengo - Corinthians | scheduled
-- 2026-09-13 23:30 | Depor Macara - Emelec | scheduled
+- 2026-09-14 00:30 | Chicago - New England | scheduled
+- 2026-09-14 00:30 | San Martin Tuc - Agropecuario | scheduled
+- 2026-09-14 00:30 | Universitario - Independiente P | scheduled
+- 2026-09-14 00:30 | Fortaleza Ce - Ceara | scheduled
+- 2026-09-14 00:30 | Novorizontino - Cuiaba | scheduled
+- 2026-09-14 00:30 | Brusque - Inter De Limeri | scheduled
+- 2026-09-14 00:30 | Caracas Fc - Monagas | scheduled
+- 2026-09-14 01:00 | Columbus Crew - New England Ii | scheduled
+- 2026-09-14 01:00 | Portland Heart - Alta | scheduled
+- 2026-09-14 01:00 | Pacific Fc - Cavalry | scheduled
