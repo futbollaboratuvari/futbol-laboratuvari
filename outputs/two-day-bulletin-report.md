@@ -2,36 +2,15 @@
 
 Gunler: 2026-09-13 / 2026-09-14
 Kaynak: fixtures.json
-Ham mac: 545
-Aktif mac: 510
+Ham mac: 542
+Aktif mac: 489
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 35
-Bugun: 467
+Bultenden dusurulen mac: 53
+Bugun: 446
 Yarin: 43
 
 ## Baslamamis Maclar
-- 2026-09-13 02:30 | ABD MLS | Cincinnati - Charlotte | scheduled | -
-- 2026-09-13 02:30 | ABD MLS | Columbus - New York | scheduled | -
-- 2026-09-13 02:30 | ABD MLS | Orlando City - Toronto | scheduled | -
-- 2026-09-13 02:30 | ABD MLS | Inter Miami - Nashville Sc | scheduled | -
-- 2026-09-13 02:30 | ABD MLS | Dc United - Atlanta Utd | scheduled | -
-- 2026-09-13 02:30 | Brezilya Serie A | Botafogo - Bragantino | scheduled | -
-- 2026-09-13 03:00 | Brezilya Serie A | Santos - Cruzeiro | scheduled | -
-- 2026-09-13 03:00 | Ekvador Pro Lig | Ldu Quito - Deportivo Cuenc | scheduled | -
-- 2026-09-13 03:00 | ABD MLS Next Pro | Minnesota Unit - Whitecaps Fc Ii | scheduled | -
-- 2026-09-13 03:00 | Bolivya Premier Lig | Blooming - Academia Del Ba | scheduled | -
-- 2026-09-13 03:30 | ABD MLS | Dallas - Portland | scheduled | -
-- 2026-09-13 03:30 | ABD MLS | Kansas - Los Angeles Fc | scheduled | -
-- 2026-09-13 03:30 | ABD MLS | St. Louis City - Minnesota Utd | scheduled | -
-- 2026-09-13 03:30 | ABD USL Lig 1 | Corpus Christi - Union Omaha | scheduled | -
-- 2026-09-13 04:00 | Peru Premier Lig Clausura | Alianza Lima - Universitario | scheduled | -
-- 2026-09-13 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Monarcas | scheduled | -
-- 2026-09-13 04:00 | Meksika Ascenso MX Apertura | Dorados - Cd Tapatio | scheduled | -
-- 2026-09-13 04:00 | El Salvador Primera Lig Apertura | Deportivo Fas - Alianza | scheduled | -
-- 2026-09-13 04:10 | Meksika Liga MX Apertura | Monterrey - Tigres Uanl | scheduled | -
-- 2026-09-13 04:10 | Meksika Kadınlar Liga MX Apertura | Juarez (K) - Necaxa (K) | scheduled | -
-- 2026-09-13 04:20 | Kolombiya Primera A Clausura | Alianza Petrol - Atletico Junior | scheduled | -
 - 2026-09-13 04:30 | ABD MLS | Colorado - Montreal | scheduled | -
 - 2026-09-13 04:30 | ABD MLS | Salt Lake - New York City | scheduled | -
 - 2026-09-13 04:30 | Honduras Ulusal Lig Apertura | Depor Motagua - Genesis Pn | scheduled | -
