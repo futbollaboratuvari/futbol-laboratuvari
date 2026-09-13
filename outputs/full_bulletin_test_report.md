@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 155
+- Scheduled match count: 24
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-14 / 2026-09-15 23:59
 
-- 2026-09-14 00:30 | Chicago - New England | scheduled
-- 2026-09-14 00:30 | San Martin Tuc - Agropecuario | scheduled
-- 2026-09-14 00:30 | Universitario - Independiente P | scheduled
-- 2026-09-14 00:30 | Fortaleza Ce - Ceara | scheduled
-- 2026-09-14 00:30 | Novorizontino - Cuiaba | scheduled
-- 2026-09-14 00:30 | Brusque - Inter De Limeri | scheduled
-- 2026-09-14 00:30 | Caracas Fc - Monagas | scheduled
-- 2026-09-14 01:00 | Columbus Crew - New England Ii | scheduled
-- 2026-09-14 01:00 | Portland Heart - Alta | scheduled
-- 2026-09-14 01:00 | Pacific Fc - Cavalry | scheduled
+- 2026-09-14 20:00 | Gaziantep FK - Fenerbahçe | scheduled
+- 2026-09-14 22:15 | Vikingur Reykj - Keflavik | scheduled
+- 2026-09-14 22:15 | Moreirense - Maritimo | scheduled
+- 2026-09-14 22:30 | Benjamin Aceva - Paraguari | scheduled
+- 2026-09-14 22:45 | Braga - Estoril | scheduled
+- 2026-09-14 23:00 | Portland Timbe - St. Louis City | scheduled
+- 2026-09-14 23:30 | Tigres Fc - Bogota | scheduled
+- 2026-09-15 01:00 | Banfield - Barracas | scheduled
+- 2026-09-15 01:00 | Riestra - Lanus | scheduled
+- 2026-09-15 01:00 | Indep Cambo Gr - Encarnacion | scheduled

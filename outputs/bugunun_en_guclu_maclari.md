@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-13T21:26:13.035Z
+- Güncelleme: 2026-09-13T21:29:50.305Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -28,7 +28,7 @@
 | Union La Caler VS Deportes Limach | Şili Premier Lig | 02:30 | 2.5 Üst | 1.58 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Univ Catolica VS Orense | Ekvador Pro Lig | 03:00 | MS 1 | 1.28 | 77 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Toluca (K) VS Tijuana (K) | Meksika Kadınlar Liga MX Apertura | 03:00 | MS 1 | 1.26 | 63 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Instituto Cord VS Rio Cuarto | Arjantin Premier Lig 2. Aşama | 03:15 | 2.5 Alt | 1.42 | 69 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
+| Instituto Cord VS Rio Cuarto | Arjantin Premier Lig 2. Aşama | 03:15 | 2.5 Alt | 1.42 | 72 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
 | Avai VS Vila Nova | Brezilya Serie B | 03:30 | 2.5 Alt | 1.40 | 77 | Orta risk kupon adayı | Piyasa ile Uyumlu | Düşük | Düşük | scheduled |
 | Club Leon VS Atletico San Lu | Meksika Liga MX Apertura | 04:00 | 2.5 Alt | 1.79 | 59 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | America De Cal VS Deportivo Pasto | Kolombiya Primera A Clausura | 04:00 | 2.5 Üst | 1.68 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -42,8 +42,8 @@
 | Avai VS Vila Nova | 2.5 Alt | 1.40 | 77 | Orta risk kupon adayı | Piyasa ile Uyumlu | Düşük | Düşük |
 | Univ Catolica VS Orense | MS 1 | 1.28 | 77 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
 | Braga VS Estoril | MS 1 | 1.30 | 74 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta |
+| Instituto Cord VS Rio Cuarto | 2.5 Alt | 1.42 | 72 | Orta risk kupon adayı | Değerli | Orta | Orta |
 | Moreirense VS Maritimo | 2.5 Üst | 2.07 | 69 | Orta risk kupon adayı | Değerli | Orta | Orta |
-| Instituto Cord VS Rio Cuarto | 2.5 Alt | 1.42 | 69 | Orta risk kupon adayı | Değerli | Orta | Orta |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |

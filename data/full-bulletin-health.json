@@ -1,21 +1,157 @@
 {
-  "generated_at": "2026-09-13T21:26:22.050Z",
+  "generated_at": "2026-09-13T21:29:38.623Z",
   "status": "pass",
   "source_status": "active",
   "full_bulletin_exists": true,
   "restored_from_cache": false,
-  "match_count": 155,
+  "match_count": 24,
   "live_match_count": 0,
   "finished_count": 0,
   "first_match": {
+    "no": 9,
+    "week": "2026/2027 5. Hafta",
     "date": "2026-09-14",
-    "time": "00:30",
-    "league": "ABD MLS",
-    "home": "Chicago",
-    "away": "New England",
-    "matchCode": "46741",
-    "mbs": null,
+    "time": "20:00",
+    "league": "Türkiye Süper Lig",
+    "home": "Gaziantep FK",
+    "away": "Fenerbahçe",
+    "match": "Gaziantep FK - Fenerbahçe",
     "status": "scheduled",
+    "source": "Haftalık Spor Toto programı",
+    "matchCode": null,
+    "one": null,
+    "draw": null,
+    "two": null,
+    "oneOdd": null,
+    "drawOdd": null,
+    "twoOdd": null,
+    "probabilities": {
+      "1": 33.1,
+      "2": 45.5,
+      "X": 21.4
+    },
+    "market_probabilities": {
+      "1": null,
+      "2": null,
+      "X": null
+    },
+    "public_distribution": {
+      "1": 11,
+      "2": 73,
+      "X": 16
+    },
+    "probability_basis": "archive_poisson_plus_public_distribution",
+    "analysis_ready": true,
+    "decision": "2",
+    "selected_options": [
+      "2"
+    ],
+    "selection": "2",
+    "coupon_role": "Arşiv Destekli Tek",
+    "classification": "Arşiv Destekli Tek",
+    "confidence": 65,
+    "confidence_score": 65,
+    "risk": "Orta",
+    "risk_level": "Orta",
+    "data_completeness": 67,
+    "probability_gap": 12.4,
+    "column_multiplier": 1,
+    "reasons": [
+      "PRO 13: 2 olasılığı %45.5; ikinci seçenek %33.1.",
+      "Doğrulanmış sonuç hafızası mevcut; haftalık 1-X-2 kararı gerçek geçmiş sonuçlarla sınandı.",
+      "Gerçek sonuç arşivi: ev 3, deplasman 4 maç örneği kullanıldı.",
+      "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 2 seçeneği %45.5 ile önde."
+    ],
+    "model_version": "pro13-btts-conditioned-v3",
+    "score_type": "spor_toto_1x2",
+    "form": {
+      "home": {
+        "count": 3,
+        "scored": 3,
+        "conceded": 2,
+        "bttsRate": 67,
+        "over25Rate": 67,
+        "over35Rate": 33,
+        "goalsForAvg": 2,
+        "goalsAgainstAvg": 1.33,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "winRate": 67,
+        "drawRate": 0,
+        "lossRate": 33,
+        "pointsPerGame": 2,
+        "recent": [
+          "W",
+          "L",
+          "W"
+        ],
+        "sample": 3,
+        "ppg": 2,
+        "goals_for_avg": 2,
+        "goals_against_avg": 1.33
+      },
+      "away": {
+        "count": 4,
+        "scored": 4,
+        "conceded": 3,
+        "bttsRate": 75,
+        "over25Rate": 50,
+        "over35Rate": 25,
+        "goalsForAvg": 2,
+        "goalsAgainstAvg": 1.25,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "winRate": 50,
+        "drawRate": 25,
+        "lossRate": 25,
+        "pointsPerGame": 1.75,
+        "recent": [
+          "W",
+          "W",
+          "L",
+          "D"
+        ],
+        "sample": 4,
+        "ppg": 1.75,
+        "goals_for_avg": 2,
+        "goals_against_avg": 1.25
+      }
+    },
+    "h2h": [],
+    "squad": {
+      "available": false,
+      "home": [],
+      "away": [],
+      "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+    },
+    "independent_evidence": true,
+    "evidence_mode": "archive_poisson_plus_public_distribution",
+    "archive_analysis": {
+      "ready": true,
+      "generated_from_real_results": true,
+      "canonical_home": "Gaziantep FK",
+      "canonical_away": "Fenerbahçe",
+      "archive_probabilities": {
+        "1": 42.6,
+        "2": 33.7,
+        "X": 23.7
+      },
+      "public_distribution": {
+        "1": 11,
+        "2": 73,
+        "X": 16
+      },
+      "poisson": {
+        "home_lambda": 1.66,
+        "away_lambda": 1.45,
+        "samples": 7,
+        "reliability": 0.4375
+      },
+      "agreement_score": 60.7
+    },
+    "mbs": null,
     "liveStatus": "scheduled",
     "status_verified": false,
     "status_source": "schedule_only",
@@ -23,32 +159,30 @@
     "homeScore": null,
     "awayScore": null,
     "score": "",
-    "source": "Maçkolik canlı robot",
-    "odds": {
-      "ms1": 1.8,
-      "msx": 3.43,
-      "ms2": 3.03,
-      "under25": 2.37,
-      "over25": 1.32
-    },
-    "available_odds": {
-      "ms1": 1.8,
-      "msx": 3.43,
-      "ms2": 3.03,
-      "under25": 2.37,
-      "over25": 1.32
-    },
-    "raw_market_guess_odds": {
-      "ms1": 1.8,
-      "msx": 3.43,
-      "ms2": 3.03,
-      "under25": 2.37,
-      "over25": 1.32,
-      "bttsYes_guess": 1.18,
-      "bttsNo_guess": 1.14
-    },
+    "odds": {},
+    "available_odds": {},
+    "raw_market_guess_odds": {},
     "raw_odds_sequence": [],
-    "raw_market_value_count": 8
+    "raw_market_value_count": 0,
+    "raw_market_blocks": [],
+    "detail_market_candidates": [],
+    "detail_markets": [],
+    "raw_market_source": "Haftalık Spor Toto programı",
+    "oddsSource": "Haftalık Spor Toto programı",
+    "wide_market_odds_count": 0,
+    "detail": {
+      "analysis": "Detay analizi icin robot verisi bekleniyor.",
+      "prediction": "2",
+      "confidence": 65,
+      "risk": "Orta",
+      "team_info": {
+        "home": null,
+        "away": null
+      },
+      "league_info": null,
+      "goal_expectation": null,
+      "markets": []
+    }
   },
   "date_window": {
     "main_day": "2026-09-14",
