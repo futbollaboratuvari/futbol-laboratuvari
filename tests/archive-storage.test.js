@@ -26,6 +26,16 @@ try {
   fs.writeFileSync(shard, "[]");
   assert.throws(() => readArchive(file), /count mismatch/);
   fs.writeFileSync(shard, saved);
+  const interrupted = JSON.parse(JSON.stringify(source));
+  interrupted.matches[0].score = "9-9";
+  const originalWrite = fs.writeFileSync;
+  fs.writeFileSync = (target, ...args) => {
+    if (String(target) === `${file}.tmp`) throw new Error("simulated disk failure");
+    return originalWrite(target, ...args);
+  };
+  try { assert.throws(() => writeArchive(file, interrupted, 2000), /simulated disk failure/); }
+  finally { fs.writeFileSync = originalWrite; }
+  assert.deepEqual(readArchive(file), source, "interrupted write must preserve the published archive");
   source.matches[0].score = "3-1";
   writeJson(file, source);
   assert.deepEqual(readArchive(file), source);

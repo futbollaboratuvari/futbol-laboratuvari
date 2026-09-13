@@ -49,7 +49,7 @@
       if (data.archive_storage === "match-shards-v1") {
         const matches = [];
         for (const part of data.match_shards) {
-          if (!/^robot_match_archive_parts\/part-\d{5}\.json$/.test(part.file)) throw new Error("Invalid archive shard");
+          if (!/^robot_match_archive_parts\/part-\d{5}-[a-f0-9]{64}\.json$/.test(part.file)) throw new Error("Invalid archive shard");
           const response = await fetch(new URL(part.file, res.url), { cache: "no-store" });
           if (!response.ok) throw new Error("Archive shard unavailable");
           const rows = await response.json();

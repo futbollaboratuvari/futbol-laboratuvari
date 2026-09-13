@@ -2,6 +2,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { createHash } = require("node:crypto");
 const SHARD_BYTES = 8 * 1024 * 1024;
 const MANIFEST_BYTES = 90 * 1024 * 1024;
 const STORAGE_VERSION = "match-shards-v1";
@@ -15,7 +16,7 @@ function readArchive(file, fallback = { matches: [], team_index: {} }) {
   }
   const matches = [];
   for (const shard of archive.match_shards) {
-    if (!/^robot_match_archive_parts\/part-\d{5}\.json$/.test(shard.file)) throw new Error("Invalid archive shard path");
+    if (!/^robot_match_archive_parts\/part-\d{5}-[a-f0-9]{64}\.json$/.test(shard.file)) throw new Error("Invalid archive shard path");
     const rows = JSON.parse(fs.readFileSync(path.join(path.dirname(file), shard.file), "utf8"));
     if (!Array.isArray(rows) || rows.length !== shard.count) throw new Error(`Archive shard count mismatch: ${shard.file}`);
     for (const row of rows) matches.push(row);
@@ -43,7 +44,7 @@ function writeArchive(file, archive, maxBytes = SHARD_BYTES) {
   if (rows.length) chunks.push(`[${rows.join(",")}]\n`);
   const { matches, ...metadata } = archive;
   const descriptors = chunks.map((text, index) => ({
-    file: `robot_match_archive_parts/part-${String(index).padStart(5, "0")}.json`,
+    file: `robot_match_archive_parts/part-${String(index).padStart(5, "0")}-${createHash("sha256").update(text).digest("hex")}.json`,
     count: JSON.parse(text).length
   }));
   const manifest = JSON.stringify({ ...metadata, matches: [], archive_storage: STORAGE_VERSION,
@@ -62,7 +63,7 @@ function writeArchive(file, archive, maxBytes = SHARD_BYTES) {
   // Workflows stage the whole data directory in one commit, including removals.
   const retained = new Set(descriptors.map(item => path.basename(item.file)));
   for (const name of fs.readdirSync(dir)) {
-    if (/^part-\d{5}\.json$/.test(name) && !retained.has(name)) fs.unlinkSync(path.join(dir, name));
+    if (/^part-\d{5}-[a-f0-9]{64}\.json$/.test(name) && !retained.has(name)) fs.unlinkSync(path.join(dir, name));
   }
   return { matchCount: matches.length, shardCount: chunks.length, largestShard: Math.max(0, ...chunks.map(text => Buffer.byteLength(text))) };
 }
