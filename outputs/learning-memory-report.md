@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.09.2026 02:23:39
+Oluşturma: 14.09.2026 02:32:26
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1142
-- Kazanan tahmin: 189
-- Kaybeden tahmin: 169
+- Bekleyen tahmin: 1146
+- Kazanan tahmin: 186
+- Kaybeden tahmin: 168
 - Lig sayısı: 250
 - Seçenek sayısı: 6
 
@@ -22,8 +22,8 @@ Oluşturma: 14.09.2026 02:23:39
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 603, bekleyen 470, başarı %60, düz getiri %1, ağırlık 1
-- 2.5 Üst: toplam 170, bekleyen 104, başarı %52, düz getiri %-9, ağırlık 1
+- 2.5 Alt: toplam 604, bekleyen 474, başarı %59, düz getiri %0, ağırlık 1
+- 2.5 Üst: toplam 169, bekleyen 104, başarı %52, düz getiri %-8, ağırlık 1
 - MS 1: toplam 508, bekleyen 408, başarı %51, düz getiri %-13, ağırlık 1
 - MS X: toplam 4, bekleyen 2, başarı %50, düz getiri %20, ağırlık 1
 - KG Var: toplam 15, bekleyen 1, başarı %50, düz getiri %-6, ağırlık 1
@@ -31,6 +31,10 @@ Oluşturma: 14.09.2026 02:23:39
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-14 | İngiltere Premier Lig | Leeds Utd - Newcastle Utd | 2.5 Alt | pending | 70/100
+- 2026-09-14 | Norveç 3.Lig Grup 4 | Viking B - Varhaug | 2.5 Alt | pending | 48/100
+- 2026-09-14 | Letonya 1.Lig | Rigas Fs Ii - Skanste | 2.5 Alt | pending | 49/100
+- 2026-09-14 | Norveç 3.Lig Grup 3 | Asane Ii - Brann Ii | 2.5 Alt | pending | 48/100
 - 2026-09-14 | Irak Premier Lig | Erbil Sc - Al Karma | 2.5 Alt | pending | 56/100
 - 2026-09-14 | Arjantin Primera C | Ca Fenix - C Espanol | MS 2 | pending | 49/100
 - 2026-09-14 | AFC Şampiyonlar Ligi Elite Batı Grubu | Esteghlal - Al Sadd | 2.5 Alt | pending | 54/100
@@ -42,8 +46,4 @@ Oluşturma: 14.09.2026 02:23:39
 - 2026-09-14 | İrlanda Premier Lig | Waterford - Derry City | 2.5 Alt | pending | 49/100
 - 2026-09-14 | İrlanda Premier Lig | Sligo Rovers - Galway United | 2.5 Alt | pending | 50/100
 - 2026-09-14 | İngiltere Non League Premier Isthmian | Aveley - Wingate | MS 1 | pending | 57/100
-- 2026-09-14 | İngiltere Premier Lig | Leeds Utd - Newcastle Utd | 2.5 Üst | pending | 68/100
-- 2026-09-14 | İspanya LaLiga | Villarreal - Real Betis | MS 1 | pending | 52/100
-- 2026-09-14 | Danimarka Süperlig | Midtjylland - Brondby | MS 1 | pending | 54/100
-- 2026-09-14 | İsveç Allsvenskan | Djurgarden - Gais | MS 1 | pending | 70/100
 

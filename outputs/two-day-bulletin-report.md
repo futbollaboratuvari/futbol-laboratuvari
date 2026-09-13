@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-14 / 2026-09-15
 Kaynak: fixtures.json
-Ham mac: 162
-Aktif mac: 129
+Ham mac: 155
+Aktif mac: 128
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 33
-Bugun: 112
+Bultenden dusurulen mac: 27
+Bugun: 111
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-09-14 02:30 | El Salvador Primera Lig Apertura | Firpo - Isidro Metapan | scheduled | -
 - 2026-09-14 03:00 | Kosta Rika Premier Lig Apertura | Cs Cartagines - Alajuelense | scheduled | -
 - 2026-09-14 03:00 | ABD MLS Next Pro | Swope Park Ran - Los Angeles Ii | scheduled | -
 - 2026-09-14 03:30 | Arjantin Premier Lig 2. Aşama | Huracan - Racing Club | scheduled | -
