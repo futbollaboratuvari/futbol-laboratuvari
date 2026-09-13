@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 13.09.2026 16:08:35
+Oluşturma: 13.09.2026 17:42:30
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1194
-- Kazanan tahmin: 161
-- Kaybeden tahmin: 145
-- Lig sayısı: 249
+- Bekleyen tahmin: 1207
+- Kazanan tahmin: 152
+- Kaybeden tahmin: 141
+- Lig sayısı: 256
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,28 +22,28 @@ Oluşturma: 13.09.2026 16:08:35
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 571, bekleyen 458, başarı %62, düz getiri %4, ağırlık 1
-- 2.5 Üst: toplam 201, bekleyen 132, başarı %54, düz getiri %-4, ağırlık 1
-- MS 1: toplam 507, bekleyen 427, başarı %51, düz getiri %-11, ağırlık 1
-- MS X: toplam 3, bekleyen 1, başarı %50, düz getiri %61, ağırlık 1
-- MS 2: toplam 206, bekleyen 172, başarı %29, düz getiri %-46, ağırlık 1
-- KG Var: toplam 12, bekleyen 4, başarı %25, düz getiri %-49, ağırlık 1
+- 2.5 Alt: toplam 572, bekleyen 465, başarı %63, düz getiri %5, ağırlık 1
+- MS 1: toplam 515, bekleyen 435, başarı %51, düz getiri %-11, ağırlık 1
+- 2.5 Üst: toplam 188, bekleyen 125, başarı %51, düz getiri %-10, ağırlık 1
+- MS X: toplam 4, bekleyen 2, başarı %50, düz getiri %61, ağırlık 1
+- MS 2: toplam 208, bekleyen 175, başarı %27, düz getiri %-48, ağırlık 1
+- KG Var: toplam 13, bekleyen 5, başarı %25, düz getiri %-49, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-13 | Venezuela Premier Lig Clausura | Zamora - Trujillanos | 2.5 Üst | pending | 65/100
-- 2026-09-13 | İspanya LaLiga | Real Sociedad - Atletico Madrid | MS 1 | pending | 58/100
-- 2026-09-13 | Belçika Pro Lig | Zulte Waregem - Charleroi | MS 1 | pending | 56/100
-- 2026-09-13 | Fransa Ligue 1 | Le Mans - Lens | KG Var | pending | 59/100
-- 2026-09-13 | İsveç 2.Lig Norra Götaland | Lidkopings - Herrestads | 2.5 Alt | pending | 49/100
-- 2026-09-13 | İngiltere Premier Lig | Coventry - Brighton | KG Var | pending | 60/100
-- 2026-09-13 | Danimarka Süperlig | Silkeborg - Viborg | KG Var | pending | 60/100
-- 2026-09-13 | Almanya Bölgesel Lig Kuzey | Sankt Pauli Ii - Norderstedt | 2.5 Alt | pending | 48/100
-- 2026-09-13 | İsveç 2.Lig Södra Svealand | Fittja - Forward | 2.5 Alt | pending | 49/100
-- 2026-09-13 | Danimarka 3.Lig | Holstebro - Frem | 2.5 Alt | pending | 49/100
-- 2026-09-13 | Hong Kong Premier Lig | Shatin - Kowloon City | 2.5 Alt | pending | 49/100
-- 2026-09-13 | ABD USL | Sporting Jax - Rhode Island | KG Var | lost | 70/100
-- 2026-09-13 | Venezuela Premier Lig Clausura | Estudiantes Fc - Depor Tachira | 2.5 Üst | lost | 67/100
-- 2026-09-13 | İspanya LaLiga | Real Sociedad - Atletico Madrid | MS 2 | pending | 47/100
-- 2026-09-13 | İspanya 2.Lig | Tenerife - Leganes | 2.5 Alt | pending | 78/100
+- 2026-09-13 | İspanya 2.Lig | Tenerife - Leganes | MS 1 | pending | 53/100
+- 2026-09-13 | Brezilya Serie B | Atletico Goian - Criciuma | 2.5 Alt | pending | 62/100
+- 2026-09-13 | Venezuela Premier Lig Clausura | Rayo Zuliano - Portuguesa | 2.5 Alt | pending | 63/100
+- 2026-09-13 | Brezilya Serie A | Flamengo - Corinthians | 2.5 Alt | pending | 63/100
+- 2026-09-13 | Şili Premier Lig | Colo Colo - Concepcion | MS 1 | pending | 60/100
+- 2026-09-13 | Yunanistan Süper Lig | Paok - Aris | 2.5 Üst | pending | 64/100
+- 2026-09-13 | Arjantin Primera C | Jj Urquiza - Lamadrid | MS X | pending | 42/100
+- 2026-09-13 | Suudi Arabistan Pro Lig | Diriyah - Abha | 2.5 Alt | pending | 61/100
+- 2026-09-13 | Norveç 3.Lig Grup 2 | Ranheim Ii - Byasen | MS 1 | pending | 46/100
+- 2026-09-13 | Arjantin Prim B Metro | Flandria - Camioneros Luja | MS 1 | pending | 44/100
+- 2026-09-13 | İspanya Tercera Ligi Grup 9 | Motril - Torre Del Mar | MS 1 | pending | 51/100
+- 2026-09-13 | İspanya Gençler Onur Ligi Grup 3 | Damm U18 - Badalona U19 | MS 1 | pending | 56/100
+- 2026-09-13 | Arjantin Ulusal Primera Lig | Almirante - Ferro Carril Oe | MS X | pending | 42/100
+- 2026-09-13 | Malta Premier Lig Açılış | Sliema - Mosta Fc | MS 1 | pending | 54/100
+- 2026-09-13 | İtalya Serie A | Sassuolo - Juventus | KG Var | pending | 69/100
 
