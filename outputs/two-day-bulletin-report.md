@@ -2,33 +2,15 @@
 
 Gunler: 2026-09-13 / 2026-09-14
 Kaynak: fixtures.json
-Ham mac: 212
-Aktif mac: 77
+Ham mac: 616
+Aktif mac: 59
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 135
-Bugun: 30
+Bultenden dusurulen mac: 557
+Bugun: 12
 Yarin: 47
 
 ## Baslamamis Maclar
-- 2026-09-13 22:00 | İspanya LaLiga | Real Sociedad - Atletico Madrid | scheduled | -
-- 2026-09-13 22:00 | İspanya 2.Lig | Tenerife - Leganes | scheduled | -
-- 2026-09-13 22:00 | Brezilya Serie A | Mirassol - Vitoria Bahia | scheduled | -
-- 2026-09-13 22:00 | İtalya Serie C Grup A | Union Arzignan - Calvina | scheduled | -
-- 2026-09-13 22:00 | İtalya Serie C Grup A | Novara - Pergolettese | scheduled | -
-- 2026-09-13 22:00 | İtalya Serie C Grup A | Trento Calcio - Union Brescia | scheduled | -
-- 2026-09-13 22:00 | Kolombiya Primera A Clausura | Pereira - Bucaramanga | scheduled | -
-- 2026-09-13 22:00 | Arjantin Ulusal Primera Lig | R Cordoba - Moron | scheduled | -
-- 2026-09-13 22:00 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy - Rafaela | scheduled | -
-- 2026-09-13 22:00 | Arjantin Ulusal Primera Lig | Ca Mitre - Chaco For Ever | scheduled | -
-- 2026-09-13 22:00 | Brezilya Serie B | Atletico Goian - Criciuma | scheduled | -
-- 2026-09-13 22:00 | Uruguay Premier Lig Clausura | Defensor Sport - Deportivo Maldo | scheduled | -
-- 2026-09-13 22:00 | Guatemala Ulusal Lig Apertura | Coban Imperial - Comunicaciones | scheduled | -
-- 2026-09-13 22:00 | Kanada Premier Lig | Inter Toronto - Vancouver Fc | scheduled | -
-- 2026-09-13 22:00 | ABD MLS Next Pro | Chicago Fire I - Bethlehem Steel | scheduled | -
-- 2026-09-13 22:00 | ABD MLS Next Pro | Chattanooga - Atlanta United | scheduled | -
-- 2026-09-13 22:00 | Bolivya Premier Lig | Always Ready - Guabira | scheduled | -
-- 2026-09-13 22:00 | Brezilya Serie C Grup C | Ferroviaria - Paysandu | scheduled | -
 - 2026-09-13 22:15 | İzlanda 1.Lig Yükselme Play Off Yarı Final | Fylkir (3) - (2) Hk Kopavogur | scheduled | -
 - 2026-09-13 22:30 | Portekiz Premier Lig | Famalicao - Sporting Cp | scheduled | -
 - 2026-09-13 22:30 | Venezuela Premier Lig Clausura | Rayo Zuliano - Portuguesa | scheduled | -

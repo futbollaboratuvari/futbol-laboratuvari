@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T19:00:21.266Z",
+  "generated_at": "2026-09-13T19:04:46.503Z",
   "timezone": "Europe/Istanbul",
   "source": "Haftalık 15 maç programı + Futbol Laboratuvarı PRO 13",
   "official_game_format_verified": true,
@@ -39,8 +39,8 @@
     "single_count": 11,
     "double_count": 4,
     "triple_count": 0,
-    "average_confidence": 59,
-    "average_data_completeness": 49,
+    "average_confidence": 60,
+    "average_data_completeness": 52,
     "unit_stake": null,
     "estimated_cost": null,
     "note": "15 maçın tamamı analiz sinyaliyle kupon hesabına hazır; dağılım bazlı maçlar yüksek risk olarak işaretlenmiştir."
@@ -1099,7 +1099,7 @@
       "home": "Galatasaray",
       "away": "Kocaelispor",
       "match": "Galatasaray - Kocaelispor",
-      "status": "finished",
+      "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "matchCode": "05123",
       "one": 1.15,
@@ -1109,9 +1109,9 @@
       "drawOdd": 5.99,
       "twoOdd": 10.9,
       "probabilities": {
-        "1": 76,
-        "2": 7,
-        "X": 17
+        "1": 52.8,
+        "2": 25,
+        "X": 22.2
       },
       "market_probabilities": {
         "1": 77.1,
@@ -1123,41 +1123,68 @@
         "2": 7,
         "X": 17
       },
-      "probability_basis": "cross_verified_public_distribution",
+      "probability_basis": "archive_poisson_plus_public_distribution",
       "analysis_ready": true,
       "decision": "1",
       "selected_options": [
         "1"
       ],
       "selection": "1",
-      "coupon_role": "Oynanma Dağılımı Bazlı",
-      "classification": "Oynanma Dağılımı Bazlı",
-      "confidence": 51,
-      "confidence_score": 51,
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "data_completeness": 28,
-      "probability_gap": 59,
+      "coupon_role": "Arşiv Destekli Tek",
+      "classification": "Arşiv Destekli Tek",
+      "confidence": 68,
+      "confidence_score": 68,
+      "risk": "Orta",
+      "risk_level": "Orta",
+      "data_completeness": 67,
+      "probability_gap": 27.8,
       "column_multiplier": 1,
       "reasons": [
-        "PRO 13: 1 olasılığı %76.0; ikinci seçenek %17.0.",
-        "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi.",
-        "Bu maçta takım arşiv örneği güven eşiğinin altında.",
-        "Tahmin uydurulmadı; yalnız haftalık gerçek oynanma dağılımı kullanıldı: 1 %76.0, X %17.0, 2 %7.0."
+        "PRO 13: 1 olasılığı %52.8; ikinci seçenek %25.0.",
+        "Doğrulanmış sonuç hafızası mevcut; haftalık 1-X-2 kararı gerçek geçmiş sonuçlarla sınandı.",
+        "Gerçek sonuç arşivi: ev 4, deplasman 3 maç örneği kullanıldı.",
+        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 1 seçeneği %52.8 ile önde."
       ],
       "model_version": "pro13-btts-conditioned-v3",
       "score_type": "spor_toto_1x2",
-      "independent_evidence": false,
+      "independent_evidence": true,
       "form": {
         "home": {
-          "count": 3,
-          "scored": 3,
+          "count": 4,
+          "scored": 4,
           "conceded": 3,
-          "bttsRate": 100,
-          "over25Rate": 100,
-          "over35Rate": 100,
-          "goalsForAvg": 2.33,
-          "goalsAgainstAvg": 2.33,
+          "bttsRate": 75,
+          "over25Rate": 75,
+          "over35Rate": 75,
+          "goalsForAvg": 2,
+          "goalsAgainstAvg": 1.75,
+          "wins": 3,
+          "draws": 0,
+          "losses": 1,
+          "winRate": 75,
+          "drawRate": 0,
+          "lossRate": 25,
+          "pointsPerGame": 2.25,
+          "recent": [
+            "W",
+            "W",
+            "L",
+            "W"
+          ],
+          "sample": 4,
+          "ppg": 2.25,
+          "goals_for_avg": 2,
+          "goals_against_avg": 1.75
+        },
+        "away": {
+          "count": 3,
+          "scored": 2,
+          "conceded": 2,
+          "bttsRate": 33,
+          "over25Rate": 33,
+          "over35Rate": 0,
+          "goalsForAvg": 1,
+          "goalsAgainstAvg": 0.67,
           "wins": 2,
           "draws": 0,
           "losses": 1,
@@ -1168,39 +1195,12 @@
           "recent": [
             "W",
             "W",
-            "L",
-            "W"
+            "L"
           ],
           "sample": 3,
           "ppg": 2,
-          "goals_for_avg": 2.33,
-          "goals_against_avg": 2.33
-        },
-        "away": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 50,
-          "over35Rate": 0,
-          "goalsForAvg": 1.5,
-          "goalsAgainstAvg": 0.5,
-          "wins": 2,
-          "draws": 0,
-          "losses": 0,
-          "winRate": 100,
-          "drawRate": 0,
-          "lossRate": 0,
-          "pointsPerGame": 3,
-          "recent": [
-            "W",
-            "W",
-            "L"
-          ],
-          "sample": 2,
-          "ppg": 3,
-          "goals_for_avg": 1.5,
-          "goals_against_avg": 0.5
+          "goals_for_avg": 1,
+          "goals_against_avg": 0.67
         }
       },
       "h2h": [
@@ -1217,20 +1217,29 @@
         "away": [],
         "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
       },
-      "evidence_mode": "cross_verified_public_distribution",
+      "evidence_mode": "archive_poisson_plus_public_distribution",
       "archive_analysis": {
-        "ready": false,
-        "generated_from_real_results": false,
+        "ready": true,
+        "generated_from_real_results": true,
         "canonical_home": "Galatasaray",
         "canonical_away": "Kocaelispor",
-        "archive_probabilities": null,
+        "archive_probabilities": {
+          "1": 42.8,
+          "2": 32.7,
+          "X": 24.5
+        },
         "public_distribution": {
           "1": 76,
           "2": 7,
           "X": 17
         },
-        "poisson": null,
-        "agreement_score": null
+        "poisson": {
+          "home_lambda": 1.57,
+          "away_lambda": 1.34,
+          "samples": 7,
+          "reliability": 0.4375
+        },
+        "agreement_score": 66.8
       }
     },
     {
@@ -2194,15 +2203,15 @@
   ],
   "archive_enrichment": {
     "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
-    "generated_at": "2026-09-13T19:00:19.726Z",
+    "generated_at": "2026-09-13T19:04:44.958Z",
     "archive_match_count": 14472,
-    "archive_ready_count": 8,
+    "archive_ready_count": 9,
     "distribution_ready_count": 15,
     "analysis_available_count": 15
   },
   "evidence_summary": {
-    "archive_backed_match_count": 8,
-    "distribution_based_match_count": 7,
+    "archive_backed_match_count": 9,
+    "distribution_based_match_count": 6,
     "market_baseline_match_count": 0,
     "waiting_match_count": 0
   }
