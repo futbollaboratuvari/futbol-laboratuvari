@@ -1,20 +1,20 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 154
-Tam analiz: 141
+Toplam analiz: 162
+Tam analiz: 149
 Eksik analiz: 13
 
-- Galatasaray VS Kocaelispor: eksik score, confidence
-- Benfica VS Gil Vicente: eksik score, confidence
-- Imt Novi Beogr VS Kizilyildiz: eksik score, confidence
-- Valencia U19 VS Castellon U18: eksik score, confidence
-- Aston Villa (K VS Man City (K): eksik score, confidence
-- Psv Eindhoven VS Sparta Rotterda: eksik score, confidence
-- Hajduk Split VS Slaven Belupo: eksik score, confidence
-- Santa Coloma VS Penya: eksik score, confidence
-- Panathinaikos VS Panetolikos: eksik score, confidence
-- Brest VS Psg: eksik score, confidence
-- Always Ready VS Guabira: eksik score, confidence
 - Vancouver VS Austin: eksik score, confidence
 - New York Rb Ii VS Fc Cincinnati I: eksik score, confidence
+- Shakhtar Donet VS Chernomorets: eksik score, confidence
+- Safa VS Sabah: eksik score, confidence
+- Tartu Welco VS Nomme Kalju Ii: eksik score, confidence
+- Qalali VS Umm Al Hassam: eksik score, confidence
+- Bodo Glimt VS Sandefjord: eksik score, confidence
+- Ludogorets VS Septemvri Sofia: eksik score, confidence
+- Haninge VS Syrianska: eksik score, confidence
+- Al Ahli VS Pakhtakor: eksik score, confidence
+- Al-Qadsiah VS Al Wasl: eksik score, confidence
+- Inter VS Udinese: eksik score, confidence
+- Vikingur Reykj VS Keflavik: eksik score, confidence
