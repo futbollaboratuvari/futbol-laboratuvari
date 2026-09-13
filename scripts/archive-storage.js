@@ -6,6 +6,8 @@ const { createHash } = require("node:crypto");
 const SHARD_BYTES = 8 * 1024 * 1024;
 const MANIFEST_BYTES = 90 * 1024 * 1024;
 const STORAGE_VERSION = "match-shards-v1";
+const HASHED_SHARD_PATH = /^robot_match_archive_parts\/part-\d{5}-[a-f0-9]{64}\.json$/;
+const LEGACY_SHARD_PATH = /^robot_match_archive_parts\/part-\d{5}\.json$/;
 
 function readArchive(file, fallback = { matches: [], team_index: {} }) {
   if (!fs.existsSync(file)) return fallback;
@@ -16,7 +18,7 @@ function readArchive(file, fallback = { matches: [], team_index: {} }) {
   }
   const matches = [];
   for (const shard of archive.match_shards) {
-    if (!/^robot_match_archive_parts\/part-\d{5}-[a-f0-9]{64}\.json$/.test(shard.file)) throw new Error("Invalid archive shard path");
+    if (!HASHED_SHARD_PATH.test(shard.file) && !LEGACY_SHARD_PATH.test(shard.file)) throw new Error("Invalid archive shard path");
     const rows = JSON.parse(fs.readFileSync(path.join(path.dirname(file), shard.file), "utf8"));
     if (!Array.isArray(rows) || rows.length !== shard.count) throw new Error(`Archive shard count mismatch: ${shard.file}`);
     for (const row of rows) matches.push(row);
