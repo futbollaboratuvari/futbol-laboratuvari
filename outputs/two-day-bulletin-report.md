@@ -2,32 +2,15 @@
 
 Gunler: 2026-09-13 / 2026-09-14
 Kaynak: fixtures.json
-Ham mac: 542
-Aktif mac: 489
+Ham mac: 510
+Aktif mac: 472
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 53
-Bugun: 446
+Biten mac: 1
+Bultenden dusurulen mac: 38
+Bugun: 429
 Yarin: 43
 
 ## Baslamamis Maclar
-- 2026-09-13 04:30 | ABD MLS | Colorado - Montreal | scheduled | -
-- 2026-09-13 04:30 | ABD MLS | Salt Lake - New York City | scheduled | -
-- 2026-09-13 04:30 | Honduras Ulusal Lig Apertura | Depor Motagua - Genesis Pn | scheduled | -
-- 2026-09-13 05:00 | Kosta Rika Premier Lig Apertura | Liberia - Herediano | scheduled | -
-- 2026-09-13 05:00 | Guatemala Ulusal Lig Apertura | Marquense - Deportivo San P | scheduled | -
-- 2026-09-13 05:00 | ABD USL | Sacramento Rep - Detroit City | scheduled | -
-- 2026-09-13 05:00 | ABD USL | Orange County - Las Vegas Light | scheduled | -
-- 2026-09-13 05:00 | ABD USL | Oakland Roots - Lexington | scheduled | -
-- 2026-09-13 05:00 | ABD USL | Phoenix Rising - Tulsa Roughneck | scheduled | -
-- 2026-09-13 05:30 | ABD MLS | Los Angeles - Seattle | scheduled | -
-- 2026-09-13 05:30 | ABD MLS | San Jose - Houston | scheduled | -
-- 2026-09-13 06:15 | Meksika Liga MX Apertura | Cruz Azul - Club America | scheduled | -
-- 2026-09-13 07:00 | Avustralya NPL Kuzey YGG Büyük Final | Weston Bears - Maitland | scheduled | -
-- 2026-09-13 08:00 | Avustralya NPL Yeni Güney Galler Büyük Final | Apia - Sydney United | scheduled | -
-- 2026-09-13 08:30 | Hong Kong HKFA 1.Lig | Yuen Long - Kui Tan | scheduled | -
-- 2026-09-13 09:00 | Japonya Futbol Ligi | Yokohama Scc - Honda Lock | scheduled | -
-- 2026-09-13 09:00 | Japonya Futbol Ligi | Grulla Morioka - Azul Claro Numa | scheduled | -
 - 2026-09-13 10:00 | Hong Kong HKFA 1.Lig | Tung Sing - Sham Shui Po | scheduled | -
 - 2026-09-13 10:00 | Japonya Futbol Ligi | J-Lease Fc - Yokogawa Musash | scheduled | -
 - 2026-09-13 10:00 | Japonya Futbol Ligi | Criacao Shinju - Maruyasu Indust | scheduled | -
@@ -505,4 +488,4 @@ Yarin: 43
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-13 02:30 | Brezilya Serie A | Botafogo - Bragantino | finished | 1-1

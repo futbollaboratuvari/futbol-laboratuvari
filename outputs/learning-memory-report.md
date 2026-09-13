@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 13.09.2026 04:31:13
+Oluşturma: 13.09.2026 09:49:15
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1252
-- Kazanan tahmin: 130
-- Kaybeden tahmin: 118
+- Bekleyen tahmin: 1224
+- Kazanan tahmin: 145
+- Kaybeden tahmin: 131
 - Lig sayısı: 249
 - Seçenek sayısı: 6
 
@@ -22,12 +22,12 @@ Oluşturma: 13.09.2026 04:31:13
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 571, bekleyen 483, başarı %64, düz getiri %6, ağırlık 1
-- 2.5 Üst: toplam 201, bekleyen 140, başarı %56, düz getiri %0, ağırlık 1
+- 2.5 Alt: toplam 571, bekleyen 467, başarı %63, düz getiri %4, ağırlık 1
+- 2.5 Üst: toplam 201, bekleyen 135, başarı %55, düz getiri %-3, ağırlık 1
 - MS X: toplam 3, bekleyen 1, başarı %50, düz getiri %61, ağırlık 1
-- MS 1: toplam 507, bekleyen 446, başarı %48, düz getiri %-16, ağırlık 1
+- MS 1: toplam 507, bekleyen 442, başarı %49, düz getiri %-13, ağırlık 1
 - KG Var: toplam 12, bekleyen 5, başarı %29, düz getiri %-42, ağırlık 1
-- MS 2: toplam 206, bekleyen 177, başarı %28, düz getiri %-48, ağırlık 1
+- MS 2: toplam 206, bekleyen 174, başarı %28, düz getiri %-47, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
@@ -43,7 +43,7 @@ Oluşturma: 13.09.2026 04:31:13
 - 2026-09-13 | Danimarka 3.Lig | Holstebro - Frem | 2.5 Alt | pending | 49/100
 - 2026-09-13 | Hong Kong Premier Lig | Shatin - Kowloon City | 2.5 Alt | pending | 49/100
 - 2026-09-13 | ABD USL | Sporting Jax - Rhode Island | KG Var | pending | 70/100
-- 2026-09-13 | Venezuela Premier Lig Clausura | Estudiantes Fc - Depor Tachira | 2.5 Üst | pending | 67/100
+- 2026-09-13 | Venezuela Premier Lig Clausura | Estudiantes Fc - Depor Tachira | 2.5 Üst | lost | 67/100
 - 2026-09-13 | İspanya LaLiga | Real Sociedad - Atletico Madrid | MS 2 | pending | 47/100
 - 2026-09-13 | İspanya 2.Lig | Tenerife - Leganes | 2.5 Alt | pending | 78/100
 
