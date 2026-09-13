@@ -1,27 +1,20 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 373
-Tam analiz: 342
-Eksik analiz: 31
+Toplam analiz: 154
+Tam analiz: 141
+Eksik analiz: 13
 
-- Viking VS Kristiansund: eksik score, confidence
-- Kjelsas VS Stjordals-Blink: eksik score, confidence
-- Rb Leipzig VS Hamburg: eksik score, confidence
-- Arsenal (K) VS Crystal Palace: eksik score, confidence
-- Skiljebo Sk VS Korsnas If Fk: eksik score, confidence
-- Nykobing Fa VS Eker Örebro: eksik score, confidence
-- Vaxjö (K) VS Hammarby (K): eksik score, confidence
-- Levante VS Barcelona: eksik score, confidence
-- Az (K) VS Psv Eindhoven (: eksik score, confidence
-- Heerenveen (K) VS Ajax (K): eksik score, confidence
-- Stromsgodset VS Sandnes: eksik score, confidence
-- Raufoss VS Odds Bk: eksik score, confidence
-- Fc Rangers VS Esperança Dando: eksik score, confidence
-- Lokomotiv Oslo VS Baerum: eksik score, confidence
-- Elversberg VS B.Münih: eksik score, confidence
-- Kolombiya U20 VS Kuzey Kore U20: eksik score, confidence
-- Portekiz U20 ( VS Kosta Rika U20: eksik score, confidence
-- Vestur Sorvagu VS Kí Klaksvík: eksik score, confidence
-- Krasnodar VS Akron: eksik score, confidence
 - Galatasaray VS Kocaelispor: eksik score, confidence
+- Benfica VS Gil Vicente: eksik score, confidence
+- Imt Novi Beogr VS Kizilyildiz: eksik score, confidence
+- Valencia U19 VS Castellon U18: eksik score, confidence
+- Aston Villa (K VS Man City (K): eksik score, confidence
+- Psv Eindhoven VS Sparta Rotterda: eksik score, confidence
+- Hajduk Split VS Slaven Belupo: eksik score, confidence
+- Santa Coloma VS Penya: eksik score, confidence
+- Panathinaikos VS Panetolikos: eksik score, confidence
+- Brest VS Psg: eksik score, confidence
+- Always Ready VS Guabira: eksik score, confidence
+- Vancouver VS Austin: eksik score, confidence
+- New York Rb Ii VS Fc Cincinnati I: eksik score, confidence

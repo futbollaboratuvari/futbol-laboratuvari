@@ -2,20 +2,15 @@
 
 Gunler: 2026-09-13 / 2026-09-14
 Kaynak: fixtures.json
-Ham mac: 616
-Aktif mac: 59
+Ham mac: 154
+Aktif mac: 54
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 557
-Bugun: 12
+Bultenden dusurulen mac: 100
+Bugun: 7
 Yarin: 47
 
 ## Baslamamis Maclar
-- 2026-09-13 22:15 | İzlanda 1.Lig Yükselme Play Off Yarı Final | Fylkir (3) - (2) Hk Kopavogur | scheduled | -
-- 2026-09-13 22:30 | Portekiz Premier Lig | Famalicao - Sporting Cp | scheduled | -
-- 2026-09-13 22:30 | Venezuela Premier Lig Clausura | Rayo Zuliano - Portuguesa | scheduled | -
-- 2026-09-13 22:30 | Arjantin Ulusal Primera Lig | Midland - Chacarita Junio | scheduled | -
-- 2026-09-13 22:30 | Portekiz 3.Lig Grup A | Paredes - Fafe | scheduled | -
 - 2026-09-13 23:00 | Arjantin Premier Lig 2. Aşama | Argentinos Jr - Gimnasia La Pla | scheduled | -
 - 2026-09-13 23:00 | Venezuela Premier Lig Clausura | Zamora - Trujillanos | scheduled | -
 - 2026-09-13 23:15 | Peru Premier Lig Clausura | Atletico Grau - Alianza Atletic | scheduled | -
