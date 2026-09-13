@@ -2,25 +2,15 @@
 
 Gunler: 2026-09-13 / 2026-09-14
 Kaynak: fixtures.json
-Ham mac: 373
-Aktif mac: 160
+Ham mac: 616
+Aktif mac: 154
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 213
-Bugun: 117
-Yarin: 43
+Bultenden dusurulen mac: 462
+Bugun: 107
+Yarin: 47
 
 ## Baslamamis Maclar
-- 2026-09-13 19:30 | İspanya LaLiga | Getafe - D.La Coruna | scheduled | -
-- 2026-09-13 19:30 | Belçika Pro Lig | Zulte Waregem - Charleroi | scheduled | -
-- 2026-09-13 19:30 | İspanya 2.Lig | Mallorca - Sabadell | scheduled | -
-- 2026-09-13 19:30 | Rusya Premier Lig | Krasnodar - Akron | scheduled | -
-- 2026-09-13 19:30 | Arnavutluk Süperlig | Af Elbasani - Egnatia | scheduled | -
-- 2026-09-13 19:30 | Bosna-Hersek Premier Lig | Sloga Doboj - Zeljeznicar | scheduled | -
-- 2026-09-13 19:30 | Almanya Kadınlar Bundesliga | Freiburg (K) - Mainz 05 (K) | scheduled | -
-- 2026-09-13 19:30 | İspanya 2. Lig RFEF Grup 2 | Osasuna Ii - Arnedo | scheduled | -
-- 2026-09-13 19:30 | İspanya Tercera Ligi Grup 2 | Mosconia - Gijon Industria | scheduled | -
-- 2026-09-13 19:30 | İspanya Tercera Ligi Grup 6 | Crevillente - Soneja | scheduled | -
 - 2026-09-13 20:00 | Türkiye Süper Lig | Amed Sk - Başakşehir Fk | scheduled | -
 - 2026-09-13 20:00 | Türkiye Süper Lig | Galatasaray - Kocaelispor | scheduled | -
 - 2026-09-13 20:00 | Türkiye TFF 1. Lig | Bursaspor - Esenler Erokspo | scheduled | -
@@ -133,6 +123,7 @@ Yarin: 43
 - 2026-09-14 00:00 | ABD MLS Next Pro | New York City - Connecticut Uni | scheduled | -
 - 2026-09-14 00:00 | Honduras Ulusal Lig Apertura | Upnfm - Choloma | scheduled | -
 - 2026-09-14 00:00 | El Salvador Primera Lig Apertura | Fuerte San Fra - Municipal Limen | scheduled | -
+- 2026-09-14 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Inter Fa | scheduled | -
 - 2026-09-14 00:05 | Kolombiya Primera A Clausura | Atletico Nacio - Rionegro Aguila | scheduled | -
 - 2026-09-14 00:30 | ABD MLS | Chicago - New England | scheduled | -
 - 2026-09-14 00:30 | Venezuela Premier Lig Clausura | Caracas Fc - Monagas | scheduled | -
@@ -155,6 +146,9 @@ Yarin: 43
 - 2026-09-14 02:00 | ABD MLS Next Pro | New York Rb Ii - Fc Cincinnati I | scheduled | -
 - 2026-09-14 02:00 | ABD MLS Next Pro | Orlando City I - Toronto Fc Ii | scheduled | -
 - 2026-09-14 02:00 | ABD MLS Next Pro | Inter Miami Ii - Huntsville City | scheduled | -
+- 2026-09-14 02:00 | Guatemala Ulusal Lig Apertura | Guastatoya - Xelaju | scheduled | -
+- 2026-09-14 02:00 | Meksika Kadınlar Liga MX Apertura | Atletico San L - Santos Laguna ( | scheduled | -
+- 2026-09-14 02:00 | Meksika Kadınlar Liga MX Apertura | América (K) - Tigres Uanl (K) | scheduled | -
 - 2026-09-14 02:10 | Kolombiya Primera A Clausura | Once Caldas - Deportivo Cali | scheduled | -
 - 2026-09-14 02:15 | Honduras Ulusal Lig Apertura | Marathon - Depor. Olimpia | scheduled | -
 - 2026-09-14 02:30 | El Salvador Primera Lig Apertura | Firpo - Isidro Metapan | scheduled | -

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-13T14:42:41.523Z",
+  "generated_at": "2026-09-13T16:38:07.431Z",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
   "model_version": "pro13-btts-conditioned-v3-weekly-archive",
   "week_label": "2026/2027 5. Hafta",
-  "archive_match_count": 14401,
-  "archive_ready_count": 7,
+  "archive_match_count": 14405,
+  "archive_ready_count": 8,
   "public_distribution_count": 15,
   "analysis_available_count": 15,
   "matches": [
@@ -486,71 +486,89 @@
       "away": "Kasımpaşa",
       "canonical_home": "Gençlerbirliği",
       "canonical_away": "Kasımpaşa",
-      "archive_ready": false,
+      "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 46,
-        "2": 25,
-        "X": 29
+        "1": 37.1,
+        "2": 36.5,
+        "X": 26.4
       },
-      "archive_probabilities": null,
+      "archive_probabilities": {
+        "1": 33.3,
+        "2": 41.4,
+        "X": 25.3
+      },
       "public_distribution": {
         "1": 46,
         "2": 25,
         "X": 29
       },
-      "probability_basis": "cross_verified_public_distribution",
-      "confidence": 51,
-      "data_completeness": 28,
-      "probability_gap": 17,
-      "agreement_score": null,
-      "poisson": null,
+      "probability_basis": "archive_poisson_plus_public_distribution",
+      "confidence": 62,
+      "data_completeness": 67,
+      "probability_gap": 0.6,
+      "agreement_score": 83.6,
+      "poisson": {
+        "home_lambda": 1.3,
+        "away_lambda": 1.47,
+        "samples": 7,
+        "reliability": 0.4375
+      },
       "form": {
         "home": {
-          "count": 3,
-          "scored": 2,
-          "conceded": 2,
-          "bttsRate": 33,
-          "over25Rate": 33,
-          "over35Rate": 33,
-          "goalsForAvg": 0.67,
+          "count": 4,
+          "scored": 3,
+          "conceded": 3,
+          "bttsRate": 50,
+          "over25Rate": 50,
+          "over35Rate": 25,
+          "goalsForAvg": 0.75,
           "goalsAgainstAvg": 2,
           "wins": 1,
           "draws": 1,
-          "losses": 1,
-          "winRate": 33,
-          "drawRate": 33,
-          "lossRate": 33,
-          "pointsPerGame": 1.33,
+          "losses": 2,
+          "winRate": 25,
+          "drawRate": 25,
+          "lossRate": 50,
+          "pointsPerGame": 1,
           "recent": [
             "W",
             "D",
+            "L",
             "L"
           ]
         },
         "away": {
-          "count": 2,
-          "scored": 2,
-          "conceded": 1,
-          "bttsRate": 50,
-          "over25Rate": 0,
+          "count": 3,
+          "scored": 3,
+          "conceded": 2,
+          "bttsRate": 67,
+          "over25Rate": 33,
           "over35Rate": 0,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 0.5,
-          "wins": 1,
+          "goalsForAvg": 1.33,
+          "goalsAgainstAvg": 0.67,
+          "wins": 2,
           "draws": 1,
           "losses": 0,
-          "winRate": 50,
-          "drawRate": 50,
+          "winRate": 67,
+          "drawRate": 33,
           "lossRate": 0,
-          "pointsPerGame": 2,
+          "pointsPerGame": 2.33,
           "recent": [
             "W",
-            "D"
+            "D",
+            "W"
           ]
         }
       },
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-09-13",
+          "home": "Gençlerbirliği",
+          "away": "Kasimpaşa",
+          "score": "1-2"
+        }
+      ]
     },
     {
       "no": 7,
@@ -1082,14 +1100,14 @@
       "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 21.3,
-        "2": 59.7,
-        "X": 19
+        "1": 20.9,
+        "2": 60.8,
+        "X": 18.3
       },
       "archive_probabilities": {
-        "1": 27.5,
-        "2": 49.4,
-        "X": 23.1
+        "1": 26.3,
+        "2": 52,
+        "X": 21.7
       },
       "public_distribution": {
         "1": 6,
@@ -1097,49 +1115,50 @@
         "X": 9
       },
       "probability_basis": "archive_poisson_plus_public_distribution",
-      "confidence": 68,
-      "data_completeness": 61,
-      "probability_gap": 38.4,
-      "agreement_score": 64.4,
+      "confidence": 69,
+      "data_completeness": 64,
+      "probability_gap": 39.9,
+      "agreement_score": 67,
       "poisson": {
-        "home_lambda": 1.29,
-        "away_lambda": 1.8,
-        "samples": 8,
-        "reliability": 0.5
+        "home_lambda": 1.37,
+        "away_lambda": 2,
+        "samples": 10,
+        "reliability": 0.625
       },
       "form": {
         "home": {
-          "count": 3,
-          "scored": 1,
-          "conceded": 1,
-          "bttsRate": 33,
-          "over25Rate": 33,
-          "over35Rate": 33,
-          "goalsForAvg": 1.67,
-          "goalsAgainstAvg": 0.67,
+          "count": 4,
+          "scored": 2,
+          "conceded": 2,
+          "bttsRate": 50,
+          "over25Rate": 50,
+          "over35Rate": 50,
+          "goalsForAvg": 1.75,
+          "goalsAgainstAvg": 1.5,
           "wins": 1,
           "draws": 2,
-          "losses": 0,
-          "winRate": 33,
-          "drawRate": 67,
-          "lossRate": 0,
-          "pointsPerGame": 1.67,
+          "losses": 1,
+          "winRate": 25,
+          "drawRate": 50,
+          "lossRate": 25,
+          "pointsPerGame": 1.25,
           "recent": [
             "D",
             "W",
-            "D"
+            "D",
+            "L"
           ]
         },
         "away": {
-          "count": 5,
-          "scored": 5,
-          "conceded": 2,
-          "bttsRate": 40,
-          "over25Rate": 80,
-          "over35Rate": 80,
-          "goalsForAvg": 4.4,
-          "goalsAgainstAvg": 0.6,
-          "wins": 5,
+          "count": 6,
+          "scored": 6,
+          "conceded": 3,
+          "bttsRate": 50,
+          "over25Rate": 83,
+          "over35Rate": 83,
+          "goalsForAvg": 4.33,
+          "goalsAgainstAvg": 0.83,
+          "wins": 6,
           "draws": 0,
           "losses": 0,
           "winRate": 100,
@@ -1155,7 +1174,14 @@
           ]
         }
       },
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-09-13",
+          "home": "Levante",
+          "away": "Barcelona",
+          "score": "2-4"
+        }
+      ]
     },
     {
       "no": 15,

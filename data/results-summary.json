@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T16:30:02.506Z",
+  "generated_at": "2026-09-13T16:37:55.890Z",
   "date": "2026-09-13",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -817,16 +817,16 @@
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 334,
-    "pending_count": 1166,
-    "won_count": 174,
-    "lost_count": 160,
+    "measured_count": 327,
+    "pending_count": 1173,
+    "won_count": 169,
+    "lost_count": 158,
     "void_count": 0,
     "success_rate": 52,
-    "probability_sample_count": 334,
-    "brier_score": 0.2355,
-    "baseline_brier_score": 0.2496,
-    "brier_skill_score": 0.0562,
+    "probability_sample_count": 327,
+    "brier_score": 0.2346,
+    "baseline_brier_score": 0.2497,
+    "brier_skill_score": 0.0605,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -840,26 +840,26 @@
       {
         "lower": 30,
         "upper": 39,
-        "predictions": 34,
-        "won": 10,
+        "predictions": 32,
+        "won": 8,
         "average_probability": 37.6,
-        "observed_rate": 29.4
+        "observed_rate": 25
       },
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 118,
-        "won": 53,
+        "predictions": 115,
+        "won": 52,
         "average_probability": 45.3,
-        "observed_rate": 44.9
+        "observed_rate": 45.2
       },
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 154,
-        "won": 87,
+        "predictions": 152,
+        "won": 85,
         "average_probability": 54.2,
-        "observed_rate": 56.5
+        "observed_rate": 55.9
       },
       {
         "lower": 60,
@@ -875,18 +875,18 @@
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 190,
-        "won": 110,
-        "lost": 80,
+        "measured": 186,
+        "won": 108,
+        "lost": 78,
         "success_rate": 58
       },
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 134,
-        "won": 61,
+        "measured": 131,
+        "won": 58,
         "lost": 73,
-        "success_rate": 46
+        "success_rate": 44
       },
       {
         "key": "btts",
