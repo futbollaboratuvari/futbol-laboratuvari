@@ -179,7 +179,7 @@ const sortByDateTime = (a, b) => String(a.date || "").localeCompare(String(b.dat
 
 const main = () => {
   const fixtures = readJson(fixturesPath, []);
-  const archive = readJson(archivePath, { generated_at: null, timezone: "Europe/Istanbul", visibility: "robot_internal_not_shown_on_site", description: "Robotun analiz icin kullandigi kalici mac arsivi. Site ziyaretcisine gosterilmez.", matches: [], team_index: {}, model_weights: {}, coupon_learning_events: [], coupon_feedback_model: null });
+  const archive = require("./archive-storage").readArchive(archivePath, { generated_at: null, timezone: "Europe/Istanbul", visibility: "robot_internal_not_shown_on_site", description: "Robotun analiz icin kullandigi kalici mac arsivi. Site ziyaretcisine gosterilmez.", matches: [], team_index: {}, model_weights: {}, coupon_learning_events: [], coupon_feedback_model: null });
   const now = istanbulNow();
   const nowIso = new Date().toISOString();
   const map = new Map((archive.matches || []).map((match) => [keyOf(match), match]));
@@ -205,4 +205,5 @@ const main = () => {
 };
 
 main();
+
 

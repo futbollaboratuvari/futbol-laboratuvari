@@ -22,7 +22,7 @@ function writeJson(file, value) {
 
 function runLearningResultSync() {
   const memory = readJson(memoryPath, { predictions: [] });
-  const archive = readJson(archivePath, { matches: [] });
+  const archive = require("./archive-storage").readArchive(archivePath, { matches: [] });
   const status = {
     generated_at: new Date().toISOString(),
     memory_items: Array.isArray(memory.predictions) ? memory.predictions.length : 0,
@@ -61,3 +61,4 @@ function runLearningResultSync() {
 if (require.main === module) runLearningResultSync();
 
 module.exports = { runLearningResultSync };
+

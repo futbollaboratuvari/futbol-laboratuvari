@@ -86,7 +86,7 @@ function buildScoreIndexFromRows(rows) {
 }
 
 function buildScoreMap() {
-  const archive = readJson(archiveFile, { matches: [] });
+  const archive = require("./archive-storage").readArchive(archiveFile, { matches: [] });
   const live = readJson(liveFile, { matches: [] });
   return buildScoreIndexFromRows([...(archive.matches || []), ...(live.matches || [])]);
 }
@@ -125,3 +125,4 @@ function runLearningScoreLinker() {
 
 if (require.main === module) runLearningScoreLinker();
 module.exports = { buildScoreIndexFromRows, findScore, runLearningScoreLinker, scoreOf };
+

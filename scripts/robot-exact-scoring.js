@@ -124,7 +124,7 @@ const readJson = (filePath, fallback) => {
 
 const loadMemory = () => {
   if (memoryCache) return memoryCache;
-  memoryCache = readJson(archivePath, { matches: [], team_index: {} });
+  memoryCache = require("./archive-storage").readArchive(archivePath, { matches: [], team_index: {} });
   if (!Array.isArray(memoryCache.matches)) memoryCache.matches = [];
   if (!memoryCache.team_index || typeof memoryCache.team_index !== "object") memoryCache.team_index = {};
   return memoryCache;
@@ -920,3 +920,4 @@ module.exports = {
     poissonProbabilities,
   },
 };
+

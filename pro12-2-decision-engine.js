@@ -44,7 +44,22 @@
   const readJson = async (url, fallback) => {
     try {
       const res = await fetch(`${url}${url.includes("?") ? "&" : "?"}ts=${Date.now()}`, { cache: "no-store" });
-      return res.ok ? await res.json() : fallback;
+      if (!res.ok) return fallback;
+      const data = await res.json();
+      if (data.archive_storage === "match-shards-v1") {
+        const matches = [];
+        for (const part of data.match_shards) {
+          if (!/^robot_match_archive_parts\/part-\d{5}\.json$/.test(part.file)) throw new Error("Invalid archive shard");
+          const response = await fetch(new URL(part.file, res.url), { cache: "no-store" });
+          if (!response.ok) throw new Error("Archive shard unavailable");
+          const rows = await response.json();
+          if (!Array.isArray(rows) || rows.length !== part.count) throw new Error("Archive shard count mismatch");
+          for (const row of rows) matches.push(row);
+        }
+        if (matches.length !== data.archived_match_count) throw new Error("Archive count mismatch");
+        data.matches = matches;
+      }
+      return data;
     } catch {
       return fallback;
     }
@@ -385,3 +400,4 @@
     setTimeout(runPro122ForPanel, 140);
   });
 })();
+

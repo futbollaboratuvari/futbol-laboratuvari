@@ -23,7 +23,7 @@ function score(value) {
 }
 
 function runResultTrackingHealthCheck() {
-  const archive = readJson(archiveFile, { matches: [] });
+  const archive = require("./archive-storage").readArchive(archiveFile, { matches: [] });
   const memory = readJson(memoryFile, { predictions: [] });
   const fixtures = readJson(fixturesFile, []);
   const linker = readJson(scoreStatusFile, {});
@@ -75,3 +75,4 @@ function runResultTrackingHealthCheck() {
 
 if (require.main === module) runResultTrackingHealthCheck();
 module.exports = { runResultTrackingHealthCheck };
+

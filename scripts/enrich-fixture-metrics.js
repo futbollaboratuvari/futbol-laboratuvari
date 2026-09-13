@@ -250,7 +250,7 @@ function enrichFixture(match, archiveRows) {
 
 function main() {
   const fixtures = readJson(fixturesFile, []);
-  const archive = readJson(archiveFile, { matches: [] });
+  const archive = require("./archive-storage").readArchive(archiveFile, { matches: [] });
   const archiveRows = Array.isArray(archive.matches) ? archive.matches : [];
   const list = Array.isArray(fixtures) ? fixtures : [];
   const enriched = list.map((fixture) => enrichFixture(fixture, archiveRows));

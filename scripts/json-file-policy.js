@@ -11,9 +11,13 @@ function serializeJson(file, value) {
 }
 
 function writeJson(file, value) {
+  if (path.basename(file) === "robot_match_archive.json") {
+    return require("./archive-storage").writeArchive(file, value);
+  }
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, serializeJson(file, value), "utf8");
 }
 
 module.exports = { COMPACT_FILES, serializeJson, writeJson };
+
 

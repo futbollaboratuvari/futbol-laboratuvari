@@ -9,6 +9,7 @@ const root = path.join(__dirname, "..");
 // detail-raw-signals.json is a diagnostic/index output. Keep the full raw market
 // detail in fixtures.json and compact the duplicate index before any git stage/push.
 compactDetailRawSignals();
+require("./archive-storage").ensureArchiveStorage(path.join(root, "data", "robot_match_archive.json"));
 
 const limits = [
   {
@@ -32,3 +33,4 @@ for (const { file, maxBytes, label } of limits) {
   JSON.parse(fs.readFileSync(file, "utf8"));
   console.log(`${path.relative(root, file)} OK: ${size} bytes (limit ${maxBytes})`);
 }
+

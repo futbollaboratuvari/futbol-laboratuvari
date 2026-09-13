@@ -28,7 +28,7 @@ function runRobotPipelineStatus() {
   const fixtures = readJson("data/fixtures.json", []);
   const robot = readJson("data/robot-analysis.json", { matches: [], summary: {} });
   const memory = readJson("data/learning-memory.json", { predictions: [] });
-  const archive = readJson("data/robot_match_archive.json", { matches: [] });
+  const archive = require("./archive-storage").readArchive(path.join(root, "data/robot_match_archive.json"), { matches: [] });
   const finalizer = readJson("data/learning-finalizer-status.json", {});
   const dev = readJson("data/robot-development-report.json", {});
   const memoryRows = countRows(memory);
@@ -72,3 +72,4 @@ function runRobotPipelineStatus() {
 
 if (require.main === module) runRobotPipelineStatus();
 module.exports = { runRobotPipelineStatus };
+

@@ -47,7 +47,7 @@ const dominant = (s) => {
 };
 
 const fixtures = read(fixturesFile, []);
-const archive = read(archiveFile, { matches: [], team_index: {} });
+const archive = require("./archive-storage").readArchive(archiveFile, { matches: [], team_index: {} });
 const map = new Map((archive.matches || []).map(m => [key(m), m]));
 const now = new Date().toISOString();
 
@@ -96,4 +96,5 @@ archive.team_index = teams;
 archive.stats_memory_summary = { matches: archive.matches.length, teams: Object.keys(teams).length, tracked_fields: statFields };
 writeJson(archiveFile, archive);
 console.log(`Stats memory updated: ${archive.matches.length} matches, ${Object.keys(teams).length} teams`);
+
 

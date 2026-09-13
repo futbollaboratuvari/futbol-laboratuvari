@@ -406,7 +406,7 @@ function dedupeResults(results) {
 
 async function runFinalScoreSync() {
   const memory = readJson(memoryFile, { predictions: [] });
-  const archive = readJson(archiveFile, { matches: [] });
+  const archive = require("./archive-storage").readArchive(archiveFile, { matches: [] });
   const fixtures = readJson(fixturesFile, []);
   const live = readJson(liveFile, { matches: [] });
   const previousStatus = readJson(statusFile, { date_checks: {} });
@@ -484,4 +484,5 @@ module.exports = {
   sportsDbResults,
   teamSimilarity,
 };
+
 

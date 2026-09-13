@@ -55,6 +55,7 @@ const excludedRelativePaths = new Set([
   "data/pro-analysis-index.json",
   "data/robot-analysis.json",
   "data/robot_match_archive.json",
+  "data/robot_match_archive_parts",
   "data/usage-log.json",
   "usage-log.html",
   "football-lab-hero.png"

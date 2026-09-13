@@ -44,6 +44,10 @@ def copy_extra_robot_files(target_repo: Path) -> dict[str, list[str]]:
 
         try:
             target_dir.mkdir(parents=True, exist_ok=True)
+            if filename == "robot_match_archive.json":
+                parts = source.parent / "robot_match_archive_parts"
+                if parts.is_dir():
+                    shutil.copytree(parts, target_dir / parts.name, dirs_exist_ok=True)
             shutil.copyfile(source, target)
             result["copied"].append(str(target.relative_to(target_repo)))
         except OSError as exc:
@@ -91,3 +95,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

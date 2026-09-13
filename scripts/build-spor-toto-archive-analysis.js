@@ -200,7 +200,7 @@ function buildOne(programMatch, archiveMatches) {
 
 function run() {
   const program = readJson(programPath, null);
-  const archive = readJson(archivePath, null);
+  const archive = require("./archive-storage").readArchive(archivePath, null);
   if (!program || !Array.isArray(program.matches) || program.matches.length !== 15) throw new Error("Spor Toto haftalık programı 15 maç değil");
   if (!archive || !Array.isArray(archive.matches)) throw new Error("Robot sonuç arşivi okunamadı");
   const matches = program.matches.map((match) => buildOne(match, archive.matches));
@@ -223,3 +223,4 @@ function run() {
 
 if (require.main === module) run();
 module.exports = { run, buildOne, blendArchivePublic, candidates };
+
