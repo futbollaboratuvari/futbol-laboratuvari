@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-13T21:24:05.321790+00:00
+Tarih: 2026-09-13T22:23:42.361400+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 115
-- Kac mac kaydedildi: 115
-- Kac mac zaten vardi: 0
+- Kac mac bulundu: 98
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 98
 - Ham veri havuzu toplam mac sayisi: 14666
 - Hedef tarih: 14.09.2026 Europe/Istanbul
 
@@ -17,29 +17,23 @@ Tarih: 2026-09-13T21:24:05.321790+00:00
 - ABD MLS Next Pro
 - AFC Şampiyonlar Ligi Elite Batı Grubu
 - Almanya Kadınlar Bundesliga
-- Arjantin Premier Lig 2. Aşama
 - Arjantin Primera C
 - Arjantin Ulusal Primera Lig
 - Azerbaycan Premier Lig
 - Bahreyn 2.Lig
-- Brezilya Serie A
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Bulgaristan 2.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
 - Estonya Esiliiga A
 - Estonya Esiliiga B
 - Finlandiya Veikkausliiga Şampiyonluk Grubu
 - Fransa Ligue 2
-- Guatemala Ulusal Lig Apertura
 - Gürcistan Erovnuli Liga
 - Hollanda Eerste Divisie
 - Hırvatistan 1.HNL
 - Irak Premier Lig
 - Japonya J3 Lig
 - Karadağ 1.Lig
-- Kolombiya Primera A Clausura
 - Kolombiya Primera B Clausura
 - Kosova Süper Lig
 - Kuzey Makedonya 1.Lig
@@ -47,8 +41,6 @@ Tarih: 2026-09-13T21:24:05.321790+00:00
 - Litvanya 1.Lig
 - Litvanya A Ligi
 - Malta Premier Lig Açılış
-- Meksika Kadınlar Liga MX Apertura
-- Meksika Liga MX Apertura
 - Mısır Premier Lig
 - Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
@@ -68,7 +60,6 @@ Tarih: 2026-09-13T21:24:05.321790+00:00
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Ukrayna Premier Lig
-- Uruguay Premier Lig Clausura
 - İngiltere Non League Premier Isthmian
 - İngiltere Premier Lig
 - İngiltere Premier Lig 2
@@ -82,7 +73,6 @@ Tarih: 2026-09-13T21:24:05.321790+00:00
 - İtalya Primavera Şampiyonası 1
 - İtalya Serie A
 - İzlanda Urvalsdeild Şampiyonluk Grubu
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
