@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.09.2026 01:31:05
+Oluşturma: 14.09.2026 02:23:39
 
 ## Özet
 
@@ -33,7 +33,7 @@ Oluşturma: 14.09.2026 01:31:05
 
 - 2026-09-14 | Irak Premier Lig | Erbil Sc - Al Karma | 2.5 Alt | pending | 56/100
 - 2026-09-14 | Arjantin Primera C | Ca Fenix - C Espanol | MS 2 | pending | 49/100
-- 2026-09-14 | AFC Şampiyonlar Ligi Elite Batı Grubu | Esteghlal - Al Sadd | 2.5 Alt | pending | 55/100
+- 2026-09-14 | AFC Şampiyonlar Ligi Elite Batı Grubu | Esteghlal - Al Sadd | 2.5 Alt | pending | 54/100
 - 2026-09-14 | İspanya 2.Lig | Celta Vigo Ii - Eibar | 2.5 Alt | pending | 56/100
 - 2026-09-14 | Arjantin Ulusal Primera Lig | D Belgrano - Deportivo Madry | MS 1 | pending | 48/100
 - 2026-09-14 | Fransa Ligue 2 | Red Star Paris - Metz | 2.5 Alt | pending | 55/100

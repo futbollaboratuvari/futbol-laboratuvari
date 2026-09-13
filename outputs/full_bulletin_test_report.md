@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 24
+- Scheduled match count: 129
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-14 / 2026-09-15 23:59
 
-- 2026-09-14 20:00 | Gaziantep FK - Fenerbahçe | scheduled
-- 2026-09-14 22:15 | Vikingur Reykj - Keflavik | scheduled
-- 2026-09-14 22:15 | Moreirense - Maritimo | scheduled
-- 2026-09-14 22:30 | Benjamin Aceva - Paraguari | scheduled
-- 2026-09-14 22:45 | Braga - Estoril | scheduled
-- 2026-09-14 23:00 | Portland Timbe - St. Louis City | scheduled
-- 2026-09-14 23:30 | Tigres Fc - Bogota | scheduled
-- 2026-09-15 01:00 | Banfield - Barracas | scheduled
-- 2026-09-15 01:00 | Riestra - Lanus | scheduled
-- 2026-09-15 01:00 | Indep Cambo Gr - Encarnacion | scheduled
+- 2026-09-14 02:30 | Firpo - Isidro Metapan | scheduled
+- 2026-09-14 03:00 | Swope Park Ran - Los Angeles Ii | scheduled
+- 2026-09-14 03:00 | Cs Cartagines - Alajuelense | scheduled
+- 2026-09-14 03:30 | Austin Ii - Colorado Rapids | scheduled
+- 2026-09-14 03:30 | North Texas - Houston Dynamo | scheduled
+- 2026-09-14 03:30 | Huracan - Racing Club | scheduled
+- 2026-09-14 04:00 | San Diego - Philadelphia | scheduled
+- 2026-09-14 04:00 | Municipal - Malacateco | scheduled
+- 2026-09-14 04:00 | Santos Laguna - Fc Juarez | scheduled
+- 2026-09-14 04:07 | Guadalajara - Pumas Unam | scheduled

@@ -3,26 +3,14 @@
 Gunler: 2026-09-14 / 2026-09-15
 Kaynak: fixtures.json
 Ham mac: 162
-Aktif mac: 141
+Aktif mac: 129
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 21
-Bugun: 124
+Bultenden dusurulen mac: 33
+Bugun: 112
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-09-14 02:00 | Şili Premier Lig | Audax Italiano - O Higgins | scheduled | -
-- 2026-09-14 02:00 | Kolombiya Primera B Clausura | Quindio - Patriotas | scheduled | -
-- 2026-09-14 02:00 | Ekvador Pro Lig | Barcelona Gua - Delfin | scheduled | -
-- 2026-09-14 02:00 | Ekvador Pro Lig | Libertad - Indep. Jose Ter | scheduled | -
-- 2026-09-14 02:00 | ABD MLS Next Pro | New York Rb Ii - Fc Cincinnati I | scheduled | -
-- 2026-09-14 02:00 | ABD MLS Next Pro | Orlando City I - Toronto Fc Ii | scheduled | -
-- 2026-09-14 02:00 | ABD MLS Next Pro | Inter Miami Ii - Huntsville City | scheduled | -
-- 2026-09-14 02:00 | Guatemala Ulusal Lig Apertura | Guastatoya - Xelaju | scheduled | -
-- 2026-09-14 02:00 | Meksika Kadınlar Liga MX Apertura | Atletico San L - Santos Laguna ( | scheduled | -
-- 2026-09-14 02:00 | Meksika Kadınlar Liga MX Apertura | América (K) - Tigres Uanl (K) | scheduled | -
-- 2026-09-14 02:10 | Kolombiya Primera A Clausura | Once Caldas - Deportivo Cali | scheduled | -
-- 2026-09-14 02:15 | Honduras Ulusal Lig Apertura | Marathon - Depor. Olimpia | scheduled | -
 - 2026-09-14 02:30 | El Salvador Primera Lig Apertura | Firpo - Isidro Metapan | scheduled | -
 - 2026-09-14 03:00 | Kosta Rika Premier Lig Apertura | Cs Cartagines - Alajuelense | scheduled | -
 - 2026-09-14 03:00 | ABD MLS Next Pro | Swope Park Ran - Los Angeles Ii | scheduled | -
