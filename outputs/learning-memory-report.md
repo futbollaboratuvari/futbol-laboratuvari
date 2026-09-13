@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 13.09.2026 20:47:18
+Oluşturma: 13.09.2026 21:59:49
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1187
+- Bekleyen tahmin: 1188
 - Kazanan tahmin: 162
-- Kaybeden tahmin: 151
+- Kaybeden tahmin: 150
 - Lig sayısı: 254
 - Seçenek sayısı: 6
 
@@ -22,7 +22,7 @@ Oluşturma: 13.09.2026 20:47:18
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 576, bekleyen 461, başarı %61, düz getiri %2, ağırlık 1
+- 2.5 Alt: toplam 576, bekleyen 462, başarı %61, düz getiri %3, ağırlık 1
 - 2.5 Üst: toplam 184, bekleyen 123, başarı %53, düz getiri %-8, ağırlık 1
 - MS 1: toplam 510, bekleyen 422, başarı %50, düz getiri %-15, ağırlık 1
 - MS X: toplam 4, bekleyen 2, başarı %50, düz getiri %61, ağırlık 1
@@ -31,6 +31,7 @@ Oluşturma: 13.09.2026 20:47:18
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-13 | Norveç 3.Lig Grup 2 | Ranheim Ii - Byasen | 2.5 Alt | pending | 51/100
 - 2026-09-13 | Portekiz Premier Lig | Famalicao - Sporting Cp | MS 2 | pending | 68/100
 - 2026-09-13 | Norveç 3.Lig Grup 2 | Ranheim Ii - Byasen | MS 2 | pending | 46/100
 - 2026-09-13 | Malta Premier Lig Açılış | Sliema - Mosta Fc | 2.5 Alt | pending | 55/100
@@ -45,5 +46,4 @@ Oluşturma: 13.09.2026 20:47:18
 - 2026-09-13 | Danimarka Süperlig | Silkeborg - Viborg | 2.5 Alt | pending | 62/100
 - 2026-09-13 | İspanya Tercera Ligi Grup 6 | Ontinyent 1931 - Saguntino | 2.5 Alt | pending | 50/100
 - 2026-09-13 | İran Persian Gulf Pro Lig | Mes Shahr-E Ba - Nassaji Mazanda | 2.5 Alt | pending | 49/100
-- 2026-09-13 | İspanya Tercera Ligi Grup 18 | Torrijos - Tarancón | 2.5 Alt | pending | 50/100
 
