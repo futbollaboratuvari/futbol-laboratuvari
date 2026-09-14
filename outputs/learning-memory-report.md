@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.09.2026 02:32:26
+Oluşturma: 14.09.2026 03:25:39
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1146
-- Kazanan tahmin: 186
-- Kaybeden tahmin: 168
+- Bekleyen tahmin: 1124
+- Kazanan tahmin: 200
+- Kaybeden tahmin: 176
 - Lig sayısı: 250
 - Seçenek sayısı: 6
 
@@ -22,15 +22,16 @@ Oluşturma: 14.09.2026 02:32:26
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 604, bekleyen 474, başarı %59, düz getiri %0, ağırlık 1
-- 2.5 Üst: toplam 169, bekleyen 104, başarı %52, düz getiri %-8, ağırlık 1
-- MS 1: toplam 508, bekleyen 408, başarı %51, düz getiri %-13, ağırlık 1
+- 2.5 Alt: toplam 603, bekleyen 463, başarı %61, düz getiri %2, ağırlık 1
+- 2.5 Üst: toplam 170, bekleyen 99, başarı %52, düz getiri %-8, ağırlık 1
+- MS 1: toplam 508, bekleyen 403, başarı %51, düz getiri %-12, ağırlık 1
 - MS X: toplam 4, bekleyen 2, başarı %50, düz getiri %20, ağırlık 1
 - KG Var: toplam 15, bekleyen 1, başarı %50, düz getiri %-6, ağırlık 1
-- MS 2: toplam 200, bekleyen 157, başarı %37, düz getiri %-28, ağırlık 1
+- MS 2: toplam 200, bekleyen 156, başarı %36, düz getiri %-30, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-14 | Romanya 1.Lig | Universitatea - Otelul Galati | 2.5 Üst | pending | 54/100
 - 2026-09-14 | İngiltere Premier Lig | Leeds Utd - Newcastle Utd | 2.5 Alt | pending | 70/100
 - 2026-09-14 | Norveç 3.Lig Grup 4 | Viking B - Varhaug | 2.5 Alt | pending | 48/100
 - 2026-09-14 | Letonya 1.Lig | Rigas Fs Ii - Skanste | 2.5 Alt | pending | 49/100
@@ -45,5 +46,4 @@ Oluşturma: 14.09.2026 02:32:26
 - 2026-09-14 | İrlanda Premier Lig | Dundalk - St Patricks | 2.5 Alt | pending | 50/100
 - 2026-09-14 | İrlanda Premier Lig | Waterford - Derry City | 2.5 Alt | pending | 49/100
 - 2026-09-14 | İrlanda Premier Lig | Sligo Rovers - Galway United | 2.5 Alt | pending | 50/100
-- 2026-09-14 | İngiltere Non League Premier Isthmian | Aveley - Wingate | MS 1 | pending | 57/100
 
