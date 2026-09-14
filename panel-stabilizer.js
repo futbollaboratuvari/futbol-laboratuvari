@@ -104,13 +104,19 @@
     });
   };
 
+  const parentPanelForHash = new Map([["membership-code-access", "premium-analysis-panel"]]);
+
+  const panelIdForHash = (hashId) => {
+    if (panels.some((panel) => panel.id === hashId)) return hashId;
+    return parentPanelForHash.get(hashId) || "daily-matches-widget";
+  };
+
   const boot = () => {
     cleanLegacyHeaderAccess();
     addStyle();
     placePanels();
     const hashId = location.hash ? location.hash.slice(1) : "";
-    const target = panels.some((panel) => panel.id === hashId) ? hashId : "daily-matches-widget";
-    openPanel(target, false);
+    openPanel(panelIdForHash(hashId), false);
   };
 
   boot();
@@ -125,6 +131,6 @@
   });
   window.addEventListener("hashchange", () => {
     const id = location.hash ? location.hash.slice(1) : "";
-    if (panels.some((panel) => panel.id === id)) openPanel(id, false);
+    openPanel(panelIdForHash(id), false);
   });
 })();
