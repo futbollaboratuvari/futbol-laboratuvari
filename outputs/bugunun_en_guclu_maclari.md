@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-14T22:20:27.757Z
+- Güncelleme: 2026-09-14T22:48:19.848Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -136,7 +136,7 @@
 | Stenhousemuir VS Partick Thistle | İskoçya Championship | 21:45 | MS 2 | 1.43 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Solihull Moors VS Barrow | İngiltere Ulusal Lig | 21:45 | MS 2 | 2.13 | 65 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Carlisle VS Forest Green | İngiltere Ulusal Lig | 21:45 | MS 1 | 1.80 | 67 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
-| Boston United VS Woking | İngiltere Ulusal Lig | 21:45 | 2.5 Üst | 1.61 | 78 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
+| Boston United VS Woking | İngiltere Ulusal Lig | 21:45 | 2.5 Üst | 1.61 | 78 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
 | Aldershot VS Yeovil | İngiltere Ulusal Lig | 21:45 | MS 1 | 2.00 | 65 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Wealdstone VS Halifax | İngiltere Ulusal Lig | 21:45 | 2.5 Alt | 1.95 | 66 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Sutton United VS Eastleigh | İngiltere Ulusal Lig | 21:45 | 2.5 Alt | 1.70 | 73 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
@@ -189,7 +189,7 @@
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Bristol City VS Lincoln | 2.5 Üst | 1.67 | 80 | Ana kupon adayı | Değerli | Orta | Düşük |
-| Boston United VS Woking | 2.5 Üst | 1.61 | 78 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
+| Boston United VS Woking | 2.5 Üst | 1.61 | 78 | Orta risk kupon adayı | Değerli | Orta | Düşük |
 | Bahia VS Remo | MS 1 | 1.26 | 78 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta |
 | Univ Catolica VS Orense | MS 1 | 1.26 | 78 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
 | Vallecano VS Espanyol | 2.5 Üst | 1.72 | 76 | Orta risk kupon adayı | Değerli | Orta | Düşük |

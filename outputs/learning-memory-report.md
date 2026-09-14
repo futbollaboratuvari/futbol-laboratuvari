@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.09.2026 01:20:36
+Oluşturma: 15.09.2026 01:48:58
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1142
-- Kazanan tahmin: 192
-- Kaybeden tahmin: 166
+- Bekleyen tahmin: 1131
+- Kazanan tahmin: 201
+- Kaybeden tahmin: 168
 - Lig sayısı: 263
 - Seçenek sayısı: 6
 
@@ -22,15 +22,16 @@ Oluşturma: 15.09.2026 01:20:36
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 618, bekleyen 480, başarı %59, düz getiri %-1, ağırlık 1
-- MS 1: toplam 507, bekleyen 408, başarı %54, düz getiri %-8, ağırlık 1
-- 2.5 Üst: toplam 163, bekleyen 99, başarı %52, düz getiri %-7, ağırlık 1
+- 2.5 Alt: toplam 619, bekleyen 476, başarı %59, düz getiri %2, ağırlık 1
+- MS 1: toplam 506, bekleyen 403, başarı %54, düz getiri %-7, ağırlık 1
+- 2.5 Üst: toplam 163, bekleyen 97, başarı %53, düz getiri %-4, ağırlık 1
 - MS X: toplam 5, bekleyen 3, başarı %50, düz getiri %20, ağırlık 1
 - KG Var: toplam 16, bekleyen 1, başarı %47, düz getiri %-12, ağırlık 1
 - MS 2: toplam 191, bekleyen 151, başarı %43, düz getiri %-21, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-15 | Arjantin Primera C | Claypole - Sacachispas | 2.5 Alt | pending | 50/100
 - 2026-09-15 | Meksika Ascenso MX Apertura | Dorados - Cancun Fc | MS 1 | pending | 57/100
 - 2026-09-15 | İngiltere Ulusal Lig | Worthing - Hornchurch | MS 1 | pending | 61/100
 - 2026-09-15 | İngiltere Ulusal Lig N / S Güney | Truro City - Salisbury | MS 1 | pending | 51/100
@@ -45,5 +46,4 @@ Oluşturma: 15.09.2026 01:20:36
 - 2026-09-15 | İngiltere Non League Premier Isthmian | Whitehawk - Three Bridges | MS 2 | pending | 45/100
 - 2026-09-15 | İngiltere Non League Premier Isthmian | Ramsgate - Maldon And Tipt | MS 1 | pending | 54/100
 - 2026-09-15 | İngiltere Non League Premier Güney | Berkhamsted - Uxbridge | 2.5 Alt | pending | 49/100
-- 2026-09-15 | İngiltere Lig Kupası 3.Tur | Liverpool - Tottenham | MS 1 | pending | 66/100
 

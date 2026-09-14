@@ -3,17 +3,14 @@
 Gunler: 2026-09-15 / 2026-09-16
 Kaynak: fixtures.json
 Ham mac: 173
-Aktif mac: 168
+Aktif mac: 165
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 154
+Bultenden dusurulen mac: 8
+Bugun: 151
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-09-15 01:30 | Brezilya Serie B | Botafogo Ribei - Goias | scheduled | -
-- 2026-09-15 01:30 | Brezilya Serie B | America Mineir - Sao Bernardo | scheduled | -
-- 2026-09-15 01:45 | Kolombiya Primera B Clausura | Orsomarso - Atletico Fc | scheduled | -
 - 2026-09-15 02:00 | Brezilya Serie A | Bahia - Remo | scheduled | -
 - 2026-09-15 02:30 | Şili Premier Lig | Union La Caler - Deportes Limach | scheduled | -
 - 2026-09-15 03:00 | Ekvador Pro Lig | Univ Catolica - Orense | scheduled | -
