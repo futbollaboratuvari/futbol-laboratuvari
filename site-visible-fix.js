@@ -8,6 +8,15 @@
     });
   };
 
+  const ensureEditorialLink = () => {
+    const nav = document.querySelector(".footer-legal-links");
+    if (!nav || nav.querySelector('a[href="./bilgi-merkezi.html"]')) return;
+    const link = document.createElement("a");
+    link.href = "./bilgi-merkezi.html";
+    link.textContent = "Bilgi Merkezi";
+    nav.insertBefore(link, nav.firstChild);
+  };
+
   const cleanMarkets = () => {
     const allow = /maç sonucu|ms |hnd|handikap|skor|doğru|dogru|kg|gol|üst|alt|var|yok|1y|2y|iy\/ms|ilk yarı|ikinci yarı|tek|çift|korner|kart|şut/i;
     document.querySelectorAll("#daily-matches-widget .fl-extra .fl-extra-market").forEach((card) => {
@@ -72,6 +81,7 @@
     }
     document.querySelectorAll(".reveal").forEach((el) => el.classList.add("visible"));
     renameMenu();
+    ensureEditorialLink();
     cleanMarkets();
   };
 
