@@ -2,11 +2,11 @@
 
 Gunler: 2026-09-14 / 2026-09-15
 Kaynak: fixtures.json
-Ham mac: 129
+Ham mac: 162
 Aktif mac: 115
 Canli mac: 0
-Biten mac: 1
-Bultenden dusurulen mac: 14
+Biten mac: 0
+Bultenden dusurulen mac: 47
 Bugun: 98
 Yarin: 17
 
@@ -131,4 +131,4 @@ Yarin: 17
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-09-14 02:30 | El Salvador Primera Lig Apertura | Firpo - Isidro Metapan | finished | 1-2
+Biten mac yok.
