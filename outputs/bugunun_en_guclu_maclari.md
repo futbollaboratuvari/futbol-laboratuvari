@@ -2,19 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-14T19:31:09.198Z
+- Güncelleme: 2026-09-14T20:54:45.164Z
 - Ham maç sayısı: 52
 - Yarın bülteni maç sayısı: 19
 - Detay blok sayısı: 147
-- Aktif bülten maçı: 22
-- Bültenden düşürülen maç: 30
+- Aktif bülten maçı: 19
+- Bültenden düşürülen maç: 33
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Braga - Estoril | Portekiz Premier Lig | 22:45 | Veri bekleniyor | - | 1.21 | 6 |
-| Portland Timbe - St. Louis City | ABD MLS Next Pro | 23:00 | Veri bekleniyor | - | 2.1 | 8 |
-| Tigres Fc - Bogota | Kolombiya Primera B Clausura | 23:30 | Veri bekleniyor | - | 2.03 | 8 |
 | Banfield - Barracas | Arjantin Premier Lig 2. Aşama | 01:00 | Veri bekleniyor | - | 2.3 | 8 |
 | Riestra - Lanus | Arjantin Premier Lig 2. Aşama | 01:00 | Veri bekleniyor | - | 2.97 | 8 |
 | Torque - Liverpool Monte | Uruguay Premier Lig Clausura | 01:00 | Veri bekleniyor | - | 2.83 | 5 |

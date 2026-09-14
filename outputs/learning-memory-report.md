@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.09.2026 22:31:10
+Oluşturma: 14.09.2026 23:55:22
 
 ## Özet
 
@@ -31,6 +31,8 @@ Oluşturma: 14.09.2026 22:31:10
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-14 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Shamal - Al Ittihad (Cid | 2.5 Alt | pending | 57/100
+- 2026-09-14 | Türkiye Süper Lig | Gaziantep Fk - Fenerbahçe | 2.5 Alt | pending | 65/100
 - 2026-09-14 | Brezilya Serie B | Avai - Vila Nova | MS 2 | pending | 58/100
 - 2026-09-14 | İrlanda Premier Lig | Dundalk - St Patricks | MS 2 | pending | 48/100
 - 2026-09-14 | İsveç Superettan | Ostersund - Helsingborg | MS 1 | pending | 56/100
@@ -44,6 +46,4 @@ Oluşturma: 14.09.2026 22:31:10
 - 2026-09-14 | Jamaika Premier Lig | Racing United - Arnett Gardens | 2.5 Alt | pending | 54/100
 - 2026-09-14 | Portekiz Premier Lig | Braga - Estoril | 2.5 Alt | pending | 61/100
 - 2026-09-14 | ABD MLS Next Pro | Portland Timbe - St. Louis City | MS 2 | pending | 46/100
-- 2026-09-14 | Jamaika Premier Lig | Molynes United - Treasure Beach | 2.5 Alt | pending | 54/100
-- 2026-09-14 | Şili Premier Lig | Union La Caler - Deportes Limach | 2.5 Alt | pending | 56/100
 
