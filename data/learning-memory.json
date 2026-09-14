@@ -1,24 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-21T22:07:49.740Z",
-  "updated_at": "2026-09-14T16:59:38.008Z",
+  "updated_at": "2026-09-14T18:51:59.316Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
     "total_predictions": 1500,
-    "pending_predictions": 1108,
-    "won_predictions": 206,
-    "lost_predictions": 186,
+    "pending_predictions": 1098,
+    "won_predictions": 212,
+    "lost_predictions": 190,
     "void_predictions": 0,
     "league_count": 248,
     "market_count": 6,
-    "added_predictions": 9,
-    "updated_predictions": 27
+    "added_predictions": 0,
+    "updated_predictions": 0,
+    "last_score_link_checked": 1108,
+    "last_score_linked": 10,
+    "last_finalizer_checked": 10,
+    "last_finalizer_updated": 10
   },
   "market_memory": {
     "MS 2": {
-      "total": 199,
-      "pending": 155,
+      "total": 200,
+      "pending": 156,
       "won": 17,
       "lost": 27,
       "void": 0,
@@ -49,8 +53,8 @@
       "learning_state": "neutral"
     },
     "MS 1": {
-      "total": 511,
-      "pending": 400,
+      "total": 510,
+      "pending": 399,
       "won": 58,
       "lost": 53,
       "void": 0,
@@ -210,6 +214,38 @@
     }
   },
   "league_memory": {
+    "Brezilya Serie B": {
+      "total": 12,
+      "pending": 7,
+      "won": 2,
+      "lost": 3,
+      "void": 0,
+      "success_rate": 0.4,
+      "profit_sample_count": 5,
+      "odds_sum": 8.19,
+      "profit_sum": -1.76,
+      "profit_square_sum": 3.9146,
+      "distinct_date_count": 2,
+      "average_odds": 1.638,
+      "flat_roi": -0.352,
+      "weight": 1,
+      "confidence_adjustment": 0,
+      "scope": "league",
+      "settled": 5,
+      "adjusted_success_rate": 0.488,
+      "confidence_low": 0.143,
+      "confidence_high": 0.728,
+      "evaluation_basis": "flat_roi",
+      "adjusted_roi": -0.043,
+      "roi_confidence_low": -1.02,
+      "roi_confidence_high": 0.316,
+      "policy_min_settled": 24,
+      "policy_min_distinct_dates": 10,
+      "sample_ready": false,
+      "temporal_ready": false,
+      "learning_active": false,
+      "learning_state": "neutral"
+    },
     "İrlanda Premier Lig": {
       "total": 6,
       "pending": 6,
@@ -2347,38 +2383,6 @@
       "adjusted_roi": null,
       "roi_confidence_low": null,
       "roi_confidence_high": null,
-      "policy_min_settled": 24,
-      "policy_min_distinct_dates": 10,
-      "sample_ready": false,
-      "temporal_ready": false,
-      "learning_active": false,
-      "learning_state": "neutral"
-    },
-    "Brezilya Serie B": {
-      "total": 11,
-      "pending": 6,
-      "won": 2,
-      "lost": 3,
-      "void": 0,
-      "success_rate": 0.4,
-      "profit_sample_count": 5,
-      "odds_sum": 8.19,
-      "profit_sum": -1.76,
-      "profit_square_sum": 3.9146,
-      "distinct_date_count": 2,
-      "average_odds": 1.638,
-      "flat_roi": -0.352,
-      "weight": 1,
-      "confidence_adjustment": 0,
-      "scope": "league",
-      "settled": 5,
-      "adjusted_success_rate": 0.488,
-      "confidence_low": 0.143,
-      "confidence_high": 0.728,
-      "evaluation_basis": "flat_roi",
-      "adjusted_roi": -0.043,
-      "roi_confidence_low": -1.02,
-      "roi_confidence_high": 0.316,
       "policy_min_settled": 24,
       "policy_min_distinct_dates": 10,
       "sample_ready": false,
@@ -6483,8 +6487,8 @@
       "learning_state": "neutral"
     },
     "Avusturya 1.Lig": {
-      "total": 4,
-      "pending": 4,
+      "total": 3,
+      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -8148,6 +8152,38 @@
     }
   },
   "league_market_memory": {
+    "Brezilya Serie B :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "profit_sample_count": 0,
+      "odds_sum": 0,
+      "profit_sum": 0,
+      "profit_square_sum": 0,
+      "distinct_date_count": 0,
+      "average_odds": null,
+      "flat_roi": null,
+      "weight": 1,
+      "confidence_adjustment": 0,
+      "scope": "league_market",
+      "settled": 0,
+      "adjusted_success_rate": 0.5,
+      "confidence_low": 0,
+      "confidence_high": 1,
+      "evaluation_basis": "flat_roi",
+      "adjusted_roi": null,
+      "roi_confidence_low": null,
+      "roi_confidence_high": null,
+      "policy_min_settled": 30,
+      "policy_min_distinct_dates": 14,
+      "sample_ready": false,
+      "temporal_ready": false,
+      "learning_active": false,
+      "learning_state": "neutral"
+    },
     "İrlanda Premier Lig :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -26867,41 +26903,33 @@
       "temporal_ready": false,
       "learning_active": false,
       "learning_state": "neutral"
-    },
-    "Avusturya 1.Lig :: MS 1": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "profit_sample_count": 0,
-      "odds_sum": 0,
-      "profit_sum": 0,
-      "profit_square_sum": 0,
-      "distinct_date_count": 0,
-      "average_odds": null,
-      "flat_roi": null,
-      "weight": 1,
-      "confidence_adjustment": 0,
-      "scope": "league_market",
-      "settled": 0,
-      "adjusted_success_rate": 0.5,
-      "confidence_low": 0,
-      "confidence_high": 1,
-      "evaluation_basis": "flat_roi",
-      "adjusted_roi": null,
-      "roi_confidence_low": null,
-      "roi_confidence_high": null,
-      "policy_min_settled": 30,
-      "policy_min_distinct_dates": 14,
-      "sample_ready": false,
-      "temporal_ready": false,
-      "learning_active": false,
-      "learning_state": "neutral"
     }
   },
   "predictions": [
+    {
+      "id": "2026-09-14|brezilya serie b|avai vila nova|ms 2|03 30",
+      "date": "2026-09-14",
+      "created_at": "2026-09-14T18:51:34.156Z",
+      "match_name": "Avai - Vila Nova",
+      "league": "Brezilya Serie B",
+      "start_time": "03:30",
+      "market": "MS 2",
+      "odds": "2.45",
+      "confidence_score": "58%",
+      "analysis_score": 58,
+      "model_score": 58,
+      "estimated_probability": 37.6,
+      "market_probability": 33.7,
+      "edge_percent": 3.9,
+      "data_completeness": 59,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-09-14T18:51:38.689Z"
+    },
     {
       "id": "2026-09-14|irlanda premier lig|dundalk st patricks|ms 2|21 45",
       "date": "2026-09-14",
@@ -26923,7 +26951,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|isvec superettan|ostersund helsingborg|ms 1|20 05",
@@ -26946,7 +26975,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|ingiltere premier lig 2|blackburn rove reading b|2 5 alt|21 00",
@@ -26969,7 +26999,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|turkiye super lig|gaziantep fk fenerbahce|kg var|20 00",
@@ -26989,10 +27020,13 @@
       "data_completeness": 64,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "0-0",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-14T18:51:38.686Z",
+      "score_linked_at": "2026-09-14T18:51:55.773Z",
+      "finalized_at": "2026-09-14T18:51:59.315Z"
     },
     {
       "id": "2026-09-14|meksika liga mx apertura|santos laguna fc juarez|ms 1|04 00",
@@ -27012,10 +27046,12 @@
       "data_completeness": 56,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "2-1",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "score_linked_at": "2026-09-14T18:51:55.773Z",
+      "finalized_at": "2026-09-14T18:51:59.315Z"
     },
     {
       "id": "2026-09-14|uruguay premier lig clausura|penarol albion|ms 1|01 30",
@@ -27035,10 +27071,12 @@
       "data_completeness": 56,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-1",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "score_linked_at": "2026-09-14T18:51:55.773Z",
+      "finalized_at": "2026-09-14T18:51:59.315Z"
     },
     {
       "id": "2026-09-14|guatemala ulusal lig apertura|guastatoya xelaju|2 5 ust|02 00",
@@ -27058,10 +27096,12 @@
       "data_completeness": 70,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "2-1",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "score_linked_at": "2026-09-14T18:51:55.773Z",
+      "finalized_at": "2026-09-14T18:51:59.315Z"
     },
     {
       "id": "2026-09-14|kolombiya primera a clausura|once caldas deportivo cali|2 5 ust|02 10",
@@ -27081,10 +27121,12 @@
       "data_completeness": 64,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-2",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "score_linked_at": "2026-09-14T18:51:55.773Z",
+      "finalized_at": "2026-09-14T18:51:59.315Z"
     },
     {
       "id": "2026-09-14|kosta rika premier lig apertura|cs cartagines alajuelense|2 5 ust|03 00",
@@ -27104,10 +27146,12 @@
       "data_completeness": 61,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-1",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "score_linked_at": "2026-09-14T18:51:55.773Z",
+      "finalized_at": "2026-09-14T18:51:59.315Z"
     },
     {
       "id": "2026-09-14|jamaika premier lig|racing united arnett gardens|2 5 alt|04 00",
@@ -27131,7 +27175,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.999Z"
+      "updated_at": "2026-09-14T18:51:38.689Z"
     },
     {
       "id": "2026-09-14|portekiz premier lig|braga estoril|2 5 alt|22 45",
@@ -27141,13 +27185,13 @@
       "league": "Portekiz Premier Lig",
       "start_time": "22:45",
       "market": "2.5 Alt",
-      "odds": "1.94",
-      "confidence_score": "62%",
-      "analysis_score": 62,
-      "model_score": 62,
-      "estimated_probability": 46.5,
-      "market_probability": 43.8,
-      "edge_percent": 2.8,
+      "odds": "2.01",
+      "confidence_score": "61%",
+      "analysis_score": 61,
+      "model_score": 61,
+      "estimated_probability": 45.5,
+      "market_probability": 42.2,
+      "edge_percent": 3.2,
       "data_completeness": 60,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
@@ -27155,7 +27199,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|abd mls next pro|portland timbe st louis city|ms 2|23 00",
@@ -27203,7 +27247,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|sili premier lig|union la caler deportes limach|2 5 alt|02 30",
@@ -27227,7 +27271,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.999Z"
+      "updated_at": "2026-09-14T18:51:38.689Z"
     },
     {
       "id": "2026-09-14|kolombiya primera a clausura|america de cal deportivo pasto|ms 1|04 00",
@@ -27275,7 +27319,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|isvec superettan|ostersund helsingborg|2 5 ust|20 05",
@@ -27323,7 +27367,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|arjantin primera c|ca fenix c espanol|2 5 alt|21 00",
@@ -27347,7 +27391,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|fransa ligue 2|red star paris metz|2 5 ust|21 45",
@@ -27371,7 +27415,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|irlanda premier lig|shelbourne drogheda|2 5 ust|21 45",
@@ -27395,7 +27439,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|polonya 1 lig|stal mielec nieciecza|2 5 alt|20 00",
@@ -27419,7 +27463,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|norvec 3 lig grup 5|fauske sprint stromsgodset b|ms 1|18 00",
@@ -27791,13 +27835,13 @@
       "league": "İngiltere Premier Lig",
       "start_time": "22:00",
       "market": "2.5 Alt",
-      "odds": "1.90",
+      "odds": "1.91",
       "confidence_score": "70%",
       "analysis_score": 70,
       "model_score": 70,
-      "estimated_probability": 48.3,
-      "market_probability": 44.8,
-      "edge_percent": 3.5,
+      "estimated_probability": 48.1,
+      "market_probability": 44.5,
+      "edge_percent": 3.7,
       "data_completeness": 73,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
@@ -27805,7 +27849,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|norvec 3 lig grup 4|viking b varhaug|2 5 alt|20 00",
@@ -27829,7 +27873,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|letonya 1 lig|rigas fs ii skanste|2 5 alt|17 00",
@@ -27901,7 +27945,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|arjantin primera c|ca fenix c espanol|ms 2|21 00",
@@ -27949,7 +27993,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|ispanya 2 lig|celta vigo ii eibar|2 5 alt|21 30",
@@ -27973,7 +28017,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|arjantin ulusal primera lig|d belgrano deportivo madry|ms 1|21 30",
@@ -27997,7 +28041,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|fransa ligue 2|red star paris metz|2 5 alt|21 45",
@@ -28093,7 +28137,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|irlanda premier lig|sligo rovers galway united|2 5 alt|21 45",
@@ -28117,7 +28161,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|ingiltere non league premier isthmian|aveley wingate|ms 1|21 45",
@@ -28141,7 +28185,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|ingiltere premier lig|leeds utd newcastle utd|2 5 ust|22 00",
@@ -28175,13 +28219,13 @@
       "league": "İspanya LaLiga",
       "start_time": "22:00",
       "market": "MS 1",
-      "odds": "1.75",
+      "odds": "1.72",
       "confidence_score": "52%",
       "analysis_score": 52,
       "model_score": 52,
-      "estimated_probability": 42,
-      "market_probability": 48.5,
-      "edge_percent": -6.5,
+      "estimated_probability": 42.7,
+      "market_probability": 49.4,
+      "edge_percent": -6.7,
       "data_completeness": 49,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
@@ -28189,7 +28233,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|danimarka superlig|midtjylland brondby|ms 1|20 00",
@@ -28213,7 +28257,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.996Z"
+      "updated_at": "2026-09-14T18:51:38.686Z"
     },
     {
       "id": "2026-09-14|isvec allsvenskan|djurgarden gais|ms 1|20 00",
@@ -28237,7 +28281,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.996Z"
+      "updated_at": "2026-09-14T18:51:38.686Z"
     },
     {
       "id": "2026-09-14|isvec allsvenskan|sirius degerfors|2 5 alt|20 00",
@@ -28261,7 +28305,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.996Z"
+      "updated_at": "2026-09-14T18:51:38.686Z"
     },
     {
       "id": "2026-09-14|polonya ekstraklasa|radomiak radom piast gliwice|2 5 alt|20 00",
@@ -28285,7 +28329,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.996Z"
+      "updated_at": "2026-09-14T18:51:38.686Z"
     },
     {
       "id": "2026-09-14|sirbistan super lig|zemun belg radnik surdulic|2 5 alt|20 00",
@@ -28309,7 +28353,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.996Z"
+      "updated_at": "2026-09-14T18:51:38.686Z"
     },
     {
       "id": "2026-09-14|portekiz 2 lig|sporting cp b lusitania de lo|2 5 alt|20 00",
@@ -28333,7 +28377,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.996Z"
+      "updated_at": "2026-09-14T18:51:38.686Z"
     },
     {
       "id": "2026-09-14|portekiz 2 lig|porto b vizela|2 5 alt|20 00",
@@ -28357,7 +28401,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.686Z"
     },
     {
       "id": "2026-09-14|isvec superettan|orebro united nordic|2 5 alt|20 00",
@@ -28381,7 +28425,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|isvec superettan|norrby varbergs|2 5 alt|20 00",
@@ -28405,7 +28449,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|misir premier lig|ceramica cleop national bank o|2 5 alt|20 00",
@@ -28416,9 +28460,9 @@
       "start_time": "20:00",
       "market": "2.5 Alt",
       "odds": "1.64",
-      "confidence_score": "44%",
-      "analysis_score": 44,
-      "model_score": 44,
+      "confidence_score": "52%",
+      "analysis_score": 52,
+      "model_score": 52,
       "estimated_probability": 50.3,
       "market_probability": 50.3,
       "edge_percent": 0,
@@ -28429,7 +28473,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|polonya 1 lig|stal mielec nieciecza|ms 1|20 00",
@@ -28477,7 +28521,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|norvec 3 lig grup 4|viking b varhaug|ms 2|20 00",
@@ -28525,7 +28569,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|karadag 1 lig|petrovac fk arsenal tiva|2 5 alt|20 00",
@@ -28549,7 +28593,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|isvec superettan|ostersund helsingborg|2 5 alt|20 05",
@@ -28597,7 +28641,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|portekiz premier lig|rio ave estrela|2 5 ust|20 45",
@@ -28621,7 +28665,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|hollanda eerste divisie|psv b jong az alkmaar|ms 2|21 00",
@@ -28645,7 +28689,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|hollanda eerste divisie|utrecht ii ajax b|ms 1|21 00",
@@ -28669,7 +28713,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|romanya 1 lig|fc steaua petrolul 52|2 5 alt|21 00",
@@ -28717,7 +28761,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|ingiltere premier lig 2|west ham b liverpool u21|ms 1|21 00",
@@ -28741,7 +28785,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.997Z"
+      "updated_at": "2026-09-14T18:51:38.687Z"
     },
     {
       "id": "2026-09-14|ingiltere premier lig 2|blackburn rove reading b|ms 2|21 00",
@@ -28929,11 +28973,13 @@
       "data_completeness": 38,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-1",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.995Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-14T16:59:37.995Z",
+      "score_linked_at": "2026-09-14T18:51:55.828Z",
+      "finalized_at": "2026-09-14T18:51:59.315Z"
     },
     {
       "id": "2026-09-14|afc sampiyonlar ligi elite bati grubu|al ahli dubai tractor fc|ms 1|19 00",
@@ -29193,11 +29239,13 @@
       "data_completeness": 59,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "0-2",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.996Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-14T16:59:37.996Z",
+      "score_linked_at": "2026-09-14T18:51:55.836Z",
+      "finalized_at": "2026-09-14T18:51:59.315Z"
     },
     {
       "id": "2026-09-14|italya serie a|como parma|2 5 alt|19 30",
@@ -29217,11 +29265,13 @@
       "data_completeness": 67,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-1",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.996Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-14T16:59:37.996Z",
+      "score_linked_at": "2026-09-14T18:51:55.836Z",
+      "finalized_at": "2026-09-14T18:51:59.315Z"
     },
     {
       "id": "2026-09-14|rusya fnl|veles pfc sochi|2 5 alt|19 30",
@@ -29265,11 +29315,13 @@
       "data_completeness": 64,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "0-0",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T14:16:52.316Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-14T14:16:52.316Z",
+      "score_linked_at": "2026-09-14T18:51:55.836Z",
+      "finalized_at": "2026-09-14T18:51:59.316Z"
     },
     {
       "id": "2026-09-14|turkiye tff 1 lig|kayserispor istanbulspor|ms 1|20 00",
@@ -29293,7 +29345,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.996Z"
+      "updated_at": "2026-09-14T18:51:38.686Z"
     },
     {
       "id": "2026-09-14|gurcistan erovnuli liga|meshakhte fc rustavi|2 5 alt|15 00",
@@ -30985,12 +31037,12 @@
       "league": "Kolombiya Primera A Clausura",
       "start_time": "04:00",
       "market": "2.5 Üst",
-      "odds": "1.68",
-      "confidence_score": "56%",
-      "analysis_score": 56,
-      "model_score": 56,
-      "estimated_probability": 49.1,
-      "market_probability": 49.1,
+      "odds": "1.58",
+      "confidence_score": "57%",
+      "analysis_score": 57,
+      "model_score": 57,
+      "estimated_probability": 52.1,
+      "market_probability": 52.1,
       "edge_percent": 0,
       "data_completeness": 40,
       "model_version": "pro13-btts-conditioned-v3",
@@ -30999,7 +31051,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T11:33:40.326Z"
+      "updated_at": "2026-09-14T18:51:38.689Z"
     },
     {
       "id": "2026-09-14|guatemala ulusal lig apertura|antigua guatem suchitepequez|2 5 ust|04 00",
@@ -31009,12 +31061,12 @@
       "league": "Guatemala Ulusal Lig Apertura",
       "start_time": "04:00",
       "market": "2.5 Üst",
-      "odds": "1.60",
+      "odds": "1.58",
       "confidence_score": "55%",
       "analysis_score": 55,
       "model_score": 55,
-      "estimated_probability": 51.5,
-      "market_probability": 51.5,
+      "estimated_probability": 52.3,
+      "market_probability": 52.3,
       "edge_percent": 0,
       "data_completeness": 41,
       "model_version": "pro13-btts-conditioned-v3",
@@ -31023,7 +31075,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T01:16:12.776Z"
+      "updated_at": "2026-09-14T18:51:38.689Z"
     },
     {
       "id": "2026-09-14|meksika kadinlar liga mx apertura|pachuca k leon k|ms 1|04 00",
@@ -31033,12 +31085,12 @@
       "league": "Meksika Kadınlar Liga MX Apertura",
       "start_time": "04:00",
       "market": "MS 1",
-      "odds": "1.27",
-      "confidence_score": "59%",
-      "analysis_score": 59,
-      "model_score": 59,
-      "estimated_probability": 65,
-      "market_probability": 65,
+      "odds": "1.31",
+      "confidence_score": "58%",
+      "analysis_score": 58,
+      "model_score": 58,
+      "estimated_probability": 63.1,
+      "market_probability": 63.1,
       "edge_percent": 0,
       "data_completeness": 35,
       "model_version": "pro13-btts-conditioned-v3",
@@ -31047,7 +31099,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T01:16:12.776Z"
+      "updated_at": "2026-09-14T18:51:38.689Z"
     },
     {
       "id": "2026-09-14|abd mls next pro|portland timbe st louis city|ms 1|23 00",
@@ -31057,12 +31109,12 @@
       "league": "ABD MLS Next Pro",
       "start_time": "23:00",
       "market": "MS 1",
-      "odds": "2.14",
-      "confidence_score": "47%",
-      "analysis_score": 47,
-      "model_score": 47,
-      "estimated_probability": 38.6,
-      "market_probability": 38.6,
+      "odds": "2.10",
+      "confidence_score": "48%",
+      "analysis_score": 48,
+      "model_score": 48,
+      "estimated_probability": 39.3,
+      "market_probability": 39.3,
       "edge_percent": 0,
       "data_completeness": 43,
       "model_version": "pro13-btts-conditioned-v3",
@@ -31071,7 +31123,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|kolombiya primera b clausura|tigres fc bogota|ms 1|23 30",
@@ -31095,7 +31147,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|arjantin premier lig 2 asama|banfield barracas|ms 1|01 00",
@@ -31105,13 +31157,13 @@
       "league": "Arjantin Premier Lig 2. Aşama",
       "start_time": "01:00",
       "market": "MS 1",
-      "odds": "2.19",
-      "confidence_score": "48%",
-      "analysis_score": 48,
-      "model_score": 48,
-      "estimated_probability": 37.4,
-      "market_probability": 38.8,
-      "edge_percent": -1.5,
+      "odds": "2.30",
+      "confidence_score": "47%",
+      "analysis_score": 47,
+      "model_score": 47,
+      "estimated_probability": 36,
+      "market_probability": 37,
+      "edge_percent": -1,
       "data_completeness": 59,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
@@ -31119,7 +31171,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|arjantin premier lig 2 asama|riestra lanus|ms x|01 00",
@@ -31143,7 +31195,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|uruguay premier lig clausura|torque liverpool monte|2 5 alt|01 00",
@@ -31153,13 +31205,13 @@
       "league": "Uruguay Premier Lig Clausura",
       "start_time": "01:00",
       "market": "2.5 Alt",
-      "odds": "1.57",
+      "odds": "1.55",
       "confidence_score": "64%",
       "analysis_score": 64,
       "model_score": 64,
-      "estimated_probability": 54.5,
-      "market_probability": 52.6,
-      "edge_percent": 1.9,
+      "estimated_probability": 55.1,
+      "market_probability": 53.3,
+      "edge_percent": 1.8,
       "data_completeness": 47,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
@@ -31167,7 +31219,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|paraguay intermedia lig|indep cambo gr encarnacion|2 5 alt|01 00",
@@ -31191,7 +31243,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|brezilya serie b|botafogo ribei goias|ms 1|01 30",
@@ -31215,7 +31267,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|brezilya serie b|america mineir sao bernardo|2 5 alt|01 30",
@@ -31225,13 +31277,13 @@
       "league": "Brezilya Serie B",
       "start_time": "01:30",
       "market": "2.5 Alt",
-      "odds": "1.51",
+      "odds": "1.46",
       "confidence_score": "62%",
       "analysis_score": 62,
       "model_score": 62,
-      "estimated_probability": 53.9,
-      "market_probability": 54.9,
-      "edge_percent": -1,
+      "estimated_probability": 55.1,
+      "market_probability": 56.4,
+      "edge_percent": -1.3,
       "data_completeness": 49,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
@@ -31239,7 +31291,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|kolombiya primera b clausura|orsomarso atletico fc|2 5 alt|01 45",
@@ -31249,12 +31301,12 @@
       "league": "Kolombiya Primera B Clausura",
       "start_time": "01:45",
       "market": "2.5 Alt",
-      "odds": "1.48",
+      "odds": "1.47",
       "confidence_score": "55%",
       "analysis_score": 55,
       "model_score": 55,
-      "estimated_probability": 55.8,
-      "market_probability": 55.8,
+      "estimated_probability": 56.1,
+      "market_probability": 56.1,
       "edge_percent": 0,
       "data_completeness": 35,
       "model_version": "pro13-btts-conditioned-v3",
@@ -31263,7 +31315,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.999Z"
+      "updated_at": "2026-09-14T18:51:38.689Z"
     },
     {
       "id": "2026-09-14|brezilya serie a|bahia remo|ms 1|02 00",
@@ -31273,13 +31325,13 @@
       "league": "Brezilya Serie A",
       "start_time": "02:00",
       "market": "MS 1",
-      "odds": "1.28",
+      "odds": "1.26",
       "confidence_score": "74%",
       "analysis_score": 74,
       "model_score": 74,
-      "estimated_probability": 69.6,
-      "market_probability": 66.5,
-      "edge_percent": 3.1,
+      "estimated_probability": 70.2,
+      "market_probability": 67.3,
+      "edge_percent": 2.9,
       "data_completeness": 53,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
@@ -31287,7 +31339,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.999Z"
+      "updated_at": "2026-09-14T18:51:38.689Z"
     },
     {
       "id": "2026-09-14|sili premier lig|union la caler deportes limach|2 5 ust|02 30",
@@ -31321,13 +31373,13 @@
       "league": "Ekvador Pro Lig",
       "start_time": "03:00",
       "market": "MS 1",
-      "odds": "1.29",
-      "confidence_score": "73%",
-      "analysis_score": 73,
-      "model_score": 73,
-      "estimated_probability": 66.3,
-      "market_probability": 64,
-      "edge_percent": 2.3,
+      "odds": "1.26",
+      "confidence_score": "74%",
+      "analysis_score": 74,
+      "model_score": 74,
+      "estimated_probability": 67.5,
+      "market_probability": 65.6,
+      "edge_percent": 1.9,
       "data_completeness": 56,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
@@ -31335,7 +31387,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.999Z"
+      "updated_at": "2026-09-14T18:51:38.689Z"
     },
     {
       "id": "2026-09-14|meksika kadinlar liga mx apertura|toluca k tijuana k|ms 1|03 00",
@@ -31359,7 +31411,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.999Z"
+      "updated_at": "2026-09-14T18:51:38.689Z"
     },
     {
       "id": "2026-09-14|arjantin premier lig 2 asama|instituto cord rio cuarto|2 5 alt|03 15",
@@ -31369,13 +31421,13 @@
       "league": "Arjantin Premier Lig 2. Aşama",
       "start_time": "03:15",
       "market": "2.5 Alt",
-      "odds": "1.37",
-      "confidence_score": "66%",
-      "analysis_score": 66,
-      "model_score": 66,
-      "estimated_probability": 68.8,
-      "market_probability": 62.2,
-      "edge_percent": 6.6,
+      "odds": "1.36",
+      "confidence_score": "67%",
+      "analysis_score": 67,
+      "model_score": 67,
+      "estimated_probability": 69.2,
+      "market_probability": 62.6,
+      "edge_percent": 6.5,
       "data_completeness": 41,
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
@@ -31383,7 +31435,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.999Z"
+      "updated_at": "2026-09-14T18:51:38.689Z"
     },
     {
       "id": "2026-09-14|brezilya serie b|avai vila nova|2 5 alt|03 30",
@@ -31431,7 +31483,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.999Z"
+      "updated_at": "2026-09-14T18:51:38.689Z"
     },
     {
       "id": "2026-09-14|portekiz premier lig|moreirense maritimo|2 5 ust|22 15",
@@ -31455,7 +31507,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|paraguay intermedia lig|benjamin aceva paraguari|2 5 alt|22 30",
@@ -31479,7 +31531,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-14T16:59:37.998Z"
+      "updated_at": "2026-09-14T18:51:38.688Z"
     },
     {
       "id": "2026-09-14|portekiz premier lig|braga estoril|ms 1|22 45",
@@ -63631,30 +63683,6 @@
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-12T06:35:49.024Z"
-    },
-    {
-      "id": "2026-09-12|avusturya 1 lig|austria salzbu strum graz ii|ms 1|16 30",
-      "date": "2026-09-12",
-      "created_at": "2026-09-11T22:08:14.345Z",
-      "match_name": "Austria Salzbu - Strum Graz Ii",
-      "league": "Avusturya 1.Lig",
-      "start_time": "16:30",
-      "market": "MS 1",
-      "odds": "2.07",
-      "confidence_score": "46%",
-      "analysis_score": 46,
-      "model_score": 46,
-      "estimated_probability": 40,
-      "market_probability": 40,
-      "edge_percent": 0,
-      "data_completeness": 35,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk_level": "Yüksek",
-      "status": "pending",
-      "result_score": "",
-      "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-12T20:42:28.825Z"
     }
   ]
 }

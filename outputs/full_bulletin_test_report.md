@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 111
+- Scheduled match count: 27
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-14 / 2026-09-15 23:59
 
-- 2026-09-14 17:45 | Hebar - Etar | scheduled
-- 2026-09-14 18:00 | Safa - Sabah | scheduled
-- 2026-09-14 18:00 | Phoenix - Tallinna Kalev | scheduled
-- 2026-09-14 18:00 | Inter Turku - Vaasa | scheduled
-- 2026-09-14 18:00 | Torpedo Kutais - Samgurali | scheduled
-- 2026-09-14 18:00 | Mladost Dg - Buducnost | scheduled
-- 2026-09-14 18:00 | Asane Ii - Brann Ii | scheduled
-- 2026-09-14 18:00 | Fauske/Sprint - Stromsgodset B | scheduled
-- 2026-09-14 18:00 | Universitatea - Otelul Galati | scheduled
-- 2026-09-14 18:00 | Kamaz - Chelyabinsk | scheduled
+- 2026-09-14 22:00 | Leeds Utd - Newcastle Utd | scheduled
+- 2026-09-14 22:00 | Villarreal - Real Betis | scheduled
+- 2026-09-14 22:15 | Vikingur Reykj - Keflavik | scheduled
+- 2026-09-14 22:15 | Moreirense - Maritimo | scheduled
+- 2026-09-14 22:30 | Benjamin Aceva - Paraguari | scheduled
+- 2026-09-14 22:45 | Braga - Estoril | scheduled
+- 2026-09-14 23:00 | Portland Timbe - St. Louis City | scheduled
+- 2026-09-14 23:30 | Tigres Fc - Bogota | scheduled
+- 2026-09-15 01:00 | Banfield - Barracas | scheduled
+- 2026-09-15 01:00 | Riestra - Lanus | scheduled

@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.09.2026 19:59:38
+Oluşturma: 14.09.2026 21:51:38
 
 ## Özet
 
@@ -23,14 +23,15 @@ Oluşturma: 14.09.2026 19:59:38
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Alt: toplam 595, bekleyen 448, başarı %58, düz getiri %-3, ağırlık 1
-- MS 1: toplam 511, bekleyen 400, başarı %52, düz getiri %-11, ağırlık 1
+- MS 1: toplam 510, bekleyen 399, başarı %52, düz getiri %-11, ağırlık 1
 - 2.5 Üst: toplam 175, bekleyen 101, başarı %51, düz getiri %-9, ağırlık 1
 - KG Var: toplam 16, bekleyen 2, başarı %50, düz getiri %-6, ağırlık 1
 - MS X: toplam 4, bekleyen 2, başarı %50, düz getiri %20, ağırlık 1
-- MS 2: toplam 199, bekleyen 155, başarı %39, düz getiri %-25, ağırlık 1
+- MS 2: toplam 200, bekleyen 156, başarı %39, düz getiri %-25, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-14 | Brezilya Serie B | Avai - Vila Nova | MS 2 | pending | 58/100
 - 2026-09-14 | İrlanda Premier Lig | Dundalk - St Patricks | MS 2 | pending | 48/100
 - 2026-09-14 | İsveç Superettan | Ostersund - Helsingborg | MS 1 | pending | 56/100
 - 2026-09-14 | İngiltere Premier Lig 2 | Blackburn Rove - Reading (B) | 2.5 Alt | pending | 48/100
@@ -41,9 +42,8 @@ Oluşturma: 14.09.2026 19:59:38
 - 2026-09-14 | Kolombiya Primera A Clausura | Once Caldas - Deportivo Cali | 2.5 Üst | pending | 69/100
 - 2026-09-14 | Kosta Rika Premier Lig Apertura | Cs Cartagines - Alajuelense | 2.5 Üst | pending | 68/100
 - 2026-09-14 | Jamaika Premier Lig | Racing United - Arnett Gardens | 2.5 Alt | pending | 54/100
-- 2026-09-14 | Portekiz Premier Lig | Braga - Estoril | 2.5 Alt | pending | 62/100
+- 2026-09-14 | Portekiz Premier Lig | Braga - Estoril | 2.5 Alt | pending | 61/100
 - 2026-09-14 | ABD MLS Next Pro | Portland Timbe - St. Louis City | MS 2 | pending | 46/100
 - 2026-09-14 | Jamaika Premier Lig | Molynes United - Treasure Beach | 2.5 Alt | pending | 54/100
 - 2026-09-14 | Şili Premier Lig | Union La Caler - Deportes Limach | 2.5 Alt | pending | 56/100
-- 2026-09-14 | Kolombiya Primera A Clausura | America De Cal - Deportivo Pasto | MS 1 | pending | 60/100
 

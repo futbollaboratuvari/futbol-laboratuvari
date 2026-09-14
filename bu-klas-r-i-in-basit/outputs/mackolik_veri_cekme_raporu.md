@@ -1,57 +1,37 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-14T16:59:20.802407+00:00
+Tarih: 2026-09-14T18:50:53.806853+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 53
+- Kac mac bulundu: 27
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 53
+- Kac mac zaten vardi: 27
 - Ham veri havuzu toplam mac sayisi: 14677
 - Hedef tarih: 14.09.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS Next Pro
-- AFC Şampiyonlar Ligi Elite Batı Grubu
-- Arjantin Primera C
-- Arjantin Ulusal Primera Lig
-- Bulgaristan 1.Lig
-- Danimarka Süperlig
-- Fransa Ligue 2
-- Gürcistan Erovnuli Liga
-- Hollanda Eerste Divisie
-- Irak Premier Lig
-- Karadağ 1.Lig
+- Arjantin Premier Lig 2. Aşama
+- Brezilya Serie A
+- Brezilya Serie B
+- Ekvador Pro Lig
+- Guatemala Ulusal Lig Apertura
+- Jamaika Premier Lig
+- Kolombiya Primera A Clausura
 - Kolombiya Primera B Clausura
-- Mısır Premier Lig
-- Norveç 3.Lig Grup 1
-- Norveç 3.Lig Grup 4
-- Norveç 3.Lig Grup 5
-- Norveç Eliteserien
+- Meksika Kadınlar Liga MX Apertura
+- Meksika Liga MX Apertura
 - Paraguay Intermedia Lig
-- Polonya 1.Lig
-- Polonya Ekstraklasa
-- Portekiz 2.Lig
 - Portekiz Premier Lig
-- Romanya 1.Lig
-- Suudi Arabistan 1.Lig
-- Sırbistan Süper Lig
-- Türkiye Süper Lig
-- Türkiye TFF 1. Lig
-- İngiltere Non League Premier Isthmian
+- Uruguay Premier Lig Clausura
 - İngiltere Premier Lig
-- İngiltere Premier Lig 2
-- İrlanda Premier Lig
-- İspanya 2.Lig
 - İspanya LaLiga
-- İsveç 2.Lig Södra Svealand
-- İsveç Allsvenskan
-- İsveç Superettan
-- İtalya Serie A
 - İzlanda Urvalsdeild Şampiyonluk Grubu
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -108,8 +88,8 @@ Tarih: 2026-09-14T16:59:20.802407+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 51
-- Acilan detay: 51
+- Denenen Tumu alani: 20
+- Acilan detay: 20
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -122,26 +102,26 @@ Tarih: 2026-09-14T16:59:20.802407+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 14.09.2026 | 20:00 | Türkiye Süper Lig | Gaziantep Fk | Fenerbahçe | 09528 | 5 |
-| 14.09.2026 | 20:00 | Türkiye TFF 1. Lig | Kayserispor | İstanbulspor | 51005 | 5 |
 | 14.09.2026 | 22:00 | İngiltere Premier Lig | Leeds Utd | Newcastle Utd | 15942 | 5 |
 | 14.09.2026 | 22:00 | İspanya LaLiga | Villarreal | Real Betis | 23290 | 5 |
-| 14.09.2026 | 21:45 | İtalya Serie A | Inter | Udinese | 27026 | 5 |
 | 14.09.2026 | 22:45 | Portekiz Premier Lig | Braga | Estoril | 32112 | 5 |
 | 14.09.2026 | 22:15 | Portekiz Premier Lig | Moreirense | Maritimo | 32054 | 5 |
-| 14.09.2026 | 20:45 | Portekiz Premier Lig | Rio Ave | Estrela | 31996 | 5 |
-| 14.09.2026 | 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Esteghlal | Al Sadd | 10738 | 5 |
-| 14.09.2026 | 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al-Qadsiah | Al Wasl | 13604 | 5 |
-| 14.09.2026 | 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Ahli (Cidde | Pakhtakor | 02162 | 5 |
-| 14.09.2026 | 21:30 | İspanya 2.Lig | Celta Vigo Ii | Eibar | 23232 | 5 |
-| 14.09.2026 | 21:45 | Fransa Ligue 2 | Red Star Paris | Metz | 28444 | 5 |
-| 14.09.2026 | 21:00 | Hollanda Eerste Divisie | Psv (B) | Jong Az Alkmaar | 31349 | 5 |
-| 14.09.2026 | 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) | Ajax (B) | 31351 | 5 |
-| 14.09.2026 | 20:00 | Danimarka Süperlig | Midtjylland | Brondby | 38852 | 5 |
-| 14.09.2026 | 20:00 | İsveç Allsvenskan | Djurgarden | Gais | 38072 | 5 |
-| 14.09.2026 | 20:00 | İsveç Allsvenskan | Sirius | Degerfors | 38126 | 5 |
-| 14.09.2026 | 20:00 | Polonya Ekstraklasa | Radomiak Radom | Piast Gliwice | 42354 | 5 |
-| 14.09.2026 | 21:45 | İrlanda Premier Lig | Sligo Rovers | Galway United | 49105 | 5 |
+| 15.09.2026 | 02:00 | Brezilya Serie A | Bahia | Remo | 35331 | 5 |
+| 15.09.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Riestra | Lanus | 34518 | 5 |
+| 15.09.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Instituto Cord | Rio Cuarto | 34576 | 5 |
+| 15.09.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Banfield | Barracas | 34460 | 5 |
+| 15.09.2026 | 04:00 | Meksika Liga MX Apertura | Club Leon | Atletico San Lu | 35823 | 5 |
+| 15.09.2026 | 04:00 | Kolombiya Primera A Clausura | America De Cal | Deportivo Pasto | 51175 | 5 |
+| 15.09.2026 | 02:30 | Şili Premier Lig | Union La Caler | Deportes Limach | 44509 | 5 |
+| 15.09.2026 | 01:30 | Brezilya Serie B | America Mineir | Sao Bernardo | 57680 | 5 |
+| 15.09.2026 | 03:30 | Brezilya Serie B | Avai | Vila Nova | 12257 | 5 |
+| 15.09.2026 | 01:30 | Brezilya Serie B | Botafogo Ribei | Goias | 01806 | 5 |
+| 14.09.2026 | 22:15 | İzlanda Urvalsdeild Şampiyonluk Grubu | Vikingur Reykj | Keflavik | 48631 | 5 |
+| 15.09.2026 | 01:00 | Uruguay Premier Lig Clausura | Torque | Liverpool Monte | 50604 | 5 |
+| 14.09.2026 | 23:30 | Kolombiya Primera B Clausura | Tigres Fc | Bogota | 36935 | 5 |
+| 15.09.2026 | 01:45 | Kolombiya Primera B Clausura | Orsomarso | Atletico Fc | 36968 | 5 |
+| 15.09.2026 | 04:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem | Suchitepequez | 09665 | 5 |
+| 15.09.2026 | 03:00 | Ekvador Pro Lig | Univ Catolica | Orense | 51311 | 5 |
 
 ## Sonuc
 
