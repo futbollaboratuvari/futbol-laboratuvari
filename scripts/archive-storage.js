@@ -9,6 +9,23 @@ const STORAGE_VERSION = "match-shards-v1";
 const HASHED_SHARD_PATH = /^robot_match_archive_parts\/part-\d{5}-[a-f0-9]{64}\.json$/;
 const LEGACY_SHARD_PATH = /^robot_match_archive_parts\/part-\d{5}\.json$/;
 
+function readShardText(file, shardFile) {
+  const shardPath = path.join(path.dirname(file), shardFile);
+  if (fs.existsSync(shardPath)) return fs.readFileSync(shardPath, "utf8");
+
+  const hashed = shardFile.match(/^robot_match_archive_parts\/(part-\d{5})-([a-f0-9]{64})\.json$/);
+  if (!hashed) throw new Error(`Archive shard missing: ${shardFile}`);
+
+  const legacyFile = `robot_match_archive_parts/${hashed[1]}.json`;
+  const legacyPath = path.join(path.dirname(file), legacyFile);
+  if (!fs.existsSync(legacyPath)) throw new Error(`Archive shard missing: ${shardFile}`);
+
+  const text = fs.readFileSync(legacyPath, "utf8");
+  const digest = createHash("sha256").update(text).digest("hex");
+  if (digest !== hashed[2]) throw new Error(`Archive shard recovery hash mismatch: ${shardFile}`);
+  return text;
+}
+
 function readArchive(file, fallback = { matches: [], team_index: {} }) {
   if (!fs.existsSync(file)) return fallback;
   const archive = JSON.parse(fs.readFileSync(file, "utf8"));
@@ -19,7 +36,7 @@ function readArchive(file, fallback = { matches: [], team_index: {} }) {
   const matches = [];
   for (const shard of archive.match_shards) {
     if (!HASHED_SHARD_PATH.test(shard.file) && !LEGACY_SHARD_PATH.test(shard.file)) throw new Error("Invalid archive shard path");
-    const rows = JSON.parse(fs.readFileSync(path.join(path.dirname(file), shard.file), "utf8"));
+    const rows = JSON.parse(readShardText(file, shard.file));
     if (!Array.isArray(rows) || rows.length !== shard.count) throw new Error(`Archive shard count mismatch: ${shard.file}`);
     for (const row of rows) matches.push(row);
   }
