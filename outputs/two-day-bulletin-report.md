@@ -2,25 +2,15 @@
 
 Gunler: 2026-09-14 / 2026-09-15
 Kaynak: fixtures.json
-Ham mac: 155
-Aktif mac: 128
+Ham mac: 144
+Aktif mac: 118
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 27
-Bugun: 111
+Bultenden dusurulen mac: 26
+Bugun: 101
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-09-14 03:00 | Kosta Rika Premier Lig Apertura | Cs Cartagines - Alajuelense | scheduled | -
-- 2026-09-14 03:00 | ABD MLS Next Pro | Swope Park Ran - Los Angeles Ii | scheduled | -
-- 2026-09-14 03:30 | Arjantin Premier Lig 2. Aşama | Huracan - Racing Club | scheduled | -
-- 2026-09-14 03:30 | ABD MLS Next Pro | Austin Ii - Colorado Rapids | scheduled | -
-- 2026-09-14 03:30 | ABD MLS Next Pro | North Texas - Houston Dynamo | scheduled | -
-- 2026-09-14 04:00 | ABD MLS | San Diego - Philadelphia | scheduled | -
-- 2026-09-14 04:00 | Meksika Liga MX Apertura | Santos Laguna - Fc Juarez | scheduled | -
-- 2026-09-14 04:00 | Guatemala Ulusal Lig Apertura | Municipal - Malacateco | scheduled | -
-- 2026-09-14 04:07 | Meksika Liga MX Apertura | Guadalajara - Pumas Unam | scheduled | -
-- 2026-09-14 04:15 | Kolombiya Primera A Clausura | Depor Cucuta - Los Millionario | scheduled | -
 - 2026-09-14 04:30 | Honduras Ulusal Lig Apertura | Atlético Indep - Juticalpa | scheduled | -
 - 2026-09-14 05:00 | ABD MLS Next Pro | Ventura County - Tacoma Defiance | scheduled | -
 - 2026-09-14 05:30 | ABD MLS Next Pro | San Jose Earth - Real Monarchs | scheduled | -

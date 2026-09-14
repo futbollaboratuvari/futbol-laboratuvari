@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 162
-Tam analiz: 149
+Toplam analiz: 144
+Tam analiz: 131
 Eksik analiz: 13
 
 - Vancouver VS Austin: eksik score, confidence
