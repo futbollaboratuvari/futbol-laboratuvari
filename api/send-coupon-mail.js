@@ -9,6 +9,8 @@ const {
   verifyGitHubActionsOidc,
 } = require("../server-lib/_lib/coupon-mail");
 
+const DELIVERY_STATE_RETRY_DELAYS_MS = [250, 750, 1500];
+
 function json(res, statusCode, payload) {
   res.statusCode = statusCode;
   res.setHeader("Allow", "POST");
@@ -28,6 +30,39 @@ function sameSecret(value, expected) {
   const left = Buffer.from(String(value || ""), "utf8");
   const right = Buffer.from(String(expected || ""), "utf8");
   return left.length > 0 && left.length === right.length && timingSafeEqual(left, right);
+}
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+async function retryDeliveryState(operation, delays = DELIVERY_STATE_RETRY_DELAYS_MS) {
+  let lastError;
+  for (let attempt = 0; attempt <= delays.length; attempt += 1) {
+    try {
+      return await operation();
+    } catch (error) {
+      lastError = error;
+      if (attempt === delays.length) throw error;
+      await sleep(delays[attempt]);
+    }
+  }
+  throw lastError;
+}
+
+function withDeliveryStateRetries(store) {
+  return {
+    claim(entry) {
+      return retryDeliveryState(() => store.claim(entry));
+    },
+    complete(entry, claimToken, providerMessageId) {
+      // Completing the same claim is idempotent. Retrying here closes the small
+      // window where Resend accepted the message but a transient Supabase
+      // timeout left the durable row in "sending".
+      return retryDeliveryState(() => store.complete(entry, claimToken, providerMessageId));
+    },
+    fail(entry, claimToken, error) {
+      return retryDeliveryState(() => store.fail(entry, claimToken, error));
+    },
+  };
 }
 
 function createHandler(overrides = {}) {
@@ -73,11 +108,12 @@ function createHandler(overrides = {}) {
     }
 
     const fetchImpl = overrides.fetchImpl || global.fetch;
-    const store = overrides.store || createSupabaseDeliveryStore({
+    const rawStore = overrides.store || createSupabaseDeliveryStore({
       baseUrl: env.SUPABASE_URL,
       serviceRoleKey: env.SUPABASE_SERVICE_ROLE_KEY,
       fetchImpl,
     });
+    const store = overrides.store ? rawStore : withDeliveryStateRetries(rawStore);
     const sendEmail = overrides.sendEmail || createResendSender({
       apiKey: env.RESEND_API_KEY,
       from: env.COUPON_MAIL_FROM,
@@ -106,5 +142,7 @@ function createHandler(overrides = {}) {
 const handler = createHandler();
 handler.createHandler = createHandler;
 handler.sameSecret = sameSecret;
+handler.retryDeliveryState = retryDeliveryState;
+handler.withDeliveryStateRetries = withDeliveryStateRetries;
 
 module.exports = handler;
