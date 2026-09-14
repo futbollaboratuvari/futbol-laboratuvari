@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-14 / 2026-09-15
 Kaynak: fixtures.json
-Ham mac: 162
-Aktif mac: 118
+Ham mac: 130
+Aktif mac: 117
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 44
-Bugun: 101
+Bultenden dusurulen mac: 13
+Bugun: 100
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-09-14 04:30 | Honduras Ulusal Lig Apertura | Atlético Indep - Juticalpa | scheduled | -
 - 2026-09-14 05:00 | ABD MLS Next Pro | Ventura County - Tacoma Defiance | scheduled | -
 - 2026-09-14 05:30 | ABD MLS Next Pro | San Jose Earth - Real Monarchs | scheduled | -
 - 2026-09-14 13:00 | Japonya J3 Lig | Osaka - Ehime Fc | scheduled | -
