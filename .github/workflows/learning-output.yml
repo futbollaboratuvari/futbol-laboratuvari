@@ -6,7 +6,6 @@ on:
     branches:
       - main
     paths:
-      - "ops/main-run.txt"
       - "scripts/learning-output-check.js"
       - "scripts/apply-learning-weights.js"
       - "scripts/export-high-value-json.js"
@@ -17,12 +16,13 @@ on:
       - "scripts/sync-analysis-results.js"
       - "scripts/robot-learning-memory.js"
       - "package.json"
+      - ".github/workflows/learning-output.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: futbol-main-data-writer
+  group: futbol-learning-data-writer
   cancel-in-progress: false
 
 jobs:
