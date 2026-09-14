@@ -153,6 +153,11 @@ jobs:
           node scripts/team-status-apply.js
           node scripts/band-lite.js
 
+      - name: Apply PRO 3.5 and 6+ goal market bridge
+        run: |
+          node tests/pro-goal-market-bridge.test.js
+          node scripts/pro-goal-market-bridge.js
+
       - name: Resolve final scores and publish performance
         run: |
           node scripts/update-final-scores.js
@@ -206,4 +211,3 @@ jobs:
           done
           echo "Update fixtures push failed after retries"
           exit 1
-
