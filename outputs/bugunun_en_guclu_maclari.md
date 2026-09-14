@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-14T23:15:03.685Z
+- Güncelleme: 2026-09-14T23:51:33.587Z
 - Ham maç sayısı: 173
 - Yarın bülteni maç sayısı: 14
 - Detay blok sayısı: 492
-- Aktif bülten maçı: 164
-- Bültenden düşürülen maç: 9
+- Aktif bülten maçı: 163
+- Bültenden düşürülen maç: 10
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Union La Caler - Deportes Limach | Şili Premier Lig | 02:30 | Veri bekleniyor | - | 2.22 | 8 |
 | Univ Catolica - Orense | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 1.26 | 6 |
 | Toluca (K) - Tijuana (K) | Meksika Kadınlar Liga MX Apertura | 03:00 | Veri bekleniyor | - | 1.29 | 4 |
 | Instituto Cord - Rio Cuarto | Arjantin Premier Lig 2. Aşama | 03:15 | Veri bekleniyor | - | 1.31 | 7 |
