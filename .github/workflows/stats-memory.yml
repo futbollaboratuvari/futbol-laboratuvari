@@ -9,13 +9,13 @@ on:
       - "data/fixtures.json"
       - "scripts/stats-memory-lite.js"
       - "scripts/team-style-note.js"
-      - "ops/main-run.txt"
+      - ".github/workflows/stats-memory.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: futbol-main-data-writer
+  group: futbol-stats-memory-writer
   cancel-in-progress: false
 
 jobs:
@@ -63,4 +63,3 @@ jobs:
           done
           echo "Stats Memory push failed after retries"
           exit 1
-
