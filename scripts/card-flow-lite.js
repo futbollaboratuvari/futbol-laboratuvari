@@ -1,4 +1,5 @@
 const fs = require('fs');
+const couponRules = require('../pro-coupon-eligibility');
 const live = JSON.parse(fs.readFileSync('data/live-matches.json', 'utf8'));
 const dailyPath = 'data/daily-coupons.json';
 let daily = { coupons: {} };
@@ -10,7 +11,9 @@ const pick = m => {
   const opts = [ ['MS 1', m.oneOdd], ['MS X', m.drawOdd], ['MS 2', m.twoOdd] ]
     .map(([label, value]) => ({ label, odd: num(value) }))
     .filter(x => x.odd);
-  const selected = opts.filter(x => x.odd >= 1.30 && x.odd <= 3.80).sort((a,b) => b.odd-a.odd)[0] || opts[0];
+  const selected = opts
+    .filter(x => x.odd >= couponRules.MIN_COUPON_ODD && x.odd <= 3.80)
+    .sort((a,b) => b.odd-a.odd)[0] || null;
   return selected ? { label: selected.label, odd: selected.odd.toFixed(2) } : null;
 };
 const legs = (live.matches || []).map((m, i) => {
@@ -27,7 +30,7 @@ const legs = (live.matches || []).map((m, i) => {
     estimated_odds: p.odd,
     available_odds: { ms1: m.oneOdd || '-', msx: m.drawOdd || '-', ms2: m.twoOdd || '-' },
     value_label: 'Aday',
-    robot_reason: 'Güncel maç listesinde oran bilgisi olduğu için kupon merkezinde izleme adayı olarak gösterilir.'
+    robot_reason: `Güncel maç listesinde oran bilgisi olduğu ve oran ${couponRules.MIN_COUPON_ODD.toFixed(2)} alt sınırını geçtiği için yalnız izleme adayı olarak gösterilir.`
   };
 }).filter(Boolean);
 const make = (type, name, rows) => {
@@ -47,6 +50,7 @@ const make = (type, name, rows) => {
 };
 daily.generated_at = new Date().toISOString();
 daily.message = legs.length ? 'Kupon merkezi aday kartları hazırlandı.' : 'Bugün için uygun kupon adayı hazırlanıyor.';
+daily.minimum_coupon_odd = couponRules.MIN_COUPON_ODD;
 daily.coupons = {
   laboratory_today: make('balanced', 'Dengeli Kupon', legs.slice(0, 3)),
   balanced: make('balanced', 'Dengeli Kupon', legs.slice(0, 3)),
