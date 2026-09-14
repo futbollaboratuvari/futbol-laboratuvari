@@ -4,14 +4,14 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-14T18:51:29.072Z
+- Güncelleme: 2026-09-14T19:21:52.193Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Gaziantep Fk VS Fenerbahçe | Türkiye Süper Lig | 20:00 | KG Var | 2.20 | 72 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
+| Gaziantep Fk VS Fenerbahçe | Türkiye Süper Lig | 20:00 | KG Var | 2.20 | 72 | Orta risk kupon adayı | Değerli | Orta | Düşük | finished |
 | Kayserispor VS İstanbulspor | Türkiye TFF 1. Lig | 20:00 | MS 1 | 1.27 | 63 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Midtjylland VS Brondby | Danimarka Süperlig | 20:00 | MS 1 | 1.65 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Djurgarden VS Gais | İsveç Allsvenskan | 20:00 | MS 1 | 1.30 | 75 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |

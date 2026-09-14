@@ -2,19 +2,15 @@
 
 Gunler: 2026-09-14 / 2026-09-15
 Kaynak: fixtures.json
-Ham mac: 173
-Aktif mac: 27
+Ham mac: 73
+Aktif mac: 23
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 146
-Bugun: 8
+Biten mac: 1
+Bultenden dusurulen mac: 50
+Bugun: 4
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-09-14 22:00 | İngiltere Premier Lig | Leeds Utd - Newcastle Utd | scheduled | -
-- 2026-09-14 22:00 | İspanya LaLiga | Villarreal - Real Betis | scheduled | -
-- 2026-09-14 22:15 | Portekiz Premier Lig | Moreirense - Maritimo | scheduled | -
-- 2026-09-14 22:15 | İzlanda Urvalsdeild Şampiyonluk Grubu | Vikingur Reykj - Keflavik | scheduled | -
 - 2026-09-14 22:30 | Paraguay Intermedia Lig | Benjamin Aceva - Paraguari | scheduled | -
 - 2026-09-14 22:45 | Portekiz Premier Lig | Braga - Estoril | scheduled | -
 - 2026-09-14 23:00 | ABD MLS Next Pro | Portland Timbe - St. Louis City | scheduled | -
@@ -43,4 +39,4 @@ Yarin: 19
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-14 20:00 | Türkiye Süper Lig | Gaziantep Fk - Fenerbahçe | finished | 0-0

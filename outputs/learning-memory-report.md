@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.09.2026 21:51:38
+Oluşturma: 14.09.2026 22:22:15
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1108
-- Kazanan tahmin: 206
-- Kaybeden tahmin: 186
+- Bekleyen tahmin: 1098
+- Kazanan tahmin: 212
+- Kaybeden tahmin: 190
 - Lig sayısı: 248
 - Seçenek sayısı: 6
 
@@ -22,25 +22,25 @@ Oluşturma: 14.09.2026 21:51:38
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 595, bekleyen 448, başarı %58, düz getiri %-3, ağırlık 1
-- MS 1: toplam 510, bekleyen 399, başarı %52, düz getiri %-11, ağırlık 1
-- 2.5 Üst: toplam 175, bekleyen 101, başarı %51, düz getiri %-9, ağırlık 1
-- KG Var: toplam 16, bekleyen 2, başarı %50, düz getiri %-6, ağırlık 1
+- 2.5 Alt: toplam 595, bekleyen 447, başarı %57, düz getiri %-3, ağırlık 1
+- MS 1: toplam 510, bekleyen 397, başarı %53, düz getiri %-10, ağırlık 1
+- 2.5 Üst: toplam 175, bekleyen 97, başarı %53, düz getiri %-7, ağırlık 1
 - MS X: toplam 4, bekleyen 2, başarı %50, düz getiri %20, ağırlık 1
-- MS 2: toplam 200, bekleyen 156, başarı %39, düz getiri %-25, ağırlık 1
+- KG Var: toplam 16, bekleyen 1, başarı %47, düz getiri %-12, ağırlık 1
+- MS 2: toplam 200, bekleyen 154, başarı %39, düz getiri %-26, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
 - 2026-09-14 | Brezilya Serie B | Avai - Vila Nova | MS 2 | pending | 58/100
 - 2026-09-14 | İrlanda Premier Lig | Dundalk - St Patricks | MS 2 | pending | 48/100
 - 2026-09-14 | İsveç Superettan | Ostersund - Helsingborg | MS 1 | pending | 56/100
-- 2026-09-14 | İngiltere Premier Lig 2 | Blackburn Rove - Reading (B) | 2.5 Alt | pending | 48/100
-- 2026-09-14 | Türkiye Süper Lig | Gaziantep Fk - Fenerbahçe | KG Var | pending | 68/100
-- 2026-09-14 | Meksika Liga MX Apertura | Santos Laguna - Fc Juarez | MS 1 | pending | 65/100
-- 2026-09-14 | Uruguay Premier Lig Clausura | Penarol - Albion | MS 1 | pending | 72/100
-- 2026-09-14 | Guatemala Ulusal Lig Apertura | Guastatoya - Xelaju | 2.5 Üst | pending | 68/100
-- 2026-09-14 | Kolombiya Primera A Clausura | Once Caldas - Deportivo Cali | 2.5 Üst | pending | 69/100
-- 2026-09-14 | Kosta Rika Premier Lig Apertura | Cs Cartagines - Alajuelense | 2.5 Üst | pending | 68/100
+- 2026-09-14 | İngiltere Premier Lig 2 | Blackburn Rove - Reading (B) | 2.5 Alt | pending | 49/100
+- 2026-09-14 | Türkiye Süper Lig | Gaziantep Fk - Fenerbahçe | KG Var | lost | 67/100
+- 2026-09-14 | Meksika Liga MX Apertura | Santos Laguna - Fc Juarez | MS 1 | won | 65/100
+- 2026-09-14 | Uruguay Premier Lig Clausura | Penarol - Albion | MS 1 | won | 72/100
+- 2026-09-14 | Guatemala Ulusal Lig Apertura | Guastatoya - Xelaju | 2.5 Üst | won | 68/100
+- 2026-09-14 | Kolombiya Primera A Clausura | Once Caldas - Deportivo Cali | 2.5 Üst | won | 69/100
+- 2026-09-14 | Kosta Rika Premier Lig Apertura | Cs Cartagines - Alajuelense | 2.5 Üst | won | 68/100
 - 2026-09-14 | Jamaika Premier Lig | Racing United - Arnett Gardens | 2.5 Alt | pending | 54/100
 - 2026-09-14 | Portekiz Premier Lig | Braga - Estoril | 2.5 Alt | pending | 61/100
 - 2026-09-14 | ABD MLS Next Pro | Portland Timbe - St. Louis City | MS 2 | pending | 46/100
