@@ -32,6 +32,11 @@
     return /(^| )6 gol( |$)|6 plus|6 ve ustu|6 veya daha fazla|over 5 5|5 5 ust/.test(market);
   }
 
+  function isHighGoalMarket(item) {
+    const market = marketText(item);
+    return isSixPlusMarket(item) || /3 5 ust|over 3 5/.test(market);
+  }
+
   function hasAcceptableOdd(item) {
     const odd = finite(item?.estimated_odds ?? item?.odds ?? item?.odd);
     return odd === null || odd >= MIN_COUPON_ODD;
@@ -50,6 +55,7 @@
 
   function meetsCouponCriteria(item) {
     const sixPlus = isSixPlusMarket(item);
+    const highGoal = isHighGoalMarket(item);
     const modelScore = finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score);
     const completeness = finite(item?.data_completeness);
     const probability = finite(item?.estimated_probability);
@@ -65,13 +71,17 @@
       && !hasBlockingRisk(item);
 
     if (!baseCriteria) return false;
+
+    // 3.5 Üst ve 6+ Gol seçenekleri sırf market mevcut diye kupona giremez.
+    // Bağımsız model, piyasanın marjı temizlenmiş olasılığından en az 2 puan
+    // daha yüksek olmalı. Böylece negatif edge yüksek-gol seçimleri elenir.
+    if (highGoal && (edge === null || edge < 2)) return false;
+
     if (!sixPlus) return true;
 
-    // 6+ Gol doğal olarak daha düşük gerçekleşme olasılıklı, yüksek varyanslı bir
-    // seçenektir. Kupona ancak doğrudan fiyat + bağımsız gol modeli + pozitif edge
-    // birlikte varsa girebilir; yalnız oran üzerinden asla açılmaz.
-    return odd !== null && odd >= 3
-      && edge !== null && edge >= 2;
+    // 6+ Gol daha düşük gerçekleşme olasılıklı ve yüksek varyanslı olduğu için
+    // ayrıca doğrudan fiyat eşiği uygulanır; tahmini oran üretilmez.
+    return odd !== null && odd >= 3;
   }
 
   function isCouponEligible(item) {
@@ -125,6 +135,7 @@
     hasAcceptableOdd,
     hasBlockingRisk,
     isCouponEligible,
+    isHighGoalMarket,
     isProReadyFallback,
     isSixPlusMarket,
     isWatchView,
