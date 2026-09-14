@@ -8,13 +8,13 @@ on:
     paths:
       - "data/live-matches.json"
       - "scripts/card-flow-lite.js"
-      - "ops/main-run.txt"
+      - ".github/workflows/card-flow.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: futbol-main-data-writer
+  group: futbol-coupon-card-writer
   cancel-in-progress: false
 
 jobs:
