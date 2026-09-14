@@ -4,15 +4,14 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-14T01:40:21.575Z
+- Güncelleme: 2026-09-14T03:39:05.995Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Marathon VS Depor. Olimpia | Honduras Ulusal Lig Apertura | 02:15 | 2.5 Üst | 1.78 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Firpo VS Isidro Metapan | El Salvador Primera Lig Apertura | 02:30 | 2.5 Alt | 1.58 | 74 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
+| Firpo VS Isidro Metapan | El Salvador Primera Lig Apertura | 02:30 | 2.5 Üst | 1.73 | 73 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | finished |
 | Cs Cartagines VS Alajuelense | Kosta Rika Premier Lig Apertura | 03:00 | 2.5 Alt | 1.55 | 65 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Swope Park Ran VS Los Angeles Ii | ABD MLS Next Pro | 03:00 | MS 2 | 1.57 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Huracan VS Racing Club | Arjantin Premier Lig 2. Aşama | 03:30 | MS 1 | 2.39 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Orta | scheduled |
@@ -23,7 +22,7 @@
 | Municipal VS Malacateco | Guatemala Ulusal Lig Apertura | 04:00 | 2.5 Alt | 1.62 | 73 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Guadalajara VS Pumas Unam | Meksika Liga MX Apertura | 04:07 | MS 1 | 1.32 | 72 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Depor Cucuta VS Los Millionario | Kolombiya Primera A Clausura | 04:15 | 2.5 Üst | 1.75 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Atlético Indep VS Juticalpa | Honduras Ulusal Lig Apertura | 04:30 | 2.5 Üst | 1.58 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Atlético Indep VS Juticalpa | Honduras Ulusal Lig Apertura | 04:30 | MS 1 | 1.51 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Ventura County VS Tacoma Defiance | ABD MLS Next Pro | 05:00 | MS 1 | 1.79 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | San Jose Earth VS Real Monarchs | ABD MLS Next Pro | 05:30 | MS 1 | 1.46 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Osaka VS Ehime Fc | Japonya J3 Lig | 13:00 | 2.5 Alt | 1.61 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -145,22 +144,22 @@
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Marathon VS Depor. Olimpia | 2.5 Üst | 1.78 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
 | Avai VS Vila Nova | 2.5 Alt | 1.40 | 79 | Orta risk kupon adayı | Değerli | Düşük | Düşük |
 | Gaziantep Fk VS Fenerbahçe | 2.5 Üst | 1.60 | 78 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
 | Bahia VS Remo | MS 1 | 1.25 | 78 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta |
 | Univ Catolica VS Orense | MS 1 | 1.25 | 78 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
 | Leeds Utd VS Newcastle Utd | 2.5 Alt | 1.82 | 74 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
+| Djurgarden VS Gais | MS 1 | 1.39 | 74 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Marathon VS Depor. Olimpia + Gaziantep Fk VS Fenerbahçe | 2.5 Üst + 2.5 Üst | 2.85 | 79 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Leeds Utd VS Newcastle Utd + Moreirense VS Maritimo | 2.5 Alt + 2.5 Üst | 3.77 | 74 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Gaziantep Fk VS Fenerbahçe + Leeds Utd VS Newcastle Utd | 2.5 Üst + 2.5 Alt | 2.91 | 76 | Orta risk kupon adayı | Normal Değer | Orta | Düşük |
+| Moreirense VS Maritimo + Firpo VS Isidro Metapan | 2.5 Üst + 2.5 Üst | 3.58 | 73 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Municipal VS Malacateco + Como VS Parma | 2.5 Alt + 2.5 Alt | 3.24 | 73 | Orta risk kupon adayı | Normal Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Marathon VS Depor. Olimpia + Gaziantep Fk VS Fenerbahçe + Leeds Utd VS Newcastle Utd | 2.5 Üst + 2.5 Üst + 2.5 Alt | 5.18 | 77 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Moreirense VS Maritimo + Municipal VS Malacateco + Como VS Parma | 2.5 Üst + 2.5 Alt + 2.5 Alt | 6.71 | 73 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Gaziantep Fk VS Fenerbahçe + Leeds Utd VS Newcastle Utd + Moreirense VS Maritimo | 2.5 Üst + 2.5 Alt + 2.5 Üst | 6.03 | 75 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Firpo VS Isidro Metapan + Municipal VS Malacateco + Como VS Parma | 2.5 Üst + 2.5 Alt + 2.5 Alt | 5.61 | 73 | Orta risk kupon adayı | Normal Değer | Yüksek | Düşük |
