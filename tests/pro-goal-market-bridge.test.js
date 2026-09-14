@@ -1,0 +1,115 @@
+"use strict";
+
+const assert = require("node:assert/strict");
+const couponRules = require("../pro-coupon-eligibility");
+const {
+  analyzeOver35,
+  analyzeSixPlus,
+  findMarketOdd,
+  poissonAtLeast,
+  sanitizeCoupon,
+} = require("../scripts/pro-goal-market-bridge");
+
+const highGoalFixture = {
+  id: "goal-test-1",
+  date: "2099-01-01",
+  time: "20:00",
+  league: "Test Gol Ligi",
+  home: "Gol City",
+  away: "Attack United",
+  squad_risk_level: "Düşük",
+  lineup_risk_level: "Orta",
+  available_odds: {
+    over35: 2.05,
+    under35: 1.72,
+    goals6plus: 4.50,
+    goals01: 8.00,
+    goals23: 2.40,
+    goals45: 2.60,
+  },
+  metrics: {
+    over35Percent: 60,
+    poisson: {
+      homeLambda: 2.50,
+      awayLambda: 2.00,
+    },
+  },
+};
+
+assert.equal(findMarketOdd([highGoalFixture], "over35"), 2.05);
+assert.equal(findMarketOdd([highGoalFixture], "goals6plus"), 4.5);
+assert.ok(poissonAtLeast(4.5, 6) > 25);
+
+const over35 = analyzeOver35([highGoalFixture]);
+assert.ok(over35);
+assert.equal(over35.recommended_market, "3.5 Üst");
+assert.equal(over35.estimated_odds, "2.05");
+assert.equal(over35.independent_evidence, true);
+assert.equal(over35.include_in_coupon, true);
+assert.ok(over35.model_score >= 65);
+
+const sixPlus = analyzeSixPlus([highGoalFixture]);
+assert.ok(sixPlus);
+assert.equal(sixPlus.recommended_market, "6+ Gol");
+assert.equal(sixPlus.estimated_odds, "4.50");
+assert.equal(sixPlus.independent_evidence, true);
+assert.equal(sixPlus.include_in_coupon, true);
+assert.ok(sixPlus.estimated_probability >= 15);
+assert.ok(sixPlus.edge_percent >= 2);
+assert.ok(sixPlus.model_score >= 68);
+
+assert.equal(couponRules.isCouponEligible({
+  ...sixPlus,
+  include_in_coupon: true,
+}), true);
+assert.equal(couponRules.isCouponEligible({
+  ...sixPlus,
+  edge_percent: 1.9,
+  include_in_coupon: true,
+}), false);
+assert.equal(couponRules.isCouponEligible({
+  recommended_market: "MS 1",
+  estimated_odds: "1.30",
+  model_score: 80,
+  estimated_probability: 70,
+  data_completeness: 80,
+  independent_evidence: true,
+  risk_level: "Orta",
+  data_gap_risk: "Düşük",
+  include_in_coupon: true,
+}), false);
+
+const lowOddCoupon = {
+  coupon_name: "Dengeli Kupon",
+  coupon_type: "balanced",
+  selected_matches: [{
+    match_name: "Low Odd FC VS Filter SK",
+    recommended_market: "MS 1",
+    estimated_odds: "1.30",
+    model_score: 80,
+    analysis_score: 80,
+    estimated_probability: 70,
+    data_completeness: 80,
+    independent_evidence: true,
+    include_in_coupon: true,
+    risk_level: "Orta",
+    data_gap_risk: "Düşük",
+  }],
+  total_odds: "1.30",
+  is_available: true,
+};
+
+const sanitized = sanitizeCoupon(lowOddCoupon);
+assert.equal(sanitized.is_available, false);
+assert.equal(sanitized.selected_matches.length, 0);
+
+const labelFixture = {
+  raw_market_blocks: [
+    { market: "Toplam Gol", option: "6+ Gol", odd: "5,20" },
+    { market: "Toplam Gol 3.5", option: "3.5 Üst", odd: "2,15" },
+  ],
+};
+assert.equal(findMarketOdd([labelFixture], "goals6plus"), 5.2);
+assert.equal(findMarketOdd([labelFixture], "over35"), 2.15);
+
+process.stdout.write("pro-goal-market-bridge.test.js OK\n");
