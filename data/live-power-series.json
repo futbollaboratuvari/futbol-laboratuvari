@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T23:29:17.370Z",
+  "generated_at": "2026-09-14T01:37:06.618Z",
   "timezone": "Europe/Istanbul",
   "status": "no_matching_verified_stats",
   "source": "ESPN Scoreboard + ESPN Core/Summary + TheSportsDB event stats",
@@ -13,9 +13,9 @@
     "paid_api_required": false
   },
   "summary": {
-    "espn_live_event_count": 36,
-    "site_candidate_count": 129,
-    "matched_fixture_count": 0,
+    "espn_live_event_count": 20,
+    "site_candidate_count": 118,
+    "matched_fixture_count": 1,
     "sampled_match_count": 0,
     "stats_success_count": 0,
     "scoreboard_stats_count": 0,
@@ -2208,257 +2208,16 @@
         }
       },
       "updated_at": "2026-09-13T18:57:44.136Z"
-    },
-    {
-      "fixture_id": "401875607",
-      "provider_event_id": "401875607",
-      "provider_league_id": "725",
-      "status": "live",
-      "api_status": "STATUS_SECOND_HALF",
-      "date": "2026-09-13",
-      "league": "Hollanda Eredivisie",
-      "home": "Heerenveen",
-      "away": "Telstar",
-      "source_match": {
-        "home": "Heerenveen",
-        "away": "Telstar",
-        "league": "Hollanda Eredivisie",
-        "date": "2026-09-13",
-        "priority": 300
-      },
-      "source_match_similarity": 1,
-      "source": "ESPN Scoreboard embedded live statistics",
-      "source_verified": true,
-      "verification": {
-        "stats_method": "espn_scoreboard",
-        "stats_metadata": {
-          "provider_chain": [
-            "espn_scoreboard"
-          ],
-          "league_id": "725"
-        },
-        "thesportsdb_checked": true,
-        "thesportsdb_matched": true,
-        "thesportsdb_event_id": "2489114",
-        "thesportsdb_similarity": 1
-      },
-      "snapshots": [
-        {
-          "minute": 12,
-          "recorded_at": "2026-09-13T12:43:30.821Z",
-          "observed": true,
-          "interpolated": false,
-          "score": {
-            "home": 0,
-            "away": 0
-          },
-          "team_power": {
-            "home": 73,
-            "away": 27
-          },
-          "goal_power": {
-            "home": 3,
-            "away": 0
-          },
-          "momentum": {
-            "home": null,
-            "away": null
-          },
-          "data_coverage": {
-            "home_metric_count": 4,
-            "away_metric_count": 4,
-            "common_metric_count": 4,
-            "common_metrics": [
-              "shots_on_goal",
-              "total_shots",
-              "corners",
-              "possession"
-            ],
-            "missing_metrics": [
-              "shots_inside_box",
-              "blocked_shots",
-              "expected_goals",
-              "dangerous_attacks"
-            ],
-            "ratio": 0.5,
-            "label": "medium",
-            "expected_goals_observed": {
-              "home": false,
-              "away": false
-            }
-          },
-          "stats": {
-            "home": {
-              "shots_on_goal": 0,
-              "total_shots": 1,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 0,
-              "possession": 66.2,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            },
-            "away": {
-              "shots_on_goal": 0,
-              "total_shots": 0,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 0,
-              "possession": 33.8,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            }
-          }
-        },
-        {
-          "minute": 75,
-          "recorded_at": "2026-09-13T16:39:06.032Z",
-          "observed": true,
-          "interpolated": false,
-          "score": {
-            "home": 0,
-            "away": 0
-          },
-          "team_power": {
-            "home": 61,
-            "away": 39
-          },
-          "goal_power": {
-            "home": 19,
-            "away": 12
-          },
-          "momentum": {
-            "home": 20,
-            "away": 13
-          },
-          "data_coverage": {
-            "home_metric_count": 4,
-            "away_metric_count": 4,
-            "common_metric_count": 4,
-            "common_metrics": [
-              "shots_on_goal",
-              "total_shots",
-              "corners",
-              "possession"
-            ],
-            "missing_metrics": [
-              "shots_inside_box",
-              "blocked_shots",
-              "expected_goals",
-              "dangerous_attacks"
-            ],
-            "ratio": 0.5,
-            "label": "medium",
-            "expected_goals_observed": {
-              "home": false,
-              "away": false
-            }
-          },
-          "stats": {
-            "home": {
-              "shots_on_goal": 4,
-              "total_shots": 17,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 3,
-              "possession": 62.8,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            },
-            "away": {
-              "shots_on_goal": 2,
-              "total_shots": 11,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 4,
-              "possession": 37.2,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            }
-          }
-        }
-      ],
-      "current": {
-        "minute": 75,
-        "recorded_at": "2026-09-13T16:39:06.032Z",
-        "observed": true,
-        "interpolated": false,
-        "score": {
-          "home": 0,
-          "away": 0
-        },
-        "team_power": {
-          "home": 61,
-          "away": 39
-        },
-        "goal_power": {
-          "home": 19,
-          "away": 12
-        },
-        "momentum": {
-          "home": 20,
-          "away": 13
-        },
-        "data_coverage": {
-          "home_metric_count": 4,
-          "away_metric_count": 4,
-          "common_metric_count": 4,
-          "common_metrics": [
-            "shots_on_goal",
-            "total_shots",
-            "corners",
-            "possession"
-          ],
-          "missing_metrics": [
-            "shots_inside_box",
-            "blocked_shots",
-            "expected_goals",
-            "dangerous_attacks"
-          ],
-          "ratio": 0.5,
-          "label": "medium",
-          "expected_goals_observed": {
-            "home": false,
-            "away": false
-          }
-        },
-        "stats": {
-          "home": {
-            "shots_on_goal": 4,
-            "total_shots": 17,
-            "shots_inside_box": null,
-            "blocked_shots": null,
-            "corners": 3,
-            "possession": 62.8,
-            "accurate_passes": null,
-            "total_passes": null,
-            "expected_goals": null,
-            "dangerous_attacks": null
-          },
-          "away": {
-            "shots_on_goal": 2,
-            "total_shots": 11,
-            "shots_inside_box": null,
-            "blocked_shots": null,
-            "corners": 4,
-            "possession": 37.2,
-            "accurate_passes": null,
-            "total_passes": null,
-            "expected_goals": null,
-            "dangerous_attacks": null
-          }
-        }
-      },
-      "updated_at": "2026-09-13T16:39:06.032Z"
     }
   ],
-  "provider_errors": []
+  "provider_errors": [
+    "401915257:core_home:sports.core.api.espn.com:http_400",
+    "401915257:core_competitor_home:sports.core.api.espn.com:http_400",
+    "401915257:core_away:sports.core.api.espn.com:http_400",
+    "401915257:core_competitor_away:sports.core.api.espn.com:http_400",
+    "401915257:summary:site.web.api.espn.com:http_400",
+    "401915257:summary:site.web.api.espn.com:http_404",
+    "401915257:summary:site.api.espn.com:http_403",
+    "401915257:summary:site.web.api.espn.com:unavailable"
+  ]
 }
