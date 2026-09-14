@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-14 / 2026-09-15
 Kaynak: fixtures.json
-Ham mac: 73
-Aktif mac: 23
+Ham mac: 52
+Aktif mac: 22
 Canli mac: 0
-Biten mac: 1
-Bultenden dusurulen mac: 50
-Bugun: 4
+Biten mac: 0
+Bultenden dusurulen mac: 30
+Bugun: 3
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-09-14 22:30 | Paraguay Intermedia Lig | Benjamin Aceva - Paraguari | scheduled | -
 - 2026-09-14 22:45 | Portekiz Premier Lig | Braga - Estoril | scheduled | -
 - 2026-09-14 23:00 | ABD MLS Next Pro | Portland Timbe - St. Louis City | scheduled | -
 - 2026-09-14 23:30 | Kolombiya Primera B Clausura | Tigres Fc - Bogota | scheduled | -
@@ -39,4 +38,4 @@ Yarin: 19
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-09-14 20:00 | Türkiye Süper Lig | Gaziantep Fk - Fenerbahçe | finished | 0-0
+Biten mac yok.
