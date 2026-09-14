@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-14 / 2026-09-15
 Kaynak: fixtures.json
-Ham mac: 162
-Aktif mac: 115
+Ham mac: 118
+Aktif mac: 114
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 47
-Bugun: 98
+Bultenden dusurulen mac: 4
+Bugun: 97
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-09-14 13:00 | Japonya J3 Lig | Osaka - Ehime Fc | scheduled | -
 - 2026-09-14 14:30 | Singapur Premier Lig | Geylang United - Tanjong Pagar | scheduled | -
 - 2026-09-14 15:00 | Gürcistan Erovnuli Liga | Meshakhte - Fc Rustavi | scheduled | -
 - 2026-09-14 15:00 | İngiltere Professional Development Lig | Swansea (B) - Huddersfield To | scheduled | -

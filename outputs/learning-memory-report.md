@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.09.2026 06:44:42
+Oluşturma: 14.09.2026 14:30:33
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1111
-- Kazanan tahmin: 205
-- Kaybeden tahmin: 184
+- Bekleyen tahmin: 1106
+- Kazanan tahmin: 207
+- Kaybeden tahmin: 187
 - Lig sayısı: 250
 - Seçenek sayısı: 6
 
@@ -22,15 +22,17 @@ Oluşturma: 14.09.2026 06:44:42
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 602, bekleyen 457, başarı %59, düz getiri %0, ağırlık 1
-- MS 1: toplam 509, bekleyen 399, başarı %52, düz getiri %-11, ağırlık 1
+- 2.5 Alt: toplam 601, bekleyen 453, başarı %58, düz getiri %-2, ağırlık 1
+- MS 1: toplam 510, bekleyen 399, başarı %52, düz getiri %-11, ağırlık 1
 - 2.5 Üst: toplam 170, bekleyen 96, başarı %51, düz getiri %-9, ağırlık 1
 - MS X: toplam 4, bekleyen 2, başarı %50, düz getiri %20, ağırlık 1
 - KG Var: toplam 15, bekleyen 1, başarı %50, düz getiri %-6, ağırlık 1
-- MS 2: toplam 200, bekleyen 156, başarı %36, düz getiri %-30, ağırlık 1
+- MS 2: toplam 200, bekleyen 155, başarı %38, düz getiri %-27, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-14 | Letonya 1.Lig | Rigas Fs Ii - Skanste | MS 1 | pending | 45/100
+- 2026-09-14 | Norveç 3.Lig Grup 3 | Asane Ii - Brann Ii | MS 1 | pending | 46/100
 - 2026-09-14 | Honduras Ulusal Lig Apertura | Atlético Indep - Juticalpa | MS 1 | pending | 55/100
 - 2026-09-14 | El Salvador Primera Lig Apertura | Firpo - Isidro Metapan | 2.5 Üst | won | 69/100
 - 2026-09-14 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Suchitepequez | 2.5 Alt | pending | 51/100
@@ -44,6 +46,4 @@ Oluşturma: 14.09.2026 06:44:42
 - 2026-09-14 | AFC Şampiyonlar Ligi Elite Batı Grubu | Esteghlal - Al Sadd | 2.5 Alt | pending | 54/100
 - 2026-09-14 | İspanya 2.Lig | Celta Vigo Ii - Eibar | 2.5 Alt | pending | 56/100
 - 2026-09-14 | Arjantin Ulusal Primera Lig | D Belgrano - Deportivo Madry | MS 1 | pending | 48/100
-- 2026-09-14 | Fransa Ligue 2 | Red Star Paris - Metz | 2.5 Alt | pending | 56/100
-- 2026-09-14 | İrlanda Premier Lig | Shelbourne - Drogheda | MS 1 | pending | 52/100
 
