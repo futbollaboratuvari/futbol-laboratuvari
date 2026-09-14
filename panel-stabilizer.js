@@ -131,6 +131,8 @@
   });
   window.addEventListener("hashchange", () => {
     const id = location.hash ? location.hash.slice(1) : "";
-    openPanel(panelIdForHash(id), false);
+    if (panels.some((panel) => panel.id === id) || parentPanelForHash.has(id)) {
+      openPanel(panelIdForHash(id), false);
+    }
   });
 })();
