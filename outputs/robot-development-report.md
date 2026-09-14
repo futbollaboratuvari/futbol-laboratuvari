@@ -1,9 +1,9 @@
 # Robot Gelişim Raporu
 
-Oluşturma: 2026-09-14T13:10:09.133Z
+Oluşturma: 2026-09-14T14:17:01.683Z
 Toplam tahmin: 1500
-Sonuçlanan: 394
-Bekleyen: 1106
+Sonuçlanan: 392
+Bekleyen: 1108
 
 ## Güçlü Marketler
 
