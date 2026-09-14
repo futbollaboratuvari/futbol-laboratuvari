@@ -1,0 +1,33 @@
+name: PRO Goal Market Test
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/pro-goal-market-bridge.js"
+      - "tests/pro-goal-market-bridge.test.js"
+      - "pro-coupon-eligibility.js"
+      - ".github/workflows/pro-goal-market-test.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test-goal-markets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Test 3.5 and 6+ goal bridge
+        run: node tests/pro-goal-market-bridge.test.js
+
+      - name: Check bridge syntax
+        run: node --check scripts/pro-goal-market-bridge.js
