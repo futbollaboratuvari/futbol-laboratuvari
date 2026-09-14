@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: futbol-stats-memory-writer
+  group: futbol-main-data-writer
   cancel-in-progress: false
 
 jobs:
