@@ -9,21 +9,68 @@ const STORAGE_VERSION = "match-shards-v1";
 const HASHED_SHARD_PATH = /^robot_match_archive_parts\/part-\d{5}-[a-f0-9]{64}\.json$/;
 const LEGACY_SHARD_PATH = /^robot_match_archive_parts\/part-\d{5}\.json$/;
 
-function readShardText(file, shardFile) {
-  const shardPath = path.join(path.dirname(file), shardFile);
-  if (fs.existsSync(shardPath)) return fs.readFileSync(shardPath, "utf8");
+function verifyHashedShardText(text, expectedHash, shardFile) {
+  const digest = createHash("sha256").update(text).digest("hex");
+  if (digest !== expectedHash) {
+    throw new Error(`Archive shard hash mismatch: ${shardFile}`);
+  }
+  return text;
+}
 
+function readShardText(file, shardFile) {
+  const baseDir = path.dirname(file);
   const hashed = shardFile.match(/^robot_match_archive_parts\/(part-\d{5})-([a-f0-9]{64})\.json$/);
-  if (!hashed) throw new Error(`Archive shard missing: ${shardFile}`);
+  if (!hashed) {
+    const legacyPath = path.join(baseDir, shardFile);
+    if (!fs.existsSync(legacyPath)) throw new Error(`Archive shard missing: ${shardFile}`);
+    return fs.readFileSync(legacyPath, "utf8");
+  }
+
+  const desiredPath = path.join(baseDir, shardFile);
+  const recoveryErrors = [];
+  if (fs.existsSync(desiredPath)) {
+    const text = fs.readFileSync(desiredPath, "utf8");
+    try {
+      return verifyHashedShardText(text, hashed[2], shardFile);
+    } catch (error) {
+      recoveryErrors.push(error.message);
+    }
+  }
+
+  // A concurrent writer can commit the manifest separately from the renamed
+  // content-addressed shard. Recover only a self-validating shard with the
+  // same part number; readArchive() still verifies its declared row count.
+  const partsDir = path.join(baseDir, "robot_match_archive_parts");
+  if (fs.existsSync(partsDir)) {
+    const prefix = `${hashed[1]}-`;
+    const candidates = fs.readdirSync(partsDir)
+      .filter((name) => name.startsWith(prefix) && HASHED_SHARD_PATH.test(`robot_match_archive_parts/${name}`))
+      .sort();
+    for (const name of candidates) {
+      const candidateHash = name.slice(prefix.length, -".json".length);
+      const candidateFile = `robot_match_archive_parts/${name}`;
+      try {
+        const text = fs.readFileSync(path.join(partsDir, name), "utf8");
+        return verifyHashedShardText(text, candidateHash, candidateFile);
+      } catch (error) {
+        recoveryErrors.push(error.message);
+      }
+    }
+  }
 
   const legacyFile = `robot_match_archive_parts/${hashed[1]}.json`;
-  const legacyPath = path.join(path.dirname(file), legacyFile);
-  if (!fs.existsSync(legacyPath)) throw new Error(`Archive shard missing: ${shardFile}`);
+  const legacyPath = path.join(baseDir, legacyFile);
+  if (fs.existsSync(legacyPath)) {
+    const text = fs.readFileSync(legacyPath, "utf8");
+    try {
+      return verifyHashedShardText(text, hashed[2], shardFile);
+    } catch (error) {
+      recoveryErrors.push(error.message);
+    }
+  }
 
-  const text = fs.readFileSync(legacyPath, "utf8");
-  const digest = createHash("sha256").update(text).digest("hex");
-  if (digest !== hashed[2]) throw new Error(`Archive shard recovery hash mismatch: ${shardFile}`);
-  return text;
+  const detail = recoveryErrors.length ? ` (${recoveryErrors.join("; ")})` : "";
+  throw new Error(`Archive shard recovery failed: ${shardFile}${detail}`);
 }
 
 function readArchive(file, fallback = { matches: [], team_index: {} }) {
