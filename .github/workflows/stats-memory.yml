@@ -48,7 +48,7 @@ jobs:
           git pull --rebase --autostash origin main
           node scripts/validate-json-no-conflicts.js
           node scripts/validate-generated-file-sizes.js
-          git add data/robot_match_archive.json data/ham_mac_havuzu.json || true
+          git add -A data/robot_match_archive.json data/robot_match_archive_parts data/ham_mac_havuzu.json || true
           if git diff --cached --quiet; then
             echo "No memory changes"
             exit 0
