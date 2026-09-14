@@ -2,22 +2,15 @@
 
 Gunler: 2026-09-14 / 2026-09-15
 Kaynak: fixtures.json
-Ham mac: 173
-Aktif mac: 118
+Ham mac: 125
+Aktif mac: 111
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 55
-Bugun: 99
+Bultenden dusurulen mac: 14
+Bugun: 92
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-09-14 16:45 | AFC Şampiyonlar Ligi Elite Batı Grubu | Neftchi Fargon - Al Jawiya | scheduled | -
-- 2026-09-14 17:00 | Mısır Premier Lig | El Geish - Smouha | scheduled | -
-- 2026-09-14 17:00 | Kuzey Makedonya 1.Lig | Shkëndija Hara - Fk Skopje | scheduled | -
-- 2026-09-14 17:00 | Kosova Süper Lig | Ballkani - Dukagjini | scheduled | -
-- 2026-09-14 17:00 | Kosova Süper Lig | Llapi - Malisheva | scheduled | -
-- 2026-09-14 17:00 | Letonya 1.Lig | Rigas Fs Ii - Skanste | scheduled | -
-- 2026-09-14 17:00 | Portekiz U23 Ulusal Şampiyona | União De Leiri - Benfica U23 | scheduled | -
 - 2026-09-14 17:45 | Bulgaristan 2.Lig | Hebar 1918 - Etar | scheduled | -
 - 2026-09-14 18:00 | Finlandiya Veikkausliiga Şampiyonluk Grubu | Inter Turku - Vaasa | scheduled | -
 - 2026-09-14 18:00 | Ukrayna Premier Lig | Shakhtar Donet - Chernomorets | scheduled | -

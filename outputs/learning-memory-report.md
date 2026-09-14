@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.09.2026 16:28:13
+Oluşturma: 14.09.2026 17:02:18
 
 ## Özet
 
@@ -40,7 +40,7 @@ Oluşturma: 14.09.2026 16:28:13
 - 2026-09-14 | Norveç 3.Lig Grup 5 | Skedsmo - Lillestrom Sk I | MS 1 | pending | 55/100
 - 2026-09-14 | İsveç Superettan | Ostersund - Helsingborg | 2.5 Üst | pending | 53/100
 - 2026-09-14 | Bulgaristan 1.Lig | Ludogorets - Septemvri Sofia | 2.5 Alt | pending | 53/100
-- 2026-09-14 | Arjantin Primera C | Ca Fenix - C Espanol | 2.5 Alt | pending | 48/100
+- 2026-09-14 | Arjantin Primera C | Ca Fenix - C Espanol | 2.5 Alt | pending | 50/100
 - 2026-09-14 | Fransa Ligue 2 | Red Star Paris - Metz | 2.5 Üst | pending | 56/100
 - 2026-09-14 | İrlanda Premier Lig | Shelbourne - Drogheda | 2.5 Üst | pending | 53/100
 - 2026-09-14 | Polonya 1.Lig | Stal Mielec - Nieciecza | 2.5 Alt | pending | 48/100
