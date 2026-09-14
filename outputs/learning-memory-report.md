@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.09.2026 04:16:12
+Oluşturma: 14.09.2026 04:27:18
 
 ## Özet
 
@@ -31,6 +31,7 @@ Oluşturma: 14.09.2026 04:16:12
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-14 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Suchitepequez | 2.5 Alt | pending | 51/100
 - 2026-09-14 | Romanya 1.Lig | Universitatea - Otelul Galati | 2.5 Üst | pending | 54/100
 - 2026-09-14 | İngiltere Premier Lig | Leeds Utd - Newcastle Utd | 2.5 Alt | pending | 70/100
 - 2026-09-14 | Norveç 3.Lig Grup 4 | Viking B - Varhaug | 2.5 Alt | pending | 48/100
@@ -45,5 +46,4 @@ Oluşturma: 14.09.2026 04:16:12
 - 2026-09-14 | İrlanda Premier Lig | Shelbourne - Drogheda | MS 1 | pending | 52/100
 - 2026-09-14 | İrlanda Premier Lig | Dundalk - St Patricks | 2.5 Alt | pending | 50/100
 - 2026-09-14 | İrlanda Premier Lig | Waterford - Derry City | 2.5 Alt | pending | 49/100
-- 2026-09-14 | İrlanda Premier Lig | Sligo Rovers - Galway United | 2.5 Alt | pending | 50/100
 
