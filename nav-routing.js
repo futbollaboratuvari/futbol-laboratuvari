@@ -77,25 +77,57 @@
   const resolveHash = (hash) => hash === "#yaklasan-maclar" ? "#daily-matches-widget" : hash;
   const panelHashes = new Set(["#daily-matches-widget", "#robot-analizleri", "#membership-payment-panel", "#premium-analysis-panel"]);
   const parentPanelForHash = new Map([["#membership-code-access", "#premium-analysis-panel"]]);
+  const panelSelector = [...panelHashes].map((hash) => "#" + hash.slice(1)).join(",");
   const headerOffset = () => (document.querySelector(".site-header")?.offsetHeight || 0) + 18;
+
+  // The navigation must still work if panel-stabilizer loads late or is served from cache.
+  // Apply the same open/closed classes locally first, then notify the stabilizer when present.
+  const revealPanelFallback = (id) => {
+    const target = document.getElementById(id);
+    if (!target) return false;
+    document.querySelectorAll(panelSelector).forEach((node) => {
+      const active = node.id === id;
+      node.classList.add("fl-stable-panel");
+      node.classList.toggle("fl-panel-open", active);
+      node.classList.toggle("fl-panel-closed", !active);
+      if (active) {
+        node.hidden = false;
+        node.removeAttribute("aria-hidden");
+      }
+    });
+    return true;
+  };
+
+  const dispatchPanelOpen = (panelHash, scroll = true) => {
+    if (!panelHashes.has(panelHash)) return;
+    const id = panelHash.slice(1);
+    revealPanelFallback(id);
+    window.dispatchEvent(new CustomEvent("fl:open-panel", { detail: { id, scroll } }));
+  };
+
+  const replayPendingPanel = () => {
+    const pending = window.__flPendingPanel;
+    if (!pending || !revealPanelFallback(pending.id)) return;
+    dispatchPanelOpen("#" + pending.id, pending.scroll !== false);
+    window.__flPendingPanel = null;
+  };
 
   const goToSection = (hash, updateHistory = true) => {
     const targetHash = resolveHash(hash);
     const panelHash = parentPanelForHash.get(targetHash) || targetHash;
-    if (panelHashes.has(panelHash)) {
-      window.dispatchEvent(new CustomEvent("fl:open-panel", { detail: { id: panelHash.slice(1), scroll: true } }));
-    }
     const target = document.querySelector(targetHash);
     if (!target) {
       if (targetHash === "#membership-payment-panel") {
         loadMembership();
+        window.__flPendingPanel = { id: panelHash.slice(1), scroll: true };
         document.addEventListener("fl:membership-ready", () => goToSection(targetHash, updateHistory), { once: true });
       }
       return false;
     }
+    if (updateHistory) history.pushState(null, "", targetHash);
+    if (panelHashes.has(panelHash)) dispatchPanelOpen(panelHash, true);
     const top = target.getBoundingClientRect().top + window.scrollY - headerOffset();
     window.scrollTo({ top: Math.max(top, 0), behavior: "smooth" });
-    if (updateHistory) history.pushState(null, "", targetHash);
     document.querySelector(".nav-links")?.classList.remove("open");
     document.querySelector(".menu-toggle")?.setAttribute("aria-expanded", "false");
     return true;
@@ -133,15 +165,24 @@
     }
   };
 
+  const anchorFromEvent = (event) => {
+    const path = typeof event.composedPath === "function" ? event.composedPath() : [];
+    const fromPath = path.find((node) => node?.tagName === "A" && node.getAttribute?.("href"));
+    return fromPath || event.target?.closest?.('a[href*="#"]');
+  };
+
   document.addEventListener("click", (event) => {
-    if (event.target.closest?.('[data-target-panel="membership-payment-panel"]')) loadMembership();
-    const link = event.target.closest?.('a[href*="#"]');
+    if (event.target?.closest?.('[data-target-panel="membership-payment-panel"]')) loadMembership();
+    const link = anchorFromEvent(event);
     if (!link) return;
     const url = new URL(link.getAttribute("href"), window.location.href);
     if (url.pathname !== window.location.pathname || !url.hash) return;
     event.preventDefault();
     goToSection(url.hash);
   }, true);
+
+  document.addEventListener("fl:runtime-ready", replayPendingPanel);
+  document.addEventListener("fl:membership-ready", replayPendingPanel);
 
   window.addEventListener("fl:open-panel", (event) => {
     if (event.detail?.id === "membership-payment-panel") loadMembership();
