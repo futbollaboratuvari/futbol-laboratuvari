@@ -34,7 +34,7 @@
       });
     } catch {
       targets.forEach((target) => {
-        target.innerHTML = "Satıcı unvanı, açık adres, vergi ve iletişim bilgileri yapılandırılana kadar ücretli sipariş alımı kapalıdır.";
+        target.innerHTML = "Veri sorumlusu ve satıcıya ilişkin güncel iletişim bilgilerine İletişim sayfasından ulaşabilirsiniz. Ücretli sipariş alımı yalnız gerekli işletme bilgileri eksiksiz sunulduğunda etkinleştirilir.";
         target.dataset.state = "blocked";
       });
     }
