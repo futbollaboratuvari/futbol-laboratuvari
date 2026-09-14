@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.09.2026 23:55:22
+Oluşturma: 15.09.2026 01:20:36
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1098
-- Kazanan tahmin: 212
-- Kaybeden tahmin: 190
-- Lig sayısı: 248
+- Bekleyen tahmin: 1142
+- Kazanan tahmin: 192
+- Kaybeden tahmin: 166
+- Lig sayısı: 263
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,28 +22,28 @@ Oluşturma: 14.09.2026 23:55:22
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 595, bekleyen 447, başarı %57, düz getiri %-3, ağırlık 1
-- MS 1: toplam 510, bekleyen 397, başarı %53, düz getiri %-10, ağırlık 1
-- 2.5 Üst: toplam 175, bekleyen 97, başarı %53, düz getiri %-7, ağırlık 1
-- MS X: toplam 4, bekleyen 2, başarı %50, düz getiri %20, ağırlık 1
+- 2.5 Alt: toplam 618, bekleyen 480, başarı %59, düz getiri %-1, ağırlık 1
+- MS 1: toplam 507, bekleyen 408, başarı %54, düz getiri %-8, ağırlık 1
+- 2.5 Üst: toplam 163, bekleyen 99, başarı %52, düz getiri %-7, ağırlık 1
+- MS X: toplam 5, bekleyen 3, başarı %50, düz getiri %20, ağırlık 1
 - KG Var: toplam 16, bekleyen 1, başarı %47, düz getiri %-12, ağırlık 1
-- MS 2: toplam 200, bekleyen 154, başarı %39, düz getiri %-26, ağırlık 1
+- MS 2: toplam 191, bekleyen 151, başarı %43, düz getiri %-21, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-14 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Shamal - Al Ittihad (Cid | 2.5 Alt | pending | 57/100
-- 2026-09-14 | Türkiye Süper Lig | Gaziantep Fk - Fenerbahçe | 2.5 Alt | pending | 65/100
-- 2026-09-14 | Brezilya Serie B | Avai - Vila Nova | MS 2 | pending | 58/100
-- 2026-09-14 | İrlanda Premier Lig | Dundalk - St Patricks | MS 2 | pending | 48/100
-- 2026-09-14 | İsveç Superettan | Ostersund - Helsingborg | MS 1 | pending | 56/100
-- 2026-09-14 | İngiltere Premier Lig 2 | Blackburn Rove - Reading (B) | 2.5 Alt | pending | 49/100
-- 2026-09-14 | Türkiye Süper Lig | Gaziantep Fk - Fenerbahçe | KG Var | lost | 67/100
-- 2026-09-14 | Meksika Liga MX Apertura | Santos Laguna - Fc Juarez | MS 1 | won | 65/100
-- 2026-09-14 | Uruguay Premier Lig Clausura | Penarol - Albion | MS 1 | won | 72/100
-- 2026-09-14 | Guatemala Ulusal Lig Apertura | Guastatoya - Xelaju | 2.5 Üst | won | 68/100
-- 2026-09-14 | Kolombiya Primera A Clausura | Once Caldas - Deportivo Cali | 2.5 Üst | won | 69/100
-- 2026-09-14 | Kosta Rika Premier Lig Apertura | Cs Cartagines - Alajuelense | 2.5 Üst | won | 68/100
-- 2026-09-14 | Jamaika Premier Lig | Racing United - Arnett Gardens | 2.5 Alt | pending | 54/100
-- 2026-09-14 | Portekiz Premier Lig | Braga - Estoril | 2.5 Alt | pending | 61/100
-- 2026-09-14 | ABD MLS Next Pro | Portland Timbe - St. Louis City | MS 2 | pending | 46/100
+- 2026-09-15 | Meksika Ascenso MX Apertura | Dorados - Cancun Fc | MS 1 | pending | 57/100
+- 2026-09-15 | İngiltere Ulusal Lig | Worthing - Hornchurch | MS 1 | pending | 61/100
+- 2026-09-15 | İngiltere Ulusal Lig N / S Güney | Truro City - Salisbury | MS 1 | pending | 51/100
+- 2026-09-15 | İngiltere Ulusal Lig N / S Güney | Billericay Tow - Braintree | MS 1 | pending | 54/100
+- 2026-09-15 | İngiltere Non League Premier Isthmian | Brentwood Town - Stanway Rovers | MS 1 | pending | 58/100
+- 2026-09-15 | İngiltere Non League Premier Isthmian | Welling Utd - Cheshunt | 2.5 Alt | pending | 56/100
+- 2026-09-15 | İngiltere Non League Premier Isthmian | Enfield Town - Dartford | 2.5 Alt | pending | 48/100
+- 2026-09-15 | İngiltere Non League Premier Isthmian | Leatherhead - Afc Whyteleafe | MS 1 | pending | 54/100
+- 2026-09-15 | İngiltere Non League Premier Isthmian | Lewes - Carshalton Athl | 2.5 Alt | pending | 49/100
+- 2026-09-15 | İngiltere Non League Premier Isthmian | Eastbourne Bor - Chatham Town | 2.5 Alt | pending | 49/100
+- 2026-09-15 | İngiltere Non League Premier Isthmian | Cray Wanderers - St Albans | 2.5 Alt | pending | 48/100
+- 2026-09-15 | İngiltere Non League Premier Isthmian | Whitehawk - Three Bridges | MS 2 | pending | 45/100
+- 2026-09-15 | İngiltere Non League Premier Isthmian | Ramsgate - Maldon And Tipt | MS 1 | pending | 54/100
+- 2026-09-15 | İngiltere Non League Premier Güney | Berkhamsted - Uxbridge | 2.5 Alt | pending | 49/100
+- 2026-09-15 | İngiltere Lig Kupası 3.Tur | Liverpool - Tottenham | MS 1 | pending | 66/100
 

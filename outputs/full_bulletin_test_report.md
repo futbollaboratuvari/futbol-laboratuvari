@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 23
+- Scheduled match count: 168
 - Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-09-14 / 2026-09-15 23:59
+- Date window: 2026-09-15 / 2026-09-16 23:59
 
-- 2026-09-14 22:30 | Benjamin Aceva - Paraguari | scheduled
-- 2026-09-14 22:45 | Braga - Estoril | scheduled
-- 2026-09-14 23:00 | Portland Timbe - St. Louis City | scheduled
-- 2026-09-14 23:30 | Tigres Fc - Bogota | scheduled
-- 2026-09-15 01:00 | Banfield - Barracas | scheduled
-- 2026-09-15 01:00 | Riestra - Lanus | scheduled
-- 2026-09-15 01:00 | Indep Cambo Gr - Encarnacion | scheduled
-- 2026-09-15 01:00 | Torque - Liverpool Monte | scheduled
-- 2026-09-15 01:05 | Molynes United - Treasure Beach | scheduled
 - 2026-09-15 01:30 | America Mineir - Sao Bernardo | scheduled
+- 2026-09-15 01:30 | Botafogo Ribei - Goias | scheduled
+- 2026-09-15 01:45 | Orsomarso - Atletico Fc | scheduled
+- 2026-09-15 02:00 | Bahia - Remo | scheduled
+- 2026-09-15 02:30 | Union La Caler - Deportes Limach | scheduled
+- 2026-09-15 03:00 | Univ Catolica - Orense | scheduled
+- 2026-09-15 03:00 | Toluca (K) - Tijuana (K) | scheduled
+- 2026-09-15 03:15 | Instituto Cord - Rio Cuarto | scheduled
+- 2026-09-15 03:30 | Avai - Vila Nova | scheduled
+- 2026-09-15 04:00 | Antigua Guatem - Suchitepequez | scheduled
