@@ -1,14 +1,26 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 52
-Tam analiz: 45
-Eksik analiz: 7
+Toplam analiz: 173
+Tam analiz: 154
+Eksik analiz: 19
 
-- Fc Steaua VS Petrolul 52: eksik score, confidence
-- Haninge VS Syrianska: eksik score, confidence
-- Al Ahli VS Pakhtakor: eksik score, confidence
-- Al-Qadsiah VS Al Wasl: eksik score, confidence
-- Al Ahli (Cidde VS Pakhtakor: eksik score, confidence
-- Inter VS Udinese: eksik score, confidence
-- Vikingur Reykj VS Keflavik: eksik score, confidence
+- Özbekistan U23 VS Filipinler U23: eksik score, confidence
+- Kashima VS Newcastle Jet: eksik score, confidence
+- Mladost Dg U19 VS Kairat U19: eksik score, confidence
+- Trinec VS Mlada Boleslav: eksik score, confidence
+- Narva Trans Ii VS Tammeka Ii: eksik score, confidence
+- Vlasim VS Slovan Liberec: eksik score, confidence
+- Skovshoved VS Kopenhag: eksik score, confidence
+- Super Nova VS Riga Fc: eksik score, confidence
+- Duisburg VS Havelse: eksik score, confidence
+- Ajax VS Willem: eksik score, confidence
+- York VS Newcastle (B): eksik score, confidence
+- Al Hilal (Riya VS Gharrafa: eksik score, confidence
+- Holywell Town VS Colwyn Bay: eksik score, confidence
+- Barry Town VS Ammanford: eksik score, confidence
+- The New Saints VS Flint Town: eksik score, confidence
+- Ross County VS Queen Of South: eksik score, confidence
+- Fiorentina VS Pisa: eksik score, confidence
+- Reading VS Brentford: eksik score, confidence
+- Elche VS Real Madrid: eksik score, confidence
