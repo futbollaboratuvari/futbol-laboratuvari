@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-14T13:27:27.769062+00:00
+Tarih: 2026-09-14T16:59:20.802407+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 116
-- Kac mac kaydedildi: 11
-- Kac mac zaten vardi: 105
+- Kac mac bulundu: 53
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 53
 - Ham veri havuzu toplam mac sayisi: 14677
 - Hedef tarih: 14.09.2026 Europe/Istanbul
 
@@ -16,43 +16,18 @@ Tarih: 2026-09-14T13:27:27.769062+00:00
 
 - ABD MLS Next Pro
 - AFC Şampiyonlar Ligi Elite Batı Grubu
-- Almanya Kadınlar Bundesliga
-- Arjantin Premier Lig 2. Aşama
 - Arjantin Primera C
 - Arjantin Ulusal Primera Lig
-- Azerbaycan Premier Lig
-- Bahreyn 2.Lig
-- Brezilya Serie A
-- Brezilya Serie B
 - Bulgaristan 1.Lig
-- Bulgaristan 2.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
-- Estonya Esiliiga A
-- Estonya Esiliiga B
-- Finlandiya Veikkausliiga Şampiyonluk Grubu
 - Fransa Ligue 2
-- Guatemala Ulusal Lig Apertura
 - Gürcistan Erovnuli Liga
 - Hollanda Eerste Divisie
-- Hırvatistan 1.HNL
 - Irak Premier Lig
-- Jamaika Premier Lig
 - Karadağ 1.Lig
-- Kolombiya Primera A Clausura
 - Kolombiya Primera B Clausura
-- Kosova Süper Lig
-- Kuzey Makedonya 1.Lig
-- Letonya 1.Lig
-- Litvanya 1.Lig
-- Litvanya A Ligi
-- Malta Premier Lig Açılış
-- Meksika Kadınlar Liga MX Apertura
-- Meksika Liga MX Apertura
 - Mısır Premier Lig
 - Norveç 3.Lig Grup 1
-- Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
 - Norveç 3.Lig Grup 5
 - Norveç Eliteserien
@@ -61,16 +36,11 @@ Tarih: 2026-09-14T13:27:27.769062+00:00
 - Polonya Ekstraklasa
 - Portekiz 2.Lig
 - Portekiz Premier Lig
-- Portekiz U23 Ulusal Şampiyona
 - Romanya 1.Lig
-- Rusya FNL
-- Slovakya 2.Lig
 - Suudi Arabistan 1.Lig
 - Sırbistan Süper Lig
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
-- Ukrayna Premier Lig
-- Uruguay Premier Lig Clausura
 - İngiltere Non League Premier Isthmian
 - İngiltere Premier Lig
 - İngiltere Premier Lig 2
@@ -82,7 +52,6 @@ Tarih: 2026-09-14T13:27:27.769062+00:00
 - İsveç Superettan
 - İtalya Serie A
 - İzlanda Urvalsdeild Şampiyonluk Grubu
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -139,8 +108,8 @@ Tarih: 2026-09-14T13:27:27.769062+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 71
-- Acilan detay: 71
+- Denenen Tumu alani: 51
+- Acilan detay: 51
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -158,21 +127,21 @@ Tarih: 2026-09-14T13:27:27.769062+00:00
 | 14.09.2026 | 22:00 | İngiltere Premier Lig | Leeds Utd | Newcastle Utd | 15942 | 5 |
 | 14.09.2026 | 22:00 | İspanya LaLiga | Villarreal | Real Betis | 23290 | 5 |
 | 14.09.2026 | 21:45 | İtalya Serie A | Inter | Udinese | 27026 | 5 |
-| 14.09.2026 | 19:30 | İtalya Serie A | Torino | Roma | 26968 | 5 |
-| 14.09.2026 | 19:30 | İtalya Serie A | Como | Parma | 26911 | 5 |
-| 14.09.2026 | 20:45 | Portekiz Premier Lig | Rio Ave | Estrela | 31996 | 5 |
-| 14.09.2026 | 22:15 | Portekiz Premier Lig | Moreirense | Maritimo | 32054 | 5 |
 | 14.09.2026 | 22:45 | Portekiz Premier Lig | Braga | Estoril | 32112 | 5 |
-| 14.09.2026 | 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al-Qadsiah | Al Wasl | 13604 | 5 |
-| 14.09.2026 | 16:45 | AFC Şampiyonlar Ligi Elite Batı Grubu | Neftchi Fargon | Al Jawiya | 08640 | 5 |
-| 14.09.2026 | 19:00 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Shamal | Al Ittihad (Cid | 09864 | 5 |
-| 14.09.2026 | 19:00 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Ahli Dubai | Tractor Fc | 10127 | 5 |
+| 14.09.2026 | 22:15 | Portekiz Premier Lig | Moreirense | Maritimo | 32054 | 5 |
+| 14.09.2026 | 20:45 | Portekiz Premier Lig | Rio Ave | Estrela | 31996 | 5 |
 | 14.09.2026 | 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Esteghlal | Al Sadd | 10738 | 5 |
+| 14.09.2026 | 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al-Qadsiah | Al Wasl | 13604 | 5 |
 | 14.09.2026 | 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Ahli (Cidde | Pakhtakor | 02162 | 5 |
 | 14.09.2026 | 21:30 | İspanya 2.Lig | Celta Vigo Ii | Eibar | 23232 | 5 |
 | 14.09.2026 | 21:45 | Fransa Ligue 2 | Red Star Paris | Metz | 28444 | 5 |
-| 14.09.2026 | 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) | Ajax (B) | 31351 | 5 |
 | 14.09.2026 | 21:00 | Hollanda Eerste Divisie | Psv (B) | Jong Az Alkmaar | 31349 | 5 |
+| 14.09.2026 | 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) | Ajax (B) | 31351 | 5 |
+| 14.09.2026 | 20:00 | Danimarka Süperlig | Midtjylland | Brondby | 38852 | 5 |
+| 14.09.2026 | 20:00 | İsveç Allsvenskan | Djurgarden | Gais | 38072 | 5 |
+| 14.09.2026 | 20:00 | İsveç Allsvenskan | Sirius | Degerfors | 38126 | 5 |
+| 14.09.2026 | 20:00 | Polonya Ekstraklasa | Radomiak Radom | Piast Gliwice | 42354 | 5 |
+| 14.09.2026 | 21:45 | İrlanda Premier Lig | Sligo Rovers | Galway United | 49105 | 5 |
 
 ## Sonuc
 
