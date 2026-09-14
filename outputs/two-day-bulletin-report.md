@@ -2,22 +2,15 @@
 
 Gunler: 2026-09-14 / 2026-09-15
 Kaynak: fixtures.json
-Ham mac: 118
-Aktif mac: 114
+Ham mac: 173
+Aktif mac: 118
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 97
-Yarin: 17
+Bultenden dusurulen mac: 55
+Bugun: 99
+Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-09-14 14:30 | Singapur Premier Lig | Geylang United - Tanjong Pagar | scheduled | -
-- 2026-09-14 15:00 | Gürcistan Erovnuli Liga | Meshakhte - Fc Rustavi | scheduled | -
-- 2026-09-14 15:00 | İngiltere Professional Development Lig | Swansea (B) - Huddersfield To | scheduled | -
-- 2026-09-14 15:00 | Portekiz U23 Ulusal Şampiyona | Moreirense U23 - Sporting Braga | scheduled | -
-- 2026-09-14 15:30 | Ukrayna Premier Lig | Dynamo Kiev - Epitsentr Dunay | scheduled | -
-- 2026-09-14 16:00 | İtalya Primavera Şampiyonası 1 | Roma U20 - Como U20 | scheduled | -
-- 2026-09-14 16:00 | İngiltere Professional Development Lig | Sheffield Unit - Cardiff City U2 | scheduled | -
 - 2026-09-14 16:45 | AFC Şampiyonlar Ligi Elite Batı Grubu | Neftchi Fargon - Al Jawiya | scheduled | -
 - 2026-09-14 17:00 | Mısır Premier Lig | El Geish - Smouha | scheduled | -
 - 2026-09-14 17:00 | Kuzey Makedonya 1.Lig | Shkëndija Hara - Fk Skopje | scheduled | -
@@ -37,9 +30,11 @@ Yarin: 17
 - 2026-09-14 18:00 | Norveç 3.Lig Grup 3 | Asane Ii - Brann Ii | scheduled | -
 - 2026-09-14 18:00 | Karadağ 1.Lig | Mladost Dg - Buducnost | scheduled | -
 - 2026-09-14 18:00 | Estonya Esiliiga B | Phoenix - Tallinna Kalev | scheduled | -
+- 2026-09-14 18:00 | Norveç 3.Lig Grup 5 | Fauske/Sprint - Stromsgodset B | scheduled | -
 - 2026-09-14 18:30 | Rusya FNL | Shinnik Yarosl - Ural | scheduled | -
 - 2026-09-14 18:45 | Litvanya A Ligi | Banga - Transinvest Vil | scheduled | -
 - 2026-09-14 18:45 | Irak Premier Lig | Naft - Karbala | scheduled | -
+- 2026-09-14 18:45 | Irak Premier Lig | Al Golan - Newroz | scheduled | -
 - 2026-09-14 18:50 | Suudi Arabistan 1.Lig | Al Bukayriyah - Damak | scheduled | -
 - 2026-09-14 19:00 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Shamal - Al Ittihad (Cid | scheduled | -
 - 2026-09-14 19:00 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Ahli Dubai - Tractor Fc | scheduled | -
@@ -52,6 +47,10 @@ Yarin: 17
 - 2026-09-14 19:00 | Bahreyn 2.Lig | Buri - Al Shabab Manam | scheduled | -
 - 2026-09-14 19:00 | Bahreyn 2.Lig | Isa Town - Budaiya | scheduled | -
 - 2026-09-14 19:00 | Bahreyn 2.Lig | Qalali - Umm Al Hassam | scheduled | -
+- 2026-09-14 19:00 | Norveç 3.Lig Grup 2 | Aalesund B - Spjelkavik | scheduled | -
+- 2026-09-14 19:00 | Norveç 3.Lig Grup 4 | Akra - Odd Bk Ii | scheduled | -
+- 2026-09-14 19:00 | Norveç 3.Lig Grup 5 | Skjetten - Tromso Ii | scheduled | -
+- 2026-09-14 19:00 | Malta Premier Lig Açılış | Gzira United - Zabbar St Patri | scheduled | -
 - 2026-09-14 19:05 | Suudi Arabistan 1.Lig | Al Ula - Jeddah Club | scheduled | -
 - 2026-09-14 19:05 | Suudi Arabistan 1.Lig | Al Wahda - Al Akhdoud | scheduled | -
 - 2026-09-14 19:30 | İtalya Serie A | Torino - Roma | scheduled | -
@@ -75,6 +74,8 @@ Yarin: 17
 - 2026-09-14 20:00 | Norveç 3.Lig Grup 4 | Viking B - Varhaug | scheduled | -
 - 2026-09-14 20:00 | Karadağ 1.Lig | Mornar Bar - Otrant | scheduled | -
 - 2026-09-14 20:00 | Karadağ 1.Lig | Petrovac - Fk Arsenal Tiva | scheduled | -
+- 2026-09-14 20:00 | Norveç 3.Lig Grup 1 | Asker - Kfum Ii | scheduled | -
+- 2026-09-14 20:00 | Norveç 3.Lig Grup 5 | Skedsmo - Lillestrom Sk I | scheduled | -
 - 2026-09-14 20:05 | İsveç Superettan | Ostersund - Helsingborg | scheduled | -
 - 2026-09-14 20:20 | Suudi Arabistan 1.Lig | Al Najma - Al-Raed | scheduled | -
 - 2026-09-14 20:30 | Bulgaristan 1.Lig | Ludogorets - Septemvri Sofia | scheduled | -
@@ -91,6 +92,7 @@ Yarin: 17
 - 2026-09-14 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Ahli - Pakhtakor | scheduled | -
 - 2026-09-14 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Esteghlal - Al Sadd | scheduled | -
 - 2026-09-14 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al-Qadsiah - Al Wasl | scheduled | -
+- 2026-09-14 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Ahli (Cidde - Pakhtakor | scheduled | -
 - 2026-09-14 21:30 | İspanya 2.Lig | Celta Vigo Ii - Eibar | scheduled | -
 - 2026-09-14 21:30 | Arjantin Ulusal Primera Lig | D Belgrano - Deportivo Madry | scheduled | -
 - 2026-09-14 21:45 | İtalya Serie A | Inter - Udinese | scheduled | -
@@ -112,6 +114,7 @@ Yarin: 17
 - 2026-09-15 01:00 | Arjantin Premier Lig 2. Aşama | Riestra - Lanus | scheduled | -
 - 2026-09-15 01:00 | Uruguay Premier Lig Clausura | Torque - Liverpool Monte | scheduled | -
 - 2026-09-15 01:00 | Paraguay Intermedia Lig | Indep Cambo Gr - Encarnacion | scheduled | -
+- 2026-09-15 01:05 | Jamaika Premier Lig | Molynes United - Treasure Beach | scheduled | -
 - 2026-09-15 01:30 | Brezilya Serie B | Botafogo Ribei - Goias | scheduled | -
 - 2026-09-15 01:30 | Brezilya Serie B | America Mineir - Sao Bernardo | scheduled | -
 - 2026-09-15 01:45 | Kolombiya Primera B Clausura | Orsomarso - Atletico Fc | scheduled | -
@@ -125,6 +128,7 @@ Yarin: 17
 - 2026-09-15 04:00 | Kolombiya Primera A Clausura | America De Cal - Deportivo Pasto | scheduled | -
 - 2026-09-15 04:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Suchitepequez | scheduled | -
 - 2026-09-15 04:00 | Meksika Kadınlar Liga MX Apertura | Pachuca (K) - León (K) | scheduled | -
+- 2026-09-15 04:00 | Jamaika Premier Lig | Racing United - Arnett Gardens | scheduled | -
 
 ## Canli Maclar
 Canli mac yok.
