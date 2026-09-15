@@ -1,17 +1,16 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 152
-Tam analiz: 131
-Eksik analiz: 21
+Toplam analiz: 127
+Tam analiz: 107
+Eksik analiz: 20
 
-- Widzew Lodz Ii VS Polonia Bytom: eksik score, confidence
-- Trinec VS Mlada Boleslav: eksik score, confidence
-- Narva Trans Ii VS Tammeka Ii: eksik score, confidence
-- Vlasim VS Slovan Liberec: eksik score, confidence
 - Skovshoved VS Kopenhag: eksik score, confidence
 - Super Nova VS Riga Fc: eksik score, confidence
+- Young Africans VS Geita Gold: eksik score, confidence
+- Vilzing VS Ansbach 09: eksik score, confidence
 - Duisburg VS Havelse: eksik score, confidence
+- Fürth Ii VS 1860 Münih: eksik score, confidence
 - Ajax VS Willem: eksik score, confidence
 - York VS Newcastle (B): eksik score, confidence
 - Al Hilal (Riya VS Gharrafa: eksik score, confidence
@@ -25,3 +24,4 @@ Eksik analiz: 21
 - Reading VS Brentford: eksik score, confidence
 - Ipswich VS Arsenal: eksik score, confidence
 - Elche VS Real Madrid: eksik score, confidence
+- Platense (0) VS (2) Fluminense: eksik score, confidence

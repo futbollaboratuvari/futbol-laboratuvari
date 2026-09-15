@@ -2,47 +2,15 @@
 
 Gunler: 2026-09-15 / 2026-09-16
 Kaynak: fixtures.json
-Ham mac: 141
-Aktif mac: 109
+Ham mac: 127
+Aktif mac: 77
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 32
-Bugun: 92
+Bultenden dusurulen mac: 50
+Bugun: 60
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-09-15 20:00 | İspanya LaLiga | Vallecano - Espanyol | scheduled | -
-- 2026-09-15 20:00 | İsviçre Süper Lig | Grasshoppers - Sion | scheduled | -
-- 2026-09-15 20:00 | Danimarka DBU Kupası 3.Tur | Hellerup Ik - Esbjerg | scheduled | -
-- 2026-09-15 20:00 | Almanya 3. Lig | Sonnenhof Gros - Verl 1924 | scheduled | -
-- 2026-09-15 20:00 | Almanya 3. Lig | Regensburg - Fortuna Düsseld | scheduled | -
-- 2026-09-15 20:00 | Almanya 3. Lig | Sv Meppen - Viktoria Köln | scheduled | -
-- 2026-09-15 20:00 | Almanya 3. Lig | Duisburg - Havelse | scheduled | -
-- 2026-09-15 20:00 | Almanya 3. Lig | Würzburger Kic - Aachen | scheduled | -
-- 2026-09-15 20:00 | İsveç Superettan | Varnamo - Oster | scheduled | -
-- 2026-09-15 20:00 | İsveç Superettan | Landskrona - Sundsvall | scheduled | -
-- 2026-09-15 20:00 | İsveç Superettan | Brage - Sandvikens | scheduled | -
-- 2026-09-15 20:00 | Mısır Premier Lig | Masryal Masry - Al Ittihad Al S | scheduled | -
-- 2026-09-15 20:00 | Mısır Premier Lig | Al Ahly - Abu Qair | scheduled | -
-- 2026-09-15 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Hallescher - Carl Zeiss Jena | scheduled | -
-- 2026-09-15 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Zwickau - Altglienicke | scheduled | -
-- 2026-09-15 20:00 | Karadağ 1.Lig | Jezero Plav - Bokelj Kotor | scheduled | -
-- 2026-09-15 20:00 | Türkiye Kupa 1.Tur | Altay - Söke 1970 Sk | scheduled | -
-- 2026-09-15 20:00 | Almanya Bölgesel Lig Bayern | Schweinfurt - Illertissen | scheduled | -
-- 2026-09-15 20:00 | Almanya Bölgesel Lig Bayern | Memmingen - Burghausen | scheduled | -
-- 2026-09-15 20:00 | Almanya Bölgesel Lig Bayern | Fürth Ii - 1860 Münih | scheduled | -
-- 2026-09-15 20:30 | Almanya Bölgesel Lig Kuzey | Drochtersen / - Kickers Emden | scheduled | -
-- 2026-09-15 21:00 | İspanya LaLiga | Alaves - Valencia | scheduled | -
-- 2026-09-15 21:00 | Hollanda Eredivisie | Ajax - Willem | scheduled | -
-- 2026-09-15 21:00 | İngiltere EFL Trophy Kuzey Grup C | York - Newcastle (B) | scheduled | -
-- 2026-09-15 21:00 | İngiltere EFL Trophy Kuzey Grup D | Chesterfield - Man City U21 | scheduled | -
-- 2026-09-15 21:00 | İngiltere EFL Trophy Güney Grup C | Wycombe - Chelsea (B) | scheduled | -
-- 2026-09-15 21:00 | İngiltere EFL Trophy Güney Grup E | Swindon - Crystal Palace | scheduled | -
-- 2026-09-15 21:00 | İngiltere EFL Trophy Güney Grup F | Leyton Orient - Arsenal U21 | scheduled | -
-- 2026-09-15 21:00 | İngiltere Premier Lig Kupası Grup C | Gillingham U21 - Birmingham City | scheduled | -
-- 2026-09-15 21:00 | İngiltere Premier Lig Kupası Grup H | Bromley U21 - Ipswich Town U2 | scheduled | -
-- 2026-09-15 21:00 | Arjantin Primera C | Claypole - Sacachispas | scheduled | -
-- 2026-09-15 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Hilal (Riya - Gharrafa | scheduled | -
 - 2026-09-15 21:30 | İngiltere Lig Kupası 3.Tur | Peterborough - Barnsley | scheduled | -
 - 2026-09-15 21:30 | Polonya Ekstraklasa | Korona Kielce - Gornik Zabrze | scheduled | -
 - 2026-09-15 21:45 | İngiltere Lig Kupası 3.Tur | West Ham - Fulham | scheduled | -
