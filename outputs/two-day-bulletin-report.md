@@ -2,25 +2,15 @@
 
 Gunler: 2026-09-15 / 2026-09-16
 Kaynak: fixtures.json
-Ham mac: 154
-Aktif mac: 153
+Ham mac: 177
+Aktif mac: 147
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 139
-Yarin: 14
+Bultenden dusurulen mac: 30
+Bugun: 131
+Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-09-15 12:30 | Avustralya FFA Kupası Yarı Final | South Melbourn - Queensland Lion | scheduled | -
-- 2026-09-15 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Ratchaburi Fc - Shanghai Port | scheduled | -
-- 2026-09-15 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Daejeon Citize - Kyoto Sanga | scheduled | -
-- 2026-09-15 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Kashima - Newcastle Jet | scheduled | -
-- 2026-09-15 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Gamba Osaka - Cand | scheduled | -
-- 2026-09-15 13:00 | Asya Oyunları Grup C | Vietnam U23 - Kuveyt U23 | scheduled | -
-- 2026-09-15 13:00 | Portekiz U23 Ulusal Şampiyona | Gil Vicente U2 - Portimonense U2 | scheduled | -
-- 2026-09-15 13:00 | Portekiz U23 Ulusal Şampiyona | Farense U23 - Leixoes U23 | scheduled | -
-- 2026-09-15 13:30 | Asya Oyunları Grup D | Katar U23 - Guney Kore U23 | scheduled | -
-- 2026-09-15 14:00 | Tayland 2.Lig | Chiangmai Unit - Khonkaen Utd | scheduled | -
 - 2026-09-15 14:30 | Tayland 2.Lig | Tero Sasana - Songkhla | scheduled | -
 - 2026-09-15 15:00 | İngiltere Professional Development Lig | Peterborough U - Bristol City U2 | scheduled | -
 - 2026-09-15 15:00 | İngiltere Professional Development Lig | Coventry City - Barnsley U21 | scheduled | -
@@ -52,6 +42,7 @@ Yarin: 14
 - 2026-09-15 18:00 | Çek Cumhuriyeti Kupa 3.Tur | Vlasim - Slovan Liberec | scheduled | -
 - 2026-09-15 18:30 | Suudi Arabistan 1.Lig | Al Adalah - Al-Jandal | scheduled | -
 - 2026-09-15 18:30 | Bulgaristan 2.Lig | Lokomotiv Gorn - Nesebar | scheduled | -
+- 2026-09-15 18:30 | Estonya Esiliiga B | Tallinna Infon - Viljandi Tulevi | scheduled | -
 - 2026-09-15 19:00 | İtalya Kupa 2.Tur | Genoa - Sudtirol | scheduled | -
 - 2026-09-15 19:00 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Ain - Al Nassr (Riyad | scheduled | -
 - 2026-09-15 19:00 | Polonya Ekstraklasa | Rakow Czestoch - Zaglebie Lubin | scheduled | -
@@ -80,6 +71,7 @@ Yarin: 14
 - 2026-09-15 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Hallescher - Carl Zeiss Jena | scheduled | -
 - 2026-09-15 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Zwickau - Altglienicke | scheduled | -
 - 2026-09-15 20:00 | Karadağ 1.Lig | Jezero Plav - Bokelj Kotor | scheduled | -
+- 2026-09-15 20:00 | Türkiye Kupa 1.Tur | Altay - Söke 1970 Sk | scheduled | -
 - 2026-09-15 20:30 | Almanya Bölgesel Lig Kuzey | Drochtersen / - Kickers Emden | scheduled | -
 - 2026-09-15 21:00 | İspanya LaLiga | Alaves - Valencia | scheduled | -
 - 2026-09-15 21:00 | Hollanda Eredivisie | Ajax - Willem | scheduled | -
@@ -158,7 +150,9 @@ Yarin: 14
 - 2026-09-16 01:00 | Paraguay Intermedia Lig | Tacuary - 12 De Junio Vh | scheduled | -
 - 2026-09-16 01:30 | Brezilya Serie B | Londrina - Ponte Preta | scheduled | -
 - 2026-09-16 01:30 | Brezilya Serie B | Nautico - Operario | scheduled | -
+- 2026-09-16 01:30 | Venezuela Premier Lig Clausura | Depor Tachira - Academia Puerto | scheduled | -
 - 2026-09-16 02:00 | ABD USL | Indy Eleven - Brooklyn | scheduled | -
+- 2026-09-16 02:30 | Venezuela Premier Lig Clausura | Ucv - Academia Anzoat | scheduled | -
 - 2026-09-16 03:00 | Brezilya Serie B | Regatas - Sport Recife | scheduled | -
 - 2026-09-16 03:30 | Copa Sudamericana Çeyrek Final | Sao Paulo (0) - (1) Boca Juniors | scheduled | -
 - 2026-09-16 03:30 | Kolombiya Primera A Clausura | Chico - Alianza Petrole | scheduled | -
