@@ -2,26 +2,15 @@
 
 Gunler: 2026-09-15 / 2026-09-16
 Kaynak: fixtures.json
-Ham mac: 157
-Aktif mac: 142
+Ham mac: 152
+Aktif mac: 134
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 15
-Bugun: 126
+Bultenden dusurulen mac: 18
+Bugun: 118
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-09-15 15:15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Johor Dt - Buriram Utd | scheduled | -
-- 2026-09-15 15:15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Beijing Guoan - Pohang Steelers | scheduled | -
-- 2026-09-15 16:00 | Polonya Kupa 1.Tur | Widzew Lodz Ii - Polonia Bytom | scheduled | -
-- 2026-09-15 16:00 | İngiltere Professional Development Lig | Millwall U21 - Bolton U21 | scheduled | -
-- 2026-09-15 16:00 | İngiltere Professional Development Lig | Wigan Athletic - Colchester Unit | scheduled | -
-- 2026-09-15 16:00 | Uganda Premier Lig | Sc Villa - Kigezi Home Boy | scheduled | -
-- 2026-09-15 16:00 | Uganda Premier Lig | Nec - Ura | scheduled | -
-- 2026-09-15 16:00 | Uganda Premier Lig | Bul - Blacks Power | scheduled | -
-- 2026-09-15 16:00 | Ruanda Ulusal Futbol Ligi | Kiyovu - Bugesera | scheduled | -
-- 2026-09-15 16:00 | Ruanda Ulusal Futbol Ligi | Etoile De Lest - Gicumbi | scheduled | -
-- 2026-09-15 16:00 | Ruanda Ulusal Futbol Ligi | Etincelles - Musanze | scheduled | -
 - 2026-09-15 16:45 | AFC Şampiyonlar Ligi 2 Grup B | Arkadag - Al Muharraq | scheduled | -
 - 2026-09-15 16:45 | AFC Şampiyonlar Ligi 2 Grup B | Gol Gohar Sirj - Al Jazira | scheduled | -
 - 2026-09-15 17:00 | UEFA Gençlik Ligi 1.Tur | Mladost Dg U19 - Kairat U19 | scheduled | -
@@ -31,6 +20,7 @@ Yarin: 16
 - 2026-09-15 17:00 | Portekiz U23 Ulusal Şampiyona | Sporting Cp U2 - Academico Viseu | scheduled | -
 - 2026-09-15 17:00 | Portekiz U23 Ulusal Şampiyona | Vizela U23 - Marítimo U23 | scheduled | -
 - 2026-09-15 17:00 | Portekiz U23 Ulusal Şampiyona | Famalicão U23 - Rio Ave U23 | scheduled | -
+- 2026-09-15 17:00 | İran Azadegan Ligi | Fard Alborz - Sanat Mes Kerma | scheduled | -
 - 2026-09-15 17:30 | Çek Cumhuriyeti Kupa 3.Tur | Trinec - Mlada Boleslav | scheduled | -
 - 2026-09-15 17:30 | Hırvatistan HR Nogometni Kupası Son 32 Turu | Bjelovar - Karlovac 1919 | scheduled | -
 - 2026-09-15 17:30 | Estonya Esiliiga B | Narva Trans Ii - Tammeka Ii | scheduled | -
@@ -45,6 +35,7 @@ Yarin: 16
 - 2026-09-15 19:00 | Letonya Virsliga | Super Nova - Riga Fc | scheduled | -
 - 2026-09-15 19:00 | Bulgaristan 2.Lig | Ludogorets Ii - Fratria | scheduled | -
 - 2026-09-15 19:00 | Estonya Esiliiga B | Tallinna Infon - Viljandi Tulevi | scheduled | -
+- 2026-09-15 19:00 | Tanzanya Kuu Bara Ligi | Young Africans - Geita Gold | scheduled | -
 - 2026-09-15 19:05 | Suudi Arabistan 1.Lig | Al Orubah Club - Al Jeel | scheduled | -
 - 2026-09-15 19:30 | İtalya Serie C Grup C | Casertana - Team Altamura | scheduled | -
 - 2026-09-15 19:30 | İtalya Serie C Grup C | Crotone - Internazionale | scheduled | -
@@ -123,6 +114,7 @@ Yarin: 16
 - 2026-09-15 21:45 | İngiltere Non League Premier Isthmian | Whitehawk - Three Bridges | scheduled | -
 - 2026-09-15 21:45 | İngiltere Non League Premier Isthmian | Ramsgate - Maldon And Tipt | scheduled | -
 - 2026-09-15 21:45 | İngiltere Non League Premier Güney | Berkhamsted - Uxbridge | scheduled | -
+- 2026-09-15 21:45 | İskoçya Challenge Kupası Lig Aşaması | East Fife - Motherwell Ii | scheduled | -
 - 2026-09-15 22:00 | İtalya Kupa 2.Tur | Fiorentina - Pisa | scheduled | -
 - 2026-09-15 22:00 | İngiltere Lig Kupası 3.Tur | Liverpool - Tottenham | scheduled | -
 - 2026-09-15 22:00 | İngiltere Lig Kupası 3.Tur | Reading - Brentford | scheduled | -
