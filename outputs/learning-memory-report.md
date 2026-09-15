@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.09.2026 01:20:44
+Oluşturma: 16.09.2026 02:11:51
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1173
-- Kazanan tahmin: 188
-- Kaybeden tahmin: 139
+- Bekleyen tahmin: 1144
+- Kazanan tahmin: 199
+- Kaybeden tahmin: 157
 - Lig sayısı: 280
 - Seçenek sayısı: 6
 
@@ -22,15 +22,17 @@ Oluşturma: 16.09.2026 01:20:44
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 596, bekleyen 471, başarı %61, düz getiri %4, ağırlık 1
-- MS 1: toplam 502, bekleyen 414, başarı %59, düz getiri %0, ağırlık 1
-- 2.5 Üst: toplam 166, bekleyen 107, başarı %56, düz getiri %2, ağırlık 1
+- 2.5 Alt: toplam 595, bekleyen 464, başarı %61, düz getiri %5, ağırlık 1
+- MS 1: toplam 503, bekleyen 399, başarı %55, düz getiri %-8, ağırlık 1
+- 2.5 Üst: toplam 166, bekleyen 104, başarı %55, düz getiri %-1, ağırlık 1
 - MS X: toplam 7, bekleyen 3, başarı %50, düz getiri %22, ağırlık 1
 - KG Var: toplam 15, bekleyen 1, başarı %50, düz getiri %-6, ağırlık 1
-- MS 2: toplam 214, bekleyen 177, başarı %49, düz getiri %-5, ağırlık 1
+- MS 2: toplam 214, bekleyen 173, başarı %46, düz getiri %-10, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-16 | İngiltere Ulusal Lig | Altrincham - Hartlepool | MS 1 | pending | 66/100
+- 2026-09-16 | Kadınlar U20 Dünya Kupası Son 16 Turu | Brezilya U20 ( - Abd U20 (K) | 2.5 Alt | pending | 50/100
 - 2026-09-16 | Kuzey Amerika Şampiyonlar Kupası Final | Inter Miami - Cruz Azul | MS 1 | pending | 49/100
 - 2026-09-16 | Copa Libertadores Çeyrek Final | Corinthians (1) - (1) Estudiantes Lp | MS 1 | pending | 42/100
 - 2026-09-16 | CONCACAF Orta Amerika Kupası Çeyrek Final | Cs Cartagines (2) - (2) Deportivo Sapri | 2.5 Alt | pending | 48/100
@@ -44,6 +46,4 @@ Oluşturma: 16.09.2026 01:20:44
 - 2026-09-16 | UEFA Avrupa Ligi Lig Aşaması | Ac Milan - Benfica | MS 1 | pending | 54/100
 - 2026-09-16 | UEFA Avrupa Ligi Lig Aşaması | Olympiakos - Jagiellonia | 2.5 Alt | pending | 49/100
 - 2026-09-16 | UEFA Avrupa Ligi Lig Aşaması | Sunderland - Az Alkmaar | 2.5 Alt | pending | 66/100
-- 2026-09-16 | UEFA Avrupa Ligi Lig Aşaması | Hapoel Beer Sh - Dinamo Zagreb | MS 2 | pending | 49/100
-- 2026-09-16 | UEFA Avrupa Ligi Lig Aşaması | Anderlecht - Lyon | 2.5 Alt | pending | 65/100
 
