@@ -3,18 +3,14 @@
 Gunler: 2026-09-16 / 2026-09-17
 Kaynak: fixtures.json
 Ham mac: 191
-Aktif mac: 185
+Aktif mac: 181
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 159
+Bultenden dusurulen mac: 10
+Bugun: 155
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-09-16 01:30 | Brezilya Serie B | Londrina - Ponte Preta | scheduled | -
-- 2026-09-16 01:30 | Brezilya Serie B | Nautico - Operario | scheduled | -
-- 2026-09-16 01:30 | Venezuela Premier Lig Clausura | Depor Tachira - Academia Puerto | scheduled | -
-- 2026-09-16 02:00 | ABD USL | Indy Eleven - Brooklyn | scheduled | -
 - 2026-09-16 02:30 | Venezuela Premier Lig Clausura | Ucv - Academia Anzoat | scheduled | -
 - 2026-09-16 03:00 | Brezilya Serie B | Regatas - Sport Recife | scheduled | -
 - 2026-09-16 03:30 | Copa Sudamericana Çeyrek Final | Sao Paulo (0) - (1) Boca Juniors | scheduled | -
