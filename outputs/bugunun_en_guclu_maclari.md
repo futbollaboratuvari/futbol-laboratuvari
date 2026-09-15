@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-15T20:30:43.762Z
-- Ham maç sayısı: 78
-- Yarın bülteni maç sayısı: 17
-- Detay blok sayısı: 230
-- Aktif bülten maçı: 17
-- Bültenden düşürülen maç: 61
+- Güncelleme: 2026-09-15T21:32:22.552Z
+- Ham maç sayısı: 17
+- Yarın bülteni maç sayısı: 0
+- Detay blok sayısı: 50
+- Aktif bülten maçı: 16
+- Bültenden düşürülen maç: 1
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Academia Del B - The Strongest | Bolivya Premier Lig | 00:30 | Veri bekleniyor | - | 3.93 | 6 |
 | Platense (0) - (2) Fluminense | Copa Libertadores Çeyrek Final | 01:00 | Veri bekleniyor | - | 2.64 | 8 |
 | Vasco Da Gama (0) - (0) Santa Fe | Copa Sudamericana Çeyrek Final | 01:00 | Veri bekleniyor | - | 1.22 | 7 |
 | Carabobo - Deportivo La Gu | Venezuela Premier Lig Clausura | 01:00 | Veri bekleniyor | - | 1.6 | 8 |

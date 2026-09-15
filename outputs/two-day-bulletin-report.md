@@ -1,17 +1,16 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-09-15 / 2026-09-16
+Gunler: 2026-09-16 / 2026-09-17
 Kaynak: fixtures.json
-Ham mac: 89
-Aktif mac: 17
+Ham mac: 17
+Aktif mac: 16
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 72
-Bugun: 0
-Yarin: 17
+Bultenden dusurulen mac: 1
+Bugun: 16
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-09-16 00:30 | Bolivya Premier Lig | Academia Del B - The Strongest | scheduled | -
 - 2026-09-16 01:00 | Copa Libertadores Çeyrek Final | Platense (0) - (2) Fluminense | scheduled | -
 - 2026-09-16 01:00 | Copa Sudamericana Çeyrek Final | Vasco Da Gama (0) - (0) Santa Fe | scheduled | -
 - 2026-09-16 01:00 | Venezuela Premier Lig Clausura | Carabobo - Deportivo La Gu | scheduled | -
