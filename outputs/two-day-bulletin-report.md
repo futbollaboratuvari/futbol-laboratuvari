@@ -2,19 +2,15 @@
 
 Gunler: 2026-09-15 / 2026-09-16
 Kaynak: fixtures.json
-Ham mac: 144
-Aktif mac: 121
+Ham mac: 188
+Aktif mac: 124
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 23
-Bugun: 105
-Yarin: 16
+Bultenden dusurulen mac: 64
+Bugun: 107
+Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-09-15 18:00 | Çek Cumhuriyeti Kupa 3.Tur | Vlasim - Slovan Liberec | scheduled | -
-- 2026-09-15 18:30 | Suudi Arabistan 1.Lig | Al Adalah - Al-Jandal | scheduled | -
-- 2026-09-15 18:30 | Bulgaristan 2.Lig | Lokomotiv Gorn - Nesebar | scheduled | -
-- 2026-09-15 18:30 | Estonya Esiliiga B | Tallinna Infon - Viljandi Tulevi | scheduled | -
 - 2026-09-15 19:00 | İtalya Kupa 2.Tur | Genoa - Sudtirol | scheduled | -
 - 2026-09-15 19:00 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Ain - Al Nassr (Riyad | scheduled | -
 - 2026-09-15 19:00 | Polonya Ekstraklasa | Rakow Czestoch - Zaglebie Lubin | scheduled | -
@@ -28,6 +24,8 @@ Yarin: 16
 - 2026-09-15 19:30 | İtalya Serie C Grup C | Crotone - Internazionale | scheduled | -
 - 2026-09-15 19:30 | İtalya Serie C Grup C | Ssc Giugliano - Cosenza | scheduled | -
 - 2026-09-15 19:30 | İtalya Serie C Grup C | Picerno - Catania | scheduled | -
+- 2026-09-15 19:30 | Almanya Bölgesel Lig Bayern | Bayern Munich - Augsburg Ii | scheduled | -
+- 2026-09-15 19:30 | Almanya Bölgesel Lig Bayern | Vilzing - Ansbach 09 | scheduled | -
 - 2026-09-15 20:00 | İspanya LaLiga | Vallecano - Espanyol | scheduled | -
 - 2026-09-15 20:00 | İsviçre Süper Lig | Grasshoppers - Sion | scheduled | -
 - 2026-09-15 20:00 | Danimarka DBU Kupası 3.Tur | Hellerup Ik - Esbjerg | scheduled | -
@@ -45,6 +43,9 @@ Yarin: 16
 - 2026-09-15 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Zwickau - Altglienicke | scheduled | -
 - 2026-09-15 20:00 | Karadağ 1.Lig | Jezero Plav - Bokelj Kotor | scheduled | -
 - 2026-09-15 20:00 | Türkiye Kupa 1.Tur | Altay - Söke 1970 Sk | scheduled | -
+- 2026-09-15 20:00 | Almanya Bölgesel Lig Bayern | Schweinfurt - Illertissen | scheduled | -
+- 2026-09-15 20:00 | Almanya Bölgesel Lig Bayern | Memmingen - Burghausen | scheduled | -
+- 2026-09-15 20:00 | Almanya Bölgesel Lig Bayern | Fürth Ii - 1860 Münih | scheduled | -
 - 2026-09-15 20:30 | Almanya Bölgesel Lig Kuzey | Drochtersen / - Kickers Emden | scheduled | -
 - 2026-09-15 21:00 | İspanya LaLiga | Alaves - Valencia | scheduled | -
 - 2026-09-15 21:00 | Hollanda Eredivisie | Ajax - Willem | scheduled | -
@@ -116,6 +117,7 @@ Yarin: 16
 - 2026-09-15 22:15 | İzlanda Urvalsdeild Şampiyonluk Grubu | Fram - Breidablik | scheduled | -
 - 2026-09-15 22:30 | İspanya LaLiga | Elche - Real Madrid | scheduled | -
 - 2026-09-15 22:30 | Paraguay Intermedia Lig | Atlético Tembe - Sportivo Carape | scheduled | -
+- 2026-09-15 22:30 | Portekiz U23 Ulusal Şampiyona | Penafiel U23 - Santa Clara U23 | scheduled | -
 - 2026-09-16 00:30 | Bolivya Premier Lig | Academia Del B - The Strongest | scheduled | -
 - 2026-09-16 01:00 | Copa Libertadores Çeyrek Final | Platense (0) - (2) Fluminense | scheduled | -
 - 2026-09-16 01:00 | Copa Sudamericana Çeyrek Final | Vasco Da Gama (0) - (0) Santa Fe | scheduled | -
@@ -130,6 +132,7 @@ Yarin: 16
 - 2026-09-16 03:00 | Brezilya Serie B | Regatas - Sport Recife | scheduled | -
 - 2026-09-16 03:30 | Copa Sudamericana Çeyrek Final | Sao Paulo (0) - (1) Boca Juniors | scheduled | -
 - 2026-09-16 03:30 | Kolombiya Primera A Clausura | Chico - Alianza Petrole | scheduled | -
+- 2026-09-16 03:30 | Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final | Bahia (K) - Corinthians (K) | scheduled | -
 - 2026-09-16 04:00 | Meksika Liga MX Apertura | Puebla - Toluca | scheduled | -
 - 2026-09-16 04:00 | Meksika Ascenso MX Apertura | Dorados - Cancun Fc | scheduled | -
 

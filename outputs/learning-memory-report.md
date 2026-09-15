@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.09.2026 18:00:41
+Oluşturma: 15.09.2026 18:37:49
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1118
+- Bekleyen tahmin: 1119
 - Kazanan tahmin: 208
-- Kaybeden tahmin: 174
-- Lig sayısı: 265
+- Kaybeden tahmin: 173
+- Lig sayısı: 267
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,28 +22,28 @@ Oluşturma: 15.09.2026 18:00:41
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 612, bekleyen 465, başarı %59, düz getiri %0, ağırlık 1
-- MS 1: toplam 503, bekleyen 397, başarı %55, düz getiri %-7, ağırlık 1
-- 2.5 Üst: toplam 166, bekleyen 99, başarı %54, düz getiri %-3, ağırlık 1
+- 2.5 Alt: toplam 610, bekleyen 463, başarı %59, düz getiri %0, ağırlık 1
+- MS 1: toplam 504, bekleyen 398, başarı %55, düz getiri %-7, ağırlık 1
+- 2.5 Üst: toplam 168, bekleyen 101, başarı %54, düz getiri %-3, ağırlık 1
 - MS X: toplam 7, bekleyen 3, başarı %50, düz getiri %22, ağırlık 1
 - KG Var: toplam 16, bekleyen 1, başarı %47, düz getiri %-12, ağırlık 1
-- MS 2: toplam 196, bekleyen 153, başarı %44, düz getiri %-16, ağırlık 1
+- MS 2: toplam 195, bekleyen 153, başarı %45, düz getiri %-14, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-15 | Portekiz U23 Ulusal Şampiyona | Penafiel U23 - Santa Clara U23 | 2.5 Üst | pending | 54/100
+- 2026-09-15 | Copa Sudamericana Çeyrek Final | Vasco Da Gama (0) - (0) Santa Fe | 2.5 Alt | pending | 44/100
+- 2026-09-15 | Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final | Bahia (K) - Corinthians (K) | MS 2 | pending | 45/100
+- 2026-09-15 | Meksika Liga MX Apertura | Puebla - Toluca | 2.5 Alt | pending | 68/100
+- 2026-09-15 | İtalya Serie C Grup C | Barletta - Salernitana | 2.5 Üst | pending | 53/100
+- 2026-09-15 | Galler Premier Lig 1.Aşama | Trefelin - Cambrian | 2.5 Alt | pending | 49/100
+- 2026-09-15 | İsveç Superettan | Brage - Sandvikens | 2.5 Alt | pending | 48/100
+- 2026-09-15 | Almanya Bölgesel Lig Kuzey Doğu | Zwickau - Altglienicke | MS 2 | pending | 49/100
+- 2026-09-15 | Almanya Bölgesel Lig Bayern | Schweinfurt - Illertissen | MS 1 | pending | 52/100
+- 2026-09-15 | Almanya Bölgesel Lig Bayern | Memmingen - Burghausen | MS 1 | pending | 50/100
+- 2026-09-15 | İngiltere EFL Trophy Kuzey Grup D | Chesterfield - Man City U21 | MS 2 | pending | 47/100
+- 2026-09-15 | Polonya Ekstraklasa | Rakow Czestoch - Zaglebie Lubin | MS 1 | pending | 51/100
+- 2026-09-15 | İtalya Serie C Grup C | Picerno - Catania | MS 2 | pending | 45/100
+- 2026-09-15 | Almanya Bölgesel Lig Bayern | Bayern Munich - Augsburg Ii | MS 1 | pending | 52/100
 - 2026-09-15 | İngiltere Non League Premier Isthmian | Enfield Town - Dartford | MS 1 | pending | 45/100
-- 2026-09-15 | İngiltere Non League Premier Isthmian | Cray Wanderers - St Albans | MS 2 | pending | 45/100
-- 2026-09-15 | İran Azadegan Ligi | Fard Alborz - Sanat Mes Kerma | MS 1 | pending | 44/100
-- 2026-09-15 | Suudi Arabistan 1.Lig | Al Adalah - Al-Jandal | 2.5 Alt | pending | 49/100
-- 2026-09-15 | Tanzanya Kuu Bara Ligi | Young Africans - Geita Gold | 2.5 Alt | pending | 49/100
-- 2026-09-15 | Tayland 2.Lig | Tero Sasana - Songkhla | 2.5 Üst | pending | 53/100
-- 2026-09-15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Daejeon Citize - Kyoto Sanga | MS 1 | won | 60/100
-- 2026-09-15 | İngiltere Premier Lig Kupası Grup H | Bromley U21 - Ipswich Town U2 | 2.5 Alt | pending | 48/100
-- 2026-09-15 | Venezuela Premier Lig Clausura | Depor Tachira - Academia Puerto | 2.5 Alt | pending | 66/100
-- 2026-09-15 | Venezuela Premier Lig Clausura | Ucv - Academia Anzoat | MS 1 | pending | 57/100
-- 2026-09-15 | Brezilya Serie B | Regatas - Sport Recife | 2.5 Alt | pending | 51/100
-- 2026-09-15 | Türkiye Kupa 1.Tur | Altay - Söke 1970 Sk | MS 1 | pending | 44/100
-- 2026-09-15 | AFC Şampiyonlar Ligi 2 Grup B | Gol Gohar Sirj - Al Jazira | MS 2 | pending | 54/100
-- 2026-09-15 | Romanya 2.Lig | Csm Resita - Fc Bacau | MS 1 | pending | 53/100
-- 2026-09-15 | Portekiz U23 Ulusal Şampiyona | Vizela U23 - Marítimo U23 | 2.5 Alt | pending | 50/100
 

@@ -1,48 +1,49 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-15T12:58:01.376217+00:00
+Tarih: 2026-09-15T15:37:04.838246+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 127
-- Kac mac kaydedildi: 4
-- Kac mac zaten vardi: 123
-- Ham veri havuzu toplam mac sayisi: 14840
+- Kac mac bulundu: 121
+- Kac mac kaydedildi: 7
+- Kac mac zaten vardi: 114
+- Ham veri havuzu toplam mac sayisi: 14847
 - Hedef tarih: 15.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- AFC Şampiyonlar Ligi 2 Grup B
+- ABD USL
 - AFC Şampiyonlar Ligi Elite Batı Grubu
 - Almanya 3. Lig
+- Almanya Bölgesel Lig Bayern
 - Almanya Bölgesel Lig Kuzey
 - Almanya Bölgesel Lig Kuzey Doğu
 - Arjantin Primera C
 - Bolivya Premier Lig
+- Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final
+- Brezilya Serie B
 - Bulgaristan 2.Lig
+- Copa Libertadores Çeyrek Final
+- Copa Sudamericana Çeyrek Final
 - Danimarka DBU Kupası 3.Tur
-- Estonya Esiliiga B
 - Galler Premier Lig 1.Aşama
 - Hollanda Eredivisie
-- Hırvatistan HR Nogometni Kupası Son 32 Turu
 - Karadağ 1.Lig
+- Kolombiya Primera A Clausura
+- Kolombiya Primera B Clausura
 - Kuzey İrlanda Premiership
 - Letonya Virsliga
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
 - Mısır Premier Lig
 - Paraguay Intermedia Lig
 - Polonya Ekstraklasa
-- Polonya Kupa 1.Tur
 - Portekiz U23 Ulusal Şampiyona
-- Romanya 2.Lig
-- Ruanda Ulusal Futbol Ligi
 - Suudi Arabistan 1.Lig
 - Tanzanya Kuu Bara Ligi
-- Tayland 2.Lig
-- UEFA Gençlik Ligi 1.Tur
-- Uganda Premier Lig
-- Çek Cumhuriyeti Kupa 3.Tur
+- Venezuela Premier Lig Clausura
 - İngiltere Championship
 - İngiltere EFL Trophy Güney Grup C
 - İngiltere EFL Trophy Güney Grup E
@@ -53,11 +54,8 @@ Tarih: 2026-09-15T12:58:01.376217+00:00
 - İngiltere Non League Premier Güney
 - İngiltere Non League Premier Isthmian
 - İngiltere Premier Lig Kupası Grup C
-- İngiltere Premier Lig Kupası Grup H
-- İngiltere Professional Development Lig
 - İngiltere Ulusal Lig
 - İngiltere Ulusal Lig N / S Güney
-- İran Azadegan Ligi
 - İskoçya 1.Lig
 - İskoçya Challenge Kupası Lig Aşaması
 - İskoçya Championship
@@ -124,8 +122,8 @@ Tarih: 2026-09-15T12:58:01.376217+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 67
-- Acilan detay: 67
+- Denenen Tumu alani: 55
+- Acilan detay: 55
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -150,9 +148,9 @@ Tarih: 2026-09-15T12:58:01.376217+00:00
 | 15.09.2026 | 22:00 | İtalya Kupa 2.Tur | Fiorentina | Pisa | 13689 | 5 |
 | 15.09.2026 | 19:00 | İtalya Kupa 2.Tur | Genoa | Sudtirol | 08556 | 5 |
 | 15.09.2026 | 19:00 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Ain | Al Nassr (Riyad | 08479 | 5 |
-| 15.09.2026 | 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Hilal (Riya | Gharrafa | 10611 | 4 |
-| 15.09.2026 | 21:45 | İngiltere Championship | Bristol City | Lincoln | 11194 | 5 |
+| 15.09.2026 | 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Hilal (Riya | Gharrafa | 10611 | 3 |
 | 15.09.2026 | 21:45 | İngiltere Championship | Middlesbrough | Millwall | 12475 | 5 |
+| 15.09.2026 | 21:45 | İngiltere Championship | Bristol City | Lincoln | 11194 | 5 |
 | 15.09.2026 | 21:45 | İskoçya Premiership | Motherwell | Aberdeen | 12605 | 5 |
 | 15.09.2026 | 21:45 | İskoçya Premiership | Hibernian | Kilmarnock | 12119 | 5 |
 | 15.09.2026 | 21:45 | İskoçya Premiership | Falkirk | Hearts | 11878 | 5 |
