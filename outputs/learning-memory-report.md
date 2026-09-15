@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.09.2026 16:42:46
+Oluşturma: 15.09.2026 17:56:23
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1122
-- Kazanan tahmin: 204
+- Bekleyen tahmin: 1120
+- Kazanan tahmin: 206
 - Kaybeden tahmin: 174
 - Lig sayısı: 265
 - Seçenek sayısı: 6
@@ -23,11 +23,11 @@ Oluşturma: 15.09.2026 16:42:46
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Alt: toplam 612, bekleyen 465, başarı %59, düz getiri %0, ağırlık 1
-- MS 1: toplam 503, bekleyen 399, başarı %54, düz getiri %-8, ağırlık 1
+- MS 1: toplam 503, bekleyen 398, başarı %54, düz getiri %-7, ağırlık 1
 - 2.5 Üst: toplam 166, bekleyen 100, başarı %53, düz getiri %-4, ağırlık 1
 - MS X: toplam 7, bekleyen 3, başarı %50, düz getiri %22, ağırlık 1
 - KG Var: toplam 16, bekleyen 1, başarı %47, düz getiri %-12, ağırlık 1
-- MS 2: toplam 196, bekleyen 154, başarı %43, düz getiri %-19, ağırlık 1
+- MS 2: toplam 196, bekleyen 153, başarı %44, düz getiri %-16, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
@@ -37,7 +37,7 @@ Oluşturma: 15.09.2026 16:42:46
 - 2026-09-15 | Suudi Arabistan 1.Lig | Al Adalah - Al-Jandal | 2.5 Alt | pending | 49/100
 - 2026-09-15 | Tanzanya Kuu Bara Ligi | Young Africans - Geita Gold | 2.5 Alt | pending | 49/100
 - 2026-09-15 | Tayland 2.Lig | Tero Sasana - Songkhla | 2.5 Üst | pending | 53/100
-- 2026-09-15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Daejeon Citize - Kyoto Sanga | MS 1 | pending | 60/100
+- 2026-09-15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Daejeon Citize - Kyoto Sanga | MS 1 | won | 60/100
 - 2026-09-15 | İngiltere Premier Lig Kupası Grup H | Bromley U21 - Ipswich Town U2 | 2.5 Alt | pending | 48/100
 - 2026-09-15 | Venezuela Premier Lig Clausura | Depor Tachira - Academia Puerto | 2.5 Alt | pending | 66/100
 - 2026-09-15 | Venezuela Premier Lig Clausura | Ucv - Academia Anzoat | MS 1 | pending | 57/100

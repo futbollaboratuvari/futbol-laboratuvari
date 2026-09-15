@@ -2,28 +2,15 @@
 
 Gunler: 2026-09-15 / 2026-09-16
 Kaynak: fixtures.json
-Ham mac: 152
-Aktif mac: 134
+Ham mac: 151
+Aktif mac: 121
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 18
-Bugun: 118
+Bultenden dusurulen mac: 30
+Bugun: 105
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-09-15 16:45 | AFC Şampiyonlar Ligi 2 Grup B | Arkadag - Al Muharraq | scheduled | -
-- 2026-09-15 16:45 | AFC Şampiyonlar Ligi 2 Grup B | Gol Gohar Sirj - Al Jazira | scheduled | -
-- 2026-09-15 17:00 | UEFA Gençlik Ligi 1.Tur | Mladost Dg U19 - Kairat U19 | scheduled | -
-- 2026-09-15 17:00 | Mısır Premier Lig | Asyut Petroleu - Modern Sc | scheduled | -
-- 2026-09-15 17:00 | Mısır Premier Lig | Wadi Degla - Al Mokawloon Al | scheduled | -
-- 2026-09-15 17:00 | Romanya 2.Lig | Csm Resita - Fc Bacau | scheduled | -
-- 2026-09-15 17:00 | Portekiz U23 Ulusal Şampiyona | Sporting Cp U2 - Academico Viseu | scheduled | -
-- 2026-09-15 17:00 | Portekiz U23 Ulusal Şampiyona | Vizela U23 - Marítimo U23 | scheduled | -
-- 2026-09-15 17:00 | Portekiz U23 Ulusal Şampiyona | Famalicão U23 - Rio Ave U23 | scheduled | -
-- 2026-09-15 17:00 | İran Azadegan Ligi | Fard Alborz - Sanat Mes Kerma | scheduled | -
-- 2026-09-15 17:30 | Çek Cumhuriyeti Kupa 3.Tur | Trinec - Mlada Boleslav | scheduled | -
-- 2026-09-15 17:30 | Hırvatistan HR Nogometni Kupası Son 32 Turu | Bjelovar - Karlovac 1919 | scheduled | -
-- 2026-09-15 17:30 | Estonya Esiliiga B | Narva Trans Ii - Tammeka Ii | scheduled | -
 - 2026-09-15 18:00 | Çek Cumhuriyeti Kupa 3.Tur | Vlasim - Slovan Liberec | scheduled | -
 - 2026-09-15 18:30 | Suudi Arabistan 1.Lig | Al Adalah - Al-Jandal | scheduled | -
 - 2026-09-15 18:30 | Bulgaristan 2.Lig | Lokomotiv Gorn - Nesebar | scheduled | -
