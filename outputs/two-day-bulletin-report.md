@@ -2,20 +2,15 @@
 
 Gunler: 2026-09-15 / 2026-09-16
 Kaynak: fixtures.json
-Ham mac: 173
-Aktif mac: 159
+Ham mac: 166
+Aktif mac: 154
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 14
-Bugun: 145
+Bultenden dusurulen mac: 12
+Bugun: 140
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-09-15 04:00 | Meksika Liga MX Apertura | Club Leon - Atletico San Lu | scheduled | -
-- 2026-09-15 04:00 | Kolombiya Primera A Clausura | America De Cal - Deportivo Pasto | scheduled | -
-- 2026-09-15 04:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Suchitepequez | scheduled | -
-- 2026-09-15 04:00 | Meksika Kadınlar Liga MX Apertura | Pachuca (K) - León (K) | scheduled | -
-- 2026-09-15 04:00 | Jamaika Premier Lig | Racing United - Arnett Gardens | scheduled | -
 - 2026-09-15 09:30 | Asya Oyunları Grup C | Özbekistan U23 - Filipinler U23 | scheduled | -
 - 2026-09-15 12:30 | Avustralya FFA Kupası Yarı Final | South Melbourn - Queensland Lion | scheduled | -
 - 2026-09-15 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Ratchaburi Fc - Shanghai Port | scheduled | -
