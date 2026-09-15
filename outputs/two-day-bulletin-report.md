@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-15 / 2026-09-16
 Kaynak: fixtures.json
-Ham mac: 173
-Aktif mac: 154
+Ham mac: 154
+Aktif mac: 153
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 19
-Bugun: 140
+Bultenden dusurulen mac: 1
+Bugun: 139
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-09-15 09:30 | Asya Oyunları Grup C | Özbekistan U23 - Filipinler U23 | scheduled | -
 - 2026-09-15 12:30 | Avustralya FFA Kupası Yarı Final | South Melbourn - Queensland Lion | scheduled | -
 - 2026-09-15 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Ratchaburi Fc - Shanghai Port | scheduled | -
 - 2026-09-15 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Daejeon Citize - Kyoto Sanga | scheduled | -
