@@ -148,7 +148,7 @@ for (const entry of fs.readdirSync(root)) {
   copyRecursive(path.join(root, entry), path.join(outDir, entry), entry);
 }
 
-require("./harden-static-seo").hardenStaticSeo(outDir);
+require("./harden-static-seo-runner").hardenStaticSeo(outDir);
 
 try {
   const sourceLive = path.join(root, "data", "live-matches.json");
