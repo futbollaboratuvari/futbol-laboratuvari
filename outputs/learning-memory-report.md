@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.09.2026 19:59:01
+Oluşturma: 15.09.2026 20:41:25
 
 ## Özet
 
@@ -23,14 +23,16 @@ Oluşturma: 15.09.2026 19:59:01
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Alt: toplam 610, bekleyen 463, başarı %59, düz getiri %0, ağırlık 1
-- MS 1: toplam 504, bekleyen 398, başarı %55, düz getiri %-7, ağırlık 1
+- MS 1: toplam 503, bekleyen 397, başarı %55, düz getiri %-7, ağırlık 1
 - 2.5 Üst: toplam 168, bekleyen 101, başarı %54, düz getiri %-3, ağırlık 1
 - MS X: toplam 7, bekleyen 3, başarı %50, düz getiri %22, ağırlık 1
 - KG Var: toplam 16, bekleyen 1, başarı %47, düz getiri %-12, ağırlık 1
-- MS 2: toplam 195, bekleyen 153, başarı %45, düz getiri %-14, ağırlık 1
+- MS 2: toplam 196, bekleyen 154, başarı %45, düz getiri %-14, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-15 | İskoçya Premiership | Falkirk - Hearts | 2.5 Alt | pending | 50/100
+- 2026-09-15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Ratchaburi Fc - Shanghai Port | MS 2 | pending | 45/100
 - 2026-09-15 | Portekiz U23 Ulusal Şampiyona | Penafiel U23 - Santa Clara U23 | 2.5 Üst | pending | 54/100
 - 2026-09-15 | Copa Sudamericana Çeyrek Final | Vasco Da Gama (0) - (0) Santa Fe | 2.5 Alt | pending | 44/100
 - 2026-09-15 | Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final | Bahia (K) - Corinthians (K) | MS 2 | pending | 45/100
@@ -44,6 +46,4 @@ Oluşturma: 15.09.2026 19:59:01
 - 2026-09-15 | İngiltere EFL Trophy Kuzey Grup D | Chesterfield - Man City U21 | MS 2 | pending | 47/100
 - 2026-09-15 | Polonya Ekstraklasa | Rakow Czestoch - Zaglebie Lubin | MS 1 | pending | 51/100
 - 2026-09-15 | İtalya Serie C Grup C | Picerno - Catania | MS 2 | pending | 45/100
-- 2026-09-15 | Almanya Bölgesel Lig Bayern | Bayern Munich - Augsburg Ii | MS 1 | pending | 52/100
-- 2026-09-15 | İngiltere Non League Premier Isthmian | Enfield Town - Dartford | MS 1 | pending | 45/100
 
