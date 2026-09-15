@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 173
-Tam analiz: 154
+Toplam analiz: 164
+Tam analiz: 145
 Eksik analiz: 19
 
 - Özbekistan U23 VS Filipinler U23: eksik score, confidence
