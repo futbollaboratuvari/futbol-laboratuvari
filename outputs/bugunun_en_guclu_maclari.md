@@ -4,20 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-15T14:55:37.664Z
+- Güncelleme: 2026-09-15T14:59:57.163Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Tero Sasana VS Songkhla | Tayland 2.Lig | 14:30 | 2.5 Alt | 1.61 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Peterborough U VS Bristol City U2 | İngiltere Professional Development Lig | 15:00 | MS 1 | 1.92 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Coventry City VS Barnsley U21 | İngiltere Professional Development Lig | 15:00 | MS 1 | 1.91 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Satun VS Muang Thong Uni | Tayland 2.Lig | 15:00 | 2.5 Alt | 1.75 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Penafiel U23 VS Santa Clara U23 | Portekiz U23 Ulusal Şampiyona | 15:00 | 2.5 Üst | 1.59 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Johor Dt VS Buriram Utd | AFC Şampiyonlar Ligi Elite Doğu Grubu | 15:15 | MS 1 | 1.38 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Beijing Guoan VS Pohang Steelers | AFC Şampiyonlar Ligi Elite Doğu Grubu | 15:15 | MS 1 | 1.30 | 63 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Widzew Lodz Ii VS Polonia Bytom | Polonya Kupa 1.Tur | 16:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Millwall U21 VS Bolton U21 | İngiltere Professional Development Lig | 16:00 | MS 1 | 1.73 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Wigan Athletic VS Colchester Unit | İngiltere Professional Development Lig | 16:00 | MS 1 | 1.37 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
