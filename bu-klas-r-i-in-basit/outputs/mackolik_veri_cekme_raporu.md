@@ -1,47 +1,33 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-15T17:41:10.684905+00:00
+Tarih: 2026-09-15T19:14:59.876670+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 70
+- Kac mac bulundu: 21
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 70
+- Kac mac zaten vardi: 21
 - Ham veri havuzu toplam mac sayisi: 14847
 - Hedef tarih: 15.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- AFC Şampiyonlar Ligi Elite Batı Grubu
-- Arjantin Primera C
+- ABD USL
 - Bolivya Premier Lig
-- Galler Premier Lig 1.Aşama
-- Hollanda Eredivisie
-- Kuzey İrlanda Premiership
+- Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final
+- Brezilya Serie B
+- Copa Libertadores Çeyrek Final
+- Copa Sudamericana Çeyrek Final
+- Kolombiya Primera A Clausura
+- Kolombiya Primera B Clausura
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
 - Paraguay Intermedia Lig
-- Polonya Ekstraklasa
 - Portekiz U23 Ulusal Şampiyona
-- İngiltere Championship
-- İngiltere EFL Trophy Güney Grup C
-- İngiltere EFL Trophy Güney Grup E
-- İngiltere EFL Trophy Güney Grup F
-- İngiltere EFL Trophy Kuzey Grup C
-- İngiltere EFL Trophy Kuzey Grup D
-- İngiltere Lig Kupası 3.Tur
-- İngiltere Non League Premier Güney
-- İngiltere Non League Premier Isthmian
-- İngiltere Premier Lig Kupası Grup C
-- İngiltere Ulusal Lig
-- İngiltere Ulusal Lig N / S Güney
-- İskoçya 1.Lig
-- İskoçya Challenge Kupası Lig Aşaması
-- İskoçya Championship
-- İskoçya Premiership
+- Venezuela Premier Lig Clausura
 - İspanya LaLiga
-- İtalya Kupa 2.Tur
-- İtalya Serie C Grup C
 - İzlanda Urvalsdeild Şampiyonluk Grubu
 
 ## Okunabilen Oran Alanlari
@@ -99,8 +85,8 @@ Tarih: 2026-09-15T17:41:10.684905+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 42
-- Acilan detay: 42
+- Denenen Tumu alani: 17
+- Acilan detay: 17
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -113,26 +99,26 @@ Tarih: 2026-09-15T17:41:10.684905+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 15.09.2026 | 21:00 | İspanya LaLiga | Alaves | Valencia | 10048 | 5 |
 | 15.09.2026 | 22:30 | İspanya LaLiga | Elche | Real Madrid | 14063 | 5 |
-| 15.09.2026 | 21:00 | Hollanda Eredivisie | Ajax | Willem | 09944 | 4 |
-| 15.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Ipswich | Arsenal | 13692 | 5 |
-| 15.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | West Ham | Fulham | 13385 | 5 |
-| 15.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Reading | Brentford | 13863 | 5 |
-| 15.09.2026 | 21:30 | İngiltere Lig Kupası 3.Tur | Peterborough | Barnsley | 10789 | 5 |
-| 15.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Liverpool | Tottenham | 13785 | 5 |
-| 15.09.2026 | 22:00 | İtalya Kupa 2.Tur | Fiorentina | Pisa | 13689 | 5 |
-| 15.09.2026 | 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Hilal (Riya | Gharrafa | 10611 | 4 |
-| 15.09.2026 | 21:45 | İngiltere Championship | Bristol City | Lincoln | 11194 | 5 |
-| 15.09.2026 | 21:45 | İngiltere Championship | Middlesbrough | Millwall | 12475 | 5 |
-| 15.09.2026 | 21:45 | İskoçya Premiership | Motherwell | Aberdeen | 12605 | 5 |
-| 15.09.2026 | 21:45 | İskoçya Premiership | Falkirk | Hearts | 11878 | 5 |
-| 15.09.2026 | 21:45 | İskoçya Premiership | Hibernian | Kilmarnock | 12119 | 5 |
-| 15.09.2026 | 21:30 | Polonya Ekstraklasa | Korona Kielce | Gornik Zabrze | 10705 | 5 |
-| 15.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup C | York | Newcastle (B) | 10496 | 5 |
-| 15.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup D | Chesterfield | Man City U21 | 10233 | 5 |
-| 15.09.2026 | 21:00 | İngiltere EFL Trophy Güney Grup C | Wycombe | Chelsea (B) | 10445 | 5 |
-| 15.09.2026 | 21:00 | İngiltere EFL Trophy Güney Grup E | Swindon | Crystal Palace | 10412 | 5 |
+| 16.09.2026 | 01:00 | Copa Libertadores Çeyrek Final | Platense (0) | (2) Fluminense | 14177 | 5 |
+| 16.09.2026 | 01:00 | Copa Sudamericana Çeyrek Final | Vasco Da Gama (0) | (0) Santa Fe | 14280 | 5 |
+| 16.09.2026 | 03:30 | Copa Sudamericana Çeyrek Final | Sao Paulo (0) | (1) Boca Juniors | 14515 | 5 |
+| 16.09.2026 | 04:00 | Meksika Liga MX Apertura | Puebla | Toluca | 14594 | 5 |
+| 16.09.2026 | 03:30 | Kolombiya Primera A Clausura | Chico | Alianza Petrole | 14497 | 5 |
+| 16.09.2026 | 02:30 | Venezuela Premier Lig Clausura | Ucv | Academia Anzoat | 20186 | 5 |
+| 16.09.2026 | 01:30 | Venezuela Premier Lig Clausura | Depor Tachira | Academia Puerto | 00462 | 5 |
+| 16.09.2026 | 01:00 | Venezuela Premier Lig Clausura | Carabobo | Deportivo La Gu | 07062 | 5 |
+| 16.09.2026 | 03:00 | Brezilya Serie B | Regatas | Sport Recife | 14463 | 5 |
+| 16.09.2026 | 01:30 | Brezilya Serie B | Nautico | Operario | 14370 | 5 |
+| 16.09.2026 | 01:30 | Brezilya Serie B | Londrina | Ponte Preta | 14335 | 5 |
+| 15.09.2026 | 22:15 | İzlanda Urvalsdeild Şampiyonluk Grubu | Fram | Breidablik | 14001 | 5 |
+| 16.09.2026 | 04:00 | Meksika Ascenso MX Apertura | Dorados | Cancun Fc | 14576 | 5 |
+| 16.09.2026 | 01:00 | Kolombiya Primera B Clausura | Barranguilla | Independiente Y | 29670 | 5 |
+| 15.09.2026 | 22:30 | Paraguay Intermedia Lig | Atlético Tembe | Sportivo Carape | 17709 | 5 |
+| 16.09.2026 | 01:00 | Paraguay Intermedia Lig | Tacuary | 12 De Junio Vh | 21673 | 5 |
+| 16.09.2026 | 00:30 | Bolivya Premier Lig | Academia Del B | The Strongest | 17721 | 3 |
+| 16.09.2026 | 02:00 | ABD USL | Indy Eleven | Brooklyn | 14423 | 5 |
+| 16.09.2026 | 03:30 | Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final | Bahia (K) | Corinthians (K) | 08240 | 5 |
 
 ## Sonuc
 
