@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-15 / 2026-09-16
 Kaynak: fixtures.json
-Ham mac: 188
-Aktif mac: 20
+Ham mac: 89
+Aktif mac: 17
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 168
-Bugun: 3
+Bultenden dusurulen mac: 72
+Bugun: 0
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-09-15 22:30 | İspanya LaLiga | Elche - Real Madrid | scheduled | -
-- 2026-09-15 22:30 | Paraguay Intermedia Lig | Atlético Tembe - Sportivo Carape | scheduled | -
-- 2026-09-15 22:30 | Portekiz U23 Ulusal Şampiyona | Penafiel U23 - Santa Clara U23 | scheduled | -
 - 2026-09-16 00:30 | Bolivya Premier Lig | Academia Del B - The Strongest | scheduled | -
 - 2026-09-16 01:00 | Copa Libertadores Çeyrek Final | Platense (0) - (2) Fluminense | scheduled | -
 - 2026-09-16 01:00 | Copa Sudamericana Çeyrek Final | Vasco Da Gama (0) - (0) Santa Fe | scheduled | -
