@@ -2,30 +2,15 @@
 
 Gunler: 2026-09-15 / 2026-09-16
 Kaynak: fixtures.json
-Ham mac: 188
-Aktif mac: 124
+Ham mac: 141
+Aktif mac: 109
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 64
-Bugun: 107
+Bultenden dusurulen mac: 32
+Bugun: 92
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-09-15 19:00 | İtalya Kupa 2.Tur | Genoa - Sudtirol | scheduled | -
-- 2026-09-15 19:00 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Ain - Al Nassr (Riyad | scheduled | -
-- 2026-09-15 19:00 | Polonya Ekstraklasa | Rakow Czestoch - Zaglebie Lubin | scheduled | -
-- 2026-09-15 19:00 | Danimarka DBU Kupası 3.Tur | Skovshoved - Kopenhag | scheduled | -
-- 2026-09-15 19:00 | Letonya Virsliga | Super Nova - Riga Fc | scheduled | -
-- 2026-09-15 19:00 | Bulgaristan 2.Lig | Ludogorets Ii - Fratria | scheduled | -
-- 2026-09-15 19:00 | Estonya Esiliiga B | Tallinna Infon - Viljandi Tulevi | scheduled | -
-- 2026-09-15 19:00 | Tanzanya Kuu Bara Ligi | Young Africans - Geita Gold | scheduled | -
-- 2026-09-15 19:05 | Suudi Arabistan 1.Lig | Al Orubah Club - Al Jeel | scheduled | -
-- 2026-09-15 19:30 | İtalya Serie C Grup C | Casertana - Team Altamura | scheduled | -
-- 2026-09-15 19:30 | İtalya Serie C Grup C | Crotone - Internazionale | scheduled | -
-- 2026-09-15 19:30 | İtalya Serie C Grup C | Ssc Giugliano - Cosenza | scheduled | -
-- 2026-09-15 19:30 | İtalya Serie C Grup C | Picerno - Catania | scheduled | -
-- 2026-09-15 19:30 | Almanya Bölgesel Lig Bayern | Bayern Munich - Augsburg Ii | scheduled | -
-- 2026-09-15 19:30 | Almanya Bölgesel Lig Bayern | Vilzing - Ansbach 09 | scheduled | -
 - 2026-09-15 20:00 | İspanya LaLiga | Vallecano - Espanyol | scheduled | -
 - 2026-09-15 20:00 | İsviçre Süper Lig | Grasshoppers - Sion | scheduled | -
 - 2026-09-15 20:00 | Danimarka DBU Kupası 3.Tur | Hellerup Ik - Esbjerg | scheduled | -
