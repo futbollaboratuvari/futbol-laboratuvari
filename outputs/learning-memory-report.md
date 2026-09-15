@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.09.2026 02:53:34
+Oluşturma: 15.09.2026 03:51:39
 
 ## Özet
 
@@ -31,10 +31,13 @@ Oluşturma: 15.09.2026 02:53:34
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-15 | Paraguay Intermedia Lig | Tacuary - 12 De Junio Vh | 2.5 Alt | pending | 53/100
+- 2026-09-15 | Brezilya Serie B | Regatas - Sport Recife | 2.5 Üst | pending | 55/100
+- 2026-09-15 | Kolombiya Primera A Clausura | Chico - Alianza Petrole | MS 1 | pending | 49/100
 - 2026-09-15 | Almanya Bölgesel Lig Kuzey Doğu | Hallescher - Carl Zeiss Jena | 2.5 Üst | pending | 54/100
 - 2026-09-15 | Tayland 2.Lig | Tero Sasana - Songkhla | 2.5 Üst | pending | 53/100
 - 2026-09-15 | Arjantin Primera C | Claypole - Sacachispas | 2.5 Alt | pending | 50/100
-- 2026-09-15 | Meksika Ascenso MX Apertura | Dorados - Cancun Fc | MS 1 | pending | 57/100
+- 2026-09-15 | Meksika Ascenso MX Apertura | Dorados - Cancun Fc | MS 1 | pending | 56/100
 - 2026-09-15 | İngiltere Ulusal Lig | Worthing - Hornchurch | MS 1 | pending | 61/100
 - 2026-09-15 | İngiltere Ulusal Lig N / S Güney | Truro City - Salisbury | MS 1 | pending | 51/100
 - 2026-09-15 | İngiltere Ulusal Lig N / S Güney | Billericay Tow - Braintree | MS 1 | pending | 54/100
@@ -43,7 +46,4 @@ Oluşturma: 15.09.2026 02:53:34
 - 2026-09-15 | İngiltere Non League Premier Isthmian | Enfield Town - Dartford | 2.5 Alt | pending | 48/100
 - 2026-09-15 | İngiltere Non League Premier Isthmian | Leatherhead - Afc Whyteleafe | MS 1 | pending | 54/100
 - 2026-09-15 | İngiltere Non League Premier Isthmian | Lewes - Carshalton Athl | 2.5 Alt | pending | 49/100
-- 2026-09-15 | İngiltere Non League Premier Isthmian | Eastbourne Bor - Chatham Town | 2.5 Alt | pending | 49/100
-- 2026-09-15 | İngiltere Non League Premier Isthmian | Cray Wanderers - St Albans | 2.5 Alt | pending | 48/100
-- 2026-09-15 | İngiltere Non League Premier Isthmian | Whitehawk - Three Bridges | MS 2 | pending | 45/100
 

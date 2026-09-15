@@ -3,19 +3,14 @@
 Gunler: 2026-09-15 / 2026-09-16
 Kaynak: fixtures.json
 Ham mac: 173
-Aktif mac: 164
+Aktif mac: 159
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 150
+Bultenden dusurulen mac: 14
+Bugun: 145
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-09-15 02:30 | Şili Premier Lig | Union La Caler - Deportes Limach | scheduled | -
-- 2026-09-15 03:00 | Ekvador Pro Lig | Univ Catolica - Orense | scheduled | -
-- 2026-09-15 03:00 | Meksika Kadınlar Liga MX Apertura | Toluca (K) - Tijuana (K) | scheduled | -
-- 2026-09-15 03:15 | Arjantin Premier Lig 2. Aşama | Instituto Cord - Rio Cuarto | scheduled | -
-- 2026-09-15 03:30 | Brezilya Serie B | Avai - Vila Nova | scheduled | -
 - 2026-09-15 04:00 | Meksika Liga MX Apertura | Club Leon - Atletico San Lu | scheduled | -
 - 2026-09-15 04:00 | Kolombiya Primera A Clausura | America De Cal - Deportivo Pasto | scheduled | -
 - 2026-09-15 04:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Suchitepequez | scheduled | -

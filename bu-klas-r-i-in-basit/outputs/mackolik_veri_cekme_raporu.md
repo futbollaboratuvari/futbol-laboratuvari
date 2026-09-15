@@ -1,19 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-14T23:53:16.712440+00:00
+Tarih: 2026-09-15T00:50:32.755081+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 140
+- Kac mac bulundu: 154
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 140
+- Kac mac zaten vardi: 154
 - Ham veri havuzu toplam mac sayisi: 14832
 - Hedef tarih: 15.09.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
 - AFC Şampiyonlar Ligi 2 Grup B
 - AFC Şampiyonlar Ligi Elite Batı Grubu
 - AFC Şampiyonlar Ligi Elite Doğu Grubu
@@ -22,18 +23,25 @@ Tarih: 2026-09-14T23:53:16.712440+00:00
 - Almanya Bölgesel Lig Kuzey Doğu
 - Arjantin Primera C
 - Asya Oyunları Grup C
-- Asya Oyunları Grup D
 - Avustralya FFA Kupası Yarı Final
 - Bolivya Premier Lig
+- Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final
+- Brezilya Serie B
 - Bulgaristan 2.Lig
+- Copa Libertadores Çeyrek Final
+- Copa Sudamericana Çeyrek Final
 - Danimarka DBU Kupası 3.Tur
 - Estonya Esiliiga B
 - Galler Premier Lig 1.Aşama
 - Hollanda Eredivisie
 - Hırvatistan HR Nogometni Kupası Son 32 Turu
 - Karadağ 1.Lig
+- Kolombiya Primera A Clausura
+- Kolombiya Primera B Clausura
 - Kuzey İrlanda Premiership
 - Letonya Virsliga
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
 - Mısır Premier Lig
 - Paraguay Intermedia Lig
 - Polonya Ekstraklasa
@@ -45,6 +53,7 @@ Tarih: 2026-09-14T23:53:16.712440+00:00
 - Tayland 2.Lig
 - UEFA Gençlik Ligi 1.Tur
 - Uganda Premier Lig
+- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Kupa 3.Tur
 - İngiltere Championship
 - İngiltere EFL Trophy Güney Grup C
@@ -125,8 +134,8 @@ Tarih: 2026-09-14T23:53:16.712440+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 68
-- Acilan detay: 68
+- Denenen Tumu alani: 67
+- Acilan detay: 67
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -139,26 +148,26 @@ Tarih: 2026-09-14T23:53:16.712440+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 15.09.2026 | 22:30 | İspanya LaLiga | Elche | Real Madrid | 14063 | 5 |
-| 15.09.2026 | 21:00 | İspanya LaLiga | Alaves | Valencia | 10048 | 5 |
 | 15.09.2026 | 20:00 | İspanya LaLiga | Vallecano | Espanyol | 09738 | 5 |
+| 15.09.2026 | 21:00 | İspanya LaLiga | Alaves | Valencia | 10048 | 5 |
+| 15.09.2026 | 22:30 | İspanya LaLiga | Elche | Real Madrid | 14063 | 5 |
 | 15.09.2026 | 22:00 | İtalya Kupa 2.Tur | Fiorentina | Pisa | 13689 | 5 |
 | 15.09.2026 | 19:00 | İtalya Kupa 2.Tur | Genoa | Sudtirol | 08556 | 5 |
 | 15.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Liverpool | Tottenham | 13785 | 5 |
-| 15.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | West Ham | Fulham | 13385 | 5 |
+| 15.09.2026 | 21:30 | İngiltere Lig Kupası 3.Tur | Peterborough | Barnsley | 10789 | 5 |
 | 15.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Reading | Brentford | 13863 | 5 |
 | 15.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Ipswich | Arsenal | 13692 | 5 |
-| 15.09.2026 | 21:30 | İngiltere Lig Kupası 3.Tur | Peterborough | Barnsley | 10789 | 5 |
+| 15.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | West Ham | Fulham | 13385 | 5 |
 | 15.09.2026 | 21:00 | Hollanda Eredivisie | Ajax | Willem | 09944 | 4 |
 | 15.09.2026 | 17:00 | UEFA Gençlik Ligi 1.Tur | Mladost Dg U19 | Kairat U19 | 03887 | 3 |
-| 15.09.2026 | 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Hilal (Riya | Gharrafa | 10611 | 4 |
 | 15.09.2026 | 19:00 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Ain | Al Nassr (Riyad | 08479 | 5 |
-| 15.09.2026 | 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Ratchaburi Fc | Shanghai Port | 07478 | 5 |
-| 15.09.2026 | 15:15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Johor Dt | Buriram Utd | 08210 | 5 |
-| 15.09.2026 | 15:15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Beijing Guoan | Pohang Steelers | 07726 | 5 |
-| 15.09.2026 | 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Daejeon Citize | Kyoto Sanga | 07235 | 5 |
+| 15.09.2026 | 21:15 | AFC Şampiyonlar Ligi Elite Batı Grubu | Al Hilal (Riya | Gharrafa | 10611 | 4 |
 | 15.09.2026 | 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Kashima | Newcastle Jet | 07377 | 5 |
+| 15.09.2026 | 15:15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Beijing Guoan | Pohang Steelers | 07726 | 5 |
+| 15.09.2026 | 15:15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Johor Dt | Buriram Utd | 08210 | 5 |
 | 15.09.2026 | 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Gamba Osaka | Cand | 07301 | 5 |
+| 15.09.2026 | 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Ratchaburi Fc | Shanghai Port | 07478 | 5 |
+| 15.09.2026 | 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Daejeon Citize | Kyoto Sanga | 07235 | 5 |
 
 ## Sonuc
 
