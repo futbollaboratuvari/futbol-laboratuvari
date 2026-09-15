@@ -2,20 +2,15 @@
 
 Gunler: 2026-09-15 / 2026-09-16
 Kaynak: fixtures.json
-Ham mac: 177
-Aktif mac: 147
+Ham mac: 157
+Aktif mac: 142
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 30
-Bugun: 131
+Bultenden dusurulen mac: 15
+Bugun: 126
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-09-15 14:30 | Tayland 2.Lig | Tero Sasana - Songkhla | scheduled | -
-- 2026-09-15 15:00 | İngiltere Professional Development Lig | Peterborough U - Bristol City U2 | scheduled | -
-- 2026-09-15 15:00 | İngiltere Professional Development Lig | Coventry City - Barnsley U21 | scheduled | -
-- 2026-09-15 15:00 | Tayland 2.Lig | Satun - Muang Thong Uni | scheduled | -
-- 2026-09-15 15:00 | Portekiz U23 Ulusal Şampiyona | Penafiel U23 - Santa Clara U23 | scheduled | -
 - 2026-09-15 15:15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Johor Dt - Buriram Utd | scheduled | -
 - 2026-09-15 15:15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Beijing Guoan - Pohang Steelers | scheduled | -
 - 2026-09-15 16:00 | Polonya Kupa 1.Tur | Widzew Lodz Ii - Polonia Bytom | scheduled | -

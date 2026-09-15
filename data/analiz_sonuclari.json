@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T11:13:33.997Z",
+  "generated_at": "2026-09-15T12:12:18.504Z",
   "date": "2026-09-15",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -34157,6 +34157,168 @@
       "source": "Robot ham veri havuzu"
     },
     {
+      "id": "auto-81",
+      "date": "2026-09-15",
+      "time": "21:00",
+      "league": "İngiltere Premier Lig Kupası Grup H",
+      "title": "Bromley U21 VS Ipswich Town U2",
+      "match": "Bromley U21 VS Ipswich Town U2",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "decision": "Oynama",
+      "score": "48%",
+      "confidence": "48%",
+      "confidence_score": "48%",
+      "model_score": 48,
+      "score_type": "signal_strength",
+      "estimated_probability": 42.2,
+      "market_probability": 42.2,
+      "edge_percent": 0,
+      "data_completeness": 35,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Yüksek",
+      "risk_level": "Yüksek",
+      "status": "scheduled",
+      "estimated_odds": "1.49",
+      "available_odds": {
+        "ms1": "2.69",
+        "msx": "3.50",
+        "ms2": "1.81",
+        "over25": "1.09",
+        "under25": "1.49",
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": "-",
+        "bttsNo": "-",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 2.69,
+        "msx": 3.5,
+        "ms2": 1.81,
+        "under25": 1.49,
+        "over25": 1.09
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "17931",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 2.69,
+            "msx": 3.5,
+            "ms2": 1.81
+          }
+        },
+        {
+          "market_code": "17931",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 2.69,
+            "firstHalfX_guess": 3.5,
+            "firstHalf2_guess": 1.81
+          }
+        },
+        {
+          "market_code": "17931",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 2.69,
+            "secondHalfX_guess": 3.5,
+            "secondHalf2_guess": 1.81
+          }
+        },
+        {
+          "market_code": "17931",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 2.69,
+            "handicapX_guess": 3.5,
+            "handicap2_guess": 1.81
+          }
+        },
+        {
+          "market_code": "20867",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.49,
+            "msx": 1.09,
+            "ms2": 1.19
+          }
+        },
+        {
+          "market_code": "20867",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.49,
+            "firstHalfX_guess": 1.09,
+            "firstHalf2_guess": 1.19
+          }
+        },
+        {
+          "market_code": "20867",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.49,
+            "secondHalfX_guess": 1.09,
+            "secondHalf2_guess": 1.19
+          }
+        },
+        {
+          "market_code": "20867",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.49,
+            "handicapX_guess": 1.09,
+            "handicap2_guess": 1.19
+          }
+        }
+      ],
+      "expected_scores": [
+        "0-0",
+        "1-0",
+        "1-1"
+      ],
+      "value_label": "Piyasa ile Uyumlu",
+      "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.49 | Veri tipi: standard",
+      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.49 | Veri tipi: standard",
+      "pro_signals": [
+        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
+        "Market: 2.5 Alt",
+        "Oran: 1.49",
+        "Veri tipi: standard",
+        "Değer etiketi: Piyasa ile Uyumlu",
+        "Marjı temizlenmiş piyasa olasılığı %42.",
+        "Birleşik tahmini olasılık %42.",
+        "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: takım sonuç örneği henüz sınırlı",
+        "Geçmiş market örneği 1921; ham isabet %46.",
+        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
+        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
+        "Model gücü 52/100: Sadece izleme.",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "signals": [
+        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
+        "Market: 2.5 Alt",
+        "Oran: 1.49",
+        "Veri tipi: standard",
+        "Değer etiketi: Piyasa ile Uyumlu",
+        "Marjı temizlenmiş piyasa olasılığı %42.",
+        "Birleşik tahmini olasılık %42.",
+        "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: takım sonuç örneği henüz sınırlı",
+        "Geçmiş market örneği 1921; ham isabet %46.",
+        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
+        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
+        "Model gücü 52/100: Sadece izleme.",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "source": "Robot ham veri havuzu"
+    },
+    {
       "id": "auto-99",
       "date": "2026-09-15",
       "time": "21:45",
@@ -35531,168 +35693,6 @@
         "Geçmiş market örneği 1921; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
-        "Model gücü 51/100: Sadece izleme.",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ],
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "auto-81",
-      "date": "2026-09-15",
-      "time": "21:00",
-      "league": "İngiltere Premier Lig Kupası Grup H",
-      "title": "Bromley U21 VS Ipswich Town U2",
-      "match": "Bromley U21 VS Ipswich Town U2",
-      "market": "MS 2",
-      "prediction": "MS 2",
-      "decision": "Oynama",
-      "score": "47%",
-      "confidence": "47%",
-      "confidence_score": "47%",
-      "model_score": 47,
-      "score_type": "signal_strength",
-      "estimated_probability": 45.7,
-      "market_probability": 45.7,
-      "edge_percent": 0,
-      "data_completeness": 35,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "status": "scheduled",
-      "estimated_odds": "1.81",
-      "available_odds": {
-        "ms1": "2.69",
-        "msx": "3.50",
-        "ms2": "1.81",
-        "over25": "1.09",
-        "under25": "1.49",
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": "-",
-        "bttsNo": "-",
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "ms1": 2.69,
-        "msx": 3.5,
-        "ms2": 1.81,
-        "under25": 1.49,
-        "over25": 1.09
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "17931",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 2.69,
-            "msx": 3.5,
-            "ms2": 1.81
-          }
-        },
-        {
-          "market_code": "17931",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 2.69,
-            "firstHalfX_guess": 3.5,
-            "firstHalf2_guess": 1.81
-          }
-        },
-        {
-          "market_code": "17931",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 2.69,
-            "secondHalfX_guess": 3.5,
-            "secondHalf2_guess": 1.81
-          }
-        },
-        {
-          "market_code": "17931",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 2.69,
-            "handicapX_guess": 3.5,
-            "handicap2_guess": 1.81
-          }
-        },
-        {
-          "market_code": "20867",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.49,
-            "msx": 1.09,
-            "ms2": 1.19
-          }
-        },
-        {
-          "market_code": "20867",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.49,
-            "firstHalfX_guess": 1.09,
-            "firstHalf2_guess": 1.19
-          }
-        },
-        {
-          "market_code": "20867",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.49,
-            "secondHalfX_guess": 1.09,
-            "secondHalf2_guess": 1.19
-          }
-        },
-        {
-          "market_code": "20867",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.49,
-            "handicapX_guess": 1.09,
-            "handicap2_guess": 1.19
-          }
-        }
-      ],
-      "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
-      ],
-      "value_label": "Piyasa ile Uyumlu",
-      "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 2 | Oran: 1.81 | Veri tipi: standard",
-      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 2 | Oran: 1.81 | Veri tipi: standard",
-      "pro_signals": [
-        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: MS 2",
-        "Oran: 1.81",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %46.",
-        "Birleşik tahmini olasılık %46.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1921; ham isabet %30.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 51/100: Sadece izleme.",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ],
-      "signals": [
-        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: MS 2",
-        "Oran: 1.81",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %46.",
-        "Birleşik tahmini olasılık %46.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1921; ham isabet %30.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 51/100: Sadece izleme.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
@@ -41782,6 +41782,60 @@
     }
   ],
   "completed_items": [
+    {
+      "id": "2026-09-15|afc sampiyonlar ligi elite dogu grubu|ratchaburi fc shanghai port|2 5 alt|13 00",
+      "date": "2026-09-15",
+      "time": "13:00",
+      "title": "Ratchaburi Fc - Shanghai Port",
+      "match": "Ratchaburi Fc - Shanghai Port",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.82",
+      "score": "4-6",
+      "result_score": "4-6",
+      "confidence": "50%",
+      "confidence_score": "50%",
+      "model_score": 50,
+      "estimated_probability": 45.3,
+      "market_probability": 45.3,
+      "edge_percent": 0,
+      "data_completeness": 37,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Yüksek",
+      "status": "lost",
+      "result": "lost",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-15T12:12:18.298Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-15|afc sampiyonlar ligi elite dogu grubu|daejeon citize kyoto sanga|2 5 alt|13 00",
+      "date": "2026-09-15",
+      "time": "13:00",
+      "title": "Daejeon Citize - Kyoto Sanga",
+      "match": "Daejeon Citize - Kyoto Sanga",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.79",
+      "score": "1-0",
+      "result_score": "1-0",
+      "confidence": "52%",
+      "confidence_score": "52%",
+      "model_score": 52,
+      "estimated_probability": 46.1,
+      "market_probability": 46.1,
+      "edge_percent": 0,
+      "data_completeness": 43,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Yüksek",
+      "status": "won",
+      "result": "won",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-15T12:12:18.298Z",
+      "source": "Robot ham veri havuzu"
+    },
     {
       "id": "2026-09-15|meksika liga mx apertura|club leon atletico san lu|ms 1|04 00",
       "date": "2026-09-15",
@@ -48477,74 +48531,20 @@
       "market_group_label": "Gol Marketleri",
       "finalized_at": "2026-09-13T01:31:32.059Z",
       "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-12|arjantin ulusal primera lig|quilmes san martin sj|ms 2|23 00",
-      "date": "2026-09-12",
-      "time": "23:00",
-      "title": "Quilmes - San Martin Sj",
-      "match": "Quilmes - San Martin Sj",
-      "market": "MS 2",
-      "prediction": "MS 2",
-      "odds": "3.12",
-      "score": "1-0",
-      "result_score": "1-0",
-      "confidence": "56%",
-      "confidence_score": "56%",
-      "model_score": 56,
-      "estimated_probability": 37.6,
-      "market_probability": 26.5,
-      "edge_percent": 11.1,
-      "data_completeness": 53,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Yüksek",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-09-13T01:31:32.059Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-12|uruguay premier lig clausura|montevideo wan nacional df|2 5 ust|22 30",
-      "date": "2026-09-12",
-      "time": "22:30",
-      "title": "Montevideo Wan - Nacional Df",
-      "match": "Montevideo Wan - Nacional Df",
-      "market": "2.5 Üst",
-      "prediction": "2.5 Üst",
-      "odds": "1.77",
-      "score": "1-1",
-      "result_score": "1-1",
-      "confidence": "60%",
-      "confidence_score": "60%",
-      "model_score": 60,
-      "estimated_probability": 50.3,
-      "market_probability": 46.7,
-      "edge_percent": 3.6,
-      "data_completeness": 44,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-12T21:43:45.521Z",
-      "source": "Robot ham veri havuzu"
     }
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 379,
-    "pending_count": 1121,
-    "won_count": 206,
-    "lost_count": 173,
+    "measured_count": 381,
+    "pending_count": 1119,
+    "won_count": 207,
+    "lost_count": 174,
     "void_count": 0,
     "success_rate": 54,
-    "probability_sample_count": 379,
+    "probability_sample_count": 381,
     "brier_score": 0.2389,
     "baseline_brier_score": 0.2481,
-    "brier_skill_score": 0.0371,
+    "brier_skill_score": 0.037,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -48558,8 +48558,8 @@
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 138,
-        "won": 75,
+        "predictions": 140,
+        "won": 76,
         "average_probability": 45.5,
         "observed_rate": 54.3
       },
@@ -48588,14 +48588,14 @@
         "observed_rate": 100
       }
     ],
-    "verified_at": "2026-09-15T07:54:56.597Z",
+    "verified_at": "2026-09-15T12:12:18.298Z",
     "groups": [
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 212,
-        "won": 121,
-        "lost": 91,
+        "measured": 214,
+        "won": 122,
+        "lost": 92,
         "success_rate": 57
       },
       {
@@ -48635,5 +48635,5 @@
     "İY/MS 2/X",
     "İY/MS 2/2"
   ],
-  "focused_market_note": "First half result, second half result and HT/FT markets are focus markets."
+  "focused_market_note": "Robot analiz çıktısı siteye bağlandı."
 }
