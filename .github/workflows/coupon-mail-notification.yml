@@ -43,7 +43,4 @@ jobs:
       - name: Notify only for a new valid coupon
         env:
           COUPON_MAIL_ENDPOINT: ${{ vars.COUPON_MAIL_ENDPOINT }}
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          COUPON_MAIL_FROM: ${{ vars.COUPON_MAIL_FROM }}
-          COUPON_MAIL_TO: cemkaplanoglu@gmail.com,arifkaplanoglu@gmail.com
         run: node scripts/send-coupon-notification.js
