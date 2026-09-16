@@ -2,18 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-16T11:51:43.553Z
-- Ham maç sayısı: 177
+- Güncelleme: 2026-09-16T12:12:06.914Z
+- Ham maç sayısı: 176
 - Yarın bülteni maç sayısı: 26
-- Detay blok sayısı: 464
-- Aktif bülten maçı: 165
-- Bültenden düşürülen maç: 12
+- Detay blok sayısı: 461
+- Aktif bülten maçı: 163
+- Bültenden düşürülen maç: 13
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Niki Volos - Asteras Tripoli | Yunanistan Kupa Lig Aşaması | 15:00 | Veri bekleniyor | - | 3.39 | 8 |
-| Mahasarakham U - Nakhon Ratchasi | Tayland 2.Lig | 15:00 | Veri bekleniyor | - | 2.21 | 8 |
 | Port Fc - Vissel Kobe | AFC Şampiyonlar Ligi Elite Doğu Grubu | 15:15 | Veri bekleniyor | - | 5.63 | 6 |
 | Viettel - Melbourne Victo | AFC Şampiyonlar Ligi 2 Grup E | 15:15 | Veri bekleniyor | - | 3.78 | 8 |
 | Yenisey - Arsenal Tula | Rusya FNL | 15:30 | Veri bekleniyor | - | 1.83 | 8 |

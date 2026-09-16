@@ -1,22 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-16T10:14:10.560813+00:00
+Tarih: 2026-09-16T12:13:28.165984+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 172
-- Kac mac kaydedildi: 5
-- Kac mac zaten vardi: 167
-- Ham veri havuzu toplam mac sayisi: 15027
+- Kac mac bulundu: 138
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 137
+- Ham veri havuzu toplam mac sayisi: 15028
 - Hedef tarih: 16.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD Açık Kupası Yarı Final
-- ABD MLS Next Pro
-- ABD USL
 - ABD USL Lig 1
 - AFC Şampiyonlar Ligi 2 Grup A
 - AFC Şampiyonlar Ligi 2 Grup C
@@ -26,27 +23,18 @@ Tarih: 2026-09-16T10:14:10.560813+00:00
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Kuzey
 - Almanya Bölgesel Lig Kuzey Doğu
-- Arjantin Kupa Çeyrek Final
 - Arjantin Ulusal Primera Lig
-- Asya Oyunları Grup A
 - Azerbaycan 1.Lig
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Botsvana Premier Lig
-- Brezilya Serie A
 - Bulgaristan 1.Lig
 - CAF Konfederasyon Kupası 1.Ön Eleme Turu
-- CONCACAF Orta Amerika Kupası Çeyrek Final
-- Copa Libertadores Çeyrek Final
-- Copa Sudamericana Çeyrek Final
 - Danimarka DBU Kupası 3.Tur
 - Ekvador Pro Lig Serie B Şampiyonluk Grubu
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Hırvatistan HR Nogometni Kupası Son 32 Turu
 - Kadınlar U20 Dünya Kupası Son 16 Turu
-- Kolombiya Primera A Clausura
-- Kuzey Amerika Şampiyonlar Kupası Final
 - Letonya Virsliga
 - Litvanya A Ligi
 - Malezya FA Kupası Son 16 Turu
@@ -59,14 +47,11 @@ Tarih: 2026-09-16T10:14:10.560813+00:00
 - Rusya Premier Lig
 - Slovenya 2.SNL
 - Tanzanya Kuu Bara Ligi
-- Tayland 2.Lig
 - Tunus 1.Lig
-- Türkiye Kupa 1.Tur
 - UEFA Avrupa Ligi Lig Aşaması
 - UEFA Gençlik Ligi 1.Tur
 - Uganda Premier Lig
 - Uruguay Kupa Ön Eleme Turu Grup 5
-- Venezuela Premier Lig Clausura
 - Yunanistan Kupa Lig Aşaması
 - Çek Cumhuriyeti Kupa 3.Tur
 - İngiltere Lig Kupası 3.Tur
@@ -135,8 +120,8 @@ Tarih: 2026-09-16T10:14:10.560813+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 67
-- Acilan detay: 67
+- Denenen Tumu alani: 64
+- Acilan detay: 64
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -149,8 +134,6 @@ Tarih: 2026-09-16T10:14:10.560813+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 16.09.2026 | 14:00 | Türkiye Kupa 1.Tur | Karaman Fk | Kepezspor Faş | 20807 | 3 |
-| 16.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Ac Milan | Benfica | 18506 | 5 |
 | 16.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Sturm Graz | Rennes | 19428 | 5 |
 | 16.09.2026 | 19:45 | UEFA Avrupa Ligi Lig Aşaması | Omonia | Celta Vigo | 15704 | 5 |
 | 16.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | B.Leverkusen | Celje | 18749 | 4 |
@@ -159,16 +142,18 @@ Tarih: 2026-09-16T10:14:10.560813+00:00
 | 16.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Sunderland | Az Alkmaar | 19521 | 5 |
 | 16.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Hapoel Beer Sh | Dinamo Zagreb | 19014 | 5 |
 | 16.09.2026 | 19:45 | UEFA Avrupa Ligi Lig Aşaması | Ararat-Armenia | Sparta Prag | 15577 | 5 |
+| 16.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Ac Milan | Benfica | 18506 | 5 |
 | 16.09.2026 | 22:30 | İspanya LaLiga | Barcelona | Santander | 19606 | 3 |
-| 16.09.2026 | 20:00 | İspanya LaLiga | D.La Coruna | Sevilla | 16043 | 5 |
 | 16.09.2026 | 22:30 | İspanya LaLiga | Levante | Athletic Bilbao | 19726 | 5 |
 | 16.09.2026 | 20:00 | İspanya LaLiga | Atletico Madri | Osasuna | 15943 | 5 |
-| 16.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Coventry | Aston Villa | 18866 | 5 |
-| 16.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Fleetwood Town | Sheffield Utd | 18033 | 5 |
+| 16.09.2026 | 20:00 | İspanya LaLiga | D.La Coruna | Sevilla | 16043 | 5 |
 | 16.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Everton | Wolverhampton | 17953 | 5 |
+| 16.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Fleetwood Town | Sheffield Utd | 18033 | 5 |
+| 16.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Coventry | Aston Villa | 18866 | 5 |
 | 16.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Man. Utd | Brighton | 19143 | 5 |
-| 17.09.2026 | 03:00 | Kuzey Amerika Şampiyonlar Kupası Final | Inter Miami | Cruz Azul | 08076 | 5 |
 | 16.09.2026 | 15:15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Port Fc | Vissel Kobe | 09366 | 5 |
+| 16.09.2026 | 19:00 | AFC Şampiyonlar Ligi 2 Grup A | Al Wahda | Al-Kuwait | 11301 | 5 |
+| 16.09.2026 | 19:00 | AFC Şampiyonlar Ligi 2 Grup A | Khalidiya | Nasaf Qarshi | 10626 | 5 |
 
 ## Sonuc
 
