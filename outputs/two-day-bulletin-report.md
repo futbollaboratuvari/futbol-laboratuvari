@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-16 / 2026-09-17
 Kaynak: fixtures.json
-Ham mac: 181
-Aktif mac: 174
+Ham mac: 191
+Aktif mac: 173
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 148
+Bultenden dusurulen mac: 18
+Bugun: 147
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-09-16 08:00 | Asya Oyunları Grup B | Birleşik Arap - İran U23 | scheduled | -
 - 2026-09-16 10:00 | Asya Oyunları Grup A | Tayland U23 - Kırgızistan U23 | scheduled | -
 - 2026-09-16 11:30 | Endonezya Süper Lig | Borneo Fc - Dewa United | scheduled | -
 - 2026-09-16 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Jeonbuk Hm - Kashiwa | scheduled | -

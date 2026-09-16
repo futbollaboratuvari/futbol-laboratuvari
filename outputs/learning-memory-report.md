@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.09.2026 05:08:58
+Oluşturma: 16.09.2026 08:22:01
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1145
-- Kazanan tahmin: 200
+- Bekleyen tahmin: 1146
+- Kazanan tahmin: 199
 - Kaybeden tahmin: 155
 - Lig sayısı: 279
 - Seçenek sayısı: 6
@@ -22,28 +22,28 @@ Oluşturma: 16.09.2026 05:08:58
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 594, bekleyen 461, başarı %62, düz getiri %5, ağırlık 1
-- 2.5 Üst: toplam 166, bekleyen 103, başarı %56, düz getiri %2, ağırlık 1
-- MS 1: toplam 505, bekleyen 401, başarı %55, düz getiri %-8, ağırlık 1
+- 2.5 Alt: toplam 592, bekleyen 459, başarı %62, düz getiri %5, ağırlık 1
+- 2.5 Üst: toplam 167, bekleyen 104, başarı %56, düz getiri %2, ağırlık 1
+- MS 1: toplam 503, bekleyen 400, başarı %54, düz getiri %-9, ağırlık 1
 - KG Var: toplam 14, bekleyen 4, başarı %50, düz getiri %-9, ağırlık 1
 - MS X: toplam 7, bekleyen 3, başarı %50, düz getiri %22, ağırlık 1
-- MS 2: toplam 214, bekleyen 173, başarı %46, düz getiri %-10, ağırlık 1
+- MS 2: toplam 217, bekleyen 176, başarı %46, düz getiri %-10, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-16 | Copa Libertadores Çeyrek Final | Platense (0) - (2) Fluminense | 2.5 Üst | won | 46/100
-- 2026-09-16 | Brezilya Serie B | Nautico - Operario | 2.5 Üst | won | 70/100
-- 2026-09-16 | Bolivya Premier Lig | Guabira - Aurora | 2.5 Alt | pending | 63/100
-- 2026-09-16 | AFC Şampiyonlar Ligi 2 Grup C | Al Nahda - Al Taawon | MS 1 | pending | 51/100
-- 2026-09-16 | Endonezya Süper Lig | Borneo Fc - Dewa United | MS 1 | pending | 49/100
-- 2026-09-16 | ABD USL Lig 1 | Fort Wayne - One Knoxville | 2.5 Alt | pending | 61/100
-- 2026-09-16 | İngiltere Lig Kupası 3.Tur | Fleetwood Town - Sheffield Utd | KG Var | pending | 76/100
-- 2026-09-16 | İngiltere Lig Kupası 3.Tur | Everton - Wolverhampton | 2.5 Alt | pending | 65/100
-- 2026-09-16 | İngiltere Ulusal Lig | Altrincham - Hartlepool | 2.5 Alt | pending | 66/100
-- 2026-09-16 | İngiltere Ulusal Lig | Scunthorpe - Boreham Wood | KG Var | pending | 75/100
-- 2026-09-16 | Yunanistan Kupa Lig Aşaması | Atromitos - Paok | KG Var | pending | 68/100
-- 2026-09-16 | Uganda Premier Lig | Mbarara City - Entebbe Uppc | 2.5 Alt | pending | 50/100
-- 2026-09-16 | İngiltere Ulusal Lig | Altrincham - Hartlepool | MS 1 | pending | 66/100
-- 2026-09-16 | Kadınlar U20 Dünya Kupası Son 16 Turu | Brezilya U20 ( - Abd U20 (K) | 2.5 Alt | pending | 50/100
-- 2026-09-16 | Kuzey Amerika Şampiyonlar Kupası Final | Inter Miami - Cruz Azul | MS 1 | pending | 50/100
+- 2026-09-16 | İspanya Federasyon Kupası Son 16 Turu | Saguntino - Navalcarnero | 2.5 Alt | pending | 55/100
+- 2026-09-16 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | Deportivo Cuen - San Antonio | 2.5 Alt | pending | 66/100
+- 2026-09-16 | İspanya Federasyon Kupası Son 16 Turu | Comillas - Sestao | 2.5 Alt | pending | 55/100
+- 2026-09-16 | İspanya Federasyon Kupası Son 16 Turu | Derio - Salamanca | 2.5 Alt | pending | 53/100
+- 2026-09-16 | İspanya Federasyon Kupası Son 16 Turu | Huelva - Cacereno | 2.5 Alt | pending | 55/100
+- 2026-09-16 | İspanya Federasyon Kupası Son 16 Turu | Orihuela - Murcia | 2.5 Alt | pending | 53/100
+- 2026-09-16 | UEFA Avrupa Ligi Lig Aşaması | Ac Milan - Benfica | MS 2 | pending | 56/100
+- 2026-09-16 | Mısır Premier Lig | Ghazl El Mehal - Al Zamalek Cair | MS 2 | pending | 50/100
+- 2026-09-16 | İspanya Federasyon Kupası Son 16 Turu | Ud Santa Marta - Bergantinos | 2.5 Alt | pending | 52/100
+- 2026-09-16 | Norveç NM Kupası 2.Tur | Gamle Oslo - Lyn Oslo | MS 2 | pending | 57/100
+- 2026-09-16 | Norveç NM Kupası 2.Tur | Jerv - Egersunds | MS 2 | pending | 45/100
+- 2026-09-16 | İspanya Gençler Onur Ligi Grup 4 | Atlético Zabal - Alhendín U19 | 2.5 Alt | pending | 50/100
+- 2026-09-16 | Ruanda Ulusal Futbol Ligi | As Kigali - Al Hilal Omdurm | 2.5 Alt | pending | 54/100
+- 2026-09-16 | AFC Şampiyonlar Ligi 2 Grup E | Fc Seoul - Persib | 2.5 Üst | pending | 54/100
+- 2026-09-16 | Tayland 2.Lig | Chainat Hornbi - Esan Pattaya | 2.5 Üst | pending | 54/100
 

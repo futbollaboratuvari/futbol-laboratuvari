@@ -2,12 +2,11 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 174
+- Scheduled match count: 173
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-16 / 2026-09-17 23:59
 
-- 2026-09-16 08:00 | Birleşik Arap - İran U23 | scheduled
 - 2026-09-16 10:00 | Tayland U23 - Kırgızistan U23 | scheduled
 - 2026-09-16 11:30 | Borneo Fc - Dewa United | scheduled
 - 2026-09-16 13:00 | Fc Seoul - Persib | scheduled
@@ -17,3 +16,4 @@
 - 2026-09-16 13:30 | Japonya U23 - Hong Kong U23 | scheduled
 - 2026-09-16 13:30 | Cordoba U19 - Sevilla U19 | scheduled
 - 2026-09-16 14:00 | Cadiz U19 - Atlético Melill | scheduled
+- 2026-09-16 14:00 | Chainat Hornbi - Esan Pattaya | scheduled
