@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.09.2026 23:19:05
+Oluşturma: 16.09.2026 23:27:39
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1127
-- Kazanan tahmin: 208
+- Bekleyen tahmin: 1126
+- Kazanan tahmin: 209
 - Kaybeden tahmin: 165
 - Lig sayısı: 282
 - Seçenek sayısı: 6
@@ -22,7 +22,7 @@ Oluşturma: 16.09.2026 23:19:05
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 586, bekleyen 448, başarı %62, düz getiri %7, ağırlık 1
+- 2.5 Alt: toplam 586, bekleyen 447, başarı %63, düz getiri %7, ağırlık 1
 - 2.5 Üst: toplam 167, bekleyen 98, başarı %54, düz getiri %-1, ağırlık 1
 - MS 1: toplam 497, bekleyen 389, başarı %53, düz getiri %-11, ağırlık 1
 - KG Var: toplam 15, bekleyen 5, başarı %50, düz getiri %-9, ağırlık 1
@@ -33,7 +33,7 @@ Oluşturma: 16.09.2026 23:19:05
 
 - 2026-09-16 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Atlas Delmenhor | MS 2 | pending | 52/100
 - 2026-09-16 | Bosna-Hersek Premier Lig | Sloga Doboj - Borac Banja Luk | MS 2 | pending | 56/100
-- 2026-09-16 | Rusya Premier Lig | Fk Rodina Mosk - Rubin Kazan | 2.5 Alt | pending | 64/100
+- 2026-09-16 | Rusya Premier Lig | Fk Rodina Mosk - Rubin Kazan | 2.5 Alt | won | 64/100
 - 2026-09-16 | ABD Açık Kupası Yarı Final | Colorado - St. Louis City | 2.5 Üst | pending | 60/100
 - 2026-09-16 | İngiltere Ulusal Lig | Kidderminster - Gateshead | 2.5 Alt | pending | 64/100
 - 2026-09-16 | AFC Şampiyonlar Ligi 2 Grup D | Al-Hussein - East-Bengal | 2.5 Üst | won | 63/100
