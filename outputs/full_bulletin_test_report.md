@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 172
+- Scheduled match count: 160
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-16 / 2026-09-17 23:59
 
-- 2026-09-16 13:30 | Japonya U23 - Hong Kong U23 | scheduled
-- 2026-09-16 13:30 | Cordoba U19 - Sevilla U19 | scheduled
-- 2026-09-16 14:00 | Cadiz U19 - Atlético Melill | scheduled
-- 2026-09-16 14:00 | Chainat Hornbi - Esan Pattaya | scheduled
-- 2026-09-16 14:00 | Uttaradit - Nong Bua Pitcha | scheduled
-- 2026-09-16 14:00 | Karaman Fk - Kepezspor Faş | scheduled
-- 2026-09-16 14:30 | Nakhon Pathom - Kanchanaburi | scheduled
-- 2026-09-16 15:00 | Mahasarakham U - Nakhon Ratchasi | scheduled
-- 2026-09-16 15:00 | Niki Volos - Asteras Tripoli | scheduled
-- 2026-09-16 15:15 | Viettel - Melbourne Victo | scheduled
+- 2026-09-16 16:00 | Arjantin U20 ( - Güney Kore U20 | scheduled
+- 2026-09-16 16:00 | Brezilya U20 ( - Abd U20 (K) | scheduled
+- 2026-09-16 16:00 | Terengganu (3) - (2) Dpmm Fc | scheduled
+- 2026-09-16 16:00 | As Kigali - Al Hilal Omdurm | scheduled
+- 2026-09-16 16:00 | Kampala City - Kataka | scheduled
+- 2026-09-16 16:00 | Lugazi Municip - Police | scheduled
+- 2026-09-16 16:00 | Mbarara City - Entebbe Uppc | scheduled
+- 2026-09-16 16:30 | Besat Kermansh - Naft Gachsaran | scheduled
+- 2026-09-16 16:45 | Aris - Marko | scheduled
+- 2026-09-16 17:00 | Fk Varnsdorf - Slavia Prag | scheduled

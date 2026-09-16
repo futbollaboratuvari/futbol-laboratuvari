@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.09.2026 15:13:45
+Oluşturma: 16.09.2026 15:37:59
 
 ## Özet
 
@@ -31,6 +31,8 @@ Oluşturma: 16.09.2026 15:13:45
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-16 | ABD MLS Next Pro | Real Monarchs - Minnesota Unite | 2.5 Alt | pending | 48/100
+- 2026-09-16 | Norveç NM Kupası 2.Tur | Arendal - Sandnes | 2.5 Alt | pending | 49/100
 - 2026-09-16 | İspanya Federasyon Kupası Son 16 Turu | Terrassa - Binefar | 2.5 Alt | pending | 50/100
 - 2026-09-16 | Hırvatistan HR Nogometni Kupası Son 32 Turu | Kustosija - Bijelo Brdo | 2.5 Alt | pending | 52/100
 - 2026-09-16 | Uganda Premier Lig | Lugazi Municip - Police | 2.5 Alt | pending | 57/100
@@ -44,6 +46,4 @@ Oluşturma: 16.09.2026 15:13:45
 - 2026-09-16 | İsveç Allsvenskan | Aik Stockholm - Mjallby | 2.5 Üst | pending | 56/100
 - 2026-09-16 | İsviçre Süper Lig | Thun - Servette | MS 1 | pending | 47/100
 - 2026-09-16 | Danimarka DBU Kupası 3.Tur | Ab Gladsaxe - Sonderjyske | MS 2 | pending | 49/100
-- 2026-09-16 | Norveç NM Kupası 2.Tur | Sandviken - Asane | MS 1 | pending | 46/100
-- 2026-09-16 | Yunanistan Kupa Lig Aşaması | Kifisias - Panathinaikos | MS 2 | pending | 59/100
 

@@ -3,26 +3,21 @@
 Gunler: 2026-09-16 / 2026-09-17
 Kaynak: fixtures.json
 Ham mac: 177
-Aktif mac: 165
+Aktif mac: 160
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 12
-Bugun: 139
+Bultenden dusurulen mac: 17
+Bugun: 134
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-09-16 15:00 | Yunanistan Kupa Lig Aşaması | Niki Volos - Asteras Tripoli | scheduled | -
-- 2026-09-16 15:00 | Tayland 2.Lig | Mahasarakham U - Nakhon Ratchasi | scheduled | -
-- 2026-09-16 15:15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Port Fc - Vissel Kobe | scheduled | -
-- 2026-09-16 15:15 | AFC Şampiyonlar Ligi 2 Grup E | Viettel - Melbourne Victo | scheduled | -
-- 2026-09-16 15:30 | Rusya FNL | Yenisey - Arsenal Tula | scheduled | -
-- 2026-09-16 15:30 | Azerbaycan 1.Lig | Karvan - Zaqatala | scheduled | -
 - 2026-09-16 16:00 | Kadınlar U20 Dünya Kupası Son 16 Turu | Brezilya U20 ( - Abd U20 (K) | scheduled | -
 - 2026-09-16 16:00 | Kadınlar U20 Dünya Kupası Son 16 Turu | Arjantin U20 ( - Güney Kore U20 | scheduled | -
 - 2026-09-16 16:00 | Malezya FA Kupası Son 16 Turu | Terengganu (3) - (2) Dpmm Fc | scheduled | -
 - 2026-09-16 16:00 | Uganda Premier Lig | Lugazi Municip - Police | scheduled | -
 - 2026-09-16 16:00 | Uganda Premier Lig | Mbarara City - Entebbe Uppc | scheduled | -
 - 2026-09-16 16:00 | Ruanda Ulusal Futbol Ligi | As Kigali - Al Hilal Omdurm | scheduled | -
+- 2026-09-16 16:00 | Uganda Premier Lig | Kampala City - Kataka | scheduled | -
 - 2026-09-16 16:30 | İran Azadegan Ligi | Besat Kermansh - Naft Gachsaran | scheduled | -
 - 2026-09-16 16:45 | Yunanistan Kupa Lig Aşaması | Aris - Marko | scheduled | -
 - 2026-09-16 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Havirov - Zlin | scheduled | -
