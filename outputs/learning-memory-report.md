@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.09.2026 18:02:56
+Oluşturma: 16.09.2026 20:08:06
 
 ## Özet
 
@@ -8,7 +8,7 @@ Oluşturma: 16.09.2026 18:02:56
 - Bekleyen tahmin: 1133
 - Kazanan tahmin: 205
 - Kaybeden tahmin: 162
-- Lig sayısı: 280
+- Lig sayısı: 282
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,15 +22,19 @@ Oluşturma: 16.09.2026 18:02:56
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 583, bekleyen 447, başarı %62, düz getiri %6, ağırlık 1
+- 2.5 Alt: toplam 584, bekleyen 448, başarı %62, düz getiri %6, ağırlık 1
 - 2.5 Üst: toplam 167, bekleyen 101, başarı %55, düz getiri %1, ağırlık 1
 - MS 1: toplam 502, bekleyen 395, başarı %53, düz getiri %-11, ağırlık 1
 - KG Var: toplam 14, bekleyen 4, başarı %50, düz getiri %-9, ağırlık 1
 - MS X: toplam 7, bekleyen 3, başarı %50, düz getiri %22, ağırlık 1
-- MS 2: toplam 227, bekleyen 183, başarı %48, düz getiri %-10, ağırlık 1
+- MS 2: toplam 226, bekleyen 182, başarı %48, düz getiri %-10, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-16 | İtalya Serie C Grup B | Vis Pasaro - Reggiana | 2.5 Üst | pending | 54/100
+- 2026-09-16 | Almanya Bölgesel Lig Batı | B.Dortmund (Am - Westfalia Rhyne | MS 1 | pending | 56/100
+- 2026-09-16 | Uruguay Kupa Ön Eleme Turu Grup 2 | Rentistas - Plaza Colonia | MS 1 | pending | 44/100
+- 2026-09-16 | AFC Şampiyonlar Ligi 2 Grup E | Viettel - Melbourne Victo | 2.5 Alt | pending | 57/100
 - 2026-09-16 | ABD USL Lig 1 | Chattanooga Re - Forward Madison | MS 1 | pending | 46/100
 - 2026-09-16 | ABD MLS Next Pro | Real Monarchs - Minnesota Unite | MS 2 | pending | 49/100
 - 2026-09-16 | İspanya Gençler Onur Ligi Grup 4 | Tomares U18 - Utrera U19 | MS 1 | pending | 49/100
@@ -42,8 +46,4 @@ Oluşturma: 16.09.2026 18:02:56
 - 2026-09-16 | Almanya Bölgesel Lig Kuzey | Phönix Lübeck - Todesfelde | MS 1 | pending | 59/100
 - 2026-09-16 | Almanya Bölgesel Lig Kuzey | Eimsbutteler - Werder Bremen ( | MS 1 | pending | 52/100
 - 2026-09-16 | İspanya LaLiga | Atletico Madri - Osasuna | 2.5 Alt | pending | 55/100
-- 2026-09-16 | Almanya Bölgesel Lig Kuzey Doğu | Rsv Eintracht - Greifswalder Sv | MS 2 | pending | 48/100
-- 2026-09-16 | İspanya Gençler Onur Ligi Grup 4 | Sporting Atlét - San Felix U18 | MS 1 | pending | 55/100
-- 2026-09-16 | Tanzanya Kuu Bara Ligi | Azam Fc - Simba | MS 2 | pending | 45/100
-- 2026-09-16 | Norveç NM Kupası 2.Tur | Traeff - Hodd | MS 2 | pending | 47/100
 
