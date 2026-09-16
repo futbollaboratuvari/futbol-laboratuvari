@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.09.2026 05:05:27
+Oluşturma: 16.09.2026 05:08:58
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1146
-- Kazanan tahmin: 199
+- Bekleyen tahmin: 1145
+- Kazanan tahmin: 200
 - Kaybeden tahmin: 155
 - Lig sayısı: 279
 - Seçenek sayısı: 6
@@ -23,7 +23,7 @@ Oluşturma: 16.09.2026 05:05:27
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Alt: toplam 594, bekleyen 461, başarı %62, düz getiri %5, ağırlık 1
-- 2.5 Üst: toplam 166, bekleyen 104, başarı %55, düz getiri %0, ağırlık 1
+- 2.5 Üst: toplam 166, bekleyen 103, başarı %56, düz getiri %2, ağırlık 1
 - MS 1: toplam 505, bekleyen 401, başarı %55, düz getiri %-8, ağırlık 1
 - KG Var: toplam 14, bekleyen 4, başarı %50, düz getiri %-9, ağırlık 1
 - MS X: toplam 7, bekleyen 3, başarı %50, düz getiri %22, ağırlık 1
@@ -31,7 +31,7 @@ Oluşturma: 16.09.2026 05:05:27
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-16 | Copa Libertadores Çeyrek Final | Platense (0) - (2) Fluminense | 2.5 Üst | pending | 46/100
+- 2026-09-16 | Copa Libertadores Çeyrek Final | Platense (0) - (2) Fluminense | 2.5 Üst | won | 46/100
 - 2026-09-16 | Brezilya Serie B | Nautico - Operario | 2.5 Üst | won | 70/100
 - 2026-09-16 | Bolivya Premier Lig | Guabira - Aurora | 2.5 Alt | pending | 63/100
 - 2026-09-16 | AFC Şampiyonlar Ligi 2 Grup C | Al Nahda - Al Taawon | MS 1 | pending | 51/100
