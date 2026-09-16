@@ -101,6 +101,19 @@ function copyRecursive(source, target, relativePath) {
   copiedBytes += stat.size;
 }
 
+function copyRequiredPublicDataFile(fileName) {
+  const source = path.join(root, "data", fileName);
+  const target = path.join(outDir, "data", fileName);
+  if (!fs.existsSync(source)) {
+    throw new Error(`Zorunlu kamu veri dosyası bulunamadı: data/${fileName}`);
+  }
+  fs.mkdirSync(path.dirname(target), { recursive: true });
+  fs.copyFileSync(source, target);
+  const stat = fs.statSync(source);
+  copiedFiles += 1;
+  copiedBytes += stat.size;
+}
+
 try {
   require("./merge-bulletin-detail-fields");
 } catch (error) {
@@ -146,6 +159,13 @@ fs.mkdirSync(outDir, { recursive: true });
 
 for (const entry of fs.readdirSync(root)) {
   copyRecursive(path.join(root, entry), path.join(outDir, entry), entry);
+}
+
+// Vercel'de data/ klasörü genel olarak kapalıdır. Spor Toto arayüzünün ihtiyaç
+// duyduğu küçük ve kamuya açık haftalık dosyaları kontrollü olarak yayınla.
+if (isVercelBuild) {
+  copyRequiredPublicDataFile("spor_toto_bulteni.json");
+  copyRequiredPublicDataFile("spor_toto_weekly_program.json");
 }
 
 require("./harden-static-seo-runner").hardenStaticSeo(outDir);
