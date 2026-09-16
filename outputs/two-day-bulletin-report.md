@@ -3,19 +3,14 @@
 Gunler: 2026-09-16 / 2026-09-17
 Kaynak: fixtures.json
 Ham mac: 191
-Aktif mac: 181
+Aktif mac: 176
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 155
+Bultenden dusurulen mac: 15
+Bugun: 150
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-09-16 02:30 | Venezuela Premier Lig Clausura | Ucv - Academia Anzoat | scheduled | -
-- 2026-09-16 03:00 | Brezilya Serie B | Regatas - Sport Recife | scheduled | -
-- 2026-09-16 03:30 | Copa Sudamericana Çeyrek Final | Sao Paulo (0) - (1) Boca Juniors | scheduled | -
-- 2026-09-16 03:30 | Kolombiya Primera A Clausura | Chico - Alianza Petrole | scheduled | -
-- 2026-09-16 03:30 | Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final | Bahia (K) - Corinthians (K) | scheduled | -
 - 2026-09-16 04:00 | Meksika Liga MX Apertura | Puebla - Toluca | scheduled | -
 - 2026-09-16 04:00 | Meksika Ascenso MX Apertura | Dorados - Cancun Fc | scheduled | -
 - 2026-09-16 08:00 | Asya Oyunları Grup B | Birleşik Arap - İran U23 | scheduled | -
