@@ -3,6 +3,7 @@
   const PANEL_ID = "membership-payment-panel";
   const SELECTED_PLAN_KEY = "fl_selected_membership_plan";
   const CUSTOMER_KEY = "fl_membership_customer_info";
+  const WHATSAPP_SCRIPT_ID = "fl-whatsapp-order-script";
 
   const DEFAULT_PLANS = [
     { id: "starter", name: "Gold Paket", price: "149 TL / 3 Gün", duration_label: "3 Gün", trial_label: "1 Gün Ücretsiz Deneme", features: ["Günlük kuponları görme", "Maç bülteni ve sonuçlar", "Özel Analiz paneli öncelikli erişim"] },
@@ -25,6 +26,15 @@
 
   const readStored = (key) => {
     try { return JSON.parse(localStorage.getItem(key) || "{}"); } catch { return {}; }
+  };
+
+  const loadWhatsAppOrderUi = () => {
+    if (window.__flWhatsappOrderUiReady || document.getElementById(WHATSAPP_SCRIPT_ID)) return;
+    const script = document.createElement("script");
+    script.id = WHATSAPP_SCRIPT_ID;
+    script.src = "whatsapp-order.js?v=20260916-whatsapp-order-v1";
+    script.async = true;
+    document.body.appendChild(script);
   };
 
   const injectStyle = () => {
@@ -73,6 +83,7 @@
 
   const render = (plans) => {
     injectStyle();
+    loadWhatsAppOrderUi();
     const shell = ensureShell();
     const visiblePlans = Array.isArray(plans) && plans.length ? plans : DEFAULT_PLANS;
     const selected = readStored(SELECTED_PLAN_KEY);
