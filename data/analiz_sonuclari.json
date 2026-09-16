@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T23:04:31.885Z",
+  "generated_at": "2026-09-16T23:17:52.470Z",
   "date": "2026-09-17",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -9,7 +9,7 @@
     "scored_match_count": 119,
     "active_item_count": 119,
     "coupon_candidate_count": 10,
-    "watch_candidate_count": 67
+    "watch_candidate_count": 68
   },
   "active_items": [
     {
@@ -22,15 +22,15 @@
       "market": "2.5 Alt",
       "prediction": "2.5 Alt",
       "decision": "Kupon Adayı",
-      "score": "75%",
-      "confidence": "75%",
-      "confidence_score": "75%",
-      "model_score": 75,
+      "score": "78%",
+      "confidence": "78%",
+      "confidence_score": "78%",
+      "model_score": 78,
       "score_type": "signal_strength",
-      "estimated_probability": 59.9,
+      "estimated_probability": 61.9,
       "market_probability": 53.6,
-      "edge_percent": 6.3,
-      "data_completeness": 70,
+      "edge_percent": 8.3,
+      "data_completeness": 76,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Orta",
       "risk_level": "Orta",
@@ -42,7 +42,6 @@
         "ms2": "2.69",
         "over25": "1.78",
         "under25": "1.54",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.19",
         "bttsNo": "1.17",
@@ -251,7 +250,7 @@
         "1-0",
         "1-1"
       ],
-      "value_label": "Değerli",
+      "value_label": "Yüksek Değer",
       "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.54 | Veri tipi: standard",
       "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.54 | Veri tipi: standard",
       "pro_signals": [
@@ -259,16 +258,16 @@
         "Market: 2.5 Alt",
         "Oran: 1.54",
         "Veri tipi: standard",
-        "Değer etiketi: Değerli",
+        "Değer etiketi: Yüksek Değer",
         "Marjı temizlenmiş piyasa olasılığı %54.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %72.",
-        "Birleşik tahmini olasılık %60.",
-        "Model-piyasa farkı +6.3 puan.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %74.",
+        "Birleşik tahmini olasılık %62.",
+        "Model-piyasa farkı +8.3 puan.",
         "Poisson gol beklentisi 1.12-1.05.",
         "Hafıza: 2.5 Alt eğilimi destekli (%81): +8",
         "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 75/100 (Düşük eksik veri riski).",
-        "Model gücü 79/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 81/100 (Düşük eksik veri riski).",
+        "Model gücü 82/100: Ana kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "signals": [
@@ -276,256 +275,16 @@
         "Market: 2.5 Alt",
         "Oran: 1.54",
         "Veri tipi: standard",
-        "Değer etiketi: Değerli",
+        "Değer etiketi: Yüksek Değer",
         "Marjı temizlenmiş piyasa olasılığı %54.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %72.",
-        "Birleşik tahmini olasılık %60.",
-        "Model-piyasa farkı +6.3 puan.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %74.",
+        "Birleşik tahmini olasılık %62.",
+        "Model-piyasa farkı +8.3 puan.",
         "Poisson gol beklentisi 1.12-1.05.",
         "Hafıza: 2.5 Alt eğilimi destekli (%81): +8",
         "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 75/100 (Düşük eksik veri riski).",
-        "Model gücü 79/100: Orta risk kupon adayı.",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ],
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "auto-7",
-      "date": "2026-09-17",
-      "time": "01:00",
-      "league": "ABD USL",
-      "title": "Hartford Athle VS Sporting Jax",
-      "match": "Hartford Athle VS Sporting Jax",
-      "market": "MS 1",
-      "prediction": "MS 1",
-      "decision": "İzleme",
-      "score": "73%",
-      "confidence": "73%",
-      "confidence_score": "73%",
-      "model_score": 73,
-      "score_type": "signal_strength",
-      "estimated_probability": 66.4,
-      "market_probability": 66.1,
-      "edge_percent": 0.3,
-      "data_completeness": 56,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "risk_level": "Orta",
-      "status": "scheduled",
-      "estimated_odds": "1.25",
-      "available_odds": {
-        "ms1": "1.25",
-        "msx": "4.33",
-        "ms2": "5.57",
-        "over25": "1.31",
-        "under25": "2.21",
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": "-",
-        "bttsNo": "-",
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "ms1": 1.25,
-        "msx": 4.33,
-        "ms2": 5.57,
-        "under25": 2.21,
-        "over25": 1.31
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "19898",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.25,
-            "msx": 4.33,
-            "ms2": 5.57
-          }
-        },
-        {
-          "market_code": "19898",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.25,
-            "firstHalfX_guess": 4.33,
-            "firstHalf2_guess": 5.57
-          }
-        },
-        {
-          "market_code": "19898",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.25,
-            "secondHalfX_guess": 4.33,
-            "secondHalf2_guess": 5.57
-          }
-        },
-        {
-          "market_code": "19898",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.25,
-            "handicapX_guess": 4.33,
-            "handicap2_guess": 5.57
-          }
-        },
-        {
-          "market_code": "19905",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 2.21,
-            "bttsNo_guess": 1.31
-          }
-        },
-        {
-          "market_code": "19905",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 2.21,
-            "firstHalfBttsNo_guess": 1.31
-          }
-        },
-        {
-          "market_code": "19905",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 2.21,
-            "secondHalfBttsNo_guess": 1.31
-          }
-        },
-        {
-          "market_code": "19905",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 2.21,
-            "over05_guess": 1.31
-          }
-        },
-        {
-          "market_code": "19905",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 2.21,
-            "over15_guess": 1.31
-          }
-        },
-        {
-          "market_code": "19905",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 2.21,
-            "over25_guess": 1.31
-          }
-        },
-        {
-          "market_code": "19905",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 2.21,
-            "over35_guess": 1.31
-          }
-        },
-        {
-          "market_code": "19905",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 2.21,
-            "over45_guess": 1.31
-          }
-        },
-        {
-          "market_code": "19905",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 2.21,
-            "firstHalfOver05_guess": 1.31
-          }
-        },
-        {
-          "market_code": "19905",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 2.21,
-            "firstHalfOver15_guess": 1.31
-          }
-        },
-        {
-          "market_code": "19905",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 2.21,
-            "secondHalfOver05_guess": 1.31
-          }
-        },
-        {
-          "market_code": "19905",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 2.21,
-            "secondHalfOver15_guess": 1.31
-          }
-        },
-        {
-          "market_code": "19905",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 2.21,
-            "homeOver15_guess": 1.31
-          }
-        },
-        {
-          "market_code": "19905",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 2.21,
-            "awayOver15_guess": 1.31
-          }
-        }
-      ],
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "value_label": "Piyasa ile Uyumlu",
-      "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 1 | Oran: 1.25 | Veri tipi: standard",
-      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 1 | Oran: 1.25 | Veri tipi: standard",
-      "pro_signals": [
-        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: MS 1",
-        "Oran: 1.25",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %66.",
-        "Bağımsız takım formu + Poisson gol modeli tahmini %67.",
-        "Birleşik tahmini olasılık %66.",
-        "Model-piyasa farkı +0.3 puan.",
-        "Poisson gol beklentisi 2.18-1.42.",
-        "Hafıza: ev sahibi form puanında önde (3-1.5): +7",
-        "Geçmiş market örneği 1988; ham isabet %43.",
-        "Veri kapsama puanı 61/100 (Düşük eksik veri riski).",
-        "Model gücü 77/100: Orta risk kupon adayı.",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ],
-      "signals": [
-        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: MS 1",
-        "Oran: 1.25",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %66.",
-        "Bağımsız takım formu + Poisson gol modeli tahmini %67.",
-        "Birleşik tahmini olasılık %66.",
-        "Model-piyasa farkı +0.3 puan.",
-        "Poisson gol beklentisi 2.18-1.42.",
-        "Hafıza: ev sahibi form puanında önde (3-1.5): +7",
-        "Geçmiş market örneği 1988; ham isabet %43.",
-        "Veri kapsama puanı 61/100 (Düşük eksik veri riski).",
-        "Model gücü 77/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 81/100 (Düşük eksik veri riski).",
+        "Model gücü 82/100: Ana kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "source": "Robot ham veri havuzu"
@@ -540,15 +299,15 @@
       "market": "2.5 Üst",
       "prediction": "2.5 Üst",
       "decision": "Kupon Adayı",
-      "score": "73%",
-      "confidence": "73%",
-      "confidence_score": "73%",
-      "model_score": 73,
+      "score": "76%",
+      "confidence": "76%",
+      "confidence_score": "76%",
+      "model_score": 76,
       "score_type": "signal_strength",
-      "estimated_probability": 55.2,
+      "estimated_probability": 57,
       "market_probability": 49.3,
-      "edge_percent": 6,
-      "data_completeness": 61,
+      "edge_percent": 7.8,
+      "data_completeness": 67,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Orta",
       "risk_level": "Orta",
@@ -560,7 +319,6 @@
         "ms2": "2.07",
         "over25": "1.72",
         "under25": "1.67",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.43",
         "bttsNo": "1.19",
@@ -769,7 +527,7 @@
         "3-1",
         "2-2"
       ],
-      "value_label": "Değerli",
+      "value_label": "Yüksek Değer",
       "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Üst | Oran: 1.72 | Veri tipi: standard",
       "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Üst | Oran: 1.72 | Veri tipi: standard",
       "pro_signals": [
@@ -777,17 +535,17 @@
         "Market: 2.5 Üst",
         "Oran: 1.72",
         "Veri tipi: standard",
-        "Değer etiketi: Değerli",
+        "Değer etiketi: Yüksek Değer",
         "Marjı temizlenmiş piyasa olasılığı %49.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %70.",
-        "Birleşik tahmini olasılık %55.",
-        "Model-piyasa farkı +6.0 puan.",
+        "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %72.",
+        "Birleşik tahmini olasılık %57.",
+        "Model-piyasa farkı +7.8 puan.",
         "Poisson gol beklentisi 1.62-1.74.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%75): +8",
         "Hafıza: lig gol ortalaması 3: +5",
         "Geçmiş market örneği 1988; ham isabet %55.",
-        "Veri kapsama puanı 66/100 (Düşük eksik veri riski).",
-        "Model gücü 77/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
+        "Model gücü 80/100: Ana kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "signals": [
@@ -795,17 +553,17 @@
         "Market: 2.5 Üst",
         "Oran: 1.72",
         "Veri tipi: standard",
-        "Değer etiketi: Değerli",
+        "Değer etiketi: Yüksek Değer",
         "Marjı temizlenmiş piyasa olasılığı %49.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %70.",
-        "Birleşik tahmini olasılık %55.",
-        "Model-piyasa farkı +6.0 puan.",
+        "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %72.",
+        "Birleşik tahmini olasılık %57.",
+        "Model-piyasa farkı +7.8 puan.",
         "Poisson gol beklentisi 1.62-1.74.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%75): +8",
         "Hafıza: lig gol ortalaması 3: +5",
         "Geçmiş market örneği 1988; ham isabet %55.",
-        "Veri kapsama puanı 66/100 (Düşük eksik veri riski).",
-        "Model gücü 77/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
+        "Model gücü 80/100: Ana kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "source": "Robot ham veri havuzu"
@@ -820,15 +578,15 @@
       "market": "2.5 Alt",
       "prediction": "2.5 Alt",
       "decision": "Kupon Adayı",
-      "score": "72%",
-      "confidence": "72%",
-      "confidence_score": "72%",
-      "model_score": 72,
+      "score": "75%",
+      "confidence": "75%",
+      "confidence_score": "75%",
+      "model_score": 75,
       "score_type": "signal_strength",
-      "estimated_probability": 56.9,
+      "estimated_probability": 57.6,
       "market_probability": 53,
-      "edge_percent": 3.8,
-      "data_completeness": 67,
+      "edge_percent": 4.6,
+      "data_completeness": 73,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Orta",
       "risk_level": "Orta",
@@ -840,7 +598,6 @@
         "ms2": "2.98",
         "over25": "1.76",
         "under25": "1.56",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.15",
         "bttsNo": "1.16",
@@ -1059,14 +816,14 @@
         "Veri tipi: standard",
         "Değer etiketi: Değerli",
         "Marjı temizlenmiş piyasa olasılığı %53.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %65.",
-        "Birleşik tahmini olasılık %57.",
-        "Model-piyasa farkı +3.8 puan.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %65.",
+        "Birleşik tahmini olasılık %58.",
+        "Model-piyasa farkı +4.6 puan.",
         "Poisson gol beklentisi 1.23-1.05.",
         "Hafıza: 2.5 Alt eğilimi destekli (%70): +8",
         "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
-        "Model gücü 76/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 78/100 (Düşük eksik veri riski).",
+        "Model gücü 79/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "signals": [
@@ -1076,14 +833,14 @@
         "Veri tipi: standard",
         "Değer etiketi: Değerli",
         "Marjı temizlenmiş piyasa olasılığı %53.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %65.",
-        "Birleşik tahmini olasılık %57.",
-        "Model-piyasa farkı +3.8 puan.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %65.",
+        "Birleşik tahmini olasılık %58.",
+        "Model-piyasa farkı +4.6 puan.",
         "Poisson gol beklentisi 1.23-1.05.",
         "Hafıza: 2.5 Alt eğilimi destekli (%70): +8",
         "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
-        "Model gücü 76/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 78/100 (Düşük eksik veri riski).",
+        "Model gücü 79/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "source": "Robot ham veri havuzu"
@@ -1098,15 +855,15 @@
       "market": "2.5 Üst",
       "prediction": "2.5 Üst",
       "decision": "Kupon Adayı",
-      "score": "72%",
-      "confidence": "72%",
-      "confidence_score": "72%",
-      "model_score": 72,
+      "score": "75%",
+      "confidence": "75%",
+      "confidence_score": "75%",
+      "model_score": 75,
       "score_type": "signal_strength",
-      "estimated_probability": 55.8,
+      "estimated_probability": 57.9,
       "market_probability": 49.5,
-      "edge_percent": 6.3,
-      "data_completeness": 64,
+      "edge_percent": 8.4,
+      "data_completeness": 70,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Orta",
       "risk_level": "Orta",
@@ -1118,7 +875,6 @@
         "ms2": "3.68",
         "over25": "1.67",
         "under25": "1.64",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.08",
         "bttsNo": "1.12",
@@ -1327,7 +1083,7 @@
         "3-1",
         "2-2"
       ],
-      "value_label": "Değerli",
+      "value_label": "Yüksek Değer",
       "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Üst | Oran: 1.67 | Veri tipi: standard",
       "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Üst | Oran: 1.67 | Veri tipi: standard",
       "pro_signals": [
@@ -1335,16 +1091,16 @@
         "Market: 2.5 Üst",
         "Oran: 1.67",
         "Veri tipi: standard",
-        "Değer etiketi: Değerli",
+        "Değer etiketi: Yüksek Değer",
         "Marjı temizlenmiş piyasa olasılığı %50.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %70.",
-        "Birleşik tahmini olasılık %56.",
-        "Model-piyasa farkı +6.3 puan.",
+        "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %72.",
+        "Birleşik tahmini olasılık %58.",
+        "Model-piyasa farkı +8.4 puan.",
         "Poisson gol beklentisi 1.9-1.35.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%78): +8",
         "Geçmiş market örneği 1988; ham isabet %55.",
-        "Veri kapsama puanı 69/100 (Düşük eksik veri riski).",
-        "Model gücü 76/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 75/100 (Düşük eksik veri riski).",
+        "Model gücü 79/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "signals": [
@@ -1352,16 +1108,255 @@
         "Market: 2.5 Üst",
         "Oran: 1.67",
         "Veri tipi: standard",
-        "Değer etiketi: Değerli",
+        "Değer etiketi: Yüksek Değer",
         "Marjı temizlenmiş piyasa olasılığı %50.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %70.",
-        "Birleşik tahmini olasılık %56.",
-        "Model-piyasa farkı +6.3 puan.",
+        "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %72.",
+        "Birleşik tahmini olasılık %58.",
+        "Model-piyasa farkı +8.4 puan.",
         "Poisson gol beklentisi 1.9-1.35.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%78): +8",
         "Geçmiş market örneği 1988; ham isabet %55.",
-        "Veri kapsama puanı 69/100 (Düşük eksik veri riski).",
-        "Model gücü 76/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 75/100 (Düşük eksik veri riski).",
+        "Model gücü 79/100: Orta risk kupon adayı.",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "auto-7",
+      "date": "2026-09-17",
+      "time": "01:00",
+      "league": "ABD USL",
+      "title": "Hartford Athle VS Sporting Jax",
+      "match": "Hartford Athle VS Sporting Jax",
+      "market": "MS 1",
+      "prediction": "MS 1",
+      "decision": "İzleme",
+      "score": "73%",
+      "confidence": "73%",
+      "confidence_score": "73%",
+      "model_score": 73,
+      "score_type": "signal_strength",
+      "estimated_probability": 66.4,
+      "market_probability": 66.1,
+      "edge_percent": 0.3,
+      "data_completeness": 56,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "risk_level": "Orta",
+      "status": "scheduled",
+      "estimated_odds": "1.25",
+      "available_odds": {
+        "ms1": "1.25",
+        "msx": "4.33",
+        "ms2": "5.57",
+        "over25": "1.31",
+        "under25": "2.21",
+        "under35": "-",
+        "bttsYes": "-",
+        "bttsNo": "-",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 1.25,
+        "msx": 4.33,
+        "ms2": 5.57,
+        "under25": 2.21,
+        "over25": 1.31
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "19898",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.25,
+            "msx": 4.33,
+            "ms2": 5.57
+          }
+        },
+        {
+          "market_code": "19898",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.25,
+            "firstHalfX_guess": 4.33,
+            "firstHalf2_guess": 5.57
+          }
+        },
+        {
+          "market_code": "19898",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.25,
+            "secondHalfX_guess": 4.33,
+            "secondHalf2_guess": 5.57
+          }
+        },
+        {
+          "market_code": "19898",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.25,
+            "handicapX_guess": 4.33,
+            "handicap2_guess": 5.57
+          }
+        },
+        {
+          "market_code": "19905",
+          "market": "KG Var / Yok",
+          "values": {
+            "bttsYes_guess": 2.21,
+            "bttsNo_guess": 1.31
+          }
+        },
+        {
+          "market_code": "19905",
+          "market": "İlk Yarı KG Var / Yok",
+          "values": {
+            "firstHalfBttsYes_guess": 2.21,
+            "firstHalfBttsNo_guess": 1.31
+          }
+        },
+        {
+          "market_code": "19905",
+          "market": "İkinci Yarı KG Var / Yok",
+          "values": {
+            "secondHalfBttsYes_guess": 2.21,
+            "secondHalfBttsNo_guess": 1.31
+          }
+        },
+        {
+          "market_code": "19905",
+          "market": "0.5 Alt / Üst",
+          "values": {
+            "under05_guess": 2.21,
+            "over05_guess": 1.31
+          }
+        },
+        {
+          "market_code": "19905",
+          "market": "1.5 Alt / Üst",
+          "values": {
+            "under15_guess": 2.21,
+            "over15_guess": 1.31
+          }
+        },
+        {
+          "market_code": "19905",
+          "market": "2.5 Alt / Üst",
+          "values": {
+            "under25_guess": 2.21,
+            "over25_guess": 1.31
+          }
+        },
+        {
+          "market_code": "19905",
+          "market": "3.5 Alt / Üst",
+          "values": {
+            "under35_guess": 2.21,
+            "over35_guess": 1.31
+          }
+        },
+        {
+          "market_code": "19905",
+          "market": "4.5 Alt / Üst",
+          "values": {
+            "under45_guess": 2.21,
+            "over45_guess": 1.31
+          }
+        },
+        {
+          "market_code": "19905",
+          "market": "İlk Yarı 0.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder05_guess": 2.21,
+            "firstHalfOver05_guess": 1.31
+          }
+        },
+        {
+          "market_code": "19905",
+          "market": "İlk Yarı 1.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder15_guess": 2.21,
+            "firstHalfOver15_guess": 1.31
+          }
+        },
+        {
+          "market_code": "19905",
+          "market": "İkinci Yarı 0.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder05_guess": 2.21,
+            "secondHalfOver05_guess": 1.31
+          }
+        },
+        {
+          "market_code": "19905",
+          "market": "İkinci Yarı 1.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder15_guess": 2.21,
+            "secondHalfOver15_guess": 1.31
+          }
+        },
+        {
+          "market_code": "19905",
+          "market": "Ev Sahibi 1.5 Alt / Üst",
+          "values": {
+            "homeUnder15_guess": 2.21,
+            "homeOver15_guess": 1.31
+          }
+        },
+        {
+          "market_code": "19905",
+          "market": "Deplasman 1.5 Alt / Üst",
+          "values": {
+            "awayUnder15_guess": 2.21,
+            "awayOver15_guess": 1.31
+          }
+        }
+      ],
+      "expected_scores": [
+        "1-0",
+        "2-0",
+        "2-1"
+      ],
+      "value_label": "Piyasa ile Uyumlu",
+      "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 1 | Oran: 1.25 | Veri tipi: standard",
+      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 1 | Oran: 1.25 | Veri tipi: standard",
+      "pro_signals": [
+        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
+        "Market: MS 1",
+        "Oran: 1.25",
+        "Veri tipi: standard",
+        "Değer etiketi: Piyasa ile Uyumlu",
+        "Marjı temizlenmiş piyasa olasılığı %66.",
+        "Bağımsız takım formu + Poisson gol modeli tahmini %67.",
+        "Birleşik tahmini olasılık %66.",
+        "Model-piyasa farkı +0.3 puan.",
+        "Poisson gol beklentisi 2.18-1.42.",
+        "Hafıza: ev sahibi form puanında önde (3-1.5): +7",
+        "Geçmiş market örneği 1988; ham isabet %43.",
+        "Veri kapsama puanı 61/100 (Düşük eksik veri riski).",
+        "Model gücü 77/100: Orta risk kupon adayı.",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "signals": [
+        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
+        "Market: MS 1",
+        "Oran: 1.25",
+        "Veri tipi: standard",
+        "Değer etiketi: Piyasa ile Uyumlu",
+        "Marjı temizlenmiş piyasa olasılığı %66.",
+        "Bağımsız takım formu + Poisson gol modeli tahmini %67.",
+        "Birleşik tahmini olasılık %66.",
+        "Model-piyasa farkı +0.3 puan.",
+        "Poisson gol beklentisi 2.18-1.42.",
+        "Hafıza: ev sahibi form puanında önde (3-1.5): +7",
+        "Geçmiş market örneği 1988; ham isabet %43.",
+        "Veri kapsama puanı 61/100 (Düşük eksik veri riski).",
+        "Model gücü 77/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "source": "Robot ham veri havuzu"
@@ -1376,15 +1371,15 @@
       "market": "2.5 Alt",
       "prediction": "2.5 Alt",
       "decision": "Kupon Adayı",
-      "score": "70%",
-      "confidence": "70%",
-      "confidence_score": "70%",
-      "model_score": 70,
+      "score": "73%",
+      "confidence": "73%",
+      "confidence_score": "73%",
+      "model_score": 73,
       "score_type": "signal_strength",
-      "estimated_probability": 56.5,
+      "estimated_probability": 57.9,
       "market_probability": 55.8,
-      "edge_percent": 0.7,
-      "data_completeness": 61,
+      "edge_percent": 2.1,
+      "data_completeness": 67,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Orta",
       "risk_level": "Orta",
@@ -1396,7 +1391,6 @@
         "ms2": "4.82",
         "over25": "1.92",
         "under25": "1.52",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.15",
         "bttsNo": "1.93",
@@ -1691,14 +1685,14 @@
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %56.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %58.",
-        "Birleşik tahmini olasılık %57.",
-        "Model-piyasa farkı +0.7 puan.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %62.",
+        "Birleşik tahmini olasılık %58.",
+        "Model-piyasa farkı +2.1 puan.",
         "Poisson gol beklentisi 1.55-1.27.",
         "Hafıza: 2.5 Alt eğilimi destekli (%70): +8",
         "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 66/100 (Düşük eksik veri riski).",
-        "Model gücü 74/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
+        "Model gücü 77/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "signals": [
@@ -1708,14 +1702,14 @@
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %56.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %58.",
-        "Birleşik tahmini olasılık %57.",
-        "Model-piyasa farkı +0.7 puan.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %62.",
+        "Birleşik tahmini olasılık %58.",
+        "Model-piyasa farkı +2.1 puan.",
         "Poisson gol beklentisi 1.55-1.27.",
         "Hafıza: 2.5 Alt eğilimi destekli (%70): +8",
         "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 66/100 (Düşük eksik veri riski).",
-        "Model gücü 74/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
+        "Model gücü 77/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "source": "Robot ham veri havuzu"
@@ -1730,15 +1724,15 @@
       "market": "2.5 Alt",
       "prediction": "2.5 Alt",
       "decision": "Kupon Adayı",
-      "score": "69%",
-      "confidence": "69%",
-      "confidence_score": "69%",
-      "model_score": 69,
+      "score": "72%",
+      "confidence": "72%",
+      "confidence_score": "72%",
+      "model_score": 72,
       "score_type": "signal_strength",
-      "estimated_probability": 54.6,
+      "estimated_probability": 55.3,
       "market_probability": 52.9,
-      "edge_percent": 1.8,
-      "data_completeness": 61,
+      "edge_percent": 2.5,
+      "data_completeness": 67,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Orta",
       "risk_level": "Orta",
@@ -1750,7 +1744,6 @@
         "ms2": "2.94",
         "over25": "1.75",
         "under25": "1.56",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.16",
         "bttsNo": "1.17",
@@ -1969,14 +1962,14 @@
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %53.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %59.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %60.",
         "Birleşik tahmini olasılık %55.",
-        "Model-piyasa farkı +1.8 puan.",
+        "Model-piyasa farkı +2.5 puan.",
         "Poisson gol beklentisi 1.49-0.96.",
         "Hafıza: 2.5 Alt eğilimi destekli (%62): +8",
         "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 66/100 (Düşük eksik veri riski).",
-        "Model gücü 73/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
+        "Model gücü 76/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "signals": [
@@ -1986,14 +1979,291 @@
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %53.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %59.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %60.",
         "Birleşik tahmini olasılık %55.",
-        "Model-piyasa farkı +1.8 puan.",
+        "Model-piyasa farkı +2.5 puan.",
         "Poisson gol beklentisi 1.49-0.96.",
         "Hafıza: 2.5 Alt eğilimi destekli (%62): +8",
         "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 66/100 (Düşük eksik veri riski).",
-        "Model gücü 73/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
+        "Model gücü 76/100: Orta risk kupon adayı.",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "auto-41",
+      "date": "2026-09-17",
+      "time": "16:15",
+      "league": "Rusya Premier Lig",
+      "title": "Orenburg VS Krasnodar",
+      "match": "Orenburg VS Krasnodar",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "decision": "Kupon Adayı",
+      "score": "72%",
+      "confidence": "72%",
+      "confidence_score": "72%",
+      "model_score": 72,
+      "score_type": "signal_strength",
+      "estimated_probability": 54.3,
+      "market_probability": 47.1,
+      "edge_percent": 7.3,
+      "data_completeness": 67,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "risk_level": "Orta",
+      "status": "scheduled",
+      "estimated_odds": "1.80",
+      "available_odds": {
+        "ms1": "3.87",
+        "msx": "3.41",
+        "ms2": "1.60",
+        "over25": "1.60",
+        "under25": "1.80",
+        "under35": "-",
+        "bttsYes": "1.78",
+        "bttsNo": "1.14",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 3.87,
+        "msx": 3.41,
+        "ms2": 1.6,
+        "under25": 1.8,
+        "over25": 1.6,
+        "bttsYes_guess": 1.78,
+        "bttsNo_guess": 1.14
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "20426",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 3.87,
+            "msx": 3.41,
+            "ms2": 1.6
+          }
+        },
+        {
+          "market_code": "20426",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 3.87,
+            "firstHalfX_guess": 3.41,
+            "firstHalf2_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20426",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 3.87,
+            "secondHalfX_guess": 3.41,
+            "secondHalf2_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20426",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 3.87,
+            "handicapX_guess": 3.41,
+            "handicap2_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20440",
+          "market": "KG Var / Yok",
+          "values": {
+            "bttsYes_guess": 1.8,
+            "bttsNo_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20440",
+          "market": "İlk Yarı KG Var / Yok",
+          "values": {
+            "firstHalfBttsYes_guess": 1.8,
+            "firstHalfBttsNo_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20440",
+          "market": "İkinci Yarı KG Var / Yok",
+          "values": {
+            "secondHalfBttsYes_guess": 1.8,
+            "secondHalfBttsNo_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20440",
+          "market": "0.5 Alt / Üst",
+          "values": {
+            "under05_guess": 1.8,
+            "over05_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20440",
+          "market": "1.5 Alt / Üst",
+          "values": {
+            "under15_guess": 1.8,
+            "over15_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20440",
+          "market": "2.5 Alt / Üst",
+          "values": {
+            "under25_guess": 1.8,
+            "over25_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20440",
+          "market": "3.5 Alt / Üst",
+          "values": {
+            "under35_guess": 1.8,
+            "over35_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20440",
+          "market": "4.5 Alt / Üst",
+          "values": {
+            "under45_guess": 1.8,
+            "over45_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20440",
+          "market": "İlk Yarı 0.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder05_guess": 1.8,
+            "firstHalfOver05_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20440",
+          "market": "İlk Yarı 1.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder15_guess": 1.8,
+            "firstHalfOver15_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20440",
+          "market": "İkinci Yarı 0.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder05_guess": 1.8,
+            "secondHalfOver05_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20440",
+          "market": "İkinci Yarı 1.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder15_guess": 1.8,
+            "secondHalfOver15_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20440",
+          "market": "Ev Sahibi 1.5 Alt / Üst",
+          "values": {
+            "homeUnder15_guess": 1.8,
+            "homeOver15_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20440",
+          "market": "Deplasman 1.5 Alt / Üst",
+          "values": {
+            "awayUnder15_guess": 1.8,
+            "awayOver15_guess": 1.6
+          }
+        },
+        {
+          "market_code": "20427",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.78,
+            "msx": 1.14,
+            "ms2": 1.09
+          }
+        },
+        {
+          "market_code": "20427",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.78,
+            "firstHalfX_guess": 1.14,
+            "firstHalf2_guess": 1.09
+          }
+        },
+        {
+          "market_code": "20427",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.78,
+            "secondHalfX_guess": 1.14,
+            "secondHalf2_guess": 1.09
+          }
+        },
+        {
+          "market_code": "20427",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.78,
+            "handicapX_guess": 1.14,
+            "handicap2_guess": 1.09
+          }
+        }
+      ],
+      "expected_scores": [
+        "0-0",
+        "1-0",
+        "1-1"
+      ],
+      "value_label": "Yüksek Değer",
+      "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.80 | Veri tipi: standard",
+      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.80 | Veri tipi: standard",
+      "pro_signals": [
+        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
+        "Market: 2.5 Alt",
+        "Oran: 1.80",
+        "Veri tipi: standard",
+        "Değer etiketi: Yüksek Değer",
+        "Marjı temizlenmiş piyasa olasılığı %47.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %68.",
+        "Birleşik tahmini olasılık %54.",
+        "Model-piyasa farkı +7.3 puan.",
+        "Poisson gol beklentisi 1.26-1.23.",
+        "Hafıza: 2.5 Alt eğilimi destekli (%75): +8",
+        "Geçmiş market örneği 1988; ham isabet %46.",
+        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
+        "Model gücü 76/100: Orta risk kupon adayı.",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "signals": [
+        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
+        "Market: 2.5 Alt",
+        "Oran: 1.80",
+        "Veri tipi: standard",
+        "Değer etiketi: Yüksek Değer",
+        "Marjı temizlenmiş piyasa olasılığı %47.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %68.",
+        "Birleşik tahmini olasılık %54.",
+        "Model-piyasa farkı +7.3 puan.",
+        "Poisson gol beklentisi 1.26-1.23.",
+        "Hafıza: 2.5 Alt eğilimi destekli (%75): +8",
+        "Geçmiş market örneği 1988; ham isabet %46.",
+        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
+        "Model gücü 76/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "source": "Robot ham veri havuzu"
@@ -2008,15 +2278,15 @@
       "market": "2.5 Üst",
       "prediction": "2.5 Üst",
       "decision": "Kupon Adayı",
-      "score": "69%",
-      "confidence": "69%",
-      "confidence_score": "69%",
-      "model_score": 69,
+      "score": "71%",
+      "confidence": "71%",
+      "confidence_score": "71%",
+      "model_score": 71,
       "score_type": "signal_strength",
-      "estimated_probability": 49.7,
+      "estimated_probability": 50.5,
       "market_probability": 46.6,
-      "edge_percent": 3,
-      "data_completeness": 57,
+      "edge_percent": 3.9,
+      "data_completeness": 64,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Orta",
       "risk_level": "Orta",
@@ -2028,7 +2298,6 @@
         "ms2": "1.99",
         "over25": "1.82",
         "under25": "1.59",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.47",
         "bttsNo": "1.19",
@@ -2247,15 +2516,15 @@
         "Veri tipi: standard",
         "Değer etiketi: Değerli",
         "Marjı temizlenmiş piyasa olasılığı %47.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %58.",
+        "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %58.",
         "Birleşik tahmini olasılık %50.",
-        "Model-piyasa farkı +3.0 puan.",
+        "Model-piyasa farkı +3.9 puan.",
         "Poisson gol beklentisi 1.53-1.46.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%59): +8",
         "Hafıza: lig gol ortalaması 3: +5",
         "Geçmiş market örneği 1988; ham isabet %55.",
-        "Veri kapsama puanı 62/100 (Düşük eksik veri riski).",
-        "Model gücü 73/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 69/100 (Düşük eksik veri riski).",
+        "Model gücü 75/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "signals": [
@@ -2265,293 +2534,15 @@
         "Veri tipi: standard",
         "Değer etiketi: Değerli",
         "Marjı temizlenmiş piyasa olasılığı %47.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %58.",
+        "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %58.",
         "Birleşik tahmini olasılık %50.",
-        "Model-piyasa farkı +3.0 puan.",
+        "Model-piyasa farkı +3.9 puan.",
         "Poisson gol beklentisi 1.53-1.46.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%59): +8",
         "Hafıza: lig gol ortalaması 3: +5",
         "Geçmiş market örneği 1988; ham isabet %55.",
-        "Veri kapsama puanı 62/100 (Düşük eksik veri riski).",
-        "Model gücü 73/100: Orta risk kupon adayı.",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ],
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "auto-41",
-      "date": "2026-09-17",
-      "time": "16:15",
-      "league": "Rusya Premier Lig",
-      "title": "Orenburg VS Krasnodar",
-      "match": "Orenburg VS Krasnodar",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "decision": "Kupon Adayı",
-      "score": "68%",
-      "confidence": "68%",
-      "confidence_score": "68%",
-      "model_score": 68,
-      "score_type": "signal_strength",
-      "estimated_probability": 52.2,
-      "market_probability": 47.1,
-      "edge_percent": 5.1,
-      "data_completeness": 61,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "risk_level": "Orta",
-      "status": "scheduled",
-      "estimated_odds": "1.80",
-      "available_odds": {
-        "ms1": "3.87",
-        "msx": "3.41",
-        "ms2": "1.60",
-        "over25": "1.60",
-        "under25": "1.80",
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": "1.78",
-        "bttsNo": "1.14",
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "ms1": 3.87,
-        "msx": 3.41,
-        "ms2": 1.6,
-        "under25": 1.8,
-        "over25": 1.6,
-        "bttsYes_guess": 1.78,
-        "bttsNo_guess": 1.14
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "20426",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 3.87,
-            "msx": 3.41,
-            "ms2": 1.6
-          }
-        },
-        {
-          "market_code": "20426",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 3.87,
-            "firstHalfX_guess": 3.41,
-            "firstHalf2_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20426",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 3.87,
-            "secondHalfX_guess": 3.41,
-            "secondHalf2_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20426",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 3.87,
-            "handicapX_guess": 3.41,
-            "handicap2_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20440",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 1.8,
-            "bttsNo_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20440",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 1.8,
-            "firstHalfBttsNo_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20440",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 1.8,
-            "secondHalfBttsNo_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20440",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 1.8,
-            "over05_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20440",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 1.8,
-            "over15_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20440",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 1.8,
-            "over25_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20440",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 1.8,
-            "over35_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20440",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 1.8,
-            "over45_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20440",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 1.8,
-            "firstHalfOver05_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20440",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 1.8,
-            "firstHalfOver15_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20440",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 1.8,
-            "secondHalfOver05_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20440",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 1.8,
-            "secondHalfOver15_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20440",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 1.8,
-            "homeOver15_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20440",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 1.8,
-            "awayOver15_guess": 1.6
-          }
-        },
-        {
-          "market_code": "20427",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.78,
-            "msx": 1.14,
-            "ms2": 1.09
-          }
-        },
-        {
-          "market_code": "20427",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.78,
-            "firstHalfX_guess": 1.14,
-            "firstHalf2_guess": 1.09
-          }
-        },
-        {
-          "market_code": "20427",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.78,
-            "secondHalfX_guess": 1.14,
-            "secondHalf2_guess": 1.09
-          }
-        },
-        {
-          "market_code": "20427",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.78,
-            "handicapX_guess": 1.14,
-            "handicap2_guess": 1.09
-          }
-        }
-      ],
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "value_label": "Değerli",
-      "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.80 | Veri tipi: standard",
-      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.80 | Veri tipi: standard",
-      "pro_signals": [
-        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: 2.5 Alt",
-        "Oran: 1.80",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %47.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %65.",
-        "Birleşik tahmini olasılık %52.",
-        "Model-piyasa farkı +5.1 puan.",
-        "Poisson gol beklentisi 1.26-1.23.",
-        "Hafıza: 2.5 Alt eğilimi destekli (%75): +8",
-        "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 66/100 (Düşük eksik veri riski).",
-        "Model gücü 72/100: Orta risk kupon adayı.",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ],
-      "signals": [
-        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: 2.5 Alt",
-        "Oran: 1.80",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %47.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %65.",
-        "Birleşik tahmini olasılık %52.",
-        "Model-piyasa farkı +5.1 puan.",
-        "Poisson gol beklentisi 1.26-1.23.",
-        "Hafıza: 2.5 Alt eğilimi destekli (%75): +8",
-        "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 66/100 (Düşük eksik veri riski).",
-        "Model gücü 72/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 69/100 (Düşük eksik veri riski).",
+        "Model gücü 75/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "source": "Robot ham veri havuzu"
@@ -2566,15 +2557,15 @@
       "market": "2.5 Üst",
       "prediction": "2.5 Üst",
       "decision": "Kupon Adayı",
-      "score": "67%",
-      "confidence": "67%",
-      "confidence_score": "67%",
-      "model_score": 67,
+      "score": "70%",
+      "confidence": "70%",
+      "confidence_score": "70%",
+      "model_score": 70,
       "score_type": "signal_strength",
-      "estimated_probability": 47.5,
+      "estimated_probability": 49.3,
       "market_probability": 43,
-      "edge_percent": 4.5,
-      "data_completeness": 54,
+      "edge_percent": 6.3,
+      "data_completeness": 60,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Orta",
       "risk_level": "Orta",
@@ -2586,7 +2577,6 @@
         "ms2": "2.93",
         "over25": "1.92",
         "under25": "1.45",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.16",
         "bttsNo": "1.17",
@@ -2805,15 +2795,15 @@
         "Veri tipi: standard",
         "Değer etiketi: Değerli",
         "Marjı temizlenmiş piyasa olasılığı %43.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %61.",
-        "Birleşik tahmini olasılık %48.",
-        "Model-piyasa farkı +4.5 puan.",
+        "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %63.",
+        "Birleşik tahmini olasılık %49.",
+        "Model-piyasa farkı +6.3 puan.",
         "Poisson gol beklentisi 1.47-1.42.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%67): +8",
         "Hafıza: lig gol ortalaması 2.95: +5",
         "Geçmiş market örneği 1988; ham isabet %55.",
-        "Veri kapsama puanı 59/100 (Orta eksik veri riski).",
-        "Model gücü 71/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 65/100 (Düşük eksik veri riski).",
+        "Model gücü 74/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "signals": [
@@ -2823,15 +2813,15 @@
         "Veri tipi: standard",
         "Değer etiketi: Değerli",
         "Marjı temizlenmiş piyasa olasılığı %43.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %61.",
-        "Birleşik tahmini olasılık %48.",
-        "Model-piyasa farkı +4.5 puan.",
+        "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %63.",
+        "Birleşik tahmini olasılık %49.",
+        "Model-piyasa farkı +6.3 puan.",
         "Poisson gol beklentisi 1.47-1.42.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%67): +8",
         "Hafıza: lig gol ortalaması 2.95: +5",
         "Geçmiş market örneği 1988; ham isabet %55.",
-        "Veri kapsama puanı 59/100 (Orta eksik veri riski).",
-        "Model gücü 71/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 65/100 (Düşük eksik veri riski).",
+        "Model gücü 74/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "source": "Robot ham veri havuzu"
@@ -2846,15 +2836,15 @@
       "market": "2.5 Alt",
       "prediction": "2.5 Alt",
       "decision": "Kupon Adayı",
-      "score": "66%",
-      "confidence": "66%",
-      "confidence_score": "66%",
-      "model_score": 66,
+      "score": "69%",
+      "confidence": "69%",
+      "confidence_score": "69%",
+      "model_score": 69,
       "score_type": "signal_strength",
-      "estimated_probability": 46.7,
+      "estimated_probability": 47.4,
       "market_probability": 43.9,
-      "edge_percent": 2.8,
-      "data_completeness": 64,
+      "edge_percent": 3.5,
+      "data_completeness": 70,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Orta",
       "risk_level": "Orta",
@@ -2866,7 +2856,6 @@
         "ms2": "4.15",
         "over25": "1.51",
         "under25": "1.93",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.08",
         "bttsNo": "1.13",
@@ -3075,7 +3064,7 @@
         "1-0",
         "1-1"
       ],
-      "value_label": "Piyasa ile Uyumlu",
+      "value_label": "Değerli",
       "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.93 | Veri tipi: standard",
       "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.93 | Veri tipi: standard",
       "pro_signals": [
@@ -3083,16 +3072,16 @@
         "Market: 2.5 Alt",
         "Oran: 1.93",
         "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
+        "Değer etiketi: Değerli",
         "Marjı temizlenmiş piyasa olasılığı %44.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %53.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %54.",
         "Birleşik tahmini olasılık %47.",
-        "Model-piyasa farkı +2.8 puan.",
+        "Model-piyasa farkı +3.5 puan.",
         "Poisson gol beklentisi 1.33-1.29.",
         "Hafıza: 2.5 Alt eğilimi destekli (%55): +8",
         "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 69/100 (Düşük eksik veri riski).",
-        "Model gücü 70/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 75/100 (Düşük eksik veri riski).",
+        "Model gücü 73/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "signals": [
@@ -3100,16 +3089,16 @@
         "Market: 2.5 Alt",
         "Oran: 1.93",
         "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
+        "Değer etiketi: Değerli",
         "Marjı temizlenmiş piyasa olasılığı %44.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %53.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %54.",
         "Birleşik tahmini olasılık %47.",
-        "Model-piyasa farkı +2.8 puan.",
+        "Model-piyasa farkı +3.5 puan.",
         "Poisson gol beklentisi 1.33-1.29.",
         "Hafıza: 2.5 Alt eğilimi destekli (%55): +8",
         "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 69/100 (Düşük eksik veri riski).",
-        "Model gücü 70/100: Orta risk kupon adayı.",
+        "Veri kapsama puanı 75/100 (Düşük eksik veri riski).",
+        "Model gücü 73/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "source": "Robot ham veri havuzu"
@@ -3144,7 +3133,6 @@
         "ms2": "2.49",
         "over25": "1.93",
         "under25": "1.44",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -3382,7 +3370,6 @@
         "ms2": "2.98",
         "over25": "1.84",
         "under25": "1.50",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.15",
         "bttsNo": "1.17",
@@ -3656,7 +3643,6 @@
         "ms2": "3.54",
         "over25": "1.41",
         "under25": "2.14",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.12",
         "bttsNo": "1.12",
@@ -3930,7 +3916,6 @@
         "ms2": "2.90",
         "over25": "1.11",
         "under25": "1.16",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -4061,6 +4046,281 @@
       "source": "Robot ham veri havuzu"
     },
     {
+      "id": "auto-109",
+      "date": "2026-09-17",
+      "time": "22:30",
+      "league": "İspanya LaLiga",
+      "title": "Malaga VS Villarreal",
+      "match": "Malaga VS Villarreal",
+      "market": "KG Var",
+      "prediction": "KG Var",
+      "decision": "İzleme",
+      "score": "62%",
+      "confidence": "62%",
+      "confidence_score": "62%",
+      "model_score": 62,
+      "score_type": "signal_strength",
+      "estimated_probability": 45,
+      "market_probability": 41.8,
+      "edge_percent": 3.2,
+      "data_completeness": 60,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "risk_level": "Orta",
+      "status": "scheduled",
+      "estimated_odds": "1.60",
+      "available_odds": {
+        "ms1": "3.15",
+        "msx": "3.36",
+        "ms2": "1.78",
+        "over25": "1.44",
+        "under25": "2.08",
+        "under35": "-",
+        "bttsYes": "1.60",
+        "bttsNo": "1.15",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 3.15,
+        "msx": 3.36,
+        "ms2": 1.78,
+        "under25": 2.08,
+        "over25": 1.44,
+        "bttsYes_guess": 1.6,
+        "bttsNo_guess": 1.15
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "23406",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 3.15,
+            "msx": 3.36,
+            "ms2": 1.78
+          }
+        },
+        {
+          "market_code": "23406",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 3.15,
+            "firstHalfX_guess": 3.36,
+            "firstHalf2_guess": 1.78
+          }
+        },
+        {
+          "market_code": "23406",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 3.15,
+            "secondHalfX_guess": 3.36,
+            "secondHalf2_guess": 1.78
+          }
+        },
+        {
+          "market_code": "23406",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 3.15,
+            "handicapX_guess": 3.36,
+            "handicap2_guess": 1.78
+          }
+        },
+        {
+          "market_code": "23625",
+          "market": "KG Var / Yok",
+          "values": {
+            "bttsYes_guess": 2.08,
+            "bttsNo_guess": 1.44
+          }
+        },
+        {
+          "market_code": "23625",
+          "market": "İlk Yarı KG Var / Yok",
+          "values": {
+            "firstHalfBttsYes_guess": 2.08,
+            "firstHalfBttsNo_guess": 1.44
+          }
+        },
+        {
+          "market_code": "23625",
+          "market": "İkinci Yarı KG Var / Yok",
+          "values": {
+            "secondHalfBttsYes_guess": 2.08,
+            "secondHalfBttsNo_guess": 1.44
+          }
+        },
+        {
+          "market_code": "23625",
+          "market": "0.5 Alt / Üst",
+          "values": {
+            "under05_guess": 2.08,
+            "over05_guess": 1.44
+          }
+        },
+        {
+          "market_code": "23625",
+          "market": "1.5 Alt / Üst",
+          "values": {
+            "under15_guess": 2.08,
+            "over15_guess": 1.44
+          }
+        },
+        {
+          "market_code": "23625",
+          "market": "2.5 Alt / Üst",
+          "values": {
+            "under25_guess": 2.08,
+            "over25_guess": 1.44
+          }
+        },
+        {
+          "market_code": "23625",
+          "market": "3.5 Alt / Üst",
+          "values": {
+            "under35_guess": 2.08,
+            "over35_guess": 1.44
+          }
+        },
+        {
+          "market_code": "23625",
+          "market": "4.5 Alt / Üst",
+          "values": {
+            "under45_guess": 2.08,
+            "over45_guess": 1.44
+          }
+        },
+        {
+          "market_code": "23625",
+          "market": "İlk Yarı 0.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder05_guess": 2.08,
+            "firstHalfOver05_guess": 1.44
+          }
+        },
+        {
+          "market_code": "23625",
+          "market": "İlk Yarı 1.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder15_guess": 2.08,
+            "firstHalfOver15_guess": 1.44
+          }
+        },
+        {
+          "market_code": "23625",
+          "market": "İkinci Yarı 0.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder05_guess": 2.08,
+            "secondHalfOver05_guess": 1.44
+          }
+        },
+        {
+          "market_code": "23625",
+          "market": "İkinci Yarı 1.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder15_guess": 2.08,
+            "secondHalfOver15_guess": 1.44
+          }
+        },
+        {
+          "market_code": "23625",
+          "market": "Ev Sahibi 1.5 Alt / Üst",
+          "values": {
+            "homeUnder15_guess": 2.08,
+            "homeOver15_guess": 1.44
+          }
+        },
+        {
+          "market_code": "23625",
+          "market": "Deplasman 1.5 Alt / Üst",
+          "values": {
+            "awayUnder15_guess": 2.08,
+            "awayOver15_guess": 1.44
+          }
+        },
+        {
+          "market_code": "23412",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.6,
+            "msx": 1.15,
+            "ms2": 1.16
+          }
+        },
+        {
+          "market_code": "23412",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.6,
+            "firstHalfX_guess": 1.15,
+            "firstHalf2_guess": 1.16
+          }
+        },
+        {
+          "market_code": "23412",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.6,
+            "secondHalfX_guess": 1.15,
+            "secondHalf2_guess": 1.16
+          }
+        },
+        {
+          "market_code": "23412",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.6,
+            "handicapX_guess": 1.15,
+            "handicap2_guess": 1.16
+          }
+        }
+      ],
+      "expected_scores": [
+        "1-1",
+        "2-1",
+        "2-2"
+      ],
+      "value_label": "Değerli",
+      "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: KG Var | Oran: 1.60 | Veri tipi: standard",
+      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: KG Var | Oran: 1.60 | Veri tipi: standard",
+      "pro_signals": [
+        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
+        "Market: KG Var",
+        "Oran: 1.60",
+        "Veri tipi: standard",
+        "Değer etiketi: Değerli",
+        "Marjı temizlenmiş piyasa olasılığı %42.",
+        "Bağımsız Poisson gol modeli + KG metriği + sonuç hafızası tahmini %52.",
+        "Birleşik tahmini olasılık %45.",
+        "Model-piyasa farkı +3.2 puan.",
+        "Poisson gol beklentisi 1.43-1.33.",
+        "Geçmiş market örneği 1988; ham isabet %57.",
+        "Veri kapsama puanı 65/100 (Düşük eksik veri riski).",
+        "Model gücü 66/100: Orta risk kupon adayı.",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "signals": [
+        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
+        "Market: KG Var",
+        "Oran: 1.60",
+        "Veri tipi: standard",
+        "Değer etiketi: Değerli",
+        "Marjı temizlenmiş piyasa olasılığı %42.",
+        "Bağımsız Poisson gol modeli + KG metriği + sonuç hafızası tahmini %52.",
+        "Birleşik tahmini olasılık %45.",
+        "Model-piyasa farkı +3.2 puan.",
+        "Poisson gol beklentisi 1.43-1.33.",
+        "Geçmiş market örneği 1988; ham isabet %57.",
+        "Veri kapsama puanı 65/100 (Düşük eksik veri riski).",
+        "Model gücü 66/100: Orta risk kupon adayı.",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "source": "Robot ham veri havuzu"
+    },
+    {
       "id": "auto-13",
       "date": "2026-09-17",
       "time": "02:00",
@@ -4090,7 +4350,6 @@
         "ms2": "3.32",
         "over25": "1.09",
         "under25": "1.10",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -4227,30 +4486,29 @@
       "league": "ABD USL Lig 1",
       "title": "Fort Wayne VS One Knoxville",
       "match": "Fort Wayne VS One Knoxville",
-      "market": "MS 1",
-      "prediction": "MS 1",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
       "decision": "İzleme",
       "score": "61%",
       "confidence": "61%",
       "confidence_score": "61%",
       "model_score": 61,
       "score_type": "signal_strength",
-      "estimated_probability": 40.7,
-      "market_probability": 39.5,
-      "edge_percent": 1.1,
-      "data_completeness": 59,
+      "estimated_probability": 43.4,
+      "market_probability": 46.1,
+      "edge_percent": -2.7,
+      "data_completeness": 67,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Orta",
       "risk_level": "Orta",
       "status": "scheduled",
-      "estimated_odds": "2.09",
+      "estimated_odds": "1.79",
       "available_odds": {
         "ms1": "2.09",
         "msx": "3.19",
         "ms2": "2.39",
         "over25": "1.53",
         "under25": "1.79",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.26",
         "bttsNo": "1.13",
@@ -4455,44 +4713,42 @@
         }
       ],
       "expected_scores": [
+        "0-0",
         "1-0",
-        "2-0",
-        "2-1"
+        "1-1"
       ],
       "value_label": "Piyasa ile Uyumlu",
-      "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 1 | Oran: 2.09 | Veri tipi: standard",
-      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 1 | Oran: 2.09 | Veri tipi: standard",
+      "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.79 | Veri tipi: standard",
+      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.79 | Veri tipi: standard",
       "pro_signals": [
         "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: MS 1",
-        "Oran: 2.09",
+        "Market: 2.5 Alt",
+        "Oran: 1.79",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %40.",
-        "Bağımsız takım formu + Poisson gol modeli tahmini %44.",
-        "Birleşik tahmini olasılık %41.",
-        "Model-piyasa farkı +1.1 puan.",
+        "Marjı temizlenmiş piyasa olasılığı %46.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %38.",
+        "Birleşik tahmini olasılık %43.",
+        "Model-piyasa farkı -2.7 puan.",
         "Poisson gol beklentisi 1.78-1.31.",
-        "Hafıza: ev sahibi form puanında önde (2.25-1.5): +7",
-        "Geçmiş market örneği 1988; ham isabet %43.",
-        "Veri kapsama puanı 64/100 (Düşük eksik veri riski).",
+        "Geçmiş market örneği 1988; ham isabet %46.",
+        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
         "Model gücü 65/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "signals": [
         "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: MS 1",
-        "Oran: 2.09",
+        "Market: 2.5 Alt",
+        "Oran: 1.79",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %40.",
-        "Bağımsız takım formu + Poisson gol modeli tahmini %44.",
-        "Birleşik tahmini olasılık %41.",
-        "Model-piyasa farkı +1.1 puan.",
+        "Marjı temizlenmiş piyasa olasılığı %46.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %38.",
+        "Birleşik tahmini olasılık %43.",
+        "Model-piyasa farkı -2.7 puan.",
         "Poisson gol beklentisi 1.78-1.31.",
-        "Hafıza: ev sahibi form puanında önde (2.25-1.5): +7",
-        "Geçmiş market örneği 1988; ham isabet %43.",
-        "Veri kapsama puanı 64/100 (Düşük eksik veri riski).",
+        "Geçmiş market örneği 1988; ham isabet %46.",
+        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
         "Model gücü 65/100: Orta risk kupon adayı.",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
@@ -4528,7 +4784,6 @@
         "ms2": "2.14",
         "over25": "1.72",
         "under25": "1.67",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.40",
         "bttsNo": "1.19",
@@ -4775,6 +5030,285 @@
       "source": "Robot ham veri havuzu"
     },
     {
+      "id": "auto-26",
+      "date": "2026-09-17",
+      "time": "04:30",
+      "league": "ABD Açık Kupası Yarı Final",
+      "title": "Colorado VS St. Louis City",
+      "match": "Colorado VS St. Louis City",
+      "market": "2.5 Üst",
+      "prediction": "2.5 Üst",
+      "decision": "İzleme",
+      "score": "60%",
+      "confidence": "60%",
+      "confidence_score": "60%",
+      "model_score": 60,
+      "score_type": "signal_strength",
+      "estimated_probability": 57.6,
+      "market_probability": 52.2,
+      "edge_percent": 5.4,
+      "data_completeness": 73,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Yüksek",
+      "risk_level": "Yüksek",
+      "status": "scheduled",
+      "estimated_odds": "1.63",
+      "available_odds": {
+        "ms1": "2.13",
+        "msx": "3.05",
+        "ms2": "2.64",
+        "over25": "1.63",
+        "under25": "1.78",
+        "under35": "-",
+        "bttsYes": "1.25",
+        "bttsNo": "1.18",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 2.13,
+        "msx": 3.05,
+        "ms2": 2.64,
+        "under25": 1.78,
+        "over25": 1.63,
+        "bttsYes_guess": 1.25,
+        "bttsNo_guess": 1.18
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "20423",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 2.13,
+            "msx": 3.05,
+            "ms2": 2.64
+          }
+        },
+        {
+          "market_code": "20423",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 2.13,
+            "firstHalfX_guess": 3.05,
+            "firstHalf2_guess": 2.64
+          }
+        },
+        {
+          "market_code": "20423",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 2.13,
+            "secondHalfX_guess": 3.05,
+            "secondHalf2_guess": 2.64
+          }
+        },
+        {
+          "market_code": "20423",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 2.13,
+            "handicapX_guess": 3.05,
+            "handicap2_guess": 2.64
+          }
+        },
+        {
+          "market_code": "10603",
+          "market": "KG Var / Yok",
+          "values": {
+            "bttsYes_guess": 1.78,
+            "bttsNo_guess": 1.63
+          }
+        },
+        {
+          "market_code": "10603",
+          "market": "İlk Yarı KG Var / Yok",
+          "values": {
+            "firstHalfBttsYes_guess": 1.78,
+            "firstHalfBttsNo_guess": 1.63
+          }
+        },
+        {
+          "market_code": "10603",
+          "market": "İkinci Yarı KG Var / Yok",
+          "values": {
+            "secondHalfBttsYes_guess": 1.78,
+            "secondHalfBttsNo_guess": 1.63
+          }
+        },
+        {
+          "market_code": "10603",
+          "market": "0.5 Alt / Üst",
+          "values": {
+            "under05_guess": 1.78,
+            "over05_guess": 1.63
+          }
+        },
+        {
+          "market_code": "10603",
+          "market": "1.5 Alt / Üst",
+          "values": {
+            "under15_guess": 1.78,
+            "over15_guess": 1.63
+          }
+        },
+        {
+          "market_code": "10603",
+          "market": "2.5 Alt / Üst",
+          "values": {
+            "under25_guess": 1.78,
+            "over25_guess": 1.63
+          }
+        },
+        {
+          "market_code": "10603",
+          "market": "3.5 Alt / Üst",
+          "values": {
+            "under35_guess": 1.78,
+            "over35_guess": 1.63
+          }
+        },
+        {
+          "market_code": "10603",
+          "market": "4.5 Alt / Üst",
+          "values": {
+            "under45_guess": 1.78,
+            "over45_guess": 1.63
+          }
+        },
+        {
+          "market_code": "10603",
+          "market": "İlk Yarı 0.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder05_guess": 1.78,
+            "firstHalfOver05_guess": 1.63
+          }
+        },
+        {
+          "market_code": "10603",
+          "market": "İlk Yarı 1.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder15_guess": 1.78,
+            "firstHalfOver15_guess": 1.63
+          }
+        },
+        {
+          "market_code": "10603",
+          "market": "İkinci Yarı 0.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder05_guess": 1.78,
+            "secondHalfOver05_guess": 1.63
+          }
+        },
+        {
+          "market_code": "10603",
+          "market": "İkinci Yarı 1.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder15_guess": 1.78,
+            "secondHalfOver15_guess": 1.63
+          }
+        },
+        {
+          "market_code": "10603",
+          "market": "Ev Sahibi 1.5 Alt / Üst",
+          "values": {
+            "homeUnder15_guess": 1.78,
+            "homeOver15_guess": 1.63
+          }
+        },
+        {
+          "market_code": "10603",
+          "market": "Deplasman 1.5 Alt / Üst",
+          "values": {
+            "awayUnder15_guess": 1.78,
+            "awayOver15_guess": 1.63
+          }
+        },
+        {
+          "market_code": "10593",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.25,
+            "msx": 1.18,
+            "ms2": 1.41
+          }
+        },
+        {
+          "market_code": "10593",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.25,
+            "firstHalfX_guess": 1.18,
+            "firstHalf2_guess": 1.41
+          }
+        },
+        {
+          "market_code": "10593",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.25,
+            "secondHalfX_guess": 1.18,
+            "secondHalf2_guess": 1.41
+          }
+        },
+        {
+          "market_code": "10593",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.25,
+            "handicapX_guess": 1.18,
+            "handicap2_guess": 1.41
+          }
+        }
+      ],
+      "expected_scores": [
+        "2-1",
+        "3-1",
+        "2-2"
+      ],
+      "value_label": "Değerli",
+      "commentary": "Kadro/ilk 11 riski yüksek; model gücü 12 puan düşürüldü ve kupon kapatıldı. | Market: 2.5 Üst | Oran: 1.63 | Veri tipi: standard",
+      "robot_comment": "Kadro/ilk 11 riski yüksek; model gücü 12 puan düşürüldü ve kupon kapatıldı. | Market: 2.5 Üst | Oran: 1.63 | Veri tipi: standard",
+      "pro_signals": [
+        "Kadro/ilk 11 riski yüksek; model gücü 12 puan düşürüldü ve kupon kapatıldı.",
+        "Market: 2.5 Üst",
+        "Oran: 1.63",
+        "Veri tipi: standard",
+        "Değer etiketi: Değerli",
+        "Marjı temizlenmiş piyasa olasılığı %52.",
+        "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %66.",
+        "Birleşik tahmini olasılık %58.",
+        "Model-piyasa farkı +5.4 puan.",
+        "Poisson gol beklentisi 1.45-1.65.",
+        "Hafıza: 2.5 Üst eğilimi yüksek (%70): +8",
+        "Geçmiş market örneği 1988; ham isabet %55.",
+        "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
+        "Veri kapsama puanı 78/100 (Düşük eksik veri riski).",
+        "Model gücü 72/100: Orta risk kupon adayı.",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "signals": [
+        "Kadro/ilk 11 riski yüksek; model gücü 12 puan düşürüldü ve kupon kapatıldı.",
+        "Market: 2.5 Üst",
+        "Oran: 1.63",
+        "Veri tipi: standard",
+        "Değer etiketi: Değerli",
+        "Marjı temizlenmiş piyasa olasılığı %52.",
+        "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %66.",
+        "Birleşik tahmini olasılık %58.",
+        "Model-piyasa farkı +5.4 puan.",
+        "Poisson gol beklentisi 1.45-1.65.",
+        "Hafıza: 2.5 Üst eğilimi yüksek (%70): +8",
+        "Geçmiş market örneği 1988; ham isabet %55.",
+        "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
+        "Veri kapsama puanı 78/100 (Düşük eksik veri riski).",
+        "Model gücü 72/100: Orta risk kupon adayı.",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "source": "Robot ham veri havuzu"
+    },
+    {
       "id": "auto-56",
       "date": "2026-09-17",
       "time": "18:00",
@@ -4804,7 +5338,6 @@
         "ms2": "7.40",
         "over25": "2.06",
         "under25": "1.37",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.08",
         "bttsNo": "2.23",
@@ -5156,7 +5689,6 @@
         "ms2": "3.62",
         "over25": "2.05",
         "under25": "1.38",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.09",
         "bttsNo": "1.16",
@@ -5430,7 +5962,6 @@
         "ms2": "5.14",
         "over25": "1.44",
         "under25": "2.08",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.08",
         "bttsNo": "2.21",
@@ -5782,7 +6313,6 @@
         "ms2": "4.80",
         "over25": "2.07",
         "under25": "1.05",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -6020,7 +6550,6 @@
         "ms2": "5.83",
         "over25": "1.47",
         "under25": "1.89",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.06",
         "bttsNo": "2.18",
@@ -6372,7 +6901,6 @@
         "ms2": "2.04",
         "over25": "1.61",
         "under25": "1.70",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.37",
         "bttsNo": "1.16",
@@ -6619,562 +7147,6 @@
       "source": "Robot ham veri havuzu"
     },
     {
-      "id": "auto-109",
-      "date": "2026-09-17",
-      "time": "22:30",
-      "league": "İspanya LaLiga",
-      "title": "Malaga VS Villarreal",
-      "match": "Malaga VS Villarreal",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "decision": "İzleme",
-      "score": "58%",
-      "confidence": "58%",
-      "confidence_score": "58%",
-      "model_score": 58,
-      "score_type": "signal_strength",
-      "estimated_probability": 42.9,
-      "market_probability": 40.9,
-      "edge_percent": 2,
-      "data_completeness": 54,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "risk_level": "Orta",
-      "status": "scheduled",
-      "estimated_odds": "2.08",
-      "available_odds": {
-        "ms1": "3.15",
-        "msx": "3.36",
-        "ms2": "1.78",
-        "over25": "1.44",
-        "under25": "2.08",
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": "1.60",
-        "bttsNo": "1.15",
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "ms1": 3.15,
-        "msx": 3.36,
-        "ms2": 1.78,
-        "under25": 2.08,
-        "over25": 1.44,
-        "bttsYes_guess": 1.6,
-        "bttsNo_guess": 1.15
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "23406",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 3.15,
-            "msx": 3.36,
-            "ms2": 1.78
-          }
-        },
-        {
-          "market_code": "23406",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 3.15,
-            "firstHalfX_guess": 3.36,
-            "firstHalf2_guess": 1.78
-          }
-        },
-        {
-          "market_code": "23406",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 3.15,
-            "secondHalfX_guess": 3.36,
-            "secondHalf2_guess": 1.78
-          }
-        },
-        {
-          "market_code": "23406",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 3.15,
-            "handicapX_guess": 3.36,
-            "handicap2_guess": 1.78
-          }
-        },
-        {
-          "market_code": "23625",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 2.08,
-            "bttsNo_guess": 1.44
-          }
-        },
-        {
-          "market_code": "23625",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 2.08,
-            "firstHalfBttsNo_guess": 1.44
-          }
-        },
-        {
-          "market_code": "23625",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 2.08,
-            "secondHalfBttsNo_guess": 1.44
-          }
-        },
-        {
-          "market_code": "23625",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 2.08,
-            "over05_guess": 1.44
-          }
-        },
-        {
-          "market_code": "23625",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 2.08,
-            "over15_guess": 1.44
-          }
-        },
-        {
-          "market_code": "23625",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 2.08,
-            "over25_guess": 1.44
-          }
-        },
-        {
-          "market_code": "23625",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 2.08,
-            "over35_guess": 1.44
-          }
-        },
-        {
-          "market_code": "23625",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 2.08,
-            "over45_guess": 1.44
-          }
-        },
-        {
-          "market_code": "23625",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 2.08,
-            "firstHalfOver05_guess": 1.44
-          }
-        },
-        {
-          "market_code": "23625",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 2.08,
-            "firstHalfOver15_guess": 1.44
-          }
-        },
-        {
-          "market_code": "23625",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 2.08,
-            "secondHalfOver05_guess": 1.44
-          }
-        },
-        {
-          "market_code": "23625",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 2.08,
-            "secondHalfOver15_guess": 1.44
-          }
-        },
-        {
-          "market_code": "23625",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 2.08,
-            "homeOver15_guess": 1.44
-          }
-        },
-        {
-          "market_code": "23625",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 2.08,
-            "awayOver15_guess": 1.44
-          }
-        },
-        {
-          "market_code": "23412",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.6,
-            "msx": 1.15,
-            "ms2": 1.16
-          }
-        },
-        {
-          "market_code": "23412",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.6,
-            "firstHalfX_guess": 1.15,
-            "firstHalf2_guess": 1.16
-          }
-        },
-        {
-          "market_code": "23412",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.6,
-            "secondHalfX_guess": 1.15,
-            "secondHalf2_guess": 1.16
-          }
-        },
-        {
-          "market_code": "23412",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.6,
-            "handicapX_guess": 1.15,
-            "handicap2_guess": 1.16
-          }
-        }
-      ],
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "value_label": "Piyasa ile Uyumlu",
-      "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 2.08 | Veri tipi: standard",
-      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 2.08 | Veri tipi: standard",
-      "pro_signals": [
-        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: 2.5 Alt",
-        "Oran: 2.08",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %41.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %49.",
-        "Birleşik tahmini olasılık %43.",
-        "Model-piyasa farkı +2.0 puan.",
-        "Poisson gol beklentisi 1.43-1.33.",
-        "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 59/100 (Orta eksik veri riski).",
-        "Model gücü 62/100: Sadece izleme.",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ],
-      "signals": [
-        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: 2.5 Alt",
-        "Oran: 2.08",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %41.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %49.",
-        "Birleşik tahmini olasılık %43.",
-        "Model-piyasa farkı +2.0 puan.",
-        "Poisson gol beklentisi 1.43-1.33.",
-        "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 59/100 (Orta eksik veri riski).",
-        "Model gücü 62/100: Sadece izleme.",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ],
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "auto-26",
-      "date": "2026-09-17",
-      "time": "04:30",
-      "league": "ABD Açık Kupası Yarı Final",
-      "title": "Colorado VS St. Louis City",
-      "match": "Colorado VS St. Louis City",
-      "market": "2.5 Üst",
-      "prediction": "2.5 Üst",
-      "decision": "İzleme",
-      "score": "57%",
-      "confidence": "57%",
-      "confidence_score": "57%",
-      "model_score": 57,
-      "score_type": "signal_strength",
-      "estimated_probability": 55.6,
-      "market_probability": 52.2,
-      "edge_percent": 3.4,
-      "data_completeness": 67,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "status": "scheduled",
-      "estimated_odds": "1.63",
-      "available_odds": {
-        "ms1": "2.13",
-        "msx": "3.05",
-        "ms2": "2.64",
-        "over25": "1.63",
-        "under25": "1.78",
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": "1.25",
-        "bttsNo": "1.18",
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "ms1": 2.13,
-        "msx": 3.05,
-        "ms2": 2.64,
-        "under25": 1.78,
-        "over25": 1.63,
-        "bttsYes_guess": 1.25,
-        "bttsNo_guess": 1.18
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "20423",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 2.13,
-            "msx": 3.05,
-            "ms2": 2.64
-          }
-        },
-        {
-          "market_code": "20423",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 2.13,
-            "firstHalfX_guess": 3.05,
-            "firstHalf2_guess": 2.64
-          }
-        },
-        {
-          "market_code": "20423",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 2.13,
-            "secondHalfX_guess": 3.05,
-            "secondHalf2_guess": 2.64
-          }
-        },
-        {
-          "market_code": "20423",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 2.13,
-            "handicapX_guess": 3.05,
-            "handicap2_guess": 2.64
-          }
-        },
-        {
-          "market_code": "10603",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 1.78,
-            "bttsNo_guess": 1.63
-          }
-        },
-        {
-          "market_code": "10603",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 1.78,
-            "firstHalfBttsNo_guess": 1.63
-          }
-        },
-        {
-          "market_code": "10603",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 1.78,
-            "secondHalfBttsNo_guess": 1.63
-          }
-        },
-        {
-          "market_code": "10603",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 1.78,
-            "over05_guess": 1.63
-          }
-        },
-        {
-          "market_code": "10603",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 1.78,
-            "over15_guess": 1.63
-          }
-        },
-        {
-          "market_code": "10603",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 1.78,
-            "over25_guess": 1.63
-          }
-        },
-        {
-          "market_code": "10603",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 1.78,
-            "over35_guess": 1.63
-          }
-        },
-        {
-          "market_code": "10603",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 1.78,
-            "over45_guess": 1.63
-          }
-        },
-        {
-          "market_code": "10603",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 1.78,
-            "firstHalfOver05_guess": 1.63
-          }
-        },
-        {
-          "market_code": "10603",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 1.78,
-            "firstHalfOver15_guess": 1.63
-          }
-        },
-        {
-          "market_code": "10603",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 1.78,
-            "secondHalfOver05_guess": 1.63
-          }
-        },
-        {
-          "market_code": "10603",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 1.78,
-            "secondHalfOver15_guess": 1.63
-          }
-        },
-        {
-          "market_code": "10603",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 1.78,
-            "homeOver15_guess": 1.63
-          }
-        },
-        {
-          "market_code": "10603",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 1.78,
-            "awayOver15_guess": 1.63
-          }
-        },
-        {
-          "market_code": "10593",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.25,
-            "msx": 1.18,
-            "ms2": 1.41
-          }
-        },
-        {
-          "market_code": "10593",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.25,
-            "firstHalfX_guess": 1.18,
-            "firstHalf2_guess": 1.41
-          }
-        },
-        {
-          "market_code": "10593",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.25,
-            "secondHalfX_guess": 1.18,
-            "secondHalf2_guess": 1.41
-          }
-        },
-        {
-          "market_code": "10593",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.25,
-            "handicapX_guess": 1.18,
-            "handicap2_guess": 1.41
-          }
-        }
-      ],
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "value_label": "Değerli",
-      "commentary": "Kadro/ilk 11 riski yüksek; model gücü 12 puan düşürüldü ve kupon kapatıldı. | Market: 2.5 Üst | Oran: 1.63 | Veri tipi: standard",
-      "robot_comment": "Kadro/ilk 11 riski yüksek; model gücü 12 puan düşürüldü ve kupon kapatıldı. | Market: 2.5 Üst | Oran: 1.63 | Veri tipi: standard",
-      "pro_signals": [
-        "Kadro/ilk 11 riski yüksek; model gücü 12 puan düşürüldü ve kupon kapatıldı.",
-        "Market: 2.5 Üst",
-        "Oran: 1.63",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %52.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %63.",
-        "Birleşik tahmini olasılık %56.",
-        "Model-piyasa farkı +3.4 puan.",
-        "Poisson gol beklentisi 1.35-1.56.",
-        "Hafıza: 2.5 Üst eğilimi yüksek (%70): +8",
-        "Geçmiş market örneği 1988; ham isabet %55.",
-        "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
-        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
-        "Model gücü 69/100: Orta risk kupon adayı.",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ],
-      "signals": [
-        "Kadro/ilk 11 riski yüksek; model gücü 12 puan düşürüldü ve kupon kapatıldı.",
-        "Market: 2.5 Üst",
-        "Oran: 1.63",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %52.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %63.",
-        "Birleşik tahmini olasılık %56.",
-        "Model-piyasa farkı +3.4 puan.",
-        "Poisson gol beklentisi 1.35-1.56.",
-        "Hafıza: 2.5 Üst eğilimi yüksek (%70): +8",
-        "Geçmiş market örneği 1988; ham isabet %55.",
-        "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
-        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
-        "Model gücü 69/100: Orta risk kupon adayı.",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ],
-      "source": "Robot ham veri havuzu"
-    },
-    {
       "id": "auto-42",
       "date": "2026-09-17",
       "time": "16:30",
@@ -7204,7 +7176,6 @@
         "ms2": "4.89",
         "over25": "1.75",
         "under25": "1.57",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.09",
         "bttsNo": "1.92",
@@ -7556,7 +7527,6 @@
         "ms2": "3.00",
         "over25": "2.13",
         "under25": "1.35",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.15",
         "bttsNo": "1.18",
@@ -7832,7 +7802,6 @@
         "ms2": "5.28",
         "over25": "1.81",
         "under25": "1.51",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.09",
         "bttsNo": "2.00",
@@ -8184,7 +8153,6 @@
         "ms2": "5.01",
         "over25": "2.08",
         "under25": "1.05",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -8422,7 +8390,6 @@
         "ms2": "1.27",
         "over25": "1.44",
         "under25": "1.93",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -8660,7 +8627,6 @@
         "ms2": "5.22",
         "over25": "1.65",
         "under25": "1.65",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -8898,7 +8864,6 @@
         "ms2": "1.31",
         "over25": "1.67",
         "under25": "1.63",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "2.11",
         "bttsNo": "1.07",
@@ -9250,7 +9215,6 @@
         "ms2": "2.72",
         "over25": "2.00",
         "under25": "1.40",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.19",
         "bttsNo": "1.20",
@@ -9526,7 +9490,6 @@
         "ms2": "2.63",
         "over25": "1.92",
         "under25": "1.45",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.21",
         "bttsNo": "1.18",
@@ -9802,7 +9765,6 @@
         "ms2": "2.66",
         "over25": "1.98",
         "under25": "1.42",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.20",
         "bttsNo": "1.18",
@@ -10078,7 +10040,6 @@
         "ms2": "2.48",
         "over25": "2.05",
         "under25": "1.38",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.23",
         "bttsNo": "1.18",
@@ -10354,7 +10315,6 @@
         "ms2": "2.27",
         "over25": "2.03",
         "under25": "1.39",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.29",
         "bttsNo": "1.19",
@@ -10630,7 +10590,6 @@
         "ms2": "1.32",
         "over25": "1.99",
         "under25": "1.41",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "2.07",
         "bttsNo": "1.09",
@@ -10982,7 +10941,6 @@
         "ms2": "8.02",
         "over25": "1.89",
         "under25": "1.47",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -11220,7 +11178,6 @@
         "ms2": "5.37",
         "over25": "1.80",
         "under25": "1.52",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.11",
         "bttsNo": "1.93",
@@ -11572,7 +11529,6 @@
         "ms2": "4.05",
         "over25": "1.37",
         "under25": "2.22",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.09",
         "bttsNo": "1.11",
@@ -11848,7 +11804,6 @@
         "ms2": "2.29",
         "over25": "1.58",
         "under25": "1.85",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.35",
         "bttsNo": "1.18",
@@ -12124,7 +12079,6 @@
         "ms2": "1.96",
         "over25": "1.97",
         "under25": "1.42",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.41",
         "bttsNo": "1.17",
@@ -12400,7 +12354,6 @@
         "ms2": "5.36",
         "over25": "1.93",
         "under25": "1.44",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.10",
         "bttsNo": "1.95",
@@ -12752,7 +12705,6 @@
         "ms2": "3.74",
         "over25": "1.44",
         "under25": "1.93",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.07",
         "bttsNo": "1.09",
@@ -13028,7 +12980,6 @@
         "ms2": "1.58",
         "over25": "1.69",
         "under25": "1.61",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.67",
         "bttsNo": "1.13",
@@ -13306,7 +13257,6 @@
         "ms2": "1.63",
         "over25": "1.94",
         "under25": "1.44",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.63",
         "bttsNo": "1.14",
@@ -13582,7 +13532,6 @@
         "ms2": "1.65",
         "over25": "1.87",
         "under25": "1.47",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.61",
         "bttsNo": "1.14",
@@ -13858,7 +13807,6 @@
         "ms2": "2.89",
         "over25": "1.93",
         "under25": "1.44",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.16",
         "bttsNo": "1.18",
@@ -14134,7 +14082,6 @@
         "ms2": "4.52",
         "over25": "1.86",
         "under25": "1.49",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.10",
         "bttsNo": "1.83",
@@ -14486,7 +14433,6 @@
         "ms2": "2.58",
         "over25": "1.95",
         "under25": "1.44",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.22",
         "bttsNo": "1.19",
@@ -14762,7 +14708,6 @@
         "ms2": "2.39",
         "over25": "1.89",
         "under25": "1.47",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.26",
         "bttsNo": "1.18",
@@ -15038,7 +14983,6 @@
         "ms2": "2.11",
         "over25": "1.53",
         "under25": "1.91",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.41",
         "bttsNo": "1.16",
@@ -15312,7 +15256,6 @@
         "ms2": "3.13",
         "over25": "1.93",
         "under25": "1.44",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.13",
         "bttsNo": "1.17",
@@ -15588,7 +15531,6 @@
         "ms2": "2.21",
         "over25": "1.89",
         "under25": "1.47",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.30",
         "bttsNo": "1.18",
@@ -15864,7 +15806,6 @@
         "ms2": "3.00",
         "over25": "1.36",
         "under25": "2.28",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.19",
         "bttsNo": "1.15",
@@ -16086,7 +16027,7 @@
         "Bağımsız takım formu + Poisson gol modeli tahmini %63.",
         "Birleşik tahmini olasılık %39.",
         "Model-piyasa farkı +10.9 puan.",
-        "Poisson gol beklentisi 1.34-1.58.",
+        "Poisson gol beklentisi 1.44-1.67.",
         "Hafıza: deplasman form puanında önde (2.6-0.5): +7",
         "Geçmiş market örneği 1988; ham isabet %30.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
@@ -16104,7 +16045,7 @@
         "Bağımsız takım formu + Poisson gol modeli tahmini %63.",
         "Birleşik tahmini olasılık %39.",
         "Model-piyasa farkı +10.9 puan.",
-        "Poisson gol beklentisi 1.34-1.58.",
+        "Poisson gol beklentisi 1.44-1.67.",
         "Hafıza: deplasman form puanında önde (2.6-0.5): +7",
         "Geçmiş market örneği 1988; ham isabet %30.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
@@ -16144,7 +16085,6 @@
         "ms2": "2.07",
         "over25": "1.79",
         "under25": "1.53",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.36",
         "bttsNo": "1.18",
@@ -16420,7 +16360,6 @@
         "ms2": "4.50",
         "over25": "1.68",
         "under25": "1.63",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.11",
         "bttsNo": "1.83",
@@ -16772,7 +16711,6 @@
         "ms2": "2.57",
         "over25": "1.79",
         "under25": "1.53",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.22",
         "bttsNo": "1.18",
@@ -17048,7 +16986,6 @@
         "ms2": "1.43",
         "over25": "1.60",
         "under25": "1.70",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.87",
         "bttsNo": "1.09",
@@ -17400,7 +17337,6 @@
         "ms2": "6.15",
         "over25": "1.58",
         "under25": "1.73",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -17638,7 +17574,6 @@
         "ms2": "2.22",
         "over25": "1.84",
         "under25": "1.50",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.30",
         "bttsNo": "1.18",
@@ -17914,7 +17849,6 @@
         "ms2": "2.25",
         "over25": "1.80",
         "under25": "1.52",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.30",
         "bttsNo": "1.16",
@@ -18190,7 +18124,6 @@
         "ms2": "2.20",
         "over25": "1.74",
         "under25": "1.57",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.31",
         "bttsNo": "1.17",
@@ -18466,7 +18399,6 @@
         "ms2": "2.45",
         "over25": "1.64",
         "under25": "1.66",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.24",
         "bttsNo": "1.16",
@@ -18742,7 +18674,6 @@
         "ms2": "1.58",
         "over25": "1.74",
         "under25": "1.58",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.68",
         "bttsNo": "1.14",
@@ -19018,7 +18949,6 @@
         "ms2": "2.95",
         "over25": "1.61",
         "under25": "1.69",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.16",
         "bttsNo": "1.12",
@@ -19294,7 +19224,6 @@
         "ms2": "2.79",
         "over25": "1.61",
         "under25": "1.70",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.17",
         "bttsNo": "1.15",
@@ -19570,7 +19499,6 @@
         "ms2": "3.68",
         "over25": "1.68",
         "under25": "1.63",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.08",
         "bttsNo": "1.12",
@@ -19846,7 +19774,6 @@
         "ms2": "3.06",
         "over25": "2.20",
         "under25": "1.38",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.18",
         "bttsNo": "1.24",
@@ -20122,7 +20049,6 @@
         "ms2": "3.17",
         "over25": "1.39",
         "under25": "2.19",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.16",
         "bttsNo": "1.14",
@@ -20344,7 +20270,7 @@
         "Bağımsız takım formu + Poisson gol modeli tahmini %35.",
         "Birleşik tahmini olasılık %45.",
         "Model-piyasa farkı -3.9 puan.",
-        "Poisson gol beklentisi 1.8-1.41.",
+        "Poisson gol beklentisi 1.89-1.48.",
         "Geçmiş market örneği 1988; ham isabet %43.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 67/100 (Düşük eksik veri riski).",
@@ -20361,7 +20287,7 @@
         "Bağımsız takım formu + Poisson gol modeli tahmini %35.",
         "Birleşik tahmini olasılık %45.",
         "Model-piyasa farkı -3.9 puan.",
-        "Poisson gol beklentisi 1.8-1.41.",
+        "Poisson gol beklentisi 1.89-1.48.",
         "Geçmiş market örneği 1988; ham isabet %43.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 67/100 (Düşük eksik veri riski).",
@@ -20400,7 +20326,6 @@
         "ms2": "1.65",
         "over25": "1.44",
         "under25": "1.93",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.60",
         "bttsNo": "1.11",
@@ -20676,7 +20601,6 @@
         "ms2": "2.66",
         "over25": "2.30",
         "under25": "1.35",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.25",
         "bttsNo": "1.23",
@@ -20954,7 +20878,6 @@
         "ms2": "2.97",
         "over25": "1.53",
         "under25": "1.79",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.15",
         "bttsNo": "1.14",
@@ -21201,6 +21124,167 @@
       "source": "Robot ham veri havuzu"
     },
     {
+      "id": "auto-44",
+      "date": "2026-09-17",
+      "time": "16:30",
+      "league": "Mısır 2. Lig",
+      "title": "Ismaily VS Haras El Hodood",
+      "match": "Ismaily VS Haras El Hodood",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "decision": "İzleme",
+      "score": "50%",
+      "confidence": "50%",
+      "confidence_score": "50%",
+      "model_score": 50,
+      "score_type": "signal_strength",
+      "estimated_probability": 47.3,
+      "market_probability": 47.3,
+      "edge_percent": 0,
+      "data_completeness": 35,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Yüksek",
+      "risk_level": "Yüksek",
+      "status": "scheduled",
+      "estimated_odds": "1.36",
+      "available_odds": {
+        "ms1": "2.91",
+        "msx": "2.61",
+        "ms2": "2.07",
+        "over25": "1.22",
+        "under25": "1.36",
+        "under35": "-",
+        "bttsYes": "-",
+        "bttsNo": "-",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 2.91,
+        "msx": 2.61,
+        "ms2": 2.07,
+        "under25": 1.36,
+        "over25": 1.22
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "03161",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 2.91,
+            "msx": 2.61,
+            "ms2": 2.07
+          }
+        },
+        {
+          "market_code": "03161",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 2.91,
+            "firstHalfX_guess": 2.61,
+            "firstHalf2_guess": 2.07
+          }
+        },
+        {
+          "market_code": "03161",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 2.91,
+            "secondHalfX_guess": 2.61,
+            "secondHalf2_guess": 2.07
+          }
+        },
+        {
+          "market_code": "03161",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 2.91,
+            "handicapX_guess": 2.61,
+            "handicap2_guess": 2.07
+          }
+        },
+        {
+          "market_code": "03200",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.36,
+            "msx": 1.22,
+            "ms2": 1.16
+          }
+        },
+        {
+          "market_code": "03200",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.36,
+            "firstHalfX_guess": 1.22,
+            "firstHalf2_guess": 1.16
+          }
+        },
+        {
+          "market_code": "03200",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.36,
+            "secondHalfX_guess": 1.22,
+            "secondHalf2_guess": 1.16
+          }
+        },
+        {
+          "market_code": "03200",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.36,
+            "handicapX_guess": 1.22,
+            "handicap2_guess": 1.16
+          }
+        }
+      ],
+      "expected_scores": [
+        "0-0",
+        "1-0",
+        "1-1"
+      ],
+      "value_label": "Piyasa ile Uyumlu",
+      "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.36 | Veri tipi: standard",
+      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.36 | Veri tipi: standard",
+      "pro_signals": [
+        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
+        "Market: 2.5 Alt",
+        "Oran: 1.36",
+        "Veri tipi: standard",
+        "Değer etiketi: Piyasa ile Uyumlu",
+        "Marjı temizlenmiş piyasa olasılığı %47.",
+        "Birleşik tahmini olasılık %47.",
+        "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: takım sonuç örneği henüz sınırlı",
+        "Geçmiş market örneği 1988; ham isabet %46.",
+        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
+        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
+        "Model gücü 54/100: Sadece izleme.",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "signals": [
+        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
+        "Market: 2.5 Alt",
+        "Oran: 1.36",
+        "Veri tipi: standard",
+        "Değer etiketi: Piyasa ile Uyumlu",
+        "Marjı temizlenmiş piyasa olasılığı %47.",
+        "Birleşik tahmini olasılık %47.",
+        "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: takım sonuç örneği henüz sınırlı",
+        "Geçmiş market örneği 1988; ham isabet %46.",
+        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
+        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
+        "Model gücü 54/100: Sadece izleme.",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "source": "Robot ham veri havuzu"
+    },
+    {
       "id": "auto-66",
       "date": "2026-09-17",
       "time": "19:00",
@@ -21230,7 +21314,6 @@
         "ms2": "2.84",
         "over25": "1.09",
         "under25": "1.16",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -21392,7 +21475,6 @@
         "ms2": "1.65",
         "over25": "1.17",
         "under25": "1.61",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -21554,7 +21636,6 @@
         "ms2": "1.67",
         "over25": "1.09",
         "under25": "1.59",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -21716,7 +21797,6 @@
         "ms2": "3.75",
         "over25": "2.53",
         "under25": "1.23",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.08",
         "bttsNo": "1.22",
@@ -21992,7 +22072,6 @@
         "ms2": "2.07",
         "over25": "1.52",
         "under25": "1.80",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.36",
         "bttsNo": "1.13",
@@ -22268,7 +22347,6 @@
         "ms2": "2.91",
         "over25": "1.44",
         "under25": "1.93",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.16",
         "bttsNo": "1.12",
@@ -22544,7 +22622,6 @@
         "ms2": "2.05",
         "over25": "1.48",
         "under25": "2.00",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.44",
         "bttsNo": "1.17",
@@ -22791,6 +22868,167 @@
       "source": "Robot ham veri havuzu"
     },
     {
+      "id": "auto-11",
+      "date": "2026-09-17",
+      "time": "02:00",
+      "league": "ABD MLS Next Pro",
+      "title": "Real Monarchs VS Minnesota Unite",
+      "match": "Real Monarchs VS Minnesota Unite",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "decision": "Oynama",
+      "score": "48%",
+      "confidence": "48%",
+      "confidence_score": "48%",
+      "model_score": 48,
+      "score_type": "signal_strength",
+      "estimated_probability": 43.4,
+      "market_probability": 43.4,
+      "edge_percent": 0,
+      "data_completeness": 35,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Yüksek",
+      "risk_level": "Yüksek",
+      "status": "scheduled",
+      "estimated_odds": "1.42",
+      "available_odds": {
+        "ms1": "2.39",
+        "msx": "3.65",
+        "ms2": "1.93",
+        "over25": "1.09",
+        "under25": "1.42",
+        "under35": "-",
+        "bttsYes": "-",
+        "bttsNo": "-",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 2.39,
+        "msx": 3.65,
+        "ms2": 1.93,
+        "under25": 1.42,
+        "over25": 1.09
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "20275",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 2.39,
+            "msx": 3.65,
+            "ms2": 1.93
+          }
+        },
+        {
+          "market_code": "20275",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 2.39,
+            "firstHalfX_guess": 3.65,
+            "firstHalf2_guess": 1.93
+          }
+        },
+        {
+          "market_code": "20275",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 2.39,
+            "secondHalfX_guess": 3.65,
+            "secondHalf2_guess": 1.93
+          }
+        },
+        {
+          "market_code": "20275",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 2.39,
+            "handicapX_guess": 3.65,
+            "handicap2_guess": 1.93
+          }
+        },
+        {
+          "market_code": "20276",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.42,
+            "msx": 1.09,
+            "ms2": 1.25
+          }
+        },
+        {
+          "market_code": "20276",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.42,
+            "firstHalfX_guess": 1.09,
+            "firstHalf2_guess": 1.25
+          }
+        },
+        {
+          "market_code": "20276",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.42,
+            "secondHalfX_guess": 1.09,
+            "secondHalf2_guess": 1.25
+          }
+        },
+        {
+          "market_code": "20276",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.42,
+            "handicapX_guess": 1.09,
+            "handicap2_guess": 1.25
+          }
+        }
+      ],
+      "expected_scores": [
+        "0-0",
+        "1-0",
+        "1-1"
+      ],
+      "value_label": "Piyasa ile Uyumlu",
+      "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.42 | Veri tipi: standard",
+      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.42 | Veri tipi: standard",
+      "pro_signals": [
+        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
+        "Market: 2.5 Alt",
+        "Oran: 1.42",
+        "Veri tipi: standard",
+        "Değer etiketi: Piyasa ile Uyumlu",
+        "Marjı temizlenmiş piyasa olasılığı %43.",
+        "Birleşik tahmini olasılık %43.",
+        "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: takım sonuç örneği henüz sınırlı",
+        "Geçmiş market örneği 1988; ham isabet %46.",
+        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
+        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
+        "Model gücü 52/100: Sadece izleme.",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "signals": [
+        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
+        "Market: 2.5 Alt",
+        "Oran: 1.42",
+        "Veri tipi: standard",
+        "Değer etiketi: Piyasa ile Uyumlu",
+        "Marjı temizlenmiş piyasa olasılığı %43.",
+        "Birleşik tahmini olasılık %43.",
+        "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: takım sonuç örneği henüz sınırlı",
+        "Geçmiş market örneği 1988; ham isabet %46.",
+        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
+        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
+        "Model gücü 52/100: Sadece izleme.",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+      ],
+      "source": "Robot ham veri havuzu"
+    },
+    {
       "id": "auto-113",
       "date": "2026-09-18",
       "time": "03:00",
@@ -22820,7 +23058,6 @@
         "ms2": "5.57",
         "over25": "1.83",
         "under25": "1.51",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.09",
         "bttsNo": "1.99",
@@ -23174,7 +23411,6 @@
         "ms2": "4.78",
         "over25": "1.49",
         "under25": "1.98",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.09",
         "bttsNo": "2.09",
@@ -23528,7 +23764,6 @@
         "ms2": "1.79",
         "over25": "2.19",
         "under25": "1.32",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.50",
         "bttsNo": "1.18",
@@ -23804,7 +24039,6 @@
         "ms2": "1.79",
         "over25": "2.31",
         "under25": "1.29",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.50",
         "bttsNo": "1.20",
@@ -24080,7 +24314,6 @@
         "ms2": "1.30",
         "over25": "1.45",
         "under25": "1.91",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "2.14",
         "bttsNo": "1.06",
@@ -24432,7 +24665,6 @@
         "ms2": "2.06",
         "over25": "1.39",
         "under25": "2.02",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.37",
         "bttsNo": "1.13",
@@ -24708,7 +24940,6 @@
         "ms2": "3.34",
         "over25": "1.95",
         "under25": "1.44",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.11",
         "bttsNo": "1.20",
@@ -24986,7 +25217,6 @@
         "ms2": "4.24",
         "over25": "1.87",
         "under25": "1.55",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.07",
         "bttsNo": "1.16",
@@ -25235,168 +25465,6 @@
       "source": "Robot ham veri havuzu"
     },
     {
-      "id": "auto-11",
-      "date": "2026-09-17",
-      "time": "02:00",
-      "league": "ABD MLS Next Pro",
-      "title": "Real Monarchs VS Minnesota Unite",
-      "match": "Real Monarchs VS Minnesota Unite",
-      "market": "MS 2",
-      "prediction": "MS 2",
-      "decision": "Oynama",
-      "score": "46%",
-      "confidence": "46%",
-      "confidence_score": "46%",
-      "model_score": 46,
-      "score_type": "signal_strength",
-      "estimated_probability": 42.8,
-      "market_probability": 42.8,
-      "edge_percent": 0,
-      "data_completeness": 35,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "status": "scheduled",
-      "estimated_odds": "1.93",
-      "available_odds": {
-        "ms1": "2.39",
-        "msx": "3.65",
-        "ms2": "1.93",
-        "over25": "1.09",
-        "under25": "1.42",
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": "-",
-        "bttsNo": "-",
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "ms1": 2.39,
-        "msx": 3.65,
-        "ms2": 1.93,
-        "under25": 1.42,
-        "over25": 1.09
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "20275",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 2.39,
-            "msx": 3.65,
-            "ms2": 1.93
-          }
-        },
-        {
-          "market_code": "20275",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 2.39,
-            "firstHalfX_guess": 3.65,
-            "firstHalf2_guess": 1.93
-          }
-        },
-        {
-          "market_code": "20275",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 2.39,
-            "secondHalfX_guess": 3.65,
-            "secondHalf2_guess": 1.93
-          }
-        },
-        {
-          "market_code": "20275",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 2.39,
-            "handicapX_guess": 3.65,
-            "handicap2_guess": 1.93
-          }
-        },
-        {
-          "market_code": "20276",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.42,
-            "msx": 1.09,
-            "ms2": 1.25
-          }
-        },
-        {
-          "market_code": "20276",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.42,
-            "firstHalfX_guess": 1.09,
-            "firstHalf2_guess": 1.25
-          }
-        },
-        {
-          "market_code": "20276",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.42,
-            "secondHalfX_guess": 1.09,
-            "secondHalf2_guess": 1.25
-          }
-        },
-        {
-          "market_code": "20276",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.42,
-            "handicapX_guess": 1.09,
-            "handicap2_guess": 1.25
-          }
-        }
-      ],
-      "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
-      ],
-      "value_label": "Piyasa ile Uyumlu",
-      "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 2 | Oran: 1.93 | Veri tipi: standard",
-      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 2 | Oran: 1.93 | Veri tipi: standard",
-      "pro_signals": [
-        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: MS 2",
-        "Oran: 1.93",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %43.",
-        "Birleşik tahmini olasılık %43.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1988; ham isabet %30.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 50/100: Sadece izleme.",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ],
-      "signals": [
-        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: MS 2",
-        "Oran: 1.93",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %43.",
-        "Birleşik tahmini olasılık %43.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1988; ham isabet %30.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 50/100: Sadece izleme.",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ],
-      "source": "Robot ham veri havuzu"
-    },
-    {
       "id": "auto-12",
       "date": "2026-09-17",
       "time": "02:00",
@@ -25426,7 +25494,6 @@
         "ms2": "2.21",
         "over25": "1.52",
         "under25": "1.80",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.31",
         "bttsNo": "1.13",
@@ -25702,7 +25769,6 @@
         "ms2": "2.21",
         "over25": "1.36",
         "under25": "2.12",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.30",
         "bttsNo": "1.12",
@@ -25978,7 +26044,6 @@
         "ms2": "1.16",
         "over25": "1.81",
         "under25": "1.51",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -26218,7 +26283,6 @@
         "ms2": "1.87",
         "over25": "1.76",
         "under25": "1.56",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.45",
         "bttsNo": "1.16",
@@ -26467,168 +26531,6 @@
       "source": "Robot ham veri havuzu"
     },
     {
-      "id": "auto-44",
-      "date": "2026-09-17",
-      "time": "16:30",
-      "league": "Mısır 2. Lig",
-      "title": "Ismaily VS Haras El Hodood",
-      "match": "Ismaily VS Haras El Hodood",
-      "market": "MS 2",
-      "prediction": "MS 2",
-      "decision": "Oynama",
-      "score": "45%",
-      "confidence": "45%",
-      "confidence_score": "45%",
-      "model_score": 45,
-      "score_type": "signal_strength",
-      "estimated_probability": 39.9,
-      "market_probability": 39.9,
-      "edge_percent": 0,
-      "data_completeness": 35,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "status": "scheduled",
-      "estimated_odds": "2.07",
-      "available_odds": {
-        "ms1": "2.91",
-        "msx": "2.61",
-        "ms2": "2.07",
-        "over25": "1.22",
-        "under25": "1.36",
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": "-",
-        "bttsNo": "-",
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "ms1": 2.91,
-        "msx": 2.61,
-        "ms2": 2.07,
-        "under25": 1.36,
-        "over25": 1.22
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "03161",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 2.91,
-            "msx": 2.61,
-            "ms2": 2.07
-          }
-        },
-        {
-          "market_code": "03161",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 2.91,
-            "firstHalfX_guess": 2.61,
-            "firstHalf2_guess": 2.07
-          }
-        },
-        {
-          "market_code": "03161",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 2.91,
-            "secondHalfX_guess": 2.61,
-            "secondHalf2_guess": 2.07
-          }
-        },
-        {
-          "market_code": "03161",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 2.91,
-            "handicapX_guess": 2.61,
-            "handicap2_guess": 2.07
-          }
-        },
-        {
-          "market_code": "03200",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.36,
-            "msx": 1.22,
-            "ms2": 1.16
-          }
-        },
-        {
-          "market_code": "03200",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.36,
-            "firstHalfX_guess": 1.22,
-            "firstHalf2_guess": 1.16
-          }
-        },
-        {
-          "market_code": "03200",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.36,
-            "secondHalfX_guess": 1.22,
-            "secondHalf2_guess": 1.16
-          }
-        },
-        {
-          "market_code": "03200",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.36,
-            "handicapX_guess": 1.22,
-            "handicap2_guess": 1.16
-          }
-        }
-      ],
-      "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
-      ],
-      "value_label": "Piyasa ile Uyumlu",
-      "commentary": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 2 | Oran: 2.07 | Veri tipi: standard",
-      "robot_comment": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: MS 2 | Oran: 2.07 | Veri tipi: standard",
-      "pro_signals": [
-        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: MS 2",
-        "Oran: 2.07",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %40.",
-        "Birleşik tahmini olasılık %40.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1988; ham isabet %30.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 49/100: Sadece izleme.",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ],
-      "signals": [
-        "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü.",
-        "Market: MS 2",
-        "Oran: 2.07",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %40.",
-        "Birleşik tahmini olasılık %40.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1988; ham isabet %30.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 49/100: Sadece izleme.",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ],
-      "source": "Robot ham veri havuzu"
-    },
-    {
       "id": "auto-116",
       "date": "2026-09-18",
       "time": "03:30",
@@ -26658,7 +26560,6 @@
         "ms2": "4.20",
         "over25": "1.71",
         "under25": "1.60",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.18",
         "bttsNo": "1.61",
@@ -27012,7 +26913,6 @@
         "ms2": "2.56",
         "over25": "1.21",
         "under25": "1.22",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -27174,7 +27074,6 @@
         "ms2": "2.51",
         "over25": "1.21",
         "under25": "1.23",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -27336,7 +27235,6 @@
         "ms2": "2.10",
         "over25": "2.23",
         "under25": "1.31",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.35",
         "bttsNo": "1.19",
@@ -27612,7 +27510,6 @@
         "ms2": "2.65",
         "over25": "1.23",
         "under25": "1.20",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -27774,7 +27671,6 @@
         "ms2": "2.28",
         "over25": "2.87",
         "under25": "1.16",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.29",
         "bttsNo": "1.27",
@@ -28050,7 +27946,6 @@
         "ms2": "2.52",
         "over25": "1.29",
         "under25": "1.23",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -28212,7 +28107,6 @@
         "ms2": "3.82",
         "over25": "2.96",
         "under25": "1.19",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "1.10",
         "bttsNo": "1.25",
@@ -28490,7 +28384,6 @@
         "ms2": "10.30",
         "over25": "1.50",
         "under25": "1.85",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -28730,7 +28623,6 @@
         "ms2": "6.98",
         "over25": "1.51",
         "under25": "1.95",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -28970,7 +28862,6 @@
         "ms2": "2.67",
         "over25": "1.23",
         "under25": "1.20",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -29132,7 +29023,6 @@
         "ms2": "16.70",
         "over25": "-",
         "under25": "-",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "11.00",
         "bttsNo": "16.70",
@@ -29307,7 +29197,6 @@
         "ms2": "10.45",
         "over25": "1.25",
         "under25": "2.42",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -29521,7 +29410,6 @@
         "ms2": "17.50",
         "over25": "1.21",
         "under25": "2.63",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "8.16",
         "bttsNo": "17.50",
@@ -29810,7 +29698,6 @@
         "ms2": "6.23",
         "over25": "1.27",
         "under25": "2.35",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -30024,7 +29911,6 @@
         "ms2": "17.50",
         "over25": "-",
         "under25": "-",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "8.37",
         "bttsNo": "17.50",
@@ -30199,7 +30085,6 @@
         "ms2": "1.16",
         "over25": "-",
         "under25": "-",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -30299,7 +30184,6 @@
         "ms2": "10.30",
         "over25": "-",
         "under25": "-",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "6.38",
         "bttsNo": "10.30",
@@ -30474,7 +30358,6 @@
         "ms2": "14.20",
         "over25": "-",
         "under25": "-",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "8.25",
         "bttsNo": "14.20",
@@ -30649,7 +30532,6 @@
         "ms2": "1.24",
         "over25": "1.37",
         "under25": "2.22",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "2.60",
         "bttsNo": "1.05",
@@ -30977,7 +30859,6 @@
         "ms2": "17.50",
         "over25": "1.13",
         "under25": "3.40",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "9.41",
         "bttsNo": "17.50",
@@ -31266,7 +31147,6 @@
         "ms2": "11.50",
         "over25": "1.27",
         "under25": "2.58",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -31480,7 +31360,6 @@
         "ms2": "6.71",
         "over25": "1.43",
         "under25": "2.11",
-        "over35": "-",
         "under35": "-",
         "bttsYes": "-",
         "bttsNo": "-",
@@ -31666,6 +31545,600 @@
     }
   ],
   "completed_items": [
+    {
+      "id": "2026-09-17|venezuela premier lig clausura|portuguesa estudiantes fc|2 5 alt|00 00",
+      "date": "2026-09-17",
+      "time": "00:00",
+      "title": "Portuguesa - Estudiantes Fc",
+      "match": "Portuguesa - Estudiantes Fc",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.54",
+      "score": "2-1",
+      "result_score": "2-1",
+      "confidence": "78%",
+      "confidence_score": "78%",
+      "model_score": 78,
+      "estimated_probability": 61.9,
+      "market_probability": 53.6,
+      "edge_percent": 8.3,
+      "data_completeness": 76,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "lost",
+      "result": "lost",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-16T23:17:52.282Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|uefa avrupa ligi lig asamasi|ac milan benfica|ms 1|22 00",
+      "date": "2026-09-16",
+      "time": "22:00",
+      "title": "Ac Milan - Benfica",
+      "match": "Ac Milan - Benfica",
+      "market": "MS 1",
+      "prediction": "MS 1",
+      "odds": "1.88",
+      "score": "0-2",
+      "result_score": "0-2",
+      "confidence": "54%",
+      "confidence_score": "54%",
+      "model_score": 54,
+      "estimated_probability": 40.2,
+      "market_probability": 45.1,
+      "edge_percent": -5,
+      "data_completeness": 56,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "lost",
+      "result": "lost",
+      "market_group": "match_result",
+      "market_group_label": "Maç Sonucu",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|uefa avrupa ligi lig asamasi|olympiakos jagiellonia|2 5 alt|22 00",
+      "date": "2026-09-16",
+      "time": "22:00",
+      "title": "Olympiakos - Jagiellonia",
+      "match": "Olympiakos - Jagiellonia",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "2.02",
+      "score": "2-1",
+      "result_score": "2-1",
+      "confidence": "49%",
+      "confidence_score": "49%",
+      "model_score": 49,
+      "estimated_probability": 42,
+      "market_probability": 42,
+      "edge_percent": 0,
+      "data_completeness": 40,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Yüksek",
+      "status": "lost",
+      "result": "lost",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|uefa avrupa ligi lig asamasi|sunderland az alkmaar|2 5 alt|22 00",
+      "date": "2026-09-16",
+      "time": "22:00",
+      "title": "Sunderland - Az Alkmaar",
+      "match": "Sunderland - Az Alkmaar",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.91",
+      "score": "1-0",
+      "result_score": "1-0",
+      "confidence": "69%",
+      "confidence_score": "69%",
+      "model_score": 69,
+      "estimated_probability": 49,
+      "market_probability": 44.5,
+      "edge_percent": 4.5,
+      "data_completeness": 67,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|uefa avrupa ligi lig asamasi|hapoel beer sh dinamo zagreb|ms 2|22 00",
+      "date": "2026-09-16",
+      "time": "22:00",
+      "title": "Hapoel Beer Sh - Dinamo Zagreb",
+      "match": "Hapoel Beer Sh - Dinamo Zagreb",
+      "market": "MS 2",
+      "prediction": "MS 2",
+      "odds": "1.64",
+      "score": "0-0",
+      "result_score": "0-0",
+      "confidence": "51%",
+      "confidence_score": "51%",
+      "model_score": 51,
+      "estimated_probability": 51.9,
+      "market_probability": 51.9,
+      "edge_percent": 0,
+      "data_completeness": 35,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Yüksek",
+      "status": "lost",
+      "result": "lost",
+      "market_group": "match_result",
+      "market_group_label": "Maç Sonucu",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|uefa avrupa ligi lig asamasi|anderlecht lyon|2 5 alt|22 00",
+      "date": "2026-09-16",
+      "time": "22:00",
+      "title": "Anderlecht - Lyon",
+      "match": "Anderlecht - Lyon",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.97",
+      "score": "1-2",
+      "result_score": "1-2",
+      "confidence": "69%",
+      "confidence_score": "69%",
+      "model_score": 69,
+      "estimated_probability": 51.5,
+      "market_probability": 43.2,
+      "edge_percent": 8.2,
+      "data_completeness": 64,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "lost",
+      "result": "lost",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|ingiltere lig kupasi 3 tur|coventry aston villa|ms 2|22 00",
+      "date": "2026-09-16",
+      "time": "22:00",
+      "title": "Coventry - Aston Villa",
+      "match": "Coventry - Aston Villa",
+      "market": "MS 2",
+      "prediction": "MS 2",
+      "odds": "1.78",
+      "score": "1-3",
+      "result_score": "1-3",
+      "confidence": "57%",
+      "confidence_score": "57%",
+      "model_score": 57,
+      "estimated_probability": 45.6,
+      "market_probability": 47.8,
+      "edge_percent": -2.2,
+      "data_completeness": 56,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "match_result",
+      "market_group_label": "Maç Sonucu",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|bolivya premier lig|guabira aurora|ms 1|22 00",
+      "date": "2026-09-16",
+      "time": "22:00",
+      "title": "Guabira - Aurora",
+      "match": "Guabira - Aurora",
+      "market": "MS 1",
+      "prediction": "MS 1",
+      "odds": "1.65",
+      "score": "3-1",
+      "result_score": "3-1",
+      "confidence": "58%",
+      "confidence_score": "58%",
+      "model_score": 58,
+      "estimated_probability": 42,
+      "market_probability": 50.2,
+      "edge_percent": -8.2,
+      "data_completeness": 68,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "match_result",
+      "market_group_label": "Maç Sonucu",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|ingiltere lig kupasi 3 tur|coventry aston villa|kg var|22 00",
+      "date": "2026-09-16",
+      "time": "22:00",
+      "title": "Coventry - Aston Villa",
+      "match": "Coventry - Aston Villa",
+      "market": "KG Var",
+      "prediction": "KG Var",
+      "odds": "1.61",
+      "score": "1-3",
+      "result_score": "1-3",
+      "confidence": "65%",
+      "confidence_score": "65%",
+      "model_score": 65,
+      "estimated_probability": 44.4,
+      "market_probability": 41.2,
+      "edge_percent": 3.2,
+      "data_completeness": 64,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "btts",
+      "market_group_label": "Karşılıklı Gol",
+      "finalized_at": "2026-09-16T23:17:52.282Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|uefa avrupa ligi lig asamasi|ac milan benfica|ms 2|22 00",
+      "date": "2026-09-16",
+      "time": "22:00",
+      "title": "Ac Milan - Benfica",
+      "match": "Ac Milan - Benfica",
+      "market": "MS 2",
+      "prediction": "MS 2",
+      "odds": "2.65",
+      "score": "0-2",
+      "result_score": "0-2",
+      "confidence": "56%",
+      "confidence_score": "56%",
+      "model_score": 56,
+      "estimated_probability": 35.5,
+      "market_probability": 32.1,
+      "edge_percent": 3.5,
+      "data_completeness": 56,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Yüksek",
+      "status": "won",
+      "result": "won",
+      "market_group": "match_result",
+      "market_group_label": "Maç Sonucu",
+      "finalized_at": "2026-09-16T23:17:52.282Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|bolivya premier lig|guabira aurora|2 5 alt|22 00",
+      "date": "2026-09-16",
+      "time": "22:00",
+      "title": "Guabira - Aurora",
+      "match": "Guabira - Aurora",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "2.04",
+      "score": "3-1",
+      "result_score": "3-1",
+      "confidence": "63%",
+      "confidence_score": "63%",
+      "model_score": 63,
+      "estimated_probability": 42,
+      "market_probability": 40.5,
+      "edge_percent": 1.5,
+      "data_completeness": 76,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "lost",
+      "result": "lost",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-16T23:17:52.282Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|ingiltere lig kupasi 3 tur|fleetwood town sheffield utd|kg var|21 45",
+      "date": "2026-09-16",
+      "time": "21:45",
+      "title": "Fleetwood Town - Sheffield Utd",
+      "match": "Fleetwood Town - Sheffield Utd",
+      "market": "KG Var",
+      "prediction": "KG Var",
+      "odds": "2.06",
+      "score": "1-0",
+      "result_score": "1-0",
+      "confidence": "76%",
+      "confidence_score": "76%",
+      "model_score": 76,
+      "estimated_probability": 46.2,
+      "market_probability": 34.6,
+      "edge_percent": 11.6,
+      "data_completeness": 83,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "lost",
+      "result": "lost",
+      "market_group": "btts",
+      "market_group_label": "Karşılıklı Gol",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|ingiltere lig kupasi 3 tur|everton wolverhampton|2 5 alt|21 45",
+      "date": "2026-09-16",
+      "time": "21:45",
+      "title": "Everton - Wolverhampton",
+      "match": "Everton - Wolverhampton",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.93",
+      "score": "1-0",
+      "result_score": "1-0",
+      "confidence": "64%",
+      "confidence_score": "64%",
+      "model_score": 64,
+      "estimated_probability": 45.3,
+      "market_probability": 43.9,
+      "edge_percent": 1.4,
+      "data_completeness": 73,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|ingiltere ulusal lig|altrincham hartlepool|2 5 alt|21 45",
+      "date": "2026-09-16",
+      "time": "21:45",
+      "title": "Altrincham - Hartlepool",
+      "match": "Altrincham - Hartlepool",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.78",
+      "score": "2-1",
+      "result_score": "2-1",
+      "confidence": "66%",
+      "confidence_score": "66%",
+      "model_score": 66,
+      "estimated_probability": 47.8,
+      "market_probability": 46.5,
+      "edge_percent": 1.3,
+      "data_completeness": 73,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "lost",
+      "result": "lost",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|ingiltere ulusal lig|scunthorpe boreham wood|kg var|21 45",
+      "date": "2026-09-16",
+      "time": "21:45",
+      "title": "Scunthorpe - Boreham Wood",
+      "match": "Scunthorpe - Boreham Wood",
+      "market": "KG Var",
+      "prediction": "KG Var",
+      "odds": "1.79",
+      "score": "1-2",
+      "result_score": "1-2",
+      "confidence": "75%",
+      "confidence_score": "75%",
+      "model_score": 75,
+      "estimated_probability": 49.1,
+      "market_probability": 37.6,
+      "edge_percent": 11.5,
+      "data_completeness": 73,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "btts",
+      "market_group_label": "Karşılıklı Gol",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|ingiltere ulusal lig|altrincham hartlepool|ms 1|21 45",
+      "date": "2026-09-16",
+      "time": "21:45",
+      "title": "Altrincham - Hartlepool",
+      "match": "Altrincham - Hartlepool",
+      "market": "MS 1",
+      "prediction": "MS 1",
+      "odds": "2.00",
+      "score": "2-1",
+      "result_score": "2-1",
+      "confidence": "66%",
+      "confidence_score": "66%",
+      "model_score": 66,
+      "estimated_probability": 46.9,
+      "market_probability": 41.2,
+      "edge_percent": 5.7,
+      "data_completeness": 65,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "match_result",
+      "market_group_label": "Maç Sonucu",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|ingiltere lig kupasi 3 tur|fleetwood town sheffield utd|2 5 alt|21 45",
+      "date": "2026-09-16",
+      "time": "21:45",
+      "title": "Fleetwood Town - Sheffield Utd",
+      "match": "Fleetwood Town - Sheffield Utd",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.97",
+      "score": "1-0",
+      "result_score": "1-0",
+      "confidence": "63%",
+      "confidence_score": "63%",
+      "model_score": 63,
+      "estimated_probability": 42.5,
+      "market_probability": 43.2,
+      "edge_percent": -0.7,
+      "data_completeness": 73,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|ingiltere lig kupasi 3 tur|everton wolverhampton|ms 1|21 45",
+      "date": "2026-09-16",
+      "time": "21:45",
+      "title": "Everton - Wolverhampton",
+      "match": "Everton - Wolverhampton",
+      "market": "MS 1",
+      "prediction": "MS 1",
+      "odds": "1.30",
+      "score": "1-0",
+      "result_score": "1-0",
+      "confidence": "65%",
+      "confidence_score": "65%",
+      "model_score": 65,
+      "estimated_probability": 57.8,
+      "market_probability": 65.3,
+      "edge_percent": -7.5,
+      "data_completeness": 65,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "match_result",
+      "market_group_label": "Maç Sonucu",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|ingiltere ulusal lig|altrincham hartlepool|2 5 ust|21 45",
+      "date": "2026-09-16",
+      "time": "21:45",
+      "title": "Altrincham - Hartlepool",
+      "match": "Altrincham - Hartlepool",
+      "market": "2.5 Üst",
+      "prediction": "2.5 Üst",
+      "odds": "1.58",
+      "score": "2-1",
+      "result_score": "2-1",
+      "confidence": "70%",
+      "confidence_score": "70%",
+      "model_score": 70,
+      "estimated_probability": 51.5,
+      "market_probability": 52.4,
+      "edge_percent": -0.9,
+      "data_completeness": 73,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|ingiltere ulusal lig|scunthorpe boreham wood|ms 2|21 45",
+      "date": "2026-09-16",
+      "time": "21:45",
+      "title": "Scunthorpe - Boreham Wood",
+      "match": "Scunthorpe - Boreham Wood",
+      "market": "MS 2",
+      "prediction": "MS 2",
+      "odds": "1.57",
+      "score": "1-2",
+      "result_score": "1-2",
+      "confidence": "67%",
+      "confidence_score": "67%",
+      "model_score": 67,
+      "estimated_probability": 53.6,
+      "market_probability": 52.7,
+      "edge_percent": 0.8,
+      "data_completeness": 65,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "match_result",
+      "market_group_label": "Maç Sonucu",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|ingiltere ulusal lig|kidderminster gateshead|ms 1|21 45",
+      "date": "2026-09-16",
+      "time": "21:45",
+      "title": "Kidderminster - Gateshead",
+      "match": "Kidderminster - Gateshead",
+      "market": "MS 1",
+      "prediction": "MS 1",
+      "odds": "1.26",
+      "score": "1-0",
+      "result_score": "1-0",
+      "confidence": "75%",
+      "confidence_score": "75%",
+      "model_score": 75,
+      "estimated_probability": 65.7,
+      "market_probability": 65.4,
+      "edge_percent": 0.3,
+      "data_completeness": 65,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "match_result",
+      "market_group_label": "Maç Sonucu",
+      "finalized_at": "2026-09-16T23:17:52.283Z",
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "2026-09-16|ingiltere ulusal lig|kidderminster gateshead|2 5 alt|21 45",
+      "date": "2026-09-16",
+      "time": "21:45",
+      "title": "Kidderminster - Gateshead",
+      "match": "Kidderminster - Gateshead",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.93",
+      "score": "1-0",
+      "result_score": "1-0",
+      "confidence": "64%",
+      "confidence_score": "64%",
+      "model_score": 64,
+      "estimated_probability": 44.6,
+      "market_probability": 42.7,
+      "edge_percent": 1.9,
+      "data_completeness": 73,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-16T23:17:52.282Z",
+      "source": "Robot ham veri havuzu"
+    },
     {
       "id": "2026-09-16|afc sampiyonlar ligi 2 grup d|al shorta al seeb|2 5 alt|21 15",
       "date": "2026-09-16",
@@ -37821,647 +38294,53 @@
       "market_group_label": "Gol Marketleri",
       "finalized_at": "2026-09-13T19:00:09.973Z",
       "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|ingiltere kadinlar premier lig|liverpool k tottenham hotsp|2 5 alt|16 00",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "title": "Liverpool (K) - Tottenham Hotsp",
-      "match": "Liverpool (K) - Tottenham Hotsp",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "odds": "1.65",
-      "score": "1-1",
-      "result_score": "1-1",
-      "confidence": "60%",
-      "confidence_score": "60%",
-      "model_score": 60,
-      "estimated_probability": 54.5,
-      "market_probability": 50,
-      "edge_percent": 4.5,
-      "data_completeness": 43,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-13T19:00:09.973Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|ingiltere premier lig|coventry brighton|ms 2|16 00",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "title": "Coventry - Brighton",
-      "match": "Coventry - Brighton",
-      "market": "MS 2",
-      "prediction": "MS 2",
-      "odds": "1.73",
-      "score": "0-5",
-      "result_score": "0-5",
-      "confidence": "63%",
-      "confidence_score": "63%",
-      "model_score": 63,
-      "estimated_probability": 49.9,
-      "market_probability": 49,
-      "edge_percent": 0.8,
-      "data_completeness": 56,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-09-13T19:00:09.973Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|italya serie a|lecce monza|2 5 ust|16 00",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "title": "Lecce - Monza",
-      "match": "Lecce - Monza",
-      "market": "2.5 Üst",
-      "prediction": "2.5 Üst",
-      "odds": "2.05",
-      "score": "3-2",
-      "result_score": "3-2",
-      "confidence": "69%",
-      "confidence_score": "69%",
-      "model_score": 69,
-      "estimated_probability": 47.3,
-      "market_probability": 41.4,
-      "edge_percent": 5.9,
-      "data_completeness": 61,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-13T19:00:09.973Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|uruguay premier lig clausura|progreso cerro|ms 2|16 00",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "title": "Progreso - Cerro",
-      "match": "Progreso - Cerro",
-      "market": "MS 2",
-      "prediction": "MS 2",
-      "odds": "2.74",
-      "score": "1-3",
-      "result_score": "1-3",
-      "confidence": "56%",
-      "confidence_score": "56%",
-      "model_score": 56,
-      "estimated_probability": 34.6,
-      "market_probability": 30.1,
-      "edge_percent": 4.5,
-      "data_completeness": 56,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Yüksek",
-      "status": "won",
-      "result": "won",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-09-13T19:00:09.973Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|ingiltere premier lig|coventry brighton|kg var|16 00",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "title": "Coventry - Brighton",
-      "match": "Coventry - Brighton",
-      "market": "KG Var",
-      "prediction": "KG Var",
-      "odds": "1.65",
-      "score": "0-5",
-      "result_score": "0-5",
-      "confidence": "60%",
-      "confidence_score": "60%",
-      "model_score": 60,
-      "estimated_probability": 44.4,
-      "market_probability": 41.1,
-      "edge_percent": 3.4,
-      "data_completeness": 47,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "btts",
-      "market_group_label": "Karşılıklı Gol",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|uruguay premier lig clausura|progreso cerro|ms 1|16 00",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "title": "Progreso - Cerro",
-      "match": "Progreso - Cerro",
-      "market": "MS 1",
-      "prediction": "MS 1",
-      "odds": "2.11",
-      "score": "1-3",
-      "result_score": "1-3",
-      "confidence": "48%",
-      "confidence_score": "48%",
-      "model_score": 48,
-      "estimated_probability": 39.1,
-      "market_probability": 39.1,
-      "edge_percent": 0,
-      "data_completeness": 43,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Yüksek",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|guney afrika psl|milford richards bay|ms 1|16 00",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "title": "Milford - Richards Bay",
-      "match": "Milford - Richards Bay",
-      "market": "MS 1",
-      "prediction": "MS 1",
-      "odds": "2.22",
-      "score": "5-1",
-      "result_score": "5-1",
-      "confidence": "60%",
-      "confidence_score": "60%",
-      "model_score": 60,
-      "estimated_probability": 40.5,
-      "market_probability": 37.1,
-      "edge_percent": 3.3,
-      "data_completeness": 56,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|guney afrika psl|siwelele golden arrows|ms 1|16 00",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "title": "Siwelele - Golden Arrows",
-      "match": "Siwelele - Golden Arrows",
-      "market": "MS 1",
-      "prediction": "MS 1",
-      "odds": "2.33",
-      "score": "1-1",
-      "result_score": "1-1",
-      "confidence": "46%",
-      "confidence_score": "46%",
-      "model_score": 46,
-      "estimated_probability": 35.5,
-      "market_probability": 35.5,
-      "edge_percent": 0,
-      "data_completeness": 43,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Yüksek",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|ingiltere kadinlar premier lig|everton k charlton athlet|ms 1|16 00",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "title": "Everton (K) - Charlton Athlet",
-      "match": "Everton (K) - Charlton Athlet",
-      "market": "MS 1",
-      "prediction": "MS 1",
-      "odds": "1.30",
-      "score": "1-0",
-      "result_score": "1-0",
-      "confidence": "58%",
-      "confidence_score": "58%",
-      "model_score": 58,
-      "estimated_probability": 63.7,
-      "market_probability": 63.7,
-      "edge_percent": 0,
-      "data_completeness": 37,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Yüksek",
-      "status": "won",
-      "result": "won",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|ingiltere kadinlar premier lig|birmingham cit brighton hove|ms 2|16 00",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "title": "Birmingham Cit - Brighton & Hove",
-      "match": "Birmingham Cit - Brighton & Hove",
-      "market": "MS 2",
-      "prediction": "MS 2",
-      "odds": "1.44",
-      "score": "2-2",
-      "result_score": "2-2",
-      "confidence": "54%",
-      "confidence_score": "54%",
-      "model_score": 54,
-      "estimated_probability": 57.4,
-      "market_probability": 57.4,
-      "edge_percent": 0,
-      "data_completeness": 38,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Yüksek",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|ingiltere kadinlar premier lig|liverpool k tottenham hotsp|2 5 ust|16 00",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "title": "Liverpool (K) - Tottenham Hotsp",
-      "match": "Liverpool (K) - Tottenham Hotsp",
-      "market": "2.5 Üst",
-      "prediction": "2.5 Üst",
-      "odds": "1.65",
-      "score": "1-1",
-      "result_score": "1-1",
-      "confidence": "53%",
-      "confidence_score": "53%",
-      "model_score": 53,
-      "estimated_probability": 50,
-      "market_probability": 50,
-      "edge_percent": 0,
-      "data_completeness": 37,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Yüksek",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|ingiltere premier lig|coventry brighton|2 5 alt|16 00",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "title": "Coventry - Brighton",
-      "match": "Coventry - Brighton",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "odds": "1.86",
-      "score": "0-5",
-      "result_score": "0-5",
-      "confidence": "57%",
-      "confidence_score": "57%",
-      "model_score": 57,
-      "estimated_probability": 44.8,
-      "market_probability": 45.6,
-      "edge_percent": -0.8,
-      "data_completeness": 47,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|italya serie a|lecce monza|2 5 alt|16 00",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "title": "Lecce - Monza",
-      "match": "Lecce - Monza",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "odds": "1.45",
-      "score": "3-2",
-      "result_score": "3-2",
-      "confidence": "63%",
-      "confidence_score": "63%",
-      "model_score": 63,
-      "estimated_probability": 56.8,
-      "market_probability": 58.6,
-      "edge_percent": -1.7,
-      "data_completeness": 49,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|fransa ligue 1|lille troyes|ms 1|16 00",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "title": "Lille - Troyes",
-      "match": "Lille - Troyes",
-      "market": "MS 1",
-      "prediction": "MS 1",
-      "odds": "1.28",
-      "score": "2-0",
-      "result_score": "2-0",
-      "confidence": "72%",
-      "confidence_score": "72%",
-      "model_score": 72,
-      "estimated_probability": 64.7,
-      "market_probability": 66.4,
-      "edge_percent": -1.7,
-      "data_completeness": 59,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|hollanda eredivisie|heerenveen telstar|ms 1|15 30",
-      "date": "2026-09-13",
-      "time": "15:30",
-      "title": "Heerenveen - Telstar",
-      "match": "Heerenveen - Telstar",
-      "market": "MS 1",
-      "prediction": "MS 1",
-      "odds": "1.44",
-      "score": "0-0",
-      "result_score": "0-0",
-      "confidence": "59%",
-      "confidence_score": "59%",
-      "model_score": 59,
-      "estimated_probability": 51.2,
-      "market_probability": 58.8,
-      "edge_percent": -7.6,
-      "data_completeness": 56,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|danimarka superlig|silkeborg viborg|2 5 alt|15 00",
-      "date": "2026-09-13",
-      "time": "15:00",
-      "title": "Silkeborg - Viborg",
-      "match": "Silkeborg - Viborg",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "odds": "2.21",
-      "score": "1-1",
-      "result_score": "1-1",
-      "confidence": "62%",
-      "confidence_score": "62%",
-      "model_score": 62,
-      "estimated_probability": 43.1,
-      "market_probability": 38.4,
-      "edge_percent": 4.6,
-      "data_completeness": 54,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-13T19:00:09.973Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|danimarka superlig|silkeborg viborg|kg var|15 00",
-      "date": "2026-09-13",
-      "time": "15:00",
-      "title": "Silkeborg - Viborg",
-      "match": "Silkeborg - Viborg",
-      "market": "KG Var",
-      "prediction": "KG Var",
-      "odds": "1.66",
-      "score": "1-1",
-      "result_score": "1-1",
-      "confidence": "60%",
-      "confidence_score": "60%",
-      "model_score": 60,
-      "estimated_probability": 46.9,
-      "market_probability": 40.5,
-      "edge_percent": 6.4,
-      "data_completeness": 44,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "btts",
-      "market_group_label": "Karşılıklı Gol",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|danimarka superlig|silkeborg viborg|ms 2|15 00",
-      "date": "2026-09-13",
-      "time": "15:00",
-      "title": "Silkeborg - Viborg",
-      "match": "Silkeborg - Viborg",
-      "market": "MS 2",
-      "prediction": "MS 2",
-      "odds": "1.71",
-      "score": "1-1",
-      "result_score": "1-1",
-      "confidence": "51%",
-      "confidence_score": "51%",
-      "model_score": 51,
-      "estimated_probability": 49.7,
-      "market_probability": 49.7,
-      "edge_percent": 0,
-      "data_completeness": 41,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Yüksek",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|isvec allsvenskan|elfsborg kalmar|2 5 alt|15 00",
-      "date": "2026-09-13",
-      "time": "15:00",
-      "title": "Elfsborg - Kalmar",
-      "match": "Elfsborg - Kalmar",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "odds": "1.74",
-      "score": "1-0",
-      "result_score": "1-0",
-      "confidence": "73%",
-      "confidence_score": "73%",
-      "model_score": 73,
-      "estimated_probability": 57.3,
-      "market_probability": 48.7,
-      "edge_percent": 8.7,
-      "data_completeness": 61,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|ispanya laliga|celta vigo malaga|2 5 alt|15 00",
-      "date": "2026-09-13",
-      "time": "15:00",
-      "title": "Celta Vigo - Malaga",
-      "match": "Celta Vigo - Malaga",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "odds": "1.55",
-      "score": "1-1",
-      "result_score": "1-1",
-      "confidence": "72%",
-      "confidence_score": "72%",
-      "model_score": 72,
-      "estimated_probability": 57.7,
-      "market_probability": 54.9,
-      "edge_percent": 2.7,
-      "data_completeness": 64,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|ispanya 2 lig|sporting gijon eldense|2 5 alt|15 00",
-      "date": "2026-09-13",
-      "time": "15:00",
-      "title": "Sporting Gijon - Eldense",
-      "match": "Sporting Gijon - Eldense",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "odds": "1.52",
-      "score": "0-1",
-      "result_score": "0-1",
-      "confidence": "73%",
-      "confidence_score": "73%",
-      "model_score": 73,
-      "estimated_probability": 62.4,
-      "market_probability": 55.9,
-      "edge_percent": 6.4,
-      "data_completeness": 61,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-13T16:30:02.262Z",
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-13|rusya premier lig|akhmat grozny makhachkala|2 5 ust|14 30",
-      "date": "2026-09-13",
-      "time": "14:30",
-      "title": "Akhmat Grozny - Makhachkala",
-      "match": "Akhmat Grozny - Makhachkala",
-      "market": "2.5 Üst",
-      "prediction": "2.5 Üst",
-      "odds": "2.03",
-      "score": "3-2",
-      "result_score": "3-2",
-      "confidence": "69%",
-      "confidence_score": "69%",
-      "model_score": 69,
-      "estimated_probability": 47.9,
-      "market_probability": 41.8,
-      "edge_percent": 6,
-      "data_completeness": 61,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-13T19:00:09.973Z",
-      "source": "Robot ham veri havuzu"
     }
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 369,
-    "pending_count": 1131,
-    "won_count": 205,
-    "lost_count": 164,
+    "measured_count": 390,
+    "pending_count": 1110,
+    "won_count": 219,
+    "lost_count": 171,
     "void_count": 0,
     "success_rate": 56,
-    "probability_sample_count": 369,
-    "brier_score": 0.239,
-    "baseline_brier_score": 0.2469,
-    "brier_skill_score": 0.032,
+    "probability_sample_count": 390,
+    "brier_score": 0.2402,
+    "baseline_brier_score": 0.2462,
+    "brier_skill_score": 0.0243,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
         "lower": 30,
         "upper": 39,
-        "predictions": 37,
-        "won": 13,
-        "average_probability": 36.7,
-        "observed_rate": 35.1
+        "predictions": 38,
+        "won": 14,
+        "average_probability": 36.6,
+        "observed_rate": 36.8
       },
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 137,
-        "won": 72,
-        "average_probability": 45.4,
-        "observed_rate": 52.6
+        "predictions": 150,
+        "won": 81,
+        "average_probability": 45.3,
+        "observed_rate": 54
       },
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 151,
-        "won": 85,
+        "predictions": 156,
+        "won": 88,
         "average_probability": 54.3,
-        "observed_rate": 56.3
+        "observed_rate": 56.4
       },
       {
         "lower": 60,
         "upper": 69,
-        "predictions": 42,
-        "won": 33,
+        "predictions": 44,
+        "won": 34,
         "average_probability": 63,
-        "observed_rate": 78.6
+        "observed_rate": 77.3
       },
       {
         "lower": 70,
@@ -38472,31 +38351,31 @@
         "observed_rate": 100
       }
     ],
-    "verified_at": "2026-09-16T20:27:53.315Z",
+    "verified_at": "2026-09-16T23:17:52.283Z",
     "groups": [
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 203,
-        "won": 120,
-        "lost": 83,
+        "measured": 213,
+        "won": 125,
+        "lost": 88,
         "success_rate": 59
       },
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 157,
-        "won": 80,
-        "lost": 77,
-        "success_rate": 51
+        "measured": 165,
+        "won": 87,
+        "lost": 78,
+        "success_rate": 53
       },
       {
         "key": "btts",
         "label": "Karşılıklı Gol",
-        "measured": 9,
-        "won": 5,
-        "lost": 4,
-        "success_rate": 56
+        "measured": 12,
+        "won": 7,
+        "lost": 5,
+        "success_rate": 58
       }
     ]
   },
@@ -38519,5 +38398,5 @@
     "İY/MS 2/X",
     "İY/MS 2/2"
   ],
-  "focused_market_note": "First half result, second half result and HT/FT markets are focus markets."
+  "focused_market_note": "Robot analiz çıktısı siteye bağlandı."
 }

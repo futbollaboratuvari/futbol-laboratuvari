@@ -3,15 +3,14 @@
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
 Ham mac: 119
-Aktif mac: 106
+Aktif mac: 105
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 13
-Bugun: 98
+Bultenden dusurulen mac: 14
+Bugun: 97
 Yarin: 8
 
 ## Baslamamis Maclar
-- 2026-09-17 02:15 | Kolombiya Primera A Clausura | Once Caldas - Deportes Tolima | scheduled | -
 - 2026-09-17 02:30 | Venezuela Premier Lig Clausura | Metropolitanos - Caracas Fc | scheduled | -
 - 2026-09-17 02:30 | ABD USL Lig 1 | Fort Wayne - One Knoxville | scheduled | -
 - 2026-09-17 03:00 | Kuzey Amerika Şampiyonlar Kupası Final | Inter Miami - Cruz Azul | scheduled | -

@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 119
+- Scheduled match count: 106
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-17 / 2026-09-18 23:59
 
-- 2026-09-17 01:00 | Hartford Athle - Sporting Jax | scheduled
-- 2026-09-17 01:00 | Rivadavia - Atletico Tucuma | scheduled
-- 2026-09-17 01:00 | Nacional Potos - Always Ready | scheduled
-- 2026-09-17 01:00 | Ldu Quito (0) - (1) Palmeiras | scheduled
-- 2026-09-17 01:00 | Atletico Mg (0) - (2) Santos | scheduled
-- 2026-09-17 01:00 | Monagas - Zamora | scheduled
-- 2026-09-17 01:30 | Botafogo - Gremio | scheduled
-- 2026-09-17 02:00 | Columbus - Orlando City | scheduled
-- 2026-09-17 02:00 | Real Monarchs - Minnesota Unite | scheduled
-- 2026-09-17 02:00 | Chattanooga Re - Forward Madison | scheduled
+- 2026-09-17 02:30 | Fort Wayne - One Knoxville | scheduled
+- 2026-09-17 02:30 | Metropolitanos - Caracas Fc | scheduled
+- 2026-09-17 03:00 | Inter Miami - Cruz Azul | scheduled
+- 2026-09-17 03:30 | Birmingham Leg - New Mexico Unit | scheduled
+- 2026-09-17 03:30 | Blooming - Universitario D | scheduled
+- 2026-09-17 03:30 | Cs Cartagines (2) - (2) Deportivo Sapri | scheduled
+- 2026-09-17 03:30 | Corinthians (1) - (1) Estudiantes Lp | scheduled
+- 2026-09-17 04:00 | Real Monarchs - Minnesota Unite | scheduled
+- 2026-09-17 04:00 | Athletic Club - Charlotte Indep | scheduled
+- 2026-09-17 04:00 | Inter Fa - Deportivo Fas | scheduled
