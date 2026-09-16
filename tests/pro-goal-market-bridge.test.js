@@ -112,4 +112,24 @@ const labelFixture = {
 assert.equal(findMarketOdd([labelFixture], "goals6plus"), 5.2);
 assert.equal(findMarketOdd([labelFixture], "over35"), 2.15);
 
+const percentMasqueradingAsOdd = {
+  raw_market_guess_odds: { over25: 1.78 },
+  raw_market_blocks: [
+    { market: "Toplam Gol 3.5", option: "3.5 Üst", value: "17.50" },
+  ],
+  metrics: {
+    over35: 17.5,
+    over35Percent: 67,
+  },
+};
+assert.equal(findMarketOdd([percentMasqueradingAsOdd], "over35"), null);
+
+const staleBridgeFixture = {
+  goal_market_bridge_version: "pro-goal-market-bridge-v1",
+  available_odds: { over25: 1.78, over35: 17.50 },
+  odds: { over25: 1.78, over35: 17.50 },
+  raw_market_guess_odds: { over25: 1.78 },
+};
+assert.equal(findMarketOdd([staleBridgeFixture], "over35"), null);
+
 process.stdout.write("pro-goal-market-bridge.test.js OK\n");
