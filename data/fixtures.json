@@ -1,970 +1,6 @@
 [
   {
     "date": "2026-09-16",
-    "time": "18:30",
-    "league": "Rusya Premier Lig",
-    "home": "Spartak Moskov",
-    "away": "Fakel Voronezh",
-    "status": "scheduled",
-    "liveStatus": "scheduled",
-    "status_verified": false,
-    "status_source": "schedule_only",
-    "minute": null,
-    "homeScore": null,
-    "awayScore": null,
-    "score": "",
-    "lastLiveUpdate": null,
-    "source": "Maçkolik canlı robot",
-    "matchCode": "14936",
-    "oddsSource": "Robot ham veri havuzu",
-    "one": 1.2,
-    "oneOdd": 1.2,
-    "ms1": 1.2,
-    "odd1": 1.2,
-    "draw": 4.74,
-    "drawOdd": 4.74,
-    "msx": 4.74,
-    "oddX": 4.74,
-    "two": 7.71,
-    "twoOdd": 7.71,
-    "ms2": 7.71,
-    "odd2": 7.71,
-    "under25": 1.93,
-    "alt25": 1.93,
-    "under": 1.93,
-    "alt": 1.93,
-    "over25": 1.51,
-    "ust25": 1.51,
-    "over": 1.51,
-    "ust": 1.51,
-    "raw_market_blocks": [
-      {
-        "market_code": "14936",
-        "values": [
-          1.2,
-          4.74,
-          7.71
-        ],
-        "guess": "Maç Sonucu 1/X/2",
-        "named_values": {
-          "ms1": 1.2,
-          "msx": 4.74,
-          "ms2": 7.71
-        },
-        "detail_market_candidates": [
-          {
-            "market": "Maç Sonucu 1/X/2",
-            "values": {
-              "ms1": 1.2,
-              "msx": 4.74,
-              "ms2": 7.71
-            }
-          },
-          {
-            "market": "İlk Yarı 1/X/2",
-            "values": {
-              "firstHalf1_guess": 1.2,
-              "firstHalfX_guess": 4.74,
-              "firstHalf2_guess": 7.71
-            }
-          },
-          {
-            "market": "İkinci Yarı 1/X/2",
-            "values": {
-              "secondHalf1_guess": 1.2,
-              "secondHalfX_guess": 4.74,
-              "secondHalf2_guess": 7.71
-            }
-          },
-          {
-            "market": "Handikap 1/X/2",
-            "values": {
-              "handicap1_guess": 1.2,
-              "handicapX_guess": 4.74,
-              "handicap2_guess": 7.71
-            }
-          }
-        ]
-      },
-      {
-        "market_code": "14980",
-        "values": [
-          1.93,
-          1.51
-        ],
-        "guess": "2.5 Alt / Üst",
-        "named_values": {
-          "under25": 1.93,
-          "over25": 1.51
-        },
-        "detail_market_candidates": [
-          {
-            "market": "KG Var / Yok",
-            "values": {
-              "bttsYes_guess": 1.93,
-              "bttsNo_guess": 1.51
-            }
-          },
-          {
-            "market": "İlk Yarı KG Var / Yok",
-            "values": {
-              "firstHalfBttsYes_guess": 1.93,
-              "firstHalfBttsNo_guess": 1.51
-            }
-          },
-          {
-            "market": "İkinci Yarı KG Var / Yok",
-            "values": {
-              "secondHalfBttsYes_guess": 1.93,
-              "secondHalfBttsNo_guess": 1.51
-            }
-          },
-          {
-            "market": "0.5 Alt / Üst",
-            "values": {
-              "under05_guess": 1.93,
-              "over05_guess": 1.51
-            }
-          },
-          {
-            "market": "1.5 Alt / Üst",
-            "values": {
-              "under15_guess": 1.93,
-              "over15_guess": 1.51
-            }
-          },
-          {
-            "market": "2.5 Alt / Üst",
-            "values": {
-              "under25_guess": 1.93,
-              "over25_guess": 1.51
-            }
-          },
-          {
-            "market": "3.5 Alt / Üst",
-            "values": {
-              "under35_guess": 1.93,
-              "over35_guess": 1.51
-            }
-          },
-          {
-            "market": "4.5 Alt / Üst",
-            "values": {
-              "under45_guess": 1.93,
-              "over45_guess": 1.51
-            }
-          },
-          {
-            "market": "İlk Yarı 0.5 Alt / Üst",
-            "values": {
-              "firstHalfUnder05_guess": 1.93,
-              "firstHalfOver05_guess": 1.51
-            }
-          },
-          {
-            "market": "İlk Yarı 1.5 Alt / Üst",
-            "values": {
-              "firstHalfUnder15_guess": 1.93,
-              "firstHalfOver15_guess": 1.51
-            }
-          },
-          {
-            "market": "İkinci Yarı 0.5 Alt / Üst",
-            "values": {
-              "secondHalfUnder05_guess": 1.93,
-              "secondHalfOver05_guess": 1.51
-            }
-          },
-          {
-            "market": "İkinci Yarı 1.5 Alt / Üst",
-            "values": {
-              "secondHalfUnder15_guess": 1.93,
-              "secondHalfOver15_guess": 1.51
-            }
-          },
-          {
-            "market": "Ev Sahibi 1.5 Alt / Üst",
-            "values": {
-              "homeUnder15_guess": 1.93,
-              "homeOver15_guess": 1.51
-            }
-          },
-          {
-            "market": "Deplasman 1.5 Alt / Üst",
-            "values": {
-              "awayUnder15_guess": 1.93,
-              "awayOver15_guess": 1.51
-            }
-          }
-        ]
-      },
-      {
-        "market_code": "14938",
-        "values": [
-          2.8
-        ],
-        "guess": "Ham detay market",
-        "named_values": {},
-        "detail_market_candidates": []
-      }
-    ],
-    "raw_market_guess_odds": {
-      "ms1": 1.2,
-      "msx": 4.74,
-      "ms2": 7.71,
-      "under25": 1.93,
-      "over25": 1.51
-    },
-    "detail_market_candidates": [
-      {
-        "market_code": "14936",
-        "market": "Maç Sonucu 1/X/2",
-        "values": {
-          "ms1": 1.2,
-          "msx": 4.74,
-          "ms2": 7.71
-        }
-      },
-      {
-        "market_code": "14936",
-        "market": "İlk Yarı 1/X/2",
-        "values": {
-          "firstHalf1_guess": 1.2,
-          "firstHalfX_guess": 4.74,
-          "firstHalf2_guess": 7.71
-        }
-      },
-      {
-        "market_code": "14936",
-        "market": "İkinci Yarı 1/X/2",
-        "values": {
-          "secondHalf1_guess": 1.2,
-          "secondHalfX_guess": 4.74,
-          "secondHalf2_guess": 7.71
-        }
-      },
-      {
-        "market_code": "14936",
-        "market": "Handikap 1/X/2",
-        "values": {
-          "handicap1_guess": 1.2,
-          "handicapX_guess": 4.74,
-          "handicap2_guess": 7.71
-        }
-      },
-      {
-        "market_code": "14980",
-        "market": "KG Var / Yok",
-        "values": {
-          "bttsYes_guess": 1.93,
-          "bttsNo_guess": 1.51
-        }
-      },
-      {
-        "market_code": "14980",
-        "market": "İlk Yarı KG Var / Yok",
-        "values": {
-          "firstHalfBttsYes_guess": 1.93,
-          "firstHalfBttsNo_guess": 1.51
-        }
-      },
-      {
-        "market_code": "14980",
-        "market": "İkinci Yarı KG Var / Yok",
-        "values": {
-          "secondHalfBttsYes_guess": 1.93,
-          "secondHalfBttsNo_guess": 1.51
-        }
-      },
-      {
-        "market_code": "14980",
-        "market": "0.5 Alt / Üst",
-        "values": {
-          "under05_guess": 1.93,
-          "over05_guess": 1.51
-        }
-      },
-      {
-        "market_code": "14980",
-        "market": "1.5 Alt / Üst",
-        "values": {
-          "under15_guess": 1.93,
-          "over15_guess": 1.51
-        }
-      },
-      {
-        "market_code": "14980",
-        "market": "2.5 Alt / Üst",
-        "values": {
-          "under25_guess": 1.93,
-          "over25_guess": 1.51
-        }
-      },
-      {
-        "market_code": "14980",
-        "market": "3.5 Alt / Üst",
-        "values": {
-          "under35_guess": 1.93,
-          "over35_guess": 1.51
-        }
-      },
-      {
-        "market_code": "14980",
-        "market": "4.5 Alt / Üst",
-        "values": {
-          "under45_guess": 1.93,
-          "over45_guess": 1.51
-        }
-      },
-      {
-        "market_code": "14980",
-        "market": "İlk Yarı 0.5 Alt / Üst",
-        "values": {
-          "firstHalfUnder05_guess": 1.93,
-          "firstHalfOver05_guess": 1.51
-        }
-      },
-      {
-        "market_code": "14980",
-        "market": "İlk Yarı 1.5 Alt / Üst",
-        "values": {
-          "firstHalfUnder15_guess": 1.93,
-          "firstHalfOver15_guess": 1.51
-        }
-      },
-      {
-        "market_code": "14980",
-        "market": "İkinci Yarı 0.5 Alt / Üst",
-        "values": {
-          "secondHalfUnder05_guess": 1.93,
-          "secondHalfOver05_guess": 1.51
-        }
-      },
-      {
-        "market_code": "14980",
-        "market": "İkinci Yarı 1.5 Alt / Üst",
-        "values": {
-          "secondHalfUnder15_guess": 1.93,
-          "secondHalfOver15_guess": 1.51
-        }
-      },
-      {
-        "market_code": "14980",
-        "market": "Ev Sahibi 1.5 Alt / Üst",
-        "values": {
-          "homeUnder15_guess": 1.93,
-          "homeOver15_guess": 1.51
-        }
-      },
-      {
-        "market_code": "14980",
-        "market": "Deplasman 1.5 Alt / Üst",
-        "values": {
-          "awayUnder15_guess": 1.93,
-          "awayOver15_guess": 1.51
-        }
-      }
-    ],
-    "raw_market_block_count": 3,
-    "raw_market_value_count": 6,
-    "raw_market_source": "Robot ham veri hücreleri",
-    "homeScoredLast10": 3,
-    "awayScoredLast10": 2,
-    "homeConcededLast10": 1,
-    "awayConcededLast10": 3,
-    "bttsPercent": 42,
-    "over25Percent": 42,
-    "over35Percent": 25,
-    "firstHalfGoalTrend": 35,
-    "secondHalfGoalTrend": 48,
-    "leagueGoalAverage": 2.9,
-    "available_odds": {
-      "ms1": 1.2,
-      "msx": 4.74,
-      "ms2": 7.71,
-      "under25": 1.93,
-      "over25": 1.51,
-      "bttsYes_guess": 1.05,
-      "bttsNo_guess": 2.58
-    },
-    "market_odds_inventory": [
-      "ms1",
-      "msx",
-      "ms2",
-      "under25",
-      "over25",
-      "bttsYes_guess",
-      "bttsNo_guess"
-    ],
-    "wide_market_odds_count": 7,
-    "wide_market_learning_source": "fixture_odds_inventory",
-    "metric_source": "archive_plus_odds",
-    "metric_quality": "medium",
-    "metric_notes": [
-      "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi."
-    ],
-    "home_form_profile": {
-      "played": 3,
-      "scored": 3,
-      "conceded": 1,
-      "bttsPercent": 33,
-      "over25Percent": 33,
-      "over35Percent": 0,
-      "goalsForAvg": 2,
-      "goalsAgainstAvg": 0.33
-    },
-    "away_form_profile": {
-      "played": 4,
-      "scored": 2,
-      "conceded": 3,
-      "bttsPercent": 50,
-      "over25Percent": 50,
-      "over35Percent": 50,
-      "goalsForAvg": 0.75,
-      "goalsAgainstAvg": 1.5
-    },
-    "league_goal_profile": {
-      "played": 21,
-      "goalAverage": 2.9,
-      "bttsPercent": 67,
-      "over25Percent": 52,
-      "over35Percent": 38
-    }
-  },
-  {
-    "date": "2026-09-16",
-    "time": "18:30",
-    "league": "Rusya Premier Lig",
-    "home": "Fk Rodina Mosk",
-    "away": "Rubin Kazan",
-    "status": "scheduled",
-    "liveStatus": "scheduled",
-    "status_verified": false,
-    "status_source": "schedule_only",
-    "minute": null,
-    "homeScore": null,
-    "awayScore": null,
-    "score": "",
-    "lastLiveUpdate": null,
-    "source": "Maçkolik canlı robot",
-    "matchCode": "14813",
-    "oddsSource": "Robot ham veri havuzu",
-    "one": 2.82,
-    "oneOdd": 2.82,
-    "ms1": 2.82,
-    "odd1": 2.82,
-    "draw": 2.98,
-    "drawOdd": 2.98,
-    "msx": 2.98,
-    "oddX": 2.98,
-    "two": 2.06,
-    "twoOdd": 2.06,
-    "ms2": 2.06,
-    "odd2": 2.06,
-    "under25": 1.58,
-    "alt25": 1.58,
-    "under": 1.58,
-    "alt": 1.58,
-    "over25": 1.84,
-    "ust25": 1.84,
-    "over": 1.84,
-    "ust": 1.84,
-    "raw_market_blocks": [
-      {
-        "market_code": "14813",
-        "values": [
-          2.82,
-          2.98,
-          2.06
-        ],
-        "guess": "Maç Sonucu 1/X/2",
-        "named_values": {
-          "ms1": 2.82,
-          "msx": 2.98,
-          "ms2": 2.06
-        },
-        "detail_market_candidates": [
-          {
-            "market": "Maç Sonucu 1/X/2",
-            "values": {
-              "ms1": 2.82,
-              "msx": 2.98,
-              "ms2": 2.06
-            }
-          },
-          {
-            "market": "İlk Yarı 1/X/2",
-            "values": {
-              "firstHalf1_guess": 2.82,
-              "firstHalfX_guess": 2.98,
-              "firstHalf2_guess": 2.06
-            }
-          },
-          {
-            "market": "İkinci Yarı 1/X/2",
-            "values": {
-              "secondHalf1_guess": 2.82,
-              "secondHalfX_guess": 2.98,
-              "secondHalf2_guess": 2.06
-            }
-          },
-          {
-            "market": "Handikap 1/X/2",
-            "values": {
-              "handicap1_guess": 2.82,
-              "handicapX_guess": 2.98,
-              "handicap2_guess": 2.06
-            }
-          }
-        ]
-      },
-      {
-        "market_code": "14834",
-        "values": [
-          1.58,
-          1.84
-        ],
-        "guess": "2.5 Alt / Üst",
-        "named_values": {
-          "under25": 1.58,
-          "over25": 1.84
-        },
-        "detail_market_candidates": [
-          {
-            "market": "KG Var / Yok",
-            "values": {
-              "bttsYes_guess": 1.58,
-              "bttsNo_guess": 1.84
-            }
-          },
-          {
-            "market": "İlk Yarı KG Var / Yok",
-            "values": {
-              "firstHalfBttsYes_guess": 1.58,
-              "firstHalfBttsNo_guess": 1.84
-            }
-          },
-          {
-            "market": "İkinci Yarı KG Var / Yok",
-            "values": {
-              "secondHalfBttsYes_guess": 1.58,
-              "secondHalfBttsNo_guess": 1.84
-            }
-          },
-          {
-            "market": "0.5 Alt / Üst",
-            "values": {
-              "under05_guess": 1.58,
-              "over05_guess": 1.84
-            }
-          },
-          {
-            "market": "1.5 Alt / Üst",
-            "values": {
-              "under15_guess": 1.58,
-              "over15_guess": 1.84
-            }
-          },
-          {
-            "market": "2.5 Alt / Üst",
-            "values": {
-              "under25_guess": 1.58,
-              "over25_guess": 1.84
-            }
-          },
-          {
-            "market": "3.5 Alt / Üst",
-            "values": {
-              "under35_guess": 1.58,
-              "over35_guess": 1.84
-            }
-          },
-          {
-            "market": "4.5 Alt / Üst",
-            "values": {
-              "under45_guess": 1.58,
-              "over45_guess": 1.84
-            }
-          },
-          {
-            "market": "İlk Yarı 0.5 Alt / Üst",
-            "values": {
-              "firstHalfUnder05_guess": 1.58,
-              "firstHalfOver05_guess": 1.84
-            }
-          },
-          {
-            "market": "İlk Yarı 1.5 Alt / Üst",
-            "values": {
-              "firstHalfUnder15_guess": 1.58,
-              "firstHalfOver15_guess": 1.84
-            }
-          },
-          {
-            "market": "İkinci Yarı 0.5 Alt / Üst",
-            "values": {
-              "secondHalfUnder05_guess": 1.58,
-              "secondHalfOver05_guess": 1.84
-            }
-          },
-          {
-            "market": "İkinci Yarı 1.5 Alt / Üst",
-            "values": {
-              "secondHalfUnder15_guess": 1.58,
-              "secondHalfOver15_guess": 1.84
-            }
-          },
-          {
-            "market": "Ev Sahibi 1.5 Alt / Üst",
-            "values": {
-              "homeUnder15_guess": 1.58,
-              "homeOver15_guess": 1.84
-            }
-          },
-          {
-            "market": "Deplasman 1.5 Alt / Üst",
-            "values": {
-              "awayUnder15_guess": 1.58,
-              "awayOver15_guess": 1.84
-            }
-          }
-        ]
-      },
-      {
-        "market_code": "14814",
-        "values": [
-          1.44,
-          1.2,
-          1.22
-        ],
-        "guess": "KG Var / Yok tahmini",
-        "named_values": {
-          "bttsYes_guess": 1.44,
-          "bttsNo_guess": 1.2
-        },
-        "detail_market_candidates": [
-          {
-            "market": "Maç Sonucu 1/X/2",
-            "values": {
-              "ms1": 1.44,
-              "msx": 1.2,
-              "ms2": 1.22
-            }
-          },
-          {
-            "market": "İlk Yarı 1/X/2",
-            "values": {
-              "firstHalf1_guess": 1.44,
-              "firstHalfX_guess": 1.2,
-              "firstHalf2_guess": 1.22
-            }
-          },
-          {
-            "market": "İkinci Yarı 1/X/2",
-            "values": {
-              "secondHalf1_guess": 1.44,
-              "secondHalfX_guess": 1.2,
-              "secondHalf2_guess": 1.22
-            }
-          },
-          {
-            "market": "Handikap 1/X/2",
-            "values": {
-              "handicap1_guess": 1.44,
-              "handicapX_guess": 1.2,
-              "handicap2_guess": 1.22
-            }
-          }
-        ]
-      }
-    ],
-    "raw_market_guess_odds": {
-      "ms1": 2.82,
-      "msx": 2.98,
-      "ms2": 2.06,
-      "under25": 1.58,
-      "over25": 1.84,
-      "bttsYes_guess": 1.44,
-      "bttsNo_guess": 1.2
-    },
-    "detail_market_candidates": [
-      {
-        "market_code": "14813",
-        "market": "Maç Sonucu 1/X/2",
-        "values": {
-          "ms1": 2.82,
-          "msx": 2.98,
-          "ms2": 2.06
-        }
-      },
-      {
-        "market_code": "14813",
-        "market": "İlk Yarı 1/X/2",
-        "values": {
-          "firstHalf1_guess": 2.82,
-          "firstHalfX_guess": 2.98,
-          "firstHalf2_guess": 2.06
-        }
-      },
-      {
-        "market_code": "14813",
-        "market": "İkinci Yarı 1/X/2",
-        "values": {
-          "secondHalf1_guess": 2.82,
-          "secondHalfX_guess": 2.98,
-          "secondHalf2_guess": 2.06
-        }
-      },
-      {
-        "market_code": "14813",
-        "market": "Handikap 1/X/2",
-        "values": {
-          "handicap1_guess": 2.82,
-          "handicapX_guess": 2.98,
-          "handicap2_guess": 2.06
-        }
-      },
-      {
-        "market_code": "14834",
-        "market": "KG Var / Yok",
-        "values": {
-          "bttsYes_guess": 1.58,
-          "bttsNo_guess": 1.84
-        }
-      },
-      {
-        "market_code": "14834",
-        "market": "İlk Yarı KG Var / Yok",
-        "values": {
-          "firstHalfBttsYes_guess": 1.58,
-          "firstHalfBttsNo_guess": 1.84
-        }
-      },
-      {
-        "market_code": "14834",
-        "market": "İkinci Yarı KG Var / Yok",
-        "values": {
-          "secondHalfBttsYes_guess": 1.58,
-          "secondHalfBttsNo_guess": 1.84
-        }
-      },
-      {
-        "market_code": "14834",
-        "market": "0.5 Alt / Üst",
-        "values": {
-          "under05_guess": 1.58,
-          "over05_guess": 1.84
-        }
-      },
-      {
-        "market_code": "14834",
-        "market": "1.5 Alt / Üst",
-        "values": {
-          "under15_guess": 1.58,
-          "over15_guess": 1.84
-        }
-      },
-      {
-        "market_code": "14834",
-        "market": "2.5 Alt / Üst",
-        "values": {
-          "under25_guess": 1.58,
-          "over25_guess": 1.84
-        }
-      },
-      {
-        "market_code": "14834",
-        "market": "3.5 Alt / Üst",
-        "values": {
-          "under35_guess": 1.58,
-          "over35_guess": 1.84
-        }
-      },
-      {
-        "market_code": "14834",
-        "market": "4.5 Alt / Üst",
-        "values": {
-          "under45_guess": 1.58,
-          "over45_guess": 1.84
-        }
-      },
-      {
-        "market_code": "14834",
-        "market": "İlk Yarı 0.5 Alt / Üst",
-        "values": {
-          "firstHalfUnder05_guess": 1.58,
-          "firstHalfOver05_guess": 1.84
-        }
-      },
-      {
-        "market_code": "14834",
-        "market": "İlk Yarı 1.5 Alt / Üst",
-        "values": {
-          "firstHalfUnder15_guess": 1.58,
-          "firstHalfOver15_guess": 1.84
-        }
-      },
-      {
-        "market_code": "14834",
-        "market": "İkinci Yarı 0.5 Alt / Üst",
-        "values": {
-          "secondHalfUnder05_guess": 1.58,
-          "secondHalfOver05_guess": 1.84
-        }
-      },
-      {
-        "market_code": "14834",
-        "market": "İkinci Yarı 1.5 Alt / Üst",
-        "values": {
-          "secondHalfUnder15_guess": 1.58,
-          "secondHalfOver15_guess": 1.84
-        }
-      },
-      {
-        "market_code": "14834",
-        "market": "Ev Sahibi 1.5 Alt / Üst",
-        "values": {
-          "homeUnder15_guess": 1.58,
-          "homeOver15_guess": 1.84
-        }
-      },
-      {
-        "market_code": "14834",
-        "market": "Deplasman 1.5 Alt / Üst",
-        "values": {
-          "awayUnder15_guess": 1.58,
-          "awayOver15_guess": 1.84
-        }
-      },
-      {
-        "market_code": "14814",
-        "market": "Maç Sonucu 1/X/2",
-        "values": {
-          "ms1": 1.44,
-          "msx": 1.2,
-          "ms2": 1.22
-        }
-      },
-      {
-        "market_code": "14814",
-        "market": "İlk Yarı 1/X/2",
-        "values": {
-          "firstHalf1_guess": 1.44,
-          "firstHalfX_guess": 1.2,
-          "firstHalf2_guess": 1.22
-        }
-      },
-      {
-        "market_code": "14814",
-        "market": "İkinci Yarı 1/X/2",
-        "values": {
-          "secondHalf1_guess": 1.44,
-          "secondHalfX_guess": 1.2,
-          "secondHalf2_guess": 1.22
-        }
-      },
-      {
-        "market_code": "14814",
-        "market": "Handikap 1/X/2",
-        "values": {
-          "handicap1_guess": 1.44,
-          "handicapX_guess": 1.2,
-          "handicap2_guess": 1.22
-        }
-      }
-    ],
-    "raw_market_block_count": 3,
-    "raw_market_value_count": 8,
-    "raw_market_source": "Robot ham veri hücreleri",
-    "homeScoredLast10": 0,
-    "awayScoredLast10": 4,
-    "homeConcededLast10": 1,
-    "awayConcededLast10": 4,
-    "bttsPercent": 67,
-    "over25Percent": 52,
-    "over35Percent": 38,
-    "firstHalfGoalTrend": 35,
-    "secondHalfGoalTrend": 53,
-    "leagueGoalAverage": 2.9,
-    "available_odds": {
-      "ms1": 2.82,
-      "msx": 2.98,
-      "ms2": 2.06,
-      "under25": 1.58,
-      "over25": 1.84,
-      "bttsYes_guess": 1.44,
-      "bttsNo_guess": 1.2
-    },
-    "market_odds_inventory": [
-      "ms1",
-      "msx",
-      "ms2",
-      "under25",
-      "over25",
-      "bttsYes_guess",
-      "bttsNo_guess"
-    ],
-    "wide_market_odds_count": 7,
-    "wide_market_learning_source": "fixture_odds_inventory",
-    "metric_source": "archive_plus_odds",
-    "metric_quality": "proxy",
-    "metric_notes": [
-      "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-      "Geniş market oran envanteri robot öğrenme verisine eklendi."
-    ],
-    "home_form_profile": {
-      "played": 1,
-      "scored": 0,
-      "conceded": 1,
-      "bttsPercent": 0,
-      "over25Percent": 100,
-      "over35Percent": 0,
-      "goalsForAvg": 0,
-      "goalsAgainstAvg": 3
-    },
-    "away_form_profile": {
-      "played": 4,
-      "scored": 4,
-      "conceded": 4,
-      "bttsPercent": 100,
-      "over25Percent": 25,
-      "over35Percent": 25,
-      "goalsForAvg": 1.5,
-      "goalsAgainstAvg": 1
-    },
-    "league_goal_profile": {
-      "played": 21,
-      "goalAverage": 2.9,
-      "bttsPercent": 67,
-      "over25Percent": 52,
-      "over35Percent": 38
-    }
-  },
-  {
-    "date": "2026-09-16",
     "time": "18:45",
     "league": "Litvanya A Ligi",
     "home": "Zalgiris Vilni",
@@ -1453,6 +489,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -1714,6 +751,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -2163,6 +1201,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -2694,6 +1733,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -3214,6 +2254,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -3250,14 +2291,14 @@
     "league": "AFC Şampiyonlar Ligi 2 Grup D",
     "home": "Al-Hussein",
     "away": "East-Bengal",
-    "status": "scheduled",
-    "liveStatus": "scheduled",
+    "status": "finished",
+    "liveStatus": "finished",
     "status_verified": false,
     "status_source": "schedule_only",
-    "minute": null,
-    "homeScore": null,
-    "awayScore": null,
-    "score": "",
+    "minute": 90,
+    "homeScore": 2,
+    "awayScore": 2,
+    "score": "2-2",
     "lastLiveUpdate": null,
     "source": "Maçkolik canlı robot",
     "matchCode": "02710",
@@ -3875,6 +2916,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -3903,7 +2945,13 @@
       "bttsPercent": null,
       "over25Percent": null,
       "over35Percent": null
-    }
+    },
+    "result_score": "2-2",
+    "inferred_finished": false,
+    "score_source": "ESPN Scoreboard",
+    "score_source_match_id": "401912812",
+    "score_updated_at": "2026-09-16T17:52:38.916Z",
+    "updated_at": "2026-09-16T17:52:38.916Z"
   },
   {
     "date": "2026-09-16",
@@ -4395,6 +3443,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -4839,6 +3888,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -5159,6 +4209,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -5496,6 +4547,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -5933,6 +4985,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -6127,6 +5180,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -6399,6 +5453,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -6687,6 +5742,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -6953,6 +6009,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -7471,6 +6528,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -7750,6 +6808,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -8097,6 +7156,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -8371,6 +7431,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -8560,6 +7621,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -8861,6 +7923,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -9053,6 +8116,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -9225,6 +8289,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -9897,6 +8962,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -10078,6 +9144,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -10596,6 +9663,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -10875,6 +9943,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -11382,6 +10451,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -11913,6 +10983,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -12242,6 +11313,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -12553,6 +11625,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -12725,6 +11798,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -12897,6 +11971,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -13212,6 +12287,7 @@
     "metric_quality": "medium",
     "metric_notes": [
       "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -13384,6 +12460,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -13558,6 +12635,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -13730,6 +12808,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -13902,6 +12981,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -14221,6 +13301,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -14752,6 +13833,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -15261,6 +14343,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -15792,6 +14875,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -16301,6 +15385,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -16832,6 +15917,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -17352,6 +16438,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -17618,6 +16705,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -18277,6 +17365,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -18706,6 +17795,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -19122,6 +18212,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -19631,6 +18722,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -20162,6 +19254,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -20682,6 +19775,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -21115,6 +20209,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -21646,6 +20741,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -22155,6 +21251,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -22686,6 +21783,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -23195,6 +22293,7 @@
     "metric_quality": "medium",
     "metric_notes": [
       "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -23867,6 +22966,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -24387,6 +23487,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -24896,6 +23997,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -25568,6 +24670,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -26077,6 +25180,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -26608,6 +25712,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -27128,6 +26233,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -27389,6 +26495,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -27671,6 +26778,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -28184,6 +27292,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -28479,6 +27588,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -28669,6 +27779,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -28946,6 +28057,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -29477,6 +28589,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -29992,6 +29105,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -30409,6 +29523,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -30858,6 +29973,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -31278,6 +30394,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -31798,6 +30915,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -32213,6 +31331,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -32722,6 +31841,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -33253,6 +32373,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -33757,6 +32878,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -34044,6 +33166,7 @@
     "metric_quality": "medium",
     "metric_notes": [
       "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -34486,6 +33609,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -34913,6 +34037,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -35107,6 +34232,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -35279,6 +34405,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -35703,6 +34830,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -36234,6 +35362,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -36736,6 +35865,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -36926,6 +36056,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -37435,6 +36566,7 @@
     "metric_quality": "medium",
     "metric_notes": [
       "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -38107,6 +37239,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -38616,6 +37749,7 @@
     "metric_quality": "medium",
     "metric_notes": [
       "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -39147,6 +38281,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -39580,6 +38715,7 @@
     "metric_quality": "medium",
     "metric_notes": [
       "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -40082,6 +39218,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -40626,6 +39763,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -41146,6 +40284,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -41579,6 +40718,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -42251,6 +41391,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -42760,6 +41901,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -43291,6 +42433,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -43636,6 +42779,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -44167,6 +43311,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -44676,6 +43821,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -45207,6 +44353,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -45716,6 +44863,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -46388,6 +45536,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -46897,6 +46046,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -47428,6 +46578,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -47919,6 +47070,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -48460,6 +47612,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -48988,6 +48141,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -49325,6 +48479,7 @@
     "metric_quality": "medium",
     "metric_notes": [
       "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -49986,6 +49141,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -50517,6 +49673,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -51026,6 +50183,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -51557,6 +50715,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -52066,6 +51225,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -52597,6 +51757,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -53117,6 +52278,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -53550,6 +52712,7 @@
     "metric_quality": "medium",
     "metric_notes": [
       "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -54081,6 +53244,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -54590,6 +53754,7 @@
     "metric_quality": "medium",
     "metric_notes": [
       "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -55121,6 +54286,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -55387,6 +54553,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -55918,6 +55085,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -56189,6 +55357,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -56720,6 +55889,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -57229,6 +56399,7 @@
     "metric_quality": "medium",
     "metric_notes": [
       "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -57760,6 +56931,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -58269,6 +57441,7 @@
     "metric_quality": "medium",
     "metric_notes": [
       "Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -58800,6 +57973,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -59320,6 +58494,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -59732,6 +58907,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -60263,6 +59439,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -60783,6 +59960,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -61065,6 +60243,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -61331,6 +60510,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
@@ -61862,6 +61042,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -62382,6 +61563,7 @@
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi."
     ],
     "home_form_profile": {
@@ -62891,6 +62073,7 @@
     "metric_quality": "proxy",
     "metric_notes": [
       "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",
       "Geniş market oran envanteri robot öğrenme verisine eklendi.",

@@ -2,23 +2,15 @@
 
 Gunler: 2026-09-16 / 2026-09-17
 Kaynak: fixtures.json
-Ham mac: 152
-Aktif mac: 69
+Ham mac: 143
+Aktif mac: 61
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 83
-Bugun: 42
+Bultenden dusurulen mac: 82
+Bugun: 34
 Yarin: 27
 
 ## Baslamamis Maclar
-- 2026-09-16 20:30 | İspanya Federasyon Kupası Son 16 Turu | Terrassa - Binefar | scheduled | -
-- 2026-09-16 20:30 | İspanya Federasyon Kupası Son 16 Turu | Comillas - Sestao | scheduled | -
-- 2026-09-16 20:30 | İsveç 2.Lig Norrland Yükselme Grubu | Skelleftea - Taftea | scheduled | -
-- 2026-09-16 20:30 | İspanya Gençler Onur Ligi Grup 4 | Tomares U18 - Utrera U19 | scheduled | -
-- 2026-09-16 20:30 | Almanya Bölgesel Lig Batı | B.Dortmund (Am - Westfalia Rhyne | scheduled | -
-- 2026-09-16 20:45 | Rusya Premier Lig | L.Moskova - Krylya Sovietov | scheduled | -
-- 2026-09-16 20:45 | Rusya Premier Lig | Baltika Kalini - Zenit | scheduled | -
-- 2026-09-16 20:45 | İspanya Federasyon Kupası Son 16 Turu | Derio - Salamanca | scheduled | -
 - 2026-09-16 21:00 | Arjantin Ulusal Primera Lig | San Martin Sj - Tristan | scheduled | -
 - 2026-09-16 21:00 | Uruguay Kupa Ön Eleme Turu Grup 5 | Progreso - Nacional Df | scheduled | -
 - 2026-09-16 21:00 | Uruguay Kupa Ön Eleme Turu Grup 5 | Albion - River Plate (Ur | scheduled | -

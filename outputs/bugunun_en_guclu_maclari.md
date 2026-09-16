@@ -4,22 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-16T17:18:39.649Z
+- Güncelleme: 2026-09-16T17:52:03.488Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Grorud Il VS Tromsdalen | Norveç 2.Lig Grup 2 | 18:00 | MS 1 | 1.37 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Es Zarzis VS Monastir | Tunus 1.Lig | 18:00 | MS 1 | 2.19 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Us Ben Guerdan VS Cs Sfaxien | Tunus 1.Lig | 18:00 | MS 2 | 2.20 | 47 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Rivers United VS Warri Wolves | Nijerya NPFL | 18:00 | MS 1 | 1.35 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Greenville Tri VS Corpus Christi | ABD USL Lig 1 | 18:00 | 2.5 Üst | 1.58 | 70 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
-| As Du Port Aut (3) VS (1) The Panthers Fc | CAF Konfederasyon Kupası 1.Ön Eleme Turu | 18:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Forde VS Aalesund | Norveç NM Kupası 2.Tur | 18:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Rsv Eintracht VS Greifswalder Sv | Almanya Bölgesel Lig Kuzey Doğu | 18:00 | MS 2 | 1.79 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Sporting Atlét VS San Felix U18 | İspanya Gençler Onur Ligi Grup 4 | 18:00 | MS 1 | 1.44 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Spartak Moskov VS Fakel Voronezh | Rusya Premier Lig | 18:30 | 2.5 Alt | 1.93 | 71 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
 | Fk Rodina Mosk VS Rubin Kazan | Rusya Premier Lig | 18:30 | 2.5 Üst | 1.84 | 66 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
 | Zalgiris Vilni VS Kauno Zalgiris | Litvanya A Ligi | 18:45 | 2.5 Üst | 1.60 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -78,7 +69,7 @@
 | Aik Stockholm VS Mjallby | İsveç Allsvenskan | 20:00 | 2.5 Üst | 1.59 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Thun VS Servette | İsviçre Süper Lig | 20:00 | MS 1 | 2.06 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Lugano VS St Gallen | İsviçre Süper Lig | 20:00 | MS 1 | 1.85 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Atromitos VS Paok | Yunanistan Kupa Lig Aşaması | 20:00 | KG Var | 1.90 | 72 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
+| Atromitos VS Paok | Yunanistan Kupa Lig Aşaması | 20:00 | KG Var | 1.70 | 73 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
 | Vendsyssel VS Randers | Danimarka DBU Kupası 3.Tur | 20:00 | MS 2 | 1.34 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Waldhof Mannhe VS Essen | Almanya 3. Lig | 20:00 | MS 2 | 1.93 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Fortuna Köln VS Wehen | Almanya 3. Lig | 20:00 | 2.5 Üst | 1.67 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -111,10 +102,10 @@
 | Al Shorta VS Al Seeb | AFC Şampiyonlar Ligi 2 Grup D | 21:15 | 2.5 Alt | 1.52 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Huelva VS Cacereno | İspanya Federasyon Kupası Son 16 Turu | 21:30 | 2.5 Alt | 1.41 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Rentistas VS Plaza Colonia | Uruguay Kupa Ön Eleme Turu Grup 2 | 21:30 | MS 1 | 2.33 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Fleetwood Town VS Sheffield Utd | İngiltere Lig Kupası 3.Tur | 21:45 | KG Var | 1.93 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Fleetwood Town VS Sheffield Utd | İngiltere Lig Kupası 3.Tur | 21:45 | KG Var | 2.00 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Everton VS Wolverhampton | İngiltere Lig Kupası 3.Tur | 21:45 | MS 1 | 1.30 | 69 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Altrincham VS Hartlepool | İngiltere Ulusal Lig | 21:45 | 2.5 Üst | 1.58 | 74 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
-| Scunthorpe VS Boreham Wood | İngiltere Ulusal Lig | 21:45 | KG Var | 1.69 | 79 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Scunthorpe VS Boreham Wood | İngiltere Ulusal Lig | 21:45 | KG Var | 1.79 | 79 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Kidderminster VS Gateshead | İngiltere Ulusal Lig | 21:45 | MS 1 | 1.26 | 79 | Orta risk kupon adayı | Piyasa ile Uyumlu | Düşük | Düşük | scheduled |
 | Orihuela VS Murcia | İspanya Federasyon Kupası Son 16 Turu | 21:45 | 2.5 Alt | 1.49 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Cliftonville U VS Super Nova U19 | UEFA Gençlik Ligi 1.Tur | 21:45 | MS 1 | 1.53 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -126,7 +117,7 @@
 | B.Leverkusen VS Celje | UEFA Avrupa Ligi Lig Aşaması | 22:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Sturm Graz VS Rennes | UEFA Avrupa Ligi Lig Aşaması | 22:00 | MS 2 | 1.60 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Man. Utd VS Brighton | İngiltere Lig Kupası 3.Tur | 22:00 | MS 1 | 1.42 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Coventry VS Aston Villa | İngiltere Lig Kupası 3.Tur | 22:00 | MS 2 | 1.78 | 61 | Sadece izleme | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
+| Coventry VS Aston Villa | İngiltere Lig Kupası 3.Tur | 22:00 | KG Var | 1.61 | 69 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
 | Livorno VS F.C. Vado | İtalya Serie C Grup B | 22:00 | 2.5 Alt | 1.50 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Pescara VS Gubbio | İtalya Serie C Grup B | 22:00 | MS 1 | 1.41 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Vis Pasaro VS Reggiana | İtalya Serie C Grup B | 22:00 | 2.5 Üst | 1.59 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -168,8 +159,8 @@
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Portuguesa VS Estudiantes Fc | 2.5 Alt | 1.54 | 82 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Fleetwood Town VS Sheffield Utd | KG Var | 1.93 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Scunthorpe VS Boreham Wood | KG Var | 1.69 | 79 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Fleetwood Town VS Sheffield Utd | KG Var | 2.00 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Scunthorpe VS Boreham Wood | KG Var | 1.79 | 79 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Trujillanos VS Rayo Zuliano | 2.5 Üst | 1.67 | 79 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Monagas VS Zamora | 2.5 Alt | 1.56 | 79 | Orta risk kupon adayı | Değerli | Orta | Düşük |
 | Kidderminster VS Gateshead | MS 1 | 1.26 | 79 | Orta risk kupon adayı | Piyasa ile Uyumlu | Düşük | Düşük |
@@ -177,12 +168,12 @@
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Fleetwood Town VS Sheffield Utd + Scunthorpe VS Boreham Wood | KG Var + KG Var | 3.26 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Fleetwood Town VS Sheffield Utd + Scunthorpe VS Boreham Wood | KG Var + KG Var | 3.58 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
 | Trujillanos VS Rayo Zuliano + Anderlecht VS Lyon | 2.5 Üst + 2.5 Alt | 3.17 | 77 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Botafogo VS Gremio + Sunderland VS Az Alkmaar | 2.5 Alt + 2.5 Alt | 3.69 | 73 | Orta risk kupon adayı | Normal Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Fleetwood Town VS Sheffield Utd + Scunthorpe VS Boreham Wood + Trujillanos VS Rayo Zuliano | KG Var + KG Var + 2.5 Üst | 5.45 | 79 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Fleetwood Town VS Sheffield Utd + Scunthorpe VS Boreham Wood + Trujillanos VS Rayo Zuliano | KG Var + KG Var + 2.5 Üst | 5.98 | 79 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
 | Anderlecht VS Lyon + Botafogo VS Gremio + Sunderland VS Az Alkmaar | 2.5 Alt + 2.5 Alt + 2.5 Alt | 7.00 | 73 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |

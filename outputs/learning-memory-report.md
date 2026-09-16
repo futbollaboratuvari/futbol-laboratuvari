@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.09.2026 20:19:24
+Oluşturma: 16.09.2026 20:52:34
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1133
-- Kazanan tahmin: 205
+- Bekleyen tahmin: 1132
+- Kazanan tahmin: 206
 - Kaybeden tahmin: 162
 - Lig sayısı: 282
 - Seçenek sayısı: 6
@@ -22,7 +22,7 @@ Oluşturma: 16.09.2026 20:19:24
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 584, bekleyen 448, başarı %62, düz getiri %6, ağırlık 1
+- 2.5 Alt: toplam 584, bekleyen 447, başarı %62, düz getiri %6, ağırlık 1
 - 2.5 Üst: toplam 166, bekleyen 100, başarı %55, düz getiri %1, ağırlık 1
 - MS 1: toplam 502, bekleyen 395, başarı %53, düz getiri %-11, ağırlık 1
 - KG Var: toplam 15, bekleyen 5, başarı %50, düz getiri %-9, ağırlık 1
@@ -35,7 +35,7 @@ Oluşturma: 16.09.2026 20:19:24
 - 2026-09-16 | İtalya Serie C Grup B | Vis Pasaro - Reggiana | 2.5 Üst | pending | 54/100
 - 2026-09-16 | Almanya Bölgesel Lig Batı | B.Dortmund (Am - Westfalia Rhyne | MS 1 | pending | 56/100
 - 2026-09-16 | Uruguay Kupa Ön Eleme Turu Grup 2 | Rentistas - Plaza Colonia | MS 1 | pending | 44/100
-- 2026-09-16 | AFC Şampiyonlar Ligi 2 Grup E | Viettel - Melbourne Victo | 2.5 Alt | pending | 57/100
+- 2026-09-16 | AFC Şampiyonlar Ligi 2 Grup E | Viettel - Melbourne Victo | 2.5 Alt | won | 57/100
 - 2026-09-16 | ABD USL Lig 1 | Chattanooga Re - Forward Madison | MS 1 | pending | 46/100
 - 2026-09-16 | ABD MLS Next Pro | Real Monarchs - Minnesota Unite | MS 2 | pending | 49/100
 - 2026-09-16 | İspanya Gençler Onur Ligi Grup 4 | Tomares U18 - Utrera U19 | MS 1 | pending | 49/100
