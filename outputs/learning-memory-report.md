@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.09.2026 09:12:14
+Oluşturma: 16.09.2026 09:41:57
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1146
-- Kazanan tahmin: 199
-- Kaybeden tahmin: 155
+- Bekleyen tahmin: 1140
+- Kazanan tahmin: 202
+- Kaybeden tahmin: 158
 - Lig sayısı: 279
 - Seçenek sayısı: 6
 
@@ -22,15 +22,17 @@ Oluşturma: 16.09.2026 09:12:14
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 592, bekleyen 459, başarı %62, düz getiri %5, ağırlık 1
-- 2.5 Üst: toplam 167, bekleyen 104, başarı %56, düz getiri %2, ağırlık 1
-- MS 1: toplam 503, bekleyen 400, başarı %54, düz getiri %-9, ağırlık 1
+- 2.5 Alt: toplam 591, bekleyen 456, başarı %62, düz getiri %5, ağırlık 1
+- 2.5 Üst: toplam 168, bekleyen 105, başarı %56, düz getiri %2, ağırlık 1
+- MS 1: toplam 503, bekleyen 397, başarı %54, düz getiri %-10, ağırlık 1
 - KG Var: toplam 14, bekleyen 4, başarı %50, düz getiri %-9, ağırlık 1
 - MS X: toplam 7, bekleyen 3, başarı %50, düz getiri %22, ağırlık 1
-- MS 2: toplam 217, bekleyen 176, başarı %46, düz getiri %-10, ağırlık 1
+- MS 2: toplam 217, bekleyen 175, başarı %48, düz getiri %-9, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-16 | İtalya Serie C Grup B | Ostia Mare Lid - Ravenna | 2.5 Üst | pending | 53/100
+- 2026-09-16 | AFC Şampiyonlar Ligi 2 Grup E | Fc Seoul - Persib | MS 1 | pending | 54/100
 - 2026-09-16 | İspanya Federasyon Kupası Son 16 Turu | Saguntino - Navalcarnero | 2.5 Alt | pending | 55/100
 - 2026-09-16 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | Deportivo Cuen - San Antonio | 2.5 Alt | pending | 66/100
 - 2026-09-16 | İspanya Federasyon Kupası Son 16 Turu | Comillas - Sestao | 2.5 Alt | pending | 55/100
@@ -44,6 +46,4 @@ Oluşturma: 16.09.2026 09:12:14
 - 2026-09-16 | Norveç NM Kupası 2.Tur | Jerv - Egersunds | MS 2 | pending | 45/100
 - 2026-09-16 | İspanya Gençler Onur Ligi Grup 4 | Atlético Zabal - Alhendín U19 | 2.5 Alt | pending | 50/100
 - 2026-09-16 | Ruanda Ulusal Futbol Ligi | As Kigali - Al Hilal Omdurm | 2.5 Alt | pending | 54/100
-- 2026-09-16 | AFC Şampiyonlar Ligi 2 Grup E | Fc Seoul - Persib | 2.5 Üst | pending | 54/100
-- 2026-09-16 | Tayland 2.Lig | Chainat Hornbi - Esan Pattaya | 2.5 Üst | pending | 54/100
 
