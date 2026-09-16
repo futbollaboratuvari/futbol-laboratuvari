@@ -10,10 +10,8 @@ const {
 } = require("../server-lib/_lib/coupon-mail");
 
 const DELIVERY_STATE_RETRY_DELAYS_MS = [250, 750, 1500];
-const DEFAULT_COUPON_RECIPIENTS = Object.freeze([
-  "cemkaplanoglu@gmail.com",
-  "arifkaplanoglu@gmail.com",
-]);
+const PRIMARY_COUPON_RECIPIENT = "cemkaplanoglu@gmail.com";
+const SECONDARY_COUPON_RECIPIENT = "arifkaplanoglu@gmail.com";
 
 function json(res, statusCode, payload) {
   res.statusCode = statusCode;
@@ -36,10 +34,16 @@ function sameSecret(value, expected) {
   return left.length > 0 && left.length === right.length && timingSafeEqual(left, right);
 }
 
-function mergeCouponRecipients(value) {
+function supportsExternalRecipients(from) {
+  const sender = String(from || "").trim().toLowerCase();
+  return Boolean(sender) && !sender.includes("onboarding@resend.dev");
+}
+
+function mergeCouponRecipients(value, from) {
   const recipients = [
     ...String(value || "").split(","),
-    ...DEFAULT_COUPON_RECIPIENTS,
+    PRIMARY_COUPON_RECIPIENT,
+    ...(supportsExternalRecipients(from) ? [SECONDARY_COUPON_RECIPIENT] : []),
   ]
     .map((item) => item.trim().toLowerCase())
     .filter(Boolean);
@@ -81,7 +85,7 @@ function createHandler(overrides = {}) {
     if (req.method !== "POST") return json(res, 405, { ok: false, error: "method_not_allowed" });
 
     const env = overrides.env || process.env;
-    const couponMailTo = mergeCouponRecipients(env.COUPON_MAIL_TO);
+    const couponMailTo = mergeCouponRecipients(env.COUPON_MAIL_TO, env.COUPON_MAIL_FROM);
     const runtimeEnv = { ...env, COUPON_MAIL_TO: couponMailTo };
     const internalSecret = String(env.COUPON_MAIL_SECRET || "").trim();
     const requestToken = bearerToken(req);
@@ -143,6 +147,7 @@ function createHandler(overrides = {}) {
       skipped: result.skipped.length,
       failed: result.failed.length,
       recipient_count: couponMailTo.split(",").filter(Boolean).length,
+      secondary_recipient_enabled: supportsExternalRecipients(env.COUPON_MAIL_FROM),
       coupon_ids: [...result.sent, ...result.skipped].map((item) => item.coupon_id),
     };
     if (result.failed.length) {
@@ -156,8 +161,10 @@ function createHandler(overrides = {}) {
 const handler = createHandler();
 handler.createHandler = createHandler;
 handler.sameSecret = sameSecret;
+handler.supportsExternalRecipients = supportsExternalRecipients;
 handler.mergeCouponRecipients = mergeCouponRecipients;
-handler.DEFAULT_COUPON_RECIPIENTS = DEFAULT_COUPON_RECIPIENTS;
+handler.PRIMARY_COUPON_RECIPIENT = PRIMARY_COUPON_RECIPIENT;
+handler.SECONDARY_COUPON_RECIPIENT = SECONDARY_COUPON_RECIPIENT;
 handler.retryDeliveryState = retryDeliveryState;
 handler.withDeliveryStateRetries = withDeliveryStateRetries;
 
