@@ -3,7 +3,7 @@ const path = require("node:path");
 const { GITHUB_OIDC_AUDIENCE, buildCouponEmail, extractValidCoupons } = require("../server-lib/_lib/coupon-mail");
 
 const DEFAULT_ENDPOINT = "https://futbol-laboratuvari.vercel.app/api/send-coupon-mail";
-const ARIF_ENDPOINT = "https://futbol-laboratuvari-jko3hed5s-futbollaboratuvari1.vercel.app/api/send-arif-coupon-mail";
+const ARIF_ENDPOINT = "https://futbol-laboratuvari-44c9xt9vy-futbollaboratuvari1.vercel.app/api/send-arif-coupon-mail";
 const COUPON_FILE = path.join(__dirname, "..", "data", "daily-coupons.json");
 const RETRY_DELAYS_MS = [1500, 4000, 8000];
 
@@ -106,7 +106,7 @@ async function callCouponEndpoint(endpoint, authorizationToken, fetchImpl) {
 }
 
 async function callArifEndpoint(endpoint, authorizationToken, entries, fetchImpl) {
-  if (!entries.length) return { ok: true, status: "nothing_to_send", sent: 0 };
+  if (!entries.length) return { ok: true, status: "nothing_to_send", sent: 0, skipped: 0 };
   const emails = entries.map((entry) => ({ coupon_id: entry.couponId, ...buildCouponEmail(entry) }));
   let lastError = "unknown";
   for (let attempt = 0; attempt <= RETRY_DELAYS_MS.length; attempt += 1) {
@@ -152,13 +152,12 @@ async function triggerCouponNotification({
   const authorizationToken = await resolveAuthorizationToken(env, fetchImpl);
   const result = await callCouponEndpoint(endpoint, authorizationToken, fetchImpl);
 
-  const sentCount = Math.max(0, Number(result.sent) || 0);
-  const sentIds = Array.isArray(result.coupon_ids) ? result.coupon_ids.slice(0, sentCount) : [];
-  if (sentIds.length) {
-    const sentSet = new Set(sentIds);
-    const sentEntries = validCoupons.filter((entry) => sentSet.has(entry.couponId));
-    const arifResult = await callArifEndpoint(ARIF_ENDPOINT, authorizationToken, sentEntries, fetchImpl);
-    console.log(`Arif mail bildirimi: durum=${arifResult.status}, gönderilen=${arifResult.sent || 0}`);
+  const deliveryIds = Array.isArray(result.coupon_ids) ? result.coupon_ids : [];
+  if (deliveryIds.length) {
+    const deliverySet = new Set(deliveryIds);
+    const deliveryEntries = validCoupons.filter((entry) => deliverySet.has(entry.couponId));
+    const arifResult = await callArifEndpoint(ARIF_ENDPOINT, authorizationToken, deliveryEntries, fetchImpl);
+    console.log(`Arif mail bildirimi: durum=${arifResult.status}, gönderilen=${arifResult.sent || 0}, atlanan=${arifResult.skipped || 0}`);
   }
 
   return result;
