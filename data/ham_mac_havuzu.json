@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T21:35:26.356Z",
+  "generated_at": "2026-09-16T21:56:33.696Z",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik canlı robot",
   "engine": "High Value Coupon Engine",
@@ -35,147 +35,9 @@
     },
     "stale_data_policy": "Güncel maç değilse analiz dışı bırakılır."
   },
-  "match_count": 11,
+  "match_count": 10,
   "analysis_count": 1,
   "matches": [
-    {
-      "home_team_name": "Malaga",
-      "away_team_name": "Villarreal",
-      "competition_name": "İspanya LaLiga",
-      "date": "2026-09-17",
-      "time": "22:30",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "2.08",
-      "confidence_score": "62%",
-      "trust_score": "62/100",
-      "analysis_score": 62,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 30,
-          "home": {
-            "count": 3,
-            "scored": 1,
-            "conceded": 2,
-            "bttsRate": 33,
-            "over25Rate": 33,
-            "over35Rate": 33,
-            "goalsForAvg": 0.33,
-            "goalsAgainstAvg": 1.67,
-            "wins": 0,
-            "draws": 2,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 67,
-            "lossRate": 33,
-            "pointsPerGame": 0.67
-          },
-          "away": {
-            "count": 3,
-            "scored": 2,
-            "conceded": 3,
-            "bttsRate": 67,
-            "over25Rate": 67,
-            "over35Rate": 33,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 1.67,
-            "wins": 0,
-            "draws": 1,
-            "losses": 2,
-            "winRate": 0,
-            "drawRate": 33,
-            "lossRate": 67,
-            "pointsPerGame": 0.33
-          },
-          "league": {
-            "count": 24,
-            "goalAverage": 3.21,
-            "bttsRate": 58,
-            "over25Rate": 58
-          },
-          "signals": []
-        },
-        "poisson": {
-          "probabilities": {
-            "ms1": 39.91252362288135,
-            "msx": 24.87758091473506,
-            "ms2": 35.20989546238362,
-            "over15": 78.0862972250458,
-            "over25": 54.747095638356626,
-            "under25": 45.25290436164338,
-            "over35": 32.40506143945876,
-            "kgVar": 58.01369564787445,
-            "kgYok": 41.98630435212555,
-            "homeGoal": 77.42549179010632,
-            "awayGoal": 74.92841738111842
-          },
-          "homeLambda": 1.49,
-          "awayLambda": 1.38,
-          "samples": 6,
-          "reliability": 0.375
-        },
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 2.08",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %41.",
-        "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %48.",
-        "Birleşik tahmini olasılık %43.",
-        "Model-piyasa farkı +1.7 puan.",
-        "Poisson gol beklentisi 1.49-1.38.",
-        "Geçmiş market örneği 1988; ham isabet %46.",
-        "Veri kapsama puanı 59/100 (Orta eksik veri riski).",
-        "Model gücü 62/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
     {
       "home_team_name": "Cuniburo Fc",
       "away_team_name": "9 De Octubre",
@@ -276,27 +138,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 48/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "22 De Julio",
@@ -399,27 +241,7 @@
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 50/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Bucaramanga",
@@ -451,7 +273,7 @@
         "leagueGoalAverage": null,
         "memory": {
           "scoreDelta": 12,
-          "totalMatches": 26,
+          "totalMatches": 25,
           "home": {
             "count": 3,
             "scored": 2,
@@ -487,10 +309,10 @@
             "pointsPerGame": 2
           },
           "league": {
-            "count": 20,
+            "count": 19,
             "goalAverage": 2.95,
-            "bttsRate": 70,
-            "over25Rate": 70
+            "bttsRate": 68,
+            "over25Rate": 68
           },
           "signals": [
             "Hafıza: 2.5 Üst eğilimi yüksek (%67): +8",
@@ -542,27 +364,7 @@
         "Geçmiş market örneği 1988; ham isabet %55.",
         "Veri kapsama puanı 59/100 (Orta eksik veri riski).",
         "Model gücü 71/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Santo Domingo",
@@ -665,27 +467,7 @@
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 52/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Flamengo (2)",
@@ -788,27 +570,7 @@
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 44/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Torque (0)",
@@ -911,27 +673,7 @@
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 52/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Alajuelense (2)",
@@ -1034,27 +776,7 @@
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 48/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Bolivar",
@@ -1086,7 +808,7 @@
         "leagueGoalAverage": null,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 22,
+          "totalMatches": 21,
           "home": {
             "count": 2,
             "scored": 2,
@@ -1122,10 +844,10 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 20,
-            "goalAverage": 3.1,
-            "bttsRate": 50,
-            "over25Rate": 60
+            "count": 19,
+            "goalAverage": 3.26,
+            "bttsRate": 53,
+            "over25Rate": 63
           },
           "signals": []
         }
@@ -1136,27 +858,7 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Durango",
@@ -1258,27 +960,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 48/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Depor. Olimpia (3)",
@@ -1381,30 +1063,8 @@
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 45/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     }
   ],
-  "focused_market_count": 17,
-  "team_style_memory_enabled": true,
-  "team_style_memory_updated_at": "2026-09-16T21:43:05.123Z"
+  "focused_market_count": 17
 }

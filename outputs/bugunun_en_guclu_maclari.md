@@ -4,14 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-16T21:35:26.356Z
+- Güncelleme: 2026-09-16T21:56:33.696Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Malaga VS Villarreal | İspanya LaLiga | 22:30 | 2.5 Alt | 2.08 | 62 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Cuniburo Fc VS 9 De Octubre | Ekvador Pro Lig Serie B Şampiyonluk Grubu | 23:15 | MS 1 | 2.26 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | 22 De Julio VS Cumbaya | Ekvador Pro Lig Serie B Küme Düşme Grubu | 23:30 | 2.5 Alt | 1.51 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Bucaramanga VS Independiente M | Kolombiya Primera A Clausura | 02:00 | 2.5 Üst | 1.92 | 71 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
