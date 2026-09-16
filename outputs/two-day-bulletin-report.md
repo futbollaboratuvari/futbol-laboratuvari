@@ -3,15 +3,14 @@
 Gunler: 2026-09-16 / 2026-09-17
 Kaynak: fixtures.json
 Ham mac: 171
-Aktif mac: 153
+Aktif mac: 152
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 18
-Bugun: 127
+Bultenden dusurulen mac: 19
+Bugun: 126
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-09-16 16:30 | İran Azadegan Ligi | Besat Kermansh - Naft Gachsaran | scheduled | -
 - 2026-09-16 16:45 | Yunanistan Kupa Lig Aşaması | Aris - Marko | scheduled | -
 - 2026-09-16 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Havirov - Zlin | scheduled | -
 - 2026-09-16 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Kozlovice - Pardubice | scheduled | -
