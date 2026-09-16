@@ -1,8 +1,9 @@
 const fs = require("node:fs");
 const path = require("node:path");
-const { GITHUB_OIDC_AUDIENCE, extractValidCoupons } = require("../server-lib/_lib/coupon-mail");
+const { GITHUB_OIDC_AUDIENCE, buildCouponEmail, extractValidCoupons } = require("../server-lib/_lib/coupon-mail");
 
 const DEFAULT_ENDPOINT = "https://futbol-laboratuvari.vercel.app/api/send-coupon-mail";
+const ARIF_ENDPOINT = "https://futbol-laboratuvari-jko3hed5s-futbollaboratuvari1.vercel.app/api/send-arif-coupon-mail";
 const COUPON_FILE = path.join(__dirname, "..", "data", "daily-coupons.json");
 const RETRY_DELAYS_MS = [1500, 4000, 8000];
 
@@ -104,6 +105,36 @@ async function callCouponEndpoint(endpoint, authorizationToken, fetchImpl) {
   throw new Error(`Kupon mail endpoint'i başarısız (${lastError})`);
 }
 
+async function callArifEndpoint(endpoint, authorizationToken, entries, fetchImpl) {
+  if (!entries.length) return { ok: true, status: "nothing_to_send", sent: 0 };
+  const emails = entries.map((entry) => ({ coupon_id: entry.couponId, ...buildCouponEmail(entry) }));
+  let lastError = "unknown";
+  for (let attempt = 0; attempt <= RETRY_DELAYS_MS.length; attempt += 1) {
+    try {
+      const response = await fetchImpl(endpoint, {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${authorizationToken}`,
+          "Content-Type": "application/json",
+          "User-Agent": "futbol-laboratuvari-coupon-workflow",
+        },
+        body: JSON.stringify({ emails }),
+      });
+      const result = await response.json().catch(() => ({}));
+      if (response.ok && result.ok !== false) return result;
+      lastError = result.error || result.status || `http_${response.status}`;
+      if (!retryableStatus(response.status) || attempt === RETRY_DELAYS_MS.length) {
+        throw new Error(`Arif mail endpoint'i başarısız (${lastError})`);
+      }
+    } catch (error) {
+      lastError = error?.message || String(error);
+      if (attempt === RETRY_DELAYS_MS.length) throw error;
+    }
+    await sleep(RETRY_DELAYS_MS[attempt]);
+  }
+  throw new Error(`Arif mail endpoint'i başarısız (${lastError})`);
+}
+
 async function triggerCouponNotification({
   env = process.env,
   fetchImpl = global.fetch,
@@ -119,7 +150,18 @@ async function triggerCouponNotification({
     throw new Error("COUPON_MAIL_ENDPOINT güvenli bir HTTPS adresi olmalıdır");
   }
   const authorizationToken = await resolveAuthorizationToken(env, fetchImpl);
-  return callCouponEndpoint(endpoint, authorizationToken, fetchImpl);
+  const result = await callCouponEndpoint(endpoint, authorizationToken, fetchImpl);
+
+  const sentCount = Math.max(0, Number(result.sent) || 0);
+  const sentIds = Array.isArray(result.coupon_ids) ? result.coupon_ids.slice(0, sentCount) : [];
+  if (sentIds.length) {
+    const sentSet = new Set(sentIds);
+    const sentEntries = validCoupons.filter((entry) => sentSet.has(entry.couponId));
+    const arifResult = await callArifEndpoint(ARIF_ENDPOINT, authorizationToken, sentEntries, fetchImpl);
+    console.log(`Arif mail bildirimi: durum=${arifResult.status}, gönderilen=${arifResult.sent || 0}`);
+  }
+
+  return result;
 }
 
 async function main() {
@@ -135,9 +177,11 @@ if (require.main === module) {
 }
 
 module.exports = {
+  ARIF_ENDPOINT,
   COUPON_FILE,
   DEFAULT_ENDPOINT,
   RETRY_DELAYS_MS,
+  callArifEndpoint,
   callCouponEndpoint,
   readCouponFile,
   resolveAuthorizationToken,
