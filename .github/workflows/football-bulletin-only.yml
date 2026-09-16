@@ -16,8 +16,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: football-bulletin-only
-  cancel-in-progress: true
+  group: futbol-main-data-writer
+  cancel-in-progress: false
 
 jobs:
   refresh-bulletin:
