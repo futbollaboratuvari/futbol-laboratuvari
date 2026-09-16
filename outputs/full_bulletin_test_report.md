@@ -2,13 +2,11 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 106
+- Scheduled match count: 104
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-17 / 2026-09-18 23:59
 
-- 2026-09-17 02:30 | Fort Wayne - One Knoxville | scheduled
-- 2026-09-17 02:30 | Metropolitanos - Caracas Fc | scheduled
 - 2026-09-17 03:00 | Inter Miami - Cruz Azul | scheduled
 - 2026-09-17 03:30 | Birmingham Leg - New Mexico Unit | scheduled
 - 2026-09-17 03:30 | Blooming - Universitario D | scheduled
@@ -17,3 +15,5 @@
 - 2026-09-17 04:00 | Real Monarchs - Minnesota Unite | scheduled
 - 2026-09-17 04:00 | Athletic Club - Charlotte Indep | scheduled
 - 2026-09-17 04:00 | Inter Fa - Deportivo Fas | scheduled
+- 2026-09-17 04:20 | Inter Bogota - Atletico Nacion | scheduled
+- 2026-09-17 04:30 | Colorado - St. Louis City | scheduled

@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.09.2026 02:17:38
+Oluşturma: 17.09.2026 02:57:21
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1132
-- Kazanan tahmin: 205
-- Kaybeden tahmin: 163
+- Bekleyen tahmin: 1110
+- Kazanan tahmin: 219
+- Kaybeden tahmin: 171
 - Lig sayısı: 283
 - Seçenek sayısı: 6
 
@@ -22,16 +22,16 @@ Oluşturma: 17.09.2026 02:17:38
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 598, bekleyen 460, başarı %61, düz getiri %4, ağırlık 1
-- KG Var: toplam 14, bekleyen 5, başarı %56, düz getiri %1, ağırlık 1
-- 2.5 Üst: toplam 160, bekleyen 95, başarı %55, düz getiri %1, ağırlık 1
-- MS 1: toplam 488, bekleyen 380, başarı %52, düz getiri %-13, ağırlık 1
-- MS 2: toplam 232, bekleyen 188, başarı %50, düz getiri %-7, ağırlık 1
+- 2.5 Alt: toplam 598, bekleyen 451, başarı %60, düz getiri %3, ağırlık 1
+- KG Var: toplam 14, bekleyen 2, başarı %58, düz getiri %4, ağırlık 1
+- 2.5 Üst: toplam 160, bekleyen 94, başarı %56, düz getiri %2, ağırlık 1
+- MS 1: toplam 488, bekleyen 375, başarı %53, düz getiri %-12, ağırlık 1
+- MS 2: toplam 232, bekleyen 184, başarı %52, düz getiri %-2, ağırlık 1
 - MS X: toplam 8, bekleyen 4, başarı %50, düz getiri %22, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-17 | İspanya LaLiga | Malaga - Villarreal | KG Var | pending | 62/100
+- 2026-09-17 | İspanya LaLiga | Malaga - Villarreal | KG Var | pending | 63/100
 - 2026-09-17 | Mısır 2. Lig | Ismaily - Haras El Hodood | 2.5 Alt | pending | 50/100
 - 2026-09-17 | ABD USL Lig 1 | Fort Wayne - One Knoxville | 2.5 Alt | pending | 61/100
 - 2026-09-17 | ABD MLS Next Pro | Real Monarchs - Minnesota Unite | 2.5 Alt | pending | 48/100
