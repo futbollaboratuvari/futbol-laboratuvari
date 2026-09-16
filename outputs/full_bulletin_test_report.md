@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 141
+- Scheduled match count: 69
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-16 / 2026-09-17 23:59
 
-- 2026-09-16 18:30 | Fk Rodina Mosk - Rubin Kazan | scheduled
-- 2026-09-16 18:30 | Spartak Moskov - Fakel Voronezh | scheduled
-- 2026-09-16 18:45 | Zalgiris Vilni - Kauno Zalgiris | scheduled
-- 2026-09-16 19:00 | Al Wahda - Al-Kuwait | scheduled
-- 2026-09-16 19:00 | Khalidiya - Nasaf Qarshi | scheduled
-- 2026-09-16 19:00 | Al Nahda - Al Taawon | scheduled
-- 2026-09-16 19:00 | Al-Hussein - East-Bengal | scheduled
-- 2026-09-16 19:00 | Schöningen - Weiche Flensbur | scheduled
-- 2026-09-16 19:00 | Sloga Doboj - Borac Banja Luk | scheduled
-- 2026-09-16 19:00 | Lokomotiv Sofi - Cska Sofia | scheduled
+- 2026-09-16 20:30 | B.Dortmund (Am - Westfalia Rhyne | scheduled
+- 2026-09-16 20:30 | Comillas - Sestao | scheduled
+- 2026-09-16 20:30 | Terrassa - Binefar | scheduled
+- 2026-09-16 20:30 | Tomares U18 - Utrera U19 | scheduled
+- 2026-09-16 20:30 | Skelleftea - Taftea | scheduled
+- 2026-09-16 20:45 | Derio - Salamanca | scheduled
+- 2026-09-16 20:45 | Baltika Kalini - Zenit | scheduled
+- 2026-09-16 20:45 | L.Moskova - Krylya Sovietov | scheduled
+- 2026-09-16 21:00 | San Martin Sj - Tristan | scheduled
+- 2026-09-16 21:00 | Conil - Dos Hermanas 19 | scheduled
