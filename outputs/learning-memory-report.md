@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.09.2026 21:52:31
+Oluşturma: 16.09.2026 23:06:40
 
 ## Özet
 
@@ -22,15 +22,18 @@ Oluşturma: 16.09.2026 21:52:31
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 585, bekleyen 447, başarı %62, düz getiri %7, ağırlık 1
+- 2.5 Alt: toplam 586, bekleyen 448, başarı %62, düz getiri %7, ağırlık 1
 - 2.5 Üst: toplam 167, bekleyen 98, başarı %54, düz getiri %-1, ağırlık 1
-- MS 1: toplam 500, bekleyen 392, başarı %53, düz getiri %-11, ağırlık 1
+- MS 1: toplam 497, bekleyen 389, başarı %53, düz getiri %-11, ağırlık 1
 - KG Var: toplam 15, bekleyen 5, başarı %50, düz getiri %-9, ağırlık 1
 - MS X: toplam 7, bekleyen 3, başarı %50, düz getiri %22, ağırlık 1
-- MS 2: toplam 226, bekleyen 182, başarı %48, düz getiri %-10, ağırlık 1
+- MS 2: toplam 228, bekleyen 184, başarı %48, düz getiri %-10, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-16 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Atlas Delmenhor | MS 2 | pending | 52/100
+- 2026-09-16 | Bosna-Hersek Premier Lig | Sloga Doboj - Borac Banja Luk | MS 2 | pending | 56/100
+- 2026-09-16 | Rusya Premier Lig | Fk Rodina Mosk - Rubin Kazan | 2.5 Alt | pending | 64/100
 - 2026-09-16 | ABD Açık Kupası Yarı Final | Colorado - St. Louis City | 2.5 Üst | pending | 60/100
 - 2026-09-16 | İngiltere Ulusal Lig | Kidderminster - Gateshead | 2.5 Alt | pending | 64/100
 - 2026-09-16 | AFC Şampiyonlar Ligi 2 Grup D | Al-Hussein - East-Bengal | 2.5 Üst | won | 63/100
@@ -43,7 +46,4 @@ Oluşturma: 16.09.2026 21:52:31
 - 2026-09-16 | ABD MLS Next Pro | Real Monarchs - Minnesota Unite | MS 2 | pending | 49/100
 - 2026-09-16 | İspanya Gençler Onur Ligi Grup 4 | Tomares U18 - Utrera U19 | MS 1 | pending | 49/100
 - 2026-09-16 | İspanya Federasyon Kupası Son 16 Turu | Conil - Dos Hermanas 19 | MS 2 | pending | 46/100
-- 2026-09-16 | Norveç NM Kupası 2.Tur | Bjarg - Bryne | MS 2 | pending | 46/100
-- 2026-09-16 | Norveç NM Kupası 2.Tur | Pors Grenland - Stabaek | MS 2 | pending | 57/100
-- 2026-09-16 | Norveç NM Kupası 2.Tur | Sotra Sk - Sogndal | MS 2 | pending | 46/100
 
