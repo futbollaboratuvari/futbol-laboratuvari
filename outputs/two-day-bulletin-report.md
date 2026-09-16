@@ -2,26 +2,21 @@
 
 Gunler: 2026-09-16 / 2026-09-17
 Kaynak: fixtures.json
-Ham mac: 174
-Aktif mac: 173
+Ham mac: 196
+Aktif mac: 172
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 147
+Bultenden dusurulen mac: 24
+Bugun: 146
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-09-16 10:00 | Asya Oyunları Grup A | Tayland U23 - Kırgızistan U23 | scheduled | -
-- 2026-09-16 11:30 | Endonezya Süper Lig | Borneo Fc - Dewa United | scheduled | -
-- 2026-09-16 13:00 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Jeonbuk Hm - Kashiwa | scheduled | -
-- 2026-09-16 13:00 | AFC Şampiyonlar Ligi 2 Grup E | Fc Seoul - Persib | scheduled | -
-- 2026-09-16 13:00 | Asya Oyunları Grup B | Çin U23 - Kuzey Kore U23 | scheduled | -
-- 2026-09-16 13:00 | Almanya Bölgesel Lig Kuzey | Hamburger Sv ( - Sankt Pauli Ii | scheduled | -
 - 2026-09-16 13:30 | Asya Oyunları Grup A | Japonya U23 - Hong Kong U23 | scheduled | -
 - 2026-09-16 13:30 | İspanya Gençler Onur Ligi Grup 4 | Cordoba U19 - Sevilla U19 | scheduled | -
 - 2026-09-16 14:00 | Tayland 2.Lig | Chainat Hornbi - Esan Pattaya | scheduled | -
 - 2026-09-16 14:00 | Tayland 2.Lig | Uttaradit - Nong Bua Pitcha | scheduled | -
 - 2026-09-16 14:00 | İspanya Gençler Onur Ligi Grup 4 | Cadiz U19 - Atlético Melill | scheduled | -
+- 2026-09-16 14:00 | Türkiye Kupa 1.Tur | Karaman Fk - Kepezspor Faş | scheduled | -
 - 2026-09-16 14:30 | Tayland 2.Lig | Nakhon Pathom - Kanchanaburi | scheduled | -
 - 2026-09-16 15:00 | Yunanistan Kupa Lig Aşaması | Niki Volos - Asteras Tripoli | scheduled | -
 - 2026-09-16 15:00 | Tayland 2.Lig | Mahasarakham U - Nakhon Ratchasi | scheduled | -
@@ -59,6 +54,7 @@ Yarin: 26
 - 2026-09-16 18:00 | Tunus 1.Lig | Us Ben Guerdan - Cs Sfaxien | scheduled | -
 - 2026-09-16 18:00 | Nijerya NPFL | Rivers United - Warri Wolves | scheduled | -
 - 2026-09-16 18:00 | ABD USL Lig 1 | Greenville Tri - Corpus Christi | scheduled | -
+- 2026-09-16 18:00 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | As Du Port Aut (3) - (1) The Panthers Fc | scheduled | -
 - 2026-09-16 18:30 | Rusya Premier Lig | Spartak Moskov - Fakel Voronezh | scheduled | -
 - 2026-09-16 18:30 | Rusya Premier Lig | Fk Rodina Mosk - Rubin Kazan | scheduled | -
 - 2026-09-16 18:45 | Litvanya A Ligi | Zalgiris Vilni - Kauno Zalgiris | scheduled | -
@@ -90,6 +86,7 @@ Yarin: 26
 - 2026-09-16 19:00 | İspanya Gençler Onur Ligi Grup 4 | Arenas De Armi - Calavera U19 | scheduled | -
 - 2026-09-16 19:00 | İspanya Gençler Onur Ligi Grup 4 | Mosquito U19 - Almeria U18 | scheduled | -
 - 2026-09-16 19:00 | Tanzanya Kuu Bara Ligi | Azam Fc - Simba | scheduled | -
+- 2026-09-16 19:00 | Danimarka DBU Kupası 3.Tur | Bk Skjold - Aarhus | scheduled | -
 - 2026-09-16 19:30 | Kadınlar U20 Dünya Kupası Son 16 Turu | İspanya U20 (K - Portekiz U20 (K | scheduled | -
 - 2026-09-16 19:30 | İtalya Serie C Grup B | Pineto - Forli | scheduled | -
 - 2026-09-16 19:30 | İtalya Serie C Grup B | Sassari Torres - Pianese | scheduled | -
@@ -121,6 +118,7 @@ Yarin: 26
 - 2026-09-16 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Kubikenborgs I - Lucksta | scheduled | -
 - 2026-09-16 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Bodens - Ifk Lulea | scheduled | -
 - 2026-09-16 20:00 | ABD USL Lig 1 | Union Omaha - Spokane Velocit | scheduled | -
+- 2026-09-16 20:00 | Botsvana Premier Lig | Centre Chiefs - Tonota | scheduled | -
 - 2026-09-16 20:30 | İspanya Federasyon Kupası Son 16 Turu | Terrassa - Binefar | scheduled | -
 - 2026-09-16 20:30 | İspanya Federasyon Kupası Son 16 Turu | Comillas - Sestao | scheduled | -
 - 2026-09-16 20:30 | İsveç 2.Lig Norrland Yükselme Grubu | Skelleftea - Taftea | scheduled | -
@@ -140,6 +138,7 @@ Yarin: 26
 - 2026-09-16 21:45 | İngiltere Ulusal Lig | Scunthorpe - Boreham Wood | scheduled | -
 - 2026-09-16 21:45 | İngiltere Ulusal Lig | Kidderminster - Gateshead | scheduled | -
 - 2026-09-16 21:45 | İspanya Federasyon Kupası Son 16 Turu | Orihuela - Murcia | scheduled | -
+- 2026-09-16 21:45 | UEFA Gençlik Ligi 1.Tur | Cliftonville U - Super Nova U19 | scheduled | -
 - 2026-09-16 22:00 | UEFA Avrupa Ligi Lig Aşaması | Ac Milan - Benfica | scheduled | -
 - 2026-09-16 22:00 | UEFA Avrupa Ligi Lig Aşaması | Olympiakos - Jagiellonia | scheduled | -
 - 2026-09-16 22:00 | UEFA Avrupa Ligi Lig Aşaması | Sunderland - Az Alkmaar | scheduled | -
