@@ -1,59 +1,63 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-16T12:13:28.165984+00:00
+Tarih: 2026-09-16T15:01:48.688924+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 138
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 137
-- Ham veri havuzu toplam mac sayisi: 15028
+- Kac mac bulundu: 149
+- Kac mac kaydedildi: 16
+- Kac mac zaten vardi: 133
+- Ham veri havuzu toplam mac sayisi: 15044
 - Hedef tarih: 16.09.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD Açık Kupası Yarı Final
+- ABD MLS Next Pro
+- ABD USL
 - ABD USL Lig 1
 - AFC Şampiyonlar Ligi 2 Grup A
 - AFC Şampiyonlar Ligi 2 Grup C
 - AFC Şampiyonlar Ligi 2 Grup D
-- AFC Şampiyonlar Ligi 2 Grup E
-- AFC Şampiyonlar Ligi Elite Doğu Grubu
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Kuzey
 - Almanya Bölgesel Lig Kuzey Doğu
+- Arjantin Kupa Çeyrek Final
 - Arjantin Ulusal Primera Lig
-- Azerbaycan 1.Lig
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Botsvana Premier Lig
+- Brezilya Serie A
 - Bulgaristan 1.Lig
 - CAF Konfederasyon Kupası 1.Ön Eleme Turu
+- CONCACAF Orta Amerika Kupası Çeyrek Final
+- Copa Libertadores Çeyrek Final
+- Copa Sudamericana Çeyrek Final
 - Danimarka DBU Kupası 3.Tur
 - Ekvador Pro Lig Serie B Şampiyonluk Grubu
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
-- Hırvatistan HR Nogometni Kupası Son 32 Turu
 - Kadınlar U20 Dünya Kupası Son 16 Turu
+- Kolombiya Primera A Clausura
+- Kuzey Amerika Şampiyonlar Kupası Final
 - Letonya Virsliga
 - Litvanya A Ligi
-- Malezya FA Kupası Son 16 Turu
 - Mısır Premier Lig
 - Nijerya NPFL
 - Norveç 2.Lig Grup 2
 - Norveç NM Kupası 2.Tur
 - Ruanda Ulusal Futbol Ligi
-- Rusya FNL
 - Rusya Premier Lig
 - Slovenya 2.SNL
 - Tanzanya Kuu Bara Ligi
 - Tunus 1.Lig
 - UEFA Avrupa Ligi Lig Aşaması
 - UEFA Gençlik Ligi 1.Tur
-- Uganda Premier Lig
 - Uruguay Kupa Ön Eleme Turu Grup 5
+- Venezuela Premier Lig Clausura
 - Yunanistan Kupa Lig Aşaması
-- Çek Cumhuriyeti Kupa 3.Tur
 - İngiltere Lig Kupası 3.Tur
 - İngiltere Ulusal Lig
 - İran Azadegan Ligi
@@ -120,8 +124,8 @@ Tarih: 2026-09-16T12:13:28.165984+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 64
-- Acilan detay: 64
+- Denenen Tumu alani: 56
+- Acilan detay: 56
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -148,12 +152,12 @@ Tarih: 2026-09-16T12:13:28.165984+00:00
 | 16.09.2026 | 20:00 | İspanya LaLiga | Atletico Madri | Osasuna | 15943 | 5 |
 | 16.09.2026 | 20:00 | İspanya LaLiga | D.La Coruna | Sevilla | 16043 | 5 |
 | 16.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Everton | Wolverhampton | 17953 | 5 |
-| 16.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Fleetwood Town | Sheffield Utd | 18033 | 5 |
 | 16.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Coventry | Aston Villa | 18866 | 5 |
+| 16.09.2026 | 21:45 | İngiltere Lig Kupası 3.Tur | Fleetwood Town | Sheffield Utd | 18033 | 5 |
 | 16.09.2026 | 22:00 | İngiltere Lig Kupası 3.Tur | Man. Utd | Brighton | 19143 | 5 |
-| 16.09.2026 | 15:15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Port Fc | Vissel Kobe | 09366 | 5 |
-| 16.09.2026 | 19:00 | AFC Şampiyonlar Ligi 2 Grup A | Al Wahda | Al-Kuwait | 11301 | 5 |
+| 17.09.2026 | 03:00 | Kuzey Amerika Şampiyonlar Kupası Final | Inter Miami | Cruz Azul | 08076 | 5 |
 | 16.09.2026 | 19:00 | AFC Şampiyonlar Ligi 2 Grup A | Khalidiya | Nasaf Qarshi | 10626 | 5 |
+| 16.09.2026 | 19:00 | AFC Şampiyonlar Ligi 2 Grup A | Al Wahda | Al-Kuwait | 11301 | 5 |
 
 ## Sonuc
 

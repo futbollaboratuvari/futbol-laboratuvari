@@ -2,22 +2,15 @@
 
 Gunler: 2026-09-16 / 2026-09-17
 Kaynak: fixtures.json
-Ham mac: 167
-Aktif mac: 135
+Ham mac: 213
+Aktif mac: 141
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 32
-Bugun: 109
-Yarin: 26
+Bultenden dusurulen mac: 72
+Bugun: 114
+Yarin: 27
 
 ## Baslamamis Maclar
-- 2026-09-16 17:45 | Yunanistan Kupa Lig Aşaması | Kifisias - Panathinaikos | scheduled | -
-- 2026-09-16 18:00 | Norveç 2.Lig Grup 2 | Grorud Il - Tromsdalen | scheduled | -
-- 2026-09-16 18:00 | Tunus 1.Lig | Es Zarzis - Monastir | scheduled | -
-- 2026-09-16 18:00 | Tunus 1.Lig | Us Ben Guerdan - Cs Sfaxien | scheduled | -
-- 2026-09-16 18:00 | Nijerya NPFL | Rivers United - Warri Wolves | scheduled | -
-- 2026-09-16 18:00 | ABD USL Lig 1 | Greenville Tri - Corpus Christi | scheduled | -
-- 2026-09-16 18:00 | CAF Konfederasyon Kupası 1.Ön Eleme Turu | As Du Port Aut (3) - (1) The Panthers Fc | scheduled | -
 - 2026-09-16 18:30 | Rusya Premier Lig | Spartak Moskov - Fakel Voronezh | scheduled | -
 - 2026-09-16 18:30 | Rusya Premier Lig | Fk Rodina Mosk - Rubin Kazan | scheduled | -
 - 2026-09-16 18:45 | Litvanya A Ligi | Zalgiris Vilni - Kauno Zalgiris | scheduled | -
@@ -50,6 +43,14 @@ Yarin: 26
 - 2026-09-16 19:00 | İspanya Gençler Onur Ligi Grup 4 | Mosquito U19 - Almeria U18 | scheduled | -
 - 2026-09-16 19:00 | Tanzanya Kuu Bara Ligi | Azam Fc - Simba | scheduled | -
 - 2026-09-16 19:00 | Danimarka DBU Kupası 3.Tur | Bk Skjold - Aarhus | scheduled | -
+- 2026-09-16 19:00 | Norveç NM Kupası 2.Tur | Floya - Rosenborg | scheduled | -
+- 2026-09-16 19:00 | Norveç NM Kupası 2.Tur | Traeff - Hodd | scheduled | -
+- 2026-09-16 19:00 | Norveç NM Kupası 2.Tur | Bjarg - Bryne | scheduled | -
+- 2026-09-16 19:00 | Norveç NM Kupası 2.Tur | Alta - Tromso | scheduled | -
+- 2026-09-16 19:00 | Norveç NM Kupası 2.Tur | Pors Grenland - Stabaek | scheduled | -
+- 2026-09-16 19:00 | Norveç NM Kupası 2.Tur | Stjordals-Blin - Fredrikstad | scheduled | -
+- 2026-09-16 19:00 | Norveç NM Kupası 2.Tur | Sotra Sk - Sogndal | scheduled | -
+- 2026-09-16 19:00 | Norveç NM Kupası 2.Tur | Levanger - Ranheim | scheduled | -
 - 2026-09-16 19:30 | Kadınlar U20 Dünya Kupası Son 16 Turu | İspanya U20 (K - Portekiz U20 (K | scheduled | -
 - 2026-09-16 19:30 | İtalya Serie C Grup B | Pineto - Forli | scheduled | -
 - 2026-09-16 19:30 | İtalya Serie C Grup B | Sassari Torres - Pianese | scheduled | -
@@ -59,6 +60,8 @@ Yarin: 26
 - 2026-09-16 19:30 | İtalya Serie C Grup B | Ostia Mare Lid - Ravenna | scheduled | -
 - 2026-09-16 19:30 | Almanya Bölgesel Lig Kuzey | Norderstedt - Hsc Hannover | scheduled | -
 - 2026-09-16 19:30 | Ruanda Ulusal Futbol Ligi | Apr Kigali - Marines | scheduled | -
+- 2026-09-16 19:30 | Almanya Bölgesel Lig Kuzey | Phönix Lübeck - Todesfelde | scheduled | -
+- 2026-09-16 19:30 | Almanya Bölgesel Lig Kuzey | Eimsbutteler - Werder Bremen ( | scheduled | -
 - 2026-09-16 19:45 | UEFA Avrupa Ligi Lig Aşaması | Omonia - Celta Vigo | scheduled | -
 - 2026-09-16 19:45 | UEFA Avrupa Ligi Lig Aşaması | Ararat-Armenia - Sparta Prag | scheduled | -
 - 2026-09-16 20:00 | İspanya LaLiga | D.La Coruna - Sevilla | scheduled | -
@@ -85,6 +88,7 @@ Yarin: 26
 - 2026-09-16 20:30 | İspanya Federasyon Kupası Son 16 Turu | Terrassa - Binefar | scheduled | -
 - 2026-09-16 20:30 | İspanya Federasyon Kupası Son 16 Turu | Comillas - Sestao | scheduled | -
 - 2026-09-16 20:30 | İsveç 2.Lig Norrland Yükselme Grubu | Skelleftea - Taftea | scheduled | -
+- 2026-09-16 20:30 | İspanya Gençler Onur Ligi Grup 4 | Tomares U18 - Utrera U19 | scheduled | -
 - 2026-09-16 20:45 | Rusya Premier Lig | L.Moskova - Krylya Sovietov | scheduled | -
 - 2026-09-16 20:45 | Rusya Premier Lig | Baltika Kalini - Zenit | scheduled | -
 - 2026-09-16 20:45 | İspanya Federasyon Kupası Son 16 Turu | Derio - Salamanca | scheduled | -
@@ -92,6 +96,7 @@ Yarin: 26
 - 2026-09-16 21:00 | Uruguay Kupa Ön Eleme Turu Grup 5 | Progreso - Nacional Df | scheduled | -
 - 2026-09-16 21:00 | Uruguay Kupa Ön Eleme Turu Grup 5 | Albion - River Plate (Ur | scheduled | -
 - 2026-09-16 21:00 | İspanya Gençler Onur Ligi Grup 4 | Real Betis U19 - Granada U18 | scheduled | -
+- 2026-09-16 21:00 | İspanya Federasyon Kupası Son 16 Turu | Conil - Dos Hermanas 19 | scheduled | -
 - 2026-09-16 21:15 | AFC Şampiyonlar Ligi 2 Grup C | Al Rayyan - Al Faisaly Amma | scheduled | -
 - 2026-09-16 21:15 | AFC Şampiyonlar Ligi 2 Grup D | Al Shorta - Al Seeb | scheduled | -
 - 2026-09-16 21:30 | İspanya Federasyon Kupası Son 16 Turu | Huelva - Cacereno | scheduled | -
@@ -143,6 +148,7 @@ Yarin: 26
 - 2026-09-17 03:30 | ABD USL | Birmingham Leg - New Mexico Unit | scheduled | -
 - 2026-09-17 04:00 | El Salvador Primera Lig Apertura | Inter Fa - Deportivo Fas | scheduled | -
 - 2026-09-17 04:00 | ABD USL Lig 1 | Athletic Club - Charlotte Indep | scheduled | -
+- 2026-09-17 04:00 | ABD MLS Next Pro | Real Monarchs - Minnesota Unite | scheduled | -
 - 2026-09-17 04:20 | Kolombiya Primera A Clausura | Inter Bogota - Atletico Nacion | scheduled | -
 - 2026-09-17 04:30 | ABD Açık Kupası Yarı Final | Colorado - St. Louis City | scheduled | -
 - 2026-09-17 06:15 | CONCACAF Orta Amerika Kupası Çeyrek Final | Alianza (0) - (3) Depor Motagua | scheduled | -
