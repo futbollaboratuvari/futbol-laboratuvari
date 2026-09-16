@@ -10,6 +10,10 @@ const {
 } = require("../server-lib/_lib/coupon-mail");
 
 const DELIVERY_STATE_RETRY_DELAYS_MS = [250, 750, 1500];
+const DEFAULT_COUPON_RECIPIENTS = Object.freeze([
+  "cemkaplanoglu@gmail.com",
+  "arifkaplanoglu@gmail.com",
+]);
 
 function json(res, statusCode, payload) {
   res.statusCode = statusCode;
@@ -30,6 +34,16 @@ function sameSecret(value, expected) {
   const left = Buffer.from(String(value || ""), "utf8");
   const right = Buffer.from(String(expected || ""), "utf8");
   return left.length > 0 && left.length === right.length && timingSafeEqual(left, right);
+}
+
+function mergeCouponRecipients(value) {
+  const recipients = [
+    ...String(value || "").split(","),
+    ...DEFAULT_COUPON_RECIPIENTS,
+  ]
+    .map((item) => item.trim().toLowerCase())
+    .filter(Boolean);
+  return [...new Set(recipients)].join(",");
 }
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -54,9 +68,6 @@ function withDeliveryStateRetries(store) {
       return retryDeliveryState(() => store.claim(entry));
     },
     complete(entry, claimToken, providerMessageId) {
-      // Completing the same claim is idempotent. Retrying here closes the small
-      // window where Resend accepted the message but a transient Supabase
-      // timeout left the durable row in "sending".
       return retryDeliveryState(() => store.complete(entry, claimToken, providerMessageId));
     },
     fail(entry, claimToken, error) {
@@ -70,10 +81,12 @@ function createHandler(overrides = {}) {
     if (req.method !== "POST") return json(res, 405, { ok: false, error: "method_not_allowed" });
 
     const env = overrides.env || process.env;
+    const couponMailTo = mergeCouponRecipients(env.COUPON_MAIL_TO);
+    const runtimeEnv = { ...env, COUPON_MAIL_TO: couponMailTo };
     const internalSecret = String(env.COUPON_MAIL_SECRET || "").trim();
     const requestToken = bearerToken(req);
     if (!internalSecret && !requestToken) {
-      const missing = ["COUPON_MAIL_SECRET", ...requiredRuntimeConfig(env)];
+      const missing = ["COUPON_MAIL_SECRET", ...requiredRuntimeConfig(runtimeEnv)];
       return json(res, 503, { ok: false, error: "missing_environment", missing });
     }
     let authorized = internalSecret ? sameSecret(requestToken, internalSecret) : false;
@@ -102,7 +115,7 @@ function createHandler(overrides = {}) {
       return json(res, 200, { ok: true, status: "no_valid_coupon", sent: 0, skipped: 0, failed: 0 });
     }
 
-    const missing = requiredRuntimeConfig(env);
+    const missing = requiredRuntimeConfig(runtimeEnv);
     if (missing.length) {
       return json(res, 503, { ok: false, error: "missing_environment", missing });
     }
@@ -117,7 +130,7 @@ function createHandler(overrides = {}) {
     const sendEmail = overrides.sendEmail || createResendSender({
       apiKey: env.RESEND_API_KEY,
       from: env.COUPON_MAIL_FROM,
-      to: env.COUPON_MAIL_TO,
+      to: couponMailTo,
       fetchImpl,
     });
 
@@ -129,6 +142,7 @@ function createHandler(overrides = {}) {
       sent: result.sent.length,
       skipped: result.skipped.length,
       failed: result.failed.length,
+      recipient_count: couponMailTo.split(",").filter(Boolean).length,
       coupon_ids: [...result.sent, ...result.skipped].map((item) => item.coupon_id),
     };
     if (result.failed.length) {
@@ -142,6 +156,8 @@ function createHandler(overrides = {}) {
 const handler = createHandler();
 handler.createHandler = createHandler;
 handler.sameSecret = sameSecret;
+handler.mergeCouponRecipients = mergeCouponRecipients;
+handler.DEFAULT_COUPON_RECIPIENTS = DEFAULT_COUPON_RECIPIENTS;
 handler.retryDeliveryState = retryDeliveryState;
 handler.withDeliveryStateRetries = withDeliveryStateRetries;
 
