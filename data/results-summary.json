@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-09-16T00:43:12.587Z",
+  "generated_at": "2026-09-16T01:27:46.411Z",
   "date": "2026-09-16",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
   "completed_items": [
+    {
+      "id": "2026-09-16|brezilya serie b|nautico operario|2 5 ust|01 30",
+      "date": "2026-09-16",
+      "time": "01:30",
+      "title": "Nautico - Operario",
+      "match": "Nautico - Operario",
+      "market": "2.5 Üst",
+      "prediction": "2.5 Üst",
+      "odds": "1.76",
+      "score": "3-3",
+      "result_score": "3-3",
+      "confidence": "65%",
+      "confidence_score": "65%",
+      "model_score": 65,
+      "estimated_probability": 47.8,
+      "market_probability": 47,
+      "edge_percent": 0.8,
+      "data_completeness": 60,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "won",
+      "result": "won",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-16T01:27:46.224Z",
+      "source": "Robot ham veri havuzu"
+    },
     {
       "id": "2026-09-16|brezilya serie b|londrina ponte preta|2 5 alt|01 30",
       "date": "2026-09-16",
@@ -18,9 +45,9 @@
       "confidence": "69%",
       "confidence_score": "69%",
       "model_score": 69,
-      "estimated_probability": 50.5,
+      "estimated_probability": 50,
       "market_probability": 45.2,
-      "edge_percent": 5.3,
+      "edge_percent": 4.8,
       "data_completeness": 67,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Orta",
@@ -69,13 +96,13 @@
       "odds": "1.41",
       "score": "1-1",
       "result_score": "1-1",
-      "confidence": "66%",
-      "confidence_score": "66%",
-      "model_score": 66,
-      "estimated_probability": 61,
+      "confidence": "68%",
+      "confidence_score": "68%",
+      "model_score": 68,
+      "estimated_probability": 61.5,
       "market_probability": 58.7,
-      "edge_percent": 2.4,
-      "data_completeness": 51,
+      "edge_percent": 2.8,
+      "data_completeness": 58,
       "model_version": "pro13-btts-conditioned-v3",
       "risk": "Orta",
       "status": "won",
@@ -786,47 +813,20 @@
       "market_group_label": "Maç Sonucu",
       "finalized_at": "2026-09-15T22:20:58.814Z",
       "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "2026-09-15|ingiltere efl trophy guney grup f|leyton orient arsenal u21|ms 1|21 00",
-      "date": "2026-09-15",
-      "time": "21:00",
-      "title": "Leyton Orient - Arsenal U21",
-      "match": "Leyton Orient - Arsenal U21",
-      "market": "MS 1",
-      "prediction": "MS 1",
-      "odds": "1.37",
-      "score": "1-2",
-      "result_score": "1-2",
-      "confidence": "60%",
-      "confidence_score": "60%",
-      "model_score": 60,
-      "estimated_probability": 54.7,
-      "market_probability": 60.1,
-      "edge_percent": -5.3,
-      "data_completeness": 51,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "lost",
-      "result": "lost",
-      "market_group": "match_result",
-      "market_group_label": "Maç Sonucu",
-      "finalized_at": "2026-09-15T22:20:58.814Z",
-      "source": "Robot ham veri havuzu"
     }
   ],
   "performance": {
     "prediction_count": 1500,
     "measured_count": 354,
     "pending_count": 1146,
-    "won_count": 198,
-    "lost_count": 156,
+    "won_count": 199,
+    "lost_count": 155,
     "void_count": 0,
     "success_rate": 56,
     "probability_sample_count": 354,
     "brier_score": 0.2395,
-    "baseline_brier_score": 0.2465,
-    "brier_skill_score": 0.0283,
+    "baseline_brier_score": 0.2461,
+    "brier_skill_score": 0.0271,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -840,18 +840,18 @@
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 136,
-        "won": 74,
+        "predictions": 137,
+        "won": 75,
         "average_probability": 45.6,
-        "observed_rate": 54.4
+        "observed_rate": 54.7
       },
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 142,
+        "predictions": 141,
         "won": 80,
         "average_probability": 54.4,
-        "observed_rate": 56.3
+        "observed_rate": 56.7
       },
       {
         "lower": 60,
@@ -870,13 +870,13 @@
         "observed_rate": 100
       }
     ],
-    "verified_at": "2026-09-16T00:43:12.477Z",
+    "verified_at": "2026-09-16T01:27:46.224Z",
     "groups": [
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 194,
-        "won": 115,
+        "measured": 195,
+        "won": 116,
         "lost": 79,
         "success_rate": 59
       },
@@ -891,10 +891,10 @@
       {
         "key": "btts",
         "label": "Karşılıklı Gol",
-        "measured": 11,
+        "measured": 10,
         "won": 5,
-        "lost": 6,
-        "success_rate": 45
+        "lost": 5,
+        "success_rate": 50
       }
     ]
   }

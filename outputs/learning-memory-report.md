@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.09.2026 03:43:01
+Oluşturma: 16.09.2026 04:27:32
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1150
-- Kazanan tahmin: 196
-- Kaybeden tahmin: 154
+- Bekleyen tahmin: 1147
+- Kazanan tahmin: 198
+- Kaybeden tahmin: 155
 - Lig sayısı: 280
 - Seçenek sayısı: 6
 
@@ -22,15 +22,16 @@ Oluşturma: 16.09.2026 03:43:01
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 594, bekleyen 465, başarı %62, düz getiri %6, ağırlık 1
+- 2.5 Alt: toplam 594, bekleyen 461, başarı %62, düz getiri %5, ağırlık 1
 - MS 1: toplam 505, bekleyen 401, başarı %55, düz getiri %-8, ağırlık 1
-- 2.5 Üst: toplam 165, bekleyen 104, başarı %54, düz getiri %-2, ağırlık 1
+- 2.5 Üst: toplam 166, bekleyen 105, başarı %54, düz getiri %-2, ağırlık 1
+- KG Var: toplam 14, bekleyen 4, başarı %50, düz getiri %-9, ağırlık 1
 - MS X: toplam 7, bekleyen 3, başarı %50, düz getiri %22, ağırlık 1
 - MS 2: toplam 214, bekleyen 173, başarı %46, düz getiri %-10, ağırlık 1
-- KG Var: toplam 15, bekleyen 4, başarı %46, düz getiri %-17, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-16 | Brezilya Serie B | Nautico - Operario | 2.5 Üst | pending | 65/100
 - 2026-09-16 | Bolivya Premier Lig | Guabira - Aurora | 2.5 Alt | pending | 63/100
 - 2026-09-16 | AFC Şampiyonlar Ligi 2 Grup C | Al Nahda - Al Taawon | MS 1 | pending | 51/100
 - 2026-09-16 | Endonezya Süper Lig | Borneo Fc - Dewa United | MS 1 | pending | 49/100
@@ -45,5 +46,4 @@ Oluşturma: 16.09.2026 03:43:01
 - 2026-09-16 | Kadınlar U20 Dünya Kupası Son 16 Turu | Brezilya U20 ( - Abd U20 (K) | 2.5 Alt | pending | 50/100
 - 2026-09-16 | Kuzey Amerika Şampiyonlar Kupası Final | Inter Miami - Cruz Azul | MS 1 | pending | 50/100
 - 2026-09-16 | Copa Libertadores Çeyrek Final | Corinthians (1) - (1) Estudiantes Lp | MS 1 | pending | 42/100
-- 2026-09-16 | CONCACAF Orta Amerika Kupası Çeyrek Final | Cs Cartagines (2) - (2) Deportivo Sapri | 2.5 Alt | pending | 47/100
 

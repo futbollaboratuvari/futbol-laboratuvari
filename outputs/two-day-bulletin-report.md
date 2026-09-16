@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-16 / 2026-09-17
 Kaynak: fixtures.json
-Ham mac: 191
-Aktif mac: 176
+Ham mac: 185
+Aktif mac: 174
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 15
-Bugun: 150
+Biten mac: 3
+Bultenden dusurulen mac: 11
+Bugun: 148
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-09-16 04:00 | Meksika Liga MX Apertura | Puebla - Toluca | scheduled | -
-- 2026-09-16 04:00 | Meksika Ascenso MX Apertura | Dorados - Cancun Fc | scheduled | -
 - 2026-09-16 08:00 | Asya Oyunları Grup B | Birleşik Arap - İran U23 | scheduled | -
 - 2026-09-16 10:00 | Asya Oyunları Grup A | Tayland U23 - Kırgızistan U23 | scheduled | -
 - 2026-09-16 11:30 | Endonezya Süper Lig | Borneo Fc - Dewa United | scheduled | -
@@ -192,4 +190,6 @@ Yarin: 26
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-16 01:30 | Brezilya Serie B | Londrina - Ponte Preta | finished | 6-0
+- 2026-09-16 01:30 | Brezilya Serie B | Nautico - Operario | finished | 3-3
+- 2026-09-16 01:30 | Venezuela Premier Lig Clausura | Depor Tachira - Academia Puerto | finished | 1-1

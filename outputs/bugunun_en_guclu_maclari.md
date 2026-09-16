@@ -4,16 +4,16 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-16T00:42:50.530Z
+- Güncelleme: 2026-09-16T01:26:41.687Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Londrina VS Ponte Preta | Brezilya Serie B | 01:30 | 2.5 Alt | 1.83 | 73 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
-| Nautico VS Operario | Brezilya Serie B | 01:30 | 2.5 Alt | 1.56 | 68 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
-| Depor Tachira VS Academia Puerto | Venezuela Premier Lig Clausura | 01:30 | 2.5 Alt | 1.41 | 70 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Londrina VS Ponte Preta | Brezilya Serie B | 01:30 | 2.5 Alt | 1.83 | 73 | Orta risk kupon adayı | Değerli | Orta | Düşük | finished |
+| Nautico VS Operario | Brezilya Serie B | 01:30 | 2.5 Üst | 1.76 | 69 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | finished |
+| Depor Tachira VS Academia Puerto | Venezuela Premier Lig Clausura | 01:30 | 2.5 Alt | 1.41 | 70 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | finished |
 | Indy Eleven VS Brooklyn | ABD USL | 02:00 | MS 1 | 1.60 | 65 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Ucv VS Academia Anzoat | Venezuela Premier Lig Clausura | 02:30 | MS 1 | 1.44 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Regatas VS Sport Recife | Brezilya Serie B | 03:00 | MS 1 | 1.68 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -179,7 +179,7 @@
 | Hartford Athle VS Sporting Jax | ABD USL | 01:00 | MS 1 | 1.31 | 76 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Botafogo VS Gremio | Brezilya Serie A | 01:30 | 2.5 Alt | 1.79 | 73 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Columbus VS Orlando City | ABD Açık Kupası Yarı Final | 02:00 | MS 2 | 3.08 | 58 | Sadece izleme | Değerli | Yüksek | Düşük | scheduled |
-| Trujillanos VS Rayo Zuliano | Venezuela Premier Lig Clausura | 02:00 | 2.5 Üst | 1.65 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Trujillanos VS Rayo Zuliano | Venezuela Premier Lig Clausura | 02:00 | 2.5 Üst | 1.65 | 79 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Real Monarchs VS Minnesota Unite | ABD MLS Next Pro | 02:00 | MS 2 | 1.72 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Chattanooga Re VS Forward Madison | ABD USL Lig 1 | 02:00 | 2.5 Üst | 1.58 | 70 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
 | Westchester Sc VS Richmond Kicker | ABD USL Lig 1 | 02:00 | MS 1 | 1.60 | 65 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
@@ -202,20 +202,20 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Portuguesa VS Estudiantes Fc | 2.5 Alt | 1.51 | 82 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Fleetwood Town VS Sheffield Utd | KG Var | 1.93 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Trujillanos VS Rayo Zuliano | 2.5 Üst | 1.65 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Scunthorpe VS Boreham Wood | KG Var | 1.69 | 79 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Trujillanos VS Rayo Zuliano | 2.5 Üst | 1.65 | 79 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Monagas VS Zamora | 2.5 Alt | 1.62 | 78 | Orta risk kupon adayı | Değerli | Orta | Düşük |
 | Progreso VS Nacional Df | 2.5 Alt | 1.54 | 78 | Orta risk kupon adayı | Değerli | Düşük | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Fleetwood Town VS Sheffield Utd + Trujillanos VS Rayo Zuliano | KG Var + 2.5 Üst | 3.18 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Scunthorpe VS Boreham Wood + Monagas VS Zamora | KG Var + 2.5 Alt | 2.74 | 79 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Fleetwood Town VS Sheffield Utd + Scunthorpe VS Boreham Wood | KG Var + KG Var | 3.26 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Trujillanos VS Rayo Zuliano + Monagas VS Zamora | 2.5 Üst + 2.5 Alt | 2.67 | 79 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Anderlecht VS Lyon + Londrina VS Ponte Preta | 2.5 Alt + 2.5 Alt | 3.73 | 73 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Fleetwood Town VS Sheffield Utd + Trujillanos VS Rayo Zuliano + Scunthorpe VS Boreham Wood | KG Var + 2.5 Üst + KG Var | 5.38 | 80 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Fleetwood Town VS Sheffield Utd + Scunthorpe VS Boreham Wood + Trujillanos VS Rayo Zuliano | KG Var + KG Var + 2.5 Üst | 5.38 | 79 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
 | Monagas VS Zamora + Anderlecht VS Lyon + Londrina VS Ponte Preta | 2.5 Alt + 2.5 Alt + 2.5 Alt | 6.05 | 75 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
