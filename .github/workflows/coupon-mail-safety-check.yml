@@ -1,0 +1,41 @@
+name: Coupon Mail Safety Check
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - api/send-coupon-mail.js
+      - server-lib/_lib/coupon-mail.js
+      - scripts/send-coupon-notification.js
+      - tests/coupon-mail-notification.test.js
+      - tests/coupon-mail-recipient-routing.test.js
+      - .github/workflows/coupon-mail-notification.yml
+      - .github/workflows/coupon-mail-safety-check.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: coupon-mail-safety-check
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Run coupon mail tests
+        run: |
+          node tests/coupon-mail-notification.test.js
+          node tests/coupon-mail-recipient-routing.test.js
