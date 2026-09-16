@@ -10,7 +10,7 @@ const robotFile = path.join(dataDir, "robot-analysis.json");
 const liveFile = path.join(dataDir, "live-matches.json");
 const couponFile = path.join(dataDir, "daily-coupons.json");
 const archiveDir = path.join(dataDir, "archive");
-const BRIDGE_VERSION = "pro-goal-market-bridge-v1";
+const BRIDGE_VERSION = "pro-goal-market-bridge-v2";
 
 const ALIASES = Object.freeze({
   over35: ["over35", "ust35", "over3_5", "ust_35", "over35_guess", "over3.5", "3.5ust"],
@@ -99,18 +99,27 @@ function matchIdentity(item) {
   return `teams:${date}|${home}|${away}`;
 }
 
-function objectSources(item) {
-  return [
-    item,
-    item?.available_odds,
-    item?.odds,
-    item?.oranlar,
-    item?.detay_oranlar,
+function isBridgeEnriched(item) {
+  return Boolean(item?.goal_market_bridge_version || item?.goal_market_bridge);
+}
+
+function directOddSources(item) {
+  const sources = [
     item?.raw_market_guess_odds,
-    item?.detail_market_candidates,
+    item?.detay_oranlar,
+    item?.oranlar,
+  ];
+  if (!isBridgeEnriched(item)) {
+    sources.push(item?.available_odds, item?.odds);
+  }
+  return sources.filter(Boolean);
+}
+
+function labeledOddSources(item) {
+  return [
     item?.raw_market_blocks,
-    item?.metrics,
-    item?.analysis_metrics,
+    item?.detail_market_candidates,
+    item?.detay_oranlar,
   ].filter(Boolean);
 }
 
@@ -129,7 +138,7 @@ function findDirectKeyOdd(value, aliasSet, depth = 0, seen = new Set()) {
       const parsed = odd(raw);
       if (parsed !== null) return parsed;
       if (raw && typeof raw === "object") {
-        for (const candidateKey of ["odd", "odds", "oran", "price", "value"]) {
+        for (const candidateKey of ["odd", "odds", "oran", "price", "rate"]) {
           const nested = odd(raw[candidateKey]);
           if (nested !== null) return nested;
         }
@@ -156,7 +165,7 @@ function findLabelOdd(value, pattern, depth = 0, seen = new Set()) {
   const label = [value.market, value.market_name, value.label, value.name, value.title, value.option, value.selection, value.key]
     .filter(Boolean).join(" ");
   if (label && pattern.test(label)) {
-    for (const key of ["odd", "odds", "oran", "price", "rate", "value"]) {
+    for (const key of ["odd", "odds", "oran", "price", "rate"]) {
       const parsed = odd(value[key]);
       if (parsed !== null) return parsed;
     }
@@ -171,7 +180,7 @@ function findLabelOdd(value, pattern, depth = 0, seen = new Set()) {
 function findMarketOdd(items, key) {
   const aliasSet = new Set((ALIASES[key] || []).map(compact));
   for (const item of items.filter(Boolean)) {
-    for (const source of objectSources(item)) {
+    for (const source of directOddSources(item)) {
       const direct = findDirectKeyOdd(source, aliasSet);
       if (direct !== null) return direct;
     }
@@ -179,7 +188,7 @@ function findMarketOdd(items, key) {
   const pattern = LABEL_PATTERNS[key];
   if (!pattern) return null;
   for (const item of items.filter(Boolean)) {
-    for (const source of objectSources(item)) {
+    for (const source of labeledOddSources(item)) {
       const labeled = findLabelOdd(source, pattern);
       if (labeled !== null) return labeled;
     }
@@ -414,7 +423,9 @@ function promoteRobotMatch(match, sources, candidates) {
   const over35 = findMarketOdd(sources, "over35");
   const goals6plus = findMarketOdd(sources, "goals6plus");
   if (over35 !== null) next.available_odds.over35 = over35;
+  else delete next.available_odds.over35;
   if (goals6plus !== null) next.available_odds.goals6plus = goals6plus;
+  else delete next.available_odds.goals6plus;
 
   const currentScore = finite(match.model_score ?? match.analysis_score ?? match.confidence_score) || 0;
   const shouldPromote = best?.include_in_coupon === true
@@ -453,15 +464,32 @@ function enrichLiveRow(row, candidateMap) {
   if (!entry) return row;
   const best = entry.candidates[0] || null;
   const available = { ...(row.available_odds || {}) };
+  const oddsMap = { ...(row.odds || {}) };
   const over35 = findMarketOdd(entry.sources, "over35");
   const goals6plus = findMarketOdd(entry.sources, "goals6plus");
-  if (over35 !== null) available.over35 = over35;
-  if (goals6plus !== null) available.goals6plus = goals6plus;
+  if (over35 !== null) {
+    available.over35 = over35;
+    oddsMap.over35 = over35;
+  } else {
+    delete available.over35;
+    delete oddsMap.over35;
+  }
+  if (goals6plus !== null) {
+    available.goals6plus = goals6plus;
+    oddsMap.goals6plus = goals6plus;
+  } else {
+    delete available.goals6plus;
+    delete oddsMap.goals6plus;
+  }
+  const inventory = (row.market_odds_inventory || [])
+    .filter((market) => market !== "over35" && market !== "goals6plus");
+  if (over35 !== null) inventory.push("over35");
+  if (goals6plus !== null) inventory.push("goals6plus");
   return {
     ...row,
     available_odds: available,
-    odds: { ...(row.odds || {}), ...(over35 !== null ? { over35 } : {}), ...(goals6plus !== null ? { goals6plus } : {}) },
-    market_odds_inventory: [...new Set([...(row.market_odds_inventory || []), ...(over35 !== null ? ["over35"] : []), ...(goals6plus !== null ? ["goals6plus"] : [])])],
+    odds: oddsMap,
+    market_odds_inventory: [...new Set(inventory)],
     goal_market_bridge_version: BRIDGE_VERSION,
     goal_market_candidates: entry.candidates.map(compactCandidate),
     goal_market_pick: compactCandidate(best),
@@ -544,7 +572,8 @@ function sanitizeCoupon(coupon) {
 
 function mergeRiskLab(existing, candidates) {
   const existingLegs = (Array.isArray(existing?.selected_matches) ? existing.selected_matches : [])
-    .filter((leg) => couponRules.isCouponEligible(leg));
+    .filter((leg) => couponRules.isCouponEligible(leg))
+    .filter((leg) => !/^(?:3[,.]?5\s*Üst|6\+\s*Gol)$/i.test(String(leg?.recommended_market || leg?.market || "").trim()));
   const pool = [...existingLegs, ...candidates.filter((candidate) => candidate.include_in_coupon)];
   const seen = new Set();
   const unique = pool.filter((leg) => {
