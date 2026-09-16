@@ -2,31 +2,15 @@
 
 Gunler: 2026-09-16 / 2026-09-17
 Kaynak: fixtures.json
-Ham mac: 215
-Aktif mac: 61
+Ham mac: 216
+Aktif mac: 45
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 154
-Bugun: 34
+Bultenden dusurulen mac: 171
+Bugun: 18
 Yarin: 27
 
 ## Baslamamis Maclar
-- 2026-09-16 21:00 | Arjantin Ulusal Primera Lig | San Martin Sj - Tristan | scheduled | -
-- 2026-09-16 21:00 | Uruguay Kupa Ön Eleme Turu Grup 5 | Progreso - Nacional Df | scheduled | -
-- 2026-09-16 21:00 | Uruguay Kupa Ön Eleme Turu Grup 5 | Albion - River Plate (Ur | scheduled | -
-- 2026-09-16 21:00 | İspanya Gençler Onur Ligi Grup 4 | Real Betis U19 - Granada U18 | scheduled | -
-- 2026-09-16 21:00 | İspanya Federasyon Kupası Son 16 Turu | Conil - Dos Hermanas 19 | scheduled | -
-- 2026-09-16 21:15 | AFC Şampiyonlar Ligi 2 Grup C | Al Rayyan - Al Faisaly Amma | scheduled | -
-- 2026-09-16 21:15 | AFC Şampiyonlar Ligi 2 Grup D | Al Shorta - Al Seeb | scheduled | -
-- 2026-09-16 21:30 | İspanya Federasyon Kupası Son 16 Turu | Huelva - Cacereno | scheduled | -
-- 2026-09-16 21:30 | Uruguay Kupa Ön Eleme Turu Grup 2 | Rentistas - Plaza Colonia | scheduled | -
-- 2026-09-16 21:45 | İngiltere Lig Kupası 3.Tur | Fleetwood Town - Sheffield Utd | scheduled | -
-- 2026-09-16 21:45 | İngiltere Lig Kupası 3.Tur | Everton - Wolverhampton | scheduled | -
-- 2026-09-16 21:45 | İngiltere Ulusal Lig | Altrincham - Hartlepool | scheduled | -
-- 2026-09-16 21:45 | İngiltere Ulusal Lig | Scunthorpe - Boreham Wood | scheduled | -
-- 2026-09-16 21:45 | İngiltere Ulusal Lig | Kidderminster - Gateshead | scheduled | -
-- 2026-09-16 21:45 | İspanya Federasyon Kupası Son 16 Turu | Orihuela - Murcia | scheduled | -
-- 2026-09-16 21:45 | UEFA Gençlik Ligi 1.Tur | Cliftonville U - Super Nova U19 | scheduled | -
 - 2026-09-16 22:00 | UEFA Avrupa Ligi Lig Aşaması | Ac Milan - Benfica | scheduled | -
 - 2026-09-16 22:00 | UEFA Avrupa Ligi Lig Aşaması | Olympiakos - Jagiellonia | scheduled | -
 - 2026-09-16 22:00 | UEFA Avrupa Ligi Lig Aşaması | Sunderland - Az Alkmaar | scheduled | -
