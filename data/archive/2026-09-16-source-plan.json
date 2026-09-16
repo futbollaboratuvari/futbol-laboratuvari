@@ -1,316 +1,10 @@
 {
-  "generated_at": "2026-09-16T05:13:45.730Z",
+  "generated_at": "2026-09-16T10:06:53.403Z",
   "date": "2026-09-16",
   "source_count": 8,
-  "match_count": 180,
+  "match_count": 174,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
-    {
-      "match_name": "Regatas VS Sport Recife",
-      "league": "Brezilya Serie B",
-      "start_time": "03:00",
-      "recommended_market": "MS 1",
-      "data_gap_risk": "Yüksek",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Sao Paulo (0) VS (1) Boca Juniors",
-      "league": "Copa Sudamericana Çeyrek Final",
-      "start_time": "03:30",
-      "recommended_market": "MS 1",
-      "data_gap_risk": "Yüksek",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Chico VS Alianza Petrole",
-      "league": "Kolombiya Primera A Clausura",
-      "start_time": "03:30",
-      "recommended_market": "2.5 Alt",
-      "data_gap_risk": "Orta",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Bahia (K) VS Corinthians (K)",
-      "league": "Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final",
-      "start_time": "03:30",
-      "recommended_market": "MS 2",
-      "data_gap_risk": "Yüksek",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Puebla VS Toluca",
-      "league": "Meksika Liga MX Apertura",
-      "start_time": "04:00",
-      "recommended_market": "2.5 Alt",
-      "data_gap_risk": "Orta",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Dorados VS Cancun Fc",
-      "league": "Meksika Ascenso MX Apertura",
-      "start_time": "04:00",
-      "recommended_market": "MS 1",
-      "data_gap_risk": "Orta",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
     {
       "match_name": "Birleşik Arap VS İran U23",
       "league": "Asya Oyunları Grup B",
@@ -417,7 +111,7 @@
       "match_name": "Borneo Fc VS Dewa United",
       "league": "Endonezya Süper Lig",
       "start_time": "11:30",
-      "recommended_market": "MS 1",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -577,7 +271,7 @@
       "match_name": "Fc Seoul VS Persib",
       "league": "AFC Şampiyonlar Ligi 2 Grup E",
       "start_time": "13:00",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -832,7 +526,7 @@
       "match_name": "Chainat Hornbi VS Esan Pattaya",
       "league": "Tayland 2.Lig",
       "start_time": "14:00",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "2.5 Üst",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1597,7 +1291,7 @@
       "match_name": "As Kigali VS Al Hilal Omdurm",
       "league": "Ruanda Ulusal Futbol Ligi",
       "start_time": "16:00",
-      "recommended_market": "Değerli market yok",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2260,7 +1954,7 @@
       "match_name": "Naesby VS Horsens",
       "league": "Danimarka DBU Kupası 3.Tur",
       "start_time": "17:30",
-      "recommended_market": "MS 2",
+      "recommended_market": "Değerli market yok",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -3688,7 +3382,7 @@
       "match_name": "Jerv VS Egersunds",
       "league": "Norveç NM Kupası 2.Tur",
       "start_time": "19:00",
-      "recommended_market": "MS 1",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -4249,7 +3943,7 @@
       "match_name": "Atlético Zabal VS Alhendín U19",
       "league": "İspanya Gençler Onur Ligi Grup 4",
       "start_time": "19:00",
-      "recommended_market": "MS 1",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -4759,7 +4453,7 @@
       "match_name": "Ostia Mare Lid VS Ravenna",
       "league": "İtalya Serie C Grup B",
       "start_time": "19:30",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "2.5 Üst",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -6032,7 +5726,7 @@
       "match_name": "Ghazl El Mehal VS Al Zamalek Cair",
       "league": "Mısır Premier Lig",
       "start_time": "20:00",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -6185,7 +5879,7 @@
       "match_name": "Ud Santa Marta VS Bergantinos",
       "league": "İspanya Federasyon Kupası Son 16 Turu",
       "start_time": "20:00",
-      "recommended_market": "MS 2",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -6491,7 +6185,7 @@
       "match_name": "Comillas VS Sestao",
       "league": "İspanya Federasyon Kupası Son 16 Turu",
       "start_time": "20:30",
-      "recommended_market": "Değerli market yok",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -6695,7 +6389,7 @@
       "match_name": "Derio VS Salamanca",
       "league": "İspanya Federasyon Kupası Son 16 Turu",
       "start_time": "20:45",
-      "recommended_market": "MS 2",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -7052,7 +6746,7 @@
       "match_name": "Huelva VS Cacereno",
       "league": "İspanya Federasyon Kupası Son 16 Turu",
       "start_time": "21:30",
-      "recommended_market": "MS 1",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -7154,7 +6848,7 @@
       "match_name": "Everton VS Wolverhampton",
       "league": "İngiltere Lig Kupası 3.Tur",
       "start_time": "21:45",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Orta",
       "source_plan": [
         {
@@ -7205,7 +6899,7 @@
       "match_name": "Altrincham VS Hartlepool",
       "league": "İngiltere Ulusal Lig",
       "start_time": "21:45",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "2.5 Üst",
       "data_gap_risk": "Orta",
       "source_plan": [
         {
@@ -7358,7 +7052,7 @@
       "match_name": "Orihuela VS Murcia",
       "league": "İspanya Federasyon Kupası Son 16 Turu",
       "start_time": "21:45",
-      "recommended_market": "MS 2",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -7409,7 +7103,7 @@
       "match_name": "Ac Milan VS Benfica",
       "league": "UEFA Avrupa Ligi Lig Aşaması",
       "start_time": "22:00",
-      "recommended_market": "MS 1",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Orta",
       "source_plan": [
         {
@@ -7460,7 +7154,7 @@
       "match_name": "Olympiakos VS Jagiellonia",
       "league": "UEFA Avrupa Ligi Lig Aşaması",
       "start_time": "22:00",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "Değerli market yok",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -8072,7 +7766,7 @@
       "match_name": "Saguntino VS Navalcarnero",
       "league": "İspanya Federasyon Kupası Son 16 Turu",
       "start_time": "22:00",
-      "recommended_market": "MS 2",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -8276,7 +7970,7 @@
       "match_name": "Deportivo Cuen VS San Antonio",
       "league": "Ekvador Pro Lig Serie B Şampiyonluk Grubu",
       "start_time": "23:30",
-      "recommended_market": "MS 1",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Orta",
       "source_plan": [
         {
