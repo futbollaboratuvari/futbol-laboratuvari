@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:52:03.488Z",
+  "generated_at": "2026-09-16T17:56:41.584Z",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik canlı robot",
   "engine": "High Value Coupon Engine",
@@ -13,7 +13,19 @@
       "İkinci Yarı KG Var",
       "KG Var",
       "2.5 Üst",
-      "3.5 Üst"
+      "3.5 Üst",
+      "6+ Gol",
+      "İlk Yarı 1/X/2",
+      "İkinci Yarı 1/X/2",
+      "İY/MS 1/1",
+      "İY/MS 1/X",
+      "İY/MS 1/2",
+      "İY/MS X/1",
+      "İY/MS X/X",
+      "İY/MS X/2",
+      "İY/MS 2/1",
+      "İY/MS 2/X",
+      "İY/MS 2/2"
     ],
     "scoring_classes": {
       "80-100": "Ana kupon adayı",
@@ -23,234 +35,9 @@
     },
     "stale_data_policy": "Güncel maç değilse analiz dışı bırakılır."
   },
-  "match_count": 143,
+  "match_count": 141,
   "analysis_count": 11,
   "matches": [
-    {
-      "home_team_name": "Spartak Moskov",
-      "away_team_name": "Fakel Voronezh",
-      "competition_name": "Rusya Premier Lig",
-      "date": "2026-09-16",
-      "time": "18:30",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.93",
-      "confidence_score": "71%",
-      "trust_score": "71/100",
-      "analysis_score": 71,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 3,
-        "awayScoredLast10": 2,
-        "homeConcededLast10": 1,
-        "awayConcededLast10": 3,
-        "bttsPercent": 42,
-        "over25Percent": 42,
-        "over35Percent": 25,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 48,
-        "leagueGoalAverage": 2.9,
-        "memory": {
-          "scoreDelta": 8,
-          "totalMatches": 28,
-          "home": {
-            "count": 3,
-            "scored": 3,
-            "conceded": 1,
-            "bttsRate": 33,
-            "over25Rate": 33,
-            "over35Rate": 0,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 0.33,
-            "wins": 2,
-            "draws": 1,
-            "losses": 0,
-            "winRate": 67,
-            "drawRate": 33,
-            "lossRate": 0,
-            "pointsPerGame": 2.33
-          },
-          "away": {
-            "count": 4,
-            "scored": 2,
-            "conceded": 3,
-            "bttsRate": 50,
-            "over25Rate": 50,
-            "over35Rate": 50,
-            "goalsForAvg": 0.75,
-            "goalsAgainstAvg": 1.5,
-            "wins": 0,
-            "draws": 2,
-            "losses": 2,
-            "winRate": 0,
-            "drawRate": 50,
-            "lossRate": 50,
-            "pointsPerGame": 0.5
-          },
-          "league": {
-            "count": 21,
-            "goalAverage": 2.9,
-            "bttsRate": 67,
-            "over25Rate": 52
-          },
-          "signals": [
-            "Hafıza: 2.5 Alt eğilimi destekli (%58): +8"
-          ]
-        },
-        "poisson": {
-          "probabilities": {
-            "ms1": 53.592110225348385,
-            "msx": 24.127224030103477,
-            "ms2": 22.280665744548088,
-            "over15": 74.89652629071645,
-            "over25": 50.31668084502198,
-            "under25": 49.68331915497799,
-            "over35": 28.300809147823486,
-            "kgVar": 51.47067162567126,
-            "kgYok": 48.52932837432872,
-            "homeGoal": 81.53524889913052,
-            "awayGoal": 63.12689581575578
-          },
-          "homeLambda": 1.69,
-          "awayLambda": 1,
-          "samples": 7,
-          "reliability": 0.4375
-        },
-        "homeScoredLast10Count": 3,
-        "awayScoredLast10Count": 2,
-        "homeConcededLast10Count": 1,
-        "awayConcededLast10Count": 3
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.93",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %44.",
-        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %55.",
-        "Birleşik tahmini olasılık %48.",
-        "Model-piyasa farkı +3.8 puan.",
-        "Poisson gol beklentisi 1.69-1.",
-        "Hafıza: 2.5 Alt eğilimi destekli (%58): +8",
-        "Geçmiş market örneği 1973; ham isabet %46.",
-        "Veri kapsama puanı 69/100 (Düşük eksik veri riski).",
-        "Model gücü 71/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Fk Rodina Mosk",
-      "away_team_name": "Rubin Kazan",
-      "competition_name": "Rusya Premier Lig",
-      "date": "2026-09-16",
-      "time": "18:30",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.84",
-      "confidence_score": "66%",
-      "trust_score": "66/100",
-      "analysis_score": 66,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": 0,
-        "awayScoredLast10": 4,
-        "homeConcededLast10": 1,
-        "awayConcededLast10": 4,
-        "bttsPercent": 67,
-        "over25Percent": 52,
-        "over35Percent": 38,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 53,
-        "leagueGoalAverage": 2.9,
-        "memory": {
-          "scoreDelta": 5,
-          "totalMatches": 26,
-          "home": {
-            "count": 1,
-            "scored": 0,
-            "conceded": 1,
-            "bttsRate": 0,
-            "over25Rate": 100,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 3,
-            "wins": 0,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 4,
-            "scored": 4,
-            "conceded": 4,
-            "bttsRate": 100,
-            "over25Rate": 25,
-            "over35Rate": 25,
-            "goalsForAvg": 1.5,
-            "goalsAgainstAvg": 1,
-            "wins": 1,
-            "draws": 3,
-            "losses": 0,
-            "winRate": 25,
-            "drawRate": 75,
-            "lossRate": 0,
-            "pointsPerGame": 1.5
-          },
-          "league": {
-            "count": 21,
-            "goalAverage": 2.9,
-            "bttsRate": 67,
-            "over25Rate": 52
-          },
-          "signals": [
-            "Hafıza: lig gol ortalaması 2.9: +5",
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": 0,
-        "awayScoredLast10Count": 4,
-        "homeConcededLast10Count": 1,
-        "awayConcededLast10Count": 4
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.84",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %46.",
-        "Bağımsız sonuç hafızası tahmini %63.",
-        "Birleşik tahmini olasılık %49.",
-        "Model-piyasa farkı +3.1 puan.",
-        "Hafıza: lig gol ortalaması 2.9: +5",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %55.",
-        "Veri kapsama puanı 52/100 (Orta eksik veri riski).",
-        "Model gücü 66/100: Orta risk kupon adayı."
-      ]
-    },
     {
       "home_team_name": "Zalgiris Vilni",
       "away_team_name": "Kauno Zalgiris",
@@ -347,7 +134,7 @@
         "Birleşik tahmini olasılık %52.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %55.",
+        "Geçmiş market örneği 1977; ham isabet %55.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 57/100: Sadece izleme."
@@ -449,7 +236,7 @@
         "Birleşik tahmini olasılık %56.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
@@ -633,7 +420,7 @@
         "Birleşik tahmini olasılık %55.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
@@ -732,7 +519,7 @@
         "Marjı temizlenmiş piyasa olasılığı %46.",
         "Birleşik tahmini olasılık %46.",
         "Model-piyasa farkı +0.0 puan.",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 49/100 (Yüksek eksik veri riski).",
         "Model gücü 56/100: Sadece izleme."
@@ -746,15 +533,15 @@
       "time": "19:00",
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "1.32",
-      "confidence_score": "61%",
-      "trust_score": "61/100",
-      "analysis_score": 61,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
+      "suggested_option": "2.5 Üst",
+      "suggested_odds": "1.60",
+      "confidence_score": "67%",
+      "trust_score": "67/100",
+      "analysis_score": 67,
+      "analysis_class": "Orta risk kupon adayı",
+      "value_label": "Değerli",
+      "risk_level": "Orta",
+      "data_gap_risk": "Orta",
       "analysis_metrics": {
         "homeScoredLast10": 4,
         "awayScoredLast10": 4,
@@ -768,46 +555,46 @@
         "leagueGoalAverage": 2.72,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 0,
+          "totalMatches": 3,
           "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
+            "count": 1,
+            "scored": 1,
+            "conceded": 1,
+            "bttsRate": 100,
+            "over25Rate": 100,
+            "over35Rate": 100,
+            "goalsForAvg": 2,
+            "goalsAgainstAvg": 2,
             "wins": 0,
-            "draws": 0,
+            "draws": 1,
             "losses": 0,
             "winRate": 0,
-            "drawRate": 0,
+            "drawRate": 100,
             "lossRate": 0,
-            "pointsPerGame": 0
+            "pointsPerGame": 1
           },
           "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
+            "count": 1,
+            "scored": 1,
+            "conceded": 1,
+            "bttsRate": 100,
+            "over25Rate": 100,
+            "over35Rate": 100,
+            "goalsForAvg": 2,
+            "goalsAgainstAvg": 2,
             "wins": 0,
-            "draws": 0,
+            "draws": 1,
             "losses": 0,
             "winRate": 0,
-            "drawRate": 0,
+            "drawRate": 100,
             "lossRate": 0,
-            "pointsPerGame": 0
+            "pointsPerGame": 1
           },
           "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
+            "count": 1,
+            "goalAverage": 4,
+            "bttsRate": 100,
+            "over25Rate": 100
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -819,25 +606,25 @@
         "homeConcededLast10Count": 5,
         "awayConcededLast10Count": 5
       },
-      "tag": "Sadece izleme",
+      "tag": "Orta risk kupon adayı",
       "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
+        "2-1",
+        "3-1",
+        "2-2"
       ],
       "signals": [
-        "Market: MS 1",
-        "Oran: 1.32",
+        "Market: 2.5 Üst",
+        "Oran: 1.60",
         "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %63.",
-        "Birleşik tahmini olasılık %63.",
-        "Model-piyasa farkı +0.0 puan.",
+        "Değer etiketi: Değerli",
+        "Marjı temizlenmiş piyasa olasılığı %52.",
+        "Bağımsız sonuç hafızası tahmini %99.",
+        "Birleşik tahmini olasılık %60.",
+        "Model-piyasa farkı +8.5 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 61/100: Sadece izleme."
+        "Geçmiş market örneği 1977; ham isabet %55.",
+        "Veri kapsama puanı 46/100 (Orta eksik veri riski).",
+        "Model gücü 67/100: Orta risk kupon adayı."
       ]
     },
     {
@@ -936,7 +723,7 @@
         "Birleşik tahmini olasılık %54.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 56/100: Sadece izleme."
@@ -1284,7 +1071,7 @@
         "Birleşik tahmini olasılık %66.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 62/100: Sadece izleme."
@@ -1468,7 +1255,7 @@
         "Birleşik tahmini olasılık %45.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 53/100: Sadece izleme."
@@ -1652,7 +1439,7 @@
         "Birleşik tahmini olasılık %52.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 55/100: Sadece izleme."
@@ -1754,7 +1541,7 @@
         "Birleşik tahmini olasılık %47.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 52/100: Sadece izleme."
@@ -1856,7 +1643,7 @@
         "Birleşik tahmini olasılık %55.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 56/100: Sadece izleme."
@@ -2040,7 +1827,7 @@
         "Birleşik tahmini olasılık %50.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
         "Model gücü 54/100: Sadece izleme."
@@ -2224,7 +2011,7 @@
         "Birleşik tahmini olasılık %38.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 49/100: Sadece izleme."
@@ -2408,7 +2195,7 @@
         "Birleşik tahmini olasılık %62.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 61/100: Sadece izleme."
@@ -2510,7 +2297,7 @@
         "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
@@ -2694,7 +2481,7 @@
         "Birleşik tahmini olasılık %46.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 54/100: Sadece izleme."
@@ -2796,7 +2583,7 @@
         "Birleşik tahmini olasılık %46.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 52/100: Sadece izleme."
@@ -2898,7 +2685,7 @@
         "Birleşik tahmini olasılık %47.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 52/100: Sadece izleme."
@@ -3000,7 +2787,7 @@
         "Birleşik tahmini olasılık %41.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 49/100: Sadece izleme."
@@ -3266,7 +3053,7 @@
         "Birleşik tahmini olasılık %44.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 51/100: Sadece izleme."
@@ -3368,7 +3155,7 @@
         "Birleşik tahmini olasılık %42.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 50/100: Sadece izleme."
@@ -3552,7 +3339,7 @@
         "Birleşik tahmini olasılık %66.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 61/100: Sadece izleme."
@@ -3736,7 +3523,7 @@
         "Birleşik tahmini olasılık %43.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 50/100: Sadece izleme."
@@ -3838,7 +3625,7 @@
         "Birleşik tahmini olasılık %38.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 49/100: Sadece izleme."
@@ -4022,7 +3809,7 @@
         "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
@@ -4124,7 +3911,7 @@
         "Birleşik tahmini olasılık %56.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
@@ -4226,7 +4013,7 @@
         "Birleşik tahmini olasılık %52.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 57/100: Sadece izleme."
@@ -4328,7 +4115,7 @@
         "Birleşik tahmini olasılık %41.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 51/100: Sadece izleme."
@@ -4430,7 +4217,7 @@
         "Birleşik tahmini olasılık %55.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
@@ -4532,7 +4319,7 @@
         "Birleşik tahmini olasılık %52.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %55.",
+        "Geçmiş market örneği 1977; ham isabet %55.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 57/100: Sadece izleme."
@@ -4634,7 +4421,7 @@
         "Birleşik tahmini olasılık %54.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 57/100: Sadece izleme."
@@ -4736,7 +4523,7 @@
         "Birleşik tahmini olasılık %62.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 61/100: Sadece izleme."
@@ -4838,7 +4625,7 @@
         "Birleşik tahmini olasılık %64.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 63/100: Sadece izleme."
@@ -4940,7 +4727,7 @@
         "Birleşik tahmini olasılık %51.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
         "Model gücü 56/100: Sadece izleme."
@@ -5039,7 +4826,7 @@
         "Marjı temizlenmiş piyasa olasılığı %54.",
         "Birleşik tahmini olasılık %54.",
         "Model-piyasa farkı +0.0 puan.",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 49/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
@@ -5141,7 +4928,7 @@
         "Birleşik tahmini olasılık %56.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 56/100: Sadece izleme."
@@ -5243,7 +5030,7 @@
         "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 46/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
@@ -5343,7 +5130,7 @@
         "Bağımsız sonuç hafızası tahmini %30.",
         "Birleşik tahmini olasılık %42.",
         "Model-piyasa farkı -3.1 puan.",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 54/100 (Orta eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
       ]
@@ -5444,7 +5231,7 @@
         "Birleşik tahmini olasılık %53.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %55.",
+        "Geçmiş market örneği 1977; ham isabet %55.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 45/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
@@ -5546,7 +5333,7 @@
         "Birleşik tahmini olasılık %41.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 51/100: Sadece izleme."
@@ -5648,7 +5435,7 @@
         "Birleşik tahmini olasılık %46.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 53/100: Sadece izleme."
@@ -5770,7 +5557,7 @@
         "Model-piyasa farkı +6.8 puan.",
         "Poisson gol beklentisi 1.24-1.41.",
         "Hafıza: KG Var eğilimi yüksek (%63): +8",
-        "Geçmiş market örneği 1973; ham isabet %57.",
+        "Geçmiş market örneği 1977; ham isabet %57.",
         "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
         "Model gücü 73/100: Orta risk kupon adayı."
       ]
@@ -5871,7 +5658,7 @@
         "Birleşik tahmini olasılık %62.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 45/100 (Yüksek eksik veri riski).",
         "Model gücü 61/100: Sadece izleme."
@@ -5973,7 +5760,7 @@
         "Birleşik tahmini olasılık %44.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 51/100: Sadece izleme."
@@ -6075,7 +5862,7 @@
         "Birleşik tahmini olasılık %51.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %55.",
+        "Geçmiş market örneği 1977; ham isabet %55.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 57/100: Sadece izleme."
@@ -6177,7 +5964,7 @@
         "Birleşik tahmini olasılık %63.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 61/100: Sadece izleme."
@@ -6279,7 +6066,7 @@
         "Birleşik tahmini olasılık %48.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 54/100: Sadece izleme."
@@ -6381,7 +6168,7 @@
         "Birleşik tahmini olasılık %42.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 52/100: Sadece izleme."
@@ -6483,7 +6270,7 @@
         "Birleşik tahmini olasılık %49.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 53/100: Sadece izleme."
@@ -6585,7 +6372,7 @@
         "Birleşik tahmini olasılık %47.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 52/100: Sadece izleme."
@@ -6687,7 +6474,7 @@
         "Birleşik tahmini olasılık %58.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
@@ -6789,7 +6576,7 @@
         "Birleşik tahmini olasılık %53.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 57/100: Sadece izleme."
@@ -6891,7 +6678,7 @@
         "Birleşik tahmini olasılık %53.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 57/100: Sadece izleme."
@@ -7075,7 +6862,7 @@
         "Birleşik tahmini olasılık %55.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 56/100: Sadece izleme."
@@ -7111,7 +6898,7 @@
         "leagueGoalAverage": 2.96,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 31,
+          "totalMatches": 32,
           "home": {
             "count": 5,
             "scored": 4,
@@ -7147,10 +6934,10 @@
             "pointsPerGame": 2
           },
           "league": {
-            "count": 24,
-            "goalAverage": 2.96,
-            "bttsRate": 67,
-            "over25Rate": 50
+            "count": 25,
+            "goalAverage": 2.88,
+            "bttsRate": 64,
+            "over25Rate": 48
           },
           "signals": []
         },
@@ -7175,7 +6962,7 @@
         "Bağımsız sonuç hafızası tahmini %65.",
         "Birleşik tahmini olasılık %49.",
         "Model-piyasa farkı +4.1 puan.",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 56/100 (Orta eksik veri riski).",
         "Model gücü 64/100: Sadece izleme."
       ]
@@ -7276,7 +7063,7 @@
         "Birleşik tahmini olasılık %61.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 61/100: Sadece izleme."
@@ -7378,7 +7165,7 @@
         "Birleşik tahmini olasılık %44.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
         "Model gücü 53/100: Sadece izleme."
@@ -7480,7 +7267,7 @@
         "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
@@ -7582,7 +7369,7 @@
         "Birleşik tahmini olasılık %61.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 61/100: Sadece izleme."
@@ -7684,7 +7471,7 @@
         "Birleşik tahmini olasılık %45.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 53/100: Sadece izleme."
@@ -7786,7 +7573,7 @@
         "Birleşik tahmini olasılık %61.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
@@ -7822,7 +7609,7 @@
         "leagueGoalAverage": 2.9,
         "memory": {
           "scoreDelta": 5,
-          "totalMatches": 23,
+          "totalMatches": 25,
           "home": {
             "count": 0,
             "scored": 0,
@@ -7858,13 +7645,13 @@
             "pointsPerGame": 2
           },
           "league": {
-            "count": 21,
-            "goalAverage": 2.9,
-            "bttsRate": 67,
-            "over25Rate": 52
+            "count": 23,
+            "goalAverage": 2.78,
+            "bttsRate": 65,
+            "over25Rate": 48
           },
           "signals": [
-            "Hafıza: lig gol ortalaması 2.9: +5",
+            "Hafıza: lig gol ortalaması 2.78: +5",
             "Hafıza: takım sonuç örneği henüz sınırlı"
           ]
         },
@@ -7888,9 +7675,9 @@
         "Marjı temizlenmiş piyasa olasılığı %54.",
         "Birleşik tahmini olasılık %54.",
         "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: lig gol ortalaması 2.9: +5",
+        "Hafıza: lig gol ortalaması 2.78: +5",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %55.",
+        "Geçmiş market örneği 1977; ham isabet %55.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
         "Model gücü 62/100: Sadece izleme."
@@ -7926,7 +7713,7 @@
         "leagueGoalAverage": 2.9,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 25,
+          "totalMatches": 27,
           "home": {
             "count": 1,
             "scored": 1,
@@ -7962,10 +7749,10 @@
             "pointsPerGame": 1
           },
           "league": {
-            "count": 21,
-            "goalAverage": 2.9,
-            "bttsRate": 67,
-            "over25Rate": 52
+            "count": 23,
+            "goalAverage": 2.78,
+            "bttsRate": 65,
+            "over25Rate": 48
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -7993,7 +7780,7 @@
         "Birleşik tahmini olasılık %63.",
         "Model-piyasa farkı +4.7 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 49/100 (Orta eksik veri riski).",
         "Model gücü 69/100: Orta risk kupon adayı."
       ]
@@ -8094,7 +7881,7 @@
         "Birleşik tahmini olasılık %53.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
@@ -8109,10 +7896,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "2.07",
-      "confidence_score": "62%",
-      "trust_score": "62/100",
-      "analysis_score": 62,
+      "suggested_odds": "2.01",
+      "confidence_score": "63%",
+      "trust_score": "63/100",
+      "analysis_score": 63,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Orta",
@@ -8205,17 +7992,17 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 2.07",
+        "Oran: 2.01",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %40.",
+        "Marjı temizlenmiş piyasa olasılığı %41.",
         "Bağımsız takım formu + Poisson gol modeli tahmini %46.",
         "Birleşik tahmini olasılık %42.",
-        "Model-piyasa farkı +1.7 puan.",
+        "Model-piyasa farkı +1.4 puan.",
         "Poisson gol beklentisi 1.02-0.87.",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Veri kapsama puanı 64/100 (Düşük eksik veri riski).",
-        "Model gücü 62/100: Sadece izleme."
+        "Model gücü 63/100: Sadece izleme."
       ]
     },
     {
@@ -8227,10 +8014,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.53",
-      "confidence_score": "78%",
-      "trust_score": "78/100",
-      "analysis_score": 78,
+      "suggested_odds": "1.61",
+      "confidence_score": "77%",
+      "trust_score": "77/100",
+      "analysis_score": 77,
       "analysis_class": "Orta risk kupon adayı",
       "value_label": "Değerli",
       "risk_level": "Düşük",
@@ -8325,18 +8112,18 @@
       ],
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 1.53",
+        "Oran: 1.61",
         "Veri tipi: standard",
         "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %54.",
+        "Marjı temizlenmiş piyasa olasılığı %51.",
         "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %71.",
-        "Birleşik tahmini olasılık %60.",
-        "Model-piyasa farkı +5.9 puan.",
+        "Birleşik tahmini olasılık %58.",
+        "Model-piyasa farkı +6.8 puan.",
         "Poisson gol beklentisi 1.09-1.08.",
         "Hafıza: 2.5 Alt eğilimi destekli (%75): +8",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
-        "Model gücü 78/100: Orta risk kupon adayı."
+        "Model gücü 77/100: Orta risk kupon adayı."
       ]
     },
     {
@@ -8435,7 +8222,7 @@
         "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 45/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
@@ -8532,7 +8319,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "1.90",
+      "suggested_odds": "1.89",
       "confidence_score": "50%",
       "trust_score": "50/100",
       "analysis_score": 50,
@@ -8612,14 +8399,14 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 1.90",
+        "Oran: 1.89",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %43.",
-        "Birleşik tahmini olasılık %43.",
+        "Marjı temizlenmiş piyasa olasılığı %44.",
+        "Birleşik tahmini olasılık %44.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 50/100: Sadece izleme."
@@ -8737,7 +8524,7 @@
         "leagueGoalAverage": 2.64,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 0,
+          "totalMatches": 1,
           "home": {
             "count": 0,
             "scored": 0,
@@ -8773,10 +8560,10 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
+            "count": 1,
+            "goalAverage": 4,
+            "bttsRate": 100,
+            "over25Rate": 100
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -8803,7 +8590,7 @@
         "Birleşik tahmini olasılık %54.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
@@ -8905,7 +8692,7 @@
         "Birleşik tahmini olasılık %59.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
@@ -9007,7 +8794,7 @@
         "Birleşik tahmini olasılık %35.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 48/100: Sadece izleme."
@@ -9131,7 +8918,7 @@
         "Poisson gol beklentisi 1.79-1.27.",
         "Hafıza: KG Var eğilimi yüksek (%61): +8",
         "Hafıza: lig KG Var oranı %70: +4",
-        "Geçmiş market örneği 1973; ham isabet %57.",
+        "Geçmiş market örneği 1977; ham isabet %57.",
         "Veri kapsama puanı 88/100 (Düşük eksik veri riski).",
         "Model gücü 80/100: Ana kupon adayı."
       ]
@@ -9145,7 +8932,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.30",
+      "suggested_odds": "1.26",
       "confidence_score": "69%",
       "trust_score": "69/100",
       "analysis_score": 69,
@@ -9241,15 +9028,15 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.30",
+        "Oran: 1.26",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %65.",
+        "Marjı temizlenmiş piyasa olasılığı %67.",
         "Bağımsız takım formu + Poisson gol modeli tahmini %40.",
-        "Birleşik tahmini olasılık %58.",
-        "Model-piyasa farkı -7.5 puan.",
+        "Birleşik tahmini olasılık %59.",
+        "Model-piyasa farkı -8.2 puan.",
         "Poisson gol beklentisi 1.79-1.47.",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Veri kapsama puanı 70/100 (Düşük eksik veri riski).",
         "Model gücü 69/100: Orta risk kupon adayı."
       ]
@@ -9370,7 +9157,7 @@
         "Model-piyasa farkı -0.9 puan.",
         "Poisson gol beklentisi 1.5-1.19.",
         "Hafıza: lig gol ortalaması 2.96: +5",
-        "Geçmiş market örneği 1973; ham isabet %55.",
+        "Geçmiş market örneği 1977; ham isabet %55.",
         "Veri kapsama puanı 78/100 (Düşük eksik veri riski).",
         "Model gücü 74/100: Orta risk kupon adayı."
       ]
@@ -9493,7 +9280,7 @@
         "Poisson gol beklentisi 1.56-1.65.",
         "Hafıza: KG Var eğilimi yüksek (%70): +8",
         "Hafıza: lig KG Var oranı %67: +4",
-        "Geçmiş market örneği 1973; ham isabet %57.",
+        "Geçmiş market örneği 1977; ham isabet %57.",
         "Veri kapsama puanı 78/100 (Düşük eksik veri riski).",
         "Model gücü 79/100: Orta risk kupon adayı."
       ]
@@ -9506,14 +9293,14 @@
       "time": "21:45",
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "1.26",
-      "confidence_score": "79%",
-      "trust_score": "79/100",
-      "analysis_score": 79,
+      "suggested_option": "2.5 Alt",
+      "suggested_odds": "1.93",
+      "confidence_score": "68%",
+      "trust_score": "68/100",
+      "analysis_score": 68,
       "analysis_class": "Orta risk kupon adayı",
       "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Düşük",
+      "risk_level": "Orta",
       "data_gap_risk": "Düşük",
       "analysis_metrics": {
         "homeScoredLast10": 5,
@@ -9527,7 +9314,7 @@
         "secondHalfGoalTrend": 69,
         "leagueGoalAverage": 2.96,
         "memory": {
-          "scoreDelta": 7,
+          "scoreDelta": 0,
           "totalMatches": 37,
           "home": {
             "count": 5,
@@ -9569,9 +9356,7 @@
             "bttsRate": 67,
             "over25Rate": 59
           },
-          "signals": [
-            "Hafıza: ev sahibi form puanında önde (2.2-0.2): +7"
-          ]
+          "signals": []
         },
         "poisson": {
           "probabilities": {
@@ -9599,24 +9384,23 @@
       },
       "tag": "Orta risk kupon adayı",
       "expected_scores": [
+        "0-0",
         "1-0",
-        "2-0",
-        "2-1"
+        "1-1"
       ],
       "signals": [
-        "Market: MS 1",
-        "Oran: 1.26",
+        "Market: 2.5 Alt",
+        "Oran: 1.93",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %65.",
-        "Bağımsız takım formu + Poisson gol modeli tahmini %67.",
-        "Birleşik tahmini olasılık %66.",
-        "Model-piyasa farkı +0.3 puan.",
+        "Marjı temizlenmiş piyasa olasılığı %43.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %48.",
+        "Birleşik tahmini olasılık %45.",
+        "Model-piyasa farkı +1.9 puan.",
         "Poisson gol beklentisi 1.99-0.96.",
-        "Hafıza: ev sahibi form puanında önde (2.2-0.2): +7",
-        "Geçmiş market örneği 1973; ham isabet %43.",
-        "Veri kapsama puanı 70/100 (Düşük eksik veri riski).",
-        "Model gücü 79/100: Orta risk kupon adayı."
+        "Geçmiş market örneği 1977; ham isabet %46.",
+        "Veri kapsama puanı 78/100 (Düşük eksik veri riski).",
+        "Model gücü 68/100: Orta risk kupon adayı."
       ]
     },
     {
@@ -9715,7 +9499,7 @@
         "Birleşik tahmini olasılık %56.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
@@ -9817,7 +9601,7 @@
         "Birleşik tahmini olasılık %54.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 57/100: Sadece izleme."
@@ -9939,7 +9723,7 @@
         "Model-piyasa farkı +3.3 puan.",
         "Poisson gol beklentisi 1.45-1.69.",
         "Hafıza: deplasman form puanında önde (3-1.67): +7",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Veri kapsama puanı 61/100 (Düşük eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
       ]
@@ -9950,15 +9734,15 @@
       "competition_name": "UEFA Avrupa Ligi Lig Aşaması",
       "date": "2026-09-16",
       "time": "22:00",
-      "status": "scheduled",
+      "status": "filtered_no_value_market",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "2.02",
-      "confidence_score": "53%",
-      "trust_score": "53/100",
-      "analysis_score": 53,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Değerli market yok",
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
@@ -10015,35 +9799,15 @@
             "bttsRate": 0,
             "over25Rate": 0
           },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": 3,
-        "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": 1,
-        "awayConcededLast10Count": 6
+          "signals": []
+        }
       },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
+      "tag": "Oynama",
+      "expected_scores": [],
       "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 2.02",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %42.",
-        "Birleşik tahmini olasılık %42.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 45/100 (Yüksek eksik veri riski).",
-        "Model gücü 53/100: Sadece izleme."
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Markete özel olasılık ve veri doğrulaması oluşmadı."
       ]
     },
     {
@@ -10055,7 +9819,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.91",
+      "suggested_odds": "1.88",
       "confidence_score": "73%",
       "trust_score": "73/100",
       "analysis_score": 73,
@@ -10153,16 +9917,16 @@
       ],
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 1.91",
+        "Oran: 1.88",
         "Veri tipi: standard",
         "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %44.",
+        "Marjı temizlenmiş piyasa olasılığı %45.",
         "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %58.",
         "Birleşik tahmini olasılık %49.",
-        "Model-piyasa farkı +4.5 puan.",
+        "Model-piyasa farkı +4.3 puan.",
         "Poisson gol beklentisi 1.26-1.48.",
         "Hafıza: 2.5 Alt eğilimi destekli (%62): +8",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
         "Model gücü 73/100: Orta risk kupon adayı."
       ]
@@ -10263,7 +10027,7 @@
         "Birleşik tahmini olasılık %52.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 55/100: Sadece izleme."
@@ -10385,7 +10149,7 @@
         "Model-piyasa farkı +7.7 puan.",
         "Poisson gol beklentisi 1.05-1.15.",
         "Hafıza: 2.5 Alt eğilimi destekli (%71): +8",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 69/100 (Düşük eksik veri riski).",
         "Model gücü 74/100: Orta risk kupon adayı."
       ]
@@ -10568,7 +10332,7 @@
         "Birleşik tahmini olasılık %53.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
         "Model gücü 56/100: Sadece izleme."
@@ -10583,10 +10347,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.42",
-      "confidence_score": "62%",
-      "trust_score": "62/100",
-      "analysis_score": 62,
+      "suggested_odds": "1.53",
+      "confidence_score": "59%",
+      "trust_score": "59/100",
+      "analysis_score": 59,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -10663,17 +10427,17 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.42",
+        "Oran: 1.53",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %60.",
-        "Birleşik tahmini olasılık %60.",
+        "Marjı temizlenmiş piyasa olasılığı %55.",
+        "Birleşik tahmini olasılık %55.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 46/100 (Yüksek eksik veri riski).",
-        "Model gücü 62/100: Sadece izleme."
+        "Model gücü 59/100: Sadece izleme."
       ]
     },
     {
@@ -10792,7 +10556,7 @@
         "Model-piyasa farkı +3.2 puan.",
         "Poisson gol beklentisi 1.96-1.64.",
         "Hafıza: lig KG Var oranı %70: +4",
-        "Geçmiş market örneği 1973; ham isabet %57.",
+        "Geçmiş market örneği 1977; ham isabet %57.",
         "Veri kapsama puanı 69/100 (Düşük eksik veri riski).",
         "Model gücü 69/100: Orta risk kupon adayı."
       ]
@@ -10806,7 +10570,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.50",
+      "suggested_odds": "1.49",
       "confidence_score": "58%",
       "trust_score": "58/100",
       "analysis_score": 58,
@@ -10886,14 +10650,14 @@
       ],
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 1.50",
+        "Oran: 1.49",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %55.",
-        "Birleşik tahmini olasılık %55.",
+        "Marjı temizlenmiş piyasa olasılığı %56.",
+        "Birleşik tahmini olasılık %56.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
@@ -10995,7 +10759,7 @@
         "Birleşik tahmini olasılık %59.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
@@ -11097,7 +10861,7 @@
         "Birleşik tahmini olasılık %52.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %55.",
+        "Geçmiş market örneği 1977; ham isabet %55.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
@@ -11199,7 +10963,7 @@
         "Birleşik tahmini olasılık %56.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
@@ -11301,7 +11065,7 @@
         "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
@@ -11420,7 +11184,7 @@
         "Birleşik tahmini olasılık %42.",
         "Model-piyasa farkı +1.5 puan.",
         "Poisson gol beklentisi 1.4-1.68.",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 81/100 (Düşük eksik veri riski).",
         "Model gücü 67/100: Orta risk kupon adayı."
       ]
@@ -11519,7 +11283,7 @@
         "Bağımsız sonuç hafızası tahmini %75.",
         "Birleşik tahmini olasılık %51.",
         "Model-piyasa farkı +6.0 puan.",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 54/100 (Orta eksik veri riski).",
         "Model gücü 64/100: Sadece izleme."
       ]
@@ -11700,7 +11464,7 @@
         "Bağımsız sonuç hafızası tahmini %80.",
         "Birleşik tahmini olasılık %64.",
         "Model-piyasa farkı +4.3 puan.",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 56/100 (Orta eksik veri riski).",
         "Model gücü 71/100: Orta risk kupon adayı."
       ]
@@ -11714,7 +11478,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.54",
+      "suggested_odds": "1.57",
       "confidence_score": "82%",
       "trust_score": "82/100",
       "analysis_score": 82,
@@ -11812,16 +11576,16 @@
       ],
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 1.54",
+        "Oran: 1.57",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
-        "Marjı temizlenmiş piyasa olasılığı %54.",
+        "Marjı temizlenmiş piyasa olasılığı %53.",
         "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %74.",
-        "Birleşik tahmini olasılık %62.",
-        "Model-piyasa farkı +8.3 puan.",
+        "Birleşik tahmini olasılık %61.",
+        "Model-piyasa farkı +8.7 puan.",
         "Poisson gol beklentisi 1.12-1.05.",
         "Hafıza: 2.5 Alt eğilimi destekli (%81): +8",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 81/100 (Düşük eksik veri riski).",
         "Model gücü 82/100: Ana kupon adayı."
       ]
@@ -11922,7 +11686,7 @@
         "Birleşik tahmini olasılık %63.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
@@ -12025,7 +11789,7 @@
         "Birleşik tahmini olasılık %55.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
@@ -12126,7 +11890,7 @@
         "Bağımsız sonuç hafızası tahmini %80.",
         "Birleşik tahmini olasılık %47.",
         "Model-piyasa farkı +8.3 puan.",
-        "Geçmiş market örneği 1973; ham isabet %55.",
+        "Geçmiş market örneği 1977; ham isabet %55.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 54/100 (Orta eksik veri riski).",
         "Model gücü 55/100: Sadece izleme."
@@ -12248,7 +12012,7 @@
         "Model-piyasa farkı +4.6 puan.",
         "Poisson gol beklentisi 1.23-1.05.",
         "Hafıza: 2.5 Alt eğilimi destekli (%70): +8",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 78/100 (Düşük eksik veri riski).",
         "Model gücü 79/100: Orta risk kupon adayı."
       ]
@@ -12349,7 +12113,7 @@
         "Birleşik tahmini olasılık %40.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 48/100 (Yüksek eksik veri riski).",
         "Model gücü 51/100: Sadece izleme."
@@ -12364,10 +12128,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.25",
-      "confidence_score": "77%",
-      "trust_score": "77/100",
-      "analysis_score": 77,
+      "suggested_odds": "1.34",
+      "confidence_score": "75%",
+      "trust_score": "75/100",
+      "analysis_score": 75,
       "analysis_class": "Orta risk kupon adayı",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Orta",
@@ -12462,18 +12226,18 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.25",
+        "Oran: 1.34",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %66.",
+        "Marjı temizlenmiş piyasa olasılığı %62.",
         "Bağımsız takım formu + Poisson gol modeli tahmini %67.",
-        "Birleşik tahmini olasılık %66.",
-        "Model-piyasa farkı +0.3 puan.",
+        "Birleşik tahmini olasılık %63.",
+        "Model-piyasa farkı +1.4 puan.",
         "Poisson gol beklentisi 2.18-1.42.",
         "Hafıza: ev sahibi form puanında önde (3-1.5): +7",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Veri kapsama puanı 61/100 (Düşük eksik veri riski).",
-        "Model gücü 77/100: Orta risk kupon adayı."
+        "Model gücü 75/100: Orta risk kupon adayı."
       ]
     },
     {
@@ -12592,7 +12356,7 @@
         "Model-piyasa farkı +3.5 puan.",
         "Poisson gol beklentisi 1.33-1.29.",
         "Hafıza: 2.5 Alt eğilimi destekli (%55): +8",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 75/100 (Düşük eksik veri riski).",
         "Model gücü 73/100: Orta risk kupon adayı."
       ]
@@ -12713,7 +12477,7 @@
         "Model-piyasa farkı +10.9 puan.",
         "Poisson gol beklentisi 1.44-1.67.",
         "Hafıza: deplasman form puanında önde (2.6-0.5): +7",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 73/100 (Düşük eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
@@ -12835,7 +12599,7 @@
         "Model-piyasa farkı +8.4 puan.",
         "Poisson gol beklentisi 1.9-1.35.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%78): +8",
-        "Geçmiş market örneği 1973; ham isabet %55.",
+        "Geçmiş market örneği 1977; ham isabet %55.",
         "Veri kapsama puanı 75/100 (Düşük eksik veri riski).",
         "Model gücü 79/100: Orta risk kupon adayı."
       ]
@@ -12936,7 +12700,7 @@
         "Birleşik tahmini olasılık %43.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 52/100: Sadece izleme."
@@ -12972,7 +12736,7 @@
         "leagueGoalAverage": 2.96,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 29,
+          "totalMatches": 30,
           "home": {
             "count": 3,
             "scored": 3,
@@ -13008,10 +12772,10 @@
             "pointsPerGame": 3
           },
           "league": {
-            "count": 24,
-            "goalAverage": 2.96,
-            "bttsRate": 67,
-            "over25Rate": 50
+            "count": 25,
+            "goalAverage": 2.88,
+            "bttsRate": 64,
+            "over25Rate": 48
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -13038,7 +12802,7 @@
         "Birleşik tahmini olasılık %37.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 48/100 (Yüksek eksik veri riski).",
         "Model gücü 50/100: Sadece izleme."
@@ -13074,7 +12838,7 @@
         "leagueGoalAverage": 2.96,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 30,
+          "totalMatches": 31,
           "home": {
             "count": 5,
             "scored": 4,
@@ -13110,10 +12874,10 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 24,
-            "goalAverage": 2.96,
-            "bttsRate": 67,
-            "over25Rate": 50
+            "count": 25,
+            "goalAverage": 2.88,
+            "bttsRate": 64,
+            "over25Rate": 48
           },
           "signals": []
         },
@@ -13138,7 +12902,7 @@
         "Bağımsız takım formu tahmini %52.",
         "Birleşik tahmini olasılık %52.",
         "Model-piyasa farkı +0.2 puan.",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Veri kapsama puanı 54/100 (Orta eksik veri riski).",
         "Model gücü 65/100: Orta risk kupon adayı."
       ]
@@ -13237,7 +13001,7 @@
         "Bağımsız sonuç hafızası tahmini %55.",
         "Birleşik tahmini olasılık %55.",
         "Model-piyasa farkı -0.0 puan.",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 56/100 (Orta eksik veri riski).",
         "Model gücü 68/100: Orta risk kupon adayı."
       ]
@@ -13358,7 +13122,7 @@
         "Model-piyasa farkı +2.5 puan.",
         "Poisson gol beklentisi 1.49-0.96.",
         "Hafıza: 2.5 Alt eğilimi destekli (%62): +8",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
         "Model gücü 76/100: Orta risk kupon adayı."
       ]
@@ -13372,7 +13136,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.79",
+      "suggested_odds": "1.81",
       "confidence_score": "65%",
       "trust_score": "65/100",
       "analysis_score": 65,
@@ -13393,7 +13157,7 @@
         "leagueGoalAverage": 2.96,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 32,
+          "totalMatches": 33,
           "home": {
             "count": 4,
             "scored": 4,
@@ -13429,29 +13193,29 @@
             "pointsPerGame": 1.5
           },
           "league": {
-            "count": 24,
-            "goalAverage": 2.96,
-            "bttsRate": 67,
-            "over25Rate": 50
+            "count": 25,
+            "goalAverage": 2.88,
+            "bttsRate": 64,
+            "over25Rate": 48
           },
           "signals": []
         },
         "poisson": {
           "probabilities": {
-            "ms1": 48.50162745673909,
-            "msx": 23.141470241210904,
-            "ms2": 28.356902302049996,
-            "over15": 81.62061152657604,
-            "over25": 60.02323878125759,
-            "under25": 39.97676121874241,
-            "over35": 37.657959449438934,
-            "kgVar": 60.99486543412521,
-            "kgYok": 39.00513456587478,
-            "homeGoal": 83.26881027863253,
-            "awayGoal": 73.25055471553556
+            "ms1": 48.39466117548731,
+            "msx": 23.334285524153856,
+            "ms2": 28.271053300358833,
+            "over15": 80.99348846114482,
+            "over25": 59.05624031079992,
+            "under25": 40.943759689200085,
+            "over35": 36.663997384003395,
+            "kgVar": 60.23950193250982,
+            "kgYok": 39.76049806749017,
+            "homeGoal": 82.86257537097549,
+            "awayGoal": 72.69808072319472
           },
-          "homeLambda": 1.79,
-          "awayLambda": 1.32,
+          "homeLambda": 1.76,
+          "awayLambda": 1.3,
           "samples": 8,
           "reliability": 0.5
         },
@@ -13468,15 +13232,15 @@
       ],
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 1.79",
+        "Oran: 1.81",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %46.",
-        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %38.",
+        "Marjı temizlenmiş piyasa olasılığı %45.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %39.",
         "Birleşik tahmini olasılık %43.",
-        "Model-piyasa farkı -2.7 puan.",
-        "Poisson gol beklentisi 1.79-1.32.",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Model-piyasa farkı -2.4 puan.",
+        "Poisson gol beklentisi 1.76-1.3.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
         "Model gücü 65/100: Orta risk kupon adayı."
       ]
@@ -13490,7 +13254,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.75",
+      "suggested_odds": "1.72",
       "confidence_score": "55%",
       "trust_score": "55/100",
       "analysis_score": 55,
@@ -13586,15 +13350,15 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.75",
+        "Oran: 1.72",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %49.",
         "Bağımsız takım formu + Poisson gol modeli tahmini %35.",
         "Birleşik tahmini olasılık %45.",
-        "Model-piyasa farkı -3.9 puan.",
+        "Model-piyasa farkı -4.1 puan.",
         "Poisson gol beklentisi 1.89-1.48.",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 67/100 (Düşük eksik veri riski).",
         "Model gücü 55/100: Sadece izleme."
@@ -13696,7 +13460,7 @@
         "Birleşik tahmini olasılık %46.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
@@ -13799,7 +13563,7 @@
         "Birleşik tahmini olasılık %58.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
@@ -13902,7 +13666,7 @@
         "Birleşik tahmini olasılık %62.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 45/100 (Yüksek eksik veri riski).",
         "Model gücü 62/100: Sadece izleme."
@@ -14004,7 +13768,7 @@
         "Birleşik tahmini olasılık %37.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 46/100 (Yüksek eksik veri riski).",
         "Model gücü 50/100: Sadece izleme."
@@ -14106,7 +13870,7 @@
         "Birleşik tahmini olasılık %54.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
@@ -14142,7 +13906,7 @@
         "leagueGoalAverage": 2.96,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 34,
+          "totalMatches": 35,
           "home": {
             "count": 8,
             "scored": 7,
@@ -14178,10 +13942,10 @@
             "pointsPerGame": 0.5
           },
           "league": {
-            "count": 24,
-            "goalAverage": 2.96,
-            "bttsRate": 67,
-            "over25Rate": 50
+            "count": 25,
+            "goalAverage": 2.88,
+            "bttsRate": 64,
+            "over25Rate": 48
           },
           "signals": []
         },
@@ -14206,7 +13970,7 @@
         "Bağımsız takım formu tahmini %52.",
         "Birleşik tahmini olasılık %48.",
         "Model-piyasa farkı +1.2 puan.",
-        "Geçmiş market örneği 1973; ham isabet %43.",
+        "Geçmiş market örneği 1977; ham isabet %43.",
         "Veri kapsama puanı 64/100 (Düşük eksik veri riski).",
         "Model gücü 66/100: Orta risk kupon adayı."
       ]
@@ -14307,7 +14071,7 @@
         "Birleşik tahmini olasılık %49.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Geçmiş market örneği 1977; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 53/100: Sadece izleme."
@@ -14411,7 +14175,7 @@
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: lig gol ortalaması 2.95: +5",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %55.",
+        "Geçmiş market örneği 1977; ham isabet %55.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
@@ -14425,14 +14189,14 @@
       "time": "04:30",
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 2",
-      "suggested_odds": "2.55",
-      "confidence_score": "55%",
-      "trust_score": "55/100",
-      "analysis_score": 55,
-      "analysis_class": "Sadece izleme",
+      "suggested_option": "2.5 Üst",
+      "suggested_odds": "1.65",
+      "confidence_score": "71%",
+      "trust_score": "71/100",
+      "analysis_score": 71,
+      "analysis_class": "Orta risk kupon adayı",
       "value_label": "Değerli",
-      "risk_level": "Yüksek",
+      "risk_level": "Orta",
       "data_gap_risk": "Düşük",
       "analysis_metrics": {
         "homeScoredLast10": 3,
@@ -14446,7 +14210,7 @@
         "secondHalfGoalTrend": 54,
         "leagueGoalAverage": 2.96,
         "memory": {
-          "scoreDelta": 7,
+          "scoreDelta": 8,
           "totalMatches": 10,
           "home": {
             "count": 5,
@@ -14489,7 +14253,7 @@
             "over25Rate": 0
           },
           "signals": [
-            "Hafıza: deplasman form puanında önde (2.2-1.4): +7"
+            "Hafıza: 2.5 Üst eğilimi yüksek (%70): +8"
           ]
         },
         "poisson": {
@@ -14516,27 +14280,27 @@
         "homeConcededLast10Count": 3,
         "awayConcededLast10Count": 5
       },
-      "tag": "Sadece izleme",
+      "tag": "Orta risk kupon adayı",
       "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
+        "2-1",
+        "3-1",
+        "2-2"
       ],
       "signals": [
-        "Market: MS 2",
-        "Oran: 2.55",
+        "Market: 2.5 Üst",
+        "Oran: 1.65",
         "Veri tipi: standard",
         "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %33.",
-        "Bağımsız takım formu + Poisson gol modeli tahmini %45.",
-        "Birleşik tahmini olasılık %37.",
-        "Model-piyasa farkı +3.6 puan.",
+        "Marjı temizlenmiş piyasa olasılığı %51.",
+        "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %66.",
+        "Birleşik tahmini olasılık %57.",
+        "Model-piyasa farkı +5.6 puan.",
         "Poisson gol beklentisi 1.45-1.65.",
-        "Hafıza: deplasman form puanında önde (2.2-1.4): +7",
-        "Geçmiş market örneği 1973; ham isabet %30.",
+        "Hafıza: 2.5 Üst eğilimi yüksek (%70): +8",
+        "Geçmiş market örneği 1977; ham isabet %55.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
-        "Veri kapsama puanı 70/100 (Düşük eksik veri riski).",
-        "Model gücü 55/100: Sadece izleme."
+        "Veri kapsama puanı 78/100 (Düşük eksik veri riski).",
+        "Model gücü 71/100: Orta risk kupon adayı."
       ]
     },
     {
@@ -14635,12 +14399,13 @@
         "Birleşik tahmini olasılık %53.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 1973; ham isabet %46.",
+        "Geçmiş market örneği 1977; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 49/100: Sadece izleme."
       ]
     }
-  ]
+  ],
+  "focused_market_count": 17
 }
