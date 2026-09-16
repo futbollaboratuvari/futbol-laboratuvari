@@ -40,13 +40,17 @@ function supportsExternalRecipients(from) {
 }
 
 function mergeCouponRecipients(value, from) {
-  const recipients = [
-    ...String(value || "").split(","),
-    PRIMARY_COUPON_RECIPIENT,
-    ...(supportsExternalRecipients(from) ? [SECONDARY_COUPON_RECIPIENT] : []),
-  ]
+  const configuredRecipients = String(value || "")
+    .split(",")
     .map((item) => item.trim().toLowerCase())
     .filter(Boolean);
+  if (!configuredRecipients.length) return "";
+
+  const recipients = [
+    ...configuredRecipients,
+    PRIMARY_COUPON_RECIPIENT,
+    ...(supportsExternalRecipients(from) ? [SECONDARY_COUPON_RECIPIENT] : []),
+  ];
   return [...new Set(recipients)].join(",");
 }
 
