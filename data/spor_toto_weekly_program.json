@@ -1,16 +1,20 @@
 {
   "schema_version": 1,
   "season": "2026/2027",
-  "week": 5,
-  "week_label": "2026/2027 5. Hafta",
-  "program_start": "2026-09-11",
-  "program_end": "2026-09-14",
+  "week": 6,
+  "week_label": "2026/2027 6. Hafta",
+  "program_start": "2026-09-18",
+  "program_end": "2026-09-20",
   "match_count": 15,
   "verification_status": "cross_verified_manual",
-  "verified_at": "2026-09-09T05:27:30.000Z",
+  "verified_at": "2026-09-16T21:23:38.000Z",
   "game_format": {
     "match_count": 15,
-    "outcomes": ["1", "X", "2"],
+    "outcomes": [
+      "1",
+      "X",
+      "2"
+    ],
     "official_rule_source": "https://www.sportoto.gov.tr/musterek-oyun-plani.pdf"
   },
   "sources": [
@@ -20,44 +24,224 @@
       "role": "official_program_page"
     },
     {
-      "name": "Spor Toto Tahmin",
-      "url": "https://sportototahmin.com/blog",
+      "name": "Spor Toto Winner",
+      "url": "https://sportotowinner.com/",
       "role": "current_week_cross_check"
     },
     {
-      "name": "Spor Toto Winner",
-      "url": "https://sportotowinner.com/",
+      "name": "Spor Toto Formül 15",
+      "url": "https://sportotoformul15.com/",
       "role": "current_week_cross_check"
     }
   ],
   "sync_sources": [
     {
-      "name": "Spor Toto Tahmin",
-      "url": "https://sportototahmin.com/blog",
+      "name": "Spor Toto Winner",
+      "url": "https://sportotowinner.com/",
       "match_count": 15
     },
     {
-      "name": "Spor Toto Winner",
-      "url": "https://sportotowinner.com/",
+      "name": "Spor Toto Formül 15",
+      "url": "https://sportotoformul15.com/",
       "match_count": 15
     }
   ],
   "distribution_note": "public_distribution alanı farklı platformlardaki oynanma/tercih yüzdesidir; Futbol Laboratuvarı model olasılığı değildir.",
   "matches": [
-    {"no":1,"date":"2026-09-11","time":"20:00","league":"Türkiye Süper Lig","home":"Beşiktaş","away":"Erzurumspor FK","public_distribution":{"1":90,"X":7,"2":3}},
-    {"no":2,"date":"2026-09-12","time":"17:00","league":"Türkiye Süper Lig","home":"Eyüpspor","away":"Çaykur Rizespor","public_distribution":{"1":22,"X":28,"2":50}},
-    {"no":3,"date":"2026-09-12","time":"17:00","league":"Türkiye Süper Lig","home":"Samsunspor","away":"Arca Çorum FK","public_distribution":{"1":56,"X":24,"2":20}},
-    {"no":4,"date":"2026-09-12","time":"20:00","league":"Türkiye Süper Lig","home":"Corendon Alanyaspor","away":"Göztepe","public_distribution":{"1":42,"X":30,"2":28}},
-    {"no":5,"date":"2026-09-12","time":"20:00","league":"Türkiye Süper Lig","home":"Tümosan Konyaspor","away":"Trabzonspor","public_distribution":{"1":15,"X":19,"2":66}},
-    {"no":6,"date":"2026-09-13","time":"17:00","league":"Türkiye Süper Lig","home":"Gençlerbirliği","away":"Kasımpaşa","public_distribution":{"1":46,"X":29,"2":25}},
-    {"no":7,"date":"2026-09-13","time":"20:00","league":"Türkiye Süper Lig","home":"Amed Sportif Faaliyetler","away":"İstanbul Başakşehir","public_distribution":{"1":35,"X":28,"2":37}},
-    {"no":8,"date":"2026-09-13","time":"20:00","league":"Türkiye Süper Lig","home":"Galatasaray","away":"Kocaelispor","public_distribution":{"1":76,"X":17,"2":7}},
-    {"no":9,"date":"2026-09-14","time":"20:00","league":"Türkiye Süper Lig","home":"Gaziantep FK","away":"Fenerbahçe","public_distribution":{"1":11,"X":16,"2":73}},
-    {"no":10,"date":"2026-09-12","time":"16:30","league":"Almanya Bundesliga","home":"Augsburg","away":"Bayer Leverkusen","public_distribution":{"1":25,"X":22,"2":53}},
-    {"no":11,"date":"2026-09-11","time":"21:45","league":"Fransa Ligue 1","home":"Rennes","away":"Marsilya","public_distribution":{"1":35,"X":29,"2":36}},
-    {"no":12,"date":"2026-09-12","time":"17:00","league":"İngiltere Premier Lig","home":"Chelsea","away":"Hull City","public_distribution":{"1":81,"X":12,"2":7}},
-    {"no":13,"date":"2026-09-13","time":"18:30","league":"İngiltere Premier Lig","home":"Manchester United","away":"Manchester City","public_distribution":{"1":25,"X":26,"2":49}},
-    {"no":14,"date":"2026-09-13","time":"17:15","league":"İspanya La Liga","home":"Levante","away":"Barcelona","public_distribution":{"1":6,"X":9,"2":85}},
-    {"no":15,"date":"2026-09-12","time":"19:00","league":"İtalya Serie A","home":"Lazio","away":"Milan","public_distribution":{"1":26,"X":30,"2":44}}
+    {
+      "no": 1,
+      "date": "2026-09-18",
+      "time": "20:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Kasımpaşa",
+      "away": "Tümosan Konyaspor",
+      "public_distribution": {
+        "1": 43,
+        "X": 34,
+        "2": 23
+      }
+    },
+    {
+      "no": 2,
+      "date": "2026-09-19",
+      "time": "17:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Kocaelispor",
+      "away": "Gaziantep FK",
+      "public_distribution": {
+        "1": 53,
+        "X": 28,
+        "2": 19
+      }
+    },
+    {
+      "no": 3,
+      "date": "2026-09-19",
+      "time": "17:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Arca Çorum FK",
+      "away": "Corendon Alanyaspor",
+      "public_distribution": {
+        "1": 52,
+        "X": 27,
+        "2": 21
+      }
+    },
+    {
+      "no": 4,
+      "date": "2026-09-19",
+      "time": "20:00",
+      "league": "Türkiye Süper Lig",
+      "home": "İstanbul Başakşehir",
+      "away": "Gençlerbirliği",
+      "public_distribution": {
+        "1": 71,
+        "X": 17,
+        "2": 12
+      }
+    },
+    {
+      "no": 5,
+      "date": "2026-09-19",
+      "time": "20:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Trabzonspor",
+      "away": "Galatasaray",
+      "public_distribution": {
+        "1": 27,
+        "X": 29,
+        "2": 44
+      }
+    },
+    {
+      "no": 6,
+      "date": "2026-09-20",
+      "time": "17:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Erzurumspor FK",
+      "away": "Samsunspor",
+      "public_distribution": {
+        "1": 37,
+        "X": 31,
+        "2": 32
+      }
+    },
+    {
+      "no": 7,
+      "date": "2026-09-20",
+      "time": "17:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Fenerbahçe",
+      "away": "Eyüpspor",
+      "public_distribution": {
+        "1": 91,
+        "X": 5,
+        "2": 4
+      }
+    },
+    {
+      "no": 8,
+      "date": "2026-09-20",
+      "time": "20:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Amed Sportif Faaliyetler",
+      "away": "Beşiktaş",
+      "public_distribution": {
+        "1": 16,
+        "X": 23,
+        "2": 61
+      }
+    },
+    {
+      "no": 9,
+      "date": "2026-09-20",
+      "time": "20:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Göztepe",
+      "away": "Çaykur Rizespor",
+      "public_distribution": {
+        "1": 53,
+        "X": 24,
+        "2": 23
+      }
+    },
+    {
+      "no": 10,
+      "date": "2026-09-19",
+      "time": "19:30",
+      "league": "Almanya Bundesliga",
+      "home": "VfB Stuttgart",
+      "away": "Borussia Dortmund",
+      "public_distribution": {
+        "1": 24,
+        "X": 22,
+        "2": 54
+      }
+    },
+    {
+      "no": 11,
+      "date": "2026-09-20",
+      "time": "16:30",
+      "league": "Almanya Bundesliga",
+      "home": "Bayer Leverkusen",
+      "away": "RB Leipzig",
+      "public_distribution": {
+        "1": 60,
+        "X": 21,
+        "2": 19
+      }
+    },
+    {
+      "no": 12,
+      "date": "2026-09-19",
+      "time": "14:30",
+      "league": "İngiltere Premier Lig",
+      "home": "Tottenham Hotspur",
+      "away": "Aston Villa",
+      "public_distribution": {
+        "1": 50,
+        "X": 25,
+        "2": 25
+      }
+    },
+    {
+      "no": 13,
+      "date": "2026-09-19",
+      "time": "17:00",
+      "league": "İngiltere Premier Lig",
+      "home": "Newcastle United",
+      "away": "Hull City",
+      "public_distribution": {
+        "1": 63,
+        "X": 20,
+        "2": 17
+      }
+    },
+    {
+      "no": 14,
+      "date": "2026-09-20",
+      "time": "17:15",
+      "league": "İspanya La Liga",
+      "home": "Atletico Madrid",
+      "away": "Real Madrid",
+      "public_distribution": {
+        "1": 18,
+        "X": 20,
+        "2": 62
+      }
+    },
+    {
+      "no": 15,
+      "date": "2026-09-19",
+      "time": "19:00",
+      "league": "İtalya Serie A",
+      "home": "Roma",
+      "away": "Inter",
+      "public_distribution": {
+        "1": 27,
+        "X": 30,
+        "2": 43
+      }
+    }
   ]
 }
