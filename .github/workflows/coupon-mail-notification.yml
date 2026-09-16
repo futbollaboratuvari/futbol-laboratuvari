@@ -40,6 +40,11 @@ jobs:
         with:
           node-version: "24"
 
+      - name: Verify coupon mail safety
+        run: |
+          node tests/coupon-mail-notification.test.js
+          node tests/coupon-mail-recipient-routing.test.js
+
       - name: Notify only for a new valid coupon
         env:
           COUPON_MAIL_ENDPOINT: ${{ vars.COUPON_MAIL_ENDPOINT }}
