@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.09.2026 15:37:59
+Oluşturma: 16.09.2026 15:43:05
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1140
-- Kazanan tahmin: 202
+- Bekleyen tahmin: 1139
+- Kazanan tahmin: 203
 - Kaybeden tahmin: 158
 - Lig sayısı: 280
 - Seçenek sayısı: 6
@@ -23,7 +23,7 @@ Oluşturma: 16.09.2026 15:37:59
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Alt: toplam 589, bekleyen 454, başarı %62, düz getiri %5, ağırlık 1
-- 2.5 Üst: toplam 168, bekleyen 105, başarı %56, düz getiri %2, ağırlık 1
+- 2.5 Üst: toplam 168, bekleyen 104, başarı %56, düz getiri %4, ağırlık 1
 - MS 1: toplam 502, bekleyen 396, başarı %54, düz getiri %-10, ağırlık 1
 - KG Var: toplam 14, bekleyen 4, başarı %50, düz getiri %-9, ağırlık 1
 - MS X: toplam 7, bekleyen 3, başarı %50, düz getiri %22, ağırlık 1
@@ -38,7 +38,7 @@ Oluşturma: 16.09.2026 15:37:59
 - 2026-09-16 | Uganda Premier Lig | Lugazi Municip - Police | 2.5 Alt | pending | 57/100
 - 2026-09-16 | Uganda Premier Lig | Kampala City - Kataka | MS 1 | pending | 56/100
 - 2026-09-16 | Çek Cumhuriyeti Kupa 3.Tur | Vitkovice - Sk Artis Brno | MS 2 | pending | 57/100
-- 2026-09-16 | Kolombiya Primera A Clausura | Chico - Alianza Petrole | 2.5 Üst | pending | 66/100
+- 2026-09-16 | Kolombiya Primera A Clausura | Chico - Alianza Petrole | 2.5 Üst | won | 66/100
 - 2026-09-16 | UEFA Gençlik Ligi 1.Tur | Cliftonville U - Super Nova U19 | MS 1 | pending | 51/100
 - 2026-09-16 | Botsvana Premier Lig | Centre Chiefs - Tonota | 2.5 Alt | pending | 57/100
 - 2026-09-16 | İtalya Serie C Grup B | Ostia Mare Lid - Ravenna | MS 2 | pending | 54/100

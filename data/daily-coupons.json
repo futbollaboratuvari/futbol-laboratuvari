@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T12:37:56.216Z",
+  "generated_at": "2026-09-16T12:43:01.929Z",
   "date": "2026-09-16",
   "source": "High Value Coupon Engine + pro-goal-market-bridge-v1",
-  "message": "3 doğrulanmış 3.5 Üst / 6+ Gol adayı yüksek gol filtresinden geçti.",
+  "message": "2 doğrulanmış 3.5 Üst / 6+ Gol adayı yüksek gol filtresinden geçti.",
   "coupons": {
     "balanced": {
       "coupon_name": "Dengeli Kupon",
@@ -1239,49 +1239,6 @@
       "selected_matches": [
         {
           "no": 1,
-          "id": "09204",
-          "match_name": "Jeonbuk Hm VS Kashiwa",
-          "home": "Jeonbuk Hm",
-          "away": "Kashiwa",
-          "date": "2026-09-16",
-          "league": "AFC Şampiyonlar Ligi Elite Doğu Grubu",
-          "start_time": "13:00",
-          "recommended_market": "3.5 Üst",
-          "market": "3.5 Üst",
-          "selection": "3.5 Üst",
-          "estimated_odds": "1.74",
-          "odds": "1.74",
-          "model_score": 79,
-          "analysis_score": 79,
-          "confidence_score": "79%",
-          "estimated_probability": 67.3,
-          "market_probability": 47.4,
-          "edge_percent": 27.6,
-          "data_completeness": 62,
-          "independent_evidence": true,
-          "risk_level": "Orta",
-          "data_gap_risk": "Orta",
-          "squad_risk_level": "Belirsiz",
-          "lineup_risk_level": "Belirsiz",
-          "value_label": "Yüksek Değer",
-          "model_version": "pro-goal-market-bridge-v1",
-          "evidence_mode": "direct_price_plus_independent_goal_model",
-          "probability_source": [
-            "doğrudan oran",
-            "bağımsız gol modeli"
-          ],
-          "goal_market_bridge": true,
-          "signals": [
-            "3.5 Üst doğrudan oranı 1.74.",
-            "Poisson verisi yok.",
-            "Doğrulanmış 3.5 Üst eğilimi %75.",
-            "Piyasa karşılığı %47.4; bağımsız model farkı +27.6 puan."
-          ],
-          "robot_reason": "3.5 Üst doğrudan oranı 1.74. | Poisson verisi yok. | Doğrulanmış 3.5 Üst eğilimi %75. | Piyasa karşılığı %47.4; bağımsız model farkı +27.6 puan.",
-          "include_in_coupon": true
-        },
-        {
-          "no": 2,
           "id": "19606",
           "match_name": "Barcelona VS Santander",
           "home": "Barcelona",
@@ -1324,7 +1281,7 @@
           "include_in_coupon": true
         },
         {
-          "no": 3,
+          "no": 2,
           "id": "18749",
           "match_name": "B.Leverkusen VS Celje",
           "home": "B.Leverkusen",
@@ -1367,22 +1324,22 @@
           "include_in_coupon": true
         }
       ],
-      "total_odds": "532.88",
-      "average_confidence_score": "75%",
-      "combined_estimated_probability": 19.2,
+      "total_odds": "306.25",
+      "average_confidence_score": "73%",
+      "combined_estimated_probability": 28.6,
       "risk_level": "Orta",
       "short_description": "3.5 Üst ve 6+ Gol dahil, yalnız doğrulanmış PRO yüksek gol adayları.",
-      "robot_reason": "3 yüksek gol seçeneği doğrudan oran + bağımsız model filtresini geçti.",
+      "robot_reason": "2 yüksek gol seçeneği doğrudan oran + bağımsız model filtresini geçti.",
       "is_available": true
     }
   },
   "minimum_coupon_odd": 1.45,
   "goal_market_bridge": {
     "version": "pro-goal-market-bridge-v1",
-    "over35_candidate_count": 128,
+    "over35_candidate_count": 125,
     "six_plus_candidate_count": 0,
-    "coupon_eligible_count": 3,
+    "coupon_eligible_count": 2,
     "minimum_coupon_odd": 1.45
   },
-  "candidate_count": 6
+  "candidate_count": 5
 }
