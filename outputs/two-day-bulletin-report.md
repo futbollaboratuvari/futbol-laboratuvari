@@ -2,22 +2,15 @@
 
 Gunler: 2026-09-16 / 2026-09-17
 Kaynak: fixtures.json
-Ham mac: 196
-Aktif mac: 172
+Ham mac: 177
+Aktif mac: 165
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 24
-Bugun: 146
+Bultenden dusurulen mac: 12
+Bugun: 139
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-09-16 13:30 | Asya Oyunları Grup A | Japonya U23 - Hong Kong U23 | scheduled | -
-- 2026-09-16 13:30 | İspanya Gençler Onur Ligi Grup 4 | Cordoba U19 - Sevilla U19 | scheduled | -
-- 2026-09-16 14:00 | Tayland 2.Lig | Chainat Hornbi - Esan Pattaya | scheduled | -
-- 2026-09-16 14:00 | Tayland 2.Lig | Uttaradit - Nong Bua Pitcha | scheduled | -
-- 2026-09-16 14:00 | İspanya Gençler Onur Ligi Grup 4 | Cadiz U19 - Atlético Melill | scheduled | -
-- 2026-09-16 14:00 | Türkiye Kupa 1.Tur | Karaman Fk - Kepezspor Faş | scheduled | -
-- 2026-09-16 14:30 | Tayland 2.Lig | Nakhon Pathom - Kanchanaburi | scheduled | -
 - 2026-09-16 15:00 | Yunanistan Kupa Lig Aşaması | Niki Volos - Asteras Tripoli | scheduled | -
 - 2026-09-16 15:00 | Tayland 2.Lig | Mahasarakham U - Nakhon Ratchasi | scheduled | -
 - 2026-09-16 15:15 | AFC Şampiyonlar Ligi Elite Doğu Grubu | Port Fc - Vissel Kobe | scheduled | -
