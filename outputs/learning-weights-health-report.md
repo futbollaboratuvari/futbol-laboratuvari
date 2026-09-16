@@ -3,8 +3,8 @@
 Durum: calibrating
 Tahmin sayisi: 1500
 Hazir market hafizasi: 4/6
-Hazir lig hafizasi: 0/282
-Hazir lig+market hafizasi: 0/634
+Hazir lig hafizasi: 0/284
+Hazir lig+market hafizasi: 0/625
 Aktif ve guvenli agirlik: 0
 Guclendirilen toplam: 0
 Dusurulen toplam: 0

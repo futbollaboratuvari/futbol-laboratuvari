@@ -1,11 +1,19 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 61
-Tam analiz: 57
-Eksik analiz: 4
+Toplam analiz: 119
+Tam analiz: 107
+Eksik analiz: 12
 
-- Real Betis U19 VS Granada U18: eksik score, confidence
-- Al Rayyan VS Al Faisaly Amma: eksik score, confidence
-- B.Leverkusen VS Celje: eksik score, confidence
-- Barcelona VS Santander: eksik score, confidence
+- Adelaide Unite VS Wofoo Tai Po: eksik score, confidence
+- Machida Zelvia VS Pkr Svay Rieng: eksik score, confidence
+- Shanghai Shenh VS Tampines Rovers: eksik score, confidence
+- Aek VS Panserraikos: eksik score, confidence
+- Skeid VS Valerenga: eksik score, confidence
+- Levadia Tallin VS Tammeka Tartu: eksik score, confidence
+- Vålerenga (K) VS Haugesund (K): eksik score, confidence
+- Ofi VS Hoffenheim: eksik score, confidence
+- Manchester Cit VS Norwich: eksik score, confidence
+- Juventus VS Nijmegen: eksik score, confidence
+- Crystal Palace VS Lech Poznan: eksik score, confidence
+- Bolivar VS Gualberto Villa: eksik score, confidence

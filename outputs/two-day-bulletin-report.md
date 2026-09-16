@@ -3,26 +3,14 @@
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
 Ham mac: 119
-Aktif mac: 118
+Aktif mac: 106
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 110
+Bultenden dusurulen mac: 13
+Bugun: 98
 Yarin: 8
 
 ## Baslamamis Maclar
-- 2026-09-17 01:00 | Copa Libertadores Çeyrek Final | Ldu Quito (0) - (1) Palmeiras | scheduled | -
-- 2026-09-17 01:00 | Copa Sudamericana Çeyrek Final | Atletico Mg (0) - (2) Santos | scheduled | -
-- 2026-09-17 01:00 | Arjantin Kupa Çeyrek Final | Rivadavia - Atletico Tucuma | scheduled | -
-- 2026-09-17 01:00 | Venezuela Premier Lig Clausura | Monagas - Zamora | scheduled | -
-- 2026-09-17 01:00 | Bolivya Premier Lig | Nacional Potos - Always Ready | scheduled | -
-- 2026-09-17 01:00 | ABD USL | Hartford Athle - Sporting Jax | scheduled | -
-- 2026-09-17 01:30 | Brezilya Serie A | Botafogo - Gremio | scheduled | -
-- 2026-09-17 02:00 | ABD Açık Kupası Yarı Final | Columbus - Orlando City | scheduled | -
-- 2026-09-17 02:00 | Venezuela Premier Lig Clausura | Trujillanos - Rayo Zuliano | scheduled | -
-- 2026-09-17 02:00 | ABD MLS Next Pro | Real Monarchs - Minnesota Unite | scheduled | -
-- 2026-09-17 02:00 | ABD USL Lig 1 | Chattanooga Re - Forward Madison | scheduled | -
-- 2026-09-17 02:00 | ABD USL Lig 1 | Westchester Sc - Richmond Kicker | scheduled | -
 - 2026-09-17 02:15 | Kolombiya Primera A Clausura | Once Caldas - Deportes Tolima | scheduled | -
 - 2026-09-17 02:30 | Venezuela Premier Lig Clausura | Metropolitanos - Caracas Fc | scheduled | -
 - 2026-09-17 02:30 | ABD USL Lig 1 | Fort Wayne - One Knoxville | scheduled | -
