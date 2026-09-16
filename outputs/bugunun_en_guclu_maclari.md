@@ -4,17 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-16T13:40:22.815Z
+- Güncelleme: 2026-09-16T14:32:29.828Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Chainat Hornbi VS Esan Pattaya | Tayland 2.Lig | 14:00 | 2.5 Alt | 1.64 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Uttaradit VS Nong Bua Pitcha | Tayland 2.Lig | 14:00 | 2.5 Üst | 1.58 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Cadiz U19 VS Atlético Melill | İspanya Gençler Onur Ligi Grup 4 | 14:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Karaman Fk VS Kepezspor Faş | Türkiye Kupa 1.Tur | 14:00 | MS 1 | 1.96 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Nakhon Pathom VS Kanchanaburi | Tayland 2.Lig | 14:30 | 2.5 Alt | 1.57 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Niki Volos VS Asteras Tripoli | Yunanistan Kupa Lig Aşaması | 15:00 | 2.5 Alt | 1.47 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Mahasarakham U VS Nakhon Ratchasi | Tayland 2.Lig | 15:00 | 2.5 Alt | 1.61 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |

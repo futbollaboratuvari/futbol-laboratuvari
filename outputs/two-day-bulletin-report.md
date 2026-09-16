@@ -2,32 +2,15 @@
 
 Gunler: 2026-09-16 / 2026-09-17
 Kaynak: fixtures.json
-Ham mac: 171
-Aktif mac: 152
+Ham mac: 167
+Aktif mac: 135
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 19
-Bugun: 126
+Bultenden dusurulen mac: 32
+Bugun: 109
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-09-16 16:45 | Yunanistan Kupa Lig Aşaması | Aris - Marko | scheduled | -
-- 2026-09-16 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Havirov - Zlin | scheduled | -
-- 2026-09-16 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Kozlovice - Pardubice | scheduled | -
-- 2026-09-16 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Fk Varnsdorf - Slavia Prag | scheduled | -
-- 2026-09-16 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Sezimivo Usti - Teplice | scheduled | -
-- 2026-09-16 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Pribram - Hradec Kralove | scheduled | -
-- 2026-09-16 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Vitkovice - Sk Artis Brno | scheduled | -
-- 2026-09-16 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Neratovice - Slovacko | scheduled | -
-- 2026-09-16 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Kraluv Dvur - Brno | scheduled | -
-- 2026-09-16 17:00 | Mısır Premier Lig | El Gounah - Petrojet | scheduled | -
-- 2026-09-16 17:30 | Danimarka DBU Kupası 3.Tur | Horsholm-Usser - Aarhus Fremad | scheduled | -
-- 2026-09-16 17:30 | Danimarka DBU Kupası 3.Tur | Naesby - Horsens | scheduled | -
-- 2026-09-16 17:30 | Danimarka DBU Kupası 3.Tur | Brabrand - Viborg | scheduled | -
-- 2026-09-16 17:30 | Hırvatistan HR Nogometni Kupası Son 32 Turu | Kustosija - Bijelo Brdo | scheduled | -
-- 2026-09-16 17:30 | Hırvatistan HR Nogometni Kupası Son 32 Turu | Nk Vrbovec - Rijeka | scheduled | -
-- 2026-09-16 17:30 | Almanya Bölgesel Lig Kuzey | Bremer Sv - Vfb Oldenburg | scheduled | -
-- 2026-09-16 17:30 | İran Azadegan Ligi | Mes Rafsanjan - Havadar | scheduled | -
 - 2026-09-16 17:45 | Yunanistan Kupa Lig Aşaması | Kifisias - Panathinaikos | scheduled | -
 - 2026-09-16 18:00 | Norveç 2.Lig Grup 2 | Grorud Il - Tromsdalen | scheduled | -
 - 2026-09-16 18:00 | Tunus 1.Lig | Es Zarzis - Monastir | scheduled | -
