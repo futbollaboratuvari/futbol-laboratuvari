@@ -2,11 +2,11 @@
 
 Gunler: 2026-09-16 / 2026-09-17
 Kaynak: fixtures.json
-Ham mac: 185
+Ham mac: 181
 Aktif mac: 174
 Canli mac: 0
-Biten mac: 3
-Bultenden dusurulen mac: 11
+Biten mac: 0
+Bultenden dusurulen mac: 7
 Bugun: 148
 Yarin: 26
 
@@ -190,6 +190,4 @@ Yarin: 26
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-09-16 01:30 | Brezilya Serie B | Londrina - Ponte Preta | finished | 6-0
-- 2026-09-16 01:30 | Brezilya Serie B | Nautico - Operario | finished | 3-3
-- 2026-09-16 01:30 | Venezuela Premier Lig Clausura | Depor Tachira - Academia Puerto | finished | 1-1
+Biten mac yok.
