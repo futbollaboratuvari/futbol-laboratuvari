@@ -2,17 +2,17 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-16T20:06:00.733Z
-- Ham maç sayısı: 92
+- Güncelleme: 2026-09-16T20:19:02.961Z
+- Ham maç sayısı: 61
 - Yarın bülteni maç sayısı: 27
-- Detay blok sayısı: 256
+- Detay blok sayısı: 170
 - Aktif bülten maçı: 28
-- Bültenden düşürülen maç: 64
+- Bültenden düşürülen maç: 33
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Deportivo Cuen - San Antonio | Ekvador Pro Lig Serie B Şampiyonluk Grubu | 23:30 | Veri bekleniyor | - | 1.64 | 8 |
+| Deportivo Cuen - San Antonio | Ekvador Pro Lig Serie B Şampiyonluk Grubu | 23:30 | Veri bekleniyor | - | 1.56 | 7 |
 | Portuguesa - Estudiantes Fc | Venezuela Premier Lig Clausura | 00:00 | Veri bekleniyor | - | 2.05 | 8 |
 | Ldu Quito (0) - (1) Palmeiras | Copa Libertadores Çeyrek Final | 01:00 | Veri bekleniyor | - | 2.27 | 8 |
 | Atletico Mg (0) - (2) Santos | Copa Sudamericana Çeyrek Final | 01:00 | Veri bekleniyor | - | 1.58 | 8 |
