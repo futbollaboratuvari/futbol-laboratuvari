@@ -1,18 +1,10 @@
 const fs = require("node:fs");
 const path = require("node:path");
-const {
-  GITHUB_OIDC_AUDIENCE,
-  buildCouponEmail,
-  extractValidCoupons,
-} = require("../server-lib/_lib/coupon-mail");
+const { GITHUB_OIDC_AUDIENCE, extractValidCoupons } = require("../server-lib/_lib/coupon-mail");
 
 const DEFAULT_ENDPOINT = "https://futbol-laboratuvari.vercel.app/api/send-coupon-mail";
 const COUPON_FILE = path.join(__dirname, "..", "data", "daily-coupons.json");
 const RETRY_DELAYS_MS = [1500, 4000, 8000];
-const COUPON_RECIPIENTS = Object.freeze([
-  "cemkaplanoglu@gmail.com",
-  "arifkaplanoglu@gmail.com",
-]);
 
 function readCouponFile(filePath = COUPON_FILE) {
   try {
@@ -37,59 +29,6 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 function retryableStatus(status) {
   return status === 408 || status === 425 || status === 429 || status >= 500;
-}
-
-function directResendConfig(env) {
-  const apiKey = String(env.RESEND_API_KEY || "").trim();
-  const from = String(env.COUPON_MAIL_FROM || "").trim();
-  if (!apiKey || !from) return null;
-  if (/onboarding@resend\.dev/i.test(from)) return null;
-  return { apiKey, from };
-}
-
-async function sendDirectWithResend(entries, env, fetchImpl) {
-  const config = directResendConfig(env);
-  if (!config) return null;
-
-  let sent = 0;
-  for (const entry of entries) {
-    const content = buildCouponEmail(entry);
-    const response = await fetchImpl("https://api.resend.com/emails", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${config.apiKey}`,
-        "Content-Type": "application/json",
-        "Idempotency-Key": `fl-github-two-${entry.payloadHash}`,
-      },
-      body: JSON.stringify({
-        from: config.from,
-        to: COUPON_RECIPIENTS,
-        subject: content.subject,
-        text: content.text,
-        html: content.html,
-      }),
-    });
-    const raw = await response.text();
-    if (!response.ok) {
-      let message = `http_${response.status}`;
-      try {
-        const parsed = JSON.parse(raw);
-        message = parsed?.message || parsed?.name || message;
-      } catch {}
-      throw new Error(`GitHub doğrudan Resend gönderimi başarısız (${message})`);
-    }
-    sent += 1;
-  }
-
-  return {
-    ok: true,
-    status: sent ? "sent" : "nothing_to_send",
-    sent,
-    skipped: 0,
-    failed: 0,
-    recipient_count: COUPON_RECIPIENTS.length,
-    delivery_mode: "github_direct_resend",
-  };
 }
 
 async function resolveAuthorizationToken(env, fetchImpl) {
@@ -175,13 +114,6 @@ async function triggerCouponNotification({
     return { ok: true, status: "no_valid_coupon", sent: 0, skipped: 0, failed: 0 };
   }
 
-  const directConfig = directResendConfig(env);
-  if (directConfig) {
-    console.log(`Kupon mail modu: GitHub doğrudan Resend, alıcı=${COUPON_RECIPIENTS.length}`);
-    return sendDirectWithResend(validCoupons, env, fetchImpl);
-  }
-
-  console.log("Kupon mail modu: mevcut endpoint (GitHub Resend secret/from eksik veya test göndericisi)");
   const endpoint = String(env.COUPON_MAIL_ENDPOINT || DEFAULT_ENDPOINT).trim();
   if (!/^https:\/\//i.test(endpoint) && !/^http:\/\/(?:localhost|127\.0\.0\.1)(?::\d+)?(?:\/|$)/i.test(endpoint)) {
     throw new Error("COUPON_MAIL_ENDPOINT güvenli bir HTTPS adresi olmalıdır");
@@ -192,7 +124,7 @@ async function triggerCouponNotification({
 
 async function main() {
   const result = await triggerCouponNotification();
-  console.log(`Kupon mail bildirimi: durum=${result.status}, gönderilen=${result.sent || 0}, atlanan=${result.skipped || 0}, hata=${result.failed || 0}, alıcı=${result.recipient_count || "?"}, mod=${result.delivery_mode || "endpoint"}`);
+  console.log(`Kupon mail bildirimi: durum=${result.status}, gönderilen=${result.sent || 0}, atlanan=${result.skipped || 0}, hata=${result.failed || 0}, alıcı=${result.recipient_count || "?"}`);
 }
 
 if (require.main === module) {
@@ -204,15 +136,12 @@ if (require.main === module) {
 
 module.exports = {
   COUPON_FILE,
-  COUPON_RECIPIENTS,
   DEFAULT_ENDPOINT,
   RETRY_DELAYS_MS,
   callCouponEndpoint,
-  directResendConfig,
   readCouponFile,
   resolveAuthorizationToken,
   retryableStatus,
-  sendDirectWithResend,
   trustedActionsOidcUrl,
   triggerCouponNotification,
 };
