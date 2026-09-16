@@ -114,11 +114,10 @@ function createHandler(overrides = {}) {
       fetchImpl,
     });
     const store = overrides.store ? rawStore : withDeliveryStateRetries(rawStore);
-    // Send each new coupon to the configured recipient list and Arif.
     const sendEmail = overrides.sendEmail || createResendSender({
       apiKey: env.RESEND_API_KEY,
       from: env.COUPON_MAIL_FROM,
-      to: [env.COUPON_MAIL_TO, "arifkaplanoglu@gmail.com"].filter(Boolean).join(","),
+      to: env.COUPON_MAIL_TO,
       fetchImpl,
     });
 
