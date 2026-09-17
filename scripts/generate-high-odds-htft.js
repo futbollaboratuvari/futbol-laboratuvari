@@ -215,34 +215,35 @@ function firstHalfMarket(item) {
     const market = String(candidate.market || '').toLocaleLowerCase('tr-TR');
     const values = candidate.values || {};
     if (!market.includes('ilk yarı') && !market.includes('ilk yari')) continue;
-    const one = number(values.firstHalf1 ?? values.firstHalf1_guess ?? values.iy1 ?? values['1']);
-    const draw = number(values.firstHalfX ?? values.firstHalfX_guess ?? values.iyx ?? values.x);
-    const two = number(values.firstHalf2 ?? values.firstHalf2_guess ?? values.iy2 ?? values['2']);
-    if (one && two) return { one, draw, two, source: 'detail_market_candidates' };
+    if (candidate.market_identity_verified === false) continue;
+    const provenance = fold(`${candidate.source || ''} ${candidate.market_source || ''} ${candidate.provenance || ''}`);
+    if (/unlabeled raw block|raw market guess/.test(provenance)) continue;
+    const one = number(values.firstHalf1 ?? values.iy1 ?? values['1']);
+    const draw = number(values.firstHalfX ?? values.iyx ?? values.x);
+    const two = number(values.firstHalf2 ?? values.iy2 ?? values['2']);
+    if (one && two) return { one, draw, two, source: 'detail_market_candidates', verified: true };
   }
   return null;
 }
 
 function fullTimeMarket(item) {
   const odds = item.available_odds || item.odds || {};
-  const raw = item.raw_market_guess_odds || {};
   return {
-    one: number(odds.ms1 ?? raw.ms1),
-    draw: number(odds.msx ?? raw.msx),
-    two: number(odds.ms2 ?? raw.ms2)
+    one: number(odds.ms1),
+    draw: number(odds.msx),
+    two: number(odds.ms2)
   };
 }
 
 function opennessScore(item) {
   const odds = item.available_odds || item.odds || {};
-  const raw = item.raw_market_guess_odds || {};
-  const over = implied(odds.over25 ?? raw.over25 ?? raw.over25_guess);
-  const under = implied(odds.under25 ?? raw.under25 ?? raw.under25_guess);
+  const over = implied(odds.over25);
+  const under = implied(odds.under25);
   let overShare = 0.5;
   if (over && under) overShare = over / (over + under);
 
-  const yes = implied(odds.bttsYes ?? raw.bttsYes ?? raw.bttsYes_guess);
-  const no = implied(odds.bttsNo ?? raw.bttsNo ?? raw.bttsNo_guess);
+  const yes = implied(odds.bttsYes);
+  const no = implied(odds.bttsNo);
   let bttsShare = 0.5;
   if (yes && no) bttsShare = yes / (yes + no);
 
@@ -308,6 +309,7 @@ function analyzeMatch(item, targetDate, officialById, resolvedEvent) {
   const fhOdds = firstHalfMarket(item);
   let fh = fhOdds ? normalizeThree(fhOdds.one, fhOdds.draw, fhOdds.two) : null;
   const halfSource = fhOdds?.source || 'derived_from_full_time_direction';
+  const halfVerified = fhOdds?.verified === true;
   if (!fh) {
     const drawBoost = 0.41;
     const remaining = 1 - drawBoost;
@@ -327,8 +329,8 @@ function analyzeMatch(item, targetDate, officialById, resolvedEvent) {
   const reversalFactor = 0.5 + openness * 0.4;
 
   const scenarios = [
-    { market: '1/2', joint: fh.one * ft.two },
-    { market: '2/1', joint: fh.two * ft.one }
+    { market: '1/2', joint: fh.one * ft.two, firstHalfDirection: fh.one, fullTimeDirection: ft.two },
+    { market: '2/1', joint: fh.two * ft.one, firstHalfDirection: fh.two, fullTimeDirection: ft.one }
   ].map((scenario) => {
     const probability = clamp(scenario.joint * reversalFactor * seniorFactor, 0.018, 0.085);
     const balance = 1 - Math.abs(ft.one - ft.two);
@@ -372,6 +374,11 @@ function analyzeMatch(item, targetDate, officialById, resolvedEvent) {
     data_completeness: Math.round(dataCompleteness),
     source_model_score: Math.round(modelScore),
     first_half_signal_source: halfSource,
+    first_half_signal_verified: halfVerified,
+    openness_score: Number(openness.toFixed(3)),
+    reversal_joint_probability: Number((best.joint * 100).toFixed(1)),
+    first_half_direction_probability: Number((best.firstHalfDirection * 100).toFixed(1)),
+    full_time_direction_probability: Number((best.fullTimeDirection * 100).toFixed(1)),
     reason: reasonFor(item, best.market, ft, fh, openness, dataCompleteness, modelScore)
   };
 }
@@ -491,7 +498,7 @@ async function buildOutput(source, officialBulletin) {
     requested_date: requestedDate,
     date_fallback_used: dateFallbackUsed,
     evaluated_dates: evaluatedDates,
-    engine: 'Futbol Laboratuvarı Yüksek Oran İY/MS v3',
+    engine: 'Futbol Laboratuvarı Yüksek Oran İY/MS v4',
     source: 'data/robot-analysis.json + iddaa.com resmi futbol bülteni',
     odds_source: officialBulletin?.source || SOURCE_NAME,
     identity_policy: 'official_id_then_exact_teams_then_unique_time_and_team_similarity',
