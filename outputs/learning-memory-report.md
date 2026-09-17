@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.09.2026 20:58:10
+Oluşturma: 17.09.2026 21:23:04
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1089
-- Kazanan tahmin: 233
-- Kaybeden tahmin: 178
+- Bekleyen tahmin: 1082
+- Kazanan tahmin: 235
+- Kaybeden tahmin: 183
 - Lig sayısı: 276
 - Seçenek sayısı: 6
 
@@ -23,10 +23,10 @@ Oluşturma: 17.09.2026 20:58:10
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 9, bekleyen 6, başarı %67, düz getiri %63, ağırlık 1
-- 2.5 Alt: toplam 604, bekleyen 447, başarı %61, düz getiri %4, ağırlık 1
+- 2.5 Alt: toplam 604, bekleyen 444, başarı %60, düz getiri %3, ağırlık 1
 - KG Var: toplam 14, bekleyen 2, başarı %58, düz getiri %4, ağırlık 1
-- 2.5 Üst: toplam 160, bekleyen 92, başarı %57, düz getiri %4, ağırlık 1
-- MS 1: toplam 477, bekleyen 356, başarı %53, düz getiri %-12, ağırlık 1
+- 2.5 Üst: toplam 160, bekleyen 89, başarı %56, düz getiri %2, ağırlık 1
+- MS 1: toplam 477, bekleyen 355, başarı %53, düz getiri %-13, ağırlık 1
 - MS 2: toplam 236, bekleyen 186, başarı %52, düz getiri %-2, ağırlık 1
 
 ## Son Tahmin Kayıtları
@@ -42,7 +42,7 @@ Oluşturma: 17.09.2026 20:58:10
 - 2026-09-17 | Mısır 2. Lig | El Daklyeh - Tersana | MS 2 | pending | 43/100
 - 2026-09-17 | Rusya FNL | Olimpiyets - Leningradets | 2.5 Alt | pending | 50/100
 - 2026-09-17 | ABD USL | Birmingham Leg - New Mexico Unit | MS 2 | lost | 55/100
-- 2026-09-17 | AFC Şampiyonlar Ligi 2 Grup H | Kitchee Footba - Gangwon | MS 1 | pending | 58/100
+- 2026-09-17 | AFC Şampiyonlar Ligi 2 Grup H | Kitchee Footba - Gangwon | MS 1 | lost | 58/100
 - 2026-09-17 | Kadınlar U20 Dünya Kupası Son 16 Turu | Fransa U20 (K) - Kanada U20 (K) | 2.5 Alt | pending | 53/100
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen - Union St.G | 2.5 Alt | pending | 51/100
 - 2026-09-17 | Meksika Ascenso MX Apertura | Durango - Cruz Azul Hidal | 2.5 Alt | pending | 56/100

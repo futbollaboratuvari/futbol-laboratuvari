@@ -1,20 +1,15 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 96
-Tam analiz: 82
-Eksik analiz: 14
+Toplam analiz: 66
+Tam analiz: 57
+Eksik analiz: 9
 
-- Adelaide Unite VS Wofoo Tai Po: eksik score, confidence
-- Machida Zelvia VS Pkr Svay Rieng: eksik score, confidence
-- Shanghai Shenh VS Tampines Rovers: eksik score, confidence
-- Navbahor Naman VS Dinamo Samarqan: eksik score, confidence
-- Aek VS Panserraikos: eksik score, confidence
 - Skeid VS Valerenga: eksik score, confidence
 - Levadia Tallin VS Tammeka Tartu: eksik score, confidence
 - Vålerenga (K) VS Haugesund (K): eksik score, confidence
+- Orduspor 1967 VS Torul Belediyes: eksik score, confidence
 - Ofi VS Hoffenheim: eksik score, confidence
-- Zeleznicar Pan VS Kizilyildiz: eksik score, confidence
 - Manchester Cit VS Norwich: eksik score, confidence
 - Juventus VS Nijmegen: eksik score, confidence
 - Crystal Palace VS Lech Poznan: eksik score, confidence

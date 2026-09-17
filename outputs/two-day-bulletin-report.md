@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
-Ham mac: 72
-Aktif mac: 33
+Ham mac: 66
+Aktif mac: 30
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 39
-Bugun: 23
+Bultenden dusurulen mac: 36
+Bugun: 20
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-09-17 21:00 | Sırbistan Süper Lig | Zeleznicar Pan - Kizilyildiz | scheduled | -
-- 2026-09-17 21:00 | Irak Premier Lig | Al Zawraa - Al Gharraf | scheduled | -
-- 2026-09-17 21:00 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | Independiente - Atletico Fc | scheduled | 1-1
 - 2026-09-17 21:30 | İngiltere Lig Kupası 3.Tur | Manchester Cit - Norwich | scheduled | -
 - 2026-09-17 21:30 | Uruguay Kupa Ön Eleme Turu Grup 4 | Central Espano - Oriental | scheduled | -
 - 2026-09-17 21:30 | Uruguay Kupa Ön Eleme Turu Grup 4 | Juventud Dl Pi - Racing Montevid | scheduled | -
