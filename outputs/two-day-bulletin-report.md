@@ -2,45 +2,15 @@
 
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
-Ham mac: 123
-Aktif mac: 70
+Ham mac: 83
+Aktif mac: 40
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 53
-Bugun: 60
+Bultenden dusurulen mac: 43
+Bugun: 30
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-09-17 18:00 | Tunus 1.Lig | Stade Tunis - Club Africain | scheduled | -
-- 2026-09-17 18:00 | Kazakistan Premier Lig | Atyrau - Ordabasy | scheduled | -
-- 2026-09-17 18:00 | Nijerya NPFL | Enugu Rangers - Nasarawa United | scheduled | -
-- 2026-09-17 18:30 | Rusya Premier Lig | Rostov - Dinamo Moskova | scheduled | -
-- 2026-09-17 18:30 | Rusya Premier Lig | Akron - Akhmat Grozny | scheduled | -
-- 2026-09-17 18:45 | Irak Premier Lig | Al Karkh - Naft Maysan | scheduled | -
-- 2026-09-17 19:00 | Rusya FNL | Torpedo Moskov - Veles | scheduled | -
-- 2026-09-17 19:00 | Rusya FNL | Olimpiyets - Leningradets | scheduled | -
-- 2026-09-17 19:00 | Ürdün Premier Lig | Doqarah - Al Salt | scheduled | -
-- 2026-09-17 19:00 | Gürcistan Erovnuli Liga | Fc Iberia - Dila Gori | scheduled | -
-- 2026-09-17 19:00 | Norveç NM Kupası 2.Tur | Skeid - Valerenga | scheduled | -
-- 2026-09-17 19:00 | Estonya Premium Lig | Levadia Tallin - Tammeka Tartu | scheduled | -
-- 2026-09-17 19:00 | Estonya Esiliiga A | Viimsi Mrjk - Tartu Welco | scheduled | -
-- 2026-09-17 19:00 | Ürdün 1.Lig | Al Sareeh - Al Ahli | scheduled | -
-- 2026-09-17 19:00 | Ürdün 1.Lig | Hay Al-Amir Ha - Sama Al Sarhan | scheduled | -
-- 2026-09-17 19:00 | Norveç Kadınlar Toppserien | Vålerenga (K) - Haugesund (K) | scheduled | -
-- 2026-09-17 19:00 | Norveç Kadınlar Toppserien | Rosenborg (K) - Stabaek (K) | scheduled | -
-- 2026-09-17 19:00 | Norveç 3.Lig Grup 3 | Stord Sunnhord - Djerv | scheduled | -
-- 2026-09-17 19:30 | Danimarka DBU Kupası 3.Tur | Vejle - Brondby | scheduled | -
-- 2026-09-17 19:30 | Kadınlar U20 Dünya Kupası Son 16 Turu | Polonya U20 (K - Kolombiya U20 ( | scheduled | -
-- 2026-09-17 19:30 | Kadınlar U20 Dünya Kupası Son 16 Turu | Kuzey Kore U20 - Japonya U20 (K) | scheduled | -
-- 2026-09-17 19:30 | İtalya Serie C Grup A | Albinoleffe - Union Arzignano | scheduled | -
-- 2026-09-17 19:30 | İtalya Serie C Grup A | Calvina - Lecco | scheduled | -
-- 2026-09-17 19:30 | İtalya Serie C Grup A | Cittadella - Juventus Ii | scheduled | -
-- 2026-09-17 19:30 | İtalya Serie C Grup A | Pro Vercelli - Alcione | scheduled | -
-- 2026-09-17 19:30 | İtalya Serie C Grup A | Pergolettese - Folgore Carates | scheduled | -
-- 2026-09-17 19:30 | İtalya Serie C Grup A | Lumezzane - Novara | scheduled | -
-- 2026-09-17 19:30 | Ruanda Ulusal Futbol Ligi | Rayon Sports - Sunrise | scheduled | -
-- 2026-09-17 19:45 | UEFA Avrupa Ligi Lig Aşaması | Levski Sofya - Salzburg | scheduled | -
-- 2026-09-17 19:45 | UEFA Avrupa Ligi Lig Aşaması | Ofi - Hoffenheim | scheduled | -
 - 2026-09-17 20:00 | İspanya LaLiga | Real Betis - Getafe | scheduled | -
 - 2026-09-17 20:00 | Cezayir 1.Lig | Biskra - Belouizdad | scheduled | -
 - 2026-09-17 20:00 | Mısır Premier Lig | Enppi - Pyramids Fc | scheduled | -

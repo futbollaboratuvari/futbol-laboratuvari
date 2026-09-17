@@ -2,9 +2,9 @@
 
 Durum: ok
 Toplam tahmin: 1500
-Olculen tahmin: 412
-Bekleyen tahmin: 1088
-Kazanan: 234
+Olculen tahmin: 411
+Bekleyen tahmin: 1089
+Kazanan: 233
 Kaybeden: 178
 Skoru olup pending kalan: 0
 Son finalizer kontrolu: 0

@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 71
+- Scheduled match count: 41
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-17 / 2026-09-18 23:59
 
-- 2026-09-17 18:00 | Atyrau - Ordabasy | scheduled
-- 2026-09-17 18:00 | Enugu Rangers - Nasarawa United | scheduled
-- 2026-09-17 18:00 | Stade Tunis - Club Africain | scheduled
-- 2026-09-17 18:30 | Akron - Akhmat Grozny | scheduled
-- 2026-09-17 18:30 | Rostov - Dinamo Moskova | scheduled
-- 2026-09-17 18:45 | Al Karkh - Naft Maysan | scheduled
-- 2026-09-17 19:00 | Viimsi Mrjk - Tartu Welco | scheduled
-- 2026-09-17 19:00 | Levadia Tallin - Tammeka Tartu | scheduled
-- 2026-09-17 19:00 | Fc Iberia - Dila Gori | scheduled
-- 2026-09-17 19:00 | Stord Sunnhord - Djerv | scheduled
+- 2026-09-17 20:00 | Biskra - Belouizdad | scheduled
+- 2026-09-17 20:00 | Real Betis - Getafe | scheduled
+- 2026-09-17 20:00 | Enppi - Pyramids Fc | scheduled
+- 2026-09-17 20:00 | Express - Kitara | scheduled
+- 2026-09-17 20:00 | Aqaba - Amman | scheduled
+- 2026-09-17 20:30 | Orlando Pirate - Durban City | scheduled
+- 2026-09-17 20:45 | Makhachkala - Cska Moskova | scheduled
+- 2026-09-17 21:00 | Independiente - Atletico Fc | scheduled
+- 2026-09-17 21:00 | Al Zawraa - Al Gharraf | scheduled
+- 2026-09-17 21:00 | Zeleznicar Pan - Kizilyildiz | scheduled
