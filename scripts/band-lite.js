@@ -77,7 +77,10 @@ function consensusRisk(consensus) {
 function byMatch(file) {
   const data = readJson(path.join(dataDir, file), { matches: [] });
   const out = {};
-  for (const row of data.matches || []) out[matchKey(row)] = row;
+  for (const row of data.matches || []) {
+    out[matchKey(row)] = row;
+    out[keyOf(matchName(row))] = row;
+  }
   return out;
 }
 
@@ -87,6 +90,7 @@ function mergeSignals(row, maps) {
   const status = maps.status[key] || maps.status[fallbackKey] || null;
   const lineup = maps.lineup[key] || maps.lineup[fallbackKey] || {};
   const consensus = maps.consensus?.[key] || maps.consensus?.[fallbackKey] || null;
+  const preMatch = maps.preMatch?.[key] || maps.preMatch?.[fallbackKey] || null;
   const sourceRisk = consensusRisk(consensus);
   const homeAway = maps.homeAway[key] || maps.homeAway[fallbackKey] || {};
   const standing = maps.standing[key] || maps.standing[fallbackKey] || {};
@@ -112,6 +116,9 @@ function mergeSignals(row, maps) {
       source_conflict_level: consensus?.conflict_level || 'none',
       source_uncertainty_brake: consensus && Number.isFinite(Number(consensus.uncertainty_brake)) ? Number(consensus.uncertainty_brake) : 0,
       source_consensus_note: consensus?.robot_note || '',
+      pre_match_final_check: preMatch,
+      pre_match_decision: preMatch?.decision || 'not_due',
+      pre_match_checkpoint: preMatch?.checkpoint || 'not_due',
       home_edge: homeAway.home_edge,
       away_edge: homeAway.away_edge,
       momentum_difference: standing.momentum_difference,
@@ -130,6 +137,8 @@ function labelFor(row, bands) {
   const verifiedTeams = readNumber(row, ['squad_verified_team_count']);
   const sourceConfidence = readNumber(row, ['source_confidence_score']);
   const sourceConflict = readText(row, ['source_conflict_level']).toLocaleLowerCase('tr-TR');
+  const preMatchDecision = readText(row, ['pre_match_decision']).toLowerCase();
+  const preMatchCheckpoint = readText(row, ['pre_match_checkpoint']);
   const homeEdge = readNumber(row, ['home_edge']);
   const awayEdge = readNumber(row, ['away_edge']);
   const momentum = readNumber(row, ['momentum_difference']);
@@ -175,6 +184,13 @@ function labelFor(row, bands) {
     level = 'Orta';
     notes.push(`Kaynak güven puanı sınırlı (${sourceConfidence}/100).`);
   }
+  if (preMatchDecision === 'block') {
+    level = 'Yüksek';
+    notes.push(`${preMatchCheckpoint || 'Maç önü'} son kontrol kuponu bloke etti.`);
+  } else if (preMatchDecision === 'downgrade' && level === 'Düşük') {
+    level = 'Orta';
+    notes.push(`${preMatchCheckpoint || 'Maç önü'} son kontrol güveni düşürdü.`);
+  }
   if (q !== null && q <= bands.short && homeEdge !== null && awayEdge !== null && Math.abs(homeEdge - awayEdge) < 0.15) {
     level = level === 'Yüksek' ? 'Yüksek' : 'Orta';
     notes.push('Kısa bant var ama iç/dış saha farkı belirgin değil.');
@@ -193,6 +209,7 @@ function runBandLite() {
     status: byMatch('team-status-signals.json'),
     lineup: byMatch('lineup-signals.json'),
     consensus: byMatch('team-source-consensus.json'),
+    preMatch: byMatch('pre-match-final-check.json'),
     homeAway: byMatch('home-away-performance.json'),
     standing: byMatch('standings-signals.json'),
     league: byMatch('league-expansion-signals.json')
