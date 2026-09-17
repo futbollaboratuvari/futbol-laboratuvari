@@ -1,0 +1,55 @@
+name: Auto Relaxed Trigger Patcher
+
+on:
+  push:
+    branches:
+      - fix/auto-relaxed-push-starvation
+    paths:
+      - .github/workflows/auto-relaxed-trigger-patcher.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: fix/auto-relaxed-push-starvation
+          sparse-checkout: |
+            .github/workflows/auto-relaxed-analysis.yml
+            DONT_TOUCH.md
+          sparse-checkout-cone-mode: true
+
+      - name: Verify fallback-only trigger and patch contract
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          workflow = Path('.github/workflows/auto-relaxed-analysis.yml').read_text()
+          header = workflow.split('permissions:', 1)[0]
+          if 'workflow_dispatch:' not in header:
+              raise SystemExit('workflow_dispatch missing')
+          if '\n  push:' in header or '\n  schedule:' in header:
+              raise SystemExit('Auto relaxed still has automatic trigger')
+
+          p = Path('DONT_TOUCH.md')
+          text = p.read_text()
+          anchor = '- Mimari duzeltme: Tek otomatik zamanlayici `Update fixtures and High Value Engine` olarak birakildi ve 15 dakikada bir calisir. Live Data, Derived Data ve Auto Relaxed workflow\'larinin `schedule` bloklari kaldirildi; `workflow_dispatch`/trigger dosyasi fallback yollari korunur.'
+          replacement = anchor + '\n- Ek starvation kapisi: Merge sonrasi canli kontrolde `Auto relaxed analysis` workflow\'unun `package.json`, `scripts/**` ve kendi workflow dosyasina bagli genis `push` tetikleyicisinin de ayni concurrency kuyrugunu isgal edebildigi goruldu. Bu genis `push` tetikleyicisi kaldirildi; Auto Relaxed artik yalniz `workflow_dispatch` ile manuel fallback olarak calisir. Live/Derived tarafindaki dar ops/workflow trigger yollari degismedi.'
+          if replacement not in text:
+              if anchor not in text:
+                  raise SystemExit('contract anchor missing')
+              text = text.replace(anchor, replacement, 1)
+          p.write_text(text)
+          PY
+
+      - name: Commit contract addendum
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add DONT_TOUCH.md
+          git commit -m "docs: record auto relaxed push starvation fix"
+          git push origin HEAD:fix/auto-relaxed-push-starvation
