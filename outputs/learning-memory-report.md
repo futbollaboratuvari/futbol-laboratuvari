@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.09.2026 21:39:20
+Oluşturma: 17.09.2026 22:21:53
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1084
-- Kazanan tahmin: 233
+- Bekleyen tahmin: 1085
+- Kazanan tahmin: 232
 - Kaybeden tahmin: 183
 - Lig sayısı: 276
 - Seçenek sayısı: 6
@@ -26,11 +26,12 @@ Oluşturma: 17.09.2026 21:39:20
 - 2.5 Alt: toplam 603, bekleyen 444, başarı %60, düz getiri %2, ağırlık 1
 - KG Var: toplam 14, bekleyen 2, başarı %58, düz getiri %4, ağırlık 1
 - 2.5 Üst: toplam 159, bekleyen 89, başarı %56, düz getiri %0, ağırlık 1
-- MS 1: toplam 479, bekleyen 357, başarı %53, düz getiri %-13, ağırlık 1
-- MS 2: toplam 236, bekleyen 186, başarı %52, düz getiri %-2, ağırlık 1
+- MS 1: toplam 480, bekleyen 358, başarı %53, düz getiri %-13, ağırlık 1
+- MS 2: toplam 235, bekleyen 186, başarı %51, düz getiri %-4, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-17 | AFC Şampiyonlar Ligi 2 Grup H | Phnom Penh Cro - Kuching Fa | MS 1 | pending | 45/100
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Crystal Palace - Lech Poznan | MS 1 | pending | 67/100
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen - Union St.G | MS 1 | pending | 46/100
 - 2026-09-17 | Rusya FNL | Olimpiyets - Leningradets | MS 1 | pending | 59/100
@@ -45,5 +46,4 @@ Oluşturma: 17.09.2026 21:39:20
 - 2026-09-17 | Rusya FNL | Olimpiyets - Leningradets | 2.5 Alt | pending | 50/100
 - 2026-09-17 | ABD USL | Birmingham Leg - New Mexico Unit | MS 2 | lost | 55/100
 - 2026-09-17 | AFC Şampiyonlar Ligi 2 Grup H | Kitchee Footba - Gangwon | MS 1 | lost | 58/100
-- 2026-09-17 | Kadınlar U20 Dünya Kupası Son 16 Turu | Fransa U20 (K) - Kanada U20 (K) | 2.5 Alt | pending | 53/100
 
