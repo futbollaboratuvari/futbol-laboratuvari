@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.09.2026 12:53:24
+Oluşturma: 17.09.2026 14:52:22
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1089
+- Bekleyen tahmin: 1090
 - Kazanan tahmin: 233
-- Kaybeden tahmin: 178
-- Lig sayısı: 278
+- Kaybeden tahmin: 177
+- Lig sayısı: 277
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -23,14 +23,21 @@ Oluşturma: 17.09.2026 12:53:24
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 9, bekleyen 6, başarı %67, düz getiri %63, ağırlık 1
-- 2.5 Alt: toplam 602, bekleyen 446, başarı %60, düz getiri %3, ağırlık 1
+- 2.5 Alt: toplam 603, bekleyen 447, başarı %60, düz getiri %3, ağırlık 1
 - KG Var: toplam 14, bekleyen 2, başarı %58, düz getiri %4, ağırlık 1
-- 2.5 Üst: toplam 162, bekleyen 92, başarı %57, düz getiri %4, ağırlık 1
-- MS 2: toplam 232, bekleyen 183, başarı %53, düz getiri %0, ağırlık 1
-- MS 1: toplam 481, bekleyen 360, başarı %53, düz getiri %-12, ağırlık 1
+- 2.5 Üst: toplam 161, bekleyen 92, başarı %58, düz getiri %5, ağırlık 1
+- MS 2: toplam 234, bekleyen 185, başarı %53, düz getiri %0, ağırlık 1
+- MS 1: toplam 479, bekleyen 358, başarı %53, düz getiri %-12, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-17 | Ekvador Pro Lig Serie B Küme Düşme Grubu | 22 De Julio - Cumbaya | MS 2 | pending | 46/100
+- 2026-09-17 | Mısır Premier Lig | Enppi - Pyramids Fc | 2.5 Alt | pending | 55/100
+- 2026-09-17 | Mısır 2. Lig | El Daklyeh - Tersana | MS 2 | pending | 43/100
+- 2026-09-17 | Rusya FNL | Olimpiyets - Leningradets | 2.5 Alt | pending | 50/100
+- 2026-09-17 | ABD USL | Birmingham Leg - New Mexico Unit | MS 2 | pending | 55/100
+- 2026-09-17 | AFC Şampiyonlar Ligi 2 Grup H | Kitchee Footba - Gangwon | MS 1 | pending | 58/100
+- 2026-09-17 | Kadınlar U20 Dünya Kupası Son 16 Turu | Fransa U20 (K) - Kanada U20 (K) | 2.5 Alt | pending | 53/100
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen - Union St.G | 2.5 Alt | pending | 53/100
 - 2026-09-17 | Meksika Ascenso MX Apertura | Durango - Cruz Azul Hidal | 2.5 Alt | pending | 56/100
 - 2026-09-17 | Japonya J2 Lig | Vanraure - Tegevajaro Miya | 2.5 Alt | pending | 56/100
@@ -39,11 +46,4 @@ Oluşturma: 17.09.2026 12:53:24
 - 2026-09-17 | Tunus 1.Lig | Stade Tunis - Club Africain | MS X | pending | 43/100
 - 2026-09-17 | Nijerya NPFL | Enugu Rangers - Nasarawa United | 2.5 Alt | pending | 55/100
 - 2026-09-17 | Rusya Premier Lig | Rostov - Dinamo Moskova | 2.5 Üst | pending | 61/100
-- 2026-09-17 | Gürcistan Erovnuli Liga | Fc Iberia - Dila Gori | 2.5 Alt | pending | 52/100
-- 2026-09-17 | Norveç 3.Lig Grup 3 | Stord Sunnhord - Djerv | MS 2 | pending | 55/100
-- 2026-09-17 | Azerbaycan 1.Lig | Baku Sportinq - Sabail | MS 2 | pending | 52/100
-- 2026-09-17 | Yunanistan Kupa Lig Aşaması | Kalamata - Larisa | 2.5 Alt | pending | 55/100
-- 2026-09-17 | Mısır 2. Lig | Tanta - Nasr | MS 2 | pending | 42/100
-- 2026-09-17 | Kazakistan Premier Lig | Tobol Kostanay - Yelimay Semey | 2.5 Alt | pending | 48/100
-- 2026-09-17 | Mısır 2. Lig | Derot - El Harby | 2.5 Alt | pending | 57/100
 
