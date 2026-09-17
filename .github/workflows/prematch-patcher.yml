@@ -20,45 +20,28 @@ jobs:
         with:
           ref: feat/pro-prematch-final-check
           sparse-checkout: |
-            pro-coupon-eligibility.js
-            package.json
+            DONT_TOUCH.md
           sparse-checkout-cone-mode: true
 
-      - name: Apply focused wiring
+      - name: Record PRO contract entry
         run: |
           python - <<'PY'
           from pathlib import Path
-
-          def replace_once(path, old, new):
-              p = Path(path)
-              text = p.read_text()
-              if old not in text:
-                  raise SystemExit(f"pattern not found in {path}: {old[:80]!r}")
-              p.write_text(text.replace(old, new, 1))
-
-          path = 'pro-coupon-eligibility.js'
-          anchor = '''  function hasAcceptableOdd(item) {\n'''
-          helpers = '''  function preMatchFinalCheck(item) {\n    return item?.pre_match_final_check || item?.team_intelligence?.pre_match_final_check || null;\n  }\n\n  function preMatchDecision(item) {\n    const check = preMatchFinalCheck(item);\n    if (!check || check.active === false) return "keep";\n    const value = String(check.effective_decision || check.decision || "keep").toLowerCase();\n    return ["keep", "downgrade", "block"].includes(value) ? value : "keep";\n  }\n\n  function effectiveModelScore(item) {\n    const score = finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score);\n    if (score === null) return null;\n    const decision = preMatchDecision(item);\n    const penalty = decision === "block" ? 12 : decision === "downgrade" ? 4 : 0;\n    return Math.max(0, score - penalty);\n  }\n\n  function effectiveCompleteness(item) {\n    const completeness = finite(item?.data_completeness);\n    if (completeness === null) return null;\n    const decision = preMatchDecision(item);\n    const penalty = decision === "block" ? 8 : decision === "downgrade" ? 3 : 0;\n    return Math.max(0, completeness - penalty);\n  }\n\n'''
-          replace_once(path, anchor, helpers + anchor)
-          replace_once(path, '''  function hasBlockingRisk(item) {\n    const risks = clean([\n''', '''  function hasBlockingRisk(item) {\n    if (preMatchDecision(item) === "block") return true;\n    const risks = clean([\n''')
-          replace_once(path, '''    const modelScore = finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score);\n\n    if (odd === null) {\n''', '''    const modelScore = effectiveModelScore(item);\n\n    if (odd === null) {\n''')
-          replace_once(path, '''    const modelScore = finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score);\n    const completeness = finite(item?.data_completeness);\n''', '''    const modelScore = effectiveModelScore(item);\n    const completeness = effectiveCompleteness(item);\n''')
-          replace_once(path, '''      && finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score) >= 60\n      && finite(item?.data_completeness) >= 35\n''', '''      && effectiveModelScore(item) >= 60\n      && effectiveCompleteness(item) >= 35\n''')
-          replace_once(path, '''      + ((finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score) || 0) * 25)\n      + ((finite(item?.data_completeness) || 0) * 15)\n''', '''      + ((effectiveModelScore(item) || 0) * 25)\n      + ((effectiveCompleteness(item) || 0) * 15)\n''')
-          replace_once(path, '''    EDGE_CONSISTENCY_TOLERANCE,\n    MIN_COUPON_ODD,\n    clean,\n    finite,\n''', '''    EDGE_CONSISTENCY_TOLERANCE,\n    MIN_COUPON_ODD,\n    clean,\n    effectiveCompleteness,\n    effectiveModelScore,\n    finite,\n''')
-          replace_once(path, '''    passesValueQuality,\n    rank,\n''', '''    passesValueQuality,\n    preMatchDecision,\n    preMatchFinalCheck,\n    rank,\n''')
-
-          path = 'package.json'
-          replace_once(path, 'node tests/source-consensus.test.js && node tests/source-consensus-band.test.js', 'node tests/source-consensus.test.js && node tests/pre-match-final-check.test.js && node tests/source-consensus-band.test.js')
-          replace_once(path, 'node scripts/market-provenance-guard.js && node scripts/export-high-value-json.js', 'node scripts/market-provenance-guard.js && node scripts/pre-match-final-check.js && node scripts/export-high-value-json.js')
-          replace_once(path, 'node tests/source-consensus.test.js && node tests/source-consensus-band.test.js"', 'node tests/source-consensus.test.js && node tests/pre-match-final-check.test.js && node tests/source-consensus-band.test.js"')
-          replace_once(path, 'node scripts/source-consensus.js && node scripts/team-status-apply.js && node scripts/band-lite.js', 'node scripts/source-consensus.js && node scripts/pre-match-final-check.js && node scripts/team-status-apply.js && node scripts/band-lite.js')
+          p = Path('DONT_TOUCH.md')
+          text = p.read_text()
+          marker = '## PRO Robot Islem Gunlugu\n'
+          if 'Mac onu T60/T30/T10 final kontrol katmani' in text:
+              raise SystemExit('entry already exists')
+          entry = '''\n### 2026-09-18 - Mac onu T60/T30/T10 final kontrol katmani\n\n- Amac: Robotun erken saatte verdigi secime koru-koru baglanmasini engellemek; maca yaklasirken kadro/ilk 11, kaynak uzlasisi ve ayni dogrulanmis marketteki oran hareketini tekrar kontrol etmek.\n- Degisiklik: `scripts/pre-match-final-check.js` eklendi. Yaklasik T60, T30 ve T10 pencerelerinde snapshot alir; karar `keep`, `downgrade` veya `block` olur. Mevcut 15 dakikalik veri akislari nedeniyle pencereler 46-75, 16-45 ve 0-15 dakika araliklarinda ilk uygun calismada yakalanir.\n- Kadro/kaynak freni: Yuksek ilk 11/kadro riski veya yuksek kaynak celiskisi `block`; orta celiski, dusuk kaynak guveni, eski sinyal ve T10'da iki ilk 11'in birlikte dogrulanmamis olmasi `downgrade` uretir.\n- Oran hareketi: Yalniz acik isimli/dogrulanmis market alanlari kullanilir; `raw_market_guess_odds` ve anonim ham bloklar son kontrol oran kaynagi olamaz. Ayni markette onceki snapshot'a gore +%8 veya daha fazla aleyhe oran hareketi `downgrade`; +%12 veya daha fazla hareket tek basina bloklamaz, ancak kadro/kaynak tarafinda da bozulma varsa `block` olur.\n- Kupon etkisi: `pro-coupon-eligibility.js` final kontrolu `team_intelligence.pre_match_final_check` veya ust seviye alandan okur. `downgrade` kupon hesabinda model gucune -4, veri butunlugune -3 ihtiyat uygular; `block` secimi kupona kapatir. Tahmini olasilik yuzdesi dogrudan degistirilmez.\n- Bant/akis baglantisi: `scripts/band-lite.js` final kontrol kararini bant notuna ve `band_extra` icine tasir. Derived Data Pipeline ve Live Data Trigger final kontrolu otomatik calistirir; live akis bunu High Value/PRO exportundan hemen once uygular.\n- Etkilenen marketler: PRO kuponuna girebilen tum marketler. Oran hareketi ancak ayni kanonik market anahtariyla karsilastirilabilir durumdaysa uygulanir.\n- Test: `tests/pre-match-final-check.test.js` T60/T30/T10 pencerelerini, raw oran reddini, %8/%12 hareket esiklerini, T10 ilk 11 freni, kaynak celiskisi, kupon downgrade/block etkisi ve olasiligin degismemesini test eder.\n- Regresyon sonucu: Node 20 ve Node 24'te pre-match final check, value gate, 3.5/6+ goal bridge, market-specialist, official BTTS, team intelligence, matchup ve source-consensus testlerinin tamami basarili.\n- Gelistirme dali: `feat/pro-prematch-final-check`.\n- Canli dogrulama: PR merge, main workflow ve Vercel production dogrulamasi sonrasinda bu kayit final commit/deploy bilgisiyle guncellenecek.\n- Geri alma: Katman `scripts/pre-match-final-check.js`, `band-lite` baglantisi ve `pro-coupon-eligibility.js` icindeki pre-match helper'lariyla ayrik tutulur; diger model olasilik motorlarina dokunmadan geri alinabilir.\n\n'''
+          if marker not in text:
+              raise SystemExit('PRO log marker missing')
+          p.write_text(text.replace(marker, marker + entry, 1))
           PY
 
-      - name: Commit wiring
+      - name: Commit contract entry
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pro-coupon-eligibility.js package.json
-          git commit -m "feat: connect T60 T30 T10 final check to PRO coupon gate"
+          git add DONT_TOUCH.md
+          git commit -m "docs: record T60 T30 T10 final check"
           git push origin HEAD:feat/pro-prematch-final-check
