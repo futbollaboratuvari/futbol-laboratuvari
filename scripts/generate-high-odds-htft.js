@@ -531,6 +531,7 @@ async function buildOutput(source, officialBulletin) {
       : officialHighOddsMatchCount >= 2 && scheduledScanMatches.length >= 2 && identityMatchCount === 0
         ? 'Resmî maçlar robot havuzuyla eşleştirilemedi; veri hattı kontrol bekliyor.'
         : 'Bugün en az iki adet doğrulanmış yüksek oranlı 1/2 veya 2/1 adayı bulunamadı; model oranı gösterilmedi.',
+    specialist_candidate_pool: analyzed,
     picks: selected
   };
 }
