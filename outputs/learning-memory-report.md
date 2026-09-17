@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.09.2026 22:35:59
+Oluşturma: 17.09.2026 22:38:44
 
 ## Özet
 
@@ -32,15 +32,15 @@ Oluşturma: 17.09.2026 22:35:59
 ## Son Tahmin Kayıtları
 
 - 2026-09-17 | AFC Şampiyonlar Ligi 2 Grup H | Phnom Penh Cro - Kuching Fa | MS 1 | won | 45/100
-- 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Crystal Palace - Lech Poznan | MS 1 | pending | 67/100
-- 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen - Union St.G | MS 1 | pending | 46/100
+- 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Crystal Palace - Lech Poznan | MS 1 | pending | 66/100
+- 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen - Union St.G | MS 1 | pending | 43/100
 - 2026-09-17 | Rusya FNL | Olimpiyets - Leningradets | MS 1 | pending | 59/100
-- 2026-09-17 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Santo Domingo - El Nacional | 2.5 Alt | pending | 48/100
+- 2026-09-17 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Santo Domingo - El Nacional | 2.5 Alt | pending | 46/100
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Levski Sofya - Salzburg | MS 2 | pending | 48/100
-- 2026-09-17 | Uruguay Kupa Ön Eleme Turu Grup 4 | Central Espano - Oriental | 2.5 Alt | pending | 56/100
+- 2026-09-17 | Uruguay Kupa Ön Eleme Turu Grup 4 | Central Espano - Oriental | 2.5 Alt | pending | 54/100
 - 2026-09-17 | Rusya FNL | Torpedo Moskov - Veles | 2.5 Alt | pending | 56/100
 - 2026-09-17 | Estonya Esiliiga A | Viimsi Mrjk - Tartu Welco | MS 2 | pending | 44/100
-- 2026-09-17 | Ekvador Pro Lig Serie B Küme Düşme Grubu | 22 De Julio - Cumbaya | MS 2 | pending | 48/100
+- 2026-09-17 | Ekvador Pro Lig Serie B Küme Düşme Grubu | 22 De Julio - Cumbaya | MS 2 | pending | 45/100
 - 2026-09-17 | Mısır Premier Lig | Enppi - Pyramids Fc | 2.5 Alt | pending | 53/100
 - 2026-09-17 | Mısır 2. Lig | El Daklyeh - Tersana | MS 2 | pending | 43/100
 - 2026-09-17 | Rusya FNL | Olimpiyets - Leningradets | 2.5 Alt | pending | 50/100
