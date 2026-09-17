@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.09.2026 02:07:51
+Oluşturma: 18.09.2026 02:15:35
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1174
-- Kazanan tahmin: 179
-- Kaybeden tahmin: 147
-- Lig sayısı: 279
+- Bekleyen tahmin: 1163
+- Kazanan tahmin: 184
+- Kaybeden tahmin: 153
+- Lig sayısı: 278
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,28 +22,28 @@ Oluşturma: 18.09.2026 02:07:51
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 9, bekleyen 6, başarı %67, düz getiri %63, ağırlık 1
-- KG Var: toplam 13, bekleyen 2, başarı %64, düz getiri %14, ağırlık 1
-- 2.5 Alt: toplam 587, bekleyen 469, başarı %57, düz getiri %-3, ağırlık 1
-- 2.5 Üst: toplam 152, bekleyen 100, başarı %56, düz getiri %1, ağırlık 1
-- MS 2: toplam 247, bekleyen 201, başarı %54, düz getiri %3, ağırlık 1
-- MS 1: toplam 492, bekleyen 396, başarı %51, düz getiri %-17, ağırlık 1
+- KG Var: toplam 13, bekleyen 1, başarı %67, düz getiri %18, ağırlık 1
+- 2.5 Üst: toplam 153, bekleyen 100, başarı %57, düz getiri %2, ağırlık 1
+- 2.5 Alt: toplam 585, bekleyen 465, başarı %56, düz getiri %-5, ağırlık 1
+- MS 2: toplam 247, bekleyen 200, başarı %55, düz getiri %5, ağırlık 1
+- MS 1: toplam 493, bekleyen 392, başarı %51, düz getiri %-18, ağırlık 1
+- MS X: toplam 9, bekleyen 5, başarı %50, düz getiri %22, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-18 | Brezilya Serie B | Vila Nova - America Mineiro | 2.5 Üst | pending | 65/100
+- 2026-09-18 | İtalya Serie A | Monza - Sassuolo | MS 2 | pending | 61/100
+- 2026-09-18 | Galler Premier Lig 1.Aşama | Caernarfon - Cambrian | MS 1 | pending | 56/100
+- 2026-09-18 | Kuzey İrlanda Championship | Newry City Afc - Annagh United | 2.5 Alt | pending | 47/100
+- 2026-09-18 | Cezayir 2.Lig Doğu | Mo Bejaia - Mo Constantine | 2.5 Alt | pending | 54/100
 - 2026-09-18 | Fransa Ligue 1 | Monaco - Lens | 2.5 Alt | pending | 66/100
 - 2026-09-18 | İspanya Primera Lig RFEF Grup 1 | Ud Logrones - Pontevedra | 2.5 Alt | pending | 54/100
 - 2026-09-18 | Portekiz Kupa 2.Tur | Real Massama - Academica | MS 2 | pending | 52/100
 - 2026-09-18 | Paraguay Intermedia Lig | Depor Santani - Sol De America | 2.5 Alt | pending | 54/100
 - 2026-09-18 | Fransa Ligue 1 | Monaco - Lens | MS 1 | pending | 64/100
-- 2026-09-18 | Belçika Pro Lig | Gent - Standard Liege | 2.5 Üst | pending | 54/100
+- 2026-09-18 | Belçika Pro Lig | Gent - Standard Liege | 2.5 Üst | pending | 55/100
 - 2026-09-18 | İrlanda Premier Lig | Derry City - Galway United | MS 1 | pending | 48/100
 - 2026-09-18 | İrlanda Premier Lig | Dundalk - Shelbourne | 2.5 Alt | pending | 47/100
-- 2026-09-18 | Galler Premier Lig 1.Aşama | Colwyn Bay - Barry Town | 2.5 Üst | pending | 52/100
+- 2026-09-18 | Galler Premier Lig 1.Aşama | Colwyn Bay - Barry Town | 2.5 Üst | pending | 53/100
 - 2026-09-18 | Galler Premier Lig 1.Aşama | Briton Ferry - Trefelin | MS 1 | pending | 53/100
-- 2026-09-18 | Galler Premier Lig 1.Aşama | Airbus Uk - Flint Town | MS 1 | pending | 46/100
-- 2026-09-18 | Galler Premier Lig 1.Aşama | Gap Connahs Qu - Cardiff Mu | MS 1 | pending | 50/100
-- 2026-09-18 | İrlanda 1.Lig | Wexford Youths - Cobh Ramblers | 2.5 Üst | pending | 53/100
-- 2026-09-18 | İrlanda 1.Lig | Athlone - Kerry | 2.5 Alt | pending | 50/100
-- 2026-09-18 | İrlanda 1.Lig | Finn Harps - Longford | 2.5 Alt | pending | 48/100
 
