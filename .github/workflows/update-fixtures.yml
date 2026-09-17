@@ -66,6 +66,11 @@ jobs:
         continue-on-error: true
         run: python src/mackolik_early_window_runner.py
 
+      - name: Run full Python source collector
+        working-directory: bu-klas-r-i-in-basit
+        continue-on-error: true
+        run: python src/robot.py
+
       - name: Import robot raw pool into site data
         continue-on-error: true
         run: node scripts/import-robot-raw-pool.js
@@ -82,22 +87,47 @@ jobs:
           node scripts/repair-bulletin-flow.js
           node scripts/full-bulletin-output-check.js
 
-      - name: Refresh squad transfer injury and suspension intelligence
+      - name: Build derived team and match intelligence
         run: |
+          node scripts/profile-lite.js
+          node scripts/source-plan-lite.js
           node scripts/player-intelligence-api.js
           node scripts/team-news-auto.js
           node scripts/team-status-lite.js
           node scripts/lineup-lite.js
+          node scripts/source-consensus.js
+          node scripts/home-away-lite.js
+          node scripts/standings-lite.js
+          node scripts/league-structure-lite.js
+          node scripts/league-expansion-lite.js
+          node scripts/stats-memory-lite.js
+          node scripts/team-style-note.js
+          node scripts/pre-match-final-check.js
           node scripts/team-status-apply.js
+          node scripts/band-lite.js
+          node scripts/card-flow-lite.js
+          node scripts/cards-user-choice.js
+
+      - name: Test derived intelligence and pre-match rules
+        run: |
           node tests/team-intelligence.test.js
+          node tests/matchup-intelligence.test.js
+          node tests/source-consensus.test.js
+          node tests/pre-match-final-check.test.js
+          node tests/source-consensus-band.test.js
 
       - name: Update robot learning archive
         continue-on-error: true
         run: node scripts/update-match-archive.js
 
-      - name: Build detail candidates
+      - name: Build diagnostic raw market blocks
         continue-on-error: true
         run: node scripts/raw-block-lite.js
+
+      - name: Enforce verified market provenance
+        run: |
+          node tests/market-provenance.test.js
+          node scripts/market-provenance-guard.js
 
       - name: Validate High Value Coupon Engine
         run: node -e "require('./scripts/robot-exact-scoring'); console.log('High Value Coupon Engine ready')"
@@ -106,13 +136,11 @@ jobs:
         continue-on-error: true
         run: node scripts/update-analysis-report.js
 
-      - name: Build band signals
-        continue-on-error: true
-        run: node scripts/band-lite.js
-
       - name: Export live JSON for site
-        continue-on-error: true
-        run: node scripts/export-high-value-json.js
+        run: |
+          node tests/pro-coupon-eligibility.test.js
+          node tests/pre-match-final-check.test.js
+          node scripts/export-high-value-json.js
 
       - name: Apply focused market list
         continue-on-error: true
@@ -137,6 +165,12 @@ jobs:
       - name: Ensure live JSON
         run: node scripts/ensure-live-json.js
 
+      - name: Apply PRO market specialist gates
+        run: |
+          node tests/pro-goal-market-bridge.test.js
+          node tests/market-specialist-gates.test.js
+          node scripts/run-pro-goal-market-specialist.js
+
       - name: Fill user choice cards
         continue-on-error: true
         run: node scripts/cards-user-choice.js
@@ -150,13 +184,9 @@ jobs:
           node scripts/update-match-archive.js || true
           node scripts/team-status-lite.js
           node scripts/lineup-lite.js
+          node scripts/source-consensus.js
           node scripts/team-status-apply.js
           node scripts/band-lite.js
-
-      - name: Apply PRO 3.5 and 6+ goal market bridge
-        run: |
-          node tests/pro-goal-market-bridge.test.js
-          node scripts/pro-goal-market-bridge.js
 
       - name: Resolve final scores and publish performance
         run: |
@@ -180,9 +210,12 @@ jobs:
           node tests/spor-toto-weekly.test.js
           node tests/team-intelligence.test.js
           node tests/team-intelligence-integration.test.js
+          node tests/pre-match-final-check.test.js
 
       - name: Validate data outputs before commit
-        run: node scripts/validate-json-no-conflicts.js
+        run: |
+          node scripts/validate-json-no-conflicts.js
+          node scripts/validate-generated-file-sizes.js
 
       - name: Commit and push High Value Engine outputs
         run: |
@@ -195,6 +228,7 @@ jobs:
           node tests/spor-toto-weekly.test.js
           node tests/team-intelligence.test.js
           node tests/team-intelligence-integration.test.js
+          node tests/pre-match-final-check.test.js
           node scripts/validate-generated-file-sizes.js
           git add -A data outputs bu-klas-r-i-in-basit/data bu-klas-r-i-in-basit/outputs
           if git diff --cached --quiet; then
@@ -203,7 +237,7 @@ jobs:
           fi
           git commit -m "Update fixtures and High Value Engine"
           for attempt in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && node scripts/validate-generated-file-sizes.js && node tests/spor-toto-archive.test.js && node tests/spor-toto-market.test.js && node tests/spor-toto-weekly.test.js && node tests/team-intelligence.test.js && node tests/team-intelligence-integration.test.js && git push origin HEAD:main; then
+            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && node scripts/validate-generated-file-sizes.js && node tests/spor-toto-archive.test.js && node tests/spor-toto-market.test.js && node tests/spor-toto-weekly.test.js && node tests/team-intelligence.test.js && node tests/team-intelligence-integration.test.js && node tests/pre-match-final-check.test.js && git push origin HEAD:main; then
               exit 0
             fi
             git rebase --abort || true
