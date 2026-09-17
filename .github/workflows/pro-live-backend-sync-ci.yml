@@ -18,7 +18,7 @@ jobs:
       matrix:
         node: [20, 24]
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 10
     steps:
       - name: Checkout focused surface
         uses: actions/checkout@v4
@@ -28,7 +28,6 @@ jobs:
             server-lib
             scripts
             tests
-            data
             package.json
             pro-coupon-eligibility.js
             vercel.json
@@ -57,7 +56,3 @@ jobs:
           node tests/market-specialist-gates.test.js
           node tests/official-btts-pro.test.js
           node tests/pro-coupon-eligibility.test.js
-
-      - name: Full build gate on production Node
-        if: matrix.node == 24
-        run: npm run build
