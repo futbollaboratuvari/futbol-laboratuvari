@@ -2,12 +2,15 @@
 
 const assert = require("node:assert/strict");
 const {
+  VERSION,
   applyGenericMarketGate,
   applyGoalMarketGate,
   genericAdjustment,
   goalMarketAdjustment,
   htftAdjustment,
 } = require("../scripts/market-specialist-gates");
+
+assert.equal(VERSION, "market-specialist-gates-v2");
 
 function memory(home, away) {
   return {
@@ -62,16 +65,95 @@ function memory(home, away) {
   assert.equal(ms2.delta, -3);
 })();
 
-(function extremeGoalMarketsHaveSeparateThresholds() {
-  const over35 = goalMarketAdjustment({ market: "3.5 Üst", totalLambda: 2.4, over35Rate: 25, dataCompleteness: 80, completeRange: true });
-  assert.equal(over35.delta, -4);
-  const sixPlus = goalMarketAdjustment({ market: "6+ Gol", totalLambda: 3.0, over35Rate: 55, dataCompleteness: 65, completeRange: false });
-  assert.equal(sixPlus.delta, -4);
-  const strongSixPlus = goalMarketAdjustment({ market: "6+ Gol", totalLambda: 4.4, dataCompleteness: 90, completeRange: true });
-  assert.equal(strongSixPlus.delta, 0);
+(function sixPlusRequiresMultipleIndependentSupports() {
+  const weak = goalMarketAdjustment({
+    market: "6+ Gol",
+    totalLambda: 3.0,
+    over35Rate: 55,
+    dataCompleteness: 65,
+    completeRange: false,
+  });
+  assert.equal(weak.decision, "block");
+  assert.equal(weak.eligible, false);
+  assert.equal(weak.delta, -8);
+  assert.ok(weak.support_count < 2);
+
+  const borderline = goalMarketAdjustment({
+    market: "6+ Gol",
+    totalLambda: 3.5,
+    over35Rate: 48,
+    dataCompleteness: 78,
+    completeRange: true,
+  });
+  assert.equal(borderline.decision, "downgrade");
+  assert.equal(borderline.eligible, true);
+  assert.equal(borderline.delta, -4);
+  assert.ok(borderline.support_count >= 3);
+
+  const strong = goalMarketAdjustment({
+    market: "6+ Gol",
+    totalLambda: 4.4,
+    over35Rate: 58,
+    dataCompleteness: 90,
+    completeRange: true,
+    preMatchDecision: "keep",
+    sourceConflict: "none",
+    lineupRisk: "Düşük",
+    squadRisk: "Düşük",
+  });
+  assert.equal(strong.decision, "keep");
+  assert.equal(strong.delta, 0);
+  assert.equal(strong.eligible, true);
+  assert.equal(strong.support_count, 4);
+  assert.equal(strong.quality_score, 100);
 })();
 
-(function goalGateKeepsProbabilityUntouched() {
+(function over35UsesSeparateLessExtremeGate() {
+  const over35 = goalMarketAdjustment({
+    market: "3.5 Üst",
+    totalLambda: 2.4,
+    over35Rate: 25,
+    dataCompleteness: 80,
+    completeRange: true,
+  });
+  assert.equal(over35.decision, "downgrade");
+  assert.equal(over35.delta, -4);
+  assert.equal(over35.eligible, true);
+
+  const critical = goalMarketAdjustment({
+    market: "3.5 Üst",
+    totalLambda: 2.2,
+    over35Rate: 25,
+    dataCompleteness: 80,
+    completeRange: true,
+  });
+  assert.equal(critical.decision, "block");
+  assert.equal(critical.eligible, false);
+})();
+
+(function finalCheckAndSourceConflictCanBlockExtremeGoalPick() {
+  const preMatchBlocked = goalMarketAdjustment({
+    market: "6+ Gol",
+    totalLambda: 4.4,
+    over35Rate: 60,
+    dataCompleteness: 90,
+    completeRange: true,
+    preMatchDecision: "block",
+  });
+  assert.equal(preMatchBlocked.decision, "block");
+
+  const sourceBlocked = goalMarketAdjustment({
+    market: "6+ Gol",
+    totalLambda: 4.4,
+    over35Rate: 60,
+    dataCompleteness: 90,
+    completeRange: true,
+    sourceConflict: "high",
+  });
+  assert.equal(sourceBlocked.decision, "block");
+})();
+
+(function goalGateKeepsProbabilityUntouchedEvenWhenBlocked() {
   const candidate = {
     market: "6+ Gol",
     recommended_market: "6+ Gol",
@@ -81,26 +163,93 @@ function memory(home, away) {
     estimated_probability: 18.4,
     signals: [],
   };
-  const result = applyGoalMarketGate(candidate, { totalLambda: 3.0, dataCompleteness: 65, completeRange: false });
-  assert.equal(result.model_score, 67);
+  const result = applyGoalMarketGate(candidate, {
+    totalLambda: 3.0,
+    dataCompleteness: 65,
+    completeRange: false,
+  });
+  assert.equal(result.model_score, 63);
   assert.equal(result.estimated_probability, 18.4);
+  assert.equal(result.specialist_decision, "block");
+  assert.equal(result.specialist_eligible, false);
 })();
 
-(function htftDerivedHalfSignalIsPenalizedButRealHalfSignalIsNot() {
+(function htftDerivedHalfSignalIsBlocked() {
   const derived = htftAdjustment({
     market: "1/2",
     firstHalfSource: "derived_from_full_time_direction",
-    openness: 0.48,
-    dataCompleteness: 50,
+    firstHalfVerified: false,
+    openness: 0.60,
+    dataCompleteness: 72,
+    scenarioProbability: 4.2,
+    oddsVerified: true,
+    identityScore: 100,
+    identitySource: "date_teams",
   });
-  assert.equal(derived.delta, -4);
+  assert.equal(derived.decision, "block");
+  assert.equal(derived.eligible, false);
+  assert.equal(derived.delta, -8);
+})();
+
+(function htftVerifiedSignalCanPassAndBorderlineSignalDowngrades() {
   const verified = htftAdjustment({
     market: "2/1",
     firstHalfSource: "detail_market_candidates",
-    openness: 0.6,
+    firstHalfVerified: true,
+    openness: 0.60,
     dataCompleteness: 72,
+    scenarioProbability: 4.2,
+    oddsVerified: true,
+    identityScore: 100,
+    identitySource: "date_teams",
+    sourceConflict: "none",
+    lineupRisk: "Düşük",
+    squadRisk: "Düşük",
   });
+  assert.equal(verified.decision, "keep");
   assert.equal(verified.delta, 0);
+  assert.equal(verified.eligible, true);
+  assert.equal(verified.quality_score, 100);
+
+  const borderline = htftAdjustment({
+    market: "1/2",
+    firstHalfSource: "detail_market_candidates",
+    firstHalfVerified: true,
+    openness: 0.49,
+    dataCompleteness: 60,
+    scenarioProbability: 3.1,
+    oddsVerified: true,
+    identityScore: 82,
+    identitySource: "date_time_team_similarity",
+  });
+  assert.equal(borderline.decision, "downgrade");
+  assert.equal(borderline.eligible, true);
+  assert.equal(borderline.delta, -4);
+})();
+
+(function htftOfficialOddAndIdentityRemainMandatory() {
+  const noOfficialOdd = htftAdjustment({
+    market: "1/2",
+    firstHalfSource: "detail_market_candidates",
+    firstHalfVerified: true,
+    openness: 0.65,
+    dataCompleteness: 80,
+    scenarioProbability: 5,
+    oddsVerified: false,
+  });
+  assert.equal(noOfficialOdd.decision, "block");
+
+  const highConflict = htftAdjustment({
+    market: "2/1",
+    firstHalfSource: "detail_market_candidates",
+    firstHalfVerified: true,
+    openness: 0.65,
+    dataCompleteness: 80,
+    scenarioProbability: 5,
+    oddsVerified: true,
+    sourceConflict: "high",
+  });
+  assert.equal(highConflict.decision, "block");
 })();
 
 process.stdout.write("market-specialist-gates tests passed\n");
