@@ -9,8 +9,6 @@ on:
       - "package.json"
       - "scripts/**"
       - ".github/workflows/auto-relaxed-analysis.yml"
-  schedule:
-    - cron: "13,43 * * * *"
 
 permissions:
   contents: write
