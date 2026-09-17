@@ -3,7 +3,7 @@ name: High Odds HTFT Daily Scan
 on:
   workflow_dispatch:
   push:
-    branches: [main, feat/pro-specialist-v2]
+    branches: [main]
     paths:
       - 'data/robot-analysis.json'
       - 'scripts/generate-high-odds-htft.js'
