@@ -100,6 +100,24 @@ const inconsistentResult = rules.valueQuality(inconsistentEdge);
 assert.equal(inconsistentResult.pass, false);
 assert.match(inconsistentResult.reason, /Edge tutarsız/);
 
+const goalBridgeEdge = {
+  ...verified,
+  recommended_market: "3.5 Üst",
+  model_version: "pro-goal-market-bridge-v2",
+  goal_market_bridge: true,
+  model_score: 74,
+  estimated_odds: 2.05,
+  estimated_probability: 58.7,
+  market_probability: 45.6,
+  edge_percent: 18.1,
+  data_completeness: 80,
+};
+const goalBridgeResult = rules.valueQuality(goalBridgeEdge);
+assert.equal(goalBridgeResult.pass, true);
+assert.equal(goalBridgeResult.edge_normalized, true);
+assert.equal(goalBridgeEdge.edge_percent, 13.1);
+assert.equal(rules.meetsCouponCriteria(goalBridgeEdge), true);
+
 const zeroEdge = {
   ...verified,
   estimated_odds: 2.00,
