@@ -38,6 +38,11 @@
     return isSixPlusMarket(item) || /3 5 ust|over 3 5/.test(market);
   }
 
+  function isGoalBridgeGenerated(item) {
+    return Boolean(item?.goal_market_bridge)
+      || /^pro-goal-market-bridge-v\d+/i.test(String(item?.model_version || item?.goal_market_bridge_version || ""));
+  }
+
   function hasAcceptableOdd(item) {
     const odd = finite(item?.estimated_odds ?? item?.odds ?? item?.odd);
     return odd !== null && odd >= MIN_COUPON_ODD;
@@ -89,10 +94,26 @@
     const threshold = valueThresholdForOdd(odd);
     const derivedEdge = probability - marketProbability;
     const edgeConsistencyGap = providedEdge === null ? 0 : Math.abs(providedEdge - derivedEdge);
-    const effectiveEdge = providedEdge === null ? derivedEdge : Math.min(providedEdge, derivedEdge);
+    const goalBridgeGenerated = isGoalBridgeGenerated(item);
+    const normalizeGoalBridgeEdge = goalBridgeGenerated
+      && providedEdge !== null
+      && edgeConsistencyGap > EDGE_CONSISTENCY_TOLERANCE;
+
+    // Goal bridge v2 daha önce edge_percent alanında bağımsız gol modelinin
+    // piyasa farkını taşıyordu; estimated_probability ise piyasa ile harmanlı
+    // nihai olasılıktır. Value/EV hesabında tek kanonik edge, kullanıcıya
+    // gösterilen nihai olasılık - piyasa olasılığıdır. Eski bridge adayını
+    // burada normalize ederek hem çıktı hem kupon kararı aynı semantiği kullanır.
+    if (normalizeGoalBridgeEdge && item && typeof item === "object") {
+      item.edge_percent = Number(derivedEdge.toFixed(1));
+      item.value_label = derivedEdge >= 7 ? "Yüksek Değer" : derivedEdge >= 3 ? "Değerli" : "Piyasa ile Uyumlu";
+    }
+
+    const canonicalProvidedEdge = normalizeGoalBridgeEdge ? derivedEdge : providedEdge;
+    const effectiveEdge = canonicalProvidedEdge === null ? derivedEdge : Math.min(canonicalProvidedEdge, derivedEdge);
     const expectedValue = (probability / 100) * odd;
 
-    if (providedEdge !== null && edgeConsistencyGap > EDGE_CONSISTENCY_TOLERANCE) {
+    if (!goalBridgeGenerated && providedEdge !== null && edgeConsistencyGap > EDGE_CONSISTENCY_TOLERANCE) {
       return {
         pass: false,
         band: threshold.band,
@@ -106,6 +127,7 @@
         min_edge: threshold.min_edge,
         min_ev: threshold.min_ev,
         min_model_score: threshold.min_model_score,
+        edge_normalized: false,
         reason: `Edge tutarsız: kayıt ${providedEdge.toFixed(1)}, olasılıklardan türeyen ${derivedEdge.toFixed(1)} puan.`,
       };
     }
@@ -129,13 +151,14 @@
       derived_edge: Number(derivedEdge.toFixed(2)),
       effective_edge: Number(effectiveEdge.toFixed(2)),
       edge_consistency_gap: Number(edgeConsistencyGap.toFixed(2)),
+      edge_normalized: normalizeGoalBridgeEdge,
       expected_value: Number(expectedValue.toFixed(4)),
       min_edge: threshold.min_edge,
       min_ev: threshold.min_ev,
       min_model_score: threshold.min_model_score,
       reason: pass
-        ? `Değer kapısı geçti: ${threshold.band} bandı, edge ${effectiveEdge.toFixed(1)}, EV ${expectedValue.toFixed(3)}.`
-        : `Değer kapısı reddetti: ${reasons.join("; ")}.`,
+        ? `${normalizeGoalBridgeEdge ? "Goal bridge edge nihai olasılığa normalize edildi. " : ""}Değer kapısı geçti: ${threshold.band} bandı, edge ${effectiveEdge.toFixed(1)}, EV ${expectedValue.toFixed(3)}.`
+        : `${normalizeGoalBridgeEdge ? "Goal bridge edge nihai olasılığa normalize edildi. " : ""}Değer kapısı reddetti: ${reasons.join("; ")}.`,
     };
   }
 
@@ -149,7 +172,6 @@
     const modelScore = finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score);
     const completeness = finite(item?.data_completeness);
     const probability = finite(item?.estimated_probability);
-    const edge = finite(item?.edge_percent);
     const odd = finite(item?.estimated_odds ?? item?.odds ?? item?.odd);
 
     const baseCriteria = Boolean(item?.independent_evidence)
@@ -163,10 +185,10 @@
 
     if (!baseCriteria) return false;
 
-    // 3.5 Üst ve 6+ Gol seçenekleri sırf market mevcut diye kupona giremez.
-    // Bağımsız model, piyasanın marjı temizlenmiş olasılığından en az 2 puan
-    // daha yüksek olmalı. Yeni değer kapısı bunu daha sıkı kontrol eder;
-    // bu kural ayrıca geriye dönük güvenlik ağı olarak korunur.
+    // valueQuality goal-bridge adaylarında edge'i bu noktadan önce kanonik
+    // nihai olasılık farkına normalize eder. Yüksek gol güvenlik ağı da aynı
+    // normalize edilmiş alanı okuyarak iki farklı edge semantiğini karıştırmaz.
+    const edge = finite(item?.edge_percent);
     if (highGoal && (edge === null || edge < 2)) return false;
 
     if (!sixPlus) return true;
@@ -234,6 +256,7 @@
     hasAcceptableOdd,
     hasBlockingRisk,
     isCouponEligible,
+    isGoalBridgeGenerated,
     isHighGoalMarket,
     isProReadyFallback,
     isSixPlusMarket,
