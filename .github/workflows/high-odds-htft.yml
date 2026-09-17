@@ -8,7 +8,10 @@ on:
       - 'data/robot-analysis.json'
       - 'scripts/generate-high-odds-htft.js'
       - 'scripts/iddaa-data-source.js'
+      - 'scripts/market-specialist-gates.js'
+      - 'scripts/pro-market-specialist-postprocess.js'
       - 'tests/high-odds-htft.test.js'
+      - 'tests/market-specialist-gates.test.js'
       - '.github/workflows/high-odds-htft.yml'
   schedule:
     - cron: '25 */3 * * *'
@@ -36,10 +39,15 @@ jobs:
           node-version: '22'
 
       - name: Test verified HTFT odds guard
-        run: node tests/high-odds-htft.test.js
+        run: |
+          node tests/high-odds-htft.test.js
+          node tests/market-specialist-gates.test.js
 
       - name: Generate high-odds HTFT cards
         run: node scripts/generate-high-odds-htft.js
+
+      - name: Apply HTFT market specialist gate
+        run: node scripts/pro-market-specialist-postprocess.js htft
 
       - name: Validate output
         run: |
@@ -56,6 +64,7 @@ jobs:
           if (Number(data.candidate_count) >= 2 && data.picks.length < 2) throw new Error('verified candidates were not selected');
           if (!/iddaa/i.test(String(data.odds_source || ''))) throw new Error('official odds source missing');
           if (data.odds_label !== 'Resmî İddaa İY/MS oranı') throw new Error('official odds label missing');
+          if (data.market_specialist?.version !== 'market-specialist-gates-v1') throw new Error('HTFT specialist gate missing');
           for (const pick of data.picks) {
             if (!['1/2', '2/1'].includes(pick.market)) throw new Error(`invalid market: ${pick.market}`);
             if (!pick.match_name || !pick.reason) throw new Error('incomplete pick');
@@ -69,6 +78,7 @@ jobs:
             if (!(real >= 11.75)) throw new Error('real high-odds threshold failed');
             if (Number(pick.real_odds) !== real) throw new Error('real_odds mismatch');
             if (Number(pick.model_odds) !== real) throw new Error('legacy display field must mirror official odd');
+            if (!pick.market_specialist) throw new Error('pick specialist diagnostics missing');
           }
           console.log(`Validated ${data.picks.length} verified official HTFT picks for ${data.date}.`);
           NODE
