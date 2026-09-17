@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { boundedLearningScore, evaluateLearningBucket, hydrateLearningProfitability } = require("./learning-confidence");
+const { lossPatternAdjustmentFor } = require("./loss-pattern-memory");
 
 const memoryPath = path.join(__dirname, "..", "data", "learning-memory.json");
 
@@ -127,6 +128,49 @@ function adjustmentFor(scoredItem) {
   };
 }
 
+function applyLossPatternBrake(scoredItem) {
+  const lossAdjustment = lossPatternAdjustmentFor(scoredItem);
+  if (!lossAdjustment.applied) {
+    return {
+      ...scoredItem,
+      loss_pattern_adjustment: lossAdjustment,
+      analysis_metrics: {
+        ...(scoredItem.analysis_metrics || {}),
+        loss_pattern_adjustment: lossAdjustment,
+      },
+    };
+  }
+
+  const originalScore = Number(scoredItem.model_score ?? scoredItem.analysis_score ?? scoredItem.score ?? 0);
+  const adjustedScore = Math.max(0, Math.min(100, Math.round(originalScore + lossAdjustment.delta)));
+  const analysisClass = classFor(adjustedScore);
+  const risk = riskFor(adjustedScore, scoredItem.risk || scoredItem.risk_level, scoredItem);
+  const applied = {
+    ...lossAdjustment,
+    original_model_score: originalScore,
+    adjusted_model_score: adjustedScore,
+  };
+
+  return {
+    ...scoredItem,
+    score: adjustedScore,
+    model_score: adjustedScore,
+    analysis_score: adjustedScore,
+    confidence: `${adjustedScore}%`,
+    trust_score: `${adjustedScore}/100`,
+    tag: analysisClass,
+    analysis_class: analysisClass,
+    risk,
+    risk_level: risk,
+    loss_pattern_adjustment: applied,
+    analysis_metrics: {
+      ...(scoredItem.analysis_metrics || {}),
+      loss_pattern_adjustment: applied,
+    },
+    pro_signals: [...(scoredItem.pro_signals || []), ...lossAdjustment.notes].slice(0, 12),
+  };
+}
+
 function applyLearningWeightsToScoredItem(scoredItem) {
   if (!scoredItem || !scoredItem.hasOdds) return scoredItem;
   const baseScore = Number(scoredItem.analysis_score ?? scoredItem.score ?? 0);
@@ -134,11 +178,11 @@ function applyLearningWeightsToScoredItem(scoredItem) {
 
   const adjustment = adjustmentFor(scoredItem);
   if (!adjustment.applied) {
-    return {
+    return applyLossPatternBrake({
       ...scoredItem,
       learning_adjustment: adjustment,
       pro_signals: [...(scoredItem.pro_signals || []), ...adjustment.notes]
-    };
+    });
   }
 
   const bounded = boundedLearningScore(baseScore, adjustment.weight, adjustment.delta, scoredItem.independent_evidence !== false);
@@ -151,7 +195,7 @@ function applyLearningWeightsToScoredItem(scoredItem) {
     `Öğrenme etkisi: ${baseScore}/100 → ${weightedScore}/100`
   ];
 
-  return {
+  return applyLossPatternBrake({
     ...scoredItem,
     score: weightedScore,
     model_score: weightedScore,
@@ -178,11 +222,12 @@ function applyLearningWeightsToScoredItem(scoredItem) {
       }
     },
     pro_signals: signals
-  };
+  });
 }
 
 module.exports = {
   applyLearningWeightsToScoredItem,
+  applyLossPatternBrake,
   loadLearningMemory,
   adjustmentFor,
   bucketIsReady,
