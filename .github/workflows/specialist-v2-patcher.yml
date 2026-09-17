@@ -1,0 +1,379 @@
+name: Specialist V2 Patcher
+
+on:
+  push:
+    branches:
+      - feat/pro-specialist-v2
+    paths:
+      - .github/workflows/specialist-v2-patcher.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: feat/pro-specialist-v2
+          sparse-checkout: |
+            scripts
+            tests
+            package.json
+          sparse-checkout-cone-mode: true
+
+      - name: Apply specialist v2 wiring
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          def replace_once(path, old, new):
+              p = Path(path)
+              text = p.read_text()
+              if old not in text:
+                  raise SystemExit(f"pattern not found in {path}: {old[:120]!r}")
+              p.write_text(text.replace(old, new, 1))
+
+          # Goal bridge: never reuse raw/guessed market prices as specialist evidence.
+          path = 'scripts/pro-goal-market-bridge.js'
+          replace_once(path,
+              'const BRIDGE_VERSION = "pro-goal-market-bridge-v2";',
+              'const BRIDGE_VERSION = "pro-goal-market-bridge-v3";')
+          replace_once(path, '''function directOddSources(item) {
+            const sources = [
+              item?.raw_market_guess_odds,
+              item?.detay_oranlar,
+              item?.oranlar,
+            ];
+            if (!isBridgeEnriched(item)) {
+              sources.push(item?.available_odds, item?.odds);
+            }
+            return sources.filter(Boolean);
+          }''', '''function directOddSources(item) {
+            const sources = [
+              item?.detay_oranlar,
+              item?.oranlar,
+            ];
+            if (!isBridgeEnriched(item)) {
+              sources.push(item?.available_odds, item?.odds);
+            }
+            return sources.filter(Boolean);
+          }''')
+          replace_once(path, '''function labeledOddSources(item) {
+            return [
+              item?.raw_market_blocks,
+              item?.detail_market_candidates,
+              item?.detay_oranlar,
+            ].filter(Boolean);
+          }''', '''function labeledOddSources(item) {
+            return [
+              item?.detail_market_candidates,
+              item?.detay_oranlar,
+            ].filter(Boolean);
+          }''')
+          replace_once(path, '''function findLabelOdd(value, pattern, depth = 0, seen = new Set()) {
+            if (!value || typeof value !== "object" || depth > 7 || seen.has(value)) return null;
+            seen.add(value);
+            if (Array.isArray(value)) {''', '''function findLabelOdd(value, pattern, depth = 0, seen = new Set()) {
+            if (!value || typeof value !== "object" || depth > 7 || seen.has(value)) return null;
+            if (value.market_identity_verified === false) return null;
+            const provenance = clean(`${value.source || ""} ${value.market_source || ""} ${value.provenance || ""}`);
+            if (/unlabeled raw block|raw market guess/.test(provenance)) return null;
+            seen.add(value);
+            if (Array.isArray(value)) {''')
+
+          # HT/FT generator: helper signals must use verified named fields only.
+          path = 'scripts/generate-high-odds-htft.js'
+          replace_once(path, '''function firstHalfMarket(item) {
+            const candidates = Array.isArray(item.detail_market_candidates) ? item.detail_market_candidates : [];
+            for (const candidate of candidates) {
+              const market = String(candidate.market || '').toLocaleLowerCase('tr-TR');
+              const values = candidate.values || {};
+              if (!market.includes('ilk yarı') && !market.includes('ilk yari')) continue;
+              const one = number(values.firstHalf1 ?? values.firstHalf1_guess ?? values.iy1 ?? values['1']);
+              const draw = number(values.firstHalfX ?? values.firstHalfX_guess ?? values.iyx ?? values.x);
+              const two = number(values.firstHalf2 ?? values.firstHalf2_guess ?? values.iy2 ?? values['2']);
+              if (one && two) return { one, draw, two, source: 'detail_market_candidates' };
+            }
+            return null;
+          }''', '''function firstHalfMarket(item) {
+            const candidates = Array.isArray(item.detail_market_candidates) ? item.detail_market_candidates : [];
+            for (const candidate of candidates) {
+              const market = String(candidate.market || '').toLocaleLowerCase('tr-TR');
+              const values = candidate.values || {};
+              if (!market.includes('ilk yarı') && !market.includes('ilk yari')) continue;
+              if (candidate.market_identity_verified === false) continue;
+              const provenance = fold(`${candidate.source || ''} ${candidate.market_source || ''} ${candidate.provenance || ''}`);
+              if (/unlabeled raw block|raw market guess/.test(provenance)) continue;
+              const one = number(values.firstHalf1 ?? values.iy1 ?? values['1']);
+              const draw = number(values.firstHalfX ?? values.iyx ?? values.x);
+              const two = number(values.firstHalf2 ?? values.iy2 ?? values['2']);
+              if (one && two) return { one, draw, two, source: 'detail_market_candidates', verified: true };
+            }
+            return null;
+          }''')
+          replace_once(path, '''function fullTimeMarket(item) {
+            const odds = item.available_odds || item.odds || {};
+            const raw = item.raw_market_guess_odds || {};
+            return {
+              one: number(odds.ms1 ?? raw.ms1),
+              draw: number(odds.msx ?? raw.msx),
+              two: number(odds.ms2 ?? raw.ms2)
+            };
+          }''', '''function fullTimeMarket(item) {
+            const odds = item.available_odds || item.odds || {};
+            return {
+              one: number(odds.ms1),
+              draw: number(odds.msx),
+              two: number(odds.ms2)
+            };
+          }''')
+          replace_once(path, '''function opennessScore(item) {
+            const odds = item.available_odds || item.odds || {};
+            const raw = item.raw_market_guess_odds || {};
+            const over = implied(odds.over25 ?? raw.over25 ?? raw.over25_guess);
+            const under = implied(odds.under25 ?? raw.under25 ?? raw.under25_guess);
+            let overShare = 0.5;
+            if (over && under) overShare = over / (over + under);
+
+            const yes = implied(odds.bttsYes ?? raw.bttsYes ?? raw.bttsYes_guess);
+            const no = implied(odds.bttsNo ?? raw.bttsNo ?? raw.bttsNo_guess);
+            let bttsShare = 0.5;
+            if (yes && no) bttsShare = yes / (yes + no);
+
+            return clamp((overShare * 0.65) + (bttsShare * 0.35), 0.25, 0.78);
+          }''', '''function opennessScore(item) {
+            const odds = item.available_odds || item.odds || {};
+            const over = implied(odds.over25);
+            const under = implied(odds.under25);
+            let overShare = 0.5;
+            if (over && under) overShare = over / (over + under);
+
+            const yes = implied(odds.bttsYes);
+            const no = implied(odds.bttsNo);
+            let bttsShare = 0.5;
+            if (yes && no) bttsShare = yes / (yes + no);
+
+            return clamp((overShare * 0.65) + (bttsShare * 0.35), 0.25, 0.78);
+          }''')
+          replace_once(path, '''  const fhOdds = firstHalfMarket(item);
+            let fh = fhOdds ? normalizeThree(fhOdds.one, fhOdds.draw, fhOdds.two) : null;
+            const halfSource = fhOdds?.source || 'derived_from_full_time_direction';''', '''  const fhOdds = firstHalfMarket(item);
+            let fh = fhOdds ? normalizeThree(fhOdds.one, fhOdds.draw, fhOdds.two) : null;
+            const halfSource = fhOdds?.source || 'derived_from_full_time_direction';
+            const halfVerified = fhOdds?.verified === true;''')
+          replace_once(path, '''  const scenarios = [
+            { market: '1/2', joint: fh.one * ft.two },
+            { market: '2/1', joint: fh.two * ft.one }
+          ].map((scenario) => {''', '''  const scenarios = [
+            { market: '1/2', joint: fh.one * ft.two, firstHalfDirection: fh.one, fullTimeDirection: ft.two },
+            { market: '2/1', joint: fh.two * ft.one, firstHalfDirection: fh.two, fullTimeDirection: ft.one }
+          ].map((scenario) => {''')
+          replace_once(path, '''    first_half_signal_source: halfSource,
+            reason: reasonFor(item, best.market, ft, fh, openness, dataCompleteness, modelScore)''', '''    first_half_signal_source: halfSource,
+            first_half_signal_verified: halfVerified,
+            openness_score: Number(openness.toFixed(3)),
+            reversal_joint_probability: Number((best.joint * 100).toFixed(1)),
+            first_half_direction_probability: Number((best.firstHalfDirection * 100).toFixed(1)),
+            full_time_direction_probability: Number((best.fullTimeDirection * 100).toFixed(1)),
+            reason: reasonFor(item, best.market, ft, fh, openness, dataCompleteness, modelScore)''')
+          replace_once(path,
+              "engine: 'Futbol Laboratuvarı Yüksek Oran İY/MS v3',",
+              "engine: 'Futbol Laboratuvarı Yüksek Oran İY/MS v4',")
+
+          # Specialist postprocess: v2 keep/downgrade/block and fail-closed filtering.
+          path = 'scripts/pro-market-specialist-postprocess.js'
+          replace_once(path,
+              'const { applyGoalMarketGate, htftAdjustment } = require("./market-specialist-gates");',
+              'const { VERSION, applyGoalMarketGate, htftAdjustment } = require("./market-specialist-gates");')
+          replace_once(path, '''function goalContext(item, candidate) {
+            const rangeOdds = ["goals01", "goals23", "goals45"].map((name) => findMarketOdd([item], name));
+            return {
+              market: candidate?.market || candidate?.recommended_market,
+              totalLambda: poissonTotal(item),
+              over35Rate: averageMemoryOver35(item),
+              dataCompleteness: finite(candidate?.data_completeness),
+              completeRange: rangeOdds.every((value) => value !== null),
+            };
+          }''', '''function specialistContext(item) {
+            const pre = item?.pre_match_final_check || item?.team_intelligence?.pre_match_final_check || {};
+            const consensus = item?.source_consensus
+              || item?.team_intelligence?.source_consensus
+              || item?.team_intelligence?.consensus
+              || {};
+            return {
+              preMatchDecision: pre.effective_decision || pre.decision || "keep",
+              sourceConflict: consensus.conflict_level || item?.source_conflict_level || "unknown",
+              lineupRisk: item?.lineup_risk_level || item?.team_intelligence?.lineup_risk_level || "Belirsiz",
+              squadRisk: item?.squad_risk_level || item?.team_intelligence?.squad_risk_level || "Belirsiz",
+            };
+          }
+
+          function goalContext(item, candidate) {
+            const rangeOdds = ["goals01", "goals23", "goals45"].map((name) => findMarketOdd([item], name));
+            return {
+              market: candidate?.market || candidate?.recommended_market,
+              totalLambda: poissonTotal(item),
+              over35Rate: averageMemoryOver35(item),
+              dataCompleteness: finite(candidate?.data_completeness),
+              completeRange: rangeOdds.every((value) => value !== null),
+              ...specialistContext(item),
+            };
+          }''')
+          replace_once(path, '''  const adjusted = applyGoalMarketGate(normalized, goalContext(item, normalized));
+            adjusted.include_in_coupon = Boolean(candidate.include_in_coupon) && couponRules.meetsCouponCriteria(adjusted);
+            if (!adjusted.include_in_coupon && adjusted.risk_level === "Düşük") adjusted.risk_level = "Orta";
+            return adjusted;''', '''  const adjusted = applyGoalMarketGate(normalized, goalContext(item, normalized));
+            adjusted.include_in_coupon = Boolean(candidate.include_in_coupon)
+              && adjusted.specialist_eligible !== false
+              && couponRules.meetsCouponCriteria(adjusted);
+            if (adjusted.specialist_decision === "block") adjusted.risk_level = "Yüksek";
+            else if (!adjusted.include_in_coupon && adjusted.risk_level === "Düşük") adjusted.risk_level = "Orta";
+            return adjusted;''')
+          replace_once(path, '''    market_specialist: candidate.market_specialist || null,
+            };
+          }''', '''    market_specialist: candidate.market_specialist || null,
+              specialist_decision: candidate.specialist_decision || candidate.market_specialist?.decision || "keep",
+              specialist_eligible: candidate.specialist_eligible !== false,
+              specialist_quality_score: candidate.specialist_quality_score ?? candidate.market_specialist?.quality_score ?? null,
+            };
+          }''')
+          replace_once(path,
+              'version: "market-specialist-gates-v1",',
+              'version: VERSION,')
+          replace_once(path, '''function htftOpenness(item) {
+            const odds = item?.available_odds || item?.odds || {};
+            const raw = item?.raw_market_guess_odds || {};
+            const over = implied(odds.over25 ?? raw.over25 ?? raw.over25_guess);
+            const under = implied(odds.under25 ?? raw.under25 ?? raw.under25_guess);
+            let overShare = 0.5;
+            if (over && under) overShare = over / (over + under);
+            const yes = implied(odds.bttsYes ?? raw.bttsYes ?? raw.bttsYes_guess);
+            const no = implied(odds.bttsNo ?? raw.bttsNo ?? raw.bttsNo_guess);
+            let bttsShare = 0.5;
+            if (yes && no) bttsShare = yes / (yes + no);
+            return clamp01((overShare * 0.65) + (bttsShare * 0.35));
+          }''', '''function htftOpenness(item) {
+            const odds = item?.available_odds || item?.odds || {};
+            const over = implied(odds.over25);
+            const under = implied(odds.under25);
+            let overShare = 0.5;
+            if (over && under) overShare = over / (over + under);
+            const yes = implied(odds.bttsYes);
+            const no = implied(odds.bttsNo);
+            let bttsShare = 0.5;
+            if (yes && no) bttsShare = yes / (yes + no);
+            return clamp01((overShare * 0.65) + (bttsShare * 0.35));
+          }''')
+          old = '''  output.picks = output.picks.map((pick) => {
+            const raw = rawMap.get(keyFor(pick)) || {};
+            const adjustment = htftAdjustment({
+              market: pick.market,
+              firstHalfSource: pick.first_half_signal_source,
+              openness: htftOpenness(raw),
+              dataCompleteness: pick.data_completeness,
+            });
+            const originalScore = finite(pick.model_confidence) || 0;
+            const adjustedScore = Math.max(0, Math.round(originalScore + adjustment.delta));
+            return {
+              ...pick,
+              model_confidence: adjustedScore,
+              market_specialist: {
+                ...adjustment,
+                original_model_score: originalScore,
+                adjusted_model_score: adjustedScore,
+              },
+              reason: adjustment.applied
+                ? `${pick.reason} Market uzman freni: ${adjustment.reasons.join(" ")}`
+                : pick.reason,
+            };
+          }).sort((a, b) => Number(b.model_confidence || 0) - Number(a.model_confidence || 0)
+            || Number(b.scenario_probability || 0) - Number(a.scenario_probability || 0));
+          output.market_specialist = {
+            version: "market-specialist-gates-v1",
+            htft_picks_checked: output.picks.length,
+            probability_policy: "Senaryo olasılığı değiştirilmez; yalnız model sinyal gücü çelişki halinde düşürülür.",
+          };
+          output.selected_count = output.picks.length;'''
+          new = '''  const evaluated = output.picks.map((pick) => {
+            const raw = rawMap.get(keyFor(pick)) || {};
+            const context = specialistContext(raw);
+            const adjustment = htftAdjustment({
+              market: pick.market,
+              firstHalfSource: pick.first_half_signal_source,
+              firstHalfVerified: pick.first_half_signal_verified === true,
+              openness: finite(pick.openness_score) ?? htftOpenness(raw),
+              dataCompleteness: pick.data_completeness,
+              scenarioProbability: pick.scenario_probability,
+              identityScore: pick.identity_match_score,
+              identitySource: pick.identity_match_source,
+              oddsVerified: pick.odds_verified === true,
+              ...context,
+            });
+            const originalScore = finite(pick.model_confidence) || 0;
+            const adjustedScore = Math.max(0, Math.round(originalScore + adjustment.delta));
+            return {
+              ...pick,
+              model_confidence: adjustedScore,
+              specialist_decision: adjustment.decision,
+              specialist_eligible: adjustment.eligible,
+              specialist_quality_score: adjustment.quality_score,
+              risk_level: adjustment.decision === "block" ? "Yüksek" : pick.risk_level,
+              market_specialist: {
+                ...adjustment,
+                original_model_score: originalScore,
+                adjusted_model_score: adjustedScore,
+              },
+              reason: adjustment.applied
+                ? `${pick.reason} Market uzman kararı (${adjustment.decision}): ${adjustment.reasons.join(" ")}`
+                : pick.reason,
+            };
+          });
+          const rejected = evaluated.filter((pick) => pick.specialist_eligible === false);
+          output.rejected_picks = rejected.map((pick) => ({
+            match_name: pick.match_name,
+            market: pick.market,
+            bookmaker_odds: pick.bookmaker_odds,
+            specialist_decision: pick.specialist_decision,
+            specialist_quality_score: pick.specialist_quality_score,
+            reason: pick.reason,
+          }));
+          output.picks = evaluated
+            .filter((pick) => pick.specialist_eligible !== false)
+            .sort((a, b) => Number(b.model_confidence || 0) - Number(a.model_confidence || 0)
+              || Number(b.specialist_quality_score || 0) - Number(a.specialist_quality_score || 0)
+              || Number(b.scenario_probability || 0) - Number(a.scenario_probability || 0));
+          output.market_specialist = {
+            version: VERSION,
+            htft_picks_checked: evaluated.length,
+            htft_picks_rejected: rejected.length,
+            probability_policy: "Senaryo olasılığı değiştirilmez; uzman v2 yalnız doğrulanmış sinyallerle keep/downgrade/block kararı verir.",
+          };
+          output.selected_count = output.picks.length;
+          if (output.picks.length < 2 && evaluated.length >= 2) {
+            output.status = "insufficient_specialist_quality";
+            output.message = "Resmî yüksek oranlı İY/MS adayları bulundu ancak uzman v2 kalite kapısından yeterli seçim geçmedi.";
+          }'''
+          replace_once(path, old, new)
+          replace_once(path, '''  htftOpenness,
+            processGoalOutputs,''', '''  htftOpenness,
+              specialistContext,
+              processGoalOutputs,''')
+
+          # Production build should lock the HT/FT verified-source contract too.
+          path = 'package.json'
+          replace_once(path,
+              'node tests/market-specialist-gates.test.js && node tests/pro-index-from-github.test.js',
+              'node tests/market-specialist-gates.test.js && node tests/high-odds-htft.test.js && node tests/pro-index-from-github.test.js')
+          PY
+
+      - name: Commit patches
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts package.json
+          git commit -m "feat: wire specialist v2 verified-source quality gates"
+          git push origin HEAD:feat/pro-specialist-v2
