@@ -10,6 +10,7 @@ const {
   evaluateGeneral,
   evaluateMarket,
   minutesToKickoff,
+  runPreMatchFinalCheck,
   verifiedMarketOdd,
 } = require("../scripts/pre-match-final-check");
 
@@ -146,5 +147,30 @@ assert.equal(combined.checkpoint, "T30");
 assert.equal(combined.market_severe_adverse, true);
 assert.equal(combined.general_decision, "downgrade");
 assert.equal(combined.decision, "block");
+
+const horizonNow = Date.parse("2026-09-18T21:00:00+03:00");
+const horizonOutput = runPreMatchFinalCheck({
+  now: horizonNow,
+  write: false,
+  fixtures: [
+    { date: "2026-06-16", time: "22:00", home: "Old A", away: "Old B", match_name: "Old A VS Old B" },
+    { date: "2026-09-18", time: "21:30", home: "Active A", away: "Active B", match_name: "Active A VS Active B" },
+    { date: "2026-09-18", time: "22:00", home: "Active C", away: "Active D", match_name: "Active C VS Active D" },
+    { date: "2026-09-18", time: "22:30", home: "Future A", away: "Future B", match_name: "Future A VS Future B" },
+  ],
+  lineupDb: { generated_at: "2026-09-18T18:00:00.000Z", matches: [] },
+  consensusDb: { generated_at: "2026-09-18T18:00:00.000Z", matches: [] },
+  analysisDb: { matches: [] },
+  teamNews: { teams: {} },
+  previous: { matches: [] },
+});
+assert.deepEqual(
+  horizonOutput.matches.map((row) => row.match_name),
+  ["Active A VS Active B", "Active C VS Active D"],
+);
+assert.equal(horizonOutput.active_match_count, 2);
+assert.deepEqual(horizonOutput.matches.map((row) => row.checkpoint), ["T30", "T60"]);
+assert.equal(horizonOutput.matches.some((row) => row.match_name.startsWith("Old")), false);
+assert.equal(horizonOutput.matches.some((row) => row.match_name.startsWith("Future")), false);
 
 process.stdout.write("pre-match-final-check.test.js OK\n");

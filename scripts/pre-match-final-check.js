@@ -401,6 +401,10 @@ function runPreMatchFinalCheck(options = {}) {
   };
   const matches = (Array.isArray(fixtures) ? fixtures : [])
     .filter((row) => !/live|finished|ended|cancel/i.test(String(row.status || "scheduled")))
+    .filter((row) => {
+      const minutes = minutesToKickoff(row, now);
+      return Number.isFinite(minutes) && minutes >= 0 && minutes <= 75;
+    })
     .map((row) => buildFinalCheckForMatch(row, context));
   const output = {
     schema_version: 1,
