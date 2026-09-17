@@ -1,20 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-17T21:50:22.796724+00:00
+Tarih: 2026-09-17T22:03:38.057474+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 245
-- Kac mac kaydedildi: 245
-- Kac mac zaten vardi: 0
+- Kac mac bulundu: 222
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 222
 - Ham veri havuzu toplam mac sayisi: 15390
 - Hedef tarih: 18.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bundesliga
@@ -23,9 +22,7 @@ Tarih: 2026-09-17T21:50:22.796724+00:00
 - Almanya Bölgesel Lig Kuzey Doğu
 - Almanya Kadınlar Bundesliga
 - Arjantin Kadınlar Primera A 2. Aşama
-- Arjantin Premier Lig 2. Aşama
 - Arjantin Prim B Metro
-- Arjantin Primera C
 - Arnavutluk Süperlig
 - Asya Oyunları Grup C
 - Asya Oyunları Grup D
@@ -37,9 +34,7 @@ Tarih: 2026-09-17T21:50:22.796724+00:00
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
 - Birleşik Arap Emirlikleri 1.Lig
-- Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Cezayir 1.Lig
 - Cezayir 2.Lig Doğu
@@ -47,8 +42,6 @@ Tarih: 2026-09-17T21:50:22.796724+00:00
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig Şampiyonluk Grubu
-- El Salvador Primera Lig Apertura
 - Endonezya Süper Lig
 - Estonya Esiliiga A
 - Estonya Esiliiga B
@@ -62,11 +55,9 @@ Tarih: 2026-09-17T21:50:22.796724+00:00
 - Fransa Ligue 1
 - Fransa Ligue 2
 - Galler Premier Lig 1.Aşama
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika 1.Lig
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Hırvatistan 2. NL
 - Hırvatistan 2.HNL
@@ -74,17 +65,12 @@ Tarih: 2026-09-17T21:50:22.796724+00:00
 - Japonya J3 Lig
 - Karadağ 1.Lig
 - Kazakistan Premier Lig
-- Kolombiya Primera A Clausura
-- Kolombiya Primera B Clausura
 - Kosova Süper Lig
-- Kosta Rika Premier Lig Apertura
 - Kuzey Makedonya 1.Lig
 - Kuzey İrlanda Championship
 - Litvanya 1.Lig
 - Macaristan NB I
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Mısır 2. Lig
 - Norveç Eliteserien
 - Paraguay Intermedia Lig
