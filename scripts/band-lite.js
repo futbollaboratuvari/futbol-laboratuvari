@@ -47,6 +47,33 @@ function readText(row, keys) {
   return '';
 }
 
+function riskRank(value) {
+  const text = keyOf(value);
+  if (text.includes('yuksek')) return 3;
+  if (text.includes('orta') || text.includes('belirsiz') || text.includes('veri yok')) return 2;
+  if (text.includes('dusuk')) return 1;
+  return 0;
+}
+
+function worstRisk(...values) {
+  const rank = Math.max(...values.map(riskRank), 0);
+  if (rank >= 3) return 'Yüksek';
+  if (rank >= 2) return 'Orta';
+  if (rank === 1) return 'Düşük';
+  return '';
+}
+
+function consensusRisk(consensus) {
+  if (!consensus || typeof consensus !== 'object') return '';
+  const conflict = String(consensus.conflict_level || 'none').toLowerCase();
+  const confidence = Number(consensus.confidence_score);
+  if (conflict === 'high') return 'Yüksek';
+  if (conflict === 'medium') return 'Orta';
+  if (Number.isFinite(confidence) && confidence < 40) return 'Belirsiz';
+  if (Number.isFinite(confidence) && confidence < 60) return 'Orta';
+  return '';
+}
+
 function byMatch(file) {
   const data = readJson(path.join(dataDir, file), { matches: [] });
   const out = {};
@@ -60,13 +87,16 @@ function mergeSignals(row, maps) {
   const status = maps.status[key] || maps.status[fallbackKey] || null;
   const lineup = maps.lineup[key] || maps.lineup[fallbackKey] || {};
   const consensus = maps.consensus?.[key] || maps.consensus?.[fallbackKey] || null;
+  const sourceRisk = consensusRisk(consensus);
   const homeAway = maps.homeAway[key] || maps.homeAway[fallbackKey] || {};
   const standing = maps.standing[key] || maps.standing[fallbackKey] || {};
   const league = maps.league[key] || maps.league[fallbackKey] || {};
+  const squadRisk = worstRisk(status?.squad_risk_level || 'Belirsiz', sourceRisk) || 'Belirsiz';
   return {
     ...row,
     band_extra: {
-      squad_risk_level: status?.squad_risk_level || 'Belirsiz',
+      squad_risk_level: squadRisk,
+      source_risk_level: sourceRisk || 'Düşük',
       squad_verified_team_count: Number.isFinite(Number(status?.verified_team_count)) ? Number(status.verified_team_count) : 0,
       squad_signal_team_count: Number.isFinite(Number(status?.signal_team_count)) ? Number(status.signal_team_count) : 0,
       named_player_count: Number.isFinite(Number(status?.named_player_count)) ? Number(status.named_player_count) : 0,
@@ -77,9 +107,9 @@ function mergeSignals(row, maps) {
       team_status: status ? { home: status.home_status, away: status.away_status } : null,
       lineup: lineup ? { home: lineup.home_lineup, away: lineup.away_lineup } : null,
       source_consensus: consensus,
-      source_confidence_score: Number.isFinite(Number(consensus?.confidence_score)) ? Number(consensus.confidence_score) : 0,
+      source_confidence_score: consensus && Number.isFinite(Number(consensus.confidence_score)) ? Number(consensus.confidence_score) : null,
       source_conflict_level: consensus?.conflict_level || 'none',
-      source_uncertainty_brake: Number.isFinite(Number(consensus?.uncertainty_brake)) ? Number(consensus.uncertainty_brake) : 0,
+      source_uncertainty_brake: consensus && Number.isFinite(Number(consensus.uncertainty_brake)) ? Number(consensus.uncertainty_brake) : 0,
       source_consensus_note: consensus?.robot_note || '',
       home_edge: homeAway.home_edge,
       away_edge: homeAway.away_edge,
@@ -193,4 +223,4 @@ function runBandLite() {
 }
 
 if (require.main === module) runBandLite();
-module.exports = { runBandLite, labelFor, matchKey, matchName, mergeSignals };
+module.exports = { consensusRisk, runBandLite, labelFor, matchKey, matchName, mergeSignals, worstRisk };
