@@ -4,17 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-17T20:20:38.242Z
+- Güncelleme: 2026-09-17T20:27:16.324Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Makhachkala VS Cska Moskova | Rusya Premier Lig | 20:45 | 2.5 Üst | 1.72 | 76 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
-| Zeleznicar Pan VS Kizilyildiz | Sırbistan Süper Lig | 21:00 | MS 2 | 1.31 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Al Zawraa VS Al Gharraf | Irak Premier Lig | 21:00 | MS 1 | 1.31 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Independiente VS Atletico Fc | Ekvador Pro Lig Serie B Şampiyonluk Grubu | 21:00 | 2.5 Alt | 1.35 | 71 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Manchester Cit VS Norwich | İngiltere Lig Kupası 3.Tur | 21:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Central Espano VS Oriental | Uruguay Kupa Ön Eleme Turu Grup 4 | 21:30 | 2.5 Alt | 1.46 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Juventud Dl Pi VS Racing Montevid | Uruguay Kupa Ön Eleme Turu Grup 4 | 21:30 | 2.5 Alt | 1.44 | 69 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
@@ -49,20 +45,19 @@
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Makhachkala VS Cska Moskova | 2.5 Üst | 1.72 | 76 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
 | Bucaramanga VS Independiente M | 2.5 Üst | 1.92 | 74 | Orta risk kupon adayı | Değerli | Orta | Düşük |
 | Bucaramanga VS Independiente M | 2.5 Üst | 1.89 | 74 | Orta risk kupon adayı | Değerli | Orta | Düşük |
-| Independiente VS Atletico Fc | 2.5 Alt | 1.35 | 71 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta |
 | Crystal Palace VS Lech Poznan | MS 1 | 1.28 | 71 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta |
 | Beşiktaş VS Marsilya | MS 1 | 1.56 | 69 | Orta risk kupon adayı | Değerli | Orta | Orta |
+| Juventud Dl Pi VS Racing Montevid | 2.5 Alt | 1.44 | 69 | Orta risk kupon adayı | Değerli | Orta | Orta |
+| Malaga VS Villarreal | 2.5 Alt | 1.93 | 65 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Makhachkala VS Cska Moskova + Bucaramanga VS Independiente M | 2.5 Üst + 2.5 Üst | 3.30 | 75 | Orta risk kupon adayı | Normal Değer | Orta | Düşük |
-| Bucaramanga VS Independiente M + Malaga VS Villarreal | 2.5 Üst + 2.5 Alt | 3.65 | 70 | Orta risk kupon adayı | Normal Değer | Orta | Düşük |
+| Bucaramanga VS Independiente M + Bucaramanga VS Independiente M | 2.5 Üst + 2.5 Üst | 3.63 | 74 | Orta risk kupon adayı | Normal Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Makhachkala VS Cska Moskova + Bucaramanga VS Independiente M + Bucaramanga VS Independiente M | 2.5 Üst + 2.5 Üst + 2.5 Üst | 6.24 | 75 | Orta risk kupon adayı | Normal Değer | Yüksek | Düşük |
+| Bucaramanga VS Independiente M + Bucaramanga VS Independiente M + Malaga VS Villarreal | 2.5 Üst + 2.5 Üst + 2.5 Alt | 7.00 | 71 | Orta risk kupon adayı | Normal Değer | Yüksek | Düşük |

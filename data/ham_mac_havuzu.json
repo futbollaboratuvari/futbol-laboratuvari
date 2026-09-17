@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T20:20:38.242Z",
+  "generated_at": "2026-09-17T20:27:16.324Z",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik canlı robot",
   "engine": "High Value Coupon Engine",
@@ -23,435 +23,9 @@
     },
     "stale_data_policy": "Güncel maç değilse analiz dışı bırakılır."
   },
-  "match_count": 34,
-  "analysis_count": 9,
+  "match_count": 30,
+  "analysis_count": 8,
   "matches": [
-    {
-      "home_team_name": "Makhachkala",
-      "away_team_name": "Cska Moskova",
-      "competition_name": "Rusya Premier Lig",
-      "date": "2026-09-17",
-      "time": "20:45",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.72",
-      "confidence_score": "76%",
-      "trust_score": "76/100",
-      "analysis_score": 76,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 3,
-        "awayScoredLast10": 3,
-        "homeConcededLast10": 3,
-        "awayConcededLast10": 3,
-        "bttsPercent": 75,
-        "over25Percent": 59,
-        "over35Percent": 42,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 51,
-        "leagueGoalAverage": 3,
-        "memory": {
-          "scoreDelta": 12,
-          "totalMatches": 30,
-          "home": {
-            "count": 4,
-            "scored": 3,
-            "conceded": 3,
-            "bttsRate": 50,
-            "over25Rate": 50,
-            "over35Rate": 50,
-            "goalsForAvg": 1.25,
-            "goalsAgainstAvg": 1.75,
-            "wins": 1,
-            "draws": 0,
-            "losses": 3,
-            "winRate": 25,
-            "drawRate": 0,
-            "lossRate": 75,
-            "pointsPerGame": 0.75
-          },
-          "away": {
-            "count": 3,
-            "scored": 3,
-            "conceded": 3,
-            "bttsRate": 100,
-            "over25Rate": 67,
-            "over35Rate": 33,
-            "goalsForAvg": 1.67,
-            "goalsAgainstAvg": 1.33,
-            "wins": 1,
-            "draws": 2,
-            "losses": 0,
-            "winRate": 33,
-            "drawRate": 67,
-            "lossRate": 0,
-            "pointsPerGame": 1.67
-          },
-          "league": {
-            "count": 23,
-            "goalAverage": 2.83,
-            "bttsRate": 61,
-            "over25Rate": 52
-          },
-          "signals": [
-            "Hafıza: 2.5 Üst eğilimi yüksek (%59): +8",
-            "Hafıza: lig gol ortalaması 2.83: +5"
-          ]
-        },
-        "poisson": {
-          "probabilities": {
-            "ms1": 38.85954816735181,
-            "msx": 24.83587641839299,
-            "ms2": 36.30457541425518,
-            "over15": 78.31020888097817,
-            "over25": 55.069378977988116,
-            "under25": 44.9306210220119,
-            "over35": 32.714304445032255,
-            "kgVar": 58.31021173635327,
-            "kgYok": 41.68978826364674,
-            "homeGoal": 77.03878226484531,
-            "awayGoal": 75.6894255362103
-          },
-          "homeLambda": 1.47,
-          "awayLambda": 1.41,
-          "samples": 7,
-          "reliability": 0.4375
-        },
-        "homeScoredLast10Count": 3,
-        "awayScoredLast10Count": 3,
-        "homeConcededLast10Count": 3,
-        "awayConcededLast10Count": 3
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.72",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %49.",
-        "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %58.",
-        "Birleşik tahmini olasılık %52.",
-        "Model-piyasa farkı +2.7 puan.",
-        "Poisson gol beklentisi 1.47-1.41.",
-        "Hafıza: 2.5 Üst eğilimi yüksek (%59): +8",
-        "Hafıza: lig gol ortalaması 2.83: +5",
-        "Geçmiş market örneği 2030; ham isabet %54.",
-        "Veri kapsama puanı 69/100 (Düşük eksik veri riski).",
-        "Model gücü 76/100: Orta risk kupon adayı."
-      ]
-    },
-    {
-      "home_team_name": "Zeleznicar Pan",
-      "away_team_name": "Kizilyildiz",
-      "competition_name": "Sırbistan Süper Lig",
-      "date": "2026-09-17",
-      "time": "21:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 2",
-      "suggested_odds": "1.31",
-      "confidence_score": "60%",
-      "trust_score": "60/100",
-      "analysis_score": 60,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": 5,
-        "awayScoredLast10": 5,
-        "homeConcededLast10": 3,
-        "awayConcededLast10": 3,
-        "bttsPercent": 33,
-        "over25Percent": 57,
-        "over35Percent": 39,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 39,
-        "leagueGoalAverage": 2.81,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": 5,
-        "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": 3,
-        "awayConcededLast10Count": 3
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
-      ],
-      "signals": [
-        "Market: MS 2",
-        "Oran: 1.31",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %63.",
-        "Birleşik tahmini olasılık %63.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %30.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 60/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Al Zawraa",
-      "away_team_name": "Al Gharraf",
-      "competition_name": "Irak Premier Lig",
-      "date": "2026-09-17",
-      "time": "21:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "1.31",
-      "confidence_score": "62%",
-      "trust_score": "62/100",
-      "analysis_score": 62,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": 4,
-        "awayScoredLast10": 4,
-        "homeConcededLast10": 5,
-        "awayConcededLast10": 5,
-        "bttsPercent": 63,
-        "over25Percent": 46,
-        "over35Percent": 28,
-        "firstHalfGoalTrend": 49,
-        "secondHalfGoalTrend": 69,
-        "leagueGoalAverage": 2.68,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": 4,
-        "awayScoredLast10Count": 4,
-        "homeConcededLast10Count": 5,
-        "awayConcededLast10Count": 5
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "signals": [
-        "Market: MS 1",
-        "Oran: 1.31",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %63.",
-        "Birleşik tahmini olasılık %63.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %43.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 62/100: Sadece izleme."
-      ]
-    },
-    {
-      "home_team_name": "Independiente",
-      "away_team_name": "Atletico Fc",
-      "competition_name": "Ekvador Pro Lig Serie B Şampiyonluk Grubu",
-      "date": "2026-09-17",
-      "time": "21:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.35",
-      "confidence_score": "71%",
-      "trust_score": "71/100",
-      "analysis_score": 71,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": 3,
-        "awayScoredLast10": 3,
-        "homeConcededLast10": 5,
-        "awayConcededLast10": 4,
-        "bttsPercent": 52,
-        "over25Percent": 40,
-        "over35Percent": 25,
-        "firstHalfGoalTrend": 38,
-        "secondHalfGoalTrend": 58,
-        "leagueGoalAverage": 2.61,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 8,
-          "home": {
-            "count": 6,
-            "scored": 3,
-            "conceded": 5,
-            "bttsRate": 50,
-            "over25Rate": 67,
-            "over35Rate": 33,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 1.67,
-            "wins": 2,
-            "draws": 2,
-            "losses": 2,
-            "winRate": 33,
-            "drawRate": 33,
-            "lossRate": 33,
-            "pointsPerGame": 1.33
-          },
-          "away": {
-            "count": 1,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 100,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 1,
-            "wins": 0,
-            "draws": 1,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 100,
-            "lossRate": 0,
-            "pointsPerGame": 1
-          },
-          "league": {
-            "count": 1,
-            "goalAverage": 2,
-            "bttsRate": 100,
-            "over25Rate": 0
-          },
-          "signals": []
-        },
-        "poisson": null,
-        "homeScoredLast10Count": 3,
-        "awayScoredLast10Count": 3,
-        "homeConcededLast10Count": 5,
-        "awayConcededLast10Count": 4
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.35",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %61.",
-        "Bağımsız sonuç hafızası tahmini %67.",
-        "Birleşik tahmini olasılık %62.",
-        "Model-piyasa farkı +1.1 puan.",
-        "Geçmiş market örneği 2030; ham isabet %46.",
-        "Veri kapsama puanı 56/100 (Orta eksik veri riski).",
-        "Model gücü 71/100: Orta risk kupon adayı."
-      ]
-    },
     {
       "home_team_name": "Manchester Cit",
       "away_team_name": "Norwich",
@@ -482,7 +56,7 @@
         "leagueGoalAverage": 4.5,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 22,
+          "totalMatches": 23,
           "home": {
             "count": 2,
             "scored": 2,
@@ -518,10 +92,10 @@
             "pointsPerGame": 1.71
           },
           "league": {
-            "count": 13,
-            "goalAverage": 3.92,
-            "bttsRate": 62,
-            "over25Rate": 77
+            "count": 14,
+            "goalAverage": 4,
+            "bttsRate": 57,
+            "over25Rate": 79
           },
           "signals": []
         }
@@ -630,7 +204,7 @@
         "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %46.",
+        "Geçmiş market örneği 2031; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
@@ -733,7 +307,7 @@
         "Birleşik tahmini olasılık %65.",
         "Model-piyasa farkı +7.7 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %46.",
+        "Geçmiş market örneği 2031; ham isabet %46.",
         "Veri kapsama puanı 49/100 (Orta eksik veri riski).",
         "Model gücü 69/100: Orta risk kupon adayı."
       ]
@@ -834,7 +408,7 @@
         "Birleşik tahmini olasılık %55.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %46.",
+        "Geçmiş market örneği 2031; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
@@ -870,7 +444,7 @@
         "leagueGoalAverage": 3,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 16,
+          "totalMatches": 17,
           "home": {
             "count": 4,
             "scored": 4,
@@ -906,10 +480,10 @@
             "pointsPerGame": 1
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.13,
-            "bttsRate": 38,
-            "over25Rate": 38
+            "count": 9,
+            "goalAverage": 2,
+            "bttsRate": 33,
+            "over25Rate": 33
           },
           "signals": []
         }
@@ -952,7 +526,7 @@
         "leagueGoalAverage": 3,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 14,
+          "totalMatches": 15,
           "home": {
             "count": 4,
             "scored": 3,
@@ -988,10 +562,10 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.13,
-            "bttsRate": 38,
-            "over25Rate": 38
+            "count": 9,
+            "goalAverage": 2,
+            "bttsRate": 33,
+            "over25Rate": 33
           },
           "signals": []
         },
@@ -1016,7 +590,7 @@
         "Bağımsız takım formu tahmini %89.",
         "Birleşik tahmini olasılık %61.",
         "Model-piyasa farkı +6.9 puan.",
-        "Geçmiş market örneği 2030; ham isabet %43.",
+        "Geçmiş market örneği 2031; ham isabet %43.",
         "Veri kapsama puanı 54/100 (Orta eksik veri riski).",
         "Model gücü 69/100: Orta risk kupon adayı."
       ]
@@ -1051,7 +625,7 @@
         "leagueGoalAverage": 3,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 12,
+          "totalMatches": 13,
           "home": {
             "count": 4,
             "scored": 4,
@@ -1087,10 +661,10 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.13,
-            "bttsRate": 38,
-            "over25Rate": 38
+            "count": 9,
+            "goalAverage": 2,
+            "bttsRate": 33,
+            "over25Rate": 33
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -1117,7 +691,7 @@
         "Birleşik tahmini olasılık %56.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %43.",
+        "Geçmiş market örneği 2031; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 46/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
@@ -1153,7 +727,7 @@
         "leagueGoalAverage": 3,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 16,
+          "totalMatches": 17,
           "home": {
             "count": 8,
             "scored": 6,
@@ -1189,10 +763,10 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.13,
-            "bttsRate": 38,
-            "over25Rate": 38
+            "count": 9,
+            "goalAverage": 2,
+            "bttsRate": 33,
+            "over25Rate": 33
           },
           "signals": []
         },
@@ -1217,7 +791,7 @@
         "Bağımsız takım formu tahmini %54.",
         "Birleşik tahmini olasılık %64.",
         "Model-piyasa farkı -2.7 puan.",
-        "Geçmiş market örneği 2030; ham isabet %43.",
+        "Geçmiş market örneği 2031; ham isabet %43.",
         "Veri kapsama puanı 59/100 (Orta eksik veri riski).",
         "Model gücü 71/100: Orta risk kupon adayı."
       ]
@@ -1252,7 +826,7 @@
         "leagueGoalAverage": 3,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 12,
+          "totalMatches": 13,
           "home": {
             "count": 0,
             "scored": 0,
@@ -1288,10 +862,10 @@
             "pointsPerGame": 3
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.13,
-            "bttsRate": 38,
-            "over25Rate": 38
+            "count": 9,
+            "goalAverage": 2,
+            "bttsRate": 33,
+            "over25Rate": 33
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -1318,7 +892,7 @@
         "Birleşik tahmini olasılık %37.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %43.",
+        "Geçmiş market örneği 2031; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 46/100 (Yüksek eksik veri riski).",
         "Model gücü 50/100: Sadece izleme."
@@ -1354,7 +928,7 @@
         "leagueGoalAverage": 3,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 11,
+          "totalMatches": 12,
           "home": {
             "count": 3,
             "scored": 3,
@@ -1390,10 +964,10 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.13,
-            "bttsRate": 38,
-            "over25Rate": 38
+            "count": 9,
+            "goalAverage": 2,
+            "bttsRate": 33,
+            "over25Rate": 33
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -1420,7 +994,7 @@
         "Birleşik tahmini olasılık %53.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %43.",
+        "Geçmiş market örneği 2031; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 45/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
@@ -1456,7 +1030,7 @@
         "leagueGoalAverage": 3,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 15,
+          "totalMatches": 16,
           "home": {
             "count": 2,
             "scored": 2,
@@ -1492,10 +1066,10 @@
             "pointsPerGame": 1.2
           },
           "league": {
-            "count": 8,
-            "goalAverage": 2.13,
-            "bttsRate": 38,
-            "over25Rate": 38
+            "count": 9,
+            "goalAverage": 2,
+            "bttsRate": 33,
+            "over25Rate": 33
           },
           "signals": []
         },
@@ -1520,7 +1094,7 @@
         "Bağımsız takım formu tahmini %57.",
         "Birleşik tahmini olasılık %48.",
         "Model-piyasa farkı +2.4 puan.",
-        "Geçmiş market örneği 2030; ham isabet %30.",
+        "Geçmiş market örneği 2031; ham isabet %30.",
         "Veri kapsama puanı 56/100 (Orta eksik veri riski).",
         "Model gücü 62/100: Sadece izleme."
       ]
@@ -1621,7 +1195,7 @@
         "Birleşik tahmini olasılık %50.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: lig gol ortalaması 3.15: +5",
-        "Geçmiş market örneği 2030; ham isabet %54.",
+        "Geçmiş market örneği 2031; ham isabet %54.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 49/100 (Yüksek eksik veri riski).",
         "Model gücü 61/100: Sadece izleme."
@@ -1723,7 +1297,7 @@
         "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %46.",
+        "Geçmiş market örneği 2031; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
@@ -1825,7 +1399,7 @@
         "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %46.",
+        "Geçmiş market örneği 2031; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
@@ -1927,7 +1501,7 @@
         "Birleşik tahmini olasılık %56.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %46.",
+        "Geçmiş market örneği 2031; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
@@ -2029,7 +1603,7 @@
         "Birleşik tahmini olasılık %59.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %43.",
+        "Geçmiş market örneği 2031; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
@@ -2131,7 +1705,7 @@
         "Birleşik tahmini olasılık %42.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %30.",
+        "Geçmiş market örneği 2031; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 49/100: Sadece izleme."
@@ -2167,7 +1741,7 @@
         "leagueGoalAverage": 3.04,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 30,
+          "totalMatches": 31,
           "home": {
             "count": 3,
             "scored": 1,
@@ -2203,29 +1777,29 @@
             "pointsPerGame": 0.33
           },
           "league": {
-            "count": 24,
-            "goalAverage": 3.29,
-            "bttsRate": 58,
-            "over25Rate": 58
+            "count": 25,
+            "goalAverage": 3.2,
+            "bttsRate": 56,
+            "over25Rate": 56
           },
           "signals": []
         },
         "poisson": {
           "probabilities": {
-            "ms1": 40.10700142413184,
-            "msx": 24.630278338244356,
-            "ms2": 35.262720237623824,
-            "over15": 78.88572897836015,
-            "over25": 55.90486845256187,
-            "under25": 44.095131547438115,
-            "over35": 33.52285085063173,
-            "kgVar": 58.90898414760276,
-            "kgYok": 41.09101585239722,
-            "homeGoal": 78.02676379029391,
-            "awayGoal": 75.49843321187537
+            "ms1": 39.88788244100452,
+            "msx": 24.909017912423575,
+            "ms2": 35.203099646571864,
+            "over15": 77.98451832064744,
+            "over25": 54.60111871067539,
+            "under25": 45.39888128932457,
+            "over35": 32.26549026489353,
+            "kgVar": 57.90069018489,
+            "kgYok": 42.09930981510999,
+            "homeGoal": 77.34918434298534,
+            "awayGoal": 74.85623885591873
           },
-          "homeLambda": 1.52,
-          "awayLambda": 1.41,
+          "homeLambda": 1.49,
+          "awayLambda": 1.38,
           "samples": 6,
           "reliability": 0.375
         },
@@ -2246,11 +1820,11 @@
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %44.",
-        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %48.",
+        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %49.",
         "Birleşik tahmini olasılık %45.",
-        "Model-piyasa farkı +1.3 puan.",
-        "Poisson gol beklentisi 1.52-1.41.",
-        "Geçmiş market örneği 2030; ham isabet %46.",
+        "Model-piyasa farkı +1.5 puan.",
+        "Poisson gol beklentisi 1.49-1.38.",
+        "Geçmiş market örneği 2031; ham isabet %46.",
         "Veri kapsama puanı 65/100 (Düşük eksik veri riski).",
         "Model gücü 65/100: Orta risk kupon adayı."
       ]
@@ -2351,7 +1925,7 @@
         "Birleşik tahmini olasılık %44.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %43.",
+        "Geçmiş market örneği 2031; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 52/100: Sadece izleme."
@@ -2453,7 +2027,7 @@
         "Birleşik tahmini olasılık %62.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %30.",
+        "Geçmiş market örneği 2031; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
@@ -2578,7 +2152,7 @@
         "Poisson gol beklentisi 1.43-1.4.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%67): +8",
         "Hafıza: lig gol ortalaması 2.85: +5",
-        "Geçmiş market örneği 2030; ham isabet %54.",
+        "Geçmiş market örneği 2031; ham isabet %54.",
         "Veri kapsama puanı 65/100 (Düşük eksik veri riski).",
         "Model gücü 74/100: Orta risk kupon adayı."
       ]
@@ -2679,7 +2253,7 @@
         "Birleşik tahmini olasılık %59.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %46.",
+        "Geçmiş market örneği 2031; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
@@ -2804,7 +2378,7 @@
         "Poisson gol beklentisi 1.43-1.4.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%67): +8",
         "Hafıza: lig gol ortalaması 2.85: +5",
-        "Geçmiş market örneği 2030; ham isabet %54.",
+        "Geçmiş market örneği 2031; ham isabet %54.",
         "Veri kapsama puanı 65/100 (Düşük eksik veri riski).",
         "Model gücü 74/100: Orta risk kupon adayı."
       ]
@@ -2987,7 +2561,7 @@
         "Birleşik tahmini olasılık %62.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %43.",
+        "Geçmiş market örneği 2031; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
@@ -3090,7 +2664,7 @@
         "Birleşik tahmini olasılık %52.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %46.",
+        "Geçmiş market örneği 2031; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
@@ -3276,7 +2850,7 @@
         "Birleşik tahmini olasılık %43.",
         "Model-piyasa farkı -1.2 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %46.",
+        "Geçmiş market örneği 2031; ham isabet %46.",
         "Veri kapsama puanı 52/100 (Orta eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
       ]
@@ -3377,7 +2951,7 @@
         "Birleşik tahmini olasılık %44.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %46.",
+        "Geçmiş market örneği 2031; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
@@ -3480,7 +3054,7 @@
         "Birleşik tahmini olasılık %58.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2030; ham isabet %46.",
+        "Geçmiş market örneği 2031; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."

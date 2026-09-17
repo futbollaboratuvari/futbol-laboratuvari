@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.09.2026 23:20:51
+Oluşturma: 17.09.2026 23:27:30
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1084
-- Kazanan tahmin: 233
+- Bekleyen tahmin: 1079
+- Kazanan tahmin: 238
 - Kaybeden tahmin: 183
 - Lig sayısı: 276
 - Seçenek sayısı: 6
@@ -23,11 +23,11 @@ Oluşturma: 17.09.2026 23:20:51
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 9, bekleyen 6, başarı %67, düz getiri %63, ağırlık 1
-- 2.5 Alt: toplam 603, bekleyen 444, başarı %60, düz getiri %2, ağırlık 1
+- 2.5 Alt: toplam 603, bekleyen 441, başarı %61, düz getiri %3, ağırlık 1
 - KG Var: toplam 14, bekleyen 2, başarı %58, düz getiri %4, ağırlık 1
-- 2.5 Üst: toplam 159, bekleyen 89, başarı %56, düz getiri %0, ağırlık 1
+- 2.5 Üst: toplam 159, bekleyen 88, başarı %56, düz getiri %1, ağırlık 1
 - MS 1: toplam 480, bekleyen 357, başarı %53, düz getiri %-12, ağırlık 1
-- MS 2: toplam 235, bekleyen 186, başarı %51, düz getiri %-4, ağırlık 1
+- MS 2: toplam 235, bekleyen 185, başarı %52, düz getiri %-2, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
@@ -36,7 +36,7 @@ Oluşturma: 17.09.2026 23:20:51
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen - Union St.G | MS 1 | pending | 43/100
 - 2026-09-17 | Rusya FNL | Olimpiyets - Leningradets | MS 1 | pending | 59/100
 - 2026-09-17 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Santo Domingo - El Nacional | 2.5 Alt | pending | 46/100
-- 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Levski Sofya - Salzburg | MS 2 | pending | 48/100
+- 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Levski Sofya - Salzburg | MS 2 | won | 48/100
 - 2026-09-17 | Uruguay Kupa Ön Eleme Turu Grup 4 | Central Espano - Oriental | 2.5 Alt | pending | 54/100
 - 2026-09-17 | Rusya FNL | Torpedo Moskov - Veles | 2.5 Alt | pending | 56/100
 - 2026-09-17 | Estonya Esiliiga A | Viimsi Mrjk - Tartu Welco | MS 2 | pending | 44/100

@@ -2,11 +2,11 @@
 
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
-Ham mac: 34
+Ham mac: 30
 Aktif mac: 11
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 23
+Biten mac: 1
+Bultenden dusurulen mac: 19
 Bugun: 1
 Yarin: 10
 
@@ -27,4 +27,4 @@ Yarin: 10
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-17 21:30 | İngiltere Lig Kupası 3.Tur | Manchester Cit - Norwich | finished | 5-0
