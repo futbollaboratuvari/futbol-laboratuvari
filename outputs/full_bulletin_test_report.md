@@ -2,12 +2,11 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 12
+- Scheduled match count: 11
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-17 / 2026-09-18 23:59
 
-- 2026-09-17 23:30 | 22 De Julio - Cumbaya | scheduled
 - 2026-09-18 02:00 | Bucaramanga - Independiente M | scheduled
 - 2026-09-18 03:00 | Santo Domingo - El Nacional | scheduled
 - 2026-09-18 03:00 | Bucaramanga - Independiente M | scheduled
@@ -17,3 +16,4 @@
 - 2026-09-18 03:30 | Torque (0) - (2) Cienciano | scheduled
 - 2026-09-18 04:00 | Durango - Cruz Azul Hidal | scheduled
 - 2026-09-18 06:15 | Depor. Olimpia (3) - (0) Firpo | scheduled
+- 2026-09-18 07:00 | Vanraure - Tegevajaro Miya | scheduled

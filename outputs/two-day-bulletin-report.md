@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
-Ham mac: 30
-Aktif mac: 11
+Ham mac: 29
+Aktif mac: 10
 Canli mac: 0
-Biten mac: 1
+Biten mac: 0
 Bultenden dusurulen mac: 19
-Bugun: 1
+Bugun: 0
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-09-17 23:30 | Ekvador Pro Lig Serie B Küme Düşme Grubu | 22 De Julio - Cumbaya | scheduled | -
 - 2026-09-18 02:00 | Kolombiya Primera A Clausura | Bucaramanga - Independiente M | scheduled | -
 - 2026-09-18 03:00 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Santo Domingo - El Nacional | scheduled | -
 - 2026-09-18 03:00 | Kolombiya Primera A Clausura | Bucaramanga - Independiente M | scheduled | -
@@ -27,4 +26,4 @@ Yarin: 10
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-09-17 21:30 | İngiltere Lig Kupası 3.Tur | Manchester Cit - Norwich | finished | 5-0
+Biten mac yok.
