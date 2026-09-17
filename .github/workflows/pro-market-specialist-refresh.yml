@@ -1,0 +1,72 @@
+name: PRO Market Specialist Refresh
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Live Data Trigger
+      - Run robot now
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+concurrency:
+  group: futbol-main-data-writer
+  cancel-in-progress: false
+
+jobs:
+  specialize:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync latest main
+        run: git pull --ff-only origin main
+
+      - name: Validate specialist rules
+        run: |
+          node tests/market-specialist-gates.test.js
+          node tests/pro-goal-market-bridge.test.js
+
+      - name: Refresh 3.5 Over and 6+ Goal specialist outputs
+        run: node scripts/run-pro-goal-market-specialist.js
+
+      - name: Validate generated JSON
+        run: node scripts/validate-json-no-conflicts.js
+
+      - name: Commit specialist outputs only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          TODAY="$(TZ=Europe/Istanbul date +%F)"
+          git add data/robot-analysis.json data/live-matches.json data/daily-coupons.json
+          if [ -f "data/archive/${TODAY}.json" ]; then git add "data/archive/${TODAY}.json"; fi
+          if git diff --cached --quiet; then
+            echo "No specialist output change"
+            exit 0
+          fi
+          git commit -m "Update PRO market specialist outputs"
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 3))
+          done
+          echo "Specialist output push failed"
+          exit 1
