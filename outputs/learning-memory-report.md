@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.09.2026 01:19:19
+Oluşturma: 18.09.2026 02:07:51
 
 ## Özet
 
@@ -24,13 +24,14 @@ Oluşturma: 18.09.2026 01:19:19
 
 - MS X: toplam 9, bekleyen 6, başarı %67, düz getiri %63, ağırlık 1
 - KG Var: toplam 13, bekleyen 2, başarı %64, düz getiri %14, ağırlık 1
-- 2.5 Alt: toplam 586, bekleyen 468, başarı %57, düz getiri %-3, ağırlık 1
+- 2.5 Alt: toplam 587, bekleyen 469, başarı %57, düz getiri %-3, ağırlık 1
 - 2.5 Üst: toplam 152, bekleyen 100, başarı %56, düz getiri %1, ağırlık 1
 - MS 2: toplam 247, bekleyen 201, başarı %54, düz getiri %3, ağırlık 1
-- MS 1: toplam 493, bekleyen 397, başarı %51, düz getiri %-17, ağırlık 1
+- MS 1: toplam 492, bekleyen 396, başarı %51, düz getiri %-17, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-18 | Fransa Ligue 1 | Monaco - Lens | 2.5 Alt | pending | 66/100
 - 2026-09-18 | İspanya Primera Lig RFEF Grup 1 | Ud Logrones - Pontevedra | 2.5 Alt | pending | 54/100
 - 2026-09-18 | Portekiz Kupa 2.Tur | Real Massama - Academica | MS 2 | pending | 52/100
 - 2026-09-18 | Paraguay Intermedia Lig | Depor Santani - Sol De America | 2.5 Alt | pending | 54/100
@@ -45,5 +46,4 @@ Oluşturma: 18.09.2026 01:19:19
 - 2026-09-18 | İrlanda 1.Lig | Wexford Youths - Cobh Ramblers | 2.5 Üst | pending | 53/100
 - 2026-09-18 | İrlanda 1.Lig | Athlone - Kerry | 2.5 Alt | pending | 50/100
 - 2026-09-18 | İrlanda 1.Lig | Finn Harps - Longford | 2.5 Alt | pending | 48/100
-- 2026-09-18 | İrlanda 1.Lig | Cork City - Ucd | MS 1 | pending | 54/100
 
