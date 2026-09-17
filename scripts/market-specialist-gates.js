@@ -22,6 +22,13 @@ function clean(value) {
     .trim();
 }
 
+function classFor(score) {
+  if (score >= 80) return "Ana kupon adayı";
+  if (score >= 65) return "Orta risk kupon adayı";
+  if (score >= 50) return "Sadece izleme";
+  return "Oynama";
+}
+
 function canonicalMarket(value) {
   const text = clean(value);
   if (/^(kg var|btts yes)/.test(text)) return "KG Var";
@@ -141,6 +148,7 @@ function applyGenericMarketGate(item) {
   }
   const originalScore = finite(item.model_score ?? item.analysis_score ?? item.score) || 0;
   const adjustedScore = clamp(Math.round(originalScore + adjustment.delta), 0, 100);
+  const analysisClass = classFor(adjustedScore);
   const signal = `Market uzman freni: ${adjustment.reasons.join(" ")} Model gücü ${adjustment.delta} puan; olasılık yüzdesi değiştirilmedi.`;
   return {
     ...item,
@@ -149,6 +157,8 @@ function applyGenericMarketGate(item) {
     analysis_score: adjustedScore,
     confidence: `${adjustedScore}%`,
     trust_score: `${adjustedScore}/100`,
+    tag: analysisClass,
+    analysis_class: analysisClass,
     market_specialist: {
       ...adjustment,
       original_model_score: originalScore,
@@ -217,6 +227,10 @@ function applyGoalMarketGate(candidate, context = {}) {
   const adjustment = goalMarketAdjustment({ ...context, market: candidate.recommended_market || candidate.market });
   const originalScore = finite(candidate.model_score ?? candidate.analysis_score) || 0;
   const adjustedScore = clamp(Math.round(originalScore + adjustment.delta), 0, 100);
+  const signals = [
+    ...(Array.isArray(candidate.signals) ? candidate.signals : []),
+    ...(adjustment.applied ? [`Market uzman freni: ${adjustment.reasons.join(" ")}`] : []),
+  ].slice(0, 10);
   return {
     ...candidate,
     model_score: adjustedScore,
@@ -227,10 +241,8 @@ function applyGoalMarketGate(candidate, context = {}) {
       original_model_score: originalScore,
       adjusted_model_score: adjustedScore,
     },
-    signals: [
-      ...(Array.isArray(candidate.signals) ? candidate.signals : []),
-      ...(adjustment.applied ? [`Market uzman freni: ${adjustment.reasons.join(" ")}`] : []),
-    ].slice(0, 10),
+    signals,
+    robot_reason: signals.slice(0, 4).join(" | "),
   };
 }
 
