@@ -1,0 +1,71 @@
+name: Writer Concurrency CI
+
+on:
+  push:
+    branches:
+      - fix/data-writer-concurrency-starvation
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout focused writer surface
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github/workflows
+            scripts
+            tests
+            pro-coupon-eligibility.js
+          sparse-checkout-cone-mode: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Verify single scheduled writer
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const files = {
+            main: '.github/workflows/update-fixtures.yml',
+            live: '.github/workflows/live-data-trigger.yml',
+            derived: '.github/workflows/derived-data.yml',
+            relaxed: '.github/workflows/auto-relaxed-analysis.yml',
+          };
+          const text = Object.fromEntries(Object.entries(files).map(([key, file]) => [key, fs.readFileSync(file, 'utf8')]));
+          const scheduled = Object.entries(text).filter(([, value]) => /^\s*schedule\s*:/m.test(value)).map(([key]) => key);
+          if (scheduled.length !== 1 || scheduled[0] !== 'main') throw new Error(`Expected only main writer scheduled, got: ${scheduled.join(', ')}`);
+          for (const [key, value] of Object.entries(text)) {
+            if (!/group:\s*futbol-main-data-writer/.test(value)) throw new Error(`${key} writer lost shared concurrency group`);
+            if (!/cancel-in-progress:\s*false/.test(value)) throw new Error(`${key} writer changed cancel-in-progress safety`);
+          }
+          const requiredMain = [
+            'python src/robot.py',
+            'node scripts/source-consensus.js',
+            'node scripts/pre-match-final-check.js',
+            'node tests/pre-match-final-check.test.js',
+            'node scripts/market-provenance-guard.js',
+            'node scripts/run-pro-goal-market-specialist.js',
+          ];
+          for (const token of requiredMain) if (!text.main.includes(token)) throw new Error(`main writer missing ${token}`);
+          console.log('single scheduled writer architecture OK');
+          NODE
+
+      - name: PRO regression checks
+        run: |
+          node tests/market-provenance.test.js
+          node tests/pre-match-final-check.test.js
+          node tests/pro-coupon-eligibility.test.js
+          node tests/pro-goal-market-bridge.test.js
+          node tests/market-specialist-gates.test.js
+          node tests/team-intelligence.test.js
+          node tests/matchup-intelligence.test.js
+          node tests/source-consensus.test.js
+          node tests/source-consensus-band.test.js
