@@ -4,6 +4,7 @@ const { fetchIddaaBulletin } = require("./iddaa-data-source");
 const { MODEL_VERSION, buildBttsAnalysis, scoreFixture } = require("./robot-exact-scoring");
 const { applyLearningWeightsToScoredItem } = require("./apply-learning-weights");
 const { compactMatch } = require("./build-pro-analysis-index");
+const { applyMatchupContext } = require("./matchup-intelligence");
 
 const CACHE_MS = 90 * 1000;
 let cache = null;
@@ -23,10 +24,109 @@ function currentScheduled(matches, today = todayTR()) {
   });
 }
 
+function clean(value) {
+  return String(value || "")
+    .toLocaleLowerCase("tr-TR")
+    .replace(/ı/g, "i")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function teamPair(item) {
+  const home = String(item?.home || item?.home_team_name || "").trim();
+  const away = String(item?.away || item?.away_team_name || "").trim();
+  return { home, away };
+}
+
+function joinKeys(item) {
+  const code = String(item?.match_code || item?.matchCode || item?.iddaa_event_id || "").trim();
+  const date = String(item?.date || "").slice(0, 10);
+  const { home, away } = teamPair(item);
+  const keys = [];
+  if (code) keys.push(`code:${code}`);
+  if (date && home && away) keys.push(`pair:${date}|${clean(home)}|${clean(away)}`);
+  return keys;
+}
+
+function baseMatchMap(base) {
+  const map = new Map();
+  for (const row of Array.isArray(base?.matches) ? base.matches : []) {
+    for (const key of joinKeys(row)) map.set(key, row);
+  }
+  return map;
+}
+
+function findBaseMatch(item, map) {
+  for (const key of joinKeys(item)) {
+    if (map.has(key)) return map.get(key);
+  }
+  return null;
+}
+
+function riskRank(value) {
+  const text = clean(value);
+  if (text.includes("yuksek")) return 3;
+  if (text.includes("orta") || text.includes("belirsiz") || text.includes("veri yok")) return 2;
+  if (text.includes("dusuk")) return 1;
+  return 0;
+}
+
+function worseRisk(...values) {
+  const rank = Math.max(...values.map(riskRank), 0);
+  return rank >= 3 ? "Yüksek" : rank >= 2 ? "Orta" : rank === 1 ? "Düşük" : "Yüksek";
+}
+
+function applyStoredTeamIntelligence(scored, stored) {
+  const intel = stored?.team_intelligence;
+  if (!intel || typeof intel !== "object") return scored;
+  const squadRisk = String(stored.squad_risk_level || intel.squad_risk_level || "Belirsiz");
+  const lineupRisk = String(stored.lineup_risk_level || intel.lineup_risk_level || "Belirsiz");
+  const storedPenalty = Number(intel.adjustment?.penalty);
+  const penalty = Number.isFinite(storedPenalty)
+    ? Math.max(0, storedPenalty)
+    : riskRank(squadRisk) >= 3 || riskRank(lineupRisk) >= 3 ? 12
+      : /belirsiz|veri yok/i.test(`${squadRisk} ${lineupRisk}`) ? 4
+        : riskRank(squadRisk) >= 2 || riskRank(lineupRisk) >= 2 ? 6 : 0;
+  const originalScore = Number(scored.model_score ?? scored.analysis_score ?? scored.score ?? 0);
+  const adjustedScore = Math.max(0, Math.round(originalScore - penalty));
+  const note = penalty
+    ? `Resmî bülten skoru doğrulanmış kadro/ilk 11 riski nedeniyle ${penalty} puan aşağı ayarlandı.`
+    : "Resmî bülten skoru doğrulanmış kadro/ilk 11 katmanıyla kontrol edildi.";
+  const enriched = {
+    ...scored,
+    score: adjustedScore,
+    model_score: adjustedScore,
+    analysis_score: adjustedScore,
+    confidence: `${adjustedScore}%`,
+    trust_score: `${adjustedScore}/100`,
+    risk: worseRisk(scored.risk || scored.risk_level, squadRisk, lineupRisk),
+    risk_level: worseRisk(scored.risk || scored.risk_level, squadRisk, lineupRisk),
+    squad_risk_level: squadRisk,
+    lineup_risk_level: lineupRisk,
+    team_status_verified_count: Number(stored.team_status_verified_count || intel.squad_verified_team_count || 0),
+    named_player_count: Number(stored.named_player_count || intel.named_player_count || 0),
+    team_intelligence: {
+      ...intel,
+      official_adjustment: {
+        original_model_score: originalScore,
+        penalty,
+        adjusted_model_score: adjustedScore,
+        reason: note,
+      },
+    },
+    pro_signals: [note, ...(Array.isArray(scored.pro_signals) ? scored.pro_signals : [])].slice(0, 8),
+  };
+  return applyMatchupContext(enriched, intel.matchup_analysis);
+}
+
 function projectOfficialProIndex(bulletin, base = {}, options = {}) {
+  const storedMatches = baseMatchMap(base);
   const matches = currentScheduled(bulletin?.matches, options.today || todayTR()).map((match) => {
-    const scored = applyLearningWeightsToScoredItem(scoreFixture(match));
+    let scored = applyLearningWeightsToScoredItem(scoreFixture(match));
     scored.btts_analysis = buildBttsAnalysis(match);
+    scored = applyStoredTeamIntelligence(scored, findBaseMatch(match, storedMatches));
     return compactMatch(scored, { model_version: MODEL_VERSION, date: scored.date });
   });
   const bttsRows = matches.filter((match) => match.btts_analysis?.pair_complete);
@@ -54,6 +154,7 @@ function projectOfficialProIndex(bulletin, base = {}, options = {}) {
       source_match_count: Number(bulletin?.match_count ?? bulletin?.matches?.length ?? 0),
       pro_ready_count: proReady.length,
       coupon_candidate_count: matches.filter((match) => match.include_in_coupon).length,
+      matchup_verified_count: matches.filter((match) => Number(match.team_intelligence?.matchup_analysis?.coverage_score || 0) >= 65).length,
       average_data_completeness: matches.length
         ? Math.round(matches.reduce((sum, match) => sum + Number(match.data_completeness || 0), 0) / matches.length) : 0,
       btts_pair_count: bttsRows.length,
@@ -79,6 +180,8 @@ function resetOfficialProCache() {
 }
 
 module.exports = {
+  applyStoredTeamIntelligence,
+  baseMatchMap,
   buildOfficialProIndex,
   currentScheduled,
   projectOfficialProIndex,
