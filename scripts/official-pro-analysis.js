@@ -116,6 +116,7 @@ function applyStoredTeamIntelligence(scored, stored) {
         reason: note,
       },
     },
+    signals: [note, ...(Array.isArray(scored.signals) ? scored.signals : [])].slice(0, 8),
     pro_signals: [note, ...(Array.isArray(scored.pro_signals) ? scored.pro_signals : [])].slice(0, 8),
   };
   return applyMatchupContext(enriched, intel.matchup_analysis);
