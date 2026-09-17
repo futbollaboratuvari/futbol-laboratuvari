@@ -72,6 +72,7 @@ function mergeSignals(row, maps) {
       lineup_risk_level: lineup.lineup_risk_level || 'Belirsiz',
       squad_comment: status?.robot_comment || '',
       lineup_comment: lineup.robot_comment || '',
+      matchup_analysis: lineup.matchup_analysis || null,
       team_status: status ? { home: status.home_status, away: status.away_status } : null,
       lineup: lineup ? { home: lineup.home_lineup, away: lineup.away_lineup } : null,
       home_edge: homeAway.home_edge,
