@@ -12,6 +12,10 @@ Bu dosya calisan alanlari korumak icindir. Yeni is yaparken once bu dosya okunur
 6. Kalici kod degisiklikleri GitHub uzerinden yapilir. Kullanici acikca farkli bir yol istemedikce canli ortama GitHub disindan elle yama uygulanmaz.
 7. Yeni PRO Robot gelistirmeleri mevcut motoru bozmayacak sekilde ayrik, geri alinabilir katmanlar halinde eklenir; test edilmeden `main`e alinmaz.
 8. Kullanici sadece salt okunur kontrol/rapor istediyse GitHub dosyalari degistirilmez.
+9. GitHub Pages canli on yuz yayincisidir; Vercel `futbol-laboratuvari.vercel.app` korumali API/backend runtime'idir. Bu iki rol birbirine karistirilmaz.
+10. Vercel backend kodu yalniz GitHub `main` backend degisikliklerinden otomatik deploy edilir. Salt `data/` veya rapor commitleri Vercel deployment tetiklemez.
+11. `data/pro-analysis-index.json` uyelik korumali projection oldugu icin public GitHub reposuna commit edilmez. PRO API, uyelik dogrulandiktan sonra GitHub `main` icindeki guncel `data/robot-analysis.json` ve sonuc hafizasindan projection'i sunucu tarafinda olusturur.
+12. GitHub canli veri okumasi gecici olarak basarisiz olursa Vercel deployment icindeki son saglam PRO index fallback olarak kullanilir; bu fallback ana kaynak sayilmaz ve GitHub erisimi duzelince otomatik olarak guncel veriye donulur.
 
 ## Kritik dosyalar
 

@@ -2,7 +2,10 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "git": {
-    "deploymentEnabled": false
+    "deploymentEnabled": {
+      "main": true,
+      "*": false
+    }
   },
   "ignoreCommand": "node scripts/vercel-ignore-build.js",
   "installCommand": "npm install --omit=dev --ignore-scripts --package-lock=false",

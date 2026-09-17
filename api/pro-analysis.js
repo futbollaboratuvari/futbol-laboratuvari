@@ -1,12 +1,11 @@
 const fs = require("fs");
 const path = require("path");
 const { buildOfficialProIndex } = require("../scripts/official-pro-analysis");
+const { readRemoteProIndex } = require("../server-lib/pro-index-from-github");
 
 const VERIFY_URL = process.env.FL_BANK_TRANSFER_VERIFY_URL
   || "https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-transfer?action=verify-code";
 const PRO_INDEX_PATH = path.join(process.cwd(), "data", "pro-analysis-index.json");
-const PRO_INDEX_URL = process.env.FL_PRO_INDEX_URL
-  || "https://raw.githubusercontent.com/futbollaboratuvari/futbol-laboratuvari/main/data/pro-analysis-index.json";
 const WINDOW_MS = 10 * 60 * 1000;
 const MAX_ATTEMPTS = 20;
 const RATE_KEY = "__FL_PRO_ANALYSIS_RATE_LIMIT__";
@@ -95,15 +94,10 @@ function readLocalProIndex() {
 
 async function readProIndex() {
   try {
-    const response = await fetch(PRO_INDEX_URL, {
-      cache: "no-store",
-      headers: { "Accept": "application/json" },
-      signal: AbortSignal.timeout(5000),
-    });
-    if (!response.ok) throw new Error(`github_pro_index_${response.status}`);
-    return validateProIndex(await response.json());
+    return validateProIndex(await readRemoteProIndex());
   } catch {
-    return readLocalProIndex();
+    const local = readLocalProIndex();
+    return { ...local, runtime_source: "local_deployment_fallback" };
   }
 }
 
@@ -184,6 +178,7 @@ async function handler(req, res) {
 
 handler.readProIndex = readProIndex;
 handler.readLocalProIndex = readLocalProIndex;
+handler.readRemoteProIndex = readRemoteProIndex;
 handler.verifyMembership = verifyMembership;
 handler.membershipHasRights = membershipHasRights;
 handler.originAllowed = originAllowed;
