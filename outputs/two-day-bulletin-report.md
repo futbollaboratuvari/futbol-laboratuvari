@@ -3,15 +3,14 @@
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
 Ham mac: 34
-Aktif mac: 12
+Aktif mac: 11
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 22
-Bugun: 2
+Bultenden dusurulen mac: 23
+Bugun: 1
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-09-17 23:15 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | Cuniburo Fc - 9 De Octubre | scheduled | -
 - 2026-09-17 23:30 | Ekvador Pro Lig Serie B Küme Düşme Grubu | 22 De Julio - Cumbaya | scheduled | -
 - 2026-09-18 02:00 | Kolombiya Primera A Clausura | Bucaramanga - Independiente M | scheduled | -
 - 2026-09-18 03:00 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Santo Domingo - El Nacional | scheduled | -
