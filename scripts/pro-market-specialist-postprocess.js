@@ -1,0 +1,328 @@
+"use strict";
+
+const fs = require("fs");
+const path = require("path");
+const couponRules = require("../pro-coupon-eligibility");
+const { findMarketOdd } = require("./pro-goal-market-bridge");
+const { applyGoalMarketGate, htftAdjustment } = require("./market-specialist-gates");
+
+const root = path.join(__dirname, "..");
+const dataDir = path.join(root, "data");
+const robotPath = path.join(dataDir, "robot-analysis.json");
+const livePath = path.join(dataDir, "live-matches.json");
+const couponPath = path.join(dataDir, "daily-coupons.json");
+const htftPath = path.join(dataDir, "high-odds-htft.json");
+
+function readJson(file, fallback) {
+  try { return JSON.parse(fs.readFileSync(file, "utf8")); } catch { return fallback; }
+}
+
+function writeJson(file, value) {
+  fs.writeFileSync(file, `${JSON.stringify(value, null, 2)}\n`, "utf8");
+}
+
+function finite(value) {
+  if (value === undefined || value === null || value === "" || value === "-") return null;
+  const number = Number(String(value).replace("%", "").replace(",", "."));
+  return Number.isFinite(number) ? number : null;
+}
+
+function clean(value) {
+  return String(value || "")
+    .toLocaleLowerCase("tr-TR")
+    .replace(/ı/g, "i")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function matchName(item) {
+  return String(item?.match_name || item?.match || `${item?.home || ""} VS ${item?.away || ""}`).trim();
+}
+
+function keyFor(item) {
+  return `${String(item?.date || "").slice(0, 10)}|${clean(matchName(item))}`;
+}
+
+function poissonTotal(item) {
+  const poisson = item?.analysis_metrics?.poisson || item?.metrics?.poisson || item?.poisson || {};
+  const direct = finite(poisson.totalLambda ?? poisson.total_lambda);
+  if (direct !== null) return direct;
+  const home = finite(poisson.homeLambda ?? poisson.home_lambda);
+  const away = finite(poisson.awayLambda ?? poisson.away_lambda);
+  return home !== null && away !== null ? home + away : null;
+}
+
+function averageMemoryOver35(item) {
+  const direct = finite(item?.metrics?.over35Percent ?? item?.analysis_metrics?.over35Percent ?? item?.over35Percent);
+  if (direct !== null) return direct <= 1 ? direct * 100 : direct;
+  const memory = item?.analysis_metrics?.memory || item?.metrics?.memory || {};
+  const home = memory.home || {};
+  const away = memory.away || {};
+  const homeCount = finite(home.count) || 0;
+  const awayCount = finite(away.count) || 0;
+  const homeRate = finite(home.over35Rate);
+  const awayRate = finite(away.over35Rate);
+  if (homeCount < 3 || awayCount < 3 || homeRate === null || awayRate === null) return null;
+  return (homeRate + awayRate) / 2;
+}
+
+function goalContext(item, candidate) {
+  const rangeOdds = ["goals01", "goals23", "goals45"].map((name) => findMarketOdd([item], name));
+  return {
+    market: candidate?.market || candidate?.recommended_market,
+    totalLambda: poissonTotal(item),
+    over35Rate: averageMemoryOver35(item),
+    dataCompleteness: finite(candidate?.data_completeness),
+    completeRange: rangeOdds.every((value) => value !== null),
+  };
+}
+
+function specializeCompactGoalCandidate(candidate, item) {
+  if (!candidate) return null;
+  const normalized = {
+    ...candidate,
+    recommended_market: candidate.recommended_market || candidate.market,
+    market: candidate.market || candidate.recommended_market,
+    estimated_odds: candidate.estimated_odds || candidate.odds,
+    odds: candidate.odds || candidate.estimated_odds,
+    analysis_score: finite(candidate.analysis_score ?? candidate.model_score),
+    independent_evidence: candidate.independent_evidence !== false,
+    data_gap_risk: candidate.data_gap_risk || candidate.risk_level || "Orta",
+    squad_risk_level: candidate.squad_risk_level || item?.squad_risk_level || item?.team_intelligence?.squad_risk_level || "Belirsiz",
+    lineup_risk_level: candidate.lineup_risk_level || item?.lineup_risk_level || item?.team_intelligence?.lineup_risk_level || "Belirsiz",
+    signals: Array.isArray(candidate.signals) ? candidate.signals : [],
+  };
+  const adjusted = applyGoalMarketGate(normalized, goalContext(item, normalized));
+  adjusted.include_in_coupon = Boolean(candidate.include_in_coupon) && couponRules.meetsCouponCriteria(adjusted);
+  if (!adjusted.include_in_coupon && adjusted.risk_level === "Düşük") adjusted.risk_level = "Orta";
+  return adjusted;
+}
+
+function compactGoal(candidate) {
+  if (!candidate) return null;
+  return {
+    market: candidate.recommended_market || candidate.market,
+    odds: candidate.estimated_odds || candidate.odds,
+    model_score: candidate.model_score,
+    estimated_probability: candidate.estimated_probability,
+    market_probability: candidate.market_probability,
+    edge_percent: candidate.edge_percent,
+    data_completeness: candidate.data_completeness,
+    include_in_coupon: Boolean(candidate.include_in_coupon),
+    risk_level: candidate.risk_level,
+    value_label: candidate.value_label,
+    model_version: candidate.model_version,
+    robot_reason: candidate.robot_reason,
+    market_specialist: candidate.market_specialist || null,
+  };
+}
+
+function specializeGoalRow(row) {
+  if (!row || !Array.isArray(row.goal_market_candidates)) return row;
+  const specialized = row.goal_market_candidates
+    .map((candidate) => specializeCompactGoalCandidate(candidate, row))
+    .filter(Boolean)
+    .sort((a, b) => Number(b.include_in_coupon) - Number(a.include_in_coupon)
+      || Number(b.model_score || 0) - Number(a.model_score || 0));
+  const best = specialized[0] || null;
+  const output = {
+    ...row,
+    goal_market_candidates: specialized.map(compactGoal),
+    goal_market_pick: compactGoal(best),
+  };
+
+  const currentMarket = clean(row.recommended_market || row.market || row.selection);
+  const currentIsGoal = /3 5 ust|6 gol/.test(currentMarket);
+  if (currentIsGoal && best) {
+    output.model_score = best.model_score;
+    output.analysis_score = best.analysis_score;
+    output.confidence_score = `${best.model_score}%`;
+    output.market_specialist = best.market_specialist;
+    output.include_in_coupon = Boolean(best.include_in_coupon);
+    output.robot_comment = best.robot_reason || output.robot_comment;
+  }
+  return output;
+}
+
+function recalcCoupon(coupon) {
+  const rows = Array.isArray(coupon?.selected_matches) ? coupon.selected_matches : [];
+  const selected = rows.filter((leg) => leg.include_in_coupon !== false && couponRules.meetsCouponCriteria(leg));
+  if (!selected.length) {
+    return {
+      ...coupon,
+      selected_matches: [],
+      total_odds: "-",
+      average_confidence_score: "-",
+      combined_estimated_probability: null,
+      is_available: false,
+      robot_reason: "Market uzman kapısı sonrası uygun seçim kalmadı.",
+    };
+  }
+  const totalOdds = selected.reduce((product, leg) => product * (finite(leg.estimated_odds ?? leg.odds) || 1), 1);
+  const average = Math.round(selected.reduce((sum, leg) => sum + Number(leg.model_score || leg.analysis_score || 0), 0) / selected.length);
+  const allProbabilities = selected.every((leg) => finite(leg.estimated_probability) !== null);
+  const combinedProbability = allProbabilities
+    ? Number((selected.reduce((product, leg) => product * (finite(leg.estimated_probability) / 100), 1) * 100).toFixed(1))
+    : null;
+  return {
+    ...coupon,
+    selected_matches: selected.map((leg, index) => ({ ...leg, no: index + 1 })),
+    total_odds: totalOdds > 1 ? totalOdds.toFixed(2) : "-",
+    average_confidence_score: `${average}%`,
+    combined_estimated_probability: combinedProbability,
+    is_available: true,
+  };
+}
+
+function processGoalOutputs() {
+  const robot = readJson(robotPath, null);
+  if (!robot || !Array.isArray(robot.matches)) return { updated: false, candidate_count: 0 };
+  const originalMap = new Map(robot.matches.map((row) => [keyFor(row), row]));
+  robot.matches = robot.matches.map(specializeGoalRow);
+  const candidateMap = new Map();
+  for (const row of robot.matches) {
+    for (const candidate of row.goal_market_candidates || []) {
+      candidateMap.set(`${keyFor(row)}|${clean(candidate.market)}`, { candidate, row });
+    }
+  }
+  robot.market_specialist = {
+    ...(robot.market_specialist || {}),
+    version: "market-specialist-gates-v1",
+    goal_candidates_checked: candidateMap.size,
+  };
+  writeJson(robotPath, robot);
+
+  const live = readJson(livePath, null);
+  if (live) {
+    for (const listName of ["matches", "scheduled_matches", "active_items"]) {
+      if (!Array.isArray(live[listName])) continue;
+      live[listName] = live[listName].map((row) => {
+        const source = originalMap.get(keyFor(row));
+        if (!source) return row;
+        const specializedSource = robot.matches.find((match) => keyFor(match) === keyFor(row));
+        if (!specializedSource) return row;
+        return {
+          ...row,
+          goal_market_candidates: specializedSource.goal_market_candidates,
+          goal_market_pick: specializedSource.goal_market_pick,
+          market_specialist: specializedSource.market_specialist || row.market_specialist,
+          include_in_coupon: clean(row.recommended_market || row.market) === clean(specializedSource.recommended_market || specializedSource.market)
+            ? specializedSource.include_in_coupon : row.include_in_coupon,
+        };
+      });
+    }
+    live.market_specialist = robot.market_specialist;
+    writeJson(livePath, live);
+  }
+
+  const daily = readJson(couponPath, null);
+  if (daily?.coupons && typeof daily.coupons === "object") {
+    for (const [couponKey, coupon] of Object.entries(daily.coupons)) {
+      const rows = Array.isArray(coupon?.selected_matches) ? coupon.selected_matches : [];
+      const updatedRows = rows.map((leg) => {
+        const market = clean(leg.recommended_market || leg.market || leg.selection);
+        if (!/3 5 ust|6 gol/.test(market)) return leg;
+        const entry = candidateMap.get(`${keyFor(leg)}|${market}`);
+        if (!entry) return leg;
+        return {
+          ...leg,
+          ...entry.candidate,
+          recommended_market: entry.candidate.market,
+          market: entry.candidate.market,
+          selection: entry.candidate.market,
+          estimated_odds: entry.candidate.odds,
+          odds: entry.candidate.odds,
+          independent_evidence: true,
+        };
+      });
+      daily.coupons[couponKey] = recalcCoupon({ ...coupon, selected_matches: updatedRows });
+    }
+    daily.market_specialist = robot.market_specialist;
+    writeJson(couponPath, daily);
+  }
+
+  return { updated: true, candidate_count: candidateMap.size };
+}
+
+function implied(odds) {
+  const value = finite(odds);
+  return value && value > 1 ? 1 / value : null;
+}
+
+function htftOpenness(item) {
+  const odds = item?.available_odds || item?.odds || {};
+  const raw = item?.raw_market_guess_odds || {};
+  const over = implied(odds.over25 ?? raw.over25 ?? raw.over25_guess);
+  const under = implied(odds.under25 ?? raw.under25 ?? raw.under25_guess);
+  let overShare = 0.5;
+  if (over && under) overShare = over / (over + under);
+  const yes = implied(odds.bttsYes ?? raw.bttsYes ?? raw.bttsYes_guess);
+  const no = implied(odds.bttsNo ?? raw.bttsNo ?? raw.bttsNo_guess);
+  let bttsShare = 0.5;
+  if (yes && no) bttsShare = yes / (yes + no);
+  return clamp01((overShare * 0.65) + (bttsShare * 0.35));
+}
+
+function clamp01(value) {
+  return Math.max(0.25, Math.min(0.78, value));
+}
+
+function processHtftOutput() {
+  const output = readJson(htftPath, null);
+  if (!output || !Array.isArray(output.picks)) return { updated: false, pick_count: 0 };
+  const robot = readJson(robotPath, { matches: [] });
+  const rawMap = new Map((robot.matches || []).map((row) => [keyFor(row), row]));
+  output.picks = output.picks.map((pick) => {
+    const raw = rawMap.get(keyFor(pick)) || {};
+    const adjustment = htftAdjustment({
+      market: pick.market,
+      firstHalfSource: pick.first_half_signal_source,
+      openness: htftOpenness(raw),
+      dataCompleteness: pick.data_completeness,
+    });
+    const originalScore = finite(pick.model_confidence) || 0;
+    const adjustedScore = Math.max(0, Math.round(originalScore + adjustment.delta));
+    return {
+      ...pick,
+      model_confidence: adjustedScore,
+      market_specialist: {
+        ...adjustment,
+        original_model_score: originalScore,
+        adjusted_model_score: adjustedScore,
+      },
+      reason: adjustment.applied
+        ? `${pick.reason} Market uzman freni: ${adjustment.reasons.join(" ")}`
+        : pick.reason,
+    };
+  }).sort((a, b) => Number(b.model_confidence || 0) - Number(a.model_confidence || 0)
+    || Number(b.scenario_probability || 0) - Number(a.scenario_probability || 0));
+  output.market_specialist = {
+    version: "market-specialist-gates-v1",
+    htft_picks_checked: output.picks.length,
+    probability_policy: "Senaryo olasılığı değiştirilmez; yalnız model sinyal gücü çelişki halinde düşürülür.",
+  };
+  output.selected_count = output.picks.length;
+  writeJson(htftPath, output);
+  return { updated: true, pick_count: output.picks.length };
+}
+
+function main() {
+  const mode = process.argv[2] || "all";
+  const result = {};
+  if (mode === "all" || mode === "goal") result.goal = processGoalOutputs();
+  if (mode === "all" || mode === "htft") result.htft = processHtftOutput();
+  console.log(JSON.stringify(result));
+  return result;
+}
+
+if (require.main === module) main();
+module.exports = {
+  goalContext,
+  htftOpenness,
+  processGoalOutputs,
+  processHtftOutput,
+  specializeCompactGoalCandidate,
+  specializeGoalRow,
+};
