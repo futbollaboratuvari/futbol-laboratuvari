@@ -2,13 +2,13 @@
 
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
-Ham mac: 93
-Aktif mac: 93
+Ham mac: 123
+Aktif mac: 96
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 84
-Yarin: 9
+Bultenden dusurulen mac: 27
+Bugun: 86
+Yarin: 10
 
 ## Baslamamis Maclar
 - 2026-09-17 13:00 | AFC Şampiyonlar Ligi 2 Grup F | Adelaide Unite - Wofoo Tai Po | scheduled | -
@@ -54,6 +54,7 @@ Yarin: 9
 - 2026-09-17 19:00 | Ürdün 1.Lig | Hay Al-Amir Ha - Sama Al Sarhan | scheduled | -
 - 2026-09-17 19:00 | Norveç Kadınlar Toppserien | Vålerenga (K) - Haugesund (K) | scheduled | -
 - 2026-09-17 19:00 | Norveç Kadınlar Toppserien | Rosenborg (K) - Stabaek (K) | scheduled | -
+- 2026-09-17 19:00 | Norveç 3.Lig Grup 3 | Stord Sunnhord - Djerv | scheduled | -
 - 2026-09-17 19:30 | Danimarka DBU Kupası 3.Tur | Vejle - Brondby | scheduled | -
 - 2026-09-17 19:30 | Kadınlar U20 Dünya Kupası Son 16 Turu | Polonya U20 (K - Kolombiya U20 ( | scheduled | -
 - 2026-09-17 19:30 | Kadınlar U20 Dünya Kupası Son 16 Turu | Kuzey Kore U20 - Japonya U20 (K) | scheduled | -
@@ -63,6 +64,7 @@ Yarin: 9
 - 2026-09-17 19:30 | İtalya Serie C Grup A | Pro Vercelli - Alcione | scheduled | -
 - 2026-09-17 19:30 | İtalya Serie C Grup A | Pergolettese - Folgore Carates | scheduled | -
 - 2026-09-17 19:30 | İtalya Serie C Grup A | Lumezzane - Novara | scheduled | -
+- 2026-09-17 19:30 | Ruanda Ulusal Futbol Ligi | Rayon Sports - Sunrise | scheduled | -
 - 2026-09-17 19:45 | UEFA Avrupa Ligi Lig Aşaması | Levski Sofya - Salzburg | scheduled | -
 - 2026-09-17 19:45 | UEFA Avrupa Ligi Lig Aşaması | Ofi - Hoffenheim | scheduled | -
 - 2026-09-17 20:00 | İspanya LaLiga | Real Betis - Getafe | scheduled | -
@@ -104,6 +106,7 @@ Yarin: 9
 - 2026-09-18 03:30 | Bolivya Premier Lig | Bolivar - Gualberto Villa | scheduled | -
 - 2026-09-18 04:00 | Meksika Ascenso MX Apertura | Durango - Cruz Azul Hidal | scheduled | -
 - 2026-09-18 06:15 | CONCACAF Orta Amerika Kupası Çeyrek Final | Depor. Olimpia (3) - (0) Firpo | scheduled | -
+- 2026-09-18 07:00 | Japonya J2 Lig | Vanraure - Tegevajaro Miya | scheduled | -
 
 ## Canli Maclar
 Canli mac yok.

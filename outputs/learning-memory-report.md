@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.09.2026 10:52:47
+Oluşturma: 17.09.2026 12:53:24
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1087
-- Kazanan tahmin: 234
-- Kaybeden tahmin: 179
-- Lig sayısı: 283
+- Bekleyen tahmin: 1089
+- Kazanan tahmin: 233
+- Kaybeden tahmin: 178
+- Lig sayısı: 278
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -22,28 +22,28 @@ Oluşturma: 17.09.2026 10:52:47
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 8, bekleyen 5, başarı %67, düz getiri %63, ağırlık 1
-- 2.5 Alt: toplam 597, bekleyen 440, başarı %60, düz getiri %2, ağırlık 1
+- MS X: toplam 9, bekleyen 6, başarı %67, düz getiri %63, ağırlık 1
+- 2.5 Alt: toplam 602, bekleyen 446, başarı %60, düz getiri %3, ağırlık 1
 - KG Var: toplam 14, bekleyen 2, başarı %58, düz getiri %4, ağırlık 1
 - 2.5 Üst: toplam 162, bekleyen 92, başarı %57, düz getiri %4, ağırlık 1
-- MS 1: toplam 488, bekleyen 366, başarı %53, düz getiri %-11, ağırlık 1
-- MS 2: toplam 231, bekleyen 182, başarı %53, düz getiri %0, ağırlık 1
+- MS 2: toplam 232, bekleyen 183, başarı %53, düz getiri %0, ağırlık 1
+- MS 1: toplam 481, bekleyen 360, başarı %53, düz getiri %-12, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen - Union St.G | 2.5 Alt | pending | 53/100
+- 2026-09-17 | Meksika Ascenso MX Apertura | Durango - Cruz Azul Hidal | 2.5 Alt | pending | 56/100
+- 2026-09-17 | Japonya J2 Lig | Vanraure - Tegevajaro Miya | 2.5 Alt | pending | 56/100
+- 2026-09-17 | Ruanda Ulusal Futbol Ligi | Rayon Sports - Sunrise | 2.5 Alt | pending | 57/100
+- 2026-09-17 | Uganda Premier Lig | Express - Kitara | 2.5 Alt | pending | 48/100
+- 2026-09-17 | Tunus 1.Lig | Stade Tunis - Club Africain | MS X | pending | 43/100
+- 2026-09-17 | Nijerya NPFL | Enugu Rangers - Nasarawa United | 2.5 Alt | pending | 55/100
+- 2026-09-17 | Rusya Premier Lig | Rostov - Dinamo Moskova | 2.5 Üst | pending | 61/100
+- 2026-09-17 | Gürcistan Erovnuli Liga | Fc Iberia - Dila Gori | 2.5 Alt | pending | 52/100
+- 2026-09-17 | Norveç 3.Lig Grup 3 | Stord Sunnhord - Djerv | MS 2 | pending | 55/100
+- 2026-09-17 | Azerbaycan 1.Lig | Baku Sportinq - Sabail | MS 2 | pending | 52/100
+- 2026-09-17 | Yunanistan Kupa Lig Aşaması | Kalamata - Larisa | 2.5 Alt | pending | 55/100
+- 2026-09-17 | Mısır 2. Lig | Tanta - Nasr | MS 2 | pending | 42/100
+- 2026-09-17 | Kazakistan Premier Lig | Tobol Kostanay - Yelimay Semey | 2.5 Alt | pending | 48/100
 - 2026-09-17 | Mısır 2. Lig | Derot - El Harby | 2.5 Alt | pending | 57/100
-- 2026-09-17 | Brezilya Serie A | Botafogo - Gremio | MS 1 | won | 64/100
-- 2026-09-17 | ABD USL Lig 1 | Chattanooga Re - Forward Madison | 2.5 Alt | won | 60/100
-- 2026-09-17 | Copa Sudamericana Çeyrek Final | Atletico Mg (0) - (2) Santos | 2.5 Üst | won | 52/100
-- 2026-09-17 | Arjantin Kupa Çeyrek Final | Rivadavia - Atletico Tucuma | 2.5 Alt | won | 57/100
-- 2026-09-17 | Kadınlar U20 Dünya Kupası Son 16 Turu | Kuzey Kore U20 - Japonya U20 (K) | 2.5 Alt | pending | 55/100
-- 2026-09-17 | Kazakistan Premier Lig | Astana - Kairat Almaty | 2.5 Üst | pending | 53/100
-- 2026-09-17 | AFC Şampiyonlar Ligi 2 Grup F | Lion City - Bg Pathum Unite | MS 1 | pending | 49/100
-- 2026-09-17 | Kolombiya Primera A Clausura | Bucaramanga - Independiente M | 2.5 Üst | pending | 70/100
-- 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Real Sociedad - Bournemouth | MS X | pending | 60/100
-- 2026-09-17 | İspanya LaLiga | Malaga - Villarreal | KG Var | pending | 63/100
-- 2026-09-17 | Mısır 2. Lig | Ismaily - Haras El Hodood | 2.5 Alt | pending | 50/100
-- 2026-09-17 | ABD USL Lig 1 | Fort Wayne - One Knoxville | 2.5 Alt | lost | 61/100
-- 2026-09-17 | ABD MLS Next Pro | Real Monarchs - Minnesota Unite | 2.5 Alt | pending | 48/100
-- 2026-09-17 | Güney Afrika PSL | Orlando Pirate - Durban City | 2.5 Alt | pending | 56/100
 

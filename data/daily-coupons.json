@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T08:48:40.423Z",
+  "generated_at": "2026-09-17T09:53:17.896Z",
   "date": "2026-09-17",
-  "source": "PRO merkezi kupon uygunluk motoru",
-  "message": "6 doğrulanmış kupon adayı bulundu.",
+  "source": "PRO merkezi kupon uygunluk motoru + pro-goal-market-bridge-v2",
+  "message": "3.5 Üst / 6+ Gol tarandı; eşikleri geçen yeni yüksek gol adayı oluşmadı.",
   "candidate_count": 6,
   "eligibility_policy": "include_in_coupon + independent_evidence + model>=65 + completeness>=45 + probability>=42 + acceptable_risk",
   "coupons": {
@@ -12,40 +12,17 @@
       "selected_matches": [
         {
           "no": 1,
-          "id": "21215",
-          "match_name": "Real Betis VS Getafe",
-          "league": "İspanya LaLiga",
-          "start_time": "20:00",
-          "recommended_market": "2.5 Alt",
-          "estimated_odds": "1.51",
-          "model_score": 73,
-          "analysis_score": 73,
-          "estimated_probability": 58,
-          "market_probability": 56.5,
-          "edge_percent": 1.5,
-          "data_completeness": 67,
-          "independent_evidence": true,
-          "include_in_coupon": true,
-          "risk_level": "Orta",
-          "data_gap_risk": "Orta",
-          "squad_risk_level": "Belirsiz",
-          "lineup_risk_level": "Belirsiz",
-          "value_label": "Piyasa ile Uyumlu",
-          "robot_reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.51"
-        },
-        {
-          "no": 2,
           "id": "20503",
           "match_name": "Akron VS Akhmat Grozny",
           "league": "Rusya Premier Lig",
           "start_time": "18:30",
           "recommended_market": "2.5 Üst",
-          "estimated_odds": "1.85",
+          "estimated_odds": "1.76",
           "model_score": 75,
           "analysis_score": 75,
-          "estimated_probability": 55,
-          "market_probability": 46.1,
-          "edge_percent": 8.9,
+          "estimated_probability": 56.5,
+          "market_probability": 48.4,
+          "edge_percent": 8.1,
           "data_completeness": 67,
           "independent_evidence": true,
           "include_in_coupon": true,
@@ -54,7 +31,30 @@
           "squad_risk_level": "Belirsiz",
           "lineup_risk_level": "Belirsiz",
           "value_label": "Yüksek Değer",
-          "robot_reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Üst | Oran: 1.85"
+          "robot_reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Üst | Oran: 1.76"
+        },
+        {
+          "no": 2,
+          "id": "21215",
+          "match_name": "Real Betis VS Getafe",
+          "league": "İspanya LaLiga",
+          "start_time": "20:00",
+          "recommended_market": "2.5 Alt",
+          "estimated_odds": "1.61",
+          "model_score": 72,
+          "analysis_score": 72,
+          "estimated_probability": 55.5,
+          "market_probability": 52.6,
+          "edge_percent": 2.8,
+          "data_completeness": 67,
+          "independent_evidence": true,
+          "include_in_coupon": true,
+          "risk_level": "Orta",
+          "data_gap_risk": "Orta",
+          "squad_risk_level": "Belirsiz",
+          "lineup_risk_level": "Belirsiz",
+          "value_label": "Piyasa ile Uyumlu",
+          "robot_reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.61"
         },
         {
           "no": 3,
@@ -80,9 +80,9 @@
           "robot_reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.80"
         }
       ],
-      "total_odds": "5.03",
+      "total_odds": "5.10",
       "average_confidence_score": "73%",
-      "combined_estimated_probability": 17.3,
+      "combined_estimated_probability": 17,
       "risk_level": "Düşük-Orta",
       "short_description": "Yalnız doğrulanmış PRO kupon adaylarından oluşturuldu.",
       "robot_reason": "3 seçim aynı merkezi kupon uygunluk kuralını geçti.",
@@ -94,29 +94,6 @@
       "selected_matches": [
         {
           "no": 1,
-          "id": "20503",
-          "match_name": "Akron VS Akhmat Grozny",
-          "league": "Rusya Premier Lig",
-          "start_time": "18:30",
-          "recommended_market": "2.5 Üst",
-          "estimated_odds": "1.85",
-          "model_score": 75,
-          "analysis_score": 75,
-          "estimated_probability": 55,
-          "market_probability": 46.1,
-          "edge_percent": 8.9,
-          "data_completeness": 67,
-          "independent_evidence": true,
-          "include_in_coupon": true,
-          "risk_level": "Orta",
-          "data_gap_risk": "Orta",
-          "squad_risk_level": "Belirsiz",
-          "lineup_risk_level": "Belirsiz",
-          "value_label": "Yüksek Değer",
-          "robot_reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Üst | Oran: 1.85"
-        },
-        {
-          "no": 2,
           "id": "20426",
           "match_name": "Orenburg VS Krasnodar",
           "league": "Rusya Premier Lig",
@@ -139,7 +116,7 @@
           "robot_reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Alt | Oran: 1.80"
         },
         {
-          "no": 3,
+          "no": 2,
           "id": "23673",
           "match_name": "Bucaramanga VS Independiente M",
           "league": "Kolombiya Primera A Clausura",
@@ -162,7 +139,7 @@
           "robot_reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Üst | Oran: 1.92"
         },
         {
-          "no": 4,
+          "no": 3,
           "id": "23673",
           "match_name": "Bucaramanga VS Independiente M",
           "league": "Kolombiya Primera A Clausura",
@@ -185,12 +162,12 @@
           "robot_reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: 2.5 Üst | Oran: 1.89"
         }
       ],
-      "total_odds": "12.08",
-      "average_confidence_score": "72%",
-      "combined_estimated_probability": 7.3,
+      "total_odds": "6.53",
+      "average_confidence_score": "71%",
+      "combined_estimated_probability": 13.3,
       "risk_level": "Orta-Yüksek",
       "short_description": "Yalnız doğrulanmış PRO kupon adaylarından oluşturuldu.",
-      "robot_reason": "4 seçim aynı merkezi kupon uygunluk kuralını geçti.",
+      "robot_reason": "3 seçim aynı merkezi kupon uygunluk kuralını geçti.",
       "is_available": true
     },
     "risk_lab": {
@@ -201,9 +178,17 @@
       "average_confidence_score": "-",
       "combined_estimated_probability": null,
       "risk_level": "-",
-      "short_description": "Doğrulanmış kupon adayı yok. Uygunluk eşikleri sağlanmadan kupon yayımlanmaz.",
-      "robot_reason": "Bağımsız kanıt, model gücü, veri kapsamı, olasılık ve risk kuralları birlikte sağlanmadı.",
+      "short_description": "Doğrulanmış yüksek gol seçeneği yok.",
+      "robot_reason": "3.5 Üst / 6+ Gol için doğrudan oran ve bağımsız model eşikleri sağlanmadı.",
       "is_available": false
     }
+  },
+  "minimum_coupon_odd": 1.45,
+  "goal_market_bridge": {
+    "version": "pro-goal-market-bridge-v2",
+    "over35_candidate_count": 0,
+    "six_plus_candidate_count": 0,
+    "coupon_eligible_count": 0,
+    "minimum_coupon_odd": 1.45
   }
 }
