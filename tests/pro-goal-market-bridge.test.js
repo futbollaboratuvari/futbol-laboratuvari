@@ -114,13 +114,30 @@ assert.equal(sanitized.is_available, false);
 assert.equal(sanitized.selected_matches.length, 0);
 
 const labelFixture = {
+  detail_market_candidates: [
+    { market: "Toplam Gol", option: "6+ Gol", odd: "5,20", market_identity_verified: true },
+    { market: "Toplam Gol 3.5", option: "3.5 Üst", odd: "2,15", market_identity_verified: true },
+  ],
+};
+assert.equal(findMarketOdd([labelFixture], "goals6plus"), 5.2);
+assert.equal(findMarketOdd([labelFixture], "over35"), 2.15);
+
+const rawOnlyFixture = {
+  raw_market_guess_odds: { over35: 2.05, goals6plus: 5.20 },
   raw_market_blocks: [
     { market: "Toplam Gol", option: "6+ Gol", odd: "5,20" },
     { market: "Toplam Gol 3.5", option: "3.5 Üst", odd: "2,15" },
   ],
 };
-assert.equal(findMarketOdd([labelFixture], "goals6plus"), 5.2);
-assert.equal(findMarketOdd([labelFixture], "over35"), 2.15);
+assert.equal(findMarketOdd([rawOnlyFixture], "goals6plus"), null, "raw guessed 6+ price must never feed specialist");
+assert.equal(findMarketOdd([rawOnlyFixture], "over35"), null, "raw guessed 3.5 price must never feed specialist");
+
+const explicitlyUnverifiedLabel = {
+  detail_market_candidates: [
+    { market: "Toplam Gol 3.5", option: "3.5 Üst", odd: "2,15", market_identity_verified: false },
+  ],
+};
+assert.equal(findMarketOdd([explicitlyUnverifiedLabel], "over35"), null);
 
 const percentMasqueradingAsOdd = {
   raw_market_guess_odds: { over25: 1.78 },
