@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.09.2026 16:38:09
+Oluşturma: 17.09.2026 17:45:47
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1089
-- Kazanan tahmin: 233
+- Bekleyen tahmin: 1088
+- Kazanan tahmin: 234
 - Kaybeden tahmin: 178
-- Lig sayısı: 277
+- Lig sayısı: 276
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -23,27 +23,27 @@ Oluşturma: 17.09.2026 16:38:09
 ## En Güçlü Seçenek Hafızası
 
 - MS X: toplam 9, bekleyen 6, başarı %67, düz getiri %63, ağırlık 1
-- 2.5 Alt: toplam 603, bekleyen 447, başarı %60, düz getiri %3, ağırlık 1
+- 2.5 Alt: toplam 604, bekleyen 447, başarı %61, düz getiri %4, ağırlık 1
 - KG Var: toplam 14, bekleyen 2, başarı %58, düz getiri %4, ağırlık 1
 - 2.5 Üst: toplam 161, bekleyen 92, başarı %58, düz getiri %5, ağırlık 1
-- MS 1: toplam 479, bekleyen 358, başarı %53, düz getiri %-12, ağırlık 1
-- MS 2: toplam 234, bekleyen 184, başarı %52, düz getiri %-2, ağırlık 1
+- MS 1: toplam 476, bekleyen 355, başarı %53, düz getiri %-12, ağırlık 1
+- MS 2: toplam 236, bekleyen 186, başarı %52, düz getiri %-2, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-17 | Ekvador Pro Lig Serie B Küme Düşme Grubu | 22 De Julio - Cumbaya | MS 2 | pending | 46/100
+- 2026-09-17 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Santo Domingo - El Nacional | 2.5 Alt | pending | 48/100
+- 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Levski Sofya - Salzburg | MS 2 | pending | 48/100
+- 2026-09-17 | Uruguay Kupa Ön Eleme Turu Grup 4 | Central Espano - Oriental | 2.5 Alt | pending | 55/100
+- 2026-09-17 | Rusya FNL | Torpedo Moskov - Veles | 2.5 Alt | pending | 56/100
+- 2026-09-17 | Estonya Esiliiga A | Viimsi Mrjk - Tartu Welco | MS 2 | pending | 44/100
+- 2026-09-17 | Ekvador Pro Lig Serie B Küme Düşme Grubu | 22 De Julio - Cumbaya | MS 2 | pending | 48/100
 - 2026-09-17 | Mısır Premier Lig | Enppi - Pyramids Fc | 2.5 Alt | pending | 55/100
 - 2026-09-17 | Mısır 2. Lig | El Daklyeh - Tersana | MS 2 | pending | 43/100
 - 2026-09-17 | Rusya FNL | Olimpiyets - Leningradets | 2.5 Alt | pending | 50/100
 - 2026-09-17 | ABD USL | Birmingham Leg - New Mexico Unit | MS 2 | lost | 55/100
 - 2026-09-17 | AFC Şampiyonlar Ligi 2 Grup H | Kitchee Footba - Gangwon | MS 1 | pending | 58/100
 - 2026-09-17 | Kadınlar U20 Dünya Kupası Son 16 Turu | Fransa U20 (K) - Kanada U20 (K) | 2.5 Alt | pending | 53/100
-- 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen - Union St.G | 2.5 Alt | pending | 53/100
+- 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen - Union St.G | 2.5 Alt | pending | 51/100
 - 2026-09-17 | Meksika Ascenso MX Apertura | Durango - Cruz Azul Hidal | 2.5 Alt | pending | 56/100
 - 2026-09-17 | Japonya J2 Lig | Vanraure - Tegevajaro Miya | 2.5 Alt | pending | 56/100
-- 2026-09-17 | Ruanda Ulusal Futbol Ligi | Rayon Sports - Sunrise | 2.5 Alt | pending | 57/100
-- 2026-09-17 | Uganda Premier Lig | Express - Kitara | 2.5 Alt | pending | 50/100
-- 2026-09-17 | Tunus 1.Lig | Stade Tunis - Club Africain | MS X | pending | 43/100
-- 2026-09-17 | Nijerya NPFL | Enugu Rangers - Nasarawa United | 2.5 Alt | pending | 55/100
-- 2026-09-17 | Rusya Premier Lig | Rostov - Dinamo Moskova | 2.5 Üst | pending | 61/100
 

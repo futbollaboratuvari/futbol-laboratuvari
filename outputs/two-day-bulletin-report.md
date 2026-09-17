@@ -2,21 +2,15 @@
 
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
-Ham mac: 96
-Aktif mac: 76
+Ham mac: 123
+Aktif mac: 70
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 20
-Bugun: 66
+Bultenden dusurulen mac: 53
+Bugun: 60
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-09-17 17:00 | Mısır Premier Lig | Zed - Al Qanah | scheduled | -
-- 2026-09-17 17:00 | Rusya FNL | Tekstilshchik - Rotor Volgograd | scheduled | -
-- 2026-09-17 17:00 | Kazakistan Premier Lig | Astana - Kairat Almaty | scheduled | -
-- 2026-09-17 17:00 | Kazakistan Premier Lig | Tobol Kostanay - Yelimay Semey | scheduled | -
-- 2026-09-17 17:00 | Uganda Premier Lig | Updf - Maroons | scheduled | -
-- 2026-09-17 17:45 | Yunanistan Kupa Lig Aşaması | Aek - Panserraikos | scheduled | -
 - 2026-09-17 18:00 | Tunus 1.Lig | Stade Tunis - Club Africain | scheduled | -
 - 2026-09-17 18:00 | Kazakistan Premier Lig | Atyrau - Ordabasy | scheduled | -
 - 2026-09-17 18:00 | Nijerya NPFL | Enugu Rangers - Nasarawa United | scheduled | -
