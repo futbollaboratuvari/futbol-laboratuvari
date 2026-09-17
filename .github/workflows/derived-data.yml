@@ -58,6 +58,7 @@ jobs:
         run: |
           node tests/team-intelligence.test.js
           node tests/source-consensus.test.js
+          node tests/source-consensus-band.test.js
 
       - name: Validate derived outputs
         run: node scripts/validate-json-no-conflicts.js
