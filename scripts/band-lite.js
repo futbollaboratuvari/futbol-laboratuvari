@@ -47,6 +47,33 @@ function readText(row, keys) {
   return '';
 }
 
+function riskRank(value) {
+  const text = keyOf(value);
+  if (text.includes('yuksek')) return 3;
+  if (text.includes('orta') || text.includes('belirsiz') || text.includes('veri yok')) return 2;
+  if (text.includes('dusuk')) return 1;
+  return 0;
+}
+
+function worstRisk(...values) {
+  const rank = Math.max(...values.map(riskRank), 0);
+  if (rank >= 3) return 'Yüksek';
+  if (rank >= 2) return 'Orta';
+  if (rank === 1) return 'Düşük';
+  return '';
+}
+
+function consensusRisk(consensus) {
+  if (!consensus || typeof consensus !== 'object') return '';
+  const conflict = String(consensus.conflict_level || 'none').toLowerCase();
+  const confidence = Number(consensus.confidence_score);
+  if (conflict === 'high') return 'Yüksek';
+  if (conflict === 'medium') return 'Orta';
+  if (Number.isFinite(confidence) && confidence < 40) return 'Belirsiz';
+  if (Number.isFinite(confidence) && confidence < 60) return 'Orta';
+  return '';
+}
+
 function byMatch(file) {
   const data = readJson(path.join(dataDir, file), { matches: [] });
   const out = {};
@@ -59,13 +86,18 @@ function mergeSignals(row, maps) {
   const fallbackKey = keyOf(matchName(row));
   const status = maps.status[key] || maps.status[fallbackKey] || null;
   const lineup = maps.lineup[key] || maps.lineup[fallbackKey] || {};
+  const consensus = maps.consensus?.[key] || maps.consensus?.[fallbackKey] || null;
+  const sourceRisk = consensusRisk(consensus);
   const homeAway = maps.homeAway[key] || maps.homeAway[fallbackKey] || {};
   const standing = maps.standing[key] || maps.standing[fallbackKey] || {};
   const league = maps.league[key] || maps.league[fallbackKey] || {};
+  const legacySquadRisk = status?.squad_risk_level || 'Belirsiz';
+  const squadRisk = sourceRisk ? (worstRisk(legacySquadRisk, sourceRisk) || legacySquadRisk) : legacySquadRisk;
   return {
     ...row,
     band_extra: {
-      squad_risk_level: status?.squad_risk_level || 'Belirsiz',
+      squad_risk_level: squadRisk,
+      source_risk_level: sourceRisk || 'Düşük',
       squad_verified_team_count: Number.isFinite(Number(status?.verified_team_count)) ? Number(status.verified_team_count) : 0,
       squad_signal_team_count: Number.isFinite(Number(status?.signal_team_count)) ? Number(status.signal_team_count) : 0,
       named_player_count: Number.isFinite(Number(status?.named_player_count)) ? Number(status.named_player_count) : 0,
@@ -75,6 +107,11 @@ function mergeSignals(row, maps) {
       matchup_analysis: lineup.matchup_analysis || null,
       team_status: status ? { home: status.home_status, away: status.away_status } : null,
       lineup: lineup ? { home: lineup.home_lineup, away: lineup.away_lineup } : null,
+      source_consensus: consensus,
+      source_confidence_score: consensus && Number.isFinite(Number(consensus.confidence_score)) ? Number(consensus.confidence_score) : null,
+      source_conflict_level: consensus?.conflict_level || 'none',
+      source_uncertainty_brake: consensus && Number.isFinite(Number(consensus.uncertainty_brake)) ? Number(consensus.uncertainty_brake) : 0,
+      source_consensus_note: consensus?.robot_note || '',
       home_edge: homeAway.home_edge,
       away_edge: homeAway.away_edge,
       momentum_difference: standing.momentum_difference,
@@ -91,6 +128,8 @@ function labelFor(row, bands) {
   const missing = readNumber(row, ['data_missing_count']) || 0;
   const squad = [readText(row, ['squad_risk_level']), readText(row, ['lineup_risk_level'])].join(' ').toLocaleLowerCase('tr-TR');
   const verifiedTeams = readNumber(row, ['squad_verified_team_count']);
+  const sourceConfidence = readNumber(row, ['source_confidence_score']);
+  const sourceConflict = readText(row, ['source_conflict_level']).toLocaleLowerCase('tr-TR');
   const homeEdge = readNumber(row, ['home_edge']);
   const awayEdge = readNumber(row, ['away_edge']);
   const momentum = readNumber(row, ['momentum_difference']);
@@ -122,6 +161,20 @@ function labelFor(row, bands) {
     level = 'Orta';
     notes.push('İki takım için de doğrulanmış kadro verisi yok.');
   }
+  if (sourceConflict === 'high') {
+    level = 'Yüksek';
+    notes.push('Kadro/ilk 11 kaynakları arasında yüksek seviyeli çelişki var.');
+  } else if (sourceConflict === 'medium') {
+    if (level === 'Düşük') level = 'Orta';
+    notes.push('Kadro kaynakları arasında doğrulama gerektiren çelişki var.');
+  }
+  if (sourceConfidence !== null && sourceConfidence < 40) {
+    level = 'Yüksek';
+    notes.push(`Kaynak güven puanı düşük (${sourceConfidence}/100).`);
+  } else if (sourceConfidence !== null && sourceConfidence < 60 && level === 'Düşük') {
+    level = 'Orta';
+    notes.push(`Kaynak güven puanı sınırlı (${sourceConfidence}/100).`);
+  }
   if (q !== null && q <= bands.short && homeEdge !== null && awayEdge !== null && Math.abs(homeEdge - awayEdge) < 0.15) {
     level = level === 'Yüksek' ? 'Yüksek' : 'Orta';
     notes.push('Kısa bant var ama iç/dış saha farkı belirgin değil.');
@@ -139,6 +192,7 @@ function runBandLite() {
   const maps = {
     status: byMatch('team-status-signals.json'),
     lineup: byMatch('lineup-signals.json'),
+    consensus: byMatch('team-source-consensus.json'),
     homeAway: byMatch('home-away-performance.json'),
     standing: byMatch('standings-signals.json'),
     league: byMatch('league-expansion-signals.json')
@@ -170,4 +224,4 @@ function runBandLite() {
 }
 
 if (require.main === module) runBandLite();
-module.exports = { runBandLite, labelFor, matchKey, matchName, mergeSignals };
+module.exports = { consensusRisk, runBandLite, labelFor, matchKey, matchName, mergeSignals, worstRisk };
