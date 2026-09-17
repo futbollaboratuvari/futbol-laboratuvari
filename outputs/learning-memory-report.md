@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.09.2026 00:03:12
+Oluşturma: 18.09.2026 00:05:45
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1083
-- Kazanan tahmin: 235
+- Bekleyen tahmin: 1082
+- Kazanan tahmin: 236
 - Kaybeden tahmin: 182
 - Lig sayısı: 274
 - Seçenek sayısı: 6
@@ -27,7 +27,7 @@ Oluşturma: 18.09.2026 00:03:12
 - KG Var: toplam 14, bekleyen 2, başarı %58, düz getiri %4, ağırlık 1
 - 2.5 Üst: toplam 161, bekleyen 90, başarı %56, düz getiri %1, ağırlık 1
 - MS 2: toplam 234, bekleyen 185, başarı %53, düz getiri %-1, ağırlık 1
-- MS 1: toplam 479, bekleyen 357, başarı %53, düz getiri %-13, ağırlık 1
+- MS 1: toplam 479, bekleyen 356, başarı %53, düz getiri %-12, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
@@ -39,7 +39,7 @@ Oluşturma: 18.09.2026 00:03:12
 - 2026-09-18 | Meksika Ascenso MX Apertura | Durango - Cruz Azul Hidal | 2.5 Alt | pending | 54/100
 - 2026-09-18 | CONCACAF Orta Amerika Kupası Çeyrek Final | Depor. Olimpia (3) - (0) Firpo | 2.5 Alt | pending | 39/100
 - 2026-09-18 | Japonya J2 Lig | Vanraure - Tegevajaro Miya | 2.5 Alt | pending | 54/100
-- 2026-09-17 | İspanya LaLiga | Real Betis - Getafe | MS 1 | pending | 71/100
+- 2026-09-17 | İspanya LaLiga | Real Betis - Getafe | MS 1 | won | 71/100
 - 2026-09-17 | AFC Şampiyonlar Ligi 2 Grup H | Phnom Penh Cro - Kuching Fa | MS 1 | won | 42/100
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Crystal Palace - Lech Poznan | MS 1 | pending | 66/100
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen - Union St.G | MS 1 | pending | 43/100
