@@ -5,7 +5,6 @@ on:
     branches:
       - feat/pro-prematch-final-check
     paths:
-      - tests/pre-match-final-check.test.js
       - .github/workflows/prematch-patcher.yml
   workflow_dispatch:
 
@@ -23,7 +22,6 @@ jobs:
           sparse-checkout: |
             pro-coupon-eligibility.js
             package.json
-            .github/workflows
           sparse-checkout-cone-mode: true
 
       - name: Apply focused wiring
@@ -55,19 +53,12 @@ jobs:
           replace_once(path, 'node scripts/market-provenance-guard.js && node scripts/export-high-value-json.js', 'node scripts/market-provenance-guard.js && node scripts/pre-match-final-check.js && node scripts/export-high-value-json.js')
           replace_once(path, 'node tests/source-consensus.test.js && node tests/source-consensus-band.test.js"', 'node tests/source-consensus.test.js && node tests/pre-match-final-check.test.js && node tests/source-consensus-band.test.js"')
           replace_once(path, 'node scripts/source-consensus.js && node scripts/team-status-apply.js && node scripts/band-lite.js', 'node scripts/source-consensus.js && node scripts/pre-match-final-check.js && node scripts/team-status-apply.js && node scripts/band-lite.js')
-
-          path = '.github/workflows/derived-data.yml'
-          replace_once(path, '''          node scripts/source-consensus.js\n          node scripts/home-away-lite.js\n''', '''          node scripts/source-consensus.js\n          node scripts/pre-match-final-check.js\n          node scripts/home-away-lite.js\n''')
-          replace_once(path, '''          node tests/source-consensus.test.js\n          node tests/source-consensus-band.test.js\n''', '''          node tests/source-consensus.test.js\n          node tests/pre-match-final-check.test.js\n          node tests/source-consensus-band.test.js\n''')
-
-          path = '.github/workflows/live-data-trigger.yml'
-          replace_once(path, '''      - name: Export High Value JSON\n        continue-on-error: true\n        run: node scripts/export-high-value-json.js\n''', '''      - name: Run T60 T30 T10 pre-match final check\n        run: |\n          node tests/pre-match-final-check.test.js\n          node scripts/pre-match-final-check.js\n\n      - name: Export High Value JSON\n        continue-on-error: true\n        run: node scripts/export-high-value-json.js\n''')
           PY
 
       - name: Commit wiring
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pro-coupon-eligibility.js package.json .github/workflows/derived-data.yml .github/workflows/live-data-trigger.yml
+          git add pro-coupon-eligibility.js package.json
           git commit -m "feat: connect T60 T30 T10 final check to PRO coupon gate"
           git push origin HEAD:feat/pro-prematch-final-check
