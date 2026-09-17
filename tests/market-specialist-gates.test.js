@@ -9,6 +9,7 @@ const {
   goalMarketAdjustment,
   htftAdjustment,
 } = require("../scripts/market-specialist-gates");
+const { selectHtftPicks } = require("../scripts/pro-market-specialist-postprocess");
 
 assert.equal(VERSION, "market-specialist-gates-v2");
 
@@ -250,6 +251,43 @@ function memory(home, away) {
     sourceConflict: "high",
   });
   assert.equal(highConflict.decision, "block");
+})();
+
+(function fullHtftPoolIsRankedAfterSpecialistBlocking() {
+  const base = {
+    date: "2099-01-01",
+    market: "1/2",
+    bookmaker_odds: 18.5,
+    odds_verified: true,
+    first_half_signal_source: "detail_market_candidates",
+    first_half_signal_verified: true,
+    openness_score: 0.64,
+    data_completeness: 80,
+    scenario_probability: 5.2,
+    identity_match_score: 100,
+    identity_match_source: "date_teams",
+    risk_level: "Yüksek",
+    reason: "test",
+  };
+  const pool = [
+    {
+      ...base,
+      match_name: "Blocked Leader VS Test",
+      model_confidence: 92,
+      first_half_signal_source: "derived_from_full_time_direction",
+      first_half_signal_verified: false,
+    },
+    { ...base, match_name: "Eligible One VS Test", model_confidence: 86 },
+    { ...base, match_name: "Eligible Two VS Test", model_confidence: 82, market: "2/1" },
+    { ...base, match_name: "Eligible Three VS Test", model_confidence: 78 },
+  ];
+  const result = selectHtftPicks(pool, new Map(), 3);
+  assert.equal(result.evaluated.length, 4);
+  assert.equal(result.rejected.length, 1);
+  assert.equal(result.selected.length, 3);
+  assert.ok(result.selected.every((pick) => pick.first_half_signal_verified === true));
+  assert.ok(!result.selected.some((pick) => pick.match_name.includes("Blocked Leader")));
+  assert.ok(result.selected.some((pick) => pick.match_name.includes("Eligible Three")));
 })();
 
 process.stdout.write("market-specialist-gates tests passed\n");
