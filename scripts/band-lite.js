@@ -91,7 +91,8 @@ function mergeSignals(row, maps) {
   const homeAway = maps.homeAway[key] || maps.homeAway[fallbackKey] || {};
   const standing = maps.standing[key] || maps.standing[fallbackKey] || {};
   const league = maps.league[key] || maps.league[fallbackKey] || {};
-  const squadRisk = worstRisk(status?.squad_risk_level || 'Belirsiz', sourceRisk) || 'Belirsiz';
+  const legacySquadRisk = status?.squad_risk_level || 'Belirsiz';
+  const squadRisk = sourceRisk ? (worstRisk(legacySquadRisk, sourceRisk) || legacySquadRisk) : legacySquadRisk;
   return {
     ...row,
     band_extra: {
