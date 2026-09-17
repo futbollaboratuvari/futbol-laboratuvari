@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.09.2026 17:45:47
+Oluşturma: 17.09.2026 18:44:26
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1088
-- Kazanan tahmin: 234
+- Bekleyen tahmin: 1089
+- Kazanan tahmin: 233
 - Kaybeden tahmin: 178
 - Lig sayısı: 276
 - Seçenek sayısı: 6
@@ -25,19 +25,20 @@ Oluşturma: 17.09.2026 17:45:47
 - MS X: toplam 9, bekleyen 6, başarı %67, düz getiri %63, ağırlık 1
 - 2.5 Alt: toplam 604, bekleyen 447, başarı %61, düz getiri %4, ağırlık 1
 - KG Var: toplam 14, bekleyen 2, başarı %58, düz getiri %4, ağırlık 1
-- 2.5 Üst: toplam 161, bekleyen 92, başarı %58, düz getiri %5, ağırlık 1
-- MS 1: toplam 476, bekleyen 355, başarı %53, düz getiri %-12, ağırlık 1
+- 2.5 Üst: toplam 160, bekleyen 92, başarı %57, düz getiri %4, ağırlık 1
+- MS 1: toplam 477, bekleyen 356, başarı %53, düz getiri %-12, ağırlık 1
 - MS 2: toplam 236, bekleyen 186, başarı %52, düz getiri %-2, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-17 | Rusya FNL | Olimpiyets - Leningradets | MS 1 | pending | 59/100
 - 2026-09-17 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Santo Domingo - El Nacional | 2.5 Alt | pending | 48/100
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Levski Sofya - Salzburg | MS 2 | pending | 48/100
-- 2026-09-17 | Uruguay Kupa Ön Eleme Turu Grup 4 | Central Espano - Oriental | 2.5 Alt | pending | 55/100
+- 2026-09-17 | Uruguay Kupa Ön Eleme Turu Grup 4 | Central Espano - Oriental | 2.5 Alt | pending | 56/100
 - 2026-09-17 | Rusya FNL | Torpedo Moskov - Veles | 2.5 Alt | pending | 56/100
 - 2026-09-17 | Estonya Esiliiga A | Viimsi Mrjk - Tartu Welco | MS 2 | pending | 44/100
 - 2026-09-17 | Ekvador Pro Lig Serie B Küme Düşme Grubu | 22 De Julio - Cumbaya | MS 2 | pending | 48/100
-- 2026-09-17 | Mısır Premier Lig | Enppi - Pyramids Fc | 2.5 Alt | pending | 55/100
+- 2026-09-17 | Mısır Premier Lig | Enppi - Pyramids Fc | 2.5 Alt | pending | 53/100
 - 2026-09-17 | Mısır 2. Lig | El Daklyeh - Tersana | MS 2 | pending | 43/100
 - 2026-09-17 | Rusya FNL | Olimpiyets - Leningradets | 2.5 Alt | pending | 50/100
 - 2026-09-17 | ABD USL | Birmingham Leg - New Mexico Unit | MS 2 | lost | 55/100
@@ -45,5 +46,4 @@ Oluşturma: 17.09.2026 17:45:47
 - 2026-09-17 | Kadınlar U20 Dünya Kupası Son 16 Turu | Fransa U20 (K) - Kanada U20 (K) | 2.5 Alt | pending | 53/100
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen - Union St.G | 2.5 Alt | pending | 51/100
 - 2026-09-17 | Meksika Ascenso MX Apertura | Durango - Cruz Azul Hidal | 2.5 Alt | pending | 56/100
-- 2026-09-17 | Japonya J2 Lig | Vanraure - Tegevajaro Miya | 2.5 Alt | pending | 56/100
 
