@@ -18,6 +18,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: chore/pro-validation-log-close
+          sparse-checkout: |
+            DONT_TOUCH.md
+            .github/workflows/pro-validation-log-closer.yml
+          sparse-checkout-cone-mode: false
       - name: Close live validation records
         run: |
           python - <<'PY'
