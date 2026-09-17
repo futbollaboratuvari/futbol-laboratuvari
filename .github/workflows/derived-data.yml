@@ -44,6 +44,7 @@ jobs:
           node scripts/team-status-lite.js
           node scripts/lineup-lite.js
           node scripts/source-consensus.js
+          node scripts/pre-match-final-check.js
           node scripts/home-away-lite.js
           node scripts/standings-lite.js
           node scripts/league-structure-lite.js
@@ -58,6 +59,7 @@ jobs:
         run: |
           node tests/team-intelligence.test.js
           node tests/source-consensus.test.js
+          node tests/pre-match-final-check.test.js
           node tests/source-consensus-band.test.js
 
       - name: Validate derived outputs

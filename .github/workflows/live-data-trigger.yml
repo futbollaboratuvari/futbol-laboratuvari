@@ -75,6 +75,11 @@ jobs:
           node tests/market-provenance.test.js
           node scripts/market-provenance-guard.js
 
+      - name: Run T60 T30 T10 pre-match final check
+        run: |
+          node tests/pre-match-final-check.test.js
+          node scripts/pre-match-final-check.js
+
       - name: Export High Value JSON
         continue-on-error: true
         run: node scripts/export-high-value-json.js

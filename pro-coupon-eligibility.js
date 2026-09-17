@@ -43,12 +43,40 @@
       || /^pro-goal-market-bridge-v\d+/i.test(String(item?.model_version || item?.goal_market_bridge_version || ""));
   }
 
+  function preMatchFinalCheck(item) {
+    return item?.pre_match_final_check || item?.team_intelligence?.pre_match_final_check || null;
+  }
+
+  function preMatchDecision(item) {
+    const check = preMatchFinalCheck(item);
+    if (!check || check.active === false) return "keep";
+    const value = String(check.effective_decision || check.decision || "keep").toLowerCase();
+    return ["keep", "downgrade", "block"].includes(value) ? value : "keep";
+  }
+
+  function effectiveModelScore(item) {
+    const score = finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score);
+    if (score === null) return null;
+    const decision = preMatchDecision(item);
+    const penalty = decision === "block" ? 12 : decision === "downgrade" ? 4 : 0;
+    return Math.max(0, score - penalty);
+  }
+
+  function effectiveCompleteness(item) {
+    const completeness = finite(item?.data_completeness);
+    if (completeness === null) return null;
+    const decision = preMatchDecision(item);
+    const penalty = decision === "block" ? 8 : decision === "downgrade" ? 3 : 0;
+    return Math.max(0, completeness - penalty);
+  }
+
   function hasAcceptableOdd(item) {
     const odd = finite(item?.estimated_odds ?? item?.odds ?? item?.odd);
     return odd !== null && odd >= MIN_COUPON_ODD;
   }
 
   function hasBlockingRisk(item) {
+    if (preMatchDecision(item) === "block") return true;
     const risks = clean([
       item?.risk_level,
       item?.risk,
@@ -72,7 +100,7 @@
     const probability = finite(item?.estimated_probability);
     const marketProbability = finite(item?.market_probability);
     const providedEdge = finite(item?.edge_percent);
-    const modelScore = finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score);
+    const modelScore = effectiveModelScore(item);
 
     if (odd === null) {
       return { pass: false, band: "no_price", odd: null, reason: "Doğrulanmış oran yok; kupon için değer ölçülemedi." };
@@ -169,8 +197,8 @@
   function meetsCouponCriteria(item) {
     const sixPlus = isSixPlusMarket(item);
     const highGoal = isHighGoalMarket(item);
-    const modelScore = finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score);
-    const completeness = finite(item?.data_completeness);
+    const modelScore = effectiveModelScore(item);
+    const completeness = effectiveCompleteness(item);
     const probability = finite(item?.estimated_probability);
     const odd = finite(item?.estimated_odds ?? item?.odds ?? item?.odd);
 
@@ -205,8 +233,8 @@
   function isProReadyFallback(item) {
     return !isCouponEligible(item)
       && Boolean(item?.independent_evidence)
-      && finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score) >= 60
-      && finite(item?.data_completeness) >= 35
+      && effectiveModelScore(item) >= 60
+      && effectiveCompleteness(item) >= 35
       && validMarket(item)
       && hasAcceptableOdd(item)
       && !hasBlockingRisk(item);
@@ -225,8 +253,8 @@
         + Math.max(0, (Number(quality.expected_value || 1) - 1) * 1000)
       : 0;
     return ((finite(item?.estimated_probability) || 0) * 100)
-      + ((finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score) || 0) * 25)
-      + ((finite(item?.data_completeness) || 0) * 15)
+      + ((effectiveModelScore(item) || 0) * 25)
+      + ((effectiveCompleteness(item) || 0) * 15)
       + valueBoost;
   }
 
@@ -252,6 +280,8 @@
     EDGE_CONSISTENCY_TOLERANCE,
     MIN_COUPON_ODD,
     clean,
+    effectiveCompleteness,
+    effectiveModelScore,
     finite,
     hasAcceptableOdd,
     hasBlockingRisk,
@@ -263,6 +293,8 @@
     isWatchView,
     meetsCouponCriteria,
     passesValueQuality,
+    preMatchDecision,
+    preMatchFinalCheck,
     rank,
     selectStrongestMatches,
     validMarket,
