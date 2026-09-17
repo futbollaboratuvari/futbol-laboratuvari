@@ -1,10 +1,9 @@
 {
-  "generated_at": "2026-09-17T19:54:34.581Z",
+  "generated_at": "2026-09-17T21:32:43.602Z",
   "date": "2026-09-18",
-  "requested_date": "2026-09-17",
-  "date_fallback_used": true,
+  "requested_date": "2026-09-18",
+  "date_fallback_used": false,
   "evaluated_dates": [
-    "2026-09-17",
     "2026-09-18"
   ],
   "engine": "Futbol Laboratuvarı Yüksek Oran İY/MS v3",
@@ -15,66 +14,28 @@
     "1/2",
     "2/1"
   ],
-  "scan_count": 9,
-  "scheduled_scan_count": 7,
-  "official_match_count": 1111,
+  "scan_count": 0,
+  "scheduled_scan_count": 0,
+  "official_match_count": 1093,
   "official_htft_match_count": 52,
   "official_high_odds_match_count": 52,
-  "identity_match_count": 2,
+  "identity_match_count": 0,
   "matched_by_official_id_count": 0,
   "matched_by_date_teams_count": 0,
-  "matched_by_date_time_similarity_count": 2,
+  "matched_by_date_time_similarity_count": 0,
   "ambiguous_identity_count": 0,
-  "unmatched_identity_count": 5,
-  "candidate_count": 1,
-  "selected_count": 1,
+  "unmatched_identity_count": 0,
+  "candidate_count": 0,
+  "selected_count": 0,
   "target_card_count": 3,
   "status": "insufficient_verified_odds",
   "odds_label": "Resmî İddaa İY/MS oranı",
   "confidence_label": "Model güveni bir sonuç olasılığı değil, senaryo sinyal gücüdür.",
   "message": "Bugün en az iki adet doğrulanmış yüksek oranlı 1/2 veya 2/1 adayı bulunamadı; model oranı gösterilmedi.",
-  "picks": [
-    {
-      "match_code": "23756",
-      "iddaa_event_id": "3168571",
-      "identity_match_source": "date_time_team_similarity",
-      "identity_match_score": 87.6,
-      "date": "2026-09-18",
-      "time": "03:30",
-      "league": "Copa Sudamericana Çeyrek Final",
-      "home": "Torque (0)",
-      "away": "(2) Cienciano",
-      "match_name": "Torque (0) VS (2) Cienciano",
-      "market": "1/2",
-      "model_confidence": 66,
-      "scenario_probability": 7.4,
-      "bookmaker_odds": 36.5,
-      "real_odds": 36.5,
-      "model_odds": 36.5,
-      "odds_source": "iddaa.com resmi futbol bülteni",
-      "odds_verified": true,
-      "risk_level": "Yüksek",
-      "data_completeness": 35,
-      "source_model_score": 46,
-      "first_half_signal_source": "detail_market_candidates",
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %35 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman freni: İY/MS için veri kapsamı düşük (%35).",
-      "market_specialist": {
-        "version": "market-specialist-gates-v1",
-        "market": "1/2",
-        "delta": -2,
-        "applied": true,
-        "mode": "htft_reversal_gate",
-        "reasons": [
-          "İY/MS için veri kapsamı düşük (%35)."
-        ],
-        "original_model_score": 68,
-        "adjusted_model_score": 66
-      }
-    }
-  ],
+  "picks": [],
   "market_specialist": {
     "version": "market-specialist-gates-v1",
-    "htft_picks_checked": 1,
+    "htft_picks_checked": 0,
     "probability_policy": "Senaryo olasılığı değiştirilmez; yalnız model sinyal gücü çelişki halinde düşürülür."
   }
 }
