@@ -1,0 +1,73 @@
+name: Prematch Patcher
+
+on:
+  push:
+    branches:
+      - feat/pro-prematch-final-check
+    paths:
+      - tests/pre-match-final-check.test.js
+      - .github/workflows/prematch-patcher.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: feat/pro-prematch-final-check
+          sparse-checkout: |
+            pro-coupon-eligibility.js
+            package.json
+            .github/workflows
+          sparse-checkout-cone-mode: true
+
+      - name: Apply focused wiring
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          def replace_once(path, old, new):
+              p = Path(path)
+              text = p.read_text()
+              if old not in text:
+                  raise SystemExit(f"pattern not found in {path}: {old[:80]!r}")
+              p.write_text(text.replace(old, new, 1))
+
+          path = 'pro-coupon-eligibility.js'
+          anchor = '''  function hasAcceptableOdd(item) {\n'''
+          helpers = '''  function preMatchFinalCheck(item) {\n    return item?.pre_match_final_check || item?.team_intelligence?.pre_match_final_check || null;\n  }\n\n  function preMatchDecision(item) {\n    const check = preMatchFinalCheck(item);\n    if (!check || check.active === false) return "keep";\n    const value = String(check.effective_decision || check.decision || "keep").toLowerCase();\n    return ["keep", "downgrade", "block"].includes(value) ? value : "keep";\n  }\n\n  function effectiveModelScore(item) {\n    const score = finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score);\n    if (score === null) return null;\n    const decision = preMatchDecision(item);\n    const penalty = decision === "block" ? 12 : decision === "downgrade" ? 4 : 0;\n    return Math.max(0, score - penalty);\n  }\n\n  function effectiveCompleteness(item) {\n    const completeness = finite(item?.data_completeness);\n    if (completeness === null) return null;\n    const decision = preMatchDecision(item);\n    const penalty = decision === "block" ? 8 : decision === "downgrade" ? 3 : 0;\n    return Math.max(0, completeness - penalty);\n  }\n\n'''
+          replace_once(path, anchor, helpers + anchor)
+          replace_once(path, '''  function hasBlockingRisk(item) {\n    const risks = clean([\n''', '''  function hasBlockingRisk(item) {\n    if (preMatchDecision(item) === "block") return true;\n    const risks = clean([\n''')
+          replace_once(path, '''    const modelScore = finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score);\n\n    if (odd === null) {\n''', '''    const modelScore = effectiveModelScore(item);\n\n    if (odd === null) {\n''')
+          replace_once(path, '''    const modelScore = finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score);\n    const completeness = finite(item?.data_completeness);\n''', '''    const modelScore = effectiveModelScore(item);\n    const completeness = effectiveCompleteness(item);\n''')
+          replace_once(path, '''      && finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score) >= 60\n      && finite(item?.data_completeness) >= 35\n''', '''      && effectiveModelScore(item) >= 60\n      && effectiveCompleteness(item) >= 35\n''')
+          replace_once(path, '''      + ((finite(item?.model_score ?? item?.analysis_score ?? item?.confidence_score) || 0) * 25)\n      + ((finite(item?.data_completeness) || 0) * 15)\n''', '''      + ((effectiveModelScore(item) || 0) * 25)\n      + ((effectiveCompleteness(item) || 0) * 15)\n''')
+          replace_once(path, '''    EDGE_CONSISTENCY_TOLERANCE,\n    MIN_COUPON_ODD,\n    clean,\n    finite,\n''', '''    EDGE_CONSISTENCY_TOLERANCE,\n    MIN_COUPON_ODD,\n    clean,\n    effectiveCompleteness,\n    effectiveModelScore,\n    finite,\n''')
+          replace_once(path, '''    passesValueQuality,\n    rank,\n''', '''    passesValueQuality,\n    preMatchDecision,\n    preMatchFinalCheck,\n    rank,\n''')
+
+          path = 'package.json'
+          replace_once(path, 'node tests/source-consensus.test.js && node tests/source-consensus-band.test.js', 'node tests/source-consensus.test.js && node tests/pre-match-final-check.test.js && node tests/source-consensus-band.test.js')
+          replace_once(path, 'node scripts/market-provenance-guard.js && node scripts/export-high-value-json.js', 'node scripts/market-provenance-guard.js && node scripts/pre-match-final-check.js && node scripts/export-high-value-json.js')
+          replace_once(path, 'node tests/source-consensus.test.js && node tests/source-consensus-band.test.js"', 'node tests/source-consensus.test.js && node tests/pre-match-final-check.test.js && node tests/source-consensus-band.test.js"')
+          replace_once(path, 'node scripts/source-consensus.js && node scripts/team-status-apply.js && node scripts/band-lite.js', 'node scripts/source-consensus.js && node scripts/pre-match-final-check.js && node scripts/team-status-apply.js && node scripts/band-lite.js')
+
+          path = '.github/workflows/derived-data.yml'
+          replace_once(path, '''          node scripts/source-consensus.js\n          node scripts/home-away-lite.js\n''', '''          node scripts/source-consensus.js\n          node scripts/pre-match-final-check.js\n          node scripts/home-away-lite.js\n''')
+          replace_once(path, '''          node tests/source-consensus.test.js\n          node tests/source-consensus-band.test.js\n''', '''          node tests/source-consensus.test.js\n          node tests/pre-match-final-check.test.js\n          node tests/source-consensus-band.test.js\n''')
+
+          path = '.github/workflows/live-data-trigger.yml'
+          replace_once(path, '''      - name: Export High Value JSON\n        continue-on-error: true\n        run: node scripts/export-high-value-json.js\n''', '''      - name: Run T60 T30 T10 pre-match final check\n        run: |\n          node tests/pre-match-final-check.test.js\n          node scripts/pre-match-final-check.js\n\n      - name: Export High Value JSON\n        continue-on-error: true\n        run: node scripts/export-high-value-json.js\n''')
+          PY
+
+      - name: Commit wiring
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pro-coupon-eligibility.js package.json .github/workflows/derived-data.yml .github/workflows/live-data-trigger.yml
+          git commit -m "feat: connect T60 T30 T10 final check to PRO coupon gate"
+          git push origin HEAD:feat/pro-prematch-final-check
