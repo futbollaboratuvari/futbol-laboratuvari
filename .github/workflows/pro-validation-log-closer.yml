@@ -1,0 +1,54 @@
+name: PRO Validation Log Closer
+
+on:
+  push:
+    branches:
+      - chore/pro-validation-log-close
+    paths:
+      - .github/workflows/pro-validation-log-closer.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  close-log:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chore/pro-validation-log-close
+      - name: Close live validation records
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('DONT_TOUCH.md')
+          text = path.read_text(encoding='utf-8')
+
+          old_horizon = "- Canli dogrulama: Merge sonrasi tek ana writer tekrar calistirilip `data/pre-match-final-check.json` boyutu, aktif snapshot ve robot analiz entegrasyonu yeniden kontrol edilecek."
+          new_horizon = "- Canli dogrulama: PR #57 merge commit `1f3a8b43e67ffd109865b2925c74e983dbe21e5d`. Ana writer run `35280763747` tum production adimlariyla `success` tamamlandi ve `682a1ee5c9e7b7e972cb2f4a1ce80b47992f71a9` veri commitini uretip `main`e push etti. `data/pre-match-final-check.json` `2026-09-17T22:19:06.039Z` zamaninda yalniz 1 aktif mac tuttu: Bucaramanga VS Independiente M, kickoff'a 40.9 dakika, `T30`, dogrulanmis `2.5 Ust` / `over25` orani `1.92` (`verified_named_field:over25`), kaynak guveni `5/100`, karar `downgrade`. Production commit karsilastirmasinda bu dosyada 505092 eski satir silinip 27 aktif satir yazildi; ayni commit `data/robot-analysis.json` ve `data/daily-coupons.json` dosyalarini da yeniden uretti. Kupon ciktisi `candidate_count: 0` ile fail-closed kaldi."
+
+          old_writer = "- Canli dogrulama: Merge sonrasi `ops/update-fixtures-trigger.txt` ile tek ana writer gercek `main` uzerinde tetiklenecek; job completion ve `data/pre-match-final-check.json` ciktisi dogrulandiginda bu kayit final run/commit bilgisiyle guncellenecek."
+          new_writer = "- Canli dogrulama: PR #55 ile tek scheduled writer mimarisi `main`e alindi; PR #56 merge commit `6b407c0736ff6b66eb217c7d3363d38f92b1427a` ile Auto Relaxed'in genis `push` tetikleyicisi de kapatildi. `ops/main-run.txt` uzerinden tetiklenen run `35279198594` tum 29 production adimini `success` bitirip `45e7f3a976b6f2203d2b3241bbf1241ae7f68e87` veri commitini uretmis; ufuk temizligi sonrasi ikinci canli run `35280763747` de tam `success` bitirip `682a1ee5c9e7b7e972cb2f4a1ce80b47992f71a9` commitini uretmistir. Job baslamadan iptal olma/starvation davranisi canli kontrolde tekrar etmemistir."
+
+          missing = []
+          if old_horizon not in text:
+              missing.append('horizon live validation placeholder')
+          if old_writer not in text:
+              missing.append('writer live validation placeholder')
+          if missing:
+              raise SystemExit('Missing expected text: ' + ', '.join(missing))
+
+          text = text.replace(old_horizon, new_horizon, 1)
+          text = text.replace(old_writer, new_writer, 1)
+          path.write_text(text, encoding='utf-8')
+          PY
+      - name: Commit log closure
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add DONT_TOUCH.md
+          git diff --cached --quiet && exit 0
+          git commit -m "docs: close PRO live validation records"
+          git push origin HEAD:chore/pro-validation-log-close
