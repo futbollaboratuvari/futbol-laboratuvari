@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T21:35:04.077Z",
+  "generated_at": "2026-09-17T21:38:03.811Z",
   "date": "2026-09-18",
-  "source": "Güncel veri bekleniyor",
-  "message": "Bugün için güncel veri henüz oluşmadı.",
+  "source": "Güncel veri bekleniyor + pro-goal-market-bridge-v2",
+  "message": "3.5 Üst / 6+ Gol tarandı; eşikleri geçen yeni yüksek gol adayı oluşmadı.",
   "coupons": {
     "balanced": {
       "coupon_name": "Dengeli Kupon",
@@ -13,7 +13,7 @@
       "combined_estimated_probability": null,
       "risk_level": "-",
       "short_description": "Bugün için güncel veri henüz oluşmadı.",
-      "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
+      "robot_reason": "Market uzman kapısı sonrası uygun seçim kalmadı.",
       "is_available": false
     },
     "high_value": {
@@ -25,7 +25,7 @@
       "combined_estimated_probability": null,
       "risk_level": "-",
       "short_description": "Bugün için güncel veri henüz oluşmadı.",
-      "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
+      "robot_reason": "Market uzman kapısı sonrası uygun seçim kalmadı.",
       "is_available": false
     },
     "risk_lab": {
@@ -36,9 +36,22 @@
       "average_confidence_score": "-",
       "combined_estimated_probability": null,
       "risk_level": "-",
-      "short_description": "Bugün için güncel veri henüz oluşmadı.",
-      "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
+      "short_description": "Doğrulanmış yüksek gol seçeneği yok.",
+      "robot_reason": "Market uzman kapısı sonrası uygun seçim kalmadı.",
       "is_available": false
     }
+  },
+  "minimum_coupon_odd": 1.45,
+  "goal_market_bridge": {
+    "version": "pro-goal-market-bridge-v2",
+    "over35_candidate_count": 0,
+    "six_plus_candidate_count": 0,
+    "coupon_eligible_count": 0,
+    "minimum_coupon_odd": 1.45
+  },
+  "candidate_count": 0,
+  "market_specialist": {
+    "version": "market-specialist-gates-v1",
+    "goal_candidates_checked": 0
   }
 }

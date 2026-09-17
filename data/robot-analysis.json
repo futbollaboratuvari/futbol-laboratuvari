@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T21:35:04.078Z",
+  "generated_at": "2026-09-17T21:38:03.811Z",
   "date": "2026-09-18",
   "engine": "Futbol Laboratuvarı PRO 13",
   "model_version": "pro13-btts-conditioned-v3",
@@ -14,8 +14,20 @@
     "squad_adjusted_count": 0,
     "matchup_adjusted_count": 0,
     "matchup_verified_count": 0,
-    "named_player_match_count": 0
+    "named_player_match_count": 0,
+    "goal_market_candidate_count": 0
   },
   "watchlist": [],
-  "matches": []
+  "matches": [],
+  "goal_market_bridge": {
+    "version": "pro-goal-market-bridge-v2",
+    "over35_candidate_count": 0,
+    "six_plus_candidate_count": 0,
+    "coupon_eligible_count": 0,
+    "minimum_coupon_odd": 1.45
+  },
+  "market_specialist": {
+    "version": "market-specialist-gates-v1",
+    "goal_candidates_checked": 0
+  }
 }
