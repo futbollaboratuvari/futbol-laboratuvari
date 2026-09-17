@@ -289,46 +289,72 @@ function clamp01(value) {
   return Math.max(0.25, Math.min(0.78, value));
 }
 
+function specializeHtftPick(pick, raw = {}) {
+  const context = specialistContext(raw);
+  const adjustment = htftAdjustment({
+    market: pick.market,
+    firstHalfSource: pick.first_half_signal_source,
+    firstHalfVerified: pick.first_half_signal_verified === true,
+    openness: finite(pick.openness_score) ?? htftOpenness(raw),
+    dataCompleteness: pick.data_completeness,
+    scenarioProbability: pick.scenario_probability,
+    identityScore: pick.identity_match_score,
+    identitySource: pick.identity_match_source,
+    oddsVerified: pick.odds_verified === true,
+    ...context,
+  });
+  const originalScore = finite(pick.model_confidence) || 0;
+  const adjustedScore = Math.max(0, Math.round(originalScore + adjustment.delta));
+  return {
+    ...pick,
+    model_confidence: adjustedScore,
+    specialist_decision: adjustment.decision,
+    specialist_eligible: adjustment.eligible,
+    specialist_quality_score: adjustment.quality_score,
+    risk_level: adjustment.decision === "block" ? "Yüksek" : pick.risk_level,
+    market_specialist: {
+      ...adjustment,
+      original_model_score: originalScore,
+      adjusted_model_score: adjustedScore,
+    },
+    reason: adjustment.applied
+      ? `${pick.reason} Market uzman kararı (${adjustment.decision}): ${adjustment.reasons.join(" ")}`
+      : pick.reason,
+  };
+}
+
+function selectHtftPicks(pool, rawMap = new Map(), limit = 3) {
+  const evaluated = (Array.isArray(pool) ? pool : []).map((pick) => {
+    const raw = rawMap.get(keyFor(pick)) || {};
+    return specializeHtftPick(pick, raw);
+  });
+  const rejected = evaluated.filter((pick) => pick.specialist_eligible === false);
+  const ranked = evaluated
+    .filter((pick) => pick.specialist_eligible !== false)
+    .sort((a, b) => Number(b.model_confidence || 0) - Number(a.model_confidence || 0)
+      || Number(b.specialist_quality_score || 0) - Number(a.specialist_quality_score || 0)
+      || Number(b.scenario_probability || 0) - Number(a.scenario_probability || 0));
+  const selected = [];
+  const used = new Set();
+  for (const pick of ranked) {
+    const identity = keyFor(pick);
+    if (used.has(identity)) continue;
+    used.add(identity);
+    selected.push(pick);
+    if (selected.length >= limit) break;
+  }
+  return { evaluated, rejected, selected };
+}
+
 function processHtftOutput() {
   const output = readJson(htftPath, null);
   if (!output || !Array.isArray(output.picks)) return { updated: false, pick_count: 0 };
   const robot = readJson(robotPath, { matches: [] });
   const rawMap = new Map((robot.matches || []).map((row) => [keyFor(row), row]));
-  const evaluated = output.picks.map((pick) => {
-    const raw = rawMap.get(keyFor(pick)) || {};
-    const context = specialistContext(raw);
-    const adjustment = htftAdjustment({
-      market: pick.market,
-      firstHalfSource: pick.first_half_signal_source,
-      firstHalfVerified: pick.first_half_signal_verified === true,
-      openness: finite(pick.openness_score) ?? htftOpenness(raw),
-      dataCompleteness: pick.data_completeness,
-      scenarioProbability: pick.scenario_probability,
-      identityScore: pick.identity_match_score,
-      identitySource: pick.identity_match_source,
-      oddsVerified: pick.odds_verified === true,
-      ...context,
-    });
-    const originalScore = finite(pick.model_confidence) || 0;
-    const adjustedScore = Math.max(0, Math.round(originalScore + adjustment.delta));
-    return {
-      ...pick,
-      model_confidence: adjustedScore,
-      specialist_decision: adjustment.decision,
-      specialist_eligible: adjustment.eligible,
-      specialist_quality_score: adjustment.quality_score,
-      risk_level: adjustment.decision === "block" ? "Yüksek" : pick.risk_level,
-      market_specialist: {
-        ...adjustment,
-        original_model_score: originalScore,
-        adjusted_model_score: adjustedScore,
-      },
-      reason: adjustment.applied
-        ? `${pick.reason} Market uzman kararı (${adjustment.decision}): ${adjustment.reasons.join(" ")}`
-        : pick.reason,
-    };
-  });
-  const rejected = evaluated.filter((pick) => pick.specialist_eligible === false);
+  const pool = Array.isArray(output.specialist_candidate_pool)
+    ? output.specialist_candidate_pool
+    : output.picks;
+  const { evaluated, rejected, selected } = selectHtftPicks(pool, rawMap, 3);
   output.rejected_picks = rejected.map((pick) => ({
     match_name: pick.match_name,
     market: pick.market,
@@ -337,24 +363,26 @@ function processHtftOutput() {
     specialist_quality_score: pick.specialist_quality_score,
     reason: pick.reason,
   }));
-  output.picks = evaluated
-    .filter((pick) => pick.specialist_eligible !== false)
-    .sort((a, b) => Number(b.model_confidence || 0) - Number(a.model_confidence || 0)
-      || Number(b.specialist_quality_score || 0) - Number(a.specialist_quality_score || 0)
-      || Number(b.scenario_probability || 0) - Number(a.scenario_probability || 0));
+  output.picks = selected;
+  delete output.specialist_candidate_pool;
   output.market_specialist = {
     version: VERSION,
     htft_picks_checked: evaluated.length,
     htft_picks_rejected: rejected.length,
+    htft_picks_eligible: evaluated.length - rejected.length,
+    selection_policy: "Tüm doğrulanmış adaylar uzman v2 kapısından geçer; sonra en iyi 3 benzersiz maç seçilir.",
     probability_policy: "Senaryo olasılığı değiştirilmez; uzman v2 yalnız doğrulanmış sinyallerle keep/downgrade/block kararı verir.",
   };
   output.selected_count = output.picks.length;
-  if (output.picks.length < 2 && evaluated.length >= 2) {
+  if (output.picks.length >= 2) {
+    output.status = "ready";
+    output.message = "Uzman V2 kalite kapısından geçen en güçlü 1/2 ve 2/1 adayları resmî İddaa oranlarıyla seçildi.";
+  } else if (evaluated.length >= 2) {
     output.status = "insufficient_specialist_quality";
-    output.message = "Resmî yüksek oranlı İY/MS adayları bulundu ancak uzman v2 kalite kapısından yeterli seçim geçmedi.";
+    output.message = "Resmî yüksek oranlı İY/MS adayları bulundu ancak uzman V2 kalite kapısından yeterli seçim geçmedi.";
   }
   writeJson(htftPath, output);
-  return { updated: true, pick_count: output.picks.length };
+  return { updated: true, pick_count: output.picks.length, checked_count: evaluated.length, rejected_count: rejected.length };
 }
 
 function main() {
@@ -373,6 +401,8 @@ module.exports = {
   specialistContext,
   processGoalOutputs,
   processHtftOutput,
+  selectHtftPicks,
+  specializeHtftPick,
   specializeCompactGoalCandidate,
   specializeGoalRow,
 };
