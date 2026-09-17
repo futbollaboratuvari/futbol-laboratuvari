@@ -43,6 +43,7 @@ jobs:
           node scripts/team-news-auto.js
           node scripts/team-status-lite.js
           node scripts/lineup-lite.js
+          node scripts/source-consensus.js
           node scripts/home-away-lite.js
           node scripts/standings-lite.js
           node scripts/league-structure-lite.js
@@ -54,7 +55,9 @@ jobs:
           node scripts/cards-user-choice.js
 
       - name: Test team intelligence rules
-        run: node tests/team-intelligence.test.js
+        run: |
+          node tests/team-intelligence.test.js
+          node tests/source-consensus.test.js
 
       - name: Validate derived outputs
         run: node scripts/validate-json-no-conflicts.js
