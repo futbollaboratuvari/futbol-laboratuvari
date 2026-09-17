@@ -1,0 +1,117 @@
+name: Prematch Horizon Patcher
+
+on:
+  push:
+    branches:
+      - fix/prematch-window-horizon
+    paths:
+      - .github/workflows/prematch-horizon-patcher.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch-node20:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: fix/prematch-window-horizon
+          sparse-checkout: |
+            scripts/pre-match-final-check.js
+            tests/pre-match-final-check.test.js
+            tests/pro-coupon-eligibility.test.js
+            tests/team-intelligence.test.js
+            tests/matchup-intelligence.test.js
+            tests/source-consensus.test.js
+            tests/source-consensus-band.test.js
+            pro-coupon-eligibility.js
+            DONT_TOUCH.md
+          sparse-checkout-cone-mode: true
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Patch horizon, tests and contract
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          def replace_once(path, old, new):
+              p = Path(path)
+              text = p.read_text()
+              if old not in text:
+                  raise SystemExit(f'pattern missing in {path}: {old[:100]!r}')
+              p.write_text(text.replace(old, new, 1))
+
+          script = 'scripts/pre-match-final-check.js'
+          old = '''  const matches = (Array.isArray(fixtures) ? fixtures : [])\n    .filter((row) => !/live|finished|ended|cancel/i.test(String(row.status || "scheduled")))\n    .map((row) => buildFinalCheckForMatch(row, context));\n'''
+          new = '''  const matches = (Array.isArray(fixtures) ? fixtures : [])\n    .filter((row) => !/live|finished|ended|cancel/i.test(String(row.status || "scheduled")))\n    .filter((row) => {\n      const minutes = minutesToKickoff(row, now);\n      return Number.isFinite(minutes) && minutes >= 0 && minutes <= 75;\n    })\n    .map((row) => buildFinalCheckForMatch(row, context));\n'''
+          replace_once(script, old, new)
+
+          test = 'tests/pre-match-final-check.test.js'
+          replace_once(test, '''  minutesToKickoff,\n  verifiedMarketOdd,\n''', '''  minutesToKickoff,\n  runPreMatchFinalCheck,\n  verifiedMarketOdd,\n''')
+          marker = '''assert.equal(combined.decision, "block");\n\nprocess.stdout.write("pre-match-final-check.test.js OK\\n");\n'''
+          block = '''assert.equal(combined.decision, "block");\n\nconst horizonNow = Date.parse("2026-09-18T21:00:00+03:00");\nconst horizonOutput = runPreMatchFinalCheck({\n  now: horizonNow,\n  write: false,\n  fixtures: [\n    { date: "2026-06-16", time: "22:00", home: "Old A", away: "Old B", match_name: "Old A VS Old B" },\n    { date: "2026-09-18", time: "21:30", home: "Active A", away: "Active B", match_name: "Active A VS Active B" },\n    { date: "2026-09-18", time: "22:00", home: "Active C", away: "Active D", match_name: "Active C VS Active D" },\n    { date: "2026-09-18", time: "22:30", home: "Future A", away: "Future B", match_name: "Future A VS Future B" },\n  ],\n  lineupDb: { generated_at: "2026-09-18T18:00:00.000Z", matches: [] },\n  consensusDb: { generated_at: "2026-09-18T18:00:00.000Z", matches: [] },\n  analysisDb: { matches: [] },\n  teamNews: { teams: {} },\n  previous: { matches: [] },\n});\nassert.deepEqual(\n  horizonOutput.matches.map((row) => row.match_name),\n  ["Active A VS Active B", "Active C VS Active D"],\n);\nassert.equal(horizonOutput.active_match_count, 2);\nassert.deepEqual(horizonOutput.matches.map((row) => row.checkpoint), ["T30", "T60"]);\nassert.equal(horizonOutput.matches.some((row) => row.match_name.startsWith("Old")), false);\nassert.equal(horizonOutput.matches.some((row) => row.match_name.startsWith("Future")), false);\n\nprocess.stdout.write("pre-match-final-check.test.js OK\\n");\n'''
+          replace_once(test, marker, block)
+
+          p = Path('DONT_TOUCH.md')
+          text = p.read_text()
+          title = '### 2026-09-18 - T60/T30/T10 aktif ufuk ve dosya boyutu temizligi'
+          if title not in text:
+              entry = '''\n### 2026-09-18 - T60/T30/T10 aktif ufuk ve dosya boyutu temizligi\n\n- Kok neden: Canli single-writer dogrulamasinda `data/pre-match-final-check.json` dogru T60 karari uretmesine ragmen `fixtures.json` icinde gecmisten kalmis `scheduled` satirlari da final-check dosyasina yaziliyordu. Karar motoru bozulmuyordu ancak cikti gereksiz buyuyor ve aylar onceki `not_due` maclari tasiyordu.\n- Degisiklik: `runPreMatchFinalCheck` artik status filtresinden sonra yalniz kickoff'a 0-75 dakika kalan, zamani parse edilebilir maclari final-check cikisina alir. Gecmis maclar, 75 dakikadan daha uzaktaki `not_due` maclar ve kickoff zamani bilinmeyen satirlar bu ozel dosyaya girmez.\n- Snapshot guvenligi: T60 satiri 75 dakikalik aktif ufukta tutuldugu icin sonraki T30/T10 kosularinda `previous` dosyasindan snapshot zinciri korunur. Mac basladiktan sonra pre-match kaydi otomatik olarak cikistan dusurulur.\n- Market/provenance etkisi: Market esikleri, +%8/+%12 oran hareketi kurallari, value gate ve tahmini raw market yasagi degismedi. Bu yalniz pre-match veri ufku/boyut temizligidir.\n- Test: `tests/pre-match-final-check.test.js` eski bir macin ve 90 dakika uzaktaki bir macin cikisa girmedigini; 30 ve 60 dakika kalan maclarin T30/T60 olarak kaldigini kilitler. Mevcut kupon ve takim-istihbarati regresyonlari da birlikte calistirilir.\n- Gelistirme dali: `fix/prematch-window-horizon`.\n- Canli dogrulama: Merge sonrasi tek ana writer tekrar calistirilip `data/pre-match-final-check.json` boyutu, aktif snapshot ve robot analiz entegrasyonu yeniden kontrol edilecek.\n- Geri alma: Filtre `runPreMatchFinalCheck` icindeki tek ufuk kosuludur; T60/T30/T10 karar fonksiyonlari ve kupon kapisina dokunmadan geri alinabilir.\n\n'''
+              marker = '## PRO Robot Islem Gunlugu\n'
+              if marker not in text:
+                  raise SystemExit('PRO log marker missing')
+              text = text.replace(marker, marker + entry, 1)
+          p.write_text(text)
+          PY
+
+      - name: Node 20 regression
+        run: |
+          node --check scripts/pre-match-final-check.js
+          node tests/pre-match-final-check.test.js
+          node tests/pro-coupon-eligibility.test.js
+          node tests/team-intelligence.test.js
+          node tests/matchup-intelligence.test.js
+          node tests/source-consensus.test.js
+          node tests/source-consensus-band.test.js
+
+      - name: Commit patch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/pre-match-final-check.js tests/pre-match-final-check.test.js DONT_TOUCH.md
+          git commit -m "fix: limit pre-match checks to active 75-minute horizon"
+          git push origin HEAD:fix/prematch-window-horizon
+
+  verify-node24:
+    needs: patch-node20
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout patched branch
+        uses: actions/checkout@v4
+        with:
+          ref: fix/prematch-window-horizon
+          sparse-checkout: |
+            scripts
+            tests
+            pro-coupon-eligibility.js
+          sparse-checkout-cone-mode: true
+      - name: Setup Node 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Node 24 regression
+        run: |
+          node --check scripts/pre-match-final-check.js
+          node tests/pre-match-final-check.test.js
+          node tests/pro-coupon-eligibility.test.js
+          node tests/team-intelligence.test.js
+          node tests/matchup-intelligence.test.js
+          node tests/source-consensus.test.js
+          node tests/source-consensus-band.test.js
