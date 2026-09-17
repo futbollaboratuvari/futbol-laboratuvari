@@ -90,7 +90,7 @@ test("kompakt PRO kaydı doğrulanmış kadro ve mevki eşleşmesini kaybetmez",
   assert.equal(row.team_intelligence.matchup_analysis.position_comparison[0].edge, "home");
 });
 
-test("kupon uygunluk bayrağı bütün kanıt eşiklerini birlikte doğrular", () => {
+test("kupon uygunluk bayrağı bütün kanıt ve value eşiklerini birlikte doğrular", () => {
   const inconsistent = compactMatch({
     home: "A",
     away: "B",
@@ -107,7 +107,10 @@ test("kupon uygunluk bayrağı bütün kanıt eşiklerini birlikte doğrular", (
     away: "D",
     market: "2.5 Alt",
     model_score: 68,
-    estimated_probability: 55,
+    estimated_probability: 62,
+    market_probability: 56,
+    edge_percent: 6,
+    estimated_odds: 1.80,
     data_completeness: 46,
     independent_evidence: true,
     risk_level: "Orta",
