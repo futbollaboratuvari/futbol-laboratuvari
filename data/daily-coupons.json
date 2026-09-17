@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-09-17T21:38:03.811Z",
+  "generated_at": "2026-09-17T21:50:57.174Z",
   "date": "2026-09-18",
-  "source": "Güncel veri bekleniyor + pro-goal-market-bridge-v2",
+  "source": "PRO merkezi kupon uygunluk motoru + pro-goal-market-bridge-v2",
   "message": "3.5 Üst / 6+ Gol tarandı; eşikleri geçen yeni yüksek gol adayı oluşmadı.",
+  "candidate_count": 0,
+  "eligibility_policy": "include_in_coupon + independent_evidence + model>=65 + completeness>=45 + probability>=42 + acceptable_risk",
   "coupons": {
     "balanced": {
       "coupon_name": "Dengeli Kupon",
@@ -12,8 +14,8 @@
       "average_confidence_score": "-",
       "combined_estimated_probability": null,
       "risk_level": "-",
-      "short_description": "Bugün için güncel veri henüz oluşmadı.",
-      "robot_reason": "Market uzman kapısı sonrası uygun seçim kalmadı.",
+      "short_description": "Doğrulanmış kupon adayı yok. Uygunluk eşikleri sağlanmadan kupon yayımlanmaz.",
+      "robot_reason": "Bağımsız kanıt, model gücü, veri kapsamı, olasılık ve risk kuralları birlikte sağlanmadı.",
       "is_available": false
     },
     "high_value": {
@@ -24,8 +26,8 @@
       "average_confidence_score": "-",
       "combined_estimated_probability": null,
       "risk_level": "-",
-      "short_description": "Bugün için güncel veri henüz oluşmadı.",
-      "robot_reason": "Market uzman kapısı sonrası uygun seçim kalmadı.",
+      "short_description": "Doğrulanmış kupon adayı yok. Uygunluk eşikleri sağlanmadan kupon yayımlanmaz.",
+      "robot_reason": "Bağımsız kanıt, model gücü, veri kapsamı, olasılık ve risk kuralları birlikte sağlanmadı.",
       "is_available": false
     },
     "risk_lab": {
@@ -37,7 +39,7 @@
       "combined_estimated_probability": null,
       "risk_level": "-",
       "short_description": "Doğrulanmış yüksek gol seçeneği yok.",
-      "robot_reason": "Market uzman kapısı sonrası uygun seçim kalmadı.",
+      "robot_reason": "3.5 Üst / 6+ Gol için doğrudan oran ve bağımsız model eşikleri sağlanmadı.",
       "is_available": false
     }
   },
@@ -48,10 +50,5 @@
     "six_plus_candidate_count": 0,
     "coupon_eligible_count": 0,
     "minimum_coupon_odd": 1.45
-  },
-  "candidate_count": 0,
-  "market_specialist": {
-    "version": "market-specialist-gates-v1",
-    "goal_candidates_checked": 0
   }
 }
