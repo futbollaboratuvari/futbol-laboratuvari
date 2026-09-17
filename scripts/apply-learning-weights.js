@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { boundedLearningScore, evaluateLearningBucket, hydrateLearningProfitability } = require("./learning-confidence");
 const { lossPatternAdjustmentFor } = require("./loss-pattern-memory");
+const { applyGenericMarketGate } = require("./market-specialist-gates");
 
 const memoryPath = path.join(__dirname, "..", "data", "learning-memory.json");
 
@@ -173,35 +174,36 @@ function applyLossPatternBrake(scoredItem) {
 
 function applyLearningWeightsToScoredItem(scoredItem) {
   if (!scoredItem || !scoredItem.hasOdds) return scoredItem;
-  const baseScore = Number(scoredItem.analysis_score ?? scoredItem.score ?? 0);
-  if (!Number.isFinite(baseScore)) return scoredItem;
+  const specializedItem = applyGenericMarketGate(scoredItem);
+  const baseScore = Number(specializedItem.analysis_score ?? specializedItem.score ?? 0);
+  if (!Number.isFinite(baseScore)) return specializedItem;
 
-  const adjustment = adjustmentFor(scoredItem);
+  const adjustment = adjustmentFor(specializedItem);
   if (!adjustment.applied) {
     return applyLossPatternBrake({
-      ...scoredItem,
+      ...specializedItem,
       learning_adjustment: adjustment,
-      pro_signals: [...(scoredItem.pro_signals || []), ...adjustment.notes]
+      pro_signals: [...(specializedItem.pro_signals || []), ...adjustment.notes]
     });
   }
 
-  const bounded = boundedLearningScore(baseScore, adjustment.weight, adjustment.delta, scoredItem.independent_evidence !== false);
-  const weightedScore = scoredItem.independent_evidence === false ? Math.min(64, bounded.score) : bounded.score;
+  const bounded = boundedLearningScore(baseScore, adjustment.weight, adjustment.delta, specializedItem.independent_evidence !== false);
+  const weightedScore = specializedItem.independent_evidence === false ? Math.min(64, bounded.score) : bounded.score;
   const analysisClass = classFor(weightedScore);
-  const risk = riskFor(weightedScore, scoredItem.risk, scoredItem);
+  const risk = riskFor(weightedScore, specializedItem.risk, specializedItem);
   const signals = [
-    ...(scoredItem.pro_signals || []),
+    ...(specializedItem.pro_signals || []),
     ...adjustment.notes,
     `Öğrenme etkisi: ${baseScore}/100 → ${weightedScore}/100`
   ];
 
   return applyLossPatternBrake({
-    ...scoredItem,
+    ...specializedItem,
     score: weightedScore,
     model_score: weightedScore,
     analysis_score: weightedScore,
     confidence: `${weightedScore}%`,
-    lab_probability: Number.isFinite(Number(scoredItem.estimated_probability)) ? `${Math.round(Number(scoredItem.estimated_probability))}%` : "-",
+    lab_probability: Number.isFinite(Number(specializedItem.estimated_probability)) ? `${Math.round(Number(specializedItem.estimated_probability))}%` : "-",
     trust_score: `${weightedScore}/100`,
     tag: analysisClass,
     analysis_class: analysisClass,
@@ -213,7 +215,7 @@ function applyLearningWeightsToScoredItem(scoredItem) {
       max_score_shift: bounded.max_score_shift
     },
     analysis_metrics: {
-      ...(scoredItem.analysis_metrics || {}),
+      ...(specializedItem.analysis_metrics || {}),
       learning_adjustment: {
         ...adjustment,
         raw_weighted_score: bounded.raw_score,
