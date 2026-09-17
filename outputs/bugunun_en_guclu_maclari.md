@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-16T23:56:53.669Z
+- Güncelleme: 2026-09-17T00:03:11.777Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -14,7 +14,7 @@
 | Ldu Quito (0) VS (1) Palmeiras | Copa Libertadores Çeyrek Final | 01:00 | 2.5 Alt | 1.35 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Atletico Mg (0) VS (2) Santos | Copa Sudamericana Çeyrek Final | 01:00 | 2.5 Alt | 1.55 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Rivadavia VS Atletico Tucuma | Arjantin Kupa Çeyrek Final | 01:00 | 2.5 Üst | 2.20 | 55 | Sadece izleme | Değerli | Orta | Orta | scheduled |
-| Monagas VS Zamora | Venezuela Premier Lig Clausura | 01:00 | 2.5 Alt | 1.56 | 78 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
+| Monagas VS Zamora | Venezuela Premier Lig Clausura | 01:00 | 2.5 Alt | 1.56 | 77 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
 | Nacional Potos VS Always Ready | Bolivya Premier Lig | 01:00 | MS 2 | 2.06 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Hartford Athle VS Sporting Jax | ABD USL | 01:00 | MS 1 | 1.25 | 77 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Botafogo VS Gremio | Brezilya Serie A | 01:30 | 2.5 Alt | 1.93 | 73 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
@@ -100,7 +100,7 @@
 | Makhachkala VS Cska Moskova | Rusya Premier Lig | 20:45 | 2.5 Üst | 1.82 | 75 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
 | Zeleznicar Pan VS Kizilyildiz | Sırbistan Süper Lig | 21:00 | MS 2 | 1.27 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Al Zawraa VS Al Gharraf | Irak Premier Lig | 21:00 | MS 1 | 1.40 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Independiente VS Atletico Fc | Ekvador Pro Lig Serie B Şampiyonluk Grubu | 21:00 | 2.5 Alt | 1.38 | 63 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Independiente VS Atletico Fc | Ekvador Pro Lig Serie B Şampiyonluk Grubu | 21:00 | 2.5 Alt | 1.38 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Manchester Cit VS Norwich | İngiltere Lig Kupası 3.Tur | 21:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Central Espano VS Oriental | Uruguay Kupa Ön Eleme Turu Grup 4 | 21:30 | MS 1 | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Juventud Dl Pi VS Racing Montevid | Uruguay Kupa Ön Eleme Turu Grup 4 | 21:30 | 2.5 Alt | 1.44 | 69 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
@@ -111,7 +111,7 @@
 | Crystal Palace VS Lech Poznan | UEFA Avrupa Ligi Lig Aşaması | 22:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Viktoria Plzen VS Union St.G | UEFA Avrupa Ligi Lig Aşaması | 22:00 | 2.5 Üst | 1.58 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Lillestrom VS Torreense | UEFA Avrupa Ligi Lig Aşaması | 22:00 | MS 1 | 1.36 | 63 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Real Sociedad VS Bournemouth | UEFA Avrupa Ligi Lig Aşaması | 22:00 | MS 2 | 2.11 | 59 | Sadece izleme | Değerli | Orta | Orta | scheduled |
+| Real Sociedad VS Bournemouth | UEFA Avrupa Ligi Lig Aşaması | 22:00 | MS X | 3.21 | 64 | Sadece izleme | Değerli | Yüksek | Düşük | scheduled |
 | Afc Wimbledon VS Mk Dons | İngiltere 1.Lig | 22:00 | 2.5 Üst | 1.61 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Renate VS Dolomiti Bellun | İtalya Serie C Grup A | 22:00 | 2.5 Alt | 1.44 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Giana Erminio VS Trento Calcio 1 | İtalya Serie C Grup A | 22:00 | 2.5 Alt | 1.42 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -135,7 +135,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Akron VS Akhmat Grozny | 2.5 Üst | 1.72 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
 | Trujillanos VS Rayo Zuliano | 2.5 Üst | 1.67 | 79 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Monagas VS Zamora | 2.5 Alt | 1.56 | 78 | Orta risk kupon adayı | Değerli | Orta | Düşük |
+| Monagas VS Zamora | 2.5 Alt | 1.56 | 77 | Orta risk kupon adayı | Değerli | Orta | Düşük |
 | Real Betis VS Getafe | 2.5 Alt | 1.52 | 77 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
 | Hartford Athle VS Sporting Jax | MS 1 | 1.25 | 77 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük |
 | Orenburg VS Krasnodar | 2.5 Alt | 1.80 | 76 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |

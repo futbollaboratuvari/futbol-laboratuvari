@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.09.2026 02:57:21
+Oluşturma: 17.09.2026 03:03:49
 
 ## Özet
 
@@ -25,12 +25,13 @@ Oluşturma: 17.09.2026 02:57:21
 - 2.5 Alt: toplam 598, bekleyen 451, başarı %60, düz getiri %3, ağırlık 1
 - KG Var: toplam 14, bekleyen 2, başarı %58, düz getiri %4, ağırlık 1
 - 2.5 Üst: toplam 160, bekleyen 94, başarı %56, düz getiri %2, ağırlık 1
-- MS 1: toplam 488, bekleyen 375, başarı %53, düz getiri %-12, ağırlık 1
+- MS 1: toplam 487, bekleyen 374, başarı %53, düz getiri %-12, ağırlık 1
 - MS 2: toplam 232, bekleyen 184, başarı %52, düz getiri %-2, ağırlık 1
-- MS X: toplam 8, bekleyen 4, başarı %50, düz getiri %22, ağırlık 1
+- MS X: toplam 9, bekleyen 5, başarı %50, düz getiri %22, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Real Sociedad - Bournemouth | MS X | pending | 60/100
 - 2026-09-17 | İspanya LaLiga | Malaga - Villarreal | KG Var | pending | 63/100
 - 2026-09-17 | Mısır 2. Lig | Ismaily - Haras El Hodood | 2.5 Alt | pending | 50/100
 - 2026-09-17 | ABD USL Lig 1 | Fort Wayne - One Knoxville | 2.5 Alt | pending | 61/100
@@ -39,11 +40,10 @@ Oluşturma: 17.09.2026 02:57:21
 - 2026-09-17 | Rusya Premier Lig | Makhachkala - Cska Moskova | 2.5 Üst | pending | 71/100
 - 2026-09-17 | Sırbistan Süper Lig | Zeleznicar Pan - Kizilyildiz | MS 2 | pending | 57/100
 - 2026-09-17 | Irak Premier Lig | Al Zawraa - Al Gharraf | MS 1 | pending | 56/100
-- 2026-09-17 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | Independiente - Atletico Fc | 2.5 Alt | pending | 59/100
+- 2026-09-17 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | Independiente - Atletico Fc | 2.5 Alt | pending | 58/100
 - 2026-09-17 | Uruguay Kupa Ön Eleme Turu Grup 4 | Central Espano - Oriental | MS 1 | pending | 57/100
 - 2026-09-17 | Uruguay Kupa Ön Eleme Turu Grup 4 | Juventud Dl Pi - Racing Montevid | 2.5 Alt | pending | 65/100
 - 2026-09-17 | Fransa Ligue 3 | Bastia - Cannes | 2.5 Alt | pending | 54/100
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Beşiktaş - Marsilya | MS 1 | pending | 64/100
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Celtic - Ferencvaros | MS 1 | pending | 56/100
-- 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen - Union St.G | 2.5 Üst | pending | 56/100
 

@@ -3,15 +3,14 @@
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
 Ham mac: 118
-Aktif mac: 103
+Aktif mac: 102
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 15
-Bugun: 95
+Bultenden dusurulen mac: 16
+Bugun: 94
 Yarin: 8
 
 ## Baslamamis Maclar
-- 2026-09-17 03:00 | Kuzey Amerika Şampiyonlar Kupası Final | Inter Miami - Cruz Azul | scheduled | -
 - 2026-09-17 03:30 | Copa Libertadores Çeyrek Final | Corinthians (1) - (1) Estudiantes Lp | scheduled | -
 - 2026-09-17 03:30 | CONCACAF Orta Amerika Kupası Çeyrek Final | Cs Cartagines (2) - (2) Deportivo Sapri | scheduled | -
 - 2026-09-17 03:30 | Bolivya Premier Lig | Blooming - Universitario D | scheduled | -
