@@ -61,10 +61,15 @@ jobs:
           if (Number(data.identity_match_count) !== Number(data.matched_by_official_id_count) + Number(data.matched_by_date_teams_count) + Number(data.matched_by_date_time_similarity_count)) throw new Error('identity diagnostics mismatch');
           if (data.date < data.requested_date) throw new Error('stale bulletin date generated');
           if (Number(data.official_high_odds_match_count) >= 2 && Number(data.scheduled_scan_count) >= 2 && Number(data.identity_match_count) === 0) throw new Error('official HTFT matches exist but provider identities do not match');
-          if (Number(data.candidate_count) >= 2 && data.picks.length < 2) throw new Error('verified candidates were not selected');
           if (!/iddaa/i.test(String(data.odds_source || ''))) throw new Error('official odds source missing');
           if (data.odds_label !== 'Resmî İddaa İY/MS oranı') throw new Error('official odds label missing');
-          if (data.market_specialist?.version !== 'market-specialist-gates-v1') throw new Error('HTFT specialist gate missing');
+          if (data.market_specialist?.version !== 'market-specialist-gates-v2') throw new Error('HTFT specialist v2 gate missing');
+          if ('specialist_candidate_pool' in data) throw new Error('temporary specialist candidate pool leaked into final output');
+          if (!Array.isArray(data.rejected_picks)) throw new Error('specialist rejected diagnostics missing');
+          if (Number(data.market_specialist?.htft_picks_checked || 0) < data.picks.length) throw new Error('specialist checked count invalid');
+          if (Number(data.market_specialist?.htft_picks_rejected || 0) !== data.rejected_picks.length) throw new Error('specialist rejected count mismatch');
+          if (data.status === 'ready' && data.picks.length < 2) throw new Error('ready status requires at least two specialist-qualified picks');
+          if (data.picks.length < 2 && Number(data.candidate_count || 0) >= 2 && data.status !== 'insufficient_specialist_quality') throw new Error('specialist quality failure status missing');
           for (const pick of data.picks) {
             if (!['1/2', '2/1'].includes(pick.market)) throw new Error(`invalid market: ${pick.market}`);
             if (!pick.match_name || !pick.reason) throw new Error('incomplete pick');
@@ -79,11 +84,17 @@ jobs:
             if (Number(pick.real_odds) !== real) throw new Error('real_odds mismatch');
             if (Number(pick.model_odds) !== real) throw new Error('legacy display field must mirror official odd');
             if (!pick.market_specialist) throw new Error('pick specialist diagnostics missing');
+            if (pick.specialist_eligible !== true) throw new Error('blocked specialist pick leaked into cards');
+            if (pick.specialist_decision === 'block') throw new Error('blocked specialist decision leaked into cards');
+            if (pick.first_half_signal_verified !== true) throw new Error('HTFT card lacks verified first-half direction');
+            if (/derived/i.test(String(pick.first_half_signal_source || ''))) throw new Error('derived first-half direction leaked into HTFT card');
+            if (!Number.isFinite(Number(pick.specialist_quality_score))) throw new Error('specialist quality score missing');
           }
           console.log(`Validated ${data.picks.length} verified official HTFT picks for ${data.date}.`);
           NODE
 
       - name: Commit generated data only
+        if: github.ref == 'refs/heads/main'
         run: |
           cp data/high-odds-htft.json /tmp/high-odds-htft.json
           git config user.name 'github-actions[bot]'

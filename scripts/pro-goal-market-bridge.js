@@ -10,7 +10,7 @@ const robotFile = path.join(dataDir, "robot-analysis.json");
 const liveFile = path.join(dataDir, "live-matches.json");
 const couponFile = path.join(dataDir, "daily-coupons.json");
 const archiveDir = path.join(dataDir, "archive");
-const BRIDGE_VERSION = "pro-goal-market-bridge-v2";
+const BRIDGE_VERSION = "pro-goal-market-bridge-v3";
 
 const ALIASES = Object.freeze({
   over35: ["over35", "ust35", "over3_5", "ust_35", "over35_guess", "over3.5", "3.5ust"],
@@ -105,7 +105,6 @@ function isBridgeEnriched(item) {
 
 function directOddSources(item) {
   const sources = [
-    item?.raw_market_guess_odds,
     item?.detay_oranlar,
     item?.oranlar,
   ];
@@ -117,7 +116,6 @@ function directOddSources(item) {
 
 function labeledOddSources(item) {
   return [
-    item?.raw_market_blocks,
     item?.detail_market_candidates,
     item?.detay_oranlar,
   ].filter(Boolean);
@@ -154,6 +152,9 @@ function findDirectKeyOdd(value, aliasSet, depth = 0, seen = new Set()) {
 
 function findLabelOdd(value, pattern, depth = 0, seen = new Set()) {
   if (!value || typeof value !== "object" || depth > 7 || seen.has(value)) return null;
+  if (value.market_identity_verified === false) return null;
+  const provenance = clean(`${value.source || ""} ${value.market_source || ""} ${value.provenance || ""}`);
+  if (/unlabeled raw block|raw market guess/.test(provenance)) return null;
   seen.add(value);
   if (Array.isArray(value)) {
     for (const row of value) {

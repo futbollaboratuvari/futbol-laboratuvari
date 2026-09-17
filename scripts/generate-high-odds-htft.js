@@ -107,6 +107,31 @@ function teamSimilarity(left, right) {
   return (2 * overlap) / ((a.length - 1) + (b.length - 1));
 }
 
+function officialFirstHalfOdds(event) {
+  const groups = Array.isArray(event?.market_groups) ? event.market_groups : [];
+  for (const group of groups) {
+    const token = fold(`${group?.title || ''} ${group?.description || ''}`);
+    if (!token.includes('yari')) continue;
+    if (token.includes('mac sonucu')) continue;
+    if (!/sonucu|kim kazanir/.test(token)) continue;
+    const byKey = new Map((Array.isArray(group?.outcomes) ? group.outcomes : [])
+      .map((outcome) => [selectionKey(outcome?.label), number(outcome?.odd)]));
+    const one = byKey.get('1');
+    const draw = byKey.get('0');
+    const two = byKey.get('2');
+    if (one && two) {
+      return {
+        one,
+        draw,
+        two,
+        source: 'official_iddaa_first_half',
+        verified: true,
+      };
+    }
+  }
+  return null;
+}
+
 function officialHtFtOdds(event) {
   const groups = Array.isArray(event?.market_groups) ? event.market_groups : [];
   const market = groups.find((group) => {
@@ -215,34 +240,35 @@ function firstHalfMarket(item) {
     const market = String(candidate.market || '').toLocaleLowerCase('tr-TR');
     const values = candidate.values || {};
     if (!market.includes('ilk yarı') && !market.includes('ilk yari')) continue;
-    const one = number(values.firstHalf1 ?? values.firstHalf1_guess ?? values.iy1 ?? values['1']);
-    const draw = number(values.firstHalfX ?? values.firstHalfX_guess ?? values.iyx ?? values.x);
-    const two = number(values.firstHalf2 ?? values.firstHalf2_guess ?? values.iy2 ?? values['2']);
-    if (one && two) return { one, draw, two, source: 'detail_market_candidates' };
+    if (candidate.market_identity_verified === false) continue;
+    const provenance = fold(`${candidate.source || ''} ${candidate.market_source || ''} ${candidate.provenance || ''}`);
+    if (/unlabeled raw block|raw market guess/.test(provenance)) continue;
+    const one = number(values.firstHalf1 ?? values.iy1 ?? values['1']);
+    const draw = number(values.firstHalfX ?? values.iyx ?? values.x);
+    const two = number(values.firstHalf2 ?? values.iy2 ?? values['2']);
+    if (one && two) return { one, draw, two, source: 'detail_market_candidates', verified: true };
   }
   return null;
 }
 
 function fullTimeMarket(item) {
   const odds = item.available_odds || item.odds || {};
-  const raw = item.raw_market_guess_odds || {};
   return {
-    one: number(odds.ms1 ?? raw.ms1),
-    draw: number(odds.msx ?? raw.msx),
-    two: number(odds.ms2 ?? raw.ms2)
+    one: number(odds.ms1),
+    draw: number(odds.msx),
+    two: number(odds.ms2)
   };
 }
 
 function opennessScore(item) {
   const odds = item.available_odds || item.odds || {};
-  const raw = item.raw_market_guess_odds || {};
-  const over = implied(odds.over25 ?? raw.over25 ?? raw.over25_guess);
-  const under = implied(odds.under25 ?? raw.under25 ?? raw.under25_guess);
+  const over = implied(odds.over25);
+  const under = implied(odds.under25);
   let overShare = 0.5;
   if (over && under) overShare = over / (over + under);
 
-  const yes = implied(odds.bttsYes ?? raw.bttsYes ?? raw.bttsYes_guess);
-  const no = implied(odds.bttsNo ?? raw.bttsNo ?? raw.bttsNo_guess);
+  const yes = implied(odds.bttsYes);
+  const no = implied(odds.bttsNo);
   let bttsShare = 0.5;
   if (yes && no) bttsShare = yes / (yes + no);
 
@@ -300,14 +326,19 @@ function analyzeMatch(item, targetDate, officialById, resolvedEvent) {
   const realOdds = officialHtFtOdds(officialEvent);
   if (!Object.keys(realOdds).length) return null;
 
-  const ftOdds = fullTimeMarket(item);
+  const officialFtOdds = fullTimeMarket(officialEvent);
+  const fallbackFtOdds = fullTimeMarket(item);
+  const ftOdds = officialFtOdds.one && officialFtOdds.two ? officialFtOdds : fallbackFtOdds;
   if (!ftOdds.one || !ftOdds.two) return null;
   const ft = normalizeThree(ftOdds.one, ftOdds.draw, ftOdds.two);
   if (!ft) return null;
 
-  const fhOdds = firstHalfMarket(item);
+  const officialFhOdds = officialFirstHalfOdds(officialEvent);
+  const fixtureFhOdds = firstHalfMarket(item);
+  const fhOdds = officialFhOdds || fixtureFhOdds;
   let fh = fhOdds ? normalizeThree(fhOdds.one, fhOdds.draw, fhOdds.two) : null;
   const halfSource = fhOdds?.source || 'derived_from_full_time_direction';
+  const halfVerified = fhOdds?.verified === true;
   if (!fh) {
     const drawBoost = 0.41;
     const remaining = 1 - drawBoost;
@@ -319,7 +350,9 @@ function analyzeMatch(item, targetDate, officialById, resolvedEvent) {
     };
   }
 
-  const openness = opennessScore(item);
+  const openness = opennessScore(
+    officialEvent?.available_odds && Object.keys(officialEvent.available_odds).length ? officialEvent : item
+  );
   const dataCompleteness = clamp(number(item.data_completeness) ?? 35, 0, 100);
   const modelScore = clamp(number(item.model_score ?? item.analysis_score ?? item.confidence_score) ?? 45, 0, 100);
   const quality = clamp((dataCompleteness * 0.45 + modelScore * 0.55) / 100, 0.25, 0.9);
@@ -327,8 +360,8 @@ function analyzeMatch(item, targetDate, officialById, resolvedEvent) {
   const reversalFactor = 0.5 + openness * 0.4;
 
   const scenarios = [
-    { market: '1/2', joint: fh.one * ft.two },
-    { market: '2/1', joint: fh.two * ft.one }
+    { market: '1/2', joint: fh.one * ft.two, firstHalfDirection: fh.one, fullTimeDirection: ft.two },
+    { market: '2/1', joint: fh.two * ft.one, firstHalfDirection: fh.two, fullTimeDirection: ft.one }
   ].map((scenario) => {
     const probability = clamp(scenario.joint * reversalFactor * seniorFactor, 0.018, 0.085);
     const balance = 1 - Math.abs(ft.one - ft.two);
@@ -372,6 +405,11 @@ function analyzeMatch(item, targetDate, officialById, resolvedEvent) {
     data_completeness: Math.round(dataCompleteness),
     source_model_score: Math.round(modelScore),
     first_half_signal_source: halfSource,
+    first_half_signal_verified: halfVerified,
+    openness_score: Number(openness.toFixed(3)),
+    reversal_joint_probability: Number((best.joint * 100).toFixed(1)),
+    first_half_direction_probability: Number((best.firstHalfDirection * 100).toFixed(1)),
+    full_time_direction_probability: Number((best.fullTimeDirection * 100).toFixed(1)),
     reason: reasonFor(item, best.market, ft, fh, openness, dataCompleteness, modelScore)
   };
 }
@@ -491,7 +529,7 @@ async function buildOutput(source, officialBulletin) {
     requested_date: requestedDate,
     date_fallback_used: dateFallbackUsed,
     evaluated_dates: evaluatedDates,
-    engine: 'Futbol Laboratuvarı Yüksek Oran İY/MS v3',
+    engine: 'Futbol Laboratuvarı Yüksek Oran İY/MS v4',
     source: 'data/robot-analysis.json + iddaa.com resmi futbol bülteni',
     odds_source: officialBulletin?.source || SOURCE_NAME,
     identity_policy: 'official_id_then_exact_teams_then_unique_time_and_team_similarity',
@@ -524,6 +562,7 @@ async function buildOutput(source, officialBulletin) {
       : officialHighOddsMatchCount >= 2 && scheduledScanMatches.length >= 2 && identityMatchCount === 0
         ? 'Resmî maçlar robot havuzuyla eşleştirilemedi; veri hattı kontrol bekliyor.'
         : 'Bugün en az iki adet doğrulanmış yüksek oranlı 1/2 veya 2/1 adayı bulunamadı; model oranı gösterilmedi.',
+    specialist_candidate_pool: analyzed,
     picks: selected
   };
 }
@@ -562,6 +601,7 @@ module.exports = {
   buildOutput,
   eventIdentityKey,
   officialEventMap,
+  officialFirstHalfOdds,
   officialHtFtOdds,
   resolveOfficialEvent,
   selectionKey
