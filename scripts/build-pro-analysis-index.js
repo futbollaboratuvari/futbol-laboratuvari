@@ -248,21 +248,112 @@ function compactLineup(record) {
       status: String(player?.status || ""),
       reason: String(player?.reason || ""),
       impact_level: String(player?.impact_level || ""),
+      impact_score: finite(player?.impact_score),
+      importance: finite(player?.importance),
     })),
   };
   return output.lineup_confirmed || output.unavailable_players.length ? output : null;
+}
+
+function compactZone(record) {
+  if (!record || typeof record !== "object") return null;
+  return {
+    starter_count: Number(record.starter_count || 0),
+    rated_starter_count: Number(record.rated_starter_count || 0),
+    strength: finite(record.strength),
+    missing_count: Number(record.missing_count || 0),
+    missing_impact: finite(record.missing_impact) || 0,
+    high_impact_missing: Number(record.high_impact_missing || 0),
+  };
+}
+
+function compactMatchupTeam(record) {
+  if (!record || typeof record !== "object") return null;
+  const zones = {};
+  for (const key of ["goalkeeper", "defense", "midfield", "attack"]) {
+    const compact = compactZone(record.zones?.[key]);
+    if (compact) zones[key] = compact;
+  }
+  return {
+    team_name: String(record.team_name || ""),
+    formation: String(record.formation || "-"),
+    lineup_confirmed: Boolean(record.lineup_confirmed),
+    availability_checked: Boolean(record.availability_checked),
+    starting_11_count: Number(record.starting_11_count || 0),
+    rated_starter_count: Number(record.rated_starter_count || 0),
+    missing_count: Number(record.missing_count || 0),
+    missing_impact: finite(record.missing_impact) || 0,
+    high_impact_missing: Number(record.high_impact_missing || 0),
+    zones,
+  };
+}
+
+function compactMatchup(value) {
+  if (!value || typeof value !== "object") return null;
+  const coverage = finite(value.coverage_score) || 0;
+  const home = compactMatchupTeam(value.home);
+  const away = compactMatchupTeam(value.away);
+  const comparisons = (Array.isArray(value.position_comparison) ? value.position_comparison : []).slice(0, 4).map((row) => ({
+    zone: String(row?.zone || ""),
+    label: String(row?.label || ""),
+    edge: String(row?.edge || "unknown"),
+    basis: String(row?.basis || ""),
+    home_strength: finite(row?.home_strength),
+    away_strength: finite(row?.away_strength),
+    strength_difference: finite(row?.strength_difference),
+    home_missing_impact: finite(row?.home_missing_impact) || 0,
+    away_missing_impact: finite(row?.away_missing_impact) || 0,
+  }));
+  return {
+    version: String(value.version || "matchup-intelligence-v1"),
+    data_quality: String(value.data_quality || "Belirsiz"),
+    coverage_score: coverage,
+    lineup_confirmed_both: Boolean(value.lineup_confirmed_both),
+    availability_checked_both: Boolean(value.availability_checked_both),
+    context_edge: finite(value.context_edge) || 0,
+    context_edge_side: String(value.context_edge_side || "balanced"),
+    home,
+    away,
+    position_comparison: comparisons,
+    market_context: value.market_context ? {
+      goal_pressure: finite(value.market_context.goal_pressure) || 0,
+      defensive_missing_impact: finite(value.market_context.defensive_missing_impact) || 0,
+      attacking_missing_impact: finite(value.market_context.attacking_missing_impact) || 0,
+      goals_note: String(value.market_context.goals_note || ""),
+      btts_note: String(value.market_context.btts_note || ""),
+    } : null,
+    signals: (Array.isArray(value.signals) ? value.signals : []).map(String).filter(Boolean).slice(0, 5),
+  };
+}
+
+function compactAdjustment(value) {
+  if (!value || typeof value !== "object") return null;
+  return {
+    original_model_score: finite(value.original_model_score),
+    penalty: finite(value.penalty),
+    delta: finite(value.delta),
+    adjusted_model_score: finite(value.adjusted_model_score),
+    reason: String(value.reason || ""),
+  };
 }
 
 function compactTeamIntelligence(item) {
   const intel = item.team_intelligence;
   if (!intel || typeof intel !== "object") return null;
   const output = {
+    squad_risk_level: String(intel.squad_risk_level || item.squad_risk_level || "Belirsiz"),
+    lineup_risk_level: String(intel.lineup_risk_level || item.lineup_risk_level || "Belirsiz"),
+    squad_verified_team_count: Number(intel.squad_verified_team_count || item.team_status_verified_count || 0),
+    named_player_count: Number(intel.named_player_count || item.named_player_count || 0),
     home_status: compactStatus(intel.team_status?.home || intel.home_status),
     away_status: compactStatus(intel.team_status?.away || intel.away_status),
     home_lineup: compactLineup(intel.lineup?.home || intel.home_lineup),
     away_lineup: compactLineup(intel.lineup?.away || intel.away_lineup),
+    matchup_analysis: compactMatchup(intel.matchup_analysis || item.matchup_analysis),
+    adjustment: compactAdjustment(intel.adjustment),
+    matchup_adjustment: compactAdjustment(intel.matchup_adjustment),
   };
-  return Object.values(output).some(Boolean) ? output : null;
+  return Object.values(output).some((value) => value !== null && value !== undefined && value !== "") ? output : null;
 }
 
 function selectProMatches(matches) {
@@ -284,6 +375,7 @@ function compactMatch(item, parent) {
     .filter(Boolean)
     .slice(0, 3);
   const bttsAnalysis = compactBttsAnalysis(item.btts_analysis || item.bttsAnalysis);
+  const teamIntelligence = compactTeamIntelligence(item);
   return {
     id: matchId(item, date),
     date,
@@ -314,6 +406,7 @@ function compactMatch(item, parent) {
     value_label: String(item.value_label || "Piyasa ile Uyumlu"),
     metrics: compactMetrics(item),
     ...(bttsAnalysis ? { btts_analysis: bttsAnalysis } : {}),
+    ...(teamIntelligence ? { team_intelligence: teamIntelligence } : {}),
     signals,
     model_version: item.model_version || parent.model_version || FALLBACK_MODEL_VERSION,
   };
@@ -332,7 +425,7 @@ function buildProAnalysisIndex() {
     && item.data_completeness >= 35
     && !/değerli market yok|degerli market yok|oynama/i.test(item.recommended_market));
   const payload = {
-    schema_version: 1,
+    schema_version: 2,
     generated_at: robot.generated_at || new Date().toISOString(),
     date: robot.date || "",
     timezone: "Europe/Istanbul",
@@ -345,6 +438,7 @@ function buildProAnalysisIndex() {
       source_match_count: sourceMatches.length,
       pro_ready_count: ready.length,
       coupon_candidate_count: matches.filter((item) => item.include_in_coupon).length,
+      matchup_verified_count: matches.filter((item) => Number(item.team_intelligence?.matchup_analysis?.coverage_score || 0) >= 65).length,
       average_data_completeness: matches.length
         ? Math.round(matches.reduce((sum, item) => sum + item.data_completeness, 0) / matches.length) : 0,
     },
@@ -362,5 +456,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { buildCalibration, buildProAnalysisIndex, compactBttsAnalysis, compactMatch, compactMetrics, compactTeamIntelligence, couponEligibility, main, matchId, selectProMatches, teamsOf };
-
+module.exports = { buildCalibration, buildProAnalysisIndex, compactBttsAnalysis, compactMatch, compactMatchup, compactMetrics, compactTeamIntelligence, couponEligibility, main, matchId, selectProMatches, teamsOf };
