@@ -14,8 +14,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Checkout
+      - name: Checkout focused test surface
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            scripts
+            tests
+            package.json
+            pro-coupon-eligibility.js
+          sparse-checkout-cone-mode: false
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
