@@ -1,0 +1,44 @@
+name: PRO Loss Pattern CI
+
+on:
+  push:
+    branches:
+      - feat/pro-loss-pattern-learning-v2
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    strategy:
+      matrix:
+        node: [20, 24]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout focused test surface
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts
+            tests
+            package.json
+          sparse-checkout-cone-mode: true
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Syntax checks
+        run: |
+          node --check scripts/loss-pattern-memory.js
+          node --check scripts/apply-learning-weights.js
+          node --check scripts/stage-5-prediction-measurement-check.js
+      - name: Loss pattern tests
+        run: node tests/loss-pattern-memory.test.js
+      - name: Existing learning confidence tests
+        run: node tests/learning-confidence.test.js
+      - name: Existing PRO scoring tests
+        run: node tests/robot-pro-v2.test.js
+      - name: Existing compact index tests
+        run: node tests/pro-analysis-index.test.js
