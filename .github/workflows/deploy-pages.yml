@@ -7,6 +7,7 @@ on:
   workflow_run:
     workflows:
       - High Odds HTFT Daily Scan
+      - Update fixtures and High Value Engine
     types:
       - completed
   workflow_dispatch:
