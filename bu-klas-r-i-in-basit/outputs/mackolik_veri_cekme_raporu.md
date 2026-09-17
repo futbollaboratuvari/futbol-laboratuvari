@@ -1,23 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-17T19:21:35.472628+00:00
+Tarih: 2026-09-17T20:47:28.924989+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 4
+- Kac mac bulundu: 1
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 4
+- Kac mac zaten vardi: 1
 - Ham veri havuzu toplam mac sayisi: 15145
 - Hedef tarih: 17.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- Ekvador Pro Lig Serie B Küme Düşme Grubu
-- Ekvador Pro Lig Serie B Şampiyonluk Grubu
 - Mısır 2. Lig
-- İspanya LaLiga
 
 ## Okunabilen Oran Alanlari
 
@@ -74,8 +71,8 @@ Tarih: 2026-09-17T19:21:35.472628+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 12
-- Acilan detay: 12
+- Denenen Tumu alani: 9
+- Acilan detay: 9
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -88,10 +85,7 @@ Tarih: 2026-09-17T19:21:35.472628+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 17.09.2026 | 22:30 | İspanya LaLiga | Malaga | Villarreal | 23406 | 5 |
 | 17.09.2026 | 16:30 | Mısır 2. Lig | Derot | El Harby | 03935 | 5 |
-| 17.09.2026 | 23:15 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | Cuniburo Fc | 9 De Octubre | 22747 | 3 |
-| 17.09.2026 | 23:30 | Ekvador Pro Lig Serie B Küme Düşme Grubu | 22 De Julio | Cumbaya | 04600 | 5 |
 
 ## Sonuc
 
