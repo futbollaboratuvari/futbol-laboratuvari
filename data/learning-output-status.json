@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-17T21:38:05.424Z",
-  "status": "waiting",
+  "generated_at": "2026-09-17T21:56:27.068Z",
+  "status": "ready",
   "checks": {
     "robot_exists": true,
     "memory_exists": true,
     "live_exists": true,
     "learning_engine_name": false,
     "learning_mode_name": true,
-    "learning_fields_ready": false,
+    "learning_fields_ready": true,
     "memory_has_predictions": true
   },
   "robot": {
     "engine": "Futbol Laboratuvarı PRO 13",
     "scoring_mode": "market_conditioned_probability_ensemble_with_learning_memory_and_verified_lineup_matchups",
-    "match_count": 0,
+    "match_count": 26,
     "learning_adjusted_count": 0
   },
   "memory": {
     "total_predictions": 1500,
-    "pending_predictions": 1082,
-    "won_predictions": 236,
-    "lost_predictions": 182
+    "pending_predictions": 1099,
+    "won_predictions": 225,
+    "lost_predictions": 176
   },
   "live": {
     "match_count": 0,
     "status": "waiting"
   },
-  "note": "Learning output is not fully ready yet. The next export run should regenerate robot-analysis.json with learning fields."
+  "note": "Learning output fields are present. The site can display learning notes."
 }

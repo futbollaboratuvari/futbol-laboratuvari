@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.09.2026 00:50:59
+Oluşturma: 18.09.2026 00:56:20
 
 ## Özet
 
@@ -31,19 +31,19 @@ Oluşturma: 18.09.2026 00:50:59
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-18 | Guatemala Ulusal Lig Apertura | Comunicaciones - Guastatoya | 2.5 Alt | pending | 69/100
-- 2026-09-18 | Meksika Liga MX Apertura | Fc Juarez - Tigres Uanl | 2.5 Alt | pending | 65/100
+- 2026-09-18 | Guatemala Ulusal Lig Apertura | Comunicaciones - Guastatoya | 2.5 Alt | pending | 71/100
+- 2026-09-18 | Meksika Liga MX Apertura | Fc Juarez - Tigres Uanl | 2.5 Alt | pending | 68/100
 - 2026-09-18 | Meksika Ascenso MX Apertura | Ca La Paz - Correcaminos Ua | MS 1 | pending | 53/100
 - 2026-09-18 | Arjantin Primera C | Cambaceres - Jj Urquiza | MS 2 | pending | 41/100
 - 2026-09-18 | Paraguay Intermedia Lig | 3 De Noviembre - Guairena | 2.5 Alt | pending | 53/100
 - 2026-09-18 | Brezilya Serie B | Vila Nova - America Mineiro | MS 1 | pending | 67/100
 - 2026-09-18 | Bolivya Premier Lig | Independiente - San Antonio Bul | MS 1 | pending | 65/100
 - 2026-09-18 | Kolombiya Primera B Clausura | Patriotas - Union Magdalena | 2.5 Alt | pending | 54/100
-- 2026-09-18 | ABD MLS | New York City - New York | 2.5 Alt | pending | 66/100
-- 2026-09-18 | Brezilya Serie B | Ceara - Novorizontino | 2.5 Üst | pending | 71/100
+- 2026-09-18 | ABD MLS | New York City - New York | 2.5 Alt | pending | 70/100
+- 2026-09-18 | Brezilya Serie B | Ceara - Novorizontino | 2.5 Üst | pending | 74/100
 - 2026-09-18 | Brezilya Serie B | Sao Bernardo - Atletico Goiani | 2.5 Alt | pending | 63/100
 - 2026-09-18 | El Salvador Primera Lig Apertura | Inca-Aruba - Fuerte San Fran | 2.5 Alt | pending | 63/100
-- 2026-09-18 | Arjantin Premier Lig 2. Aşama | Racing Club - Sarmiento | 2.5 Alt | pending | 62/100
-- 2026-09-18 | Ekvador Pro Lig Şampiyonluk Grubu | Aucas - Depor Macara | 2.5 Alt | pending | 72/100
-- 2026-09-18 | Meksika Liga MX Apertura | Puebla - Atlante | 2.5 Alt | pending | 67/100
+- 2026-09-18 | Arjantin Premier Lig 2. Aşama | Racing Club - Sarmiento | 2.5 Alt | pending | 64/100
+- 2026-09-18 | Ekvador Pro Lig Şampiyonluk Grubu | Aucas - Depor Macara | 2.5 Alt | pending | 75/100
+- 2026-09-18 | Meksika Liga MX Apertura | Puebla - Atlante | 2.5 Alt | pending | 70/100
 
