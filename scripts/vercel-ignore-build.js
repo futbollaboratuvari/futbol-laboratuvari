@@ -1,10 +1,12 @@
 const { execFileSync } = require("child_process");
 
-// Production frontend is published by GitHub Pages. Automatic Git-triggered
-// Vercel deployments are intentionally disabled. This is a second safety lock
-// in case project-level Git deployment settings are ever re-enabled by mistake.
-if (String(process.env.VERCEL_GIT_COMMIT_SHA || "").trim()) {
-  console.log("[vercel-ignore] Git-triggered Vercel deployment blocked; GitHub Pages is the production publisher.");
+// GitHub Pages remains the production frontend publisher. Vercel is the
+// protected API/backend runtime and should rebuild only when main changes can
+// affect that runtime. Generated data is read from GitHub main at request time,
+// so data-only commits must not create a deployment storm.
+const ref = String(process.env.VERCEL_GIT_COMMIT_REF || "").trim();
+if (ref && ref !== "main") {
+  console.log(`[vercel-ignore] ${ref} backend production dali degil; build atlandi.`);
   process.exit(0);
 }
 
@@ -13,30 +15,37 @@ const head = String(process.env.VERCEL_GIT_COMMIT_SHA || "HEAD").trim();
 const owner = String(process.env.VERCEL_GIT_REPO_OWNER || "futbollaboratuvari").trim();
 const repo = String(process.env.VERCEL_GIT_REPO_SLUG || "futbol-laboratuvari").trim();
 
-const GENERATED_PREFIXES = [
-  "data/",
-  "outputs/",
-  "bu-klas-r-i-in-basit/data/",
-  "bu-klas-r-i-in-basit/outputs/",
+const BACKEND_PREFIXES = [
+  "api/",
+  "backend/",
+  "server-lib/",
+  "scripts/",
 ];
+const BACKEND_FILES = new Set([
+  ".vercelignore",
+  "package.json",
+  "package-lock.json",
+  "pro-coupon-eligibility.js",
+  "vercel.json",
+]);
 
-function isGeneratedPath(file) {
-  return GENERATED_PREFIXES.some((prefix) => file.startsWith(prefix));
+function isBackendRelevant(file) {
+  if (BACKEND_FILES.has(file)) return true;
+  return BACKEND_PREFIXES.some((prefix) => file.startsWith(prefix));
 }
 
 function continueBuild(reason) {
-  console.log(`[vercel-ignore] build devam: ${reason}`);
+  console.log(`[vercel-ignore] backend build devam: ${reason}`);
   process.exit(1);
 }
 
 function ignoreBuild(changedFiles, source) {
   if (!changedFiles.length) continueBuild(`${source}: degisen dosya bulunamadi`);
-  const githubDataOnly = changedFiles.every(isGeneratedPath);
-  if (!githubDataOnly) {
-    const codeFiles = changedFiles.filter((file) => !isGeneratedPath(file));
-    continueBuild(`${source}: kod/yapi degisikligi var: ${codeFiles.slice(0, 12).join(", ")}`);
+  const backendFiles = changedFiles.filter(isBackendRelevant);
+  if (backendFiles.length) {
+    continueBuild(`${source}: backend degisikligi var: ${backendFiles.slice(0, 12).join(", ")}`);
   }
-  console.log(`[vercel-ignore] Vercel build atlandi; ${changedFiles.length} GitHub veri/rapor dosyasi degisti (${source}).`);
+  console.log(`[vercel-ignore] build atlandi; ${changedFiles.length} degisiklik backend runtime'ini etkilemiyor (${source}).`);
   process.exit(0);
 }
 
@@ -53,9 +62,9 @@ async function main() {
     const changedFiles = output.split(/\r?\n/).map((item) => item.trim()).filter(Boolean);
     ignoreBuild(changedFiles, "local-git");
   } catch {
-    // Vercel performs a shallow clone, so VERCEL_GIT_PREVIOUS_SHA may not be
-    // present locally. The repository is public; use GitHub's compare API as
-    // a read-only fallback and fail open if it cannot prove a data-only diff.
+    // Vercel shallow clone nedeniyle onceki SHA yerelde olmayabilir. Public
+    // GitHub compare API salt okunur yedek olarak kullanilir. Kanit yoksa build
+    // yapilarak guvenli tarafta kalinir.
   }
 
   if (!owner || !repo || !/^[A-Za-z0-9_.-]+$/.test(owner) || !/^[A-Za-z0-9_.-]+$/.test(repo)) {
@@ -92,8 +101,6 @@ async function main() {
     continueBuild("GitHub compare dosya listesi bos/gecersiz");
   }
 
-  // GitHub Compare API file list is capped at 300. Never ignore a build when
-  // the diff could be truncated, because an unseen code change may exist.
   if (payload.files.length >= 300) {
     continueBuild("GitHub compare dosya limiti doldu; guvenli tarafta build ediliyor");
   }
