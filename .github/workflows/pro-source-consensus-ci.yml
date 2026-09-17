@@ -1,0 +1,46 @@
+name: PRO Source Consensus CI
+
+on:
+  push:
+    branches:
+      - feat/pro-source-consensus
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    strategy:
+      matrix:
+        node: [20, 24]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout focused test surface
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts
+            tests
+            package.json
+            pro-coupon-eligibility.js
+          sparse-checkout-cone-mode: true
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Syntax checks
+        run: |
+          node --check scripts/source-consensus.js
+          node --check scripts/band-lite.js
+      - name: Source consensus tests
+        run: |
+          node tests/source-consensus.test.js
+          node tests/source-consensus-band.test.js
+      - name: Existing team intelligence tests
+        run: npm run test:team-intelligence
+      - name: Existing export tests
+        run: node tests/export-high-value-json.test.js
+      - name: Existing PRO index tests
+        run: node tests/pro-analysis-index.test.js
