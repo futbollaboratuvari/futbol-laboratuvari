@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.09.2026 03:10:40
+Oluşturma: 17.09.2026 04:21:00
 
 ## Özet
 
@@ -31,7 +31,7 @@ Oluşturma: 17.09.2026 03:10:40
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-17 | Kolombiya Primera A Clausura | Bucaramanga - Independiente M | 2.5 Üst | pending | 67/100
+- 2026-09-17 | Kolombiya Primera A Clausura | Bucaramanga - Independiente M | 2.5 Üst | pending | 70/100
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Real Sociedad - Bournemouth | MS X | pending | 60/100
 - 2026-09-17 | İspanya LaLiga | Malaga - Villarreal | KG Var | pending | 63/100
 - 2026-09-17 | Mısır 2. Lig | Ismaily - Haras El Hodood | 2.5 Alt | pending | 50/100
