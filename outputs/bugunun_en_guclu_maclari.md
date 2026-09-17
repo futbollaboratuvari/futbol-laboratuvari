@@ -4,14 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-17T19:46:33.905Z
+- Güncelleme: 2026-09-17T19:57:04.969Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Orlando Pirate VS Durban City | Güney Afrika PSL | 20:30 | 2.5 Alt | 1.47 | 68 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
 | Makhachkala VS Cska Moskova | Rusya Premier Lig | 20:45 | 2.5 Üst | 1.72 | 76 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Zeleznicar Pan VS Kizilyildiz | Sırbistan Süper Lig | 21:00 | MS 2 | 1.31 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Al Zawraa VS Al Gharraf | Irak Premier Lig | 21:00 | MS 1 | 1.31 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -26,7 +25,7 @@
 | Crystal Palace VS Lech Poznan | UEFA Avrupa Ligi Lig Aşaması | 22:00 | MS 1 | 1.28 | 71 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Viktoria Plzen VS Union St.G | UEFA Avrupa Ligi Lig Aşaması | 22:00 | MS 1 | 2.28 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Lillestrom VS Torreense | UEFA Avrupa Ligi Lig Aşaması | 22:00 | MS 1 | 1.61 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Real Sociedad VS Bournemouth | UEFA Avrupa Ligi Lig Aşaması | 22:00 | MS X | 3.24 | 64 | Sadece izleme | Değerli | Yüksek | Düşük | scheduled |
+| Real Sociedad VS Bournemouth | UEFA Avrupa Ligi Lig Aşaması | 22:00 | MS 2 | 1.86 | 62 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Afc Wimbledon VS Mk Dons | İngiltere 1.Lig | 22:00 | 2.5 Üst | 1.66 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Renate VS Dolomiti Bellun | İtalya Serie C Grup A | 22:00 | 2.5 Alt | 1.44 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Giana Erminio VS Trento Calcio 1 | İtalya Serie C Grup A | 22:00 | 2.5 Alt | 1.44 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
