@@ -107,6 +107,31 @@ function teamSimilarity(left, right) {
   return (2 * overlap) / ((a.length - 1) + (b.length - 1));
 }
 
+function officialFirstHalfOdds(event) {
+  const groups = Array.isArray(event?.market_groups) ? event.market_groups : [];
+  for (const group of groups) {
+    const token = fold(`${group?.title || ''} ${group?.description || ''}`);
+    if (!token.includes('yari')) continue;
+    if (token.includes('mac sonucu')) continue;
+    if (!/sonucu|kim kazanir/.test(token)) continue;
+    const byKey = new Map((Array.isArray(group?.outcomes) ? group.outcomes : [])
+      .map((outcome) => [selectionKey(outcome?.label), number(outcome?.odd)]));
+    const one = byKey.get('1');
+    const draw = byKey.get('0');
+    const two = byKey.get('2');
+    if (one && two) {
+      return {
+        one,
+        draw,
+        two,
+        source: 'official_iddaa_first_half',
+        verified: true,
+      };
+    }
+  }
+  return null;
+}
+
 function officialHtFtOdds(event) {
   const groups = Array.isArray(event?.market_groups) ? event.market_groups : [];
   const market = groups.find((group) => {
@@ -301,12 +326,16 @@ function analyzeMatch(item, targetDate, officialById, resolvedEvent) {
   const realOdds = officialHtFtOdds(officialEvent);
   if (!Object.keys(realOdds).length) return null;
 
-  const ftOdds = fullTimeMarket(item);
+  const officialFtOdds = fullTimeMarket(officialEvent);
+  const fallbackFtOdds = fullTimeMarket(item);
+  const ftOdds = officialFtOdds.one && officialFtOdds.two ? officialFtOdds : fallbackFtOdds;
   if (!ftOdds.one || !ftOdds.two) return null;
   const ft = normalizeThree(ftOdds.one, ftOdds.draw, ftOdds.two);
   if (!ft) return null;
 
-  const fhOdds = firstHalfMarket(item);
+  const officialFhOdds = officialFirstHalfOdds(officialEvent);
+  const fixtureFhOdds = firstHalfMarket(item);
+  const fhOdds = officialFhOdds || fixtureFhOdds;
   let fh = fhOdds ? normalizeThree(fhOdds.one, fhOdds.draw, fhOdds.two) : null;
   const halfSource = fhOdds?.source || 'derived_from_full_time_direction';
   const halfVerified = fhOdds?.verified === true;
@@ -321,7 +350,9 @@ function analyzeMatch(item, targetDate, officialById, resolvedEvent) {
     };
   }
 
-  const openness = opennessScore(item);
+  const openness = opennessScore(
+    officialEvent?.available_odds && Object.keys(officialEvent.available_odds).length ? officialEvent : item
+  );
   const dataCompleteness = clamp(number(item.data_completeness) ?? 35, 0, 100);
   const modelScore = clamp(number(item.model_score ?? item.analysis_score ?? item.confidence_score) ?? 45, 0, 100);
   const quality = clamp((dataCompleteness * 0.45 + modelScore * 0.55) / 100, 0.25, 0.9);
@@ -570,6 +601,7 @@ module.exports = {
   buildOutput,
   eventIdentityKey,
   officialEventMap,
+  officialFirstHalfOdds,
   officialHtFtOdds,
   resolveOfficialEvent,
   selectionKey
