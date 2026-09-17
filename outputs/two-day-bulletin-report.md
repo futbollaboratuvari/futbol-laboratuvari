@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
-Ham mac: 66
-Aktif mac: 30
+Ham mac: 124
+Aktif mac: 27
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 36
-Bugun: 20
+Bultenden dusurulen mac: 97
+Bugun: 17
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-09-17 21:30 | İngiltere Lig Kupası 3.Tur | Manchester Cit - Norwich | scheduled | -
-- 2026-09-17 21:30 | Uruguay Kupa Ön Eleme Turu Grup 4 | Central Espano - Oriental | scheduled | -
-- 2026-09-17 21:30 | Uruguay Kupa Ön Eleme Turu Grup 4 | Juventud Dl Pi - Racing Montevid | scheduled | -
 - 2026-09-17 21:45 | Fransa Ligue 3 | Bastia - Cannes | scheduled | -
 - 2026-09-17 22:00 | UEFA Avrupa Ligi Lig Aşaması | Juventus - Nijmegen | scheduled | -
 - 2026-09-17 22:00 | UEFA Avrupa Ligi Lig Aşaması | Beşiktaş - Marsilya | scheduled | -
