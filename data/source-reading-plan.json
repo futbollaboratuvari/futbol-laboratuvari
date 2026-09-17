@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T08:48:31.790Z",
+  "generated_at": "2026-09-17T13:51:24.301Z",
   "date": "2026-09-17",
   "source_count": 8,
-  "match_count": 84,
+  "match_count": 86,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
     {
@@ -366,7 +366,7 @@
       "match_name": "Kitchee Footba VS Gangwon",
       "league": "AFC Şampiyonlar Ligi 2 Grup H",
       "start_time": "15:15",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -468,7 +468,7 @@
       "match_name": "Baku Sportinq VS Sabail",
       "league": "Azerbaycan 1.Lig",
       "start_time": "15:30",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -519,7 +519,7 @@
       "match_name": "Fransa U20 (K) VS Kanada U20 (K)",
       "league": "Kadınlar U20 Dünya Kupası Son 16 Turu",
       "start_time": "16:00",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -570,7 +570,7 @@
       "match_name": "Navbahor Naman VS Dinamo Samarqan",
       "league": "Özbekistan Super League",
       "start_time": "16:00",
-      "recommended_market": "MS 1",
+      "recommended_market": "Değerli market yok",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -723,7 +723,7 @@
       "match_name": "Kalamata VS Larisa",
       "league": "Yunanistan Kupa Lig Aşaması",
       "start_time": "16:30",
-      "recommended_market": "MS 1",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -992,7 +992,7 @@
       "match_name": "Tanta VS Nasr",
       "league": "Mısır 2. Lig",
       "start_time": "16:30",
-      "recommended_market": "MS 1",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1210,7 +1210,7 @@
       "match_name": "El Daklyeh VS Tersana",
       "league": "Mısır 2. Lig",
       "start_time": "16:30",
-      "recommended_market": "MS X",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1472,7 +1472,7 @@
       "match_name": "Tobol Kostanay VS Yelimay Semey",
       "league": "Kazakistan Premier Lig",
       "start_time": "17:00",
-      "recommended_market": "MS 1",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1625,7 +1625,7 @@
       "match_name": "Stade Tunis VS Club Africain",
       "league": "Tunus 1.Lig",
       "start_time": "18:00",
-      "recommended_market": "MS 2",
+      "recommended_market": "MS X",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1727,7 +1727,7 @@
       "match_name": "Enugu Rangers VS Nasarawa United",
       "league": "Nijerya NPFL",
       "start_time": "18:00",
-      "recommended_market": "MS 1",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1982,7 +1982,7 @@
       "match_name": "Olimpiyets VS Leningradets",
       "league": "Rusya FNL",
       "start_time": "19:00",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2084,7 +2084,7 @@
       "match_name": "Fc Iberia VS Dila Gori",
       "league": "Gürcistan Erovnuli Liga",
       "start_time": "19:00",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2442,6 +2442,57 @@
       "league": "Norveç Kadınlar Toppserien",
       "start_time": "19:00",
       "recommended_market": "MS 1",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Stord Sunnhord VS Djerv",
+      "league": "Norveç 3.Lig Grup 3",
+      "start_time": "19:00",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2948,6 +2999,57 @@
       ]
     },
     {
+      "match_name": "Rayon Sports VS Sunrise",
+      "league": "Ruanda Ulusal Futbol Ligi",
+      "start_time": "19:30",
+      "recommended_market": "2.5 Alt",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
       "match_name": "Levski Sofya VS Salzburg",
       "league": "UEFA Avrupa Ligi Lig Aşaması",
       "start_time": "19:45",
@@ -3155,7 +3257,7 @@
       "match_name": "Enppi VS Pyramids Fc",
       "league": "Mısır Premier Lig",
       "start_time": "20:00",
-      "recommended_market": "MS 2",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -3257,7 +3359,7 @@
       "match_name": "Express VS Kitara",
       "league": "Uganda Premier Lig",
       "start_time": "20:00",
-      "recommended_market": "MS 2",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -3410,7 +3512,7 @@
       "match_name": "Zeleznicar Pan VS Kizilyildiz",
       "league": "Sırbistan Süper Lig",
       "start_time": "21:00",
-      "recommended_market": "MS 2",
+      "recommended_market": "Değerli market yok",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -4087,7 +4189,7 @@
       "match_name": "Viktoria Plzen VS Union St.G",
       "league": "UEFA Avrupa Ligi Lig Aşaması",
       "start_time": "22:00",
-      "recommended_market": "2.5 Üst",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -4648,7 +4750,7 @@
       "match_name": "22 De Julio VS Cumbaya",
       "league": "Ekvador Pro Lig Serie B Küme Düşme Grubu",
       "start_time": "23:30",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
