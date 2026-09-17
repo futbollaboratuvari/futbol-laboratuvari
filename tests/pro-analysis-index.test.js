@@ -34,6 +34,62 @@ test("kompakt PRO kaydı model gücü ve olasılığı ayrı tutar", () => {
   assert.equal(row.independent_evidence, true);
 });
 
+test("kompakt PRO kaydı doğrulanmış kadro ve mevki eşleşmesini kaybetmez", () => {
+  const row = compactMatch({
+    date: "2026-08-24",
+    home: "A",
+    away: "B",
+    market: "MS 1",
+    model_score: 68,
+    data_completeness: 70,
+    independent_evidence: true,
+    squad_risk_level: "Orta",
+    lineup_risk_level: "Orta",
+    team_status_verified_count: 2,
+    named_player_count: 2,
+    team_intelligence: {
+      squad_risk_level: "Orta",
+      lineup_risk_level: "Orta",
+      squad_verified_team_count: 2,
+      named_player_count: 2,
+      home_lineup: {
+        team_name: "A",
+        formation: "4-3-3",
+        starting_11_count: 11,
+        lineup_confirmed: true,
+        availability_checked: true,
+        unavailable_players: [],
+      },
+      away_lineup: {
+        team_name: "B",
+        formation: "4-2-3-1",
+        starting_11_count: 11,
+        lineup_confirmed: true,
+        availability_checked: true,
+        unavailable_players: [{ name: "Eksik", position: "M", impact_score: 8, impact_level: "Yüksek" }],
+      },
+      matchup_analysis: {
+        version: "matchup-intelligence-v1",
+        data_quality: "Orta",
+        coverage_score: 70,
+        lineup_confirmed_both: true,
+        availability_checked_both: true,
+        context_edge: 6,
+        context_edge_side: "home",
+        home: { team_name: "A", formation: "4-3-3", zones: {} },
+        away: { team_name: "B", formation: "4-2-3-1", missing_count: 1, missing_impact: 8, zones: {} },
+        position_comparison: [{ zone: "midfield", label: "Orta saha", edge: "home", basis: "verified_availability", home_missing_impact: 0, away_missing_impact: 8 }],
+        market_context: { goal_pressure: -5, defensive_missing_impact: 0, attacking_missing_impact: 8, goals_note: "test", btts_note: "test" },
+        signals: ["B orta sahasında yüksek etkili eksik."],
+      },
+    },
+  }, {});
+  assert.equal(row.team_intelligence.squad_verified_team_count, 2);
+  assert.equal(row.team_intelligence.away_lineup.unavailable_players[0].impact_score, 8);
+  assert.equal(row.team_intelligence.matchup_analysis.coverage_score, 70);
+  assert.equal(row.team_intelligence.matchup_analysis.position_comparison[0].edge, "home");
+});
+
 test("kupon uygunluk bayrağı bütün kanıt eşiklerini birlikte doğrular", () => {
   const inconsistent = compactMatch({
     home: "A",

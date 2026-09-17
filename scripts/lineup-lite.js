@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { buildMatchupAnalysis } = require('./matchup-intelligence');
 
 const root = path.join(__dirname, '..');
 const dataDir = path.join(root, 'data');
@@ -181,6 +182,10 @@ function buildLineupSignals() {
     const away = buildTeamSummary(t.away, awayRecord);
     const qualityDiff = home.starting_11_strength - away.starting_11_strength;
     const risk = lineupRisk(home, away);
+    const matchupAnalysis = buildMatchupAnalysis(home, away, homeRecord, awayRecord);
+    const matchupComment = matchupAnalysis.signals.length
+      ? `Mevki eşleşmesi: ${matchupAnalysis.signals.slice(0, 3).join(' ')}`
+      : 'Mevki eşleşmesi: doğrulanmış ek sinyal yok.';
     return {
       match_name: row.match_name || row.match || `${t.home} VS ${t.away}`,
       date: String(row.date || row.tarih || '').slice(0, 10),
@@ -190,7 +195,8 @@ function buildLineupSignals() {
       away_lineup: away,
       lineup_quality_diff: qualityDiff,
       lineup_risk_level: risk,
-      robot_comment: `${compareTeams(home, away)} Kadro eksikliği riski: ${risk}.`
+      matchup_analysis: matchupAnalysis,
+      robot_comment: `${compareTeams(home, away)} Kadro eksikliği riski: ${risk}. ${matchupComment}`
     };
   });
   const output = {
