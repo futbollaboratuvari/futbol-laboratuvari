@@ -2,24 +2,15 @@
 
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
-Ham mac: 120
-Aktif mac: 103
+Ham mac: 107
+Aktif mac: 94
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 17
-Bugun: 94
+Bultenden dusurulen mac: 13
+Bugun: 85
 Yarin: 9
 
 ## Baslamamis Maclar
-- 2026-09-17 03:30 | Copa Libertadores Çeyrek Final | Corinthians (1) - (1) Estudiantes Lp | scheduled | -
-- 2026-09-17 03:30 | CONCACAF Orta Amerika Kupası Çeyrek Final | Cs Cartagines (2) - (2) Deportivo Sapri | scheduled | -
-- 2026-09-17 03:30 | Bolivya Premier Lig | Blooming - Universitario D | scheduled | -
-- 2026-09-17 03:30 | ABD USL | Birmingham Leg - New Mexico Unit | scheduled | -
-- 2026-09-17 04:00 | El Salvador Primera Lig Apertura | Inter Fa - Deportivo Fas | scheduled | -
-- 2026-09-17 04:00 | ABD USL Lig 1 | Athletic Club - Charlotte Indep | scheduled | -
-- 2026-09-17 04:00 | ABD MLS Next Pro | Real Monarchs - Minnesota Unite | scheduled | -
-- 2026-09-17 04:20 | Kolombiya Primera A Clausura | Inter Bogota - Atletico Nacion | scheduled | -
-- 2026-09-17 04:30 | ABD Açık Kupası Yarı Final | Colorado - St. Louis City | scheduled | -
 - 2026-09-17 06:15 | CONCACAF Orta Amerika Kupası Çeyrek Final | Alianza (0) - (3) Depor Motagua | scheduled | -
 - 2026-09-17 13:00 | AFC Şampiyonlar Ligi 2 Grup F | Adelaide Unite - Wofoo Tai Po | scheduled | -
 - 2026-09-17 13:00 | AFC Şampiyonlar Ligi 2 Grup F | Lion City - Bg Pathum Unite | scheduled | -
