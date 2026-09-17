@@ -47,6 +47,7 @@ assert.equal(over35.estimated_odds, "2.05");
 assert.equal(over35.independent_evidence, true);
 assert.equal(over35.include_in_coupon, true);
 assert.ok(over35.model_score >= 65);
+assert.ok(Math.abs(over35.edge_percent - (over35.estimated_probability - over35.market_probability)) <= 0.2);
 
 const sixPlus = analyzeSixPlus([highGoalFixture]);
 assert.ok(sixPlus);
@@ -57,21 +58,28 @@ assert.equal(sixPlus.include_in_coupon, true);
 assert.ok(sixPlus.estimated_probability >= 15);
 assert.ok(sixPlus.edge_percent >= 2);
 assert.ok(sixPlus.model_score >= 68);
+assert.ok(Math.abs(sixPlus.edge_percent - (sixPlus.estimated_probability - sixPlus.market_probability)) <= 0.2);
 
 assert.equal(couponRules.isCouponEligible({
   ...sixPlus,
   include_in_coupon: true,
 }), true);
-assert.equal(couponRules.isCouponEligible({
+
+const weakCanonicalEdge = {
   ...sixPlus,
+  estimated_probability: Number((sixPlus.market_probability + 1.9).toFixed(1)),
   edge_percent: 1.9,
   include_in_coupon: true,
-}), false);
+};
+assert.equal(couponRules.isCouponEligible(weakCanonicalEdge), false);
+
 assert.equal(couponRules.isCouponEligible({
   recommended_market: "MS 1",
   estimated_odds: "1.30",
   model_score: 80,
   estimated_probability: 70,
+  market_probability: 65,
+  edge_percent: 5,
   data_completeness: 80,
   independent_evidence: true,
   risk_level: "Orta",
@@ -89,6 +97,8 @@ const lowOddCoupon = {
     model_score: 80,
     analysis_score: 80,
     estimated_probability: 70,
+    market_probability: 65,
+    edge_percent: 5,
     data_completeness: 80,
     independent_evidence: true,
     include_in_coupon: true,
