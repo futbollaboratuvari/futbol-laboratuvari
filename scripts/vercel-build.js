@@ -149,6 +149,7 @@ for (const entry of fs.readdirSync(root)) {
 }
 
 require("./harden-static-seo-runner").hardenStaticSeo(outDir);
+require("./inject-editorial-adsense").injectEditorialAdsense(outDir);
 
 try {
   const sourceLive = path.join(root, "data", "live-matches.json");
