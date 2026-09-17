@@ -2,22 +2,15 @@
 
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
-Ham mac: 83
-Aktif mac: 40
+Ham mac: 72
+Aktif mac: 33
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 43
-Bugun: 30
+Bultenden dusurulen mac: 39
+Bugun: 23
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-09-17 20:00 | İspanya LaLiga | Real Betis - Getafe | scheduled | -
-- 2026-09-17 20:00 | Cezayir 1.Lig | Biskra - Belouizdad | scheduled | -
-- 2026-09-17 20:00 | Mısır Premier Lig | Enppi - Pyramids Fc | scheduled | -
-- 2026-09-17 20:00 | Ürdün 1.Lig | Aqaba - Amman | scheduled | -
-- 2026-09-17 20:00 | Uganda Premier Lig | Express - Kitara | scheduled | -
-- 2026-09-17 20:30 | Güney Afrika PSL | Orlando Pirate - Durban City | scheduled | -
-- 2026-09-17 20:45 | Rusya Premier Lig | Makhachkala - Cska Moskova | scheduled | -
 - 2026-09-17 21:00 | Sırbistan Süper Lig | Zeleznicar Pan - Kizilyildiz | scheduled | -
 - 2026-09-17 21:00 | Irak Premier Lig | Al Zawraa - Al Gharraf | scheduled | -
 - 2026-09-17 21:00 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | Independiente - Atletico Fc | scheduled | 1-1

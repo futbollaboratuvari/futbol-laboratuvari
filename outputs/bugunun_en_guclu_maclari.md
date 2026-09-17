@@ -4,24 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-17T16:58:37.153Z
+- Güncelleme: 2026-09-17T17:57:55.436Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kalamata VS Larisa | Yunanistan Kupa Lig Aşaması | 16:30 | 2.5 Alt | 1.51 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Derot VS El Harby | Mısır 2. Lig | 16:30 | 2.5 Alt | 1.36 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Ismaily VS Haras El Hodood | Mısır 2. Lig | 16:30 | MS 2 | 2.39 | 46 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Tanta VS Nasr | Mısır 2. Lig | 16:30 | MS 2 | 2.41 | 46 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| El Mansura VS Team | Mısır 2. Lig | 16:30 | MS 1 | 1.86 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| El Daklyeh VS Tersana | Mısır 2. Lig | 16:30 | MS 2 | 2.24 | 47 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Zed VS Al Qanah | Mısır Premier Lig | 17:00 | MS 1 | 1.98 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Tekstilshchik VS Rotor Volgograd | Rusya FNL | 17:00 | 2.5 Alt | 1.42 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Astana VS Kairat Almaty | Kazakistan Premier Lig | 17:00 | 2.5 Üst | 1.63 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Tobol Kostanay VS Yelimay Semey | Kazakistan Premier Lig | 17:00 | 2.5 Alt | 1.89 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Updf VS Maroons | Uganda Premier Lig | 17:00 | 2.5 Alt | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Aek VS Panserraikos | Yunanistan Kupa Lig Aşaması | 17:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Stade Tunis VS Club Africain | Tunus 1.Lig | 18:00 | MS X | 2.21 | 47 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Atyrau VS Ordabasy | Kazakistan Premier Lig | 18:00 | MS 2 | 1.32 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -74,14 +63,14 @@
 | Crystal Palace VS Lech Poznan | UEFA Avrupa Ligi Lig Aşaması | 22:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Viktoria Plzen VS Union St.G | UEFA Avrupa Ligi Lig Aşaması | 22:00 | 2.5 Alt | 2.01 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Lillestrom VS Torreense | UEFA Avrupa Ligi Lig Aşaması | 22:00 | MS 1 | 1.45 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Real Sociedad VS Bournemouth | UEFA Avrupa Ligi Lig Aşaması | 22:00 | MS 2 | 2.08 | 60 | Sadece izleme | Değerli | Orta | Orta | scheduled |
+| Real Sociedad VS Bournemouth | UEFA Avrupa Ligi Lig Aşaması | 22:00 | MS X | 3.23 | 64 | Sadece izleme | Değerli | Yüksek | Düşük | scheduled |
 | Afc Wimbledon VS Mk Dons | İngiltere 1.Lig | 22:00 | 2.5 Üst | 1.64 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Renate VS Dolomiti Bellun | İtalya Serie C Grup A | 22:00 | 2.5 Alt | 1.44 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Giana Erminio VS Trento Calcio 1 | İtalya Serie C Grup A | 22:00 | 2.5 Alt | 1.44 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Athletic Carpi VS Ospitaletto | İtalya Serie C Grup A | 22:00 | 2.5 Alt | 1.47 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Union Brescia VS Treviso | İtalya Serie C Grup A | 22:00 | MS 1 | 1.43 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Temouchent VS Js Kabylie | Cezayir 1.Lig | 22:00 | MS 2 | 1.86 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Malaga VS Villarreal | İspanya LaLiga | 22:30 | KG Var | 1.65 | 66 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
+| Malaga VS Villarreal | İspanya LaLiga | 22:30 | KG Var | 1.63 | 66 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
 | Cuniburo Fc VS 9 De Octubre | Ekvador Pro Lig Serie B Şampiyonluk Grubu | 23:15 | MS 1 | 1.86 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | 22 De Julio VS Cumbaya | Ekvador Pro Lig Serie B Küme Düşme Grubu | 23:30 | MS 2 | 1.33 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Bucaramanga VS Independiente M | Kolombiya Primera A Clausura | 02:00 | 2.5 Üst | 1.92 | 74 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
@@ -110,10 +99,10 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Akron VS Akhmat Grozny + Makhachkala VS Cska Moskova | 2.5 Üst + 2.5 Üst | 2.87 | 78 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Real Betis VS Getafe + Bucaramanga VS Independiente M | 2.5 Alt + 2.5 Üst | 3.15 | 75 | Orta risk kupon adayı | Normal Değer | Orta | Düşük |
-| Bucaramanga VS Independiente M + Malaga VS Villarreal | 2.5 Üst + KG Var | 3.12 | 70 | Orta risk kupon adayı | Normal Değer | Orta | Düşük |
+| Bucaramanga VS Independiente M + Malaga VS Villarreal | 2.5 Üst + KG Var | 3.08 | 70 | Orta risk kupon adayı | Normal Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Akron VS Akhmat Grozny + Makhachkala VS Cska Moskova + Real Betis VS Getafe | 2.5 Üst + 2.5 Üst + 2.5 Alt | 4.71 | 77 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Bucaramanga VS Independiente M + Bucaramanga VS Independiente M + Malaga VS Villarreal | 2.5 Üst + 2.5 Üst + KG Var | 5.99 | 71 | Orta risk kupon adayı | Normal Değer | Yüksek | Düşük |
+| Bucaramanga VS Independiente M + Bucaramanga VS Independiente M + Malaga VS Villarreal | 2.5 Üst + 2.5 Üst + KG Var | 5.91 | 71 | Orta risk kupon adayı | Normal Değer | Yüksek | Düşük |
