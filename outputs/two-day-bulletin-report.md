@@ -1,14 +1,14 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-09-17 / 2026-09-18
+Gunler: 2026-09-18 / 2026-09-19
 Kaynak: fixtures.json
-Ham mac: 29
+Ham mac: 10
 Aktif mac: 10
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 19
-Bugun: 0
-Yarin: 10
+Bultenden dusurulen mac: 0
+Bugun: 10
+Yarin: 0
 
 ## Baslamamis Maclar
 - 2026-09-18 02:00 | Kolombiya Primera A Clausura | Bucaramanga - Independiente M | scheduled | -

@@ -2,10 +2,10 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 11
+- Scheduled match count: 19
 - Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-09-17 / 2026-09-18 23:59
+- Date window: 2026-09-18 / 2026-09-19 23:59
 
 - 2026-09-18 02:00 | Bucaramanga - Independiente M | scheduled
 - 2026-09-18 03:00 | Santo Domingo - El Nacional | scheduled
