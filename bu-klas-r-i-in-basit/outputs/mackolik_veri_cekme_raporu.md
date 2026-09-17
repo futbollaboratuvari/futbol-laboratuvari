@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-17T04:56:08.384611+00:00
+Tarih: 2026-09-17T06:14:43.984887+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 93
+- Kac mac bulundu: 85
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 93
+- Kac mac zaten vardi: 85
 - Ham veri havuzu toplam mac sayisi: 15141
 - Hedef tarih: 17.09.2026 Europe/Istanbul
 
@@ -18,11 +18,7 @@ Tarih: 2026-09-17T04:56:08.384611+00:00
 - AFC Şampiyonlar Ligi 2 Grup G
 - AFC Şampiyonlar Ligi 2 Grup H
 - Azerbaycan 1.Lig
-- Bolivya Premier Lig
-- CONCACAF Orta Amerika Kupası Çeyrek Final
 - Cezayir 1.Lig
-- Copa Libertadores Çeyrek Final
-- Copa Sudamericana Çeyrek Final
 - Danimarka DBU Kupası 3.Tur
 - Ekvador Pro Lig Serie B Küme Düşme Grubu
 - Ekvador Pro Lig Serie B Şampiyonluk Grubu
@@ -34,8 +30,6 @@ Tarih: 2026-09-17T04:56:08.384611+00:00
 - Irak Premier Lig
 - Kadınlar U20 Dünya Kupası Son 16 Turu
 - Kazakistan Premier Lig
-- Kolombiya Primera A Clausura
-- Meksika Ascenso MX Apertura
 - Mısır 2. Lig
 - Mısır Premier Lig
 - Nijerya NPFL
@@ -128,26 +122,26 @@ Tarih: 2026-09-17T04:56:08.384611+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 17.09.2026 | 19:45 | UEFA Avrupa Ligi Lig Aşaması | Levski Sofya | Salzburg | 20777 | 5 |
-| 17.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Juventus | Nijmegen | 21600 | 5 |
-| 17.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Crystal Palace | Lech Poznan | 21526 | 5 |
 | 17.09.2026 | 19:45 | UEFA Avrupa Ligi Lig Aşaması | Ofi | Hoffenheim | 21029 | 5 |
-| 17.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Beşiktaş | Marsilya | 21396 | 5 |
 | 17.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen | Union St.G | 21850 | 5 |
+| 17.09.2026 | 19:45 | UEFA Avrupa Ligi Lig Aşaması | Levski Sofya | Salzburg | 20777 | 5 |
 | 17.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Real Sociedad | Bournemouth | 21791 | 5 |
 | 17.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Lillestrom | Torreense | 21731 | 5 |
 | 17.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Celtic | Ferencvaros | 21454 | 5 |
+| 17.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Juventus | Nijmegen | 21600 | 5 |
+| 17.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Beşiktaş | Marsilya | 21396 | 5 |
+| 17.09.2026 | 22:00 | UEFA Avrupa Ligi Lig Aşaması | Crystal Palace | Lech Poznan | 21526 | 5 |
 | 17.09.2026 | 20:00 | İspanya LaLiga | Real Betis | Getafe | 21215 | 5 |
 | 17.09.2026 | 22:30 | İspanya LaLiga | Malaga | Villarreal | 23406 | 5 |
 | 17.09.2026 | 21:30 | İngiltere Lig Kupası 3.Tur | Manchester Cit | Norwich | 21339 | 4 |
-| 17.09.2026 | 13:00 | AFC Şampiyonlar Ligi 2 Grup F | Adelaide Unite | Wofoo Tai Po | 15220 | 5 |
 | 17.09.2026 | 13:00 | AFC Şampiyonlar Ligi 2 Grup F | Lion City | Bg Pathum Unite | 13575 | 5 |
-| 17.09.2026 | 13:00 | AFC Şampiyonlar Ligi 2 Grup G | Machida Zelvia | Pkr Svay Rieng | 21056 | 4 |
+| 17.09.2026 | 13:00 | AFC Şampiyonlar Ligi 2 Grup F | Adelaide Unite | Wofoo Tai Po | 15220 | 5 |
 | 17.09.2026 | 15:15 | AFC Şampiyonlar Ligi 2 Grup G | Shanghai Shenh | Tampines Rovers | 21226 | 5 |
+| 17.09.2026 | 13:00 | AFC Şampiyonlar Ligi 2 Grup G | Machida Zelvia | Pkr Svay Rieng | 21056 | 4 |
 | 17.09.2026 | 15:15 | AFC Şampiyonlar Ligi 2 Grup H | Phnom Penh Cro | Kuching Fa | 21176 | 5 |
 | 17.09.2026 | 15:15 | AFC Şampiyonlar Ligi 2 Grup H | Kitchee Footba | Gangwon | 21120 | 5 |
+| 17.09.2026 | 20:45 | Rusya Premier Lig | Makhachkala | Cska Moskova | 21283 | 5 |
 | 17.09.2026 | 16:15 | Rusya Premier Lig | Orenburg | Krasnodar | 20426 | 5 |
-| 17.09.2026 | 18:30 | Rusya Premier Lig | Rostov | Dinamo Moskova | 20643 | 5 |
 
 ## Sonuc
 
