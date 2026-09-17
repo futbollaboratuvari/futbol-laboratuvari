@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T07:52:47.839Z",
-  "total": 93,
-  "ok_count": 81,
-  "bad_count": 12,
+  "generated_at": "2026-09-17T13:38:09.269Z",
+  "total": 96,
+  "ok_count": 82,
+  "bad_count": 14,
   "status": "warning",
   "bad_examples": [
     {
@@ -31,6 +31,18 @@
     },
     {
       "match": "Shanghai Shenh VS Tampines Rovers",
+      "market": "Değerli market yok",
+      "score": 0,
+      "confidence": 0,
+      "risk": "Yüksek",
+      "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Markete özel olasılık ve veri doğrulaması oluşmadı.",
+      "missing": [
+        "score",
+        "confidence"
+      ]
+    },
+    {
+      "match": "Navbahor Naman VS Dinamo Samarqan",
       "market": "Değerli market yok",
       "score": 0,
       "confidence": 0,
@@ -91,6 +103,18 @@
     },
     {
       "match": "Ofi VS Hoffenheim",
+      "market": "Değerli market yok",
+      "score": 0,
+      "confidence": 0,
+      "risk": "Yüksek",
+      "reason": "İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Markete özel olasılık ve veri doğrulaması oluşmadı.",
+      "missing": [
+        "score",
+        "confidence"
+      ]
+    },
+    {
+      "match": "Zeleznicar Pan VS Kizilyildiz",
       "market": "Değerli market yok",
       "score": 0,
       "confidence": 0,

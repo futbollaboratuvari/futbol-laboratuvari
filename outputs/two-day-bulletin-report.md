@@ -3,29 +3,14 @@
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
 Ham mac: 96
-Aktif mac: 91
+Aktif mac: 76
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 81
+Bultenden dusurulen mac: 20
+Bugun: 66
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-09-17 15:15 | AFC Şampiyonlar Ligi 2 Grup G | Shanghai Shenh - Tampines Rovers | scheduled | -
-- 2026-09-17 15:15 | AFC Şampiyonlar Ligi 2 Grup H | Phnom Penh Cro - Kuching Fa | scheduled | -
-- 2026-09-17 15:15 | AFC Şampiyonlar Ligi 2 Grup H | Kitchee Footba - Gangwon | scheduled | -
-- 2026-09-17 15:30 | Azerbaycan 1.Lig | Şimal - Shahdagh | scheduled | -
-- 2026-09-17 15:30 | Azerbaycan 1.Lig | Baku Sportinq - Sabail | scheduled | -
-- 2026-09-17 16:00 | Kadınlar U20 Dünya Kupası Son 16 Turu | Fransa U20 (K) - Kanada U20 (K) | scheduled | -
-- 2026-09-17 16:00 | Özbekistan Super League | Navbahor Naman - Dinamo Samarqan | scheduled | -
-- 2026-09-17 16:00 | Ruanda Ulusal Futbol Ligi | Mukura - Police Fc | scheduled | -
-- 2026-09-17 16:15 | Rusya Premier Lig | Orenburg - Krasnodar | scheduled | -
-- 2026-09-17 16:30 | Yunanistan Kupa Lig Aşaması | Kalamata - Larisa | scheduled | -
-- 2026-09-17 16:30 | Mısır 2. Lig | Derot - El Harby | scheduled | -
-- 2026-09-17 16:30 | Mısır 2. Lig | Ismaily - Haras El Hodood | scheduled | -
-- 2026-09-17 16:30 | Mısır 2. Lig | Tanta - Nasr | scheduled | -
-- 2026-09-17 16:30 | Mısır 2. Lig | El Mansura - Team | scheduled | -
-- 2026-09-17 16:30 | Mısır 2. Lig | El Daklyeh - Tersana | scheduled | -
 - 2026-09-17 17:00 | Mısır Premier Lig | Zed - Al Qanah | scheduled | -
 - 2026-09-17 17:00 | Rusya FNL | Tekstilshchik - Rotor Volgograd | scheduled | -
 - 2026-09-17 17:00 | Kazakistan Premier Lig | Astana - Kairat Almaty | scheduled | -
