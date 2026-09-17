@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.09.2026 14:52:22
+Oluşturma: 17.09.2026 15:08:30
 
 ## Özet
 
@@ -42,7 +42,7 @@ Oluşturma: 17.09.2026 14:52:22
 - 2026-09-17 | Meksika Ascenso MX Apertura | Durango - Cruz Azul Hidal | 2.5 Alt | pending | 56/100
 - 2026-09-17 | Japonya J2 Lig | Vanraure - Tegevajaro Miya | 2.5 Alt | pending | 56/100
 - 2026-09-17 | Ruanda Ulusal Futbol Ligi | Rayon Sports - Sunrise | 2.5 Alt | pending | 57/100
-- 2026-09-17 | Uganda Premier Lig | Express - Kitara | 2.5 Alt | pending | 48/100
+- 2026-09-17 | Uganda Premier Lig | Express - Kitara | 2.5 Alt | pending | 50/100
 - 2026-09-17 | Tunus 1.Lig | Stade Tunis - Club Africain | MS X | pending | 43/100
 - 2026-09-17 | Nijerya NPFL | Enugu Rangers - Nasarawa United | 2.5 Alt | pending | 55/100
 - 2026-09-17 | Rusya Premier Lig | Rostov - Dinamo Moskova | 2.5 Üst | pending | 61/100

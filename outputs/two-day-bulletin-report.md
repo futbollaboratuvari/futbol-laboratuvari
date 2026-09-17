@@ -2,20 +2,15 @@
 
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
-Ham mac: 123
-Aktif mac: 96
+Ham mac: 96
+Aktif mac: 91
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 27
-Bugun: 86
+Bultenden dusurulen mac: 5
+Bugun: 81
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-09-17 13:00 | AFC Şampiyonlar Ligi 2 Grup F | Adelaide Unite - Wofoo Tai Po | scheduled | -
-- 2026-09-17 13:00 | AFC Şampiyonlar Ligi 2 Grup F | Lion City - Bg Pathum Unite | scheduled | -
-- 2026-09-17 13:00 | AFC Şampiyonlar Ligi 2 Grup G | Machida Zelvia - Pkr Svay Rieng | scheduled | -
-- 2026-09-17 14:00 | Tayland 2.Lig | Chanthaburi - Kasetsart | scheduled | -
-- 2026-09-17 15:00 | Tayland 2.Lig | Muang Loei Uni - Phrae United | scheduled | -
 - 2026-09-17 15:15 | AFC Şampiyonlar Ligi 2 Grup G | Shanghai Shenh - Tampines Rovers | scheduled | -
 - 2026-09-17 15:15 | AFC Şampiyonlar Ligi 2 Grup H | Phnom Penh Cro - Kuching Fa | scheduled | -
 - 2026-09-17 15:15 | AFC Şampiyonlar Ligi 2 Grup H | Kitchee Footba - Gangwon | scheduled | -
