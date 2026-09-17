@@ -2,6 +2,17 @@
 
 Bu dosya calisan alanlari korumak icindir. Yeni is yaparken once bu dosya okunur.
 
+## Ana kaynak ve calisma sozlesmesi
+
+1. Futbol Laboratuvari sisteminin ana ve kalici kaynak deposu GitHub'dir: `futbollaboratuvari/futbol-laboratuvari`.
+2. Kod, veri akislarinin tanimi, workflow'lar, PRO Robot gelistirmeleri ve koruma kurallari icin tek kaynak gercegi GitHub `main` dalidir.
+3. Her inceleme, hata arama, gelistirme veya duzeltme isinde once bu repo ve bu `DONT_TOUCH.md` dosyasi okunur. Kullaniciya GitHub'a tasindigini tekrar sordurmak veya hatirlatmak gerekmez.
+4. Vercel yalnizca deploy, runtime, domain ve canli servis dogrulamasi icin kullanilir. Vercel'deki eski bir production/preview deploy'u kaynak kodun guncel durumunun yerine gecmez.
+5. Canli sitede bir sorun gorulurse once GitHub `main` dalindaki guncel kod ve veri akisi kontrol edilir; sonra deploy/runtime ile karsilastirilir.
+6. Kalici kod degisiklikleri GitHub uzerinden yapilir. Kullanici acikca farkli bir yol istemedikce canli ortama GitHub disindan elle yama uygulanmaz.
+7. Yeni PRO Robot gelistirmeleri mevcut motoru bozmayacak sekilde ayrik, geri alinabilir katmanlar halinde eklenir; test edilmeden `main`e alinmaz.
+8. Kullanici sadece salt okunur kontrol/rapor istediyse GitHub dosyalari degistirilmez.
+
 ## Kritik dosyalar
 
 - daily-matches-widget.js
