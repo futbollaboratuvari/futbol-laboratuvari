@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 107
-Tam analiz: 95
+Toplam analiz: 93
+Tam analiz: 81
 Eksik analiz: 12
 
 - Adelaide Unite VS Wofoo Tai Po: eksik score, confidence
