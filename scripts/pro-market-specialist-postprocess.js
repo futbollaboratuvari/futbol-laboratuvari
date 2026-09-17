@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const couponRules = require("../pro-coupon-eligibility");
 const { findMarketOdd } = require("./pro-goal-market-bridge");
-const { applyGoalMarketGate, htftAdjustment } = require("./market-specialist-gates");
+const { VERSION, applyGoalMarketGate, htftAdjustment } = require("./market-specialist-gates");
 
 const root = path.join(__dirname, "..");
 const dataDir = path.join(root, "data");
@@ -68,6 +68,20 @@ function averageMemoryOver35(item) {
   return (homeRate + awayRate) / 2;
 }
 
+function specialistContext(item) {
+  const pre = item?.pre_match_final_check || item?.team_intelligence?.pre_match_final_check || {};
+  const consensus = item?.source_consensus
+    || item?.team_intelligence?.source_consensus
+    || item?.team_intelligence?.consensus
+    || {};
+  return {
+    preMatchDecision: pre.effective_decision || pre.decision || "keep",
+    sourceConflict: consensus.conflict_level || item?.source_conflict_level || "unknown",
+    lineupRisk: item?.lineup_risk_level || item?.team_intelligence?.lineup_risk_level || "Belirsiz",
+    squadRisk: item?.squad_risk_level || item?.team_intelligence?.squad_risk_level || "Belirsiz",
+  };
+}
+
 function goalContext(item, candidate) {
   const rangeOdds = ["goals01", "goals23", "goals45"].map((name) => findMarketOdd([item], name));
   return {
@@ -76,6 +90,7 @@ function goalContext(item, candidate) {
     over35Rate: averageMemoryOver35(item),
     dataCompleteness: finite(candidate?.data_completeness),
     completeRange: rangeOdds.every((value) => value !== null),
+    ...specialistContext(item),
   };
 }
 
@@ -95,8 +110,11 @@ function specializeCompactGoalCandidate(candidate, item) {
     signals: Array.isArray(candidate.signals) ? candidate.signals : [],
   };
   const adjusted = applyGoalMarketGate(normalized, goalContext(item, normalized));
-  adjusted.include_in_coupon = Boolean(candidate.include_in_coupon) && couponRules.meetsCouponCriteria(adjusted);
-  if (!adjusted.include_in_coupon && adjusted.risk_level === "Düşük") adjusted.risk_level = "Orta";
+  adjusted.include_in_coupon = Boolean(candidate.include_in_coupon)
+    && adjusted.specialist_eligible !== false
+    && couponRules.meetsCouponCriteria(adjusted);
+  if (adjusted.specialist_decision === "block") adjusted.risk_level = "Yüksek";
+  else if (!adjusted.include_in_coupon && adjusted.risk_level === "Düşük") adjusted.risk_level = "Orta";
   return adjusted;
 }
 
@@ -116,6 +134,9 @@ function compactGoal(candidate) {
     model_version: candidate.model_version,
     robot_reason: candidate.robot_reason,
     market_specialist: candidate.market_specialist || null,
+    specialist_decision: candidate.specialist_decision || candidate.market_specialist?.decision || "keep",
+    specialist_eligible: candidate.specialist_eligible !== false,
+    specialist_quality_score: candidate.specialist_quality_score ?? candidate.market_specialist?.quality_score ?? null,
   };
 }
 
@@ -189,7 +210,7 @@ function processGoalOutputs() {
   }
   robot.market_specialist = {
     ...(robot.market_specialist || {}),
-    version: "market-specialist-gates-v1",
+    version: VERSION,
     goal_candidates_checked: candidateMap.size,
   };
   writeJson(robotPath, robot);
@@ -253,13 +274,12 @@ function implied(odds) {
 
 function htftOpenness(item) {
   const odds = item?.available_odds || item?.odds || {};
-  const raw = item?.raw_market_guess_odds || {};
-  const over = implied(odds.over25 ?? raw.over25 ?? raw.over25_guess);
-  const under = implied(odds.under25 ?? raw.under25 ?? raw.under25_guess);
+  const over = implied(odds.over25);
+  const under = implied(odds.under25);
   let overShare = 0.5;
   if (over && under) overShare = over / (over + under);
-  const yes = implied(odds.bttsYes ?? raw.bttsYes ?? raw.bttsYes_guess);
-  const no = implied(odds.bttsNo ?? raw.bttsNo ?? raw.bttsNo_guess);
+  const yes = implied(odds.bttsYes);
+  const no = implied(odds.bttsNo);
   let bttsShare = 0.5;
   if (yes && no) bttsShare = yes / (yes + no);
   return clamp01((overShare * 0.65) + (bttsShare * 0.35));
@@ -274,36 +294,65 @@ function processHtftOutput() {
   if (!output || !Array.isArray(output.picks)) return { updated: false, pick_count: 0 };
   const robot = readJson(robotPath, { matches: [] });
   const rawMap = new Map((robot.matches || []).map((row) => [keyFor(row), row]));
-  output.picks = output.picks.map((pick) => {
+  const evaluated = output.picks.map((pick) => {
     const raw = rawMap.get(keyFor(pick)) || {};
+    const context = specialistContext(raw);
     const adjustment = htftAdjustment({
       market: pick.market,
       firstHalfSource: pick.first_half_signal_source,
-      openness: htftOpenness(raw),
+      firstHalfVerified: pick.first_half_signal_verified === true,
+      openness: finite(pick.openness_score) ?? htftOpenness(raw),
       dataCompleteness: pick.data_completeness,
+      scenarioProbability: pick.scenario_probability,
+      identityScore: pick.identity_match_score,
+      identitySource: pick.identity_match_source,
+      oddsVerified: pick.odds_verified === true,
+      ...context,
     });
     const originalScore = finite(pick.model_confidence) || 0;
     const adjustedScore = Math.max(0, Math.round(originalScore + adjustment.delta));
     return {
       ...pick,
       model_confidence: adjustedScore,
+      specialist_decision: adjustment.decision,
+      specialist_eligible: adjustment.eligible,
+      specialist_quality_score: adjustment.quality_score,
+      risk_level: adjustment.decision === "block" ? "Yüksek" : pick.risk_level,
       market_specialist: {
         ...adjustment,
         original_model_score: originalScore,
         adjusted_model_score: adjustedScore,
       },
       reason: adjustment.applied
-        ? `${pick.reason} Market uzman freni: ${adjustment.reasons.join(" ")}`
+        ? `${pick.reason} Market uzman kararı (${adjustment.decision}): ${adjustment.reasons.join(" ")}`
         : pick.reason,
     };
-  }).sort((a, b) => Number(b.model_confidence || 0) - Number(a.model_confidence || 0)
-    || Number(b.scenario_probability || 0) - Number(a.scenario_probability || 0));
+  });
+  const rejected = evaluated.filter((pick) => pick.specialist_eligible === false);
+  output.rejected_picks = rejected.map((pick) => ({
+    match_name: pick.match_name,
+    market: pick.market,
+    bookmaker_odds: pick.bookmaker_odds,
+    specialist_decision: pick.specialist_decision,
+    specialist_quality_score: pick.specialist_quality_score,
+    reason: pick.reason,
+  }));
+  output.picks = evaluated
+    .filter((pick) => pick.specialist_eligible !== false)
+    .sort((a, b) => Number(b.model_confidence || 0) - Number(a.model_confidence || 0)
+      || Number(b.specialist_quality_score || 0) - Number(a.specialist_quality_score || 0)
+      || Number(b.scenario_probability || 0) - Number(a.scenario_probability || 0));
   output.market_specialist = {
-    version: "market-specialist-gates-v1",
-    htft_picks_checked: output.picks.length,
-    probability_policy: "Senaryo olasılığı değiştirilmez; yalnız model sinyal gücü çelişki halinde düşürülür.",
+    version: VERSION,
+    htft_picks_checked: evaluated.length,
+    htft_picks_rejected: rejected.length,
+    probability_policy: "Senaryo olasılığı değiştirilmez; uzman v2 yalnız doğrulanmış sinyallerle keep/downgrade/block kararı verir.",
   };
   output.selected_count = output.picks.length;
+  if (output.picks.length < 2 && evaluated.length >= 2) {
+    output.status = "insufficient_specialist_quality";
+    output.message = "Resmî yüksek oranlı İY/MS adayları bulundu ancak uzman v2 kalite kapısından yeterli seçim geçmedi.";
+  }
   writeJson(htftPath, output);
   return { updated: true, pick_count: output.picks.length };
 }
@@ -321,6 +370,7 @@ if (require.main === module) main();
 module.exports = {
   goalContext,
   htftOpenness,
+  specialistContext,
   processGoalOutputs,
   processHtftOutput,
   specializeCompactGoalCandidate,
