@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.09.2026 22:24:59
+Oluşturma: 17.09.2026 22:35:59
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1085
-- Kazanan tahmin: 232
+- Bekleyen tahmin: 1084
+- Kazanan tahmin: 233
 - Kaybeden tahmin: 183
 - Lig sayısı: 276
 - Seçenek sayısı: 6
@@ -26,12 +26,12 @@ Oluşturma: 17.09.2026 22:24:59
 - 2.5 Alt: toplam 603, bekleyen 444, başarı %60, düz getiri %2, ağırlık 1
 - KG Var: toplam 14, bekleyen 2, başarı %58, düz getiri %4, ağırlık 1
 - 2.5 Üst: toplam 159, bekleyen 89, başarı %56, düz getiri %0, ağırlık 1
-- MS 1: toplam 480, bekleyen 358, başarı %53, düz getiri %-13, ağırlık 1
+- MS 1: toplam 480, bekleyen 357, başarı %53, düz getiri %-12, ağırlık 1
 - MS 2: toplam 235, bekleyen 186, başarı %51, düz getiri %-4, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-17 | AFC Şampiyonlar Ligi 2 Grup H | Phnom Penh Cro - Kuching Fa | MS 1 | pending | 45/100
+- 2026-09-17 | AFC Şampiyonlar Ligi 2 Grup H | Phnom Penh Cro - Kuching Fa | MS 1 | won | 45/100
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Crystal Palace - Lech Poznan | MS 1 | pending | 67/100
 - 2026-09-17 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen - Union St.G | MS 1 | pending | 46/100
 - 2026-09-17 | Rusya FNL | Olimpiyets - Leningradets | MS 1 | pending | 59/100

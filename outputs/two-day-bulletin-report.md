@@ -2,30 +2,15 @@
 
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
-Ham mac: 124
-Aktif mac: 27
+Ham mac: 35
+Aktif mac: 12
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 97
-Bugun: 17
+Bultenden dusurulen mac: 23
+Bugun: 2
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-09-17 21:45 | Fransa Ligue 3 | Bastia - Cannes | scheduled | -
-- 2026-09-17 22:00 | UEFA Avrupa Ligi Lig Aşaması | Juventus - Nijmegen | scheduled | -
-- 2026-09-17 22:00 | UEFA Avrupa Ligi Lig Aşaması | Beşiktaş - Marsilya | scheduled | -
-- 2026-09-17 22:00 | UEFA Avrupa Ligi Lig Aşaması | Celtic - Ferencvaros | scheduled | -
-- 2026-09-17 22:00 | UEFA Avrupa Ligi Lig Aşaması | Crystal Palace - Lech Poznan | scheduled | -
-- 2026-09-17 22:00 | UEFA Avrupa Ligi Lig Aşaması | Viktoria Plzen - Union St.G | scheduled | -
-- 2026-09-17 22:00 | UEFA Avrupa Ligi Lig Aşaması | Lillestrom - Torreense | scheduled | -
-- 2026-09-17 22:00 | UEFA Avrupa Ligi Lig Aşaması | Real Sociedad - Bournemouth | scheduled | -
-- 2026-09-17 22:00 | İngiltere 1.Lig | Afc Wimbledon - Mk Dons | scheduled | -
-- 2026-09-17 22:00 | İtalya Serie C Grup A | Renate - Dolomiti Bellun | scheduled | -
-- 2026-09-17 22:00 | İtalya Serie C Grup A | Giana Erminio - Trento Calcio 1 | scheduled | -
-- 2026-09-17 22:00 | İtalya Serie C Grup A | Athletic Carpi - Ospitaletto | scheduled | -
-- 2026-09-17 22:00 | İtalya Serie C Grup A | Union Brescia - Treviso | scheduled | -
-- 2026-09-17 22:00 | Cezayir 1.Lig | Temouchent - Js Kabylie | scheduled | -
-- 2026-09-17 22:30 | İspanya LaLiga | Malaga - Villarreal | scheduled | -
 - 2026-09-17 23:15 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | Cuniburo Fc - 9 De Octubre | scheduled | -
 - 2026-09-17 23:30 | Ekvador Pro Lig Serie B Küme Düşme Grubu | 22 De Julio - Cumbaya | scheduled | -
 - 2026-09-18 02:00 | Kolombiya Primera A Clausura | Bucaramanga - Independiente M | scheduled | -

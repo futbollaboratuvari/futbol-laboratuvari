@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 28
+- Scheduled match count: 13
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-17 / 2026-09-18 23:59
 
-- 2026-09-17 21:45 | Bastia - Cannes | scheduled
-- 2026-09-17 22:00 | Temouchent - Js Kabylie | scheduled
-- 2026-09-17 22:00 | Afc Wimbledon - Mk Dons | scheduled
-- 2026-09-17 22:00 | Athletic Carpi - Ospitaletto | scheduled
-- 2026-09-17 22:00 | Giana Erminio - Trento Calcio 1 | scheduled
-- 2026-09-17 22:00 | Renate - Dolomiti Bellun | scheduled
-- 2026-09-17 22:00 | Union Brescia - Treviso | scheduled
-- 2026-09-17 22:00 | Beşiktaş - Marsilya | scheduled
-- 2026-09-17 22:00 | Celtic - Ferencvaros | scheduled
-- 2026-09-17 22:00 | Crystal Palace - Lech Poznan | scheduled
+- 2026-09-17 23:15 | Cuniburo Fc - 9 De Octubre | scheduled
+- 2026-09-17 23:30 | 22 De Julio - Cumbaya | scheduled
+- 2026-09-18 02:00 | Bucaramanga - Independiente M | scheduled
+- 2026-09-18 03:00 | Santo Domingo - El Nacional | scheduled
+- 2026-09-18 03:00 | Bucaramanga - Independiente M | scheduled
+- 2026-09-18 03:30 | Bolivar - Gualberto Villa | scheduled
+- 2026-09-18 03:30 | Alajuelense (2) - (2) Marathon | scheduled
+- 2026-09-18 03:30 | Flamengo (2) - (0) Indep. Jose Ter | scheduled
+- 2026-09-18 03:30 | Torque (0) - (2) Cienciano | scheduled
+- 2026-09-18 04:00 | Durango - Cruz Azul Hidal | scheduled
