@@ -2,13 +2,6 @@ name: Auto relaxed analysis
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - "package.json"
-      - "scripts/**"
-      - ".github/workflows/auto-relaxed-analysis.yml"
 
 permissions:
   contents: write
