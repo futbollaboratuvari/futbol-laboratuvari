@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T01:43:38.326Z",
+  "generated_at": "2026-09-17T04:56:38.281Z",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik canlı robot",
   "engine": "High Value Coupon Engine",
@@ -13,7 +13,19 @@
       "İkinci Yarı KG Var",
       "KG Var",
       "2.5 Üst",
-      "3.5 Üst"
+      "3.5 Üst",
+      "6+ Gol",
+      "İlk Yarı 1/X/2",
+      "İkinci Yarı 1/X/2",
+      "İY/MS 1/1",
+      "İY/MS 1/X",
+      "İY/MS 1/2",
+      "İY/MS X/1",
+      "İY/MS X/X",
+      "İY/MS X/2",
+      "İY/MS 2/1",
+      "İY/MS 2/X",
+      "İY/MS 2/2"
     ],
     "scoring_classes": {
       "80-100": "Ana kupon adayı",
@@ -23,1546 +35,9 @@
     },
     "stale_data_policy": "Güncel maç değilse analiz dışı bırakılır."
   },
-  "match_count": 106,
+  "match_count": 94,
   "analysis_count": 11,
   "matches": [
-    {
-      "home_team_name": "Metropolitanos",
-      "away_team_name": "Caracas Fc",
-      "competition_name": "Venezuela Premier Lig Clausura",
-      "date": "2026-09-17",
-      "time": "02:30",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.56",
-      "confidence_score": "76%",
-      "trust_score": "76/100",
-      "analysis_score": 76,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 4,
-        "awayScoredLast10": 2,
-        "homeConcededLast10": 3,
-        "awayConcededLast10": 2,
-        "bttsPercent": 50,
-        "over25Percent": 38,
-        "over35Percent": 38,
-        "firstHalfGoalTrend": 36,
-        "secondHalfGoalTrend": 56,
-        "leagueGoalAverage": 2.57,
-        "memory": {
-          "scoreDelta": 8,
-          "totalMatches": 30,
-          "home": {
-            "count": 4,
-            "scored": 4,
-            "conceded": 3,
-            "bttsRate": 75,
-            "over25Rate": 75,
-            "over35Rate": 75,
-            "goalsForAvg": 2.5,
-            "goalsAgainstAvg": 1,
-            "wins": 3,
-            "draws": 1,
-            "losses": 0,
-            "winRate": 75,
-            "drawRate": 25,
-            "lossRate": 0,
-            "pointsPerGame": 2.5
-          },
-          "away": {
-            "count": 4,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 25,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0.5,
-            "goalsAgainstAvg": 0.5,
-            "wins": 1,
-            "draws": 2,
-            "losses": 1,
-            "winRate": 25,
-            "drawRate": 50,
-            "lossRate": 25,
-            "pointsPerGame": 1.25
-          },
-          "league": {
-            "count": 22,
-            "goalAverage": 2.59,
-            "bttsRate": 59,
-            "over25Rate": 32
-          },
-          "signals": [
-            "Hafıza: 2.5 Alt eğilimi destekli (%62): +8"
-          ]
-        },
-        "poisson": {
-          "probabilities": {
-            "ms1": 49.47963036755707,
-            "msx": 26.0695791926032,
-            "ms2": 24.450790439839714,
-            "over15": 70.55524590041186,
-            "over25": 44.73058328757973,
-            "under25": 55.26941671242025,
-            "over35": 23.50653649577437,
-            "kgVar": 48.15260264913034,
-            "kgYok": 51.84739735086965,
-            "homeGoal": 77.61933314298899,
-            "awayGoal": 62.03686723309574
-          },
-          "homeLambda": 1.5,
-          "awayLambda": 0.97,
-          "samples": 8,
-          "reliability": 0.5
-        },
-        "homeScoredLast10Count": 4,
-        "awayScoredLast10Count": 2,
-        "homeConcededLast10Count": 3,
-        "awayConcededLast10Count": 2
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.56",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %53.",
-        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %60.",
-        "Birleşik tahmini olasılık %55.",
-        "Model-piyasa farkı +2.4 puan.",
-        "Poisson gol beklentisi 1.5-0.97.",
-        "Hafıza: 2.5 Alt eğilimi destekli (%62): +8",
-        "Geçmiş market örneği 2003; ham isabet %46.",
-        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
-        "Model gücü 76/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Fort Wayne",
-      "away_team_name": "One Knoxville",
-      "competition_name": "ABD USL Lig 1",
-      "date": "2026-09-17",
-      "time": "02:30",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.79",
-      "confidence_score": "65%",
-      "trust_score": "65/100",
-      "analysis_score": 65,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 4,
-        "awayScoredLast10": 3,
-        "homeConcededLast10": 3,
-        "awayConcededLast10": 3,
-        "bttsPercent": 75,
-        "over25Percent": 63,
-        "over35Percent": 50,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 53,
-        "leagueGoalAverage": 2.92,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 34,
-          "home": {
-            "count": 4,
-            "scored": 4,
-            "conceded": 3,
-            "bttsRate": 75,
-            "over25Rate": 75,
-            "over35Rate": 75,
-            "goalsForAvg": 2.75,
-            "goalsAgainstAvg": 1.5,
-            "wins": 3,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 75,
-            "drawRate": 0,
-            "lossRate": 25,
-            "pointsPerGame": 2.25
-          },
-          "away": {
-            "count": 4,
-            "scored": 3,
-            "conceded": 3,
-            "bttsRate": 75,
-            "over25Rate": 50,
-            "over35Rate": 25,
-            "goalsForAvg": 1.25,
-            "goalsAgainstAvg": 1,
-            "wins": 1,
-            "draws": 3,
-            "losses": 0,
-            "winRate": 25,
-            "drawRate": 75,
-            "lossRate": 0,
-            "pointsPerGame": 1.5
-          },
-          "league": {
-            "count": 26,
-            "goalAverage": 2.92,
-            "bttsRate": 65,
-            "over25Rate": 50
-          },
-          "signals": []
-        },
-        "poisson": {
-          "probabilities": {
-            "ms1": 48.44842005196991,
-            "msx": 23.23727430285748,
-            "ms2": 28.31430564517262,
-            "over15": 81.30940568416003,
-            "over25": 59.541631330626224,
-            "under25": 40.45836866937377,
-            "over35": 37.1611344397337,
-            "kgVar": 60.61868592619515,
-            "kgYok": 39.381314073804866,
-            "homeGoal": 83.06691278458644,
-            "awayGoal": 72.97572991955865
-          },
-          "homeLambda": 1.78,
-          "awayLambda": 1.31,
-          "samples": 8,
-          "reliability": 0.5
-        },
-        "homeScoredLast10Count": 4,
-        "awayScoredLast10Count": 3,
-        "homeConcededLast10Count": 3,
-        "awayConcededLast10Count": 3
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.79",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %46.",
-        "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %38.",
-        "Birleşik tahmini olasılık %43.",
-        "Model-piyasa farkı -2.7 puan.",
-        "Poisson gol beklentisi 1.78-1.31.",
-        "Geçmiş market örneği 2003; ham isabet %46.",
-        "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
-        "Model gücü 65/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Inter Miami",
-      "away_team_name": "Cruz Azul",
-      "competition_name": "Kuzey Amerika Şampiyonlar Kupası Final",
-      "date": "2026-09-17",
-      "time": "03:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "1.75",
-      "confidence_score": "55%",
-      "trust_score": "55/100",
-      "analysis_score": 55,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 5,
-        "awayScoredLast10": 3,
-        "homeConcededLast10": 5,
-        "awayConcededLast10": 3,
-        "bttsPercent": 75,
-        "over25Percent": 65,
-        "over35Percent": 55,
-        "firstHalfGoalTrend": 36,
-        "secondHalfGoalTrend": 56,
-        "leagueGoalAverage": 2.9,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 9,
-          "home": {
-            "count": 5,
-            "scored": 5,
-            "conceded": 5,
-            "bttsRate": 100,
-            "over25Rate": 80,
-            "over35Rate": 60,
-            "goalsForAvg": 2.6,
-            "goalsAgainstAvg": 1.6,
-            "wins": 1,
-            "draws": 3,
-            "losses": 1,
-            "winRate": 20,
-            "drawRate": 60,
-            "lossRate": 20,
-            "pointsPerGame": 1.2
-          },
-          "away": {
-            "count": 4,
-            "scored": 3,
-            "conceded": 3,
-            "bttsRate": 50,
-            "over25Rate": 50,
-            "over35Rate": 50,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 1.5,
-            "wins": 3,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 75,
-            "drawRate": 0,
-            "lossRate": 25,
-            "pointsPerGame": 2.25
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": []
-        },
-        "poisson": {
-          "probabilities": {
-            "ms1": 47.300576750519944,
-            "msx": 22.297406874524324,
-            "ms2": 30.402016374955725,
-            "over15": 84.96255985361529,
-            "over25": 65.42662067975607,
-            "under25": 34.57337932024393,
-            "over35": 43.48486677430127,
-            "kgVar": 65.5664233288216,
-            "kgYok": 34.433576671178415,
-            "homeGoal": 84.86777567468292,
-            "awayGoal": 77.25714831993749
-          },
-          "homeLambda": 1.89,
-          "awayLambda": 1.48,
-          "samples": 9,
-          "reliability": 0.5625
-        },
-        "homeScoredLast10Count": 5,
-        "awayScoredLast10Count": 3,
-        "homeConcededLast10Count": 5,
-        "awayConcededLast10Count": 3
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "signals": [
-        "Market: MS 1",
-        "Oran: 1.75",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %49.",
-        "Bağımsız takım formu + Poisson gol modeli tahmini %35.",
-        "Birleşik tahmini olasılık %45.",
-        "Model-piyasa farkı -3.9 puan.",
-        "Poisson gol beklentisi 1.89-1.48.",
-        "Geçmiş market örneği 2003; ham isabet %43.",
-        "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
-        "Veri kapsama puanı 67/100 (Düşük eksik veri riski).",
-        "Model gücü 55/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Corinthians (1)",
-      "away_team_name": "(1) Estudiantes Lp",
-      "competition_name": "Copa Libertadores Çeyrek Final",
-      "date": "2026-09-17",
-      "time": "03:30",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "1.86",
-      "confidence_score": "45%",
-      "trust_score": "45/100",
-      "analysis_score": 45,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": 3,
-        "awayScoredLast10": 3,
-        "homeConcededLast10": 4,
-        "awayConcededLast10": 4,
-        "bttsPercent": 50,
-        "over25Percent": 25,
-        "over35Percent": 0,
-        "firstHalfGoalTrend": 39,
-        "secondHalfGoalTrend": 59,
-        "leagueGoalAverage": 2,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 4,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 4,
-            "goalAverage": 2,
-            "bttsRate": 50,
-            "over25Rate": 25
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": 3,
-        "awayScoredLast10Count": 3,
-        "homeConcededLast10Count": 4,
-        "awayConcededLast10Count": 4
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "signals": [
-        "Market: MS 1",
-        "Oran: 1.86",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %46.",
-        "Birleşik tahmini olasılık %46.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 45/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Cs Cartagines (2)",
-      "away_team_name": "(2) Deportivo Sapri",
-      "competition_name": "CONCACAF Orta Amerika Kupası Çeyrek Final",
-      "date": "2026-09-17",
-      "time": "03:30",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.44",
-      "confidence_score": "51%",
-      "trust_score": "51/100",
-      "analysis_score": 51,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": 7,
-        "awayScoredLast10": 7,
-        "homeConcededLast10": 3,
-        "awayConcededLast10": 3,
-        "bttsPercent": 33,
-        "over25Percent": 100,
-        "over35Percent": 33,
-        "firstHalfGoalTrend": 38,
-        "secondHalfGoalTrend": 58,
-        "leagueGoalAverage": 3.33,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 3,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 3,
-            "goalAverage": 3.33,
-            "bttsRate": 33,
-            "over25Rate": 100
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": 7,
-        "awayScoredLast10Count": 7,
-        "homeConcededLast10Count": 3,
-        "awayConcededLast10Count": 3
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.44",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %58.",
-        "Birleşik tahmini olasılık %58.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 51/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Blooming",
-      "away_team_name": "Universitario D",
-      "competition_name": "Bolivya Premier Lig",
-      "date": "2026-09-17",
-      "time": "03:30",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "1.33",
-      "confidence_score": "62%",
-      "trust_score": "62/100",
-      "analysis_score": 62,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": 3,
-        "awayScoredLast10": 5,
-        "homeConcededLast10": 3,
-        "awayConcededLast10": 4,
-        "bttsPercent": 53,
-        "over25Percent": 63,
-        "over35Percent": 37,
-        "firstHalfGoalTrend": 41,
-        "secondHalfGoalTrend": 59,
-        "leagueGoalAverage": 3.26,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 23,
-          "home": {
-            "count": 3,
-            "scored": 3,
-            "conceded": 3,
-            "bttsRate": 100,
-            "over25Rate": 33,
-            "over35Rate": 0,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 1.33,
-            "wins": 0,
-            "draws": 2,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 67,
-            "lossRate": 33,
-            "pointsPerGame": 0.67
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 3.3,
-            "bttsRate": 55,
-            "over25Rate": 65
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": 3,
-        "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": 3,
-        "awayConcededLast10Count": 4
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "signals": [
-        "Market: MS 1",
-        "Oran: 1.33",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %62.",
-        "Birleşik tahmini olasılık %62.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 45/100 (Yüksek eksik veri riski).",
-        "Model gücü 62/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Birmingham Leg",
-      "away_team_name": "New Mexico Unit",
-      "competition_name": "ABD USL",
-      "date": "2026-09-17",
-      "time": "03:30",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "2.21",
-      "confidence_score": "50%",
-      "trust_score": "50/100",
-      "analysis_score": 50,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": 2,
-        "awayScoredLast10": 1,
-        "homeConcededLast10": 2,
-        "awayConcededLast10": 1,
-        "bttsPercent": 71,
-        "over25Percent": 61,
-        "over35Percent": 36,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 52,
-        "leagueGoalAverage": 3.07,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 32,
-          "home": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 100,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 2.5,
-            "wins": 0,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 50,
-            "lossRate": 50,
-            "pointsPerGame": 0.5
-          },
-          "away": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 50,
-            "over25Rate": 50,
-            "over35Rate": 0,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 0.5,
-            "wins": 1,
-            "draws": 1,
-            "losses": 0,
-            "winRate": 50,
-            "drawRate": 50,
-            "lossRate": 0,
-            "pointsPerGame": 2
-          },
-          "league": {
-            "count": 28,
-            "goalAverage": 3.07,
-            "bttsRate": 71,
-            "over25Rate": 61
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": 2,
-        "awayScoredLast10Count": 1,
-        "homeConcededLast10Count": 2,
-        "awayConcededLast10Count": 1
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "signals": [
-        "Market: MS 1",
-        "Oran: 2.21",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %37.",
-        "Birleşik tahmini olasılık %37.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 46/100 (Yüksek eksik veri riski).",
-        "Model gücü 50/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Inter Fa",
-      "away_team_name": "Deportivo Fas",
-      "competition_name": "El Salvador Primera Lig Apertura",
-      "date": "2026-09-17",
-      "time": "04:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.53",
-      "confidence_score": "58%",
-      "trust_score": "58/100",
-      "analysis_score": 58,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": 4,
-        "awayScoredLast10": 4,
-        "homeConcededLast10": 5,
-        "awayConcededLast10": 5,
-        "bttsPercent": 55,
-        "over25Percent": 50,
-        "over35Percent": 35,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 52,
-        "leagueGoalAverage": 2.6,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 20,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 20,
-            "goalAverage": 2.6,
-            "bttsRate": 55,
-            "over25Rate": 50
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": 4,
-        "awayScoredLast10Count": 4,
-        "homeConcededLast10Count": 5,
-        "awayConcededLast10Count": 5
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.53",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %54.",
-        "Birleşik tahmini olasılık %54.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 58/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Athletic Club",
-      "away_team_name": "Charlotte Indep",
-      "competition_name": "ABD USL Lig 1",
-      "date": "2026-09-17",
-      "time": "04:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "1.76",
-      "confidence_score": "66%",
-      "trust_score": "66/100",
-      "analysis_score": 66,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 7,
-        "awayScoredLast10": 1,
-        "homeConcededLast10": 6,
-        "awayConcededLast10": 2,
-        "bttsPercent": 65,
-        "over25Percent": 50,
-        "over35Percent": 31,
-        "firstHalfGoalTrend": 53,
-        "secondHalfGoalTrend": 71,
-        "leagueGoalAverage": 2.92,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 36,
-          "home": {
-            "count": 8,
-            "scored": 7,
-            "conceded": 6,
-            "bttsRate": 63,
-            "over25Rate": 88,
-            "over35Rate": 50,
-            "goalsForAvg": 2,
-            "goalsAgainstAvg": 1.63,
-            "wins": 4,
-            "draws": 1,
-            "losses": 3,
-            "winRate": 50,
-            "drawRate": 13,
-            "lossRate": 38,
-            "pointsPerGame": 1.63
-          },
-          "away": {
-            "count": 2,
-            "scored": 1,
-            "conceded": 2,
-            "bttsRate": 50,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0.5,
-            "goalsAgainstAvg": 1.5,
-            "wins": 0,
-            "draws": 1,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 50,
-            "lossRate": 50,
-            "pointsPerGame": 0.5
-          },
-          "league": {
-            "count": 26,
-            "goalAverage": 2.92,
-            "bttsRate": 65,
-            "over25Rate": 50
-          },
-          "signals": []
-        },
-        "poisson": null,
-        "homeScoredLast10Count": 7,
-        "awayScoredLast10Count": 1,
-        "homeConcededLast10Count": 6,
-        "awayConcededLast10Count": 2
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "signals": [
-        "Market: MS 1",
-        "Oran: 1.76",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %47.",
-        "Bağımsız takım formu tahmini %52.",
-        "Birleşik tahmini olasılık %48.",
-        "Model-piyasa farkı +1.2 puan.",
-        "Geçmiş market örneği 2003; ham isabet %43.",
-        "Veri kapsama puanı 64/100 (Düşük eksik veri riski).",
-        "Model gücü 66/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Real Monarchs",
-      "away_team_name": "Minnesota Unite",
-      "competition_name": "ABD MLS Next Pro",
-      "date": "2026-09-17",
-      "time": "04:00",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 2",
-      "suggested_odds": "1.67",
-      "confidence_score": "53%",
-      "trust_score": "53/100",
-      "analysis_score": 53,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": 5,
-        "awayScoredLast10": 5,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": 59,
-        "over35Percent": 41,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": 2.83,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": 5,
-        "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
-      ],
-      "signals": [
-        "Market: MS 2",
-        "Oran: 1.67",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %49.",
-        "Birleşik tahmini olasılık %49.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %30.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 53/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Inter Bogota",
-      "away_team_name": "Atletico Nacion",
-      "competition_name": "Kolombiya Primera A Clausura",
-      "date": "2026-09-17",
-      "time": "04:20",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.69",
-      "confidence_score": "59%",
-      "trust_score": "59/100",
-      "analysis_score": 59,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": 6,
-        "awayScoredLast10": 2,
-        "homeConcededLast10": 6,
-        "awayConcededLast10": 2,
-        "bttsPercent": 68,
-        "over25Percent": 68,
-        "over35Percent": 26,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 46,
-        "leagueGoalAverage": 2.95,
-        "memory": {
-          "scoreDelta": 5,
-          "totalMatches": 21,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 2,
-            "scored": 2,
-            "conceded": 2,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 50,
-            "goalsForAvg": 3.5,
-            "goalsAgainstAvg": 1,
-            "wins": 2,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 100,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 3
-          },
-          "league": {
-            "count": 19,
-            "goalAverage": 2.95,
-            "bttsRate": 68,
-            "over25Rate": 68
-          },
-          "signals": [
-            "Hafıza: lig gol ortalaması 2.95: +5",
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": 6,
-        "awayScoredLast10Count": 2,
-        "homeConcededLast10Count": 6,
-        "awayConcededLast10Count": 2
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.69",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %49.",
-        "Birleşik tahmini olasılık %49.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: lig gol ortalaması 2.95: +5",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %55.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
-        "Model gücü 59/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Colorado",
-      "away_team_name": "St. Louis City",
-      "competition_name": "ABD Açık Kupası Yarı Final",
-      "date": "2026-09-17",
-      "time": "04:30",
-      "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.63",
-      "confidence_score": "72%",
-      "trust_score": "72/100",
-      "analysis_score": 72,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Değerli",
-      "risk_level": "Orta",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 3,
-        "awayScoredLast10": 5,
-        "homeConcededLast10": 3,
-        "awayConcededLast10": 5,
-        "bttsPercent": 60,
-        "over25Percent": 70,
-        "over35Percent": 40,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 55,
-        "leagueGoalAverage": 2.96,
-        "memory": {
-          "scoreDelta": 8,
-          "totalMatches": 10,
-          "home": {
-            "count": 5,
-            "scored": 3,
-            "conceded": 3,
-            "bttsRate": 20,
-            "over25Rate": 40,
-            "over35Rate": 0,
-            "goalsForAvg": 0.6,
-            "goalsAgainstAvg": 1.4,
-            "wins": 2,
-            "draws": 1,
-            "losses": 2,
-            "winRate": 40,
-            "drawRate": 20,
-            "lossRate": 40,
-            "pointsPerGame": 1.4
-          },
-          "away": {
-            "count": 5,
-            "scored": 5,
-            "conceded": 5,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 80,
-            "goalsForAvg": 2.8,
-            "goalsAgainstAvg": 1.8,
-            "wins": 3,
-            "draws": 2,
-            "losses": 0,
-            "winRate": 60,
-            "drawRate": 40,
-            "lossRate": 0,
-            "pointsPerGame": 2.2
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: 2.5 Üst eğilimi yüksek (%70): +8"
-          ]
-        },
-        "poisson": {
-          "probabilities": {
-            "ms1": 33.80186946764394,
-            "msx": 23.75400030971506,
-            "ms2": 42.44413022264101,
-            "over15": 81.44442729272942,
-            "over25": 59.75055157060225,
-            "under25": 40.24944842939775,
-            "over35": 37.376934409181764,
-            "kgVar": 61.74145386642888,
-            "kgYok": 38.258546133571144,
-            "homeGoal": 76.47670424283454,
-            "awayGoal": 80.73236742836457
-          },
-          "homeLambda": 1.45,
-          "awayLambda": 1.65,
-          "samples": 10,
-          "reliability": 0.625
-        },
-        "homeScoredLast10Count": 3,
-        "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": 3,
-        "awayConcededLast10Count": 5
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.63",
-        "Veri tipi: standard",
-        "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %52.",
-        "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %66.",
-        "Birleşik tahmini olasılık %58.",
-        "Model-piyasa farkı +5.4 puan.",
-        "Poisson gol beklentisi 1.45-1.65.",
-        "Hafıza: 2.5 Üst eğilimi yüksek (%70): +8",
-        "Geçmiş market örneği 2003; ham isabet %55.",
-        "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
-        "Veri kapsama puanı 78/100 (Düşük eksik veri riski).",
-        "Model gücü 72/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
     {
       "home_team_name": "Alianza (0)",
       "away_team_name": "(3) Depor Motagua",
@@ -1659,32 +134,12 @@
         "Birleşik tahmini olasılık %53.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 49/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Adelaide Unite",
@@ -1766,27 +221,7 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Lion City",
@@ -1796,8 +231,8 @@
       "time": "13:00",
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.79",
+      "suggested_option": "MS 1",
+      "suggested_odds": "1.76",
       "confidence_score": "54%",
       "trust_score": "54/100",
       "analysis_score": 54,
@@ -1871,44 +306,24 @@
       },
       "tag": "Sadece izleme",
       "expected_scores": [
-        "0-0",
         "1-0",
-        "1-1"
+        "2-0",
+        "2-1"
       ],
       "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.79",
+        "Market: MS 1",
+        "Oran: 1.76",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %46.",
-        "Birleşik tahmini olasılık %46.",
+        "Marjı temizlenmiş piyasa olasılığı %47.",
+        "Birleşik tahmini olasılık %47.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 54/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Machida Zelvia",
@@ -1990,27 +405,7 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Chanthaburi",
@@ -2108,31 +503,11 @@
         "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Muang Loei Uni",
@@ -2230,31 +605,11 @@
         "Birleşik tahmini olasılık %54.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Shanghai Shenh",
@@ -2336,27 +691,7 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Phnom Penh Cro",
@@ -2367,7 +702,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.57",
+      "suggested_odds": "1.54",
       "confidence_score": "57%",
       "trust_score": "57/100",
       "analysis_score": 57,
@@ -2447,38 +782,18 @@
       ],
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 1.57",
+        "Oran: 1.54",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %53.",
-        "Birleşik tahmini olasılık %53.",
+        "Marjı temizlenmiş piyasa olasılığı %54.",
+        "Birleşik tahmini olasılık %54.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 57/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Kitchee Footba",
@@ -2489,7 +804,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.64",
+      "suggested_odds": "1.61",
       "confidence_score": "57%",
       "trust_score": "57/100",
       "analysis_score": 57,
@@ -2569,38 +884,18 @@
       ],
       "signals": [
         "Market: 2.5 Üst",
-        "Oran: 1.64",
+        "Oran: 1.61",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %50.",
-        "Birleşik tahmini olasılık %50.",
+        "Marjı temizlenmiş piyasa olasılığı %51.",
+        "Birleşik tahmini olasılık %51.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %55.",
+        "Geçmiş market örneği 2017; ham isabet %55.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 57/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Şimal",
@@ -2698,31 +993,11 @@
         "Birleşik tahmini olasılık %58.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %30.",
+        "Geçmiş market örneği 2017; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Baku Sportinq",
@@ -2820,31 +1095,11 @@
         "Birleşik tahmini olasılık %52.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 57/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Fransa U20 (K)",
@@ -2942,31 +1197,11 @@
         "Birleşik tahmini olasılık %52.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %55.",
+        "Geçmiş market örneği 2017; ham isabet %55.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Navbahor Naman",
@@ -2977,7 +1212,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.28",
+      "suggested_odds": "1.29",
       "confidence_score": "62%",
       "trust_score": "62/100",
       "analysis_score": 62,
@@ -3057,38 +1292,18 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.28",
+        "Oran: 1.29",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %64.",
         "Birleşik tahmini olasılık %64.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 62/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Mukura",
@@ -3186,31 +1401,11 @@
         "Birleşik tahmini olasılık %36.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 48/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Orenburg",
@@ -3328,30 +1523,10 @@
         "Model-piyasa farkı +7.3 puan.",
         "Poisson gol beklentisi 1.26-1.23.",
         "Hafıza: 2.5 Alt eğilimi destekli (%75): +8",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
         "Model gücü 76/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Kalamata",
@@ -3362,10 +1537,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.40",
-      "confidence_score": "61%",
-      "trust_score": "61/100",
-      "analysis_score": 61,
+      "suggested_odds": "1.44",
+      "confidence_score": "60%",
+      "trust_score": "60/100",
+      "analysis_score": 60,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -3442,38 +1617,18 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.40",
+        "Oran: 1.44",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %59.",
-        "Birleşik tahmini olasılık %59.",
+        "Marjı temizlenmiş piyasa olasılığı %57.",
+        "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 46/100 (Yüksek eksik veri riski).",
-        "Model gücü 61/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 60/100: Sadece izleme."
+      ]
     },
     {
       "home_team_name": "Derot",
@@ -3571,31 +1726,11 @@
         "Birleşik tahmini olasılık %46.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %30.",
+        "Geçmiş market örneği 2017; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 52/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Ismaily",
@@ -3693,31 +1828,11 @@
         "Birleşik tahmini olasılık %47.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 54/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Tanta",
@@ -3728,7 +1843,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "2.31",
+      "suggested_odds": "2.32",
       "confidence_score": "48%",
       "trust_score": "48/100",
       "analysis_score": 48,
@@ -3808,38 +1923,18 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 2.31",
+        "Oran: 2.32",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %36.",
         "Birleşik tahmini olasılık %36.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 48/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "El Mansura",
@@ -3850,10 +1945,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "2.26",
-      "confidence_score": "48%",
-      "trust_score": "48/100",
-      "analysis_score": 48,
+      "suggested_odds": "2.10",
+      "confidence_score": "50%",
+      "trust_score": "50/100",
+      "analysis_score": 50,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -3930,38 +2025,18 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 2.26",
+        "Oran: 2.10",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %37.",
-        "Birleşik tahmini olasılık %37.",
+        "Marjı temizlenmiş piyasa olasılığı %39.",
+        "Birleşik tahmini olasılık %39.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 48/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 50/100: Sadece izleme."
+      ]
     },
     {
       "home_team_name": "El Daklyeh",
@@ -3972,7 +2047,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS X",
-      "suggested_odds": "2.31",
+      "suggested_odds": "2.35",
       "confidence_score": "46%",
       "trust_score": "46/100",
       "analysis_score": 46,
@@ -4052,38 +2127,18 @@
       ],
       "signals": [
         "Market: MS X",
-        "Oran: 2.31",
+        "Oran: 2.35",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %36.",
-        "Birleşik tahmini olasılık %36.",
+        "Marjı temizlenmiş piyasa olasılığı %35.",
+        "Birleşik tahmini olasılık %35.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %27.",
+        "Geçmiş market örneği 2017; ham isabet %27.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 46/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Zed",
@@ -4094,7 +2149,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.80",
+      "suggested_odds": "1.84",
       "confidence_score": "53%",
       "trust_score": "53/100",
       "analysis_score": 53,
@@ -4174,38 +2229,18 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.80",
+        "Oran: 1.84",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %46.",
-        "Birleşik tahmini olasılık %46.",
+        "Marjı temizlenmiş piyasa olasılığı %45.",
+        "Birleşik tahmini olasılık %45.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 53/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Tekstilshchik",
@@ -4303,31 +2338,11 @@
         "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Astana",
@@ -4337,11 +2352,11 @@
       "time": "17:00",
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.80",
-      "confidence_score": "53%",
-      "trust_score": "53/100",
-      "analysis_score": 53,
+      "suggested_option": "2.5 Üst",
+      "suggested_odds": "1.64",
+      "confidence_score": "57%",
+      "trust_score": "57/100",
+      "analysis_score": 57,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -4412,44 +2427,24 @@
       },
       "tag": "Sadece izleme",
       "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
+        "2-1",
+        "3-1",
+        "2-2"
       ],
       "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.80",
+        "Market: 2.5 Üst",
+        "Oran: 1.64",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %46.",
-        "Birleşik tahmini olasılık %46.",
+        "Marjı temizlenmiş piyasa olasılığı %50.",
+        "Birleşik tahmini olasılık %50.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %55.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 53/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 57/100: Sadece izleme."
+      ]
     },
     {
       "home_team_name": "Tobol Kostanay",
@@ -4460,10 +2455,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.79",
-      "confidence_score": "53%",
-      "trust_score": "53/100",
-      "analysis_score": 53,
+      "suggested_odds": "1.92",
+      "confidence_score": "52%",
+      "trust_score": "52/100",
+      "analysis_score": 52,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -4540,38 +2535,18 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.79",
+        "Oran: 1.92",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %46.",
-        "Birleşik tahmini olasılık %46.",
+        "Marjı temizlenmiş piyasa olasılığı %43.",
+        "Birleşik tahmini olasılık %43.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 53/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 52/100: Sadece izleme."
+      ]
     },
     {
       "home_team_name": "Updf",
@@ -4582,7 +2557,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.35",
+      "suggested_odds": "1.37",
       "confidence_score": "61%",
       "trust_score": "61/100",
       "analysis_score": 61,
@@ -4662,38 +2637,18 @@
       ],
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 1.35",
+        "Oran: 1.37",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %61.",
-        "Birleşik tahmini olasılık %61.",
+        "Marjı temizlenmiş piyasa olasılığı %60.",
+        "Birleşik tahmini olasılık %60.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 61/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Aek",
@@ -4775,27 +2730,7 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Stade Tunis",
@@ -4806,7 +2741,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "2.28",
+      "suggested_odds": "2.26",
       "confidence_score": "47%",
       "trust_score": "47/100",
       "analysis_score": 47,
@@ -4886,38 +2821,18 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 2.28",
+        "Oran: 2.26",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %36.",
-        "Birleşik tahmini olasılık %36.",
+        "Marjı temizlenmiş piyasa olasılığı %37.",
+        "Birleşik tahmini olasılık %37.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %30.",
+        "Geçmiş market örneği 2017; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 47/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Atyrau",
@@ -4928,7 +2843,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "1.31",
+      "suggested_odds": "1.33",
       "confidence_score": "60%",
       "trust_score": "60/100",
       "analysis_score": 60,
@@ -5008,38 +2923,18 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 1.31",
+        "Oran: 1.33",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %63.",
-        "Birleşik tahmini olasılık %63.",
+        "Marjı temizlenmiş piyasa olasılığı %62.",
+        "Birleşik tahmini olasılık %62.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %30.",
+        "Geçmiş market örneği 2017; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Enugu Rangers",
@@ -5137,31 +3032,11 @@
         "Birleşik tahmini olasılık %65.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 63/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Rostov",
@@ -5172,7 +3047,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.67",
+      "suggested_odds": "1.65",
       "confidence_score": "65%",
       "trust_score": "65/100",
       "analysis_score": 65,
@@ -5252,38 +3127,18 @@
       ],
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 1.67",
+        "Oran: 1.65",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %51.",
         "Bağımsız sonuç hafızası tahmini %63.",
-        "Birleşik tahmini olasılık %53.",
-        "Model-piyasa farkı +2.3 puan.",
+        "Birleşik tahmini olasılık %54.",
+        "Model-piyasa farkı +2.1 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Veri kapsama puanı 52/100 (Orta eksik veri riski).",
         "Model gücü 65/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Akron",
@@ -5294,11 +3149,11 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.72",
-      "confidence_score": "80%",
-      "trust_score": "80/100",
-      "analysis_score": 80,
-      "analysis_class": "Ana kupon adayı",
+      "suggested_odds": "1.82",
+      "confidence_score": "79%",
+      "trust_score": "79/100",
+      "analysis_score": 79,
+      "analysis_class": "Orta risk kupon adayı",
       "value_label": "Yüksek Değer",
       "risk_level": "Orta",
       "data_gap_risk": "Düşük",
@@ -5385,7 +3240,7 @@
         "homeConcededLast10Count": 4,
         "awayConcededLast10Count": 4
       },
-      "tag": "Ana kupon adayı",
+      "tag": "Orta risk kupon adayı",
       "expected_scores": [
         "2-1",
         "3-1",
@@ -5393,40 +3248,20 @@
       ],
       "signals": [
         "Market: 2.5 Üst",
-        "Oran: 1.72",
+        "Oran: 1.82",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
-        "Marjı temizlenmiş piyasa olasılığı %49.",
+        "Marjı temizlenmiş piyasa olasılığı %47.",
         "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %72.",
-        "Birleşik tahmini olasılık %57.",
-        "Model-piyasa farkı +7.8 puan.",
+        "Birleşik tahmini olasılık %55.",
+        "Model-piyasa farkı +8.7 puan.",
         "Poisson gol beklentisi 1.62-1.74.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%75): +8",
         "Hafıza: lig gol ortalaması 3: +5",
-        "Geçmiş market örneği 2003; ham isabet %55.",
+        "Geçmiş market örneği 2017; ham isabet %55.",
         "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
-        "Model gücü 80/100: Ana kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 79/100: Orta risk kupon adayı."
+      ]
     },
     {
       "home_team_name": "Al Karkh",
@@ -5437,10 +3272,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.40",
-      "confidence_score": "60%",
-      "trust_score": "60/100",
-      "analysis_score": 60,
+      "suggested_odds": "1.52",
+      "confidence_score": "58%",
+      "trust_score": "58/100",
+      "analysis_score": 58,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -5517,38 +3352,18 @@
       ],
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 1.40",
+        "Oran: 1.52",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %59.",
-        "Birleşik tahmini olasılık %59.",
+        "Marjı temizlenmiş piyasa olasılığı %54.",
+        "Birleşik tahmini olasılık %54.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 58/100: Sadece izleme."
+      ]
     },
     {
       "home_team_name": "Torpedo Moskov",
@@ -5646,31 +3461,11 @@
         "Birleşik tahmini olasılık %61.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 61/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Olimpiyets",
@@ -5768,31 +3563,11 @@
         "Birleşik tahmini olasılık %52.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %55.",
+        "Geçmiş market örneği 2017; ham isabet %55.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Doqarah",
@@ -5890,31 +3665,11 @@
         "Birleşik tahmini olasılık %55.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Fc Iberia",
@@ -6012,31 +3767,11 @@
         "Birleşik tahmini olasılık %51.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %55.",
+        "Geçmiş market örneği 2017; ham isabet %55.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 57/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Skeid",
@@ -6118,27 +3853,7 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Levadia Tallin",
@@ -6220,27 +3935,7 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Viimsi Mrjk",
@@ -6251,7 +3946,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.74",
+      "suggested_odds": "1.71",
       "confidence_score": "54%",
       "trust_score": "54/100",
       "analysis_score": 54,
@@ -6331,38 +4026,18 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.74",
+        "Oran: 1.71",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %47.",
-        "Birleşik tahmini olasılık %47.",
+        "Marjı temizlenmiş piyasa olasılığı %48.",
+        "Birleşik tahmini olasılık %48.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 54/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Al Sareeh",
@@ -6460,31 +4135,11 @@
         "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Hay Al-Amir Ha",
@@ -6582,31 +4237,11 @@
         "Birleşik tahmini olasılık %56.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Vålerenga (K)",
@@ -6688,27 +4323,7 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Rosenborg (K)",
@@ -6719,10 +4334,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.32",
-      "confidence_score": "61%",
-      "trust_score": "61/100",
-      "analysis_score": 61,
+      "suggested_odds": "1.28",
+      "confidence_score": "62%",
+      "trust_score": "62/100",
+      "analysis_score": 62,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -6799,38 +4414,18 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.32",
+        "Oran: 1.28",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %63.",
-        "Birleşik tahmini olasılık %63.",
+        "Marjı temizlenmiş piyasa olasılığı %65.",
+        "Birleşik tahmini olasılık %65.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 61/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 62/100: Sadece izleme."
+      ]
     },
     {
       "home_team_name": "Vejle",
@@ -6841,10 +4436,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "1.65",
-      "confidence_score": "55%",
-      "trust_score": "55/100",
-      "analysis_score": 55,
+      "suggested_odds": "1.69",
+      "confidence_score": "54%",
+      "trust_score": "54/100",
+      "analysis_score": 54,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -6921,38 +4516,18 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 1.65",
+        "Oran: 1.69",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %50.",
-        "Birleşik tahmini olasılık %50.",
+        "Marjı temizlenmiş piyasa olasılığı %49.",
+        "Birleşik tahmini olasılık %49.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %30.",
+        "Geçmiş market örneği 2017; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 45/100 (Yüksek eksik veri riski).",
-        "Model gücü 55/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 54/100: Sadece izleme."
+      ]
     },
     {
       "home_team_name": "Polonya U20 (K",
@@ -7050,31 +4625,11 @@
         "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Kuzey Kore U20",
@@ -7084,8 +4639,8 @@
       "time": "19:30",
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "1.45",
+      "suggested_option": "2.5 Alt",
+      "suggested_odds": "1.46",
       "confidence_score": "59%",
       "trust_score": "59/100",
       "analysis_score": 59,
@@ -7159,44 +4714,24 @@
       },
       "tag": "Sadece izleme",
       "expected_scores": [
+        "0-0",
         "1-0",
-        "2-0",
-        "2-1"
+        "1-1"
       ],
       "signals": [
-        "Market: MS 1",
-        "Oran: 1.45",
+        "Market: 2.5 Alt",
+        "Oran: 1.46",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %57.",
-        "Birleşik tahmini olasılık %57.",
+        "Marjı temizlenmiş piyasa olasılığı %56.",
+        "Birleşik tahmini olasılık %56.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Albinoleffe",
@@ -7294,31 +4829,11 @@
         "Birleşik tahmini olasılık %58.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Calvina",
@@ -7416,31 +4931,11 @@
         "Birleşik tahmini olasılık %58.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Cittadella",
@@ -7538,31 +5033,11 @@
         "Birleşik tahmini olasılık %52.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 56/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Pro Vercelli",
@@ -7660,31 +5135,11 @@
         "Birleşik tahmini olasılık %60.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Pergolettese",
@@ -7782,31 +5237,11 @@
         "Birleşik tahmini olasılık %59.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Lumezzane",
@@ -7904,31 +5339,11 @@
         "Birleşik tahmini olasılık %56.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Levski Sofya",
@@ -7939,7 +5354,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
-      "suggested_odds": "2.00",
+      "suggested_odds": "1.96",
       "confidence_score": "55%",
       "trust_score": "55/100",
       "analysis_score": 55,
@@ -8020,7 +5435,7 @@
       ],
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 2.00",
+        "Oran: 1.96",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %43.",
@@ -8028,31 +5443,11 @@
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: düşük lig gol ortalaması 2.13: +5",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
         "Model gücü 55/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Ofi",
@@ -8134,27 +5529,7 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Real Betis",
@@ -8165,13 +5540,13 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.52",
+      "suggested_odds": "1.51",
       "confidence_score": "77%",
       "trust_score": "77/100",
       "analysis_score": 77,
       "analysis_class": "Orta risk kupon adayı",
       "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Orta",
+      "risk_level": "Düşük",
       "data_gap_risk": "Düşük",
       "analysis_metrics": {
         "homeScoredLast10": 5,
@@ -8263,39 +5638,19 @@
       ],
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 1.52",
+        "Oran: 1.51",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %56.",
         "Bağımsız Poisson gol modeli + 2.5 alt metriği + sonuç hafızası tahmini %61.",
         "Birleşik tahmini olasılık %58.",
-        "Model-piyasa farkı +1.7 puan.",
+        "Model-piyasa farkı +1.5 puan.",
         "Poisson gol beklentisi 1.62-1.33.",
         "Hafıza: 2.5 Alt eğilimi destekli (%70): +8",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Veri kapsama puanı 72/100 (Düşük eksik veri riski).",
         "Model gücü 77/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Biskra",
@@ -8306,7 +5661,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "1.79",
+      "suggested_odds": "1.75",
       "confidence_score": "52%",
       "trust_score": "52/100",
       "analysis_score": 52,
@@ -8386,38 +5741,18 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 1.79",
+        "Oran: 1.75",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %46.",
-        "Birleşik tahmini olasılık %46.",
+        "Marjı temizlenmiş piyasa olasılığı %47.",
+        "Birleşik tahmini olasılık %47.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %30.",
+        "Geçmiş market örneği 2017; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 52/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Enppi",
@@ -8515,31 +5850,11 @@
         "Birleşik tahmini olasılık %63.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %30.",
+        "Geçmiş market örneği 2017; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Aqaba",
@@ -8637,31 +5952,11 @@
         "Birleşik tahmini olasılık %64.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %30.",
+        "Geçmiş market örneği 2017; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Express",
@@ -8759,31 +6054,11 @@
         "Birleşik tahmini olasılık %50.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %30.",
+        "Geçmiş market örneği 2017; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 54/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Orlando Pirate",
@@ -8882,30 +6157,10 @@
         "Birleşik tahmini olasılık %64.",
         "Model-piyasa farkı +7.7 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Veri kapsama puanı 48/100 (Orta eksik veri riski).",
         "Model gücü 68/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Makhachkala",
@@ -8916,10 +6171,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.82",
-      "confidence_score": "75%",
-      "trust_score": "75/100",
-      "analysis_score": 75,
+      "suggested_odds": "1.74",
+      "confidence_score": "76%",
+      "trust_score": "76/100",
+      "analysis_score": 76,
       "analysis_class": "Orta risk kupon adayı",
       "value_label": "Değerli",
       "risk_level": "Orta",
@@ -9015,40 +6270,20 @@
       ],
       "signals": [
         "Market: 2.5 Üst",
-        "Oran: 1.82",
+        "Oran: 1.74",
         "Veri tipi: standard",
         "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %47.",
+        "Marjı temizlenmiş piyasa olasılığı %49.",
         "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %58.",
-        "Birleşik tahmini olasılık %50.",
-        "Model-piyasa farkı +3.9 puan.",
+        "Birleşik tahmini olasılık %52.",
+        "Model-piyasa farkı +3.2 puan.",
         "Poisson gol beklentisi 1.53-1.46.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%59): +8",
         "Hafıza: lig gol ortalaması 3: +5",
-        "Geçmiş market örneği 2003; ham isabet %55.",
+        "Geçmiş market örneği 2017; ham isabet %55.",
         "Veri kapsama puanı 69/100 (Düşük eksik veri riski).",
-        "Model gücü 75/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 76/100: Orta risk kupon adayı."
+      ]
     },
     {
       "home_team_name": "Zeleznicar Pan",
@@ -9146,31 +6381,11 @@
         "Birleşik tahmini olasılık %65.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %30.",
+        "Geçmiş market örneği 2017; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 61/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Al Zawraa",
@@ -9268,31 +6483,11 @@
         "Birleşik tahmini olasılık %59.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Independiente",
@@ -9304,13 +6499,13 @@
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
       "suggested_odds": "1.38",
-      "confidence_score": "63%",
-      "trust_score": "63/100",
-      "analysis_score": 63,
-      "analysis_class": "Sadece izleme",
+      "confidence_score": "72%",
+      "trust_score": "72/100",
+      "analysis_score": 72,
+      "analysis_class": "Orta risk kupon adayı",
       "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
+      "risk_level": "Orta",
+      "data_gap_risk": "Orta",
       "analysis_metrics": {
         "homeScoredLast10": 3,
         "awayScoredLast10": 3,
@@ -9324,45 +6519,45 @@
         "leagueGoalAverage": 2.61,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 6,
+          "totalMatches": 9,
           "home": {
-            "count": 6,
-            "scored": 3,
-            "conceded": 5,
-            "bttsRate": 50,
-            "over25Rate": 67,
-            "over35Rate": 33,
+            "count": 7,
+            "scored": 4,
+            "conceded": 6,
+            "bttsRate": 57,
+            "over25Rate": 57,
+            "over35Rate": 29,
             "goalsForAvg": 1,
-            "goalsAgainstAvg": 1.67,
+            "goalsAgainstAvg": 1.57,
             "wins": 2,
-            "draws": 2,
+            "draws": 3,
             "losses": 2,
-            "winRate": 33,
-            "drawRate": 33,
-            "lossRate": 33,
-            "pointsPerGame": 1.33
+            "winRate": 29,
+            "drawRate": 43,
+            "lossRate": 29,
+            "pointsPerGame": 1.29
           },
           "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
+            "count": 1,
+            "scored": 1,
+            "conceded": 1,
+            "bttsRate": 100,
             "over25Rate": 0,
             "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
+            "goalsForAvg": 1,
+            "goalsAgainstAvg": 1,
             "wins": 0,
-            "draws": 0,
+            "draws": 1,
             "losses": 0,
             "winRate": 0,
-            "drawRate": 0,
+            "drawRate": 100,
             "lossRate": 0,
-            "pointsPerGame": 0
+            "pointsPerGame": 1
           },
           "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
+            "count": 1,
+            "goalAverage": 2,
+            "bttsRate": 100,
             "over25Rate": 0
           },
           "signals": []
@@ -9373,7 +6568,7 @@
         "homeConcededLast10Count": 5,
         "awayConcededLast10Count": 4
       },
-      "tag": "Sadece izleme",
+      "tag": "Orta risk kupon adayı",
       "expected_scores": [
         "0-0",
         "1-0",
@@ -9385,33 +6580,13 @@
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %60.",
-        "Birleşik tahmini olasılık %60.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Geçmiş market örneği 2003; ham isabet %46.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 49/100 (Yüksek eksik veri riski).",
-        "Model gücü 63/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Bağımsız sonuç hafızası tahmini %72.",
+        "Birleşik tahmini olasılık %62.",
+        "Model-piyasa farkı +2.6 puan.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
+        "Veri kapsama puanı 59/100 (Orta eksik veri riski).",
+        "Model gücü 72/100: Orta risk kupon adayı."
+      ]
     },
     {
       "home_team_name": "Manchester Cit",
@@ -9493,27 +6668,7 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Central Espano",
@@ -9524,10 +6679,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.38",
-      "confidence_score": "61%",
-      "trust_score": "61/100",
-      "analysis_score": 61,
+      "suggested_odds": "1.44",
+      "confidence_score": "60%",
+      "trust_score": "60/100",
+      "analysis_score": 60,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -9604,38 +6759,18 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.38",
+        "Oran: 1.44",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %60.",
-        "Birleşik tahmini olasılık %60.",
+        "Marjı temizlenmiş piyasa olasılığı %57.",
+        "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
-        "Model gücü 61/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 60/100: Sadece izleme."
+      ]
     },
     {
       "home_team_name": "Juventud Dl Pi",
@@ -9734,30 +6869,10 @@
         "Birleşik tahmini olasılık %65.",
         "Model-piyasa farkı +7.7 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Veri kapsama puanı 49/100 (Orta eksik veri riski).",
         "Model gücü 69/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Bastia",
@@ -9855,31 +6970,11 @@
         "Birleşik tahmini olasılık %55.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Juventus",
@@ -9961,27 +7056,7 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Beşiktaş",
@@ -9992,10 +7067,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.62",
-      "confidence_score": "68%",
-      "trust_score": "68/100",
-      "analysis_score": 68,
+      "suggested_odds": "1.65",
+      "confidence_score": "67%",
+      "trust_score": "67/100",
+      "analysis_score": 67,
       "analysis_class": "Orta risk kupon adayı",
       "value_label": "Değerli",
       "risk_level": "Orta",
@@ -10070,37 +7145,17 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.62",
+        "Oran: 1.65",
         "Veri tipi: standard",
         "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %52.",
+        "Marjı temizlenmiş piyasa olasılığı %51.",
         "Bağımsız takım formu tahmini %89.",
-        "Birleşik tahmini olasılık %60.",
-        "Model-piyasa farkı +7.3 puan.",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Birleşik tahmini olasılık %59.",
+        "Model-piyasa farkı +7.5 puan.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Veri kapsama puanı 54/100 (Orta eksik veri riski).",
-        "Model gücü 68/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 67/100: Orta risk kupon adayı."
+      ]
     },
     {
       "home_team_name": "Celtic",
@@ -10111,10 +7166,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.52",
-      "confidence_score": "60%",
-      "trust_score": "60/100",
-      "analysis_score": 60,
+      "suggested_odds": "1.58",
+      "confidence_score": "59%",
+      "trust_score": "59/100",
+      "analysis_score": 59,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -10191,38 +7246,18 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.52",
+        "Oran: 1.58",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %56.",
-        "Birleşik tahmini olasılık %56.",
+        "Marjı temizlenmiş piyasa olasılığı %54.",
+        "Birleşik tahmini olasılık %54.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 46/100 (Yüksek eksik veri riski).",
-        "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 59/100: Sadece izleme."
+      ]
     },
     {
       "home_team_name": "Crystal Palace",
@@ -10304,27 +7339,7 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Viktoria Plzen",
@@ -10422,31 +7437,11 @@
         "Birleşik tahmini olasılık %54.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %55.",
+        "Geçmiş market örneği 2017; ham isabet %55.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 46/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Lillestrom",
@@ -10457,10 +7452,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.34",
-      "confidence_score": "63%",
-      "trust_score": "63/100",
-      "analysis_score": 63,
+      "suggested_odds": "1.40",
+      "confidence_score": "62%",
+      "trust_score": "62/100",
+      "analysis_score": 62,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -10537,38 +7532,18 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.34",
+        "Oran: 1.40",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %63.",
-        "Birleşik tahmini olasılık %63.",
+        "Marjı temizlenmiş piyasa olasılığı %61.",
+        "Birleşik tahmini olasılık %61.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 45/100 (Yüksek eksik veri riski).",
-        "Model gücü 63/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 62/100: Sadece izleme."
+      ]
     },
     {
       "home_team_name": "Real Sociedad",
@@ -10579,10 +7554,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "2.11",
-      "confidence_score": "59%",
-      "trust_score": "59/100",
-      "analysis_score": 59,
+      "suggested_odds": "2.07",
+      "confidence_score": "60%",
+      "trust_score": "60/100",
+      "analysis_score": 60,
       "analysis_class": "Sadece izleme",
       "value_label": "Değerli",
       "risk_level": "Orta",
@@ -10657,37 +7632,17 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 2.11",
+        "Oran: 2.07",
         "Veri tipi: standard",
         "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %40.",
+        "Marjı temizlenmiş piyasa olasılığı %41.",
         "Bağımsız takım formu tahmini %57.",
         "Birleşik tahmini olasılık %44.",
-        "Model-piyasa farkı +3.6 puan.",
-        "Geçmiş market örneği 2003; ham isabet %30.",
+        "Model-piyasa farkı +3.4 puan.",
+        "Geçmiş market örneği 2017; ham isabet %30.",
         "Veri kapsama puanı 56/100 (Orta eksik veri riski).",
-        "Model gücü 59/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 60/100: Sadece izleme."
+      ]
     },
     {
       "home_team_name": "Afc Wimbledon",
@@ -10785,31 +7740,11 @@
         "Birleşik tahmini olasılık %51.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: lig gol ortalaması 3.15: +5",
-        "Geçmiş market örneği 2003; ham isabet %55.",
+        "Geçmiş market örneği 2017; ham isabet %55.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 49/100 (Yüksek eksik veri riski).",
         "Model gücü 62/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Renate",
@@ -10907,31 +7842,11 @@
         "Birleşik tahmini olasılık %57.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Giana Erminio",
@@ -11029,31 +7944,11 @@
         "Birleşik tahmini olasılık %58.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Athletic Carpi",
@@ -11151,31 +8046,11 @@
         "Birleşik tahmini olasılık %56.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Union Brescia",
@@ -11273,31 +8148,11 @@
         "Birleşik tahmini olasılık %60.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Temouchent",
@@ -11395,31 +8250,11 @@
         "Birleşik tahmini olasılık %39.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %30.",
+        "Geçmiş market örneği 2017; ham isabet %30.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 48/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Malaga",
@@ -11430,7 +8265,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "KG Var",
-      "suggested_odds": "1.60",
+      "suggested_odds": "1.61",
       "confidence_score": "67%",
       "trust_score": "67/100",
       "analysis_score": 67,
@@ -11526,38 +8361,18 @@
       ],
       "signals": [
         "Market: KG Var",
-        "Oran: 1.60",
+        "Oran: 1.61",
         "Veri tipi: standard",
         "Değer etiketi: Değerli",
         "Marjı temizlenmiş piyasa olasılığı %42.",
         "Bağımsız Poisson gol modeli + KG metriği + sonuç hafızası tahmini %53.",
         "Birleşik tahmini olasılık %45.",
-        "Model-piyasa farkı +3.4 puan.",
+        "Model-piyasa farkı +3.5 puan.",
         "Poisson gol beklentisi 1.52-1.41.",
-        "Geçmiş market örneği 2003; ham isabet %57.",
+        "Geçmiş market örneği 2017; ham isabet %57.",
         "Veri kapsama puanı 65/100 (Düşük eksik veri riski).",
         "Model gücü 67/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Cuniburo Fc",
@@ -11589,7 +8404,7 @@
         "leagueGoalAverage": 2.71,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 0,
+          "totalMatches": 1,
           "home": {
             "count": 0,
             "scored": 0,
@@ -11625,9 +8440,9 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
+            "count": 1,
+            "goalAverage": 2,
+            "bttsRate": 100,
             "over25Rate": 0
           },
           "signals": [
@@ -11655,31 +8470,11 @@
         "Birleşik tahmini olasılık %37.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 48/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "22 De Julio",
@@ -11777,32 +8572,12 @@
         "Birleşik tahmini olasılık %55.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 50/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Bucaramanga",
@@ -11834,7 +8609,7 @@
         "leagueGoalAverage": 2.95,
         "memory": {
           "scoreDelta": 12,
-          "totalMatches": 25,
+          "totalMatches": 26,
           "home": {
             "count": 3,
             "scored": 2,
@@ -11870,32 +8645,32 @@
             "pointsPerGame": 2
           },
           "league": {
-            "count": 19,
-            "goalAverage": 2.95,
-            "bttsRate": 68,
-            "over25Rate": 68
+            "count": 20,
+            "goalAverage": 2.85,
+            "bttsRate": 65,
+            "over25Rate": 65
           },
           "signals": [
             "Hafıza: 2.5 Üst eğilimi yüksek (%67): +8",
-            "Hafıza: lig gol ortalaması 2.95: +5"
+            "Hafıza: lig gol ortalaması 2.85: +5"
           ]
         },
         "poisson": {
           "probabilities": {
-            "ms1": 38.559489823608764,
-            "msx": 24.810835241793896,
-            "ms2": 36.62967493459727,
-            "over15": 78.40763602748676,
-            "over25": 55.21009071652647,
-            "under25": 44.789909283473506,
-            "over35": 32.84978347841422,
-            "kgVar": 58.42774397814762,
-            "kgYok": 41.57225602185235,
-            "homeGoal": 76.94820549891224,
-            "awayGoal": 75.93126259321743
+            "ms1": 38.29877592803238,
+            "msx": 25.12549288642508,
+            "ms2": 36.575731185542544,
+            "over15": 77.38432859044043,
+            "over25": 53.7467177562741,
+            "under25": 46.2532822437259,
+            "over35": 31.454677918842695,
+            "kgVar": 57.292402289661496,
+            "kgYok": 42.70759771033852,
+            "homeGoal": 76.1570215576164,
+            "awayGoal": 75.22931059786401
           },
-          "homeLambda": 1.47,
-          "awayLambda": 1.42,
+          "homeLambda": 1.43,
+          "awayLambda": 1.4,
           "samples": 6,
           "reliability": 0.375
         },
@@ -11918,34 +8693,14 @@
         "Marjı temizlenmiş piyasa olasılığı %43.",
         "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %63.",
         "Birleşik tahmini olasılık %49.",
-        "Model-piyasa farkı +6.3 puan.",
-        "Poisson gol beklentisi 1.47-1.42.",
+        "Model-piyasa farkı +6.2 puan.",
+        "Poisson gol beklentisi 1.43-1.4.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%67): +8",
-        "Hafıza: lig gol ortalaması 2.95: +5",
-        "Geçmiş market örneği 2003; ham isabet %55.",
+        "Hafıza: lig gol ortalaması 2.85: +5",
+        "Geçmiş market örneği 2017; ham isabet %55.",
         "Veri kapsama puanı 65/100 (Düşük eksik veri riski).",
         "Model gücü 74/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Santo Domingo",
@@ -12043,32 +8798,12 @@
         "Birleşik tahmini olasılık %60.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 52/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Bucaramanga",
@@ -12079,7 +8814,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.92",
+      "suggested_odds": "1.89",
       "confidence_score": "74%",
       "trust_score": "74/100",
       "analysis_score": 74,
@@ -12100,7 +8835,7 @@
         "leagueGoalAverage": 2.95,
         "memory": {
           "scoreDelta": 12,
-          "totalMatches": 25,
+          "totalMatches": 26,
           "home": {
             "count": 3,
             "scored": 2,
@@ -12136,32 +8871,32 @@
             "pointsPerGame": 2
           },
           "league": {
-            "count": 19,
-            "goalAverage": 2.95,
-            "bttsRate": 68,
-            "over25Rate": 68
+            "count": 20,
+            "goalAverage": 2.85,
+            "bttsRate": 65,
+            "over25Rate": 65
           },
           "signals": [
             "Hafıza: 2.5 Üst eğilimi yüksek (%67): +8",
-            "Hafıza: lig gol ortalaması 2.95: +5"
+            "Hafıza: lig gol ortalaması 2.85: +5"
           ]
         },
         "poisson": {
           "probabilities": {
-            "ms1": 38.559489823608764,
-            "msx": 24.810835241793896,
-            "ms2": 36.62967493459727,
-            "over15": 78.40763602748676,
-            "over25": 55.21009071652647,
-            "under25": 44.789909283473506,
-            "over35": 32.84978347841422,
-            "kgVar": 58.42774397814762,
-            "kgYok": 41.57225602185235,
-            "homeGoal": 76.94820549891224,
-            "awayGoal": 75.93126259321743
+            "ms1": 38.29877592803238,
+            "msx": 25.12549288642508,
+            "ms2": 36.575731185542544,
+            "over15": 77.38432859044043,
+            "over25": 53.7467177562741,
+            "under25": 46.2532822437259,
+            "over35": 31.454677918842695,
+            "kgVar": 57.292402289661496,
+            "kgYok": 42.70759771033852,
+            "homeGoal": 76.1570215576164,
+            "awayGoal": 75.22931059786401
           },
-          "homeLambda": 1.47,
-          "awayLambda": 1.42,
+          "homeLambda": 1.43,
+          "awayLambda": 1.4,
           "samples": 6,
           "reliability": 0.375
         },
@@ -12178,40 +8913,20 @@
       ],
       "signals": [
         "Market: 2.5 Üst",
-        "Oran: 1.92",
+        "Oran: 1.89",
         "Veri tipi: standard",
         "Değer etiketi: Değerli",
-        "Marjı temizlenmiş piyasa olasılığı %43.",
+        "Marjı temizlenmiş piyasa olasılığı %44.",
         "Bağımsız Poisson gol modeli + 2.5 üst metriği + sonuç hafızası tahmini %63.",
-        "Birleşik tahmini olasılık %49.",
-        "Model-piyasa farkı +6.3 puan.",
-        "Poisson gol beklentisi 1.47-1.42.",
+        "Birleşik tahmini olasılık %50.",
+        "Model-piyasa farkı +5.9 puan.",
+        "Poisson gol beklentisi 1.43-1.4.",
         "Hafıza: 2.5 Üst eğilimi yüksek (%67): +8",
-        "Hafıza: lig gol ortalaması 2.95: +5",
-        "Geçmiş market örneği 2003; ham isabet %55.",
+        "Hafıza: lig gol ortalaması 2.85: +5",
+        "Geçmiş market örneği 2017; ham isabet %55.",
         "Veri kapsama puanı 65/100 (Düşük eksik veri riski).",
         "Model gücü 74/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Flamengo (2)",
@@ -12309,32 +9024,12 @@
         "Birleşik tahmini olasılık %44.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 44/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Torque (0)",
@@ -12345,10 +9040,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.41",
-      "confidence_score": "52%",
-      "trust_score": "52/100",
-      "analysis_score": 52,
+      "suggested_odds": "1.37",
+      "confidence_score": "53%",
+      "trust_score": "53/100",
+      "analysis_score": 53,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -12366,7 +9061,7 @@
         "leagueGoalAverage": 1.4,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 5,
+          "totalMatches": 6,
           "home": {
             "count": 0,
             "scored": 0,
@@ -12402,10 +9097,10 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 5,
-            "goalAverage": 1.4,
-            "bttsRate": 20,
-            "over25Rate": 0
+            "count": 6,
+            "goalAverage": 2.17,
+            "bttsRate": 33,
+            "over25Rate": 17
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -12425,39 +9120,19 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.41",
+        "Oran: 1.37",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %60.",
-        "Birleşik tahmini olasılık %60.",
+        "Marjı temizlenmiş piyasa olasılığı %62.",
+        "Birleşik tahmini olasılık %62.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 52/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 53/100: Sadece izleme."
+      ]
     },
     {
       "home_team_name": "Alajuelense (2)",
@@ -12555,32 +9230,12 @@
         "Birleşik tahmini olasılık %52.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 48/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Bolivar",
@@ -12612,7 +9267,7 @@
         "leagueGoalAverage": 3.26,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 22,
+          "totalMatches": 23,
           "home": {
             "count": 2,
             "scored": 2,
@@ -12648,10 +9303,10 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 20,
-            "goalAverage": 3.3,
-            "bttsRate": 55,
-            "over25Rate": 65
+            "count": 21,
+            "goalAverage": 3.33,
+            "bttsRate": 52,
+            "over25Rate": 67
           },
           "signals": []
         }
@@ -12662,27 +9317,7 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Durango",
@@ -12780,31 +9415,11 @@
         "Birleşik tahmini olasılık %55.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %43.",
+        "Geçmiş market örneği 2017; ham isabet %43.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 48/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Depor. Olimpia (3)",
@@ -12815,7 +9430,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.85",
+      "suggested_odds": "1.88",
       "confidence_score": "45%",
       "trust_score": "45/100",
       "analysis_score": 45,
@@ -12895,41 +9510,20 @@
       ],
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 1.85",
+        "Oran: 1.88",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %45.",
-        "Birleşik tahmini olasılık %45.",
+        "Marjı temizlenmiş piyasa olasılığı %44.",
+        "Birleşik tahmini olasılık %44.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 2003; ham isabet %46.",
+        "Geçmiş market örneği 2017; ham isabet %46.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 45/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     }
   ],
-  "team_style_memory_enabled": true,
-  "team_style_memory_updated_at": "2026-09-17T03:14:50.815Z"
+  "focused_market_count": 17
 }

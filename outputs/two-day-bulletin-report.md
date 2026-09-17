@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-17 / 2026-09-18
 Kaynak: fixtures.json
-Ham mac: 106
-Aktif mac: 94
+Ham mac: 120
+Aktif mac: 93
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 12
-Bugun: 85
+Bultenden dusurulen mac: 27
+Bugun: 84
 Yarin: 9
 
 ## Baslamamis Maclar
-- 2026-09-17 06:15 | CONCACAF Orta Amerika Kupası Çeyrek Final | Alianza (0) - (3) Depor Motagua | scheduled | -
 - 2026-09-17 13:00 | AFC Şampiyonlar Ligi 2 Grup F | Adelaide Unite - Wofoo Tai Po | scheduled | -
 - 2026-09-17 13:00 | AFC Şampiyonlar Ligi 2 Grup F | Lion City - Bg Pathum Unite | scheduled | -
 - 2026-09-17 13:00 | AFC Şampiyonlar Ligi 2 Grup G | Machida Zelvia - Pkr Svay Rieng | scheduled | -
@@ -75,7 +74,7 @@ Yarin: 9
 - 2026-09-17 20:45 | Rusya Premier Lig | Makhachkala - Cska Moskova | scheduled | -
 - 2026-09-17 21:00 | Sırbistan Süper Lig | Zeleznicar Pan - Kizilyildiz | scheduled | -
 - 2026-09-17 21:00 | Irak Premier Lig | Al Zawraa - Al Gharraf | scheduled | -
-- 2026-09-17 21:00 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | Independiente - Atletico Fc | scheduled | -
+- 2026-09-17 21:00 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | Independiente - Atletico Fc | scheduled | 1-1
 - 2026-09-17 21:30 | İngiltere Lig Kupası 3.Tur | Manchester Cit - Norwich | scheduled | -
 - 2026-09-17 21:30 | Uruguay Kupa Ön Eleme Turu Grup 4 | Central Espano - Oriental | scheduled | -
 - 2026-09-17 21:30 | Uruguay Kupa Ön Eleme Turu Grup 4 | Juventud Dl Pi - Racing Montevid | scheduled | -
