@@ -16,6 +16,7 @@ Bu dosya calisan alanlari korumak icindir. Yeni is yaparken once bu dosya okunur
 10. Vercel backend kodu yalniz GitHub `main` backend degisikliklerinden otomatik deploy edilir. Salt `data/` veya rapor commitleri Vercel deployment tetiklemez.
 11. `data/pro-analysis-index.json` uyelik korumali projection oldugu icin public GitHub reposuna commit edilmez. PRO API, uyelik dogrulandiktan sonra GitHub `main` icindeki guncel `data/robot-analysis.json` ve sonuc hafizasindan projection'i sunucu tarafinda olusturur.
 12. GitHub canli veri okumasi gecici olarak basarisiz olursa Vercel deployment icindeki son saglam PRO index fallback olarak kullanilir; bu fallback ana kaynak sayilmaz ve GitHub erisimi duzelince otomatik olarak guncel veriye donulur.
+13. Etiketi dogrulanmamis ham oran bloklarinda market; oran sayisindan, blok sirasindan veya oran degerinden tahmin edilmez. `raw_market_guess_odds` ve tahmini market adaylari PRO skoruna veya kupona kaynak olamaz. Ham bloklar yalniz teshis amaciyla tutulur; market secimi icin acik isimli/dogrulanmis oran alani gerekir.
 
 ## Kritik dosyalar
 
