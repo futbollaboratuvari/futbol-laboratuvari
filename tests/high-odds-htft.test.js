@@ -63,8 +63,52 @@ assert.ok([18.25, 22.5].includes(pick.bookmaker_odds));
 assert.strictEqual(pick.model_odds, pick.bookmaker_odds, 'legacy display field must mirror official odds exactly');
 assert.strictEqual(pick.real_odds, pick.bookmaker_odds);
 assert.strictEqual(pick.odds_verified, true);
+assert.strictEqual(pick.first_half_signal_verified, true);
+assert.strictEqual(pick.first_half_signal_source, 'detail_market_candidates');
+assert.ok(Number(pick.openness_score) > 0);
+assert.ok(Number(pick.reversal_joint_probability) > 0);
+assert.ok(Number(pick.first_half_direction_probability) > 0);
+assert.ok(Number(pick.full_time_direction_probability) > 0);
 assert.match(pick.odds_source, /iddaa/i);
 assert.notStrictEqual(pick.bookmaker_odds, 11.76, 'old reciprocal model odds must never be emitted');
+
+const rawOnlyItem = {
+  ...item,
+  available_odds: {},
+  raw_market_guess_odds: {
+    ms1: 2.2, msx: 3.2, ms2: 3.0,
+    over25: 1.8, under25: 2.0, bttsYes: 1.75, bttsNo: 2.05
+  }
+};
+assert.strictEqual(
+  analyzeMatch(rawOnlyItem, '2026-09-10', map),
+  null,
+  'raw guessed full-time prices must not power HTFT specialist'
+);
+
+const guessedHalfOnlyItem = {
+  ...item,
+  detail_market_candidates: [{
+    market: 'İlk Yarı Sonucu',
+    values: { firstHalf1_guess: 2.5, firstHalfX_guess: 2.1, firstHalf2_guess: 3.2 }
+  }]
+};
+const guessedHalfPick = analyzeMatch(guessedHalfOnlyItem, '2026-09-10', map);
+assert.ok(guessedHalfPick);
+assert.strictEqual(guessedHalfPick.first_half_signal_verified, false);
+assert.strictEqual(guessedHalfPick.first_half_signal_source, 'derived_from_full_time_direction');
+
+const unverifiedHalfItem = {
+  ...item,
+  detail_market_candidates: [{
+    market: 'İlk Yarı Sonucu',
+    market_identity_verified: false,
+    values: { firstHalf1: 2.5, firstHalfX: 2.1, firstHalf2: 3.2 }
+  }]
+};
+const unverifiedHalfPick = analyzeMatch(unverifiedHalfItem, '2026-09-10', map);
+assert.ok(unverifiedHalfPick);
+assert.strictEqual(unverifiedHalfPick.first_half_signal_verified, false);
 
 const directItem = { ...item, iddaa_event_id: '3123456' };
 const directResolution = resolveOfficialEvent(directItem, map);
@@ -131,6 +175,7 @@ const secondItem = {
     matches: [officialEvent, secondOfficialEvent]
   });
   assert.strictEqual(output.odds_label, 'Resmî İddaa İY/MS oranı');
+  assert.strictEqual(output.engine, 'Futbol Laboratuvarı Yüksek Oran İY/MS v4');
   assert.strictEqual(output.status, 'ready');
   assert.strictEqual(output.picks.length, 2);
   assert.strictEqual(output.identity_match_count, 2);
