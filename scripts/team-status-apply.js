@@ -77,6 +77,7 @@ function applyTeamStatus() {
     const risk = worstRisk(worstRisk(match.risk_level || match.risk, squadRisk), lineupRisk);
     const squadComment = row?.robot_comment || '';
     const lineupComment = lineup?.robot_comment || '';
+    const matchupAnalysis = lineup?.matchup_analysis || null;
     const existingComment = String(match.robot_comment || match.robot_reason || '').trim();
     const combinedComment = [
       existingComment,
@@ -93,6 +94,7 @@ function applyTeamStatus() {
       away_status: row?.away_status || null,
       home_lineup: lineup?.home_lineup || null,
       away_lineup: lineup?.away_lineup || null,
+      matchup_analysis: matchupAnalysis,
       squad_comment: squadComment,
       lineup_comment: lineupComment,
     };
@@ -109,6 +111,7 @@ function applyTeamStatus() {
       away_status: row?.away_status || null,
       home_lineup: lineup?.home_lineup || null,
       away_lineup: lineup?.away_lineup || null,
+      matchup_analysis: matchupAnalysis,
       team_intelligence: intelligence,
       squad_comment: squadComment,
       lineup_comment: lineupComment,
@@ -120,6 +123,7 @@ function applyTeamStatus() {
         lineup_risk_level: lineupRisk,
         squad_comment: squadComment,
         lineup_comment: lineupComment,
+        matchup_analysis: matchupAnalysis,
         team_status: { home: row?.home_status || null, away: row?.away_status || null },
         lineup: { home: lineup?.home_lineup || null, away: lineup?.away_lineup || null }
       }
