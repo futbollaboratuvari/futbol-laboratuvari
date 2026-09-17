@@ -3,6 +3,7 @@ const path = require("path");
 const { MODEL_VERSION, scoreFixture } = require("./robot-exact-scoring");
 const { applyLearningWeightsToScoredItem } = require("./apply-learning-weights");
 const { buildProAnalysisIndex } = require("./build-pro-analysis-index");
+const { applyMatchupContext } = require("./matchup-intelligence");
 const couponRules = require("../pro-coupon-eligibility");
 
 const rootDir = path.join(__dirname, "..");
@@ -87,6 +88,7 @@ const DEFAULT_BAND_RECORD = {
     named_player_count: 0,
     team_status: null,
     lineup: null,
+    matchup_analysis: null,
   },
 };
 
@@ -140,7 +142,7 @@ function applyTeamIntelligence(item, bandRecord = DEFAULT_BAND_RECORD) {
       ? `İki takım için kadro doğrulaması tamamlanmadı; model gücü ${penalty} puan ihtiyat payıyla düşürüldü.`
       : combined === "Orta" ? `Kadro/ilk 11 riski orta; model gücü ${penalty} puan düşürüldü.` : "Kadro akışı iki takım için doğrulandı.";
   const signals = [note, ...(Array.isArray(item.pro_signals) ? item.pro_signals : [])];
-  return {
+  const enriched = {
     ...item,
     score: adjustedScore,
     model_score: adjustedScore,
@@ -161,6 +163,7 @@ function applyTeamIntelligence(item, bandRecord = DEFAULT_BAND_RECORD) {
     band_check: bandRecord?.band_check || DEFAULT_BAND_RECORD.band_check,
     pro_signals: signals,
   };
+  return applyMatchupContext(enriched, extra.matchup_analysis);
 }
 
 const fixtureDate = (fixture) => String(fixture.date || fixture.tarih || fixture.utc_date || "").slice(0, 10);
@@ -263,6 +266,7 @@ function live_match_output(match) {
     lineup_risk_level: scored.lineup_risk_level || scored.team_intelligence?.lineup_risk_level || "Belirsiz",
     team_status_verified_count: Number(scored.team_status_verified_count || 0),
     named_player_count: Number(scored.named_player_count || 0),
+    matchup_analysis: scored.matchup_analysis || scored.team_intelligence?.matchup_analysis || null,
     team_intelligence: scored.team_intelligence || null,
     robot_comment: generate_robot_explanation(scored),
     include_in_coupon: Boolean(scored.hasOdds && couponRules.meetsCouponCriteria({
@@ -324,6 +328,7 @@ function make_coupon(type, items, size) {
     squad_risk_level: item.squad_risk_level || "Belirsiz",
     lineup_risk_level: item.lineup_risk_level || "Belirsiz",
     named_player_count: Number(item.named_player_count || 0),
+    matchup_analysis: item.matchup_analysis || item.team_intelligence?.matchup_analysis || null,
     robot_reason: generate_robot_explanation(item),
     learning_adjustment: item.learning_adjustment || null,
   }));
@@ -412,7 +417,7 @@ function export_json_outputs(couponBundle, matches, analysisBundle = couponBundl
     date: today,
     engine: "Futbol Laboratuvarı PRO 13",
     model_version: MODEL_VERSION,
-    scoring_mode: "market_conditioned_probability_ensemble_with_learning_memory",
+    scoring_mode: "market_conditioned_probability_ensemble_with_learning_memory_and_verified_lineup_matchups",
     stale_data_policy: "Eski veri gösterme. Güncel bülten penceresindeki bugün ve yaklaşan maçları analiz et.",
     summary: {
       fixture_count: analysisMatches.length,
@@ -421,6 +426,8 @@ function export_json_outputs(couponBundle, matches, analysisBundle = couponBundl
       watch_candidate_count: (analysisBundle.watchlist || []).length,
       learning_adjusted_count: analysisScored.filter((item) => item.learning_adjustment?.applied).length,
       squad_adjusted_count: analysisScored.filter((item) => Number(item.team_intelligence?.adjustment?.penalty || 0) > 0).length,
+      matchup_adjusted_count: analysisScored.filter((item) => Number(item.team_intelligence?.matchup_adjustment?.delta || 0) !== 0).length,
+      matchup_verified_count: analysisScored.filter((item) => Number(item.team_intelligence?.matchup_analysis?.coverage_score || 0) >= 65).length,
       named_player_match_count: analysisScored.filter((item) => Number(item.named_player_count || 0) > 0).length,
     },
     watchlist: (analysisBundle.watchlist || []).map((item) => live_match_output(item)),
@@ -466,4 +473,3 @@ module.exports = {
   selectAnalysisMatches,
   selectDailyMatches,
 };
-
