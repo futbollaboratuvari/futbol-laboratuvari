@@ -73,6 +73,7 @@ function memory(home, away) {
     over35Rate: 55,
     dataCompleteness: 65,
     completeRange: false,
+    goalConsensus: 0.40,
   });
   assert.equal(weak.decision, "block");
   assert.equal(weak.eligible, false);
@@ -85,6 +86,7 @@ function memory(home, away) {
     over35Rate: 48,
     dataCompleteness: 78,
     completeRange: true,
+    goalConsensus: 0.53,
   });
   assert.equal(borderline.decision, "downgrade");
   assert.equal(borderline.eligible, true);
@@ -97,6 +99,7 @@ function memory(home, away) {
     over35Rate: 58,
     dataCompleteness: 90,
     completeRange: true,
+    goalConsensus: 0.62,
     preMatchDecision: "keep",
     sourceConflict: "none",
     lineupRisk: "Düşük",
@@ -105,7 +108,7 @@ function memory(home, away) {
   assert.equal(strong.decision, "keep");
   assert.equal(strong.delta, 0);
   assert.equal(strong.eligible, true);
-  assert.equal(strong.support_count, 4);
+  assert.equal(strong.support_count, 5);
   assert.equal(strong.quality_score, 100);
 })();
 
