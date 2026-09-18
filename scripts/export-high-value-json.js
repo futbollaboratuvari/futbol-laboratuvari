@@ -256,6 +256,17 @@ function live_match_output(match) {
     estimated_odds: scored.odds || "-",
     available_odds: availableOdds,
     raw_market_guess_odds: scored.raw_market_guess_odds || {},
+    analysis_options: (Array.isArray(scored.analysis_options) ? scored.analysis_options : [])
+      .filter((option) => option && option.odd_source_type !== "raw_market_guess_odds"
+        && option.specialist_eligible !== false
+        && cleanKey(option.specialist_decision || option.market_specialist?.decision) !== "block")
+      .slice(0, 16),
+    goal_market_candidates: (Array.isArray(scored.goal_market_candidates) ? scored.goal_market_candidates : [])
+      .filter((option) => option && option.odd_source_type !== "raw_market_guess_odds"
+        && option.specialist_eligible !== false
+        && cleanKey(option.specialist_decision || option.market_specialist?.decision) !== "block")
+      .slice(0, 8),
+    goal_market_pick: scored.goal_market_pick || null,
     detail_market_candidates: scored.detail_market_candidates || [],
     raw_market_blocks: scored.raw_market_blocks || [],
     odds_source: scored.oddsSource || scored.odds_source || scored.source || scored.raw_market_source || "-",
@@ -472,4 +483,5 @@ module.exports = {
   bandRecordFor,
   selectAnalysisMatches,
   selectDailyMatches,
+  live_match_output,
 };
