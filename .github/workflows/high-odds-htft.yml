@@ -63,7 +63,7 @@ jobs:
           if (Number(data.official_high_odds_match_count) >= 2 && Number(data.scheduled_scan_count) >= 2 && Number(data.identity_match_count) === 0) throw new Error('official HTFT matches exist but provider identities do not match');
           if (!/iddaa/i.test(String(data.odds_source || ''))) throw new Error('official odds source missing');
           if (data.odds_label !== 'Resmî İddaa İY/MS oranı') throw new Error('official odds label missing');
-          if (data.market_specialist?.version !== 'market-specialist-gates-v2') throw new Error('HTFT specialist v2 gate missing');
+          if (data.market_specialist?.version !== 'market-specialist-gates-v3') throw new Error('HTFT specialist v3 gate missing');
           if ('specialist_candidate_pool' in data) throw new Error('temporary specialist candidate pool leaked into final output');
           if (!Array.isArray(data.rejected_picks)) throw new Error('specialist rejected diagnostics missing');
           if (Number(data.market_specialist?.htft_picks_checked || 0) < data.picks.length) throw new Error('specialist checked count invalid');
