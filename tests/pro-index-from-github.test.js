@@ -177,7 +177,7 @@ function fakeResponse(payload, status = 200) {
 
 
   resetRemoteProIndexCache();
-  const largeRobot = { ...robot, transport_padding: "x".repeat(5 * 1024 * 1024) };
+  const largeRobot = { ...robot, transport_padding: "x".repeat(8 * 1024 * 1024) };
   const largePayload = await readRemoteProIndex({
     ...options,
     robotUrl: "robot://large-current",
