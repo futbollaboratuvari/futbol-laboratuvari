@@ -2,7 +2,7 @@
   const KEY = '__flLivePowerCenterV1';
   if (window[KEY]?.destroy) window[KEY].destroy();
 
-  const state = { root: null, data: null, selectedId: '', timer: null, onClick: null };
+  const state = { root: null, data: null, analysis: null, selectedId: '', timer: null, onClick: null };
   window[KEY] = state;
 
   const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({
@@ -30,8 +30,9 @@
       .flp-chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.flp-chart{border:1px solid rgba(255,255,255,.07);border-radius:12px;background:#071923;padding:9px}.flp-chart-head{display:flex;justify-content:space-between;gap:9px;align-items:center;margin-bottom:6px}.flp-chart-head b{font-size:12px}.flp-legend{display:flex;gap:8px;font-size:8px;color:#8ea5b2}.flp-legend i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:3px}.flp-home-dot{background:#65e5a5}.flp-away-dot{background:#63bbff}.flp-chart svg{display:block;width:100%;height:auto}.flp-gridline{stroke:rgba(255,255,255,.08);stroke-width:1}.flp-axis{fill:#657e8d;font-size:9px}.flp-home-line{fill:none;stroke:#65e5a5;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}.flp-away-line{fill:none;stroke:#63bbff;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}.flp-linkline{stroke-dasharray:4 4;opacity:.65}.flp-home-point{fill:#65e5a5}.flp-away-point{fill:#63bbff}
       .flp-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}.flp-teamstats{padding:10px;border-radius:11px;background:#0a1e29}.flp-teamstats h4{margin:0 0 7px;font-size:11px}.flp-statrow{display:flex;justify-content:space-between;gap:8px;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.05);font-size:9px;color:#8199a8}.flp-statrow b{color:#fff}.flp-note{margin:10px 0 0;color:#6f8998;font-size:9px;line-height:1.5}.flp-note b{color:#aeeaff}
       .flp-coverage{margin:8px 0;padding:8px 10px;border-radius:9px;background:#0a202b;color:#8fb1c0;font-size:9px;line-height:1.45}.flp-coverage b{color:#dff8ff}
+      .flp-analysis{margin:10px 0;padding:12px;border:1px solid rgba(125,231,255,.16);border-radius:12px;background:#091f2a}.flp-analysis[data-state=ready]{border-color:rgba(101,229,165,.28);background:#09251f}.flp-analysis-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.flp-analysis-head span{color:#7de7ff;font-size:9px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}.flp-analysis-head strong{display:block;margin-top:3px;color:#fff;font-size:15px}.flp-analysis-confidence{white-space:nowrap;padding:6px 8px;border-radius:999px;background:rgba(255,255,255,.06);color:#bdefff;font-size:9px}.flp-analysis-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-top:9px}.flp-analysis-grid div{padding:8px;border-radius:9px;background:rgba(0,0,0,.16)}.flp-analysis-grid span{display:block;color:#7797a6;font-size:8px}.flp-analysis-grid b{display:block;margin-top:3px;color:#fff;font-size:11px}.flp-analysis ul{margin:9px 0 0;padding-left:17px;color:#9cb5c2;font-size:9px;line-height:1.45}.flp-analysis-wait{color:#8aa5b2;font-size:10px;line-height:1.5}.flp-prediction-chip{color:#b9f5d4!important;font-weight:800}
       @media(max-width:900px){.flp-layout{grid-template-columns:1fr}.flp-list{display:flex;gap:7px;overflow:auto}.flp-list h3{display:none}.flp-match{min-width:235px;margin:0}.flp-chart-grid{grid-template-columns:1fr}}
-      @media(max-width:620px){.flp{margin:18px 8px;border-radius:15px}.flp-head{display:block;padding:16px 14px 10px}.flp-badge{display:inline-block;margin-top:8px}.flp-status{margin:0 14px 10px}.flp-layout{padding:0 14px 14px}.flp-current{grid-template-columns:1fr 1fr}.flp-stats{grid-template-columns:1fr}.flp-topline{display:block}.flp-score{margin-top:6px}}
+      @media(max-width:620px){.flp{margin:18px 8px;border-radius:15px}.flp-head{display:block;padding:16px 14px 10px}.flp-badge{display:inline-block;margin-top:8px}.flp-status{margin:0 14px 10px}.flp-layout{padding:0 14px 14px}.flp-current{grid-template-columns:1fr 1fr}.flp-stats{grid-template-columns:1fr}.flp-analysis-grid{grid-template-columns:1fr}.flp-analysis-head{display:block}.flp-analysis-confidence{display:inline-block;margin-top:7px}.flp-topline{display:block}.flp-score{margin-top:6px}}
     `;
     document.head.appendChild(style);
   }
@@ -62,10 +63,50 @@
     return match?.current || (Array.isArray(match?.snapshots) ? match.snapshots[match.snapshots.length - 1] : null);
   }
 
+  function analysisFor(match) {
+    const rows = Array.isArray(state.analysis?.matches) ? state.analysis.matches : [];
+    return rows.find((row) => String(row.fixture_id) === String(match?.fixture_id)) || null;
+  }
+
+  function analysisReason(reason) {
+    return ({
+      match_not_live: 'Maç canlı değil.',
+      source_not_verified: 'Canlı kaynak doğrulanamadı.',
+      snapshot_not_observed: 'Gerçek gözlem snapshotı bekleniyor.',
+      minute_too_early: 'Robot en az 8. dakikayı bekliyor.',
+      snapshot_stale: 'Canlı veri eski kaldı; yeni snapshot bekleniyor.',
+      coverage_too_low: 'Canlı istatistik kapsamı tahmin için yetersiz.',
+      power_signal_missing: 'Team Power / Goal Power sinyali eksik.',
+    }[reason] || 'Tahmin için yeterli doğrulanmış canlı veri yok.');
+  }
+
+  function analysisCard(match) {
+    const row = analysisFor(match);
+    if (!row) return '<div class="flp-analysis"><div class="flp-analysis-wait"><b>Canlı Analiz Robotu:</b> Bu maç için robot çıktısı henüz oluşmadı.</div></div>';
+    if (row.status !== 'ready') {
+      return `<div class="flp-analysis" data-state="waiting"><div class="flp-analysis-wait"><b>Canlı Analiz Robotu bekliyor.</b> ${esc(analysisReason(row.reason))} Veri tamamlanmadan tahmin uydurulmaz.</div></div>`;
+    }
+    const primary = row.primary_prediction || {};
+    const confidence = finite(primary.confidence);
+    const signals = Array.isArray(row.signals) ? row.signals.slice(0, 4) : [];
+    return `<div class="flp-analysis" data-state="ready">
+      <div class="flp-analysis-head"><div><span>Canlı Maç Analiz Robotu</span><strong>${esc(primary.label || 'Canlı tahmin hazır')}</strong></div><div class="flp-analysis-confidence">Model güveni: ${esc(confidence === null ? '—' : `%${Math.round(confidence)}`)}</div></div>
+      <div class="flp-analysis-grid">
+        <div><span>Maç yönü</span><b>${esc(row.result_lean?.label || 'Net ayrışma yok')}</b></div>
+        <div><span>Sonraki gol</span><b>${esc(row.next_goal_lean?.label || 'Net ayrışma yok')}</b></div>
+        <div><span>Gol baskısı</span><b>${esc(row.goal_pressure?.label || 'Ölçülmedi')}</b></div>
+      </div>
+      ${signals.length ? `<ul>${signals.map((signal) => `<li>${esc(signal)}</li>`).join('')}</ul>` : ''}
+      <p class="flp-note"><b>Model güveni sonuç olasılığı değildir.</b> Robot yalnız doğrulanmış ve taze canlı snapshotlardan sinyal üretir.</p>
+    </div>`;
+  }
+
   function matchButton(match) {
     const snap = lastSnapshot(match) || {};
     const on = String(match.fixture_id) === state.selectedId ? ' on' : '';
-    return `<button class="flp-match${on}" type="button" data-flp-id="${esc(match.fixture_id)}"><small>${esc(match.league || 'Lig')} · ${esc(match.status === 'live' ? 'CANLI' : 'Son kayıt')}</small><strong>${esc(match.home)} - ${esc(match.away)}</strong><span><em>${esc(snap.minute ?? '—')}'</em><em>Team ${esc(pct(snap.team_power?.home))}/${esc(pct(snap.team_power?.away))}</em><em>Goal ${esc(pct(snap.goal_power?.home))}/${esc(pct(snap.goal_power?.away))}</em></span></button>`;
+    const analysis = analysisFor(match);
+    const prediction = analysis?.status === 'ready' ? analysis.primary_prediction?.label : '';
+    return `<button class="flp-match${on}" type="button" data-flp-id="${esc(match.fixture_id)}"><small>${esc(match.league || 'Lig')} · ${esc(match.status === 'live' ? 'CANLI' : 'Son kayıt')}</small><strong>${esc(match.home)} - ${esc(match.away)}</strong><span><em>${esc(snap.minute ?? '—')}'</em><em>Team ${esc(pct(snap.team_power?.home))}/${esc(pct(snap.team_power?.away))}</em><em>Goal ${esc(pct(snap.goal_power?.home))}/${esc(pct(snap.goal_power?.away))}</em>${prediction ? `<em class="flp-prediction-chip">${esc(prediction)}</em>` : ''}</span></button>`;
   }
 
   function pointsFor(match, metric, side) {
@@ -124,6 +165,7 @@
     return `<div class="flp-topline"><div><small>${esc(match.league || 'Lig')} · ${esc(status)}</small><h3>${esc(match.home)} - ${esc(match.away)}</h3><div class="flp-score">${esc(snap.score?.home ?? '—')} - ${esc(snap.score?.away ?? '—')} · ${esc(snap.minute ?? '—')}'</div></div><small>Kaynak: ${esc(source)}</small></div>
       <div class="flp-current"><div><span>Team Power · Ev</span><b>${esc(pct(snap.team_power?.home))}</b><small>Maç içi güç payı</small></div><div><span>Team Power · Dep</span><b>${esc(pct(snap.team_power?.away))}</b><small>Maç içi güç payı</small></div><div><span>Goal Power · Ev</span><b>${esc(pct(snap.goal_power?.home))}</b><small>Gol tehdit yoğunluğu</small></div><div><span>Goal Power · Dep</span><b>${esc(pct(snap.goal_power?.away))}</b><small>Gol tehdit yoğunluğu</small></div></div>
       ${coverageHtml}
+      ${analysisCard(match)}
       <div class="flp-chart-grid">${chart(match, 'team_power', 'Team Power zaman serisi')}${chart(match, 'goal_power', 'Goal Power zaman serisi')}</div>
       <div class="flp-stats"><div class="flp-teamstats"><h4>${esc(match.home)} · ham canlı veriler</h4>${statRows(snap.stats?.home)}</div><div class="flp-teamstats"><h4>${esc(match.away)} · ham canlı veriler</h4>${statRows(snap.stats?.away)}</div></div>
       <p class="flp-note"><b>Önemli:</b> Noktalar yalnız ücretsiz veri kaynağından gerçekten gözlenen dakikalardır. Aradaki dakikalar ölçülmüş gibi gösterilmez; çizgiler yalnız gözlem noktalarını birbirine bağlar. Team Power sonuç olasılığı değildir. Goal Power da gol garantisi değil, yalnız o snapshotta kaynakta bulunan canlı hücum metriklerinden türetilen tehdit göstergesidir.</p>`;
@@ -147,16 +189,23 @@
     const summary = state.data?.summary || {};
     const liveCount = summary.espn_live_event_count ?? summary.api_live_fixture_count ?? 0;
     const label = statusLabel(state.data?.status, matches.length > 0);
-    root.innerHTML = `<div class="flp-head"><div><p>Canlı Güç Motoru</p><h2>Team Power + Goal Power</h2><span>Gerçek canlı maç istatistiklerini zaman içinde saklar; güç değişimini ve gol tehdidini sahte dakika üretmeden gösterir.</span></div><span class="flp-badge">Ücretsiz · Observed Live Data</span></div>
-      <div class="flp-status" data-state="${isActive ? 'active' : 'waiting'}"><b>${esc(label)}</b> · ESPN canlı: ${esc(liveCount)} · Site eşleşmesi: ${esc(summary.matched_fixture_count ?? 0)} · Örneklenen: ${esc(summary.sampled_match_count ?? 0)}. ${esc(state.data?.message || '')}</div>
+    const robotSummary = state.analysis?.summary || {};
+    root.innerHTML = `<div class="flp-head"><div><p>Canlı Güç Motoru</p><h2>Team Power + Goal Power + Canlı Analiz Robotu</h2><span>Gerçek canlı istatistiklerden güç değişimini izler; ayrı canlı analiz robotu maç yönü, sonraki gol eğilimi ve gol baskısını veri yeterliyse tahmin eder.</span></div><span class="flp-badge">Observed Live Data · Robot V1</span></div>
+      <div class="flp-status" data-state="${isActive ? 'active' : 'waiting'}"><b>${esc(label)}</b> · ESPN canlı: ${esc(liveCount)} · Site eşleşmesi: ${esc(summary.matched_fixture_count ?? 0)} · Örneklenen: ${esc(summary.sampled_match_count ?? 0)} · Robot hazır: ${esc(robotSummary.ready_count ?? 0)}. ${esc(state.data?.message || '')}</div>
       <div class="flp-layout"><aside class="flp-list"><h3>Canlı maçlar</h3>${matches.length ? matches.map(matchButton).join('') : `<div class="flp-empty">Şu anda doğrulanmış canlı güç snapshotı yok.</div>`}</aside><div class="flp-panel">${detail(selected)}</div></div>`;
   }
 
   async function load() {
     try {
-      const response = await fetch(`./data/live-power-series.json?t=${Date.now()}`, { cache: 'no-store' });
-      if (!response.ok) throw new Error(String(response.status));
-      state.data = await response.json();
+      const stamp = Date.now();
+      const [powerResponse, analysisResponse] = await Promise.all([
+        fetch(`./data/live-power-series.json?t=${stamp}`, { cache: 'no-store' }),
+        fetch(`./data/live-match-analysis.json?t=${stamp}`, { cache: 'no-store' }).catch(() => null),
+      ]);
+      if (!powerResponse.ok) throw new Error(String(powerResponse.status));
+      state.data = await powerResponse.json();
+      if (analysisResponse?.ok) state.analysis = await analysisResponse.json();
+      else state.analysis = null;
       render();
     } catch (error) {
       ensureRoot().innerHTML = `<div class="flp-empty">Canlı güç veri dosyası şu an alınamadı. Diğer analiz alanları çalışmaya devam eder.</div>`;
@@ -166,7 +215,7 @@
 
   function boot() {
     ensureStyle();
-    ensureRoot().innerHTML = `<div class="flp-empty">Canlı güç verisi kontrol ediliyor…</div>`;
+    ensureRoot().innerHTML = `<div class="flp-empty">Canlı güç ve analiz robotu verisi kontrol ediliyor…</div>`;
     load();
     state.onClick = (event) => {
       const button = event.target.closest('[data-flp-id]');
@@ -184,7 +233,7 @@
     if (state.root) {
       state.root.id = 'live-power-center';
       state.root.className = 'flp';
-      state.root.innerHTML = '<div class="flp-empty">Canlı güç motoru yeniden yükleniyor…</div>';
+      state.root.innerHTML = '<div class="flp-empty">Canlı güç ve analiz robotu yeniden yükleniyor…</div>';
     }
     document.getElementById('fl-live-power-style')?.remove();
   };
