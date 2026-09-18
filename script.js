@@ -218,11 +218,12 @@ const proAnalysisCouponCard = (item) => {
   const risk = normalizeRisk(item);
   const status = item.status || "İzleme";
   const commentary = item.commentary || item.comment || item.analysis_note || "PRO robot yorumu bekleniyor.";
+  const kicker = item.analysis_tier === "coupon" ? "PRO Günün Seçimi" : "PRO Öne Çıkan Görüş";
   return `
     <article class="fl-pro-featured-card" data-risk="${proRiskTone(risk)}">
       <header class="fl-pro-card-topline">
         <div class="fl-pro-card-identity">
-          <span class="fl-pro-kicker">PRO Günün Seçimi</span>
+          <span class="fl-pro-kicker">${escapeHtml(kicker)}</span>
           <span class="fl-pro-league">${escapeHtml(item.league || "Lig bilgisi bekleniyor")}</span>
         </div>
         <div class="fl-pro-card-state">
