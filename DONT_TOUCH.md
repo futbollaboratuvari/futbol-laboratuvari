@@ -117,7 +117,7 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Regresyon: Statik test CSP CDN/WSS izinlerini, live center humanizer muafiyetini ve REST payloadin Realtime flag acmamasini kilitler. Pages browser testi exact robot basligi/karti + `Akış: Supabase Realtime` + console CSP/fallback hatasi yoklugunu zorunlu tutar.
 - Canli test dayanikliligi: Tek Chromium acilisinda WebSocket aboneligi ile DOM dump arasinda zamanlama yarisi gorulebildigi icin Pages dogrulamasi en fazla 3 bagimsiz cache-busted browser oturumu kullanir. Her denemede gercek `Akış: Supabase Realtime`, robot karti ve temiz console zorunludur; `yedek snapshot` hicbir denemede basari sayilmaz.
 - Cache/release: `20260918-live-realtime-v3`.
-- Gelistirme dali: `fix/live-realtime-csp-truth-v3-20260918`. PR/CI/main/custom-domain final sonucu tamamlaninca bu kayit kapanis bilgisiyle guncellenecektir.
+- Final kapanis: `fix/live-realtime-csp-truth-v3-20260918`, PR #88, Live Match Analysis CI run `35392775663` Node 20/24 `success`, merge commit `1f895d3193d800fa3193b34162ef5153ab84156d`. Sonraki main/data commitleriyle yeniden deploy edilen GitHub Pages run `35393816050` `success` tamamlandi. Gercek Chromium custom-domain testi ilk denemede `Akış: Supabase Realtime`, Canli Mac Analiz Robotu karti ve temiz console sartlarini gecti; test aninda ESPN canli=4, orneklenen=3, robot-ready=3 idi. PR #83 eski/cakismali ilk dal ve PR #86 gecici diagnostic dali merge edilmeden kapatildi.
 
 ### 2026-09-18 - Realtime abonelik durumunun UI'ya aninda yansitilmasi V2
 
@@ -142,7 +142,7 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Guvenlik: Browserda yalniz modern Supabase publishable key bulunur. Secret key kaynak koda girmez; Edge Function `SUPABASE_SECRET_KEYS` ortam degiskeninden admin client olusturur. Collector endpointi publishable-key kontrolu, server-only POST ve DB collector kilidi uygular.
 - Supabase production ilk kanit: `live_match_state` collector_version=`fl-live-match-analysis-v1`, status=`ok`, 31 ESPN canli event icinden 12 mac orneklendi ve ilk kontrolde 12/12 robot-ready oldu. Cron kosulari 10 saniyelik aralikta `succeeded` kaydi verdi.
 - Kaynak dosyalari: `supabase/functions/fl-live-match-analysis/index.ts`, `supabase/functions/fl-live-match-analysis/deno.json`, `supabase/sql/live-match-realtime-schema.sql`, `supabase/sql/live-match-realtime-cron.sql`, `scripts/live-match-analysis-robot.js`, `scripts/validate-live-match-analysis.js`, `live-power-center-v1.js`, `.github/workflows/live-power-series.yml`, `.github/workflows/live-match-analysis-ci.yml`, ilgili testler ve cache/deploy sozlesmesi.
-- Gelistirme dali: `feat/live-match-analysis-robot-20260918`. PR/CI/main/Pages/custom-domain kapanis bilgileri final dogrulama sonrasi bu kayda eklenecektir.
+- Kapanis referansi: Ilk implementasyon daha sonra temiz final PR #84 ve Realtime V2/V3 kok duzeltmeleriyle productiona alindi. Nihai custom-domain Realtime kaniti yukaridaki V3 kapanis kaydidir.
 - Geri alma: Realtime UI/collector katmani ayriktir. Supabase Realtime gecici kullanilamazsa 30 dakikalik mevcut GitHub snapshot sistemi kullanici ekranini veri yokmus gibi birakmadan fallback olarak devam eder.
 
 ## PRO Robot Islem Gunlugu
