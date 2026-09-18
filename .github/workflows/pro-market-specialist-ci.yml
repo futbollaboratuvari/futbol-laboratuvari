@@ -7,6 +7,8 @@ on:
       - 'scripts/pro-market-specialist-postprocess.js'
       - 'scripts/pro-goal-market-bridge.js'
       - 'scripts/iddaa-data-source.js'
+      - 'scripts/sync-iddaa-markets.js'
+      - '.github/workflows/update-fixtures.yml'
       - 'scripts/robot-exact-scoring.js'
       - 'scripts/build-pro-analysis-index.js'
       - 'scripts/official-pro-analysis.js'
@@ -23,6 +25,7 @@ on:
       - 'tests/market-specialist-gates.test.js'
       - 'tests/pro-goal-market-bridge.test.js'
       - 'tests/iddaa-data-source.test.js'
+      - 'tests/iddaa-market-sync.test.js'
       - 'tests/official-market-enrichment.test.js'
       - 'tests/transparency-market-options.test.js'
       - 'tests/pro-analysis-index.test.js'
@@ -61,6 +64,7 @@ jobs:
           node --check scripts/market-specialist-gates.js
           node --check scripts/pro-market-specialist-postprocess.js
           node --check scripts/iddaa-data-source.js
+          node --check scripts/sync-iddaa-markets.js
           node --check scripts/robot-exact-scoring.js
           node --check scripts/build-pro-analysis-index.js
           node --check scripts/official-pro-analysis.js
@@ -74,6 +78,7 @@ jobs:
           node tests/market-specialist-gates.test.js
           node tests/pro-goal-market-bridge.test.js
           node tests/iddaa-data-source.test.js
+          node tests/iddaa-market-sync.test.js
           node tests/official-market-enrichment.test.js
           node tests/transparency-market-options.test.js
           node tests/transparency-export.test.js
