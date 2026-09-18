@@ -375,6 +375,10 @@ const marketRules = {
   firstHalfBttsNo: { label: "İlk Yarı KG Yok", keys: ["firstHalfBttsNo", "iyKgYok", "iy_kg_yok", "first_half_btts_no", "firstHalfBttsNo_guess"], minOdd: 1.35, maxOdd: 4.50, scores: ["0-0", "1-0"] },
   secondHalfBttsYes: { label: "İkinci Yarı KG Var", keys: ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "second_half_btts_yes", "secondHalfBttsYes_guess"], minOdd: 1.75, maxOdd: 5.25, scores: ["2-1", "2-2"] },
   secondHalfBttsNo: { label: "İkinci Yarı KG Yok", keys: ["secondHalfBttsNo", "ikinciYariKgYok", "ikinci_yari_kg_yok", "second_half_btts_no", "secondHalfBttsNo_guess"], minOdd: 1.35, maxOdd: 4.50, scores: ["1-0", "0-1"] },
+  halfBttsYesYes: { label: "İY KG / 2Y KG Evet / Evet", keys: ["halfBttsYesYes", "iy2yKgYesYes", "iy_2y_kg_evet_evet"], minOdd: 1.20, maxOdd: 50.00, scores: [] },
+  halfBttsYesNo: { label: "İY KG / 2Y KG Evet / Hayır", keys: ["halfBttsYesNo", "iy2yKgYesNo", "iy_2y_kg_evet_hayir"], minOdd: 1.20, maxOdd: 50.00, scores: [] },
+  halfBttsNoYes: { label: "İY KG / 2Y KG Hayır / Evet", keys: ["halfBttsNoYes", "iy2yKgNoYes", "iy_2y_kg_hayir_evet"], minOdd: 1.20, maxOdd: 50.00, scores: [] },
+  halfBttsNoNo: { label: "İY KG / 2Y KG Hayır / Hayır", keys: ["halfBttsNoNo", "iy2yKgNoNo", "iy_2y_kg_hayir_hayir"], minOdd: 1.20, maxOdd: 50.00, scores: [] },
   kgVar: { label: "KG Var", keys: ["bttsYes", "kgVar", "varOdd", "var", "kg_var", "bttsYes_guess"], minOdd: 1.60, maxOdd: 3.80, scores: ["1-1", "2-1", "2-2"] },
   kgYok: { label: "KG Yok", keys: ["bttsNo", "kgYok", "yokOdd", "yok", "kg_yok", "bttsNo_guess"], minOdd: 1.45, maxOdd: 4.20, scores: ["1-0", "0-1", "2-0"] },
   over15: { label: "1.5 Üst", keys: ["over15", "ust15", "over1_5", "ust_15", "over15_guess"], minOdd: 1.20, maxOdd: 2.80, scores: ["1-1", "2-0", "2-1"] },
@@ -425,6 +429,15 @@ const normalizeProbabilitySet = (entries, target) => {
 };
 
 const fairProbabilityFor = (fixture, key, selectedEntry) => {
+  const halfBttsCombinationKeys = ["halfBttsYesYes", "halfBttsYesNo", "halfBttsNoYes", "halfBttsNoNo"];
+  if (halfBttsCombinationKeys.includes(key)) {
+    const normalized = normalizeProbabilitySet(halfBttsCombinationKeys.map((item) => ({
+      key: item,
+      ...oddEntryFor(fixture, marketRules[item].keys),
+    })), key);
+    if (normalized) return normalized;
+  }
+
   if (["ms1", "msx", "ms2"].includes(key)) {
     return normalizeProbabilitySet(["ms1", "msx", "ms2"].map((item) => ({
       key: item,
@@ -573,6 +586,16 @@ const independentProbabilityFor = (fixture, key, metrics, memory) => {
   } else if (["secondHalfBttsYes", "secondHalfBttsNo"].includes(key)) {
     const value = metrics.secondHalfGoalTrend;
     add(key.endsWith("Yes") ? value : Number.isFinite(value) ? 100 - value : null, directWeight * 0.35, "ikinci yarı eğilimi");
+  } else if (["halfBttsYesYes", "halfBttsYesNo", "halfBttsNoYes", "halfBttsNoNo"].includes(key)) {
+    const first = Number.isFinite(metrics.firstHalfGoalTrend) ? clamp(metrics.firstHalfGoalTrend, 1, 99) / 100 : null;
+    const second = Number.isFinite(metrics.secondHalfGoalTrend) ? clamp(metrics.secondHalfGoalTrend, 1, 99) / 100 : null;
+    if (first !== null && second !== null) {
+      const combined = key === "halfBttsYesYes" ? first * second
+        : key === "halfBttsYesNo" ? first * (1 - second)
+          : key === "halfBttsNoYes" ? (1 - first) * second
+            : (1 - first) * (1 - second);
+      add(combined * 100, directWeight * 0.35, "İY/2Y KG eğilimi");
+    }
   }
 
   const totalWeight = values.reduce((sum, item) => sum + item.weight, 0);
@@ -853,6 +876,32 @@ const candidatesFor = (fixture) => Object.entries(marketRules)
     || b.estimated_probability - a.estimated_probability
     || a.odd - b.odd);
 
+const TRANSPARENCY_MARKET_KEYS = Object.freeze([
+  "firstHalfBttsYes",
+  "secondHalfBttsYes",
+  "halfBttsYesYes",
+  "halfBttsYesNo",
+  "halfBttsNoYes",
+  "halfBttsNoNo",
+  "over25",
+  "over35",
+  "kgVar",
+  "kgYok",
+  "ms1",
+  "msx",
+  "ms2",
+]);
+
+const transparencyOptionsFor = (fixture) => TRANSPARENCY_MARKET_KEYS
+  .map((key) => analyzeMarket(fixture, key))
+  .filter((item) => item
+    && item.odd_source_type !== "raw_market_guess_odds"
+    && Number.isFinite(Number(item.estimated_probability))
+    && Number.isFinite(Number(item.model_score)))
+  .map((item) => compactMarketAnalysis(item))
+  .sort((a, b) => Number(b.model_score || 0) - Number(a.model_score || 0)
+    || Number(b.estimated_probability || 0) - Number(a.estimated_probability || 0));
+
 const emptyScore = (fixture, reason, status, extraSignals) => {
   const t = teams(fixture);
   const analysis = buildMatchAnalysis(fixture, null);
@@ -861,11 +910,17 @@ const emptyScore = (fixture, reason, status, extraSignals) => {
 
 const scoreFixture = (fixture) => {
   if (!isCurrent(fixture)) return emptyScore(fixture, "Güncel maç değil", "filtered_old_fixture", ["Eski tarihli maç elendi"]);
+  const analysisOptions = transparencyOptionsFor(fixture);
   const best = candidatesFor(fixture)[0];
-  if (!best) return emptyScore(fixture, "Değerli market yok", "filtered_no_value_market", ["Düşük oran veya eksik veri nedeniyle elendi", "Çifte şans kullanılmadı"]);
+  if (!best) {
+    return {
+      ...emptyScore(fixture, "Değerli market yok", "filtered_no_value_market", ["Düşük oran veya eksik veri nedeniyle elendi", "Çifte şans kullanılmadı"]),
+      analysis_options: analysisOptions,
+    };
+  }
   const t = teams(fixture);
   const score = best.confidence;
-  return { ...fixture, home: t.home, away: t.away, match: `${t.home} VS ${t.away}`, market: best.label, selection: best.label, odds: formatOdd(best.odd), confidence: pct(score), lab_probability: best.estimated_probability === null ? "-" : pct(best.estimated_probability), trust_score: `${score}/100`, tag: best.analysis.analysis_class, value_label: best.value_label, expected_scores: best.expected_scores, score, model_score: score, risk: best.risk, status: fixture.status || "scheduled", hasOdds: true, analysis_score: score, analysis_class: best.analysis.analysis_class, data_gap_risk: best.analysis.data_gap_risk, data_completeness: best.data_completeness, estimated_probability: best.estimated_probability, market_probability: best.market_probability, edge_percent: best.edge_percent, model_version: MODEL_VERSION, score_type: "signal_strength", probability_source: best.analysis.probability_source, evidence_mode: best.analysis.evidence_mode, independent_evidence: best.analysis.independent_evidence, analysis_metrics: best.analysis.metrics, odd_source_type: best.odd_source_type, pro_signals: best.signals };
+  return { ...fixture, home: t.home, away: t.away, match: `${t.home} VS ${t.away}`, market: best.label, selection: best.label, odds: formatOdd(best.odd), confidence: pct(score), lab_probability: best.estimated_probability === null ? "-" : pct(best.estimated_probability), trust_score: `${score}/100`, tag: best.analysis.analysis_class, value_label: best.value_label, expected_scores: best.expected_scores, score, model_score: score, risk: best.risk, status: fixture.status || "scheduled", hasOdds: true, analysis_score: score, analysis_class: best.analysis.analysis_class, data_gap_risk: best.analysis.data_gap_risk, data_completeness: best.data_completeness, estimated_probability: best.estimated_probability, market_probability: best.market_probability, edge_percent: best.edge_percent, model_version: MODEL_VERSION, score_type: "signal_strength", probability_source: best.analysis.probability_source, evidence_mode: best.analysis.evidence_mode, independent_evidence: best.analysis.independent_evidence, analysis_metrics: best.analysis.metrics, odd_source_type: best.odd_source_type, pro_signals: best.signals, analysis_options: analysisOptions };
 };
 
 const legFromItem = (item, number) => ({ number, home: item.home, away: item.away, match: item.match, date: item.date || "", time: item.time || "", league: item.league || item.competition_name || "", selection: item.selection || item.market, option: item.selection || item.market, odds: item.odds, lab_probability: item.lab_probability || "-", confidence: item.confidence, trust_score: item.trust_score, risk: item.risk, tag: item.tag, value_label: item.value_label, analysis_score: item.analysis_score, analysis_class: item.analysis_class, data_gap_risk: item.data_gap_risk, data_completeness: item.data_completeness, estimated_probability: item.estimated_probability, market_probability: item.market_probability, edge_percent: item.edge_percent, model_version: item.model_version || MODEL_VERSION, expected_scores: item.expected_scores || [], signals: item.pro_signals || [] });
@@ -911,6 +966,7 @@ module.exports = {
   scoreFixture,
   buildCouponAnalysis,
   buildMatchAnalysis,
+  transparencyOptionsFor,
   memoryFor,
   _internals: {
     candidateFor,
