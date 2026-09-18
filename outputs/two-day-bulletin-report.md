@@ -3,15 +3,14 @@
 Gunler: 2026-09-18 / 2026-09-19
 Kaynak: fixtures.json
 Ham mac: 258
-Aktif mac: 245
+Aktif mac: 244
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 13
-Bugun: 221
+Bultenden dusurulen mac: 14
+Bugun: 220
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-18 11:30 | Endonezya Süper Lig | Arema - Persik | scheduled | -
 - 2026-09-18 12:00 | Çin Halk Cumhuriyeti 2.Lig Küme Düşme Grubu | Wuhan Three To - Haimen Codion | scheduled | -
 - 2026-09-18 13:00 | Ukrayna Premier Lig | Chernomorets - Obolon-Brovar | scheduled | -
 - 2026-09-18 13:00 | Asya Oyunları Grup C | Kuveyt U23 - Özbekistan U23 | scheduled | -
