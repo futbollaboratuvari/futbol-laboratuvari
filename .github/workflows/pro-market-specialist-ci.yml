@@ -16,6 +16,7 @@ on:
       - 'supabase/functions/fl-pro-analysis/index.ts'
       - 'tests/transparency-export.test.js'
       - 'tests/pro-analysis-supabase-sync.test.js'
+      - 'tests/security-legal.test.js'
       - 'package.json'
       - 'scripts/generate-high-odds-htft.js'
       - 'tests/market-specialist-gates.test.js'
@@ -73,6 +74,7 @@ jobs:
           node tests/transparency-market-options.test.js
           node tests/transparency-export.test.js
           node tests/pro-analysis-supabase-sync.test.js
+          node tests/security-legal.test.js
           node tests/pro-analysis-index.test.js
           node tests/pro-index-from-github.test.js
           node tests/high-odds-htft.test.js
