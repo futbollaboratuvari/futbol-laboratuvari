@@ -115,6 +115,7 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Metin hatasi: Genel `site-human-language.js` donusumu Canli Guc alaninda `Robotu` kelimesini `Analiz sistemiu` biciminde bozuyordu. Canli robot bolumu generic humanizer kapsamindan cikartildi.
 - Duzeltme: CSP script kaynagina yalniz `cdn.jsdelivr.net`, connect kaynagina yalniz proje Supabase WSS adresi eklendi; REST state artik Realtime flag acmaz; flag yalniz channel `SUBSCRIBED` durumunda acilir. Canli robot metni generic humanizer tarafindan degistirilmez.
 - Regresyon: Statik test CSP CDN/WSS izinlerini, live center humanizer muafiyetini ve REST payloadin Realtime flag acmamasini kilitler. Pages browser testi exact robot basligi/karti + `Akış: Supabase Realtime` + console CSP/fallback hatasi yoklugunu zorunlu tutar.
+- Canli test dayanikliligi: Tek Chromium acilisinda WebSocket aboneligi ile DOM dump arasinda zamanlama yarisi gorulebildigi icin Pages dogrulamasi en fazla 3 bagimsiz cache-busted browser oturumu kullanir. Her denemede gercek `Akış: Supabase Realtime`, robot karti ve temiz console zorunludur; `yedek snapshot` hicbir denemede basari sayilmaz.
 - Cache/release: `20260918-live-realtime-v3`.
 - Gelistirme dali: `fix/live-realtime-csp-truth-v3-20260918`. PR/CI/main/custom-domain final sonucu tamamlaninca bu kayit kapanis bilgisiyle guncellenecektir.
 
