@@ -97,6 +97,21 @@ assert.match(
   "ana sayfa güncel protected PRO model_score alanını tanımalı",
 );
 assert.match(
+  siteScript,
+  /const analysisDatabaseRow = \(raw\) =>/,
+  "Maç Kayıtları görünümü doğrulanmış sonuçlardan ayrı tablo satırı üretmeli",
+);
+assert.match(
+  siteScript,
+  /completed\.slice\(0, 30\)\.map\(analysisDatabaseRow\)/,
+  "Maç Kayıtları mevcut kompakt results-summary akışını kullanmalı",
+);
+assert.equal(
+  siteScript.includes("./data/tahmin_gecmisi.json"),
+  false,
+  "Maç Kayıtları boş eski tahmin_gecmisi kaynağına geri bağlanmamalı",
+);
+assert.match(
   navRuntime,
   /ensureScript\("analysis-insights-v1\.js", "analysis-insights-v1-script"\)/,
   "AI Şeffaflık Merkezi runtime modülü canlı sayfada yüklenmeli",

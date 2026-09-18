@@ -341,14 +341,24 @@ const resultDateLabel = (value) => {
   return year && month && day ? `${day}.${month}.${year}` : "-";
 };
 
+const resultLeagueLabel = (item) => {
+  const explicit = item?.league || item?.competition || item?.tournament || item?.league_name;
+  if (explicit) return explicit;
+  const parts = String(item?.id || "").split("|").map((part) => part.trim());
+  return parts.length > 2 && parts[1] ? parts[1] : "-";
+};
+
 const normalizeCompletedResult = (item) => {
   const outcome = resultOutcome(item?.status || item?.result);
   return {
     date: item?.date || "",
+    league: resultLeagueLabel(item),
     match: item?.match || item?.title || item?.match_name || "Maç",
+    commentType: item?.market_group_label || item?.analysis_type || item?.comment_type || "Tahmin",
     prediction: item?.prediction || item?.market || "-",
     odds: item?.odds || item?.estimated_odds || "-",
     score: item?.result_score || item?.score || item?.final_score || "-",
+    predictedScore: item?.predicted_score || item?.score_prediction || item?.predictedScore || item?.estimated_score || "-",
     confidence: item?.confidence || item?.confidence_score || "-",
     outcome,
   };
@@ -426,6 +436,22 @@ const resultArchiveRow = (raw) => {
   </tr>`;
 };
 
+const analysisDatabaseRow = (raw) => {
+  const item = normalizeCompletedResult(raw);
+  return `<tr>
+    <td>${escapeHtml(resultDateLabel(item.date))}</td>
+    <td>${escapeHtml(item.league)}</td>
+    <td>${escapeHtml(item.match)}</td>
+    <td>${escapeHtml(item.commentType)}</td>
+    <td>${escapeHtml(item.prediction)}</td>
+    <td>${escapeHtml(item.odds)}</td>
+    <td>${escapeHtml(item.confidence)}</td>
+    <td>${escapeHtml(item.predictedScore)}</td>
+    <td><strong class="result-score">${escapeHtml(item.score)}</strong></td>
+    <td><span class="status ${item.outcome.key}">${escapeHtml(item.outcome.label)}</span></td>
+  </tr>`;
+};
+
 const performanceCard = (card) => {
   const width = Number.isFinite(card.rate) ? Math.max(0, Math.min(100, card.rate)) : 0;
   return `<article class="success-card reveal visible" data-state="${escapeHtml(card.state)}">
@@ -443,6 +469,11 @@ const renderResultsAndPerformance = (payload) => {
     resultArchive.innerHTML = completed.length
       ? completed.slice(0, 30).map(resultArchiveRow).join("")
       : `<tr><td class="result-empty-cell" colspan="7"><div class="result-empty-state"><strong>Henüz doğrulanmış sonuç yok</strong><span>${escapeHtml(performance.pending)} tahmin final skorla eşleşmeyi bekliyor. Sonuç gelmeden başarı yüzdesi üretilmez.</span></div></td></tr>`;
+  }
+  if (databaseBody) {
+    databaseBody.innerHTML = completed.length
+      ? completed.slice(0, 30).map(analysisDatabaseRow).join("")
+      : `<tr><td class="result-empty-cell" colspan="10"><div class="result-empty-state"><strong>Henüz geçmiş maç kaydı yok</strong><span>Doğrulanmış tahmin ve final skor oluştuğunda kayıtlar burada otomatik görünür.</span></div></td></tr>`;
   }
   if (successGrid) successGrid.innerHTML = performanceCards(payload).map(performanceCard).join("");
 };
@@ -533,6 +564,9 @@ const renderResultsLoadingState = () => {
   if (resultArchive) {
     resultArchive.innerHTML = `<tr><td class="result-empty-cell" colspan="7"><div class="result-empty-state"><strong>Sonuçlar yükleniyor</strong><span>Son doğrulanmış skorlar getiriliyor.</span></div></td></tr>`;
   }
+  if (databaseBody) {
+    databaseBody.innerHTML = `<tr><td class="result-empty-cell" colspan="10"><div class="result-empty-state"><strong>Maç kayıtları yükleniyor</strong><span>Son doğrulanmış tahmin ve skorlar getiriliyor.</span></div></td></tr>`;
+  }
   if (successGrid) {
     successGrid.innerHTML = `<article class="success-card reveal visible" data-state="loading"><strong data-unit="">—</strong><span>Performans yükleniyor</span><small>Doğrulanmış ölçümler getiriliyor</small></article>`;
   }
@@ -542,6 +576,9 @@ const renderResultsLoadingState = () => {
 const renderResultsUnavailableState = () => {
   if (resultArchive) {
     resultArchive.innerHTML = `<tr><td class="result-empty-cell" colspan="7"><div class="result-empty-state"><strong>Sonuç verisi yenilenemedi</strong><span>Sıfır değer gösterilmedi; bağlantı düzeldiğinde kayıtlar otomatik olarak geri gelir.</span></div></td></tr>`;
+  }
+  if (databaseBody) {
+    databaseBody.innerHTML = `<tr><td class="result-empty-cell" colspan="10"><div class="result-empty-state"><strong>Maç kayıtları yenilenemedi</strong><span>Yanlış veya eski sabit kayıt gösterilmez; bağlantı düzeldiğinde doğrulanmış geçmiş otomatik geri gelir.</span></div></td></tr>`;
   }
   if (successGrid) {
     successGrid.innerHTML = `<article class="success-card reveal visible" data-state="waiting"><strong data-unit="">—</strong><span>Ölçüm korunuyor</span><small>Yanlış bir %0 değeri gösterilmiyor</small></article>`;
@@ -688,7 +725,7 @@ const loadFixtures = async () => {
 const renderStaticEmptySections = () => {
   if (analysisList) analysisList.innerHTML = emptyBox("Maç bazlı PRO değerlendirmeler üyelik doğrulamasından sonra Özel Analiz alanında açılır.");
   if (strongestPickCard) strongestPickCard.innerHTML = emptyBox("Korumalı günün seçimi için Özel Analiz alanında üyelik kodunu doğrula.");
-  if (databaseBody) databaseBody.innerHTML = `<tr><td colspan="10">Canlı veri görünümü bekleniyor. Eski sabit maç kayıtları gösterilmez.</td></tr>`;
+  if (databaseBody) databaseBody.innerHTML = `<tr><td class="result-empty-cell" colspan="10"><div class="result-empty-state"><strong>Maç kayıtları yükleniyor</strong><span>Doğrulanmış geçmiş sonuç akışı hazırlanıyor.</span></div></td></tr>`;
   setSummary([], "PRO analiz bekleniyor");
 };
 
