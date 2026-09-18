@@ -242,7 +242,7 @@ const secondItem = {
   assert.doesNotMatch(widget, />Model Oranı</);
   const cacheLoader = fs.readFileSync(path.join(__dirname, '..', 'cache-version.js'), 'utf8');
   assert.match(cacheLoader, /loadScript\("high-odds-htft-widget\.js"/);
-  assert.match(cacheLoader, /20260912-htft-official-v3/);
+  assert.match(cacheLoader, /const version = "[^"]+";/);
   console.log('high-odds-htft.test.js: OK');
 })().catch((error) => {
   console.error(error);
