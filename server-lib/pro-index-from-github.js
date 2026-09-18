@@ -13,8 +13,13 @@ const DEFAULT_HISTORY_URL = process.env.FL_PRO_HISTORY_URL
 const FALLBACK_MODEL_VERSION = "pro13-btts-conditioned-v3";
 const CACHE_KEY = "__FL_PRO_GITHUB_INDEX_CACHE_V1__";
 const DEFAULT_CACHE_TTL_MS = 60 * 1000;
-const MAX_ROBOT_BYTES = 4 * 1024 * 1024;
+// Güncel robot-analysis.json artık 4 MB sınırını aşabiliyor. Korumalı API
+// ham dosyayı üyeye açmaz; yalnız sunucu tarafında doğrulanmış kompakt
+// projection üretmek için okur. 12 MB sınır mevcut veri boyutuna güvenli
+// pay bırakırken kontrolsüz büyümeyi de engeller.
+const MAX_ROBOT_BYTES = 12 * 1024 * 1024;
 const MAX_HISTORY_BYTES = 2 * 1024 * 1024;
+const ROBOT_FETCH_TIMEOUT_MS = 12 * 1000;
 
 function cacheState() {
   globalThis[CACHE_KEY] = globalThis[CACHE_KEY] || {
@@ -153,7 +158,7 @@ async function readRemoteProIndex(options = {}) {
     const robot = validateRobotPayload(await fetchJson(robotUrl, {
       fetchImpl,
       maxBytes: MAX_ROBOT_BYTES,
-      timeoutMs: 6000,
+      timeoutMs: ROBOT_FETCH_TIMEOUT_MS,
     }));
 
     let history = { completed_items: [], performance: {} };
