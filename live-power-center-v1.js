@@ -282,7 +282,15 @@
           if (!applyRealtimeDelta(delta)) fetchRealtimeState().catch(() => {});
         })
         .subscribe((status) => {
-          if (status === 'SUBSCRIBED') state.realtimeReady = true;
+          if (status === 'SUBSCRIBED') {
+            state.realtimeReady = true;
+            render();
+            return;
+          }
+          if (status === 'CHANNEL_ERROR' || status === 'TIMED_OUT' || status === 'CLOSED') {
+            state.realtimeReady = false;
+            render();
+          }
         });
     } catch (error) {
       state.realtimeReady = false;
