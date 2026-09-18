@@ -167,6 +167,20 @@ function compactOption(item: AnyRow, source: string) {
 
 function compactOptions(item: AnyRow) {
   const rows: any[] = [];
+
+  // Specialist robot outputs are routed first. Because de-duplication keeps the
+  // first canonical market, a specialist downgrade/block decision cannot be
+  // bypassed later by the raw multi-market row for the same market.
+  const specialistOutputs = item.specialist_outputs && typeof item.specialist_outputs === "object"
+    ? item.specialist_outputs
+    : {};
+  for (const [specialistId, bucket] of Object.entries(specialistOutputs)) {
+    for (const option of Array.isArray((bucket as AnyRow)?.candidates) ? (bucket as AnyRow).candidates : []) {
+      const compact = compactOption(option, `specialist_${specialistId}`);
+      if (compact) rows.push(compact);
+    }
+  }
+
   for (const option of Array.isArray(item.analysis_options) ? item.analysis_options : []) {
     const compact = compactOption(option, "robot_multi_market");
     if (compact) rows.push(compact);
