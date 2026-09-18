@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T16:15:47.597Z",
+  "generated_at": "2026-09-18T16:29:48.545Z",
   "date": "2026-09-18",
   "requested_date": "2026-09-18",
   "date_fallback_used": false,
@@ -17,15 +17,15 @@
   ],
   "scan_count": 199,
   "scheduled_scan_count": 185,
-  "official_match_count": 1294,
+  "official_match_count": 1291,
   "official_htft_match_count": 45,
   "official_high_odds_match_count": 45,
-  "identity_match_count": 124,
+  "identity_match_count": 122,
   "matched_by_official_id_count": 24,
   "matched_by_date_teams_count": 5,
-  "matched_by_date_time_similarity_count": 95,
+  "matched_by_date_time_similarity_count": 93,
   "ambiguous_identity_count": 0,
-  "unmatched_identity_count": 61,
+  "unmatched_identity_count": 63,
   "candidate_count": 37,
   "selected_count": 3,
   "target_card_count": 3,
@@ -58,9 +58,9 @@
       "source_model_score": 73,
       "first_half_signal_source": "official_iddaa_first_half",
       "first_half_signal_verified": true,
-      "openness_score": 0.641,
-      "reversal_joint_probability": 11.8,
-      "first_half_direction_probability": 30.4,
+      "openness_score": 0.647,
+      "reversal_joint_probability": 11.9,
+      "first_half_direction_probability": 30.6,
       "full_time_direction_probability": 38.9,
       "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %62, ana model gücü %73. Market uzman kararı (downgrade): İY/MS için veri kapsamı sınırlı (%62). Resmî maç eşleşmesi benzerlik ile %83 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil.",
       "specialist_decision": "downgrade",
@@ -147,9 +147,9 @@
       "market": "1/2",
       "model_confidence": 75,
       "scenario_probability": 8.5,
-      "bookmaker_odds": 20.95,
-      "real_odds": 20.95,
-      "model_odds": 20.95,
+      "bookmaker_odds": 20.75,
+      "real_odds": 20.75,
+      "model_odds": 20.75,
       "odds_source": "iddaa.com resmi futbol bülteni",
       "odds_verified": true,
       "risk_level": "Yüksek",
@@ -157,7 +157,7 @@
       "source_model_score": 71,
       "first_half_signal_source": "official_iddaa_first_half",
       "first_half_signal_verified": true,
-      "openness_score": 0.711,
+      "openness_score": 0.717,
       "reversal_joint_probability": 12.6,
       "first_half_direction_probability": 29.8,
       "full_time_direction_probability": 42.3,
@@ -220,8 +220,8 @@
             "ok": true
           }
         ],
-        "value_ratio": 1.781,
-        "implied_probability": 4.77,
+        "value_ratio": 1.764,
+        "implied_probability": 4.82,
         "mode": "htft_reversal_gate_v4",
         "reasons": [
           "İY/MS için veri kapsamı sınırlı (%62).",
@@ -352,7 +352,7 @@
       "bookmaker_odds": 23.65,
       "specialist_decision": "block",
       "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %73, ana model gücü %79. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %19.3. İlk yarı yön desteği sınırlı (%19.3). Kadro/ilk 11 verisi tam güvenli değil."
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %73, ana model gücü %79. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %19.2. İlk yarı yön desteği sınırlı (%19.2). Kadro/ilk 11 verisi tam güvenli değil."
     },
     {
       "match_name": "Grenoble VS Clermont",
@@ -397,34 +397,18 @@
     {
       "match_name": "Wolfsburg VS Darmstadt",
       "market": "2/1",
-      "bookmaker_odds": 19.8,
+      "bookmaker_odds": 19.65,
       "specialist_decision": "block",
       "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %59, ana model gücü %64. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %17.7. İY/MS için veri kapsamı sınırlı (%59). İlk yarı yön desteği sınırlı (%17.7). Maç önü final kontrolü ihtiyat düşümü verdi. Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Falkenberg VS Ostersund",
-      "market": "2/1",
-      "bookmaker_odds": 32,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %35 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%35). Açık oyun skoru 45/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%35). İlk yarı yön desteği sınırlı (%25.1). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Kapfenberg VS Amstetten",
-      "market": "1/2",
-      "bookmaker_odds": 21.3,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %35 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%35). İlk yarı yön olasılığı yalnız %20.0. İY/MS için veri kapsamı sınırlı (%35). İlk yarı yön desteği sınırlı (%20.0). Resmî maç eşleşmesi benzerlik ile %77 güven seviyesinde yapıldı. Maç önü final kontrolü ihtiyat düşümü verdi. Kadro/ilk 11 verisi tam güvenli değil."
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %59, ana model gücü %64. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %17.2. İY/MS için veri kapsamı sınırlı (%59). İlk yarı yön desteği sınırlı (%17.2). Maç önü final kontrolü ihtiyat düşümü verdi. Kadro/ilk 11 verisi tam güvenli değil."
     },
     {
       "match_name": "Sarpsborg VS Kfum Oslo",
       "market": "2/1",
-      "bookmaker_odds": 21,
+      "bookmaker_odds": 21.1,
       "specialist_decision": "block",
       "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %53 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %17.6. İY/MS için veri kapsamı sınırlı (%53). İlk yarı yön desteği sınırlı (%17.6). Kadro/ilk 11 verisi tam güvenli değil."
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %53 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %17.1. İY/MS için veri kapsamı sınırlı (%53). İlk yarı yön desteği sınırlı (%17.1). Kadro/ilk 11 verisi tam güvenli değil."
     },
     {
       "match_name": "Kolding If VS Hillerod",
@@ -433,6 +417,22 @@
       "specialist_decision": "block",
       "specialist_quality_score": 40,
       "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %35 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%35). İlk yarı yön olasılığı yalnız %21.2. Açık oyun skoru 53/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%35). İlk yarı yön desteği sınırlı (%21.2). Resmî maç eşleşmesi benzerlik ile %83 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
+    },
+    {
+      "match_name": "Falkenberg VS Ostersund",
+      "market": "2/1",
+      "bookmaker_odds": 32.5,
+      "specialist_decision": "block",
+      "specialist_quality_score": 40,
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %35 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%35). Açık oyun skoru 44/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%35). İlk yarı yön desteği sınırlı (%24.4). Kadro/ilk 11 verisi tam güvenli değil."
+    },
+    {
+      "match_name": "Kapfenberg VS Amstetten",
+      "market": "1/2",
+      "bookmaker_odds": 21.3,
+      "specialist_decision": "block",
+      "specialist_quality_score": 40,
+      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %35 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%35). İlk yarı yön olasılığı yalnız %19.5. İY/MS için veri kapsamı sınırlı (%35). İlk yarı yön desteği sınırlı (%19.5). Resmî maç eşleşmesi benzerlik ile %77 güven seviyesinde yapıldı. Maç önü final kontrolü ihtiyat düşümü verdi. Kadro/ilk 11 verisi tam güvenli değil."
     },
     {
       "match_name": "Blau-Weiss Lin VS Admira Wacker",
