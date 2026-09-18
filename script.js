@@ -11,13 +11,18 @@ const fixturesList = document.querySelector("#fixtures-list");
 const fixtureTabs = [...document.querySelectorAll(".fixture-tab")];
 
 const RESULTS_SUMMARY_PATH = "./data/results-summary.json";
+const MATCH_RECORDS_SUMMARY_PATH = "./data/match-records-summary.json";
 const RESULTS_CACHE_KEY = "fl_results_performance_last_good_v2";
+const MATCH_RECORDS_CACHE_KEY = "fl_match_records_last_good_v1";
 const RESULTS_CACHE_MAX_AGE = 7 * 24 * 60 * 60 * 1000;
+const MATCH_RECORDS_CACHE_MAX_AGE = 7 * 24 * 60 * 60 * 1000;
 
 let fixtures = [];
 let activeFixtureDay = "today";
 let hasRenderedResults = false;
 let renderedResultsTimestamp = 0;
+let hasRenderedMatchRecords = false;
+let renderedMatchRecordsTimestamp = 0;
 let protectedProIndex = window.__flProtectedProIndex || null;
 let protectedBulletinPayload = null;
 
@@ -436,13 +441,29 @@ const resultArchiveRow = (raw) => {
   </tr>`;
 };
 
-const analysisDatabaseRow = (raw) => {
-  const item = normalizeCompletedResult(raw);
+const normalizeMatchRecord = (item) => {
+  const outcome = resultOutcome(item?.status || item?.result);
+  return {
+    date: item?.date || "",
+    league: item?.league || "-",
+    match: item?.match || item?.title || item?.match_name || "Maç",
+    note: item?.analysis_note || item?.learning_note || item?.market_group_label || "Robot tahmini kaydedildi.",
+    prediction: item?.prediction || item?.market || "-",
+    odds: item?.odds || item?.estimated_odds || "-",
+    confidence: item?.confidence || item?.confidence_score || item?.model_score || "-",
+    predictedScore: item?.predicted_score || item?.score_prediction || "-",
+    score: item?.result_score || item?.final_score || "-",
+    outcome,
+  };
+};
+
+const matchRecordRow = (raw) => {
+  const item = normalizeMatchRecord(raw);
   return `<tr>
     <td>${escapeHtml(resultDateLabel(item.date))}</td>
     <td>${escapeHtml(item.league)}</td>
     <td>${escapeHtml(item.match)}</td>
-    <td>${escapeHtml(item.commentType)}</td>
+    <td>${escapeHtml(item.note)}</td>
     <td>${escapeHtml(item.prediction)}</td>
     <td>${escapeHtml(item.odds)}</td>
     <td>${escapeHtml(item.confidence)}</td>
@@ -469,11 +490,6 @@ const renderResultsAndPerformance = (payload) => {
     resultArchive.innerHTML = completed.length
       ? completed.slice(0, 30).map(resultArchiveRow).join("")
       : `<tr><td class="result-empty-cell" colspan="7"><div class="result-empty-state"><strong>Henüz doğrulanmış sonuç yok</strong><span>${escapeHtml(performance.pending)} tahmin final skorla eşleşmeyi bekliyor. Sonuç gelmeden başarı yüzdesi üretilmez.</span></div></td></tr>`;
-  }
-  if (databaseBody) {
-    databaseBody.innerHTML = completed.length
-      ? completed.slice(0, 30).map(analysisDatabaseRow).join("")
-      : `<tr><td class="result-empty-cell" colspan="10"><div class="result-empty-state"><strong>Henüz geçmiş maç kaydı yok</strong><span>Doğrulanmış tahmin ve final skor oluştuğunda kayıtlar burada otomatik görünür.</span></div></td></tr>`;
   }
   if (successGrid) successGrid.innerHTML = performanceCards(payload).map(performanceCard).join("");
 };
@@ -564,9 +580,6 @@ const renderResultsLoadingState = () => {
   if (resultArchive) {
     resultArchive.innerHTML = `<tr><td class="result-empty-cell" colspan="7"><div class="result-empty-state"><strong>Sonuçlar yükleniyor</strong><span>Son doğrulanmış skorlar getiriliyor.</span></div></td></tr>`;
   }
-  if (databaseBody) {
-    databaseBody.innerHTML = `<tr><td class="result-empty-cell" colspan="10"><div class="result-empty-state"><strong>Maç kayıtları yükleniyor</strong><span>Son doğrulanmış tahmin ve skorlar getiriliyor.</span></div></td></tr>`;
-  }
   if (successGrid) {
     successGrid.innerHTML = `<article class="success-card reveal visible" data-state="loading"><strong data-unit="">—</strong><span>Performans yükleniyor</span><small>Doğrulanmış ölçümler getiriliyor</small></article>`;
   }
@@ -576,9 +589,6 @@ const renderResultsLoadingState = () => {
 const renderResultsUnavailableState = () => {
   if (resultArchive) {
     resultArchive.innerHTML = `<tr><td class="result-empty-cell" colspan="7"><div class="result-empty-state"><strong>Sonuç verisi yenilenemedi</strong><span>Sıfır değer gösterilmedi; bağlantı düzeldiğinde kayıtlar otomatik olarak geri gelir.</span></div></td></tr>`;
-  }
-  if (databaseBody) {
-    databaseBody.innerHTML = `<tr><td class="result-empty-cell" colspan="10"><div class="result-empty-state"><strong>Maç kayıtları yenilenemedi</strong><span>Yanlış veya eski sabit kayıt gösterilmez; bağlantı düzeldiğinde doğrulanmış geçmiş otomatik geri gelir.</span></div></td></tr>`;
   }
   if (successGrid) {
     successGrid.innerHTML = `<article class="success-card reveal visible" data-state="waiting"><strong data-unit="">—</strong><span>Ölçüm korunuyor</span><small>Yanlış bir %0 değeri gösterilmiyor</small></article>`;
@@ -590,6 +600,96 @@ const loadResultsAndPerformance = async () => {
   try {
     const payload = await readJsonWithRetry(RESULTS_SUMMARY_PATH, 3, hasResultsPayload);
     applyResultsPayload(payload, "network");
+    return true;
+  } catch (error) {
+    return false;
+  }
+};
+
+const hasMatchRecordsPayload = (payload) => Boolean(
+  payload
+  && typeof payload === "object"
+  && payload.generated_at
+  && Array.isArray(payload.records)
+  && payload.summary
+  && typeof payload.summary === "object",
+);
+
+const compactMatchRecordsPayload = (payload) => ({
+  generated_at: payload.generated_at,
+  date: payload.date || "",
+  timezone: payload.timezone || "Europe/Istanbul",
+  source: payload.source || "Robot tahmin kayıt arşivi",
+  records: payload.records.slice(0, 60),
+  summary: payload.summary || {},
+});
+
+const matchRecordsTimestamp = (payload) => {
+  const value = Date.parse(payload?.generated_at || "");
+  return Number.isFinite(value) ? value : 0;
+};
+
+const readCachedMatchRecords = () => {
+  try {
+    if (!window.localStorage) return null;
+    const cached = JSON.parse(window.localStorage.getItem(MATCH_RECORDS_CACHE_KEY) || "null");
+    if (!cached || Date.now() - Number(cached.saved_at || 0) > MATCH_RECORDS_CACHE_MAX_AGE) return null;
+    return hasMatchRecordsPayload(cached.payload) ? cached.payload : null;
+  } catch (error) {
+    return null;
+  }
+};
+
+const writeCachedMatchRecords = (payload) => {
+  try {
+    if (!window.localStorage) return;
+    window.localStorage.setItem(MATCH_RECORDS_CACHE_KEY, JSON.stringify({
+      saved_at: Date.now(),
+      payload: compactMatchRecordsPayload(payload),
+    }));
+  } catch (error) {
+    // Depolama kapalıysa canlı arşiv yine ağdan gösterilir.
+  }
+};
+
+const renderMatchRecords = (payload) => {
+  if (!databaseBody) return;
+  const records = Array.isArray(payload?.records) ? payload.records : [];
+  databaseBody.innerHTML = records.length
+    ? records.map(matchRecordRow).join("")
+    : `<tr><td class="result-empty-cell" colspan="10"><div class="result-empty-state"><strong>Henüz tahmin kaydı yok</strong><span>Robot yeni değerlendirmeler kaydettikçe geçmiş analizler burada görünür.</span></div></td></tr>`;
+  if (databaseBody.dataset) {
+    databaseBody.dataset.source = "match-records-summary";
+    databaseBody.dataset.recordCount = String(records.length);
+  }
+};
+
+const applyMatchRecordsPayload = (payload, source = "network") => {
+  if (!hasMatchRecordsPayload(payload)) return false;
+  const compact = compactMatchRecordsPayload(payload);
+  const timestamp = matchRecordsTimestamp(compact);
+  if (hasRenderedMatchRecords && timestamp && timestamp < renderedMatchRecordsTimestamp) return true;
+  renderMatchRecords(compact);
+  hasRenderedMatchRecords = true;
+  renderedMatchRecordsTimestamp = Math.max(renderedMatchRecordsTimestamp, timestamp);
+  if (source === "network") writeCachedMatchRecords(compact);
+  return true;
+};
+
+const renderMatchRecordsLoadingState = () => {
+  if (!databaseBody) return;
+  databaseBody.innerHTML = `<tr><td class="result-empty-cell" colspan="10"><div class="result-empty-state"><strong>Maç kayıtları yükleniyor</strong><span>Geçmiş analiz ve tahmin kayıtları getiriliyor.</span></div></td></tr>`;
+};
+
+const renderMatchRecordsUnavailableState = () => {
+  if (!databaseBody) return;
+  databaseBody.innerHTML = `<tr><td class="result-empty-cell" colspan="10"><div class="result-empty-state"><strong>Maç kayıtları yenilenemedi</strong><span>Sonuçlar alanı etkilenmez; arşiv bağlantısı düzeldiğinde kayıtlar otomatik geri gelir.</span></div></td></tr>`;
+};
+
+const loadMatchRecords = async () => {
+  try {
+    const payload = await readJsonWithRetry(MATCH_RECORDS_SUMMARY_PATH, 3, hasMatchRecordsPayload);
+    applyMatchRecordsPayload(payload, "network");
     return true;
   } catch (error) {
     return false;
@@ -725,7 +825,7 @@ const loadFixtures = async () => {
 const renderStaticEmptySections = () => {
   if (analysisList) analysisList.innerHTML = emptyBox("Maç bazlı PRO değerlendirmeler üyelik doğrulamasından sonra Özel Analiz alanında açılır.");
   if (strongestPickCard) strongestPickCard.innerHTML = emptyBox("Korumalı günün seçimi için Özel Analiz alanında üyelik kodunu doğrula.");
-  if (databaseBody) databaseBody.innerHTML = `<tr><td class="result-empty-cell" colspan="10"><div class="result-empty-state"><strong>Maç kayıtları yükleniyor</strong><span>Doğrulanmış geçmiş sonuç akışı hazırlanıyor.</span></div></td></tr>`;
+  if (databaseBody) databaseBody.innerHTML = `<tr><td class="result-empty-cell" colspan="10"><div class="result-empty-state"><strong>Maç kayıtları yükleniyor</strong><span>Geçmiş analiz arşivi hazırlanıyor.</span></div></td></tr>`;
   setSummary([], "PRO analiz bekleniyor");
 };
 
@@ -736,6 +836,11 @@ window.__flResultsPerformance = {
   resultOutcome,
   compactResultsPayload,
   hasResultsPayload,
+};
+window.__flMatchRecords = {
+  normalizeMatchRecord,
+  compactMatchRecordsPayload,
+  hasMatchRecordsPayload,
 };
 
 const setupObservers = () => {
@@ -763,10 +868,15 @@ const init = async () => {
   if (cachedResults) applyResultsPayload(cachedResults, "cache");
   else renderResultsLoadingState();
 
-  const tasks = [loadProAnalysisCenter(), loadResultsAndPerformance()];
+  const cachedMatchRecords = readCachedMatchRecords();
+  if (cachedMatchRecords) applyMatchRecordsPayload(cachedMatchRecords, "cache");
+  else renderMatchRecordsLoadingState();
+
+  const tasks = [loadProAnalysisCenter(), loadResultsAndPerformance(), loadMatchRecords()];
   if (fixturesList) tasks.push(loadFixtures());
   await Promise.all(tasks);
   if (!hasRenderedResults) renderResultsUnavailableState();
+  if (!hasRenderedMatchRecords) renderMatchRecordsUnavailableState();
   setupObservers();
 };
 
