@@ -5,6 +5,8 @@ on:
     paths:
       - 'scripts/market-specialist-gates.js'
       - 'scripts/pro-market-specialist-postprocess.js'
+      - 'scripts/robot-specialist-orchestrator.js'
+      - 'scripts/robot-specialists/**'
       - 'scripts/pro-goal-market-bridge.js'
       - 'scripts/iddaa-data-source.js'
       - 'scripts/sync-iddaa-markets.js'
@@ -23,6 +25,7 @@ on:
       - 'package.json'
       - 'scripts/generate-high-odds-htft.js'
       - 'tests/market-specialist-gates.test.js'
+      - 'tests/robot-specialist-orchestrator.test.js'
       - 'tests/pro-goal-market-bridge.test.js'
       - 'tests/iddaa-data-source.test.js'
       - 'tests/iddaa-market-sync.test.js'
@@ -63,6 +66,12 @@ jobs:
         run: |
           node --check scripts/market-specialist-gates.js
           node --check scripts/pro-market-specialist-postprocess.js
+          node --check scripts/robot-specialist-orchestrator.js
+          node --check scripts/robot-specialists/shared.js
+          node --check scripts/robot-specialists/btts-specialist.js
+          node --check scripts/robot-specialists/goals-specialist.js
+          node --check scripts/robot-specialists/htft-specialist.js
+          node --check scripts/robot-specialists/match-result-specialist.js
           node --check scripts/iddaa-data-source.js
           node --check scripts/sync-iddaa-markets.js
           node --check scripts/robot-exact-scoring.js
@@ -76,6 +85,7 @@ jobs:
       - name: Specialist unit and regression tests
         run: |
           node tests/market-specialist-gates.test.js
+          node tests/robot-specialist-orchestrator.test.js
           node tests/pro-goal-market-bridge.test.js
           node tests/iddaa-data-source.test.js
           node tests/iddaa-market-sync.test.js
