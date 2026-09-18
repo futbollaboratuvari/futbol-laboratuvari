@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.09.2026 16:12:03
+Oluşturma: 18.09.2026 18:33:44
 
 ## Özet
 
@@ -8,7 +8,7 @@ Oluşturma: 18.09.2026 16:12:03
 - Bekleyen tahmin: 1176
 - Kazanan tahmin: 180
 - Kaybeden tahmin: 144
-- Lig sayısı: 291
+- Lig sayısı: 287
 - Seçenek sayısı: 9
 
 ## Öğrenme Mantığı
@@ -47,6 +47,6 @@ Oluşturma: 18.09.2026 16:12:03
 - 2026-09-18 | Romanya 1.Lig | Uta Arad - Sepsi | İkinci Yarı KG Var | pending | 56/100
 - 2026-09-18 | Finlandiya Ykkösliiga | Japs - Ekenas If | MS 1 | pending | 42/100
 - 2026-09-18 | Mısır 2. Lig | Derot - El Harby | 2.5 Alt | pending | 56/100
-- 2026-09-18 | Cezayir 1. Lig | Js El Biar - Js Saoura | İkinci Yarı KG Var | pending | 60/100
+- 2026-09-18 | Cezayir 1.Lig | Js El Biar - Js Saoura | İkinci Yarı KG Var | pending | 60/100
 - 2026-09-18 | Mısır 2. Lig | Proxy - Maleyet Kafr El | MS X | pending | 42/100
 
