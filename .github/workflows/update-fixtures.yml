@@ -188,6 +188,7 @@ jobs:
         run: |
           node tests/robot-specialist-orchestrator.test.js
           node scripts/robot-specialist-orchestrator.js
+          node scripts/validate-pro-source-size.js
 
       - name: Fill user choice cards
         continue-on-error: true
