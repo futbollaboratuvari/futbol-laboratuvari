@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 246
-Tam analiz: 227
-Eksik analiz: 19
+Toplam analiz: 248
+Tam analiz: 228
+Eksik analiz: 20
 
-- Vanraure VS Tegevajaro Miya: eksik score, confidence
 - Changchun Xidu VS Guangdong Mingt: eksik score, confidence
 - Kuveyt U23 VS Özbekistan U23: eksik score, confidence
 - Polessya VS Kryvbas Kr: eksik score, confidence
@@ -22,5 +21,7 @@ Eksik analiz: 19
 - Man City (K) VS Liverpool (K): eksik score, confidence
 - Deportivo Alav VS Barcelona (K): eksik score, confidence
 - B.Münih VS Union Berlin: eksik score, confidence
+- Ammanford VS Penybont: eksik score, confidence
 - Psg (K) VS Fc Nantes (K): eksik score, confidence
 - Alianza Lima VS Adt: eksik score, confidence
+- Monterrey (K) VS Necaxa (K): eksik score, confidence

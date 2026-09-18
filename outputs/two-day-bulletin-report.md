@@ -2,28 +2,15 @@
 
 Gunler: 2026-09-18 / 2026-09-19
 Kaynak: fixtures.json
-Ham mac: 258
-Aktif mac: 244
+Ham mac: 248
+Aktif mac: 231
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 14
-Bugun: 220
+Bultenden dusurulen mac: 17
+Bugun: 207
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-18 12:00 | Çin Halk Cumhuriyeti 2.Lig Küme Düşme Grubu | Wuhan Three To - Haimen Codion | scheduled | -
-- 2026-09-18 13:00 | Ukrayna Premier Lig | Chernomorets - Obolon-Brovar | scheduled | -
-- 2026-09-18 13:00 | Asya Oyunları Grup C | Kuveyt U23 - Özbekistan U23 | scheduled | -
-- 2026-09-18 13:00 | Çin Halk Cumhuriyeti 1.Lig | Yanbian Longdi - Guangzhou E-Pow | scheduled | -
-- 2026-09-18 13:00 | Japonya J3 Lig | Osaka - Fukushima Unite | scheduled | -
-- 2026-09-18 13:00 | Japonya J3 Lig | Roasso Kumamot - Matsumoto Yamag | scheduled | -
-- 2026-09-18 13:30 | Asya Oyunları Grup D | Suudi Arabista - Katar U23 | scheduled | -
-- 2026-09-18 14:00 | Çin Halk Cumhuriyeti 1.Lig | Dalian Huayi - Ningbo | scheduled | -
-- 2026-09-18 14:00 | Kazakistan Premier Lig | Okzhetpes - Zhenys | scheduled | -
-- 2026-09-18 14:00 | Vietnam Kupa 1.Tur | Sqc Binh Dinh - Ba Ria Vung Tau | scheduled | -
-- 2026-09-18 14:30 | Singapur Premier Lig | Albirex Niigat - Sengkang | scheduled | -
-- 2026-09-18 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nantong Zhiyun - Guangxi Hengche | scheduled | -
-- 2026-09-18 14:30 | Çin Halk Cumhuriyeti 2.Lig Yükselme Grubu | Jiangx Beidame - Shandong Taisha | scheduled | -
 - 2026-09-18 14:35 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Wuhan Three Tow | scheduled | -
 - 2026-09-18 15:00 | Endonezya Süper Lig | Madura United - Psim Yogyakarta | scheduled | -
 - 2026-09-18 15:00 | Tayland 1.Lig | Ayutthaya Unit - Uthai Thani | scheduled | -
