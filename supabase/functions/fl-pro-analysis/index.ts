@@ -167,29 +167,41 @@ function compactOption(item: AnyRow, source: string) {
 
 function compactOptions(item: AnyRow) {
   const rows: any[] = [];
+  const blockedSpecialistMarkets = new Set<string>();
+  const marketKey = (option: AnyRow) => clean(
+    option?.label || option?.market || option?.recommended_market || option?.selection || ""
+  );
 
-  // Specialist robot outputs are routed first. Because de-duplication keeps the
-  // first canonical market, a specialist downgrade/block decision cannot be
-  // bypassed later by the raw multi-market row for the same market.
+  // Specialist robot outputs are authoritative for their canonical market.
+  // A blocked specialist market is recorded as a tombstone so the same market
+  // cannot re-enter later from raw analysis_options, goal candidates or primary.
   const specialistOutputs = item.specialist_outputs && typeof item.specialist_outputs === "object"
     ? item.specialist_outputs
     : {};
   for (const [specialistId, bucket] of Object.entries(specialistOutputs)) {
     for (const option of Array.isArray((bucket as AnyRow)?.candidates) ? (bucket as AnyRow).candidates : []) {
+      const key = marketKey(option);
+      const decision = clean(option?.specialist_decision || option?.market_specialist?.decision || "keep");
+      if (option?.specialist_eligible === false || decision === "block") {
+        if (key) blockedSpecialistMarkets.add(key);
+        continue;
+      }
       const compact = compactOption(option, `specialist_${specialistId}`);
       if (compact) rows.push(compact);
     }
   }
 
   for (const option of Array.isArray(item.analysis_options) ? item.analysis_options : []) {
+    if (blockedSpecialistMarkets.has(marketKey(option))) continue;
     const compact = compactOption(option, "robot_multi_market");
     if (compact) rows.push(compact);
   }
   for (const option of Array.isArray(item.goal_market_candidates) ? item.goal_market_candidates : []) {
+    if (blockedSpecialistMarkets.has(marketKey(option))) continue;
     const compact = compactOption(option, "goal_market_specialist");
     if (compact) rows.push(compact);
   }
-  const primary = compactOption({
+  const primaryInput = {
     market: item.recommended_market || item.market,
     odd: item.recommended_odd ?? item.estimated_odds ?? item.bookmaker_odds,
     model_score: item.model_score ?? item.analysis_score ?? item.confidence_score,
@@ -200,7 +212,10 @@ function compactOptions(item: AnyRow) {
     risk_level: item.risk_level || item.risk,
     independent_evidence: item.independent_evidence,
     signals: item.signals || item.pro_signals,
-  }, "primary");
+  };
+  const primary = blockedSpecialistMarkets.has(marketKey(primaryInput))
+    ? null
+    : compactOption(primaryInput, "primary");
   if (primary) rows.push(primary);
 
   const seen = new Set<string>();
