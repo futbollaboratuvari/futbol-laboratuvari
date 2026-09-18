@@ -1,0 +1,70 @@
+name: Match Records Live Check
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/match-records-live-check.yml"
+      - "script.js"
+      - "index.html"
+      - "data/match-records-summary.json"
+      - "data/results-summary.json"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: match-records-live-check
+  cancel-in-progress: true
+
+jobs:
+  verify-live-separation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify live match records and verified results are separate
+        env:
+          LIVE_URL: https://futbollaboratuuvari.org
+        run: |
+          set -euo pipefail
+
+          records="$(curl --fail --silent --show-error --location             -H 'Cache-Control: no-cache' -H 'Pragma: no-cache'             "${LIVE_URL}/data/match-records-summary.json?check=${GITHUB_RUN_ID}")"
+          grep -q '"records"' <<<"${records}"
+          grep -q '"status": "pending"' <<<"${records}"
+
+          html="$(curl --fail --silent --show-error --location             -H 'Cache-Control: no-cache' -H 'Pragma: no-cache'             "${LIVE_URL}/?records-check=${GITHUB_RUN_ID}")"
+          grep -q 'script.js?v=20260918-match-records-separated-v2' <<<"${html}"
+
+          chrome="$(command -v google-chrome || command -v chromium || command -v chromium-browser)"
+          test -n "${chrome}"
+          "${chrome}"             --headless=new             --no-sandbox             --disable-gpu             --disable-dev-shm-usage             --virtual-time-budget=25000             --dump-dom             "${LIVE_URL}/?records-check=${GITHUB_RUN_ID}#analiz-veritabani"             > /tmp/match-records-dom.html
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          html = Path("/tmp/match-records-dom.html").read_text(encoding="utf-8", errors="replace")
+
+          records = re.search(r'<tbody([^>]*)id=["\']analysis-database-body["\']([^>]*)>(.*?)</tbody>', html, re.S | re.I)
+          if not records:
+              raise SystemExit("Maç Kayıtları tbody bulunamadı")
+          attrs = f"{records.group(1)} {records.group(2)}"
+          body = records.group(3)
+          if 'data-source="match-records-summary"' not in attrs and "data-source='match-records-summary'" not in attrs:
+              raise SystemExit("Maç Kayıtları ayrı arşiv kaynağından gelmiyor")
+          if "Maç kayıtları yükleniyor" in body or "Maç kayıtları yenilenemedi" in body:
+              raise SystemExit("Maç Kayıtları canlı DOM'da yükleme/hata durumunda kaldı")
+          if not re.search(r'class=["\'][^"\']*status\s+pending[^"\']*["\']', body, re.I):
+              raise SystemExit("Maç Kayıtları bekleyen geçmiş tahminleri göstermiyor")
+
+          results = re.search(r'<tbody[^>]*id=["\']result-archive["\'][^>]*>(.*?)</tbody>', html, re.S | re.I)
+          if not results:
+              raise SystemExit("Sonuçlar tbody bulunamadı")
+          if re.search(r'class=["\'][^"\']*status\s+pending[^"\']*["\']', results.group(1), re.I):
+              raise SystemExit("Sonuçlar alanına bekleyen tahmin sızdı")
+          if not re.search(r'class=["\'][^"\']*status\s+(?:won|lost)[^"\']*["\']', results.group(1), re.I):
+              raise SystemExit("Sonuçlar alanında doğrulanmış kayıt yok")
+
+          print("LIVE USER TEST PASS: Maç Kayıtları geçmiş tahmin arşivi; Sonuçlar yalnız doğrulanmış final kayıtları.")
+          PY
