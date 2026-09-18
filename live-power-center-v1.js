@@ -181,7 +181,11 @@
   state.destroy = () => {
     if (state.timer) window.clearInterval(state.timer);
     if (state.root && state.onClick) state.root.removeEventListener('click', state.onClick);
-    state.root?.remove();
+    if (state.root) {
+      state.root.id = 'live-power-center';
+      state.root.className = 'flp';
+      state.root.innerHTML = '<div class="flp-empty">Canlı güç motoru yeniden yükleniyor…</div>';
+    }
     document.getElementById('fl-live-power-style')?.remove();
   };
 
