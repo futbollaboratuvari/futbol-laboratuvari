@@ -54,7 +54,7 @@ jobs:
           print("has_fallback=", "Akış: yedek snapshot" in html)
           print("has_loading=", "Team Power + Goal Power ve canlı tahmin verisi yükleniyor" in html)
 
-          root = re.search(r'<section[^>]*id=["\\']live-power-center["\\'][^>]*>(.*?)</section>', html, re.S | re.I)
+          root = re.search(r'<section[^>]*id="live-power-center"[^>]*>(.*?)</section>', html, re.S | re.I)
           if root:
               fragment = root.group(1)
               text = re.sub(r'<script[\\s\\S]*?</script>', ' ', fragment, flags=re.I)
