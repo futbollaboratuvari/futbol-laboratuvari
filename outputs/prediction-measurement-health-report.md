@@ -7,7 +7,7 @@ Bekleyen tahmin: 1186
 Kazanan: 177
 Kaybeden: 137
 Skoru olup pending kalan: 1
-Son finalizer kontrolu: 9
-Son finalizer guncelleme: 8
+Son finalizer kontrolu: 1
+Son finalizer guncelleme: 0
 
 Sonraki aksiyon: Skoru olan pending tahminler finalizer tarafindan olculmeli.

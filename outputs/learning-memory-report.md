@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.09.2026 22:43:25
+Oluşturma: 18.09.2026 22:46:29
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1194
-- Kazanan tahmin: 174
-- Kaybeden tahmin: 132
+- Bekleyen tahmin: 1186
+- Kazanan tahmin: 177
+- Kaybeden tahmin: 137
 - Lig sayısı: 286
 - Seçenek sayısı: 9
 
@@ -23,10 +23,10 @@ Oluşturma: 18.09.2026 22:43:25
 ## En Güçlü Seçenek Hafızası
 
 - KG Var: toplam 44, bekleyen 32, başarı %67, düz getiri %18, ağırlık 1
-- 2.5 Üst: toplam 158, bekleyen 105, başarı %60, düz getiri %10, ağırlık 1
-- 2.5 Alt: toplam 539, bekleyen 429, başarı %59, düz getiri %1, ağırlık 1
-- MS 2: toplam 234, bekleyen 196, başarı %55, düz getiri %7, ağırlık 1
-- MS 1: toplam 454, bekleyen 365, başarı %52, düz getiri %-17, ağırlık 1
+- 2.5 Üst: toplam 158, bekleyen 104, başarı %59, düz getiri %7, ağırlık 1
+- 2.5 Alt: toplam 539, bekleyen 425, başarı %59, düz getiri %1, ağırlık 1
+- MS 2: toplam 234, bekleyen 195, başarı %54, düz getiri %4, ağırlık 1
+- MS 1: toplam 454, bekleyen 363, başarı %52, düz getiri %-18, ağırlık 1
 - MS X: toplam 12, bekleyen 8, başarı %50, düz getiri %22, ağırlık 1
 - KG Yok: toplam 22, bekleyen 22, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İkinci Yarı KG Var: toplam 22, bekleyen 22, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
@@ -35,7 +35,7 @@ Oluşturma: 18.09.2026 22:43:25
 ## Son Tahmin Kayıtları
 
 - 2026-09-18 | Galler Premier Lig | Briton Ferry - Trefelin | KG Yok | pending | 54/100
-- 2026-09-18 | Kolombiya Primera A Clausura | Rionegro Aguil - Pereira | 2.5 Alt | pending | 51/100
+- 2026-09-18 | Kolombiya Primera A Clausura | Rionegro Aguil - Pereira | 2.5 Alt | pending | 52/100
 - 2026-09-18 | El Salvador Primera Lig Apertura | Inca-Aruba - Fuerte San Fran | MS 1 | pending | 56/100
 - 2026-09-18 | İrlanda 1.Lig | Wexford Youths - Cobh Ramblers | MS 1 | pending | 56/100
 - 2026-09-18 | Polonya 1.Lig | Polonia Bytom - Ruch Chorzow | MS X | pending | 43/100
