@@ -407,7 +407,7 @@ function processHtftOutput() {
     output.message = "Uzman V4 kalite kapısından geçen en güçlü 1/2 ve 2/1 adayları resmî İddaa oranlarıyla seçildi.";
   } else if (evaluated.length >= 2) {
     output.status = "insufficient_specialist_quality";
-    output.message = "Resmî yüksek oranlı İY/MS adayları bulundu ancak uzman V3 kalite kapısından yeterli seçim geçmedi.";
+    output.message = "Resmî yüksek oranlı İY/MS adayları bulundu ancak uzman V4 kalite kapısından yeterli seçim geçmedi.";
   }
   writeJson(htftPath, output);
   return { updated: true, pick_count: output.picks.length, checked_count: evaluated.length, rejected_count: rejected.length };
