@@ -44,6 +44,18 @@ PRO Robot Futbol Laboratuvari'nin ucretli uyelik sisteminin ana analiz urunudur.
 
 ## PRO Robot Islem Gunlugu
 
+### 2026-09-18 - Resmi Iddaa coklu market senkronunun ana veri hattina baglanmasi
+
+- Amac/kok neden: AI Seffaflik ve PRO projection coklu marketleri okuyabiliyordu ancak guncel fixture hattinda KG, Ilk Yari KG, Ikinci Yari KG, IY/2Y KG, 3.5 ve 6+ icin dogrulanmis resmi fiyatlar tutarli sekilde tasinmiyordu. Ayrica 6+ etiketi normalize edilirken `+` isareti kayboldugu icin guvenli parser gercek `6+` secimini kacirabiliyordu.
+- Yapilan degisiklik: `scripts/sync-iddaa-markets.js` resmi Iddaa ana bultenini fixture'larla fail-closed eslestirir; en yakin 24 eslesen mac icin etkinlik detayindan 2Y KG, IY/2Y KG ve 6+ dahil genis marketleri tamamlar. `6+` outcome'u normalize edilmeden once `plus` semantigine cevrilir; yalniz `6` etiketi 6+ sayilmaz.
+- Etkilenen akislar/dosyalar: `scripts/sync-iddaa-markets.js`, `scripts/iddaa-data-source.js`, `tests/iddaa-market-sync.test.js`, `tests/iddaa-data-source.test.js`, `.github/workflows/update-fixtures.yml`, `.github/workflows/pro-market-specialist-ci.yml`, `package.json`.
+- Etkilenen marketler: KG Var/Yok, Ilk Yari KG, Ikinci Yari KG, IY/2Y KG kombinasyonlari, 3.5 Alt/Ust ve 6+ Gol. Mevcut 1.45 minimum oran, value gate ve specialist fail-closed kurallari degismedi.
+- Provenance: Yalniz acik isimli resmi Iddaa outcome'lari canonical alana tasinir. Belirsiz/coklu kimlik eslesmesinde veri baglanmaz; `raw_market_guess_odds` dogrulanmis sayilmaz.
+- Test: `iddaa-data-source.test.js` gercek `6+` etiketinin 6+ olarak tutulmasini ve yalniz `6` etiketinin reddedilmesini kilitler. `iddaa-market-sync.test.js` fixture eslestirme, yarim KG, 3.5 ve 6+ tasimasini ve eslesmeyen maca veri sizmamasini test eder. PRO Market Specialist CI Node 20/24 matrisiyle calistirilir.
+- Canli dogrulama kriteri: PR merge sonrasi ana veri workflow'u basarili bitmeli; fixture/robot ciktisinda dogrulanmis ilgili market sayilari sifirdan buyukse Supabase PRO health ve AI Seffaflik market ailelerine yansimasi kontrol edilmelidir.
+- Gelistirme dali / PR: `feat/official-iddaa-market-sync-20260918`, PR #71. Dal guncel `main` uzerine temizce yeniden oturtuldu.
+- Geri alma: Senkron adimi ayri ve `continue-on-error` katmanidir; yeni script/workflow adimi geri alinabilir. Mevcut PRO motoru ve korunan UI dosyalari yeniden yazilmaz.
+
 ### 2026-09-18 - Supabase gecisi sonrasi Pages guvenlik testi duzeltmesi
 
 - Kok neden: GitHub Pages buildindeki `tests/security-legal.test.js`, eski mimariden kalan Vercel domaini ve `SECURE_API_ORIGIN` sabitini zorunlu tutuyordu. Supabase gecisi dogru oldugu halde build bu eski beklenti nedeniyle fail oluyordu.
