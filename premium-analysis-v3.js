@@ -13,10 +13,7 @@
   const LAST_KEY = "fl_last_premium_robot_analysis";
   const QUEUE_KEY = "fl_premium_robot_queue";
   const ANALYSIS_COUNT_KEY = "fl_premium_analysis_count";
-  const SECURE_API_ORIGIN = /^(localhost|127\.0\.0\.1)$/i.test(window.location.hostname)
-    || window.location.hostname.endsWith(".vercel.app")
-    ? ""
-    : "https://futbol-laboratuvari.vercel.app";
+  const PRO_ANALYSIS_API = "https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-pro-analysis";
   const PAGE_SIZE = 12;
   const MAX_COUPON = 10;
   const ANALYSIS_TYPES = new Set(["robot", "match", "goals", "btts", "advanced"]);
@@ -880,7 +877,7 @@
   const fetchProIndex = async (code) => {
     const normalized = String(code || "").trim().replace(/\s+/g, "").toLocaleUpperCase("tr-TR");
     if (normalized.length < 4) throw new Error("Üyelik kodu gerekli.");
-    const response = await fetch(`${SECURE_API_ORIGIN}/api/pro-analysis`, {
+    const response = await fetch(PRO_ANALYSIS_API, {
       method: "POST",
       mode: "cors",
       credentials: "omit",
