@@ -2,7 +2,11 @@
   const KEY = '__flLivePowerCenterV1';
   if (window[KEY]?.destroy) window[KEY].destroy();
 
-  const state = { root: null, data: null, analysis: null, selectedId: '', timer: null, onClick: null };
+  const SUPABASE_URL = 'https://lnngvkitcwwgrljtjwsd.supabase.co';
+  const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_BlBbsR0ilVz9Idqji13aBQ_Npf4Wf38';
+  const REALTIME_TOPIC = 'live-match-analysis';
+  const REALTIME_MODULE = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.107.0/+esm';
+  const state = { root: null, data: null, analysis: null, selectedId: '', timer: null, onClick: null, supabase: null, channel: null, realtimeReady: false };
   window[KEY] = state;
 
   const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({
@@ -64,6 +68,7 @@
   }
 
   function analysisFor(match) {
+    if (match?.live_analysis) return { fixture_id: match.fixture_id, ...match.live_analysis };
     const rows = Array.isArray(state.analysis?.matches) ? state.analysis.matches : [];
     return rows.find((row) => String(row.fixture_id) === String(match?.fixture_id)) || null;
   }
@@ -189,27 +194,114 @@
     const summary = state.data?.summary || {};
     const liveCount = summary.espn_live_event_count ?? summary.api_live_fixture_count ?? 0;
     const label = statusLabel(state.data?.status, matches.length > 0);
-    const robotSummary = state.analysis?.summary || {};
+    const robotSummary = state.analysis?.summary || { ready_count: state.data?.summary?.robot_ready_count ?? 0 };
     root.innerHTML = `<div class="flp-head"><div><p>Canlı Güç Motoru</p><h2>Team Power + Goal Power + Canlı Analiz Robotu</h2><span>Gerçek canlı istatistiklerden güç değişimini izler; ayrı canlı analiz robotu maç yönü, sonraki gol eğilimi ve gol baskısını veri yeterliyse tahmin eder.</span></div><span class="flp-badge">Observed Live Data · Robot V1</span></div>
-      <div class="flp-status" data-state="${isActive ? 'active' : 'waiting'}"><b>${esc(label)}</b> · ESPN canlı: ${esc(liveCount)} · Site eşleşmesi: ${esc(summary.matched_fixture_count ?? 0)} · Örneklenen: ${esc(summary.sampled_match_count ?? 0)} · Robot hazır: ${esc(robotSummary.ready_count ?? 0)}. ${esc(state.data?.message || '')}</div>
+      <div class="flp-status" data-state="${isActive ? 'active' : 'waiting'}"><b>${esc(label)}</b> · Akış: ${esc(state.realtimeReady ? 'Supabase Realtime' : 'yedek snapshot')} · ESPN canlı: ${esc(liveCount)} · Örneklenen: ${esc(summary.sampled_match_count ?? 0)} · Robot hazır: ${esc(robotSummary.ready_count ?? 0)}. ${esc(state.data?.message || '')}</div>
       <div class="flp-layout"><aside class="flp-list"><h3>Canlı maçlar</h3>${matches.length ? matches.map(matchButton).join('') : `<div class="flp-empty">Şu anda doğrulanmış canlı güç snapshotı yok.</div>`}</aside><div class="flp-panel">${detail(selected)}</div></div>`;
+  }
+
+  function applyRealtimePayload(payload) {
+    if (!payload || !Array.isArray(payload.matches)) return false;
+    state.data = payload;
+    state.analysis = {
+      summary: { ready_count: payload.summary?.robot_ready_count ?? 0 },
+      matches: payload.matches.map((match) => ({ fixture_id: match.fixture_id, ...(match.live_analysis || {}) })),
+    };
+    state.realtimeReady = true;
+    render();
+    return true;
+  }
+
+  function applyRealtimeDelta(delta) {
+    if (!delta || !Array.isArray(delta.matches)) return false;
+    const previous = new Map((Array.isArray(state.data?.matches) ? state.data.matches : []).map((match) => [String(match.fixture_id), match]));
+    const matches = delta.matches.map((row) => {
+      const old = previous.get(String(row.fixture_id)) || {};
+      const snapshots = Array.isArray(old.snapshots) ? old.snapshots.slice() : [];
+      if (row.current) {
+        const last = snapshots[snapshots.length - 1];
+        if (last && Number(last.minute) === Number(row.current.minute)) snapshots[snapshots.length - 1] = row.current;
+        else snapshots.push(row.current);
+      }
+      return { ...old, ...row, snapshots: snapshots.slice(-12) };
+    });
+    return applyRealtimePayload({
+      ...(state.data || {}),
+      schema_version: 2,
+      generated_at: delta.generated_at || new Date().toISOString(),
+      status: delta.status || state.data?.status || 'ok',
+      summary: delta.summary || state.data?.summary || {},
+      message: delta.message || state.data?.message || '',
+      source: 'Supabase Realtime · ESPN live statistics',
+      source_verified: true,
+      matches,
+    });
+  }
+
+  async function fetchRealtimeState() {
+    const response = await fetch(`${SUPABASE_URL}/rest/v1/live_match_state?id=eq.current&select=payload,updated_at`, {
+      cache: 'no-store',
+      headers: {
+        apikey: SUPABASE_PUBLISHABLE_KEY,
+        Accept: 'application/json',
+      },
+    });
+    if (!response.ok) throw new Error(`realtime_state_${response.status}`);
+    const rows = await response.json();
+    const payload = rows?.[0]?.payload;
+    if (!applyRealtimePayload(payload)) throw new Error('realtime_state_empty');
+    return payload;
+  }
+
+  async function loadStaticFallback() {
+    const stamp = Date.now();
+    const [powerResponse, analysisResponse] = await Promise.all([
+      fetch(`./data/live-power-series.json?t=${stamp}`, { cache: 'no-store' }),
+      fetch(`./data/live-match-analysis.json?t=${stamp}`, { cache: 'no-store' }).catch(() => null),
+    ]);
+    if (!powerResponse.ok) throw new Error(String(powerResponse.status));
+    state.data = await powerResponse.json();
+    if (analysisResponse?.ok) state.analysis = await analysisResponse.json();
+    else state.analysis = null;
+    state.realtimeReady = false;
+    render();
+  }
+
+  async function setupRealtime() {
+    if (state.channel) return;
+    try {
+      const { createClient } = await import(REALTIME_MODULE);
+      state.supabase = createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {
+        auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false },
+        realtime: { params: { eventsPerSecond: 12 } },
+      });
+      state.channel = state.supabase
+        .channel(REALTIME_TOPIC, { config: { private: false } })
+        .on('broadcast', { event: 'snapshot' }, (message) => {
+          const delta = message?.payload;
+          if (!applyRealtimeDelta(delta)) fetchRealtimeState().catch(() => {});
+        })
+        .subscribe((status) => {
+          if (status === 'SUBSCRIBED') state.realtimeReady = true;
+        });
+    } catch (error) {
+      state.realtimeReady = false;
+      console.warn('[Futbol Laboratuvarı] Supabase Realtime fallback mode', error);
+    }
   }
 
   async function load() {
     try {
-      const stamp = Date.now();
-      const [powerResponse, analysisResponse] = await Promise.all([
-        fetch(`./data/live-power-series.json?t=${stamp}`, { cache: 'no-store' }),
-        fetch(`./data/live-match-analysis.json?t=${stamp}`, { cache: 'no-store' }).catch(() => null),
-      ]);
-      if (!powerResponse.ok) throw new Error(String(powerResponse.status));
-      state.data = await powerResponse.json();
-      if (analysisResponse?.ok) state.analysis = await analysisResponse.json();
-      else state.analysis = null;
-      render();
-    } catch (error) {
-      ensureRoot().innerHTML = `<div class="flp-empty">Canlı güç veri dosyası şu an alınamadı. Diğer analiz alanları çalışmaya devam eder.</div>`;
-      console.warn('[Futbol Laboratuvarı] live power load failed', error);
+      await fetchRealtimeState();
+      setupRealtime();
+    } catch (realtimeError) {
+      try {
+        await loadStaticFallback();
+        setupRealtime();
+      } catch (error) {
+        ensureRoot().innerHTML = `<div class="flp-empty">Canlı güç ve analiz verisi şu an alınamadı. Diğer analiz alanları çalışmaya devam eder.</div>`;
+        console.warn('[Futbol Laboratuvarı] live power load failed', realtimeError, error);
+      }
     }
   }
 
@@ -224,11 +316,14 @@
       render();
     };
     state.root.addEventListener('click', state.onClick);
-    state.timer = window.setInterval(load, 120000);
+    state.timer = window.setInterval(() => fetchRealtimeState().catch(() => loadStaticFallback().catch(() => {})), 30000);
   }
 
   state.destroy = () => {
     if (state.timer) window.clearInterval(state.timer);
+    if (state.channel && state.supabase) state.supabase.removeChannel(state.channel);
+    state.channel = null;
+    state.supabase = null;
     if (state.root && state.onClick) state.root.removeEventListener('click', state.onClick);
     if (state.root) {
       state.root.id = 'live-power-center';
