@@ -44,6 +44,19 @@ PRO Robot Futbol Laboratuvari'nin ucretli uyelik sisteminin ana analiz urunudur.
 
 ## PRO Robot Islem Gunlugu
 
+### 2026-09-18 - IY/MS uzman robotu production dogrulama kapanisi
+
+- Sonuc: V2 ile baslayan dogrulanmis HTFT feed baglantisi productionda tamamlandi; sonraki kompakt persistence gelistirmesiyle orkestrator `robot-specialist-orchestrator-v3` olarak calismaya devam ediyor.
+- CI: PR #76 specialist regresyon matrisi Node 20 ve Node 24 kosularinda basarili tamamlandi; PR main'e merge edildi.
+- Production HTFT: High Odds HTFT Daily Scan run `35367216264` basarili. 199 mac tarandi, 3 dogrulanmis resmi Iddaa IY/MS karti uretildi; V4 HTFT specialist 37 adayi kontrol etti, 19 adayi reddetti, 3 kart yayina uygun kaldi.
+- Orkestrator production sonucu: Ana writer run `35372171761` basarili. `robot-specialist-orchestrator-v3` 193 mac icinde HTFT icin `candidate_count=3`, `eligible_count=3`, `ready_match_count=3`, `supplemental_candidate_count=3` raporladi. Feed `status=ready`, `verified_pick_count=3`.
+- Diger uzmanlar ayni production kosusunda calismaya devam etti: BTTS 391 aday / 391 eligible, goals 280 aday / 263 eligible, match_result 551 aday / 551 eligible. HTFT entegrasyonu diger market ailelerini sifirlamadi.
+- Canli yayin: Sonraki GitHub Pages workflow kosulari basarili tamamlandi; ana veri writer ve HTFT workflow ciktisi main'e yazildi.
+- Supabase: `fl-pro-analysis` ACTIVE ve kompakt specialist kararlarini okuyan production projection surumunde. Specialist kararlar protected projection akisini beslemeye devam ediyor.
+- Guvenlik/provenance: Yalniz `odds_verified:true` resmi Iddaa 1/2 ve 2/1 feed adaylari kullanilir; tarih/kimlik uyusmazliginda feed baglanmaz. Dogrulanmis upstream 1/1 verisi yoksa 1/1 uydurulmaz.
+- Kapanis: Daha once 'tamamlanmamis tek bolum' olarak raporlanan HTFT PR/CI -> main -> production dogrulama zinciri TAMAMLANDI.
+
+
 ### 2026-09-18 - Uzman robot persistence kompaktlastirma / Supabase stale-cache kok duzeltmesi
 
 - Kok neden: IY/MS V2 canli kosusu basarili olup 221 macta HTFT havuzunu 0'dan 3 dogrulanmis adaya cikardi; ancak uzman ciktisi her mac icinde `analysis_options` verisini `specialist_outputs.candidates` altinda tam detayli ikinci kez kopyaladigi icin `data/robot-analysis.json` Supabase `fl-pro-analysis` kaynak koruma siniri olan 12 MiB'nin ustune cikti. Supabase yeni GitHub kaynagini okuyamayinca eski `pro_analysis_cache` last-good verisine dustu; bu nedenle canli projection HTFT yeniligini goremedi.
