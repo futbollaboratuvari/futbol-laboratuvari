@@ -10,8 +10,11 @@ on:
       - 'scripts/iddaa-data-source.js'
       - 'scripts/market-specialist-gates.js'
       - 'scripts/pro-market-specialist-postprocess.js'
+      - 'scripts/robot-specialist-orchestrator.js'
+      - 'scripts/robot-specialists/**'
       - 'tests/high-odds-htft.test.js'
       - 'tests/market-specialist-gates.test.js'
+      - 'tests/robot-specialist-orchestrator.test.js'
       - '.github/workflows/high-odds-htft.yml'
   schedule:
     - cron: '25 */3 * * *'
@@ -48,6 +51,11 @@ jobs:
 
       - name: Apply HTFT market specialist gate
         run: node scripts/pro-market-specialist-postprocess.js htft
+
+      - name: Merge verified HTFT feed into specialist orchestrator
+        run: |
+          node tests/robot-specialist-orchestrator.test.js
+          node scripts/robot-specialist-orchestrator.js
 
       - name: Validate output
         run: |
@@ -93,10 +101,11 @@ jobs:
           console.log(`Validated ${data.picks.length} verified official HTFT picks for ${data.date}.`);
           NODE
 
-      - name: Commit generated data only
+      - name: Commit generated HTFT feed and routed robot data
         if: github.ref == 'refs/heads/main'
         run: |
           cp data/high-odds-htft.json /tmp/high-odds-htft.json
+          cp data/robot-analysis.json /tmp/robot-analysis.json
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
@@ -105,14 +114,15 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             cp /tmp/high-odds-htft.json data/high-odds-htft.json
+            cp /tmp/robot-analysis.json data/robot-analysis.json
 
-            if git diff --quiet -- data/high-odds-htft.json; then
-              echo 'No high-odds data change.'
+            if git diff --quiet -- data/high-odds-htft.json data/robot-analysis.json; then
+              echo 'No HTFT specialist feed change.'
               exit 0
             fi
 
-            git add data/high-odds-htft.json
-            git commit -m 'chore: refresh daily high-odds HTFT'
+            git add data/high-odds-htft.json data/robot-analysis.json
+            git commit -m 'chore: refresh verified HTFT specialist feed'
             if git push origin HEAD:main; then
               exit 0
             fi
@@ -121,5 +131,5 @@ jobs:
             sleep 2
           done
 
-          echo 'Unable to publish generated HTFT data after 3 attempts.' >&2
+          echo 'Unable to publish HTFT specialist feed after 3 attempts.' >&2
           exit 1
