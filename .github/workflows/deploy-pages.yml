@@ -37,6 +37,23 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Verify Pages custom domain configuration
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          pages_json="$(curl --fail --silent --show-error --location \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "X-GitHub-Api-Version: 2026-03-10" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages")"
+          cname="$(printf '%s' "$pages_json" | jq -r '.cname // ""')"
+          build_type="$(printf '%s' "$pages_json" | jq -r '.build_type // ""')"
+          html_url="$(printf '%s' "$pages_json" | jq -r '.html_url // ""')"
+          echo "Pages cname=$cname build_type=$build_type html_url=$html_url"
+          test "$cname" = "futbollaboratuuvari.org"
+          test "$build_type" = "workflow"
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -44,6 +61,13 @@ jobs:
 
       - name: Build safe public artifact
         run: npm run build
+
+      - name: Stamp deployment version
+        run: |
+          printf '%s\n' "${GITHUB_SHA}" > public/deploy-version.txt
+          grep -q 'id="live-power-center"' public/index.html
+          grep -q 'live-power-center-v1.js?v=20260918-live-power-stable-v2' public/index.html
+          grep -q 'const version = "20260918-live-power-stable-v2";' public/cache-version.js
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
@@ -53,3 +77,50 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verify live custom domain in real browser
+        env:
+          LIVE_URL: https://futbollaboratuuvari.org
+          EXPECTED_UI_VERSION: 20260918-live-power-stable-v2
+        run: |
+          set -euo pipefail
+          html_ok=0
+          for attempt in $(seq 1 18); do
+            probe="${LIVE_URL}/?deploy=${GITHUB_SHA}&attempt=${attempt}"
+            marker="$(curl --fail --silent --show-error --location \
+              -H 'Cache-Control: no-cache' -H 'Pragma: no-cache' \
+              "${LIVE_URL}/deploy-version.txt?deploy=${GITHUB_SHA}&attempt=${attempt}" || true)"
+            html="$(curl --fail --silent --show-error --location \
+              -H 'Cache-Control: no-cache' -H 'Pragma: no-cache' \
+              "${probe}" || true)"
+            if [ "${marker}" = "${GITHUB_SHA}" ] \
+              && grep -q 'id="live-power-center"' <<<"${html}" \
+              && grep -q "live-power-center-v1.js?v=${EXPECTED_UI_VERSION}" <<<"${html}" \
+              && grep -q "cache-version.js?v=${EXPECTED_UI_VERSION}" <<<"${html}"; then
+              html_ok=1
+              break
+            fi
+            sleep 5
+          done
+          test "${html_ok}" = "1"
+
+          chrome="$(command -v google-chrome || command -v chromium || command -v chromium-browser)"
+          test -n "${chrome}"
+          "${chrome}" \
+            --headless=new \
+            --no-sandbox \
+            --disable-gpu \
+            --disable-dev-shm-usage \
+            --virtual-time-budget=15000 \
+            --dump-dom \
+            "${LIVE_URL}/?deploy=${GITHUB_SHA}#live-power-center" \
+            > /tmp/live-power-dom.html
+
+          grep -q 'id="live-power-center"' /tmp/live-power-dom.html
+          grep -q 'Team Power + Goal Power' /tmp/live-power-dom.html
+          grep -q 'class="flp-status"' /tmp/live-power-dom.html
+          if grep -q 'Team Power + Goal Power verisi yükleniyor' /tmp/live-power-dom.html; then
+            echo "Live Power UI stayed in loading state"
+            exit 1
+          fi
+          echo "LIVE USER TEST PASS: Canlı Güç Motoru rendered on custom domain."
