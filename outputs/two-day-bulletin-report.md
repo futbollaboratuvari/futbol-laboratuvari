@@ -1,22 +1,16 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-09-18 / 2026-09-19
+Gunler: 2026-09-19 / 2026-09-20
 Kaynak: fixtures.json
-Ham mac: 103
-Aktif mac: 24
+Ham mac: 24
+Aktif mac: 18
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 79
-Bugun: 0
-Yarin: 24
+Bultenden dusurulen mac: 6
+Bugun: 18
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-09-19 00:00 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Defensa Justici | scheduled | -
-- 2026-09-19 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Pereira | scheduled | -
-- 2026-09-19 00:00 | Honduras Ulusal Lig Apertura | Platense - Upnfm | scheduled | -
-- 2026-09-19 00:30 | Arjantin Primera C | Cambaceres - Jj Urquiza | scheduled | -
-- 2026-09-19 01:00 | Paraguay Intermedia Lig | 3 De Noviembre - Guairena | scheduled | -
-- 2026-09-19 01:30 | Brezilya Serie B | Vila Nova - America Mineiro | scheduled | -
 - 2026-09-19 02:00 | Bolivya Premier Lig | Independiente - San Antonio Bul | scheduled | -
 - 2026-09-19 02:05 | Kolombiya Primera B Clausura | Patriotas - Union Magdalena | scheduled | -
 - 2026-09-19 02:30 | ABD MLS | New York City - New York | scheduled | -

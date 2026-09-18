@@ -1,6 +1,6 @@
 {
   "schema_version": "loss_pattern_memory_v1",
-  "generated_at": "2026-09-18T20:44:29.375Z",
+  "generated_at": "2026-09-18T22:44:46.074Z",
   "status": "active",
   "policy": {
     "purpose": "Tekrarlayan gözlenebilir hata bağlamlarını saptayıp gelecekte aynı bağlamda yalnız negatif fren uygulamak.",
@@ -12,7 +12,7 @@
     "max_brake_points": 3
   },
   "summary": {
-    "settled_predictions": 314,
+    "settled_predictions": 313,
     "lost_predictions": 137,
     "market_count": 6,
     "active_market_count": 2
@@ -57,10 +57,10 @@
       "active_factor_count": 0
     },
     "2.5 Üst": {
-      "settled": 54,
-      "won": 32,
+      "settled": 53,
+      "won": 31,
       "lost": 22,
-      "loss_rate": 0.407,
+      "loss_rate": 0.415,
       "distinct_loss_dates": 6,
       "miss_types": {
         "goal_shortfall": 22

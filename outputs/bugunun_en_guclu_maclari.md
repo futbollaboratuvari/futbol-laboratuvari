@@ -2,22 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-18T20:41:40.874Z
-- Ham maç sayısı: 103
-- Yarın bülteni maç sayısı: 24
-- Detay blok sayısı: 292
-- Aktif bülten maçı: 24
-- Bültenden düşürülen maç: 79
+- Güncelleme: 2026-09-18T22:44:38.441Z
+- Ham maç sayısı: 24
+- Yarın bülteni maç sayısı: 0
+- Detay blok sayısı: 66
+- Aktif bülten maçı: 18
+- Bültenden düşürülen maç: 6
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Corboda Santia - Defensa Justici | Arjantin Premier Lig 2. Aşama | 00:00 | Veri bekleniyor | - | 2.4 | 8 |
-| Rionegro Aguil - Pereira | Kolombiya Primera A Clausura | 00:00 | Veri bekleniyor | - | 1.18 | 6 |
-| Platense - Upnfm | Honduras Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 2 | 5 |
-| Cambaceres - Jj Urquiza | Arjantin Primera C | 00:30 | Veri bekleniyor | - | 2.15 | 6 |
-| 3 De Noviembre - Guairena | Paraguay Intermedia Lig | 01:00 | Veri bekleniyor | - | 1.93 | 8 |
-| Vila Nova - America Mineiro | Brezilya Serie B | 01:30 | Veri bekleniyor | - | 1.31 | 7 |
 | Independiente - San Antonio Bul | Bolivya Premier Lig | 02:00 | Veri bekleniyor | - | 1.53 | 6 |
 | Patriotas - Union Magdalena | Kolombiya Primera B Clausura | 02:05 | Veri bekleniyor | - | 1.82 | 8 |
 | New York City - New York | ABD MLS | 02:30 | Veri bekleniyor | - | 1.64 | 8 |

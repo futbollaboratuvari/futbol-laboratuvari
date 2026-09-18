@@ -2,9 +2,9 @@
 
 Durum: warning
 Toplam tahmin: 1500
-Olculen tahmin: 314
-Bekleyen tahmin: 1186
-Kazanan: 177
+Olculen tahmin: 313
+Bekleyen tahmin: 1187
+Kazanan: 176
 Kaybeden: 137
 Skoru olup pending kalan: 1
 Son finalizer kontrolu: 1

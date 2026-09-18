@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.09.2026 23:44:24
+Oluşturma: 19.09.2026 01:44:39
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1186
-- Kazanan tahmin: 177
+- Bekleyen tahmin: 1187
+- Kazanan tahmin: 176
 - Kaybeden tahmin: 137
-- Lig sayısı: 286
+- Lig sayısı: 285
 - Seçenek sayısı: 9
 
 ## Öğrenme Mantığı
@@ -22,11 +22,11 @@ Oluşturma: 18.09.2026 23:44:24
 
 ## En Güçlü Seçenek Hafızası
 
-- KG Var: toplam 44, bekleyen 32, başarı %67, düz getiri %18, ağırlık 1
-- 2.5 Üst: toplam 158, bekleyen 104, başarı %59, düz getiri %7, ağırlık 1
-- 2.5 Alt: toplam 539, bekleyen 425, başarı %59, düz getiri %1, ağırlık 1
-- MS 2: toplam 234, bekleyen 195, başarı %54, düz getiri %4, ağırlık 1
-- MS 1: toplam 454, bekleyen 363, başarı %52, düz getiri %-18, ağırlık 1
+- KG Var: toplam 45, bekleyen 33, başarı %67, düz getiri %18, ağırlık 1
+- 2.5 Alt: toplam 544, bekleyen 430, başarı %59, düz getiri %1, ağırlık 1
+- 2.5 Üst: toplam 158, bekleyen 105, başarı %59, düz getiri %6, ağırlık 1
+- MS 2: toplam 229, bekleyen 190, başarı %54, düz getiri %4, ağırlık 1
+- MS 1: toplam 453, bekleyen 362, başarı %52, düz getiri %-18, ağırlık 1
 - MS X: toplam 12, bekleyen 8, başarı %50, düz getiri %22, ağırlık 1
 - KG Yok: toplam 22, bekleyen 22, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İkinci Yarı KG Var: toplam 22, bekleyen 22, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
@@ -34,19 +34,19 @@ Oluşturma: 18.09.2026 23:44:24
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-18 | Galler Premier Lig | Briton Ferry - Trefelin | KG Yok | pending | 54/100
-- 2026-09-18 | Kolombiya Primera A Clausura | Rionegro Aguil - Pereira | 2.5 Alt | pending | 52/100
-- 2026-09-18 | El Salvador Primera Lig Apertura | Inca-Aruba - Fuerte San Fran | MS 1 | pending | 56/100
-- 2026-09-18 | İrlanda 1.Lig | Wexford Youths - Cobh Ramblers | MS 1 | pending | 56/100
-- 2026-09-18 | Polonya 1.Lig | Polonia Bytom - Ruch Chorzow | MS X | pending | 43/100
-- 2026-09-18 | Kuzey İrlanda Championship | Dundela - Strabane Athlet | 2.5 Üst | pending | 53/100
-- 2026-09-18 | Kuzey İrlanda Championship | Newry City Afc - Annagh United | KG Var | pending | 54/100
-- 2026-09-18 | İngiltere Ulusal Lig | Yeovil - Solihull Moors | 2.5 Üst | pending | 80/100
-- 2026-09-18 | İngiltere Premier Lig | Brentford - Chelsea | KG Var | pending | 77/100
-- 2026-09-18 | Portekiz Kupa 2.Tur | Real Massama - Academica | KG Yok | pending | 52/100
-- 2026-09-18 | İspanya Tercera Ligi Grup 15 | Huarte - Aoiz | KG Yok | pending | 60/100
-- 2026-09-18 | Polonya Ekstraklasa | Wisla Krakow - Slask Wroclaw | KG Yok | pending | 54/100
-- 2026-09-18 | İtalya Serie A | Monza - Sassuolo | KG Var | pending | 77/100
-- 2026-09-18 | Fransa Ligue 1 | Monaco - Lens | KG Var | pending | 69/100
-- 2026-09-18 | İrlanda Premier Lig | Derry City - Galway United | KG Yok | pending | 54/100
+- 2026-09-19 | Meksika Ascenso MX Apertura | Tepatitlan De - Zacatecas | MS 2 | pending | 45/100
+- 2026-09-19 | Meksika Ascenso MX Apertura | Piratas - Venados Fc | MS 1 | pending | 58/100
+- 2026-09-19 | Honduras Ulusal Lig Apertura | Choloma - Estrella Roja | 2.5 Üst | pending | 73/100
+- 2026-09-19 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Sporting San Jo | 2.5 Alt | pending | 60/100
+- 2026-09-19 | Guatemala Ulusal Lig Apertura | Comunicaciones - Guastatoya | 2.5 Alt | pending | 73/100
+- 2026-09-19 | Meksika Liga MX Apertura | Fc Juarez - Tigres Uanl | 2.5 Alt | pending | 68/100
+- 2026-09-19 | Meksika Ascenso MX Apertura | Ca La Paz - Correcaminos Ua | MS 1 | pending | 53/100
+- 2026-09-19 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Defensa Justici | 2.5 Alt | pending | 58/100
+- 2026-09-19 | Kolombiya Primera A Clausura | Rionegro Aguil - Pereira | 2.5 Alt | pending | 52/100
+- 2026-09-19 | Honduras Ulusal Lig Apertura | Platense - Upnfm | 2.5 Alt | pending | 76/100
+- 2026-09-19 | Arjantin Primera C | Cambaceres - Jj Urquiza | MS 1 | pending | 42/100
+- 2026-09-19 | Paraguay Intermedia Lig | 3 De Noviembre - Guairena | 2.5 Alt | pending | 54/100
+- 2026-09-19 | Brezilya Serie B | Vila Nova - America Mineiro | MS 1 | pending | 66/100
+- 2026-09-19 | Bolivya Premier Lig | Independiente - San Antonio Bul | MS 1 | pending | 64/100
+- 2026-09-19 | Kolombiya Primera B Clausura | Patriotas - Union Magdalena | 2.5 Alt | pending | 56/100
 
