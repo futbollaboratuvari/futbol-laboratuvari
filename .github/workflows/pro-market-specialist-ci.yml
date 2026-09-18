@@ -10,6 +10,7 @@ on:
       - 'scripts/robot-exact-scoring.js'
       - 'scripts/build-pro-analysis-index.js'
       - 'scripts/official-pro-analysis.js'
+      - 'scripts/enrich-robot-official-markets.js'
       - 'analysis-insights-v1.js'
       - 'premium-analysis-v3.js'
       - 'scripts/export-high-value-json.js'
@@ -22,6 +23,7 @@ on:
       - 'tests/market-specialist-gates.test.js'
       - 'tests/pro-goal-market-bridge.test.js'
       - 'tests/iddaa-data-source.test.js'
+      - 'tests/official-market-enrichment.test.js'
       - 'tests/transparency-market-options.test.js'
       - 'tests/pro-analysis-index.test.js'
       - 'tests/pro-index-from-github.test.js'
@@ -62,6 +64,7 @@ jobs:
           node --check scripts/robot-exact-scoring.js
           node --check scripts/build-pro-analysis-index.js
           node --check scripts/official-pro-analysis.js
+          node --check scripts/enrich-robot-official-markets.js
           node --check analysis-insights-v1.js
           node --check premium-analysis-v3.js
           node --check scripts/export-high-value-json.js
@@ -71,6 +74,7 @@ jobs:
           node tests/market-specialist-gates.test.js
           node tests/pro-goal-market-bridge.test.js
           node tests/iddaa-data-source.test.js
+          node tests/official-market-enrichment.test.js
           node tests/transparency-market-options.test.js
           node tests/transparency-export.test.js
           node tests/pro-analysis-supabase-sync.test.js
