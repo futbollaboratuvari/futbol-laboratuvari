@@ -207,7 +207,6 @@
       summary: { ready_count: payload.summary?.robot_ready_count ?? 0 },
       matches: payload.matches.map((match) => ({ fixture_id: match.fixture_id, ...(match.live_analysis || {}) })),
     };
-    state.realtimeReady = true;
     render();
     return true;
   }
