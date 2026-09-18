@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.09.2026 22:40:05
+Oluşturma: 18.09.2026 22:43:25
 
 ## Özet
 
@@ -8,7 +8,7 @@ Oluşturma: 18.09.2026 22:40:05
 - Bekleyen tahmin: 1194
 - Kazanan tahmin: 174
 - Kaybeden tahmin: 132
-- Lig sayısı: 288
+- Lig sayısı: 286
 - Seçenek sayısı: 9
 
 ## Öğrenme Mantığı
@@ -38,7 +38,7 @@ Oluşturma: 18.09.2026 22:40:05
 - 2026-09-18 | Kolombiya Primera A Clausura | Rionegro Aguil - Pereira | 2.5 Alt | pending | 51/100
 - 2026-09-18 | El Salvador Primera Lig Apertura | Inca-Aruba - Fuerte San Fran | MS 1 | pending | 56/100
 - 2026-09-18 | İrlanda 1.Lig | Wexford Youths - Cobh Ramblers | MS 1 | pending | 56/100
-- 2026-09-18 | Polonya 1. Lig | Polonia Bytom - Ruch Chorzow | MS X | pending | 43/100
+- 2026-09-18 | Polonya 1.Lig | Polonia Bytom - Ruch Chorzow | MS X | pending | 43/100
 - 2026-09-18 | Kuzey İrlanda Championship | Dundela - Strabane Athlet | 2.5 Üst | pending | 53/100
 - 2026-09-18 | Kuzey İrlanda Championship | Newry City Afc - Annagh United | KG Var | pending | 54/100
 - 2026-09-18 | İngiltere Ulusal Lig | Yeovil - Solihull Moors | 2.5 Üst | pending | 80/100
