@@ -340,10 +340,13 @@ function goalMarketAdjustment(context = {}) {
       decision = strongestDecision(decision, "downgrade");
       reasons.push(`6+ Gol için veri kapsamı düşük (%${Math.round(dataCompleteness)}).`);
     }
-    if (goalConsensus !== null && goalConsensus < 0.44) {
+    if (goalConsensus === null) {
+      decision = strongestDecision(decision, "downgrade");
+      reasons.push("6+ Gol için doğrulanmış 2.5/KG çapraz piyasa mutabakatı oluşmadı.");
+    } else if (goalConsensus < 0.44) {
       decision = strongestDecision(decision, "block");
       reasons.push(`Çapraz gol mutabakatı ${Math.round(goalConsensus * 100)}/100; piyasa 6+ Gol ile güçlü biçimde çelişiyor.`);
-    } else if (goalConsensus !== null && goalConsensus < 0.52) {
+    } else if (goalConsensus < 0.52) {
       decision = strongestDecision(decision, "downgrade");
       reasons.push(`Çapraz gol mutabakatı ${Math.round(goalConsensus * 100)}/100; 6+ Gol için zayıf.`);
     }
