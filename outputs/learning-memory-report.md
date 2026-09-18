@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.09.2026 06:12:03
+Oluşturma: 18.09.2026 06:28:53
 
 ## Özet
 
@@ -23,14 +23,15 @@ Oluşturma: 18.09.2026 06:12:03
 ## En Güçlü Seçenek Hafızası
 
 - KG Var: toplam 13, bekleyen 1, başarı %67, düz getiri %18, ağırlık 1
-- 2.5 Üst: toplam 153, bekleyen 100, başarı %57, düz getiri %2, ağırlık 1
-- 2.5 Alt: toplam 585, bekleyen 465, başarı %56, düz getiri %-5, ağırlık 1
+- 2.5 Üst: toplam 154, bekleyen 101, başarı %57, düz getiri %2, ağırlık 1
+- 2.5 Alt: toplam 584, bekleyen 464, başarı %56, düz getiri %-5, ağırlık 1
 - MS 2: toplam 247, bekleyen 200, başarı %55, düz getiri %5, ağırlık 1
 - MS 1: toplam 493, bekleyen 392, başarı %51, düz getiri %-18, ağırlık 1
 - MS X: toplam 9, bekleyen 5, başarı %50, düz getiri %22, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-18 | Endonezya Süper Lig | Madura United - Psim Yogyakarta | 2.5 Üst | pending | 53/100
 - 2026-09-18 | Brezilya Serie B | Vila Nova - America Mineiro | 2.5 Üst | pending | 65/100
 - 2026-09-18 | İtalya Serie A | Monza - Sassuolo | MS 2 | pending | 61/100
 - 2026-09-18 | Galler Premier Lig 1.Aşama | Caernarfon - Cambrian | MS 1 | pending | 56/100
@@ -38,12 +39,11 @@ Oluşturma: 18.09.2026 06:12:03
 - 2026-09-18 | Cezayir 2.Lig Doğu | Mo Bejaia - Mo Constantine | 2.5 Alt | pending | 54/100
 - 2026-09-18 | Fransa Ligue 1 | Monaco - Lens | 2.5 Alt | pending | 66/100
 - 2026-09-18 | İspanya Primera Lig RFEF Grup 1 | Ud Logrones - Pontevedra | 2.5 Alt | pending | 54/100
-- 2026-09-18 | Portekiz Kupa 2.Tur | Real Massama - Academica | MS 2 | pending | 52/100
+- 2026-09-18 | Portekiz Kupa 2.Tur | Real Massama - Academica | MS 2 | pending | 54/100
 - 2026-09-18 | Paraguay Intermedia Lig | Depor Santani - Sol De America | 2.5 Alt | pending | 54/100
 - 2026-09-18 | Fransa Ligue 1 | Monaco - Lens | MS 1 | pending | 64/100
 - 2026-09-18 | Belçika Pro Lig | Gent - Standard Liege | 2.5 Üst | pending | 55/100
-- 2026-09-18 | İrlanda Premier Lig | Derry City - Galway United | MS 1 | pending | 48/100
+- 2026-09-18 | İrlanda Premier Lig | Derry City - Galway United | MS 1 | pending | 49/100
 - 2026-09-18 | İrlanda Premier Lig | Dundalk - Shelbourne | 2.5 Alt | pending | 47/100
-- 2026-09-18 | Galler Premier Lig 1.Aşama | Colwyn Bay - Barry Town | 2.5 Üst | pending | 53/100
-- 2026-09-18 | Galler Premier Lig 1.Aşama | Briton Ferry - Trefelin | MS 1 | pending | 53/100
+- 2026-09-18 | Galler Premier Lig 1.Aşama | Colwyn Bay - Barry Town | 2.5 Üst | pending | 54/100
 

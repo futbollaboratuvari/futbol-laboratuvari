@@ -3,15 +3,14 @@
 Gunler: 2026-09-18 / 2026-09-19
 Kaynak: fixtures.json
 Ham mac: 254
-Aktif mac: 246
+Aktif mac: 245
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 223
+Bultenden dusurulen mac: 9
+Bugun: 222
 Yarin: 23
 
 ## Baslamamis Maclar
-- 2026-09-18 06:15 | CONCACAF Orta Amerika Kupası Çeyrek Final | Depor. Olimpia (3) - (0) Firpo | scheduled | -
 - 2026-09-18 07:00 | Japonya J2 Lig | Vanraure - Tegevajaro Miya | scheduled | -
 - 2026-09-18 09:30 | Asya Oyunları Grup C | Filipinler U23 - Vietnam U23 | scheduled | -
 - 2026-09-18 11:00 | Çin Halk Cumhuriyeti 2.Lig Küme Düşme Grubu | Lanzhou Longyu - Wenzhou Fc | scheduled | -
