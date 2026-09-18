@@ -398,16 +398,16 @@ function processHtftOutput() {
     htft_picks_checked: evaluated.length,
     htft_picks_rejected: rejected.length,
     htft_picks_eligible: evaluated.length - rejected.length,
-    selection_policy: "Tüm doğrulanmış adaylar uzman v3 kapısından geçer; sonra en iyi 3 benzersiz maç seçilir.",
-    probability_policy: "Senaryo olasılığı değiştirilmez; uzman v3 yalnız doğrulanmış sinyallerle keep/downgrade/block kararı verir.",
+    selection_policy: "Tüm doğrulanmış adaylar uzman v4 kapısından geçer; sonra en iyi 3 benzersiz maç seçilir.",
+    probability_policy: "Senaryo olasılığı değiştirilmez; uzman v4 yalnız doğrulanmış sinyallerle keep/downgrade/block kararı verir.",
   };
   output.selected_count = output.picks.length;
   if (output.picks.length >= 2) {
     output.status = "ready";
-    output.message = "Uzman V3 kalite kapısından geçen en güçlü 1/2 ve 2/1 adayları resmî İddaa oranlarıyla seçildi.";
+    output.message = "Uzman V4 kalite kapısından geçen en güçlü 1/2 ve 2/1 adayları resmî İddaa oranlarıyla seçildi.";
   } else if (evaluated.length >= 2) {
     output.status = "insufficient_specialist_quality";
-    output.message = "Resmî yüksek oranlı İY/MS adayları bulundu ancak uzman V3 kalite kapısından yeterli seçim geçmedi.";
+    output.message = "Resmî yüksek oranlı İY/MS adayları bulundu ancak uzman V4 kalite kapısından yeterli seçim geçmedi.";
   }
   writeJson(htftPath, output);
   return { updated: true, pick_count: output.picks.length, checked_count: evaluated.length, rejected_count: rejected.length };

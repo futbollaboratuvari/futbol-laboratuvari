@@ -44,6 +44,23 @@ PRO Robot Futbol Laboratuvari'nin ucretli uyelik sisteminin ana analiz urunudur.
 
 ## PRO Robot Islem Gunlugu
 
+### 2026-09-18 - Ayrı Uzman Robot V4: kanıt kapsamı ve fail-closed kalite puanı
+
+- Amaç/kök neden: V3 uzman katmanında bazı eksik sinyaller kalite hesabında nötr/geçer davranabiliyor, ayrıca `downgrade/block` kararı verilmiş bir adayın specialist quality puanı bağımsız destek sayısı nedeniyle gereğinden yüksek kalabiliyordu. V4 bu iki açıklanabilirlik ve güvenlik açığını kapatır.
+- Sürüm: `market-specialist-gates-v4`. Ana PRO olasılık motoru, kullanıcıya gösterilen tahmin olasılıkları ve mevcut value/edge hesabı değiştirilmedi; V4 ayrı market uzman gate/postprocess katmanıdır.
+- Kanıt denetimi: Her uzman sinyali artık `available + ok` olarak ayrı izlenir. Eksik veri destek sayılmaz. Çıktılara `evidence_known_count`, `evidence_coverage_score`, `missing_evidence`, `support_count`, `support_total` ve `support_checks` tanıları eklendi.
+- 6+ Gol fail-closed kuralı: Poisson, 3.5+ geçmiş eğilimi, veri kapsamı, doğrulanmış gol aralığı fiyat seti ve çapraz gol mutabakatı beş ayrı kanıt ailesidir. 3'ten az kanıt ailesi mevcutsa `block`; tüm kanıtlar mevcut değilse en az `downgrade`. Eksik çapraz mutabakat artık olumlu destek gibi davranamaz.
+- 3.5 Üst kapsam kuralı: Beş kanıt ailesinden 2'den azı mevcutsa `block`; 4'ten azı mevcutsa en az `downgrade`. V3'teki lambda/geçmiş/çapraz mutabakat eşikleri korunur.
+- İY/MS 1/2 - 2/1 kritik kanıtları: Resmî bookmaker oran değeri, senaryo olasılığı, ilk yarı yön olasılığı ve maç sonu yön olasılığı artık kritik ve açıkça zorunludur. Bu alanlardan biri yoksa uzman kartı fail-closed `block` olur. Türetilmiş ilk yarı yönü ve doğrulanmamış oran yine kullanılamaz.
+- Kalite tavanı: `downgrade` kararında specialist quality en fazla 70, `block` kararında en fazla 40 olur. Orta kaynak/kadro riski tavanı 65, yüksek kaynak/kadro riski tavanı 35'tir. Böylece karar ile kalite puanı birbirini çürütmez.
+- Yüksek oran güvenliği: Yüksek İY/MS oranı tek başına kalite sinyali değildir. V3'teki `value_ratio`, resmî oran, yön olasılığı ve senaryo olasılığı kuralları korunup eksik kanıt durumunda daha sert fail-closed hale getirildi.
+- Etkilenen marketler: 3.5 Üst, 6+ Gol, 1/2 ve 2/1. KG, MS ve 2.5 genel uzman çelişki kuralları değiştirilmedi.
+- Provenance: Yalnız açık isimli/doğrulanmış market alanları ve resmî İddaa sinyalleri kullanılabilir. `raw_market_guess_odds`, anonim ham oran blokları ve doğrulanmamış market kimlikleri uzman desteği sayılmaz.
+- Etkilenen dosyalar: `scripts/market-specialist-gates.js`, `scripts/pro-market-specialist-postprocess.js`, `tests/market-specialist-gates.test.js`, `.github/workflows/high-odds-htft.yml`, `.github/workflows/pro-market-specialist-ci.yml`. Korunan bülten/UI dosyalarına dokunulmadı.
+- Test: İlk V4 CI run `35293990610`, yeni zorunlu HTFT yön kanıtlarını içermeyen eski test fixture'ını yakalayıp güvenli biçimde kırmızı oldu; üretim kodu gevşetilmedi, fixture yeni sözleşmeye göre tamamlandı. Düzeltme sonrası run `35294162593` Node 20 ve Node 24'te syntax, market specialist, pro-goal-market-bridge, high-odds HTFT, value gate, pre-match final check ve official BTTS regresyonlarının tamamını başarıyla geçti.
+- Geliştirme dalı / PR: `feat/pro-specialist-v4`, PR #63. Bu kayıt anında production'a merge edilmemiştir; canlı doğrulama merge sonrası aynı günlükte takip edilecektir.
+- Geri alma: V4 yalnız ayrı specialist gate/postprocess ve CI katmanlarını genişletir. Ana PRO olasılık motoruna veya korunan bülten/UI akışına dokunmadan V3 kurallarına geri alınabilir.
+
 ### 2026-09-18 - Ayrı Uzman Robot V3: çapraz gol mutabakatı ve HTFT value uyumu
 
 - Amaç: V2 uzman robotun 6+ Gol ve 1/2 - 2/1 seçimlerinde yalnız kendi market sinyallerine bakmasını engellemek; komşu doğrulanmış marketlerin genel maç resmiyle ve resmî uzun oran fiyatıyla tutarlılığı zorunlu kalite sinyali yapmak.
