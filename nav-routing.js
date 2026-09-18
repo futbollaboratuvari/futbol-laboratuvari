@@ -146,6 +146,7 @@
     ensureScript("server-membership-guard.js", "server-membership-guard-script");
     ensureScript("premium-analysis-v3-core.js", "premium-analysis-v3-core-script");
     ensureScript("premium-analysis-v3.js", "premium-analysis-v3-script");
+    ensureScript("analysis-insights-v1.js", "analysis-insights-v1-script");
     ensureScript("section-order.js", "section-order-script");
     ensureScript("hero-summary-sync.js", "hero-summary-sync-script");
     ensureScript("hero-vitrin.js", "hero-vitrin-script");
