@@ -165,6 +165,11 @@ jobs:
       - name: Ensure live JSON
         run: node scripts/ensure-live-json.js
 
+      - name: Enrich PRO robot with verified official markets
+        run: |
+          node tests/iddaa-data-source.test.js
+          node scripts/enrich-robot-official-markets.js
+
       - name: Apply PRO market specialist gates
         run: |
           node tests/pro-goal-market-bridge.test.js
