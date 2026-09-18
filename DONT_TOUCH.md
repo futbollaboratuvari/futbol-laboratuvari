@@ -42,6 +42,56 @@ PRO Robot Futbol Laboratuvari'nin ucretli uyelik sisteminin ana analiz urunudur.
 18. Kupon uygunlugunda oran tek basina kalite sinyali sayilmaz. Model olasiligi, piyasa olasiligi, edge ve beklenen deger birlikte kontrol edilir. Edge kaydi ile olasiliklardan turetilen edge belirgin bicimde celisirse secim kupona giremez.
 19. `pro-goal-market-bridge` tarafinda bagimsiz gol modeli farki ile kullaniciya gosterilen nihai olasilik farki ayni edge kavrami degildir. Kupon/value kapisinda kanonik edge her zaman `estimated_probability - market_probability` olur. Goal bridge eski/bagimsiz edge tasiyorsa kupon kapisi bunu nihai olasilik edge'ine normalize eder; diger marketlerde 1.5 puanlik tutarsizlik freni devam eder.
 
+## Robot Sistemi Sabit Envanteri
+
+Bu bolum Futbol Laboratuvari robot mimarisinin guncel ve sabit envanteridir. Yeni robot eklenmedikce toplam uzman robot sayisi degismez. Robotlarla ilgili yeni gelistirmelerde once bu bolum okunur.
+
+### Toplam uzman robot sayisi: 4
+
+Ortak PRO cekirdegi ve `robot-specialist-orchestrator-v3` ayri bir tahmin robotu sayilmaz. Bunlar dort uzman robotun ayni dogrulanmis veri altyapisini kullanmasini, marketlerin dogru uzmana yonlendirilmesini, block/downgrade/keep kararlarinin korunmasini ve sonuclarin tek PRO akisinda birlesmesini saglayan ortak beyin/orkestrasyon katmanidir.
+
+1. **KG Uzmani (`btts`)**
+   - Gorevi: Karsilikli Gol marketlerini analiz etmek.
+   - Kapsam: KG Var, KG Yok, Ilk Yari KG Var/Yok, Ikinci Yari KG Var/Yok ve dogrulanmis yari KG kombinasyonlari.
+   - Temel kontrol: Dogrulanmis market kimligi, takim gol/yeme egilimleri, ilgili veri kapsamı ve uzman kalite kapilari.
+
+2. **Gol Uzmani (`goals`)**
+   - Gorevi: Toplam gol ve yuksek gol marketlerini analiz etmek.
+   - Kapsam: 2.5 Alt/Ust, 3.5 Alt/Ust ve 6+ Gol.
+   - Temel kontrol: Poisson/toplam gol beklentisi, gecmis gol egilimleri, KG ve 2.5 gibi komsu marketlerle capraz mutabakat, veri kapsamı ve V4 fail-closed kalite kurallari.
+
+3. **IY/MS Uzmani (`htft`)**
+   - Gorevi: Ilk Yari / Mac Sonucu senaryolarini analiz etmek.
+   - Kapsam: Ozellikle 1/1, 1/2 ve 2/1; altyapi dogrulanmis diger IY/MS kombinasyonlarini da yonlendirebilir.
+   - Ozel feed: Dogrulanmis High Odds HTFT akisi mevcutsa `odds_verified:true` resmi Iddaa 1/2 ve 2/1 adaylari bu uzmana beslenir.
+   - Temel kontrol: Resmi oran, dogrulanmis ilk yari yonu, senaryo olasiligi, ilk yari yon olasiligi, mac sonu yon olasiligi, kimlik/tarih eslesmesi, kadro ve veri riskleri.
+   - Kural: Dogrulanmis upstream veri yoksa 1/1, 1/2 veya 2/1 uydurulmaz.
+
+4. **Taraf Uzmani (`match_result`)**
+   - Gorevi: Mac sonucu/taraf marketlerini analiz etmek.
+   - Kapsam: MS 1, MS X ve MS 2.
+   - Temel kontrol: Ana model sinyali, dogrulanmis market/oran verisi, veri kapsamı, kaynak ve risk kontrolleri.
+
+### Ortak beyin ve veri katmani
+
+- **PRO ortak cekirdegi:** Takim formu, mac intelligence, sakat/cezali-kadro verisi mevcutsa takim durumu, transfer/sezon etkileri, sonuc hafizasi, resmi/dogrulanmis oranlar, olasilik ve value/edge hesaplari gibi ortak girdileri hazirlar.
+- **Specialist Orchestrator V3:** Market adayini uygun uzmana yollar; uzman kararlarini kompakt bicimde saklar; block edilen marketin baska ham kaynaktan geri sizmasini engeller; uzmanlarin sonucunu tekrar tek PRO akisinda toplar.
+- **Supabase `fl-pro-analysis`:** Uyelik korumali PRO projection katmanidir. Uzman kararlarini koruyarak canli PRO verisini sunar.
+
+### Robot sayisina dahil olmayan ancak robot sistemine bagli moduller
+
+- **AI Seffaflik Merkezi:** Robot degildir. Uzman robotlarin dogrulanmis analiz seceneklerini kullaniciya cesitli marketlerle gosteren gorunum/tuketici katmanidir.
+- **Canli Guc Motoru (Team Power + Goal Power):** Dort uzman tahmin robotundan bagimsiz canli guc motorudur. Uzman robot sayisina dahil edilmez.
+- **Spor Toto sistemi:** Haftalik 15 maclik ayri tahmin/veri akisidir. Uzman PRO robot sayisina dahil edilmez.
+- **High Odds HTFT generator/feed:** Ayrica besinci robot sayilmaz. IY/MS Uzmanini dogrulanmis resmi 1/2 ve 2/1 adaylariyla besleyen ozel veri/aday uretim katmanidir.
+
+### Mimari sayim kurali
+
+- Resmi uzman robot sayisi: **4**.
+- PRO ortak cekirdek + orkestrator: **1 ortak beyin katmani**, robot sayisina dahil degil.
+- Canli Guc, Spor Toto ve AI Seffaflik: ilgili urun/motor/gorunum katmanlari, dort uzman robotun sayimina dahil degil.
+- Yeni bir uzman robot eklenecekse bu toplam sayi, gorev tanimi, market kapsami, veri kaynagi, test ve canli dogrulama bilgisi bu dosyada guncellenmeden is tamamlanmis sayilmaz.
+
 ## PRO Robot Islem Gunlugu
 
 ### 2026-09-18 - IY/MS uzman robotu production dogrulama kapanisi
