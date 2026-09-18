@@ -19,6 +19,11 @@ assert(cache.includes('loadScript("live-power-center-v1.js", "live-power-center-
 assert(nav.includes('ensureScript("live-power-center-v1.js", "live-power-center-v1-script")'), "navigation runtime must retain live power fallback");
 assert(livePower.includes("./data/live-power-series.json"), "live power UI must fetch live-power-series.json");
 assert(livePower.includes("./data/live-match-analysis.json"), "live power UI must fetch live-match-analysis.json");
+assert(livePower.includes("https://lnngvkitcwwgrljtjwsd.supabase.co"), "live power UI must use Supabase realtime project");
+assert(livePower.includes("live_match_state"), "live power UI must read Supabase live_match_state");
+assert(livePower.includes("live-match-analysis"), "live power UI must subscribe to live analysis topic");
+assert(livePower.includes("@supabase/supabase-js@2.107.0"), "Supabase browser client must be version pinned");
+assert(livePower.includes("loadStaticFallback"), "live power UI must retain static fallback");
 assert(livePower.includes("Team Power + Goal Power + Canlı Analiz Robotu"), "live analysis robot UI heading missing");
 assert(livePower.includes("Canlı Maç Analiz Robotu"), "live analysis robot detail card missing");
 assert(livePower.includes("state.root.id = 'live-power-center'"), "live power reload must preserve stable anchor");
