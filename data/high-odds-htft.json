@@ -1,10 +1,9 @@
 {
-  "generated_at": "2026-09-18T21:02:49.130Z",
+  "generated_at": "2026-09-18T23:24:50.185Z",
   "date": "2026-09-19",
-  "requested_date": "2026-09-18",
-  "date_fallback_used": true,
+  "requested_date": "2026-09-19",
+  "date_fallback_used": false,
   "evaluated_dates": [
-    "2026-09-18",
     "2026-09-19"
   ],
   "engine": "Futbol Laboratuvarı Yüksek Oran İY/MS v4",
@@ -17,15 +16,15 @@
   ],
   "scan_count": 24,
   "scheduled_scan_count": 22,
-  "official_match_count": 1149,
+  "official_match_count": 1144,
   "official_htft_match_count": 175,
   "official_high_odds_match_count": 175,
-  "identity_match_count": 10,
+  "identity_match_count": 9,
   "matched_by_official_id_count": 0,
   "matched_by_date_teams_count": 0,
-  "matched_by_date_time_similarity_count": 10,
+  "matched_by_date_time_similarity_count": 9,
   "ambiguous_identity_count": 0,
-  "unmatched_identity_count": 12,
+  "unmatched_identity_count": 13,
   "candidate_count": 2,
   "selected_count": 1,
   "target_card_count": 3,
@@ -46,7 +45,7 @@
       "away": "New York",
       "match_name": "New York City VS New York",
       "market": "2/1",
-      "model_confidence": 72,
+      "model_confidence": 71,
       "scenario_probability": 8.5,
       "bookmaker_odds": 21.95,
       "real_odds": 21.95,
@@ -58,11 +57,11 @@
       "source_model_score": 70,
       "first_half_signal_source": "official_iddaa_first_half",
       "first_half_signal_verified": true,
-      "openness_score": 0.625,
-      "reversal_joint_probability": 11.7,
-      "first_half_direction_probability": 23.9,
-      "full_time_direction_probability": 48.8,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %70, ana model gücü %70. Market uzman kararı (downgrade): İlk yarı yön desteği sınırlı (%23.9). Resmî maç eşleşmesi benzerlik ile %80 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil.",
+      "openness_score": 0.609,
+      "reversal_joint_probability": 11.4,
+      "first_half_direction_probability": 22.5,
+      "full_time_direction_probability": 50.8,
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %70, ana model gücü %70. Market uzman kararı (downgrade): İlk yarı yön desteği sınırlı (%22.5). Resmî maç eşleşmesi benzerlik ile %80 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil.",
       "specialist_decision": "downgrade",
       "specialist_eligible": true,
       "specialist_quality_score": 65,
@@ -125,12 +124,12 @@
         "implied_probability": 4.56,
         "mode": "htft_reversal_gate_v4",
         "reasons": [
-          "İlk yarı yön desteği sınırlı (%23.9).",
+          "İlk yarı yön desteği sınırlı (%22.5).",
           "Resmî maç eşleşmesi benzerlik ile %80 güven seviyesinde yapıldı.",
           "Kadro/ilk 11 verisi tam güvenli değil."
         ],
-        "original_model_score": 76,
-        "adjusted_model_score": 72
+        "original_model_score": 75,
+        "adjusted_model_score": 71
       }
     }
   ],
@@ -141,7 +140,7 @@
       "bookmaker_odds": 28,
       "specialist_decision": "block",
       "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %64, ana model gücü %75. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %18.2. Açık oyun skoru 45/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%64). İlk yarı yön desteği sınırlı (%18.2). Kadro/ilk 11 verisi tam güvenli değil."
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %64, ana model gücü %75. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %18.6. Açık oyun skoru 45/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%64). İlk yarı yön desteği sınırlı (%18.6). Kadro/ilk 11 verisi tam güvenli değil."
     }
   ],
   "market_specialist": {
