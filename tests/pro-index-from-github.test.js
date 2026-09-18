@@ -98,13 +98,23 @@ assert.match(
 );
 assert.match(
   siteScript,
-  /const analysisDatabaseRow = \(raw\) =>/,
-  "Maç Kayıtları görünümü doğrulanmış sonuçlardan ayrı tablo satırı üretmeli",
+  /const MATCH_RECORDS_SUMMARY_PATH = "\.\/data\/match-records-summary\.json"/,
+  "Maç Kayıtları Sonuçlar bölümünden ayrı kompakt arşiv kaynağı kullanmalı",
 );
 assert.match(
   siteScript,
-  /completed\.slice\(0, 30\)\.map\(analysisDatabaseRow\)/,
-  "Maç Kayıtları mevcut kompakt results-summary akışını kullanmalı",
+  /const loadMatchRecords = async \(\) =>/,
+  "Maç Kayıtları için bağımsız yükleme katmanı bulunmalı",
+);
+assert.match(
+  siteScript,
+  /databaseBody\.dataset\.source = "match-records-summary"/,
+  "Canlı DOM Maç Kayıtları veri kaynağını açıkça işaretlemeli",
+);
+assert.equal(
+  siteScript.includes("completed.slice(0, 30).map(analysisDatabaseRow)"),
+  false,
+  "Maç Kayıtları doğrulanmış Sonuçlar listesinin kopyası olmamalı",
 );
 assert.equal(
   siteScript.includes("./data/tahmin_gecmisi.json"),
