@@ -120,7 +120,7 @@ function setCanonicalOdds(target, market) {
     const odd = byLabel.get(fold(label));
     if (odd !== null && odd !== undefined) target[key] = odd;
   };
-  const labelToken = (value) => fold(value).replace(/[^a-z0-9]+/g, " ").trim();
+  const labelToken = (value) => fold(String(value ?? "").replace(/\+/g, " plus ")).replace(/[^a-z0-9]+/g, " ").trim();
   const assignMatching = (key, patterns) => {
     for (const outcome of market.outcomes) {
       const token = labelToken(outcome.label);
@@ -171,7 +171,6 @@ function setCanonicalOdds(target, market) {
   // Bazı bültenlerde 6+ ayrı "gol aralığı" sonucu olarak gelir.
   // Başlığa güvenmek yerine açık outcome etiketini doğrularız.
   assignMatching("goals6plus", [
-    /^6$/,
     /^6 gol$/,
     /^6 plus$/,
     /^6 ve (ustu|uzeri)$/,
