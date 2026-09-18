@@ -10,6 +10,7 @@ const cache = read("cache-version.js");
 const nav = read("nav-routing.js");
 const livePower = read("live-power-center-v1.js");
 const payload = JSON.parse(read(path.join("data", "live-power-series.json")));
+const analysisPayload = JSON.parse(read(path.join("data", "live-match-analysis.json")));
 
 assert(index.includes('id="live-power-center"'), "index.html must contain permanent #live-power-center anchor");
 assert(index.includes('id="live-power-center-v1-script"'), "index.html must directly load live-power-center-v1.js");
@@ -17,9 +18,13 @@ assert(index.includes("live-power-center-v1.js?v="), "live power direct script m
 assert(cache.includes('loadScript("live-power-center-v1.js", "live-power-center-v1-script")'), "cache loader must retain live power fallback");
 assert(nav.includes('ensureScript("live-power-center-v1.js", "live-power-center-v1-script")'), "navigation runtime must retain live power fallback");
 assert(livePower.includes("./data/live-power-series.json"), "live power UI must fetch live-power-series.json");
-assert(livePower.includes("Team Power + Goal Power"), "live power UI heading missing");
+assert(livePower.includes("./data/live-match-analysis.json"), "live power UI must fetch live-match-analysis.json");
+assert(livePower.includes("Team Power + Goal Power + Canlı Analiz Robotu"), "live analysis robot UI heading missing");
+assert(livePower.includes("Canlı Maç Analiz Robotu"), "live analysis robot detail card missing");
 assert(livePower.includes("state.root.id = 'live-power-center'"), "live power reload must preserve stable anchor");
 assert(Array.isArray(payload.matches), "live-power-series.json matches must be an array");
+assert.equal(analysisPayload.robot_version, "live-match-analysis-robot-v1", "live analysis robot version mismatch");
+assert(Array.isArray(analysisPayload.matches), "live-match-analysis.json matches must be an array");
 
 for (const match of payload.matches) {
   const snapshots = Array.isArray(match.snapshots) ? match.snapshots : [];
