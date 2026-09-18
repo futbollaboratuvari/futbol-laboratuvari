@@ -1,7 +1,7 @@
 "use strict";
 
 const { canonicalMarket, htftAdjustment } = require("../market-specialist-gates");
-const { familyForMarket, finite, resultEnvelope } = require("./shared");
+const { compactSpecialistCandidate, familyForMarket, finite, resultEnvelope } = require("./shared");
 
 function runHtftSpecialist(item, candidates) {
   const rows = candidates
@@ -9,21 +9,20 @@ function runHtftSpecialist(item, candidates) {
     .map((candidate) => {
       const market = canonicalMarket(candidate.market);
       if (!["1/2", "2/1"].includes(market)) {
-        return {
+        const adjustment = {
+          version: "market-specialist-gates-v4",
+          market,
+          decision: "keep",
+          eligible: true,
+          mode: "htft_standard_route",
+          reasons: ["İY/MS seçimi ayrı uzman robota yönlendirildi; mevcut ana model olasılığı değiştirilmedi."],
+        };
+        return compactSpecialistCandidate(candidate, {
           ...candidate,
-          specialist_robot: "htft",
+          market_specialist: adjustment,
           specialist_decision: "keep",
           specialist_eligible: true,
-          specialist_quality_score: null,
-          market_specialist: {
-            version: "market-specialist-gates-v4",
-            market,
-            decision: "keep",
-            eligible: true,
-            mode: "htft_standard_route",
-            reasons: ["İY/MS seçimi ayrı uzman robota yönlendirildi; mevcut ana model olasılığı değiştirilmedi."],
-          },
-        };
+        }, "htft");
       }
 
       const adjustment = htftAdjustment({
@@ -44,14 +43,13 @@ function runHtftSpecialist(item, candidates) {
         lineupRisk: item?.lineup_risk_level || item?.team_intelligence?.lineup_risk_level,
         squadRisk: item?.squad_risk_level || item?.team_intelligence?.squad_risk_level,
       });
-      return {
+      return compactSpecialistCandidate(candidate, {
         ...candidate,
-        specialist_robot: "htft",
+        market_specialist: adjustment,
         specialist_decision: adjustment.decision,
         specialist_eligible: adjustment.eligible,
         specialist_quality_score: adjustment.quality_score,
-        market_specialist: adjustment,
-      };
+      }, "htft");
     });
   return resultEnvelope("htft", "İY/MS Uzmanı", rows);
 }
