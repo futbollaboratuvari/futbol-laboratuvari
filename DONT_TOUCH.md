@@ -45,6 +45,20 @@ PRO Robot Futbol Laboratuvari'nin ucretli uyelik sisteminin ana analiz urunudur.
 ## PRO Robot Islem Gunlugu
 
 
+### 2026-09-18 - Analiz zinciri filtre ayrımı ve korumalı PRO taşıma düzeltmesi
+
+- Amaç/kök neden: Güncel data/robot-analysis.json yaklaşık 7,5 MB seviyesine çıktı. Korumalı backend server-lib/pro-index-from-github.js dosyayı 4 MB ile sınırladığı için GitHub main üzerindeki güncel PRO çıktısı remote_pro_payload_too_large ile reddedilebiliyor ve /api/pro-analysis eski deployment fallback indeksine düşebiliyordu. Ayrıca analiz görünürlüğü ile kupon uygunluğu bazı sunum katmanlarında yeterince açık ayrılmıyordu. İncelemede başlamamış 246 maçın 221'inde gerçek/uygun market analizi, 32'sinde güçlü PRO seviyesi bulunurken güncel kupon adayı 0 görüldü; kupon yokluğu analiz yokluğu olarak yorumlanmamalıdır.
+- Yapılan değişiklik: Korumalı robot kaynak taşıma limiti 4 MB'den 12 MB'ye, robot fetch timeout'u 6 saniyeden 12 saniyeye çıkarıldı. Kompakt PRO projection artık her kayıt için analysis_visible, analysis_tier (coupon / pro_ready / watch / filtered) ve coupon_filter_reason üretir. Canlı Maç Yorumları ile AI Şeffaflık Merkezi kupon filtresinden bağımsız olarak gerçek analizleri gösterir; kupon kartı yalnız coupon/pro_ready katmanından seçilir. Başlamış maçlar ve Değerli market yok / Oynama benzeri geçersiz market kayıtları görünür analiz listesinden çıkarılır.
+- Etkilenen dosyalar/akışlar: server-lib/pro-index-from-github.js, scripts/build-pro-analysis-index.js, script.js, analysis-insights-v1.js, tests/pro-index-from-github.test.js. Akış: GitHub main robot-analysis -> Vercel korumalı projection -> üyelik doğrulaması -> fl:pro-analysis-ready -> Maç Yorumları / AI Şeffaflık. Kupon üretimi ayrı ve sıkı kapı olarak korunur.
+- Etkilenen marketler: Mevcut tüm doğrulanmış PRO marketlerinin görünürlük sınıflandırması etkilenir. KG, 2.5 Alt/Üst, 3.5 Alt/Üst, 6+ Gol, İlk Yarı KG, İkinci Yarı KG, İY/MS ve taraf marketlerinin eşik/model hesabı değiştirilmedi.
+- Provenance: raw_market_guess_odds, etiketsiz ham bloklar veya tahmini market kimliği görünürlük ya da kupon için doğrulanmış kanıt sayılmaz. Yalnız mevcut doğrulanmış market alanları ve korumalı PRO projection kullanılır.
+- Kupon güvenliği: MIN_COUPON_ODD=1.45, model/data/edge/EV, risk ve bağımsız kanıt kapıları değiştirilmedi. Kupona girmeyen analiz yalnız pro_ready veya watch etiketiyle gösterilir; kupon adayı diye sunulmaz.
+- Test: Hedefli sınıflandırma testi PRO-ready kaydı görünür, bağımsız kanıtı sınırlı watch kaydı görünür, Değerli market yok kaydı filtered/gizli olarak doğruladı. 8 MB sentetik robot payload regresyonu eklendi; bu test eski 4 MB sınırında başarısız olur. script.js ve analysis-insights-v1.js görünürlük sözleşmesi de testte kilitlendi.
+- Canlı doğrulama: Bu kayıt PR öncesi aşamadadır. Merge sonrası GitHub Pages build/deploy ve Vercel production backend deploy'un aynı merge commitinde başarıyla tamamlanması kontrol edilecek; sonuç ayrı kapanış kaydıyla güncellenecek.
+- Geliştirme dalı: fix/pro-analysis-filter-pipeline-20260918.
+- Geri alma: Transport sınırı ve analiz sınıflandırma alanları ayrık katmandadır; robot olasılık motoru ve kupon eşikleri değişmedi. İlgili PR revert edilerek önceki taşıma/görünürlük davranışına dönülebilir.
+
+
 ### 2026-09-18 - Canlı analiz görünürlük ve AI Şeffaflık bağlantısı
 
 - Amaç/kök neden: GitHub Pages güncel main commitini başarıyla yayımlamasına rağmen analysis-insights-v1.js hiçbir canlı runtime loader tarafından çağrılmıyordu; bu nedenle üst menüde AI Şeffaflık Merkezi bağlantısı varken hedef bölüm oluşturulmuyordu. Ayrıca ana analiz görünümündeki ortak PRO normalizasyonu eski market/score alanlarına bağımlıydı ve güncel korumalı projection'ın recommended_market/model_score/probability_source sözleşmesini doğrudan tanımıyordu.
