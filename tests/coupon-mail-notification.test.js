@@ -33,7 +33,7 @@ function validLeg(index, suffix = "") {
     league: "Test Ligi",
     start_time: "20:00",
     recommended_market: index % 2 ? "KG Var" : "2.5 Üst",
-    estimated_odds: index % 2 ? "1.80" : "1.70",
+    estimated_odds: index % 2 ? "1.80" : "1.75",
     model_score: 75,
     analysis_score: 75,
     estimated_probability: 60,
