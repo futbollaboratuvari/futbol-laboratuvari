@@ -119,7 +119,7 @@
         const odd = finite(option?.odd);
         const probability = finite(option?.estimated_probability);
         const score = finite(option?.model_score);
-        if (!market || odd === null || probability === null || score === null) return false;
+        if (!market || odd === null || probability === null || score === null) return false;\n        if (odd < 1.45) return false;
         if (option?.specialist_eligible === false || clean(option?.specialist_decision) === "block") return false;
         if (option?.independent_evidence === false) return false;
         if (score < 38) return false;
