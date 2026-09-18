@@ -265,6 +265,52 @@ function couponEligibility(item, modelScore, dataCompleteness, market) {
   });
 }
 
+function analysisClassification(item, modelScore, dataCompleteness, market, includeInCoupon) {
+  const normalized = {
+    ...item,
+    model_score: modelScore,
+    data_completeness: dataCompleteness,
+    recommended_market: market,
+    include_in_coupon: includeInCoupon,
+  };
+
+  if (!couponRules.isWatchView(normalized)) {
+    const reason = !couponRules.validMarket(normalized)
+      ? "Doğrulanmış/uygun market seçimi oluşmadı."
+      : modelScore === null
+        ? "Model skoru oluşmadı."
+        : dataCompleteness === null
+          ? "Veri kapsamı oluşmadı."
+          : "Analiz görünürlük sözleşmesini karşılamadı.";
+    return { analysis_visible: false, analysis_tier: "filtered", coupon_filter_reason: reason };
+  }
+
+  if (couponRules.isCouponEligible(normalized)) {
+    return { analysis_visible: true, analysis_tier: "coupon", coupon_filter_reason: "Kupon kalite ve değer kapıları geçti." };
+  }
+
+  if (couponRules.isProReadyFallback(normalized)) {
+    const quality = couponRules.valueQuality(normalized);
+    return {
+      analysis_visible: true,
+      analysis_tier: "pro_ready",
+      coupon_filter_reason: quality.pass
+        ? "Doğrulanmış PRO görüşü hazır; kaynak kupon bayrağı kapalı olduğu için kupona alınmadı."
+        : quality.reason,
+    };
+  }
+
+  const quality = couponRules.valueQuality(normalized);
+  let reason = quality.reason;
+  if (!normalized.independent_evidence) reason = "Bağımsız veri kanıtı sınırlı; analiz izleme katmanında gösterilir, kupona alınmaz.";
+  else if (couponRules.hasBlockingRisk(normalized)) reason = "Risk kapısı kuponu engelledi; analiz izleme katmanında gösterilir.";
+  return {
+    analysis_visible: true,
+    analysis_tier: "watch",
+    coupon_filter_reason: reason || "Analiz mevcut; kupon kalite eşiği tamamlanmadı.",
+  };
+}
+
 function compactStatus(record) {
   if (!record || typeof record !== "object") return null;
   const names = (value, count = 8) => (Array.isArray(value) ? value : [])
@@ -426,10 +472,13 @@ function selectProMatches(matches) {
 function compactMatch(item, parent) {
   const teams = teamsOf(item);
   const date = String(item.date || parent.date || "").slice(0, 10);
-  const modelScore = finite(item.model_score ?? item.analysis_score ?? item.confidence_score) || 0;
-  const dataCompleteness = finite(item.data_completeness) || 0;
+  const rawModelScore = finite(item.model_score ?? item.analysis_score ?? item.confidence_score);
+  const rawDataCompleteness = finite(item.data_completeness);
+  const modelScore = rawModelScore ?? 0;
+  const dataCompleteness = rawDataCompleteness ?? 0;
   const market = String(item.recommended_market || item.market || "Değerli market yok");
   const includeInCoupon = couponEligibility(item, modelScore, dataCompleteness, market);
+  const classification = analysisClassification(item, rawModelScore, rawDataCompleteness, market, includeInCoupon);
   const signals = (Array.isArray(item.signals) && item.signals.length ? item.signals
     : Array.isArray(item.pro_signals) && item.pro_signals.length ? item.pro_signals
       : item.robot_comment ? [item.robot_comment] : [])
@@ -466,6 +515,9 @@ function compactMatch(item, parent) {
     recommended_odd: finite(item.estimated_odds || item.odds),
     analysis_options: compactAnalysisOptions(item),
     include_in_coupon: includeInCoupon,
+    analysis_visible: classification.analysis_visible,
+    analysis_tier: classification.analysis_tier,
+    coupon_filter_reason: classification.coupon_filter_reason,
     value_label: String(item.value_label || "Piyasa ile Uyumlu"),
     metrics: compactMetrics(item),
     ...(bttsAnalysis ? { btts_analysis: bttsAnalysis } : {}),
@@ -484,9 +536,10 @@ function buildProAnalysisIndex() {
   const history = readJson(historyFile, { completed_items: [], performance: {} });
   const sourceMatches = Array.isArray(robot.matches) ? robot.matches : [];
   const matches = selectProMatches(sourceMatches).map((item) => compactMatch(item, robot));
-  const ready = matches.filter((item) => item.model_score >= 60
-    && item.data_completeness >= 35
-    && !/değerli market yok|degerli market yok|oynama/i.test(item.recommended_market));
+  const visible = matches.filter((item) => item.analysis_visible === true);
+  const ready = matches.filter((item) => item.analysis_tier === "coupon" || item.analysis_tier === "pro_ready");
+  const watch = matches.filter((item) => item.analysis_tier === "watch");
+  const filtered = matches.filter((item) => item.analysis_visible === false);
   const payload = {
     schema_version: 2,
     generated_at: robot.generated_at || new Date().toISOString(),
@@ -499,7 +552,10 @@ function buildProAnalysisIndex() {
     summary: {
       match_count: matches.length,
       source_match_count: sourceMatches.length,
+      analysis_visible_count: visible.length,
       pro_ready_count: ready.length,
+      watch_count: watch.length,
+      filtered_count: filtered.length,
       coupon_candidate_count: matches.filter((item) => item.include_in_coupon).length,
       matchup_verified_count: matches.filter((item) => Number(item.team_intelligence?.matchup_analysis?.coverage_score || 0) >= 65).length,
       average_data_completeness: matches.length
