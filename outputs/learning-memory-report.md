@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.09.2026 20:10:40
+Oluşturma: 18.09.2026 22:40:05
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1185
-- Kazanan tahmin: 177
-- Kaybeden tahmin: 138
-- Lig sayısı: 289
+- Bekleyen tahmin: 1194
+- Kazanan tahmin: 174
+- Kaybeden tahmin: 132
+- Lig sayısı: 288
 - Seçenek sayısı: 9
 
 ## Öğrenme Mantığı
@@ -22,31 +22,31 @@ Oluşturma: 18.09.2026 20:10:40
 
 ## En Güçlü Seçenek Hafızası
 
-- KG Var: toplam 39, bekleyen 27, başarı %67, düz getiri %18, ağırlık 1
-- 2.5 Üst: toplam 157, bekleyen 104, başarı %60, düz getiri %10, ağırlık 1
-- 2.5 Alt: toplam 540, bekleyen 428, başarı %58, düz getiri %0, ağırlık 1
-- MS 2: toplam 238, bekleyen 197, başarı %54, düz getiri %2, ağırlık 1
-- MS 1: toplam 462, bekleyen 369, başarı %52, düz getiri %-17, ağırlık 1
-- MS X: toplam 11, bekleyen 7, başarı %50, düz getiri %22, ağırlık 1
+- KG Var: toplam 44, bekleyen 32, başarı %67, düz getiri %18, ağırlık 1
+- 2.5 Üst: toplam 158, bekleyen 105, başarı %60, düz getiri %10, ağırlık 1
+- 2.5 Alt: toplam 539, bekleyen 429, başarı %59, düz getiri %1, ağırlık 1
+- MS 2: toplam 234, bekleyen 196, başarı %55, düz getiri %7, ağırlık 1
+- MS 1: toplam 454, bekleyen 365, başarı %52, düz getiri %-17, ağırlık 1
+- MS X: toplam 12, bekleyen 8, başarı %50, düz getiri %22, ağırlık 1
+- KG Yok: toplam 22, bekleyen 22, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İkinci Yarı KG Var: toplam 22, bekleyen 22, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - 3.5 Üst: toplam 15, bekleyen 15, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- KG Yok: toplam 16, bekleyen 16, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-18 | İsviçre Challenge Lig | Sc Kriens - Etoile Carouge | İkinci Yarı KG Var | pending | 57/100
-- 2026-09-18 | Almanya Kadınlar Bundesliga | Hoffenheim (K) - Wolfsburg (K) | 3.5 Üst | pending | 60/100
-- 2026-09-18 | Türkiye TFF 1. Lig | Muğlaspor - Iğdır Fk | MS 2 | pending | 53/100
-- 2026-09-18 | Norveç Eliteserien | Sarpsborg - Kfum Oslo | 2.5 Alt | pending | 61/100
-- 2026-09-18 | Litvanya 1.Lig | Lietava Jonava - Tauras | 2.5 Alt | pending | 49/100
-- 2026-09-18 | Ürdün 1.Lig | Jerash - Al Sahl Horan | MS 1 | pending | 47/100
-- 2026-09-18 | Almanya 2. Bundesliga | Wolfsburg - Darmstadt | İkinci Yarı KG Var | pending | 53/100
-- 2026-09-18 | Finlandiya Ykkonen | Haka - Klubi 04 | 2.5 Alt | pending | 59/100
-- 2026-09-18 | Finlandiya Veikkausliiga | Oulu - Inter Turku | İkinci Yarı KG Var | pending | 57/100
-- 2026-09-18 | Peru Premier Lig Clausura | Alianza Atleti - Comerciantes Un | KG Var | pending | 56/100
-- 2026-09-18 | Danimarka 2.Lig | Skive - B93 Kopenhag | İkinci Yarı KG Var | pending | 52/100
-- 2026-09-18 | Ürdün Premier Lig | Al Wihdat Amma - Al-Ramtha | 2.5 Üst | pending | 53/100
-- 2026-09-18 | Litvanya 1.Lig | Lietava Jonava - Tauras | MS 1 | pending | 48/100
-- 2026-09-18 | Avusturya 1.Lig | Floridsdorfer - Liefering | 2.5 Alt | pending | 48/100
-- 2026-09-18 | Almanya 3. Lig | Verl 1924 - Würzburger Kick | İkinci Yarı KG Var | pending | 59/100
+- 2026-09-18 | Galler Premier Lig | Briton Ferry - Trefelin | KG Yok | pending | 54/100
+- 2026-09-18 | Kolombiya Primera A Clausura | Rionegro Aguil - Pereira | 2.5 Alt | pending | 51/100
+- 2026-09-18 | El Salvador Primera Lig Apertura | Inca-Aruba - Fuerte San Fran | MS 1 | pending | 56/100
+- 2026-09-18 | İrlanda 1.Lig | Wexford Youths - Cobh Ramblers | MS 1 | pending | 56/100
+- 2026-09-18 | Polonya 1. Lig | Polonia Bytom - Ruch Chorzow | MS X | pending | 43/100
+- 2026-09-18 | Kuzey İrlanda Championship | Dundela - Strabane Athlet | 2.5 Üst | pending | 53/100
+- 2026-09-18 | Kuzey İrlanda Championship | Newry City Afc - Annagh United | KG Var | pending | 54/100
+- 2026-09-18 | İngiltere Ulusal Lig | Yeovil - Solihull Moors | 2.5 Üst | pending | 80/100
+- 2026-09-18 | İngiltere Premier Lig | Brentford - Chelsea | KG Var | pending | 77/100
+- 2026-09-18 | Portekiz Kupa 2.Tur | Real Massama - Academica | KG Yok | pending | 52/100
+- 2026-09-18 | İspanya Tercera Ligi Grup 15 | Huarte - Aoiz | KG Yok | pending | 60/100
+- 2026-09-18 | Polonya Ekstraklasa | Wisla Krakow - Slask Wroclaw | KG Yok | pending | 54/100
+- 2026-09-18 | İtalya Serie A | Monza - Sassuolo | KG Var | pending | 77/100
+- 2026-09-18 | Fransa Ligue 1 | Monaco - Lens | KG Var | pending | 69/100
+- 2026-09-18 | İrlanda Premier Lig | Derry City - Galway United | KG Yok | pending | 54/100
 

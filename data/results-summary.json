@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:10:45.495Z",
+  "generated_at": "2026-09-18T19:40:15.002Z",
   "date": "2026-09-18",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -817,49 +817,49 @@
   ],
   "performance": {
     "prediction_count": 1500,
-    "measured_count": 315,
-    "pending_count": 1185,
-    "won_count": 177,
-    "lost_count": 138,
+    "measured_count": 306,
+    "pending_count": 1194,
+    "won_count": 174,
+    "lost_count": 132,
     "void_count": 0,
-    "success_rate": 56,
-    "probability_sample_count": 315,
-    "brier_score": 0.2399,
-    "baseline_brier_score": 0.2462,
-    "brier_skill_score": 0.0253,
+    "success_rate": 57,
+    "probability_sample_count": 306,
+    "brier_score": 0.2402,
+    "baseline_brier_score": 0.2453,
+    "brier_skill_score": 0.0206,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
         "lower": 30,
         "upper": 39,
-        "predictions": 34,
+        "predictions": 33,
         "won": 12,
         "average_probability": 36.6,
-        "observed_rate": 35.3
+        "observed_rate": 36.4
       },
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 117,
-        "won": 64,
+        "predictions": 114,
+        "won": 63,
         "average_probability": 45.4,
-        "observed_rate": 54.7
+        "observed_rate": 55.3
       },
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 120,
-        "won": 68,
+        "predictions": 116,
+        "won": 67,
         "average_probability": 54.5,
-        "observed_rate": 56.7
+        "observed_rate": 57.8
       },
       {
         "lower": 60,
         "upper": 69,
-        "predictions": 42,
-        "won": 31,
+        "predictions": 41,
+        "won": 30,
         "average_probability": 63,
-        "observed_rate": 73.8
+        "observed_rate": 73.2
       },
       {
         "lower": 70,
@@ -875,18 +875,18 @@
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 165,
+        "measured": 163,
         "won": 97,
-        "lost": 68,
-        "success_rate": 59
+        "lost": 66,
+        "success_rate": 60
       },
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 138,
-        "won": 72,
-        "lost": 66,
-        "success_rate": 52
+        "measured": 131,
+        "won": 69,
+        "lost": 62,
+        "success_rate": 53
       },
       {
         "key": "btts",
