@@ -24,6 +24,8 @@ assert(livePower.includes("live_match_state"), "live power UI must read Supabase
 assert(livePower.includes("live-match-analysis"), "live power UI must subscribe to live analysis topic");
 assert(livePower.includes("@supabase/supabase-js@2.107.0"), "Supabase browser client must be version pinned");
 assert(livePower.includes("loadStaticFallback"), "live power UI must retain static fallback");
+assert.match(livePower, /status === 'SUBSCRIBED'[\s\S]*realtimeReady = true;[\s\S]*render\(\)/, "Realtime SUBSCRIBED state must render immediately");
+assert.match(livePower, /CHANNEL_ERROR'[\s\S]*realtimeReady = false;[\s\S]*render\(\)/, "Realtime channel failure must render fallback state");
 assert(livePower.includes("Team Power + Goal Power + Canlı Analiz Robotu"), "live analysis robot UI heading missing");
 assert(livePower.includes("Canlı Maç Analiz Robotu"), "live analysis robot detail card missing");
 assert(livePower.includes("state.root.id = 'live-power-center'"), "live power reload must preserve stable anchor");
