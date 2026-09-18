@@ -6,9 +6,18 @@ on:
       - 'scripts/market-specialist-gates.js'
       - 'scripts/pro-market-specialist-postprocess.js'
       - 'scripts/pro-goal-market-bridge.js'
+      - 'scripts/iddaa-data-source.js'
+      - 'scripts/robot-exact-scoring.js'
+      - 'scripts/build-pro-analysis-index.js'
+      - 'scripts/official-pro-analysis.js'
+      - 'analysis-insights-v1.js'
       - 'scripts/generate-high-odds-htft.js'
       - 'tests/market-specialist-gates.test.js'
       - 'tests/pro-goal-market-bridge.test.js'
+      - 'tests/iddaa-data-source.test.js'
+      - 'tests/transparency-market-options.test.js'
+      - 'tests/pro-analysis-index.test.js'
+      - 'tests/pro-index-from-github.test.js'
       - 'tests/high-odds-htft.test.js'
       - 'pro-coupon-eligibility.js'
       - '.github/workflows/pro-market-specialist-ci.yml'
@@ -42,11 +51,20 @@ jobs:
         run: |
           node --check scripts/market-specialist-gates.js
           node --check scripts/pro-market-specialist-postprocess.js
+          node --check scripts/iddaa-data-source.js
+          node --check scripts/robot-exact-scoring.js
+          node --check scripts/build-pro-analysis-index.js
+          node --check scripts/official-pro-analysis.js
+          node --check analysis-insights-v1.js
 
       - name: Specialist unit and regression tests
         run: |
           node tests/market-specialist-gates.test.js
           node tests/pro-goal-market-bridge.test.js
+          node tests/iddaa-data-source.test.js
+          node tests/transparency-market-options.test.js
+          node tests/pro-analysis-index.test.js
+          node tests/pro-index-from-github.test.js
           node tests/high-odds-htft.test.js
           node tests/pro-coupon-eligibility.test.js
           node tests/pre-match-final-check.test.js
