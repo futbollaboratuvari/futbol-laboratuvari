@@ -94,6 +94,18 @@ Ortak PRO cekirdegi ve `robot-specialist-orchestrator-v3` ayri bir tahmin robotu
 
 ## PRO Robot Islem Gunlugu
 
+### 2026-09-18 - AI Seffaflik IY/MS gorunurluk onceligi duzeltmesi
+
+- Kok neden: Productionda IY/MS Uzmani dogrulanmis 1/2 ve 2/1 adaylari uretiyordu; ancak `analysis-insights-v1.js` market siniflandirmasi slash temizlendikten sonra `1 2` / `2 1` bicimini ayri HTFT ailesi olarak tanimadigi icin bu secimler `other` ailesine dusuyor ve 10 kartlik AI Seffaflik cesitlilik gecisinde garanti oncelik alamiyordu.
+- Duzeltme: AI Seffaflik market siniflandirmasina ayri `htft` ailesi eklendi. IY/MS ailesine `familyBonus=1075`, aile kotasi `2` verildi ve `preferredOrder` icinde half-BTTS sonrasina yerlestirildi. Boylece uygun/dogrulanmis IY/MS adayi varsa ilk cesitlilik gecisinde en az bir HTFT karti secilmeye aday olur; veri yoksa market uydurulmaz.
+- Kapsam: 1/1, 1/X, 1/2, X/1, X/X, X/2, 2/1, 2/X, 2/2 gibi kanonik IY/MS desenleri routing seviyesinde `htft` ailesine girer. Mevcut resmi High Odds feed yalniz dogrulanmis 1/2 ve 2/1 adaylarini beslemeye devam eder.
+- Korunan kurallar: `odd < 1.45`, `specialist_eligible:false`, `specialist_decision=block`, bagimsiz kanit yoklugu ve model skoru alt siniri filtreleri degismedi. IY/MS yalniz mevcut uygun adaylardan secilir; secim sayisini doldurmak icin sahte market olusturulmaz.
+- Etkilenen dosyalar: `analysis-insights-v1.js`, `tests/transparency-market-options.test.js`, `DONT_TOUCH.md`.
+- Regresyon: `transparency-market-options.test.js` artik AI Seffaflik kaynak kodunda HTFT ailesi, bonus, aile kotasi ve `preferredOrder` kilidini kontrol eder.
+- Gelistirme dali: `fix/transparency-htft-priority-20260918`. PR/CI/main/Pages canli sonucu bu kayit merge tamamlandiktan sonra final bilgilerle tamamlanacaktir.
+- Geri alma: Yalniz AI Seffaflik siniflandirma/siralama katmani degisir; PRO model olasiliklari, uzman gate'leri, Supabase projection, uyelik ve kupon motoru degismez.
+
+
 ### 2026-09-18 - IY/MS uzman robotu production dogrulama kapanisi
 
 - Sonuc: V2 ile baslayan dogrulanmis HTFT feed baglantisi productionda tamamlandi; sonraki kompakt persistence gelistirmesiyle orkestrator `robot-specialist-orchestrator-v3` olarak calismaya devam ediyor.
