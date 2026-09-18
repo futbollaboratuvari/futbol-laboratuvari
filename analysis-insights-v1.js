@@ -78,6 +78,7 @@
   function marketFamily(value) {
     const token = clean(value);
     if (/iy kg 2y kg|ilk yari.*ikinci yari.*kg|1 yari.*2 yari.*kg/.test(token)) return "half_btts_combo";
+    if (/^(1|x|2)\s+(1|x|2)$/.test(token)) return "htft";
     if (/ilk yari kg|1 yari kg/.test(token)) return "first_half_btts";
     if (/ikinci yari kg|2 yari kg/.test(token)) return "second_half_btts";
     if (/6 gol|6 plus|6 ve ustu|6 veya daha fazla/.test(token)) return "six_plus";
@@ -163,6 +164,7 @@
       optionsFor(match).forEach((option) => {
         const familyBonus = ({
           half_btts_combo: 1100,
+          htft: 1075,
           first_half_btts: 1000,
           second_half_btts: 950,
           six_plus: 900,
@@ -190,6 +192,7 @@
     const familyCounts = new Map();
     const familyCaps = {
       half_btts_combo: 2,
+      htft: 2,
       first_half_btts: 2,
       second_half_btts: 2,
       six_plus: 2,
@@ -201,6 +204,7 @@
     };
     const preferredOrder = [
       "half_btts_combo",
+      "htft",
       "first_half_btts",
       "second_half_btts",
       "six_plus",
@@ -388,7 +392,7 @@
     const selected = picks.find((m) => String(m.id) === state.selectedId) || picks[0] || null;
     if (selected) state.selectedId = String(selected.id);
 
-    root.innerHTML = `<div class="flai-head"><div><p>AI Şeffaflık Merkezi</p><h2>Güven, başarı ve neden tek ekranda</h2><span>Robotun tek bir tarafa kilitlenmesini gizlemez; doğrulanmış İY KG, 2Y KG, İY/2Y KG, 2.5 Üst, 3.5 Üst, 6+ Gol, KG ve maç sonucu seçeneklerini çeşitlendirerek oran, olasılık, veri kapsamı ve gerekçeleriyle birlikte gösterir.</span></div><span class="flai-status">${esc(data?.engine || "PRO veri akışı")}</span></div>
+    root.innerHTML = `<div class="flai-head"><div><p>AI Şeffaflık Merkezi</p><h2>Güven, başarı ve neden tek ekranda</h2><span>Robotun tek bir tarafa kilitlenmesini gizlemez; doğrulanmış İY/MS (1/1, 1/2, 2/1), İY KG, 2Y KG, İY/2Y KG, 2.5 Üst, 3.5 Üst, 6+ Gol, KG ve maç sonucu seçeneklerini çeşitlendirerek oran, olasılık, veri kapsamı ve gerekçeleriyle birlikte gösterir.</span></div><span class="flai-status">${esc(data?.engine || "PRO veri akışı")}</span></div>
       ${statsHtml(data)}
       <div class="flai-body"><div class="flai-list"><div class="flai-list-head"><h3>Günün açıklanabilir seçenekleri</h3><small>${esc(picks.length)} farklı maç</small></div>${picks.length ? picks.map(pickCard).join("") : `<div class="flai-empty">Bugün güven eşiğini geçen açıklanabilir PRO seçimi henüz oluşmadı.</div>`}</div><div class="flai-detail">${detailHtml(selected)}</div></div>
       <div class="flai-foot"><b>Bileşik değerlendirme puanı sonuç olasılığı değildir.</b> Tahmini olasılığı; veri kapsamı, model sinyali, piyasa farkı ve kadro/ilk 11 riskleriyle birlikte açıklama amacıyla sunar. Dakika dakika takım gücü verisi mevcut değilse sistem böyle bir grafik uydurmaz; yalnız mevcut gerçek metrikleri gösterir.</div>`;
