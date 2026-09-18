@@ -95,7 +95,7 @@ const richEvent = normalizeEvent({
       { no: 1, n: "0-1", odd: 3.20 },
       { no: 2, n: "2-3", odd: 1.75 },
       { no: 3, n: "4-5", odd: 3.80 },
-      { no: 4, n: "6+", odd: 7.50 },
+      { no: 4, n: "6+ Gol", odd: 7.50 },
     ] },
   ],
 }, { marketConfig: config, competitions, scoreByEvent: {} }, { includeMarkets: true });
