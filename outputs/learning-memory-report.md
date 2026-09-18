@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.09.2026 07:46:58
+Oluşturma: 18.09.2026 07:54:18
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1160
-- Kazanan tahmin: 188
-- Kaybeden tahmin: 152
-- Lig sayısı: 288
-- Seçenek sayısı: 7
+- Bekleyen tahmin: 1169
+- Kazanan tahmin: 182
+- Kaybeden tahmin: 149
+- Lig sayısı: 291
+- Seçenek sayısı: 9
 
 ## Öğrenme Mantığı
 
@@ -22,29 +22,31 @@ Oluşturma: 18.09.2026 07:46:58
 
 ## En Güçlü Seçenek Hafızası
 
-- KG Var: toplam 13, bekleyen 1, başarı %67, düz getiri %18, ağırlık 1
-- 2.5 Üst: toplam 155, bekleyen 101, başarı %59, düz getiri %7, ağırlık 1
-- 2.5 Alt: toplam 583, bekleyen 462, başarı %56, düz getiri %-4, ağırlık 1
-- MS 2: toplam 247, bekleyen 200, başarı %55, düz getiri %5, ağırlık 1
-- MS 1: toplam 490, bekleyen 388, başarı %51, düz getiri %-18, ağırlık 1
+- KG Var: toplam 30, bekleyen 18, başarı %67, düz getiri %18, ağırlık 1
+- 2.5 Üst: toplam 157, bekleyen 103, başarı %59, düz getiri %7, ağırlık 1
+- 2.5 Alt: toplam 563, bekleyen 445, başarı %56, düz getiri %-4, ağırlık 1
+- MS 2: toplam 240, bekleyen 196, başarı %52, düz getiri %0, ağırlık 1
+- MS 1: toplam 473, bekleyen 374, başarı %52, düz getiri %-17, ağırlık 1
 - MS X: toplam 9, bekleyen 5, başarı %50, düz getiri %22, ağırlık 1
-- 3.5 Üst: toplam 3, bekleyen 3, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- 3.5 Üst: toplam 13, bekleyen 13, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- KG Yok: toplam 9, bekleyen 9, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- İkinci Yarı KG Var: toplam 6, bekleyen 6, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-18 | İspanya La Liga | Espanyol - Elche | 2.5 Üst | pending | 78/100
-- 2026-09-18 | Hollanda 1. Lig | Waalwijk - Maastricht | 3.5 Üst | pending | 73/100
-- 2026-09-18 | Hollanda 1. Lig | Almere City - Heracles | 3.5 Üst | pending | 71/100
-- 2026-09-18 | İsviçre Challenge Ligi | Winterthur - Aarau | MS 1 | pending | 44/100
-- 2026-09-18 | İspanya La Liga 2 | Albacete - Cordoba | 2.5 Alt | pending | 63/100
-- 2026-09-18 | Galler Premier Lig | Colwyn Bay - Barry Town | 2.5 Üst | pending | 53/100
-- 2026-09-18 | Almanya Amatör Bölgesel Lig KuzeyDoğu | Zwickau - Hallescher | 2.5 Alt | pending | 47/100
-- 2026-09-18 | Danimarka 2. Ligi | Roskilde - Fa 2000 | MS 1 | pending | 53/100
-- 2026-09-18 | Faroe Adaları Premier Lig | B36 Torshavn - Runavik | MS 2 | pending | 47/100
-- 2026-09-18 | Hollanda Eredivisie | Groningen - Zwolle | 3.5 Üst | pending | 74/100
-- 2026-09-18 | Ürdün Pro Ligi | Al Arabi - Al Jazeera | 2.5 Alt | pending | 52/100
-- 2026-09-18 | Cezayir 2.Lig, Merkez-Doğu | Mo Bejaia - Mo Constantine | 2.5 Alt | pending | 54/100
-- 2026-09-18 | Finlandiya Ykkonen | Haka - Klubi 04 | MS 1 | pending | 54/100
-- 2026-09-18 | Finlandiya Veikkausliiga, Şampiyonluk Gr | Oulu - Inter Turku | 2.5 Alt | pending | 52/100
-- 2026-09-18 | Türkiye 1. Lig | Bandirmaspor - Ümraniyespor | 2.5 Alt | pending | 43/100
+- 2026-09-18 | İspanya La Liga | Espanyol - Elche | KG Var | pending | 81/100
+- 2026-09-18 | Hollanda Eerste Divisie | Den Bosch - Helmond Sport | 3.5 Üst | pending | 71/100
+- 2026-09-18 | Hollanda Eerste Divisie | Jong Az Alkmaa - Volendam | 3.5 Üst | pending | 71/100
+- 2026-09-18 | Galler Premier Lig | Colwyn Bay - Barry Town | KG Var | pending | 54/100
+- 2026-09-18 | Galler Premier Lig | Ammanford - Penybont | 2.5 Alt | pending | 46/100
+- 2026-09-18 | Almanya Amatör Bölgesel Lig KuzeyDoğu | Zwickau - Hallescher | MS 2 | pending | 45/100
+- 2026-09-18 | Hollanda Eerste Divisie | Oss - Dordrecht | 3.5 Üst | pending | 74/100
+- 2026-09-18 | Cezayir 2.Lig, Merkez-Doğu | Mo Bejaia - Mo Constantine | MS 1 | pending | 55/100
+- 2026-09-18 | Asya Oyunları | Filipinler U23 - Vietnam U23 | KG Yok | pending | 53/100
+- 2026-09-18 | Cezayir 1. Lig | Aso Chlef - Mc Oran | KG Yok | pending | 55/100
+- 2026-09-18 | Arjantin Premier Lig 2. Aşama | Racing Club - Sarmiento | KG Var | pending | 74/100
+- 2026-09-18 | İtalya Serie B | Juve Stabia - Cesena | KG Var | pending | 77/100
+- 2026-09-18 | Belçika Pro Lig | Gent - Standard Liege | KG Var | pending | 55/100
+- 2026-09-18 | Galler Premier Lig 1.Aşama | Colwyn Bay - Barry Town | KG Var | pending | 54/100
+- 2026-09-18 | Galler Premier Lig 1.Aşama | Haverfordwest - Holywell Town | KG Yok | pending | 49/100
 
