@@ -44,6 +44,13 @@ PRO Robot Futbol Laboratuvari'nin ucretli uyelik sisteminin ana analiz urunudur.
 
 ## PRO Robot Islem Gunlugu
 
+### 2026-09-18 - Supabase gecisi sonrasi Pages guvenlik testi duzeltmesi
+
+- Kok neden: GitHub Pages buildindeki `tests/security-legal.test.js`, eski mimariden kalan Vercel domaini ve `SECURE_API_ORIGIN` sabitini zorunlu tutuyordu. Supabase gecisi dogru oldugu halde build bu eski beklenti nedeniyle fail oluyordu.
+- Duzeltme: Guvenlik testi artik aktif `fl-pro-analysis` Supabase endpointini ve `PRO_ANALYSIS_ENDPOINT` sabitini zorunlu tutar; premium runtime icinde `futbol-laboratuvari.vercel.app` bulunmasini acikca reddeder. Test PRO Market Specialist CI matrisine eklendi.
+- Etki: Robot tahmin mantigi, uyelik, odeme, oran veya market esikleri degismedi. Yalniz canli build guvenlik sozlesmesi yeni mimariye esitlendi.
+
+
 ### 2026-09-18 - Canli PRO akisinin Supabase'e tasinmasi ve analysis_options export kaybi duzeltmesi
 
 - Amac/kok neden: Canli AI Seffaflik / Ozel Analiz akisi aktif `premium-analysis-v3.js` icinden eski Vercel `/api/pro-analysis` endpointine bagliydi. Ayrica robot skorlayici coklu market `analysis_options` uretmesine ragmen `scripts/export-high-value-json.js` bu alani `robot-analysis.json` yazarken dusuruyordu. Bu nedenle canli Seffaflik, motor gelistirilmis olsa bile MS/2.5 agirlikli gorunebiliyordu.

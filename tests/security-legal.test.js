@@ -201,8 +201,9 @@ function testStaticProtectionAndConsent() {
 
   assert.equal(premium.includes("./data/pro-analysis-index.json"), false);
   assert.equal(insights.includes("pro-analysis-index.json"), false);
-  assert.match(premium, /futbol-laboratuvari\.vercel\.app/);
-  assert.match(premium, /SECURE_API_ORIGIN/);
+  assert.match(premium, /lnngvkitcwwgrljtjwsd\.supabase\.co\/functions\/v1\/fl-pro-analysis/);
+  assert.match(premium, /PRO_ANALYSIS_ENDPOINT/);
+  assert.doesNotMatch(premium, /futbol-laboratuvari\.vercel\.app/);
   assert.match(index, /id="membership-code-access"/);
   assert.match(index, />Üyelik Kodum Var</);
   assert.match(index, /data-pa3-unlock>Kodu Doğrula</);
