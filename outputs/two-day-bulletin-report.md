@@ -3,15 +3,14 @@
 Gunler: 2026-09-18 / 2026-09-19
 Kaynak: fixtures.json
 Ham mac: 254
-Aktif mac: 245
+Aktif mac: 244
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 222
+Bultenden dusurulen mac: 10
+Bugun: 221
 Yarin: 23
 
 ## Baslamamis Maclar
-- 2026-09-18 07:00 | Japonya J2 Lig | Vanraure - Tegevajaro Miya | scheduled | -
 - 2026-09-18 09:30 | Asya Oyunları Grup C | Filipinler U23 - Vietnam U23 | scheduled | -
 - 2026-09-18 11:00 | Çin Halk Cumhuriyeti 2.Lig Küme Düşme Grubu | Lanzhou Longyu - Wenzhou Fc | scheduled | -
 - 2026-09-18 11:00 | Çin Halk Cumhuriyeti 2.Lig Küme Düşme Grubu | Changchun Xidu - Guangdong Mingt | scheduled | -
