@@ -3,15 +3,14 @@
 Gunler: 2026-09-18 / 2026-09-19
 Kaynak: fixtures.json
 Ham mac: 254
-Aktif mac: 247
+Aktif mac: 246
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 224
+Bultenden dusurulen mac: 8
+Bugun: 223
 Yarin: 23
 
 ## Baslamamis Maclar
-- 2026-09-18 04:00 | Meksika Ascenso MX Apertura | Durango - Cruz Azul Hidal | scheduled | -
 - 2026-09-18 06:15 | CONCACAF Orta Amerika Kupası Çeyrek Final | Depor. Olimpia (3) - (0) Firpo | scheduled | -
 - 2026-09-18 07:00 | Japonya J2 Lig | Vanraure - Tegevajaro Miya | scheduled | -
 - 2026-09-18 09:30 | Asya Oyunları Grup C | Filipinler U23 - Vietnam U23 | scheduled | -

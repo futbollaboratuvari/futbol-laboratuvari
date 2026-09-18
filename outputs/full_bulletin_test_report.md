@@ -2,12 +2,11 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 256
+- Scheduled match count: 255
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-18 / 2026-09-19 23:59
 
-- 2026-09-18 04:00 | Durango - Cruz Azul Hidal | scheduled
 - 2026-09-18 06:15 | Depor. Olimpia (3) - (0) Firpo | scheduled
 - 2026-09-18 07:00 | Vanraure - Tegevajaro Miya | scheduled
 - 2026-09-18 09:30 | Filipinler U23 - Vietnam U23 | scheduled
@@ -17,3 +16,4 @@
 - 2026-09-18 12:00 | Wuhan Three To - Haimen Codion | scheduled
 - 2026-09-18 13:00 | Kuveyt U23 - Özbekistan U23 | scheduled
 - 2026-09-18 13:00 | Yanbian Longdi - Guangzhou E-Pow | scheduled
+- 2026-09-18 13:00 | Osaka - Fukushima Unite | scheduled
