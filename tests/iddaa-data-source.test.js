@@ -16,6 +16,10 @@ const config = {
       "4_14": { i: 2, n: "Alt/Üst {0}", d: "Toplam gol" },
       "4_131": { i: 3, n: "Karşılıklı Gol", d: "İki takım gol atar mı" },
       "4_321": { i: 4, n: "2. Yarı Sonucu", d: "İkinci yarı" },
+      "4_401": { i: 5, n: "İlk Yarı Karşılıklı Gol", d: "İlk yarıda iki takım gol atar mı" },
+      "4_402": { i: 6, n: "İkinci Yarı Karşılıklı Gol", d: "İkinci yarıda iki takım gol atar mı" },
+      "4_403": { i: 7, n: "İlk Yarı / İkinci Yarı Karşılıklı Gol", d: "Devre bazlı KG kombinasyonu" },
+      "4_405": { i: 8, n: "Toplam Gol Aralığı", d: "Gol aralığı" },
     },
   },
 };
@@ -69,6 +73,43 @@ assert.strictEqual(detail.market_groups[1].title, "Alt/Üst 2.5");
 assert.strictEqual(detail.market_groups[1].outcomes[1].label, "Üst");
 assert.strictEqual(detail.raw_market_blocks.length, 3);
 assert.ok(detail.market_groups.every((market) => market.id && market.outcomes.length));
+
+const richEvent = normalizeEvent({
+  i: 2001,
+  hn: "Alpha",
+  an: "Beta",
+  ci: 348,
+  d: 1788202800,
+  bp: 0,
+  m: [
+    { i: 201, t: 4, st: 14, sov: "3.5", o: [{ no: 1, n: "Alt", odd: 1.70 }, { no: 2, n: "Üst", odd: 2.10 }] },
+    { i: 202, t: 4, st: 401, o: [{ no: 1, n: "Var", odd: 2.45 }, { no: 2, n: "Yok", odd: 1.42 }] },
+    { i: 203, t: 4, st: 402, o: [{ no: 1, n: "Var", odd: 2.05 }, { no: 2, n: "Yok", odd: 1.55 }] },
+    { i: 204, t: 4, st: 403, o: [
+      { no: 1, n: "Evet / Evet", odd: 9.50 },
+      { no: 2, n: "Evet / Hayır", odd: 4.20 },
+      { no: 3, n: "Hayır / Evet", odd: 3.60 },
+      { no: 4, n: "Hayır / Hayır", odd: 1.55 },
+    ] },
+    { i: 205, t: 4, st: 405, o: [
+      { no: 1, n: "0-1", odd: 3.20 },
+      { no: 2, n: "2-3", odd: 1.75 },
+      { no: 3, n: "4-5", odd: 3.80 },
+      { no: 4, n: "6+", odd: 7.50 },
+    ] },
+  ],
+}, { marketConfig: config, competitions, scoreByEvent: {} }, { includeMarkets: true });
+assert.strictEqual(richEvent.available_odds.over35, 2.10);
+assert.strictEqual(richEvent.available_odds.under35, 1.70);
+assert.strictEqual(richEvent.available_odds.firstHalfBttsYes, 2.45);
+assert.strictEqual(richEvent.available_odds.firstHalfBttsNo, 1.42);
+assert.strictEqual(richEvent.available_odds.secondHalfBttsYes, 2.05);
+assert.strictEqual(richEvent.available_odds.secondHalfBttsNo, 1.55);
+assert.strictEqual(richEvent.available_odds.halfBttsYesYes, 9.50);
+assert.strictEqual(richEvent.available_odds.halfBttsYesNo, 4.20);
+assert.strictEqual(richEvent.available_odds.halfBttsNoYes, 3.60);
+assert.strictEqual(richEvent.available_odds.halfBttsNoNo, 1.55);
+assert.strictEqual(richEvent.available_odds.goals6plus, 7.50);
 
 const widget = fs.readFileSync(path.join(__dirname, "..", "daily-matches-widget.js"), "utf8");
 assert.match(widget, /https:\/\/futbol-laboratuvari\.vercel\.app/, "GitHub Pages must use the production API origin");

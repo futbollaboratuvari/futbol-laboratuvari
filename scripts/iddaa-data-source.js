@@ -120,6 +120,16 @@ function setCanonicalOdds(target, market) {
     const odd = byLabel.get(fold(label));
     if (odd !== null && odd !== undefined) target[key] = odd;
   };
+  const labelToken = (value) => fold(value).replace(/[^a-z0-9]+/g, " ").trim();
+  const assignMatching = (key, patterns) => {
+    for (const outcome of market.outcomes) {
+      const token = labelToken(outcome.label);
+      if (patterns.some((pattern) => pattern.test(token))) {
+        target[key] = outcome.odd;
+        return;
+      }
+    }
+  };
 
   if (title === "mac sonucu") {
     assign("ms1", "1");
@@ -130,17 +140,51 @@ function setCanonicalOdds(target, market) {
     assign("under25", "Alt");
     assign("over25", "Üst");
   }
+  if (title.startsWith("alt ust") && special === "3.5") {
+    assign("under35", "Alt");
+    assign("over35", "Üst");
+  }
   if (title === "karsilikli gol") {
     assign("bttsYes", "Var");
     assign("bttsNo", "Yok");
   }
+
+  const isCombinedHalfBtts = /(ilk yari|1 yari).*(ikinci yari|2 yari).*karsilikli gol|karsilikli gol.*(ilk yari|1 yari).*(ikinci yari|2 yari)/.test(title);
+  const isFirstHalfBtts = !isCombinedHalfBtts && /(ilk yari|1 yari).*karsilikli gol|karsilikli gol.*(ilk yari|1 yari)/.test(title);
+  const isSecondHalfBtts = !isCombinedHalfBtts && /(ikinci yari|2 yari).*karsilikli gol|karsilikli gol.*(ikinci yari|2 yari)/.test(title);
+
+  if (isFirstHalfBtts) {
+    assignMatching("firstHalfBttsYes", [/^(var|evet)$/, /kg var/]);
+    assignMatching("firstHalfBttsNo", [/^(yok|hayir)$/, /kg yok/]);
+  }
+  if (isSecondHalfBtts) {
+    assignMatching("secondHalfBttsYes", [/^(var|evet)$/, /kg var/]);
+    assignMatching("secondHalfBttsNo", [/^(yok|hayir)$/, /kg yok/]);
+  }
+  if (isCombinedHalfBtts) {
+    assignMatching("halfBttsYesYes", [/^(var|evet) (var|evet)$/, /evet evet/, /var var/]);
+    assignMatching("halfBttsYesNo", [/^(var|evet) (yok|hayir)$/, /evet hayir/, /var yok/]);
+    assignMatching("halfBttsNoYes", [/^(yok|hayir) (var|evet)$/, /hayir evet/, /yok var/]);
+    assignMatching("halfBttsNoNo", [/^(yok|hayir) (yok|hayir)$/, /hayir hayir/, /yok yok/]);
+  }
+
+  // Bazı bültenlerde 6+ ayrı "gol aralığı" sonucu olarak gelir.
+  // Başlığa güvenmek yerine açık outcome etiketini doğrularız.
+  assignMatching("goals6plus", [
+    /^6$/,
+    /^6 gol$/,
+    /^6 plus$/,
+    /^6 ve (ustu|uzeri)$/,
+    /^6 veya daha fazla$/,
+    /^6 daha fazla$/,
+  ]);
+
   if (title === "cifte sans") {
     assign("cifte1x", "1 ve 0");
     assign("cifte12", "1 ve 2");
     assign("cifteX2", "0 ve 2");
   }
 }
-
 function rawMarketBlocks(markets) {
   return markets.map((market) => ({
     id: market.id,

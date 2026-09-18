@@ -152,6 +152,68 @@ function compactMetrics(item) {
   return compact;
 }
 
+function compactAnalysisOption(item, source = "robot") {
+  if (!item || typeof item !== "object") return null;
+  const market = String(item.label || item.market || item.recommended_market || "").trim();
+  const odd = finite(item.odd ?? item.odds ?? item.estimated_odds ?? item.bookmaker_odds);
+  const probability = finite(item.estimated_probability ?? item.scenario_probability);
+  const modelScore = finite(item.model_score ?? item.analysis_score ?? item.confidence ?? item.model_confidence);
+  if (!market || odd === null || probability === null || modelScore === null) return null;
+  return {
+    market,
+    odd,
+    model_score: modelScore,
+    estimated_probability: probability,
+    market_probability: finite(item.market_probability ?? item.implied_probability),
+    edge_percent: finite(item.edge_percent),
+    data_completeness: finite(item.data_completeness) || 0,
+    risk_level: String(item.risk_level || item.risk || "Belirsiz"),
+    independent_evidence: item.independent_evidence !== false,
+    specialist_decision: String(item.specialist_decision || item.market_specialist?.decision || "keep"),
+    specialist_eligible: item.specialist_eligible !== false,
+    source,
+    signals: (Array.isArray(item.signals) ? item.signals : item.robot_reason ? [item.robot_reason] : [])
+      .map(String).filter(Boolean).slice(0, 4),
+  };
+}
+
+function compactAnalysisOptions(item) {
+  const rows = [];
+  for (const option of Array.isArray(item.analysis_options) ? item.analysis_options : []) {
+    const compact = compactAnalysisOption(option, "robot_multi_market");
+    if (compact) rows.push(compact);
+  }
+  for (const option of Array.isArray(item.goal_market_candidates) ? item.goal_market_candidates : []) {
+    const compact = compactAnalysisOption(option, "goal_market_specialist");
+    if (compact && compact.specialist_eligible !== false && compact.specialist_decision !== "block") rows.push(compact);
+  }
+  const primary = compactAnalysisOption({
+    market: item.recommended_market || item.market,
+    odd: item.estimated_odds || item.odds,
+    model_score: item.model_score ?? item.analysis_score ?? item.confidence_score,
+    estimated_probability: item.estimated_probability,
+    market_probability: item.market_probability,
+    edge_percent: item.edge_percent,
+    data_completeness: item.data_completeness,
+    risk_level: item.risk_level || item.risk,
+    independent_evidence: item.independent_evidence,
+    signals: item.signals || item.pro_signals,
+  }, "primary");
+  if (primary) rows.push(primary);
+
+  const seen = new Set();
+  return rows
+    .filter((row) => {
+      const key = clean(row.market);
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .sort((a, b) => Number(b.model_score || 0) - Number(a.model_score || 0)
+      || Number(b.estimated_probability || 0) - Number(a.estimated_probability || 0))
+    .slice(0, 16);
+}
+
 function compactBttsOutcome(item) {
   if (!item || typeof item !== "object") return null;
   return {
@@ -402,6 +464,7 @@ function compactMatch(item, parent) {
     team_status_verified_count: Number(item.team_status_verified_count || item.team_intelligence?.squad_verified_team_count || 0),
     named_player_count: Number(item.named_player_count || item.team_intelligence?.named_player_count || 0),
     recommended_odd: finite(item.estimated_odds || item.odds),
+    analysis_options: compactAnalysisOptions(item),
     include_in_coupon: includeInCoupon,
     value_label: String(item.value_label || "Piyasa ile Uyumlu"),
     metrics: compactMetrics(item),
@@ -456,4 +519,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { buildCalibration, buildProAnalysisIndex, compactBttsAnalysis, compactMatch, compactMatchup, compactMetrics, compactTeamIntelligence, couponEligibility, main, matchId, selectProMatches, teamsOf };
+module.exports = { buildCalibration, buildProAnalysisIndex, compactAnalysisOption, compactAnalysisOptions, compactBttsAnalysis, compactMatch, compactMatchup, compactMetrics, compactTeamIntelligence, couponEligibility, main, matchId, selectProMatches, teamsOf };

@@ -78,6 +78,29 @@ function worseRisk(...values) {
   return rank >= 3 ? "Yüksek" : rank >= 2 ? "Orta" : rank === 1 ? "Düşük" : "Yüksek";
 }
 
+function applyStoredAnalysisOptions(scored, stored) {
+  if (!stored || typeof stored !== "object") return scored;
+  const rows = [
+    ...(Array.isArray(scored?.analysis_options) ? scored.analysis_options : []),
+    ...(Array.isArray(stored?.analysis_options) ? stored.analysis_options : []),
+  ];
+  const seen = new Set();
+  const analysisOptions = rows.filter((row) => {
+    const market = clean(row?.market || row?.label || row?.recommended_market);
+    if (!market || seen.has(market)) return false;
+    seen.add(market);
+    return true;
+  });
+  return {
+    ...scored,
+    analysis_options: analysisOptions,
+    goal_market_candidates: Array.isArray(stored.goal_market_candidates)
+      ? stored.goal_market_candidates
+      : scored.goal_market_candidates,
+    goal_market_pick: stored.goal_market_pick || scored.goal_market_pick,
+  };
+}
+
 function applyStoredTeamIntelligence(scored, stored) {
   const intel = stored?.team_intelligence;
   if (!intel || typeof intel !== "object") return scored;
@@ -127,7 +150,9 @@ function projectOfficialProIndex(bulletin, base = {}, options = {}) {
   const matches = currentScheduled(bulletin?.matches, options.today || todayTR()).map((match) => {
     let scored = applyLearningWeightsToScoredItem(scoreFixture(match));
     scored.btts_analysis = buildBttsAnalysis(match);
-    scored = applyStoredTeamIntelligence(scored, findBaseMatch(match, storedMatches));
+    const stored = findBaseMatch(match, storedMatches);
+    scored = applyStoredTeamIntelligence(scored, stored);
+    scored = applyStoredAnalysisOptions(scored, stored);
     return compactMatch(scored, { model_version: MODEL_VERSION, date: scored.date });
   });
   const bttsRows = matches.filter((match) => match.btts_analysis?.pair_complete);
@@ -181,6 +206,7 @@ function resetOfficialProCache() {
 }
 
 module.exports = {
+  applyStoredAnalysisOptions,
   applyStoredTeamIntelligence,
   baseMatchMap,
   buildOfficialProIndex,
