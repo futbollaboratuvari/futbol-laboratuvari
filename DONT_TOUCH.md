@@ -44,6 +44,19 @@ PRO Robot Futbol Laboratuvari'nin ucretli uyelik sisteminin ana analiz urunudur.
 
 ## PRO Robot Islem Gunlugu
 
+
+### 2026-09-18 - Canlı analiz görünürlük ve AI Şeffaflık bağlantısı
+
+- Amaç/kök neden: GitHub Pages güncel main commitini başarıyla yayımlamasına rağmen analysis-insights-v1.js hiçbir canlı runtime loader tarafından çağrılmıyordu; bu nedenle üst menüde AI Şeffaflık Merkezi bağlantısı varken hedef bölüm oluşturulmuyordu. Ayrıca ana analiz görünümündeki ortak PRO normalizasyonu eski market/score alanlarına bağımlıydı ve güncel korumalı projection'ın recommended_market/model_score/probability_source sözleşmesini doğrudan tanımıyordu.
+- Yapılan değişiklik: nav-routing.js üzerinden mevcut AI Şeffaflık modülü yüklenir hale getirildi. script.js ortak PRO normalizasyonu recommended_market, model_score, analysis_score ve gerçek probability_source kanıtını tanıyacak şekilde geriye uyumlu genişletildi. Korumalı maç normalizasyonunda signals yoksa yalnız sunucudan gelen gerçek probability_source kanıtı fallback olarak kullanılabilir.
+- Etkilenen dosyalar/akışlar: nav-routing.js, script.js, tests/pro-index-from-github.test.js. Akış: üyelik doğrulaması -> /api/pro-analysis korumalı projection -> fl:pro-analysis-ready -> Maç Yorumları / AI Şeffaflık görünümü. index.html, günlük bülten üreticisi ve robot olasılık motoruna dokunulmadı.
+- Etkilenen marketler: Yeni market, eşik veya tahmin mantığı eklenmedi. Düzeltme tüm mevcut korumalı PRO marketlerinin canlı görünürlük/yorum katmanını etkiler; 2.5 Alt/Üst, 3.5 Alt/Üst, 6+ Gol, KG, İY KG, 2Y KG ve İY/MS dahil mevcut market kararları değiştirilmez.
+- Provenance: Ham/tahmini market blokları açılmadı. raw_market_guess_odds veya anonim oran blokları görünürlük kanıtı sayılmaz. Yalnız üyelik doğrulaması sonrası sunulan korumalı PRO projection alanları ve onun gerçek signals/probability_source kanıtı kullanılır.
+- Test: Dal üzerinde script.js, nav-routing.js, analysis-insights-v1.js ve güncellenen test dosyası V8 syntax compile kontrolünden geçti. Güncel protected projection örneğinde recommended_market=3.5 Üst, model_score=71 ve probability_source ile görünürlük sözleşmesi PASS oldu; AI runtime loader ve regresyon sözleşmesi PASS oldu.
+- Canlı doğrulama: Değişiklik öncesi GitHub Pages run 35296028374, e0eb72fcd32ac0b27232633f78a0a01b56a14f08 için SUCCESS; bu, sorunun eski Pages yayını olmadığını doğruladı. PR #65 merge sonrası yeni Pages build/deploy sonucu ayrıca bu kayda işlenecek.
+- Geliştirme dalı / PR: fix/live-analysis-visibility-20260918, PR #65. Bu kayıt anında merge bekleniyor.
+- Geri alma: Görünürlük düzeltmesi yalnız runtime yükleme ve şema normalizasyon katmanındadır. Robot motoru/veri üretimi değişmediği için PR #65 değişiklikleri geri alınarak önceki görünüm davranışına dönülebilir.
+
 ### 2026-09-18 - Ayrı Uzman Robot V4: kanıt kapsamı ve fail-closed kalite puanı
 
 - Amaç/kök neden: V3 uzman katmanında bazı eksik sinyaller kalite hesabında nötr/geçer davranabiliyor, ayrıca `downgrade/block` kararı verilmiş bir adayın specialist quality puanı bağımsız destek sayısı nedeniyle gereğinden yüksek kalabiliyordu. V4 bu iki açıklanabilirlik ve güvenlik açığını kapatır.
