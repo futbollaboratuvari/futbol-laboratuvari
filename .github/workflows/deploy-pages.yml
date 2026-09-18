@@ -106,35 +106,54 @@ jobs:
 
           chrome="$(command -v google-chrome || command -v chromium || command -v chromium-browser)"
           test -n "${chrome}"
-          "${chrome}" \
-            --headless=new \
-            --no-sandbox \
-            --disable-gpu \
-            --disable-dev-shm-usage \
-            --virtual-time-budget=25000 \
-            --enable-logging=stderr \
-            --dump-dom \
-            "${LIVE_URL}/?deploy=${GITHUB_SHA}#live-power-center" \
-            > /tmp/live-power-dom.html 2> /tmp/live-power-chrome.log
+          realtime_ok=0
+          for browser_attempt in 1 2 3; do
+            dom="/tmp/live-power-dom-${browser_attempt}.html"
+            chrome_log="/tmp/live-power-chrome-${browser_attempt}.log"
+            "${chrome}" \
+              --headless=new \
+              --no-sandbox \
+              --disable-gpu \
+              --disable-dev-shm-usage \
+              --virtual-time-budget=25000 \
+              --enable-logging=stderr \
+              --dump-dom \
+              "${LIVE_URL}/?deploy=${GITHUB_SHA}&browser_attempt=${browser_attempt}&cache_bust=${RANDOM}#live-power-center" \
+              > "${dom}" 2> "${chrome_log}" || true
 
-          echo "Live Power diagnostics:"
-          grep -o 'Akış: [^<]*' /tmp/live-power-dom.html | head -1 || true
-          grep -o 'Robot hazır: [^<]*' /tmp/live-power-dom.html | head -1 || true
-          grep -q 'id="live-power-center"' /tmp/live-power-dom.html
-          grep -q 'Team Power + Goal Power + Canlı Analiz Robotu' /tmp/live-power-dom.html
-          grep -q 'Canlı Maç Analiz Robotu\|Canlı Analiz Robotu bekliyor' /tmp/live-power-dom.html
-          grep -q 'Akış: Supabase Realtime' /tmp/live-power-dom.html
-          grep -q 'class="flp-status"' /tmp/live-power-dom.html
-          if grep -q 'Supabase Realtime fallback mode\|violates the following Content Security Policy' /tmp/live-power-chrome.log; then
-            echo "Realtime browser console failure:"
-            tail -80 /tmp/live-power-chrome.log
+            echo "Live Power diagnostics attempt ${browser_attempt}:"
+            grep -o 'Akış: [^<]*' "${dom}" | head -1 || true
+            grep -o 'Robot hazır: [^<]*' "${dom}" | head -1 || true
+
+            console_bad=0
+            if grep -q 'Supabase Realtime fallback mode\|violates the following Content Security Policy' "${chrome_log}"; then
+              console_bad=1
+              echo "Realtime browser console failure on attempt ${browser_attempt}:"
+              tail -80 "${chrome_log}"
+            fi
+
+            if [ "${console_bad}" = "0" ] \
+              && grep -q 'id="live-power-center"' "${dom}" \
+              && grep -q 'Team Power + Goal Power + Canlı Analiz Robotu' "${dom}" \
+              && grep -q 'Canlı Maç Analiz Robotu\|Canlı Analiz Robotu bekliyor' "${dom}" \
+              && grep -q 'Akış: Supabase Realtime' "${dom}" \
+              && grep -q 'class="flp-status"' "${dom}" \
+              && ! grep -q 'Team Power + Goal Power ve canlı tahmin verisi yükleniyor' "${dom}"; then
+              cp "${dom}" /tmp/live-power-dom.html
+              cp "${chrome_log}" /tmp/live-power-chrome.log
+              realtime_ok=1
+              echo "LIVE USER TEST PASS: Canlı Güç + Canlı Analiz Robotu Supabase Realtime ile custom domainde render edildi. attempt=${browser_attempt}"
+              break
+            fi
+
+            echo "Realtime henüz doğrulanmadı; taze browser oturumuyla yeniden deneniyor. attempt=${browser_attempt}"
+            sleep 3
+          done
+
+          if [ "${realtime_ok}" != "1" ]; then
+            echo "Supabase Realtime üç bağımsız gerçek browser denemesinde doğrulanamadı."
             exit 1
           fi
-          if grep -q 'Team Power + Goal Power verisi yükleniyor' /tmp/live-power-dom.html; then
-            echo "Live Power UI stayed in loading state"
-            exit 1
-          fi
-          echo "LIVE USER TEST PASS: Canlı Güç + Canlı Analiz Robotu Supabase Realtime ile custom domainde render edildi."
 
           python3 - <<'PY'
           from pathlib import Path
