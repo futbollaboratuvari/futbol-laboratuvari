@@ -129,7 +129,9 @@ async function main() {
   let detailSuccess = 0;
   const details = await mapLimit(candidates, DETAIL_CONCURRENCY, async ({ row, index }) => {
     const eventId = String(row.iddaa_event_id || row.match_code);
-    const detail = await fetchIddaaEventDetail(eventId);
+    const detailPayload = await fetchIddaaEventDetail(eventId);
+    const detail = detailPayload?.match || null;
+    if (!detail) throw new Error("iddaa_event_detail_match_missing");
     return { index, detail };
   });
 
