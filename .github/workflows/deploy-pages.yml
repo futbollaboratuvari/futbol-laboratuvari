@@ -132,11 +132,14 @@ jobs:
           import re
 
           html = Path("/tmp/live-power-dom.html").read_text(encoding="utf-8", errors="replace")
-          match = re.search(r'<tbody[^>]*id=["\']analysis-database-body["\'][^>]*>(.*?)</tbody>', html, re.S | re.I)
+          match = re.search(r'<tbody([^>]*)id=["\']analysis-database-body["\']([^>]*)>(.*?)</tbody>', html, re.S | re.I)
           if not match:
               raise SystemExit("Maç Kayıtları tbody not found in live DOM")
 
-          body = match.group(1)
+          attrs = f"{match.group(1)} {match.group(2)}"
+          body = match.group(3)
+          if 'data-source="match-records-summary"' not in attrs and "data-source='match-records-summary'" not in attrs:
+              raise SystemExit("Maç Kayıtları ayrı arşiv kaynağından gelmiyor")
           blocked_states = (
               "Canlı veri görünümü bekleniyor",
               "Maç kayıtları yükleniyor",
@@ -152,5 +155,11 @@ jobs:
           if not re.search(r'class=["\'][^"\']*status\s+(?:won|lost|pending)[^"\']*["\']', body, re.I):
               raise SystemExit("Maç Kayıtları live DOM has no rendered result status rows")
 
-          print("LIVE USER TEST PASS: Maç Kayıtları rendered verified history rows on custom domain.")
+          results = re.search(r'<tbody[^>]*id=["\']result-archive["\'][^>]*>(.*?)</tbody>', html, re.S | re.I)
+          if not results:
+              raise SystemExit("Sonuçlar tbody not found in live DOM")
+          if re.search(r'class=["\'][^"\']*status\s+pending[^"\']*["\']', results.group(1), re.I):
+              raise SystemExit("Sonuçlar alanına bekleyen tahmin sızdı")
+
+          print("LIVE USER TEST PASS: Maç Kayıtları ayrı arşivden, Sonuçlar yalnız doğrulanmış kayıtlardan render edildi.")
           PY
