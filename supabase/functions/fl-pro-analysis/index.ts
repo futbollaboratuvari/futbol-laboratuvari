@@ -67,7 +67,7 @@ async function sha(value: string) {
 }
 
 function normCode(value: any) {
-  return String(value ?? "").trim().replace(/\s+/g, "").toLocaleUpperCase("tr-TR");
+  return String(value ?? "").trim().replace(/\s+/g, "").toUpperCase();
 }
 
 function requestIp(req: Request) {
