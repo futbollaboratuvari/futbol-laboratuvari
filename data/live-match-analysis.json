@@ -1,36 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T21:39:50.847Z",
+  "generated_at": "2026-09-18T23:35:05.074Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-18T21:39:49.118Z",
+  "source_generated_at": "2026-09-18T23:35:03.840Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 1,
+    "live_match_count": 3,
     "ready_count": 1,
-    "waiting_count": 0,
-    "result_lean_count": 1,
+    "waiting_count": 2,
+    "result_lean_count": 0,
     "next_goal_lean_count": 1,
     "high_goal_pressure_count": 0
   },
   "matches": [
     {
-      "fixture_id": "401877947",
+      "fixture_id": "401860344",
       "status": "ready",
-      "minute": 39,
+      "minute": 45,
       "score": {
         "home": 1,
         "away": 0
       },
-      "home": "Águilas Doradas",
-      "away": "Deportivo Pereira",
-      "league": "Kolombiya Primera A Clausura",
+      "home": "Vila Nova",
+      "away": "América Mineiro",
+      "league": "Brezilya Serie B",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-18T21:39:49.118Z",
-      "freshness_minutes": 0.028816666666666668,
+      "snapshot_recorded_at": "2026-09-18T23:35:03.840Z",
+      "freshness_minutes": 0.020566666666666667,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -60,44 +60,144 @@
       "evidence_score": 48,
       "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "match_direction",
-        "label": "Ev sahibi yönü",
+        "type": "next_goal",
+        "label": "Sonraki gol eğilimi: Deplasman",
         "confidence": 73
       },
       "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 82.724
+        "code": null,
+        "label": "Taraf için ayrışma yok",
+        "side": "neutral",
+        "strength": 48.94
       },
       "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 72.16
+        "code": "AWAY",
+        "label": "Sonraki gol eğilimi: Deplasman",
+        "side": "away",
+        "strength": 83.36
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 16
+        "score": 25
       },
       "signals": [
-        "Team Power: Águilas Doradas %71 · Deportivo Pereira %29.",
-        "Goal Power: Águilas Doradas %19 · Deportivo Pereira %7.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Team Power: Vila Nova %39 · América Mineiro %61.",
+        "Goal Power: Vila Nova %16 · América Mineiro %29.",
+        "Maç yönü: Taraf için ayrışma yok. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 42,
-        "goal_power_diff": 12,
+        "team_power_diff": -22,
+        "goal_power_diff": -13,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 1,
-        "total_shots_diff": 0,
-        "corners_diff": 4,
+        "shots_on_goal_diff": -3,
+        "total_shots_diff": -7,
+        "corners_diff": 1,
         "xg_diff": 0,
-        "direction_score": 36.36,
-        "next_goal_score": 20.16
+        "direction_score": -14.06,
+        "next_goal_score": -31.36
       }
+    },
+    {
+      "fixture_id": "401860343",
+      "status": "insufficient_data",
+      "minute": 2,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "home": "Ceará",
+      "away": "Novorizontino",
+      "league": "Brezilya Serie B",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-18T23:35:03.840Z",
+      "freshness_minutes": 0.020566666666666667,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": "minute_too_early",
+      "primary_prediction": {
+        "type": "wait",
+        "label": "Veri yeterli değil · tahmin verilmedi",
+        "confidence": null
+      },
+      "result_lean": null,
+      "next_goal_lean": null,
+      "goal_pressure": null,
+      "signals": []
+    },
+    {
+      "fixture_id": "401906473",
+      "status": "insufficient_data",
+      "minute": 18,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "home": "Independiente Petrolero",
+      "away": "San Antonio Bulo Bulo",
+      "league": "Bolivya Premier Lig",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-18T23:35:03.840Z",
+      "freshness_minutes": 0.020566666666666667,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": "power_signal_missing",
+      "primary_prediction": {
+        "type": "wait",
+        "label": "Veri yeterli değil · tahmin verilmedi",
+        "confidence": null
+      },
+      "result_lean": null,
+      "next_goal_lean": null,
+      "goal_pressure": null,
+      "signals": []
     }
   ]
 }
