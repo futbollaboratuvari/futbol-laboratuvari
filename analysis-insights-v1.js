@@ -82,7 +82,7 @@
     if (/ikinci yari kg|2 yari kg/.test(token)) return "second_half_btts";
     if (/6 gol|6 plus|6 ve ustu|6 veya daha fazla/.test(token)) return "six_plus";
     if (/3 5 ust|over 3 5/.test(token)) return "over35";
-    if (/2 5 ust|over 2 5/.test(token)) return "over25";
+    if (/2 5 ust|2 5 alt|over 2 5|under 2 5/.test(token)) return "over25";
     if (/kg var|kg yok|btts|karsilikli gol/.test(token)) return "btts";
     if (/^ms |mac sonucu/.test(token)) return "match_result";
     return "other";
@@ -231,6 +231,22 @@
     for (const candidate of candidates.sort((a, b) => b.score - a.score)) {
       if (selected.length >= 10) break;
       take(candidate);
+    }
+
+    // Çeşitlilik tavanı ilk geçişte 10 kartı eksik bırakmasın.
+    // Önce istenen farklı market aileleri alınır; kalan yuvalar en güçlü
+    // kullanılmamış maçlarla, aynı marketi en fazla 3 kez kullanarak doldurulur.
+    if (selected.length < 10) {
+      for (const candidate of candidates.sort((a, b) => b.score - a.score)) {
+        if (selected.length >= 10) break;
+        if (!candidate || usedMatches.has(String(candidate.match.id))) continue;
+        const exactKey = clean(candidate.option.market);
+        if ((exactCounts.get(exactKey) || 0) >= 3) continue;
+        usedMatches.add(String(candidate.match.id));
+        exactCounts.set(exactKey, (exactCounts.get(exactKey) || 0) + 1);
+        familyCounts.set(candidate.family, (familyCounts.get(candidate.family) || 0) + 1);
+        selected.push(withTransparencyOption(candidate.match, candidate.option));
+      }
     }
     return selected.slice(0, 10);
   }
