@@ -2,28 +2,15 @@
 
 Gunler: 2026-09-18 / 2026-09-19
 Kaynak: fixtures.json
-Ham mac: 248
-Aktif mac: 231
+Ham mac: 261
+Aktif mac: 220
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 17
-Bugun: 207
+Bultenden dusurulen mac: 41
+Bugun: 196
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-18 14:35 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Wuhan Three Tow | scheduled | -
-- 2026-09-18 15:00 | Endonezya Süper Lig | Madura United - Psim Yogyakarta | scheduled | -
-- 2026-09-18 15:00 | Tayland 1.Lig | Ayutthaya Unit - Uthai Thani | scheduled | -
-- 2026-09-18 15:00 | İngiltere Professional Development Lig | Fleetwood Town - Swansea (B) | scheduled | -
-- 2026-09-18 15:00 | İngiltere Premier Lig 2 | Birmingham Cit - Arsenal U21 | scheduled | -
-- 2026-09-18 15:00 | Kazakistan Premier Lig | Zhetysu - Kaspyi | scheduled | -
-- 2026-09-18 15:00 | Kazakistan Premier Lig | Altay - Irtysh | scheduled | -
-- 2026-09-18 15:00 | Azerbaycan 1.Lig | Xankendi - Moik Baku | scheduled | -
-- 2026-09-18 15:30 | Ukrayna Premier Lig | Polessya - Kryvbas Kr | scheduled | -
-- 2026-09-18 16:00 | Türkiye TFF 1. Lig | Bandirmaspor - Ümraniyespor | scheduled | -
-- 2026-09-18 16:00 | Güney Afrika 1.Lig | Real Native - Venda Fc | scheduled | -
-- 2026-09-18 16:00 | Güney Afrika 1.Lig | Highbury - Gomora United | scheduled | -
-- 2026-09-18 16:00 | Ruanda Ulusal Futbol Ligi | Amagaju - Al Marreekh Omd | scheduled | -
 - 2026-09-18 16:30 | Azerbaycan Premier Lig | Qabala - Neftchi Baku | scheduled | -
 - 2026-09-18 16:30 | Belarus Premier Lig | Belshina Bobru - Minsk | scheduled | -
 - 2026-09-18 16:30 | Mısır 2. Lig | La Viena Fc - Masar | scheduled | -
@@ -31,6 +18,7 @@ Yarin: 24
 - 2026-09-18 16:30 | Mısır 2. Lig | Pharco - Mega Sport | scheduled | -
 - 2026-09-18 16:30 | Mısır 2. Lig | Proxy - Maleyet Kafr El | scheduled | -
 - 2026-09-18 16:30 | Mısır 2. Lig | Baladiyyat - Kahraba Ismaili | scheduled | -
+- 2026-09-18 16:30 | Mısır 2. Lig | Derot - El Harby | scheduled | -
 - 2026-09-18 17:00 | Rusya FNL | Pfc Sochi - Ska-Khabarovsk | scheduled | -
 - 2026-09-18 17:00 | Rusya FNL | Volga Ulyanovs - Spartak Kostrom | scheduled | -
 - 2026-09-18 17:00 | Rusya FNL | Chelyabinsk - Ufa | scheduled | -
@@ -139,6 +127,7 @@ Yarin: 24
 - 2026-09-18 20:30 | Faroe Adaları Master Lig | B36 Torshavn - Runavik | scheduled | -
 - 2026-09-18 20:30 | Faroe Adaları Master Lig | Kí Klaksvík - Skala | scheduled | -
 - 2026-09-18 20:30 | İspanya Tercera Ligi Grup 11 | Cd Binissalem - Platges De Calv | scheduled | -
+- 2026-09-18 20:30 | İspanya Tercera Ligi Grup 16 | Yagüe - River Ebro | scheduled | -
 - 2026-09-18 21:00 | Hollanda Eredivisie | Groningen - Zwolle | scheduled | -
 - 2026-09-18 21:00 | Fransa Ligue 2 | Annecy - Dijon | scheduled | -
 - 2026-09-18 21:00 | Fransa Ligue 2 | Pau Fc - Dunkerque | scheduled | -

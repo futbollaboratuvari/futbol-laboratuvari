@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-18T08:33:23.408213+00:00
+Tarih: 2026-09-18T13:11:03.835321+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 222
+- Kac mac bulundu: 197
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 222
-- Ham veri havuzu toplam mac sayisi: 15394
+- Kac mac zaten vardi: 197
+- Ham veri havuzu toplam mac sayisi: 15397
 - Hedef tarih: 18.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -24,11 +24,8 @@ Tarih: 2026-09-18T08:33:23.408213+00:00
 - Arjantin Kadınlar Primera A 2. Aşama
 - Arjantin Prim B Metro
 - Arnavutluk Süperlig
-- Asya Oyunları Grup C
-- Asya Oyunları Grup D
 - Avusturya 1.Lig
 - Avusturya Bundesliga
-- Azerbaycan 1.Lig
 - Azerbaycan Premier Lig
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
@@ -42,7 +39,6 @@ Tarih: 2026-09-18T08:33:23.408213+00:00
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Danimarka Süperlig
-- Endonezya Süper Lig
 - Estonya Esiliiga A
 - Estonya Esiliiga B
 - Estonya Premium Lig
@@ -55,14 +51,12 @@ Tarih: 2026-09-18T08:33:23.408213+00:00
 - Fransa Ligue 1
 - Fransa Ligue 2
 - Galler Premier Lig 1.Aşama
-- Güney Afrika 1.Lig
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hırvatistan 1.HNL
 - Hırvatistan 2. NL
 - Hırvatistan 2.HNL
 - Irak Premier Lig
-- Japonya J3 Lig
 - Karadağ 1.Lig
 - Kazakistan Premier Lig
 - Kosova Süper Lig
@@ -80,21 +74,12 @@ Tarih: 2026-09-18T08:33:23.408213+00:00
 - Polonya Ekstraklasa
 - Portekiz Kupa 2.Tur
 - Romanya 1.Lig
-- Ruanda Ulusal Futbol Ligi
 - Rusya FNL
-- Singapur Premier Lig
 - Slovakya 2.Lig
 - Suudi Arabistan 1.Lig
-- Tayland 1.Lig
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
-- Ukrayna Premier Lig
-- Vietnam Kupa 1.Tur
 - Çek Cumhuriyeti FNL
-- Çin Halk Cumhuriyeti 1.Lig
-- Çin Halk Cumhuriyeti 2.Lig Küme Düşme Grubu
-- Çin Halk Cumhuriyeti 2.Lig Yükselme Grubu
-- Çin Halk Cumhuriyeti Süper Lig
 - Ürdün 1.Lig
 - Ürdün Premier Lig
 - İngiltere Championship
@@ -114,6 +99,7 @@ Tarih: 2026-09-18T08:33:23.408213+00:00
 - İspanya Tercera Ligi Grup 11
 - İspanya Tercera Ligi Grup 12
 - İspanya Tercera Ligi Grup 15
+- İspanya Tercera Ligi Grup 16
 - İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Södra Götaland
 - İsveç 2.Lig Vastra Götaland
@@ -193,7 +179,6 @@ Tarih: 2026-09-18T08:33:23.408213+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 18.09.2026 | 20:00 | Türkiye Süper Lig | Kasimpaşa | Konyaspor | 01311 | 5 |
-| 18.09.2026 | 16:00 | Türkiye TFF 1. Lig | Bandirmaspor | Ümraniyespor | 51650 | 5 |
 | 18.09.2026 | 20:00 | Türkiye TFF 1. Lig | Muğlaspor | Iğdır Fk | 51667 | 5 |
 | 18.09.2026 | 22:00 | İngiltere Premier Lig | Brentford | Chelsea | 09502 | 5 |
 | 18.09.2026 | 22:00 | İspanya LaLiga | Espanyol | Elche | 11443 | 5 |
@@ -207,11 +192,12 @@ Tarih: 2026-09-18T08:33:23.408213+00:00
 | 18.09.2026 | 21:30 | İtalya Serie B | Juve Stabia | Cesena | 33966 | 5 |
 | 18.09.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Dunkerque | 38462 | 5 |
 | 18.09.2026 | 21:00 | Fransa Ligue 2 | Grenoble | Clermont | 38280 | 5 |
-| 18.09.2026 | 21:00 | Fransa Ligue 2 | Reims | Montpellier | 38646 | 5 |
-| 18.09.2026 | 21:00 | Fransa Ligue 2 | Annecy | Dijon | 38101 | 5 |
-| 18.09.2026 | 21:00 | Fransa Ligue 2 | Stade Lavalloi | Sochaux | 38951 | 5 |
 | 18.09.2026 | 21:00 | Fransa Ligue 2 | Rodez Aveyron | Nancy | 38824 | 5 |
+| 18.09.2026 | 21:00 | Fransa Ligue 2 | Stade Lavalloi | Sochaux | 38951 | 5 |
+| 18.09.2026 | 21:00 | Fransa Ligue 2 | Annecy | Dijon | 38101 | 5 |
+| 18.09.2026 | 21:00 | Fransa Ligue 2 | Reims | Montpellier | 38646 | 5 |
 | 18.09.2026 | 19:30 | Almanya 2. Bundesliga | Greuther Furth | Magdeburg | 31428 | 5 |
+| 18.09.2026 | 19:30 | Almanya 2. Bundesliga | Wolfsburg | Darmstadt | 31588 | 5 |
 
 ## Sonuc
 

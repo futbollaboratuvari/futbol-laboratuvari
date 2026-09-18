@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 253
+- Scheduled match count: 229
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-18 / 2026-09-19 23:59
 
-- 2026-09-18 12:00 | Wuhan Three To - Haimen Codion | scheduled
-- 2026-09-18 13:00 | Kuveyt U23 - Özbekistan U23 | scheduled
-- 2026-09-18 13:00 | Yanbian Longdi - Guangzhou E-Pow | scheduled
-- 2026-09-18 13:00 | Osaka - Fukushima Unite | scheduled
-- 2026-09-18 13:00 | Roasso Kumamot - Matsumoto Yamag | scheduled
-- 2026-09-18 13:00 | Chernomorets - Obolon-Brovar | scheduled
-- 2026-09-18 13:30 | Suudi Arabista - Katar U23 | scheduled
-- 2026-09-18 14:00 | Dalian Huayi - Ningbo | scheduled
-- 2026-09-18 14:00 | Okzhetpes - Zhenys | scheduled
-- 2026-09-18 14:00 | Sqc Binh Dinh - Ba Ria Vung Tau | scheduled
+- 2026-09-18 16:30 | Qabala - Neftchi Baku | scheduled
+- 2026-09-18 16:30 | Belshina Bobru - Minsk | scheduled
+- 2026-09-18 16:30 | Baladiyyat - Kahraba Ismaili | scheduled
+- 2026-09-18 16:30 | Derot - El Harby | scheduled
+- 2026-09-18 16:30 | El Saka El Had - Telecom Egypt | scheduled
+- 2026-09-18 16:30 | La Viena Fc - Masar | scheduled
+- 2026-09-18 16:30 | Pharco - Mega Sport | scheduled
+- 2026-09-18 16:30 | Proxy - Maleyet Kafr El | scheduled
+- 2026-09-18 17:00 | Newells Old Bo - Gimnasia La Pla | scheduled
+- 2026-09-18 17:00 | Lucko - Dugo Selo | scheduled
