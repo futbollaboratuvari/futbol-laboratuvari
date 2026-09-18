@@ -105,6 +105,14 @@ jobs:
       - name: Ensure live json
         run: node scripts/ensure-live-json.js
 
+      - name: Enrich PRO robot with verified official markets
+        run: |
+          node tests/iddaa-data-source.test.js
+          node scripts/enrich-robot-official-markets.js
+          node tests/pro-goal-market-bridge.test.js
+          node tests/market-specialist-gates.test.js
+          node scripts/run-pro-goal-market-specialist.js
+
       - name: Build verified weekly Spor Toto
         run: |
           node scripts/sync-spor-toto-weekly-program.js || true
