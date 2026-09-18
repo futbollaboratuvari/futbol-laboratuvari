@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 const { canonicalMarket } = require("./market-specialist-gates");
-const { clean, collectCandidates, normalizeCandidate } = require("./robot-specialists/shared");
+const { clean, collectCandidates, finite, normalizeCandidate } = require("./robot-specialists/shared");
 const { runBttsSpecialist } = require("./robot-specialists/btts-specialist");
 const { runGoalsSpecialist } = require("./robot-specialists/goals-specialist");
 const { runHtftSpecialist } = require("./robot-specialists/htft-specialist");
@@ -88,11 +88,7 @@ function compactDecision(candidate, specialistRobot) {
     specialist_robot: specialistRobot,
     decision,
     eligible: candidate?.specialist_eligible !== false && clean(decision) !== "block",
-    quality_score: Number.isFinite(Number(candidate?.specialist_quality_score))
-      ? Number(candidate.specialist_quality_score)
-      : Number.isFinite(Number(candidate?.market_specialist?.quality_score))
-        ? Number(candidate.market_specialist.quality_score)
-        : null,
+    quality_score: finite(candidate?.specialist_quality_score ?? candidate?.market_specialist?.quality_score),
     source: String(candidate?.specialist_source || ""),
   };
 }
@@ -109,9 +105,7 @@ function compactOutput(result) {
     eligible_count: Number(result?.eligible_count || 0),
     best_market: best?.market || null,
     best_decision: best?.specialist_decision || best?.market_specialist?.decision || null,
-    best_quality_score: Number.isFinite(Number(best?.specialist_quality_score))
-      ? Number(best.specialist_quality_score)
-      : null,
+    best_quality_score: finite(best?.specialist_quality_score),
     supplemental_candidate_count: supplementalCandidateCount,
   };
 }
@@ -135,9 +129,7 @@ function compactPersistedCandidate(candidate) {
     specialist_robot: String(candidate?.specialist_robot || "htft"),
     specialist_decision: String(candidate?.specialist_decision || "keep"),
     specialist_eligible: candidate?.specialist_eligible !== false,
-    specialist_quality_score: Number.isFinite(Number(candidate?.specialist_quality_score))
-      ? Number(candidate.specialist_quality_score)
-      : null,
+    specialist_quality_score: finite(candidate?.specialist_quality_score),
   };
 }
 
