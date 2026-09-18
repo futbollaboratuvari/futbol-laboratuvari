@@ -9,6 +9,7 @@ const index = read("index.html");
 const cache = read("cache-version.js");
 const nav = read("nav-routing.js");
 const livePower = read("live-power-center-v1.js");
+const humanLanguage = read("site-human-language.js");
 const payload = JSON.parse(read(path.join("data", "live-power-series.json")));
 const analysisPayload = JSON.parse(read(path.join("data", "live-match-analysis.json")));
 
@@ -23,9 +24,14 @@ assert(livePower.includes("https://lnngvkitcwwgrljtjwsd.supabase.co"), "live pow
 assert(livePower.includes("live_match_state"), "live power UI must read Supabase live_match_state");
 assert(livePower.includes("live-match-analysis"), "live power UI must subscribe to live analysis topic");
 assert(livePower.includes("@supabase/supabase-js@2.107.0"), "Supabase browser client must be version pinned");
+assert(index.includes("https://cdn.jsdelivr.net"), "CSP must allow the pinned Supabase browser module host");
+assert(index.includes("wss://lnngvkitcwwgrljtjwsd.supabase.co"), "CSP must allow the project Supabase Realtime websocket");
+assert(humanLanguage.includes('[data-pa3-root], #live-power-center'), "generic humanizer must not rewrite live robot copy");
 assert(livePower.includes("loadStaticFallback"), "live power UI must retain static fallback");
 assert.match(livePower, /status === 'SUBSCRIBED'[\s\S]*realtimeReady = true;[\s\S]*render\(\)/, "Realtime SUBSCRIBED state must render immediately");
 assert.match(livePower, /CHANNEL_ERROR'[\s\S]*realtimeReady = false;[\s\S]*render\(\)/, "Realtime channel failure must render fallback state");
+const applyRealtimePayloadBlock = livePower.match(/function applyRealtimePayload\(payload\) \{[\s\S]*?\n  \}/)?.[0] || "";
+assert(!applyRealtimePayloadBlock.includes("realtimeReady = true"), "REST state must not masquerade as a Realtime subscription");
 assert(livePower.includes("Team Power + Goal Power + Canlı Analiz Robotu"), "live analysis robot UI heading missing");
 assert(livePower.includes("Canlı Maç Analiz Robotu"), "live analysis robot detail card missing");
 assert(livePower.includes("state.root.id = 'live-power-center'"), "live power reload must preserve stable anchor");

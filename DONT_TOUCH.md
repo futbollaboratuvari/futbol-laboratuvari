@@ -106,6 +106,18 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 
 ## Canli Mac Analiz Robotu Islem Gunlugu
 
+### 2026-09-18 - Realtime CSP ve dogru baglanti durumu V3
+
+- Canli test bulgusu: Pages v2 run `35387486718` build ve deployment adimlarini basariyla tamamladi ancak gercek Chromium kontrolu fail etti. Ayri browser diagnostic run `35392161077` canli DOM ve console ciktisini dogruladi.
+- Kok neden 1: `index.html` CSP `script-src` kurali `https://cdn.jsdelivr.net` kaynagini izinli saymadigi icin pinli `@supabase/supabase-js@2.107.0/+esm` dinamik importu browser tarafinda engelleniyordu. Console kaniti CSP ihlali ve `Failed to fetch dynamically imported module` hatasidir.
+- Kok neden 2: CSP `connect-src` icinde proje WebSocket adresi `wss://lnngvkitcwwgrljtjwsd.supabase.co` acikca yoktu.
+- Kok neden 3: REST current state yuklendiginde `applyRealtimePayload` yanlis bicimde `realtimeReady=true` yapiyor ve WebSocket gercekte baglanmasa bile UI `Akış: Supabase Realtime` gosterebiliyordu.
+- Metin hatasi: Genel `site-human-language.js` donusumu Canli Guc alaninda `Robotu` kelimesini `Analiz sistemiu` biciminde bozuyordu. Canli robot bolumu generic humanizer kapsamindan cikartildi.
+- Duzeltme: CSP script kaynagina yalniz `cdn.jsdelivr.net`, connect kaynagina yalniz proje Supabase WSS adresi eklendi; REST state artik Realtime flag acmaz; flag yalniz channel `SUBSCRIBED` durumunda acilir. Canli robot metni generic humanizer tarafindan degistirilmez.
+- Regresyon: Statik test CSP CDN/WSS izinlerini, live center humanizer muafiyetini ve REST payloadin Realtime flag acmamasini kilitler. Pages browser testi exact robot basligi/karti + `Akış: Supabase Realtime` + console CSP/fallback hatasi yoklugunu zorunlu tutar.
+- Cache/release: `20260918-live-realtime-v3`.
+- Gelistirme dali: `fix/live-realtime-csp-truth-v3-20260918`. PR/CI/main/custom-domain final sonucu tamamlaninca bu kayit kapanis bilgisiyle guncellenecektir.
+
 ### 2026-09-18 - Realtime abonelik durumunun UI'ya aninda yansitilmasi V2
 
 - Canli test bulgusu: PR #84 merge commit `82a831f0fad6728fa7921d82302fcf1129ac1ac5` basariyla deploy edildi; build, artifact ve Pages deployment adimlari gecti. Ancak Pages run `35386824260` gercek Chromium dogrulamasinda `Akış: Supabase Realtime` etiketi gorulmedigi icin bilerek fail etti.

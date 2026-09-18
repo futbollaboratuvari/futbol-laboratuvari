@@ -66,8 +66,8 @@ jobs:
         run: |
           printf '%s\n' "${GITHUB_SHA}" > public/deploy-version.txt
           grep -q 'id="live-power-center"' public/index.html
-          grep -q 'live-power-center-v1.js?v=20260918-live-realtime-v2' public/index.html
-          grep -q 'const version = "20260918-live-realtime-v2";' public/cache-version.js
+          grep -q 'live-power-center-v1.js?v=20260918-live-realtime-v3' public/index.html
+          grep -q 'const version = "20260918-live-realtime-v3";' public/cache-version.js
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
@@ -81,7 +81,7 @@ jobs:
       - name: Verify live custom domain in real browser
         env:
           LIVE_URL: https://futbollaboratuuvari.org
-          EXPECTED_UI_VERSION: 20260918-live-realtime-v2
+          EXPECTED_UI_VERSION: 20260918-live-realtime-v3
         run: |
           set -euo pipefail
           html_ok=0
@@ -112,15 +112,24 @@ jobs:
             --disable-gpu \
             --disable-dev-shm-usage \
             --virtual-time-budget=25000 \
+            --enable-logging=stderr \
             --dump-dom \
             "${LIVE_URL}/?deploy=${GITHUB_SHA}#live-power-center" \
-            > /tmp/live-power-dom.html
+            > /tmp/live-power-dom.html 2> /tmp/live-power-chrome.log
 
+          echo "Live Power diagnostics:"
+          grep -o 'Akış: [^<]*' /tmp/live-power-dom.html | head -1 || true
+          grep -o 'Robot hazır: [^<]*' /tmp/live-power-dom.html | head -1 || true
           grep -q 'id="live-power-center"' /tmp/live-power-dom.html
           grep -q 'Team Power + Goal Power + Canlı Analiz Robotu' /tmp/live-power-dom.html
           grep -q 'Canlı Maç Analiz Robotu\|Canlı Analiz Robotu bekliyor' /tmp/live-power-dom.html
           grep -q 'Akış: Supabase Realtime' /tmp/live-power-dom.html
           grep -q 'class="flp-status"' /tmp/live-power-dom.html
+          if grep -q 'Supabase Realtime fallback mode\|violates the following Content Security Policy' /tmp/live-power-chrome.log; then
+            echo "Realtime browser console failure:"
+            tail -80 /tmp/live-power-chrome.log
+            exit 1
+          fi
           if grep -q 'Team Power + Goal Power verisi yükleniyor' /tmp/live-power-dom.html; then
             echo "Live Power UI stayed in loading state"
             exit 1
