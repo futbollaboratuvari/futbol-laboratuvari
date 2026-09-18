@@ -9,6 +9,12 @@ on:
       - main
     paths:
       - "ops/live-power-trigger.txt"
+      - ".github/workflows/live-power-series.yml"
+      - "scripts/update-live-power-series-v2.js"
+      - "scripts/live-match-analysis-robot.js"
+      - "scripts/validate-live-match-analysis.js"
+      - "tests/live-match-analysis-robot.test.js"
+      - "live-power-center-v1.js"
 
 permissions:
   contents: write
@@ -38,12 +44,18 @@ jobs:
         run: |
           node tests/live-power-series.test.js
           node tests/live-power-core.test.js
+          node tests/live-match-analysis-robot.test.js
 
       - name: Collect verified free-source live power snapshots
         run: node scripts/update-live-power-series-v2.js
 
+      - name: Build live match analysis robot output
+        run: node scripts/live-match-analysis-robot.js
+
       - name: Validate output JSON
-        run: node scripts/validate-live-power-series.js
+        run: |
+          node scripts/validate-live-power-series.js
+          node scripts/validate-live-match-analysis.js
 
       - name: Commit live power output
         run: |
@@ -52,16 +64,19 @@ jobs:
           git pull --rebase --autostash origin main
           node tests/live-power-series.test.js
           node tests/live-power-core.test.js
+          node tests/live-match-analysis-robot.test.js
           node scripts/update-live-power-series-v2.js
+          node scripts/live-match-analysis-robot.js
           node scripts/validate-live-power-series.js
-          git add data/live-power-series.json
+          node scripts/validate-live-match-analysis.js
+          git add data/live-power-series.json data/live-match-analysis.json
           if git diff --cached --quiet; then
             echo "No live power changes"
             exit 0
           fi
           git commit -m "Update verified free-source live power series"
           for attempt in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && node tests/live-power-series.test.js && node tests/live-power-core.test.js && node scripts/validate-live-power-series.js && git push origin HEAD:main; then
+            if git pull --rebase --autostash origin main && node tests/live-power-series.test.js && node tests/live-power-core.test.js && node tests/live-match-analysis-robot.test.js && node scripts/validate-live-power-series.js && node scripts/validate-live-match-analysis.js && git push origin HEAD:main; then
               exit 0
             fi
             git rebase --abort || true

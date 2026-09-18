@@ -1,0 +1,64 @@
+name: Live Match Analysis CI
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/update-live-power-series.js'
+      - 'scripts/update-live-power-series-v2.js'
+      - 'scripts/live-match-analysis-robot.js'
+      - 'scripts/validate-live-power-series.js'
+      - 'scripts/validate-live-match-analysis.js'
+      - 'tests/live-power-series.test.js'
+      - 'tests/live-power-core.test.js'
+      - 'tests/live-match-analysis-robot.test.js'
+      - 'tests/live-power-center-static.test.js'
+      - 'live-power-center-v1.js'
+      - 'data/live-match-analysis.json'
+      - '.github/workflows/live-power-series.yml'
+      - '.github/workflows/live-match-analysis-ci.yml'
+      - 'package.json'
+      - 'index.html'
+      - 'cache-version.js'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: live-match-analysis-ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  live-analysis-regression:
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ['20', '24']
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Syntax check
+        run: |
+          node --check scripts/update-live-power-series.js
+          node --check scripts/update-live-power-series-v2.js
+          node --check scripts/live-match-analysis-robot.js
+          node --check scripts/validate-live-match-analysis.js
+          node --check live-power-center-v1.js
+
+      - name: Live analysis tests
+        run: |
+          node tests/live-power-series.test.js
+          node tests/live-power-core.test.js
+          node tests/live-match-analysis-robot.test.js
+          node scripts/validate-live-power-series.js
+          node scripts/validate-live-match-analysis.js
+          node tests/live-power-center-static.test.js
