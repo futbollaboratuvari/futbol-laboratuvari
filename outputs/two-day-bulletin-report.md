@@ -3,47 +3,14 @@
 Gunler: 2026-09-18 / 2026-09-19
 Kaynak: fixtures.json
 Ham mac: 262
-Aktif mac: 175
+Aktif mac: 142
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 87
-Bugun: 151
+Bultenden dusurulen mac: 120
+Bugun: 118
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-18 18:45 | Azerbaycan Premier Lig | Qarabagh - Safa | scheduled | -
-- 2026-09-18 18:45 | Irak Premier Lig | Karbala - Erbil Sc | scheduled | -
-- 2026-09-18 18:45 | Irak Premier Lig | Al Mosul - Naft | scheduled | -
-- 2026-09-18 18:50 | Suudi Arabistan 1.Lig | Al Taee - Al Bukayriyah | scheduled | -
-- 2026-09-18 19:00 | Polonya Ekstraklasa | Widzew Lodz - Ks Wieczysta Kr | scheduled | -
-- 2026-09-18 19:00 | Finlandiya Veikkausliiga Şampiyonluk Grubu | Gnistan - Helsinki | scheduled | -
-- 2026-09-18 19:00 | Finlandiya Veikkausliiga Şampiyonluk Grubu | Oulu - Inter Turku | scheduled | -
-- 2026-09-18 19:00 | Polonya 1.Lig | Warta Poznan - Puszcza Niepolo | scheduled | -
-- 2026-09-18 19:00 | Belarus Premier Lig | Ml Vitebsk - Arsenal | scheduled | -
-- 2026-09-18 19:00 | Çek Cumhuriyeti FNL | Karvina - Hanacka Slavia | scheduled | -
-- 2026-09-18 19:00 | Çek Cumhuriyeti FNL | Prostejov - Dukla Prag | scheduled | -
-- 2026-09-18 19:00 | Çek Cumhuriyeti FNL | Jihlava - Slavia Praha Ii | scheduled | -
-- 2026-09-18 19:00 | Çek Cumhuriyeti FNL | Opava - Arsenal Ceska L | scheduled | -
-- 2026-09-18 19:00 | Slovakya 2.Lig | Liptovsky Miku - Zlate Moravce | scheduled | -
-- 2026-09-18 19:00 | Polonya 2.Lig | Zawisza Bydgos - Gornik Leczna | scheduled | -
-- 2026-09-18 19:00 | Estonya Premium Lig | Harju Jalgpall - Kuressaare | scheduled | -
-- 2026-09-18 19:00 | Malta Premier Lig Açılış | Birkirkara - Zabbar St Patri | scheduled | -
-- 2026-09-18 19:00 | Litvanya 1.Lig | Hegelmann Ii - Fk Dainava | scheduled | -
-- 2026-09-18 19:00 | Litvanya 1.Lig | Lietava Jonava - Tauras | scheduled | -
-- 2026-09-18 19:00 | Ürdün 1.Lig | Jerash - Al Sahl Horan | scheduled | -
-- 2026-09-18 19:00 | Ürdün 1.Lig | Ethad Ar - Al Yarmouk | scheduled | -
-- 2026-09-18 19:00 | Estonya Esiliiga B | Vaprus Ii - Tallinna Jk Leg | scheduled | -
-- 2026-09-18 19:00 | Ürdün 1.Lig | Maan - Al Hashemeya | scheduled | -
-- 2026-09-18 19:05 | Suudi Arabistan 1.Lig | Jeddah Club - Al-Saqer | scheduled | -
-- 2026-09-18 19:30 | Almanya 2. Bundesliga | Wolfsburg - Darmstadt | scheduled | -
-- 2026-09-18 19:30 | Almanya 2. Bundesliga | Greuther Furth - Magdeburg | scheduled | -
-- 2026-09-18 19:30 | Avusturya 1.Lig | Wspg Wels - First Vienna | scheduled | -
-- 2026-09-18 19:30 | Avusturya 1.Lig | Kapfenberg - Amstetten | scheduled | -
-- 2026-09-18 19:30 | Avusturya 1.Lig | Floridsdorfer - Liefering | scheduled | -
-- 2026-09-18 19:30 | Arnavutluk Süperlig | Vllaznia - Teuta | scheduled | -
-- 2026-09-18 19:30 | Almanya Kadınlar Bundesliga | Mainz 05 (K) - E. Frankfurt (K | scheduled | -
-- 2026-09-18 19:30 | Almanya Kadınlar Bundesliga | Hoffenheim (K) - Wolfsburg (K) | scheduled | -
-- 2026-09-18 19:30 | Polonya Ekstraklasa | Widzew Lodz - Ks Wieczysta Kr | scheduled | -
 - 2026-09-18 20:00 | Türkiye Süper Lig | Kasimpaşa - Konyaspor | scheduled | -
 - 2026-09-18 20:00 | Türkiye TFF 1. Lig | Muğlaspor - Iğdır Fk | scheduled | -
 - 2026-09-18 20:00 | Danimarka Süperlig | Lyngby - Silkeborg | scheduled | -

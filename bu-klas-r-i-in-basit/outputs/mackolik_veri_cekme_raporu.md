@@ -1,33 +1,28 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-18T15:40:23.105136+00:00
+Tarih: 2026-09-18T16:37:25.420423+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 151
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 150
+- Kac mac bulundu: 119
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 119
 - Ham veri havuzu toplam mac sayisi: 15398
 - Hedef tarih: 18.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bundesliga
 - Almanya Bölgesel Lig Batı
 - Almanya Bölgesel Lig Güney Batı
 - Almanya Bölgesel Lig Kuzey Doğu
-- Almanya Kadınlar Bundesliga
 - Arjantin Kadınlar Primera A 2. Aşama
 - Arjantin Prim B Metro
-- Arnavutluk Süperlig
 - Avusturya 1.Lig
 - Avusturya Bundesliga
-- Azerbaycan Premier Lig
-- Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
 - Bosna-Hersek Premier Lig
@@ -38,10 +33,7 @@ Tarih: 2026-09-18T15:40:23.105136+00:00
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Danimarka Süperlig
-- Estonya Esiliiga B
-- Estonya Premium Lig
 - Faroe Adaları Master Lig
-- Finlandiya Veikkausliiga Şampiyonluk Grubu
 - Fransa Kadınlar 1.Lig
 - Fransa Ligue 1
 - Fransa Ligue 2
@@ -53,23 +45,17 @@ Tarih: 2026-09-18T15:40:23.105136+00:00
 - Karadağ 1.Lig
 - Kosova Süper Lig
 - Kuzey İrlanda Championship
-- Litvanya 1.Lig
 - Macaristan NB I
 - Malta Premier Lig Açılış
 - Norveç Eliteserien
 - Paraguay Intermedia Lig
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
-- Polonya 2.Lig
 - Polonya Ekstraklasa
 - Portekiz Kupa 2.Tur
 - Romanya 1.Lig
-- Slovakya 2.Lig
-- Suudi Arabistan 1.Lig
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
-- Çek Cumhuriyeti FNL
-- Ürdün 1.Lig
 - Ürdün Premier Lig
 - İngiltere Championship
 - İngiltere FA Cup Eleme 2.Tur
@@ -153,8 +139,8 @@ Tarih: 2026-09-18T15:40:23.105136+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 90
-- Acilan detay: 90
+- Denenen Tumu alani: 87
+- Acilan detay: 87
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -179,14 +165,14 @@ Tarih: 2026-09-18T15:40:23.105136+00:00
 | 18.09.2026 | 22:00 | İngiltere Championship | Bristol City | Watford | 01891 | 5 |
 | 18.09.2026 | 21:30 | İspanya 2.Lig | Albacete | Cordoba | 26763 | 5 |
 | 18.09.2026 | 21:30 | İtalya Serie B | Juve Stabia | Cesena | 33966 | 5 |
-| 18.09.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Dunkerque | 38462 | 5 |
 | 18.09.2026 | 21:00 | Fransa Ligue 2 | Grenoble | Clermont | 38280 | 5 |
-| 18.09.2026 | 21:00 | Fransa Ligue 2 | Rodez Aveyron | Nancy | 38824 | 5 |
 | 18.09.2026 | 21:00 | Fransa Ligue 2 | Stade Lavalloi | Sochaux | 38951 | 5 |
+| 18.09.2026 | 21:00 | Fransa Ligue 2 | Rodez Aveyron | Nancy | 38824 | 5 |
 | 18.09.2026 | 21:00 | Fransa Ligue 2 | Annecy | Dijon | 38101 | 5 |
 | 18.09.2026 | 21:00 | Fransa Ligue 2 | Reims | Montpellier | 38646 | 5 |
-| 18.09.2026 | 19:30 | Almanya 2. Bundesliga | Greuther Furth | Magdeburg | 31428 | 5 |
-| 18.09.2026 | 19:30 | Almanya 2. Bundesliga | Wolfsburg | Darmstadt | 31588 | 5 |
+| 18.09.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Dunkerque | 38462 | 5 |
+| 18.09.2026 | 21:00 | Hollanda Eerste Divisie | Den Bosch | Helmond Sport | 42150 | 5 |
+| 18.09.2026 | 21:00 | Hollanda Eerste Divisie | Jong Az Alkmaa | Volendam | 42501 | 5 |
 
 ## Sonuc
 
