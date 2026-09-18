@@ -2,61 +2,15 @@
 
 Gunler: 2026-09-18 / 2026-09-19
 Kaynak: fixtures.json
-Ham mac: 261
-Aktif mac: 220
+Ham mac: 262
+Aktif mac: 175
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 41
-Bugun: 196
+Bultenden dusurulen mac: 87
+Bugun: 151
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-18 16:30 | Azerbaycan Premier Lig | Qabala - Neftchi Baku | scheduled | -
-- 2026-09-18 16:30 | Belarus Premier Lig | Belshina Bobru - Minsk | scheduled | -
-- 2026-09-18 16:30 | Mısır 2. Lig | La Viena Fc - Masar | scheduled | -
-- 2026-09-18 16:30 | Mısır 2. Lig | El Saka El Had - Telecom Egypt | scheduled | -
-- 2026-09-18 16:30 | Mısır 2. Lig | Pharco - Mega Sport | scheduled | -
-- 2026-09-18 16:30 | Mısır 2. Lig | Proxy - Maleyet Kafr El | scheduled | -
-- 2026-09-18 16:30 | Mısır 2. Lig | Baladiyyat - Kahraba Ismaili | scheduled | -
-- 2026-09-18 16:30 | Mısır 2. Lig | Derot - El Harby | scheduled | -
-- 2026-09-18 17:00 | Rusya FNL | Pfc Sochi - Ska-Khabarovsk | scheduled | -
-- 2026-09-18 17:00 | Rusya FNL | Volga Ulyanovs - Spartak Kostrom | scheduled | -
-- 2026-09-18 17:00 | Rusya FNL | Chelyabinsk - Ufa | scheduled | -
-- 2026-09-18 17:00 | Polonya 2.Lig | Sokol Kleczew - Avia Swidnik | scheduled | -
-- 2026-09-18 17:00 | Kazakistan Premier Lig | Kyzyl-Zhar - Kaisar | scheduled | -
-- 2026-09-18 17:00 | Kuzey Makedonya 1.Lig | Skendija - Bashkimi Kumano | scheduled | -
-- 2026-09-18 17:00 | Arjantin Kadınlar Primera A 2. Aşama | Newells Old Bo - Gimnasia La Pla | scheduled | -
-- 2026-09-18 17:00 | Hırvatistan 2.HNL | Zdralovi - Segesta | scheduled | -
-- 2026-09-18 17:00 | Hırvatistan 2. NL | Lucko - Dugo Selo | scheduled | -
-- 2026-09-18 17:30 | Polonya 2.Lig | Rekord Bielsko - Swit Skolwin | scheduled | -
-- 2026-09-18 17:30 | Estonya Esiliiga A | Tallinna Kalev - Flora Tallinn I | scheduled | -
-- 2026-09-18 17:30 | Litvanya 1.Lig | Be1 Nfa - Transinvest Vil | scheduled | -
-- 2026-09-18 17:30 | Hırvatistan 2.HNL | Radnik Sesvete - Cibalia | scheduled | -
-- 2026-09-18 17:40 | Birleşik Arap Emirlikleri 1.Lig | Fujairah - Dubba Al Husun | scheduled | -
-- 2026-09-18 17:40 | Birleşik Arap Emirlikleri 1.Lig | Dubba Al Fujai - Al Ittifaq | scheduled | -
-- 2026-09-18 17:40 | Birleşik Arap Emirlikleri 1.Lig | Al Urooba - Emirates | scheduled | -
-- 2026-09-18 17:40 | Birleşik Arap Emirlikleri 1.Lig | Al Bataeh - Al Hamriyah | scheduled | -
-- 2026-09-18 17:40 | Birleşik Arap Emirlikleri 1.Lig | Gulf United - Al Jazira Al Ha | scheduled | -
-- 2026-09-18 17:40 | Birleşik Arap Emirlikleri 1.Lig | Palm City 365 - Gulf Heroes | scheduled | -
-- 2026-09-18 17:40 | Birleşik Arap Emirlikleri 1.Lig | City Fc Dubai - Al Arabi | scheduled | -
-- 2026-09-18 18:00 | Finlandiya Veikkausliiga Küme Düşme Grubu | Lahti - Jaro | scheduled | -
-- 2026-09-18 18:00 | Finlandiya Veikkausliiga Küme Düşme Grubu | Seinajoen Jk - Mariehamn | scheduled | -
-- 2026-09-18 18:00 | Cezayir 1.Lig | Js El Biar - Js Saoura | scheduled | -
-- 2026-09-18 18:00 | Cezayir 1.Lig | Usm Khenchela - Es Ben Aknoun | scheduled | -
-- 2026-09-18 18:00 | Rusya FNL | Neftekhimik - Ural | scheduled | -
-- 2026-09-18 18:00 | Romanya 1.Lig | Uta Arad - Sepsi | scheduled | -
-- 2026-09-18 18:00 | Ürdün Premier Lig | Al Arabi - Al Jazeera | scheduled | -
-- 2026-09-18 18:00 | Kazakistan Premier Lig | Aktobe - Ulytau | scheduled | -
-- 2026-09-18 18:00 | Cezayir 2.Lig Doğu | Teleghma - Msp Batna | scheduled | -
-- 2026-09-18 18:00 | Cezayir 2.Lig Doğu | Ca Batna - Azazga | scheduled | -
-- 2026-09-18 18:00 | Cezayir 2.Lig Doğu | Skikda - Irb Nezla | scheduled | -
-- 2026-09-18 18:00 | Cezayir 2.Lig Doğu | Mo Bejaia - Mo Constantine | scheduled | -
-- 2026-09-18 18:00 | Cezayir 2.Lig Doğu | Usm Annaba - Magra | scheduled | -
-- 2026-09-18 18:00 | Cezayir 2.Lig Doğu | Us Chaouia - Beni Oulbane | scheduled | -
-- 2026-09-18 18:30 | Finlandiya Ykkösliiga | Japs - Ekenas If | scheduled | -
-- 2026-09-18 18:30 | Finlandiya Ykkösliiga | Haka - Klubi 04 | scheduled | -
-- 2026-09-18 18:30 | Finlandiya Ykkönen Küme Düşme Turu | Kpv Kokkola - Kups Ak. | scheduled | -
-- 2026-09-18 18:30 | Rusya FNL | Shinnik Yarosl - Kamaz | scheduled | -
 - 2026-09-18 18:45 | Azerbaycan Premier Lig | Qarabagh - Safa | scheduled | -
 - 2026-09-18 18:45 | Irak Premier Lig | Karbala - Erbil Sc | scheduled | -
 - 2026-09-18 18:45 | Irak Premier Lig | Al Mosul - Naft | scheduled | -
@@ -89,6 +43,7 @@ Yarin: 24
 - 2026-09-18 19:30 | Arnavutluk Süperlig | Vllaznia - Teuta | scheduled | -
 - 2026-09-18 19:30 | Almanya Kadınlar Bundesliga | Mainz 05 (K) - E. Frankfurt (K | scheduled | -
 - 2026-09-18 19:30 | Almanya Kadınlar Bundesliga | Hoffenheim (K) - Wolfsburg (K) | scheduled | -
+- 2026-09-18 19:30 | Polonya Ekstraklasa | Widzew Lodz - Ks Wieczysta Kr | scheduled | -
 - 2026-09-18 20:00 | Türkiye Süper Lig | Kasimpaşa - Konyaspor | scheduled | -
 - 2026-09-18 20:00 | Türkiye TFF 1. Lig | Muğlaspor - Iğdır Fk | scheduled | -
 - 2026-09-18 20:00 | Danimarka Süperlig | Lyngby - Silkeborg | scheduled | -

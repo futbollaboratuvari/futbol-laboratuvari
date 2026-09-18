@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.09.2026 18:33:44
+Oluşturma: 18.09.2026 18:41:24
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1176
-- Kazanan tahmin: 180
-- Kaybeden tahmin: 144
-- Lig sayısı: 287
+- Bekleyen tahmin: 1183
+- Kazanan tahmin: 177
+- Kaybeden tahmin: 140
+- Lig sayısı: 291
 - Seçenek sayısı: 9
 
 ## Öğrenme Mantığı
@@ -22,31 +22,31 @@ Oluşturma: 18.09.2026 18:33:44
 
 ## En Güçlü Seçenek Hafızası
 
-- KG Var: toplam 34, bekleyen 22, başarı %67, düz getiri %18, ağırlık 1
-- 2.5 Üst: toplam 160, bekleyen 106, başarı %59, düz getiri %7, ağırlık 1
-- 2.5 Alt: toplam 547, bekleyen 433, başarı %57, düz getiri %-2, ağırlık 1
-- MS 2: toplam 238, bekleyen 195, başarı %54, düz getiri %3, ağırlık 1
-- MS 1: toplam 473, bekleyen 376, başarı %52, düz getiri %-17, ağırlık 1
+- KG Var: toplam 38, bekleyen 26, başarı %67, düz getiri %18, ağırlık 1
+- 2.5 Üst: toplam 157, bekleyen 104, başarı %60, düz getiri %10, ağırlık 1
+- 2.5 Alt: toplam 546, bekleyen 432, başarı %57, düz getiri %-2, ağırlık 1
+- MS 2: toplam 237, bekleyen 196, başarı %54, düz getiri %2, ağırlık 1
+- MS 1: toplam 467, bekleyen 374, başarı %52, düz getiri %-17, ağırlık 1
 - MS X: toplam 11, bekleyen 7, başarı %50, düz getiri %22, ağırlık 1
+- İkinci Yarı KG Var: toplam 15, bekleyen 15, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- KG Yok: toplam 15, bekleyen 15, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - 3.5 Üst: toplam 14, bekleyen 14, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- KG Yok: toplam 13, bekleyen 13, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- İkinci Yarı KG Var: toplam 10, bekleyen 10, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-18 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Wuhan Three Tow | 3.5 Üst | pending | 67/100
-- 2026-09-18 | Peru Premier Lig Clausura | Alianza Atleti - Comerciantes Un | 2.5 Üst | pending | 56/100
-- 2026-09-18 | Arjantin Primera C | Cambaceres - Jj Urquiza | MS X | pending | 42/100
-- 2026-09-18 | İtalya Serie B | Juve Stabia - Cesena | 2.5 Üst | pending | 66/100
-- 2026-09-18 | İspanya Tercera Ligi Grup 16 | Yagüe - River Ebro | MS 1 | pending | 56/100
-- 2026-09-18 | Danimarka 1.Lig | Kolding If - Hillerod | 2.5 Üst | pending | 54/100
-- 2026-09-18 | Almanya Bölgesel Lig Güney Batı | Fsv Frankfurt - Stuttgarter Kic | MS 1 | pending | 41/100
-- 2026-09-18 | İsveç 2.Lig Södra Götaland | Lilla Torg - Linero | MS 1 | pending | 42/100
-- 2026-09-18 | Almanya Kadınlar Bundesliga | Hoffenheim (K) - Wolfsburg (K) | KG Yok | pending | 47/100
-- 2026-09-18 | Cezayir 1.Lig | Usm Khenchela - Es Ben Aknoun | İkinci Yarı KG Var | pending | 60/100
-- 2026-09-18 | Romanya 1.Lig | Uta Arad - Sepsi | İkinci Yarı KG Var | pending | 56/100
-- 2026-09-18 | Finlandiya Ykkösliiga | Japs - Ekenas If | MS 1 | pending | 42/100
-- 2026-09-18 | Mısır 2. Lig | Derot - El Harby | 2.5 Alt | pending | 56/100
-- 2026-09-18 | Cezayir 1.Lig | Js El Biar - Js Saoura | İkinci Yarı KG Var | pending | 60/100
-- 2026-09-18 | Mısır 2. Lig | Proxy - Maleyet Kafr El | MS X | pending | 42/100
+- 2026-09-18 | Finlandiya Veikkausliiga, Şampiyonluk Gr | Oulu - Inter Turku | İkinci Yarı KG Var | pending | 57/100
+- 2026-09-18 | United Arab Emirates UAE League Division 1 | Al Bataeh - Al Hamriyah | MS 2 | pending | 50/100
+- 2026-09-18 | Honduras Ulusal Lig Apertura | Choloma - Estrella Roja | 2.5 Alt | pending | 58/100
+- 2026-09-18 | Arjantin Primera C | Cambaceres - Jj Urquiza | MS 1 | pending | 42/100
+- 2026-09-18 | Malta Premier Lig Açılış | Marsaxlokk Fc - Hamrun | KG Var | pending | 54/100
+- 2026-09-18 | Galler Premier Lig 1.Aşama | Haverfordwest - Holywell Town | KG Var | pending | 54/100
+- 2026-09-18 | Estonya Esiliiga B | Vaprus Ii - Tallinna Jk Leg | İkinci Yarı KG Var | pending | 54/100
+- 2026-09-18 | Polonya Ekstraklasa | Widzew Lodz - Ks Wieczysta Kr | MS 1 | pending | 47/100
+- 2026-09-18 | Finlandiya Veikkausliiga Şampiyonluk Grubu | Oulu - Inter Turku | İkinci Yarı KG Var | pending | 57/100
+- 2026-09-18 | Polonya 1.Lig | Warta Poznan - Puszcza Niepolo | İkinci Yarı KG Var | pending | 54/100
+- 2026-09-18 | Hırvatistan 2.HNL | Zdralovi - Segesta | KG Var | pending | 53/100
+- 2026-09-18 | Birleşik Arap Emirlikleri 1.Lig | Al Urooba - Emirates | 2.5 Alt | pending | 53/100
+- 2026-09-18 | Birleşik Arap Emirlikleri 1.Lig | Al Bataeh - Al Hamriyah | MS 2 | pending | 50/100
+- 2026-09-18 | Birleşik Arap Emirlikleri 1.Lig | Gulf United - Al Jazira Al Ha | KG Yok | pending | 53/100
+- 2026-09-18 | Birleşik Arap Emirlikleri 1.Lig | City Fc Dubai - Al Arabi | KG Var | pending | 54/100
 

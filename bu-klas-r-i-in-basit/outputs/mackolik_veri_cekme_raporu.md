@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-18T13:11:03.835321+00:00
+Tarih: 2026-09-18T15:40:23.105136+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 197
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 197
-- Ham veri havuzu toplam mac sayisi: 15397
+- Kac mac bulundu: 151
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 150
+- Ham veri havuzu toplam mac sayisi: 15398
 - Hedef tarih: 18.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -30,7 +30,6 @@ Tarih: 2026-09-18T13:11:03.835321+00:00
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
-- Birleşik Arap Emirlikleri 1.Lig
 - Bosna-Hersek Premier Lig
 - Bulgaristan 1.Lig
 - Cezayir 1.Lig
@@ -39,14 +38,10 @@ Tarih: 2026-09-18T13:11:03.835321+00:00
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Danimarka Süperlig
-- Estonya Esiliiga A
 - Estonya Esiliiga B
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
-- Finlandiya Veikkausliiga Küme Düşme Grubu
 - Finlandiya Veikkausliiga Şampiyonluk Grubu
-- Finlandiya Ykkönen Küme Düşme Turu
-- Finlandiya Ykkösliiga
 - Fransa Kadınlar 1.Lig
 - Fransa Ligue 1
 - Fransa Ligue 2
@@ -54,18 +49,13 @@ Tarih: 2026-09-18T13:11:03.835321+00:00
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hırvatistan 1.HNL
-- Hırvatistan 2. NL
-- Hırvatistan 2.HNL
 - Irak Premier Lig
 - Karadağ 1.Lig
-- Kazakistan Premier Lig
 - Kosova Süper Lig
-- Kuzey Makedonya 1.Lig
 - Kuzey İrlanda Championship
 - Litvanya 1.Lig
 - Macaristan NB I
 - Malta Premier Lig Açılış
-- Mısır 2. Lig
 - Norveç Eliteserien
 - Paraguay Intermedia Lig
 - Peru Premier Lig Clausura
@@ -74,7 +64,6 @@ Tarih: 2026-09-18T13:11:03.835321+00:00
 - Polonya Ekstraklasa
 - Portekiz Kupa 2.Tur
 - Romanya 1.Lig
-- Rusya FNL
 - Slovakya 2.Lig
 - Suudi Arabistan 1.Lig
 - Türkiye Süper Lig
