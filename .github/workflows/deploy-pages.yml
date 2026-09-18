@@ -111,7 +111,7 @@ jobs:
             --no-sandbox \
             --disable-gpu \
             --disable-dev-shm-usage \
-            --virtual-time-budget=15000 \
+            --virtual-time-budget=25000 \
             --dump-dom \
             "${LIVE_URL}/?deploy=${GITHUB_SHA}#live-power-center" \
             > /tmp/live-power-dom.html
@@ -119,9 +119,10 @@ jobs:
           grep -q 'id="live-power-center"' /tmp/live-power-dom.html
           grep -q 'Team Power + Goal Power + Canlı Analiz Robotu' /tmp/live-power-dom.html
           grep -q 'Canlı Maç Analiz Robotu\|Canlı Analiz Robotu bekliyor' /tmp/live-power-dom.html
+          grep -q 'Akış: Supabase Realtime' /tmp/live-power-dom.html
           grep -q 'class="flp-status"' /tmp/live-power-dom.html
           if grep -q 'Team Power + Goal Power verisi yükleniyor' /tmp/live-power-dom.html; then
             echo "Live Power UI stayed in loading state"
             exit 1
           fi
-          echo "LIVE USER TEST PASS: Canlı Güç Motoru rendered on custom domain."
+          echo "LIVE USER TEST PASS: Canlı Güç + Canlı Analiz Robotu Supabase Realtime ile custom domainde render edildi."
