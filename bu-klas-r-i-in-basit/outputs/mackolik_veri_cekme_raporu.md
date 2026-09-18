@@ -1,6 +1,6 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-18T04:52:54.564884+00:00
+Tarih: 2026-09-18T08:18:10.776773+00:00
 
 ## Ozet
 
@@ -9,7 +9,7 @@ Tarih: 2026-09-18T04:52:54.564884+00:00
 - Kac mac bulundu: 222
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 222
-- Ham veri havuzu toplam mac sayisi: 15390
+- Ham veri havuzu toplam mac sayisi: 15394
 - Hedef tarih: 18.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -80,6 +80,7 @@ Tarih: 2026-09-18T04:52:54.564884+00:00
 - Polonya Ekstraklasa
 - Portekiz Kupa 2.Tur
 - Romanya 1.Lig
+- Ruanda Ulusal Futbol Ligi
 - Rusya FNL
 - Singapur Premier Lig
 - Slovakya 2.Lig
@@ -204,13 +205,13 @@ Tarih: 2026-09-18T04:52:54.564884+00:00
 | 18.09.2026 | 22:00 | İngiltere Championship | Bristol City | Watford | 01891 | 5 |
 | 18.09.2026 | 21:30 | İspanya 2.Lig | Albacete | Cordoba | 26763 | 5 |
 | 18.09.2026 | 21:30 | İtalya Serie B | Juve Stabia | Cesena | 33966 | 5 |
-| 18.09.2026 | 21:00 | Fransa Ligue 2 | Annecy | Dijon | 38101 | 5 |
 | 18.09.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Dunkerque | 38462 | 5 |
 | 18.09.2026 | 21:00 | Fransa Ligue 2 | Grenoble | Clermont | 38280 | 5 |
 | 18.09.2026 | 21:00 | Fransa Ligue 2 | Reims | Montpellier | 38646 | 5 |
-| 18.09.2026 | 21:00 | Fransa Ligue 2 | Rodez Aveyron | Nancy | 38824 | 5 |
+| 18.09.2026 | 21:00 | Fransa Ligue 2 | Annecy | Dijon | 38101 | 5 |
 | 18.09.2026 | 21:00 | Fransa Ligue 2 | Stade Lavalloi | Sochaux | 38951 | 5 |
-| 18.09.2026 | 19:30 | Almanya 2. Bundesliga | Wolfsburg | Darmstadt | 31588 | 5 |
+| 18.09.2026 | 21:00 | Fransa Ligue 2 | Rodez Aveyron | Nancy | 38824 | 5 |
+| 18.09.2026 | 19:30 | Almanya 2. Bundesliga | Greuther Furth | Magdeburg | 31428 | 5 |
 
 ## Sonuc
 

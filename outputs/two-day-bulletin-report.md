@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-18 / 2026-09-19
 Kaynak: fixtures.json
-Ham mac: 246
-Aktif mac: 244
+Ham mac: 258
+Aktif mac: 245
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 2
+Bultenden dusurulen mac: 13
 Bugun: 221
-Yarin: 23
+Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-18 09:30 | Asya Oyunları Grup C | Filipinler U23 - Vietnam U23 | scheduled | -
-- 2026-09-18 11:00 | Çin Halk Cumhuriyeti 2.Lig Küme Düşme Grubu | Lanzhou Longyu - Wenzhou Fc | scheduled | -
-- 2026-09-18 11:00 | Çin Halk Cumhuriyeti 2.Lig Küme Düşme Grubu | Changchun Xidu - Guangdong Mingt | scheduled | -
 - 2026-09-18 11:30 | Endonezya Süper Lig | Arema - Persik | scheduled | -
 - 2026-09-18 12:00 | Çin Halk Cumhuriyeti 2.Lig Küme Düşme Grubu | Wuhan Three To - Haimen Codion | scheduled | -
 - 2026-09-18 13:00 | Ukrayna Premier Lig | Chernomorets - Obolon-Brovar | scheduled | -
@@ -39,6 +36,8 @@ Yarin: 23
 - 2026-09-18 15:30 | Ukrayna Premier Lig | Polessya - Kryvbas Kr | scheduled | -
 - 2026-09-18 16:00 | Türkiye TFF 1. Lig | Bandirmaspor - Ümraniyespor | scheduled | -
 - 2026-09-18 16:00 | Güney Afrika 1.Lig | Real Native - Venda Fc | scheduled | -
+- 2026-09-18 16:00 | Güney Afrika 1.Lig | Highbury - Gomora United | scheduled | -
+- 2026-09-18 16:00 | Ruanda Ulusal Futbol Ligi | Amagaju - Al Marreekh Omd | scheduled | -
 - 2026-09-18 16:30 | Azerbaycan Premier Lig | Qabala - Neftchi Baku | scheduled | -
 - 2026-09-18 16:30 | Belarus Premier Lig | Belshina Bobru - Minsk | scheduled | -
 - 2026-09-18 16:30 | Mısır 2. Lig | La Viena Fc - Masar | scheduled | -
@@ -106,6 +105,7 @@ Yarin: 23
 - 2026-09-18 19:00 | Ürdün 1.Lig | Jerash - Al Sahl Horan | scheduled | -
 - 2026-09-18 19:00 | Ürdün 1.Lig | Ethad Ar - Al Yarmouk | scheduled | -
 - 2026-09-18 19:00 | Estonya Esiliiga B | Vaprus Ii - Tallinna Jk Leg | scheduled | -
+- 2026-09-18 19:00 | Ürdün 1.Lig | Maan - Al Hashemeya | scheduled | -
 - 2026-09-18 19:05 | Suudi Arabistan 1.Lig | Jeddah Club - Al-Saqer | scheduled | -
 - 2026-09-18 19:30 | Almanya 2. Bundesliga | Wolfsburg - Darmstadt | scheduled | -
 - 2026-09-18 19:30 | Almanya 2. Bundesliga | Greuther Furth - Magdeburg | scheduled | -
@@ -255,6 +255,7 @@ Yarin: 23
 - 2026-09-19 05:00 | Guatemala Ulusal Lig Apertura | Comunicaciones - Guastatoya | scheduled | -
 - 2026-09-19 06:00 | Meksika Liga MX Apertura | Fc Juarez - Tigres Uanl | scheduled | -
 - 2026-09-19 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Correcaminos Ua | scheduled | -
+- 2026-09-19 06:00 | Meksika Kadınlar Liga MX Apertura | Monterrey (K) - Necaxa (K) | scheduled | -
 
 ## Canli Maclar
 Canli mac yok.

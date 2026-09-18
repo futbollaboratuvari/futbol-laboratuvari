@@ -1,10 +1,105 @@
 {
   "schema_version": 1,
   "version": "pre-match-final-check-v1",
-  "generated_at": "2026-09-18T04:53:42.840Z",
+  "generated_at": "2026-09-18T08:18:47.530Z",
   "policy": "T60/T30/T10 kontrolü yalnız doğrulanmış isimli market oranı, kadro/ilk 11 ve kaynak uzlaşısını kullanır. Tahmini raw market kullanılmaz. Olasılık yüzdesi doğrudan değiştirilmez; yalnız risk, model gücü ve kupon uygunluğu frenlenir.",
-  "active_match_count": 0,
+  "active_match_count": 2,
   "blocked_match_count": 0,
-  "downgraded_match_count": 0,
-  "matches": []
+  "downgraded_match_count": 2,
+  "matches": [
+    {
+      "match_name": "Arema VS Persik",
+      "home": "Arema",
+      "away": "Persik",
+      "date": "2026-09-18",
+      "start_time": "11:30",
+      "minutes_to_kickoff": 11.2,
+      "checkpoint": "T10",
+      "active": true,
+      "tracked_market": "MS 1",
+      "tracked_market_key": "ms1",
+      "current_odd": 1.71,
+      "current_odd_source": "verified_named_field:ms1",
+      "lineup_risk_level": "Belirsiz",
+      "both_lineups_confirmed": false,
+      "lineup_freshness_minutes": 0.1,
+      "consensus_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": 254,
+      "source_conflict_level": "none",
+      "source_confidence_score": 5,
+      "general_decision": "downgrade",
+      "market_decision": "keep",
+      "decision": "downgrade",
+      "general_score_penalty": 4,
+      "market_score_penalty": 0,
+      "market_severe_adverse": false,
+      "relative_odd_change_percent": null,
+      "reasons": [
+        "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
+        "T10: açık haber bağlamı 254 dakika eski; doğrulanmış ilk 11 yok.",
+        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+      ],
+      "snapshots": {
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-18T08:18:47.530Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.71,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        }
+      }
+    },
+    {
+      "match_name": "Wuhan Three To VS Haimen Codion",
+      "home": "Wuhan Three To",
+      "away": "Haimen Codion",
+      "date": "2026-09-18",
+      "start_time": "12:00",
+      "minutes_to_kickoff": 41.2,
+      "checkpoint": "T30",
+      "active": true,
+      "tracked_market": "2.5 Alt",
+      "tracked_market_key": "under25",
+      "current_odd": 1.37,
+      "current_odd_source": "verified_named_field:under25",
+      "lineup_risk_level": "Belirsiz",
+      "both_lineups_confirmed": false,
+      "lineup_freshness_minutes": 0.1,
+      "consensus_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": 254,
+      "source_conflict_level": "none",
+      "source_confidence_score": 5,
+      "general_decision": "downgrade",
+      "market_decision": "keep",
+      "decision": "downgrade",
+      "general_score_penalty": 4,
+      "market_score_penalty": 0,
+      "market_severe_adverse": false,
+      "relative_odd_change_percent": null,
+      "reasons": [
+        "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+      ],
+      "snapshots": {
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-18T08:18:47.530Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.37,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        }
+      }
+    }
+  ]
 }
