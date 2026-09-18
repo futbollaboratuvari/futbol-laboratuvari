@@ -184,6 +184,11 @@ jobs:
           node tests/market-specialist-gates.test.js
           node scripts/run-pro-goal-market-specialist.js
 
+      - name: Route markets through specialist robot orchestrator
+        run: |
+          node tests/robot-specialist-orchestrator.test.js
+          node scripts/robot-specialist-orchestrator.js
+
       - name: Fill user choice cards
         continue-on-error: true
         run: node scripts/cards-user-choice.js
