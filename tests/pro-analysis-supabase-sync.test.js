@@ -19,6 +19,10 @@ assert.match(edge, /MAX_ROBOT_BYTES = 12 \* 1024 \* 1024/);
 assert.match(edge, /runtime_source: "supabase_edge"/);
 assert.match(edge, /source: "github-main robot-analysis protected Supabase projection"/);
 assert.match(edge, /TRUSTED = new Set/);
+assert.match(edge, /blockedSpecialistMarkets = new Set<string>\(\)/);
+assert.match(edge, /blockedSpecialistMarkets\.add\(key\)/);
+assert.match(edge, /blockedSpecialistMarkets\.has\(marketKey\(option\)\)/);
+assert.match(edge, /blockedSpecialistMarkets\.has\(marketKey\(primaryInput\)\)/);
 assert.doesNotMatch(edge, /vercel\.app/);
 
 assert.match(exportSource, /analysis_options:/);
