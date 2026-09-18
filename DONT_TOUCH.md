@@ -7,15 +7,15 @@ Bu dosya calisan alanlari korumak icindir. Yeni is yaparken once bu dosya okunur
 1. Futbol Laboratuvari sisteminin ana ve kalici kaynak deposu GitHub'dir: `futbollaboratuvari/futbol-laboratuvari`.
 2. Kod, veri akislarinin tanimi, workflow'lar, PRO Robot gelistirmeleri ve koruma kurallari icin tek kaynak gercegi GitHub `main` dalidir.
 3. Her inceleme, hata arama, gelistirme veya duzeltme isinde once bu repo ve bu `DONT_TOUCH.md` dosyasi okunur. Kullaniciya GitHub'a tasindigini tekrar sordurmak veya hatirlatmak gerekmez.
-4. Vercel yalnizca deploy, runtime, domain ve canli servis dogrulamasi icin kullanilir. Vercel'deki eski bir production/preview deploy'u kaynak kodun guncel durumunun yerine gecmez.
+4. Canli on yuz GitHub Pages uzerinden, korumali PRO backend ise Supabase Edge Functions uzerinden calisir. Vercel bu proje icin kullanilmaz ve canli dogrulama olcutu sayilmaz.
 5. Canli sitede bir sorun gorulurse once GitHub `main` dalindaki guncel kod ve veri akisi kontrol edilir; sonra deploy/runtime ile karsilastirilir.
 6. Kalici kod degisiklikleri GitHub uzerinden yapilir. Kullanici acikca farkli bir yol istemedikce canli ortama GitHub disindan elle yama uygulanmaz.
 7. Yeni PRO Robot gelistirmeleri mevcut motoru bozmayacak sekilde ayrik, geri alinabilir katmanlar halinde eklenir; test edilmeden `main`e alinmaz.
 8. Kullanici sadece salt okunur kontrol/rapor istediyse GitHub dosyalari degistirilmez.
-9. GitHub Pages canli on yuz yayincisidir; Vercel `futbol-laboratuvari.vercel.app` korumali API/backend runtime'idir. Bu iki rol birbirine karistirilmaz.
-10. Vercel backend kodu yalniz GitHub `main` backend degisikliklerinden otomatik deploy edilir. Salt `data/` veya rapor commitleri Vercel deployment tetiklemez.
+9. GitHub Pages canli on yuz yayincisidir; Supabase `fl-pro-analysis` korumali PRO API/backend runtime'idir. Canli kontrol dogrudan `futbollaboratuuvari.org` ve ilgili Supabase servis sagligi uzerinden yapilir.
+10. Korumali PRO backend kaynak kodu `supabase/functions/fl-pro-analysis/index.ts` altinda GitHub'da tutulur. Backend degisikligi test edilmeden Supabase Edge Function'a alinmaz.
 11. `data/pro-analysis-index.json` uyelik korumali projection oldugu icin public GitHub reposuna commit edilmez. PRO API, uyelik dogrulandiktan sonra GitHub `main` icindeki guncel `data/robot-analysis.json` ve sonuc hafizasindan projection'i sunucu tarafinda olusturur.
-12. GitHub canli veri okumasi gecici olarak basarisiz olursa Vercel deployment icindeki son saglam PRO index fallback olarak kullanilir; bu fallback ana kaynak sayilmaz ve GitHub erisimi duzelince otomatik olarak guncel veriye donulur.
+12. Supabase PRO servisi GitHub `main` robot verisini 60 saniyelik kisa sunucu cache'iyle okur. Kaynak okunamazsa eski deployment verisi uydurulmaz; servis fail-closed hata verir ve veri geri gelince otomatik guncel kaynaga doner.
 13. Etiketi dogrulanmamis ham oran bloklarinda market; oran sayisindan, blok sirasindan veya oran degerinden tahmin edilmez. `raw_market_guess_odds` ve tahmini market adaylari PRO skoruna veya kupona kaynak olamaz. Ham bloklar yalniz teshis amaciyla tutulur; market secimi icin acik isimli/dogrulanmis oran alani gerekir.
 
 ## PRO Robot ana urun sozlesmesi
@@ -33,7 +33,7 @@ PRO Robot Futbol Laboratuvari'nin ucretli uyelik sisteminin ana analiz urunudur.
 9. Ham ve belirsiz veri teshis icin saklanabilir ancak kupon karari, market secimi veya uyeye gosterilen kesin market orani icin kullanilamaz.
 10. Robotun uyeye gosterdigi analiz ile mail, canli site ve kupon ciktisi ayni dogrulanmis market mantigini kullanir. Bir kanalda yasaklanan tahmini veri diger kanaldan sizamaz.
 11. Her kritik robot degisikligi en az bir hedefli test ve uygun oldugunda mevcut PRO/kupon regresyon testleriyle dogrulanir. Test basarisizsa degisiklik tamamlandi diye raporlanmaz.
-12. Canliya alinan kritik degisiklikte GitHub `main`, Vercel backend ve ilgili veri workflow'u uygun oldugu olcude kontrol edilir. Yalniz kod commit'i canli dogrulama yerine gecmez.
+12. Canliya alinan kritik degisiklikte GitHub `main`, GitHub Pages, Supabase PRO backend ve ilgili veri workflow'u uygun oldugu olcude kontrol edilir. Yalniz kod commit'i canli dogrulama yerine gecmez.
 13. Uyenin satin aldigi PRO davranisini etkileyen esik veya market degisikligi kayit altina alinmadan sessizce degistirilmez.
 14. Dusuk oran filtresi korunur. 1.26-1.30 gibi dusuk oranlar PRO kupon seciminde kullanilmaz. Mevcut kupon motorunun alt oran esigi `1.45`tir; bu deger ancak bilincli bir gelistirme ile degistirilir ve degisiklik bu sozlesmeye kaydedilir.
 15. PRO Robotun hedef market kapsami su an icin en az: KG Var/Yok analizi, 2.5 Alt/Ust, 3.5 Alt/Ust, 6+ Gol, Ilk Yari KG, Ikinci Yari KG, Ilk Yari/Mac Sonucu ve ozellikle 1/1, 1/2, 2/1 surpiz kombinasyonlari. Bir market devre disi kalirsa nedeni gunluge yazilir.
@@ -43,6 +43,18 @@ PRO Robot Futbol Laboratuvari'nin ucretli uyelik sisteminin ana analiz urunudur.
 19. `pro-goal-market-bridge` tarafinda bagimsiz gol modeli farki ile kullaniciya gosterilen nihai olasilik farki ayni edge kavrami degildir. Kupon/value kapisinda kanonik edge her zaman `estimated_probability - market_probability` olur. Goal bridge eski/bagimsiz edge tasiyorsa kupon kapisi bunu nihai olasilik edge'ine normalize eder; diger marketlerde 1.5 puanlik tutarsizlik freni devam eder.
 
 ## PRO Robot Islem Gunlugu
+
+### 2026-09-18 - Canli PRO akisinin Supabase'e tasinmasi ve analysis_options export kaybi duzeltmesi
+
+- Amac/kok neden: Canli AI Seffaflik / Ozel Analiz akisi aktif `premium-analysis-v3.js` icinden eski Vercel `/api/pro-analysis` endpointine bagliydi. Ayrica robot skorlayici coklu market `analysis_options` uretmesine ragmen `scripts/export-high-value-json.js` bu alani `robot-analysis.json` yazarken dusuruyordu. Bu nedenle canli Seffaflik, motor gelistirilmis olsa bile MS/2.5 agirlikli gorunebiliyordu.
+- Yapilan degisiklik: Korumali PRO endpointi Supabase Edge Function `fl-pro-analysis` olarak ayrildi. Uyelik kodu sunucu tarafinda `memberships` tablosundan hash ile dogrulanir; guncel `data/robot-analysis.json` GitHub main'den okunur ve yalniz kompakt PRO projection doner. Frontend aktif PRO istegi Supabase endpointine tasindi. Robot exportu `analysis_options`, uygun `goal_market_candidates` ve `goal_market_pick` alanlarini korur hale getirildi.
+- Veri guvenligi/provenance: `raw_market_guess_odds` secenekleri ile specialist `block` / `specialist_eligible:false` adaylari exportta da reddedilir. PRO verisi uyelik dogrulamasi olmadan POST ile donmez. Health endpointi yalniz kaynak tarihi, sayilar ve market ailelerini verir; tahmin listesini acik etmez.
+- Vercel politikasi: Bu proje icin aktif canli PRO akisi Vercel kullanmaz. On yuz GitHub Pages, korumali backend Supabase Edge Functions'tir. Eski Vercel dosyalari tarihsel/legacy kalabilir ancak aktif `premium-analysis-v3.js` akisi onlara cagri yapmaz.
+- Etkilenen dosyalar/akislar: `premium-analysis-v3.js`, `scripts/export-high-value-json.js`, `supabase/functions/fl-pro-analysis/index.ts`, `tests/transparency-export.test.js`, `tests/pro-analysis-supabase-sync.test.js`, `package.json`, `.github/workflows/pro-market-specialist-ci.yml`, `ops/update-fixtures-trigger.txt`.
+- Canli servis testi: Supabase `fl-pro-analysis` v1 ACTIVE. Veritabani icinden yapilan gercek HTTP health istegi 200 dondu; kaynak tarihi 2026-09-18, 246 mac ve 220 analiz secenegi okundu. Duzeltme oncesi health yalniz MS ve 2.5 Ust ailelerini gostererek export kaybini canli olarak dogruladi.
+- Canli dogrulama tamamlama kriteri: Merge sonrasi update-fixtures robot verisini yeniden uretecek; health market ailelerinde dogrulanmis mevcut veriye gore IY KG / 2Y KG / 3.5 / 6+ aileleri gorulmesi ve GitHub Pages deploy basarisi kontrol edilecek. Veri kaynaginda dogrulanmis oran yoksa market uydurulmayacak.
+- Geri alma: Frontend endpoint degisikligi ve export alanlari ayrik tutuldu. Gerekirse ilgili commit geri alinabilir; uyelik tablosu ve odeme akisina degisiklik yapilmadi.
+
 
 ### 2026-09-18 - AI Şeffaflık çoklu market ve çeşitlilik sözleşmesi
 
