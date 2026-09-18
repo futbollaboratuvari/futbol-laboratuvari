@@ -105,9 +105,10 @@ function buildProIndexFromPayload(robotPayload, historyPayload = {}) {
   const history = safeHistory(historyPayload);
   const sourceMatches = Array.isArray(robot.matches) ? robot.matches : [];
   const matches = selectProMatches(sourceMatches).map((item) => compactMatch(item, robot));
-  const ready = matches.filter((item) => item.model_score >= 60
-    && item.data_completeness >= 35
-    && !/değerli market yok|degerli market yok|oynama/i.test(item.recommended_market));
+  const visible = matches.filter((item) => item.analysis_visible === true);
+  const ready = matches.filter((item) => item.analysis_tier === "coupon" || item.analysis_tier === "pro_ready");
+  const watch = matches.filter((item) => item.analysis_tier === "watch");
+  const filtered = matches.filter((item) => item.analysis_visible === false);
 
   return {
     schema_version: 2,
@@ -122,7 +123,10 @@ function buildProIndexFromPayload(robotPayload, historyPayload = {}) {
     summary: {
       match_count: matches.length,
       source_match_count: sourceMatches.length,
+      analysis_visible_count: visible.length,
       pro_ready_count: ready.length,
+      watch_count: watch.length,
+      filtered_count: filtered.length,
       coupon_candidate_count: matches.filter((item) => item.include_in_coupon).length,
       matchup_verified_count: matches.filter((item) => Number(item.team_intelligence?.matchup_analysis?.coverage_score || 0) >= 65).length,
       average_data_completeness: matches.length
