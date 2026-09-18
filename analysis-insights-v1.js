@@ -152,7 +152,11 @@
 
   function topMatches(data) {
     if (!eligibility?.selectStrongestMatches) return [];
-    const base = eligibility.selectStrongestMatches(data?.matches, 30);
+    const sourceRows = Array.isArray(data?.matches) ? data.matches : [];
+    const strongest = eligibility.selectStrongestMatches(sourceRows, 30);
+    const knownIds = new Set(strongest.map((match) => String(match.id)));
+    const optionOnlyRows = sourceRows.filter((match) => !knownIds.has(String(match.id)) && optionsFor(match).length);
+    const base = [...strongest, ...optionOnlyRows];
     const candidates = [];
     base.forEach((match) => {
       optionsFor(match).forEach((option) => {
