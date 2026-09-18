@@ -44,6 +44,18 @@ PRO Robot Futbol Laboratuvari'nin ucretli uyelik sisteminin ana analiz urunudur.
 
 ## PRO Robot Islem Gunlugu
 
+### 2026-09-18 - IY/MS uzman robotuna dogrulanmis HTFT feed baglantisi V2
+
+- Kok neden: Orkestrator V1 canli ana writer kosusunda 221 mac / 1354 uzman adayi uretmesine ragmen `htft` havuzu sifir kaldi. Ayrik `data/high-odds-htft.json` akisinda ayni gun icin dogrulanmis resmi Iddaa 1/2 ve 2/1 adaylari bulunuyordu; bu veri ana `robot-analysis.json` uzman ciktisina geri bagli degildi.
+- Degisiklik: `robot-specialist-orchestrator-v2`, `data/high-odds-htft.json` icindeki yalniz `odds_verified:true` ve 1/2 veya 2/1 secimlerini resmi etkinlik kimligi / ortak mac kodu / ayni tarih + takim kimligi ile eslestirip `verified_high_odds_htft` kaynagiyla IY/MS uzman havuzuna ekler. Tarih uyusmazsa feed kullanilmaz. Ayni markette dogrulanmis HTFT feedi ham adaya onceliklidir.
+- 1/1 kapsami: IY/MS uzman modulu 1/1 ve diger IY/MS kombinasyonlarini routing seviyesinde desteklemeye devam eder; ancak bu ek feed yalniz mevcut resmi yuksek oranli ters-sonuc kaynaginin 1/2 ve 2/1 marketlerini besler. Dogrulanmis upstream 1/1 verisi yoksa 1/1 uydurulmaz.
+- Workflow guvenligi: `high-odds-htft.yml` feedi ureterek HTFT V4 gate'inden gecirdikten sonra orkestratoru calistirir. Publish retry dongusu her denemede once en guncel `origin/main` robot verisini alir, sonra dogrulanmis HTFT feedini yeniden uygular; yavas bir HTFT kosusu daha yeni ana writer `robot-analysis.json` snapshot'ini ezemez.
+- Etkilenen dosyalar: `scripts/robot-specialist-orchestrator.js`, `tests/robot-specialist-orchestrator.test.js`, `.github/workflows/high-odds-htft.yml`, `DONT_TOUCH.md`.
+- Test sozlesmesi: Sentetik dogrulanmis 2/1 feed adayi ayni maca eklenmeli; `specialist_source=verified_high_odds_htft` olmali; eski tarihli feed ayni maca tasinmamali; dogrulanmamis mevcut 1/2 adayi fail-closed bloklu kalmali. PRO Market Specialist CI Node 20/24 basarisi olmadan main'e alinmaz.
+- Canli dogrulama kriteri: Merge sonrasi High Odds HTFT workflow'u basarili bitmeli ve orkestrator V2 logunda `htft` / `supplemental_candidate_count` dogrulanmis feed varsa sifirdan buyuk olmali. Feed o kosuda yeterli resmi aday bulamazsa sistem market uydurmayacak ve sifir degeri guvenli sonuc sayilacaktir.
+- Geri alma: Supplemental HTFT feed okuma ve high-odds workflow merge adimi ayriktir. Geri alindiginda V1 ana market routing davranisi korunur; KG, gol ve taraf uzmanlari etkilenmez.
+
+
 ### 2026-09-18 - Ortak cekirdek + ayri uzman robot orkestrasyonu V1
 
 - Amac/kok neden: PRO motorunda KG, gol, IY/MS ve taraf marketleri ayni ana skorlayicida birlikte uretiliyor; gol ve ters IY/MS icin ayri uzman kapilari zaten bulunuyordu. Mimariyi buyuturken tek dev robotta degisikliklerin birbirini bozmasini azaltmak ve her market ailesini bagimsiz test edilebilir hale getirmek.
