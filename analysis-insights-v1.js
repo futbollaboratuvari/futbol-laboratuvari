@@ -152,7 +152,15 @@
 
   function topMatches(data) {
     if (!eligibility?.selectStrongestMatches) return [];
-    const sourceRows = Array.isArray(data?.matches) ? data.matches : [];
+    const now = Date.now();
+    const sourceRows = (Array.isArray(data?.matches) ? data.matches : []).filter((match) => {
+      if (match?.analysis_visible === false) return false;
+      const date = String(match?.date || "").slice(0, 10);
+      const time = String(match?.time || "").slice(0, 5);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !/^\d{2}:\d{2}$/.test(time)) return true;
+      const timestamp = Date.parse(`${date}T${time}:00+03:00`);
+      return !Number.isFinite(timestamp) || timestamp > now;
+    });
     const strongest = eligibility.selectStrongestMatches(sourceRows, 30);
     const knownIds = new Set(strongest.map((match) => String(match.id)));
     const optionOnlyRows = sourceRows.filter((match) => !knownIds.has(String(match.id)) && optionsFor(match).length);
@@ -232,7 +240,10 @@
       if (selected.length >= 10) break;
       take(candidate);
     }
-    return selected.slice(0, 10);
+    return selected.slice(0, 10).map((match) => {
+      const tier = String(match.analysis_tier || "");
+      return tier && tier !== "filtered" ? { ...match, insight_tier: tier } : match;
+    });
   }
 
   function tierLabel(match) {
@@ -275,7 +286,7 @@
       <article><span>Ölçülmüş tahmin</span><strong>${esc(calibration.measured_count ?? 0)}</strong><small>Sonuçlanmış kayıt</small></article>
       <article><span>Gerçek başarı</span><strong>${esc(overall === null ? "Veri birikiyor" : `${Math.round(overall)}%`)}</strong><small>${esc(calibration.won_count ?? 0)} doğru · ${esc(calibration.lost_count ?? 0)} yanlış</small></article>
       <article><span>Kalibrasyon</span><strong>${esc(brier === null ? "Toplanıyor" : `Brier ${brier.toFixed(3)}`)}</strong><small>${esc(calibration.probability_sample_count ?? 0)} olasılık örneği</small></article>
-      <article><span>Bugün PRO hazır</span><strong>${esc(summary.pro_ready_count ?? 0)}</strong><small>${esc(summary.coupon_candidate_count ?? 0)} kupon adayı</small></article>
+      <article><span>Bugün PRO hazır</span><strong>${esc(summary.pro_ready_count ?? 0)}</strong><small>${esc(summary.analysis_visible_count ?? summary.match_count ?? 0)} görünür analiz · ${esc(summary.coupon_candidate_count ?? 0)} kupon adayı</small></article>
     </div>${groups.length ? `<div class="flai-groups">${groups.map((g) => `<span><b>${esc(groupLabel(g.key))}</b> ${esc(g.success_rate ?? "—")}% <small>${esc(g.measured ?? 0)} maç</small></span>`).join("")}</div>` : ""}`;
   }
 
@@ -322,6 +333,7 @@
     ].filter(Boolean).join("");
 
     return `<div class="flai-detail-head"><div><small>${esc(tier.text)}</small><h3>${esc(match.home)} - ${esc(match.away)}</h3><p><b>${esc(match.recommended_market)}</b> · ${esc(match.data_quality || "Veri kalitesi belirtilmedi")}</p></div><div class="flai-big-score"><span>Bileşik değerlendirme</span><strong>${c.score}/100</strong><small>Sonuç olasılığı değildir</small></div></div>
+      ${match.coupon_filter_reason && match.analysis_tier !== "coupon" ? `<p class="flai-note"><b>Kupon filtresi:</b> ${esc(match.coupon_filter_reason)}</p>` : ""}
       ${availableOptions.length ? `<div class="flai-options"><strong>Robotun bu maçta gördüğü doğrulanmış seçenekler</strong><div>${availableOptions.slice(0, 8).map((option) => `<span class="${clean(option.market) === clean(match.recommended_market) ? "is-active" : ""}"><b>${esc(option.market)}</b><small>${esc(finite(option.odd) === null ? "oran —" : `oran ${finite(option.odd).toFixed(2)}`)} · ${esc(pct(option.estimated_probability))}</small></span>`).join("")}</div></div>` : ""}
       <div class="flai-detail-grid">
         <section><h4>AI neden bunu seçti?</h4>${signals.length ? `<ul>${signals.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>` : `<p class="flai-muted">Bu maç için açıklama sinyali henüz oluşmadı.</p>`}<div class="flai-riskline"><span>Kadro riski <b>${esc(match.squad_risk_level || "Belirsiz")}</b></span><span>İlk 11 riski <b>${esc(match.lineup_risk_level || "Belirsiz")}</b></span><span>İsimli oyuncu verisi <b>${esc(match.named_player_count ?? 0)}</b></span><span>Doğrulanmış takım <b>${esc(match.team_status_verified_count ?? 0)}/2</b></span></div></section>
