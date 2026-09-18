@@ -13,7 +13,7 @@ const {
 const { buildScoreIndexFromRows, findScore } = require("../scripts/learning-score-linker");
 const { settle } = require("../scripts/learning-finalizer");
 const { mergePrediction } = require("../scripts/robot-learning-memory");
-const { buildCompletedItems, buildPerformance, buildResultsSummary } = require("../scripts/sync-analysis-results");
+const { buildCompletedItems, buildMatchRecordsSummary, buildPerformance, buildResultsSummary } = require("../scripts/sync-analysis-results");
 
 const test = (name, fn) => {
   try {
@@ -131,6 +131,27 @@ test("sonuç arşivi ve performans yalnızca doğrulanmış kayıtlardan üretil
   assert.equal(performance.pending_count, 1);
   assert.equal(performance.success_rate, 50);
   assert.equal(performance.groups[0].label, "Maç Sonucu");
+});
+
+test("maç kayıtları özeti bekleyen ve sonuçlanan tahminleri birlikte arşivler", () => {
+  const memory = {
+    predictions: [
+      { id: "pending", date: "2026-08-24", start_time: "20:00", league: "Lig A", match_name: "A - B", market: "KG Var", odds: "1.80", confidence_score: "72%", predicted_score: "2-1", status: "pending", result_score: "", learning_note: "Sonuç bekleniyor.", updated_at: "2026-08-24T10:00:00Z" },
+      { id: "won", date: "2026-08-23", start_time: "19:00", league: "Lig B", match_name: "C - D", market: "2.5 Üst", odds: "1.90", confidence_score: "68%", predicted_score: "2-1", status: "won", result_score: "3-1", learning_note: "Sonuç işlendi.", updated_at: "2026-08-23T21:00:00Z" },
+    ],
+  };
+  const summary = buildMatchRecordsSummary(memory, {
+    generated_at: "2026-08-24T10:00:00Z",
+    date: "2026-08-24",
+    timezone: "Europe/Istanbul",
+  });
+  assert.equal(summary.records.length, 2);
+  assert.equal(summary.records[0].status, "pending");
+  assert.equal(summary.records[0].predicted_score, "2-1");
+  assert.equal(summary.records[1].status, "won");
+  assert.equal(summary.records[1].result_score, "3-1");
+  assert.equal(summary.summary.pending_count, 1);
+  assert.equal(summary.summary.verified_count, 1);
 });
 
 test("ana sayfa için küçük sonuç özeti yalnız gerekli alanları taşır", () => {
