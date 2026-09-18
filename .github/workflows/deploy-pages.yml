@@ -124,3 +124,31 @@ jobs:
             exit 1
           fi
           echo "LIVE USER TEST PASS: Canlı Güç Motoru rendered on custom domain."
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          html = Path("/tmp/live-power-dom.html").read_text(encoding="utf-8", errors="replace")
+          match = re.search(r'<tbody[^>]*id=["\']analysis-database-body["\'][^>]*>(.*?)</tbody>', html, re.S | re.I)
+          if not match:
+              raise SystemExit("Maç Kayıtları tbody not found in live DOM")
+
+          body = match.group(1)
+          blocked_states = (
+              "Canlı veri görünümü bekleniyor",
+              "Maç kayıtları yükleniyor",
+              "Maç kayıtları yenilenemedi",
+          )
+          for state in blocked_states:
+              if state in body:
+                  raise SystemExit(f"Maç Kayıtları live DOM stayed in blocked state: {state}")
+
+          if "<tr" not in body.lower():
+              raise SystemExit("Maç Kayıtları live DOM has no rows")
+
+          if not re.search(r'class=["\'][^"\']*status\s+(?:won|lost|pending)[^"\']*["\']', body, re.I):
+              raise SystemExit("Maç Kayıtları live DOM has no rendered result status rows")
+
+          print("LIVE USER TEST PASS: Maç Kayıtları rendered verified history rows on custom domain.")
+          PY
