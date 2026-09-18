@@ -117,12 +117,13 @@ const readJsonWithRetry = async (path, attempts = 3, validate = null) => {
   throw lastError || new Error(`${path} yüklenemedi`);
 };
 
-const proEvidence = (item) => item?.pro_signals
-  || item?.signals
-  || item?.evidence
-  || item?.layers
-  || item?.probability_source
-  || [];
+const proEvidence = (item) => [
+  item?.pro_signals,
+  item?.signals,
+  item?.evidence,
+  item?.layers,
+  item?.probability_source,
+].find((value) => (Array.isArray(value) ? value.length > 0 : Boolean(value))) || [];
 
 const hasRealProSignals = (item) => {
   if (!item || typeof item !== "object") return false;
