@@ -94,18 +94,13 @@ function compactDecision(candidate, specialistRobot) {
 }
 
 function compactOutput(result) {
-  const best = result?.best || null;
   const supplementalCandidateCount = (Array.isArray(result?.candidates) ? result.candidates : [])
     .filter((row) => row?.specialist_source === "verified_high_odds_htft").length;
   return {
     id: result?.id || "",
-    label: result?.label || "",
     status: result?.status || "no_candidate",
     candidate_count: Number(result?.candidate_count || 0),
     eligible_count: Number(result?.eligible_count || 0),
-    best_market: best?.market || null,
-    best_decision: best?.specialist_decision || best?.market_specialist?.decision || null,
-    best_quality_score: finite(best?.specialist_quality_score),
     supplemental_candidate_count: supplementalCandidateCount,
   };
 }
@@ -185,8 +180,13 @@ function routeMatch(item, feeds = {}) {
       const decision = compactDecision(candidate, specialistId);
       const key = marketKey(decision.market);
       if (!key) continue;
-      decisionMap.set(key, decision);
-      specialistMarketDecisions.push(decision);
+
+      // "keep" is the default and does not need persistence. Persist only
+      // actionable gates plus verified supplemental HTFT provenance.
+      if (clean(decision.decision) !== "keep" || decision.source === "verified_high_odds_htft") {
+        decisionMap.set(key, decision);
+        specialistMarketDecisions.push(decision);
+      }
     }
   }
 
