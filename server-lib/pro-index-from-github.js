@@ -13,8 +13,12 @@ const DEFAULT_HISTORY_URL = process.env.FL_PRO_HISTORY_URL
 const FALLBACK_MODEL_VERSION = "pro13-btts-conditioned-v3";
 const CACHE_KEY = "__FL_PRO_GITHUB_INDEX_CACHE_V1__";
 const DEFAULT_CACHE_TTL_MS = 60 * 1000;
-const MAX_ROBOT_BYTES = 4 * 1024 * 1024;
+// The protected runtime reads the current GitHub robot payload only to build
+// a compact member projection. Current payloads can exceed 4 MB, so keep a
+// bounded headroom without exposing the raw file to the browser.
+const MAX_ROBOT_BYTES = 12 * 1024 * 1024;
 const MAX_HISTORY_BYTES = 2 * 1024 * 1024;
+const ROBOT_FETCH_TIMEOUT_MS = 12 * 1000;
 
 function cacheState() {
   globalThis[CACHE_KEY] = globalThis[CACHE_KEY] || {
@@ -100,9 +104,10 @@ function buildProIndexFromPayload(robotPayload, historyPayload = {}) {
   const history = safeHistory(historyPayload);
   const sourceMatches = Array.isArray(robot.matches) ? robot.matches : [];
   const matches = selectProMatches(sourceMatches).map((item) => compactMatch(item, robot));
-  const ready = matches.filter((item) => item.model_score >= 60
-    && item.data_completeness >= 35
-    && !/değerli market yok|degerli market yok|oynama/i.test(item.recommended_market));
+  const visible = matches.filter((item) => item.analysis_visible === true);
+  const ready = matches.filter((item) => item.analysis_tier === "coupon" || item.analysis_tier === "pro_ready");
+  const watch = matches.filter((item) => item.analysis_tier === "watch");
+  const filtered = matches.filter((item) => item.analysis_visible === false);
 
   return {
     schema_version: 2,
@@ -117,7 +122,10 @@ function buildProIndexFromPayload(robotPayload, historyPayload = {}) {
     summary: {
       match_count: matches.length,
       source_match_count: sourceMatches.length,
+      analysis_visible_count: visible.length,
       pro_ready_count: ready.length,
+      watch_count: watch.length,
+      filtered_count: filtered.length,
       coupon_candidate_count: matches.filter((item) => item.include_in_coupon).length,
       matchup_verified_count: matches.filter((item) => Number(item.team_intelligence?.matchup_analysis?.coverage_score || 0) >= 65).length,
       average_data_completeness: matches.length
@@ -153,7 +161,7 @@ async function readRemoteProIndex(options = {}) {
     const robot = validateRobotPayload(await fetchJson(robotUrl, {
       fetchImpl,
       maxBytes: MAX_ROBOT_BYTES,
-      timeoutMs: 6000,
+      timeoutMs: ROBOT_FETCH_TIMEOUT_MS,
     }));
 
     let history = { completed_items: [], performance: {} };
