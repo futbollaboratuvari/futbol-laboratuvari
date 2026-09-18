@@ -146,7 +146,14 @@ async function main() {
   const marketCounts = {};
   enriched = enriched.map((row) => {
     if (!current(row)) return row;
-    const scored = scoreFixture(row);
+    const {
+      goal_market_bridge_version,
+      goal_market_bridge,
+      goal_market_candidates,
+      goal_market_pick,
+      ...freshRow
+    } = row;
+    const scored = scoreFixture(freshRow);
     const options = safeOptions(scored);
     const btts = buildBttsAnalysis(row);
     if (options.length) optionMatches += 1;
@@ -156,7 +163,7 @@ async function main() {
       marketCounts[label] = (marketCounts[label] || 0) + 1;
     }
     return {
-      ...row,
+      ...freshRow,
       analysis_options: options,
       btts_analysis: btts,
       official_analysis_refreshed_at: new Date().toISOString(),
