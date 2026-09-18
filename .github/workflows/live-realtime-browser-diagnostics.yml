@@ -1,0 +1,79 @@
+name: Live Realtime Browser Diagnostics
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/live-realtime-browser-diagnostics.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose-live-realtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Inspect live custom domain with Chromium
+        env:
+          LIVE_URL: https://futbollaboratuuvari.org
+        run: |
+          set -u
+          echo "=== static html markers ==="
+          curl --fail --silent --show-error --location \
+            -H 'Cache-Control: no-cache' -H 'Pragma: no-cache' \
+            "${LIVE_URL}/?diag=${GITHUB_SHA}" > /tmp/live-static.html || true
+          grep -o 'live-power-center-v1.js?v=[^"]*' /tmp/live-static.html | head -3 || true
+          grep -o 'cache-version.js?v=[^"]*' /tmp/live-static.html | head -3 || true
+
+          chrome="$(command -v google-chrome || command -v chromium || command -v chromium-browser)"
+          test -n "${chrome}"
+          echo "=== chromium ==="
+          "${chrome}" \
+            --headless=new \
+            --no-sandbox \
+            --disable-gpu \
+            --disable-dev-shm-usage \
+            --virtual-time-budget=25000 \
+            --enable-logging=stderr \
+            --dump-dom \
+            "${LIVE_URL}/?diag=${GITHUB_SHA}#live-power-center" \
+            > /tmp/live-dom.html 2> /tmp/chrome-stderr.log || true
+
+          echo "=== live power text diagnostics ==="
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          html = Path("/tmp/live-dom.html").read_text(encoding="utf-8", errors="replace")
+          print("dom_bytes=", len(html))
+          print("has_root=", 'id="live-power-center"' in html)
+          print("has_heading=", "Team Power + Goal Power + Canlı Analiz Robotu" in html)
+          print("has_robot_card=", ("Canlı Maç Analiz Robotu" in html or "Canlı Analiz Robotu bekliyor" in html))
+          print("has_realtime=", "Akış: Supabase Realtime" in html)
+          print("has_fallback=", "Akış: yedek snapshot" in html)
+          print("has_loading=", "Team Power + Goal Power ve canlı tahmin verisi yükleniyor" in html)
+
+          root = re.search(r'<section[^>]*id=["\\']live-power-center["\\'][^>]*>(.*?)</section>', html, re.S | re.I)
+          if root:
+              fragment = root.group(1)
+              text = re.sub(r'<script[\\s\\S]*?</script>', ' ', fragment, flags=re.I)
+              text = re.sub(r'<style[\\s\\S]*?</style>', ' ', text, flags=re.I)
+              text = re.sub(r'<[^>]+>', ' ', text)
+              text = re.sub(r'\\s+', ' ', text).strip()
+              print("root_text=", text[:4000])
+          else:
+              print("root_text=ROOT_NOT_FOUND")
+
+          for pattern in [
+              r'Akış:[^<]{0,120}',
+              r'Robot hazır:[^<]{0,80}',
+              r'Canlı Maç Analiz Robotu[^<]{0,200}',
+              r'Canlı Analiz Robotu bekliyor[^<]{0,200}',
+          ]:
+              matches = re.findall(pattern, html, re.I)
+              print(pattern, "=>", matches[:10])
+          PY
+
+          echo "=== browser stderr tail ==="
+          tail -120 /tmp/chrome-stderr.log || true
