@@ -66,8 +66,8 @@ jobs:
         run: |
           printf '%s\n' "${GITHUB_SHA}" > public/deploy-version.txt
           grep -q 'id="live-power-center"' public/index.html
-          grep -q 'live-power-center-v1.js?v=20260918-live-realtime-v1' public/index.html
-          grep -q 'const version = "20260918-live-realtime-v1";' public/cache-version.js
+          grep -q 'live-power-center-v1.js?v=20260918-live-realtime-v2' public/index.html
+          grep -q 'const version = "20260918-live-realtime-v2";' public/cache-version.js
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
@@ -81,7 +81,7 @@ jobs:
       - name: Verify live custom domain in real browser
         env:
           LIVE_URL: https://futbollaboratuuvari.org
-          EXPECTED_UI_VERSION: 20260918-live-realtime-v1
+          EXPECTED_UI_VERSION: 20260918-live-realtime-v2
         run: |
           set -euo pipefail
           html_ok=0

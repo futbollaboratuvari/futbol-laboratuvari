@@ -106,6 +106,16 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 
 ## Canli Mac Analiz Robotu Islem Gunlugu
 
+### 2026-09-18 - Realtime abonelik durumunun UI'ya aninda yansitilmasi V2
+
+- Canli test bulgusu: PR #84 merge commit `82a831f0fad6728fa7921d82302fcf1129ac1ac5` basariyla deploy edildi; build, artifact ve Pages deployment adimlari gecti. Ancak Pages run `35386824260` gercek Chromium dogrulamasinda `Akış: Supabase Realtime` etiketi gorulmedigi icin bilerek fail etti.
+- Kok neden: Supabase channel callback'i `SUBSCRIBED` durumunda `state.realtimeReady=true` yapiyor fakat `render()` cagirmiyordu. Bu nedenle WebSocket baglantisi kurulsa dahi UI etiketi ancak sonraki Broadcast paketi geldikten sonra guncellenebiliyordu.
+- Duzeltme: `SUBSCRIBED` aninda UI yeniden render edilir. `CHANNEL_ERROR`, `TIMED_OUT` veya `CLOSED` durumlarinda realtime flag kapatilir ve UI aninda fallback durumunu gosterir.
+- Regresyon: `tests/live-power-center-static.test.js` SUBSCRIBED -> realtimeReady -> render ve kanal hata -> fallback render zincirlerini statik olarak kilitler.
+- Cache: Canli UI surumu `20260918-live-realtime-v2` olarak artirildi. Pages gercek browser testi gevsetilmedi; custom domainde `Akış: Supabase Realtime` gorulmeden canli dogrulama basarili sayilmaz.
+- Etkilenen dosyalar: `live-power-center-v1.js`, `tests/live-power-center-static.test.js`, `index.html`, `cache-version.js`, `.github/workflows/deploy-pages.yml`, `DONT_TOUCH.md`.
+- Geri alma: Bu duzeltme yalniz Realtime baglanti durumunun UI render zamanlamasini degistirir; Supabase collector, Cron, robot skoru ve mevcut 30 dakikalik GitHub fallback mantigi degismez.
+
 ### 2026-09-18 - Supabase Realtime Canli Mac Analiz Robotu V1
 
 - Amac: Canli Guc Motorunu yalniz grafik gosteren bir modul olmaktan cikarip, canli maclari ayri bir robotla analiz eden profesyonel gercek zamanli sisteme donusturmek.
