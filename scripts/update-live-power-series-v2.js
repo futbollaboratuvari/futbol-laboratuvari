@@ -498,7 +498,7 @@ async function main() {
       source_verified: false,
       sampling: {
         ...(previous.sampling || {}),
-        workflow_interval_minutes: 10,
+        workflow_interval_minutes: 30,
         observed_points_only: true,
         interpolation_used: false,
         max_matches_per_run: MAX_MATCHES,
@@ -621,7 +621,7 @@ async function main() {
     source: 'ESPN Scoreboard + ESPN Core/Summary + TheSportsDB event stats',
     source_verified: true,
     sampling: {
-      workflow_interval_minutes: 10,
+      workflow_interval_minutes: 30,
       observed_points_only: true,
       interpolation_used: false,
       max_matches_per_run: MAX_MATCHES,
