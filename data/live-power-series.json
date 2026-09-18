@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T06:37:40.149Z",
+  "generated_at": "2026-09-18T11:47:05.813Z",
   "timezone": "Europe/Istanbul",
-  "status": "no_live_matches",
+  "status": "ok",
   "source": "ESPN Scoreboard + ESPN Core/Summary + TheSportsDB event stats",
   "source_verified": true,
   "sampling": {
@@ -13,38 +13,37 @@
     "paid_api_required": false
   },
   "summary": {
-    "espn_live_event_count": 0,
-    "site_candidate_count": 258,
-    "matched_fixture_count": 0,
-    "sampled_match_count": 0,
-    "stats_success_count": 0,
-    "scoreboard_stats_count": 0,
+    "espn_live_event_count": 1,
+    "site_candidate_count": 255,
+    "matched_fixture_count": 1,
+    "sampled_match_count": 1,
+    "stats_success_count": 1,
+    "scoreboard_stats_count": 1,
     "core_stats_count": 0,
     "summary_stats_count": 0,
     "thesportsdb_stats_count": 0,
     "thesportsdb_verified_count": 0
   },
-  "message": "Şu anda ESPN kaynağında canlı maç bulunmuyor.",
-  "matches": [],
-  "recent_matches": [
+  "message": "Canlı Team Power ve Goal Power yalnız kaynaklarda gerçekten gözlenen maç istatistiklerinden üretildi; veri kapsamı her snapshotta ayrıca gösterildi.",
+  "matches": [
     {
-      "fixture_id": "401886370",
-      "provider_event_id": "401886370",
-      "provider_league_id": "3932",
+      "fixture_id": "401861443",
+      "provider_event_id": "401861443",
+      "provider_league_id": "8376",
       "status": "live",
       "api_status": "STATUS_FIRST_HALF",
       "date": "2026-09-18",
-      "league": "Meksika Ascenso MX Apertura",
-      "home": "Durango",
-      "away": "Cruz Azul Hidalgo",
+      "league": "Çin Halk Cumhuriyeti Süper Lig",
+      "home": "Zhejiang Professional FC",
+      "away": "Wuhan Three Towns",
       "source_match": {
-        "home": "Durango",
-        "away": "Cruz Azul Hidal",
-        "league": "Meksika Ascenso MX Apertura",
+        "home": "Zhejiang G. Fc",
+        "away": "Wuhan Three Tow",
+        "league": "Çin Halk Cumhuriyeti Süper Lig",
         "date": "2026-09-18",
-        "priority": 200
+        "priority": 300
       },
-      "source_match_similarity": 0.96,
+      "source_match_similarity": 0.793,
       "source": "ESPN Scoreboard embedded live statistics",
       "source_verified": true,
       "verification": {
@@ -53,7 +52,7 @@
           "provider_chain": [
             "espn_scoreboard"
           ],
-          "league_id": "3932"
+          "league_id": "8376"
         },
         "thesportsdb_checked": true,
         "thesportsdb_matched": false,
@@ -62,8 +61,8 @@
       },
       "snapshots": [
         {
-          "minute": 13,
-          "recorded_at": "2026-09-18T01:16:23.060Z",
+          "minute": 12,
+          "recorded_at": "2026-09-18T11:47:05.813Z",
           "observed": true,
           "interpolated": false,
           "score": {
@@ -71,16 +70,16 @@
             "away": 0
           },
           "team_power": {
-            "home": 100,
-            "away": 0
+            "home": 93,
+            "away": 7
           },
           "goal_power": {
-            "home": 12,
+            "home": 59,
             "away": 0
           },
           "momentum": {
-            "home": 0,
-            "away": 0
+            "home": null,
+            "away": null
           },
           "data_coverage": {
             "home_metric_count": 4,
@@ -107,12 +106,12 @@
           },
           "stats": {
             "home": {
-              "shots_on_goal": 0,
-              "total_shots": 0,
+              "shots_on_goal": 2,
+              "total_shots": 4,
               "shots_inside_box": null,
               "blocked_shots": null,
-              "corners": 0,
-              "possession": 0,
+              "corners": 2,
+              "possession": 61.7,
               "accurate_passes": null,
               "total_passes": null,
               "expected_goals": null,
@@ -124,7 +123,7 @@
               "shots_inside_box": null,
               "blocked_shots": null,
               "corners": 0,
-              "possession": 0,
+              "possession": 38.3,
               "accurate_passes": null,
               "total_passes": null,
               "expected_goals": null,
@@ -134,8 +133,8 @@
         }
       ],
       "current": {
-        "minute": 13,
-        "recorded_at": "2026-09-18T01:16:23.060Z",
+        "minute": 12,
+        "recorded_at": "2026-09-18T11:47:05.813Z",
         "observed": true,
         "interpolated": false,
         "score": {
@@ -143,16 +142,16 @@
           "away": 0
         },
         "team_power": {
-          "home": 100,
-          "away": 0
+          "home": 93,
+          "away": 7
         },
         "goal_power": {
-          "home": 12,
+          "home": 59,
           "away": 0
         },
         "momentum": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "data_coverage": {
           "home_metric_count": 4,
@@ -179,12 +178,12 @@
         },
         "stats": {
           "home": {
-            "shots_on_goal": 0,
-            "total_shots": 0,
+            "shots_on_goal": 2,
+            "total_shots": 4,
             "shots_inside_box": null,
             "blocked_shots": null,
-            "corners": 0,
-            "possession": 0,
+            "corners": 2,
+            "possession": 61.7,
             "accurate_passes": null,
             "total_passes": null,
             "expected_goals": null,
@@ -196,7 +195,7 @@
             "shots_inside_box": null,
             "blocked_shots": null,
             "corners": 0,
-            "possession": 0,
+            "possession": 38.3,
             "accurate_passes": null,
             "total_passes": null,
             "expected_goals": null,
@@ -204,8 +203,9 @@
           }
         }
       },
-      "updated_at": "2026-09-18T01:16:23.060Z"
+      "updated_at": "2026-09-18T11:47:05.813Z"
     }
   ],
+  "recent_matches": [],
   "provider_errors": []
 }
