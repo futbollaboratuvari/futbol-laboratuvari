@@ -34,7 +34,6 @@ function normalizeCandidate(candidate, source = "analysis_options") {
   const market = canonicalMarket(candidate.label || candidate.market || candidate.recommended_market || candidate.selection);
   if (!market) return null;
   return {
-    ...candidate,
     market,
     recommended_market: market,
     odds: candidate.odds ?? candidate.odd ?? candidate.estimated_odds ?? candidate.bookmaker_odds ?? candidate.recommended_odd ?? null,
@@ -43,8 +42,27 @@ function normalizeCandidate(candidate, source = "analysis_options") {
     analysis_score: finite(candidate.analysis_score ?? candidate.model_score ?? candidate.confidence_score ?? candidate.model_confidence),
     estimated_probability: finite(candidate.estimated_probability ?? candidate.scenario_probability),
     market_probability: finite(candidate.market_probability ?? candidate.implied_probability),
+    edge_percent: finite(candidate.edge_percent),
     data_completeness: finite(candidate.data_completeness),
+    independent_evidence: candidate.independent_evidence !== false,
+    include_in_coupon: Boolean(candidate.include_in_coupon),
+    risk_level: String(candidate.risk_level || candidate.risk || "Belirsiz"),
+    signals: Array.isArray(candidate.signals) ? candidate.signals.map(String).filter(Boolean).slice(0, 5) : [],
     specialist_source: source,
+    first_half_signal_source: candidate.first_half_signal_source,
+    first_half_signal_verified: candidate.first_half_signal_verified === true,
+    openness_score: finite(candidate.openness_score),
+    scenario_probability: finite(candidate.scenario_probability),
+    bookmaker_odds: finite(candidate.bookmaker_odds),
+    first_half_direction_probability: finite(candidate.first_half_direction_probability),
+    full_time_direction_probability: finite(candidate.full_time_direction_probability),
+    identity_match_score: finite(candidate.identity_match_score),
+    identity_match_source: candidate.identity_match_source,
+    odds_verified: candidate.odds_verified === true,
+    market_specialist: candidate.market_specialist || null,
+    specialist_decision: candidate.specialist_decision,
+    specialist_eligible: candidate.specialist_eligible,
+    specialist_quality_score: finite(candidate.specialist_quality_score),
   };
 }
 
@@ -90,6 +108,45 @@ function decisionRank(value) {
   return 0;
 }
 
+function compactSpecialistCandidate(candidate, evaluated, specialistRobot) {
+  const specialist = evaluated?.market_specialist || candidate.market_specialist || null;
+  const decision = String(
+    evaluated?.specialist_decision
+      || candidate.specialist_decision
+      || specialist?.decision
+      || "keep"
+  );
+  const eligible = evaluated?.specialist_eligible !== undefined
+    ? evaluated.specialist_eligible !== false
+    : candidate.specialist_eligible !== false && clean(decision) !== "block";
+  return {
+    market: canonicalMarket(evaluated?.market || evaluated?.recommended_market || candidate.market),
+    odds: finite(evaluated?.odds ?? evaluated?.estimated_odds ?? candidate.odds ?? candidate.estimated_odds),
+    model_score: finite(evaluated?.model_score ?? evaluated?.analysis_score ?? candidate.model_score),
+    analysis_score: finite(evaluated?.analysis_score ?? evaluated?.model_score ?? candidate.analysis_score),
+    estimated_probability: finite(evaluated?.estimated_probability ?? candidate.estimated_probability),
+    market_probability: finite(evaluated?.market_probability ?? candidate.market_probability),
+    edge_percent: finite(evaluated?.edge_percent ?? candidate.edge_percent),
+    data_completeness: finite(evaluated?.data_completeness ?? candidate.data_completeness),
+    independent_evidence: evaluated?.independent_evidence !== false && candidate.independent_evidence !== false,
+    include_in_coupon: Boolean(evaluated?.include_in_coupon ?? candidate.include_in_coupon),
+    risk_level: String(evaluated?.risk_level || evaluated?.risk || candidate.risk_level || "Belirsiz"),
+    signals: (Array.isArray(evaluated?.signals) && evaluated.signals.length
+      ? evaluated.signals
+      : Array.isArray(candidate.signals) ? candidate.signals : []).map(String).filter(Boolean).slice(0, 5),
+    specialist_source: candidate.specialist_source,
+    specialist_robot: specialistRobot,
+    specialist_decision: decision,
+    specialist_eligible: eligible,
+    specialist_quality_score: finite(
+      evaluated?.specialist_quality_score
+      ?? candidate.specialist_quality_score
+      ?? specialist?.quality_score
+    ),
+    market_specialist: specialist,
+  };
+}
+
 function sortCandidates(rows) {
   return [...rows].sort((a, b) =>
     decisionRank(a.specialist_decision || a.market_specialist?.decision)
@@ -118,6 +175,7 @@ function resultEnvelope(id, label, rows) {
 
 module.exports = {
   clean,
+  compactSpecialistCandidate,
   finite,
   familyForMarket,
   normalizeCandidate,
