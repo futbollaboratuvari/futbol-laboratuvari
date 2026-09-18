@@ -44,6 +44,21 @@ PRO Robot Futbol Laboratuvari'nin ucretli uyelik sisteminin ana analiz urunudur.
 
 ## PRO Robot Islem Gunlugu
 
+### 2026-09-18 - Ortak cekirdek + ayri uzman robot orkestrasyonu V1
+
+- Amac/kok neden: PRO motorunda KG, gol, IY/MS ve taraf marketleri ayni ana skorlayicida birlikte uretiliyor; gol ve ters IY/MS icin ayri uzman kapilari zaten bulunuyordu. Mimariyi buyuturken tek dev robotta degisikliklerin birbirini bozmasini azaltmak ve her market ailesini bagimsiz test edilebilir hale getirmek.
+- Mimari: Ana veri toplama, takim/match intelligence, dogrulanmis oran/provenance ve ana olasilik motoru ortak cekirdek olarak korunur. Bunun ustune `KG Uzmani`, `Gol Uzmani`, `IY/MS Uzmani` ve `Taraf Uzmani` ayri moduller olarak calisir. `robot-specialist-orchestrator-v1` mevcut `analysis_options`, `goal_market_candidates` ve ana secimi kanonik market ailelerine yonlendirir, uzman sonuclarini tekrar tek match nesnesinde `specialist_outputs` altinda toplar.
+- Degismezlik kurali: Orkestrator ana `recommended_market` veya model olasiligini kendiliginden yukselterek yeniden yazmaz. Uzman katman yalniz mevcut V4 gate kararlarini uygular; `block` edilen bir aday ham analysis_options satirindan tekrar PRO projection'a sizamaz.
+- Uzmanlar: `btts` -> KG Var/Yok + Ilk Yari KG + Ikinci Yari KG; `goals` -> 2.5/3.5/6+; `htft` -> 1/1, 1/2, 2/1 ve diger IY/MS kombinasyonlari; `match_result` -> MS 1/X/2. Canli Guc Motoru ve Spor Toto kendi mevcut veri akislarinda bagimsiz kalir; AI Seffaflik/Supabase projection uzman ciktilarini birlestiren tuketici katmandir.
+- Veri/provenance: `raw_market_guess_odds` kaynakli adaylar uzman havuzuna alinmaz. 3.5/6+ mevcut goal specialist fail-closed kurallarini, 1/2 ve 2/1 mevcut HTFT V4 dogrulanmis ilk yari/oran kurallarini kullanir. Dusuk oran 1.45 ve ortak value gate kurallari degismedi.
+- Etkilenen dosyalar: `scripts/robot-specialist-orchestrator.js`, `scripts/robot-specialists/shared.js`, `scripts/robot-specialists/btts-specialist.js`, `scripts/robot-specialists/goals-specialist.js`, `scripts/robot-specialists/htft-specialist.js`, `scripts/robot-specialists/match-result-specialist.js`, `tests/robot-specialist-orchestrator.test.js`, `package.json`, `.github/workflows/update-fixtures.yml`, `.github/workflows/pro-market-specialist-ci.yml`, `supabase/functions/fl-pro-analysis/index.ts`.
+- Korunan dosyalar: `index.html`, `daily-matches-widget.js`, uyelik/odeme akisi ve mevcut kupon uretim sozlesmesi bu degisiklikte yeniden yazilmadi.
+- Test: Gelistirme dali acildi; hedef unit/regresyon ve Node 20/24 CI sonucu PR acildiktan sonra bu kayda islenecek. Test basarisizsa main'e alinmayacak.
+- Canli dogrulama: Main merge, ana writer veri uretimi, Supabase protected projection ve GitHub Pages kullanici akisi dogrulanmadan tamamlandi sayilmayacak.
+- Gelistirme dali: `feat/specialist-robot-orchestrator-20260918`.
+- Geri alma: Yeni orkestrator ve uzman wrapper dosyalari ayrik katmandir. Workflow adimi ve Supabase specialist-first projection baglantisi geri alindiginda mevcut V4 gate/ana PRO motoru aynen calismaya devam eder.
+
+
 ### 2026-09-18 - Resmi Iddaa coklu market senkronunun ana veri hattina baglanmasi
 
 - Amac/kok neden: AI Seffaflik ve PRO projection coklu marketleri okuyabiliyordu ancak guncel fixture hattinda KG, Ilk Yari KG, Ikinci Yari KG, IY/2Y KG, 3.5 ve 6+ icin dogrulanmis resmi fiyatlar tutarli sekilde tasinmiyordu. Ayrica 6+ etiketi normalize edilirken `+` isareti kayboldugu icin guvenli parser gercek `6+` secimini kacirabiliyordu.
