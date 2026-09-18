@@ -105,7 +105,6 @@ jobs:
         if: github.ref == 'refs/heads/main'
         run: |
           cp data/high-odds-htft.json /tmp/high-odds-htft.json
-          cp data/robot-analysis.json /tmp/robot-analysis.json
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
@@ -114,7 +113,10 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             cp /tmp/high-odds-htft.json data/high-odds-htft.json
-            cp /tmp/robot-analysis.json data/robot-analysis.json
+
+            # Always merge the verified HTFT feed into the newest main robot data.
+            # This prevents a slower HTFT run from overwriting a fresher main-writer snapshot.
+            node scripts/robot-specialist-orchestrator.js
 
             if git diff --quiet -- data/high-odds-htft.json data/robot-analysis.json; then
               echo 'No HTFT specialist feed change.'
