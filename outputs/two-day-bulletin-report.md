@@ -3,16 +3,14 @@
 Gunler: 2026-09-18 / 2026-09-19
 Kaynak: fixtures.json
 Ham mac: 254
-Aktif mac: 253
+Aktif mac: 251
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 230
+Bultenden dusurulen mac: 3
+Bugun: 228
 Yarin: 23
 
 ## Baslamamis Maclar
-- 2026-09-18 03:00 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Santo Domingo - El Nacional | scheduled | -
-- 2026-09-18 03:00 | Kolombiya Primera A Clausura | Bucaramanga - Independiente M | scheduled | -
 - 2026-09-18 03:30 | Copa Libertadores Çeyrek Final | Flamengo (2) - (0) Indep. Jose Ter | scheduled | -
 - 2026-09-18 03:30 | Copa Sudamericana Çeyrek Final | Torque (0) - (2) Cienciano | scheduled | -
 - 2026-09-18 03:30 | CONCACAF Orta Amerika Kupası Çeyrek Final | Alajuelense (2) - (2) Marathon | scheduled | -
