@@ -44,6 +44,19 @@ PRO Robot Futbol Laboratuvari'nin ucretli uyelik sisteminin ana analiz urunudur.
 
 ## PRO Robot Islem Gunlugu
 
+### 2026-09-18 - AI Şeffaflık çoklu market ve çeşitlilik sözleşmesi
+
+- Amaç/kök neden: AI Şeffaflık Merkezi maç başına yalnız `recommended_market` alanını gösterdiği için robot farklı marketleri analiz etse bile 10 kart aynı maç sonucu/taraf ailesine sıkışabiliyordu. Kullanıcı özellikle İlk Yarı KG, İkinci Yarı KG, İY KG / 2Y KG kombinasyon marketi, 2.5 Üst, 3.5 Üst ve 6+ Gol geliştirmelerinin her sürümde Şeffaflık bölümüne yansımasını istedi.
+- Yapılan değişiklik: Resmî İddaa normalizasyonuna açık isimli 3.5 Alt/Üst, İlk Yarı KG, İkinci Yarı KG, İY/2Y KG dört kombinasyonu ve 6+ Gol canonical alanları eklendi. PRO ana skorlayıcı doğrulanmış marketlerden `analysis_options` üretir hale getirildi; İY/2Y KG kombinasyonları dört sonuçlu marj temizleme ve yarı eğilimleriyle ayrı analiz edilir. Korumalı PRO projection `analysis_options` ile uzman `goal_market_candidates` içindeki uygun 3.5 Üst / 6+ Gol seçeneklerini taşır. AI Şeffaflık runtime'ı bu çoklu seçenekleri okuyup market aileleri arasında çeşitlilik uygular; maç sonucu ailesi 10 kartın en fazla 2 tanesini işgal edebilir.
+- Görünürlük politikası: Şeffaflıkta aynı maç yalnız bir kez listelenir fakat detay panelinde o maç için robotun gördüğü doğrulanmış seçenekler oran + tahmini olasılıkla gösterilir. Öncelik aileleri İY/2Y KG, İY KG, 2Y KG, 6+ Gol, 3.5 Üst, 2.5 Üst, KG ve son olarak MS şeklindedir. Yeterli doğrulanmış alternatif yoksa 10 kartı doldurmak için market uydurulmaz; daha az kart gösterilebilir.
+- Etkilenen dosyalar/akışlar: `scripts/iddaa-data-source.js`, `scripts/robot-exact-scoring.js`, `scripts/build-pro-analysis-index.js`, `scripts/official-pro-analysis.js`, `analysis-insights-v1.js`, `tests/iddaa-data-source.test.js`, `tests/pro-analysis-index.test.js`, `tests/pro-index-from-github.test.js`, `tests/transparency-market-options.test.js`, `package.json`. `index.html`, `daily-matches-widget.js`, günlük kupon üreticisi ve üyelik doğrulama davranışı değiştirilmedi.
+- Etkilenen marketler: İlk Yarı KG Var/Yok, İkinci Yarı KG Var/Yok, İY KG / 2Y KG Evet/Evet - Evet/Hayır - Hayır/Evet - Hayır/Hayır, KG Var/Yok, 2.5 Alt/Üst, 3.5 Alt/Üst, 6+ Gol ve MS 1/X/2 görünürlük katmanı. Ana kupon eşikleri ve düşük oran minimumu değiştirilmedi.
+- Provenance: Yalnız açık isimli/doğrulanmış resmî market outcome'ları canonical alana çevrilir. `raw_market_guess_odds` Şeffaflık seçeneği olamaz. 6+ yalnız açık outcome etiketi veya mevcut doğrulanmış goal specialist candidate üzerinden taşınır. Specialist `block` veya `specialist_eligible: false` seçenekler Şeffaflık havuzuna alınmaz.
+- Test: Yeni iddaa normalizasyon fixture'ı yarı KG, kombinasyon KG, 3.5 ve 6+ alanlarını kilitler. Yeni `transparency-market-options.test.js` skorlayıcının İY KG, 2Y KG, İY/2Y KG, 2.5 Üst ve 3.5 Üst seçeneklerini üretmesini ve raw tahmini marketi reddetmesini test eder. Protected projection ve runtime çeşitlilik sözleşmesi mevcut production build testine bağlandı. Branch CI sonucu PR açıldıktan sonra bu kayda eklenecek.
+- Geliştirme dalı / PR: `feat/ai-transparency-market-diversity-20260918`; PR henüz açılmadı.
+- Canlı doğrulama: Merge öncesi yapılmadı. Main'e alındıktan sonra GitHub Pages ve korumalı `/api/pro-analysis` projection üzerinden Şeffaflık kart market dağılımı ayrıca kontrol edilecek.
+- Geri alma: Çoklu seçenek sözleşmesi projection/UI katmanında ayrık tutulur. Ana `recommended_market` ve kupon kararları değişmediği için ilgili commitler geri alınarak önceki tek-market Şeffaflık görünümüne dönülebilir.
+
 
 ### 2026-09-18 - Canlı analiz görünürlük ve AI Şeffaflık bağlantısı
 
