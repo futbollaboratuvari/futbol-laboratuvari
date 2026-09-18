@@ -4,7 +4,7 @@ const assert = require("node:assert/strict");
 const { familyForMarket } = require("../scripts/robot-specialists/shared");
 const { runOrchestrator, VERSION } = require("../scripts/robot-specialist-orchestrator");
 
-assert.equal(VERSION, "robot-specialist-orchestrator-v1");
+assert.equal(VERSION, "robot-specialist-orchestrator-v2");
 assert.equal(familyForMarket("KG Var"), "btts");
 assert.equal(familyForMarket("İlk Yarı KG Var"), "btts");
 assert.equal(familyForMarket("3.5 Üst"), "goals");
@@ -46,7 +46,36 @@ const payload = {
   }],
 };
 
-const output = runOrchestrator(payload);
+const htftFeed = {
+  date: "2026-09-18",
+  status: "ready",
+  picks: [{
+    date: "2026-09-18",
+    home: "A",
+    away: "B",
+    match_name: "A VS B",
+    market: "2/1",
+    bookmaker_odds: 22,
+    real_odds: 22,
+    model_confidence: 74,
+    scenario_probability: 8.2,
+    data_completeness: 80,
+    first_half_signal_source: "official_iddaa_first_half",
+    first_half_signal_verified: true,
+    openness_score: 0.62,
+    first_half_direction_probability: 32,
+    full_time_direction_probability: 38,
+    identity_match_source: "date_teams",
+    identity_match_score: 100,
+    odds_verified: true,
+    specialist_decision: "downgrade",
+    specialist_eligible: true,
+    specialist_quality_score: 65,
+    reason: "Doğrulanmış resmî İddaa İY/MS feed adayı.",
+  }],
+};
+
+const output = runOrchestrator(payload, { htftHighOdds: htftFeed });
 assert.equal(output.matches.length, 1);
 const match = output.matches[0];
 
@@ -54,11 +83,19 @@ assert.equal(match.recommended_market, "MS 1", "orkestratör ana tahmini sessizc
 assert.equal(match.specialist_router_version, VERSION);
 assert.equal(match.specialist_outputs.btts.candidate_count, 1, "raw tahmini KG marketi uzman havuzuna girmemeli");
 assert.ok(match.specialist_outputs.goals.candidate_count >= 2);
-assert.equal(match.specialist_outputs.htft.candidate_count, 2);
+assert.equal(match.specialist_outputs.htft.candidate_count, 3);
+assert.equal(match.specialist_outputs.htft.candidates.find((row) => row.market === "2/1")?.specialist_source, "verified_high_odds_htft");
+assert.equal(output.specialist_orchestrator.specialists.htft.supplemental_candidate_count, 1);
+assert.equal(output.specialist_orchestrator.feeds.htft_high_odds.verified_pick_count, 1);
 assert.equal(match.specialist_outputs.match_result.candidate_count, 1);
 
 const reversal = match.specialist_outputs.htft.candidates.find((row) => row.market === "1/2");
 assert.equal(reversal.specialist_eligible, false, "doğrulanmamış ters İY/MS oranı fail-closed bloklanmalı");
+
+const staleOutput = runOrchestrator(payload, {
+  htftHighOdds: { ...htftFeed, date: "2026-09-17", picks: htftFeed.picks.map((pick) => ({ ...pick, date: "2026-09-17" })) },
+});
+assert.equal(staleOutput.matches[0].specialist_outputs.htft.candidate_count, 2, "eski tarihli HTFT feed bugünkü maça taşınmamalı");
 
 assert.ok(output.specialist_orchestrator.candidate_count >= 6);
 assert.ok(output.specialist_orchestrator.specialists.btts.ready_match_count >= 1);
