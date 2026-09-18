@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 260
+- Scheduled match count: 256
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-18 / 2026-09-19 23:59
 
-- 2026-09-18 03:30 | Bolivar - Gualberto Villa | scheduled
-- 2026-09-18 03:30 | Alajuelense (2) - (2) Marathon | scheduled
-- 2026-09-18 03:30 | Flamengo (2) - (0) Indep. Jose Ter | scheduled
-- 2026-09-18 03:30 | Torque (0) - (2) Cienciano | scheduled
 - 2026-09-18 04:00 | Durango - Cruz Azul Hidal | scheduled
 - 2026-09-18 06:15 | Depor. Olimpia (3) - (0) Firpo | scheduled
 - 2026-09-18 07:00 | Vanraure - Tegevajaro Miya | scheduled
 - 2026-09-18 09:30 | Filipinler U23 - Vietnam U23 | scheduled
 - 2026-09-18 11:00 | Changchun Xidu - Guangdong Mingt | scheduled
 - 2026-09-18 11:00 | Lanzhou Longyu - Wenzhou Fc | scheduled
+- 2026-09-18 11:30 | Arema - Persik | scheduled
+- 2026-09-18 12:00 | Wuhan Three To - Haimen Codion | scheduled
+- 2026-09-18 13:00 | Kuveyt U23 - Özbekistan U23 | scheduled
+- 2026-09-18 13:00 | Yanbian Longdi - Guangzhou E-Pow | scheduled

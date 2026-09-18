@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-09-18T00:02:32.364Z
+- Güncelleme: 2026-09-18T00:38:31.135Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -40,7 +40,7 @@
 | Jiangx Beidame VS Shandong Taisha | Çin Halk Cumhuriyeti 2.Lig Yükselme Grubu | 14:30 | MS 2 | 2.17 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Zhejiang G. Fc VS Wuhan Three Tow | Çin Halk Cumhuriyeti Süper Lig | 14:35 | MS 1 | 1.71 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Madura United VS Psim Yogyakarta | Endonezya Süper Lig | 15:00 | 2.5 Alt | 1.59 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Ayutthaya Unit VS Uthai Thani | Tayland 1.Lig | 15:00 | 2.5 Alt | 1.57 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Ayutthaya Unit VS Uthai Thani | Tayland 1.Lig | 15:00 | 2.5 Alt | 1.55 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Fleetwood Town VS Swansea (B) | İngiltere Professional Development Lig | 15:00 | MS 2 | 1.49 | 54 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Birmingham Cit VS Arsenal U21 | İngiltere Premier Lig 2 | 15:00 | MS 2 | 1.37 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Zhetysu VS Kaspyi | Kazakistan Premier Lig | 15:00 | 2.5 Alt | 1.57 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -80,7 +80,7 @@
 | Seinajoen Jk VS Mariehamn | Finlandiya Veikkausliiga Küme Düşme Grubu | 18:00 | MS 1 | 1.61 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Js El Biar VS Js Saoura | Cezayir 1.Lig | 18:00 | MS 1 | 2.37 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Usm Khenchela VS Es Ben Aknoun | Cezayir 1.Lig | 18:00 | 2.5 Alt | 1.38 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Neftekhimik VS Ural | Rusya FNL | 18:00 | 2.5 Alt | 1.56 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Neftekhimik VS Ural | Rusya FNL | 18:00 | 2.5 Alt | 1.54 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Uta Arad VS Sepsi | Romanya 1.Lig | 18:00 | 2.5 Alt | 1.59 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Al Arabi VS Al Jazeera | Ürdün Premier Lig | 18:00 | 2.5 Alt | 1.51 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Aktobe VS Ulytau | Kazakistan Premier Lig | 18:00 | MS 1 | 1.32 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -114,7 +114,7 @@
 | Hegelmann Ii VS Fk Dainava | Litvanya 1.Lig | 19:00 | MS 2 | 1.40 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Lietava Jonava VS Tauras | Litvanya 1.Lig | 19:00 | MS 2 | 1.56 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Jerash VS Al Sahl Horan | Ürdün 1.Lig | 19:00 | 2.5 Alt | 1.56 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Ethad Ar VS Al Yarmouk | Ürdün 1.Lig | 19:00 | 2.5 Alt | 1.79 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Ethad Ar VS Al Yarmouk | Ürdün 1.Lig | 19:00 | 2.5 Alt | 1.82 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Vaprus Ii VS Tallinna Jk Leg | Estonya Esiliiga B | 19:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Jeddah Club VS Al-Saqer | Suudi Arabistan 1.Lig | 19:05 | 2.5 Alt | 1.44 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Wolfsburg VS Darmstadt | Almanya 2. Bundesliga | 19:30 | MS 1 | 1.42 | 68 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
@@ -262,7 +262,7 @@
 | Piratas VS Venados Fc | Meksika Ascenso MX Apertura | 04:00 | MS 1 | 1.48 | 63 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Choloma VS Estrella Roja | Honduras Ulusal Lig Apertura | 04:30 | 2.5 Üst | 1.69 | 76 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
 | Perez Zeledon VS Sporting San Jo | Kosta Rika Premier Lig Apertura | 05:00 | 2.5 Alt | 1.51 | 67 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta | scheduled |
-| Comunicaciones VS Guastatoya | Guatemala Ulusal Lig Apertura | 05:00 | 2.5 Alt | 1.44 | 76 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
+| Comunicaciones VS Guastatoya | Guatemala Ulusal Lig Apertura | 05:00 | 2.5 Alt | 1.48 | 76 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Düşük | scheduled |
 | Fc Juarez VS Tigres Uanl | Meksika Liga MX Apertura | 06:00 | 2.5 Alt | 1.79 | 72 | Orta risk kupon adayı | Değerli | Orta | Düşük | scheduled |
 | Ca La Paz VS Correcaminos Ua | Meksika Ascenso MX Apertura | 06:00 | MS 1 | 1.47 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 
