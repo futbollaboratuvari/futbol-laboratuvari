@@ -1,6 +1,8 @@
 "use strict";
 
 const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const path = require("node:path");
 const { transparencyOptionsFor } = require("../scripts/robot-exact-scoring");
 
 const fixture = {
@@ -44,5 +46,11 @@ assert.ok(markets.includes("2.5 Üst"), "2.5 Üst Şeffaflık seçeneklerine gir
 assert.ok(markets.includes("3.5 Üst"), "3.5 Üst Şeffaflık seçeneklerine girmeli");
 assert.ok(options.every((option) => option.odd_source_type !== "raw_market_guess_odds"), "Tahmini ham market Şeffaflık seçeneği olamaz");
 assert.ok(options.every((option) => Number.isFinite(Number(option.estimated_probability))), "Her Şeffaflık seçeneği model olasılığı taşımalı");
+
+const insightsSource = fs.readFileSync(path.join(__dirname, "..", "analysis-insights-v1.js"), "utf8");
+assert.match(insightsSource, /return "htft"/, "İY\/MS marketleri AI Şeffaflıkta ayrı htft ailesine ayrılmalı");
+assert.match(insightsSource, /htft:\s*1075/, "İY\/MS ailesi güçlü görünürlük önceliği taşımalı");
+assert.match(insightsSource, /htft:\s*2/, "İY\/MS aile kotası tanımlı olmalı");
+assert.match(insightsSource, /const preferredOrder = \[\s*"half_btts_combo",\s*"htft"/s, "İY\/MS uygun aday varsa ilk çeşitlilik geçişinde seçilmeli");
 
 console.log("transparency-market-options.test.js: OK");
