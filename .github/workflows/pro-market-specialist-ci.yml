@@ -6,6 +6,7 @@ on:
       - 'scripts/market-specialist-gates.js'
       - 'scripts/pro-market-specialist-postprocess.js'
       - 'scripts/robot-specialist-orchestrator.js'
+      - 'scripts/validate-pro-source-size.js'
       - 'scripts/robot-specialists/**'
       - 'scripts/pro-goal-market-bridge.js'
       - 'scripts/iddaa-data-source.js'
@@ -67,6 +68,7 @@ jobs:
           node --check scripts/market-specialist-gates.js
           node --check scripts/pro-market-specialist-postprocess.js
           node --check scripts/robot-specialist-orchestrator.js
+          node --check scripts/validate-pro-source-size.js
           node --check scripts/robot-specialists/shared.js
           node --check scripts/robot-specialists/btts-specialist.js
           node --check scripts/robot-specialists/goals-specialist.js
@@ -86,6 +88,8 @@ jobs:
         run: |
           node tests/market-specialist-gates.test.js
           node tests/robot-specialist-orchestrator.test.js
+          node scripts/robot-specialist-orchestrator.js
+          node scripts/validate-pro-source-size.js
           node tests/pro-goal-market-bridge.test.js
           node tests/iddaa-data-source.test.js
           node tests/iddaa-market-sync.test.js

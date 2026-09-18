@@ -19,8 +19,8 @@
     "enrich:metrics": "node scripts/enrich-fixture-metrics.js",
     "update:analysis": "node scripts/update-analysis-report.js",
     "build:pro-index": "node scripts/build-pro-analysis-index.js",
-    "export:live": "node scripts/enrich-fixture-metrics.js && node scripts/market-provenance-guard.js && node scripts/pre-match-final-check.js && node scripts/export-high-value-json.js && node scripts/ensure-live-json.js && node scripts/run-pro-goal-market-specialist.js && node scripts/robot-specialist-orchestrator.js && node scripts/sync-analysis-results.js && node scripts/learning-output-check.js",
-    "specialize:markets": "node scripts/pro-market-specialist-postprocess.js all && node scripts/robot-specialist-orchestrator.js",
+    "export:live": "node scripts/enrich-fixture-metrics.js && node scripts/market-provenance-guard.js && node scripts/pre-match-final-check.js && node scripts/export-high-value-json.js && node scripts/ensure-live-json.js && node scripts/run-pro-goal-market-specialist.js && node scripts/robot-specialist-orchestrator.js && node scripts/validate-pro-source-size.js && node scripts/sync-analysis-results.js && node scripts/learning-output-check.js",
+    "specialize:markets": "node scripts/pro-market-specialist-postprocess.js all && node scripts/robot-specialist-orchestrator.js && node scripts/validate-pro-source-size.js",
     "sync:results": "node scripts/update-match-archive.js && node scripts/update-final-scores.js && node scripts/learning-result-sync.js && node scripts/loss-pattern-memory.js && node scripts/sync-analysis-results.js && node scripts/prediction-measurement-health-check.js",
     "learn:robot": "node scripts/robot-learning-memory.js && node scripts/learning-result-sync.js && node scripts/loss-pattern-memory.js && node scripts/learning-output-check.js",
     "learn:errors": "node scripts/loss-pattern-memory.js",
@@ -39,8 +39,9 @@
     "test:iddaa": "node tests/iddaa-data-source.test.js",
     "test:results": "node tests/results-pipeline.test.js",
     "test:data-size": "node tests/generated-file-size.test.js && node scripts/validate-generated-file-sizes.js",
-    "update:all": "node scripts/update-fixtures.js && node scripts/update-night-window.js && node scripts/two-day-bulletin-window.js && node scripts/build-full-bulletin.js && node scripts/merge-bulletin-detail-fields.js && node scripts/full-bulletin-output-check.js && node scripts/build-live-now.js && node scripts/enrich-fixture-metrics.js && node scripts/update-analysis-report.js && node scripts/market-provenance-guard.js && node scripts/pre-match-final-check.js && node scripts/export-high-value-json.js && node scripts/ensure-live-json.js && node scripts/run-pro-goal-market-specialist.js && node scripts/robot-specialist-orchestrator.js && node scripts/sync-analysis-results.js && node scripts/learning-result-sync.js && node scripts/loss-pattern-memory.js && node scripts/learning-output-check.js && npm run build:spor-toto",
-    "test:robot-specialists": "node tests/market-specialist-gates.test.js && node tests/pro-goal-market-bridge.test.js && node tests/robot-specialist-orchestrator.test.js"
+    "update:all": "node scripts/update-fixtures.js && node scripts/update-night-window.js && node scripts/two-day-bulletin-window.js && node scripts/build-full-bulletin.js && node scripts/merge-bulletin-detail-fields.js && node scripts/full-bulletin-output-check.js && node scripts/build-live-now.js && node scripts/enrich-fixture-metrics.js && node scripts/update-analysis-report.js && node scripts/market-provenance-guard.js && node scripts/pre-match-final-check.js && node scripts/export-high-value-json.js && node scripts/ensure-live-json.js && node scripts/run-pro-goal-market-specialist.js && node scripts/robot-specialist-orchestrator.js && node scripts/validate-pro-source-size.js && node scripts/sync-analysis-results.js && node scripts/learning-result-sync.js && node scripts/loss-pattern-memory.js && node scripts/learning-output-check.js && npm run build:spor-toto",
+    "test:robot-specialists": "node tests/market-specialist-gates.test.js && node tests/pro-goal-market-bridge.test.js && node tests/robot-specialist-orchestrator.test.js && node scripts/robot-specialist-orchestrator.js && node scripts/validate-pro-source-size.js",
+    "validate:pro-source": "node scripts/validate-pro-source-size.js"
   },
   "dependencies": {},
   "devDependencies": {}

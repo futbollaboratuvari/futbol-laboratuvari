@@ -4,7 +4,7 @@ const assert = require("node:assert/strict");
 const { familyForMarket } = require("../scripts/robot-specialists/shared");
 const { runOrchestrator, VERSION } = require("../scripts/robot-specialist-orchestrator");
 
-assert.equal(VERSION, "robot-specialist-orchestrator-v2");
+assert.equal(VERSION, "robot-specialist-orchestrator-v3");
 assert.equal(familyForMarket("KG Var"), "btts");
 assert.equal(familyForMarket("İlk Yarı KG Var"), "btts");
 assert.equal(familyForMarket("3.5 Üst"), "goals");
@@ -84,20 +84,32 @@ assert.equal(match.specialist_router_version, VERSION);
 assert.equal(match.specialist_outputs.btts.candidate_count, 1, "raw tahmini KG marketi uzman havuzuna girmemeli");
 assert.ok(match.specialist_outputs.goals.candidate_count >= 2);
 assert.equal(match.specialist_outputs.htft.candidate_count, 3);
-assert.equal(match.specialist_outputs.htft.candidates.find((row) => row.market === "2/1")?.specialist_source, "verified_high_odds_htft");
+assert.equal(match.specialist_outputs.htft.supplemental_candidate_count, 1);
 assert.equal(output.specialist_orchestrator.specialists.htft.supplemental_candidate_count, 1);
 assert.equal(output.specialist_orchestrator.feeds.htft_high_odds.verified_pick_count, 1);
 assert.equal(match.specialist_outputs.match_result.candidate_count, 1);
+assert.equal("candidates" in match.specialist_outputs.htft, false, "detay aday listesi robot-analysis içine ikinci kez kopyalanmamalı");
 
-const reversal = match.specialist_outputs.htft.candidates.find((row) => row.market === "1/2");
-assert.equal(reversal.specialist_eligible, false, "doğrulanmamış ters İY/MS oranı fail-closed bloklanmalı");
+const supplementalDecision = match.specialist_market_decisions.find((row) => row.market === "2/1");
+assert.equal(supplementalDecision?.source, "verified_high_odds_htft");
+assert.equal(supplementalDecision?.eligible, true);
+const supplementalOption = match.analysis_options.find((row) => (row.market || row.label) === "2/1");
+assert.equal(supplementalOption?.specialist_source, "verified_high_odds_htft");
+assert.equal(supplementalOption?.specialist_eligible, true);
+
+const reversal = match.specialist_market_decisions.find((row) => row.market === "1/2");
+assert.equal(reversal?.eligible, false, "doğrulanmamış ters İY/MS oranı fail-closed bloklanmalı");
+assert.equal(match.analysis_options.find((row) => (row.market || row.label) === "1/2")?.specialist_eligible, false);
 
 const staleOutput = runOrchestrator(payload, {
   htftHighOdds: { ...htftFeed, date: "2026-09-17", picks: htftFeed.picks.map((pick) => ({ ...pick, date: "2026-09-17" })) },
 });
 assert.equal(staleOutput.matches[0].specialist_outputs.htft.candidate_count, 2, "eski tarihli HTFT feed bugünkü maça taşınmamalı");
+assert.equal(staleOutput.matches[0].analysis_options.some((row) => row.specialist_source === "verified_high_odds_htft"), false);
 
+assert.equal(output.specialist_orchestrator.persistence_mode, "compact_decisions_v1");
 assert.ok(output.specialist_orchestrator.candidate_count >= 6);
+assert.doesNotMatch(JSON.stringify(match.specialist_outputs), /support_checks|market_specialist|candidates/);
 assert.ok(output.specialist_orchestrator.specialists.btts.ready_match_count >= 1);
 
 console.log("robot-specialist-orchestrator.test.js OK");

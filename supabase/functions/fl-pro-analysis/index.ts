@@ -167,41 +167,73 @@ function compactOption(item: AnyRow, source: string) {
 
 function compactOptions(item: AnyRow) {
   const rows: any[] = [];
-  const blockedSpecialistMarkets = new Set<string>();
   const marketKey = (option: AnyRow) => clean(
     option?.label || option?.market || option?.recommended_market || option?.selection || ""
   );
 
-  // Specialist robot outputs are authoritative for their canonical market.
-  // A blocked specialist market is recorded as a tombstone so the same market
-  // cannot re-enter later from raw analysis_options, goal candidates or primary.
+  // V3 persists only compact specialist decisions so robot-analysis.json stays
+  // below the protected source-size ceiling. Legacy detailed candidates are
+  // still understood during rolling deployment.
+  const decisionMap = new Map<string, AnyRow>();
+  const registerDecision = (option: AnyRow, specialistId = "") => {
+    const key = marketKey(option);
+    if (!key) return;
+    const decision = String(
+      option?.decision || option?.specialist_decision || option?.market_specialist?.decision || "keep"
+    );
+    const eligible = option?.eligible !== undefined
+      ? option.eligible !== false
+      : option?.specialist_eligible !== false && clean(decision) !== "block";
+    decisionMap.set(key, {
+      specialist_robot: String(option?.specialist_robot || specialistId || ""),
+      specialist_source: String(option?.source || option?.specialist_source || ""),
+      specialist_decision: decision,
+      specialist_eligible: eligible,
+      specialist_quality_score: finite(option?.quality_score ?? option?.specialist_quality_score ?? option?.market_specialist?.quality_score),
+    });
+  };
+
+  for (const decision of Array.isArray(item.specialist_market_decisions) ? item.specialist_market_decisions : []) {
+    registerDecision(decision, decision?.specialist_robot);
+  }
+
   const specialistOutputs = item.specialist_outputs && typeof item.specialist_outputs === "object"
     ? item.specialist_outputs
     : {};
   for (const [specialistId, bucket] of Object.entries(specialistOutputs)) {
     for (const option of Array.isArray((bucket as AnyRow)?.candidates) ? (bucket as AnyRow).candidates : []) {
-      const key = marketKey(option);
-      const decision = clean(option?.specialist_decision || option?.market_specialist?.decision || "keep");
-      if (option?.specialist_eligible === false || decision === "block") {
-        if (key) blockedSpecialistMarkets.add(key);
-        continue;
-      }
-      const compact = compactOption(option, `specialist_${specialistId}`);
-      if (compact) rows.push(compact);
+      registerDecision(option, specialistId);
     }
   }
 
+  const withDecision = (option: AnyRow) => {
+    const decision = decisionMap.get(marketKey(option));
+    return decision ? { ...option, ...decision } : option;
+  };
+  const blocked = (option: AnyRow) => {
+    const decision = decisionMap.get(marketKey(option));
+    return Boolean(decision && (
+      decision.specialist_eligible === false
+      || clean(decision.specialist_decision) === "block"
+    ));
+  };
+
   for (const option of Array.isArray(item.analysis_options) ? item.analysis_options : []) {
-    if (blockedSpecialistMarkets.has(marketKey(option))) continue;
-    const compact = compactOption(option, "robot_multi_market");
+    if (blocked(option)) continue;
+    const enriched = withDecision(option);
+    const source = String(enriched.specialist_source || "robot_multi_market");
+    const compact = compactOption(enriched, source);
     if (compact) rows.push(compact);
   }
   for (const option of Array.isArray(item.goal_market_candidates) ? item.goal_market_candidates : []) {
-    if (blockedSpecialistMarkets.has(marketKey(option))) continue;
-    const compact = compactOption(option, "goal_market_specialist");
+    if (blocked(option)) continue;
+    const enriched = withDecision(option);
+    const source = String(enriched.specialist_source || "goal_market_specialist");
+    const compact = compactOption(enriched, source);
     if (compact) rows.push(compact);
   }
-  const primaryInput = {
+
+  const primaryInput = withDecision({
     market: item.recommended_market || item.market,
     odd: item.recommended_odd ?? item.estimated_odds ?? item.bookmaker_odds,
     model_score: item.model_score ?? item.analysis_score ?? item.confidence_score,
@@ -212,10 +244,8 @@ function compactOptions(item: AnyRow) {
     risk_level: item.risk_level || item.risk,
     independent_evidence: item.independent_evidence,
     signals: item.signals || item.pro_signals,
-  };
-  const primary = blockedSpecialistMarkets.has(marketKey(primaryInput))
-    ? null
-    : compactOption(primaryInput, "primary");
+  });
+  const primary = blocked(primaryInput) ? null : compactOption(primaryInput, "primary");
   if (primary) rows.push(primary);
 
   const seen = new Set<string>();
@@ -491,6 +521,7 @@ Deno.serve(async (req: Request) => {
           else if (/3 5 ust/.test(token)) families.add("3_5_ust");
           else if (/2 5 ust/.test(token)) families.add("2_5_ust");
           else if (/kg var|kg yok|btts/.test(token)) families.add("kg");
+          else if (/^(1|x|2)\s+(1|x|2)$/.test(token)) families.add("htft");
           else if (/^ms |mac sonucu/.test(token)) families.add("ms");
         }
       }

@@ -44,6 +44,20 @@ PRO Robot Futbol Laboratuvari'nin ucretli uyelik sisteminin ana analiz urunudur.
 
 ## PRO Robot Islem Gunlugu
 
+### 2026-09-18 - Uzman robot persistence kompaktlastirma / Supabase stale-cache kok duzeltmesi
+
+- Kok neden: IY/MS V2 canli kosusu basarili olup 221 macta HTFT havuzunu 0'dan 3 dogrulanmis adaya cikardi; ancak uzman ciktisi her mac icinde `analysis_options` verisini `specialist_outputs.candidates` altinda tam detayli ikinci kez kopyaladigi icin `data/robot-analysis.json` Supabase `fl-pro-analysis` kaynak koruma siniri olan 12 MiB'nin ustune cikti. Supabase yeni GitHub kaynagini okuyamayinca eski `pro_analysis_cache` last-good verisine dustu; bu nedenle canli projection HTFT yeniligini goremedi.
+- Mimari duzeltme: `robot-specialist-orchestrator-v3` detayli aday kopyalarini kalici JSON'dan kaldirir. Her mac icin yalniz kompakt `specialist_market_decisions` (market, robot, karar, uygunluk, kalite, kaynak) ve ozet `specialist_outputs` sayaçlari saklanir. Mevcut `analysis_options` / `goal_market_candidates` satirlari yalniz kompakt specialist karar alanlariyla isaretlenir. Dogrulanmis High Odds 1/2-2/1 supplemental adayi gerekli alanlarla `analysis_options` icine tek kez eklenir.
+- Fail-closed davranis: Supabase protected projection V3 kompakt karar haritasini authoritative kabul eder; `block` / `eligible:false` market ham analysis_options, goal candidate veya primary satirindan tekrar giremez. Rolling deployment icin eski V2 `specialist_outputs.candidates` bicimi de gecici fallback olarak okunabilir.
+- Kaynak boyutu kapisi: `scripts/validate-pro-source-size.js` `data/robot-analysis.json` icin 12 MiB hard limit uygular. Ana writer, High Odds HTFT publish retry, package export/update akisları ve Node 20/24 specialist CI bu kontrolden gecmeden veri yayinlayamaz. Limit yukseltilerek sorun ortulmez.
+- Health gozlemlenebilirligi: Supabase health market ailelerine `htft` tanimi eklendi; korumali projection kompakt specialist kararlarini okuyarak 1/2 ve 2/1 seceneklerini tasir.
+- Etkilenen dosyalar: `scripts/robot-specialist-orchestrator.js`, `scripts/validate-pro-source-size.js`, `tests/robot-specialist-orchestrator.test.js`, `tests/pro-analysis-supabase-sync.test.js`, `supabase/functions/fl-pro-analysis/index.ts`, `.github/workflows/update-fixtures.yml`, `.github/workflows/high-odds-htft.yml`, `.github/workflows/pro-market-specialist-ci.yml`, `package.json`, `DONT_TOUCH.md`.
+- Onceki canli kanit: PR #76 merge commit `5d17b8f14deb4d71621538dc236b3a794b4b3c9d`; High Odds HTFT run `35367216264` success: 199 mac tarandi, 3 dogrulanmis kart uretildi; orchestrator V2 `htft candidate_count=3`, `eligible_count=3`, `ready_match_count=3`, `supplemental_candidate_count=3` raporladi ve `717a6de51fdbd3085ba282521cc1c70e1eddbedc` veri commitini main'e yazdi.
+- Stale-cache kaniti: Production Supabase health 200 donmesine ragmen `pro_analysis_cache` source_generated_at `2026-09-18T13:11:50.928Z`, HTFT option count 0 olarak kaldi; GitHub main ise daha yeni V2 verisini tasiyordu. Bu fark source boyut korumasinin last-good cache'e dusurdugunu ortaya cikardi.
+- Test/canli dogrulama: Bu kayit V3 PR CI, gercek data size sonucu, main merge, High Odds/main writer ve Supabase fresh health/cache dogrulamasindan sonra final run/commit bilgileriyle tamamlanacak.
+- Geri alma: Kompakt persistence yalniz uzman meta verisinin saklama bicimini degistirir; ana model olasiliklari, resmi oran kaynagi, market gate esikleri ve UI sozlesmesi degismez. Gerekirse V3 persistence commit'i geri alinabilir ancak 12 MiB kaynak kapisi stale-cache tekrarini onlemek icin korunmalidir.
+
+
 ### 2026-09-18 - IY/MS uzman robotuna dogrulanmis HTFT feed baglantisi V2
 
 - Kok neden: Orkestrator V1 canli ana writer kosusunda 221 mac / 1354 uzman adayi uretmesine ragmen `htft` havuzu sifir kaldi. Ayrik `data/high-odds-htft.json` akisinda ayni gun icin dogrulanmis resmi Iddaa 1/2 ve 2/1 adaylari bulunuyordu; bu veri ana `robot-analysis.json` uzman ciktisina geri bagli degildi.

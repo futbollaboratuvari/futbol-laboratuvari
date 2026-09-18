@@ -2,13 +2,14 @@
 
 const fs = require("fs");
 const path = require("path");
-const { clean, collectCandidates, normalizeCandidate } = require("./robot-specialists/shared");
+const { canonicalMarket } = require("./market-specialist-gates");
+const { clean, collectCandidates, finite, normalizeCandidate } = require("./robot-specialists/shared");
 const { runBttsSpecialist } = require("./robot-specialists/btts-specialist");
 const { runGoalsSpecialist } = require("./robot-specialists/goals-specialist");
 const { runHtftSpecialist } = require("./robot-specialists/htft-specialist");
 const { runMatchResultSpecialist } = require("./robot-specialists/match-result-specialist");
 
-const VERSION = "robot-specialist-orchestrator-v2";
+const VERSION = "robot-specialist-orchestrator-v3";
 const root = path.join(__dirname, "..");
 const robotPath = path.join(root, "data", "robot-analysis.json");
 const htftFeedPath = path.join(root, "data", "high-odds-htft.json");
@@ -42,6 +43,14 @@ function identityKeys(item) {
   return keys;
 }
 
+function marketKey(value) {
+  return clean(canonicalMarket(
+    typeof value === "object"
+      ? value?.label || value?.market || value?.recommended_market || value?.selection
+      : value
+  ));
+}
+
 function supplementalHtftCandidates(item, feed) {
   if (!feed || !Array.isArray(feed.picks)) return [];
   const itemDate = String(item?.date || "").slice(0, 10);
@@ -72,24 +81,129 @@ function supplementalHtftCandidates(item, feed) {
   return rows;
 }
 
+function compactDecision(candidate, specialistRobot) {
+  const decision = String(candidate?.specialist_decision || candidate?.market_specialist?.decision || "keep");
+  return {
+    market: canonicalMarket(candidate?.market || candidate?.recommended_market || ""),
+    specialist_robot: specialistRobot,
+    decision,
+    eligible: candidate?.specialist_eligible !== false && clean(decision) !== "block",
+    quality_score: finite(candidate?.specialist_quality_score ?? candidate?.market_specialist?.quality_score),
+    source: String(candidate?.specialist_source || ""),
+  };
+}
+
+function compactOutput(result) {
+  const supplementalCandidateCount = (Array.isArray(result?.candidates) ? result.candidates : [])
+    .filter((row) => row?.specialist_source === "verified_high_odds_htft").length;
+  return {
+    id: result?.id || "",
+    status: result?.status || "no_candidate",
+    candidate_count: Number(result?.candidate_count || 0),
+    eligible_count: Number(result?.eligible_count || 0),
+    supplemental_candidate_count: supplementalCandidateCount,
+  };
+}
+
+function compactPersistedCandidate(candidate) {
+  return {
+    key: `specialist_${String(candidate?.market || "").replace(/[^a-z0-9]+/gi, "_").toLowerCase()}`,
+    label: canonicalMarket(candidate?.market || candidate?.recommended_market || ""),
+    market: canonicalMarket(candidate?.market || candidate?.recommended_market || ""),
+    odd: candidate?.odds ?? candidate?.estimated_odds ?? null,
+    model_score: candidate?.model_score ?? candidate?.analysis_score ?? null,
+    analysis_score: candidate?.analysis_score ?? candidate?.model_score ?? null,
+    estimated_probability: candidate?.estimated_probability ?? null,
+    market_probability: candidate?.market_probability ?? null,
+    edge_percent: candidate?.edge_percent ?? null,
+    data_completeness: candidate?.data_completeness ?? null,
+    independent_evidence: candidate?.independent_evidence !== false,
+    risk_level: String(candidate?.risk_level || "Belirsiz"),
+    signals: Array.isArray(candidate?.signals) ? candidate.signals.map(String).filter(Boolean).slice(0, 4) : [],
+    specialist_source: String(candidate?.specialist_source || ""),
+    specialist_robot: String(candidate?.specialist_robot || "htft"),
+    specialist_decision: String(candidate?.specialist_decision || "keep"),
+    specialist_eligible: candidate?.specialist_eligible !== false,
+    specialist_quality_score: finite(candidate?.specialist_quality_score),
+  };
+}
+
+function annotateOptions(options, decisionMap, supplementalByMarket = new Map()) {
+  const rows = [];
+  const seen = new Set();
+
+  for (const candidate of supplementalByMarket.values()) {
+    const key = marketKey(candidate);
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    rows.push(compactPersistedCandidate(candidate));
+  }
+
+  for (const option of Array.isArray(options) ? options : []) {
+    const key = marketKey(option);
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    const decision = decisionMap.get(key);
+    rows.push(decision ? {
+      ...option,
+      specialist_robot: decision.specialist_robot,
+      specialist_source: decision.source || option.specialist_source,
+      specialist_decision: decision.decision,
+      specialist_eligible: decision.eligible,
+      specialist_quality_score: decision.quality_score,
+    } : option);
+  }
+
+  return rows;
+}
+
 function routeMatch(item, feeds = {}) {
   const baseCandidates = collectCandidates(item);
   const supplementalHtft = supplementalHtftCandidates(item, feeds.htftHighOdds);
-  const supplementalMarkets = new Set(supplementalHtft.map((row) => clean(row.market)));
+  const supplementalMarkets = new Set(supplementalHtft.map((row) => marketKey(row)));
   const candidates = [
     ...supplementalHtft,
-    ...baseCandidates.filter((row) => !supplementalMarkets.has(clean(row.market))),
+    ...baseCandidates.filter((row) => !supplementalMarkets.has(marketKey(row))),
   ];
 
-  const specialistOutputs = {
+  const detailedOutputs = {
     btts: runBttsSpecialist(item, candidates),
     goals: runGoalsSpecialist(item, candidates),
     htft: runHtftSpecialist(item, candidates),
     match_result: runMatchResultSpecialist(item, candidates),
   };
+
+  const specialistMarketDecisions = [];
+  const decisionMap = new Map();
+  for (const [specialistId, result] of Object.entries(detailedOutputs)) {
+    for (const candidate of Array.isArray(result?.candidates) ? result.candidates : []) {
+      const decision = compactDecision(candidate, specialistId);
+      const key = marketKey(decision.market);
+      if (!key) continue;
+
+      // "keep" is the default and does not need persistence. Persist only
+      // actionable gates plus verified supplemental HTFT provenance.
+      if (clean(decision.decision) !== "keep" || decision.source === "verified_high_odds_htft") {
+        decisionMap.set(key, decision);
+        specialistMarketDecisions.push(decision);
+      }
+    }
+  }
+
+  const supplementalEvaluated = new Map(
+    (Array.isArray(detailedOutputs.htft?.candidates) ? detailedOutputs.htft.candidates : [])
+      .filter((row) => row?.specialist_source === "verified_high_odds_htft")
+      .map((row) => [marketKey(row), row])
+  );
+
   return {
     ...item,
-    specialist_outputs: specialistOutputs,
+    analysis_options: annotateOptions(item?.analysis_options, decisionMap, supplementalEvaluated),
+    goal_market_candidates: annotateOptions(item?.goal_market_candidates, decisionMap),
+    specialist_outputs: Object.fromEntries(
+      Object.entries(detailedOutputs).map(([id, result]) => [id, compactOutput(result)])
+    ),
+    specialist_market_decisions: specialistMarketDecisions,
     specialist_router_version: VERSION,
   };
 }
@@ -110,9 +224,8 @@ function summarize(matches) {
       const result = match.specialist_outputs?.[id];
       candidates += Number(result?.candidate_count || 0);
       eligible += Number(result?.eligible_count || 0);
+      supplementalCandidates += Number(result?.supplemental_candidate_count || 0);
       if (result?.status === "ready") readyMatches += 1;
-      supplementalCandidates += (Array.isArray(result?.candidates) ? result.candidates : [])
-        .filter((row) => row.specialist_source === "verified_high_odds_htft").length;
     }
     summary.specialists[id] = {
       candidate_count: candidates,
@@ -135,6 +248,7 @@ function runOrchestrator(payload, feeds = {}) {
     matches,
     specialist_orchestrator: {
       version: VERSION,
+      persistence_mode: "compact_decisions_v1",
       generated_at: payload.generated_at || new Date().toISOString(),
       policy: "Ortak veri çekirdeği korunur; marketler ayrı uzman robotlara yönlendirilir; uzman katman ana olasılığı yükseltmez ve bloklanan adayı geri açmaz.",
       feeds: {
@@ -164,8 +278,11 @@ if (require.main === module) main();
 
 module.exports = {
   VERSION,
+  annotateOptions,
+  compactDecision,
   identityKeys,
   main,
+  marketKey,
   routeMatch,
   runOrchestrator,
   summarize,

@@ -19,14 +19,15 @@ assert.match(edge, /MAX_ROBOT_BYTES = 12 \* 1024 \* 1024/);
 assert.match(edge, /runtime_source: "supabase_edge"/);
 assert.match(edge, /source: "github-main robot-analysis protected Supabase projection"/);
 assert.match(edge, /TRUSTED = new Set/);
-assert.match(edge, /blockedSpecialistMarkets = new Set<string>\(\)/);
-assert.match(edge, /blockedSpecialistMarkets\.add\(key\)/);
-assert.match(edge, /blockedSpecialistMarkets\.has\(marketKey\(option\)\)/);
-assert.match(edge, /blockedSpecialistMarkets\.has\(marketKey\(primaryInput\)\)/);
+assert.match(edge, /specialist_market_decisions/);
+assert.match(edge, /decisionMap = new Map<string, AnyRow>\(\)/);
+assert.match(edge, /specialist_eligible === false/);
+assert.match(edge, /families\.add\("htft"\)/);
 assert.doesNotMatch(edge, /vercel\.app/);
 
 assert.match(exportSource, /analysis_options:/);
 assert.match(exportSource, /goal_market_candidates:/);
 assert.doesNotMatch(packageJson.scripts.build, /vercel-backend-sync\.test\.js/);
+assert.match(packageJson.scripts["validate:pro-source"], /validate-pro-source-size\.js/);
 
 console.log("pro-analysis-supabase-sync.test.js: OK");
