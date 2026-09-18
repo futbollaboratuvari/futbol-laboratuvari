@@ -173,6 +173,7 @@ function setCanonicalOdds(target, market) {
   assignMatching("goals6plus", [
     /^6 gol$/,
     /^6 plus$/,
+    /^6 plus gol$/,
     /^6 ve (ustu|uzeri)$/,
     /^6 veya daha fazla$/,
     /^6 daha fazla$/,
