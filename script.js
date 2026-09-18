@@ -158,6 +158,19 @@ const isCandidateItem = (item) => {
   return item.include_in_coupon || decision.includes("kupon") || decision.includes("izleme") || scoreNumber(item) >= 50;
 };
 
+const analysisTierRank = (item) => ({
+  coupon: 3,
+  pro_ready: 2,
+  watch: 1,
+  filtered: 0,
+}[String(item?.analysis_tier || "")] || 0);
+
+const isFeaturedAnalysis = (item) => {
+  const tier = String(item?.analysis_tier || "");
+  if (tier) return tier === "coupon" || tier === "pro_ready";
+  return isCandidateItem(item);
+};
+
 const getSignalsText = (item) => {
   const signals = proEvidence(item);
   if (Array.isArray(signals)) return signals.join("; ");
@@ -205,11 +218,12 @@ const proAnalysisCouponCard = (item) => {
   const risk = normalizeRisk(item);
   const status = item.status || "İzleme";
   const commentary = item.commentary || item.comment || item.analysis_note || "PRO robot yorumu bekleniyor.";
+  const kicker = item.analysis_tier === "coupon" ? "PRO Günün Seçimi" : "PRO Öne Çıkan Görüş";
   return `
     <article class="fl-pro-featured-card" data-risk="${proRiskTone(risk)}">
       <header class="fl-pro-card-topline">
         <div class="fl-pro-card-identity">
-          <span class="fl-pro-kicker">PRO Günün Seçimi</span>
+          <span class="fl-pro-kicker">${escapeHtml(kicker)}</span>
           <span class="fl-pro-league">${escapeHtml(item.league || "Lig bilgisi bekleniyor")}</span>
         </div>
         <div class="fl-pro-card-state">
@@ -221,6 +235,9 @@ const proAnalysisCouponCard = (item) => {
         <div class="fl-pro-featured-copy">
           <h3>${escapeHtml(normalizeTitle(item))}</h3>
           <p class="fl-pro-commentary">${escapeHtml(commentary)}</p>
+      ${item.coupon_filter_reason && item.analysis_tier !== "coupon"
+        ? `<p class="fl-pro-commentary"><strong>Filtre notu:</strong> ${escapeHtml(item.coupon_filter_reason)}</p>`
+        : ""}
           <dl class="fl-pro-featured-metrics">
             <div class="is-primary"><dt>Önerilen seçenek</dt><dd>${escapeHtml(normalizeMarket(item))}</dd></div>
             <div><dt>Önerilen oran</dt><dd>${escapeHtml(proNumberLabel(item.recommended_odd, 2))}</dd></div>
@@ -261,6 +278,9 @@ const analysisCommentCard = (item, index) => {
       </header>
       <h3>${escapeHtml(normalizeTitle(item))}</h3>
       <p class="fl-pro-commentary">${escapeHtml(commentary)}</p>
+      ${item.coupon_filter_reason && item.analysis_tier !== "coupon"
+        ? `<p class="fl-pro-commentary"><strong>Filtre notu:</strong> ${escapeHtml(item.coupon_filter_reason)}</p>`
+        : ""}
       <div class="fl-pro-selection-row">
         <div><span>Önerilen seçenek</span><strong>${escapeHtml(normalizeMarket(item))}</strong></div>
         <div><span>Model gücü</span><strong>${escapeHtml(proNumberLabel(score))}<small>/100</small></strong></div>
@@ -293,9 +313,16 @@ const normalizeProtectedProMatch = (item) => {
   const title = [item?.home, item?.away].filter(Boolean).join(" – ") || "PRO analiz";
   const commentary = signals.find((signal) => !/^(market|oran):/i.test(signal))
     || `${title} karşılaşması için korumalı PRO veri katmanları değerlendirildi.`;
-  const status = item?.include_in_coupon === true
+  const tier = String(item?.analysis_tier || "");
+  const status = tier === "coupon"
     ? "Kupona uygun"
-    : String(item?.value_label || "İzleme");
+    : tier === "pro_ready"
+      ? "PRO görüşü"
+      : tier === "watch"
+        ? "İzleme"
+        : item?.include_in_coupon === true
+          ? "Kupona uygun"
+          : String(item?.value_label || "İzleme");
   return {
     ...item,
     title,
@@ -304,7 +331,9 @@ const normalizeProtectedProMatch = (item) => {
     score: item?.model_score,
     risk: item?.risk_level || item?.data_gap_risk || "Belirsiz",
     status,
-    decision: item?.include_in_coupon === true ? "Kupon Adayı" : "İzleme",
+    decision: tier === "coupon" || item?.include_in_coupon === true
+      ? "Kupon Adayı"
+      : tier === "pro_ready" ? "PRO Görüşü" : "İzleme",
     commentary,
     pro_signals: signals,
   };
@@ -320,9 +349,11 @@ const protectedItemsFromIndex = (payload, now = Date.now()) => {
     })
     .map(normalizeProtectedProMatch)
     .filter(hasRealProSignals)
+    .filter((item) => item.analysis_visible !== false && !isBlockedMarket(item))
     .sort((left, right) => {
+      const tierOrder = analysisTierRank(right) - analysisTierRank(left);
       const couponOrder = Number(right.include_in_coupon === true) - Number(left.include_in_coupon === true);
-      return couponOrder || scoreNumber(right) - scoreNumber(left);
+      return tierOrder || couponOrder || scoreNumber(right) - scoreNumber(left);
     });
 };
 
@@ -589,8 +620,12 @@ const setSummary = (activeItems, source = "PRO analiz bekleniyor", bulletinPaylo
 };
 
 const renderProAnalysisCenter = (payload, bulletinPayload = null) => {
-  const visibleItems = (Array.isArray(payload?.active_items) ? payload.active_items : []).filter(hasRealProSignals);
-  const candidateItems = visibleItems.filter(isCandidateItem);
+  const visibleItems = (Array.isArray(payload?.active_items) ? payload.active_items : [])
+    .filter(hasRealProSignals)
+    .filter((item) => item.analysis_visible !== false && !isBlockedMarket(item));
+  const candidateItems = visibleItems
+    .filter(isFeaturedAnalysis)
+    .sort((left, right) => analysisTierRank(right) - analysisTierRank(left) || scoreNumber(right) - scoreNumber(left));
 
   if (analysisList) {
     analysisList.innerHTML = visibleItems.length
