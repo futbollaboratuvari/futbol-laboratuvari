@@ -120,6 +120,38 @@ test("kupon uygunluk bayrağı bütün kanıt ve value eşiklerini birlikte doğ
   assert.equal(verified.include_in_coupon, true);
 });
 
+test("AI Şeffaflık için doğrulanmış çoklu seçenekler projection içinde korunur", () => {
+  const row = compactMatch({
+    date: "2026-09-18",
+    home: "A",
+    away: "B",
+    market: "MS 1",
+    estimated_odds: 1.82,
+    model_score: 70,
+    estimated_probability: 58,
+    market_probability: 54,
+    data_completeness: 66,
+    independent_evidence: true,
+    analysis_options: [
+      { label: "İlk Yarı KG Var", odd: 2.45, model_score: 63, estimated_probability: 46, market_probability: 41, data_completeness: 61, independent_evidence: true },
+      { label: "İY KG / 2Y KG Hayır / Evet", odd: 3.60, model_score: 57, estimated_probability: 34, market_probability: 28, data_completeness: 58, independent_evidence: true },
+      { label: "2.5 Üst", odd: 1.88, model_score: 68, estimated_probability: 62, market_probability: 56, data_completeness: 70, independent_evidence: true },
+    ],
+    goal_market_candidates: [
+      { market: "3.5 Üst", odds: 2.35, model_score: 66, estimated_probability: 49, market_probability: 43, data_completeness: 72, specialist_decision: "keep", specialist_eligible: true },
+      { market: "6+ Gol", odds: 7.50, model_score: 59, estimated_probability: 17, market_probability: 13, data_completeness: 75, specialist_decision: "keep", specialist_eligible: true },
+      { market: "6+ Gol", odds: 6.80, model_score: 30, estimated_probability: 10, data_completeness: 25, specialist_decision: "block", specialist_eligible: false },
+    ],
+  }, {});
+  const markets = row.analysis_options.map((option) => option.market);
+  assert.ok(markets.includes("İlk Yarı KG Var"));
+  assert.ok(markets.includes("İY KG / 2Y KG Hayır / Evet"));
+  assert.ok(markets.includes("2.5 Üst"));
+  assert.ok(markets.includes("3.5 Üst"));
+  assert.ok(markets.includes("6+ Gol"));
+  assert.equal(row.analysis_options.filter((option) => option.market === "6+ Gol").length, 1);
+});
+
 test("kompakt metrikler büyük ham ve hafıza bloklarını dışarıda bırakır", () => {
   const metrics = compactMetrics({
     analysis_metrics: {
