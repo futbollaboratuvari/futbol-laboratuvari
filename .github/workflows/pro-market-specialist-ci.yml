@@ -1,9 +1,6 @@
 name: PRO Market Specialist CI
 
 on:
-  push:
-    branches:
-      - 'feat/pro-specialist-v4'
   pull_request:
     paths:
       - 'scripts/market-specialist-gates.js'
