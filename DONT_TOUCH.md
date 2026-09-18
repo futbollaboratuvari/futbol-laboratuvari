@@ -46,9 +46,9 @@ PRO Robot Futbol Laboratuvari'nin ucretli uyelik sisteminin ana analiz urunudur.
 
 Bu bolum Futbol Laboratuvari robot mimarisinin guncel ve sabit envanteridir. Yeni robot eklenmedikce toplam uzman robot sayisi degismez. Robotlarla ilgili yeni gelistirmelerde once bu bolum okunur.
 
-### Toplam uzman robot sayisi: 4
+### Toplam robot sayisi: 5
 
-Ortak PRO cekirdegi ve `robot-specialist-orchestrator-v3` ayri bir tahmin robotu sayilmaz. Bunlar dort uzman robotun ayni dogrulanmis veri altyapisini kullanmasini, marketlerin dogru uzmana yonlendirilmesini, block/downgrade/keep kararlarinin korunmasini ve sonuclarin tek PRO akisinda birlesmesini saglayan ortak beyin/orkestrasyon katmanidir.
+Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robotu`dur ve yalniz gercekten baslamis maclarda calisir. Ortak PRO cekirdegi ve `robot-specialist-orchestrator-v3` ayri bir tahmin robotu sayilmaz; ilk dort uzmani ayni dogrulanmis veri altyapisinda birlestiren ortak beyin/orkestrasyon katmanidir.
 
 1. **KG Uzmani (`btts`)**
    - Gorevi: Karsilikli Gol marketlerini analiz etmek.
@@ -72,6 +72,16 @@ Ortak PRO cekirdegi ve `robot-specialist-orchestrator-v3` ayri bir tahmin robotu
    - Kapsam: MS 1, MS X ve MS 2.
    - Temel kontrol: Ana model sinyali, dogrulanmis market/oran verisi, veri kapsamı, kaynak ve risk kontrolleri.
 
+5. **Canli Mac Analiz Robotu (`live-match-analysis`)**
+   - Gorevi: Yalniz gercekten canli olan maclari anlik saha ici verilerle analiz etmek.
+   - Kapsam: Mac yonu, sonraki gol egilimi, gol baski seviyesi, Team Power, Goal Power, momentum ve tek ana canli tahmin.
+   - Veri kaynagi: Supabase Edge Function `fl-live-match-analysis` merkezi olarak ESPN canli scoreboard istatistiklerini toplar. GitHub saniyelik veri kaynagi degildir.
+   - Calisma sikligi: Supabase Cron hedefi 10 saniyedir. Atomik collector kilidi ayni anda gereksiz cift provider sorgusunu engeller.
+   - Realtime: Son durum `public.live_match_state` tablosunda tutulur; `realtime.send` ile public `live-match-analysis` Broadcast kanalina kompakt snapshot delta yayini yapilir. Site Broadcast'i dinler; 30 saniyelik Supabase REST kontrolu ve 30 dakikalik GitHub statik snapshoti yalniz fallback'tir.
+   - Fail-closed kurali: Kaynak dogrulanmamis, snapshot gercek gozlem degil/interpolate edilmis, dakika cok erken, veri eski veya ortak istatistik kapsami yetersizse tahmin verilmez; kullaniciya bekleme nedeni gosterilir.
+   - Model guveni: Sonuc olasiligi degildir. Canli sinyallerin tutarlilik/veri guvenidir.
+   - Guvenlik: Browser yalniz publishable key + RLS ile current state okur; tabloya anon/authenticated yazma yetkisi yoktur. Collector yazimi Supabase backend secret key ile yapilir.
+
 ### Ortak beyin ve veri katmani
 
 - **PRO ortak cekirdegi:** Takim formu, mac intelligence, sakat/cezali-kadro verisi mevcutsa takim durumu, transfer/sezon etkileri, sonuc hafizasi, resmi/dogrulanmis oranlar, olasilik ve value/edge hesaplari gibi ortak girdileri hazirlar.
@@ -81,16 +91,36 @@ Ortak PRO cekirdegi ve `robot-specialist-orchestrator-v3` ayri bir tahmin robotu
 ### Robot sayisina dahil olmayan ancak robot sistemine bagli moduller
 
 - **AI Seffaflik Merkezi:** Robot degildir. Uzman robotlarin dogrulanmis analiz seceneklerini kullaniciya cesitli marketlerle gosteren gorunum/tuketici katmanidir.
-- **Canli Guc Motoru (Team Power + Goal Power):** Dort uzman tahmin robotundan bagimsiz canli guc motorudur. Uzman robot sayisina dahil edilmez.
+- **Canli Guc Motoru (Team Power + Goal Power):** Robot degildir; 5. Canli Mac Analiz Robotuna gozlenen saha ici sinyalleri saglayan veri/gorsellestirme motorudur.
 - **Spor Toto sistemi:** Haftalik 15 maclik ayri tahmin/veri akisidir. Uzman PRO robot sayisina dahil edilmez.
-- **High Odds HTFT generator/feed:** Ayrica besinci robot sayilmaz. IY/MS Uzmanini dogrulanmis resmi 1/2 ve 2/1 adaylariyla besleyen ozel veri/aday uretim katmanidir.
+- **High Odds HTFT generator/feed:** Ayrica altinci robot sayilmaz. IY/MS Uzmanini dogrulanmis resmi 1/2 ve 2/1 adaylariyla besleyen ozel veri/aday uretim katmanidir.
 
 ### Mimari sayim kurali
 
-- Resmi uzman robot sayisi: **4**.
+- Resmi toplam robot sayisi: **5**.
+- Mac oncesi PRO uzman robotlari: **4** (KG, Gol, IY/MS, Taraf).
+- Gercek zamanli canli robot: **1** (Canli Mac Analiz Robotu).
 - PRO ortak cekirdek + orkestrator: **1 ortak beyin katmani**, robot sayisina dahil degil.
-- Canli Guc, Spor Toto ve AI Seffaflik: ilgili urun/motor/gorunum katmanlari, dort uzman robotun sayimina dahil degil.
+- Canli Guc Motoru, Spor Toto ve AI Seffaflik: veri/motor/gorunum katmanlaridir; ayrica robot sayilmaz.
 - Yeni bir uzman robot eklenecekse bu toplam sayi, gorev tanimi, market kapsami, veri kaynagi, test ve canli dogrulama bilgisi bu dosyada guncellenmeden is tamamlanmis sayilmaz.
+
+## Canli Mac Analiz Robotu Islem Gunlugu
+
+### 2026-09-18 - Supabase Realtime Canli Mac Analiz Robotu V1
+
+- Amac: Canli Guc Motorunu yalniz grafik gosteren bir modul olmaktan cikarip, canli maclari ayri bir robotla analiz eden profesyonel gercek zamanli sisteme donusturmek.
+- Mimari: GitHub saniyelik runtime'dan cikarildi. GitHub Pages kod/deploy ve 30 dakikalik statik fallback icin kullanilir. Asil runtime Supabase Edge Function + Postgres state + Cron + Realtime Broadcast'tir.
+- Collector: `fl-live-match-analysis` Edge Function tek merkezi ESPN soccer scoreboard istegiyle gercekten canli maclari ve mevcut embedded istatistikleri toplar. Mac basina provider polling yapmaz.
+- Sikilik: Supabase Cron `fl-live-analysis-10s` her 10 saniyede collector'u cagirir. `claim_live_collect_slot` atomik kilidi cift/erken calismalari engeller.
+- State/Realtime: `public.live_match_state` tek current state kaydini tutar. Anon/authenticated yalniz SELECT yapabilir. Backend update sonrasi private trigger `realtime.send(..., 'snapshot', 'live-match-analysis', false)` ile kompakt delta yayini yapar.
+- Robot ciktilari: mac yonu, sonraki gol egilimi, gol baskisi, Team Power, Goal Power, momentum, ana canli tahmin, evidence/model guveni ve aciklayici sinyaller.
+- Fail-closed: minimum 8. dakika, minimum 3 ortak metrik / %37.5 kapsama, gercek observed snapshot ve taze veri zorunludur. Kosullar saglanmazsa `insufficient_data` / bekle sonucu uretilir.
+- UI: `live-power-center-v1.js` once Supabase REST current state'i yukler, sonra public Realtime Broadcast'i dinler. Realtime paket yuklenemezse 30 saniyelik Supabase REST safety refresh; Supabase de kullanilamazsa GitHub statik `live-power-series.json + live-match-analysis.json` fallback'i kullanilir.
+- Guvenlik: Browserda yalniz modern Supabase publishable key bulunur. Secret key kaynak koda girmez; Edge Function `SUPABASE_SECRET_KEYS` ortam degiskeninden admin client olusturur. Collector endpointi publishable-key kontrolu, server-only POST ve DB collector kilidi uygular.
+- Supabase production ilk kanit: `live_match_state` collector_version=`fl-live-match-analysis-v1`, status=`ok`, 31 ESPN canli event icinden 12 mac orneklendi ve ilk kontrolde 12/12 robot-ready oldu. Cron kosulari 10 saniyelik aralikta `succeeded` kaydi verdi.
+- Kaynak dosyalari: `supabase/functions/fl-live-match-analysis/index.ts`, `supabase/functions/fl-live-match-analysis/deno.json`, `supabase/sql/live-match-realtime-schema.sql`, `supabase/sql/live-match-realtime-cron.sql`, `scripts/live-match-analysis-robot.js`, `scripts/validate-live-match-analysis.js`, `live-power-center-v1.js`, `.github/workflows/live-power-series.yml`, `.github/workflows/live-match-analysis-ci.yml`, ilgili testler ve cache/deploy sozlesmesi.
+- Gelistirme dali: `feat/live-match-analysis-robot-20260918`. PR/CI/main/Pages/custom-domain kapanis bilgileri final dogrulama sonrasi bu kayda eklenecektir.
+- Geri alma: Realtime UI/collector katmani ayriktir. Supabase Realtime gecici kullanilamazsa 30 dakikalik mevcut GitHub snapshot sistemi kullanici ekranini veri yokmus gibi birakmadan fallback olarak devam eder.
 
 ## PRO Robot Islem Gunlugu
 
