@@ -63,12 +63,47 @@ const direct = buildProIndexFromPayload(robot, history);
 assert.equal(direct.source, "github-main robot-analysis protected runtime projection");
 assert.equal(direct.generated_at, robot.generated_at);
 assert.equal(direct.summary.match_count, 1);
+assert.equal(direct.summary.analysis_visible_count, 1);
 assert.equal(direct.summary.pro_ready_count, 1);
+assert.equal(direct.summary.watch_count, 0);
+assert.equal(direct.summary.filtered_count, 0);
 assert.equal(direct.summary.matchup_verified_count, 1);
 assert.equal(direct.matches[0].recommended_market, "3.5 Üst");
 assert.equal(direct.matches[0].model_score, 71);
+assert.equal(direct.matches[0].analysis_visible, true);
+assert.equal(direct.matches[0].analysis_tier, "pro_ready");
 assert.match(direct.matches[0].signals.join(" "), /Market uzman kapısı/);
 assert.equal(direct.calibration.measured_count, 1);
+
+
+const watchIndex = buildProIndexFromPayload({
+  ...robot,
+  matches: [{
+    ...robot.matches[0],
+    home: "İzleme Ev",
+    away: "İzleme Dep",
+    independent_evidence: false,
+    include_in_coupon: false,
+  }],
+}, history);
+assert.equal(watchIndex.matches[0].analysis_visible, true, "kupona uygun olmayan gerçek analiz görünür kalmalı");
+assert.equal(watchIndex.matches[0].analysis_tier, "watch");
+assert.match(watchIndex.matches[0].coupon_filter_reason, /Bağımsız veri kanıtı sınırlı/);
+
+const filteredIndex = buildProIndexFromPayload({
+  ...robot,
+  matches: [{
+    ...robot.matches[0],
+    home: "Filtresiz Ev",
+    away: "Filtresiz Dep",
+    recommended_market: "Değerli market yok",
+    model_score: 0,
+    data_completeness: 0,
+    independent_evidence: false,
+  }],
+}, history);
+assert.equal(filteredIndex.matches[0].analysis_visible, false, "gerçek market seçimi olmayan kayıt analiz listesine sızmamalı");
+assert.equal(filteredIndex.matches[0].analysis_tier, "filtered");
 
 
 const siteScript = fs.readFileSync(path.join(__dirname, "..", "script.js"), "utf8");
@@ -82,6 +117,11 @@ assert.match(
   siteScript,
   /const normalizeScore = \(item\) => item\.model_score \?\? item\.analysis_score/,
   "ana sayfa güncel protected PRO model_score alanını tanımalı",
+);
+assert.match(
+  siteScript,
+  /item\.analysis_visible !== false && !isBlockedMarket\(item\)/,
+  "ana sayfa kupon uygunluğundan bağımsız gerçek analiz görünürlüğünü korumalı",
 );
 assert.match(
   navRuntime,
@@ -134,6 +174,21 @@ function fakeResponse(payload, status = 200) {
   });
   assert.equal(noHistory.summary.match_count, 1, "kalibrasyon kaynağı geçici hatada olsa da güncel PRO maçları çalışmalı");
   assert.equal(noHistory.calibration.measured_count, 0);
+
+
+  resetRemoteProIndexCache();
+  const largeRobot = { ...robot, transport_padding: "x".repeat(5 * 1024 * 1024) };
+  const largePayload = await readRemoteProIndex({
+    ...options,
+    robotUrl: "robot://large-current",
+    fetchImpl: async (url) => {
+      if (url === "robot://large-current") return fakeResponse(largeRobot);
+      if (url === "history://current") return fakeResponse(history);
+      return fakeResponse({}, 404);
+    },
+  });
+  assert.equal(largePayload.summary.match_count, 1, "4 MB üstü güncel robot dosyası korumalı projection akışını kesmemeli");
+  assert.equal(largePayload.matches[0].analysis_visible, true);
 
   process.stdout.write("pro-index-from-github.test.js OK\n");
 })().catch((error) => {
