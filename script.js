@@ -117,19 +117,31 @@ const readJsonWithRetry = async (path, attempts = 3, validate = null) => {
   throw lastError || new Error(`${path} yüklenemedi`);
 };
 
+const proEvidence = (item) => [
+  item?.pro_signals,
+  item?.signals,
+  item?.evidence,
+  item?.layers,
+  item?.probability_source,
+].find((value) => (Array.isArray(value) ? value.length > 0 : Boolean(value))) || [];
+
 const hasRealProSignals = (item) => {
   if (!item || typeof item !== "object") return false;
-  const signals = item.pro_signals || item.signals || item.evidence || item.layers;
+  const signals = proEvidence(item);
   const hasSignals = Array.isArray(signals) ? signals.length > 0 : Boolean(signals);
-  const hasMarket = Boolean(item.market || item.prediction || item.decision);
-  const hasScore = Boolean(item.score || item.confidence || item.confidence_score);
+  const hasMarket = Boolean(item.recommended_market || item.market || item.prediction || item.decision);
+  const hasScore = [item.model_score, item.analysis_score, item.score, item.confidence, item.confidence_score]
+    .some((value) => value !== undefined && value !== null && value !== "");
   return hasSignals && hasMarket && hasScore;
 };
 
-const normalizeScore = (item) => item.score || item.confidence || item.confidence_score || "-";
-const normalizeRisk = (item) => item.risk || item.risk_level || "-";
-const normalizeMarket = (item) => item.market || item.prediction || item.decision || "-";
-const normalizeTitle = (item) => item.title || item.match || "PRO analiz";
+const normalizeScore = (item) => item.model_score ?? item.analysis_score ?? item.score ?? item.confidence ?? item.confidence_score ?? "-";
+const normalizeRisk = (item) => item.risk || item.risk_level || item.data_gap_risk || "-";
+const normalizeMarket = (item) => item.recommended_market || item.market || item.prediction || item.decision || "-";
+const normalizeTitle = (item) => item.title
+  || item.match
+  || [item.home, item.away].filter(Boolean).join(" – ")
+  || "PRO analiz";
 
 const scoreNumber = (item) => {
   const number = Number(String(normalizeScore(item)).replace("%", "").replace(",", "."));
@@ -147,7 +159,7 @@ const isCandidateItem = (item) => {
 };
 
 const getSignalsText = (item) => {
-  const signals = item.pro_signals || item.signals || item.evidence || item.layers || [];
+  const signals = proEvidence(item);
   if (Array.isArray(signals)) return signals.join("; ");
   return String(signals || "");
 };
@@ -274,7 +286,10 @@ const protectedMatchTimestamp = (item) => {
 };
 
 const normalizeProtectedProMatch = (item) => {
-  const signals = Array.isArray(item?.signals) ? item.signals.filter(Boolean).map(String) : [];
+  const rawSignals = Array.isArray(item?.signals) && item.signals.length
+    ? item.signals
+    : Array.isArray(item?.probability_source) ? item.probability_source : [];
+  const signals = rawSignals.filter(Boolean).map(String);
   const title = [item?.home, item?.away].filter(Boolean).join(" – ") || "PRO analiz";
   const commentary = signals.find((signal) => !/^(market|oran):/i.test(signal))
     || `${title} karşılaşması için korumalı PRO veri katmanları değerlendirildi.`;
