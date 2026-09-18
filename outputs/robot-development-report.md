@@ -1,6 +1,6 @@
 # Robot Gelişim Raporu
 
-Oluşturma: 2026-09-18T11:30:35.877Z
+Oluşturma: 2026-09-18T11:33:08.358Z
 Toplam tahmin: 1500
 Sonuçlanan: 326
 Bekleyen: 1174
