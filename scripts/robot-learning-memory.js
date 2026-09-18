@@ -137,6 +137,10 @@ function buildPrediction(item, date, liveMap) {
     data_completeness: numberOrNull(item.data_completeness) || 0,
     model_version: item.model_version || "",
     risk_level: item.risk_level || item.risk || "-",
+    predicted_score: item.predicted_score
+      || item.score_prediction
+      || (Array.isArray(item.expected_scores) ? item.expected_scores[0] : "")
+      || "",
     status: result,
     result_score: score || "",
     source: item.odds_source || item.source || "robot-analysis",
