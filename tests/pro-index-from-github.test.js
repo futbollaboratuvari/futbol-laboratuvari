@@ -32,6 +32,14 @@ const robot = {
       squad_risk_level: "Düşük",
       lineup_risk_level: "Orta",
       estimated_odds: 2.18,
+      analysis_options: [
+        { label: "İlk Yarı KG Var", odd: 2.45, model_score: 63, estimated_probability: 46, market_probability: 41, data_completeness: 61, independent_evidence: true },
+        { label: "İY KG / 2Y KG Hayır / Evet", odd: 3.60, model_score: 57, estimated_probability: 34, market_probability: 28, data_completeness: 58, independent_evidence: true },
+        { label: "2.5 Üst", odd: 1.88, model_score: 68, estimated_probability: 62, market_probability: 56, data_completeness: 70, independent_evidence: true },
+      ],
+      goal_market_candidates: [
+        { market: "6+ Gol", odds: 7.50, model_score: 59, estimated_probability: 17, market_probability: 13, data_completeness: 75, specialist_decision: "keep", specialist_eligible: true },
+      ],
       pro_signals: ["Market uzman kapısı doğrulandı"],
       team_intelligence: {
         squad_risk_level: "Düşük",
@@ -67,12 +75,17 @@ assert.equal(direct.summary.pro_ready_count, 1);
 assert.equal(direct.summary.matchup_verified_count, 1);
 assert.equal(direct.matches[0].recommended_market, "3.5 Üst");
 assert.equal(direct.matches[0].model_score, 71);
+assert.ok(direct.matches[0].analysis_options.some((option) => option.market === "İlk Yarı KG Var"));
+assert.ok(direct.matches[0].analysis_options.some((option) => option.market === "İY KG / 2Y KG Hayır / Evet"));
+assert.ok(direct.matches[0].analysis_options.some((option) => option.market === "2.5 Üst"));
+assert.ok(direct.matches[0].analysis_options.some((option) => option.market === "6+ Gol"));
 assert.match(direct.matches[0].signals.join(" "), /Market uzman kapısı/);
 assert.equal(direct.calibration.measured_count, 1);
 
 
 const siteScript = fs.readFileSync(path.join(__dirname, "..", "script.js"), "utf8");
 const navRuntime = fs.readFileSync(path.join(__dirname, "..", "nav-routing.js"), "utf8");
+const transparencyRuntime = fs.readFileSync(path.join(__dirname, "..", "analysis-insights-v1.js"), "utf8");
 assert.match(
   siteScript,
   /const normalizeMarket = \(item\) => item\.recommended_market \|\| item\.market/,
@@ -93,6 +106,14 @@ assert.equal(
   true,
   "AI Şeffaflık Merkezi modül dosyası repoda bulunmalı",
 );
+assert.match(transparencyRuntime, /half_btts_combo/, "Şeffaflık İY\/2Y KG kombinasyon ailesini tanımalı");
+assert.match(transparencyRuntime, /first_half_btts/, "Şeffaflık İlk Yarı KG ailesini tanımalı");
+assert.match(transparencyRuntime, /second_half_btts/, "Şeffaflık İkinci Yarı KG ailesini tanımalı");
+assert.match(transparencyRuntime, /six_plus/, "Şeffaflık 6+ Gol ailesini tanımalı");
+assert.match(transparencyRuntime, /over35/, "Şeffaflık 3.5 Üst ailesini tanımalı");
+assert.match(transparencyRuntime, /over25/, "Şeffaflık 2.5 Üst ailesini tanımalı");
+assert.match(transparencyRuntime, /match_result:\s*2/, "Şeffaflık maç sonucu ailesini 10 kartın tamamına yaymamalı");
+assert.match(transparencyRuntime, /analysis_options/, "Şeffaflık tek recommended_market yerine çoklu seçenek projection'ını okumalı");
 
 function fakeResponse(payload, status = 200) {
   const text = JSON.stringify(payload);
