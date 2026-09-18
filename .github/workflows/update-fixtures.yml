@@ -75,6 +75,13 @@ jobs:
         continue-on-error: true
         run: node scripts/import-robot-raw-pool.js
 
+      - name: Sync verified official Iddaa markets
+        continue-on-error: true
+        env:
+          IDDAA_DETAIL_LIMIT: "24"
+          IDDAA_DETAIL_CONCURRENCY: "4"
+        run: node scripts/sync-iddaa-markets.js
+
       - name: Rebuild bulletin after fixture import
         run: |
           node scripts/sync-spor-toto-weekly-program.js || true
