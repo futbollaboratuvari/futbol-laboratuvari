@@ -75,9 +75,160 @@
     return { score, parts };
   }
 
+  function marketFamily(value) {
+    const token = clean(value);
+    if (/iy kg 2y kg|ilk yari.*ikinci yari.*kg|1 yari.*2 yari.*kg/.test(token)) return "half_btts_combo";
+    if (/ilk yari kg|1 yari kg/.test(token)) return "first_half_btts";
+    if (/ikinci yari kg|2 yari kg/.test(token)) return "second_half_btts";
+    if (/6 gol|6 plus|6 ve ustu|6 veya daha fazla/.test(token)) return "six_plus";
+    if (/3 5 ust|over 3 5/.test(token)) return "over35";
+    if (/2 5 ust|over 2 5/.test(token)) return "over25";
+    if (/kg var|kg yok|btts|karsilikli gol/.test(token)) return "btts";
+    if (/^ms |mac sonucu/.test(token)) return "match_result";
+    return "other";
+  }
+
+  function optionFromPrimary(match) {
+    const odd = finite(match?.recommended_odd);
+    const probability = finite(match?.estimated_probability);
+    const score = finite(match?.model_score);
+    if (!match?.recommended_market || odd === null || probability === null || score === null) return null;
+    return {
+      market: match.recommended_market,
+      odd,
+      estimated_probability: probability,
+      market_probability: finite(match.market_probability),
+      edge_percent: finite(match.edge_percent),
+      model_score: score,
+      data_completeness: finite(match.data_completeness) || 0,
+      risk_level: match.risk_level || "Belirsiz",
+      independent_evidence: Boolean(match.independent_evidence),
+      source: "primary",
+      signals: Array.isArray(match.signals) ? match.signals : [],
+    };
+  }
+
+  function optionsFor(match) {
+    const rows = Array.isArray(match?.analysis_options) ? match.analysis_options.slice() : [];
+    const primary = optionFromPrimary(match);
+    if (primary) rows.push(primary);
+    const seen = new Set();
+    return rows
+      .filter((option) => {
+        const market = String(option?.market || option?.label || "").trim();
+        const odd = finite(option?.odd);
+        const probability = finite(option?.estimated_probability);
+        const score = finite(option?.model_score);
+        if (!market || odd === null || probability === null || score === null) return false;
+        if (option?.specialist_eligible === false || clean(option?.specialist_decision) === "block") return false;
+        if (option?.independent_evidence === false) return false;
+        if (score < 38) return false;
+        const key = clean(market);
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      })
+      .map((option) => ({ ...option, market: option.market || option.label, family: marketFamily(option.market || option.label) }))
+      .sort((a, b) => Number(b.model_score || 0) - Number(a.model_score || 0)
+        || Number(b.estimated_probability || 0) - Number(a.estimated_probability || 0));
+  }
+
+  function withTransparencyOption(match, option) {
+    if (!option) return match;
+    return {
+      ...match,
+      transparency_option: option,
+      recommended_market: option.market,
+      recommended_odd: finite(option.odd),
+      estimated_probability: finite(option.estimated_probability),
+      market_probability: finite(option.market_probability),
+      edge_percent: finite(option.edge_percent),
+      model_score: finite(option.model_score) ?? match.model_score,
+      data_completeness: finite(option.data_completeness) ?? match.data_completeness,
+      risk_level: option.risk_level || match.risk_level,
+      signals: Array.isArray(option.signals) && option.signals.length ? option.signals : match.signals,
+    };
+  }
+
   function topMatches(data) {
     if (!eligibility?.selectStrongestMatches) return [];
-    return eligibility.selectStrongestMatches(data?.matches, 10);
+    const base = eligibility.selectStrongestMatches(data?.matches, 30);
+    const candidates = [];
+    base.forEach((match) => {
+      optionsFor(match).forEach((option) => {
+        const familyBonus = ({
+          half_btts_combo: 1100,
+          first_half_btts: 1000,
+          second_half_btts: 950,
+          six_plus: 900,
+          over35: 850,
+          over25: 800,
+          btts: 650,
+          other: 400,
+          match_result: 120,
+        }[option.family] || 0);
+        candidates.push({
+          match,
+          option,
+          family: option.family,
+          score: familyBonus
+            + (Number(option.model_score || 0) * 10)
+            + (Number(option.data_completeness || 0) * 3)
+            + Number(option.estimated_probability || 0),
+        });
+      });
+    });
+
+    const selected = [];
+    const usedMatches = new Set();
+    const exactCounts = new Map();
+    const familyCounts = new Map();
+    const familyCaps = {
+      half_btts_combo: 2,
+      first_half_btts: 2,
+      second_half_btts: 2,
+      six_plus: 2,
+      over35: 2,
+      over25: 2,
+      btts: 2,
+      other: 2,
+      match_result: 2,
+    };
+    const preferredOrder = [
+      "half_btts_combo",
+      "first_half_btts",
+      "second_half_btts",
+      "six_plus",
+      "over35",
+      "over25",
+      "btts",
+      "match_result",
+    ];
+
+    const take = (candidate) => {
+      if (!candidate || usedMatches.has(String(candidate.match.id))) return false;
+      const exactKey = clean(candidate.option.market);
+      if ((exactCounts.get(exactKey) || 0) >= 2) return false;
+      if ((familyCounts.get(candidate.family) || 0) >= (familyCaps[candidate.family] || 2)) return false;
+      usedMatches.add(String(candidate.match.id));
+      exactCounts.set(exactKey, (exactCounts.get(exactKey) || 0) + 1);
+      familyCounts.set(candidate.family, (familyCounts.get(candidate.family) || 0) + 1);
+      selected.push(withTransparencyOption(candidate.match, candidate.option));
+      return true;
+    };
+
+    preferredOrder.forEach((family) => {
+      const candidate = candidates
+        .filter((row) => row.family === family && !usedMatches.has(String(row.match.id)))
+        .sort((a, b) => b.score - a.score)[0];
+      take(candidate);
+    });
+
+    for (const candidate of candidates.sort((a, b) => b.score - a.score)) {
+      if (selected.length >= 10) break;
+      take(candidate);
+    }
+    return selected.slice(0, 10);
   }
 
   function tierLabel(match) {
@@ -145,6 +296,7 @@
     const c = confidence(match);
     const metrics = match.metrics || {};
     const signals = Array.isArray(match.signals) ? match.signals.filter(Boolean) : [];
+    const availableOptions = optionsFor(match);
     const tier = tierLabel(match);
     const rawValues = [metrics.homeScoredLast10, metrics.awayScoredLast10, metrics.homeConcededLast10, metrics.awayConcededLast10]
       .map(finite).filter((v) => v !== null);
@@ -166,6 +318,7 @@
     ].filter(Boolean).join("");
 
     return `<div class="flai-detail-head"><div><small>${esc(tier.text)}</small><h3>${esc(match.home)} - ${esc(match.away)}</h3><p><b>${esc(match.recommended_market)}</b> · ${esc(match.data_quality || "Veri kalitesi belirtilmedi")}</p></div><div class="flai-big-score"><span>Bileşik değerlendirme</span><strong>${c.score}/100</strong><small>Sonuç olasılığı değildir</small></div></div>
+      ${availableOptions.length ? `<div class="flai-options"><strong>Robotun bu maçta gördüğü doğrulanmış seçenekler</strong><div>${availableOptions.slice(0, 8).map((option) => `<span class="${clean(option.market) === clean(match.recommended_market) ? "is-active" : ""}"><b>${esc(option.market)}</b><small>${esc(finite(option.odd) === null ? "oran —" : `oran ${finite(option.odd).toFixed(2)}`)} · ${esc(pct(option.estimated_probability))}</small></span>`).join("")}</div></div>` : ""}
       <div class="flai-detail-grid">
         <section><h4>AI neden bunu seçti?</h4>${signals.length ? `<ul>${signals.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>` : `<p class="flai-muted">Bu maç için açıklama sinyali henüz oluşmadı.</p>`}<div class="flai-riskline"><span>Kadro riski <b>${esc(match.squad_risk_level || "Belirsiz")}</b></span><span>İlk 11 riski <b>${esc(match.lineup_risk_level || "Belirsiz")}</b></span><span>İsimli oyuncu verisi <b>${esc(match.named_player_count ?? 0)}</b></span><span>Doğrulanmış takım <b>${esc(match.team_status_verified_count ?? 0)}/2</b></span></div></section>
         <section><h4>Güven bileşenleri</h4>${componentBars || `<p class="flai-muted">Bileşen verisi bekleniyor.</p>`}</section>
@@ -184,7 +337,7 @@
       .flai-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;padding:10px 24px}.flai-kpis article{padding:15px;border:1px solid rgba(255,255,255,.08);border-radius:15px;background:rgba(255,255,255,.035)}.flai-kpis span,.flai-kpis small{display:block;color:#8fa5b6;font-size:11px}.flai-kpis strong{display:block;margin:5px 0;font-size:24px;color:#fff}.flai-groups{display:flex;gap:8px;flex-wrap:wrap;padding:0 24px 18px}.flai-groups span{padding:7px 9px;border-radius:999px;background:#0e2a35;color:#d8fff0;font-size:11px}.flai-groups small{color:#7f9dab}
       .flai-body{display:grid;grid-template-columns:minmax(0,.9fr) minmax(360px,1.1fr);gap:14px;padding:0 24px 24px}.flai-list,.flai-detail{border:1px solid rgba(255,255,255,.08);border-radius:17px;background:rgba(0,0,0,.18);padding:12px}.flai-list-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:3px 3px 11px}.flai-list-head h3{margin:0;font-size:17px}.flai-list-head small{color:#7fa0b1}
       .flai-pick{position:relative;display:grid;grid-template-columns:34px minmax(0,1fr) 76px;gap:10px;align-items:center;padding:12px 10px 35px;margin:7px 0;border:1px solid rgba(255,255,255,.08);border-radius:13px;background:#0a1c28;cursor:pointer;transition:.18s ease}.flai-pick:hover,.flai-pick:focus,.flai-pick.is-open{outline:none;border-color:rgba(143,255,207,.58);transform:translateY(-1px);background:#0c2631}.flai-rank{display:grid;place-items:center;width:30px;height:30px;border-radius:9px;background:#122f3d;color:#8fffcf;font-weight:1000}.flai-pick-main small{display:block;color:#7893a4;font-size:10px}.flai-pick-main strong{display:block;margin:3px 0;color:#fff;font-size:13px}.flai-pick-main em{font-style:normal;color:#5f7d8c;font-size:10px}.flai-pick-main span{color:#8fffcf;font-size:12px;font-weight:900}.flai-score{text-align:right}.flai-score small,.flai-score span{display:block;color:#7893a4;font-size:9px}.flai-score strong{display:block;font-size:22px;color:#fff}.flai-meta{grid-column:2/4;display:flex;gap:6px;flex-wrap:wrap}.flai-meta span{padding:5px 7px;border-radius:7px;background:#102935;color:#91a9b6;font-size:9px}.flai-meta b{color:#fff}.flai-tier{position:absolute;left:54px;bottom:8px;padding:4px 7px;border-radius:999px;background:#132b37;color:#a9bdc8;font-size:8px;font-weight:1000}.flai-tier.is-coupon{background:#153c2c;color:#8fffcf}.flai-tier.is-pro{background:#18334b;color:#a9d7ff}.flai-tier.is-watch{background:#352d1b;color:#f2d58c}
-      .flai-empty{display:grid;place-items:center;min-height:300px;text-align:center;color:#7893a4;padding:30px}.flai-detail-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:5px 5px 12px}.flai-detail-head small{color:#7893a4}.flai-detail-head h3{margin:3px 0;font-size:20px}.flai-detail-head p{margin:0;color:#91a9b6;font-size:12px}.flai-detail-head p b{color:#8fffcf}.flai-big-score{min-width:118px;text-align:right}.flai-big-score span,.flai-big-score small{display:block;color:#7893a4;font-size:9px}.flai-big-score strong{display:block;color:#fff;font-size:24px}.flai-detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.flai-detail-grid section{padding:12px;border:1px solid rgba(255,255,255,.07);border-radius:13px;background:#091923}.flai-detail-grid h4{margin:0 0 9px;color:#eafff5;font-size:13px}.flai-detail-grid ul{margin:0;padding-left:17px;color:#b7cad5;font-size:11px;line-height:1.55}.flai-riskline{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-top:10px}.flai-riskline span{padding:6px;border-radius:8px;background:#0e2733;color:#86a1b1;font-size:9px}.flai-riskline b{display:block;color:#fff;margin-top:2px}
+      .flai-empty{display:grid;place-items:center;min-height:300px;text-align:center;color:#7893a4;padding:30px}.flai-detail-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:5px 5px 12px}.flai-options{margin:0 5px 12px;padding:10px;border:1px solid rgba(143,255,207,.12);border-radius:12px;background:#07151f}.flai-options>strong{display:block;margin-bottom:7px;color:#dfffee;font-size:11px}.flai-options>div{display:flex;gap:6px;flex-wrap:wrap}.flai-options span{display:flex;flex-direction:column;gap:2px;padding:6px 8px;border-radius:9px;background:#102530;border:1px solid rgba(255,255,255,.06);color:#b9cbd5;font-size:9px}.flai-options span.is-active{border-color:rgba(143,255,207,.5);background:#12352d;color:#eafff3}.flai-options small{color:#7f9aa8;font-size:8px}.flai-detail-head small{color:#7893a4}.flai-detail-head h3{margin:3px 0;font-size:20px}.flai-detail-head p{margin:0;color:#91a9b6;font-size:12px}.flai-detail-head p b{color:#8fffcf}.flai-big-score{min-width:118px;text-align:right}.flai-big-score span,.flai-big-score small{display:block;color:#7893a4;font-size:9px}.flai-big-score strong{display:block;color:#fff;font-size:24px}.flai-detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.flai-detail-grid section{padding:12px;border:1px solid rgba(255,255,255,.07);border-radius:13px;background:#091923}.flai-detail-grid h4{margin:0 0 9px;color:#eafff5;font-size:13px}.flai-detail-grid ul{margin:0;padding-left:17px;color:#b7cad5;font-size:11px;line-height:1.55}.flai-riskline{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-top:10px}.flai-riskline span{padding:6px;border-radius:8px;background:#0e2733;color:#86a1b1;font-size:9px}.flai-riskline b{display:block;color:#fff;margin-top:2px}
       .flai-bar-row{margin:8px 0}.flai-bar-row>div{display:flex;justify-content:space-between;gap:8px;font-size:10px;color:#9eb3c0}.flai-bar-row strong{color:#fff}.flai-bar-row i{display:block;height:7px;margin-top:4px;border-radius:99px;background:#122c38;overflow:hidden}.flai-bar-row i b{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#47d9a0,#a7ffd7)}.flai-bar-row small{display:block;margin-top:3px;color:#647f8f;font-size:8px}.flai-raw i b{background:linear-gradient(90deg,#5ca8ff,#a38bff)}.flai-note,.flai-muted{color:#718c9c;font-size:9px;line-height:1.45}.flai-note b{color:#fff}.flai-foot{padding:0 24px 22px;color:#6f8999;font-size:10px;line-height:1.5}.flai-foot b{color:#9edfc6}
       @media(max-width:980px){.flai-kpis{grid-template-columns:1fr 1fr}.flai-body{grid-template-columns:1fr}.flai-detail-grid{grid-template-columns:1fr 1fr}}
       @media(max-width:620px){.flai{margin:18px 8px;border-radius:16px}.flai-head{display:block;padding:18px 14px 10px}.flai-status{display:inline-block;margin-top:10px}.flai-kpis{padding:8px 14px;gap:7px}.flai-kpis article{padding:11px}.flai-kpis strong{font-size:19px}.flai-groups{padding:0 14px 12px}.flai-body{padding:0 14px 14px}.flai-detail-grid{grid-template-columns:1fr}.flai-pick{grid-template-columns:30px minmax(0,1fr) 64px;padding:10px 8px}.flai-meta{grid-column:1/4}.flai-foot{padding:0 14px 16px}}
@@ -216,9 +369,9 @@
     const selected = picks.find((m) => String(m.id) === state.selectedId) || picks[0] || null;
     if (selected) state.selectedId = String(selected.id);
 
-    root.innerHTML = `<div class="flai-head"><div><p>AI Şeffaflık Merkezi</p><h2>Güven, başarı ve neden tek ekranda</h2><span>Robotun seçimini yalnız yüzdeyle değil; gerçek geçmiş performans, veri kapsamı, model sinyali, piyasa farkı ve kadro/ilk 11 riskiyle birlikte gösterir.</span></div><span class="flai-status">${esc(data?.engine || "PRO veri akışı")}</span></div>
+    root.innerHTML = `<div class="flai-head"><div><p>AI Şeffaflık Merkezi</p><h2>Güven, başarı ve neden tek ekranda</h2><span>Robotun tek bir tarafa kilitlenmesini gizlemez; doğrulanmış İY KG, 2Y KG, İY/2Y KG, 2.5 Üst, 3.5 Üst, 6+ Gol, KG ve maç sonucu seçeneklerini çeşitlendirerek oran, olasılık, veri kapsamı ve gerekçeleriyle birlikte gösterir.</span></div><span class="flai-status">${esc(data?.engine || "PRO veri akışı")}</span></div>
       ${statsHtml(data)}
-      <div class="flai-body"><div class="flai-list"><div class="flai-list-head"><h3>Günün en güçlü tahminleri</h3><small>${esc(picks.length)} seçim</small></div>${picks.length ? picks.map(pickCard).join("") : `<div class="flai-empty">Bugün güven eşiğini geçen açıklanabilir PRO seçimi henüz oluşmadı.</div>`}</div><div class="flai-detail">${detailHtml(selected)}</div></div>
+      <div class="flai-body"><div class="flai-list"><div class="flai-list-head"><h3>Günün açıklanabilir seçenekleri</h3><small>${esc(picks.length)} farklı maç</small></div>${picks.length ? picks.map(pickCard).join("") : `<div class="flai-empty">Bugün güven eşiğini geçen açıklanabilir PRO seçimi henüz oluşmadı.</div>`}</div><div class="flai-detail">${detailHtml(selected)}</div></div>
       <div class="flai-foot"><b>Bileşik değerlendirme puanı sonuç olasılığı değildir.</b> Tahmini olasılığı; veri kapsamı, model sinyali, piyasa farkı ve kadro/ilk 11 riskleriyle birlikte açıklama amacıyla sunar. Dakika dakika takım gücü verisi mevcut değilse sistem böyle bir grafik uydurmaz; yalnız mevcut gerçek metrikleri gösterir.</div>`;
   }
 
