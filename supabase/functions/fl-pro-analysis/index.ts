@@ -146,6 +146,7 @@ function compactOption(item: AnyRow, source: string) {
   const probability = finite(item.estimated_probability ?? item.scenario_probability);
   const score = finite(item.model_score ?? item.analysis_score ?? item.confidence ?? item.model_confidence);
   if (!market || odd === null || probability === null || score === null) return null;
+  if (odd < 1.45) return null;
   return {
     market,
     odd,
@@ -358,16 +359,58 @@ function buildIndex(robot: AnyRow, history: AnyRow) {
   };
 }
 
+async function readLastGood() {
+  const { data } = await db.from("pro_analysis_cache")
+    .select("payload,source_generated_at,source_sha,updated_at")
+    .eq("cache_key", "current")
+    .maybeSingle();
+  return data || null;
+}
+
+function hasCurrentMatches(value: any) {
+  const today = todayTR();
+  return Boolean(value && Array.isArray(value.matches)
+    && value.matches.some((item: AnyRow) => String(item?.date || "").slice(0, 10) >= today));
+}
+
+async function saveLastGood(value: any) {
+  const { error } = await db.from("pro_analysis_cache").upsert({
+    cache_key: "current",
+    payload: value,
+    source_generated_at: value?.generated_at || null,
+    source_sha: String(value?.generated_at || value?.date || ""),
+    updated_at: new Date().toISOString(),
+  }, { onConflict: "cache_key" });
+  if (error) console.error("pro_analysis_cache_upsert", error.message);
+}
+
 async function loadIndex() {
   const now = Date.now();
   if (cache.value && now < cache.expiresAt) return cache.value;
   if (cache.promise) return cache.promise;
+
   cache.promise = (async () => {
-    const robot = await fetchJson(ROBOT_URL, MAX_ROBOT_BYTES);
-    let history: AnyRow = {};
-    try { history = await fetchJson(HISTORY_URL, MAX_HISTORY_BYTES); } catch { history = {}; }
-    return buildIndex(robot, history);
+    try {
+      const robot = await fetchJson(ROBOT_URL, MAX_ROBOT_BYTES);
+      let history: AnyRow = {};
+      try { history = await fetchJson(HISTORY_URL, MAX_HISTORY_BYTES); } catch { history = {}; }
+      const value = { ...buildIndex(robot, history), runtime_source: "github_main_fresh" };
+      await saveLastGood(value);
+      return value;
+    } catch (freshError) {
+      const stored = await readLastGood();
+      if (stored?.payload && hasCurrentMatches(stored.payload)) {
+        return {
+          ...stored.payload,
+          runtime_source: "supabase_last_good_cache",
+          source_warning: "fresh_source_temporarily_unavailable",
+          cache_updated_at: stored.updated_at || null,
+        };
+      }
+      throw freshError;
+    }
   })();
+
   try {
     const value = await cache.promise;
     cache.value = value;
