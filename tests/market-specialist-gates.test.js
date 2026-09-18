@@ -11,7 +11,7 @@ const {
 } = require("../scripts/market-specialist-gates");
 const { selectHtftPicks } = require("../scripts/pro-market-specialist-postprocess");
 
-assert.equal(VERSION, "market-specialist-gates-v3");
+assert.equal(VERSION, "market-specialist-gates-v4");
 
 function memory(home, away) {
   return {
@@ -186,6 +186,9 @@ function memory(home, away) {
     openness: 0.60,
     dataCompleteness: 72,
     scenarioProbability: 4.2,
+    bookmakerOdds: 18.0,
+    firstHalfDirectionProbability: 32,
+    fullTimeDirectionProbability: 34,
     oddsVerified: true,
     identityScore: 100,
     identitySource: "date_teams",
@@ -222,6 +225,9 @@ function memory(home, away) {
     openness: 0.49,
     dataCompleteness: 60,
     scenarioProbability: 3.1,
+    bookmakerOdds: 18.0,
+    firstHalfDirectionProbability: 30,
+    fullTimeDirectionProbability: 30,
     oddsVerified: true,
     identityScore: 82,
     identitySource: "date_time_team_similarity",
@@ -267,6 +273,8 @@ function memory(home, away) {
     openness_score: 0.64,
     data_completeness: 80,
     scenario_probability: 5.2,
+    first_half_direction_probability: 32,
+    full_time_direction_probability: 34,
     identity_match_score: 100,
     identity_match_source: "date_teams",
     risk_level: "Yüksek",
@@ -295,7 +303,7 @@ function memory(home, away) {
 
 process.stdout.write("market-specialist-gates tests passed\n");
 
-(function v3GoalConsensusBlocksMarketContradiction() {
+(function v4GoalConsensusBlocksMarketContradiction() {
   const blocked = goalMarketAdjustment({
     market: "6+ Gol",
     totalLambda: 4.2,
@@ -319,7 +327,7 @@ process.stdout.write("market-specialist-gates tests passed\n");
   assert.equal(strong.eligible, true);
 })();
 
-(function v3HtftRequiresDirectionalAndValueCoherence() {
+(function v4HtftRequiresDirectionalAndValueCoherence() {
   const poorValue = htftAdjustment({
     market: "1/2",
     firstHalfSource: "official_iddaa_first_half",
@@ -370,7 +378,7 @@ process.stdout.write("market-specialist-gates tests passed\n");
   assert.ok(coherent.value_ratio >= 0.7);
 })();
 
-(function v3SixPlusMissingCrossMarketConsensusDowngrades() {
+(function v4SixPlusMissingCrossMarketConsensusDowngrades() {
   const result = goalMarketAdjustment({
     market: "6+ Gol",
     totalLambda: 4.3,
@@ -380,4 +388,40 @@ process.stdout.write("market-specialist-gates tests passed\n");
   });
   assert.equal(result.decision, "downgrade");
   assert.equal(result.eligible, true);
+  assert.ok(result.quality_score < 100);
+  assert.equal(result.evidence_known_count, 4);
+  assert.ok(result.missing_evidence.includes("çapraz gol mutabakatı"));
+})();
+
+(function v4HtftMissingDirectionalEvidenceFailsClosed() {
+  const result = htftAdjustment({
+    market: "1/2",
+    firstHalfSource: "official_iddaa_first_half",
+    firstHalfVerified: true,
+    openness: 0.64,
+    dataCompleteness: 82,
+    scenarioProbability: 5.2,
+    bookmakerOdds: 18.0,
+    fullTimeDirectionProbability: 35,
+    oddsVerified: true,
+    identityScore: 100,
+    identitySource: "date_teams",
+  });
+  assert.equal(result.decision, "block");
+  assert.equal(result.eligible, false);
+  assert.ok(result.quality_score <= 40);
+  assert.ok(result.missing_evidence.includes("ilk yarı yön olasılığı"));
+})();
+
+(function v4DowngradeCapsQualityScore() {
+  const result = goalMarketAdjustment({
+    market: "6+ Gol",
+    totalLambda: 3.5,
+    over35Rate: 55,
+    dataCompleteness: 90,
+    completeRange: true,
+    goalConsensus: 0.58,
+  });
+  assert.equal(result.decision, "downgrade");
+  assert.ok(result.quality_score <= 70);
 })();
