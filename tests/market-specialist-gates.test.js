@@ -369,3 +369,15 @@ process.stdout.write("market-specialist-gates tests passed\n");
   assert.equal(coherent.decision, "keep");
   assert.ok(coherent.value_ratio >= 0.7);
 })();
+
+(function v3SixPlusMissingCrossMarketConsensusDowngrades() {
+  const result = goalMarketAdjustment({
+    market: "6+ Gol",
+    totalLambda: 4.3,
+    over35Rate: 60,
+    dataCompleteness: 90,
+    completeRange: true,
+  });
+  assert.equal(result.decision, "downgrade");
+  assert.equal(result.eligible, true);
+})();
