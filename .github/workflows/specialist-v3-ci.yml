@@ -1,0 +1,44 @@
+name: Specialist V3 CI
+
+on:
+  push:
+    branches:
+      - feat/pro-specialist-v3
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    strategy:
+      matrix:
+        node: [20, 24]
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts
+            tests
+            pro-coupon-eligibility.js
+            package.json
+          sparse-checkout-cone-mode: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Syntax
+        run: |
+          node --check scripts/market-specialist-gates.js
+          node --check scripts/pro-market-specialist-postprocess.js
+      - name: Specialist V3
+        run: |
+          node tests/market-specialist-gates.test.js
+          node tests/pro-goal-market-bridge.test.js
+          node tests/high-odds-htft.test.js
+      - name: PRO regressions
+        run: |
+          node tests/pro-coupon-eligibility.test.js
+          node tests/pre-match-final-check.test.js
+          node tests/official-btts-pro.test.js
