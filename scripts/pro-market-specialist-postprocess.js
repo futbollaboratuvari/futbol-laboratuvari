@@ -82,6 +82,30 @@ function specialistContext(item) {
   };
 }
 
+function impliedOdd(value) {
+  const odd = finite(value);
+  return odd && odd > 1 ? 1 / odd : null;
+}
+
+function pairShare(yesOdd, noOdd) {
+  const yes = impliedOdd(yesOdd);
+  const no = impliedOdd(noOdd);
+  if (!yes || !no) return null;
+  return yes / (yes + no);
+}
+
+function goalConsensus(item) {
+  const odds = item?.available_odds || item?.odds || {};
+  const overShare = pairShare(odds.over25, odds.under25);
+  const bttsShare = pairShare(odds.bttsYes, odds.bttsNo);
+  const values = [];
+  if (overShare !== null) values.push({ value: overShare, weight: 0.65 });
+  if (bttsShare !== null) values.push({ value: bttsShare, weight: 0.35 });
+  if (!values.length) return null;
+  const total = values.reduce((sum, row) => sum + row.weight, 0);
+  return values.reduce((sum, row) => sum + row.value * row.weight, 0) / total;
+}
+
 function goalContext(item, candidate) {
   const rangeOdds = ["goals01", "goals23", "goals45"].map((name) => findMarketOdd([item], name));
   return {
@@ -90,6 +114,7 @@ function goalContext(item, candidate) {
     over35Rate: averageMemoryOver35(item),
     dataCompleteness: finite(candidate?.data_completeness),
     completeRange: rangeOdds.every((value) => value !== null),
+    goalConsensus: goalConsensus(item),
     ...specialistContext(item),
   };
 }
@@ -298,6 +323,9 @@ function specializeHtftPick(pick, raw = {}) {
     openness: finite(pick.openness_score) ?? htftOpenness(raw),
     dataCompleteness: pick.data_completeness,
     scenarioProbability: pick.scenario_probability,
+    bookmakerOdds: pick.bookmaker_odds,
+    firstHalfDirectionProbability: pick.first_half_direction_probability,
+    fullTimeDirectionProbability: pick.full_time_direction_probability,
     identityScore: pick.identity_match_score,
     identitySource: pick.identity_match_source,
     oddsVerified: pick.odds_verified === true,
@@ -370,16 +398,16 @@ function processHtftOutput() {
     htft_picks_checked: evaluated.length,
     htft_picks_rejected: rejected.length,
     htft_picks_eligible: evaluated.length - rejected.length,
-    selection_policy: "Tüm doğrulanmış adaylar uzman v2 kapısından geçer; sonra en iyi 3 benzersiz maç seçilir.",
-    probability_policy: "Senaryo olasılığı değiştirilmez; uzman v2 yalnız doğrulanmış sinyallerle keep/downgrade/block kararı verir.",
+    selection_policy: "Tüm doğrulanmış adaylar uzman v3 kapısından geçer; sonra en iyi 3 benzersiz maç seçilir.",
+    probability_policy: "Senaryo olasılığı değiştirilmez; uzman v3 yalnız doğrulanmış sinyallerle keep/downgrade/block kararı verir.",
   };
   output.selected_count = output.picks.length;
   if (output.picks.length >= 2) {
     output.status = "ready";
-    output.message = "Uzman V2 kalite kapısından geçen en güçlü 1/2 ve 2/1 adayları resmî İddaa oranlarıyla seçildi.";
+    output.message = "Uzman V3 kalite kapısından geçen en güçlü 1/2 ve 2/1 adayları resmî İddaa oranlarıyla seçildi.";
   } else if (evaluated.length >= 2) {
     output.status = "insufficient_specialist_quality";
-    output.message = "Resmî yüksek oranlı İY/MS adayları bulundu ancak uzman V2 kalite kapısından yeterli seçim geçmedi.";
+    output.message = "Resmî yüksek oranlı İY/MS adayları bulundu ancak uzman V3 kalite kapısından yeterli seçim geçmedi.";
   }
   writeJson(htftPath, output);
   return { updated: true, pick_count: output.picks.length, checked_count: evaluated.length, rejected_count: rejected.length };

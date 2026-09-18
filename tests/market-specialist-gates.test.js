@@ -11,7 +11,7 @@ const {
 } = require("../scripts/market-specialist-gates");
 const { selectHtftPicks } = require("../scripts/pro-market-specialist-postprocess");
 
-assert.equal(VERSION, "market-specialist-gates-v2");
+assert.equal(VERSION, "market-specialist-gates-v3");
 
 function memory(home, away) {
   return {
@@ -73,6 +73,7 @@ function memory(home, away) {
     over35Rate: 55,
     dataCompleteness: 65,
     completeRange: false,
+    goalConsensus: 0.40,
   });
   assert.equal(weak.decision, "block");
   assert.equal(weak.eligible, false);
@@ -85,6 +86,7 @@ function memory(home, away) {
     over35Rate: 48,
     dataCompleteness: 78,
     completeRange: true,
+    goalConsensus: 0.53,
   });
   assert.equal(borderline.decision, "downgrade");
   assert.equal(borderline.eligible, true);
@@ -97,6 +99,7 @@ function memory(home, away) {
     over35Rate: 58,
     dataCompleteness: 90,
     completeRange: true,
+    goalConsensus: 0.62,
     preMatchDecision: "keep",
     sourceConflict: "none",
     lineupRisk: "Düşük",
@@ -105,7 +108,7 @@ function memory(home, away) {
   assert.equal(strong.decision, "keep");
   assert.equal(strong.delta, 0);
   assert.equal(strong.eligible, true);
-  assert.equal(strong.support_count, 4);
+  assert.equal(strong.support_count, 5);
   assert.equal(strong.quality_score, 100);
 })();
 
@@ -291,3 +294,90 @@ function memory(home, away) {
 })();
 
 process.stdout.write("market-specialist-gates tests passed\n");
+
+(function v3GoalConsensusBlocksMarketContradiction() {
+  const blocked = goalMarketAdjustment({
+    market: "6+ Gol",
+    totalLambda: 4.2,
+    over35Rate: 58,
+    dataCompleteness: 88,
+    completeRange: true,
+    goalConsensus: 0.40,
+  });
+  assert.equal(blocked.decision, "block");
+  assert.equal(blocked.eligible, false);
+
+  const strong = goalMarketAdjustment({
+    market: "6+ Gol",
+    totalLambda: 4.2,
+    over35Rate: 58,
+    dataCompleteness: 88,
+    completeRange: true,
+    goalConsensus: 0.62,
+  });
+  assert.equal(strong.decision, "keep");
+  assert.equal(strong.eligible, true);
+})();
+
+(function v3HtftRequiresDirectionalAndValueCoherence() {
+  const poorValue = htftAdjustment({
+    market: "1/2",
+    firstHalfSource: "official_iddaa_first_half",
+    firstHalfVerified: true,
+    openness: 0.62,
+    dataCompleteness: 80,
+    scenarioProbability: 3.0,
+    bookmakerOdds: 12.0,
+    firstHalfDirectionProbability: 34,
+    fullTimeDirectionProbability: 34,
+    oddsVerified: true,
+    identityScore: 100,
+    identitySource: "date_teams",
+  });
+  assert.equal(poorValue.decision, "block");
+
+  const weakDirection = htftAdjustment({
+    market: "2/1",
+    firstHalfSource: "official_iddaa_first_half",
+    firstHalfVerified: true,
+    openness: 0.62,
+    dataCompleteness: 80,
+    scenarioProbability: 4.8,
+    bookmakerOdds: 14.0,
+    firstHalfDirectionProbability: 20,
+    fullTimeDirectionProbability: 36,
+    oddsVerified: true,
+    identityScore: 100,
+    identitySource: "date_teams",
+  });
+  assert.equal(weakDirection.decision, "block");
+
+  const coherent = htftAdjustment({
+    market: "2/1",
+    firstHalfSource: "official_iddaa_first_half",
+    firstHalfVerified: true,
+    openness: 0.62,
+    dataCompleteness: 80,
+    scenarioProbability: 5.5,
+    bookmakerOdds: 14.0,
+    firstHalfDirectionProbability: 32,
+    fullTimeDirectionProbability: 35,
+    oddsVerified: true,
+    identityScore: 100,
+    identitySource: "date_teams",
+  });
+  assert.equal(coherent.decision, "keep");
+  assert.ok(coherent.value_ratio >= 0.7);
+})();
+
+(function v3SixPlusMissingCrossMarketConsensusDowngrades() {
+  const result = goalMarketAdjustment({
+    market: "6+ Gol",
+    totalLambda: 4.3,
+    over35Rate: 60,
+    dataCompleteness: 90,
+    completeRange: true,
+  });
+  assert.equal(result.decision, "downgrade");
+  assert.equal(result.eligible, true);
+})();

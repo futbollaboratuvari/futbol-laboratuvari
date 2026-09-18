@@ -1,6 +1,6 @@
 "use strict";
 
-const VERSION = "market-specialist-gates-v2";
+const VERSION = "market-specialist-gates-v3";
 
 function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
@@ -213,18 +213,21 @@ function goalSupport(context, market) {
   const over35Rate = finite(context.over35Rate);
   const dataCompleteness = finite(context.dataCompleteness);
   const completeRange = context.completeRange === true;
+  const goalConsensus = finite(context.goalConsensus);
   const checks = market === "6+ Gol"
     ? [
       { name: "Poisson", ok: totalLambda !== null && totalLambda >= 3.6 },
       { name: "3.5+ geçmiş eğilimi", ok: over35Rate !== null && over35Rate >= 45 },
       { name: "veri kapsamı", ok: dataCompleteness !== null && dataCompleteness >= 75 },
       { name: "gol aralığı fiyat seti", ok: completeRange },
+      { name: "çapraz gol mutabakatı", ok: goalConsensus !== null && goalConsensus >= 0.56 },
     ]
     : [
       { name: "Poisson", ok: totalLambda !== null && totalLambda >= 3.0 },
       { name: "3.5+ geçmiş eğilimi", ok: over35Rate !== null && over35Rate >= 40 },
       { name: "veri kapsamı", ok: dataCompleteness !== null && dataCompleteness >= 65 },
       { name: "karşı/fiyat seti", ok: completeRange || context.completeRange === undefined },
+      { name: "çapraz gol mutabakatı", ok: goalConsensus === null || goalConsensus >= 0.48 },
     ];
   return {
     count: checks.filter((row) => row.ok).length,
@@ -240,6 +243,7 @@ function goalMarketAdjustment(context = {}) {
   const over35Rate = finite(context.over35Rate);
   const dataCompleteness = finite(context.dataCompleteness);
   const completeRange = context.completeRange;
+  const goalConsensus = finite(context.goalConsensus);
   const preMatchDecision = normalizedDecision(context.preMatchDecision);
   const sourceConflict = normalizedConflict(context.sourceConflict);
   const lineupRisk = normalizedRisk(context.lineupRisk);
@@ -259,7 +263,7 @@ function goalMarketAdjustment(context = {}) {
       quality_score: 100,
       support_count: 0,
       support_total: 0,
-      mode: "extreme_goal_market_gate_v2",
+      mode: "extreme_goal_market_gate_v3",
       reasons: ["Gol uzman kapısı uygulanmadı."],
     };
   }
@@ -295,6 +299,13 @@ function goalMarketAdjustment(context = {}) {
       decision = strongestDecision(decision, "downgrade");
       reasons.push(`3.5 Üst için veri kapsamı düşük (%${Math.round(dataCompleteness)}).`);
     }
+    if (goalConsensus !== null && goalConsensus < 0.38) {
+      decision = strongestDecision(decision, "block");
+      reasons.push(`Çapraz gol mutabakatı ${Math.round(goalConsensus * 100)}/100; 3.5 Üst ile güçlü çelişki var.`);
+    } else if (goalConsensus !== null && goalConsensus < 0.48) {
+      decision = strongestDecision(decision, "downgrade");
+      reasons.push(`Çapraz gol mutabakatı ${Math.round(goalConsensus * 100)}/100; 3.5 Üst için sınırlı destek.`);
+    }
     if (support.count < 2) {
       decision = strongestDecision(decision, "downgrade");
       reasons.push(`3.5 Üst yalnız ${support.count}/${support.total} bağımsız destek koşulunu sağladı.`);
@@ -328,6 +339,16 @@ function goalMarketAdjustment(context = {}) {
     } else if (dataCompleteness !== null && dataCompleteness < 75) {
       decision = strongestDecision(decision, "downgrade");
       reasons.push(`6+ Gol için veri kapsamı düşük (%${Math.round(dataCompleteness)}).`);
+    }
+    if (goalConsensus === null) {
+      decision = strongestDecision(decision, "downgrade");
+      reasons.push("6+ Gol için doğrulanmış 2.5/KG çapraz piyasa mutabakatı oluşmadı.");
+    } else if (goalConsensus < 0.44) {
+      decision = strongestDecision(decision, "block");
+      reasons.push(`Çapraz gol mutabakatı ${Math.round(goalConsensus * 100)}/100; piyasa 6+ Gol ile güçlü biçimde çelişiyor.`);
+    } else if (goalConsensus < 0.52) {
+      decision = strongestDecision(decision, "downgrade");
+      reasons.push(`Çapraz gol mutabakatı ${Math.round(goalConsensus * 100)}/100; 6+ Gol için zayıf.`);
     }
     if (support.count < 2) {
       decision = strongestDecision(decision, "block");
@@ -363,7 +384,7 @@ function goalMarketAdjustment(context = {}) {
     support_count: support.count,
     support_total: support.total,
     support_checks: support.checks,
-    mode: "extreme_goal_market_gate_v2",
+    mode: "extreme_goal_market_gate_v3",
     reasons: reasons.length ? reasons : [`Gol uzman kapısı ${support.count}/${support.total} destek ile ek çelişki bulmadı.`],
   };
 }
@@ -406,6 +427,11 @@ function htftAdjustment(context = {}) {
   const identityScore = finite(context.identityScore);
   const identitySource = String(context.identitySource || "");
   const oddsVerified = context.oddsVerified === true;
+  const bookmakerOdds = finite(context.bookmakerOdds);
+  const firstHalfDirectionProbability = finite(context.firstHalfDirectionProbability);
+  const fullTimeDirectionProbability = finite(context.fullTimeDirectionProbability);
+  const impliedProbability = bookmakerOdds && bookmakerOdds > 1 ? 100 / bookmakerOdds : null;
+  const valueRatio = impliedProbability && scenarioProbability !== null ? scenarioProbability / impliedProbability : null;
   const preMatchDecision = normalizedDecision(context.preMatchDecision);
   const sourceConflict = normalizedConflict(context.sourceConflict);
   const lineupRisk = normalizedRisk(context.lineupRisk);
@@ -422,7 +448,7 @@ function htftAdjustment(context = {}) {
       decision: "keep",
       eligible: true,
       quality_score: 100,
-      mode: "htft_reversal_gate_v2",
+      mode: "htft_reversal_gate_v3",
       reasons: ["İY/MS uzman kapısı uygulanmadı."],
     };
   }
@@ -459,6 +485,18 @@ function htftAdjustment(context = {}) {
     decision = strongestDecision(decision, "block");
     reasons.push(`Ters sonuç senaryo olasılığı yalnız %${scenarioProbability.toFixed(1)}.`);
   }
+  if (firstHalfDirectionProbability !== null && firstHalfDirectionProbability < 22) {
+    decision = strongestDecision(decision, "block");
+    reasons.push(`İlk yarı yön olasılığı yalnız %${firstHalfDirectionProbability.toFixed(1)}.`);
+  }
+  if (fullTimeDirectionProbability !== null && fullTimeDirectionProbability < 22) {
+    decision = strongestDecision(decision, "block");
+    reasons.push(`Maç sonu ters yön olasılığı yalnız %${fullTimeDirectionProbability.toFixed(1)}.`);
+  }
+  if (valueRatio !== null && valueRatio < 0.45) {
+    decision = strongestDecision(decision, "block");
+    reasons.push(`Senaryo olasılığı resmî oranın ima ettiği olasılığın yalnız %${Math.round(valueRatio * 100)}'i; value uyumu yok.`);
+  }
 
   if (openness !== null && openness < 0.55) {
     decision = strongestDecision(decision, "downgrade");
@@ -471,6 +509,18 @@ function htftAdjustment(context = {}) {
   if (scenarioProbability !== null && scenarioProbability < 3.5) {
     decision = strongestDecision(decision, "downgrade");
     reasons.push(`Ters sonuç senaryo olasılığı %${scenarioProbability.toFixed(1)}; uzman güveni düşürüldü.`);
+  }
+  if (firstHalfDirectionProbability !== null && firstHalfDirectionProbability < 28) {
+    decision = strongestDecision(decision, "downgrade");
+    reasons.push(`İlk yarı yön desteği sınırlı (%${firstHalfDirectionProbability.toFixed(1)}).`);
+  }
+  if (fullTimeDirectionProbability !== null && fullTimeDirectionProbability < 28) {
+    decision = strongestDecision(decision, "downgrade");
+    reasons.push(`Maç sonu ters yön desteği sınırlı (%${fullTimeDirectionProbability.toFixed(1)}).`);
+  }
+  if (valueRatio !== null && valueRatio < 0.70) {
+    decision = strongestDecision(decision, "downgrade");
+    reasons.push(`Senaryo/value oranı ${valueRatio.toFixed(2)}; yüksek oran cazibesine karşı uzman güveni düşürüldü.`);
   }
   if (/similarity/i.test(identitySource) && identityScore !== null && identityScore < 85) {
     decision = strongestDecision(decision, "downgrade");
@@ -495,6 +545,9 @@ function htftAdjustment(context = {}) {
     openness !== null && openness >= 0.55,
     dataCompleteness !== null && dataCompleteness >= 65,
     scenarioProbability !== null && scenarioProbability >= 3.5,
+    firstHalfDirectionProbability === null || firstHalfDirectionProbability >= 28,
+    fullTimeDirectionProbability === null || fullTimeDirectionProbability >= 28,
+    valueRatio === null || valueRatio >= 0.70,
   ];
   const qualityScore = Math.round((support.filter(Boolean).length / support.length) * 100);
   const delta = decision === "block" ? -8 : decision === "downgrade" ? -4 : 0;
@@ -506,7 +559,9 @@ function htftAdjustment(context = {}) {
     decision,
     eligible: decision !== "block",
     quality_score: qualityScore,
-    mode: "htft_reversal_gate_v2",
+    value_ratio: valueRatio === null ? null : Number(valueRatio.toFixed(3)),
+    implied_probability: impliedProbability === null ? null : Number(impliedProbability.toFixed(2)),
+    mode: "htft_reversal_gate_v3",
     reasons: reasons.length ? reasons : ["İY/MS uzman kapısı doğrulanmış sinyallerde ek çelişki bulmadı."],
   };
 }
