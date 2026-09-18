@@ -2,19 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-09-18T19:46:27.897Z
-- Ham maç sayısı: 116
+- Güncelleme: 2026-09-18T20:41:40.874Z
+- Ham maç sayısı: 103
 - Yarın bülteni maç sayısı: 24
-- Detay blok sayısı: 330
-- Aktif bülten maçı: 27
-- Bültenden düşürülen maç: 89
+- Detay blok sayısı: 292
+- Aktif bülten maçı: 24
+- Bültenden düşürülen maç: 79
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Aso Chlef - Mc Oran | Cezayir 1.Lig | 23:00 | Veri bekleniyor | - | 1.98 | 8 |
-| Alianza Atleti - Comerciantes Un | Peru Premier Lig Clausura | 23:00 | Veri bekleniyor | - | 1.48 | 7 |
-| Cd Marino - Real Unión De T | İspanya Tercera Ligi Grup 12 | 23:00 | Veri bekleniyor | - | 2.13 | 8 |
 | Corboda Santia - Defensa Justici | Arjantin Premier Lig 2. Aşama | 00:00 | Veri bekleniyor | - | 2.4 | 8 |
 | Rionegro Aguil - Pereira | Kolombiya Primera A Clausura | 00:00 | Veri bekleniyor | - | 1.18 | 6 |
 | Platense - Upnfm | Honduras Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 2 | 5 |

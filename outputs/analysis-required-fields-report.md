@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 116
-Tam analiz: 108
-Eksik analiz: 8
+Toplam analiz: 103
+Tam analiz: 96
+Eksik analiz: 7
 
-- Rapid Wien VS Wattens: eksik score, confidence
 - Manchester Uni VS Brentford U21: eksik score, confidence
 - Man City (K) VS Liverpool (K): eksik score, confidence
 - Deportivo Alav VS Barcelona (K): eksik score, confidence

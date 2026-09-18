@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-18 / 2026-09-19
 Kaynak: fixtures.json
-Ham mac: 116
-Aktif mac: 27
+Ham mac: 103
+Aktif mac: 24
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 89
-Bugun: 3
+Bultenden dusurulen mac: 79
+Bugun: 0
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-18 23:00 | Cezayir 1.Lig | Aso Chlef - Mc Oran | scheduled | -
-- 2026-09-18 23:00 | Peru Premier Lig Clausura | Alianza Atleti - Comerciantes Un | scheduled | -
-- 2026-09-18 23:00 | İspanya Tercera Ligi Grup 12 | Cd Marino - Real Unión De T | scheduled | -
 - 2026-09-19 00:00 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Defensa Justici | scheduled | -
 - 2026-09-19 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Pereira | scheduled | -
 - 2026-09-19 00:00 | Honduras Ulusal Lig Apertura | Platense - Upnfm | scheduled | -
