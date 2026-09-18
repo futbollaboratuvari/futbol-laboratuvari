@@ -11,6 +11,12 @@ on:
       - 'scripts/build-pro-analysis-index.js'
       - 'scripts/official-pro-analysis.js'
       - 'analysis-insights-v1.js'
+      - 'premium-analysis-v3.js'
+      - 'scripts/export-high-value-json.js'
+      - 'supabase/functions/fl-pro-analysis/index.ts'
+      - 'tests/transparency-export.test.js'
+      - 'tests/pro-analysis-supabase-sync.test.js'
+      - 'package.json'
       - 'scripts/generate-high-odds-htft.js'
       - 'tests/market-specialist-gates.test.js'
       - 'tests/pro-goal-market-bridge.test.js'
@@ -56,6 +62,8 @@ jobs:
           node --check scripts/build-pro-analysis-index.js
           node --check scripts/official-pro-analysis.js
           node --check analysis-insights-v1.js
+          node --check premium-analysis-v3.js
+          node --check scripts/export-high-value-json.js
 
       - name: Specialist unit and regression tests
         run: |
@@ -63,6 +71,8 @@ jobs:
           node tests/pro-goal-market-bridge.test.js
           node tests/iddaa-data-source.test.js
           node tests/transparency-market-options.test.js
+          node tests/transparency-export.test.js
+          node tests/pro-analysis-supabase-sync.test.js
           node tests/pro-analysis-index.test.js
           node tests/pro-index-from-github.test.js
           node tests/high-odds-htft.test.js
