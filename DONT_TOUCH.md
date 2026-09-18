@@ -102,7 +102,7 @@ Ortak PRO cekirdegi ve `robot-specialist-orchestrator-v3` ayri bir tahmin robotu
 - Korunan kurallar: `odd < 1.45`, `specialist_eligible:false`, `specialist_decision=block`, bagimsiz kanit yoklugu ve model skoru alt siniri filtreleri degismedi. IY/MS yalniz mevcut uygun adaylardan secilir; secim sayisini doldurmak icin sahte market olusturulmaz.
 - Etkilenen dosyalar: `analysis-insights-v1.js`, `tests/transparency-market-options.test.js`, `DONT_TOUCH.md`.
 - Regresyon: `transparency-market-options.test.js` artik AI Seffaflik kaynak kodunda HTFT ailesi, bonus, aile kotasi ve `preferredOrder` kilidini kontrol eder.
-- Gelistirme dali: `fix/transparency-htft-priority-20260918`. PR/CI/main/Pages canli sonucu bu kayit merge tamamlandiktan sonra final bilgilerle tamamlanacaktir.
+- Gelistirme dali / PR / CI / canli: `fix/transparency-htft-priority-20260918`, PR #80. PRO Market Specialist CI run `35383256869` Node 20 ve Node 24 matrislerinde `success` tamamlandi. PR squash merge commit `e45b2fd9a60e23f989f00f18dead082296a0f75e` ile `main`e alindi. GitHub Pages run `35383518152` `success` tamamlandi ve custom domain gercek tarayici dogrulama adimi basarili gecti.
 - Geri alma: Yalniz AI Seffaflik siniflandirma/siralama katmani degisir; PRO model olasiliklari, uzman gate'leri, Supabase projection, uyelik ve kupon motoru degismez.
 
 
