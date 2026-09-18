@@ -111,6 +111,23 @@ assert.strictEqual(richEvent.available_odds.halfBttsNoYes, 3.60);
 assert.strictEqual(richEvent.available_odds.halfBttsNoNo, 1.55);
 assert.strictEqual(richEvent.available_odds.goals6plus, 7.50);
 
+const ambiguousSixEvent = normalizeEvent({
+  i: 2002,
+  hn: "Alpha",
+  an: "Beta",
+  ci: 348,
+  d: 1788202800,
+  bp: 0,
+  m: [
+    { i: 206, t: 4, st: 405, o: [{ no: 1, n: "6", odd: 6.25 }] },
+  ],
+}, { marketConfig: config, competitions, scoreByEvent: {} }, { includeMarkets: true });
+assert.strictEqual(
+  ambiguousSixEvent.available_odds.goals6plus,
+  undefined,
+  "bare 6 outcome must not be treated as verified 6+",
+);
+
 const widget = fs.readFileSync(path.join(__dirname, "..", "daily-matches-widget.js"), "utf8");
 assert.match(widget, /https:\/\/futbol-laboratuvari\.vercel\.app/, "GitHub Pages must use the production API origin");
 assert.match(widget, /readJson\(officialApiUrl\(\)\)/, "widget must load the official feed");
