@@ -1,6 +1,8 @@
 "use strict";
 
 const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const path = require("node:path");
 const {
   buildProIndexFromPayload,
   readRemoteProIndex,
@@ -67,6 +69,30 @@ assert.equal(direct.matches[0].recommended_market, "3.5 Üst");
 assert.equal(direct.matches[0].model_score, 71);
 assert.match(direct.matches[0].signals.join(" "), /Market uzman kapısı/);
 assert.equal(direct.calibration.measured_count, 1);
+
+
+const siteScript = fs.readFileSync(path.join(__dirname, "..", "script.js"), "utf8");
+const navRuntime = fs.readFileSync(path.join(__dirname, "..", "nav-routing.js"), "utf8");
+assert.match(
+  siteScript,
+  /const normalizeMarket = \(item\) => item\.recommended_market \|\| item\.market/,
+  "ana sayfa güncel protected PRO recommended_market alanını tanımalı",
+);
+assert.match(
+  siteScript,
+  /const normalizeScore = \(item\) => item\.model_score \?\? item\.analysis_score/,
+  "ana sayfa güncel protected PRO model_score alanını tanımalı",
+);
+assert.match(
+  navRuntime,
+  /ensureScript\("analysis-insights-v1\.js", "analysis-insights-v1-script"\)/,
+  "AI Şeffaflık Merkezi runtime modülü canlı sayfada yüklenmeli",
+);
+assert.equal(
+  fs.existsSync(path.join(__dirname, "..", "analysis-insights-v1.js")),
+  true,
+  "AI Şeffaflık Merkezi modül dosyası repoda bulunmalı",
+);
 
 function fakeResponse(payload, status = 200) {
   const text = JSON.stringify(payload);
