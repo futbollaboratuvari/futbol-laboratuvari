@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-09-18T04:33:02.304Z",
   "date": "2026-09-18",
-  "source": "PRO merkezi kupon uygunluk motoru",
-  "message": "Doğrulanmış kupon adayı yok; kupon yayımlanmadı.",
+  "source": "PRO merkezi kupon uygunluk motoru + pro-goal-market-bridge-v3",
+  "message": "3.5 Üst / 6+ Gol tarandı; eşikleri geçen yeni yüksek gol adayı oluşmadı.",
   "candidate_count": 0,
   "eligibility_policy": "include_in_coupon + independent_evidence + model>=65 + completeness>=45 + probability>=42 + acceptable_risk",
   "coupons": {
@@ -15,7 +15,7 @@
       "combined_estimated_probability": null,
       "risk_level": "-",
       "short_description": "Doğrulanmış kupon adayı yok. Uygunluk eşikleri sağlanmadan kupon yayımlanmaz.",
-      "robot_reason": "Bağımsız kanıt, model gücü, veri kapsamı, olasılık ve risk kuralları birlikte sağlanmadı.",
+      "robot_reason": "Market uzman kapısı sonrası uygun seçim kalmadı.",
       "is_available": false
     },
     "high_value": {
@@ -27,7 +27,7 @@
       "combined_estimated_probability": null,
       "risk_level": "-",
       "short_description": "Doğrulanmış kupon adayı yok. Uygunluk eşikleri sağlanmadan kupon yayımlanmaz.",
-      "robot_reason": "Bağımsız kanıt, model gücü, veri kapsamı, olasılık ve risk kuralları birlikte sağlanmadı.",
+      "robot_reason": "Market uzman kapısı sonrası uygun seçim kalmadı.",
       "is_available": false
     },
     "risk_lab": {
@@ -38,9 +38,21 @@
       "average_confidence_score": "-",
       "combined_estimated_probability": null,
       "risk_level": "-",
-      "short_description": "Doğrulanmış kupon adayı yok. Uygunluk eşikleri sağlanmadan kupon yayımlanmaz.",
-      "robot_reason": "Bağımsız kanıt, model gücü, veri kapsamı, olasılık ve risk kuralları birlikte sağlanmadı.",
+      "short_description": "Doğrulanmış yüksek gol seçeneği yok.",
+      "robot_reason": "Market uzman kapısı sonrası uygun seçim kalmadı.",
       "is_available": false
     }
+  },
+  "minimum_coupon_odd": 1.45,
+  "goal_market_bridge": {
+    "version": "pro-goal-market-bridge-v3",
+    "over35_candidate_count": 0,
+    "six_plus_candidate_count": 0,
+    "coupon_eligible_count": 0,
+    "minimum_coupon_odd": 1.45
+  },
+  "market_specialist": {
+    "version": "market-specialist-gates-v4",
+    "goal_candidates_checked": 0
   }
 }

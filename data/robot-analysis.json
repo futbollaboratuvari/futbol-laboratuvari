@@ -35,7 +35,7 @@
       "İY KG / 2Y KG Evet / Hayır": 7,
       "İY KG / 2Y KG Evet / Evet": 7
     },
-    "goal_market_candidate_count": 3
+    "goal_market_candidate_count": 0
   },
   "watchlist": [
     {
@@ -2831,7 +2831,6 @@
         "ms2": 1.11,
         "over25": "1.37",
         "under25": "2.08",
-        "over35": 2.03,
         "under35": 1.49,
         "bttsYes": 1.88,
         "bttsNo": 1.57,
@@ -3755,140 +3754,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.343Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.03",
-          "model_score": 55,
-          "estimated_probability": 42.1,
-          "market_probability": 42.3,
-          "edge_percent": -0.3,
-          "data_completeness": 62,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 40,
-            "support_count": 2,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 59,
-            "adjusted_model_score": 55
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 40
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.03",
-        "model_score": 55,
-        "estimated_probability": 42.1,
-        "market_probability": 42.3,
-        "edge_percent": -0.3,
-        "data_completeness": 62,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Piyasa ile Uyumlu",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 40,
-          "support_count": 2,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 59,
-          "adjusted_model_score": 55
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 40
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Lanzhou Longyu VS Wenzhou Fc",
@@ -8669,7 +8536,6 @@
         "ms2": 1,
         "over25": "-",
         "under25": "-",
-        "over35": 1.78,
         "under35": 1.66,
         "bttsYes": 2.18,
         "bttsNo": 1.41,
@@ -42077,7 +41943,6 @@
         "ms2": 2.23,
         "over25": 1.58,
         "under25": 1.87,
-        "over35": 2.56,
         "under35": 1.29,
         "bttsYes": 1.48,
         "bttsNo": 2.04,
@@ -42087,8 +41952,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.38,
         "cifte12": 1.17,
-        "cifteX2": 1.32,
-        "goals6plus": 11.15
+        "cifteX2": 1.32
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -43293,142 +43157,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.361Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.56",
-          "model_score": 53,
-          "estimated_probability": 35.3,
-          "market_probability": 33.5,
-          "edge_percent": 2.5,
-          "data_completeness": 62,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 20,
-            "support_count": 1,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 57,
-            "adjusted_model_score": 53
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 20
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.56",
-        "model_score": 53,
-        "estimated_probability": 35.3,
-        "market_probability": 33.5,
-        "edge_percent": 2.5,
-        "data_completeness": 62,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Piyasa ile Uyumlu",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 20,
-          "support_count": 1,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 57,
-          "adjusted_model_score": 53
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 20
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Kyzyl-Zhar VS Kaisar",
@@ -62040,8 +61770,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.3,
         "cifte12": 1.24,
-        "cifteX2": 1.33,
-        "goals6plus": 36.5
+        "cifteX2": 1.33
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -76120,7 +75849,6 @@
         "ms2": 4.7,
         "over25": 1.33,
         "under25": 2.44,
-        "over35": 1.93,
         "under35": 1.55,
         "bttsYes": 1.43,
         "bttsNo": 2.15,
@@ -76130,8 +75858,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.06,
         "cifte12": 1.09,
-        "cifteX2": 2.11,
-        "goals6plus": 6.31
+        "cifteX2": 2.11
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -77249,140 +76976,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.375Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "1.93",
-          "model_score": 57,
-          "estimated_probability": 46.3,
-          "market_probability": 44.5,
-          "edge_percent": 2.5,
-          "data_completeness": 62,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 40,
-            "support_count": 2,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 61,
-            "adjusted_model_score": 57
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 40
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "1.93",
-        "model_score": 57,
-        "estimated_probability": 46.3,
-        "market_probability": 44.5,
-        "edge_percent": 2.5,
-        "data_completeness": 62,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Piyasa ile Uyumlu",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 40,
-          "support_count": 2,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 61,
-          "adjusted_model_score": 57
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 40
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Kpv Kokkola VS Kups Ak.",
@@ -85563,7 +85158,6 @@
         "ms2": 1.83,
         "over25": 1.94,
         "under25": 1.62,
-        "over35": 3.49,
         "under35": 1.18,
         "bttsYes": 1.77,
         "bttsNo": 1.76,
@@ -85573,8 +85167,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.68,
         "cifte12": 1.23,
-        "cifteX2": 1.16,
-        "goals6plus": 19
+        "cifteX2": 1.16
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -86791,146 +86384,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.381Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "3.49",
-          "model_score": 52,
-          "estimated_probability": 27.2,
-          "market_probability": 25.3,
-          "edge_percent": 2.7,
-          "data_completeness": 62,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst geçmiş eğilimi yalnız %28. Çapraz gol mutabakatı 47/100; 3.5 Üst için sınırlı destek. 3.5 Üst yalnız 0/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 0,
-            "support_count": 0,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": false
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "3.5 Üst geçmiş eğilimi yalnız %28.",
-              "Çapraz gol mutabakatı 47/100; 3.5 Üst için sınırlı destek.",
-              "3.5 Üst yalnız 0/5 bağımsız destek koşulunu sağladı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 56,
-            "adjusted_model_score": 52
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 0
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "3.49",
-        "model_score": 52,
-        "estimated_probability": 27.2,
-        "market_probability": 25.3,
-        "edge_percent": 2.7,
-        "data_completeness": 62,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Piyasa ile Uyumlu",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst geçmiş eğilimi yalnız %28. Çapraz gol mutabakatı 47/100; 3.5 Üst için sınırlı destek. 3.5 Üst yalnız 0/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 0,
-          "support_count": 0,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": false
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "3.5 Üst geçmiş eğilimi yalnız %28.",
-            "Çapraz gol mutabakatı 47/100; 3.5 Üst için sınırlı destek.",
-            "3.5 Üst yalnız 0/5 bağımsız destek koşulunu sağladı.",
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 56,
-          "adjusted_model_score": 52
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 0
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Warta Poznan VS Puszcza Niepolo",
@@ -104078,7 +103533,6 @@
         "ms2": 2.09,
         "over25": 1.36,
         "under25": 2.55,
-        "over35": 1.97,
         "under35": 1.61,
         "bttsYes": 1.32,
         "bttsNo": 2.68,
@@ -104088,8 +103542,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.52,
         "cifte12": 1.18,
-        "cifteX2": 1.31,
-        "goals6plus": 6.25
+        "cifteX2": 1.31
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -105311,206 +104764,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.391Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "1.97",
-          "model_score": 61,
-          "estimated_probability": 39,
-          "market_probability": 45,
-          "edge_percent": -8.2,
-          "data_completeness": 100,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst geçmiş eğilimi yalnız %25. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 60,
-            "support_count": 3,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "3.5 Üst geçmiş eğilimi yalnız %25.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 65,
-            "adjusted_model_score": 61
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 60
-        },
-        {
-          "market": "6+ Gol",
-          "odds": "6.25",
-          "model_score": 55,
-          "estimated_probability": 13.1,
-          "market_probability": 16,
-          "edge_percent": -3.7,
-          "data_completeness": 75,
-          "include_in_coupon": false,
-          "risk_level": "Yüksek",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (block): Poisson toplam gol beklentisi 3.35; 6+ Gol için sınırda. 3.5+ gol geçmiş eğilimi yalnız %25; 6+ Gol ile güçlü çelişki var. Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı. 6+ Gol yalnız 2/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "6+ Gol",
-            "delta": -8,
-            "applied": true,
-            "decision": "block",
-            "eligible": false,
-            "quality_score": 40,
-            "support_count": 2,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "gol aralığı fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Poisson toplam gol beklentisi 3.35; 6+ Gol için sınırda.",
-              "3.5+ gol geçmiş eğilimi yalnız %25; 6+ Gol ile güçlü çelişki var.",
-              "Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı.",
-              "6+ Gol yalnız 2/5 bağımsız destek koşulunu sağladı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 63,
-            "adjusted_model_score": 55
-          },
-          "specialist_decision": "block",
-          "specialist_eligible": false,
-          "specialist_quality_score": 40
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "1.97",
-        "model_score": 61,
-        "estimated_probability": 39,
-        "market_probability": 45,
-        "edge_percent": -8.2,
-        "data_completeness": 100,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Piyasa ile Uyumlu",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst geçmiş eğilimi yalnız %25. Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 60,
-          "support_count": 3,
-          "support_total": 5,
-          "evidence_known_count": 5,
-          "evidence_coverage_score": 100,
-          "missing_evidence": [],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "3.5 Üst geçmiş eğilimi yalnız %25.",
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 65,
-          "adjusted_model_score": 61
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 60
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Wspg Wels VS First Vienna",
@@ -111269,7 +110524,6 @@
         "ms2": 2.76,
         "over25": 1.85,
         "under25": 1.69,
-        "over35": 3.21,
         "under35": 1.22,
         "bttsYes": 1.65,
         "bttsNo": 1.9,
@@ -111280,7 +110534,6 @@
         "cifte1x": 1.3,
         "cifte12": 1.25,
         "cifteX2": 1.45,
-        "goals6plus": 16.35,
         "halfBttsYesYes": 16.95,
         "halfBttsYesNo": 5.81,
         "halfBttsNoYes": 4,
@@ -118497,209 +117750,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.395Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "3.21",
-          "model_score": 59,
-          "estimated_probability": 24.9,
-          "market_probability": 27.5,
-          "edge_percent": -3.7,
-          "data_completeness": 100,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Poisson toplam gol beklentisi 2.75; 3.5 Üst için zayıf. 3.5 Üst geçmiş eğilimi yalnız %13. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 40,
-            "support_count": 2,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Poisson toplam gol beklentisi 2.75; 3.5 Üst için zayıf.",
-              "3.5 Üst geçmiş eğilimi yalnız %13.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 63,
-            "adjusted_model_score": 59
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 40
-        },
-        {
-          "market": "6+ Gol",
-          "odds": "16.35",
-          "model_score": 54,
-          "estimated_probability": 6.1,
-          "market_probability": 6.1,
-          "edge_percent": 0,
-          "data_completeness": 75,
-          "include_in_coupon": false,
-          "risk_level": "Yüksek",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (block): Poisson toplam gol beklentisi 2.75; 6+ Gol için kritik derecede düşük. 3.5+ gol geçmiş eğilimi yalnız %13; 6+ Gol ile güçlü çelişki var. Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı. Çapraz gol mutabakatı 50/100; 6+ Gol için zayıf. 6+ Gol yalnız 1/5 bağımsız destek koşulunu sağladı; uzman seçim kapatıldı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "6+ Gol",
-            "delta": -8,
-            "applied": true,
-            "decision": "block",
-            "eligible": false,
-            "quality_score": 20,
-            "support_count": 1,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "gol aralığı fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": false
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Poisson toplam gol beklentisi 2.75; 6+ Gol için kritik derecede düşük.",
-              "3.5+ gol geçmiş eğilimi yalnız %13; 6+ Gol ile güçlü çelişki var.",
-              "Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı.",
-              "Çapraz gol mutabakatı 50/100; 6+ Gol için zayıf.",
-              "6+ Gol yalnız 1/5 bağımsız destek koşulunu sağladı; uzman seçim kapatıldı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 62,
-            "adjusted_model_score": 54
-          },
-          "specialist_decision": "block",
-          "specialist_eligible": false,
-          "specialist_quality_score": 20
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "3.21",
-        "model_score": 59,
-        "estimated_probability": 24.9,
-        "market_probability": 27.5,
-        "edge_percent": -3.7,
-        "data_completeness": 100,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Piyasa ile Uyumlu",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): Poisson toplam gol beklentisi 2.75; 3.5 Üst için zayıf. 3.5 Üst geçmiş eğilimi yalnız %13. Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 40,
-          "support_count": 2,
-          "support_total": 5,
-          "evidence_known_count": 5,
-          "evidence_coverage_score": 100,
-          "missing_evidence": [],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "Poisson toplam gol beklentisi 2.75; 3.5 Üst için zayıf.",
-            "3.5 Üst geçmiş eğilimi yalnız %13.",
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 63,
-          "adjusted_model_score": 59
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 40
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Muğlaspor VS Iğdır Fk",
@@ -129439,7 +128491,6 @@
         "ms2": 4.81,
         "over25": 1.55,
         "under25": 1.93,
-        "over35": 2.48,
         "under35": 1.32,
         "bttsYes": 1.62,
         "bttsNo": 1.83,
@@ -129449,8 +128500,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.06,
         "cifte12": 1.12,
-        "cifteX2": 2.02,
-        "goals6plus": 10.4
+        "cifteX2": 2.02
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -130130,142 +129180,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.401Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.48",
-          "model_score": 54,
-          "estimated_probability": 37.1,
-          "market_probability": 34.7,
-          "edge_percent": 3.3,
-          "data_completeness": 62,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Değerli",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 20,
-            "support_count": 1,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 58,
-            "adjusted_model_score": 54
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 20
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.48",
-        "model_score": 54,
-        "estimated_probability": 37.1,
-        "market_probability": 34.7,
-        "edge_percent": 3.3,
-        "data_completeness": 62,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Değerli",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 20,
-          "support_count": 1,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 58,
-          "adjusted_model_score": 54
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 20
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Nykobing VS Hellerup Ik",
@@ -154970,7 +153886,6 @@
         "ms2": 4.6,
         "over25": 1.3,
         "under25": 2.74,
-        "over35": 1.87,
         "under35": 1.67,
         "bttsYes": 1.39,
         "bttsNo": 2.43,
@@ -154981,7 +153896,6 @@
         "cifte1x": 1.1,
         "cifte12": 1.12,
         "cifteX2": 2.17,
-        "goals6plus": 5.63,
         "halfBttsYesYes": 8.77,
         "halfBttsYesNo": 4.82,
         "halfBttsNoYes": 3.32,
@@ -162074,201 +160988,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.411Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "1.87",
-          "model_score": 74,
-          "estimated_probability": 57.7,
-          "market_probability": 47.2,
-          "edge_percent": 10.5,
-          "data_completeness": 100,
-          "include_in_coupon": true,
-          "risk_level": "Düşük",
-          "value_label": "Yüksek Değer",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 65,
-            "support_count": 4,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 78,
-            "adjusted_model_score": 74
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 65
-        },
-        {
-          "market": "6+ Gol",
-          "odds": "5.63",
-          "model_score": 63,
-          "estimated_probability": 19.5,
-          "market_probability": 17.8,
-          "edge_percent": 2.2,
-          "data_completeness": 75,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "6+ Gol",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 65,
-            "support_count": 4,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "gol aralığı fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 67,
-            "adjusted_model_score": 63
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 65
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "1.87",
-        "model_score": 74,
-        "estimated_probability": 57.7,
-        "market_probability": 47.2,
-        "edge_percent": 10.5,
-        "data_completeness": 100,
-        "include_in_coupon": true,
-        "risk_level": "Düşük",
-        "value_label": "Yüksek Değer",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 65,
-          "support_count": 4,
-          "support_total": 5,
-          "evidence_known_count": 5,
-          "evidence_coverage_score": 100,
-          "missing_evidence": [],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 78,
-          "adjusted_model_score": 74
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 65
-      },
+      "goal_market_candidates": [],
+      "goal_market_pick": null,
       "market": "3.5 Üst",
       "selection": "3.5 Üst",
       "odds": "1.87",
@@ -164615,7 +163336,6 @@
         "ms2": 3.08,
         "over25": 2.23,
         "under25": 1.47,
-        "over35": 4.28,
         "under35": 1.11,
         "bttsYes": 1.9,
         "bttsNo": 1.65,
@@ -164625,8 +163345,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.24,
         "cifte12": 1.27,
-        "cifteX2": 1.48,
-        "goals6plus": 28
+        "cifteX2": 1.48
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -165937,213 +164656,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.416Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "4.28",
-          "model_score": 59,
-          "estimated_probability": 20.1,
-          "market_probability": 20.6,
-          "edge_percent": -0.7,
-          "data_completeness": 100,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Poisson toplam gol beklentisi 2.47; 3.5 Üst için zayıf. 3.5 Üst geçmiş eğilimi yalnız %13. Çapraz gol mutabakatı 42/100; 3.5 Üst için sınırlı destek. 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 20,
-            "support_count": 1,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": false
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Poisson toplam gol beklentisi 2.47; 3.5 Üst için zayıf.",
-              "3.5 Üst geçmiş eğilimi yalnız %13.",
-              "Çapraz gol mutabakatı 42/100; 3.5 Üst için sınırlı destek.",
-              "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 63,
-            "adjusted_model_score": 59
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 20
-        },
-        {
-          "market": "6+ Gol",
-          "odds": "28.00",
-          "model_score": 54,
-          "estimated_probability": 3.9,
-          "market_probability": 3.6,
-          "edge_percent": 0.4,
-          "data_completeness": 75,
-          "include_in_coupon": false,
-          "risk_level": "Yüksek",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (block): Poisson toplam gol beklentisi 2.47; 6+ Gol için kritik derecede düşük. 3.5+ gol geçmiş eğilimi yalnız %13; 6+ Gol ile güçlü çelişki var. Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı. Çapraz gol mutabakatı 42/100; piyasa 6+ Gol ile güçlü biçimde çelişiyor. 6+ Gol yalnız 1/5 bağımsız destek koşulunu sağladı; uzman seçim kapatıldı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "6+ Gol",
-            "delta": -8,
-            "applied": true,
-            "decision": "block",
-            "eligible": false,
-            "quality_score": 20,
-            "support_count": 1,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "gol aralığı fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": false
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Poisson toplam gol beklentisi 2.47; 6+ Gol için kritik derecede düşük.",
-              "3.5+ gol geçmiş eğilimi yalnız %13; 6+ Gol ile güçlü çelişki var.",
-              "Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı.",
-              "Çapraz gol mutabakatı 42/100; piyasa 6+ Gol ile güçlü biçimde çelişiyor.",
-              "6+ Gol yalnız 1/5 bağımsız destek koşulunu sağladı; uzman seçim kapatıldı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 62,
-            "adjusted_model_score": 54
-          },
-          "specialist_decision": "block",
-          "specialist_eligible": false,
-          "specialist_quality_score": 20
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "4.28",
-        "model_score": 59,
-        "estimated_probability": 20.1,
-        "market_probability": 20.6,
-        "edge_percent": -0.7,
-        "data_completeness": 100,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Piyasa ile Uyumlu",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): Poisson toplam gol beklentisi 2.47; 3.5 Üst için zayıf. 3.5 Üst geçmiş eğilimi yalnız %13. Çapraz gol mutabakatı 42/100; 3.5 Üst için sınırlı destek. 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 20,
-          "support_count": 1,
-          "support_total": 5,
-          "evidence_known_count": 5,
-          "evidence_coverage_score": 100,
-          "missing_evidence": [],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": false
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "Poisson toplam gol beklentisi 2.47; 3.5 Üst için zayıf.",
-            "3.5 Üst geçmiş eğilimi yalnız %13.",
-            "Çapraz gol mutabakatı 42/100; 3.5 Üst için sınırlı destek.",
-            "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 63,
-          "adjusted_model_score": 59
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 20
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Reims VS Montpellier",
@@ -166176,7 +164690,6 @@
         "ms2": 3.7,
         "over25": 1.71,
         "under25": 1.82,
-        "over35": 2.87,
         "under35": 1.27,
         "bttsYes": 1.62,
         "bttsNo": 1.95,
@@ -166187,7 +164700,6 @@
         "cifte1x": 1.16,
         "cifte12": 1.21,
         "cifteX2": 1.72,
-        "goals6plus": 13.15,
         "halfBttsYesYes": 15.55,
         "halfBttsYesNo": 5.65,
         "halfBttsNoYes": 3.91,
@@ -172307,142 +170819,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.417Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.87",
-          "model_score": 54,
-          "estimated_probability": 35.2,
-          "market_probability": 30.7,
-          "edge_percent": 6.3,
-          "data_completeness": 62,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Değerli",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 20,
-            "support_count": 1,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 58,
-            "adjusted_model_score": 54
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 20
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.87",
-        "model_score": 54,
-        "estimated_probability": 35.2,
-        "market_probability": 30.7,
-        "edge_percent": 6.3,
-        "data_completeness": 62,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Değerli",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 20,
-          "support_count": 1,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 58,
-          "adjusted_model_score": 54
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 20
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Rodez Aveyron VS Nancy",
@@ -176632,7 +175010,6 @@
         "ms2": 4.14,
         "over25": 1.37,
         "under25": 2.31,
-        "over35": 2.01,
         "under35": 1.49,
         "bttsYes": 1.41,
         "bttsNo": 2.19,
@@ -176643,7 +175020,6 @@
         "cifte1x": 1.1,
         "cifte12": 1.12,
         "cifteX2": 1.9,
-        "goals6plus": 6.88,
         "halfBttsYesYes": 9.78,
         "halfBttsYesNo": 4.83,
         "halfBttsNoYes": 3.35,
@@ -182469,140 +180845,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.421Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.01",
-          "model_score": 73,
-          "estimated_probability": 62.3,
-          "market_probability": 42.6,
-          "edge_percent": 19.7,
-          "data_completeness": 62,
-          "include_in_coupon": true,
-          "risk_level": "Orta",
-          "value_label": "Yüksek Değer",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 40,
-            "support_count": 2,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 77,
-            "adjusted_model_score": 73
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 40
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.01",
-        "model_score": 73,
-        "estimated_probability": 62.3,
-        "market_probability": 42.6,
-        "edge_percent": 19.7,
-        "data_completeness": 62,
-        "include_in_coupon": true,
-        "risk_level": "Orta",
-        "value_label": "Yüksek Değer",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 40,
-          "support_count": 2,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 77,
-          "adjusted_model_score": 73
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 40
-      },
+      "goal_market_candidates": [],
+      "goal_market_pick": null,
       "market": "3.5 Üst",
       "selection": "3.5 Üst",
       "odds": "2.01",
@@ -185778,7 +184022,6 @@
         "ms2": 1.86,
         "over25": 1.21,
         "under25": 2.97,
-        "over35": 1.64,
         "under35": 1.8,
         "bttsYes": 1.22,
         "bttsNo": 2.92,
@@ -185788,8 +184031,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.56,
         "cifte12": 1.14,
-        "cifteX2": 1.24,
-        "goals6plus": 4.48
+        "cifteX2": 1.24
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -186949,140 +185191,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.423Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "1.64",
-          "model_score": 71,
-          "estimated_probability": 65.1,
-          "market_probability": 52.3,
-          "edge_percent": 12.8,
-          "data_completeness": 62,
-          "include_in_coupon": true,
-          "risk_level": "Orta",
-          "value_label": "Yüksek Değer",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 40,
-            "support_count": 2,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 75,
-            "adjusted_model_score": 71
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 40
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "1.64",
-        "model_score": 71,
-        "estimated_probability": 65.1,
-        "market_probability": 52.3,
-        "edge_percent": 12.8,
-        "data_completeness": 62,
-        "include_in_coupon": true,
-        "risk_level": "Orta",
-        "value_label": "Yüksek Değer",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 40,
-          "support_count": 2,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 75,
-          "adjusted_model_score": 71
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 40
-      },
+      "goal_market_candidates": [],
+      "goal_market_pick": null,
       "market": "3.5 Üst",
       "selection": "3.5 Üst",
       "odds": "1.64",
@@ -209446,7 +207556,6 @@
         "ms2": 2.61,
         "over25": 1.39,
         "under25": 2.24,
-        "over35": 2.07,
         "under35": 1.47,
         "bttsYes": 1.35,
         "bttsNo": 2.37,
@@ -209456,8 +207565,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.27,
         "cifte12": 1.16,
-        "cifteX2": 1.46,
-        "goals6plus": 7.29
+        "cifteX2": 1.46
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -210607,140 +208715,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.431Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.07",
-          "model_score": 56,
-          "estimated_probability": 43.3,
-          "market_probability": 41.5,
-          "edge_percent": 2.5,
-          "data_completeness": 62,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 40,
-            "support_count": 2,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 60,
-            "adjusted_model_score": 56
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 40
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.07",
-        "model_score": 56,
-        "estimated_probability": 43.3,
-        "market_probability": 41.5,
-        "edge_percent": 2.5,
-        "data_completeness": 62,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Piyasa ile Uyumlu",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 40,
-          "support_count": 2,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 60,
-          "adjusted_model_score": 56
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 40
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "B.Münih VS Union Berlin",
@@ -211534,7 +209510,6 @@
         "ms2": 2.64,
         "over25": 1.57,
         "under25": 2.01,
-        "over35": 2.52,
         "under35": 1.37,
         "bttsYes": 1.47,
         "bttsNo": 2.21,
@@ -211544,8 +209519,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.33,
         "cifte12": 1.22,
-        "cifteX2": 1.46,
-        "goals6plus": 10.25
+        "cifteX2": 1.46
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -212776,208 +210750,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.432Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.52",
-          "model_score": 59,
-          "estimated_probability": 31,
-          "market_probability": 35.2,
-          "edge_percent": -5.9,
-          "data_completeness": 100,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Poisson toplam gol beklentisi 2.62; 3.5 Üst için zayıf. 3.5 Üst geçmiş eğilimi yalnız %34. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 40,
-            "support_count": 2,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Poisson toplam gol beklentisi 2.62; 3.5 Üst için zayıf.",
-              "3.5 Üst geçmiş eğilimi yalnız %34.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 63,
-            "adjusted_model_score": 59
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 40
-        },
-        {
-          "market": "6+ Gol",
-          "odds": "10.25",
-          "model_score": 54,
-          "estimated_probability": 6.1,
-          "market_probability": 9.8,
-          "edge_percent": -4.7,
-          "data_completeness": 75,
-          "include_in_coupon": false,
-          "risk_level": "Yüksek",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (block): Poisson toplam gol beklentisi 2.62; 6+ Gol için kritik derecede düşük. 3.5+ gol geçmiş eğilimi yalnız %34; 6+ Gol ile güçlü çelişki var. Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı. 6+ Gol yalnız 2/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "6+ Gol",
-            "delta": -8,
-            "applied": true,
-            "decision": "block",
-            "eligible": false,
-            "quality_score": 40,
-            "support_count": 2,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "gol aralığı fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Poisson toplam gol beklentisi 2.62; 6+ Gol için kritik derecede düşük.",
-              "3.5+ gol geçmiş eğilimi yalnız %34; 6+ Gol ile güçlü çelişki var.",
-              "Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı.",
-              "6+ Gol yalnız 2/5 bağımsız destek koşulunu sağladı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 62,
-            "adjusted_model_score": 54
-          },
-          "specialist_decision": "block",
-          "specialist_eligible": false,
-          "specialist_quality_score": 40
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.52",
-        "model_score": 59,
-        "estimated_probability": 31,
-        "market_probability": 35.2,
-        "edge_percent": -5.9,
-        "data_completeness": 100,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Piyasa ile Uyumlu",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): Poisson toplam gol beklentisi 2.62; 3.5 Üst için zayıf. 3.5 Üst geçmiş eğilimi yalnız %34. Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 40,
-          "support_count": 2,
-          "support_total": 5,
-          "evidence_known_count": 5,
-          "evidence_coverage_score": 100,
-          "missing_evidence": [],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "Poisson toplam gol beklentisi 2.62; 3.5 Üst için zayıf.",
-            "3.5 Üst geçmiş eğilimi yalnız %34.",
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 63,
-          "adjusted_model_score": 59
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 40
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Juve Stabia VS Cesena",
@@ -214087,7 +211861,6 @@
         "ms2": 4.06,
         "over25": 1.45,
         "under25": 2.12,
-        "over35": 2.21,
         "under35": 1.4,
         "bttsYes": 1.47,
         "bttsNo": 2.06,
@@ -214097,8 +211870,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.1,
         "cifte12": 1.13,
-        "cifteX2": 1.87,
-        "goals6plus": 8.33
+        "cifteX2": 1.87
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -215310,140 +213082,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.434Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.21",
-          "model_score": 56,
-          "estimated_probability": 41.1,
-          "market_probability": 38.8,
-          "edge_percent": 3.2,
-          "data_completeness": 62,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Değerli",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 40,
-            "support_count": 2,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 60,
-            "adjusted_model_score": 56
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 40
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.21",
-        "model_score": 56,
-        "estimated_probability": 41.1,
-        "market_probability": 38.8,
-        "edge_percent": 3.2,
-        "data_completeness": 62,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Değerli",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 40,
-          "support_count": 2,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 60,
-          "adjusted_model_score": 56
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 40
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Queens Park VS Ayr Utd",
@@ -222804,7 +220444,6 @@
         "ms2": 2.63,
         "over25": 1.54,
         "under25": 1.94,
-        "over35": 2.43,
         "under35": 1.33,
         "bttsYes": 1.45,
         "bttsNo": 2.11,
@@ -222814,8 +220453,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.27,
         "cifte12": 1.18,
-        "cifteX2": 1.43,
-        "goals6plus": 10.1
+        "cifteX2": 1.43
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -224020,144 +221658,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.441Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.43",
-          "model_score": 51,
-          "estimated_probability": 9.9,
-          "market_probability": 35.4,
-          "edge_percent": -35.4,
-          "data_completeness": 62,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst geçmiş eğilimi yalnız %0. 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 20,
-            "support_count": 1,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "3.5 Üst geçmiş eğilimi yalnız %0.",
-              "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 55,
-            "adjusted_model_score": 51
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 20
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.43",
-        "model_score": 51,
-        "estimated_probability": 9.9,
-        "market_probability": 35.4,
-        "edge_percent": -35.4,
-        "data_completeness": 62,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Piyasa ile Uyumlu",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst geçmiş eğilimi yalnız %0. 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 20,
-          "support_count": 1,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "3.5 Üst geçmiş eğilimi yalnız %0.",
-            "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 55,
-          "adjusted_model_score": 51
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 20
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Colwyn Bay VS Barry Town",
@@ -224188,7 +221690,6 @@
         "ms2": 2.88,
         "over25": 1.73,
         "under25": 1.7,
-        "over35": 2.9,
         "under35": 1.22,
         "bttsYes": 1.58,
         "bttsNo": 1.87,
@@ -224198,8 +221699,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.23,
         "cifte12": 1.19,
-        "cifteX2": 1.47,
-        "goals6plus": 14.45
+        "cifteX2": 1.47
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -225387,144 +222887,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.441Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.90",
-          "model_score": 53,
-          "estimated_probability": 32.1,
-          "market_probability": 29.6,
-          "edge_percent": 3.4,
-          "data_completeness": 62,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Değerli",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst geçmiş eğilimi yalnız %33. 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 20,
-            "support_count": 1,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "3.5 Üst geçmiş eğilimi yalnız %33.",
-              "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 57,
-            "adjusted_model_score": 53
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 20
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.90",
-        "model_score": 53,
-        "estimated_probability": 32.1,
-        "market_probability": 29.6,
-        "edge_percent": 3.4,
-        "data_completeness": 62,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Değerli",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst geçmiş eğilimi yalnız %33. 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 20,
-          "support_count": 1,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "3.5 Üst geçmiş eğilimi yalnız %33.",
-            "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 57,
-          "adjusted_model_score": 53
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 20
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Haverfordwest VS Holywell Town",
@@ -226318,7 +223682,6 @@
         "ms2": 1.1,
         "over25": 1.5,
         "under25": 2,
-        "over35": 2.42,
         "under35": 1.33,
         "bttsYes": 2.17,
         "bttsNo": 1.42,
@@ -226328,8 +223691,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 3.42,
         "cifte12": 1,
-        "cifteX2": 1,
-        "goals6plus": 10.1
+        "cifteX2": 1
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -227243,140 +224605,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.442Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.42",
-          "model_score": 56,
-          "estimated_probability": 40.2,
-          "market_probability": 35.5,
-          "edge_percent": 6.5,
-          "data_completeness": 62,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Değerli",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 40,
-            "support_count": 2,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 60,
-            "adjusted_model_score": 56
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 40
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.42",
-        "model_score": 56,
-        "estimated_probability": 40.2,
-        "market_probability": 35.5,
-        "edge_percent": 6.5,
-        "data_completeness": 62,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Değerli",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 40,
-          "support_count": 2,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 60,
-          "adjusted_model_score": 56
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 40
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Caernarfon VS Cambrian",
@@ -233584,7 +230814,6 @@
         "ms2": 1.77,
         "over25": 1.63,
         "under25": 1.82,
-        "over35": 2.66,
         "under35": 1.26,
         "bttsYes": 1.56,
         "bttsNo": 1.92,
@@ -233594,8 +230823,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.62,
         "cifte12": 1.17,
-        "cifteX2": 1.16,
-        "goals6plus": 12.1
+        "cifteX2": 1.16
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -234800,142 +232028,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.445Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.66",
-          "model_score": 52,
-          "estimated_probability": 34.2,
-          "market_probability": 32.1,
-          "edge_percent": 2.9,
-          "data_completeness": 62,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 20,
-            "support_count": 1,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 56,
-            "adjusted_model_score": 52
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 20
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.66",
-        "model_score": 52,
-        "estimated_probability": 34.2,
-        "market_probability": 32.1,
-        "edge_percent": 2.9,
-        "data_completeness": 62,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Piyasa ile Uyumlu",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 20,
-          "support_count": 1,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 56,
-          "adjusted_model_score": 52
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 20
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Cork City VS Ucd",
@@ -236961,7 +234055,6 @@
         "ms2": 2.17,
         "over25": 1.54,
         "under25": 1.94,
-        "over35": 2.43,
         "under35": 1.33,
         "bttsYes": 1.45,
         "bttsNo": 2.11,
@@ -236971,8 +234064,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.41,
         "cifte12": 1.18,
-        "cifteX2": 1.29,
-        "goals6plus": 10.1
+        "cifteX2": 1.29
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -238177,142 +235269,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.449Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.43",
-          "model_score": 54,
-          "estimated_probability": 37.3,
-          "market_probability": 35.4,
-          "edge_percent": 2.6,
-          "data_completeness": 62,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 20,
-            "support_count": 1,
-            "support_total": 5,
-            "evidence_known_count": 4,
-            "evidence_coverage_score": 80,
-            "missing_evidence": [
-              "Poisson"
-            ],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": false,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 58,
-            "adjusted_model_score": 54
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 20
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.43",
-        "model_score": 54,
-        "estimated_probability": 37.3,
-        "market_probability": 35.4,
-        "edge_percent": 2.6,
-        "data_completeness": 62,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Piyasa ile Uyumlu",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı. Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 20,
-          "support_count": 1,
-          "support_total": 5,
-          "evidence_known_count": 4,
-          "evidence_coverage_score": 80,
-          "missing_evidence": [
-            "Poisson"
-          ],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": false,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "3.5 Üst yalnız 1/5 bağımsız destek koşulunu sağladı.",
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 58,
-          "adjusted_model_score": 54
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 20
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Dundela VS Strabane Athlet",
@@ -243612,7 +240570,6 @@
         "ms2": 2.28,
         "over25": 1.37,
         "under25": 2.48,
-        "over35": 2.01,
         "under35": 1.57,
         "bttsYes": 1.33,
         "bttsNo": 2.64,
@@ -243623,7 +240580,6 @@
         "cifte1x": 1.44,
         "cifte12": 1.19,
         "cifteX2": 1.37,
-        "goals6plus": 6.57,
         "halfBttsYesYes": 8.32,
         "halfBttsYesNo": 4.8,
         "halfBttsNoYes": 3.23,
@@ -252009,202 +248965,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.454Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.01",
-          "model_score": 65,
-          "estimated_probability": 45.8,
-          "market_probability": 43.9,
-          "edge_percent": 2.7,
-          "data_completeness": 100,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 65,
-            "support_count": 4,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 69,
-            "adjusted_model_score": 65
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 65
-        },
-        {
-          "market": "6+ Gol",
-          "odds": "6.57",
-          "model_score": 59,
-          "estimated_probability": 14.5,
-          "market_probability": 15.2,
-          "edge_percent": -1,
-          "data_completeness": 75,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Poisson toplam gol beklentisi 3.50; 6+ Gol için sınırda. Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "6+ Gol",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 60,
-            "support_count": 3,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "gol aralığı fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Poisson toplam gol beklentisi 3.50; 6+ Gol için sınırda.",
-              "Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 63,
-            "adjusted_model_score": 59
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 60
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.01",
-        "model_score": 65,
-        "estimated_probability": 45.8,
-        "market_probability": 43.9,
-        "edge_percent": 2.7,
-        "data_completeness": 100,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Piyasa ile Uyumlu",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 65,
-          "support_count": 4,
-          "support_total": 5,
-          "evidence_known_count": 5,
-          "evidence_coverage_score": 100,
-          "missing_evidence": [],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 69,
-          "adjusted_model_score": 65
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 65
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Espanyol VS Elche",
@@ -252239,7 +249001,6 @@
         "ms2": 3.98,
         "over25": 1.68,
         "under25": 1.86,
-        "over35": 2.8,
         "under35": 1.29,
         "bttsYes": 1.63,
         "bttsNo": 1.94,
@@ -252250,7 +249011,6 @@
         "cifte1x": 1.14,
         "cifte12": 1.2,
         "cifteX2": 1.8,
-        "goals6plus": 12.6,
         "halfBttsYesYes": 15.5,
         "halfBttsYesNo": 5.63,
         "halfBttsNoYes": 3.92,
@@ -259911,204 +256671,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.456Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.80",
-          "model_score": 66,
-          "estimated_probability": 40.2,
-          "market_probability": 31.5,
-          "edge_percent": 12,
-          "data_completeness": 100,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Yüksek Değer",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 65,
-            "support_count": 4,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 70,
-            "adjusted_model_score": 66
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 65
-        },
-        {
-          "market": "6+ Gol",
-          "odds": "12.60",
-          "model_score": 57,
-          "estimated_probability": 12.4,
-          "market_probability": 7.9,
-          "edge_percent": 5.8,
-          "data_completeness": 75,
-          "include_in_coupon": false,
-          "risk_level": "Yüksek",
-          "value_label": "Değerli",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (block): Poisson toplam gol beklentisi 3.46; 6+ Gol için sınırda. 3.5+ gol geçmiş eğilimi %40; 6+ Gol için sınırlı destek. Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı. 6+ Gol yalnız 1/5 bağımsız destek koşulunu sağladı; uzman seçim kapatıldı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "6+ Gol",
-            "delta": -8,
-            "applied": true,
-            "decision": "block",
-            "eligible": false,
-            "quality_score": 20,
-            "support_count": 1,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "gol aralığı fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": false
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Poisson toplam gol beklentisi 3.46; 6+ Gol için sınırda.",
-              "3.5+ gol geçmiş eğilimi %40; 6+ Gol için sınırlı destek.",
-              "Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı.",
-              "6+ Gol yalnız 1/5 bağımsız destek koşulunu sağladı; uzman seçim kapatıldı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 65,
-            "adjusted_model_score": 57
-          },
-          "specialist_decision": "block",
-          "specialist_eligible": false,
-          "specialist_quality_score": 20
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.80",
-        "model_score": 66,
-        "estimated_probability": 40.2,
-        "market_probability": 31.5,
-        "edge_percent": 12,
-        "data_completeness": 100,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Yüksek Değer",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 65,
-          "support_count": 4,
-          "support_total": 5,
-          "evidence_known_count": 5,
-          "evidence_coverage_score": 100,
-          "missing_evidence": [],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 70,
-          "adjusted_model_score": 66
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 65
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Bristol City VS Watford",
@@ -260143,7 +256707,6 @@
         "ms2": 3.69,
         "over25": 1.73,
         "under25": 1.8,
-        "over35": 2.94,
         "under35": 1.26,
         "bttsYes": 1.65,
         "bttsNo": 1.9,
@@ -260154,7 +256717,6 @@
         "cifte1x": 1.16,
         "cifte12": 1.2,
         "cifteX2": 1.75,
-        "goals6plus": 13.8,
         "halfBttsYesYes": 16.25,
         "halfBttsYesNo": 5.71,
         "halfBttsNoYes": 3.98,
@@ -267304,207 +263866,8 @@
       },
       "official_analysis_refreshed_at": "2026-09-18T04:33:01.458Z",
       "goal_market_bridge_version": "pro-goal-market-bridge-v3",
-      "goal_market_candidates": [
-        {
-          "market": "3.5 Üst",
-          "odds": "2.94",
-          "model_score": 60,
-          "estimated_probability": 32.9,
-          "market_probability": 30,
-          "edge_percent": 4,
-          "data_completeness": 100,
-          "include_in_coupon": false,
-          "risk_level": "Orta",
-          "value_label": "Değerli",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst geçmiş eğilimi yalnız %32. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "3.5 Üst",
-            "delta": -4,
-            "applied": true,
-            "decision": "downgrade",
-            "eligible": true,
-            "quality_score": 40,
-            "support_count": 2,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "karşı/fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": true
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "3.5 Üst geçmiş eğilimi yalnız %32.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 64,
-            "adjusted_model_score": 60
-          },
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 40
-        },
-        {
-          "market": "6+ Gol",
-          "odds": "13.80",
-          "model_score": 54,
-          "estimated_probability": 8.1,
-          "market_probability": 7.2,
-          "edge_percent": 1,
-          "data_completeness": 75,
-          "include_in_coupon": false,
-          "risk_level": "Yüksek",
-          "value_label": "Piyasa ile Uyumlu",
-          "model_version": "pro-goal-market-bridge-v3",
-          "robot_reason": "Market uzman kararı (block): Poisson toplam gol beklentisi 2.99; 6+ Gol için kritik derecede düşük. 3.5+ gol geçmiş eğilimi yalnız %32; 6+ Gol ile güçlü çelişki var. Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı. Çapraz gol mutabakatı 52/100; 6+ Gol için zayıf. 6+ Gol yalnız 1/5 bağımsız destek koşulunu sağladı; uzman seçim kapatıldı. Kadro/ilk 11 verisi tam güvenli değil.",
-          "market_specialist": {
-            "version": "market-specialist-gates-v4",
-            "market": "6+ Gol",
-            "delta": -8,
-            "applied": true,
-            "decision": "block",
-            "eligible": false,
-            "quality_score": 20,
-            "support_count": 1,
-            "support_total": 5,
-            "evidence_known_count": 5,
-            "evidence_coverage_score": 100,
-            "missing_evidence": [],
-            "support_checks": [
-              {
-                "name": "Poisson",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "3.5+ geçmiş eğilimi",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "veri kapsamı",
-                "available": true,
-                "ok": true
-              },
-              {
-                "name": "gol aralığı fiyat seti",
-                "available": true,
-                "ok": false
-              },
-              {
-                "name": "çapraz gol mutabakatı",
-                "available": true,
-                "ok": false
-              }
-            ],
-            "mode": "extreme_goal_market_gate_v4",
-            "reasons": [
-              "Poisson toplam gol beklentisi 2.99; 6+ Gol için kritik derecede düşük.",
-              "3.5+ gol geçmiş eğilimi yalnız %32; 6+ Gol ile güçlü çelişki var.",
-              "Gol aralığı fiyat seti eksik; 6+ piyasa doğrulaması sınırlı.",
-              "Çapraz gol mutabakatı 52/100; 6+ Gol için zayıf.",
-              "6+ Gol yalnız 1/5 bağımsız destek koşulunu sağladı; uzman seçim kapatıldı.",
-              "Kadro/ilk 11 verisi tam güvenli değil."
-            ],
-            "original_model_score": 62,
-            "adjusted_model_score": 54
-          },
-          "specialist_decision": "block",
-          "specialist_eligible": false,
-          "specialist_quality_score": 20
-        }
-      ],
-      "goal_market_pick": {
-        "market": "3.5 Üst",
-        "odds": "2.94",
-        "model_score": 60,
-        "estimated_probability": 32.9,
-        "market_probability": 30,
-        "edge_percent": 4,
-        "data_completeness": 100,
-        "include_in_coupon": false,
-        "risk_level": "Orta",
-        "value_label": "Değerli",
-        "model_version": "pro-goal-market-bridge-v3",
-        "robot_reason": "Market uzman kararı (downgrade): 3.5 Üst geçmiş eğilimi yalnız %32. Kadro/ilk 11 verisi tam güvenli değil.",
-        "market_specialist": {
-          "version": "market-specialist-gates-v4",
-          "market": "3.5 Üst",
-          "delta": -4,
-          "applied": true,
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 40,
-          "support_count": 2,
-          "support_total": 5,
-          "evidence_known_count": 5,
-          "evidence_coverage_score": 100,
-          "missing_evidence": [],
-          "support_checks": [
-            {
-              "name": "Poisson",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "3.5+ geçmiş eğilimi",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "veri kapsamı",
-              "available": true,
-              "ok": true
-            },
-            {
-              "name": "karşı/fiyat seti",
-              "available": true,
-              "ok": false
-            },
-            {
-              "name": "çapraz gol mutabakatı",
-              "available": true,
-              "ok": true
-            }
-          ],
-          "mode": "extreme_goal_market_gate_v4",
-          "reasons": [
-            "3.5 Üst geçmiş eğilimi yalnız %32.",
-            "Kadro/ilk 11 verisi tam güvenli değil."
-          ],
-          "original_model_score": 64,
-          "adjusted_model_score": 60
-        },
-        "specialist_decision": "downgrade",
-        "specialist_eligible": true,
-        "specialist_quality_score": 40
-      }
+      "goal_market_candidates": [],
+      "goal_market_pick": null
     },
     {
       "match_name": "Shamrock Rover VS Waterford",
@@ -273459,8 +269822,7 @@
         "secondHalfBttsNo": "-",
         "cifte1x": 1.16,
         "cifte12": 1.26,
-        "cifteX2": 1.5,
-        "goals6plus": 36.5
+        "cifteX2": 1.5
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
@@ -300548,13 +296910,13 @@
   },
   "goal_market_bridge": {
     "version": "pro-goal-market-bridge-v3",
-    "over35_candidate_count": 23,
-    "six_plus_candidate_count": 8,
-    "coupon_eligible_count": 3,
+    "over35_candidate_count": 0,
+    "six_plus_candidate_count": 0,
+    "coupon_eligible_count": 0,
     "minimum_coupon_odd": 1.45
   },
   "market_specialist": {
     "version": "market-specialist-gates-v4",
-    "goal_candidates_checked": 31
+    "goal_candidates_checked": 0
   }
 }
