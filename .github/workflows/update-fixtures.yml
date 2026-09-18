@@ -168,6 +168,7 @@ jobs:
       - name: Enrich PRO robot with verified official markets
         run: |
           node tests/iddaa-data-source.test.js
+          node tests/official-market-enrichment.test.js
           node scripts/enrich-robot-official-markets.js
 
       - name: Apply PRO market specialist gates
