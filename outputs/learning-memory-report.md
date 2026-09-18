@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.09.2026 07:54:18
+Oluşturma: 18.09.2026 09:04:37
 
 ## Özet
 
@@ -8,7 +8,7 @@ Oluşturma: 18.09.2026 07:54:18
 - Bekleyen tahmin: 1169
 - Kazanan tahmin: 182
 - Kaybeden tahmin: 149
-- Lig sayısı: 291
+- Lig sayısı: 287
 - Seçenek sayısı: 9
 
 ## Öğrenme Mantığı
@@ -43,7 +43,7 @@ Oluşturma: 18.09.2026 07:54:18
 - 2026-09-18 | Hollanda Eerste Divisie | Oss - Dordrecht | 3.5 Üst | pending | 74/100
 - 2026-09-18 | Cezayir 2.Lig, Merkez-Doğu | Mo Bejaia - Mo Constantine | MS 1 | pending | 55/100
 - 2026-09-18 | Asya Oyunları | Filipinler U23 - Vietnam U23 | KG Yok | pending | 53/100
-- 2026-09-18 | Cezayir 1. Lig | Aso Chlef - Mc Oran | KG Yok | pending | 55/100
+- 2026-09-18 | Cezayir 1.Lig | Aso Chlef - Mc Oran | KG Yok | pending | 55/100
 - 2026-09-18 | Arjantin Premier Lig 2. Aşama | Racing Club - Sarmiento | KG Var | pending | 74/100
 - 2026-09-18 | İtalya Serie B | Juve Stabia - Cesena | KG Var | pending | 77/100
 - 2026-09-18 | Belçika Pro Lig | Gent - Standard Liege | KG Var | pending | 55/100
