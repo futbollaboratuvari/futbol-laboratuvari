@@ -1,7 +1,7 @@
 "use strict";
 
 const { applyGenericMarketGate } = require("../market-specialist-gates");
-const { familyForMarket, resultEnvelope } = require("./shared");
+const { compactSpecialistCandidate, familyForMarket, resultEnvelope } = require("./shared");
 
 function runBttsSpecialist(item, candidates) {
   const rows = candidates
@@ -14,14 +14,7 @@ function runBttsSpecialist(item, candidates) {
         market: candidate.market,
         recommended_market: candidate.market,
       });
-      return {
-        ...candidate,
-        ...evaluated,
-        specialist_robot: "btts",
-        specialist_decision: evaluated.market_specialist?.decision || "keep",
-        specialist_eligible: evaluated.market_specialist?.decision !== "block",
-        specialist_quality_score: evaluated.market_specialist?.quality_score ?? null,
-      };
+      return compactSpecialistCandidate(candidate, evaluated, "btts");
     });
   return resultEnvelope("btts", "KG Uzmanı", rows);
 }
