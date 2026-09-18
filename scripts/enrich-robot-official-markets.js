@@ -7,7 +7,7 @@ const { scoreFixture, buildBttsAnalysis } = require("./robot-exact-scoring");
 
 const root = path.join(__dirname, "..");
 const robotFile = path.join(root, "data", "robot-analysis.json");
-const DETAIL_LIMIT = Math.max(10, Math.min(80, Number(process.env.FL_OFFICIAL_DETAIL_LIMIT || 48)));
+const DETAIL_LIMIT = Math.max(10, Math.min(80, Number(process.env.FL_OFFICIAL_DETAIL_LIMIT || 24)));
 const DETAIL_CONCURRENCY = Math.max(1, Math.min(6, Number(process.env.FL_OFFICIAL_DETAIL_CONCURRENCY || 4)));
 const MIN_ODD = 1.45;
 const TARGET = /İlk Yarı KG|İkinci Yarı KG|İY KG\s*\/\s*2Y KG|2\.5 Üst|3\.5 Üst|KG Var|KG Yok|MS 1|MS X|MS 2/i;
