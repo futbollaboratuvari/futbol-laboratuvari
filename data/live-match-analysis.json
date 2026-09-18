@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T20:46:25.058Z",
+  "generated_at": "2026-09-18T21:39:50.847Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-18T20:46:24.403Z",
+  "source_generated_at": "2026-09-18T21:39:49.118Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
@@ -18,19 +18,19 @@
   },
   "matches": [
     {
-      "fixture_id": "401886181",
+      "fixture_id": "401877947",
       "status": "ready",
-      "minute": 45,
+      "minute": 39,
       "score": {
         "home": 1,
-        "away": 1
+        "away": 0
       },
-      "home": "Alianza Atlético",
-      "away": "Comerciantes Unidos",
-      "league": "Peru Premier Lig Clausura",
+      "home": "Águilas Doradas",
+      "away": "Deportivo Pereira",
+      "league": "Kolombiya Primera A Clausura",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-18T20:46:24.403Z",
-      "freshness_minutes": 0.010916666666666667,
+      "snapshot_recorded_at": "2026-09-18T21:39:49.118Z",
+      "freshness_minutes": 0.028816666666666668,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -60,43 +60,43 @@
       "evidence_score": 48,
       "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "next_goal",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
         "confidence": 73
       },
       "result_lean": {
         "code": "1",
         "label": "Ev sahibi yönü",
         "side": "home",
-        "strength": 82.058
+        "strength": 82.724
       },
       "next_goal_lean": {
         "code": "HOME",
         "label": "Sonraki gol eğilimi: Ev sahibi",
         "side": "home",
-        "strength": 83.42
+        "strength": 72.16
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 29
+        "score": 16
       },
       "signals": [
-        "Team Power: Alianza Atlético %67 · Comerciantes Unidos %33.",
-        "Goal Power: Alianza Atlético %23 · Comerciantes Unidos %11.",
+        "Team Power: Águilas Doradas %71 · Deportivo Pereira %29.",
+        "Goal Power: Águilas Doradas %19 · Deportivo Pereira %7.",
         "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 34,
+        "team_power_diff": 42,
         "goal_power_diff": 12,
-        "momentum_diff": 40,
+        "momentum_diff": 0,
         "shots_on_goal_diff": 1,
-        "total_shots_diff": 7,
-        "corners_diff": 3,
+        "total_shots_diff": 0,
+        "corners_diff": 4,
         "xg_diff": 0,
-        "direction_score": 35.62,
-        "next_goal_score": 31.42
+        "direction_score": 36.36,
+        "next_goal_score": 20.16
       }
     }
   ]
