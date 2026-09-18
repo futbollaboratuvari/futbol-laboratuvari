@@ -66,8 +66,8 @@ jobs:
         run: |
           printf '%s\n' "${GITHUB_SHA}" > public/deploy-version.txt
           grep -q 'id="live-power-center"' public/index.html
-          grep -q 'live-power-center-v1.js?v=20260918-live-power-stable-v2' public/index.html
-          grep -q 'const version = "20260918-live-power-stable-v2";' public/cache-version.js
+          grep -q 'live-power-center-v1.js?v=20260918-live-analysis-robot-v1' public/index.html
+          grep -q 'const version = "20260918-live-analysis-robot-v1";' public/cache-version.js
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
@@ -81,7 +81,7 @@ jobs:
       - name: Verify live custom domain in real browser
         env:
           LIVE_URL: https://futbollaboratuuvari.org
-          EXPECTED_UI_VERSION: 20260918-live-power-stable-v2
+          EXPECTED_UI_VERSION: 20260918-live-analysis-robot-v1
         run: |
           set -euo pipefail
           html_ok=0
@@ -117,7 +117,8 @@ jobs:
             > /tmp/live-power-dom.html
 
           grep -q 'id="live-power-center"' /tmp/live-power-dom.html
-          grep -q 'Team Power + Goal Power' /tmp/live-power-dom.html
+          grep -q 'Team Power + Goal Power + Canlı Analiz Robotu' /tmp/live-power-dom.html
+          grep -q 'Canlı Maç Analiz Robotu\|Canlı Analiz Robotu bekliyor' /tmp/live-power-dom.html
           grep -q 'class="flp-status"' /tmp/live-power-dom.html
           if grep -q 'Team Power + Goal Power verisi yükleniyor' /tmp/live-power-dom.html; then
             echo "Live Power UI stayed in loading state"
