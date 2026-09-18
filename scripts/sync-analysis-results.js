@@ -8,10 +8,12 @@ const robotAnalysisFile = path.join(dataDir, 'robot-analysis.json');
 const liveMatchesFile = path.join(dataDir, 'live-matches.json');
 const analysisResultsFile = path.join(dataDir, 'analiz_sonuclari.json');
 const resultsSummaryFile = path.join(dataDir, 'results-summary.json');
+const matchRecordsSummaryFile = path.join(dataDir, 'match-records-summary.json');
 const focusFile = path.join(dataDir, 'focused_markets.json');
 const learningMemoryFile = path.join(dataDir, 'learning-memory.json');
 const MAX_COMPLETED_ITEMS = 250;
 const MAX_RESULT_SUMMARY_ITEMS = 30;
+const MAX_MATCH_RECORD_ITEMS = 60;
 
 function readJson(file, fallback) {
   try {
@@ -169,6 +171,80 @@ function buildCompletedItems(memory, previousItems = []) {
   return [...map.values()].sort(completedSort).slice(0, MAX_COMPLETED_ITEMS);
 }
 
+function matchRecordConfidence(item) {
+  const value = item.confidence_score ?? item.confidence ?? item.model_score ?? item.analysis_score;
+  if (value === undefined || value === null || value === '' || value === '-') return '-';
+  return `${normalizeScore(value)}%`;
+}
+
+function matchRecordSort(a, b) {
+  const left = `${a.date || ''} ${a.time || ''} ${a.updated_at || a.created_at || ''}`;
+  const right = `${b.date || ''} ${b.time || ''} ${b.updated_at || b.created_at || ''}`;
+  return right.localeCompare(left, 'tr');
+}
+
+function toMatchRecordItem(item) {
+  const status = outcomeStatus(item.status || item.result);
+  const group = marketGroup(item.market || item.prediction);
+  const match = item.match_name || item.match || item.title || 'Maç';
+  const analysisNote = item.learning_note
+    || (status === 'pending'
+      ? 'Sonuç bekleniyor.'
+      : status === 'void'
+        ? 'İptal veya iade kaydı.'
+        : 'Final skorla doğrulandı.');
+  return {
+    id: item.id || [item.date, match, item.market || item.prediction].join('|'),
+    date: String(item.date || '').slice(0, 10),
+    time: item.start_time || item.time || '',
+    league: item.league || item.competition_name || '-',
+    match,
+    market: item.market || item.prediction || '-',
+    prediction: item.market || item.prediction || '-',
+    odds: item.odds || item.estimated_odds || '-',
+    confidence: matchRecordConfidence(item),
+    model_score: normalizeScore(item.model_score ?? item.analysis_score ?? item.confidence_score ?? item.confidence),
+    predicted_score: item.predicted_score || item.score_prediction || item.expected_score || '-',
+    result_score: item.result_score || item.final_score || '-',
+    status,
+    result: status,
+    market_group: group.key,
+    market_group_label: group.label,
+    analysis_note: analysisNote,
+    updated_at: item.updated_at || item.created_at || '',
+    source: item.source || 'Robot öğrenme hafızası',
+  };
+}
+
+function buildMatchRecordsSummary(memory, meta = {}) {
+  const predictions = Array.isArray(memory?.predictions) ? memory.predictions : [];
+  const records = predictions
+    .map(toMatchRecordItem)
+    .sort(matchRecordSort)
+    .slice(0, MAX_MATCH_RECORD_ITEMS);
+  const counts = predictions.reduce((acc, item) => {
+    const status = outcomeStatus(item.status || item.result);
+    acc[status] = (acc[status] || 0) + 1;
+    return acc;
+  }, { pending: 0, won: 0, lost: 0, void: 0 });
+  return {
+    generated_at: meta.generated_at || new Date().toISOString(),
+    date: meta.date || todayKey(),
+    timezone: meta.timezone || 'Europe/Istanbul',
+    source: 'Robot tahmin kayıt arşivi',
+    records,
+    summary: {
+      total_record_count: predictions.length,
+      visible_record_count: records.length,
+      pending_count: counts.pending || 0,
+      verified_count: (counts.won || 0) + (counts.lost || 0) + (counts.void || 0),
+      won_count: counts.won || 0,
+      lost_count: counts.lost || 0,
+      void_count: counts.void || 0,
+    },
+  };
+}
+
 function buildPerformance(memory) {
   const predictions = Array.isArray(memory.predictions) ? memory.predictions : [];
   const won = predictions.filter((item) => outcomeStatus(item.status) === 'won');
@@ -314,10 +390,11 @@ function main() {
 
   writeJson(analysisResultsFile, payload);
   writeJson(resultsSummaryFile, buildResultsSummary(payload));
+  writeJson(matchRecordsSummaryFile, buildMatchRecordsSummary(learningMemory, payload));
   buildProAnalysisIndex();
   console.log(`analiz_sonuclari.json synced. Active: ${activeItems.length}. Coupon: ${couponCandidates}. Watch: ${watchCandidates}.`);
 }
 
 if (require.main === module) main();
 
-module.exports = { buildCompletedItems, buildPerformance, buildResultsSummary, main, marketGroup, outcomeStatus, toCompletedItem };
+module.exports = { buildCompletedItems, buildMatchRecordsSummary, buildPerformance, buildResultsSummary, main, marketGroup, outcomeStatus, toCompletedItem, toMatchRecordItem };
