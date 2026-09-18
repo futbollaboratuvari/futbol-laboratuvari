@@ -3,40 +3,14 @@
 Gunler: 2026-09-18 / 2026-09-19
 Kaynak: fixtures.json
 Ham mac: 262
-Aktif mac: 142
+Aktif mac: 116
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 120
-Bugun: 118
+Bultenden dusurulen mac: 146
+Bugun: 92
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-09-18 20:00 | Türkiye Süper Lig | Kasimpaşa - Konyaspor | scheduled | -
-- 2026-09-18 20:00 | Türkiye TFF 1. Lig | Muğlaspor - Iğdır Fk | scheduled | -
-- 2026-09-18 20:00 | Danimarka Süperlig | Lyngby - Silkeborg | scheduled | -
-- 2026-09-18 20:00 | Norveç Eliteserien | Sarpsborg - Kfum Oslo | scheduled | -
-- 2026-09-18 20:00 | Bulgaristan 1.Lig | Slavia Sofia - Cska 1948 Sofia | scheduled | -
-- 2026-09-18 20:00 | Almanya 3. Lig | Verl 1924 - Würzburger Kick | scheduled | -
-- 2026-09-18 20:00 | İsveç Superettan | Falkenberg - Ostersund | scheduled | -
-- 2026-09-18 20:00 | Danimarka 1.Lig | Kolding If - Hillerod | scheduled | -
-- 2026-09-18 20:00 | Almanya Bölgesel Lig Güney Batı | Fsv Frankfurt - Stuttgarter Kic | scheduled | -
-- 2026-09-18 20:00 | Almanya Bölgesel Lig Güney Batı | Eintracht Trie - Offenbach | scheduled | -
-- 2026-09-18 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Zwickau - Hallescher | scheduled | -
-- 2026-09-18 20:00 | Danimarka 2.Lig | Skive - B93 Kopenhag | scheduled | -
-- 2026-09-18 20:00 | Danimarka 2.Lig | Roskilde - Fa 2000 | scheduled | -
-- 2026-09-18 20:00 | Danimarka 2.Lig | Nykobing - Hellerup Ik | scheduled | -
-- 2026-09-18 20:00 | Danimarka 2.Lig | Fremad Amager - Nastved | scheduled | -
-- 2026-09-18 20:00 | Fransa Kadınlar 1.Lig | Strasbourg (K) - Paris (K) | scheduled | -
-- 2026-09-18 20:00 | Fransa Kadınlar 1.Lig | Le Havre (K) - Lyon (K) | scheduled | -
-- 2026-09-18 20:00 | Kosova Süper Lig | Gjilani - Prishtina | scheduled | -
-- 2026-09-18 20:00 | Danimarka 3.Lig | Holbæk - Ringsted | scheduled | -
-- 2026-09-18 20:00 | İsveç 2.Lig Vastra Götaland | Torslanda Ik - Lindome Gif | scheduled | -
-- 2026-09-18 20:00 | İsveç 2.Lig Vastra Götaland | Böljan - Landvetter Is | scheduled | -
-- 2026-09-18 20:00 | İsveç 2.Lig Södra Götaland | Staffanstorp U - Österlen | scheduled | -
-- 2026-09-18 20:00 | İsveç 2.Lig Södra Götaland | Lilla Torg - Linero | scheduled | -
-- 2026-09-18 20:00 | İsveç 2.Lig Norra Götaland | Husqvarna - Ifk Skövde | scheduled | -
-- 2026-09-18 20:00 | Karadağ 1.Lig | Buducnost - Petrovac | scheduled | -
-- 2026-09-18 20:00 | İsveç Kadınlar Damallsvenskan | Malmö Ff (K) - Djurgarden (K) | scheduled | -
 - 2026-09-18 20:30 | Avusturya Bundesliga | Rapid Wien - Wattens | scheduled | -
 - 2026-09-18 20:30 | Macaristan NB I | Puskas Academy - Budapest Honved | scheduled | -
 - 2026-09-18 20:30 | Ürdün Premier Lig | Al Wihdat Amma - Al-Ramtha | scheduled | -

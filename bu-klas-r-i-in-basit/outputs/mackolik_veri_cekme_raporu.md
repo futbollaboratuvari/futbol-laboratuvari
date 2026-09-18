@@ -1,24 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-18T16:37:25.420423+00:00
+Tarih: 2026-09-18T17:09:33.474134+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 119
+- Kac mac bulundu: 96
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 119
+- Kac mac zaten vardi: 96
 - Ham veri havuzu toplam mac sayisi: 15398
 - Hedef tarih: 18.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- Almanya 3. Lig
 - Almanya Bundesliga
 - Almanya Bölgesel Lig Batı
-- Almanya Bölgesel Lig Güney Batı
-- Almanya Bölgesel Lig Kuzey Doğu
 - Arjantin Kadınlar Primera A 2. Aşama
 - Arjantin Prim B Metro
 - Avusturya 1.Lig
@@ -26,13 +23,9 @@ Tarih: 2026-09-18T16:37:25.420423+00:00
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
 - Bosna-Hersek Premier Lig
-- Bulgaristan 1.Lig
 - Cezayir 1.Lig
 - Cezayir 2.Lig Doğu
-- Danimarka 1.Lig
-- Danimarka 2.Lig
 - Danimarka 3.Lig
-- Danimarka Süperlig
 - Faroe Adaları Master Lig
 - Fransa Kadınlar 1.Lig
 - Fransa Ligue 1
@@ -42,20 +35,15 @@ Tarih: 2026-09-18T16:37:25.420423+00:00
 - Hollanda Eredivisie
 - Hırvatistan 1.HNL
 - Irak Premier Lig
-- Karadağ 1.Lig
-- Kosova Süper Lig
 - Kuzey İrlanda Championship
 - Macaristan NB I
 - Malta Premier Lig Açılış
-- Norveç Eliteserien
 - Paraguay Intermedia Lig
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
 - Polonya Ekstraklasa
 - Portekiz Kupa 2.Tur
 - Romanya 1.Lig
-- Türkiye Süper Lig
-- Türkiye TFF 1. Lig
 - Ürdün Premier Lig
 - İngiltere Championship
 - İngiltere FA Cup Eleme 2.Tur
@@ -77,9 +65,6 @@ Tarih: 2026-09-18T16:37:25.420423+00:00
 - İspanya Tercera Ligi Grup 16
 - İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Södra Götaland
-- İsveç 2.Lig Vastra Götaland
-- İsveç Kadınlar Damallsvenskan
-- İsveç Superettan
 - İsviçre Challenge Lig
 - İtalya Serie A
 - İtalya Serie B
@@ -139,8 +124,8 @@ Tarih: 2026-09-18T16:37:25.420423+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 87
-- Acilan detay: 87
+- Denenen Tumu alani: 72
+- Acilan detay: 72
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -153,8 +138,6 @@ Tarih: 2026-09-18T16:37:25.420423+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 18.09.2026 | 20:00 | Türkiye Süper Lig | Kasimpaşa | Konyaspor | 01311 | 5 |
-| 18.09.2026 | 20:00 | Türkiye TFF 1. Lig | Muğlaspor | Iğdır Fk | 51667 | 5 |
 | 18.09.2026 | 22:00 | İngiltere Premier Lig | Brentford | Chelsea | 09502 | 5 |
 | 18.09.2026 | 22:00 | İspanya LaLiga | Espanyol | Elche | 11443 | 5 |
 | 18.09.2026 | 21:45 | İtalya Serie A | Monza | Sassuolo | 32369 | 5 |
@@ -165,14 +148,16 @@ Tarih: 2026-09-18T16:37:25.420423+00:00
 | 18.09.2026 | 22:00 | İngiltere Championship | Bristol City | Watford | 01891 | 5 |
 | 18.09.2026 | 21:30 | İspanya 2.Lig | Albacete | Cordoba | 26763 | 5 |
 | 18.09.2026 | 21:30 | İtalya Serie B | Juve Stabia | Cesena | 33966 | 5 |
+| 18.09.2026 | 21:00 | Fransa Ligue 2 | Annecy | Dijon | 38101 | 5 |
+| 18.09.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Dunkerque | 38462 | 5 |
+| 18.09.2026 | 21:00 | Fransa Ligue 2 | Reims | Montpellier | 38646 | 5 |
 | 18.09.2026 | 21:00 | Fransa Ligue 2 | Grenoble | Clermont | 38280 | 5 |
 | 18.09.2026 | 21:00 | Fransa Ligue 2 | Stade Lavalloi | Sochaux | 38951 | 5 |
 | 18.09.2026 | 21:00 | Fransa Ligue 2 | Rodez Aveyron | Nancy | 38824 | 5 |
-| 18.09.2026 | 21:00 | Fransa Ligue 2 | Annecy | Dijon | 38101 | 5 |
-| 18.09.2026 | 21:00 | Fransa Ligue 2 | Reims | Montpellier | 38646 | 5 |
-| 18.09.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Dunkerque | 38462 | 5 |
-| 18.09.2026 | 21:00 | Hollanda Eerste Divisie | Den Bosch | Helmond Sport | 42150 | 5 |
-| 18.09.2026 | 21:00 | Hollanda Eerste Divisie | Jong Az Alkmaa | Volendam | 42501 | 5 |
+| 18.09.2026 | 21:00 | Hollanda Eerste Divisie | Ajax (B) | Roda | 42616 | 5 |
+| 18.09.2026 | 21:00 | Hollanda Eerste Divisie | Waalwijk | Maastricht | 42954 | 5 |
+| 18.09.2026 | 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) | Vvv Venlo | 42732 | 5 |
+| 18.09.2026 | 21:00 | Hollanda Eerste Divisie | Fc Eindhoven | Emmen | 42221 | 5 |
 
 ## Sonuc
 
