@@ -213,6 +213,7 @@ jobs:
           node scripts/learning-score-linker.js
           node scripts/learning-finalizer.js
           node scripts/sync-analysis-results.js
+          node scripts/build-coupon-assistant-pool.js
           node scripts/prediction-measurement-health-check.js
 
       - name: Finalize verified weekly Spor Toto before commit

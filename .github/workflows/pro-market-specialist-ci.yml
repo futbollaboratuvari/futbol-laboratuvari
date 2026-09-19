@@ -38,6 +38,9 @@ on:
       - 'nesine-coupon-assistant.js'
       - 'high-odds-htft-widget.js'
       - 'tests/kupon-assistant.test.js'
+      - 'scripts/build-coupon-assistant-pool.js'
+      - 'tests/coupon-assistant-pool.test.js'
+      - 'scripts/vercel-build.js'
       - 'cache-version.js'
       - 'index.html'
       - 'pro-coupon-eligibility.js'
@@ -90,6 +93,7 @@ jobs:
           node --check scripts/export-high-value-json.js
           node --check nesine-coupon-assistant.js
           node --check high-odds-htft-widget.js
+          node --check scripts/build-coupon-assistant-pool.js
 
       - name: Specialist unit and regression tests
         run: |
@@ -109,6 +113,7 @@ jobs:
           node tests/pro-index-from-github.test.js
           node tests/high-odds-htft.test.js
           node tests/kupon-assistant.test.js
+          node tests/coupon-assistant-pool.test.js
           node tests/pro-coupon-eligibility.test.js
           node tests/pre-match-final-check.test.js
           node tests/official-btts-pro.test.js

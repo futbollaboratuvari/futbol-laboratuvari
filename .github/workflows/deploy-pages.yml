@@ -74,6 +74,8 @@ jobs:
           test -n "${live_power_version}"
           test -n "${cache_version}"
           grep -Fq "const version = \"${cache_version}\";" public/cache-version.js
+          test -s public/data/coupon-assistant-pool.json
+          node -e "const p=require('./public/data/coupon-assistant-pool.json'); if(!Array.isArray(p.items)||!Number.isFinite(Number(p.candidate_count))) throw new Error('coupon assistant pool invalid')"
 
           echo "EXPECTED_LIVE_POWER_VERSION=${live_power_version}" >> "${GITHUB_ENV}"
           echo "EXPECTED_CACHE_VERSION=${cache_version}" >> "${GITHUB_ENV}"
@@ -253,7 +255,7 @@ jobs:
               raise SystemExit("Kupon Asistanı live DOM data load failed")
 
           daily = json.loads(Path("public/data/daily-coupons.json").read_text(encoding="utf-8"))
-          analysis = json.loads(Path("public/data/analiz_sonuclari.json").read_text(encoding="utf-8"))
+          pool = json.loads(Path("public/data/coupon-assistant-pool.json").read_text(encoding="utf-8"))
           has_published_coupon = any(
               isinstance(coupon, dict)
               and isinstance(coupon.get("selected_matches"), list)
@@ -262,27 +264,25 @@ jobs:
           )
 
           manual_candidates = []
-          if not has_published_coupon:
-              default_source = str(analysis.get("source") or "")
-              for item in analysis.get("active_items") or []:
-                  if str(item.get("status") or "").lower() != "scheduled":
-                      continue
+          pool_fresh = str(pool.get("date") or "")[:10] >= today
+          if not has_published_coupon and pool_fresh:
+              for item in pool.get("items") or []:
                   if not is_upcoming(item):
                       continue
-                  source = str(item.get("source") or default_source)
-                  if "iddaa" not in source.lower():
-                      continue
-                  match_name = str(
-                      item.get("match_name")
-                      or item.get("match")
-                      or item.get("title")
-                      or f"{item.get('home') or ''} VS {item.get('away') or ''}"
-                  ).strip()
-                  market = str(item.get("recommended_market") or item.get("market") or item.get("prediction") or "").strip()
+                  source = str(item.get("source") or "")
+                  match_name = str(item.get("match_name") or "").strip()
+                  market = str(item.get("recommended_market") or "").strip()
                   odds = number(item.get("estimated_odds"))
-                  model = number(item.get("model_score") or item.get("confidence_score") or item.get("analysis_score"))
+                  model = number(item.get("model_score"))
                   completeness = number(item.get("data_completeness"))
-                  if match_name and market and odds > 1 and model >= 54 and completeness >= 45:
+                  if (
+                      "iddaa" in source.lower()
+                      and match_name
+                      and market
+                      and odds > 1
+                      and model >= 54
+                      and completeness >= 45
+                  ):
                       manual_candidates.append(item)
 
           coupon_leg_count = len(re.findall(r'class=["\'][^"\']*\bnka-leg\b', coupon_html, re.I))

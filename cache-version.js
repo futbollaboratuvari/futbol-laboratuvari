@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260919-kupon-htft-fresh-v1";
+  const version = "20260919-kupon-pool-v2";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
