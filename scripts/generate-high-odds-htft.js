@@ -476,6 +476,7 @@ function analyzeDate(matches, targetDate, officialById, clock = clockInIstanbul(
   const analyzed = [];
   for (const item of scheduledScanMatches) {
     const resolution = resolveOfficialEvent(item, officialById);
+    if (resolution.event && !isUpcomingAtClock(resolution.event, targetDate, clock)) continue;
     if (['iddaa_event_id', 'event_id', 'shared_match_code'].includes(resolution.source)) identityStats.matched_by_id += 1;
     else if (['date_teams', 'date_teams_time'].includes(resolution.source)) identityStats.matched_by_date_teams += 1;
     else if (resolution.source === 'date_time_team_similarity') identityStats.matched_by_similarity += 1;
