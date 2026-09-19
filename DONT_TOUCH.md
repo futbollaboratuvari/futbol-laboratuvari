@@ -503,3 +503,11 @@ Baslayan mac Tum Bulten listesine katilmaz.
 - Vercel: Bu işte kullanılmadı ve doğrulama ölçütü değildir.
 - Geri alma: Devre skoru ve yeni settlement kapsamı mevcut maç sonu öğrenmesini değiştirmeyen ek katmandır. Gerekirse ilgili V2 commitleri geri alınarak önceki full-time öğrenme zincirine dönülebilir; mevcut hafıza kayıtları silinmez.
 
+### 2026-09-20 - Robot öğrenme V2 takip düzeltmesi: İY/MS kanonik kimliği
+
+- Düzeltme nedeni: PR #100 sonrası kontrol sırasında ham `1/2` ve `2/1` değerleri doğru ayrışsa da daha önce etiketlenmiş `İY/MS 1/2`, `İY/MS 2/1` ve benzeri HT/FT biçimlerinin genel `İY/MS` kovasına düşebileceği kenar durumu tespit edildi.
+- Değişiklik: `clean()` sonrası ortak biçim üzerinden `1 1 / iy ms 1 1 / ht ft 1 1`, `1 2 / iy ms 1 2 / ht ft 1 2`, `2 1 / iy ms 2 1 / ht ft 2 1` ayrı kanonik market kimliklerine sabitlendi. Aynı mantık hem hafıza kayıt katmanında hem öğrenme ağırlığı okuma katmanında uygulanır.
+- Test: Robot Learning CI run `35472708018` Node 20 ve Node 24 üzerinde tüm öğrenme settlement, confidence ve loss-pattern regresyonlarını başarıyla geçti. Regresyon artık ham `1/2`, kanonik `İY/MS 1/2` ve `HT/FT 1/2` biçimlerini birlikte doğrular.
+- PR: #101 `İY/MS öğrenme market kimliklerini sabitle`, dal `fix/learning-htft-canonical-v2-20260920`.
+- Vercel: kullanılmadı.
+
