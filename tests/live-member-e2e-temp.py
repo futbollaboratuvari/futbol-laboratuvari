@@ -1,5 +1,6 @@
 import os
 import re
+import unicodedata
 from collections import Counter
 
 from selenium import webdriver
@@ -13,8 +14,9 @@ LIVE_URL = os.environ.get("LIVE_URL", "https://futbollaboratuuvari.org")
 TEST_MEMBER_CODE = os.environ["TEST_MEMBER_CODE"]
 
 def norm(value):
-    s = str(value or "").lower()
-    s = s.translate(str.maketrans({"ç":"c","ğ":"g","ı":"i","ö":"o","ş":"s","ü":"u","İ":"i","I":"i"}))
+    s = unicodedata.normalize("NFKD", str(value or "").lower())
+    s = "".join(ch for ch in s if not unicodedata.combining(ch))
+    s = s.translate(str.maketrans({"ç":"c","ğ":"g","ı":"i","ö":"o","ş":"s","ü":"u"}))
     s = re.sub(r"[^a-z0-9+/. ]+", " ", s)
     return re.sub(r"\s+", " ", s).strip()
 
