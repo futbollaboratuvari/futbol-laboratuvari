@@ -686,7 +686,7 @@ async function collect(admin: any, previousPayload: Row) {
         match_direction: profileSummary(learningProfiles?.match_direction, "match_direction"),
         next_goal: profileSummary(learningProfiles?.next_goal, "next_goal"),
       },
-      policy: "40 sonuç + 20 farklı maç + 7 farklı gün oluşmadan eşik değişmez; değişim oluşursa maç yönünde/sonraki golde yalnız -1 boost veya +2 fren uygulanır.",
+      policy: "Kalibrasyonda her fixture/sinyal türü için yalnız ilk settle edilmiş gözlem bağımsız örnek sayılır. 40 bağımsız sonuç + 20 farklı maç + 7 farklı gün oluşmadan eşik değişmez; sonra yalnız -1 boost veya +2 fren uygulanır.",
     },
     summary: {
       espn_live_event_count: events.length,
