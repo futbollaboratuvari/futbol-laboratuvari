@@ -147,6 +147,18 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 
 ## PRO Robot Islem Gunlugu
 
+### 2026-09-19 - Yari KG canli uye E2E tamamlandi
+
+- Nihai canli test: `futbollaboratuuvari.org` gercek Chromium ile uye gibi acildi. Gecici test uyeligi formdaki `[data-pa3-code]` alanina girildi, `Kodu Dogrula` islemi klavye aktivasyonu ile calistirildi ve `[data-pa3-access]` durumu `active` oldu.
+- AI Seffaflik sonucu: 10 kart render edildi. Canli dagilim: IY/2Y KG Hayir/Hayir x2, 1/2 x1, Ilk Yari KG Var x1, Ikinci Yari KG Var x1, 6+ Gol x1, 3.5 Ust x1, 2.5 Ust x1, KG Var x1, MS 1 x1. Aile sayimi: `half_btts_combo=2`, `htft=1`, `first_half_btts=1`, `second_half_btts=1`, `six_plus=1`, `over35=1`, `over25=1`, `btts=1`, `match_result=1`.
+- PRO backend sonucu: canli Supabase health `match_count=315`, `analysis_option_count=1835`; market aileleri `2_5_ust`, `ms`, `ilk_yari_kg`, `ikinci_yari_kg`, `kg`, `3_5_ust`, `iy_2y_kg`, `htft`, `6_plus` olarak dogrulandi.
+- Yari KG bagimsiz kanit sonucu: yeni veri uretiminde Ilk Yari KG Var icin 58, Ikinci Yari KG Var icin 10 secenekte `independent_evidence=true`; IY/2Y KG kombinasyonlarinda da uygun adaylarda Poisson bagimsiz kaniti olustu. Veri olmayan maclarda fail-closed davranis korundu.
+- Ozel Analiz sonucu: canli uye ekraninda 126 yaklasan mac yüklendi; ilk mac secilip analiz calistirildi ve anlamli sonuc karti render edildi. Ornek sonuc `Dinamo Tirana - KF Laci`, KG Var, oran 1.65, yuksek risk / izleme gorusu olarak geldi; kupon hesabina otomatik alinmadi.
+- CI ve yayin: PR #92 (`Yari KG icin bagimsiz Poisson kaniti ekle`) Node 20 ve Node 24 specialist regression matrisinde basarili oldu ve squash merge edildi. Sonraki `Update fixtures and High Value Engine` run basarili tamamlandi.
+- Temizlik: Canli E2E icin olusturulan gecici uyelik Supabase `memberships` tablosundan silindi. Gecici workflow, test scripti ve test kodu dosyasi repodan silindi. Gercek kullanici uyeliklerine dokunulmadi.
+- Vercel: Bu calisma boyunca Vercel kullanilmadi; canli on yuz GitHub Pages, korumali PRO backend Supabase uzerinden dogrulandi.
+
+
 ### 2026-09-19 - Yari KG bagimsiz kanit fallback ve canli uye testi bulgusu
 
 - Canli uye E2E bulgusu: Gecici test uyeligiyle gercek Chromium akisi korumali PRO verisini acti ve AI Seffaflik 10 kart render etti. Ancak kartlarda Ilk Yari KG, Ikinci Yari KG ve IY/2Y KG ailesi yoktu; backend health bu market ailelerinin mevcut oldugunu gosteriyordu.
