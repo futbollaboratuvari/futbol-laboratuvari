@@ -1,9 +1,7 @@
 # Analiz Zorunlu Alan Kontrolu
 
-Durum: warning
-Toplam analiz: 17
-Tam analiz: 15
-Eksik analiz: 2
+Durum: empty
+Toplam analiz: 0
+Tam analiz: 0
+Eksik analiz: 0
 
-- Alianza Lima VS Adt: eksik score, confidence
-- Monterrey (K) VS Necaxa (K): eksik score, confidence
