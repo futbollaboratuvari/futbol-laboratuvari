@@ -1,200 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T17:59:32.544Z",
+  "generated_at": "2026-09-19T20:35:16.641Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-19T17:59:31.424Z",
+  "source_generated_at": "2026-09-19T20:35:15.567Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 4,
-    "ready_count": 4,
+    "live_match_count": 8,
+    "ready_count": 8,
     "waiting_count": 0,
-    "result_lean_count": 4,
-    "next_goal_lean_count": 4,
+    "result_lean_count": 8,
+    "next_goal_lean_count": 7,
     "high_goal_pressure_count": 0
   },
   "matches": [
     {
-      "fixture_id": "401881781",
+      "fixture_id": "401882859",
       "status": "ready",
-      "minute": 29,
+      "minute": 72,
       "score": {
         "home": 1,
-        "away": 0
+        "away": 3
       },
-      "home": "Grazer AK",
-      "away": "Austria Vienna",
-      "league": "Avusturya Bundesliga",
+      "home": "Sevilla",
+      "away": "Barcelona",
+      "league": "İspanya LaLiga",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T17:59:31.424Z",
-      "freshness_minutes": 0.018666666666666668,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Ev sahibi yönü",
-        "confidence": 78
-      },
-      "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 78
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 5
-      },
-      "signals": [
-        "Team Power: Grazer AK %100 · Austria Vienna %0.",
-        "Goal Power: Grazer AK %6 · Austria Vienna %0.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": 100,
-        "goal_power_diff": 6,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 0,
-        "total_shots_diff": 0,
-        "corners_diff": 0,
-        "xg_diff": 0,
-        "direction_score": 48.2,
-        "next_goal_score": 26
-      }
-    },
-    {
-      "fixture_id": "401841573",
-      "status": "ready",
-      "minute": 28,
-      "score": {
-        "home": 1,
-        "away": 0
-      },
-      "home": "Gimnasia La Plata",
-      "away": "Banfield",
-      "league": "Arjantin Premier Lig 2. Aşama",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T17:59:31.424Z",
-      "freshness_minutes": 0.018666666666666668,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Ev sahibi yönü",
-        "confidence": 78
-      },
-      "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 90
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 22
-      },
-      "signals": [
-        "Team Power: Gimnasia La Plata %87 · Banfield %13.",
-        "Goal Power: Gimnasia La Plata %27 · Banfield %3.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": 74,
-        "goal_power_diff": 24,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 1,
-        "total_shots_diff": 7,
-        "corners_diff": 2,
-        "xg_diff": 0,
-        "direction_score": 56.22,
-        "next_goal_score": 39.82
-      }
-    },
-    {
-      "fixture_id": "401899618",
-      "status": "ready",
-      "minute": 25,
-      "score": {
-        "home": 0,
-        "away": 1
-      },
-      "home": "Ascoli",
-      "away": "US Avellino",
-      "league": "İtalya Serie B",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T17:59:31.424Z",
-      "freshness_minutes": 0.018666666666666668,
+      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
+      "freshness_minutes": 0.0179,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -238,45 +74,45 @@
         "code": "AWAY",
         "label": "Sonraki gol eğilimi: Deplasman",
         "side": "away",
-        "strength": 86.66
+        "strength": 90
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 16
+        "score": 26
       },
       "signals": [
-        "Team Power: Ascoli %14 · US Avellino %86.",
-        "Goal Power: Ascoli %0 · US Avellino %20.",
+        "Team Power: Sevilla %23 · Barcelona %77.",
+        "Goal Power: Sevilla %9 · Barcelona %31.",
         "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": -72,
-        "goal_power_diff": -20,
+        "team_power_diff": -54,
+        "goal_power_diff": -22,
         "momentum_diff": 0,
-        "shots_on_goal_diff": -1,
-        "total_shots_diff": -4,
-        "corners_diff": -1,
+        "shots_on_goal_diff": -4,
+        "total_shots_diff": -13,
+        "corners_diff": -3,
         "xg_diff": 0,
-        "direction_score": -50.16,
-        "next_goal_score": -34.66
+        "direction_score": -107.62,
+        "next_goal_score": -53.12
       }
     },
     {
-      "fixture_id": "401841574",
+      "fixture_id": "401876457",
       "status": "ready",
-      "minute": 30,
+      "minute": 90,
       "score": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
-      "home": "Gimnasia (Mendoza)",
-      "away": "Deportivo Riestra",
-      "league": "Arjantin Premier Lig 2. Aşama",
+      "home": "Angers",
+      "away": "Troyes",
+      "league": "Fransa Ligue 1",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T17:59:31.424Z",
-      "freshness_minutes": 0.018666666666666668,
+      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
+      "freshness_minutes": 0.0179,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -308,41 +144,533 @@
       "primary_prediction": {
         "type": "match_direction",
         "label": "Ev sahibi yönü",
-        "confidence": 73
+        "confidence": 76
       },
       "result_lean": {
         "code": "1",
         "label": "Ev sahibi yönü",
         "side": "home",
-        "strength": 82.49000000000001
+        "strength": 86.52199999999999
+      },
+      "next_goal_lean": {
+        "code": null,
+        "label": "Sonraki gol için net ayrışma yok",
+        "side": "neutral",
+        "strength": 57.620000000000005
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 14
+      },
+      "signals": [
+        "Team Power: Angers %53 · Troyes %47.",
+        "Goal Power: Angers %15 · Troyes %15.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 6,
+        "goal_power_diff": 0,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 1,
+        "total_shots_diff": -5,
+        "corners_diff": -7,
+        "xg_diff": 0,
+        "direction_score": 40.58,
+        "next_goal_score": 1.38
+      }
+    },
+    {
+      "fixture_id": "401876455",
+      "status": "ready",
+      "minute": 90,
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "home": "Le Mans",
+      "away": "Lorient",
+      "league": "Fransa Ligue 1",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
+      "freshness_minutes": 0.0179,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
       },
       "next_goal_lean": {
         "code": "HOME",
         "label": "Sonraki gol eğilimi: Ev sahibi",
         "side": "home",
-        "strength": 78
+        "strength": 81.34
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 8
+        "score": 16
       },
       "signals": [
-        "Team Power: Gimnasia (Mendoza) %85 · Deportivo Riestra %15.",
-        "Goal Power: Gimnasia (Mendoza) %10 · Deportivo Riestra %1.",
+        "Team Power: Le Mans %64 · Lorient %36.",
+        "Goal Power: Le Mans %18 · Lorient %10.",
         "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 70,
-        "goal_power_diff": 9,
+        "team_power_diff": 28,
+        "goal_power_diff": 8,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 4,
+        "total_shots_diff": 1,
+        "corners_diff": -2,
+        "xg_diff": 0,
+        "direction_score": 51.74,
+        "next_goal_score": 29.34
+      }
+    },
+    {
+      "fixture_id": "401875597",
+      "status": "ready",
+      "minute": 73,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "home": "Willem II",
+      "away": "Fortuna Sittard",
+      "league": "Hollanda Eredivisie",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
+      "freshness_minutes": 0.0179,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "next_goal",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "confidence": 65
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 70.898
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 72.22
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 12
+      },
+      "signals": [
+        "Team Power: Willem II %62 · Fortuna Sittard %38.",
+        "Goal Power: Willem II %14 · Fortuna Sittard %8.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 24,
+        "goal_power_diff": 6,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 2,
+        "total_shots_diff": 3,
+        "corners_diff": 1,
+        "xg_diff": 0,
+        "direction_score": 23.22,
+        "next_goal_score": 20.22
+      }
+    },
+    {
+      "fixture_id": "401885431",
+      "status": "ready",
+      "minute": 45,
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "home": "Sporting CP",
+      "away": "Arouca",
+      "league": "Portekiz Premier Lig",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
+      "freshness_minutes": 0.0179,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 70.30000000000001
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 18
+      },
+      "signals": [
+        "Team Power: Sporting CP %70 · Arouca %30.",
+        "Goal Power: Sporting CP %21 · Arouca %10.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 40,
+        "goal_power_diff": 11,
         "momentum_diff": 0,
         "shots_on_goal_diff": 1,
-        "total_shots_diff": 1,
+        "total_shots_diff": -1,
         "corners_diff": 2,
         "xg_diff": 0,
-        "direction_score": 36.1,
-        "next_goal_score": 26
+        "direction_score": 54.9,
+        "next_goal_score": 18.3
+      }
+    },
+    {
+      "fixture_id": "401878984",
+      "status": "ready",
+      "minute": 89,
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "home": "Anderlecht",
+      "away": "Zulte-Waregem",
+      "league": "Belçika Pro Lig",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
+      "freshness_minutes": 0.0179,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 90
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 25
+      },
+      "signals": [
+        "Team Power: Anderlecht %72 · Zulte-Waregem %28.",
+        "Goal Power: Anderlecht %30 · Zulte-Waregem %12.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 44,
+        "goal_power_diff": 18,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 4,
+        "total_shots_diff": 5,
+        "corners_diff": 7,
+        "xg_diff": 0,
+        "direction_score": 123.02,
+        "next_goal_score": 41.62
+      }
+    },
+    {
+      "fixture_id": "401883206",
+      "status": "ready",
+      "minute": 76,
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "home": "Cádiz",
+      "away": "Girona",
+      "league": "İspanya 2.Lig",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
+      "freshness_minutes": 0.0179,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Deplasman yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "2",
+        "label": "Deplasman yönü",
+        "side": "away",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "AWAY",
+        "label": "Sonraki gol eğilimi: Deplasman",
+        "side": "away",
+        "strength": 74.62
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 20
+      },
+      "signals": [
+        "Team Power: Cádiz %38 · Girona %62.",
+        "Goal Power: Cádiz %14 · Girona %23.",
+        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": -24,
+        "goal_power_diff": -9,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": -2,
+        "total_shots_diff": -4,
+        "corners_diff": -2,
+        "xg_diff": 0,
+        "direction_score": -50.12,
+        "next_goal_score": -22.62
+      }
+    },
+    {
+      "fixture_id": "401841239",
+      "status": "ready",
+      "minute": 76,
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "home": "Atlético-MG",
+      "away": "Chapecoense",
+      "league": "Brezilya Serie A",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
+      "freshness_minutes": 0.0179,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 90
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 24
+      },
+      "signals": [
+        "Team Power: Atlético-MG %75 · Chapecoense %25.",
+        "Goal Power: Atlético-MG %29 · Chapecoense %8.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 50,
+        "goal_power_diff": 21,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 5,
+        "total_shots_diff": 11,
+        "corners_diff": 9,
+        "xg_diff": 0,
+        "direction_score": 67.1,
+        "next_goal_score": 54.4
       }
     }
   ]
