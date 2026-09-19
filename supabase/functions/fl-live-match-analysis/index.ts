@@ -1,6 +1,14 @@
 import { createClient } from "@supabase/supabase-js";
+import {
+  LIVE_LEARNING_VERSION,
+  buildObservationRows,
+  effectiveThreshold,
+  finalDirection,
+  profileSummary,
+  scoreDeltaOutcome,
+} from "./live-learning.mjs";
 
-const VERSION = "fl-live-match-analysis-v1";
+const VERSION = "fl-live-match-analysis-v2-learning";
 const STATE_ID = "current";
 const TOPIC = "live-match-analysis";
 const MAX_MATCHES = 12;
@@ -291,7 +299,7 @@ function evidenceScore(match: Row, snap: Row) {
   return clamp((ratio * 45) + ((Math.min(common, 8) / 8) * 20) + (snapshotCount >= 2 ? 15 : 5) + (momentumKnown ? 10 : 0) + (xgKnown ? 10 : 0));
 }
 
-function analyze(match: Row, snap: Row) {
+function analyze(match: Row, snap: Row, learningProfiles: Row = {}) {
   const minute = finite(snap?.minute) ?? 0;
   const ratio = finite(snap?.data_coverage?.ratio) ?? 0;
   const common = finite(snap?.data_coverage?.common_metric_count) ?? 0;
@@ -312,18 +320,20 @@ function analyze(match: Row, snap: Row) {
   const scoreWeight = minute >= 70 ? 24 : minute >= 45 ? 16 : 9;
   const directionScore = (teamDiff * 0.38) + (goalDiff * 0.2) + (momentumDiff * 0.12) + (sotDiff * 4.2) + (shotDiff * 1.1) + (cornerDiff * 1.2) + (xgDiff * 12) + ((homeScore - awayScore) * scoreWeight);
   const nextGoalScore = (teamDiff * 0.23) + (goalDiff * 0.5) + (momentumDiff * 0.17) + (sotDiff * 4.5) + (shotDiff * 0.9) + (xgDiff * 14);
+  const directionThreshold = effectiveThreshold("match_direction", learningProfiles?.match_direction) ?? 18;
+  const nextGoalThreshold = effectiveThreshold("next_goal", learningProfiles?.next_goal) ?? 14;
 
-  const resultLean = directionScore >= 18
+  const resultLean = directionScore >= directionThreshold
     ? { code: "1", label: "Ev sahibi yönü", side: "home", strength: clamp(50 + Math.abs(directionScore) * 0.9, 50, 90) }
-    : directionScore <= -18
+    : directionScore <= -directionThreshold
       ? { code: "2", label: "Deplasman yönü", side: "away", strength: clamp(50 + Math.abs(directionScore) * 0.9, 50, 90) }
       : homeScore === awayScore && minute >= 55 && Math.abs(directionScore) <= 10
         ? { code: "X", label: "Beraberlik yönü", side: "draw", strength: clamp(68 - Math.abs(directionScore), 50, 72) }
         : { code: null, label: "Taraf için ayrışma yok", side: "neutral", strength: 50 };
 
-  const nextGoalLean = nextGoalScore >= 14
+  const nextGoalLean = nextGoalScore >= nextGoalThreshold
     ? { code: "HOME", label: "Sonraki gol eğilimi: Ev sahibi", side: "home", strength: clamp(52 + Math.abs(nextGoalScore), 52, 90) }
-    : nextGoalScore <= -14
+    : nextGoalScore <= -nextGoalThreshold
       ? { code: "AWAY", label: "Sonraki gol eğilimi: Deplasman", side: "away", strength: clamp(52 + Math.abs(nextGoalScore), 52, 90) }
       : { code: null, label: "Sonraki gol için net ayrışma yok", side: "neutral", strength: 50 };
 
@@ -364,14 +374,160 @@ function analyze(match: Row, snap: Row) {
     goal_pressure: goalPressure,
     signals,
     confidence_semantics: "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+    live_learning: {
+      version: LIVE_LEARNING_VERSION,
+      match_direction: profileSummary(learningProfiles?.match_direction, "match_direction"),
+      next_goal: profileSummary(learningProfiles?.next_goal, "next_goal"),
+    },
     diagnostics: {
       direction_score: Number(directionScore.toFixed(2)),
       next_goal_score: Number(nextGoalScore.toFixed(2)),
+      direction_threshold: directionThreshold,
+      next_goal_threshold: nextGoalThreshold,
       team_power_diff: Number(teamDiff.toFixed(2)),
       goal_power_diff: Number(goalDiff.toFixed(2)),
       momentum_diff: Number(momentumDiff.toFixed(2)),
     },
   };
+}
+
+
+function eventScore(event: Row) {
+  const home = finite(competitor(event, "home")?.score);
+  const away = finite(competitor(event, "away")?.score);
+  return home === null || away === null ? null : { home, away };
+}
+
+function isFinished(event: Row) {
+  const status = event?.status?.type || event?.competitions?.[0]?.status?.type || {};
+  const name = String(status?.name || "");
+  return status.completed === true
+    && /^STATUS_(FULL_TIME|FINAL|FINAL_PEN|FINAL_AET|END_OF_EXTRA_TIME)$/.test(name);
+}
+
+async function loadLearningProfiles(admin: any) {
+  const { data, error } = await admin.from("live_learning_profiles")
+    .select("prediction_type,settled_count,won_count,lost_count,void_count,distinct_match_count,distinct_date_count,success_rate,wilson_low,wilson_high,learning_state,threshold_adjustment,updated_at");
+  if (error) {
+    console.warn("live_learning_profile_read", error.message);
+    return {};
+  }
+  return Object.fromEntries((Array.isArray(data) ? data : []).map((row: Row) => [String(row.prediction_type), row]));
+}
+
+async function refreshLearningProfiles(admin: any) {
+  const { error } = await admin.rpc("refresh_live_learning_profiles");
+  if (error) {
+    console.warn("live_learning_profile_refresh", error.message);
+    return false;
+  }
+  return true;
+}
+
+async function resolveNextGoalPredictions(admin: any, fixtureId: string, previousScore: Row, currentScore: Row, resolvedAt: string) {
+  const outcome = scoreDeltaOutcome(previousScore, currentScore);
+  if (!outcome) return false;
+  const resolution = String(outcome.resolution || "");
+  const base = {
+    resolved_at: resolvedAt,
+    resolution_code: resolution,
+    resolved_score_home: Number(currentScore.home),
+    resolved_score_away: Number(currentScore.away),
+    updated_at: resolvedAt,
+  };
+
+  if (resolution === "AMBIGUOUS") {
+    const { error } = await admin.from("live_learning_observations")
+      .update({ ...base, status: "void" })
+      .eq("fixture_id", fixtureId)
+      .eq("prediction_type", "next_goal")
+      .eq("status", "pending");
+    if (error) console.warn("live_learning_next_goal_void", error.message);
+    return true;
+  }
+
+  const [won, lost] = await Promise.all([
+    admin.from("live_learning_observations")
+      .update({ ...base, status: "won" })
+      .eq("fixture_id", fixtureId)
+      .eq("prediction_type", "next_goal")
+      .eq("status", "pending")
+      .eq("predicted_code", resolution),
+    admin.from("live_learning_observations")
+      .update({ ...base, status: "lost" })
+      .eq("fixture_id", fixtureId)
+      .eq("prediction_type", "next_goal")
+      .eq("status", "pending")
+      .neq("predicted_code", resolution),
+  ]);
+  if (won.error) console.warn("live_learning_next_goal_won", won.error.message);
+  if (lost.error) console.warn("live_learning_next_goal_lost", lost.error.message);
+  return true;
+}
+
+async function settleFinishedLearning(admin: any, event: Row, previous: Row | null, resolvedAt: string) {
+  const fixtureId = String(event?.id || event?.competitions?.[0]?.id || "").trim();
+  const finalScore = eventScore(event);
+  if (!fixtureId || !finalScore) return false;
+
+  if (previous?.current?.score) {
+    await resolveNextGoalPredictions(admin, fixtureId, previous.current.score, finalScore, resolvedAt);
+  }
+
+  const { error: voidError } = await admin.from("live_learning_observations")
+    .update({
+      status: "void",
+      resolved_at: resolvedAt,
+      resolution_code: "NO_OBSERVABLE_NEXT_GOAL_BEFORE_FINISH",
+      resolved_score_home: Number(finalScore.home),
+      resolved_score_away: Number(finalScore.away),
+      updated_at: resolvedAt,
+    })
+    .eq("fixture_id", fixtureId)
+    .eq("prediction_type", "next_goal")
+    .eq("status", "pending");
+  if (voidError) console.warn("live_learning_next_goal_finish_void", voidError.message);
+
+  const direction = finalDirection(finalScore);
+  if (!direction) return true;
+  const base = {
+    resolved_at: resolvedAt,
+    resolution_code: direction,
+    resolved_score_home: Number(finalScore.home),
+    resolved_score_away: Number(finalScore.away),
+    updated_at: resolvedAt,
+  };
+  const [won, lost] = await Promise.all([
+    admin.from("live_learning_observations")
+      .update({ ...base, status: "won" })
+      .eq("fixture_id", fixtureId)
+      .eq("prediction_type", "match_direction")
+      .eq("status", "pending")
+      .eq("predicted_code", direction),
+    admin.from("live_learning_observations")
+      .update({ ...base, status: "lost" })
+      .eq("fixture_id", fixtureId)
+      .eq("prediction_type", "match_direction")
+      .eq("status", "pending")
+      .neq("predicted_code", direction),
+  ]);
+  if (won.error) console.warn("live_learning_direction_won", won.error.message);
+  if (lost.error) console.warn("live_learning_direction_lost", lost.error.message);
+  return true;
+}
+
+async function persistLearningObservations(admin: any, matches: Row[], recordedAt: string) {
+  const rows = matches.flatMap((match: Row) =>
+    buildObservationRows(match, match.current, match.live_analysis, recordedAt)
+  );
+  if (!rows.length) return 0;
+  const { error } = await admin.from("live_learning_observations")
+    .upsert(rows, { onConflict: "observation_key", ignoreDuplicates: true });
+  if (error) {
+    console.warn("live_learning_observation_write", error.message);
+    return 0;
+  }
+  return rows.length;
 }
 
 function mergeSnapshot(previous: Row[], snapshot: Row) {
@@ -422,8 +578,30 @@ function buildSnapshot(event: Row, previous: Row | null, recordedAt: string) {
 async function collect(admin: any, previousPayload: Row) {
   const recordedAt = nowIso();
   const scoreboard = await fetchScoreboard();
-  const events = (Array.isArray(scoreboard?.events) ? scoreboard.events : []).filter(isLive);
+  const allEvents = Array.isArray(scoreboard?.events) ? scoreboard.events : [];
+  const events = allEvents.filter(isLive);
   const previousMap = new Map((Array.isArray(previousPayload?.matches) ? previousPayload.matches : []).map((row: Row) => [String(row.fixture_id), row]));
+
+  let learningResolutionTouched = false;
+  for (const event of allEvents) {
+    const fixtureId = String(event?.id || event?.competitions?.[0]?.id || "").trim();
+    const previous = previousMap.get(fixtureId) || null;
+    if (!fixtureId || !previous) continue;
+
+    if (isLive(event)) {
+      const currentScore = eventScore(event);
+      if (currentScore && previous?.current?.score) {
+        const touched = await resolveNextGoalPredictions(admin, fixtureId, previous.current.score, currentScore, recordedAt);
+        learningResolutionTouched = learningResolutionTouched || touched;
+      }
+    } else if (isFinished(event)) {
+      const touched = await settleFinishedLearning(admin, event, previous, recordedAt);
+      learningResolutionTouched = learningResolutionTouched || touched;
+    }
+  }
+
+  if (learningResolutionTouched) await refreshLearningProfiles(admin);
+  const learningProfiles = await loadLearningProfiles(admin);
 
   const candidates: Row[] = [];
   for (const event of events) {
@@ -476,11 +654,13 @@ async function collect(admin: any, previousPayload: Row) {
       snapshots,
       current: snapshots[snapshots.length - 1],
       updated_at: recordedAt,
+      robot_version: VERSION,
     };
-    match.live_analysis = analyze(match, match.current);
+    match.live_analysis = analyze(match, match.current, learningProfiles);
     return match;
   });
 
+  const learningObservationCount = await persistLearningObservations(admin, matches, recordedAt);
   const readyCount = matches.filter((row) => row.live_analysis?.status === "ready").length;
   const payload = {
     schema_version: 2,
@@ -497,6 +677,16 @@ async function collect(admin: any, previousPayload: Row) {
       max_matches_per_run: MAX_MATCHES,
       max_snapshots_per_match: MAX_SNAPSHOTS,
       github_runtime_dependency: false,
+    },
+    learning: {
+      version: LIVE_LEARNING_VERSION,
+      observation_rows_considered: learningObservationCount,
+      profile_refresh_triggered: learningResolutionTouched,
+      profiles: {
+        match_direction: profileSummary(learningProfiles?.match_direction, "match_direction"),
+        next_goal: profileSummary(learningProfiles?.next_goal, "next_goal"),
+      },
+      policy: "40 sonuç + 20 farklı maç + 7 farklı gün oluşmadan eşik değişmez; değişim oluşursa maç yönünde/sonraki golde yalnız -1 boost veya +2 fren uygulanır.",
     },
     summary: {
       espn_live_event_count: events.length,
@@ -573,6 +763,7 @@ Deno.serve(async (req: Request) => {
         source_generated_at: data?.source_generated_at || null,
         live_match_count: payload?.summary?.sampled_match_count || 0,
         robot_ready_count: payload?.summary?.robot_ready_count || 0,
+        live_learning: payload?.learning || null,
         status: payload?.status || "empty",
       });
     }
