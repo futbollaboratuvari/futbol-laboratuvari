@@ -8,7 +8,7 @@ const file = path.join(__dirname, "..", "nesine-coupon-assistant.js");
 const source = fs.readFileSync(file, "utf8");
 
 assert.doesNotThrow(() => new Function(source), "Kupon Asistanı JavaScript sözdizimi bozuk");
-assert.match(source, /POOL_URL\\s*=\\s*[\'"]\\.\\/data\\/coupon-assistant-pool\\.json[\'"]/, "Kompakt PRO aday havuzu kaynağı eksik");
+assert.match(source, /POOL_URL\s*=\s*['"]\.\/data\/coupon-assistant-pool\.json['"]/, "Kompakt PRO aday havuzu kaynağı eksik");
 assert.match(source, /Promise\.allSettled/, "günlük kupon ve kompakt PRO aday havuzu birlikte okunmalı");
 assert.match(source, /manual_candidate:\s*true/, "manuel PRO aday işareti eksik");
 assert.match(source, /isUpcomingCandidate/, "başlamış maç filtresi eksik");
@@ -19,9 +19,9 @@ assert.doesNotMatch(source, /2026-07-03/, "eski sabit kaynak tarihi koda sızmam
 
 const indexSource = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
 const cacheSource = fs.readFileSync(path.join(__dirname, "..", "cache-version.js"), "utf8");
-assert.match(indexSource, /deploy-version" content="20260919-kupon-htft-fresh-v1"/, "deploy version Kupon Asistanı düzeltmesini yayınlamalı");
-assert.match(indexSource, /cache-version\.js\?v=20260919-kupon-htft-fresh-v1/, "cache loader URL sürümü güncel olmalı");
-assert.match(indexSource, /nav-routing\.js\?v=20260919-kupon-htft-fresh-v1/, "Kupon Asistanı yükleyicisi cache-bust ile yenilenmeli");
-assert.match(cacheSource, /const version = "20260919-kupon-htft-fresh-v1"/, "dinamik HTFT varlık sürümü güncel olmalı");
+assert.match(indexSource, /deploy-version" content="20260919-kupon-pool-v2"/, "deploy version Kupon Asistanı düzeltmesini yayınlamalı");
+assert.match(indexSource, /cache-version\.js\?v=20260919-kupon-pool-v2/, "cache loader URL sürümü güncel olmalı");
+assert.match(indexSource, /nav-routing\.js\?v=20260919-kupon-pool-v2/, "Kupon Asistanı yükleyicisi cache-bust ile yenilenmeli");
+assert.match(cacheSource, /const version = "20260919-kupon-pool-v2"/, "dinamik HTFT varlık sürümü güncel olmalı");
 
 console.log("kupon-assistant.test.js: OK");
