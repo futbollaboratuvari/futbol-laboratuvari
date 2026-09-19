@@ -67,8 +67,7 @@ try:
     input_el.clear()
     input_el.send_keys(TEST_MEMBER_CODE)
     unlock = driver.find_element(By.CSS_SELECTOR, "[data-pa3-unlock]")
-    driver.execute_script("arguments[0].scrollIntoView({block:'center', inline:'center'});", unlock)
-    wait.until(lambda d: d.execute_script("const r=arguments[0].getBoundingClientRect(); return r.top>=0 && r.bottom<=innerHeight;", unlock))
+    driver.execute_script("arguments[0].focus();", unlock)
     unlock.send_keys(Keys.ENTER)
 
     wait.until(lambda d: d.find_element(By.CSS_SELECTOR, "[data-pa3-code-active]").is_displayed())
