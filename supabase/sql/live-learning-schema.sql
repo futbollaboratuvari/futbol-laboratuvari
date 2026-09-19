@@ -77,18 +77,49 @@ security invoker
 set search_path = ''
 as $$
 begin
-  with stats as (
+  with prediction_types(prediction_type) as (
+    values ('match_direction'::text), ('next_goal'::text)
+  ),
+  ranked_settled as (
     select
+      id,
       prediction_type,
-      count(*) filter (where status in ('won', 'lost'))::integer as settled_count,
-      count(*) filter (where status = 'won')::integer as won_count,
-      count(*) filter (where status = 'lost')::integer as lost_count,
-      count(*) filter (where status = 'void')::integer as void_count,
-      count(distinct fixture_id) filter (where status in ('won', 'lost'))::integer as distinct_match_count,
-      count(distinct (observed_at at time zone 'Europe/Istanbul')::date)
-        filter (where status in ('won', 'lost'))::integer as distinct_date_count
+      fixture_id,
+      observed_at,
+      status,
+      row_number() over (
+        partition by prediction_type, fixture_id
+        order by observed_at asc, id asc
+      ) as fixture_rank
     from public.live_learning_observations
+    where status in ('won', 'lost')
+  ),
+  independent_settled as (
+    select id, prediction_type, fixture_id, observed_at, status
+    from ranked_settled
+    where fixture_rank = 1
+  ),
+  void_stats as (
+    select prediction_type, count(*)::integer as void_count
+    from public.live_learning_observations
+    where status = 'void'
     group by prediction_type
+  ),
+  stats as (
+    select
+      pt.prediction_type,
+      count(s.id)::integer as settled_count,
+      count(s.id) filter (where s.status = 'won')::integer as won_count,
+      count(s.id) filter (where s.status = 'lost')::integer as lost_count,
+      coalesce(max(v.void_count), 0)::integer as void_count,
+      count(distinct s.fixture_id)::integer as distinct_match_count,
+      count(distinct (s.observed_at at time zone 'Europe/Istanbul')::date)::integer as distinct_date_count
+    from prediction_types pt
+    left join independent_settled s
+      on s.prediction_type = pt.prediction_type
+    left join void_stats v
+      on v.prediction_type = pt.prediction_type
+    group by pt.prediction_type
   ),
   rates as (
     select

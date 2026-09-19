@@ -123,6 +123,8 @@ const { pathToFileURL } = require("node:url");
   assert.match(sql, /alter table public\.live_learning_observations enable row level security/i);
   assert.match(sql, /revoke all on table public\.live_learning_observations from public, anon, authenticated/i);
   assert.match(sql, /grant .* to service_role/i);
+  assert.match(sql, /row_number\(\) over\s*\([\s\S]*partition by prediction_type, fixture_id/i);
+  assert.match(sql, /where fixture_rank = 1/i);
   assert.match(sql, /security invoker/i);
   assert.doesNotMatch(sql, /security definer/i);
 
