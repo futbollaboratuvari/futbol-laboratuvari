@@ -16,6 +16,7 @@ permissions:
   contents: write
 
 concurrency:
+  # Shared with HTFT because both workflows can update data/robot-analysis.json.
   group: futbol-main-data-writer
   cancel-in-progress: false
 
