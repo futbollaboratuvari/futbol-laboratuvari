@@ -128,12 +128,18 @@ export function observationKey(fixtureId, predictionType, minute) {
   return [fixture, type, minuteBucket(minute)].join(":");
 }
 
+function scoreNumber(value) {
+  if (value === null || value === undefined || String(value).trim() === "") return null;
+  const number = Number(value);
+  return Number.isFinite(number) ? number : null;
+}
+
 export function scoreDeltaOutcome(previousScore, currentScore) {
-  const ph = Number(previousScore?.home);
-  const pa = Number(previousScore?.away);
-  const ch = Number(currentScore?.home);
-  const ca = Number(currentScore?.away);
-  if (![ph, pa, ch, ca].every(Number.isFinite)) return null;
+  const ph = scoreNumber(previousScore?.home);
+  const pa = scoreNumber(previousScore?.away);
+  const ch = scoreNumber(currentScore?.home);
+  const ca = scoreNumber(currentScore?.away);
+  if ([ph, pa, ch, ca].some((value) => value === null)) return null;
 
   const homeDelta = ch - ph;
   const awayDelta = ca - pa;
@@ -145,9 +151,9 @@ export function scoreDeltaOutcome(previousScore, currentScore) {
 }
 
 export function finalDirection(score) {
-  const home = Number(score?.home);
-  const away = Number(score?.away);
-  if (!Number.isFinite(home) || !Number.isFinite(away)) return null;
+  const home = scoreNumber(score?.home);
+  const away = scoreNumber(score?.away);
+  if (home === null || away === null) return null;
   if (home > away) return "1";
   if (away > home) return "2";
   return "X";
