@@ -124,7 +124,7 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Canli site: Custom domain HTTP yaniti saglikliydi. Dinamik canli backend dogrulamasi Supabase live_match_state ve production Edge Function state'i uzerinden yapildi; Vercel kullanilmadi ve dogrulama olcutu sayilmadi.
 - Etkilenen dosyalar: supabase/functions/fl-live-match-analysis/index.ts, supabase/functions/fl-live-match-analysis/live-learning.mjs, supabase/sql/live-learning-schema.sql, tests/live-learning-memory.test.js, .github/workflows/live-match-analysis-ci.yml, package.json, DONT_TOUCH.md.
 - Geri alma: Ogrenme tablolari ve profil katmani canli state'ten ayridir. Edge Function V1'e geri donerse mevcut ogrenme kayitlari canli tahmini etkilemez ve silinmez. Schema tablolari veri kaybi riski nedeniyle otomatik drop edilmez; geri alma gerekiyorsa once Edge V1'e donulur, kayitlar korunur.
-- PR: #102 Canli robot icin guvenli ogrenme hafizasi V1, dal feat/live-learning-memory-v1-20260920.
+- Kapanis: PR #102 Canli robot icin guvenli ogrenme hafizasi V1 merge edildi; merge commit 6f16ead9000b3c303339b90a017efc18ceceb66d. Dal feat/live-learning-memory-v1-20260920.
 
 ### 2026-09-18 - Realtime CSP ve dogru baglanti durumu V3
 
