@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T23:24:50.185Z",
+  "generated_at": "2026-09-19T04:47:49.079Z",
   "date": "2026-09-19",
   "requested_date": "2026-09-19",
   "date_fallback_used": false,
@@ -16,138 +16,29 @@
   ],
   "scan_count": 24,
   "scheduled_scan_count": 22,
-  "official_match_count": 1144,
-  "official_htft_match_count": 175,
-  "official_high_odds_match_count": 175,
-  "identity_match_count": 9,
+  "official_match_count": 1126,
+  "official_htft_match_count": 173,
+  "official_high_odds_match_count": 173,
+  "identity_match_count": 1,
   "matched_by_official_id_count": 0,
   "matched_by_date_teams_count": 0,
-  "matched_by_date_time_similarity_count": 9,
+  "matched_by_date_time_similarity_count": 1,
   "ambiguous_identity_count": 0,
-  "unmatched_identity_count": 13,
-  "candidate_count": 2,
-  "selected_count": 1,
+  "unmatched_identity_count": 21,
+  "candidate_count": 0,
+  "selected_count": 0,
   "target_card_count": 3,
-  "status": "insufficient_specialist_quality",
+  "status": "insufficient_verified_odds",
   "odds_label": "Resmî İddaa İY/MS oranı",
   "confidence_label": "Model güveni bir sonuç olasılığı değil, senaryo sinyal gücüdür.",
-  "message": "Resmî yüksek oranlı İY/MS adayları bulundu ancak uzman V4 kalite kapısından yeterli seçim geçmedi.",
-  "picks": [
-    {
-      "match_code": "25022",
-      "iddaa_event_id": "3136597",
-      "identity_match_source": "date_time_team_similarity",
-      "identity_match_score": 80,
-      "date": "2026-09-19",
-      "time": "02:30",
-      "league": "ABD MLS",
-      "home": "New York City",
-      "away": "New York",
-      "match_name": "New York City VS New York",
-      "market": "2/1",
-      "model_confidence": 71,
-      "scenario_probability": 8.5,
-      "bookmaker_odds": 21.95,
-      "real_odds": 21.95,
-      "model_odds": 21.95,
-      "odds_source": "iddaa.com resmi futbol bülteni",
-      "odds_verified": true,
-      "risk_level": "Yüksek",
-      "data_completeness": 70,
-      "source_model_score": 70,
-      "first_half_signal_source": "official_iddaa_first_half",
-      "first_half_signal_verified": true,
-      "openness_score": 0.609,
-      "reversal_joint_probability": 11.4,
-      "first_half_direction_probability": 22.5,
-      "full_time_direction_probability": 50.8,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %70, ana model gücü %70. Market uzman kararı (downgrade): İlk yarı yön desteği sınırlı (%22.5). Resmî maç eşleşmesi benzerlik ile %80 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil.",
-      "specialist_decision": "downgrade",
-      "specialist_eligible": true,
-      "specialist_quality_score": 65,
-      "market_specialist": {
-        "version": "market-specialist-gates-v4",
-        "market": "2/1",
-        "delta": -4,
-        "applied": true,
-        "decision": "downgrade",
-        "eligible": true,
-        "quality_score": 65,
-        "support_count": 7,
-        "support_total": 8,
-        "evidence_known_count": 8,
-        "evidence_coverage_score": 100,
-        "missing_evidence": [],
-        "support_checks": [
-          {
-            "name": "resmî İY/MS oranı",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "doğrulanmış ilk yarı yönü",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "açık oyun skoru",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "veri kapsamı",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "senaryo olasılığı",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "ilk yarı yön olasılığı",
-            "available": true,
-            "ok": false
-          },
-          {
-            "name": "maç sonu yön olasılığı",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "oran/value uyumu",
-            "available": true,
-            "ok": true
-          }
-        ],
-        "value_ratio": 1.866,
-        "implied_probability": 4.56,
-        "mode": "htft_reversal_gate_v4",
-        "reasons": [
-          "İlk yarı yön desteği sınırlı (%22.5).",
-          "Resmî maç eşleşmesi benzerlik ile %80 güven seviyesinde yapıldı.",
-          "Kadro/ilk 11 verisi tam güvenli değil."
-        ],
-        "original_model_score": 75,
-        "adjusted_model_score": 71
-      }
-    }
-  ],
-  "rejected_picks": [
-    {
-      "match_name": "Racing Club VS Sarmiento",
-      "market": "2/1",
-      "bookmaker_odds": 28,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %64, ana model gücü %75. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %18.6. Açık oyun skoru 45/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%64). İlk yarı yön desteği sınırlı (%18.6). Kadro/ilk 11 verisi tam güvenli değil."
-    }
-  ],
+  "message": "Bugün en az iki adet doğrulanmış yüksek oranlı 1/2 veya 2/1 adayı bulunamadı; model oranı gösterilmedi.",
+  "picks": [],
+  "rejected_picks": [],
   "market_specialist": {
     "version": "market-specialist-gates-v4",
-    "htft_picks_checked": 2,
-    "htft_picks_rejected": 1,
-    "htft_picks_eligible": 1,
+    "htft_picks_checked": 0,
+    "htft_picks_rejected": 0,
+    "htft_picks_eligible": 0,
     "selection_policy": "Tüm doğrulanmış adaylar uzman v4 kapısından geçer; sonra en iyi 3 benzersiz maç seçilir.",
     "probability_policy": "Senaryo olasılığı değiştirilmez; uzman v4 yalnız doğrulanmış sinyallerle keep/downgrade/block kararı verir."
   }
