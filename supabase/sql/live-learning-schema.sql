@@ -32,7 +32,7 @@ comment on table public.live_learning_observations is
 
 alter table public.live_learning_observations enable row level security;
 
-revoke all on table public.live_learning_observations from anon, authenticated;
+revoke all on table public.live_learning_observations from public, anon, authenticated;
 grant select, insert, update, delete on table public.live_learning_observations to service_role;
 
 create index if not exists live_learning_pending_idx
@@ -63,7 +63,7 @@ comment on table public.live_learning_profiles is
 
 alter table public.live_learning_profiles enable row level security;
 
-revoke all on table public.live_learning_profiles from anon, authenticated;
+revoke all on table public.live_learning_profiles from public, anon, authenticated;
 grant select, insert, update, delete on table public.live_learning_profiles to service_role;
 
 insert into public.live_learning_profiles (prediction_type)
