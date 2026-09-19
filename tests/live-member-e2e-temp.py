@@ -53,6 +53,15 @@ try:
     driver.set_page_load_timeout(60)
     driver.get(LIVE_URL + "/?member-e2e=1#membership-code-access")
 
+    try:
+        reject = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, '[data-cookie-choice="reject"]'))
+        )
+        reject.click()
+        wait.until(lambda d: not d.find_elements(By.ID, "fl-cookie-backdrop"))
+    except Exception:
+        pass
+
     input_el = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "[data-pa3-code]")))
     input_el.clear()
     input_el.send_keys(TEST_MEMBER_CODE)
