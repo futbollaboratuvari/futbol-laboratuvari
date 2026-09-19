@@ -414,17 +414,36 @@ function analyzeMatch(item, targetDate, officialById, resolvedEvent) {
   };
 }
 
-function dateInIstanbul(value) {
+function clockInIstanbul(value) {
   const parsed = value ? new Date(value) : new Date();
   const safeDate = Number.isNaN(parsed.getTime()) ? new Date() : parsed;
   const parts = new Intl.DateTimeFormat('en-CA', {
     timeZone: 'Europe/Istanbul',
     year: 'numeric',
     month: '2-digit',
-    day: '2-digit'
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hourCycle: 'h23'
   }).formatToParts(safeDate);
   const bag = Object.fromEntries(parts.map((part) => [part.type, part.value]));
-  return `${bag.year}-${bag.month}-${bag.day}`;
+  return {
+    date: `${bag.year}-${bag.month}-${bag.day}`,
+    time: `${bag.hour}:${bag.minute}`
+  };
+}
+
+function dateInIstanbul(value) {
+  return clockInIstanbul(value).date;
+}
+
+function isUpcomingAtClock(item, targetDate, clock) {
+  const date = String(item?.date || targetDate || '').slice(0, 10);
+  if (date && clock?.date && date > clock.date) return true;
+  if (date && clock?.date && date < clock.date) return false;
+  const time = kickoffTime(item);
+  if (!time || !clock?.time) return true;
+  return time > clock.time;
 }
 
 function selectCandidates(analyzed) {
@@ -440,11 +459,12 @@ function selectCandidates(analyzed) {
   return selected;
 }
 
-function analyzeDate(matches, targetDate, officialById) {
+function analyzeDate(matches, targetDate, officialById, clock = clockInIstanbul()) {
   const scanMatches = matches.filter((item) => !item.date || String(item.date).slice(0, 10) === targetDate);
   const scheduledScanMatches = scanMatches.filter((item) => {
     const status = String(item.status || 'scheduled').toLowerCase();
-    return ['scheduled', 'not_started', 'upcoming', 'fixture'].includes(status);
+    return ['scheduled', 'not_started', 'upcoming', 'fixture'].includes(status)
+      && isUpcomingAtClock(item, targetDate, clock);
   });
   const identityStats = {
     matched_by_id: 0,
@@ -456,6 +476,7 @@ function analyzeDate(matches, targetDate, officialById) {
   const analyzed = [];
   for (const item of scheduledScanMatches) {
     const resolution = resolveOfficialEvent(item, officialById);
+    if (resolution.event && !isUpcomingAtClock(resolution.event, targetDate, clock)) continue;
     if (['iddaa_event_id', 'event_id', 'shared_match_code'].includes(resolution.source)) identityStats.matched_by_id += 1;
     else if (['date_teams', 'date_teams_time'].includes(resolution.source)) identityStats.matched_by_date_teams += 1;
     else if (resolution.source === 'date_time_team_similarity') identityStats.matched_by_similarity += 1;
@@ -470,7 +491,7 @@ function analyzeDate(matches, targetDate, officialById) {
   const officialMatches = [...officialById.values()].filter((event) => {
     const date = String(event?.date || '').slice(0, 10);
     const status = String(event?.status || 'scheduled').toLowerCase();
-    return (!date || date === targetDate) && status !== 'live';
+    return (!date || date === targetDate) && status !== 'live' && isUpcomingAtClock(event, targetDate, clock);
   });
   const officialHtftMatchCount = officialMatches.filter((event) => Object.keys(officialHtFtOdds(event)).length).length;
   const officialHighOddsMatchCount = officialMatches.filter((event) => Object.values(officialHtFtOdds(event))
@@ -492,9 +513,10 @@ function analyzeDate(matches, targetDate, officialById) {
   };
 }
 
-async function buildOutput(source, officialBulletin) {
+async function buildOutput(source, officialBulletin, options = {}) {
   const matches = collectMatches(source);
   const officialById = officialEventMap(officialBulletin);
+  const clock = clockInIstanbul(options.now);
   const explicitDate = String(source.date || '').slice(0, 10);
   const requestedDate = /^\d{4}-\d{2}-\d{2}$/.test(explicitDate)
     ? explicitDate
@@ -504,12 +526,12 @@ async function buildOutput(source, officialBulletin) {
     .filter((date) => /^\d{4}-\d{2}-\d{2}$/.test(date) && date >= requestedDate))]
     .sort();
   const evaluatedDates = [...new Set([requestedDate, ...futureDates])];
-  const evaluations = evaluatedDates.map((date) => analyzeDate(matches, date, officialById));
+  const evaluations = evaluatedDates.map((date) => analyzeDate(matches, date, officialById, clock));
   const readyEvaluation = evaluations.find((entry) => entry.selected.length >= 2);
   const bestEvaluation = evaluations.reduce((best, entry) => (
     !best || entry.selected.length > best.selected.length ? entry : best
   ), null);
-  const evaluation = readyEvaluation || bestEvaluation || analyzeDate(matches, requestedDate, officialById);
+  const evaluation = readyEvaluation || bestEvaluation || analyzeDate(matches, requestedDate, officialById, clock);
   const {
     targetDate,
     scanMatches,
@@ -604,7 +626,9 @@ module.exports = {
   officialFirstHalfOdds,
   officialHtFtOdds,
   resolveOfficialEvent,
-  selectionKey
+  selectionKey,
+  clockInIstanbul,
+  isUpcomingAtClock
 };
 
 if (require.main === module) {
