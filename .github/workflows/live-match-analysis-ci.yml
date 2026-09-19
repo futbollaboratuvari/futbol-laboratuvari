@@ -44,6 +44,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            scripts
+            tests
+            supabase/functions/fl-live-match-analysis
+            supabase/sql
+            data/live-power-series.json
+            data/live-match-analysis.json
+            index.html
+            cache-version.js
+            nav-routing.js
+            site-human-language.js
+            live-power-center-v1.js
+            package.json
+          sparse-checkout-cone-mode: false
 
       - name: Setup Node
         uses: actions/setup-node@v4
