@@ -144,6 +144,8 @@ function findResultForMatch(match, results) {
 }
 
 function scoreText(home, away) {
+  if (home === null || home === undefined || away === null || away === undefined) return "";
+  if (String(home).trim() === "" || String(away).trim() === "") return "";
   const h = Number(home);
   const a = Number(away);
   return Number.isFinite(h) && Number.isFinite(a) ? `${h}-${a}` : "";
@@ -514,6 +516,7 @@ module.exports = {
   sportsDbResults,
   teamSimilarity,
   requiresHalfTimeScore,
+  scoreText,
 };
 
 
