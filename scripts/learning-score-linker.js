@@ -41,6 +41,21 @@ function scoreOf(item) {
   return "";
 }
 
+function halfTimeScoreOf(item) {
+  const direct = String(item.half_time_score || item.halftime_score || item.ht_score || item.halfTimeScore || "");
+  const m = direct.match(/(\d+)\D+(\d+)/);
+  if (m) return `${Number(m[1])}-${Number(m[2])}`;
+  const h = item.halfTimeHome ?? item.halftime_home ?? item.ht_home;
+  const a = item.halfTimeAway ?? item.halftime_away ?? item.ht_away;
+  if (h !== undefined && a !== undefined && h !== "" && a !== "") return `${Number(h)}-${Number(a)}`;
+  return "";
+}
+
+function needsHalfTimeScore(item) {
+  const market = String(item?.market || item?.recommended_market || item?.selection || "").toLocaleLowerCase("tr-TR");
+  return /ilk yarı kg|ilk yari kg|ikinci yarı kg|ikinci yari kg|iy\/ms|ht\/ft|(^|\s)(1\/1|1\/2|2\/1)(\s|$)/.test(market);
+}
+
 function dateOf(item) {
   return String(item.date || item.tarih || item.utc_date || "").slice(0, 10);
 }
@@ -60,17 +75,25 @@ function exactPairKey(item) {
 
 function buildScoreIndexFromRows(rows) {
   const exact = new Map();
+  const exactHalfTime = new Map();
   const byDate = new Map();
   const byUndatedName = new Map();
+  const byUndatedHalfTime = new Map();
   let scoreCount = 0;
+  let halfTimeScoreCount = 0;
   rows.forEach((row) => {
     const score = scoreOf(row);
     if (!score) return;
     scoreCount += 1;
+    const halfTimeScore = halfTimeScoreOf(row);
+    if (halfTimeScore) halfTimeScoreCount += 1;
     const teams = teamsOf(row);
-    const result = { ...row, ...teams, date: dateOf(row), score };
+    const result = { ...row, ...teams, date: dateOf(row), score, half_time_score: halfTimeScore };
     const pairKey = exactPairKey(result);
-    if (result.date && normalizeTeam(teams.home) && normalizeTeam(teams.away)) exact.set(pairKey, score);
+    if (result.date && normalizeTeam(teams.home) && normalizeTeam(teams.away)) {
+      exact.set(pairKey, score);
+      if (halfTimeScore) exactHalfTime.set(pairKey, halfTimeScore);
+    }
     if (result.date) {
       const dateRows = byDate.get(result.date) || [];
       dateRows.push(result);
@@ -80,9 +103,13 @@ function buildScoreIndexFromRows(rows) {
     if (undatedKey) {
       if (!byUndatedName.has(undatedKey)) byUndatedName.set(undatedKey, score);
       else if (byUndatedName.get(undatedKey) !== score) byUndatedName.set(undatedKey, null);
+      if (halfTimeScore) {
+        if (!byUndatedHalfTime.has(undatedKey)) byUndatedHalfTime.set(undatedKey, halfTimeScore);
+        else if (byUndatedHalfTime.get(undatedKey) !== halfTimeScore) byUndatedHalfTime.set(undatedKey, null);
+      }
     }
   });
-  return { exact, byDate, byUndatedName, scoreCount };
+  return { exact, exactHalfTime, byDate, byUndatedName, byUndatedHalfTime, scoreCount, halfTimeScoreCount };
 }
 
 function buildScoreMap() {
@@ -102,27 +129,61 @@ function findScore(item, index) {
   return index.byUndatedName.get(key(nameOf(item))) || "";
 }
 
+function findHalfTimeScore(item, index) {
+  const exact = index.exactHalfTime.get(exactPairKey(item));
+  if (exact) return exact;
+  const date = dateOf(item);
+  if (date) {
+    const match = findResultForMatch(item, index.byDate.get(date) || []);
+    return halfTimeScoreOf(match?.result || {});
+  }
+  return index.byUndatedHalfTime.get(key(nameOf(item))) || "";
+}
+
 function runLearningScoreLinker() {
   const memory = readJson(memoryFile, { predictions: [] });
   const index = buildScoreMap();
-  let checked = 0, linked = 0;
+  let checked = 0, linked = 0, halfTimeLinked = 0;
   memory.predictions = (memory.predictions || []).map((item) => {
-    if (item.result_score) return item;
+    const wantsHalfTime = needsHalfTimeScore(item);
+    if (item.result_score && (!wantsHalfTime || item.half_time_score)) return item;
     checked += 1;
-    const score = findScore(item, index);
-    if (!score) return item;
+    const score = item.result_score || findScore(item, index);
+    const halfTimeScore = item.half_time_score || (wantsHalfTime ? findHalfTimeScore(item, index) : "");
+    if (!score && !halfTimeScore) return item;
     linked += 1;
-    return { ...item, result_score: score, score_linked_at: new Date().toISOString() };
+    if (!item.half_time_score && halfTimeScore) halfTimeLinked += 1;
+    return {
+      ...item,
+      ...(score ? { result_score: score } : {}),
+      ...(halfTimeScore ? { half_time_score: halfTimeScore } : {}),
+      score_linked_at: new Date().toISOString()
+    };
   });
   memory.updated_at = new Date().toISOString();
   memory.summary = { ...(memory.summary || {}), last_score_link_checked: checked, last_score_linked: linked };
-  const status = { generated_at: new Date().toISOString(), checked, linked, score_keys: index.scoreCount };
+  const status = {
+    generated_at: new Date().toISOString(),
+    checked,
+    linked,
+    half_time_linked: halfTimeLinked,
+    score_keys: index.scoreCount,
+    half_time_score_keys: index.halfTimeScoreCount
+  };
   writeJson(memoryFile, memory);
   writeJson(statusFile, status);
-  console.log(`Learning score linker complete. Checked: ${checked}, Linked: ${linked}`);
+  console.log(`Learning score linker complete. Checked: ${checked}, Linked: ${linked}, Half-time: ${halfTimeLinked}`);
   return status;
 }
 
 if (require.main === module) runLearningScoreLinker();
-module.exports = { buildScoreIndexFromRows, findScore, runLearningScoreLinker, scoreOf };
+module.exports = {
+  buildScoreIndexFromRows,
+  findHalfTimeScore,
+  findScore,
+  halfTimeScoreOf,
+  needsHalfTimeScore,
+  runLearningScoreLinker,
+  scoreOf
+};
 

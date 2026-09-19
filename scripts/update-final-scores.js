@@ -144,6 +144,8 @@ function findResultForMatch(match, results) {
 }
 
 function scoreText(home, away) {
+  if (home === null || home === undefined || away === null || away === undefined) return "";
+  if (String(home).trim() === "" || String(away).trim() === "") return "";
   const h = Number(home);
   const a = Number(away);
   return Number.isFinite(h) && Number.isFinite(a) ? `${h}-${a}` : "";
@@ -154,9 +156,11 @@ function apiFootballResults(payload) {
     const short = String(row?.fixture?.status?.short || "").toUpperCase();
     if (!FINISHED_STATUSES.has(short)) return [];
     const fullTime = row?.score?.fulltime || {};
+    const halfTime = row?.score?.halftime || {};
     const homeScore = fullTime.home ?? row?.goals?.home;
     const awayScore = fullTime.away ?? row?.goals?.away;
     const score = scoreText(homeScore, awayScore);
+    const halfTimeScore = scoreText(halfTime.home, halfTime.away);
     if (!score) return [];
     return [{
       date: istanbulDate(new Date(row.fixture.date)),
@@ -165,6 +169,7 @@ function apiFootballResults(payload) {
       homeScore: Number(homeScore),
       awayScore: Number(awayScore),
       score,
+      half_time_score: halfTimeScore,
       status: "finished",
       source: "API-Football",
       source_match_id: row?.fixture?.id || null,
@@ -177,9 +182,11 @@ function footballDataResults(payload) {
     if (String(row?.status || "").toUpperCase() !== "FINISHED") return [];
     const regular = row?.score?.regularTime || {};
     const fullTime = row?.score?.fullTime || {};
+    const halfTime = row?.score?.halfTime || {};
     const homeScore = regular.home ?? fullTime.home;
     const awayScore = regular.away ?? fullTime.away;
     const score = scoreText(homeScore, awayScore);
+    const halfTimeScore = scoreText(halfTime.home, halfTime.away);
     if (!score) return [];
     return [{
       date: istanbulDate(new Date(row.utcDate)),
@@ -188,6 +195,7 @@ function footballDataResults(payload) {
       homeScore: Number(homeScore),
       awayScore: Number(awayScore),
       score,
+      half_time_score: halfTimeScore,
       status: "finished",
       source: "football-data.org",
       source_match_id: row.id || null,
@@ -339,8 +347,16 @@ function timeMinutes(value) {
   return found ? Number(found[1]) * 60 + Number(found[2]) : null;
 }
 
+function requiresHalfTimeScore(item) {
+  const market = String(item?.market || item?.recommended_market || item?.selection || "").toLocaleLowerCase("tr-TR");
+  return /ilk yarı kg|ilk yari kg|ikinci yarı kg|ikinci yari kg|iy\/ms|ht\/ft|(^|\s)(1\/1|1\/2|2\/1)(\s|$)/.test(market);
+}
+
 function eligiblePrediction(item, now = new Date()) {
-  if (item.status !== "pending" || item.result_score) return false;
+  if (item.status !== "pending") return false;
+  const hasFullTime = Boolean(String(item.result_score || "").trim());
+  const hasHalfTime = Boolean(String(item.half_time_score || item.halftime_score || item.ht_score || "").trim());
+  if (hasFullTime && (!requiresHalfTimeScore(item) || hasHalfTime)) return false;
   const date = dateOf(item);
   const today = istanbulDate(now);
   if (!date || date > today) return false;
@@ -365,25 +381,41 @@ function applyResults(rows, results, nowIso = new Date().toISOString()) {
   let unmatched = 0;
   const matches = (Array.isArray(rows) ? rows : []).map((row) => {
     const existingScore = scoreText(row.homeScore ?? row.home_score, row.awayScore ?? row.away_score) || String(row.score || row.result_score || "").trim();
-    if (existingScore) {
+    const existingHalfTime = String(row.half_time_score || row.halftime_score || row.ht_score || "").trim();
+    if (existingScore && existingHalfTime) {
       alreadyScored += 1;
       return row;
     }
+
     const match = findResultForMatch(row, results);
     if (!match) {
+      if (existingScore) alreadyScored += 1;
       if (results.some((result) => dateOf(result) === dateOf(row))) unmatched += 1;
       return row;
     }
+
+    const nextScore = existingScore || match.result.score;
+    const nextHalfTime = existingHalfTime || String(match.result.half_time_score || "").trim();
+    if (existingScore && !nextHalfTime) {
+      alreadyScored += 1;
+      return row;
+    }
+
     updated += 1;
     return {
       ...row,
       status: "finished",
       liveStatus: "finished",
       minute: 90,
-      homeScore: match.result.homeScore,
-      awayScore: match.result.awayScore,
-      score: match.result.score,
-      result_score: match.result.score,
+      homeScore: Number.isFinite(Number(row.homeScore ?? row.home_score))
+        ? Number(row.homeScore ?? row.home_score)
+        : match.result.homeScore,
+      awayScore: Number.isFinite(Number(row.awayScore ?? row.away_score))
+        ? Number(row.awayScore ?? row.away_score)
+        : match.result.awayScore,
+      score: nextScore,
+      result_score: nextScore,
+      half_time_score: nextHalfTime,
       inferred_finished: false,
       score_source: match.result.source,
       score_source_match_id: match.result.source_match_id,
@@ -483,6 +515,8 @@ module.exports = {
   runFinalScoreSync,
   sportsDbResults,
   teamSimilarity,
+  requiresHalfTimeScore,
+  scoreText,
 };
 
 

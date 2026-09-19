@@ -19,7 +19,15 @@ function parse(score) {
   return m ? [Number(m[1]), Number(m[2])] : null;
 }
 
-function settle(market, score) {
+function resultDirection(score) {
+  const parsed = parse(score);
+  if (!parsed) return null;
+  if (parsed[0] > parsed[1]) return "1";
+  if (parsed[0] < parsed[1]) return "2";
+  return "X";
+}
+
+function settle(market, score, halfTimeScore = "") {
   const normalizedMarket = String(market || "").toLocaleLowerCase("tr-TR");
   if (/güncel maç değil|guncel mac degil|değerli (market|seçenek) yok|degerli (market|secenek) yok|oynama|belirsiz/.test(normalizedMarket)) {
     return "void";
@@ -27,6 +35,9 @@ function settle(market, score) {
   const s = parse(score);
   if (!s) return "pending";
   const h = s[0], a = s[1], total = h + a, both = h > 0 && a > 0;
+  const ht = parse(halfTimeScore);
+  const htBoth = ht ? ht[0] > 0 && ht[1] > 0 : null;
+  const secondHalfBoth = ht ? (h - ht[0]) > 0 && (a - ht[1]) > 0 : null;
   if (market === "KG Var") return both ? "won" : "lost";
   if (market === "KG Yok") return !both ? "won" : "lost";
   if (market === "1.5 Üst") return total > 1 ? "won" : "lost";
@@ -35,6 +46,17 @@ function settle(market, score) {
   if (market === "2.5 Alt") return total < 3 ? "won" : "lost";
   if (market === "3.5 Üst") return total > 3 ? "won" : "lost";
   if (market === "3.5 Alt") return total < 4 ? "won" : "lost";
+  if (market === "6+ Gol") return total >= 6 ? "won" : "lost";
+  if (market === "İlk Yarı KG Var") return htBoth === null ? "pending" : htBoth ? "won" : "lost";
+  if (market === "İlk Yarı KG Yok") return htBoth === null ? "pending" : !htBoth ? "won" : "lost";
+  if (market === "İkinci Yarı KG Var") return secondHalfBoth === null ? "pending" : secondHalfBoth ? "won" : "lost";
+  if (market === "İkinci Yarı KG Yok") return secondHalfBoth === null ? "pending" : !secondHalfBoth ? "won" : "lost";
+  if (/^İY\/MS\s+[12X]\/[12X]$/i.test(market)) {
+    if (!ht) return "pending";
+    const expected = market.split(/\s+/).pop();
+    const actual = `${resultDirection(halfTimeScore)}/${resultDirection(score)}`;
+    return actual === expected ? "won" : "lost";
+  }
   if (market === "4.5 Üst") return total > 4 ? "won" : "lost";
   if (market === "4.5 Alt") return total < 5 ? "won" : "lost";
   if (market === "5.5 Üst") return total > 5 ? "won" : "lost";
@@ -73,7 +95,7 @@ function runLearningFinalizer() {
   const predictions = (memory.predictions || []).map((item) => {
     if (item.status !== "pending" || !item.result_score) return item;
     checked += 1;
-    const next = settle(item.market, item.result_score);
+    const next = settle(item.market, item.result_score, item.half_time_score);
     if (next === "pending") return item;
     updated += 1;
     return {
@@ -107,4 +129,4 @@ function runLearningFinalizer() {
 }
 
 if (require.main === module) runLearningFinalizer();
-module.exports = { runLearningFinalizer, settle };
+module.exports = { resultDirection, runLearningFinalizer, settle };

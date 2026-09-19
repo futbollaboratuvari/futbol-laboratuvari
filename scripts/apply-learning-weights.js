@@ -30,13 +30,19 @@ function clean(value) {
 function canonicalMarket(value) {
   const text = String(value || "").trim();
   const key = clean(text);
-  if (/ilk yari kg|1y kg|first half btts/.test(key)) return "İlk Yarı KG Var";
-  if (/ikinci yari kg|2y kg|second half btts/.test(key)) return "İkinci Yarı KG Var";
+  if (/ilk yari kg yok|1y kg yok|first half btts no/.test(key)) return "İlk Yarı KG Yok";
+  if (/ilk yari kg var|1y kg var|first half btts yes|^ilk yari kg$|^1y kg$/.test(key)) return "İlk Yarı KG Var";
+  if (/ikinci yari kg yok|2y kg yok|second half btts no/.test(key)) return "İkinci Yarı KG Yok";
+  if (/ikinci yari kg var|2y kg var|second half btts yes|^ikinci yari kg$|^2y kg$/.test(key)) return "İkinci Yarı KG Var";
   if (/kg var|btts yes/.test(key)) return "KG Var";
   if (/kg yok|btts no/.test(key)) return "KG Yok";
   if (/2 5.*ust|over 25|over 2 5/.test(key)) return "2.5 Üst";
   if (/2 5.*alt|under 25|under 2 5/.test(key)) return "2.5 Alt";
   if (/3 5.*ust|over 35|over 3 5/.test(key)) return "3.5 Üst";
+  if (/6\+\s*gol|6 plus gol|6 veya daha fazla gol|6 ve uzeri gol/.test(text.toLocaleLowerCase("tr-TR")) || /6 gol/.test(key)) return "6+ Gol";
+  if (/^1 1$/.test(key)) return "İY/MS 1/1";
+  if (/^1 2$/.test(key)) return "İY/MS 1/2";
+  if (/^2 1$/.test(key)) return "İY/MS 2/1";
   if (/ms 1|mac sonucu 1/.test(key)) return "MS 1";
   if (/ms x|mac sonucu x/.test(key)) return "MS X";
   if (/ms 2|mac sonucu 2/.test(key)) return "MS 2";
