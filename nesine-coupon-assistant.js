@@ -1,5 +1,6 @@
 (() => {
   const DATA_URL = './data/daily-coupons.json';
+  const ANALYSIS_URL = './data/analiz_sonuclari.json';
   const ROOT_ID = 'nesine-kupon-asistani';
   const CONFIG = {
     low: { label: 'Düşük Risk', legs: 2, minModel: 70, minEdge: 2 },
@@ -18,6 +19,30 @@
     if (typeof value === 'number' && Number.isFinite(value)) return value;
     const match = String(value ?? '').replace(',', '.').match(/-?\d+(?:\.\d+)?/);
     return match ? Number(match[0]) : 0;
+  };
+
+  const istanbulClock = () => {
+    const parts = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Europe/Istanbul',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      hourCycle: 'h23'
+    }).formatToParts(new Date());
+    const bag = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+    return { date: `${bag.year}-${bag.month}-${bag.day}`, time: `${bag.hour}:${bag.minute}` };
+  };
+
+  const isUpcomingCandidate = (item) => {
+    const current = istanbulClock();
+    const date = String(item?.date || '').slice(0, 10);
+    if (!date) return false;
+    if (date > current.date) return true;
+    if (date < current.date) return false;
+    const time = String(item?.time || item?.start_time || '').match(/^\d{2}:\d{2}/)?.[0] || '';
+    return !time || time > current.time;
   };
 
   const legOdds = (leg) => {
@@ -51,20 +76,59 @@
     return { ...leg, _odds: odds, _model: model, _edge: edge, _score: (edge * 2.2) + (model * 0.28) + (completeness * 0.08) };
   };
 
+  const normalizeAnalysisLeg = (item, source) => {
+    if (!item || String(item.status || '').toLocaleLowerCase('tr-TR') !== 'scheduled') return null;
+    if (!isUpcomingCandidate(item)) return null;
+    const sourceText = String(item.source || source || '');
+    if (!/iddaa/i.test(sourceText)) return null;
+    const matchName = String(item.match_name || item.match || item.title || `${item.home || ''} VS ${item.away || ''}`).trim();
+    const market = String(item.recommended_market || item.market || item.prediction || '').trim();
+    const odds = num(item.estimated_odds);
+    const model = num(item.model_score || item.confidence_score || item.analysis_score);
+    const completeness = num(item.data_completeness);
+    if (!matchName || !market || odds <= 1 || model < 54 || completeness < 45) return null;
+    return {
+      match_name: matchName,
+      recommended_market: market,
+      estimated_odds: odds,
+      model_score: model,
+      edge_percent: num(item.edge_percent),
+      data_completeness: completeness,
+      estimated_probability: num(item.estimated_probability),
+      risk_level: item.risk_level || item.risk || 'Orta',
+      robot_reason: item.robot_reason || item.robot_comment || item.commentary || 'Güncel PRO izleme analizi.',
+      available_odds: item.available_odds || {},
+      manual_candidate: true,
+      source: sourceText
+    };
+  };
+
+  const buildManualCandidates = (analysis) => {
+    const items = Array.isArray(analysis?.active_items) ? analysis.active_items : [];
+    return items
+      .map((item) => normalizeAnalysisLeg(item, analysis?.source))
+      .filter(Boolean);
+  };
+
   const candidatePool = (payload) => {
     const coupons = payload?.coupons || {};
-    const ordered = [coupons.balanced, coupons.high_value, coupons.risk_lab, coupons.laboratory_today].filter(Boolean);
+    const couponGroups = [coupons.balanced, coupons.high_value, coupons.risk_lab, coupons.laboratory_today].filter(Boolean);
+    const hasPublishedCandidates = couponGroups.some((coupon) => Array.isArray(coupon.selected_matches) && coupon.selected_matches.length);
+    const ordered = hasPublishedCandidates
+      ? couponGroups
+      : [{ selected_matches: Array.isArray(payload?.manual_candidates) ? payload.manual_candidates : [] }];
     const seen = new Set();
     const pool = [];
     ordered.forEach((coupon) => {
       (Array.isArray(coupon.selected_matches) ? coupon.selected_matches : []).forEach((leg) => {
         const key = String(leg.match_name || '').trim().toLocaleLowerCase('tr-TR');
-        if (!key || seen.has(key) || leg.include_in_coupon === false) return;
+        if (!key || seen.has(key)) return;
+        if (leg.include_in_coupon === false && leg.manual_candidate !== true) return;
         const scored = scoreLeg(leg);
         if (scored._odds <= 1 || !scored.recommended_market) return;
-        if (window.FLCouponEligibility?.isCouponEligible && !window.FLCouponEligibility.isCouponEligible(leg)) return;
+        if (leg.manual_candidate !== true && window.FLCouponEligibility?.isCouponEligible && !window.FLCouponEligibility.isCouponEligible(leg)) return;
         seen.add(key);
-        pool.push(scored);
+        pool.push({ ...scored, _manual: leg.manual_candidate === true });
       });
     });
     return pool.sort((a, b) => b._score - a._score || b._model - a._model || b._edge - a._edge);
@@ -83,7 +147,8 @@
       totalOdds: selected.length ? totalOdds : 0,
       complete: selected.length === config.legs,
       generatedAt: payload?.generated_at || null,
-      source: payload?.source || 'Futbol Laboratuvarı veri motoru'
+      source: payload?.source || 'Futbol Laboratuvarı veri motoru',
+      manualPool: selected.some((leg) => leg._manual === true)
     };
   };
 
@@ -93,6 +158,7 @@
   const copyText = (coupon) => {
     const rows = [
       `Futbol Laboratuvarı - ${coupon.config.label} Kupon Asistanı`,
+      ...(coupon.manualPool ? ['Havuz: Güncel PRO izleme adayları · manuel hazırlama'] : []),
       ...coupon.selected.map((leg, index) => `${index + 1}. ${leg.match_name} | ${leg.recommended_market} | Oran ${formatOdds(leg._odds)} | Model ${formatPercent(leg._model)} | Edge ${formatPercent(leg._edge)}`),
       `Toplam oran: ${formatOdds(coupon.totalOdds)}`,
       'Not: Bu liste otomatik bahis oynamaz. Son seçim ve onay kullanıcıya aittir.'
@@ -109,7 +175,11 @@
       return;
     }
     const warning = coupon.complete ? '' : `<p class="nka-warning">İstenen ${coupon.config.legs} maç yerine kalite filtresini geçen ${coupon.selected.length} maç bulundu; sistem sırf sayıyı tamamlamak için zayıf seçim eklemedi.</p>`;
+    const manualNotice = coupon.manualPool
+      ? '<p class="nka-warning"><strong>Manuel aday havuzu:</strong> Otomatik kupon uygunluğu oluşmadığında, güncel PRO izleme analizlerindeki resmî market ve oranı bulunan adaylar kullanılır. Son seçim kullanıcıya aittir.</p>'
+      : '';
     output.innerHTML = `
+      ${manualNotice}
       ${warning}
       <div class="nka-summary">
         <span><small>Profil</small><strong>${esc(coupon.config.label)}</strong></span>
@@ -133,10 +203,43 @@
     copyButton.dataset.copyText = copyText(coupon);
   };
 
-  async function loadData() {
-    const response = await fetch(DATA_URL, { cache: 'no-cache' });
+  async function requestJson(url) {
+    const separator = String(url).includes('?') ? '&' : '?';
+    const response = await fetch(`${url}${separator}fl_nka=${Date.now()}`, { cache: 'no-store' });
     if (!response.ok) throw new Error(`Veri okunamadı (${response.status})`);
     return response.json();
+  }
+
+  async function loadData() {
+    const [dailyResult, analysisResult] = await Promise.allSettled([
+      requestJson(DATA_URL),
+      requestJson(ANALYSIS_URL)
+    ]);
+    const currentDate = istanbulClock().date;
+    const daily = dailyResult.status === 'fulfilled' ? dailyResult.value : null;
+    const dailyFresh = Boolean(daily?.date && String(daily.date).slice(0, 10) >= currentDate);
+    const hasDailyCandidates = dailyFresh && Object.values(daily?.coupons || {}).some((coupon) =>
+      Array.isArray(coupon?.selected_matches) && coupon.selected_matches.length
+    );
+    if (hasDailyCandidates) return { ...daily, manual_candidates: [] };
+
+    const analysis = analysisResult.status === 'fulfilled' ? analysisResult.value : null;
+    const manualCandidates = buildManualCandidates(analysis);
+    if (manualCandidates.length) {
+      return {
+        generated_at: analysis?.generated_at || null,
+        date: String(analysis?.date || currentDate).slice(0, 10),
+        source: `${analysis?.source || 'PRO analiz motoru'} · Manuel aday havuzu`,
+        coupons: {},
+        manual_candidates: manualCandidates
+      };
+    }
+
+    if (dailyFresh) return { ...daily, manual_candidates: [] };
+    const detail = dailyResult.status === 'rejected'
+      ? dailyResult.reason?.message
+      : analysisResult.status === 'rejected' ? analysisResult.reason?.message : 'güncel aday yok';
+    throw new Error(`Güncel PRO kupon/analiz verisi bulunamadı: ${detail || 'veri bekleniyor'}`);
   }
 
   function createRoot() {
@@ -148,7 +251,7 @@
       <div class="section-heading reveal visible">
         <p class="eyebrow">Manuel Kupon Hazırlama</p>
         <h2>Kupon Asistanı</h2>
-        <p>Futbol Laboratuvarı'nın doğrulanmış günlük seçimlerini risk profiline göre sıralar ve kopyalanabilir kupon listesi hazırlar.</p>
+        <p>Güncel PRO seçimlerini risk profiline göre sıralar; otomatik kupon adayı yoksa resmî market ve oranı bulunan PRO izleme adaylarından manuel liste hazırlar.</p>
       </div>
       <div class="nka-panel">
         <div class="nka-controls">
