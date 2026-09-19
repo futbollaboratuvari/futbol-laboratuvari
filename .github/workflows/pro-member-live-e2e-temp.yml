@@ -1,0 +1,36 @@
+name: PRO Member Live E2E Temporary
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/pro-member-live-e2e-temp.yml"
+      - "tests/live-member-e2e-temp.py"
+      - "ops/temp-member-live-e2e-code.txt"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pro-member-live-e2e-temp
+  cancel-in-progress: true
+
+jobs:
+  verify-member-flow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Install Selenium client
+        run: python3 -m pip install --disable-pip-version-check -q selenium==4.35.0
+
+      - name: Run live member browser test
+        env:
+          LIVE_URL: https://futbollaboratuuvari.org
+        run: |
+          TEST_MEMBER_CODE="$(tr -d '\r\n' < ops/temp-member-live-e2e-code.txt)"
+          export TEST_MEMBER_CODE
+          python3 tests/live-member-e2e-temp.py
