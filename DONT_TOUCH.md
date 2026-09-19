@@ -486,3 +486,20 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - live-matches.json matches: canli destek verisi
 
 Baslayan mac Tum Bulten listesine katilmaz.
+
+### 2026-09-20 - Robot öğrenme sonuçlandırma kapsamı V2
+
+- Amaç/kök neden: Ortak PRO öğrenme hafızası tahminleri ve hata örüntülerini kaydediyor olsa da hedef uzman marketlerin tamamı güvenilir biçimde sonuçlandırılamıyordu. Sonuç zinciri yalnız maç sonu skorunu taşıdığı için İlk Yarı KG, İkinci Yarı KG ve İY/MS 1/1-1/2-2/1 kayıtları devre skoru olmadan pending kalabiliyor; 6+ Gol finalizer kapsamı da eksikti. Ayrıca boş skor alanının JavaScript sayı dönüşümünde yanlışlıkla 0-0 kabul edilme riski tespit edildi.
+- Değişiklik: API-Football ve football-data.org doğrulanmış sonuçlarından devre skoru `half_time_score` olarak alınır. Maç sonu skoru daha önce bağlanmış olsa bile devre skoruna ihtiyaç duyan tahminler yeniden sonuç kaynağına aday olur. Learning score linker devre skorunu ayrı bağlar. Finalizer 6+ Gol, İlk Yarı KG Var/Yok, İkinci Yarı KG Var/Yok ve kanonik İY/MS 1/1, 1/2, 2/1 marketlerini doğru/yanlış olarak ölçer. Devre skoru yoksa sonuç uydurulmaz ve kayıt pending kalır. Boş skor artık 0-0 sayılmaz.
+- Kanonik market düzeltmesi: İlk/İkinci Yarı KG Yok artık geniş KG regexi nedeniyle KG Var olarak birleşmez. 6+ Gol ile 1/1, 1/2 ve 2/1 ayrı öğrenme kovalarında tutulur. Aynı kanonik kimlikler öğrenme ağırlığı katmanında da kullanılır.
+- Etkilenen dosyalar/akışlar: `scripts/update-final-scores.js`, `scripts/learning-score-linker.js`, `scripts/learning-finalizer.js`, `scripts/robot-learning-memory.js`, `scripts/apply-learning-weights.js`, `tests/learning-market-settlement.test.js`, `package.json`, `.github/workflows/robot-learning-ci.yml`.
+- Etkilenen marketler: İlk Yarı KG Var/Yok, İkinci Yarı KG Var/Yok, 6+ Gol, İY/MS 1/1, 1/2, 2/1. Mevcut KG, 2.5, 3.5 ve MS 1/X/2 sonuçlandırma davranışı korunur.
+- Veri/provenance: Devre sonucu yalnız sağlayıcının açık devre skor alanından alınır; maç sonu skorundan devre skoru tahmin edilmez. Devre verisi yoksa yarı/İY-MS öğrenmesi fail-closed bekler.
+- Öğrenme durumu kontrolü: Ana hafıza 1500 tahmin taşıyor. Son kontrol verisinde 304 sonuçlanmış tahmin ve 135 kayıp vardı. Market hafızasında 10 marketten 4'ü örneklem eşiğini geçmiş olsa da ROI güven aralığı/zaman yayılımı şartları nedeniyle ana ağırlık katmanı calibrating ve aktif ağırlık 0 idi. Buna karşılık loss-pattern-memory 4 markette aktif negatif fren uyguluyordu. Bu V2, eksik hedef marketlerin doğru ölçülmesini sağlayarak güvenli örneklemin büyümesini hedefler; istatistiksel eşikler gevşetilmedi.
+- Uzman zinciri doğrulaması: Dört maç önü uzmanının ortak PRO puanı `export-high-value-json.js` içindeki `applyLearningWeightsToScoredItem` üzerinden öğrenme hafızası ve hata frenini kullanır. Canlı Maç Analiz Robotu ayrı gerçek-zamanlı saha sinyali motorudur; doğrulanmış tarihsel canlı snapshot/sonuç eğitim seti olmadan adaptif ağırlık uydurulmadı.
+- Test: Robot Learning CI run `35472605232` Node 20 ve Node 24 matrisinde `learning-market-settlement.test.js`, `learning-confidence.test.js` ve `loss-pattern-memory.test.js` başarıyla geçti. Yeni test; devre skorunun kaynaklardan taşınmasını, boş skorun sahte 0-0 olmamasını, yarı marketlerinin fail-closed davranışını ve 6+/1-1/1-2/2-1 sonuçlandırmasını kilitler. PRO Market Specialist ve Live Match Analysis regresyon koşuları ayrıca tetiklenmiştir.
+- CI altyapısı: Öğrenme için bağımsız, dependency-free ve sparse-checkout kullanan `Robot Learning CI` eklendi. Büyük veri arşivini çekmeden Node 20/24 üzerinde hızlı hedefli regresyon çalıştırır.
+- PR: #100 `Robot öğrenme zincirini yarı ve sürpriz marketlerde tamamla`, dal `feat/learning-market-settlement-v2-20260920`.
+- Vercel: Bu işte kullanılmadı ve doğrulama ölçütü değildir.
+- Geri alma: Devre skoru ve yeni settlement kapsamı mevcut maç sonu öğrenmesini değiştirmeyen ek katmandır. Gerekirse ilgili V2 commitleri geri alınarak önceki full-time öğrenme zincirine dönülebilir; mevcut hafıza kayıtları silinmez.
+
