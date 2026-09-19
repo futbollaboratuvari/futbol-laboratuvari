@@ -13,6 +13,9 @@ on:
       - 'scripts/robot-specialist-orchestrator.js'
       - 'scripts/robot-specialists/**'
       - 'tests/high-odds-htft.test.js'
+      - 'nesine-coupon-assistant.js'
+      - 'high-odds-htft-widget.js'
+      - 'tests/kupon-assistant.test.js'
       - 'tests/market-specialist-gates.test.js'
       - 'tests/robot-specialist-orchestrator.test.js'
       - '.github/workflows/high-odds-htft.yml'
@@ -44,6 +47,7 @@ jobs:
       - name: Test verified HTFT odds guard
         run: |
           node tests/high-odds-htft.test.js
+          node tests/kupon-assistant.test.js
           node tests/market-specialist-gates.test.js
 
       - name: Generate high-odds HTFT cards
