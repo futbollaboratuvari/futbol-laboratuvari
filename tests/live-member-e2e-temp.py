@@ -119,11 +119,12 @@ try:
     match_buttons = driver.find_elements(By.CSS_SELECTOR, "[data-pa3-match-id]")
     if not match_buttons:
         raise AssertionError("Özel Analiz maç kartı yok")
-    driver.execute_script("arguments[0].scrollIntoView({block:'center'});", match_buttons[0])
-    match_buttons[0].click()
+    driver.execute_script("arguments[0].focus();", match_buttons[0])
+    match_buttons[0].send_keys(Keys.ENTER)
 
     analyze = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "[data-pa-analyze]")))
-    analyze.click()
+    driver.execute_script("arguments[0].focus();", analyze)
+    analyze.send_keys(Keys.ENTER)
     wait.until(lambda d: "Sonuç burada görünecek" not in d.find_element(By.CSS_SELECTOR, "[data-pa-output]").text)
     output_text = driver.find_element(By.CSS_SELECTOR, "[data-pa-output]").text.strip()
     if len(output_text) < 30:
