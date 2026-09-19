@@ -3,61 +3,14 @@
 Gunler: 2026-09-19 / 2026-09-20
 Kaynak: fixtures.json
 Ham mac: 354
-Aktif mac: 188
+Aktif mac: 141
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 166
-Bugun: 123
+Bultenden dusurulen mac: 213
+Bugun: 76
 Yarin: 65
 
 ## Baslamamis Maclar
-- 2026-09-19 19:30 | İngiltere Premier Lig | Nottingham F - Coventry | scheduled | -
-- 2026-09-19 19:30 | İspanya LaLiga | Celta Vigo - Santander | scheduled | -
-- 2026-09-19 19:30 | Almanya Bundesliga | Stuttgart - B.Dortmund | scheduled | -
-- 2026-09-19 19:30 | İspanya 2.Lig | Castellon - Tenerife | scheduled | -
-- 2026-09-19 19:30 | İspanya 2.Lig | Eldense - Eibar | scheduled | -
-- 2026-09-19 19:30 | Yunanistan Süper Lig | Aris - Iraklis 1908 | scheduled | -
-- 2026-09-19 19:30 | Kadınlar U20 Dünya Kupası Çeyrek Final | Brezilya U20 ( - İspanya U20 (K) | scheduled | -
-- 2026-09-19 19:30 | Galler Premier Lig 1.Aşama | The New Saints - Llandudno | scheduled | -
-- 2026-09-19 19:30 | Litvanya A Ligi | Transinvest Vi - Zalgiris Vilniu | scheduled | -
-- 2026-09-19 19:30 | Arnavutluk Süperlig | Dinamo Tirana - Kf Laci | scheduled | -
-- 2026-09-19 19:30 | İngiltere Ulusal Lig | Hornchurch - Scunthorpe | scheduled | -
-- 2026-09-19 19:30 | Bosna-Hersek Premier Lig | Zrinjski - Velez Mostar | scheduled | -
-- 2026-09-19 19:30 | İngiltere Kadınlar Premier Lig | Arsenal (K) - Manchester Unit | scheduled | -
-- 2026-09-19 19:30 | İspanya Tercera Ligi Grup 15 | Gazte Berriak - Cantolagua | scheduled | -
-- 2026-09-19 19:45 | Hollanda Eredivisie | Sparta Rotterd - Heerenveen | scheduled | -
-- 2026-09-19 19:45 | İskoçya Premiership | Kilmarnock - Hearts | scheduled | -
-- 2026-09-19 19:45 | İspanya Primera Lig RFEF Grup 1 | Ponferradina - Merida Ad | scheduled | -
-- 2026-09-19 19:45 | İspanya Primera Lig RFEF Grup 1 | Cd Coria - Real Aviles | scheduled | -
-- 2026-09-19 19:45 | İspanya Primera Lig RFEF Grup 1 | Union Irun - Mirandes | scheduled | -
-- 2026-09-19 19:45 | İspanya Primera Lig RFEF Grup 2 | Villarreal B - Antequera | scheduled | -
-- 2026-09-19 20:00 | Türkiye Süper Lig | Trabzonspor - Galatasaray | scheduled | -
-- 2026-09-19 20:00 | Türkiye Süper Lig | Başakşehir Fk - Gençlerbirliği | scheduled | -
-- 2026-09-19 20:00 | Türkiye TFF 1. Lig | Batman Petrol - Bursaspor | scheduled | -
-- 2026-09-19 20:00 | Türkiye TFF 1. Lig | Esenler Eroksp - Fatih Karagümrü | scheduled | -
-- 2026-09-19 20:00 | Portekiz Premier Lig | Alverca - Rio Ave | scheduled | -
-- 2026-09-19 20:00 | Sırbistan Süper Lig | Radnik Surduli - Partizan Belgra | scheduled | -
-- 2026-09-19 20:00 | Sırbistan Süper Lig | Ofk Beograd - Radnicki 1923 | scheduled | -
-- 2026-09-19 20:00 | Portekiz Kupa 2.Tur | Cd Mafra - Tirsense | scheduled | -
-- 2026-09-19 20:00 | Portekiz Kupa 2.Tur | O Elvas Cad - Leiria | scheduled | -
-- 2026-09-19 20:00 | Kuzey İrlanda Premiership | Coleraine - Limavady United | scheduled | -
-- 2026-09-19 20:00 | Polonya 1.Lig | Miedz Legnica - Rzeszow | scheduled | -
-- 2026-09-19 20:00 | Belarus Premier Lig | Dinamo Minsk - Bate Borisov | scheduled | -
-- 2026-09-19 20:00 | Suudi Arabistan 1.Lig | Al Zulfi - Al-Raed | scheduled | -
-- 2026-09-19 20:00 | Macaristan NB II | Kecskemeti - Szeged 2011 | scheduled | -
-- 2026-09-19 20:00 | İspanya 2. Lig RFEF Grup 1 | Ourense Cf - Eibar Ii | scheduled | -
-- 2026-09-19 20:00 | İspanya 2. Lig RFEF Grup 3 | Valencia Ii - Castellon Ii | scheduled | -
-- 2026-09-19 20:00 | İspanya 2. Lig RFEF Grup 4 | Atlético Paso - Estepona | scheduled | -
-- 2026-09-19 20:00 | Karadağ 1.Lig | Fk Arsenal Tiv - Sutjeska | scheduled | -
-- 2026-09-19 20:00 | Uganda Premier Lig | Vipers - Ntugasaze | scheduled | -
-- 2026-09-19 20:00 | Arjantin Prim B Metro | Camioneros Luj - Armenio | scheduled | -
-- 2026-09-19 20:00 | İspanya Tercera Ligi Grup 5 | Martinenc - Europa Ii | scheduled | -
-- 2026-09-19 20:00 | İspanya Tercera Ligi Grup 11 | Alcudia - Santanyi | scheduled | -
-- 2026-09-19 20:00 | İspanya Tercera Ligi Grup 18 | Villarrubia - Cp Villarrobled | scheduled | -
-- 2026-09-19 20:00 | İspanya Tercera Ligi Grup 18 | Noblejas - Toledo | scheduled | -
-- 2026-09-19 20:00 | İspanya Tercera Ligi Grup 18 | La Solana - San Clemente | scheduled | -
-- 2026-09-19 20:00 | İspanya Gençler Onur Ligi Grup 7 | Patacona U19 - Torrent U19 | scheduled | -
-- 2026-09-19 20:15 | İspanya 2. Lig RFEF Grup 3 | Castellonense - Cieza | scheduled | -
 - 2026-09-19 20:30 | İtalya Serie B | Ascoli Picchio - Avellino | scheduled | -
 - 2026-09-19 20:30 | Avusturya Bundesliga | Grazer Ak - Austria Vienna | scheduled | -
 - 2026-09-19 20:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Riestra | scheduled | -

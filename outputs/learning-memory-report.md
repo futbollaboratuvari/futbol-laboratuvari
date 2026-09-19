@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.09.2026 20:11:55
+Oluşturma: 19.09.2026 20:27:39
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1236
-- Kazanan tahmin: 156
-- Kaybeden tahmin: 108
-- Lig sayısı: 290
+- Bekleyen tahmin: 1238
+- Kazanan tahmin: 155
+- Kaybeden tahmin: 107
+- Lig sayısı: 291
 - Seçenek sayısı: 10
 
 ## Öğrenme Mantığı
@@ -22,32 +22,32 @@ Oluşturma: 19.09.2026 20:11:55
 
 ## En Güçlü Seçenek Hafızası
 
-- KG Var: toplam 70, bekleyen 53, başarı %71, düz getiri %23, ağırlık 1
-- 2.5 Üst: toplam 167, bekleyen 123, başarı %64, düz getiri %13, ağırlık 1
-- 2.5 Alt: toplam 492, bekleyen 404, başarı %61, düz getiri %5, ağırlık 1
-- MS 1: toplam 428, bekleyen 354, başarı %58, düz getiri %-4, ağırlık 1
-- KG Yok: toplam 48, bekleyen 46, başarı %50, düz getiri %-26, ağırlık 1
-- 3.5 Üst: toplam 24, bekleyen 16, başarı %50, düz getiri %-6, ağırlık 1
-- MS 2: toplam 224, bekleyen 196, başarı %46, düz getiri %-13, ağırlık 1
-- MS X: toplam 12, bekleyen 9, başarı %33, düz getiri %-17, ağırlık 1
-- İlk Yarı KG Var: toplam 5, bekleyen 5, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- KG Var: toplam 73, bekleyen 56, başarı %71, düz getiri %23, ağırlık 1
+- 2.5 Üst: toplam 163, bekleyen 120, başarı %63, düz getiri %11, ağırlık 1
+- 2.5 Alt: toplam 484, bekleyen 397, başarı %62, düz getiri %6, ağırlık 1
+- MS 1: toplam 429, bekleyen 355, başarı %58, düz getiri %-4, ağırlık 1
+- 3.5 Üst: toplam 27, bekleyen 19, başarı %50, düz getiri %-6, ağırlık 1
+- KG Yok: toplam 52, bekleyen 50, başarı %50, düz getiri %-26, ağırlık 1
+- MS 2: toplam 223, bekleyen 195, başarı %46, düz getiri %-13, ağırlık 1
+- MS X: toplam 13, bekleyen 10, başarı %33, düz getiri %-17, ağırlık 1
+- İlk Yarı KG Var: toplam 6, bekleyen 6, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İkinci Yarı KG Var: toplam 30, bekleyen 30, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-19 | ABD MLS | Houston - Cincinnati | KG Yok | pending | 62/100
-- 2026-09-19 | ABD MLS | Nashville Sc - Chicago | 3.5 Üst | pending | 67/100
-- 2026-09-19 | Ekvador Pro Lig Copa Sudamericana Play Off | Emelec - Libertad | KG Yok | pending | 74/100
-- 2026-09-19 | Portekiz Premier Lig | Alverca - Rio Ave | 2.5 Üst | pending | 72/100
-- 2026-09-19 | Belçika Pro Lig | Charleroi - Cercle Brugge | 2.5 Alt | pending | 71/100
-- 2026-09-19 | İsveç Allsvenskan | Orgryte - Sirius | 2.5 Alt | pending | 72/100
-- 2026-09-19 | İspanya La Liga | Celta Vigo - Santander | 2.5 Alt | pending | 64/100
-- 2026-09-19 | İspanya La Liga 2 | Castellon - Tenerife | KG Yok | pending | 70/100
-- 2026-09-19 | Fransa Ligue 2 | Metz - St Etienne | MS 2 | pending | 58/100
-- 2026-09-19 | Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru | Al Wasl - Al Ain | İlk Yarı KG Var | pending | 52/100
-- 2026-09-19 | Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru | Ajman - Al Sharjah | 2.5 Üst | pending | 53/100
-- 2026-09-19 | İspanya LaLiga | Celta Vigo - Santander | 2.5 Alt | pending | 66/100
-- 2026-09-19 | İspanya 2.Lig | Castellon - Tenerife | KG Yok | pending | 70/100
-- 2026-09-19 | İngiltere Kadınlar Premier Lig | Arsenal (K) - Manchester Unit | KG Yok | pending | 54/100
-- 2026-09-19 | Hollanda Eredivisie | Sparta Rotterd - Heerenveen | 3.5 Üst | pending | 61/100
+- 2026-09-19 | İspanya La Liga | Celta Vigo - Santander | KG Var | pending | 79/100
+- 2026-09-19 | Almanya Bundesliga | Stuttgart - B.Dortmund | 3.5 Üst | pending | 69/100
+- 2026-09-19 | Galler Premier Lig | The New Saints - Llandudno | 3.5 Üst | pending | 65/100
+- 2026-09-19 | Albania Kategori Super | Dinamo Tirana - Kf Laci | MS 1 | pending | 55/100
+- 2026-09-19 | İsviçre Süper Lig | Sion - Zurich | 3.5 Üst | pending | 67/100
+- 2026-09-19 | ABD USL | Detroit City - Pittsburgh Rive | KG Yok | pending | 66/100
+- 2026-09-19 | ABD USL | Charleston Bat - Monterey Bay | KG Var | pending | 66/100
+- 2026-09-19 | Suudi Arabistan 1.Lig | Al Zulfi - Al-Raed | MS 1 | pending | 55/100
+- 2026-09-19 | İspanya 2. Lig RFEF Grup 1 | Portugalete - Coruxo | 2.5 Alt | pending | 58/100
+- 2026-09-19 | Arnavutluk Süperlig | Dinamo Tirana - Kf Laci | MS 1 | pending | 55/100
+- 2026-09-19 | İngiltere Ulusal Lig | Hornchurch - Scunthorpe | MS 1 | pending | 59/100
+- 2026-09-19 | İngiltere Kadınlar Premier Lig | Arsenal (K) - Manchester Unit | MS 1 | pending | 57/100
+- 2026-09-19 | İskoçya Premiership | Kilmarnock - Hearts | MS 1 | pending | 47/100
+- 2026-09-19 | İspanya Primera Lig RFEF Grup 2 | Villarreal B - Antequera | 2.5 Üst | pending | 52/100
+- 2026-09-19 | Türkiye Süper Lig | Trabzonspor - Galatasaray | İlk Yarı KG Var | pending | 66/100
 
