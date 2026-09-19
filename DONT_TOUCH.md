@@ -147,6 +147,18 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 
 ## PRO Robot Islem Gunlugu
 
+### 2026-09-19 - Kupon Asistani ve IY/MS canli tazelik duzeltmesi
+
+- Kok neden: `nesine-coupon-assistant.js` yalniz `data/daily-coupons.json` icindeki otomatik kupona uygun `selected_matches` kayitlarini okuyordu. Otomatik kupon adayi 0 oldugunda `data/analiz_sonuclari.json` icinde guncel PRO izleme analizleri bulunsa bile Manuel Kupon Hazirlama alani bos kalabiliyordu.
+- Kupon Asistani duzeltmesi: Otomatik yayimlanmis kupon ayagi varsa mevcut kupon uygunluk kurali aynen korunur. Yoksa yalniz guncel `scheduled`, henuz baslamamis, kaynagi acikca Iddaa olan, marketi ve gercek orani bulunan, model gucu en az 54 ve veri kapsami en az 45 olan PRO izleme kayitlari manuel aday havuzu olarak kullanilir. Bu adaylara otomatik kupon uygunlugu etiketi verilmez; arayuz bunun manuel havuz oldugunu acikca belirtir.
+- IY/MS duzeltmesi: `high-odds-htft-widget.js` ayni gun baslamis maclari Istanbul saatine gore kart listesinden dusurur. HTFT JSON dogrudan `no-store` + cache-bust ile okunur, istemci 5 dakikada bir yeniden kontrol eder.
+- Tarama tazeligi: `.github/workflows/high-odds-htft.yml` zamanlamasi 3 saatte bir yerine saatte bir calisacak sekilde degistirildi. Resmi Iddaa IY/MS orani, dogrulanmis ilk yari yonu, specialist V4 kalite kapisi ve 1/2-2/1 disindaki marketleri reddetme kurallari degistirilmedi.
+- Yayin zinciri: `index.html` deploy version ve `cache-version.js` varlik surumu `20260919-kupon-htft-fresh-v1` yapildi; Kupon Asistani ile HTFT widgetinin eski tarayici varliginda takili kalmasi engellendi.
+- Test: `tests/kupon-assistant.test.js` eklendi; `tests/high-odds-htft.test.js` tazelik korumalariyla genisletildi. Degisen istemci dosyalari JavaScript parse kontrolunden gecti; branch statik koruma kontrolleri basarili. Main birlestirmesi sonrasi GitHub Actions ve canli GitHub Pages dogrulamasi tamamlanmadan is kapatilmamis sayilir.
+- Etkilenen dosyalar: `nesine-coupon-assistant.js`, `high-odds-htft-widget.js`, `cache-version.js`, `index.html`, `.github/workflows/high-odds-htft.yml`, `tests/high-odds-htft.test.js`, `tests/kupon-assistant.test.js`.
+- Geri alma: Bu degisiklikler ayrik istemci/veri-secim katmanlarindadir; sorun halinde ilgili commitler geri alinabilir. `daily-matches-widget.js`, uyelik/odeme akisi ve PRO ana skor motoru degistirilmedi.
+
+
 ### 2026-09-19 - Yari KG bagimsiz kanit fallback ve canli uye testi bulgusu
 
 - Canli uye E2E bulgusu: Gecici test uyeligiyle gercek Chromium akisi korumali PRO verisini acti ve AI Seffaflik 10 kart render etti. Ancak kartlarda Ilk Yari KG, Ikinci Yari KG ve IY/2Y KG ailesi yoktu; backend health bu market ailelerinin mevcut oldugunu gosteriyordu.
