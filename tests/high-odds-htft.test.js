@@ -228,7 +228,7 @@ const thirdItem = {
   const output = await buildOutput({ date: '2026-09-10', matches: [item, secondItem] }, {
     source: 'iddaa.com resmi futbol bülteni',
     matches: [officialEvent, secondOfficialEvent]
-  });
+  }, { now: '2026-09-10T12:00:00Z' });
   assert.strictEqual(output.odds_label, 'Resmî İddaa İY/MS oranı');
   assert.strictEqual(output.engine, 'Futbol Laboratuvarı Yüksek Oran İY/MS v4');
   assert.strictEqual(output.status, 'ready');
@@ -266,7 +266,7 @@ const thirdItem = {
       { ...officialEvent, date: nextDate },
       { ...secondOfficialEvent, date: nextDate }
     ]
-  });
+  }, { now: '2026-09-10T12:00:00Z' });
   assert.strictEqual(futureOutput.date, nextDate);
   assert.strictEqual(futureOutput.requested_date, '2026-09-10');
   assert.strictEqual(futureOutput.date_fallback_used, true);
