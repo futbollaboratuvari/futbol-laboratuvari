@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.09.2026 23:52:28
+Oluşturma: 20.09.2026 01:15:13
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1197
-- Kazanan tahmin: 168
-- Kaybeden tahmin: 135
-- Lig sayısı: 289
+- Bekleyen tahmin: 1213
+- Kazanan tahmin: 159
+- Kaybeden tahmin: 128
+- Lig sayısı: 284
 - Seçenek sayısı: 10
 
 ## Öğrenme Mantığı
@@ -22,32 +22,32 @@ Oluşturma: 19.09.2026 23:52:28
 
 ## En Güçlü Seçenek Hafızası
 
-- KG Var: toplam 74, bekleyen 51, başarı %65, düz getiri %12, ağırlık 1
-- 2.5 Üst: toplam 159, bekleyen 111, başarı %58, düz getiri %2, ağırlık 1
-- 2.5 Alt: toplam 479, bekleyen 379, başarı %57, düz getiri %-4, ağırlık 1
-- 3.5 Üst: toplam 31, bekleyen 20, başarı %55, düz getiri %9, ağırlık 1
-- MS 1: toplam 428, bekleyen 347, başarı %54, düz getiri %-10, ağırlık 1
-- KG Yok: toplam 56, bekleyen 50, başarı %50, düz getiri %-24, ağırlık 1
-- MS 2: toplam 223, bekleyen 192, başarı %45, düz getiri %-17, ağırlık 1
-- MS X: toplam 13, bekleyen 10, başarı %33, düz getiri %-17, ağırlık 1
+- KG Var: toplam 81, bekleyen 58, başarı %65, düz getiri %12, ağırlık 1
+- 2.5 Üst: toplam 160, bekleyen 115, başarı %58, düz getiri %1, ağırlık 1
+- 2.5 Alt: toplam 478, bekleyen 387, başarı %56, düz getiri %-5, ağırlık 1
+- 3.5 Üst: toplam 33, bekleyen 22, başarı %55, düz getiri %9, ağırlık 1
+- MS 1: toplam 417, bekleyen 338, başarı %54, düz getiri %-9, ağırlık 1
+- KG Yok: toplam 60, bekleyen 54, başarı %50, düz getiri %-24, ağırlık 1
+- MS X: toplam 13, bekleyen 11, başarı %50, düz getiri %25, ağırlık 1
+- MS 2: toplam 221, bekleyen 191, başarı %47, düz getiri %-15, ağırlık 1
 - İlk Yarı KG Var: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İkinci Yarı KG Var: toplam 30, bekleyen 30, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-19 | İngiltere Kadınlar Premier Lig | Arsenal (K) - Manchester Unit | 2.5 Alt | pending | 57/100
-- 2026-09-19 | Hollanda Eredivisie | Ajax - Excelsior | 3.5 Üst | pending | 64/100
-- 2026-09-19 | Arjantin Prim B Metro | Urquiza - Excur | 3.5 Üst | pending | 88/100
-- 2026-09-19 | Galler Premier Lig 1.Aşama | The New Saints - Llandudno | 3.5 Üst | pending | 65/100
-- 2026-09-19 | Fransa Ligue 1 | Le Mans - Lorient | KG Var | pending | 75/100
-- 2026-09-19 | Fransa Ligue 1 | Angers - Troyes | 2.5 Üst | pending | 67/100
-- 2026-09-19 | İrlanda Premier Lig | Sligo Rovers - St Patricks | KG Yok | pending | 53/100
-- 2026-09-19 | Polonya Ekstraklasa | Motor Lublin - Gornik Zabrze | MS 2 | pending | 41/100
-- 2026-09-19 | Slovenya 1.SNL | Maribor - Aluminij | KG Yok | pending | 48/100
-- 2026-09-19 | Almanya 2. Bundesliga | Dynamo Dresden - Hertha Berlin | İlk Yarı KG Var | pending | 58/100
-- 2026-09-19 | Arjantin Ulusal Primera Lig | San Telmo - Caseros | MS 2 | pending | 42/100
-- 2026-09-19 | Andorra 1.Lig | Carroi - Penya | KG Yok | pending | 55/100
-- 2026-09-19 | Macaristan NB I | Debreceni - Vasas | 3.5 Üst | pending | 58/100
-- 2026-09-19 | Fransa Ligue 2 | Metz - St Etienne | KG Var | pending | 72/100
-- 2026-09-19 | Hırvatistan 1.HNL | Istra - Hnk Gorica | MS 1 | pending | 47/100
+- 2026-09-20 | ABD MLS | Nashville Sc - Chicago | 3.5 Üst | pending | 67/100
+- 2026-09-20 | ABD MLS | Colorado - Seattle | 2.5 Alt | pending | 69/100
+- 2026-09-20 | ABD MLS | Salt Lake - Vancouver | MS 2 | pending | 66/100
+- 2026-09-20 | Honduras Ulusal Lig Apertura | Real Espana - Depor Motagua | 2.5 Alt | pending | 71/100
+- 2026-09-20 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Herediano | MS 1 | pending | 51/100
+- 2026-09-20 | ABD USL | Phoenix Rising - El Paso Locomot | 2.5 Alt | pending | 56/100
+- 2026-09-20 | ABD MLS | Portland - Atlanta Utd | MS 1 | pending | 59/100
+- 2026-09-20 | ABD USL | Las Vegas Ligh - Hartford Athlet | 2.5 Üst | pending | 62/100
+- 2026-09-20 | Meksika Liga MX Apertura | Club America - Guadalajara | 2.5 Üst | pending | 72/100
+- 2026-09-20 | Japonya J3 Lig | Zweigen Kanaza - Renofa Yamaguch | 2.5 Alt | pending | 52/100
+- 2026-09-20 | Venezuela Premier Lig Clausura | Deportivo La G - Depor Tachira | 2.5 Alt | pending | 63/100
+- 2026-09-20 | Ekvador Pro Lig Copa Sudamericana Play Off | Emelec - Libertad | KG Yok | pending | 74/100
+- 2026-09-20 | Kanada Premier Lig | Pacific Fc - Vancouver Fc | MS 2 | pending | 45/100
+- 2026-09-20 | Nikaragua Premier Lig Apertura | Walter Ferrett - Jalapa | KG Var | pending | 54/100
+- 2026-09-20 | ABD USL Lig 1 | Union Omaha - One Knoxville | 2.5 Alt | pending | 66/100
 
