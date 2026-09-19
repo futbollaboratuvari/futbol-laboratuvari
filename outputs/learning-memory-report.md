@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.09.2026 02:13:06
+Oluşturma: 20.09.2026 02:16:37
 
 ## Özet
 
@@ -8,7 +8,7 @@ Oluşturma: 20.09.2026 02:13:06
 - Bekleyen tahmin: 1718
 - Kazanan tahmin: 189
 - Kaybeden tahmin: 150
-- Lig sayısı: 336
+- Lig sayısı: 333
 - Seçenek sayısı: 12
 
 ## Öğrenme Mantığı
@@ -37,10 +37,6 @@ Oluşturma: 20.09.2026 02:13:06
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-20 | Uruguay Premier Lig Clausura | Liverpool Mont - Racing Montevid | MS 1 | pending | 45/100
-- 2026-09-20 | Meksika Ascenso MX Apertura | Cd Tapatio - Tlaxcala | MS 1 | pending | 50/100
-- 2026-09-20 | Kosta Rika Premier Lig Apertura | Alajuelense - Inter San Carlo | MS 1 | pending | 63/100
-- 2026-09-20 | Guatemala Ulusal Lig Apertura | Suchitepequez - Xelaju | KG Var | pending | 70/100
 - 2026-09-20 | ABD USL | Sacramento Rep - San Antonio | 2.5 Alt | pending | 64/100
 - 2026-09-20 | Nikaragua Premier Lig Apertura | Rancho Santana - Managua | MS 2 | pending | 55/100
 - 2026-09-20 | ABD USL Lig 1 | Spokane Veloci - Athletic Club B | 2.5 Üst | pending | 65/100
@@ -52,4 +48,8 @@ Oluşturma: 20.09.2026 02:13:06
 - 2026-09-20 | Meksika Liga MX Apertura | Toluca - Santos Laguna | KG Yok | pending | 70/100
 - 2026-09-20 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Tigre | KG Yok | pending | 65/100
 - 2026-09-20 | Guatemala Ulusal Lig Apertura | Malacateco - Mixco | 2.5 Alt | pending | 70/100
+- 2026-09-20 | Kolombiya Primera A Clausura | Llaneros - Atletico Nacion | 2.5 Üst | pending | 65/100
+- 2026-09-20 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Cs Cartagines | 2.5 Alt | pending | 65/100
+- 2026-09-20 | Meksika Liga MX Apertura | Queretaro - Club Leon | 2.5 Alt | pending | 60/100
+- 2026-09-20 | Uruguay Premier Lig Clausura | Liverpool Mont - Racing Montevid | MS 1 | pending | 45/100
 
