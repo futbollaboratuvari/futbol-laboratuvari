@@ -121,7 +121,8 @@ jobs:
           for browser_attempt in 1 2 3; do
             dom="/tmp/live-power-dom-${browser_attempt}.html"
             chrome_log="/tmp/live-power-chrome-${browser_attempt}.log"
-            "${chrome}" \
+            chrome_exit=0
+            timeout 45s "${chrome}" \
               --headless=new \
               --no-sandbox \
               --disable-gpu \
@@ -130,7 +131,10 @@ jobs:
               --enable-logging=stderr \
               --dump-dom \
               "${LIVE_URL}/?deploy=${GITHUB_SHA}&browser_attempt=${browser_attempt}&cache_bust=${RANDOM}#live-power-center" \
-              > "${dom}" 2> "${chrome_log}" || true
+              > "${dom}" 2> "${chrome_log}" || chrome_exit=$?
+            if [ "${chrome_exit}" = "124" ]; then
+              echo "Chromium process timeout on attempt ${browser_attempt}; retrying with a fresh browser." | tee -a "${chrome_log}"
+            fi
 
             echo "Live Power diagnostics attempt ${browser_attempt}:"
             grep -o 'Akış: [^<]*' "${dom}" | head -1 || true
