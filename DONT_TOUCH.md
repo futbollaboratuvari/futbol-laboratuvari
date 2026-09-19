@@ -147,6 +147,17 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 
 ## PRO Robot Islem Gunlugu
 
+### 2026-09-19 - Yari KG bagimsiz kanit fallback ve canli uye testi bulgusu
+
+- Canli uye E2E bulgusu: Gecici test uyeligiyle gercek Chromium akisi korumali PRO verisini acti ve AI Seffaflik 10 kart render etti. Ancak kartlarda Ilk Yari KG, Ikinci Yari KG ve IY/2Y KG ailesi yoktu; backend health bu market ailelerinin mevcut oldugunu gosteriyordu.
+- Kok neden: `analysis-insights-v1.js` yalniz `independent_evidence !== false` seceneklerini gosteriyor. Yari KG modellerinde bagimsiz olasilik yalniz `firstHalfGoalTrend` / `secondHalfGoalTrend` metriklerinden uretiliyordu. Bugunku resmi oranli maclarda bu metrikler yoktu; buna ragmen takim gecmisinden hesaplanan Poisson home/away lambda degerleri mevcuttu. Bu nedenle yari KG secenekleri piyasa tabaninda kalip frontend filtresinden dusuyordu.
+- Duzeltme: `robot-exact-scoring.js` icine `poissonHalfBttsProbability` eklendi. Yeterli takim gecmisiyle uretilen tam mac Poisson lambda degerleri iki esit yariya bolunerek her yari icin iki takimin da gol atma olasiligi hesaplanir. Ilk Yari KG, Ikinci Yari KG ve IY/2Y KG kombinasyonlari dogrudan yari trendi yoksa bu dusuk agirlikli Poisson kanitini kullanir; dogrudan yari trendi varsa iki kaynak birlikte agirliklanir.
+- Fail-closed: Poisson icin yeterli takim gecmisi de yoksa `independent_probability` null kalir ve `independent_evidence=false` davranisi korunur. Resmi piyasa orani tek basina bagimsiz kanit sayilmaz.
+- Kapsam: Bu degisiklik AI Seffaflikta yari KG ailelerinin gercek model kanitiyla gorunebilmesini hedefler. Dusuk oran filtresi, kupon uygunlugu, resmi oran provenance, specialist block/eligible karar mantigi ve diger marketlerin hesaplari degistirilmedi.
+- Test: `tests/transparency-market-options.test.js` yarimac trendi olmayan ama yeterli takim gecmisi bulunan senaryoda Ilk Yari KG, Ikinci Yari KG ve IY/2Y KG icin Poisson fallback kaynagini; hic veri olmayan senaryoda ise kanit uydurulmadigini dogrular.
+- Canli tamamlama kriteri: CI yesil, main merge, veri workflow'u basarili, Supabase health ilgili aileleri koruyor, gercek Chromium uye testinde AI Seffaflik 10 kart icinde Ilk Yari KG + Ikinci Yari KG + IY/2Y KG aileleri gorunuyor ve Ozel Analiz gercek sonuc uretiyor.
+
+
 ### 2026-09-19 - PRO kaynak kapasitesi 32 MiB ve canli sifir-veri hatasi
 
 - Kok neden: Resmi market zenginlestirme + Specialist Orchestrator V3 sonrasinda `data/robot-analysis.json` 23.44 MiB oldu. Eski `12 MiB` validator ve Supabase `fl-pro-analysis` kaynak tavanı workflow'u `validate-pro-source-size.js` adiminda durdurdu; canli health 200 olsa da 0 mac / 0 analiz secenegi dondu.
