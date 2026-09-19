@@ -7,6 +7,7 @@ const ROOT = path.resolve(__dirname, "..");
 const INPUT = path.join(ROOT, "data", "analiz_sonuclari.json");
 const OUTPUT = path.join(ROOT, "data", "coupon-assistant-pool.json");
 const MAX_ITEMS = 120;
+const MAX_BYTES = 256 * 1024;
 
 function number(value) {
   if (typeof value === "number" && Number.isFinite(value)) return value;
@@ -131,8 +132,13 @@ function main() {
   if (!fs.existsSync(INPUT)) throw new Error(`Input bulunamadı: ${INPUT}`);
   const analysis = JSON.parse(fs.readFileSync(INPUT, "utf8"));
   const pool = buildPool(analysis);
-  fs.writeFileSync(OUTPUT, `${JSON.stringify(pool, null, 2)}\n`, "utf8");
-  console.log(`Kupon Asistanı havuzu: ${pool.candidate_count} aday (${pool.date}).`);
+  const serialized = `${JSON.stringify(pool, null, 2)}\n`;
+  const bytes = Buffer.byteLength(serialized, "utf8");
+  if (bytes > MAX_BYTES) {
+    throw new Error(`Kupon Asistanı havuzu fazla büyük: ${bytes} byte > ${MAX_BYTES} byte`);
+  }
+  fs.writeFileSync(OUTPUT, serialized, "utf8");
+  console.log(`Kupon Asistanı havuzu: ${pool.candidate_count} aday, ${bytes} byte (${pool.date}).`);
 }
 
 module.exports = {
