@@ -131,6 +131,12 @@ try {
   console.warn(`PRO analiz indeksi atlandi: ${error.message}`);
 }
 
+try {
+  require("./build-coupon-assistant-pool").main();
+} catch (error) {
+  throw new Error(`Kupon Asistanı kamu havuzu hazırlanamadı: ${error.message}`);
+}
+
 // Vercel büyük sonuç arşivini taşımaz. GitHub Actions'ın gerçek arşivden ürettiği
 // küçük Spor Toto analiz cache'i ve varsa doğrulanmış market cache'i kullanılır.
 require("./rebuild-spor-toto-bulletin").run();
