@@ -1,36 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T20:35:16.641Z",
+  "generated_at": "2026-09-19T22:30:03.068Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-19T20:35:15.567Z",
+  "source_generated_at": "2026-09-19T22:29:59.215Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 8,
-    "ready_count": 8,
+    "live_match_count": 5,
+    "ready_count": 5,
     "waiting_count": 0,
-    "result_lean_count": 8,
-    "next_goal_lean_count": 7,
+    "result_lean_count": 1,
+    "next_goal_lean_count": 1,
     "high_goal_pressure_count": 0
   },
   "matches": [
     {
-      "fixture_id": "401882859",
+      "fixture_id": "401841579",
       "status": "ready",
-      "minute": 72,
+      "minute": 28,
       "score": {
-        "home": 1,
-        "away": 3
+        "home": 0,
+        "away": 1
       },
-      "home": "Sevilla",
-      "away": "Barcelona",
-      "league": "İspanya LaLiga",
+      "home": "River Plate",
+      "away": "Huracán",
+      "league": "Arjantin Premier Lig 2. Aşama",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
-      "freshness_minutes": 0.0179,
+      "snapshot_recorded_at": "2026-09-19T22:29:59.215Z",
+      "freshness_minutes": 0.06421666666666667,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -60,185 +60,21 @@
       "evidence_score": 48,
       "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "match_direction",
-        "label": "Deplasman yönü",
-        "confidence": 78
+        "type": "watch",
+        "label": "Net canlı tahmin yok · izlemeye devam",
+        "confidence": 48
       },
       "result_lean": {
-        "code": "2",
-        "label": "Deplasman yönü",
-        "side": "away",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "AWAY",
-        "label": "Sonraki gol eğilimi: Deplasman",
-        "side": "away",
-        "strength": 90
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 26
-      },
-      "signals": [
-        "Team Power: Sevilla %23 · Barcelona %77.",
-        "Goal Power: Sevilla %9 · Barcelona %31.",
-        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": -54,
-        "goal_power_diff": -22,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": -4,
-        "total_shots_diff": -13,
-        "corners_diff": -3,
-        "xg_diff": 0,
-        "direction_score": -107.62,
-        "next_goal_score": -53.12
-      }
-    },
-    {
-      "fixture_id": "401876457",
-      "status": "ready",
-      "minute": 90,
-      "score": {
-        "home": 2,
-        "away": 0
-      },
-      "home": "Angers",
-      "away": "Troyes",
-      "league": "Fransa Ligue 1",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
-      "freshness_minutes": 0.0179,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Ev sahibi yönü",
-        "confidence": 76
-      },
-      "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 86.52199999999999
+        "code": null,
+        "label": "Taraf için ayrışma yok",
+        "side": "neutral",
+        "strength": 55.82
       },
       "next_goal_lean": {
         "code": null,
         "label": "Sonraki gol için net ayrışma yok",
         "side": "neutral",
-        "strength": 57.620000000000005
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 14
-      },
-      "signals": [
-        "Team Power: Angers %53 · Troyes %47.",
-        "Goal Power: Angers %15 · Troyes %15.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": 6,
-        "goal_power_diff": 0,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 1,
-        "total_shots_diff": -5,
-        "corners_diff": -7,
-        "xg_diff": 0,
-        "direction_score": 40.58,
-        "next_goal_score": 1.38
-      }
-    },
-    {
-      "fixture_id": "401876455",
-      "status": "ready",
-      "minute": 90,
-      "score": {
-        "home": 2,
-        "away": 1
-      },
-      "home": "Le Mans",
-      "away": "Lorient",
-      "league": "Fransa Ligue 1",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
-      "freshness_minutes": 0.0179,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Ev sahibi yönü",
-        "confidence": 78
-      },
-      "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 81.34
+        "strength": 48.32
       },
       "goal_pressure": {
         "level": "low",
@@ -246,37 +82,37 @@
         "score": 16
       },
       "signals": [
-        "Team Power: Le Mans %64 · Lorient %36.",
-        "Goal Power: Le Mans %18 · Lorient %10.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Team Power: River Plate %58 · Huracán %42.",
+        "Goal Power: River Plate %18 · Huracán %13.",
+        "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 28,
-        "goal_power_diff": 8,
+        "team_power_diff": 16,
+        "goal_power_diff": 5,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 4,
-        "total_shots_diff": 1,
-        "corners_diff": -2,
+        "shots_on_goal_diff": 0,
+        "total_shots_diff": 5,
+        "corners_diff": 3,
         "xg_diff": 0,
-        "direction_score": 51.74,
-        "next_goal_score": 29.34
+        "direction_score": 7.18,
+        "next_goal_score": 10.68
       }
     },
     {
-      "fixture_id": "401875597",
+      "fixture_id": "401841244",
       "status": "ready",
-      "minute": 73,
+      "minute": 45,
       "score": {
         "home": 0,
         "away": 0
       },
-      "home": "Willem II",
-      "away": "Fortuna Sittard",
-      "league": "Hollanda Eredivisie",
+      "home": "Remo",
+      "away": "Santos",
+      "league": "Brezilya Serie A",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
-      "freshness_minutes": 0.0179,
+      "snapshot_recorded_at": "2026-09-19T22:29:59.215Z",
+      "freshness_minutes": 0.06421666666666667,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -306,223 +142,59 @@
       "evidence_score": 48,
       "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "next_goal",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "confidence": 65
+        "type": "watch",
+        "label": "Net canlı tahmin yok · izlemeye devam",
+        "confidence": 48
       },
       "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 70.898
+        "code": null,
+        "label": "Taraf için ayrışma yok",
+        "side": "neutral",
+        "strength": 52.48
       },
       "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 72.22
+        "code": null,
+        "label": "Sonraki gol için net ayrışma yok",
+        "side": "neutral",
+        "strength": 52.48
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 12
+        "score": 10
       },
       "signals": [
-        "Team Power: Willem II %62 · Fortuna Sittard %38.",
-        "Goal Power: Willem II %14 · Fortuna Sittard %8.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Team Power: Remo %57 · Santos %43.",
+        "Goal Power: Remo %11 · Santos %8.",
+        "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 24,
-        "goal_power_diff": 6,
+        "team_power_diff": 14,
+        "goal_power_diff": 3,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 2,
-        "total_shots_diff": 3,
-        "corners_diff": 1,
+        "shots_on_goal_diff": 0,
+        "total_shots_diff": 2,
+        "corners_diff": 2,
         "xg_diff": 0,
-        "direction_score": 23.22,
-        "next_goal_score": 20.22
+        "direction_score": 10.52,
+        "next_goal_score": 6.52
       }
     },
     {
-      "fixture_id": "401885431",
+      "fixture_id": "401921386",
       "status": "ready",
       "minute": 45,
       "score": {
-        "home": 2,
-        "away": 0
+        "home": 0,
+        "away": 1
       },
-      "home": "Sporting CP",
-      "away": "Arouca",
-      "league": "Portekiz Premier Lig",
+      "home": "Guayaquil City FC",
+      "away": "Leones",
+      "league": "Ekvador Pro Lig Copa Sudamericana Play Off",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
-      "freshness_minutes": 0.0179,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Ev sahibi yönü",
-        "confidence": 78
-      },
-      "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 70.30000000000001
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 18
-      },
-      "signals": [
-        "Team Power: Sporting CP %70 · Arouca %30.",
-        "Goal Power: Sporting CP %21 · Arouca %10.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": 40,
-        "goal_power_diff": 11,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 1,
-        "total_shots_diff": -1,
-        "corners_diff": 2,
-        "xg_diff": 0,
-        "direction_score": 54.9,
-        "next_goal_score": 18.3
-      }
-    },
-    {
-      "fixture_id": "401878984",
-      "status": "ready",
-      "minute": 89,
-      "score": {
-        "home": 3,
-        "away": 0
-      },
-      "home": "Anderlecht",
-      "away": "Zulte-Waregem",
-      "league": "Belçika Pro Lig",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
-      "freshness_minutes": 0.0179,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Ev sahibi yönü",
-        "confidence": 78
-      },
-      "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 90
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 25
-      },
-      "signals": [
-        "Team Power: Anderlecht %72 · Zulte-Waregem %28.",
-        "Goal Power: Anderlecht %30 · Zulte-Waregem %12.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": 44,
-        "goal_power_diff": 18,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 4,
-        "total_shots_diff": 5,
-        "corners_diff": 7,
-        "xg_diff": 0,
-        "direction_score": 123.02,
-        "next_goal_score": 41.62
-      }
-    },
-    {
-      "fixture_id": "401883206",
-      "status": "ready",
-      "minute": 76,
-      "score": {
-        "home": 1,
-        "away": 2
-      },
-      "home": "Cádiz",
-      "away": "Girona",
-      "league": "İspanya 2.Lig",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
-      "freshness_minutes": 0.0179,
+      "snapshot_recorded_at": "2026-09-19T22:29:59.215Z",
+      "freshness_minutes": 0.06421666666666667,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -566,7 +238,7 @@
         "code": "AWAY",
         "label": "Sonraki gol eğilimi: Deplasman",
         "side": "away",
-        "strength": 74.62
+        "strength": 90
       },
       "goal_pressure": {
         "level": "low",
@@ -574,37 +246,37 @@
         "score": 20
       },
       "signals": [
-        "Team Power: Cádiz %38 · Girona %62.",
-        "Goal Power: Cádiz %14 · Girona %23.",
+        "Team Power: Guayaquil City FC %20 · Leones %80.",
+        "Goal Power: Guayaquil City FC %5 · Leones %25.",
         "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": -24,
-        "goal_power_diff": -9,
+        "team_power_diff": -60,
+        "goal_power_diff": -20,
         "momentum_diff": 0,
         "shots_on_goal_diff": -2,
-        "total_shots_diff": -4,
+        "total_shots_diff": -9,
         "corners_diff": -2,
         "xg_diff": 0,
-        "direction_score": -50.12,
-        "next_goal_score": -22.62
+        "direction_score": -63.5,
+        "next_goal_score": -40.9
       }
     },
     {
-      "fixture_id": "401841239",
+      "fixture_id": "401903318",
       "status": "ready",
-      "minute": 76,
+      "minute": 27,
       "score": {
         "home": 1,
         "away": 1
       },
-      "home": "Atlético-MG",
-      "away": "Chapecoense",
-      "league": "Brezilya Serie A",
+      "home": "Academia Puerto Cabello",
+      "away": "Portuguesa",
+      "league": "Venezuela Premier Lig Clausura",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T20:35:15.567Z",
-      "freshness_minutes": 0.0179,
+      "snapshot_recorded_at": "2026-09-19T22:29:59.215Z",
+      "freshness_minutes": 0.06421666666666667,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -634,43 +306,125 @@
       "evidence_score": 48,
       "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "match_direction",
-        "label": "Ev sahibi yönü",
-        "confidence": 78
+        "type": "watch",
+        "label": "Net canlı tahmin yok · izlemeye devam",
+        "confidence": 48
       },
       "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 90
+        "code": null,
+        "label": "Taraf için ayrışma yok",
+        "side": "neutral",
+        "strength": 60
       },
       "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 90
+        "code": null,
+        "label": "Sonraki gol için net ayrışma yok",
+        "side": "neutral",
+        "strength": 59
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 24
+        "score": 6
       },
       "signals": [
-        "Team Power: Atlético-MG %75 · Chapecoense %25.",
-        "Goal Power: Atlético-MG %29 · Chapecoense %8.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Team Power: Academia Puerto Cabello %50 · Portuguesa %50.",
+        "Goal Power: Academia Puerto Cabello %6 · Portuguesa %6.",
+        "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 50,
-        "goal_power_diff": 21,
+        "team_power_diff": 0,
+        "goal_power_diff": 0,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 5,
-        "total_shots_diff": 11,
-        "corners_diff": 9,
+        "shots_on_goal_diff": 0,
+        "total_shots_diff": 0,
+        "corners_diff": 0,
         "xg_diff": 0,
-        "direction_score": 67.1,
-        "next_goal_score": 54.4
+        "direction_score": 0,
+        "next_goal_score": 0
+      }
+    },
+    {
+      "fixture_id": "401842142",
+      "status": "ready",
+      "minute": 23,
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "home": "Richmond Kickers",
+      "away": "Charlotte Independence",
+      "league": "ABD USL Lig 1",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-19T22:29:59.215Z",
+      "freshness_minutes": 0.06421666666666667,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 58,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "watch",
+        "label": "Net canlı tahmin yok · izlemeye devam",
+        "confidence": 58
+      },
+      "result_lean": {
+        "code": null,
+        "label": "Taraf için ayrışma yok",
+        "side": "neutral",
+        "strength": 52.64
+      },
+      "next_goal_lean": {
+        "code": null,
+        "label": "Sonraki gol için net ayrışma yok",
+        "side": "neutral",
+        "strength": 51.44
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 31
+      },
+      "signals": [
+        "Team Power: Richmond Kickers %44 · Charlotte Independence %56.",
+        "Goal Power: Richmond Kickers %28 · Charlotte Independence %34.",
+        "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": -12,
+        "goal_power_diff": -6,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 0,
+        "total_shots_diff": -2,
+        "corners_diff": -2,
+        "xg_diff": 0,
+        "direction_score": -10.36,
+        "next_goal_score": -7.56
       }
     }
   ]
