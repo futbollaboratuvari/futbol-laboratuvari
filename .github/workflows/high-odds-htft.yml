@@ -26,8 +26,9 @@ permissions:
   contents: write
 
 concurrency:
-  group: high-odds-htft
-  cancel-in-progress: true
+  # HTFT also writes data/robot-analysis.json, so it must serialize with the main data writer.
+  group: futbol-main-data-writer
+  cancel-in-progress: false
 
 jobs:
   generate:
