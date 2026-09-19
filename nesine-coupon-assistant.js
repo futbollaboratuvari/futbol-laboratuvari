@@ -1,6 +1,6 @@
 (() => {
   const DATA_URL = './data/daily-coupons.json';
-  const ANALYSIS_URL = './data/analiz_sonuclari.json';
+  const POOL_URL = './data/coupon-assistant-pool.json';
   const ROOT_ID = 'nesine-kupon-asistani';
   const CONFIG = {
     low: { label: 'Düşük Risk', legs: 2, minModel: 70, minEdge: 2 },
@@ -103,10 +103,10 @@
     };
   };
 
-  const buildManualCandidates = (analysis) => {
-    const items = Array.isArray(analysis?.active_items) ? analysis.active_items : [];
+  const buildManualCandidates = (pool) => {
+    const items = Array.isArray(pool?.items) ? pool.items : [];
     return items
-      .map((item) => normalizeAnalysisLeg(item, analysis?.source))
+      .map((item) => normalizeAnalysisLeg(item, pool?.source))
       .filter(Boolean);
   };
 
@@ -211,9 +211,9 @@
   }
 
   async function loadData() {
-    const [dailyResult, analysisResult] = await Promise.allSettled([
+    const [dailyResult, poolResult] = await Promise.allSettled([
       requestJson(DATA_URL),
-      requestJson(ANALYSIS_URL)
+      requestJson(POOL_URL)
     ]);
     const currentDate = istanbulClock().date;
     const daily = dailyResult.status === 'fulfilled' ? dailyResult.value : null;
@@ -223,13 +223,14 @@
     );
     if (hasDailyCandidates) return { ...daily, manual_candidates: [] };
 
-    const analysis = analysisResult.status === 'fulfilled' ? analysisResult.value : null;
-    const manualCandidates = buildManualCandidates(analysis);
+    const pool = poolResult.status === 'fulfilled' ? poolResult.value : null;
+    const poolFresh = Boolean(pool?.date && String(pool.date).slice(0, 10) >= currentDate);
+    const manualCandidates = poolFresh ? buildManualCandidates(pool) : [];
     if (manualCandidates.length) {
       return {
-        generated_at: analysis?.generated_at || null,
-        date: String(analysis?.date || currentDate).slice(0, 10),
-        source: `${analysis?.source || 'PRO analiz motoru'} · Manuel aday havuzu`,
+        generated_at: pool?.generated_at || null,
+        date: String(pool?.date || currentDate).slice(0, 10),
+        source: `${pool?.source || 'PRO manuel kupon aday havuzu'} · Manuel aday havuzu`,
         coupons: {},
         manual_candidates: manualCandidates
       };
@@ -238,8 +239,8 @@
     if (dailyFresh) return { ...daily, manual_candidates: [] };
     const detail = dailyResult.status === 'rejected'
       ? dailyResult.reason?.message
-      : analysisResult.status === 'rejected' ? analysisResult.reason?.message : 'güncel aday yok';
-    throw new Error(`Güncel PRO kupon/analiz verisi bulunamadı: ${detail || 'veri bekleniyor'}`);
+      : poolResult.status === 'rejected' ? poolResult.reason?.message : 'güncel aday yok';
+    throw new Error(`Güncel PRO kupon/aday havuzu verisi bulunamadı: ${detail || 'veri bekleniyor'}`);
   }
 
   function createRoot() {
