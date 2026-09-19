@@ -106,6 +106,19 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 
 ## Canli Mac Analiz Robotu Islem Gunlugu
 
+### 2026-09-20 - Canli Ogrenmede Bagimsiz Fixture Ornekleme V1.1
+
+- Kok neden: Canli ogrenme V1 ayni fixture icinde 5 dakikalik farkli minute_bucket tahminlerini ayri settled ornekler olarak sayabiliyordu. Dedupe 10 saniyelik kopyalari engellese de tek bir uzun mac kalibrasyon basari oranina birden fazla korelasyonlu oy verebilirdi. Bu durum settled_count ve Wilson araligini yapay hizla daraltabilirdi.
+- Duzeltme: refresh_live_learning_profiles profil hesabinda prediction_type + fixture_id grubuna row_number uygulanir ve yalniz observed_at olarak ilk settle edilmis won/lost gozlem fixture_rank=1 iken bagimsiz kalibrasyon ornegi sayilir. Sonraki ayni fixture gozlemleri denetim defterinde korunur ancak threshold kalibrasyonuna ek oy vermez.
+- Void davranisi: Void kayitlar audit sayaci olarak toplam sayilmaya devam eder; basari/Wilson hesabina girmez.
+- Kalibrasyon kapisi: Mevcut 40 bagimsiz sonuc + 20 farkli mac + 7 farkli gun kurali korunur. Yeni hesapla settled_count fiilen bagimsiz fixture orneklerini temsil eder; tek mac cok sayida tahminle sample sayisini sisiremez.
+- Production on testi: Guncel schema BEGIN/ROLLBACK transaction icinde uygulandi. Ayni match_direction fixture icin 3 ve baska fixture icin 2 tekrarlı settled kayit, next_goal icin 2 tekrarlı kayit sentetik olarak eklendi. Profil refresh sonrasi match_direction actual 2 = expected 2, won 1/lost 1; next_goal actual 1 = expected 1, won 1/lost 0 sonucu alindi. Rollback sonrasi ci-fixture sentetik kayit sayisi 0 dogrulandi.
+- CI: Live Match Analysis CI run 35473890128 Node 20 ve Node 24 uzerinde Deno Edge Function check, syntax ve tum live analysis testlerini success tamamlamistir. live-learning-memory testi SQL kaynaginda partition by prediction_type, fixture_id ve fixture_rank=1 kuralini kilitler.
+- Etkilenen dosyalar: supabase/sql/live-learning-schema.sql, supabase/functions/fl-live-match-analysis/index.ts, tests/live-learning-memory.test.js, DONT_TOUCH.md.
+- Veri/provenance: Gozlem yazma, ESPN dogrulamasi, next-goal settle, final score settle, RLS/grant modeli ve threshold degerleri degismedi. Yalniz istatistiksel ornek bagimsizligi duzeltildi.
+- Geri alma: refresh_live_learning_profiles fonksiyonu onceki tum-settled aggregation surumune geri alinabilir; observation defteri silinmez.
+- PR: #104 Canli ogrenmede mac basina bagimsiz ornek kullan, dal fix/live-learning-independent-fixtures-v1-20260920.
+
 ### 2026-09-20 - Canli Robot Ogrenme Hafizasi V1
 
 - Amac/kok neden: Canli Mac Analiz Robotu gercek zamanli Team Power, Goal Power, momentum ve saha ici istatistiklerle tahmin uretiyordu ancak gecmis canli tahminlerini kalici olarak olcmuyor, hangi canli sinyallerin gercek sonuca ne kadar donustugunu gelecek tahminlere geri beslemiyordu. Ogreniyor gibi gorunen fakat sonucu olculmeyen bir katman yerine dogrulanabilir canli sonuc hafizasi kuruldu.
