@@ -3,19 +3,14 @@
 Gunler: 2026-09-19 / 2026-09-20
 Kaynak: fixtures.json
 Ham mac: 354
-Aktif mac: 193
+Aktif mac: 188
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 161
-Bugun: 128
+Bultenden dusurulen mac: 166
+Bugun: 123
 Yarin: 65
 
 ## Baslamamis Maclar
-- 2026-09-19 19:15 | Belçika Pro Lig | Charleroi - Cercle Brugge | scheduled | -
-- 2026-09-19 19:15 | Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru | Al Wasl - Al Ain | scheduled | -
-- 2026-09-19 19:15 | Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru | Ajman - Al Sharjah | scheduled | -
-- 2026-09-19 19:15 | İzlanda 1.Lig Yükselme Play Off Final | Throttur - Fylkir | scheduled | -
-- 2026-09-19 19:15 | İspanya Tercera Ligi Grup 4 | Durango - Aretxabaleta | scheduled | -
 - 2026-09-19 19:30 | İngiltere Premier Lig | Nottingham F - Coventry | scheduled | -
 - 2026-09-19 19:30 | İspanya LaLiga | Celta Vigo - Santander | scheduled | -
 - 2026-09-19 19:30 | Almanya Bundesliga | Stuttgart - B.Dortmund | scheduled | -

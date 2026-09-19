@@ -2,12 +2,12 @@
 
 Durum: warning
 Toplam tahmin: 1500
-Olculen tahmin: 269
-Bekleyen tahmin: 1231
-Kazanan: 160
+Olculen tahmin: 268
+Bekleyen tahmin: 1232
+Kazanan: 159
 Kaybeden: 109
 Skoru olup pending kalan: 1
-Son finalizer kontrolu: 75
-Son finalizer guncelleme: 74
+Son finalizer kontrolu: 1
+Son finalizer guncelleme: 0
 
 Sonraki aksiyon: Skoru olan pending tahminler finalizer tarafindan olculmeli.

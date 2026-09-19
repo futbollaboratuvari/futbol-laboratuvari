@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-19T16:11:03.920582+00:00
+Tarih: 2026-09-19T16:24:36.070336+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 143
+- Kac mac bulundu: 138
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 143
+- Kac mac zaten vardi: 138
 - Ham veri havuzu toplam mac sayisi: 15730
 - Hedef tarih: 19.09.2026 Europe/Istanbul
 
@@ -28,7 +28,6 @@ Tarih: 2026-09-19T16:11:03.920582+00:00
 - Belçika Challenger Pro Lig
 - Belçika Kadınlar Süper Lig
 - Belçika Pro Lig
-- Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru
 - Bosna-Hersek Premier Lig
 - Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final
 - Brezilya Serie A
@@ -97,14 +96,12 @@ Tarih: 2026-09-19T16:11:03.920582+00:00
 - İspanya Tercera Ligi Grup 11
 - İspanya Tercera Ligi Grup 15
 - İspanya Tercera Ligi Grup 18
-- İspanya Tercera Ligi Grup 4
 - İspanya Tercera Ligi Grup 5
 - İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norrland Düşme Grubu
 - İtalya Serie A
 - İtalya Serie B
 - İtalya Serie C Grup C
-- İzlanda 1.Lig Yükselme Play Off Final
 - İzlanda Urvalsdeild Küme Düşme Grubu
 
 ## Okunabilen Oran Alanlari
@@ -185,15 +182,15 @@ Tarih: 2026-09-19T16:11:03.920582+00:00
 | 19.09.2026 | 19:30 | İspanya LaLiga | Celta Vigo | Santander | 11731 | 5 |
 | 19.09.2026 | 21:45 | İtalya Serie A | Unione V. | Lazio | 32564 | 5 |
 | 19.09.2026 | 21:45 | Fransa Ligue 1 | Le Mans | Lorient | 35650 | 5 |
-| 19.09.2026 | 21:45 | Fransa Ligue 1 | Toulouse | Le Havre | 35890 | 5 |
-| 19.09.2026 | 21:45 | Fransa Ligue 1 | Angers | Troyes | 35529 | 5 |
 | 19.09.2026 | 21:45 | Fransa Ligue 1 | Lyon | Rennes | 35774 | 5 |
+| 19.09.2026 | 21:45 | Fransa Ligue 1 | Angers | Troyes | 35529 | 5 |
+| 19.09.2026 | 21:45 | Fransa Ligue 1 | Toulouse | Le Havre | 35890 | 5 |
 | 19.09.2026 | 19:30 | Almanya Bundesliga | Stuttgart | B.Dortmund | 05441 | 5 |
-| 19.09.2026 | 21:00 | Hollanda Eredivisie | Ajax | Excelsior | 43409 | 5 |
 | 19.09.2026 | 22:00 | Hollanda Eredivisie | Willem | Fortuna Sittard | 43524 | 5 |
+| 19.09.2026 | 21:00 | Hollanda Eredivisie | Ajax | Excelsior | 43409 | 5 |
 | 19.09.2026 | 19:45 | Hollanda Eredivisie | Sparta Rotterd | Heerenveen | 43296 | 5 |
-| 19.09.2026 | 22:30 | Portekiz Premier Lig | Sporting Cp | Arouca | 46138 | 4 |
 | 19.09.2026 | 20:00 | Portekiz Premier Lig | Alverca | Rio Ave | 46027 | 5 |
+| 19.09.2026 | 22:30 | Portekiz Premier Lig | Sporting Cp | Arouca | 46138 | 4 |
 | 19.09.2026 | 21:45 | Belçika Pro Lig | Anderlecht | Zulte Waregem | 40502 | 5 |
 | 19.09.2026 | 21:45 | Belçika Pro Lig | Lommel | Mechelen | 40624 | 5 |
 
