@@ -550,6 +550,16 @@ const formProbabilities = (memory) => {
   return { values, reliability: clamp((home.count + away.count) / 16, 0.25, 1) };
 };
 
+const poissonHalfBttsProbability = (poisson, share = 0.5) => {
+  const homeLambda = Number(poisson?.homeLambda);
+  const awayLambda = Number(poisson?.awayLambda);
+  if (!Number.isFinite(homeLambda) || !Number.isFinite(awayLambda) || !(share > 0 && share <= 1)) return null;
+  const homeHalfLambda = homeLambda * share;
+  const awayHalfLambda = awayLambda * share;
+  const probability = (1 - Math.exp(-homeHalfLambda)) * (1 - Math.exp(-awayHalfLambda)) * 100;
+  return Number(clamp(probability, 1, 99).toFixed(2));
+};
+
 const independentProbabilityFor = (fixture, key, metrics, memory) => {
   const poisson = poissonProbabilities(fixture, memory, metrics);
   const form = formProbabilities(memory);
@@ -582,10 +592,24 @@ const independentProbabilityFor = (fixture, key, metrics, memory) => {
     add(homeAwayRate, teamReliability, "sonuç hafızası");
   } else if (["firstHalfBttsYes", "firstHalfBttsNo"].includes(key)) {
     const value = metrics.firstHalfGoalTrend;
-    add(key.endsWith("Yes") ? value : Number.isFinite(value) ? 100 - value : null, directWeight * 0.35, "ilk yarı eğilimi");
+    const direct = key.endsWith("Yes") ? value : Number.isFinite(value) ? 100 - value : null;
+    add(direct, directWeight * 0.35, "ilk yarı eğilimi");
+    const poissonHalf = poissonHalfBttsProbability(poisson);
+    add(
+      poissonHalf === null ? null : key.endsWith("Yes") ? poissonHalf : 100 - poissonHalf,
+      poisson ? poisson.reliability * 0.45 : 0,
+      "Poisson yarı KG modeli",
+    );
   } else if (["secondHalfBttsYes", "secondHalfBttsNo"].includes(key)) {
     const value = metrics.secondHalfGoalTrend;
-    add(key.endsWith("Yes") ? value : Number.isFinite(value) ? 100 - value : null, directWeight * 0.35, "ikinci yarı eğilimi");
+    const direct = key.endsWith("Yes") ? value : Number.isFinite(value) ? 100 - value : null;
+    add(direct, directWeight * 0.35, "ikinci yarı eğilimi");
+    const poissonHalf = poissonHalfBttsProbability(poisson);
+    add(
+      poissonHalf === null ? null : key.endsWith("Yes") ? poissonHalf : 100 - poissonHalf,
+      poisson ? poisson.reliability * 0.45 : 0,
+      "Poisson yarı KG modeli",
+    );
   } else if (["halfBttsYesYes", "halfBttsYesNo", "halfBttsNoYes", "halfBttsNoNo"].includes(key)) {
     const first = Number.isFinite(metrics.firstHalfGoalTrend) ? clamp(metrics.firstHalfGoalTrend, 1, 99) / 100 : null;
     const second = Number.isFinite(metrics.secondHalfGoalTrend) ? clamp(metrics.secondHalfGoalTrend, 1, 99) / 100 : null;
@@ -595,6 +619,16 @@ const independentProbabilityFor = (fixture, key, metrics, memory) => {
           : key === "halfBttsNoYes" ? (1 - first) * second
             : (1 - first) * (1 - second);
       add(combined * 100, directWeight * 0.35, "İY/2Y KG eğilimi");
+    }
+    const poissonHalf = poissonHalfBttsProbability(poisson);
+    if (poissonHalf !== null) {
+      const firstPoisson = poissonHalf / 100;
+      const secondPoisson = poissonHalf / 100;
+      const combinedPoisson = key === "halfBttsYesYes" ? firstPoisson * secondPoisson
+        : key === "halfBttsYesNo" ? firstPoisson * (1 - secondPoisson)
+          : key === "halfBttsNoYes" ? (1 - firstPoisson) * secondPoisson
+            : (1 - firstPoisson) * (1 - secondPoisson);
+      add(combinedPoisson * 100, poisson ? poisson.reliability * 0.45 : 0, "Poisson İY/2Y KG modeli");
     }
   }
 
@@ -974,6 +1008,7 @@ module.exports = {
     fairProbabilityFor,
     independentProbabilityFor,
     poissonProbabilities,
+    poissonHalfBttsProbability,
   },
 };
 
