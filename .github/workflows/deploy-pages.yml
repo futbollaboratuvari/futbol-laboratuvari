@@ -200,3 +200,132 @@ jobs:
 
           print("LIVE USER TEST PASS: Maç Kayıtları ayrı arşivden, Sonuçlar yalnız doğrulanmış kayıtlardan render edildi.")
           PY
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import datetime as dt
+          import html as html_lib
+          import json
+          import re
+          from zoneinfo import ZoneInfo
+
+          dom = Path("/tmp/live-power-dom.html").read_text(encoding="utf-8", errors="replace")
+          now = dt.datetime.now(ZoneInfo("Europe/Istanbul"))
+          today = now.strftime("%Y-%m-%d")
+          clock = now.strftime("%H:%M")
+
+          def section_by_id(section_id):
+              match = re.search(
+                  rf'<section\b[^>]*\bid=["\']{re.escape(section_id)}["\'][^>]*>(.*?)</section>',
+                  dom,
+                  re.S | re.I,
+              )
+              if not match:
+                  raise SystemExit(f"{section_id} live DOM section not found")
+              return match.group(1)
+
+          def text_of(fragment):
+              return html_lib.unescape(re.sub(r"<[^>]+>", " ", fragment))
+
+          def number(value):
+              if isinstance(value, (int, float)):
+                  return float(value)
+              match = re.search(r"-?\d+(?:[\.,]\d+)?", str(value or ""))
+              return float(match.group(0).replace(",", ".")) if match else 0.0
+
+          def is_upcoming(item):
+              date = str(item.get("date") or "")[:10]
+              if not date:
+                  return False
+              if date > today:
+                  return True
+              if date < today:
+                  return False
+              raw_time = str(item.get("time") or item.get("start_time") or "")
+              time_match = re.match(r"^\d{2}:\d{2}", raw_time)
+              return not time_match or time_match.group(0) > clock
+
+          coupon_html = section_by_id("nesine-kupon-asistani")
+          coupon_text = text_of(coupon_html)
+          if "Kupon Asistanı" not in coupon_text or "Manuel Kupon Hazırlama" not in coupon_text:
+              raise SystemExit("Kupon Asistanı live DOM heading missing")
+          if "Kupon verisi yüklenemedi:" in coupon_text:
+              raise SystemExit("Kupon Asistanı live DOM data load failed")
+
+          daily = json.loads(Path("public/data/daily-coupons.json").read_text(encoding="utf-8"))
+          analysis = json.loads(Path("public/data/analiz_sonuclari.json").read_text(encoding="utf-8"))
+          has_published_coupon = any(
+              isinstance(coupon, dict)
+              and isinstance(coupon.get("selected_matches"), list)
+              and len(coupon["selected_matches"]) > 0
+              for coupon in (daily.get("coupons") or {}).values()
+          )
+
+          manual_candidates = []
+          if not has_published_coupon:
+              default_source = str(analysis.get("source") or "")
+              for item in analysis.get("active_items") or []:
+                  if str(item.get("status") or "").lower() != "scheduled":
+                      continue
+                  if not is_upcoming(item):
+                      continue
+                  source = str(item.get("source") or default_source)
+                  if "iddaa" not in source.lower():
+                      continue
+                  match_name = str(
+                      item.get("match_name")
+                      or item.get("match")
+                      or item.get("title")
+                      or f"{item.get('home') or ''} VS {item.get('away') or ''}"
+                  ).strip()
+                  market = str(item.get("recommended_market") or item.get("market") or item.get("prediction") or "").strip()
+                  odds = number(item.get("estimated_odds"))
+                  model = number(item.get("model_score") or item.get("confidence_score") or item.get("analysis_score"))
+                  completeness = number(item.get("data_completeness"))
+                  if match_name and market and odds > 1 and model >= 54 and completeness >= 45:
+                      manual_candidates.append(item)
+
+          coupon_leg_count = len(re.findall(r'class=["\'][^"\']*\bnka-leg\b', coupon_html, re.I))
+          if has_published_coupon and coupon_leg_count == 0:
+              raise SystemExit("Kupon Asistanı published coupon exists but no live legs rendered")
+          if manual_candidates and coupon_leg_count == 0:
+              raise SystemExit(
+                  f"Kupon Asistanı has {len(manual_candidates)} eligible PRO manual candidates but rendered zero legs"
+              )
+          if manual_candidates and "Manuel aday havuzu" not in coupon_text:
+              raise SystemExit("Kupon Asistanı manual fallback rendered without manual-pool notice")
+
+          htft_html = section_by_id("high-odds-htft")
+          htft_text = text_of(htft_html)
+          if "1/2" not in htft_text or "2/1" not in htft_text:
+              raise SystemExit("HTFT live DOM heading/market scope missing")
+          if "Günlük 1/2 – 2/1 taraması hazırlanıyor." in htft_text:
+              raise SystemExit("HTFT live DOM stayed in data-load fallback state")
+
+          htft_data = json.loads(Path("public/data/high-odds-htft.json").read_text(encoding="utf-8"))
+          raw_picks = htft_data.get("picks") or []
+          upcoming_picks = [pick for pick in raw_picks if is_upcoming(pick)][:3]
+          started_picks = [pick for pick in raw_picks if not is_upcoming(pick)]
+
+          for pick in upcoming_picks:
+              name = str(pick.get("match_name") or "").strip()
+              if name and name not in htft_text:
+                  raise SystemExit(f"HTFT upcoming pick missing from live DOM: {name}")
+
+          for pick in started_picks:
+              name = str(pick.get("match_name") or "").strip()
+              if name and name in htft_text:
+                  raise SystemExit(f"HTFT already-started pick leaked into live DOM: {name}")
+
+          rendered_htft_cards = htft_text.count("Ters Sonuç Adayı")
+          if upcoming_picks and rendered_htft_cards < len(upcoming_picks):
+              raise SystemExit(
+                  f"HTFT expected {len(upcoming_picks)} upcoming cards but rendered {rendered_htft_cards}"
+              )
+
+          print(
+              "LIVE USER TEST PASS: Kupon Asistanı ve İY/MS motoru custom domainde render edildi. "
+              f"manual_candidates={len(manual_candidates)} coupon_legs={coupon_leg_count} "
+              f"htft_upcoming={len(upcoming_picks)} htft_cards={rendered_htft_cards}"
+          )
+          PY
