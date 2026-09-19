@@ -28,6 +28,10 @@ const {
     ["1/1", "İY/MS 1/1"],
     ["1/2", "İY/MS 1/2"],
     ["2/1", "İY/MS 2/1"],
+    ["İY/MS 1/1", "İY/MS 1/1"],
+    ["İY/MS 1/2", "İY/MS 1/2"],
+    ["İY/MS 2/1", "İY/MS 2/1"],
+    ["HT/FT 1/2", "İY/MS 1/2"],
   ];
   for (const [input, expected] of cases) {
     assert.equal(memoryCanonicalMarket(input), expected, `memory canonical: ${input}`);
