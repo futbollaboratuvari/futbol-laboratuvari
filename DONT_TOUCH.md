@@ -117,7 +117,7 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Etkilenen dosyalar: supabase/sql/live-learning-schema.sql, supabase/functions/fl-live-match-analysis/index.ts, tests/live-learning-memory.test.js, DONT_TOUCH.md.
 - Veri/provenance: Gozlem yazma, ESPN dogrulamasi, next-goal settle, final score settle, RLS/grant modeli ve threshold degerleri degismedi. Yalniz istatistiksel ornek bagimsizligi duzeltildi.
 - Geri alma: refresh_live_learning_profiles fonksiyonu onceki tum-settled aggregation surumune geri alinabilir; observation defteri silinmez.
-- PR: #104 Canli ogrenmede mac basina bagimsiz ornek kullan, dal fix/live-learning-independent-fixtures-v1-20260920.
+- Kapanis: PR #104 Canli ogrenmede mac basina bagimsiz ornek kullan merge edildi; merge commit 808f3a260d09b18c2f3c2ca9a1695a5b4476196. Dal fix/live-learning-independent-fixtures-v1-20260920.
 
 ### 2026-09-20 - Canli Robot Ogrenme Hafizasi V1
 
