@@ -52,6 +52,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Learning settlement regression
         run: node tests/learning-market-settlement.test.js
+      - name: Learning memory retention regression
+        run: node tests/learning-memory-retention.test.js
       - name: Learning confidence regression
         run: node tests/learning-confidence.test.js
       - name: Loss-pattern regression

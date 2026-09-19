@@ -65,6 +65,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            scripts
+            tests
+            supabase/functions/fl-pro-analysis
+            data/*.json
+            data/robot_match_archive_parts/*.json
+            api/verify-code.js
+            .github/workflows/update-fixtures.yml
+            .github/workflows/deploy-pages.yml
+            .github/workflows/football-bulletin-only.yml
+            *.html
+            *.js
+            package.json
+            .gitignore
+            favicon.ico
+          sparse-checkout-cone-mode: false
 
       - name: Setup Node
         uses: actions/setup-node@v4

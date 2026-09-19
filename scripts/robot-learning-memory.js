@@ -10,7 +10,11 @@ const robotAnalysisPath = path.join(dataDir, "robot-analysis.json");
 const liveMatchesPath = path.join(dataDir, "live-matches.json");
 const reportPath = path.join(outputsDir, "learning-memory-report.md");
 
-const MAX_PREDICTIONS = 1500;
+const MAX_TRAINING_PREDICTIONS = 3000;
+const MAX_PENDING_PREDICTIONS = 2000;
+const MAX_VOID_PREDICTIONS = 500;
+const MARKET_RETENTION_FLOOR = 120;
+const MAX_PREDICTIONS = MAX_TRAINING_PREDICTIONS + MAX_PENDING_PREDICTIONS + MAX_VOID_PREDICTIONS;
 
 function readJson(filePath, fallback) {
   try {
@@ -230,6 +234,71 @@ function finalizeBucket(bucket, scope = "market") {
   return bucket;
 }
 
+function predictionRecency(item) {
+  return String(item?.updated_at || item?.created_at || item?.finalized_at || item?.date || "");
+}
+
+function sortPredictionsDesc(rows) {
+  return [...rows].sort((a, b) => predictionRecency(b).localeCompare(predictionRecency(a)));
+}
+
+function retainTrainingPredictions(rows, limit = MAX_TRAINING_PREDICTIONS, marketFloor = MARKET_RETENTION_FLOOR) {
+  const sorted = sortPredictionsDesc(rows);
+  if (sorted.length <= limit) return sorted;
+
+  const groups = new Map();
+  for (const item of sorted) {
+    const market = canonicalMarket(item?.market || "Belirsiz");
+    const bucket = groups.get(market) || [];
+    bucket.push(item);
+    groups.set(market, bucket);
+  }
+
+  const retained = [];
+  const retainedIds = new Set();
+  const marketRows = [...groups.values()];
+
+  // Round-robin reservation prevents high-volume markets from evicting the
+  // complete recent history of rarer specialist markets.
+  for (let index = 0; index < marketFloor && retained.length < limit; index += 1) {
+    for (const bucket of marketRows) {
+      const item = bucket[index];
+      if (!item || retained.length >= limit) continue;
+      const identity = String(item.id || "");
+      if (identity && retainedIds.has(identity)) continue;
+      retained.push(item);
+      if (identity) retainedIds.add(identity);
+    }
+  }
+
+  for (const item of sorted) {
+    if (retained.length >= limit) break;
+    const identity = String(item.id || "");
+    if (identity && retainedIds.has(identity)) continue;
+    retained.push(item);
+    if (identity) retainedIds.add(identity);
+  }
+
+  return sortPredictionsDesc(retained);
+}
+
+function retainLearningPredictions(rows) {
+  const all = Array.isArray(rows) ? rows : [];
+  const training = all.filter((item) => item?.status === "won" || item?.status === "lost");
+  const pending = all.filter((item) => !["won", "lost", "void"].includes(item?.status));
+  const voided = all.filter((item) => item?.status === "void");
+
+  const retainedTraining = retainTrainingPredictions(training);
+  const retainedPending = sortPredictionsDesc(pending).slice(0, MAX_PENDING_PREDICTIONS);
+  const retainedVoid = sortPredictionsDesc(voided).slice(0, MAX_VOID_PREDICTIONS);
+
+  return sortPredictionsDesc([
+    ...retainedTraining,
+    ...retainedPending,
+    ...retainedVoid,
+  ]).slice(0, MAX_PREDICTIONS);
+}
+
 function buildMemory(predictions) {
   const marketMemory = {};
   const leagueMemory = {};
@@ -327,9 +396,7 @@ function runLearningMemory() {
     }
   }
 
-  const predictions = Array.from(existing.values())
-    .sort((a, b) => String(b.created_at || "").localeCompare(String(a.created_at || "")))
-    .slice(0, MAX_PREDICTIONS);
+  const predictions = retainLearningPredictions(Array.from(existing.values()));
   const { marketMemory, leagueMemory, leagueMarketMemory } = buildMemory(predictions);
   const summary = {
     total_predictions: predictions.length,
@@ -340,7 +407,16 @@ function runLearningMemory() {
     league_count: Object.keys(leagueMemory).length,
     market_count: Object.keys(marketMemory).length,
     added_predictions: added,
-    updated_predictions: updated
+    updated_predictions: updated,
+    retention: {
+      max_training_predictions: MAX_TRAINING_PREDICTIONS,
+      max_pending_predictions: MAX_PENDING_PREDICTIONS,
+      max_void_predictions: MAX_VOID_PREDICTIONS,
+      market_retention_floor: MARKET_RETENTION_FLOOR,
+      retained_training_predictions: predictions.filter((item) => ["won", "lost"].includes(item.status)).length,
+      retained_pending_predictions: predictions.filter((item) => !["won", "lost", "void"].includes(item.status)).length,
+      retained_void_predictions: predictions.filter((item) => item.status === "void").length
+    }
   };
 
   const memory = {
@@ -371,4 +447,11 @@ module.exports = {
   buildMemory,
   finalizeBucket,
   mergePrediction,
+  retainLearningPredictions,
+  retainTrainingPredictions,
+  sortPredictionsDesc,
+  MAX_TRAINING_PREDICTIONS,
+  MAX_PENDING_PREDICTIONS,
+  MAX_VOID_PREDICTIONS,
+  MARKET_RETENTION_FLOOR,
 };
