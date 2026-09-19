@@ -11,10 +11,7 @@
     .replaceAll("'", '&#039;');
 
   async function readJson() {
-    if (typeof window.__flReadJsonShared === 'function') {
-      return window.__flReadJsonShared(DATA_PATH);
-    }
-    const response = await fetch(`${DATA_PATH}?t=${Date.now()}`, { cache: 'no-store' });
+    const response = await fetch(`${DATA_PATH}?fl_htft=${Date.now()}`, { cache: 'no-store' });
     if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
     return response.json();
   }
@@ -98,27 +95,49 @@
     if (node) node.textContent = value;
   }
 
-  function todayInIstanbul() {
+  function clockInIstanbul() {
     const parts = new Intl.DateTimeFormat('en-CA', {
       timeZone: 'Europe/Istanbul',
       year: 'numeric',
       month: '2-digit',
-      day: '2-digit'
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      hourCycle: 'h23'
     }).formatToParts(new Date());
     const bag = Object.fromEntries(parts.map((part) => [part.type, part.value]));
-    return `${bag.year}-${bag.month}-${bag.day}`;
+    return {
+      date: `${bag.year}-${bag.month}-${bag.day}`,
+      time: `${bag.hour}:${bag.minute}`
+    };
+  }
+
+  function isUpcomingPick(pick, clock) {
+    const date = String(pick?.date || '').slice(0, 10);
+    if (!date) return false;
+    if (date > clock.date) return true;
+    if (date < clock.date) return false;
+    const time = String(pick?.time || '').match(/^\d{2}:\d{2}/)?.[0] || '';
+    return !time || time > clock.time;
   }
 
   function render(root, data) {
-    const picks = Array.isArray(data?.picks) ? data.picks.slice(0, 3) : [];
-    const today = todayInIstanbul();
+    const clock = clockInIstanbul();
+    const rawPicks = Array.isArray(data?.picks) ? data.picks : [];
+    const picks = rawPicks.filter((pick) => isUpcomingPick(pick, clock)).slice(0, 3);
+    const today = clock.date;
     const bulletinDate = String(data?.date || '').slice(0, 10);
     const futureBulletin = Boolean(bulletinDate && bulletinDate > today);
     setText(root, '[data-htft-scan]', `${Number(data?.scan_count || 0)} maç`);
     setText(root, '[data-htft-candidates]', String(Number(data?.candidate_count || 0)));
     setText(root, '[data-htft-selected]', String(picks.length));
+    const startedPickCount = rawPicks.length - picks.length;
     setText(root, '[data-htft-status]', data?.status === 'ready'
-      ? futureBulletin ? 'Sıradaki bülten' : 'Güncel'
+      ? futureBulletin
+        ? 'Sıradaki bülten'
+        : picks.length
+          ? startedPickCount ? 'Güncel · başlayan maçlar kaldırıldı' : 'Güncel'
+          : 'Yeni tarama bekleniyor'
       : 'Yeterli aday bekleniyor');
     const title = root.querySelector('#high-odds-htft-title');
     if (title) title.textContent = futureBulletin
@@ -138,7 +157,10 @@
       cards.innerHTML = picks.map(card).join('');
       return;
     }
-    cards.innerHTML = `<article class="robot-live-card fl-htft-empty"><p class="robot-note">${escapeHtml(data?.message || 'Bugün için yüksek oranlı 1/2 – 2/1 adayı henüz oluşmadı.')}</p></article>`;
+    const emptyMessage = rawPicks.length && startedPickCount > 0
+      ? 'Başlamış 1/2 – 2/1 maçları listeden kaldırıldı; yeni resmî tarama bekleniyor.'
+      : data?.message || 'Bugün için yüksek oranlı 1/2 – 2/1 adayı henüz oluşmadı.';
+    cards.innerHTML = `<article class="robot-live-card fl-htft-empty"><p class="robot-note">${escapeHtml(emptyMessage)}</p></article>`;
   }
 
   async function boot() {
@@ -158,5 +180,5 @@
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot, { once: true });
   else boot();
-  window.setInterval(boot, 15 * 60 * 1000);
+  window.setInterval(boot, 5 * 60 * 1000);
 })();
