@@ -10,6 +10,7 @@ const {
   eligiblePrediction,
   footballDataResults,
   requiresHalfTimeScore,
+  scoreText,
 } = require("../scripts/update-final-scores");
 const {
   buildScoreIndexFromRows,
@@ -83,6 +84,36 @@ const {
   assert.equal(footballDataRows.length, 1);
   assert.equal(footballDataRows[0].score, "3-2");
   assert.equal(footballDataRows[0].half_time_score, "1-1");
+})();
+
+(function testBlankScoreIsNotInventedAsZeroZero() {
+  assert.equal(scoreText("", ""), "");
+  assert.equal(scoreText(null, null), "");
+  assert.equal(scoreText("2", "1"), "2-1");
+
+  const row = {
+    date: "2026-09-19",
+    match_name: "Blank Home - Blank Away",
+    home: "Blank Home",
+    away: "Blank Away",
+    homeScore: "",
+    awayScore: "",
+  };
+  const result = {
+    date: "2026-09-19",
+    home: "Blank Home",
+    away: "Blank Away",
+    homeScore: 3,
+    awayScore: 1,
+    score: "3-1",
+    half_time_score: "1-0",
+    status: "finished",
+    source: "test",
+    source_match_id: 99,
+  };
+  const applied = applyResults([row], [result], "2026-09-20T00:00:00.000Z");
+  assert.equal(applied.updated, 1);
+  assert.equal(applied.matches[0].result_score, "3-1");
 })();
 
 (function testExistingFullTimeCanBeEnrichedWithHalfTime() {
