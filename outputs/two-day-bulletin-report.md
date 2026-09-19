@@ -2,46 +2,15 @@
 
 Gunler: 2026-09-19 / 2026-09-20
 Kaynak: fixtures.json
-Ham mac: 354
-Aktif mac: 96
+Ham mac: 188
+Aktif mac: 65
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 258
-Bugun: 31
+Biten mac: 8
+Bultenden dusurulen mac: 123
+Bugun: 0
 Yarin: 65
 
 ## Baslamamis Maclar
-- 2026-09-19 21:45 | İtalya Serie A | Unione V. - Lazio | scheduled | -
-- 2026-09-19 21:45 | Fransa Ligue 1 | Le Mans - Lorient | scheduled | -
-- 2026-09-19 21:45 | Fransa Ligue 1 | Lyon - Rennes | scheduled | -
-- 2026-09-19 21:45 | Fransa Ligue 1 | Angers - Troyes | scheduled | -
-- 2026-09-19 21:45 | Fransa Ligue 1 | Toulouse - Le Havre | scheduled | -
-- 2026-09-19 21:45 | Belçika Pro Lig | Lommel - Mechelen | scheduled | -
-- 2026-09-19 21:45 | Belçika Pro Lig | Anderlecht - Zulte Waregem | scheduled | -
-- 2026-09-19 21:45 | İrlanda Premier Lig | Sligo Rovers - St Patricks | scheduled | -
-- 2026-09-19 22:00 | İspanya LaLiga | Sevilla - Barcelona | scheduled | -
-- 2026-09-19 22:00 | Hollanda Eredivisie | Willem - Fortuna Sittard | scheduled | -
-- 2026-09-19 22:00 | İspanya 2.Lig | Cadiz - Girona | scheduled | -
-- 2026-09-19 22:00 | Brezilya Serie A | Atletico Mg - Chapecoense | scheduled | -
-- 2026-09-19 22:00 | Portekiz Kupa 2.Tur | Beira Mar - Cf Os Belenense | scheduled | -
-- 2026-09-19 22:00 | Kolombiya Primera A Clausura | Los Millionari - Chico | scheduled | -
-- 2026-09-19 22:00 | Arjantin Ulusal Primera Lig | Rafaela - San Martin Tucu | scheduled | -
-- 2026-09-19 22:00 | Arjantin Ulusal Primera Lig | Atl Temperley - Almagro | scheduled | -
-- 2026-09-19 22:00 | İspanya Primera Lig RFEF Grup 2 | Real Jaen - Ud Ibiza | scheduled | -
-- 2026-09-19 22:00 | İspanya Primera Lig RFEF Grup 2 | Huesca - Atl Madrid Ii | scheduled | -
-- 2026-09-19 22:00 | Fransa Kadınlar 1.Lig | Montpellier (K - Olympique Marse | scheduled | -
-- 2026-09-19 22:30 | Portekiz Premier Lig | Sporting Cp - Arouca | scheduled | -
-- 2026-09-19 22:30 | Venezuela Premier Lig Clausura | Rayo Zuliano - Monagas | scheduled | -
-- 2026-09-19 22:30 | Brezilya Serie B | Sport Recife - Juventude | scheduled | -
-- 2026-09-19 22:30 | İzlanda Urvalsdeild Küme Düşme Grubu | Ka Akureyri - Thor Akureyri | scheduled | -
-- 2026-09-19 22:30 | Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final | São Paulo (K) (3) - (1) | scheduled | -
-- 2026-09-19 22:45 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Independiente | scheduled | -
-- 2026-09-19 23:00 | Brezilya Serie A | Mirassol - Botafogo | scheduled | -
-- 2026-09-19 23:00 | Venezuela Premier Lig Clausura | Ucv - Carabobo | scheduled | -
-- 2026-09-19 23:00 | Brezilya Serie C Grup B | Maringa - Botafogo Pb | scheduled | -
-- 2026-09-19 23:30 | Peru Premier Lig Clausura | Sporting Crist - Atletico Grau | scheduled | -
-- 2026-09-19 23:30 | Kolombiya Primera B Clausura | Leones Fc - Centauros | scheduled | -
-- 2026-09-19 23:30 | Ekvador Pro Lig Serie B Küme Düşme Grubu | Gualaceo - Ldu Portoviejo | scheduled | -
 - 2026-09-20 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Marquense | scheduled | -
 - 2026-09-20 00:00 | Kanada Premier Lig | Cavalry - Forge | scheduled | -
 - 2026-09-20 00:00 | Honduras Ulusal Lig Apertura | Genesis Pn - Olancho | scheduled | -
@@ -112,4 +81,11 @@ Yarin: 65
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-19 19:30 | İngiltere Premier Lig | Nottingham F - Coventry | finished | 0-1
+- 2026-09-19 19:30 | İspanya LaLiga | Celta Vigo - Santander | finished | 5-0
+- 2026-09-19 19:30 | İspanya 2.Lig | Castellon - Tenerife | finished | 5-0
+- 2026-09-19 19:30 | İspanya 2.Lig | Eldense - Eibar | finished | 1-2
+- 2026-09-19 19:30 | Yunanistan Süper Lig | Aris - Iraklis 1908 | finished | 0-0
+- 2026-09-19 19:30 | İngiltere Ulusal Lig | Hornchurch - Scunthorpe | finished | 1-0
+- 2026-09-19 19:30 | İngiltere Kadınlar Premier Lig | Arsenal (K) - Manchester Unit | finished | 1-1
+- 2026-09-19 19:45 | Hollanda Eredivisie | Sparta Rotterd - Heerenveen | finished | 0-4

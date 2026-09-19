@@ -1,20 +1,20 @@
 # PRO Robot Hata Öğrenme Raporu
 
-Oluşturma: 19.09.2026 21:08:57
+Oluşturma: 19.09.2026 23:52:35
 
-- Sonuçlanmış tahmin: 262
-- Kaybeden tahmin: 107
+- Sonuçlanmış tahmin: 304
+- Kaybeden tahmin: 135
 - İzlenen market: 8
-- Aktif fren profili olan market: 3
+- Aktif fren profili olan market: 4
 
 ## Market Profilleri
 
-- MS 2: 28 sonuç, 15 kayıp, kayıp oranı %54, baskın kaçış away_pick_lost, aktif faktör low_data_selection, nonpositive_edge_selection, high_risk_selection
-- MS 1: 74 sonuç, 31 kayıp, kayıp oranı %42, baskın kaçış home_pick_drew, aktif faktör low_data_selection, nonpositive_edge_selection, high_risk_selection
-- 2.5 Üst: 43 sonuç, 16 kayıp, kayıp oranı %37, baskın kaçış goal_shortfall, aktif faktör low_data_selection
-- 2.5 Alt: 87 sonuç, 33 kayıp, kayıp oranı %38, baskın kaçış goal_overrun, aktif faktör yok
-- KG Var: 17 sonuç, 5 kayıp, kayıp oranı %29, baskın kaçış btts_failed, aktif faktör yok
-- KG Yok: 2 sonuç, 1 kayıp, kayıp oranı %50, baskın kaçış btts_occurred, aktif faktör yok
-- 3.5 Üst: 8 sonuç, 4 kayıp, kayıp oranı %50, baskın kaçış goal_shortfall, aktif faktör yok
+- 2.5 Alt: 101 sonuç, 43 kayıp, kayıp oranı %43, baskın kaçış goal_overrun, aktif faktör yok
+- KG Var: 23 sonuç, 8 kayıp, kayıp oranı %35, baskın kaçış btts_failed, aktif faktör high_confidence_miss
+- MS 1: 81 sonuç, 37 kayıp, kayıp oranı %46, baskın kaçış home_pick_drew, aktif faktör low_data_selection, nonpositive_edge_selection, high_risk_selection
+- KG Yok: 6 sonuç, 3 kayıp, kayıp oranı %50, baskın kaçış btts_occurred, aktif faktör yok
+- 3.5 Üst: 11 sonuç, 5 kayıp, kayıp oranı %46, baskın kaçış goal_shortfall, aktif faktör yok
+- 2.5 Üst: 48 sonuç, 20 kayıp, kayıp oranı %42, baskın kaçış goal_shortfall, aktif faktör low_data_selection
+- MS 2: 31 sonuç, 17 kayıp, kayıp oranı %55, baskın kaçış away_pick_lost, aktif faktör low_data_selection, nonpositive_edge_selection, high_risk_selection
 - MS X: 3 sonuç, 2 kayıp, kayıp oranı %67, baskın kaçış draw_pick_away_win, aktif faktör yok
 

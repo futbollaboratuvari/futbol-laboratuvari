@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.09.2026 21:42:52
+Oluşturma: 19.09.2026 23:52:28
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1245
-- Kazanan tahmin: 149
-- Kaybeden tahmin: 106
-- Lig sayısı: 290
+- Bekleyen tahmin: 1197
+- Kazanan tahmin: 168
+- Kaybeden tahmin: 135
+- Lig sayısı: 289
 - Seçenek sayısı: 10
 
 ## Öğrenme Mantığı
@@ -22,19 +22,20 @@ Oluşturma: 19.09.2026 21:42:52
 
 ## En Güçlü Seçenek Hafızası
 
-- KG Var: toplam 74, bekleyen 58, başarı %75, düz getiri %30, ağırlık 1
-- 2.5 Alt: toplam 479, bekleyen 393, başarı %62, düz getiri %5, ağırlık 1
-- 2.5 Üst: toplam 159, bekleyen 119, başarı %60, düz getiri %5, ağırlık 1
-- MS 1: toplam 428, bekleyen 356, başarı %57, düz getiri %-6, ağırlık 1
-- 3.5 Üst: toplam 31, bekleyen 23, başarı %50, düz getiri %-6, ağırlık 1
-- KG Yok: toplam 56, bekleyen 54, başarı %50, düz getiri %-26, ağırlık 1
-- MS 2: toplam 223, bekleyen 195, başarı %46, düz getiri %-13, ağırlık 1
+- KG Var: toplam 74, bekleyen 51, başarı %65, düz getiri %12, ağırlık 1
+- 2.5 Üst: toplam 159, bekleyen 111, başarı %58, düz getiri %2, ağırlık 1
+- 2.5 Alt: toplam 479, bekleyen 379, başarı %57, düz getiri %-4, ağırlık 1
+- 3.5 Üst: toplam 31, bekleyen 20, başarı %55, düz getiri %9, ağırlık 1
+- MS 1: toplam 428, bekleyen 347, başarı %54, düz getiri %-10, ağırlık 1
+- KG Yok: toplam 56, bekleyen 50, başarı %50, düz getiri %-24, ağırlık 1
+- MS 2: toplam 223, bekleyen 192, başarı %45, düz getiri %-17, ağırlık 1
 - MS X: toplam 13, bekleyen 10, başarı %33, düz getiri %-17, ağırlık 1
 - İlk Yarı KG Var: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İkinci Yarı KG Var: toplam 30, bekleyen 30, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-19 | İngiltere Kadınlar Premier Lig | Arsenal (K) - Manchester Unit | 2.5 Alt | pending | 57/100
 - 2026-09-19 | Hollanda Eredivisie | Ajax - Excelsior | 3.5 Üst | pending | 64/100
 - 2026-09-19 | Arjantin Prim B Metro | Urquiza - Excur | 3.5 Üst | pending | 88/100
 - 2026-09-19 | Galler Premier Lig 1.Aşama | The New Saints - Llandudno | 3.5 Üst | pending | 65/100
@@ -46,8 +47,7 @@ Oluşturma: 19.09.2026 21:42:52
 - 2026-09-19 | Almanya 2. Bundesliga | Dynamo Dresden - Hertha Berlin | İlk Yarı KG Var | pending | 58/100
 - 2026-09-19 | Arjantin Ulusal Primera Lig | San Telmo - Caseros | MS 2 | pending | 42/100
 - 2026-09-19 | Andorra 1.Lig | Carroi - Penya | KG Yok | pending | 55/100
-- 2026-09-19 | Macaristan NB I | Debreceni - Vasas | 3.5 Üst | pending | 57/100
+- 2026-09-19 | Macaristan NB I | Debreceni - Vasas | 3.5 Üst | pending | 58/100
 - 2026-09-19 | Fransa Ligue 2 | Metz - St Etienne | KG Var | pending | 72/100
 - 2026-09-19 | Hırvatistan 1.HNL | Istra - Hnk Gorica | MS 1 | pending | 47/100
-- 2026-09-19 | Güney Afrika PSL | Kruger United - Stellenbosch Fc | 2.5 Alt | pending | 66/100
 
