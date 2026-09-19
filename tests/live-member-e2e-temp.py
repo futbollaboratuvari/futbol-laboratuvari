@@ -4,6 +4,7 @@ from collections import Counter
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -65,7 +66,10 @@ try:
     input_el = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "[data-pa3-code]")))
     input_el.clear()
     input_el.send_keys(TEST_MEMBER_CODE)
-    driver.find_element(By.CSS_SELECTOR, "[data-pa3-unlock]").click()
+    unlock = driver.find_element(By.CSS_SELECTOR, "[data-pa3-unlock]")
+    driver.execute_script("arguments[0].scrollIntoView({block:'center', inline:'center'});", unlock)
+    wait.until(lambda d: d.execute_script("const r=arguments[0].getBoundingClientRect(); return r.top>=0 && r.bottom<=innerHeight;", unlock))
+    unlock.send_keys(Keys.ENTER)
 
     wait.until(lambda d: d.find_element(By.CSS_SELECTOR, "[data-pa3-code-active]").is_displayed())
     wait.until(lambda d: d.execute_script(
