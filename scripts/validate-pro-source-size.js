@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const MAX_ROBOT_BYTES = 12 * 1024 * 1024;
+const MAX_ROBOT_BYTES = 32 * 1024 * 1024;
 const robotPath = path.join(__dirname, "..", "data", "robot-analysis.json");
 
 function validate(file = robotPath, maxBytes = MAX_ROBOT_BYTES) {
