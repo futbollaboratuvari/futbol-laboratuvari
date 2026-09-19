@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T17:27:52.416Z",
+  "generated_at": "2026-09-19T18:43:11.248Z",
   "timezone": "Europe/Istanbul",
   "source": "Haftalık 15 maç programı + Futbol Laboratuvarı PRO 13",
   "official_game_format_verified": true,
@@ -15,7 +15,7 @@
   "match_count": 15,
   "analysis_ready_count": 15,
   "analysis_waiting_count": 0,
-  "source_match_count": 261,
+  "source_match_count": 188,
   "verification_sources": [
     {
       "name": "Spor Toto Teşkilat Başkanlığı",
@@ -516,9 +516,9 @@
         "X": 17
       },
       "market_probabilities": {
-        "1": 74.6,
-        "2": 8.7,
-        "X": 16.7
+        "1": 89.8,
+        "2": 5.1,
+        "X": 5.1
       },
       "public_distribution": {
         "1": 71,
@@ -636,21 +636,21 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "matchCode": "04708",
-      "one": 2.94,
-      "draw": 3.52,
-      "two": 1.98,
-      "oneOdd": 2.94,
-      "drawOdd": 3.52,
-      "twoOdd": 1.98,
+      "one": 2.86,
+      "draw": 3.54,
+      "two": 2.02,
+      "oneOdd": 2.86,
+      "drawOdd": 3.54,
+      "twoOdd": 2.02,
       "probabilities": {
         "1": 42.6,
         "2": 32.7,
         "X": 24.7
       },
       "market_probabilities": {
-        "1": 49.5,
-        "2": 25.6,
-        "X": 24.9
+        "1": 82.6,
+        "2": 8.7,
+        "X": 8.7
       },
       "public_distribution": {
         "1": 27,
@@ -1367,9 +1367,9 @@
         "X": 22
       },
       "market_probabilities": {
-        "1": 35.5,
-        "2": 32.9,
-        "X": 31.6
+        "1": 40.5,
+        "2": 35.1,
+        "X": 24.4
       },
       "public_distribution": {
         "1": 24,
@@ -2025,23 +2025,23 @@
       "away": "Inter",
       "match": "Roma - Inter",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "03199",
-      "one": 2.38,
-      "draw": 3.09,
-      "two": 2.31,
-      "oneOdd": 2.38,
-      "drawOdd": 3.09,
-      "twoOdd": 2.31,
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
       "probabilities": {
-        "1": 43.7,
-        "2": 32.2,
+        "1": 43.6,
+        "2": 32.3,
         "X": 24.1
       },
       "market_probabilities": {
-        "1": 63.8,
-        "2": 9.4,
-        "X": 26.8
+        "1": null,
+        "2": null,
+        "X": null
       },
       "public_distribution": {
         "1": 27,
@@ -2062,17 +2062,16 @@
       "risk": "Yüksek",
       "risk_level": "Yüksek",
       "data_completeness": 72,
-      "probability_gap": 11.5,
+      "probability_gap": 11.3,
       "column_multiplier": 1,
       "reasons": [
-        "PRO 13: 1 olasılığı %43.7; ikinci seçenek %32.2.",
+        "PRO 13: 1 olasılığı %43.6; ikinci seçenek %32.3.",
         "Doğrulanmış sonuç hafızası mevcut; haftalık 1-X-2 kararı gerçek geçmiş sonuçlarla sınandı.",
         "Gerçek sonuç arşivi: ev 5, deplasman 5 maç örneği kullanıldı.",
-        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 1 seçeneği %43.7 ile önde."
+        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 1 seçeneği %43.6 ile önde."
       ],
       "model_version": "pro13-btts-conditioned-v3",
       "score_type": "spor_toto_1x2",
-      "independent_evidence": true,
       "form": {
         "home": {
           "count": 5,
@@ -2093,9 +2092,9 @@
           "recent": [
             "W",
             "W",
-            "W",
             "D",
-            "W"
+            "W",
+            "D"
           ],
           "sample": 5,
           "ppg": 2.6,
@@ -2121,9 +2120,9 @@
           "recent": [
             "W",
             "W",
-            "W",
             "L",
-            "W"
+            "W",
+            "D"
           ],
           "sample": 5,
           "ppg": 2.4,
@@ -2131,13 +2130,21 @@
           "goals_against_avg": 1.6
         }
       },
-      "h2h": [],
+      "h2h": [
+        {
+          "date": "2026-09-19",
+          "home": "Roma",
+          "away": "Inter",
+          "score": "2-2"
+        }
+      ],
       "squad": {
         "available": false,
         "home": [],
         "away": [],
         "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
       },
+      "independent_evidence": true,
       "evidence_mode": "archive_poisson_plus_public_distribution",
       "archive_analysis": {
         "ready": true,
@@ -2145,8 +2152,8 @@
         "canonical_home": "Roma",
         "canonical_away": "Inter",
         "archive_probabilities": {
-          "1": 49.8,
-          "2": 28.3,
+          "1": 49.7,
+          "2": 28.4,
           "X": 21.9
         },
         "public_distribution": {
@@ -2155,18 +2162,18 @@
           "X": 30
         },
         "poisson": {
-          "home_lambda": 1.95,
+          "home_lambda": 1.96,
           "away_lambda": 1.44,
           "samples": 10,
           "reliability": 0.625
         },
-        "agreement_score": 77.2
+        "agreement_score": 77.3
       }
     }
   ],
   "archive_enrichment": {
     "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
-    "generated_at": "2026-09-19T17:27:51.293Z",
+    "generated_at": "2026-09-19T18:43:10.163Z",
     "archive_match_count": 15645,
     "archive_ready_count": 9,
     "distribution_ready_count": 15,

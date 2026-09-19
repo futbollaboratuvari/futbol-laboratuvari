@@ -2,32 +2,15 @@
 
 Gunler: 2026-09-19 / 2026-09-20
 Kaynak: fixtures.json
-Ham mac: 261
-Aktif mac: 113
+Ham mac: 354
+Aktif mac: 96
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 148
-Bugun: 48
+Bultenden dusurulen mac: 258
+Bugun: 31
 Yarin: 65
 
 ## Baslamamis Maclar
-- 2026-09-19 21:15 | Polonya Ekstraklasa | Motor Lublin - Gornik Zabrze | scheduled | -
-- 2026-09-19 21:15 | Slovenya 1.SNL | Maribor - Aluminij | scheduled | -
-- 2026-09-19 21:30 | Almanya 2. Bundesliga | Dynamo Dresden - Hertha Berlin | scheduled | -
-- 2026-09-19 21:30 | İtalya Serie C Grup C | Salernitana - Ssc Giugliano | scheduled | -
-- 2026-09-19 21:30 | İtalya Serie C Grup C | Catania - Barletta | scheduled | -
-- 2026-09-19 21:30 | İtalya Serie C Grup C | Team Altamura - Picerno | scheduled | -
-- 2026-09-19 21:30 | Slovakya Süper Lig | Kfc Komarno - Slovan Bratisla | scheduled | -
-- 2026-09-19 21:30 | Arjantin Ulusal Primera Lig | San Telmo - Caseros | scheduled | -
-- 2026-09-19 21:30 | Arjantin Ulusal Primera Lig | Ferro Carril O - Ciudad De Bolív | scheduled | -
-- 2026-09-19 21:30 | Arjantin Ulusal Primera Lig | San Miguel - All Boys | scheduled | -
-- 2026-09-19 21:30 | Uruguay Premier Lig Clausura | Cerro - Penarol | scheduled | -
-- 2026-09-19 21:30 | Andorra 1.Lig | Carroi - Penya | scheduled | -
-- 2026-09-19 21:30 | İspanya Kadınlar Primera Lig | Real Madrid (K - Valencia (K) | scheduled | -
-- 2026-09-19 21:30 | İspanya 2. Lig RFEF Grup 5 | Calamocha - Atletico Madrid | scheduled | -
-- 2026-09-19 21:30 | Malta Premier Lig Açılış | Mosta Fc - Gzira United | scheduled | -
-- 2026-09-19 21:30 | Irak Premier Lig | Al Shorta - Al Kahraba | scheduled | -
-- 2026-09-19 21:30 | Arjantin Kadınlar Primera A 2. Aşama | Lanus (K) - Union (K) | scheduled | -
 - 2026-09-19 21:45 | İtalya Serie A | Unione V. - Lazio | scheduled | -
 - 2026-09-19 21:45 | Fransa Ligue 1 | Le Mans - Lorient | scheduled | -
 - 2026-09-19 21:45 | Fransa Ligue 1 | Lyon - Rennes | scheduled | -
