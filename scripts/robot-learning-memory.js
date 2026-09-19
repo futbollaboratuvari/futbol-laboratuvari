@@ -59,13 +59,20 @@ function numberOrNull(value) {
 function canonicalMarket(value) {
   const text = String(value || "").trim();
   const key = clean(text);
-  if (/ilk yari kg|1y kg|first half btts/.test(key)) return "İlk Yarı KG Var";
-  if (/ikinci yari kg|2y kg|second half btts/.test(key)) return "İkinci Yarı KG Var";
+  if (/ilk yari kg yok|1y kg yok|first half btts no/.test(key)) return "İlk Yarı KG Yok";
+  if (/ilk yari kg var|1y kg var|first half btts yes|^ilk yari kg$|^1y kg$/.test(key)) return "İlk Yarı KG Var";
+  if (/ikinci yari kg yok|2y kg yok|second half btts no/.test(key)) return "İkinci Yarı KG Yok";
+  if (/ikinci yari kg var|2y kg var|second half btts yes|^ikinci yari kg$|^2y kg$/.test(key)) return "İkinci Yarı KG Var";
   if (/kg var|btts yes/.test(key)) return "KG Var";
   if (/kg yok|btts no/.test(key)) return "KG Yok";
   if (/2 5.*ust|over 25|over 2 5/.test(key)) return "2.5 Üst";
   if (/2 5.*alt|under 25|under 2 5/.test(key)) return "2.5 Alt";
   if (/3 5.*ust|over 35|over 3 5/.test(key)) return "3.5 Üst";
+  if (/6\+\s*gol|6 plus gol|6 veya daha fazla gol|6 ve uzeri gol/.test(text.toLocaleLowerCase("tr-TR")) || /6 gol/.test(key)) return "6+ Gol";
+  if (/^(1\/1|iy ms 1 1|ht ft 1 1)$/.test(key.replace(/ /g, " "))) return "İY/MS 1/1";
+  if (/^(1\/2|iy ms 1 2|ht ft 1 2)$/.test(text.toLocaleLowerCase("tr-TR").replace(/\s+/g, " ").trim()) || /^1 2$/.test(key)) return "İY/MS 1/2";
+  if (/^(2\/1|iy ms 2 1|ht ft 2 1)$/.test(text.toLocaleLowerCase("tr-TR").replace(/\s+/g, " ").trim()) || /^2 1$/.test(key)) return "İY/MS 2/1";
+  if (/^1 1$/.test(key)) return "İY/MS 1/1";
   if (/ms 1|mac sonucu 1/.test(key)) return "MS 1";
   if (/ms x|mac sonucu x/.test(key)) return "MS X";
   if (/ms 2|mac sonucu 2/.test(key)) return "MS 2";
@@ -107,6 +114,7 @@ function evaluateMarket(market, score) {
   if (market === "2.5 Üst") return total > 2.5 ? "won" : "lost";
   if (market === "2.5 Alt") return total < 2.5 ? "won" : "lost";
   if (market === "3.5 Üst") return total > 3.5 ? "won" : "lost";
+  if (market === "6+ Gol") return total >= 6 ? "won" : "lost";
   if (market === "MS 1") return parsed.home > parsed.away ? "won" : "lost";
   if (market === "MS X") return parsed.home === parsed.away ? "won" : "lost";
   if (market === "MS 2") return parsed.away > parsed.home ? "won" : "lost";
@@ -143,6 +151,7 @@ function buildPrediction(item, date, liveMap) {
       || "",
     status: result,
     result_score: score || "",
+    half_time_score: live?.half_time_score || live?.halftime_score || item.half_time_score || item.halftime_score || item.ht_score || "",
     source: item.odds_source || item.source || "robot-analysis",
     learning_note: result === "pending" ? "Sonuç bekleniyor." : "Sonuç işlendi."
   };
