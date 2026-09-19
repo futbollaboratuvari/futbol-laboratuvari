@@ -50,6 +50,14 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Deno Edge Function check
+        run: deno check --config supabase/functions/fl-live-match-analysis/deno.json supabase/functions/fl-live-match-analysis/index.ts
+
       - name: Syntax check
         run: |
           node --check scripts/update-live-power-series.js
