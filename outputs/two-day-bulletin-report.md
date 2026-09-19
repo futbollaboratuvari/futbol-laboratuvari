@@ -1,43 +1,16 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-09-19 / 2026-09-20
+Gunler: 2026-09-20 / 2026-09-21
 Kaynak: fixtures.json
-Ham mac: 188
-Aktif mac: 65
+Ham mac: 610
+Aktif mac: 583
 Canli mac: 0
-Biten mac: 8
-Bultenden dusurulen mac: 123
-Bugun: 0
-Yarin: 65
+Biten mac: 0
+Bultenden dusurulen mac: 27
+Bugun: 541
+Yarin: 42
 
 ## Baslamamis Maclar
-- 2026-09-20 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Marquense | scheduled | -
-- 2026-09-20 00:00 | Kanada Premier Lig | Cavalry - Forge | scheduled | -
-- 2026-09-20 00:00 | Honduras Ulusal Lig Apertura | Genesis Pn - Olancho | scheduled | -
-- 2026-09-20 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Deportivo Fas | scheduled | -
-- 2026-09-20 00:05 | Kolombiya Primera A Clausura | Alianza Petrol - Santa Fe | scheduled | -
-- 2026-09-20 00:30 | Brezilya Serie A | Remo - Santos | scheduled | -
-- 2026-09-20 00:30 | Brezilya Serie B | Athletic Club - Botafogo Ribeir | scheduled | -
-- 2026-09-20 00:30 | Uruguay Premier Lig Clausura | Deportivo Mald - Cerro Largo | scheduled | -
-- 2026-09-20 00:30 | Ekvador Pro Lig Copa Sudamericana Play Off | Guayaquil City - Leones Del Nort | scheduled | -
-- 2026-09-20 01:00 | Arjantin Premier Lig 2. Aşama | River Plate - Huracan | scheduled | -
-- 2026-09-20 01:00 | Venezuela Premier Lig Clausura | Academia Puert - Portuguesa | scheduled | -
-- 2026-09-20 01:00 | ABD USL Lig 1 | Richmond Kicke - Charlotte Indep | scheduled | -
-- 2026-09-20 02:00 | Meksika Liga MX Apertura | Atletico San L - Necaxa | scheduled | -
-- 2026-09-20 02:00 | Meksika Liga MX Apertura | Atlas - Pumas Unam | scheduled | -
-- 2026-09-20 02:00 | Peru Premier Lig Clausura | Deportivo Garc - Universitario | scheduled | -
-- 2026-09-20 02:00 | Kosta Rika Premier Lig Apertura | Puntarenas Fc - Liberia | scheduled | -
-- 2026-09-20 02:00 | ABD USL | Lexington - Orange County B | scheduled | -
-- 2026-09-20 02:00 | ABD USL | Detroit City - Pittsburgh Rive | scheduled | -
-- 2026-09-20 02:00 | ABD USL | Louisville Cit - Loudoun United | scheduled | -
-- 2026-09-20 02:00 | ABD USL | Charleston Bat - Monterey Bay | scheduled | -
-- 2026-09-20 02:00 | ABD USL | Brooklyn - Tulsa Roughneck | scheduled | -
-- 2026-09-20 02:00 | El Salvador Primera Lig Apertura | Inter Fa - Isidro Metapan | scheduled | -
-- 2026-09-20 02:00 | ABD USL Lig 1 | New York Cosmo - Westchester Sc | scheduled | -
-- 2026-09-20 02:00 | ABD USL Lig 1 | Chattanooga Re - Portland Hearts | scheduled | -
-- 2026-09-20 02:00 | ABD USL Lig 1 | Forward Madiso - Alta | scheduled | -
-- 2026-09-20 02:06 | Meksika Kadınlar Liga MX Apertura | Tijuana (K) - Guadalajara (K) | scheduled | -
-- 2026-09-20 02:10 | Kolombiya Primera A Clausura | Deportivo Cali - Depor Cucuta | scheduled | -
 - 2026-09-20 02:30 | ABD MLS | San Jose - Los Angeles Fc | scheduled | -
 - 2026-09-20 02:30 | ABD MLS | Dc United - Charlotte | scheduled | -
 - 2026-09-20 02:30 | ABD MLS | New England - Orlando City | scheduled | -
@@ -76,16 +49,554 @@ Yarin: 65
 - 2026-09-20 05:30 | ABD USL | Las Vegas Ligh - Hartford Athlet | scheduled | -
 - 2026-09-20 06:15 | Meksika Liga MX Apertura | Club America - Guadalajara | scheduled | -
 - 2026-09-20 07:00 | Japonya J3 Lig | Zweigen Kanaza - Renofa Yamaguch | scheduled | -
+- 2026-09-20 08:00 | Asya Oyunları Grup B | İran U23 - Çin U23 | scheduled | -
+- 2026-09-20 08:00 | Hong Kong HKFA 1.Lig | Sham Shui Po - Metro Gallery | scheduled | -
+- 2026-09-20 08:30 | Hong Kong HKFA 1.Lig | Supreme Fc - Central & Weste | scheduled | -
+- 2026-09-20 09:00 | Avustralya Victoria Kadınlar Premier Lig Büyük Final | Box Hill Unite - Avondale (K) | scheduled | -
+- 2026-09-20 10:00 | Asya Oyunları Grup A | Hong Kong U23 - Tayland U23 | scheduled | -
+- 2026-09-20 10:00 | Hong Kong HKFA 1.Lig | Tung Sing - Wse | scheduled | -
+- 2026-09-20 10:30 | Güney Kore K Lig 1 | Gangwon - Jeju Utd | scheduled | -
+- 2026-09-20 10:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Gwangju | scheduled | -
+- 2026-09-20 10:30 | Güney Kore K Lig 2 | Yongin - Gyeongnam | scheduled | -
+- 2026-09-20 10:30 | Güney Kore K Lig 2 | Ansan Greeners - Cheongju Fc | scheduled | -
+- 2026-09-20 10:30 | Hong Kong HKFA 1.Lig | 3 Sing - Yuen Long | scheduled | -
+- 2026-09-20 10:30 | Hong Kong HKFA 1.Lig | Citizen - Lucky Mile | scheduled | -
+- 2026-09-20 10:30 | Hong Kong HKFA 1.Lig | Tai Ching - South China | scheduled | -
+- 2026-09-20 11:00 | Japonya J1 Lig | Gamba Osaka - Vissel Kobe | scheduled | -
+- 2026-09-20 11:00 | Japonya J1 Lig | Machida Zelvia - Kashiwa | scheduled | -
+- 2026-09-20 11:00 | Japonya J2 Lig | Tochigi City - Sendai | scheduled | -
+- 2026-09-20 11:00 | Güney Kore K3 Ligi | Gyeongju Hnp - Changwon City | scheduled | -
+- 2026-09-20 11:00 | Tayvan Premier Lig | Air Source - Tatung | scheduled | -
+- 2026-09-20 11:00 | Japonya J3 Lig | Sagamihara - Gira Kitakyushu | scheduled | -
+- 2026-09-20 11:00 | Japonya J3 Lig | Mio Biwako Shi - Ryukyu | scheduled | -
+- 2026-09-20 11:00 | Japonya J3 Lig | Parceiro Nagan - Fc Gifu | scheduled | -
+- 2026-09-20 11:00 | Japonya Futbol Ligi | Yokohama Scc - Urayasu | scheduled | -
+- 2026-09-20 11:15 | Çek Cumhuriyeti FNL | Viktoria Zizko - Trinec | scheduled | -
+- 2026-09-20 11:30 | Avusturya 1.Lig | Avusturya Wien - Rapid Vienna (A | scheduled | -
+- 2026-09-20 11:30 | Slovakya 2.Lig | Zilina Ii - Povazska Bystri | scheduled | -
+- 2026-09-20 11:30 | Endonezya Süper Lig | Dewa United - Pss Sleman | scheduled | -
+- 2026-09-20 11:30 | Endonezya Süper Lig | Borneo Fc - Bali United | scheduled | -
+- 2026-09-20 11:30 | Romanya 2.Lig | Ramnicu Valcea - Bihor | scheduled | -
+- 2026-09-20 11:30 | Tayvan Premier Lig | Taichung Rock - Taiwan Power Co | scheduled | -
+- 2026-09-20 12:00 | Portekiz Kupa 2.Tur | Fafe - Lajense | scheduled | -
+- 2026-09-20 12:00 | Malezya FA Kupası Çeyrek Final | Pulau Pinang - Johor Dt | scheduled | -
+- 2026-09-20 12:00 | İspanya 2. Lig RFEF Grup 3 | Deportiva Mine - Orihuela | scheduled | -
+- 2026-09-20 12:00 | Macaristan NB III Güneydoğu | Honved Ii - Ujpest Ii | scheduled | -
+- 2026-09-20 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Csepel Tc | scheduled | -
+- 2026-09-20 12:00 | İspanya Tercera Ligi Grup 13 | Cartagena Ii - Ucam Murcia Ii | scheduled | -
+- 2026-09-20 12:00 | Fransa U19 Ulusal Şampiyona Grup B | Paris U19 - Clermont U19 | scheduled | -
+- 2026-09-20 12:30 | İspanya 2. Lig RFEF Grup 3 | Atletico Balea - Ucam Murcia | scheduled | -
+- 2026-09-20 12:30 | İspanya 2. Lig RFEF Grup 3 | Elche Ii - Pena Deportiva | scheduled | -
+- 2026-09-20 12:30 | İspanya 2. Lig RFEF Grup 3 | Alcoyano - Poblense | scheduled | -
+- 2026-09-20 12:30 | İspanya 2. Lig RFEF Grup 4 | Sevilla B - Sanluqueno | scheduled | -
+- 2026-09-20 12:30 | İspanya 2. Lig RFEF Grup 4 | Linares Deport - Las Palmas Ii | scheduled | -
+- 2026-09-20 12:30 | İspanya 2. Lig RFEF Grup 5 | Getafe Ii - Talavera Cf | scheduled | -
+- 2026-09-20 12:30 | Hong Kong HKFA 1.Lig | Kui Tan - Hoi King | scheduled | -
+- 2026-09-20 12:30 | İspanya Tercera Ligi Grup 6 | Levante Ii - Ontinyent 1931 | scheduled | -
+- 2026-09-20 12:30 | İspanya Gençler Onur Ligi Grup 2 | Sociedad U19 - Eibar U18 | scheduled | -
+- 2026-09-20 12:45 | Filipinler PFL | Azkals - Maharlika | scheduled | -
+- 2026-09-20 13:00 | Ukrayna Premier Lig | Kudrivka - Kolos Kovalivka | scheduled | -
+- 2026-09-20 13:00 | Güney Kore K Lig 1 | Pohang Steeler - Fc Seoul | scheduled | -
+- 2026-09-20 13:00 | Güney Kore K Lig 1 | Incheon Utd - Daejeon Citizen | scheduled | -
+- 2026-09-20 13:00 | Polonya 2.Lig | Stal S Wola - Resovia Rzeszow | scheduled | -
+- 2026-09-20 13:00 | Asya Oyunları Grup B | Kuzey Kore U23 - Birleşik Arap E | scheduled | -
+- 2026-09-20 13:00 | Güney Kore K Lig 2 | Seongnam - Hwaseong | scheduled | -
+- 2026-09-20 13:00 | Güney Kore K Lig 2 | Gimhae City - Paju Citizen | scheduled | -
+- 2026-09-20 13:00 | İspanya Primera Lig RFEF Grup 1 | A.Bilbao B - Dep. Fabril | scheduled | -
+- 2026-09-20 13:00 | İspanya Primera Lig RFEF Grup 2 | Alcorcon - Tarragona | scheduled | -
+- 2026-09-20 13:00 | İspanya Kadınlar Primera Lig | Tenerife (K) - Sevilla (K) | scheduled | -
+- 2026-09-20 13:00 | İspanya Kadınlar Primera Lig | Granada (K) - Deportivo De La | scheduled | -
+- 2026-09-20 13:00 | İspanya 2. Lig RFEF Grup 1 | G.Torrelavega - Bergantinos | scheduled | -
+- 2026-09-20 13:00 | İspanya 2. Lig RFEF Grup 1 | Deportivo Alav - Real Oviedo Ii | scheduled | -
+- 2026-09-20 13:00 | İspanya 2. Lig RFEF Grup 2 | Calamocha - Ud Logrones Ii | scheduled | -
+- 2026-09-20 13:00 | İspanya 2. Lig RFEF Grup 3 | Lorca Deportiv - Intercity | scheduled | -
+- 2026-09-20 13:00 | İspanya 2. Lig RFEF Grup 3 | Real Murcia Ii - Mallorca B | scheduled | -
+- 2026-09-20 13:00 | İspanya 2. Lig RFEF Grup 4 | Lucena - Tenerife Ii | scheduled | -
+- 2026-09-20 13:00 | İspanya 2. Lig RFEF Grup 5 | Real Valladoli - Albacete Ii | scheduled | -
+- 2026-09-20 13:00 | İspanya 2. Lig RFEF Grup 5 | Rsd Alcala - G.Segoviana | scheduled | -
+- 2026-09-20 13:00 | İspanya 2. Lig RFEF Grup 5 | Conquense - Salamanca | scheduled | -
+- 2026-09-20 13:00 | Vietnam Kupa 1.Tur | Lg Hn Acb - Hung Yen | scheduled | -
+- 2026-09-20 13:00 | İspanya Tercera Ligi Grup 2 | Covadonga - Caudal Deportiv | scheduled | -
+- 2026-09-20 13:00 | İspanya Tercera Ligi Grup 3 | Cd Laredo - Escobedo | scheduled | -
+- 2026-09-20 13:00 | İspanya Tercera Ligi Grup 5 | Montanesa - Grama | scheduled | -
+- 2026-09-20 13:00 | İspanya Tercera Ligi Grup 5 | San Cristobal - San Juan Atléti | scheduled | -
+- 2026-09-20 13:00 | İspanya Tercera Ligi Grup 5 | Cerdanyola Del - Lescala | scheduled | -
+- 2026-09-20 13:00 | İspanya Tercera Ligi Grup 6 | Torrent - Atzeneta | scheduled | -
+- 2026-09-20 13:00 | İspanya Tercera Ligi Grup 9 | Huetor Vega - Marbelli | scheduled | -
+- 2026-09-20 13:00 | İspanya Tercera Ligi Grup 10 | Tomares - Cordoba Ii | scheduled | -
+- 2026-09-20 13:00 | İspanya Tercera Ligi Grup 11 | Ibiza Islas Pi - Sineu | scheduled | -
+- 2026-09-20 13:00 | İspanya Tercera Ligi Grup 11 | Pe Sant Jordi - Andratx | scheduled | -
+- 2026-09-20 13:00 | İspanya Tercera Ligi Grup 18 | Huracan Balazo - Ciudad Real | scheduled | -
+- 2026-09-20 13:00 | Portekiz U23 Ulusal Şampiyona | Marítimo U23 - Felgueiras U23 | scheduled | -
+- 2026-09-20 13:00 | İspanya Gençler Onur Ligi Grup 1 | Celta De Vigo - Deportivo La Co | scheduled | -
+- 2026-09-20 13:00 | İspanya Gençler Onur Ligi Grup 3 | Osasuna U19 - Huesca U18 | scheduled | -
+- 2026-09-20 13:00 | İspanya Gençler Onur Ligi Grup 3 | Badalona U19 - Girona U19 | scheduled | -
+- 2026-09-20 13:00 | İspanya Gençler Onur Ligi Grup 3 | Barcelona U19 - Gimnàstic Manre | scheduled | -
+- 2026-09-20 13:00 | İspanya Gençler Onur Ligi Grup 4 | Almeria U18 - Cordoba U19 | scheduled | -
+- 2026-09-20 13:00 | İspanya Gençler Onur Ligi Grup 4 | Sevilla U19 - Malaga U19 | scheduled | -
+- 2026-09-20 13:00 | İspanya Gençler Onur Ligi Grup 4 | San Felix U18 - Arenas De Armil | scheduled | -
+- 2026-09-20 13:00 | İspanya Gençler Onur Ligi Grup 5 | Atl Madrid U19 - Leganes U19 | scheduled | -
+- 2026-09-20 13:00 | İspanya Gençler Onur Ligi Grup 5 | Rayo Vallecano - Sporting Hortal | scheduled | -
+- 2026-09-20 13:00 | İspanya Gençler Onur Ligi Grup 7 | Roda U18 - Valencia U19 | scheduled | -
+- 2026-09-20 13:00 | İspanya Gençler Onur Ligi Grup 7 | Villarreal U19 - Elche U19 | scheduled | -
+- 2026-09-20 13:15 | Hollanda Eredivisie | Feyenoord - Utrecht | scheduled | -
+- 2026-09-20 13:15 | Polonya Ekstraklasa | Piast Gliwice - Pogon Szczecin | scheduled | -
+- 2026-09-20 13:15 | Hollanda Kadınlar Eredivisie | Pec Zwolle (K) - De Graafschap ( | scheduled | -
+- 2026-09-20 13:15 | İspanya Tercera Ligi Grup 9 | Alhaurino - Churriana De La | scheduled | -
+- 2026-09-20 13:30 | İtalya Serie A | Fiorentina - Napoli | scheduled | -
+- 2026-09-20 13:30 | İtalya Serie C Grup A | Juventus Ii - Albinoleffe | scheduled | -
+- 2026-09-20 13:30 | İtalya Serie C Grup B | Atalanta Ii - Ravenna | scheduled | -
+- 2026-09-20 13:30 | Asya Oyunları Grup A | Kırgızistan U2 - Japonya U23 | scheduled | -
+- 2026-09-20 13:30 | İspanya Gençler Onur Ligi Grup 5 | Las Rozas U18 - Rayo Majadahond | scheduled | -
+- 2026-09-20 13:30 | İspanya Gençler Onur Ligi Grup 7 | Ucam Murcia U1 - Levante U19 | scheduled | -
+- 2026-09-20 14:00 | İngiltere Championship | Wolverhampton - West Bromwich | scheduled | -
+- 2026-09-20 14:00 | İskoçya Premiership | Celtic - Glasgow Rangers | scheduled | -
+- 2026-09-20 14:00 | Çek Cumhuriyeti Czech Liga | Hradec Kralove - Teplice | scheduled | -
+- 2026-09-20 14:00 | Portekiz Kupa 2.Tur | Calheta - Vianense | scheduled | -
+- 2026-09-20 14:00 | İsveç Superettan | Sundsvall - Ljungskile | scheduled | -
+- 2026-09-20 14:00 | Romanya 1.Lig | Voluntari - Universitatea C | scheduled | -
+- 2026-09-20 14:00 | Hong Kong Premier Lig | Buler Rangers - Eastern | scheduled | -
+- 2026-09-20 14:00 | Tayland 1.Lig | Rayong Fc - Ratchaburi Fc | scheduled | -
+- 2026-09-20 14:00 | Tayland 1.Lig | Chonburi - Buriram Utd | scheduled | -
+- 2026-09-20 14:00 | Vietnam V-Lig 1 | Binh Phuoc - Cand | scheduled | -
+- 2026-09-20 14:00 | Letonya Virsliga | Ogre United - Super Nova | scheduled | -
+- 2026-09-20 14:00 | Danimarka 2.Lig | Thisted - Brabrand | scheduled | -
+- 2026-09-20 14:00 | İspanya 2. Lig RFEF Grup 4 | Tamaraceite - Huelva | scheduled | -
+- 2026-09-20 14:00 | Norveç 3.Lig Grup 1 | Gamle Oslo - Asker | scheduled | -
+- 2026-09-20 14:00 | İsveç 2.Lig Norra Svealand | Viggbyholms Ik - Helges | scheduled | -
+- 2026-09-20 14:00 | İsveç 2.Lig Norra Svealand | Franke - Sunnersta Aif | scheduled | -
+- 2026-09-20 14:00 | İsveç 2.Lig Vastra Götaland | Astorp - Jonsereds If | scheduled | -
+- 2026-09-20 14:00 | İsveç 2.Lig Södra Götaland | Växjö Norra - Nosaby If | scheduled | -
+- 2026-09-20 14:00 | İsveç 2.Lig Södra Svealand | Eker Örebro - Haninge | scheduled | -
+- 2026-09-20 14:00 | Vietnam Kupa 1.Tur | Xuan Thin Phu - Hong Linh Ha Ti | scheduled | -
+- 2026-09-20 14:00 | Tayland 2.Lig | Kasetsart - Nakhon Pathom | scheduled | -
+- 2026-09-20 14:00 | Tayland 2.Lig | Songkhla - Muang Loei Unit | scheduled | -
+- 2026-09-20 14:00 | İspanya Gençler Onur Ligi Grup 6 | Las Zocas U18 - Acodetti U18 | scheduled | -
+- 2026-09-20 14:15 | Litvanya A Ligi | Hegelmann - Suduva | scheduled | -
+- 2026-09-20 14:15 | Çek Cumhuriyeti FNL | Kladno - Pribram | scheduled | -
+- 2026-09-20 14:30 | Belçika Pro Lig | Antwerp - Union St.G | scheduled | -
+- 2026-09-20 14:30 | Almanya 2. Bundesliga | E.Cottbus - St Pauli | scheduled | -
+- 2026-09-20 14:30 | Almanya 2. Bundesliga | Hannover - Bochum | scheduled | -
+- 2026-09-20 14:30 | Almanya 2. Bundesliga | Arminia Bielef - Heidenheim | scheduled | -
+- 2026-09-20 14:30 | Almanya 3. Lig | Essen - Hansa Rostock | scheduled | -
+- 2026-09-20 14:30 | Tayland 1.Lig | Sukhothai - Port Fc | scheduled | -
+- 2026-09-20 14:30 | Estonya Premium Lig | Tammeka Tartu - Nomme Kalju | scheduled | -
+- 2026-09-20 14:30 | Tayland 2.Lig | Esan Pattaya - Phrae United | scheduled | -
+- 2026-09-20 15:00 | İspanya LaLiga | Getafe - Malaga | scheduled | -
+- 2026-09-20 15:00 | İspanya 2.Lig | Sabadell - Oviedo | scheduled | -
+- 2026-09-20 15:00 | Danimarka Süperlig | Sonderjyske - Randers | scheduled | -
+- 2026-09-20 15:00 | Danimarka Süperlig | Brondby - Kopenhag | scheduled | -
+- 2026-09-20 15:00 | İsveç Allsvenskan | Kalmar - Hacken | scheduled | -
+- 2026-09-20 15:00 | İsveç Allsvenskan | Djurgarden - Elfsborg | scheduled | -
+- 2026-09-20 15:00 | İsveç Allsvenskan | Halmstads - Aik Stockholm | scheduled | -
+- 2026-09-20 15:00 | İsviçre Süper Lig | Vaduz - Thun | scheduled | -
+- 2026-09-20 15:00 | Danimarka 1.Lig | Aalborg - Vendsyssel | scheduled | -
+- 2026-09-20 15:00 | Belarus Premier Lig | Baranovichi - Gomel | scheduled | -
+- 2026-09-20 15:00 | İsviçre Challenge Lig | Yverdon - Stade Ouchy | scheduled | -
+- 2026-09-20 15:00 | Norveç 2.Lig Grup 2 | Grorud Il - Kjelsas | scheduled | -
+- 2026-09-20 15:00 | Endonezya Süper Lig | Persijap - Persib | scheduled | -
+- 2026-09-20 15:00 | Tayland 1.Lig | Bangkok United - Bg Pathum Unite | scheduled | -
+- 2026-09-20 15:00 | Andorra 1.Lig | Esperança Dand - Fc Ordino | scheduled | -
+- 2026-09-20 15:00 | Almanya Bölgesel Lig Kuzey | Norderstedt - Werder Bremen ( | scheduled | -
+- 2026-09-20 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Carl Zeiss Jen - Leipzig | scheduled | -
+- 2026-09-20 15:00 | Almanya Kadınlar Bundesliga | Hamburger Sv ( - Nürnberg (K) | scheduled | -
+- 2026-09-20 15:00 | Norveç 3.Lig Grup 5 | Lillestrom Sk - Fauske/Sprint | scheduled | -
+- 2026-09-20 15:00 | Litvanya 1.Lig | Zalgiris Ii - Babrungas | scheduled | -
+- 2026-09-20 15:00 | Hırvatistan 2.HNL | Kustosija - Croatia Zmijavc | scheduled | -
+- 2026-09-20 15:00 | İsveç Kadınlar Damallsvenskan | Kristianstad ( - Pitea (K) | scheduled | -
+- 2026-09-20 15:00 | Tayland 2.Lig | Uttaradit - Chanthaburi | scheduled | -
+- 2026-09-20 15:15 | Bulgaristan 1.Lig | Spartak Varna - Lokomotiv Sofia | scheduled | -
+- 2026-09-20 15:15 | Vietnam Kupa 1.Tur | Ha Noi T&T - Da Nang | scheduled | -
+- 2026-09-20 15:15 | Özbekistan Super League | Andijon - Nasaf Qarshi | scheduled | -
+- 2026-09-20 15:30 | Hollanda Eredivisie | Az Alkmaar - Telstar | scheduled | -
+- 2026-09-20 15:30 | Hollanda Eredivisie | Twente - Psv Eindhoven | scheduled | -
+- 2026-09-20 15:30 | İngiltere Championship | Norwich - Bolton | scheduled | -
+- 2026-09-20 15:30 | Avusturya Bundesliga | Ried - Wolfsberger | scheduled | -
+- 2026-09-20 15:30 | Avusturya Bundesliga | Hartberg - Lask Linz | scheduled | -
+- 2026-09-20 15:30 | Norveç Eliteserien | Valerenga - Fredrikstad | scheduled | -
+- 2026-09-20 15:30 | Ukrayna Premier Lig | Karpaty Lviv - Veres Rivne | scheduled | -
+- 2026-09-20 15:30 | Azerbaycan Premier Lig | Keshla - Araz | scheduled | -
+- 2026-09-20 15:30 | İtalya Serie C Grup A | Ospitaletto - Cittadella | scheduled | -
+- 2026-09-20 15:30 | İtalya Serie C Grup A | Novara - Athletic Carpi | scheduled | -
+- 2026-09-20 15:30 | İtalya Serie C Grup B | F.C. Vado - Pescara | scheduled | -
+- 2026-09-20 15:30 | İtalya Serie C Grup B | Reggiana - Latina | scheduled | -
+- 2026-09-20 15:30 | İtalya Serie C Grup C | Ss Monopoli 19 - Crotone | scheduled | -
+- 2026-09-20 15:30 | Polonya 1.Lig | Pogon Siedlce - Arka Gdynia | scheduled | -
+- 2026-09-20 15:30 | Çek Cumhuriyeti FNL | Banik Ostrava - Usti Nad Labem | scheduled | -
+- 2026-09-20 15:30 | Polonya 2.Lig | Slask Wroclaw - Hutnik Krakow | scheduled | -
+- 2026-09-20 15:30 | Filipinler PFL | Stallion - Manila Digger | scheduled | -
+- 2026-09-20 15:45 | Polonya Ekstraklasa | Zaglebie Lubin - Wisla Plock | scheduled | -
+- 2026-09-20 15:45 | Macaristan NB I | Mtk - Gyor | scheduled | -
+- 2026-09-20 16:00 | İngiltere Premier Lig | Bournemouth - Liverpool | scheduled | -
+- 2026-09-20 16:00 | İngiltere Premier Lig | Leeds Utd - Crystal Palace | scheduled | -
+- 2026-09-20 16:00 | İngiltere Premier Lig | Manchester Cit - Sunderland | scheduled | -
+- 2026-09-20 16:00 | İtalya Serie A | Parma - Genoa | scheduled | -
+- 2026-09-20 16:00 | İtalya Serie A | Frosinone - Como | scheduled | -
+- 2026-09-20 16:00 | Fransa Ligue 1 | Auxerre - Brest | scheduled | -
+- 2026-09-20 16:00 | İtalya Serie B | Arezzo - Sudtirol | scheduled | -
+- 2026-09-20 16:00 | İtalya Serie B | Verona - Vicenza | scheduled | -
+- 2026-09-20 16:00 | Çek Cumhuriyeti Czech Liga | Sigma Olomouc - Sparta Prag | scheduled | -
+- 2026-09-20 16:00 | Çek Cumhuriyeti Czech Liga | Jablonec - Zlin | scheduled | -
+- 2026-09-20 16:00 | Portekiz Kupa 2.Tur | Cinfaes - Leixoes | scheduled | -
+- 2026-09-20 16:00 | Kadınlar U20 Dünya Kupası Çeyrek Final | Nijerya U20 (K - Kolombiya U20 ( | scheduled | -
+- 2026-09-20 16:00 | İtalya Serie C Grup C | Internazionale - Foggia | scheduled | -
+- 2026-09-20 16:00 | İsveç Superettan | Helsingborg - Norrby | scheduled | -
+- 2026-09-20 16:00 | Danimarka 1.Lig | Fredericia - Vejle | scheduled | -
+- 2026-09-20 16:00 | Litvanya A Ligi | Fa Siauliai - Kauno Zalgiris | scheduled | -
+- 2026-09-20 16:00 | Norveç 2.Lig Grup 2 | Stjordals-Blin - Lorenskog | scheduled | -
+- 2026-09-20 16:00 | Slovenya 1.SNL | Ask Bravo - Olimpija Ljubli | scheduled | -
+- 2026-09-20 16:00 | Uruguay Premier Lig Clausura | Albion - Juventud Dl Pie | scheduled | -
+- 2026-09-20 16:00 | Güney Afrika PSL | Golden Arrows - Kaizer Chiefs | scheduled | -
+- 2026-09-20 16:00 | Güney Afrika PSL | Marumo Gallant - Orlando Pirates | scheduled | -
+- 2026-09-20 16:00 | Güney Afrika PSL | Milford - Durban City | scheduled | -
+- 2026-09-20 16:00 | Malezya FA Kupası Çeyrek Final | Kelantan Wts - Kuching Fa | scheduled | -
+- 2026-09-20 16:00 | İsviçre 1.Lig Promotion | Bavois - Luzern Ii | scheduled | -
+- 2026-09-20 16:00 | Letonya Virsliga | Fk Tukums 2000 - Grobina | scheduled | -
+- 2026-09-20 16:00 | İngiltere Kadınlar Premier Lig | Crystal Palace - Tottenham Hotsp | scheduled | -
+- 2026-09-20 16:00 | İngiltere Kadınlar Premier Lig | West Ham Unite - Everton (K) | scheduled | -
+- 2026-09-20 16:00 | İngiltere Kadınlar Premier Lig | Brighton & Hov - Aston Villa (K) | scheduled | -
+- 2026-09-20 16:00 | Paraguay Intermedia Lig | 12 De Junio Vh - Indep Cambo Gra | scheduled | -
+- 2026-09-20 16:00 | Paraguay Intermedia Lig | Sportivo Carap - Tacuary | scheduled | -
+- 2026-09-20 16:00 | İsveç 2.Lig Vastra Götaland | Galtabacks - Frolunda | scheduled | -
+- 2026-09-20 16:00 | İsveç 2.Lig Södra Götaland | Ifk Trelleborg - Sölvesborgs Goi | scheduled | -
+- 2026-09-20 16:00 | Özbekistan Super League | Termez Surkhon - Kuruvchi Kokand | scheduled | -
+- 2026-09-20 16:00 | İsveç Kadınlar Damallsvenskan | Norrköping (K) - Rosengard (K) | scheduled | -
+- 2026-09-20 16:00 | Fransa U19 Ulusal Şampiyona Grup A | Lille U19 - Valenciennes U1 | scheduled | -
+- 2026-09-20 16:00 | Fransa U19 Ulusal Şampiyona Grup A | Rouen U19 - Quevilly U19 | scheduled | -
+- 2026-09-20 16:00 | Fransa U19 Ulusal Şampiyona Grup A | Racing Club U1 - C Chartres U19 | scheduled | -
+- 2026-09-20 16:00 | Fransa U19 Ulusal Şampiyona Grup A | Le Havre U19 - Versailles 78 U | scheduled | -
+- 2026-09-20 16:00 | Fransa U19 Ulusal Şampiyona Grup A | Dunkerque U19 - Amiens Sc U19 | scheduled | -
+- 2026-09-20 16:00 | Fransa U19 Ulusal Şampiyona Grup B | Sochaux U19 - Lyon U19 | scheduled | -
+- 2026-09-20 16:00 | Fransa U19 Ulusal Şampiyona Grup B | Troyes U19 - Montfermeil U19 | scheduled | -
+- 2026-09-20 16:00 | Fransa U19 Ulusal Şampiyona Grup C | Stade Briochin - Guingamp U19 | scheduled | -
+- 2026-09-20 16:00 | Fransa U19 Ulusal Şampiyona Grup C | Stade Laval U1 - Saint-Lo Manche | scheduled | -
+- 2026-09-20 16:00 | Fransa U19 Ulusal Şampiyona Grup C | Sa Merignac U1 - Vertou U19 | scheduled | -
+- 2026-09-20 16:00 | Norveç Kadınlar Toppserien | Fortuna Alesun - Molde (K) | scheduled | -
+- 2026-09-20 16:30 | Almanya Bundesliga | B.Leverkusen - Rb Leipzig | scheduled | -
+- 2026-09-20 16:30 | Slovakya 2.Lig | Galanta - Slovan Bratisla | scheduled | -
+- 2026-09-20 16:30 | Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru | Al Nasr - Dubai United | scheduled | -
+- 2026-09-20 17:00 | Türkiye Süper Lig | Erzurumspor Fk - Samsunspor | scheduled | -
+- 2026-09-20 17:00 | Türkiye Süper Lig | Fenerbahçe - Eyüpspor | scheduled | -
+- 2026-09-20 17:00 | Türkiye TFF 1. Lig | Manisa Futbol - İstanbulspor | scheduled | -
+- 2026-09-20 17:00 | Türkiye TFF 1. Lig | Pendikspor - Bodrum Fk | scheduled | -
+- 2026-09-20 17:00 | Belçika Pro Lig | St. Truidense - Westerlo | scheduled | -
+- 2026-09-20 17:00 | Danimarka Süperlig | Horsens - Aarhus | scheduled | -
+- 2026-09-20 17:00 | Yunanistan Süper Lig | Apo Levadeiako - Olympiakos | scheduled | -
+- 2026-09-20 17:00 | Brezilya Serie A | Gremio - Palmeiras | scheduled | -
+- 2026-09-20 17:00 | Portekiz Kupa 2.Tur | Gd Bragança - Celoricense | scheduled | -
+- 2026-09-20 17:00 | Portekiz Kupa 2.Tur | Guarda - Chaves | scheduled | -
+- 2026-09-20 17:00 | Portekiz Kupa 2.Tur | Fatima - Fc Vinhais | scheduled | -
+- 2026-09-20 17:00 | Portekiz Kupa 2.Tur | Su Sintrense - Avs | scheduled | -
+- 2026-09-20 17:00 | Portekiz Kupa 2.Tur | Ad Os Limianos - Aljustrelense | scheduled | -
+- 2026-09-20 17:00 | Portekiz Kupa 2.Tur | Fc Serpa - Louletano | scheduled | -
+- 2026-09-20 17:00 | Portekiz Kupa 2.Tur | Ovarense - Os Marialvas | scheduled | -
+- 2026-09-20 17:00 | Portekiz Kupa 2.Tur | Mortagua Fc - Leca | scheduled | -
+- 2026-09-20 17:00 | Portekiz Kupa 2.Tur | Oliveira Do Ho - Juventude Evora | scheduled | -
+- 2026-09-20 17:00 | Portekiz Kupa 2.Tur | Ad De Ponte Da - Amarante Fc | scheduled | -
+- 2026-09-20 17:00 | Portekiz Kupa 2.Tur | Amora - Ud Da Serra | scheduled | -
+- 2026-09-20 17:00 | Belçika Challenger Pro Lig | Lokeren-Temse - Excelsior Virto | scheduled | -
+- 2026-09-20 17:00 | Belarus Premier Lig | Dinamo Brest - Dnepr Mogilev | scheduled | -
+- 2026-09-20 17:00 | Norveç 2.Lig Grup 1 | Bjarg - Traeff | scheduled | -
+- 2026-09-20 17:00 | Norveç 2.Lig Grup 1 | Pors Grenland - Lysekloster | scheduled | -
+- 2026-09-20 17:00 | Norveç 2.Lig Grup 1 | Notodden - Arendal | scheduled | -
+- 2026-09-20 17:00 | Norveç 2.Lig Grup 2 | Ullensaker Kis - Ik Junkeren | scheduled | -
+- 2026-09-20 17:00 | Moldova Ulusal Lig | Sireti - Milsami-Ursidos | scheduled | -
+- 2026-09-20 17:00 | Brezilya Serie B | Ponte Preta - Regatas | scheduled | -
+- 2026-09-20 17:00 | Arnavutluk Süperlig | Tirana - Af Elbasani | scheduled | -
+- 2026-09-20 17:00 | Almanya Bölgesel Lig Kuzey | Hsc Hannover - Hamburger Sv (A | scheduled | -
+- 2026-09-20 17:00 | İspanya Primera Lig RFEF Grup 2 | Algeciras - Cd Aguilas | scheduled | -
+- 2026-09-20 17:00 | Macaristan NB II | Szentlorinc Se - Bvsc | scheduled | -
+- 2026-09-20 17:00 | Estonya Premium Lig | Trans Narva - Levadia Tallinn | scheduled | -
+- 2026-09-20 17:00 | Almanya Kadınlar Bundesliga | Freiburg (K) - Bayer Leverkuse | scheduled | -
+- 2026-09-20 17:00 | Bulgaristan 2.Lig | Nesebar - Stara Zagora Be | scheduled | -
+- 2026-09-20 17:00 | Bulgaristan 2.Lig | Marek Dupnitza - Rilski Sportist | scheduled | -
+- 2026-09-20 17:00 | İsveç 2.Lig Norra Götaland | If Karlstad Ii - Stenungsund | scheduled | -
+- 2026-09-20 17:00 | İsveç 2.Lig Norrland Yükselme Grubu | Taftea - Ifk Ostersund | scheduled | -
+- 2026-09-20 17:00 | Karadağ 1.Lig | Otrant - Jezero Plav | scheduled | -
+- 2026-09-20 17:00 | Özbekistan Super League | Sogdiyona Jizz - Otmk Olmaliq | scheduled | -
+- 2026-09-20 17:00 | İngiltere FA Cup Eleme 2.Tur | Southall - Dorking Wand. | scheduled | -
+- 2026-09-20 17:00 | İspanya Gençler Onur Ligi Grup 4 | Marbella U19 - Real Betis U19 | scheduled | -
+- 2026-09-20 17:00 | İspanya Gençler Onur Ligi Grup 7 | Académico Murc - Cartagena U19 | scheduled | -
+- 2026-09-20 17:00 | Botsvana Premier Lig | Township Rolle - Extension Gunne | scheduled | -
+- 2026-09-20 17:15 | İspanya LaLiga | Atletico Madri - Real Madrid | scheduled | -
+- 2026-09-20 17:15 | İspanya 2.Lig | Ceuta - Valladolid | scheduled | -
+- 2026-09-20 17:30 | Portekiz Premier Lig | Guimaraes - Moreirense | scheduled | -
+- 2026-09-20 17:30 | Portekiz Premier Lig | Estrela - Academico Viseu | scheduled | -
+- 2026-09-20 17:30 | İsveç Allsvenskan | Degerfors - Hammarby | scheduled | -
+- 2026-09-20 17:30 | İsveç Allsvenskan | Mjallby - Gais | scheduled | -
+- 2026-09-20 17:30 | İsviçre Süper Lig | Lausanne - Lugano | scheduled | -
+- 2026-09-20 17:30 | İsviçre Süper Lig | Basel - St Gallen | scheduled | -
+- 2026-09-20 17:30 | Almanya 3. Lig | Waldhof Mannhe - Preussen Munste | scheduled | -
+- 2026-09-20 17:30 | Çek Cumhuriyeti FNL | Vlasim - Sezimivo Usti | scheduled | -
+- 2026-09-20 17:30 | Slovenya 2.SNL | Nk Bilje - Jesenice | scheduled | -
+- 2026-09-20 17:30 | Slovenya 2.SNL | Dravinja - Bistrica | scheduled | -
+- 2026-09-20 17:30 | Slovenya 2.SNL | Krka Novo Mest - Jadran Dekani | scheduled | -
+- 2026-09-20 17:30 | Özbekistan Super League | Lokomotiv Taşk - Neftchi Fargona | scheduled | -
+- 2026-09-20 17:30 | İspanya Gençler Onur Ligi Grup 7 | Kelme U19 - San Francisco U | scheduled | -
+- 2026-09-20 17:45 | Hollanda Eredivisie | Nijmegen - Go Ahead Eagles | scheduled | -
+- 2026-09-20 17:45 | Hollanda Eerste Divisie | De Graafschap - Breda | scheduled | -
+- 2026-09-20 17:45 | Bulgaristan 1.Lig | Lokomotiv Plov - Cska Sofia | scheduled | -
+- 2026-09-20 17:45 | Hollanda Kadınlar Eredivisie | Ado Den Haag ( - Heerenveen (K) | scheduled | -
+- 2026-09-20 17:45 | İspanya 2. Lig RFEF Grup 1 | Rayo Cantabria - Amorebieta | scheduled | -
+- 2026-09-20 18:00 | Avusturya Bundesliga | Salzburg - Sturm Graz | scheduled | -
+- 2026-09-20 18:00 | Yunanistan Süper Lig | Volos Nfc - Aek | scheduled | -
+- 2026-09-20 18:00 | Norveç Eliteserien | Viking - Lillestrom | scheduled | -
+- 2026-09-20 18:00 | Norveç Eliteserien | Tromso - Ham Kam | scheduled | -
+- 2026-09-20 18:00 | Norveç Eliteserien | Sandefjord - Start | scheduled | -
+- 2026-09-20 18:00 | Ukrayna Premier Lig | Shakhtar Donet - Lnz Cherkasy | scheduled | -
+- 2026-09-20 18:00 | Sırbistan Süper Lig | Macva - Mladost Lucani | scheduled | -
+- 2026-09-20 18:00 | Portekiz Kupa 2.Tur | Paredes - Maria Da Fonte | scheduled | -
+- 2026-09-20 18:00 | Azerbaycan Premier Lig | Kapaz - Sumqayit | scheduled | -
+- 2026-09-20 18:00 | Hırvatistan 1.HNL | Rijeka - Hajduk Split | scheduled | -
+- 2026-09-20 18:00 | Finlandiya Ykkönen Küme Düşme Turu | Inter Turku Ii - Tpv Tampere | scheduled | -
+- 2026-09-20 18:00 | Norveç 1.Lig | Stabaek - Sogndal | scheduled | -
+- 2026-09-20 18:00 | Norveç 1.Lig | Sandnes - Moss | scheduled | -
+- 2026-09-20 18:00 | Norveç 1.Lig | Odds Bk - Egersunds | scheduled | -
+- 2026-09-20 18:00 | Norveç 1.Lig | Haugesund - Strommen | scheduled | -
+- 2026-09-20 18:00 | Norveç 1.Lig | Lyn Oslo - Ranheim | scheduled | -
+- 2026-09-20 18:00 | Norveç 1.Lig | Kongsvinger - Hodd | scheduled | -
+- 2026-09-20 18:00 | Norveç 1.Lig | Raufoss - Stromsgodset | scheduled | -
+- 2026-09-20 18:00 | Macaristan NB I | Ujpest - Zalaegerszeg | scheduled | -
+- 2026-09-20 18:00 | Slovakya Süper Lig | Skalica - Podbrezova | scheduled | -
+- 2026-09-20 18:00 | Norveç 2.Lig Grup 2 | Skeid - Tromsdalen | scheduled | -
+- 2026-09-20 18:00 | Tunus 1.Lig | Cs Sfaxien - Ca Bizertin | scheduled | -
+- 2026-09-20 18:00 | Tunus 1.Lig | Us Ben Guerdan - Hammam-Lif | scheduled | -
+- 2026-09-20 18:00 | Tunus 1.Lig | Club Africain - Es Zarzis | scheduled | -
+- 2026-09-20 18:00 | Slovenya 2.SNL | Triglav Kranj - Nd Slovan Ljubl | scheduled | -
+- 2026-09-20 18:00 | Katar Yıldızlar Kupası Grup Aşaması | Al Wakrah - Al Sailiya | scheduled | -
+- 2026-09-20 18:00 | Andorra 1.Lig | Casa De Portug - Descaldes | scheduled | -
+- 2026-09-20 18:00 | Letonya Virsliga | Auda - Daugava Riga | scheduled | -
+- 2026-09-20 18:00 | Bosna-Hersek Premier Lig | Siroki Brijeg - Borac Banja Luk | scheduled | -
+- 2026-09-20 18:00 | İspanya 2. Lig RFEF Grup 1 | Compostela - Sestao | scheduled | -
+- 2026-09-20 18:00 | İspanya 2. Lig RFEF Grup 1 | Gernika - Llanera | scheduled | -
+- 2026-09-20 18:00 | İspanya 2. Lig RFEF Grup 5 | Atletico Torde - Navalcarnero | scheduled | -
+- 2026-09-20 18:00 | İsveç 2.Lig Södra Svealand | Syrianska - Sleipner | scheduled | -
+- 2026-09-20 18:00 | İsveç 2.Lig Norra Götaland | Lidkopings - Vanersborgs If | scheduled | -
+- 2026-09-20 18:00 | Nijerya NPFL | Plateau United - Shooting Stars | scheduled | -
+- 2026-09-20 18:00 | Nijerya NPFL | Kano Pillars - Doma United | scheduled | -
+- 2026-09-20 18:00 | Nijerya NPFL | Sporting Lagos - Abia Warriors | scheduled | -
+- 2026-09-20 18:00 | Nijerya NPFL | Nasarawa Unite - Rivers United | scheduled | -
+- 2026-09-20 18:00 | Nijerya NPFL | Enyimba Inter - Inter Lagos | scheduled | -
+- 2026-09-20 18:00 | İspanya Tercera Ligi Grup 2 | Ceares - Colunga | scheduled | -
+- 2026-09-20 18:00 | İspanya Tercera Ligi Grup 11 | Porreres - Inter Ibiza | scheduled | -
+- 2026-09-20 18:15 | Fransa Ligue 1 | Nice - Lille | scheduled | -
+- 2026-09-20 18:15 | İtalya Serie B | Mantova - Pisa | scheduled | -
+- 2026-09-20 18:30 | İngiltere Premier Lig | Fulham - Man. Utd | scheduled | -
+- 2026-09-20 18:30 | Almanya Bundesliga | Schalke - Elversberg | scheduled | -
+- 2026-09-20 18:30 | Polonya Ekstraklasa | Jagiellonia - Legia Varşova | scheduled | -
+- 2026-09-20 18:30 | İtalya Serie C Grup A | Union Arzignan - Renate | scheduled | -
+- 2026-09-20 18:30 | İtalya Serie C Grup B | Campobasso - Pineto | scheduled | -
+- 2026-09-20 18:30 | İtalya Serie C Grup C | Rossoblu Poten - Cavese | scheduled | -
+- 2026-09-20 18:30 | Polonya 1.Lig | P. Bielsko - Unia Skierniewi | scheduled | -
+- 2026-09-20 18:30 | Slovenya 1.SNL | Mura - Celje | scheduled | -
+- 2026-09-20 18:30 | Güney Afrika PSL | Ts Galaxy - Chippa United | scheduled | -
+- 2026-09-20 18:30 | İspanya 2. Lig RFEF Grup 5 | Real Avila - Calvo Sotelo | scheduled | -
+- 2026-09-20 18:30 | İspanya Tercera Ligi Grup 6 | Soneja - Utiel | scheduled | -
+- 2026-09-20 18:30 | İspanya Tercera Ligi Grup 13 | Águilas Ii - Bala Azul | scheduled | -
+- 2026-09-20 18:45 | Suudi Arabistan 1.Lig | Damak - Al Adalah | scheduled | -
+- 2026-09-20 18:55 | Suudi Arabistan 1.Lig | Al Jabalain - Al Orubah Club | scheduled | -
+- 2026-09-20 18:55 | Suudi Arabistan 1.Lig | Al-Jandal - Al Wahda | scheduled | -
+- 2026-09-20 19:00 | İtalya Serie A | Juventus - Atalanta | scheduled | -
+- 2026-09-20 19:00 | Danimarka Süperlig | Viborg - Nordsjaelland | scheduled | -
+- 2026-09-20 19:00 | Yunanistan Süper Lig | Ofi - Asteras Tripoli | scheduled | -
+- 2026-09-20 19:00 | Çek Cumhuriyeti Czech Liga | Slavia Prag - Viktoria Plzen | scheduled | -
+- 2026-09-20 19:00 | Portekiz Kupa 2.Tur | Ad Marco 09 - Maia Lidador | scheduled | -
+- 2026-09-20 19:00 | Belarus Premier Lig | Vitebsk - Torpedo Zhodino | scheduled | -
+- 2026-09-20 19:00 | Ürdün Premier Lig | Al Baqaa - Al Faisaly Amma | scheduled | -
+- 2026-09-20 19:00 | Gürcistan Erovnuli Liga | Dinamo Batumi - Torpedo Kutaisi | scheduled | -
+- 2026-09-20 19:00 | Norveç 2.Lig Grup 2 | Trygg/Lade - Levanger | scheduled | -
+- 2026-09-20 19:00 | Moldova Ulusal Lig | Sheriff Tirasp - Csf Balti | scheduled | -
+- 2026-09-20 19:00 | İzlanda Urvalsdeild Şampiyonluk Grubu | Keflavik - Fram | scheduled | -
+- 2026-09-20 19:00 | İzlanda Urvalsdeild Şampiyonluk Grubu | Akranes - Breidablik | scheduled | -
+- 2026-09-20 19:00 | İzlanda Urvalsdeild Küme Düşme Grubu | Vestmannaeyjar - Valur | scheduled | -
+- 2026-09-20 19:00 | İzlanda Urvalsdeild Küme Düşme Grubu | Hafnarfjordur - Stjarnan | scheduled | -
+- 2026-09-20 19:00 | Uruguay Premier Lig Clausura | Danubio - Montevideo Wand | scheduled | -
+- 2026-09-20 19:00 | Almanya Bölgesel Lig Kuzey Doğu | Chemie Leipzig - Chemnitzer | scheduled | -
+- 2026-09-20 19:00 | Estonya Premium Lig | Flora Tallinn - Vaprus | scheduled | -
+- 2026-09-20 19:00 | İspanya Kadınlar Primera Lig | Eibar (K) - Athletic Club ( | scheduled | -
+- 2026-09-20 19:00 | İspanya 2. Lig RFEF Grup 3 | Yeclano - La Nucia | scheduled | -
+- 2026-09-20 19:00 | İspanya 2. Lig RFEF Grup 4 | Marbella - Atlético Centra | scheduled | -
+- 2026-09-20 19:00 | İspanya 2. Lig RFEF Grup 4 | Cd Badajoz - Real Betis Ii | scheduled | -
+- 2026-09-20 19:00 | Kanada Premier Lig | Atletico Ottaw - Supra Du Quebec | scheduled | -
+- 2026-09-20 19:00 | Bulgaristan 2.Lig | Yantra 1919 - Lokomotiv Gorna | scheduled | -
+- 2026-09-20 19:00 | Bulgaristan 2.Lig | Ofk Pirin - Fratria | scheduled | -
+- 2026-09-20 19:00 | Malta Premier Lig Açılış | Hibernians - Floriana | scheduled | -
+- 2026-09-20 19:00 | İspanya Tercera Ligi Grup 1 | Barco - Portonovo | scheduled | -
+- 2026-09-20 19:00 | İspanya Tercera Ligi Grup 1 | Gran Pena - Antela | scheduled | -
+- 2026-09-20 19:00 | İspanya Tercera Ligi Grup 2 | L Entregu - Langreo | scheduled | -
+- 2026-09-20 19:00 | İspanya Tercera Ligi Grup 3 | Samano - Cultural Guarni | scheduled | -
+- 2026-09-20 19:00 | İspanya Tercera Ligi Grup 11 | Cardassar - Constancia | scheduled | -
+- 2026-09-20 19:00 | İspanya Tercera Ligi Grup 13 | Santomera - Algar | scheduled | -
+- 2026-09-20 19:00 | İspanya Tercera Ligi Grup 13 | Alcantarilla - Cotillas | scheduled | -
+- 2026-09-20 19:00 | Bahreyn 2.Lig | Al Shabab Mana - Qalali | scheduled | -
+- 2026-09-20 19:00 | Bahreyn 2.Lig | Bahrain Sc - Isa Town | scheduled | -
+- 2026-09-20 19:00 | Bahreyn 2.Lig | Umm Al Hassam - Al Ittihad | scheduled | -
+- 2026-09-20 19:15 | Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru | Al Dhafra - Banniyas | scheduled | -
+- 2026-09-20 19:15 | Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru | Al Jazira - Al Wahda | scheduled | -
+- 2026-09-20 19:15 | İspanya Primera Lig RFEF Grup 1 | Zamora - Lugo | scheduled | -
+- 2026-09-20 19:15 | İspanya Tercera Ligi Grup 3 | Selaya - Atletico Alberi | scheduled | -
+- 2026-09-20 19:30 | İspanya LaLiga | D.La Coruna - Real Betis | scheduled | -
+- 2026-09-20 19:30 | İspanya LaLiga | Villarreal - Levante | scheduled | -
+- 2026-09-20 19:30 | Belçika Pro Lig | Club Brugge - Genk | scheduled | -
+- 2026-09-20 19:30 | İspanya 2.Lig | Las Palmas - Burgos | scheduled | -
+- 2026-09-20 19:30 | İspanya 2.Lig | Almeria - Celta Vigo Ii | scheduled | -
+- 2026-09-20 19:30 | Yunanistan Süper Lig | Kalamata - Panathinaikos | scheduled | -
+- 2026-09-20 19:30 | Arnavutluk Süperlig | Egnatia - Partizan Tirana | scheduled | -
+- 2026-09-20 19:30 | Almanya Kadınlar Bundesliga | Union Berlin ( - Rb Leipzig (K) | scheduled | -
+- 2026-09-20 19:30 | Hırvatistan 2.HNL | Karlovac 1919 - Dubrava Zagred | scheduled | -
+- 2026-09-20 19:30 | İspanya Tercera Ligi Grup 1 | Alondras - Sarriana | scheduled | -
+- 2026-09-20 19:30 | İspanya Tercera Ligi Grup 5 | Vilassar De Ma - Badalona | scheduled | -
+- 2026-09-20 19:30 | İspanya Tercera Ligi Grup 6 | Saguntino - Villarreal Iii | scheduled | -
+- 2026-09-20 19:45 | İspanya Primera Lig RFEF Grup 1 | Cacereno - Arenas De Getxo | scheduled | -
+- 2026-09-20 20:00 | Türkiye Süper Lig | Amed Sk - Beşiktaş | scheduled | -
+- 2026-09-20 20:00 | Türkiye Süper Lig | Göztepe - Rizespor | scheduled | -
+- 2026-09-20 20:00 | Türkiye TFF 1. Lig | Antalyaspor - Van Spor Fk | scheduled | -
+- 2026-09-20 20:00 | Türkiye TFF 1. Lig | Mardin 1969 - Kayserispor | scheduled | -
+- 2026-09-20 20:00 | Portekiz Premier Lig | Estoril - Casa Pia | scheduled | -
+- 2026-09-20 20:00 | Portekiz Premier Lig | Santa Clara - Braga | scheduled | -
+- 2026-09-20 20:00 | Sırbistan Süper Lig | Kizilyildiz - Radnicki Nis | scheduled | -
+- 2026-09-20 20:00 | Slovakya Süper Lig | Dac - Spartak Trnava | scheduled | -
+- 2026-09-20 20:00 | Suudi Arabistan 1.Lig | Al Jeel - Hajer | scheduled | -
+- 2026-09-20 20:00 | Macaristan NB II | Soroksar - Tiszakecske | scheduled | -
+- 2026-09-20 20:00 | İspanya 2. Lig RFEF Grup 4 | Antoniano - Mijas Las Lagun | scheduled | -
+- 2026-09-20 20:00 | İspanya 2. Lig RFEF Grup 4 | Xerez - Don Benito | scheduled | -
+- 2026-09-20 20:00 | Kosova Süper Lig | Drenica Skende - Llapi | scheduled | -
+- 2026-09-20 20:00 | Kosova Süper Lig | Dukagjini - Fc Drita | scheduled | -
+- 2026-09-20 20:00 | Karadağ 1.Lig | Decic Tuzi - Mornar Bar | scheduled | -
+- 2026-09-20 20:00 | Karadağ 1.Lig | Bokelj Kotor - Mladost Dg | scheduled | -
+- 2026-09-20 20:00 | İspanya Tercera Ligi Grup 9 | Atletico De Po - Granada Ii | scheduled | -
+- 2026-09-20 20:00 | İspanya Tercera Ligi Grup 13 | Olimpico Totan - Unión Molinense | scheduled | -
+- 2026-09-20 20:00 | İspanya Tercera Ligi Grup 14 | Atletico Puebl - Santa Amalia | scheduled | -
+- 2026-09-20 20:00 | İspanya Tercera Ligi Grup 18 | Quintanar Del - Illescas | scheduled | -
+- 2026-09-20 20:00 | İspanya Gençler Onur Ligi Grup 4 | Utrera U19 - Cadiz U19 | scheduled | -
+- 2026-09-20 20:15 | Belçika Pro Lig | Kortrijk - Waasland Bevere | scheduled | -
+- 2026-09-20 20:15 | Norveç Eliteserien | Brann - Bodo Glimt | scheduled | -
+- 2026-09-20 20:15 | Belçika Challenger Pro Lig | Dender - Patro Eisden | scheduled | -
+- 2026-09-20 20:15 | Katar Yıldızlar Kupası Grup Aşaması | Al Rayyan - Qatar Sc | scheduled | -
+- 2026-09-20 20:15 | Katar Yıldızlar Kupası Grup Aşaması | Al Ahli - Shahaniya | scheduled | -
+- 2026-09-20 20:15 | İspanya Tercera Ligi Grup 18 | Marchamalo - Guadalajara Ii | scheduled | -
+- 2026-09-20 20:30 | Almanya Bundesliga | Paderborn - Hoffenheim | scheduled | -
+- 2026-09-20 20:30 | İtalya Serie B | Modena - Empoli | scheduled | -
+- 2026-09-20 20:30 | Almanya 3. Lig | Wehen - Duisburg | scheduled | -
+- 2026-09-20 20:30 | Macaristan NB I | Nyiregyhaza - Ferencvaros | scheduled | -
+- 2026-09-20 20:30 | Romanya 1.Lig | Dinamo Bükreş - Ssc Farul | scheduled | -
+- 2026-09-20 20:30 | Polonya 2.Lig | Gks Tychy - Sandecja Nowy S | scheduled | -
+- 2026-09-20 20:30 | Bulgaristan 2.Lig | Etar - Chernomorets 19 | scheduled | -
+- 2026-09-20 20:45 | Arjantin Premier Lig 2. Aşama | San Lorenzo - Boca Juniors | scheduled | -
+- 2026-09-20 21:00 | Yunanistan Süper Lig | Panetolikos - Paok | scheduled | -
+- 2026-09-20 21:00 | Sırbistan Süper Lig | Zeleznicar Pan - Cukaricki | scheduled | -
+- 2026-09-20 21:00 | Hırvatistan 1.HNL | Dinamo Zagreb - Lokomotiva | scheduled | -
+- 2026-09-20 21:00 | Peru Premier Lig Clausura | Sport Huancayo - Univ De Cajamar | scheduled | -
+- 2026-09-20 21:00 | Arjantin Ulusal Primera Lig | Moron - Godoy Cruz | scheduled | -
+- 2026-09-20 21:00 | Arjantin Ulusal Primera Lig | Chacarita Juni - Quilmes | scheduled | -
+- 2026-09-20 21:00 | Arjantin Ulusal Primera Lig | Agropecuario - Gimnasia Y Tiro | scheduled | -
+- 2026-09-20 21:00 | Andorra 1.Lig | Inter Escaldes - Fc Rangers | scheduled | -
+- 2026-09-20 21:00 | İspanya Primera Lig RFEF Grup 1 | Extremadura 19 - Cultural Leones | scheduled | -
+- 2026-09-20 21:00 | Bosna-Hersek Premier Lig | Sarajevo - Sloga Doboj | scheduled | -
+- 2026-09-20 21:00 | ABD MLS Next Pro | Orlando City I - Atlanta United | scheduled | -
+- 2026-09-20 21:00 | ABD MLS Next Pro | New York Rb Ii - Huntsville City | scheduled | -
+- 2026-09-20 21:00 | ABD MLS Next Pro | Toronto Fc Ii - New England Ii | scheduled | -
+- 2026-09-20 21:00 | ABD MLS Next Pro | Bethlehem Stee - New York City I | scheduled | -
+- 2026-09-20 21:00 | ABD MLS Next Pro | Fc Cincinnati - Crown Legacy | scheduled | -
+- 2026-09-20 21:00 | ABD MLS Next Pro | Connecticut Un - Inter Miami Ii | scheduled | -
+- 2026-09-20 21:00 | ABD MLS Next Pro | Columbus Crew - Carolina Core | scheduled | -
+- 2026-09-20 21:00 | ABD MLS Next Pro | Chicago Fire I - Chattanooga | scheduled | -
+- 2026-09-20 21:00 | Arjantin Prim B Metro | Dock Sud - Quilmes | scheduled | -
+- 2026-09-20 21:00 | Arjantin Prim B Metro | San Carlos - Talleres | scheduled | -
+- 2026-09-20 21:00 | Arjantin Prim B Metro | Liniers - De Merlo | scheduled | -
+- 2026-09-20 21:00 | İspanya Tercera Ligi Grup 4 | Derio - Santurtzi | scheduled | -
+- 2026-09-20 21:00 | İspanya Tercera Ligi Grup 10 | Conil - Cadiz Ii | scheduled | -
+- 2026-09-20 21:00 | Arjantin Primera C | Lamadrid - Leones De Rosar | scheduled | -
+- 2026-09-20 21:00 | Arjantin Primera C | Ca Lugano - Estrella Del Su | scheduled | -
+- 2026-09-20 21:00 | Arjantin Primera C | Nuevo - Paraguayo | scheduled | -
+- 2026-09-20 21:00 | Arjantin Primera C | Niceforo - Club Mercedes | scheduled | -
+- 2026-09-20 21:00 | Meksika Kadınlar Liga MX Apertura | Pumas Unam (K) - Puebla (K) | scheduled | -
+- 2026-09-20 21:15 | Polonya Ekstraklasa | Lech Poznan - Radomiak Radom | scheduled | -
+- 2026-09-20 21:15 | Slovenya 1.SNL | Nk Brinje Gros - Radomlje | scheduled | -
+- 2026-09-20 21:30 | İtalya Serie C Grup A | Lecco - Pergolettese | scheduled | -
+- 2026-09-20 21:30 | İtalya Serie C Grup A | Alcione - Union Brescia | scheduled | -
+- 2026-09-20 21:30 | İtalya Serie C Grup A | Folgore Carate - Giana Erminio | scheduled | -
+- 2026-09-20 21:30 | İtalya Serie C Grup B | Grosseto - Perugia | scheduled | -
+- 2026-09-20 21:30 | İtalya Serie C Grup B | Gubbio - Ostia Mare Lido | scheduled | -
+- 2026-09-20 21:30 | İspanya Primera Lig RFEF Grup 2 | Zaragoza - Cartagena | scheduled | -
+- 2026-09-20 21:30 | İspanya Primera Lig RFEF Grup 2 | Hercules - Juventud Torrem | scheduled | -
+- 2026-09-20 21:30 | Ekvador Pro Lig Küme Düşme Grubu | T.Universitari - Delfin | scheduled | -
+- 2026-09-20 21:30 | Malta Premier Lig Açılış | Sliema - Balzan Fc | scheduled | -
+- 2026-09-20 21:45 | İtalya Serie A | Ac Milan - Lecce | scheduled | -
+- 2026-09-20 21:45 | Fransa Ligue 1 | Marsilya - Psg | scheduled | -
+- 2026-09-20 22:00 | İspanya LaLiga | Valencia - Real Sociedad | scheduled | -
+- 2026-09-20 22:00 | İspanya 2.Lig | Leganes - Granada | scheduled | -
+- 2026-09-20 22:00 | Brezilya Serie A | Vitoria Bahia - Cruzeiro | scheduled | -
+- 2026-09-20 22:00 | Brezilya Serie A | Corinthians - Fluminense | scheduled | -
+- 2026-09-20 22:00 | Kolombiya Primera A Clausura | Fortaleza - Atletico Junior | scheduled | -
+- 2026-09-20 22:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - R Cordoba | scheduled | -
+- 2026-09-20 22:00 | Brezilya Serie B | Goias - Avai | scheduled | -
+- 2026-09-20 22:00 | Kanada Premier Lig | Hfx Wanderers - Inter Toronto | scheduled | -
+- 2026-09-20 22:00 | Brezilya Serie C Grup B | Santa Cruz - Floresta | scheduled | -
+- 2026-09-20 22:30 | Portekiz Premier Lig | Porto - Benfica | scheduled | -
+- 2026-09-20 22:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe - Los Andes | scheduled | -
+- 2026-09-20 22:30 | Arjantin Ulusal Primera Lig | Maipu - Gimnasia Jujuy | scheduled | -
+- 2026-09-20 22:30 | Uruguay Premier Lig Clausura | Nacional Df - Defensor Sporti | scheduled | -
+- 2026-09-20 23:00 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Argentinos Jr | scheduled | -
+- 2026-09-20 23:00 | Arjantin Premier Lig 2. Aşama | Platense - Newells Old Boy | scheduled | -
+- 2026-09-20 23:00 | Venezuela Premier Lig Clausura | Zamora - Metropolitanos | scheduled | -
+- 2026-09-20 23:00 | Venezuela Premier Lig Clausura | Academia Anzoa - Caracas Fc | scheduled | -
+- 2026-09-20 23:00 | Arjantin Ulusal Primera Lig | Chaco For Ever - Almirante | scheduled | -
+- 2026-09-20 23:00 | Arjantin Ulusal Primera Lig | San Martin Sj - Colegiales | scheduled | -
+- 2026-09-20 23:00 | Arjantin Ulusal Primera Lig | Central Norte - D Belgrano | scheduled | -
+- 2026-09-20 23:00 | Arjantin Ulusal Primera Lig | Club Atletico - Midland | scheduled | -
+- 2026-09-20 23:00 | Arjantin Prim B Metro | Dep. Merlo - Flandria | scheduled | -
+- 2026-09-20 23:30 | Peru Premier Lig Clausura | Juan Pablo Ii - Deportivo Moque | scheduled | -
+- 2026-09-20 23:30 | Jamaika Premier Lig | Chapelton - Molynes United | scheduled | -
+- 2026-09-20 23:30 | Jamaika Premier Lig | Montego Bay Un - Tru-Juice | scheduled | -
+- 2026-09-20 23:30 | Jamaika Premier Lig | Mount Pleasant - Racing United | scheduled | -
+- 2026-09-20 23:30 | Jamaika Premier Lig | Treasure Beach - Tivoli Gardens | scheduled | -
+- 2026-09-20 23:50 | Guatemala Ulusal Lig Apertura | Deportivo San - Coban Imperial | scheduled | -
+- 2026-09-21 00:00 | Venezuela Premier Lig Clausura | Estudiantes Fc - Trujillanos | scheduled | -
+- 2026-09-21 00:00 | Ekvador Pro Lig Küme Düşme Grubu | Deportivo Cuen - Mushuc Runa | scheduled | -
+- 2026-09-21 00:00 | ABD MLS Next Pro | Tacoma Defianc - Portland Timber | scheduled | -
+- 2026-09-21 00:00 | ABD MLS Next Pro | St. Louis City - Austin Ii | scheduled | -
+- 2026-09-21 00:00 | ABD MLS Next Pro | Colorado Rapid - North Texas | scheduled | -
+- 2026-09-21 00:00 | ABD MLS Next Pro | Real Monarchs - Ventura County | scheduled | -
+- 2026-09-21 00:00 | ABD MLS Next Pro | Houston Dynamo - Swope Park Rang | scheduled | -
+- 2026-09-21 00:00 | ABD MLS Next Pro | Minnesota Unit - Los Angeles Ii | scheduled | -
+- 2026-09-21 00:00 | ABD MLS Next Pro | Whitecaps Fc I - San Jose Earthq | scheduled | -
+- 2026-09-21 00:00 | ABD USL | Indy Eleven - Oakland Roots | scheduled | -
+- 2026-09-21 00:00 | Nikaragua Premier Lig Apertura | Export Sebaco - Matagalpa | scheduled | -
+- 2026-09-21 00:00 | Honduras Ulusal Lig Apertura | Juticalpa - Marathon | scheduled | -
+- 2026-09-21 00:00 | El Salvador Primera Lig Apertura | Alianza - Municipal Limen | scheduled | -
+- 2026-09-21 00:00 | El Salvador Primera Lig Apertura | Platense - Aguila | scheduled | -
+- 2026-09-21 00:05 | Kolombiya Primera A Clausura | Bucaramanga - Inter Bogota | scheduled | -
+- 2026-09-21 00:30 | Brezilya Serie A | Flamengo - Bragantino | scheduled | -
+- 2026-09-21 00:30 | Brezilya Serie B | Londrina - Fortaleza Ce | scheduled | -
+- 2026-09-21 00:30 | Brezilya Serie C Grup C | Paysandu - Inter De Limeri | scheduled | -
+- 2026-09-21 00:30 | Brezilya Serie C Grup C | Ferroviaria - Brusque | scheduled | -
+- 2026-09-21 00:45 | Meksika Kadınlar Liga MX Apertura | América (K) - Atlas (K) | scheduled | -
+- 2026-09-21 01:15 | Arjantin Premier Lig 2. Aşama | Belgrano - Rio Cuarto | scheduled | -
+- 2026-09-21 01:30 | Brezilya Serie A | Atletico Pr - Bahia | scheduled | -
+- 2026-09-21 02:00 | ABD MLS | Inter Miami - San Diego | scheduled | -
+- 2026-09-21 02:00 | Uruguay Premier Lig Clausura | Liverpool Mont - Racing Montevid | scheduled | -
+- 2026-09-21 02:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Tlaxcala | scheduled | -
+- 2026-09-21 02:00 | Kosta Rika Premier Lig Apertura | Alajuelense - Inter San Carlo | scheduled | -
+- 2026-09-21 02:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Xelaju | scheduled | -
+- 2026-09-21 02:00 | ABD USL | Sacramento Rep - San Antonio | scheduled | -
+- 2026-09-21 02:00 | Nikaragua Premier Lig Apertura | Rancho Santana - Managua | scheduled | -
+- 2026-09-21 02:00 | ABD USL Lig 1 | Spokane Veloci - Athletic Club B | scheduled | -
+- 2026-09-21 02:00 | Meksika Kadınlar Liga MX Apertura | Atletico San L - Pachuca (K) | scheduled | -
+- 2026-09-21 02:10 | Kolombiya Primera A Clausura | Deportes Tolim - America De Cali | scheduled | -
+- 2026-09-21 02:15 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Atlético Indepe | scheduled | -
+- 2026-09-21 02:30 | Ekvador Pro Lig Şampiyonluk Grubu | Ldu Quito - Univ Catolica ( | scheduled | -
+- 2026-09-21 02:30 | El Salvador Primera Lig Apertura | Firpo - Balboa | scheduled | -
+- 2026-09-21 03:00 | Meksika Liga MX Apertura | Pachuca - Club Tijuana | scheduled | -
+- 2026-09-21 03:00 | Meksika Liga MX Apertura | Toluca - Santos Laguna | scheduled | -
+- 2026-09-21 03:30 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Tigre | scheduled | -
+- 2026-09-21 04:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Cs Cartagines | scheduled | -
+- 2026-09-21 04:00 | Guatemala Ulusal Lig Apertura | Malacateco - Mixco | scheduled | -
+- 2026-09-21 04:15 | Kolombiya Primera A Clausura | Llaneros - Atletico Nacion | scheduled | -
+- 2026-09-21 05:10 | Meksika Liga MX Apertura | Queretaro - Club Leon | scheduled | -
 
 ## Canli Maclar
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-09-19 19:30 | İngiltere Premier Lig | Nottingham F - Coventry | finished | 0-1
-- 2026-09-19 19:30 | İspanya LaLiga | Celta Vigo - Santander | finished | 5-0
-- 2026-09-19 19:30 | İspanya 2.Lig | Castellon - Tenerife | finished | 5-0
-- 2026-09-19 19:30 | İspanya 2.Lig | Eldense - Eibar | finished | 1-2
-- 2026-09-19 19:30 | Yunanistan Süper Lig | Aris - Iraklis 1908 | finished | 0-0
-- 2026-09-19 19:30 | İngiltere Ulusal Lig | Hornchurch - Scunthorpe | finished | 1-0
-- 2026-09-19 19:30 | İngiltere Kadınlar Premier Lig | Arsenal (K) - Manchester Unit | finished | 1-1
-- 2026-09-19 19:45 | Hollanda Eredivisie | Sparta Rotterd - Heerenveen | finished | 0-4
+Biten mac yok.

@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 102
+- Scheduled match count: 587
 - Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-09-19 / 2026-09-20 23:59
+- Date window: 2026-09-20 / 2026-09-21 23:59
 
-- 2026-09-19 21:45 | Anderlecht - Zulte Waregem | scheduled
-- 2026-09-19 21:45 | Lommel - Mechelen | scheduled
-- 2026-09-19 21:45 | Angers - Troyes | scheduled
-- 2026-09-19 21:45 | Le Mans - Lorient | scheduled
-- 2026-09-19 21:45 | Lyon - Rennes | scheduled
-- 2026-09-19 21:45 | Toulouse - Le Havre | scheduled
-- 2026-09-19 21:45 | Sligo Rovers - St Patricks | scheduled
-- 2026-09-19 21:45 | Unione V. - Lazio | scheduled
-- 2026-09-19 22:00 | Atl Temperley - Almagro | scheduled
-- 2026-09-19 22:00 | Rafaela - San Martin Tucu | scheduled
+- 2026-09-20 02:30 | Dc United - Charlotte | scheduled
+- 2026-09-20 02:30 | Montreal - Columbus | scheduled
+- 2026-09-20 02:30 | New England - Orlando City | scheduled
+- 2026-09-20 02:30 | San Jose - Los Angeles Fc | scheduled
+- 2026-09-20 02:30 | Fort Wayne - Naples | scheduled
+- 2026-09-20 02:30 | Sarasota Parad - Greenville Triu | scheduled
+- 2026-09-20 02:30 | Rhode Island - Miami Fc | scheduled
+- 2026-09-20 02:30 | Tampa Bay Rowd - Birmingham Legi | scheduled
+- 2026-09-20 02:30 | Vasco Da Gama - Coritiba | scheduled
+- 2026-09-20 03:00 | Union Omaha - One Knoxville | scheduled

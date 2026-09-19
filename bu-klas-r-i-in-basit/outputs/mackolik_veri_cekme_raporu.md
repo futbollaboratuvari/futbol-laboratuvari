@@ -1,98 +1,189 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-19T18:41:55.087305+00:00
+Tarih: 2026-09-19T23:12:16.667730+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 126
+- Kac mac bulundu: 507
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 126
-- Ham veri havuzu toplam mac sayisi: 15730
-- Hedef tarih: 19.09.2026 Europe/Istanbul
+- Kac mac zaten vardi: 507
+- Ham veri havuzu toplam mac sayisi: 16279
+- Hedef tarih: 20.09.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS Next Pro
 - Almanya 2. Bundesliga
+- Almanya 3. Lig
+- Almanya Bundesliga
+- Almanya Bölgesel Lig Kuzey
+- Almanya Bölgesel Lig Kuzey Doğu
+- Almanya Kadınlar Bundesliga
 - Andorra 1.Lig
-- Arjantin Kadınlar Primera A 2. Aşama
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Prim B Metro
 - Arjantin Primera C
 - Arjantin Ulusal Primera Lig
+- Arnavutluk Süperlig
+- Asya Oyunları Grup A
+- Asya Oyunları Grup B
+- Avustralya Victoria Kadınlar Premier Lig Büyük Final
+- Avusturya 1.Lig
 - Avusturya Bundesliga
+- Azerbaycan Premier Lig
+- Bahreyn 2.Lig
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
-- Belçika Kadınlar Süper Lig
 - Belçika Pro Lig
-- Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final
+- Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru
+- Bosna-Hersek Premier Lig
+- Botsvana Premier Lig
 - Brezilya Serie A
 - Brezilya Serie B
 - Brezilya Serie C Grup B
-- Cezayir 1.Lig
-- Cezayir 2.Lig Batı
-- Danimarka 3.Lig
-- Ekvador Pro Lig Serie B Küme Düşme Grubu
-- Estonya Esiliiga A
-- Finlandiya Ykkönen Yükselme Turu
-- Fransa Kadınlar 1.Lig
+- Bulgaristan 1.Lig
+- Bulgaristan 2.Lig
+- Danimarka 1.Lig
+- Danimarka 2.Lig
+- Danimarka Süperlig
+- Ekvador Pro Lig Küme Düşme Grubu
+- Endonezya Süper Lig
+- Estonya Premium Lig
+- Filipinler PFL
+- Finlandiya Ykkönen Küme Düşme Turu
 - Fransa Ligue 1
-- Fransa Ligue 2
+- Fransa U19 Ulusal Şampiyona Grup A
+- Fransa U19 Ulusal Şampiyona Grup B
+- Fransa U19 Ulusal Şampiyona Grup C
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
+- Güney Kore K Lig 1
+- Güney Kore K Lig 2
+- Güney Kore K3 Ligi
+- Gürcistan Erovnuli Liga
+- Hollanda Eerste Divisie
 - Hollanda Eredivisie
+- Hollanda Kadınlar Eredivisie
+- Hong Kong HKFA 1.Lig
+- Hong Kong Premier Lig
 - Hırvatistan 1.HNL
-- Hırvatistan 2. NL
-- Irak Premier Lig
+- Hırvatistan 2.HNL
+- Jamaika Premier Lig
+- Japonya Futbol Ligi
+- Japonya J1 Lig
+- Japonya J2 Lig
+- Japonya J3 Lig
+- Kadınlar U20 Dünya Kupası Çeyrek Final
+- Kanada Premier Lig
 - Karadağ 1.Lig
+- Katar Yıldızlar Kupası Grup Aşaması
 - Kolombiya Primera A Clausura
-- Kolombiya Primera B Clausura
-- Kuzey Makedonya 1.Lig
-- Kuzey İrlanda Premiership
+- Kosova Süper Lig
+- Letonya Virsliga
+- Litvanya 1.Lig
+- Litvanya A Ligi
 - Macaristan NB I
 - Macaristan NB II
+- Macaristan NB III Güneydoğu
+- Malezya FA Kupası Çeyrek Final
 - Malta Premier Lig Açılış
-- Norveç 3.Lig Grup 3
+- Meksika Kadınlar Liga MX Apertura
+- Moldova Ulusal Lig
+- Nijerya NPFL
+- Norveç 1.Lig
+- Norveç 2.Lig Grup 1
+- Norveç 2.Lig Grup 2
+- Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 5
+- Norveç Eliteserien
+- Norveç Kadınlar Toppserien
+- Paraguay Intermedia Lig
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
+- Polonya 2.Lig
 - Polonya Ekstraklasa
 - Portekiz Kupa 2.Tur
 - Portekiz Premier Lig
+- Portekiz U23 Ulusal Şampiyona
 - Romanya 1.Lig
+- Romanya 2.Lig
+- Slovakya 2.Lig
 - Slovakya Süper Lig
 - Slovenya 1.SNL
+- Slovenya 2.SNL
 - Suudi Arabistan 1.Lig
 - Sırbistan Süper Lig
+- Tayland 1.Lig
+- Tayland 2.Lig
+- Tayvan Premier Lig
+- Tunus 1.Lig
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
-- Uganda Premier Lig
+- Ukrayna Premier Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
+- Vietnam Kupa 1.Tur
+- Vietnam V-Lig 1
 - Yunanistan Süper Lig
+- Çek Cumhuriyeti Czech Liga
+- Çek Cumhuriyeti FNL
+- Özbekistan Super League
+- Ürdün Premier Lig
+- İngiltere Championship
 - İngiltere FA Cup Eleme 2.Tur
-- İrlanda Premier Lig
+- İngiltere Kadınlar Premier Lig
+- İngiltere Premier Lig
 - İskoçya Premiership
 - İspanya 2. Lig RFEF Grup 1
+- İspanya 2. Lig RFEF Grup 2
 - İspanya 2. Lig RFEF Grup 3
 - İspanya 2. Lig RFEF Grup 4
 - İspanya 2. Lig RFEF Grup 5
 - İspanya 2.Lig
+- İspanya Gençler Onur Ligi Grup 1
+- İspanya Gençler Onur Ligi Grup 2
+- İspanya Gençler Onur Ligi Grup 3
+- İspanya Gençler Onur Ligi Grup 4
+- İspanya Gençler Onur Ligi Grup 5
+- İspanya Gençler Onur Ligi Grup 6
 - İspanya Gençler Onur Ligi Grup 7
 - İspanya Kadınlar Primera Lig
 - İspanya LaLiga
 - İspanya Primera Lig RFEF Grup 1
 - İspanya Primera Lig RFEF Grup 2
+- İspanya Tercera Ligi Grup 1
 - İspanya Tercera Ligi Grup 10
 - İspanya Tercera Ligi Grup 11
-- İspanya Tercera Ligi Grup 15
+- İspanya Tercera Ligi Grup 13
+- İspanya Tercera Ligi Grup 14
 - İspanya Tercera Ligi Grup 18
+- İspanya Tercera Ligi Grup 2
+- İspanya Tercera Ligi Grup 3
+- İspanya Tercera Ligi Grup 4
 - İspanya Tercera Ligi Grup 5
+- İspanya Tercera Ligi Grup 6
+- İspanya Tercera Ligi Grup 9
 - İsveç 2.Lig Norra Götaland
-- İsveç 2.Lig Norrland Düşme Grubu
+- İsveç 2.Lig Norra Svealand
+- İsveç 2.Lig Norrland Yükselme Grubu
+- İsveç 2.Lig Södra Götaland
+- İsveç 2.Lig Södra Svealand
+- İsveç 2.Lig Vastra Götaland
+- İsveç Allsvenskan
+- İsveç Kadınlar Damallsvenskan
+- İsveç Superettan
+- İsviçre 1.Lig Promotion
+- İsviçre Challenge Lig
+- İsviçre Süper Lig
 - İtalya Serie A
 - İtalya Serie B
+- İtalya Serie C Grup A
+- İtalya Serie C Grup B
 - İtalya Serie C Grup C
 - İzlanda Urvalsdeild Küme Düşme Grubu
+- İzlanda Urvalsdeild Şampiyonluk Grubu
 
 ## Okunabilen Oran Alanlari
 
@@ -163,26 +254,26 @@ Tarih: 2026-09-19T18:41:55.087305+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 19.09.2026 | 20:00 | Türkiye Süper Lig | Başakşehir Fk | Gençlerbirliği | 03840 | 5 |
-| 19.09.2026 | 20:00 | Türkiye Süper Lig | Trabzonspor | Galatasaray | 04708 | 5 |
-| 19.09.2026 | 20:00 | Türkiye TFF 1. Lig | Esenler Eroksp | Fatih Karagümrü | 51735 | 5 |
-| 19.09.2026 | 20:00 | Türkiye TFF 1. Lig | Batman Petrol | Bursaspor | 51718 | 5 |
-| 19.09.2026 | 22:00 | İspanya LaLiga | Sevilla | Barcelona | 11893 | 5 |
-| 19.09.2026 | 21:45 | İtalya Serie A | Unione V. | Lazio | 32564 | 5 |
-| 19.09.2026 | 21:45 | Fransa Ligue 1 | Le Mans | Lorient | 35650 | 5 |
-| 19.09.2026 | 21:45 | Fransa Ligue 1 | Toulouse | Le Havre | 35890 | 5 |
-| 19.09.2026 | 21:45 | Fransa Ligue 1 | Lyon | Rennes | 35774 | 5 |
-| 19.09.2026 | 21:45 | Fransa Ligue 1 | Angers | Troyes | 35529 | 5 |
-| 19.09.2026 | 22:00 | Hollanda Eredivisie | Willem | Fortuna Sittard | 43524 | 5 |
-| 19.09.2026 | 19:45 | Hollanda Eredivisie | Sparta Rotterd | Heerenveen | 43296 | 5 |
-| 19.09.2026 | 21:00 | Hollanda Eredivisie | Ajax | Excelsior | 43409 | 5 |
-| 19.09.2026 | 22:30 | Portekiz Premier Lig | Sporting Cp | Arouca | 46138 | 4 |
-| 19.09.2026 | 20:00 | Portekiz Premier Lig | Alverca | Rio Ave | 46027 | 5 |
-| 19.09.2026 | 21:45 | Belçika Pro Lig | Anderlecht | Zulte Waregem | 40502 | 5 |
-| 19.09.2026 | 21:45 | Belçika Pro Lig | Lommel | Mechelen | 40624 | 5 |
-| 19.09.2026 | 22:00 | İspanya 2.Lig | Cadiz | Girona | 27151 | 5 |
-| 19.09.2026 | 19:30 | İspanya 2.Lig | Castellon | Tenerife | 27024 | 5 |
-| 19.09.2026 | 20:30 | İtalya Serie B | Ascoli Picchio | Avellino | 34276 | 5 |
+| 20.09.2026 | 20:00 | Türkiye Süper Lig | Amed Sk | Beşiktaş | 06970 | 5 |
+| 20.09.2026 | 20:00 | Türkiye Süper Lig | Göztepe | Rizespor | 06974 | 5 |
+| 20.09.2026 | 17:00 | Türkiye Süper Lig | Erzurumspor Fk | Samsunspor | 04733 | 5 |
+| 20.09.2026 | 17:00 | Türkiye Süper Lig | Fenerbahçe | Eyüpspor | 04737 | 4 |
+| 20.09.2026 | 17:00 | Türkiye TFF 1. Lig | Manisa Futbol | İstanbulspor | 51752 | 5 |
+| 20.09.2026 | 17:00 | Türkiye TFF 1. Lig | Pendikspor | Bodrum Fk | 51769 | 5 |
+| 20.09.2026 | 20:00 | Türkiye TFF 1. Lig | Antalyaspor | Van Spor Fk | 51786 | 5 |
+| 20.09.2026 | 20:00 | Türkiye TFF 1. Lig | Mardin 1969 | Kayserispor | 51803 | 5 |
+| 20.09.2026 | 16:00 | İngiltere Premier Lig | Bournemouth | Liverpool | 09846 | 5 |
+| 20.09.2026 | 16:00 | İngiltere Premier Lig | Leeds Utd | Crystal Palace | 09945 | 5 |
+| 20.09.2026 | 16:00 | İngiltere Premier Lig | Manchester Cit | Sunderland | 10026 | 5 |
+| 20.09.2026 | 18:30 | İngiltere Premier Lig | Fulham | Man. Utd | 10101 | 5 |
+| 20.09.2026 | 19:30 | İspanya LaLiga | D.La Coruna | Real Betis | 12047 | 5 |
+| 20.09.2026 | 15:00 | İspanya LaLiga | Getafe | Malaga | 11970 | 5 |
+| 20.09.2026 | 17:15 | İspanya LaLiga | Atletico Madri | Real Madrid | 04858 | 5 |
+| 20.09.2026 | 19:30 | İspanya LaLiga | Villarreal | Levante | 12109 | 5 |
+| 20.09.2026 | 22:00 | İspanya LaLiga | Valencia | Real Sociedad | 12206 | 5 |
+| 20.09.2026 | 21:45 | İtalya Serie A | Ac Milan | Lecce | 33094 | 5 |
+| 20.09.2026 | 19:00 | İtalya Serie A | Juventus | Atalanta | 32978 | 5 |
+| 20.09.2026 | 13:30 | İtalya Serie A | Fiorentina | Napoli | 32622 | 5 |
 
 ## Sonuc
 
