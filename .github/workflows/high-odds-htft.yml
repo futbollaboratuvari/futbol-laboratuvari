@@ -17,7 +17,7 @@ on:
       - 'tests/robot-specialist-orchestrator.test.js'
       - '.github/workflows/high-odds-htft.yml'
   schedule:
-    - cron: '25 */3 * * *'
+    - cron: '25 * * * *'
 
 permissions:
   contents: write
