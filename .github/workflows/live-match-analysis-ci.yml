@@ -11,7 +11,11 @@ on:
       - 'tests/live-power-series.test.js'
       - 'tests/live-power-core.test.js'
       - 'tests/live-match-analysis-robot.test.js'
+      - 'tests/live-learning-memory.test.js'
       - 'tests/live-power-center-static.test.js'
+      - 'supabase/functions/fl-live-match-analysis/index.ts'
+      - 'supabase/functions/fl-live-match-analysis/live-learning.mjs'
+      - 'supabase/sql/live-learning-schema.sql'
       - 'live-power-center-v1.js'
       - 'data/live-match-analysis.json'
       - '.github/workflows/live-power-series.yml'
@@ -40,11 +44,35 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            scripts
+            tests
+            supabase/functions/fl-live-match-analysis
+            supabase/sql
+            data/live-power-series.json
+            data/live-match-analysis.json
+            index.html
+            cache-version.js
+            nav-routing.js
+            site-human-language.js
+            live-power-center-v1.js
+            package.json
+          sparse-checkout-cone-mode: false
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Deno Edge Function check
+        run: deno check --config supabase/functions/fl-live-match-analysis/deno.json supabase/functions/fl-live-match-analysis/index.ts
 
       - name: Syntax check
         run: |
@@ -52,6 +80,7 @@ jobs:
           node --check scripts/update-live-power-series-v2.js
           node --check scripts/live-match-analysis-robot.js
           node --check scripts/validate-live-match-analysis.js
+          node --check supabase/functions/fl-live-match-analysis/live-learning.mjs
           node --check live-power-center-v1.js
 
       - name: Live analysis tests
@@ -59,6 +88,7 @@ jobs:
           node tests/live-power-series.test.js
           node tests/live-power-core.test.js
           node tests/live-match-analysis-robot.test.js
+          node tests/live-learning-memory.test.js
           node scripts/validate-live-power-series.js
           node scripts/validate-live-match-analysis.js
           node tests/live-power-center-static.test.js
