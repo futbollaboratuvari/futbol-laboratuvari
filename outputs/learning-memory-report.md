@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.09.2026 01:15:13
+Oluşturma: 20.09.2026 01:17:54
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1213
-- Kazanan tahmin: 159
-- Kaybeden tahmin: 128
+- Bekleyen tahmin: 1161
+- Kazanan tahmin: 189
+- Kaybeden tahmin: 150
 - Lig sayısı: 284
 - Seçenek sayısı: 10
 
@@ -22,14 +22,14 @@ Oluşturma: 20.09.2026 01:15:13
 
 ## En Güçlü Seçenek Hafızası
 
-- KG Var: toplam 81, bekleyen 58, başarı %65, düz getiri %12, ağırlık 1
-- 2.5 Üst: toplam 160, bekleyen 115, başarı %58, düz getiri %1, ağırlık 1
-- 2.5 Alt: toplam 478, bekleyen 387, başarı %56, düz getiri %-5, ağırlık 1
-- 3.5 Üst: toplam 33, bekleyen 22, başarı %55, düz getiri %9, ağırlık 1
-- MS 1: toplam 417, bekleyen 338, başarı %54, düz getiri %-9, ağırlık 1
-- KG Yok: toplam 60, bekleyen 54, başarı %50, düz getiri %-24, ağırlık 1
-- MS X: toplam 13, bekleyen 11, başarı %50, düz getiri %25, ağırlık 1
-- MS 2: toplam 221, bekleyen 191, başarı %47, düz getiri %-15, ağırlık 1
+- KG Var: toplam 81, bekleyen 51, başarı %70, düz getiri %24, ağırlık 1
+- 2.5 Alt: toplam 478, bekleyen 379, başarı %57, düz getiri %-4, ağırlık 1
+- MS 1: toplam 417, bekleyen 326, başarı %55, düz getiri %-7, ağırlık 1
+- 2.5 Üst: toplam 160, bekleyen 107, başarı %55, düz getiri %-4, ağırlık 1
+- KG Yok: toplam 60, bekleyen 47, başarı %54, düz getiri %-5, ağırlık 1
+- MS 2: toplam 221, bekleyen 187, başarı %50, düz getiri %-8, ağırlık 1
+- MS X: toplam 13, bekleyen 9, başarı %50, düz getiri %27, ağırlık 1
+- 3.5 Üst: toplam 33, bekleyen 18, başarı %47, düz getiri %-6, ağırlık 1
 - İlk Yarı KG Var: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İkinci Yarı KG Var: toplam 30, bekleyen 30, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
@@ -42,7 +42,7 @@ Oluşturma: 20.09.2026 01:15:13
 - 2026-09-20 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Herediano | MS 1 | pending | 51/100
 - 2026-09-20 | ABD USL | Phoenix Rising - El Paso Locomot | 2.5 Alt | pending | 56/100
 - 2026-09-20 | ABD MLS | Portland - Atlanta Utd | MS 1 | pending | 59/100
-- 2026-09-20 | ABD USL | Las Vegas Ligh - Hartford Athlet | 2.5 Üst | pending | 62/100
+- 2026-09-20 | ABD USL | Las Vegas Ligh - Hartford Athlet | 2.5 Üst | pending | 63/100
 - 2026-09-20 | Meksika Liga MX Apertura | Club America - Guadalajara | 2.5 Üst | pending | 72/100
 - 2026-09-20 | Japonya J3 Lig | Zweigen Kanaza - Renofa Yamaguch | 2.5 Alt | pending | 52/100
 - 2026-09-20 | Venezuela Premier Lig Clausura | Deportivo La G - Depor Tachira | 2.5 Alt | pending | 63/100
