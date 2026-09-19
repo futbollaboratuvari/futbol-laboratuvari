@@ -1,20 +1,349 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T14:46:27.124Z",
+  "generated_at": "2026-09-19T17:59:32.544Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-19T14:46:26.513Z",
+  "source_generated_at": "2026-09-19T17:59:31.424Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 0,
-    "ready_count": 0,
+    "live_match_count": 4,
+    "ready_count": 4,
     "waiting_count": 0,
-    "result_lean_count": 0,
-    "next_goal_lean_count": 0,
+    "result_lean_count": 4,
+    "next_goal_lean_count": 4,
     "high_goal_pressure_count": 0
   },
-  "matches": []
+  "matches": [
+    {
+      "fixture_id": "401881781",
+      "status": "ready",
+      "minute": 29,
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "home": "Grazer AK",
+      "away": "Austria Vienna",
+      "league": "Avusturya Bundesliga",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-19T17:59:31.424Z",
+      "freshness_minutes": 0.018666666666666668,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 78
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 5
+      },
+      "signals": [
+        "Team Power: Grazer AK %100 · Austria Vienna %0.",
+        "Goal Power: Grazer AK %6 · Austria Vienna %0.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 100,
+        "goal_power_diff": 6,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 0,
+        "total_shots_diff": 0,
+        "corners_diff": 0,
+        "xg_diff": 0,
+        "direction_score": 48.2,
+        "next_goal_score": 26
+      }
+    },
+    {
+      "fixture_id": "401841573",
+      "status": "ready",
+      "minute": 28,
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "home": "Gimnasia La Plata",
+      "away": "Banfield",
+      "league": "Arjantin Premier Lig 2. Aşama",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-19T17:59:31.424Z",
+      "freshness_minutes": 0.018666666666666668,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 90
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 22
+      },
+      "signals": [
+        "Team Power: Gimnasia La Plata %87 · Banfield %13.",
+        "Goal Power: Gimnasia La Plata %27 · Banfield %3.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 74,
+        "goal_power_diff": 24,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 1,
+        "total_shots_diff": 7,
+        "corners_diff": 2,
+        "xg_diff": 0,
+        "direction_score": 56.22,
+        "next_goal_score": 39.82
+      }
+    },
+    {
+      "fixture_id": "401899618",
+      "status": "ready",
+      "minute": 25,
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "home": "Ascoli",
+      "away": "US Avellino",
+      "league": "İtalya Serie B",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-19T17:59:31.424Z",
+      "freshness_minutes": 0.018666666666666668,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Deplasman yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "2",
+        "label": "Deplasman yönü",
+        "side": "away",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "AWAY",
+        "label": "Sonraki gol eğilimi: Deplasman",
+        "side": "away",
+        "strength": 86.66
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 16
+      },
+      "signals": [
+        "Team Power: Ascoli %14 · US Avellino %86.",
+        "Goal Power: Ascoli %0 · US Avellino %20.",
+        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": -72,
+        "goal_power_diff": -20,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": -1,
+        "total_shots_diff": -4,
+        "corners_diff": -1,
+        "xg_diff": 0,
+        "direction_score": -50.16,
+        "next_goal_score": -34.66
+      }
+    },
+    {
+      "fixture_id": "401841574",
+      "status": "ready",
+      "minute": 30,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "home": "Gimnasia (Mendoza)",
+      "away": "Deportivo Riestra",
+      "league": "Arjantin Premier Lig 2. Aşama",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-19T17:59:31.424Z",
+      "freshness_minutes": 0.018666666666666668,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 73
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 82.49000000000001
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 78
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 8
+      },
+      "signals": [
+        "Team Power: Gimnasia (Mendoza) %85 · Deportivo Riestra %15.",
+        "Goal Power: Gimnasia (Mendoza) %10 · Deportivo Riestra %1.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 70,
+        "goal_power_diff": 9,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 1,
+        "total_shots_diff": 1,
+        "corners_diff": 2,
+        "xg_diff": 0,
+        "direction_score": 36.1,
+        "next_goal_score": 26
+      }
+    }
+  ]
 }
