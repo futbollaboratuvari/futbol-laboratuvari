@@ -8,8 +8,8 @@ const file = path.join(__dirname, "..", "nesine-coupon-assistant.js");
 const source = fs.readFileSync(file, "utf8");
 
 assert.doesNotThrow(() => new Function(source), "Kupon Asistanı JavaScript sözdizimi bozuk");
-assert.match(source, /ANALYSIS_URL\s*=\s*['"]\.\/data\/analiz_sonuclari\.json['"]/, "PRO analiz fallback kaynağı eksik");
-assert.match(source, /Promise\.allSettled/, "günlük kupon ve PRO analiz kaynakları birlikte okunmalı");
+assert.match(source, /POOL_URL\\s*=\\s*[\'"]\\.\\/data\\/coupon-assistant-pool\\.json[\'"]/, "Kompakt PRO aday havuzu kaynağı eksik");
+assert.match(source, /Promise\.allSettled/, "günlük kupon ve kompakt PRO aday havuzu birlikte okunmalı");
 assert.match(source, /manual_candidate:\s*true/, "manuel PRO aday işareti eksik");
 assert.match(source, /isUpcomingCandidate/, "başlamış maç filtresi eksik");
 assert.match(source, /cache:\s*['"]no-store['"]/, "güncel veri için no-store cache politikası eksik");
