@@ -2,43 +2,15 @@
 
 Gunler: 2026-09-19 / 2026-09-20
 Kaynak: fixtures.json
-Ham mac: 354
-Aktif mac: 141
+Ham mac: 261
+Aktif mac: 113
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 213
-Bugun: 76
+Bultenden dusurulen mac: 148
+Bugun: 48
 Yarin: 65
 
 ## Baslamamis Maclar
-- 2026-09-19 20:30 | İtalya Serie B | Ascoli Picchio - Avellino | scheduled | -
-- 2026-09-19 20:30 | Avusturya Bundesliga | Grazer Ak - Austria Vienna | scheduled | -
-- 2026-09-19 20:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Riestra | scheduled | -
-- 2026-09-19 20:30 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl - Banfield | scheduled | -
-- 2026-09-19 20:30 | Macaristan NB I | Debreceni - Vasas | scheduled | -
-- 2026-09-19 20:30 | Romanya 1.Lig | Universitatea - Fc Steaua | scheduled | -
-- 2026-09-19 20:30 | İspanya 2. Lig RFEF Grup 1 | Portugalete - Coruxo | scheduled | -
-- 2026-09-19 21:00 | Hollanda Eredivisie | Ajax - Excelsior | scheduled | -
-- 2026-09-19 21:00 | Fransa Ligue 2 | Metz - St Etienne | scheduled | -
-- 2026-09-19 21:00 | Hırvatistan 1.HNL | Istra - Hnk Gorica | scheduled | -
-- 2026-09-19 21:00 | Belçika Challenger Pro Lig | Eupen - Rfc Liege | scheduled | -
-- 2026-09-19 21:00 | Cezayir 1.Lig | Es Setif - Cs Constantine | scheduled | -
-- 2026-09-19 21:00 | Peru Premier Lig Clausura | Fc Cajamarca - Cusco Fc | scheduled | -
-- 2026-09-19 21:00 | Arjantin Ulusal Primera Lig | Acassuso - Ca Mitre | scheduled | -
-- 2026-09-19 21:00 | Güney Afrika PSL | Kruger United - Stellenbosch Fc | scheduled | -
-- 2026-09-19 21:00 | Kuzey Makedonya 1.Lig | Vardar - Shkëndija Haraç | scheduled | -
-- 2026-09-19 21:00 | Irak Premier Lig | Al Karma - Zakho | scheduled | -
-- 2026-09-19 21:00 | Arjantin Kadınlar Primera A 2. Aşama | Talleres De Co - Belgrano (K) | scheduled | -
-- 2026-09-19 21:00 | Arjantin Kadınlar Primera A 2. Aşama | San Luis (K) - Sat (K) | scheduled | -
-- 2026-09-19 21:00 | Arjantin Prim B Metro | Urquiza - Excur | scheduled | -
-- 2026-09-19 21:00 | Arjantin Prim B Metro | Real Pilar - Arsenal Sarandi | scheduled | -
-- 2026-09-19 21:00 | Arjantin Prim B Metro | Burzaco - Laferrere | scheduled | -
-- 2026-09-19 21:00 | Arjantin Prim B Metro | Sportivo - Brown | scheduled | -
-- 2026-09-19 21:00 | İspanya Tercera Ligi Grup 5 | Ue Cornella - Lhospitalet | scheduled | -
-- 2026-09-19 21:00 | İspanya Tercera Ligi Grup 10 | Xerez Deportiv - Bollullos | scheduled | -
-- 2026-09-19 21:00 | Arjantin Primera C | Lujan - Club Atlas | scheduled | -
-- 2026-09-19 21:00 | Arjantin Primera C | A. Rosario - Beraza | scheduled | -
-- 2026-09-19 21:00 | Arjantin Primera C | Unida - C Espanol | scheduled | -
 - 2026-09-19 21:15 | Polonya Ekstraklasa | Motor Lublin - Gornik Zabrze | scheduled | -
 - 2026-09-19 21:15 | Slovenya 1.SNL | Maribor - Aluminij | scheduled | -
 - 2026-09-19 21:30 | Almanya 2. Bundesliga | Dynamo Dresden - Hertha Berlin | scheduled | -
