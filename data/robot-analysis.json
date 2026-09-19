@@ -101814,11 +101814,11 @@
           "signals": [
             "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %67, ana model gücü %61. Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil."
           ],
-          "specialist_source": "verified_high_odds_htft",
+          "specialist_source": "analysis_options",
           "specialist_robot": "htft",
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 65
+          "specialist_decision": "block",
+          "specialist_eligible": false,
+          "specialist_quality_score": 38
         },
         {
           "key": "over35",
@@ -102605,10 +102605,10 @@
         },
         "htft": {
           "id": "htft",
-          "status": "ready",
+          "status": "blocked",
           "candidate_count": 1,
-          "eligible_count": 1,
-          "supplemental_candidate_count": 1
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
         },
         "match_result": {
           "id": "match_result",
@@ -102646,10 +102646,10 @@
         {
           "market": "1/2",
           "specialist_robot": "htft",
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 65,
-          "source": "verified_high_odds_htft"
+          "decision": "block",
+          "eligible": false,
+          "quality_score": 38,
+          "source": "analysis_options"
         }
       ],
       "specialist_router_version": "robot-specialist-orchestrator-v3"
@@ -170059,9 +170059,9 @@
           "key": "specialist_2_1",
           "label": "2/1",
           "market": "2/1",
-          "odd": 22.65,
-          "model_score": 73,
-          "analysis_score": 73,
+          "odd": 23.65,
+          "model_score": 74,
+          "analysis_score": 74,
           "estimated_probability": 8.5,
           "market_probability": null,
           "edge_percent": null,
@@ -170069,7 +170069,7 @@
           "independent_evidence": true,
           "risk_level": "Yüksek",
           "signals": [
-            "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %49 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (downgrade): İY/MS için veri kapsamı sınırlı (%49). Kadro/ilk 11 verisi tam güvenli değil."
+            "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %49 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (downgrade): İY/MS için veri kapsamı sınırlı (%49). Maç önü final kontrolü ihtiyat düşümü verdi. Kadro/ilk 11 verisi tam güvenli değil."
           ],
           "specialist_source": "verified_high_odds_htft",
           "specialist_robot": "htft",
@@ -282817,6 +282817,28 @@
       "raw_market_guess_odds": {},
       "analysis_options": [
         {
+          "key": "specialist_1_2",
+          "label": "1/2",
+          "market": "1/2",
+          "odd": 27,
+          "model_score": 73,
+          "analysis_score": 73,
+          "estimated_probability": 8.1,
+          "market_probability": null,
+          "edge_percent": null,
+          "data_completeness": 61,
+          "independent_evidence": true,
+          "risk_level": "Yüksek",
+          "signals": [
+            "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %61, ana model gücü %67. Market uzman kararı (downgrade): İY/MS için veri kapsamı sınırlı (%61). Kadro/ilk 11 verisi tam güvenli değil."
+          ],
+          "specialist_source": "verified_high_odds_htft",
+          "specialist_robot": "htft",
+          "specialist_decision": "downgrade",
+          "specialist_eligible": true,
+          "specialist_quality_score": 65
+        },
+        {
           "key": "over25",
           "label": "2.5 Üst",
           "odd": 1.56,
@@ -284279,10 +284301,10 @@
         },
         "htft": {
           "id": "htft",
-          "status": "no_candidate",
-          "candidate_count": 0,
-          "eligible_count": 0,
-          "supplemental_candidate_count": 0
+          "status": "ready",
+          "candidate_count": 1,
+          "eligible_count": 1,
+          "supplemental_candidate_count": 1
         },
         "match_result": {
           "id": "match_result",
@@ -284324,6 +284346,14 @@
           "eligible": false,
           "quality_score": 40,
           "source": "goal_market_candidates"
+        },
+        {
+          "market": "1/2",
+          "specialist_robot": "htft",
+          "decision": "downgrade",
+          "eligible": true,
+          "quality_score": 65,
+          "source": "verified_high_odds_htft"
         },
         {
           "market": "MS 2",
@@ -416382,7 +416412,7 @@
       }
     },
     "match_count": 315,
-    "candidate_count": 1957,
+    "candidate_count": 1958,
     "eligible_count": 1914,
     "specialists": {
       "btts": {
@@ -416398,7 +416428,7 @@
         "supplemental_candidate_count": 0
       },
       "htft": {
-        "candidate_count": 3,
+        "candidate_count": 4,
         "eligible_count": 3,
         "ready_match_count": 3,
         "supplemental_candidate_count": 3
