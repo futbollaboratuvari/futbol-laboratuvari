@@ -9,7 +9,9 @@ const {
   officialEventMap,
   officialFirstHalfOdds,
   officialHtFtOdds,
-  resolveOfficialEvent
+  resolveOfficialEvent,
+  clockInIstanbul,
+  isUpcomingAtClock
 } = require('../scripts/generate-high-odds-htft');
 
 const officialEvent = {
@@ -47,6 +49,12 @@ const officialEvent = {
     }
   ]
 };
+
+const fixedClock = clockInIstanbul('2026-09-10T17:30:00Z');
+assert.deepStrictEqual(fixedClock, { date: '2026-09-10', time: '20:30' });
+assert.strictEqual(isUpcomingAtClock({ date: '2026-09-10', time: '20:00' }, '2026-09-10', fixedClock), false);
+assert.strictEqual(isUpcomingAtClock({ date: '2026-09-10', time: '21:30' }, '2026-09-10', fixedClock), true);
+assert.strictEqual(isUpcomingAtClock({ date: '2026-09-11', time: '00:10' }, '2026-09-11', fixedClock), true);
 
 assert.deepStrictEqual(officialFirstHalfOdds(officialEvent), {
   one: 2.45,
@@ -199,11 +207,28 @@ const secondItem = {
   match_name: 'Ev İki VS Dep İki'
 };
 
+const thirdOfficialEvent = {
+  ...officialEvent,
+  iddaa_event_id: '3123460',
+  match_code: '3123460',
+  home: 'Ev Üç',
+  away: 'Dep Üç',
+  time: '22:30'
+};
+const thirdItem = {
+  ...item,
+  match_code: '67891',
+  home: 'Ev Üç',
+  away: 'Dep Üç',
+  match_name: 'Ev Üç VS Dep Üç',
+  time: '22:30'
+};
+
 (async () => {
   const output = await buildOutput({ date: '2026-09-10', matches: [item, secondItem] }, {
     source: 'iddaa.com resmi futbol bülteni',
     matches: [officialEvent, secondOfficialEvent]
-  });
+  }, { now: '2026-09-10T12:00:00Z' });
   assert.strictEqual(output.odds_label, 'Resmî İddaa İY/MS oranı');
   assert.strictEqual(output.engine, 'Futbol Laboratuvarı Yüksek Oran İY/MS v4');
   assert.strictEqual(output.status, 'ready');
@@ -215,6 +240,18 @@ const secondItem = {
   assert.strictEqual(output.official_high_odds_match_count, 2);
   assert.ok(output.picks.every((entry) => entry.odds_verified === true));
   assert.deepStrictEqual(output.picks.map((entry) => entry.iddaa_event_id).sort(), ['3123456', '3123458']);
+
+  const liveClockOutput = await buildOutput({
+    date: '2026-09-10',
+    matches: [item, secondItem, thirdItem]
+  }, {
+    source: 'iddaa.com resmi futbol bülteni',
+    matches: [officialEvent, secondOfficialEvent, thirdOfficialEvent]
+  }, { now: '2026-09-10T17:30:00Z' });
+  assert.strictEqual(liveClockOutput.status, 'ready', 'two not-started verified picks should keep HTFT ready');
+  assert.strictEqual(liveClockOutput.selected_count, 2, 'started match must not consume one of the three card slots');
+  assert.ok(!liveClockOutput.picks.some((entry) => entry.iddaa_event_id === '3123456'), 'already-started match leaked into HTFT output');
+  assert.deepStrictEqual(liveClockOutput.picks.map((entry) => entry.iddaa_event_id).sort(), ['3123458', '3123460']);
 
   const nextDate = '2026-09-11';
   const futureOutput = await buildOutput({
@@ -229,7 +266,7 @@ const secondItem = {
       { ...officialEvent, date: nextDate },
       { ...secondOfficialEvent, date: nextDate }
     ]
-  });
+  }, { now: '2026-09-10T12:00:00Z' });
   assert.strictEqual(futureOutput.date, nextDate);
   assert.strictEqual(futureOutput.requested_date, '2026-09-10');
   assert.strictEqual(futureOutput.date_fallback_used, true);
@@ -239,6 +276,10 @@ const secondItem = {
   const widget = fs.readFileSync(path.join(__dirname, '..', 'high-odds-htft-widget.js'), 'utf8');
   assert.match(widget, /Resmî İddaa Oranı/);
   assert.match(widget, /bulletinDate < today/);
+  assert.match(widget, /fl_htft=/, 'widget must cache-bust HTFT JSON');
+  assert.match(widget, /cache: 'no-store'/, 'widget must bypass stale browser/CDN cache');
+  assert.match(widget, /isUpcomingPick/, 'widget must remove already-started matches');
+  assert.match(widget, /5 \* 60 \* 1000/, 'widget must recheck feed every five minutes');
   assert.doesNotMatch(widget, />Model Oranı</);
   const cacheLoader = fs.readFileSync(path.join(__dirname, '..', 'cache-version.js'), 'utf8');
   assert.match(cacheLoader, /loadScript\("high-odds-htft-widget\.js"/);
