@@ -69,10 +69,9 @@ function canonicalMarket(value) {
   if (/2 5.*alt|under 25|under 2 5/.test(key)) return "2.5 Alt";
   if (/3 5.*ust|over 35|over 3 5/.test(key)) return "3.5 Üst";
   if (/6\+\s*gol|6 plus gol|6 veya daha fazla gol|6 ve uzeri gol/.test(text.toLocaleLowerCase("tr-TR")) || /6 gol/.test(key)) return "6+ Gol";
-  if (/^(1\/1|iy ms 1 1|ht ft 1 1)$/.test(key.replace(/ /g, " "))) return "İY/MS 1/1";
-  if (/^(1\/2|iy ms 1 2|ht ft 1 2)$/.test(text.toLocaleLowerCase("tr-TR").replace(/\s+/g, " ").trim()) || /^1 2$/.test(key)) return "İY/MS 1/2";
-  if (/^(2\/1|iy ms 2 1|ht ft 2 1)$/.test(text.toLocaleLowerCase("tr-TR").replace(/\s+/g, " ").trim()) || /^2 1$/.test(key)) return "İY/MS 2/1";
-  if (/^1 1$/.test(key)) return "İY/MS 1/1";
+  if (/^(1 1|iy ms 1 1|ht ft 1 1)$/.test(key)) return "İY/MS 1/1";
+  if (/^(1 2|iy ms 1 2|ht ft 1 2)$/.test(key)) return "İY/MS 1/2";
+  if (/^(2 1|iy ms 2 1|ht ft 2 1)$/.test(key)) return "İY/MS 2/1";
   if (/ms 1|mac sonucu 1/.test(key)) return "MS 1";
   if (/ms x|mac sonucu x/.test(key)) return "MS X";
   if (/ms 2|mac sonucu 2/.test(key)) return "MS 2";
