@@ -136,6 +136,7 @@ function main() {
 }
 
 module.exports = {
+  main,
   buildPool,
   clockInIstanbul,
   isUpcoming,
