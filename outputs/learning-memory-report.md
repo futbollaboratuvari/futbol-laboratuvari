@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.09.2026 14:13:48
+Oluşturma: 19.09.2026 17:35:27
 
 ## Özet
 
 - Toplam tahmin: 1500
-- Bekleyen tahmin: 1187
-- Kazanan tahmin: 176
-- Kaybeden tahmin: 137
-- Lig sayısı: 285
-- Seçenek sayısı: 9
+- Bekleyen tahmin: 1301
+- Kazanan tahmin: 113
+- Kaybeden tahmin: 86
+- Lig sayısı: 293
+- Seçenek sayısı: 10
 
 ## Öğrenme Mantığı
 
@@ -22,31 +22,32 @@ Oluşturma: 19.09.2026 14:13:48
 
 ## En Güçlü Seçenek Hafızası
 
-- KG Var: toplam 45, bekleyen 33, başarı %67, düz getiri %18, ağırlık 1
-- 2.5 Alt: toplam 544, bekleyen 430, başarı %59, düz getiri %1, ağırlık 1
-- 2.5 Üst: toplam 158, bekleyen 105, başarı %59, düz getiri %6, ağırlık 1
-- MS 2: toplam 229, bekleyen 190, başarı %54, düz getiri %4, ağırlık 1
-- MS 1: toplam 453, bekleyen 362, başarı %52, düz getiri %-18, ağırlık 1
-- MS X: toplam 12, bekleyen 8, başarı %50, düz getiri %22, ağırlık 1
-- KG Yok: toplam 22, bekleyen 22, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- İkinci Yarı KG Var: toplam 22, bekleyen 22, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- 3.5 Üst: toplam 15, bekleyen 15, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- 2.5 Üst: toplam 165, bekleyen 131, başarı %65, düz getiri %17, ağırlık 1
+- 2.5 Alt: toplam 508, bekleyen 436, başarı %61, düz getiri %6, ağırlık 1
+- KG Var: toplam 63, bekleyen 58, başarı %60, düz getiri %1, ağırlık 1
+- MS 2: toplam 223, bekleyen 198, başarı %52, düz getiri %-5, ağırlık 1
+- MS 1: toplam 438, bekleyen 378, başarı %50, düz getiri %-23, ağırlık 1
+- MS X: toplam 12, bekleyen 9, başarı %33, düz getiri %-17, ağırlık 1
+- KG Yok: toplam 40, bekleyen 40, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- 3.5 Üst: toplam 22, bekleyen 22, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- İlk Yarı KG Var: toplam 1, bekleyen 1, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- İkinci Yarı KG Var: toplam 28, bekleyen 28, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-19 | Meksika Ascenso MX Apertura | Tepatitlan De - Zacatecas | MS 2 | pending | 45/100
-- 2026-09-19 | Meksika Ascenso MX Apertura | Piratas - Venados Fc | MS 1 | pending | 58/100
-- 2026-09-19 | Honduras Ulusal Lig Apertura | Choloma - Estrella Roja | 2.5 Üst | pending | 73/100
-- 2026-09-19 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Sporting San Jo | 2.5 Alt | pending | 60/100
-- 2026-09-19 | Guatemala Ulusal Lig Apertura | Comunicaciones - Guastatoya | 2.5 Alt | pending | 73/100
-- 2026-09-19 | Meksika Liga MX Apertura | Fc Juarez - Tigres Uanl | 2.5 Alt | pending | 68/100
-- 2026-09-19 | Meksika Ascenso MX Apertura | Ca La Paz - Correcaminos Ua | MS 1 | pending | 53/100
-- 2026-09-19 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Defensa Justici | 2.5 Alt | pending | 58/100
-- 2026-09-19 | Kolombiya Primera A Clausura | Rionegro Aguil - Pereira | 2.5 Alt | pending | 52/100
-- 2026-09-19 | Honduras Ulusal Lig Apertura | Platense - Upnfm | 2.5 Alt | pending | 76/100
-- 2026-09-19 | Arjantin Primera C | Cambaceres - Jj Urquiza | MS 1 | pending | 42/100
-- 2026-09-19 | Paraguay Intermedia Lig | 3 De Noviembre - Guairena | 2.5 Alt | pending | 54/100
-- 2026-09-19 | Brezilya Serie B | Vila Nova - America Mineiro | MS 1 | pending | 66/100
-- 2026-09-19 | Bolivya Premier Lig | Independiente - San Antonio Bul | MS 1 | pending | 64/100
-- 2026-09-19 | Kolombiya Primera B Clausura | Patriotas - Union Magdalena | 2.5 Alt | pending | 56/100
+- 2026-09-19 | Peru Primera Ligi, Kapanış | Melgar - Sport Boys | KG Yok | pending | 68/100
+- 2026-09-19 | Arjantin Primera Nacional | San Miguel - All Boys | MS 1 | pending | 50/100
+- 2026-09-19 | Malta Premier Lig | Mosta Fc - Gzira United | 2.5 Üst | pending | 53/100
+- 2026-09-19 | İspanya La Liga 2 | Cadiz - Girona | KG Var | pending | 70/100
+- 2026-09-19 | Belçika 2. Lig, İlk Etap | Eupen - Rfc Liege | MS 1 | pending | 48/100
+- 2026-09-19 | Peru Primera Ligi, Kapanış | Fc Cajamarca - Cusco Fc | MS 2 | pending | 55/100
+- 2026-09-19 | İspanya La Liga | Celta Vigo - Santander | 2.5 Üst | pending | 72/100
+- 2026-09-19 | İspanya La Liga 2 | Castellon - Tenerife | 2.5 Alt | pending | 71/100
+- 2026-09-19 | Albania Kategori Super | Dinamo Tirana - Kf Laci | KG Var | pending | 54/100
+- 2026-09-19 | Portekiz U23 Liga Next Gen | Benfica U23 - Torreense U23 | 2.5 Üst | pending | 55/100
+- 2026-09-19 | Portekiz Kupası | Oliveirense - Penafiel | KG Var | pending | 55/100
+- 2026-09-19 | Slovakya Superliga | Fk Kosice - Ruzomberok | MS 1 | pending | 54/100
+- 2026-09-19 | Danimarka Süper Lig | Odense - Midtjylland | MS 2 | pending | 52/100
+- 2026-09-19 | Çekya 1. Lig | Slovacko - Banik Ostrava | 2.5 Alt | pending | 52/100
+- 2026-09-19 | Cezayir 2.Lig, Merkez-Batı | Gc Mascara - Rc Arbaa | 2.5 Alt | pending | 57/100
 

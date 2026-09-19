@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-18T19:40:21.361Z",
+  "generated_at": "2026-09-19T14:35:40.362Z",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
   "model_version": "pro13-btts-conditioned-v3-weekly-archive",
   "week_label": "2026/2027 6. Hafta",
-  "archive_match_count": 15315,
+  "archive_match_count": 15645,
   "archive_ready_count": 9,
   "public_distribution_count": 15,
   "analysis_available_count": 15,
@@ -21,14 +21,14 @@
       "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 47.4,
-        "2": 25.2,
-        "X": 27.4
+        "1": 46.3,
+        "2": 25.1,
+        "X": 28.6
       },
       "archive_probabilities": {
-        "1": 49.2,
-        "2": 26.2,
-        "X": 24.6
+        "1": 47.6,
+        "2": 25.9,
+        "X": 26.5
       },
       "public_distribution": {
         "1": 43,
@@ -36,64 +36,73 @@
         "X": 34
       },
       "probability_basis": "archive_poisson_plus_public_distribution",
-      "confidence": 71,
-      "data_completeness": 67,
-      "probability_gap": 20,
-      "agreement_score": 90.6,
+      "confidence": 72,
+      "data_completeness": 70,
+      "probability_gap": 17.7,
+      "agreement_score": 92.5,
       "poisson": {
-        "home_lambda": 1.63,
-        "away_lambda": 1.12,
-        "samples": 7,
-        "reliability": 0.4375
+        "home_lambda": 1.45,
+        "away_lambda": 1,
+        "samples": 9,
+        "reliability": 0.5625
       },
       "form": {
         "home": {
-          "count": 3,
+          "count": 4,
           "scored": 3,
           "conceded": 2,
-          "bttsRate": 67,
-          "over25Rate": 33,
+          "bttsRate": 50,
+          "over25Rate": 25,
           "over35Rate": 0,
-          "goalsForAvg": 1.33,
-          "goalsAgainstAvg": 0.67,
+          "goalsForAvg": 1,
+          "goalsAgainstAvg": 0.5,
           "wins": 2,
-          "draws": 1,
+          "draws": 2,
           "losses": 0,
-          "winRate": 67,
-          "drawRate": 33,
+          "winRate": 50,
+          "drawRate": 50,
           "lossRate": 0,
-          "pointsPerGame": 2.33,
+          "pointsPerGame": 2,
           "recent": [
             "W",
             "D",
-            "W"
+            "W",
+            "D"
           ]
         },
         "away": {
-          "count": 4,
+          "count": 5,
           "scored": 3,
           "conceded": 3,
-          "bttsRate": 50,
-          "over25Rate": 50,
-          "over35Rate": 25,
-          "goalsForAvg": 1,
-          "goalsAgainstAvg": 1.75,
+          "bttsRate": 40,
+          "over25Rate": 40,
+          "over35Rate": 20,
+          "goalsForAvg": 0.8,
+          "goalsAgainstAvg": 1.4,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 3,
-          "winRate": 25,
-          "drawRate": 0,
-          "lossRate": 75,
-          "pointsPerGame": 0.75,
+          "winRate": 20,
+          "drawRate": 20,
+          "lossRate": 60,
+          "pointsPerGame": 0.8,
           "recent": [
             "L",
             "L",
             "L",
-            "W"
+            "W",
+            "D"
           ]
         }
       },
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-09-18",
+          "home": "Kasimpaşa",
+          "away": "Konyaspor",
+          "score": "0-0"
+        }
+      ]
     },
     {
       "no": 2,
@@ -107,14 +116,14 @@
       "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 44.4,
+        "1": 44.2,
         "2": 28.9,
-        "X": 26.7
+        "X": 26.9
       },
       "archive_probabilities": {
-        "1": 40.6,
-        "2": 33.2,
-        "X": 26.2
+        "1": 40.5,
+        "2": 33.1,
+        "X": 26.4
       },
       "public_distribution": {
         "1": 53,
@@ -124,11 +133,11 @@
       "probability_basis": "archive_poisson_plus_public_distribution",
       "confidence": 69,
       "data_completeness": 67,
-      "probability_gap": 15.5,
-      "agreement_score": 85.8,
+      "probability_gap": 15.3,
+      "agreement_score": 85.9,
       "poisson": {
-        "home_lambda": 1.39,
-        "away_lambda": 1.23,
+        "home_lambda": 1.37,
+        "away_lambda": 1.22,
         "samples": 7,
         "reliability": 0.4375
       },
@@ -213,8 +222,8 @@
       "probability_gap": 18.4,
       "agreement_score": 89.3,
       "poisson": {
-        "home_lambda": 1.73,
-        "away_lambda": 1.42,
+        "home_lambda": 1.72,
+        "away_lambda": 1.41,
         "samples": 8,
         "reliability": 0.5
       },
@@ -358,9 +367,9 @@
         "X": 24.7
       },
       "archive_probabilities": {
-        "1": 49.4,
+        "1": 49.3,
         "2": 27.8,
-        "X": 22.8
+        "X": 22.9
       },
       "public_distribution": {
         "1": 27,
@@ -371,10 +380,10 @@
       "confidence": 66,
       "data_completeness": 67,
       "probability_gap": 9.9,
-      "agreement_score": 77.6,
+      "agreement_score": 77.7,
       "poisson": {
-        "home_lambda": 1.84,
-        "away_lambda": 1.33,
+        "home_lambda": 1.82,
+        "away_lambda": 1.32,
         "samples": 7,
         "reliability": 0.4375
       },
@@ -439,14 +448,14 @@
       "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 43.2,
-        "2": 29.9,
+        "1": 43.3,
+        "2": 29.8,
         "X": 26.9
       },
       "archive_probabilities": {
         "1": 45.9,
-        "2": 29,
-        "X": 25.1
+        "2": 28.9,
+        "X": 25.2
       },
       "public_distribution": {
         "1": 37,
@@ -456,11 +465,11 @@
       "probability_basis": "archive_poisson_plus_public_distribution",
       "confidence": 69,
       "data_completeness": 67,
-      "probability_gap": 13.3,
+      "probability_gap": 13.5,
       "agreement_score": 91.1,
       "poisson": {
-        "home_lambda": 1.56,
-        "away_lambda": 1.19,
+        "home_lambda": 1.55,
+        "away_lambda": 1.18,
         "samples": 7,
         "reliability": 0.4375
       },
@@ -525,14 +534,14 @@
       "archive_ready": true,
       "public_distribution_ready": true,
       "probabilities": {
-        "1": 63.1,
-        "2": 18.1,
+        "1": 63.2,
+        "2": 18,
         "X": 18.8
       },
       "archive_probabilities": {
         "1": 52.4,
-        "2": 23.5,
-        "X": 24.1
+        "2": 23.4,
+        "X": 24.2
       },
       "public_distribution": {
         "1": 91,
@@ -542,11 +551,11 @@
       "probability_basis": "archive_poisson_plus_public_distribution",
       "confidence": 69,
       "data_completeness": 70,
-      "probability_gap": 44.3,
+      "probability_gap": 44.4,
       "agreement_score": 61.4,
       "poisson": {
-        "home_lambda": 1.7,
-        "away_lambda": 1.05,
+        "home_lambda": 1.68,
+        "away_lambda": 1.04,
         "samples": 9,
         "reliability": 0.5625
       },
@@ -692,9 +701,9 @@
         "X": 24.4
       },
       "archive_probabilities": {
-        "1": 38.1,
+        "1": 38,
         "2": 37.4,
-        "X": 24.5
+        "X": 24.6
       },
       "public_distribution": {
         "1": 53,
@@ -705,10 +714,10 @@
       "confidence": 68,
       "data_completeness": 69,
       "probability_gap": 9.2,
-      "agreement_score": 85.1,
+      "agreement_score": 85,
       "poisson": {
-        "home_lambda": 1.49,
-        "away_lambda": 1.47,
+        "home_lambda": 1.48,
+        "away_lambda": 1.46,
         "samples": 8,
         "reliability": 0.5
       },
@@ -1152,13 +1161,13 @@
       "public_distribution_ready": true,
       "probabilities": {
         "1": 43.7,
-        "2": 32.3,
-        "X": 24
+        "2": 32.2,
+        "X": 24.1
       },
       "archive_probabilities": {
         "1": 49.8,
-        "2": 28.4,
-        "X": 21.8
+        "2": 28.3,
+        "X": 21.9
       },
       "public_distribution": {
         "1": 27,
@@ -1168,11 +1177,11 @@
       "probability_basis": "archive_poisson_plus_public_distribution",
       "confidence": 69,
       "data_completeness": 72,
-      "probability_gap": 11.4,
+      "probability_gap": 11.5,
       "agreement_score": 77.2,
       "poisson": {
-        "home_lambda": 1.97,
-        "away_lambda": 1.45,
+        "home_lambda": 1.95,
+        "away_lambda": 1.44,
         "samples": 10,
         "reliability": 0.625
       },
