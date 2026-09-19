@@ -121,7 +121,7 @@ const { pathToFileURL } = require("node:url");
     "utf8"
   );
   assert.match(sql, /alter table public\.live_learning_observations enable row level security/i);
-  assert.match(sql, /revoke all on table public\.live_learning_observations from anon, authenticated/i);
+  assert.match(sql, /revoke all on table public\.live_learning_observations from public, anon, authenticated/i);
   assert.match(sql, /grant .* to service_role/i);
   assert.match(sql, /security invoker/i);
   assert.doesNotMatch(sql, /security definer/i);
