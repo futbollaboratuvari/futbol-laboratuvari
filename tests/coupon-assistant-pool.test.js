@@ -39,6 +39,7 @@ assert.strictEqual(pool.timezone, "Europe/Istanbul");
 assert.strictEqual(pool.candidate_count, 2);
 assert.deepStrictEqual(pool.items.map((item) => item.match_name).sort(), ["Alpha VS Beta", "Yarın VS Rakip"]);
 assert.ok(pool.items.every((item) => /iddaa/i.test(item.source)));
+assert.ok(pool.items.every((item) => item.status === "scheduled"));
 assert.ok(pool.items.every((item) => Number(item.estimated_odds) > 1));
 assert.ok(pool.items.every((item) => Number(item.model_score) >= 54));
 assert.ok(pool.items.every((item) => Number(item.data_completeness) >= 45));
