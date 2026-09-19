@@ -239,6 +239,10 @@ const secondItem = {
   const widget = fs.readFileSync(path.join(__dirname, '..', 'high-odds-htft-widget.js'), 'utf8');
   assert.match(widget, /Resmî İddaa Oranı/);
   assert.match(widget, /bulletinDate < today/);
+  assert.match(widget, /fl_htft=/, 'widget must cache-bust HTFT JSON');
+  assert.match(widget, /cache: 'no-store'/, 'widget must bypass stale browser/CDN cache');
+  assert.match(widget, /isUpcomingPick/, 'widget must remove already-started matches');
+  assert.match(widget, /5 \* 60 \* 1000/, 'widget must recheck feed every five minutes');
   assert.doesNotMatch(widget, />Model Oranı</);
   const cacheLoader = fs.readFileSync(path.join(__dirname, '..', 'cache-version.js'), 'utf8');
   assert.match(cacheLoader, /loadScript\("high-odds-htft-widget\.js"/);
