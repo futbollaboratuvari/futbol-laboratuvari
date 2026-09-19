@@ -75,6 +75,7 @@ function normalizeCandidate(item, fallbackSource, clock) {
 
   return {
     match_name: matchName,
+    status: "scheduled",
     date: String(item.date || "").slice(0, 10),
     time: String(item.time || item.start_time || "").match(/^\d{2}:\d{2}/)?.[0] || "",
     league: String(item.league || ""),
