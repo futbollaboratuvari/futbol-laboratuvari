@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.09.2026 01:29:28
+Oluşturma: 20.09.2026 01:37:52
 
 ## Özet
 
@@ -45,9 +45,9 @@ Oluşturma: 20.09.2026 01:29:28
 - 2026-09-20 | ABD USL | Las Vegas Ligh - Hartford Athlet | 2.5 Üst | pending | 63/100
 - 2026-09-20 | Meksika Liga MX Apertura | Club America - Guadalajara | 2.5 Üst | pending | 72/100
 - 2026-09-20 | Japonya J3 Lig | Zweigen Kanaza - Renofa Yamaguch | 2.5 Alt | pending | 52/100
+- 2026-09-20 | ABD USL | Colorado Sprin - New Mexico Unit | MS 1 | pending | 52/100
+- 2026-09-20 | Meksika Liga MX Apertura | Monterrey - Cruz Azul | 2.5 Alt | pending | 64/100
+- 2026-09-20 | Kolombiya Primera A Clausura | Deportivo Past - Once Caldas | KG Var | pending | 70/100
+- 2026-09-20 | Peru Premier Lig Clausura | Melgar - Sport Boys | KG Yok | pending | 70/100
 - 2026-09-20 | Venezuela Premier Lig Clausura | Deportivo La G - Depor Tachira | 2.5 Alt | pending | 63/100
-- 2026-09-20 | Ekvador Pro Lig Copa Sudamericana Play Off | Emelec - Libertad | KG Yok | pending | 74/100
-- 2026-09-20 | Kanada Premier Lig | Pacific Fc - Vancouver Fc | MS 2 | pending | 45/100
-- 2026-09-20 | Nikaragua Premier Lig Apertura | Walter Ferrett - Jalapa | KG Var | pending | 54/100
-- 2026-09-20 | ABD USL Lig 1 | Union Omaha - One Knoxville | 2.5 Alt | pending | 66/100
 

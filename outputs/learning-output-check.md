@@ -1,6 +1,6 @@
 # Learning Output Check
 
-Generated: 2026-09-19T22:29:28.898Z
+Generated: 2026-09-19T22:37:53.466Z
 Status: ready
 
 ## Checks
@@ -21,6 +21,8 @@ Status: ready
 - Learning adjusted count: 0
 - Memory predictions: 1500
 - Pending predictions: 1161
+- Retention: training 339/3000, pending 1161/2000, void 0/500
+- Market retention floor: 120
 
 Learning output fields are present. The site can display learning notes.
 

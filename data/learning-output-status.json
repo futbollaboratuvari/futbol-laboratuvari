@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T22:29:28.898Z",
+  "generated_at": "2026-09-19T22:37:53.466Z",
   "status": "ready",
   "checks": {
     "robot_exists": true,
@@ -20,7 +20,16 @@
     "total_predictions": 1500,
     "pending_predictions": 1161,
     "won_predictions": 189,
-    "lost_predictions": 150
+    "lost_predictions": 150,
+    "retention": {
+      "max_training_predictions": 3000,
+      "max_pending_predictions": 2000,
+      "max_void_predictions": 500,
+      "market_retention_floor": 120,
+      "retained_training_predictions": 339,
+      "retained_pending_predictions": 1161,
+      "retained_void_predictions": 0
+    }
   },
   "live": {
     "match_count": 0,

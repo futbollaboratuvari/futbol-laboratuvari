@@ -1,6 +1,6 @@
 {
   "schema_version": "loss_pattern_memory_v1",
-  "generated_at": "2026-09-19T22:29:33.210Z",
+  "generated_at": "2026-09-19T22:37:58.082Z",
   "status": "active",
   "policy": {
     "purpose": "Tekrarlayan gözlenebilir hata bağlamlarını saptayıp gelecekte aynı bağlamda yalnız negatif fren uygulamak.",
@@ -18,6 +18,44 @@
     "active_market_count": 3
   },
   "market_profiles": {
+    "2.5 Üst": {
+      "settled": 53,
+      "won": 29,
+      "lost": 24,
+      "loss_rate": 0.453,
+      "distinct_loss_dates": 5,
+      "miss_types": {
+        "goal_shortfall": 24
+      },
+      "factors": {
+        "nonpositive_edge_selection": {
+          "loss_count": 9,
+          "distinct_dates": 4,
+          "share_of_losses": 0.375,
+          "active": false
+        },
+        "low_data_selection": {
+          "loss_count": 9,
+          "distinct_dates": 4,
+          "share_of_losses": 0.375,
+          "active": false
+        },
+        "high_confidence_miss": {
+          "loss_count": 5,
+          "distinct_dates": 3,
+          "share_of_losses": 0.208,
+          "active": false
+        },
+        "high_risk_selection": {
+          "loss_count": 3,
+          "distinct_dates": 2,
+          "share_of_losses": 0.125,
+          "active": false
+        }
+      },
+      "dominant_miss_type": "goal_shortfall",
+      "active_factor_count": 0
+    },
     "2.5 Alt": {
       "settled": 99,
       "won": 56,
@@ -56,32 +94,6 @@
       "dominant_miss_type": "goal_overrun",
       "active_factor_count": 0
     },
-    "3.5 Üst": {
-      "settled": 15,
-      "won": 7,
-      "lost": 8,
-      "loss_rate": 0.533,
-      "distinct_loss_dates": 2,
-      "miss_types": {
-        "goal_shortfall": 8
-      },
-      "factors": {
-        "high_confidence_miss": {
-          "loss_count": 2,
-          "distinct_dates": 2,
-          "share_of_losses": 0.25,
-          "active": false
-        },
-        "low_data_selection": {
-          "loss_count": 2,
-          "distinct_dates": 2,
-          "share_of_losses": 0.25,
-          "active": false
-        }
-      },
-      "dominant_miss_type": "goal_shortfall",
-      "active_factor_count": 0
-    },
     "KG Var": {
       "settled": 30,
       "won": 21,
@@ -107,77 +119,6 @@
       },
       "dominant_miss_type": "btts_failed",
       "active_factor_count": 1
-    },
-    "2.5 Üst": {
-      "settled": 53,
-      "won": 29,
-      "lost": 24,
-      "loss_rate": 0.453,
-      "distinct_loss_dates": 5,
-      "miss_types": {
-        "goal_shortfall": 24
-      },
-      "factors": {
-        "nonpositive_edge_selection": {
-          "loss_count": 9,
-          "distinct_dates": 4,
-          "share_of_losses": 0.375,
-          "active": false
-        },
-        "high_confidence_miss": {
-          "loss_count": 5,
-          "distinct_dates": 3,
-          "share_of_losses": 0.208,
-          "active": false
-        },
-        "low_data_selection": {
-          "loss_count": 9,
-          "distinct_dates": 4,
-          "share_of_losses": 0.375,
-          "active": false
-        },
-        "high_risk_selection": {
-          "loss_count": 3,
-          "distinct_dates": 2,
-          "share_of_losses": 0.125,
-          "active": false
-        }
-      },
-      "dominant_miss_type": "goal_shortfall",
-      "active_factor_count": 0
-    },
-    "MS 1": {
-      "settled": 91,
-      "won": 50,
-      "lost": 41,
-      "loss_rate": 0.451,
-      "distinct_loss_dates": 5,
-      "miss_types": {
-        "home_pick_drew": 22,
-        "home_pick_lost": 19
-      },
-      "factors": {
-        "low_data_selection": {
-          "loss_count": 24,
-          "distinct_dates": 5,
-          "share_of_losses": 0.585,
-          "active": true
-        },
-        "nonpositive_edge_selection": {
-          "loss_count": 31,
-          "distinct_dates": 5,
-          "share_of_losses": 0.756,
-          "active": true
-        },
-        "high_risk_selection": {
-          "loss_count": 22,
-          "distinct_dates": 4,
-          "share_of_losses": 0.537,
-          "active": true
-        }
-      },
-      "dominant_miss_type": "home_pick_drew",
-      "active_factor_count": 3
     },
     "KG Yok": {
       "settled": 13,
@@ -211,37 +152,63 @@
       "dominant_miss_type": "btts_occurred",
       "active_factor_count": 0
     },
-    "MS 2": {
-      "settled": 34,
-      "won": 17,
-      "lost": 17,
-      "loss_rate": 0.5,
+    "3.5 Üst": {
+      "settled": 15,
+      "won": 7,
+      "lost": 8,
+      "loss_rate": 0.533,
+      "distinct_loss_dates": 2,
+      "miss_types": {
+        "goal_shortfall": 8
+      },
+      "factors": {
+        "low_data_selection": {
+          "loss_count": 2,
+          "distinct_dates": 2,
+          "share_of_losses": 0.25,
+          "active": false
+        },
+        "high_confidence_miss": {
+          "loss_count": 2,
+          "distinct_dates": 2,
+          "share_of_losses": 0.25,
+          "active": false
+        }
+      },
+      "dominant_miss_type": "goal_shortfall",
+      "active_factor_count": 0
+    },
+    "MS 1": {
+      "settled": 91,
+      "won": 50,
+      "lost": 41,
+      "loss_rate": 0.451,
       "distinct_loss_dates": 5,
       "miss_types": {
-        "away_pick_drew": 8,
-        "away_pick_lost": 9
+        "home_pick_drew": 22,
+        "home_pick_lost": 19
       },
       "factors": {
         "nonpositive_edge_selection": {
-          "loss_count": 13,
+          "loss_count": 31,
           "distinct_dates": 5,
-          "share_of_losses": 0.765,
-          "active": true
-        },
-        "low_data_selection": {
-          "loss_count": 12,
-          "distinct_dates": 5,
-          "share_of_losses": 0.706,
+          "share_of_losses": 0.756,
           "active": true
         },
         "high_risk_selection": {
-          "loss_count": 11,
+          "loss_count": 22,
           "distinct_dates": 4,
-          "share_of_losses": 0.647,
+          "share_of_losses": 0.537,
+          "active": true
+        },
+        "low_data_selection": {
+          "loss_count": 24,
+          "distinct_dates": 5,
+          "share_of_losses": 0.585,
           "active": true
         }
       },
-      "dominant_miss_type": "away_pick_lost",
+      "dominant_miss_type": "home_pick_drew",
       "active_factor_count": 3
     },
     "MS X": {
@@ -270,6 +237,39 @@
       },
       "dominant_miss_type": "draw_pick_home_win",
       "active_factor_count": 0
+    },
+    "MS 2": {
+      "settled": 34,
+      "won": 17,
+      "lost": 17,
+      "loss_rate": 0.5,
+      "distinct_loss_dates": 5,
+      "miss_types": {
+        "away_pick_drew": 8,
+        "away_pick_lost": 9
+      },
+      "factors": {
+        "low_data_selection": {
+          "loss_count": 12,
+          "distinct_dates": 5,
+          "share_of_losses": 0.706,
+          "active": true
+        },
+        "nonpositive_edge_selection": {
+          "loss_count": 13,
+          "distinct_dates": 5,
+          "share_of_losses": 0.765,
+          "active": true
+        },
+        "high_risk_selection": {
+          "loss_count": 11,
+          "distinct_dates": 4,
+          "share_of_losses": 0.647,
+          "active": true
+        }
+      },
+      "dominant_miss_type": "away_pick_lost",
+      "active_factor_count": 3
     }
   }
 }
