@@ -147,6 +147,15 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 
 ## PRO Robot Islem Gunlugu
 
+### 2026-09-19 - PRO kaynak kapasitesi 32 MiB ve canli sifir-veri hatasi
+
+- Kok neden: Resmi market zenginlestirme + Specialist Orchestrator V3 sonrasinda `data/robot-analysis.json` 23.44 MiB oldu. Eski `12 MiB` validator ve Supabase `fl-pro-analysis` kaynak tavanı workflow'u `validate-pro-source-size.js` adiminda durdurdu; canli health 200 olsa da 0 mac / 0 analiz secenegi dondu.
+- Duzeltme: Hem `scripts/validate-pro-source-size.js` hem `supabase/functions/fl-pro-analysis/index.ts` icindeki korumali robot kaynak tavani 32 MiB'a cikarildi. Iki taraf ayni sabiti kullanir; limit hala sonlu ve fail-closed'dur.
+- Kapsam: Yalniz kaynak tasima/okuma kapasitesi degisti. Model skoru, market esikleri, kupon kurallari, uyelik dogrulama, oran filtresi ve uzman karar mantigi degismedi.
+- Test: `tests/pro-analysis-supabase-sync.test.js` Edge Function ve validator tarafinda 32 MiB sabitinin ayni olmasini zorunlu tutar.
+- Canli tamamlama kriteri: CI yesil, PR main'e merge, Supabase Edge Function ayni kaynakla ACTIVE, `Update fixtures and High Value Engine` basarili, health >0 mac ve >0 analiz secenegi, ilgili market aileleri gorunur, ardindan canli site uye akisi tarayici ile test edilmis olacak.
+
+
 ### 2026-09-18 - AI Seffaflik IY/MS gorunurluk onceligi duzeltmesi
 
 - Kok neden: Productionda IY/MS Uzmani dogrulanmis 1/2 ve 2/1 adaylari uretiyordu; ancak `analysis-insights-v1.js` market siniflandirmasi slash temizlendikten sonra `1 2` / `2 1` bicimini ayri HTFT ailesi olarak tanimadigi icin bu secimler `other` ailesine dusuyor ve 10 kartlik AI Seffaflik cesitlilik gecisinde garanti oncelik alamiyordu.

@@ -8,7 +8,7 @@ const db = createClient(
 
 const ROBOT_URL = "https://raw.githubusercontent.com/futbollaboratuvari/futbol-laboratuvari/main/data/robot-analysis.json";
 const HISTORY_URL = "https://raw.githubusercontent.com/futbollaboratuvari/futbol-laboratuvari/main/data/analiz_sonuclari.json";
-const MAX_ROBOT_BYTES = 12 * 1024 * 1024;
+const MAX_ROBOT_BYTES = 32 * 1024 * 1024;
 const MAX_HISTORY_BYTES = 2 * 1024 * 1024;
 const CACHE_MS = 60 * 1000;
 const WINDOW_MS = 10 * 60 * 1000;
