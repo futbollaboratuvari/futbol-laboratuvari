@@ -64,10 +64,20 @@ jobs:
 
       - name: Stamp deployment version
         run: |
+          set -euo pipefail
           printf '%s\n' "${GITHUB_SHA}" > public/deploy-version.txt
           grep -q 'id="live-power-center"' public/index.html
-          grep -q 'live-power-center-v1.js?v=20260918-live-realtime-v3' public/index.html
-          grep -q 'const version = "20260918-live-realtime-v3";' public/cache-version.js
+
+          live_power_version="$(sed -n 's/.*live-power-center-v1\.js?v=\([^"]*\).*/\1/p' public/index.html | head -1)"
+          cache_version="$(sed -n 's/.*cache-version\.js?v=\([^"]*\).*/\1/p' public/index.html | head -1)"
+
+          test -n "${live_power_version}"
+          test -n "${cache_version}"
+          grep -Fq "const version = \"${cache_version}\";" public/cache-version.js
+
+          echo "EXPECTED_LIVE_POWER_VERSION=${live_power_version}" >> "${GITHUB_ENV}"
+          echo "EXPECTED_CACHE_VERSION=${cache_version}" >> "${GITHUB_ENV}"
+          echo "Artifact versions: live_power=${live_power_version} cache=${cache_version}"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
@@ -81,7 +91,6 @@ jobs:
       - name: Verify live custom domain in real browser
         env:
           LIVE_URL: https://futbollaboratuuvari.org
-          EXPECTED_UI_VERSION: 20260918-live-realtime-v3
         run: |
           set -euo pipefail
           html_ok=0
@@ -95,8 +104,8 @@ jobs:
               "${probe}" || true)"
             if [ "${marker}" = "${GITHUB_SHA}" ] \
               && grep -q 'id="live-power-center"' <<<"${html}" \
-              && grep -q "live-power-center-v1.js?v=${EXPECTED_UI_VERSION}" <<<"${html}" \
-              && grep -q "cache-version.js?v=${EXPECTED_UI_VERSION}" <<<"${html}"; then
+              && grep -Fq "live-power-center-v1.js?v=${EXPECTED_LIVE_POWER_VERSION}" <<<"${html}" \
+              && grep -Fq "cache-version.js?v=${EXPECTED_CACHE_VERSION}" <<<"${html}"; then
               html_ok=1
               break
             fi
