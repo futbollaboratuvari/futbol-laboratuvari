@@ -60,6 +60,10 @@ function makeReport(status) {
   lines.push(`- Learning adjusted count: ${status.robot.learning_adjusted_count}`);
   lines.push(`- Memory predictions: ${status.memory.total_predictions}`);
   lines.push(`- Pending predictions: ${status.memory.pending_predictions}`);
+  if (status.memory.retention) {
+    lines.push(`- Retention: training ${status.memory.retention.retained_training_predictions}/${status.memory.retention.max_training_predictions}, pending ${status.memory.retention.retained_pending_predictions}/${status.memory.retention.max_pending_predictions}, void ${status.memory.retention.retained_void_predictions}/${status.memory.retention.max_void_predictions}`);
+    lines.push(`- Market retention floor: ${status.memory.retention.market_retention_floor}`);
+  }
   lines.push("");
   lines.push(status.note);
   lines.push("");
@@ -94,7 +98,8 @@ function runLearningOutputCheck() {
       total_predictions: memory?.summary?.total_predictions ?? 0,
       pending_predictions: memory?.summary?.pending_predictions ?? 0,
       won_predictions: memory?.summary?.won_predictions ?? 0,
-      lost_predictions: memory?.summary?.lost_predictions ?? 0
+      lost_predictions: memory?.summary?.lost_predictions ?? 0,
+      retention: memory?.summary?.retention || null
     },
     live: {
       match_count: Array.isArray(live?.matches) ? live.matches.length : 0,
