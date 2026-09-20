@@ -11,6 +11,7 @@ const TIMEZONE = "Europe/Istanbul";
 const ORIGIN = "https://istatistik.nesine.com";
 const CACHE_TTL_MS = 4 * 60 * 60 * 1000;
 const RETRY_TTL_MS = 30 * 60 * 1000;
+const ADAPTER_VERSION = "v3-route-first";
 const MAX_RESPONSE_BYTES = 3 * 1024 * 1024;
 const MAX_REQUESTS = Math.max(8, Number(process.env.NESINE_STATS_REQUEST_LIMIT || 72));
 const MAX_MATCHES = Math.max(8, Number(process.env.NESINE_STATS_MATCH_LIMIT || 36));
@@ -245,6 +246,7 @@ const h2hRows = (rows, match, sourceUrl, limit = 8) => {
 
 const routeUrl = (id, route) => ORIGIN + "/" + id + "/" + route;
 const canonicalUrl = (id) => ORIGIN + "/p1/" + id;
+const primaryUrls = (id) => [routeUrl(id, ROUTES.summary), canonicalUrl(id)];
 
 const requestText = (url, redirects = 3) => new Promise((resolve, reject) => {
   const request = https.get(url, {
@@ -290,7 +292,7 @@ const ageMs = (value) => {
 };
 
 const parseSource = (html, match, id, routePages = {}) => {
-  const sourceUrl = canonicalUrl(id);
+  const sourceUrl = routeUrl(id, ROUTES.summary);
   const lines = htmlToLines(html);
   const rows = tableRows(html);
   const getExcerpt = (key) => {
@@ -407,22 +409,39 @@ async function run() {
   for (const match of candidates) {
     const id = match.id;
     const cached = cache.entries[id] || {};
-    if (cached.data && ageMs(cached.fetched_at) < CACHE_TTL_MS) continue;
-    if (!cached.data && ageMs(cached.attempted_at) < RETRY_TTL_MS) continue;
+    if (cached.data && cached.adapter_version === ADAPTER_VERSION && ageMs(cached.fetched_at) < CACHE_TTL_MS) continue;
+    if (!cached.data && cached.adapter_version === ADAPTER_VERSION && ageMs(cached.attempted_at) < RETRY_TTL_MS) continue;
     if (budget.remaining <= 0) break;
 
-    const entry = { ...cached, attempted_at: new Date().toISOString(), route_pages: {}, route_errors: {} };
-    budget.remaining -= 1;
-    budget.used += 1;
+    const entry = { ...cached, adapter_version: ADAPTER_VERSION, attempted_at: new Date().toISOString(), route_pages: {}, route_errors: {} };
     try {
-      const html = await requestText(canonicalUrl(id));
-      if (!pageContainsMatch(html, match)) {
+      let html = "";
+      let verifiedUrl = "";
+      const primaryErrors = [];
+      for (const url of primaryUrls(id)) {
+        if (budget.remaining <= 0) break;
+        budget.remaining -= 1;
+        budget.used += 1;
+        try {
+          const candidateHtml = await requestText(url);
+          if (pageContainsMatch(candidateHtml, match)) {
+            html = candidateHtml;
+            verifiedUrl = url;
+            break;
+          }
+          primaryErrors.push(url + ": identity_mismatch");
+        } catch (error) {
+          primaryErrors.push(url + ": " + error.message);
+        }
+      }
+      if (!html) {
         identityMismatchCount += 1;
         entry.status = "identity_mismatch";
-        entry.error = "Nesine sayfasindaki takimlar bulten maciyla dogrulanamadi.";
+        entry.error = primaryErrors.join(" | ") || "Nesine sayfasindaki takimlar bulten maciyla dogrulanamadi.";
         cache.entries[id] = entry;
         continue;
       }
+      entry.verified_url = verifiedUrl;
 
       const baseLines = htmlToLines(html);
       const dedicatedRoutes = new Set(["squads", "discipline", "referee"]);
@@ -509,6 +528,7 @@ if (require.main === module) run().catch((error) => {
 });
 
 module.exports = {
+  ADAPTER_VERSION,
   candidateStatsId,
   clean,
   hasUsefulExcerpt,
@@ -516,6 +536,7 @@ module.exports = {
   htmlToLines,
   pageContainsMatch,
   parseSource,
+  primaryUrls,
   sectionExcerpt,
   similarity,
   standingForTeam,
