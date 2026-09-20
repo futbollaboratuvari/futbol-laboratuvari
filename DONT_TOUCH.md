@@ -191,7 +191,7 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Test: tests/learning-market-settlement.test.js dogrudan bridge'in learning status'unu erken won/lost yapmadigini, result_score + provenance yazdigini ve mevcut full-time skor varken half-time sonucunu zenginlestirdigini test eder. Robot Learning CI run 35479420973 Node 20 ve Node 24 success.
 - Etkilenen dosyalar: scripts/update-final-scores.js, tests/learning-market-settlement.test.js, DONT_TOUCH.md.
 - Vercel: kullanilmadi ve test olcutu degildir.
-- PR: #106 Final skorlari dogrudan ogrenme hafizasina bagla, dal fix/direct-learning-result-bridge-v1-20260920.
+- Kapanis: PR #106 Final skorlari dogrudan ogrenme hafizasina bagla merge edildi; merge commit 95cefc1f0fa10ee3c8e11021ef2df6a2dc0e3101. Dal fix/direct-learning-result-bridge-v1-20260920.
 
 ### 2026-09-20 - Ogrenme Hafizasi Retention V2
 
