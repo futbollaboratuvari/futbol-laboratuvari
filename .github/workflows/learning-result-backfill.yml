@@ -1,0 +1,78 @@
+name: Learning Result Backfill
+
+on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "ops/result-backfill-trigger.txt"
+      - ".github/workflows/learning-result-backfill.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: futbol-main-data-writer
+  cancel-in-progress: false
+
+jobs:
+  result-backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Verify learning result contracts
+        run: |
+          node tests/learning-market-settlement.test.js
+          node tests/learning-memory-retention.test.js
+          node tests/learning-health-stale.test.js
+
+      - name: Resolve verified results into learning memory
+        run: |
+          node scripts/update-final-scores.js
+          node scripts/learning-score-linker.js
+          node scripts/learning-finalizer.js
+          node scripts/loss-pattern-memory.js
+          node scripts/sync-analysis-results.js
+          node scripts/result-tracking-health-check.js
+          node scripts/prediction-measurement-health-check.js
+          node scripts/learning-output-check.js
+
+      - name: Validate generated learning outputs
+        run: |
+          node scripts/validate-json-no-conflicts.js
+          node scripts/validate-generated-file-sizes.js
+
+      - name: Commit learning result backfill
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main
+          node scripts/validate-json-no-conflicts.js
+          node scripts/validate-generated-file-sizes.js
+          git add -A data outputs
+          if git diff --cached --quiet; then
+            echo "No learning result changes to commit"
+            exit 0
+          fi
+          git commit -m "Backfill learning results"
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && node scripts/validate-generated-file-sizes.js && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 3))
+          done
+          echo "Learning result backfill push failed after retries"
+          exit 1
