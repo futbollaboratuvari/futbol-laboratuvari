@@ -67,14 +67,14 @@ const baseItem = {
   recommended_market: "KG Var",
   market: "KG Var",
   selection: "KG Var",
-  model_score: 72,
-  analysis_score: 72,
-  estimated_probability: 62,
+  model_score: 80,
+  analysis_score: 80,
+  estimated_probability: 64,
   market_probability: 56,
-  edge_percent: 6,
+  edge_percent: 8,
   estimated_odds: 1.80,
   odds: 1.80,
-  data_completeness: 58,
+  data_completeness: 72,
   independent_evidence: true,
   risk_level: "Orta",
   data_gap_risk: "Düşük",
@@ -88,12 +88,12 @@ const downgradedItem = {
   ...baseItem,
   team_intelligence: { pre_match_final_check: { active: true, decision: "downgrade", checkpoint: "T10" } },
 };
-assert.equal(rules.effectiveModelScore(downgradedItem), 68);
-assert.equal(rules.effectiveCompleteness(downgradedItem), 55);
+assert.equal(rules.effectiveModelScore(downgradedItem), 76);
+assert.equal(rules.effectiveCompleteness(downgradedItem), 69);
 assert.equal(rules.isCouponEligible(downgradedItem), true);
 
-const marginalDowngraded = { ...downgradedItem, model_score: 68, analysis_score: 68 };
-assert.equal(rules.effectiveModelScore(marginalDowngraded), 64);
+const marginalDowngraded = { ...downgradedItem, model_score: 76, analysis_score: 76 };
+assert.equal(rules.effectiveModelScore(marginalDowngraded), 72);
 assert.equal(rules.isCouponEligible(marginalDowngraded), false);
 
 const blockedItem = {
