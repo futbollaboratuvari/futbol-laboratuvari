@@ -112,6 +112,7 @@ jobs:
           node scripts/team-style-note.js
           node scripts/pre-match-final-check.js
           node scripts/team-status-apply.js
+          node scripts/nesine-match-detail-source.js || true
           node scripts/build-match-detail-center.js
           node scripts/band-lite.js
           node scripts/card-flow-lite.js
@@ -216,6 +217,7 @@ jobs:
           node scripts/lineup-lite.js
           node scripts/source-consensus.js
           node scripts/team-status-apply.js
+          node scripts/nesine-match-detail-source.js || true
           node scripts/build-match-detail-center.js
           node scripts/band-lite.js
 
