@@ -220,11 +220,12 @@ const summaryOf = (match) => ({
   updated_at: text(match.lastLiveUpdate || match.last_update),
 });
 
-function buildMatchDetailCenter({ full = {}, standings = {}, lineups = {}, statuses = {}, players = {}, archive = {} }) {
+function buildMatchDetailCenter({ full = {}, standings = {}, lineups = {}, statuses = {}, players = {}, external = {}, archive = {} }) {
   const standingsIndex = indexRows(standings.matches || []);
   const lineupIndex = indexRows(lineups.matches || []);
   const statusIndex = indexRows(statuses.matches || []);
   const playerIndex = indexRows(players.matches || []);
+  const externalIndex = indexRows(external.matches || []);
   const archiveRows = Array.isArray(archive.matches) ? archive.matches : [];
 
   const buildOne = (match) => {
@@ -232,16 +233,41 @@ function buildMatchDetailCenter({ full = {}, standings = {}, lineups = {}, statu
     const lineup = findRow(lineupIndex, match);
     const status = findRow(statusIndex, match);
     const player = findRow(playerIndex, match);
-    const homeLineup = compactTeam(lineup?.home_lineup || player?.home_team || status?.home_status || match?.home_lineup || match?.home_status);
-    const awayLineup = compactTeam(lineup?.away_lineup || player?.away_team || status?.away_status || match?.away_lineup || match?.away_status);
-    const homeRecent = recentForTeam(homeOf(match), archiveRows);
-    const awayRecent = recentForTeam(awayOf(match), archiveRows);
-    const h2h = h2hForMatch(match, archiveRows);
-    const homeDiscipline = disciplineForTeam(homeOf(match), archiveRows);
-    const awayDiscipline = disciplineForTeam(awayOf(match), archiveRows);
-    const referee = refereeFrom(match, player);
-    const homeStanding = compactStanding(standing?.home_standing || match?.home_standing);
-    const awayStanding = compactStanding(standing?.away_standing || match?.away_standing);
+    const externalRow = findRow(externalIndex, match);
+    const homeLineup = compactTeam(externalRow?.squads?.home)
+      || compactTeam(lineup?.home_lineup || player?.home_team || status?.home_status || match?.home_lineup || match?.home_status);
+    const awayLineup = compactTeam(externalRow?.squads?.away)
+      || compactTeam(lineup?.away_lineup || player?.away_team || status?.away_status || match?.away_lineup || match?.away_status);
+    const archiveHomeRecent = recentForTeam(homeOf(match), archiveRows);
+    const archiveAwayRecent = recentForTeam(awayOf(match), archiveRows);
+    const externalHomeRecent = Array.isArray(externalRow?.recent_matches?.home) ? externalRow.recent_matches.home : [];
+    const externalAwayRecent = Array.isArray(externalRow?.recent_matches?.away) ? externalRow.recent_matches.away : [];
+    const homeRecent = externalRow?.recent_matches?.structured_available && externalHomeRecent.length ? externalHomeRecent : archiveHomeRecent;
+    const awayRecent = externalRow?.recent_matches?.structured_available && externalAwayRecent.length ? externalAwayRecent : archiveAwayRecent;
+    const archiveH2h = h2hForMatch(match, archiveRows);
+    const externalH2h = Array.isArray(externalRow?.head_to_head?.matches) ? externalRow.head_to_head.matches : [];
+    const h2h = externalRow?.head_to_head?.structured_available && externalH2h.length ? externalH2h : archiveH2h;
+    const archiveHomeDiscipline = disciplineForTeam(homeOf(match), archiveRows);
+    const archiveAwayDiscipline = disciplineForTeam(awayOf(match), archiveRows);
+    const homeDiscipline = externalRow?.corners_cards?.structured_available && externalRow?.corners_cards?.home
+      ? externalRow.corners_cards.home : archiveHomeDiscipline;
+    const awayDiscipline = externalRow?.corners_cards?.structured_available && externalRow?.corners_cards?.away
+      ? externalRow.corners_cards.away : archiveAwayDiscipline;
+    const referee = externalRow?.referee?.structured_available && externalRow?.referee?.details
+      ? externalRow.referee.details : refereeFrom(match, player);
+    const homeStanding = compactStanding(externalRow?.standings?.home)
+      || compactStanding(standing?.home_standing || match?.home_standing);
+    const awayStanding = compactStanding(externalRow?.standings?.away)
+      || compactStanding(standing?.away_standing || match?.away_standing);
+    const sourceExcerpts = {
+      summary: text(externalRow?.summary?.excerpt),
+      standings: text(externalRow?.standings?.excerpt),
+      head_to_head: text(externalRow?.head_to_head?.excerpt),
+      recent_matches: text(externalRow?.recent_matches?.excerpt),
+      squads: text(externalRow?.squads?.excerpt),
+      corners_cards: text(externalRow?.corners_cards?.excerpt),
+      referee: text(externalRow?.referee?.excerpt),
+    };
     return {
       id: matchId(match),
       date: dateOf(match),
@@ -257,9 +283,10 @@ function buildMatchDetailCenter({ full = {}, standings = {}, lineups = {}, statu
         point_difference: numberOrNull(standing?.point_difference),
         momentum_difference: numberOrNull(standing?.momentum_difference),
         note: text(standing?.robot_comment),
+        source_excerpt: sourceExcerpts.standings,
       },
-      head_to_head: { available: h2h.length > 0, matches: h2h },
-      recent_matches: { available: homeRecent.length > 0 || awayRecent.length > 0, home: homeRecent, away: awayRecent },
+      head_to_head: { available: h2h.length > 0, matches: h2h, source_excerpt: sourceExcerpts.head_to_head },
+      recent_matches: { available: homeRecent.length > 0 || awayRecent.length > 0, home: homeRecent, away: awayRecent, source_excerpt: sourceExcerpts.recent_matches },
       squads: {
         available: Boolean(homeLineup || awayLineup),
         home: homeLineup,
@@ -267,14 +294,17 @@ function buildMatchDetailCenter({ full = {}, standings = {}, lineups = {}, statu
         squad_risk: text(status?.squad_risk_level || match?.squad_risk_level || "Belirsiz"),
         lineup_risk: text(lineup?.lineup_risk_level || match?.lineup_risk_level || "Belirsiz"),
         matchup_analysis: lineup?.matchup_analysis || match?.matchup_analysis || null,
+        source_excerpt: sourceExcerpts.squads,
       },
       corners_cards: {
-        available: Boolean(homeDiscipline.available || awayDiscipline.available || Object.values(currentDiscipline(match).home).some((value) => value !== null) || Object.values(currentDiscipline(match).away).some((value) => value !== null)),
+        available: Boolean(homeDiscipline?.available || awayDiscipline?.available || Object.values(currentDiscipline(match).home).some((value) => value !== null) || Object.values(currentDiscipline(match).away).some((value) => value !== null)),
         current: currentDiscipline(match),
         home: homeDiscipline,
         away: awayDiscipline,
+        source_excerpt: sourceExcerpts.corners_cards,
       },
-      referee: { available: Boolean(referee), details: referee },
+      referee: { available: Boolean(referee), details: referee, source_excerpt: sourceExcerpts.referee },
+      source_excerpt: sourceExcerpts.summary,
       provenance: {
         policy: "verified_named_sources_only",
         sources: [...new Set([
@@ -283,6 +313,8 @@ function buildMatchDetailCenter({ full = {}, standings = {}, lineups = {}, statu
           lineup ? "lineup-signals.json" : "",
           status ? "team-status-signals.json" : "",
           player ? text(players.source || "player-intelligence.json") : "",
+          externalRow?.verified_identity ? text(externalRow.source || external.source || "Nesine İstatistik") : "",
+          externalRow?.verified_identity ? text(externalRow.source_url) : "",
           (homeRecent.length || awayRecent.length || h2h.length) ? "robot_match_archive.json" : "",
         ].filter(Boolean))],
       },
@@ -291,7 +323,7 @@ function buildMatchDetailCenter({ full = {}, standings = {}, lineups = {}, statu
 
   const matches = listMatches(full).filter((match, index, all) => all.findIndex((candidate) => pairKey(candidate) === pairKey(match)) === index).map(buildOne);
   return {
-    schema_version: 1,
+    schema_version: 2,
     generated_at: new Date().toISOString(),
     timezone: "Europe/Istanbul",
     source_policy: "Only verified named fields are exposed. Missing sections remain unavailable; no values are inferred from odds or raw blocks.",
@@ -347,6 +379,7 @@ function run() {
     lineups: readJson(path.join(dataDir, "lineup-signals.json"), { matches: [] }),
     statuses: readJson(path.join(dataDir, "team-status-signals.json"), { matches: [] }),
     players: readJson(path.join(dataDir, "player-intelligence.json"), { matches: [] }),
+    external: readJson(path.join(dataDir, "nesine-match-detail-source.json"), { matches: [] }),
     archive: readArchive(path.join(dataDir, "robot_match_archive.json"), { matches: [] }),
   });
   if (!detailRoot.matches.length) throw new Error("Mac Detay Merkezi bos veri uretmedi; mevcut dosyalar korunuyor.");
