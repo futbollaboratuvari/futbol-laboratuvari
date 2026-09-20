@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T12:24:30.124Z",
+  "generated_at": "2026-09-20T15:06:26.679Z",
   "timezone": "Europe/Istanbul",
   "source": "Haftalık 15 maç programı + Futbol Laboratuvarı PRO 13",
   "official_game_format_verified": true,
@@ -15,7 +15,7 @@
   "match_count": 15,
   "analysis_ready_count": 15,
   "analysis_waiting_count": 0,
-  "source_match_count": 489,
+  "source_match_count": 378,
   "verification_sources": [
     {
       "name": "Spor Toto Teşkilat Başkanlığı",
@@ -803,9 +803,9 @@
         "X": 26.9
       },
       "market_probabilities": {
-        "1": 37,
-        "2": 33.4,
-        "X": 29.6
+        "1": 68,
+        "2": 8.7,
+        "X": 23.3
       },
       "public_distribution": {
         "1": 37,
@@ -949,9 +949,9 @@
         "X": 18.8
       },
       "market_probabilities": {
-        "1": 79.7,
-        "2": 7.2,
-        "X": 13.1
+        "1": 92.6,
+        "2": 3.7,
+        "X": 3.7
       },
       "public_distribution": {
         "1": 91,
@@ -1503,9 +1503,9 @@
         "X": 21
       },
       "market_probabilities": {
-        "1": 50.8,
-        "2": 27.2,
-        "X": 22
+        "1": 81.8,
+        "2": 7.5,
+        "X": 10.7
       },
       "public_distribution": {
         "1": 60,
@@ -2043,9 +2043,9 @@
       "drawOdd": null,
       "twoOdd": null,
       "probabilities": {
-        "1": 44.1,
+        "1": 44,
         "2": 32.4,
-        "X": 23.5
+        "X": 23.6
       },
       "market_probabilities": {
         "1": null,
@@ -2072,13 +2072,13 @@
       "risk": "Yüksek",
       "risk_level": "Yüksek",
       "data_completeness": 75,
-      "probability_gap": 11.7,
+      "probability_gap": 11.6,
       "column_multiplier": 2,
       "reasons": [
-        "PRO 13: 1 olasılığı %44.1; ikinci seçenek %32.4.",
+        "PRO 13: 1 olasılığı %44.0; ikinci seçenek %32.4.",
         "Doğrulanmış sonuç hafızası mevcut; haftalık 1-X-2 kararı gerçek geçmiş sonuçlarla sınandı.",
         "Gerçek sonuç arşivi: ev 6, deplasman 6 maç örneği kullanıldı.",
-        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 1 seçeneği %44.1 ile önde."
+        "Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; 1 seçeneği %44.0 ile önde."
       ],
       "model_version": "pro13-btts-conditioned-v3",
       "score_type": "spor_toto_1x2",
@@ -2162,9 +2162,9 @@
         "canonical_home": "Roma",
         "canonical_away": "Inter",
         "archive_probabilities": {
-          "1": 49.6,
+          "1": 49.5,
           "2": 29,
-          "X": 21.4
+          "X": 21.5
         },
         "public_distribution": {
           "1": 27,
@@ -2172,19 +2172,19 @@
           "X": 30
         },
         "poisson": {
-          "home_lambda": 2.04,
-          "away_lambda": 1.53,
+          "home_lambda": 2.03,
+          "away_lambda": 1.52,
           "samples": 12,
           "reliability": 0.75
         },
-        "agreement_score": 77.4
+        "agreement_score": 77.5
       }
     }
   ],
   "archive_enrichment": {
     "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
-    "generated_at": "2026-09-20T12:24:28.834Z",
-    "archive_match_count": 16231,
+    "generated_at": "2026-09-20T15:06:25.441Z",
+    "archive_match_count": 16236,
     "archive_ready_count": 9,
     "distribution_ready_count": 15,
     "analysis_available_count": 15

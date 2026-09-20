@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-20T12:16:35.450603+00:00
+Tarih: 2026-09-20T14:59:52.570383+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 391
+- Kac mac bulundu: 239
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 391
-- Ham veri havuzu toplam mac sayisi: 16320
+- Kac mac zaten vardi: 239
+- Ham veri havuzu toplam mac sayisi: 16325
 - Hedef tarih: 20.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -17,7 +17,6 @@ Tarih: 2026-09-20T12:16:35.450603+00:00
 - ABD MLS Next Pro
 - Almanya 3. Lig
 - Almanya Bundesliga
-- Almanya Bölgesel Lig Kuzey
 - Almanya Bölgesel Lig Kuzey Doğu
 - Almanya Kadınlar Bundesliga
 - Andorra 1.Lig
@@ -34,31 +33,24 @@ Tarih: 2026-09-20T12:16:35.450603+00:00
 - Belçika Pro Lig
 - Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru
 - Bosna-Hersek Premier Lig
-- Botsvana Premier Lig
 - Brezilya Serie A
 - Brezilya Serie B
 - Brezilya Serie C Grup B
-- Bulgaristan 1.Lig
 - Bulgaristan 2.Lig
-- Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig Küme Düşme Grubu
 - Estonya Premium Lig
-- Filipinler PFL
 - Finlandiya Ykkönen Küme Düşme Turu
 - Fransa Ligue 1
 - Fransa U19 Ulusal Şampiyona Grup A
 - Fransa U19 Ulusal Şampiyona Grup B
 - Fransa U19 Ulusal Şampiyona Grup C
+- Fransa U19 Ulusal Şampiyona Grup D
 - Gana Premier Lig
 - Guatemala Ulusal Lig Apertura
-- Güney Afrika 1.Lig
 - Güney Afrika PSL
 - Gürcistan Erovnuli Liga
-- Hollanda Eerste Divisie
-- Hollanda Eredivisie
-- Hollanda Kadınlar Eredivisie
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Jamaika Premier Lig
@@ -70,24 +62,18 @@ Tarih: 2026-09-20T12:16:35.450603+00:00
 - Kosova Süper Lig
 - Letonya 1.Lig
 - Letonya Virsliga
-- Litvanya A Ligi
 - Macaristan NB I
 - Macaristan NB II
-- Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
-- Macaristan NB III Kuzeydoğu
 - Malezya FA Kupası Çeyrek Final
 - Malta Premier Lig Açılış
 - Meksika Kadınlar Liga MX Apertura
 - Moldova Ulusal Lig
 - Nijerya NPFL
 - Norveç 1.Lig
-- Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
-- Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
 - Norveç Eliteserien
-- Norveç Kadınlar Toppserien
 - Paraguay Intermedia Lig
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -96,17 +82,13 @@ Tarih: 2026-09-20T12:16:35.450603+00:00
 - Portekiz Kupa 2.Tur
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Slovakya 2.Lig
 - Slovakya Süper Lig
 - Slovenya 1.SNL
 - Slovenya 2.SNL
 - Suudi Arabistan 1.Lig
 - Sırbistan Süper Lig
-- Tayland 1.Lig
 - Tayvan Premier Lig
 - Tunus 1.Lig
-- Türkiye 3.Lig 2.Grup
-- Türkiye 3.Lig 3.Grup
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Ukrayna Premier Lig
@@ -115,24 +97,16 @@ Tarih: 2026-09-20T12:16:35.450603+00:00
 - Vietnam Kupa 1.Tur
 - Yunanistan Süper Lig
 - Çek Cumhuriyeti Czech Liga
-- Çek Cumhuriyeti FNL
 - Özbekistan Super League
 - Ürdün Premier Lig
-- İngiltere Championship
-- İngiltere FA Cup Eleme 2.Tur
-- İngiltere Kadınlar Premier Lig
 - İngiltere Premier Lig
 - İspanya 2. Lig RFEF Grup 1
 - İspanya 2. Lig RFEF Grup 3
 - İspanya 2. Lig RFEF Grup 4
 - İspanya 2. Lig RFEF Grup 5
 - İspanya 2.Lig
-- İspanya Gençler Onur Ligi Grup 1
-- İspanya Gençler Onur Ligi Grup 2
 - İspanya Gençler Onur Ligi Grup 3
 - İspanya Gençler Onur Ligi Grup 4
-- İspanya Gençler Onur Ligi Grup 5
-- İspanya Gençler Onur Ligi Grup 7
 - İspanya Kadınlar Primera Lig
 - İspanya LaLiga
 - İspanya Primera Lig RFEF Grup 1
@@ -142,7 +116,6 @@ Tarih: 2026-09-20T12:16:35.450603+00:00
 - İspanya Tercera Ligi Grup 11
 - İspanya Tercera Ligi Grup 13
 - İspanya Tercera Ligi Grup 14
-- İspanya Tercera Ligi Grup 17
 - İspanya Tercera Ligi Grup 18
 - İspanya Tercera Ligi Grup 2
 - İspanya Tercera Ligi Grup 3
@@ -151,15 +124,9 @@ Tarih: 2026-09-20T12:16:35.450603+00:00
 - İspanya Tercera Ligi Grup 6
 - İspanya Tercera Ligi Grup 9
 - İsveç 2.Lig Norra Götaland
-- İsveç 2.Lig Norrland Yükselme Grubu
 - İsveç 2.Lig Södra Götaland
 - İsveç 2.Lig Södra Svealand
-- İsveç 2.Lig Vastra Götaland
-- İsveç Allsvenskan
-- İsveç Kadınlar Damallsvenskan
-- İsveç Superettan
 - İsviçre 1.Lig Promotion
-- İsviçre Süper Lig
 - İtalya Serie A
 - İtalya Serie B
 - İtalya Serie C Grup A
@@ -238,25 +205,25 @@ Tarih: 2026-09-20T12:16:35.450603+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 20.09.2026 | 20:00 | Türkiye Süper Lig | Amed Sk | Beşiktaş | 06970 | 5 |
-| 20.09.2026 | 17:00 | Türkiye Süper Lig | Erzurumspor Fk | Samsunspor | 04733 | 5 |
 | 20.09.2026 | 20:00 | Türkiye Süper Lig | Göztepe | Rizespor | 06974 | 5 |
-| 20.09.2026 | 17:00 | Türkiye Süper Lig | Fenerbahçe | Eyüpspor | 04737 | 5 |
-| 20.09.2026 | 17:00 | Türkiye TFF 1. Lig | Manisa Futbol | İstanbulspor | 51752 | 5 |
-| 20.09.2026 | 17:00 | Türkiye TFF 1. Lig | Pendikspor | Bodrum Fk | 51769 | 5 |
-| 20.09.2026 | 20:00 | Türkiye TFF 1. Lig | Antalyaspor | Van Spor Fk | 51786 | 5 |
 | 20.09.2026 | 20:00 | Türkiye TFF 1. Lig | Mardin 1969 | Kayserispor | 51803 | 5 |
-| 20.09.2026 | 16:00 | İngiltere Premier Lig | Manchester Cit | Sunderland | 10026 | 5 |
-| 20.09.2026 | 16:00 | İngiltere Premier Lig | Leeds Utd | Crystal Palace | 09945 | 5 |
-| 20.09.2026 | 16:00 | İngiltere Premier Lig | Bournemouth | Liverpool | 09846 | 5 |
+| 20.09.2026 | 20:00 | Türkiye TFF 1. Lig | Antalyaspor | Van Spor Fk | 51786 | 5 |
 | 20.09.2026 | 18:30 | İngiltere Premier Lig | Fulham | Man. Utd | 10101 | 5 |
-| 20.09.2026 | 17:15 | İspanya LaLiga | Atletico Madri | Real Madrid | 04858 | 5 |
-| 20.09.2026 | 19:30 | İspanya LaLiga | Villarreal | Levante | 12109 | 5 |
 | 20.09.2026 | 19:30 | İspanya LaLiga | D.La Coruna | Real Betis | 12047 | 5 |
+| 20.09.2026 | 19:30 | İspanya LaLiga | Villarreal | Levante | 12109 | 5 |
 | 20.09.2026 | 22:00 | İspanya LaLiga | Valencia | Real Sociedad | 12206 | 5 |
 | 20.09.2026 | 21:45 | İtalya Serie A | Ac Milan | Lecce | 33094 | 5 |
 | 20.09.2026 | 19:00 | İtalya Serie A | Juventus | Atalanta | 32978 | 5 |
-| 20.09.2026 | 16:00 | İtalya Serie A | Frosinone | Como | 32721 | 5 |
-| 20.09.2026 | 16:00 | İtalya Serie A | Parma | Genoa | 32848 | 5 |
+| 20.09.2026 | 18:15 | Fransa Ligue 1 | Nice | Lille | 36121 | 5 |
+| 20.09.2026 | 21:45 | Fransa Ligue 1 | Marsilya | Psg | 36234 | 5 |
+| 20.09.2026 | 20:30 | Almanya Bundesliga | Paderborn | Hoffenheim | 30477 | 5 |
+| 20.09.2026 | 18:30 | Almanya Bundesliga | Schalke | Elversberg | 30365 | 5 |
+| 20.09.2026 | 22:30 | Portekiz Premier Lig | Porto | Benfica | 46920 | 5 |
+| 20.09.2026 | 20:00 | Portekiz Premier Lig | Estoril | Casa Pia | 46582 | 5 |
+| 20.09.2026 | 20:00 | Portekiz Premier Lig | Santa Clara | Braga | 46747 | 5 |
+| 20.09.2026 | 19:30 | Belçika Pro Lig | Club Brugge | Genk | 41114 | 5 |
+| 20.09.2026 | 20:15 | Belçika Pro Lig | Kortrijk | Waasland Bevere | 41300 | 5 |
+| 20.09.2026 | 22:00 | İspanya 2.Lig | Leganes | Granada | 28269 | 5 |
 
 ## Sonuc
 
