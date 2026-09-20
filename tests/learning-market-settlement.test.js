@@ -10,6 +10,8 @@ const {
   applyResults,
   eligiblePrediction,
   footballDataResults,
+  espnResults,
+  firstPeriodScore,
   requiresHalfTimeScore,
   scoreText,
 } = require("../scripts/update-final-scores");
@@ -89,6 +91,55 @@ const {
   assert.equal(footballDataRows.length, 1);
   assert.equal(footballDataRows[0].score, "3-2");
   assert.equal(footballDataRows[0].half_time_score, "1-1");
+})();
+
+(function testEspnHalfTimeLineScoreParsing() {
+  const rows = espnResults({
+    events: [{
+      id: "espn-1",
+      date: "2026-09-19T18:00:00Z",
+      status: { type: { completed: true, name: "STATUS_FULL_TIME" } },
+      competitions: [{
+        competitors: [
+          {
+            homeAway: "home",
+            score: "3",
+            team: { displayName: "Home" },
+            linescores: [{ value: 1 }, { value: 2 }],
+          },
+          {
+            homeAway: "away",
+            score: "2",
+            team: { displayName: "Away" },
+            linescores: [{ value: 1 }, { value: 1 }],
+          },
+        ],
+      }],
+    }],
+  });
+  assert.equal(rows.length, 1);
+  assert.equal(rows[0].score, "3-2");
+  assert.equal(rows[0].half_time_score, "1-1");
+  assert.equal(firstPeriodScore({ linescores: [{ displayValue: "2" }] }), 2);
+  assert.equal(firstPeriodScore({ linescores: [] }), null);
+})();
+
+(function testEspnMissingLineScoresRemainFailClosed() {
+  const rows = espnResults({
+    events: [{
+      id: "espn-2",
+      date: "2026-09-19T18:00:00Z",
+      status: { type: { completed: true, name: "STATUS_FULL_TIME" } },
+      competitions: [{
+        competitors: [
+          { homeAway: "home", score: "1", team: { displayName: "Home" } },
+          { homeAway: "away", score: "0", team: { displayName: "Away" } },
+        ],
+      }],
+    }],
+  });
+  assert.equal(rows.length, 1);
+  assert.equal(rows[0].half_time_score, "");
 })();
 
 (function testBlankScoreIsNotInventedAsZeroZero() {
