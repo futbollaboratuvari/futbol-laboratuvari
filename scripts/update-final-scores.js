@@ -481,13 +481,30 @@ function eligiblePrediction(item, now = new Date()) {
 }
 
 function datesToCheck(memory, previousStatus, now = new Date()) {
-  const dates = [...new Set((memory.predictions || []).filter((item) => eligiblePrediction(item, now)).map(dateOf))].sort();
+  const dates = [...new Set((memory.predictions || []).filter((item) => eligiblePrediction(item, now)).map(dateOf))];
   const checks = previousStatus?.date_checks || {};
-  return dates.filter((date) => {
-    if (Number(checks[date]?.error_count || 0) > 0) return true;
-    const lastSuccess = Date.parse(checks[date]?.last_success_at || "");
-    return !Number.isFinite(lastSuccess) || now.getTime() - lastSuccess >= RECHECK_INTERVAL_MS;
-  }).slice(0, MAX_DATES_PER_RUN);
+  return dates
+    .map((date) => {
+      const check = checks[date] || {};
+      const lastSuccess = Date.parse(check.last_success_at || "");
+      const due = Number(check.error_count || 0) > 0
+        || !Number.isFinite(lastSuccess)
+        || now.getTime() - lastSuccess >= RECHECK_INTERVAL_MS;
+      return {
+        date,
+        due,
+        last_success_ms: Number.isFinite(lastSuccess) ? lastSuccess : 0,
+        had_error: Number(check.error_count || 0) > 0,
+      };
+    })
+    .filter((entry) => entry.due)
+    .sort((left, right) => {
+      if (left.had_error !== right.had_error) return left.had_error ? -1 : 1;
+      if (left.last_success_ms !== right.last_success_ms) return left.last_success_ms - right.last_success_ms;
+      return left.date.localeCompare(right.date);
+    })
+    .slice(0, MAX_DATES_PER_RUN)
+    .map((entry) => entry.date);
 }
 
 function archiveIdentityKey(item) {
