@@ -64,6 +64,14 @@ function makeReport(status) {
     lines.push(`- Retention: training ${status.memory.retention.retained_training_predictions}/${status.memory.retention.max_training_predictions}, pending ${status.memory.retention.retained_pending_predictions}/${status.memory.retention.max_pending_predictions}, void ${status.memory.retention.retained_void_predictions}/${status.memory.retention.max_void_predictions}`);
     lines.push(`- Market retention floor: ${status.memory.retention.market_retention_floor}`);
   }
+  if (status.memory.premium_performance) {
+    const premium = status.memory.premium_performance;
+    lines.push(`- Forward premium selections: ${premium.selection_count}`);
+    lines.push(`- Forward premium settled: ${premium.settled_count} (${premium.won_count} won / ${premium.lost_count} lost)`);
+    lines.push(`- Forward premium hit rate: ${premium.hit_rate === null ? "bekleniyor" : `%${Math.round(premium.hit_rate * 1000) / 10}`}`);
+    lines.push(`- Forward premium flat ROI: ${premium.flat_roi === null ? "bekleniyor" : `%${Math.round(premium.flat_roi * 1000) / 10}`}`);
+    lines.push(`- Premium measurement: ${premium.measurement_mode}`);
+  }
   lines.push("");
   lines.push(status.note);
   lines.push("");
@@ -99,6 +107,7 @@ function runLearningOutputCheck() {
       pending_predictions: memory?.summary?.pending_predictions ?? 0,
       won_predictions: memory?.summary?.won_predictions ?? 0,
       lost_predictions: memory?.summary?.lost_predictions ?? 0,
+      premium_performance: memory?.summary?.premium_performance || null,
       retention: memory?.summary?.retention || null
     },
     live: {
