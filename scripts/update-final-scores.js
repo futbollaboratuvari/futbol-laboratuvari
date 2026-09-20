@@ -203,6 +203,17 @@ function footballDataResults(payload) {
   });
 }
 
+function firstPeriodScore(competitor) {
+  const rows = Array.isArray(competitor?.linescores) ? competitor.linescores : [];
+  const first = rows[0];
+  const value = typeof first === "object" && first !== null
+    ? (first.value ?? first.displayValue)
+    : first;
+  if (value === null || value === undefined || String(value).trim() === "") return null;
+  const number = Number(value);
+  return Number.isFinite(number) && number >= 0 ? number : null;
+}
+
 function espnResults(payload) {
   return (Array.isArray(payload?.events) ? payload.events : []).flatMap((event) => {
     const competition = event?.competitions?.[0] || {};
@@ -214,6 +225,7 @@ function espnResults(payload) {
     const homeScore = Number(home?.score);
     const awayScore = Number(away?.score);
     const score = scoreText(homeScore, awayScore);
+    const halfTimeScore = scoreText(firstPeriodScore(home), firstPeriodScore(away));
     if (!home || !away || !score) return [];
     return [{
       date: istanbulDate(new Date(event.date || competition.date)),
@@ -222,6 +234,7 @@ function espnResults(payload) {
       homeScore,
       awayScore,
       score,
+      half_time_score: halfTimeScore,
       status: "finished",
       source: "ESPN Scoreboard",
       source_match_id: event.id || competition.id || null,
@@ -568,6 +581,7 @@ module.exports = {
   eligiblePrediction,
   espnResults,
   fetchDateResults,
+  firstPeriodScore,
   findResultForMatch,
   footballDataResults,
   normalizeTeam,
