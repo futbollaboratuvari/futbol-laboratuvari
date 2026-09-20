@@ -1,14 +1,14 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-21T22:07:49.740Z",
-  "updated_at": "2026-09-20T18:07:03.715Z",
+  "updated_at": "2026-09-20T19:27:36.568Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
     "total_predictions": 2378,
-    "pending_predictions": 1711,
-    "won_predictions": 339,
-    "lost_predictions": 328,
+    "pending_predictions": 1689,
+    "won_predictions": 351,
+    "lost_predictions": 338,
     "void_predictions": 0,
     "league_count": 343,
     "market_count": 13,
@@ -36,10 +36,13 @@
       "retained_pending_predictions": 1712,
       "retained_void_predictions": 0
     },
-    "last_score_link_checked": 1708,
-    "last_score_linked": 15,
-    "last_finalizer_checked": 19,
-    "last_finalizer_updated": 1
+    "last_score_link_checked": 1685,
+    "last_score_linked": 14,
+    "last_finalizer_checked": 40,
+    "last_finalizer_updated": 22,
+    "last_direct_result_checked": 1707,
+    "last_direct_result_linked": 22,
+    "last_direct_half_time_linked": 0
   },
   "market_memory": {
     "2.5 Alt": {
@@ -49216,19 +49219,23 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T18:06:02.307Z",
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
       "match_code": "34601",
       "iddaa_event_id": "",
       "fixture_id": "",
       "independent_evidence": true,
       "include_in_coupon": false,
       "premium_eligible_at_prediction": false,
-      "premium_policy_version": "accuracy-first-v1"
+      "premium_policy_version": "accuracy-first-v1",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401899612",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|almanya 3 lig|wehen duisburg|ms 2|20 30",
@@ -49331,19 +49338,23 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T18:06:02.307Z",
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
       "match_code": "3241907",
       "iddaa_event_id": "3241907",
       "fixture_id": "",
       "independent_evidence": true,
       "include_in_coupon": false,
       "premium_eligible_at_prediction": false,
-      "premium_policy_version": "accuracy-first-v1"
+      "premium_policy_version": "accuracy-first-v1",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401843443",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|belcika pro lig|kortrijk waasland bevere|ms 1|20 15",
@@ -49364,19 +49375,23 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T18:06:02.307Z",
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
       "match_code": "41300",
       "iddaa_event_id": "",
       "fixture_id": "",
       "independent_evidence": false,
       "include_in_coupon": false,
       "premium_eligible_at_prediction": false,
-      "premium_policy_version": "accuracy-first-v1"
+      "premium_policy_version": "accuracy-first-v1",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401878979",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|ispanya gencler onur ligi grup 4|utrera u19 cadiz u19|ms 2|20 00",
@@ -49595,19 +49610,23 @@
       "model_version": "pro-goal-market-bridge-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T18:06:02.307Z",
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
       "match_code": "3145221",
       "iddaa_event_id": "3145221",
       "fixture_id": "",
       "independent_evidence": true,
       "include_in_coupon": false,
       "premium_eligible_at_prediction": false,
-      "premium_policy_version": "accuracy-first-v1"
+      "premium_policy_version": "accuracy-first-v1",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401884782",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|kosova super lig|dukagjini fc drita|2 5 alt|20 00",
@@ -49908,19 +49927,23 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "0-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T18:06:02.306Z",
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
       "match_code": "46747",
       "iddaa_event_id": "",
       "fixture_id": "",
       "independent_evidence": true,
       "include_in_coupon": false,
       "premium_eligible_at_prediction": false,
-      "premium_policy_version": "accuracy-first-v1"
+      "premium_policy_version": "accuracy-first-v1",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401885432",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|turkiye tff 1 lig|antalyaspor van spor fk|ms 1|20 00",
@@ -50203,12 +50226,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "2-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T18:06:02.306Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401888288",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|turkiye tff 1 lig|mardin 1969 kayserispor|ms x|20 00",
@@ -50285,12 +50312,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T18:06:02.306Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401885436",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|almanya kadinlar bundesliga|union berlin rb leipzig k|ms 1|19 30",
@@ -50443,19 +50474,23 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T18:06:02.305Z",
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
       "match_code": "28203",
       "iddaa_event_id": "",
       "fixture_id": "",
       "independent_evidence": true,
       "include_in_coupon": false,
       "premium_eligible_at_prediction": false,
-      "premium_policy_version": "accuracy-first-v1"
+      "premium_policy_version": "accuracy-first-v1",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401883168",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|ispanya 2 lig|almeria celta vigo ii|ms 1|19 30",
@@ -50795,11 +50830,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401882857",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "updated_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|greece super league|kalamata panathinaikos|2 5 alt|19 30",
@@ -50835,11 +50875,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "0-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401896820",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "updated_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|turkiye 3 lig 2 grup|altay gemlik sumerbey|ms 2|19 00",
@@ -52406,11 +52451,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401884782",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "updated_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|arjantin premier lig 2 asama|san lorenzo boca juniors|ms 2|20 45",
@@ -52486,11 +52536,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401882857",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "updated_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|yunanistan super lig|kalamata panathinaikos|2 5 alt|19 30",
@@ -52526,11 +52581,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "0-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401896820",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "updated_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|portekiz kupa 2 tur|ad marco 09 maia lidador|2 5 ust|19 00",
@@ -54812,7 +54872,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401878981",
       "result_linked_at": "2026-09-20T16:54:37.841Z",
-      "score_linked_at": "2026-09-20T18:07:00.431Z"
+      "score_linked_at": "2026-09-20T19:27:33.216Z"
     },
     {
       "id": "2026-09-20|brezilya serie a|flamengo bragantino|ms 1|00 30",
@@ -55204,19 +55264,23 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "0-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "3-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T16:54:35.833Z",
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
       "match_code": "30477",
       "iddaa_event_id": "",
       "fixture_id": "",
       "independent_evidence": false,
       "include_in_coupon": false,
       "premium_eligible_at_prediction": false,
-      "premium_policy_version": "accuracy-first-v1"
+      "premium_policy_version": "accuracy-first-v1",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401884782",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|italya serie b|modena empoli|kg yok|20 30",
@@ -55252,12 +55316,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T16:54:35.833Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401899612",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|arjantin premier lig 2 asama|san lorenzo boca juniors|kg yok|20 45",
@@ -55385,19 +55453,23 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T16:54:35.832Z",
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
       "match_code": "46582",
       "iddaa_event_id": "",
       "fixture_id": "",
       "independent_evidence": true,
       "include_in_coupon": false,
       "premium_eligible_at_prediction": false,
-      "premium_policy_version": "accuracy-first-v1"
+      "premium_policy_version": "accuracy-first-v1",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401885436",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|turkiye tff 1 lig|mardin 1969 kayserispor|kg var|20 00",
@@ -55466,12 +55538,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T16:54:35.832Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401888288",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|yunanistan super lig|kalamata panathinaikos|kg var|19 30",
@@ -55499,12 +55575,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "0-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T16:54:35.831Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401896820",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|ispanya primera lig rfef grup 1|zamora lugo|2 5 alt|19 15",
@@ -55632,19 +55712,23 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "3-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T16:54:35.831Z",
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
       "match_code": "12109",
       "iddaa_event_id": "",
       "fixture_id": "",
       "independent_evidence": true,
       "include_in_coupon": false,
       "premium_eligible_at_prediction": false,
-      "premium_policy_version": "accuracy-first-v1"
+      "premium_policy_version": "accuracy-first-v1",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401882857",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|ispanya tercera ligi grup 13|aguilas ii bala azul|2 5 alt|18 30",
@@ -60258,19 +60342,23 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "3-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T15:03:59.623Z",
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
       "match_code": "3144137",
       "iddaa_event_id": "3144137",
       "fixture_id": "",
       "independent_evidence": true,
       "include_in_coupon": false,
       "premium_eligible_at_prediction": false,
-      "premium_policy_version": "accuracy-first-v1"
+      "premium_policy_version": "accuracy-first-v1",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401882857",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|malta premier lig|hibernians floriana|2 5 ust|19 00",
@@ -61721,7 +61809,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401875593",
       "result_linked_at": "2026-09-20T15:02:46.001Z",
-      "score_linked_at": "2026-09-20T18:07:00.940Z"
+      "score_linked_at": "2026-09-20T19:27:33.737Z"
     },
     {
       "id": "2026-09-20|isvec allsvenskan|kalmar hacken|ilk yari kg yok|15 00",
@@ -61766,7 +61854,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401842831",
       "result_linked_at": "2026-09-20T15:02:46.001Z",
-      "score_linked_at": "2026-09-20T18:07:00.946Z"
+      "score_linked_at": "2026-09-20T19:27:33.743Z"
     },
     {
       "id": "2026-09-20|ispanya laliga|getafe malaga|iy kg 2y kg hayir hayir|15 00",
@@ -73404,19 +73492,23 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "2-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T05:26:50.378Z",
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
       "match_code": "3144094",
       "iddaa_event_id": "3144094",
       "fixture_id": "",
       "independent_evidence": true,
       "include_in_coupon": false,
       "premium_eligible_at_prediction": false,
-      "premium_policy_version": "accuracy-first-v1"
+      "premium_policy_version": "accuracy-first-v1",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401888288",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|norvec 2 lig grup 1|notodden arendal|2 5 alt|17 00",
@@ -74086,7 +74178,7 @@
       "result_source": "iddaa.com resmi etkinlik detayı",
       "result_source_match_id": "3139159",
       "result_linked_at": "2026-09-20T05:26:11.410Z",
-      "score_linked_at": "2026-09-20T18:07:01.926Z"
+      "score_linked_at": "2026-09-20T19:27:34.780Z"
     },
     {
       "id": "2026-09-19|azerbaycan premier lig|sabah imisli fk|2 5 alt|18 45",
@@ -74730,12 +74822,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "0-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:30:58.577Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T19:26:02.526Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401896820",
+      "result_linked_at": "2026-09-20T19:26:02.526Z",
+      "finalized_at": "2026-09-20T19:27:36.568Z"
     },
     {
       "id": "2026-09-20|birlesik arap emirlikleri lig kupasi on elemeturu|al jazira al wahda|ms 1|19 15",
@@ -78331,7 +78427,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "761827",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-20T18:07:02.043Z"
+      "score_linked_at": "2026-09-20T19:27:34.900Z"
     },
     {
       "id": "2026-09-20|abd mls|salt lake vancouver|ikinci yari kg yok|04 30",
@@ -78361,7 +78457,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "761825",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-20T18:07:02.049Z"
+      "score_linked_at": "2026-09-20T19:27:34.907Z"
     },
     {
       "id": "2026-09-20|meksika liga mx apertura|monterrey cruz azul|ilk yari kg yok|04 10",
@@ -78391,7 +78487,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401876969",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-20T18:07:02.055Z"
+      "score_linked_at": "2026-09-20T19:27:34.913Z"
     },
     {
       "id": "2026-09-20|brezilya serie a|sao paulo internacional|iy kg 2y kg hayir hayir|03 00",
@@ -78450,7 +78546,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "761816",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-20T18:07:02.061Z"
+      "score_linked_at": "2026-09-20T19:27:34.920Z"
     },
     {
       "id": "2026-09-20|abd mls|dc united charlotte|iy kg 2y kg hayir hayir|02 30",
@@ -78509,7 +78605,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "761818",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-20T18:07:02.068Z"
+      "score_linked_at": "2026-09-20T19:27:34.927Z"
     },
     {
       "id": "2026-09-18|el salvador primera lig apertura|inca aruba fuerte san fran|ms 1|03 00",
@@ -82965,7 +83061,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T20:52:28.568Z",
-      "score_linked_at": "2026-09-20T18:07:02.270Z"
+      "score_linked_at": "2026-09-20T19:27:35.135Z"
     },
     {
       "id": "2026-09-19|arjantin ulusal primera lig|san telmo caseros|ms 2|21 30",
@@ -85551,7 +85647,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T18:08:52.965Z",
-      "score_linked_at": "2026-09-20T18:07:02.422Z"
+      "score_linked_at": "2026-09-20T19:27:35.284Z"
     },
     {
       "id": "2026-09-19|turkiye tff 1 lig|batman petrol bursaspor|kg yok|20 00",
@@ -88016,7 +88112,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T17:11:55.905Z",
-      "score_linked_at": "2026-09-20T18:07:02.594Z"
+      "score_linked_at": "2026-09-20T19:27:35.451Z"
     },
     {
       "id": "2026-09-19|isvicre super lig|sion zurich|ilk yari kg var|19 00",
@@ -89525,7 +89621,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T17:11:55.901Z",
-      "score_linked_at": "2026-09-20T18:07:02.725Z"
+      "score_linked_at": "2026-09-20T19:27:35.581Z"
     },
     {
       "id": "2026-09-19|portekiz premier lig|nacional madei famalicao|2 5 alt|17 30",
@@ -96121,7 +96217,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-18T17:10:40.151Z",
-      "score_linked_at": "2026-09-20T18:07:02.997Z"
+      "score_linked_at": "2026-09-20T19:27:35.849Z"
     },
     {
       "id": "2026-09-18|finlandiya veikkausliiga|oulu inter turku|ikinci yari kg var|19 00",
