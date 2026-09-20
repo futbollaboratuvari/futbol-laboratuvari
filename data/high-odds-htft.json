@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T14:18:21.679Z",
+  "generated_at": "2026-09-20T17:33:58.307Z",
   "date": "2026-09-20",
   "requested_date": "2026-09-20",
   "date_fallback_used": false,
@@ -15,18 +15,18 @@
     "1/2",
     "2/1"
   ],
-  "scan_count": 446,
-  "scheduled_scan_count": 236,
-  "official_match_count": 440,
-  "official_htft_match_count": 49,
-  "official_high_odds_match_count": 49,
-  "identity_match_count": 171,
+  "scan_count": 335,
+  "scheduled_scan_count": 67,
+  "official_match_count": 235,
+  "official_htft_match_count": 12,
+  "official_high_odds_match_count": 12,
+  "identity_match_count": 49,
   "matched_by_official_id_count": 0,
-  "matched_by_date_teams_count": 35,
-  "matched_by_date_time_similarity_count": 136,
+  "matched_by_date_teams_count": 8,
+  "matched_by_date_time_similarity_count": 41,
   "ambiguous_identity_count": 0,
-  "unmatched_identity_count": 65,
-  "candidate_count": 41,
+  "unmatched_identity_count": 18,
+  "candidate_count": 11,
   "selected_count": 3,
   "target_card_count": 3,
   "status": "ready",
@@ -35,229 +35,34 @@
   "message": "Uzman V4 kalite kapısından geçen en güçlü 1/2 ve 2/1 adayları resmî İddaa oranlarıyla seçildi.",
   "picks": [
     {
-      "match_code": "44081",
-      "iddaa_event_id": "3144030",
+      "match_code": "49050",
+      "iddaa_event_id": "3144646",
       "identity_match_source": "date_time_team_similarity",
-      "identity_match_score": 91.2,
+      "identity_match_score": 85.9,
       "date": "2026-09-20",
-      "time": "17:45",
-      "league": "Hollanda Eredivisie",
-      "home": "Nijmegen",
-      "away": "Go Ahead Eagles",
-      "match_name": "Nijmegen VS Go Ahead Eagles",
-      "market": "2/1",
-      "model_confidence": 73,
-      "scenario_probability": 8.5,
-      "bookmaker_odds": 22,
-      "real_odds": 22,
-      "model_odds": 22,
-      "odds_source": "iddaa.com resmi futbol bülteni",
-      "odds_verified": true,
-      "risk_level": "Yüksek",
-      "data_completeness": 49,
-      "source_model_score": 58,
-      "first_half_signal_source": "official_iddaa_first_half",
-      "first_half_signal_verified": true,
-      "openness_score": 0.697,
-      "reversal_joint_probability": 12.4,
-      "first_half_direction_probability": 30.1,
-      "full_time_direction_probability": 41.3,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %49 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (downgrade): İY/MS için veri kapsamı sınırlı (%49). Kadro/ilk 11 verisi tam güvenli değil.",
-      "specialist_decision": "downgrade",
-      "specialist_eligible": true,
-      "specialist_quality_score": 65,
-      "market_specialist": {
-        "version": "market-specialist-gates-v4",
-        "market": "2/1",
-        "delta": -4,
-        "applied": true,
-        "decision": "downgrade",
-        "eligible": true,
-        "quality_score": 65,
-        "support_count": 7,
-        "support_total": 8,
-        "evidence_known_count": 8,
-        "evidence_coverage_score": 100,
-        "missing_evidence": [],
-        "support_checks": [
-          {
-            "name": "resmî İY/MS oranı",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "doğrulanmış ilk yarı yönü",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "açık oyun skoru",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "veri kapsamı",
-            "available": true,
-            "ok": false
-          },
-          {
-            "name": "senaryo olasılığı",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "ilk yarı yön olasılığı",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "maç sonu yön olasılığı",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "oran/value uyumu",
-            "available": true,
-            "ok": true
-          }
-        ],
-        "value_ratio": 1.87,
-        "implied_probability": 4.55,
-        "mode": "htft_reversal_gate_v4",
-        "reasons": [
-          "İY/MS için veri kapsamı sınırlı (%49).",
-          "Kadro/ilk 11 verisi tam güvenli değil."
-        ],
-        "original_model_score": 77,
-        "adjusted_model_score": 73
-      }
-    },
-    {
-      "match_code": "06974",
-      "iddaa_event_id": "3144094",
-      "identity_match_source": "date_teams",
-      "identity_match_score": 100,
-      "date": "2026-09-20",
-      "time": "20:00",
-      "league": "Türkiye Süper Lig",
-      "home": "Göztepe",
-      "away": "Rizespor",
-      "match_name": "Göztepe VS Rizespor",
+      "time": "22:00",
+      "league": "Brezilya Serie A",
+      "home": "Vitoria Bahia",
+      "away": "Cruzeiro",
+      "match_name": "Vitoria Bahia VS Cruzeiro",
       "market": "1/2",
       "model_confidence": 73,
-      "scenario_probability": 8,
-      "bookmaker_odds": 27.5,
-      "real_odds": 27.5,
-      "model_odds": 27.5,
-      "odds_source": "iddaa.com resmi futbol bülteni",
-      "odds_verified": true,
-      "risk_level": "Yüksek",
-      "data_completeness": 67,
-      "source_model_score": 63,
-      "first_half_signal_source": "official_iddaa_first_half",
-      "first_half_signal_verified": true,
-      "openness_score": 0.58,
-      "reversal_joint_probability": 11,
-      "first_half_direction_probability": 29.9,
-      "full_time_direction_probability": 36.6,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %67, ana model gücü %63. Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
-      "specialist_decision": "downgrade",
-      "specialist_eligible": true,
-      "specialist_quality_score": 65,
-      "market_specialist": {
-        "version": "market-specialist-gates-v4",
-        "market": "1/2",
-        "delta": -4,
-        "applied": true,
-        "decision": "downgrade",
-        "eligible": true,
-        "quality_score": 65,
-        "support_count": 8,
-        "support_total": 8,
-        "evidence_known_count": 8,
-        "evidence_coverage_score": 100,
-        "missing_evidence": [],
-        "support_checks": [
-          {
-            "name": "resmî İY/MS oranı",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "doğrulanmış ilk yarı yönü",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "açık oyun skoru",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "veri kapsamı",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "senaryo olasılığı",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "ilk yarı yön olasılığı",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "maç sonu yön olasılığı",
-            "available": true,
-            "ok": true
-          },
-          {
-            "name": "oran/value uyumu",
-            "available": true,
-            "ok": true
-          }
-        ],
-        "value_ratio": 2.2,
-        "implied_probability": 3.64,
-        "mode": "htft_reversal_gate_v4",
-        "reasons": [
-          "Kadro/ilk 11 verisi tam güvenli değil."
-        ],
-        "original_model_score": 77,
-        "adjusted_model_score": 73
-      }
-    },
-    {
-      "match_code": "46920",
-      "iddaa_event_id": "3140258",
-      "identity_match_source": "date_teams",
-      "identity_match_score": 100,
-      "date": "2026-09-20",
-      "time": "22:30",
-      "league": "Portekiz Premier Lig",
-      "home": "Porto",
-      "away": "Benfica",
-      "match_name": "Porto VS Benfica",
-      "market": "1/2",
-      "model_confidence": 73,
-      "scenario_probability": 7.6,
-      "bookmaker_odds": 28,
-      "real_odds": 28,
-      "model_odds": 28,
+      "scenario_probability": 7.7,
+      "bookmaker_odds": 27,
+      "real_odds": 27,
+      "model_odds": 27,
       "odds_source": "iddaa.com resmi futbol bülteni",
       "odds_verified": true,
       "risk_level": "Yüksek",
       "data_completeness": 73,
-      "source_model_score": 77,
+      "source_model_score": 75,
       "first_half_signal_source": "official_iddaa_first_half",
       "first_half_signal_verified": true,
-      "openness_score": 0.537,
-      "reversal_joint_probability": 10.6,
-      "first_half_direction_probability": 27,
-      "full_time_direction_probability": 39.1,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %73, ana model gücü %77. Market uzman kararı (downgrade): Açık oyun skoru 54/100; ters sonuç için sınırlı destek. İlk yarı yön desteği sınırlı (%27.0). Kadro/ilk 11 verisi tam güvenli değil.",
+      "openness_score": 0.549,
+      "reversal_joint_probability": 10.7,
+      "first_half_direction_probability": 26.8,
+      "full_time_direction_probability": 39.8,
+      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %73, ana model gücü %75. Market uzman kararı (downgrade): Açık oyun skoru 55/100; ters sonuç için sınırlı destek. İlk yarı yön desteği sınırlı (%26.8). Kadro/ilk 11 verisi tam güvenli değil.",
       "specialist_decision": "downgrade",
       "specialist_eligible": true,
       "specialist_quality_score": 65,
@@ -316,91 +121,226 @@
             "ok": true
           }
         ],
-        "value_ratio": 2.128,
-        "implied_probability": 3.57,
+        "value_ratio": 2.079,
+        "implied_probability": 3.7,
         "mode": "htft_reversal_gate_v4",
         "reasons": [
-          "Açık oyun skoru 54/100; ters sonuç için sınırlı destek.",
-          "İlk yarı yön desteği sınırlı (%27.0).",
+          "Açık oyun skoru 55/100; ters sonuç için sınırlı destek.",
+          "İlk yarı yön desteği sınırlı (%26.8).",
           "Kadro/ilk 11 verisi tam güvenli değil."
         ],
         "original_model_score": 77,
         "adjusted_model_score": 73
       }
+    },
+    {
+      "match_code": "46920",
+      "iddaa_event_id": "3140258",
+      "identity_match_source": "date_teams",
+      "identity_match_score": 100,
+      "date": "2026-09-20",
+      "time": "22:30",
+      "league": "Portekiz Premier Lig",
+      "home": "Porto",
+      "away": "Benfica",
+      "match_name": "Porto VS Benfica",
+      "market": "1/2",
+      "model_confidence": 73,
+      "scenario_probability": 7.3,
+      "bookmaker_odds": 29,
+      "real_odds": 29,
+      "model_odds": 29,
+      "odds_source": "iddaa.com resmi futbol bülteni",
+      "odds_verified": true,
+      "risk_level": "Yüksek",
+      "data_completeness": 73,
+      "source_model_score": 77,
+      "first_half_signal_source": "official_iddaa_first_half",
+      "first_half_signal_verified": true,
+      "openness_score": 0.517,
+      "reversal_joint_probability": 10.3,
+      "first_half_direction_probability": 27.1,
+      "full_time_direction_probability": 38.1,
+      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %73, ana model gücü %77. Market uzman kararı (downgrade): Açık oyun skoru 52/100; ters sonuç için sınırlı destek. İlk yarı yön desteği sınırlı (%27.1). Kadro/ilk 11 verisi tam güvenli değil.",
+      "specialist_decision": "downgrade",
+      "specialist_eligible": true,
+      "specialist_quality_score": 65,
+      "market_specialist": {
+        "version": "market-specialist-gates-v4",
+        "market": "1/2",
+        "delta": -4,
+        "applied": true,
+        "decision": "downgrade",
+        "eligible": true,
+        "quality_score": 65,
+        "support_count": 6,
+        "support_total": 8,
+        "evidence_known_count": 8,
+        "evidence_coverage_score": 100,
+        "missing_evidence": [],
+        "support_checks": [
+          {
+            "name": "resmî İY/MS oranı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "doğrulanmış ilk yarı yönü",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "açık oyun skoru",
+            "available": true,
+            "ok": false
+          },
+          {
+            "name": "veri kapsamı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "senaryo olasılığı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "ilk yarı yön olasılığı",
+            "available": true,
+            "ok": false
+          },
+          {
+            "name": "maç sonu yön olasılığı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "oran/value uyumu",
+            "available": true,
+            "ok": true
+          }
+        ],
+        "value_ratio": 2.117,
+        "implied_probability": 3.45,
+        "mode": "htft_reversal_gate_v4",
+        "reasons": [
+          "Açık oyun skoru 52/100; ters sonuç için sınırlı destek.",
+          "İlk yarı yön desteği sınırlı (%27.1).",
+          "Kadro/ilk 11 verisi tam güvenli değil."
+        ],
+        "original_model_score": 77,
+        "adjusted_model_score": 73
+      }
+    },
+    {
+      "match_code": "12206",
+      "iddaa_event_id": "3144689",
+      "identity_match_source": "date_teams",
+      "identity_match_score": 100,
+      "date": "2026-09-20",
+      "time": "22:00",
+      "league": "İspanya LaLiga",
+      "home": "Valencia",
+      "away": "Real Sociedad",
+      "match_name": "Valencia VS Real Sociedad",
+      "market": "1/2",
+      "model_confidence": 71,
+      "scenario_probability": 7.3,
+      "bookmaker_odds": 29.5,
+      "real_odds": 29.5,
+      "model_odds": 29.5,
+      "odds_source": "iddaa.com resmi futbol bülteni",
+      "odds_verified": true,
+      "risk_level": "Yüksek",
+      "data_completeness": 58,
+      "source_model_score": 66,
+      "first_half_signal_source": "official_iddaa_first_half",
+      "first_half_signal_verified": true,
+      "openness_score": 0.513,
+      "reversal_joint_probability": 10.3,
+      "first_half_direction_probability": 27.4,
+      "full_time_direction_probability": 37.6,
+      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %58, ana model gücü %66. Market uzman kararı (downgrade): Açık oyun skoru 51/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%58). İlk yarı yön desteği sınırlı (%27.4). Kadro/ilk 11 verisi tam güvenli değil.",
+      "specialist_decision": "downgrade",
+      "specialist_eligible": true,
+      "specialist_quality_score": 63,
+      "market_specialist": {
+        "version": "market-specialist-gates-v4",
+        "market": "1/2",
+        "delta": -4,
+        "applied": true,
+        "decision": "downgrade",
+        "eligible": true,
+        "quality_score": 63,
+        "support_count": 5,
+        "support_total": 8,
+        "evidence_known_count": 8,
+        "evidence_coverage_score": 100,
+        "missing_evidence": [],
+        "support_checks": [
+          {
+            "name": "resmî İY/MS oranı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "doğrulanmış ilk yarı yönü",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "açık oyun skoru",
+            "available": true,
+            "ok": false
+          },
+          {
+            "name": "veri kapsamı",
+            "available": true,
+            "ok": false
+          },
+          {
+            "name": "senaryo olasılığı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "ilk yarı yön olasılığı",
+            "available": true,
+            "ok": false
+          },
+          {
+            "name": "maç sonu yön olasılığı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "oran/value uyumu",
+            "available": true,
+            "ok": true
+          }
+        ],
+        "value_ratio": 2.154,
+        "implied_probability": 3.39,
+        "mode": "htft_reversal_gate_v4",
+        "reasons": [
+          "Açık oyun skoru 51/100; ters sonuç için sınırlı destek.",
+          "İY/MS için veri kapsamı sınırlı (%58).",
+          "İlk yarı yön desteği sınırlı (%27.4).",
+          "Kadro/ilk 11 verisi tam güvenli değil."
+        ],
+        "original_model_score": 75,
+        "adjusted_model_score": 71
+      }
     }
   ],
   "rejected_picks": [
     {
-      "match_name": "Basel VS St Gallen",
-      "market": "1/2",
-      "bookmaker_odds": 23.2,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %35 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%35). İY/MS için veri kapsamı sınırlı (%35). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Schalke VS Elversberg",
-      "market": "2/1",
-      "bookmaker_odds": 21.95,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %44 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%44). İY/MS için veri kapsamı sınırlı (%44). İlk yarı yön desteği sınırlı (%23.9). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Viborg VS Nordsjaelland",
-      "market": "1/2",
-      "bookmaker_odds": 22.75,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %41 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%41). İY/MS için veri kapsamı sınırlı (%41). İlk yarı yön desteği sınırlı (%26.5). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Brann VS Bodo Glimt",
-      "market": "1/2",
-      "bookmaker_odds": 17.65,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %53 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %20.1. İY/MS için veri kapsamı sınırlı (%53). İlk yarı yön desteği sınırlı (%20.1). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Jagiellonia VS Legia Varşova",
-      "market": "1/2",
-      "bookmaker_odds": 27.5,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %37 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%37). İY/MS için veri kapsamı sınırlı (%37). Resmî maç eşleşmesi benzerlik ile %85 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Paderborn VS Hoffenheim",
-      "market": "1/2",
-      "bookmaker_odds": 19.3,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %41 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%41). İY/MS için veri kapsamı sınırlı (%41). İlk yarı yön desteği sınırlı (%22.0). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Estoril VS Casa Pia",
-      "market": "2/1",
-      "bookmaker_odds": 23.65,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %67, ana model gücü %71. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %18.5. Açık oyun skoru 54/100; ters sonuç için sınırlı destek. İlk yarı yön desteği sınırlı (%18.5). Resmî maç eşleşmesi benzerlik ile %78 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Las Palmas VS Burgos",
-      "market": "2/1",
-      "bookmaker_odds": 29,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %67, ana model gücü %73. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %20.1. Açık oyun skoru 45/100; ters sonuç için sınırlı destek. İlk yarı yön desteği sınırlı (%20.1). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
       "match_name": "Leganes VS Granada",
       "market": "2/1",
-      "bookmaker_odds": 31.5,
+      "bookmaker_odds": 32,
       "specialist_decision": "block",
       "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %67, ana model gücü %76. Market uzman kararı (block): Açık oyun skoru 42/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %19.9. Açık oyun skoru 42/100; ters sonuç için sınırlı destek. İlk yarı yön desteği sınırlı (%19.9). Kadro/ilk 11 verisi tam güvenli değil."
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %67, ana model gücü %76. Market uzman kararı (block): Açık oyun skoru 42/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %20.8. Açık oyun skoru 42/100; ters sonuç için sınırlı destek. İlk yarı yön desteği sınırlı (%20.8). Kadro/ilk 11 verisi tam güvenli değil."
     },
     {
       "match_name": "Corinthians VS Fluminense",
@@ -408,79 +348,15 @@
       "bookmaker_odds": 32.5,
       "specialist_decision": "block",
       "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %73, ana model gücü %76. Market uzman kararı (block): Açık oyun skoru 41/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %20.7. Açık oyun skoru 41/100; ters sonuç için sınırlı destek. İlk yarı yön desteği sınırlı (%20.7). Kadro/ilk 11 verisi tam güvenli değil."
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %73, ana model gücü %76. Market uzman kararı (block): Açık oyun skoru 41/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %20.1. Açık oyun skoru 41/100; ters sonuç için sınırlı destek. İlk yarı yön desteği sınırlı (%20.1). Kadro/ilk 11 verisi tam güvenli değil."
     },
     {
-      "match_name": "Villarreal VS Levante",
+      "match_name": "Platense VS Newells Old Boy",
       "market": "2/1",
-      "bookmaker_odds": 19.9,
+      "bookmaker_odds": 36.5,
       "specialist_decision": "block",
       "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %67, ana model gücü %66. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %17.2. İlk yarı yön desteği sınırlı (%17.2). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Lausanne VS Lugano",
-      "market": "1/2",
-      "bookmaker_odds": 24.1,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %35 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%35). İY/MS için veri kapsamı sınırlı (%35). İlk yarı yön desteği sınırlı (%22.8). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Juventus VS Atalanta",
-      "market": "2/1",
-      "bookmaker_odds": 25,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %70, ana model gücü %74. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %17.6. Açık oyun skoru 51/100; ters sonuç için sınırlı destek. İlk yarı yön desteği sınırlı (%17.6). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Santa Clara VS Braga",
-      "market": "1/2",
-      "bookmaker_odds": 33.5,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %67, ana model gücü %68. Market uzman kararı (block): Açık oyun skoru 40/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %21.1. Açık oyun skoru 40/100; ters sonuç için sınırlı destek. İlk yarı yön desteği sınırlı (%21.1). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Salzburg VS Sturm Graz",
-      "market": "2/1",
-      "bookmaker_odds": 18.75,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %43 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%43). İlk yarı yön olasılığı yalnız %18.8. İY/MS için veri kapsamı sınırlı (%43). İlk yarı yön desteği sınırlı (%18.8). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Club Brugge VS Genk",
-      "market": "2/1",
-      "bookmaker_odds": 19.8,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %41 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%41). İlk yarı yön olasılığı yalnız %19.0. İY/MS için veri kapsamı sınırlı (%41). İlk yarı yön desteği sınırlı (%19.0). Resmî maç eşleşmesi benzerlik ile %83 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Viking VS Lillestrom",
-      "market": "2/1",
-      "bookmaker_odds": 18.05,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %59, ana model gücü %67. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %14.3. İY/MS için veri kapsamı sınırlı (%59). İlk yarı yön desteği sınırlı (%14.3). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Modena VS Empoli",
-      "market": "2/1",
-      "bookmaker_odds": 25.5,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %67, ana model gücü %71. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %16.1. Açık oyun skoru 49/100; ters sonuç için sınırlı destek. İlk yarı yön desteği sınırlı (%16.1). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "San Lorenzo VS Boca Juniors",
-      "market": "1/2",
-      "bookmaker_odds": 35.5,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %64, ana model gücü %68. Market uzman kararı (block): Açık oyun skoru 36/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %18.4. Açık oyun skoru 36/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%64). İlk yarı yön desteği sınırlı (%18.4). Kadro/ilk 11 verisi tam güvenli değil."
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %63, ana model gücü %55. Market uzman kararı (block): Açık oyun skoru 36/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %20.2. Açık oyun skoru 36/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%63). İlk yarı yön desteği sınırlı (%20.2). Resmî maç eşleşmesi benzerlik ile %77 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
     },
     {
       "match_name": "Panetolikos VS Paok",
@@ -488,15 +364,7 @@
       "bookmaker_odds": 24.1,
       "specialist_decision": "block",
       "specialist_quality_score": 40,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %64, ana model gücü %72. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %14.8. Açık oyun skoru 51/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%64). İlk yarı yön desteği sınırlı (%14.8). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Guimaraes VS Moreirense",
-      "market": "2/1",
-      "bookmaker_odds": 24.55,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %64, ana model gücü %68. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %14.4. Açık oyun skoru 50/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%64). İlk yarı yön desteği sınırlı (%14.4). Resmî maç eşleşmesi benzerlik ile %85 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
+      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %64, ana model gücü %72. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %14.2. Açık oyun skoru 51/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%64). İlk yarı yön desteği sınırlı (%14.2). Kadro/ilk 11 verisi tam güvenli değil."
     },
     {
       "match_name": "Rosario Centra VS Argentinos Jr",
@@ -507,52 +375,20 @@
       "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %49 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): Açık oyun skoru 40/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %19.3. Açık oyun skoru 40/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%49). İlk yarı yön desteği sınırlı (%19.3). Resmî maç eşleşmesi benzerlik ile %85 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
     },
     {
-      "match_name": "Platense VS Newells Old Boy",
-      "market": "2/1",
+      "match_name": "San Lorenzo VS Boca Juniors",
+      "market": "1/2",
       "bookmaker_odds": 36.5,
       "specialist_decision": "block",
       "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %63, ana model gücü %55. Market uzman kararı (block): Açık oyun skoru 36/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %19.7. Açık oyun skoru 36/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%63). İlk yarı yön desteği sınırlı (%19.7). Resmî maç eşleşmesi benzerlik ile %77 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Degerfors VS Hammarby",
-      "market": "1/2",
-      "bookmaker_odds": 21.45,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %64, ana model gücü %71. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %12.8. İY/MS için veri kapsamı sınırlı (%64). İlk yarı yön desteği sınırlı (%12.8). Kadro/ilk 11 verisi tam güvenli değil."
+      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %64, ana model gücü %68. Market uzman kararı (block): Açık oyun skoru 34/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %16.2. Açık oyun skoru 34/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%64). İlk yarı yön desteği sınırlı (%16.2). Kadro/ilk 11 verisi tam güvenli değil."
     },
     {
       "match_name": "Lech Poznan VS Radomiak Radom",
       "market": "2/1",
-      "bookmaker_odds": 19.45,
+      "bookmaker_odds": 19.15,
       "specialist_decision": "block",
       "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %37 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%37). İlk yarı yön olasılığı yalnız %14.5. İY/MS için veri kapsamı sınırlı (%37). İlk yarı yön desteği sınırlı (%14.5). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Tromso VS Ham Kam",
-      "market": "2/1",
-      "bookmaker_odds": 21.35,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %40 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%40). İlk yarı yön olasılığı yalnız %14.4. İY/MS için veri kapsamı sınırlı (%40). İlk yarı yön desteği sınırlı (%14.4). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Almeria VS Celta Vigo Ii",
-      "market": "2/1",
-      "bookmaker_odds": 22,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %41 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%41). İlk yarı yön olasılığı yalnız %14.5. İY/MS için veri kapsamı sınırlı (%41). İlk yarı yön desteği sınırlı (%14.5). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Kalamata VS Panathinaikos",
-      "market": "1/2",
-      "bookmaker_odds": 23.65,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %64, ana model gücü %71. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %11.1. Açık oyun skoru 54/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%64). İlk yarı yön desteği sınırlı (%11.1). Kadro/ilk 11 verisi tam güvenli değil."
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %37 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%37). İlk yarı yön olasılığı yalnız %14.6. İY/MS için veri kapsamı sınırlı (%37). İlk yarı yön desteği sınırlı (%14.6). Kadro/ilk 11 verisi tam güvenli değil."
     },
     {
       "match_name": "Ac Milan VS Lecce",
@@ -560,14 +396,14 @@
       "bookmaker_odds": 24.1,
       "specialist_decision": "block",
       "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %64, ana model gücü %67. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %9.6. Açık oyun skoru 55/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%64). İlk yarı yön desteği sınırlı (%9.6). Kadro/ilk 11 verisi tam güvenli değil."
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %64, ana model gücü %67. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %9.4. İY/MS için veri kapsamı sınırlı (%64). İlk yarı yön desteği sınırlı (%9.4). Kadro/ilk 11 verisi tam güvenli değil."
     }
   ],
   "market_specialist": {
     "version": "market-specialist-gates-v4",
-    "htft_picks_checked": 41,
-    "htft_picks_rejected": 29,
-    "htft_picks_eligible": 12,
+    "htft_picks_checked": 11,
+    "htft_picks_rejected": 8,
+    "htft_picks_eligible": 3,
     "selection_policy": "Tüm doğrulanmış adaylar uzman v4 kapısından geçer; sonra en iyi 3 benzersiz maç seçilir.",
     "probability_policy": "Senaryo olasılığı değiştirilmez; uzman v4 yalnız doğrulanmış sinyallerle keep/downgrade/block kararı verir."
   }
