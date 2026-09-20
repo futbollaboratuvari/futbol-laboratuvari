@@ -54,6 +54,8 @@ jobs:
         run: node tests/learning-market-settlement.test.js
       - name: Learning memory retention regression
         run: node tests/learning-memory-retention.test.js
+      - name: Stale learning health regression
+        run: node tests/learning-health-stale.test.js
       - name: Learning confidence regression
         run: node tests/learning-confidence.test.js
       - name: Loss-pattern regression
