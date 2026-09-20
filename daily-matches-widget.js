@@ -1,10 +1,9 @@
 (() => {
   const KEY = "__flDailyWidget";
   const PAGE_SIZE = 30;
-  const OFFICIAL_API_ORIGIN = /(^|\.)vercel\.app$/i.test(window.location.hostname)
-    ? ""
-    : "https://futbol-laboratuvari.vercel.app";
-  const officialApiUrl = (eventId = "") => `${OFFICIAL_API_ORIGIN}/api/iddaa-bulletin${eventId ? `?eventId=${encodeURIComponent(eventId)}` : ""}`;
+  const BULLETIN_URL = "./data/full-bulletin.json";
+  const LIVE_URL = "./data/live-matches.json";
+  const TWO_DAY_URL = "./data/two-day-bulletin.json";
   if (window[KEY]?.off) window[KEY].off();
 
   const app = {
@@ -249,50 +248,38 @@
   };
 
   async function load() {
-    const [officialRes, fullRes, liveRes] = await Promise.all([
-      readJson(officialApiUrl()),
-      readJson("./data/full-bulletin.json"),
-      readJson("./data/live-matches.json")
+    const [fullRes, liveRes] = await Promise.all([
+      readJson(BULLETIN_URL),
+      readJson(LIVE_URL)
     ]);
-    const officialHasMatches = officialRes.ok && Array.isArray(officialRes.data?.matches) && officialRes.data.matches.length > 0;
     const fullHasMatches = fullRes.ok && [
       ...(Array.isArray(fullRes.data?.matches) ? fullRes.data.matches : []),
       ...(Array.isArray(fullRes.data?.scheduled_matches) ? fullRes.data.scheduled_matches : [])
     ].length > 0;
     const twoDayRes = fullHasMatches
       ? { ok: true, data: null, skipped: true }
-      : await readJson("./data/two-day-bulletin.json");
+      : await readJson(TWO_DAY_URL);
     const full = fullRes.data;
     const live = liveRes.data;
     const twoDay = twoDayRes.data;
-    app.dataWarning = officialHasMatches
+    app.dataWarning = fullHasMatches
       ? ""
-      : "Resmi iddaa akışı geçici olarak kullanılamadı; son geçerli bülten gösteriliyor.";
+      : "GitHub Pages bülten verisi geçici olarak kullanılamadı; son geçerli iki günlük bülten gösteriliyor.";
 
-    if (!officialHasMatches && !fullRes.ok && !twoDayRes.ok && (app.bulletin.length || app.live.length || app.finished.length)) {
+    if (!fullRes.ok && !twoDayRes.ok && (app.bulletin.length || app.live.length || app.finished.length)) {
       draw();
       return;
     }
 
-    app.window = officialHasMatches
-      ? null
-      : full?.date_window || (Array.isArray(twoDay?.days) ? { main_day: twoDay.days[0], includes_next_day_until: `${twoDay.days[1] || ""} 08:00` } : app.window) || null;
-    app.lastUpdated = latestGeneratedAt(officialRes.data?.generated_at, full?.generated_at, twoDay?.generated_at, live?.generated_at) || app.lastUpdated || "";
-    app.source = officialHasMatches
-      ? officialRes.data.source || "iddaa.com resmi futbol bülteni"
-      : full?.source || twoDay?.source || live?.source || "Son geçerli futbol bülteni";
+    app.window = full?.date_window || (Array.isArray(twoDay?.days) ? { main_day: twoDay.days[0], includes_next_day_until: `${twoDay.days[1] || ""} 08:00` } : app.window) || null;
+    app.lastUpdated = latestGeneratedAt(full?.generated_at, twoDay?.generated_at, live?.generated_at) || app.lastUpdated || "";
+    app.source = full?.source || twoDay?.source || live?.source || "GitHub Pages futbol bülteni";
     const liveRootDate = toIsoDate(live?.date || full?.date_window?.main_day || "");
-    const staticMatches = unique([
+    const all = unique([
       ...ingest(twoDay, "two-day-bulletin.json"),
       ...ingest(full, "full-bulletin.json"),
       ...ingest(live, "live-matches.json", liveRootDate)
     ]);
-    const officialMatches = officialHasMatches
-      ? ingest(officialRes.data, officialRes.data.source || "iddaa.com resmi futbol bülteni")
-      : [];
-    const all = officialHasMatches
-      ? unique([...officialMatches, ...staticMatches.filter((match) => classify(match).bucket === "finished")])
-      : staticMatches;
 
     const classified = all.map((m) => {
       const state = classify(m);
@@ -505,18 +492,12 @@
 
   async function loadDetail(id) {
     const item = matchById(id);
-    const eventId = String(item?.iddaa_event_id || "").trim();
-    if (!item || app.details.has(id) || app.detailLoading.has(id) || !/^\d{1,12}$/.test(eventId)) return;
-    app.detailLoading.add(id);
+    if (!item || app.details.has(id)) return;
     app.detailErrors.delete(id);
-    drawRows();
-    const response = await readJson(officialApiUrl(eventId));
-    if (response.ok && response.data?.match && String(response.data.match.iddaa_event_id) === eventId) {
-      app.details.set(id, { ...item, ...response.data.match, _id: item._id });
-    } else {
-      app.detailErrors.set(id, "Resmi pazar ayrıntısı şu anda alınamadı. Yenile düğmesiyle tekrar deneyebilirsiniz.");
+    app.details.set(id, item);
+    if (!Array.isArray(item.market_groups) || !item.market_groups.length) {
+      app.detailErrors.set(id, "Ayrıntılı marketler GitHub bülteninde yok; doğrulanmış özet oranlar gösteriliyor.");
     }
-    app.detailLoading.delete(id);
     drawRows();
   }
 

@@ -129,9 +129,11 @@ assert.strictEqual(
 );
 
 const widget = fs.readFileSync(path.join(__dirname, "..", "daily-matches-widget.js"), "utf8");
-assert.match(widget, /https:\/\/futbol-laboratuvari\.vercel\.app/, "GitHub Pages must use the production API origin");
-assert.match(widget, /readJson\(officialApiUrl\(\)\)/, "widget must load the official feed");
-assert.match(widget, /readJson\(officialApiUrl\(eventId\)\)/, "match detail must use the same official API bridge");
+assert.match(widget, /BULLETIN_URL = "\.\/data\/full-bulletin\.json"/, "GitHub Pages must load the GitHub-published bulletin");
+assert.match(widget, /readJson\(BULLETIN_URL\)/, "widget must load the GitHub Pages bulletin feed");
+assert.doesNotMatch(widget, /futbol-laboratuvari\.vercel\.app/, "public bulletin must not depend on Vercel");
+assert.doesNotMatch(widget, /officialApiUrl/, "public match detail must not call the Vercel bulletin API");
+assert.match(widget, /app\.details\.set\(id, item\)/, "match detail must use the GitHub-published record");
 assert.match(widget, /data-row-toggle=/, "the complete match row must be clickable");
 assert.match(widget, /data-dynamic-pick=/, "all detail outcomes must be selectable");
 assert.match(widget, /Tüm İddaa Pazarları/, "the full market panel must be visible");

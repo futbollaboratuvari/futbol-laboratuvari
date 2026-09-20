@@ -190,6 +190,7 @@ function testStaticProtectionAndConsent() {
   const cookie = read("cookie-consent.js");
   const payment = read("bank-transfer-payment.js");
   const legalProfile = read("legal-seller-profile.js");
+  const vercelConfig = JSON.parse(read("vercel.json"));
   const daily = read("daily-matches-widget.js");
   const navigation = read("nav-routing.js");
   const pagesWorkflow = read(".github/workflows/deploy-pages.yml");
@@ -231,6 +232,7 @@ function testStaticProtectionAndConsent() {
   assert.match(payment, /Kodu Kullan ve Özel Analize Git/);
   assert.match(legalProfile, /futbol-laboratuvari\.vercel\.app/);
   assert.match(build, /data\/pro-analysis-index\.json/);
+  assert.deepEqual(vercelConfig.git?.deploymentEnabled, { main: false, "*": false });
   assert.match(pagesWorkflow, /run: npm run build/);
   assert.match(pagesWorkflow, /path: \.\/public/);
   assert.match(bulletinPagesWorkflow, /name: Build safe public artifact/);
@@ -255,6 +257,10 @@ function testStaticProtectionAndConsent() {
     .forEach((name) => assert.match(payment, new RegExp(`name="${name}"`)));
   assert.match(payment, /Ödeme Yükümlülüğü Doğuran Talebi Oluştur/);
   assert.match(daily, /PAGE_SIZE = 30/);
+  assert.match(daily, /BULLETIN_URL = "\.\/data\/full-bulletin\.json"/);
+  assert.match(daily, /LIVE_URL = "\.\/data\/live-matches\.json"/);
+  assert.doesNotMatch(daily, /futbol-laboratuvari\.vercel\.app/);
+  assert.doesNotMatch(daily, /\/api\/iddaa-bulletin/);
   assert.match(daily, /Piyasa Oran Özeti/);
   assert.equal(daily.includes("Kontrollü oynanabilir"), false);
   const safeLive = sanitizePublicLive({

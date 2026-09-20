@@ -24,6 +24,7 @@ on:
       - 'tests/pro-analysis-supabase-sync.test.js'
       - 'tests/security-legal.test.js'
       - 'package.json'
+      - 'vercel.json'
       - 'scripts/generate-high-odds-htft.js'
       - 'tests/market-specialist-gates.test.js'
       - 'tests/robot-specialist-orchestrator.test.js'
@@ -80,6 +81,7 @@ jobs:
             *.html
             *.js
             package.json
+            vercel.json
             .gitignore
             favicon.ico
           sparse-checkout-cone-mode: false
