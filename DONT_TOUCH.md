@@ -179,6 +179,18 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Geri alma: Realtime UI/collector katmani ayriktir. Supabase Realtime gecici kullanilamazsa 30 dakikalik mevcut GitHub snapshot sistemi kullanici ekranini veri yokmus gibi birakmadan fallback olarak devam eder.
 
 ## PRO Robot Islem Gunlugu
+### 2026-09-20 - Result Backfill Rollover V2
+
+- Kok neden: Direct learning result bridge sonuclari learning-memory'ye dogrudan baglamaya basladi ancak stale pending kuyrugu buyuk olcude devam etti. 1096 eski pending tahminin mevcut skorlu arsivde yalniz 6 tanesi eslesebiliyordu. Eski analizde 00:00-06:59 bandindaki maclarda bulten tarihi ile sonuc saglayici tarihi arasinda +1 gun rollover ve ayni fixture'in coklu kaynaklardan farkli adlarla gelmesi tespit edildi.
+- Duzeltme: Yalniz kickoff < 07:00 icin result lookup tarihine +1 gun tolerans eklendi. Günduz maclari kesinlikle kaydirilmaz.
+- Kaynak consensus: Ayni fixture guclu takim benzerligiyle birden fazla kaynaktan gelirse ayni skorlar consensus sayilir. Ayni fixture icin kaynak skorlar celisirse fail-closed null doner.
+- Kaynak kapsami: SofaScore gunluk finished football events opsiyonel fallback olarak eklendi. Basarisizligi ana akisi bozmaz ve warning olarak tutulur.
+- Veri guvenligi: TheSportsDB null skor alanlarinin Number(null)=0 nedeniyle sahte 0-0 olusturma riski kapatildi.
+- Linker: Learning score linker da ayni dar gece rollover tarih adaylarini kullanir; exact pair ve fuzzy lookup ayni tarih politikasina baglidir.
+- Korunan davranis: PR #106 direct learning-memory result bridge ve PR #107 ESPN halftime linescore mantigi aynen korunur.
+- CI: Robot Learning CI run 35488575742 Node 20 ve Node 24 matrisinde learning settlement, memory retention, stale health, confidence ve loss-pattern testlerini success tamamladi. Ilk CI denemesinde conflicting duplicate skoru yakalayan test fail etti; kod duzeltildi ve ayni fixture'in celiskili skorunu kalite farkindan bagimsiz fail-closed yapan sameFixtureRows kontrolu eklendi.
+- PR: #109 Eski sonuc backfill kapsamini guvenli sekilde genislet, dal fix/result-backfill-rollover-v2-20260920.
+
 ### 2026-09-20 - Eski Pending Ogrenme Saglik Alarmi V1
 
 - Kok neden: Result tracking health daha once en az bir skor bagliysa veya arsivde skorlu mac varsa `ok` olabiliyordu. Bu nedenle 1000+ eski pending tahmin varken bile sistem yesil gorunebiliyordu.
