@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T01:23:56.390Z",
+  "generated_at": "2026-09-20T04:17:42.374Z",
   "status": "ok",
   "checked_dates": [
     "2026-09-15",
@@ -7,16 +7,24 @@
     "2026-09-17"
   ],
   "source": "ESPN Scoreboard + TheSportsDB",
-  "fetched_finished_result_count": 302,
+  "fetched_finished_result_count": 422,
   "archived_score_update_count": 0,
   "fixture_score_update_count": 0,
   "live_score_update_count": 0,
-  "direct_learning_score_checked_count": 1745,
-  "direct_learning_score_update_count": 6,
+  "direct_learning_score_checked_count": 1739,
+  "direct_learning_score_update_count": 55,
   "direct_learning_half_time_update_count": 0,
-  "direct_learning_unmatched_count": 734,
-  "pending_prediction_count": 1745,
+  "direct_learning_unmatched_count": 1033,
+  "pending_prediction_count": 1739,
   "errors": [],
+  "warnings": [
+    "2026-09-15: SofaScore fallback: www.sofascore.com: HTTP 403: {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }} | api.sofascore.com: HTTP 403: {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }}",
+    "2026-09-16: SofaScore fallback: www.sofascore.com: HTTP 403: {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }} | api.sofascore.com: HTTP 403: {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }}",
+    "2026-09-16: SofaScore fallback: www.sofascore.com: HTTP 403: {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }} | api.sofascore.com: HTTP 403: {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }}",
+    "2026-09-17: SofaScore fallback: www.sofascore.com: HTTP 403: {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }} | api.sofascore.com: HTTP 403: {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }}",
+    "2026-09-17: SofaScore fallback: www.sofascore.com: HTTP 403: {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }} | api.sofascore.com: HTTP 403: {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }}",
+    "2026-09-18: SofaScore fallback: www.sofascore.com: HTTP 403: {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }} | api.sofascore.com: HTTP 403: {\"error\": {\"code\": 403, \"reason\": \"Forbidden\" }}"
+  ],
   "date_checks": {
     "2026-08-22": {
       "last_attempt_at": "2026-08-28T21:06:34.256Z",
@@ -187,25 +195,40 @@
       "error_count": 0
     },
     "2026-09-15": {
-      "last_attempt_at": "2026-09-20T01:23:56.390Z",
-      "last_success_at": "2026-09-20T01:23:56.390Z",
+      "last_attempt_at": "2026-09-20T04:17:42.374Z",
+      "last_success_at": "2026-09-20T04:17:42.374Z",
       "source": "ESPN Scoreboard + TheSportsDB",
-      "finished_result_count": 105,
-      "error_count": 0
+      "lookup_dates": [
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "finished_result_count": 193,
+      "error_count": 0,
+      "warning_count": 2
     },
     "2026-09-16": {
-      "last_attempt_at": "2026-09-20T01:23:56.390Z",
-      "last_success_at": "2026-09-20T01:23:56.390Z",
+      "last_attempt_at": "2026-09-20T04:17:42.374Z",
+      "last_success_at": "2026-09-20T04:17:42.374Z",
       "source": "ESPN Scoreboard + TheSportsDB",
-      "finished_result_count": 88,
-      "error_count": 0
+      "lookup_dates": [
+        "2026-09-16",
+        "2026-09-17"
+      ],
+      "finished_result_count": 198,
+      "error_count": 0,
+      "warning_count": 2
     },
     "2026-09-17": {
-      "last_attempt_at": "2026-09-20T01:23:56.390Z",
-      "last_success_at": "2026-09-20T01:23:56.390Z",
+      "last_attempt_at": "2026-09-20T04:17:42.374Z",
+      "last_success_at": "2026-09-20T04:17:42.374Z",
       "source": "ESPN Scoreboard + TheSportsDB",
-      "finished_result_count": 110,
-      "error_count": 0
+      "lookup_dates": [
+        "2026-09-17",
+        "2026-09-18"
+      ],
+      "finished_result_count": 230,
+      "error_count": 0,
+      "warning_count": 2
     },
     "2026-09-18": {
       "last_attempt_at": "2026-09-20T00:47:40.988Z",
