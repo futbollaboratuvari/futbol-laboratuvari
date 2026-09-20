@@ -1,6 +1,6 @@
 {
   "schema_version": "loss_pattern_memory_v1",
-  "generated_at": "2026-09-20T04:20:25.950Z",
+  "generated_at": "2026-09-20T04:31:12.401Z",
   "status": "active",
   "policy": {
     "purpose": "Tekrarlayan gözlenebilir hata bağlamlarını saptayıp gelecekte aynı bağlamda yalnız negatif fren uygulamak.",
@@ -12,7 +12,7 @@
     "max_brake_points": 3
   },
   "summary": {
-    "settled_predictions": 525,
+    "settled_predictions": 526,
     "lost_predictions": 244,
     "market_count": 8,
     "active_market_count": 2
@@ -217,6 +217,39 @@
       "dominant_miss_type": "goal_shortfall",
       "active_factor_count": 0
     },
+    "MS 2": {
+      "settled": 46,
+      "won": 28,
+      "lost": 18,
+      "loss_rate": 0.391,
+      "distinct_loss_dates": 5,
+      "miss_types": {
+        "away_pick_lost": 10,
+        "away_pick_drew": 8
+      },
+      "factors": {
+        "high_risk_selection": {
+          "loss_count": 12,
+          "distinct_dates": 4,
+          "share_of_losses": 0.667,
+          "active": true
+        },
+        "low_data_selection": {
+          "loss_count": 12,
+          "distinct_dates": 5,
+          "share_of_losses": 0.667,
+          "active": true
+        },
+        "nonpositive_edge_selection": {
+          "loss_count": 13,
+          "distinct_dates": 5,
+          "share_of_losses": 0.722,
+          "active": true
+        }
+      },
+      "dominant_miss_type": "away_pick_lost",
+      "active_factor_count": 3
+    },
     "MS X": {
       "settled": 6,
       "won": 2,
@@ -243,39 +276,6 @@
       },
       "dominant_miss_type": "draw_pick_away_win",
       "active_factor_count": 0
-    },
-    "MS 2": {
-      "settled": 45,
-      "won": 27,
-      "lost": 18,
-      "loss_rate": 0.4,
-      "distinct_loss_dates": 5,
-      "miss_types": {
-        "away_pick_drew": 8,
-        "away_pick_lost": 10
-      },
-      "factors": {
-        "low_data_selection": {
-          "loss_count": 12,
-          "distinct_dates": 5,
-          "share_of_losses": 0.667,
-          "active": true
-        },
-        "nonpositive_edge_selection": {
-          "loss_count": 13,
-          "distinct_dates": 5,
-          "share_of_losses": 0.722,
-          "active": true
-        },
-        "high_risk_selection": {
-          "loss_count": 12,
-          "distinct_dates": 4,
-          "share_of_losses": 0.667,
-          "active": true
-        }
-      },
-      "dominant_miss_type": "away_pick_lost",
-      "active_factor_count": 3
     }
   }
 }
