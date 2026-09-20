@@ -1,36 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T22:30:03.068Z",
+  "generated_at": "2026-09-20T00:22:57.161Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-19T22:29:59.215Z",
+  "source_generated_at": "2026-09-20T00:22:54.589Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 5,
-    "ready_count": 5,
+    "live_match_count": 8,
+    "ready_count": 8,
     "waiting_count": 0,
-    "result_lean_count": 1,
-    "next_goal_lean_count": 1,
+    "result_lean_count": 6,
+    "next_goal_lean_count": 5,
     "high_goal_pressure_count": 0
   },
   "matches": [
     {
-      "fixture_id": "401841579",
+      "fixture_id": "761819",
       "status": "ready",
-      "minute": 28,
+      "minute": 42,
       "score": {
         "home": 0,
         "away": 1
       },
-      "home": "River Plate",
-      "away": "Huracán",
-      "league": "Arjantin Premier Lig 2. Aşama",
+      "home": "D.C. United",
+      "away": "Charlotte FC",
+      "league": "ABD MLS",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T22:29:59.215Z",
-      "freshness_minutes": 0.06421666666666667,
+      "snapshot_recorded_at": "2026-09-20T00:22:54.589Z",
+      "freshness_minutes": 0.042866666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -68,51 +68,133 @@
         "code": null,
         "label": "Taraf için ayrışma yok",
         "side": "neutral",
-        "strength": 55.82
+        "strength": 54.32
       },
       "next_goal_lean": {
         "code": null,
         "label": "Sonraki gol için net ayrışma yok",
         "side": "neutral",
-        "strength": 48.32
+        "strength": 54.58
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 16
+        "score": 25
       },
       "signals": [
-        "Team Power: River Plate %58 · Huracán %42.",
-        "Goal Power: River Plate %18 · Huracán %13.",
+        "Team Power: D.C. United %47 · Charlotte FC %53.",
+        "Goal Power: D.C. United %26 · Charlotte FC %27.",
         "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": -6,
+        "goal_power_diff": -1,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 1,
+        "total_shots_diff": 2,
+        "corners_diff": -3,
+        "xg_diff": 0,
+        "direction_score": -8.68,
+        "next_goal_score": 4.42
+      }
+    },
+    {
+      "fixture_id": "401876971",
+      "status": "ready",
+      "minute": 56,
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "home": "Atlas",
+      "away": "Pumas UNAM",
+      "league": "Meksika Liga MX Apertura",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-20T00:22:54.589Z",
+      "freshness_minutes": 0.042866666666666664,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 62
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 67.982
+      },
+      "next_goal_lean": {
+        "code": null,
+        "label": "Sonraki gol için net ayrışma yok",
+        "side": "neutral",
+        "strength": 45.519999999999996
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 22
+      },
+      "signals": [
+        "Team Power: Atlas %58 · Pumas UNAM %42.",
+        "Goal Power: Atlas %25 · Pumas UNAM %18.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
         "team_power_diff": 16,
-        "goal_power_diff": 5,
+        "goal_power_diff": 7,
         "momentum_diff": 0,
         "shots_on_goal_diff": 0,
-        "total_shots_diff": 5,
-        "corners_diff": 3,
+        "total_shots_diff": 7,
+        "corners_diff": 4,
         "xg_diff": 0,
-        "direction_score": 7.18,
-        "next_goal_score": 10.68
+        "direction_score": 19.98,
+        "next_goal_score": 13.48
       }
     },
     {
-      "fixture_id": "401841244",
+      "fixture_id": "401842230",
       "status": "ready",
       "minute": 45,
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
-      "home": "Remo",
-      "away": "Santos",
-      "league": "Brezilya Serie A",
+      "home": "Rhode Island FC",
+      "away": "Miami FC",
+      "league": "ABD USL",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T22:29:59.215Z",
-      "freshness_minutes": 0.06421666666666667,
+      "snapshot_recorded_at": "2026-09-20T00:22:54.589Z",
+      "freshness_minutes": 0.042866666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -142,59 +224,59 @@
       "evidence_score": 48,
       "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "watch",
-        "label": "Net canlı tahmin yok · izlemeye devam",
-        "confidence": 48
+        "type": "next_goal",
+        "label": "Sonraki gol eğilimi: Deplasman",
+        "confidence": 67
       },
       "result_lean": {
-        "code": null,
-        "label": "Taraf için ayrışma yok",
-        "side": "neutral",
-        "strength": 52.48
+        "code": "2",
+        "label": "Deplasman yönü",
+        "side": "away",
+        "strength": 69.188
       },
       "next_goal_lean": {
-        "code": null,
-        "label": "Sonraki gol için net ayrışma yok",
-        "side": "neutral",
-        "strength": 52.48
+        "code": "AWAY",
+        "label": "Sonraki gol eğilimi: Deplasman",
+        "side": "away",
+        "strength": 74.62
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 10
+        "score": 17
       },
       "signals": [
-        "Team Power: Remo %57 · Santos %43.",
-        "Goal Power: Remo %11 · Santos %8.",
-        "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
+        "Team Power: Rhode Island FC %38 · Miami FC %62.",
+        "Goal Power: Rhode Island FC %11 · Miami FC %20.",
+        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 14,
-        "goal_power_diff": 3,
+        "team_power_diff": -24,
+        "goal_power_diff": -9,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 0,
-        "total_shots_diff": 2,
+        "shots_on_goal_diff": -2,
+        "total_shots_diff": -4,
         "corners_diff": 2,
         "xg_diff": 0,
-        "direction_score": 10.52,
-        "next_goal_score": 6.52
+        "direction_score": -21.32,
+        "next_goal_score": -22.62
       }
     },
     {
-      "fixture_id": "401921386",
+      "fixture_id": "401842136",
       "status": "ready",
       "minute": 45,
       "score": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
-      "home": "Guayaquil City FC",
-      "away": "Leones",
-      "league": "Ekvador Pro Lig Copa Sudamericana Play Off",
+      "home": "Fort Wayne",
+      "away": "FC Naples",
+      "league": "ABD USL Lig 1",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T22:29:59.215Z",
-      "freshness_minutes": 0.06421666666666667,
+      "snapshot_recorded_at": "2026-09-20T00:22:54.589Z",
+      "freshness_minutes": 0.042866666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -243,40 +325,40 @@
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 20
+        "score": 21
       },
       "signals": [
-        "Team Power: Guayaquil City FC %20 · Leones %80.",
-        "Goal Power: Guayaquil City FC %5 · Leones %25.",
+        "Team Power: Fort Wayne %16 · FC Naples %84.",
+        "Goal Power: Fort Wayne %3 · FC Naples %26.",
         "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": -60,
-        "goal_power_diff": -20,
+        "team_power_diff": -68,
+        "goal_power_diff": -23,
         "momentum_diff": 0,
-        "shots_on_goal_diff": -2,
-        "total_shots_diff": -9,
-        "corners_diff": -2,
+        "shots_on_goal_diff": -3,
+        "total_shots_diff": -3,
+        "corners_diff": -3,
         "xg_diff": 0,
-        "direction_score": -63.5,
-        "next_goal_score": -40.9
+        "direction_score": -81.94,
+        "next_goal_score": -43.34
       }
     },
     {
-      "fixture_id": "401903318",
+      "fixture_id": "401842148",
       "status": "ready",
-      "minute": 27,
+      "minute": 16,
       "score": {
         "home": 1,
-        "away": 1
+        "away": 0
       },
-      "home": "Academia Puerto Cabello",
-      "away": "Portuguesa",
-      "league": "Venezuela Premier Lig Clausura",
+      "home": "Union Omaha",
+      "away": "One Knoxville",
+      "league": "ABD USL Lig 1",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T22:29:59.215Z",
-      "freshness_minutes": 0.06421666666666667,
+      "snapshot_recorded_at": "2026-09-20T00:22:54.589Z",
+      "freshness_minutes": 0.042866666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -314,51 +396,215 @@
         "code": null,
         "label": "Taraf için ayrışma yok",
         "side": "neutral",
-        "strength": 60
+        "strength": 46.2
       },
       "next_goal_lean": {
         "code": null,
         "label": "Sonraki gol için net ayrışma yok",
         "side": "neutral",
-        "strength": 59
+        "strength": 50.9
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 6
+        "score": 20
       },
       "signals": [
-        "Team Power: Academia Puerto Cabello %50 · Portuguesa %50.",
-        "Goal Power: Academia Puerto Cabello %6 · Portuguesa %6.",
+        "Team Power: Union Omaha %60 · One Knoxville %40.",
+        "Goal Power: Union Omaha %22 · One Knoxville %15.",
         "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 0,
-        "goal_power_diff": 0,
+        "team_power_diff": 20,
+        "goal_power_diff": 7,
         "momentum_diff": 0,
         "shots_on_goal_diff": 0,
         "total_shots_diff": 0,
-        "corners_diff": 0,
+        "corners_diff": -1,
         "xg_diff": 0,
-        "direction_score": 0,
-        "next_goal_score": 0
+        "direction_score": 16.8,
+        "next_goal_score": 8.1
       }
     },
     {
-      "fixture_id": "401842142",
+      "fixture_id": "401841247",
+      "status": "ready",
+      "minute": 45,
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "home": "Vasco da Gama",
+      "away": "Coritiba",
+      "league": "Brezilya Serie A",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-20T00:22:54.589Z",
+      "freshness_minutes": 0.042866666666666664,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 90
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 32
+      },
+      "signals": [
+        "Team Power: Vasco da Gama %85 · Coritiba %15.",
+        "Goal Power: Vasco da Gama %40 · Coritiba %7.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 70,
+        "goal_power_diff": 33,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 4,
+        "total_shots_diff": 10,
+        "corners_diff": 4,
+        "xg_diff": 0,
+        "direction_score": 97.8,
+        "next_goal_score": 59.6
+      }
+    },
+    {
+      "fixture_id": "401841243",
       "status": "ready",
       "minute": 23,
       "score": {
         "home": 1,
-        "away": 1
+        "away": 0
       },
-      "home": "Richmond Kickers",
-      "away": "Charlotte Independence",
-      "league": "ABD USL Lig 1",
+      "home": "São Paulo",
+      "away": "Internacional",
+      "league": "Brezilya Serie A",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-19T22:29:59.215Z",
-      "freshness_minutes": 0.06421666666666667,
+      "snapshot_recorded_at": "2026-09-20T00:22:54.589Z",
+      "freshness_minutes": 0.042866666666666664,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 83.36
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 15
+      },
+      "signals": [
+        "Team Power: São Paulo %86 · Internacional %14.",
+        "Goal Power: São Paulo %19 · Internacional %2.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 72,
+        "goal_power_diff": 17,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 1,
+        "total_shots_diff": 2,
+        "corners_diff": 0,
+        "xg_diff": 0,
+        "direction_score": 46.16,
+        "next_goal_score": 31.36
+      }
+    },
+    {
+      "fixture_id": "401877875",
+      "status": "ready",
+      "minute": 54,
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "home": "Deportivo Cali",
+      "away": "Cúcuta Deportivo",
+      "league": "Kolombiya Primera A Clausura",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-20T00:22:54.589Z",
+      "freshness_minutes": 0.042866666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -388,43 +634,43 @@
       "evidence_score": 58,
       "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "watch",
-        "label": "Net canlı tahmin yok · izlemeye devam",
-        "confidence": 58
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 81
       },
       "result_lean": {
-        "code": null,
-        "label": "Taraf için ayrışma yok",
-        "side": "neutral",
-        "strength": 52.64
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
       },
       "next_goal_lean": {
-        "code": null,
-        "label": "Sonraki gol için net ayrışma yok",
-        "side": "neutral",
-        "strength": 51.44
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 90
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 31
+        "score": 24
       },
       "signals": [
-        "Team Power: Richmond Kickers %44 · Charlotte Independence %56.",
-        "Goal Power: Richmond Kickers %28 · Charlotte Independence %34.",
-        "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
+        "Team Power: Deportivo Cali %86 · Cúcuta Deportivo %14.",
+        "Goal Power: Deportivo Cali %30 · Cúcuta Deportivo %4.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": -12,
-        "goal_power_diff": -6,
+        "team_power_diff": 72,
+        "goal_power_diff": 26,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 0,
-        "total_shots_diff": -2,
-        "corners_diff": -2,
+        "shots_on_goal_diff": 4,
+        "total_shots_diff": 9,
+        "corners_diff": 2,
         "xg_diff": 0,
-        "direction_score": -10.36,
-        "next_goal_score": -7.56
+        "direction_score": 93.66,
+        "next_goal_score": 55.66
       }
     }
   ]
