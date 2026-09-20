@@ -11,7 +11,7 @@ const TIMEZONE = "Europe/Istanbul";
 const ORIGIN = "https://istatistik.nesine.com";
 const CACHE_TTL_MS = 4 * 60 * 60 * 1000;
 const RETRY_TTL_MS = 30 * 60 * 1000;
-const ADAPTER_VERSION = "v3-route-first";
+const ADAPTER_VERSION = "v4-payload-diagnostic";
 const MAX_RESPONSE_BYTES = 3 * 1024 * 1024;
 const MAX_REQUESTS = Math.max(8, Number(process.env.NESINE_STATS_REQUEST_LIMIT || 72));
 const MAX_MATCHES = Math.max(8, Number(process.env.NESINE_STATS_MATCH_LIMIT || 36));
@@ -146,6 +146,24 @@ const identitySimilarity = (teamName, candidate) => {
   const common = teamTokens.filter((token) => lineTokens.has(token)).length;
   if (teamTokens.length === 1) return common === 1 && teamTokens[0].length >= 4 ? 1 : 0;
   return common / teamTokens.length;
+};
+
+const diagnosticSnapshot = (html) => {
+  const source = String(html || "");
+  const title = (source.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] || "").replace(/\s+/g, " ").trim();
+  const meta = [...source.matchAll(/<meta\b[^>]*(?:name|property)=["']([^"']+)["'][^>]*content=["']([^"']*)["'][^>]*>/gi)]
+    .slice(0, 16)
+    .map((m) => [m[1], m[2]]);
+  const scripts = [...source.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)]
+    .slice(0, 20)
+    .map((m) => {
+      const src = m[1].match(/src=["']([^"']+)["']/i)?.[1] || "";
+      const body = String(m[2] || "").replace(/\s+/g, " ").trim().slice(0, 1200);
+      return { src, body };
+    })
+    .filter((item) => item.src || item.body);
+  const visible = htmlToLines(source).slice(0, 40);
+  return { title, meta, scripts, visible };
 };
 
 const pageContainsMatch = (html, match) => {
@@ -430,6 +448,9 @@ async function run() {
             break;
           }
           primaryErrors.push(url + ": identity_mismatch");
+          if (!entry.diagnostic && Object.keys(cache.entries).filter((key) => cache.entries[key]?.adapter_version === ADAPTER_VERSION && cache.entries[key]?.diagnostic).length < 3) {
+            entry.diagnostic = { url, snapshot: diagnosticSnapshot(candidateHtml) };
+          }
         } catch (error) {
           primaryErrors.push(url + ": " + error.message);
         }
