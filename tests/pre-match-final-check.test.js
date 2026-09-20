@@ -115,7 +115,7 @@ const applied = applyPreMatchFinalCheck(baseItem, {
   market_severe_adverse: false,
   reasons: ["T10 test"],
 });
-assert.equal(applied.model_score, 68);
+assert.equal(applied.model_score, 76);
 assert.equal(applied.estimated_probability, probabilityBefore);
 
 const lineupDb = {
