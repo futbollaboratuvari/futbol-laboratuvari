@@ -54,6 +54,8 @@ jobs:
         run: node tests/learning-market-settlement.test.js
       - name: Learning memory retention regression
         run: node tests/learning-memory-retention.test.js
+      - name: Adjacent-date dedupe regression
+        run: node tests/learning-adjacent-date-dedupe.test.js
       - name: Stale learning health regression
         run: node tests/learning-health-stale.test.js
       - name: Learning confidence regression
