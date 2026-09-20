@@ -64,6 +64,9 @@ assert.strictEqual(candidateStatsId(match), "3144394", "explicit official id mus
 assert.strictEqual(candidateStatsId({ ...match, iddaa_event_id: "", matchCode: "12345" }), "", "short bulletin code must not be treated as Nesine stats id");
 assert.strictEqual(pageContainsMatch(html, match), true, "home and away identity should validate");
 assert.strictEqual(pageContainsMatch(html, { ...match, away: "Başka Takım" }), false, "wrong opponent must fail identity validation");
+const embeddedOnlyHtml = `<html><head><script id="__NEXT_DATA__" type="application/json">{"props":{"event":{"home":"Ev Tak\\u0131m\\u0131","away":"Deplasman Tak\\u0131m\\u0131"}}}</script></head><body><div id="__next"></div></body></html>`;
+assert.strictEqual(pageContainsMatch(embeddedOnlyHtml, match), true, "embedded application payload should validate both teams");
+assert.strictEqual(pageContainsMatch(embeddedOnlyHtml, { ...match, away: "Başka Takım" }), false, "embedded payload must still fail closed for wrong opponent");
 
 const parsed = parseSource(html, match, "3144394");
 assert.strictEqual(parsed.source_url, "https://istatistik.nesine.com/3144394/ozet", "provenance should use the direct verified summary route");
