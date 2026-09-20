@@ -157,10 +157,14 @@ function resultScore(result) {
   ) || String(result?.score || result?.result_score || "").trim();
 }
 
-function equivalentResultRows(left, right) {
+function sameFixtureRows(left, right) {
   if (!left || !right) return false;
   const similarity = pairSimilarity(left, right);
-  if (similarity.home < 0.78 || similarity.away < 0.78 || similarity.score < 0.88) return false;
+  return similarity.home >= 0.78 && similarity.away >= 0.78 && similarity.score >= 0.88;
+}
+
+function equivalentResultRows(left, right) {
+  if (!sameFixtureRows(left, right)) return false;
   const leftScore = resultScore(left);
   const rightScore = resultScore(right);
   return Boolean(leftScore && rightScore && leftScore === rightScore);
@@ -176,6 +180,11 @@ function findResultForMatch(match, results) {
   if (!ranked.length) return null;
 
   const top = ranked[0];
+
+  const sameFixtureCandidates = dated.filter((result) => sameFixtureRows(top.result, result));
+  const knownScores = new Set(sameFixtureCandidates.map(resultScore).filter(Boolean));
+  if (knownScores.size > 1) return null;
+
   const tied = ranked.slice(1).filter((entry) => top.quality.score - entry.quality.score < 0.025);
   if (tied.length && !tied.every((entry) => equivalentResultRows(top.result, entry.result))) return null;
   return top;
