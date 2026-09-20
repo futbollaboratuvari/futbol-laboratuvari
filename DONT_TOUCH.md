@@ -179,6 +179,20 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Geri alma: Realtime UI/collector katmani ayriktir. Supabase Realtime gecici kullanilamazsa 30 dakikalik mevcut GitHub snapshot sistemi kullanici ekranini veri yokmus gibi birakmadan fallback olarak devam eder.
 
 ## PRO Robot Islem Gunlugu
+### 2026-09-20 - Final Skor -> Ogrenme Hafizasi Dogrudan Koprusu V1
+
+- Kok neden: Learning score linker yalnız robot_match_archive ve live-matches icindeki skorlu maclara bakiyordu. Oysa learning-memory tahminleri mevcut PRO ciktilarindan geliyor ve bu maclarin buyuk bolumu robot_match_archive icinde bulunmuyor. 20 Eylul kontrolunde 1718 pending tahminin 1096'si 15-19 Eylul tarihli eski maclardi. Bu 1096 tahminden yalniz 5'i 2162 skorlu arsiv maciyla exact/fuzzy eslesebildi; kapsama %0.5 idi. Diger 1091 tahminde ayni tarihli skorlu arsiv satirlari olsa bile takim ciftleri ilgili mac degildi.
+- Kaynak kaniti: final-score-sync 15 Eylul icin 105, 16 Eylul 88, 17 Eylul 110, 18 Eylul 120, 19 Eylul 305 dogrulanmis bitmis sonuc bulabiliyordu. Yani dis sonuc kaynagi calisiyordu; sonuc yalniz arsive yazilip learning-memory'ye dogrudan tasinmadigi icin olcum darbogazi olusuyordu.
+- Duzeltme: scripts/update-final-scores.js icine applyPredictionResults eklendi. Fetch edilen dogrulanmis final skorlar ayni tarih + mevcut guvenli takim fuzzy eslestirmesiyle learning-memory pending tahminlerine dogrudan result_score olarak baglanir. Tahmin status'u pending kalir; won/lost/void kararini mevcut learning-finalizer verir.
+- Yari marketleri: Kaynak half_time_score sagliyorsa dogrudan learning-memory kaydina half_time_score da eklenir. Ilk Yari KG, Ikinci Yari KG ve IY/MS finalizer'inin veri olmadan sonuc uydurmama davranisi korunur.
+- Provenance: Dogrudan baglanan kayda result_source, result_source_match_id, result_linked_at ve updated_at yazilir. Bos/uyusmayan skor baglanmaz.
+- Mevcut zincir korunumu: robot_match_archive, fixtures ve live-matches skor guncellemeleri aynen devam eder. Learning score linker ikincil/backfill mekanizmasi olarak korunur; direct bridge arşivde bulunma zorunlulugunu kaldirir.
+- Durum gorunurlugu: final-score-sync-status icine direct_learning_score_checked_count, direct_learning_score_update_count, direct_learning_half_time_update_count ve direct_learning_unmatched_count eklendi.
+- Test: tests/learning-market-settlement.test.js dogrudan bridge'in learning status'unu erken won/lost yapmadigini, result_score + provenance yazdigini ve mevcut full-time skor varken half-time sonucunu zenginlestirdigini test eder. Robot Learning CI run 35479420973 Node 20 ve Node 24 success.
+- Etkilenen dosyalar: scripts/update-final-scores.js, tests/learning-market-settlement.test.js, DONT_TOUCH.md.
+- Vercel: kullanilmadi ve test olcutu degildir.
+- PR: #106 Final skorlari dogrudan ogrenme hafizasina bagla, dal fix/direct-learning-result-bridge-v1-20260920.
+
 ### 2026-09-20 - Ogrenme Hafizasi Retention V2
 
 - Amac/kok neden: Ortak PRO ogrenme hafizasi tek MAX_PREDICTIONS=1500 ve newest-first slice kullaniyordu. Hafiza zaten 1500 sinirina ulasmis durumdaydi. Yeni pending tahminler geldikce eski won/lost egitim orneklerinin ve ozellikle dusuk hacimli uzman market gecmisinin hafizadan dusme riski vardi. Bu durum robotun zamanla ogrendigini unutmasina ve temporal/market cesitliliginin zayiflamasina yol acabiliyordu.
