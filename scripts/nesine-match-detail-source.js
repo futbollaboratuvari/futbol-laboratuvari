@@ -136,8 +136,12 @@ const candidateStatsId = (row) => {
 const pageContainsMatch = (html, match) => {
   const page = clean(stripTags(html));
   if (!page) return false;
-  const homeScore = Math.max(...htmlToLines(html).map((line) => similarity(match.home, line)), 0);
-  const awayScore = Math.max(...htmlToLines(html).map((line) => similarity(match.away, line)), 0);
+  const home = clean(match.home);
+  const away = clean(match.away);
+  if (home.length >= 4 && away.length >= 4 && page.includes(home) && page.includes(away)) return true;
+  const lines = htmlToLines(html);
+  const homeScore = Math.max(...lines.map((line) => similarity(match.home, line)), 0);
+  const awayScore = Math.max(...lines.map((line) => similarity(match.away, line)), 0);
   return homeScore >= 0.72 && awayScore >= 0.72;
 };
 
