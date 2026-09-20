@@ -356,7 +356,7 @@ const uniqueAndSort = (matches) => {
 const hasMackolikSource = (matches) => matches.some((item) => /mackolik|maçkolik/i.test(String(item.source || "")));
 
 const identityKey = (item) => [item?.date, item?.time, item?.home, item?.away]
-  .map((value) => cleanText(value).toLocaleLowerCase("tr-TR"))
+  .map((value) => String(value || "").trim().toLocaleLowerCase("tr-TR"))
   .join("|");
 
 const carryOfficialIds = (matches, previousRoot) => {
