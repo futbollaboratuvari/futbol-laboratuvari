@@ -44,6 +44,42 @@ function todayTR() {
   }).format(new Date());
 }
 
+function trDateFromValue(value) {
+  const text = String(value || "").trim();
+  if (!text) return "";
+  if (/^\d{4}-\d{2}-\d{2}$/.test(text)) return text;
+  if (/^\d{4}-\d{2}-\d{2}[T\s]/.test(text)) {
+    const parsed = new Date(text);
+    if (Number.isFinite(parsed.getTime())) {
+      return new Intl.DateTimeFormat("en-CA", {
+        timeZone: "Europe/Istanbul",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+      }).format(parsed);
+    }
+    return text.slice(0, 10);
+  }
+  return "";
+}
+
+function predictionDateFor(item, fallbackDate) {
+  const localCandidates = [
+    item?.date,
+    item?.match_date,
+    item?.prediction_date,
+    item?.tarih,
+    item?.kickoff_date,
+  ];
+  for (const candidate of localCandidates) {
+    const date = trDateFromValue(candidate);
+    if (date) return date;
+  }
+  const fallback = trDateFromValue(fallbackDate);
+  if (fallback) return fallback;
+  return trDateFromValue(item?.utc_date) || todayTR();
+}
+
 function clean(value) {
   return String(value || "")
     .toLocaleLowerCase("tr-TR")
@@ -94,6 +130,153 @@ function predictionId(item, date) {
   const market = clean(canonicalMarket(item.recommended_market || item.market || item.selection));
   const time = clean(item.start_time || item.time || "");
   return [date, league, match, market, time].filter(Boolean).join("|");
+}
+
+function predictionIdentityWithoutDate(item) {
+  return [
+    clean(item?.league || item?.competition_name || "lig"),
+    clean(matchName(item || {})),
+    clean(item?.start_time || item?.time || ""),
+    clean(canonicalMarket(item?.market || item?.recommended_market || item?.selection)),
+  ].join("|");
+}
+
+function predictionDate(item) {
+  return trDateFromValue(item?.date || item?.match_date || item?.prediction_date || item?.tarih || "");
+}
+
+function dayDistance(left, right) {
+  const a = Date.parse(`${left}T00:00:00Z`);
+  const b = Date.parse(`${right}T00:00:00Z`);
+  if (!Number.isFinite(a) || !Number.isFinite(b)) return null;
+  return Math.round(Math.abs(a - b) / 86400000);
+}
+
+function createdAtMs(item) {
+  const value = Date.parse(item?.created_at || item?.updated_at || "");
+  return Number.isFinite(value) ? value : null;
+}
+
+function isSettledPrediction(item) {
+  return ["won", "lost", "void"].includes(item?.status);
+}
+
+function shouldMergeAdjacentDateDuplicate(left, right) {
+  if (!left || !right) return false;
+  if (predictionIdentityWithoutDate(left) !== predictionIdentityWithoutDate(right)) return false;
+  const leftDate = predictionDate(left);
+  const rightDate = predictionDate(right);
+  if (!leftDate || !rightDate || dayDistance(leftDate, rightDate) !== 1) return false;
+  if (isSettledPrediction(left) && isSettledPrediction(right)) return false;
+
+  const leftCreated = createdAtMs(left);
+  const rightCreated = createdAtMs(right);
+  if (leftCreated === null || rightCreated === null) return false;
+  return Math.abs(leftCreated - rightCreated) <= 36 * 60 * 60 * 1000;
+}
+
+function resultRichness(item) {
+  let score = 0;
+  if (isSettledPrediction(item)) score += 100;
+  if (String(item?.result_score || "").trim()) score += 20;
+  if (String(item?.half_time_score || item?.halftime_score || item?.ht_score || "").trim()) score += 10;
+  if (item?.result_source || item?.score_source) score += 4;
+  if (item?.result_source_match_id || item?.score_source_match_id) score += 2;
+  return score;
+}
+
+function mergeAdjacentDuplicateCluster(rows, nowIso = new Date().toISOString()) {
+  const sortedByCreated = [...rows].sort((a, b) => {
+    const aMs = createdAtMs(a) ?? 0;
+    const bMs = createdAtMs(b) ?? 0;
+    return aMs - bMs;
+  });
+  const newest = sortedByCreated[sortedByCreated.length - 1];
+  const richest = [...rows].sort((a, b) => resultRichness(b) - resultRichness(a))[0] || newest;
+  const earliestCreated = sortedByCreated.find((item) => item?.created_at)?.created_at || newest?.created_at || nowIso;
+  const merged = {
+    ...richest,
+    ...newest,
+    id: newest.id,
+    date: newest.date,
+    created_at: earliestCreated,
+    updated_at: nowIso,
+  };
+
+  const resultFields = [
+    "status",
+    "result_score",
+    "half_time_score",
+    "finalized_at",
+    "score_linked_at",
+    "result_linked_at",
+    "result_source",
+    "result_source_match_id",
+    "score_source",
+    "score_source_match_id",
+    "learning_note",
+  ];
+  for (const field of resultFields) {
+    const value = richest?.[field];
+    if (value !== undefined && value !== null && String(value).trim() !== "") merged[field] = value;
+  }
+  return merged;
+}
+
+function collapseAdjacentDateDuplicates(rows, nowIso = new Date().toISOString()) {
+  const buckets = new Map();
+  for (const item of Array.isArray(rows) ? rows : []) {
+    const key = predictionIdentityWithoutDate(item);
+    const bucket = buckets.get(key) || [];
+    bucket.push(item);
+    buckets.set(key, bucket);
+  }
+
+  const output = [];
+  let collapsedGroups = 0;
+  let removedRows = 0;
+
+  for (const bucket of buckets.values()) {
+    const sorted = [...bucket].sort((a, b) => {
+      const dateCmp = predictionDate(a).localeCompare(predictionDate(b));
+      if (dateCmp) return dateCmp;
+      return (createdAtMs(a) ?? 0) - (createdAtMs(b) ?? 0);
+    });
+    let cluster = [];
+
+    const flush = () => {
+      if (!cluster.length) return;
+      if (cluster.length > 1) {
+        output.push(mergeAdjacentDuplicateCluster(cluster, nowIso));
+        collapsedGroups += 1;
+        removedRows += cluster.length - 1;
+      } else {
+        output.push(cluster[0]);
+      }
+      cluster = [];
+    };
+
+    for (const item of sorted) {
+      if (!cluster.length) {
+        cluster.push(item);
+        continue;
+      }
+      const previous = cluster[cluster.length - 1];
+      if (shouldMergeAdjacentDateDuplicate(previous, item)) {
+        cluster.push(item);
+      } else {
+        flush();
+        cluster.push(item);
+      }
+    }
+    flush();
+  }
+
+  return {
+    predictions: output,
+    collapsed_groups: collapsedGroups,
+    removed_rows: removedRows,
+  };
 }
 
 function parseScore(score) {
@@ -377,14 +560,16 @@ function runLearningMemory() {
   const robotAnalysis = readJson(robotAnalysisPath, { matches: [] });
   const liveMatches = readJson(liveMatchesPath, { matches: [] });
   const liveMap = new Map((liveMatches.matches || []).map((item) => [clean(matchName(item)), item]));
-  const existing = new Map((previous.predictions || []).map((item) => [item.id, item]));
+  const initialDedupe = collapseAdjacentDateDuplicates(previous.predictions || []);
+  const existing = new Map(initialDedupe.predictions.map((item) => [item.id, item]));
   let added = 0;
   let updated = 0;
 
   for (const item of robotAnalysis.matches || []) {
     const market = canonicalMarket(item.recommended_market || item.market || item.selection);
     if (!market || market === "Değerli Seçenek Yok" || market === "Belirsiz") continue;
-    const prediction = buildPrediction(item, robotAnalysis.date || today, liveMap);
+    const sourceDate = predictionDateFor(item, robotAnalysis.date || today);
+    const prediction = buildPrediction(item, sourceDate, liveMap);
     const old = existing.get(prediction.id);
     if (!old) {
       existing.set(prediction.id, prediction);
@@ -396,7 +581,8 @@ function runLearningMemory() {
     }
   }
 
-  const predictions = retainLearningPredictions(Array.from(existing.values()));
+  const finalDedupe = collapseAdjacentDateDuplicates(Array.from(existing.values()));
+  const predictions = retainLearningPredictions(finalDedupe.predictions);
   const { marketMemory, leagueMemory, leagueMarketMemory } = buildMemory(predictions);
   const summary = {
     total_predictions: predictions.length,
@@ -408,6 +594,12 @@ function runLearningMemory() {
     market_count: Object.keys(marketMemory).length,
     added_predictions: added,
     updated_predictions: updated,
+    adjacent_date_dedupe: {
+      initial_collapsed_groups: initialDedupe.collapsed_groups,
+      initial_removed_rows: initialDedupe.removed_rows,
+      final_collapsed_groups: finalDedupe.collapsed_groups,
+      final_removed_rows: finalDedupe.removed_rows
+    },
     retention: {
       max_training_predictions: MAX_TRAINING_PREDICTIONS,
       max_pending_predictions: MAX_PENDING_PREDICTIONS,
@@ -447,6 +639,11 @@ module.exports = {
   buildMemory,
   finalizeBucket,
   mergePrediction,
+  predictionDateFor,
+  predictionIdentityWithoutDate,
+  shouldMergeAdjacentDateDuplicate,
+  mergeAdjacentDuplicateCluster,
+  collapseAdjacentDateDuplicates,
   retainLearningPredictions,
   retainTrainingPredictions,
   sortPredictionsDesc,
