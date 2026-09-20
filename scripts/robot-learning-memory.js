@@ -262,7 +262,9 @@ function collapseAdjacentDateDuplicates(rows, nowIso = new Date().toISOString())
         continue;
       }
       const previous = cluster[cluster.length - 1];
-      if (shouldMergeAdjacentDateDuplicate(previous, item)) {
+      const clusterHasSettled = cluster.some((row) => isSettledPrediction(row));
+      const wouldMergeTwoSettled = clusterHasSettled && isSettledPrediction(item);
+      if (!wouldMergeTwoSettled && shouldMergeAdjacentDateDuplicate(previous, item)) {
         cluster.push(item);
       } else {
         flush();
