@@ -154,6 +154,14 @@ function buildPrediction(item, date, liveMap) {
     fixture_id: item.fixture_id || item.provider_event_id || item.match_id || "",
     independent_evidence: item.independent_evidence === true,
     include_in_coupon: item.include_in_coupon === true,
+    include_in_coupon_at_prediction: item.include_in_coupon === true,
+    independent_evidence_at_prediction: item.independent_evidence === true,
+    model_score_at_prediction: Number(item.model_score ?? item.analysis_score ?? item.score ?? 0),
+    estimated_probability_at_prediction: numberOrNull(item.estimated_probability),
+    market_probability_at_prediction: numberOrNull(item.market_probability),
+    edge_percent_at_prediction: numberOrNull(item.edge_percent),
+    data_completeness_at_prediction: numberOrNull(item.data_completeness) || 0,
+    odds_at_prediction: item.estimated_odds || item.odds || "-",
     premium_eligible_at_prediction: Boolean(item.include_in_coupon) && couponRules.meetsCouponCriteria({ ...item }),
     premium_policy_version: "accuracy-first-v1",
     predicted_score: item.predicted_score
@@ -171,9 +179,22 @@ function buildPrediction(item, date, liveMap) {
 function mergePrediction(old, next, nowIso = new Date().toISOString()) {
   const oldIsSettled = ["won", "lost", "void"].includes(old?.status);
   const nextHasNoResult = next?.status === "pending" && !next?.result_score;
+  const predictionTimeFields = old ? {
+    premium_eligible_at_prediction: old.premium_eligible_at_prediction,
+    premium_policy_version: old.premium_policy_version,
+    include_in_coupon_at_prediction: old.include_in_coupon_at_prediction,
+    independent_evidence_at_prediction: old.independent_evidence_at_prediction,
+    model_score_at_prediction: old.model_score_at_prediction,
+    estimated_probability_at_prediction: old.estimated_probability_at_prediction,
+    market_probability_at_prediction: old.market_probability_at_prediction,
+    edge_percent_at_prediction: old.edge_percent_at_prediction,
+    data_completeness_at_prediction: old.data_completeness_at_prediction,
+    odds_at_prediction: old.odds_at_prediction,
+  } : {};
   return {
     ...old,
     ...next,
+    ...predictionTimeFields,
     ...(oldIsSettled && nextHasNoResult ? {
       status: old.status,
       result_score: old.result_score,
@@ -307,6 +328,35 @@ function retainLearningPredictions(rows) {
   ]).slice(0, MAX_PREDICTIONS);
 }
 
+function summarizePremiumPerformance(predictions) {
+  const rows = (Array.isArray(predictions) ? predictions : [])
+    .filter((item) => item?.premium_eligible_at_prediction === true);
+  const settled = rows.filter((item) => item.status === "won" || item.status === "lost");
+  const won = settled.filter((item) => item.status === "won");
+  const lost = settled.filter((item) => item.status === "lost");
+  let profit = 0;
+  let priced = 0;
+  for (const item of settled) {
+    const odd = numberOrNull(item.odds_at_prediction ?? item.odds);
+    if (!odd || odd <= 1) continue;
+    priced += 1;
+    profit += item.status === "won" ? odd - 1 : -1;
+  }
+  return {
+    policy_version: "accuracy-first-v1",
+    selection_count: rows.length,
+    pending_count: rows.filter((item) => item.status === "pending").length,
+    settled_count: settled.length,
+    won_count: won.length,
+    lost_count: lost.length,
+    hit_rate: settled.length ? Number((won.length / settled.length).toFixed(4)) : null,
+    priced_settled_count: priced,
+    flat_roi: priced ? Number((profit / priced).toFixed(4)) : null,
+    profit_units: priced ? Number(profit.toFixed(4)) : null,
+    measurement_mode: "forward_only_prediction_time_locked"
+  };
+}
+
 function buildMemory(predictions) {
   const marketMemory = {};
   const leagueMemory = {};
@@ -416,6 +466,7 @@ function runLearningMemory() {
     market_count: Object.keys(marketMemory).length,
     added_predictions: added,
     updated_predictions: updated,
+    premium_performance: summarizePremiumPerformance(predictions),
     retention: {
       max_training_predictions: MAX_TRAINING_PREDICTIONS,
       max_pending_predictions: MAX_PENDING_PREDICTIONS,
@@ -458,6 +509,7 @@ module.exports = {
   retainLearningPredictions,
   retainTrainingPredictions,
   sortPredictionsDesc,
+  summarizePremiumPerformance,
   MAX_TRAINING_PREDICTIONS,
   MAX_PENDING_PREDICTIONS,
   MAX_VOID_PREDICTIONS,

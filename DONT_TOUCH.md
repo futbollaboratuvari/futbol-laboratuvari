@@ -179,6 +179,17 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Geri alma: Realtime UI/collector katmani ayriktir. Supabase Realtime gecici kullanilamazsa 30 dakikalik mevcut GitHub snapshot sistemi kullanici ekranini veri yokmus gibi birakmadan fallback olarak devam eder.
 
 ## PRO Robot Islem Gunlugu
+### 2026-09-20 - Premium Basari Olcumu Forward-Only V1
+
+- Amac: Accuracy-first premium politikanin gercek performansini geriye donuk secim/yeniden etiketleme olmadan olcmek.
+- Tahmin-ani kilidi: premium_eligible_at_prediction, include_in_coupon_at_prediction, independent_evidence_at_prediction, model_score_at_prediction, estimated_probability_at_prediction, market_probability_at_prediction, edge_percent_at_prediction, data_completeness_at_prediction ve odds_at_prediction ilk tahmin kaydinda saklanir. Sonraki robot yenilemeleri mergePrediction icinde bu alanlari degistiremez.
+- Premium performans: Yalniz premium_eligible_at_prediction=true olan kayitlar selection/pending/settled/won/lost, hit_rate, priced settled count, profit units ve flat_roi ile ayrik ozetlenir.
+- Olcum semantigi: measurement_mode=forward_only_prediction_time_locked. Eski ham tahminler sonradan yeni filtreye uyuyor diye production premium basarisina eklenmez.
+- Test: learning-memory-retention regresyonuna prediction-time alanlarinin sonradan degismedigini ve premium performans ozetinin yalniz kilitli premium kayitlari saydigini dogrulayan testler eklendi. Robot Learning CI run 35490376459 Node 20 ve Node 24 success.
+- Etkilenen dosyalar: scripts/robot-learning-memory.js, tests/learning-memory-retention.test.js, DONT_TOUCH.md.
+- Geri alma: Yeni snapshot ve premium_performance summary alanlari kaldirilabilir; mevcut tahmin status/sonuc hafizasi etkilenmez.
+- PR: #115 Premium basari metrigini tahmin aninda kilitle, dal fix/premium-forward-performance-v1-20260920.
+
 ### 2026-09-20 - PRO Accuracy-First V1 ve Sonuc Backfill Hizlandirma
 
 - Amac: Ucretli PRO tarafinda tahmin sayisini sisirmek yerine olculebilir isabet/value kalitesini yukselten secici davranis; ayni zamanda ogrenme hafizasinda sonuclanmis olmasi gereken eski pending backlog'unu hizla kapatmak.

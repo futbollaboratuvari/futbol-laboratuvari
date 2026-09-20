@@ -6,8 +6,10 @@ const {
   MAX_TRAINING_PREDICTIONS,
   MAX_VOID_PREDICTIONS,
   MARKET_RETENTION_FLOOR,
+  mergePrediction,
   retainLearningPredictions,
   retainTrainingPredictions,
+  summarizePremiumPerformance,
 } = require("../scripts/robot-learning-memory");
 
 function row(id, status, market, timestamp) {
@@ -92,6 +94,62 @@ function iso(index, dayOffset = 0) {
   ];
   const retained = retainLearningPredictions(rows);
   assert.deepEqual(new Set(retained.map((item) => item.id)), new Set(["a", "b", "c"]));
+})();
+
+
+(function locksPredictionTimePremiumFields() {
+  const old = {
+    id: "locked",
+    status: "pending",
+    created_at: iso(1, 1),
+    premium_eligible_at_prediction: false,
+    premium_policy_version: "accuracy-first-v1",
+    include_in_coupon_at_prediction: false,
+    independent_evidence_at_prediction: true,
+    model_score_at_prediction: 71,
+    estimated_probability_at_prediction: 54,
+    market_probability_at_prediction: 50,
+    edge_percent_at_prediction: 4,
+    data_completeness_at_prediction: 63,
+    odds_at_prediction: "1.80",
+  };
+  const refreshed = {
+    ...old,
+    premium_eligible_at_prediction: true,
+    include_in_coupon_at_prediction: true,
+    model_score_at_prediction: 90,
+    estimated_probability_at_prediction: 80,
+    market_probability_at_prediction: 45,
+    edge_percent_at_prediction: 35,
+    data_completeness_at_prediction: 100,
+    odds_at_prediction: "2.20",
+  };
+  const merged = mergePrediction(old, refreshed, iso(2, 1));
+  assert.equal(merged.premium_eligible_at_prediction, false);
+  assert.equal(merged.include_in_coupon_at_prediction, false);
+  assert.equal(merged.model_score_at_prediction, 71);
+  assert.equal(merged.estimated_probability_at_prediction, 54);
+  assert.equal(merged.odds_at_prediction, "1.80");
+})();
+
+(function summarizesOnlyForwardLockedPremiumSelections() {
+  const rows = [
+    { ...row("p1", "won", "KG Var", iso(1, 1)), premium_eligible_at_prediction: true, odds_at_prediction: "1.80" },
+    { ...row("p2", "lost", "KG Var", iso(2, 1)), premium_eligible_at_prediction: true, odds_at_prediction: "2.00" },
+    { ...row("p3", "pending", "2.5 Üst", iso(3, 1)), premium_eligible_at_prediction: true, odds_at_prediction: "1.90" },
+    { ...row("raw", "won", "MS 1", iso(4, 1)), premium_eligible_at_prediction: false, odds_at_prediction: "1.70" },
+  ];
+  const summary = summarizePremiumPerformance(rows);
+  assert.equal(summary.selection_count, 3);
+  assert.equal(summary.pending_count, 1);
+  assert.equal(summary.settled_count, 2);
+  assert.equal(summary.won_count, 1);
+  assert.equal(summary.lost_count, 1);
+  assert.equal(summary.hit_rate, 0.5);
+  assert.equal(summary.priced_settled_count, 2);
+  assert.equal(summary.profit_units, -0.2);
+  assert.equal(summary.flat_roi, -0.1);
+  assert.equal(summary.measurement_mode, "forward_only_prediction_time_locked");
 })();
 
 console.log("learning-memory-retention.test.js OK");
