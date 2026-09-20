@@ -255,6 +255,10 @@ function testStaticProtectionAndConsent() {
     .forEach((name) => assert.match(payment, new RegExp(`name="${name}"`)));
   assert.match(payment, /Ödeme Yükümlülüğü Doğuran Talebi Oluştur/);
   assert.match(daily, /PAGE_SIZE = 30/);
+  assert.match(daily, /BULLETIN_URL = "\.\/data\/full-bulletin\.json"/);
+  assert.match(daily, /LIVE_URL = "\.\/data\/live-matches\.json"/);
+  assert.doesNotMatch(daily, /futbol-laboratuvari\.vercel\.app/);
+  assert.doesNotMatch(daily, /\/api\/iddaa-bulletin/);
   assert.match(daily, /Piyasa Oran Özeti/);
   assert.equal(daily.includes("Kontrollü oynanabilir"), false);
   const safeLive = sanitizePublicLive({
