@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-20T20:57:31.902Z",
+  "generated_at": "2026-09-20T23:20:29.826Z",
   "date": "2026-09-21",
-  "requested_date": "2026-09-20",
-  "date_fallback_used": true,
+  "requested_date": "2026-09-21",
+  "date_fallback_used": false,
   "evaluated_dates": [
-    "2026-09-20",
-    "2026-09-21"
+    "2026-09-21",
+    "2026-09-22"
   ],
   "engine": "Futbol Laboratuvarı Yüksek Oran İY/MS v4",
   "source": "data/robot-analysis.json + iddaa.com resmi futbol bülteni",
@@ -15,18 +15,18 @@
     "1/2",
     "2/1"
   ],
-  "scan_count": 42,
-  "scheduled_scan_count": 41,
-  "official_match_count": 132,
-  "official_htft_match_count": 7,
-  "official_high_odds_match_count": 7,
-  "identity_match_count": 26,
-  "matched_by_official_id_count": 2,
+  "scan_count": 80,
+  "scheduled_scan_count": 45,
+  "official_match_count": 96,
+  "official_htft_match_count": 3,
+  "official_high_odds_match_count": 3,
+  "identity_match_count": 24,
+  "matched_by_official_id_count": 5,
   "matched_by_date_teams_count": 0,
-  "matched_by_date_time_similarity_count": 24,
+  "matched_by_date_time_similarity_count": 19,
   "ambiguous_identity_count": 0,
-  "unmatched_identity_count": 15,
-  "candidate_count": 4,
+  "unmatched_identity_count": 21,
+  "candidate_count": 3,
   "selected_count": 0,
   "target_card_count": 3,
   "status": "insufficient_specialist_quality",
@@ -36,12 +36,20 @@
   "picks": [],
   "rejected_picks": [
     {
-      "match_name": "Inter Miami VS San Diego",
+      "match_name": "Hb Koge VS Hobro",
       "market": "2/1",
-      "bookmaker_odds": 15.7,
+      "bookmaker_odds": 25.5,
       "specialist_decision": "block",
       "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %65, ana model gücü %72. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %17.3. İlk yarı yön desteği sınırlı (%17.3). Kadro/ilk 11 verisi tam güvenli değil."
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %35 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%35). İY/MS için veri kapsamı sınırlı (%35). İlk yarı yön desteği sınırlı (%26.8). Kadro/ilk 11 verisi tam güvenli değil."
+    },
+    {
+      "match_name": "Aldosivi VS Atletico Tucuma",
+      "market": "1/2",
+      "bookmaker_odds": 36.5,
+      "specialist_decision": "block",
+      "specialist_quality_score": 40,
+      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %49 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): Açık oyun skoru 36/100; ters sonuç senaryosu için kritik derecede zayıf. Açık oyun skoru 36/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%49). İlk yarı yön desteği sınırlı (%22.6). Resmî maç eşleşmesi benzerlik ile %76 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
     },
     {
       "match_name": "Velez Sarsfiel VS Tigre",
@@ -49,29 +57,13 @@
       "bookmaker_odds": 36.5,
       "specialist_decision": "block",
       "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %44 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%44). Açık oyun skoru 36/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %20.1. Açık oyun skoru 36/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%44). İlk yarı yön desteği sınırlı (%20.1). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Flamengo VS Bragantino",
-      "market": "2/1",
-      "bookmaker_odds": 21.95,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %70, ana model gücü %70. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %12.4. İlk yarı yön desteği sınırlı (%12.4). Maç önü final kontrolü ihtiyat düşümü verdi. Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Belgrano VS Rio Cuarto",
-      "market": "2/1",
-      "bookmaker_odds": 35.5,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %49 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): Açık oyun skoru 35/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %9.9. Açık oyun skoru 35/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%49). İlk yarı yön desteği sınırlı (%9.9). Resmî maç eşleşmesi benzerlik ile %80 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %44 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%44). Açık oyun skoru 35/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %19.9. Açık oyun skoru 35/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%44). İlk yarı yön desteği sınırlı (%19.9). Kadro/ilk 11 verisi tam güvenli değil."
     }
   ],
   "market_specialist": {
     "version": "market-specialist-gates-v4",
-    "htft_picks_checked": 4,
-    "htft_picks_rejected": 4,
+    "htft_picks_checked": 3,
+    "htft_picks_rejected": 3,
     "htft_picks_eligible": 0,
     "selection_policy": "Tüm doğrulanmış adaylar uzman v4 kapısından geçer; sonra en iyi 3 benzersiz maç seçilir.",
     "probability_policy": "Senaryo olasılığı değiştirilmez; uzman v4 yalnız doğrulanmış sinyallerle keep/downgrade/block kararı verir."
