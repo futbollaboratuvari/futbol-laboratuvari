@@ -132,15 +132,55 @@ function pairSimilarity(left, right) {
   return { home, away, score: (home + away) / 2 };
 }
 
+function addDays(date, days) {
+  const parsed = /^\d{4}-\d{2}-\d{2}$/.test(String(date || ""))
+    ? new Date(`${date}T12:00:00Z`)
+    : null;
+  if (!parsed || Number.isNaN(parsed.getTime())) return "";
+  parsed.setUTCDate(parsed.getUTCDate() + Number(days || 0));
+  return parsed.toISOString().slice(0, 10);
+}
+
+function resultDatesForMatch(match) {
+  const date = dateOf(match);
+  if (!date) return [];
+  const dates = [date];
+  const kickoff = timeMinutes(match?.start_time || match?.time);
+  // The source bulletin has a proven +1-day rollover for Istanbul midnight
+  // matches. Keep the tolerance narrow so normal daytime fixtures cannot drift.
+  if (kickoff !== null && kickoff < 7 * 60) dates.push(addDays(date, 1));
+  return dates.filter(Boolean);
+}
+
+function resultScore(result) {
+  return scoreText(
+    result?.homeScore ?? result?.home_score ?? result?.homeGoals ?? result?.home_goals,
+    result?.awayScore ?? result?.away_score ?? result?.awayGoals ?? result?.away_goals,
+  ) || String(result?.score || result?.result_score || "").trim();
+}
+
+function equivalentResultRows(left, right) {
+  if (!left || !right) return false;
+  const similarity = pairSimilarity(left, right);
+  if (similarity.home < 0.9 || similarity.away < 0.9) return false;
+  const leftScore = resultScore(left);
+  const rightScore = resultScore(right);
+  return Boolean(leftScore && rightScore && leftScore === rightScore);
+}
+
 function findResultForMatch(match, results) {
-  const sameDate = results.filter((result) => dateOf(result) === dateOf(match));
-  const ranked = sameDate
+  const allowedDates = new Set(resultDatesForMatch(match));
+  const dated = results.filter((result) => allowedDates.has(dateOf(result)));
+  const ranked = dated
     .map((result) => ({ result, quality: pairSimilarity(match, result) }))
     .filter((entry) => entry.quality.home >= 0.62 && entry.quality.away >= 0.62 && entry.quality.score >= 0.78)
     .sort((a, b) => b.quality.score - a.quality.score);
   if (!ranked.length) return null;
-  if (ranked[1] && ranked[0].quality.score - ranked[1].quality.score < 0.025) return null;
-  return ranked[0];
+
+  const top = ranked[0];
+  const tied = ranked.slice(1).filter((entry) => top.quality.score - entry.quality.score < 0.025);
+  if (tied.length && !tied.every((entry) => equivalentResultRows(top.result, entry.result))) return null;
+  return top;
 }
 
 function scoreText(home, away) {
@@ -251,6 +291,31 @@ function sportsDbResults(payload) {
   });
 }
 
+function sofascoreResults(payload) {
+  return (Array.isArray(payload?.events) ? payload.events : []).flatMap((event) => {
+    const statusType = String(event?.status?.type || "").toLowerCase();
+    if (statusType !== "finished") return [];
+    const homeValue = event?.homeScore?.normaltime ?? event?.homeScore?.current ?? event?.homeScore?.display;
+    const awayValue = event?.awayScore?.normaltime ?? event?.awayScore?.current ?? event?.awayScore?.display;
+    const score = scoreText(homeValue, awayValue);
+    const halfTimeScore = scoreText(event?.homeScore?.period1, event?.awayScore?.period1);
+    const timestamp = Number(event?.startTimestamp);
+    if (!score || !event?.homeTeam?.name || !event?.awayTeam?.name || !Number.isFinite(timestamp)) return [];
+    return [{
+      date: istanbulDate(new Date(timestamp * 1000)),
+      home: event.homeTeam.name || event.homeTeam.shortName || "",
+      away: event.awayTeam.name || event.awayTeam.shortName || "",
+      homeScore: Number(homeValue),
+      awayScore: Number(awayValue),
+      score,
+      half_time_score: halfTimeScore,
+      status: "finished",
+      source: "SofaScore",
+      source_match_id: event.id || null,
+    }];
+  });
+}
+
 function requestJson(url, headers = {}) {
   return new Promise((resolve, reject) => {
     const request = https.get(url, { headers: { Accept: "application/json", "User-Agent": "FutbolLaboratuvari-ResultSync/1.0", ...headers } }, (response) => {
@@ -278,6 +343,7 @@ function uniqueKeys(values) {
 async function fetchDateResults(date) {
   const apiFootballKeys = uniqueKeys([process.env.API_FOOTBALL_KEY, process.env.API_FOOTBALL_KEY2]);
   const errors = [];
+  const warnings = [];
   const results = [];
   const sources = [];
   for (const apiKey of apiFootballKeys) {
@@ -327,6 +393,27 @@ async function fetchDateResults(date) {
   }
   if (espnErrors.length) errors.push(`ESPN Scoreboard: ${espnErrors.join(" | ")}`);
 
+  const sofaErrors = [];
+  for (const host of ["www.sofascore.com", "api.sofascore.com"]) {
+    try {
+      const payload = await requestJson(
+        `https://${host}/api/v1/sport/football/scheduled-events/${encodeURIComponent(date)}`,
+        {
+          "User-Agent": "Mozilla/5.0 (compatible; FutbolLaboratuvari-ResultSync/1.1)",
+          Referer: "https://www.sofascore.com/",
+          "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
+        },
+      );
+      results.push(...sofascoreResults(payload));
+      sources.push("SofaScore");
+      sofaErrors.length = 0;
+      break;
+    } catch (error) {
+      sofaErrors.push(`${host}: ${error.message}`);
+    }
+  }
+  if (sofaErrors.length) warnings.push(`SofaScore fallback: ${sofaErrors.join(" | ")}`);
+
   try {
     const payload = await requestJson(`https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=${encodeURIComponent(date)}&s=Soccer`);
     results.push(...sportsDbResults(payload));
@@ -339,6 +426,7 @@ async function fetchDateResults(date) {
     source: sources.join(" + ") || "unavailable",
     results: dedupeResults(results),
     errors,
+    warnings,
   };
 }
 
@@ -373,6 +461,14 @@ function datesToCheck(memory, previousStatus, now = new Date()) {
     const lastSuccess = Date.parse(checks[date]?.last_success_at || "");
     return !Number.isFinite(lastSuccess) || now.getTime() - lastSuccess >= RECHECK_INTERVAL_MS;
   }).slice(0, MAX_DATES_PER_RUN);
+}
+
+function needsNextDayLookup(memory, date, now = new Date()) {
+  return (memory?.predictions || []).some((item) => {
+    if (!eligiblePrediction(item, now) || dateOf(item) !== date) return false;
+    const kickoff = timeMinutes(item?.start_time || item?.time);
+    return kickoff !== null && kickoff < 7 * 60;
+  });
 }
 
 function applyResults(rows, results, nowIso = new Date().toISOString()) {
@@ -449,18 +545,37 @@ async function runFinalScoreSync() {
   const fetchedResults = [];
   const sources = new Set();
   const errors = [];
+  const warnings = [];
+  const fetchCache = new Map();
+
+  async function fetchSourceDate(sourceDate) {
+    if (!fetchCache.has(sourceDate)) fetchCache.set(sourceDate, await fetchDateResults(sourceDate));
+    return fetchCache.get(sourceDate);
+  }
 
   for (const date of dates) {
-    const response = await fetchDateResults(date);
-    fetchedResults.push(...response.results);
-    sources.add(response.source);
-    errors.push(...response.errors.map((message) => `${date}: ${message}`));
+    const lookupDates = [date];
+    if (needsNextDayLookup(memory, date, now)) lookupDates.push(addDays(date, 1));
+    const responses = [];
+    for (const sourceDate of lookupDates.filter(Boolean)) {
+      const response = await fetchSourceDate(sourceDate);
+      responses.push({ sourceDate, response });
+      fetchedResults.push(...response.results);
+      sources.add(response.source);
+      errors.push(...response.errors.map((message) => `${sourceDate}: ${message}`));
+      warnings.push(...(response.warnings || []).map((message) => `${sourceDate}: ${message}`));
+    }
+    const combinedResults = responses.reduce((sum, entry) => sum + entry.response.results.length, 0);
+    const combinedErrors = responses.reduce((sum, entry) => sum + entry.response.errors.length, 0);
+    const anyAvailable = responses.some((entry) => entry.response.source !== "unavailable");
     dateChecks[date] = {
       last_attempt_at: nowIso,
-      last_success_at: response.source === "unavailable" ? (dateChecks[date]?.last_success_at || null) : nowIso,
-      source: response.source,
-      finished_result_count: response.results.length,
-      error_count: response.errors.length,
+      last_success_at: anyAvailable ? nowIso : (dateChecks[date]?.last_success_at || null),
+      source: [...new Set(responses.map((entry) => entry.response.source).filter((value) => value !== "unavailable"))].join(" + ") || "unavailable",
+      lookup_dates: lookupDates.filter(Boolean),
+      finished_result_count: combinedResults,
+      error_count: combinedErrors,
+      warning_count: responses.reduce((sum, entry) => sum + (entry.response.warnings || []).length, 0),
     };
   }
 
@@ -487,6 +602,7 @@ async function runFinalScoreSync() {
     live_score_update_count: liveUpdate.updated,
     pending_prediction_count: (memory.predictions || []).filter((item) => item.status === "pending").length,
     errors: errors.slice(0, 20),
+    warnings: warnings.slice(0, 20),
     date_checks: dateChecks,
   };
   writeJson(statusFile, status);
@@ -512,7 +628,9 @@ module.exports = {
   footballDataResults,
   normalizeTeam,
   pairSimilarity,
+  resultDatesForMatch,
   runFinalScoreSync,
+  sofascoreResults,
   sportsDbResults,
   teamSimilarity,
   requiresHalfTimeScore,
