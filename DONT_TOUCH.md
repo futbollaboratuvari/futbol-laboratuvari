@@ -694,3 +694,17 @@ Baslayan mac Tum Bulten listesine katilmaz.
 - Geliştirme dalı: fix/match-detail-data-integration-v2-20260920.
 - Canlı doğrulama: PR merge edilmeden canlı siteye alınmadı. GitHub Pages/custom domain doğrulaması ancak testler ve merge sonrası yapılacaktır; Vercel kullanılmaz.
 - Geri alma: Yeni adaptör bağımsızdır. Workflow çağrısı ve external merge kaldırılarak V1 yerel kaynak davranışına dönülebilir; mevcut bülten/robot verileri silinmez.
+
+
+### 2026-09-20 - Maç İstatistik Veri Entegrasyonu V3 · Route-First Canlı Düzeltme
+
+- Kök neden: V2 merge sonrası production veri turunda full-bulletin içindeki resmi etkinlik kimliği aktarımı düzeldi ve 552 güncel maçın 374'ünde official_id_match_count oluştu. Buna rağmen nesine-match-detail-source çıktısı fetched_match_count=0 ve status=source_waiting kaldı. Cache incelemesinde 3144394 dahil ilk denenen kayıtların identity_mismatch olduğu görüldü.
+- Asıl hata: V2 adaptörü takım kimliği doğrulamasını önce https://istatistik.nesine.com/p1/{id} üzerinde yapıyordu. Kullanıcının verdiği ve istatistik sekmelerinin gerçek navigasyonunda kullanılan ana rota ise https://istatistik.nesine.com/{id}/ozet ve devamındaki puan-tablosu, rekabet-gecmisi, son-maclari, kadrolar, korner-ve-kart, hakem-bilgileri rotalarıdır. /p1 rotası bazı isteklerde statik takım kimliğini doğrulamak için uygun içerik vermediği için doğru resmi ID'ler yanlışlıkla identity_mismatch cache'ine düşüyordu.
+- Düzeltme: scripts/nesine-match-detail-source.js ADAPTER_VERSION=v3-route-first ile güncellendi. Ana kimlik doğrulama sırası artık önce /{id}/ozet, yalnız gerekirse /p1/{id} fallback şeklindedir. Kaynak provenance URL'si de doğrudan /{id}/ozet rotasını kullanır.
+- Cache kurtarma: Önceki sürümün identity_mismatch/source_error kayıtları yeni adapter_version ile eşleşmediği için 30 dakikalık retry kilidine takılmaz ve V3 ilk çalışmada yeniden denenir. Aynı V3 sürümünde başarısız kayıtlar için mevcut kontrollü retry süresi korunur.
+- İstek bütçesi: Primary /ozet ve fallback /p1 denemeleri gerçek request budget içinde ayrı sayılır; gereksiz trafik gizlenmez. Birincil /ozet doğrulanırsa /p1 çağrısı yapılmaz.
+- Veri güvenliği: Ev/deplasman kimliği doğrulanmadan veri yine kabul edilmez. Route-first değişikliği fail-closed kimlik kuralını gevşetmez; yalnız doğru resmi rotayı önce dener.
+- Test: tests/nesine-match-detail-source.test.js route sırasını /{id}/ozet -> /p1/{id} olarak kilitler ve provenance source_url değerinin doğrudan özet rotası olduğunu doğrular. Mevcut yanlış rakip, kısa matchCode reddi, standings ve H2H regresyonları korunur.
+- Etkilenen PRO davranışı: Tahmin, market, oran, value/edge, kupon ve uzman robot eşikleri değişmedi. Yalnız veri toplama erişim yolu düzeltildi.
+- Geliştirme dalı: fix/match-detail-route-first-v3-20260920.
+- Kapanış: CI, merge, production update-fixtures kapsama sonucu ve canlı site doğrulaması tamamlandıktan sonra bu kayda sonuç eklenecektir.
