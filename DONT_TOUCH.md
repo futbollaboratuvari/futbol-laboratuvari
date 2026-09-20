@@ -187,7 +187,7 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Test: tests/learning-health-stale.test.js Istanbul gun donumunu, eski pending sayimini ve bugunun/measured kayitlarin false-positive olmamasini kilitler. Robot Learning CI run 35479747737 success.
 - Etkilenen dosyalar: scripts/learning-health-utils.js, scripts/result-tracking-health-check.js, scripts/prediction-measurement-health-check.js, tests/learning-health-stale.test.js, .github/workflows/robot-learning-ci.yml, DONT_TOUCH.md.
 - Vercel: kullanilmadi.
-- PR: #108 Eski pending ogrenme yiginini saglik alarmina bagla, dal feat/stale-learning-health-v1-20260920.
+- Kapanis: PR #108 Eski pending ogrenme yiginini saglik alarmina bagla merge edildi; merge commit 487041acbc75f81385066b266b2d8f6eac2bc155. Dal feat/stale-learning-health-v1-20260920.
 
 ### 2026-09-20 - ESPN Devre Skoru Linescore Koprusu V1
 
