@@ -649,3 +649,17 @@ Baslayan mac Tum Bulten listesine katilmaz.
 - PR: #101 `İY/MS öğrenme market kimliklerini sabitle`, dal `fix/learning-htft-canonical-v2-20260920`.
 - Vercel: kullanılmadı.
 
+
+
+### 2026-09-20 - Ogrenme Geri Besleme Gecikmesi ve Sonuc Tarihi Adalet Duzeltmesi V3
+
+- Amac/kok neden: Final skorlar ve learning finalizer ana veri akisinda yeni PRO skorlamasindan sonra calisiyordu. Bu nedenle yeni kapanan won/lost sonuclari ayni pipeline turundaki yeni tahminlere etki etmiyor, bir sonraki 15 dakikalik tura kadar bekliyordu. Ayrica sonuc tarihi taramasi tarih sirasi ile sinirlandigi icin eski ve yari-skor bekleyen tarihler MAX_DATES_PER_RUN penceresini tekrar tekrar doldurup daha yeni stale pending tarihleri geciktirebilirdi.
+- Duzeltme: update-fixtures workflow'una PRO skorlamasindan once yalniz sonuc/learning hafizasini tazeleyen erken bir adim eklendi. Mevcut gec finalizasyon adimi korunarak sonuc/rapor/coupon zincirinin onceki davranisi bozulmadi. datesToCheck artik hata alan tarihleri once, sonra en uzun suredir basarili kontrol edilmemis tarihleri secer; esitlikte tarih kullanir. Boylece tarih kuyrugunda starvation engellenir.
+- Basari hedefi: Degisiklik esikleri gevsetmez ve kazanma vaadi uretmez; dogrulanmis gercek sonuclarin learning weight ve loss-pattern frenlerine daha hizli girmesini saglar. Zayif marketin cezalandirilmasi ve guclu marketin terfisi mevcut ROI/guven araligi kurallarina bagli kalir.
+- Etkilenen dosyalar: .github/workflows/update-fixtures.yml, scripts/update-final-scores.js, tests/learning-market-settlement.test.js, DONT_TOUCH.md.
+- Market kapsami: KG Var/Yok, 2.5 Alt/Ust, 3.5 Ust, 6+ Gol, yari KG, IY/MS ve MS 1/X/2 dahil mevcut learning-memory marketlerinin tumu; market kimligi/provenance kurallari degismedi.
+- Veri/provenance: Yalniz mevcut dogrulanmis final skor kaynaklari kullanilir. Eslesme kalite esikleri, celiskili skor fail-closed davranisi ve yari skor yoksa uydurmama kurali korunur.
+- Test: learning-market-settlement testi tarih planlayicisinin en uzun suredir kontrol edilmeyen tarihleri one aldigini ve hata alan tarihi onceliklendirdigini kilitler. CI sonucu PR kapanis kaydinda eklenecektir.
+- Canli dogrulama: PR merge ve takip eden otomatik update-fixtures turundan sonra stale pending, measured/won/lost ve learning-weight health dosyalari ile dogrulanacaktir.
+- Geri alma: Erken workflow adimi kaldirilabilir ve datesToCheck onceki tarih-sirali secime geri alinabilir; learning-memory kayitlari silinmez.
+- Kapanis: Bekleniyor.
