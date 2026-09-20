@@ -6,6 +6,7 @@ const {
   sectionExcerpt,
   htmlToLines,
 } = require("../scripts/nesine-match-detail-source");
+const { normalizeFixture } = require("../scripts/build-full-bulletin");
 
 const match = {
   date: "2026-09-20",
@@ -36,6 +37,19 @@ const html = `
 <h3>Korner & Kart</h3><p>Ev Takımı korner ortalaması 5.2 · sarı kart 2.1</p>
 <h3>Hakem Bilgileri</h3><p>Test Hakemi · Türkiye</p>
 </body></html>`;
+
+const normalizedBulletinMatch = normalizeFixture({
+  date: match.date,
+  time: match.time,
+  home: match.home,
+  away: match.away,
+  league: match.league,
+  iddaa_event_id: "3144394",
+  status: "scheduled",
+  available_odds: {},
+}, "Test");
+assert.strictEqual(normalizedBulletinMatch.iddaa_event_id, "3144394", "full bulletin normalization must preserve official event id");
+assert.strictEqual(normalizedBulletinMatch.nesine_stats_id, "3144394", "Nesine stats id must follow verified official event id");
 
 assert.strictEqual(candidateStatsId(match), "3144394", "explicit official id must be accepted");
 assert.strictEqual(candidateStatsId({ ...match, iddaa_event_id: "", matchCode: "12345" }), "", "short bulletin code must not be treated as Nesine stats id");
