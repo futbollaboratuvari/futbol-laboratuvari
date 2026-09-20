@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { stalePendingStats } = require("./learning-health-utils");
 
 const root = path.join(__dirname, "..");
 const archiveFile = path.join(root, "data", "robot_match_archive.json");
@@ -33,9 +34,16 @@ function runResultTrackingHealthCheck() {
   const finished = archived.filter((m) => String(m.status || "").toLowerCase() === "finished").length;
   const archivedWithScore = archived.filter((m) => score(m.score || m.result_score)).length;
   const pending = predictions.filter((p) => p.status === "pending").length;
+  const stalePending = stalePendingStats(predictions);
   const linked = predictions.filter((p) => score(p.result_score)).length;
   const hasTrackingInput = activeFixtures.length > 0 || archived.length > 0;
-  const status = linked > 0 || archivedWithScore > 0 ? "ok" : hasTrackingInput ? "izleme" : "empty";
+  const status = stalePending.stale_count > 0
+    ? "warning"
+    : linked > 0 || archivedWithScore > 0
+      ? "ok"
+      : hasTrackingInput
+        ? "izleme"
+        : "empty";
   const report = {
     generated_at: new Date().toISOString(),
     status,
@@ -45,10 +53,22 @@ function runResultTrackingHealthCheck() {
     archived_score_count: archivedWithScore,
     prediction_count: predictions.length,
     pending_prediction_count: pending,
+    stale_pending_prediction_count: stalePending.stale_count,
+    stale_pending_oldest_date: stalePending.oldest_date,
+    stale_pending_newest_date: stalePending.newest_stale_date,
+    stale_pending_by_date: stalePending.by_date,
+    stale_pending_top_markets: stalePending.top_markets,
+    stale_pending_examples: stalePending.examples,
     linked_prediction_score_count: linked,
     last_link_checked: linker.checked || 0,
     last_linked: linker.linked || 0,
-    next_action: status === "ok" ? "Tahmin olcum asamasina gecilebilir." : status === "izleme" ? "Sonuc bekleniyor. Izleme devam." : "Sonuc kaynagi ve skor eslestirme takip edilmeli."
+    next_action: status === "warning"
+      ? "Eski pending tahminler dogrudan final-skor koprusu ve finalizer ile eritilmeli."
+      : status === "ok"
+        ? "Tahmin olcum asamasina gecilebilir."
+        : status === "izleme"
+          ? "Sonuc bekleniyor. Izleme devam."
+          : "Sonuc kaynagi ve skor eslestirme takip edilmeli."
   };
   const md = [
     "# Sonuc Takip Saglik Kontrolu",
@@ -60,6 +80,8 @@ function runResultTrackingHealthCheck() {
     `Skorlu arsiv maci: ${report.archived_score_count}`,
     `Tahmin sayisi: ${report.prediction_count}`,
     `Bekleyen tahmin: ${report.pending_prediction_count}`,
+    `Eski pending tahmin: ${report.stale_pending_prediction_count}`,
+    `En eski pending tarihi: ${report.stale_pending_oldest_date || "-"}`,
     `Skor baglanan tahmin: ${report.linked_prediction_score_count}`,
     `Son kontrol: ${report.last_link_checked}`,
     `Son baglanan: ${report.last_linked}`,
