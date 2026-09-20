@@ -11,7 +11,7 @@ const TIMEZONE = "Europe/Istanbul";
 const ORIGIN = "https://istatistik.nesine.com";
 const CACHE_TTL_MS = 4 * 60 * 60 * 1000;
 const RETRY_TTL_MS = 30 * 60 * 1000;
-const ADAPTER_VERSION = "v4-payload-diagnostic";
+const ADAPTER_VERSION = "v5-embedded-identity";
 const MAX_RESPONSE_BYTES = 3 * 1024 * 1024;
 const MAX_REQUESTS = Math.max(8, Number(process.env.NESINE_STATS_REQUEST_LIMIT || 72));
 const MAX_MATCHES = Math.max(8, Number(process.env.NESINE_STATS_MATCH_LIMIT || 36));
@@ -166,16 +166,34 @@ const diagnosticSnapshot = (html) => {
   return { title, meta, scripts, visible };
 };
 
+const decodeEscapedUnicode = (value) => String(value || "")
+  .replace(/\\u([0-9a-f]{4})/gi, (_, code) => String.fromCharCode(parseInt(code, 16)))
+  .replace(/\\x([0-9a-f]{2})/gi, (_, code) => String.fromCharCode(parseInt(code, 16)));
+
 const pageContainsMatch = (html, match) => {
-  const page = clean(stripTags(html));
-  if (!page) return false;
+  const source = String(html || "");
   const home = clean(match.home);
   const away = clean(match.away);
-  if (home.length >= 4 && away.length >= 4 && page.includes(home) && page.includes(away)) return true;
-  const lines = htmlToLines(html);
+  if (!home || !away) return false;
+
+  const visiblePage = clean(stripTags(source));
+  if (home.length >= 4 && away.length >= 4 && visiblePage.includes(home) && visiblePage.includes(away)) return true;
+
+  // Nesine/Next-style pages may keep event identity only in embedded application JSON.
+  // Preserve fail-closed behavior: both teams must independently match the same payload.
+  const embeddedPage = clean(decodeEscapedUnicode(decodeEntities(source)));
+  if (home.length >= 4 && away.length >= 4 && embeddedPage.includes(home) && embeddedPage.includes(away)) return true;
+
+  const lines = htmlToLines(source);
   const homeScore = Math.max(...lines.map((line) => identitySimilarity(match.home, line)), 0);
   const awayScore = Math.max(...lines.map((line) => identitySimilarity(match.away, line)), 0);
-  return homeScore >= 0.75 && awayScore >= 0.75;
+  if (homeScore >= 0.75 && awayScore >= 0.75) return true;
+
+  const scriptBodies = [...source.matchAll(/<script\\b[^>]*>([\\s\\S]*?)<\\/script>/gi)]
+    .map((m) => decodeEscapedUnicode(decodeEntities(m[1])));
+  const homeEmbedded = Math.max(...scriptBodies.map((body) => identitySimilarity(match.home, body)), 0);
+  const awayEmbedded = Math.max(...scriptBodies.map((body) => identitySimilarity(match.away, body)), 0);
+  return homeEmbedded >= 0.75 && awayEmbedded >= 0.75;
 };
 
 const headingAliases = {
