@@ -1,7 +1,7 @@
 # Ogrenme Agirlik Saglik Kontrolu
 
 Durum: calibrating
-Tahmin sayisi: 2382
+Tahmin sayisi: 2424
 Hazir market hafizasi: 7/13
 Hazir lig hafizasi: 4/343
 Hazir lig+market hafizasi: 0/1056
