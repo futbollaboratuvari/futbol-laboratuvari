@@ -179,6 +179,18 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Geri alma: Realtime UI/collector katmani ayriktir. Supabase Realtime gecici kullanilamazsa 30 dakikalik mevcut GitHub snapshot sistemi kullanici ekranini veri yokmus gibi birakmadan fallback olarak devam eder.
 
 ## PRO Robot Islem Gunlugu
+### 2026-09-20 - Resmi Iddaa Event-ID Sonuc Backfill V1
+
+- Kok neden: Rollover ve direct result bridge iyilestirmeleri stale pending kuyrugunu 1089'dan 981'e indirdi ancak kalan kayitlarin buyuk kismi isim bazli public sonuc kaynaklarinda hala eslesmiyordu.
+- Kimlik kapsami: Son kontrolde 981 stale tahminin 928'i arsivde exact tarih+takim ciftiyle bulundu. Bunlarin 435'i (%44.3) arsivde resmi iddaa_event_id tasiyor; 239 benzersiz event ID mevcut.
+- Cozum: update-final-scores resmi fetchIddaaEventDetail(eventId) kanalini bounded fallback olarak kullanir. Tahminin result_score alani bos, tarih gecmis, arsiv exact kimligi tekil ve event ID sayisal olmak zorundadir.
+- Fail-closed dogrulama: Event detail ayni event ID'yi, prediction icin izin verilen tarihi, guclu home/away takim benzerligini ve gercek sayisal skoru tasimiyorsa sonuc reddedilir. Arsivde ayni maca birden fazla farkli Iddaa ID baglanmissa aday uretilmez.
+- Yuk siniri: Her tur en fazla 24 benzersiz ID, concurrency 4. Skor bulunmayan veya hata veren ID 6 saat cooldown alir; ayni kayit her 15 dakikada tekrar sorgulanip kuyrugu bloke etmez.
+- Kaynak sagligi: final-score-sync-status icine iddaa_detail_requested_count, iddaa_detail_score_found_count, iddaa_detail_rejected_count ve iddaa_detail_checks eklendi. API-Football, football-data, SofaScore ve Iddaa detail icin yalniz configured/enabled boolean raporlanir; secret degerler asla yazilmaz.
+- SofaScore: GitHub production runner'da arka arkaya HTTP 403 verdigi icin varsayilan kapatildi. RESULT_ENABLE_SOFASCORE=1 acikca verilirse yeniden denenebilir; varsayilan akista gereksiz gecikme/warning uretmez.
+- Test: Robot Learning CI run 35489077426 Node 20/24 success; iddaa-result-backfill.test.js tekil kimlik, conflicting ID fail-closed, cooldown, tarih/takim/ID/skor dogrulamasi ve bounded async fetch davranisini kilitler. Live Match Analysis CI run 35489077402 Node 20/24 success. PRO Market Specialist CI run 35489077400 Node 20/24 success.
+- PR: #111 Resmi Iddaa event ID ile ogrenme sonuclarini backfill et, dal feat/iddaa-result-id-backfill-v1-20260920.
+
 ### 2026-09-20 - Result Backfill Rollover V2
 
 - Kok neden: Direct learning result bridge sonuclari learning-memory'ye dogrudan baglamaya basladi ancak stale pending kuyrugu buyuk olcude devam etti. 1096 eski pending tahminin mevcut skorlu arsivde yalniz 6 tanesi eslesebiliyordu. Eski analizde 00:00-06:59 bandindaki maclarda bulten tarihi ile sonuc saglayici tarihi arasinda +1 gun rollover ve ayni fixture'in coklu kaynaklardan farkli adlarla gelmesi tespit edildi.

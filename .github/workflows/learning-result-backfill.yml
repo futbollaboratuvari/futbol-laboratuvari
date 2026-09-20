@@ -35,6 +35,7 @@ jobs:
       - name: Verify learning result contracts
         run: |
           node tests/learning-market-settlement.test.js
+          node tests/iddaa-result-backfill.test.js
           node tests/learning-memory-retention.test.js
           node tests/learning-health-stale.test.js
 

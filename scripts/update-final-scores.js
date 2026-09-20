@@ -2,6 +2,7 @@ const fs = require("fs");
 const https = require("https");
 const path = require("path");
 const { writeJson } = require("./json-file-policy");
+const { fetchIddaaEventDetail } = require("./iddaa-data-source");
 
 const root = path.join(__dirname, "..");
 const archiveFile = path.join(root, "data", "robot_match_archive.json");
@@ -14,6 +15,10 @@ const FINISHED_STATUSES = new Set(["FT", "AET", "PEN"]);
 const MAX_DATES_PER_RUN = Math.max(1, Number(process.env.RESULT_DATE_LIMIT || 3));
 const RECHECK_INTERVAL_MS = Math.max(30, Number(process.env.RESULT_RECHECK_MINUTES || 120)) * 60 * 1000;
 const FINISHED_AFTER_MINUTES = 135;
+const IDDAA_RESULT_DETAIL_LIMIT = Math.max(0, Math.min(40, Number(process.env.IDDAA_RESULT_DETAIL_LIMIT || 24)));
+const IDDAA_RESULT_DETAIL_CONCURRENCY = Math.max(1, Math.min(6, Number(process.env.IDDAA_RESULT_DETAIL_CONCURRENCY || 4)));
+const IDDAA_RESULT_RECHECK_MS = Math.max(60, Number(process.env.IDDAA_RESULT_RECHECK_MINUTES || 360)) * 60 * 1000;
+const ENABLE_SOFASCORE = String(process.env.RESULT_ENABLE_SOFASCORE || "").trim() === "1";
 
 function readJson(file, fallback) {
   try {
@@ -413,26 +418,28 @@ async function fetchDateResults(date) {
   }
   if (espnErrors.length) errors.push(`ESPN Scoreboard: ${espnErrors.join(" | ")}`);
 
-  const sofaErrors = [];
-  for (const host of ["www.sofascore.com", "api.sofascore.com"]) {
-    try {
-      const payload = await requestJson(
-        `https://${host}/api/v1/sport/football/scheduled-events/${encodeURIComponent(date)}`,
-        {
-          "User-Agent": "Mozilla/5.0 (compatible; FutbolLaboratuvari-ResultSync/1.1)",
-          Referer: "https://www.sofascore.com/",
-          "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
-        },
-      );
-      results.push(...sofascoreResults(payload));
-      sources.push("SofaScore");
-      sofaErrors.length = 0;
-      break;
-    } catch (error) {
-      sofaErrors.push(`${host}: ${error.message}`);
+  if (ENABLE_SOFASCORE) {
+    const sofaErrors = [];
+    for (const host of ["www.sofascore.com", "api.sofascore.com"]) {
+      try {
+        const payload = await requestJson(
+          `https://${host}/api/v1/sport/football/scheduled-events/${encodeURIComponent(date)}`,
+          {
+            "User-Agent": "Mozilla/5.0 (compatible; FutbolLaboratuvari-ResultSync/1.1)",
+            Referer: "https://www.sofascore.com/",
+            "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
+          },
+        );
+        results.push(...sofascoreResults(payload));
+        sources.push("SofaScore");
+        sofaErrors.length = 0;
+        break;
+      } catch (error) {
+        sofaErrors.push(`${host}: ${error.message}`);
+      }
     }
+    if (sofaErrors.length) warnings.push(`SofaScore fallback: ${sofaErrors.join(" | ")}`);
   }
-  if (sofaErrors.length) warnings.push(`SofaScore fallback: ${sofaErrors.join(" | ")}`);
 
   try {
     const payload = await requestJson(`https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=${encodeURIComponent(date)}&s=Soccer`);
@@ -481,6 +488,176 @@ function datesToCheck(memory, previousStatus, now = new Date()) {
     const lastSuccess = Date.parse(checks[date]?.last_success_at || "");
     return !Number.isFinite(lastSuccess) || now.getTime() - lastSuccess >= RECHECK_INTERVAL_MS;
   }).slice(0, MAX_DATES_PER_RUN);
+}
+
+function archiveIdentityKey(item) {
+  const teams = teamsOf(item);
+  return [dateOf(item), normalizeTeam(teams.home), normalizeTeam(teams.away)].join("|");
+}
+
+function buildArchiveIdentityIndex(rows) {
+  const buckets = new Map();
+  for (const row of Array.isArray(rows) ? rows : []) {
+    const key = archiveIdentityKey(row);
+    if (!dateOf(row) || !normalizeTeam(teamsOf(row).home) || !normalizeTeam(teamsOf(row).away)) continue;
+    const eventId = String(row?.iddaa_event_id || "").trim();
+    const bucket = buckets.get(key) || { rows: [], event_ids: new Set() };
+    bucket.rows.push(row);
+    if (/^\d{1,12}$/.test(eventId)) bucket.event_ids.add(eventId);
+    buckets.set(key, bucket);
+  }
+
+  const index = new Map();
+  for (const [key, bucket] of buckets) {
+    if (bucket.event_ids.size !== 1) continue;
+    index.set(key, {
+      event_id: [...bucket.event_ids][0],
+      row: bucket.rows.find((item) => String(item?.iddaa_event_id || "").trim()) || bucket.rows[0],
+    });
+  }
+  return index;
+}
+
+function buildIddaaBackfillTargets(memory, archiveRows, previousStatus = {}, now = new Date(), limit = IDDAA_RESULT_DETAIL_LIMIT) {
+  if (limit <= 0) return [];
+  const today = istanbulDate(now);
+  const index = buildArchiveIdentityIndex(archiveRows);
+  const checks = previousStatus?.iddaa_detail_checks || {};
+  const targets = [];
+  const seenIds = new Set();
+
+  const candidates = (memory?.predictions || [])
+    .filter((item) => item?.status === "pending"
+      && !String(item?.result_score || "").trim()
+      && dateOf(item)
+      && dateOf(item) < today)
+    .sort((a, b) => dateOf(b).localeCompare(dateOf(a))
+      || String(b?.start_time || b?.time || "").localeCompare(String(a?.start_time || a?.time || "")));
+
+  for (const prediction of candidates) {
+    const identity = index.get(archiveIdentityKey(prediction));
+    if (!identity || seenIds.has(identity.event_id)) continue;
+    const lastAttempt = Date.parse(checks[identity.event_id]?.last_attempt_at || "");
+    if (Number.isFinite(lastAttempt) && now.getTime() - lastAttempt < IDDAA_RESULT_RECHECK_MS) continue;
+    seenIds.add(identity.event_id);
+    targets.push({
+      event_id: identity.event_id,
+      prediction,
+      archive_row: identity.row,
+    });
+    if (targets.length >= limit) break;
+  }
+  return targets;
+}
+
+function iddaaDetailResult(detailMatch, target) {
+  if (!detailMatch || !target?.prediction || !target?.event_id) return null;
+  if (String(detailMatch?.iddaa_event_id || detailMatch?.id || "").trim() !== String(target.event_id)) return null;
+  const score = scoreText(detailMatch?.homeScore, detailMatch?.awayScore)
+    || String(detailMatch?.score || "").trim();
+  if (!score) return null;
+
+  const prediction = target.prediction;
+  if (!resultDatesForMatch(prediction).includes(dateOf(detailMatch))) return null;
+  const similarity = pairSimilarity(prediction, detailMatch);
+  if (similarity.home < 0.78 || similarity.away < 0.78 || similarity.score < 0.88) return null;
+
+  const parsed = String(score).match(/(\d+)\D+(\d+)/);
+  if (!parsed) return null;
+  return {
+    date: dateOf(detailMatch),
+    home: teamsOf(detailMatch).home,
+    away: teamsOf(detailMatch).away,
+    homeScore: Number(parsed[1]),
+    awayScore: Number(parsed[2]),
+    score: `${Number(parsed[1])}-${Number(parsed[2])}`,
+    half_time_score: "",
+    status: "finished",
+    source: "iddaa.com resmi etkinlik detayı",
+    source_match_id: String(target.event_id),
+  };
+}
+
+async function mapLimit(items, limit, worker) {
+  if (!items.length) return [];
+  const results = new Array(items.length);
+  let cursor = 0;
+  const runners = Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (cursor < items.length) {
+      const index = cursor;
+      cursor += 1;
+      try {
+        results[index] = await worker(items[index], index);
+      } catch (error) {
+        results[index] = { ok: false, error: String(error?.message || error) };
+      }
+    }
+  });
+  await Promise.all(runners);
+  return results;
+}
+
+async function fetchIddaaBackfillResults(memory, archiveRows, previousStatus = {}, now = new Date(), options = {}) {
+  const fetchDetail = options.fetchDetail || fetchIddaaEventDetail;
+  const limit = options.limit ?? IDDAA_RESULT_DETAIL_LIMIT;
+  const concurrency = options.concurrency ?? IDDAA_RESULT_DETAIL_CONCURRENCY;
+  const targets = buildIddaaBackfillTargets(memory, archiveRows, previousStatus, now, limit);
+  const checks = { ...(previousStatus?.iddaa_detail_checks || {}) };
+  const results = [];
+  const errors = [];
+  const nowIso = now.toISOString();
+
+  const fetched = await mapLimit(targets, concurrency, async (target) => {
+    const payload = await fetchDetail(target.event_id, { timeoutMs: 7000 });
+    const result = iddaaDetailResult(payload?.match || null, target);
+    return { ok: true, target, result };
+  });
+
+  let scoreFound = 0;
+  let rejected = 0;
+  for (let index = 0; index < fetched.length; index += 1) {
+    const item = fetched[index];
+    const target = targets[index];
+    if (!target) continue;
+    if (!item?.ok) {
+      checks[target.event_id] = {
+        last_attempt_at: nowIso,
+        last_success_at: checks[target.event_id]?.last_success_at || null,
+        score_found: false,
+        error: String(item?.error || "unknown").slice(0, 180),
+      };
+      errors.push(`${target.event_id}: ${String(item?.error || "unknown")}`);
+      continue;
+    }
+
+    if (item.result) {
+      results.push(item.result);
+      scoreFound += 1;
+      checks[target.event_id] = {
+        last_attempt_at: nowIso,
+        last_success_at: nowIso,
+        score_found: true,
+        error: null,
+      };
+    } else {
+      rejected += 1;
+      checks[target.event_id] = {
+        last_attempt_at: nowIso,
+        last_success_at: checks[target.event_id]?.last_success_at || null,
+        score_found: false,
+        error: null,
+      };
+    }
+  }
+
+  return {
+    results,
+    checks,
+    requested: targets.length,
+    score_found: scoreFound,
+    rejected,
+    errors,
+  };
 }
 
 function needsNextDayLookup(memory, date, now = new Date()) {
@@ -644,6 +821,11 @@ async function runFinalScoreSync() {
     };
   }
 
+  const iddaaBackfill = await fetchIddaaBackfillResults(memory, archive.matches || [], previousStatus, now);
+  fetchedResults.push(...iddaaBackfill.results);
+  if (iddaaBackfill.results.length) sources.add("iddaa.com resmi etkinlik detayı");
+  warnings.push(...iddaaBackfill.errors.map((message) => `Iddaa detail: ${message}`));
+
   const results = dedupeResults(fetchedResults);
   const predictionUpdate = applyPredictionResults(memory.predictions || [], results, nowIso);
   const archiveUpdate = applyResults(archive.matches || [], results, nowIso);
@@ -679,6 +861,16 @@ async function runFinalScoreSync() {
     direct_learning_score_update_count: predictionUpdate.linked,
     direct_learning_half_time_update_count: predictionUpdate.halfTimeLinked,
     direct_learning_unmatched_count: predictionUpdate.unmatched,
+    iddaa_detail_requested_count: iddaaBackfill.requested,
+    iddaa_detail_score_found_count: iddaaBackfill.score_found,
+    iddaa_detail_rejected_count: iddaaBackfill.rejected,
+    iddaa_detail_checks: iddaaBackfill.checks,
+    provider_configuration: {
+      api_football_configured: uniqueKeys([process.env.API_FOOTBALL_KEY, process.env.API_FOOTBALL_KEY2]).length > 0,
+      football_data_configured: Boolean(String(process.env.FOOTBALL_DATA_API_KEY || "").trim()),
+      sofascore_enabled: ENABLE_SOFASCORE,
+      iddaa_detail_enabled: IDDAA_RESULT_DETAIL_LIMIT > 0,
+    },
     pending_prediction_count: (memory.predictions || []).filter((item) => item.status === "pending").length,
     errors: errors.slice(0, 20),
     warnings: warnings.slice(0, 20),
@@ -699,16 +891,21 @@ if (require.main === module) {
 module.exports = {
   apiFootballResults,
   applyPredictionResults,
+  archiveIdentityKey,
+  buildArchiveIdentityIndex,
+  buildIddaaBackfillTargets,
   applyResults,
   datesToCheck,
   eligiblePrediction,
   espnResults,
   fetchDateResults,
+  fetchIddaaBackfillResults,
   firstPeriodScore,
   findResultForMatch,
   footballDataResults,
   normalizeTeam,
   pairSimilarity,
+  iddaaDetailResult,
   runFinalScoreSync,
   resultDatesForMatch,
   sofascoreResults,
