@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 542
+- Scheduled match count: 432
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-20 / 2026-09-21 23:59
 
-- 2026-09-20 11:15 | Viktoria Zizko - Trinec | scheduled
-- 2026-09-20 11:30 | Avusturya Wien - Rapid Vienna (A | scheduled
-- 2026-09-20 11:30 | Borneo Fc - Bali United | scheduled
-- 2026-09-20 11:30 | Dewa United - Pss Sleman | scheduled
-- 2026-09-20 11:30 | Ramnicu Valcea - Bihor | scheduled
-- 2026-09-20 11:30 | Zilina Ii - Povazska Bystri | scheduled
-- 2026-09-20 11:30 | Taichung Rock - Taiwan Power Co | scheduled
-- 2026-09-20 12:00 | Paris U19 - Clermont U19 | scheduled
-- 2026-09-20 12:00 | Colomiers U19 - Saint-Etienne U | scheduled
-- 2026-09-20 12:00 | Deportiva Mine - Orihuela | scheduled
+- 2026-09-20 15:00 | Atlas Delmenho - Eimsbutteler | scheduled
+- 2026-09-20 15:00 | Bfc Dynamo - Magdeburg Ii | scheduled
+- 2026-09-20 15:00 | Carl Zeiss Jen - Leipzig | scheduled
+- 2026-09-20 15:00 | Greifswalder S - Luckenwalde | scheduled
+- 2026-09-20 15:00 | Norderstedt - Werder Bremen ( | scheduled
+- 2026-09-20 15:00 | Hamburger Sv ( - Nürnberg (K) | scheduled
+- 2026-09-20 15:00 | Esperança Dand - Fc Ordino | scheduled
+- 2026-09-20 15:00 | Baranovichi - Gomel | scheduled
+- 2026-09-20 15:00 | Aalborg - Vendsyssel | scheduled
+- 2026-09-20 15:00 | Brondby - Kopenhag | scheduled

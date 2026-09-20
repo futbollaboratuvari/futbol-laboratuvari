@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-20T08:06:25.252349+00:00
+Tarih: 2026-09-20T11:39:05.780033+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 508
-- Kac mac kaydedildi: 8
-- Kac mac zaten vardi: 500
-- Ham veri havuzu toplam mac sayisi: 16294
+- Kac mac bulundu: 415
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 415
+- Ham veri havuzu toplam mac sayisi: 16306
 - Hedef tarih: 20.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -27,9 +27,6 @@ Tarih: 2026-09-20T08:06:25.252349+00:00
 - Arjantin Primera C
 - Arjantin Ulusal Primera Lig
 - Arnavutluk Süperlig
-- Asya Oyunları Grup A
-- Asya Oyunları Grup B
-- Avusturya 1.Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
 - Bahreyn 2.Lig
@@ -56,25 +53,17 @@ Tarih: 2026-09-20T08:06:25.252349+00:00
 - Fransa U19 Ulusal Şampiyona Grup A
 - Fransa U19 Ulusal Şampiyona Grup B
 - Fransa U19 Ulusal Şampiyona Grup C
-- Fransa U19 Ulusal Şampiyona Grup D
 - Gana Premier Lig
 - Guatemala Ulusal Lig Apertura
+- Güney Afrika 1.Lig
 - Güney Afrika PSL
-- Güney Kore K Lig 1
-- Güney Kore K Lig 2
-- Güney Kore K3 Ligi
 - Gürcistan Erovnuli Liga
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Kadınlar Eredivisie
-- Hong Kong HKFA 1.Lig
-- Hong Kong Premier Lig
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Jamaika Premier Lig
-- Japonya J1 Lig
-- Japonya J2 Lig
-- Japonya J3 Lig
 - Kadınlar U20 Dünya Kupası Çeyrek Final
 - Kanada Premier Lig
 - Karadağ 1.Lig
@@ -88,6 +77,7 @@ Tarih: 2026-09-20T08:06:25.252349+00:00
 - Macaristan NB I
 - Macaristan NB II
 - Macaristan NB III Güneydoğu
+- Macaristan NB III Kuzeybatı
 - Malezya FA Kupası Çeyrek Final
 - Malta Premier Lig Açılış
 - Meksika Kadınlar Liga MX Apertura
@@ -108,9 +98,7 @@ Tarih: 2026-09-20T08:06:25.252349+00:00
 - Polonya Ekstraklasa
 - Portekiz Kupa 2.Tur
 - Portekiz Premier Lig
-- Portekiz U23 Ulusal Şampiyona
 - Romanya 1.Lig
-- Romanya 2.Lig
 - Slovakya 2.Lig
 - Slovakya Süper Lig
 - Slovenya 1.SNL
@@ -127,7 +115,6 @@ Tarih: 2026-09-20T08:06:25.252349+00:00
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - Vietnam Kupa 1.Tur
-- Vietnam V-Lig 1
 - Yunanistan Süper Lig
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
@@ -137,9 +124,7 @@ Tarih: 2026-09-20T08:06:25.252349+00:00
 - İngiltere FA Cup Eleme 2.Tur
 - İngiltere Kadınlar Premier Lig
 - İngiltere Premier Lig
-- İskoçya Premiership
 - İspanya 2. Lig RFEF Grup 1
-- İspanya 2. Lig RFEF Grup 2
 - İspanya 2. Lig RFEF Grup 3
 - İspanya 2. Lig RFEF Grup 4
 - İspanya 2. Lig RFEF Grup 5
@@ -149,7 +134,6 @@ Tarih: 2026-09-20T08:06:25.252349+00:00
 - İspanya Gençler Onur Ligi Grup 3
 - İspanya Gençler Onur Ligi Grup 4
 - İspanya Gençler Onur Ligi Grup 5
-- İspanya Gençler Onur Ligi Grup 6
 - İspanya Gençler Onur Ligi Grup 7
 - İspanya Kadınlar Primera Lig
 - İspanya LaLiga
@@ -160,6 +144,7 @@ Tarih: 2026-09-20T08:06:25.252349+00:00
 - İspanya Tercera Ligi Grup 11
 - İspanya Tercera Ligi Grup 13
 - İspanya Tercera Ligi Grup 14
+- İspanya Tercera Ligi Grup 17
 - İspanya Tercera Ligi Grup 18
 - İspanya Tercera Ligi Grup 2
 - İspanya Tercera Ligi Grup 3
@@ -168,7 +153,6 @@ Tarih: 2026-09-20T08:06:25.252349+00:00
 - İspanya Tercera Ligi Grup 6
 - İspanya Tercera Ligi Grup 9
 - İsveç 2.Lig Norra Götaland
-- İsveç 2.Lig Norra Svealand
 - İsveç 2.Lig Norrland Yükselme Grubu
 - İsveç 2.Lig Södra Götaland
 - İsveç 2.Lig Södra Svealand
@@ -257,25 +241,25 @@ Tarih: 2026-09-20T08:06:25.252349+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 20.09.2026 | 20:00 | Türkiye Süper Lig | Amed Sk | Beşiktaş | 06970 | 5 |
-| 20.09.2026 | 20:00 | Türkiye Süper Lig | Göztepe | Rizespor | 06974 | 5 |
 | 20.09.2026 | 17:00 | Türkiye Süper Lig | Erzurumspor Fk | Samsunspor | 04733 | 5 |
+| 20.09.2026 | 20:00 | Türkiye Süper Lig | Göztepe | Rizespor | 06974 | 5 |
 | 20.09.2026 | 17:00 | Türkiye Süper Lig | Fenerbahçe | Eyüpspor | 04737 | 5 |
 | 20.09.2026 | 17:00 | Türkiye TFF 1. Lig | Manisa Futbol | İstanbulspor | 51752 | 5 |
 | 20.09.2026 | 17:00 | Türkiye TFF 1. Lig | Pendikspor | Bodrum Fk | 51769 | 5 |
 | 20.09.2026 | 20:00 | Türkiye TFF 1. Lig | Antalyaspor | Van Spor Fk | 51786 | 5 |
 | 20.09.2026 | 20:00 | Türkiye TFF 1. Lig | Mardin 1969 | Kayserispor | 51803 | 5 |
-| 20.09.2026 | 16:00 | İngiltere Premier Lig | Bournemouth | Liverpool | 09846 | 5 |
-| 20.09.2026 | 16:00 | İngiltere Premier Lig | Leeds Utd | Crystal Palace | 09945 | 5 |
 | 20.09.2026 | 16:00 | İngiltere Premier Lig | Manchester Cit | Sunderland | 10026 | 5 |
+| 20.09.2026 | 16:00 | İngiltere Premier Lig | Leeds Utd | Crystal Palace | 09945 | 5 |
+| 20.09.2026 | 16:00 | İngiltere Premier Lig | Bournemouth | Liverpool | 09846 | 5 |
 | 20.09.2026 | 18:30 | İngiltere Premier Lig | Fulham | Man. Utd | 10101 | 5 |
-| 20.09.2026 | 19:30 | İspanya LaLiga | D.La Coruna | Real Betis | 12047 | 5 |
-| 20.09.2026 | 15:00 | İspanya LaLiga | Getafe | Malaga | 11970 | 5 |
 | 20.09.2026 | 17:15 | İspanya LaLiga | Atletico Madri | Real Madrid | 04858 | 5 |
 | 20.09.2026 | 19:30 | İspanya LaLiga | Villarreal | Levante | 12109 | 5 |
+| 20.09.2026 | 15:00 | İspanya LaLiga | Getafe | Malaga | 11970 | 5 |
+| 20.09.2026 | 19:30 | İspanya LaLiga | D.La Coruna | Real Betis | 12047 | 5 |
 | 20.09.2026 | 22:00 | İspanya LaLiga | Valencia | Real Sociedad | 12206 | 5 |
 | 20.09.2026 | 21:45 | İtalya Serie A | Ac Milan | Lecce | 33094 | 5 |
 | 20.09.2026 | 19:00 | İtalya Serie A | Juventus | Atalanta | 32978 | 5 |
-| 20.09.2026 | 13:30 | İtalya Serie A | Fiorentina | Napoli | 32622 | 5 |
+| 20.09.2026 | 16:00 | İtalya Serie A | Frosinone | Como | 32721 | 5 |
 
 ## Sonuc
 
