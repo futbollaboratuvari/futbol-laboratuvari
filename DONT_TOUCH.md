@@ -188,7 +188,7 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Test: learning-memory-retention regresyonuna prediction-time alanlarinin sonradan degismedigini ve premium performans ozetinin yalniz kilitli premium kayitlari saydigini dogrulayan testler eklendi. Robot Learning CI run 35490376459 Node 20 ve Node 24 success.
 - Etkilenen dosyalar: scripts/robot-learning-memory.js, tests/learning-memory-retention.test.js, DONT_TOUCH.md.
 - Geri alma: Yeni snapshot ve premium_performance summary alanlari kaldirilabilir; mevcut tahmin status/sonuc hafizasi etkilenmez.
-- PR: #115 Premium basari metrigini tahmin aninda kilitle, dal fix/premium-forward-performance-v1-20260920.
+- Kapanis: PR #115 Premium basari metrigini tahmin aninda kilitle merge edildi; merge commit 45099251c99c3838e4c2e60fb338b69bff563440. Dal fix/premium-forward-performance-v1-20260920.
 
 ### 2026-09-20 - PRO Accuracy-First V1 ve Sonuc Backfill Hizlandirma
 
