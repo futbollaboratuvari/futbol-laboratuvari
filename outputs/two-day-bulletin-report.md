@@ -2,41 +2,15 @@
 
 Gunler: 2026-09-20 / 2026-09-21
 Kaynak: fixtures.json
-Ham mac: 657
-Aktif mac: 84
+Ham mac: 203
+Aktif mac: 58
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 573
-Bugun: 41
+Biten mac: 10
+Bultenden dusurulen mac: 145
+Bugun: 15
 Yarin: 43
 
 ## Baslamamis Maclar
-- 2026-09-20 21:15 | Polonya Ekstraklasa | Lech Poznan - Radomiak Radom | scheduled | -
-- 2026-09-20 21:15 | Slovenya 1.SNL | Nk Brinje Gros - Radomlje | scheduled | -
-- 2026-09-20 21:30 | İtalya Serie C Grup A | Lecco - Pergolettese | scheduled | -
-- 2026-09-20 21:30 | İtalya Serie C Grup A | Alcione - Union Brescia | scheduled | -
-- 2026-09-20 21:30 | İtalya Serie C Grup A | Folgore Carate - Giana Erminio | scheduled | -
-- 2026-09-20 21:30 | İtalya Serie C Grup B | Grosseto - Perugia | scheduled | -
-- 2026-09-20 21:30 | İtalya Serie C Grup B | Gubbio - Ostia Mare Lido | scheduled | -
-- 2026-09-20 21:30 | İspanya Primera Lig RFEF Grup 2 | Zaragoza - Cartagena | scheduled | -
-- 2026-09-20 21:30 | İspanya Primera Lig RFEF Grup 2 | Hercules - Juventud Torrem | scheduled | -
-- 2026-09-20 21:30 | Ekvador Pro Lig Küme Düşme Grubu | T.Universitari - Delfin | scheduled | -
-- 2026-09-20 21:30 | Malta Premier Lig Açılış | Sliema - Balzan Fc | scheduled | -
-- 2026-09-20 21:45 | İtalya Serie A | Ac Milan - Lecce | scheduled | -
-- 2026-09-20 21:45 | Fransa Ligue 1 | Marsilya - Psg | scheduled | -
-- 2026-09-20 22:00 | İspanya LaLiga | Valencia - Real Sociedad | scheduled | -
-- 2026-09-20 22:00 | İspanya 2.Lig | Leganes - Granada | scheduled | -
-- 2026-09-20 22:00 | Brezilya Serie A | Vitoria Bahia - Cruzeiro | scheduled | -
-- 2026-09-20 22:00 | Brezilya Serie A | Corinthians - Fluminense | scheduled | -
-- 2026-09-20 22:00 | Kolombiya Primera A Clausura | Fortaleza - Atletico Junior | scheduled | -
-- 2026-09-20 22:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - R Cordoba | scheduled | -
-- 2026-09-20 22:00 | Brezilya Serie B | Goias - Avai | scheduled | -
-- 2026-09-20 22:00 | Kanada Premier Lig | Hfx Wanderers - Inter Toronto | scheduled | -
-- 2026-09-20 22:00 | Brezilya Serie C Grup B | Santa Cruz - Floresta | scheduled | -
-- 2026-09-20 22:30 | Portekiz Premier Lig | Porto - Benfica | scheduled | -
-- 2026-09-20 22:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe - Los Andes | scheduled | -
-- 2026-09-20 22:30 | Arjantin Ulusal Primera Lig | Maipu - Gimnasia Jujuy | scheduled | -
-- 2026-09-20 22:30 | Uruguay Premier Lig Clausura | Nacional Df - Defensor Sporti | scheduled | -
 - 2026-09-20 23:00 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Argentinos Jr | scheduled | -
 - 2026-09-20 23:00 | Arjantin Premier Lig 2. Aşama | Platense - Newells Old Boy | scheduled | -
 - 2026-09-20 23:00 | Venezuela Premier Lig Clausura | Zamora - Metropolitanos | scheduled | -
@@ -100,4 +74,13 @@ Yarin: 43
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-20 19:30 | İspanya LaLiga | Villarreal - Levante | finished | 3-1
+- 2026-09-20 19:30 | İspanya 2.Lig | Las Palmas - Burgos | finished | 1-2
+- 2026-09-20 19:30 | Yunanistan Süper Lig | Kalamata - Panathinaikos | finished | 0-1
+- 2026-09-20 20:00 | Türkiye Süper Lig | Göztepe - Rizespor | finished | 2-2
+- 2026-09-20 20:00 | Portekiz Premier Lig | Estoril - Casa Pia | finished | 1-2
+- 2026-09-20 20:00 | Portekiz Premier Lig | Santa Clara - Braga | finished | 0-0
+- 2026-09-20 20:15 | Belçika Pro Lig | Kortrijk - Waasland Bevere | finished | 1-0
+- 2026-09-20 20:15 | Norveç Eliteserien | Brann - Bodo Glimt | finished | 2-1
+- 2026-09-20 20:30 | Almanya Bundesliga | Paderborn - Hoffenheim | finished | 3-1
+- 2026-09-20 20:30 | İtalya Serie B | Modena - Empoli | finished | 2-1

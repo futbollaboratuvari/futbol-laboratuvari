@@ -1,6 +1,6 @@
 {
   "schema_version": "loss_pattern_memory_v1",
-  "generated_at": "2026-09-20T19:27:36.664Z",
+  "generated_at": "2026-09-20T19:35:00.406Z",
   "status": "active",
   "policy": {
     "purpose": "Tekrarlayan gözlenebilir hata bağlamlarını saptayıp gelecekte aynı bağlamda yalnız negatif fren uygulamak.",
@@ -128,38 +128,6 @@
       "dominant_miss_type": "home_pick_drew",
       "active_factor_count": 3
     },
-    "3.5 Üst": {
-      "settled": 37,
-      "won": 18,
-      "lost": 19,
-      "loss_rate": 0.514,
-      "distinct_loss_dates": 3,
-      "miss_types": {
-        "goal_shortfall": 19
-      },
-      "factors": {
-        "low_data_selection": {
-          "loss_count": 4,
-          "distinct_dates": 3,
-          "share_of_losses": 0.211,
-          "active": false
-        },
-        "high_confidence_miss": {
-          "loss_count": 4,
-          "distinct_dates": 3,
-          "share_of_losses": 0.211,
-          "active": false
-        },
-        "nonpositive_edge_selection": {
-          "loss_count": 1,
-          "distinct_dates": 1,
-          "share_of_losses": 0.053,
-          "active": false
-        }
-      },
-      "dominant_miss_type": "goal_shortfall",
-      "active_factor_count": 0
-    },
     "KG Var": {
       "settled": 65,
       "won": 36,
@@ -196,6 +164,38 @@
         }
       },
       "dominant_miss_type": "btts_failed",
+      "active_factor_count": 0
+    },
+    "3.5 Üst": {
+      "settled": 37,
+      "won": 18,
+      "lost": 19,
+      "loss_rate": 0.514,
+      "distinct_loss_dates": 3,
+      "miss_types": {
+        "goal_shortfall": 19
+      },
+      "factors": {
+        "low_data_selection": {
+          "loss_count": 4,
+          "distinct_dates": 3,
+          "share_of_losses": 0.211,
+          "active": false
+        },
+        "high_confidence_miss": {
+          "loss_count": 4,
+          "distinct_dates": 3,
+          "share_of_losses": 0.211,
+          "active": false
+        },
+        "nonpositive_edge_selection": {
+          "loss_count": 1,
+          "distinct_dates": 1,
+          "share_of_losses": 0.053,
+          "active": false
+        }
+      },
+      "dominant_miss_type": "goal_shortfall",
       "active_factor_count": 0
     },
     "KG Yok": {
