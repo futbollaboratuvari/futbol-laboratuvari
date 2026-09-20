@@ -254,6 +254,9 @@ const normalizeFixture = (item, sourceName = MACKOLIK_SOURCE) => {
     home,
     away,
     matchCode: item?.matchCode || item?.match_code || item?.code || null,
+    iddaa_event_id: item?.iddaa_event_id || item?.official_event_id || null,
+    official_event_id: item?.official_event_id || item?.iddaa_event_id || null,
+    nesine_stats_id: item?.nesine_stats_id || item?.iddaa_event_id || item?.official_event_id || null,
     mbs: item?.mbs || item?.MBS || null,
     status,
     liveStatus: status,
@@ -352,6 +355,30 @@ const uniqueAndSort = (matches) => {
 
 const hasMackolikSource = (matches) => matches.some((item) => /mackolik|maçkolik/i.test(String(item.source || "")));
 
+const identityKey = (item) => [item?.date, item?.time, item?.home, item?.away]
+  .map((value) => String(value || "").trim().toLocaleLowerCase("tr-TR"))
+  .join("|");
+
+const carryOfficialIds = (matches, previousRoot) => {
+  const previousRows = [
+    ...(Array.isArray(previousRoot?.matches) ? previousRoot.matches : []),
+    ...(Array.isArray(previousRoot?.live_matches) ? previousRoot.live_matches : []),
+    ...(Array.isArray(previousRoot?.finished_matches) ? previousRoot.finished_matches : []),
+  ];
+  const byIdentity = new Map(previousRows.map((row) => [identityKey(row), row]));
+  return matches.map((match) => {
+    if (match.iddaa_event_id || match.official_event_id || match.nesine_stats_id) return match;
+    const previous = byIdentity.get(identityKey(match));
+    const id = previous?.iddaa_event_id || previous?.official_event_id || previous?.nesine_stats_id || null;
+    return id ? {
+      ...match,
+      iddaa_event_id: id,
+      official_event_id: id,
+      nesine_stats_id: previous?.nesine_stats_id || id,
+    } : match;
+  });
+};
+
 const buildBulletin = async () => {
   let external = [];
   let externalWarning = "";
@@ -363,7 +390,8 @@ const buildBulletin = async () => {
   }
 
   const local = localSources();
-  const allMatches = uniqueAndSort([...local, ...external]);
+  const previousRoot = readJson(outputPath, {});
+  const allMatches = carryOfficialIds(uniqueAndSort([...local, ...external]), previousRoot);
   const liveMatches = allMatches.filter((item) => item.status === "live" || item.liveStatus === "live");
   const finishedMatches = allMatches.filter((item) => item.status === "finished");
   const expiredScheduled = allMatches.filter((item) => item.status === "scheduled" && scheduledStartHasPassed(item));
