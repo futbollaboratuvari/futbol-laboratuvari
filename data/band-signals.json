@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20T06:19:11.888Z",
-  "match_count": 545,
+  "generated_at": "2026-09-20T06:40:07.256Z",
+  "match_count": 552,
   "matches": [
     {
       "match_name": "Hong Kong U23 VS Tayland U23",
@@ -341,18 +341,18 @@
           "away": "Tayland U23",
           "date": "2026-09-20",
           "start_time": "10:00",
-          "minutes_to_kickoff": 49.6,
-          "checkpoint": "T60",
+          "minutes_to_kickoff": 28.7,
+          "checkpoint": "T30",
           "active": true,
           "tracked_market": "MS 2",
           "tracked_market_key": "ms2",
-          "current_odd": 1.42,
+          "current_odd": 1.44,
           "current_odd_source": "verified_named_field:ms2",
           "lineup_risk_level": "Belirsiz",
           "both_lineups_confirmed": false,
           "lineup_freshness_minutes": 0.1,
           "consensus_freshness_minutes": 0.1,
-          "news_context_freshness_minutes": 288.4,
+          "news_context_freshness_minutes": 309.3,
           "source_conflict_level": "none",
           "source_confidence_score": 0,
           "general_decision": "downgrade",
@@ -361,10 +361,10 @@
           "general_score_penalty": 4,
           "market_score_penalty": 0,
           "market_severe_adverse": false,
-          "relative_odd_change_percent": null,
+          "relative_odd_change_percent": 1.4,
           "reasons": [
             "Son kontrol: kaynak güven puanı düşük (0/100).",
-            "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+            "Doğrulanmış ms2 oran hareketi sınırlı (%1.4)."
           ],
           "snapshots": {
             "T60": {
@@ -378,11 +378,23 @@
               "both_lineups_confirmed": false,
               "source_conflict_level": "none",
               "source_confidence_score": 0
+            },
+            "T30": {
+              "checkpoint": "T30",
+              "captured_at": "2026-09-20T06:31:15.188Z",
+              "tracked_market": "MS 2",
+              "tracked_market_key": "ms2",
+              "odd": 1.44,
+              "odd_source": "verified_named_field:ms2",
+              "lineup_risk_level": "Belirsiz",
+              "both_lineups_confirmed": false,
+              "source_conflict_level": "none",
+              "source_confidence_score": 0
             }
           }
         },
         "pre_match_decision": "downgrade",
-        "pre_match_checkpoint": "T60",
+        "pre_match_checkpoint": "T30",
         "home_edge": 0,
         "away_edge": 0,
         "momentum_difference": 0,
@@ -738,8 +750,8 @@
           "away": "Wse",
           "date": "2026-09-20",
           "start_time": "10:00",
-          "minutes_to_kickoff": 49.6,
-          "checkpoint": "T60",
+          "minutes_to_kickoff": 28.7,
+          "checkpoint": "T30",
           "active": true,
           "tracked_market": "MS 2",
           "tracked_market_key": "ms2",
@@ -749,7 +761,7 @@
           "both_lineups_confirmed": false,
           "lineup_freshness_minutes": 0.1,
           "consensus_freshness_minutes": 0.1,
-          "news_context_freshness_minutes": 288.3,
+          "news_context_freshness_minutes": 309.1,
           "source_conflict_level": "none",
           "source_confidence_score": 0,
           "general_decision": "downgrade",
@@ -758,10 +770,10 @@
           "general_score_penalty": 4,
           "market_score_penalty": 0,
           "market_severe_adverse": false,
-          "relative_odd_change_percent": null,
+          "relative_odd_change_percent": 0,
           "reasons": [
             "Son kontrol: kaynak güven puanı düşük (0/100).",
-            "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+            "Doğrulanmış ms2 oran hareketi sınırlı (%0.0)."
           ],
           "snapshots": {
             "T60": {
@@ -775,11 +787,23 @@
               "both_lineups_confirmed": false,
               "source_conflict_level": "none",
               "source_confidence_score": 0
+            },
+            "T30": {
+              "checkpoint": "T30",
+              "captured_at": "2026-09-20T06:31:15.188Z",
+              "tracked_market": "MS 2",
+              "tracked_market_key": "ms2",
+              "odd": 1.61,
+              "odd_source": "verified_named_field:ms2",
+              "lineup_risk_level": "Belirsiz",
+              "both_lineups_confirmed": false,
+              "source_conflict_level": "none",
+              "source_confidence_score": 0
             }
           }
         },
         "pre_match_decision": "downgrade",
-        "pre_match_checkpoint": "T60",
+        "pre_match_checkpoint": "T30",
         "home_edge": 0,
         "away_edge": 0,
         "momentum_difference": 0,
@@ -1129,9 +1153,54 @@
         "source_conflict_level": "none",
         "source_uncertainty_brake": -3,
         "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 0/100, çelişki none.",
-        "pre_match_final_check": null,
-        "pre_match_decision": "not_due",
-        "pre_match_checkpoint": "not_due",
+        "pre_match_final_check": {
+          "match_name": "Gangwon VS Jeju Utd",
+          "home": "Gangwon",
+          "away": "Jeju Utd",
+          "date": "2026-09-20",
+          "start_time": "10:30",
+          "minutes_to_kickoff": 58.7,
+          "checkpoint": "T60",
+          "active": true,
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "current_odd": 1.44,
+          "current_odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "lineup_freshness_minutes": 0.1,
+          "consensus_freshness_minutes": 0.1,
+          "news_context_freshness_minutes": 309.1,
+          "source_conflict_level": "none",
+          "source_confidence_score": 0,
+          "general_decision": "downgrade",
+          "market_decision": "keep",
+          "decision": "downgrade",
+          "general_score_penalty": 4,
+          "market_score_penalty": 0,
+          "market_severe_adverse": false,
+          "relative_odd_change_percent": null,
+          "reasons": [
+            "Son kontrol: kaynak güven puanı düşük (0/100).",
+            "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+          ],
+          "snapshots": {
+            "T60": {
+              "checkpoint": "T60",
+              "captured_at": "2026-09-20T06:31:15.188Z",
+              "tracked_market": "2.5 Alt",
+              "tracked_market_key": "under25",
+              "odd": 1.44,
+              "odd_source": "verified_named_field:under25",
+              "lineup_risk_level": "Belirsiz",
+              "both_lineups_confirmed": false,
+              "source_conflict_level": "none",
+              "source_confidence_score": 0
+            }
+          }
+        },
+        "pre_match_decision": "downgrade",
+        "pre_match_checkpoint": "T60",
         "home_edge": 0,
         "away_edge": 0,
         "momentum_difference": 0,
@@ -1481,9 +1550,54 @@
         "source_conflict_level": "none",
         "source_uncertainty_brake": -3,
         "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 0/100, çelişki none.",
-        "pre_match_final_check": null,
-        "pre_match_decision": "not_due",
-        "pre_match_checkpoint": "not_due",
+        "pre_match_final_check": {
+          "match_name": "Jeonbuk Hm VS Gwangju",
+          "home": "Jeonbuk Hm",
+          "away": "Gwangju",
+          "date": "2026-09-20",
+          "start_time": "10:30",
+          "minutes_to_kickoff": 58.7,
+          "checkpoint": "T60",
+          "active": true,
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "current_odd": 1.35,
+          "current_odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "lineup_freshness_minutes": 0.1,
+          "consensus_freshness_minutes": 0.1,
+          "news_context_freshness_minutes": 309,
+          "source_conflict_level": "none",
+          "source_confidence_score": 0,
+          "general_decision": "downgrade",
+          "market_decision": "keep",
+          "decision": "downgrade",
+          "general_score_penalty": 4,
+          "market_score_penalty": 0,
+          "market_severe_adverse": false,
+          "relative_odd_change_percent": null,
+          "reasons": [
+            "Son kontrol: kaynak güven puanı düşük (0/100).",
+            "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+          ],
+          "snapshots": {
+            "T60": {
+              "checkpoint": "T60",
+              "captured_at": "2026-09-20T06:31:15.188Z",
+              "tracked_market": "MS 1",
+              "tracked_market_key": "ms1",
+              "odd": 1.35,
+              "odd_source": "verified_named_field:ms1",
+              "lineup_risk_level": "Belirsiz",
+              "both_lineups_confirmed": false,
+              "source_conflict_level": "none",
+              "source_confidence_score": 0
+            }
+          }
+        },
+        "pre_match_decision": "downgrade",
+        "pre_match_checkpoint": "T60",
         "home_edge": 0,
         "away_edge": 0,
         "momentum_difference": 0,
@@ -1833,9 +1947,54 @@
         "source_conflict_level": "none",
         "source_uncertainty_brake": -3,
         "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 0/100, çelişki none.",
-        "pre_match_final_check": null,
-        "pre_match_decision": "not_due",
-        "pre_match_checkpoint": "not_due",
+        "pre_match_final_check": {
+          "match_name": "Ansan Greeners VS Cheongju Fc",
+          "home": "Ansan Greeners",
+          "away": "Cheongju Fc",
+          "date": "2026-09-20",
+          "start_time": "10:30",
+          "minutes_to_kickoff": 58.7,
+          "checkpoint": "T60",
+          "active": true,
+          "tracked_market": "İY KG / 2Y KG Hayır / Hayır",
+          "tracked_market_key": null,
+          "current_odd": null,
+          "current_odd_source": null,
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "lineup_freshness_minutes": 0.1,
+          "consensus_freshness_minutes": 0.1,
+          "news_context_freshness_minutes": 309,
+          "source_conflict_level": "none",
+          "source_confidence_score": 0,
+          "general_decision": "downgrade",
+          "market_decision": "keep",
+          "decision": "downgrade",
+          "general_score_penalty": 4,
+          "market_score_penalty": 0,
+          "market_severe_adverse": false,
+          "relative_odd_change_percent": null,
+          "reasons": [
+            "Son kontrol: kaynak güven puanı düşük (0/100).",
+            "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+          ],
+          "snapshots": {
+            "T60": {
+              "checkpoint": "T60",
+              "captured_at": "2026-09-20T06:31:15.188Z",
+              "tracked_market": "İY KG / 2Y KG Hayır / Hayır",
+              "tracked_market_key": null,
+              "odd": null,
+              "odd_source": null,
+              "lineup_risk_level": "Belirsiz",
+              "both_lineups_confirmed": false,
+              "source_conflict_level": "none",
+              "source_confidence_score": 0
+            }
+          }
+        },
+        "pre_match_decision": "downgrade",
+        "pre_match_checkpoint": "T60",
         "home_edge": 0,
         "away_edge": 0,
         "momentum_difference": 0,
@@ -2185,9 +2344,54 @@
         "source_conflict_level": "none",
         "source_uncertainty_brake": -3,
         "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 0/100, çelişki none.",
-        "pre_match_final_check": null,
-        "pre_match_decision": "not_due",
-        "pre_match_checkpoint": "not_due",
+        "pre_match_final_check": {
+          "match_name": "Yongin VS Gyeongnam",
+          "home": "Yongin",
+          "away": "Gyeongnam",
+          "date": "2026-09-20",
+          "start_time": "10:30",
+          "minutes_to_kickoff": 58.7,
+          "checkpoint": "T60",
+          "active": true,
+          "tracked_market": "İY KG / 2Y KG Hayır / Hayır",
+          "tracked_market_key": null,
+          "current_odd": null,
+          "current_odd_source": null,
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "lineup_freshness_minutes": 0.1,
+          "consensus_freshness_minutes": 0.1,
+          "news_context_freshness_minutes": 308.9,
+          "source_conflict_level": "none",
+          "source_confidence_score": 0,
+          "general_decision": "downgrade",
+          "market_decision": "keep",
+          "decision": "downgrade",
+          "general_score_penalty": 4,
+          "market_score_penalty": 0,
+          "market_severe_adverse": false,
+          "relative_odd_change_percent": null,
+          "reasons": [
+            "Son kontrol: kaynak güven puanı düşük (0/100).",
+            "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+          ],
+          "snapshots": {
+            "T60": {
+              "checkpoint": "T60",
+              "captured_at": "2026-09-20T06:31:15.188Z",
+              "tracked_market": "İY KG / 2Y KG Hayır / Hayır",
+              "tracked_market_key": null,
+              "odd": null,
+              "odd_source": null,
+              "lineup_risk_level": "Belirsiz",
+              "both_lineups_confirmed": false,
+              "source_conflict_level": "none",
+              "source_confidence_score": 0
+            }
+          }
+        },
+        "pre_match_decision": "downgrade",
+        "pre_match_checkpoint": "T60",
         "home_edge": 0,
         "away_edge": 0,
         "momentum_difference": 0,
@@ -2537,9 +2741,54 @@
         "source_conflict_level": "none",
         "source_uncertainty_brake": -3,
         "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 0/100, çelişki none.",
-        "pre_match_final_check": null,
-        "pre_match_decision": "not_due",
-        "pre_match_checkpoint": "not_due",
+        "pre_match_final_check": {
+          "match_name": "3 Sing VS Yuen Long",
+          "home": "3 Sing",
+          "away": "Yuen Long",
+          "date": "2026-09-20",
+          "start_time": "10:30",
+          "minutes_to_kickoff": 58.7,
+          "checkpoint": "T60",
+          "active": true,
+          "tracked_market": "KG Yok",
+          "tracked_market_key": "bttsNo",
+          "current_odd": 1.66,
+          "current_odd_source": "verified_named_field:bttsNo",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "lineup_freshness_minutes": 0.1,
+          "consensus_freshness_minutes": 0.1,
+          "news_context_freshness_minutes": 308.9,
+          "source_conflict_level": "none",
+          "source_confidence_score": 0,
+          "general_decision": "downgrade",
+          "market_decision": "keep",
+          "decision": "downgrade",
+          "general_score_penalty": 4,
+          "market_score_penalty": 0,
+          "market_severe_adverse": false,
+          "relative_odd_change_percent": null,
+          "reasons": [
+            "Son kontrol: kaynak güven puanı düşük (0/100).",
+            "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+          ],
+          "snapshots": {
+            "T60": {
+              "checkpoint": "T60",
+              "captured_at": "2026-09-20T06:31:15.188Z",
+              "tracked_market": "KG Yok",
+              "tracked_market_key": "bttsNo",
+              "odd": 1.66,
+              "odd_source": "verified_named_field:bttsNo",
+              "lineup_risk_level": "Belirsiz",
+              "both_lineups_confirmed": false,
+              "source_conflict_level": "none",
+              "source_confidence_score": 0
+            }
+          }
+        },
+        "pre_match_decision": "downgrade",
+        "pre_match_checkpoint": "T60",
         "home_edge": 0,
         "away_edge": 0,
         "momentum_difference": 0,
@@ -2889,9 +3138,54 @@
         "source_conflict_level": "none",
         "source_uncertainty_brake": -3,
         "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 0/100, çelişki none.",
-        "pre_match_final_check": null,
-        "pre_match_decision": "not_due",
-        "pre_match_checkpoint": "not_due",
+        "pre_match_final_check": {
+          "match_name": "Citizen VS Lucky Mile",
+          "home": "Citizen",
+          "away": "Lucky Mile",
+          "date": "2026-09-20",
+          "start_time": "10:30",
+          "minutes_to_kickoff": 58.7,
+          "checkpoint": "T60",
+          "active": true,
+          "tracked_market": "Değerli market yok",
+          "tracked_market_key": null,
+          "current_odd": null,
+          "current_odd_source": null,
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "lineup_freshness_minutes": 0.1,
+          "consensus_freshness_minutes": 0.1,
+          "news_context_freshness_minutes": 308.8,
+          "source_conflict_level": "none",
+          "source_confidence_score": 0,
+          "general_decision": "downgrade",
+          "market_decision": "keep",
+          "decision": "downgrade",
+          "general_score_penalty": 4,
+          "market_score_penalty": 0,
+          "market_severe_adverse": false,
+          "relative_odd_change_percent": null,
+          "reasons": [
+            "Son kontrol: kaynak güven puanı düşük (0/100).",
+            "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+          ],
+          "snapshots": {
+            "T60": {
+              "checkpoint": "T60",
+              "captured_at": "2026-09-20T06:31:15.188Z",
+              "tracked_market": "Değerli market yok",
+              "tracked_market_key": null,
+              "odd": null,
+              "odd_source": null,
+              "lineup_risk_level": "Belirsiz",
+              "both_lineups_confirmed": false,
+              "source_conflict_level": "none",
+              "source_confidence_score": 0
+            }
+          }
+        },
+        "pre_match_decision": "downgrade",
+        "pre_match_checkpoint": "T60",
         "home_edge": 0,
         "away_edge": 0,
         "momentum_difference": 0,
@@ -3241,9 +3535,54 @@
         "source_conflict_level": "none",
         "source_uncertainty_brake": -3,
         "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 0/100, çelişki none.",
-        "pre_match_final_check": null,
-        "pre_match_decision": "not_due",
-        "pre_match_checkpoint": "not_due",
+        "pre_match_final_check": {
+          "match_name": "Tai Ching VS South China",
+          "home": "Tai Ching",
+          "away": "South China",
+          "date": "2026-09-20",
+          "start_time": "10:30",
+          "minutes_to_kickoff": 58.7,
+          "checkpoint": "T60",
+          "active": true,
+          "tracked_market": "Değerli market yok",
+          "tracked_market_key": null,
+          "current_odd": null,
+          "current_odd_source": null,
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "lineup_freshness_minutes": 0.1,
+          "consensus_freshness_minutes": 0.1,
+          "news_context_freshness_minutes": 308.8,
+          "source_conflict_level": "none",
+          "source_confidence_score": 0,
+          "general_decision": "downgrade",
+          "market_decision": "keep",
+          "decision": "downgrade",
+          "general_score_penalty": 4,
+          "market_score_penalty": 0,
+          "market_severe_adverse": false,
+          "relative_odd_change_percent": null,
+          "reasons": [
+            "Son kontrol: kaynak güven puanı düşük (0/100).",
+            "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+          ],
+          "snapshots": {
+            "T60": {
+              "checkpoint": "T60",
+              "captured_at": "2026-09-20T06:31:15.188Z",
+              "tracked_market": "Değerli market yok",
+              "tracked_market_key": null,
+              "odd": null,
+              "odd_source": null,
+              "lineup_risk_level": "Belirsiz",
+              "both_lineups_confirmed": false,
+              "source_conflict_level": "none",
+              "source_confidence_score": 0
+            }
+          }
+        },
+        "pre_match_decision": "downgrade",
+        "pre_match_checkpoint": "T60",
         "home_edge": 0,
         "away_edge": 0,
         "momentum_difference": 0,
@@ -25847,6 +26186,365 @@
       }
     },
     {
+      "match_name": "Dos Hermanas 1 VS Linense",
+      "home": "Dos Hermanas 1",
+      "away": "Linense",
+      "date": "2026-09-20",
+      "start_time": "13:00",
+      "league": "İspanya Tercera Ligi Grup 10",
+      "extra_used": {
+        "squad_risk_level": "Orta",
+        "source_risk_level": "Belirsiz",
+        "squad_verified_team_count": 0,
+        "squad_signal_team_count": 1,
+        "named_player_count": 0,
+        "lineup_risk_level": "Belirsiz",
+        "squad_comment": "Dos Hermanas 1 için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Linense transfer gündemi: +0 / -1 haber sinyali",
+        "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+        "matchup_analysis": {
+          "version": "matchup-intelligence-v1",
+          "data_quality": "Belirsiz",
+          "coverage_score": 0,
+          "lineup_confirmed_both": false,
+          "availability_checked_both": false,
+          "home": {
+            "team_name": "Dos Hermanas 1",
+            "formation": "-",
+            "lineup_confirmed": false,
+            "availability_checked": false,
+            "starting_11_count": 0,
+            "rated_starter_count": 0,
+            "missing_count": 0,
+            "missing_impact": 0,
+            "high_impact_missing": 0,
+            "zones": {
+              "goalkeeper": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "defense": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "midfield": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "attack": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "unknown": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              }
+            }
+          },
+          "away": {
+            "team_name": "Linense",
+            "formation": "-",
+            "lineup_confirmed": false,
+            "availability_checked": false,
+            "starting_11_count": 0,
+            "rated_starter_count": 0,
+            "missing_count": 0,
+            "missing_impact": 0,
+            "high_impact_missing": 0,
+            "zones": {
+              "goalkeeper": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "defense": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "midfield": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "attack": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "unknown": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              }
+            }
+          },
+          "position_comparison": [
+            {
+              "zone": "goalkeeper",
+              "label": "Kaleci",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "defense",
+              "label": "Savunma",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "midfield",
+              "label": "Orta saha",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "attack",
+              "label": "Hücum",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            }
+          ],
+          "context_edge": 0,
+          "context_edge_side": "balanced",
+          "market_context": {
+            "goal_pressure": 0,
+            "defensive_missing_impact": 0,
+            "attacking_missing_impact": 0,
+            "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+            "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+          },
+          "signals": [
+            "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+          ],
+          "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+        },
+        "team_status": {
+          "home": {
+            "transfers_in": [],
+            "transfers_out": [],
+            "injured_players": [],
+            "suspended_players": [],
+            "doubtful_players": [],
+            "squad_note": "",
+            "source_note": "",
+            "evidence": [],
+            "auto_risk_score": 0,
+            "data_status": "no_verified_data",
+            "player_impacts": [],
+            "transfer_details": {
+              "in": [],
+              "out": []
+            },
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "provider_team_id": null,
+            "injury_news_count": 0,
+            "suspension_news_count": 0,
+            "doubtful_news_count": 0,
+            "transfer_in_news_count": 0,
+            "transfer_out_news_count": 0,
+            "verified_source_count": 0,
+            "structured_fact_source_count": 0
+          },
+          "away": {
+            "transfers_in": [],
+            "transfers_out": [],
+            "injured_players": [],
+            "suspended_players": [],
+            "doubtful_players": [],
+            "squad_note": "",
+            "source_note": "Otomatik açık kaynak: Transfermarkt",
+            "evidence": [
+              {
+                "title": "Real Balompédica Linense B - Most expensive departures (Gallery) - Transfermarkt",
+                "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY2xDWXh0dFpaa0o3NWRrTWVBcVBtd19RaGJSMk11QlpZY2hKV0VsYkNkVzZGVkJScGZUZHNXYVhhS2hDSE00QUxhZXZXWE9VRGVaanF3Ym9nN2xEeEVvcE1sNE1FR1pFLWpTSERWU21WaGVIdldTUGo0cElYb21XdEtyQVFySEZJRkRaZm9pVEh5MFJYaDhORktxNldxeEtTR1pxTXJ4ZlNQNGNyNWotRkU2YVdweXpfemtUdk1PM1VFZ1oxd19ncndRdw?oc=5",
+                "source_name": "Transfermarkt",
+                "published_at": "Wed, 09 Sep 2026 08:48:11 GMT",
+                "categories": [
+                  "transfer_out"
+                ],
+                "age_days": 10.9,
+                "confidence": "medium"
+              }
+            ],
+            "auto_risk_score": 0.8,
+            "data_status": "public_news_signal",
+            "player_impacts": [],
+            "transfer_details": {
+              "in": [],
+              "out": []
+            },
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "provider_team_id": null,
+            "injury_news_count": 0,
+            "suspension_news_count": 0,
+            "doubtful_news_count": 0,
+            "transfer_in_news_count": 0,
+            "transfer_out_news_count": 1,
+            "verified_source_count": 0,
+            "structured_fact_source_count": 0
+          }
+        },
+        "lineup": {
+          "home": {
+            "team_name": "Dos Hermanas 1",
+            "formation": "-",
+            "starting_11_count": 0,
+            "substitutes_count": 0,
+            "starting_11_strength": 0,
+            "bench_strength": 0,
+            "strength_label": "Veri Yok",
+            "top_starting_players": [],
+            "top_bench_players": [],
+            "unavailable_players": [],
+            "important_missing_count": 0,
+            "data_available": false,
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "data_status": "no_verified_data",
+            "note": "",
+            "source_note": ""
+          },
+          "away": {
+            "team_name": "Linense",
+            "formation": "-",
+            "starting_11_count": 0,
+            "substitutes_count": 0,
+            "starting_11_strength": 0,
+            "bench_strength": 0,
+            "strength_label": "Veri Yok",
+            "top_starting_players": [],
+            "top_bench_players": [],
+            "unavailable_players": [],
+            "important_missing_count": 0,
+            "data_available": false,
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "data_status": "no_verified_data",
+            "note": "",
+            "source_note": ""
+          }
+        },
+        "source_consensus": {
+          "match_name": "Dos Hermanas 1 VS Linense",
+          "date": "2026-09-20",
+          "league": "İspanya Tercera Ligi Grup 10",
+          "home_team": "Dos Hermanas 1",
+          "away_team": "Linense",
+          "home": {
+            "confidence_score": 5,
+            "quality": "Belirsiz",
+            "conflict_level": "none",
+            "conflict_reasons": [],
+            "uncertainty_brake": -3,
+            "structured_verified": false,
+            "lineup_confirmed": false,
+            "manual_verified": false,
+            "public_signal": false,
+            "public_signal_count": 0,
+            "source_error": false,
+            "stale": false,
+            "named_unavailable_count": 0,
+            "unavailable_starter_count": 0
+          },
+          "away": {
+            "confidence_score": 15,
+            "quality": "Belirsiz",
+            "conflict_level": "none",
+            "conflict_reasons": [],
+            "uncertainty_brake": -3,
+            "structured_verified": false,
+            "lineup_confirmed": false,
+            "manual_verified": false,
+            "public_signal": true,
+            "public_signal_count": 0,
+            "source_error": false,
+            "stale": false,
+            "named_unavailable_count": 0,
+            "unavailable_starter_count": 0
+          },
+          "confidence_score": 5,
+          "quality": "Belirsiz",
+          "conflict_level": "none",
+          "uncertainty_brake": -3,
+          "uncertain": true,
+          "robot_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none."
+        },
+        "source_confidence_score": 5,
+        "source_conflict_level": "none",
+        "source_uncertainty_brake": -3,
+        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none.",
+        "pre_match_final_check": null,
+        "pre_match_decision": "not_due",
+        "pre_match_checkpoint": "not_due"
+      },
+      "band_check": {
+        "q": null,
+        "s": null,
+        "level": "Yüksek",
+        "notes": [
+          "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı.",
+          "Kaynak güven puanı düşük (5/100)."
+        ]
+      }
+    },
+    {
       "match_name": "Tomares VS Cordoba Ii",
       "home": "Tomares",
       "away": "Cordoba Ii",
@@ -28673,10 +29371,10 @@
         "squad_risk_level": "Orta",
         "source_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 1,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "San Cristobal için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | San Juan Atléti için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "San Cristobal için 2 güncel sakatlık haberi sinyali bulundu | San Cristobal transfer gündemi: +1 / -0 haber sinyali | San Juan Atléti için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
         "matchup_analysis": {
           "version": "matchup-intelligence-v1",
@@ -28858,10 +29556,34 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "source_note": "Otomatik açık kaynak: A to Z Sports, Athlon Sports",
+            "evidence": [
+              {
+                "title": "Mario Cristobal offers ‘goal’ for return date for injured Miami Hurricanes CB OJ Frederique - A to Z Sports",
+                "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNDZKZFJGZS04d05fdDVKTWY4MGJwX0JyQjlvdllXbFNkbTJ6OUpYVlpxWEVtVkNyZndYcVNLelVfQmtLNTUtMFF2QXlJeHNodGs5ZWVJd3JsYUh4V2NCRGFkSGQzWV9RbkNLTlBzRV9pTTlCZUwtQnpoV0FpcU4wSFhVT1h4amZrdXdGSTA0X2NoRU9rbUFJSjNEQnVNcUkxRE0teUxwZHU3MHJ1S1lSM0RHajVkTm5HVVhXYUpyRVZGMmVLVFNyOEl6VGk4Qk5TRVpweXRiS0w1Q0NmNkFDbktyNXBQcjVQSnkwOUlndDRwUHNXMG0yZkZHUQ?oc=5",
+                "source_name": "A to Z Sports",
+                "published_at": "Tue, 08 Sep 2026 07:00:00 GMT",
+                "categories": [
+                  "injury"
+                ],
+                "age_days": 12,
+                "confidence": "medium"
+              },
+              {
+                "title": "Miami’s Mario Cristobal Announces Significant Injury Blow Before Week 2 - Athlon Sports",
+                "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZjVVdmRjejRyNDJKT0lKY0VDTFdOWEJIeVUxWkhJWExzNkxoN19QT0NmcHQ3M2owRlNjVlA3b2FheHNQZGh4dVREem5wSVBEZVVHdjl3VnFpSXJPZVJxNzk2b1hRX1BrX0R1RFJ5cTJJMUVaVU53djRpVUpuSGtXRmdDMnU5VElRVXZLSjh2eUtwVnFpV3QtdXh3TFJfdUlaaHl1c0Q0YlV6UQ?oc=5",
+                "source_name": "Athlon Sports",
+                "published_at": "Tue, 08 Sep 2026 07:00:00 GMT",
+                "categories": [
+                  "injury",
+                  "transfer_in"
+                ],
+                "age_days": 12,
+                "confidence": "medium"
+              }
+            ],
+            "auto_risk_score": 5.6,
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -28870,10 +29592,10 @@
             "availability_checked": false,
             "lineup_confirmed": false,
             "provider_team_id": null,
-            "injury_news_count": 0,
+            "injury_news_count": 2,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 1,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -28953,7 +29675,7 @@
           "home_team": "San Cristobal",
           "away_team": "San Juan Atléti",
           "home": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -28961,8 +29683,8 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
-            "public_signal_count": 0,
+            "public_signal": true,
+            "public_signal_count": 2,
             "source_error": false,
             "stale": false,
             "named_unavailable_count": 0,
@@ -29026,10 +29748,10 @@
         "squad_risk_level": "Orta",
         "source_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 1,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Torrent için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Atzeneta için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Torrent transfer gündemi: +1 / -0 haber sinyali | Atzeneta için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
         "matchup_analysis": {
           "version": "matchup-intelligence-v1",
@@ -29211,10 +29933,22 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: Yahoo Sports",
+            "evidence": [
+              {
+                "title": "Seattle Torrent Sign Finnish Olympian Emma Nuutinen To A One-Year Deal - Yahoo Sports",
+                "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS1RHdWdmR2M1anR3TkhkVXpWS3loVlQxWUtPa3NJNE8zZGZGOUdTUC03eVBoU3ZXV1VTVEc4SFoyeEdkQkhwYllpa1R3OTh5SUlBYXZFZEtxMEd0YmdCUFFDVnRCNDFGZHltcmVlM3pLdGxDYV8xQzNUdnNvcDhraThaaFl4dW9jYkZtSGg5WQ?oc=5",
+                "source_name": "Yahoo Sports",
+                "published_at": "Sun, 21 Jun 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 91,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -29226,7 +29960,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 1,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -29306,7 +30040,7 @@
           "home_team": "Torrent",
           "away_team": "Atzeneta",
           "home": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -29314,7 +30048,7 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
+            "public_signal": true,
             "public_signal_count": 0,
             "source_error": false,
             "stale": false,
@@ -31144,10 +31878,10 @@
         "squad_risk_level": "Orta",
         "source_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 2,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Feyenoord için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Utrecht için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Feyenoord için 1 güncel sakatlık haberi sinyali bulundu | Feyenoord transfer gündemi: +8 / -0 haber sinyali | Utrecht için 2 ceza/men haberi sinyali bulundu | Utrecht transfer gündemi: +4 / -1 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
         "matchup_analysis": {
           "version": "matchup-intelligence-v1",
@@ -31329,10 +32063,55 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: Yahoo Sports, BBC, TribalFootball, Liverpool FC, Get French Football News",
+            "evidence": [
+              {
+                "title": "Official | Lille sign Feyenoord striker Ayase Ueda - Yahoo Sports",
+                "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS1hyYklMamRuYVFlUGtFUFNpdm1tcmh0TzZ4TkF1WVlpZkRHeEtqbUc1cTBuV3I3Wk53RGFFZXRMazdQWHVhb0VtU0RieGRtQ0EwX0VBalBUeHJyS2wxeHVORk5sRkc3OGpVd2hqWGl2YzB2STI5T1lRMTlibFhTSklTTWliQ2FfOEEyZVFNUQ?oc=5",
+                "source_name": "Yahoo Sports",
+                "published_at": "Tue, 01 Sep 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 19,
+                "confidence": "medium"
+              },
+              {
+                "title": "SC Cambuur fans suffer burns and eye injuries after Feyenoord supporters throw fireworks - BBC",
+                "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxMDdocUxWWjRYQ3pJZ3RLTVdrbWkzdkpMWFhTcXBoTzZkZkQ4NDB4T0FWbE1QeTNMc3o3SFRxMlNwZEExeDFTblRqUjRYTjU4amQ5ajZaN0VHRUxCVWRaOWk3T2FQeVE?oc=5",
+                "source_name": "BBC",
+                "published_at": "Mon, 24 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "injury"
+                ],
+                "age_days": 27,
+                "confidence": "medium"
+              },
+              {
+                "title": "Reiss Nelson finds new home days after Arsenal exit as he prepares to sign for Feyenoord - TribalFootball",
+                "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNaUFKNzQtUnN0M19Ta3hBXzBHMURPbmhPM2dDSG9ZY0I1MGt6TUpMcHBPeUtORFBKanJJVXQ3SUFCbzhyNDNtREEzMURaYWxwakV6NExvMWRPUi1jY2xodGhNRWV3dnRMNlFUZFdvLTQzT1A5RWQ0YUpBYm5UaTRPMUNFQ3gwdXFSVlJpNkllRTgxS2QwZkFpMkxrREc1elJ0YUI2dkVQbUhVcVlXRWltMngzdzhTd2tYMDl1NVE5RUNZN1NOeVFrQ2VKcjlHTmdTV0FDTi1OUllPVmtiZlFDMG5LZ2Jxa25iNWozaFRKZ25RWXRITndBNktRb29pYng4cnpjTWFseVZOYmJ6RHEw?oc=5",
+                "source_name": "TribalFootball",
+                "published_at": "Wed, 02 Sep 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 18,
+                "confidence": "medium"
+              },
+              {
+                "title": "LFC Women complete signing of Mao Itamura from Feyenoord - Liverpool FC",
+                "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTDdJaFlvSVgybjd2VEg5Tm80VGtzcE91dVdPanktYjZ3aVZPLUZzQk5OSl9DQW0yb2ZmUXFMSDI0N29STHduNWljMGM0RFRvdEIydVMwaUo3dEd4b1FMNkttU2U1SFdJZTVkRkgxUVF3NkNFWi1FVVI1RFRGOTV0MW9hWXFpZld00gGQAUFVX3lxTE1VODhMQ0Nzc0h2T0dLWHctWVhUR21KYmYwc2JDV3dfUWZwUmNwYkVUZ0EzYVZjSXQ1Z19NU1JDQXRRUmNfZ3p2NVUzNjFvdkxsc1c2R25vNEh5ODhtM2pYekxOSF8tQUJtcjJCUVVwb1AxeV9zYUpiSEFrcVlUMlpoU2J3NVFQSDZrMnl4Tnhhcw?oc=5",
+                "source_name": "Liverpool FC",
+                "published_at": "Mon, 20 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 62,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -31341,10 +32120,10 @@
             "availability_checked": false,
             "lineup_confirmed": false,
             "provider_team_id": null,
-            "injury_news_count": 0,
+            "injury_news_count": 1,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 8,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -31356,10 +32135,55 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "source_note": "Otomatik açık kaynak: SBI Soccer, NL Times, TribalFootball, BBC, SportsBoom UK",
+            "evidence": [
+              {
+                "title": "Kevin Paredes joins FC Utrecht on one-year deal - x - SBI Soccer",
+                "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTTlRNjFMXzRYR3JyemRiZ2VBV0MwLUhNRWdPdEtveTVJWkl1VnFkOHlsUTd4VFZvZ2ItSk1Nb0RockFJMFdqVDJFNm1XNkJ3TEFrZUpwcEpWRmRDcUFKNlJJRGNXeUg3ZXY2WFQ5cFduWEhiOGRwYTFvbmE4YlB6VGI5b9IBiwFBVV95cUxNN1htM3JaT19GcVFhUVhzekZrV3RTSlNTbm9Vc1ZobkZBR0trMEdMczEzbkpycWM4WGhMX3JvNF9NOHlhWUpQelFFcjVCMzBRdUNPWVFFV05GNDZRdy0zSVJRT3pRcHdNLW9KVGstaGpFYkZBVDVMbk95V240U1RQZVkyWll0dXhBWGxN?oc=5",
+                "source_name": "SBI Soccer",
+                "published_at": "Wed, 24 Jun 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 88,
+                "confidence": "medium"
+              },
+              {
+                "title": "FC Utrecht fans get match suspended; Telstar keeper breaks record by scoring twice - NL Times",
+                "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbDR3bHpULTNPWU1hZGR2Slg4ZzdmMURMczhPRkRPVWlwQnppTlFBU1dRYVppRXJxUy00bzhrMkktc2ZQTGNXM0plQzU3TWVTV1NnS3ZVX3hlUUdha1NrVHpYOEFtM2o1aTZBNXNES2MwUGowVTE5LURYUVh0ZWpHcUxWaXlvSlBQbmhhR05aZWt2NG9RNlZIYVg3N3ZaZF9sWmxqN3AwWEltYS0t?oc=5",
+                "source_name": "NL Times",
+                "published_at": "Sun, 06 Sep 2026 07:00:00 GMT",
+                "categories": [
+                  "suspension"
+                ],
+                "age_days": 14,
+                "confidence": "medium"
+              },
+              {
+                "title": "Eredivisie game between Utrecht and Go Ahead Eagles suspended after fan protests - TribalFootball",
+                "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNU1NjTFl6T1kzV1J4MlItb0tSb2FUeGcyUDBSSDltRWRURmhtLWFndzQxNnVPMDRkV2dPVHN1YnBydERoTGtXaUpJNHFhR3k3eE8zeEVVZ0FNaXNkWUJHOTJZOVFYYzZnNFd0dm54UkZxcXhoSXoyZ25fTDAydTNza3B6NEZjQkw2REdYbnBiU0hmM2JpYVNucUNibTdFcDlFTWpwWl95WC1oN1RGREVaSW5JSEwzdDlsUy1UaFFBOE1CdnJ3UXZoMDJpZld3dGtGWllfWnZMbUlyN0VzanVwVFVyd2wtdk9oOVhSeQ?oc=5",
+                "source_name": "TribalFootball",
+                "published_at": "Sat, 05 Sep 2026 07:00:00 GMT",
+                "categories": [
+                  "suspension"
+                ],
+                "age_days": 15,
+                "confidence": "medium"
+              },
+              {
+                "title": "Emeka Adiele: Burton Albion sign FC Utrecht defender on loan - BBC",
+                "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9LbmtsOTliTWhiTml1RTRNVS1wQU5jZzd1Rjh0RlVFTnB6WVdGVjFHcjc4NUxfalkxUmN2ektYdWN4MmwtazVrQnIza1BMdzJ3bzZoSGJEMVN6V0tIeFMyWlBkNFZYdlk?oc=5",
+                "source_name": "BBC",
+                "published_at": "Tue, 18 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 33,
+                "confidence": "medium"
+              }
+            ],
+            "auto_risk_score": 5.8,
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -31369,10 +32193,10 @@
             "lineup_confirmed": false,
             "provider_team_id": null,
             "injury_news_count": 0,
-            "suspension_news_count": 0,
+            "suspension_news_count": 2,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
-            "transfer_out_news_count": 0,
+            "transfer_in_news_count": 4,
+            "transfer_out_news_count": 1,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
           }
@@ -31424,7 +32248,7 @@
           "home_team": "Feyenoord",
           "away_team": "Utrecht",
           "home": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -31432,15 +32256,15 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
-            "public_signal_count": 0,
+            "public_signal": true,
+            "public_signal_count": 1,
             "source_error": false,
             "stale": false,
             "named_unavailable_count": 0,
             "unavailable_starter_count": 0
           },
           "away": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -31448,24 +32272,24 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
-            "public_signal_count": 0,
+            "public_signal": true,
+            "public_signal_count": 2,
             "source_error": false,
             "stale": false,
             "named_unavailable_count": 0,
             "unavailable_starter_count": 0
           },
-          "confidence_score": 5,
+          "confidence_score": 15,
           "quality": "Belirsiz",
           "conflict_level": "none",
           "uncertainty_brake": -3,
           "uncertain": true,
-          "robot_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none."
+          "robot_note": "Kaynak uzlaşısı sınırlı: güven 15/100, çelişki none."
         },
-        "source_confidence_score": 5,
+        "source_confidence_score": 15,
         "source_conflict_level": "none",
         "source_uncertainty_brake": -3,
-        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none.",
+        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 15/100, çelişki none.",
         "pre_match_final_check": null,
         "pre_match_decision": "not_due",
         "pre_match_checkpoint": "not_due",
@@ -31482,7 +32306,7 @@
         "level": "Yüksek",
         "notes": [
           "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı.",
-          "Kaynak güven puanı düşük (5/100)."
+          "Kaynak güven puanı düşük (15/100)."
         ]
       }
     },
@@ -31497,10 +32321,10 @@
         "squad_risk_level": "Orta",
         "source_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 1,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Pec Zwolle (K) için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | De Graafschap ( için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Pec Zwolle (K) için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | De Graafschap ( transfer gündemi: +2 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
         "matchup_analysis": {
           "version": "matchup-intelligence-v1",
@@ -31709,10 +32533,33 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: GhanaSoccernet, AfricaSoccer.com",
+            "evidence": [
+              {
+                "title": "De Graafschap explain why Ghana-linked Paul Reverson was signed - GhanaSoccernet",
+                "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb1NZakNuYmZOS2pPdl83akVsQndZVzVFZDlRSlJEWHZ5SWJMZDhkaE1nTWlpSTA3Rm42NlRWOGVBRmlWZk9ISnV1ZnB2LVprRWE0bXNGTnBmek0tUno5TGZIbDVwc3R1am1CcUMxQnNZbk94eXdoWU4zWFhEWWlCbV90eG56RnBQX0JmejhIejIxUFkt?oc=5",
+                "source_name": "GhanaSoccernet",
+                "published_at": "Tue, 01 Sep 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 19,
+                "confidence": "medium"
+              },
+              {
+                "title": "Paul Reverson joins De Graafschap as Ajax goalkeeper moves to the club until 2027 - AfricaSoccer.com",
+                "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUnlQNmcxdHlmX3BPZjFyeFZOaFMtMU1qZDJndUhkQ25oRzcwVXcwTnBpbk9LMTdrWEpoaDF0ZFF2MDB1OExtSHp5bTBUTXRNcTQ5YjM1QUo2M0UwOXZ2VnduMmtGeHV4SnVyQXBQLWIyN2d4bVhCaXV2Q25xOGxGdWJmVmtYSC1HWUFubU1RS1dsMW5HbVRhUDV3b0R2UlRnM1NYZEo3LVkwWVE?oc=5",
+                "source_name": "AfricaSoccer.com",
+                "published_at": "Tue, 01 Sep 2026 10:54:33 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 18.8,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -31724,7 +32571,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 2,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -31793,7 +32640,7 @@
             "unavailable_starter_count": 0
           },
           "away": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -31801,7 +32648,7 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
+            "public_signal": true,
             "public_signal_count": 0,
             "source_error": false,
             "stale": false,
@@ -32203,10 +33050,10 @@
         "squad_risk_level": "Orta",
         "source_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 1,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Piast Gliwice için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Pogon Szczecin için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Piast Gliwice için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Pogon Szczecin transfer gündemi: +1 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
         "matchup_analysis": {
           "version": "matchup-intelligence-v1",
@@ -32415,10 +33262,22 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: TribalFootball",
+            "evidence": [
+              {
+                "title": "Done Deal: Sam Greenwood joins Bristol City from Pogon Szczecin - TribalFootball",
+                "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdnphMnIzUnc1ZHFlQ3V3SXFlVjBZR1JJTkpDS0RDQTJTSklLQXpaR0t6OG1TbXJGaDRDS0J4TWptQ2lnd20xU1lQQjIxbzB1THNISTVSeGRJcjVlN0FEUWR1VTZySXc5OHdoelFpb1owQ2Fuc3dfRklQUEhjd01JSksyTFk3cWVvLWx0V084M1lOMUM1cnR5TG9HUUdqdXEzVTNJRkM5alZ1ajhpaHdoaHM4bE9mejlsTnNNVzkxZy1HREc4RnJMZUxtcnY4aTY2Z0kydw?oc=5",
+                "source_name": "TribalFootball",
+                "published_at": "Thu, 25 Jun 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 87,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -32430,7 +33289,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 1,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -32499,7 +33358,7 @@
             "unavailable_starter_count": 0
           },
           "away": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -32507,7 +33366,7 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
+            "public_signal": true,
             "public_signal_count": 0,
             "source_error": false,
             "stale": false,
@@ -33615,10 +34474,10 @@
         "squad_risk_level": "Orta",
         "source_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 2,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Fiorentina için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Napoli için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Fiorentina için 2 güncel sakatlık haberi sinyali bulundu | Fiorentina için 1 ceza/men haberi sinyali bulundu | Fiorentina transfer gündemi: +10 / -1 haber sinyali | Napoli için 3 güncel sakatlık haberi sinyali bulundu | Napoli transfer gündemi: +9 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
         "matchup_analysis": {
           "version": "matchup-intelligence-v1",
@@ -33800,10 +34659,55 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "source_note": "Otomatik açık kaynak: Yahoo Sports, Football Italia, BBC, ESPN, The New York Times",
+            "evidence": [
+              {
+                "title": "Spinazzola adds to Napoli injury crisis ahead of Fiorentina clash - Yahoo Sports",
+                "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMWpoYkd2b0hyaW41MHpuQW1kRDgyemRuSTZ0b1dxalJQY00xNURuWkxGb2l1NnB6NW11OWI3Tkd0TXh1M2s2ZDNYSDlUVjBIaXRKOHUwVnY0Z1F6MmpJdnBaN29ieUtYcHRoeF8wY2RRaWFNeE04SmlxengyY3BrWlJIRDJKWVMyc1pSclNn?oc=5",
+                "source_name": "Yahoo Sports",
+                "published_at": "Fri, 18 Sep 2026 14:55:00 GMT",
+                "categories": [
+                  "injury"
+                ],
+                "age_days": 1.7,
+                "confidence": "medium"
+              },
+              {
+                "title": "Spinazzola adds to Napoli injury crisis ahead of Fiorentina clash - Football Italia",
+                "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpWGJnZHlRN0RrWWRVZ2UtaWRxb0xIS1pZSlVlS3ZkWGFPVkJMMmZIM21aSXYweFF0aldVMDNZN3FQNkJRcExVVzR1WTNqRVNhS1RQY01faE11VW8zbnBXbjZpaHhULXgxLV9IQmlibEZaNzRsZURwTFIxa9IBgAFBVV95cUxPbDJEMEp0NEpFdmRaRU9iU24yYnZfaWFkNGdvdU1lRGR5MXNEMHg1MWVmZGxwUDNWT1NXNU81VWFqcVdnZFV3R3BmRVN2MFVqc1VNcEtrT1NqdV9sNHhTX0JXM0NYaUlXYVJsVF84YXppY2FyLVdmWGJMNEpmU1pzbQ?oc=5",
+                "source_name": "Football Italia",
+                "published_at": "Fri, 18 Sep 2026 14:53:49 GMT",
+                "categories": [
+                  "injury"
+                ],
+                "age_days": 1.7,
+                "confidence": "medium"
+              },
+              {
+                "title": "Jack Grealish transfer: Everton agree loan deal as Beto joins Fiorentina - BBC",
+                "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFWkpDQ3Zfc0FkWElpRnMyd0lsejVEQmJ4eDY4TlBad1JZUjhhRXhTU1lVT0VpU1pEVDIwZGxEX2VhUVctNVk2dTdBcVgzQXFkMFN1NGdMU3J6RXlVSzdfcko1WUdxQ0k?oc=5",
+                "source_name": "BBC",
+                "published_at": "Tue, 01 Sep 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 19,
+                "confidence": "medium"
+              },
+              {
+                "title": "Fiorentina sign Real Madrid teenager Franco Mastantuono on season-long loan - ESPN",
+                "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLTVXR1RXemFNcmpTdWM1ZkNYRjd1OFhYZUhjcER4alFaOGVTRkh6dkZEZTltQk0wZWRZZEp2WGoyamI5emFTOFFNQnpzaUxIVzN1SkFuM29BT19wVlZVak0yQldiVXlHLXlaREs0bl9jelNhTl9pLTBiR3dGQXZrRTdQZnNER2hoRGZQR285akdUV3FFQ0ZJU2R0V2M4TjdhZTk3aTRWeThOd1pLT09sYlJuVG1ZWlhfNVdxTg?oc=5",
+                "source_name": "ESPN",
+                "published_at": "Fri, 07 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 44,
+                "confidence": "medium"
+              }
+            ],
+            "auto_risk_score": 8.5,
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -33812,11 +34716,11 @@
             "availability_checked": false,
             "lineup_confirmed": false,
             "provider_team_id": null,
-            "injury_news_count": 0,
-            "suspension_news_count": 0,
+            "injury_news_count": 2,
+            "suspension_news_count": 1,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
-            "transfer_out_news_count": 0,
+            "transfer_in_news_count": 10,
+            "transfer_out_news_count": 1,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
           },
@@ -33827,10 +34731,55 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "source_note": "Otomatik açık kaynak: Yahoo Sports, Football Italia, The New York Times, ESPN, Reuters",
+            "evidence": [
+              {
+                "title": "Spinazzola adds to Napoli injury crisis ahead of Fiorentina clash - Yahoo Sports",
+                "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMWpoYkd2b0hyaW41MHpuQW1kRDgyemRuSTZ0b1dxalJQY00xNURuWkxGb2l1NnB6NW11OWI3Tkd0TXh1M2s2ZDNYSDlUVjBIaXRKOHUwVnY0Z1F6MmpJdnBaN29ieUtYcHRoeF8wY2RRaWFNeE04SmlxengyY3BrWlJIRDJKWVMyc1pSclNn?oc=5",
+                "source_name": "Yahoo Sports",
+                "published_at": "Fri, 18 Sep 2026 14:55:00 GMT",
+                "categories": [
+                  "injury"
+                ],
+                "age_days": 1.7,
+                "confidence": "medium"
+              },
+              {
+                "title": "Spinazzola adds to Napoli injury crisis ahead of Fiorentina clash - Football Italia",
+                "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpWGJnZHlRN0RrWWRVZ2UtaWRxb0xIS1pZSlVlS3ZkWGFPVkJMMmZIM21aSXYweFF0aldVMDNZN3FQNkJRcExVVzR1WTNqRVNhS1RQY01faE11VW8zbnBXbjZpaHhULXgxLV9IQmlibEZaNzRsZURwTFIxa9IBgAFBVV95cUxPbDJEMEp0NEpFdmRaRU9iU24yYnZfaWFkNGdvdU1lRGR5MXNEMHg1MWVmZGxwUDNWT1NXNU81VWFqcVdnZFV3R3BmRVN2MFVqc1VNcEtrT1NqdV9sNHhTX0JXM0NYaUlXYVJsVF84YXppY2FyLVdmWGJMNEpmU1pzbQ?oc=5",
+                "source_name": "Football Italia",
+                "published_at": "Fri, 18 Sep 2026 14:53:49 GMT",
+                "categories": [
+                  "injury"
+                ],
+                "age_days": 1.7,
+                "confidence": "medium"
+              },
+              {
+                "title": "Napoli announce loan signing of Benoit Badiashile from Chelsea - The Athletic - The New York Times",
+                "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWTR6THFnaDRQZFMyc3J2anVSQlFvV3ptR1lzbmJfNGh3bERMSF9mUVZyTXI5MFNzZnVPVkJseHVRZlZUUXNQZFZRSXpIYnVjd2NRTlFGWWVBNzc1SXhTQ29tX0dpdGVRdHp6VmIxS0VqSm5TUXRvRmVqQmMzWktmV2lhY3NfQ01tY0lvWDBVQWVrVTg3MzhwSC1rU1NrTE0?oc=5",
+                "source_name": "The New York Times",
+                "published_at": "Thu, 13 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 38,
+                "confidence": "medium"
+              },
+              {
+                "title": "Napoli’s Meret suffers injury in Arsenal Champions League clash - Yahoo Sports",
+                "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPM0VoZzk2RDB6NG9JRzdGTzZ5MlZYdjlFdXhxTHhiZ2pWdlhMUi1jWjRsaEl4dHNpNll5NVo3Q2dwLU5JbHZ1NURmS29Ua29RSVM3eXJHX2hESlhLeVBlaFBpX08yYkpLRWpGdzRMdVBZUXdveG9ZM29sNmczWEhEX2ViYndkMmlaZDAwcQ?oc=5",
+                "source_name": "Yahoo Sports",
+                "published_at": "Wed, 09 Sep 2026 07:00:00 GMT",
+                "categories": [
+                  "injury"
+                ],
+                "age_days": 11,
+                "confidence": "medium"
+              }
+            ],
+            "auto_risk_score": 8.8,
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -33839,10 +34788,10 @@
             "availability_checked": false,
             "lineup_confirmed": false,
             "provider_team_id": null,
-            "injury_news_count": 0,
+            "injury_news_count": 3,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 9,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -33895,7 +34844,7 @@
           "home_team": "Fiorentina",
           "away_team": "Napoli",
           "home": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -33903,15 +34852,15 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
-            "public_signal_count": 0,
+            "public_signal": true,
+            "public_signal_count": 3,
             "source_error": false,
             "stale": false,
             "named_unavailable_count": 0,
             "unavailable_starter_count": 0
           },
           "away": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -33919,24 +34868,24 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
-            "public_signal_count": 0,
+            "public_signal": true,
+            "public_signal_count": 3,
             "source_error": false,
             "stale": false,
             "named_unavailable_count": 0,
             "unavailable_starter_count": 0
           },
-          "confidence_score": 5,
+          "confidence_score": 15,
           "quality": "Belirsiz",
           "conflict_level": "none",
           "uncertainty_brake": -3,
           "uncertain": true,
-          "robot_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none."
+          "robot_note": "Kaynak uzlaşısı sınırlı: güven 15/100, çelişki none."
         },
-        "source_confidence_score": 5,
+        "source_confidence_score": 15,
         "source_conflict_level": "none",
         "source_uncertainty_brake": -3,
-        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none.",
+        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 15/100, çelişki none.",
         "pre_match_final_check": null,
         "pre_match_decision": "not_due",
         "pre_match_checkpoint": "not_due",
@@ -33952,8 +34901,8 @@
         "s": null,
         "level": "Yüksek",
         "notes": [
-          "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı.",
-          "Kaynak güven puanı düşük (5/100)."
+          "Kadro veya ilk 11 riski orta.",
+          "Kaynak güven puanı düşük (15/100)."
         ]
       }
     },
@@ -33968,10 +34917,10 @@
         "squad_risk_level": "Orta",
         "source_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 1,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Juventus Ii için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Albinoleffe için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Juventus Ii için 4 güncel sakatlık haberi sinyali bulundu | Juventus Ii transfer gündemi: +7 / -1 haber sinyali | Albinoleffe için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
         "matchup_analysis": {
           "version": "matchup-intelligence-v1",
@@ -34153,10 +35102,55 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "source_note": "Otomatik açık kaynak: Yahoo Sports, The New York Times, Devdiscourse, Yahoo, The Star",
+            "evidence": [
+              {
+                "title": "Spalletti recovers two key Juventus players but injury crisis still a burden - Yahoo Sports",
+                "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTmZyRmF2aktpZEFGQTNRVVdQVXVJM2xaMGFXMjBEY1ZlY0dZT1BZZ01RREc1VlZyZDJrczNpaS1DYXk2dXI2bnE1T0UzS21ZZk5KeGQ0d0J3TmtEWXBHeTJGcWduSHJwS2gwV0M4anFXaUN3OFJZWXJoVVBBZmV5MjBSZ1dUZm9wY3VGZw?oc=5",
+                "source_name": "Yahoo Sports",
+                "published_at": "Tue, 15 Sep 2026 12:10:00 GMT",
+                "categories": [
+                  "injury"
+                ],
+                "age_days": 4.8,
+                "confidence": "medium"
+              },
+              {
+                "title": "Brighton working on deal to sign Lia Walti from Juventus - The Athletic - The New York Times",
+                "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeTJSaU8zTnJwUUF4UUVadGxhVDRvR0tGeTRjeU1PeFd6QkVhZ1JTNzQ4ak9aUnNjenhRdU9mZ2ZlUFh2elJORzdoaHRIN2IxcFNsemVBRzc3NUN0Qjk1VGZ3bGh2X0ZRZ1pYUy1tZXRTeXJBVEJfLUpKQ3FTYVFsakVIRmJJLWZ4c3F5SFN6cFU?oc=5",
+                "source_name": "The New York Times",
+                "published_at": "Wed, 24 Jun 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 88,
+                "confidence": "medium"
+              },
+              {
+                "title": "Positive Juventus start despite injury concerns - Yahoo Sports",
+                "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbmhIOEJSN21CSGp6SnVHbVNDY29GNlJmdFhDRlVRVWhLeHdZaWFGdmZMUUxyMmJPaTJjUGdmU1hpOXl5VGZ1WGhJWU41MVk2blRsSWVraS1vVFhqRWg4NE81RXZGWDFiUEk4RVF4UEtFSndCMXFneUY3WHhieVR0eEI2QVdkdlU4ZnhpdFJhTlk?oc=5",
+                "source_name": "Yahoo Sports",
+                "published_at": "Tue, 08 Sep 2026 07:00:00 GMT",
+                "categories": [
+                  "injury"
+                ],
+                "age_days": 12,
+                "confidence": "medium"
+              },
+              {
+                "title": "Soccer-Juventus sign forward Woltemade on loan from Newcastle - Devdiscourse",
+                "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORloyUGg4STBXa1pNYWxxNkQwTWl6ZnR3Ym5xTkNXaGJPbHRhM3lVZnFSZTk0cXk3dXRQTHdkWm80dTF4ZFlYTnBONVo4V0RMMXdYQkxvUUdWX0F1ck1uNVdUT3BYalNJTy1LSTBUNzdGZ3Q2NnQ3eXpqVWZVU3dwbzhNdmZ6R3otSnpSNWpwTXlYV0lqdzhCLTV3VDVsYkdwMVptWmpLNmRMZ3J5MXBwcWU3c0NVYmFrbHBkVtIBwgFBVV95cUxPVWoxQm5GYmFIaDB2cVlWSmhMc2tFaXBrbDRiVlNkMmxzOGwyNWNvNVhXczZnc2gxRW5aTWpzWDRwbFRFVkJkaUhLcG4tcmNUdk1LRG9HMjdmZ3lmaFNTVWlieVY3eVlpX3pIb2JzVFZnalM5aGhwUlc0SWZ3Y1RBdS12YnB5anNWenc0MmVXdDJrV2lhY3JFc1BrWFN4VnNtR3pZV2dRRW5VVEpoMEZXUTFWMkl4NFIzUlpkRVMzeVhvZw?oc=5",
+                "source_name": "Devdiscourse",
+                "published_at": "Tue, 01 Sep 2026 18:20:34 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 18.5,
+                "confidence": "medium"
+              }
+            ],
+            "auto_risk_score": 10.8,
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -34165,11 +35159,11 @@
             "availability_checked": false,
             "lineup_confirmed": false,
             "provider_team_id": null,
-            "injury_news_count": 0,
+            "injury_news_count": 4,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
-            "transfer_out_news_count": 0,
+            "transfer_in_news_count": 7,
+            "transfer_out_news_count": 1,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
           },
@@ -34248,7 +35242,7 @@
           "home_team": "Juventus Ii",
           "away_team": "Albinoleffe",
           "home": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -34256,8 +35250,8 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
-            "public_signal_count": 0,
+            "public_signal": true,
+            "public_signal_count": 4,
             "source_error": false,
             "stale": false,
             "named_unavailable_count": 0,
@@ -34321,10 +35315,10 @@
         "squad_risk_level": "Orta",
         "source_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 2,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Atalanta Ii için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Ravenna için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Atalanta Ii için 1 ceza/men haberi sinyali bulundu | Atalanta Ii transfer gündemi: +7 / -0 haber sinyali | Ravenna için 1 güncel sakatlık haberi sinyali bulundu | Ravenna transfer gündemi: +12 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
         "matchup_analysis": {
           "version": "matchup-intelligence-v1",
@@ -34506,10 +35500,55 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
-            "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "source_note": "Otomatik açık kaynak: Yahoo Sports, Chelsea Football Club, BBC, ESPN, westernpeople.ie",
+            "evidence": [
+              {
+                "title": "Bologna coach Tedesco gets two-match ban, Atalanta midfielder one game for insult - Yahoo Sports",
+                "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaURDTV96WFNxSElOdkxoLU05UXIzYzR5UG01YjNLMno4OEMyYUIyQ3dtaXpkUjBPQTRfMHRPM3pzZ1pNclR2OTlkTXRKR3MyUmpISW5fbnpzaG92amF1V1FsQXU1ZS1aVV9qUGxWWEpDM2FWRFZXMVdMSjhHM3NNOVdrMXE1dw?oc=5",
+                "source_name": "Yahoo Sports",
+                "published_at": "Tue, 08 Sep 2026 07:00:00 GMT",
+                "categories": [
+                  "suspension"
+                ],
+                "age_days": 12,
+                "confidence": "medium"
+              },
+              {
+                "title": "Chelsea complete Marco Palestra signing from Atalanta | News | Official Site - Chelsea Football Club",
+                "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa05nd0pDNGZDOVhxR0FTMmR0aFh4aGU4X0lST2Q2UWpKLXNwcVY1WHZuMk5tdUpoYVN0Tmx0TzhOTU5rcVk0UzBPbkNVWGNlZXZ1Zm5jOGdqcnpORFp4QVY2T0h3UF9ZUHp3WWNVR18wekRuSkx5UmJNUmZiV1pxaUstNWxrczM4WlNQRWxKUG1iY0VQc2xuRTBCVQ?oc=5",
+                "source_name": "Chelsea Football Club",
+                "published_at": "Wed, 01 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 81,
+                "confidence": "medium"
+              },
+              {
+                "title": "Ben Godfrey: Rangers sign ex-Everton defender on loan from Atalanta - BBC",
+                "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11b0prNFhZRWhNM3dZRFNnWV9SRy1jU25RQVRTa2g4OVFuS21KTUgzTFZYU2s4cTZpejdYMThuSkVlbWZmQ3o3Y2pFSmVSbWNhWnhqaUtDRFB6eFNIQlo2TDY1OE9YbGs?oc=5",
+                "source_name": "BBC",
+                "published_at": "Mon, 29 Jun 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 83,
+                "confidence": "medium"
+              },
+              {
+                "title": "Chelsea sign Marco Palestra from Atalanta for £47m - BBC",
+                "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtQ1czVFBSOEtzZDVuWFdJXzl4UGhOb3Q1NkhQT2tsRC11alRlekdzVXM1MU9UWHd1MWRSTTBRLXV4eFdJeVFsWG5RdzN5MmVJZlBtV3ptS1BEZ1ZrR19za1R2TC10TVU?oc=5",
+                "source_name": "BBC",
+                "published_at": "Wed, 01 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 81,
+                "confidence": "medium"
+              }
+            ],
+            "auto_risk_score": 2,
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -34519,9 +35558,9 @@
             "lineup_confirmed": false,
             "provider_team_id": null,
             "injury_news_count": 0,
-            "suspension_news_count": 0,
+            "suspension_news_count": 1,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 7,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -34533,10 +35572,56 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: The New York Times, foxsports.com, Haute Living, Reuters, AP News",
+            "evidence": [
+              {
+                "title": "Ronaldinho, 46, to sign for third tier Ravenna with aim of scoring ‘final goal of his career’ - The Athletic - The New York Times",
+                "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUElCQ2pWZm05NUZibWZiWTRWR2NWZ1RHVjV0M0lPOTNTRkk1NkQwYXNCQ19TNzV6ZTFLX05kZ21VQm00VEMybmttRkd0cDNOX01wVlp3dXdwaFpGeGVibU0xZ3JTR1NURnVJMXBTUnVMN0EzSzZkUmlKbXNWQXI5OWRINkhFQmlBUkliV05IUG5lUQ?oc=5",
+                "source_name": "The New York Times",
+                "published_at": "Thu, 20 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 31,
+                "confidence": "medium"
+              },
+              {
+                "title": "Ronaldinho Signs With Serie C Club Ravenna, Return To The Pitch 'Not Ruled Out' - foxsports.com",
+                "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeHZtZ3hUdEVJS3djeWZORENYaHJJYjQ2VlBnRU1GUnh4cWd0NzJINXR5WTNYTWFmSV85Qno3NTNQTG45bkZGRkFzYzFWT3RYdTBTc3JQVXZTNHd0QnJIbHlObDJLc2NVQ0hneVZPSHlYY0xVTktpd2RmOFYwUzczSmEzenBxUDZJZEo2SVBrMDVLdS1peUxaenpQaExteWpJTXl6VlUtZnBfNHlacWhBZ0ItampZMGQySnFnSUxRQkJpWWE3SGhNcXoxOHVkM1I4OWfSAdIBQVVfeXFMTTRuc0ZCVW85V2xFMVFncVFXOV9mZXlJbDhTdlRzNjBXdzNMUlRsRDRvVVYwLU15S2FocC1EcGZiYm5jdXJwSWhDam0yWVZwcGpXRFFuVlhsTUJxemlRaktMR2VodmVVU1E3Vk9BNU4xZkN6MVV1Q05VdW5WcjMtZmExeTVTZG0yUllWQ0EtajhWOENkQXE1V3RkckR3RHo2TlVrd2s2ZlZrYjQ4MXVYdXZnUWtHRGRTT21jOEJvaTRKOUx2bkhjcDZpNG1UMHhrNEZB?oc=5",
+                "source_name": "foxsports.com",
+                "published_at": "Sat, 20 Jun 2026 07:00:00 GMT",
+                "categories": [
+                  "injury",
+                  "transfer_in"
+                ],
+                "age_days": 92,
+                "confidence": "medium"
+              },
+              {
+                "title": "Ronaldinho Joins Cipriani's Ravenna FC: Inside Football's Boldest Experiment - Haute Living",
+                "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSGdHYzAtU0ZxRzhHRG9wbC1VRlRtVGlkTU9CVkw3STJJQTh6c3ROclpJdlRPcDNSeW11TzdyNjZuN1ZQWVh6RlJ6UE5CN3pXMi1CUVRpV0MwWFRLNWRiUWpHcjhmWWJOcW1yX0RMbzY0VC1Gc3B4U3VIS29mSFI5ZzZROTRBNXp1SldRTUdaVkpVV2c2TkZ3UlowV0MyOVEwSlFOOFZJaURtRnBGMGttQWV6dENJUm8wQ3c?oc=5",
+                "source_name": "Haute Living",
+                "published_at": "Tue, 23 Jun 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 89,
+                "confidence": "medium"
+              },
+              {
+                "title": "Ronaldinho unsure of playing role after Ravenna arrival - Reuters",
+                "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUEs5VGJjY1htbzc5RUlrT1EzaVUxaHFQZkFvc3BaUGtHWHd2YUZhbHllcUJwTkJZOFU1dGdKRUhvQ3luUnZmQVNPMEJ3TVFRN3lxRmtYMy1FTlJaaElJWW1CS0xzUzYwRjRIcjJyVDF3akpWTU5zM0xTZWdnQlFWWUROQl9JeUI1R3YwRjVGMHZFWFZtbnVHekhfWW15OVpkeWRRWA?oc=5",
+                "source_name": "Reuters",
+                "published_at": "Thu, 20 Aug 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 31,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -34545,10 +35630,10 @@
             "availability_checked": false,
             "lineup_confirmed": false,
             "provider_team_id": null,
-            "injury_news_count": 0,
+            "injury_news_count": 1,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 12,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -34601,7 +35686,7 @@
           "home_team": "Atalanta Ii",
           "away_team": "Ravenna",
           "home": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -34609,15 +35694,15 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
-            "public_signal_count": 0,
+            "public_signal": true,
+            "public_signal_count": 1,
             "source_error": false,
             "stale": false,
             "named_unavailable_count": 0,
             "unavailable_starter_count": 0
           },
           "away": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -34625,24 +35710,24 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
-            "public_signal_count": 0,
+            "public_signal": true,
+            "public_signal_count": 1,
             "source_error": false,
             "stale": false,
             "named_unavailable_count": 0,
             "unavailable_starter_count": 0
           },
-          "confidence_score": 5,
+          "confidence_score": 15,
           "quality": "Belirsiz",
           "conflict_level": "none",
           "uncertainty_brake": -3,
           "uncertain": true,
-          "robot_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none."
+          "robot_note": "Kaynak uzlaşısı sınırlı: güven 15/100, çelişki none."
         },
-        "source_confidence_score": 5,
+        "source_confidence_score": 15,
         "source_conflict_level": "none",
         "source_uncertainty_brake": -3,
-        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none.",
+        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 15/100, çelişki none.",
         "pre_match_final_check": null,
         "pre_match_decision": "not_due",
         "pre_match_checkpoint": "not_due",
@@ -34659,7 +35744,7 @@
         "level": "Yüksek",
         "notes": [
           "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı.",
-          "Kaynak güven puanı düşük (5/100)."
+          "Kaynak güven puanı düşük (15/100)."
         ]
       }
     },
@@ -34674,10 +35759,10 @@
         "squad_risk_level": "Orta",
         "source_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 2,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Hradec Kralove için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Teplice için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Hradec Kralove transfer gündemi: +1 / -0 haber sinyali | Teplice transfer gündemi: +2 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
         "matchup_analysis": {
           "version": "matchup-intelligence-v1",
@@ -34859,10 +35944,22 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: Around Prague",
+            "evidence": [
+              {
+                "title": "Pilař joins Bohemians and slams Hradec Králové's management - Around Prague",
+                "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUWdha1JoaFkyS3VqYjVfVTVscFpYSHhHX24zQ3JrWEhoYmhDR1RZRXJGM09USm1JOWtZalFJMnRlYk9XY2ZCOVZiNXI3dDZITFBKWmt6c1dPNFJMRnItaWdkOEgwTkphb1M3dm1RMHRzejA2WVFwVGYtbkM3TkVwd0NBaXpEUmpkSDhFbG84TDVFczRrd2t4dVo0VQ?oc=5",
+                "source_name": "Around Prague",
+                "published_at": "Tue, 21 Jul 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 61,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -34874,7 +35971,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 1,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -34886,10 +35983,33 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: Sports247 Nigeria, AfricaSoccer.com",
+            "evidence": [
+              {
+                "title": "“I’m Ready for the Challenge” — Nigeria U17 Talent Abdulwaris Yunus Joins FK Teplice in Czech Republic - Sports247 Nigeria",
+                "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcW1jb2lMWUhUS3VNV3BTQWN5eTJ6aWd4YkdZdV91c01SRUZheUZiMGdjRnA5UkhqbnpFbm1LTFlSYlhsSk94QkpJLTZxZ1U1LWl5RWJuOFJSZXhQeFpJRVZHVkFJelB5R0dwR3I3U2VBZzJ2eUhWbEx3NGl2VWhqODFzQl85ZTFwR2VGd3J0MkhPa3ZyWXJFOUZja0k3WmM4R21VWUZ3ZnFvNzVkdWFQeVJxSWpfZzJtMkRBdlh5NjQ?oc=5",
+                "source_name": "Sports247 Nigeria",
+                "published_at": "Tue, 08 Sep 2026 06:08:15 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 12,
+                "confidence": "medium"
+              },
+              {
+                "title": "Abdourahman Badamosi: Gambia striker joins Teplice from Paide - AfricaSoccer.com",
+                "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY0wxakNEbzBYR1Z1ZnFtWG1tTjBZMkM0NVBJNkhEY09DUXRCTk93Wm5BNC1RMTVpVVZOd2pDQXZheGFWRzhYeXRSY3pldDhYbklCVWMwcEZLdkM0YzRvRVNyQkFNa1hzLVE3eEJuWmZ3Y2FpTy1BbGVuUTNjT0U1YnlLdDl5cUhfa09KUUdEWQ?oc=5",
+                "source_name": "AfricaSoccer.com",
+                "published_at": "Wed, 09 Sep 2026 15:40:17 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 10.6,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -34901,7 +36021,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 2,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -34954,7 +36074,7 @@
           "home_team": "Hradec Kralove",
           "away_team": "Teplice",
           "home": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -34962,7 +36082,7 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
+            "public_signal": true,
             "public_signal_count": 0,
             "source_error": false,
             "stale": false,
@@ -34970,7 +36090,7 @@
             "unavailable_starter_count": 0
           },
           "away": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -34978,24 +36098,24 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
+            "public_signal": true,
             "public_signal_count": 0,
             "source_error": false,
             "stale": false,
             "named_unavailable_count": 0,
             "unavailable_starter_count": 0
           },
-          "confidence_score": 5,
+          "confidence_score": 15,
           "quality": "Belirsiz",
           "conflict_level": "none",
           "uncertainty_brake": -3,
           "uncertain": true,
-          "robot_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none."
+          "robot_note": "Kaynak uzlaşısı sınırlı: güven 15/100, çelişki none."
         },
-        "source_confidence_score": 5,
+        "source_confidence_score": 15,
         "source_conflict_level": "none",
         "source_uncertainty_brake": -3,
-        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none.",
+        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 15/100, çelişki none.",
         "pre_match_final_check": null,
         "pre_match_decision": "not_due",
         "pre_match_checkpoint": "not_due",
@@ -35012,7 +36132,7 @@
         "level": "Yüksek",
         "notes": [
           "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı.",
-          "Kaynak güven puanı düşük (5/100)."
+          "Kaynak güven puanı düşük (15/100)."
         ]
       }
     },
@@ -35027,10 +36147,10 @@
         "squad_risk_level": "Orta",
         "source_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 1,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "Thisted için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Brabrand için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "Thisted için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Brabrand transfer gündemi: +1 / -0 haber sinyali",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
         "matchup_analysis": {
           "version": "matchup-intelligence-v1",
@@ -35239,10 +36359,22 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: Arsenal.com",
+            "evidence": [
+              {
+                "title": "Lucas Martin Nygaard joins Brabrand IF on loan - Arsenal.com",
+                "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbkJFVVk2bWg0OFFtcVJTNmxhYTVCN3lJb2YtRndLa0NvbTNMTzBRTXNkX3JzdUFXREJXbV8xUVducVZkVk40X1B6TUxKZWE4dWwzUVAxcFZ3ekEwZTlYdzBXRnJ4Z3pac2NIcTZ1alZBNVowV0xNRzl2WEVQQUw1MDh2c2VueEJka3REQ3lYZW9Udw?oc=5",
+                "source_name": "Arsenal.com",
+                "published_at": "Mon, 20 Jul 2026 04:31:06 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 62.1,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -35254,7 +36386,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 1,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -35323,7 +36455,7 @@
             "unavailable_starter_count": 0
           },
           "away": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -35331,7 +36463,7 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
+            "public_signal": true,
             "public_signal_count": 0,
             "source_error": false,
             "stale": false,
@@ -75606,6 +76738,353 @@
       }
     },
     {
+      "match_name": "Molde 2 VS Melhus",
+      "home": "Molde 2",
+      "away": "Melhus",
+      "date": "2026-09-20",
+      "start_time": "16:00",
+      "league": "Norveç 3.Lig Grup 2",
+      "extra_used": {
+        "squad_risk_level": "Orta",
+        "source_risk_level": "Belirsiz",
+        "squad_verified_team_count": 0,
+        "squad_signal_team_count": 0,
+        "named_player_count": 0,
+        "lineup_risk_level": "Belirsiz",
+        "squad_comment": "Molde 2 için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Melhus için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+        "matchup_analysis": {
+          "version": "matchup-intelligence-v1",
+          "data_quality": "Belirsiz",
+          "coverage_score": 0,
+          "lineup_confirmed_both": false,
+          "availability_checked_both": false,
+          "home": {
+            "team_name": "Molde 2",
+            "formation": "-",
+            "lineup_confirmed": false,
+            "availability_checked": false,
+            "starting_11_count": 0,
+            "rated_starter_count": 0,
+            "missing_count": 0,
+            "missing_impact": 0,
+            "high_impact_missing": 0,
+            "zones": {
+              "goalkeeper": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "defense": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "midfield": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "attack": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "unknown": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              }
+            }
+          },
+          "away": {
+            "team_name": "Melhus",
+            "formation": "-",
+            "lineup_confirmed": false,
+            "availability_checked": false,
+            "starting_11_count": 0,
+            "rated_starter_count": 0,
+            "missing_count": 0,
+            "missing_impact": 0,
+            "high_impact_missing": 0,
+            "zones": {
+              "goalkeeper": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "defense": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "midfield": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "attack": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "unknown": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              }
+            }
+          },
+          "position_comparison": [
+            {
+              "zone": "goalkeeper",
+              "label": "Kaleci",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "defense",
+              "label": "Savunma",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "midfield",
+              "label": "Orta saha",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "attack",
+              "label": "Hücum",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            }
+          ],
+          "context_edge": 0,
+          "context_edge_side": "balanced",
+          "market_context": {
+            "goal_pressure": 0,
+            "defensive_missing_impact": 0,
+            "attacking_missing_impact": 0,
+            "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+            "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+          },
+          "signals": [
+            "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+          ],
+          "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+        },
+        "team_status": {
+          "home": {
+            "transfers_in": [],
+            "transfers_out": [],
+            "injured_players": [],
+            "suspended_players": [],
+            "doubtful_players": [],
+            "squad_note": "",
+            "source_note": "",
+            "evidence": [],
+            "auto_risk_score": 0,
+            "data_status": "no_verified_data",
+            "player_impacts": [],
+            "transfer_details": {
+              "in": [],
+              "out": []
+            },
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "provider_team_id": null,
+            "injury_news_count": 0,
+            "suspension_news_count": 0,
+            "doubtful_news_count": 0,
+            "transfer_in_news_count": 0,
+            "transfer_out_news_count": 0,
+            "verified_source_count": 0,
+            "structured_fact_source_count": 0
+          },
+          "away": {
+            "transfers_in": [],
+            "transfers_out": [],
+            "injured_players": [],
+            "suspended_players": [],
+            "doubtful_players": [],
+            "squad_note": "",
+            "source_note": "",
+            "evidence": [],
+            "auto_risk_score": 0,
+            "data_status": "no_verified_data",
+            "player_impacts": [],
+            "transfer_details": {
+              "in": [],
+              "out": []
+            },
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "provider_team_id": null,
+            "injury_news_count": 0,
+            "suspension_news_count": 0,
+            "doubtful_news_count": 0,
+            "transfer_in_news_count": 0,
+            "transfer_out_news_count": 0,
+            "verified_source_count": 0,
+            "structured_fact_source_count": 0
+          }
+        },
+        "lineup": {
+          "home": {
+            "team_name": "Molde 2",
+            "formation": "-",
+            "starting_11_count": 0,
+            "substitutes_count": 0,
+            "starting_11_strength": 0,
+            "bench_strength": 0,
+            "strength_label": "Veri Yok",
+            "top_starting_players": [],
+            "top_bench_players": [],
+            "unavailable_players": [],
+            "important_missing_count": 0,
+            "data_available": false,
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "data_status": "no_verified_data",
+            "note": "",
+            "source_note": ""
+          },
+          "away": {
+            "team_name": "Melhus",
+            "formation": "-",
+            "starting_11_count": 0,
+            "substitutes_count": 0,
+            "starting_11_strength": 0,
+            "bench_strength": 0,
+            "strength_label": "Veri Yok",
+            "top_starting_players": [],
+            "top_bench_players": [],
+            "unavailable_players": [],
+            "important_missing_count": 0,
+            "data_available": false,
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "data_status": "no_verified_data",
+            "note": "",
+            "source_note": ""
+          }
+        },
+        "source_consensus": {
+          "match_name": "Molde 2 VS Melhus",
+          "date": "2026-09-20",
+          "league": "Norveç 3.Lig Grup 2",
+          "home_team": "Molde 2",
+          "away_team": "Melhus",
+          "home": {
+            "confidence_score": 5,
+            "quality": "Belirsiz",
+            "conflict_level": "none",
+            "conflict_reasons": [],
+            "uncertainty_brake": -3,
+            "structured_verified": false,
+            "lineup_confirmed": false,
+            "manual_verified": false,
+            "public_signal": false,
+            "public_signal_count": 0,
+            "source_error": false,
+            "stale": false,
+            "named_unavailable_count": 0,
+            "unavailable_starter_count": 0
+          },
+          "away": {
+            "confidence_score": 5,
+            "quality": "Belirsiz",
+            "conflict_level": "none",
+            "conflict_reasons": [],
+            "uncertainty_brake": -3,
+            "structured_verified": false,
+            "lineup_confirmed": false,
+            "manual_verified": false,
+            "public_signal": false,
+            "public_signal_count": 0,
+            "source_error": false,
+            "stale": false,
+            "named_unavailable_count": 0,
+            "unavailable_starter_count": 0
+          },
+          "confidence_score": 5,
+          "quality": "Belirsiz",
+          "conflict_level": "none",
+          "uncertainty_brake": -3,
+          "uncertain": true,
+          "robot_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none."
+        },
+        "source_confidence_score": 5,
+        "source_conflict_level": "none",
+        "source_uncertainty_brake": -3,
+        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none.",
+        "pre_match_final_check": null,
+        "pre_match_decision": "not_due",
+        "pre_match_checkpoint": "not_due"
+      },
+      "band_check": {
+        "q": null,
+        "s": null,
+        "level": "Yüksek",
+        "notes": [
+          "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı.",
+          "Kaynak güven puanı düşük (5/100)."
+        ]
+      }
+    },
+    {
       "match_name": "Fortuna Alesun VS Molde (K)",
       "home": "Fortuna Alesun",
       "away": "Molde (K)",
@@ -100667,10 +102146,10 @@
         "squad_risk_level": "Orta",
         "source_risk_level": "Belirsiz",
         "squad_verified_team_count": 0,
-        "squad_signal_team_count": 0,
+        "squad_signal_team_count": 1,
         "named_player_count": 0,
         "lineup_risk_level": "Belirsiz",
-        "squad_comment": "De Graafschap için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Breda için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "squad_comment": "De Graafschap transfer gündemi: +2 / -0 haber sinyali | Breda için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
         "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
         "matchup_analysis": {
           "version": "matchup-intelligence-v1",
@@ -100852,10 +102331,33 @@
             "suspended_players": [],
             "doubtful_players": [],
             "squad_note": "",
-            "source_note": "",
-            "evidence": [],
+            "source_note": "Otomatik açık kaynak: GhanaSoccernet, AfricaSoccer.com",
+            "evidence": [
+              {
+                "title": "De Graafschap explain why Ghana-linked Paul Reverson was signed - GhanaSoccernet",
+                "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb1NZakNuYmZOS2pPdl83akVsQndZVzVFZDlRSlJEWHZ5SWJMZDhkaE1nTWlpSTA3Rm42NlRWOGVBRmlWZk9ISnV1ZnB2LVprRWE0bXNGTnBmek0tUno5TGZIbDVwc3R1am1CcUMxQnNZbk94eXdoWU4zWFhEWWlCbV90eG56RnBQX0JmejhIejIxUFkt?oc=5",
+                "source_name": "GhanaSoccernet",
+                "published_at": "Tue, 01 Sep 2026 07:00:00 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 19,
+                "confidence": "medium"
+              },
+              {
+                "title": "Paul Reverson joins De Graafschap as Ajax goalkeeper moves to the club until 2027 - AfricaSoccer.com",
+                "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUnlQNmcxdHlmX3BPZjFyeFZOaFMtMU1qZDJndUhkQ25oRzcwVXcwTnBpbk9LMTdrWEpoaDF0ZFF2MDB1OExtSHp5bTBUTXRNcTQ5YjM1QUo2M0UwOXZ2VnduMmtGeHV4SnVyQXBQLWIyN2d4bVhCaXV2Q25xOGxGdWJmVmtYSC1HWUFubU1RS1dsMW5HbVRhUDV3b0R2UlRnM1NYZEo3LVkwWVE?oc=5",
+                "source_name": "AfricaSoccer.com",
+                "published_at": "Tue, 01 Sep 2026 10:54:33 GMT",
+                "categories": [
+                  "transfer_in"
+                ],
+                "age_days": 18.8,
+                "confidence": "medium"
+              }
+            ],
             "auto_risk_score": 0,
-            "data_status": "no_verified_data",
+            "data_status": "public_news_signal",
             "player_impacts": [],
             "transfer_details": {
               "in": [],
@@ -100867,7 +102369,7 @@
             "injury_news_count": 0,
             "suspension_news_count": 0,
             "doubtful_news_count": 0,
-            "transfer_in_news_count": 0,
+            "transfer_in_news_count": 2,
             "transfer_out_news_count": 0,
             "verified_source_count": 0,
             "structured_fact_source_count": 0
@@ -100947,7 +102449,7 @@
           "home_team": "De Graafschap",
           "away_team": "Breda",
           "home": {
-            "confidence_score": 5,
+            "confidence_score": 15,
             "quality": "Belirsiz",
             "conflict_level": "none",
             "conflict_reasons": [],
@@ -100955,7 +102457,7 @@
             "structured_verified": false,
             "lineup_confirmed": false,
             "manual_verified": false,
-            "public_signal": false,
+            "public_signal": true,
             "public_signal_count": 0,
             "source_error": false,
             "stale": false,
@@ -103822,6 +105324,1047 @@
         "point_difference": 0,
         "goal_profile": "unknown",
         "high_scoring_watch": false
+      },
+      "band_check": {
+        "q": null,
+        "s": null,
+        "level": "Yüksek",
+        "notes": [
+          "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı.",
+          "Kaynak güven puanı düşük (5/100)."
+        ]
+      }
+    },
+    {
+      "match_name": "Aduana Stars VS Karela",
+      "home": "Aduana Stars",
+      "away": "Karela",
+      "date": "2026-09-20",
+      "start_time": "18:00",
+      "league": "Gana Premier Lig",
+      "extra_used": {
+        "squad_risk_level": "Orta",
+        "source_risk_level": "Belirsiz",
+        "squad_verified_team_count": 0,
+        "squad_signal_team_count": 0,
+        "named_player_count": 0,
+        "lineup_risk_level": "Belirsiz",
+        "squad_comment": "Aduana Stars için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Karela için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+        "matchup_analysis": {
+          "version": "matchup-intelligence-v1",
+          "data_quality": "Belirsiz",
+          "coverage_score": 0,
+          "lineup_confirmed_both": false,
+          "availability_checked_both": false,
+          "home": {
+            "team_name": "Aduana Stars",
+            "formation": "-",
+            "lineup_confirmed": false,
+            "availability_checked": false,
+            "starting_11_count": 0,
+            "rated_starter_count": 0,
+            "missing_count": 0,
+            "missing_impact": 0,
+            "high_impact_missing": 0,
+            "zones": {
+              "goalkeeper": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "defense": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "midfield": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "attack": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "unknown": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              }
+            }
+          },
+          "away": {
+            "team_name": "Karela",
+            "formation": "-",
+            "lineup_confirmed": false,
+            "availability_checked": false,
+            "starting_11_count": 0,
+            "rated_starter_count": 0,
+            "missing_count": 0,
+            "missing_impact": 0,
+            "high_impact_missing": 0,
+            "zones": {
+              "goalkeeper": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "defense": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "midfield": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "attack": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "unknown": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              }
+            }
+          },
+          "position_comparison": [
+            {
+              "zone": "goalkeeper",
+              "label": "Kaleci",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "defense",
+              "label": "Savunma",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "midfield",
+              "label": "Orta saha",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "attack",
+              "label": "Hücum",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            }
+          ],
+          "context_edge": 0,
+          "context_edge_side": "balanced",
+          "market_context": {
+            "goal_pressure": 0,
+            "defensive_missing_impact": 0,
+            "attacking_missing_impact": 0,
+            "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+            "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+          },
+          "signals": [
+            "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+          ],
+          "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+        },
+        "team_status": {
+          "home": {
+            "transfers_in": [],
+            "transfers_out": [],
+            "injured_players": [],
+            "suspended_players": [],
+            "doubtful_players": [],
+            "squad_note": "",
+            "source_note": "",
+            "evidence": [],
+            "auto_risk_score": 0,
+            "data_status": "no_verified_data",
+            "player_impacts": [],
+            "transfer_details": {
+              "in": [],
+              "out": []
+            },
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "provider_team_id": null,
+            "injury_news_count": 0,
+            "suspension_news_count": 0,
+            "doubtful_news_count": 0,
+            "transfer_in_news_count": 0,
+            "transfer_out_news_count": 0,
+            "verified_source_count": 0,
+            "structured_fact_source_count": 0
+          },
+          "away": {
+            "transfers_in": [],
+            "transfers_out": [],
+            "injured_players": [],
+            "suspended_players": [],
+            "doubtful_players": [],
+            "squad_note": "",
+            "source_note": "",
+            "evidence": [],
+            "auto_risk_score": 0,
+            "data_status": "no_verified_data",
+            "player_impacts": [],
+            "transfer_details": {
+              "in": [],
+              "out": []
+            },
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "provider_team_id": null,
+            "injury_news_count": 0,
+            "suspension_news_count": 0,
+            "doubtful_news_count": 0,
+            "transfer_in_news_count": 0,
+            "transfer_out_news_count": 0,
+            "verified_source_count": 0,
+            "structured_fact_source_count": 0
+          }
+        },
+        "lineup": {
+          "home": {
+            "team_name": "Aduana Stars",
+            "formation": "-",
+            "starting_11_count": 0,
+            "substitutes_count": 0,
+            "starting_11_strength": 0,
+            "bench_strength": 0,
+            "strength_label": "Veri Yok",
+            "top_starting_players": [],
+            "top_bench_players": [],
+            "unavailable_players": [],
+            "important_missing_count": 0,
+            "data_available": false,
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "data_status": "no_verified_data",
+            "note": "",
+            "source_note": ""
+          },
+          "away": {
+            "team_name": "Karela",
+            "formation": "-",
+            "starting_11_count": 0,
+            "substitutes_count": 0,
+            "starting_11_strength": 0,
+            "bench_strength": 0,
+            "strength_label": "Veri Yok",
+            "top_starting_players": [],
+            "top_bench_players": [],
+            "unavailable_players": [],
+            "important_missing_count": 0,
+            "data_available": false,
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "data_status": "no_verified_data",
+            "note": "",
+            "source_note": ""
+          }
+        },
+        "source_consensus": {
+          "match_name": "Aduana Stars VS Karela",
+          "date": "2026-09-20",
+          "league": "Gana Premier Lig",
+          "home_team": "Aduana Stars",
+          "away_team": "Karela",
+          "home": {
+            "confidence_score": 5,
+            "quality": "Belirsiz",
+            "conflict_level": "none",
+            "conflict_reasons": [],
+            "uncertainty_brake": -3,
+            "structured_verified": false,
+            "lineup_confirmed": false,
+            "manual_verified": false,
+            "public_signal": false,
+            "public_signal_count": 0,
+            "source_error": false,
+            "stale": false,
+            "named_unavailable_count": 0,
+            "unavailable_starter_count": 0
+          },
+          "away": {
+            "confidence_score": 5,
+            "quality": "Belirsiz",
+            "conflict_level": "none",
+            "conflict_reasons": [],
+            "uncertainty_brake": -3,
+            "structured_verified": false,
+            "lineup_confirmed": false,
+            "manual_verified": false,
+            "public_signal": false,
+            "public_signal_count": 0,
+            "source_error": false,
+            "stale": false,
+            "named_unavailable_count": 0,
+            "unavailable_starter_count": 0
+          },
+          "confidence_score": 5,
+          "quality": "Belirsiz",
+          "conflict_level": "none",
+          "uncertainty_brake": -3,
+          "uncertain": true,
+          "robot_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none."
+        },
+        "source_confidence_score": 5,
+        "source_conflict_level": "none",
+        "source_uncertainty_brake": -3,
+        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none.",
+        "pre_match_final_check": null,
+        "pre_match_decision": "not_due",
+        "pre_match_checkpoint": "not_due"
+      },
+      "band_check": {
+        "q": null,
+        "s": null,
+        "level": "Yüksek",
+        "notes": [
+          "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı.",
+          "Kaynak güven puanı düşük (5/100)."
+        ]
+      }
+    },
+    {
+      "match_name": "Hearts Of Oak VS Bechem United",
+      "home": "Hearts Of Oak",
+      "away": "Bechem United",
+      "date": "2026-09-20",
+      "start_time": "18:00",
+      "league": "Gana Premier Lig",
+      "extra_used": {
+        "squad_risk_level": "Orta",
+        "source_risk_level": "Belirsiz",
+        "squad_verified_team_count": 0,
+        "squad_signal_team_count": 0,
+        "named_player_count": 0,
+        "lineup_risk_level": "Belirsiz",
+        "squad_comment": "Hearts Of Oak için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Bechem United için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+        "matchup_analysis": {
+          "version": "matchup-intelligence-v1",
+          "data_quality": "Belirsiz",
+          "coverage_score": 0,
+          "lineup_confirmed_both": false,
+          "availability_checked_both": false,
+          "home": {
+            "team_name": "Hearts Of Oak",
+            "formation": "-",
+            "lineup_confirmed": false,
+            "availability_checked": false,
+            "starting_11_count": 0,
+            "rated_starter_count": 0,
+            "missing_count": 0,
+            "missing_impact": 0,
+            "high_impact_missing": 0,
+            "zones": {
+              "goalkeeper": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "defense": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "midfield": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "attack": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "unknown": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              }
+            }
+          },
+          "away": {
+            "team_name": "Bechem United",
+            "formation": "-",
+            "lineup_confirmed": false,
+            "availability_checked": false,
+            "starting_11_count": 0,
+            "rated_starter_count": 0,
+            "missing_count": 0,
+            "missing_impact": 0,
+            "high_impact_missing": 0,
+            "zones": {
+              "goalkeeper": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "defense": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "midfield": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "attack": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "unknown": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              }
+            }
+          },
+          "position_comparison": [
+            {
+              "zone": "goalkeeper",
+              "label": "Kaleci",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "defense",
+              "label": "Savunma",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "midfield",
+              "label": "Orta saha",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "attack",
+              "label": "Hücum",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            }
+          ],
+          "context_edge": 0,
+          "context_edge_side": "balanced",
+          "market_context": {
+            "goal_pressure": 0,
+            "defensive_missing_impact": 0,
+            "attacking_missing_impact": 0,
+            "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+            "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+          },
+          "signals": [
+            "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+          ],
+          "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+        },
+        "team_status": {
+          "home": {
+            "transfers_in": [],
+            "transfers_out": [],
+            "injured_players": [],
+            "suspended_players": [],
+            "doubtful_players": [],
+            "squad_note": "",
+            "source_note": "",
+            "evidence": [],
+            "auto_risk_score": 0,
+            "data_status": "no_verified_data",
+            "player_impacts": [],
+            "transfer_details": {
+              "in": [],
+              "out": []
+            },
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "provider_team_id": null,
+            "injury_news_count": 0,
+            "suspension_news_count": 0,
+            "doubtful_news_count": 0,
+            "transfer_in_news_count": 0,
+            "transfer_out_news_count": 0,
+            "verified_source_count": 0,
+            "structured_fact_source_count": 0
+          },
+          "away": {
+            "transfers_in": [],
+            "transfers_out": [],
+            "injured_players": [],
+            "suspended_players": [],
+            "doubtful_players": [],
+            "squad_note": "",
+            "source_note": "",
+            "evidence": [],
+            "auto_risk_score": 0,
+            "data_status": "no_verified_data",
+            "player_impacts": [],
+            "transfer_details": {
+              "in": [],
+              "out": []
+            },
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "provider_team_id": null,
+            "injury_news_count": 0,
+            "suspension_news_count": 0,
+            "doubtful_news_count": 0,
+            "transfer_in_news_count": 0,
+            "transfer_out_news_count": 0,
+            "verified_source_count": 0,
+            "structured_fact_source_count": 0
+          }
+        },
+        "lineup": {
+          "home": {
+            "team_name": "Hearts Of Oak",
+            "formation": "-",
+            "starting_11_count": 0,
+            "substitutes_count": 0,
+            "starting_11_strength": 0,
+            "bench_strength": 0,
+            "strength_label": "Veri Yok",
+            "top_starting_players": [],
+            "top_bench_players": [],
+            "unavailable_players": [],
+            "important_missing_count": 0,
+            "data_available": false,
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "data_status": "no_verified_data",
+            "note": "",
+            "source_note": ""
+          },
+          "away": {
+            "team_name": "Bechem United",
+            "formation": "-",
+            "starting_11_count": 0,
+            "substitutes_count": 0,
+            "starting_11_strength": 0,
+            "bench_strength": 0,
+            "strength_label": "Veri Yok",
+            "top_starting_players": [],
+            "top_bench_players": [],
+            "unavailable_players": [],
+            "important_missing_count": 0,
+            "data_available": false,
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "data_status": "no_verified_data",
+            "note": "",
+            "source_note": ""
+          }
+        },
+        "source_consensus": {
+          "match_name": "Hearts Of Oak VS Bechem United",
+          "date": "2026-09-20",
+          "league": "Gana Premier Lig",
+          "home_team": "Hearts Of Oak",
+          "away_team": "Bechem United",
+          "home": {
+            "confidence_score": 5,
+            "quality": "Belirsiz",
+            "conflict_level": "none",
+            "conflict_reasons": [],
+            "uncertainty_brake": -3,
+            "structured_verified": false,
+            "lineup_confirmed": false,
+            "manual_verified": false,
+            "public_signal": false,
+            "public_signal_count": 0,
+            "source_error": false,
+            "stale": false,
+            "named_unavailable_count": 0,
+            "unavailable_starter_count": 0
+          },
+          "away": {
+            "confidence_score": 5,
+            "quality": "Belirsiz",
+            "conflict_level": "none",
+            "conflict_reasons": [],
+            "uncertainty_brake": -3,
+            "structured_verified": false,
+            "lineup_confirmed": false,
+            "manual_verified": false,
+            "public_signal": false,
+            "public_signal_count": 0,
+            "source_error": false,
+            "stale": false,
+            "named_unavailable_count": 0,
+            "unavailable_starter_count": 0
+          },
+          "confidence_score": 5,
+          "quality": "Belirsiz",
+          "conflict_level": "none",
+          "uncertainty_brake": -3,
+          "uncertain": true,
+          "robot_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none."
+        },
+        "source_confidence_score": 5,
+        "source_conflict_level": "none",
+        "source_uncertainty_brake": -3,
+        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none.",
+        "pre_match_final_check": null,
+        "pre_match_decision": "not_due",
+        "pre_match_checkpoint": "not_due"
+      },
+      "band_check": {
+        "q": null,
+        "s": null,
+        "level": "Yüksek",
+        "notes": [
+          "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı.",
+          "Kaynak güven puanı düşük (5/100)."
+        ]
+      }
+    },
+    {
+      "match_name": "Port City VS Berekum Chelsea",
+      "home": "Port City",
+      "away": "Berekum Chelsea",
+      "date": "2026-09-20",
+      "start_time": "18:00",
+      "league": "Gana Premier Lig",
+      "extra_used": {
+        "squad_risk_level": "Orta",
+        "source_risk_level": "Belirsiz",
+        "squad_verified_team_count": 0,
+        "squad_signal_team_count": 0,
+        "named_player_count": 0,
+        "lineup_risk_level": "Belirsiz",
+        "squad_comment": "Port City için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Berekum Chelsea için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+        "matchup_analysis": {
+          "version": "matchup-intelligence-v1",
+          "data_quality": "Belirsiz",
+          "coverage_score": 0,
+          "lineup_confirmed_both": false,
+          "availability_checked_both": false,
+          "home": {
+            "team_name": "Port City",
+            "formation": "-",
+            "lineup_confirmed": false,
+            "availability_checked": false,
+            "starting_11_count": 0,
+            "rated_starter_count": 0,
+            "missing_count": 0,
+            "missing_impact": 0,
+            "high_impact_missing": 0,
+            "zones": {
+              "goalkeeper": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "defense": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "midfield": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "attack": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "unknown": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              }
+            }
+          },
+          "away": {
+            "team_name": "Berekum Chelsea",
+            "formation": "-",
+            "lineup_confirmed": false,
+            "availability_checked": false,
+            "starting_11_count": 0,
+            "rated_starter_count": 0,
+            "missing_count": 0,
+            "missing_impact": 0,
+            "high_impact_missing": 0,
+            "zones": {
+              "goalkeeper": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "defense": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "midfield": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "attack": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "unknown": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              }
+            }
+          },
+          "position_comparison": [
+            {
+              "zone": "goalkeeper",
+              "label": "Kaleci",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "defense",
+              "label": "Savunma",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "midfield",
+              "label": "Orta saha",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "attack",
+              "label": "Hücum",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            }
+          ],
+          "context_edge": 0,
+          "context_edge_side": "balanced",
+          "market_context": {
+            "goal_pressure": 0,
+            "defensive_missing_impact": 0,
+            "attacking_missing_impact": 0,
+            "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+            "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+          },
+          "signals": [
+            "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+          ],
+          "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+        },
+        "team_status": {
+          "home": {
+            "transfers_in": [],
+            "transfers_out": [],
+            "injured_players": [],
+            "suspended_players": [],
+            "doubtful_players": [],
+            "squad_note": "",
+            "source_note": "",
+            "evidence": [],
+            "auto_risk_score": 0,
+            "data_status": "no_verified_data",
+            "player_impacts": [],
+            "transfer_details": {
+              "in": [],
+              "out": []
+            },
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "provider_team_id": null,
+            "injury_news_count": 0,
+            "suspension_news_count": 0,
+            "doubtful_news_count": 0,
+            "transfer_in_news_count": 0,
+            "transfer_out_news_count": 0,
+            "verified_source_count": 0,
+            "structured_fact_source_count": 0
+          },
+          "away": {
+            "transfers_in": [],
+            "transfers_out": [],
+            "injured_players": [],
+            "suspended_players": [],
+            "doubtful_players": [],
+            "squad_note": "",
+            "source_note": "",
+            "evidence": [],
+            "auto_risk_score": 0,
+            "data_status": "no_verified_data",
+            "player_impacts": [],
+            "transfer_details": {
+              "in": [],
+              "out": []
+            },
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "provider_team_id": null,
+            "injury_news_count": 0,
+            "suspension_news_count": 0,
+            "doubtful_news_count": 0,
+            "transfer_in_news_count": 0,
+            "transfer_out_news_count": 0,
+            "verified_source_count": 0,
+            "structured_fact_source_count": 0
+          }
+        },
+        "lineup": {
+          "home": {
+            "team_name": "Port City",
+            "formation": "-",
+            "starting_11_count": 0,
+            "substitutes_count": 0,
+            "starting_11_strength": 0,
+            "bench_strength": 0,
+            "strength_label": "Veri Yok",
+            "top_starting_players": [],
+            "top_bench_players": [],
+            "unavailable_players": [],
+            "important_missing_count": 0,
+            "data_available": false,
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "data_status": "no_verified_data",
+            "note": "",
+            "source_note": ""
+          },
+          "away": {
+            "team_name": "Berekum Chelsea",
+            "formation": "-",
+            "starting_11_count": 0,
+            "substitutes_count": 0,
+            "starting_11_strength": 0,
+            "bench_strength": 0,
+            "strength_label": "Veri Yok",
+            "top_starting_players": [],
+            "top_bench_players": [],
+            "unavailable_players": [],
+            "important_missing_count": 0,
+            "data_available": false,
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "data_status": "no_verified_data",
+            "note": "",
+            "source_note": ""
+          }
+        },
+        "source_consensus": {
+          "match_name": "Port City VS Berekum Chelsea",
+          "date": "2026-09-20",
+          "league": "Gana Premier Lig",
+          "home_team": "Port City",
+          "away_team": "Berekum Chelsea",
+          "home": {
+            "confidence_score": 5,
+            "quality": "Belirsiz",
+            "conflict_level": "none",
+            "conflict_reasons": [],
+            "uncertainty_brake": -3,
+            "structured_verified": false,
+            "lineup_confirmed": false,
+            "manual_verified": false,
+            "public_signal": false,
+            "public_signal_count": 0,
+            "source_error": false,
+            "stale": false,
+            "named_unavailable_count": 0,
+            "unavailable_starter_count": 0
+          },
+          "away": {
+            "confidence_score": 5,
+            "quality": "Belirsiz",
+            "conflict_level": "none",
+            "conflict_reasons": [],
+            "uncertainty_brake": -3,
+            "structured_verified": false,
+            "lineup_confirmed": false,
+            "manual_verified": false,
+            "public_signal": false,
+            "public_signal_count": 0,
+            "source_error": false,
+            "stale": false,
+            "named_unavailable_count": 0,
+            "unavailable_starter_count": 0
+          },
+          "confidence_score": 5,
+          "quality": "Belirsiz",
+          "conflict_level": "none",
+          "uncertainty_brake": -3,
+          "uncertain": true,
+          "robot_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none."
+        },
+        "source_confidence_score": 5,
+        "source_conflict_level": "none",
+        "source_uncertainty_brake": -3,
+        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none.",
+        "pre_match_final_check": null,
+        "pre_match_decision": "not_due",
+        "pre_match_checkpoint": "not_due"
       },
       "band_check": {
         "q": null,
@@ -106999,6 +109542,353 @@
         "point_difference": 0,
         "goal_profile": "orta_yuksek",
         "high_scoring_watch": true
+      },
+      "band_check": {
+        "q": null,
+        "s": null,
+        "level": "Yüksek",
+        "notes": [
+          "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı.",
+          "Kaynak güven puanı düşük (5/100)."
+        ]
+      }
+    },
+    {
+      "match_name": "Marupe VS Riga Ii",
+      "home": "Marupe",
+      "away": "Riga Ii",
+      "date": "2026-09-20",
+      "start_time": "18:00",
+      "league": "Letonya 1.Lig",
+      "extra_used": {
+        "squad_risk_level": "Orta",
+        "source_risk_level": "Belirsiz",
+        "squad_verified_team_count": 0,
+        "squad_signal_team_count": 0,
+        "named_player_count": 0,
+        "lineup_risk_level": "Belirsiz",
+        "squad_comment": "Marupe için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Riga Ii için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+        "matchup_analysis": {
+          "version": "matchup-intelligence-v1",
+          "data_quality": "Belirsiz",
+          "coverage_score": 0,
+          "lineup_confirmed_both": false,
+          "availability_checked_both": false,
+          "home": {
+            "team_name": "Marupe",
+            "formation": "-",
+            "lineup_confirmed": false,
+            "availability_checked": false,
+            "starting_11_count": 0,
+            "rated_starter_count": 0,
+            "missing_count": 0,
+            "missing_impact": 0,
+            "high_impact_missing": 0,
+            "zones": {
+              "goalkeeper": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "defense": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "midfield": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "attack": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "unknown": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              }
+            }
+          },
+          "away": {
+            "team_name": "Riga Ii",
+            "formation": "-",
+            "lineup_confirmed": false,
+            "availability_checked": false,
+            "starting_11_count": 0,
+            "rated_starter_count": 0,
+            "missing_count": 0,
+            "missing_impact": 0,
+            "high_impact_missing": 0,
+            "zones": {
+              "goalkeeper": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "defense": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "midfield": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "attack": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "unknown": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              }
+            }
+          },
+          "position_comparison": [
+            {
+              "zone": "goalkeeper",
+              "label": "Kaleci",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "defense",
+              "label": "Savunma",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "midfield",
+              "label": "Orta saha",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "attack",
+              "label": "Hücum",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            }
+          ],
+          "context_edge": 0,
+          "context_edge_side": "balanced",
+          "market_context": {
+            "goal_pressure": 0,
+            "defensive_missing_impact": 0,
+            "attacking_missing_impact": 0,
+            "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+            "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+          },
+          "signals": [
+            "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+          ],
+          "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+        },
+        "team_status": {
+          "home": {
+            "transfers_in": [],
+            "transfers_out": [],
+            "injured_players": [],
+            "suspended_players": [],
+            "doubtful_players": [],
+            "squad_note": "",
+            "source_note": "",
+            "evidence": [],
+            "auto_risk_score": 0,
+            "data_status": "no_verified_data",
+            "player_impacts": [],
+            "transfer_details": {
+              "in": [],
+              "out": []
+            },
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "provider_team_id": null,
+            "injury_news_count": 0,
+            "suspension_news_count": 0,
+            "doubtful_news_count": 0,
+            "transfer_in_news_count": 0,
+            "transfer_out_news_count": 0,
+            "verified_source_count": 0,
+            "structured_fact_source_count": 0
+          },
+          "away": {
+            "transfers_in": [],
+            "transfers_out": [],
+            "injured_players": [],
+            "suspended_players": [],
+            "doubtful_players": [],
+            "squad_note": "",
+            "source_note": "",
+            "evidence": [],
+            "auto_risk_score": 0,
+            "data_status": "no_verified_data",
+            "player_impacts": [],
+            "transfer_details": {
+              "in": [],
+              "out": []
+            },
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "provider_team_id": null,
+            "injury_news_count": 0,
+            "suspension_news_count": 0,
+            "doubtful_news_count": 0,
+            "transfer_in_news_count": 0,
+            "transfer_out_news_count": 0,
+            "verified_source_count": 0,
+            "structured_fact_source_count": 0
+          }
+        },
+        "lineup": {
+          "home": {
+            "team_name": "Marupe",
+            "formation": "-",
+            "starting_11_count": 0,
+            "substitutes_count": 0,
+            "starting_11_strength": 0,
+            "bench_strength": 0,
+            "strength_label": "Veri Yok",
+            "top_starting_players": [],
+            "top_bench_players": [],
+            "unavailable_players": [],
+            "important_missing_count": 0,
+            "data_available": false,
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "data_status": "no_verified_data",
+            "note": "",
+            "source_note": ""
+          },
+          "away": {
+            "team_name": "Riga Ii",
+            "formation": "-",
+            "starting_11_count": 0,
+            "substitutes_count": 0,
+            "starting_11_strength": 0,
+            "bench_strength": 0,
+            "strength_label": "Veri Yok",
+            "top_starting_players": [],
+            "top_bench_players": [],
+            "unavailable_players": [],
+            "important_missing_count": 0,
+            "data_available": false,
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "data_status": "no_verified_data",
+            "note": "",
+            "source_note": ""
+          }
+        },
+        "source_consensus": {
+          "match_name": "Marupe VS Riga Ii",
+          "date": "2026-09-20",
+          "league": "Letonya 1.Lig",
+          "home_team": "Marupe",
+          "away_team": "Riga Ii",
+          "home": {
+            "confidence_score": 5,
+            "quality": "Belirsiz",
+            "conflict_level": "none",
+            "conflict_reasons": [],
+            "uncertainty_brake": -3,
+            "structured_verified": false,
+            "lineup_confirmed": false,
+            "manual_verified": false,
+            "public_signal": false,
+            "public_signal_count": 0,
+            "source_error": false,
+            "stale": false,
+            "named_unavailable_count": 0,
+            "unavailable_starter_count": 0
+          },
+          "away": {
+            "confidence_score": 5,
+            "quality": "Belirsiz",
+            "conflict_level": "none",
+            "conflict_reasons": [],
+            "uncertainty_brake": -3,
+            "structured_verified": false,
+            "lineup_confirmed": false,
+            "manual_verified": false,
+            "public_signal": false,
+            "public_signal_count": 0,
+            "source_error": false,
+            "stale": false,
+            "named_unavailable_count": 0,
+            "unavailable_starter_count": 0
+          },
+          "confidence_score": 5,
+          "quality": "Belirsiz",
+          "conflict_level": "none",
+          "uncertainty_brake": -3,
+          "uncertain": true,
+          "robot_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none."
+        },
+        "source_confidence_score": 5,
+        "source_conflict_level": "none",
+        "source_uncertainty_brake": -3,
+        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none.",
+        "pre_match_final_check": null,
+        "pre_match_decision": "not_due",
+        "pre_match_checkpoint": "not_due"
       },
       "band_check": {
         "q": null,
@@ -132409,6 +135299,353 @@
         "point_difference": 0,
         "goal_profile": "unknown",
         "high_scoring_watch": false
+      },
+      "band_check": {
+        "q": null,
+        "s": null,
+        "level": "Yüksek",
+        "notes": [
+          "Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı.",
+          "Kaynak güven puanı düşük (5/100)."
+        ]
+      }
+    },
+    {
+      "match_name": "Jfk Ventspils VS Skanste",
+      "home": "Jfk Ventspils",
+      "away": "Skanste",
+      "date": "2026-09-20",
+      "start_time": "19:00",
+      "league": "Letonya 1.Lig",
+      "extra_used": {
+        "squad_risk_level": "Orta",
+        "source_risk_level": "Belirsiz",
+        "squad_verified_team_count": 0,
+        "squad_signal_team_count": 0,
+        "named_player_count": 0,
+        "lineup_risk_level": "Belirsiz",
+        "squad_comment": "Jfk Ventspils için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı. | Skanste için doğrulanmış kadro/transfer haberi bulunamadı; risksiz varsayılmadı.",
+        "lineup_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+        "matchup_analysis": {
+          "version": "matchup-intelligence-v1",
+          "data_quality": "Belirsiz",
+          "coverage_score": 0,
+          "lineup_confirmed_both": false,
+          "availability_checked_both": false,
+          "home": {
+            "team_name": "Jfk Ventspils",
+            "formation": "-",
+            "lineup_confirmed": false,
+            "availability_checked": false,
+            "starting_11_count": 0,
+            "rated_starter_count": 0,
+            "missing_count": 0,
+            "missing_impact": 0,
+            "high_impact_missing": 0,
+            "zones": {
+              "goalkeeper": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "defense": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "midfield": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "attack": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "unknown": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              }
+            }
+          },
+          "away": {
+            "team_name": "Skanste",
+            "formation": "-",
+            "lineup_confirmed": false,
+            "availability_checked": false,
+            "starting_11_count": 0,
+            "rated_starter_count": 0,
+            "missing_count": 0,
+            "missing_impact": 0,
+            "high_impact_missing": 0,
+            "zones": {
+              "goalkeeper": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "defense": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "midfield": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "attack": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              },
+              "unknown": {
+                "starter_count": 0,
+                "rated_starter_count": 0,
+                "strength": null,
+                "missing_count": 0,
+                "missing_impact": 0,
+                "high_impact_missing": 0
+              }
+            }
+          },
+          "position_comparison": [
+            {
+              "zone": "goalkeeper",
+              "label": "Kaleci",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "defense",
+              "label": "Savunma",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "midfield",
+              "label": "Orta saha",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            },
+            {
+              "zone": "attack",
+              "label": "Hücum",
+              "edge": "unknown",
+              "basis": "insufficient_quality_data",
+              "home_strength": null,
+              "away_strength": null,
+              "strength_difference": null,
+              "home_missing_impact": 0,
+              "away_missing_impact": 0
+            }
+          ],
+          "context_edge": 0,
+          "context_edge_side": "balanced",
+          "market_context": {
+            "goal_pressure": 0,
+            "defensive_missing_impact": 0,
+            "attacking_missing_impact": 0,
+            "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+            "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+          },
+          "signals": [
+            "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+          ],
+          "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+        },
+        "team_status": {
+          "home": {
+            "transfers_in": [],
+            "transfers_out": [],
+            "injured_players": [],
+            "suspended_players": [],
+            "doubtful_players": [],
+            "squad_note": "",
+            "source_note": "",
+            "evidence": [],
+            "auto_risk_score": 0,
+            "data_status": "no_verified_data",
+            "player_impacts": [],
+            "transfer_details": {
+              "in": [],
+              "out": []
+            },
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "provider_team_id": null,
+            "injury_news_count": 0,
+            "suspension_news_count": 0,
+            "doubtful_news_count": 0,
+            "transfer_in_news_count": 0,
+            "transfer_out_news_count": 0,
+            "verified_source_count": 0,
+            "structured_fact_source_count": 0
+          },
+          "away": {
+            "transfers_in": [],
+            "transfers_out": [],
+            "injured_players": [],
+            "suspended_players": [],
+            "doubtful_players": [],
+            "squad_note": "",
+            "source_note": "",
+            "evidence": [],
+            "auto_risk_score": 0,
+            "data_status": "no_verified_data",
+            "player_impacts": [],
+            "transfer_details": {
+              "in": [],
+              "out": []
+            },
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "provider_team_id": null,
+            "injury_news_count": 0,
+            "suspension_news_count": 0,
+            "doubtful_news_count": 0,
+            "transfer_in_news_count": 0,
+            "transfer_out_news_count": 0,
+            "verified_source_count": 0,
+            "structured_fact_source_count": 0
+          }
+        },
+        "lineup": {
+          "home": {
+            "team_name": "Jfk Ventspils",
+            "formation": "-",
+            "starting_11_count": 0,
+            "substitutes_count": 0,
+            "starting_11_strength": 0,
+            "bench_strength": 0,
+            "strength_label": "Veri Yok",
+            "top_starting_players": [],
+            "top_bench_players": [],
+            "unavailable_players": [],
+            "important_missing_count": 0,
+            "data_available": false,
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "data_status": "no_verified_data",
+            "note": "",
+            "source_note": ""
+          },
+          "away": {
+            "team_name": "Skanste",
+            "formation": "-",
+            "starting_11_count": 0,
+            "substitutes_count": 0,
+            "starting_11_strength": 0,
+            "bench_strength": 0,
+            "strength_label": "Veri Yok",
+            "top_starting_players": [],
+            "top_bench_players": [],
+            "unavailable_players": [],
+            "important_missing_count": 0,
+            "data_available": false,
+            "availability_checked": false,
+            "lineup_confirmed": false,
+            "data_status": "no_verified_data",
+            "note": "",
+            "source_note": ""
+          }
+        },
+        "source_consensus": {
+          "match_name": "Jfk Ventspils VS Skanste",
+          "date": "2026-09-20",
+          "league": "Letonya 1.Lig",
+          "home_team": "Jfk Ventspils",
+          "away_team": "Skanste",
+          "home": {
+            "confidence_score": 5,
+            "quality": "Belirsiz",
+            "conflict_level": "none",
+            "conflict_reasons": [],
+            "uncertainty_brake": -3,
+            "structured_verified": false,
+            "lineup_confirmed": false,
+            "manual_verified": false,
+            "public_signal": false,
+            "public_signal_count": 0,
+            "source_error": false,
+            "stale": false,
+            "named_unavailable_count": 0,
+            "unavailable_starter_count": 0
+          },
+          "away": {
+            "confidence_score": 5,
+            "quality": "Belirsiz",
+            "conflict_level": "none",
+            "conflict_reasons": [],
+            "uncertainty_brake": -3,
+            "structured_verified": false,
+            "lineup_confirmed": false,
+            "manual_verified": false,
+            "public_signal": false,
+            "public_signal_count": 0,
+            "source_error": false,
+            "stale": false,
+            "named_unavailable_count": 0,
+            "unavailable_starter_count": 0
+          },
+          "confidence_score": 5,
+          "quality": "Belirsiz",
+          "conflict_level": "none",
+          "uncertainty_brake": -3,
+          "uncertain": true,
+          "robot_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none."
+        },
+        "source_confidence_score": 5,
+        "source_conflict_level": "none",
+        "source_uncertainty_brake": -3,
+        "source_consensus_note": "Kaynak uzlaşısı sınırlı: güven 5/100, çelişki none.",
+        "pre_match_final_check": null,
+        "pre_match_decision": "not_due",
+        "pre_match_checkpoint": "not_due"
       },
       "band_check": {
         "q": null,

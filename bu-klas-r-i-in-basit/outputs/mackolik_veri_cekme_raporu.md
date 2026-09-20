@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-20T06:08:23.031603+00:00
+Tarih: 2026-09-20T06:30:07.302248+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 503
+- Kac mac bulundu: 510
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 503
-- Ham veri havuzu toplam mac sayisi: 16279
+- Kac mac zaten vardi: 510
+- Ham veri havuzu toplam mac sayisi: 16286
 - Hedef tarih: 20.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -57,6 +57,7 @@ Tarih: 2026-09-20T06:08:23.031603+00:00
 - Fransa U19 Ulusal Şampiyona Grup A
 - Fransa U19 Ulusal Şampiyona Grup B
 - Fransa U19 Ulusal Şampiyona Grup C
+- Gana Premier Lig
 - Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Güney Kore K Lig 1
@@ -81,6 +82,7 @@ Tarih: 2026-09-20T06:08:23.031603+00:00
 - Katar Yıldızlar Kupası Grup Aşaması
 - Kolombiya Primera A Clausura
 - Kosova Süper Lig
+- Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya 1.Lig
 - Litvanya A Ligi
@@ -96,6 +98,7 @@ Tarih: 2026-09-20T06:08:23.031603+00:00
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 5
 - Norveç Eliteserien
 - Norveç Kadınlar Toppserien

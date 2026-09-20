@@ -2,12 +2,12 @@
 
 Gunler: 2026-09-20 / 2026-09-21
 Kaynak: fixtures.json
-Ham mac: 610
-Aktif mac: 541
+Ham mac: 617
+Aktif mac: 548
 Canli mac: 0
 Biten mac: 0
 Bultenden dusurulen mac: 69
-Bugun: 499
+Bugun: 506
 Yarin: 42
 
 ## Baslamamis Maclar
@@ -97,6 +97,7 @@ Yarin: 42
 - 2026-09-20 13:00 | İspanya Gençler Onur Ligi Grup 5 | Rayo Vallecano - Sporting Hortal | scheduled | -
 - 2026-09-20 13:00 | İspanya Gençler Onur Ligi Grup 7 | Roda U18 - Valencia U19 | scheduled | -
 - 2026-09-20 13:00 | İspanya Gençler Onur Ligi Grup 7 | Villarreal U19 - Elche U19 | scheduled | -
+- 2026-09-20 13:00 | İspanya Tercera Ligi Grup 10 | Dos Hermanas 1 - Linense | scheduled | -
 - 2026-09-20 13:15 | Hollanda Eredivisie | Feyenoord - Utrecht | scheduled | -
 - 2026-09-20 13:15 | Polonya Ekstraklasa | Piast Gliwice - Pogon Szczecin | scheduled | -
 - 2026-09-20 13:15 | Hollanda Kadınlar Eredivisie | Pec Zwolle (K) - De Graafschap ( | scheduled | -
@@ -230,6 +231,7 @@ Yarin: 42
 - 2026-09-20 16:00 | Fransa U19 Ulusal Şampiyona Grup C | Stade Laval U1 - Saint-Lo Manche | scheduled | -
 - 2026-09-20 16:00 | Fransa U19 Ulusal Şampiyona Grup C | Sa Merignac U1 - Vertou U19 | scheduled | -
 - 2026-09-20 16:00 | Norveç Kadınlar Toppserien | Fortuna Alesun - Molde (K) | scheduled | -
+- 2026-09-20 16:00 | Norveç 3.Lig Grup 2 | Molde 2 - Melhus | scheduled | -
 - 2026-09-20 16:30 | Almanya Bundesliga | B.Leverkusen - Rb Leipzig | scheduled | -
 - 2026-09-20 16:30 | Slovakya 2.Lig | Galanta - Slovan Bratisla | scheduled | -
 - 2026-09-20 16:30 | Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru | Al Nasr - Dubai United | scheduled | -
@@ -337,6 +339,10 @@ Yarin: 42
 - 2026-09-20 18:00 | Nijerya NPFL | Enyimba Inter - Inter Lagos | scheduled | -
 - 2026-09-20 18:00 | İspanya Tercera Ligi Grup 2 | Ceares - Colunga | scheduled | -
 - 2026-09-20 18:00 | İspanya Tercera Ligi Grup 11 | Porreres - Inter Ibiza | scheduled | -
+- 2026-09-20 18:00 | Letonya 1.Lig | Marupe - Riga Ii | scheduled | -
+- 2026-09-20 18:00 | Gana Premier Lig | Hearts Of Oak - Bechem United | scheduled | -
+- 2026-09-20 18:00 | Gana Premier Lig | Port City - Berekum Chelsea | scheduled | -
+- 2026-09-20 18:00 | Gana Premier Lig | Aduana Stars - Karela | scheduled | -
 - 2026-09-20 18:15 | Fransa Ligue 1 | Nice - Lille | scheduled | -
 - 2026-09-20 18:15 | İtalya Serie B | Mantova - Pisa | scheduled | -
 - 2026-09-20 18:30 | İngiltere Premier Lig | Fulham - Man. Utd | scheduled | -
@@ -389,6 +395,7 @@ Yarin: 42
 - 2026-09-20 19:00 | Bahreyn 2.Lig | Al Shabab Mana - Qalali | scheduled | -
 - 2026-09-20 19:00 | Bahreyn 2.Lig | Bahrain Sc - Isa Town | scheduled | -
 - 2026-09-20 19:00 | Bahreyn 2.Lig | Umm Al Hassam - Al Ittihad | scheduled | -
+- 2026-09-20 19:00 | Letonya 1.Lig | Jfk Ventspils - Skanste | scheduled | -
 - 2026-09-20 19:15 | Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru | Al Dhafra - Banniyas | scheduled | -
 - 2026-09-20 19:15 | Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru | Al Jazira - Al Wahda | scheduled | -
 - 2026-09-20 19:15 | İspanya Primera Lig RFEF Grup 1 | Zamora - Lugo | scheduled | -

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T06:15:08.016Z",
+  "generated_at": "2026-09-20T06:35:55.969Z",
   "date": "2026-09-20",
-  "match_count": 545,
+  "match_count": 552,
   "confirmed_lineup_match_count": 0,
   "named_unavailable_player_count": 0,
   "policy": "Lineup and named player availability data comes from trusted manual import or API-Football. Missing data remains Belirsiz and is never converted to low risk.",
@@ -15442,6 +15442,225 @@
         },
         "away": {
           "team_name": "Tarragona",
+          "formation": "-",
+          "lineup_confirmed": false,
+          "availability_checked": false,
+          "starting_11_count": 0,
+          "rated_starter_count": 0,
+          "missing_count": 0,
+          "missing_impact": 0,
+          "high_impact_missing": 0,
+          "zones": {
+            "goalkeeper": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "defense": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "midfield": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "attack": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "unknown": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            }
+          }
+        },
+        "position_comparison": [
+          {
+            "zone": "goalkeeper",
+            "label": "Kaleci",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "defense",
+            "label": "Savunma",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "midfield",
+            "label": "Orta saha",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "attack",
+            "label": "Hücum",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          }
+        ],
+        "context_edge": 0,
+        "context_edge_side": "balanced",
+        "market_context": {
+          "goal_pressure": 0,
+          "defensive_missing_impact": 0,
+          "attacking_missing_impact": 0,
+          "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+          "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+        },
+        "signals": [
+          "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+        ],
+        "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+      },
+      "robot_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+    },
+    {
+      "match_name": "Dos Hermanas 1 VS Linense",
+      "date": "2026-09-20",
+      "league": "İspanya Tercera Ligi Grup 10",
+      "start_time": "13:00",
+      "home_lineup": {
+        "team_name": "Dos Hermanas 1",
+        "formation": "-",
+        "starting_11_count": 0,
+        "substitutes_count": 0,
+        "starting_11_strength": 0,
+        "bench_strength": 0,
+        "strength_label": "Veri Yok",
+        "top_starting_players": [],
+        "top_bench_players": [],
+        "unavailable_players": [],
+        "important_missing_count": 0,
+        "data_available": false,
+        "availability_checked": false,
+        "lineup_confirmed": false,
+        "data_status": "no_verified_data",
+        "note": "",
+        "source_note": ""
+      },
+      "away_lineup": {
+        "team_name": "Linense",
+        "formation": "-",
+        "starting_11_count": 0,
+        "substitutes_count": 0,
+        "starting_11_strength": 0,
+        "bench_strength": 0,
+        "strength_label": "Veri Yok",
+        "top_starting_players": [],
+        "top_bench_players": [],
+        "unavailable_players": [],
+        "important_missing_count": 0,
+        "data_available": false,
+        "availability_checked": false,
+        "lineup_confirmed": false,
+        "data_status": "no_verified_data",
+        "note": "",
+        "source_note": ""
+      },
+      "lineup_quality_diff": 0,
+      "lineup_risk_level": "Belirsiz",
+      "matchup_analysis": {
+        "version": "matchup-intelligence-v1",
+        "data_quality": "Belirsiz",
+        "coverage_score": 0,
+        "lineup_confirmed_both": false,
+        "availability_checked_both": false,
+        "home": {
+          "team_name": "Dos Hermanas 1",
+          "formation": "-",
+          "lineup_confirmed": false,
+          "availability_checked": false,
+          "starting_11_count": 0,
+          "rated_starter_count": 0,
+          "missing_count": 0,
+          "missing_impact": 0,
+          "high_impact_missing": 0,
+          "zones": {
+            "goalkeeper": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "defense": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "midfield": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "attack": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "unknown": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            }
+          }
+        },
+        "away": {
+          "team_name": "Linense",
           "formation": "-",
           "lineup_confirmed": false,
           "availability_checked": false,
@@ -46435,6 +46654,225 @@
       "robot_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
     },
     {
+      "match_name": "Molde 2 VS Melhus",
+      "date": "2026-09-20",
+      "league": "Norveç 3.Lig Grup 2",
+      "start_time": "16:00",
+      "home_lineup": {
+        "team_name": "Molde 2",
+        "formation": "-",
+        "starting_11_count": 0,
+        "substitutes_count": 0,
+        "starting_11_strength": 0,
+        "bench_strength": 0,
+        "strength_label": "Veri Yok",
+        "top_starting_players": [],
+        "top_bench_players": [],
+        "unavailable_players": [],
+        "important_missing_count": 0,
+        "data_available": false,
+        "availability_checked": false,
+        "lineup_confirmed": false,
+        "data_status": "no_verified_data",
+        "note": "",
+        "source_note": ""
+      },
+      "away_lineup": {
+        "team_name": "Melhus",
+        "formation": "-",
+        "starting_11_count": 0,
+        "substitutes_count": 0,
+        "starting_11_strength": 0,
+        "bench_strength": 0,
+        "strength_label": "Veri Yok",
+        "top_starting_players": [],
+        "top_bench_players": [],
+        "unavailable_players": [],
+        "important_missing_count": 0,
+        "data_available": false,
+        "availability_checked": false,
+        "lineup_confirmed": false,
+        "data_status": "no_verified_data",
+        "note": "",
+        "source_note": ""
+      },
+      "lineup_quality_diff": 0,
+      "lineup_risk_level": "Belirsiz",
+      "matchup_analysis": {
+        "version": "matchup-intelligence-v1",
+        "data_quality": "Belirsiz",
+        "coverage_score": 0,
+        "lineup_confirmed_both": false,
+        "availability_checked_both": false,
+        "home": {
+          "team_name": "Molde 2",
+          "formation": "-",
+          "lineup_confirmed": false,
+          "availability_checked": false,
+          "starting_11_count": 0,
+          "rated_starter_count": 0,
+          "missing_count": 0,
+          "missing_impact": 0,
+          "high_impact_missing": 0,
+          "zones": {
+            "goalkeeper": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "defense": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "midfield": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "attack": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "unknown": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            }
+          }
+        },
+        "away": {
+          "team_name": "Melhus",
+          "formation": "-",
+          "lineup_confirmed": false,
+          "availability_checked": false,
+          "starting_11_count": 0,
+          "rated_starter_count": 0,
+          "missing_count": 0,
+          "missing_impact": 0,
+          "high_impact_missing": 0,
+          "zones": {
+            "goalkeeper": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "defense": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "midfield": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "attack": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "unknown": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            }
+          }
+        },
+        "position_comparison": [
+          {
+            "zone": "goalkeeper",
+            "label": "Kaleci",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "defense",
+            "label": "Savunma",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "midfield",
+            "label": "Orta saha",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "attack",
+            "label": "Hücum",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          }
+        ],
+        "context_edge": 0,
+        "context_edge_side": "balanced",
+        "market_context": {
+          "goal_pressure": 0,
+          "defensive_missing_impact": 0,
+          "attacking_missing_impact": 0,
+          "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+          "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+        },
+        "signals": [
+          "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+        ],
+        "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+      },
+      "robot_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+    },
+    {
       "match_name": "Fortuna Alesun VS Molde (K)",
       "date": "2026-09-20",
       "league": "Norveç Kadınlar Toppserien",
@@ -63955,6 +64393,663 @@
       "robot_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
     },
     {
+      "match_name": "Aduana Stars VS Karela",
+      "date": "2026-09-20",
+      "league": "Gana Premier Lig",
+      "start_time": "18:00",
+      "home_lineup": {
+        "team_name": "Aduana Stars",
+        "formation": "-",
+        "starting_11_count": 0,
+        "substitutes_count": 0,
+        "starting_11_strength": 0,
+        "bench_strength": 0,
+        "strength_label": "Veri Yok",
+        "top_starting_players": [],
+        "top_bench_players": [],
+        "unavailable_players": [],
+        "important_missing_count": 0,
+        "data_available": false,
+        "availability_checked": false,
+        "lineup_confirmed": false,
+        "data_status": "no_verified_data",
+        "note": "",
+        "source_note": ""
+      },
+      "away_lineup": {
+        "team_name": "Karela",
+        "formation": "-",
+        "starting_11_count": 0,
+        "substitutes_count": 0,
+        "starting_11_strength": 0,
+        "bench_strength": 0,
+        "strength_label": "Veri Yok",
+        "top_starting_players": [],
+        "top_bench_players": [],
+        "unavailable_players": [],
+        "important_missing_count": 0,
+        "data_available": false,
+        "availability_checked": false,
+        "lineup_confirmed": false,
+        "data_status": "no_verified_data",
+        "note": "",
+        "source_note": ""
+      },
+      "lineup_quality_diff": 0,
+      "lineup_risk_level": "Belirsiz",
+      "matchup_analysis": {
+        "version": "matchup-intelligence-v1",
+        "data_quality": "Belirsiz",
+        "coverage_score": 0,
+        "lineup_confirmed_both": false,
+        "availability_checked_both": false,
+        "home": {
+          "team_name": "Aduana Stars",
+          "formation": "-",
+          "lineup_confirmed": false,
+          "availability_checked": false,
+          "starting_11_count": 0,
+          "rated_starter_count": 0,
+          "missing_count": 0,
+          "missing_impact": 0,
+          "high_impact_missing": 0,
+          "zones": {
+            "goalkeeper": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "defense": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "midfield": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "attack": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "unknown": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            }
+          }
+        },
+        "away": {
+          "team_name": "Karela",
+          "formation": "-",
+          "lineup_confirmed": false,
+          "availability_checked": false,
+          "starting_11_count": 0,
+          "rated_starter_count": 0,
+          "missing_count": 0,
+          "missing_impact": 0,
+          "high_impact_missing": 0,
+          "zones": {
+            "goalkeeper": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "defense": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "midfield": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "attack": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "unknown": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            }
+          }
+        },
+        "position_comparison": [
+          {
+            "zone": "goalkeeper",
+            "label": "Kaleci",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "defense",
+            "label": "Savunma",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "midfield",
+            "label": "Orta saha",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "attack",
+            "label": "Hücum",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          }
+        ],
+        "context_edge": 0,
+        "context_edge_side": "balanced",
+        "market_context": {
+          "goal_pressure": 0,
+          "defensive_missing_impact": 0,
+          "attacking_missing_impact": 0,
+          "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+          "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+        },
+        "signals": [
+          "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+        ],
+        "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+      },
+      "robot_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+    },
+    {
+      "match_name": "Hearts Of Oak VS Bechem United",
+      "date": "2026-09-20",
+      "league": "Gana Premier Lig",
+      "start_time": "18:00",
+      "home_lineup": {
+        "team_name": "Hearts Of Oak",
+        "formation": "-",
+        "starting_11_count": 0,
+        "substitutes_count": 0,
+        "starting_11_strength": 0,
+        "bench_strength": 0,
+        "strength_label": "Veri Yok",
+        "top_starting_players": [],
+        "top_bench_players": [],
+        "unavailable_players": [],
+        "important_missing_count": 0,
+        "data_available": false,
+        "availability_checked": false,
+        "lineup_confirmed": false,
+        "data_status": "no_verified_data",
+        "note": "",
+        "source_note": ""
+      },
+      "away_lineup": {
+        "team_name": "Bechem United",
+        "formation": "-",
+        "starting_11_count": 0,
+        "substitutes_count": 0,
+        "starting_11_strength": 0,
+        "bench_strength": 0,
+        "strength_label": "Veri Yok",
+        "top_starting_players": [],
+        "top_bench_players": [],
+        "unavailable_players": [],
+        "important_missing_count": 0,
+        "data_available": false,
+        "availability_checked": false,
+        "lineup_confirmed": false,
+        "data_status": "no_verified_data",
+        "note": "",
+        "source_note": ""
+      },
+      "lineup_quality_diff": 0,
+      "lineup_risk_level": "Belirsiz",
+      "matchup_analysis": {
+        "version": "matchup-intelligence-v1",
+        "data_quality": "Belirsiz",
+        "coverage_score": 0,
+        "lineup_confirmed_both": false,
+        "availability_checked_both": false,
+        "home": {
+          "team_name": "Hearts Of Oak",
+          "formation": "-",
+          "lineup_confirmed": false,
+          "availability_checked": false,
+          "starting_11_count": 0,
+          "rated_starter_count": 0,
+          "missing_count": 0,
+          "missing_impact": 0,
+          "high_impact_missing": 0,
+          "zones": {
+            "goalkeeper": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "defense": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "midfield": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "attack": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "unknown": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            }
+          }
+        },
+        "away": {
+          "team_name": "Bechem United",
+          "formation": "-",
+          "lineup_confirmed": false,
+          "availability_checked": false,
+          "starting_11_count": 0,
+          "rated_starter_count": 0,
+          "missing_count": 0,
+          "missing_impact": 0,
+          "high_impact_missing": 0,
+          "zones": {
+            "goalkeeper": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "defense": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "midfield": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "attack": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "unknown": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            }
+          }
+        },
+        "position_comparison": [
+          {
+            "zone": "goalkeeper",
+            "label": "Kaleci",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "defense",
+            "label": "Savunma",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "midfield",
+            "label": "Orta saha",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "attack",
+            "label": "Hücum",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          }
+        ],
+        "context_edge": 0,
+        "context_edge_side": "balanced",
+        "market_context": {
+          "goal_pressure": 0,
+          "defensive_missing_impact": 0,
+          "attacking_missing_impact": 0,
+          "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+          "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+        },
+        "signals": [
+          "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+        ],
+        "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+      },
+      "robot_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+    },
+    {
+      "match_name": "Port City VS Berekum Chelsea",
+      "date": "2026-09-20",
+      "league": "Gana Premier Lig",
+      "start_time": "18:00",
+      "home_lineup": {
+        "team_name": "Port City",
+        "formation": "-",
+        "starting_11_count": 0,
+        "substitutes_count": 0,
+        "starting_11_strength": 0,
+        "bench_strength": 0,
+        "strength_label": "Veri Yok",
+        "top_starting_players": [],
+        "top_bench_players": [],
+        "unavailable_players": [],
+        "important_missing_count": 0,
+        "data_available": false,
+        "availability_checked": false,
+        "lineup_confirmed": false,
+        "data_status": "no_verified_data",
+        "note": "",
+        "source_note": ""
+      },
+      "away_lineup": {
+        "team_name": "Berekum Chelsea",
+        "formation": "-",
+        "starting_11_count": 0,
+        "substitutes_count": 0,
+        "starting_11_strength": 0,
+        "bench_strength": 0,
+        "strength_label": "Veri Yok",
+        "top_starting_players": [],
+        "top_bench_players": [],
+        "unavailable_players": [],
+        "important_missing_count": 0,
+        "data_available": false,
+        "availability_checked": false,
+        "lineup_confirmed": false,
+        "data_status": "no_verified_data",
+        "note": "",
+        "source_note": ""
+      },
+      "lineup_quality_diff": 0,
+      "lineup_risk_level": "Belirsiz",
+      "matchup_analysis": {
+        "version": "matchup-intelligence-v1",
+        "data_quality": "Belirsiz",
+        "coverage_score": 0,
+        "lineup_confirmed_both": false,
+        "availability_checked_both": false,
+        "home": {
+          "team_name": "Port City",
+          "formation": "-",
+          "lineup_confirmed": false,
+          "availability_checked": false,
+          "starting_11_count": 0,
+          "rated_starter_count": 0,
+          "missing_count": 0,
+          "missing_impact": 0,
+          "high_impact_missing": 0,
+          "zones": {
+            "goalkeeper": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "defense": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "midfield": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "attack": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "unknown": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            }
+          }
+        },
+        "away": {
+          "team_name": "Berekum Chelsea",
+          "formation": "-",
+          "lineup_confirmed": false,
+          "availability_checked": false,
+          "starting_11_count": 0,
+          "rated_starter_count": 0,
+          "missing_count": 0,
+          "missing_impact": 0,
+          "high_impact_missing": 0,
+          "zones": {
+            "goalkeeper": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "defense": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "midfield": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "attack": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "unknown": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            }
+          }
+        },
+        "position_comparison": [
+          {
+            "zone": "goalkeeper",
+            "label": "Kaleci",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "defense",
+            "label": "Savunma",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "midfield",
+            "label": "Orta saha",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "attack",
+            "label": "Hücum",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          }
+        ],
+        "context_edge": 0,
+        "context_edge_side": "balanced",
+        "market_context": {
+          "goal_pressure": 0,
+          "defensive_missing_impact": 0,
+          "attacking_missing_impact": 0,
+          "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+          "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+        },
+        "signals": [
+          "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+        ],
+        "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+      },
+      "robot_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+    },
+    {
       "match_name": "Rijeka VS Hajduk Split",
       "date": "2026-09-20",
       "league": "Hırvatistan 1.HNL",
@@ -65812,6 +66907,225 @@
         },
         "away": {
           "team_name": "Al Sailiya",
+          "formation": "-",
+          "lineup_confirmed": false,
+          "availability_checked": false,
+          "starting_11_count": 0,
+          "rated_starter_count": 0,
+          "missing_count": 0,
+          "missing_impact": 0,
+          "high_impact_missing": 0,
+          "zones": {
+            "goalkeeper": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "defense": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "midfield": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "attack": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "unknown": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            }
+          }
+        },
+        "position_comparison": [
+          {
+            "zone": "goalkeeper",
+            "label": "Kaleci",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "defense",
+            "label": "Savunma",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "midfield",
+            "label": "Orta saha",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "attack",
+            "label": "Hücum",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          }
+        ],
+        "context_edge": 0,
+        "context_edge_side": "balanced",
+        "market_context": {
+          "goal_pressure": 0,
+          "defensive_missing_impact": 0,
+          "attacking_missing_impact": 0,
+          "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+          "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+        },
+        "signals": [
+          "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+        ],
+        "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+      },
+      "robot_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+    },
+    {
+      "match_name": "Marupe VS Riga Ii",
+      "date": "2026-09-20",
+      "league": "Letonya 1.Lig",
+      "start_time": "18:00",
+      "home_lineup": {
+        "team_name": "Marupe",
+        "formation": "-",
+        "starting_11_count": 0,
+        "substitutes_count": 0,
+        "starting_11_strength": 0,
+        "bench_strength": 0,
+        "strength_label": "Veri Yok",
+        "top_starting_players": [],
+        "top_bench_players": [],
+        "unavailable_players": [],
+        "important_missing_count": 0,
+        "data_available": false,
+        "availability_checked": false,
+        "lineup_confirmed": false,
+        "data_status": "no_verified_data",
+        "note": "",
+        "source_note": ""
+      },
+      "away_lineup": {
+        "team_name": "Riga Ii",
+        "formation": "-",
+        "starting_11_count": 0,
+        "substitutes_count": 0,
+        "starting_11_strength": 0,
+        "bench_strength": 0,
+        "strength_label": "Veri Yok",
+        "top_starting_players": [],
+        "top_bench_players": [],
+        "unavailable_players": [],
+        "important_missing_count": 0,
+        "data_available": false,
+        "availability_checked": false,
+        "lineup_confirmed": false,
+        "data_status": "no_verified_data",
+        "note": "",
+        "source_note": ""
+      },
+      "lineup_quality_diff": 0,
+      "lineup_risk_level": "Belirsiz",
+      "matchup_analysis": {
+        "version": "matchup-intelligence-v1",
+        "data_quality": "Belirsiz",
+        "coverage_score": 0,
+        "lineup_confirmed_both": false,
+        "availability_checked_both": false,
+        "home": {
+          "team_name": "Marupe",
+          "formation": "-",
+          "lineup_confirmed": false,
+          "availability_checked": false,
+          "starting_11_count": 0,
+          "rated_starter_count": 0,
+          "missing_count": 0,
+          "missing_impact": 0,
+          "high_impact_missing": 0,
+          "zones": {
+            "goalkeeper": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "defense": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "midfield": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "attack": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "unknown": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            }
+          }
+        },
+        "away": {
+          "team_name": "Riga Ii",
           "formation": "-",
           "lineup_confirmed": false,
           "availability_checked": false,
@@ -81580,6 +82894,225 @@
         },
         "away": {
           "team_name": "Supra Du Quebec",
+          "formation": "-",
+          "lineup_confirmed": false,
+          "availability_checked": false,
+          "starting_11_count": 0,
+          "rated_starter_count": 0,
+          "missing_count": 0,
+          "missing_impact": 0,
+          "high_impact_missing": 0,
+          "zones": {
+            "goalkeeper": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "defense": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "midfield": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "attack": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "unknown": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            }
+          }
+        },
+        "position_comparison": [
+          {
+            "zone": "goalkeeper",
+            "label": "Kaleci",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "defense",
+            "label": "Savunma",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "midfield",
+            "label": "Orta saha",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          },
+          {
+            "zone": "attack",
+            "label": "Hücum",
+            "edge": "unknown",
+            "basis": "insufficient_quality_data",
+            "home_strength": null,
+            "away_strength": null,
+            "strength_difference": null,
+            "home_missing_impact": 0,
+            "away_missing_impact": 0
+          }
+        ],
+        "context_edge": 0,
+        "context_edge_side": "balanced",
+        "market_context": {
+          "goal_pressure": 0,
+          "defensive_missing_impact": 0,
+          "attacking_missing_impact": 0,
+          "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+          "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+        },
+        "signals": [
+          "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+        ],
+        "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+      },
+      "robot_comment": "İki takımın da doğrulanmış ilk 11 bilgisi henüz yok. Kadro eksikliği riski: Belirsiz. Mevki eşleşmesi: Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+    },
+    {
+      "match_name": "Jfk Ventspils VS Skanste",
+      "date": "2026-09-20",
+      "league": "Letonya 1.Lig",
+      "start_time": "19:00",
+      "home_lineup": {
+        "team_name": "Jfk Ventspils",
+        "formation": "-",
+        "starting_11_count": 0,
+        "substitutes_count": 0,
+        "starting_11_strength": 0,
+        "bench_strength": 0,
+        "strength_label": "Veri Yok",
+        "top_starting_players": [],
+        "top_bench_players": [],
+        "unavailable_players": [],
+        "important_missing_count": 0,
+        "data_available": false,
+        "availability_checked": false,
+        "lineup_confirmed": false,
+        "data_status": "no_verified_data",
+        "note": "",
+        "source_note": ""
+      },
+      "away_lineup": {
+        "team_name": "Skanste",
+        "formation": "-",
+        "starting_11_count": 0,
+        "substitutes_count": 0,
+        "starting_11_strength": 0,
+        "bench_strength": 0,
+        "strength_label": "Veri Yok",
+        "top_starting_players": [],
+        "top_bench_players": [],
+        "unavailable_players": [],
+        "important_missing_count": 0,
+        "data_available": false,
+        "availability_checked": false,
+        "lineup_confirmed": false,
+        "data_status": "no_verified_data",
+        "note": "",
+        "source_note": ""
+      },
+      "lineup_quality_diff": 0,
+      "lineup_risk_level": "Belirsiz",
+      "matchup_analysis": {
+        "version": "matchup-intelligence-v1",
+        "data_quality": "Belirsiz",
+        "coverage_score": 0,
+        "lineup_confirmed_both": false,
+        "availability_checked_both": false,
+        "home": {
+          "team_name": "Jfk Ventspils",
+          "formation": "-",
+          "lineup_confirmed": false,
+          "availability_checked": false,
+          "starting_11_count": 0,
+          "rated_starter_count": 0,
+          "missing_count": 0,
+          "missing_impact": 0,
+          "high_impact_missing": 0,
+          "zones": {
+            "goalkeeper": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "defense": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "midfield": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "attack": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            },
+            "unknown": {
+              "starter_count": 0,
+              "rated_starter_count": 0,
+              "strength": null,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0
+            }
+          }
+        },
+        "away": {
+          "team_name": "Skanste",
           "formation": "-",
           "lineup_confirmed": false,
           "availability_checked": false,
