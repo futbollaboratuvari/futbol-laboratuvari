@@ -1,14 +1,14 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-21T22:07:49.740Z",
-  "updated_at": "2026-09-20T04:31:12.309Z",
+  "updated_at": "2026-09-20T04:33:34.898Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
     "total_predictions": 2098,
-    "pending_predictions": 1572,
-    "won_predictions": 282,
-    "lost_predictions": 244,
+    "pending_predictions": 1568,
+    "won_predictions": 283,
+    "lost_predictions": 247,
     "void_predictions": 0,
     "league_count": 333,
     "market_count": 13,
@@ -23,13 +23,13 @@
       "retained_pending_predictions": 1573,
       "retained_void_predictions": 0
     },
-    "last_direct_result_checked": 1571,
-    "last_direct_result_linked": 1,
+    "last_direct_result_checked": 1570,
+    "last_direct_result_linked": 4,
     "last_direct_half_time_linked": 0,
-    "last_score_link_checked": 1570,
+    "last_score_link_checked": 1566,
     "last_score_linked": 10,
-    "last_finalizer_checked": 13,
-    "last_finalizer_updated": 1
+    "last_finalizer_checked": 16,
+    "last_finalizer_updated": 4
   },
   "market_memory": {
     "2.5 Alt": {
@@ -57929,7 +57929,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "761827",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-20T04:31:10.698Z"
+      "score_linked_at": "2026-09-20T04:33:34.024Z"
     },
     {
       "id": "2026-09-20|abd mls|salt lake vancouver|ikinci yari kg yok|04 30",
@@ -57959,7 +57959,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "761825",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-20T04:31:10.700Z"
+      "score_linked_at": "2026-09-20T04:33:34.025Z"
     },
     {
       "id": "2026-09-20|meksika liga mx apertura|monterrey cruz azul|ilk yari kg yok|04 10",
@@ -57989,7 +57989,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401876969",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-20T04:31:10.702Z"
+      "score_linked_at": "2026-09-20T04:33:34.026Z"
     },
     {
       "id": "2026-09-20|brezilya serie a|sao paulo internacional|iy kg 2y kg hayir hayir|03 00",
@@ -58048,7 +58048,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "761816",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-20T04:31:10.705Z"
+      "score_linked_at": "2026-09-20T04:33:34.028Z"
     },
     {
       "id": "2026-09-20|abd mls|dc united charlotte|iy kg 2y kg hayir hayir|02 30",
@@ -58107,7 +58107,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "761818",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-20T04:31:10.707Z"
+      "score_linked_at": "2026-09-20T04:33:34.029Z"
     },
     {
       "id": "2026-09-18|el salvador primera lig apertura|inca aruba fuerte san fran|ms 1|03 00",
@@ -63728,7 +63728,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T20:52:28.568Z",
-      "score_linked_at": "2026-09-20T04:31:10.895Z"
+      "score_linked_at": "2026-09-20T04:33:34.119Z"
     },
     {
       "id": "2026-09-19|arjantin ulusal primera lig|san telmo caseros|ms 2|21 30",
@@ -64981,11 +64981,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "0-2",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.566Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:33:30.293Z",
+      "result_source": "iddaa.com resmi etkinlik detayı",
+      "result_source_match_id": "3242000",
+      "result_linked_at": "2026-09-20T04:33:30.293Z",
+      "finalized_at": "2026-09-20T04:33:34.898Z"
     },
     {
       "id": "2026-09-19|kuzey irlanda premiership|coleraine limavady united|2 5 alt|20 00",
@@ -65717,11 +65721,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "0-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-1",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.565Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:33:30.293Z",
+      "result_source": "iddaa.com resmi etkinlik detayı",
+      "result_source_match_id": "3241941",
+      "result_linked_at": "2026-09-20T04:33:30.293Z",
+      "finalized_at": "2026-09-20T04:33:34.898Z"
     },
     {
       "id": "2026-09-19|ingiltere premier lig|nottingham f coventry|ms 1|19 30",
@@ -66393,7 +66401,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T18:08:52.965Z",
-      "score_linked_at": "2026-09-20T04:31:11.052Z"
+      "score_linked_at": "2026-09-20T04:33:34.194Z"
     },
     {
       "id": "2026-09-19|turkiye tff 1 lig|batman petrol bursaspor|kg yok|20 00",
@@ -66541,11 +66549,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-1",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T18:08:52.964Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:33:30.293Z",
+      "result_source": "iddaa.com resmi etkinlik detayı",
+      "result_source_match_id": "3241941",
+      "result_linked_at": "2026-09-20T04:33:30.293Z",
+      "finalized_at": "2026-09-20T04:33:34.898Z"
     },
     {
       "id": "2026-09-19|ispanya tercera ligi grup 4|durango aretxabaleta|kg var|19 15",
@@ -68647,11 +68659,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "0-2",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T17:11:55.908Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:33:30.293Z",
+      "result_source": "iddaa.com resmi etkinlik detayı",
+      "result_source_match_id": "3242000",
+      "result_linked_at": "2026-09-20T04:33:30.293Z",
+      "finalized_at": "2026-09-20T04:33:34.898Z"
     },
     {
       "id": "2026-09-19|ispanya laliga|celta vigo santander|2 5 alt|19 30",
@@ -68933,7 +68949,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T17:11:55.905Z",
-      "score_linked_at": "2026-09-20T04:31:11.224Z"
+      "score_linked_at": "2026-09-20T04:33:34.279Z"
     },
     {
       "id": "2026-09-19|isvicre super lig|sion zurich|ilk yari kg var|19 00",
@@ -70442,7 +70458,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T17:11:55.901Z",
-      "score_linked_at": "2026-09-20T04:31:11.353Z"
+      "score_linked_at": "2026-09-20T04:33:34.344Z"
     },
     {
       "id": "2026-09-19|portekiz premier lig|nacional madei famalicao|2 5 alt|17 30",
@@ -77063,7 +77079,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-18T17:10:40.151Z",
-      "score_linked_at": "2026-09-20T04:31:11.621Z"
+      "score_linked_at": "2026-09-20T04:33:34.475Z"
     },
     {
       "id": "2026-09-18|finlandiya veikkausliiga|oulu inter turku|ikinci yari kg var|19 00",
