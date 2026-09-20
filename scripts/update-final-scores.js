@@ -162,7 +162,7 @@ function resultScore(result) {
 function equivalentResultRows(left, right) {
   if (!left || !right) return false;
   const similarity = pairSimilarity(left, right);
-  if (similarity.home < 0.9 || similarity.away < 0.9) return false;
+  if (similarity.home < 0.78 || similarity.away < 0.78 || similarity.score < 0.88) return false;
   const leftScore = resultScore(left);
   const rightScore = resultScore(right);
   return Boolean(leftScore && rightScore && leftScore === rightScore);
@@ -273,10 +273,10 @@ function sportsDbResults(payload) {
   return (Array.isArray(payload?.events) ? payload.events : []).flatMap((event) => {
     const status = String(event.strStatus || "").toUpperCase();
     if (status && !["FT", "MATCH FINISHED", "FINISHED"].includes(status)) return [];
+    const score = scoreText(event.intHomeScore, event.intAwayScore);
+    if (!event.strHomeTeam || !event.strAwayTeam || !score) return [];
     const homeScore = Number(event.intHomeScore);
     const awayScore = Number(event.intAwayScore);
-    const score = scoreText(homeScore, awayScore);
-    if (!event.strHomeTeam || !event.strAwayTeam || !score) return [];
     return [{
       date: String(event.dateEvent || "").slice(0, 10),
       home: event.strHomeTeam,
