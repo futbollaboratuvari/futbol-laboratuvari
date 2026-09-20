@@ -2,29 +2,15 @@
 
 Gunler: 2026-09-20 / 2026-09-21
 Kaynak: fixtures.json
-Ham mac: 203
-Aktif mac: 58
+Ham mac: 657
+Aktif mac: 44
 Canli mac: 0
-Biten mac: 10
-Bultenden dusurulen mac: 145
-Bugun: 15
+Biten mac: 0
+Bultenden dusurulen mac: 613
+Bugun: 1
 Yarin: 43
 
 ## Baslamamis Maclar
-- 2026-09-20 23:00 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Argentinos Jr | scheduled | -
-- 2026-09-20 23:00 | Arjantin Premier Lig 2. Aşama | Platense - Newells Old Boy | scheduled | -
-- 2026-09-20 23:00 | Venezuela Premier Lig Clausura | Zamora - Metropolitanos | scheduled | -
-- 2026-09-20 23:00 | Venezuela Premier Lig Clausura | Academia Anzoa - Caracas Fc | scheduled | -
-- 2026-09-20 23:00 | Arjantin Ulusal Primera Lig | Chaco For Ever - Almirante | scheduled | -
-- 2026-09-20 23:00 | Arjantin Ulusal Primera Lig | San Martin Sj - Colegiales | scheduled | -
-- 2026-09-20 23:00 | Arjantin Ulusal Primera Lig | Central Norte - D Belgrano | scheduled | -
-- 2026-09-20 23:00 | Arjantin Ulusal Primera Lig | Club Atletico - Midland | scheduled | -
-- 2026-09-20 23:00 | Arjantin Prim B Metro | Dep. Merlo - Flandria | scheduled | -
-- 2026-09-20 23:30 | Peru Premier Lig Clausura | Juan Pablo Ii - Deportivo Moque | scheduled | -
-- 2026-09-20 23:30 | Jamaika Premier Lig | Chapelton - Molynes United | scheduled | -
-- 2026-09-20 23:30 | Jamaika Premier Lig | Montego Bay Un - Tru-Juice | scheduled | -
-- 2026-09-20 23:30 | Jamaika Premier Lig | Mount Pleasant - Racing United | scheduled | -
-- 2026-09-20 23:30 | Jamaika Premier Lig | Treasure Beach - Tivoli Gardens | scheduled | -
 - 2026-09-20 23:50 | Guatemala Ulusal Lig Apertura | Deportivo San - Coban Imperial | scheduled | -
 - 2026-09-21 00:00 | Venezuela Premier Lig Clausura | Estudiantes Fc - Trujillanos | scheduled | -
 - 2026-09-21 00:00 | Ekvador Pro Lig Küme Düşme Grubu | Deportivo Cuen - Mushuc Runa | scheduled | -
@@ -74,13 +60,4 @@ Yarin: 43
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-09-20 19:30 | İspanya LaLiga | Villarreal - Levante | finished | 3-1
-- 2026-09-20 19:30 | İspanya 2.Lig | Las Palmas - Burgos | finished | 1-2
-- 2026-09-20 19:30 | Yunanistan Süper Lig | Kalamata - Panathinaikos | finished | 0-1
-- 2026-09-20 20:00 | Türkiye Süper Lig | Göztepe - Rizespor | finished | 2-2
-- 2026-09-20 20:00 | Portekiz Premier Lig | Estoril - Casa Pia | finished | 1-2
-- 2026-09-20 20:00 | Portekiz Premier Lig | Santa Clara - Braga | finished | 0-0
-- 2026-09-20 20:15 | Belçika Pro Lig | Kortrijk - Waasland Bevere | finished | 1-0
-- 2026-09-20 20:15 | Norveç Eliteserien | Brann - Bodo Glimt | finished | 2-1
-- 2026-09-20 20:30 | Almanya Bundesliga | Paderborn - Hoffenheim | finished | 3-1
-- 2026-09-20 20:30 | İtalya Serie B | Modena - Empoli | finished | 2-1
+Biten mac yok.
