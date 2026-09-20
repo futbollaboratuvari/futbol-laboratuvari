@@ -1,27 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 610
-Tam analiz: 575
-Eksik analiz: 35
+Toplam analiz: 489
+Tam analiz: 466
+Eksik analiz: 23
 
-- Richmond Kicke VS Charlotte Indep: eksik score, confidence
-- Supreme Fc VS Central & Weste: eksik score, confidence
-- Box Hill Unite VS Avondale (K): eksik score, confidence
-- Citizen VS Lucky Mile: eksik score, confidence
-- Tai Ching VS South China: eksik score, confidence
-- Pulau Pinang VS Johor Dt: eksik score, confidence
-- Barcelona U19 VS Gimnàstic Manre: eksik score, confidence
-- Atl Madrid U19 VS Leganes U19: eksik score, confidence
 - Feyenoord VS Utrecht: eksik score, confidence
 - Kırgızistan U2 VS Japonya U23: eksik score, confidence
+- Eker Örebro VS Haninge: eksik score, confidence
+- Kasetsart VS Nakhon Pathom: eksik score, confidence
+- Lillestrom Sk VS Fauske/Sprint: eksik score, confidence
+- Ağri 1970 Spor VS Yeni Mersin İ.: eksik score, confidence
+- Adanaspor VS Karaköprü Bld.: eksik score, confidence
 - Fa Siauliai VS Kauno Zalgiris: eksik score, confidence
 - Kelantan Wts VS Kuching Fa: eksik score, confidence
 - Stade Laval U1 VS Saint-Lo Manche: eksik score, confidence
-- Guarda VS Chaves: eksik score, confidence
-- Ad De Ponte Da VS Amarante Fc: eksik score, confidence
-- Ponte Preta VS Regatas: eksik score, confidence
-- Southall VS Dorking Wand.: eksik score, confidence
-- Paredes VS Maria Da Fonte: eksik score, confidence
+- Orkla VS Aalesund B: eksik score, confidence
+- Fatima VS Fc Vinhais: eksik score, confidence
 - Stabaek VS Sogndal: eksik score, confidence
 - Haugesund VS Strommen: eksik score, confidence
+- Kongsvinger VS Hodd: eksik score, confidence
+- Raufoss VS Stromsgodset: eksik score, confidence
+- Sheriff Tirasp VS Csf Balti: eksik score, confidence
+- Al Shabab Mana VS Qalali: eksik score, confidence
+- Kizilyildiz VS Radnicki Nis: eksik score, confidence
+- Dinamo Zagreb VS Lokomotiva: eksik score, confidence

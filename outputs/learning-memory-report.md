@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.09.2026 15:20:52
+Oluşturma: 20.09.2026 15:31:55
 
 ## Özet
 
@@ -8,7 +8,7 @@ Oluşturma: 20.09.2026 15:20:52
 - Bekleyen tahmin: 1760
 - Kazanan tahmin: 291
 - Kaybeden tahmin: 258
-- Lig sayısı: 344
+- Lig sayısı: 342
 - Seçenek sayısı: 13
 
 ## Öğrenme Mantığı
@@ -42,12 +42,12 @@ Oluşturma: 20.09.2026 15:20:52
 - 2026-09-20 | Honduras Ulusal Lig Apertura | Juticalpa - Marathon | 2.5 Üst | pending | 74/100
 - 2026-09-20 | Meksika Liga MX Apertura | Toluca - Santos Laguna | KG Yok | pending | 71/100
 - 2026-09-20 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Tigre | KG Yok | pending | 65/100
+- 2026-09-20 | Meksika Liga MX Apertura | Queretaro - Club Leon | 2.5 Üst | pending | 62/100
+- 2026-09-20 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Cs Cartagines | 2.5 Alt | pending | 67/100
 - 2026-09-20 | Meksika Liga MX Apertura | Pachuca - Club Tijuana | 2.5 Alt | pending | 70/100
 - 2026-09-20 | Kolombiya Primera A Clausura | Deportes Tolim - America De Cali | 2.5 Alt | pending | 65/100
 - 2026-09-20 | Ekvador Pro Lig Şampiyonluk Grubu | Ldu Quito - Univ Catolica ( | 2.5 Üst | pending | 72/100
 - 2026-09-20 | El Salvador Primera Lig Apertura | Firpo - Balboa | KG Yok | pending | 72/100
-- 2026-09-20 | Meksika Primera Ligi, Açılış | Queretaro - Club Leon | 2.5 Üst | pending | 62/100
-- 2026-09-20 | Kosta Rika Primera Lig, Açılış | Ad San Carlos - Cs Cartagines | 2.5 Alt | pending | 67/100
 - 2026-09-20 | Meksika Kadınlar Liga MX Apertura | Atletico San L - Pachuca (K) | MS 2 | pending | 54/100
 - 2026-09-20 | Nikaragua Premier Lig Apertura | Rancho Santana - Managua | MS 2 | pending | 55/100
 - 2026-09-20 | ABD USL | Sacramento Rep - San Antonio | 2.5 Alt | pending | 64/100

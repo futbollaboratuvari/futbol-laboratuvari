@@ -2,37 +2,15 @@
 
 Gunler: 2026-09-20 / 2026-09-21
 Kaynak: fixtures.json
-Ham mac: 651
-Aktif mac: 411
+Ham mac: 489
+Aktif mac: 389
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 240
-Bugun: 368
+Bultenden dusurulen mac: 100
+Bugun: 346
 Yarin: 43
 
 ## Baslamamis Maclar
-- 2026-09-20 15:30 | Hollanda Eredivisie | Az Alkmaar - Telstar | scheduled | -
-- 2026-09-20 15:30 | Hollanda Eredivisie | Twente - Psv Eindhoven | scheduled | -
-- 2026-09-20 15:30 | İngiltere Championship | Norwich - Bolton | scheduled | -
-- 2026-09-20 15:30 | Avusturya Bundesliga | Ried - Wolfsberger | scheduled | -
-- 2026-09-20 15:30 | Avusturya Bundesliga | Hartberg - Lask Linz | scheduled | -
-- 2026-09-20 15:30 | Norveç Eliteserien | Valerenga - Fredrikstad | scheduled | -
-- 2026-09-20 15:30 | Ukrayna Premier Lig | Karpaty Lviv - Veres Rivne | scheduled | -
-- 2026-09-20 15:30 | Azerbaycan Premier Lig | Keshla - Araz | scheduled | -
-- 2026-09-20 15:30 | İtalya Serie C Grup A | Ospitaletto - Cittadella | scheduled | -
-- 2026-09-20 15:30 | İtalya Serie C Grup A | Novara - Athletic Carpi | scheduled | -
-- 2026-09-20 15:30 | İtalya Serie C Grup B | F.C. Vado - Pescara | scheduled | -
-- 2026-09-20 15:30 | İtalya Serie C Grup B | Reggiana - Latina | scheduled | -
-- 2026-09-20 15:30 | İtalya Serie C Grup C | Ss Monopoli 19 - Crotone | scheduled | -
-- 2026-09-20 15:30 | Polonya 1.Lig | Pogon Siedlce - Arka Gdynia | scheduled | -
-- 2026-09-20 15:30 | Çek Cumhuriyeti FNL | Banik Ostrava - Usti Nad Labem | scheduled | -
-- 2026-09-20 15:30 | Polonya 2.Lig | Slask Wroclaw - Hutnik Krakow | scheduled | -
-- 2026-09-20 15:30 | Filipinler PFL | Stallion - Manila Digger | scheduled | -
-- 2026-09-20 15:30 | Türkiye 3.Lig 2.Grup | Kepezspor Faş - Söke 1970 Sk | scheduled | -
-- 2026-09-20 15:30 | Türkiye 3.Lig 3.Grup | Kırıkkale Fk - Mazidaği Fosfat | scheduled | -
-- 2026-09-20 15:30 | Türkiye 3.Lig 3.Grup | Adanaspor - Karaköprü Bld. | scheduled | -
-- 2026-09-20 15:30 | Türkiye 3.Lig 2.Grup | Anadolu Univer - Ayvalikgücü Bld | scheduled | -
-- 2026-09-20 15:30 | Türkiye 3.Lig 3.Grup | Silifke Bld. - Karaman Fk | scheduled | -
 - 2026-09-20 15:45 | Polonya Ekstraklasa | Zaglebie Lubin - Wisla Plock | scheduled | -
 - 2026-09-20 15:45 | Macaristan NB I | Mtk - Gyor | scheduled | -
 - 2026-09-20 16:00 | İngiltere Premier Lig | Bournemouth - Liverpool | scheduled | -
