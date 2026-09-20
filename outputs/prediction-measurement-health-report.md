@@ -1,9 +1,9 @@
 # Tahmin Olcum Saglik Kontrolu
 
 Durum: warning
-Toplam tahmin: 2266
+Toplam tahmin: 2292
 Olculen tahmin: 549
-Bekleyen tahmin: 1717
+Bekleyen tahmin: 1743
 Kazanan: 291
 Kaybeden: 258
 Skoru olup pending kalan: 13

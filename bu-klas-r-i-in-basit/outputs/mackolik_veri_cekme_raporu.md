@@ -1,21 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-20T11:39:05.780033+00:00
+Tarih: 2026-09-20T11:57:55.938901+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 415
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 415
-- Ham veri havuzu toplam mac sayisi: 16306
+- Kac mac bulundu: 420
+- Kac mac kaydedildi: 10
+- Kac mac zaten vardi: 410
+- Ham veri havuzu toplam mac sayisi: 16319
 - Hedef tarih: 20.09.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS Next Pro
-- Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bundesliga
 - Almanya Bölgesel Lig Kuzey
@@ -78,6 +77,7 @@ Tarih: 2026-09-20T11:39:05.780033+00:00
 - Macaristan NB II
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
+- Macaristan NB III Kuzeydoğu
 - Malezya FA Kupası Çeyrek Final
 - Malta Premier Lig Açılış
 - Meksika Kadınlar Liga MX Apertura
@@ -109,6 +109,8 @@ Tarih: 2026-09-20T11:39:05.780033+00:00
 - Tayland 2.Lig
 - Tayvan Premier Lig
 - Tunus 1.Lig
+- Türkiye 3.Lig 2.Grup
+- Türkiye 3.Lig 3.Grup
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Ukrayna Premier Lig
@@ -252,13 +254,13 @@ Tarih: 2026-09-20T11:39:05.780033+00:00
 | 20.09.2026 | 16:00 | İngiltere Premier Lig | Leeds Utd | Crystal Palace | 09945 | 5 |
 | 20.09.2026 | 16:00 | İngiltere Premier Lig | Bournemouth | Liverpool | 09846 | 5 |
 | 20.09.2026 | 18:30 | İngiltere Premier Lig | Fulham | Man. Utd | 10101 | 5 |
-| 20.09.2026 | 17:15 | İspanya LaLiga | Atletico Madri | Real Madrid | 04858 | 5 |
 | 20.09.2026 | 19:30 | İspanya LaLiga | Villarreal | Levante | 12109 | 5 |
 | 20.09.2026 | 15:00 | İspanya LaLiga | Getafe | Malaga | 11970 | 5 |
-| 20.09.2026 | 19:30 | İspanya LaLiga | D.La Coruna | Real Betis | 12047 | 5 |
+| 20.09.2026 | 17:15 | İspanya LaLiga | Atletico Madri | Real Madrid | 04858 | 5 |
 | 20.09.2026 | 22:00 | İspanya LaLiga | Valencia | Real Sociedad | 12206 | 5 |
-| 20.09.2026 | 21:45 | İtalya Serie A | Ac Milan | Lecce | 33094 | 5 |
+| 20.09.2026 | 19:30 | İspanya LaLiga | D.La Coruna | Real Betis | 12047 | 5 |
 | 20.09.2026 | 19:00 | İtalya Serie A | Juventus | Atalanta | 32978 | 5 |
+| 20.09.2026 | 21:45 | İtalya Serie A | Ac Milan | Lecce | 33094 | 5 |
 | 20.09.2026 | 16:00 | İtalya Serie A | Frosinone | Como | 32721 | 5 |
 
 ## Sonuc

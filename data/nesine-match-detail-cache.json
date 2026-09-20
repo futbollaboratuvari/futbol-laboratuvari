@@ -2,36 +2,88 @@
   "schema_version": 1,
   "entries": {
     "3136737": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:18.186Z",
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T12:03:16.263Z",
       "route_pages": {},
       "route_errors": {},
       "status": "identity_mismatch",
       "error": "https://istatistik.nesine.com/3136737/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3136737: identity_mismatch"
     },
     "3136922": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:18.617Z",
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T12:03:17.869Z",
       "route_pages": {},
       "route_errors": {},
       "status": "identity_mismatch",
       "error": "https://istatistik.nesine.com/3136922/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3136922: identity_mismatch"
     },
     "3139337": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:13.335Z",
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:13.051Z",
       "route_pages": {},
       "route_errors": {},
       "status": "identity_mismatch",
       "error": "https://istatistik.nesine.com/3139337/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3139337: identity_mismatch"
     },
     "3139503": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:19.032Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T12:03:18.202Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3139503/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3139503: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3139503/ozet",
+      "data": {
+        "id": "3139503",
+        "iddaa_event_id": "3139503",
+        "date": "2026-09-20",
+        "time": "15:30",
+        "league": "Avusturya Bundesliga",
+        "home": "Hartberg",
+        "away": "Lask Linz",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3139503/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T12:03:19.364Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3139503/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T12:03:19.364Z"
     },
     "3139517": {
       "attempted_at": "2026-09-20T08:07:08.057Z",
@@ -42,12 +94,64 @@
       "adapter_version": "v3-route-first"
     },
     "3139694": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:21.546Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T12:03:25.102Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3139694/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3139694: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3139694/ozet",
+      "data": {
+        "id": "3139694",
+        "iddaa_event_id": "3139694",
+        "date": "2026-09-20",
+        "time": "15:30",
+        "league": "İngiltere Championship",
+        "home": "Norwich",
+        "away": "Bolton",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3139694/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T12:03:26.285Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3139694/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T12:03:26.285Z"
     },
     "3140452": {
       "adapter_version": "v3-route-first",
@@ -58,12 +162,64 @@
       "error": "https://istatistik.nesine.com/3140452/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3140452: identity_mismatch"
     },
     "3140470": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:19.422Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T12:03:19.364Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3140470/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3140470: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3140470/ozet",
+      "data": {
+        "id": "3140470",
+        "iddaa_event_id": "3140470",
+        "date": "2026-09-20",
+        "time": "15:30",
+        "league": "Avusturya Bundesliga",
+        "home": "Ried",
+        "away": "Wolfsberger",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3140470/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T12:03:20.529Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3140470/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T12:03:20.529Z"
     },
     "3141056": {
       "adapter_version": "v3-route-first",
@@ -74,8 +230,8 @@
       "error": "https://istatistik.nesine.com/3141056/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3141056: identity_mismatch"
     },
     "3144028": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:09.673Z",
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:06.853Z",
       "route_pages": {},
       "route_errors": {},
       "diagnostic": {
@@ -211,12 +367,64 @@
       "adapter_version": "v3-route-first"
     },
     "3144107": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:13.743Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:13.381Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3144107/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3144107: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3144107/ozet",
+      "data": {
+        "id": "3144107",
+        "iddaa_event_id": "3144107",
+        "date": "2026-09-20",
+        "time": "15:00",
+        "league": "İspanya 2.Lig",
+        "home": "Sabadell",
+        "away": "Oviedo",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3144107/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T11:59:14.537Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3144107/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T11:59:14.537Z"
     },
     "3144165": {
       "attempted_at": "2026-09-20T06:10:25.070Z",
@@ -303,9 +511,8 @@
       "error": "https://istatistik.nesine.com/3144416/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3144416: identity_mismatch"
     },
     "3144423": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:07.088Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:04.000Z",
       "route_errors": {},
       "diagnostic": {
         "url": "https://istatistik.nesine.com/3144423/ozet",
@@ -396,8 +603,61 @@
           ]
         }
       },
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3144423/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3144423: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3144423/ozet",
+      "data": {
+        "id": "3144423",
+        "iddaa_event_id": "3144423",
+        "date": "2026-09-20",
+        "time": "15:00",
+        "league": "Almanya Bölgesel Lig Kuzey",
+        "home": "Atlas Delmenho",
+        "away": "Eimsbutteler",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3144423/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T11:59:06.522Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3144423/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T11:59:06.522Z"
     },
     "3144462": {
       "attempted_at": "2026-09-20T08:07:10.980Z",
@@ -408,12 +668,64 @@
       "adapter_version": "v3-route-first"
     },
     "3144490": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:22.348Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T12:03:26.616Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3144490/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3144490: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3144490/ozet",
+      "data": {
+        "id": "3144490",
+        "iddaa_event_id": "3144490",
+        "date": "2026-09-20",
+        "time": "15:30",
+        "league": "İtalya Serie C Grup A",
+        "home": "Ospitaletto",
+        "away": "Cittadella",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3144490/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T12:03:27.745Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3144490/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T12:03:27.745Z"
     },
     "3144500": {
       "attempted_at": "2026-09-20T08:07:12.188Z",
@@ -424,12 +736,72 @@
       "adapter_version": "v3-route-first"
     },
     "3144506": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:11.759Z",
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:10.095Z",
+      "route_errors": {},
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3144506/ozet",
+      "data": {
+        "id": "3144506",
+        "iddaa_event_id": "3144506",
+        "date": "2026-09-20",
+        "time": "15:00",
+        "league": "Danimarka 1.Lig",
+        "home": "Aalborg",
+        "away": "Vendsyssel",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3144506/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T11:59:11.248Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3144506/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T11:59:11.248Z"
+    },
+    "3144537": {
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T12:03:29.201Z",
       "route_pages": {},
       "route_errors": {},
       "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3144506/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3144506: identity_mismatch"
+      "error": "https://istatistik.nesine.com/3144537/ozet: identity_mismatch"
     },
     "3144549": {
       "attempted_at": "2026-09-20T08:07:13.687Z",
@@ -448,12 +820,64 @@
       "adapter_version": "v3-route-first"
     },
     "3144586": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:21.113Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T12:03:23.962Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3144586/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3144586: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3144586/ozet",
+      "data": {
+        "id": "3144586",
+        "iddaa_event_id": "3144586",
+        "date": "2026-09-20",
+        "time": "15:30",
+        "league": "Hollanda Eredivisie",
+        "home": "Twente",
+        "away": "Psv Eindhoven",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3144586/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T12:03:25.102Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3144586/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T12:03:25.102Z"
     },
     "3144638": {
       "attempted_at": "2026-09-20T08:07:15.160Z",
@@ -472,12 +896,64 @@
       "adapter_version": "v3-route-first"
     },
     "3144669": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:14.528Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:15.661Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3144669/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3144669: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3144669/ozet",
+      "data": {
+        "id": "3144669",
+        "iddaa_event_id": "3144669",
+        "date": "2026-09-20",
+        "time": "15:00",
+        "league": "İsveç Allsvenskan",
+        "home": "Djurgarden",
+        "away": "Elfsborg",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3144669/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T11:59:16.826Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3144669/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T11:59:16.826Z"
     },
     "3144739": {
       "attempted_at": "2026-09-20T08:07:14.873Z",
@@ -495,16 +971,68 @@
       "error": "Nesine sayfasindaki takimlar bulten maciyla dogrulanamadi."
     },
     "3144768": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:20.703Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T12:03:22.825Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3144768/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3144768: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3144768/ozet",
+      "data": {
+        "id": "3144768",
+        "iddaa_event_id": "3144768",
+        "date": "2026-09-20",
+        "time": "15:30",
+        "league": "Hollanda Eredivisie",
+        "home": "Az Alkmaar",
+        "away": "Telstar",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3144768/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T12:03:23.962Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3144768/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T12:03:23.962Z"
     },
     "3144778": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:10.949Z",
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:08.642Z",
       "route_pages": {},
       "route_errors": {},
       "status": "identity_mismatch",
@@ -527,12 +1055,64 @@
       "error": "https://istatistik.nesine.com/3144830/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3144830: identity_mismatch"
     },
     "3144896": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:14.947Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:16.826Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3144896/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3144896: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3144896/ozet",
+      "data": {
+        "id": "3144896",
+        "iddaa_event_id": "3144896",
+        "date": "2026-09-20",
+        "time": "15:00",
+        "league": "İsveç Allsvenskan",
+        "home": "Kalmar",
+        "away": "Hacken",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3144896/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": ""
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": ""
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": ""
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": ""
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": ""
+        },
+        "fetched_at": "2026-09-20T11:59:17.152Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3144896/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T11:59:17.152Z"
     },
     "3144904": {
       "adapter_version": "v4-payload-diagnostic",
@@ -543,16 +1123,68 @@
       "error": "https://istatistik.nesine.com/3144904/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3144904: identity_mismatch"
     },
     "3144905": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:10.492Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:07.515Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3144905/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3144905: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3144905/ozet",
+      "data": {
+        "id": "3144905",
+        "iddaa_event_id": "3144905",
+        "date": "2026-09-20",
+        "time": "15:00",
+        "league": "Almanya Bölgesel Lig Kuzey",
+        "home": "Norderstedt",
+        "away": "Werder Bremen (",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3144905/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T11:59:08.642Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3144905/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T11:59:08.642Z"
     },
     "3144970": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:09.251Z",
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:06.522Z",
       "route_pages": {},
       "route_errors": {},
       "diagnostic": {
@@ -680,8 +1312,8 @@
       "error": "https://istatistik.nesine.com/3145011/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3145011: identity_mismatch"
     },
     "3145015": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:12.144Z",
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:11.248Z",
       "route_pages": {},
       "route_errors": {},
       "status": "identity_mismatch",
@@ -704,12 +1336,64 @@
       "error": "https://istatistik.nesine.com/3145030/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3145030: identity_mismatch"
     },
     "3145062": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:19.837Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T12:03:20.529Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3145062/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3145062: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3145062/ozet",
+      "data": {
+        "id": "3145062",
+        "iddaa_event_id": "3145062",
+        "date": "2026-09-20",
+        "time": "15:30",
+        "league": "Çek Cumhuriyeti FNL",
+        "home": "Banik Ostrava",
+        "away": "Usti Nad Labem",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3145062/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T12:03:21.661Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3145062/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T12:03:21.661Z"
     },
     "3145064": {
       "attempted_at": "2026-09-20T06:10:26.100Z",
@@ -734,12 +1418,64 @@
       "adapter_version": "v3-route-first"
     },
     "3145108": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:23.163Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T12:03:28.071Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3145108/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3145108: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3145108/ozet",
+      "data": {
+        "id": "3145108",
+        "iddaa_event_id": "3145108",
+        "date": "2026-09-20",
+        "time": "15:30",
+        "league": "İtalya Serie C Grup B",
+        "home": "Reggiana",
+        "away": "Latina",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3145108/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T12:03:29.201Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3145108/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T12:03:29.201Z"
     },
     "3145127": {
       "attempted_at": "2026-09-20T08:07:07.752Z",
@@ -765,36 +1501,140 @@
       "adapter_version": "v3-route-first"
     },
     "3145287": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:12.915Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:11.920Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3145287/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3145287: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3145287/ozet",
+      "data": {
+        "id": "3145287",
+        "iddaa_event_id": "3145287",
+        "date": "2026-09-20",
+        "time": "15:00",
+        "league": "Endonezya Süper Lig",
+        "home": "Persijap",
+        "away": "Persib",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3145287/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T11:59:13.051Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3145287/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T11:59:13.051Z"
     },
     "3145297": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:21.952Z",
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T12:03:26.285Z",
       "route_pages": {},
       "route_errors": {},
       "status": "identity_mismatch",
       "error": "https://istatistik.nesine.com/3145297/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3145297: identity_mismatch"
     },
     "3145303": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:10.083Z",
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:07.184Z",
       "route_pages": {},
       "route_errors": {},
       "status": "identity_mismatch",
       "error": "https://istatistik.nesine.com/3145303/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3145303: identity_mismatch"
     },
     "3145305": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:14.121Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:14.537Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3145305/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3145305: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3145305/ozet",
+      "data": {
+        "id": "3145305",
+        "iddaa_event_id": "3145305",
+        "date": "2026-09-20",
+        "time": "15:00",
+        "league": "İspanya LaLiga",
+        "home": "Getafe",
+        "away": "Malaga",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3145305/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T11:59:15.661Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3145305/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T11:59:15.661Z"
     },
     "3145331": {
       "adapter_version": "v3-route-first",
@@ -805,16 +1645,16 @@
       "error": "https://istatistik.nesine.com/3145331/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3145331: identity_mismatch"
     },
     "3145344": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:12.522Z",
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:11.576Z",
       "route_pages": {},
       "route_errors": {},
       "status": "identity_mismatch",
       "error": "https://istatistik.nesine.com/3145344/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3145344: identity_mismatch"
     },
     "3145387": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:22.756Z",
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T12:03:27.745Z",
       "route_pages": {},
       "route_errors": {},
       "status": "identity_mismatch",
@@ -882,12 +1722,64 @@
       "error": "https://istatistik.nesine.com/3180323/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3180323: identity_mismatch"
     },
     "3185156": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:11.346Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T11:59:08.969Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3185156/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3185156: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3185156/ozet",
+      "data": {
+        "id": "3185156",
+        "iddaa_event_id": "3185156",
+        "date": "2026-09-20",
+        "time": "15:00",
+        "league": "Belarus Premier Lig",
+        "home": "Baranovichi",
+        "away": "Gomel",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3185156/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T11:59:10.095Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3185156/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T11:59:10.095Z"
     },
     "3201843": {
       "attempted_at": "2026-09-20T08:07:10.051Z",
@@ -898,12 +1790,64 @@
       "adapter_version": "v3-route-first"
     },
     "3221724": {
-      "adapter_version": "v4-payload-diagnostic",
-      "attempted_at": "2026-09-20T11:40:20.284Z",
-      "route_pages": {},
+      "adapter_version": "v5-embedded-identity",
+      "attempted_at": "2026-09-20T12:03:21.661Z",
       "route_errors": {},
-      "status": "identity_mismatch",
-      "error": "https://istatistik.nesine.com/3221724/ozet: identity_mismatch | https://istatistik.nesine.com/p1/3221724: identity_mismatch"
+      "status": "ok",
+      "verified_url": "https://istatistik.nesine.com/3221724/ozet",
+      "data": {
+        "id": "3221724",
+        "iddaa_event_id": "3221724",
+        "date": "2026-09-20",
+        "time": "15:30",
+        "league": "Filipinler PFL",
+        "home": "Stallion",
+        "away": "Manila Digger",
+        "source": "Nesine İstatistik",
+        "source_url": "https://istatistik.nesine.com/3221724/ozet",
+        "verified_identity": true,
+        "summary": {
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "standings": {
+          "structured_available": false,
+          "home": null,
+          "away": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "head_to_head": {
+          "structured_available": false,
+          "matches": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "recent_matches": {
+          "structured_available": false,
+          "home": [],
+          "away": [],
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "squads": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "corners_cards": {
+          "structured_available": false,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "referee": {
+          "structured_available": false,
+          "details": null,
+          "excerpt": "İstatistik | Nesine.com"
+        },
+        "fetched_at": "2026-09-20T12:03:22.825Z",
+        "provenance": {
+          "policy": "official_event_id_plus_home_away_identity_validation",
+          "sources": [
+            "https://istatistik.nesine.com/3221724/ozet"
+          ]
+        }
+      },
+      "fetched_at": "2026-09-20T12:03:22.825Z"
     },
     "3221728": {
       "attempted_at": "2026-09-20T08:07:11.266Z",
@@ -922,5 +1866,5 @@
       "adapter_version": "v3-route-first"
     }
   },
-  "updated_at": "2026-09-20T11:44:31.645Z"
+  "updated_at": "2026-09-20T12:03:29.368Z"
 }
