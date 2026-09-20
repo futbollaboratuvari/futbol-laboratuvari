@@ -6,7 +6,7 @@ const memoryFile = path.join(root, "data", "learning-memory.json");
 const archiveFile = path.join(root, "data", "robot_match_archive.json");
 const liveFile = path.join(root, "data", "live-matches.json");
 const statusFile = path.join(root, "data", "learning-score-linker-status.json");
-const { findResultForMatch, normalizeTeam } = require("./update-final-scores");
+const { findResultForMatch, normalizeTeam, resultDatesForMatch } = require("./update-final-scores");
 
 function readJson(file, fallback) {
   try { return JSON.parse(fs.readFileSync(file, "utf8")); } catch { return fallback; }
@@ -68,9 +68,17 @@ function teamsOf(item) {
   };
 }
 
-function exactPairKey(item) {
+function exactPairKeyForDate(item, date) {
   const teams = teamsOf(item);
-  return [dateOf(item), normalizeTeam(teams.home), normalizeTeam(teams.away)].join("|");
+  return [date, normalizeTeam(teams.home), normalizeTeam(teams.away)].join("|");
+}
+
+function exactPairKey(item) {
+  return exactPairKeyForDate(item, dateOf(item));
+}
+
+function candidatePairKeys(item) {
+  return resultDatesForMatch(item).map((date) => exactPairKeyForDate(item, date));
 }
 
 function buildScoreIndexFromRows(rows) {
@@ -118,23 +126,31 @@ function buildScoreMap() {
   return buildScoreIndexFromRows([...(archive.matches || []), ...(live.matches || [])]);
 }
 
+function candidateDateRows(item, index) {
+  return resultDatesForMatch(item).flatMap((date) => index.byDate.get(date) || []);
+}
+
 function findScore(item, index) {
-  const exact = index.exact.get(exactPairKey(item));
-  if (exact) return exact;
+  for (const pairKey of candidatePairKeys(item)) {
+    const exact = index.exact.get(pairKey);
+    if (exact) return exact;
+  }
   const date = dateOf(item);
   if (date) {
-    const match = findResultForMatch(item, index.byDate.get(date) || []);
+    const match = findResultForMatch(item, candidateDateRows(item, index));
     return match?.result?.score || "";
   }
   return index.byUndatedName.get(key(nameOf(item))) || "";
 }
 
 function findHalfTimeScore(item, index) {
-  const exact = index.exactHalfTime.get(exactPairKey(item));
-  if (exact) return exact;
+  for (const pairKey of candidatePairKeys(item)) {
+    const exact = index.exactHalfTime.get(pairKey);
+    if (exact) return exact;
+  }
   const date = dateOf(item);
   if (date) {
-    const match = findResultForMatch(item, index.byDate.get(date) || []);
+    const match = findResultForMatch(item, candidateDateRows(item, index));
     return halfTimeScoreOf(match?.result || {});
   }
   return index.byUndatedHalfTime.get(key(nameOf(item))) || "";
@@ -179,6 +195,7 @@ function runLearningScoreLinker() {
 if (require.main === module) runLearningScoreLinker();
 module.exports = {
   buildScoreIndexFromRows,
+  candidatePairKeys,
   findHalfTimeScore,
   findScore,
   halfTimeScoreOf,
