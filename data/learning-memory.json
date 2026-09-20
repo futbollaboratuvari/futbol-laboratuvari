@@ -1,14 +1,14 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-21T22:07:49.740Z",
-  "updated_at": "2026-09-20T04:17:49.370Z",
+  "updated_at": "2026-09-20T04:20:25.870Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
     "total_predictions": 2097,
-    "pending_predictions": 1675,
-    "won_predictions": 236,
-    "lost_predictions": 186,
+    "pending_predictions": 1572,
+    "won_predictions": 281,
+    "lost_predictions": 244,
     "void_predictions": 0,
     "league_count": 333,
     "market_count": 13,
@@ -23,13 +23,13 @@
       "retained_pending_predictions": 1739,
       "retained_void_predictions": 0
     },
-    "last_direct_result_checked": 1739,
-    "last_direct_result_linked": 55,
+    "last_direct_result_checked": 1675,
+    "last_direct_result_linked": 110,
     "last_direct_half_time_linked": 0,
-    "last_score_link_checked": 1684,
-    "last_score_linked": 14,
-    "last_finalizer_checked": 69,
-    "last_finalizer_updated": 64
+    "last_score_link_checked": 1570,
+    "last_score_linked": 10,
+    "last_finalizer_checked": 115,
+    "last_finalizer_updated": 103
   },
   "market_memory": {
     "KG Yok": {
@@ -54765,12 +54765,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-3",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842232",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd mls|portland atlanta utd|ms 1|05 30",
@@ -54843,12 +54847,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401915254",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|kosta rika premier lig apertura|deportivo sapr herediano|kg var|05 00",
@@ -54921,12 +54929,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401878003",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|meksika ascenso mx apertura|jaiba brava dorados|ms 1|04 00",
@@ -54947,12 +54959,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-1",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401886364",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd mls|nashville sc chicago|ikinci yari kg yok|04 30",
@@ -54974,11 +54990,15 @@
       "risk_level": "Orta",
       "predicted_score": "1-0",
       "status": "pending",
-      "result_score": "",
+      "result_score": "3-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761827",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "score_linked_at": "2026-09-20T04:20:24.284Z"
     },
     {
       "id": "2026-09-20|abd mls|salt lake vancouver|ikinci yari kg yok|04 30",
@@ -55000,11 +55020,15 @@
       "risk_level": "Orta",
       "predicted_score": "1-0",
       "status": "pending",
-      "result_score": "",
+      "result_score": "0-3",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761825",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "score_linked_at": "2026-09-20T04:20:24.286Z"
     },
     {
       "id": "2026-09-20|meksika ascenso mx apertura|cancun fc alebrijes|2 5 alt|04 00",
@@ -55025,12 +55049,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "3-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401886366",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl|colorado sprin new mexico unit|kg yok|04 00",
@@ -55051,12 +55079,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "0-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "TheSportsDB",
+      "result_source_match_id": "2397329",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|meksika liga mx apertura|monterrey cruz azul|ilk yari kg yok|04 10",
@@ -55078,11 +55110,15 @@
       "risk_level": "Orta",
       "predicted_score": "0-0",
       "status": "pending",
-      "result_score": "",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401876969",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "score_linked_at": "2026-09-20T04:20:24.289Z"
     },
     {
       "id": "2026-09-20|meksika ascenso mx apertura|monarcas leones negros|ms 1|04 00",
@@ -55129,12 +55165,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "0-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761822",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd mls|st louis city toronto|ms 1|03 30",
@@ -55155,12 +55195,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-1",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761824",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|arjantin premier lig 2 asama|instituto cord talleres|ms 1|03 15",
@@ -55181,12 +55225,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-1",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401841575",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd mls|minnesota utd los angeles|ms 1|03 30",
@@ -55259,12 +55307,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "2-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842148",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd mls|kansas philadelphia|ikinci yari kg yok|03 30",
@@ -55311,12 +55363,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761820",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|venezuela premier lig clausura|deportivo la g depor tachira|2 5 alt|03 00",
@@ -55337,12 +55393,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-4",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401903320",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|kanada premier lig|pacific fc vancouver fc|ms 2|03 00",
@@ -55389,12 +55449,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401921387",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl lig 1|fort wayne naples|2 5 ust|02 30",
@@ -55415,12 +55479,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "2-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842136",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|brezilya serie a|sao paulo internacional|iy kg 2y kg hayir hayir|03 00",
@@ -55442,11 +55510,14 @@
       "risk_level": "Orta",
       "predicted_score": "",
       "status": "pending",
-      "result_score": "",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401841243",
+      "result_linked_at": "2026-09-20T04:20:05.698Z"
     },
     {
       "id": "2026-09-20|abd usl lig 1|sarasota parad greenville triu|2 5 ust|02 30",
@@ -55467,12 +55538,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "6-0",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842144",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl|tampa bay rowd birmingham legi|3 5 ust|02 30",
@@ -55493,12 +55568,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "3-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "4-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842228",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl|rhode island miami fc|kg yok|02 30",
@@ -55519,12 +55598,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842230",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|asya oyunlari grup b|iran u23 cin u23|2 5 alt|08 00",
@@ -55571,12 +55654,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.782Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401886197",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|brezilya serie a|vasco da gama coritiba|kg var|02 30",
@@ -55597,12 +55684,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "5-0",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.781Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401841247",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd mls|new england orlando city|ikinci yari kg yok|02 30",
@@ -55624,11 +55715,15 @@
       "risk_level": "Orta",
       "predicted_score": "1-0",
       "status": "pending",
-      "result_score": "",
+      "result_score": "4-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.781Z"
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761816",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "score_linked_at": "2026-09-20T04:20:24.300Z"
     },
     {
       "id": "2026-09-20|abd mls|montreal columbus|2 5 ust|02 30",
@@ -55649,12 +55744,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "0-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.781Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761818",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|kolombiya primera a clausura|deportivo cali depor cucuta|ms 1|02 10",
@@ -55728,11 +55827,14 @@
       "risk_level": "Orta",
       "predicted_score": "",
       "status": "pending",
-      "result_score": "",
+      "result_score": "1-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T04:17:37.781Z"
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761819",
+      "result_linked_at": "2026-09-20T04:20:05.698Z"
     },
     {
       "id": "2026-09-16|abd usl lig 1|chattanooga re forward madison|ms 1|02 00",
@@ -56831,12 +56933,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T01:23:52.407Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401886197",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|arjantin ulusal primera lig|deportivo madr r cordoba|ms 1|22 00",
@@ -56909,12 +57015,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "0-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.570Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "TheSportsDB",
+      "result_source_match_id": "2397329",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|meksika liga mx apertura|monterrey cruz azul|2 5 alt|04 10",
@@ -56935,12 +57045,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.570Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401876969",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|meksika ascenso mx apertura|cancun fc alebrijes|kg var|04 00",
@@ -56961,12 +57075,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "3-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.570Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401886366",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd mls|houston cincinnati|2 5 ust|03 30",
@@ -56987,12 +57105,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "2-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.569Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761820",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|brezilya serie a|sao paulo internacional|2 5 alt|03 00",
@@ -57013,12 +57135,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.569Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401841243",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl|rhode island miami fc|ms 1|02 30",
@@ -57039,12 +57165,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.569Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842230",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd mls|new england orlando city|ms 1|02 30",
@@ -57065,12 +57195,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "4-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.569Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761816",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd mls|montreal columbus|kg var|02 30",
@@ -57091,12 +57225,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "0-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.569Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761818",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl lig 1|fort wayne naples|kg var|02 30",
@@ -57117,12 +57255,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "2-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.569Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842136",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|meksika kadinlar liga mx apertura|tijuana k guadalajara k|ms 2|02 06",
@@ -57169,12 +57311,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-1",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.568Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842134",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl lig 1|forward madiso alta|kg var|02 00",
@@ -57195,12 +57341,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "3-0",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.568Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842138",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|el salvador primera lig apertura|inter fa isidro metapan|2 5 alt|02 00",
@@ -57247,12 +57397,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "2-2",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.568Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842224",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl|louisville cit loudoun united|ms 1|02 00",
@@ -57273,12 +57427,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "2-1",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.568Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842234",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl|charleston bat monterey bay|kg yok|02 00",
@@ -57299,12 +57457,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.568Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842222",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl|lexington orange county b|kg var|02 00",
@@ -57325,12 +57487,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "6-0",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.567Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842236",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl|detroit city pittsburgh rive|kg var|02 00",
@@ -57351,12 +57517,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.567Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842240",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|peru premier lig clausura|deportivo garc universitario|2 5 ust|02 00",
@@ -57377,12 +57547,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "4-0",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.567Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401886182",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|kosta rika premier lig apertura|puntarenas fc liberia|ms 1|02 00",
@@ -57429,12 +57603,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.567Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401876971",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|meksika liga mx apertura|atletico san l necaxa|2 5 alt|02 00",
@@ -57455,12 +57633,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "3-1",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:59:09.567Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401876970",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|venezuela premier lig clausura|academia puert portuguesa|2 5 alt|01 00",
@@ -58052,12 +58234,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "3-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "3-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:47:33.437Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761827",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd mls|salt lake vancouver|ms 2|04 30",
@@ -58078,12 +58264,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "0-3",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:47:33.437Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761825",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|kosta rika premier lig apertura|deportivo sapr herediano|ms 1|05 00",
@@ -58130,12 +58320,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:47:33.437Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761820",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd mls|dallas austin|ms 1|03 30",
@@ -58156,12 +58350,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "0-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:47:33.437Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761822",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl lig 1|union omaha one knoxville|2 5 alt|03 00",
@@ -58182,12 +58380,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:47:33.436Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842148",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd mls|kansas philadelphia|ms 2|03 30",
@@ -58234,12 +58436,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:47:33.436Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401921387",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd mls|dc united charlotte|ms 2|02 30",
@@ -58260,12 +58466,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "0-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:47:33.436Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761819",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl lig 1|fort wayne naples|ms 1|02 30",
@@ -58286,12 +58496,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:47:33.436Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842136",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd mls|montreal columbus|ikinci yari kg yok|02 30",
@@ -58313,11 +58527,15 @@
       "risk_level": "Orta",
       "predicted_score": "1-0",
       "status": "pending",
-      "result_score": "",
+      "result_score": "0-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:47:33.436Z"
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761818",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "score_linked_at": "2026-09-20T04:20:24.361Z"
     },
     {
       "id": "2026-09-20|abd usl lig 1|new york cosmo westchester sc|ms 1|02 00",
@@ -58338,12 +58556,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-20T00:47:33.435Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842140",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|brezilya serie b|athletic club botafogo ribeir|kg yok|00 30",
@@ -58571,12 +58793,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "0-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T22:37:52.782Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761818",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|brezilya serie a|vasco da gama coritiba|2 5 ust|02 30",
@@ -58597,12 +58823,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "5-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T22:37:52.782Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401841247",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl|rhode island miami fc|kg var|02 30",
@@ -58623,12 +58853,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T22:37:52.782Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842230",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl|tampa bay rowd birmingham legi|ms 1|02 30",
@@ -58649,12 +58883,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "4-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T22:37:52.782Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842228",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl lig 1|forward madiso alta|ms 1|02 00",
@@ -58675,12 +58913,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T22:37:52.781Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842138",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|meksika liga mx apertura|atlas pumas unam|2 5 ust|02 00",
@@ -58701,12 +58943,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T22:37:52.781Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401876971",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl|lexington orange county b|2 5 alt|02 00",
@@ -58727,12 +58973,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "6-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T22:37:52.781Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842236",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl|detroit city pittsburgh rive|kg yok|02 00",
@@ -58753,12 +59003,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T22:37:52.781Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842240",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl|charleston bat monterey bay|kg var|02 00",
@@ -58779,12 +59033,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T22:37:52.781Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842222",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.869Z"
     },
     {
       "id": "2026-09-20|abd usl|brooklyn tulsa roughneck|2 5 alt|02 00",
@@ -58805,12 +59063,16 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T22:37:52.781Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842224",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-20|brezilya serie b|athletic club botafogo ribeir|2 5 alt|00 30",
@@ -58857,11 +59119,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-2",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.572Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761820",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd mls|nashville sc chicago|3 5 ust|04 30",
@@ -58882,11 +59148,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "3-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "3-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.572Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761827",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|meksika ascenso mx apertura|jaiba brava dorados|ms 1|04 00",
@@ -58907,11 +59177,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-1",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.572Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401886364",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd usl|colorado sprin new mexico unit|ms 1|04 00",
@@ -58932,11 +59206,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "0-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.572Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "TheSportsDB",
+      "result_source_match_id": "2397329",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|meksika liga mx apertura|monterrey cruz azul|2 5 alt|04 10",
@@ -58957,11 +59235,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.572Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401876969",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|kolombiya primera a clausura|deportivo past once caldas|kg var|04 15",
@@ -58982,11 +59264,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.572Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401878003",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|peru premier lig clausura|melgar sport boys|kg yok|04 15",
@@ -59007,11 +59293,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-1",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.572Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401886197",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd mls|colorado seattle|2 5 alt|04 30",
@@ -59057,11 +59347,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "0-3",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.572Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761825",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|honduras ulusal lig apertura|real espana depor motagua|2 5 alt|04 30",
@@ -59082,11 +59376,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.572Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401915254",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|kosta rika premier lig apertura|deportivo sapr herediano|ms 1|05 00",
@@ -59132,11 +59430,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-3",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.572Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842232",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd mls|portland atlanta utd|ms 1|05 30",
@@ -59257,11 +59559,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "0-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.572Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761822",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|meksika ascenso mx apertura|monarcas leones negros|ms 1|04 00",
@@ -59307,11 +59613,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "3-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.572Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401886366",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|ekvador pro lig copa sudamericana play off|emelec libertad|kg yok|03 00",
@@ -59332,11 +59642,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-2",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401921387",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd usl|rhode island miami fc|kg var|02 30",
@@ -59357,11 +59671,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-2",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842230",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|kolombiya primera a clausura|deportivo cali depor cucuta|ms 1|02 10",
@@ -59432,11 +59750,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-2",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761819",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd mls|new england orlando city|ms 1|02 30",
@@ -59457,11 +59779,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "4-2",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761816",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd mls|montreal columbus|ms 2|02 30",
@@ -59482,11 +59808,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "0-2",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761818",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|brezilya serie a|vasco da gama coritiba|2 5 ust|02 30",
@@ -59507,11 +59837,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "5-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401841247",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd usl|tampa bay rowd birmingham legi|ms 1|02 30",
@@ -59532,11 +59866,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "4-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842228",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd usl lig 1|sarasota parad greenville triu|2 5 ust|02 30",
@@ -59557,11 +59895,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "6-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842144",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd usl lig 1|fort wayne naples|ms 1|02 30",
@@ -59582,11 +59924,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-2",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842136",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|brezilya serie a|sao paulo internacional|2 5 alt|03 00",
@@ -59607,11 +59953,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401841243",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|venezuela premier lig clausura|deportivo la g depor tachira|2 5 alt|03 00",
@@ -59632,11 +59982,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-4",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401903320",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|kanada premier lig|pacific fc vancouver fc|ms 2|03 00",
@@ -59707,11 +60061,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-1",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842148",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|arjantin premier lig 2 asama|instituto cord talleres|ms 1|03 15",
@@ -59732,11 +60090,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-1",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401841575",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd mls|minnesota utd los angeles|ms 1|03 30",
@@ -59807,11 +60169,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-1",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761824",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd usl|brooklyn tulsa roughneck|2 5 alt|02 00",
@@ -59832,11 +60198,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-2",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842224",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|el salvador primera lig apertura|inter fa isidro metapan|2 5 alt|02 00",
@@ -59882,11 +60252,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-2",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842140",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd usl lig 1|chattanooga re portland hearts|ms 1|02 00",
@@ -59907,11 +60281,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-1",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842134",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd usl lig 1|forward madiso alta|ms 1|02 00",
@@ -59932,11 +60310,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.571Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842138",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|meksika kadinlar liga mx apertura|tijuana k guadalajara k|ms 2|02 06",
@@ -60036,11 +60418,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.570Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842240",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd usl|charleston bat monterey bay|kg var|02 00",
@@ -60061,11 +60447,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.570Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842222",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|kanada premier lig|cavalry forge|2 5 alt|00 00",
@@ -60377,11 +60767,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "3-1",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.570Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401876970",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|meksika liga mx apertura|atlas pumas unam|2 5 ust|02 00",
@@ -60402,11 +60796,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-1",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.570Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401876971",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|peru premier lig clausura|deportivo garc universitario|2 5 ust|02 00",
@@ -60427,11 +60825,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "2-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "4-0",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.570Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401886182",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|kosta rika premier lig apertura|puntarenas fc liberia|ms 1|02 00",
@@ -60477,11 +60879,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "6-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.570Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842236",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd usl|louisville cit loudoun united|ms 1|02 00",
@@ -60502,11 +60908,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "2-1",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T20:52:28.570Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842234",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|brezilya serie c grup b|maringa botafogo pb|kg var|23 00",
@@ -61501,7 +61911,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T20:52:28.568Z",
-      "score_linked_at": "2026-09-20T04:17:48.657Z"
+      "score_linked_at": "2026-09-20T04:20:24.467Z"
     },
     {
       "id": "2026-09-19|arjantin ulusal primera lig|san telmo caseros|ms 2|21 30",
@@ -63565,11 +63975,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-1",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T18:42:52.905Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401886197",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|ispanya la liga 2|cadiz girona|kg var|22 00",
@@ -64187,7 +64601,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T18:08:52.965Z",
-      "score_linked_at": "2026-09-20T04:17:48.738Z"
+      "score_linked_at": "2026-09-20T04:20:24.628Z"
     },
     {
       "id": "2026-09-19|turkiye tff 1 lig|batman petrol bursaspor|kg yok|20 00",
@@ -66155,11 +66569,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-1",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T17:11:55.913Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842240",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd usl|charleston bat monterey bay|ms 1|02 00",
@@ -66180,11 +66598,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Yüksek",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T17:11:55.913Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842222",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|fransa ligue 2|metz st etienne|ms 2|21 00",
@@ -66777,7 +67199,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T17:11:55.905Z",
-      "score_linked_at": "2026-09-20T04:17:48.826Z"
+      "score_linked_at": "2026-09-20T04:20:24.791Z"
     },
     {
       "id": "2026-09-19|isvicre super lig|sion zurich|ilk yari kg var|19 00",
@@ -68286,7 +68708,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T17:11:55.901Z",
-      "score_linked_at": "2026-09-20T04:17:48.890Z"
+      "score_linked_at": "2026-09-20T04:20:24.913Z"
     },
     {
       "id": "2026-09-19|portekiz premier lig|nacional madei famalicao|2 5 alt|17 30",
@@ -68357,11 +68779,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "3-0",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T16:25:16.636Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761827",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|ekvador pro lig copa sudamericana play off|emelec libertad|2 5 alt|03 00",
@@ -68382,11 +68808,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-2",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T16:25:16.636Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401921387",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|abd mls|houston cincinnati|ms 1|03 30",
@@ -68407,11 +68837,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-2",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T16:25:16.636Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "761820",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|portekiz premier lig|alverca rio ave|kg var|20 00",
@@ -69229,11 +69663,15 @@
       "model_version": "pro13-btts-conditioned-v3",
       "risk_level": "Orta",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "1-2",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-19T14:35:27.221Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-20T04:20:05.698Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401842230",
+      "result_linked_at": "2026-09-20T04:20:05.698Z",
+      "finalized_at": "2026-09-20T04:20:25.870Z"
     },
     {
       "id": "2026-09-19|venezuela premier lig clausura|rayo zuliano monagas|2 5 ust|22 30",
@@ -75556,7 +75994,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-18T17:10:40.151Z",
-      "score_linked_at": "2026-09-20T04:17:49.024Z"
+      "score_linked_at": "2026-09-20T04:20:25.163Z"
     },
     {
       "id": "2026-09-18|finlandiya veikkausliiga|oulu inter turku|ikinci yari kg var|19 00",
