@@ -52,6 +52,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Learning settlement regression
         run: node tests/learning-market-settlement.test.js
+      - name: Iddaa result-id backfill regression
+        run: node tests/iddaa-result-backfill.test.js
       - name: Learning memory retention regression
         run: node tests/learning-memory-retention.test.js
       - name: Stale learning health regression
