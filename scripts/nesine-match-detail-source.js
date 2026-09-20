@@ -189,7 +189,7 @@ const pageContainsMatch = (html, match) => {
   const awayScore = Math.max(...lines.map((line) => identitySimilarity(match.away, line)), 0);
   if (homeScore >= 0.75 && awayScore >= 0.75) return true;
 
-  const scriptBodies = [...source.matchAll(/<script\\b[^>]*>([\\s\\S]*?)<\\/script>/gi)]
+  const scriptBodies = [...source.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)]
     .map((m) => decodeEscapedUnicode(decodeEntities(m[1])));
   const homeEmbedded = Math.max(...scriptBodies.map((body) => identitySimilarity(match.home, body)), 0);
   const awayEmbedded = Math.max(...scriptBodies.map((body) => identitySimilarity(match.away, body)), 0);
