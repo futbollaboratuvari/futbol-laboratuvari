@@ -1,200 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T19:43:50.511Z",
+  "generated_at": "2026-09-20T21:51:17.331Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-20T19:43:49.320Z",
+  "source_generated_at": "2026-09-20T21:51:14.540Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 8,
-    "ready_count": 7,
+    "live_match_count": 6,
+    "ready_count": 5,
     "waiting_count": 1,
-    "result_lean_count": 5,
-    "next_goal_lean_count": 5,
+    "result_lean_count": 2,
+    "next_goal_lean_count": 3,
     "high_goal_pressure_count": 0
   },
   "matches": [
     {
-      "fixture_id": "401882858",
-      "status": "ready",
-      "minute": 41,
-      "score": {
-        "home": 0,
-        "away": 1
-      },
-      "home": "Valencia",
-      "away": "Real Sociedad",
-      "league": "İspanya LaLiga",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T19:43:49.320Z",
-      "freshness_minutes": 0.01985,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Deplasman yönü",
-        "confidence": 78
-      },
-      "result_lean": {
-        "code": "2",
-        "label": "Deplasman yönü",
-        "side": "away",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "AWAY",
-        "label": "Sonraki gol eğilimi: Deplasman",
-        "side": "away",
-        "strength": 88.74000000000001
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 19
-      },
-      "signals": [
-        "Team Power: Valencia %21 · Real Sociedad %79.",
-        "Goal Power: Valencia %5 · Real Sociedad %23.",
-        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": -58,
-        "goal_power_diff": -18,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": -2,
-        "total_shots_diff": -6,
-        "corners_diff": -1,
-        "xg_diff": 0,
-        "direction_score": -50.84,
-        "next_goal_score": -36.74
-      }
-    },
-    {
-      "fixture_id": "401874944",
+      "fixture_id": "401842244",
       "status": "ready",
       "minute": 45,
       "score": {
-        "home": 1,
-        "away": 0
-      },
-      "home": "AC Milan",
-      "away": "Lecce",
-      "league": "İtalya Serie A",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T19:43:49.320Z",
-      "freshness_minutes": 0.01985,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Ev sahibi yönü",
-        "confidence": 78
-      },
-      "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 89.456
-      },
-      "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 74.34
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 13
-      },
-      "signals": [
-        "Team Power: AC Milan %74 · Lecce %26.",
-        "Goal Power: AC Milan %16 · Lecce %6.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": 48,
-        "goal_power_diff": 10,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 1,
-        "total_shots_diff": 2,
-        "corners_diff": 1,
-        "xg_diff": 0,
-        "direction_score": 43.84,
-        "next_goal_score": 22.34
-      }
-    },
-    {
-      "fixture_id": "401885433",
-      "status": "ready",
-      "minute": 12,
-      "score": {
         "home": 0,
         "away": 0
       },
-      "home": "FC Porto",
-      "away": "Benfica",
-      "league": "Portekiz Premier Lig",
+      "home": "Indy Eleven",
+      "away": "Oakland Roots",
+      "league": "ABD USL",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T19:43:49.320Z",
-      "freshness_minutes": 0.01985,
+      "snapshot_recorded_at": "2026-09-20T21:51:14.540Z",
+      "freshness_minutes": 0.046516666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -232,51 +68,51 @@
         "code": null,
         "label": "Taraf için ayrışma yok",
         "side": "neutral",
-        "strength": 56.16
+        "strength": 50.06
       },
       "next_goal_lean": {
         "code": null,
         "label": "Sonraki gol için net ayrışma yok",
         "side": "neutral",
-        "strength": 54.86
+        "strength": 47.46
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 0
+        "score": 9
       },
       "signals": [
-        "Team Power: FC Porto %41 · Benfica %59.",
-        "Goal Power: FC Porto %0 · Benfica %0.",
+        "Team Power: Indy Eleven %59 · Oakland Roots %41.",
+        "Goal Power: Indy Eleven %10 · Oakland Roots %6.",
         "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": -18,
-        "goal_power_diff": 0,
+        "team_power_diff": 18,
+        "goal_power_diff": 4,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 0,
-        "total_shots_diff": 0,
+        "shots_on_goal_diff": 1,
+        "total_shots_diff": 1,
         "corners_diff": 0,
         "xg_diff": 0,
-        "direction_score": -6.84,
-        "next_goal_score": -4.14
+        "direction_score": 12.94,
+        "next_goal_score": 11.54
       }
     },
     {
-      "fixture_id": "401883204",
+      "fixture_id": "401841241",
       "status": "ready",
-      "minute": 43,
+      "minute": 21,
       "score": {
-        "home": 2,
-        "away": 1
+        "home": 1,
+        "away": 0
       },
-      "home": "Leganés",
-      "away": "Granada",
-      "league": "İspanya 2.Lig",
+      "home": "Flamengo",
+      "away": "Red Bull Bragantino",
+      "league": "Brezilya Serie A",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T19:43:49.320Z",
-      "freshness_minutes": 0.01985,
+      "snapshot_recorded_at": "2026-09-20T21:51:14.540Z",
+      "freshness_minutes": 0.046516666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -308,189 +144,57 @@
       "primary_prediction": {
         "type": "match_direction",
         "label": "Ev sahibi yönü",
-        "confidence": 75
+        "confidence": 78
       },
       "result_lean": {
         "code": "1",
         "label": "Ev sahibi yönü",
         "side": "home",
-        "strength": 86.19800000000001
+        "strength": 90
       },
       "next_goal_lean": {
         "code": "HOME",
         "label": "Sonraki gol eğilimi: Ev sahibi",
         "side": "home",
-        "strength": 83.22
+        "strength": 90
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 40
+        "score": 26
       },
       "signals": [
-        "Team Power: Leganés %62 · Granada %38.",
-        "Goal Power: Leganés %46 · Granada %27.",
+        "Team Power: Flamengo %83 · Red Bull Bragantino %17.",
+        "Goal Power: Flamengo %32 · Red Bull Bragantino %5.",
         "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 24,
-        "goal_power_diff": 19,
+        "team_power_diff": 66,
+        "goal_power_diff": 27,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 3,
-        "total_shots_diff": 3,
-        "corners_diff": 2,
-        "xg_diff": 0,
-        "direction_score": 40.22,
-        "next_goal_score": 31.22
-      }
-    },
-    {
-      "fixture_id": "401896755",
-      "status": "ready",
-      "minute": 83,
-      "score": {
-        "home": 1,
-        "away": 2
-      },
-      "home": "Panetolikos",
-      "away": "PAOK",
-      "league": "Yunanistan Süper Lig",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T19:43:49.320Z",
-      "freshness_minutes": 0.01985,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Deplasman yönü",
-        "confidence": 78
-      },
-      "result_lean": {
-        "code": "2",
-        "label": "Deplasman yönü",
-        "side": "away",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "AWAY",
-        "label": "Sonraki gol eğilimi: Deplasman",
-        "side": "away",
-        "strength": 90
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 16
-      },
-      "signals": [
-        "Team Power: Panetolikos %29 · PAOK %71.",
-        "Goal Power: Panetolikos %7 · PAOK %19.",
-        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": -42,
-        "goal_power_diff": -12,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": -3,
-        "total_shots_diff": -10,
+        "shots_on_goal_diff": 2,
+        "total_shots_diff": 2,
         "corners_diff": 0,
         "xg_diff": 0,
-        "direction_score": -65.96,
-        "next_goal_score": -38.16
+        "direction_score": 50.08,
+        "next_goal_score": 39.48
       }
     },
     {
-      "fixture_id": "401844143",
-      "status": "insufficient_data",
-      "minute": 79,
+      "fixture_id": "401860348",
+      "status": "ready",
+      "minute": 21,
       "score": {
         "home": 0,
         "away": 0
       },
-      "home": "Agropecuario",
-      "away": "Gimnasia y Tiro (Salta)",
-      "league": "Arjantin Ulusal Primera Lig",
+      "home": "Londrina",
+      "away": "Fortaleza",
+      "league": "Brezilya Serie B",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T19:43:49.320Z",
-      "freshness_minutes": 0.01985,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": "power_signal_missing",
-      "primary_prediction": {
-        "type": "wait",
-        "label": "Veri yeterli değil · tahmin verilmedi",
-        "confidence": null
-      },
-      "result_lean": null,
-      "next_goal_lean": null,
-      "goal_pressure": null,
-      "signals": []
-    },
-    {
-      "fixture_id": "401841240",
-      "status": "ready",
-      "minute": 43,
-      "score": {
-        "home": 0,
-        "away": 1
-      },
-      "home": "Corinthians",
-      "away": "Fluminense",
-      "league": "Brezilya Serie A",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T19:43:49.320Z",
-      "freshness_minutes": 0.01985,
+      "snapshot_recorded_at": "2026-09-20T21:51:14.540Z",
+      "freshness_minutes": 0.046516666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -528,51 +232,51 @@
         "code": "2",
         "label": "Deplasman yönü",
         "side": "away",
-        "strength": 73.31
+        "strength": 72.518
       },
       "next_goal_lean": {
         "code": "AWAY",
         "label": "Sonraki gol eğilimi: Deplasman",
         "side": "away",
-        "strength": 70.1
+        "strength": 67.82
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 14
+        "score": 6
       },
       "signals": [
-        "Team Power: Corinthians %35 · Fluminense %65.",
-        "Goal Power: Corinthians %8 · Fluminense %16.",
+        "Team Power: Londrina %23 · Fortaleza %77.",
+        "Goal Power: Londrina %2 · Fortaleza %7.",
         "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": -30,
-        "goal_power_diff": -8,
+        "team_power_diff": -54,
+        "goal_power_diff": -5,
         "momentum_diff": 0,
-        "shots_on_goal_diff": -1,
-        "total_shots_diff": -3,
-        "corners_diff": 3,
+        "shots_on_goal_diff": 0,
+        "total_shots_diff": -1,
+        "corners_diff": -2,
         "xg_diff": 0,
-        "direction_score": -25.9,
-        "next_goal_score": -18.1
+        "direction_score": -25.02,
+        "next_goal_score": -15.82
       }
     },
     {
-      "fixture_id": "401860349",
+      "fixture_id": "401878049",
       "status": "ready",
-      "minute": 43,
+      "minute": 45,
       "score": {
-        "home": 0,
-        "away": 1
+        "home": 1,
+        "away": 0
       },
-      "home": "Goiás",
-      "away": "Avaí",
-      "league": "Brezilya Serie B",
+      "home": "Atlético Bucaramanga",
+      "away": "Internacional de Bogotá",
+      "league": "Kolombiya Primera A Clausura",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T19:43:49.320Z",
-      "freshness_minutes": 0.01985,
+      "snapshot_recorded_at": "2026-09-20T21:51:14.540Z",
+      "freshness_minutes": 0.046516666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -610,36 +314,168 @@
         "code": null,
         "label": "Taraf için ayrışma yok",
         "side": "neutral",
-        "strength": 59.7
+        "strength": 54
       },
       "next_goal_lean": {
         "code": null,
         "label": "Sonraki gol için net ayrışma yok",
         "side": "neutral",
-        "strength": 56.3
+        "strength": 53.5
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 16
+        "score": 18
       },
       "signals": [
-        "Team Power: Goiás %50 · Avaí %50.",
-        "Goal Power: Goiás %17 · Avaí %17.",
+        "Team Power: Atlético Bucaramanga %50 · Internacional de Bogotá %50.",
+        "Goal Power: Atlético Bucaramanga %18 · Internacional de Bogotá %20.",
         "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
         "team_power_diff": 0,
-        "goal_power_diff": 0,
+        "goal_power_diff": -2,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 0,
-        "total_shots_diff": 3,
-        "corners_diff": 2,
+        "shots_on_goal_diff": -1,
+        "total_shots_diff": 0,
+        "corners_diff": -2,
         "xg_diff": 0,
-        "direction_score": -3.3,
-        "next_goal_score": 2.7
+        "direction_score": 9,
+        "next_goal_score": -5.5
       }
+    },
+    {
+      "fixture_id": "401921338",
+      "status": "ready",
+      "minute": 45,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "home": "Deportivo Cuenca",
+      "away": "Mushuc Runa",
+      "league": "Ekvador Pro Lig Küme Düşme Grubu",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-20T21:51:14.540Z",
+      "freshness_minutes": 0.046516666666666664,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "next_goal",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "confidence": 62
+      },
+      "result_lean": {
+        "code": null,
+        "label": "Taraf için ayrışma yok",
+        "side": "neutral",
+        "strength": 45.81999999999999
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 67.68
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 10
+      },
+      "signals": [
+        "Team Power: Deportivo Cuenca %63 · Mushuc Runa %37.",
+        "Goal Power: Deportivo Cuenca %12 · Mushuc Runa %7.",
+        "Maç yönü: Taraf için ayrışma yok. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 26,
+        "goal_power_diff": 5,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 1,
+        "total_shots_diff": 3,
+        "corners_diff": -1,
+        "xg_diff": 0,
+        "direction_score": 17.18,
+        "next_goal_score": 15.68
+      }
+    },
+    {
+      "fixture_id": "401903321",
+      "status": "insufficient_data",
+      "minute": 45,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "home": "Estudiantes de Mérida",
+      "away": "Trujillanos",
+      "league": "Venezuela Premier Lig Clausura",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-20T21:51:14.540Z",
+      "freshness_minutes": 0.046516666666666664,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": "power_signal_missing",
+      "primary_prediction": {
+        "type": "wait",
+        "label": "Veri yeterli değil · tahmin verilmedi",
+        "confidence": null
+      },
+      "result_lean": null,
+      "next_goal_lean": null,
+      "goal_pressure": null,
+      "signals": []
     }
   ]
 }
