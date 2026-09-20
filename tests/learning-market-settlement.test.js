@@ -8,13 +8,17 @@ const {
   apiFootballResults,
   applyResults,
   eligiblePrediction,
+  findResultForMatch,
   footballDataResults,
   requiresHalfTimeScore,
+  resultDatesForMatch,
   scoreText,
+  sofascoreResults,
 } = require("../scripts/update-final-scores");
 const {
   buildScoreIndexFromRows,
   findHalfTimeScore,
+  findScore,
   needsHalfTimeScore,
 } = require("../scripts/learning-score-linker");
 
@@ -88,6 +92,98 @@ const {
   assert.equal(footballDataRows.length, 1);
   assert.equal(footballDataRows[0].score, "3-2");
   assert.equal(footballDataRows[0].half_time_score, "1-1");
+})();
+
+(function testSofaScoreFinishedParsing() {
+  const timestamp = Math.floor(Date.parse("2026-09-19T18:00:00Z") / 1000);
+  const rows = sofascoreResults({
+    events: [{
+      id: 33,
+      status: { type: "finished", description: "Ended" },
+      startTimestamp: timestamp,
+      homeTeam: { name: "Home Club" },
+      awayTeam: { name: "Away Club" },
+      homeScore: { current: 2, normaltime: 2, period1: 1 },
+      awayScore: { current: 1, normaltime: 1, period1: 0 },
+    }, {
+      id: 34,
+      status: { type: "inprogress" },
+      startTimestamp: timestamp,
+      homeTeam: { name: "Live Home" },
+      awayTeam: { name: "Live Away" },
+      homeScore: { current: 1 },
+      awayScore: { current: 0 },
+    }],
+  });
+  assert.equal(rows.length, 1);
+  assert.equal(rows[0].date, "2026-09-19");
+  assert.equal(rows[0].score, "2-1");
+  assert.equal(rows[0].half_time_score, "1-0");
+  assert.equal(rows[0].source, "SofaScore");
+})();
+
+(function testDuplicateSourcesDoNotCreateFalseAmbiguity() {
+  const match = {
+    date: "2026-09-19",
+    time: "20:00",
+    home: "Dynamo Dresden",
+    away: "Hertha Berlin",
+  };
+  const duplicateResults = [
+    { date: "2026-09-19", home: "Dynamo Dresden", away: "Hertha Berlin", homeScore: 1, awayScore: 2, score: "1-2", source: "ESPN" },
+    { date: "2026-09-19", home: "Dynamo Dresden FC", away: "Hertha BSC Berlin", homeScore: 1, awayScore: 2, score: "1-2", source: "SofaScore" },
+  ];
+  const matched = findResultForMatch(match, duplicateResults);
+  assert.ok(matched, "same fixture from two sources with the same score must not be treated as ambiguous");
+  assert.equal(matched.result.score, "1-2");
+
+  const contradictory = [
+    duplicateResults[0],
+    { ...duplicateResults[1], homeScore: 2, awayScore: 2, score: "2-2" },
+  ];
+  assert.equal(findResultForMatch(match, contradictory), null, "conflicting duplicate scores must fail closed");
+})();
+
+(function testEarlyMorningDateRolloverIsNarrow() {
+  const early = {
+    date: "2026-09-18",
+    time: "03:15",
+    home: "Racing Club",
+    away: "Sarmiento",
+  };
+  const daytime = { ...early, time: "12:00" };
+  assert.deepEqual(resultDatesForMatch(early), ["2026-09-18", "2026-09-19"]);
+  assert.deepEqual(resultDatesForMatch(daytime), ["2026-09-18"]);
+
+  const result = {
+    date: "2026-09-19",
+    home: "Racing Club",
+    away: "Sarmiento",
+    homeScore: 3,
+    awayScore: 1,
+    score: "3-1",
+    status: "finished",
+  };
+  assert.equal(findResultForMatch(early, [result])?.result?.score, "3-1");
+  assert.equal(findResultForMatch(daytime, [result]), null);
+})();
+
+(function testLearningLinkerUsesEarlyMorningNextDayExactKey() {
+  const index = buildScoreIndexFromRows([{
+    date: "2026-09-19",
+    home: "Puebla",
+    away: "Toluca",
+    score: "0-1",
+  }]);
+  const earlyPrediction = {
+    date: "2026-09-18",
+    time: "04:00",
+    home: "Puebla",
+    away: "Toluca",
+    market: "2.5 Alt",
+  };
+  assert.equal(findScore(earlyPrediction, index), "0-1");
+  assert.equal(findScore({ ...earlyPrediction, time: "12:00" }, index), "");
 })();
 
 (function testBlankScoreIsNotInventedAsZeroZero() {
