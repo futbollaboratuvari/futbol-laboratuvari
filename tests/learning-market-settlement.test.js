@@ -8,6 +8,7 @@ const {
   apiFootballResults,
   applyPredictionResults,
   applyResults,
+  datesToCheck,
   eligiblePrediction,
   footballDataResults,
   espnResults,
@@ -385,6 +386,48 @@ const {
   assert.equal(index.halfTimeScoreCount, 1);
   assert.equal(findHalfTimeScore(row, index), "1-0");
   assert.equal(needsHalfTimeScore({ market: "İY/MS 1/2" }), true);
+})();
+
+
+(function testResultDateSchedulerDoesNotStarveNewerDates() {
+  const now = new Date("2026-09-20T12:00:00+03:00");
+  const memory = {
+    predictions: [
+      { status: "pending", date: "2026-09-15", time: "20:00", market: "2.5 Alt" },
+      { status: "pending", date: "2026-09-16", time: "20:00", market: "2.5 Alt" },
+      { status: "pending", date: "2026-09-17", time: "20:00", market: "2.5 Alt" },
+      { status: "pending", date: "2026-09-18", time: "20:00", market: "2.5 Alt" },
+      { status: "pending", date: "2026-09-19", time: "20:00", market: "2.5 Alt" },
+    ],
+  };
+  const previousStatus = {
+    date_checks: {
+      "2026-09-15": { last_success_at: "2026-09-20T07:00:00.000Z", error_count: 0 },
+      "2026-09-16": { last_success_at: "2026-09-20T06:00:00.000Z", error_count: 0 },
+      "2026-09-17": { last_success_at: "2026-09-20T05:00:00.000Z", error_count: 0 },
+      "2026-09-18": { last_success_at: "2026-09-20T04:00:00.000Z", error_count: 0 },
+      "2026-09-19": { last_success_at: "2026-09-20T03:00:00.000Z", error_count: 0 },
+    },
+  };
+  const selected = datesToCheck(memory, previousStatus, now);
+  assert.deepEqual(selected.slice(0, 5), ["2026-09-19", "2026-09-18", "2026-09-17", "2026-09-16", "2026-09-15"]);
+})();
+
+(function testResultDateSchedulerPrioritizesErroredDate() {
+  const now = new Date("2026-09-20T12:00:00+03:00");
+  const memory = {
+    predictions: [
+      { status: "pending", date: "2026-09-18", time: "20:00", market: "MS 1" },
+      { status: "pending", date: "2026-09-19", time: "20:00", market: "MS 2" },
+    ],
+  };
+  const previousStatus = {
+    date_checks: {
+      "2026-09-18": { last_success_at: "2026-09-20T03:00:00.000Z", error_count: 0 },
+      "2026-09-19": { last_success_at: "2026-09-20T08:59:00.000Z", error_count: 1 },
+    },
+  };
+  assert.equal(datesToCheck(memory, previousStatus, now)[0], "2026-09-19");
 })();
 
 console.log("learning-market-settlement.test.js OK");

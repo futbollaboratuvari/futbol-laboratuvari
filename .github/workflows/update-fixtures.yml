@@ -128,6 +128,14 @@ jobs:
         continue-on-error: true
         run: node scripts/update-match-archive.js
 
+      - name: Refresh settled learning before new scoring
+        run: |
+          node tests/learning-market-settlement.test.js
+          node scripts/update-final-scores.js
+          node scripts/learning-score-linker.js
+          node scripts/learning-finalizer.js
+          node scripts/prediction-measurement-health-check.js
+
       - name: Build diagnostic raw market blocks
         continue-on-error: true
         run: node scripts/raw-block-lite.js
