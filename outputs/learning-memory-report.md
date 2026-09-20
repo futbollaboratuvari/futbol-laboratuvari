@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.09.2026 15:03:13
+Oluşturma: 20.09.2026 15:20:52
 
 ## Özet
 
-- Toplam tahmin: 2292
-- Bekleyen tahmin: 1743
+- Toplam tahmin: 2309
+- Bekleyen tahmin: 1760
 - Kazanan tahmin: 291
 - Kaybeden tahmin: 258
 - Lig sayısı: 344
@@ -22,17 +22,17 @@ Oluşturma: 20.09.2026 15:03:13
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 318, bekleyen 271, başarı %60, düz getiri %13, ağırlık 1
-- KG Var: toplam 150, bekleyen 94, başarı %57, düz getiri %2, ağırlık 1
+- MS 2: toplam 322, bekleyen 275, başarı %60, düz getiri %13, ağırlık 1
+- KG Var: toplam 155, bekleyen 99, başarı %57, düz getiri %2, ağırlık 1
 - 2.5 Üst: toplam 248, bekleyen 164, başarı %55, düz getiri %-4, ağırlık 1
-- MS 1: toplam 608, bekleyen 464, başarı %53, düz getiri %-14, ağırlık 1
+- MS 1: toplam 611, bekleyen 467, başarı %53, düz getiri %-14, ağırlık 1
 - 3.5 Üst: toplam 63, bekleyen 42, başarı %52, düz getiri %5, ağırlık 1
 - 2.5 Alt: toplam 707, bekleyen 544, başarı %51, düz getiri %-14, ağırlık 1
-- KG Yok: toplam 121, bekleyen 93, başarı %46, düz getiri %-22, ağırlık 1
+- KG Yok: toplam 122, bekleyen 94, başarı %46, düz getiri %-22, ağırlık 1
 - MS X: toplam 18, bekleyen 12, başarı %33, düz getiri %-15, ağırlık 1
-- İlk Yarı KG Yok: toplam 4, bekleyen 4, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- İY KG / 2Y KG Hayır / Hayır: toplam 11, bekleyen 11, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- İkinci Yarı KG Yok: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- İlk Yarı KG Yok: toplam 5, bekleyen 5, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- İkinci Yarı KG Yok: toplam 8, bekleyen 8, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- İY KG / 2Y KG Hayır / Hayır: toplam 13, bekleyen 13, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İlk Yarı KG Var: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
@@ -46,10 +46,10 @@ Oluşturma: 20.09.2026 15:03:13
 - 2026-09-20 | Kolombiya Primera A Clausura | Deportes Tolim - America De Cali | 2.5 Alt | pending | 65/100
 - 2026-09-20 | Ekvador Pro Lig Şampiyonluk Grubu | Ldu Quito - Univ Catolica ( | 2.5 Üst | pending | 72/100
 - 2026-09-20 | El Salvador Primera Lig Apertura | Firpo - Balboa | KG Yok | pending | 72/100
+- 2026-09-20 | Meksika Primera Ligi, Açılış | Queretaro - Club Leon | 2.5 Üst | pending | 62/100
+- 2026-09-20 | Kosta Rika Primera Lig, Açılış | Ad San Carlos - Cs Cartagines | 2.5 Alt | pending | 67/100
 - 2026-09-20 | Meksika Kadınlar Liga MX Apertura | Atletico San L - Pachuca (K) | MS 2 | pending | 54/100
 - 2026-09-20 | Nikaragua Premier Lig Apertura | Rancho Santana - Managua | MS 2 | pending | 55/100
 - 2026-09-20 | ABD USL | Sacramento Rep - San Antonio | 2.5 Alt | pending | 64/100
 - 2026-09-20 | Guatemala Ulusal Lig Apertura | Suchitepequez - Xelaju | KG Var | pending | 74/100
-- 2026-09-20 | ABD USL Lig 1 | Spokane Veloci - Athletic Club B | MS 1 | pending | 44/100
-- 2026-09-20 | Kosta Rika Premier Lig Apertura | Alajuelense - Inter San Carlo | MS 1 | pending | 60/100
 

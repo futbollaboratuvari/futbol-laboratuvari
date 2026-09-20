@@ -2,46 +2,15 @@
 
 Gunler: 2026-09-20 / 2026-09-21
 Kaynak: fixtures.json
-Ham mac: 650
-Aktif mac: 441
+Ham mac: 651
+Aktif mac: 411
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 209
-Bugun: 398
+Bultenden dusurulen mac: 240
+Bugun: 368
 Yarin: 43
 
 ## Baslamamis Maclar
-- 2026-09-20 15:00 | İspanya LaLiga | Getafe - Malaga | scheduled | -
-- 2026-09-20 15:00 | İspanya 2.Lig | Sabadell - Oviedo | scheduled | -
-- 2026-09-20 15:00 | Danimarka Süperlig | Sonderjyske - Randers | scheduled | -
-- 2026-09-20 15:00 | Danimarka Süperlig | Brondby - Kopenhag | scheduled | -
-- 2026-09-20 15:00 | İsveç Allsvenskan | Kalmar - Hacken | scheduled | -
-- 2026-09-20 15:00 | İsveç Allsvenskan | Djurgarden - Elfsborg | scheduled | -
-- 2026-09-20 15:00 | İsveç Allsvenskan | Halmstads - Aik Stockholm | scheduled | -
-- 2026-09-20 15:00 | İsviçre Süper Lig | Vaduz - Thun | scheduled | -
-- 2026-09-20 15:00 | Danimarka 1.Lig | Aalborg - Vendsyssel | scheduled | -
-- 2026-09-20 15:00 | Belarus Premier Lig | Baranovichi - Gomel | scheduled | -
-- 2026-09-20 15:00 | İsviçre Challenge Lig | Yverdon - Stade Ouchy | scheduled | -
-- 2026-09-20 15:00 | Norveç 2.Lig Grup 2 | Grorud Il - Kjelsas | scheduled | -
-- 2026-09-20 15:00 | Endonezya Süper Lig | Persijap - Persib | scheduled | -
-- 2026-09-20 15:00 | Tayland 1.Lig | Bangkok United - Bg Pathum Unite | scheduled | -
-- 2026-09-20 15:00 | Andorra 1.Lig | Esperança Dand - Fc Ordino | scheduled | -
-- 2026-09-20 15:00 | Almanya Bölgesel Lig Kuzey | Norderstedt - Werder Bremen ( | scheduled | -
-- 2026-09-20 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Carl Zeiss Jen - Leipzig | scheduled | -
-- 2026-09-20 15:00 | Almanya Kadınlar Bundesliga | Hamburger Sv ( - Nürnberg (K) | scheduled | -
-- 2026-09-20 15:00 | Norveç 3.Lig Grup 5 | Lillestrom Sk - Fauske/Sprint | scheduled | -
-- 2026-09-20 15:00 | Litvanya 1.Lig | Zalgiris Ii - Babrungas | scheduled | -
-- 2026-09-20 15:00 | Hırvatistan 2.HNL | Kustosija - Croatia Zmijavc | scheduled | -
-- 2026-09-20 15:00 | İsveç Kadınlar Damallsvenskan | Kristianstad ( - Pitea (K) | scheduled | -
-- 2026-09-20 15:00 | Tayland 2.Lig | Uttaradit - Chanthaburi | scheduled | -
-- 2026-09-20 15:00 | Almanya Bölgesel Lig Kuzey | Atlas Delmenho - Eimsbutteler | scheduled | -
-- 2026-09-20 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Greifswalder S - Luckenwalde | scheduled | -
-- 2026-09-20 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Bfc Dynamo - Magdeburg Ii | scheduled | -
-- 2026-09-20 15:00 | Türkiye 3.Lig 3.Grup | Ağri 1970 Spor - Yeni Mersin İ. | scheduled | -
-- 2026-09-20 15:00 | Türkiye 3.Lig 3.Grup | Bitlis Özgüzel - Kırşehir Fsk | scheduled | -
-- 2026-09-20 15:15 | Bulgaristan 1.Lig | Spartak Varna - Lokomotiv Sofia | scheduled | -
-- 2026-09-20 15:15 | Vietnam Kupa 1.Tur | Ha Noi T&T - Da Nang | scheduled | -
-- 2026-09-20 15:15 | Özbekistan Super League | Andijon - Nasaf Qarshi | scheduled | -
 - 2026-09-20 15:30 | Hollanda Eredivisie | Az Alkmaar - Telstar | scheduled | -
 - 2026-09-20 15:30 | Hollanda Eredivisie | Twente - Psv Eindhoven | scheduled | -
 - 2026-09-20 15:30 | İngiltere Championship | Norwich - Bolton | scheduled | -
@@ -287,6 +256,7 @@ Yarin: 43
 - 2026-09-20 19:00 | İspanya Gençler Onur Ligi Grup 3 | Sant Andreu U1 - Valle De Arangu | scheduled | -
 - 2026-09-20 19:00 | Türkiye 3.Lig 2.Grup | Altay - Gemlik Sümerbey | scheduled | -
 - 2026-09-20 19:00 | Türkiye 3.Lig 2.Grup | Gaziemir Sk - Denizli İy 1959 | scheduled | -
+- 2026-09-20 19:00 | İspanya Gençler Onur Ligi Grup 4 | Alhendín U19 - Tomares U18 | scheduled | -
 - 2026-09-20 19:15 | Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru | Al Dhafra - Banniyas | scheduled | -
 - 2026-09-20 19:15 | Birleşik Arap Emirlikleri Lig Kupası Ön ElemeTuru | Al Jazira - Al Wahda | scheduled | -
 - 2026-09-20 19:15 | İspanya Primera Lig RFEF Grup 1 | Zamora - Lugo | scheduled | -

@@ -1,1795 +1,30 @@
 {
   "schema_version": 1,
   "version": "pre-match-final-check-v1",
-  "generated_at": "2026-09-20T11:59:03.327Z",
+  "generated_at": "2026-09-20T12:17:13.932Z",
   "policy": "T60/T30/T10 kontrolü yalnız doğrulanmış isimli market oranı, kadro/ilk 11 ve kaynak uzlaşısını kullanır. Tahmini raw market kullanılmaz. Olasılık yüzdesi doğrudan değiştirilmez; yalnız risk, model gücü ve kupon uygunluğu frenlenir.",
-  "active_match_count": 104,
+  "active_match_count": 76,
   "blocked_match_count": 0,
-  "downgraded_match_count": 102,
+  "downgraded_match_count": 75,
   "matches": [
-    {
-      "match_name": "Getafe VS Malaga",
-      "home": "Getafe",
-      "away": "Malaga",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "2.5 Alt",
-      "tracked_market_key": "under25",
-      "current_odd": 1.45,
-      "current_odd_source": "verified_named_field:under25",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 15,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 0.7,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (15/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış under25 oran hareketi sınırlı (%0.7)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 1.44,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 15
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 1.45,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 15
-        }
-      }
-    },
-    {
-      "match_name": "Sabadell VS Oviedo",
-      "home": "Sabadell",
-      "away": "Oviedo",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "2.5 Alt",
-      "tracked_market_key": "under25",
-      "current_odd": 1.37,
-      "current_odd_source": "verified_named_field:under25",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 15,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (15/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "KG Yok",
-          "tracked_market_key": "bttsNo",
-          "odd": 1.57,
-          "odd_source": "verified_named_field:bttsNo",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 15
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 1.37,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 15
-        }
-      }
-    },
-    {
-      "match_name": "Sonderjyske VS Randers",
-      "home": "Sonderjyske",
-      "away": "Randers",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "2.5 Alt",
-      "tracked_market_key": "under25",
-      "current_odd": 2.07,
-      "current_odd_source": "verified_named_field:under25",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 15,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 0,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (15/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 2.07,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 15
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 2.07,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 15
-        }
-      }
-    },
-    {
-      "match_name": "Brondby VS Kopenhag",
-      "home": "Brondby",
-      "away": "Kopenhag",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "2.5 Alt",
-      "tracked_market_key": "under25",
-      "current_odd": 2.02,
-      "current_odd_source": "verified_named_field:under25",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 0,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 2.02,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 2.02,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Kalmar VS Hacken",
-      "home": "Kalmar",
-      "away": "Hacken",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "2.5 Alt",
-      "tracked_market_key": "under25",
-      "current_odd": 2.01,
-      "current_odd_source": "verified_named_field:under25",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19,
-      "source_conflict_level": "none",
-      "source_confidence_score": 15,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 0,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (15/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 2.01,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 15
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 2.01,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 15
-        }
-      }
-    },
-    {
-      "match_name": "Djurgarden VS Elfsborg",
-      "home": "Djurgarden",
-      "away": "Elfsborg",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "KG Yok",
-      "tracked_market_key": "bttsNo",
-      "current_odd": 2,
-      "current_odd_source": "verified_named_field:bttsNo",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 0,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış bttsNo oran hareketi sınırlı (%0.0)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "KG Yok",
-          "tracked_market_key": "bttsNo",
-          "odd": 2,
-          "odd_source": "verified_named_field:bttsNo",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "KG Yok",
-          "tracked_market_key": "bttsNo",
-          "odd": 2,
-          "odd_source": "verified_named_field:bttsNo",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Halmstads VS Aik Stockholm",
-      "home": "Halmstads",
-      "away": "Aik Stockholm",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "MS 2",
-      "tracked_market_key": "ms2",
-      "current_odd": 1.75,
-      "current_odd_source": "verified_named_field:ms2",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 0,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış ms2 oran hareketi sınırlı (%0.0)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "MS 2",
-          "tracked_market_key": "ms2",
-          "odd": 1.75,
-          "odd_source": "verified_named_field:ms2",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "MS 2",
-          "tracked_market_key": "ms2",
-          "odd": 1.75,
-          "odd_source": "verified_named_field:ms2",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Vaduz VS Thun",
-      "home": "Vaduz",
-      "away": "Thun",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "MS 1",
-      "tracked_market_key": "ms1",
-      "current_odd": 2.31,
-      "current_odd_source": "verified_named_field:ms1",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.2,
-      "source_conflict_level": "none",
-      "source_confidence_score": 15,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 5,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (15/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış ms1 oran hareketi sınırlı (%5.0)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "MS 1",
-          "tracked_market_key": "ms1",
-          "odd": 2.2,
-          "odd_source": "verified_named_field:ms1",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "MS 1",
-          "tracked_market_key": "ms1",
-          "odd": 2.31,
-          "odd_source": "verified_named_field:ms1",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 15
-        }
-      }
-    },
-    {
-      "match_name": "Aalborg VS Vendsyssel",
-      "home": "Aalborg",
-      "away": "Vendsyssel",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "2.5 Üst",
-      "tracked_market_key": "over25",
-      "current_odd": 1.67,
-      "current_odd_source": "verified_named_field:over25",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 0,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış over25 oran hareketi sınırlı (%0.0)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "2.5 Üst",
-          "tracked_market_key": "over25",
-          "odd": 1.67,
-          "odd_source": "verified_named_field:over25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "2.5 Üst",
-          "tracked_market_key": "over25",
-          "odd": 1.67,
-          "odd_source": "verified_named_field:over25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Baranovichi VS Gomel",
-      "home": "Baranovichi",
-      "away": "Gomel",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "2.5 Alt",
-      "tracked_market_key": "under25",
-      "current_odd": 1.57,
-      "current_odd_source": "verified_named_field:under25",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 0,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 1.57,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 1.57,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Yverdon VS Stade Ouchy",
-      "home": "Yverdon",
-      "away": "Stade Ouchy",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "2.5 Alt",
-      "tracked_market_key": "under25",
-      "current_odd": 1.99,
-      "current_odd_source": "verified_named_field:under25",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 1.5,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış under25 oran hareketi sınırlı (%1.5)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 1.96,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 1.99,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Grorud Il VS Kjelsas",
-      "home": "Grorud Il",
-      "away": "Kjelsas",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "3.5 Üst",
-      "tracked_market_key": "over35",
-      "current_odd": 1.95,
-      "current_odd_source": "verified_named_field:over35",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.2,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 2.1,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış over35 oran hareketi sınırlı (%2.1)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "3.5 Üst",
-          "tracked_market_key": "over35",
-          "odd": 1.91,
-          "odd_source": "verified_named_field:over35",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "3.5 Üst",
-          "tracked_market_key": "over35",
-          "odd": 1.95,
-          "odd_source": "verified_named_field:over35",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Persijap VS Persib",
-      "home": "Persijap",
-      "away": "Persib",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "MS 2",
-      "tracked_market_key": "ms2",
-      "current_odd": 1.28,
-      "current_odd_source": "verified_named_field:ms2",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 15,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 0,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (15/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış ms2 oran hareketi sınırlı (%0.0)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "MS 2",
-          "tracked_market_key": "ms2",
-          "odd": 1.28,
-          "odd_source": "verified_named_field:ms2",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 15
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "MS 2",
-          "tracked_market_key": "ms2",
-          "odd": 1.28,
-          "odd_source": "verified_named_field:ms2",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 15
-        }
-      }
-    },
-    {
-      "match_name": "Bangkok United VS Bg Pathum Unite",
-      "home": "Bangkok United",
-      "away": "Bg Pathum Unite",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "2.5 Üst",
-      "tracked_market_key": "over25",
-      "current_odd": 1.77,
-      "current_odd_source": "verified_named_field:over25",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 1.7,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış over25 oran hareketi sınırlı (%1.7)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "2.5 Üst",
-          "tracked_market_key": "over25",
-          "odd": 1.74,
-          "odd_source": "verified_named_field:over25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "2.5 Üst",
-          "tracked_market_key": "over25",
-          "odd": 1.77,
-          "odd_source": "verified_named_field:over25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Esperança Dand VS Fc Ordino",
-      "home": "Esperança Dand",
-      "away": "Fc Ordino",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "2.5 Üst",
-      "tracked_market_key": "over25",
-      "current_odd": 1.69,
-      "current_odd_source": "verified_named_field:over25",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 1.65,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "2.5 Üst",
-          "tracked_market_key": "over25",
-          "odd": 1.69,
-          "odd_source": "verified_named_field:over25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Norderstedt VS Werder Bremen (",
-      "home": "Norderstedt",
-      "away": "Werder Bremen (",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "MS 2",
-      "tracked_market_key": "ms2",
-      "current_odd": 1.77,
-      "current_odd_source": "verified_named_field:ms2",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "MS 1",
-          "tracked_market_key": "ms1",
-          "odd": 3.09,
-          "odd_source": "verified_named_field:ms1",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "MS 2",
-          "tracked_market_key": "ms2",
-          "odd": 1.77,
-          "odd_source": "verified_named_field:ms2",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Carl Zeiss Jen VS Leipzig",
-      "home": "Carl Zeiss Jen",
-      "away": "Leipzig",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "MS 1",
-      "tracked_market_key": "ms1",
-      "current_odd": 1.77,
-      "current_odd_source": "verified_named_field:ms1",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "2.5 Üst",
-          "tracked_market_key": "over25",
-          "odd": 1.57,
-          "odd_source": "verified_named_field:over25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "MS 1",
-          "tracked_market_key": "ms1",
-          "odd": 1.77,
-          "odd_source": "verified_named_field:ms1",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Hamburger Sv ( VS Nürnberg (K)",
-      "home": "Hamburger Sv (",
-      "away": "Nürnberg (K)",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "MS 2",
-      "tracked_market_key": "ms2",
-      "current_odd": 1.93,
-      "current_odd_source": "verified_named_field:ms2",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 0,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış ms2 oran hareketi sınırlı (%0.0)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "MS 2",
-          "tracked_market_key": "ms2",
-          "odd": 1.93,
-          "odd_source": "verified_named_field:ms2",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "MS 2",
-          "tracked_market_key": "ms2",
-          "odd": 1.93,
-          "odd_source": "verified_named_field:ms2",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Lillestrom Sk VS Fauske/Sprint",
-      "home": "Lillestrom Sk",
-      "away": "Fauske/Sprint",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "İlk Yarı KG Yok",
-      "tracked_market_key": "firstHalfBttsNo",
-      "current_odd": 1.7,
-      "current_odd_source": "verified_named_field:firstHalfBttsNo",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.2,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "MS 1",
-          "tracked_market_key": "ms1",
-          "odd": 1.21,
-          "odd_source": "verified_named_field:ms1",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "İlk Yarı KG Yok",
-          "tracked_market_key": "firstHalfBttsNo",
-          "odd": 1.7,
-          "odd_source": "verified_named_field:firstHalfBttsNo",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Zalgiris Ii VS Babrungas",
-      "home": "Zalgiris Ii",
-      "away": "Babrungas",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "MS 2",
-      "tracked_market_key": "ms2",
-      "current_odd": 1.51,
-      "current_odd_source": "verified_named_field:ms2",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.2,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 4.9,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış ms2 oran hareketi sınırlı (%4.9)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "MS 2",
-          "tracked_market_key": "ms2",
-          "odd": 1.44,
-          "odd_source": "verified_named_field:ms2",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "MS 2",
-          "tracked_market_key": "ms2",
-          "odd": 1.51,
-          "odd_source": "verified_named_field:ms2",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Kustosija VS Croatia Zmijavc",
-      "home": "Kustosija",
-      "away": "Croatia Zmijavc",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "2.5 Alt",
-      "tracked_market_key": "under25",
-      "current_odd": 1.48,
-      "current_odd_source": "verified_named_field:under25",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 0,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 1.48,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 1.48,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Kristianstad ( VS Pitea (K)",
-      "home": "Kristianstad (",
-      "away": "Pitea (K)",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "MS 1",
-      "tracked_market_key": "ms1",
-      "current_odd": 1.62,
-      "current_odd_source": "verified_named_field:ms1",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": -5.3,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış ms1 oran hareketi sınırlı (%-5.3)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "MS 1",
-          "tracked_market_key": "ms1",
-          "odd": 1.71,
-          "odd_source": "verified_named_field:ms1",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "MS 1",
-          "tracked_market_key": "ms1",
-          "odd": 1.62,
-          "odd_source": "verified_named_field:ms1",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Uttaradit VS Chanthaburi",
-      "home": "Uttaradit",
-      "away": "Chanthaburi",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "KG Var",
-      "tracked_market_key": "bttsYes",
-      "current_odd": 1.64,
-      "current_odd_source": "verified_named_field:bttsYes",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": -0.6,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Doğrulanmış bttsYes oran hareketi sınırlı (%-0.6)."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "KG Var",
-          "tracked_market_key": "bttsYes",
-          "odd": 1.65,
-          "odd_source": "verified_named_field:bttsYes",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "KG Var",
-          "tracked_market_key": "bttsYes",
-          "odd": 1.64,
-          "odd_source": "verified_named_field:bttsYes",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Atlas Delmenho VS Eimsbutteler",
-      "home": "Atlas Delmenho",
-      "away": "Eimsbutteler",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "MS 1",
-      "tracked_market_key": "ms1",
-      "current_odd": 1.68,
-      "current_odd_source": "verified_named_field:ms1",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": null,
-          "tracked_market_key": null,
-          "odd": null,
-          "odd_source": null,
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "MS 1",
-          "tracked_market_key": "ms1",
-          "odd": 1.68,
-          "odd_source": "verified_named_field:ms1",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Greifswalder S VS Luckenwalde",
-      "home": "Greifswalder S",
-      "away": "Luckenwalde",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "MS 1",
-      "tracked_market_key": "ms1",
-      "current_odd": 1.73,
-      "current_odd_source": "verified_named_field:ms1",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": null,
-          "tracked_market_key": null,
-          "odd": null,
-          "odd_source": null,
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "MS 1",
-          "tracked_market_key": "ms1",
-          "odd": 1.73,
-          "odd_source": "verified_named_field:ms1",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Bfc Dynamo VS Magdeburg Ii",
-      "home": "Bfc Dynamo",
-      "away": "Magdeburg Ii",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": "MS 1",
-      "tracked_market_key": "ms1",
-      "current_odd": 2,
-      "current_odd_source": "verified_named_field:ms1",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 19.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": null,
-          "tracked_market_key": null,
-          "odd": null,
-          "odd_source": null,
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "MS 1",
-          "tracked_market_key": "ms1",
-          "odd": 2,
-          "odd_source": "verified_named_field:ms1",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Ağri 1970 Spor VS Yeni Mersin İ.",
-      "home": "Ağri 1970 Spor",
-      "away": "Yeni Mersin İ.",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": null,
-      "tracked_market_key": null,
-      "current_odd": null,
-      "current_odd_source": null,
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": null,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
-      "reasons": [
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
-      ],
-      "snapshots": {
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": null,
-          "tracked_market_key": null,
-          "odd": null,
-          "odd_source": null,
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": null
-        }
-      }
-    },
-    {
-      "match_name": "Bitlis Özgüzel VS Kırşehir Fsk",
-      "home": "Bitlis Özgüzel",
-      "away": "Kırşehir Fsk",
-      "date": "2026-09-20",
-      "start_time": "15:00",
-      "minutes_to_kickoff": 0.9,
-      "checkpoint": "T10",
-      "active": true,
-      "tracked_market": null,
-      "tracked_market_key": null,
-      "current_odd": null,
-      "current_odd_source": null,
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
-      ],
-      "snapshots": {
-        "T10": {
-          "checkpoint": "T10",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": null,
-          "tracked_market_key": null,
-          "odd": null,
-          "odd_source": null,
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Spartak Varna VS Lokomotiv Sofia",
-      "home": "Spartak Varna",
-      "away": "Lokomotiv Sofia",
-      "date": "2026-09-20",
-      "start_time": "15:15",
-      "minutes_to_kickoff": 15.9,
-      "checkpoint": "T30",
-      "active": true,
-      "tracked_market": "2.5 Alt",
-      "tracked_market_key": "under25",
-      "current_odd": 1.87,
-      "current_odd_source": "verified_named_field:under25",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 15,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (15/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 1.86,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Ha Noi T&T VS Da Nang",
-      "home": "Ha Noi T&T",
-      "away": "Da Nang",
-      "date": "2026-09-20",
-      "start_time": "15:15",
-      "minutes_to_kickoff": 15.9,
-      "checkpoint": "T30",
-      "active": true,
-      "tracked_market": "MS 1",
-      "tracked_market_key": "ms1",
-      "current_odd": 1.66,
-      "current_odd_source": "verified_named_field:ms1",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "MS 1",
-          "tracked_market_key": "ms1",
-          "odd": 1.66,
-          "odd_source": "verified_named_field:ms1",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Andijon VS Nasaf Qarshi",
-      "home": "Andijon",
-      "away": "Nasaf Qarshi",
-      "date": "2026-09-20",
-      "start_time": "15:15",
-      "minutes_to_kickoff": 15.9,
-      "checkpoint": "T30",
-      "active": true,
-      "tracked_market": "2.5 Alt",
-      "tracked_market_key": "under25",
-      "current_odd": 1.55,
-      "current_odd_source": "verified_named_field:under25",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
-      ],
-      "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "2.5 Alt",
-          "tracked_market_key": "under25",
-          "odd": 1.55,
-          "odd_source": "verified_named_field:under25",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
     {
       "match_name": "Az Alkmaar VS Telstar",
       "home": "Az Alkmaar",
       "away": "Telstar",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "KG Yok",
       "tracked_market_key": "bttsNo",
-      "current_odd": 2.19,
+      "current_odd": 2.08,
       "current_odd_source": "verified_named_field:bttsNo",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": 18.3,
       "source_conflict_level": "none",
       "source_confidence_score": 15,
       "general_decision": "downgrade",
@@ -1798,10 +33,11 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": -1.4,
+      "relative_odd_change_percent": -5,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (15/100).",
-        "Doğrulanmış bttsNo oran hareketi sınırlı (%-1.4)."
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
+        "Doğrulanmış bttsNo oran hareketi sınırlı (%-5.0)."
       ],
       "snapshots": {
         "T60": {
@@ -1827,6 +63,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 15
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "KG Yok",
+          "tracked_market_key": "bttsNo",
+          "odd": 2.08,
+          "odd_source": "verified_named_field:bttsNo",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 15
         }
       }
     },
@@ -1836,8 +84,8 @@
       "away": "Psv Eindhoven",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "İlk Yarı KG Yok",
       "tracked_market_key": "firstHalfBttsNo",
@@ -1847,7 +95,7 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": 18.3,
       "source_conflict_level": "none",
       "source_confidence_score": 15,
       "general_decision": "downgrade",
@@ -1859,6 +107,7 @@
       "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (15/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
         "Doğrulanmış firstHalfBttsNo oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
@@ -1885,6 +134,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 15
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "İlk Yarı KG Yok",
+          "tracked_market_key": "firstHalfBttsNo",
+          "odd": 1.35,
+          "odd_source": "verified_named_field:firstHalfBttsNo",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 15
         }
       }
     },
@@ -1894,8 +155,8 @@
       "away": "Bolton",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
@@ -1905,7 +166,7 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": 18.3,
       "source_conflict_level": "none",
       "source_confidence_score": 15,
       "general_decision": "downgrade",
@@ -1917,6 +178,7 @@
       "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (15/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
         "Doğrulanmış ms1 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
@@ -1943,6 +205,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 15
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.3,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 15
         }
       }
     },
@@ -1952,18 +226,18 @@
       "away": "Wolfsberger",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
-      "current_odd": 1.77,
+      "current_odd": 1.81,
       "current_odd_source": "verified_named_field:ms1",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": 18.3,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -1972,10 +246,11 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": -6.3,
+      "relative_odd_change_percent": 2.3,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Doğrulanmış ms1 oran hareketi sınırlı (%-6.3)."
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
+        "Doğrulanmış ms1 oran hareketi sınırlı (%2.3)."
       ],
       "snapshots": {
         "T60": {
@@ -2001,6 +276,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.81,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -2010,18 +297,18 @@
       "away": "Lask Linz",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
-      "tracked_market": "KG Var",
-      "tracked_market_key": "bttsYes",
-      "current_odd": 1.57,
-      "current_odd_source": "verified_named_field:bttsYes",
+      "tracked_market": "MS 2",
+      "tracked_market_key": "ms2",
+      "current_odd": 1.27,
+      "current_odd_source": "verified_named_field:ms2",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": 18.3,
       "source_conflict_level": "none",
       "source_confidence_score": 15,
       "general_decision": "downgrade",
@@ -2030,10 +317,11 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": -2.5,
+      "relative_odd_change_percent": null,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (15/100).",
-        "Doğrulanmış bttsYes oran hareketi sınırlı (%-2.5)."
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
+        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
       ],
       "snapshots": {
         "T60": {
@@ -2059,6 +347,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 15
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 1.27,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 15
         }
       }
     },
@@ -2068,8 +368,8 @@
       "away": "Fredrikstad",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "3.5 Üst",
       "tracked_market_key": "over35",
@@ -2079,7 +379,7 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -2091,6 +391,7 @@
       "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
         "Doğrulanmış over35 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
@@ -2117,6 +418,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "3.5 Üst",
+          "tracked_market_key": "over35",
+          "odd": 2.12,
+          "odd_source": "verified_named_field:over35",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -2126,18 +439,18 @@
       "away": "Veres Rivne",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
-      "current_odd": 1.36,
+      "current_odd": 1.34,
       "current_odd_source": "verified_named_field:ms1",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -2146,10 +459,11 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": 0,
+      "relative_odd_change_percent": -1.5,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Doğrulanmış ms1 oran hareketi sınırlı (%0.0)."
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
+        "Doğrulanmış ms1 oran hareketi sınırlı (%-1.5)."
       ],
       "snapshots": {
         "T60": {
@@ -2175,6 +489,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.34,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -2184,8 +510,8 @@
       "away": "Araz",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -2195,7 +521,7 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": 18.3,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -2207,6 +533,7 @@
       "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
         "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
@@ -2233,6 +560,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.55,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -2242,8 +581,8 @@
       "away": "Cittadella",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "KG Var",
       "tracked_market_key": "bttsYes",
@@ -2253,7 +592,7 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -2265,6 +604,7 @@
       "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
         "Doğrulanmış bttsYes oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
@@ -2291,6 +631,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "KG Var",
+          "tracked_market_key": "bttsYes",
+          "odd": 1.64,
+          "odd_source": "verified_named_field:bttsYes",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -2300,8 +652,8 @@
       "away": "Athletic Carpi",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -2311,7 +663,7 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": 18.3,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -2323,6 +675,7 @@
       "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
         "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
@@ -2349,6 +702,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.57,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -2358,18 +723,18 @@
       "away": "Pescara",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "2.5 Üst",
       "tracked_market_key": "over25",
-      "current_odd": 1.59,
+      "current_odd": 1.56,
       "current_odd_source": "verified_named_field:over25",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -2378,10 +743,11 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": -2.5,
+      "relative_odd_change_percent": -1.9,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Doğrulanmış over25 oran hareketi sınırlı (%-2.5)."
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
+        "Doğrulanmış over25 oran hareketi sınırlı (%-1.9)."
       ],
       "snapshots": {
         "T60": {
@@ -2407,6 +773,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "2.5 Üst",
+          "tracked_market_key": "over25",
+          "odd": 1.56,
+          "odd_source": "verified_named_field:over25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -2416,8 +794,8 @@
       "away": "Latina",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -2427,7 +805,7 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -2439,6 +817,7 @@
       "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
         "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
@@ -2457,6 +836,18 @@
         "T30": {
           "checkpoint": "T30",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.57,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "2.5 Alt",
           "tracked_market_key": "under25",
           "odd": 1.57,
@@ -2474,8 +865,8 @@
       "away": "Crotone",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -2485,7 +876,7 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -2497,6 +888,7 @@
       "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
         "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
@@ -2523,6 +915,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.44,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -2532,18 +936,18 @@
       "away": "Arka Gdynia",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "KG Var",
       "tracked_market_key": "bttsYes",
-      "current_odd": 1.67,
+      "current_odd": 1.66,
       "current_odd_source": "verified_named_field:bttsYes",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -2552,10 +956,11 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": 0,
+      "relative_odd_change_percent": -0.6,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Doğrulanmış bttsYes oran hareketi sınırlı (%0.0)."
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
+        "Doğrulanmış bttsYes oran hareketi sınırlı (%-0.6)."
       ],
       "snapshots": {
         "T60": {
@@ -2581,6 +986,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "KG Var",
+          "tracked_market_key": "bttsYes",
+          "odd": 1.66,
+          "odd_source": "verified_named_field:bttsYes",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -2590,13 +1007,84 @@
       "away": "Usti Nad Labem",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
-      "current_odd": 2,
+      "current_odd": 2.21,
       "current_odd_source": "verified_named_field:ms1",
+      "lineup_risk_level": "Belirsiz",
+      "both_lineups_confirmed": false,
+      "lineup_freshness_minutes": 0.1,
+      "consensus_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": 18.3,
+      "source_conflict_level": "none",
+      "source_confidence_score": 5,
+      "general_decision": "downgrade",
+      "market_decision": "downgrade",
+      "decision": "downgrade",
+      "general_score_penalty": 4,
+      "market_score_penalty": 3,
+      "market_severe_adverse": false,
+      "relative_odd_change_percent": 10.5,
+      "reasons": [
+        "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
+        "Doğrulanmış ms1 oranı önceki kontrolden %10.5 yükseldi; ek ihtiyat uygulandı."
+      ],
+      "snapshots": {
+        "T60": {
+          "checkpoint": "T60",
+          "captured_at": "2026-09-20T11:40:06.423Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 2,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 2,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 2.21,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        }
+      }
+    },
+    {
+      "match_name": "Slask Wroclaw VS Hutnik Krakow",
+      "home": "Slask Wroclaw",
+      "away": "Hutnik Krakow",
+      "date": "2026-09-20",
+      "start_time": "15:30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
+      "active": true,
+      "tracked_market": "MS 2",
+      "tracked_market_key": "ms2",
+      "current_odd": 2.02,
+      "current_odd_source": "verified_named_field:ms2",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
@@ -2613,64 +1101,7 @@
       "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Doğrulanmış ms1 oran hareketi sınırlı (%0.0)."
-      ],
-      "snapshots": {
-        "T60": {
-          "checkpoint": "T60",
-          "captured_at": "2026-09-20T11:40:06.423Z",
-          "tracked_market": "MS 1",
-          "tracked_market_key": "ms1",
-          "odd": 2,
-          "odd_source": "verified_named_field:ms1",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        },
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-20T11:59:03.327Z",
-          "tracked_market": "MS 1",
-          "tracked_market_key": "ms1",
-          "odd": 2,
-          "odd_source": "verified_named_field:ms1",
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    },
-    {
-      "match_name": "Slask Wroclaw VS Hutnik Krakow",
-      "home": "Slask Wroclaw",
-      "away": "Hutnik Krakow",
-      "date": "2026-09-20",
-      "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
-      "active": true,
-      "tracked_market": "MS 2",
-      "tracked_market_key": "ms2",
-      "current_odd": 2.02,
-      "current_odd_source": "verified_named_field:ms2",
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": 0,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
         "Doğrulanmış ms2 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
@@ -2697,6 +1128,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 2.02,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -2706,8 +1149,8 @@
       "away": "Manila Digger",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
       "tracked_market": "KG Yok",
       "tracked_market_key": "bttsNo",
@@ -2717,7 +1160,7 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": 18.3,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -2726,10 +1169,11 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
+        "Doğrulanmış bttsNo oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
@@ -2755,6 +1199,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "KG Yok",
+          "tracked_market_key": "bttsNo",
+          "odd": 1.62,
+          "odd_source": "verified_named_field:bttsNo",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -2764,29 +1220,29 @@
       "away": "Söke 1970 Sk",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
-      "tracked_market": null,
-      "tracked_market_key": null,
-      "current_odd": null,
-      "current_odd_source": null,
+      "tracked_market": "MS 2",
+      "tracked_market_key": "ms2",
+      "current_odd": 1.53,
+      "current_odd_source": "verified_named_field:ms2",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
       "source_confidence_score": null,
-      "general_decision": "keep",
+      "general_decision": "downgrade",
       "market_decision": "keep",
-      "decision": "keep",
-      "general_score_penalty": 0,
+      "decision": "downgrade",
+      "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
       "relative_odd_change_percent": null,
       "reasons": [
-        "T30: kadro/kaynak tarafında yeni olumsuz doğrulanmış sinyal yok.",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
         "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
       ],
       "snapshots": {
@@ -2801,6 +1257,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": null
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 1.53,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": null
         }
       }
     },
@@ -2810,18 +1278,18 @@
       "away": "Mazidaği Fosfat",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
-      "tracked_market": null,
-      "tracked_market_key": null,
-      "current_odd": null,
-      "current_odd_source": null,
+      "tracked_market": "MS 2",
+      "tracked_market_key": "ms2",
+      "current_odd": 1.31,
+      "current_odd_source": "verified_named_field:ms2",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -2833,6 +1301,7 @@
       "relative_odd_change_percent": null,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
         "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
       ],
       "snapshots": {
@@ -2847,6 +1316,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 1.31,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -2856,10 +1337,10 @@
       "away": "Karaköprü Bld.",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
-      "tracked_market": null,
+      "tracked_market": "Değerli market yok",
       "tracked_market_key": null,
       "current_odd": null,
       "current_odd_source": null,
@@ -2867,7 +1348,7 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -2879,6 +1360,7 @@
       "relative_odd_change_percent": null,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
         "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
       ],
       "snapshots": {
@@ -2886,6 +1368,18 @@
           "checkpoint": "T30",
           "captured_at": "2026-09-20T11:59:03.327Z",
           "tracked_market": null,
+          "tracked_market_key": null,
+          "odd": null,
+          "odd_source": null,
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "Değerli market yok",
           "tracked_market_key": null,
           "odd": null,
           "odd_source": null,
@@ -2902,18 +1396,18 @@
       "away": "Ayvalikgücü Bld",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
-      "tracked_market": null,
-      "tracked_market_key": null,
-      "current_odd": null,
-      "current_odd_source": null,
+      "tracked_market": "MS 2",
+      "tracked_market_key": "ms2",
+      "current_odd": 1.71,
+      "current_odd_source": "verified_named_field:ms2",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -2925,6 +1419,7 @@
       "relative_odd_change_percent": null,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
         "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
       ],
       "snapshots": {
@@ -2935,6 +1430,18 @@
           "tracked_market_key": null,
           "odd": null,
           "odd_source": null,
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 1.71,
+          "odd_source": "verified_named_field:ms2",
           "lineup_risk_level": "Belirsiz",
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
@@ -2948,18 +1455,18 @@
       "away": "Karaman Fk",
       "date": "2026-09-20",
       "start_time": "15:30",
-      "minutes_to_kickoff": 30.9,
-      "checkpoint": "T30",
+      "minutes_to_kickoff": 12.8,
+      "checkpoint": "T10",
       "active": true,
-      "tracked_market": null,
-      "tracked_market_key": null,
-      "current_odd": null,
-      "current_odd_source": null,
+      "tracked_market": "MS 2",
+      "tracked_market_key": "ms2",
+      "current_odd": 1.49,
+      "current_odd_source": "verified_named_field:ms2",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -2971,6 +1478,7 @@
       "relative_odd_change_percent": null,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "T10: iki takımın doğrulanmış ilk 11'i birlikte mevcut değil.",
         "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
       ],
       "snapshots": {
@@ -2985,6 +1493,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T10": {
+          "checkpoint": "T10",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 1.49,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -2994,8 +1514,8 @@
       "away": "Wisla Plock",
       "date": "2026-09-20",
       "start_time": "15:45",
-      "minutes_to_kickoff": 45.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 27.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "KG Var",
       "tracked_market_key": "bttsYes",
@@ -3005,19 +1525,19 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
-      "source_confidence_score": 5,
+      "source_confidence_score": 15,
       "general_decision": "downgrade",
       "market_decision": "keep",
       "decision": "downgrade",
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Son kontrol: kaynak güven puanı düşük (15/100).",
+        "Doğrulanmış bttsYes oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
@@ -3031,6 +1551,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "KG Var",
+          "tracked_market_key": "bttsYes",
+          "odd": 1.61,
+          "odd_source": "verified_named_field:bttsYes",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 15
         }
       }
     },
@@ -3040,8 +1572,8 @@
       "away": "Gyor",
       "date": "2026-09-20",
       "start_time": "15:45",
-      "minutes_to_kickoff": 45.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 27.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
@@ -3051,19 +1583,19 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
-      "source_confidence_score": 5,
+      "source_confidence_score": 15,
       "general_decision": "downgrade",
       "market_decision": "keep",
       "decision": "downgrade",
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Son kontrol: kaynak güven puanı düşük (15/100).",
+        "Doğrulanmış ms1 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
@@ -3077,6 +1609,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.99,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 15
         }
       }
     },
@@ -3086,13 +1630,13 @@
       "away": "Liverpool",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
-      "tracked_market": "3.5 Üst",
-      "tracked_market_key": "over35",
-      "current_odd": 2.14,
-      "current_odd_source": "verified_named_field:over35",
+      "tracked_market": "MS 2",
+      "tracked_market_key": "ms2",
+      "current_odd": 2.07,
+      "current_odd_source": "verified_named_field:ms2",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
@@ -3123,6 +1667,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 2.07,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -3132,8 +1688,8 @@
       "away": "Crystal Palace",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -3152,15 +1708,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.88,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "2.5 Alt",
           "tracked_market_key": "under25",
           "odd": 1.88,
@@ -3178,13 +1746,13 @@
       "away": "Sunderland",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
-      "tracked_market": "KG Yok",
-      "tracked_market_key": "bttsNo",
-      "current_odd": 1.74,
-      "current_odd_source": "verified_named_field:bttsNo",
+      "tracked_market": "MS 1",
+      "tracked_market_key": "ms1",
+      "current_odd": 1.24,
+      "current_odd_source": "verified_named_field:ms1",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
@@ -3215,6 +1783,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.24,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -3224,12 +1804,12 @@
       "away": "Genoa",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
-      "current_odd": 1.4,
+      "current_odd": 1.41,
       "current_odd_source": "verified_named_field:under25",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
@@ -3244,10 +1824,10 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0.7,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış under25 oran hareketi sınırlı (%0.7)."
       ],
       "snapshots": {
         "T60": {
@@ -3256,6 +1836,18 @@
           "tracked_market": "2.5 Alt",
           "tracked_market_key": "under25",
           "odd": 1.4,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.41,
           "odd_source": "verified_named_field:under25",
           "lineup_risk_level": "Belirsiz",
           "both_lineups_confirmed": false,
@@ -3270,8 +1862,8 @@
       "away": "Como",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 2",
       "tracked_market_key": "ms2",
@@ -3290,15 +1882,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms2 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 1.37,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 2",
           "tracked_market_key": "ms2",
           "odd": 1.37,
@@ -3316,30 +1920,30 @@
       "away": "Brest",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "3.5 Üst",
       "tracked_market_key": "over35",
-      "current_odd": 2.54,
+      "current_odd": 2.59,
       "current_odd_source": "verified_named_field:over35",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
-      "source_confidence_score": 5,
+      "source_confidence_score": 15,
       "general_decision": "downgrade",
       "market_decision": "keep",
       "decision": "downgrade",
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 2,
       "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Son kontrol: kaynak güven puanı düşük (15/100).",
+        "Doğrulanmış over35 oran hareketi sınırlı (%2.0)."
       ],
       "snapshots": {
         "T60": {
@@ -3353,6 +1957,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "3.5 Üst",
+          "tracked_market_key": "over35",
+          "odd": 2.59,
+          "odd_source": "verified_named_field:over35",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 15
         }
       }
     },
@@ -3362,8 +1978,8 @@
       "away": "Sudtirol",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -3382,15 +1998,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.46,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "2.5 Alt",
           "tracked_market_key": "under25",
           "odd": 1.46,
@@ -3408,8 +2036,8 @@
       "away": "Vicenza",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "KG Var",
       "tracked_market_key": "bttsYes",
@@ -3428,15 +2056,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış bttsYes oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "KG Var",
+          "tracked_market_key": "bttsYes",
+          "odd": 1.64,
+          "odd_source": "verified_named_field:bttsYes",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "KG Var",
           "tracked_market_key": "bttsYes",
           "odd": 1.64,
@@ -3454,8 +2094,8 @@
       "away": "Sparta Prag",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -3465,19 +2105,19 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
-      "source_confidence_score": 5,
+      "source_confidence_score": 15,
       "general_decision": "downgrade",
       "market_decision": "keep",
       "decision": "downgrade",
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Son kontrol: kaynak güven puanı düşük (15/100).",
+        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
@@ -3491,6 +2131,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.99,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 15
         }
       }
     },
@@ -3500,30 +2152,30 @@
       "away": "Zlin",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
-      "current_odd": 1.36,
+      "current_odd": 1.41,
       "current_odd_source": "verified_named_field:ms1",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
-      "source_confidence_score": 5,
+      "source_confidence_score": 15,
       "general_decision": "downgrade",
       "market_decision": "keep",
       "decision": "downgrade",
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 3.7,
       "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Son kontrol: kaynak güven puanı düşük (15/100).",
+        "Doğrulanmış ms1 oran hareketi sınırlı (%3.7)."
       ],
       "snapshots": {
         "T60": {
@@ -3537,6 +2189,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.41,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 15
         }
       }
     },
@@ -3546,8 +2210,8 @@
       "away": "Leixoes",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 2",
       "tracked_market_key": "ms2",
@@ -3566,15 +2230,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms2 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 1.35,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 2",
           "tracked_market_key": "ms2",
           "odd": 1.35,
@@ -3592,8 +2268,8 @@
       "away": "Kolombiya U20 (",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -3612,15 +2288,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.47,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "2.5 Alt",
           "tracked_market_key": "under25",
           "odd": 1.47,
@@ -3638,8 +2326,8 @@
       "away": "Foggia",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -3658,15 +2346,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.51,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "2.5 Alt",
           "tracked_market_key": "under25",
           "odd": 1.51,
@@ -3684,12 +2384,12 @@
       "away": "Norrby",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Üst",
       "tracked_market_key": "over25",
-      "current_odd": 1.61,
+      "current_odd": 1.63,
       "current_odd_source": "verified_named_field:over25",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
@@ -3704,10 +2404,10 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 1.2,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış over25 oran hareketi sınırlı (%1.2)."
       ],
       "snapshots": {
         "T60": {
@@ -3716,6 +2416,18 @@
           "tracked_market": "2.5 Üst",
           "tracked_market_key": "over25",
           "odd": 1.61,
+          "odd_source": "verified_named_field:over25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "2.5 Üst",
+          "tracked_market_key": "over25",
+          "odd": 1.63,
           "odd_source": "verified_named_field:over25",
           "lineup_risk_level": "Belirsiz",
           "both_lineups_confirmed": false,
@@ -3730,8 +2442,8 @@
       "away": "Vejle",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -3741,19 +2453,19 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
-      "source_confidence_score": 5,
+      "source_confidence_score": 15,
       "general_decision": "downgrade",
       "market_decision": "keep",
       "decision": "downgrade",
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Son kontrol: kaynak güven puanı düşük (15/100).",
+        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
@@ -3767,6 +2479,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 2.02,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 15
         }
       }
     },
@@ -3776,8 +2500,8 @@
       "away": "Kauno Zalgiris",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "Değerli market yok",
       "tracked_market_key": null,
@@ -3813,6 +2537,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "Değerli market yok",
+          "tracked_market_key": null,
+          "odd": null,
+          "odd_source": null,
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -3822,12 +2558,12 @@
       "away": "Lorenskog",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
-      "current_odd": 1.87,
+      "current_odd": 1.79,
       "current_odd_source": "verified_named_field:ms1",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
@@ -3842,10 +2578,10 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": -4.3,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms1 oran hareketi sınırlı (%-4.3)."
       ],
       "snapshots": {
         "T60": {
@@ -3854,6 +2590,18 @@
           "tracked_market": "MS 1",
           "tracked_market_key": "ms1",
           "odd": 1.87,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.79,
           "odd_source": "verified_named_field:ms1",
           "lineup_risk_level": "Belirsiz",
           "both_lineups_confirmed": false,
@@ -3868,8 +2616,8 @@
       "away": "Olimpija Ljubli",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Üst",
       "tracked_market_key": "over25",
@@ -3888,15 +2636,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış over25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "2.5 Üst",
+          "tracked_market_key": "over25",
+          "odd": 1.63,
+          "odd_source": "verified_named_field:over25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "2.5 Üst",
           "tracked_market_key": "over25",
           "odd": 1.63,
@@ -3914,8 +2674,8 @@
       "away": "Juventud Dl Pie",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -3934,15 +2694,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.52,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "2.5 Alt",
           "tracked_market_key": "under25",
           "odd": 1.52,
@@ -3960,8 +2732,8 @@
       "away": "Kaizer Chiefs",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 2",
       "tracked_market_key": "ms2",
@@ -3980,15 +2752,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms2 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 1.83,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 2",
           "tracked_market_key": "ms2",
           "odd": 1.83,
@@ -4006,8 +2790,8 @@
       "away": "Orlando Pirates",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Üst",
       "tracked_market_key": "over25",
@@ -4026,15 +2810,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış over25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "2.5 Üst",
+          "tracked_market_key": "over25",
+          "odd": 1.87,
+          "odd_source": "verified_named_field:over25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "2.5 Üst",
           "tracked_market_key": "over25",
           "odd": 1.87,
@@ -4052,8 +2848,8 @@
       "away": "Durban City",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -4072,15 +2868,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.44,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "2.5 Alt",
           "tracked_market_key": "under25",
           "odd": 1.44,
@@ -4098,8 +2906,8 @@
       "away": "Kuching Fa",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "Değerli market yok",
       "tracked_market_key": null,
@@ -4135,6 +2943,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "Değerli market yok",
+          "tracked_market_key": null,
+          "odd": null,
+          "odd_source": null,
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -4144,8 +2964,8 @@
       "away": "Luzern Ii",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
@@ -4164,15 +2984,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms1 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.61,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 1",
           "tracked_market_key": "ms1",
           "odd": 1.61,
@@ -4190,8 +3022,8 @@
       "away": "Grobina",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Üst",
       "tracked_market_key": "over25",
@@ -4210,15 +3042,27 @@
       "general_score_penalty": 0,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
-        "T60: kadro/kaynak tarafında yeni olumsuz doğrulanmış sinyal yok.",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "T30: kadro/kaynak tarafında yeni olumsuz doğrulanmış sinyal yok.",
+        "Doğrulanmış over25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "2.5 Üst",
+          "tracked_market_key": "over25",
+          "odd": 1.7,
+          "odd_source": "verified_named_field:over25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": null
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "2.5 Üst",
           "tracked_market_key": "over25",
           "odd": 1.7,
@@ -4236,8 +3080,8 @@
       "away": "Tottenham Hotsp",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "KG Var",
       "tracked_market_key": "bttsYes",
@@ -4256,15 +3100,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış bttsYes oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "KG Var",
+          "tracked_market_key": "bttsYes",
+          "odd": 1.71,
+          "odd_source": "verified_named_field:bttsYes",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "KG Var",
           "tracked_market_key": "bttsYes",
           "odd": 1.71,
@@ -4282,8 +3138,8 @@
       "away": "Everton (K)",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -4302,15 +3158,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.51,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "2.5 Alt",
           "tracked_market_key": "under25",
           "odd": 1.51,
@@ -4328,8 +3196,8 @@
       "away": "Aston Villa (K)",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
@@ -4348,15 +3216,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms1 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.37,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 1",
           "tracked_market_key": "ms1",
           "odd": 1.37,
@@ -4374,8 +3254,8 @@
       "away": "Indep Cambo Gra",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -4394,15 +3274,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.47,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "2.5 Alt",
           "tracked_market_key": "under25",
           "odd": 1.47,
@@ -4420,8 +3312,8 @@
       "away": "Tacuary",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
@@ -4440,15 +3332,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms1 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.66,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 1",
           "tracked_market_key": "ms1",
           "odd": 1.66,
@@ -4466,8 +3370,8 @@
       "away": "Frolunda",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "3.5 Üst",
       "tracked_market_key": "over35",
@@ -4486,15 +3390,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış over35 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "3.5 Üst",
+          "tracked_market_key": "over35",
+          "odd": 1.91,
+          "odd_source": "verified_named_field:over35",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "3.5 Üst",
           "tracked_market_key": "over35",
           "odd": 1.91,
@@ -4512,12 +3428,12 @@
       "away": "Sölvesborgs Goi",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
-      "current_odd": 1.36,
+      "current_odd": 1.42,
       "current_odd_source": "verified_named_field:ms1",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
@@ -4532,10 +3448,10 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 4.4,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms1 oran hareketi sınırlı (%4.4)."
       ],
       "snapshots": {
         "T60": {
@@ -4544,6 +3460,18 @@
           "tracked_market": "MS 1",
           "tracked_market_key": "ms1",
           "odd": 1.36,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.42,
           "odd_source": "verified_named_field:ms1",
           "lineup_risk_level": "Belirsiz",
           "both_lineups_confirmed": false,
@@ -4558,8 +3486,8 @@
       "away": "Kuruvchi Kokand",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Alt",
       "tracked_market_key": "under25",
@@ -4578,15 +3506,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış under25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "2.5 Alt",
+          "tracked_market_key": "under25",
+          "odd": 1.4,
+          "odd_source": "verified_named_field:under25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "2.5 Alt",
           "tracked_market_key": "under25",
           "odd": 1.4,
@@ -4604,8 +3544,8 @@
       "away": "Rosengard (K)",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "2.5 Üst",
       "tracked_market_key": "over25",
@@ -4624,15 +3564,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış over25 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "2.5 Üst",
+          "tracked_market_key": "over25",
+          "odd": 1.63,
+          "odd_source": "verified_named_field:over25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "2.5 Üst",
           "tracked_market_key": "over25",
           "odd": 1.63,
@@ -4650,8 +3602,8 @@
       "away": "Valenciennes U1",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
@@ -4670,15 +3622,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms1 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.9,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 1",
           "tracked_market_key": "ms1",
           "odd": 1.9,
@@ -4696,8 +3660,8 @@
       "away": "Quevilly U19",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 2",
       "tracked_market_key": "ms2",
@@ -4716,15 +3680,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms2 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 1.96,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 2",
           "tracked_market_key": "ms2",
           "odd": 1.96,
@@ -4742,8 +3718,8 @@
       "away": "C Chartres U19",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
@@ -4762,15 +3738,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms1 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.59,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 1",
           "tracked_market_key": "ms1",
           "odd": 1.59,
@@ -4788,8 +3776,8 @@
       "away": "Versailles 78 U",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
@@ -4808,15 +3796,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms1 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.71,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 1",
           "tracked_market_key": "ms1",
           "odd": 1.71,
@@ -4834,8 +3834,8 @@
       "away": "Amiens Sc U19",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 2",
       "tracked_market_key": "ms2",
@@ -4845,7 +3845,7 @@
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": null,
+      "news_context_freshness_minutes": 0.1,
       "source_conflict_level": "none",
       "source_confidence_score": 5,
       "general_decision": "downgrade",
@@ -4854,15 +3854,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms2 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 1.87,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 2",
           "tracked_market_key": "ms2",
           "odd": 1.87,
@@ -4880,8 +3892,8 @@
       "away": "Lyon U19",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
@@ -4900,15 +3912,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms1 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.86,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 1",
           "tracked_market_key": "ms1",
           "odd": 1.86,
@@ -4926,8 +3950,8 @@
       "away": "Montfermeil U19",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
@@ -4946,15 +3970,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms1 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.28,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 1",
           "tracked_market_key": "ms1",
           "odd": 1.28,
@@ -4972,8 +4008,8 @@
       "away": "Guingamp U19",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 2",
       "tracked_market_key": "ms2",
@@ -4992,15 +4028,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms2 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 1.95,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 2",
           "tracked_market_key": "ms2",
           "odd": 1.95,
@@ -5018,8 +4066,8 @@
       "away": "Saint-Lo Manche",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "Değerli market yok",
       "tracked_market_key": null,
@@ -5055,6 +4103,18 @@
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
           "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "Değerli market yok",
+          "tracked_market_key": null,
+          "odd": null,
+          "odd_source": null,
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
         }
       }
     },
@@ -5064,8 +4124,8 @@
       "away": "Vertou U19",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
@@ -5084,15 +4144,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms1 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.57,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 1",
           "tracked_market_key": "ms1",
           "odd": 1.57,
@@ -5110,8 +4182,8 @@
       "away": "Molde (K)",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 1",
       "tracked_market_key": "ms1",
@@ -5130,15 +4202,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms1 oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.29,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "MS 1",
           "tracked_market_key": "ms1",
           "odd": 1.29,
@@ -5156,12 +4240,12 @@
       "away": "Melhus",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 2",
       "tracked_market_key": "ms2",
-      "current_odd": 1.6,
+      "current_odd": 1.53,
       "current_odd_source": "verified_named_field:ms2",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
@@ -5176,10 +4260,10 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": -4.4,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms2 oran hareketi sınırlı (%-4.4)."
       ],
       "snapshots": {
         "T60": {
@@ -5188,6 +4272,18 @@
           "tracked_market": "MS 2",
           "tracked_market_key": "ms2",
           "odd": 1.6,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 1.53,
           "odd_source": "verified_named_field:ms2",
           "lineup_risk_level": "Belirsiz",
           "both_lineups_confirmed": false,
@@ -5202,12 +4298,12 @@
       "away": "Aalesund B",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "MS 2",
       "tracked_market_key": "ms2",
-      "current_odd": 1.3,
+      "current_odd": 1.23,
       "current_odd_source": "verified_named_field:ms2",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
@@ -5222,10 +4318,10 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": -5.4,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış ms2 oran hareketi sınırlı (%-5.4)."
       ],
       "snapshots": {
         "T60": {
@@ -5234,6 +4330,18 @@
           "tracked_market": "MS 2",
           "tracked_market_key": "ms2",
           "odd": 1.3,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 1.23,
           "odd_source": "verified_named_field:ms2",
           "lineup_risk_level": "Belirsiz",
           "both_lineups_confirmed": false,
@@ -5248,8 +4356,8 @@
       "away": "Hungry Lions",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
       "tracked_market": "KG Yok",
       "tracked_market_key": "bttsNo",
@@ -5268,15 +4376,27 @@
       "general_score_penalty": 4,
       "market_score_penalty": 0,
       "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
+      "relative_odd_change_percent": 0,
       "reasons": [
         "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+        "Doğrulanmış bttsNo oran hareketi sınırlı (%0.0)."
       ],
       "snapshots": {
         "T60": {
           "checkpoint": "T60",
           "captured_at": "2026-09-20T11:59:03.327Z",
+          "tracked_market": "KG Yok",
+          "tracked_market_key": "bttsNo",
+          "odd": 1.47,
+          "odd_source": "verified_named_field:bttsNo",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
           "tracked_market": "KG Yok",
           "tracked_market_key": "bttsNo",
           "odd": 1.47,
@@ -5294,13 +4414,13 @@
       "away": "Caen U19",
       "date": "2026-09-20",
       "start_time": "16:00",
-      "minutes_to_kickoff": 60.9,
-      "checkpoint": "T60",
+      "minutes_to_kickoff": 42.8,
+      "checkpoint": "T30",
       "active": true,
-      "tracked_market": null,
-      "tracked_market_key": null,
-      "current_odd": null,
-      "current_odd_source": null,
+      "tracked_market": "MS 2",
+      "tracked_market_key": "ms2",
+      "current_odd": 1.87,
+      "current_odd_source": "verified_named_field:ms2",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
@@ -5327,6 +4447,156 @@
           "tracked_market_key": null,
           "odd": null,
           "odd_source": null,
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        },
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 2",
+          "tracked_market_key": "ms2",
+          "odd": 1.87,
+          "odd_source": "verified_named_field:ms2",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        }
+      }
+    },
+    {
+      "match_name": "B.Leverkusen VS Rb Leipzig",
+      "home": "B.Leverkusen",
+      "away": "Rb Leipzig",
+      "date": "2026-09-20",
+      "start_time": "16:30",
+      "minutes_to_kickoff": 72.8,
+      "checkpoint": "T60",
+      "active": true,
+      "tracked_market": "MS 1",
+      "tracked_market_key": "ms1",
+      "current_odd": 1.74,
+      "current_odd_source": "verified_named_field:ms1",
+      "lineup_risk_level": "Belirsiz",
+      "both_lineups_confirmed": false,
+      "lineup_freshness_minutes": 0.1,
+      "consensus_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": null,
+      "source_conflict_level": "none",
+      "source_confidence_score": 5,
+      "general_decision": "downgrade",
+      "market_decision": "keep",
+      "decision": "downgrade",
+      "general_score_penalty": 4,
+      "market_score_penalty": 0,
+      "market_severe_adverse": false,
+      "relative_odd_change_percent": null,
+      "reasons": [
+        "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+      ],
+      "snapshots": {
+        "T60": {
+          "checkpoint": "T60",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.74,
+          "odd_source": "verified_named_field:ms1",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        }
+      }
+    },
+    {
+      "match_name": "Galanta VS Slovan Bratisla",
+      "home": "Galanta",
+      "away": "Slovan Bratisla",
+      "date": "2026-09-20",
+      "start_time": "16:30",
+      "minutes_to_kickoff": 72.8,
+      "checkpoint": "T60",
+      "active": true,
+      "tracked_market": "2.5 Üst",
+      "tracked_market_key": "over25",
+      "current_odd": 1.61,
+      "current_odd_source": "verified_named_field:over25",
+      "lineup_risk_level": "Belirsiz",
+      "both_lineups_confirmed": false,
+      "lineup_freshness_minutes": 0.1,
+      "consensus_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": null,
+      "source_conflict_level": "none",
+      "source_confidence_score": 5,
+      "general_decision": "downgrade",
+      "market_decision": "keep",
+      "decision": "downgrade",
+      "general_score_penalty": 4,
+      "market_score_penalty": 0,
+      "market_severe_adverse": false,
+      "relative_odd_change_percent": null,
+      "reasons": [
+        "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+      ],
+      "snapshots": {
+        "T60": {
+          "checkpoint": "T60",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "2.5 Üst",
+          "tracked_market_key": "over25",
+          "odd": 1.61,
+          "odd_source": "verified_named_field:over25",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        }
+      }
+    },
+    {
+      "match_name": "Al Nasr VS Dubai United",
+      "home": "Al Nasr",
+      "away": "Dubai United",
+      "date": "2026-09-20",
+      "start_time": "16:30",
+      "minutes_to_kickoff": 72.8,
+      "checkpoint": "T60",
+      "active": true,
+      "tracked_market": "MS 1",
+      "tracked_market_key": "ms1",
+      "current_odd": 1.37,
+      "current_odd_source": "verified_named_field:ms1",
+      "lineup_risk_level": "Belirsiz",
+      "both_lineups_confirmed": false,
+      "lineup_freshness_minutes": 0.1,
+      "consensus_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": null,
+      "source_conflict_level": "none",
+      "source_confidence_score": 5,
+      "general_decision": "downgrade",
+      "market_decision": "keep",
+      "decision": "downgrade",
+      "general_score_penalty": 4,
+      "market_score_penalty": 0,
+      "market_severe_adverse": false,
+      "relative_odd_change_percent": null,
+      "reasons": [
+        "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+      ],
+      "snapshots": {
+        "T60": {
+          "checkpoint": "T60",
+          "captured_at": "2026-09-20T12:17:13.932Z",
+          "tracked_market": "MS 1",
+          "tracked_market_key": "ms1",
+          "odd": 1.37,
+          "odd_source": "verified_named_field:ms1",
           "lineup_risk_level": "Belirsiz",
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",

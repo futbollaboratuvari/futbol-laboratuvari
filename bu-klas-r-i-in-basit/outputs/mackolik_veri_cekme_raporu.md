@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-20T11:57:55.938901+00:00
+Tarih: 2026-09-20T12:16:35.450603+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 420
-- Kac mac kaydedildi: 10
-- Kac mac zaten vardi: 410
-- Ham veri havuzu toplam mac sayisi: 16319
+- Kac mac bulundu: 391
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 391
+- Ham veri havuzu toplam mac sayisi: 16320
 - Hedef tarih: 20.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -44,7 +44,6 @@ Tarih: 2026-09-20T11:57:55.938901+00:00
 - Danimarka 2.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig Küme Düşme Grubu
-- Endonezya Süper Lig
 - Estonya Premium Lig
 - Filipinler PFL
 - Finlandiya Ykkönen Küme Düşme Turu
@@ -71,7 +70,6 @@ Tarih: 2026-09-20T11:57:55.938901+00:00
 - Kosova Süper Lig
 - Letonya 1.Lig
 - Letonya Virsliga
-- Litvanya 1.Lig
 - Litvanya A Ligi
 - Macaristan NB I
 - Macaristan NB II
@@ -88,7 +86,6 @@ Tarih: 2026-09-20T11:57:55.938901+00:00
 - Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 5
 - Norveç Eliteserien
 - Norveç Kadınlar Toppserien
 - Paraguay Intermedia Lig
@@ -106,7 +103,6 @@ Tarih: 2026-09-20T11:57:55.938901+00:00
 - Suudi Arabistan 1.Lig
 - Sırbistan Süper Lig
 - Tayland 1.Lig
-- Tayland 2.Lig
 - Tayvan Premier Lig
 - Tunus 1.Lig
 - Türkiye 3.Lig 2.Grup
@@ -163,7 +159,6 @@ Tarih: 2026-09-20T11:57:55.938901+00:00
 - İsveç Kadınlar Damallsvenskan
 - İsveç Superettan
 - İsviçre 1.Lig Promotion
-- İsviçre Challenge Lig
 - İsviçre Süper Lig
 - İtalya Serie A
 - İtalya Serie B
@@ -254,14 +249,14 @@ Tarih: 2026-09-20T11:57:55.938901+00:00
 | 20.09.2026 | 16:00 | İngiltere Premier Lig | Leeds Utd | Crystal Palace | 09945 | 5 |
 | 20.09.2026 | 16:00 | İngiltere Premier Lig | Bournemouth | Liverpool | 09846 | 5 |
 | 20.09.2026 | 18:30 | İngiltere Premier Lig | Fulham | Man. Utd | 10101 | 5 |
-| 20.09.2026 | 19:30 | İspanya LaLiga | Villarreal | Levante | 12109 | 5 |
-| 20.09.2026 | 15:00 | İspanya LaLiga | Getafe | Malaga | 11970 | 5 |
 | 20.09.2026 | 17:15 | İspanya LaLiga | Atletico Madri | Real Madrid | 04858 | 5 |
-| 20.09.2026 | 22:00 | İspanya LaLiga | Valencia | Real Sociedad | 12206 | 5 |
+| 20.09.2026 | 19:30 | İspanya LaLiga | Villarreal | Levante | 12109 | 5 |
 | 20.09.2026 | 19:30 | İspanya LaLiga | D.La Coruna | Real Betis | 12047 | 5 |
-| 20.09.2026 | 19:00 | İtalya Serie A | Juventus | Atalanta | 32978 | 5 |
+| 20.09.2026 | 22:00 | İspanya LaLiga | Valencia | Real Sociedad | 12206 | 5 |
 | 20.09.2026 | 21:45 | İtalya Serie A | Ac Milan | Lecce | 33094 | 5 |
+| 20.09.2026 | 19:00 | İtalya Serie A | Juventus | Atalanta | 32978 | 5 |
 | 20.09.2026 | 16:00 | İtalya Serie A | Frosinone | Como | 32721 | 5 |
+| 20.09.2026 | 16:00 | İtalya Serie A | Parma | Genoa | 32848 | 5 |
 
 ## Sonuc
 
