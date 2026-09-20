@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T17:28:42.057Z",
+  "generated_at": "2026-09-20T19:43:49.320Z",
   "timezone": "Europe/Istanbul",
   "status": "ok",
   "source": "ESPN Scoreboard + ESPN Core/Summary + TheSportsDB event stats",
@@ -13,19 +13,1453 @@
     "paid_api_required": false
   },
   "summary": {
-    "espn_live_event_count": 53,
-    "site_candidate_count": 379,
-    "matched_fixture_count": 16,
+    "espn_live_event_count": 49,
+    "site_candidate_count": 202,
+    "matched_fixture_count": 19,
     "sampled_match_count": 8,
     "stats_success_count": 8,
     "scoreboard_stats_count": 8,
     "core_stats_count": 0,
     "summary_stats_count": 0,
     "thesportsdb_stats_count": 0,
-    "thesportsdb_verified_count": 5
+    "thesportsdb_verified_count": 6
   },
   "message": "Canlı Team Power ve Goal Power yalnız kaynaklarda gerçekten gözlenen maç istatistiklerinden üretildi; veri kapsamı her snapshotta ayrıca gösterildi.",
   "matches": [
+    {
+      "fixture_id": "401882858",
+      "provider_event_id": "401882858",
+      "provider_league_id": "740",
+      "status": "live",
+      "api_status": "STATUS_FIRST_HALF",
+      "date": "2026-09-20",
+      "league": "İspanya LaLiga",
+      "home": "Valencia",
+      "away": "Real Sociedad",
+      "source_match": {
+        "home": "Valencia",
+        "away": "Real Sociedad",
+        "league": "İspanya LaLiga",
+        "date": "2026-09-20",
+        "priority": 300
+      },
+      "source_match_similarity": 1,
+      "source": "ESPN Scoreboard embedded live statistics",
+      "source_verified": true,
+      "verification": {
+        "stats_method": "espn_scoreboard",
+        "stats_metadata": {
+          "provider_chain": [
+            "espn_scoreboard"
+          ],
+          "league_id": "740"
+        },
+        "thesportsdb_checked": true,
+        "thesportsdb_matched": true,
+        "thesportsdb_event_id": "2506231",
+        "thesportsdb_similarity": 1
+      },
+      "snapshots": [
+        {
+          "minute": 41,
+          "recorded_at": "2026-09-20T19:43:49.320Z",
+          "observed": true,
+          "interpolated": false,
+          "score": {
+            "home": 0,
+            "away": 1
+          },
+          "team_power": {
+            "home": 21,
+            "away": 79
+          },
+          "goal_power": {
+            "home": 5,
+            "away": 23
+          },
+          "momentum": {
+            "home": 0,
+            "away": 0
+          },
+          "data_coverage": {
+            "home_metric_count": 4,
+            "away_metric_count": 4,
+            "common_metric_count": 4,
+            "common_metrics": [
+              "shots_on_goal",
+              "total_shots",
+              "corners",
+              "possession"
+            ],
+            "missing_metrics": [
+              "shots_inside_box",
+              "blocked_shots",
+              "expected_goals",
+              "dangerous_attacks"
+            ],
+            "ratio": 0.5,
+            "label": "medium",
+            "expected_goals_observed": {
+              "home": false,
+              "away": false
+            }
+          },
+          "stats": {
+            "home": {
+              "shots_on_goal": 0,
+              "total_shots": 4,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 1,
+              "possession": 51.1,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            },
+            "away": {
+              "shots_on_goal": 2,
+              "total_shots": 10,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 2,
+              "possession": 48.9,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            }
+          }
+        }
+      ],
+      "current": {
+        "minute": 41,
+        "recorded_at": "2026-09-20T19:43:49.320Z",
+        "observed": true,
+        "interpolated": false,
+        "score": {
+          "home": 0,
+          "away": 1
+        },
+        "team_power": {
+          "home": 21,
+          "away": 79
+        },
+        "goal_power": {
+          "home": 5,
+          "away": 23
+        },
+        "momentum": {
+          "home": 0,
+          "away": 0
+        },
+        "data_coverage": {
+          "home_metric_count": 4,
+          "away_metric_count": 4,
+          "common_metric_count": 4,
+          "common_metrics": [
+            "shots_on_goal",
+            "total_shots",
+            "corners",
+            "possession"
+          ],
+          "missing_metrics": [
+            "shots_inside_box",
+            "blocked_shots",
+            "expected_goals",
+            "dangerous_attacks"
+          ],
+          "ratio": 0.5,
+          "label": "medium",
+          "expected_goals_observed": {
+            "home": false,
+            "away": false
+          }
+        },
+        "stats": {
+          "home": {
+            "shots_on_goal": 0,
+            "total_shots": 4,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 1,
+            "possession": 51.1,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          },
+          "away": {
+            "shots_on_goal": 2,
+            "total_shots": 10,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 2,
+            "possession": 48.9,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          }
+        }
+      },
+      "updated_at": "2026-09-20T19:43:49.320Z"
+    },
+    {
+      "fixture_id": "401874944",
+      "provider_event_id": "401874944",
+      "provider_league_id": "730",
+      "status": "live",
+      "api_status": "STATUS_HALFTIME",
+      "date": "2026-09-20",
+      "league": "İtalya Serie A",
+      "home": "AC Milan",
+      "away": "Lecce",
+      "source_match": {
+        "home": "Ac Milan",
+        "away": "Lecce",
+        "league": "İtalya Serie A",
+        "date": "2026-09-20",
+        "priority": 300
+      },
+      "source_match_similarity": 1,
+      "source": "ESPN Scoreboard embedded live statistics",
+      "source_verified": true,
+      "verification": {
+        "stats_method": "espn_scoreboard",
+        "stats_metadata": {
+          "provider_chain": [
+            "espn_scoreboard"
+          ],
+          "league_id": "730"
+        },
+        "thesportsdb_checked": true,
+        "thesportsdb_matched": true,
+        "thesportsdb_event_id": "2482178",
+        "thesportsdb_similarity": 1
+      },
+      "snapshots": [
+        {
+          "minute": 45,
+          "recorded_at": "2026-09-20T19:43:49.320Z",
+          "observed": true,
+          "interpolated": false,
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "team_power": {
+            "home": 74,
+            "away": 26
+          },
+          "goal_power": {
+            "home": 16,
+            "away": 6
+          },
+          "momentum": {
+            "home": 0,
+            "away": 0
+          },
+          "data_coverage": {
+            "home_metric_count": 4,
+            "away_metric_count": 4,
+            "common_metric_count": 4,
+            "common_metrics": [
+              "shots_on_goal",
+              "total_shots",
+              "corners",
+              "possession"
+            ],
+            "missing_metrics": [
+              "shots_inside_box",
+              "blocked_shots",
+              "expected_goals",
+              "dangerous_attacks"
+            ],
+            "ratio": 0.5,
+            "label": "medium",
+            "expected_goals_observed": {
+              "home": false,
+              "away": false
+            }
+          },
+          "stats": {
+            "home": {
+              "shots_on_goal": 2,
+              "total_shots": 5,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 1,
+              "possession": 74.5,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            },
+            "away": {
+              "shots_on_goal": 1,
+              "total_shots": 3,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 0,
+              "possession": 25.5,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            }
+          }
+        }
+      ],
+      "current": {
+        "minute": 45,
+        "recorded_at": "2026-09-20T19:43:49.320Z",
+        "observed": true,
+        "interpolated": false,
+        "score": {
+          "home": 1,
+          "away": 0
+        },
+        "team_power": {
+          "home": 74,
+          "away": 26
+        },
+        "goal_power": {
+          "home": 16,
+          "away": 6
+        },
+        "momentum": {
+          "home": 0,
+          "away": 0
+        },
+        "data_coverage": {
+          "home_metric_count": 4,
+          "away_metric_count": 4,
+          "common_metric_count": 4,
+          "common_metrics": [
+            "shots_on_goal",
+            "total_shots",
+            "corners",
+            "possession"
+          ],
+          "missing_metrics": [
+            "shots_inside_box",
+            "blocked_shots",
+            "expected_goals",
+            "dangerous_attacks"
+          ],
+          "ratio": 0.5,
+          "label": "medium",
+          "expected_goals_observed": {
+            "home": false,
+            "away": false
+          }
+        },
+        "stats": {
+          "home": {
+            "shots_on_goal": 2,
+            "total_shots": 5,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 1,
+            "possession": 74.5,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          },
+          "away": {
+            "shots_on_goal": 1,
+            "total_shots": 3,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 0,
+            "possession": 25.5,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          }
+        }
+      },
+      "updated_at": "2026-09-20T19:43:49.320Z"
+    },
+    {
+      "fixture_id": "401885433",
+      "provider_event_id": "401885433",
+      "provider_league_id": "715",
+      "status": "live",
+      "api_status": "STATUS_FIRST_HALF",
+      "date": "2026-09-20",
+      "league": "Portekiz Premier Lig",
+      "home": "FC Porto",
+      "away": "Benfica",
+      "source_match": {
+        "home": "Porto",
+        "away": "Benfica",
+        "league": "Portekiz Premier Lig",
+        "date": "2026-09-20",
+        "priority": 300
+      },
+      "source_match_similarity": 1,
+      "source": "ESPN Scoreboard embedded live statistics",
+      "source_verified": true,
+      "verification": {
+        "stats_method": "espn_scoreboard",
+        "stats_metadata": {
+          "provider_chain": [
+            "espn_scoreboard"
+          ],
+          "league_id": "715"
+        },
+        "thesportsdb_checked": true,
+        "thesportsdb_matched": false,
+        "thesportsdb_event_id": null,
+        "thesportsdb_similarity": 0
+      },
+      "snapshots": [
+        {
+          "minute": 12,
+          "recorded_at": "2026-09-20T19:43:49.320Z",
+          "observed": true,
+          "interpolated": false,
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "team_power": {
+            "home": 41,
+            "away": 59
+          },
+          "goal_power": {
+            "home": 0,
+            "away": 0
+          },
+          "momentum": {
+            "home": 0,
+            "away": 0
+          },
+          "data_coverage": {
+            "home_metric_count": 4,
+            "away_metric_count": 4,
+            "common_metric_count": 4,
+            "common_metrics": [
+              "shots_on_goal",
+              "total_shots",
+              "corners",
+              "possession"
+            ],
+            "missing_metrics": [
+              "shots_inside_box",
+              "blocked_shots",
+              "expected_goals",
+              "dangerous_attacks"
+            ],
+            "ratio": 0.5,
+            "label": "medium",
+            "expected_goals_observed": {
+              "home": false,
+              "away": false
+            }
+          },
+          "stats": {
+            "home": {
+              "shots_on_goal": 0,
+              "total_shots": 0,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 0,
+              "possession": 41.3,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            },
+            "away": {
+              "shots_on_goal": 0,
+              "total_shots": 0,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 0,
+              "possession": 58.7,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            }
+          }
+        }
+      ],
+      "current": {
+        "minute": 12,
+        "recorded_at": "2026-09-20T19:43:49.320Z",
+        "observed": true,
+        "interpolated": false,
+        "score": {
+          "home": 0,
+          "away": 0
+        },
+        "team_power": {
+          "home": 41,
+          "away": 59
+        },
+        "goal_power": {
+          "home": 0,
+          "away": 0
+        },
+        "momentum": {
+          "home": 0,
+          "away": 0
+        },
+        "data_coverage": {
+          "home_metric_count": 4,
+          "away_metric_count": 4,
+          "common_metric_count": 4,
+          "common_metrics": [
+            "shots_on_goal",
+            "total_shots",
+            "corners",
+            "possession"
+          ],
+          "missing_metrics": [
+            "shots_inside_box",
+            "blocked_shots",
+            "expected_goals",
+            "dangerous_attacks"
+          ],
+          "ratio": 0.5,
+          "label": "medium",
+          "expected_goals_observed": {
+            "home": false,
+            "away": false
+          }
+        },
+        "stats": {
+          "home": {
+            "shots_on_goal": 0,
+            "total_shots": 0,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 0,
+            "possession": 41.3,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          },
+          "away": {
+            "shots_on_goal": 0,
+            "total_shots": 0,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 0,
+            "possession": 58.7,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          }
+        }
+      },
+      "updated_at": "2026-09-20T19:43:49.320Z"
+    },
+    {
+      "fixture_id": "401883204",
+      "provider_event_id": "401883204",
+      "provider_league_id": "3921",
+      "status": "live",
+      "api_status": "STATUS_FIRST_HALF",
+      "date": "2026-09-20",
+      "league": "İspanya 2.Lig",
+      "home": "Leganés",
+      "away": "Granada",
+      "source_match": {
+        "home": "Leganes",
+        "away": "Granada",
+        "league": "İspanya 2.Lig",
+        "date": "2026-09-20",
+        "priority": 300
+      },
+      "source_match_similarity": 1,
+      "source": "ESPN Scoreboard embedded live statistics",
+      "source_verified": true,
+      "verification": {
+        "stats_method": "espn_scoreboard",
+        "stats_metadata": {
+          "provider_chain": [
+            "espn_scoreboard"
+          ],
+          "league_id": "3921"
+        },
+        "thesportsdb_checked": true,
+        "thesportsdb_matched": true,
+        "thesportsdb_event_id": "2505763",
+        "thesportsdb_similarity": 1
+      },
+      "snapshots": [
+        {
+          "minute": 43,
+          "recorded_at": "2026-09-20T19:43:49.320Z",
+          "observed": true,
+          "interpolated": false,
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "team_power": {
+            "home": 62,
+            "away": 38
+          },
+          "goal_power": {
+            "home": 46,
+            "away": 27
+          },
+          "momentum": {
+            "home": 0,
+            "away": 0
+          },
+          "data_coverage": {
+            "home_metric_count": 4,
+            "away_metric_count": 4,
+            "common_metric_count": 4,
+            "common_metrics": [
+              "shots_on_goal",
+              "total_shots",
+              "corners",
+              "possession"
+            ],
+            "missing_metrics": [
+              "shots_inside_box",
+              "blocked_shots",
+              "expected_goals",
+              "dangerous_attacks"
+            ],
+            "ratio": 0.5,
+            "label": "medium",
+            "expected_goals_observed": {
+              "home": false,
+              "away": false
+            }
+          },
+          "stats": {
+            "home": {
+              "shots_on_goal": 7,
+              "total_shots": 11,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 3,
+              "possession": 40.3,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            },
+            "away": {
+              "shots_on_goal": 4,
+              "total_shots": 8,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 1,
+              "possession": 59.7,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            }
+          }
+        }
+      ],
+      "current": {
+        "minute": 43,
+        "recorded_at": "2026-09-20T19:43:49.320Z",
+        "observed": true,
+        "interpolated": false,
+        "score": {
+          "home": 2,
+          "away": 1
+        },
+        "team_power": {
+          "home": 62,
+          "away": 38
+        },
+        "goal_power": {
+          "home": 46,
+          "away": 27
+        },
+        "momentum": {
+          "home": 0,
+          "away": 0
+        },
+        "data_coverage": {
+          "home_metric_count": 4,
+          "away_metric_count": 4,
+          "common_metric_count": 4,
+          "common_metrics": [
+            "shots_on_goal",
+            "total_shots",
+            "corners",
+            "possession"
+          ],
+          "missing_metrics": [
+            "shots_inside_box",
+            "blocked_shots",
+            "expected_goals",
+            "dangerous_attacks"
+          ],
+          "ratio": 0.5,
+          "label": "medium",
+          "expected_goals_observed": {
+            "home": false,
+            "away": false
+          }
+        },
+        "stats": {
+          "home": {
+            "shots_on_goal": 7,
+            "total_shots": 11,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 3,
+            "possession": 40.3,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          },
+          "away": {
+            "shots_on_goal": 4,
+            "total_shots": 8,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 1,
+            "possession": 59.7,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          }
+        }
+      },
+      "updated_at": "2026-09-20T19:43:49.320Z"
+    },
+    {
+      "fixture_id": "401896755",
+      "provider_event_id": "401896755",
+      "provider_league_id": "3955",
+      "status": "live",
+      "api_status": "STATUS_SECOND_HALF",
+      "date": "2026-09-20",
+      "league": "Yunanistan Süper Lig",
+      "home": "Panetolikos",
+      "away": "PAOK",
+      "source_match": {
+        "home": "Panetolikos",
+        "away": "Paok",
+        "league": "Yunanistan Süper Lig",
+        "date": "2026-09-20",
+        "priority": 300
+      },
+      "source_match_similarity": 1,
+      "source": "ESPN Scoreboard embedded live statistics",
+      "source_verified": true,
+      "verification": {
+        "stats_method": "espn_scoreboard",
+        "stats_metadata": {
+          "provider_chain": [
+            "espn_scoreboard"
+          ],
+          "league_id": "3955"
+        },
+        "thesportsdb_checked": true,
+        "thesportsdb_matched": true,
+        "thesportsdb_event_id": "2539947",
+        "thesportsdb_similarity": 1
+      },
+      "snapshots": [
+        {
+          "minute": 83,
+          "recorded_at": "2026-09-20T19:43:49.320Z",
+          "observed": true,
+          "interpolated": false,
+          "score": {
+            "home": 1,
+            "away": 2
+          },
+          "team_power": {
+            "home": 29,
+            "away": 71
+          },
+          "goal_power": {
+            "home": 7,
+            "away": 19
+          },
+          "momentum": {
+            "home": 0,
+            "away": 0
+          },
+          "data_coverage": {
+            "home_metric_count": 4,
+            "away_metric_count": 4,
+            "common_metric_count": 4,
+            "common_metrics": [
+              "shots_on_goal",
+              "total_shots",
+              "corners",
+              "possession"
+            ],
+            "missing_metrics": [
+              "shots_inside_box",
+              "blocked_shots",
+              "expected_goals",
+              "dangerous_attacks"
+            ],
+            "ratio": 0.5,
+            "label": "medium",
+            "expected_goals_observed": {
+              "home": false,
+              "away": false
+            }
+          },
+          "stats": {
+            "home": {
+              "shots_on_goal": 1,
+              "total_shots": 2,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 5,
+              "possession": 54,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            },
+            "away": {
+              "shots_on_goal": 4,
+              "total_shots": 12,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 5,
+              "possession": 46,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            }
+          }
+        }
+      ],
+      "current": {
+        "minute": 83,
+        "recorded_at": "2026-09-20T19:43:49.320Z",
+        "observed": true,
+        "interpolated": false,
+        "score": {
+          "home": 1,
+          "away": 2
+        },
+        "team_power": {
+          "home": 29,
+          "away": 71
+        },
+        "goal_power": {
+          "home": 7,
+          "away": 19
+        },
+        "momentum": {
+          "home": 0,
+          "away": 0
+        },
+        "data_coverage": {
+          "home_metric_count": 4,
+          "away_metric_count": 4,
+          "common_metric_count": 4,
+          "common_metrics": [
+            "shots_on_goal",
+            "total_shots",
+            "corners",
+            "possession"
+          ],
+          "missing_metrics": [
+            "shots_inside_box",
+            "blocked_shots",
+            "expected_goals",
+            "dangerous_attacks"
+          ],
+          "ratio": 0.5,
+          "label": "medium",
+          "expected_goals_observed": {
+            "home": false,
+            "away": false
+          }
+        },
+        "stats": {
+          "home": {
+            "shots_on_goal": 1,
+            "total_shots": 2,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 5,
+            "possession": 54,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          },
+          "away": {
+            "shots_on_goal": 4,
+            "total_shots": 12,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 5,
+            "possession": 46,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          }
+        }
+      },
+      "updated_at": "2026-09-20T19:43:49.320Z"
+    },
+    {
+      "fixture_id": "401844143",
+      "provider_event_id": "401844143",
+      "provider_league_id": "3903",
+      "status": "live",
+      "api_status": "STATUS_SECOND_HALF",
+      "date": "2026-09-20",
+      "league": "Arjantin Ulusal Primera Lig",
+      "home": "Agropecuario",
+      "away": "Gimnasia y Tiro (Salta)",
+      "source_match": {
+        "home": "Agropecuario",
+        "away": "Gimnasia Y Tiro",
+        "league": "Arjantin Ulusal Primera Lig",
+        "date": "2026-09-20",
+        "priority": 300
+      },
+      "source_match_similarity": 1,
+      "source": "ESPN Scoreboard embedded live statistics",
+      "source_verified": true,
+      "verification": {
+        "stats_method": "espn_scoreboard",
+        "stats_metadata": {
+          "provider_chain": [
+            "espn_scoreboard"
+          ],
+          "league_id": "3903"
+        },
+        "thesportsdb_checked": true,
+        "thesportsdb_matched": false,
+        "thesportsdb_event_id": null,
+        "thesportsdb_similarity": 0
+      },
+      "snapshots": [
+        {
+          "minute": 79,
+          "recorded_at": "2026-09-20T19:43:49.320Z",
+          "observed": true,
+          "interpolated": false,
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "team_power": {
+            "home": null,
+            "away": null
+          },
+          "goal_power": {
+            "home": 0,
+            "away": 0
+          },
+          "momentum": {
+            "home": 0,
+            "away": 0
+          },
+          "data_coverage": {
+            "home_metric_count": 4,
+            "away_metric_count": 4,
+            "common_metric_count": 4,
+            "common_metrics": [
+              "shots_on_goal",
+              "total_shots",
+              "corners",
+              "possession"
+            ],
+            "missing_metrics": [
+              "shots_inside_box",
+              "blocked_shots",
+              "expected_goals",
+              "dangerous_attacks"
+            ],
+            "ratio": 0.5,
+            "label": "medium",
+            "expected_goals_observed": {
+              "home": false,
+              "away": false
+            }
+          },
+          "stats": {
+            "home": {
+              "shots_on_goal": 0,
+              "total_shots": 0,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 0,
+              "possession": 0,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            },
+            "away": {
+              "shots_on_goal": 0,
+              "total_shots": 0,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 0,
+              "possession": 0,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            }
+          }
+        }
+      ],
+      "current": {
+        "minute": 79,
+        "recorded_at": "2026-09-20T19:43:49.320Z",
+        "observed": true,
+        "interpolated": false,
+        "score": {
+          "home": 0,
+          "away": 0
+        },
+        "team_power": {
+          "home": null,
+          "away": null
+        },
+        "goal_power": {
+          "home": 0,
+          "away": 0
+        },
+        "momentum": {
+          "home": 0,
+          "away": 0
+        },
+        "data_coverage": {
+          "home_metric_count": 4,
+          "away_metric_count": 4,
+          "common_metric_count": 4,
+          "common_metrics": [
+            "shots_on_goal",
+            "total_shots",
+            "corners",
+            "possession"
+          ],
+          "missing_metrics": [
+            "shots_inside_box",
+            "blocked_shots",
+            "expected_goals",
+            "dangerous_attacks"
+          ],
+          "ratio": 0.5,
+          "label": "medium",
+          "expected_goals_observed": {
+            "home": false,
+            "away": false
+          }
+        },
+        "stats": {
+          "home": {
+            "shots_on_goal": 0,
+            "total_shots": 0,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 0,
+            "possession": 0,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          },
+          "away": {
+            "shots_on_goal": 0,
+            "total_shots": 0,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 0,
+            "possession": 0,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          }
+        }
+      },
+      "updated_at": "2026-09-20T19:43:49.320Z"
+    },
+    {
+      "fixture_id": "401841240",
+      "provider_event_id": "401841240",
+      "provider_league_id": "630",
+      "status": "live",
+      "api_status": "STATUS_FIRST_HALF",
+      "date": "2026-09-20",
+      "league": "Brezilya Serie A",
+      "home": "Corinthians",
+      "away": "Fluminense",
+      "source_match": {
+        "home": "Corinthians",
+        "away": "Fluminense",
+        "league": "Brezilya Serie A",
+        "date": "2026-09-20",
+        "priority": 300
+      },
+      "source_match_similarity": 1,
+      "source": "ESPN Scoreboard embedded live statistics",
+      "source_verified": true,
+      "verification": {
+        "stats_method": "espn_scoreboard",
+        "stats_metadata": {
+          "provider_chain": [
+            "espn_scoreboard"
+          ],
+          "league_id": "630"
+        },
+        "thesportsdb_checked": true,
+        "thesportsdb_matched": true,
+        "thesportsdb_event_id": "2398463",
+        "thesportsdb_similarity": 1
+      },
+      "snapshots": [
+        {
+          "minute": 43,
+          "recorded_at": "2026-09-20T19:43:49.320Z",
+          "observed": true,
+          "interpolated": false,
+          "score": {
+            "home": 0,
+            "away": 1
+          },
+          "team_power": {
+            "home": 35,
+            "away": 65
+          },
+          "goal_power": {
+            "home": 8,
+            "away": 16
+          },
+          "momentum": {
+            "home": 0,
+            "away": 0
+          },
+          "data_coverage": {
+            "home_metric_count": 4,
+            "away_metric_count": 4,
+            "common_metric_count": 4,
+            "common_metrics": [
+              "shots_on_goal",
+              "total_shots",
+              "corners",
+              "possession"
+            ],
+            "missing_metrics": [
+              "shots_inside_box",
+              "blocked_shots",
+              "expected_goals",
+              "dangerous_attacks"
+            ],
+            "ratio": 0.5,
+            "label": "medium",
+            "expected_goals_observed": {
+              "home": false,
+              "away": false
+            }
+          },
+          "stats": {
+            "home": {
+              "shots_on_goal": 1,
+              "total_shots": 2,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 3,
+              "possession": 53.6,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            },
+            "away": {
+              "shots_on_goal": 2,
+              "total_shots": 5,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 0,
+              "possession": 46.4,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            }
+          }
+        }
+      ],
+      "current": {
+        "minute": 43,
+        "recorded_at": "2026-09-20T19:43:49.320Z",
+        "observed": true,
+        "interpolated": false,
+        "score": {
+          "home": 0,
+          "away": 1
+        },
+        "team_power": {
+          "home": 35,
+          "away": 65
+        },
+        "goal_power": {
+          "home": 8,
+          "away": 16
+        },
+        "momentum": {
+          "home": 0,
+          "away": 0
+        },
+        "data_coverage": {
+          "home_metric_count": 4,
+          "away_metric_count": 4,
+          "common_metric_count": 4,
+          "common_metrics": [
+            "shots_on_goal",
+            "total_shots",
+            "corners",
+            "possession"
+          ],
+          "missing_metrics": [
+            "shots_inside_box",
+            "blocked_shots",
+            "expected_goals",
+            "dangerous_attacks"
+          ],
+          "ratio": 0.5,
+          "label": "medium",
+          "expected_goals_observed": {
+            "home": false,
+            "away": false
+          }
+        },
+        "stats": {
+          "home": {
+            "shots_on_goal": 1,
+            "total_shots": 2,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 3,
+            "possession": 53.6,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          },
+          "away": {
+            "shots_on_goal": 2,
+            "total_shots": 5,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 0,
+            "possession": 46.4,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          }
+        }
+      },
+      "updated_at": "2026-09-20T19:43:49.320Z"
+    },
+    {
+      "fixture_id": "401860349",
+      "provider_event_id": "401860349",
+      "provider_league_id": "4007",
+      "status": "live",
+      "api_status": "STATUS_FIRST_HALF",
+      "date": "2026-09-20",
+      "league": "Brezilya Serie B",
+      "home": "Goiás",
+      "away": "Avaí",
+      "source_match": {
+        "home": "Goias",
+        "away": "Avai",
+        "league": "Brezilya Serie B",
+        "date": "2026-09-20",
+        "priority": 300
+      },
+      "source_match_similarity": 1,
+      "source": "ESPN Scoreboard embedded live statistics",
+      "source_verified": true,
+      "verification": {
+        "stats_method": "espn_scoreboard",
+        "stats_metadata": {
+          "provider_chain": [
+            "espn_scoreboard"
+          ],
+          "league_id": "4007"
+        },
+        "thesportsdb_checked": true,
+        "thesportsdb_matched": true,
+        "thesportsdb_event_id": "2431450",
+        "thesportsdb_similarity": 1
+      },
+      "snapshots": [
+        {
+          "minute": 43,
+          "recorded_at": "2026-09-20T19:43:49.320Z",
+          "observed": true,
+          "interpolated": false,
+          "score": {
+            "home": 0,
+            "away": 1
+          },
+          "team_power": {
+            "home": 50,
+            "away": 50
+          },
+          "goal_power": {
+            "home": 17,
+            "away": 17
+          },
+          "momentum": {
+            "home": 0,
+            "away": 0
+          },
+          "data_coverage": {
+            "home_metric_count": 4,
+            "away_metric_count": 4,
+            "common_metric_count": 4,
+            "common_metrics": [
+              "shots_on_goal",
+              "total_shots",
+              "corners",
+              "possession"
+            ],
+            "missing_metrics": [
+              "shots_inside_box",
+              "blocked_shots",
+              "expected_goals",
+              "dangerous_attacks"
+            ],
+            "ratio": 0.5,
+            "label": "medium",
+            "expected_goals_observed": {
+              "home": false,
+              "away": false
+            }
+          },
+          "stats": {
+            "home": {
+              "shots_on_goal": 2,
+              "total_shots": 7,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 4,
+              "possession": 59.3,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            },
+            "away": {
+              "shots_on_goal": 2,
+              "total_shots": 4,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 2,
+              "possession": 40.7,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            }
+          }
+        }
+      ],
+      "current": {
+        "minute": 43,
+        "recorded_at": "2026-09-20T19:43:49.320Z",
+        "observed": true,
+        "interpolated": false,
+        "score": {
+          "home": 0,
+          "away": 1
+        },
+        "team_power": {
+          "home": 50,
+          "away": 50
+        },
+        "goal_power": {
+          "home": 17,
+          "away": 17
+        },
+        "momentum": {
+          "home": 0,
+          "away": 0
+        },
+        "data_coverage": {
+          "home_metric_count": 4,
+          "away_metric_count": 4,
+          "common_metric_count": 4,
+          "common_metrics": [
+            "shots_on_goal",
+            "total_shots",
+            "corners",
+            "possession"
+          ],
+          "missing_metrics": [
+            "shots_inside_box",
+            "blocked_shots",
+            "expected_goals",
+            "dangerous_attacks"
+          ],
+          "ratio": 0.5,
+          "label": "medium",
+          "expected_goals_observed": {
+            "home": false,
+            "away": false
+          }
+        },
+        "stats": {
+          "home": {
+            "shots_on_goal": 2,
+            "total_shots": 7,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 4,
+            "possession": 59.3,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          },
+          "away": {
+            "shots_on_goal": 2,
+            "total_shots": 4,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 2,
+            "possession": 40.7,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          }
+        }
+      },
+      "updated_at": "2026-09-20T19:43:49.320Z"
+    }
+  ],
+  "recent_matches": [
     {
       "fixture_id": "401882857",
       "provider_event_id": "401882857",
@@ -1457,9 +2891,7 @@
         }
       },
       "updated_at": "2026-09-20T17:28:42.057Z"
-    }
-  ],
-  "recent_matches": [
+    },
     {
       "fixture_id": "401879276",
       "provider_event_id": "401879276",
@@ -2175,1222 +3607,6 @@
         }
       },
       "updated_at": "2026-09-20T14:11:35.256Z"
-    },
-    {
-      "fixture_id": "401875593",
-      "provider_event_id": "401875593",
-      "provider_league_id": "725",
-      "status": "live",
-      "api_status": "STATUS_SECOND_HALF",
-      "date": "2026-09-20",
-      "league": "Hollanda Eredivisie",
-      "home": "FC Twente",
-      "away": "PSV Eindhoven",
-      "source_match": {
-        "home": "Twente",
-        "away": "Psv Eindhoven",
-        "league": "Hollanda Eredivisie",
-        "date": "2026-09-20",
-        "priority": 300
-      },
-      "source_match_similarity": 1,
-      "source": "ESPN Scoreboard embedded live statistics",
-      "source_verified": true,
-      "verification": {
-        "stats_method": "espn_scoreboard",
-        "stats_metadata": {
-          "provider_chain": [
-            "espn_scoreboard"
-          ],
-          "league_id": "725"
-        },
-        "thesportsdb_checked": true,
-        "thesportsdb_matched": false,
-        "thesportsdb_event_id": null,
-        "thesportsdb_similarity": 0
-      },
-      "snapshots": [
-        {
-          "minute": 81,
-          "recorded_at": "2026-09-20T14:11:35.256Z",
-          "observed": true,
-          "interpolated": false,
-          "score": {
-            "home": 2,
-            "away": 2
-          },
-          "team_power": {
-            "home": 57,
-            "away": 43
-          },
-          "goal_power": {
-            "home": 22,
-            "away": 16
-          },
-          "momentum": {
-            "home": 0,
-            "away": 0
-          },
-          "data_coverage": {
-            "home_metric_count": 4,
-            "away_metric_count": 4,
-            "common_metric_count": 4,
-            "common_metrics": [
-              "shots_on_goal",
-              "total_shots",
-              "corners",
-              "possession"
-            ],
-            "missing_metrics": [
-              "shots_inside_box",
-              "blocked_shots",
-              "expected_goals",
-              "dangerous_attacks"
-            ],
-            "ratio": 0.5,
-            "label": "medium",
-            "expected_goals_observed": {
-              "home": false,
-              "away": false
-            }
-          },
-          "stats": {
-            "home": {
-              "shots_on_goal": 4,
-              "total_shots": 17,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 5,
-              "possession": 41.4,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            },
-            "away": {
-              "shots_on_goal": 3,
-              "total_shots": 9,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 4,
-              "possession": 58.6,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            }
-          }
-        }
-      ],
-      "current": {
-        "minute": 81,
-        "recorded_at": "2026-09-20T14:11:35.256Z",
-        "observed": true,
-        "interpolated": false,
-        "score": {
-          "home": 2,
-          "away": 2
-        },
-        "team_power": {
-          "home": 57,
-          "away": 43
-        },
-        "goal_power": {
-          "home": 22,
-          "away": 16
-        },
-        "momentum": {
-          "home": 0,
-          "away": 0
-        },
-        "data_coverage": {
-          "home_metric_count": 4,
-          "away_metric_count": 4,
-          "common_metric_count": 4,
-          "common_metrics": [
-            "shots_on_goal",
-            "total_shots",
-            "corners",
-            "possession"
-          ],
-          "missing_metrics": [
-            "shots_inside_box",
-            "blocked_shots",
-            "expected_goals",
-            "dangerous_attacks"
-          ],
-          "ratio": 0.5,
-          "label": "medium",
-          "expected_goals_observed": {
-            "home": false,
-            "away": false
-          }
-        },
-        "stats": {
-          "home": {
-            "shots_on_goal": 4,
-            "total_shots": 17,
-            "shots_inside_box": null,
-            "blocked_shots": null,
-            "corners": 5,
-            "possession": 41.4,
-            "accurate_passes": null,
-            "total_passes": null,
-            "expected_goals": null,
-            "dangerous_attacks": null
-          },
-          "away": {
-            "shots_on_goal": 3,
-            "total_shots": 9,
-            "shots_inside_box": null,
-            "blocked_shots": null,
-            "corners": 4,
-            "possession": 58.6,
-            "accurate_passes": null,
-            "total_passes": null,
-            "expected_goals": null,
-            "dangerous_attacks": null
-          }
-        }
-      },
-      "updated_at": "2026-09-20T14:11:35.256Z"
-    },
-    {
-      "fixture_id": "401888285",
-      "provider_event_id": "401888285",
-      "provider_league_id": "3946",
-      "status": "live",
-      "api_status": "STATUS_FIRST_HALF",
-      "date": "2026-09-20",
-      "league": "Türkiye Süper Lig",
-      "home": "Erzurum BB",
-      "away": "Samsunspor",
-      "source_match": {
-        "home": "Erzurumspor Fk",
-        "away": "Samsunspor",
-        "league": "Türkiye Süper Lig",
-        "date": "2026-09-20",
-        "priority": 300
-      },
-      "source_match_similarity": 1,
-      "source": "ESPN Scoreboard embedded live statistics",
-      "source_verified": true,
-      "verification": {
-        "stats_method": "espn_scoreboard",
-        "stats_metadata": {
-          "provider_chain": [
-            "espn_scoreboard"
-          ],
-          "league_id": "3946"
-        },
-        "thesportsdb_checked": true,
-        "thesportsdb_matched": false,
-        "thesportsdb_event_id": null,
-        "thesportsdb_similarity": 0
-      },
-      "snapshots": [
-        {
-          "minute": 12,
-          "recorded_at": "2026-09-20T14:11:35.256Z",
-          "observed": true,
-          "interpolated": false,
-          "score": {
-            "home": 0,
-            "away": 0
-          },
-          "team_power": {
-            "home": 21,
-            "away": 79
-          },
-          "goal_power": {
-            "home": 0,
-            "away": 10
-          },
-          "momentum": {
-            "home": 0,
-            "away": 0
-          },
-          "data_coverage": {
-            "home_metric_count": 4,
-            "away_metric_count": 4,
-            "common_metric_count": 4,
-            "common_metrics": [
-              "shots_on_goal",
-              "total_shots",
-              "corners",
-              "possession"
-            ],
-            "missing_metrics": [
-              "shots_inside_box",
-              "blocked_shots",
-              "expected_goals",
-              "dangerous_attacks"
-            ],
-            "ratio": 0.5,
-            "label": "medium",
-            "expected_goals_observed": {
-              "home": false,
-              "away": false
-            }
-          },
-          "stats": {
-            "home": {
-              "shots_on_goal": 0,
-              "total_shots": 0,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 0,
-              "possession": 35.4,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            },
-            "away": {
-              "shots_on_goal": 0,
-              "total_shots": 1,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 2,
-              "possession": 64.6,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            }
-          }
-        }
-      ],
-      "current": {
-        "minute": 12,
-        "recorded_at": "2026-09-20T14:11:35.256Z",
-        "observed": true,
-        "interpolated": false,
-        "score": {
-          "home": 0,
-          "away": 0
-        },
-        "team_power": {
-          "home": 21,
-          "away": 79
-        },
-        "goal_power": {
-          "home": 0,
-          "away": 10
-        },
-        "momentum": {
-          "home": 0,
-          "away": 0
-        },
-        "data_coverage": {
-          "home_metric_count": 4,
-          "away_metric_count": 4,
-          "common_metric_count": 4,
-          "common_metrics": [
-            "shots_on_goal",
-            "total_shots",
-            "corners",
-            "possession"
-          ],
-          "missing_metrics": [
-            "shots_inside_box",
-            "blocked_shots",
-            "expected_goals",
-            "dangerous_attacks"
-          ],
-          "ratio": 0.5,
-          "label": "medium",
-          "expected_goals_observed": {
-            "home": false,
-            "away": false
-          }
-        },
-        "stats": {
-          "home": {
-            "shots_on_goal": 0,
-            "total_shots": 0,
-            "shots_inside_box": null,
-            "blocked_shots": null,
-            "corners": 0,
-            "possession": 35.4,
-            "accurate_passes": null,
-            "total_passes": null,
-            "expected_goals": null,
-            "dangerous_attacks": null
-          },
-          "away": {
-            "shots_on_goal": 0,
-            "total_shots": 1,
-            "shots_inside_box": null,
-            "blocked_shots": null,
-            "corners": 2,
-            "possession": 64.6,
-            "accurate_passes": null,
-            "total_passes": null,
-            "expected_goals": null,
-            "dangerous_attacks": null
-          }
-        }
-      },
-      "updated_at": "2026-09-20T14:11:35.256Z"
-    },
-    {
-      "fixture_id": "401888287",
-      "provider_event_id": "401888287",
-      "provider_league_id": "3946",
-      "status": "live",
-      "api_status": "STATUS_FIRST_HALF",
-      "date": "2026-09-20",
-      "league": "Türkiye Süper Lig",
-      "home": "Fenerbahce",
-      "away": "Eyupspor",
-      "source_match": {
-        "home": "Fenerbahçe",
-        "away": "Eyüpspor",
-        "league": "Türkiye Süper Lig",
-        "date": "2026-09-20",
-        "priority": 300
-      },
-      "source_match_similarity": 1,
-      "source": "ESPN Scoreboard embedded live statistics",
-      "source_verified": true,
-      "verification": {
-        "stats_method": "espn_scoreboard",
-        "stats_metadata": {
-          "provider_chain": [
-            "espn_scoreboard"
-          ],
-          "league_id": "3946"
-        },
-        "thesportsdb_checked": true,
-        "thesportsdb_matched": true,
-        "thesportsdb_event_id": "2527770",
-        "thesportsdb_similarity": 1
-      },
-      "snapshots": [
-        {
-          "minute": 11,
-          "recorded_at": "2026-09-20T14:11:35.256Z",
-          "observed": true,
-          "interpolated": false,
-          "score": {
-            "home": 2,
-            "away": 0
-          },
-          "team_power": {
-            "home": 89,
-            "away": 11
-          },
-          "goal_power": {
-            "home": 69,
-            "away": 3
-          },
-          "momentum": {
-            "home": 0,
-            "away": 0
-          },
-          "data_coverage": {
-            "home_metric_count": 4,
-            "away_metric_count": 4,
-            "common_metric_count": 4,
-            "common_metrics": [
-              "shots_on_goal",
-              "total_shots",
-              "corners",
-              "possession"
-            ],
-            "missing_metrics": [
-              "shots_inside_box",
-              "blocked_shots",
-              "expected_goals",
-              "dangerous_attacks"
-            ],
-            "ratio": 0.5,
-            "label": "medium",
-            "expected_goals_observed": {
-              "home": false,
-              "away": false
-            }
-          },
-          "stats": {
-            "home": {
-              "shots_on_goal": 2,
-              "total_shots": 3,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 0,
-              "possession": 53.5,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            },
-            "away": {
-              "shots_on_goal": 0,
-              "total_shots": 1,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 0,
-              "possession": 46.5,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            }
-          }
-        }
-      ],
-      "current": {
-        "minute": 11,
-        "recorded_at": "2026-09-20T14:11:35.256Z",
-        "observed": true,
-        "interpolated": false,
-        "score": {
-          "home": 2,
-          "away": 0
-        },
-        "team_power": {
-          "home": 89,
-          "away": 11
-        },
-        "goal_power": {
-          "home": 69,
-          "away": 3
-        },
-        "momentum": {
-          "home": 0,
-          "away": 0
-        },
-        "data_coverage": {
-          "home_metric_count": 4,
-          "away_metric_count": 4,
-          "common_metric_count": 4,
-          "common_metrics": [
-            "shots_on_goal",
-            "total_shots",
-            "corners",
-            "possession"
-          ],
-          "missing_metrics": [
-            "shots_inside_box",
-            "blocked_shots",
-            "expected_goals",
-            "dangerous_attacks"
-          ],
-          "ratio": 0.5,
-          "label": "medium",
-          "expected_goals_observed": {
-            "home": false,
-            "away": false
-          }
-        },
-        "stats": {
-          "home": {
-            "shots_on_goal": 2,
-            "total_shots": 3,
-            "shots_inside_box": null,
-            "blocked_shots": null,
-            "corners": 0,
-            "possession": 53.5,
-            "accurate_passes": null,
-            "total_passes": null,
-            "expected_goals": null,
-            "dangerous_attacks": null
-          },
-          "away": {
-            "shots_on_goal": 0,
-            "total_shots": 1,
-            "shots_inside_box": null,
-            "blocked_shots": null,
-            "corners": 0,
-            "possession": 46.5,
-            "accurate_passes": null,
-            "total_passes": null,
-            "expected_goals": null,
-            "dangerous_attacks": null
-          }
-        }
-      },
-      "updated_at": "2026-09-20T14:11:35.256Z"
-    },
-    {
-      "fixture_id": "401899619",
-      "provider_event_id": "401899619",
-      "provider_league_id": "3931",
-      "status": "live",
-      "api_status": "STATUS_SECOND_HALF",
-      "date": "2026-09-20",
-      "league": "İtalya Serie B",
-      "home": "Arezzo",
-      "away": "Sudtirol",
-      "source_match": {
-        "home": "Arezzo",
-        "away": "Sudtirol",
-        "league": "İtalya Serie B",
-        "date": "2026-09-20",
-        "priority": 300
-      },
-      "source_match_similarity": 1,
-      "source": "ESPN Scoreboard embedded live statistics",
-      "source_verified": true,
-      "verification": {
-        "stats_method": "espn_scoreboard",
-        "stats_metadata": {
-          "provider_chain": [
-            "espn_scoreboard"
-          ],
-          "league_id": "3931"
-        },
-        "thesportsdb_checked": true,
-        "thesportsdb_matched": true,
-        "thesportsdb_event_id": "2547722",
-        "thesportsdb_similarity": 1
-      },
-      "snapshots": [
-        {
-          "minute": 46,
-          "recorded_at": "2026-09-20T14:11:35.256Z",
-          "observed": true,
-          "interpolated": false,
-          "score": {
-            "home": 0,
-            "away": 1
-          },
-          "team_power": {
-            "home": 26,
-            "away": 74
-          },
-          "goal_power": {
-            "home": 3,
-            "away": 9
-          },
-          "momentum": {
-            "home": 0,
-            "away": 0
-          },
-          "data_coverage": {
-            "home_metric_count": 4,
-            "away_metric_count": 4,
-            "common_metric_count": 4,
-            "common_metrics": [
-              "shots_on_goal",
-              "total_shots",
-              "corners",
-              "possession"
-            ],
-            "missing_metrics": [
-              "shots_inside_box",
-              "blocked_shots",
-              "expected_goals",
-              "dangerous_attacks"
-            ],
-            "ratio": 0.5,
-            "label": "medium",
-            "expected_goals_observed": {
-              "home": false,
-              "away": false
-            }
-          },
-          "stats": {
-            "home": {
-              "shots_on_goal": 0,
-              "total_shots": 1,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 3,
-              "possession": 33.1,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            },
-            "away": {
-              "shots_on_goal": 1,
-              "total_shots": 2,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 0,
-              "possession": 66.9,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            }
-          }
-        }
-      ],
-      "current": {
-        "minute": 46,
-        "recorded_at": "2026-09-20T14:11:35.256Z",
-        "observed": true,
-        "interpolated": false,
-        "score": {
-          "home": 0,
-          "away": 1
-        },
-        "team_power": {
-          "home": 26,
-          "away": 74
-        },
-        "goal_power": {
-          "home": 3,
-          "away": 9
-        },
-        "momentum": {
-          "home": 0,
-          "away": 0
-        },
-        "data_coverage": {
-          "home_metric_count": 4,
-          "away_metric_count": 4,
-          "common_metric_count": 4,
-          "common_metrics": [
-            "shots_on_goal",
-            "total_shots",
-            "corners",
-            "possession"
-          ],
-          "missing_metrics": [
-            "shots_inside_box",
-            "blocked_shots",
-            "expected_goals",
-            "dangerous_attacks"
-          ],
-          "ratio": 0.5,
-          "label": "medium",
-          "expected_goals_observed": {
-            "home": false,
-            "away": false
-          }
-        },
-        "stats": {
-          "home": {
-            "shots_on_goal": 0,
-            "total_shots": 1,
-            "shots_inside_box": null,
-            "blocked_shots": null,
-            "corners": 3,
-            "possession": 33.1,
-            "accurate_passes": null,
-            "total_passes": null,
-            "expected_goals": null,
-            "dangerous_attacks": null
-          },
-          "away": {
-            "shots_on_goal": 1,
-            "total_shots": 2,
-            "shots_inside_box": null,
-            "blocked_shots": null,
-            "corners": 0,
-            "possession": 66.9,
-            "accurate_passes": null,
-            "total_passes": null,
-            "expected_goals": null,
-            "dangerous_attacks": null
-          }
-        }
-      },
-      "updated_at": "2026-09-20T14:11:35.256Z"
-    },
-    {
-      "fixture_id": "401882514",
-      "provider_event_id": "401882514",
-      "provider_league_id": "20956",
-      "status": "live",
-      "api_status": "STATUS_FIRST_HALF",
-      "date": "2026-09-20",
-      "league": "İspanya Kadınlar Primera Lig",
-      "home": "CD Tenerife",
-      "away": "Sevilla",
-      "source_match": {
-        "home": "Tenerife (K)",
-        "away": "Sevilla (K)",
-        "league": "İspanya Kadınlar Primera Lig",
-        "date": "2026-09-20",
-        "priority": 200
-      },
-      "source_match_similarity": 0.96,
-      "source": "ESPN Scoreboard embedded live statistics",
-      "source_verified": true,
-      "verification": {
-        "stats_method": "espn_scoreboard",
-        "stats_metadata": {
-          "provider_chain": [
-            "espn_scoreboard"
-          ],
-          "league_id": "20956"
-        },
-        "thesportsdb_checked": true,
-        "thesportsdb_matched": false,
-        "thesportsdb_event_id": null,
-        "thesportsdb_similarity": 0
-      },
-      "snapshots": [
-        {
-          "minute": 4,
-          "recorded_at": "2026-09-20T10:05:53.435Z",
-          "observed": true,
-          "interpolated": false,
-          "score": {
-            "home": 0,
-            "away": 0
-          },
-          "team_power": {
-            "home": 47,
-            "away": 53
-          },
-          "goal_power": {
-            "home": 0,
-            "away": 0
-          },
-          "momentum": {
-            "home": null,
-            "away": null
-          },
-          "data_coverage": {
-            "home_metric_count": 4,
-            "away_metric_count": 4,
-            "common_metric_count": 4,
-            "common_metrics": [
-              "shots_on_goal",
-              "total_shots",
-              "corners",
-              "possession"
-            ],
-            "missing_metrics": [
-              "shots_inside_box",
-              "blocked_shots",
-              "expected_goals",
-              "dangerous_attacks"
-            ],
-            "ratio": 0.5,
-            "label": "medium",
-            "expected_goals_observed": {
-              "home": false,
-              "away": false
-            }
-          },
-          "stats": {
-            "home": {
-              "shots_on_goal": 0,
-              "total_shots": 0,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 0,
-              "possession": 46.7,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            },
-            "away": {
-              "shots_on_goal": 0,
-              "total_shots": 0,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 0,
-              "possession": 53.3,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            }
-          }
-        },
-        {
-          "minute": 5,
-          "recorded_at": "2026-09-20T10:05:54.952Z",
-          "observed": true,
-          "interpolated": false,
-          "score": {
-            "home": 0,
-            "away": 0
-          },
-          "team_power": {
-            "home": 47,
-            "away": 53
-          },
-          "goal_power": {
-            "home": 0,
-            "away": 0
-          },
-          "momentum": {
-            "home": 0,
-            "away": 0
-          },
-          "data_coverage": {
-            "home_metric_count": 4,
-            "away_metric_count": 4,
-            "common_metric_count": 4,
-            "common_metrics": [
-              "shots_on_goal",
-              "total_shots",
-              "corners",
-              "possession"
-            ],
-            "missing_metrics": [
-              "shots_inside_box",
-              "blocked_shots",
-              "expected_goals",
-              "dangerous_attacks"
-            ],
-            "ratio": 0.5,
-            "label": "medium",
-            "expected_goals_observed": {
-              "home": false,
-              "away": false
-            }
-          },
-          "stats": {
-            "home": {
-              "shots_on_goal": 0,
-              "total_shots": 0,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 0,
-              "possession": 46.7,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            },
-            "away": {
-              "shots_on_goal": 0,
-              "total_shots": 0,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 0,
-              "possession": 53.3,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            }
-          }
-        }
-      ],
-      "current": {
-        "minute": 5,
-        "recorded_at": "2026-09-20T10:05:54.952Z",
-        "observed": true,
-        "interpolated": false,
-        "score": {
-          "home": 0,
-          "away": 0
-        },
-        "team_power": {
-          "home": 47,
-          "away": 53
-        },
-        "goal_power": {
-          "home": 0,
-          "away": 0
-        },
-        "momentum": {
-          "home": 0,
-          "away": 0
-        },
-        "data_coverage": {
-          "home_metric_count": 4,
-          "away_metric_count": 4,
-          "common_metric_count": 4,
-          "common_metrics": [
-            "shots_on_goal",
-            "total_shots",
-            "corners",
-            "possession"
-          ],
-          "missing_metrics": [
-            "shots_inside_box",
-            "blocked_shots",
-            "expected_goals",
-            "dangerous_attacks"
-          ],
-          "ratio": 0.5,
-          "label": "medium",
-          "expected_goals_observed": {
-            "home": false,
-            "away": false
-          }
-        },
-        "stats": {
-          "home": {
-            "shots_on_goal": 0,
-            "total_shots": 0,
-            "shots_inside_box": null,
-            "blocked_shots": null,
-            "corners": 0,
-            "possession": 46.7,
-            "accurate_passes": null,
-            "total_passes": null,
-            "expected_goals": null,
-            "dangerous_attacks": null
-          },
-          "away": {
-            "shots_on_goal": 0,
-            "total_shots": 0,
-            "shots_inside_box": null,
-            "blocked_shots": null,
-            "corners": 0,
-            "possession": 53.3,
-            "accurate_passes": null,
-            "total_passes": null,
-            "expected_goals": null,
-            "dangerous_attacks": null
-          }
-        }
-      },
-      "updated_at": "2026-09-20T10:05:54.952Z"
-    },
-    {
-      "fixture_id": "401882511",
-      "provider_event_id": "401882511",
-      "provider_league_id": "20956",
-      "status": "live",
-      "api_status": "STATUS_FIRST_HALF",
-      "date": "2026-09-20",
-      "league": "İspanya Kadınlar Primera Lig",
-      "home": "Granada",
-      "away": "Deportivo",
-      "source_match": {
-        "home": "Granada (K)",
-        "away": "Deportivo De La",
-        "league": "İspanya Kadınlar Primera Lig",
-        "date": "2026-09-20",
-        "priority": 200
-      },
-      "source_match_similarity": 0.96,
-      "source": "ESPN Scoreboard embedded live statistics",
-      "source_verified": true,
-      "verification": {
-        "stats_method": "espn_scoreboard",
-        "stats_metadata": {
-          "provider_chain": [
-            "espn_scoreboard"
-          ],
-          "league_id": "20956"
-        },
-        "thesportsdb_checked": true,
-        "thesportsdb_matched": false,
-        "thesportsdb_event_id": null,
-        "thesportsdb_similarity": 0
-      },
-      "snapshots": [
-        {
-          "minute": 5,
-          "recorded_at": "2026-09-20T10:05:53.435Z",
-          "observed": true,
-          "interpolated": false,
-          "score": {
-            "home": 0,
-            "away": 0
-          },
-          "team_power": {
-            "home": 6,
-            "away": 94
-          },
-          "goal_power": {
-            "home": 0,
-            "away": 4
-          },
-          "momentum": {
-            "home": null,
-            "away": null
-          },
-          "data_coverage": {
-            "home_metric_count": 4,
-            "away_metric_count": 4,
-            "common_metric_count": 4,
-            "common_metrics": [
-              "shots_on_goal",
-              "total_shots",
-              "corners",
-              "possession"
-            ],
-            "missing_metrics": [
-              "shots_inside_box",
-              "blocked_shots",
-              "expected_goals",
-              "dangerous_attacks"
-            ],
-            "ratio": 0.5,
-            "label": "medium",
-            "expected_goals_observed": {
-              "home": false,
-              "away": false
-            }
-          },
-          "stats": {
-            "home": {
-              "shots_on_goal": 0,
-              "total_shots": 0,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 0,
-              "possession": 8,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            },
-            "away": {
-              "shots_on_goal": 0,
-              "total_shots": 1,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 0,
-              "possession": 92,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            }
-          }
-        },
-        {
-          "minute": 6,
-          "recorded_at": "2026-09-20T10:05:54.952Z",
-          "observed": true,
-          "interpolated": false,
-          "score": {
-            "home": 0,
-            "away": 0
-          },
-          "team_power": {
-            "home": 6,
-            "away": 94
-          },
-          "goal_power": {
-            "home": 0,
-            "away": 4
-          },
-          "momentum": {
-            "home": 0,
-            "away": 0
-          },
-          "data_coverage": {
-            "home_metric_count": 4,
-            "away_metric_count": 4,
-            "common_metric_count": 4,
-            "common_metrics": [
-              "shots_on_goal",
-              "total_shots",
-              "corners",
-              "possession"
-            ],
-            "missing_metrics": [
-              "shots_inside_box",
-              "blocked_shots",
-              "expected_goals",
-              "dangerous_attacks"
-            ],
-            "ratio": 0.5,
-            "label": "medium",
-            "expected_goals_observed": {
-              "home": false,
-              "away": false
-            }
-          },
-          "stats": {
-            "home": {
-              "shots_on_goal": 0,
-              "total_shots": 0,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 0,
-              "possession": 7.7,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            },
-            "away": {
-              "shots_on_goal": 0,
-              "total_shots": 1,
-              "shots_inside_box": null,
-              "blocked_shots": null,
-              "corners": 0,
-              "possession": 92.3,
-              "accurate_passes": null,
-              "total_passes": null,
-              "expected_goals": null,
-              "dangerous_attacks": null
-            }
-          }
-        }
-      ],
-      "current": {
-        "minute": 6,
-        "recorded_at": "2026-09-20T10:05:54.952Z",
-        "observed": true,
-        "interpolated": false,
-        "score": {
-          "home": 0,
-          "away": 0
-        },
-        "team_power": {
-          "home": 6,
-          "away": 94
-        },
-        "goal_power": {
-          "home": 0,
-          "away": 4
-        },
-        "momentum": {
-          "home": 0,
-          "away": 0
-        },
-        "data_coverage": {
-          "home_metric_count": 4,
-          "away_metric_count": 4,
-          "common_metric_count": 4,
-          "common_metrics": [
-            "shots_on_goal",
-            "total_shots",
-            "corners",
-            "possession"
-          ],
-          "missing_metrics": [
-            "shots_inside_box",
-            "blocked_shots",
-            "expected_goals",
-            "dangerous_attacks"
-          ],
-          "ratio": 0.5,
-          "label": "medium",
-          "expected_goals_observed": {
-            "home": false,
-            "away": false
-          }
-        },
-        "stats": {
-          "home": {
-            "shots_on_goal": 0,
-            "total_shots": 0,
-            "shots_inside_box": null,
-            "blocked_shots": null,
-            "corners": 0,
-            "possession": 7.7,
-            "accurate_passes": null,
-            "total_passes": null,
-            "expected_goals": null,
-            "dangerous_attacks": null
-          },
-          "away": {
-            "shots_on_goal": 0,
-            "total_shots": 1,
-            "shots_inside_box": null,
-            "blocked_shots": null,
-            "corners": 0,
-            "possession": 92.3,
-            "accurate_passes": null,
-            "total_passes": null,
-            "expected_goals": null,
-            "dangerous_attacks": null
-          }
-        }
-      },
-      "updated_at": "2026-09-20T10:05:54.952Z"
     }
   ],
   "provider_errors": []
