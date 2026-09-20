@@ -179,6 +179,18 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Geri alma: Realtime UI/collector katmani ayriktir. Supabase Realtime gecici kullanilamazsa 30 dakikalik mevcut GitHub snapshot sistemi kullanici ekranini veri yokmus gibi birakmadan fallback olarak devam eder.
 
 ## PRO Robot Islem Gunlugu
+### 2026-09-20 - ESPN Devre Skoru Linescore Koprusu V1
+
+- Amac: Ilk Yari KG, Ikinci Yari KG ve IY/MS tahminlerinin full-time skor bulunmasina ragmen half-time skor eksikligi nedeniyle pending kalmasini azaltmak.
+- Kaynak: ESPN scoreboard competitor nesnelerinde linescores[] period bazli skor degerleri bulunabilir. Yalniz iki takim icin de ilk period degeri sayisal ise half_time_score uretilir.
+- Duzeltme: scripts/update-final-scores.js icine firstPeriodScore eklendi. espnResults full-time skor yaninda linescores[0] degerlerinden half_time_score uretir.
+- Fail-closed: linescores alani yoksa, bos veya sayisal degilse half_time_score bos kalir. Devre sonucu full-time skordan tahmin edilmez.
+- Zincir etkisi: Dogrulanmis ESPN half_time_score direct learning result bridge ve learning-score-linker uzerinden Ilk/Ikinci Yari KG ile IY/MS finalizer'ina ulasabilir.
+- Test: tests/learning-market-settlement.test.js ESPN linescores [1,2]/[1,1] orneginden devre skorunun 1-1 oldugunu ve linescores olmadiginda bos sonuc kaldigini dogrular. Robot Learning CI run 35479548694 Node 20 ve Node 24 success.
+- Etkilenen dosyalar: scripts/update-final-scores.js, tests/learning-market-settlement.test.js, DONT_TOUCH.md.
+- Vercel: kullanilmadi.
+- PR: #107 ESPN devre skorunu ogrenme zincirine ekle, dal feat/espn-halftime-linescore-v1-20260920.
+
 ### 2026-09-20 - Final Skor -> Ogrenme Hafizasi Dogrudan Koprusu V1
 
 - Kok neden: Learning score linker yalnız robot_match_archive ve live-matches icindeki skorlu maclara bakiyordu. Oysa learning-memory tahminleri mevcut PRO ciktilarindan geliyor ve bu maclarin buyuk bolumu robot_match_archive icinde bulunmuyor. 20 Eylul kontrolunde 1718 pending tahminin 1096'si 15-19 Eylul tarihli eski maclardi. Bu 1096 tahminden yalniz 5'i 2162 skorlu arsiv maciyla exact/fuzzy eslesebildi; kapsama %0.5 idi. Diger 1091 tahminde ayni tarihli skorlu arsiv satirlari olsa bile takim ciftleri ilgili mac degildi.
