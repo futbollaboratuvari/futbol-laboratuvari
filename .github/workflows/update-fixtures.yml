@@ -112,6 +112,7 @@ jobs:
           node scripts/team-style-note.js
           node scripts/pre-match-final-check.js
           node scripts/team-status-apply.js
+          node scripts/build-match-detail-center.js
           node scripts/band-lite.js
           node scripts/card-flow-lite.js
           node scripts/cards-user-choice.js
@@ -123,6 +124,7 @@ jobs:
           node tests/source-consensus.test.js
           node tests/pre-match-final-check.test.js
           node tests/source-consensus-band.test.js
+          node tests/match-detail-center.test.js
 
       - name: Update robot learning archive
         continue-on-error: true
@@ -206,6 +208,7 @@ jobs:
           node scripts/lineup-lite.js
           node scripts/source-consensus.js
           node scripts/team-status-apply.js
+          node scripts/build-match-detail-center.js
           node scripts/band-lite.js
 
       - name: Resolve final scores and publish performance

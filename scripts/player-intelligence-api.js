@@ -130,6 +130,8 @@ function normalizeFixture(item) {
     date: iso.slice(0, 10),
     time: iso.slice(11, 16),
     status: String(item?.fixture?.status?.short || item?.fixture?.status?.long || ""),
+    referee: String(item?.fixture?.referee || ""),
+    venue: String(item?.fixture?.venue?.name || ""),
     league: String(item?.league?.name || ""),
     home: { id: Number(item?.teams?.home?.id) || null, name: String(item?.teams?.home?.name || "") },
     away: { id: Number(item?.teams?.away?.id) || null, name: String(item?.teams?.away?.name || "") },
@@ -448,6 +450,9 @@ function buildOutput(matches, cache, errors = [], requestCount = 0) {
       away: match.away,
       fixture_id: fixture?.fixture_id || null,
       fixture_status: fixture?.status || "",
+      referee: fixture?.referee || "",
+      referee_source: fixture?.referee ? "API-Football fixtures" : "",
+      venue: fixture?.venue || "",
       home_team: home,
       away_team: away,
     });

@@ -120,6 +120,12 @@ try {
 }
 
 try {
+  require("./build-match-detail-center").run();
+} catch (error) {
+  throw new Error(`Mac Detay Merkezi hazirlanamadi: ${error.message}`);
+}
+
+try {
   require("./band-lite").runBandLite();
 } catch (error) {
   console.warn(`Bant sinyalleri yenilenemedi: ${error.message}`);

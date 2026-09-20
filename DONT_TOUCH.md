@@ -179,6 +179,20 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Geri alma: Realtime UI/collector katmani ayriktir. Supabase Realtime gecici kullanilamazsa 30 dakikalik mevcut GitHub snapshot sistemi kullanici ekranini veri yokmus gibi birakmadan fallback olarak devam eder.
 
 ## PRO Robot Islem Gunlugu
+### 2026-09-20 - Maç İstatistik Merkezi ve PRO veri köprüsü V1
+
+- Amaç/kök neden: Futbol Bülteni maç satırlarında özet oran ve takım istihbaratı bulunmasına rağmen kullanıcı aynı maç için puan tablosu, rekabet geçmişi, son maçlar, kadrolar, korner-kart ve hakem verisini tek merkezde inceleyemiyordu. Mevcut doğrulanmış sinyaller ayrı dosyalarda kaldığı için bu alanlar ortak PRO bağlamı olarak da tek nesnede toplanmıyordu.
+- Değişiklik: Ayrık `scripts/build-match-detail-center.js` üreticisi güncel bülteni; puan, kadro, takım durumu, API-Football fixture ve doğrulanmış robot maç arşiviyle eşleştirir. Kompakt kamu çıktısı `data/match-detail-center.json` olur. Aynı doğrulanmış bağlam `match_detail_context` ve `team_intelligence.match_detail_context` altında güncel bülten maçlarına eklenir; mevcut model olasılığı, market kararı veya kupon eşiği yeniden yazılmaz.
+- Kullanıcı görünümü: `match-detail-center.js` ve `match-detail-center.css`, açık maç detayına mobil uyumlu “Maç İstatistik Merkezini Aç” düğmesi ekler. Merkez 7 sekme sunar: Özet, Puan Tablosu, Rekabet Geçmişi, Son Maçlar, Kadrolar, Korner & Kart ve Hakem. Yeni katman `daily-matches-widget.js` dosyasını yeniden yazmaz; mevcut `window.__flDailyWidget` bağlantısını tüketir.
+- Hakem kaynağı: Mevcut API-Football fixture normalizasyonu açık `fixture.referee` ve `fixture.venue.name` alanlarını taşır. Hakem adı yoksa isim veya istatistik uydurulmaz; sekme “veri bekleniyor” durumunda kalır.
+- Veri/provenance: Yalnız açık isimli sinyal alanları ve doğrulanmış sonuç arşivi kullanılır. `raw_market_guess_odds` ve anonim ham bloklar detay merkezine veya robot bağlamına alınmaz. Puan verisinde `played=0` gerçek tablo sayılmaz. Eksik H2H, kadro, kart/korner veya hakem verisi fail-closed görünür.
+- Robot etkisi: Dört maç önü uzmanının okuyabildiği ortak maç nesnesine puan/form, doğrulanmış son maç/H2H, disiplin ortalaması ve hakem bağlamı eklenir. Bu V1 yalnız veri köprüsüdür; KG, gol, İY/MS veya taraf uzmanlarının skor ağırlıkları ve value kapıları değiştirilmez. Canlı maç robotunun Supabase Realtime akışı değişmez.
+- Workflow: Ana tek veri yazıcısında team-status apply sonrasında merkez üretilir; final bülten senkronunda yeniden kurulur. GitHub Pages artifact üretimi de boş veya üretilemeyen merkezde fail eder; eski/boş dosyayla sessiz yayın yapmaz.
+- Test: `tests/match-detail-center.test.js` 7 sekme sözleşmesini, puan/kadro/H2H/son maç/korner-kart/hakem birleştirmesini, ham tahmini oran izolasyonunu, eksik veride fail-closed davranışı ve PRO bağlam bağlantısını kilitler. JavaScript syntax kontrolleri ve hedefli test yerelde başarıyla geçmiştir.
+- Etkilenen dosyalar: `scripts/build-match-detail-center.js`, `match-detail-center.js`, `match-detail-center.css`, `tests/match-detail-center.test.js`, `scripts/player-intelligence-api.js`, `scripts/vercel-build.js`, `.github/workflows/update-fixtures.yml`, `package.json`, `index.html`, `DONT_TOUCH.md`.
+- Geliştirme dalı: `feat/match-detail-center-v1-20260920`. PR/CI, main merge, GitHub Pages ve custom-domain gerçek kullanıcı doğrulaması tamamlandığında kapanış kanıtı ayrıca eklenecektir.
+- Geri alma: Yeni üretici, veri dosyası ve UI modülü ayrık katmandır. Workflow çağrıları ile index bağlantıları kaldırılarak mevcut bülten/robot davranışına dönülebilir; sonuç ve öğrenme hafızası silinmez.
+
 ### 2026-09-20 - Premium Basari Olcumu Forward-Only V1
 
 - Amac: Accuracy-first premium politikanin gercek performansini geriye donuk secim/yeniden etiketleme olmadan olcmek.
