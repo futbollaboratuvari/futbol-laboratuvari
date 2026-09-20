@@ -179,6 +179,16 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Geri alma: Realtime UI/collector katmani ayriktir. Supabase Realtime gecici kullanilamazsa 30 dakikalik mevcut GitHub snapshot sistemi kullanici ekranini veri yokmus gibi birakmadan fallback olarak devam eder.
 
 ## PRO Robot Islem Gunlugu
+### 2026-09-20 - Eski Pending Ogrenme Saglik Alarmi V1
+
+- Kok neden: Result tracking health daha once en az bir skor bagliysa veya arsivde skorlu mac varsa `ok` olabiliyordu. Bu nedenle 1000+ eski pending tahmin varken bile sistem yesil gorunebiliyordu.
+- Duzeltme: Europe/Istanbul bugun tarihinden daha eski olup status=pending kalan tahminler stale pending olarak ayri sayilir. Stale backlog sifirdan buyukse result-tracking-health ve prediction-measurement-health `warning` olur.
+- Gorunurluk: stale count, en eski/yeni stale tarih, tarih bazli dagilim, en yogun marketler ve ornek kayitlar health JSON'a yazilir.
+- Test: tests/learning-health-stale.test.js Istanbul gun donumunu, eski pending sayimini ve bugunun/measured kayitlarin false-positive olmamasini kilitler. Robot Learning CI run 35479747737 success.
+- Etkilenen dosyalar: scripts/learning-health-utils.js, scripts/result-tracking-health-check.js, scripts/prediction-measurement-health-check.js, tests/learning-health-stale.test.js, .github/workflows/robot-learning-ci.yml, DONT_TOUCH.md.
+- Vercel: kullanilmadi.
+- PR: #108 Eski pending ogrenme yiginini saglik alarmina bagla, dal feat/stale-learning-health-v1-20260920.
+
 ### 2026-09-20 - ESPN Devre Skoru Linescore Koprusu V1
 
 - Amac: Ilk Yari KG, Ikinci Yari KG ve IY/MS tahminlerinin full-time skor bulunmasina ragmen half-time skor eksikligi nedeniyle pending kalmasini azaltmak.

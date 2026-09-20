@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { stalePendingStats } = require("./learning-health-utils");
 
 const root = path.join(__dirname, "..");
 const memoryFile = path.join(root, "data", "learning-memory.json");
@@ -30,13 +31,14 @@ function runPredictionMeasurementHealthCheck() {
   const won = predictions.filter((p) => p.status === "won");
   const lost = predictions.filter((p) => p.status === "lost");
   const scoredPending = pending.filter((p) => hasScore(p.result_score));
+  const stalePending = stalePendingStats(predictions);
   const measured = won.length + lost.length;
   const watchOnly = predictions.length === 0 && resultTracking.status === "izleme";
   const status = watchOnly
     ? "izleme"
     : predictions.length === 0
       ? "empty"
-      : scoredPending.length
+      : scoredPending.length || stalePending.stale_count > 0
         ? "warning"
         : measured > 0
           ? "ok"
@@ -50,6 +52,12 @@ function runPredictionMeasurementHealthCheck() {
     won_count: won.length,
     lost_count: lost.length,
     scored_pending_count: scoredPending.length,
+    stale_pending_count: stalePending.stale_count,
+    stale_pending_oldest_date: stalePending.oldest_date,
+    stale_pending_newest_date: stalePending.newest_stale_date,
+    stale_pending_by_date: stalePending.by_date,
+    stale_pending_top_markets: stalePending.top_markets,
+    stale_pending_examples: stalePending.examples,
     last_checked: finalizer.checked || 0,
     last_updated: finalizer.updated || 0,
     scored_pending_examples: scoredPending.slice(0, 50).map((p) => ({ id: p.id, match_name: p.match_name, market: p.market, result_score: p.result_score })),
@@ -59,7 +67,9 @@ function runPredictionMeasurementHealthCheck() {
         ? "Olculecek tahmin yok. Izleme devam."
         : status === "waiting"
           ? "Bekleyen tahminler icin dogrulanmis final skor bekleniyor."
-          : "Skoru olan pending tahminler finalizer tarafindan olculmeli."
+          : stalePending.stale_count > 0
+        ? "Eski pending tahminler final skor koprusuyle baglanip finalizer tarafindan olculmeli."
+        : "Skoru olan pending tahminler finalizer tarafindan olculmeli."
   };
   const md = [
     "# Tahmin Olcum Saglik Kontrolu",
@@ -71,6 +81,8 @@ function runPredictionMeasurementHealthCheck() {
     `Kazanan: ${report.won_count}`,
     `Kaybeden: ${report.lost_count}`,
     `Skoru olup pending kalan: ${report.scored_pending_count}`,
+    `Eski pending tahmin: ${report.stale_pending_count}`,
+    `En eski pending tarihi: ${report.stale_pending_oldest_date || "-"}`,
     `Son finalizer kontrolu: ${report.last_checked}`,
     `Son finalizer guncelleme: ${report.last_updated}`,
     "",
