@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { evaluateLearningBucket } = require("./learning-confidence");
+const couponRules = require("../pro-coupon-eligibility");
 
 const rootDir = path.join(__dirname, "..");
 const dataDir = path.join(rootDir, "data");
@@ -148,6 +149,13 @@ function buildPrediction(item, date, liveMap) {
     data_completeness: numberOrNull(item.data_completeness) || 0,
     model_version: item.model_version || "",
     risk_level: item.risk_level || item.risk || "-",
+    match_code: item.match_code || item.code || "",
+    iddaa_event_id: item.iddaa_event_id || item.official_event_id || item.event_id || "",
+    fixture_id: item.fixture_id || item.provider_event_id || item.match_id || "",
+    independent_evidence: item.independent_evidence === true,
+    include_in_coupon: item.include_in_coupon === true,
+    premium_eligible_at_prediction: Boolean(item.include_in_coupon) && couponRules.meetsCouponCriteria({ ...item }),
+    premium_policy_version: "accuracy-first-v1",
     predicted_score: item.predicted_score
       || item.score_prediction
       || (Array.isArray(item.expected_scores) ? item.expected_scores[0] : "")
