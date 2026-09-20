@@ -3,35 +3,14 @@
 Gunler: 2026-09-20 / 2026-09-21
 Kaynak: fixtures.json
 Ham mac: 610
-Aktif mac: 583
+Aktif mac: 562
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 27
-Bugun: 541
+Bultenden dusurulen mac: 48
+Bugun: 520
 Yarin: 42
 
 ## Baslamamis Maclar
-- 2026-09-20 02:30 | ABD MLS | San Jose - Los Angeles Fc | scheduled | -
-- 2026-09-20 02:30 | ABD MLS | Dc United - Charlotte | scheduled | -
-- 2026-09-20 02:30 | ABD MLS | New England - Orlando City | scheduled | -
-- 2026-09-20 02:30 | ABD MLS | Montreal - Columbus | scheduled | -
-- 2026-09-20 02:30 | Brezilya Serie A | Vasco Da Gama - Coritiba | scheduled | -
-- 2026-09-20 02:30 | ABD USL | Rhode Island - Miami Fc | scheduled | -
-- 2026-09-20 02:30 | ABD USL | Tampa Bay Rowd - Birmingham Legi | scheduled | -
-- 2026-09-20 02:30 | ABD USL Lig 1 | Sarasota Parad - Greenville Triu | scheduled | -
-- 2026-09-20 02:30 | ABD USL Lig 1 | Fort Wayne - Naples | scheduled | -
-- 2026-09-20 03:00 | Brezilya Serie A | Sao Paulo - Internacional | scheduled | -
-- 2026-09-20 03:00 | Venezuela Premier Lig Clausura | Deportivo La G - Depor Tachira | scheduled | -
-- 2026-09-20 03:00 | Ekvador Pro Lig Copa Sudamericana Play Off | Emelec - Libertad | scheduled | -
-- 2026-09-20 03:00 | Kanada Premier Lig | Pacific Fc - Vancouver Fc | scheduled | -
-- 2026-09-20 03:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Jalapa | scheduled | -
-- 2026-09-20 03:00 | ABD USL Lig 1 | Union Omaha - One Knoxville | scheduled | -
-- 2026-09-20 03:15 | Arjantin Premier Lig 2. Aşama | Instituto Cord - Talleres | scheduled | -
-- 2026-09-20 03:30 | ABD MLS | Minnesota Utd - Los Angeles | scheduled | -
-- 2026-09-20 03:30 | ABD MLS | Kansas - Philadelphia | scheduled | -
-- 2026-09-20 03:30 | ABD MLS | St. Louis City - Toronto | scheduled | -
-- 2026-09-20 03:30 | ABD MLS | Houston - Cincinnati | scheduled | -
-- 2026-09-20 03:30 | ABD MLS | Dallas - Austin | scheduled | -
 - 2026-09-20 04:00 | Meksika Ascenso MX Apertura | Monarcas - Leones Negros | scheduled | -
 - 2026-09-20 04:00 | Meksika Ascenso MX Apertura | Cancun Fc - Alebrijes | scheduled | -
 - 2026-09-20 04:00 | Meksika Ascenso MX Apertura | Jaiba Brava - Dorados | scheduled | -

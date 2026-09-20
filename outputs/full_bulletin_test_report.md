@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 587
+- Scheduled match count: 566
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-20 / 2026-09-21 23:59
 
-- 2026-09-20 02:30 | Dc United - Charlotte | scheduled
-- 2026-09-20 02:30 | Montreal - Columbus | scheduled
-- 2026-09-20 02:30 | New England - Orlando City | scheduled
-- 2026-09-20 02:30 | San Jose - Los Angeles Fc | scheduled
-- 2026-09-20 02:30 | Fort Wayne - Naples | scheduled
-- 2026-09-20 02:30 | Sarasota Parad - Greenville Triu | scheduled
-- 2026-09-20 02:30 | Rhode Island - Miami Fc | scheduled
-- 2026-09-20 02:30 | Tampa Bay Rowd - Birmingham Legi | scheduled
-- 2026-09-20 02:30 | Vasco Da Gama - Coritiba | scheduled
-- 2026-09-20 03:00 | Union Omaha - One Knoxville | scheduled
+- 2026-09-20 04:00 | Colorado Sprin - New Mexico Unit | scheduled
+- 2026-09-20 04:00 | Cancun Fc - Alebrijes | scheduled
+- 2026-09-20 04:00 | Jaiba Brava - Dorados | scheduled
+- 2026-09-20 04:00 | Monarcas - Leones Negros | scheduled
+- 2026-09-20 04:10 | Monterrey - Cruz Azul | scheduled
+- 2026-09-20 04:15 | Deportivo Past - Once Caldas | scheduled
+- 2026-09-20 04:15 | Melgar - Sport Boys | scheduled
+- 2026-09-20 04:30 | Colorado - Seattle | scheduled
+- 2026-09-20 04:30 | Nashville Sc - Chicago | scheduled
+- 2026-09-20 04:30 | Salt Lake - Vancouver | scheduled
