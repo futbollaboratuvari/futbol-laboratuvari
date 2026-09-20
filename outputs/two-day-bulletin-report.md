@@ -3,16 +3,14 @@
 Gunler: 2026-09-20 / 2026-09-21
 Kaynak: fixtures.json
 Ham mac: 610
-Aktif mac: 543
+Aktif mac: 541
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 67
-Bugun: 501
+Bultenden dusurulen mac: 69
+Bugun: 499
 Yarin: 42
 
 ## Baslamamis Maclar
-- 2026-09-20 08:30 | Hong Kong HKFA 1.Lig | Supreme Fc - Central & Weste | scheduled | -
-- 2026-09-20 09:00 | Avustralya Victoria Kadınlar Premier Lig Büyük Final | Box Hill Unite - Avondale (K) | scheduled | -
 - 2026-09-20 10:00 | Asya Oyunları Grup A | Hong Kong U23 - Tayland U23 | scheduled | -
 - 2026-09-20 10:00 | Hong Kong HKFA 1.Lig | Tung Sing - Wse | scheduled | -
 - 2026-09-20 10:30 | Güney Kore K Lig 1 | Gangwon - Jeju Utd | scheduled | -
