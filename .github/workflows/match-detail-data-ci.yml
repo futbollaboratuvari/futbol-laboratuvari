@@ -1,0 +1,40 @@
+name: Match Detail Data CI
+
+on:
+  pull_request:
+    paths:
+      - "scripts/build-full-bulletin.js"
+      - "scripts/build-match-detail-center.js"
+      - "scripts/nesine-match-detail-source.js"
+      - "match-detail-center.js"
+      - "tests/match-detail-center.test.js"
+      - "tests/nesine-match-detail-source.test.js"
+      - "package.json"
+      - ".github/workflows/match-detail-data-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  match-detail:
+    strategy:
+      matrix:
+        node: [20, 24]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Check syntax
+        run: |
+          node --check scripts/build-full-bulletin.js
+          node --check scripts/nesine-match-detail-source.js
+          node --check scripts/build-match-detail-center.js
+          node --check match-detail-center.js
+      - name: Run match detail tests
+        run: |
+          node tests/nesine-match-detail-source.test.js
+          node tests/match-detail-center.test.js
+          node tests/iddaa-market-sync.test.js
