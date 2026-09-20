@@ -1,12 +1,12 @@
 # Tahmin Kayit Saglik Kontrolu
 
 Durum: ok
-Robot analiz maci: 489
-Aday tahmin: 2
-Toplam tahmin: 2309
-Bekleyen: 1760
-Kazanan: 291
-Kaybeden: 258
+Robot analiz maci: 378
+Aday tahmin: 0
+Toplam tahmin: 2352
+Bekleyen: 1748
+Kazanan: 312
+Kaybeden: 292
 Eksik kayit: 0
 Tekrar eden: 0
 

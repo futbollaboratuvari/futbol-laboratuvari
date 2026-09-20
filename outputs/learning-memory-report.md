@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.09.2026 18:03:59
+Oluşturma: 20.09.2026 19:54:35
 
 ## Özet
 
 - Toplam tahmin: 2352
-- Bekleyen tahmin: 1749
-- Kazanan tahmin: 311
+- Bekleyen tahmin: 1748
+- Kazanan tahmin: 312
 - Kaybeden tahmin: 292
-- Lig sayısı: 343
+- Lig sayısı: 342
 - Seçenek sayısı: 13
 
 ## Öğrenme Mantığı
@@ -28,7 +28,7 @@ Oluşturma: 20.09.2026 18:03:59
 - MS 1: toplam 621, bekleyen 468, başarı %52, düz getiri %-15, ağırlık 1
 - 2.5 Alt: toplam 709, bekleyen 534, başarı %50, düz getiri %-15, ağırlık 1
 - 3.5 Üst: toplam 65, bekleyen 37, başarı %50, düz getiri %0, ağırlık 1
-- KG Yok: toplam 132, bekleyen 96, başarı %42, düz getiri %-29, ağırlık 1
+- KG Yok: toplam 132, bekleyen 95, başarı %43, düz getiri %-26, ağırlık 1
 - MS X: toplam 18, bekleyen 12, başarı %33, düz getiri %-15, ağırlık 1
 - İkinci Yarı KG Yok: toplam 9, bekleyen 9, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İlk Yarı KG Yok: toplam 5, bekleyen 5, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
@@ -43,13 +43,13 @@ Oluşturma: 20.09.2026 18:03:59
 - 2026-09-20 | Meksika Liga MX Apertura | Toluca - Santos Laguna | KG Yok | pending | 71/100
 - 2026-09-20 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Tigre | KG Yok | pending | 65/100
 - 2026-09-20 | Meksika Liga MX Apertura | Pachuca - Club Tijuana | 2.5 Alt | pending | 70/100
+- 2026-09-20 | El Salvador Primera Lig Apertura | Firpo - Balboa | KG Yok | pending | 72/100
+- 2026-09-20 | Meksika Liga MX Apertura | Queretaro - Club Leon | 2.5 Üst | pending | 62/100
+- 2026-09-20 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Cs Cartagines | 2.5 Alt | pending | 67/100
 - 2026-09-20 | Kolombiya Primera A Clausura | Deportes Tolim - America De Cali | 2.5 Alt | pending | 65/100
 - 2026-09-20 | Ekvador Pro Lig Şampiyonluk Grubu | Ldu Quito - Univ Catolica ( | 2.5 Üst | pending | 72/100
-- 2026-09-20 | El Salvador Primera Lig Apertura | Firpo - Balboa | KG Yok | pending | 72/100
 - 2026-09-20 | Meksika Kadınlar Liga MX Apertura | Atletico San L - Pachuca (K) | MS 2 | pending | 54/100
 - 2026-09-20 | Nikaragua Premier Lig Apertura | Rancho Santana - Managua | MS 2 | pending | 55/100
 - 2026-09-20 | ABD USL Lig 1 | Spokane Veloci - Athletic Club B | MS 1 | pending | 44/100
 - 2026-09-20 | ABD USL | Sacramento Rep - San Antonio | 2.5 Alt | pending | 64/100
-- 2026-09-20 | Guatemala Ulusal Lig Apertura | Suchitepequez - Xelaju | KG Var | pending | 74/100
-- 2026-09-20 | Kosta Rika Premier Lig Apertura | Alajuelense - Inter San Carlo | MS 1 | pending | 61/100
 
