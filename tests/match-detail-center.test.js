@@ -103,3 +103,47 @@ assert.ok(index.includes("match-detail-center.css?v=20260920-match-detail-center
 assert.ok(index.includes("match-detail-center.js?v=20260920-match-detail-center-v1"));
 
 console.log("Match detail center tests passed.");
+
+
+const externalDetail = buildMatchDetailCenter({
+  full: { matches: [{ ...match, iddaa_event_id: "3144394" }] },
+  standings: { matches: [] },
+  lineups: { matches: [] },
+  statuses: { matches: [] },
+  players: { matches: [] },
+  archive: { matches: [] },
+  external: {
+    source: "Nesine İstatistik",
+    matches: [{
+      id: "3144394",
+      iddaa_event_id: "3144394",
+      date: match.date,
+      home: match.home,
+      away: match.away,
+      verified_identity: true,
+      source: "Nesine İstatistik",
+      source_url: "https://istatistik.nesine.com/p1/3144394",
+      summary: { excerpt: "Doğrulanmış maç özeti" },
+      standings: {
+        structured_available: true,
+        home: { team_name: match.home, rank: 1, played: 8, points: 19, wins: 6, draws: 1, losses: 1, goals_for: 18, goals_against: 7 },
+        away: { team_name: match.away, rank: 8, played: 8, points: 8, wins: 2, draws: 2, losses: 4, goals_for: 9, goals_against: 14 },
+        excerpt: "Puan Durumu doğrulanmış kaynak metni",
+      },
+      head_to_head: {
+        structured_available: true,
+        matches: [{ date: "2026-05-01", home: match.home, away: match.away, score: "2-1", source: "Nesine İstatistik" }],
+        excerpt: "Rekabet geçmişi doğrulanmış kaynak metni",
+      },
+      recent_matches: { structured_available: false, home: [], away: [], excerpt: "Son 6 maç doğrulanmış kaynak metni" },
+      squads: { structured_available: false, excerpt: "Kadro doğrulanmış kaynak metni" },
+      corners_cards: { structured_available: false, excerpt: "Korner kart doğrulanmış kaynak metni" },
+      referee: { structured_available: false, details: null, excerpt: "Hakem doğrulanmış kaynak metni" },
+    }],
+  },
+}).matches[0];
+
+assert.strictEqual(externalDetail.standings.home.points, 19, "verified external standings should override empty local standings");
+assert.strictEqual(externalDetail.head_to_head.matches[0].score, "2-1", "verified external H2H should feed detail center");
+assert.ok(externalDetail.recent_matches.source_excerpt.includes("Son 6 maç"), "verified source excerpt must survive for UI fallback");
+assert.ok(externalDetail.provenance.sources.includes("Nesine İstatistik"), "external source provenance must be visible");
