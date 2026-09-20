@@ -1,0 +1,748 @@
+{
+  "generated_at": "2026-09-20T22:46:44.202Z",
+  "date": "2026-09-21",
+  "country_count": 8,
+  "match_count": 43,
+  "countries": {
+    "japan": {
+      "country_name": "Japonya",
+      "main_leagues": [
+        "J1 League",
+        "J2 League",
+        "J3 League"
+      ],
+      "calendar_type": "spring_autumn",
+      "style_tags": [
+        "tempo",
+        "teknik",
+        "disiplin",
+        "gecis_oyunu"
+      ],
+      "goal_tendency": "orta_yuksek",
+      "risk_note": "Uzak lig ve kadro rotasyonu bilgisi eksikse veri riski artar."
+    },
+    "germany": {
+      "country_name": "Almanya",
+      "main_leagues": [
+        "Bundesliga",
+        "2. Bundesliga",
+        "3. Liga"
+      ],
+      "calendar_type": "autumn_spring",
+      "style_tags": [
+        "pres",
+        "tempo",
+        "gollu",
+        "gecis_oyunu"
+      ],
+      "goal_tendency": "yuksek",
+      "risk_note": "Tempo yüksek olduğu için üst ve KG marketleri takip edilir."
+    },
+    "italy": {
+      "country_name": "İtalya",
+      "main_leagues": [
+        "Serie A",
+        "Serie B",
+        "Serie C"
+      ],
+      "calendar_type": "autumn_spring",
+      "style_tags": [
+        "taktik",
+        "savunma",
+        "kontrol",
+        "denge"
+      ],
+      "goal_tendency": "orta",
+      "risk_note": "Düşük tempo ve taktiksel maçlarda üst market riski artabilir."
+    },
+    "england": {
+      "country_name": "İngiltere",
+      "main_leagues": [
+        "Premier League",
+        "Championship",
+        "League One",
+        "League Two"
+      ],
+      "calendar_type": "autumn_spring",
+      "style_tags": [
+        "tempo",
+        "fizik",
+        "pres",
+        "genis_kadro"
+      ],
+      "goal_tendency": "orta_yuksek",
+      "risk_note": "Yoğun fikstür ve rotasyon kontrol edilmelidir."
+    },
+    "france": {
+      "country_name": "Fransa",
+      "main_leagues": [
+        "Ligue 1",
+        "Ligue 2"
+      ],
+      "calendar_type": "autumn_spring",
+      "style_tags": [
+        "fizik",
+        "gencler",
+        "denge",
+        "gecis_oyunu"
+      ],
+      "goal_tendency": "orta",
+      "risk_note": "Kadrolar genç ve değişken olabilir; takım haberleri önemlidir."
+    },
+    "spain": {
+      "country_name": "İspanya",
+      "main_leagues": [
+        "La Liga",
+        "Segunda Division",
+        "Primera RFEF"
+      ],
+      "calendar_type": "autumn_spring",
+      "style_tags": [
+        "pas",
+        "teknik",
+        "kontrol",
+        "set_oyunu"
+      ],
+      "goal_tendency": "orta",
+      "risk_note": "Topa sahip olma yüksek ama tempo düşükse üst market dikkat ister."
+    },
+    "austria": {
+      "country_name": "Avusturya",
+      "main_leagues": [
+        "Austrian Bundesliga",
+        "2. Liga"
+      ],
+      "calendar_type": "autumn_spring",
+      "style_tags": [
+        "pres",
+        "tempo",
+        "genc_oyuncu",
+        "gollu"
+      ],
+      "goal_tendency": "orta_yuksek",
+      "risk_note": "Genç kadrolar ve tempo sebebiyle maçtan maça dalgalanma olabilir."
+    },
+    "australia": {
+      "country_name": "Avustralya",
+      "main_leagues": [
+        "A-League Men",
+        "NPL"
+      ],
+      "calendar_type": "spring_autumn_or_summer_mix",
+      "style_tags": [
+        "acik_oyun",
+        "fizik",
+        "tempo",
+        "uzak_lig"
+      ],
+      "goal_tendency": "orta_yuksek",
+      "risk_note": "Uzak lig ve saat farkı nedeniyle veri tazeliği kontrol edilmelidir."
+    }
+  },
+  "matches": [
+    {
+      "match_name": "Estudiantes Fc VS Trujillanos",
+      "league": "Venezuela Premier Lig Clausura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Deportivo Cuen VS Mushuc Runa",
+      "league": "Ekvador Pro Lig Küme Düşme Grubu",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Tacoma Defianc VS Portland Timber",
+      "league": "ABD MLS Next Pro",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "St. Louis City VS Austin Ii",
+      "league": "ABD MLS Next Pro",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Colorado Rapid VS North Texas",
+      "league": "ABD MLS Next Pro",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Real Monarchs VS Ventura County",
+      "league": "ABD MLS Next Pro",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Houston Dynamo VS Swope Park Rang",
+      "league": "ABD MLS Next Pro",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Minnesota Unit VS Los Angeles Ii",
+      "league": "ABD MLS Next Pro",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Whitecaps Fc I VS San Jose Earthq",
+      "league": "ABD MLS Next Pro",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Indy Eleven VS Oakland Roots",
+      "league": "ABD USL",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Export Sebaco VS Matagalpa",
+      "league": "Nikaragua Premier Lig Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Juticalpa VS Marathon",
+      "league": "Honduras Ulusal Lig Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Alianza VS Municipal Limen",
+      "league": "El Salvador Primera Lig Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Platense VS Aguila",
+      "league": "El Salvador Primera Lig Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Bucaramanga VS Inter Bogota",
+      "league": "Kolombiya Primera A Clausura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Flamengo VS Bragantino",
+      "league": "Brezilya Serie A",
+      "detected_country": "italy",
+      "country_name": "İtalya",
+      "main_leagues": [
+        "Serie A",
+        "Serie B",
+        "Serie C"
+      ],
+      "calendar_type": "autumn_spring",
+      "style_tags": [
+        "taktik",
+        "savunma",
+        "kontrol",
+        "denge"
+      ],
+      "goal_tendency": "orta",
+      "league_goal_tendency_score": 55,
+      "risk_note": "Düşük tempo ve taktiksel maçlarda üst market riski artabilir.",
+      "robot_comment": "düşük tempo ve kontrollü oyun riski var"
+    },
+    {
+      "match_name": "Londrina VS Fortaleza Ce",
+      "league": "Brezilya Serie B",
+      "detected_country": "italy",
+      "country_name": "İtalya",
+      "main_leagues": [
+        "Serie A",
+        "Serie B",
+        "Serie C"
+      ],
+      "calendar_type": "autumn_spring",
+      "style_tags": [
+        "taktik",
+        "savunma",
+        "kontrol",
+        "denge"
+      ],
+      "goal_tendency": "orta",
+      "league_goal_tendency_score": 55,
+      "risk_note": "Düşük tempo ve taktiksel maçlarda üst market riski artabilir.",
+      "robot_comment": "düşük tempo ve kontrollü oyun riski var"
+    },
+    {
+      "match_name": "Paysandu VS Inter De Limeri",
+      "league": "Brezilya Serie C Grup C",
+      "detected_country": "italy",
+      "country_name": "İtalya",
+      "main_leagues": [
+        "Serie A",
+        "Serie B",
+        "Serie C"
+      ],
+      "calendar_type": "autumn_spring",
+      "style_tags": [
+        "taktik",
+        "savunma",
+        "kontrol",
+        "denge"
+      ],
+      "goal_tendency": "orta",
+      "league_goal_tendency_score": 55,
+      "risk_note": "Düşük tempo ve taktiksel maçlarda üst market riski artabilir.",
+      "robot_comment": "düşük tempo ve kontrollü oyun riski var"
+    },
+    {
+      "match_name": "Ferroviaria VS Brusque",
+      "league": "Brezilya Serie C Grup C",
+      "detected_country": "italy",
+      "country_name": "İtalya",
+      "main_leagues": [
+        "Serie A",
+        "Serie B",
+        "Serie C"
+      ],
+      "calendar_type": "autumn_spring",
+      "style_tags": [
+        "taktik",
+        "savunma",
+        "kontrol",
+        "denge"
+      ],
+      "goal_tendency": "orta",
+      "league_goal_tendency_score": 55,
+      "risk_note": "Düşük tempo ve taktiksel maçlarda üst market riski artabilir.",
+      "robot_comment": "düşük tempo ve kontrollü oyun riski var"
+    },
+    {
+      "match_name": "América (K) VS Atlas (K)",
+      "league": "Meksika Kadınlar Liga MX Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Belgrano VS Rio Cuarto",
+      "league": "Arjantin Premier Lig 2. Aşama",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Atletico Pr VS Bahia",
+      "league": "Brezilya Serie A",
+      "detected_country": "italy",
+      "country_name": "İtalya",
+      "main_leagues": [
+        "Serie A",
+        "Serie B",
+        "Serie C"
+      ],
+      "calendar_type": "autumn_spring",
+      "style_tags": [
+        "taktik",
+        "savunma",
+        "kontrol",
+        "denge"
+      ],
+      "goal_tendency": "orta",
+      "league_goal_tendency_score": 55,
+      "risk_note": "Düşük tempo ve taktiksel maçlarda üst market riski artabilir.",
+      "robot_comment": "düşük tempo ve kontrollü oyun riski var"
+    },
+    {
+      "match_name": "Inter Miami VS San Diego",
+      "league": "ABD MLS",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Liverpool Mont VS Racing Montevid",
+      "league": "Uruguay Premier Lig Clausura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Cd Tapatio VS Tlaxcala",
+      "league": "Meksika Ascenso MX Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Alajuelense VS Inter San Carlo",
+      "league": "Kosta Rika Premier Lig Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Suchitepequez VS Xelaju",
+      "league": "Guatemala Ulusal Lig Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Sacramento Rep VS San Antonio",
+      "league": "ABD USL",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Rancho Santana VS Managua",
+      "league": "Nikaragua Premier Lig Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Spokane Veloci VS Athletic Club B",
+      "league": "ABD USL Lig 1",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Atletico San L VS Pachuca (K)",
+      "league": "Meksika Kadınlar Liga MX Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Deportes Tolim VS America De Cali",
+      "league": "Kolombiya Primera A Clausura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Depor. Olimpia VS Atlético Indepe",
+      "league": "Honduras Ulusal Lig Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Ldu Quito VS Univ Catolica (",
+      "league": "Ekvador Pro Lig Şampiyonluk Grubu",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Firpo VS Balboa",
+      "league": "El Salvador Primera Lig Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Pachuca VS Club Tijuana",
+      "league": "Meksika Liga MX Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Toluca VS Santos Laguna",
+      "league": "Meksika Liga MX Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Velez Sarsfiel VS Tigre",
+      "league": "Arjantin Premier Lig 2. Aşama",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Ad San Carlos VS Cs Cartagines",
+      "league": "Kosta Rika Premier Lig Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Malacateco VS Mixco",
+      "league": "Guatemala Ulusal Lig Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Llaneros VS Atletico Nacion",
+      "league": "Kolombiya Primera A Clausura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Juticalpa VS Marathon",
+      "league": "Honduras Ulusal Lig Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "Queretaro VS Club Leon",
+      "league": "Meksika Liga MX Apertura",
+      "detected_country": "unknown",
+      "country_name": "Bilinmeyen",
+      "main_leagues": [],
+      "calendar_type": "unknown",
+      "style_tags": [],
+      "goal_tendency": "unknown",
+      "league_goal_tendency_score": 50,
+      "risk_note": "Lig yapısı tanımlanmadı.",
+      "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    }
+  ]
+}

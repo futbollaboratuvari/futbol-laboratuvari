@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 44
+- Scheduled match count: 71
 - Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-09-20 / 2026-09-21 23:59
+- Date window: 2026-09-21 / 2026-09-22 23:59
 
-- 2026-09-20 23:50 | Deportivo San - Coban Imperial | scheduled
-- 2026-09-21 00:00 | Colorado Rapid - North Texas | scheduled
-- 2026-09-21 00:00 | Houston Dynamo - Swope Park Rang | scheduled
-- 2026-09-21 00:00 | Minnesota Unit - Los Angeles Ii | scheduled
-- 2026-09-21 00:00 | Real Monarchs - Ventura County | scheduled
-- 2026-09-21 00:00 | St. Louis City - Austin Ii | scheduled
-- 2026-09-21 00:00 | Tacoma Defianc - Portland Timber | scheduled
-- 2026-09-21 00:00 | Whitecaps Fc I - San Jose Earthq | scheduled
-- 2026-09-21 00:00 | Indy Eleven - Oakland Roots | scheduled
-- 2026-09-21 00:00 | Deportivo Cuen - Mushuc Runa | scheduled
+- 2026-09-21 02:00 | Inter Miami - San Diego | scheduled
+- 2026-09-21 02:00 | Spokane Veloci - Athletic Club B | scheduled
+- 2026-09-21 02:00 | Sacramento Rep - San Antonio | scheduled
+- 2026-09-21 02:00 | Suchitepequez - Xelaju | scheduled
+- 2026-09-21 02:00 | Alajuelense - Inter San Carlo | scheduled
+- 2026-09-21 02:00 | Cd Tapatio - Tlaxcala | scheduled
+- 2026-09-21 02:00 | Atletico San L - Pachuca (K) | scheduled
+- 2026-09-21 02:00 | Rancho Santana - Managua | scheduled
+- 2026-09-21 02:00 | Liverpool Mont - Racing Montevid | scheduled
+- 2026-09-21 02:10 | Deportes Tolim - America De Cali | scheduled

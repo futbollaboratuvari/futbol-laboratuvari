@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T22:35:02.955Z",
+  "generated_at": "2026-09-20T22:48:37.233Z",
   "date": "2026-09-21",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -816,17 +816,17 @@
     }
   ],
   "performance": {
-    "prediction_count": 2424,
-    "measured_count": 726,
-    "pending_count": 1698,
+    "prediction_count": 2481,
+    "measured_count": 728,
+    "pending_count": 1753,
     "won_count": 374,
-    "lost_count": 352,
+    "lost_count": 354,
     "void_count": 0,
-    "success_rate": 52,
-    "probability_sample_count": 726,
-    "brier_score": 0.2408,
+    "success_rate": 51,
+    "probability_sample_count": 728,
+    "brier_score": 0.2407,
     "baseline_brier_score": 0.2498,
-    "brier_skill_score": 0.036,
+    "brier_skill_score": 0.0366,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -840,10 +840,10 @@
       {
         "lower": 30,
         "upper": 39,
-        "predictions": 32,
+        "predictions": 33,
         "won": 16,
         "average_probability": 36.9,
-        "observed_rate": 50
+        "observed_rate": 48.5
       },
       {
         "lower": 40,
@@ -856,10 +856,10 @@
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 344,
+        "predictions": 345,
         "won": 180,
-        "average_probability": 54.9,
-        "observed_rate": 52.3
+        "average_probability": 54.8,
+        "observed_rate": 52.2
       },
       {
         "lower": 60,
@@ -894,22 +894,22 @@
         "observed_rate": 100
       }
     ],
-    "verified_at": "2026-09-20T21:49:48.488Z",
+    "verified_at": "2026-09-20T22:48:37.074Z",
     "groups": [
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 349,
+        "measured": 350,
         "won": 175,
-        "lost": 174,
+        "lost": 175,
         "success_rate": 50
       },
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 250,
+        "measured": 251,
         "won": 132,
-        "lost": 118,
+        "lost": 119,
         "success_rate": 53
       },
       {

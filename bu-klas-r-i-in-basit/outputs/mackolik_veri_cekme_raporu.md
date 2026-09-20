@@ -1,29 +1,44 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-20T20:44:59.760808+00:00
+Tarih: 2026-09-20T22:46:11.907198+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 13
+- Kac mac bulundu: 38
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 13
-- Ham veri havuzu toplam mac sayisi: 16326
-- Hedef tarih: 20.09.2026 Europe/Istanbul
+- Kac mac zaten vardi: 38
+- Ham veri havuzu toplam mac sayisi: 16376
+- Hedef tarih: 21.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- Guatemala Ulusal Lig Apertura
-- Jamaika Premier Lig
-- Macaristan NB III Güneydoğu
-- Macaristan NB III Kuzeybatı
+- Almanya Bölgesel Lig Batı
+- Almanya Kadınlar Bundesliga
+- Arjantin Premier Lig 2. Aşama
+- Arjantin Primera C
+- Arjantin Ulusal Primera Lig
+- Bulgaristan 2.Lig
+- Danimarka 1.Lig
+- Ekvador Pro Lig Küme Düşme Grubu
+- Estonya Esiliiga A
+- Gürcistan Erovnuli Liga
+- Japonya Futbol Ligi
+- Kolombiya Primera B Clausura
 - Norveç 3.Lig Grup 2
-- Paraguay Intermedia Lig
-- Tayvan Premier Lig
-- Vietnam Kupa 1.Tur
-- İsveç 2.Lig Norra Götaland
-- İsveç 2.Lig Södra Götaland
+- Norveç 3.Lig Grup 4
+- Norveç 3.Lig Grup 6
+- Portekiz U23 Ulusal Şampiyona
+- Romanya 1.Lig
+- Slovakya 2.Lig
+- Özbekistan Super League
+- İngiltere Non League Premier Güney Merkez
+- İngiltere Premier Lig 2
+- İngiltere Professional Development Lig
+- İran Azadegan Ligi
+- İtalya Serie C Grup A
+- İtalya Serie C Grup B
 
 ## Okunabilen Oran Alanlari
 
@@ -80,8 +95,8 @@ Tarih: 2026-09-20T20:44:59.760808+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 31
-- Acilan detay: 31
+- Denenen Tumu alani: 32
+- Acilan detay: 32
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -94,19 +109,26 @@ Tarih: 2026-09-20T20:44:59.760808+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 20.09.2026 | 23:50 | Guatemala Ulusal Lig Apertura | Deportivo San | Coban Imperial | 67945 | 5 |
-| 20.09.2026 | 16:00 | Norveç 3.Lig Grup 2 | Molde 2 | Melhus | 14030 | 3 |
-| 20.09.2026 | 16:00 | Paraguay Intermedia Lig | Sportivo Carap | Tacuary | 65215 | 5 |
-| 20.09.2026 | 23:30 | Jamaika Premier Lig | Montego Bay Un | Tru-Juice | 66292 | 3 |
-| 20.09.2026 | 23:30 | Jamaika Premier Lig | Chapelton | Molynes United | 66288 | 5 |
-| 20.09.2026 | 23:30 | Jamaika Premier Lig | Mount Pleasant | Racing United | 19943 | 5 |
-| 20.09.2026 | 23:30 | Jamaika Premier Lig | Treasure Beach | Tivoli Gardens | 66296 | 5 |
-| 20.09.2026 | 16:00 | İsveç 2.Lig Södra Götaland | Ifk Trelleborg | Sölvesborgs Goi | 41868 | 3 |
-| 20.09.2026 | 17:00 | İsveç 2.Lig Norra Götaland | If Karlstad Ii | Stenungsund | 41898 | 3 |
-| 20.09.2026 | 14:00 | Vietnam Kupa 1.Tur | Van Hoa Hai Ph | Quang Ninh | 13913 | 5 |
-| 20.09.2026 | 13:30 | Tayvan Premier Lig | Tainan City | Ac Taipei | 13895 | 5 |
-| 20.09.2026 | 17:00 | Macaristan NB III Kuzeybatı | Sárisápi Bányá | Balatonalmadi | 13074 | 5 |
-| 20.09.2026 | 17:00 | Macaristan NB III Güneydoğu | Szeged-Csanad | Esmtk | 05955 | 5 |
+| 21.09.2026 | 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi | Atletico Tucuma | 49491 | 5 |
+| 21.09.2026 | 21:30 | İtalya Serie C Grup A | Trento Calcio | Pro Vercelli | 18043 | 5 |
+| 21.09.2026 | 21:30 | İtalya Serie C Grup A | Dolomiti Bellu | Lumezzane | 18154 | 5 |
+| 21.09.2026 | 21:30 | İtalya Serie C Grup A | Treviso | Calvina | 18199 | 5 |
+| 21.09.2026 | 21:30 | İtalya Serie C Grup B | Pianese | Sambenedetese | 56773 | 5 |
+| 21.09.2026 | 21:30 | İtalya Serie C Grup B | Nuova Monteros | Livorno | 56707 | 5 |
+| 21.09.2026 | 21:30 | İtalya Serie C Grup B | Spezia | Vis Pasaro | 56740 | 5 |
+| 21.09.2026 | 20:00 | Danimarka 1.Lig | Hb Koge | Hobro | 47343 | 5 |
+| 21.09.2026 | 21:00 | Romanya 1.Lig | Petrolul 52 | Csikszereda | 38971 | 5 |
+| 21.09.2026 | 18:00 | Romanya 1.Lig | Otelul Galati | Hunedoara | 38908 | 5 |
+| 21.09.2026 | 20:00 | Gürcistan Erovnuli Liga | Spaeri | Dila Gori | 51384 | 5 |
+| 21.09.2026 | 21:00 | Arjantin Ulusal Primera Lig | Tristan | Atlanta | 49549 | 3 |
+| 21.09.2026 | 18:00 | Slovakya 2.Lig | Petrzalka | Pohronie | 58762 | 5 |
+| 21.09.2026 | 23:30 | Kolombiya Primera B Clausura | Bogota | Barranguilla | 14699 | 5 |
+| 21.09.2026 | 19:00 | Almanya Bölgesel Lig Batı | Paderborn 07 I | B.Dortmund (Amt | 03041 | 3 |
+| 21.09.2026 | 22:00 | Ekvador Pro Lig Küme Düşme Grubu | Manta | Orense | 32172 | 5 |
+| 21.09.2026 | 15:00 | İngiltere Professional Development Lig | Bolton U21 | Queens Park Ran | 13087 | 3 |
+| 21.09.2026 | 21:00 | İngiltere Premier Lig 2 | Bournemouth U2 | Stoke (B) | 02560 | 3 |
+| 21.09.2026 | 16:00 | İran Azadegan Ligi | Niroye Zamini | Fard Alborz | 20199 | 3 |
+| 21.09.2026 | 19:00 | Almanya Kadınlar Bundesliga | Werder Bremen | Stuttgart (K) | 03134 | 5 |
 
 ## Sonuc
 
