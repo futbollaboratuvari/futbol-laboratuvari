@@ -3,21 +3,14 @@
 Gunler: 2026-09-20 / 2026-09-21
 Kaynak: fixtures.json
 Ham mac: 610
-Aktif mac: 562
+Aktif mac: 555
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 48
-Bugun: 520
+Bultenden dusurulen mac: 55
+Bugun: 513
 Yarin: 42
 
 ## Baslamamis Maclar
-- 2026-09-20 04:00 | Meksika Ascenso MX Apertura | Monarcas - Leones Negros | scheduled | -
-- 2026-09-20 04:00 | Meksika Ascenso MX Apertura | Cancun Fc - Alebrijes | scheduled | -
-- 2026-09-20 04:00 | Meksika Ascenso MX Apertura | Jaiba Brava - Dorados | scheduled | -
-- 2026-09-20 04:00 | ABD USL | Colorado Sprin - New Mexico Unit | scheduled | -
-- 2026-09-20 04:10 | Meksika Liga MX Apertura | Monterrey - Cruz Azul | scheduled | -
-- 2026-09-20 04:15 | Kolombiya Primera A Clausura | Deportivo Past - Once Caldas | scheduled | -
-- 2026-09-20 04:15 | Peru Premier Lig Clausura | Melgar - Sport Boys | scheduled | -
 - 2026-09-20 04:30 | ABD MLS | Nashville Sc - Chicago | scheduled | -
 - 2026-09-20 04:30 | ABD MLS | Colorado - Seattle | scheduled | -
 - 2026-09-20 04:30 | ABD MLS | Salt Lake - Vancouver | scheduled | -
