@@ -195,7 +195,7 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Etkilenen dosyalar: scripts/update-final-scores.js, scripts/robot-learning-memory.js, pro-coupon-eligibility.js, tests/iddaa-result-backfill.test.js, tests/pro-coupon-eligibility.test.js, tests/pro-analysis-index.test.js, tests/pre-match-final-check.test.js, .github/workflows/robot-learning-ci.yml, DONT_TOUCH.md.
 - Provenance/guvenlik: Belirsiz takim eslesmesi veya celiskili skor kabul edilmez. Resmi Iddaa event detail yalniz event ID + tarih + takim benzerligi + sayisal skor dogrulaninca learning sonucu olabilir. Premium value hesaplarinda estimated_probability, market_probability, edge ve EV birlikte zorunludur.
 - Geri alma: Accuracy-first esikler pro-coupon-eligibility.js icinde tek katmandir; sonuc sync kapasite/eslestirme degisikligi update-final-scores.js icinde ayriktir. Geri alma bu dosyalar uzerinden yapilabilir; mevcut learning-memory kayitlari silinmez.
-- PR: #113 PRO dogruluk odakli secim ve sonuc backfill V1, dal feat/pro-accuracy-first-v1-20260920.
+- Kapanis: PR #113 PRO dogruluk odakli secim ve sonuc backfill V1 merge edildi; merge commit 631596cd2e68605236ee1a51bb9f9e7f899b6c24. Dal feat/pro-accuracy-first-v1-20260920.
 
 ### 2026-09-20 - Resmi Iddaa Event-ID Sonuc Backfill V1
 
