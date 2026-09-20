@@ -3,6 +3,7 @@
 const assert = require("node:assert/strict");
 const {
   buildArchiveIdentityIndex,
+  findArchiveIdentityForPrediction,
   buildIddaaBackfillTargets,
   fetchIddaaBackfillResults,
   iddaaDetailResult,
@@ -17,9 +18,39 @@ const now = new Date("2026-09-20T08:00:00+03:00");
     { date: "2026-09-19", home: "Gamma", away: "Delta", iddaa_event_id: "2001" },
     { date: "2026-09-19", home: "Gamma", away: "Delta", iddaa_event_id: "2002" },
   ]);
-  assert.equal(index.size, 1);
-  assert.equal(index.get("2026-09-19|alpha|beta").event_id, "1001");
-  assert.equal(index.has("2026-09-19|gamma|delta"), false);
+  assert.equal(index.exact.size, 1);
+  assert.equal(index.exact.get("2026-09-19|alpha|beta").event_id, "1001");
+  assert.equal(index.exact.has("2026-09-19|gamma|delta"), false);
+})();
+
+
+(function testStrictFuzzyArchiveIdentityRecoversTruncatedNames() {
+  const index = buildArchiveIdentityIndex([
+    { date: "2026-09-19", home: "Deportivo Saprissa", away: "CS Herediano", iddaa_event_id: "3101" },
+    { date: "2026-09-19", home: "Other Home", away: "Other Away", iddaa_event_id: "3102" },
+  ]);
+  const identity = findArchiveIdentityForPrediction({
+    date: "2026-09-19",
+    start_time: "05:00",
+    match_name: "Deportivo Sapr - Herediano",
+  }, index);
+  assert.ok(identity);
+  assert.equal(identity.event_id, "3101");
+  assert.equal(identity.match_mode, "strict_fuzzy");
+  assert.ok(identity.match_score >= 0.88);
+})();
+
+(function testStrictFuzzyArchiveIdentityFailsClosedOnCompetingFixtures() {
+  const index = buildArchiveIdentityIndex([
+    { date: "2026-09-19", home: "United City A", away: "Rovers Town", iddaa_event_id: "4101" },
+    { date: "2026-09-19", home: "United City B", away: "Rovers Town", iddaa_event_id: "4102" },
+  ]);
+  const identity = findArchiveIdentityForPrediction({
+    date: "2026-09-19",
+    start_time: "20:00",
+    match_name: "United City - Rovers Town",
+  }, index);
+  assert.equal(identity, null);
 })();
 
 (function testTargetSelectionUsesExactArchiveIdentityAndCooldown() {
