@@ -3,6 +3,7 @@ const {
   candidateStatsId,
   pageContainsMatch,
   parseSource,
+  primaryUrls,
   sectionExcerpt,
   htmlToLines,
 } = require("../scripts/nesine-match-detail-source");
@@ -51,12 +52,21 @@ const normalizedBulletinMatch = normalizeFixture({
 assert.strictEqual(normalizedBulletinMatch.iddaa_event_id, "3144394", "full bulletin normalization must preserve official event id");
 assert.strictEqual(normalizedBulletinMatch.nesine_stats_id, "3144394", "Nesine stats id must follow verified official event id");
 
+assert.deepStrictEqual(
+  primaryUrls("3144394"),
+  [
+    "https://istatistik.nesine.com/3144394/ozet",
+    "https://istatistik.nesine.com/p1/3144394",
+  ],
+  "direct match detail route must be tried before legacy p1 fallback"
+);
 assert.strictEqual(candidateStatsId(match), "3144394", "explicit official id must be accepted");
 assert.strictEqual(candidateStatsId({ ...match, iddaa_event_id: "", matchCode: "12345" }), "", "short bulletin code must not be treated as Nesine stats id");
 assert.strictEqual(pageContainsMatch(html, match), true, "home and away identity should validate");
 assert.strictEqual(pageContainsMatch(html, { ...match, away: "Başka Takım" }), false, "wrong opponent must fail identity validation");
 
 const parsed = parseSource(html, match, "3144394");
+assert.strictEqual(parsed.source_url, "https://istatistik.nesine.com/3144394/ozet", "provenance should use the direct verified summary route");
 assert.strictEqual(parsed.verified_identity, true);
 assert.strictEqual(parsed.standings.structured_available, true, "standings rows should be structured");
 assert.strictEqual(parsed.standings.home.played, 6);
