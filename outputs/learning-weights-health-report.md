@@ -1,10 +1,10 @@
 # Ogrenme Agirlik Saglik Kontrolu
 
 Durum: calibrating
-Tahmin sayisi: 2309
-Hazir market hafizasi: 5/13
-Hazir lig hafizasi: 3/342
-Hazir lig+market hafizasi: 0/1027
+Tahmin sayisi: 2352
+Hazir market hafizasi: 6/13
+Hazir lig hafizasi: 3/343
+Hazir lig+market hafizasi: 0/1044
 Aktif ve guvenli agirlik: 0
 Guclendirilen toplam: 0
 Dusurulen toplam: 0
