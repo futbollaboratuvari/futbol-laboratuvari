@@ -150,7 +150,7 @@ jobs:
             if [ "${console_bad}" = "0" ] \
               && grep -q 'id="live-power-center"' "${dom}" \
               && grep -q 'Team Power + Goal Power + Canlı Analiz Robotu' "${dom}" \
-              && grep -q 'Canlı Maç Analiz Robotu\|Canlı Analiz Robotu bekliyor' "${dom}" \
+              && grep -q 'Canlı Maç Analiz Robotu\|Canlı Analiz Robotu bekliyor\|Şu anda ESPN kaynağında canlı maç bulunmuyor' "${dom}" \
               && grep -q 'Akış: Supabase Realtime' "${dom}" \
               && grep -q 'class="flp-status"' "${dom}" \
               && ! grep -q 'Team Power + Goal Power ve canlı tahmin verisi yükleniyor' "${dom}"; then
@@ -169,6 +169,29 @@ jobs:
             echo "Supabase Realtime üç bağımsız gerçek browser denemesinde doğrulanamadı."
             exit 1
           fi
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          html = Path("/tmp/live-power-dom.html").read_text(encoding="utf-8", errors="replace")
+
+          if 'id="daily-matches-widget"' not in html:
+              raise SystemExit("Futbol Bülteni live DOM not found")
+
+          bulletin_rows = len(re.findall(r'class=["\'][^"\']*\bflw-row\b[^"\']*["\']', html, re.I))
+          if bulletin_rows < 1:
+              raise SystemExit("Futbol Bülteni live DOM has no scheduled match rows")
+
+          premium_rows = len(re.findall(r'class=["\'][^"\']*\bfl-pa3-match\b[^"\']*["\']', html, re.I))
+          if premium_rows < 1:
+              raise SystemExit("Özel Analiz live DOM has no upcoming match rows")
+
+          if "Güncel yaklaşan maç bulunamadı" in html or "0 yaklaşan maç" in html:
+              raise SystemExit("Özel Analiz live DOM reports an empty upcoming match pool")
+
+          print(f"LIVE USER TEST PASS: GitHub bülteni render edildi. bulletin_rows={bulletin_rows}, premium_rows={premium_rows}")
+          PY
 
           python3 - <<'PY'
           from pathlib import Path
