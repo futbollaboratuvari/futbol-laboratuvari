@@ -3,26 +3,14 @@
 Gunler: 2026-09-20 / 2026-09-21
 Kaynak: fixtures.json
 Ham mac: 610
-Aktif mac: 555
+Aktif mac: 543
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 55
-Bugun: 513
+Bultenden dusurulen mac: 67
+Bugun: 501
 Yarin: 42
 
 ## Baslamamis Maclar
-- 2026-09-20 04:30 | ABD MLS | Nashville Sc - Chicago | scheduled | -
-- 2026-09-20 04:30 | ABD MLS | Colorado - Seattle | scheduled | -
-- 2026-09-20 04:30 | ABD MLS | Salt Lake - Vancouver | scheduled | -
-- 2026-09-20 04:30 | Honduras Ulusal Lig Apertura | Real Espana - Depor Motagua | scheduled | -
-- 2026-09-20 05:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Herediano | scheduled | -
-- 2026-09-20 05:00 | ABD USL | Phoenix Rising - El Paso Locomot | scheduled | -
-- 2026-09-20 05:30 | ABD MLS | Portland - Atlanta Utd | scheduled | -
-- 2026-09-20 05:30 | ABD USL | Las Vegas Ligh - Hartford Athlet | scheduled | -
-- 2026-09-20 06:15 | Meksika Liga MX Apertura | Club America - Guadalajara | scheduled | -
-- 2026-09-20 07:00 | Japonya J3 Lig | Zweigen Kanaza - Renofa Yamaguch | scheduled | -
-- 2026-09-20 08:00 | Asya Oyunları Grup B | İran U23 - Çin U23 | scheduled | -
-- 2026-09-20 08:00 | Hong Kong HKFA 1.Lig | Sham Shui Po - Metro Gallery | scheduled | -
 - 2026-09-20 08:30 | Hong Kong HKFA 1.Lig | Supreme Fc - Central & Weste | scheduled | -
 - 2026-09-20 09:00 | Avustralya Victoria Kadınlar Premier Lig Büyük Final | Box Hill Unite - Avondale (K) | scheduled | -
 - 2026-09-20 10:00 | Asya Oyunları Grup A | Hong Kong U23 - Tayland U23 | scheduled | -
