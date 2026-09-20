@@ -133,6 +133,20 @@ const candidateStatsId = (row) => {
   return explicit || "";
 };
 
+const identitySimilarity = (teamName, candidate) => {
+  const team = clean(teamName);
+  const line = clean(candidate);
+  if (!team || !line) return 0;
+  if (team === line || (team.length >= 5 && line.includes(team))) return 1;
+  const ignored = new Set(["takim", "team", "futbol", "football"]);
+  const teamTokens = [...tokens(team)].filter((token) => !ignored.has(token));
+  const lineTokens = tokens(line);
+  if (!teamTokens.length) return 0;
+  const common = teamTokens.filter((token) => lineTokens.has(token)).length;
+  if (teamTokens.length === 1) return common === 1 && teamTokens[0].length >= 4 ? 1 : 0;
+  return common / teamTokens.length;
+};
+
 const pageContainsMatch = (html, match) => {
   const page = clean(stripTags(html));
   if (!page) return false;
@@ -140,9 +154,9 @@ const pageContainsMatch = (html, match) => {
   const away = clean(match.away);
   if (home.length >= 4 && away.length >= 4 && page.includes(home) && page.includes(away)) return true;
   const lines = htmlToLines(html);
-  const homeScore = Math.max(...lines.map((line) => similarity(match.home, line)), 0);
-  const awayScore = Math.max(...lines.map((line) => similarity(match.away, line)), 0);
-  return homeScore >= 0.72 && awayScore >= 0.72;
+  const homeScore = Math.max(...lines.map((line) => identitySimilarity(match.home, line)), 0);
+  const awayScore = Math.max(...lines.map((line) => identitySimilarity(match.away, line)), 0);
+  return homeScore >= 0.75 && awayScore >= 0.75;
 };
 
 const headingAliases = {
