@@ -6,6 +6,7 @@ const { canonicalMarket: weightCanonicalMarket } = require("../scripts/apply-lea
 const { settle } = require("../scripts/learning-finalizer");
 const {
   apiFootballResults,
+  applyPredictionResults,
   applyResults,
   eligiblePrediction,
   footballDataResults,
@@ -118,6 +119,62 @@ const {
   const applied = applyResults([row], [result], "2026-09-20T00:00:00.000Z");
   assert.equal(applied.updated, 1);
   assert.equal(applied.matches[0].result_score, "3-1");
+})();
+
+(function testVerifiedResultLinksDirectlyIntoLearningMemory() {
+  const prediction = {
+    id: "direct-learning-test",
+    status: "pending",
+    date: "2026-09-19",
+    match_name: "Houston - Cincinnati",
+    home: "Houston",
+    away: "Cincinnati",
+    market: "KG Yok",
+  };
+  const result = {
+    date: "2026-09-19",
+    home: "Houston",
+    away: "Cincinnati",
+    score: "2-1",
+    half_time_score: "1-0",
+    source: "test-provider",
+    source_match_id: 77,
+  };
+  const linked = applyPredictionResults([prediction], [result], "2026-09-20T00:00:00.000Z");
+  assert.equal(linked.checked, 1);
+  assert.equal(linked.linked, 1);
+  assert.equal(linked.predictions[0].status, "pending", "finalizer must remain responsible for won/lost");
+  assert.equal(linked.predictions[0].result_score, "2-1");
+  assert.equal(linked.predictions[0].result_source, "test-provider");
+  assert.equal(linked.predictions[0].result_source_match_id, 77);
+})();
+
+(function testDirectLearningBridgeEnrichesHalfTimeWithoutChangingStatus() {
+  const prediction = {
+    id: "direct-half-time-test",
+    status: "pending",
+    date: "2026-09-19",
+    match_name: "Alpha - Beta",
+    home: "Alpha",
+    away: "Beta",
+    market: "İlk Yarı KG Var",
+    result_score: "3-2",
+  };
+  const result = {
+    date: "2026-09-19",
+    home: "Alpha",
+    away: "Beta",
+    score: "3-2",
+    half_time_score: "1-1",
+    source: "test-provider",
+    source_match_id: 78,
+  };
+  const linked = applyPredictionResults([prediction], [result], "2026-09-20T00:00:00.000Z");
+  assert.equal(linked.linked, 1);
+  assert.equal(linked.halfTimeLinked, 1);
+  assert.equal(linked.predictions[0].result_score, "3-2");
+  assert.equal(linked.predictions[0].half_time_score, "1-1");
+  assert.equal(linked.predictions[0].status, "pending");
 })();
 
 (function testExistingFullTimeCanBeEnrichedWithHalfTime() {

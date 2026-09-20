@@ -426,6 +426,51 @@ function applyResults(rows, results, nowIso = new Date().toISOString()) {
   return { matches, updated, alreadyScored, unmatched };
 }
 
+function applyPredictionResults(rows, results, nowIso = new Date().toISOString()) {
+  let checked = 0;
+  let linked = 0;
+  let halfTimeLinked = 0;
+  let unmatched = 0;
+
+  const predictions = (Array.isArray(rows) ? rows : []).map((row) => {
+    if (row?.status !== "pending") return row;
+
+    const wantsHalfTime = requiresHalfTimeScore(row);
+    const existingScore = String(row.result_score || "").trim();
+    const existingHalfTime = String(row.half_time_score || row.halftime_score || row.ht_score || "").trim();
+    if (existingScore && (!wantsHalfTime || existingHalfTime)) return row;
+
+    checked += 1;
+    const match = findResultForMatch(row, results);
+    if (!match) {
+      if (results.some((result) => dateOf(result) === dateOf(row))) unmatched += 1;
+      return row;
+    }
+
+    const nextScore = existingScore || String(match.result.score || "").trim();
+    const nextHalfTime = existingHalfTime || String(match.result.half_time_score || "").trim();
+    if (!nextScore && !nextHalfTime) return row;
+
+    const changedScore = !existingScore && Boolean(nextScore);
+    const changedHalfTime = !existingHalfTime && Boolean(nextHalfTime);
+    if (!changedScore && !changedHalfTime) return row;
+
+    linked += 1;
+    if (changedHalfTime) halfTimeLinked += 1;
+    return {
+      ...row,
+      ...(nextScore ? { result_score: nextScore } : {}),
+      ...(nextHalfTime ? { half_time_score: nextHalfTime } : {}),
+      result_source: match.result.source,
+      result_source_match_id: match.result.source_match_id,
+      result_linked_at: nowIso,
+      updated_at: nowIso,
+    };
+  });
+
+  return { predictions, checked, linked, halfTimeLinked, unmatched };
+}
+
 function dedupeResults(results) {
   const map = new Map();
   for (const result of results) {
@@ -465,13 +510,23 @@ async function runFinalScoreSync() {
   }
 
   const results = dedupeResults(fetchedResults);
+  const predictionUpdate = applyPredictionResults(memory.predictions || [], results, nowIso);
   const archiveUpdate = applyResults(archive.matches || [], results, nowIso);
   const fixtureUpdate = applyResults(Array.isArray(fixtures) ? fixtures : [], results, nowIso);
   const liveUpdate = applyResults(Array.isArray(live.matches) ? live.matches : [], results, nowIso);
 
+  memory.predictions = predictionUpdate.predictions;
+  memory.updated_at = nowIso;
+  memory.summary = {
+    ...(memory.summary || {}),
+    last_direct_result_checked: predictionUpdate.checked,
+    last_direct_result_linked: predictionUpdate.linked,
+    last_direct_half_time_linked: predictionUpdate.halfTimeLinked,
+  };
   archive.matches = archiveUpdate.matches;
   archive.generated_at = nowIso;
   live.matches = liveUpdate.matches;
+  if (predictionUpdate.linked) writeJson(memoryFile, memory);
   if (archiveUpdate.updated) writeJson(archiveFile, archive);
   if (fixtureUpdate.updated) writeJson(fixturesFile, fixtureUpdate.matches);
   if (liveUpdate.updated) writeJson(liveFile, live);
@@ -485,12 +540,16 @@ async function runFinalScoreSync() {
     archived_score_update_count: archiveUpdate.updated,
     fixture_score_update_count: fixtureUpdate.updated,
     live_score_update_count: liveUpdate.updated,
+    direct_learning_score_checked_count: predictionUpdate.checked,
+    direct_learning_score_update_count: predictionUpdate.linked,
+    direct_learning_half_time_update_count: predictionUpdate.halfTimeLinked,
+    direct_learning_unmatched_count: predictionUpdate.unmatched,
     pending_prediction_count: (memory.predictions || []).filter((item) => item.status === "pending").length,
     errors: errors.slice(0, 20),
     date_checks: dateChecks,
   };
   writeJson(statusFile, status);
-  console.log(`Final score sync: ${status.status}. Dates: ${dates.length}, Results: ${results.length}, Archive updates: ${archiveUpdate.updated}`);
+  console.log(`Final score sync: ${status.status}. Dates: ${dates.length}, Results: ${results.length}, Learning links: ${predictionUpdate.linked}, Archive updates: ${archiveUpdate.updated}`);
   return status;
 }
 
@@ -503,6 +562,7 @@ if (require.main === module) {
 
 module.exports = {
   apiFootballResults,
+  applyPredictionResults,
   applyResults,
   datesToCheck,
   eligiblePrediction,
