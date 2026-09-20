@@ -189,7 +189,7 @@ Ilk dort robot mac oncesi PRO uzmanlaridir. Besinci robot `Canli Mac Analiz Robo
 - Test: tests/learning-market-settlement.test.js ESPN linescores [1,2]/[1,1] orneginden devre skorunun 1-1 oldugunu ve linescores olmadiginda bos sonuc kaldigini dogrular. Robot Learning CI run 35479548694 Node 20 ve Node 24 success.
 - Etkilenen dosyalar: scripts/update-final-scores.js, tests/learning-market-settlement.test.js, DONT_TOUCH.md.
 - Vercel: kullanilmadi.
-- PR: #107 ESPN devre skorunu ogrenme zincirine ekle, dal feat/espn-halftime-linescore-v1-20260920.
+- Kapanis: PR #107 ESPN devre skorunu ogrenme zincirine ekle merge edildi; merge commit 347e08f9a9c5e86b21356a482b18f0868f3bcbd5. Dal feat/espn-halftime-linescore-v1-20260920.
 
 ### 2026-09-20 - Final Skor -> Ogrenme Hafizasi Dogrudan Koprusu V1
 
