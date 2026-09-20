@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.09.2026 08:04:57
+Oluşturma: 20.09.2026 08:26:50
 
 ## Özet
 
-- Toplam tahmin: 2145
-- Bekleyen tahmin: 1615
-- Kazanan tahmin: 283
-- Kaybeden tahmin: 247
+- Toplam tahmin: 2154
+- Bekleyen tahmin: 1612
+- Kazanan tahmin: 288
+- Kaybeden tahmin: 254
 - Lig sayısı: 337
 - Seçenek sayısı: 13
 
@@ -24,14 +24,14 @@ Oluşturma: 20.09.2026 08:04:57
 
 - MS 2: toplam 293, bekleyen 246, başarı %60, düz getiri %13, ağırlık 1
 - KG Var: toplam 144, bekleyen 91, başarı %59, düz getiri %5, ağırlık 1
-- 2.5 Üst: toplam 228, bekleyen 150, başarı %56, düz getiri %0, ağırlık 1
-- MS 1: toplam 582, bekleyen 441, başarı %53, düz getiri %-13, ağırlık 1
-- 2.5 Alt: toplam 672, bekleyen 512, başarı %52, düz getiri %-13, ağırlık 1
+- 2.5 Üst: toplam 231, bekleyen 149, başarı %56, düz getiri %-1, ağırlık 1
+- MS 1: toplam 583, bekleyen 440, başarı %52, düz getiri %-14, ağırlık 1
+- 3.5 Üst: toplam 57, bekleyen 36, başarı %52, düz getiri %5, ağırlık 1
+- 2.5 Alt: toplam 673, bekleyen 510, başarı %51, düz getiri %-14, ağırlık 1
 - KG Yok: toplam 105, bekleyen 78, başarı %44, düz getiri %-24, ağırlık 1
-- 3.5 Üst: toplam 56, bekleyen 38, başarı %44, düz getiri %-11, ağırlık 1
 - MS X: toplam 15, bekleyen 9, başarı %33, düz getiri %-15, ağırlık 1
 - İlk Yarı KG Yok: toplam 3, bekleyen 3, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- İY KG / 2Y KG Hayır / Hayır: toplam 4, bekleyen 4, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- İY KG / 2Y KG Hayır / Hayır: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İkinci Yarı KG Yok: toplam 6, bekleyen 6, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İlk Yarı KG Var: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
