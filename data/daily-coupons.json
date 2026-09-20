@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-19T23:16:35.831Z",
+  "generated_at": "2026-09-20T00:47:30.662Z",
   "date": "2026-09-20",
-  "source": "High Value Coupon Engine",
-  "message": "",
+  "source": "High Value Coupon Engine + pro-goal-market-bridge-v3",
+  "message": "8 doğrulanmış 3.5 Üst / 6+ Gol adayı yüksek gol filtresinden geçti.",
   "coupons": {
     "balanced": {
       "coupon_name": "Dengeli Kupon",
@@ -403,19 +403,412 @@
         },
         {
           "no": 2,
+          "match_name": "Corinthians VS Fluminense",
+          "league": "Brezilya Serie A",
+          "start_time": "22:00",
+          "recommended_market": "KG Var",
+          "confidence_score": "75%",
+          "model_score": 75,
+          "analysis_score": 75,
+          "include_in_coupon": true,
+          "independent_evidence": true,
+          "estimated_probability": 52.9,
+          "market_probability": 45.4,
+          "edge_percent": 7.5,
+          "data_completeness": 73,
+          "model_version": "pro13-btts-conditioned-v3",
+          "risk_level": "Orta",
+          "data_gap_risk": "Orta",
+          "estimated_odds": "1.95",
+          "available_odds": {
+            "ms1": "2.05",
+            "msx": "2.92",
+            "ms2": "3.32",
+            "over25": "2.27",
+            "under25": "1.45",
+            "over35": "4.40",
+            "under35": "1.11",
+            "bttsYes": "1.95",
+            "bttsNo": "1.62",
+            "firstHalfBttsYes": "5.51",
+            "firstHalfBttsNo": "1.06",
+            "secondHalfBttsYes": "-",
+            "secondHalfBttsNo": "-"
+          },
+          "raw_market_guess_odds": {},
+          "detail_market_candidates": [],
+          "odds_source": "iddaa.com resmi futbol bülteni",
+          "value_label": "Yüksek Değer",
+          "band_attention_level": "Yüksek",
+          "squad_risk_level": "Orta",
+          "lineup_risk_level": "Belirsiz",
+          "named_player_count": 0,
+          "matchup_analysis": {
+            "version": "matchup-intelligence-v1",
+            "data_quality": "Belirsiz",
+            "coverage_score": 0,
+            "lineup_confirmed_both": false,
+            "availability_checked_both": false,
+            "home": {
+              "team_name": "Corinthians",
+              "formation": "-",
+              "lineup_confirmed": false,
+              "availability_checked": false,
+              "starting_11_count": 0,
+              "rated_starter_count": 0,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0,
+              "zones": {
+                "goalkeeper": {
+                  "starter_count": 0,
+                  "rated_starter_count": 0,
+                  "strength": null,
+                  "missing_count": 0,
+                  "missing_impact": 0,
+                  "high_impact_missing": 0
+                },
+                "defense": {
+                  "starter_count": 0,
+                  "rated_starter_count": 0,
+                  "strength": null,
+                  "missing_count": 0,
+                  "missing_impact": 0,
+                  "high_impact_missing": 0
+                },
+                "midfield": {
+                  "starter_count": 0,
+                  "rated_starter_count": 0,
+                  "strength": null,
+                  "missing_count": 0,
+                  "missing_impact": 0,
+                  "high_impact_missing": 0
+                },
+                "attack": {
+                  "starter_count": 0,
+                  "rated_starter_count": 0,
+                  "strength": null,
+                  "missing_count": 0,
+                  "missing_impact": 0,
+                  "high_impact_missing": 0
+                },
+                "unknown": {
+                  "starter_count": 0,
+                  "rated_starter_count": 0,
+                  "strength": null,
+                  "missing_count": 0,
+                  "missing_impact": 0,
+                  "high_impact_missing": 0
+                }
+              }
+            },
+            "away": {
+              "team_name": "Fluminense",
+              "formation": "-",
+              "lineup_confirmed": false,
+              "availability_checked": false,
+              "starting_11_count": 0,
+              "rated_starter_count": 0,
+              "missing_count": 0,
+              "missing_impact": 0,
+              "high_impact_missing": 0,
+              "zones": {
+                "goalkeeper": {
+                  "starter_count": 0,
+                  "rated_starter_count": 0,
+                  "strength": null,
+                  "missing_count": 0,
+                  "missing_impact": 0,
+                  "high_impact_missing": 0
+                },
+                "defense": {
+                  "starter_count": 0,
+                  "rated_starter_count": 0,
+                  "strength": null,
+                  "missing_count": 0,
+                  "missing_impact": 0,
+                  "high_impact_missing": 0
+                },
+                "midfield": {
+                  "starter_count": 0,
+                  "rated_starter_count": 0,
+                  "strength": null,
+                  "missing_count": 0,
+                  "missing_impact": 0,
+                  "high_impact_missing": 0
+                },
+                "attack": {
+                  "starter_count": 0,
+                  "rated_starter_count": 0,
+                  "strength": null,
+                  "missing_count": 0,
+                  "missing_impact": 0,
+                  "high_impact_missing": 0
+                },
+                "unknown": {
+                  "starter_count": 0,
+                  "rated_starter_count": 0,
+                  "strength": null,
+                  "missing_count": 0,
+                  "missing_impact": 0,
+                  "high_impact_missing": 0
+                }
+              }
+            },
+            "position_comparison": [
+              {
+                "zone": "goalkeeper",
+                "label": "Kaleci",
+                "edge": "unknown",
+                "basis": "insufficient_quality_data",
+                "home_strength": null,
+                "away_strength": null,
+                "strength_difference": null,
+                "home_missing_impact": 0,
+                "away_missing_impact": 0
+              },
+              {
+                "zone": "defense",
+                "label": "Savunma",
+                "edge": "unknown",
+                "basis": "insufficient_quality_data",
+                "home_strength": null,
+                "away_strength": null,
+                "strength_difference": null,
+                "home_missing_impact": 0,
+                "away_missing_impact": 0
+              },
+              {
+                "zone": "midfield",
+                "label": "Orta saha",
+                "edge": "unknown",
+                "basis": "insufficient_quality_data",
+                "home_strength": null,
+                "away_strength": null,
+                "strength_difference": null,
+                "home_missing_impact": 0,
+                "away_missing_impact": 0
+              },
+              {
+                "zone": "attack",
+                "label": "Hücum",
+                "edge": "unknown",
+                "basis": "insufficient_quality_data",
+                "home_strength": null,
+                "away_strength": null,
+                "strength_difference": null,
+                "home_missing_impact": 0,
+                "away_missing_impact": 0
+              }
+            ],
+            "context_edge": 0,
+            "context_edge_side": "balanced",
+            "market_context": {
+              "goal_pressure": 0,
+              "defensive_missing_impact": 0,
+              "attacking_missing_impact": 0,
+              "goals_note": "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor.",
+              "btts_note": "KG için kadro kaynaklı belirgin yön oluşmadı."
+            },
+            "signals": [
+              "Kadro eksikleri gol marketinde tek yönlü güçlü sinyal üretmiyor."
+            ],
+            "policy": "Bu katman yalnız doğrulanmış kadro/ilk 11 verisini kullanır; kalite verisi yoksa oyuncu isminden güç uydurmaz ve maç olasılığını doğrudan değiştirmez."
+          },
+          "robot_reason": "Kadro eşleşme katmanı: Kadro eşleşme verisi sınırlı; model skoru değiştirilmedi. Olasılık yüzdesi değiştirilmedi. | İki takım için kadro doğrulaması tamamlanmadı; model gücü 4 puan ihtiyat payıyla düşürüldü. | Market: KG Var | Oran: 1.95",
+          "learning_adjustment": {
+            "market": "KG Var",
+            "league": "Brezilya Serie A",
+            "delta": 0,
+            "weight": 1,
+            "applied": false,
+            "notes": [
+              "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+            ],
+            "market_bucket": {
+              "total": 130,
+              "pending": 100,
+              "won": 21,
+              "lost": 9,
+              "void": 0,
+              "success_rate": 0.7,
+              "profit_sample_count": 30,
+              "odds_sum": 53.83,
+              "profit_sum": 7.26,
+              "profit_square_sum": 23.031,
+              "distinct_date_count": 4,
+              "average_odds": 1.794,
+              "flat_roi": 0.242,
+              "weight": 1,
+              "confidence_adjustment": 0,
+              "scope": "market",
+              "settled": 30,
+              "adjusted_success_rate": 0.6,
+              "confidence_low": 0.551,
+              "confidence_high": 0.816,
+              "evaluation_basis": "flat_roi",
+              "adjusted_roi": 0.121,
+              "roi_confidence_low": -0.015,
+              "roi_confidence_high": 0.499,
+              "policy_min_settled": 30,
+              "policy_min_distinct_dates": 7,
+              "sample_ready": true,
+              "temporal_ready": false,
+              "learning_active": false,
+              "learning_state": "neutral"
+            },
+            "league_bucket": {
+              "total": 18,
+              "pending": 14,
+              "won": 2,
+              "lost": 2,
+              "void": 0,
+              "success_rate": 0.5,
+              "profit_sample_count": 4,
+              "odds_sum": 7,
+              "profit_sum": -0.54,
+              "profit_square_sum": 3.138,
+              "distinct_date_count": 2,
+              "average_odds": 1.75,
+              "flat_roi": -0.135,
+              "weight": 1,
+              "confidence_adjustment": 0,
+              "scope": "league",
+              "settled": 4,
+              "adjusted_success_rate": 0.5,
+              "confidence_low": 0.182,
+              "confidence_high": 0.818,
+              "evaluation_basis": "flat_roi",
+              "adjusted_roi": -0.014,
+              "roi_confidence_low": -0.966,
+              "roi_confidence_high": 0.696,
+              "policy_min_settled": 24,
+              "policy_min_distinct_dates": 10,
+              "sample_ready": false,
+              "temporal_ready": false,
+              "learning_active": false,
+              "learning_state": "neutral"
+            },
+            "league_market_bucket": {
+              "total": 5,
+              "pending": 5,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "profit_sample_count": 0,
+              "odds_sum": 0,
+              "profit_sum": 0,
+              "profit_square_sum": 0,
+              "distinct_date_count": 0,
+              "average_odds": null,
+              "flat_roi": null,
+              "weight": 1,
+              "confidence_adjustment": 0,
+              "scope": "league_market",
+              "settled": 0,
+              "adjusted_success_rate": 0.5,
+              "confidence_low": 0,
+              "confidence_high": 1,
+              "evaluation_basis": "flat_roi",
+              "adjusted_roi": null,
+              "roi_confidence_low": null,
+              "roi_confidence_high": null,
+              "policy_min_settled": 30,
+              "policy_min_distinct_dates": 14,
+              "sample_ready": false,
+              "temporal_ready": false,
+              "learning_active": false,
+              "learning_state": "neutral"
+            },
+            "confidence_evaluation": {
+              "market": {
+                "scope": "market",
+                "settled": 30,
+                "success_rate": 0.7,
+                "adjusted_success_rate": 0.6,
+                "confidence_low": 0.551,
+                "confidence_high": 0.816,
+                "evaluation_basis": "flat_roi",
+                "profit_sample_count": 30,
+                "distinct_date_count": 4,
+                "flat_roi": 0.242,
+                "adjusted_roi": 0.121,
+                "roi_confidence_low": -0.015,
+                "roi_confidence_high": 0.499,
+                "policy_min_settled": 30,
+                "policy_min_distinct_dates": 7,
+                "sample_ready": true,
+                "temporal_ready": false,
+                "learning_active": false,
+                "learning_state": "neutral",
+                "weight": 1,
+                "confidence_adjustment": 0
+              },
+              "league": {
+                "scope": "league",
+                "settled": 4,
+                "success_rate": 0.5,
+                "adjusted_success_rate": 0.5,
+                "confidence_low": 0.182,
+                "confidence_high": 0.818,
+                "evaluation_basis": "flat_roi",
+                "profit_sample_count": 4,
+                "distinct_date_count": 2,
+                "flat_roi": -0.135,
+                "adjusted_roi": -0.014,
+                "roi_confidence_low": -0.966,
+                "roi_confidence_high": 0.696,
+                "policy_min_settled": 24,
+                "policy_min_distinct_dates": 10,
+                "sample_ready": false,
+                "temporal_ready": false,
+                "learning_active": false,
+                "learning_state": "neutral",
+                "weight": 1,
+                "confidence_adjustment": 0
+              },
+              "league_market": {
+                "scope": "league_market",
+                "settled": 0,
+                "success_rate": null,
+                "adjusted_success_rate": 0.5,
+                "confidence_low": 0,
+                "confidence_high": 1,
+                "evaluation_basis": "flat_roi",
+                "profit_sample_count": 0,
+                "distinct_date_count": 0,
+                "flat_roi": null,
+                "adjusted_roi": null,
+                "roi_confidence_low": null,
+                "roi_confidence_high": null,
+                "policy_min_settled": 30,
+                "policy_min_distinct_dates": 14,
+                "sample_ready": false,
+                "temporal_ready": false,
+                "learning_active": false,
+                "learning_state": "neutral",
+                "weight": 1,
+                "confidence_adjustment": 0
+              }
+            }
+          }
+        },
+        {
+          "no": 3,
           "match_name": "Kalmar VS Hacken",
           "league": "İsveç Allsvenskan",
           "start_time": "15:00",
           "recommended_market": "2.5 Alt",
-          "confidence_score": "70%",
-          "model_score": 70,
-          "analysis_score": 70,
+          "confidence_score": "74%",
+          "model_score": 74,
+          "analysis_score": 74,
           "include_in_coupon": true,
           "independent_evidence": true,
-          "estimated_probability": 54.1,
+          "estimated_probability": 56.7,
           "market_probability": 45.8,
-          "edge_percent": 8.3,
-          "data_completeness": 57,
+          "edge_percent": 10.9,
+          "data_completeness": 64,
           "model_version": "pro13-btts-conditioned-v3",
           "risk_level": "Orta",
           "data_gap_risk": "Orta",
@@ -795,12 +1188,12 @@
           }
         }
       ],
-      "total_odds": "3.61",
-      "average_confidence_score": "73%",
-      "combined_estimated_probability": 30.1,
+      "total_odds": "7.04",
+      "average_confidence_score": "75%",
+      "combined_estimated_probability": 16.7,
       "risk_level": "Düşük-Orta",
       "short_description": "Daha güvenli maçlardan oluşan düşük-orta riskli laboratuvar kuponu.",
-      "robot_reason": "Dengeli Kupon; 2 maç, toplam oran 3.61, ortalama model gücü 73/100.",
+      "robot_reason": "Dengeli Kupon; 3 maç, toplam oran 7.04, ortalama model gücü 75/100.",
       "is_available": true
     },
     "high_value": {
@@ -812,20 +1205,317 @@
       "combined_estimated_probability": null,
       "risk_level": "-",
       "short_description": "Bugün için güncel veri henüz oluşmadı.",
-      "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
+      "robot_reason": "Market uzman kapısı sonrası uygun seçim kalmadı.",
       "is_available": false
     },
     "risk_lab": {
       "coupon_name": "Riskli Laboratuvar Kuponu",
       "coupon_type": "risk_lab",
-      "selected_matches": [],
-      "total_odds": "-",
-      "average_confidence_score": "-",
-      "combined_estimated_probability": null,
-      "risk_level": "-",
-      "short_description": "Bugün için güncel veri henüz oluşmadı.",
-      "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
-      "is_available": false
+      "selected_matches": [
+        {
+          "no": 1,
+          "id": "43654",
+          "match_name": "Feyenoord VS Utrecht",
+          "home": "Feyenoord",
+          "away": "Utrecht",
+          "date": "2026-09-20",
+          "league": "Hollanda Eredivisie",
+          "start_time": "13:15",
+          "recommended_market": "3.5 Üst",
+          "market": "3.5 Üst",
+          "selection": "3.5 Üst",
+          "estimated_odds": "1.64",
+          "odds": "1.64",
+          "model_score": 78,
+          "analysis_score": 82,
+          "confidence_score": "82%",
+          "estimated_probability": 65.2,
+          "market_probability": 53.8,
+          "edge_percent": 11.4,
+          "data_completeness": 100,
+          "independent_evidence": true,
+          "risk_level": "Düşük",
+          "data_gap_risk": "Düşük",
+          "squad_risk_level": "Orta",
+          "lineup_risk_level": "Belirsiz",
+          "value_label": "Yüksek Değer",
+          "model_version": "pro-goal-market-bridge-v3",
+          "evidence_mode": "direct_price_plus_independent_goal_model",
+          "probability_source": [
+            "doğrudan oran",
+            "bağımsız gol modeli"
+          ],
+          "goal_market_bridge": true,
+          "signals": [
+            "3.5 Üst doğrudan oranı 1.64.",
+            "Takım hafızası Poisson toplam gol beklentisi 4.27; 4+ gol olasılığı %61.8.",
+            "Doğrulanmış 3.5 Üst eğilimi %84.",
+            "Piyasa karşılığı %53.8; bağımsız model farkı +15.8 puan."
+          ],
+          "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
+          "include_in_coupon": true,
+          "market_specialist": {
+            "version": "market-specialist-gates-v4",
+            "market": "3.5 Üst",
+            "delta": -4,
+            "applied": true,
+            "decision": "downgrade",
+            "eligible": true,
+            "quality_score": 60,
+            "support_count": 3,
+            "support_total": 5,
+            "evidence_known_count": 4,
+            "evidence_coverage_score": 80,
+            "missing_evidence": [
+              "Poisson"
+            ],
+            "support_checks": [
+              {
+                "name": "Poisson",
+                "available": false,
+                "ok": false
+              },
+              {
+                "name": "3.5+ geçmiş eğilimi",
+                "available": true,
+                "ok": true
+              },
+              {
+                "name": "veri kapsamı",
+                "available": true,
+                "ok": true
+              },
+              {
+                "name": "karşı/fiyat seti",
+                "available": true,
+                "ok": false
+              },
+              {
+                "name": "çapraz gol mutabakatı",
+                "available": true,
+                "ok": true
+              }
+            ],
+            "mode": "extreme_goal_market_gate_v4",
+            "reasons": [
+              "Kadro/ilk 11 verisi tam güvenli değil."
+            ],
+            "original_model_score": 82,
+            "adjusted_model_score": 78
+          },
+          "specialist_decision": "downgrade",
+          "specialist_eligible": true,
+          "specialist_quality_score": 60
+        },
+        {
+          "no": 2,
+          "id": "11386",
+          "match_name": "B.Leverkusen VS Rb Leipzig",
+          "home": "B.Leverkusen",
+          "away": "Rb Leipzig",
+          "date": "2026-09-20",
+          "league": "Almanya Bundesliga",
+          "start_time": "16:30",
+          "recommended_market": "3.5 Üst",
+          "market": "3.5 Üst",
+          "selection": "3.5 Üst",
+          "estimated_odds": "1.73",
+          "odds": "1.73",
+          "model_score": 76,
+          "analysis_score": 80,
+          "confidence_score": "80%",
+          "estimated_probability": 62.2,
+          "market_probability": 51,
+          "edge_percent": 11.2,
+          "data_completeness": 100,
+          "independent_evidence": true,
+          "risk_level": "Düşük",
+          "data_gap_risk": "Düşük",
+          "squad_risk_level": "Orta",
+          "lineup_risk_level": "Belirsiz",
+          "value_label": "Yüksek Değer",
+          "model_version": "pro-goal-market-bridge-v3",
+          "evidence_mode": "direct_price_plus_independent_goal_model",
+          "probability_source": [
+            "doğrudan oran",
+            "bağımsız gol modeli"
+          ],
+          "goal_market_bridge": true,
+          "signals": [
+            "3.5 Üst doğrudan oranı 1.73.",
+            "Poisson toplam gol beklentisi 3.92; 4+ gol olasılığı %55.1.",
+            "Doğrulanmış 3.5 Üst eğilimi %88.",
+            "Piyasa karşılığı %51; bağımsız model farkı +15.6 puan."
+          ],
+          "robot_reason": "Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
+          "include_in_coupon": true,
+          "market_specialist": {
+            "version": "market-specialist-gates-v4",
+            "market": "3.5 Üst",
+            "delta": -4,
+            "applied": true,
+            "decision": "downgrade",
+            "eligible": true,
+            "quality_score": 65,
+            "support_count": 4,
+            "support_total": 5,
+            "evidence_known_count": 5,
+            "evidence_coverage_score": 100,
+            "missing_evidence": [],
+            "support_checks": [
+              {
+                "name": "Poisson",
+                "available": true,
+                "ok": true
+              },
+              {
+                "name": "3.5+ geçmiş eğilimi",
+                "available": true,
+                "ok": true
+              },
+              {
+                "name": "veri kapsamı",
+                "available": true,
+                "ok": true
+              },
+              {
+                "name": "karşı/fiyat seti",
+                "available": true,
+                "ok": false
+              },
+              {
+                "name": "çapraz gol mutabakatı",
+                "available": true,
+                "ok": true
+              }
+            ],
+            "mode": "extreme_goal_market_gate_v4",
+            "reasons": [
+              "Kadro/ilk 11 verisi tam güvenli değil."
+            ],
+            "original_model_score": 80,
+            "adjusted_model_score": 76
+          },
+          "specialist_decision": "downgrade",
+          "specialist_eligible": true,
+          "specialist_quality_score": 65
+        },
+        {
+          "no": 3,
+          "id": "32848",
+          "match_name": "Parma VS Genoa",
+          "home": "Parma",
+          "away": "Genoa",
+          "date": "2026-09-20",
+          "league": "İtalya Serie A",
+          "start_time": "16:00",
+          "recommended_market": "3.5 Üst",
+          "market": "3.5 Üst",
+          "selection": "3.5 Üst",
+          "estimated_odds": "4.60",
+          "odds": "4.60",
+          "model_score": 75,
+          "analysis_score": 79,
+          "confidence_score": "79%",
+          "estimated_probability": 44,
+          "market_probability": 19.2,
+          "edge_percent": 24.8,
+          "data_completeness": 100,
+          "independent_evidence": true,
+          "risk_level": "Düşük",
+          "data_gap_risk": "Düşük",
+          "squad_risk_level": "Orta",
+          "lineup_risk_level": "Belirsiz",
+          "value_label": "Yüksek Değer",
+          "model_version": "pro-goal-market-bridge-v3",
+          "evidence_mode": "direct_price_plus_independent_goal_model",
+          "probability_source": [
+            "doğrudan oran",
+            "bağımsız gol modeli"
+          ],
+          "goal_market_bridge": true,
+          "signals": [
+            "3.5 Üst doğrudan oranı 4.60.",
+            "Poisson toplam gol beklentisi 2.71; 4+ gol olasılığı %28.8.",
+            "Doğrulanmış 3.5 Üst eğilimi %100.",
+            "Piyasa karşılığı %19.2; bağımsız model farkı +34.6 puan."
+          ],
+          "robot_reason": "Market uzman kararı (downgrade): Poisson toplam gol beklentisi 2.71; 3.5 Üst için zayıf. Çapraz gol mutabakatı 40/100; 3.5 Üst için sınırlı destek. Kadro/ilk 11 verisi tam güvenli değil.",
+          "include_in_coupon": true,
+          "market_specialist": {
+            "version": "market-specialist-gates-v4",
+            "market": "3.5 Üst",
+            "delta": -4,
+            "applied": true,
+            "decision": "downgrade",
+            "eligible": true,
+            "quality_score": 40,
+            "support_count": 2,
+            "support_total": 5,
+            "evidence_known_count": 5,
+            "evidence_coverage_score": 100,
+            "missing_evidence": [],
+            "support_checks": [
+              {
+                "name": "Poisson",
+                "available": true,
+                "ok": false
+              },
+              {
+                "name": "3.5+ geçmiş eğilimi",
+                "available": true,
+                "ok": true
+              },
+              {
+                "name": "veri kapsamı",
+                "available": true,
+                "ok": true
+              },
+              {
+                "name": "karşı/fiyat seti",
+                "available": true,
+                "ok": false
+              },
+              {
+                "name": "çapraz gol mutabakatı",
+                "available": true,
+                "ok": false
+              }
+            ],
+            "mode": "extreme_goal_market_gate_v4",
+            "reasons": [
+              "Poisson toplam gol beklentisi 2.71; 3.5 Üst için zayıf.",
+              "Çapraz gol mutabakatı 40/100; 3.5 Üst için sınırlı destek.",
+              "Kadro/ilk 11 verisi tam güvenli değil."
+            ],
+            "original_model_score": 79,
+            "adjusted_model_score": 75
+          },
+          "specialist_decision": "downgrade",
+          "specialist_eligible": true,
+          "specialist_quality_score": 40
+        }
+      ],
+      "total_odds": "13.05",
+      "average_confidence_score": "76%",
+      "combined_estimated_probability": 17.8,
+      "risk_level": "Orta",
+      "short_description": "3.5 Üst ve 6+ Gol dahil, yalnız doğrulanmış PRO yüksek gol adayları.",
+      "robot_reason": "3 yüksek gol seçeneği doğrudan oran + bağımsız model filtresini geçti.",
+      "is_available": true
     }
+  },
+  "minimum_coupon_odd": 1.45,
+  "goal_market_bridge": {
+    "version": "pro-goal-market-bridge-v3",
+    "over35_candidate_count": 230,
+    "six_plus_candidate_count": 60,
+    "coupon_eligible_count": 8,
+    "minimum_coupon_odd": 1.45
+  },
+  "candidate_count": 6,
+  "market_specialist": {
+    "version": "market-specialist-gates-v4",
+    "goal_candidates_checked": 290
   }
 }
