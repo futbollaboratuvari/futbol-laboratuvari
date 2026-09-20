@@ -12,13 +12,13 @@ const memoryFile = path.join(root, "data", "learning-memory.json");
 const statusFile = path.join(root, "data", "final-score-sync-status.json");
 
 const FINISHED_STATUSES = new Set(["FT", "AET", "PEN"]);
-const MAX_DATES_PER_RUN = Math.max(1, Number(process.env.RESULT_DATE_LIMIT || 3));
-const RECHECK_INTERVAL_MS = Math.max(30, Number(process.env.RESULT_RECHECK_MINUTES || 120)) * 60 * 1000;
+const MAX_DATES_PER_RUN = Math.max(1, Math.min(14, Number(process.env.RESULT_DATE_LIMIT || 7)));
+const RECHECK_INTERVAL_MS = Math.max(30, Number(process.env.RESULT_RECHECK_MINUTES || 60)) * 60 * 1000;
 const FINISHED_AFTER_MINUTES = 135;
-const IDDAA_RESULT_DETAIL_LIMIT = Math.max(0, Math.min(40, Number(process.env.IDDAA_RESULT_DETAIL_LIMIT || 24)));
+const IDDAA_RESULT_DETAIL_LIMIT = Math.max(0, Math.min(120, Number(process.env.IDDAA_RESULT_DETAIL_LIMIT || 60)));
 const IDDAA_RESULT_DETAIL_CONCURRENCY = Math.max(1, Math.min(6, Number(process.env.IDDAA_RESULT_DETAIL_CONCURRENCY || 4)));
-const IDDAA_RESULT_RECHECK_MS = Math.max(60, Number(process.env.IDDAA_RESULT_RECHECK_MINUTES || 360)) * 60 * 1000;
-const ENABLE_SOFASCORE = String(process.env.RESULT_ENABLE_SOFASCORE || "").trim() === "1";
+const IDDAA_RESULT_RECHECK_MS = Math.max(60, Number(process.env.IDDAA_RESULT_RECHECK_MINUTES || 180)) * 60 * 1000;
+const ENABLE_SOFASCORE = String(process.env.RESULT_ENABLE_SOFASCORE || "1").trim() !== "0";
 
 function readJson(file, fallback) {
   try {
@@ -497,25 +497,69 @@ function archiveIdentityKey(item) {
 
 function buildArchiveIdentityIndex(rows) {
   const buckets = new Map();
+  const byDate = new Map();
   for (const row of Array.isArray(rows) ? rows : []) {
     const key = archiveIdentityKey(row);
-    if (!dateOf(row) || !normalizeTeam(teamsOf(row).home) || !normalizeTeam(teamsOf(row).away)) continue;
+    const date = dateOf(row);
+    const rowTeams = teamsOf(row);
+    if (!date || !normalizeTeam(rowTeams.home) || !normalizeTeam(rowTeams.away)) continue;
     const eventId = String(row?.iddaa_event_id || "").trim();
     const bucket = buckets.get(key) || { rows: [], event_ids: new Set() };
     bucket.rows.push(row);
     if (/^\d{1,12}$/.test(eventId)) bucket.event_ids.add(eventId);
     buckets.set(key, bucket);
+    if (/^\d{1,12}$/.test(eventId)) {
+      const dated = byDate.get(date) || [];
+      dated.push(row);
+      byDate.set(date, dated);
+    }
   }
 
-  const index = new Map();
+  const exact = new Map();
   for (const [key, bucket] of buckets) {
     if (bucket.event_ids.size !== 1) continue;
-    index.set(key, {
+    exact.set(key, {
       event_id: [...bucket.event_ids][0],
       row: bucket.rows.find((item) => String(item?.iddaa_event_id || "").trim()) || bucket.rows[0],
+      match_mode: "exact",
+      match_score: 1,
     });
   }
-  return index;
+  return { exact, byDate };
+}
+
+function findArchiveIdentityForPrediction(prediction, index) {
+  for (const date of resultDatesForMatch(prediction)) {
+    const exact = index.exact.get([date, normalizeTeam(teamsOf(prediction).home), normalizeTeam(teamsOf(prediction).away)].join("|"));
+    if (exact) return exact;
+  }
+
+  const candidates = resultDatesForMatch(prediction)
+    .flatMap((date) => index.byDate.get(date) || [])
+    .map((row) => ({
+      row,
+      event_id: String(row?.iddaa_event_id || "").trim(),
+      quality: pairSimilarity(prediction, row),
+    }))
+    .filter((entry) => /^\d{1,12}$/.test(entry.event_id)
+      && entry.quality.home >= 0.78
+      && entry.quality.away >= 0.78
+      && entry.quality.score >= 0.88)
+    .sort((a, b) => b.quality.score - a.quality.score);
+
+  if (!candidates.length) return null;
+  const top = candidates[0];
+  const competing = candidates.filter((entry, index) => index > 0
+    && entry.event_id !== top.event_id
+    && top.quality.score - entry.quality.score < 0.04);
+  if (competing.length) return null;
+
+  return {
+    event_id: top.event_id,
+    row: top.row,
+    match_mode: "strict_fuzzy",
+    match_score: Number(top.quality.score.toFixed(3)),
+  };
 }
 
 function buildIddaaBackfillTargets(memory, archiveRows, previousStatus = {}, now = new Date(), limit = IDDAA_RESULT_DETAIL_LIMIT) {
@@ -535,7 +579,7 @@ function buildIddaaBackfillTargets(memory, archiveRows, previousStatus = {}, now
       || String(b?.start_time || b?.time || "").localeCompare(String(a?.start_time || a?.time || "")));
 
   for (const prediction of candidates) {
-    const identity = index.get(archiveIdentityKey(prediction));
+    const identity = findArchiveIdentityForPrediction(prediction, index);
     if (!identity || seenIds.has(identity.event_id)) continue;
     const lastAttempt = Date.parse(checks[identity.event_id]?.last_attempt_at || "");
     if (Number.isFinite(lastAttempt) && now.getTime() - lastAttempt < IDDAA_RESULT_RECHECK_MS) continue;
@@ -544,6 +588,8 @@ function buildIddaaBackfillTargets(memory, archiveRows, previousStatus = {}, now
       event_id: identity.event_id,
       prediction,
       archive_row: identity.row,
+      identity_match_mode: identity.match_mode,
+      identity_match_score: identity.match_score,
     });
     if (targets.length >= limit) break;
   }
@@ -893,6 +939,7 @@ module.exports = {
   applyPredictionResults,
   archiveIdentityKey,
   buildArchiveIdentityIndex,
+  findArchiveIdentityForPrediction,
   buildIddaaBackfillTargets,
   applyResults,
   datesToCheck,

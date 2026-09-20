@@ -88,11 +88,11 @@
   }
 
   function valueThresholdForOdd(odd) {
-    if (odd < 1.60) return { min_edge: 6, min_ev: 1.04, min_model_score: 70, band: "1.45-1.59" };
-    if (odd < 1.90) return { min_edge: 4, min_ev: 1.03, min_model_score: 67, band: "1.60-1.89" };
-    if (odd < 2.50) return { min_edge: 3, min_ev: 1.03, min_model_score: 65, band: "1.90-2.49" };
-    if (odd < 3.50) return { min_edge: 4, min_ev: 1.04, min_model_score: 65, band: "2.50-3.49" };
-    return { min_edge: 5, min_ev: 1.06, min_model_score: 68, band: "3.50+" };
+    if (odd < 1.60) return { min_edge: 8, min_ev: 1.06, min_model_score: 76, min_completeness: 68, band: "1.45-1.59" };
+    if (odd < 1.90) return { min_edge: 6, min_ev: 1.05, min_model_score: 73, min_completeness: 65, band: "1.60-1.89" };
+    if (odd < 2.50) return { min_edge: 5, min_ev: 1.05, min_model_score: 71, min_completeness: 62, band: "1.90-2.49" };
+    if (odd < 3.50) return { min_edge: 6, min_ev: 1.07, min_model_score: 73, min_completeness: 65, band: "2.50-3.49" };
+    return { min_edge: 8, min_ev: 1.10, min_model_score: 76, min_completeness: 70, band: "3.50+" };
   }
 
   function valueQuality(item) {
@@ -160,12 +160,15 @@
       };
     }
 
+    const completeness = effectiveCompleteness(item);
     const scorePass = modelScore !== null && modelScore >= threshold.min_model_score;
+    const completenessPass = completeness !== null && completeness >= threshold.min_completeness;
     const edgePass = effectiveEdge >= threshold.min_edge;
     const evPass = expectedValue >= threshold.min_ev;
-    const pass = scorePass && edgePass && evPass;
+    const pass = scorePass && completenessPass && edgePass && evPass;
     const reasons = [];
     if (!scorePass) reasons.push(`model gücü ${Math.round(modelScore || 0)} < ${threshold.min_model_score}`);
+    if (!completenessPass) reasons.push(`veri kapsamı ${Math.round(completeness || 0)} < ${threshold.min_completeness}`);
     if (!edgePass) reasons.push(`edge ${effectiveEdge.toFixed(1)} < ${threshold.min_edge.toFixed(1)}`);
     if (!evPass) reasons.push(`beklenen değer ${expectedValue.toFixed(3)} < ${threshold.min_ev.toFixed(2)}`);
 
@@ -184,6 +187,7 @@
       min_edge: threshold.min_edge,
       min_ev: threshold.min_ev,
       min_model_score: threshold.min_model_score,
+      min_completeness: threshold.min_completeness,
       reason: pass
         ? `${normalizeGoalBridgeEdge ? "Goal bridge edge nihai olasılığa normalize edildi. " : ""}Değer kapısı geçti: ${threshold.band} bandı, edge ${effectiveEdge.toFixed(1)}, EV ${expectedValue.toFixed(3)}.`
         : `${normalizeGoalBridgeEdge ? "Goal bridge edge nihai olasılığa normalize edildi. " : ""}Değer kapısı reddetti: ${reasons.join("; ")}.`,
@@ -203,9 +207,9 @@
     const odd = finite(item?.estimated_odds ?? item?.odds ?? item?.odd);
 
     const baseCriteria = Boolean(item?.independent_evidence)
-      && modelScore >= (sixPlus ? 68 : 65)
-      && completeness >= (sixPlus ? 55 : 45)
-      && probability >= (sixPlus ? 15 : 42)
+      && modelScore >= (sixPlus ? 76 : 71)
+      && completeness >= (sixPlus ? 70 : 62)
+      && probability >= (sixPlus ? 18 : 45)
       && validMarket(item)
       && hasAcceptableOdd(item)
       && !hasBlockingRisk(item)
@@ -231,13 +235,15 @@
   }
 
   function isProReadyFallback(item) {
+    const quality = valueQuality(item);
     return !isCouponEligible(item)
       && Boolean(item?.independent_evidence)
-      && effectiveModelScore(item) >= 60
-      && effectiveCompleteness(item) >= 35
+      && effectiveModelScore(item) >= 70
+      && effectiveCompleteness(item) >= 60
       && validMarket(item)
       && hasAcceptableOdd(item)
-      && !hasBlockingRisk(item);
+      && !hasBlockingRisk(item)
+      && quality.pass;
   }
 
   function isWatchView(item) {
