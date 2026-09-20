@@ -1,36 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T10:05:55.774Z",
+  "generated_at": "2026-09-20T14:11:37.345Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-20T10:05:54.952Z",
+  "source_generated_at": "2026-09-20T14:11:35.256Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 2,
-    "ready_count": 0,
-    "waiting_count": 2,
-    "result_lean_count": 0,
-    "next_goal_lean_count": 0,
+    "live_match_count": 8,
+    "ready_count": 8,
+    "waiting_count": 0,
+    "result_lean_count": 7,
+    "next_goal_lean_count": 6,
     "high_goal_pressure_count": 0
   },
   "matches": [
     {
-      "fixture_id": "401882514",
-      "status": "insufficient_data",
-      "minute": 5,
+      "fixture_id": "401879276",
+      "status": "ready",
+      "minute": 55,
       "score": {
         "home": 0,
         "away": 0
       },
-      "home": "CD Tenerife",
-      "away": "Sevilla",
-      "league": "İspanya Kadınlar Primera Lig",
+      "home": "AFC Bournemouth",
+      "away": "Liverpool",
+      "league": "İngiltere Premier Lig",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T10:05:54.952Z",
-      "freshness_minutes": 0.0137,
+      "snapshot_recorded_at": "2026-09-20T14:11:35.256Z",
+      "freshness_minutes": 0.03481666666666667,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -56,31 +56,63 @@
       },
       "robot_version": "live-match-analysis-robot-v1",
       "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": "minute_too_early",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "wait",
-        "label": "Veri yeterli değil · tahmin verilmedi",
-        "confidence": null
+        "type": "match_direction",
+        "label": "Beraberlik yönü",
+        "confidence": 60
       },
-      "result_lean": null,
-      "next_goal_lean": null,
-      "goal_pressure": null,
-      "signals": []
+      "result_lean": {
+        "code": "X",
+        "label": "Beraberlik yönü",
+        "side": "draw",
+        "strength": 64.72
+      },
+      "next_goal_lean": {
+        "code": null,
+        "label": "Sonraki gol için net ayrışma yok",
+        "side": "neutral",
+        "strength": 55.82
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 8
+      },
+      "signals": [
+        "Team Power: AFC Bournemouth %47 · Liverpool %53.",
+        "Goal Power: AFC Bournemouth %8 · Liverpool %8.",
+        "Maç yönü: Beraberlik yönü. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": -6,
+        "goal_power_diff": 0,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 0,
+        "total_shots_diff": -2,
+        "corners_diff": 1,
+        "xg_diff": 0,
+        "direction_score": -3.28,
+        "next_goal_score": -3.18
+      }
     },
     {
-      "fixture_id": "401882511",
-      "status": "insufficient_data",
-      "minute": 6,
+      "fixture_id": "401874752",
+      "status": "ready",
+      "minute": 45,
       "score": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
-      "home": "Granada",
-      "away": "Deportivo",
-      "league": "İspanya Kadınlar Primera Lig",
+      "home": "Frosinone",
+      "away": "Como",
+      "league": "İtalya Serie A",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T10:05:54.952Z",
-      "freshness_minutes": 0.0137,
+      "snapshot_recorded_at": "2026-09-20T14:11:35.256Z",
+      "freshness_minutes": 0.03481666666666667,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -106,16 +138,540 @@
       },
       "robot_version": "live-match-analysis-robot-v1",
       "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": "minute_too_early",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "wait",
-        "label": "Veri yeterli değil · tahmin verilmedi",
-        "confidence": null
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 78
       },
-      "result_lean": null,
-      "next_goal_lean": null,
-      "goal_pressure": null,
-      "signals": []
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 72.2
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 40
+      },
+      "signals": [
+        "Team Power: Frosinone %60 · Como %40.",
+        "Goal Power: Frosinone %45 · Como %30.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 20,
+        "goal_power_diff": 15,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 2,
+        "total_shots_diff": -1,
+        "corners_diff": 2,
+        "xg_diff": 0,
+        "direction_score": 52.3,
+        "next_goal_score": 20.2
+      }
+    },
+    {
+      "fixture_id": "401874801",
+      "status": "ready",
+      "minute": 50,
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "home": "Parma",
+      "away": "Genoa",
+      "league": "İtalya Serie A",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-20T14:11:35.256Z",
+      "freshness_minutes": 0.03481666666666667,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "watch",
+        "label": "Net canlı tahmin yok · izlemeye devam",
+        "confidence": 48
+      },
+      "result_lean": {
+        "code": null,
+        "label": "Taraf için ayrışma yok",
+        "side": "neutral",
+        "strength": 60
+      },
+      "next_goal_lean": {
+        "code": null,
+        "label": "Sonraki gol için net ayrışma yok",
+        "side": "neutral",
+        "strength": 45.18
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 12
+      },
+      "signals": [
+        "Team Power: Parma %43 · Genoa %57.",
+        "Goal Power: Parma %9 · Genoa %14.",
+        "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": -14,
+        "goal_power_diff": -5,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": -1,
+        "total_shots_diff": -4,
+        "corners_diff": -3,
+        "xg_diff": 0,
+        "direction_score": -2.52,
+        "next_goal_score": -13.82
+      }
+    },
+    {
+      "fixture_id": "401875595",
+      "status": "ready",
+      "minute": 83,
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "home": "AZ Alkmaar",
+      "away": "Telstar",
+      "league": "Hollanda Eredivisie",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-20T14:11:35.256Z",
+      "freshness_minutes": 0.03481666666666667,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 90
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 19
+      },
+      "signals": [
+        "Team Power: AZ Alkmaar %86 · Telstar %14.",
+        "Goal Power: AZ Alkmaar %24 · Telstar %3.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 72,
+        "goal_power_diff": 21,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 6,
+        "total_shots_diff": 12,
+        "corners_diff": 3,
+        "xg_diff": 0,
+        "direction_score": 97.56,
+        "next_goal_score": 64.86
+      }
+    },
+    {
+      "fixture_id": "401875593",
+      "status": "ready",
+      "minute": 81,
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "home": "FC Twente",
+      "away": "PSV Eindhoven",
+      "league": "Hollanda Eredivisie",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-20T14:11:35.256Z",
+      "freshness_minutes": 0.03481666666666667,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "next_goal",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "confidence": 64
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 68.648
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 69.92
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 20
+      },
+      "signals": [
+        "Team Power: FC Twente %57 · PSV Eindhoven %43.",
+        "Goal Power: FC Twente %22 · PSV Eindhoven %16.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 14,
+        "goal_power_diff": 6,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 1,
+        "total_shots_diff": 8,
+        "corners_diff": 1,
+        "xg_diff": 0,
+        "direction_score": 20.72,
+        "next_goal_score": 17.92
+      }
+    },
+    {
+      "fixture_id": "401888285",
+      "status": "ready",
+      "minute": 12,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "home": "Erzurum BB",
+      "away": "Samsunspor",
+      "league": "Türkiye Süper Lig",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-20T14:11:35.256Z",
+      "freshness_minutes": 0.03481666666666667,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Deplasman yönü",
+        "confidence": 67
+      },
+      "result_lean": {
+        "code": "2",
+        "label": "Deplasman yönü",
+        "side": "away",
+        "strength": 74.786
+      },
+      "next_goal_lean": {
+        "code": "AWAY",
+        "label": "Sonraki gol eğilimi: Deplasman",
+        "side": "away",
+        "strength": 71.24
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 8
+      },
+      "signals": [
+        "Team Power: Erzurum BB %21 · Samsunspor %79.",
+        "Goal Power: Erzurum BB %0 · Samsunspor %10.",
+        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": -58,
+        "goal_power_diff": -10,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 0,
+        "total_shots_diff": -1,
+        "corners_diff": -2,
+        "xg_diff": 0,
+        "direction_score": -27.54,
+        "next_goal_score": -19.24
+      }
+    },
+    {
+      "fixture_id": "401888287",
+      "status": "ready",
+      "minute": 11,
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "home": "Fenerbahce",
+      "away": "Eyupspor",
+      "league": "Türkiye Süper Lig",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-20T14:11:35.256Z",
+      "freshness_minutes": 0.03481666666666667,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 90
+      },
+      "goal_pressure": {
+        "level": "medium",
+        "label": "Gol baskısı orta",
+        "score": 54
+      },
+      "signals": [
+        "Team Power: Fenerbahce %89 · Eyupspor %11.",
+        "Goal Power: Fenerbahce %69 · Eyupspor %3.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı orta.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 78,
+        "goal_power_diff": 66,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 2,
+        "total_shots_diff": 2,
+        "corners_diff": 0,
+        "xg_diff": 0,
+        "direction_score": 71.44,
+        "next_goal_score": 61.74
+      }
+    },
+    {
+      "fixture_id": "401899619",
+      "status": "ready",
+      "minute": 46,
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "home": "Arezzo",
+      "away": "Sudtirol",
+      "league": "İtalya Serie B",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-20T14:11:35.256Z",
+      "freshness_minutes": 0.03481666666666667,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Deplasman yönü",
+        "confidence": 73
+      },
+      "result_lean": {
+        "code": "2",
+        "label": "Deplasman yönü",
+        "side": "away",
+        "strength": 83.426
+      },
+      "next_goal_lean": {
+        "code": "AWAY",
+        "label": "Sonraki gol eğilimi: Deplasman",
+        "side": "away",
+        "strength": 71.44
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 8
+      },
+      "signals": [
+        "Team Power: Arezzo %26 · Sudtirol %74.",
+        "Goal Power: Arezzo %3 · Sudtirol %9.",
+        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": -48,
+        "goal_power_diff": -6,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": -1,
+        "total_shots_diff": -1,
+        "corners_diff": 3,
+        "xg_diff": 0,
+        "direction_score": -37.14,
+        "next_goal_score": -19.44
+      }
     }
   ]
 }
