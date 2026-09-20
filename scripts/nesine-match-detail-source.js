@@ -411,8 +411,10 @@ async function run() {
       }
 
       const baseLines = htmlToLines(html);
+      const dedicatedRoutes = new Set(["squads", "discipline", "referee"]);
       const missing = Object.keys(ROUTES).filter((key) => {
         if (key === "summary") return false;
+        if (dedicatedRoutes.has(key)) return true;
         const excerpt = sectionExcerpt(baseLines, key);
         return !hasUsefulExcerpt(excerpt);
       });
