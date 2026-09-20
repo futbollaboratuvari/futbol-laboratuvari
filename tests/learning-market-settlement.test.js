@@ -14,6 +14,7 @@ const {
   resultDatesForMatch,
   scoreText,
   sofascoreResults,
+  sportsDbResults,
 } = require("../scripts/update-final-scores");
 const {
   buildScoreIndexFromRows,
@@ -92,6 +93,20 @@ const {
   assert.equal(footballDataRows.length, 1);
   assert.equal(footballDataRows[0].score, "3-2");
   assert.equal(footballDataRows[0].half_time_score, "1-1");
+})();
+
+(function testSportsDbBlankScoreIsRejected() {
+  const rows = sportsDbResults({
+    events: [{
+      strStatus: "FT",
+      dateEvent: "2026-09-19",
+      strHomeTeam: "Home",
+      strAwayTeam: "Away",
+      intHomeScore: null,
+      intAwayScore: null,
+    }],
+  });
+  assert.equal(rows.length, 0, "blank SportsDB scores must never become synthetic 0-0");
 })();
 
 (function testSofaScoreFinishedParsing() {
