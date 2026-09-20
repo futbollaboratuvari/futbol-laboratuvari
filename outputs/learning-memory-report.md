@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.09.2026 09:35:53
+Oluşturma: 20.09.2026 11:12:19
 
 ## Özet
 
-- Toplam tahmin: 2178
-- Bekleyen tahmin: 1636
+- Toplam tahmin: 2205
+- Bekleyen tahmin: 1663
 - Kazanan tahmin: 288
 - Kaybeden tahmin: 254
-- Lig sayısı: 337
+- Lig sayısı: 338
 - Seçenek sayısı: 13
 
 ## Öğrenme Mantığı
@@ -22,34 +22,34 @@ Oluşturma: 20.09.2026 09:35:53
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 295, bekleyen 248, başarı %60, düz getiri %13, ağırlık 1
-- KG Var: toplam 147, bekleyen 94, başarı %59, düz getiri %5, ağırlık 1
-- 2.5 Üst: toplam 232, bekleyen 150, başarı %56, düz getiri %-1, ağırlık 1
-- MS 1: toplam 590, bekleyen 447, başarı %52, düz getiri %-14, ağırlık 1
-- 3.5 Üst: toplam 59, bekleyen 38, başarı %52, düz getiri %5, ağırlık 1
-- 2.5 Alt: toplam 680, bekleyen 517, başarı %51, düz getiri %-14, ağırlık 1
+- MS 2: toplam 301, bekleyen 254, başarı %60, düz getiri %13, ağırlık 1
+- KG Var: toplam 148, bekleyen 95, başarı %59, düz getiri %5, ağırlık 1
+- 2.5 Üst: toplam 238, bekleyen 156, başarı %56, düz getiri %-1, ağırlık 1
+- MS 1: toplam 594, bekleyen 451, başarı %52, düz getiri %-14, ağırlık 1
+- 3.5 Üst: toplam 61, bekleyen 40, başarı %52, düz getiri %5, ağırlık 1
+- 2.5 Alt: toplam 687, bekleyen 524, başarı %51, düz getiri %-14, ağırlık 1
 - KG Yok: toplam 106, bekleyen 79, başarı %44, düz getiri %-24, ağırlık 1
 - MS X: toplam 16, bekleyen 10, başarı %33, düz getiri %-15, ağırlık 1
 - İlk Yarı KG Yok: toplam 3, bekleyen 3, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- İY KG / 2Y KG Hayır / Hayır: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- İY KG / 2Y KG Hayır / Hayır: toplam 8, bekleyen 8, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İkinci Yarı KG Yok: toplam 6, bekleyen 6, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İlk Yarı KG Var: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-20 | Meksika Primera Ligi, Açılış | Queretaro - Club Leon | 2.5 Üst | pending | 62/100
 - 2026-09-20 | Guatemala Ulusal Lig Apertura | Malacateco - Mixco | 2.5 Alt | pending | 72/100
 - 2026-09-20 | Kolombiya Primera A Clausura | Llaneros - Atletico Nacion | 2.5 Üst | pending | 65/100
 - 2026-09-20 | Meksika Liga MX Apertura | Toluca - Santos Laguna | KG Yok | pending | 71/100
 - 2026-09-20 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Tigre | KG Yok | pending | 65/100
-- 2026-09-20 | Meksika Liga MX Apertura | Pachuca - Club Tijuana | 2.5 Alt | pending | 69/100
-- 2026-09-20 | Meksika Kadınlar Liga MX Apertura | Atletico San L - Pachuca (K) | MS 2 | pending | 54/100
-- 2026-09-20 | Kolombiya Primera A Clausura | Deportes Tolim - America De Cali | 2.5 Alt | pending | 65/100
+- 2026-09-20 | Meksika Liga MX Apertura | Pachuca - Club Tijuana | 2.5 Alt | pending | 70/100
+- 2026-09-20 | Kolombiya Primera A Clausura | Deportes Tolim - America De Cali | 2.5 Alt | pending | 64/100
 - 2026-09-20 | Ekvador Pro Lig Şampiyonluk Grubu | Ldu Quito - Univ Catolica ( | 2.5 Üst | pending | 72/100
 - 2026-09-20 | El Salvador Primera Lig Apertura | Firpo - Balboa | KG Yok | pending | 72/100
+- 2026-09-20 | Meksika Primera Ligi, Açılış | Queretaro - Club Leon | 2.5 Üst | pending | 62/100
+- 2026-09-20 | Kosta Rika Primera Lig, Açılış | Ad San Carlos - Cs Cartagines | 2.5 Alt | pending | 67/100
+- 2026-09-20 | Meksika Kadınlar Liga MX Apertura | Atletico San L - Pachuca (K) | MS 2 | pending | 54/100
 - 2026-09-20 | Nikaragua Premier Lig Apertura | Rancho Santana - Managua | MS 2 | pending | 56/100
 - 2026-09-20 | ABD USL Lig 1 | Spokane Veloci - Athletic Club B | 2.5 Üst | pending | 65/100
 - 2026-09-20 | ABD USL | Sacramento Rep - San Antonio | 2.5 Alt | pending | 64/100
 - 2026-09-20 | Meksika Ascenso MX Apertura | Cd Tapatio - Tlaxcala | MS 1 | pending | 49/100
-- 2026-09-20 | Kosta Rika Premier Lig Apertura | Alajuelense - Inter San Carlo | MS 1 | pending | 62/100
 

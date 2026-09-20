@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-20T06:30:07.302248+00:00
+Tarih: 2026-09-20T08:06:25.252349+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 510
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 510
-- Ham veri havuzu toplam mac sayisi: 16286
+- Kac mac bulundu: 508
+- Kac mac kaydedildi: 8
+- Kac mac zaten vardi: 500
+- Ham veri havuzu toplam mac sayisi: 16294
 - Hedef tarih: 20.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -29,7 +29,6 @@ Tarih: 2026-09-20T06:30:07.302248+00:00
 - Arnavutluk Süperlig
 - Asya Oyunları Grup A
 - Asya Oyunları Grup B
-- Avustralya Victoria Kadınlar Premier Lig Büyük Final
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
@@ -57,6 +56,7 @@ Tarih: 2026-09-20T06:30:07.302248+00:00
 - Fransa U19 Ulusal Şampiyona Grup A
 - Fransa U19 Ulusal Şampiyona Grup B
 - Fransa U19 Ulusal Şampiyona Grup C
+- Fransa U19 Ulusal Şampiyona Grup D
 - Gana Premier Lig
 - Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
@@ -72,7 +72,6 @@ Tarih: 2026-09-20T06:30:07.302248+00:00
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Jamaika Premier Lig
-- Japonya Futbol Ligi
 - Japonya J1 Lig
 - Japonya J2 Lig
 - Japonya J3 Lig
@@ -260,7 +259,7 @@ Tarih: 2026-09-20T06:30:07.302248+00:00
 | 20.09.2026 | 20:00 | Türkiye Süper Lig | Amed Sk | Beşiktaş | 06970 | 5 |
 | 20.09.2026 | 20:00 | Türkiye Süper Lig | Göztepe | Rizespor | 06974 | 5 |
 | 20.09.2026 | 17:00 | Türkiye Süper Lig | Erzurumspor Fk | Samsunspor | 04733 | 5 |
-| 20.09.2026 | 17:00 | Türkiye Süper Lig | Fenerbahçe | Eyüpspor | 04737 | 4 |
+| 20.09.2026 | 17:00 | Türkiye Süper Lig | Fenerbahçe | Eyüpspor | 04737 | 5 |
 | 20.09.2026 | 17:00 | Türkiye TFF 1. Lig | Manisa Futbol | İstanbulspor | 51752 | 5 |
 | 20.09.2026 | 17:00 | Türkiye TFF 1. Lig | Pendikspor | Bodrum Fk | 51769 | 5 |
 | 20.09.2026 | 20:00 | Türkiye TFF 1. Lig | Antalyaspor | Van Spor Fk | 51786 | 5 |
