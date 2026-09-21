@@ -2,14 +2,14 @@
 
 Durum: warning
 Toplam tahmin: 2487
-Olculen tahmin: 769
-Bekleyen tahmin: 1718
-Kazanan: 395
-Kaybeden: 374
+Olculen tahmin: 780
+Bekleyen tahmin: 1707
+Kazanan: 402
+Kaybeden: 378
 Skoru olup pending kalan: 19
-Eski pending tahmin: 1630
+Eski pending tahmin: 1624
 En eski pending tarihi: 2026-09-15
-Son finalizer kontrolu: 21
-Son finalizer guncelleme: 2
+Son finalizer kontrolu: 30
+Son finalizer guncelleme: 11
 
 Sonraki aksiyon: Eski pending tahminler final skor koprusuyle baglanip finalizer tarafindan olculmeli.

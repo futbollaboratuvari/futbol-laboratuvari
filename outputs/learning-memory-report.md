@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 21.09.2026 03:36:20
+Oluşturma: 21.09.2026 04:16:32
 
 ## Özet
 
 - Toplam tahmin: 2487
-- Bekleyen tahmin: 1720
-- Kazanan tahmin: 394
-- Kaybeden tahmin: 373
+- Bekleyen tahmin: 1718
+- Kazanan tahmin: 395
+- Kaybeden tahmin: 374
 - Lig sayısı: 345
 - Seçenek sayısı: 13
 
@@ -23,12 +23,12 @@ Oluşturma: 21.09.2026 03:36:20
 ## En Güçlü Seçenek Hafızası
 
 - MS 2: toplam 347, bekleyen 277, başarı %57, düz getiri %3, ağırlık 1
-- KG Var: toplam 168, bekleyen 91, başarı %55, düz getiri %-4, ağırlık 1
+- KG Var: toplam 168, bekleyen 90, başarı %54, düz getiri %-5, ağırlık 1
 - 2.5 Alt: toplam 751, bekleyen 533, başarı %51, düz getiri %-15, ağırlık 0.94
 - 2.5 Üst: toplam 269, bekleyen 156, başarı %51, düz getiri %-9, ağırlık 1
 - MS 1: toplam 649, bekleyen 465, başarı %51, düz getiri %-16, ağırlık 0.94
+- KG Yok: toplam 145, bekleyen 86, başarı %48, düz getiri %-19, ağırlık 1
 - 3.5 Üst: toplam 65, bekleyen 27, başarı %47, düz getiri %-6, ağırlık 1
-- KG Yok: toplam 145, bekleyen 87, başarı %47, düz getiri %-21, ağırlık 1
 - MS X: toplam 19, bekleyen 10, başarı %33, düz getiri %-15, ağırlık 1
 - İY KG / 2Y KG Hayır / Hayır: toplam 17, bekleyen 17, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İkinci Yarı KG Yok: toplam 15, bekleyen 15, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
@@ -50,6 +50,6 @@ Oluşturma: 21.09.2026 03:36:20
 - 2026-09-21 | Arjantin Premier Lig 2. Aşama | Barracas - Rivadavia | MS 2 | pending | 61/100
 - 2026-09-21 | Arjantin Ulusal Primera Lig | Nueva Chicago - Patronato | KG Yok | pending | 77/100
 - 2026-09-21 | Kolombiya Primera B Clausura | Real Cundinama - Quindio | MS 1 | pending | 42/100
-- 2026-09-21 | Arjantin Ulusal Primera Lig | Tristan - Atlanta | MS 1 | pending | 55/100
-- 2026-09-21 | İngiltere Premier Lig 2 | Bournemouth U2 - Stoke (B) | MS 1 | pending | 49/100
+- 2026-09-21 | Arjantin Primera C | Claypole - Yupanqui | 2.5 Alt | pending | 55/100
+- 2026-09-21 | Arjantin Primera C | Ballester - C Cordoba | MS 2 | pending | 42/100
 

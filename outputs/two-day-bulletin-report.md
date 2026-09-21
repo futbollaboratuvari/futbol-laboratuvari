@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-21 / 2026-09-22
 Kaynak: fixtures.json
-Ham mac: 93
-Aktif mac: 55
+Ham mac: 72
+Aktif mac: 52
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 38
-Bugun: 43
+Bultenden dusurulen mac: 20
+Bugun: 40
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-09-21 04:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Cs Cartagines | scheduled | -
-- 2026-09-21 04:00 | Guatemala Ulusal Lig Apertura | Malacateco - Mixco | scheduled | -
-- 2026-09-21 04:15 | Kolombiya Primera A Clausura | Llaneros - Atletico Nacion | scheduled | -
 - 2026-09-21 04:30 | Honduras Ulusal Lig Apertura | Juticalpa - Marathon | scheduled | -
 - 2026-09-21 05:10 | Meksika Liga MX Apertura | Queretaro - Club Leon | scheduled | -
 - 2026-09-21 09:00 | Japonya Futbol Ligi | Okinawa Sv - Tiamo Hirakata | scheduled | -
