@@ -1231,7 +1231,39 @@
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %51.",
         "Birleşik tahmini olasılık %51."
-      ]
+      ],
+      "specialist_outputs": {
+        "btts": {
+          "id": "btts",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "goals": {
+          "id": "goals",
+          "status": "ready",
+          "candidate_count": 1,
+          "eligible_count": 1,
+          "supplemental_candidate_count": 0
+        },
+        "htft": {
+          "id": "htft",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "match_result": {
+          "id": "match_result",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        }
+      },
+      "specialist_market_decisions": [],
+      "specialist_router_version": "robot-specialist-orchestrator-v3"
     },
     {
       "match_name": "Arsenal (K) VS Koge (K)",
@@ -2000,7 +2032,39 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ]
+      ],
+      "specialist_outputs": {
+        "btts": {
+          "id": "btts",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "goals": {
+          "id": "goals",
+          "status": "ready",
+          "candidate_count": 1,
+          "eligible_count": 1,
+          "supplemental_candidate_count": 0
+        },
+        "htft": {
+          "id": "htft",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "match_result": {
+          "id": "match_result",
+          "status": "ready",
+          "candidate_count": 2,
+          "eligible_count": 2,
+          "supplemental_candidate_count": 0
+        }
+      },
+      "specialist_market_decisions": [],
+      "specialist_router_version": "robot-specialist-orchestrator-v3"
     },
     {
       "match_name": "Juventus (K) VS Benfica (K)",
@@ -2195,7 +2259,12 @@
             "Geçmiş market örneği 2364; ham isabet %34.",
             "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
             "Veri kapsama puanı 43/100 (Yüksek eksik veri riski)."
-          ]
+          ],
+          "specialist_robot": "goals",
+          "specialist_source": "analysis_options",
+          "specialist_decision": "downgrade",
+          "specialist_eligible": true,
+          "specialist_quality_score": 20
         },
         {
           "key": "firstHalfBttsYes",
@@ -3338,7 +3407,48 @@
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %56.",
         "Birleşik tahmini olasılık %56."
-      ]
+      ],
+      "specialist_outputs": {
+        "btts": {
+          "id": "btts",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        },
+        "goals": {
+          "id": "goals",
+          "status": "ready",
+          "candidate_count": 2,
+          "eligible_count": 2,
+          "supplemental_candidate_count": 0
+        },
+        "htft": {
+          "id": "htft",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "match_result": {
+          "id": "match_result",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        }
+      },
+      "specialist_market_decisions": [
+        {
+          "market": "3.5 Üst",
+          "specialist_robot": "goals",
+          "decision": "downgrade",
+          "eligible": true,
+          "quality_score": 20,
+          "source": "analysis_options"
+        }
+      ],
+      "specialist_router_version": "robot-specialist-orchestrator-v3"
     },
     {
       "match_name": "Puerto Montt VS Atletico Nublen",
@@ -4536,7 +4646,39 @@
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %56.",
         "Birleşik tahmini olasılık %56."
-      ]
+      ],
+      "specialist_outputs": {
+        "btts": {
+          "id": "btts",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "goals": {
+          "id": "goals",
+          "status": "ready",
+          "candidate_count": 2,
+          "eligible_count": 2,
+          "supplemental_candidate_count": 0
+        },
+        "htft": {
+          "id": "htft",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "match_result": {
+          "id": "match_result",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        }
+      },
+      "specialist_market_decisions": [],
+      "specialist_router_version": "robot-specialist-orchestrator-v3"
     },
     {
       "match_name": "Independiente VS Internacional P",
@@ -5738,7 +5880,39 @@
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %60.",
         "Birleşik tahmini olasılık %60."
-      ]
+      ],
+      "specialist_outputs": {
+        "btts": {
+          "id": "btts",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "goals": {
+          "id": "goals",
+          "status": "ready",
+          "candidate_count": 2,
+          "eligible_count": 2,
+          "supplemental_candidate_count": 0
+        },
+        "htft": {
+          "id": "htft",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "match_result": {
+          "id": "match_result",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        }
+      },
+      "specialist_market_decisions": [],
+      "specialist_router_version": "robot-specialist-orchestrator-v3"
     },
     {
       "match_name": "Atletico Fc VS Tigres Fc",
@@ -7028,7 +7202,39 @@
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %61.",
         "Birleşik tahmini olasılık %61."
-      ]
+      ],
+      "specialist_outputs": {
+        "btts": {
+          "id": "btts",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        },
+        "goals": {
+          "id": "goals",
+          "status": "ready",
+          "candidate_count": 2,
+          "eligible_count": 2,
+          "supplemental_candidate_count": 0
+        },
+        "htft": {
+          "id": "htft",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "match_result": {
+          "id": "match_result",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        }
+      },
+      "specialist_market_decisions": [],
+      "specialist_router_version": "robot-specialist-orchestrator-v3"
     },
     {
       "match_name": "Real Santander VS Orsomarso",
@@ -8226,7 +8432,39 @@
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %56.",
         "Birleşik tahmini olasılık %56."
-      ]
+      ],
+      "specialist_outputs": {
+        "btts": {
+          "id": "btts",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "goals": {
+          "id": "goals",
+          "status": "ready",
+          "candidate_count": 2,
+          "eligible_count": 2,
+          "supplemental_candidate_count": 0
+        },
+        "htft": {
+          "id": "htft",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "match_result": {
+          "id": "match_result",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        }
+      },
+      "specialist_market_decisions": [],
+      "specialist_router_version": "robot-specialist-orchestrator-v3"
     },
     {
       "match_name": "2 De Mayo VS Sol De America",
@@ -9515,7 +9753,39 @@
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %56.",
         "Birleşik tahmini olasılık %56."
-      ]
+      ],
+      "specialist_outputs": {
+        "btts": {
+          "id": "btts",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        },
+        "goals": {
+          "id": "goals",
+          "status": "ready",
+          "candidate_count": 2,
+          "eligible_count": 2,
+          "supplemental_candidate_count": 0
+        },
+        "htft": {
+          "id": "htft",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "match_result": {
+          "id": "match_result",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        }
+      },
+      "specialist_market_decisions": [],
+      "specialist_router_version": "robot-specialist-orchestrator-v3"
     },
     {
       "match_name": "Independiente VS Jaguares",
@@ -10559,7 +10829,39 @@
         "Değer etiketi: Değerli",
         "Marjı temizlenmiş piyasa olasılığı %18.",
         "Bağımsız takım formu + Poisson gol modeli tahmini %47."
-      ]
+      ],
+      "specialist_outputs": {
+        "btts": {
+          "id": "btts",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "goals": {
+          "id": "goals",
+          "status": "ready",
+          "candidate_count": 1,
+          "eligible_count": 1,
+          "supplemental_candidate_count": 0
+        },
+        "htft": {
+          "id": "htft",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "match_result": {
+          "id": "match_result",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        }
+      },
+      "specialist_market_decisions": [],
+      "specialist_router_version": "robot-specialist-orchestrator-v3"
     },
     {
       "match_name": "Cobreloa VS Coquimbo Unido",
@@ -11849,7 +12151,39 @@
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %54.",
         "Birleşik tahmini olasılık %54."
-      ]
+      ],
+      "specialist_outputs": {
+        "btts": {
+          "id": "btts",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        },
+        "goals": {
+          "id": "goals",
+          "status": "ready",
+          "candidate_count": 2,
+          "eligible_count": 2,
+          "supplemental_candidate_count": 0
+        },
+        "htft": {
+          "id": "htft",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "match_result": {
+          "id": "match_result",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        }
+      },
+      "specialist_market_decisions": [],
+      "specialist_router_version": "robot-specialist-orchestrator-v3"
     },
     {
       "match_name": "Audax Italiano VS Colo Colo",
@@ -13180,7 +13514,39 @@
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %49.",
         "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %55."
-      ]
+      ],
+      "specialist_outputs": {
+        "btts": {
+          "id": "btts",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        },
+        "goals": {
+          "id": "goals",
+          "status": "ready",
+          "candidate_count": 2,
+          "eligible_count": 2,
+          "supplemental_candidate_count": 0
+        },
+        "htft": {
+          "id": "htft",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "match_result": {
+          "id": "match_result",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        }
+      },
+      "specialist_market_decisions": [],
+      "specialist_router_version": "robot-specialist-orchestrator-v3"
     },
     {
       "match_name": "Santa Fe VS Deportivo Cali",
@@ -13359,7 +13725,12 @@
             "Poisson gol beklentisi 1.63-1.04.",
             "Geçmiş market örneği 2364; ham isabet %30.",
             "Veri kapsama puanı 73/100 (Düşük eksik veri riski)."
-          ]
+          ],
+          "specialist_robot": "match_result",
+          "specialist_source": "analysis_options",
+          "specialist_decision": "downgrade",
+          "specialist_eligible": true,
+          "specialist_quality_score": null
         }
       ],
       "goal_market_candidates": [],
@@ -14229,7 +14600,90 @@
         "Değer etiketi: Değerli",
         "Marjı temizlenmiş piyasa olasılığı %40.",
         "Bağımsız Poisson gol modeli + sonuç hafızası tahmini %54."
-      ]
+      ],
+      "specialist_outputs": {
+        "btts": {
+          "id": "btts",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "goals": {
+          "id": "goals",
+          "status": "ready",
+          "candidate_count": 1,
+          "eligible_count": 1,
+          "supplemental_candidate_count": 0
+        },
+        "htft": {
+          "id": "htft",
+          "status": "no_candidate",
+          "candidate_count": 0,
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
+        },
+        "match_result": {
+          "id": "match_result",
+          "status": "ready",
+          "candidate_count": 3,
+          "eligible_count": 3,
+          "supplemental_candidate_count": 0
+        }
+      },
+      "specialist_market_decisions": [
+        {
+          "market": "MS 2",
+          "specialist_robot": "match_result",
+          "decision": "downgrade",
+          "eligible": true,
+          "quality_score": null,
+          "source": "analysis_options"
+        }
+      ],
+      "specialist_router_version": "robot-specialist-orchestrator-v3"
     }
-  ]
+  ],
+  "specialist_orchestrator": {
+    "version": "robot-specialist-orchestrator-v3",
+    "persistence_mode": "compact_decisions_v1",
+    "generated_at": "2026-09-21T23:24:37.651Z",
+    "policy": "Ortak veri çekirdeği korunur; marketler ayrı uzman robotlara yönlendirilir; uzman katman ana olasılığı yükseltmez ve bloklanan adayı geri açmaz.",
+    "feeds": {
+      "htft_high_odds": {
+        "status": "insufficient_verified_odds",
+        "date": "2026-09-22",
+        "verified_pick_count": 0
+      }
+    },
+    "match_count": 12,
+    "candidate_count": 70,
+    "eligible_count": 70,
+    "specialists": {
+      "btts": {
+        "candidate_count": 15,
+        "eligible_count": 15,
+        "ready_match_count": 5,
+        "supplemental_candidate_count": 0
+      },
+      "goals": {
+        "candidate_count": 20,
+        "eligible_count": 20,
+        "ready_match_count": 12,
+        "supplemental_candidate_count": 0
+      },
+      "htft": {
+        "candidate_count": 0,
+        "eligible_count": 0,
+        "ready_match_count": 0,
+        "supplemental_candidate_count": 0
+      },
+      "match_result": {
+        "candidate_count": 35,
+        "eligible_count": 35,
+        "ready_match_count": 12,
+        "supplemental_candidate_count": 0
+      }
+    }
+  }
 }
