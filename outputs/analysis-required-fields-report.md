@@ -1,9 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 51
-Tam analiz: 49
-Eksik analiz: 2
+Toplam analiz: 12
+Tam analiz: 11
+Eksik analiz: 1
 
-- Brumunddal VS Sandefjord Ii: eksik score, confidence
-- Spezia VS Vis Pasaro: eksik score, confidence
+- Arsenal (K) VS Koge (K): eksik score, confidence

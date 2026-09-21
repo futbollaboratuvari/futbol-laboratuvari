@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.09.2026 00:10:27
+Oluşturma: 22.09.2026 02:24:37
 
 ## Özet
 
@@ -41,15 +41,15 @@ Oluşturma: 22.09.2026 00:10:27
 - 2026-09-22 | Kolombiya Primera A Clausura | Independiente - Jaguares | MS X | pending | 57/100
 - 2026-09-22 | Şili Kupa Son 16 Turu | Cobreloa - Coquimbo Unido | 2.5 Alt | pending | 52/100
 - 2026-09-22 | Kolombiya Primera A Clausura | Santa Fe - Deportivo Cali | 2.5 Üst | pending | 70/100
-- 2026-09-22 | Paraguay Kupası | 2 De Mayo - Sol De America | 2.5 Alt | pending | 52/100
-- 2026-09-22 | Şili Kupası | Audax Italiano - Colo Colo | 2.5 Alt | pending | 61/100
-- 2026-09-22 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Juventus (K) - Benfica (K) | MS 1 | pending | 49/100
+- 2026-09-22 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Juventus (K) - Benfica (K) | MS 1 | pending | 50/100
 - 2026-09-22 | Şili Kupa Son 16 Turu | Puerto Montt - Atletico Nublen | 2.5 Alt | pending | 51/100
 - 2026-09-22 | Kolombiya Primera B Clausura | Independiente - Internacional P | 2.5 Alt | pending | 57/100
-- 2026-09-22 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Real Madrid (K - Psg (K) | MS 1 | pending | 47/100
-- 2026-09-22 | Kolombiya Primera B, Kapanış | Atletico Fc - Tigres Fc | 2.5 Alt | pending | 55/100
+- 2026-09-22 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Real Madrid (K - Psg (K) | MS 1 | pending | 48/100
 - 2026-09-22 | Kolombiya Primera B Clausura | Atletico Fc - Tigres Fc | 2.5 Alt | pending | 55/100
 - 2026-09-22 | Paraguay Kupa Son 16 Turu | 2 De Mayo - Sol De America | 2.5 Alt | pending | 52/100
 - 2026-09-22 | Şili Kupa Son 16 Turu | Audax Italiano - Colo Colo | 2.5 Alt | pending | 61/100
+- 2026-09-22 | Paraguay Kupası | 2 De Mayo - Sol De America | 2.5 Alt | pending | 52/100
+- 2026-09-22 | Şili Kupası | Audax Italiano - Colo Colo | 2.5 Alt | pending | 61/100
+- 2026-09-22 | Kolombiya Primera B, Kapanış | Atletico Fc - Tigres Fc | 2.5 Alt | pending | 55/100
 - 2026-09-21 | Ekvador Pro Lig Küme Düşme Grubu | Manta - Orense | KG Yok | lost | 60/100
 
