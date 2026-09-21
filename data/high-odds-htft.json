@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21T14:25:32.309Z",
-  "date": "2026-09-21",
+  "generated_at": "2026-09-21T19:37:25.356Z",
+  "date": "2026-09-22",
   "requested_date": "2026-09-21",
-  "date_fallback_used": false,
+  "date_fallback_used": true,
   "evaluated_dates": [
     "2026-09-21",
     "2026-09-22"
@@ -15,47 +15,39 @@
     "1/2",
     "2/1"
   ],
-  "scan_count": 51,
-  "scheduled_scan_count": 39,
-  "official_match_count": 225,
+  "scan_count": 16,
+  "scheduled_scan_count": 16,
+  "official_match_count": 204,
   "official_htft_match_count": 2,
   "official_high_odds_match_count": 2,
-  "identity_match_count": 21,
-  "matched_by_official_id_count": 2,
+  "identity_match_count": 12,
+  "matched_by_official_id_count": 1,
   "matched_by_date_teams_count": 0,
-  "matched_by_date_time_similarity_count": 19,
+  "matched_by_date_time_similarity_count": 11,
   "ambiguous_identity_count": 0,
-  "unmatched_identity_count": 18,
-  "candidate_count": 2,
+  "unmatched_identity_count": 4,
+  "candidate_count": 1,
   "selected_count": 0,
   "target_card_count": 3,
-  "status": "insufficient_specialist_quality",
+  "status": "insufficient_verified_odds",
   "odds_label": "Resmî İddaa İY/MS oranı",
   "confidence_label": "Model güveni bir sonuç olasılığı değil, senaryo sinyal gücüdür.",
-  "message": "Resmî yüksek oranlı İY/MS adayları bulundu ancak uzman V4 kalite kapısından yeterli seçim geçmedi.",
+  "message": "Bugün en az iki adet doğrulanmış yüksek oranlı 1/2 veya 2/1 adayı bulunamadı; model oranı gösterilmedi.",
   "picks": [],
   "rejected_picks": [
     {
-      "match_name": "Hb Koge VS Hobro",
+      "match_name": "Lanus VS Estudiantes Lp",
       "market": "2/1",
-      "bookmaker_odds": 28.5,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %35 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%35). Açık oyun skoru 52/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%35). İlk yarı yön desteği sınırlı (%27.9). Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Aldosivi VS Atletico Tucuma",
-      "market": "1/2",
       "bookmaker_odds": 36.5,
       "specialist_decision": "block",
       "specialist_quality_score": 40,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %49 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): Açık oyun skoru 37/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %21.7. Açık oyun skoru 37/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%49). İlk yarı yön desteği sınırlı (%21.7). Resmî maç eşleşmesi benzerlik ile %76 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %67, ana model gücü %73. Market uzman kararı (block): Açık oyun skoru 35/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %19.7. Açık oyun skoru 35/100; ters sonuç için sınırlı destek. İlk yarı yön desteği sınırlı (%19.7). Resmî maç eşleşmesi benzerlik ile %82 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
     }
   ],
   "market_specialist": {
     "version": "market-specialist-gates-v4",
-    "htft_picks_checked": 2,
-    "htft_picks_rejected": 2,
+    "htft_picks_checked": 1,
+    "htft_picks_rejected": 1,
     "htft_picks_eligible": 0,
     "selection_policy": "Tüm doğrulanmış adaylar uzman v4 kapısından geçer; sonra en iyi 3 benzersiz maç seçilir.",
     "probability_policy": "Senaryo olasılığı değiştirilmez; uzman v4 yalnız doğrulanmış sinyallerle keep/downgrade/block kararı verir."
