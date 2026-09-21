@@ -1,6 +1,6 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-21T00:34:53.091652+00:00
+Tarih: 2026-09-21T05:33:59.657209+00:00
 
 ## Ozet
 
@@ -9,7 +9,7 @@ Tarih: 2026-09-21T00:34:53.091652+00:00
 - Kac mac bulundu: 38
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 38
-- Ham veri havuzu toplam mac sayisi: 16376
+- Ham veri havuzu toplam mac sayisi: 16377
 - Hedef tarih: 21.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -95,8 +95,8 @@ Tarih: 2026-09-21T00:34:53.091652+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 32
-- Acilan detay: 32
+- Denenen Tumu alani: 33
+- Acilan detay: 33
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -111,11 +111,11 @@ Tarih: 2026-09-21T00:34:53.091652+00:00
 |---|---|---|---|---|---|---:|
 | 21.09.2026 | 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi | Atletico Tucuma | 49491 | 5 |
 | 21.09.2026 | 21:30 | İtalya Serie C Grup A | Trento Calcio | Pro Vercelli | 18043 | 5 |
-| 21.09.2026 | 21:30 | İtalya Serie C Grup A | Dolomiti Bellu | Lumezzane | 18154 | 5 |
 | 21.09.2026 | 21:30 | İtalya Serie C Grup A | Treviso | Calvina | 18199 | 5 |
+| 21.09.2026 | 21:30 | İtalya Serie C Grup A | Dolomiti Bellu | Lumezzane | 18154 | 5 |
 | 21.09.2026 | 21:30 | İtalya Serie C Grup B | Pianese | Sambenedetese | 56773 | 5 |
-| 21.09.2026 | 21:30 | İtalya Serie C Grup B | Nuova Monteros | Livorno | 56707 | 5 |
 | 21.09.2026 | 21:30 | İtalya Serie C Grup B | Spezia | Vis Pasaro | 56740 | 5 |
+| 21.09.2026 | 21:30 | İtalya Serie C Grup B | Nuova Monteros | Livorno | 56707 | 5 |
 | 21.09.2026 | 20:00 | Danimarka 1.Lig | Hb Koge | Hobro | 47343 | 5 |
 | 21.09.2026 | 21:00 | Romanya 1.Lig | Petrolul 52 | Csikszereda | 38971 | 5 |
 | 21.09.2026 | 18:00 | Romanya 1.Lig | Otelul Galati | Hunedoara | 38908 | 5 |
@@ -123,7 +123,7 @@ Tarih: 2026-09-21T00:34:53.091652+00:00
 | 21.09.2026 | 21:00 | Arjantin Ulusal Primera Lig | Tristan | Atlanta | 49549 | 3 |
 | 21.09.2026 | 18:00 | Slovakya 2.Lig | Petrzalka | Pohronie | 58762 | 5 |
 | 21.09.2026 | 23:30 | Kolombiya Primera B Clausura | Bogota | Barranguilla | 14699 | 5 |
-| 21.09.2026 | 19:00 | Almanya Bölgesel Lig Batı | Paderborn 07 I | B.Dortmund (Amt | 03041 | 3 |
+| 21.09.2026 | 19:00 | Almanya Bölgesel Lig Batı | Paderborn 07 I | B.Dortmund (Amt | 03041 | 5 |
 | 21.09.2026 | 22:00 | Ekvador Pro Lig Küme Düşme Grubu | Manta | Orense | 32172 | 5 |
 | 21.09.2026 | 15:00 | İngiltere Professional Development Lig | Bolton U21 | Queens Park Ran | 13087 | 3 |
 | 21.09.2026 | 21:00 | İngiltere Premier Lig 2 | Bournemouth U2 | Stoke (B) | 02560 | 3 |

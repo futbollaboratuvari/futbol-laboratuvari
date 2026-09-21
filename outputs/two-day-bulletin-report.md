@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-21 / 2026-09-22
 Kaynak: fixtures.json
-Ham mac: 72
-Aktif mac: 52
+Ham mac: 94
+Aktif mac: 51
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 20
-Bugun: 40
-Yarin: 12
+Bultenden dusurulen mac: 43
+Bugun: 38
+Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-21 04:30 | Honduras Ulusal Lig Apertura | Juticalpa - Marathon | scheduled | -
-- 2026-09-21 05:10 | Meksika Liga MX Apertura | Queretaro - Club Leon | scheduled | -
 - 2026-09-21 09:00 | Japonya Futbol Ligi | Okinawa Sv - Tiamo Hirakata | scheduled | -
 - 2026-09-21 13:00 | Portekiz U23 Ulusal Şampiyona | Vizela U23 - Farense U23 | scheduled | -
 - 2026-09-21 15:00 | İngiltere Professional Development Lig | Bolton U21 - Queens Park Ran | scheduled | -
@@ -54,6 +52,7 @@ Yarin: 12
 - 2026-09-22 01:00 | Arjantin Premier Lig 2. Aşama | Barracas - Rivadavia | scheduled | -
 - 2026-09-22 01:00 | Arjantin Ulusal Primera Lig | Nueva Chicago - Patronato | scheduled | -
 - 2026-09-22 01:00 | Kolombiya Primera B Clausura | Real Cundinama - Quindio | scheduled | -
+- 2026-09-22 01:00 | Paraguay Intermedia Lig | Encarnacion - Depor Capiata | scheduled | -
 - 2026-09-22 01:30 | Brezilya Serie B | Criciuma - Operario | scheduled | -
 - 2026-09-22 01:30 | Uruguay Premier Lig Clausura | Central Espano - Torque | scheduled | -
 - 2026-09-22 02:00 | Meksika Kadınlar Liga MX Apertura | León (K) - Juarez (K) | scheduled | -
