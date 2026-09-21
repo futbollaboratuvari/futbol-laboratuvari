@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T16:36:41.174Z",
+  "generated_at": "2026-09-21T20:34:30.801Z",
   "timezone": "Europe/Istanbul",
-  "status": "no_live_matches",
+  "status": "ok",
   "source": "ESPN Scoreboard + ESPN Core/Summary + TheSportsDB event stats",
   "source_verified": true,
   "sampling": {
@@ -13,19 +13,199 @@
     "paid_api_required": false
   },
   "summary": {
-    "espn_live_event_count": 0,
-    "site_candidate_count": 64,
-    "matched_fixture_count": 0,
-    "sampled_match_count": 0,
-    "stats_success_count": 0,
-    "scoreboard_stats_count": 0,
+    "espn_live_event_count": 1,
+    "site_candidate_count": 37,
+    "matched_fixture_count": 1,
+    "sampled_match_count": 1,
+    "stats_success_count": 1,
+    "scoreboard_stats_count": 1,
     "core_stats_count": 0,
     "summary_stats_count": 0,
     "thesportsdb_stats_count": 0,
     "thesportsdb_verified_count": 0
   },
-  "message": "Şu anda ESPN kaynağında canlı maç bulunmuyor.",
-  "matches": [],
+  "message": "Canlı Team Power ve Goal Power yalnız kaynaklarda gerçekten gözlenen maç istatistiklerinden üretildi; veri kapsamı her snapshotta ayrıca gösterildi.",
+  "matches": [
+    {
+      "fixture_id": "401921389",
+      "provider_event_id": "401921389",
+      "provider_league_id": "660",
+      "status": "live",
+      "api_status": "STATUS_SECOND_HALF",
+      "date": "2026-09-21",
+      "league": "Ekvador Pro Lig Küme Düşme Grubu",
+      "home": "Manta F.C.",
+      "away": "Orense",
+      "source_match": {
+        "home": "Manta",
+        "away": "Orense",
+        "league": "Ekvador Pro Lig Küme Düşme Grubu",
+        "date": "2026-09-21",
+        "priority": 200
+      },
+      "source_match_similarity": 0.96,
+      "source": "ESPN Scoreboard embedded live statistics",
+      "source_verified": true,
+      "verification": {
+        "stats_method": "espn_scoreboard",
+        "stats_metadata": {
+          "provider_chain": [
+            "espn_scoreboard"
+          ],
+          "league_id": "660"
+        },
+        "thesportsdb_checked": true,
+        "thesportsdb_matched": false,
+        "thesportsdb_event_id": null,
+        "thesportsdb_similarity": 0
+      },
+      "snapshots": [
+        {
+          "minute": 69,
+          "recorded_at": "2026-09-21T20:34:30.801Z",
+          "observed": true,
+          "interpolated": false,
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "team_power": {
+            "home": 58,
+            "away": 42
+          },
+          "goal_power": {
+            "home": 24,
+            "away": 18
+          },
+          "momentum": {
+            "home": 0,
+            "away": 0
+          },
+          "data_coverage": {
+            "home_metric_count": 4,
+            "away_metric_count": 4,
+            "common_metric_count": 4,
+            "common_metrics": [
+              "shots_on_goal",
+              "total_shots",
+              "corners",
+              "possession"
+            ],
+            "missing_metrics": [
+              "shots_inside_box",
+              "blocked_shots",
+              "expected_goals",
+              "dangerous_attacks"
+            ],
+            "ratio": 0.5,
+            "label": "medium",
+            "expected_goals_observed": {
+              "home": false,
+              "away": false
+            }
+          },
+          "stats": {
+            "home": {
+              "shots_on_goal": 5,
+              "total_shots": 11,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 3,
+              "possession": 45.4,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            },
+            "away": {
+              "shots_on_goal": 4,
+              "total_shots": 11,
+              "shots_inside_box": null,
+              "blocked_shots": null,
+              "corners": 5,
+              "possession": 54.6,
+              "accurate_passes": null,
+              "total_passes": null,
+              "expected_goals": null,
+              "dangerous_attacks": null
+            }
+          }
+        }
+      ],
+      "current": {
+        "minute": 69,
+        "recorded_at": "2026-09-21T20:34:30.801Z",
+        "observed": true,
+        "interpolated": false,
+        "score": {
+          "home": 2,
+          "away": 0
+        },
+        "team_power": {
+          "home": 58,
+          "away": 42
+        },
+        "goal_power": {
+          "home": 24,
+          "away": 18
+        },
+        "momentum": {
+          "home": 0,
+          "away": 0
+        },
+        "data_coverage": {
+          "home_metric_count": 4,
+          "away_metric_count": 4,
+          "common_metric_count": 4,
+          "common_metrics": [
+            "shots_on_goal",
+            "total_shots",
+            "corners",
+            "possession"
+          ],
+          "missing_metrics": [
+            "shots_inside_box",
+            "blocked_shots",
+            "expected_goals",
+            "dangerous_attacks"
+          ],
+          "ratio": 0.5,
+          "label": "medium",
+          "expected_goals_observed": {
+            "home": false,
+            "away": false
+          }
+        },
+        "stats": {
+          "home": {
+            "shots_on_goal": 5,
+            "total_shots": 11,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 3,
+            "possession": 45.4,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          },
+          "away": {
+            "shots_on_goal": 4,
+            "total_shots": 11,
+            "shots_inside_box": null,
+            "blocked_shots": null,
+            "corners": 5,
+            "possession": 54.6,
+            "accurate_passes": null,
+            "total_passes": null,
+            "expected_goals": null,
+            "dangerous_attacks": null
+          }
+        }
+      },
+      "updated_at": "2026-09-21T20:34:30.801Z"
+    }
+  ],
   "recent_matches": [],
   "provider_errors": []
 }
