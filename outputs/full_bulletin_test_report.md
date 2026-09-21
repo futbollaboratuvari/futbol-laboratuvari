@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 71
+- Scheduled match count: 55
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-21 / 2026-09-22 23:59
 
-- 2026-09-21 02:00 | Inter Miami - San Diego | scheduled
-- 2026-09-21 02:00 | Spokane Veloci - Athletic Club B | scheduled
-- 2026-09-21 02:00 | Sacramento Rep - San Antonio | scheduled
-- 2026-09-21 02:00 | Suchitepequez - Xelaju | scheduled
-- 2026-09-21 02:00 | Alajuelense - Inter San Carlo | scheduled
-- 2026-09-21 02:00 | Cd Tapatio - Tlaxcala | scheduled
-- 2026-09-21 02:00 | Atletico San L - Pachuca (K) | scheduled
-- 2026-09-21 02:00 | Rancho Santana - Managua | scheduled
-- 2026-09-21 02:00 | Liverpool Mont - Racing Montevid | scheduled
-- 2026-09-21 02:10 | Deportes Tolim - America De Cali | scheduled
+- 2026-09-21 04:00 | Malacateco - Mixco | scheduled
+- 2026-09-21 04:00 | Ad San Carlos - Cs Cartagines | scheduled
+- 2026-09-21 04:15 | Llaneros - Atletico Nacion | scheduled
+- 2026-09-21 04:30 | Juticalpa - Marathon | scheduled
+- 2026-09-21 05:10 | Queretaro - Club Leon | scheduled
+- 2026-09-21 09:00 | Okinawa Sv - Tiamo Hirakata | scheduled
+- 2026-09-21 13:00 | Vizela U23 - Farense U23 | scheduled
+- 2026-09-21 15:00 | Bolton U21 - Queens Park Ran | scheduled
+- 2026-09-21 16:00 | Niroye Zamini - Fard Alborz | scheduled
+- 2026-09-21 16:00 | Odd Bk Ii - Stabaek 2 | scheduled

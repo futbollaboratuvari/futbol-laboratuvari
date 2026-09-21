@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 21.09.2026 01:47:50
+Oluşturma: 21.09.2026 03:36:20
 
 ## Özet
 
-- Toplam tahmin: 2481
-- Bekleyen tahmin: 1754
-- Kazanan tahmin: 374
-- Kaybeden tahmin: 353
+- Toplam tahmin: 2487
+- Bekleyen tahmin: 1720
+- Kazanan tahmin: 394
+- Kaybeden tahmin: 373
 - Lig sayısı: 345
 - Seçenek sayısı: 13
 
@@ -23,33 +23,33 @@ Oluşturma: 21.09.2026 01:47:50
 ## En Güçlü Seçenek Hafızası
 
 - MS 2: toplam 347, bekleyen 277, başarı %57, düz getiri %3, ağırlık 1
-- KG Var: toplam 166, bekleyen 94, başarı %56, düz getiri %-2, ağırlık 1
-- MS 1: toplam 649, bekleyen 477, başarı %52, düz getiri %-16, ağırlık 1
-- 2.5 Üst: toplam 269, bekleyen 160, başarı %51, düz getiri %-9, ağırlık 1
-- 2.5 Alt: toplam 751, bekleyen 547, başarı %50, düz getiri %-17, ağırlık 1
-- KG Yok: toplam 144, bekleyen 89, başarı %49, düz getiri %-16, ağırlık 1
-- 3.5 Üst: toplam 65, bekleyen 28, başarı %49, düz getiri %-3, ağırlık 1
-- MS X: toplam 19, bekleyen 11, başarı %38, düz getiri %-4, ağırlık 1
+- KG Var: toplam 168, bekleyen 91, başarı %55, düz getiri %-4, ağırlık 1
+- 2.5 Alt: toplam 751, bekleyen 533, başarı %51, düz getiri %-15, ağırlık 0.94
+- 2.5 Üst: toplam 269, bekleyen 156, başarı %51, düz getiri %-9, ağırlık 1
+- MS 1: toplam 649, bekleyen 465, başarı %51, düz getiri %-16, ağırlık 0.94
+- 3.5 Üst: toplam 65, bekleyen 27, başarı %47, düz getiri %-6, ağırlık 1
+- KG Yok: toplam 145, bekleyen 87, başarı %47, düz getiri %-21, ağırlık 1
+- MS X: toplam 19, bekleyen 10, başarı %33, düz getiri %-15, ağırlık 1
+- İY KG / 2Y KG Hayır / Hayır: toplam 17, bekleyen 17, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İkinci Yarı KG Yok: toplam 15, bekleyen 15, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- İY KG / 2Y KG Hayır / Hayır: toplam 14, bekleyen 14, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İlk Yarı KG Yok: toplam 5, bekleyen 5, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İlk Yarı KG Var: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-21 | Uruguay Premier Lig Clausura | Central Espano - Torque | KG Var | pending | 65/100
-- 2026-09-21 | Meksika Kadınlar Liga MX Apertura | León (K) - Juarez (K) | 2.5 Alt | pending | 49/100
-- 2026-09-21 | Meksika Kadınlar Liga MX Apertura | Toluca (K) - Tigres Uanl (K) | MS 2 | pending | 46/100
-- 2026-09-21 | Arjantin Premier Lig 2. Aşama | Lanus - Estudiantes Lp | 2.5 Alt | pending | 76/100
+- 2026-09-21 | Meksika Kadınlar Liga MX Apertura | Toluca (K) - Tigres Uanl (K) | MS 2 | pending | 45/100
+- 2026-09-21 | Arjantin Premier Lig 2. Aşama | Lanus - Estudiantes Lp | 2.5 Alt | pending | 70/100
 - 2026-09-21 | Brezilya Serie B | Cuiaba - Nautico | KG Var | pending | 70/100
-- 2026-09-21 | Kolombiya Primera B Clausura | Real Cartagena - Envigado | 2.5 Alt | pending | 55/100
+- 2026-09-21 | Kolombiya Primera B Clausura | Real Cartagena - Envigado | 2.5 Alt | pending | 52/100
 - 2026-09-21 | Meksika Kadınlar Liga MX Apertura | Santos Laguna - Cruz Azul (K) | MS 2 | pending | 50/100
-- 2026-09-21 | Brezilya Seri B | Criciuma - Operario | 2.5 Alt | pending | 71/100
-- 2026-09-21 | Bulgaristan 2.Lig | Spartak Pleven - Ludogorets Ii | KG Var | pending | 54/100
-- 2026-09-21 | Bulgaristan 2.Lig | Dobrudzha 1919 - Cska Sofia Ii | 2.5 Alt | pending | 52/100
-- 2026-09-21 | Bulgaristan 2.Lig | Montana - Hebar 1918 | MS 1 | pending | 49/100
-- 2026-09-21 | Danimarka 1.Lig | Hb Koge - Hobro | 2.5 Alt | pending | 49/100
-- 2026-09-21 | Gürcistan Erovnuli Liga | Spaeri - Dila Gori | 2.5 Alt | pending | 52/100
-- 2026-09-21 | Norveç 3.Lig Grup 2 | Nardo - Ranheim Ii | MS 1 | pending | 46/100
-- 2026-09-21 | Arjantin Premier Lig 2. Aşama | Aldosivi - Atletico Tucuma | MS 2 | pending | 53/100
+- 2026-09-21 | Uruguay Premier Lig Clausura | Central Espano - Torque | KG Var | pending | 65/100
+- 2026-09-21 | Meksika Kadınlar Liga MX Apertura | León (K) - Juarez (K) | 2.5 Alt | pending | 45/100
+- 2026-09-21 | İngiltere Non League Premier Güney Merkez | Redditch Unite - Racing Club War | MS 1 | pending | 46/100
+- 2026-09-21 | Ekvador Pro Lig Küme Düşme Grubu | Manta - Orense | KG Yok | pending | 60/100
+- 2026-09-21 | Kolombiya Primera B Clausura | Bogota - Barranguilla | 2.5 Alt | pending | 50/100
+- 2026-09-21 | Arjantin Premier Lig 2. Aşama | Barracas - Rivadavia | MS 2 | pending | 61/100
+- 2026-09-21 | Arjantin Ulusal Primera Lig | Nueva Chicago - Patronato | KG Yok | pending | 77/100
+- 2026-09-21 | Kolombiya Primera B Clausura | Real Cundinama - Quindio | MS 1 | pending | 42/100
+- 2026-09-21 | Arjantin Ulusal Primera Lig | Tristan - Atlanta | MS 1 | pending | 55/100
+- 2026-09-21 | İngiltere Premier Lig 2 | Bournemouth U2 - Stoke (B) | MS 1 | pending | 49/100
 
