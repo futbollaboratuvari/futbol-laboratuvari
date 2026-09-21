@@ -1,103 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T20:34:31.620Z",
+  "generated_at": "2026-09-21T23:35:16.034Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-21T20:34:30.801Z",
+  "source_generated_at": "2026-09-21T23:35:15.149Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 1,
-    "ready_count": 1,
+    "live_match_count": 0,
+    "ready_count": 0,
     "waiting_count": 0,
-    "result_lean_count": 1,
+    "result_lean_count": 0,
     "next_goal_lean_count": 0,
     "high_goal_pressure_count": 0
   },
-  "matches": [
-    {
-      "fixture_id": "401921389",
-      "status": "ready",
-      "minute": 69,
-      "score": {
-        "home": 2,
-        "away": 0
-      },
-      "home": "Manta F.C.",
-      "away": "Orense",
-      "league": "Ekvador Pro Lig Küme Düşme Grubu",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-21T20:34:30.801Z",
-      "freshness_minutes": 0.01365,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Ev sahibi yönü",
-        "confidence": 76
-      },
-      "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 86.97200000000001
-      },
-      "next_goal_lean": {
-        "code": null,
-        "label": "Sonraki gol için net ayrışma yok",
-        "side": "neutral",
-        "strength": 47.82
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 22
-      },
-      "signals": [
-        "Team Power: Manta F.C. %58 · Orense %42.",
-        "Goal Power: Manta F.C. %24 · Orense %18.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": 16,
-        "goal_power_diff": 6,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 1,
-        "total_shots_diff": 0,
-        "corners_diff": -2,
-        "xg_diff": 0,
-        "direction_score": 41.08,
-        "next_goal_score": 11.18
-      }
-    }
-  ]
+  "matches": []
 }

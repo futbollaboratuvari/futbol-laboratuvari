@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T20:34:30.801Z",
+  "generated_at": "2026-09-21T23:35:15.149Z",
   "timezone": "Europe/Istanbul",
-  "status": "ok",
+  "status": "no_matching_verified_stats",
   "source": "ESPN Scoreboard + ESPN Core/Summary + TheSportsDB event stats",
   "source_verified": true,
   "sampling": {
@@ -13,19 +13,20 @@
     "paid_api_required": false
   },
   "summary": {
-    "espn_live_event_count": 1,
-    "site_candidate_count": 37,
+    "espn_live_event_count": 7,
+    "site_candidate_count": 112,
     "matched_fixture_count": 1,
-    "sampled_match_count": 1,
-    "stats_success_count": 1,
-    "scoreboard_stats_count": 1,
+    "sampled_match_count": 0,
+    "stats_success_count": 0,
+    "scoreboard_stats_count": 0,
     "core_stats_count": 0,
     "summary_stats_count": 0,
     "thesportsdb_stats_count": 0,
     "thesportsdb_verified_count": 0
   },
-  "message": "Canlı Team Power ve Goal Power yalnız kaynaklarda gerçekten gözlenen maç istatistiklerinden üretildi; veri kapsamı her snapshotta ayrıca gösterildi.",
-  "matches": [
+  "message": "Canlı maçlar bulundu ancak ayrıntılı doğrulanmış istatistik yeterli değildi; veri uydurulmadı.",
+  "matches": [],
+  "recent_matches": [
     {
       "fixture_id": "401921389",
       "provider_event_id": "401921389",
@@ -206,6 +207,14 @@
       "updated_at": "2026-09-21T20:34:30.801Z"
     }
   ],
-  "recent_matches": [],
-  "provider_errors": []
+  "provider_errors": [
+    "401921401:core_home:sports.core.api.espn.com:http_400",
+    "401921401:core_competitor_home:sports.core.api.espn.com:http_400",
+    "401921401:core_away:sports.core.api.espn.com:http_400",
+    "401921401:core_competitor_away:sports.core.api.espn.com:http_400",
+    "401921401:summary:site.web.api.espn.com:http_400",
+    "401921401:summary:site.web.api.espn.com:http_404",
+    "401921401:summary:site.api.espn.com:http_403",
+    "401921401:summary:site.web.api.espn.com:unavailable"
+  ]
 }
