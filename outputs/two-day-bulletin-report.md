@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-21 / 2026-09-22
 Kaynak: fixtures.json
-Ham mac: 94
-Aktif mac: 51
+Ham mac: 51
+Aktif mac: 50
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 43
-Bugun: 38
+Bultenden dusurulen mac: 1
+Bugun: 37
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-21 09:00 | Japonya Futbol Ligi | Okinawa Sv - Tiamo Hirakata | scheduled | -
 - 2026-09-21 13:00 | Portekiz U23 Ulusal Şampiyona | Vizela U23 - Farense U23 | scheduled | -
 - 2026-09-21 15:00 | İngiltere Professional Development Lig | Bolton U21 - Queens Park Ran | scheduled | -
 - 2026-09-21 16:00 | İran Azadegan Ligi | Niroye Zamini - Fard Alborz | scheduled | -

@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 21.09.2026 08:36:01
+Oluşturma: 21.09.2026 09:34:26
 
 ## Özet
 
@@ -46,10 +46,10 @@ Oluşturma: 21.09.2026 08:36:01
 - 2026-09-21 | Meksika Kadınlar Liga MX Apertura | Toluca (K) - Tigres Uanl (K) | İkinci Yarı KG Yok | pending | 57/100
 - 2026-09-21 | Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final | Corinthians (K (1) - (0) Bahia (K) | KG Var | pending | 45/100
 - 2026-09-21 | Meksika Kadınlar Liga MX Apertura | Santos Laguna - Cruz Azul (K) | İkinci Yarı KG Yok | pending | 59/100
-- 2026-09-21 | Brezilya Seri B | Criciuma - Operario | 2.5 Alt | pending | 65/100
 - 2026-09-21 | İngiltere Non League Premier Güney Merkez | Redditch Unite - Racing Club War | MS 1 | pending | 45/100
 - 2026-09-21 | Ekvador Pro Lig Küme Düşme Grubu | Manta - Orense | KG Yok | pending | 60/100
 - 2026-09-21 | Kolombiya Primera B Clausura | Bogota - Barranguilla | 2.5 Alt | pending | 50/100
 - 2026-09-21 | Arjantin Premier Lig 2. Aşama | Barracas - Rivadavia | MS 2 | pending | 53/100
 - 2026-09-21 | Arjantin Ulusal Primera Lig | Nueva Chicago - Patronato | KG Yok | pending | 77/100
+- 2026-09-21 | Kolombiya Primera B Clausura | Real Cundinama - Quindio | 2.5 Alt | pending | 55/100
 
