@@ -1,36 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T21:51:17.331Z",
+  "generated_at": "2026-09-21T00:13:17.192Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-20T21:51:14.540Z",
+  "source_generated_at": "2026-09-21T00:13:13.966Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 6,
-    "ready_count": 5,
-    "waiting_count": 1,
-    "result_lean_count": 2,
-    "next_goal_lean_count": 3,
+    "live_match_count": 7,
+    "ready_count": 7,
+    "waiting_count": 0,
+    "result_lean_count": 7,
+    "next_goal_lean_count": 7,
     "high_goal_pressure_count": 0
   },
   "matches": [
     {
-      "fixture_id": "401842244",
+      "fixture_id": "761829",
       "status": "ready",
       "minute": 45,
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
-      "home": "Indy Eleven",
-      "away": "Oakland Roots",
-      "league": "ABD USL",
+      "home": "Inter Miami CF",
+      "away": "San Diego FC",
+      "league": "ABD MLS",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T21:51:14.540Z",
-      "freshness_minutes": 0.046516666666666664,
+      "snapshot_recorded_at": "2026-09-21T00:13:13.966Z",
+      "freshness_minutes": 0.053766666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -60,59 +60,141 @@
       "evidence_score": 48,
       "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "watch",
-        "label": "Net canlı tahmin yok · izlemeye devam",
-        "confidence": 48
+        "type": "next_goal",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "confidence": 68
       },
       "result_lean": {
-        "code": null,
-        "label": "Taraf için ayrışma yok",
-        "side": "neutral",
-        "strength": 50.06
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 71.708
       },
       "next_goal_lean": {
-        "code": null,
-        "label": "Sonraki gol için net ayrışma yok",
-        "side": "neutral",
-        "strength": 47.46
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 75.62
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 9
+        "score": 19
       },
       "signals": [
-        "Team Power: Indy Eleven %59 · Oakland Roots %41.",
-        "Goal Power: Indy Eleven %10 · Oakland Roots %6.",
-        "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
+        "Team Power: Inter Miami CF %62 · San Diego FC %38.",
+        "Goal Power: Inter Miami CF %22 · San Diego FC %11.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 18,
-        "goal_power_diff": 4,
+        "team_power_diff": 24,
+        "goal_power_diff": 11,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 1,
-        "total_shots_diff": 1,
+        "shots_on_goal_diff": 2,
+        "total_shots_diff": 4,
         "corners_diff": 0,
         "xg_diff": 0,
-        "direction_score": 12.94,
-        "next_goal_score": 11.54
+        "direction_score": 24.12,
+        "next_goal_score": 23.62
       }
     },
     {
-      "fixture_id": "401841241",
+      "fixture_id": "401876967",
       "status": "ready",
-      "minute": 21,
+      "minute": 10,
       "score": {
-        "home": 1,
+        "home": 0,
         "away": 0
       },
-      "home": "Flamengo",
-      "away": "Red Bull Bragantino",
-      "league": "Brezilya Serie A",
+      "home": "Pachuca",
+      "away": "Tijuana",
+      "league": "Meksika Liga MX Apertura",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T21:51:14.540Z",
-      "freshness_minutes": 0.046516666666666664,
+      "snapshot_recorded_at": "2026-09-21T00:13:13.966Z",
+      "freshness_minutes": 0.053766666666666664,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 71
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 80.34800000000001
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 79.82
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 15
+      },
+      "signals": [
+        "Team Power: Pachuca %82 · Tijuana %18.",
+        "Goal Power: Pachuca %19 · Tijuana %0.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 64,
+        "goal_power_diff": 19,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 0,
+        "total_shots_diff": 4,
+        "corners_diff": 1,
+        "xg_diff": 0,
+        "direction_score": 33.72,
+        "next_goal_score": 27.82
+      }
+    },
+    {
+      "fixture_id": "401876966",
+      "status": "ready",
+      "minute": 12,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "home": "Toluca",
+      "away": "Santos",
+      "league": "Meksika Liga MX Apertura",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-21T00:13:13.966Z",
+      "freshness_minutes": 0.053766666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -161,40 +243,40 @@
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 26
+        "score": 30
       },
       "signals": [
-        "Team Power: Flamengo %83 · Red Bull Bragantino %17.",
-        "Goal Power: Flamengo %32 · Red Bull Bragantino %5.",
+        "Team Power: Toluca %92 · Santos %8.",
+        "Goal Power: Toluca %39 · Santos %0.",
         "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 66,
-        "goal_power_diff": 27,
+        "team_power_diff": 84,
+        "goal_power_diff": 39,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 2,
-        "total_shots_diff": 2,
-        "corners_diff": 0,
+        "shots_on_goal_diff": 1,
+        "total_shots_diff": 6,
+        "corners_diff": 2,
         "xg_diff": 0,
-        "direction_score": 50.08,
-        "next_goal_score": 39.48
+        "direction_score": 52.92,
+        "next_goal_score": 48.72
       }
     },
     {
-      "fixture_id": "401860348",
+      "fixture_id": "401842242",
       "status": "ready",
-      "minute": 21,
+      "minute": 45,
       "score": {
         "home": 0,
         "away": 0
       },
-      "home": "Londrina",
-      "away": "Fortaleza",
-      "league": "Brezilya Serie B",
+      "home": "Sacramento Republic FC",
+      "away": "San Antonio FC",
+      "league": "ABD USL",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T21:51:14.540Z",
-      "freshness_minutes": 0.046516666666666664,
+      "snapshot_recorded_at": "2026-09-21T00:13:13.966Z",
+      "freshness_minutes": 0.053766666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -225,58 +307,58 @@
       "risk": "Yüksek veri riski",
       "primary_prediction": {
         "type": "match_direction",
-        "label": "Deplasman yönü",
-        "confidence": 66
+        "label": "Ev sahibi yönü",
+        "confidence": 73
       },
       "result_lean": {
-        "code": "2",
-        "label": "Deplasman yönü",
-        "side": "away",
-        "strength": 72.518
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 82.904
       },
       "next_goal_lean": {
-        "code": "AWAY",
-        "label": "Sonraki gol eğilimi: Deplasman",
-        "side": "away",
-        "strength": 67.82
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 79.86
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 6
+        "score": 12
       },
       "signals": [
-        "Team Power: Londrina %23 · Fortaleza %77.",
-        "Goal Power: Londrina %2 · Fortaleza %7.",
-        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
+        "Team Power: Sacramento Republic FC %76 · San Antonio FC %24.",
+        "Goal Power: Sacramento Republic FC %15 · San Antonio FC %3.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": -54,
-        "goal_power_diff": -5,
+        "team_power_diff": 52,
+        "goal_power_diff": 12,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 0,
-        "total_shots_diff": -1,
-        "corners_diff": -2,
+        "shots_on_goal_diff": 1,
+        "total_shots_diff": 6,
+        "corners_diff": 3,
         "xg_diff": 0,
-        "direction_score": -25.02,
-        "next_goal_score": -15.82
+        "direction_score": 36.56,
+        "next_goal_score": 27.86
       }
     },
     {
-      "fixture_id": "401878049",
+      "fixture_id": "401886367",
       "status": "ready",
-      "minute": 45,
+      "minute": 51,
       "score": {
         "home": 1,
         "away": 0
       },
-      "home": "Atlético Bucaramanga",
-      "away": "Internacional de Bogotá",
-      "league": "Kolombiya Primera A Clausura",
+      "home": "Tapatío",
+      "away": "Tlaxcala FC",
+      "league": "Meksika Ascenso MX Apertura",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T21:51:14.540Z",
-      "freshness_minutes": 0.046516666666666664,
+      "snapshot_recorded_at": "2026-09-21T00:13:13.966Z",
+      "freshness_minutes": 0.053766666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -306,59 +388,59 @@
       "evidence_score": 48,
       "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "watch",
-        "label": "Net canlı tahmin yok · izlemeye devam",
-        "confidence": 48
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 78
       },
       "result_lean": {
-        "code": null,
-        "label": "Taraf için ayrışma yok",
-        "side": "neutral",
-        "strength": 54
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
       },
       "next_goal_lean": {
-        "code": null,
-        "label": "Sonraki gol için net ayrışma yok",
-        "side": "neutral",
-        "strength": 53.5
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 76.5
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 18
+        "score": 2
       },
       "signals": [
-        "Team Power: Atlético Bucaramanga %50 · Internacional de Bogotá %50.",
-        "Goal Power: Atlético Bucaramanga %18 · Internacional de Bogotá %20.",
-        "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
+        "Team Power: Tapatío %100 · Tlaxcala FC %0.",
+        "Goal Power: Tapatío %3 · Tlaxcala FC %0.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 0,
-        "goal_power_diff": -2,
+        "team_power_diff": 100,
+        "goal_power_diff": 3,
         "momentum_diff": 0,
-        "shots_on_goal_diff": -1,
+        "shots_on_goal_diff": 0,
         "total_shots_diff": 0,
-        "corners_diff": -2,
+        "corners_diff": 0,
         "xg_diff": 0,
-        "direction_score": 9,
-        "next_goal_score": -5.5
+        "direction_score": 54.6,
+        "next_goal_score": 24.5
       }
     },
     {
-      "fixture_id": "401921338",
+      "fixture_id": "401878037",
       "status": "ready",
       "minute": 45,
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
-      "home": "Deportivo Cuenca",
-      "away": "Mushuc Runa",
-      "league": "Ekvador Pro Lig Küme Düşme Grubu",
+      "home": "Deportes Tolima",
+      "away": "América de Cali",
+      "league": "Kolombiya Primera A Clausura",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T21:51:14.540Z",
-      "freshness_minutes": 0.046516666666666664,
+      "snapshot_recorded_at": "2026-09-21T00:13:13.966Z",
+      "freshness_minutes": 0.053766666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -390,57 +472,57 @@
       "primary_prediction": {
         "type": "next_goal",
         "label": "Sonraki gol eğilimi: Ev sahibi",
-        "confidence": 62
+        "confidence": 76
       },
       "result_lean": {
-        "code": null,
-        "label": "Taraf için ayrışma yok",
-        "side": "neutral",
-        "strength": 45.81999999999999
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 85.766
       },
       "next_goal_lean": {
         "code": "HOME",
         "label": "Sonraki gol eğilimi: Ev sahibi",
         "side": "home",
-        "strength": 67.68
+        "strength": 87.74000000000001
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 10
+        "score": 24
       },
       "signals": [
-        "Team Power: Deportivo Cuenca %63 · Mushuc Runa %37.",
-        "Goal Power: Deportivo Cuenca %12 · Mushuc Runa %7.",
-        "Maç yönü: Taraf için ayrışma yok. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Team Power: Deportes Tolima %69 · América de Cali %31.",
+        "Goal Power: Deportes Tolima %29 · América de Cali %11.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 26,
-        "goal_power_diff": 5,
+        "team_power_diff": 38,
+        "goal_power_diff": 18,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 1,
-        "total_shots_diff": 3,
-        "corners_diff": -1,
+        "shots_on_goal_diff": 3,
+        "total_shots_diff": 5,
+        "corners_diff": 3,
         "xg_diff": 0,
-        "direction_score": 17.18,
-        "next_goal_score": 15.68
+        "direction_score": 39.74,
+        "next_goal_score": 35.74
       }
     },
     {
-      "fixture_id": "401903321",
-      "status": "insufficient_data",
-      "minute": 45,
+      "fixture_id": "401842150",
+      "status": "ready",
+      "minute": 48,
       "score": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
-      "home": "Estudiantes de Mérida",
-      "away": "Trujillanos",
-      "league": "Venezuela Premier Lig Clausura",
+      "home": "Spokane Velocity FC",
+      "away": "Athletic Club Boise",
+      "league": "ABD USL Lig 1",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-20T21:51:14.540Z",
-      "freshness_minutes": 0.046516666666666664,
+      "snapshot_recorded_at": "2026-09-21T00:13:13.966Z",
+      "freshness_minutes": 0.053766666666666664,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -466,16 +548,48 @@
       },
       "robot_version": "live-match-analysis-robot-v1",
       "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": "power_signal_missing",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "wait",
-        "label": "Veri yeterli değil · tahmin verilmedi",
-        "confidence": null
+        "type": "match_direction",
+        "label": "Deplasman yönü",
+        "confidence": 78
       },
-      "result_lean": null,
-      "next_goal_lean": null,
-      "goal_pressure": null,
-      "signals": []
+      "result_lean": {
+        "code": "2",
+        "label": "Deplasman yönü",
+        "side": "away",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "AWAY",
+        "label": "Sonraki gol eğilimi: Deplasman",
+        "side": "away",
+        "strength": 90
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 24
+      },
+      "signals": [
+        "Team Power: Spokane Velocity FC %13 · Athletic Club Boise %87.",
+        "Goal Power: Spokane Velocity FC %3 · Athletic Club Boise %30.",
+        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": -74,
+        "goal_power_diff": -27,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": -4,
+        "total_shots_diff": -8,
+        "corners_diff": 0,
+        "xg_diff": 0,
+        "direction_score": -91.12,
+        "next_goal_score": -55.72
+      }
     }
   ]
 }
