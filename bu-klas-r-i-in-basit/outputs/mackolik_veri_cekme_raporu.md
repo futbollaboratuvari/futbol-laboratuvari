@@ -1,31 +1,50 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-21T17:06:17.485105+00:00
+Tarih: 2026-09-21T21:08:00.463569+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 21
+- Kac mac bulundu: 93
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 21
-- Ham veri havuzu toplam mac sayisi: 16393
-- Hedef tarih: 21.09.2026 Europe/Istanbul
+- Kac mac zaten vardi: 93
+- Ham veri havuzu toplam mac sayisi: 16495
+- Hedef tarih: 22.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Primera C
-- Arjantin Ulusal Primera Lig
-- Ekvador Pro Lig Küme Düşme Grubu
+- Asya Oyunları Grup C
+- Asya Oyunları Grup D
+- Cezayir 1.Lig
+- Hollanda KNVB Kupası 2. Ön Eleme Turu
 - Katar Yıldızlar Kupası Grup Aşaması
-- Kolombiya Primera B Clausura
-- Paraguay Intermedia Lig
-- Romanya 1.Lig
+- Norveç 3.Lig Grup 5
+- Portekiz U23 Ulusal Şampiyona
+- Romanya 2.Lig
+- UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması
+- İngiltere EFL Trophy Güney Grup A
+- İngiltere EFL Trophy Güney Grup B
+- İngiltere EFL Trophy Güney Grup D
+- İngiltere EFL Trophy Güney Grup E
+- İngiltere EFL Trophy Güney Grup G
+- İngiltere EFL Trophy Güney Grup H
+- İngiltere EFL Trophy Kuzey Grup A
+- İngiltere EFL Trophy Kuzey Grup B
+- İngiltere EFL Trophy Kuzey Grup C
+- İngiltere EFL Trophy Kuzey Grup D
+- İngiltere EFL Trophy Kuzey Grup E
+- İngiltere EFL Trophy Kuzey Grup F
+- İngiltere EFL Trophy Kuzey Grup G
+- İngiltere EFL Trophy Kuzey Grup H
+- İngiltere FA Cup Eleme 2.Tur Tekrar
+- İngiltere Non League Premier Güney
 - İngiltere Non League Premier Güney Merkez
-- İngiltere Premier Lig 2
-- İtalya Serie C Grup A
-- İtalya Serie C Grup B
+- İngiltere Non League Premier Isthmian
+- İngiltere Non League Premier Kuzey
+- İngiltere Professional Development Lig
+- İran Azadegan Ligi
+- İskoçya Challenge Kupası Lig Aşaması
 
 ## Okunabilen Oran Alanlari
 
@@ -82,8 +101,8 @@ Tarih: 2026-09-21T17:06:17.485105+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 22
-- Acilan detay: 22
+- Denenen Tumu alani: 35
+- Acilan detay: 35
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -96,26 +115,26 @@ Tarih: 2026-09-21T17:06:17.485105+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 21.09.2026 | 21:00 | Romanya 1.Lig | Petrolul 52 | Csikszereda | 38971 | 5 |
-| 21.09.2026 | 21:30 | İtalya Serie C Grup A | Dolomiti Bellu | Lumezzane | 18154 | 5 |
-| 21.09.2026 | 21:30 | İtalya Serie C Grup A | Trento Calcio | Pro Vercelli | 18043 | 5 |
-| 21.09.2026 | 21:30 | İtalya Serie C Grup A | Treviso | Calvina | 18199 | 5 |
-| 21.09.2026 | 21:30 | İtalya Serie C Grup B | Spezia | Vis Pasaro | 56740 | 4 |
-| 21.09.2026 | 21:30 | İtalya Serie C Grup B | Pianese | Sambenedetese | 56773 | 5 |
-| 21.09.2026 | 21:30 | İtalya Serie C Grup B | Nuova Monteros | Livorno | 56707 | 5 |
-| 21.09.2026 | 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi | Atletico Tucuma | 49491 | 5 |
-| 21.09.2026 | 21:00 | Arjantin Ulusal Primera Lig | Tristan | Atlanta | 49549 | 3 |
-| 21.09.2026 | 20:15 | Katar Yıldızlar Kupası Grup Aşaması | Al Duhail Sc | Al Arabi | 20723 | 5 |
-| 21.09.2026 | 20:15 | Katar Yıldızlar Kupası Grup Aşaması | Lusail City | Markhiya | 20798 | 5 |
-| 21.09.2026 | 23:30 | Kolombiya Primera B Clausura | Bogota | Barranguilla | 14699 | 5 |
-| 21.09.2026 | 22:00 | Ekvador Pro Lig Küme Düşme Grubu | Manta | Orense | 32172 | 5 |
-| 21.09.2026 | 21:00 | İngiltere Premier Lig 2 | Bournemouth U2 | Stoke (B) | 02560 | 3 |
-| 21.09.2026 | 22:30 | Paraguay Intermedia Lig | Benjamin Aceva | Atlético Tembet | 05059 | 5 |
-| 21.09.2026 | 21:00 | Arjantin Primera C | Ballester | C Cordoba | 03098 | 3 |
-| 21.09.2026 | 21:00 | Arjantin Primera C | Sacachispas | V.Arenas | 04476 | 3 |
-| 21.09.2026 | 21:00 | Arjantin Primera C | B. Bolivar | Canuelas | 02172 | 5 |
-| 21.09.2026 | 21:00 | Arjantin Primera C | Claypole | Yupanqui | 04015 | 5 |
-| 21.09.2026 | 21:00 | Arjantin Primera C | El Porvenir | Dyc Espanol | 04252 | 3 |
+| 22.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Inter Milano ( | Hacken (K) | 17145 | 5 |
+| 22.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Bayern München | Man City (K) | 13782 | 5 |
+| 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Real Madrid (K | Psg (K) | 17443 | 5 |
+| 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Arsenal (K) | Koge (K) | 17297 | 4 |
+| 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Juventus (K) | Benfica (K) | 17396 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup A | Accrington | Sunderland (B) | 12961 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup A | Salford City | Sheffield Wed | 14525 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup B | Wigan | Blackpool | 15083 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup B | Crewe | Aston Villa U21 | 13222 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup C | York | Rotherham | 15186 | 5 |
+| 22.09.2026 | 21:30 | İngiltere EFL Trophy Kuzey Grup C | Bradford | Newcastle (B) | 15300 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup D | Chesterfield | Port Vale | 13171 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup E | Tranmere | Shrewsbury | 14890 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup F | Burton Albion | Nottingham Fore | 13061 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup F | Notts County | Grimsby | 13474 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup G | Barnsley | Leeds United U2 | 13011 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup G | Oldham | Fleetwood Town | 13518 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup H | Rochdale | Liverpool U21 | 13761 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Güney Grup A | Cheltenham | Exeter | 13129 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Güney Grup B | Walsall | Stevenage | 15012 | 5 |
 
 ## Sonuc
 
