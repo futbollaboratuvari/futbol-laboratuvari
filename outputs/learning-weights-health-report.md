@@ -1,16 +1,18 @@
 # Ogrenme Agirlik Saglik Kontrolu
 
-Durum: calibrating
-Tahmin sayisi: 2424
+Durum: active
+Tahmin sayisi: 2481
 Hazir market hafizasi: 7/13
-Hazir lig hafizasi: 4/343
-Hazir lig+market hafizasi: 0/1056
-Aktif ve guvenli agirlik: 0
+Hazir lig hafizasi: 5/345
+Hazir lig+market hafizasi: 0/1069
+Aktif ve guvenli agirlik: 2
 Guclendirilen toplam: 0
-Dusurulen toplam: 0
+Dusurulen toplam: 2
 
 ## Guclu Marketler
 
 ## Zayif Marketler
+- MS 1: duzeltilmis getiri -0.142, agirlik 0.94, guven -2
+- 2.5 Alt: duzeltilmis getiri -0.129, agirlik 0.94, guven -2
 
-Sonraki aksiyon: Orneklem hazir; guven araligi ayrisana kadar agirliklar notr kalir.
+Sonraki aksiyon: Yalniz guven araligi notr bandin disina cikan hafizalar sonraki analizlerde sinirli uygulanir.
