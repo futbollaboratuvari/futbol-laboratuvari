@@ -1,12 +1,12 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-09-20T11:46:21+03:00
+Güncelleme: 2026-09-21T12:13:31+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 795
-- Sonuçlanan tahmin: 238
+- Toplam tahmin kaydı: 277
+- Sonuçlanan tahmin: 226
 - Yanılma kaydı: 122
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
 
@@ -14,104 +14,104 @@ Güncelleme: 2026-09-20T11:46:21+03:00
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| 2.5 Alt | 230 | 25 | 35 | 170 | %41.67 | 1.62 |
-| 2.5 Üst | 85 | 19 | 17 | 49 | %52.78 | 1.7 |
-| 3.5 Üst | 31 | 7 | 6 | 18 | %53.85 | 2.16 |
-| Değerli market yok | 25 | 0 | 0 | 25 | %0 | 0 |
-| KG Var | 72 | 15 | 17 | 40 | %46.88 | 1.76 |
-| KG Yok | 53 | 10 | 12 | 31 | %45.45 | 1.71 |
-| MS 1 | 201 | 28 | 30 | 143 | %48.28 | 1.65 |
-| MS 2 | 84 | 11 | 3 | 70 | %78.57 | 1.7 |
-| MS X | 6 | 1 | 2 | 3 | %33.33 | 2.81 |
-| İkinci Yarı KG Var | 6 | 0 | 0 | 6 | %0 | 1.42 |
+| 2.5 Alt | 73 | 30 | 27 | 16 | %52.63 | 1.63 |
+| 2.5 Üst | 37 | 15 | 19 | 3 | %44.12 | 1.75 |
+| 3.5 Üst | 16 | 6 | 10 | 0 | %37.5 | 2.32 |
+| Değerli market yok | 2 | 0 | 0 | 2 | %0 | 0 |
+| KG Var | 25 | 10 | 13 | 2 | %43.48 | 1.85 |
+| KG Yok | 34 | 14 | 18 | 2 | %43.75 | 1.64 |
+| MS 1 | 52 | 17 | 22 | 13 | %43.59 | 1.74 |
+| MS 2 | 28 | 11 | 11 | 6 | %50.0 | 1.74 |
+| MS X | 3 | 1 | 2 | 0 | %33.33 | 2.5 |
+| İkinci Yarı KG Var | 4 | 0 | 0 | 4 | %0 | 1.34 |
+| İkinci Yarı KG Yok | 3 | 0 | 0 | 3 | %0 | 1.4 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| İlk Yarı KG Yok | 2 | 0 | 0 | 2 | %0 | 1.38 |
 
 ## Oran Aralığı Performansı
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| 1.01-1.49 | 189 | 25 | 19 | 145 | %56.82 | 1.4 |
-| 1.50-1.99 | 484 | 65 | 79 | 340 | %45.14 | 1.7 |
-| 2.00-2.99 | 94 | 26 | 21 | 47 | %55.32 | 2.19 |
-| 3.00-4.99 | 2 | 0 | 2 | 0 | %0.0 | 3.62 |
-| 5.00+ | 1 | 0 | 1 | 0 | %0.0 | 5.18 |
-| bilinmiyor | 25 | 0 | 0 | 25 | %0 | 0 |
+| 1.01-1.49 | 68 | 28 | 22 | 18 | %56.0 | 1.4 |
+| 1.50-1.99 | 154 | 65 | 67 | 22 | %49.24 | 1.71 |
+| 2.00-2.99 | 51 | 10 | 32 | 9 | %23.81 | 2.22 |
+| 3.00-4.99 | 2 | 1 | 1 | 0 | %50.0 | 3.8 |
+| 5.00+ | 0 | 0 | 0 | 0 | %0 | 0 |
+| bilinmiyor | 2 | 0 | 0 | 2 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| ABD MLS | 1 | 0 | 0 | 1 | %0 | 1.35 |
-| ABD MLS Next Pro | 15 | 0 | 0 | 15 | %0 | 1.82 |
-| ABD USL | 2 | 0 | 0 | 2 | %0 | 1.68 |
-| ABD USL Lig 1 | 1 | 0 | 0 | 1 | %0 | 1.63 |
-| Almanya 2. Bundesliga | 3 | 0 | 0 | 3 | %0 | 1.96 |
-| Almanya 3. Lig | 3 | 0 | 0 | 3 | %0 | 1.85 |
-| Almanya Bundesliga | 3 | 0 | 0 | 3 | %0 | 1.93 |
-| Almanya Bölgesel Lig Kuzey | 2 | 0 | 0 | 2 | %0 | 2.04 |
-| Almanya Bölgesel Lig Kuzey Doğu | 2 | 0 | 0 | 2 | %0 | 1.65 |
-| Almanya Kadınlar Bundesliga | 3 | 0 | 0 | 3 | %0 | 1.79 |
-| Andorra 1.Lig | 3 | 0 | 0 | 3 | %0 | 1.74 |
-| Arjantin Premier Lig 2. Aşama | 4 | 0 | 0 | 4 | %0 | 1.76 |
+| Almanya Bölgesel Lig Batı | 1 | 0 | 0 | 1 | %0 | 2.0 |
+| Almanya Kadınlar Bundesliga | 1 | 0 | 0 | 1 | %0 | 1.75 |
+| Arjantin Premier Lig 2. Aşama | 3 | 0 | 0 | 3 | %0 | 1.91 |
+| Arjantin Primera C | 5 | 0 | 0 | 5 | %0 | 1.97 |
+| Arjantin Ulusal Primera Lig | 2 | 0 | 0 | 2 | %0 | 1.58 |
+| Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final | 1 | 0 | 0 | 1 | %0 | 1.71 |
+| Brezilya Serie B | 2 | 0 | 0 | 2 | %0 | 1.65 |
+| Bulgaristan 2.Lig | 4 | 0 | 0 | 4 | %0 | 1.55 |
+| Danimarka 1.Lig | 1 | 0 | 0 | 1 | %0 | 1.58 |
+| Ekvador Pro Lig Küme Düşme Grubu | 1 | 0 | 0 | 1 | %0 | 1.7 |
+| Estonya Esiliiga A | 1 | 0 | 0 | 1 | %0 | 1.55 |
+| Gürcistan Erovnuli Liga | 1 | 0 | 0 | 1 | %0 | 1.69 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| 12 De Junio Vh VS Indep Cambo Gra | 1 | 0 | 0 | 1 | %0 | 1.47 |
-| 3 Sing VS Yuen Long | 1 | 0 | 0 | 1 | %0 | 1.66 |
-| A.Bilbao B VS Dep. Fabril | 1 | 0 | 0 | 1 | %0 | 1.51 |
-| Aalborg VS Vendsyssel | 1 | 0 | 0 | 1 | %0 | 1.69 |
-| Aalesund | 1 | 0 | 1 | 0 | %0.0 | 1.71 |
-| Ac Milan VS Lecce | 1 | 0 | 0 | 1 | %0 | 2.04 |
-| Academia Anzoa VS Caracas Fc | 1 | 0 | 0 | 1 | %0 | 1.64 |
-| Academia Puert | 1 | 0 | 1 | 0 | %0.0 | 1.55 |
-| Académico Murc VS Cartagena U19 | 1 | 0 | 0 | 1 | %0 | 1.82 |
-| Acassuso | 1 | 0 | 1 | 0 | %0.0 | 2.61 |
-| Ad De Ponte Da VS Amarante Fc | 1 | 0 | 0 | 1 | %0 | 1.82 |
-| Ad Marco 09 VS Maia Lidador | 1 | 0 | 0 | 1 | %0 | 1.71 |
+| Ac Milan | 1 | 0 | 1 | 0 | %0.0 | 2.08 |
+| Academico Viseu | 1 | 0 | 1 | 0 | %0.0 | 1.74 |
+| Ad Marco 09 | 2 | 1 | 1 | 0 | %50.0 | 1.71 |
+| Ad Os Limianos | 1 | 1 | 0 | 0 | %100.0 | 1.44 |
+| Ad San Carlos | 2 | 2 | 0 | 0 | %100.0 | 1.6 |
+| Ado Den Haag ( | 1 | 1 | 0 | 0 | %100.0 | 2.0 |
+| Agropecuario | 2 | 1 | 1 | 0 | %50.0 | 1.74 |
+| Aguila | 1 | 0 | 1 | 0 | %0.0 | 1.64 |
+| Alajuelense | 1 | 1 | 0 | 0 | %100.0 | 1.58 |
+| Albion | 1 | 0 | 1 | 0 | %0.0 | 1.52 |
+| Aldosivi VS Atletico Tucuma | 1 | 0 | 0 | 1 | %0 | 2.25 |
+| Alianza | 1 | 0 | 1 | 0 | %0.0 | 1.72 |
 
 ## Öğrenme Ağırlıkları - Market
 
 | Başlık | Ağırlık | Güven | Sonuçlanan | Öneri |
 |---|---:|---|---:|---|
-| 2.5 Alt | 0.9 | dikkat | 60 | Dikkatli kullan; ek doğrulama olmadan yüksek güven verme. |
-| 2.5 Üst | 1.0 | notr | 36 | Nötr geçmiş; mevcut ağırlık korunmalı. |
-| 3.5 Üst | 1.0 | notr | 13 | Nötr geçmiş; mevcut ağırlık korunmalı. |
+| 2.5 Alt | 1.0 | notr | 57 | Nötr geçmiş; mevcut ağırlık korunmalı. |
+| 2.5 Üst | 0.9 | dikkat | 34 | Dikkatli kullan; ek doğrulama olmadan yüksek güven verme. |
+| 3.5 Üst | 0.78 | zayif | 16 | Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür. |
 | Değerli market yok | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| KG Var | 1.0 | notr | 32 | Nötr geçmiş; mevcut ağırlık korunmalı. |
-| KG Yok | 1.0 | notr | 22 | Nötr geçmiş; mevcut ağırlık korunmalı. |
-| MS 1 | 1.0 | notr | 58 | Nötr geçmiş; mevcut ağırlık korunmalı. |
-| MS 2 | 1.18 | guclu | 14 | Güçlü geçmiş; benzer sinyallerde puanı kontrollü artır. |
+| KG Var | 0.9 | dikkat | 23 | Dikkatli kullan; ek doğrulama olmadan yüksek güven verme. |
+| KG Yok | 0.9 | dikkat | 32 | Dikkatli kullan; ek doğrulama olmadan yüksek güven verme. |
+| MS 1 | 0.9 | dikkat | 39 | Dikkatli kullan; ek doğrulama olmadan yüksek güven verme. |
+| MS 2 | 1.0 | notr | 22 | Nötr geçmiş; mevcut ağırlık korunmalı. |
 | MS X | 0.78 | zayif | 3 | Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür. |
 | İkinci Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| İkinci Yarı KG Yok | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | İlk Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| İlk Yarı KG Yok | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 
 ## Öğrenme Ağırlıkları - Oran Aralığı
 
 | Başlık | Ağırlık | Güven | Sonuçlanan | Öneri |
 |---|---:|---|---:|---|
-| 1.01-1.49 | 1.08 | olumlu | 44 | Olumlu geçmiş; küçük puan artışı uygulanabilir. |
-| 1.50-1.99 | 1.0 | notr | 144 | Nötr geçmiş; mevcut ağırlık korunmalı. |
-| 2.00-2.99 | 1.08 | olumlu | 47 | Olumlu geçmiş; küçük puan artışı uygulanabilir. |
+| 1.01-1.49 | 1.08 | olumlu | 50 | Olumlu geçmiş; küçük puan artışı uygulanabilir. |
+| 1.50-1.99 | 1.0 | notr | 132 | Nötr geçmiş; mevcut ağırlık korunmalı. |
+| 2.00-2.99 | 0.78 | zayif | 42 | Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür. |
 | 3.00-4.99 | 1.0 | veri_yetersiz | 2 | Yeterli sonuç yok; ağırlık değiştirme. |
-| 5.00+ | 1.0 | veri_yetersiz | 1 | Yeterli sonuç yok; ağırlık değiştirme. |
+| 5.00+ | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | bilinmiyor | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 
 ## Öğrenme Uyarıları
 
-- market/2.5 Alt: Dikkatli kullan; ek doğrulama olmadan yüksek güven verme.
+- market/2.5 Üst: Dikkatli kullan; ek doğrulama olmadan yüksek güven verme.
+- market/3.5 Üst: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
+- market/KG Var: Dikkatli kullan; ek doğrulama olmadan yüksek güven verme.
+- market/KG Yok: Dikkatli kullan; ek doğrulama olmadan yüksek güven verme.
+- market/MS 1: Dikkatli kullan; ek doğrulama olmadan yüksek güven verme.
 - market/MS X: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
-- team/Alebrijes: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
-- team/Alverca: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
-- team/Atlas: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
-- team/Austin: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
-- team/Brooklyn: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
-- team/Cancun Fc: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
-- team/Celta Vigo: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
-- team/Chicago: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
+- team/Arminia Bielef: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
+- team/Celtic: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
+- team/Club Leon: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
+- team/Glasgow Rangers: Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür.
 
 ## Eksik / Takip Edilecek Alanlar
 
