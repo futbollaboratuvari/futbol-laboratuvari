@@ -1,32 +1,32 @@
 {
   "schema_version": 1,
   "version": "pre-match-final-check-v1",
-  "generated_at": "2026-09-21T05:34:32.725Z",
+  "generated_at": "2026-09-21T11:10:48.275Z",
   "policy": "T60/T30/T10 kontrolü yalnız doğrulanmış isimli market oranı, kadro/ilk 11 ve kaynak uzlaşısını kullanır. Tahmini raw market kullanılmaz. Olasılık yüzdesi doğrudan değiştirilmez; yalnız risk, model gücü ve kupon uygunluğu frenlenir.",
   "active_match_count": 1,
   "blocked_match_count": 0,
   "downgraded_match_count": 1,
   "matches": [
     {
-      "match_name": "Okinawa Sv VS Tiamo Hirakata",
-      "home": "Okinawa Sv",
-      "away": "Tiamo Hirakata",
+      "match_name": "Bolton U21 VS Queens Park Ran",
+      "home": "Bolton U21",
+      "away": "Queens Park Ran",
       "date": "2026-09-21",
-      "start_time": "09:00",
-      "minutes_to_kickoff": 25.5,
-      "checkpoint": "T30",
+      "start_time": "15:00",
+      "minutes_to_kickoff": 49.2,
+      "checkpoint": "T60",
       "active": true,
-      "tracked_market": "2.5 Üst",
-      "tracked_market_key": "over25",
-      "current_odd": 1.57,
-      "current_odd_source": "verified_named_field:over25",
+      "tracked_market": "İkinci Yarı KG Yok",
+      "tracked_market_key": "secondHalfBttsNo",
+      "current_odd": 1.42,
+      "current_odd_source": "verified_named_field:secondHalfBttsNo",
       "lineup_risk_level": "Belirsiz",
       "both_lineups_confirmed": false,
       "lineup_freshness_minutes": 0.1,
       "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 299.3,
+      "news_context_freshness_minutes": 0.2,
       "source_conflict_level": "none",
-      "source_confidence_score": 5,
+      "source_confidence_score": 15,
       "general_decision": "downgrade",
       "market_decision": "keep",
       "decision": "downgrade",
@@ -35,21 +35,21 @@
       "market_severe_adverse": false,
       "relative_odd_change_percent": null,
       "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "Son kontrol: kaynak güven puanı düşük (15/100).",
         "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
       ],
       "snapshots": {
-        "T30": {
-          "checkpoint": "T30",
-          "captured_at": "2026-09-21T05:34:32.725Z",
-          "tracked_market": "2.5 Üst",
-          "tracked_market_key": "over25",
-          "odd": 1.57,
-          "odd_source": "verified_named_field:over25",
+        "T60": {
+          "checkpoint": "T60",
+          "captured_at": "2026-09-21T11:10:48.275Z",
+          "tracked_market": "İkinci Yarı KG Yok",
+          "tracked_market_key": "secondHalfBttsNo",
+          "odd": 1.42,
+          "odd_source": "verified_named_field:secondHalfBttsNo",
           "lineup_risk_level": "Belirsiz",
           "both_lineups_confirmed": false,
           "source_conflict_level": "none",
-          "source_confidence_score": 5
+          "source_confidence_score": 15
         }
       }
     }

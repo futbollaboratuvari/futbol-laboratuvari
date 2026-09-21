@@ -2,34 +2,45 @@
 
 Gunler: 2026-09-21 / 2026-09-22
 Kaynak: fixtures.json
-Ham mac: 51
-Aktif mac: 50
+Ham mac: 108
+Aktif mac: 63
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 37
-Yarin: 13
+Bultenden dusurulen mac: 45
+Bugun: 49
+Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-09-21 13:00 | Portekiz U23 Ulusal Şampiyona | Vizela U23 - Farense U23 | scheduled | -
 - 2026-09-21 15:00 | İngiltere Professional Development Lig | Bolton U21 - Queens Park Ran | scheduled | -
+- 2026-09-21 15:30 | Norveç 3.Lig Grup 5 | Tromso Ii - Kongsvinger Ii | scheduled | -
 - 2026-09-21 16:00 | İran Azadegan Ligi | Niroye Zamini - Fard Alborz | scheduled | -
 - 2026-09-21 16:00 | Norveç 3.Lig Grup 4 | Odd Bk Ii - Stabaek 2 | scheduled | -
 - 2026-09-21 17:00 | Bulgaristan 2.Lig | Sportist Svoge - Vihren | scheduled | -
+- 2026-09-21 17:00 | Kuzey Makedonya 1.Lig | Struga - Aresimi | scheduled | -
 - 2026-09-21 17:30 | Estonya Esiliiga A | Nomme Kalju Ii - Nomme United Ii | scheduled | -
 - 2026-09-21 18:00 | Romanya 1.Lig | Otelul Galati - Hunedoara | scheduled | -
 - 2026-09-21 18:00 | Slovakya 2.Lig | Petrzalka - Pohronie | scheduled | -
 - 2026-09-21 18:00 | Portekiz U23 Ulusal Şampiyona | União De Leiri - Gil Vicente U23 | scheduled | -
+- 2026-09-21 18:00 | Gürcistan Erovnuli Liga | Fc Rustavi - Fc Iberia | scheduled | -
+- 2026-09-21 18:00 | Katar Yıldızlar Kupası Grup Aşaması | Umm Salal - Khuraitiat | scheduled | -
 - 2026-09-21 18:15 | Özbekistan Super League | Xorazm Urganch - Qizilqum Zarafs | scheduled | -
 - 2026-09-21 19:00 | Almanya Bölgesel Lig Batı | Paderborn 07 I - B.Dortmund (Amt | scheduled | -
 - 2026-09-21 19:00 | Almanya Kadınlar Bundesliga | Werder Bremen - Stuttgart (K) | scheduled | -
 - 2026-09-21 19:00 | Norveç 3.Lig Grup 6 | Brumunddal - Sandefjord Ii | scheduled | -
 - 2026-09-21 19:00 | Bulgaristan 2.Lig | Spartak Pleven - Ludogorets Ii | scheduled | -
 - 2026-09-21 19:00 | Bulgaristan 2.Lig | Dobrudzha 1919 - Cska Sofia Ii | scheduled | -
+- 2026-09-21 19:00 | Norveç 3.Lig Grup 2 | Spjelkavik - Rosenborg 2 | scheduled | -
+- 2026-09-21 19:00 | Norveç 3.Lig Grup 4 | Staal Jorpelan - Viking B | scheduled | -
+- 2026-09-21 19:00 | Norveç 3.Lig Grup 4 | Madla - Haugesund Ii | scheduled | -
+- 2026-09-21 19:00 | Norveç 3.Lig Grup 6 | Lyn Oslo B - Sarpsborg 08 Ii | scheduled | -
 - 2026-09-21 19:30 | Bulgaristan 2.Lig | Montana - Hebar 1918 | scheduled | -
+- 2026-09-21 19:30 | Norveç 3.Lig Grup 3 | Brann Ii - Fyllingsdalen | scheduled | -
 - 2026-09-21 20:00 | Danimarka 1.Lig | Hb Koge - Hobro | scheduled | -
 - 2026-09-21 20:00 | Gürcistan Erovnuli Liga | Spaeri - Dila Gori | scheduled | -
 - 2026-09-21 20:00 | Norveç 3.Lig Grup 2 | Nardo - Ranheim Ii | scheduled | -
+- 2026-09-21 20:00 | Norveç 3.Lig Grup 1 | Kfum Ii - If Ready | scheduled | -
+- 2026-09-21 20:15 | Katar Yıldızlar Kupası Grup Aşaması | Al Duhail Sc - Al Arabi | scheduled | -
+- 2026-09-21 20:15 | Katar Yıldızlar Kupası Grup Aşaması | Lusail City - Markhiya | scheduled | -
 - 2026-09-21 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi - Atletico Tucuma | scheduled | -
 - 2026-09-21 21:00 | Romanya 1.Lig | Petrolul 52 - Csikszereda | scheduled | -
 - 2026-09-21 21:00 | Arjantin Ulusal Primera Lig | Tristan - Atlanta | scheduled | -
@@ -47,7 +58,9 @@ Yarin: 13
 - 2026-09-21 21:30 | İtalya Serie C Grup B | Spezia - Vis Pasaro | scheduled | -
 - 2026-09-21 21:45 | İngiltere Non League Premier Güney Merkez | Redditch Unite - Racing Club War | scheduled | -
 - 2026-09-21 22:00 | Ekvador Pro Lig Küme Düşme Grubu | Manta - Orense | scheduled | -
+- 2026-09-21 22:30 | Paraguay Intermedia Lig | Benjamin Aceva - Atlético Tembet | scheduled | -
 - 2026-09-21 23:30 | Kolombiya Primera B Clausura | Bogota - Barranguilla | scheduled | -
+- 2026-09-22 00:45 | Meksika Kadınlar Liga MX Apertura | Atlante (K) - Queretaro (K) | scheduled | -
 - 2026-09-22 01:00 | Arjantin Premier Lig 2. Aşama | Barracas - Rivadavia | scheduled | -
 - 2026-09-22 01:00 | Arjantin Ulusal Primera Lig | Nueva Chicago - Patronato | scheduled | -
 - 2026-09-22 01:00 | Kolombiya Primera B Clausura | Real Cundinama - Quindio | scheduled | -
