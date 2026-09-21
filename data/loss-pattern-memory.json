@@ -1,6 +1,6 @@
 {
   "schema_version": "loss_pattern_memory_v1",
-  "generated_at": "2026-09-21T14:22:53.824Z",
+  "generated_at": "2026-09-21T19:40:25.547Z",
   "status": "active",
   "policy": {
     "purpose": "Tekrarlayan gözlenebilir hata bağlamlarını saptayıp gelecekte aynı bağlamda yalnız negatif fren uygulamak.",
@@ -12,12 +12,45 @@
     "max_brake_points": 3
   },
   "summary": {
-    "settled_predictions": 810,
-    "lost_predictions": 394,
+    "settled_predictions": 811,
+    "lost_predictions": 395,
     "market_count": 8,
     "active_market_count": 3
   },
   "market_profiles": {
+    "MS 2": {
+      "settled": 71,
+      "won": 40,
+      "lost": 31,
+      "loss_rate": 0.437,
+      "distinct_loss_dates": 7,
+      "miss_types": {
+        "away_pick_lost": 15,
+        "away_pick_drew": 16
+      },
+      "factors": {
+        "low_data_selection": {
+          "loss_count": 21,
+          "distinct_dates": 7,
+          "share_of_losses": 0.677,
+          "active": true
+        },
+        "nonpositive_edge_selection": {
+          "loss_count": 22,
+          "distinct_dates": 6,
+          "share_of_losses": 0.71,
+          "active": true
+        },
+        "high_risk_selection": {
+          "loss_count": 18,
+          "distinct_dates": 6,
+          "share_of_losses": 0.581,
+          "active": true
+        }
+      },
+      "dominant_miss_type": "away_pick_drew",
+      "active_factor_count": 3
+    },
     "KG Yok": {
       "settled": 65,
       "won": 28,
@@ -273,39 +306,6 @@
       },
       "dominant_miss_type": "goal_shortfall",
       "active_factor_count": 0
-    },
-    "MS 2": {
-      "settled": 70,
-      "won": 40,
-      "lost": 30,
-      "loss_rate": 0.429,
-      "distinct_loss_dates": 6,
-      "miss_types": {
-        "away_pick_drew": 16,
-        "away_pick_lost": 14
-      },
-      "factors": {
-        "low_data_selection": {
-          "loss_count": 20,
-          "distinct_dates": 6,
-          "share_of_losses": 0.667,
-          "active": true
-        },
-        "nonpositive_edge_selection": {
-          "loss_count": 22,
-          "distinct_dates": 6,
-          "share_of_losses": 0.733,
-          "active": true
-        },
-        "high_risk_selection": {
-          "loss_count": 18,
-          "distinct_dates": 6,
-          "share_of_losses": 0.6,
-          "active": true
-        }
-      },
-      "dominant_miss_type": "away_pick_drew",
-      "active_factor_count": 3
     }
   }
 }
