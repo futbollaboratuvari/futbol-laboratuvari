@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T23:20:29.826Z",
+  "generated_at": "2026-09-21T01:19:36.467Z",
   "date": "2026-09-21",
   "requested_date": "2026-09-21",
   "date_fallback_used": false,
@@ -15,18 +15,18 @@
     "1/2",
     "2/1"
   ],
-  "scan_count": 80,
-  "scheduled_scan_count": 45,
-  "official_match_count": 96,
-  "official_htft_match_count": 3,
-  "official_high_odds_match_count": 3,
-  "identity_match_count": 24,
-  "matched_by_official_id_count": 5,
+  "scan_count": 60,
+  "scheduled_scan_count": 38,
+  "official_match_count": 82,
+  "official_htft_match_count": 2,
+  "official_high_odds_match_count": 2,
+  "identity_match_count": 21,
+  "matched_by_official_id_count": 4,
   "matched_by_date_teams_count": 0,
-  "matched_by_date_time_similarity_count": 19,
+  "matched_by_date_time_similarity_count": 17,
   "ambiguous_identity_count": 0,
-  "unmatched_identity_count": 21,
-  "candidate_count": 3,
+  "unmatched_identity_count": 17,
+  "candidate_count": 2,
   "selected_count": 0,
   "target_card_count": 3,
   "status": "insufficient_specialist_quality",
@@ -50,20 +50,12 @@
       "specialist_decision": "block",
       "specialist_quality_score": 40,
       "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %49 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): Açık oyun skoru 36/100; ters sonuç senaryosu için kritik derecede zayıf. Açık oyun skoru 36/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%49). İlk yarı yön desteği sınırlı (%22.6). Resmî maç eşleşmesi benzerlik ile %76 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
-    },
-    {
-      "match_name": "Velez Sarsfiel VS Tigre",
-      "market": "2/1",
-      "bookmaker_odds": 36.5,
-      "specialist_decision": "block",
-      "specialist_quality_score": 40,
-      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %44 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%44). Açık oyun skoru 35/100; ters sonuç senaryosu için kritik derecede zayıf. İlk yarı yön olasılığı yalnız %19.9. Açık oyun skoru 35/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%44). İlk yarı yön desteği sınırlı (%19.9). Kadro/ilk 11 verisi tam güvenli değil."
     }
   ],
   "market_specialist": {
     "version": "market-specialist-gates-v4",
-    "htft_picks_checked": 3,
-    "htft_picks_rejected": 3,
+    "htft_picks_checked": 2,
+    "htft_picks_rejected": 2,
     "htft_picks_eligible": 0,
     "selection_policy": "Tüm doğrulanmış adaylar uzman v4 kapısından geçer; sonra en iyi 3 benzersiz maç seçilir.",
     "probability_policy": "Senaryo olasılığı değiştirilmez; uzman v4 yalnız doğrulanmış sinyallerle keep/downgrade/block kararı verir."
