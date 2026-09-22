@@ -1,6 +1,6 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-21T21:08:00.463569+00:00
+Tarih: 2026-09-22T00:10:20.584977+00:00
 
 ## Ozet
 
@@ -9,7 +9,7 @@ Tarih: 2026-09-21T21:08:00.463569+00:00
 - Kac mac bulundu: 93
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 93
-- Ham veri havuzu toplam mac sayisi: 16495
+- Ham veri havuzu toplam mac sayisi: 16496
 - Hedef tarih: 22.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -101,8 +101,8 @@ Tarih: 2026-09-21T21:08:00.463569+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 35
-- Acilan detay: 35
+- Denenen Tumu alani: 36
+- Acilan detay: 36
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
