@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.09.2026 08:02:15
+Oluşturma: 22.09.2026 10:49:40
 
 ## Özet
 
@@ -39,7 +39,7 @@ Oluşturma: 22.09.2026 08:02:15
 
 - 2026-09-22 | Şili Kupa Son 16 Turu | Cobreloa - Coquimbo Unido | 2.5 Alt | pending | 52/100
 - 2026-09-22 | Kolombiya Primera A Clausura | Santa Fe - Deportivo Cali | 2.5 Üst | pending | 70/100
-- 2026-09-22 | Şili Kupası | Audax Italiano - Colo Colo | 2.5 Alt | pending | 61/100
+- 2026-09-22 | Şili Kupa Son 16 Turu | Audax Italiano - Colo Colo | 2.5 Alt | pending | 61/100
 - 2026-09-22 | Kolombiya Primera A Clausura | Independiente - Jaguares | MS X | pending | 57/100
 - 2026-09-22 | Kolombiya Primera B Clausura | Real Santander - Orsomarso | 2.5 Alt | pending | 52/100
 - 2026-09-22 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Juventus (K) - Benfica (K) | MS 1 | pending | 48/100

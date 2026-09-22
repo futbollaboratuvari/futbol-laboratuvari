@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 114
-Tam analiz: 103
-Eksik analiz: 11
+Toplam analiz: 102
+Tam analiz: 92
+Eksik analiz: 10
 
-- Barnsley VS Leeds United U2: eksik score, confidence
 - Leicester VS Fulham (B): eksik score, confidence
 - Luton VS Ipswich Town U2: eksik score, confidence
 - Acv VS Hoogeveen: eksik score, confidence
