@@ -1,36 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T20:29:28.437Z",
+  "generated_at": "2026-09-22T23:16:41.063Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-22T20:29:26.534Z",
+  "source_generated_at": "2026-09-22T23:16:39.915Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 8,
-    "ready_count": 7,
-    "waiting_count": 1,
-    "result_lean_count": 7,
-    "next_goal_lean_count": 3,
+    "live_match_count": 2,
+    "ready_count": 2,
+    "waiting_count": 0,
+    "result_lean_count": 2,
+    "next_goal_lean_count": 2,
     "high_goal_pressure_count": 0
   },
   "matches": [
     {
-      "fixture_id": "401917015",
+      "fixture_id": "401860351",
       "status": "ready",
-      "minute": 69,
+      "minute": 44,
       "score": {
         "home": 0,
-        "away": 2
+        "away": 1
       },
-      "home": "Juventus",
-      "away": "Benfica",
-      "league": "UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması",
+      "home": "Criciúma",
+      "away": "Operário PR",
+      "league": "Brezilya Serie B",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-22T20:29:26.534Z",
-      "freshness_minutes": 0.031716666666666664,
+      "snapshot_recorded_at": "2026-09-22T23:16:39.915Z",
+      "freshness_minutes": 0.019133333333333332,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -60,355 +60,59 @@
       "evidence_score": 48,
       "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "match_direction",
-        "label": "Deplasman yönü",
-        "confidence": 71
+        "type": "next_goal",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "confidence": 75
       },
       "result_lean": {
-        "code": "2",
-        "label": "Deplasman yönü",
-        "side": "away",
-        "strength": 80.29400000000001
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 80.906
       },
       "next_goal_lean": {
-        "code": null,
-        "label": "Sonraki gol için net ayrışma yok",
-        "side": "neutral",
-        "strength": 55.64
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 86.34
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 16
+        "score": 23
       },
       "signals": [
-        "Team Power: Juventus %44 · Benfica %56.",
-        "Goal Power: Juventus %14 · Benfica %17.",
-        "Maç yönü: Deplasman yönü. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
+        "Team Power: Criciúma %69 · Operário PR %31.",
+        "Goal Power: Criciúma %27 · Operário PR %10.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": -12,
-        "goal_power_diff": -3,
+        "team_power_diff": 38,
+        "goal_power_diff": 17,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 0,
-        "total_shots_diff": 1,
-        "corners_diff": 2,
+        "shots_on_goal_diff": 2,
+        "total_shots_diff": 9,
+        "corners_diff": 6,
         "xg_diff": 0,
-        "direction_score": -33.66,
-        "next_goal_score": -3.36
+        "direction_score": 34.34,
+        "next_goal_score": 34.34
       }
     },
     {
-      "fixture_id": "401896309",
+      "fixture_id": "401877885",
       "status": "ready",
-      "minute": 88,
-      "score": {
-        "home": 1,
-        "away": 6
-      },
-      "home": "Bonnyrigg Rose",
-      "away": "Airdrieonians",
-      "league": "İskoçya Challenge Kupası Lig Aşaması",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-22T20:29:26.534Z",
-      "freshness_minutes": 0.031716666666666664,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Deplasman yönü",
-        "confidence": 78
-      },
-      "result_lean": {
-        "code": "2",
-        "label": "Deplasman yönü",
-        "side": "away",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "AWAY",
-        "label": "Sonraki gol eğilimi: Deplasman",
-        "side": "away",
-        "strength": 73.06
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 9
-      },
-      "signals": [
-        "Team Power: Bonnyrigg Rose %14 · Airdrieonians %86.",
-        "Goal Power: Bonnyrigg Rose %2 · Airdrieonians %11.",
-        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": -72,
-        "goal_power_diff": -9,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 0,
-        "total_shots_diff": 0,
-        "corners_diff": 0,
-        "xg_diff": 0,
-        "direction_score": -149.16,
-        "next_goal_score": -21.06
-      }
-    },
-    {
-      "fixture_id": "401896308",
-      "status": "ready",
-      "minute": 88,
-      "score": {
-        "home": 1,
-        "away": 5
-      },
-      "home": "Clachnacuddin",
-      "away": "Ross County",
-      "league": "İskoçya Challenge Kupası Lig Aşaması",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-22T20:29:26.534Z",
-      "freshness_minutes": 0.031716666666666664,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Deplasman yönü",
-        "confidence": 78
-      },
-      "result_lean": {
-        "code": "2",
-        "label": "Deplasman yönü",
-        "side": "away",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "AWAY",
-        "label": "Sonraki gol eğilimi: Deplasman",
-        "side": "away",
-        "strength": 70.68
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 7
-      },
-      "signals": [
-        "Team Power: Clachnacuddin %17 · Ross County %83.",
-        "Goal Power: Clachnacuddin %2 · Ross County %9.",
-        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": -66,
-        "goal_power_diff": -7,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 0,
-        "total_shots_diff": 0,
-        "corners_diff": 0,
-        "xg_diff": 0,
-        "direction_score": -122.48,
-        "next_goal_score": -18.68
-      }
-    },
-    {
-      "fixture_id": "401896298",
-      "status": "ready",
-      "minute": 88,
-      "score": {
-        "home": 0,
-        "away": 4
-      },
-      "home": "Fraserburgh",
-      "away": "Cove Rangers",
-      "league": "İskoçya Challenge Kupası Lig Aşaması",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-22T20:29:26.534Z",
-      "freshness_minutes": 0.031716666666666664,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Deplasman yönü",
-        "confidence": 78
-      },
-      "result_lean": {
-        "code": "2",
-        "label": "Deplasman yönü",
-        "side": "away",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "AWAY",
-        "label": "Sonraki gol eğilimi: Deplasman",
-        "side": "away",
-        "strength": 78.5
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 5
-      },
-      "signals": [
-        "Team Power: Fraserburgh %0 · Cove Rangers %100.",
-        "Goal Power: Fraserburgh %0 · Cove Rangers %7.",
-        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": -100,
-        "goal_power_diff": -7,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 0,
-        "total_shots_diff": 0,
-        "corners_diff": 0,
-        "xg_diff": 0,
-        "direction_score": -135.4,
-        "next_goal_score": -26.5
-      }
-    },
-    {
-      "fixture_id": "401896297",
-      "status": "insufficient_data",
-      "minute": 87,
+      "minute": 17,
       "score": {
         "home": 0,
         "away": 0
       },
-      "home": "Gala Fairydean",
-      "away": "Spartans FC",
-      "league": "İskoçya Challenge Kupası Lig Aşaması",
+      "home": "Independiente Medellín",
+      "away": "Jaguares de Córdoba",
+      "league": "Kolombiya Primera A Clausura",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-22T20:29:26.534Z",
-      "freshness_minutes": 0.031716666666666664,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": "power_signal_missing",
-      "primary_prediction": {
-        "type": "wait",
-        "label": "Veri yeterli değil · tahmin verilmedi",
-        "confidence": null
-      },
-      "result_lean": null,
-      "next_goal_lean": null,
-      "goal_pressure": null,
-      "signals": []
-    },
-    {
-      "fixture_id": "401896311",
-      "status": "ready",
-      "minute": 88,
-      "score": {
-        "home": 2,
-        "away": 1
-      },
-      "home": "Banks O'Dee",
-      "away": "Aberdeen B",
-      "league": "İskoçya Challenge Kupası Lig Aşaması",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-22T20:29:26.534Z",
-      "freshness_minutes": 0.031716666666666664,
+      "snapshot_recorded_at": "2026-09-22T23:16:39.915Z",
+      "freshness_minutes": 0.019133333333333332,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -440,205 +144,41 @@
       "primary_prediction": {
         "type": "match_direction",
         "label": "Ev sahibi yönü",
-        "confidence": 73
+        "confidence": 76
       },
       "result_lean": {
         "code": "1",
         "label": "Ev sahibi yönü",
         "side": "home",
-        "strength": 83.588
+        "strength": 87.53
       },
       "next_goal_lean": {
-        "code": null,
-        "label": "Sonraki gol için net ayrışma yok",
-        "side": "neutral",
-        "strength": 50.18
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 3
-      },
-      "signals": [
-        "Team Power: Banks O'Dee %67 · Aberdeen B %33.",
-        "Goal Power: Banks O'Dee %4 · Aberdeen B %2.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": 34,
-        "goal_power_diff": 2,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 0,
-        "total_shots_diff": 0,
-        "corners_diff": 0,
-        "xg_diff": 0,
-        "direction_score": 37.32,
-        "next_goal_score": 8.82
-      }
-    },
-    {
-      "fixture_id": "401896310",
-      "status": "ready",
-      "minute": 89,
-      "score": {
-        "home": 2,
-        "away": 1
-      },
-      "home": "Berwick Rangers",
-      "away": "Stranraer",
-      "league": "İskoçya Challenge Kupası Lig Aşaması",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-22T20:29:26.534Z",
-      "freshness_minutes": 0.031716666666666664,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Ev sahibi yönü",
-        "confidence": 73
-      },
-      "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
         "side": "home",
-        "strength": 83.588
-      },
-      "next_goal_lean": {
-        "code": null,
-        "label": "Sonraki gol için net ayrışma yok",
-        "side": "neutral",
-        "strength": 50.18
+        "strength": 86.5
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 3
+        "score": 26
       },
       "signals": [
-        "Team Power: Berwick Rangers %67 · Stranraer %33.",
-        "Goal Power: Berwick Rangers %4 · Stranraer %2.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
+        "Team Power: Independiente Medellín %80 · Jaguares de Córdoba %20.",
+        "Goal Power: Independiente Medellín %32 · Jaguares de Córdoba %5.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 34,
-        "goal_power_diff": 2,
+        "team_power_diff": 60,
+        "goal_power_diff": 27,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 0,
-        "total_shots_diff": 0,
-        "corners_diff": 0,
+        "shots_on_goal_diff": 1,
+        "total_shots_diff": 3,
+        "corners_diff": 5,
         "xg_diff": 0,
-        "direction_score": 37.32,
-        "next_goal_score": 8.82
-      }
-    },
-    {
-      "fixture_id": "401896306",
-      "status": "ready",
-      "minute": 87,
-      "score": {
-        "home": 1,
-        "away": 2
-      },
-      "home": "Clyde",
-      "away": "Rangers B",
-      "league": "İskoçya Challenge Kupası Lig Aşaması",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-22T20:29:26.534Z",
-      "freshness_minutes": 0.031716666666666664,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Deplasman yönü",
-        "confidence": 73
-      },
-      "result_lean": {
-        "code": "2",
-        "label": "Deplasman yönü",
-        "side": "away",
-        "strength": 83.588
-      },
-      "next_goal_lean": {
-        "code": null,
-        "label": "Sonraki gol için net ayrışma yok",
-        "side": "neutral",
-        "strength": 50.18
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 3
-      },
-      "signals": [
-        "Team Power: Clyde %33 · Rangers B %67.",
-        "Goal Power: Clyde %2 · Rangers B %4.",
-        "Maç yönü: Deplasman yönü. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": -34,
-        "goal_power_diff": -2,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 0,
-        "total_shots_diff": 0,
-        "corners_diff": 0,
-        "xg_diff": 0,
-        "direction_score": -37.32,
-        "next_goal_score": -8.82
+        "direction_score": 41.7,
+        "next_goal_score": 34.5
       }
     }
   ]
