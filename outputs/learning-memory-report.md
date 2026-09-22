@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.09.2026 03:12:44
+Oluşturma: 22.09.2026 04:44:12
 
 ## Özet
 
 - Toplam tahmin: 2651
-- Bekleyen tahmin: 1833
-- Kazanan tahmin: 418
-- Kaybeden tahmin: 400
+- Bekleyen tahmin: 1830
+- Kazanan tahmin: 419
+- Kaybeden tahmin: 402
 - Lig sayısı: 376
 - Seçenek sayısı: 13
 
@@ -22,11 +22,11 @@ Oluşturma: 22.09.2026 03:12:44
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 376, bekleyen 304, başarı %57, düz getiri %3, ağırlık 1
+- MS 2: toplam 376, bekleyen 303, başarı %57, düz getiri %5, ağırlık 1
 - KG Var: toplam 175, bekleyen 94, başarı %56, düz getiri %-2, ağırlık 1
-- 2.5 Alt: toplam 795, bekleyen 563, başarı %53, düz getiri %-13, ağırlık 0.944
+- 2.5 Alt: toplam 795, bekleyen 562, başarı %52, düz getiri %-13, ağırlık 0.942
 - 2.5 Üst: toplam 283, bekleyen 157, başarı %52, düz getiri %-9, ağırlık 1
-- MS 1: toplam 698, bekleyen 505, başarı %50, düz getiri %-19, ağırlık 0.94
+- MS 1: toplam 698, bekleyen 504, başarı %50, düz getiri %-19, ağırlık 0.94
 - 3.5 Üst: toplam 67, bekleyen 29, başarı %47, düz getiri %-6, ağırlık 1
 - KG Yok: toplam 155, bekleyen 88, başarı %42, düz getiri %-29, ağırlık 1
 - MS X: toplam 21, bekleyen 12, başarı %33, düz getiri %-15, ağırlık 1
@@ -40,16 +40,16 @@ Oluşturma: 22.09.2026 03:12:44
 - 2026-09-22 | Kolombiya Primera A Clausura | Independiente - Jaguares | MS X | pending | 57/100
 - 2026-09-22 | Şili Kupa Son 16 Turu | Cobreloa - Coquimbo Unido | 2.5 Alt | pending | 52/100
 - 2026-09-22 | Kolombiya Primera A Clausura | Santa Fe - Deportivo Cali | 2.5 Üst | pending | 70/100
-- 2026-09-22 | Şili Kupası | Audax Italiano - Colo Colo | 2.5 Alt | pending | 61/100
+- 2026-09-22 | Şili Kupa Son 16 Turu | Audax Italiano - Colo Colo | 2.5 Alt | pending | 61/100
 - 2026-09-22 | Kolombiya Primera B Clausura | Real Santander - Orsomarso | 2.5 Alt | pending | 52/100
-- 2026-09-22 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Juventus (K) - Benfica (K) | MS 1 | pending | 50/100
+- 2026-09-22 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Juventus (K) - Benfica (K) | MS 1 | pending | 49/100
 - 2026-09-22 | Şili Kupa Son 16 Turu | Puerto Montt - Atletico Nublen | 2.5 Alt | pending | 52/100
 - 2026-09-22 | Kolombiya Primera B Clausura | Independiente - Internacional P | 2.5 Alt | pending | 57/100
-- 2026-09-22 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Real Madrid (K - Psg (K) | MS 1 | pending | 48/100
+- 2026-09-22 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Real Madrid (K - Psg (K) | MS 1 | pending | 47/100
 - 2026-09-22 | İngiltere Non League Premier Güney | Chichester Cit - Chertsey Town | MS 2 | pending | 44/100
-- 2026-09-22 | İngiltere Non League Premier Güney | Plymouth Parkw - Frome Town | MS 1 | pending | 43/100
-- 2026-09-22 | İngiltere Non League Premier Güney Merkez | Bury Town - Hitchin Town | MS 1 | pending | 53/100
+- 2026-09-22 | İngiltere Non League Premier Güney | Plymouth Parkw - Frome Town | MS 1 | pending | 42/100
+- 2026-09-22 | İngiltere Non League Premier Güney Merkez | Bury Town - Hitchin Town | MS 1 | pending | 52/100
 - 2026-09-22 | İngiltere Non League Premier Güney Merkez | Stratford Town - Bromsgrove Spor | 2.5 Üst | pending | 54/100
-- 2026-09-22 | İngiltere Non League Premier Güney Merkez | Leiston - Peterborough Sp | MS 1 | pending | 42/100
+- 2026-09-22 | İngiltere Non League Premier Güney Merkez | Leiston - Peterborough Sp | MS 1 | pending | 41/100
 - 2026-09-22 | İngiltere Non League Premier Güney Merkez | Rushall Olympi - Kettering | 2.5 Alt | pending | 47/100
 

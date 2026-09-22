@@ -1,9 +1,9 @@
 # Sonuc Takip Saglik Kontrolu
 
 Durum: warning
-Aktif bulten maci: 114
+Aktif bulten maci: 109
 Arsiv maci: 16406
-Biten mac: 16292
+Biten mac: 16297
 Skorlu arsiv maci: 2367
 Tahmin sayisi: 2651
 Bekleyen tahmin: 1830

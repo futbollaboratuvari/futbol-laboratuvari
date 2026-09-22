@@ -2,21 +2,15 @@
 
 Gunler: 2026-09-22 / 2026-09-23
 Kaynak: fixtures.json
-Ham mac: 118
-Aktif mac: 108
+Ham mac: 114
+Aktif mac: 102
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 98
+Bultenden dusurulen mac: 12
+Bugun: 92
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-09-22 03:15 | Arjantin Premier Lig 2. Aşama | Lanus - Estudiantes Lp | scheduled | -
-- 2026-09-22 03:30 | Brezilya Serie B | Cuiaba - Nautico | scheduled | -
-- 2026-09-22 03:30 | Kolombiya Primera B Clausura | Real Cartagena - Envigado | scheduled | -
-- 2026-09-22 03:30 | Brezilya Brasileiro Kadınlar 1.Aşama Yarı Final | Corinthians (K (1) - (0) Bahia (K) | scheduled | -
-- 2026-09-22 04:00 | Jamaika Premier Lig | Arnett Gardens - Dunbeholden | scheduled | -
-- 2026-09-22 04:06 | Meksika Kadınlar Liga MX Apertura | Santos Laguna - Cruz Azul (K) | scheduled | -
 - 2026-09-22 08:00 | Asya Oyunları Grup C | Vietnam U23 - Özbekistan U23 | scheduled | -
 - 2026-09-22 08:00 | Asya Oyunları Grup C | Filipinler U23 - Kuveyt U23 | scheduled | -
 - 2026-09-22 13:00 | Asya Oyunları Grup D | Guney Kore U23 - Suudi Arabistan | scheduled | -
