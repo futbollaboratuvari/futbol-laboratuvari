@@ -1,28 +1,45 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-22T18:08:48.310734+00:00
+Tarih: 2026-09-22T21:24:36.760425+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 46
+- Kac mac bulundu: 52
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 46
-- Ham veri havuzu toplam mac sayisi: 16506
-- Hedef tarih: 22.09.2026 Europe/Istanbul
+- Kac mac zaten vardi: 52
+- Ham veri havuzu toplam mac sayisi: 16571
+- Hedef tarih: 23.09.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- Arjantin Kadınlar Primera A 2. Aşama
+- Asya Oyunları Grup A
+- Asya Oyunları Grup B
+- Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur
+- CONCACAF Uluslar Ligi Lig C Grup A
+- CONCACAF Uluslar Ligi Lig C Grup C
+- Hazırlık Ülkeler
+- Hollanda KNVB Kupası 2. Ön Eleme Turu
+- Japonya Kadınlar Lig Kupası Grup Aşaması
+- Japonya İmparatorluk Kupası 3.Tur
+- Kadınlar U20 Dünya Kupası Yarı Final
+- Kuzey Makedonya 1.Lig
+- Körfez Kupası Grup A
+- Nijerya NPFL
+- Norveç NM Kupası 2.Tur
+- Paraguay Kupa Son 16 Turu
+- Peru Premier Lig Clausura
 - UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması
-- İngiltere EFL Trophy Güney Grup H
-- İngiltere EFL Trophy Kuzey Grup C
-- İngiltere FA Cup Eleme 2.Tur Tekrar
-- İngiltere Non League Premier Güney
-- İngiltere Non League Premier Güney Merkez
-- İngiltere Non League Premier Isthmian
-- İngiltere Non League Premier Kuzey
+- Uruguay Kupa Ön Eleme Turu Grup 6
+- Çek Cumhuriyeti Kupa 3.Tur
+- İngiltere Ulusal Lig Kupası Grup C
 - İskoçya Challenge Kupası Lig Aşaması
+- İspanya Federasyon Kupası Son 16 Turu
+- İspanya Gençler Onur Ligi Grup 5
+- İspanya Primera Lig RFEF Grup 2
 
 ## Okunabilen Oran Alanlari
 
@@ -79,8 +96,8 @@ Tarih: 2026-09-22T18:08:48.310734+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 15
-- Acilan detay: 15
+- Denenen Tumu alani: 35
+- Acilan detay: 35
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -93,26 +110,26 @@ Tarih: 2026-09-22T18:08:48.310734+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Arsenal (K) | Koge (K) | 17297 | 4 |
-| 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Real Madrid (K | Psg (K) | 17443 | 5 |
-| 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Juventus (K) | Benfica (K) | 17396 | 5 |
-| 22.09.2026 | 21:30 | İngiltere EFL Trophy Kuzey Grup C | Bradford | Newcastle (B) | 15300 | 4 |
-| 22.09.2026 | 21:30 | İngiltere EFL Trophy Güney Grup H | Bromley | Brentford U21 | 15402 | 5 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Alloa | Hibernian Ii | 04714 | 2 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clyde | Rangers Ii | 16242 | 3 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton | Kilmarnock Ii | 20262 | 3 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Queen Of South | Annan | 16468 | 5 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Formartine Uni | Montrose | 16390 | 5 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clachnacuddin | Ross County | 16198 | 2 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts | Hearts Ii | 16442 | 3 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Elgin | Dundee Ii | 16343 | 2 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | East Kilbride | Celtic Ii | 16228 | 3 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Edinburg C. | Dundee United I | 16289 | 2 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Stirling Albio | Cumbernauld Col | 16490 | 3 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Banks O Dee | Aberdeen Ii | 04759 | 5 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clydebank Fc | St. Mirren Ii | 16244 | 3 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Gala Fairydean | Spartans | 16425 | 3 |
-| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Berwick | Stranraer | 04729 | 3 |
+| 23.09.2026 | 22:00 | CONCACAF Uluslar Ligi Lig C Grup A | Turks Ve Caico | Montserrat | 09649 | 2 |
+| 23.09.2026 | 23:00 | CONCACAF Uluslar Ligi Lig C Grup C | Bahamalar | Saint Martin | 09690 | 2 |
+| 23.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Barcelona (K) | Paris (K) | 17473 | 4 |
+| 23.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Chelsea (K) | Austria Wien (K | 17562 | 4 |
+| 23.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Oh Leuven (K) | Roma (K) | 20267 | 5 |
+| 23.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Servette Cheno | Lyon (K) | 17445 | 2 |
+| 23.09.2026 | 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Kladno | Banik Ostrava | 18367 | 5 |
+| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kyoto Sanga | Fujieda | 09645 | 5 |
+| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kashiwa | Fc Imabari | 09644 | 4 |
+| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kashima | Kofu | 08906 | 5 |
+| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Vissel Kobe | Sagan Tosu | 09646 | 5 |
+| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Gamba Osaka | Tokushima | 09643 | 5 |
+| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Machida Zelvia | Tochigi City | 09641 | 5 |
+| 23.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Hamilton | Cowdenbeath | 16510 | 2 |
+| 23.09.2026 | 21:00 | Körfez Kupası Grup A | Suudi Arabista | Kuveyt | 03450 | 5 |
+| 23.09.2026 | 17:30 | Körfez Kupası Grup A | Irak | Umman | 05201 | 5 |
+| 23.09.2026 | 19:30 | Kadınlar U20 Dünya Kupası Yarı Final | Kuzey Kore U20 | Kolombiya U20 ( | 01501 | 4 |
+| 23.09.2026 | 16:00 | Kadınlar U20 Dünya Kupası Yarı Final | Italy U20 (K) | İspanya U20 (K) | 00211 | 5 |
+| 23.09.2026 | 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Ijsselmeervoge | Gemert | 13453 | 3 |
+| 23.09.2026 | 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Sparta Nijkerk | Udi 19 | 13456 | 3 |
 
 ## Sonuc
 

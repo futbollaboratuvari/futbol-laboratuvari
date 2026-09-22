@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 56
+- Scheduled match count: 71
 - Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-09-22 / 2026-09-23 23:59
+- Date window: 2026-09-23 / 2026-09-24 23:59
 
-- 2026-09-22 21:30 | Bromley - Brentford U21 | scheduled
-- 2026-09-22 21:30 | Bradford - Newcastle (B) | scheduled
-- 2026-09-22 21:45 | Chippenham Tow - Yate Town | scheduled
-- 2026-09-22 21:45 | Dagenham & Red - Waltham Abbey | scheduled
-- 2026-09-22 21:45 | Farnborough - Uxbridge | scheduled
-- 2026-09-22 21:45 | Gainsborough T - Leamington | scheduled
-- 2026-09-22 21:45 | Truro City - Merthyr Town | scheduled
-- 2026-09-22 21:45 | Wingate - Hemel | scheduled
-- 2026-09-22 21:45 | Worksop Town - Telford | scheduled
-- 2026-09-22 21:45 | Berkhamsted - Hanworth Villa | scheduled
+- 2026-09-23 00:30 | 2 De Mayo - Sol De America | scheduled
+- 2026-09-23 01:30 | Criciuma - Operario | scheduled
+- 2026-09-23 02:00 | Independiente - Jaguares | scheduled
+- 2026-09-23 02:30 | Audax Italiano - Colo Colo | scheduled
+- 2026-09-23 02:30 | Cobreloa - Coquimbo Unido | scheduled
+- 2026-09-23 04:00 | Santa Fe - Deportivo Cali | scheduled
+- 2026-09-23 08:00 | Nojima Stella - Elfen Saitama ( | scheduled
+- 2026-09-23 08:00 | Ntv Beleza (K) - Albirex Niigata | scheduled
+- 2026-09-23 08:30 | Çin U23 - Birleşik Arap E | scheduled
+- 2026-09-23 08:30 | İran U23 - Kuzey Kore U23 | scheduled
