@@ -2,12 +2,12 @@
 
 Gunler: 2026-09-22 / 2026-09-23
 Kaynak: fixtures.json
-Ham mac: 102
-Aktif mac: 100
+Ham mac: 125
+Aktif mac: 107
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 90
+Bultenden dusurulen mac: 18
+Bugun: 97
 Yarin: 10
 
 ## Baslamamis Maclar
@@ -17,6 +17,7 @@ Yarin: 10
 - 2026-09-22 15:00 | İngiltere Professional Development Lig | Charlton Athle - Sheffield Unite | scheduled | -
 - 2026-09-22 15:30 | İran Azadegan Ligi | Sanat Mes Kerm - Saipa | scheduled | -
 - 2026-09-22 17:30 | Romanya 2.Lig | Dumbravita - Csm Resita | scheduled | -
+- 2026-09-22 17:40 | Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur | Al Urooba - City Fc Dubai | scheduled | -
 - 2026-09-22 18:00 | İran Azadegan Ligi | Havadar - Besat Kermansha | scheduled | -
 - 2026-09-22 18:30 | Norveç 3.Lig Grup 5 | Skjetten - Skjervoy | scheduled | -
 - 2026-09-22 19:00 | Cezayir 1.Lig | Biskra - Js Saoura | scheduled | -
@@ -59,6 +60,9 @@ Yarin: 10
 - 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Eemdijk - Roosendaal | scheduled | -
 - 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Rijnvogels - Vvsb | scheduled | -
 - 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Staphorst - Genemuiden | scheduled | -
+- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Evv - Halsteren | scheduled | -
+- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Excelsior 31 - Afc 34 | scheduled | -
+- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Gvvv - Dvs 33 Ermelo | scheduled | -
 - 2026-09-22 21:30 | İngiltere EFL Trophy Kuzey Grup C | Bradford - Newcastle (B) | scheduled | -
 - 2026-09-22 21:30 | İngiltere EFL Trophy Güney Grup H | Bromley - Brentford U21 | scheduled | -
 - 2026-09-22 21:45 | İskoçya Challenge Kupası Lig Aşaması | Bonnyrigg Rose - Airdrieonians | scheduled | -
@@ -98,6 +102,9 @@ Yarin: 10
 - 2026-09-22 21:45 | İngiltere Non League Premier Güney Merkez | Leiston - Peterborough Sp | scheduled | -
 - 2026-09-22 21:45 | İngiltere Non League Premier Güney Merkez | Rushall Olympi - Kettering | scheduled | -
 - 2026-09-22 21:45 | İngiltere Non League Premier Güney Merkez | Worcester City - Banbury United | scheduled | -
+- 2026-09-22 21:45 | İngiltere FA Cup Eleme 2.Tur Tekrar | Wingate - Hemel | scheduled | -
+- 2026-09-22 21:45 | İngiltere FA Cup Eleme 2.Tur Tekrar | Farnborough - Uxbridge | scheduled | -
+- 2026-09-22 21:45 | İngiltere FA Cup Eleme 2.Tur Tekrar | Chippenham Tow - Yate Town | scheduled | -
 - 2026-09-22 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Real Madrid (K - Psg (K) | scheduled | -
 - 2026-09-22 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Arsenal (K) - Koge (K) | scheduled | -
 - 2026-09-22 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Juventus (K) - Benfica (K) | scheduled | -

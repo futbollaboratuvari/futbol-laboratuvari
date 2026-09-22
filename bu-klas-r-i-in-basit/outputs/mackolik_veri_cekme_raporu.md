@@ -1,21 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-22T04:59:43.150829+00:00
+Tarih: 2026-09-22T09:42:18.802538+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 93
+- Kac mac bulundu: 98
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 93
-- Ham veri havuzu toplam mac sayisi: 16496
+- Kac mac zaten vardi: 98
+- Ham veri havuzu toplam mac sayisi: 16503
 - Hedef tarih: 22.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- Asya Oyunları Grup C
 - Asya Oyunları Grup D
+- Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur
 - Cezayir 1.Lig
 - Hollanda KNVB Kupası 2. Ön Eleme Turu
 - Katar Yıldızlar Kupası Grup Aşaması
@@ -115,21 +115,21 @@ Tarih: 2026-09-22T04:59:43.150829+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Real Madrid (K | Psg (K) | 17443 | 5 |
 | 22.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Inter Milano ( | Hacken (K) | 17145 | 5 |
 | 22.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Bayern München | Man City (K) | 13782 | 5 |
-| 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Real Madrid (K | Psg (K) | 17443 | 5 |
-| 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Arsenal (K) | Koge (K) | 17297 | 4 |
 | 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Juventus (K) | Benfica (K) | 17396 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup A | Accrington | Sunderland (B) | 12961 | 5 |
+| 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Arsenal (K) | Koge (K) | 17297 | 4 |
 | 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup A | Salford City | Sheffield Wed | 14525 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup B | Wigan | Blackpool | 15083 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup A | Accrington | Sunderland (B) | 12961 | 5 |
 | 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup B | Crewe | Aston Villa U21 | 13222 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup B | Wigan | Blackpool | 15083 | 5 |
+| 22.09.2026 | 21:30 | İngiltere EFL Trophy Kuzey Grup C | Bradford | Newcastle (B) | 15300 | 4 |
 | 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup C | York | Rotherham | 15186 | 5 |
-| 22.09.2026 | 21:30 | İngiltere EFL Trophy Kuzey Grup C | Bradford | Newcastle (B) | 15300 | 5 |
 | 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup D | Chesterfield | Port Vale | 13171 | 5 |
 | 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup E | Tranmere | Shrewsbury | 14890 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup F | Burton Albion | Nottingham Fore | 13061 | 5 |
 | 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup F | Notts County | Grimsby | 13474 | 5 |
+| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup F | Burton Albion | Nottingham Fore | 13061 | 5 |
 | 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup G | Barnsley | Leeds United U2 | 13011 | 5 |
 | 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup G | Oldham | Fleetwood Town | 13518 | 5 |
 | 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup H | Rochdale | Liverpool U21 | 13761 | 5 |

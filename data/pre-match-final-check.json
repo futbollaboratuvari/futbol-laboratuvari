@@ -1,10 +1,57 @@
 {
   "schema_version": 1,
   "version": "pre-match-final-check-v1",
-  "generated_at": "2026-09-22T05:00:18.904Z",
+  "generated_at": "2026-09-22T09:43:05.543Z",
   "policy": "T60/T30/T10 kontrolü yalnız doğrulanmış isimli market oranı, kadro/ilk 11 ve kaynak uzlaşısını kullanır. Tahmini raw market kullanılmaz. Olasılık yüzdesi doğrudan değiştirilmez; yalnız risk, model gücü ve kupon uygunluğu frenlenir.",
-  "active_match_count": 0,
+  "active_match_count": 1,
   "blocked_match_count": 0,
-  "downgraded_match_count": 0,
-  "matches": []
+  "downgraded_match_count": 1,
+  "matches": [
+    {
+      "match_name": "Guney Kore U23 VS Suudi Arabistan",
+      "home": "Guney Kore U23",
+      "away": "Suudi Arabistan",
+      "date": "2026-09-22",
+      "start_time": "13:00",
+      "minutes_to_kickoff": 16.9,
+      "checkpoint": "T30",
+      "active": true,
+      "tracked_market": "KG Yok",
+      "tracked_market_key": "bttsNo",
+      "current_odd": 1.7,
+      "current_odd_source": "verified_named_field:bttsNo",
+      "lineup_risk_level": "Belirsiz",
+      "both_lineups_confirmed": false,
+      "lineup_freshness_minutes": 0.1,
+      "consensus_freshness_minutes": 0.1,
+      "news_context_freshness_minutes": 282.9,
+      "source_conflict_level": "none",
+      "source_confidence_score": 5,
+      "general_decision": "downgrade",
+      "market_decision": "keep",
+      "decision": "downgrade",
+      "general_score_penalty": 4,
+      "market_score_penalty": 0,
+      "market_severe_adverse": false,
+      "relative_odd_change_percent": null,
+      "reasons": [
+        "Son kontrol: kaynak güven puanı düşük (5/100).",
+        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
+      ],
+      "snapshots": {
+        "T30": {
+          "checkpoint": "T30",
+          "captured_at": "2026-09-22T09:43:05.543Z",
+          "tracked_market": "KG Yok",
+          "tracked_market_key": "bttsNo",
+          "odd": 1.7,
+          "odd_source": "verified_named_field:bttsNo",
+          "lineup_risk_level": "Belirsiz",
+          "both_lineups_confirmed": false,
+          "source_conflict_level": "none",
+          "source_confidence_score": 5
+        }
+      }
+    }
+  ]
 }
