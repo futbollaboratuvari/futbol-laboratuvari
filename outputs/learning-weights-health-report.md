@@ -1,10 +1,10 @@
 # Ogrenme Agirlik Saglik Kontrolu
 
 Durum: active
-Tahmin sayisi: 2651
+Tahmin sayisi: 2660
 Hazir market hafizasi: 7/13
 Hazir lig hafizasi: 8/376
-Hazir lig+market hafizasi: 0/1148
+Hazir lig+market hafizasi: 0/1153
 Aktif ve guvenli agirlik: 2
 Guclendirilen toplam: 0
 Dusurulen toplam: 2
@@ -13,6 +13,6 @@ Dusurulen toplam: 2
 
 ## Zayif Marketler
 - MS 1: duzeltilmis getiri -0.166, agirlik 0.94, guven -2
-- 2.5 Alt: duzeltilmis getiri -0.115, agirlik 0.942, guven -2
+- 2.5 Alt: duzeltilmis getiri -0.119, agirlik 0.941, guven -2
 
 Sonraki aksiyon: Yalniz guven araligi notr bandin disina cikan hafizalar sonraki analizlerde sinirli uygulanir.
