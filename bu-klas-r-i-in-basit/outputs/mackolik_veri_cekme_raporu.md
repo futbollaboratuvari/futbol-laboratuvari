@@ -1,20 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-22T09:42:18.802538+00:00
+Tarih: 2026-09-22T14:14:36.724393+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 98
+- Kac mac bulundu: 95
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 98
-- Ham veri havuzu toplam mac sayisi: 16503
+- Kac mac zaten vardi: 95
+- Ham veri havuzu toplam mac sayisi: 16506
 - Hedef tarih: 22.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- Asya Oyunları Grup D
 - Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur
 - Cezayir 1.Lig
 - Hollanda KNVB Kupası 2. Ön Eleme Turu
@@ -116,9 +115,9 @@ Tarih: 2026-09-22T09:42:18.802538+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Real Madrid (K | Psg (K) | 17443 | 5 |
-| 22.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Inter Milano ( | Hacken (K) | 17145 | 5 |
 | 22.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Bayern München | Man City (K) | 13782 | 5 |
 | 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Juventus (K) | Benfica (K) | 17396 | 5 |
+| 22.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Inter Milano ( | Hacken (K) | 17145 | 5 |
 | 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Arsenal (K) | Koge (K) | 17297 | 4 |
 | 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup A | Salford City | Sheffield Wed | 14525 | 5 |
 | 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup A | Accrington | Sunderland (B) | 12961 | 5 |

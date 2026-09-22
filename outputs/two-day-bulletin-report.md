@@ -2,17 +2,19 @@
 
 Gunler: 2026-09-22 / 2026-09-23
 Kaynak: fixtures.json
-Ham mac: 107
-Aktif mac: 102
+Ham mac: 128
+Aktif mac: 105
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 92
+Bultenden dusurulen mac: 23
+Bugun: 95
 Yarin: 10
 
 ## Baslamamis Maclar
 - 2026-09-22 17:30 | Romanya 2.Lig | Dumbravita - Csm Resita | scheduled | -
 - 2026-09-22 17:40 | Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur | Al Urooba - City Fc Dubai | scheduled | -
+- 2026-09-22 17:40 | Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur | Al Hamriyah - Al Thaid | scheduled | -
+- 2026-09-22 17:40 | Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur | Dubba Al Fujai - Al Ittifaq | scheduled | -
 - 2026-09-22 18:00 | İran Azadegan Ligi | Havadar - Besat Kermansha | scheduled | -
 - 2026-09-22 18:30 | Norveç 3.Lig Grup 5 | Skjetten - Skjervoy | scheduled | -
 - 2026-09-22 19:00 | Cezayir 1.Lig | Biskra - Js Saoura | scheduled | -
@@ -100,6 +102,7 @@ Yarin: 10
 - 2026-09-22 21:45 | İngiltere FA Cup Eleme 2.Tur Tekrar | Wingate - Hemel | scheduled | -
 - 2026-09-22 21:45 | İngiltere FA Cup Eleme 2.Tur Tekrar | Farnborough - Uxbridge | scheduled | -
 - 2026-09-22 21:45 | İngiltere FA Cup Eleme 2.Tur Tekrar | Chippenham Tow - Yate Town | scheduled | -
+- 2026-09-22 21:45 | İskoçya Challenge Kupası Lig Aşaması | Edinburg C. - Dundee United I | scheduled | -
 - 2026-09-22 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Real Madrid (K - Psg (K) | scheduled | -
 - 2026-09-22 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Arsenal (K) - Koge (K) | scheduled | -
 - 2026-09-22 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Juventus (K) - Benfica (K) | scheduled | -
