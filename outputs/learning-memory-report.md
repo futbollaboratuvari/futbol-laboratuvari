@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.09.2026 00:31:11
+Oluşturma: 23.09.2026 02:47:37
 
 ## Özet
 
-- Toplam tahmin: 2736
-- Bekleyen tahmin: 1843
-- Kazanan tahmin: 458
-- Kaybeden tahmin: 435
-- Lig sayısı: 382
+- Toplam tahmin: 2797
+- Bekleyen tahmin: 1894
+- Kazanan tahmin: 464
+- Kaybeden tahmin: 439
+- Lig sayısı: 395
 - Seçenek sayısı: 13
 
 ## Öğrenme Mantığı
@@ -22,34 +22,34 @@ Oluşturma: 23.09.2026 00:31:11
 
 ## En Güçlü Seçenek Hafızası
 
-- KG Var: toplam 186, bekleyen 98, başarı %57, düz getiri %0, ağırlık 1
-- MS 2: toplam 383, bekleyen 300, başarı %57, düz getiri %2, ağırlık 1
-- 2.5 Alt: toplam 808, bekleyen 555, başarı %53, düz getiri %-11, ağırlık 0.951
-- 2.5 Üst: toplam 287, bekleyen 157, başarı %52, düz getiri %-8, ağırlık 1
-- 3.5 Üst: toplam 69, bekleyen 27, başarı %50, düz getiri %-1, ağırlık 1
-- MS 1: toplam 718, bekleyen 506, başarı %49, düz getiri %-22, ağırlık 0.94
-- KG Yok: toplam 161, bekleyen 85, başarı %41, düz getiri %-29, ağırlık 1
-- MS X: toplam 21, bekleyen 12, başarı %33, düz getiri %-15, ağırlık 1
+- KG Var: toplam 191, bekleyen 102, başarı %56, düz getiri %-1, ağırlık 1
+- MS 2: toplam 389, bekleyen 305, başarı %56, düz getiri %1, ağırlık 1
+- 2.5 Alt: toplam 827, bekleyen 571, başarı %54, düz getiri %-11, ağırlık 1
+- 2.5 Üst: toplam 291, bekleyen 161, başarı %52, düz getiri %-8, ağırlık 1
+- 3.5 Üst: toplam 73, bekleyen 31, başarı %50, düz getiri %-1, ağırlık 1
+- MS 1: toplam 731, bekleyen 514, başarı %49, düz getiri %-20, ağırlık 0.94
+- KG Yok: toplam 165, bekleyen 89, başarı %41, düz getiri %-29, ağırlık 1
+- MS X: toplam 22, bekleyen 13, başarı %33, düz getiri %-15, ağırlık 1
+- İY KG / 2Y KG Hayır / Hayır: toplam 33, bekleyen 33, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İkinci Yarı KG Yok: toplam 26, bekleyen 26, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- İY KG / 2Y KG Hayır / Hayır: toplam 28, bekleyen 28, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İlk Yarı KG Yok: toplam 12, bekleyen 12, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İlk Yarı KG Var: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-23 | Kolombiya Primera A Clausura | America De Cal - Rionegro Aguila | MS 1 | pending | 50/100
-- 2026-09-23 | El Salvador Primera Lig Apertura | Firpo - Cacahuatique | KG Var | pending | 72/100
+- 2026-09-23 | Kanada Premier Lig | Vancouver Fc - Inter Toronto | MS 1 | pending | 45/100
+- 2026-09-23 | El Salvador Primera Lig Apertura | Firpo - Cacahuatique | KG Var | pending | 73/100
 - 2026-09-23 | El Salvador Primera Lig Apertura | Alianza - Fuerte San Fran | 2.5 Üst | pending | 71/100
 - 2026-09-23 | ABD MLS | Seattle - Salt Lake | MS 1 | pending | 61/100
 - 2026-09-23 | Guatemala Ulusal Lig Apertura | Xelaju - Antigua Guatema | MS 1 | pending | 49/100
-- 2026-09-23 | Kanada Premier Lig | Vancouver Fc - Inter Toronto | MS 1 | pending | 45/100
-- 2026-09-23 | Şili Kupa Son 16 Turu | Iquique - Antofagasta | 2.5 Alt | pending | 49/100
-- 2026-09-23 | Uruguay Kupa Ön Eleme Turu Grup 3 | Cerro - Deportivo Maldo | 2.5 Alt | pending | 63/100
-- 2026-09-23 | Şili Kupa Son 16 Turu | Union La Caler - Univ. Catolica | 2.5 Alt | pending | 57/100
+- 2026-09-23 | Kolombiya Primera A Clausura | America De Cal - Rionegro Aguila | MS 1 | pending | 50/100
+- 2026-09-23 | Şili Kupa Son 16 Turu | Iquique - Antofagasta | 2.5 Alt | pending | 52/100
+- 2026-09-23 | Uruguay Kupa Ön Eleme Turu Grup 3 | Cerro - Deportivo Maldo | 2.5 Alt | pending | 67/100
 - 2026-09-23 | Peru Premier Lig Clausura | Adt - Cienciano | MS 2 | pending | 63/100
-- 2026-09-23 | Şili Kupa Son 16 Turu | Curico - Concepcion | 2.5 Alt | pending | 53/100
-- 2026-09-23 | CONCACAF Uluslar Ligi Lig C Grup B | Aruba - Antiqua And Bar | 2.5 Alt | pending | 46/100
+- 2026-09-23 | Şili Kupa Son 16 Turu | Curico - Concepcion | 2.5 Alt | pending | 56/100
+- 2026-09-23 | CONCACAF Uluslar Ligi Lig C Grup B | Aruba - Antiqua And Bar | 2.5 Alt | pending | 49/100
 - 2026-09-23 | Uruguay Kupa Ön Eleme Turu Grup 3 | Montevideo Wan - Cerrito | MS 1 | pending | 48/100
-- 2026-09-23 | CONCACAF Uluslar Ligi Lig C Grup C | Bahamalar - Saint Martin | KG Yok | pending | 55/100
-- 2026-09-22 | Kolombiya Primera B, Kapanış | Atletico Fc - Tigres Fc | 2.5 Alt | won | 55/100
+- 2026-09-23 | İspanya Primera Lig RFEF Grup 2 | Sant Andreu - Real Madrid Ii | 2.5 Alt | pending | 55/100
+- 2026-09-23 | Paraguay Kupa Son 16 Turu | San Lorenzo (P - 4 De Mayo | 3.5 Üst | pending | 47/100
+- 2026-09-23 | Şili Kupa Son 16 Turu | Union La Caler - Univ. Catolica | 2.5 Üst | pending | 60/100
 
