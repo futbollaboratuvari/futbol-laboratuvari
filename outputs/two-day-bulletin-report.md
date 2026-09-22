@@ -2,20 +2,15 @@
 
 Gunler: 2026-09-22 / 2026-09-23
 Kaynak: fixtures.json
-Ham mac: 125
-Aktif mac: 107
+Ham mac: 107
+Aktif mac: 102
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 18
-Bugun: 97
+Bultenden dusurulen mac: 5
+Bugun: 92
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-09-22 13:00 | Asya Oyunları Grup D | Guney Kore U23 - Suudi Arabistan | scheduled | -
-- 2026-09-22 14:00 | Portekiz U23 Ulusal Şampiyona | Santa Clara U2 - Portimonense U2 | scheduled | -
-- 2026-09-22 15:00 | İngiltere Professional Development Lig | Wigan Athletic - Coventry City U | scheduled | -
-- 2026-09-22 15:00 | İngiltere Professional Development Lig | Charlton Athle - Sheffield Unite | scheduled | -
-- 2026-09-22 15:30 | İran Azadegan Ligi | Sanat Mes Kerm - Saipa | scheduled | -
 - 2026-09-22 17:30 | Romanya 2.Lig | Dumbravita - Csm Resita | scheduled | -
 - 2026-09-22 17:40 | Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur | Al Urooba - City Fc Dubai | scheduled | -
 - 2026-09-22 18:00 | İran Azadegan Ligi | Havadar - Besat Kermansha | scheduled | -
