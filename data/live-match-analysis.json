@@ -1,185 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T01:50:34.626Z",
+  "generated_at": "2026-09-22T07:41:17.454Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-22T01:50:34.417Z",
+  "source_generated_at": "2026-09-22T07:41:17.023Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 2,
-    "ready_count": 2,
+    "live_match_count": 0,
+    "ready_count": 0,
     "waiting_count": 0,
-    "result_lean_count": 1,
-    "next_goal_lean_count": 2,
+    "result_lean_count": 0,
+    "next_goal_lean_count": 0,
     "high_goal_pressure_count": 0
   },
-  "matches": [
-    {
-      "fixture_id": "401860350",
-      "status": "ready",
-      "minute": 60,
-      "score": {
-        "home": 2,
-        "away": 0
-      },
-      "home": "Cuiabá",
-      "away": "Náutico",
-      "league": "Brezilya Serie B",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-22T01:50:34.417Z",
-      "freshness_minutes": 0.0034833333333333335,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Ev sahibi yönü",
-        "confidence": 78
-      },
-      "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 90
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 28
-      },
-      "signals": [
-        "Team Power: Cuiabá %75 · Náutico %25.",
-        "Goal Power: Cuiabá %33 · Náutico %11.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": 50,
-        "goal_power_diff": 22,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 2,
-        "total_shots_diff": 15,
-        "corners_diff": 2,
-        "xg_diff": 0,
-        "direction_score": 82.7,
-        "next_goal_score": 45
-      }
-    },
-    {
-      "fixture_id": "401841582",
-      "status": "ready",
-      "minute": 76,
-      "score": {
-        "home": 2,
-        "away": 0
-      },
-      "home": "Lanús",
-      "away": "Estudiantes de La Plata",
-      "league": "Arjantin Premier Lig 2. Aşama",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-22T01:50:34.417Z",
-      "freshness_minutes": 0.0034833333333333335,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "next_goal",
-        "label": "Sonraki gol eğilimi: Deplasman",
-        "confidence": 72
-      },
-      "result_lean": {
-        "code": null,
-        "label": "Taraf için ayrışma yok",
-        "side": "neutral",
-        "strength": 52
-      },
-      "next_goal_lean": {
-        "code": "AWAY",
-        "label": "Sonraki gol eğilimi: Deplasman",
-        "side": "away",
-        "strength": 80.9
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 17
-      },
-      "signals": [
-        "Team Power: Lanús %40 · Estudiantes de La Plata %60.",
-        "Goal Power: Lanús %11 · Estudiantes de La Plata %20.",
-        "Maç yönü: Taraf için ayrışma yok. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": -20,
-        "goal_power_diff": -9,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": -2,
-        "total_shots_diff": -12,
-        "corners_diff": -5,
-        "xg_diff": 0,
-        "direction_score": 11,
-        "next_goal_score": -28.9
-      }
-    }
-  ]
+  "matches": []
 }
