@@ -1,13 +1,13 @@
 # Tahmin Olcum Saglik Kontrolu
 
 Durum: warning
-Toplam tahmin: 2651
-Olculen tahmin: 821
-Bekleyen tahmin: 1830
+Toplam tahmin: 2660
+Olculen tahmin: 826
+Bekleyen tahmin: 1834
 Kazanan: 419
-Kaybeden: 402
+Kaybeden: 407
 Skoru olup pending kalan: 19
-Eski pending tahmin: 1708
+Eski pending tahmin: 1705
 En eski pending tarihi: 2026-09-15
 Son finalizer kontrolu: 19
 Son finalizer guncelleme: 0

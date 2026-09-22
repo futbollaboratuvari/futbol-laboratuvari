@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-22 / 2026-09-23
 Kaynak: fixtures.json
-Ham mac: 114
-Aktif mac: 102
+Ham mac: 118
+Aktif mac: 100
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 12
-Bugun: 92
+Bultenden dusurulen mac: 18
+Bugun: 90
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-09-22 08:00 | Asya Oyunları Grup C | Vietnam U23 - Özbekistan U23 | scheduled | -
-- 2026-09-22 08:00 | Asya Oyunları Grup C | Filipinler U23 - Kuveyt U23 | scheduled | -
 - 2026-09-22 13:00 | Asya Oyunları Grup D | Guney Kore U23 - Suudi Arabistan | scheduled | -
 - 2026-09-22 14:00 | Portekiz U23 Ulusal Şampiyona | Santa Clara U2 - Portimonense U2 | scheduled | -
 - 2026-09-22 15:00 | İngiltere Professional Development Lig | Wigan Athletic - Coventry City U | scheduled | -
