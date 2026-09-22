@@ -3,63 +3,14 @@
 Gunler: 2026-09-22 / 2026-09-23
 Kaynak: fixtures.json
 Ham mac: 128
-Aktif mac: 105
+Aktif mac: 56
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 23
-Bugun: 95
+Bultenden dusurulen mac: 72
+Bugun: 46
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-09-22 17:30 | Romanya 2.Lig | Dumbravita - Csm Resita | scheduled | -
-- 2026-09-22 17:40 | Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur | Al Urooba - City Fc Dubai | scheduled | -
-- 2026-09-22 17:40 | Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur | Al Hamriyah - Al Thaid | scheduled | -
-- 2026-09-22 17:40 | Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur | Dubba Al Fujai - Al Ittifaq | scheduled | -
-- 2026-09-22 18:00 | İran Azadegan Ligi | Havadar - Besat Kermansha | scheduled | -
-- 2026-09-22 18:30 | Norveç 3.Lig Grup 5 | Skjetten - Skjervoy | scheduled | -
-- 2026-09-22 19:00 | Cezayir 1.Lig | Biskra - Js Saoura | scheduled | -
-- 2026-09-22 19:00 | İran Azadegan Ligi | Naft Masjed So - Nb Abbas | scheduled | -
-- 2026-09-22 19:00 | İran Azadegan Ligi | Naft Gachsaran - Ario Eslamshahr | scheduled | -
-- 2026-09-22 19:00 | Portekiz U23 Ulusal Şampiyona | Academico Vise - Estoril U23 | scheduled | -
-- 2026-09-22 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Inter Milano ( - Hacken (K) | scheduled | -
-- 2026-09-22 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Bayern München - Man City (K) | scheduled | -
-- 2026-09-22 20:00 | İngiltere Professional Development Lig | Bristol City U - Hull City U21 | scheduled | -
-- 2026-09-22 20:00 | Romanya 2.Lig | Asa Targu Mure - Cs Dinamo Bucur | scheduled | -
-- 2026-09-22 20:15 | Katar Yıldızlar Kupası Grup Aşaması | Mesaimeer - Al Waab | scheduled | -
-- 2026-09-22 20:15 | Katar Yıldızlar Kupası Grup Aşaması | Al Muaidar - Al Khor | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Kuzey Grup A | Accrington - Sunderland (B) | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Kuzey Grup A | Salford City - Sheffield Wed | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Kuzey Grup B | Wigan - Blackpool | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Kuzey Grup B | Crewe - Aston Villa U21 | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Kuzey Grup C | York - Rotherham | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Kuzey Grup D | Chesterfield - Port Vale | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Kuzey Grup E | Tranmere - Shrewsbury | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Kuzey Grup F | Burton Albion - Nottingham Fore | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Kuzey Grup F | Notts County - Grimsby | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Kuzey Grup G | Barnsley - Leeds United U2 | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Kuzey Grup G | Oldham - Fleetwood Town | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Kuzey Grup H | Rochdale - Liverpool U21 | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Güney Grup A | Cheltenham - Exeter | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Güney Grup B | Walsall - Stevenage | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Güney Grup B | Leicester - Fulham (B) | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Güney Grup D | Luton - Ipswich Town U2 | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Güney Grup D | Peterborough - Colchester | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Güney Grup E | Plymouth - Crystal Palace | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Güney Grup E | Swindon - Newport County | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Güney Grup G | Gillingham - Cambridge | scheduled | -
-- 2026-09-22 21:00 | İngiltere EFL Trophy Güney Grup H | Mk Dons - Crawley | scheduled | -
-- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Rkav Volendam - Sv Spakenburg | scheduled | -
-- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Koninklijke Hf - Dovo Veenendaal | scheduled | -
-- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Hhc - Bvv Barendrecht | scheduled | -
-- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Sportlust 46 - Excelsior Maass | scheduled | -
-- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Groene Ster - Afc Amsterdamsc | scheduled | -
-- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Acv - Hoogeveen | scheduled | -
-- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Eemdijk - Roosendaal | scheduled | -
-- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Rijnvogels - Vvsb | scheduled | -
-- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Staphorst - Genemuiden | scheduled | -
-- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Evv - Halsteren | scheduled | -
-- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Excelsior 31 - Afc 34 | scheduled | -
-- 2026-09-22 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Gvvv - Dvs 33 Ermelo | scheduled | -
 - 2026-09-22 21:30 | İngiltere EFL Trophy Kuzey Grup C | Bradford - Newcastle (B) | scheduled | -
 - 2026-09-22 21:30 | İngiltere EFL Trophy Güney Grup H | Bromley - Brentford U21 | scheduled | -
 - 2026-09-22 21:45 | İskoçya Challenge Kupası Lig Aşaması | Bonnyrigg Rose - Airdrieonians | scheduled | -

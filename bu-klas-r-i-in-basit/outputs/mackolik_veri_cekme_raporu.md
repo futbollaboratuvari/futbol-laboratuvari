@@ -1,48 +1,27 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-22T14:14:36.724393+00:00
+Tarih: 2026-09-22T18:08:48.310734+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 95
+- Kac mac bulundu: 46
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 95
+- Kac mac zaten vardi: 46
 - Ham veri havuzu toplam mac sayisi: 16506
 - Hedef tarih: 22.09.2026 Europe/Istanbul
 
 ## Ligler
 
-- Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur
-- Cezayir 1.Lig
-- Hollanda KNVB Kupası 2. Ön Eleme Turu
-- Katar Yıldızlar Kupası Grup Aşaması
-- Norveç 3.Lig Grup 5
-- Portekiz U23 Ulusal Şampiyona
-- Romanya 2.Lig
 - UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması
-- İngiltere EFL Trophy Güney Grup A
-- İngiltere EFL Trophy Güney Grup B
-- İngiltere EFL Trophy Güney Grup D
-- İngiltere EFL Trophy Güney Grup E
-- İngiltere EFL Trophy Güney Grup G
 - İngiltere EFL Trophy Güney Grup H
-- İngiltere EFL Trophy Kuzey Grup A
-- İngiltere EFL Trophy Kuzey Grup B
 - İngiltere EFL Trophy Kuzey Grup C
-- İngiltere EFL Trophy Kuzey Grup D
-- İngiltere EFL Trophy Kuzey Grup E
-- İngiltere EFL Trophy Kuzey Grup F
-- İngiltere EFL Trophy Kuzey Grup G
-- İngiltere EFL Trophy Kuzey Grup H
 - İngiltere FA Cup Eleme 2.Tur Tekrar
 - İngiltere Non League Premier Güney
 - İngiltere Non League Premier Güney Merkez
 - İngiltere Non League Premier Isthmian
 - İngiltere Non League Premier Kuzey
-- İngiltere Professional Development Lig
-- İran Azadegan Ligi
 - İskoçya Challenge Kupası Lig Aşaması
 
 ## Okunabilen Oran Alanlari
@@ -100,8 +79,8 @@ Tarih: 2026-09-22T14:14:36.724393+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 36
-- Acilan detay: 36
+- Denenen Tumu alani: 15
+- Acilan detay: 15
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -114,26 +93,26 @@ Tarih: 2026-09-22T14:14:36.724393+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Real Madrid (K | Psg (K) | 17443 | 5 |
-| 22.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Bayern München | Man City (K) | 13782 | 5 |
-| 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Juventus (K) | Benfica (K) | 17396 | 5 |
-| 22.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Inter Milano ( | Hacken (K) | 17145 | 5 |
 | 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Arsenal (K) | Koge (K) | 17297 | 4 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup A | Salford City | Sheffield Wed | 14525 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup A | Accrington | Sunderland (B) | 12961 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup B | Crewe | Aston Villa U21 | 13222 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup B | Wigan | Blackpool | 15083 | 5 |
+| 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Real Madrid (K | Psg (K) | 17443 | 5 |
+| 22.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Juventus (K) | Benfica (K) | 17396 | 5 |
 | 22.09.2026 | 21:30 | İngiltere EFL Trophy Kuzey Grup C | Bradford | Newcastle (B) | 15300 | 4 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup C | York | Rotherham | 15186 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup D | Chesterfield | Port Vale | 13171 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup E | Tranmere | Shrewsbury | 14890 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup F | Notts County | Grimsby | 13474 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup F | Burton Albion | Nottingham Fore | 13061 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup G | Barnsley | Leeds United U2 | 13011 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup G | Oldham | Fleetwood Town | 13518 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup H | Rochdale | Liverpool U21 | 13761 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Güney Grup A | Cheltenham | Exeter | 13129 | 5 |
-| 22.09.2026 | 21:00 | İngiltere EFL Trophy Güney Grup B | Walsall | Stevenage | 15012 | 5 |
+| 22.09.2026 | 21:30 | İngiltere EFL Trophy Güney Grup H | Bromley | Brentford U21 | 15402 | 5 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Alloa | Hibernian Ii | 04714 | 2 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clyde | Rangers Ii | 16242 | 3 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton | Kilmarnock Ii | 20262 | 3 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Queen Of South | Annan | 16468 | 5 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Formartine Uni | Montrose | 16390 | 5 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clachnacuddin | Ross County | 16198 | 2 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts | Hearts Ii | 16442 | 3 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Elgin | Dundee Ii | 16343 | 2 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | East Kilbride | Celtic Ii | 16228 | 3 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Edinburg C. | Dundee United I | 16289 | 2 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Stirling Albio | Cumbernauld Col | 16490 | 3 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Banks O Dee | Aberdeen Ii | 04759 | 5 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clydebank Fc | St. Mirren Ii | 16244 | 3 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Gala Fairydean | Spartans | 16425 | 3 |
+| 22.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Berwick | Stranraer | 04729 | 3 |
 
 ## Sonuc
 
