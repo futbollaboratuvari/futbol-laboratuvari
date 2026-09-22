@@ -9,7 +9,7 @@ Kaybeden: 402
 Skoru olup pending kalan: 19
 Eski pending tahmin: 1708
 En eski pending tarihi: 2026-09-15
-Son finalizer kontrolu: 22
-Son finalizer guncelleme: 3
+Son finalizer kontrolu: 19
+Son finalizer guncelleme: 0
 
 Sonraki aksiyon: Eski pending tahminler final skor koprusuyle baglanip finalizer tarafindan olculmeli.
