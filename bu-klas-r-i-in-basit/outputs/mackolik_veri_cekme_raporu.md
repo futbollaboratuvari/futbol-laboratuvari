@@ -1,31 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-23T17:46:01.645691+00:00
+Tarih: 2026-09-23T20:44:19.055004+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 17
+- Kac mac bulundu: 1
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 17
+- Kac mac zaten vardi: 1
 - Ham veri havuzu toplam mac sayisi: 16574
 - Hedef tarih: 23.09.2026 Europe/Istanbul
 
 ## Ligler
 
 - Arjantin Kadınlar Primera A 2. Aşama
-- CONCACAF Uluslar Ligi Lig C Grup A
-- Hollanda KNVB Kupası 2. Ön Eleme Turu
-- Körfez Kupası Grup A
-- Paraguay Kupa Son 16 Turu
-- Peru Premier Lig Clausura
-- UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması
-- Uruguay Kupa Ön Eleme Turu Grup 6
-- İngiltere Ulusal Lig Kupası Grup C
-- İskoçya Challenge Kupası Lig Aşaması
-- İspanya Federasyon Kupası Son 16 Turu
-- İspanya Primera Lig RFEF Grup 2
 
 ## Okunabilen Oran Alanlari
 
@@ -82,8 +71,8 @@ Tarih: 2026-09-23T17:46:01.645691+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 21
-- Acilan detay: 21
+- Denenen Tumu alani: 10
+- Acilan detay: 10
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -96,23 +85,7 @@ Tarih: 2026-09-23T17:46:01.645691+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 23.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Chelsea (K) | Austria Wien (K | 17562 | 4 |
-| 23.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Barcelona (K) | Paris (K) | 17473 | 4 |
-| 23.09.2026 | 22:00 | CONCACAF Uluslar Ligi Lig C Grup A | Turks Ve Caico | Montserrat | 09649 | 2 |
-| 23.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Hamilton | Cowdenbeath | 16510 | 2 |
-| 23.09.2026 | 21:00 | Körfez Kupası Grup A | Suudi Arabista | Kuveyt | 03450 | 5 |
-| 23.09.2026 | 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Zwaluwen Vlaar | Purmersteijn | 13458 | 3 |
-| 23.09.2026 | 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Ijsselmeervoge | Gemert | 13453 | 3 |
-| 23.09.2026 | 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Sparta Nijkerk | Udi 19 | 13456 | 3 |
-| 23.09.2026 | 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Jos Watergraaf | Tec | 13455 | 3 |
-| 23.09.2026 | 23:00 | Peru Premier Lig Clausura | Adt | Cienciano | 18514 | 5 |
-| 23.09.2026 | 22:00 | İspanya Primera Lig RFEF Grup 2 | Sant Andreu | Real Madrid Ii | 18440 | 5 |
-| 23.09.2026 | 21:00 | İspanya Federasyon Kupası Son 16 Turu | Saguntino | Navalcarnero | 03065 | 5 |
-| 23.09.2026 | 21:30 | Uruguay Kupa Ön Eleme Turu Grup 6 | Liverpool Mont | Colon | 13459 | 5 |
-| 23.09.2026 | 21:30 | Uruguay Kupa Ön Eleme Turu Grup 6 | Boston River | Atl Fenix | 06988 | 5 |
-| 23.09.2026 | 21:00 | İngiltere Ulusal Lig Kupası Grup C | Boreham Wood | Everton (B) | 08671 | 2 |
 | 23.09.2026 | 21:00 | Arjantin Kadınlar Primera A 2. Aşama | Lanus (K) | River Plate (K) | 14966 | 5 |
-| 23.09.2026 | 22:00 | Paraguay Kupa Son 16 Turu | San Lorenzo (P | 4 De Mayo | 15962 | 2 |
 
 ## Sonuc
 

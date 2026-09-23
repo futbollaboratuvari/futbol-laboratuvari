@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 31
+- Scheduled match count: 13
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-23 / 2026-09-24 23:59
 
-- 2026-09-23 21:00 | Lanus (K) - River Plate (K) | scheduled
-- 2026-09-23 21:00 | Ijsselmeervoge - Gemert | scheduled
-- 2026-09-23 21:00 | Jos Watergraaf - Tec | scheduled
-- 2026-09-23 21:00 | Sparta Nijkerk - Udi 19 | scheduled
-- 2026-09-23 21:00 | Zwaluwen Vlaar - Purmersteijn | scheduled
-- 2026-09-23 21:00 | Boreham Wood - Everton (B) | scheduled
-- 2026-09-23 21:00 | Saguntino - Navalcarnero | scheduled
-- 2026-09-23 21:00 | Suudi Arabista - Kuveyt | scheduled
-- 2026-09-23 21:30 | Boston River - Atl Fenix | scheduled
-- 2026-09-23 21:30 | Liverpool Mont - Colon | scheduled
+- 2026-09-24 00:00 | Curico - Concepcion | scheduled
+- 2026-09-24 00:30 | Fernando De La - Libertad | scheduled
+- 2026-09-24 02:00 | Aruba - Antiqua And Bar | scheduled
+- 2026-09-24 02:00 | Cerro - Deportivo Maldo | scheduled
+- 2026-09-24 02:00 | Montevideo Wan - Cerrito | scheduled
+- 2026-09-24 02:30 | Iquique - Antofagasta | scheduled
+- 2026-09-24 02:30 | Union La Caler - Univ. Catolica | scheduled
+- 2026-09-24 03:30 | America De Cal - Rionegro Aguila | scheduled
+- 2026-09-24 04:00 | Alianza - Fuerte San Fran | scheduled
+- 2026-09-24 04:00 | Firpo - Cacahuatique | scheduled
