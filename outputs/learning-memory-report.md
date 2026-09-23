@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.09.2026 02:47:37
+Oluşturma: 23.09.2026 03:45:01
 
 ## Özet
 
 - Toplam tahmin: 2797
-- Bekleyen tahmin: 1894
-- Kazanan tahmin: 464
+- Bekleyen tahmin: 1892
+- Kazanan tahmin: 466
 - Kaybeden tahmin: 439
 - Lig sayısı: 395
 - Seçenek sayısı: 13
@@ -24,7 +24,7 @@ Oluşturma: 23.09.2026 02:47:37
 
 - KG Var: toplam 191, bekleyen 102, başarı %56, düz getiri %-1, ağırlık 1
 - MS 2: toplam 389, bekleyen 305, başarı %56, düz getiri %1, ağırlık 1
-- 2.5 Alt: toplam 827, bekleyen 571, başarı %54, düz getiri %-11, ağırlık 1
+- 2.5 Alt: toplam 827, bekleyen 569, başarı %54, düz getiri %-10, ağırlık 1
 - 2.5 Üst: toplam 291, bekleyen 161, başarı %52, düz getiri %-8, ağırlık 1
 - 3.5 Üst: toplam 73, bekleyen 31, başarı %50, düz getiri %-1, ağırlık 1
 - MS 1: toplam 731, bekleyen 514, başarı %49, düz getiri %-20, ağırlık 0.94
@@ -45,11 +45,11 @@ Oluşturma: 23.09.2026 02:47:37
 - 2026-09-23 | Kolombiya Primera A Clausura | America De Cal - Rionegro Aguila | MS 1 | pending | 50/100
 - 2026-09-23 | Şili Kupa Son 16 Turu | Iquique - Antofagasta | 2.5 Alt | pending | 52/100
 - 2026-09-23 | Uruguay Kupa Ön Eleme Turu Grup 3 | Cerro - Deportivo Maldo | 2.5 Alt | pending | 67/100
-- 2026-09-23 | Peru Premier Lig Clausura | Adt - Cienciano | MS 2 | pending | 63/100
-- 2026-09-23 | Şili Kupa Son 16 Turu | Curico - Concepcion | 2.5 Alt | pending | 56/100
 - 2026-09-23 | CONCACAF Uluslar Ligi Lig C Grup B | Aruba - Antiqua And Bar | 2.5 Alt | pending | 49/100
 - 2026-09-23 | Uruguay Kupa Ön Eleme Turu Grup 3 | Montevideo Wan - Cerrito | MS 1 | pending | 48/100
+- 2026-09-23 | Şili Kupa Son 16 Turu | Union La Caler - Univ. Catolica | 2.5 Üst | pending | 60/100
+- 2026-09-23 | Peru Premier Lig Clausura | Adt - Cienciano | MS 2 | pending | 63/100
+- 2026-09-23 | Şili Kupa Son 16 Turu | Curico - Concepcion | 2.5 Alt | pending | 56/100
 - 2026-09-23 | İspanya Primera Lig RFEF Grup 2 | Sant Andreu - Real Madrid Ii | 2.5 Alt | pending | 55/100
 - 2026-09-23 | Paraguay Kupa Son 16 Turu | San Lorenzo (P - 4 De Mayo | 3.5 Üst | pending | 47/100
-- 2026-09-23 | Şili Kupa Son 16 Turu | Union La Caler - Univ. Catolica | 2.5 Üst | pending | 60/100
 
