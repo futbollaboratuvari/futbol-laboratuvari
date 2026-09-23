@@ -2,19 +2,15 @@
 
 Gunler: 2026-09-23 / 2026-09-24
 Kaynak: fixtures.json
-Ham mac: 75
-Aktif mac: 65
+Ham mac: 66
+Aktif mac: 61
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 52
+Bultenden dusurulen mac: 5
+Bugun: 48
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-23 08:00 | Japonya Kadınlar Lig Kupası Grup Aşaması | Nojima Stella - Elfen Saitama ( | scheduled | -
-- 2026-09-23 08:00 | Japonya Kadınlar Lig Kupası Grup Aşaması | Ntv Beleza (K) - Albirex Niigata | scheduled | -
-- 2026-09-23 08:30 | Asya Oyunları Grup B | İran U23 - Kuzey Kore U23 | scheduled | -
-- 2026-09-23 08:30 | Asya Oyunları Grup B | Çin U23 - Birleşik Arap E | scheduled | -
 - 2026-09-23 10:00 | Japonya Kadınlar Lig Kupası Grup Aşaması | Jef United (K) - Inac Kobe Leone | scheduled | -
 - 2026-09-23 10:00 | Japonya Kadınlar Lig Kupası Grup Aşaması | Omiya (K) - Mynavi Sendai ( | scheduled | -
 - 2026-09-23 10:00 | Japonya Kadınlar Lig Kupası Grup Aşaması | Urawa Red (K) - Parceiro Nagano | scheduled | -

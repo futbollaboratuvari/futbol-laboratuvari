@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-09-23T01:54:47.724Z",
+  "generated_at": "2026-09-23T06:09:22.625Z",
   "date": "2026-09-23",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
   "completed_items": [
+    {
+      "id": "2026-09-23|kolombiya primera a clausura|santa fe deportivo cali|2 5 ust|04 00",
+      "date": "2026-09-23",
+      "time": "04:00",
+      "title": "Santa Fe - Deportivo Cali",
+      "match": "Santa Fe - Deportivo Cali",
+      "market": "2.5 Üst",
+      "prediction": "2.5 Üst",
+      "odds": "2.00",
+      "score": "0-1",
+      "result_score": "0-1",
+      "confidence": "70%",
+      "confidence_score": "70%",
+      "model_score": 70,
+      "estimated_probability": 45.5,
+      "market_probability": 40.8,
+      "edge_percent": 4.6,
+      "data_completeness": 70,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "lost",
+      "result": "lost",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-23T06:09:22.398Z",
+      "source": "Robot ham veri havuzu"
+    },
     {
       "id": "2026-09-23|sili kupa son 16 turu|cobreloa coquimbo unido|2 5 alt|02 30",
       "date": "2026-09-23",
@@ -786,47 +813,20 @@
       "market_group_label": "Maç Sonucu",
       "finalized_at": "2026-09-22T21:26:46.943Z",
       "source": "iddaa.com resmi futbol bülteni"
-    },
-    {
-      "id": "2026-09-22|iskocya challenge kupasi lig asamasi|forfar peterhead|2 5 alt|21 45",
-      "date": "2026-09-22",
-      "time": "21:45",
-      "title": "Forfar - Peterhead",
-      "match": "Forfar - Peterhead",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "odds": "1.91",
-      "score": "0-2",
-      "result_score": "0-2",
-      "confidence": "51%",
-      "confidence_score": "51%",
-      "model_score": 51,
-      "estimated_probability": 45.5,
-      "market_probability": 44.5,
-      "edge_percent": 1,
-      "data_completeness": 43,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "goals",
-      "market_group_label": "Gol Marketleri",
-      "finalized_at": "2026-09-22T21:26:46.943Z",
-      "source": "iddaa.com resmi futbol bülteni"
     }
   ],
   "performance": {
     "prediction_count": 2799,
-    "measured_count": 915,
-    "pending_count": 1884,
+    "measured_count": 917,
+    "pending_count": 1882,
     "won_count": 472,
-    "lost_count": 443,
+    "lost_count": 445,
     "void_count": 0,
-    "success_rate": 52,
-    "probability_sample_count": 915,
-    "brier_score": 0.2417,
-    "baseline_brier_score": 0.2497,
-    "brier_skill_score": 0.0322,
+    "success_rate": 51,
+    "probability_sample_count": 917,
+    "brier_score": 0.2416,
+    "baseline_brier_score": 0.2498,
+    "brier_skill_score": 0.0326,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -848,10 +848,10 @@
       {
         "lower": 40,
         "upper": 49,
-        "predictions": 283,
+        "predictions": 285,
         "won": 129,
         "average_probability": 45.5,
-        "observed_rate": 45.6
+        "observed_rate": 45.3
       },
       {
         "lower": 50,
@@ -894,14 +894,14 @@
         "observed_rate": 100
       }
     ],
-    "verified_at": "2026-09-23T01:28:45.954Z",
+    "verified_at": "2026-09-23T06:09:22.398Z",
     "groups": [
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 438,
+        "measured": 440,
         "won": 234,
-        "lost": 204,
+        "lost": 206,
         "success_rate": 53
       },
       {

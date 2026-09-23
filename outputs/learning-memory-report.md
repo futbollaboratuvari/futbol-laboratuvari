@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.09.2026 04:54:11
+Oluşturma: 23.09.2026 09:08:38
 
 ## Özet
 
@@ -38,18 +38,18 @@ Oluşturma: 23.09.2026 04:54:11
 ## Son Tahmin Kayıtları
 
 - 2026-09-23 | Kanada Premier Lig | Vancouver Fc - Inter Toronto | MS 1 | pending | 45/100
-- 2026-09-23 | El Salvador Primera Lig Apertura | Firpo - Cacahuatique | KG Var | pending | 73/100
-- 2026-09-23 | El Salvador Primera Lig Apertura | Alianza - Fuerte San Fran | 2.5 Üst | pending | 72/100
 - 2026-09-23 | ABD MLS | Seattle - Salt Lake | MS 1 | pending | 61/100
 - 2026-09-23 | Guatemala Ulusal Lig Apertura | Xelaju - Antigua Guatema | MS 1 | pending | 49/100
+- 2026-09-23 | El Salvador Primera Lig Apertura | Firpo - Cacahuatique | KG Var | pending | 73/100
+- 2026-09-23 | El Salvador Primera Lig Apertura | Alianza - Fuerte San Fran | 2.5 Üst | pending | 72/100
 - 2026-09-23 | Kolombiya Primera A Clausura | America De Cal - Rionegro Aguila | MS 1 | pending | 50/100
 - 2026-09-23 | Şili Kupa Son 16 Turu | Iquique - Antofagasta | 2.5 Alt | pending | 52/100
 - 2026-09-23 | Uruguay Kupa Ön Eleme Turu Grup 3 | Cerro - Deportivo Maldo | 2.5 Alt | pending | 67/100
 - 2026-09-23 | CONCACAF Uluslar Ligi Lig C Grup B | Aruba - Antiqua And Bar | 2.5 Alt | pending | 49/100
 - 2026-09-23 | Şili Kupa Son 16 Turu | Union La Caler - Univ. Catolica | 2.5 Üst | pending | 60/100
+- 2026-09-23 | Uruguay Kupa Ön Eleme Turu Grup 3 | Montevideo Wan - Cerrito | 2.5 Alt | pending | 55/100
 - 2026-09-23 | Peru Premier Lig Clausura | Adt - Cienciano | MS 2 | pending | 63/100
 - 2026-09-23 | Şili Kupa Son 16 Turu | Curico - Concepcion | 2.5 Alt | pending | 56/100
 - 2026-09-23 | İspanya Primera Lig RFEF Grup 2 | Sant Andreu - Real Madrid Ii | 2.5 Alt | pending | 55/100
 - 2026-09-23 | Paraguay Kupa Son 16 Turu | San Lorenzo (P - 4 De Mayo | 3.5 Üst | pending | 47/100
-- 2026-09-23 | Uruguay Kupa Ön Eleme Turu Grup 6 | Liverpool Mont - Colon | MS 1 | pending | 51/100
 

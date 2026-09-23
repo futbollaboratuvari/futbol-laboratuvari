@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 69
-Tam analiz: 62
+Toplam analiz: 66
+Tam analiz: 59
 Eksik analiz: 7
 
 - Kashima VS Kofu: eksik score, confidence
