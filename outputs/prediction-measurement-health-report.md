@@ -7,7 +7,7 @@ Bekleyen tahmin: 1903
 Kazanan: 482
 Kaybeden: 449
 Skoru olup pending kalan: 36
-Eski pending tahmin: 1811
+Eski pending tahmin: 1903
 En eski pending tarihi: 2026-09-15
 Son finalizer kontrolu: 36
 Son finalizer guncelleme: 0
