@@ -1,103 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T01:45:51.335Z",
+  "generated_at": "2026-09-23T07:43:35.665Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-23T01:45:50.934Z",
+  "source_generated_at": "2026-09-23T07:43:35.414Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 1,
-    "ready_count": 1,
+    "live_match_count": 0,
+    "ready_count": 0,
     "waiting_count": 0,
-    "result_lean_count": 1,
-    "next_goal_lean_count": 1,
+    "result_lean_count": 0,
+    "next_goal_lean_count": 0,
     "high_goal_pressure_count": 0
   },
-  "matches": [
-    {
-      "fixture_id": "401877961",
-      "status": "ready",
-      "minute": 45,
-      "score": {
-        "home": 0,
-        "away": 1
-      },
-      "home": "Independiente Santa Fe",
-      "away": "Deportivo Cali",
-      "league": "Kolombiya Primera A Clausura",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-23T01:45:50.934Z",
-      "freshness_minutes": 0.006683333333333334,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 58,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Deplasman yönü",
-        "confidence": 81
-      },
-      "result_lean": {
-        "code": "2",
-        "label": "Deplasman yönü",
-        "side": "away",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "AWAY",
-        "label": "Sonraki gol eğilimi: Deplasman",
-        "side": "away",
-        "strength": 81.74000000000001
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 21
-      },
-      "signals": [
-        "Team Power: Independiente Santa Fe %31 · Deportivo Cali %69.",
-        "Goal Power: Independiente Santa Fe %10 · Deportivo Cali %25.",
-        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": -38,
-        "goal_power_diff": -15,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": -3,
-        "total_shots_diff": 0,
-        "corners_diff": -1,
-        "xg_diff": 0,
-        "direction_score": -47.24,
-        "next_goal_score": -29.74
-      }
-    }
-  ]
+  "matches": []
 }
