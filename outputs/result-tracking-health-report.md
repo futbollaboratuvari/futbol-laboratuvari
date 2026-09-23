@@ -6,8 +6,8 @@ Arsiv maci: 16481
 Biten mac: 16416
 Skorlu arsiv maci: 2427
 Tahmin sayisi: 2799
-Bekleyen tahmin: 1884
-Eski pending tahmin: 1812
+Bekleyen tahmin: 1882
+Eski pending tahmin: 1811
 En eski pending tarihi: 2026-09-15
 Skor baglanan tahmin: 951
 Son kontrol: 1872
