@@ -3,34 +3,14 @@
 Gunler: 2026-09-23 / 2026-09-24
 Kaynak: fixtures.json
 Ham mac: 78
-Aktif mac: 51
+Aktif mac: 31
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 27
-Bugun: 38
+Bultenden dusurulen mac: 47
+Bugun: 18
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-23 16:00 | Kadınlar U20 Dünya Kupası Yarı Final | Italy U20 (K) - İspanya U20 (K) | scheduled | -
-- 2026-09-23 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Kladno - Banik Ostrava | scheduled | -
-- 2026-09-23 17:30 | Körfez Kupası Grup A | Irak - Umman | scheduled | -
-- 2026-09-23 17:40 | Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur | Al Jazira Al H - Gulf Heroes | scheduled | -
-- 2026-09-23 17:40 | Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur | Al Arabi - Emirates | scheduled | -
-- 2026-09-23 18:00 | Nijerya NPFL | Enyimba Inter - Sporting Lagos | scheduled | -
-- 2026-09-23 18:00 | Nijerya NPFL | Barau - Abia Warriors | scheduled | -
-- 2026-09-23 18:00 | Nijerya NPFL | Shooting Stars - Katsina United | scheduled | -
-- 2026-09-23 18:00 | Nijerya NPFL | Inter Lagos - Kano Pillars | scheduled | -
-- 2026-09-23 18:00 | Nijerya NPFL | Enugu Rangers - Ranchers Bees | scheduled | -
-- 2026-09-23 18:00 | Gana Premier Lig | Dreams - Medeama | scheduled | -
-- 2026-09-23 18:00 | Nijerya NPFL | Niger Tornadoe - Warri Wolves | scheduled | -
-- 2026-09-23 19:00 | Hazırlık Ülkeler | Cebelitarik - Sao Tome | scheduled | -
-- 2026-09-23 19:00 | Hazırlık Ülkeler | Azerbaycan - Tacikistan | scheduled | -
-- 2026-09-23 19:00 | Norveç NM Kupası 2.Tur | Grorud Il - Moss | scheduled | -
-- 2026-09-23 19:00 | Kuzey Makedonya 1.Lig | Bregalnica Sti - Fk Skopje | scheduled | -
-- 2026-09-23 19:00 | ABD USL | Birmingham Leg - Brooklyn | scheduled | -
-- 2026-09-23 19:30 | Kadınlar U20 Dünya Kupası Yarı Final | Kuzey Kore U20 - Kolombiya U20 ( | scheduled | -
-- 2026-09-23 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Oh Leuven (K) - Roma (K) | scheduled | -
-- 2026-09-23 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Servette Cheno - Lyon (K) | scheduled | -
 - 2026-09-23 21:00 | Körfez Kupası Grup A | Suudi Arabista - Kuveyt | scheduled | -
 - 2026-09-23 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Ijsselmeervoge - Gemert | scheduled | -
 - 2026-09-23 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Sparta Nijkerk - Udi 19 | scheduled | -
