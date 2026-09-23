@@ -1,57 +1,10 @@
 {
   "schema_version": 1,
   "version": "pre-match-final-check-v1",
-  "generated_at": "2026-09-22T23:46:27.653Z",
+  "generated_at": "2026-09-23T01:53:04.549Z",
   "policy": "T60/T30/T10 kontrolü yalnız doğrulanmış isimli market oranı, kadro/ilk 11 ve kaynak uzlaşısını kullanır. Tahmini raw market kullanılmaz. Olasılık yüzdesi doğrudan değiştirilmez; yalnız risk, model gücü ve kupon uygunluğu frenlenir.",
-  "active_match_count": 1,
+  "active_match_count": 0,
   "blocked_match_count": 0,
-  "downgraded_match_count": 1,
-  "matches": [
-    {
-      "match_name": "Santa Fe VS Deportivo Cali",
-      "home": "Santa Fe",
-      "away": "Deportivo Cali",
-      "date": "2026-09-23",
-      "start_time": "04:00",
-      "minutes_to_kickoff": 73.5,
-      "checkpoint": "T60",
-      "active": true,
-      "tracked_market": null,
-      "tracked_market_key": null,
-      "current_odd": null,
-      "current_odd_source": null,
-      "lineup_risk_level": "Belirsiz",
-      "both_lineups_confirmed": false,
-      "lineup_freshness_minutes": 0.1,
-      "consensus_freshness_minutes": 0.1,
-      "news_context_freshness_minutes": 141.4,
-      "source_conflict_level": "none",
-      "source_confidence_score": 5,
-      "general_decision": "downgrade",
-      "market_decision": "keep",
-      "decision": "downgrade",
-      "general_score_penalty": 4,
-      "market_score_penalty": 0,
-      "market_severe_adverse": false,
-      "relative_odd_change_percent": null,
-      "reasons": [
-        "Son kontrol: kaynak güven puanı düşük (5/100).",
-        "Karşılaştırılabilir doğrulanmış market snapshot'ı yok."
-      ],
-      "snapshots": {
-        "T60": {
-          "checkpoint": "T60",
-          "captured_at": "2026-09-22T23:46:27.653Z",
-          "tracked_market": null,
-          "tracked_market_key": null,
-          "odd": null,
-          "odd_source": null,
-          "lineup_risk_level": "Belirsiz",
-          "both_lineups_confirmed": false,
-          "source_conflict_level": "none",
-          "source_confidence_score": 5
-        }
-      }
-    }
-  ]
+  "downgraded_match_count": 0,
+  "matches": []
 }

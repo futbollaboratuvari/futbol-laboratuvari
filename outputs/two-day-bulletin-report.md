@@ -2,16 +2,15 @@
 
 Gunler: 2026-09-23 / 2026-09-24
 Kaynak: fixtures.json
-Ham mac: 69
-Aktif mac: 66
+Ham mac: 75
+Aktif mac: 65
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 53
+Bultenden dusurulen mac: 10
+Bugun: 52
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-23 04:00 | Kolombiya Primera A Clausura | Santa Fe - Deportivo Cali | scheduled | -
 - 2026-09-23 08:00 | Japonya Kadınlar Lig Kupası Grup Aşaması | Nojima Stella - Elfen Saitama ( | scheduled | -
 - 2026-09-23 08:00 | Japonya Kadınlar Lig Kupası Grup Aşaması | Ntv Beleza (K) - Albirex Niigata | scheduled | -
 - 2026-09-23 08:30 | Asya Oyunları Grup B | İran U23 - Kuzey Kore U23 | scheduled | -
