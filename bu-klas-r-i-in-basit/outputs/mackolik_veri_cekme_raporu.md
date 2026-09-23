@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-23T01:52:40.327580+00:00
+Tarih: 2026-09-23T07:26:21.092298+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 52
+- Kac mac bulundu: 46
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 52
-- Ham veri havuzu toplam mac sayisi: 16571
+- Kac mac zaten vardi: 46
+- Ham veri havuzu toplam mac sayisi: 16572
 - Hedef tarih: 23.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -17,10 +17,10 @@ Tarih: 2026-09-23T01:52:40.327580+00:00
 - ABD USL
 - Arjantin Kadınlar Primera A 2. Aşama
 - Asya Oyunları Grup A
-- Asya Oyunları Grup B
 - Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur
 - CONCACAF Uluslar Ligi Lig C Grup A
 - CONCACAF Uluslar Ligi Lig C Grup C
+- Gana Premier Lig
 - Hazırlık Ülkeler
 - Hollanda KNVB Kupası 2. Ön Eleme Turu
 - Japonya Kadınlar Lig Kupası Grup Aşaması
@@ -112,23 +112,23 @@ Tarih: 2026-09-23T01:52:40.327580+00:00
 |---|---|---|---|---|---|---:|
 | 23.09.2026 | 22:00 | CONCACAF Uluslar Ligi Lig C Grup A | Turks Ve Caico | Montserrat | 09649 | 2 |
 | 23.09.2026 | 23:00 | CONCACAF Uluslar Ligi Lig C Grup C | Bahamalar | Saint Martin | 09690 | 2 |
-| 23.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Barcelona (K) | Paris (K) | 17473 | 4 |
-| 23.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Chelsea (K) | Austria Wien (K | 17562 | 4 |
 | 23.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Oh Leuven (K) | Roma (K) | 20267 | 5 |
+| 23.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Chelsea (K) | Austria Wien (K | 17562 | 4 |
 | 23.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Servette Cheno | Lyon (K) | 17445 | 2 |
+| 23.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Barcelona (K) | Paris (K) | 17473 | 4 |
 | 23.09.2026 | 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Kladno | Banik Ostrava | 18367 | 5 |
-| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kyoto Sanga | Fujieda | 09645 | 5 |
-| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kashiwa | Fc Imabari | 09644 | 4 |
-| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kashima | Kofu | 08906 | 5 |
-| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Vissel Kobe | Sagan Tosu | 09646 | 5 |
 | 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Gamba Osaka | Tokushima | 09643 | 5 |
 | 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Machida Zelvia | Tochigi City | 09641 | 5 |
+| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kyoto Sanga | Fujieda | 09645 | 5 |
+| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kashiwa | Fc Imabari | 09644 | 4 |
+| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kashima | Kofu | 08906 | 4 |
+| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Vissel Kobe | Sagan Tosu | 09646 | 5 |
 | 23.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Hamilton | Cowdenbeath | 16510 | 2 |
 | 23.09.2026 | 21:00 | Körfez Kupası Grup A | Suudi Arabista | Kuveyt | 03450 | 5 |
 | 23.09.2026 | 17:30 | Körfez Kupası Grup A | Irak | Umman | 05201 | 5 |
 | 23.09.2026 | 19:30 | Kadınlar U20 Dünya Kupası Yarı Final | Kuzey Kore U20 | Kolombiya U20 ( | 01501 | 4 |
 | 23.09.2026 | 16:00 | Kadınlar U20 Dünya Kupası Yarı Final | Italy U20 (K) | İspanya U20 (K) | 00211 | 5 |
-| 23.09.2026 | 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Ijsselmeervoge | Gemert | 13453 | 3 |
+| 23.09.2026 | 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Zwaluwen Vlaar | Purmersteijn | 13458 | 3 |
 | 23.09.2026 | 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Sparta Nijkerk | Udi 19 | 13456 | 3 |
 
 ## Sonuc

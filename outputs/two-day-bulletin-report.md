@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-23 / 2026-09-24
 Kaynak: fixtures.json
-Ham mac: 66
-Aktif mac: 61
+Ham mac: 76
+Aktif mac: 59
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 48
+Bultenden dusurulen mac: 17
+Bugun: 46
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-23 10:00 | Japonya Kadınlar Lig Kupası Grup Aşaması | Jef United (K) - Inac Kobe Leone | scheduled | -
-- 2026-09-23 10:00 | Japonya Kadınlar Lig Kupası Grup Aşaması | Omiya (K) - Mynavi Sendai ( | scheduled | -
-- 2026-09-23 10:00 | Japonya Kadınlar Lig Kupası Grup Aşaması | Urawa Red (K) - Parceiro Nagano | scheduled | -
 - 2026-09-23 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kyoto Sanga - Fujieda | scheduled | -
 - 2026-09-23 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kashiwa - Fc Imabari | scheduled | -
 - 2026-09-23 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kashima - Kofu | scheduled | -
@@ -33,6 +30,7 @@ Yarin: 13
 - 2026-09-23 18:00 | Nijerya NPFL | Shooting Stars - Katsina United | scheduled | -
 - 2026-09-23 18:00 | Nijerya NPFL | Inter Lagos - Kano Pillars | scheduled | -
 - 2026-09-23 18:00 | Nijerya NPFL | Enugu Rangers - Ranchers Bees | scheduled | -
+- 2026-09-23 18:00 | Gana Premier Lig | Dreams - Medeama | scheduled | -
 - 2026-09-23 19:00 | Hazırlık Ülkeler | Cebelitarik - Sao Tome | scheduled | -
 - 2026-09-23 19:00 | Hazırlık Ülkeler | Azerbaycan - Tacikistan | scheduled | -
 - 2026-09-23 19:00 | Norveç NM Kupası 2.Tur | Grorud Il - Moss | scheduled | -
