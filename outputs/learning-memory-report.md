@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.09.2026 23:45:32
+Oluşturma: 24.09.2026 02:15:49
 
 ## Özet
 
-- Toplam tahmin: 2834
-- Bekleyen tahmin: 1903
-- Kazanan tahmin: 482
-- Kaybeden tahmin: 449
-- Lig sayısı: 395
+- Toplam tahmin: 2904
+- Bekleyen tahmin: 1970
+- Kazanan tahmin: 483
+- Kaybeden tahmin: 451
+- Lig sayısı: 419
 - Seçenek sayısı: 13
 
 ## Öğrenme Mantığı
@@ -22,34 +22,34 @@ Oluşturma: 23.09.2026 23:45:32
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 390, bekleyen 305, başarı %55, düz getiri %0, ağırlık 1
-- 2.5 Alt: toplam 834, bekleyen 566, başarı %55, düz getiri %-9, ağırlık 1
+- MS 2: toplam 397, bekleyen 311, başarı %55, düz getiri %-2, ağırlık 1
+- 2.5 Alt: toplam 854, bekleyen 585, başarı %55, düz getiri %-9, ağırlık 1
 - KG Var: toplam 197, bekleyen 105, başarı %54, düz getiri %-4, ağırlık 1
-- 2.5 Üst: toplam 293, bekleyen 161, başarı %52, düz getiri %-9, ağırlık 1
-- 3.5 Üst: toplam 75, bekleyen 32, başarı %51, düz getiri %1, ağırlık 1
-- MS 1: toplam 735, bekleyen 516, başarı %50, düz getiri %-19, ağırlık 0.94
-- KG Yok: toplam 173, bekleyen 92, başarı %44, düz getiri %-24, ağırlık 1
+- 2.5 Üst: toplam 297, bekleyen 164, başarı %52, düz getiri %-9, ağırlık 1
+- 3.5 Üst: toplam 77, bekleyen 34, başarı %51, düz getiri %1, ağırlık 1
+- MS 1: toplam 750, bekleyen 531, başarı %50, düz getiri %-19, ağırlık 0.94
+- KG Yok: toplam 180, bekleyen 99, başarı %44, düz getiri %-24, ağırlık 1
 - MS X: toplam 22, bekleyen 11, başarı %27, düz getiri %-30, ağırlık 1
-- İY KG / 2Y KG Hayır / Hayır: toplam 35, bekleyen 35, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- İkinci Yarı KG Yok: toplam 31, bekleyen 31, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- İY KG / 2Y KG Hayır / Hayır: toplam 49, bekleyen 49, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- İkinci Yarı KG Yok: toplam 32, bekleyen 32, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İlk Yarı KG Yok: toplam 12, bekleyen 12, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İlk Yarı KG Var: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-23 | Guatemala Ulusal Lig Apertura | Xelaju - Antigua Guatema | MS 1 | pending | 49/100
-- 2026-09-23 | Kanada Premier Lig | Vancouver Fc - Inter Toronto | MS 2 | pending | 42/100
-- 2026-09-23 | ABD MLS | Seattle - Salt Lake | MS 1 | pending | 54/100
-- 2026-09-23 | El Salvador Primera Lig Apertura | Alianza - Fuerte San Fran | 2.5 Üst | pending | 73/100
-- 2026-09-23 | Kolombiya Primera A Clausura | America De Cal - Rionegro Aguila | MS 1 | pending | 54/100
-- 2026-09-23 | El Salvador Primera Lig Apertura | Firpo - Cacahuatique | 2.5 Üst | pending | 72/100
-- 2026-09-23 | Uruguay Kupa Ön Eleme Turu Grup 3 | Cerro - Deportivo Maldo | 2.5 Alt | pending | 66/100
-- 2026-09-23 | Uruguay Kupa Ön Eleme Turu Grup 3 | Montevideo Wan - Cerrito | 2.5 Alt | pending | 58/100
-- 2026-09-23 | Şili Kupa Son 16 Turu | Union La Caler - Univ. Catolica | 2.5 Alt | pending | 61/100
-- 2026-09-23 | CONCACAF Uluslar Ligi Lig C Grup B | Aruba - Antiqua And Bar | 2.5 Alt | pending | 49/100
-- 2026-09-23 | Paraguay Kupa Son 16 Turu | Fernando De La - Libertad | KG Yok | pending | 57/100
-- 2026-09-23 | Şili Kupa Son 16 Turu | Iquique - Antofagasta | 2.5 Alt | pending | 52/100
-- 2026-09-23 | Şili Kupa Son 16 Turu | Curico - Concepcion | 2.5 Üst | pending | 53/100
-- 2026-09-23 | Peru Premier Lig Clausura | Adt - Cienciano | MS 2 | pending | 65/100
-- 2026-09-23 | İspanya Primera Lig RFEF Grup 2 | Sant Andreu - Real Madrid Ii | 2.5 Alt | pending | 54/100
+- 2026-09-24 | Fas Botola Pro | Amal Tiznit - Ittihad Tanger | MS 2 | pending | 41/100
+- 2026-09-24 | Şili Kupa Son 16 Turu | O Higgins - Deportes Santa | MS 1 | pending | 52/100
+- 2026-09-24 | Şili Kupa Son 16 Turu | Everton De Vin - Univ. De Şili | 2.5 Alt | pending | 53/100
+- 2026-09-24 | Kolombiya Primera A Clausura | Atletico Nacio - Los Millionario | 2.5 Alt | pending | 55/100
+- 2026-09-24 | Meksika Ascenso MX Apertura | Alebrijes - Ca La Paz | MS 2 | pending | 62/100
+- 2026-09-24 | Meksika Ascenso MX Apertura | Zacatecas - Piratas | 2.5 Üst | pending | 69/100
+- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.C | Fildişi Sahili - Gana | MS 1 | pending | 49/100
+- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.E | Sierra Leone - Zimbabve | KG Yok | pending | 54/100
+- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.G | Kamerun - Komorlar | MS 1 | pending | 54/100
+- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.H | Tunus - Uganda | MS 1 | pending | 53/100
+- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup E | Demokratik Kon - Ekvator Ginesi | 2.5 Alt | pending | 54/100
+- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup F | Moritanya - Orta Afrika Cum | İY KG / 2Y KG Hayır / Hayır | pending | 60/100
+- 2026-09-24 | Ürdün 1.Lig | Al Sahl Horan - Hay Al-Amir Has | 2.5 Alt | pending | 56/100
+- 2026-09-24 | Ürdün 1.Lig | Al Ahli - Maan | 2.5 Alt | pending | 57/100
+- 2026-09-24 | İsveç 2.Lig Vastra Götaland | Kongahalla - Lindome Gif | İkinci Yarı KG Yok | pending | 56/100
 
