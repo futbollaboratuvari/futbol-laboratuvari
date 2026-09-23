@@ -2,35 +2,27 @@
 
 Gunler: 2026-09-23 / 2026-09-24
 Kaynak: fixtures.json
-Ham mac: 76
-Aktif mac: 59
+Ham mac: 78
+Aktif mac: 51
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 17
-Bugun: 46
+Bultenden dusurulen mac: 27
+Bugun: 38
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-23 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kyoto Sanga - Fujieda | scheduled | -
-- 2026-09-23 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kashiwa - Fc Imabari | scheduled | -
-- 2026-09-23 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kashima - Kofu | scheduled | -
-- 2026-09-23 11:00 | Japonya İmparatorluk Kupası 3.Tur | Vissel Kobe - Sagan Tosu | scheduled | -
-- 2026-09-23 11:00 | Japonya İmparatorluk Kupası 3.Tur | Gamba Osaka - Tokushima | scheduled | -
-- 2026-09-23 11:00 | Japonya İmparatorluk Kupası 3.Tur | Machida Zelvia - Tochigi City | scheduled | -
-- 2026-09-23 12:00 | Japonya Kadınlar Lig Kupası Grup Aşaması | Cerezo Osaka ( - Sanfrecce Hiros | scheduled | -
-- 2026-09-23 13:00 | İspanya Gençler Onur Ligi Grup 5 | Real Madrid U1 - Getafe U18 | scheduled | -
-- 2026-09-23 13:30 | Asya Oyunları Grup A | Japonya U23 - Tayland U23 | scheduled | -
-- 2026-09-23 13:30 | Asya Oyunları Grup A | Kırgızistan U2 - Hong Kong U23 | scheduled | -
 - 2026-09-23 16:00 | Kadınlar U20 Dünya Kupası Yarı Final | Italy U20 (K) - İspanya U20 (K) | scheduled | -
 - 2026-09-23 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Kladno - Banik Ostrava | scheduled | -
 - 2026-09-23 17:30 | Körfez Kupası Grup A | Irak - Umman | scheduled | -
 - 2026-09-23 17:40 | Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur | Al Jazira Al H - Gulf Heroes | scheduled | -
+- 2026-09-23 17:40 | Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur | Al Arabi - Emirates | scheduled | -
 - 2026-09-23 18:00 | Nijerya NPFL | Enyimba Inter - Sporting Lagos | scheduled | -
 - 2026-09-23 18:00 | Nijerya NPFL | Barau - Abia Warriors | scheduled | -
 - 2026-09-23 18:00 | Nijerya NPFL | Shooting Stars - Katsina United | scheduled | -
 - 2026-09-23 18:00 | Nijerya NPFL | Inter Lagos - Kano Pillars | scheduled | -
 - 2026-09-23 18:00 | Nijerya NPFL | Enugu Rangers - Ranchers Bees | scheduled | -
 - 2026-09-23 18:00 | Gana Premier Lig | Dreams - Medeama | scheduled | -
+- 2026-09-23 18:00 | Nijerya NPFL | Niger Tornadoe - Warri Wolves | scheduled | -
 - 2026-09-23 19:00 | Hazırlık Ülkeler | Cebelitarik - Sao Tome | scheduled | -
 - 2026-09-23 19:00 | Hazırlık Ülkeler | Azerbaycan - Tacikistan | scheduled | -
 - 2026-09-23 19:00 | Norveç NM Kupası 2.Tur | Grorud Il - Moss | scheduled | -

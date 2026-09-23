@@ -1,30 +1,25 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-23T07:26:21.092298+00:00
+Tarih: 2026-09-23T12:57:32.120795+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 46
+- Kac mac bulundu: 35
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 46
-- Ham veri havuzu toplam mac sayisi: 16572
+- Kac mac zaten vardi: 35
+- Ham veri havuzu toplam mac sayisi: 16574
 - Hedef tarih: 23.09.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL
 - Arjantin Kadınlar Primera A 2. Aşama
-- Asya Oyunları Grup A
 - Birleşik Arap Emirlikleri Cumhurbaşkanlığı Kupası 1.Tur
 - CONCACAF Uluslar Ligi Lig C Grup A
-- CONCACAF Uluslar Ligi Lig C Grup C
-- Gana Premier Lig
 - Hazırlık Ülkeler
 - Hollanda KNVB Kupası 2. Ön Eleme Turu
-- Japonya Kadınlar Lig Kupası Grup Aşaması
-- Japonya İmparatorluk Kupası 3.Tur
 - Kadınlar U20 Dünya Kupası Yarı Final
 - Kuzey Makedonya 1.Lig
 - Körfez Kupası Grup A
@@ -38,7 +33,6 @@ Tarih: 2026-09-23T07:26:21.092298+00:00
 - İngiltere Ulusal Lig Kupası Grup C
 - İskoçya Challenge Kupası Lig Aşaması
 - İspanya Federasyon Kupası Son 16 Turu
-- İspanya Gençler Onur Ligi Grup 5
 - İspanya Primera Lig RFEF Grup 2
 
 ## Okunabilen Oran Alanlari
@@ -96,8 +90,8 @@ Tarih: 2026-09-23T07:26:21.092298+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 35
-- Acilan detay: 35
+- Denenen Tumu alani: 29
+- Acilan detay: 29
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -110,26 +104,26 @@ Tarih: 2026-09-23T07:26:21.092298+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 23.09.2026 | 22:00 | CONCACAF Uluslar Ligi Lig C Grup A | Turks Ve Caico | Montserrat | 09649 | 2 |
-| 23.09.2026 | 23:00 | CONCACAF Uluslar Ligi Lig C Grup C | Bahamalar | Saint Martin | 09690 | 2 |
-| 23.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Oh Leuven (K) | Roma (K) | 20267 | 5 |
-| 23.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Chelsea (K) | Austria Wien (K | 17562 | 4 |
 | 23.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Servette Cheno | Lyon (K) | 17445 | 2 |
+| 23.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Chelsea (K) | Austria Wien (K | 17562 | 4 |
+| 23.09.2026 | 19:45 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Oh Leuven (K) | Roma (K) | 20267 | 5 |
 | 23.09.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi Lig Aşaması | Barcelona (K) | Paris (K) | 17473 | 4 |
+| 23.09.2026 | 19:00 | Hazırlık Ülkeler | Cebelitarik | Sao Tome | 16270 | 5 |
+| 23.09.2026 | 19:00 | Hazırlık Ülkeler | Azerbaycan | Tacikistan | 18372 | 5 |
+| 23.09.2026 | 22:00 | CONCACAF Uluslar Ligi Lig C Grup A | Turks Ve Caico | Montserrat | 09649 | 2 |
 | 23.09.2026 | 17:00 | Çek Cumhuriyeti Kupa 3.Tur | Kladno | Banik Ostrava | 18367 | 5 |
-| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Gamba Osaka | Tokushima | 09643 | 5 |
-| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Machida Zelvia | Tochigi City | 09641 | 5 |
-| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kyoto Sanga | Fujieda | 09645 | 5 |
-| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kashiwa | Fc Imabari | 09644 | 4 |
-| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Kashima | Kofu | 08906 | 4 |
-| 23.09.2026 | 11:00 | Japonya İmparatorluk Kupası 3.Tur | Vissel Kobe | Sagan Tosu | 09646 | 5 |
 | 23.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Hamilton | Cowdenbeath | 16510 | 2 |
-| 23.09.2026 | 21:00 | Körfez Kupası Grup A | Suudi Arabista | Kuveyt | 03450 | 5 |
 | 23.09.2026 | 17:30 | Körfez Kupası Grup A | Irak | Umman | 05201 | 5 |
-| 23.09.2026 | 19:30 | Kadınlar U20 Dünya Kupası Yarı Final | Kuzey Kore U20 | Kolombiya U20 ( | 01501 | 4 |
+| 23.09.2026 | 21:00 | Körfez Kupası Grup A | Suudi Arabista | Kuveyt | 03450 | 5 |
 | 23.09.2026 | 16:00 | Kadınlar U20 Dünya Kupası Yarı Final | Italy U20 (K) | İspanya U20 (K) | 00211 | 5 |
+| 23.09.2026 | 19:30 | Kadınlar U20 Dünya Kupası Yarı Final | Kuzey Kore U20 | Kolombiya U20 ( | 01501 | 4 |
 | 23.09.2026 | 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Zwaluwen Vlaar | Purmersteijn | 13458 | 3 |
+| 23.09.2026 | 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Jos Watergraaf | Tec | 13455 | 3 |
 | 23.09.2026 | 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Sparta Nijkerk | Udi 19 | 13456 | 3 |
+| 23.09.2026 | 21:00 | Hollanda KNVB Kupası 2. Ön Eleme Turu | Ijsselmeervoge | Gemert | 13453 | 3 |
+| 23.09.2026 | 23:00 | Peru Premier Lig Clausura | Adt | Cienciano | 18514 | 5 |
+| 23.09.2026 | 19:00 | Norveç NM Kupası 2.Tur | Grorud Il | Moss | 13801 | 3 |
+| 23.09.2026 | 22:00 | İspanya Primera Lig RFEF Grup 2 | Sant Andreu | Real Madrid Ii | 18440 | 5 |
 
 ## Sonuc
 
