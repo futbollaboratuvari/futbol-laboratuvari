@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-24 / 2026-09-25
 Kaynak: fixtures.json
-Ham mac: 57
-Aktif mac: 52
+Ham mac: 56
+Aktif mac: 50
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 46
+Bultenden dusurulen mac: 6
+Bugun: 44
 Yarin: 6
 
 ## Baslamamis Maclar
-- 2026-09-24 02:30 | Şili Kupa Son 16 Turu | Union La Caler - Univ. Catolica | scheduled | -
-- 2026-09-24 02:30 | Şili Kupa Son 16 Turu | Iquique - Antofagasta | scheduled | -
 - 2026-09-24 03:30 | Kolombiya Primera A Clausura | America De Cal - Rionegro Aguila | scheduled | -
 - 2026-09-24 04:00 | El Salvador Primera Lig Apertura | Firpo - Cacahuatique | scheduled | -
 - 2026-09-24 04:00 | El Salvador Primera Lig Apertura | Alianza - Fuerte San Fran | scheduled | -

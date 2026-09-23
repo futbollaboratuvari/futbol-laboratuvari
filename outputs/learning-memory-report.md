@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.09.2026 02:15:49
+Oluşturma: 24.09.2026 02:49:21
 
 ## Özet
 
@@ -43,13 +43,13 @@ Oluşturma: 24.09.2026 02:15:49
 - 2026-09-24 | Kolombiya Primera A Clausura | Atletico Nacio - Los Millionario | 2.5 Alt | pending | 55/100
 - 2026-09-24 | Meksika Ascenso MX Apertura | Alebrijes - Ca La Paz | MS 2 | pending | 62/100
 - 2026-09-24 | Meksika Ascenso MX Apertura | Zacatecas - Piratas | 2.5 Üst | pending | 69/100
-- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.C | Fildişi Sahili - Gana | MS 1 | pending | 49/100
-- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.E | Sierra Leone - Zimbabve | KG Yok | pending | 54/100
-- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.G | Kamerun - Komorlar | MS 1 | pending | 54/100
-- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.H | Tunus - Uganda | MS 1 | pending | 53/100
-- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup E | Demokratik Kon - Ekvator Ginesi | 2.5 Alt | pending | 54/100
+- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup G | Kamerun - Komorlar | MS 1 | pending | 54/100
+- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup H | Tunus - Uganda | MS 1 | pending | 53/100
+- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup C | Fildişi Sahili - Gana | MS 1 | pending | 49/100
+- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup E | Sierra Leone - Zimbabve | KG Yok | pending | 54/100
 - 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup F | Moritanya - Orta Afrika Cum | İY KG / 2Y KG Hayır / Hayır | pending | 60/100
 - 2026-09-24 | Ürdün 1.Lig | Al Sahl Horan - Hay Al-Amir Has | 2.5 Alt | pending | 56/100
 - 2026-09-24 | Ürdün 1.Lig | Al Ahli - Maan | 2.5 Alt | pending | 57/100
 - 2026-09-24 | İsveç 2.Lig Vastra Götaland | Kongahalla - Lindome Gif | İkinci Yarı KG Yok | pending | 56/100
+- 2026-09-24 | Uruguay Kupa Ön Eleme Turu Grup 1 | Danubio - Penarol | 2.5 Alt | pending | 74/100
 

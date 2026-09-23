@@ -1,14 +1,11 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 66
-Tam analiz: 59
-Eksik analiz: 7
+Toplam analiz: 56
+Tam analiz: 52
+Eksik analiz: 4
 
-- Kashima VS Kofu: eksik score, confidence
-- Real Madrid U1 VS Getafe U18: eksik score, confidence
-- Kuzey Kore U20 VS Kolombiya U20 (: eksik score, confidence
-- Servette Cheno VS Lyon (K): eksik score, confidence
-- Barcelona (K) VS Paris (K): eksik score, confidence
-- Chelsea (K) VS Austria Wien (K: eksik score, confidence
-- Fernando De La VS Libertad: eksik score, confidence
+- Çin VS Maldivler: eksik score, confidence
+- San Marino (U2 VS Kosova (U21): eksik score, confidence
+- Atlético Tembe VS Sportivo Iteno: eksik score, confidence
+- Deportivo Reco VS Guairena: eksik score, confidence
