@@ -1,118 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T23:16:41.063Z",
+  "generated_at": "2026-09-23T01:45:51.335Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-22T23:16:39.915Z",
+  "source_generated_at": "2026-09-23T01:45:50.934Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 2,
-    "ready_count": 2,
+    "live_match_count": 1,
+    "ready_count": 1,
     "waiting_count": 0,
-    "result_lean_count": 2,
-    "next_goal_lean_count": 2,
+    "result_lean_count": 1,
+    "next_goal_lean_count": 1,
     "high_goal_pressure_count": 0
   },
   "matches": [
     {
-      "fixture_id": "401860351",
+      "fixture_id": "401877961",
       "status": "ready",
-      "minute": 44,
+      "minute": 45,
       "score": {
         "home": 0,
         "away": 1
       },
-      "home": "Criciúma",
-      "away": "Operário PR",
-      "league": "Brezilya Serie B",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-22T23:16:39.915Z",
-      "freshness_minutes": 0.019133333333333332,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "next_goal",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "confidence": 75
-      },
-      "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 80.906
-      },
-      "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 86.34
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 23
-      },
-      "signals": [
-        "Team Power: Criciúma %69 · Operário PR %31.",
-        "Goal Power: Criciúma %27 · Operário PR %10.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": 38,
-        "goal_power_diff": 17,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 2,
-        "total_shots_diff": 9,
-        "corners_diff": 6,
-        "xg_diff": 0,
-        "direction_score": 34.34,
-        "next_goal_score": 34.34
-      }
-    },
-    {
-      "fixture_id": "401877885",
-      "status": "ready",
-      "minute": 17,
-      "score": {
-        "home": 0,
-        "away": 0
-      },
-      "home": "Independiente Medellín",
-      "away": "Jaguares de Córdoba",
+      "home": "Independiente Santa Fe",
+      "away": "Deportivo Cali",
       "league": "Kolombiya Primera A Clausura",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-22T23:16:39.915Z",
-      "freshness_minutes": 0.019133333333333332,
+      "snapshot_recorded_at": "2026-09-23T01:45:50.934Z",
+      "freshness_minutes": 0.006683333333333334,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -139,46 +57,46 @@
       "robot_version": "live-match-analysis-robot-v1",
       "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
       "reason": null,
-      "evidence_score": 48,
+      "evidence_score": 58,
       "risk": "Yüksek veri riski",
       "primary_prediction": {
         "type": "match_direction",
-        "label": "Ev sahibi yönü",
-        "confidence": 76
+        "label": "Deplasman yönü",
+        "confidence": 81
       },
       "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 87.53
+        "code": "2",
+        "label": "Deplasman yönü",
+        "side": "away",
+        "strength": 90
       },
       "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 86.5
+        "code": "AWAY",
+        "label": "Sonraki gol eğilimi: Deplasman",
+        "side": "away",
+        "strength": 81.74000000000001
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 26
+        "score": 21
       },
       "signals": [
-        "Team Power: Independiente Medellín %80 · Jaguares de Córdoba %20.",
-        "Goal Power: Independiente Medellín %32 · Jaguares de Córdoba %5.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Team Power: Independiente Santa Fe %31 · Deportivo Cali %69.",
+        "Goal Power: Independiente Santa Fe %10 · Deportivo Cali %25.",
+        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": 60,
-        "goal_power_diff": 27,
+        "team_power_diff": -38,
+        "goal_power_diff": -15,
         "momentum_diff": 0,
-        "shots_on_goal_diff": 1,
-        "total_shots_diff": 3,
-        "corners_diff": 5,
+        "shots_on_goal_diff": -3,
+        "total_shots_diff": 0,
+        "corners_diff": -1,
         "xg_diff": 0,
-        "direction_score": 41.7,
-        "next_goal_score": 34.5
+        "direction_score": -47.24,
+        "next_goal_score": -29.74
       }
     }
   ]
