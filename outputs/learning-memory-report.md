@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.09.2026 09:34:33
+Oluşturma: 24.09.2026 13:14:44
 
 ## Özet
 
@@ -45,11 +45,11 @@ Oluşturma: 24.09.2026 09:34:33
 - 2026-09-24 | Fas Botola Pro | Amal Tiznit - Ittihad Tanger | MS 2 | pending | 41/100
 - 2026-09-24 | Fransa Ligue 3 | Caen - Rouen | 2.5 Üst | pending | 52/100
 - 2026-09-24 | Paraguay Kupa Son 16 Turu | Deportivo Reco - Guairena | MS 1 | pending | 50/100
-- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.G | Kamerun - Komorlar | MS 1 | pending | 54/100
-- 2026-09-24 | UEFA Uluslar Ligi | Lihtenştayn - Litvanya | 2.5 Alt | pending | 54/100
-- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.C | Fildişi Sahili - Gana | İY KG / 2Y KG Hayır / Hayır | pending | 59/100
-- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.E | Sierra Leone - Zimbabve | İY KG / 2Y KG Hayır / Hayır | pending | 60/100
-- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.H | Tunus - Uganda | İY KG / 2Y KG Hayır / Hayır | pending | 60/100
+- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup G | Kamerun - Komorlar | MS 1 | pending | 54/100
+- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup C | Fildişi Sahili - Gana | İY KG / 2Y KG Hayır / Hayır | pending | 59/100
+- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup E | Sierra Leone - Zimbabve | İY KG / 2Y KG Hayır / Hayır | pending | 60/100
+- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup H | Tunus - Uganda | İY KG / 2Y KG Hayır / Hayır | pending | 60/100
 - 2026-09-24 | Uruguay Kupa Ön Eleme Turu Grup 1 | Danubio - Penarol | 2.5 Alt | pending | 74/100
 - 2026-09-24 | Ürdün 1.Lig | Al Sahl Horan - Hay Al-Amir Has | 2.5 Alt | pending | 56/100
+- 2026-09-24 | Ürdün 1.Lig | Al Ahli - Maan | 2.5 Alt | pending | 56/100
 

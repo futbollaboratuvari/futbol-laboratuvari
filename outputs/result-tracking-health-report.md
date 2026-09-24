@@ -5,12 +5,12 @@ Aktif bulten maci: 44
 Arsiv maci: 16528
 Biten mac: 16484
 Skorlu arsiv maci: 2443
-Tahmin sayisi: 2916
-Bekleyen tahmin: 1967
+Tahmin sayisi: 2918
+Bekleyen tahmin: 1969
 Eski pending tahmin: 1891
 En eski pending tarihi: 2026-09-15
 Skor baglanan tahmin: 986
-Son kontrol: 1956
+Son kontrol: 1958
 Son baglanan: 26
 
 Sonraki aksiyon: Eski pending tahminler dogrudan final-skor koprusu ve finalizer ile eritilmeli.

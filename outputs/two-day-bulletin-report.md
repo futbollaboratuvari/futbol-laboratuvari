@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-24 / 2026-09-25
 Kaynak: fixtures.json
-Ham mac: 57
-Aktif mac: 44
+Ham mac: 44
+Aktif mac: 42
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 13
-Bugun: 38
+Bultenden dusurulen mac: 2
+Bugun: 36
 Yarin: 6
 
 ## Baslamamis Maclar
-- 2026-09-24 12:30 | Hazırlık Ülkeler | Filistin - Yeni Zelanda | scheduled | -
-- 2026-09-24 13:05 | Hazırlık Ülkeler | Japonya - Uruguay | scheduled | -
 - 2026-09-24 14:00 | Hazırlık Ülkeler | Güney Kore - Ekvador | scheduled | -
 - 2026-09-24 14:35 | Hazırlık Ülkeler | Çin - Maldivler | scheduled | -
 - 2026-09-24 16:00 | Afrika Uluslar Kupası 2027 Elemeler Grup G | Namibya - Kongo | scheduled | -
