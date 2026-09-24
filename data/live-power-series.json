@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T23:57:34.950Z",
+  "generated_at": "2026-09-24T04:40:28.383Z",
   "timezone": "Europe/Istanbul",
-  "status": "ok",
+  "status": "no_live_matches",
   "source": "ESPN Scoreboard + ESPN Core/Summary + TheSportsDB event stats",
   "source_verified": true,
   "sampling": {
@@ -13,19 +13,20 @@
     "paid_api_required": false
   },
   "summary": {
-    "espn_live_event_count": 13,
-    "site_candidate_count": 59,
-    "matched_fixture_count": 2,
-    "sampled_match_count": 2,
-    "stats_success_count": 2,
-    "scoreboard_stats_count": 2,
+    "espn_live_event_count": 0,
+    "site_candidate_count": 49,
+    "matched_fixture_count": 0,
+    "sampled_match_count": 0,
+    "stats_success_count": 0,
+    "scoreboard_stats_count": 0,
     "core_stats_count": 0,
     "summary_stats_count": 0,
     "thesportsdb_stats_count": 0,
-    "thesportsdb_verified_count": 1
+    "thesportsdb_verified_count": 0
   },
-  "message": "Canlı Team Power ve Goal Power yalnız kaynaklarda gerçekten gözlenen maç istatistiklerinden üretildi; veri kapsamı her snapshotta ayrıca gösterildi.",
-  "matches": [
+  "message": "Şu anda ESPN kaynağında canlı maç bulunmuyor.",
+  "matches": [],
+  "recent_matches": [
     {
       "fixture_id": "401916365",
       "provider_event_id": "401916365",
@@ -383,9 +384,7 @@
         }
       },
       "updated_at": "2026-09-23T23:57:34.950Z"
-    }
-  ],
-  "recent_matches": [
+    },
     {
       "fixture_id": "401916348",
       "provider_event_id": "401916348",
