@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T23:09:28.885Z",
+  "generated_at": "2026-09-24T01:24:33.136Z",
   "status": "ready",
   "checks": {
     "robot_exists": true,
@@ -13,27 +13,27 @@
   "robot": {
     "engine": "Futbol Laboratuvarı PRO 13",
     "scoring_mode": "market_conditioned_probability_ensemble_with_learning_memory_and_verified_lineup_matchups",
-    "match_count": 21,
-    "learning_adjusted_count": 3
+    "match_count": 56,
+    "learning_adjusted_count": 11
   },
   "memory": {
-    "total_predictions": 2834,
-    "pending_predictions": 1903,
-    "won_predictions": 482,
-    "lost_predictions": 449,
+    "total_predictions": 2904,
+    "pending_predictions": 1970,
+    "won_predictions": 483,
+    "lost_predictions": 451,
     "retention": {
       "max_training_predictions": 3000,
       "max_pending_predictions": 2000,
       "max_void_predictions": 500,
       "market_retention_floor": 120,
-      "retained_training_predictions": 931,
-      "retained_pending_predictions": 1903,
+      "retained_training_predictions": 934,
+      "retained_pending_predictions": 1970,
       "retained_void_predictions": 0
     }
   },
   "live": {
-    "match_count": 0,
-    "status": "waiting"
+    "match_count": 50,
+    "status": "-"
   },
   "note": "Learning output fields are present. The site can display learning notes."
 }
