@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.09.2026 23:34:49
+Oluşturma: 25.09.2026 02:36:32
 
 ## Özet
 
-- Toplam tahmin: 2953
+- Toplam tahmin: 2964
 - Bekleyen tahmin: 2000
-- Kazanan tahmin: 496
-- Kaybeden tahmin: 457
-- Lig sayısı: 426
+- Kazanan tahmin: 505
+- Kaybeden tahmin: 459
+- Lig sayısı: 458
 - Seçenek sayısı: 13
 
 ## Öğrenme Mantığı
@@ -22,34 +22,34 @@ Oluşturma: 24.09.2026 23:34:49
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 399, bekleyen 311, başarı %56, düz getiri %2, ağırlık 1
-- 2.5 Alt: toplam 861, bekleyen 584, başarı %55, düz getiri %-8, ağırlık 1
-- KG Var: toplam 200, bekleyen 106, başarı %54, düz getiri %-4, ağırlık 1
-- 2.5 Üst: toplam 300, bekleyen 162, başarı %51, düz getiri %-9, ağırlık 1
-- 3.5 Üst: toplam 77, bekleyen 34, başarı %51, düz getiri %1, ağırlık 1
-- MS 1: toplam 760, bekleyen 539, başarı %50, düz getiri %-19, ağırlık 0.94
-- KG Yok: toplam 185, bekleyen 104, başarı %44, düz getiri %-24, ağırlık 1
-- MS X: toplam 22, bekleyen 11, başarı %27, düz getiri %-30, ağırlık 1
-- İY KG / 2Y KG Hayır / Hayır: toplam 66, bekleyen 66, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- İkinci Yarı KG Yok: toplam 34, bekleyen 34, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- 2.5 Alt: toplam 857, bekleyen 576, başarı %56, düz getiri %-8, ağırlık 1
+- MS 2: toplam 392, bekleyen 304, başarı %56, düz getiri %2, ağırlık 1
+- KG Var: toplam 206, bekleyen 112, başarı %54, düz getiri %-4, ağırlık 1
+- 2.5 Üst: toplam 298, bekleyen 160, başarı %51, düz getiri %-9, ağırlık 1
+- 3.5 Üst: toplam 79, bekleyen 36, başarı %51, düz getiri %1, ağırlık 1
+- MS 1: toplam 756, bekleyen 534, başarı %51, düz getiri %-18, ağırlık 0.94
+- KG Yok: toplam 190, bekleyen 103, başarı %46, düz getiri %-21, ağırlık 0.94
+- MS X: toplam 21, bekleyen 10, başarı %27, düz getiri %-30, ağırlık 1
+- İY KG / 2Y KG Hayır / Hayır: toplam 81, bekleyen 81, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- İkinci Yarı KG Yok: toplam 35, bekleyen 35, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İlk Yarı KG Yok: toplam 12, bekleyen 12, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İlk Yarı KG Var: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-24 | Meksika Ascenso MX Apertura | Alebrijes - Ca La Paz | MS 2 | pending | 61/100
-- 2026-09-24 | Guatemala Ulusal Lig Apertura | Municipal - Suchitepequez | KG Var | pending | 72/100
-- 2026-09-24 | Meksika Ascenso MX Apertura | Zacatecas - Piratas | KG Var | pending | 69/100
-- 2026-09-24 | Kolombiya Primera A Clausura | Atletico Nacio - Los Millionario | 2.5 Alt | pending | 55/100
-- 2026-09-24 | CONCACAF Uluslar Ligi Lig A Grup A | Haiti - Trinidad & Toba | MS 1 | pending | 50/100
-- 2026-09-24 | CONCACAF Uluslar A Ligi, Grp A | Kosta Rika - Curacao | İY KG / 2Y KG Hayır / Hayır | pending | 58/100
-- 2026-09-24 | Şili Kupa Son 16 Turu | O Higgins - Deportes Santa | MS 1 | pending | 50/100
-- 2026-09-24 | Şili Kupa Son 16 Turu | Everton De Vin - Univ. De Şili | 2.5 Alt | pending | 50/100
-- 2026-09-24 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | Independiente - Cuniburo Fc | MS 1 | pending | 49/100
-- 2026-09-24 | CONCACAF Uluslar Ligi Lig A Grup A | Dominik Cumhur - Nikaragua | İY KG / 2Y KG Hayır / Hayır | pending | 58/100
-- 2026-09-24 | CONCACAF Uluslar Ligi Lig B Grup A | Kayman - Dominika | MS 2 | pending | 53/100
-- 2026-09-24 | Paraguay Kupa Son 16 Turu | Atlético Tembe - Sportivo Iteno | 2.5 Alt | pending | 49/100
-- 2026-09-24 | Fas Botola Pro | Amal Tiznit - Ittihad Tanger | MS 1 | pending | 38/100
-- 2026-09-24 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | Atletico Fc - Deportivo Cuenc | 2.5 Alt | pending | 59/100
-- 2026-09-24 | Ekvador Kupa Çeyrek Final | Gualaceo - Indep. Jose Ter | 2.5 Üst | pending | 44/100
+- 2026-09-25 | Galler FAW Championship Güney | Caerphilly Ath - Pontypridd Town | MS 2 | pending | 41/100
+- 2026-09-25 | Afrika Uluslar Kupası 2027 Elemeler Grup K | Mali - Kape Verde | MS 1 | pending | 43/100
+- 2026-09-25 | İspanya Primera Lig RFEF Grup 2 | Ud Ibiza - Zaragoza | 2.5 Alt | pending | 55/100
+- 2026-09-25 | Şili Kupa Son 16 Turu | Colo Colo (0) - (0) Audax Italiano | MS 1 | pending | 50/100
+- 2026-09-25 | Kolombiya Kupa 2.Tur | Union Magdalen (0) - (2) Santa Fe | 2.5 Alt | pending | 57/100
+- 2026-09-25 | ABD USL | Hartford Athle - Louisville City | 2.5 Alt | pending | 60/100
+- 2026-09-25 | Brezilya Serie B | Vila Nova - Londrina | MS 1 | pending | 62/100
+- 2026-09-25 | Meksika Liga MX Apertura | Atlante - Monterrey | 2.5 Alt | pending | 69/100
+- 2026-09-25 | ABD USL | El Paso Locomo - Tulsa Roughneck | MS 1 | pending | 54/100
+- 2026-09-25 | Meksika Liga MX Apertura | Club Tijuana - Atlas | 2.5 Üst | pending | 68/100
+- 2026-09-25 | Afrika Uluslar Kup.,Eleme,Gr.A | Fas - Gabon | 2.5 Alt | pending | 48/100
+- 2026-09-25 | Afrika Uluslar Kup.,Eleme,Gr.B | Misir - Angola | MS 1 | pending | 54/100
+- 2026-09-25 | Afrika Uluslar Kup.,Eleme,Gr.F | Burkina Faso - Benin | MS 1 | pending | 51/100
+- 2026-09-25 | Afrika Uluslar Kup.,Eleme,Gr.I | Cezayir - Zambiya | 2.5 Üst | pending | 52/100
+- 2026-09-25 | ABD Championship | Sporting Jax - Loudoun United | 3.5 Üst | pending | 60/100
 
