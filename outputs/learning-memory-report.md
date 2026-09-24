@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.09.2026 04:30:17
+Oluşturma: 24.09.2026 08:05:21
 
 ## Özet
 
@@ -37,19 +37,19 @@ Oluşturma: 24.09.2026 04:30:17
 
 ## Son Tahmin Kayıtları
 
+- 2026-09-24 | Meksika Ascenso MX Apertura | Zacatecas - Piratas | 2.5 Üst | pending | 69/100
 - 2026-09-24 | Şili Kupa Son 16 Turu | O Higgins - Deportes Santa | MS 1 | pending | 52/100
 - 2026-09-24 | Şili Kupa Son 16 Turu | Everton De Vin - Univ. De Şili | 2.5 Alt | pending | 53/100
 - 2026-09-24 | Kolombiya Primera A Clausura | Atletico Nacio - Los Millionario | 2.5 Alt | pending | 55/100
 - 2026-09-24 | Meksika Ascenso MX Apertura | Alebrijes - Ca La Paz | MS 2 | pending | 62/100
-- 2026-09-24 | Meksika Ascenso MX Apertura | Zacatecas - Piratas | 2.5 Üst | pending | 69/100
 - 2026-09-24 | Fas Botola Pro | Amal Tiznit - Ittihad Tanger | MS 2 | pending | 41/100
 - 2026-09-24 | Fransa Ligue 3 | Caen - Rouen | 2.5 Üst | pending | 52/100
-- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.G | Kamerun - Komorlar | MS 1 | pending | 54/100
-- 2026-09-24 | UEFA Uluslar Ligi | Lihtenştayn - Litvanya | 2.5 Alt | pending | 55/100
-- 2026-09-24 | UEFA Uluslar Ligi, Lig B | Kosova - İrlanda | İY KG / 2Y KG Hayır / Hayır | pending | 58/100
-- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.C | Fildişi Sahili - Gana | İY KG / 2Y KG Hayır / Hayır | pending | 59/100
-- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.E | Sierra Leone - Zimbabve | İY KG / 2Y KG Hayır / Hayır | pending | 60/100
-- 2026-09-24 | Afrika Uluslar Kup.,Eleme,Gr.H | Tunus - Uganda | İY KG / 2Y KG Hayır / Hayır | pending | 60/100
-- 2026-09-24 | Ürdün 1.Lig | Al Sahl Horan - Hay Al-Amir Has | 2.5 Alt | pending | 56/100
-- 2026-09-24 | Ürdün 1.Lig | Al Ahli - Maan | 2.5 Alt | pending | 57/100
+- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup G | Kamerun - Komorlar | MS 1 | pending | 54/100
+- 2026-09-24 | UEFA Uluslar Ligi A Ligi Grup 4 | Norveç - Danimarka | MS 1 | pending | 48/100
+- 2026-09-24 | UEFA Uluslar Ligi D Ligi Grup 2 | Lihtenştayn - Litvanya | 2.5 Alt | pending | 55/100
+- 2026-09-24 | UEFA Uluslar Ligi A Ligi Grup 4 | Portekiz - Galler | İY KG / 2Y KG Hayır / Hayır | pending | 58/100
+- 2026-09-24 | UEFA Uluslar Ligi B Ligi Grup 3 | Kosova - İrlanda | İY KG / 2Y KG Hayır / Hayır | pending | 58/100
+- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup C | Fildişi Sahili - Gana | İY KG / 2Y KG Hayır / Hayır | pending | 59/100
+- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup E | Sierra Leone - Zimbabve | İY KG / 2Y KG Hayır / Hayır | pending | 60/100
+- 2026-09-24 | Afrika Uluslar Kupası 2027 Elemeler Grup H | Tunus - Uganda | İY KG / 2Y KG Hayır / Hayır | pending | 60/100
 

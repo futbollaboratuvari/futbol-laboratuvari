@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 56
-Tam analiz: 52
+Toplam analiz: 50
+Tam analiz: 46
 Eksik analiz: 4
 
 - Çin VS Maldivler: eksik score, confidence

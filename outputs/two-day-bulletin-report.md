@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-24 / 2026-09-25
 Kaynak: fixtures.json
-Ham mac: 57
-Aktif mac: 47
+Ham mac: 50
+Aktif mac: 44
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 41
+Bultenden dusurulen mac: 6
+Bugun: 38
 Yarin: 6
 
 ## Baslamamis Maclar
-- 2026-09-24 04:30 | ABD MLS | Seattle - Salt Lake | scheduled | -
-- 2026-09-24 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Antigua Guatema | scheduled | -
-- 2026-09-24 05:00 | Kanada Premier Lig | Vancouver Fc - Inter Toronto | scheduled | -
 - 2026-09-24 12:30 | Hazırlık Ülkeler | Filistin - Yeni Zelanda | scheduled | -
 - 2026-09-24 13:05 | Hazırlık Ülkeler | Japonya - Uruguay | scheduled | -
 - 2026-09-24 14:00 | Hazırlık Ülkeler | Güney Kore - Ekvador | scheduled | -
