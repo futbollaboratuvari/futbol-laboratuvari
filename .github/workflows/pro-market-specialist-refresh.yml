@@ -2,6 +2,17 @@ name: PRO Market Specialist Refresh
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/market-specialist-gates.js'
+      - 'scripts/pro-market-specialist-postprocess.js'
+      - 'scripts/pro-goal-market-bridge.js'
+      - 'scripts/run-pro-goal-market-specialist.js'
+      - 'tests/market-specialist-gates.test.js'
+      - 'tests/pro-goal-market-bridge.test.js'
+      - '.github/workflows/pro-market-specialist-refresh.yml'
   workflow_run:
     workflows:
       - Live Data Trigger
@@ -18,7 +29,7 @@ concurrency:
 
 jobs:
   specialize:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
