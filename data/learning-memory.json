@@ -1,14 +1,14 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-21T22:07:49.740Z",
-  "updated_at": "2026-09-24T20:38:57.152Z",
+  "updated_at": "2026-09-24T23:28:44.996Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
     "total_predictions": 2953,
-    "pending_predictions": 2000,
-    "won_predictions": 496,
-    "lost_predictions": 457,
+    "pending_predictions": 1989,
+    "won_predictions": 505,
+    "lost_predictions": 459,
     "void_predictions": 0,
     "league_count": 426,
     "market_count": 13,
@@ -36,10 +36,13 @@
       "retained_pending_predictions": 2000,
       "retained_void_predictions": 0
     },
-    "last_score_link_checked": 1985,
+    "last_score_link_checked": 1968,
     "last_score_linked": 26,
-    "last_finalizer_checked": 41,
-    "last_finalizer_updated": 0
+    "last_finalizer_checked": 58,
+    "last_finalizer_updated": 11,
+    "last_direct_result_checked": 1985,
+    "last_direct_result_linked": 17,
+    "last_direct_half_time_linked": 0
   },
   "market_memory": {
     "MS 2": {
@@ -56648,12 +56651,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "2-1",
       "half_time_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-24T20:34:49.542Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401916347",
+      "result_linked_at": "2026-09-24T23:28:14.754Z",
+      "finalized_at": "2026-09-24T23:28:44.995Z"
     },
     {
       "id": "2026-09-24|sili kupa son 16 turu|everton de vin univ de sili|2 5 alt|02 30",
@@ -57018,11 +57025,14 @@
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "",
       "status": "pending",
-      "result_score": "",
+      "result_score": "2-3",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-24T20:34:49.542Z"
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401920051",
+      "result_linked_at": "2026-09-24T23:28:14.754Z"
     },
     {
       "id": "2026-09-24|afrika uluslar kup eleme gr g|kamerun komorlar|iy kg 2y kg hayir hayir|22 00",
@@ -57181,11 +57191,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "0-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401900635",
+      "result_linked_at": "2026-09-24T23:28:14.754Z",
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "finalized_at": "2026-09-24T23:28:44.995Z"
     },
     {
       "id": "2026-09-24|fransa ligue 3|caen rouen|ms 1|21 45",
@@ -57303,12 +57318,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "0-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-24T20:34:49.541Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "result_source": "iddaa.com resmi etkinlik detayı",
+      "result_source_match_id": "3153488",
+      "result_linked_at": "2026-09-24T23:28:14.754Z",
+      "finalized_at": "2026-09-24T23:28:44.995Z"
     },
     {
       "id": "2026-09-24|uefa uluslar ligi lig a|sirbistan yunanistan|iy kg 2y kg hayir hayir|21 45",
@@ -57507,11 +57526,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "result_source": "iddaa.com resmi etkinlik detayı",
+      "result_source_match_id": "3153481",
+      "result_linked_at": "2026-09-24T23:28:14.754Z",
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "finalized_at": "2026-09-24T23:28:44.995Z"
     },
     {
       "id": "2026-09-24|uruguay kupa on eleme turu grup 1|danubio penarol|2 5 alt|21 30",
@@ -57629,11 +57653,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "0-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401900635",
+      "result_linked_at": "2026-09-24T23:28:14.754Z",
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "finalized_at": "2026-09-24T23:28:44.995Z"
     },
     {
       "id": "2026-09-24|afrika uluslar kupasi 2027 elemeler grup c|fildisi sahili gana|iy kg 2y kg hayir hayir|22 00",
@@ -57711,11 +57740,14 @@
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "",
       "status": "pending",
-      "result_score": "",
+      "result_score": "2-3",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-24T20:34:22.642Z"
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401920051",
+      "result_linked_at": "2026-09-24T23:28:14.754Z"
     },
     {
       "id": "2026-09-24|uefa uluslar ligi d ligi grup 2|lihtenstayn litvanya|2 5 alt|21 45",
@@ -57751,12 +57783,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "0-2",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-24T20:34:22.642Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "result_source": "iddaa.com resmi etkinlik detayı",
+      "result_source_match_id": "3153488",
+      "result_linked_at": "2026-09-24T23:28:14.754Z",
+      "finalized_at": "2026-09-24T23:28:44.995Z"
     },
     {
       "id": "2026-09-24|afrika uluslar kupasi 2027 elemeler grup g|kamerun komorlar|iy kg 2y kg hayir hayir|22 00",
@@ -58037,11 +58073,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "result_source": "iddaa.com resmi etkinlik detayı",
+      "result_source_match_id": "3153481",
+      "result_linked_at": "2026-09-24T23:28:14.754Z",
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "finalized_at": "2026-09-24T23:28:44.995Z"
     },
     {
       "id": "2026-09-24|afrika uluslar kup eleme gr h|libya botsvana|2 5 alt|19 00",
@@ -58428,11 +58469,14 @@
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "",
       "status": "pending",
-      "result_score": "",
+      "result_score": "0-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-24T17:17:08.358Z"
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401900635",
+      "result_linked_at": "2026-09-24T23:28:14.754Z"
     },
     {
       "id": "2026-09-24|afrika uluslar kup eleme gr h|tunus uganda|ms 1|22 00",
@@ -58551,11 +58595,14 @@
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "",
       "status": "pending",
-      "result_score": "",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-24T17:17:08.357Z"
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "result_source": "iddaa.com resmi etkinlik detayı",
+      "result_source_match_id": "3153481",
+      "result_linked_at": "2026-09-24T23:28:14.754Z"
     },
     {
       "id": "2026-09-24|uefa uluslar ligi lig a|hollanda almanya|ikinci yari kg yok|21 45",
@@ -58961,11 +59008,14 @@
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "",
       "status": "pending",
-      "result_score": "",
+      "result_score": "0-1",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-24T17:17:01.248Z"
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401900635",
+      "result_linked_at": "2026-09-24T23:28:14.754Z"
     },
     {
       "id": "2026-09-24|afrika uluslar kupasi 2027 elemeler grup h|tunus uganda|ms 1|22 00",
@@ -59084,11 +59134,14 @@
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "",
       "status": "pending",
-      "result_score": "",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-24T17:17:01.247Z"
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "result_source": "iddaa.com resmi etkinlik detayı",
+      "result_source_match_id": "3153481",
+      "result_linked_at": "2026-09-24T23:28:14.754Z"
     },
     {
       "id": "2026-09-24|uefa uluslar ligi a ligi grup 2|hollanda almanya|ikinci yari kg yok|21 45",
@@ -61321,12 +61374,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-3",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-23T23:49:21.556Z"
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401920051",
+      "result_linked_at": "2026-09-24T23:28:14.754Z",
+      "finalized_at": "2026-09-24T23:28:44.995Z"
     },
     {
       "id": "2026-09-24|uefa uluslar ligi a ligi grup 2|hollanda almanya|3 5 ust|21 45",
@@ -61403,12 +61460,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-09-23T23:49:21.555Z"
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "result_source": "iddaa.com resmi etkinlik detayı",
+      "result_source_match_id": "3153481",
+      "result_linked_at": "2026-09-24T23:28:14.754Z",
+      "finalized_at": "2026-09-24T23:28:44.995Z"
     },
     {
       "id": "2026-09-24|uruguay kupa on eleme turu grup 3|cerro deportivo maldo|2 5 alt|02 00",
@@ -61607,11 +61668,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "1-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "lost",
+      "result_score": "2-3",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin yanlış sonuçlandı.",
+      "result_source": "ESPN Scoreboard",
+      "result_source_match_id": "401920051",
+      "result_linked_at": "2026-09-24T23:28:14.754Z",
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "finalized_at": "2026-09-24T23:28:44.995Z"
     },
     {
       "id": "2026-09-24|uefa uluslar ligi lig a|hollanda almanya|3 5 ust|21 45",
@@ -61687,11 +61753,16 @@
       "premium_eligible_at_prediction": false,
       "premium_policy_version": "accuracy-first-v1",
       "predicted_score": "0-0",
-      "status": "pending",
-      "result_score": "",
+      "status": "won",
+      "result_score": "1-0",
       "half_time_score": "",
       "source": "iddaa.com resmi futbol bülteni",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Tahmin doğru sonuçlandı.",
+      "result_source": "iddaa.com resmi etkinlik detayı",
+      "result_source_match_id": "3153481",
+      "result_linked_at": "2026-09-24T23:28:14.754Z",
+      "updated_at": "2026-09-24T23:28:14.754Z",
+      "finalized_at": "2026-09-24T23:28:44.995Z"
     },
     {
       "id": "2026-09-23|sili kupa son 16 turu|curico concepcion|2 5 ust|00 00",
@@ -62873,7 +62944,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401916909",
       "result_linked_at": "2026-09-23T20:45:06.021Z",
-      "score_linked_at": "2026-09-24T20:38:52.760Z"
+      "score_linked_at": "2026-09-24T23:28:40.433Z"
     },
     {
       "id": "2026-09-23|hollanda knvb kupasi 2 on eleme turu|sparta nijkerk udi 19|ikinci yari kg yok|21 00",
@@ -62918,7 +62989,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401916909",
       "result_linked_at": "2026-09-23T20:45:06.021Z",
-      "score_linked_at": "2026-09-24T20:38:52.761Z"
+      "score_linked_at": "2026-09-24T23:28:40.434Z"
     },
     {
       "id": "2026-09-23|kanada premier lig|vancouver fc inter toronto|ms 1|05 00",
@@ -68751,7 +68822,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401916910",
       "result_linked_at": "2026-09-22T21:26:05.724Z",
-      "score_linked_at": "2026-09-24T20:38:52.797Z"
+      "score_linked_at": "2026-09-24T23:28:40.475Z"
     },
     {
       "id": "2026-09-22|ingiltere futbol ligi kupasi guney grub|bromley brentford u21|iy kg 2y kg hayir hayir|21 30",
@@ -68840,7 +68911,7 @@
       "result_source_match_id": "401909638",
       "result_linked_at": "2026-09-22T21:26:05.724Z",
       "updated_at": "2026-09-22T21:26:05.724Z",
-      "score_linked_at": "2026-09-24T20:38:52.800Z"
+      "score_linked_at": "2026-09-24T23:28:40.478Z"
     },
     {
       "id": "2026-09-22|ingiltere efl trophy kuzey grup a|accrington sunderland b|ikinci yari kg yok|21 00",
@@ -68885,7 +68956,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401906379",
       "result_linked_at": "2026-09-22T21:26:05.724Z",
-      "score_linked_at": "2026-09-24T20:38:52.803Z"
+      "score_linked_at": "2026-09-24T23:28:40.482Z"
     },
     {
       "id": "2026-09-22|ingiltere efl trophy guney grup h|bromley brentford u21|iy kg 2y kg hayir hayir|21 30",
@@ -68974,7 +69045,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401909638",
       "result_linked_at": "2026-09-22T21:26:05.724Z",
-      "score_linked_at": "2026-09-24T20:38:52.806Z"
+      "score_linked_at": "2026-09-24T23:28:40.485Z"
     },
     {
       "id": "2026-09-22|iskocya challenge kupasi lig asamasi|stirling albio cumbernauld col|ikinci yari kg yok|21 45",
@@ -69019,7 +69090,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401896294",
       "result_linked_at": "2026-09-22T21:26:05.724Z",
-      "score_linked_at": "2026-09-24T20:38:52.810Z"
+      "score_linked_at": "2026-09-24T23:28:40.489Z"
     },
     {
       "id": "2026-09-22|ingiltere futbol ligi kupasi kuzey grub|rochdale liverpool u21|ikinci yari kg yok|21 00",
@@ -69064,7 +69135,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401909638",
       "result_linked_at": "2026-09-22T21:26:05.724Z",
-      "score_linked_at": "2026-09-24T20:38:52.813Z"
+      "score_linked_at": "2026-09-24T23:28:40.492Z"
     },
     {
       "id": "2026-09-22|ingiltere efl trophy kuzey grup g|oldham fleetwood town|2 5 alt|21 00",
@@ -70188,7 +70259,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401906370",
       "result_linked_at": "2026-09-22T19:59:37.341Z",
-      "score_linked_at": "2026-09-24T20:38:52.816Z"
+      "score_linked_at": "2026-09-24T23:28:40.496Z"
     },
     {
       "id": "2026-09-22|ingiltere efl trophy guney grup e|swindon newport county|ilk yari kg yok|21 00",
@@ -70233,7 +70304,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401906366",
       "result_linked_at": "2026-09-22T19:59:37.341Z",
-      "score_linked_at": "2026-09-24T20:38:52.819Z"
+      "score_linked_at": "2026-09-24T23:28:40.514Z"
     },
     {
       "id": "2026-09-22|ingiltere efl trophy kuzey grup b|wigan blackpool|ilk yari kg yok|21 00",
@@ -70278,7 +70349,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401911179",
       "result_linked_at": "2026-09-22T19:59:37.341Z",
-      "score_linked_at": "2026-09-24T20:38:52.823Z"
+      "score_linked_at": "2026-09-24T23:28:40.517Z"
     },
     {
       "id": "2026-09-22|ingiltere efl trophy kuzey grup g|barnsley leeds united u2|iy kg 2y kg hayir hayir|21 00",
@@ -81703,7 +81774,7 @@
       "result_source": "iddaa.com resmi etkinlik detayı",
       "result_source_match_id": "3241992",
       "result_linked_at": "2026-09-20T22:48:27.209Z",
-      "score_linked_at": "2026-09-24T20:38:53.087Z"
+      "score_linked_at": "2026-09-24T23:28:40.776Z"
     },
     {
       "id": "2026-09-21|italya serie c grup a|trento calcio pro vercelli|2 5 alt|21 30",
@@ -91847,7 +91918,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401878981",
       "result_linked_at": "2026-09-20T16:54:37.841Z",
-      "score_linked_at": "2026-09-24T20:38:53.670Z"
+      "score_linked_at": "2026-09-24T23:28:41.375Z"
     },
     {
       "id": "2026-09-20|kolombiya primera a clausura|bucaramanga inter bogota|ms 1|00 05",
@@ -98295,7 +98366,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401875593",
       "result_linked_at": "2026-09-20T15:02:46.001Z",
-      "score_linked_at": "2026-09-24T20:38:54.238Z"
+      "score_linked_at": "2026-09-24T23:28:41.974Z"
     },
     {
       "id": "2026-09-20|isvec allsvenskan|kalmar hacken|ilk yari kg yok|15 00",
@@ -98340,7 +98411,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401842831",
       "result_linked_at": "2026-09-20T15:02:46.001Z",
-      "score_linked_at": "2026-09-24T20:38:54.245Z"
+      "score_linked_at": "2026-09-24T23:28:41.982Z"
     },
     {
       "id": "2026-09-20|ispanya laliga|getafe malaga|iy kg 2y kg hayir hayir|15 00",
@@ -110289,7 +110360,7 @@
       "result_source": "iddaa.com resmi etkinlik detayı",
       "result_source_match_id": "3139159",
       "result_linked_at": "2026-09-20T05:26:11.410Z",
-      "score_linked_at": "2026-09-24T20:38:55.393Z"
+      "score_linked_at": "2026-09-24T23:28:43.179Z"
     },
     {
       "id": "2026-09-19|azerbaycan premier lig|sabah imisli fk|2 5 alt|18 45",
@@ -114312,7 +114383,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "761827",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-24T20:38:55.506Z"
+      "score_linked_at": "2026-09-24T23:28:43.297Z"
     },
     {
       "id": "2026-09-20|abd mls|salt lake vancouver|ikinci yari kg yok|04 30",
@@ -114342,7 +114413,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "761825",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-24T20:38:55.515Z"
+      "score_linked_at": "2026-09-24T23:28:43.306Z"
     },
     {
       "id": "2026-09-20|meksika liga mx apertura|monterrey cruz azul|ilk yari kg yok|04 10",
@@ -114372,7 +114443,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "401876969",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-24T20:38:55.524Z"
+      "score_linked_at": "2026-09-24T23:28:43.315Z"
     },
     {
       "id": "2026-09-20|brezilya serie a|sao paulo internacional|iy kg 2y kg hayir hayir|03 00",
@@ -114431,7 +114502,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "761816",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-24T20:38:55.533Z"
+      "score_linked_at": "2026-09-24T23:28:43.324Z"
     },
     {
       "id": "2026-09-20|abd mls|dc united charlotte|iy kg 2y kg hayir hayir|02 30",
@@ -114490,7 +114561,7 @@
       "result_source": "ESPN Scoreboard",
       "result_source_match_id": "761818",
       "result_linked_at": "2026-09-20T04:20:05.698Z",
-      "score_linked_at": "2026-09-24T20:38:55.542Z"
+      "score_linked_at": "2026-09-24T23:28:43.333Z"
     },
     {
       "id": "2026-09-18|el salvador primera lig apertura|inca aruba fuerte san fran|ms 1|03 00",
@@ -118894,7 +118965,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T20:52:28.568Z",
-      "score_linked_at": "2026-09-24T20:38:55.773Z"
+      "score_linked_at": "2026-09-24T23:28:43.572Z"
     },
     {
       "id": "2026-09-19|arjantin ulusal primera lig|san telmo caseros|ms 2|21 30",
@@ -121480,7 +121551,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T18:08:52.965Z",
-      "score_linked_at": "2026-09-24T20:38:55.913Z"
+      "score_linked_at": "2026-09-24T23:28:43.719Z"
     },
     {
       "id": "2026-09-19|turkiye tff 1 lig|batman petrol bursaspor|kg yok|20 00",
@@ -123945,7 +124016,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T17:11:55.905Z",
-      "score_linked_at": "2026-09-24T20:38:56.070Z"
+      "score_linked_at": "2026-09-24T23:28:43.883Z"
     },
     {
       "id": "2026-09-19|isvicre super lig|sion zurich|ilk yari kg var|19 00",
@@ -125454,7 +125525,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-19T17:11:55.901Z",
-      "score_linked_at": "2026-09-24T20:38:56.192Z"
+      "score_linked_at": "2026-09-24T23:28:44.010Z"
     },
     {
       "id": "2026-09-19|portekiz premier lig|nacional madei famalicao|2 5 alt|17 30",
@@ -132050,7 +132121,7 @@
       "source": "iddaa.com resmi futbol bülteni",
       "learning_note": "Sonuç bekleniyor.",
       "updated_at": "2026-09-18T17:10:40.151Z",
-      "score_linked_at": "2026-09-24T20:38:56.449Z"
+      "score_linked_at": "2026-09-24T23:28:44.277Z"
     },
     {
       "id": "2026-09-18|finlandiya veikkausliiga|oulu inter turku|ikinci yari kg var|19 00",
