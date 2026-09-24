@@ -48,6 +48,7 @@ jobs:
           node scripts/sync-analysis-results.js
           node scripts/result-tracking-health-check.js
           node scripts/prediction-measurement-health-check.js
+          node scripts/learning-weights-health-check.js
           node scripts/learning-output-check.js
 
       - name: Validate generated learning outputs
