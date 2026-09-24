@@ -2,18 +2,15 @@
 
 Gunler: 2026-09-24 / 2026-09-25
 Kaynak: fixtures.json
-Ham mac: 56
-Aktif mac: 50
+Ham mac: 57
+Aktif mac: 47
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 44
+Bultenden dusurulen mac: 10
+Bugun: 41
 Yarin: 6
 
 ## Baslamamis Maclar
-- 2026-09-24 03:30 | Kolombiya Primera A Clausura | America De Cal - Rionegro Aguila | scheduled | -
-- 2026-09-24 04:00 | El Salvador Primera Lig Apertura | Firpo - Cacahuatique | scheduled | -
-- 2026-09-24 04:00 | El Salvador Primera Lig Apertura | Alianza - Fuerte San Fran | scheduled | -
 - 2026-09-24 04:30 | ABD MLS | Seattle - Salt Lake | scheduled | -
 - 2026-09-24 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Antigua Guatema | scheduled | -
 - 2026-09-24 05:00 | Kanada Premier Lig | Vancouver Fc - Inter Toronto | scheduled | -
