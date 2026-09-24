@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-24T12:11:25.228439+00:00
+Tarih: 2026-09-24T17:15:17.350427+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 39
+- Kac mac bulundu: 22
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 39
+- Kac mac zaten vardi: 22
 - Ham veri havuzu toplam mac sayisi: 16630
 - Hedef tarih: 24.09.2026 Europe/Istanbul
 
@@ -16,29 +16,21 @@ Tarih: 2026-09-24T12:11:25.228439+00:00
 
 - Afrika Uluslar Kupası 2027 Elemeler Grup C
 - Afrika Uluslar Kupası 2027 Elemeler Grup E
-- Afrika Uluslar Kupası 2027 Elemeler Grup F
 - Afrika Uluslar Kupası 2027 Elemeler Grup G
 - Afrika Uluslar Kupası 2027 Elemeler Grup H
 - Avrupa U21 Şampiyonası Eleme Turu Grup A
 - Avrupa U21 Şampiyonası Eleme Turu Grup I
 - CONCACAF Uluslar Ligi Lig B Grup A
 - Ekvador Pro Lig Serie B Şampiyonluk Grubu
-- Estonya Kupa Son 16 Turu
 - Fas Botola Pro
 - Fransa Ligue 3
-- Hazırlık Ülkeler U19
-- Hırvatistan 2. NL
 - Körfez Kupası Grup B
-- Mısır 2. Lig
-- Nijerya NPFL
 - Paraguay Kupa Son 16 Turu
 - UEFA Uluslar Ligi A Ligi Grup 2
 - UEFA Uluslar Ligi A Ligi Grup 4
 - UEFA Uluslar Ligi B Ligi Grup 3
-- UEFA Uluslar Ligi D Ligi Grup 1
 - UEFA Uluslar Ligi D Ligi Grup 2
 - Uruguay Kupa Ön Eleme Turu Grup 1
-- Ürdün 1.Lig
 - İsveç 2.Lig Vastra Götaland
 
 ## Okunabilen Oran Alanlari
@@ -96,8 +88,8 @@ Tarih: 2026-09-24T12:11:25.228439+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 36
-- Acilan detay: 36
+- Denenen Tumu alani: 28
+- Acilan detay: 28
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -115,21 +107,21 @@ Tarih: 2026-09-24T12:11:25.228439+00:00
 | 24.09.2026 | 21:45 | UEFA Uluslar Ligi A Ligi Grup 4 | Portekiz | Galler | 52775 | 4 |
 | 24.09.2026 | 21:45 | UEFA Uluslar Ligi A Ligi Grup 4 | Norveç | Danimarka | 52720 | 5 |
 | 24.09.2026 | 21:45 | UEFA Uluslar Ligi B Ligi Grup 3 | Kosova | İrlanda | 52884 | 5 |
-| 24.09.2026 | 19:00 | UEFA Uluslar Ligi D Ligi Grup 1 | Andorra | Malta | 05270 | 5 |
 | 24.09.2026 | 21:45 | UEFA Uluslar Ligi D Ligi Grup 2 | Lihtenştayn | Litvanya | 01464 | 5 |
 | 24.09.2026 | 21:30 | Avrupa U21 Şampiyonası Eleme Turu Grup A | San Marino (U2 | Kosova (U21) | 17747 | 2 |
-| 24.09.2026 | 21:00 | Avrupa U21 Şampiyonası Eleme Turu Grup I | Belçika (U21) | Belarus (U21) | 13802 | 5 |
+| 24.09.2026 | 21:00 | Avrupa U21 Şampiyonası Eleme Turu Grup I | Belçika (U21) | Belarus (U21) | 13802 | 4 |
 | 24.09.2026 | 22:00 | Afrika Uluslar Kupası 2027 Elemeler Grup C | Fildişi Sahili | Gana | 22162 | 5 |
-| 24.09.2026 | 19:00 | Afrika Uluslar Kupası 2027 Elemeler Grup E | Demokratik Kon | Ekvator Ginesi | 06224 | 5 |
 | 24.09.2026 | 22:00 | Afrika Uluslar Kupası 2027 Elemeler Grup E | Sierra Leone | Zimbabve | 12211 | 5 |
-| 24.09.2026 | 19:00 | Afrika Uluslar Kupası 2027 Elemeler Grup F | Moritanya | Orta Afrika Cum | 04510 | 5 |
-| 24.09.2026 | 16:00 | Afrika Uluslar Kupası 2027 Elemeler Grup G | Namibya | Kongo | 03908 | 5 |
 | 24.09.2026 | 22:00 | Afrika Uluslar Kupası 2027 Elemeler Grup G | Kamerun | Komorlar | 04731 | 5 |
-| 24.09.2026 | 19:00 | Afrika Uluslar Kupası 2027 Elemeler Grup H | Libya | Botsvana | 06465 | 5 |
 | 24.09.2026 | 22:00 | Afrika Uluslar Kupası 2027 Elemeler Grup H | Tunus | Uganda | 12213 | 5 |
 | 24.09.2026 | 22:00 | CONCACAF Uluslar Ligi Lig B Grup A | Porto Riko | Guyana | 16491 | 5 |
-| 24.09.2026 | 18:55 | Körfez Kupası Grup B | Birlesik Arap | Yemen | 01532 | 5 |
 | 24.09.2026 | 21:00 | Körfez Kupası Grup B | Katar | Bahreyn | 03623 | 5 |
+| 24.09.2026 | 21:45 | Fransa Ligue 3 | Caen | Rouen | 18743 | 5 |
+| 24.09.2026 | 23:00 | Fas Botola Pro | Amal Tiznit | Ittihad Tanger | 01575 | 5 |
+| 24.09.2026 | 21:30 | Uruguay Kupa Ön Eleme Turu Grup 1 | Torque | Atenas | 11995 | 5 |
+| 24.09.2026 | 21:30 | Uruguay Kupa Ön Eleme Turu Grup 1 | Danubio | Penarol | 12817 | 5 |
+| 24.09.2026 | 21:15 | İsveç 2.Lig Vastra Götaland | Kongahalla | Lindome Gif | 18740 | 3 |
+| 24.09.2026 | 22:00 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | Atletico Fc | Deportivo Cuenc | 11339 | 5 |
 
 ## Sonuc
 

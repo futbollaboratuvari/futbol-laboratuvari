@@ -1,61 +1,10 @@
 {
-  "generated_at": "2026-09-24T12:11:48.488Z",
+  "generated_at": "2026-09-24T17:15:39.906Z",
   "date": "2026-09-24",
   "source_count": 8,
-  "match_count": 38,
+  "match_count": 42,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
-    {
-      "match_name": "Filistin VS Yeni Zelanda",
-      "league": "Hazırlık Ülkeler",
-      "start_time": "12:30",
-      "recommended_market": "2.5 Alt",
-      "data_gap_risk": "Yüksek",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
     {
       "match_name": "Japonya VS Uruguay",
       "league": "Hazırlık Ülkeler",
@@ -373,7 +322,7 @@
       "match_name": "Maleyet Kafr E VS El Mansura",
       "league": "Mısır 2. Lig",
       "start_time": "16:30",
-      "recommended_market": "MS 1",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -482,7 +431,7 @@
       "match_name": "Team VS El Daklyeh",
       "league": "Mısır 2. Lig",
       "start_time": "16:30",
-      "recommended_market": "KG Yok",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -857,6 +806,57 @@
       ]
     },
     {
+      "match_name": "Sirbistan (U19 VS Bulgaristan U19",
+      "league": "Hazırlık Ülkeler U19",
+      "start_time": "17:00",
+      "recommended_market": "2.5 Üst",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
       "match_name": "Rivers United VS Kun Khalifat",
       "league": "Nijerya NPFL",
       "start_time": "18:00",
@@ -911,7 +911,7 @@
       "match_name": "Nk Koprivnica VS Uskok Klis",
       "league": "Hırvatistan 2. NL",
       "start_time": "18:00",
-      "recommended_market": "MS 2",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1268,7 +1268,7 @@
       "match_name": "Al Ahli VS Maan",
       "league": "Ürdün 1.Lig",
       "start_time": "19:00",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1370,7 +1370,7 @@
       "match_name": "Katar VS Bahreyn",
       "league": "Körfez Kupası Grup B",
       "start_time": "21:00",
-      "recommended_market": "İY KG / 2Y KG Hayır / Hayır",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1421,7 +1421,7 @@
       "match_name": "Kongahalla VS Lindome Gif",
       "league": "İsveç 2.Lig Vastra Götaland",
       "start_time": "21:15",
-      "recommended_market": "MS 1",
+      "recommended_market": "İkinci Yarı KG Yok",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -1524,6 +1524,57 @@
       "league": "Uruguay Kupa Ön Eleme Turu Grup 1",
       "start_time": "21:30",
       "recommended_market": "2.5 Alt",
+      "data_gap_risk": "Orta",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Torque VS Atenas",
+      "league": "Uruguay Kupa Ön Eleme Turu Grup 1",
+      "start_time": "21:30",
+      "recommended_market": "MS 1",
       "data_gap_risk": "Orta",
       "source_plan": [
         {
@@ -2033,7 +2084,7 @@
       "match_name": "Kamerun VS Komorlar",
       "league": "Afrika Uluslar Kupası 2027 Elemeler Grup G",
       "start_time": "22:00",
-      "recommended_market": "MS 1",
+      "recommended_market": "İY KG / 2Y KG Hayır / Hayır",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -2135,8 +2186,110 @@
       "match_name": "Atlético Tembe VS Sportivo Iteno",
       "league": "Paraguay Kupa Son 16 Turu",
       "start_time": "22:00",
-      "recommended_market": "Değerli market yok",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Porto Riko VS Guyana",
+      "league": "CONCACAF Uluslar Ligi Lig B Grup A",
+      "start_time": "22:00",
+      "recommended_market": "İY KG / 2Y KG Hayır / Hayır",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Atletico Fc VS Deportivo Cuenc",
+      "league": "Ekvador Pro Lig Serie B Şampiyonluk Grubu",
+      "start_time": "22:00",
+      "recommended_market": "KG Var",
+      "data_gap_risk": "Orta",
       "source_plan": [
         {
           "name": "Mackolik",
@@ -2188,6 +2341,57 @@
       "start_time": "23:00",
       "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Independiente VS Cuniburo Fc",
+      "league": "Ekvador Pro Lig Serie B Şampiyonluk Grubu",
+      "start_time": "23:30",
+      "recommended_market": "MS 1",
+      "data_gap_risk": "Orta",
       "source_plan": [
         {
           "name": "Mackolik",
