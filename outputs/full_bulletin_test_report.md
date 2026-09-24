@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 38
+- Scheduled match count: 16
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-24 / 2026-09-25 23:59
 
-- 2026-09-24 21:00 | Belçika (U21) - Belarus (U21) | scheduled
-- 2026-09-24 21:00 | Katar - Bahreyn | scheduled
-- 2026-09-24 21:15 | Kongahalla - Lindome Gif | scheduled
-- 2026-09-24 21:30 | San Marino (U2 - Kosova (U21) | scheduled
-- 2026-09-24 21:30 | Danubio - Penarol | scheduled
-- 2026-09-24 21:30 | Torque - Atenas | scheduled
-- 2026-09-24 21:45 | Caen - Rouen | scheduled
-- 2026-09-24 21:45 | Hollanda - Almanya | scheduled
-- 2026-09-24 21:45 | Sirbistan - Yunanistan | scheduled
-- 2026-09-24 21:45 | Norveç - Danimarka | scheduled
+- 2026-09-25 00:00 | O Higgins - Deportes Santa | scheduled
+- 2026-09-25 00:30 | Ldu Portoviejo - 22 De Julio | scheduled
+- 2026-09-25 00:30 | Deportivo Reco - Guairena | scheduled
+- 2026-09-25 02:30 | Everton De Vin - Univ. De Şili | scheduled
+- 2026-09-25 03:00 | Dominik Cumhur - Nikaragua | scheduled
+- 2026-09-25 03:00 | Gualaceo - Indep. Jose Ter | scheduled
+- 2026-09-25 03:10 | Kayman - Dominika | scheduled
+- 2026-09-25 03:20 | Haiti - Trinidad & Toba | scheduled
+- 2026-09-25 03:30 | Atletico Nacio - Los Millionario | scheduled
+- 2026-09-25 04:00 | Alebrijes - Ca La Paz | scheduled
