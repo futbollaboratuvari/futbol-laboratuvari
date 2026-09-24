@@ -2,25 +2,15 @@
 
 Gunler: 2026-09-24 / 2026-09-25
 Kaynak: fixtures.json
-Ham mac: 69
-Aktif mac: 52
+Ham mac: 55
+Aktif mac: 42
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 17
-Bugun: 39
+Bultenden dusurulen mac: 13
+Bugun: 29
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-09-24 16:00 | Afrika Uluslar Kupası 2027 Elemeler Grup G | Namibya - Kongo | scheduled | -
-- 2026-09-24 16:30 | Mısır 2. Lig | Masar - Proxy | scheduled | -
-- 2026-09-24 16:30 | Mısır 2. Lig | Maleyet Kafr E - El Mansura | scheduled | -
-- 2026-09-24 16:30 | Mısır 2. Lig | Team - El Daklyeh | scheduled | -
-- 2026-09-24 16:30 | Mısır 2. Lig | Nasr - El Saka El Hadi | scheduled | -
-- 2026-09-24 16:30 | Mısır 2. Lig | Kahraba Ismail - Pharco | scheduled | -
-- 2026-09-24 17:00 | Estonya Kupa Son 16 Turu | Fc Elva - Tallinna Kalev | scheduled | -
-- 2026-09-24 17:00 | Hazırlık Ülkeler U19 | Sirbistan (U19 - Bulgaristan U19 | scheduled | -
-- 2026-09-24 18:00 | Nijerya NPFL | Rivers United - Kun Khalifat | scheduled | -
-- 2026-09-24 18:00 | Hırvatistan 2. NL | Nk Koprivnica - Uskok Klis | scheduled | -
 - 2026-09-24 18:55 | Körfez Kupası Grup B | Birlesik Arap - Yemen | scheduled | -
 - 2026-09-24 19:00 | UEFA Uluslar Ligi D Ligi Grup 1 | Andorra - Malta | scheduled | -
 - 2026-09-24 19:00 | Afrika Uluslar Kupası 2027 Elemeler Grup E | Demokratik Kon - Ekvator Ginesi | scheduled | -
