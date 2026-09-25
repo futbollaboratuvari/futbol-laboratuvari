@@ -1,17 +1,17 @@
 # PRO Robot Hata Öğrenme Raporu
 
-Oluşturma: 25.09.2026 23:47:05
+Oluşturma: 26.09.2026 02:41:05
 
-- Sonuçlanmış tahmin: 1002
-- Kaybeden tahmin: 473
+- Sonuçlanmış tahmin: 1011
+- Kaybeden tahmin: 479
 - İzlenen market: 8
 - Aktif fren profili olan market: 4
 
 ## Market Profilleri
 
-- 2.5 Alt: 299 sonuç, 134 kayıp, kayıp oranı %45, baskın kaçış goal_overrun, aktif faktör yok
-- MS 2: 92 sonuç, 39 kayıp, kayıp oranı %42, baskın kaçış away_pick_lost, aktif faktör low_data_selection, nonpositive_edge_selection, high_risk_selection
-- MS 1: 230 sonuç, 110 kayıp, kayıp oranı %48, baskın kaçış home_pick_drew, aktif faktör low_data_selection, nonpositive_edge_selection, high_risk_selection
+- 2.5 Alt: 303 sonuç, 136 kayıp, kayıp oranı %45, baskın kaçış goal_overrun, aktif faktör yok
+- MS 2: 94 sonuç, 41 kayıp, kayıp oranı %44, baskın kaçış away_pick_lost, aktif faktör low_data_selection, nonpositive_edge_selection, high_risk_selection
+- MS 1: 233 sonuç, 112 kayıp, kayıp oranı %48, baskın kaçış home_pick_drew, aktif faktör low_data_selection, nonpositive_edge_selection, high_risk_selection
 - 2.5 Üst: 142 sonuç, 67 kayıp, kayıp oranı %47, baskın kaçış goal_shortfall, aktif faktör low_data_selection
 - KG Var: 98 sonuç, 47 kayıp, kayıp oranı %48, baskın kaçış btts_failed, aktif faktör yok
 - KG Yok: 87 sonuç, 47 kayıp, kayıp oranı %54, baskın kaçış btts_occurred, aktif faktör yok
