@@ -48936,6 +48936,28 @@
       "raw_market_guess_odds": {},
       "analysis_options": [
         {
+          "key": "specialist_2_1",
+          "label": "2/1",
+          "market": "2/1",
+          "odd": 22.25,
+          "model_score": 74,
+          "analysis_score": 74,
+          "estimated_probability": 8.5,
+          "market_probability": null,
+          "edge_percent": null,
+          "data_completeness": 74,
+          "independent_evidence": true,
+          "risk_level": "Yüksek",
+          "signals": [
+            "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %74, ana model gücü %63. Market uzman kararı (downgrade): İlk yarı yön desteği sınırlı (%27.6). Resmî maç eşleşmesi benzerlik ile %82 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
+          ],
+          "specialist_source": "verified_high_odds_htft",
+          "specialist_robot": "htft",
+          "specialist_decision": "downgrade",
+          "specialist_eligible": true,
+          "specialist_quality_score": 65
+        },
+        {
           "key": "ms1",
           "label": "MS 1",
           "odd": 2.02,
@@ -50505,10 +50527,10 @@
         },
         "htft": {
           "id": "htft",
-          "status": "no_candidate",
-          "candidate_count": 0,
-          "eligible_count": 0,
-          "supplemental_candidate_count": 0
+          "status": "ready",
+          "candidate_count": 1,
+          "eligible_count": 1,
+          "supplemental_candidate_count": 1
         },
         "match_result": {
           "id": "match_result",
@@ -50542,6 +50564,14 @@
           "eligible": false,
           "quality_score": 40,
           "source": "goal_market_candidates"
+        },
+        {
+          "market": "2/1",
+          "specialist_robot": "htft",
+          "decision": "downgrade",
+          "eligible": true,
+          "quality_score": 65,
+          "source": "verified_high_odds_htft"
         },
         {
           "market": "MS 2",
@@ -50598,6 +50628,28 @@
       },
       "raw_market_guess_odds": {},
       "analysis_options": [
+        {
+          "key": "specialist_1_2",
+          "label": "1/2",
+          "market": "1/2",
+          "odd": 23.2,
+          "model_score": 74,
+          "analysis_score": 74,
+          "estimated_probability": 8.5,
+          "market_probability": null,
+          "edge_percent": null,
+          "data_completeness": 67,
+          "independent_evidence": true,
+          "risk_level": "Yüksek",
+          "signals": [
+            "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %67, ana model gücü %59. Market uzman kararı (downgrade): Resmî maç eşleşmesi benzerlik ile %80 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
+          ],
+          "specialist_source": "verified_high_odds_htft",
+          "specialist_robot": "htft",
+          "specialist_decision": "downgrade",
+          "specialist_eligible": true,
+          "specialist_quality_score": 65
+        },
         {
           "key": "over35",
           "label": "3.5 Üst",
@@ -52024,10 +52076,10 @@
         },
         "htft": {
           "id": "htft",
-          "status": "no_candidate",
-          "candidate_count": 0,
-          "eligible_count": 0,
-          "supplemental_candidate_count": 0
+          "status": "ready",
+          "candidate_count": 1,
+          "eligible_count": 1,
+          "supplemental_candidate_count": 1
         },
         "match_result": {
           "id": "match_result",
@@ -52053,6 +52105,14 @@
           "eligible": true,
           "quality_score": 60,
           "source": "goal_market_candidates"
+        },
+        {
+          "market": "1/2",
+          "specialist_robot": "htft",
+          "decision": "downgrade",
+          "eligible": true,
+          "quality_score": 65,
+          "source": "verified_high_odds_htft"
         },
         {
           "market": "MS 1",
@@ -59372,6 +59432,28 @@
       "raw_market_guess_odds": {},
       "analysis_options": [
         {
+          "key": "specialist_2_1",
+          "label": "2/1",
+          "market": "2/1",
+          "odd": 25,
+          "model_score": 74,
+          "analysis_score": 74,
+          "estimated_probability": 8.5,
+          "market_probability": null,
+          "edge_percent": null,
+          "data_completeness": 73,
+          "independent_evidence": true,
+          "risk_level": "Yüksek",
+          "signals": [
+            "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %73, ana model gücü %68. Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil."
+          ],
+          "specialist_source": "verified_high_odds_htft",
+          "specialist_robot": "htft",
+          "specialist_decision": "downgrade",
+          "specialist_eligible": true,
+          "specialist_quality_score": 65
+        },
+        {
           "key": "over25",
           "label": "2.5 Üst",
           "odd": 1.47,
@@ -60789,10 +60871,10 @@
         },
         "htft": {
           "id": "htft",
-          "status": "no_candidate",
-          "candidate_count": 0,
-          "eligible_count": 0,
-          "supplemental_candidate_count": 0
+          "status": "ready",
+          "candidate_count": 1,
+          "eligible_count": 1,
+          "supplemental_candidate_count": 1
         },
         "match_result": {
           "id": "match_result",
@@ -60818,6 +60900,14 @@
           "eligible": false,
           "quality_score": 40,
           "source": "goal_market_candidates"
+        },
+        {
+          "market": "2/1",
+          "specialist_robot": "htft",
+          "decision": "downgrade",
+          "eligible": true,
+          "quality_score": 65,
+          "source": "verified_high_odds_htft"
         },
         {
           "market": "MS 2",
@@ -92526,14 +92616,14 @@
     "policy": "Ortak veri çekirdeği korunur; marketler ayrı uzman robotlara yönlendirilir; uzman katman ana olasılığı yükseltmez ve bloklanan adayı geri açmaz.",
     "feeds": {
       "htft_high_odds": {
-        "status": "insufficient_verified_odds",
-        "date": "2026-09-25",
-        "verified_pick_count": 1
+        "status": "ready",
+        "date": "2026-09-27",
+        "verified_pick_count": 3
       }
     },
     "match_count": 70,
-    "candidate_count": 460,
-    "eligible_count": 442,
+    "candidate_count": 463,
+    "eligible_count": 445,
     "specialists": {
       "btts": {
         "candidate_count": 134,
@@ -92548,10 +92638,10 @@
         "supplemental_candidate_count": 0
       },
       "htft": {
-        "candidate_count": 0,
-        "eligible_count": 0,
-        "ready_match_count": 0,
-        "supplemental_candidate_count": 0
+        "candidate_count": 3,
+        "eligible_count": 3,
+        "ready_match_count": 3,
+        "supplemental_candidate_count": 3
       },
       "match_result": {
         "candidate_count": 202,

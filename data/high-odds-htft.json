@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-25T18:48:30.013Z",
-  "date": "2026-09-25",
-  "requested_date": "2026-09-25",
-  "date_fallback_used": false,
+  "generated_at": "2026-09-25T22:35:07.654Z",
+  "date": "2026-09-27",
+  "requested_date": "2026-09-26",
+  "date_fallback_used": true,
   "evaluated_dates": [
-    "2026-09-25",
-    "2026-09-26"
+    "2026-09-26",
+    "2026-09-27"
   ],
   "engine": "Futbol Laboratuvarı Yüksek Oran İY/MS v4",
   "source": "data/robot-analysis.json + iddaa.com resmi futbol bülteni",
@@ -15,60 +15,60 @@
     "1/2",
     "2/1"
   ],
-  "scan_count": 87,
-  "scheduled_scan_count": 13,
-  "official_match_count": 750,
-  "official_htft_match_count": 1,
-  "official_high_odds_match_count": 1,
-  "identity_match_count": 9,
-  "matched_by_official_id_count": 6,
+  "scan_count": 60,
+  "scheduled_scan_count": 59,
+  "official_match_count": 704,
+  "official_htft_match_count": 31,
+  "official_high_odds_match_count": 31,
+  "identity_match_count": 40,
+  "matched_by_official_id_count": 3,
   "matched_by_date_teams_count": 0,
-  "matched_by_date_time_similarity_count": 3,
+  "matched_by_date_time_similarity_count": 37,
   "ambiguous_identity_count": 0,
-  "unmatched_identity_count": 4,
-  "candidate_count": 1,
-  "selected_count": 1,
+  "unmatched_identity_count": 19,
+  "candidate_count": 9,
+  "selected_count": 3,
   "target_card_count": 3,
-  "status": "insufficient_verified_odds",
+  "status": "ready",
   "odds_label": "Resmî İddaa İY/MS oranı",
   "confidence_label": "Model güveni bir sonuç olasılığı değil, senaryo sinyal gücüdür.",
-  "message": "Bugün en az iki adet doğrulanmış yüksek oranlı 1/2 veya 2/1 adayı bulunamadı; model oranı gösterilmedi.",
+  "message": "Uzman V4 kalite kapısından geçen en güçlü 1/2 ve 2/1 adayları resmî İddaa oranlarıyla seçildi.",
   "picks": [
     {
-      "match_code": "3155180",
-      "iddaa_event_id": "3155180",
-      "identity_match_source": "iddaa_event_id",
-      "identity_match_score": 100,
-      "date": "2026-09-25",
-      "time": "22:00",
-      "league": "Hollanda 1. Lig",
-      "home": "Dordrecht",
-      "away": "Almere City",
-      "match_name": "Dordrecht VS Almere City",
-      "market": "1/2",
-      "model_confidence": 73,
+      "match_code": "26421",
+      "iddaa_event_id": "3159147",
+      "identity_match_source": "date_time_team_similarity",
+      "identity_match_score": 81.9,
+      "date": "2026-09-27",
+      "time": "02:30",
+      "league": "ABD MLS",
+      "home": "Charlotte",
+      "away": "Chicago",
+      "match_name": "Charlotte VS Chicago",
+      "market": "2/1",
+      "model_confidence": 74,
       "scenario_probability": 8.5,
-      "bookmaker_odds": 22.35,
-      "real_odds": 22.35,
-      "model_odds": 22.35,
+      "bookmaker_odds": 22.25,
+      "real_odds": 22.25,
+      "model_odds": 22.25,
       "odds_source": "iddaa.com resmi futbol bülteni",
       "odds_verified": true,
       "risk_level": "Yüksek",
-      "data_completeness": 53,
-      "source_model_score": 65,
+      "data_completeness": 74,
+      "source_model_score": 63,
       "first_half_signal_source": "official_iddaa_first_half",
       "first_half_signal_verified": true,
-      "openness_score": 0.649,
+      "openness_score": 0.661,
       "reversal_joint_probability": 12.1,
-      "first_half_direction_probability": 28.6,
-      "full_time_direction_probability": 42.3,
-      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %53 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (downgrade): İY/MS için veri kapsamı sınırlı (%53). Maç önü final kontrolü ihtiyat düşümü verdi. Kadro/ilk 11 verisi tam güvenli değil.",
+      "first_half_direction_probability": 27.6,
+      "full_time_direction_probability": 43.8,
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %74, ana model gücü %63. Market uzman kararı (downgrade): İlk yarı yön desteği sınırlı (%27.6). Resmî maç eşleşmesi benzerlik ile %82 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil.",
       "specialist_decision": "downgrade",
       "specialist_eligible": true,
       "specialist_quality_score": 65,
       "market_specialist": {
         "version": "market-specialist-gates-v4",
-        "market": "1/2",
+        "market": "2/1",
         "delta": -4,
         "applied": true,
         "decision": "downgrade",
@@ -98,7 +98,106 @@
           {
             "name": "veri kapsamı",
             "available": true,
+            "ok": true
+          },
+          {
+            "name": "senaryo olasılığı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "ilk yarı yön olasılığı",
+            "available": true,
             "ok": false
+          },
+          {
+            "name": "maç sonu yön olasılığı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "oran/value uyumu",
+            "available": true,
+            "ok": true
+          }
+        ],
+        "value_ratio": 1.891,
+        "implied_probability": 4.49,
+        "mode": "htft_reversal_gate_v4",
+        "reasons": [
+          "İlk yarı yön desteği sınırlı (%27.6).",
+          "Resmî maç eşleşmesi benzerlik ile %82 güven seviyesinde yapıldı.",
+          "Kadro/ilk 11 verisi tam güvenli değil."
+        ],
+        "original_model_score": 78,
+        "adjusted_model_score": 74
+      }
+    },
+    {
+      "match_code": "26479",
+      "iddaa_event_id": "3158637",
+      "identity_match_source": "date_time_team_similarity",
+      "identity_match_score": 80,
+      "date": "2026-09-27",
+      "time": "02:30",
+      "league": "ABD MLS",
+      "home": "Montreal",
+      "away": "Cincinnati",
+      "match_name": "Montreal VS Cincinnati",
+      "market": "1/2",
+      "model_confidence": 74,
+      "scenario_probability": 8.5,
+      "bookmaker_odds": 23.2,
+      "real_odds": 23.2,
+      "model_odds": 23.2,
+      "odds_source": "iddaa.com resmi futbol bülteni",
+      "odds_verified": true,
+      "risk_level": "Yüksek",
+      "data_completeness": 67,
+      "source_model_score": 59,
+      "first_half_signal_source": "official_iddaa_first_half",
+      "first_half_signal_verified": true,
+      "openness_score": 0.67,
+      "reversal_joint_probability": 12,
+      "first_half_direction_probability": 30.7,
+      "full_time_direction_probability": 39.3,
+      "reason": "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %67, ana model gücü %59. Market uzman kararı (downgrade): Resmî maç eşleşmesi benzerlik ile %80 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil.",
+      "specialist_decision": "downgrade",
+      "specialist_eligible": true,
+      "specialist_quality_score": 65,
+      "market_specialist": {
+        "version": "market-specialist-gates-v4",
+        "market": "1/2",
+        "delta": -4,
+        "applied": true,
+        "decision": "downgrade",
+        "eligible": true,
+        "quality_score": 65,
+        "support_count": 8,
+        "support_total": 8,
+        "evidence_known_count": 8,
+        "evidence_coverage_score": 100,
+        "missing_evidence": [],
+        "support_checks": [
+          {
+            "name": "resmî İY/MS oranı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "doğrulanmış ilk yarı yönü",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "açık oyun skoru",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "veri kapsamı",
+            "available": true,
+            "ok": true
           },
           {
             "name": "senaryo olasılığı",
@@ -121,25 +220,154 @@
             "ok": true
           }
         ],
-        "value_ratio": 1.9,
-        "implied_probability": 4.47,
+        "value_ratio": 1.972,
+        "implied_probability": 4.31,
         "mode": "htft_reversal_gate_v4",
         "reasons": [
-          "İY/MS için veri kapsamı sınırlı (%53).",
-          "Maç önü final kontrolü ihtiyat düşümü verdi.",
+          "Resmî maç eşleşmesi benzerlik ile %80 güven seviyesinde yapıldı.",
           "Kadro/ilk 11 verisi tam güvenli değil."
         ],
-        "original_model_score": 77,
-        "adjusted_model_score": 73
+        "original_model_score": 78,
+        "adjusted_model_score": 74
+      }
+    },
+    {
+      "match_code": "26670",
+      "iddaa_event_id": "3161658",
+      "identity_match_source": "date_time_team_similarity",
+      "identity_match_score": 85.4,
+      "date": "2026-09-27",
+      "time": "03:30",
+      "league": "ABD MLS",
+      "home": "Austin",
+      "away": "San Diego",
+      "match_name": "Austin VS San Diego",
+      "market": "2/1",
+      "model_confidence": 74,
+      "scenario_probability": 8.5,
+      "bookmaker_odds": 25,
+      "real_odds": 25,
+      "model_odds": 25,
+      "odds_source": "iddaa.com resmi futbol bülteni",
+      "odds_verified": true,
+      "risk_level": "Yüksek",
+      "data_completeness": 73,
+      "source_model_score": 68,
+      "first_half_signal_source": "official_iddaa_first_half",
+      "first_half_signal_verified": true,
+      "openness_score": 0.609,
+      "reversal_joint_probability": 11.4,
+      "first_half_direction_probability": 29.1,
+      "full_time_direction_probability": 39.3,
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %73, ana model gücü %68. Market uzman kararı (downgrade): Kadro/ilk 11 verisi tam güvenli değil.",
+      "specialist_decision": "downgrade",
+      "specialist_eligible": true,
+      "specialist_quality_score": 65,
+      "market_specialist": {
+        "version": "market-specialist-gates-v4",
+        "market": "2/1",
+        "delta": -4,
+        "applied": true,
+        "decision": "downgrade",
+        "eligible": true,
+        "quality_score": 65,
+        "support_count": 8,
+        "support_total": 8,
+        "evidence_known_count": 8,
+        "evidence_coverage_score": 100,
+        "missing_evidence": [],
+        "support_checks": [
+          {
+            "name": "resmî İY/MS oranı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "doğrulanmış ilk yarı yönü",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "açık oyun skoru",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "veri kapsamı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "senaryo olasılığı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "ilk yarı yön olasılığı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "maç sonu yön olasılığı",
+            "available": true,
+            "ok": true
+          },
+          {
+            "name": "oran/value uyumu",
+            "available": true,
+            "ok": true
+          }
+        ],
+        "value_ratio": 2.125,
+        "implied_probability": 4,
+        "mode": "htft_reversal_gate_v4",
+        "reasons": [
+          "Kadro/ilk 11 verisi tam güvenli değil."
+        ],
+        "original_model_score": 78,
+        "adjusted_model_score": 74
       }
     }
   ],
-  "rejected_picks": [],
+  "rejected_picks": [
+    {
+      "match_name": "Philadelphia VS Orlando City",
+      "market": "2/1",
+      "bookmaker_odds": 17.2,
+      "specialist_decision": "block",
+      "specialist_quality_score": 40,
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %71, ana model gücü %67. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %17.8. İlk yarı yön desteği sınırlı (%17.8). Kadro/ilk 11 verisi tam güvenli değil."
+    },
+    {
+      "match_name": "Nashville Sc VS Toronto",
+      "market": "2/1",
+      "bookmaker_odds": 20.35,
+      "specialist_decision": "block",
+      "specialist_quality_score": 40,
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %71, ana model gücü %61. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %15.9. İlk yarı yön desteği sınırlı (%15.9). Kadro/ilk 11 verisi tam güvenli değil."
+    },
+    {
+      "match_name": "Vancouver VS Dc United",
+      "market": "2/1",
+      "bookmaker_odds": 20.5,
+      "specialist_decision": "block",
+      "specialist_quality_score": 40,
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %61, ana model gücü %72. Market uzman kararı (block): İlk yarı yön olasılığı yalnız %11.7. İY/MS için veri kapsamı sınırlı (%61). İlk yarı yön desteği sınırlı (%11.7). Resmî maç eşleşmesi benzerlik ile %82 güven seviyesinde yapıldı. Kadro/ilk 11 verisi tam güvenli değil."
+    },
+    {
+      "match_name": "Kanada VS Şili",
+      "market": "2/1",
+      "bookmaker_odds": 25.5,
+      "specialist_decision": "block",
+      "specialist_quality_score": 40,
+      "reason": "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %35 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (block): İY/MS için veri kapsamı kritik derecede düşük (%35). İlk yarı yön olasılığı yalnız %17.4. Açık oyun skoru 48/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%35). İlk yarı yön desteği sınırlı (%17.4). Kadro/ilk 11 verisi tam güvenli değil."
+    }
+  ],
   "market_specialist": {
     "version": "market-specialist-gates-v4",
-    "htft_picks_checked": 1,
-    "htft_picks_rejected": 0,
-    "htft_picks_eligible": 1,
+    "htft_picks_checked": 9,
+    "htft_picks_rejected": 4,
+    "htft_picks_eligible": 5,
     "selection_policy": "Tüm doğrulanmış adaylar uzman v4 kapısından geçer; sonra en iyi 3 benzersiz maç seçilir.",
     "probability_policy": "Senaryo olasılığı değiştirilmez; uzman v4 yalnız doğrulanmış sinyallerle keep/downgrade/block kararı verir."
   }
