@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T13:59:09.362Z",
+  "generated_at": "2026-09-25T18:46:09.739Z",
   "totals": {
-    "predictions": 2977,
-    "finished": 977,
+    "predictions": 2983,
+    "finished": 983,
     "pending": 2000
   },
   "learning_output_status": "ready",
@@ -10,6 +10,19 @@
     "label": "market",
     "strong": [],
     "weak": [
+      {
+        "name": "MS 1",
+        "won": 116,
+        "lost": 110,
+        "total": 226,
+        "success_rate": 51,
+        "adjusted_success_rate": 51,
+        "flat_roi": -0.173,
+        "adjusted_roi": -0.153,
+        "weight": 0.94,
+        "ready": true,
+        "learning_state": "penalty"
+      },
       {
         "name": "KG Yok",
         "won": 40,
@@ -19,19 +32,6 @@
         "adjusted_success_rate": 47,
         "flat_roi": -0.208,
         "adjusted_roi": -0.155,
-        "weight": 0.94,
-        "ready": true,
-        "learning_state": "penalty"
-      },
-      {
-        "name": "MS 1",
-        "won": 114,
-        "lost": 110,
-        "total": 224,
-        "success_rate": 51,
-        "adjusted_success_rate": 51,
-        "flat_roi": -0.178,
-        "adjusted_roi": -0.157,
         "weight": 0.94,
         "ready": true,
         "learning_state": "penalty"
