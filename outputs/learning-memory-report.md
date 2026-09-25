@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.09.2026 20:52:44
+Oluşturma: 26.09.2026 00:20:48
 
 ## Özet
 
-- Toplam tahmin: 2983
+- Toplam tahmin: 3002
 - Bekleyen tahmin: 2000
-- Kazanan tahmin: 517
-- Kaybeden tahmin: 466
+- Kazanan tahmin: 529
+- Kaybeden tahmin: 473
 - Lig sayısı: 468
 - Seçenek sayısı: 13
 
@@ -22,34 +22,34 @@ Oluşturma: 25.09.2026 20:52:44
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 367, bekleyen 277, başarı %57, düz getiri %3, ağırlık 1
-- 2.5 Alt: toplam 862, bekleyen 574, başarı %56, düz getiri %-8, ağırlık 1
-- 2.5 Üst: toplam 299, bekleyen 159, başarı %52, düz getiri %-8, ağırlık 1
-- KG Var: toplam 210, bekleyen 112, başarı %52, düz getiri %-8, ağırlık 1
-- MS 1: toplam 748, bekleyen 522, başarı %51, düz getiri %-17, ağırlık 0.94
-- 3.5 Üst: toplam 86, bekleyen 43, başarı %51, düz getiri %1, ağırlık 1
+- MS 2: toplam 366, bekleyen 274, başarı %58, düz getiri %4, ağırlık 1
+- 2.5 Alt: toplam 859, bekleyen 560, başarı %55, düz getiri %-9, ağırlık 1
+- 2.5 Üst: toplam 300, bekleyen 158, başarı %53, düz getiri %-7, ağırlık 1
+- MS 1: toplam 757, bekleyen 527, başarı %52, düz getiri %-16, ağırlık 0.94
+- KG Var: toplam 220, bekleyen 122, başarı %52, düz getiri %-8, ağırlık 1
+- 3.5 Üst: toplam 90, bekleyen 47, başarı %51, düz getiri %1, ağırlık 1
 - KG Yok: toplam 195, bekleyen 108, başarı %46, düz getiri %-21, ağırlık 0.94
-- MS X: toplam 21, bekleyen 10, başarı %27, düz getiri %-30, ağırlık 1
-- İkinci Yarı KG Yok: toplam 41, bekleyen 41, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- MS X: toplam 20, bekleyen 9, başarı %27, düz getiri %-30, ağırlık 1
 - İY KG / 2Y KG Hayır / Hayır: toplam 105, bekleyen 105, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- İkinci Yarı KG Yok: toplam 41, bekleyen 41, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İlk Yarı KG Yok: toplam 12, bekleyen 12, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İlk Yarı KG Var: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-09-25 | Meksika Liga MX Apertura | Atlante - Monterrey | 2.5 Alt | pending | 69/100
-- 2026-09-25 | ABD USL | El Paso Locomo - Tulsa Roughneck | MS 1 | pending | 53/100
-- 2026-09-25 | Meksika Liga MX Apertura | Club Tijuana - Atlas | 2.5 Üst | pending | 68/100
-- 2026-09-25 | CONCACAF Uluslar Ligi Lig B Grup B | Barbados - St. Lucia | 2.5 Alt | pending | 50/100
-- 2026-09-25 | Meksika Ascenso MX Apertura | Correcaminos U - Jaiba Brava | 2.5 Alt | pending | 57/100
-- 2026-09-25 | Kanada Premier Lig | Cavalry - Supra Du Quebec | MS 1 | pending | 50/100
-- 2026-09-25 | Kolombiya Primera A Clausura | Once Caldas - Bucaramanga | KG Var | pending | 74/100
-- 2026-09-25 | Yeni Zelanda Bölgesel Ligler Ulusal Lig | Wellington Pho - Auckland United | MS 2 | pending | 51/100
-- 2026-09-25 | Yeni Zelanda Bölgesel Ligler Ulusal Lig | Ferrymead Bays - Eastern Suburbs | 2.5 Alt | pending | 48/100
-- 2026-09-25 | Japonya J3 Lig | Zweigen Kanaza - Gainare Tottori | KG Var | pending | 54/100
-- 2026-09-25 | Ekvador Pro Lig Serie B Küme Düşme Grubu | El Nacional - Cumbaya | 2.5 Alt | pending | 47/100
-- 2026-09-25 | Meksika Liga MX Kadınlar | Cruz Azul (K) - Guadalajara (K) | MS 2 | pending | 43/100
-- 2026-09-25 | CONCACAF Uluslar A Ligi, Grp B | El Salvador - Martinik | 2.5 Alt | pending | 55/100
-- 2026-09-25 | ABD Championship | Sporting Jax - Loudoun United | 3.5 Üst | pending | 60/100
-- 2026-09-25 | CONCACAF Uluslar A Ligi, Grp B | Jamaika - Guatemala | 2.5 Alt | pending | 55/100
+- 2026-09-26 | ABD USL | Orange County - Pittsburgh Rive | KG Var | pending | 70/100
+- 2026-09-26 | El Salvador Primera Lig Apertura | Isidro Metapan - Cacahuatique | KG Var | pending | 69/100
+- 2026-09-26 | Guatemala Ulusal Lig Apertura | Xelaju - Comunicaciones | 2.5 Alt | pending | 70/100
+- 2026-09-26 | ABD MLS | Vancouver - Dc United | KG Var | pending | 72/100
+- 2026-09-26 | ABD MLS | Los Angeles - Colorado | MS 1 | pending | 51/100
+- 2026-09-26 | ABD MLS | San Jose - Portland | 3.5 Üst | pending | 59/100
+- 2026-09-26 | Meksika Liga MX Apertura | Santos Laguna - Pachuca | 2.5 Alt | pending | 62/100
+- 2026-09-26 | Meksika Liga MX Apertura | Tigres Uanl - Puebla | 2.5 Alt | pending | 70/100
+- 2026-09-26 | El Salvador Primera Lig Apertura | Firpo - Aguila | 2.5 Üst | pending | 69/100
+- 2026-09-26 | El Salvador Primera Lig Apertura | Inter Fa - Balboa | MS 1 | pending | 58/100
+- 2026-09-26 | ABD MLS | Seattle - Minnesota Utd | MS 1 | pending | 57/100
+- 2026-09-26 | ABD MLS | Austin - San Diego | 2.5 Alt | pending | 68/100
+- 2026-09-26 | ABD MLS | Houston - Kansas | MS 1 | pending | 50/100
+- 2026-09-26 | ABD MLS | Nashville Sc - Toronto | MS 1 | pending | 61/100
+- 2026-09-26 | ABD MLS | Dallas - Los Angeles Fc | 3.5 Üst | pending | 58/100
 

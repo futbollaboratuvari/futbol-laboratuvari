@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:54:04.176Z",
+  "generated_at": "2026-09-25T21:24:18.093Z",
   "timezone": "Europe/Istanbul",
   "source": "Haftalık 15 maç programı + Futbol Laboratuvarı PRO 13",
   "official_game_format_verified": true,
@@ -15,7 +15,7 @@
   "match_count": 15,
   "analysis_ready_count": 15,
   "analysis_waiting_count": 0,
-  "source_match_count": 106,
+  "source_match_count": 70,
   "verification_sources": [
     {
       "name": "Spor Toto Teşkilat Başkanlığı",
@@ -51,23 +51,23 @@
       "away": "Fransa",
       "match": "Türkiye - Fransa",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "18170",
-      "one": 7.03,
-      "draw": 5.54,
-      "two": 1.24,
-      "oneOdd": 7.03,
-      "drawOdd": 5.54,
-      "twoOdd": 1.24,
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
       "probabilities": {
         "1": 9,
         "2": 82,
         "X": 9
       },
       "market_probabilities": {
-        "1": 12.6,
-        "2": 71.4,
-        "X": 16
+        "1": null,
+        "2": null,
+        "X": null
       },
       "public_distribution": {
         "1": 9,
@@ -98,60 +98,71 @@
       ],
       "model_version": "pro13-btts-conditioned-v3",
       "score_type": "spor_toto_1x2",
-      "independent_evidence": false,
       "form": {
         "home": {
-          "count": 0,
+          "count": 1,
           "scored": 0,
-          "conceded": 0,
+          "conceded": 1,
           "bttsRate": 0,
           "over25Rate": 0,
           "over35Rate": 0,
           "goalsForAvg": 0,
-          "goalsAgainstAvg": 0,
+          "goalsAgainstAvg": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
+          "losses": 1,
           "winRate": 0,
           "drawRate": 0,
-          "lossRate": 0,
+          "lossRate": 100,
           "pointsPerGame": 0,
-          "recent": [],
-          "sample": 0,
+          "recent": [
+            "L"
+          ],
+          "sample": 1,
           "ppg": 0,
           "goals_for_avg": 0,
-          "goals_against_avg": 0
+          "goals_against_avg": 1
         },
         "away": {
-          "count": 0,
-          "scored": 0,
+          "count": 1,
+          "scored": 1,
           "conceded": 0,
           "bttsRate": 0,
           "over25Rate": 0,
           "over35Rate": 0,
-          "goalsForAvg": 0,
+          "goalsForAvg": 1,
           "goalsAgainstAvg": 0,
-          "wins": 0,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "winRate": 0,
+          "winRate": 100,
           "drawRate": 0,
           "lossRate": 0,
-          "pointsPerGame": 0,
-          "recent": [],
-          "sample": 0,
-          "ppg": 0,
-          "goals_for_avg": 0,
+          "pointsPerGame": 3,
+          "recent": [
+            "W"
+          ],
+          "sample": 1,
+          "ppg": 3,
+          "goals_for_avg": 1,
           "goals_against_avg": 0
         }
       },
-      "h2h": [],
+      "h2h": [
+        {
+          "date": "2026-09-25",
+          "home": "Türkiye",
+          "away": "Fransa",
+          "score": "0-1"
+        }
+      ],
       "squad": {
         "available": false,
         "home": [],
         "away": [],
         "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
       },
+      "independent_evidence": false,
       "evidence_mode": "cross_verified_public_distribution",
       "archive_analysis": {
         "ready": false,
@@ -227,26 +238,28 @@
       "score_type": "spor_toto_1x2",
       "form": {
         "home": {
-          "count": 0,
+          "count": 1,
           "scored": 0,
-          "conceded": 0,
+          "conceded": 1,
           "bttsRate": 0,
           "over25Rate": 0,
           "over35Rate": 0,
           "goalsForAvg": 0,
-          "goalsAgainstAvg": 0,
+          "goalsAgainstAvg": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
+          "losses": 1,
           "winRate": 0,
           "drawRate": 0,
-          "lossRate": 0,
+          "lossRate": 100,
           "pointsPerGame": 0,
-          "recent": [],
-          "sample": 0,
+          "recent": [
+            "L"
+          ],
+          "sample": 1,
           "ppg": 0,
           "goals_for_avg": 0,
-          "goals_against_avg": 0
+          "goals_against_avg": 1
         },
         "away": {
           "count": 0,
@@ -305,23 +318,23 @@
       "away": "Romanya",
       "match": "İsveç - Romanya",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "18263",
-      "one": 1.31,
-      "draw": 4.3,
-      "two": 5.53,
-      "oneOdd": 1.31,
-      "drawOdd": 4.3,
-      "twoOdd": 5.53,
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
       "probabilities": {
         "1": 88,
         "2": 5,
         "X": 7
       },
       "market_probabilities": {
-        "1": 64.8,
-        "2": 15.4,
-        "X": 19.8
+        "1": null,
+        "2": null,
+        "X": null
       },
       "public_distribution": {
         "1": 88,
@@ -352,7 +365,6 @@
       ],
       "model_version": "pro13-btts-conditioned-v3",
       "score_type": "spor_toto_1x2",
-      "independent_evidence": false,
       "form": {
         "home": {
           "count": 0,
@@ -406,6 +418,7 @@
         "away": [],
         "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
       },
+      "independent_evidence": false,
       "evidence_mode": "cross_verified_public_distribution",
       "archive_analysis": {
         "ready": false,
@@ -432,23 +445,23 @@
       "away": "Belçika",
       "match": "İtalya - Belçika",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "52090",
-      "one": 1.98,
-      "draw": 3.22,
-      "two": 2.77,
-      "oneOdd": 1.98,
-      "drawOdd": 3.22,
-      "twoOdd": 2.77,
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
       "probabilities": {
         "1": 51,
         "2": 18,
         "X": 31
       },
       "market_probabilities": {
-        "1": 43.5,
-        "2": 29.8,
-        "X": 26.7
+        "1": null,
+        "2": null,
+        "X": null
       },
       "public_distribution": {
         "1": 51,
@@ -479,7 +492,6 @@
       ],
       "model_version": "pro13-btts-conditioned-v3",
       "score_type": "spor_toto_1x2",
-      "independent_evidence": false,
       "form": {
         "home": {
           "count": 0,
@@ -533,6 +545,7 @@
         "away": [],
         "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
       },
+      "independent_evidence": false,
       "evidence_mode": "cross_verified_public_distribution",
       "archive_analysis": {
         "ready": false,
@@ -1957,8 +1970,8 @@
   ],
   "archive_enrichment": {
     "source": "Futbol Laboratuvarı gerçek sonuç arşivi + haftalık Spor Toto oynanma dağılımı",
-    "generated_at": "2026-09-25T17:54:03.097Z",
-    "archive_match_count": 16683,
+    "generated_at": "2026-09-25T21:24:17.893Z",
+    "archive_match_count": 17152,
     "archive_ready_count": 0,
     "distribution_ready_count": 15,
     "analysis_available_count": 15
