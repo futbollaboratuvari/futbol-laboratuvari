@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-25T01:53:09.824695+00:00
+Tarih: 2026-09-25T07:13:34.441900+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 96
+- Kac mac bulundu: 95
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 96
+- Kac mac zaten vardi: 95
 - Ham veri havuzu toplam mac sayisi: 16734
 - Hedef tarih: 25.09.2026 Europe/Istanbul
 
@@ -126,8 +126,8 @@ Tarih: 2026-09-25T01:53:09.824695+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 61
-- Acilan detay: 61
+- Denenen Tumu alani: 60
+- Acilan detay: 60
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -140,26 +140,26 @@ Tarih: 2026-09-25T01:53:09.824695+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 25.09.2026 | 21:45 | UEFA Uluslar Ligi A Ligi Grup 1 | Türkiye | Fransa | 18170 | 5 |
 | 25.09.2026 | 21:45 | UEFA Uluslar Ligi A Ligi Grup 1 | İtalya | Belçika | 52090 | 5 |
-| 25.09.2026 | 21:45 | UEFA Uluslar Ligi B Ligi Grup 2 | Macaristan | Ukrayna | 53312 | 5 |
+| 25.09.2026 | 21:45 | UEFA Uluslar Ligi A Ligi Grup 1 | Türkiye | Fransa | 18170 | 5 |
 | 25.09.2026 | 19:00 | UEFA Uluslar Ligi B Ligi Grup 2 | Gürcistan | Kuzey İrlanda | 52939 | 5 |
+| 25.09.2026 | 21:45 | UEFA Uluslar Ligi B Ligi Grup 2 | Macaristan | Ukrayna | 53312 | 5 |
 | 25.09.2026 | 21:45 | UEFA Uluslar Ligi B Ligi Grup 4 | İsveç | Romanya | 18263 | 5 |
 | 25.09.2026 | 21:45 | UEFA Uluslar Ligi B Ligi Grup 4 | Polonya | Bosna Hersek | 07409 | 5 |
-| 25.09.2026 | 19:00 | UEFA Uluslar Ligi C Ligi Grup 2 | Ermenistan | Letonya | 52994 | 5 |
 | 25.09.2026 | 21:45 | UEFA Uluslar Ligi C Ligi Grup 2 | Karadağ | G. Kıbrıs Rum K | 53367 | 5 |
+| 25.09.2026 | 19:00 | UEFA Uluslar Ligi C Ligi Grup 2 | Ermenistan | Letonya | 52994 | 5 |
 | 25.09.2026 | 21:30 | İspanya 2.Lig | Girona | Albacete | 07992 | 5 |
 | 25.09.2026 | 17:00 | Hazırlık Ülkeler | Hindistan | Panama | 37098 | 5 |
 | 25.09.2026 | 13:00 | Hazırlık Ülkeler | Avustralya | Brezilya | 10682 | 5 |
-| 25.09.2026 | 21:45 | İrlanda Premier Lig | Galway United | Shelbourne | 13142 | 5 |
+| 25.09.2026 | 21:45 | İrlanda Premier Lig | Galway United | Shelbourne | 15253 | 5 |
 | 25.09.2026 | 18:30 | Avrupa U21 Şampiyonası Eleme Turu Grup A | Finlandiya (U2 | İspanya (U21) | 13107 | 5 |
 | 25.09.2026 | 19:00 | Avrupa U21 Şampiyonası Eleme Turu Grup A | G.Kibris (U21) | Romanya (U21) | 13316 | 5 |
-| 25.09.2026 | 18:30 | Avrupa U21 Şampiyonası Eleme Turu Grup B | Bulgaristan U2 | Portekiz (U21) | 12998 | 5 |
+| 25.09.2026 | 18:30 | Avrupa U21 Şampiyonası Eleme Turu Grup B | Bulgaristan U2 | Portekiz (U21) | 12998 | 4 |
 | 25.09.2026 | 16:45 | Avrupa U21 Şampiyonası Eleme Turu Grup B | Azerbaycan (U2 | Çek Cumhuriyeti | 12103 | 5 |
+| 25.09.2026 | 19:00 | Avrupa U21 Şampiyonası Eleme Turu Grup C | Estonya (U21) | Faroe Adalari ( | 13177 | 5 |
 | 25.09.2026 | 20:30 | Avrupa U21 Şampiyonası Eleme Turu Grup C | İsviçre (U21) | Lüksemburg (U21 | 14926 | 5 |
 | 25.09.2026 | 18:00 | Avrupa U21 Şampiyonası Eleme Turu Grup C | İzlanda (U21) | Fransa (U21) | 12944 | 5 |
-| 25.09.2026 | 19:00 | Avrupa U21 Şampiyonası Eleme Turu Grup C | Estonya (U21) | Faroe Adalari ( | 13177 | 5 |
-| 25.09.2026 | 21:30 | Avrupa U21 Şampiyonası Eleme Turu Grup D | İngiltere (U21 | Kazakistan (U21 | 14970 | 4 |
+| 25.09.2026 | 19:00 | Avrupa U21 Şampiyonası Eleme Turu Grup D | Slovakya (U21) | İrlanda Cumhuri | 13527 | 5 |
 
 ## Sonuc
 

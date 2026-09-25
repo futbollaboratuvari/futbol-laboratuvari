@@ -3,17 +3,14 @@
 Gunler: 2026-09-25 / 2026-09-26
 Kaynak: fixtures.json
 Ham mac: 116
-Aktif mac: 105
+Aktif mac: 102
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 97
+Bultenden dusurulen mac: 14
+Bugun: 94
 Yarin: 8
 
 ## Baslamamis Maclar
-- 2026-09-25 05:00 | CONCACAF Uluslar Ligi Lig A Grup A | Kosta Rika - Curacao | scheduled | -
-- 2026-09-25 05:00 | Guatemala Ulusal Lig Apertura | Municipal - Suchitepequez | scheduled | -
-- 2026-09-25 08:00 | Asya Oyunları Çeyrek Final | Özbekistan U23 - Suudi Arabistan | scheduled | -
 - 2026-09-25 12:00 | FIFA ASEAN Kupası Lig 1 Grup A | Bangladeş - Malezya | scheduled | -
 - 2026-09-25 12:30 | U20 Elit Lig Normal Sezon | İtalya (U20) - İngiltere (U20) | scheduled | -
 - 2026-09-25 12:30 | Hazırlık Ülkeler U19 | Polonya (U19) - İsviçre U19 | scheduled | -
