@@ -1,6 +1,6 @@
 # Learning Output Check
 
-Generated: 2026-09-25T02:00:07.147Z
+Generated: 2026-09-25T06:59:27.296Z
 Status: ready
 
 ## Checks
@@ -20,7 +20,7 @@ Status: ready
 - Robot matches: 112
 - Learning adjusted count: 30
 - Memory predictions: 2964
-- Pending predictions: 2000
+- Pending predictions: 1987
 - Retention: training 964/3000, pending 2000/2000, void 0/500
 - Market retention floor: 120
 
