@@ -1,70 +1,39 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-25T12:51:45.226707+00:00
+Tarih: 2026-09-25T17:50:27.352383+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 103
+- Kac mac bulundu: 48
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 103
-- Ham veri havuzu toplam mac sayisi: 16768
+- Kac mac zaten vardi: 48
+- Ham veri havuzu toplam mac sayisi: 16774
 - Hedef tarih: 25.09.2026 Europe/Istanbul
 
 ## Ligler
 
 - Afrika Uluslar Kupası 2027 Elemeler Grup A
 - Afrika Uluslar Kupası 2027 Elemeler Grup B
-- Afrika Uluslar Kupası 2027 Elemeler Grup C
 - Afrika Uluslar Kupası 2027 Elemeler Grup F
 - Afrika Uluslar Kupası 2027 Elemeler Grup I
-- Afrika Uluslar Kupası 2027 Elemeler Grup J
 - Afrika Uluslar Kupası 2027 Elemeler Grup K
-- Afrika Uluslar Kupası 2027 Elemeler Grup L
-- Almanya 3. Lig
-- Almanya Bölgesel Lig Güney Batı
-- Almanya Bölgesel Lig Kuzey
-- Almanya Bölgesel Lig Kuzey Doğu
-- Arjantin Kadınlar Primera A 2. Aşama
-- Avrupa U21 Şampiyonası Eleme Turu Grup A
-- Avrupa U21 Şampiyonası Eleme Turu Grup B
-- Avrupa U21 Şampiyonası Eleme Turu Grup C
 - Avrupa U21 Şampiyonası Eleme Turu Grup D
-- Avrupa U21 Şampiyonası Eleme Turu Grup G
-- Belarus 1.Lig
 - Belçika Kadınlar Süper Lig
 - CONCACAF Uluslar Ligi Lig B Grup B
-- Danimarka 2.Lig
-- Danimarka 3.Lig
-- FIFA ASEAN Kupası Lig 1 Grup A
-- Finlandiya Ykkönen Yükselme Turu
-- Finlandiya Ykkösliiga
-- Fransa U19 Ulusal Şampiyona Grup A
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
-- Hazırlık Kulüpler
-- Hazırlık Ülkeler
-- Hazırlık Ülkeler U19
 - Hollanda Eerste Divisie
-- Hırvatistan 2. NL
-- Hırvatistan 2.HNL
 - Kuzey İrlanda Championship
+- Kuzey İrlanda Kadınlar Premier Lig Küme Düşme Grubu
+- Kuzey İrlanda Kadınlar Premier Lig Şampiyonluk Grubu
 - Kuzey İrlanda Premiership
-- Mısır 2. Lig
-- Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 4
-- Norveç Kadınlar Toppserien
 - Paraguay Intermedia Lig
-- Portekiz U23 Ulusal Şampiyona
-- Slovakya 2.Lig
-- Slovenya 2.SNL
-- U20 Elit Lig Normal Sezon
 - UEFA Uluslar Ligi A Ligi Grup 1
 - UEFA Uluslar Ligi B Ligi Grup 2
 - UEFA Uluslar Ligi B Ligi Grup 4
 - UEFA Uluslar Ligi C Ligi Grup 2
-- Ürdün 1.Lig
 - İngiltere FA Trophy 3. Eleme Turu
 - İngiltere Professional Development Lig
 - İrlanda 1.Lig
@@ -74,9 +43,7 @@ Tarih: 2026-09-25T12:51:45.226707+00:00
 - İspanya 2.Lig
 - İspanya Primera Lig RFEF Grup 2
 - İspanya Tercera Ligi Grup 12
-- İsveç 2.Lig Norra Götaland
-- İsveç 2.Lig Södra Götaland
-- İsveç 2.Lig Vastra Götaland
+- İzlanda Kadınlar Urvalsdeild Düşme Grubu
 
 ## Okunabilen Oran Alanlari
 
@@ -133,8 +100,8 @@ Tarih: 2026-09-25T12:51:45.226707+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 81
-- Acilan detay: 81
+- Denenen Tumu alani: 49
+- Acilan detay: 49
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -147,26 +114,26 @@ Tarih: 2026-09-25T12:51:45.226707+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 25.09.2026 | 21:45 | UEFA Uluslar Ligi A Ligi Grup 1 | Türkiye | Fransa | 18170 | 5 |
 | 25.09.2026 | 21:45 | UEFA Uluslar Ligi A Ligi Grup 1 | İtalya | Belçika | 52090 | 5 |
-| 25.09.2026 | 19:00 | UEFA Uluslar Ligi B Ligi Grup 2 | Gürcistan | Kuzey İrlanda | 52939 | 5 |
+| 25.09.2026 | 21:45 | UEFA Uluslar Ligi A Ligi Grup 1 | Türkiye | Fransa | 18170 | 5 |
 | 25.09.2026 | 21:45 | UEFA Uluslar Ligi B Ligi Grup 2 | Macaristan | Ukrayna | 53312 | 5 |
 | 25.09.2026 | 21:45 | UEFA Uluslar Ligi B Ligi Grup 4 | İsveç | Romanya | 18263 | 5 |
 | 25.09.2026 | 21:45 | UEFA Uluslar Ligi B Ligi Grup 4 | Polonya | Bosna Hersek | 07409 | 5 |
 | 25.09.2026 | 21:45 | UEFA Uluslar Ligi C Ligi Grup 2 | Karadağ | G. Kıbrıs Rum K | 53367 | 5 |
-| 25.09.2026 | 19:00 | UEFA Uluslar Ligi C Ligi Grup 2 | Ermenistan | Letonya | 52994 | 5 |
 | 25.09.2026 | 21:30 | İspanya 2.Lig | Girona | Albacete | 07992 | 5 |
 | 25.09.2026 | 22:00 | Hollanda Eerste Divisie | Dordrecht | Almere City | 16116 | 5 |
-| 25.09.2026 | 17:00 | Hazırlık Ülkeler | Hindistan | Panama | 37098 | 5 |
 | 25.09.2026 | 21:45 | İrlanda Premier Lig | Galway United | Shelbourne | 15253 | 5 |
-| 25.09.2026 | 19:00 | Avrupa U21 Şampiyonası Eleme Turu Grup A | G.Kibris (U21) | Romanya (U21) | 13316 | 5 |
-| 25.09.2026 | 18:30 | Avrupa U21 Şampiyonası Eleme Turu Grup A | Finlandiya (U2 | İspanya (U21) | 13107 | 5 |
-| 25.09.2026 | 18:30 | Avrupa U21 Şampiyonası Eleme Turu Grup B | Bulgaristan U2 | Portekiz (U21) | 12998 | 4 |
-| 25.09.2026 | 16:45 | Avrupa U21 Şampiyonası Eleme Turu Grup B | Azerbaycan (U2 | Çek Cumhuriyeti | 12103 | 5 |
-| 25.09.2026 | 20:30 | Avrupa U21 Şampiyonası Eleme Turu Grup C | İsviçre (U21) | Lüksemburg (U21 | 14926 | 5 |
-| 25.09.2026 | 18:00 | Avrupa U21 Şampiyonası Eleme Turu Grup C | İzlanda (U21) | Fransa (U21) | 12944 | 5 |
-| 25.09.2026 | 19:00 | Avrupa U21 Şampiyonası Eleme Turu Grup C | Estonya (U21) | Faroe Adalari ( | 13177 | 5 |
-| 25.09.2026 | 19:00 | Avrupa U21 Şampiyonası Eleme Turu Grup D | Slovakya (U21) | İrlanda Cumhuri | 13527 | 5 |
+| 25.09.2026 | 21:30 | Avrupa U21 Şampiyonası Eleme Turu Grup D | İngiltere (U21 | Kazakistan (U21 | 14970 | 4 |
+| 25.09.2026 | 22:00 | Afrika Uluslar Kupası 2027 Elemeler Grup A | Fas | Gabon | 16197 | 4 |
+| 25.09.2026 | 22:00 | Afrika Uluslar Kupası 2027 Elemeler Grup B | Misir | Angola | 16343 | 5 |
+| 25.09.2026 | 22:00 | Afrika Uluslar Kupası 2027 Elemeler Grup F | Burkina Faso | Benin | 15975 | 5 |
+| 25.09.2026 | 22:00 | Afrika Uluslar Kupası 2027 Elemeler Grup I | Cezayir | Zambiya | 16053 | 4 |
+| 25.09.2026 | 22:00 | Afrika Uluslar Kupası 2027 Elemeler Grup K | Mali | Kape Verde | 16281 | 5 |
+| 25.09.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Spartans | Dundee Ii | 37108 | 2 |
+| 25.09.2026 | 22:00 | CONCACAF Uluslar Ligi Lig B Grup B | Bermuda | Guadeloupe | 15891 | 5 |
+| 25.09.2026 | 21:45 | Kuzey İrlanda Premiership | Coleraine | Linfield | 15197 | 5 |
+| 25.09.2026 | 21:45 | İrlanda 1.Lig | Treaty Unt. | Finn Harps | 15786 | 5 |
+| 25.09.2026 | 21:45 | İrlanda 1.Lig | Kerry | Wexford Youths | 15487 | 5 |
 
 ## Sonuc
 
