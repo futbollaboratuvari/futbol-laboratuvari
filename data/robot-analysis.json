@@ -105206,11 +105206,11 @@
           "signals": [
             "İlk yarı deplasman yönü ile maç sonu ev sahibi yönü aynı maçta birlikte güçleniyor. Ters sonuç sinyali var; gol temposu nedeniyle risk seviyesi yüksek tutuldu. Veri kapsamı %57, ana model gücü %71. Market uzman kararı (downgrade): Açık oyun skoru 51/100; ters sonuç için sınırlı destek. İY/MS için veri kapsamı sınırlı (%57). Kadro/ilk 11 verisi tam güvenli değil."
           ],
-          "specialist_source": "verified_high_odds_htft",
+          "specialist_source": "analysis_options",
           "specialist_robot": "htft",
-          "specialist_decision": "downgrade",
-          "specialist_eligible": true,
-          "specialist_quality_score": 65
+          "specialist_decision": "block",
+          "specialist_eligible": false,
+          "specialist_quality_score": 25
         },
         {
           "key": "bttsNo",
@@ -111425,10 +111425,10 @@
         },
         "htft": {
           "id": "htft",
-          "status": "ready",
+          "status": "blocked",
           "candidate_count": 1,
-          "eligible_count": 1,
-          "supplemental_candidate_count": 1
+          "eligible_count": 0,
+          "supplemental_candidate_count": 0
         },
         "match_result": {
           "id": "match_result",
@@ -111490,10 +111490,10 @@
         {
           "market": "2/1",
           "specialist_robot": "htft",
-          "decision": "downgrade",
-          "eligible": true,
-          "quality_score": 65,
-          "source": "verified_high_odds_htft"
+          "decision": "block",
+          "eligible": false,
+          "quality_score": 25,
+          "source": "analysis_options"
         },
         {
           "market": "MS 2",
@@ -129425,9 +129425,9 @@
           "key": "specialist_1_2",
           "label": "1/2",
           "market": "1/2",
-          "odd": 20.7,
-          "model_score": 72,
-          "analysis_score": 72,
+          "odd": 22.35,
+          "model_score": 73,
+          "analysis_score": 73,
           "estimated_probability": 8.5,
           "market_probability": null,
           "edge_percent": null,
@@ -129435,7 +129435,7 @@
           "independent_evidence": true,
           "risk_level": "Yüksek",
           "signals": [
-            "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %53 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (downgrade): İY/MS için veri kapsamı sınırlı (%53). İlk yarı yön desteği sınırlı (%26.3). Kadro/ilk 11 verisi tam güvenli değil."
+            "İlk yarı ev sahibi yönü ile maç sonu deplasman yönü aynı maçta birlikte güçleniyor. Gol/açık oyun sinyali ters sonuç senaryosunu destekliyor. Veri kapsamı %53 olduğu için seçim yüksek risk etiketiyle sunuluyor. Market uzman kararı (downgrade): İY/MS için veri kapsamı sınırlı (%53). Maç önü final kontrolü ihtiyat düşümü verdi. Kadro/ilk 11 verisi tam güvenli değil."
           ],
           "specialist_source": "verified_high_odds_htft",
           "specialist_robot": "htft",
@@ -183268,14 +183268,14 @@
     "policy": "Ortak veri çekirdeği korunur; marketler ayrı uzman robotlara yönlendirilir; uzman katman ana olasılığı yükseltmez ve bloklanan adayı geri açmaz.",
     "feeds": {
       "htft_high_odds": {
-        "status": "ready",
+        "status": "insufficient_verified_odds",
         "date": "2026-09-25",
-        "verified_pick_count": 2
+        "verified_pick_count": 1
       }
     },
     "match_count": 106,
     "candidate_count": 742,
-    "eligible_count": 735,
+    "eligible_count": 734,
     "specialists": {
       "btts": {
         "candidate_count": 274,
@@ -183291,9 +183291,9 @@
       },
       "htft": {
         "candidate_count": 2,
-        "eligible_count": 2,
-        "ready_match_count": 2,
-        "supplemental_candidate_count": 2
+        "eligible_count": 1,
+        "ready_match_count": 1,
+        "supplemental_candidate_count": 1
       },
       "match_result": {
         "candidate_count": 300,
