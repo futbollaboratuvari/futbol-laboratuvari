@@ -1,20 +1,613 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T15:33:21.881Z",
+  "generated_at": "2026-09-25T19:32:48.935Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-25T15:33:21.346Z",
+  "source_generated_at": "2026-09-25T19:32:47.402Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 0,
-    "ready_count": 0,
-    "waiting_count": 0,
-    "result_lean_count": 0,
-    "next_goal_lean_count": 0,
+    "live_match_count": 8,
+    "ready_count": 6,
+    "waiting_count": 2,
+    "result_lean_count": 5,
+    "next_goal_lean_count": 4,
     "high_goal_pressure_count": 0
   },
-  "matches": []
+  "matches": [
+    {
+      "fixture_id": "401900630",
+      "status": "ready",
+      "minute": 32,
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "home": "Bermuda",
+      "away": "Guadeloupe",
+      "league": "CONCACAF Uluslar Ligi Lig B Grup B",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-25T19:32:47.402Z",
+      "freshness_minutes": 0.02555,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 75
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 85.74799999999999
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 81.42
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 23
+      },
+      "signals": [
+        "Team Power: Bermuda %72 · Guadeloupe %28.",
+        "Goal Power: Bermuda %27 · Guadeloupe %10.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 44,
+        "goal_power_diff": 17,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 2,
+        "total_shots_diff": 2,
+        "corners_diff": 0,
+        "xg_diff": 0,
+        "direction_score": 39.72,
+        "next_goal_score": 29.42
+      }
+    },
+    {
+      "fixture_id": "401920037",
+      "status": "ready",
+      "minute": 31,
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "home": "Burkina Faso",
+      "away": "Benin",
+      "league": "Afrika Uluslar Kupası 2027 Elemeler Grup F",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-25T19:32:47.402Z",
+      "freshness_minutes": 0.02555,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 70
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 78.69200000000001
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 67.08
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 13
+      },
+      "signals": [
+        "Team Power: Burkina Faso %73 · Benin %27.",
+        "Goal Power: Burkina Faso %15 · Benin %6.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 46,
+        "goal_power_diff": 9,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 0,
+        "total_shots_diff": 0,
+        "corners_diff": 3,
+        "xg_diff": 0,
+        "direction_score": 31.88,
+        "next_goal_score": 15.08
+      }
+    },
+    {
+      "fixture_id": "401883200",
+      "status": "ready",
+      "minute": 45,
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "home": "Girona",
+      "away": "Albacete",
+      "league": "İspanya 2.Lig",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-25T19:32:47.402Z",
+      "freshness_minutes": 0.02555,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 67
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 74.21000000000001
+      },
+      "next_goal_lean": {
+        "code": null,
+        "label": "Sonraki gol için net ayrışma yok",
+        "side": "neutral",
+        "strength": 55.9
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 20
+      },
+      "signals": [
+        "Team Power: Girona %55 · Albacete %45.",
+        "Goal Power: Girona %21 · Albacete %21.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 10,
+        "goal_power_diff": 0,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": -1,
+        "total_shots_diff": -1,
+        "corners_diff": -3,
+        "xg_diff": 0,
+        "direction_score": 26.9,
+        "next_goal_score": -3.1
+      }
+    },
+    {
+      "fixture_id": "401878561",
+      "status": "ready",
+      "minute": 45,
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "home": "Arbroath",
+      "away": "Queen's Park",
+      "league": "İskoçya Championship",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-25T19:32:47.402Z",
+      "freshness_minutes": 0.02555,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 78.5
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 5
+      },
+      "signals": [
+        "Team Power: Arbroath %100 · Queen's Park %0.",
+        "Goal Power: Arbroath %7 · Queen's Park %0.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 100,
+        "goal_power_diff": 7,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 0,
+        "total_shots_diff": 0,
+        "corners_diff": 0,
+        "xg_diff": 0,
+        "direction_score": 71.4,
+        "next_goal_score": 26.5
+      }
+    },
+    {
+      "fixture_id": "401878557",
+      "status": "insufficient_data",
+      "minute": 45,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "home": "Raith Rovers",
+      "away": "Livingston",
+      "league": "İskoçya Championship",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-25T19:32:47.402Z",
+      "freshness_minutes": 0.02555,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": "power_signal_missing",
+      "primary_prediction": {
+        "type": "wait",
+        "label": "Veri yeterli değil · tahmin verilmedi",
+        "confidence": null
+      },
+      "result_lean": null,
+      "next_goal_lean": null,
+      "goal_pressure": null,
+      "signals": []
+    },
+    {
+      "fixture_id": "401875920",
+      "status": "ready",
+      "minute": 32,
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "home": "FC Dordrecht",
+      "away": "Almere City",
+      "league": "Hollanda Eerste Divisie",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-25T19:32:47.402Z",
+      "freshness_minutes": 0.02555,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "watch",
+        "label": "Net canlı tahmin yok · izlemeye devam",
+        "confidence": 48
+      },
+      "result_lean": {
+        "code": null,
+        "label": "Taraf için ayrışma yok",
+        "side": "neutral",
+        "strength": 48.06
+      },
+      "next_goal_lean": {
+        "code": null,
+        "label": "Sonraki gol için net ayrışma yok",
+        "side": "neutral",
+        "strength": 45.46
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 18
+      },
+      "signals": [
+        "Team Power: FC Dordrecht %59 · Almere City %41.",
+        "Goal Power: FC Dordrecht %20 · Almere City %12.",
+        "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 18,
+        "goal_power_diff": 8,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 1,
+        "total_shots_diff": 1,
+        "corners_diff": 1,
+        "xg_diff": 0,
+        "direction_score": 14.94,
+        "next_goal_score": 13.54
+      }
+    },
+    {
+      "fixture_id": "401896273",
+      "status": "insufficient_data",
+      "minute": 45,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "home": "Spartans FC",
+      "away": "Dundee B",
+      "league": "İskoçya Challenge Kupası Lig Aşaması",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-25T19:32:47.402Z",
+      "freshness_minutes": 0.02555,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": "power_signal_missing",
+      "primary_prediction": {
+        "type": "wait",
+        "label": "Veri yeterli değil · tahmin verilmedi",
+        "confidence": null
+      },
+      "result_lean": null,
+      "next_goal_lean": null,
+      "goal_pressure": null,
+      "signals": []
+    },
+    {
+      "fixture_id": "401920039",
+      "status": "ready",
+      "minute": 30,
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "home": "Mali",
+      "away": "Cape Verde",
+      "league": "Afrika Uluslar Kupası 2027 Elemeler Grup K",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-25T19:32:47.402Z",
+      "freshness_minutes": 0.02555,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "next_goal",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "confidence": 68
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 74.354
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 75.36
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 22
+      },
+      "signals": [
+        "Team Power: Mali %66 · Cape Verde %34.",
+        "Goal Power: Mali %26 · Cape Verde %12.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 32,
+        "goal_power_diff": 14,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 1,
+        "total_shots_diff": 5,
+        "corners_diff": 2,
+        "xg_diff": 0,
+        "direction_score": 27.06,
+        "next_goal_score": 23.36
+      }
+    }
+  ]
 }
