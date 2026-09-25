@@ -1,103 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T00:32:14.868Z",
+  "generated_at": "2026-09-25T05:21:57.030Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-25T00:32:14.074Z",
+  "source_generated_at": "2026-09-25T05:21:56.802Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 1,
-    "ready_count": 1,
+    "live_match_count": 0,
+    "ready_count": 0,
     "waiting_count": 0,
-    "result_lean_count": 1,
-    "next_goal_lean_count": 1,
+    "result_lean_count": 0,
+    "next_goal_lean_count": 0,
     "high_goal_pressure_count": 0
   },
-  "matches": [
-    {
-      "fixture_id": "401900636",
-      "status": "ready",
-      "minute": 11,
-      "score": {
-        "home": 0,
-        "away": 0
-      },
-      "home": "Haiti",
-      "away": "Trinidad and Tobago",
-      "league": "CONCACAF Uluslar Ligi Lig A Grup A",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-25T00:32:14.074Z",
-      "freshness_minutes": 0.013233333333333333,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Ev sahibi yönü",
-        "confidence": 78
-      },
-      "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 90
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 23
-      },
-      "signals": [
-        "Team Power: Haiti %90 · Trinidad and Tobago %10.",
-        "Goal Power: Haiti %29 · Trinidad and Tobago %0.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": 80,
-        "goal_power_diff": 29,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 1,
-        "total_shots_diff": 3,
-        "corners_diff": 1,
-        "xg_diff": 0,
-        "direction_score": 44.9,
-        "next_goal_score": 40.1
-      }
-    }
-  ]
+  "matches": []
 }
