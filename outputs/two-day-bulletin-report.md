@@ -3,21 +3,14 @@
 Gunler: 2026-09-25 / 2026-09-26
 Kaynak: fixtures.json
 Ham mac: 116
-Aktif mac: 112
+Aktif mac: 105
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 104
+Bultenden dusurulen mac: 11
+Bugun: 97
 Yarin: 8
 
 ## Baslamamis Maclar
-- 2026-09-25 03:00 | CONCACAF Uluslar Ligi Lig A Grup A | Dominik Cumhur - Nikaragua | scheduled | -
-- 2026-09-25 03:00 | Ekvador Kupa Çeyrek Final | Gualaceo - Indep. Jose Ter | scheduled | -
-- 2026-09-25 03:10 | CONCACAF Uluslar Ligi Lig B Grup A | Kayman - Dominika | scheduled | -
-- 2026-09-25 03:20 | CONCACAF Uluslar Ligi Lig A Grup A | Haiti - Trinidad & Toba | scheduled | -
-- 2026-09-25 03:30 | Kolombiya Primera A Clausura | Atletico Nacio - Los Millionario | scheduled | -
-- 2026-09-25 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Ca La Paz | scheduled | -
-- 2026-09-25 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Piratas | scheduled | -
 - 2026-09-25 05:00 | CONCACAF Uluslar Ligi Lig A Grup A | Kosta Rika - Curacao | scheduled | -
 - 2026-09-25 05:00 | Guatemala Ulusal Lig Apertura | Municipal - Suchitepequez | scheduled | -
 - 2026-09-25 08:00 | Asya Oyunları Çeyrek Final | Özbekistan U23 - Suudi Arabistan | scheduled | -

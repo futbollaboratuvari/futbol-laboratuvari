@@ -1,6 +1,6 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-24T23:34:02.965692+00:00
+Tarih: 2026-09-25T01:53:09.824695+00:00
 
 ## Ozet
 
@@ -154,7 +154,7 @@ Tarih: 2026-09-24T23:34:02.965692+00:00
 | 25.09.2026 | 21:45 | İrlanda Premier Lig | Galway United | Shelbourne | 13142 | 5 |
 | 25.09.2026 | 18:30 | Avrupa U21 Şampiyonası Eleme Turu Grup A | Finlandiya (U2 | İspanya (U21) | 13107 | 5 |
 | 25.09.2026 | 19:00 | Avrupa U21 Şampiyonası Eleme Turu Grup A | G.Kibris (U21) | Romanya (U21) | 13316 | 5 |
-| 25.09.2026 | 18:30 | Avrupa U21 Şampiyonası Eleme Turu Grup B | Bulgaristan U2 | Portekiz (U21) | 12998 | 4 |
+| 25.09.2026 | 18:30 | Avrupa U21 Şampiyonası Eleme Turu Grup B | Bulgaristan U2 | Portekiz (U21) | 12998 | 5 |
 | 25.09.2026 | 16:45 | Avrupa U21 Şampiyonası Eleme Turu Grup B | Azerbaycan (U2 | Çek Cumhuriyeti | 12103 | 5 |
 | 25.09.2026 | 20:30 | Avrupa U21 Şampiyonası Eleme Turu Grup C | İsviçre (U21) | Lüksemburg (U21 | 14926 | 5 |
 | 25.09.2026 | 18:00 | Avrupa U21 Şampiyonası Eleme Turu Grup C | İzlanda (U21) | Fransa (U21) | 12944 | 5 |
