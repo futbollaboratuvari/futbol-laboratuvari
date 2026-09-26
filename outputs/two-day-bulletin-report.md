@@ -2,34 +2,15 @@
 
 Gunler: 2026-09-26 / 2026-09-27
 Kaynak: fixtures.json
-Ham mac: 519
-Aktif mac: 366
+Ham mac: 556
+Aktif mac: 351
 Canli mac: 0
-Biten mac: 2
-Bultenden dusurulen mac: 153
-Bugun: 305
+Biten mac: 0
+Bultenden dusurulen mac: 205
+Bugun: 290
 Yarin: 61
 
 ## Baslamamis Maclar
-- 2026-09-26 16:30 | Galler Premier Lig 1.Aşama | Cardiff Mu - Caernarfon | scheduled | -
-- 2026-09-26 16:30 | Galler Premier Lig 1.Aşama | Trefelin - The New Saints | scheduled | -
-- 2026-09-26 16:30 | Galler Premier Lig 1.Aşama | Barry Town - Gap Connahs Qua | scheduled | -
-- 2026-09-26 16:30 | Galler Premier Lig 1.Aşama | Holywell Town - Briton Ferry | scheduled | -
-- 2026-09-26 16:30 | Galler Premier Lig 1.Aşama | Cambrian - Llandudno | scheduled | -
-- 2026-09-26 16:30 | Galler Premier Lig 1.Aşama | Flint Town - Ammanford | scheduled | -
-- 2026-09-26 16:30 | Galler Premier Lig 1.Aşama | Penybont - Airbus Uk | scheduled | -
-- 2026-09-26 16:30 | Galler Premier Lig 1.Aşama | Colwyn Bay - Haverfordwest | scheduled | -
-- 2026-09-26 16:30 | Slovakya 2.Lig | Povazska Bystr - Mfk Bytca | scheduled | -
-- 2026-09-26 16:30 | Slovakya 2.Lig | Samorin - Lokomotiva Zvol | scheduled | -
-- 2026-09-26 16:30 | Slovakya 2.Lig | Banik Lehota P - Galanta | scheduled | -
-- 2026-09-26 16:30 | Galler FAW Championship Güney | Cardiff Dracon - Caerau Ely | scheduled | -
-- 2026-09-26 16:30 | Galler FAW Championship Güney | Ynyshir Albion - Trethomas Blueb | scheduled | -
-- 2026-09-26 16:30 | Polonya Kadınlar Ekstraliga | Sleza Wroclaw - Gornik Leczna ( | scheduled | -
-- 2026-09-26 16:30 | Galler FAW Championship Kuzey | Newtown - Porthmadog | scheduled | -
-- 2026-09-26 16:30 | Galler FAW Championship Kuzey | Holyhead - Guilsfield Fc | scheduled | -
-- 2026-09-26 16:30 | Galler FAW Championship Kuzey | Llanuwchllyn - Caersws | scheduled | -
-- 2026-09-26 16:30 | Galler FAW Championship Güney | Llantwit Major - Llanelli Town | scheduled | -
-- 2026-09-26 16:30 | Galler FAW Championship Güney | Pontardawe - Treowen Stars | scheduled | -
 - 2026-09-26 17:00 | İskoçya Challenge Kupası Lig Aşaması | Cumbernauld Co - St. Mirren Ii | scheduled | -
 - 2026-09-26 17:00 | İskoçya Challenge Kupası Lig Aşaması | Formartine Uni - Edinburg C. | scheduled | -
 - 2026-09-26 17:00 | İskoçya Challenge Kupası Lig Aşaması | Peterhead - Elgin | scheduled | -
@@ -191,6 +172,8 @@ Yarin: 61
 - 2026-09-26 18:00 | İspanya Tercera Ligi Grup 4 | Erandio - Amurrio | scheduled | -
 - 2026-09-26 18:00 | İspanya Tercera Ligi Grup 6 | Jove Espanol - Acero | scheduled | -
 - 2026-09-26 18:00 | İspanya Tercera Ligi Grup 15 | Txantrea - Bidezarra | scheduled | -
+- 2026-09-26 18:00 | Cezayir 2.Lig Batı | El Bayadh - Gc Mascara | scheduled | -
+- 2026-09-26 18:00 | Cezayir 2.Lig Doğu | Beni Oulbane - Ca Batna | scheduled | -
 - 2026-09-26 18:15 | Finlandiya Ykkönen Yükselme Turu | Rops - Salpa Salo | scheduled | -
 - 2026-09-26 18:15 | İspanya 2. Lig RFEF Grup 2 | Ebro - Terrassa | scheduled | -
 - 2026-09-26 18:30 | İtalya Serie C Grup A | Novara - Ospitaletto | scheduled | -
@@ -225,6 +208,7 @@ Yarin: 61
 - 2026-09-26 19:00 | Fas Botola 2 | Kac Kenitra - Wydad Fes | scheduled | -
 - 2026-09-26 19:00 | Ürdün 1.Lig | Al Hashemeya - Jerash | scheduled | -
 - 2026-09-26 19:00 | İspanya Tercera Ligi Grup 2 | Siero - Ceares | scheduled | -
+- 2026-09-26 19:00 | Türkiye 3.Lig 2.Grup | Karşiyaka - Gaziemir Sk | scheduled | -
 - 2026-09-26 19:30 | İspanya 2.Lig | Tenerife - Cadiz | scheduled | -
 - 2026-09-26 19:30 | İspanya 2.Lig | Celta Vigo Ii - Sabadell | scheduled | -
 - 2026-09-26 19:30 | İngiltere 2.Lig | Oldham - Salford City | scheduled | -
@@ -246,6 +230,7 @@ Yarin: 61
 - 2026-09-26 20:00 | İspanya Tercera Ligi Grup 7 | Cala Pozuelo - Leganes Ii | scheduled | -
 - 2026-09-26 20:00 | İspanya Tercera Ligi Grup 1 | Sarriana - Gran Pena | scheduled | -
 - 2026-09-26 20:00 | Norveç 3.Lig Grup 3 | Vard Haugesund - Fana | scheduled | -
+- 2026-09-26 20:00 | İspanya Tercera Ligi Grup 9 | Malaga B - Atlético De Mar | scheduled | -
 - 2026-09-26 20:30 | İsviçre 1.Lig Promotion | Bulle - Schaffhausen | scheduled | -
 - 2026-09-26 20:30 | İspanya Tercera Ligi Grup 2 | Caudal Deporti - L Entregu | scheduled | -
 - 2026-09-26 21:00 | Hollanda Eerste Divisie | Emmen - Oss | scheduled | -
@@ -382,5 +367,4 @@ Yarin: 61
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-09-26 13:00 | İspanya Kadınlar Primera Lig | Badalona (K) - Granada (K) | finished | 0-1
-- 2026-09-26 13:00 | İspanya Kadınlar Primera Lig | Real Sociedad - Real Madrid (K) | finished | 3-5
+Biten mac yok.
