@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.09.2026 12:37:21
+Oluşturma: 26.09.2026 16:15:52
 
 ## Özet
 
 - Toplam tahmin: 3054
-- Bekleyen tahmin: 2000
-- Kazanan tahmin: 552
-- Kaybeden tahmin: 502
-- Lig sayısı: 486
+- Bekleyen tahmin: 1997
+- Kazanan tahmin: 553
+- Kaybeden tahmin: 504
+- Lig sayısı: 485
 - Seçenek sayısı: 12
 
 ## Öğrenme Mantığı
@@ -22,12 +22,12 @@ Oluşturma: 26.09.2026 12:37:21
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 385, bekleyen 289, başarı %57, düz getiri %2, ağırlık 1
+- MS 2: toplam 385, bekleyen 288, başarı %58, düz getiri %3, ağırlık 1
 - 2.5 Alt: toplam 839, bekleyen 518, başarı %54, düz getiri %-11, ağırlık 0.949
 - KG Var: toplam 221, bekleyen 119, başarı %54, düz getiri %-5, ağırlık 1
 - 3.5 Üst: toplam 88, bekleyen 43, başarı %53, düz getiri %6, ağırlık 1
-- 2.5 Üst: toplam 304, bekleyen 155, başarı %53, düz getiri %-7, ağırlık 1
-- MS 1: toplam 812, bekleyen 570, başarı %50, düz getiri %-19, ağırlık 0.94
+- 2.5 Üst: toplam 304, bekleyen 154, başarı %53, düz getiri %-7, ağırlık 1
+- MS 1: toplam 812, bekleyen 569, başarı %50, düz getiri %-19, ağırlık 0.94
 - KG Yok: toplam 201, bekleyen 113, başarı %47, düz getiri %-20, ağırlık 0.94
 - MS X: toplam 16, bekleyen 5, başarı %27, düz getiri %-30, ağırlık 1
 - İlk Yarı KG Yok: toplam 22, bekleyen 22, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
@@ -51,5 +51,5 @@ Oluşturma: 26.09.2026 12:37:21
 - 2026-09-26 | ABD USL | Monterey Bay - Lexington | 2.5 Alt | pending | 58/100
 - 2026-09-26 | Meksika Kadınlar Liga MX Apertura | Juarez (K) - Tijuana (K) | MS 1 | pending | 53/100
 - 2026-09-26 | Meksika Ascenso MX Apertura | Dorados - Durango | 2.5 Alt | pending | 62/100
-- 2026-09-26 | ABD USL | San Antonio - Tampa Bay Rowdi | 2.5 Alt | pending | 65/100
+- 2026-09-26 | ABD USL | New Mexico Uni - Sacramento Repu | 2.5 Üst | pending | 63/100
 

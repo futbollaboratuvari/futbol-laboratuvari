@@ -2,145 +2,15 @@
 
 Gunler: 2026-09-26 / 2026-09-27
 Kaynak: fixtures.json
-Ham mac: 552
-Aktif mac: 496
+Ham mac: 519
+Aktif mac: 366
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 56
-Bugun: 435
+Biten mac: 2
+Bultenden dusurulen mac: 153
+Bugun: 305
 Yarin: 61
 
 ## Baslamamis Maclar
-- 2026-09-26 13:00 | İspanya Primera Lig RFEF Grup 1 | Extremadura 19 - Zamora | scheduled | -
-- 2026-09-26 13:00 | İspanya Kadınlar Primera Lig | Badalona (K) - Granada (K) | scheduled | -
-- 2026-09-26 13:00 | İspanya Kadınlar Primera Lig | Real Sociedad - Real Madrid (K) | scheduled | -
-- 2026-09-26 13:00 | İspanya Tercera Ligi Grup 4 | Aretxabaleta - Derio | scheduled | -
-- 2026-09-26 13:00 | İspanya Tercera Ligi Grup 6 | Villarreal Iii - Levante Ii | scheduled | -
-- 2026-09-26 13:00 | İspanya Tercera Ligi Grup 12 | Real Unión De - Panaderia Pulid | scheduled | -
-- 2026-09-26 13:00 | Polonya Kadınlar Ekstraliga | Uks Lodz (K) - Pogon Szczecin | scheduled | -
-- 2026-09-26 13:15 | İspanya Tercera Ligi Grup 17 | Huesca Ii - Fraga | scheduled | -
-- 2026-09-26 13:30 | İtalya Kadınlar Serie A | Juventus (K) - Napoli (K) | scheduled | -
-- 2026-09-26 13:30 | İsveç 2.Lig Norra Svealand | Helges - Fc Gute | scheduled | -
-- 2026-09-26 13:30 | Asya Oyunları Çeyrek Final | Japonya U23 - Kuzey Kore U23 | scheduled | -
-- 2026-09-26 14:00 | Norveç 2.Lig Grup 1 | Sotra Sk - Pors Grenland | scheduled | -
-- 2026-09-26 14:00 | Norveç 3.Lig Grup 1 | Heming - Ullern | scheduled | -
-- 2026-09-26 14:00 | Norveç 3.Lig Grup 5 | Skedsmo - Ulfstind | scheduled | -
-- 2026-09-26 14:00 | Danimarka 3.Lig | Ringsted - Naesby | scheduled | -
-- 2026-09-26 14:00 | İsveç 2.Lig Norra Svealand | Viggbyholms Ik - Korsnas If Fk | scheduled | -
-- 2026-09-26 14:00 | İsveç 2.Lig Vastra Götaland | Jonsereds If - Hestrafor | scheduled | -
-- 2026-09-26 14:00 | İsveç 2.Lig Norra Götaland | Vanersborgs Fk - Husqvarna | scheduled | -
-- 2026-09-26 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Kubikenborgs I - Ifk Lulea | scheduled | -
-- 2026-09-26 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Ostersund - Bodens | scheduled | -
-- 2026-09-26 14:00 | İsveç 2.Lig Norrland Düşme Grubu | Ifk Umea - Umea Ff | scheduled | -
-- 2026-09-26 14:00 | İsveç Kadınlar Damallsvenskan | Kristianstad ( - Vittsjö (K) | scheduled | -
-- 2026-09-26 14:00 | Estonya Esiliiga B | Viljandi Tulev - Tartu Kalev | scheduled | -
-- 2026-09-26 14:00 | Norveç Kadınlar Toppserien | Molde (K) - Vålerenga (K) | scheduled | -
-- 2026-09-26 14:00 | Norveç Kadınlar Toppserien | Haugesund (K) - Lilleström (K) | scheduled | -
-- 2026-09-26 14:00 | Norveç Kadınlar Toppserien | Lyn (K) - Hønefoss (K) | scheduled | -
-- 2026-09-26 14:00 | Belarus 1.Lig | Niva Dolbizno - Volna Pinsk | scheduled | -
-- 2026-09-26 14:00 | Norveç 3.Lig Grup 1 | Konnerud - Kfum Ii | scheduled | -
-- 2026-09-26 14:00 | Norveç 3.Lig Grup 1 | If Ready - Sf Grei | scheduled | -
-- 2026-09-26 14:00 | İspanya Tercera Ligi Grup 12 | Villa Santa Br - Villaverde Nort | scheduled | -
-- 2026-09-26 14:00 | Almanya U19 Bundesliga Grup I | Arminia U19 - Havelse U19 | scheduled | -
-- 2026-09-26 14:30 | Finlandiya Ykkönen Yükselme Turu | Oulun Ls - Pk Keski Uusima | scheduled | -
-- 2026-09-26 14:30 | Rusya FNL | Spartak Kostro - Ural | scheduled | -
-- 2026-09-26 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nantong Zhiyun - Changchun Yatai | scheduled | -
-- 2026-09-26 14:30 | Danimarka 2.Lig | Vsk Arhus - Skive | scheduled | -
-- 2026-09-26 14:30 | Belçika Kadınlar Süper Lig | Anderlecht (K) - La Louvière (K) | scheduled | -
-- 2026-09-26 14:30 | Belarus 1.Lig | Soligorsk - Fc Minsk Ii | scheduled | -
-- 2026-09-26 15:00 | İspanya 2.Lig | Ceuta - Real Sociedad I | scheduled | -
-- 2026-09-26 15:00 | Finlandiya Ykkösliiga | Ekenas If - Sjk Ii | scheduled | -
-- 2026-09-26 15:00 | Norveç 2.Lig Grup 1 | Lysekloster - Sandviken | scheduled | -
-- 2026-09-26 15:00 | Norveç 2.Lig Grup 2 | Kjelsas - Follo | scheduled | -
-- 2026-09-26 15:00 | Almanya Bölgesel Lig Kuzey | Sankt Pauli Ii - Kickers Emden | scheduled | -
-- 2026-09-26 15:00 | Almanya Bölgesel Lig Batı | B.Dortmund (Am - Fc Bocholt | scheduled | -
-- 2026-09-26 15:00 | Almanya Bölgesel Lig Batı | Bochum Ii - Schalke 04 (Am) | scheduled | -
-- 2026-09-26 15:00 | Almanya Bölgesel Lig Güney Batı | Steinbach - Homburg | scheduled | -
-- 2026-09-26 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Leipzig - Erfurt | scheduled | -
-- 2026-09-26 15:00 | Danimarka 2.Lig | Brabrand - Nykobing | scheduled | -
-- 2026-09-26 15:00 | Danimarka 2.Lig | Fa 2000 - Fremad Amager | scheduled | -
-- 2026-09-26 15:00 | Hollanda Kadınlar Eredivisie | Psv Eindhoven - De Graafschap ( | scheduled | -
-- 2026-09-26 15:00 | Norveç 3.Lig Grup 1 | Valerenga Ii - Baerum | scheduled | -
-- 2026-09-26 15:00 | Norveç 3.Lig Grup 1 | Asker - Nordstrand | scheduled | -
-- 2026-09-26 15:00 | Norveç 3.Lig Grup 2 | Byasen - Orkla | scheduled | -
-- 2026-09-26 15:00 | Norveç 3.Lig Grup 6 | Oppsal - Brumunddal | scheduled | -
-- 2026-09-26 15:00 | Danimarka 3.Lig | Frem - Sundby | scheduled | -
-- 2026-09-26 15:00 | Danimarka 3.Lig | Vanlose - Bronshoj | scheduled | -
-- 2026-09-26 15:00 | İsveç 2.Lig Norra Svealand | Sunnersta Aif - Lidingö | scheduled | -
-- 2026-09-26 15:00 | İsveç 2.Lig Vastra Götaland | Galtabacks - Astrio | scheduled | -
-- 2026-09-26 15:00 | İsveç 2.Lig Södra Götaland | Nosaby If - Staffanstorp Un | scheduled | -
-- 2026-09-26 15:00 | İsveç 2.Lig Södra Götaland | Karlshamn - Karlskrona | scheduled | -
-- 2026-09-26 15:00 | İsveç 2.Lig Södra Svealand | Fittja - Nacka Iliria | scheduled | -
-- 2026-09-26 15:00 | İsveç 2.Lig Norra Götaland | Grebbestads If - Skara | scheduled | -
-- 2026-09-26 15:00 | İsveç 2.Lig Norra Götaland | Ifk Kumla - Lidkopings | scheduled | -
-- 2026-09-26 15:00 | İsveç 2.Lig Norrland Yükselme Grubu | Skelleftea - Gottne | scheduled | -
-- 2026-09-26 15:00 | İsveç 2.Lig Norrland Düşme Grubu | Storfors - Friska Viljor | scheduled | -
-- 2026-09-26 15:00 | Belarus 1.Lig | Energetik-Bgu - Orsha | scheduled | -
-- 2026-09-26 15:00 | Almanya Bölgesel Lig Kuzey | Hamburger Sv ( - Atlas Delmenhor | scheduled | -
-- 2026-09-26 15:00 | Almanya Bölgesel Lig Batı | Bergisch Gladb - Westfalia Rhyne | scheduled | -
-- 2026-09-26 15:00 | Almanya Bölgesel Lig Bayern | Unterhaching - Eichstatt | scheduled | -
-- 2026-09-26 15:00 | Almanya Bölgesel Lig Bayern | Augsburg Ii - Aubstadt | scheduled | -
-- 2026-09-26 15:00 | Almanya Bölgesel Lig Bayern | Vilzing - Illertissen | scheduled | -
-- 2026-09-26 15:00 | Norveç 3.Lig Grup 2 | Ntnui - Nardo | scheduled | -
-- 2026-09-26 15:00 | Norveç 3.Lig Grup 3 | Fyllingsdalen - Stord Sunnhordl | scheduled | -
-- 2026-09-26 15:00 | Norveç 3.Lig Grup 3 | Askoy - Brann Ii | scheduled | -
-- 2026-09-26 15:00 | Norveç 3.Lig Grup 4 | Akra - Madla | scheduled | -
-- 2026-09-26 15:30 | İtalya Serie C Grup A | Pergolettese - Trento Calcio 1 | scheduled | -
-- 2026-09-26 15:30 | İtalya Serie C Grup A | Giana Erminio - Pro Vercelli | scheduled | -
-- 2026-09-26 15:30 | İtalya Serie C Grup A | Lumezzane - Folgore Carates | scheduled | -
-- 2026-09-26 15:30 | İtalya Serie C Grup B | Pineto - Grosseto | scheduled | -
-- 2026-09-26 15:30 | İtalya Serie C Grup B | Sassari Torres - F.C. Vado | scheduled | -
-- 2026-09-26 15:30 | İtalya Serie C Grup C | Crotone - Salernitana | scheduled | -
-- 2026-09-26 15:30 | İngiltere Kadınlar Premier Lig | Charlton Athle - Man City (K) | scheduled | -
-- 2026-09-26 15:30 | FIFA ASEAN Kupası Lig 1 Grup B | Vietnam - Filipinler | scheduled | -
-- 2026-09-26 15:30 | Danimarka 3.Lig | Holstebro - Ishoj | scheduled | -
-- 2026-09-26 15:30 | Hollanda Tweede Divisie | Gvvv - Rkav Volendam | scheduled | -
-- 2026-09-26 15:30 | Türkiye 2.Lig Beyaz Grup | Sincan Belediy - Somaspor | scheduled | -
-- 2026-09-26 15:30 | Türkiye 3.Lig 2.Grup | Alanya 1221 Fs - Etimesgut Spor | scheduled | -
-- 2026-09-26 15:30 | Belarus 1.Lig | Slutsk - Gomel Ii | scheduled | -
-- 2026-09-26 15:45 | Almanya Bölgesel Lig Bayern | Burghausen - 1860 Münih | scheduled | -
-- 2026-09-26 16:00 | UEFA Uluslar Ligi B Ligi Grup 1 | Slovenya - İskoçya | scheduled | -
-- 2026-09-26 16:00 | Afrika Uluslar Kupası 2027 Elemeler Grup D | Kenya - Eritrea | scheduled | -
-- 2026-09-26 16:00 | Afrika Uluslar Kupası 2027 Elemeler Grup D | Güney Afrika - Gine | scheduled | -
-- 2026-09-26 16:00 | Finlandiya Ykkösliiga | Jippo Joensuu - Pk-35 Ry | scheduled | -
-- 2026-09-26 16:00 | Finlandiya Ykkönen Küme Düşme Turu | Tpv Tampere - Fc Jazz | scheduled | -
-- 2026-09-26 16:00 | Rusya FNL | Volga Ulyanovs - Leningradets | scheduled | -
-- 2026-09-26 16:00 | Norveç 2.Lig Grup 1 | Vidar - Mjondalen | scheduled | -
-- 2026-09-26 16:00 | Norveç 2.Lig Grup 2 | Stjordals-Blin - Ullensaker Kisa | scheduled | -
-- 2026-09-26 16:00 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Norderstedt | scheduled | -
-- 2026-09-26 16:00 | Danimarka 2.Lig | B93 Kopenhag - Thisted | scheduled | -
-- 2026-09-26 16:00 | İtalya Kadınlar Serie A | Lazio (K) - Parma (K) | scheduled | -
-- 2026-09-26 16:00 | Norveç 3.Lig Grup 4 | Viking B - Vag Fk | scheduled | -
-- 2026-09-26 16:00 | Paraguay Intermedia Lig | Sol De America - Encarnacion | scheduled | -
-- 2026-09-26 16:00 | Paraguay Intermedia Lig | Tacuary - Benjamin Aceval | scheduled | -
-- 2026-09-26 16:00 | Bulgaristan 2.Lig | Lokomotiv Gorn - Marek Dupnitza | scheduled | -
-- 2026-09-26 16:00 | Danimarka 3.Lig | Asa Aarhus - Horsholm-Ussero | scheduled | -
-- 2026-09-26 16:00 | İsveç 2.Lig Södra Götaland | Oskarshamns Ai - Ifk Trelleborg | scheduled | -
-- 2026-09-26 16:00 | Hollanda Tweede Divisie | Jong Sparta - Hoek Hsv | scheduled | -
-- 2026-09-26 16:00 | Hollanda Tweede Divisie | Kozakken Boys - Koninklijke Hfc | scheduled | -
-- 2026-09-26 16:00 | Hollanda Tweede Divisie | Ijsselmeervoge - Rijnsburgse Boy | scheduled | -
-- 2026-09-26 16:00 | Hollanda Tweede Divisie | Vv Kloetinge - Rohda Raalte | scheduled | -
-- 2026-09-26 16:00 | Hollanda Tweede Divisie | Quick Boys - Hhc | scheduled | -
-- 2026-09-26 16:00 | Hollanda Tweede Divisie | Jong Almere Ci - Bvv Barendrecht | scheduled | -
-- 2026-09-26 16:00 | İsveç Kadınlar Damallsvenskan | Uppsala (K) - Djurgarden (K) | scheduled | -
-- 2026-09-26 16:00 | İsveç Kadınlar Damallsvenskan | Aik (K) - Vaxjö (K) | scheduled | -
-- 2026-09-26 16:00 | İsveç Kadınlar Damallsvenskan | Hammarby (K) - Eskilstuna Unit | scheduled | -
-- 2026-09-26 16:00 | Macaristan NB III Kuzeydoğu | Dvsc Deac - Tiszafuredi | scheduled | -
-- 2026-09-26 16:00 | Gürcistan David Kipiani Kupası Çeyrek Final | Samtredia - Fc Rustavi | scheduled | -
-- 2026-09-26 16:00 | Norveç Kadınlar Toppserien | Stabaek (K) - Brann (K) | scheduled | -
-- 2026-09-26 16:00 | Norveç 3.Lig Grup 4 | Brodd - Vindbjart | scheduled | -
-- 2026-09-26 16:00 | Türkiye 2.Lig Kırmızı Grup | Beyoğlu Yeni Ç - İskenderunspor | scheduled | -
-- 2026-09-26 16:00 | Türkiye 2.Lig Beyaz Grup | İnegöl Kafkas - Kastamonuspor | scheduled | -
-- 2026-09-26 16:00 | Türkiye 3.Lig 1.Grup | Küçükçekmece S - Zonguldak Spor | scheduled | -
-- 2026-09-26 16:00 | Norveç 3.Lig Grup 2 | Herd - Kvik Trond | scheduled | -
-- 2026-09-26 16:00 | Norveç 3.Lig Grup 2 | Strindheim - Molde 2 | scheduled | -
-- 2026-09-26 16:00 | Norveç 3.Lig Grup 2 | Melhus - Spjelkavik | scheduled | -
-- 2026-09-26 16:00 | Norveç 3.Lig Grup 4 | Mandalskamerat - Odd Bk Ii | scheduled | -
-- 2026-09-26 16:00 | Norveç 3.Lig Grup 6 | Rade - Ff Lillehammer | scheduled | -
-- 2026-09-26 16:00 | Norveç 3.Lig Grup 6 | Sandefjord Ii - Elverum | scheduled | -
-- 2026-09-26 16:00 | Bulgaristan 2.Lig | Rilski Sportis - Ofk Pirin | scheduled | -
-- 2026-09-26 16:00 | Ürdün 1.Lig | Al Yarmouk - Al Sareeh | scheduled | -
-- 2026-09-26 16:15 | Hollanda Tweede Divisie | Afc Amsterdams - Katwijk | scheduled | -
 - 2026-09-26 16:30 | Galler Premier Lig 1.Aşama | Cardiff Mu - Caernarfon | scheduled | -
 - 2026-09-26 16:30 | Galler Premier Lig 1.Aşama | Trefelin - The New Saints | scheduled | -
 - 2026-09-26 16:30 | Galler Premier Lig 1.Aşama | Barry Town - Gap Connahs Qua | scheduled | -
@@ -512,4 +382,5 @@ Yarin: 61
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-26 13:00 | İspanya Kadınlar Primera Lig | Badalona (K) - Granada (K) | finished | 0-1
+- 2026-09-26 13:00 | İspanya Kadınlar Primera Lig | Real Sociedad - Real Madrid (K) | finished | 3-5
