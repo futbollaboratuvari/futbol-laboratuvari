@@ -2,29 +2,15 @@
 
 Gunler: 2026-09-27 / 2026-09-28
 Kaynak: fixtures.json
-Ham mac: 378
-Aktif mac: 365
+Ham mac: 377
+Aktif mac: 351
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 13
-Bugun: 344
+Bultenden dusurulen mac: 26
+Bugun: 330
 Yarin: 21
 
 ## Baslamamis Maclar
-- 2026-09-27 02:00 | CONCACAF Uluslar Ligi Lig C Grup B | Antiqua And Ba - Anguilla | scheduled | -
-- 2026-09-27 02:00 | Hazırlık Ülkeler | Kanada - Şili | scheduled | -
-- 2026-09-27 02:00 | Arjantin Ulusal Primera Lig | Colegiales - Chacarita Junio | scheduled | -
-- 2026-09-27 02:00 | Şili Kupa Son 16 Turu | Univ. Catolica (1) - (1) Union La Calera | scheduled | -
-- 2026-09-27 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Monarcas | scheduled | -
-- 2026-09-27 02:00 | Kanada Premier Lig | Vancouver Fc - Forge | scheduled | -
-- 2026-09-27 02:00 | ABD USL | Detroit City - Colorado Spring | scheduled | -
-- 2026-09-27 02:00 | ABD USL | Indy Eleven - Miami Fc | scheduled | -
-- 2026-09-27 02:00 | ABD USL | Charleston Bat - Rhode Island | scheduled | -
-- 2026-09-27 02:00 | ABD USL Lig 1 | Greenville Tri - Union Omaha | scheduled | -
-- 2026-09-27 02:00 | ABD USL Lig 1 | New York Cosmo - Richmond Kicker | scheduled | -
-- 2026-09-27 02:00 | ABD USL Lig 1 | Naples - Chattanooga Red | scheduled | -
-- 2026-09-27 02:00 | Meksika Kadınlar Liga MX Apertura | Pachuca (K) - Santos Laguna ( | scheduled | -
-- 2026-09-27 02:07 | Meksika Liga MX Apertura | Guadalajara - Queretaro | scheduled | -
 - 2026-09-27 02:15 | Kolombiya Primera A Clausura | Depor Cucuta - Llaneros | scheduled | -
 - 2026-09-27 02:30 | ABD MLS | Philadelphia - Orlando City | scheduled | -
 - 2026-09-27 02:30 | ABD MLS | Charlotte - Chicago | scheduled | -

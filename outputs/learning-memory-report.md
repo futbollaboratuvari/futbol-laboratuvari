@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 27.09.2026 02:01:56
+Oluşturma: 27.09.2026 02:08:32
 
 ## Özet
 
 - Toplam tahmin: 3149
-- Bekleyen tahmin: 2000
-- Kazanan tahmin: 601
-- Kaybeden tahmin: 548
-- Lig sayısı: 482
+- Bekleyen tahmin: 1996
+- Kazanan tahmin: 603
+- Kaybeden tahmin: 550
+- Lig sayısı: 481
 - Seçenek sayısı: 11
 
 ## Öğrenme Mantığı
@@ -22,9 +22,9 @@ Oluşturma: 27.09.2026 02:01:56
 
 ## En Güçlü Seçenek Hafızası
 
-- KG Var: toplam 230, bekleyen 119, başarı %57, düz getiri %1, ağırlık 1
-- MS 2: toplam 386, bekleyen 277, başarı %55, düz getiri %-3, ağırlık 1
-- 2.5 Alt: toplam 904, bekleyen 565, başarı %53, düz getiri %-12, ağırlık 0.945
+- KG Var: toplam 230, bekleyen 117, başarı %57, düz getiri %2, ağırlık 1
+- MS 2: toplam 386, bekleyen 276, başarı %55, düz getiri %-4, ağırlık 1
+- 2.5 Alt: toplam 904, bekleyen 564, başarı %53, düz getiri %-12, ağırlık 0.944
 - 2.5 Üst: toplam 304, bekleyen 147, başarı %53, düz getiri %-7, ağırlık 1
 - MS 1: toplam 837, bekleyen 561, başarı %52, düz getiri %-17, ağırlık 0.94
 - 3.5 Üst: toplam 85, bekleyen 32, başarı %49, düz getiri %-3, ağırlık 1
@@ -37,6 +37,7 @@ Oluşturma: 27.09.2026 02:01:56
 ## Son Tahmin Kayıtları
 
 - 2026-09-27 | Meksika Liga MX Apertura | Necaxa - Club America | 2.5 Alt | pending | 61/100
+- 2026-09-27 | Kolombiya Primera A Clausura | Deportivo Cali - Rionegro Aguila | 2.5 Alt | pending | 54/100
 - 2026-09-27 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir - Rafaela | MS 1 | pending | 45/100
 - 2026-09-27 | Uruguay Premier Lig Clausura | Defensor Sport - Danubio | 2.5 Alt | pending | 59/100
 - 2026-09-27 | Guatemala Ulusal Lig Apertura | Mixco - Antigua Guatema | 2.5 Alt | pending | 56/100
@@ -50,5 +51,4 @@ Oluşturma: 27.09.2026 02:01:56
 - 2026-09-27 | Şili Kupa Son 16 Turu | Deportes Santa (1) - (2) O Higgins | 2.5 Üst | pending | 53/100
 - 2026-09-27 | El Salvador Primera Lig Apertura | Municipal Lime - Deportivo Fas | 2.5 Alt | pending | 51/100
 - 2026-09-27 | ABD USL Lig 1 | One Knoxville - Westchester Sc | MS 1 | pending | 60/100
-- 2026-09-27 | Kolombiya Primera A Clausura | Fortaleza - Deportes Tolima | 2.5 Üst | pending | 67/100
 
