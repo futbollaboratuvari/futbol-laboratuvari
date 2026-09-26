@@ -1,16 +1,16 @@
 # Sonuc Takip Saglik Kontrolu
 
 Durum: warning
-Aktif bulten maci: 471
-Arsiv maci: 17157
-Biten mac: 16686
-Skorlu arsiv maci: 2496
-Tahmin sayisi: 3051
+Aktif bulten maci: 519
+Arsiv maci: 17208
+Biten mac: 16691
+Skorlu arsiv maci: 2498
+Tahmin sayisi: 3054
 Bekleyen tahmin: 1997
-Eski pending tahmin: 1441
+Eski pending tahmin: 1336
 En eski pending tarihi: 2026-09-19
-Skor baglanan tahmin: 1119
+Skor baglanan tahmin: 1121
 Son kontrol: 1956
-Son baglanan: 24
+Son baglanan: 23
 
 Sonraki aksiyon: Eski pending tahminler dogrudan final-skor koprusu ve finalizer ile eritilmeli.
