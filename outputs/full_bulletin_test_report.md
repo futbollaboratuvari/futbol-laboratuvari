@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 485
+- Scheduled match count: 507
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-26 / 2026-09-27 23:59
 
-- 2026-09-26 08:00 | Urayasu - J-Lease Fc | scheduled
-- 2026-09-26 08:00 | Renofa Yamaguc - Sagamihara | scheduled
-- 2026-09-26 08:30 | Tiamo Hirakata - Vonds Ichihara | scheduled
-- 2026-09-26 09:00 | Çin U23 - Tayland U23 | scheduled
-- 2026-09-26 09:00 | Honda Lock - Veertien Kuwana | scheduled
-- 2026-09-26 09:00 | Nara Club - Mio Biwako Shig | scheduled
-- 2026-09-26 11:00 | Blaublitz Akit - Niigata | scheduled
-- 2026-09-26 11:00 | Fc Imabari - Shonan | scheduled
-- 2026-09-26 11:00 | Iwaki - Sendai | scheduled
-- 2026-09-26 11:00 | Iwata - Vanraure | scheduled
+- 2026-09-26 13:00 | Badalona (K) - Granada (K) | scheduled
+- 2026-09-26 13:00 | Real Sociedad - Real Madrid (K) | scheduled
+- 2026-09-26 13:00 | Extremadura 19 - Zamora | scheduled
+- 2026-09-26 13:00 | Real Unión De - Panaderia Pulid | scheduled
+- 2026-09-26 13:00 | Aretxabaleta - Derio | scheduled
+- 2026-09-26 13:00 | Villarreal Iii - Levante Ii | scheduled
+- 2026-09-26 13:00 | Uks Lodz (K) - Pogon Szczecin | scheduled
+- 2026-09-26 13:15 | Huesca Ii - Fraga | scheduled
+- 2026-09-26 13:30 | Japonya U23 - Kuzey Kore U23 | scheduled
+- 2026-09-26 13:30 | Helges - Fc Gute | scheduled

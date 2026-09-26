@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-26T04:20:02.908284+00:00
+Tarih: 2026-09-26T09:30:52.337390+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 421
+- Kac mac bulundu: 443
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 421
-- Ham veri havuzu toplam mac sayisi: 17255
+- Kac mac zaten vardi: 443
+- Ham veri havuzu toplam mac sayisi: 17307
 - Hedef tarih: 26.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -17,9 +17,13 @@ Tarih: 2026-09-26T04:20:02.908284+00:00
 - ABD USL Lig 1
 - Afrika Uluslar Kupası 2027 Elemeler Grup D
 - Almanya Bölgesel Lig Batı
+- Almanya Bölgesel Lig Bayern
 - Almanya Bölgesel Lig Güney Batı
 - Almanya Bölgesel Lig Kuzey
 - Almanya Bölgesel Lig Kuzey Doğu
+- Almanya U19 Bundesliga Grup A
+- Almanya U19 Bundesliga Grup C
+- Almanya U19 Bundesliga Grup I
 - Arjantin Kadınlar Primera A 2. Aşama
 - Arjantin Prim B Metro
 - Arjantin Primera C
@@ -28,6 +32,7 @@ Tarih: 2026-09-26T04:20:02.908284+00:00
 - Asya Oyunları Çeyrek Final
 - Avrupa U21 Şampiyonası Eleme Turu Grup F
 - Avrupa U21 Şampiyonası Eleme Turu Grup H
+- Belarus 1.Lig
 - Belçika Kadınlar Süper Lig
 - Belçika Kupa 6.Tur
 - Brezilya Brasileiro Kadınlar 1.Aşama Final
@@ -50,25 +55,23 @@ Tarih: 2026-09-26T04:20:02.908284+00:00
 - Finlandiya Ykkösliiga
 - Fransa Ligue 3
 - Galler FAW Championship Güney
+- Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
 - Gana Premier Lig
 - Gürcistan David Kipiani Kupası Çeyrek Final
 - Hazırlık Ülkeler
+- Hazırlık Ülkeler U19
 - Hollanda Eerste Divisie
 - Hollanda Kadınlar Eredivisie
 - Hollanda Tweede Divisie
 - Hırvatistan 2. NL
 - Hırvatistan 2.HNL
-- Japonya Futbol Ligi
-- Japonya J2 Lig
-- Japonya J3 Lig
 - Kadınlar U20 Dünya Kupası 3.lük
 - Kanada Premier Lig
 - Kolombiya Primera B Clausura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Körfez Kupası Grup A
-- Letonya 1.Lig
 - Macaristan NB III Güneybatı
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
@@ -80,6 +83,7 @@ Tarih: 2026-09-26T04:20:02.908284+00:00
 - Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
+- Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
 - Norveç 3.Lig Grup 5
 - Norveç 3.Lig Grup 6
@@ -90,6 +94,10 @@ Tarih: 2026-09-26T04:20:02.908284+00:00
 - Slovakya 2.Lig
 - Slovenya 2.SNL
 - Tunus 2.Lig Grup A
+- Türkiye 2.Lig Beyaz Grup
+- Türkiye 2.Lig Kırmızı Grup
+- Türkiye 3.Lig 1.Grup
+- Türkiye 3.Lig 2.Grup
 - U20 Elit Lig Normal Sezon
 - UEFA Uluslar Ligi A Ligi Grup 3
 - UEFA Uluslar Ligi B Ligi Grup 1
@@ -124,6 +132,7 @@ Tarih: 2026-09-26T04:20:02.908284+00:00
 - İspanya Tercera Ligi Grup 13
 - İspanya Tercera Ligi Grup 15
 - İspanya Tercera Ligi Grup 16
+- İspanya Tercera Ligi Grup 17
 - İspanya Tercera Ligi Grup 18
 - İspanya Tercera Ligi Grup 2
 - İspanya Tercera Ligi Grup 3
@@ -216,12 +225,12 @@ Tarih: 2026-09-26T04:20:02.908284+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 26.09.2026 | 21:45 | UEFA Uluslar Ligi A Ligi Grup 3 | İngiltere | İspanya | 14667 | 5 |
 | 26.09.2026 | 21:45 | UEFA Uluslar Ligi A Ligi Grup 3 | Çekya | Hirvatistan | 14666 | 5 |
+| 26.09.2026 | 21:45 | UEFA Uluslar Ligi A Ligi Grup 3 | İngiltere | İspanya | 14667 | 5 |
 | 26.09.2026 | 21:45 | UEFA Uluslar Ligi B Ligi Grup 1 | K. Makedonya | İsviçre | 14663 | 5 |
 | 26.09.2026 | 16:00 | UEFA Uluslar Ligi B Ligi Grup 1 | Slovenya | İskoçya | 52092 | 5 |
-| 26.09.2026 | 21:45 | UEFA Uluslar Ligi C Ligi Grup 1 | Arnavutluk | Belarus | 20685 | 5 |
 | 26.09.2026 | 19:00 | UEFA Uluslar Ligi C Ligi Grup 1 | San Marino | Finlandiya | 53567 | 4 |
+| 26.09.2026 | 21:45 | UEFA Uluslar Ligi C Ligi Grup 1 | Arnavutluk | Belarus | 20685 | 5 |
 | 26.09.2026 | 19:00 | UEFA Uluslar Ligi C Ligi Grup 3 | Faroe Adalari | Kazakistan | 24226 | 5 |
 | 26.09.2026 | 21:45 | UEFA Uluslar Ligi C Ligi Grup 3 | Slovakya | Moldova | 20620 | 4 |
 | 26.09.2026 | 19:00 | UEFA Uluslar Ligi C Ligi Grup 4 | İzlanda | Estonya | 20590 | 5 |
@@ -231,11 +240,11 @@ Tarih: 2026-09-26T04:20:02.908284+00:00
 | 26.09.2026 | 19:30 | İspanya 2.Lig | Celta Vigo Ii | Sabadell | 08281 | 5 |
 | 26.09.2026 | 15:00 | İspanya 2.Lig | Ceuta | Real Sociedad I | 08114 | 5 |
 | 26.09.2026 | 17:15 | İspanya 2.Lig | Granada | Fc Andorra | 08192 | 5 |
-| 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Emmen | Oss | 24801 | 5 |
-| 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Roda | Waalwijk | 24964 | 5 |
-| 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Maastricht | Helmond Sport | 24854 | 5 |
+| 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Volendam | Vvv Venlo | 25018 | 5 |
 | 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Breda | Fc Eindhoven | 24908 | 5 |
+| 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Roda | Waalwijk | 24964 | 5 |
 | 26.09.2026 | 17:30 | Hollanda Eerste Divisie | Heracles | Vitesse | 23856 | 5 |
+| 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Emmen | Oss | 24801 | 5 |
 
 ## Sonuc
 

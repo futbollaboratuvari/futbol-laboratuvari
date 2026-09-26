@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.09.2026 10:53:21
+Oluşturma: 26.09.2026 12:37:21
 
 ## Özet
 
-- Toplam tahmin: 3051
-- Bekleyen tahmin: 1997
+- Toplam tahmin: 3054
+- Bekleyen tahmin: 2000
 - Kazanan tahmin: 552
 - Kaybeden tahmin: 502
-- Lig sayısı: 479
-- Seçenek sayısı: 13
+- Lig sayısı: 486
+- Seçenek sayısı: 12
 
 ## Öğrenme Mantığı
 
@@ -22,18 +22,18 @@ Oluşturma: 26.09.2026 10:53:21
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 381, bekleyen 285, başarı %57, düz getiri %2, ağırlık 1
-- 2.5 Alt: toplam 840, bekleyen 519, başarı %54, düz getiri %-11, ağırlık 0.949
-- KG Var: toplam 226, bekleyen 124, başarı %54, düz getiri %-5, ağırlık 1
-- 3.5 Üst: toplam 90, bekleyen 45, başarı %53, düz getiri %6, ağırlık 1
-- 2.5 Üst: toplam 308, bekleyen 159, başarı %53, düz getiri %-7, ağırlık 1
-- MS 1: toplam 804, bekleyen 562, başarı %50, düz getiri %-19, ağırlık 0.94
-- KG Yok: toplam 199, bekleyen 111, başarı %47, düz getiri %-20, ağırlık 0.94
-- MS X: toplam 17, bekleyen 6, başarı %27, düz getiri %-30, ağırlık 1
-- İlk Yarı KG Yok: toplam 16, bekleyen 16, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- İkinci Yarı KG Yok: toplam 44, bekleyen 44, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- MS 2: toplam 385, bekleyen 289, başarı %57, düz getiri %2, ağırlık 1
+- 2.5 Alt: toplam 839, bekleyen 518, başarı %54, düz getiri %-11, ağırlık 0.949
+- KG Var: toplam 221, bekleyen 119, başarı %54, düz getiri %-5, ağırlık 1
+- 3.5 Üst: toplam 88, bekleyen 43, başarı %53, düz getiri %6, ağırlık 1
+- 2.5 Üst: toplam 304, bekleyen 155, başarı %53, düz getiri %-7, ağırlık 1
+- MS 1: toplam 812, bekleyen 570, başarı %50, düz getiri %-19, ağırlık 0.94
+- KG Yok: toplam 201, bekleyen 113, başarı %47, düz getiri %-20, ağırlık 0.94
+- MS X: toplam 16, bekleyen 5, başarı %27, düz getiri %-30, ağırlık 1
+- İlk Yarı KG Yok: toplam 22, bekleyen 22, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- İkinci Yarı KG Yok: toplam 46, bekleyen 46, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 - İY KG / 2Y KG Hayır / Hayır: toplam 117, bekleyen 117, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
-- İlk Yarı KG Var: toplam 7, bekleyen 7, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
+- İlk Yarı KG Var: toplam 3, bekleyen 3, başarı bekleniyor, düz getiri bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
@@ -41,15 +41,15 @@ Oluşturma: 26.09.2026 10:53:21
 - 2026-09-26 | Meksika Liga MX Apertura | Tigres Uanl - Puebla | 2.5 Alt | pending | 64/100
 - 2026-09-26 | ABD MLS | Vancouver - Dc United | KG Var | pending | 71/100
 - 2026-09-26 | ABD MLS | Los Angeles - Colorado | MS 1 | pending | 51/100
-- 2026-09-26 | ABD MLS | San Jose - Portland | 3.5 Üst | pending | 66/100
-- 2026-09-26 | ABD USL | Orange County - Pittsburgh Rive | KG Var | pending | 70/100
-- 2026-09-26 | El Salvador Primera Lig Apertura | Isidro Metapan - Cacahuatique | KG Var | pending | 69/100
 - 2026-09-26 | Guatemala Ulusal Lig Apertura | Xelaju - Comunicaciones | 2.5 Alt | pending | 64/100
-- 2026-09-26 | Meksika Kadınlar Liga MX Apertura | Juarez (K) - Tijuana (K) | MS 1 | pending | 50/100
+- 2026-09-26 | El Salvador Primera Lig Apertura | Isidro Metapan - Cacahuatique | MS 1 | pending | 63/100
+- 2026-09-26 | ABD MLS | San Jose - Portland | MS 1 | pending | 59/100
+- 2026-09-26 | ABD USL | Orange County - Pittsburgh Rive | KG Var | pending | 69/100
 - 2026-09-26 | Kolombiya Primera A Clausura | Atletico Junio - Independiente M | 2.5 Üst | pending | 70/100
 - 2026-09-26 | ABD MLS | Salt Lake - New England | MS 2 | pending | 67/100
 - 2026-09-26 | ABD USL | Oakland Roots - Phoenix Rising | 2.5 Alt | pending | 57/100
 - 2026-09-26 | ABD USL | Monterey Bay - Lexington | 2.5 Alt | pending | 58/100
+- 2026-09-26 | Meksika Kadınlar Liga MX Apertura | Juarez (K) - Tijuana (K) | MS 1 | pending | 53/100
 - 2026-09-26 | Meksika Ascenso MX Apertura | Dorados - Durango | 2.5 Alt | pending | 62/100
-- 2026-09-26 | ABD USL | New Mexico Uni - Sacramento Repu | KG Var | pending | 65/100
+- 2026-09-26 | ABD USL | San Antonio - Tampa Bay Rowdi | 2.5 Alt | pending | 65/100
 
