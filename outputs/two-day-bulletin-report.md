@@ -2,21 +2,15 @@
 
 Gunler: 2026-09-26 / 2026-09-27
 Kaynak: fixtures.json
-Ham mac: 501
-Aktif mac: 474
+Ham mac: 477
+Aktif mac: 468
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 27
-Bugun: 414
+Bultenden dusurulen mac: 9
+Bugun: 408
 Yarin: 60
 
 ## Baslamamis Maclar
-- 2026-09-26 08:00 | Japonya J3 Lig | Renofa Yamaguc - Sagamihara | scheduled | -
-- 2026-09-26 08:00 | Japonya Futbol Ligi | Urayasu - J-Lease Fc | scheduled | -
-- 2026-09-26 08:30 | Japonya Futbol Ligi | Tiamo Hirakata - Vonds Ichihara | scheduled | -
-- 2026-09-26 09:00 | Japonya J3 Lig | Nara Club - Mio Biwako Shig | scheduled | -
-- 2026-09-26 09:00 | Japonya Futbol Ligi | Honda Lock - Veertien Kuwana | scheduled | -
-- 2026-09-26 09:00 | Asya Oyunları Çeyrek Final | Çin U23 - Tayland U23 | scheduled | -
 - 2026-09-26 11:00 | Japonya J2 Lig | Omiya - Kofu | scheduled | -
 - 2026-09-26 11:00 | Japonya J2 Lig | Tokushima - Tochigi City | scheduled | -
 - 2026-09-26 11:00 | Japonya J2 Lig | Kataller Toyam - Yokohama Fc | scheduled | -
