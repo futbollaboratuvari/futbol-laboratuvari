@@ -2,76 +2,15 @@
 
 Gunler: 2026-09-26 / 2026-09-27
 Kaynak: fixtures.json
-Ham mac: 559
-Aktif mac: 132
+Ham mac: 189
+Aktif mac: 71
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 427
-Bugun: 68
+Biten mac: 3
+Bultenden dusurulen mac: 118
+Bugun: 7
 Yarin: 64
 
 ## Baslamamis Maclar
-- 2026-09-26 21:00 | Hollanda Eerste Divisie | Emmen - Oss | scheduled | -
-- 2026-09-26 21:00 | Hollanda Eerste Divisie | Roda - Waalwijk | scheduled | -
-- 2026-09-26 21:00 | Hollanda Eerste Divisie | Maastricht - Helmond Sport | scheduled | -
-- 2026-09-26 21:00 | Hollanda Eerste Divisie | Breda - Fc Eindhoven | scheduled | -
-- 2026-09-26 21:00 | Hollanda Eerste Divisie | Volendam - Vvv Venlo | scheduled | -
-- 2026-09-26 21:00 | Körfez Kupası Grup A | Umman - Suudi Arabistan | scheduled | -
-- 2026-09-26 21:00 | Fas Botola Pro | Difaa - Codm Meknes | scheduled | -
-- 2026-09-26 21:00 | Uruguay Premier Lig Clausura | Cerro Largo - Nacional Df | scheduled | -
-- 2026-09-26 21:00 | Meksika Ascenso MX Apertura | Cruz Azul Hida - Leones Negros | scheduled | -
-- 2026-09-26 21:00 | Belçika Kupa 6.Tur | Mandel United - Sporting Hassel | scheduled | -
-- 2026-09-26 21:00 | Belçika Kupa 6.Tur | Roeselare Dais - Patro Eisden | scheduled | -
-- 2026-09-26 21:00 | Belçika Kupa 6.Tur | Lokeren-Temse - Houtvenne | scheduled | -
-- 2026-09-26 21:00 | Arjantin Kadınlar Primera A 2. Aşama | Huracan (K) - Talleres De Cor | scheduled | -
-- 2026-09-26 21:00 | Arjantin Kadınlar Primera A 2. Aşama | Banfield (K) - Newells Old Boy | scheduled | -
-- 2026-09-26 21:00 | Ekvador Pro Lig Serie B Şampiyonluk Grubu | 9 De Octubre - San Antonio | scheduled | -
-- 2026-09-26 21:00 | Fas Botola 2 | Yacoub El Mans - Chabab | scheduled | -
-- 2026-09-26 21:00 | Arjantin Prim B Metro | Brown - Camioneros Luja | scheduled | -
-- 2026-09-26 21:00 | Arjantin Prim B Metro | De Merlo - San Carlos | scheduled | -
-- 2026-09-26 21:00 | Arjantin Prim B Metro | Arsenal Sarand - Liniers | scheduled | -
-- 2026-09-26 21:00 | Arjantin Prim B Metro | Laferrere - Sportivo | scheduled | -
-- 2026-09-26 21:00 | Arjantin Prim B Metro | Talleres - Burzaco | scheduled | -
-- 2026-09-26 21:00 | ABD USL Lig 1 | Charlotte Inde - Fort Wayne | scheduled | -
-- 2026-09-26 21:00 | İspanya Tercera Ligi Grup 5 | San Juan Atlét - Tona | scheduled | -
-- 2026-09-26 21:00 | Arjantin Primera C | V.Arenas - Unida | scheduled | -
-- 2026-09-26 21:00 | Arjantin Primera C | Paraguayo - Ca Lugano | scheduled | -
-- 2026-09-26 21:00 | Arjantin Primera C | Yupanqui - Lamadrid | scheduled | -
-- 2026-09-26 21:00 | Arjantin Primera C | C Cordoba - Claypole | scheduled | -
-- 2026-09-26 21:00 | Arjantin Primera C | Estrella Del S - A. Rosario | scheduled | -
-- 2026-09-26 21:00 | Arjantin Primera C | Dyc Espanol - Ballester | scheduled | -
-- 2026-09-26 21:06 | Meksika Kadınlar Liga MX Apertura | Queretaro (K) - Atlas (K) | scheduled | -
-- 2026-09-26 21:30 | İtalya Serie C Grup A | Cittadella - Lecco | scheduled | -
-- 2026-09-26 21:30 | İtalya Serie C Grup B | Sambenedetese - Campobasso | scheduled | -
-- 2026-09-26 21:30 | İtalya Serie C Grup C | Cavese - Savoia | scheduled | -
-- 2026-09-26 21:30 | İrlanda 1.Lig | Longford - Cork City | scheduled | -
-- 2026-09-26 21:30 | Arjantin Ulusal Primera Lig | Almirante - Acassuso | scheduled | -
-- 2026-09-26 21:30 | Arjantin Ulusal Primera Lig | Caseros - San Miguel | scheduled | -
-- 2026-09-26 21:30 | Arjantin Prim B Metro | Armenio - Dep. Merlo | scheduled | -
-- 2026-09-26 21:45 | UEFA Uluslar Ligi A Ligi Grup 3 | İngiltere - İspanya | scheduled | -
-- 2026-09-26 21:45 | UEFA Uluslar Ligi A Ligi Grup 3 | Çekya - Hirvatistan | scheduled | -
-- 2026-09-26 21:45 | UEFA Uluslar Ligi B Ligi Grup 1 | K. Makedonya - İsviçre | scheduled | -
-- 2026-09-26 21:45 | UEFA Uluslar Ligi C Ligi Grup 1 | Arnavutluk - Belarus | scheduled | -
-- 2026-09-26 21:45 | UEFA Uluslar Ligi C Ligi Grup 3 | Slovakya - Moldova | scheduled | -
-- 2026-09-26 21:45 | Fransa Ligue 3 | Thionville Lus - La Roche Sur Yo | scheduled | -
-- 2026-09-26 21:45 | Fransa Ligue 3 | Villefranche - Versailles | scheduled | -
-- 2026-09-26 21:45 | Fransa Ligue 3 | Fc Fleury 91 - Aubagne Air Bel | scheduled | -
-- 2026-09-26 21:45 | Fransa Ligue 3 | Quevilly-Rouen - Amiens | scheduled | -
-- 2026-09-26 21:45 | Fransa Ligue 3 | Orleans - Cannes | scheduled | -
-- 2026-09-26 21:45 | Fransa Ligue 3 | Bourg Peronnas - Concarneau | scheduled | -
-- 2026-09-26 21:45 | Fransa Ligue 3 | Paris 13 Atlet - Bastia | scheduled | -
-- 2026-09-26 21:45 | Fransa Ligue 3 | Valenciennes - Le Puy | scheduled | -
-- 2026-09-26 22:00 | CONCACAF Uluslar Ligi Lig C Grup A | Montserrat - Ingiliz Virgin | scheduled | -
-- 2026-09-26 22:00 | İskoçya Challenge Kupası Lig Aşaması | Queen Of South - Rangers Ii | scheduled | -
-- 2026-09-26 22:00 | Arjantin Ulusal Primera Lig | All Boys - Colon Santa Fe | scheduled | -
-- 2026-09-26 22:00 | Arjantin Ulusal Primera Lig | Ciudad De Bolí - Chaco For Ever | scheduled | -
-- 2026-09-26 22:00 | Arjantin Ulusal Primera Lig | Quilmes - Club Atletico G | scheduled | -
-- 2026-09-26 22:00 | Kolombiya Primera B Clausura | Tigres Fc - Real Santander | scheduled | -
-- 2026-09-26 22:00 | Arjantin Süper Kupa Uluslararası | Estudiantes Lp - Rosario Central | scheduled | -
-- 2026-09-26 22:00 | İspanya Tercera Ligi Grup 12 | Cd Laguna - Cd Marino | scheduled | -
-- 2026-09-26 22:30 | Brezilya Serie B | Operario - Ceara | scheduled | -
-- 2026-09-26 22:30 | Brezilya Serie B | Nautico - Sport Recife | scheduled | -
-- 2026-09-26 22:30 | Brezilya Brasileiro Kadınlar 1.Aşama Final | Corinthians (K - São Paulo (K) | scheduled | -
 - 2026-09-26 23:00 | CONCACAF Uluslar Ligi Lig C Grup C | Saint Martin - Us Virgin Adala | scheduled | -
 - 2026-09-26 23:00 | Fas Botola Pro | Wydad Casablan - Widad Temara | scheduled | -
 - 2026-09-26 23:00 | Kanada Premier Lig | Hfx Wanderers - Atletico Ottawa | scheduled | -
@@ -148,4 +87,6 @@ Yarin: 64
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-09-26 19:00 | UEFA Uluslar Ligi C Ligi Grup 1 | San Marino - Finlandiya | finished | 0-7
+- 2026-09-26 19:30 | İspanya 2.Lig | Tenerife - Cadiz | finished | 1-1
+- 2026-09-26 19:30 | İngiltere 2.Lig | Oldham - Salford City | finished | 1-4

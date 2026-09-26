@@ -1,27 +1,16 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 519
-Tam analiz: 485
-Eksik analiz: 34
+Toplam analiz: 189
+Tam analiz: 180
+Eksik analiz: 9
 
-- Sotra Sk VS Pors Grenland: eksik score, confidence
-- Ifk Umea VS Umea Ff: eksik score, confidence
-- Kjelsas VS Follo: eksik score, confidence
-- Asker VS Nordstrand: eksik score, confidence
-- Oppsal VS Brumunddal: eksik score, confidence
-- Fyllingsdalen VS Stord Sunnhordl: eksik score, confidence
-- Akra VS Madla: eksik score, confidence
-- Charlton Athle VS Man City (K): eksik score, confidence
-- Slutsk VS Gomel Ii: eksik score, confidence
-- Tpv Tampere VS Fc Jazz: eksik score, confidence
-- Viking B VS Vag Fk: eksik score, confidence
-- Hammarby (K) VS Eskilstuna Unit: eksik score, confidence
-- Strindheim VS Molde 2: eksik score, confidence
-- Rilski Sportis VS Ofk Pirin: eksik score, confidence
-- Trefelin VS The New Saints: eksik score, confidence
-- Forfar VS Dundee United I: eksik score, confidence
-- Ross County VS Hearts Ii: eksik score, confidence
-- Bonnyrigg Rose VS Motherwell Ii: eksik score, confidence
-- Hamilton VS Kilmarnock Ii: eksik score, confidence
-- Annan VS Hibernian Ii: eksik score, confidence
+- Bulgaristan VS Lüksemburg: eksik score, confidence
+- Letonya (U21) VS Almanya (U21): eksik score, confidence
+- Klubi 04 VS Japs: eksik score, confidence
+- Triglav Kranj VS Nd Primorje: eksik score, confidence
+- Malaga B VS Atlético De Mar: eksik score, confidence
+- Slovakya VS Moldova: eksik score, confidence
+- Montserrat VS Ingiliz Virgin: eksik score, confidence
+- Saint Martin VS Us Virgin Adala: eksik score, confidence
+- Antiqua And Ba VS Anguilla: eksik score, confidence
