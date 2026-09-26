@@ -2,29 +2,15 @@
 
 Gunler: 2026-09-26 / 2026-09-27
 Kaynak: fixtures.json
-Ham mac: 496
-Aktif mac: 495
+Ham mac: 499
+Aktif mac: 484
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 435
+Bultenden dusurulen mac: 15
+Bugun: 424
 Yarin: 60
 
 ## Baslamamis Maclar
-- 2026-09-26 00:30 | Paraguay Intermedia Lig | General Caball - 3 De Noviembre | scheduled | -
-- 2026-09-26 01:00 | Arjantin Prim B Metro | Ituzaingo - Def Unidos | scheduled | -
-- 2026-09-26 01:00 | Arjantin Primera C | Club Mercedes - Nuevo | scheduled | -
-- 2026-09-26 01:30 | Brezilya Serie B | Novorizontino - Sao Bernardo | scheduled | -
-- 2026-09-26 02:00 | Şili Kupa Son 16 Turu | Colo Colo (0) - (0) Audax Italiano | scheduled | -
-- 2026-09-26 02:00 | Kolombiya Kupa 2.Tur | Union Magdalen (0) - (2) Santa Fe | scheduled | -
-- 2026-09-26 02:00 | ABD USL | Hartford Athle - Louisville City | scheduled | -
-- 2026-09-26 02:00 | Arjantin Prim B Metro | Excur - Real Pilar | scheduled | -
-- 2026-09-26 02:10 | Kolombiya Primera A Clausura | Chico - Deportivo Pasto | scheduled | -
-- 2026-09-26 02:30 | Brezilya Serie B | Vila Nova - Londrina | scheduled | -
-- 2026-09-26 02:30 | ABD USL | Sporting Jax - Loudoun United | scheduled | -
-- 2026-09-26 03:00 | CONCACAF Uluslar Ligi Lig A Grup B | Jamaika - Guatemala | scheduled | -
-- 2026-09-26 03:00 | CONCACAF Uluslar Ligi Lig B Grup B | Barbados - St. Lucia | scheduled | -
-- 2026-09-26 03:00 | Ekvador Pro Lig Serie B Küme Düşme Grubu | El Nacional - Cumbaya | scheduled | -
 - 2026-09-26 04:00 | Meksika Liga MX Apertura | Atlante - Monterrey | scheduled | -
 - 2026-09-26 04:00 | ABD USL | El Paso Locomo - Tulsa Roughneck | scheduled | -
 - 2026-09-26 04:00 | CONCACAF Uluslar Ligi Lig A Grup B | Honduras - Surinam | scheduled | -
@@ -160,6 +146,7 @@ Yarin: 60
 - 2026-09-26 16:00 | Macaristan NB III Kuzeydoğu | Dvsc Deac - Tiszafuredi | scheduled | -
 - 2026-09-26 16:00 | Gürcistan David Kipiani Kupası Çeyrek Final | Samtredia - Fc Rustavi | scheduled | -
 - 2026-09-26 16:00 | Norveç Kadınlar Toppserien | Stabaek (K) - Brann (K) | scheduled | -
+- 2026-09-26 16:00 | Norveç 3.Lig Grup 4 | Brodd - Vindbjart | scheduled | -
 - 2026-09-26 16:15 | Hollanda Tweede Divisie | Afc Amsterdams - Katwijk | scheduled | -
 - 2026-09-26 16:30 | Galler Premier Lig 1.Aşama | Cardiff Mu - Caernarfon | scheduled | -
 - 2026-09-26 16:30 | Galler Premier Lig 1.Aşama | Trefelin - The New Saints | scheduled | -
@@ -297,6 +284,7 @@ Yarin: 60
 - 2026-09-26 17:00 | Hırvatistan 2. NL | Solin - Nk Trnje | scheduled | -
 - 2026-09-26 17:00 | Hırvatistan 2. NL | Lucko - Zagora | scheduled | -
 - 2026-09-26 17:00 | İzlanda Kadınlar Urvalsdeild Şampiyonluk Grubu | İbv (K) - Breidablik (K) | scheduled | -
+- 2026-09-26 17:00 | İngiltere FA Trophy 3. Eleme Turu | Peterborough S - Banbury United | scheduled | -
 - 2026-09-26 17:15 | İspanya 2.Lig | Granada - Fc Andorra | scheduled | -
 - 2026-09-26 17:30 | Hollanda Eerste Divisie | Heracles - Vitesse | scheduled | -
 - 2026-09-26 17:30 | İspanya Primera Lig RFEF Grup 1 | Lugo - Racing Ferrol | scheduled | -
@@ -376,6 +364,7 @@ Yarin: 60
 - 2026-09-26 20:00 | İspanya 2. Lig RFEF Grup 2 | Manresa - Ud Logrones Ii | scheduled | -
 - 2026-09-26 20:00 | İspanya 2. Lig RFEF Grup 4 | Real Betis Ii - Linares Deporti | scheduled | -
 - 2026-09-26 20:00 | İspanya Tercera Ligi Grup 7 | Cala Pozuelo - Leganes Ii | scheduled | -
+- 2026-09-26 20:00 | İspanya Tercera Ligi Grup 1 | Sarriana - Gran Pena | scheduled | -
 - 2026-09-26 20:30 | İsviçre 1.Lig Promotion | Bulle - Schaffhausen | scheduled | -
 - 2026-09-26 20:30 | İspanya Tercera Ligi Grup 2 | Caudal Deporti - L Entregu | scheduled | -
 - 2026-09-26 21:00 | Hollanda Eerste Divisie | Emmen - Oss | scheduled | -
