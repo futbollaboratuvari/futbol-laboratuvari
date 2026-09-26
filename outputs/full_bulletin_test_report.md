@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 141
+- Scheduled match count: 73
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-09-26 / 2026-09-27 23:59
 
-- 2026-09-26 21:00 | Charlotte Inde - Fort Wayne | scheduled
-- 2026-09-26 21:00 | Banfield (K) - Newells Old Boy | scheduled
-- 2026-09-26 21:00 | Huracan (K) - Talleres De Cor | scheduled
-- 2026-09-26 21:00 | Arsenal Sarand - Liniers | scheduled
-- 2026-09-26 21:00 | Brown - Camioneros Luja | scheduled
-- 2026-09-26 21:00 | De Merlo - San Carlos | scheduled
-- 2026-09-26 21:00 | Laferrere - Sportivo | scheduled
-- 2026-09-26 21:00 | Talleres - Burzaco | scheduled
-- 2026-09-26 21:00 | C Cordoba - Claypole | scheduled
-- 2026-09-26 21:00 | Dyc Espanol - Ballester | scheduled
+- 2026-09-26 23:30 | Abd - Peru | scheduled
+- 2026-09-26 23:30 | Atletico Nuble (0) - (2) Puerto Montt | scheduled
+- 2026-09-27 00:00 | Portland Heart - Sarasota Paradi | scheduled
+- 2026-09-27 00:00 | Saint Vincent - Fransiz Guyanas | scheduled
+- 2026-09-27 00:00 | Guastatoya - Deportivo San P | scheduled
+- 2026-09-27 00:00 | Pereira - Inter Bogota | scheduled
+- 2026-09-27 00:30 | Goias - Atletico Goiani | scheduled
+- 2026-09-27 00:30 | Penarol - Boston River | scheduled
+- 2026-09-27 01:00 | Forward Madiso - Spokane Velocit | scheduled
+- 2026-09-27 01:00 | Laferrere - Sportivo | scheduled

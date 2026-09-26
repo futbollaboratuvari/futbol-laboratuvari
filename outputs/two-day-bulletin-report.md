@@ -2,20 +2,15 @@
 
 Gunler: 2026-09-26 / 2026-09-27
 Kaynak: fixtures.json
-Ham mac: 189
-Aktif mac: 71
+Ham mac: 560
+Aktif mac: 67
 Canli mac: 0
-Biten mac: 3
-Bultenden dusurulen mac: 118
-Bugun: 7
-Yarin: 64
+Biten mac: 0
+Bultenden dusurulen mac: 493
+Bugun: 2
+Yarin: 65
 
 ## Baslamamis Maclar
-- 2026-09-26 23:00 | CONCACAF Uluslar Ligi Lig C Grup C | Saint Martin - Us Virgin Adala | scheduled | -
-- 2026-09-26 23:00 | Fas Botola Pro | Wydad Casablan - Widad Temara | scheduled | -
-- 2026-09-26 23:00 | Kanada Premier Lig | Hfx Wanderers - Atletico Ottawa | scheduled | -
-- 2026-09-26 23:00 | Brezilya Serie C Grup B | Floresta - Santa Cruz | scheduled | -
-- 2026-09-26 23:00 | Brezilya Serie C Grup B | Botafogo Pb - Maringa | scheduled | -
 - 2026-09-26 23:30 | Hazırlık Ülkeler | Abd - Peru | scheduled | -
 - 2026-09-26 23:30 | Şili Kupa Son 16 Turu | Atletico Nuble (0) - (2) Puerto Montt | scheduled | -
 - 2026-09-27 00:00 | CONCACAF Uluslar Ligi Lig B Grup D | Saint Vincent - Fransiz Guyanas | scheduled | -
@@ -28,6 +23,7 @@ Yarin: 64
 - 2026-09-27 01:00 | Meksika Ascenso MX Apertura | Tlaxcala - Cancun Fc | scheduled | -
 - 2026-09-27 01:00 | Kolombiya Primera B Clausura | Centauros - Patriotas | scheduled | -
 - 2026-09-27 01:00 | ABD USL Lig 1 | Forward Madiso - Spokane Velocit | scheduled | -
+- 2026-09-27 01:00 | Arjantin Prim B Metro | Laferrere - Sportivo | scheduled | -
 - 2026-09-27 01:30 | Brezilya Serie C Grup C | Inter De Limer - Paysandu | scheduled | -
 - 2026-09-27 01:50 | Meksika Liga MX Apertura | Cruz Azul - Toluca | scheduled | -
 - 2026-09-27 02:00 | CONCACAF Uluslar Ligi Lig C Grup B | Antiqua And Ba - Anguilla | scheduled | -
@@ -87,6 +83,4 @@ Yarin: 64
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-09-26 19:00 | UEFA Uluslar Ligi C Ligi Grup 1 | San Marino - Finlandiya | finished | 0-7
-- 2026-09-26 19:30 | İspanya 2.Lig | Tenerife - Cadiz | finished | 1-1
-- 2026-09-26 19:30 | İngiltere 2.Lig | Oldham - Salford City | finished | 1-4
+Biten mac yok.
