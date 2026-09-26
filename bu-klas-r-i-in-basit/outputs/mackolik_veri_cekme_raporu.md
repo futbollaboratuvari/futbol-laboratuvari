@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-26T00:05:50.783617+00:00
+Tarih: 2026-09-26T04:20:02.908284+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 419
+- Kac mac bulundu: 421
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 419
-- Ham veri havuzu toplam mac sayisi: 17253
+- Kac mac zaten vardi: 421
+- Ham veri havuzu toplam mac sayisi: 17255
 - Hedef tarih: 26.09.2026 Europe/Istanbul
 
 ## Ligler
@@ -51,6 +51,7 @@ Tarih: 2026-09-26T00:05:50.783617+00:00
 - Fransa Ligue 3
 - Galler FAW Championship Güney
 - Galler Premier Lig 1.Aşama
+- Gana Premier Lig
 - Gürcistan David Kipiani Kupası Çeyrek Final
 - Hazırlık Ülkeler
 - Hollanda Eerste Divisie

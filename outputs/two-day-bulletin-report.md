@@ -2,27 +2,15 @@
 
 Gunler: 2026-09-26 / 2026-09-27
 Kaynak: fixtures.json
-Ham mac: 499
-Aktif mac: 484
+Ham mac: 501
+Aktif mac: 474
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 15
-Bugun: 424
+Bultenden dusurulen mac: 27
+Bugun: 414
 Yarin: 60
 
 ## Baslamamis Maclar
-- 2026-09-26 04:00 | Meksika Liga MX Apertura | Atlante - Monterrey | scheduled | -
-- 2026-09-26 04:00 | ABD USL | El Paso Locomo - Tulsa Roughneck | scheduled | -
-- 2026-09-26 04:00 | CONCACAF Uluslar Ligi Lig A Grup B | Honduras - Surinam | scheduled | -
-- 2026-09-26 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Jaiba Brava | scheduled | -
-- 2026-09-26 04:00 | Kanada Premier Lig | Cavalry - Supra Du Quebec | scheduled | -
-- 2026-09-26 04:00 | Meksika Kadınlar Liga MX Apertura | Cruz Azul (K) - Guadalajara (K) | scheduled | -
-- 2026-09-26 04:15 | Kolombiya Primera A Clausura | Once Caldas - Bucaramanga | scheduled | -
-- 2026-09-26 05:30 | Yeni Zelanda Bölgesel Ligler Ulusal Lig | Wellington Pho - Auckland United | scheduled | -
-- 2026-09-26 06:00 | Meksika Liga MX Apertura | Club Tijuana - Atlas | scheduled | -
-- 2026-09-26 06:00 | CONCACAF Uluslar Ligi Lig A Grup B | El Salvador - Martinik | scheduled | -
-- 2026-09-26 06:30 | Yeni Zelanda Bölgesel Ligler Ulusal Lig | Ferrymead Bays - Eastern Suburbs | scheduled | -
-- 2026-09-26 07:00 | Japonya J3 Lig | Zweigen Kanaza - Gainare Tottori | scheduled | -
 - 2026-09-26 08:00 | Japonya J3 Lig | Renofa Yamaguc - Sagamihara | scheduled | -
 - 2026-09-26 08:00 | Japonya Futbol Ligi | Urayasu - J-Lease Fc | scheduled | -
 - 2026-09-26 08:30 | Japonya Futbol Ligi | Tiamo Hirakata - Vonds Ichihara | scheduled | -
@@ -311,6 +299,8 @@ Yarin: 60
 - 2026-09-26 18:00 | İspanya Tercera Ligi Grup 13 | Atletico Santa - Águilas Ii | scheduled | -
 - 2026-09-26 18:00 | Polonya Kadınlar Ekstraliga | Katowice (K) - Legia Ladies (K | scheduled | -
 - 2026-09-26 18:00 | Norveç Kadınlar Toppserien | Rosenborg (K) - Fortuna Alesund | scheduled | -
+- 2026-09-26 18:00 | Cezayir 2.Lig Doğu | As Khroub - Usm Annaba | scheduled | -
+- 2026-09-26 18:00 | Gana Premier Lig | Karela - Hearts Of Oak | scheduled | -
 - 2026-09-26 18:15 | Finlandiya Ykkönen Yükselme Turu | Rops - Salpa Salo | scheduled | -
 - 2026-09-26 18:15 | İspanya 2. Lig RFEF Grup 2 | Ebro - Terrassa | scheduled | -
 - 2026-09-26 18:30 | İtalya Serie C Grup A | Novara - Ospitaletto | scheduled | -
