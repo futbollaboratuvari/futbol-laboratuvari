@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-09-26T22:13:13.796Z",
+  "generated_at": "2026-09-26T23:05:18.348Z",
   "date": "2026-09-27",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
   "completed_items": [
+    {
+      "id": "2026-09-27|guatemala ulusal lig apertura|guastatoya deportivo san p|2 5 alt|00 00",
+      "date": "2026-09-27",
+      "time": "00:00",
+      "title": "Guastatoya - Deportivo San P",
+      "match": "Guastatoya - Deportivo San P",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "odds": "1.46",
+      "score": "2-1",
+      "result_score": "2-1",
+      "confidence": "68%",
+      "confidence_score": "68%",
+      "model_score": 68,
+      "estimated_probability": 58.5,
+      "market_probability": 56,
+      "edge_percent": 2.5,
+      "data_completeness": 64,
+      "model_version": "pro13-btts-conditioned-v3",
+      "risk": "Orta",
+      "status": "lost",
+      "result": "lost",
+      "market_group": "goals",
+      "market_group_label": "Gol Marketleri",
+      "finalized_at": "2026-09-26T23:05:18.035Z",
+      "source": "Robot ham veri havuzu"
+    },
     {
       "id": "2026-09-26|hazirlik ulkeler|abd peru|ms 1|23 30",
       "date": "2026-09-26",
@@ -786,47 +813,20 @@
       "market_group_label": "Karşılıklı Gol",
       "finalized_at": "2026-09-26T19:31:27.343Z",
       "source": "iddaa.com resmi futbol bülteni"
-    },
-    {
-      "id": "2026-09-26|ispanya 2 lig|tenerife cadiz|kg var|19 30",
-      "date": "2026-09-26",
-      "time": "19:30",
-      "title": "Tenerife - Cadiz",
-      "match": "Tenerife - Cadiz",
-      "market": "KG Var",
-      "prediction": "KG Var",
-      "odds": "2.13",
-      "score": "1-1",
-      "result_score": "1-1",
-      "confidence": "64%",
-      "confidence_score": "64%",
-      "model_score": 64,
-      "estimated_probability": 44.3,
-      "market_probability": 40.2,
-      "edge_percent": 4.1,
-      "data_completeness": 67,
-      "model_version": "pro13-btts-conditioned-v3",
-      "risk": "Orta",
-      "status": "won",
-      "result": "won",
-      "market_group": "btts",
-      "market_group_label": "Karşılıklı Gol",
-      "finalized_at": "2026-09-26T19:31:27.343Z",
-      "source": "iddaa.com resmi futbol bülteni"
     }
   ],
   "performance": {
-    "prediction_count": 3101,
-    "measured_count": 1148,
-    "pending_count": 1953,
-    "won_count": 601,
-    "lost_count": 547,
+    "prediction_count": 3149,
+    "measured_count": 1153,
+    "pending_count": 1996,
+    "won_count": 603,
+    "lost_count": 550,
     "void_count": 0,
     "success_rate": 52,
-    "probability_sample_count": 1148,
-    "brier_score": 0.2416,
-    "baseline_brier_score": 0.2494,
-    "brier_skill_score": 0.0314,
+    "probability_sample_count": 1153,
+    "brier_score": 0.2419,
+    "baseline_brier_score": 0.2495,
+    "brier_skill_score": 0.0305,
     "calibration_status": "measured",
     "calibration_buckets": [
       {
@@ -856,10 +856,10 @@
       {
         "lower": 50,
         "upper": 59,
-        "predictions": 559,
-        "won": 288,
-        "average_probability": 54.7,
-        "observed_rate": 51.5
+        "predictions": 564,
+        "won": 290,
+        "average_probability": 54.8,
+        "observed_rate": 51.4
       },
       {
         "lower": 60,
@@ -894,29 +894,29 @@
         "observed_rate": 100
       }
     ],
-    "verified_at": "2026-09-26T22:13:13.448Z",
+    "verified_at": "2026-09-26T23:05:18.036Z",
     "groups": [
       {
         "key": "goals",
         "label": "Gol Marketleri",
-        "measured": 548,
+        "measured": 550,
         "won": 290,
-        "lost": 258,
+        "lost": 260,
         "success_rate": 53
       },
       {
         "key": "match_result",
         "label": "Maç Sonucu",
-        "measured": 397,
+        "measured": 398,
         "won": 206,
-        "lost": 191,
+        "lost": 192,
         "success_rate": 52
       },
       {
         "key": "btts",
         "label": "Karşılıklı Gol",
-        "measured": 203,
-        "won": 105,
+        "measured": 205,
+        "won": 107,
         "lost": 98,
         "success_rate": 52
       }

@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 73
+- Scheduled match count: 359
 - Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-09-26 / 2026-09-27 23:59
+- Date window: 2026-09-27 / 2026-09-28 23:59
 
-- 2026-09-26 23:30 | Abd - Peru | scheduled
-- 2026-09-26 23:30 | Atletico Nuble (0) - (2) Puerto Montt | scheduled
-- 2026-09-27 00:00 | Portland Heart - Sarasota Paradi | scheduled
-- 2026-09-27 00:00 | Saint Vincent - Fransiz Guyanas | scheduled
-- 2026-09-27 00:00 | Guastatoya - Deportivo San P | scheduled
-- 2026-09-27 00:00 | Pereira - Inter Bogota | scheduled
-- 2026-09-27 00:30 | Goias - Atletico Goiani | scheduled
-- 2026-09-27 00:30 | Penarol - Boston River | scheduled
-- 2026-09-27 01:00 | Forward Madiso - Spokane Velocit | scheduled
-- 2026-09-27 01:00 | Laferrere - Sportivo | scheduled
+- 2026-09-27 02:07 | Guadalajara - Queretaro | scheduled
+- 2026-09-27 02:15 | Depor Cucuta - Llaneros | scheduled
+- 2026-09-27 02:30 | Atlanta Utd - New York City | scheduled
+- 2026-09-27 02:30 | Charlotte - Chicago | scheduled
+- 2026-09-27 02:30 | Montreal - Cincinnati | scheduled
+- 2026-09-27 02:30 | New York - St. Louis City | scheduled
+- 2026-09-27 02:30 | Philadelphia - Orlando City | scheduled
+- 2026-09-27 02:30 | Napier - Miramar | scheduled
+- 2026-09-27 03:00 | Firpo - Aguila | scheduled
+- 2026-09-27 03:00 | Inter Fa - Balboa | scheduled
