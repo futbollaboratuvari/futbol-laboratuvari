@@ -1,30 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-09-26T13:54:49.160471+00:00
+Tarih: 2026-09-26T17:42:10.218707+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 307
+- Kac mac bulundu: 86
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 307
-- Ham veri havuzu toplam mac sayisi: 17312
+- Kac mac zaten vardi: 86
+- Ham veri havuzu toplam mac sayisi: 17315
 - Hedef tarih: 26.09.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL Lig 1
-- Almanya U19 Bundesliga Grup C
 - Almanya U19 Bundesliga Grup H
-- Almanya U19 Bundesliga Grup I
 - Arjantin Kadınlar Primera A 2. Aşama
 - Arjantin Prim B Metro
 - Arjantin Primera C
 - Arjantin Süper Kupa Uluslararası
 - Arjantin Ulusal Primera Lig
-- Avrupa U21 Şampiyonası Eleme Turu Grup F
-- Avrupa U21 Şampiyonası Eleme Turu Grup H
 - Belçika Kadınlar Süper Lig
 - Belçika Kupa 6.Tur
 - Brezilya Brasileiro Kadınlar 1.Aşama Final
@@ -33,101 +29,37 @@ Tarih: 2026-09-26T13:54:49.160471+00:00
 - CONCACAF Uluslar Ligi Lig C Grup A
 - CONCACAF Uluslar Ligi Lig C Grup C
 - Cezayir 2.Lig Batı
-- Cezayir 2.Lig Doğu
 - Ekvador Pro Lig Serie B Şampiyonluk Grubu
-- Estonya Esiliiga B
 - Fas Botola 2
 - Fas Botola Pro
-- Finlandiya Ykkönen Küme Düşme Turu
-- Finlandiya Ykkönen Yükselme Turu
-- Finlandiya Ykkösliiga
 - Fransa Ligue 3
-- Gana Premier Lig
 - Hazırlık Ülkeler
-- Hazırlık Ülkeler U19
 - Hollanda Eerste Divisie
-- Hollanda Kadınlar Eredivisie
-- Hollanda Tweede Divisie
-- Hırvatistan 2. NL
-- Hırvatistan 2.HNL
-- Kadınlar U20 Dünya Kupası 3.lük
 - Kanada Premier Lig
 - Kolombiya Primera B Clausura
-- Kuzey İrlanda Championship
-- Kuzey İrlanda Premiership
 - Körfez Kupası Grup A
-- Letonya 1.Lig
-- Macaristan NB III Güneybatı
-- Macaristan NB III Güneydoğu
-- Macaristan NB III Kuzeybatı
-- Macaristan NB III Kuzeydoğu
 - Meksika Ascenso MX Apertura
 - Meksika Kadınlar Liga MX Apertura
-- Nijerya NPFL
-- Norveç 2.Lig Grup 1
-- Norveç 2.Lig Grup 2
-- Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
-- Norveç 3.Lig Grup 6
-- Norveç Kadınlar Toppserien
-- Polonya Kadınlar Ekstraliga
-- Slovakya 2.Lig
-- Slovenya 2.SNL
-- Tunus 2.Lig Grup A
-- Türkiye 2.Lig Kırmızı Grup
-- Türkiye 3.Lig 2.Grup
-- U20 Elit Lig Normal Sezon
 - UEFA Uluslar Ligi A Ligi Grup 3
 - UEFA Uluslar Ligi B Ligi Grup 1
 - UEFA Uluslar Ligi C Ligi Grup 1
 - UEFA Uluslar Ligi C Ligi Grup 3
-- UEFA Uluslar Ligi C Ligi Grup 4
 - Uruguay Premier Lig Clausura
 - Ürdün 1.Lig
-- İngiltere 1.Lig
-- İngiltere 2.Lig
-- İngiltere FA Trophy 3. Eleme Turu
-- İngiltere Kadınlar Premier Lig
-- İngiltere Ulusal Lig
-- İngiltere Ulusal Lig N / S Güney
-- İngiltere Ulusal Lig N / S Kuzey
 - İrlanda 1.Lig
 - İskoçya Challenge Kupası Lig Aşaması
-- İspanya 2. Lig RFEF Grup 1
-- İspanya 2. Lig RFEF Grup 2
-- İspanya 2. Lig RFEF Grup 3
-- İspanya 2. Lig RFEF Grup 4
-- İspanya 2. Lig RFEF Grup 5
-- İspanya 2.Lig
-- İspanya Kadınlar Primera Lig
-- İspanya Primera Lig RFEF Grup 1
-- İspanya Primera Lig RFEF Grup 2
-- İspanya Tercera Ligi Grup 1
-- İspanya Tercera Ligi Grup 10
-- İspanya Tercera Ligi Grup 11
 - İspanya Tercera Ligi Grup 12
-- İspanya Tercera Ligi Grup 13
-- İspanya Tercera Ligi Grup 15
-- İspanya Tercera Ligi Grup 16
-- İspanya Tercera Ligi Grup 18
-- İspanya Tercera Ligi Grup 2
-- İspanya Tercera Ligi Grup 3
-- İspanya Tercera Ligi Grup 4
 - İspanya Tercera Ligi Grup 5
-- İspanya Tercera Ligi Grup 6
 - İspanya Tercera Ligi Grup 7
-- İspanya Tercera Ligi Grup 9
 - İsveç 2.Lig Norra Svealand
 - İsveç 2.Lig Södra Svealand
-- İsveç Kadınlar Damallsvenskan
 - İsviçre 1.Lig Promotion
-- İtalya Kadınlar Serie A
 - İtalya Serie C Grup A
 - İtalya Serie C Grup B
 - İtalya Serie C Grup C
-- İzlanda Kadınlar Urvalsdeild Şampiyonluk Grubu
 - Şili Kupa Son 16 Turu
 
 ## Okunabilen Oran Alanlari
@@ -185,8 +117,8 @@ Tarih: 2026-09-26T13:54:49.160471+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 90
-- Acilan detay: 90
+- Denenen Tumu alani: 68
+- Acilan detay: 68
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -199,26 +131,26 @@ Tarih: 2026-09-26T13:54:49.160471+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 26.09.2026 | 21:45 | UEFA Uluslar Ligi A Ligi Grup 3 | Çekya | Hirvatistan | 14666 | 5 |
 | 26.09.2026 | 21:45 | UEFA Uluslar Ligi A Ligi Grup 3 | İngiltere | İspanya | 14667 | 5 |
+| 26.09.2026 | 21:45 | UEFA Uluslar Ligi A Ligi Grup 3 | Çekya | Hirvatistan | 14666 | 5 |
 | 26.09.2026 | 21:45 | UEFA Uluslar Ligi B Ligi Grup 1 | K. Makedonya | İsviçre | 14663 | 5 |
-| 26.09.2026 | 19:00 | UEFA Uluslar Ligi C Ligi Grup 1 | San Marino | Finlandiya | 53567 | 4 |
 | 26.09.2026 | 21:45 | UEFA Uluslar Ligi C Ligi Grup 1 | Arnavutluk | Belarus | 20685 | 5 |
 | 26.09.2026 | 21:45 | UEFA Uluslar Ligi C Ligi Grup 3 | Slovakya | Moldova | 20620 | 4 |
-| 26.09.2026 | 19:00 | UEFA Uluslar Ligi C Ligi Grup 3 | Faroe Adalari | Kazakistan | 24226 | 5 |
-| 26.09.2026 | 19:00 | UEFA Uluslar Ligi C Ligi Grup 4 | Bulgaristan | Lüksemburg | 52093 | 5 |
-| 26.09.2026 | 19:00 | UEFA Uluslar Ligi C Ligi Grup 4 | İzlanda | Estonya | 20590 | 5 |
-| 26.09.2026 | 18:00 | Avrupa U21 Şampiyonası Eleme Turu Grup H | Hirvatistan (U | Macaristan (U21 | 23995 | 5 |
-| 26.09.2026 | 19:30 | İspanya 2.Lig | Celta Vigo Ii | Sabadell | 08281 | 5 |
-| 26.09.2026 | 19:30 | İspanya 2.Lig | Tenerife | Cadiz | 08360 | 5 |
-| 26.09.2026 | 17:15 | İspanya 2.Lig | Granada | Fc Andorra | 08192 | 5 |
-| 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Breda | Fc Eindhoven | 24908 | 5 |
-| 26.09.2026 | 17:30 | Hollanda Eerste Divisie | Heracles | Vitesse | 23856 | 5 |
-| 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Volendam | Vvv Venlo | 25018 | 5 |
-| 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Emmen | Oss | 24801 | 5 |
-| 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Roda | Waalwijk | 24964 | 5 |
 | 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Maastricht | Helmond Sport | 24854 | 5 |
+| 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Roda | Waalwijk | 24964 | 5 |
+| 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Emmen | Oss | 24801 | 5 |
+| 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Breda | Fc Eindhoven | 24908 | 5 |
+| 26.09.2026 | 21:00 | Hollanda Eerste Divisie | Volendam | Vvv Venlo | 25018 | 5 |
 | 26.09.2026 | 22:00 | CONCACAF Uluslar Ligi Lig C Grup A | Montserrat | Ingiliz Virgin | 15624 | 5 |
+| 26.09.2026 | 23:00 | CONCACAF Uluslar Ligi Lig C Grup C | Saint Martin | Us Virgin Adala | 15689 | 2 |
+| 26.09.2026 | 23:30 | Hazırlık Ülkeler | Abd | Peru | 25905 | 5 |
+| 26.09.2026 | 22:00 | İskoçya Challenge Kupası Lig Aşaması | Queen Of South | Rangers Ii | 41875 | 3 |
+| 26.09.2026 | 21:00 | Körfez Kupası Grup A | Umman | Suudi Arabistan | 06555 | 5 |
+| 26.09.2026 | 21:30 | İtalya Serie C Grup A | Cittadella | Lecco | 25122 | 5 |
+| 26.09.2026 | 21:30 | İtalya Serie C Grup B | Sambenedetese | Campobasso | 25205 | 5 |
+| 26.09.2026 | 21:30 | İtalya Serie C Grup C | Cavese | Savoia | 25089 | 5 |
+| 26.09.2026 | 21:45 | Fransa Ligue 3 | Quevilly-Rouen | Amiens | 25562 | 5 |
+| 26.09.2026 | 21:45 | Fransa Ligue 3 | Villefranche | Versailles | 25346 | 5 |
 
 ## Sonuc
 
