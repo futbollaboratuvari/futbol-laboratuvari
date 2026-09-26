@@ -1,200 +1,136 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26T19:23:07.254Z",
+  "generated_at": "2026-09-26T22:12:40.511Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-26T19:23:06.194Z",
+  "source_generated_at": "2026-09-26T22:12:37.431Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 8,
-    "ready_count": 5,
+    "live_match_count": 4,
+    "ready_count": 1,
     "waiting_count": 3,
-    "result_lean_count": 3,
-    "next_goal_lean_count": 3,
+    "result_lean_count": 1,
+    "next_goal_lean_count": 1,
     "high_goal_pressure_count": 0
   },
   "matches": [
     {
-      "fixture_id": "401875917",
-      "status": "ready",
-      "minute": 64,
-      "score": {
-        "home": 3,
-        "away": 1
-      },
-      "home": "FC Volendam",
-      "away": "VVV-Venlo",
-      "league": "Hollanda Eerste Divisie",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-26T19:23:06.194Z",
-      "freshness_minutes": 0.017666666666666667,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "watch",
-        "label": "Net canlı tahmin yok · izlemeye devam",
-        "confidence": 48
-      },
-      "result_lean": {
-        "code": null,
-        "label": "Taraf için ayrışma yok",
-        "side": "neutral",
-        "strength": 47.46
-      },
-      "next_goal_lean": {
-        "code": null,
-        "label": "Sonraki gol için net ayrışma yok",
-        "side": "neutral",
-        "strength": 51.64
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 24
-      },
-      "signals": [
-        "Team Power: FC Volendam %49 · VVV-Venlo %51.",
-        "Goal Power: FC Volendam %23 · VVV-Venlo %26.",
-        "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": -2,
-        "goal_power_diff": -3,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 1,
-        "total_shots_diff": -11,
-        "corners_diff": -6,
-        "xg_diff": 0,
-        "direction_score": 15.54,
-        "next_goal_score": -7.36
-      }
-    },
-    {
-      "fixture_id": "401842152",
-      "status": "ready",
-      "minute": 57,
+      "fixture_id": "401886360",
+      "status": "insufficient_data",
+      "minute": 12,
       "score": {
         "home": 0,
         "away": 0
       },
-      "home": "Charlotte Independence",
-      "away": "Fort Wayne",
-      "league": "ABD USL Lig 1",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-26T19:23:06.194Z",
-      "freshness_minutes": 0.017666666666666667,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "next_goal",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "confidence": 74
-      },
-      "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 81.734
-      },
-      "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 84.25999999999999
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 15
-      },
-      "signals": [
-        "Team Power: Charlotte Independence %71 · Fort Wayne %29.",
-        "Goal Power: Charlotte Independence %18 · Fort Wayne %7.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": 42,
-        "goal_power_diff": 11,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 2,
-        "total_shots_diff": 9,
-        "corners_diff": -1,
-        "xg_diff": 0,
-        "direction_score": 35.26,
-        "next_goal_score": 32.26
-      }
-    },
-    {
-      "fixture_id": "401886361",
-      "status": "ready",
-      "minute": 62,
-      "score": {
-        "home": 1,
-        "away": 1
-      },
-      "home": "Cruz Azul Hidalgo",
-      "away": "Leones Negros",
+      "home": "Tlaxcala FC",
+      "away": "Cancún FC",
       "league": "Meksika Ascenso MX Apertura",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-26T19:23:06.194Z",
-      "freshness_minutes": 0.017666666666666667,
+      "snapshot_recorded_at": "2026-09-26T22:12:37.431Z",
+      "freshness_minutes": 0.051333333333333335,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": "power_signal_missing",
+      "primary_prediction": {
+        "type": "wait",
+        "label": "Veri yeterli değil · tahmin verilmedi",
+        "confidence": null
+      },
+      "result_lean": null,
+      "next_goal_lean": null,
+      "goal_pressure": null,
+      "signals": []
+    },
+    {
+      "fixture_id": "401844155",
+      "status": "insufficient_data",
+      "minute": 8,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "home": "Deportivo Madryn",
+      "away": "Central Norte",
+      "league": "Arjantin Ulusal Primera Lig",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-26T22:12:37.431Z",
+      "freshness_minutes": 0.051333333333333335,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": "power_signal_missing",
+      "primary_prediction": {
+        "type": "wait",
+        "label": "Veri yeterli değil · tahmin verilmedi",
+        "confidence": null
+      },
+      "result_lean": null,
+      "next_goal_lean": null,
+      "goal_pressure": null,
+      "signals": []
+    },
+    {
+      "fixture_id": "401860354",
+      "status": "ready",
+      "minute": 42,
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "home": "Goiás",
+      "away": "Atlético Goianiense",
+      "league": "Brezilya Serie B",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-26T22:12:37.431Z",
+      "freshness_minutes": 0.051333333333333335,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -221,226 +157,62 @@
       "robot_version": "live-match-analysis-robot-v1",
       "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
       "reason": null,
-      "evidence_score": 48,
+      "evidence_score": 58,
       "risk": "Yüksek veri riski",
       "primary_prediction": {
         "type": "match_direction",
-        "label": "Beraberlik yönü",
-        "confidence": 62
+        "label": "Deplasman yönü",
+        "confidence": 80
       },
       "result_lean": {
-        "code": "X",
-        "label": "Beraberlik yönü",
-        "side": "draw",
-        "strength": 68
-      },
-      "next_goal_lean": {
-        "code": null,
-        "label": "Sonraki gol için net ayrışma yok",
-        "side": "neutral",
-        "strength": 59
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 3
-      },
-      "signals": [
-        "Team Power: Cruz Azul Hidalgo %50 · Leones Negros %50.",
-        "Goal Power: Cruz Azul Hidalgo %3 · Leones Negros %3.",
-        "Maç yönü: Beraberlik yönü. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": 0,
-        "goal_power_diff": 0,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 0,
-        "total_shots_diff": 0,
-        "corners_diff": 0,
-        "xg_diff": 0,
-        "direction_score": 0,
-        "next_goal_score": 0
-      }
-    },
-    {
-      "fixture_id": "401875916",
-      "status": "ready",
-      "minute": 66,
-      "score": {
-        "home": 1,
-        "away": 0
-      },
-      "home": "MVV Maastricht",
-      "away": "Helmond Sport",
-      "league": "Hollanda Eerste Divisie",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-26T19:23:06.194Z",
-      "freshness_minutes": 0.017666666666666667,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "next_goal",
-        "label": "Sonraki gol eğilimi: Deplasman",
-        "confidence": 64
-      },
-      "result_lean": {
-        "code": null,
-        "label": "Taraf için ayrışma yok",
-        "side": "neutral",
-        "strength": 60
+        "code": "2",
+        "label": "Deplasman yönü",
+        "side": "away",
+        "strength": 88.7
       },
       "next_goal_lean": {
         "code": "AWAY",
         "label": "Sonraki gol eğilimi: Deplasman",
         "side": "away",
-        "strength": 70.24
+        "strength": 78.6
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 14
+        "score": 18
       },
       "signals": [
-        "Team Power: MVV Maastricht %46 · Helmond Sport %54.",
-        "Goal Power: MVV Maastricht %12 · Helmond Sport %16.",
-        "Maç yönü: Taraf için ayrışma yok. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
+        "Team Power: Goiás %25 · Atlético Goianiense %75.",
+        "Goal Power: Goiás %7 · Atlético Goianiense %21.",
+        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": -8,
-        "goal_power_diff": -4,
+        "team_power_diff": -50,
+        "goal_power_diff": -14,
         "momentum_diff": 0,
-        "shots_on_goal_diff": -3,
-        "total_shots_diff": -1,
-        "corners_diff": 2,
+        "shots_on_goal_diff": -1,
+        "total_shots_diff": -4,
+        "corners_diff": -3,
         "xg_diff": 0,
-        "direction_score": 0.86,
-        "next_goal_score": -18.24
+        "direction_score": -43,
+        "next_goal_score": -26.6
       }
     },
     {
-      "fixture_id": "401875915",
-      "status": "ready",
-      "minute": 61,
-      "score": {
-        "home": 1,
-        "away": 0
-      },
-      "home": "NAC Breda",
-      "away": "FC Eindhoven",
-      "league": "Hollanda Eerste Divisie",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-26T19:23:06.194Z",
-      "freshness_minutes": 0.017666666666666667,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": null,
-      "evidence_score": 48,
-      "risk": "Yüksek veri riski",
-      "primary_prediction": {
-        "type": "match_direction",
-        "label": "Ev sahibi yönü",
-        "confidence": 78
-      },
-      "result_lean": {
-        "code": "1",
-        "label": "Ev sahibi yönü",
-        "side": "home",
-        "strength": 90
-      },
-      "next_goal_lean": {
-        "code": "HOME",
-        "label": "Sonraki gol eğilimi: Ev sahibi",
-        "side": "home",
-        "strength": 90
-      },
-      "goal_pressure": {
-        "level": "low",
-        "label": "Gol baskısı düşük",
-        "score": 22
-      },
-      "signals": [
-        "Team Power: NAC Breda %84 · FC Eindhoven %16.",
-        "Goal Power: NAC Breda %27 · FC Eindhoven %5.",
-        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
-        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
-      ],
-      "diagnostics": {
-        "team_power_diff": 68,
-        "goal_power_diff": 22,
-        "momentum_diff": 0,
-        "shots_on_goal_diff": 2,
-        "total_shots_diff": 14,
-        "corners_diff": 9,
-        "xg_diff": 0,
-        "direction_score": 80.84,
-        "next_goal_score": 48.24
-      }
-    },
-    {
-      "fixture_id": "401844160",
+      "fixture_id": "401842156",
       "status": "insufficient_data",
-      "minute": 45,
+      "minute": 5,
       "score": {
         "home": 0,
         "away": 0
       },
-      "home": "Almirante Brown",
-      "away": "Acassuso",
-      "league": "Arjantin Ulusal Primera Lig",
+      "home": "Forward Madison FC",
+      "away": "Spokane Velocity FC",
+      "league": "ABD USL Lig 1",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-26T19:23:06.194Z",
-      "freshness_minutes": 0.017666666666666667,
+      "snapshot_recorded_at": "2026-09-26T22:12:37.431Z",
+      "freshness_minutes": 0.051333333333333335,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -466,107 +238,7 @@
       },
       "robot_version": "live-match-analysis-robot-v1",
       "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": "power_signal_missing",
-      "primary_prediction": {
-        "type": "wait",
-        "label": "Veri yeterli değil · tahmin verilmedi",
-        "confidence": null
-      },
-      "result_lean": null,
-      "next_goal_lean": null,
-      "goal_pressure": null,
-      "signals": []
-    },
-    {
-      "fixture_id": "401844162",
-      "status": "insufficient_data",
-      "minute": 19,
-      "score": {
-        "home": 0,
-        "away": 0
-      },
-      "home": "All Boys",
-      "away": "Colón (Santa Fe)",
-      "league": "Arjantin Ulusal Primera Lig",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-26T19:23:06.194Z",
-      "freshness_minutes": 0.017666666666666667,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": "power_signal_missing",
-      "primary_prediction": {
-        "type": "wait",
-        "label": "Veri yeterli değil · tahmin verilmedi",
-        "confidence": null
-      },
-      "result_lean": null,
-      "next_goal_lean": null,
-      "goal_pressure": null,
-      "signals": []
-    },
-    {
-      "fixture_id": "401844158",
-      "status": "insufficient_data",
-      "minute": 22,
-      "score": {
-        "home": 0,
-        "away": 0
-      },
-      "home": "Ciudad de Bolívar",
-      "away": "Chaco For Ever",
-      "league": "Arjantin Ulusal Primera Lig",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-26T19:23:06.194Z",
-      "freshness_minutes": 0.017666666666666667,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": "power_signal_missing",
+      "reason": "minute_too_early",
       "primary_prediction": {
         "type": "wait",
         "label": "Veri yeterli değil · tahmin verilmedi",
