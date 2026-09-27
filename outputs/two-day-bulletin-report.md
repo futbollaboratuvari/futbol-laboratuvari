@@ -2,17 +2,15 @@
 
 Gunler: 2026-09-27 / 2026-09-28
 Kaynak: fixtures.json
-Ham mac: 378
-Aktif mac: 328
+Ham mac: 350
+Aktif mac: 326
 Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 50
-Bugun: 307
+Bultenden dusurulen mac: 24
+Bugun: 305
 Yarin: 21
 
 ## Baslamamis Maclar
-- 2026-09-27 04:20 | Kolombiya Primera A Clausura | Atletico Junio - Independiente M | scheduled | -
-- 2026-09-27 04:30 | ABD MLS | Salt Lake - New England | scheduled | -
 - 2026-09-27 05:00 | CONCACAF Uluslar Ligi Lig B Grup D | Sint Maarten - Belize | scheduled | -
 - 2026-09-27 05:00 | ABD USL | Oakland Roots - Phoenix Rising | scheduled | -
 - 2026-09-27 05:00 | ABD USL | Monterey Bay - Lexington | scheduled | -

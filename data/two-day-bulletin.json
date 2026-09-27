@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T01:12:53.653Z",
+  "generated_at": "2026-09-27T01:36:04.431Z",
   "timezone": "Europe/Istanbul",
   "source": "fixtures.json",
   "warning": "",
@@ -7,12 +7,12 @@
     "2026-09-27",
     "2026-09-28"
   ],
-  "total_source_matches": 378,
-  "total_matches": 328,
-  "active_match_count": 328,
+  "total_source_matches": 350,
+  "total_matches": 326,
+  "active_match_count": 326,
   "live_match_count": 0,
   "finished_match_count": 0,
-  "removed_finished_count": 50,
+  "removed_finished_count": 24,
   "removed_statuses": [
     "live",
     "finished",
@@ -20,310 +20,10 @@
     "postponed"
   ],
   "by_day": {
-    "2026-09-27": 307,
+    "2026-09-27": 305,
     "2026-09-28": 21
   },
   "matches": [
-    {
-      "date": "2026-09-27",
-      "time": "04:20",
-      "league": "Kolombiya Primera A Clausura",
-      "home": "Atletico Junio",
-      "away": "Independiente M",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "status_verified": false,
-      "status_source": "schedule_only",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.354Z",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "27118",
-      "oddsSource": "Robot ham veri havuzu",
-      "one": 2.1,
-      "oneOdd": 2.1,
-      "ms1": 2.1,
-      "odd1": 2.1,
-      "draw": 2.89,
-      "drawOdd": 2.89,
-      "msx": 2.89,
-      "oddX": 2.89,
-      "two": 2.49,
-      "twoOdd": 2.49,
-      "ms2": 2.49,
-      "odd2": 2.49,
-      "under25": 1.71,
-      "alt25": 1.71,
-      "under": 1.71,
-      "alt": 1.71,
-      "over25": 1.57,
-      "ust25": 1.57,
-      "over": 1.57,
-      "ust": 1.57,
-      "raw_market_blocks": [
-        {
-          "market_code": "27118",
-          "values": [
-            2.1,
-            2.89,
-            2.49
-          ],
-          "guess": "Belirsiz market",
-          "named_values": {},
-          "detail_market_candidates": [],
-          "market_identity_verified": false,
-          "market_identity_source": "unlabeled_raw_block"
-        },
-        {
-          "market_code": "27122",
-          "values": [
-            1.71,
-            1.57
-          ],
-          "guess": "Belirsiz market",
-          "named_values": {},
-          "detail_market_candidates": [],
-          "market_identity_verified": false,
-          "market_identity_source": "unlabeled_raw_block"
-        },
-        {
-          "market_code": "27119",
-          "values": [
-            1.22,
-            1.16,
-            1.32
-          ],
-          "guess": "Belirsiz market",
-          "named_values": {},
-          "detail_market_candidates": [],
-          "market_identity_verified": false,
-          "market_identity_source": "unlabeled_raw_block"
-        }
-      ],
-      "raw_market_guess_odds": {},
-      "detail_market_candidates": [],
-      "raw_market_block_count": 3,
-      "raw_market_value_count": 8,
-      "raw_market_source": "Robot ham veri hücreleri",
-      "raw_market_identity_status": "unverified",
-      "market_provenance": {
-        "version": "market-provenance-v1",
-        "policy": "verified_market_identity_only",
-        "raw_guesses_blocked": true,
-        "unverified_raw_blocks": 3,
-        "stale_guess_fields_removed": 0,
-        "stale_candidates_removed": 0
-      },
-      "flow_status": "scheduled"
-    },
-    {
-      "date": "2026-09-27",
-      "time": "04:30",
-      "league": "ABD MLS",
-      "home": "Salt Lake",
-      "away": "New England",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "status_verified": false,
-      "status_source": "schedule_only",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.354Z",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "27135",
-      "oddsSource": "iddaa.com resmi futbol bülteni",
-      "one": 1.97,
-      "oneOdd": 1.97,
-      "ms1": 2,
-      "odd1": 1.97,
-      "draw": 3.31,
-      "drawOdd": 3.31,
-      "msx": 3.49,
-      "oddX": 3.31,
-      "two": 2.72,
-      "twoOdd": 2.72,
-      "ms2": 2.89,
-      "odd2": 2.72,
-      "under25": 2.25,
-      "alt25": 2.26,
-      "under": 2.26,
-      "alt": 2.26,
-      "over25": 1.46,
-      "ust25": 1.45,
-      "over": 1.45,
-      "ust": 1.45,
-      "under35": 1.47,
-      "over35": 2.22,
-      "bttsYes": 1.4,
-      "bttsNo": 2.38,
-      "firstHalfBttsYes": 3.39,
-      "firstHalfBttsNo": 1.19,
-      "goals6plus": 8.01,
-      "available_odds": {
-        "ms1": 2,
-        "msx": 3.49,
-        "ms2": 2.89,
-        "under25": 2.25,
-        "over25": 1.46,
-        "under35": 1.47,
-        "over35": 2.22,
-        "bttsYes": 1.4,
-        "bttsNo": 2.38,
-        "firstHalfBttsYes": 3.39,
-        "firstHalfBttsNo": 1.19,
-        "goals6plus": 8.01,
-        "secondHalfBttsYes": 2.59,
-        "secondHalfBttsNo": 1.34,
-        "halfBttsYesYes": 9.92,
-        "halfBttsYesNo": 5,
-        "halfBttsNoYes": 3.39,
-        "halfBttsNoNo": 1.76
-      },
-      "odds": {
-        "ms1": 2,
-        "msx": 3.49,
-        "ms2": 2.89,
-        "under25": 2.25,
-        "over25": 1.46,
-        "under35": 1.47,
-        "over35": 2.22,
-        "bttsYes": 1.4,
-        "bttsNo": 2.38,
-        "firstHalfBttsYes": 3.39,
-        "firstHalfBttsNo": 1.19,
-        "goals6plus": 8.01,
-        "secondHalfBttsYes": 2.59,
-        "secondHalfBttsNo": 1.34,
-        "halfBttsYesYes": 9.92,
-        "halfBttsYesNo": 5,
-        "halfBttsNoYes": 3.39,
-        "halfBttsNoNo": 1.76
-      },
-      "iddaa_event_id": "3162096",
-      "iddaa_market_count": 90,
-      "iddaa_verified_at": "2026-09-27T01:12:42.805Z",
-      "iddaa_verified_stage": "event_detail",
-      "odds_source": "iddaa.com resmi futbol bülteni",
-      "verified_market_sources": {
-        "ms1": "iddaa.com resmi futbol bülteni",
-        "msx": "iddaa.com resmi futbol bülteni",
-        "ms2": "iddaa.com resmi futbol bülteni",
-        "under25": "iddaa.com resmi futbol bülteni",
-        "over25": "iddaa.com resmi futbol bülteni",
-        "under35": "iddaa.com resmi futbol bülteni",
-        "over35": "iddaa.com resmi futbol bülteni",
-        "bttsYes": "iddaa.com resmi futbol bülteni",
-        "bttsNo": "iddaa.com resmi futbol bülteni",
-        "firstHalfBttsYes": "iddaa.com resmi futbol bülteni",
-        "firstHalfBttsNo": "iddaa.com resmi futbol bülteni",
-        "goals6plus": "iddaa.com resmi futbol bülteni",
-        "secondHalfBttsYes": "iddaa.com resmi futbol bülteni",
-        "secondHalfBttsNo": "iddaa.com resmi futbol bülteni",
-        "halfBttsYesYes": "iddaa.com resmi futbol bülteni",
-        "halfBttsYesNo": "iddaa.com resmi futbol bülteni",
-        "halfBttsNoYes": "iddaa.com resmi futbol bülteni",
-        "halfBttsNoNo": "iddaa.com resmi futbol bülteni"
-      },
-      "iddaa_verified_market_keys": [
-        "bttsNo",
-        "bttsYes",
-        "firstHalfBttsNo",
-        "firstHalfBttsYes",
-        "goals6plus",
-        "halfBttsNoNo",
-        "halfBttsNoYes",
-        "halfBttsYesNo",
-        "halfBttsYesYes",
-        "ms1",
-        "ms2",
-        "msx",
-        "over25",
-        "over35",
-        "secondHalfBttsNo",
-        "secondHalfBttsYes",
-        "under25",
-        "under35"
-      ],
-      "raw_market_blocks": [
-        {
-          "market_code": "27135",
-          "values": [
-            1.97,
-            3.31,
-            2.72
-          ],
-          "guess": "Belirsiz market",
-          "named_values": {},
-          "detail_market_candidates": [],
-          "market_identity_verified": false,
-          "market_identity_source": "unlabeled_raw_block"
-        },
-        {
-          "market_code": "27148",
-          "values": [
-            2.17,
-            1.39
-          ],
-          "guess": "Belirsiz market",
-          "named_values": {},
-          "detail_market_candidates": [],
-          "market_identity_verified": false,
-          "market_identity_source": "unlabeled_raw_block"
-        },
-        {
-          "market_code": "27136",
-          "values": [
-            1.23,
-            1.16,
-            1.48
-          ],
-          "guess": "Belirsiz market",
-          "named_values": {},
-          "detail_market_candidates": [],
-          "market_identity_verified": false,
-          "market_identity_source": "unlabeled_raw_block"
-        }
-      ],
-      "raw_market_guess_odds": {},
-      "detail_market_candidates": [],
-      "raw_market_block_count": 3,
-      "raw_market_value_count": 8,
-      "raw_market_source": "Robot ham veri hücreleri",
-      "raw_market_identity_status": "unverified",
-      "market_provenance": {
-        "version": "market-provenance-v1",
-        "policy": "verified_market_identity_only",
-        "raw_guesses_blocked": true,
-        "unverified_raw_blocks": 3,
-        "stale_guess_fields_removed": 0,
-        "stale_candidates_removed": 0
-      },
-      "alt35": 1.47,
-      "under3_5": 1.47,
-      "ust35": 2.2,
-      "over3_5": 2.2,
-      "kgVar": 1.39,
-      "varOdd": 1.39,
-      "var": 1.39,
-      "kgYok": 2.41,
-      "yokOdd": 2.41,
-      "yok": 2.41,
-      "iyKgVar": 3.34,
-      "first_half_btts_yes": 3.34,
-      "iyKgYok": 1.2,
-      "first_half_btts_no": 1.2,
-      "secondHalfBttsYes": 2.59,
-      "secondHalfBttsNo": 1.34,
-      "halfBttsYesYes": 9.92,
-      "halfBttsYesNo": 5,
-      "halfBttsNoYes": 3.39,
-      "halfBttsNoNo": 1.76,
-      "flow_status": "scheduled"
-    },
     {
       "date": "2026-09-27",
       "time": "05:00",
@@ -338,7 +38,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.354Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "11512",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -544,7 +244,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.354Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27226",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -750,7 +450,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.354Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27193",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -956,7 +656,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.354Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27260",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -1155,7 +855,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.355Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "41250",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -1314,7 +1014,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.355Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "42716",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -1467,7 +1167,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.355Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27293",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -1633,7 +1333,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.355Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27426",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -1837,7 +1537,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.355Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27310",
       "oddsSource": "Robot ham veri havuzu",
@@ -1931,7 +1631,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.355Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27368",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -2137,7 +1837,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.355Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27484",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -2343,7 +2043,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.356Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27526",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -2548,7 +2248,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.356Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "42704",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -2691,7 +2391,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.356Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "10712",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -2762,9 +2462,9 @@
         {
           "market_code": "10712",
           "values": [
-            1.9,
-            3.01,
-            2.75
+            1.93,
+            2.91,
+            2.77
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -2775,8 +2475,8 @@
         {
           "market_code": "50273",
           "values": [
-            1.72,
-            1.57
+            1.66,
+            1.61
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -2788,8 +2488,8 @@
           "market_code": "12891",
           "values": [
             1.16,
-            1.14,
-            1.41
+            1.15,
+            1.4
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -2834,7 +2534,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.356Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "01481",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -2899,9 +2599,9 @@
         {
           "market_code": "01481",
           "values": [
-            3.05,
-            3.41,
-            1.66
+            2.52,
+            3.28,
+            1.92
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -2912,9 +2612,9 @@
         {
           "market_code": "01484",
           "values": [
-            1.56,
-            1.09,
-            1.12
+            1.4,
+            1.1,
+            1.21
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -2963,7 +2663,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.356Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49235",
       "oddsSource": "Robot ham veri havuzu",
@@ -2979,7 +2679,7 @@
         {
           "market_code": "49235",
           "values": [
-            9.36,
+            8.93,
             17.5
           ],
           "guess": "Belirsiz market",
@@ -2991,7 +2691,7 @@
         {
           "market_code": "49236",
           "values": [
-            4.67
+            4.59
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -3030,7 +2730,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.356Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "47129",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -3197,7 +2897,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.357Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "46293",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -3324,7 +3024,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.357Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "42034",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -3405,9 +3105,9 @@
         {
           "market_code": "42034",
           "values": [
-            1.12,
-            4.94,
-            7.95
+            1.07,
+            5.43,
+            9.67
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -3418,8 +3118,8 @@
         {
           "market_code": "42038",
           "values": [
-            1.98,
-            1.39
+            2.07,
+            1.36
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -3430,7 +3130,7 @@
         {
           "market_code": "42035",
           "values": [
-            2.71
+            3.02
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -3479,7 +3179,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.357Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "11988",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -3622,7 +3322,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.357Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "46309",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -3751,7 +3451,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.357Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49237",
       "oddsSource": "Robot ham veri havuzu",
@@ -3818,7 +3518,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.358Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "46301",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -3947,7 +3647,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.358Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "47131",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -4104,7 +3804,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.358Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "42698",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -4247,7 +3947,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.359Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27585",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -4404,7 +4104,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.359Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27568",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -4561,7 +4261,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.359Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "46317",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -4718,7 +4418,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.359Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "47705",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -4859,7 +4559,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.359Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "03989",
       "oddsSource": "Robot ham veri havuzu",
@@ -4953,7 +4653,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.359Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "47133",
       "oddsSource": "Robot ham veri havuzu",
@@ -5047,7 +4747,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.359Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "40309",
       "oddsSource": "Robot ham veri havuzu",
@@ -5141,7 +4841,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.359Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49434",
       "oddsSource": "Robot ham veri havuzu",
@@ -5182,8 +4882,8 @@
         {
           "market_code": "49438",
           "values": [
-            1.93,
-            1.42
+            1.88,
+            1.44
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -5235,7 +4935,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.359Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50258",
       "oddsSource": "Robot ham veri havuzu",
@@ -5276,8 +4976,8 @@
         {
           "market_code": "50262",
           "values": [
-            1.95,
-            1.41
+            1.93,
+            1.43
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -5329,7 +5029,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.360Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "40314",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -5400,9 +5100,9 @@
         {
           "market_code": "40314",
           "values": [
-            2.44,
-            2.58,
-            2.35
+            2.48,
+            2.63,
+            2.28
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -5425,9 +5125,9 @@
         {
           "market_code": "40315",
           "values": [
-            1.25,
-            1.2,
-            1.23
+            1.27,
+            1.19,
+            1.22
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -5472,7 +5172,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.360Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27670",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -5548,9 +5248,9 @@
         {
           "market_code": "27670",
           "values": [
-            3.33,
-            2.98,
-            1.71
+            3.44,
+            2.87,
+            1.72
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -5573,8 +5273,8 @@
         {
           "market_code": "27671",
           "values": [
-            1.53,
-            1.14,
+            1.52,
+            1.16,
             1.09
           ],
           "guess": "Belirsiz market",
@@ -5622,7 +5322,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.360Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27653",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -5771,7 +5471,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.360Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27636",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -5928,7 +5628,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.360Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27687",
       "oddsSource": "Robot ham veri havuzu",
@@ -6021,7 +5721,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.360Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27619",
       "oddsSource": "Robot ham veri havuzu",
@@ -6115,7 +5815,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.360Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "46334",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -6180,9 +5880,9 @@
         {
           "market_code": "46334",
           "values": [
-            1.05,
-            5.56,
-            11.15
+            1.07,
+            5.43,
+            10.2
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -6193,7 +5893,7 @@
         {
           "market_code": "46335",
           "values": [
-            3.19
+            3.07
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -6242,7 +5942,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.361Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "40133",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -6385,7 +6085,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.361Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50206",
       "oddsSource": "Robot ham veri havuzu",
@@ -6479,7 +6179,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.361Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "37903",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -6622,7 +6322,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.361Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50204",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -6693,9 +6393,9 @@
         {
           "market_code": "50204",
           "values": [
-            2.62,
-            2.91,
-            2.01
+            2.77,
+            2.93,
+            1.92
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -6718,9 +6418,9 @@
         {
           "market_code": "50205",
           "values": [
-            1.36,
+            1.4,
             1.15,
-            1.19
+            1.16
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -6765,7 +6465,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.361Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "09020",
       "oddsSource": "Robot ham veri havuzu",
@@ -6859,7 +6559,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.361Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "40395",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -6930,9 +6630,9 @@
         {
           "market_code": "40395",
           "values": [
-            3.3,
-            2.77,
-            1.79
+            3.41,
+            2.79,
+            1.75
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -6955,9 +6655,9 @@
         {
           "market_code": "40396",
           "values": [
-            1.47,
+            1.5,
             1.16,
-            1.1
+            1.09
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -7002,7 +6702,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.361Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "16602",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -7145,7 +6845,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.361Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "40403",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -7287,7 +6987,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.361Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27771",
       "oddsSource": "Robot ham veri havuzu",
@@ -7381,7 +7081,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.362Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27859",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -7557,7 +7257,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.362Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27721",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -7733,7 +7433,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.362Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "37699",
       "oddsSource": "Robot ham veri havuzu",
@@ -7827,7 +7527,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.362Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "37716",
       "oddsSource": "Robot ham veri havuzu",
@@ -7855,9 +7555,9 @@
         {
           "market_code": "37716",
           "values": [
-            3.88,
-            3,
-            1.58
+            3.81,
+            3.11,
+            1.57
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -7880,9 +7580,9 @@
         {
           "market_code": "37717",
           "values": [
-            1.64,
-            1.13,
-            1.05
+            1.65,
+            1.12,
+            1.06
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -7921,7 +7621,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.362Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27825",
       "oddsSource": "Robot ham veri havuzu",
@@ -8015,7 +7715,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.362Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27892",
       "oddsSource": "Robot ham veri havuzu",
@@ -8109,7 +7809,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.362Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27909",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -8266,7 +7966,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.362Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27602",
       "oddsSource": "Robot ham veri havuzu",
@@ -8360,7 +8060,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.362Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27754",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -8517,7 +8217,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.363Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27704",
       "oddsSource": "Robot ham veri havuzu",
@@ -8611,7 +8311,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.363Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "42051",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -8692,9 +8392,9 @@
         {
           "market_code": "42051",
           "values": [
-            2.02,
-            3.12,
-            2.45
+            2.05,
+            3.1,
+            2.42
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -8718,8 +8418,8 @@
           "market_code": "42052",
           "values": [
             1.23,
-            1.12,
-            1.36
+            1.13,
+            1.34
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -8768,7 +8468,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.363Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "11012",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -8839,9 +8539,9 @@
         {
           "market_code": "11012",
           "values": [
-            6.5,
-            3.11,
-            1.34
+            6.44,
+            3.2,
+            1.32
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -8864,8 +8564,8 @@
         {
           "market_code": "37081",
           "values": [
-            1.97,
-            1.11
+            2,
+            1.09
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -8910,7 +8610,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.363Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "37090",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -9053,7 +8753,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.363Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "08251",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -9196,7 +8896,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.363Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49536",
       "oddsSource": "Robot ham veri havuzu",
@@ -9289,7 +8989,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.363Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49856",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -9432,7 +9132,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.363Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "40135",
       "oddsSource": "Robot ham veri havuzu",
@@ -9526,7 +9226,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.363Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49848",
       "oddsSource": "Robot ham veri havuzu",
@@ -9620,7 +9320,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.363Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "11197",
       "oddsSource": "Robot ham veri havuzu",
@@ -9648,9 +9348,9 @@
         {
           "market_code": "11197",
           "values": [
-            2.09,
-            2.73,
-            2.63
+            2.03,
+            2.71,
+            2.76
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -9673,9 +9373,9 @@
         {
           "market_code": "11219",
           "values": [
-            1.19,
-            1.17,
-            1.33
+            1.16,
+            1.18,
+            1.35
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -9714,7 +9414,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.363Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "32851",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -9857,7 +9557,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.363Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50022",
       "oddsSource": "Robot ham veri havuzu",
@@ -9885,9 +9585,9 @@
         {
           "market_code": "50022",
           "values": [
-            1.35,
-            3.45,
-            5.29
+            1.3,
+            3.57,
+            5.72
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -9910,8 +9610,8 @@
         {
           "market_code": "50023",
           "values": [
-            1.08,
-            1.97
+            1.07,
+            2.06
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -9950,7 +9650,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.364Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50018",
       "oddsSource": "Robot ham veri havuzu",
@@ -10044,7 +9744,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.364Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50020",
       "oddsSource": "Robot ham veri havuzu",
@@ -10137,7 +9837,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.364Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50030",
       "oddsSource": "Robot ham veri havuzu",
@@ -10165,9 +9865,9 @@
         {
           "market_code": "50030",
           "values": [
-            2.15,
-            2.68,
-            2.6
+            2.2,
+            2.6,
+            2.62
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -10190,8 +9890,8 @@
         {
           "market_code": "50031",
           "values": [
+            1.19,
             1.2,
-            1.18,
             1.3
           ],
           "guess": "Belirsiz market",
@@ -10231,7 +9931,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.364Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "42127",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -10373,7 +10073,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.364Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "45115",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -10516,7 +10216,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.364Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50208",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -10659,7 +10359,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.364Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50216",
       "oddsSource": "Robot ham veri havuzu",
@@ -10687,9 +10387,9 @@
         {
           "market_code": "50216",
           "values": [
-            1.21,
-            3.87,
-            7.42
+            1.19,
+            3.94,
+            7.74
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -10700,8 +10400,8 @@
         {
           "market_code": "33029",
           "values": [
-            1.61,
-            1.66
+            1.64,
+            1.64
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -10712,7 +10412,7 @@
         {
           "market_code": "50217",
           "values": [
-            2.33
+            2.38
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -10751,7 +10451,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.364Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50010",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -10893,7 +10593,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.364Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "41900",
       "oddsSource": "Robot ham veri havuzu",
@@ -10921,9 +10621,9 @@
         {
           "market_code": "41900",
           "values": [
-            2.52,
-            3.11,
-            1.99
+            2.69,
+            3.07,
+            1.9
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -10934,8 +10634,8 @@
         {
           "market_code": "41904",
           "values": [
-            1.75,
-            1.53
+            1.72,
+            1.56
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -10946,9 +10646,9 @@
         {
           "market_code": "41901",
           "values": [
-            1.37,
+            1.41,
             1.13,
-            1.21
+            1.18
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -10987,7 +10687,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.364Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "41908",
       "oddsSource": "Robot ham veri havuzu",
@@ -11015,9 +10715,9 @@
         {
           "market_code": "41908",
           "values": [
-            1.7,
-            3.22,
-            3.08
+            1.8,
+            3.13,
+            2.87
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -11040,9 +10740,9 @@
         {
           "market_code": "41909",
           "values": [
+            1.15,
             1.12,
-            1.11,
-            1.53
+            1.46
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -11081,7 +10781,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.364Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "41824",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -11222,7 +10922,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.364Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "11296",
       "oddsSource": "Robot ham veri havuzu",
@@ -11316,7 +11016,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.364Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49858",
       "oddsSource": "Robot ham veri havuzu",
@@ -11410,7 +11110,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.365Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27959",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -11586,7 +11286,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.365Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27926",
       "oddsSource": "Robot ham veri havuzu",
@@ -11680,7 +11380,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.365Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49442",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -11761,9 +11461,9 @@
         {
           "market_code": "49442",
           "values": [
-            2.5,
-            2.87,
-            2.11
+            2.58,
+            2.96,
+            2.01
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -11774,8 +11474,8 @@
         {
           "market_code": "49446",
           "values": [
-            1.53,
-            1.75
+            1.57,
+            1.71
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -11786,9 +11486,9 @@
         {
           "market_code": "49443",
           "values": [
-            1.32,
-            1.16,
-            1.22
+            1.36,
+            1.15,
+            1.2
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -11837,7 +11537,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.365Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27992",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -11994,7 +11694,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.365Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "13005",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -12065,9 +11765,9 @@
         {
           "market_code": "13005",
           "values": [
-            1.82,
-            2.94,
-            2.98
+            1.79,
+            2.93,
+            3.07
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -12090,9 +11790,9 @@
         {
           "market_code": "13013",
           "values": [
-            1.14,
+            1.12,
             1.15,
-            1.45
+            1.47
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -12137,7 +11837,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.365Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "42696",
       "oddsSource": "Robot ham veri havuzu",
@@ -12231,7 +11931,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.366Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "37807",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -12407,7 +12107,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.366Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39695",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -12503,9 +12203,9 @@
         {
           "market_code": "39695",
           "values": [
-            2.85,
-            3.34,
-            1.74
+            2.62,
+            3.25,
+            1.87
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -12516,8 +12216,8 @@
         {
           "market_code": "39701",
           "values": [
-            2.16,
-            1.31
+            2.15,
+            1.32
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -12528,9 +12228,9 @@
         {
           "market_code": "39696",
           "values": [
-            1.51,
-            1.1,
-            1.15
+            1.43,
+            1.11,
+            1.19
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -12583,7 +12283,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.366Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39761",
       "oddsSource": "Robot ham veri havuzu",
@@ -12677,7 +12377,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.366Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28115",
       "oddsSource": "Robot ham veri havuzu",
@@ -12771,7 +12471,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.366Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49459",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -12853,8 +12553,8 @@
           "market_code": "49459",
           "values": [
             1.53,
-            3.31,
-            3.74
+            3.4,
+            3.61
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -12865,7 +12565,7 @@
         {
           "market_code": "49463",
           "values": [
-            1.77,
+            1.78,
             1.52
           ],
           "guess": "Belirsiz market",
@@ -12877,9 +12577,9 @@
         {
           "market_code": "49460",
           "values": [
-            1.06,
+            1.07,
             1.09,
-            1.69
+            1.68
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -12928,7 +12628,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.366Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "27842",
       "oddsSource": "Robot ham veri havuzu",
@@ -13022,7 +12722,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.366Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28150",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -13103,9 +12803,9 @@
         {
           "market_code": "28150",
           "values": [
-            1.16,
-            4.33,
-            7.58
+            1.19,
+            4.24,
+            6.81
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -13116,8 +12816,8 @@
         {
           "market_code": "28154",
           "values": [
-            2,
-            1.38
+            1.94,
+            1.42
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -13128,7 +12828,7 @@
         {
           "market_code": "28151",
           "values": [
-            2.49
+            2.39
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -13177,7 +12877,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.366Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28028",
       "oddsSource": "Robot ham veri havuzu",
@@ -13320,7 +13020,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.367Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28184",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -13395,9 +13095,9 @@
         {
           "market_code": "28184",
           "values": [
-            1.71,
-            3.49,
-            2.85
+            1.93,
+            3.4,
+            2.45
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -13408,9 +13108,9 @@
         {
           "market_code": "28185",
           "values": [
-            1.15,
+            1.23,
             1.09,
-            1.52
+            1.4
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -13463,7 +13163,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.367Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28148",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -13538,9 +13238,9 @@
         {
           "market_code": "28148",
           "values": [
-            1.82,
-            3.55,
-            2.55
+            1.81,
+            3.45,
+            2.63
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -13551,7 +13251,7 @@
         {
           "market_code": "28149",
           "values": [
-            1.2,
+            1.19,
             1.09,
             1.45
           ],
@@ -13606,7 +13306,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.367Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28167",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -13749,7 +13449,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.367Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28081",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -13892,7 +13592,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.367Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28011",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -13967,9 +13667,9 @@
         {
           "market_code": "28011",
           "values": [
-            1.44,
-            3.93,
-            3.68
+            1.4,
+            3.88,
+            3.96
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -13980,9 +13680,8 @@
         {
           "market_code": "28012",
           "values": [
-            1.06,
             1.05,
-            1.81
+            1.86
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -13994,7 +13693,7 @@
       "raw_market_guess_odds": {},
       "detail_market_candidates": [],
       "raw_market_block_count": 2,
-      "raw_market_value_count": 6,
+      "raw_market_value_count": 5,
       "raw_market_source": "Robot ham veri hücreleri",
       "raw_market_identity_status": "unverified",
       "market_provenance": {
@@ -14035,7 +13734,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.367Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28047",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -14178,7 +13877,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.367Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28064",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -14253,9 +13952,9 @@
         {
           "market_code": "28064",
           "values": [
-            1.44,
-            3.91,
-            3.67
+            1.37,
+            3.94,
+            4.19
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -14266,9 +13965,8 @@
         {
           "market_code": "28065",
           "values": [
-            1.07,
             1.05,
-            1.8
+            1.92
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -14280,7 +13978,7 @@
       "raw_market_guess_odds": {},
       "detail_market_candidates": [],
       "raw_market_block_count": 2,
-      "raw_market_value_count": 6,
+      "raw_market_value_count": 5,
       "raw_market_source": "Robot ham veri hücreleri",
       "raw_market_identity_status": "unverified",
       "market_provenance": {
@@ -14321,7 +14019,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.367Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28045",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -14404,9 +14102,21 @@
         {
           "market_code": "28045",
           "values": [
-            2.3,
-            3.25,
-            2.08
+            2.07,
+            3.15,
+            2.37
+          ],
+          "guess": "Belirsiz market",
+          "named_values": {},
+          "detail_market_candidates": [],
+          "market_identity_verified": false,
+          "market_identity_source": "unlabeled_raw_block"
+        },
+        {
+          "market_code": "00037",
+          "values": [
+            2.01,
+            1.38
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -14417,9 +14127,9 @@
         {
           "market_code": "28046",
           "values": [
-            1.33,
-            1.11,
-            1.26
+            1.24,
+            1.12,
+            1.34
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -14430,15 +14140,15 @@
       ],
       "raw_market_guess_odds": {},
       "detail_market_candidates": [],
-      "raw_market_block_count": 2,
-      "raw_market_value_count": 6,
+      "raw_market_block_count": 3,
+      "raw_market_value_count": 8,
       "raw_market_source": "Robot ham veri hücreleri",
       "raw_market_identity_status": "unverified",
       "market_provenance": {
         "version": "market-provenance-v1",
         "policy": "verified_market_identity_only",
         "raw_guesses_blocked": true,
-        "unverified_raw_blocks": 2,
+        "unverified_raw_blocks": 3,
         "stale_guess_fields_removed": 0,
         "stale_candidates_removed": 0
       },
@@ -14480,7 +14190,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.367Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28098",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -14623,7 +14333,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.367Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28009",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -14704,9 +14414,9 @@
         {
           "market_code": "28009",
           "values": [
-            1.75,
-            3.07,
-            3.06
+            1.79,
+            3.05,
+            2.97
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -14729,9 +14439,9 @@
         {
           "market_code": "28010",
           "values": [
+            1.14,
             1.13,
-            1.13,
-            1.5
+            1.47
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -14780,7 +14490,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.368Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "13404",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -14921,7 +14631,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.368Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "07358",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -15097,7 +14807,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.368Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "08431",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -15273,7 +14983,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.368Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39872",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -15359,7 +15069,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.368Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39795",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -15535,7 +15245,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.368Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49544",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -15700,7 +15410,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.369Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "40334",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -15862,7 +15572,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.369Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28218",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -16018,7 +15728,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.369Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28201",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -16093,9 +15803,9 @@
         {
           "market_code": "28201",
           "values": [
-            2.85,
-            3.33,
-            1.75
+            3.54,
+            3.39,
+            1.55
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -16106,9 +15816,9 @@
         {
           "market_code": "28202",
           "values": [
-            1.5,
-            1.1,
-            1.15
+            1.66,
+            1.09,
+            1.08
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -16161,7 +15871,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.369Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28235",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -16260,7 +15970,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.370Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28270",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -16436,7 +16146,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.370Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "02826",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -16603,7 +16313,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.370Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28237",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -16779,7 +16489,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.370Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28324",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -16946,7 +16656,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.370Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39890",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -17120,7 +16830,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.370Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "42691",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -17262,7 +16972,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.371Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39939",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -17404,7 +17114,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.371Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "14668",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -17495,9 +17205,9 @@
         {
           "market_code": "14668",
           "values": [
-            2.16,
-            2.78,
-            2.81
+            2.14,
+            2.73,
+            2.9
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -17520,9 +17230,9 @@
         {
           "market_code": "07953",
           "values": [
-            1.22,
+            1.21,
             1.23,
-            1.39
+            1.4
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -17573,7 +17283,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.371Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28422",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -17730,7 +17440,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.371Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "42125",
       "oddsSource": "Robot ham veri havuzu",
@@ -17804,7 +17514,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.371Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28388",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -17961,7 +17671,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.372Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28405",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -18044,7 +17754,7 @@
           "values": [
             1.65,
             3.11,
-            3.41
+            3.43
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -18055,8 +17765,8 @@
         {
           "market_code": "28409",
           "values": [
-            1.56,
-            1.72
+            1.58,
+            1.7
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -18118,7 +17828,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.372Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28439",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -18261,7 +17971,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.372Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49484",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -18342,9 +18052,9 @@
         {
           "market_code": "49484",
           "values": [
-            6.88,
-            4.45,
-            1.17
+            6.62,
+            4.47,
+            1.18
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -18367,7 +18077,7 @@
         {
           "market_code": "49485",
           "values": [
-            2.46
+            2.43
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -18416,7 +18126,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.372Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "42068",
       "oddsSource": "Robot ham veri havuzu",
@@ -18510,7 +18220,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.372Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "42085",
       "oddsSource": "Robot ham veri havuzu",
@@ -18604,7 +18314,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.372Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28456",
       "oddsSource": "Robot ham veri havuzu",
@@ -18698,7 +18408,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.372Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28473",
       "oddsSource": "Robot ham veri havuzu",
@@ -18792,7 +18502,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.372Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "31607",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -18837,9 +18547,9 @@
         {
           "market_code": "31607",
           "values": [
-            1.79,
-            2.92,
-            3.11
+            1.69,
+            3.01,
+            3.34
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -18878,7 +18588,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.373Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28713",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -18954,8 +18664,8 @@
         {
           "market_code": "28713",
           "values": [
-            1.59,
-            3.17,
+            1.62,
+            3.05,
             3.61
           ],
           "guess": "Belirsiz market",
@@ -18980,8 +18690,8 @@
           "market_code": "28714",
           "values": [
             1.08,
-            1.11,
-            1.63
+            1.13,
+            1.6
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -19028,7 +18738,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.373Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39996",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -19204,7 +18914,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.373Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28545",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -19313,8 +19023,8 @@
         {
           "market_code": "28552",
           "values": [
-            1.54,
-            1.74
+            1.52,
+            1.77
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -19379,7 +19089,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.373Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28628",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -19535,7 +19245,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.373Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28662",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -19692,7 +19402,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.373Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28645",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -19849,7 +19559,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.374Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28540",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -19979,7 +19689,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.374Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "45767",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -20095,7 +19805,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.374Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28595",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -20270,7 +19980,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.374Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28490",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -20439,7 +20149,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.375Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "42102",
       "oddsSource": "Robot ham veri havuzu",
@@ -20533,7 +20243,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.375Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "37733",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -20683,7 +20393,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.375Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "40339",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -20769,7 +20479,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.375Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28523",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -20845,9 +20555,9 @@
         {
           "market_code": "28523",
           "values": [
-            1.16,
-            4.11,
-            8.71
+            1.13,
+            4.25,
+            9.58
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -20870,7 +20580,7 @@
         {
           "market_code": "28524",
           "values": [
-            2.52
+            2.63
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -20917,7 +20627,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.375Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28696",
       "oddsSource": "Robot ham veri havuzu",
@@ -21011,7 +20721,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.375Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "03243",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -21168,7 +20878,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.376Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28679",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -21311,7 +21021,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.376Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28578",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -21386,9 +21096,9 @@
         {
           "market_code": "28578",
           "values": [
-            2.12,
-            3.3,
-            2.24
+            1.88,
+            3.33,
+            2.56
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -21399,9 +21109,9 @@
         {
           "market_code": "28579",
           "values": [
-            1.28,
+            1.2,
             1.1,
-            1.32
+            1.42
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -21454,7 +21164,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.376Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "03348",
       "oddsSource": "Robot ham veri havuzu",
@@ -21526,7 +21236,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.376Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "41112",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -21669,7 +21379,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.376Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "40415",
       "oddsSource": "Robot ham veri havuzu",
@@ -21763,7 +21473,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.376Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39980",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -21834,9 +21544,9 @@
         {
           "market_code": "39980",
           "values": [
-            2.31,
-            2.84,
-            2.28
+            2.11,
+            2.81,
+            2.56
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -21847,8 +21557,8 @@
         {
           "market_code": "39984",
           "values": [
-            1.51,
-            1.79
+            1.46,
+            1.86
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -21859,9 +21569,9 @@
         {
           "market_code": "39981",
           "values": [
-            1.27,
+            1.21,
             1.16,
-            1.26
+            1.32
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -21906,7 +21616,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.377Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39988",
       "oddsSource": "Robot ham veri havuzu",
@@ -21934,9 +21644,9 @@
         {
           "market_code": "39988",
           "values": [
-            1.98,
-            2.81,
-            2.77
+            2.23,
+            2.7,
+            2.48
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -21947,8 +21657,8 @@
         {
           "market_code": "39992",
           "values": [
-            1.37,
-            2.05
+            1.35,
+            2.08
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -21959,9 +21669,9 @@
         {
           "market_code": "39989",
           "values": [
-            1.16,
-            1.16,
-            1.37
+            1.22,
+            1.18,
+            1.29
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -22000,7 +21710,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.377Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49529",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -22086,7 +21796,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.377Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "31608",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -22172,7 +21882,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.377Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "10685",
       "oddsSource": "Robot ham veri havuzu",
@@ -22233,7 +21943,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.377Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "10684",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -22319,7 +22029,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.377Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "40414",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -22364,9 +22074,9 @@
         {
           "market_code": "40414",
           "values": [
-            2.38,
-            3,
-            2.36
+            2.17,
+            2.99,
+            2.62
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -22405,7 +22115,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.377Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "47780",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -22548,7 +22258,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.377Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "47797",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -22705,7 +22415,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.377Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "48837",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -22848,7 +22558,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.378Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "47763",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -22990,7 +22700,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.378Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "20318",
       "oddsSource": "Robot ham veri havuzu",
@@ -23084,7 +22794,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.378Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "43229",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -23227,7 +22937,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.378Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "43227",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -23368,7 +23078,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.378Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "08574",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -23544,7 +23254,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.378Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49860",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -23687,7 +23397,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.379Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "37826",
       "oddsSource": "Robot ham veri havuzu",
@@ -23781,7 +23491,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.379Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "41841",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -23924,7 +23634,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.379Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28781",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -24081,7 +23791,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.379Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28815",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -24231,7 +23941,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.379Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28747",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -24388,7 +24098,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.380Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28730",
       "oddsSource": "Robot ham veri havuzu",
@@ -24482,7 +24192,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.380Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28900",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -24604,7 +24314,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.380Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28849",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -24761,7 +24471,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.380Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28764",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -24911,7 +24621,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.380Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28832",
       "oddsSource": "Robot ham veri havuzu",
@@ -25005,7 +24715,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.380Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28798",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -25153,7 +24863,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.381Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28883",
       "oddsSource": "Robot ham veri havuzu",
@@ -25247,7 +24957,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.381Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28931",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -25397,7 +25107,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.381Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28914",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -25554,7 +25264,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.381Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "37562",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -25696,7 +25406,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.381Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "20312",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -25810,7 +25520,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.381Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "12568",
       "oddsSource": "Robot ham veri havuzu",
@@ -25903,7 +25613,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.382Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "37567",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -26017,7 +25727,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.382Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "12449",
       "oddsSource": "Robot ham veri havuzu",
@@ -26110,7 +25820,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.382Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "46342",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -26252,7 +25962,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.382Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50278",
       "oddsSource": "Robot ham veri havuzu",
@@ -26272,9 +25982,9 @@
         {
           "market_code": "50278",
           "values": [
-            1.84,
+            1.89,
             2.64,
-            3.33
+            3.16
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -26285,9 +25995,9 @@
         {
           "market_code": "50279",
           "values": [
-            1.09,
+            1.11,
             1.19,
-            1.44
+            1.41
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -26326,7 +26036,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.382Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "19716",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -26424,7 +26134,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.382Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49648",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -26565,7 +26275,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.382Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "11783",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -26707,7 +26417,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.382Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50345",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -26849,7 +26559,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.382Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "04023",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -26992,7 +26702,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.383Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "12560",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -27135,7 +26845,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.383Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28981",
       "oddsSource": "Robot ham veri havuzu",
@@ -27229,7 +26939,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.383Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28948",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -27405,7 +27115,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.383Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29031",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -27581,7 +27291,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.383Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29064",
       "oddsSource": "Robot ham veri havuzu",
@@ -27675,7 +27385,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.383Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29097",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -27844,7 +27554,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.383Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39947",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -28020,7 +27730,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.384Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "13121",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -28177,7 +27887,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.384Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29014",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -28334,7 +28044,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.384Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "28866",
       "oddsSource": "Robot ham veri havuzu",
@@ -28428,7 +28138,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.384Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50038",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -28571,7 +28281,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.384Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "13027",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -28714,7 +28424,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.384Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "38375",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -28810,9 +28520,9 @@
         {
           "market_code": "38375",
           "values": [
-            8.01,
-            5.13,
-            1.11
+            8.35,
+            5.1,
+            1.1
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -28823,7 +28533,7 @@
         {
           "market_code": "38383",
           "values": [
-            2.08,
+            2.07,
             1.35
           ],
           "guess": "Belirsiz market",
@@ -28835,7 +28545,7 @@
         {
           "market_code": "38378",
           "values": [
-            2.77
+            2.8
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -28888,7 +28598,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.385Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "52109",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -29063,7 +28773,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.385Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "19210",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -29238,7 +28948,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.385Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "52108",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -29413,7 +29123,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.385Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29164",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -29575,7 +29285,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.385Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "38410",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -29725,7 +29435,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.385Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39873",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -29816,9 +29526,9 @@
         {
           "market_code": "39873",
           "values": [
-            9.89,
+            9.54,
             4.5,
-            1.11
+            1.12
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -29841,7 +29551,7 @@
         {
           "market_code": "39874",
           "values": [
-            2.74
+            2.72
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -29892,7 +29602,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.386Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "37750",
       "oddsSource": "Robot ham veri havuzu",
@@ -29986,7 +29696,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.386Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29303",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -30143,7 +29853,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.386Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29320",
       "oddsSource": "Robot ham veri havuzu",
@@ -30237,7 +29947,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.386Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29130",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -30359,7 +30069,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.386Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29286",
       "oddsSource": "Robot ham veri havuzu",
@@ -30453,7 +30163,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.387Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29252",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -30603,7 +30313,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.387Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29147",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -30760,7 +30470,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.387Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29235",
       "oddsSource": "Robot ham veri havuzu",
@@ -30852,7 +30562,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.387Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29218",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -31000,7 +30710,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.387Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50450",
       "oddsSource": "Robot ham veri havuzu",
@@ -31074,7 +30784,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.387Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "37311",
       "oddsSource": "Robot ham veri havuzu",
@@ -31148,7 +30858,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.387Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "47814",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -31289,7 +30999,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.388Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50452",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -31432,7 +31142,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.388Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "13034",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -31575,7 +31285,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.388Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "49862",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -31717,7 +31427,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.388Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "37308",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -31860,7 +31570,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.388Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50042",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -32003,7 +31713,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.388Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "13045",
       "oddsSource": "Robot ham veri havuzu",
@@ -32097,7 +31807,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.388Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "02652",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -32240,7 +31950,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.388Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50040",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -32381,7 +32091,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.389Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29370",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -32557,7 +32267,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.389Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29403",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -32726,7 +32436,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.389Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29337",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -32895,7 +32605,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.389Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "40340",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -33037,7 +32747,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.389Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "08758",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -33213,7 +32923,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.389Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "08843",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -33389,7 +33099,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.390Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39794",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -33434,9 +33144,9 @@
         {
           "market_code": "39794",
           "values": [
-            1.12,
-            4.46,
-            9.45
+            1.13,
+            4.38,
+            9.1
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -33475,7 +33185,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.390Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39864",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -33618,7 +33328,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.390Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29453",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -33773,7 +33483,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.390Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29503",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -33922,7 +33632,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.390Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29436",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -34072,7 +33782,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.391Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29486",
       "oddsSource": "Robot ham veri havuzu",
@@ -34166,7 +33876,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.391Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29520",
       "oddsSource": "Robot ham veri havuzu",
@@ -34259,7 +33969,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.391Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "13283",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -34402,7 +34112,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.391Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "13285",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -34544,7 +34254,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.391Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "13073",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -34687,7 +34397,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.391Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50454",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -34830,7 +34540,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.391Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "13281",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -34914,8 +34624,8 @@
         {
           "market_code": "33184",
           "values": [
-            1.47,
-            1.85
+            1.44,
+            1.89
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -34973,7 +34683,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.391Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29542",
       "oddsSource": "Robot ham veri havuzu",
@@ -35067,7 +34777,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.391Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "38411",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -35158,9 +34868,9 @@
         {
           "market_code": "38411",
           "values": [
-            5.01,
-            3.41,
-            1.37
+            4.81,
+            3.38,
+            1.39
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -35183,7 +34893,7 @@
         {
           "market_code": "38412",
           "values": [
-            1.92,
+            1.88,
             1.09
           ],
           "guess": "Belirsiz market",
@@ -35235,7 +34945,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.391Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39728",
       "oddsSource": "Robot ham veri havuzu",
@@ -35263,9 +34973,9 @@
         {
           "market_code": "39728",
           "values": [
-            1.59,
-            2.81,
-            4.2
+            1.7,
+            2.73,
+            3.73
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -35276,8 +34986,8 @@
         {
           "market_code": "39735",
           "values": [
-            1.32,
-            2.14
+            1.31,
+            2.18
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -35288,8 +34998,9 @@
         {
           "market_code": "39729",
           "values": [
-            1.16,
-            1.63
+            1.07,
+            1.17,
+            1.53
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -35301,7 +35012,7 @@
       "raw_market_guess_odds": {},
       "detail_market_candidates": [],
       "raw_market_block_count": 3,
-      "raw_market_value_count": 7,
+      "raw_market_value_count": 8,
       "raw_market_source": "Robot ham veri hücreleri",
       "raw_market_identity_status": "unverified",
       "market_provenance": {
@@ -35328,7 +35039,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.392Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "13560",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -35476,7 +35187,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.392Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29537",
       "oddsSource": "Robot ham veri havuzu",
@@ -35557,7 +35268,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.392Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29584",
       "oddsSource": "Robot ham veri havuzu",
@@ -35651,7 +35362,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.392Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "10139",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -35794,7 +35505,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.392Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "11079",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -35935,7 +35646,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.392Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "20863",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -36003,9 +35714,9 @@
         {
           "market_code": "20863",
           "values": [
-            1.4,
-            3.03,
-            5.64
+            1.45,
+            2.98,
+            5.01
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -36028,8 +35739,8 @@
         {
           "market_code": "37588",
           "values": [
-            1.12,
-            1.86
+            1.13,
+            1.78
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -36076,7 +35787,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.392Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "18412",
       "oddsSource": "Robot ham veri havuzu",
@@ -36170,7 +35881,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.393Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "14380",
       "oddsSource": "Robot ham veri havuzu",
@@ -36244,7 +35955,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.393Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "33043",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -36366,7 +36077,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.393Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "13095",
       "oddsSource": "Robot ham veri havuzu",
@@ -36394,9 +36105,9 @@
         {
           "market_code": "13095",
           "values": [
-            1.37,
-            3.14,
-            5.85
+            1.24,
+            3.4,
+            8.08
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -36419,8 +36130,8 @@
         {
           "market_code": "13099",
           "values": [
-            1.1,
-            1.93
+            1.08,
+            2.21
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -36459,7 +36170,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.393Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "37298",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -36570,7 +36281,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.393Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "32915",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -36727,7 +36438,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.394Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29834",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -36896,7 +36607,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.394Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29735",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -37072,7 +36783,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.394Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29702",
       "oddsSource": "Robot ham veri havuzu",
@@ -37166,7 +36877,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.394Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29801",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -37342,7 +37053,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.394Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29651",
       "oddsSource": "Robot ham veri havuzu",
@@ -37416,7 +37127,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.395Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29634",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -37538,7 +37249,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.395Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29668",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -37660,7 +37371,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.395Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29617",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -37782,7 +37493,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.395Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29768",
       "oddsSource": "Robot ham veri havuzu",
@@ -37876,7 +37587,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.395Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "52112",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -37972,9 +37683,9 @@
         {
           "market_code": "52112",
           "values": [
-            1.24,
+            1.23,
             4.69,
-            6.19
+            6.41
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -37985,7 +37696,7 @@
         {
           "market_code": "07488",
           "values": [
-            2.36,
+            2.35,
             1.33
           ],
           "guess": "Belirsiz market",
@@ -37997,7 +37708,7 @@
         {
           "market_code": "07463",
           "values": [
-            2.56
+            2.6
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -38050,7 +37761,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.395Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "52154",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -38146,9 +37857,9 @@
         {
           "market_code": "52154",
           "values": [
-            2.21,
-            3.32,
-            2.35
+            2.16,
+            3.36,
+            2.4
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -38159,7 +37870,7 @@
         {
           "market_code": "07748",
           "values": [
-            2.35,
+            2.36,
             1.33
           ],
           "guess": "Belirsiz market",
@@ -38171,9 +37882,9 @@
         {
           "market_code": "07704",
           "values": [
-            1.32,
-            1.16,
-            1.37
+            1.31,
+            1.15,
+            1.39
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -38226,7 +37937,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.395Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "09261",
       "oddsSource": "Robot ham veri havuzu",
@@ -38320,7 +38031,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.395Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "48847",
       "oddsSource": "Robot ham veri havuzu",
@@ -38407,7 +38118,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.396Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29888",
       "oddsSource": "Robot ham veri havuzu",
@@ -38480,7 +38191,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.396Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29905",
       "oddsSource": "Robot ham veri havuzu",
@@ -38554,7 +38265,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.396Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "15355",
       "oddsSource": "Robot ham veri havuzu",
@@ -38582,9 +38293,9 @@
         {
           "market_code": "15355",
           "values": [
-            1.71,
-            2.88,
-            3.47
+            1.76,
+            2.89,
+            3.25
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -38607,9 +38318,9 @@
         {
           "market_code": "15358",
           "values": [
-            1.09,
+            1.1,
             1.15,
-            1.53
+            1.49
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -38648,7 +38359,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.396Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "13410",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -38796,7 +38507,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.396Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29867",
       "oddsSource": "Robot ham veri havuzu",
@@ -38889,7 +38600,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.396Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29939",
       "oddsSource": "Robot ham veri havuzu",
@@ -38963,7 +38674,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.396Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29922",
       "oddsSource": "Robot ham veri havuzu",
@@ -39037,7 +38748,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.396Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "29956",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -39133,9 +38844,9 @@
         {
           "market_code": "29956",
           "values": [
-            3.54,
-            2.9,
-            1.82
+            3.47,
+            2.83,
+            1.86
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -39158,9 +38869,9 @@
         {
           "market_code": "29957",
           "values": [
-            1.58,
-            1.21,
-            1.12
+            1.54,
+            1.22,
+            1.13
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -39213,7 +38924,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.397Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "39662",
       "oddsSource": "Robot ham veri havuzu",
@@ -39307,7 +39018,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.397Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "30010",
       "oddsSource": "Robot ham veri havuzu",
@@ -39381,7 +39092,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.397Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "41960",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -39485,8 +39196,8 @@
         {
           "market_code": "42234",
           "values": [
-            2,
-            1.38
+            2.05,
+            1.36
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -39551,7 +39262,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.397Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "19281",
       "oddsSource": "Robot ham veri havuzu",
@@ -39645,7 +39356,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.397Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "09098",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -39819,7 +39530,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.397Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "42991",
       "oddsSource": "Robot ham veri havuzu",
@@ -39913,7 +39624,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.397Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "47343",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -40070,7 +39781,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.398Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "47849",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -40210,7 +39921,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.398Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "47832",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -40366,7 +40077,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.398Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "47155",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -40523,7 +40234,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.398Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "47866",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -40680,7 +40391,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.398Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "00931",
       "oddsSource": "Robot ham veri havuzu",
@@ -40754,7 +40465,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.398Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "30066",
       "oddsSource": "Robot ham veri havuzu",
@@ -40848,7 +40559,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.399Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "30049",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -40970,7 +40681,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.399Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "30027",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -41100,7 +40811,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.399Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "30032",
       "oddsSource": "Robot ham veri havuzu",
@@ -41128,9 +40839,9 @@
         {
           "market_code": "30032",
           "values": [
-            2.21,
-            2.39,
-            2.84
+            2.17,
+            2.46,
+            2.82
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -41154,8 +40865,8 @@
           "market_code": "30033",
           "values": [
             1.16,
-            1.24,
-            1.29
+            1.23,
+            1.3
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -41194,7 +40905,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.399Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "06674",
       "oddsSource": "Robot ham veri havuzu",
@@ -41287,7 +40998,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.399Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "41252",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -41368,9 +41079,9 @@
         {
           "market_code": "41252",
           "values": [
-            1.77,
-            2.83,
-            3.3
+            1.75,
+            2.91,
+            3.26
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -41381,8 +41092,8 @@
         {
           "market_code": "41256",
           "values": [
-            1.51,
-            1.79
+            1.56,
+            1.72
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -41394,8 +41105,8 @@
           "market_code": "41253",
           "values": [
             1.1,
-            1.16,
-            1.49
+            1.15,
+            1.5
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -41444,7 +41155,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.400Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "30100",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -41612,7 +41323,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.400Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "30083",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -41693,9 +41404,9 @@
         {
           "market_code": "30083",
           "values": [
-            2.26,
-            2.56,
-            2.58
+            2.2,
+            2.7,
+            2.52
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -41718,9 +41429,9 @@
         {
           "market_code": "30084",
           "values": [
-            1.2,
             1.21,
-            1.28
+            1.18,
+            1.3
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -41769,7 +41480,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.400Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "30133",
       "oddsSource": "Robot ham veri havuzu",
@@ -41797,9 +41508,9 @@
         {
           "market_code": "30133",
           "values": [
-            2.57,
-            2.69,
-            2.16
+            2.52,
+            2.84,
+            2.12
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -41822,9 +41533,9 @@
         {
           "market_code": "30134",
           "values": [
-            1.3,
-            1.18,
-            1.2
+            1.32,
+            1.16,
+            1.21
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -41863,7 +41574,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.400Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "47172",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -41957,8 +41668,8 @@
         {
           "market_code": "47176",
           "values": [
-            1.56,
-            1.72
+            1.53,
+            1.75
           ],
           "guess": "Belirsiz market",
           "named_values": {},
@@ -42020,7 +41731,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.400Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "30150",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -42196,7 +41907,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.400Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "50433",
       "oddsSource": "Robot ham veri havuzu",
@@ -42290,7 +42001,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.401Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "41269",
       "oddsSource": "Robot ham veri havuzu",
@@ -42384,7 +42095,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.401Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "41964",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -42541,7 +42252,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.401Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "30200",
       "oddsSource": "Robot ham veri havuzu",
@@ -42635,7 +42346,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.401Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "30217",
       "oddsSource": "Robot ham veri havuzu",
@@ -42729,7 +42440,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.401Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "30234",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -42817,7 +42528,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.401Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "02933",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -42992,7 +42703,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.402Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "32956",
       "oddsSource": "iddaa.com resmi futbol bülteni",
@@ -43148,7 +42859,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.402Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "30236",
       "oddsSource": "Robot ham veri havuzu",
@@ -43242,7 +42953,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-09-27T01:12:38.402Z",
+      "lastLiveUpdate": null,
       "source": "Maçkolik canlı robot",
       "matchCode": "30253",
       "oddsSource": "iddaa.com resmi futbol bülteni",
