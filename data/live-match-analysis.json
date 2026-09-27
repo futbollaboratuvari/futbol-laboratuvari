@@ -1,136 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26T22:12:40.511Z",
+  "generated_at": "2026-09-27T00:34:53.131Z",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı Canlı Maç Analiz Robotu",
   "robot_version": "live-match-analysis-robot-v1",
   "source": "data/live-power-series.json",
-  "source_generated_at": "2026-09-26T22:12:37.431Z",
+  "source_generated_at": "2026-09-27T00:34:50.261Z",
   "source_verified": true,
   "policy": "Yalnız doğrulanmış, gözlenen ve taze canlı snapshotlardan analiz üretir; eksik veriyi sıfır saymaz, tahmin uydurmaz.",
   "summary": {
-    "live_match_count": 4,
-    "ready_count": 1,
-    "waiting_count": 3,
-    "result_lean_count": 1,
-    "next_goal_lean_count": 1,
+    "live_match_count": 8,
+    "ready_count": 8,
+    "waiting_count": 0,
+    "result_lean_count": 5,
+    "next_goal_lean_count": 6,
     "high_goal_pressure_count": 0
   },
   "matches": [
     {
-      "fixture_id": "401886360",
-      "status": "insufficient_data",
-      "minute": 12,
-      "score": {
-        "home": 0,
-        "away": 0
-      },
-      "home": "Tlaxcala FC",
-      "away": "Cancún FC",
-      "league": "Meksika Ascenso MX Apertura",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-26T22:12:37.431Z",
-      "freshness_minutes": 0.051333333333333335,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": "power_signal_missing",
-      "primary_prediction": {
-        "type": "wait",
-        "label": "Veri yeterli değil · tahmin verilmedi",
-        "confidence": null
-      },
-      "result_lean": null,
-      "next_goal_lean": null,
-      "goal_pressure": null,
-      "signals": []
-    },
-    {
-      "fixture_id": "401844155",
-      "status": "insufficient_data",
-      "minute": 8,
-      "score": {
-        "home": 0,
-        "away": 0
-      },
-      "home": "Deportivo Madryn",
-      "away": "Central Norte",
-      "league": "Arjantin Ulusal Primera Lig",
-      "source_verified": true,
-      "snapshot_recorded_at": "2026-09-26T22:12:37.431Z",
-      "freshness_minutes": 0.051333333333333335,
-      "data_coverage": {
-        "home_metric_count": 4,
-        "away_metric_count": 4,
-        "common_metric_count": 4,
-        "common_metrics": [
-          "shots_on_goal",
-          "total_shots",
-          "corners",
-          "possession"
-        ],
-        "missing_metrics": [
-          "shots_inside_box",
-          "blocked_shots",
-          "expected_goals",
-          "dangerous_attacks"
-        ],
-        "ratio": 0.5,
-        "label": "medium",
-        "expected_goals_observed": {
-          "home": false,
-          "away": false
-        }
-      },
-      "robot_version": "live-match-analysis-robot-v1",
-      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": "power_signal_missing",
-      "primary_prediction": {
-        "type": "wait",
-        "label": "Veri yeterli değil · tahmin verilmedi",
-        "confidence": null
-      },
-      "result_lean": null,
-      "next_goal_lean": null,
-      "goal_pressure": null,
-      "signals": []
-    },
-    {
-      "fixture_id": "401860354",
+      "fixture_id": "761831",
       "status": "ready",
-      "minute": 42,
+      "minute": 45,
       "score": {
-        "home": 0,
-        "away": 1
+        "home": 1,
+        "away": 0
       },
-      "home": "Goiás",
-      "away": "Atlético Goianiense",
-      "league": "Brezilya Serie B",
+      "home": "CF Montréal",
+      "away": "FC Cincinnati",
+      "league": "ABD MLS",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-26T22:12:37.431Z",
-      "freshness_minutes": 0.051333333333333335,
+      "snapshot_recorded_at": "2026-09-27T00:34:50.261Z",
+      "freshness_minutes": 0.04783333333333333,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -157,62 +57,62 @@
       "robot_version": "live-match-analysis-robot-v1",
       "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
       "reason": null,
-      "evidence_score": 58,
+      "evidence_score": 48,
       "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "match_direction",
-        "label": "Deplasman yönü",
-        "confidence": 80
+        "type": "watch",
+        "label": "Net canlı tahmin yok · izlemeye devam",
+        "confidence": 48
       },
       "result_lean": {
-        "code": "2",
-        "label": "Deplasman yönü",
-        "side": "away",
-        "strength": 88.7
+        "code": null,
+        "label": "Taraf için ayrışma yok",
+        "side": "neutral",
+        "strength": 51.84
       },
       "next_goal_lean": {
-        "code": "AWAY",
-        "label": "Sonraki gol eğilimi: Deplasman",
-        "side": "away",
-        "strength": 78.6
+        "code": null,
+        "label": "Sonraki gol için net ayrışma yok",
+        "side": "neutral",
+        "strength": 54.46
       },
       "goal_pressure": {
         "level": "low",
         "label": "Gol baskısı düşük",
-        "score": 18
+        "score": 15
       },
       "signals": [
-        "Team Power: Goiás %25 · Atlético Goianiense %75.",
-        "Goal Power: Goiás %7 · Atlético Goianiense %21.",
-        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
+        "Team Power: CF Montréal %51 · FC Cincinnati %49.",
+        "Goal Power: CF Montréal %15 · FC Cincinnati %16.",
+        "Maç yönü: Taraf için ayrışma yok. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
         "Canlı veri kapsamı: medium (4/8 ortak metrik)."
       ],
       "diagnostics": {
-        "team_power_diff": -50,
-        "goal_power_diff": -14,
+        "team_power_diff": 2,
+        "goal_power_diff": -1,
         "momentum_diff": 0,
         "shots_on_goal_diff": -1,
-        "total_shots_diff": -4,
-        "corners_diff": -3,
+        "total_shots_diff": 0,
+        "corners_diff": -1,
         "xg_diff": 0,
-        "direction_score": -43,
-        "next_goal_score": -26.6
+        "direction_score": 11.16,
+        "next_goal_score": -4.54
       }
     },
     {
-      "fixture_id": "401842156",
-      "status": "insufficient_data",
-      "minute": 5,
+      "fixture_id": "401876959",
+      "status": "ready",
+      "minute": 84,
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 3
       },
-      "home": "Forward Madison FC",
-      "away": "Spokane Velocity FC",
-      "league": "ABD USL Lig 1",
+      "home": "Cruz Azul",
+      "away": "Toluca",
+      "league": "Meksika Liga MX Apertura",
       "source_verified": true,
-      "snapshot_recorded_at": "2026-09-26T22:12:37.431Z",
-      "freshness_minutes": 0.051333333333333335,
+      "snapshot_recorded_at": "2026-09-27T00:34:50.261Z",
+      "freshness_minutes": 0.04783333333333333,
       "data_coverage": {
         "home_metric_count": 4,
         "away_metric_count": 4,
@@ -238,16 +138,540 @@
       },
       "robot_version": "live-match-analysis-robot-v1",
       "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
-      "reason": "minute_too_early",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
       "primary_prediction": {
-        "type": "wait",
-        "label": "Veri yeterli değil · tahmin verilmedi",
-        "confidence": null
+        "type": "match_direction",
+        "label": "Deplasman yönü",
+        "confidence": 78
       },
-      "result_lean": null,
-      "next_goal_lean": null,
-      "goal_pressure": null,
-      "signals": []
+      "result_lean": {
+        "code": "2",
+        "label": "Deplasman yönü",
+        "side": "away",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "AWAY",
+        "label": "Sonraki gol eğilimi: Deplasman",
+        "side": "away",
+        "strength": 76
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 26
+      },
+      "signals": [
+        "Team Power: Cruz Azul %40 · Toluca %60.",
+        "Goal Power: Cruz Azul %19 · Toluca %29.",
+        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": -20,
+        "goal_power_diff": -10,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": -2,
+        "total_shots_diff": -6,
+        "corners_diff": -3,
+        "xg_diff": 0,
+        "direction_score": -52.2,
+        "next_goal_score": -24
+      }
+    },
+    {
+      "fixture_id": "401876962",
+      "status": "ready",
+      "minute": 63,
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "home": "Guadalajara",
+      "away": "Querétaro",
+      "league": "Meksika Liga MX Apertura",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-27T00:34:50.261Z",
+      "freshness_minutes": 0.04783333333333333,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "next_goal",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "confidence": 62
+      },
+      "result_lean": {
+        "code": null,
+        "label": "Taraf için ayrışma yok",
+        "side": "neutral",
+        "strength": 56.78
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 68.12
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 23
+      },
+      "signals": [
+        "Team Power: Guadalajara %57 · Querétaro %43.",
+        "Goal Power: Guadalajara %25 · Querétaro %19.",
+        "Maç yönü: Taraf için ayrışma yok. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 14,
+        "goal_power_diff": 6,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 0,
+        "total_shots_diff": 11,
+        "corners_diff": 3,
+        "xg_diff": 0,
+        "direction_score": 6.22,
+        "next_goal_score": 16.12
+      }
+    },
+    {
+      "fixture_id": "401842250",
+      "status": "ready",
+      "minute": 69,
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "home": "Indy Eleven",
+      "away": "Miami FC",
+      "league": "ABD USL",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-27T00:34:50.261Z",
+      "freshness_minutes": 0.04783333333333333,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Deplasman yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "2",
+        "label": "Deplasman yönü",
+        "side": "away",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "AWAY",
+        "label": "Sonraki gol eğilimi: Deplasman",
+        "side": "away",
+        "strength": 82.94
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 15
+      },
+      "signals": [
+        "Team Power: Indy Eleven %26 · Miami FC %74.",
+        "Goal Power: Indy Eleven %7 · Miami FC %18.",
+        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": -48,
+        "goal_power_diff": -11,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": -3,
+        "total_shots_diff": -1,
+        "corners_diff": 1,
+        "xg_diff": 0,
+        "direction_score": -64.94,
+        "next_goal_score": -30.94
+      }
+    },
+    {
+      "fixture_id": "401916264",
+      "status": "ready",
+      "minute": 70,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "home": "Universidad Católica",
+      "away": "Unión La Calera",
+      "league": "Şili Kupa Son 16 Turu",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-27T00:34:50.261Z",
+      "freshness_minutes": 0.04783333333333333,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Beraberlik yönü",
+        "confidence": 60
+      },
+      "result_lean": {
+        "code": "X",
+        "label": "Beraberlik yönü",
+        "side": "draw",
+        "strength": 64.74
+      },
+      "next_goal_lean": {
+        "code": null,
+        "label": "Sonraki gol için net ayrışma yok",
+        "side": "neutral",
+        "strength": 57.14
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 14
+      },
+      "signals": [
+        "Team Power: Universidad Católica %49 · Unión La Calera %51.",
+        "Goal Power: Universidad Católica %14 · Unión La Calera %15.",
+        "Maç yönü: Beraberlik yönü. Sonraki gol için net ayrışma yok. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": -2,
+        "goal_power_diff": -1,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 0,
+        "total_shots_diff": -1,
+        "corners_diff": -1,
+        "xg_diff": 0,
+        "direction_score": -3.26,
+        "next_goal_score": -1.86
+      }
+    },
+    {
+      "fixture_id": "401878058",
+      "status": "ready",
+      "minute": 58,
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "home": "Cúcuta Deportivo",
+      "away": "Llaneros FC",
+      "league": "Kolombiya Primera A Clausura",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-27T00:34:50.261Z",
+      "freshness_minutes": 0.04783333333333333,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "next_goal",
+        "label": "Sonraki gol eğilimi: Deplasman",
+        "confidence": 77
+      },
+      "result_lean": {
+        "code": null,
+        "label": "Taraf için ayrışma yok",
+        "side": "neutral",
+        "strength": 48.86
+      },
+      "next_goal_lean": {
+        "code": "AWAY",
+        "label": "Sonraki gol eğilimi: Deplasman",
+        "side": "away",
+        "strength": 88.74000000000001
+      },
+      "goal_pressure": {
+        "level": "medium",
+        "label": "Gol baskısı orta",
+        "score": 48
+      },
+      "signals": [
+        "Team Power: Cúcuta Deportivo %46 · Llaneros FC %54.",
+        "Goal Power: Cúcuta Deportivo %22 · Llaneros FC %29.",
+        "Maç yönü: Taraf için ayrışma yok. Sonraki gol eğilimi: Deplasman. Gol baskısı orta.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": -8,
+        "goal_power_diff": -7,
+        "momentum_diff": -100,
+        "shots_on_goal_diff": -3,
+        "total_shots_diff": -1,
+        "corners_diff": 0,
+        "xg_diff": 0,
+        "direction_score": -14.14,
+        "next_goal_score": -36.74
+      }
+    },
+    {
+      "fixture_id": "761832",
+      "status": "ready",
+      "minute": 45,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "home": "Charlotte FC",
+      "away": "Chicago Fire FC",
+      "league": "ABD MLS",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-27T00:34:50.261Z",
+      "freshness_minutes": 0.04783333333333333,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Deplasman yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "2",
+        "label": "Deplasman yönü",
+        "side": "away",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "AWAY",
+        "label": "Sonraki gol eğilimi: Deplasman",
+        "side": "away",
+        "strength": 90
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 26
+      },
+      "signals": [
+        "Team Power: Charlotte FC %16 · Chicago Fire FC %84.",
+        "Goal Power: Charlotte FC %5 · Chicago Fire FC %32.",
+        "Maç yönü: Deplasman yönü. Sonraki gol eğilimi: Deplasman. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": -68,
+        "goal_power_diff": -27,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": -6,
+        "total_shots_diff": -8,
+        "corners_diff": 2,
+        "xg_diff": 0,
+        "direction_score": -62.84,
+        "next_goal_score": -63.34
+      }
+    },
+    {
+      "fixture_id": "761834",
+      "status": "ready",
+      "minute": 45,
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "home": "Philadelphia Union",
+      "away": "Orlando City SC",
+      "league": "ABD MLS",
+      "source_verified": true,
+      "snapshot_recorded_at": "2026-09-27T00:34:50.261Z",
+      "freshness_minutes": 0.04783333333333333,
+      "data_coverage": {
+        "home_metric_count": 4,
+        "away_metric_count": 4,
+        "common_metric_count": 4,
+        "common_metrics": [
+          "shots_on_goal",
+          "total_shots",
+          "corners",
+          "possession"
+        ],
+        "missing_metrics": [
+          "shots_inside_box",
+          "blocked_shots",
+          "expected_goals",
+          "dangerous_attacks"
+        ],
+        "ratio": 0.5,
+        "label": "medium",
+        "expected_goals_observed": {
+          "home": false,
+          "away": false
+        }
+      },
+      "robot_version": "live-match-analysis-robot-v1",
+      "confidence_semantics": "Model güveni canlı sinyal tutarlılığıdır; sonuç olasılığı değildir.",
+      "reason": null,
+      "evidence_score": 48,
+      "risk": "Yüksek veri riski",
+      "primary_prediction": {
+        "type": "match_direction",
+        "label": "Ev sahibi yönü",
+        "confidence": 78
+      },
+      "result_lean": {
+        "code": "1",
+        "label": "Ev sahibi yönü",
+        "side": "home",
+        "strength": 90
+      },
+      "next_goal_lean": {
+        "code": "HOME",
+        "label": "Sonraki gol eğilimi: Ev sahibi",
+        "side": "home",
+        "strength": 90
+      },
+      "goal_pressure": {
+        "level": "low",
+        "label": "Gol baskısı düşük",
+        "score": 29
+      },
+      "signals": [
+        "Team Power: Philadelphia Union %84 · Orlando City SC %16.",
+        "Goal Power: Philadelphia Union %36 · Orlando City SC %5.",
+        "Maç yönü: Ev sahibi yönü. Sonraki gol eğilimi: Ev sahibi. Gol baskısı düşük.",
+        "Canlı veri kapsamı: medium (4/8 ortak metrik)."
+      ],
+      "diagnostics": {
+        "team_power_diff": 68,
+        "goal_power_diff": 31,
+        "momentum_diff": 0,
+        "shots_on_goal_diff": 4,
+        "total_shots_diff": 9,
+        "corners_diff": 2,
+        "xg_diff": 0,
+        "direction_score": 93.14,
+        "next_goal_score": 57.24
+      }
     }
   ]
 }
