@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-26T23:08:46.344Z",
+  "generated_at": "2026-09-27T00:45:30.800Z",
   "status": "warning",
   "prediction_count": 3149,
-  "measured_count": 1153,
-  "pending_count": 1996,
-  "won_count": 603,
-  "lost_count": 550,
-  "scored_pending_count": 58,
-  "stale_pending_count": 1602,
+  "measured_count": 1187,
+  "pending_count": 1962,
+  "won_count": 615,
+  "lost_count": 572,
+  "scored_pending_count": 60,
+  "stale_pending_count": 1582,
   "stale_pending_oldest_date": "2026-09-20",
   "stale_pending_newest_date": "2026-09-26",
   "stale_pending_by_date": {
-    "2026-09-26": 659,
+    "2026-09-26": 639,
     "2026-09-25": 201,
     "2026-09-24": 92,
     "2026-09-23": 80,
@@ -22,23 +22,23 @@
   "stale_pending_top_markets": [
     {
       "market": "MS 1",
-      "count": 458
+      "count": 450
     },
     {
       "market": "2.5 Alt",
-      "count": 400
+      "count": 394
     },
     {
       "market": "MS 2",
       "count": 240
     },
     {
-      "market": "2.5 Üst",
-      "count": 115
-    },
-    {
       "market": "İY KG / 2Y KG Hayır / Hayır",
       "count": 113
+    },
+    {
+      "market": "2.5 Üst",
+      "count": 112
     },
     {
       "market": "KG Yok",
@@ -46,7 +46,7 @@
     },
     {
       "market": "KG Var",
-      "count": 90
+      "count": 89
     },
     {
       "market": "İkinci Yarı KG Yok",
@@ -188,16 +188,28 @@
       "result_score": null
     },
     {
-      "id": "2026-09-26|abd usl|san antonio tampa bay rowdi|2 5 alt|03 30",
+      "id": "2026-09-26|abd usl lig 1|corpus christi athletic club b|ms 2|03 30",
       "date": "2026-09-26",
-      "match_name": "San Antonio - Tampa Bay Rowdi",
-      "market": "2.5 Alt",
+      "match_name": "Corpus Christi - Athletic Club B",
+      "market": "MS 2",
       "result_score": null
     }
   ],
-  "last_checked": 58,
-  "last_updated": 0,
+  "last_checked": 94,
+  "last_updated": 34,
   "scored_pending_examples": [
+    {
+      "id": "2026-09-27|abd mls|charlotte chicago|ikinci yari kg yok|02 30",
+      "match_name": "Charlotte - Chicago",
+      "market": "İkinci Yarı KG Yok",
+      "result_score": "0-0"
+    },
+    {
+      "id": "2026-09-27|abd mls|montreal cincinnati|ikinci yari kg yok|02 30",
+      "match_name": "Montreal - Cincinnati",
+      "market": "İkinci Yarı KG Yok",
+      "result_score": "1-0"
+    },
     {
       "id": "2026-09-26|hollanda eerste divisie|maastricht helmond sport|iy kg 2y kg hayir hayir|21 00",
       "match_name": "Maastricht - Helmond Sport",
@@ -485,18 +497,6 @@
       "match_name": "Swindon - Newport County",
       "market": "İlk Yarı KG Yok",
       "result_score": "0-2"
-    },
-    {
-      "id": "2026-09-22|ingiltere efl trophy kuzey grup b|wigan blackpool|ilk yari kg yok|21 00",
-      "match_name": "Wigan - Blackpool",
-      "market": "İlk Yarı KG Yok",
-      "result_score": "3-2"
-    },
-    {
-      "id": "2026-09-22|ingiltere efl trophy kuzey grup g|barnsley leeds united u2|iy kg 2y kg hayir hayir|21 00",
-      "match_name": "Barnsley - Leeds United U2",
-      "market": "İY KG / 2Y KG Hayır / Hayır",
-      "result_score": "3-4"
     }
   ],
   "next_action": "Eski pending tahminler final skor koprusuyle baglanip finalizer tarafindan olculmeli."
